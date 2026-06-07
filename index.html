@@ -485,10 +485,10 @@ function initMap() {
     minZoom: 2, maxZoom: 12,
   });
 
-  L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png', {
-    attribution: '© Stadia Maps © Stamen Design © OpenStreetMap',
-    maxZoom: 20
-  }).addTo(leafMap);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors',
+    maxZoom: 19
+}).addTo(leafMap);
 
   buildMapFilters();
   buildLegend();
