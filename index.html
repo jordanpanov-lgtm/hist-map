@@ -53,9 +53,9 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 /* ── TIMELINE ── */
 #timeline-view{display:none}
-#timeline-scroll{overflow-x:auto;padding:16px 20px 20px;background:#faf9f6;border-bottom:1px solid #e8e0d0}
+#timeline-scroll{padding:16px 20px 20px;background:#faf9f6;border-bottom:1px solid #e8e0d0}
 #tl-label{font-size:9px;color:#bbb;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:8px}
-#tl-svg{display:block}
+#tl-svg{display:block;width:100%;height:auto}
 
 /* ── LIST ── */
 #list-view{display:none}
@@ -394,8 +394,28 @@ function togglePanel(head) {
 
 function filterList() {
   const q = document.getElementById('search-input').value.toLowerCase().trim();
-  document.querySelectorAll('.entry').forEach(div => {
-    div.style.display = (!q || div.textContent.toLowerCase().includes(q)) ? '' : 'none';
+  document.querySelectorAll('.cat-panel').forEach(panel => {
+    let anyVisible = false;
+    panel.querySelectorAll('.entry').forEach(div => {
+      const matches = !q || div.textContent.toLowerCase().includes(q);
+      div.style.display = matches ? '' : 'none';
+      if (matches) anyVisible = true;
+    });
+    // Auto-expand panels with matches, collapse panels with none
+    if (q) {
+      if (anyVisible) {
+        panel.classList.add('open');
+        panel.querySelector('.cat-toggle').textContent = '−';
+      } else {
+        panel.classList.remove('open');
+        panel.querySelector('.cat-toggle').textContent = '+';
+      }
+    }
+    // When search is cleared, collapse all panels again
+    if (!q) {
+      panel.classList.remove('open');
+      panel.querySelector('.cat-toggle').textContent = '+';
+    }
   });
 }
 
@@ -404,10 +424,11 @@ function buildTimeline() {
   if (!MOD) return;
   const svg  = document.getElementById('tl-svg');
   const wrap = document.getElementById('timeline-scroll');
-  const W = Math.max(640, wrap.clientWidth - 28);
+  // Use a fixed logical width — SVG will scale via viewBox + CSS width:100%
+  const W = 1000;
   const lanes = MOD.timeline;
   const MIN = MOD.period.start, MAX = MOD.period.end;
-  const LW = 160, GAP = 2;
+  const LW = 168, GAP = 2;
 
   // ── For the POWER lane, compute non-overlapping row layout ──
   // Each lane gets its own sub-row structure
@@ -443,8 +464,10 @@ function buildTimeline() {
   });
   const H = y + 22; // +22 for year axis at bottom
 
-  svg.setAttribute('width', W);
-  svg.setAttribute('height', H);
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.setAttribute('preserveAspectRatio', 'none');
+  svg.removeAttribute('width');
+  svg.removeAttribute('height');
   svg.innerHTML = '';
 
   const px = yr => LW + Math.max(0, Math.min(1, (yr-MIN)/(MAX-MIN))) * (W-LW);
@@ -570,20 +593,56 @@ function initMap() {
 function buildMapFilters() {
   const wrap = document.getElementById('map-filters');
   wrap.innerHTML = '';
+
+  const allIds = new Set(MOD.categories.map(c => c.id));
+
+  function refreshButtons() {
+    const allOn = allIds.size === activeCatIds.size;
+    wrap.querySelectorAll('.filter-pill[data-catid]').forEach(btn => {
+      const id = btn.dataset.catid;
+      btn.classList.toggle('on', activeCatIds.has(id));
+    });
+    const resetBtn = wrap.querySelector('.filter-reset');
+    if (resetBtn) resetBtn.style.opacity = allOn ? '0.4' : '1';
+  }
+
   MOD.categories.forEach(cat => {
     const icon = catIcon(cat);
     const btn = document.createElement('button');
     btn.className = 'filter-pill on';
+    btn.dataset.catid = cat.id;
     btn.style.setProperty('--accent', cat.accent);
     btn.style.setProperty('--faint', cat.accent+'18');
     btn.innerHTML = icon + ' ' + cat.label.toUpperCase();
     btn.onclick = () => {
-      activeCatIds.has(cat.id) ? activeCatIds.delete(cat.id) : activeCatIds.add(cat.id);
-      btn.classList.toggle('on', activeCatIds.has(cat.id));
+      const isAllOn = activeCatIds.size === allIds.size;
+      if (isAllOn) {
+        // First click from "all on" state: isolate this category
+        activeCatIds = new Set([cat.id]);
+      } else if (activeCatIds.has(cat.id) && activeCatIds.size === 1) {
+        // Clicking the only active one: restore all
+        activeCatIds = new Set(allIds);
+      } else {
+        // Toggle this one in/out of current selection
+        activeCatIds.has(cat.id) ? activeCatIds.delete(cat.id) : activeCatIds.add(cat.id);
+      }
+      refreshButtons();
       renderPins();
     };
     wrap.appendChild(btn);
   });
+
+  // Reset button
+  const reset = document.createElement('button');
+  reset.className = 'filter-pill filter-reset';
+  reset.style.cssText = 'border-color:#ccc;color:#aaa;opacity:0.4';
+  reset.innerHTML = '↺ ALL';
+  reset.onclick = () => {
+    activeCatIds = new Set(allIds);
+    refreshButtons();
+    renderPins();
+  };
+  wrap.appendChild(reset);
 }
 
 function buildLegend() {
@@ -652,7 +711,7 @@ window.addEventListener('load', () => {
   buildPicker();
   loadModule(MODULES[0].file);
 });
-window.addEventListener('resize', () => { if (MOD && currentView==='timeline') buildTimeline(); });
+window.addEventListener('resize', () => { /* viewBox scales automatically */ });
 </script>
 </body>
 </html>
