@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Historical Evidence Atlas</title>
+<title>Area Studies Atlas</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -11,45 +11,60 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
+/* ── TOPBAR (module selector) ── */
+#topbar{background:#1a1a1a;padding:0 20px;display:flex;align-items:center;gap:0;position:sticky;top:0;z-index:600}
+#app-label{font-family:'IM Fell English',serif;font-size:11px;color:#888;letter-spacing:.15em;padding:10px 14px 10px 0;border-right:1px solid #333;margin-right:12px;white-space:nowrap}
+#select-btn{padding:8px 14px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;background:transparent;color:#ccc;border:none;cursor:pointer;border-right:1px solid #333;display:flex;align-items:center;gap:6px;white-space:nowrap}
+#select-btn:hover{color:#fff;background:#2a2a2a}
+#module-name-top{font-size:11px;font-family:'Courier New',monospace;color:#666;padding:8px 14px;letter-spacing:.07em}
+
 /* ── HEADER ── */
-#header{background:#fff;border-bottom:1px solid #e0d8cc;padding:16px 20px 14px;position:sticky;top:0;z-index:500}
-#header-top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
-#app-title{font-family:'IM Fell English',serif;font-size:11px;color:#bbb;letter-spacing:.15em;text-transform:uppercase}
-#module-title{font-family:'IM Fell English',serif;font-size:21px;color:#1a1a1a}
+#header{background:#fff;border-bottom:1px solid #e0d8cc;padding:14px 20px 0}
+#header-top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-bottom:10px}
+#module-title{font-family:'IM Fell English',serif;font-size:22px;color:#1a1a1a}
 #module-subtitle{font-size:11px;font-family:'Courier New',monospace;color:#8B6914;letter-spacing:.13em}
-#module-cats{font-size:10px;color:#bbb;font-family:'Courier New',monospace;margin-top:3px;letter-spacing:.07em;line-height:1.7}
-#controls{display:flex;gap:8px;align-items:center;margin-top:12px;flex-wrap:wrap}
-.view-btn{padding:6px 14px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;border:1px solid #ddd;background:#fff;color:#888;cursor:pointer;border-radius:4px;transition:all .15s}
-.view-btn.active{background:#1a1a1a;color:#f0ead6;border-color:#1a1a1a}
-#module-btn{padding:6px 14px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;border:1px solid #ddd;background:#faf9f6;color:#888;cursor:pointer;border-radius:4px}
-#search-input{flex:1;min-width:160px;background:#faf9f6;border:1px solid #ddd;border-radius:4px;color:#333;padding:6px 12px;font-size:13px;font-family:Georgia,serif;outline:none}
+#module-cats{font-size:10px;color:#bbb;font-family:'Courier New',monospace;letter-spacing:.06em;padding-bottom:10px}
+
+/* ── TABS ── */
+#tabs{display:flex;gap:0;border-top:1px solid #e8e0d0}
+.tab-btn{padding:9px 18px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;border:none;background:transparent;color:#aaa;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;margin-bottom:-1px}
+.tab-btn.active{color:#1a1a1a;border-bottom-color:#1a1a1a}
+.tab-btn:hover:not(.active){color:#555}
+#search-wrap{flex:1;display:flex;align-items:center;padding:4px 0 4px 12px;border-left:1px solid #e8e0d0;margin-left:auto}
+#search-input{width:100%;background:transparent;border:none;color:#333;padding:4px 8px;font-size:13px;font-family:Georgia,serif;outline:none}
+#search-input::placeholder{color:#ccc}
 
 /* ── MODULE PICKER ── */
-#module-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:1000;align-items:center;justify-content:center;padding:20px}
+#module-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;align-items:flex-start;justify-content:flex-start;padding:0}
 #module-overlay.open{display:flex}
-#module-picker{background:#fff;border-radius:8px;padding:24px;max-width:480px;width:100%;max-height:80vh;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,.2)}
-#module-picker h2{font-family:'IM Fell English',serif;font-size:18px;margin-bottom:16px;color:#1a1a1a}
-.module-card{border:1px solid #e0d8cc;border-radius:5px;padding:12px 14px;margin-bottom:8px;cursor:pointer;transition:all .15s}
-.module-card:hover{border-color:#8B6914;background:#fffbf4}
-.module-card.active{border-color:#B22222;background:#fff5f5}
-.module-card-title{font-family:'IM Fell English',serif;font-size:14px;color:#1a1a1a}
-.module-card-sub{font-size:10px;color:#aaa;font-family:'Courier New',monospace;margin-top:2px}
-#picker-close{margin-top:8px;background:transparent;border:1px solid #ccc;color:#888;padding:5px 16px;cursor:pointer;font-size:11px;font-family:'Courier New',monospace;border-radius:3px}
-#picker-note{font-size:10px;color:#bbb;font-family:'Courier New',monospace;margin-top:12px;line-height:1.7;border-top:1px solid #eee;padding-top:10px}
+#module-picker{background:#1a1a1a;width:280px;min-height:100vh;padding:24px 20px;box-shadow:4px 0 24px rgba(0,0,0,.4)}
+#module-picker h2{font-family:'IM Fell English',serif;font-size:16px;color:#f0ead6;margin-bottom:4px}
+#picker-sub{font-size:10px;color:#555;font-family:'Courier New',monospace;margin-bottom:18px;letter-spacing:.08em}
+.module-card{border:1px solid #2a2a2a;border-radius:4px;padding:10px 12px;margin-bottom:6px;cursor:pointer;transition:all .15s}
+.module-card:hover{border-color:#8B6914;background:#222}
+.module-card.active{border-color:#B22222;background:#1f1010}
+.module-card-title{font-family:'IM Fell English',serif;font-size:13px;color:#e0d8cc}
+.module-card-sub{font-size:10px;color:#666;font-family:'Courier New',monospace;margin-top:2px}
+#picker-note{font-size:10px;color:#444;font-family:'Courier New',monospace;margin-top:16px;line-height:1.7;border-top:1px solid #2a2a2a;padding-top:12px}
+#picker-close{position:absolute;top:16px;right:16px;background:transparent;border:1px solid #333;color:#666;padding:4px 10px;cursor:pointer;font-size:11px;font-family:'Courier New',monospace;border-radius:3px}
+
+/* ── FULL-WIDTH CONTENT WRAPPER ── */
+#content-wrap{max-width:none;width:100%;padding:0}
 
 /* ── TIMELINE ── */
-#timeline-wrap{background:#faf9f6;border:1px solid #e8e0d0;border-radius:5px;padding:10px 14px;margin-top:14px;overflow-x:auto}
-#tl-label{font-size:9px;color:#bbb;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:6px}
+#timeline-view{display:none}
+#timeline-scroll{overflow-x:auto;padding:16px 20px 20px;background:#faf9f6;border-bottom:1px solid #e8e0d0}
+#tl-label{font-size:9px;color:#bbb;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:8px}
 #tl-svg{display:block}
 
 /* ── LIST ── */
-#list-view{display:block}
-#list-header{background:#fff;border-bottom:1px solid #e0d8cc;padding:12px 20px}
-#list-area{padding:14px 16px 40px;max-width:740px;margin:0 auto}
+#list-view{display:none}
+#list-area{padding:14px 20px 40px}
+
 .cat-panel{border:1px solid #ddd;border-radius:6px;margin-bottom:8px;background:#fafafa;overflow:hidden;transition:all .2s}
 .cat-panel.open{border-color:var(--accent)}
 .cat-head{padding:11px 14px;cursor:pointer;display:flex;align-items:center;gap:11px;user-select:none}
-.cat-icon-circle{width:33px;height:33px;border-radius:50%;background:#e8e8e8;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0;transition:background .2s}
+.cat-icon-circle{width:33px;height:33px;border-radius:50%;background:#f0ede6;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;transition:background .2s}
 .cat-panel.open .cat-icon-circle{background:var(--accent)}
 .cat-name{font-size:14px;font-family:'IM Fell English',serif;color:#333;transition:color .2s}
 .cat-panel.open .cat-name{color:var(--color)}
@@ -71,11 +86,11 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 /* ── MAP ── */
 #map-view{display:none}
-#map-area{padding:14px 16px 40px;max-width:740px;margin:0 auto}
+#map-area{padding:14px 20px 40px}
 #map-filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
 .filter-pill{padding:3px 10px;border-radius:20px;border:1px solid #ccc;background:#fff;color:#aaa;font-size:10px;font-family:'Courier New',monospace;letter-spacing:.06em;cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:4px}
 .filter-pill.on{border-color:var(--accent);background:var(--faint);color:var(--accent)}
-#map-container{border-radius:6px;overflow:hidden;border:1px solid #e0d8cc;height:420px}
+#map-container{border-radius:6px;overflow:hidden;border:1px solid #e0d8cc;height:calc(100vh - 220px);min-height:400px}
 #the-map{width:100%;height:100%}
 #map-legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;align-items:center}
 .leg-item{display:flex;align-items:center;gap:4px}
@@ -105,54 +120,63 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 </head>
 <body>
 
+<!-- TOP NAV BAR -->
+<div id="topbar">
+  <span id="app-label">Area Studies Atlas</span>
+  <button id="select-btn" onclick="openPicker()">⊞ Select module</button>
+  <span id="module-name-top">—</span>
+</div>
+
+<!-- HEADER -->
 <div id="header">
   <div id="header-top">
-    <span id="app-title">Historical Evidence Atlas</span>
     <span id="module-title">—</span>
     <span id="module-subtitle"></span>
   </div>
   <div id="module-cats"></div>
-  <div id="controls">
-    <button class="view-btn active" id="btn-list" onclick="setView('list')">☰ List & Timeline</button>
-    <button class="view-btn" id="btn-map" onclick="setView('map')">◎ Map</button>
-    <button id="module-btn" onclick="openPicker()">⊞ Modules</button>
-    <input id="search-input" placeholder="Search…" oninput="filterList()">
+  <div id="tabs">
+    <button class="tab-btn active" id="btn-list"     onclick="setView('list')">☰ List</button>
+    <button class="tab-btn"        id="btn-timeline" onclick="setView('timeline')">◫ Timeline</button>
+    <button class="tab-btn"        id="btn-map"      onclick="setView('map')">◎ Map</button>
+    <div id="search-wrap"><input id="search-input" placeholder="Search entries…" oninput="filterList()"></div>
   </div>
 </div>
 
-<!-- MODULE PICKER -->
+<!-- MODULE PICKER (slide-out panel) -->
 <div id="module-overlay" onclick="if(event.target===this)closePicker()">
   <div id="module-picker">
-    <h2>Select a module</h2>
+    <h2>Area Studies Atlas</h2>
+    <div id="picker-sub">SELECT A MODULE</div>
     <div id="picker-list"></div>
     <div id="picker-note">
-      To add a new module, drop a .json file into the <code>modules/</code> folder<br>
-      and add it to the <code>MODULES</code> list in index.html.<br>
-      Ask Claude to generate the JSON — it knows the schema.
+      To add a module: drop a .json file into modules/<br>
+      and add it to the MODULES list in index.html.<br>
+      Ask Claude to generate the JSON.
     </div>
-    <button id="picker-close" onclick="closePicker()">CLOSE</button>
+    <button id="picker-close" onclick="closePicker()">✕</button>
   </div>
 </div>
 
 <!-- VIEWS -->
 <div id="loading">LOADING MODULE…</div>
 
-<div id="list-view" style="display:none">
-  <div id="list-header">
-    <div id="timeline-wrap">
-      <div id="tl-label">TIMELINE — hover for labels</div>
-      <svg id="tl-svg"></svg>
-    </div>
+<div id="timeline-view">
+  <div id="timeline-scroll">
+    <div id="tl-label">TIMELINE — hover events to preview · click to open</div>
+    <svg id="tl-svg"></svg>
   </div>
+</div>
+
+<div id="list-view">
   <div id="list-area"></div>
 </div>
 
-<div id="map-view" style="display:none">
+<div id="map-view">
   <div id="map-area">
     <div id="map-filters"></div>
     <div id="map-container"><div id="the-map"></div></div>
     <div id="map-legend"></div>
-    <div id="map-note">Tiles © OpenStreetMap contributors · Pins = primary location · Tap multi-pin to list entries</div>
+    <div id="map-note">Tiles © OpenStreetMap contributors · Pins = primary location · Click multi-pin to list entries · Click any pin to open detail</div>
   </div>
 </div>
 
@@ -174,16 +198,28 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 <script>
 // ── MODULE REGISTRY ───────────────────────────────────────────────────────────
-// To add a new module: add an entry here, drop the .json in modules/
 const MODULES = [
-  { id: "rome-400-500",  file: "modules/rome-400-500.json",  label: "Roman Empire",     sub: "400–500 AD" },
-  // { id: "rome-300-400",  file: "modules/rome-300-400.json",  label: "Roman Empire",     sub: "300–400 AD" },
-  // { id: "visigoths",     file: "modules/visigoths.json",     label: "Visigoth Kingdom", sub: "410–507 AD" },
-  // Add more modules here ↑
+  { id:"rome-400-500", file:"modules/rome-400-500.json", label:"Roman Empire", sub:"400–500 AD" },
+  // { id:"rome-300-400", file:"modules/rome-300-400.json", label:"Roman Empire", sub:"300–400 AD" },
+  // { id:"visigoths",    file:"modules/visigoths.json",    label:"Visigoth Kingdom", sub:"410–507 AD" },
 ];
 
+// ── ICON MAP: override per category id ───────────────────────────────────────
+// These replace whatever icon is in the JSON with a consistent emoji set
+const CAT_ICONS = {
+  power:       "⚜️",
+  conflict:    "⚔️",
+  order:       "⚖️",
+  belief:      "🙏",
+  expression:  "✨",
+  thought:     "💡",
+  subsistence: "🌾",
+  technology:  "⚙️",
+  world:       "🌍",
+};
+
 // ── STATE ─────────────────────────────────────────────────────────────────────
-let MOD = null;         // loaded module data
+let MOD = null;
 let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
@@ -202,11 +238,12 @@ const TAG_COLORS = {
   ECONOMIC:"#8B5E00",EVENT:"#566573",CLIMATE:"#2471A3",TECHNOLOGY:"#2E7D52",
 };
 
+function catIcon(cat) { return CAT_ICONS[cat.id] || cat.icon || "•"; }
+
 // ── MODULE LOADING ────────────────────────────────────────────────────────────
 function loadModule(file) {
   document.getElementById('loading').style.display = 'flex';
-  document.getElementById('list-view').style.display = 'none';
-  document.getElementById('map-view').style.display = 'none';
+  ['list-view','timeline-view','map-view'].forEach(id => document.getElementById(id).style.display = 'none');
 
   fetch(file)
     .then(r => r.json())
@@ -216,32 +253,37 @@ function loadModule(file) {
       renderHeader();
       buildPicker();
       buildList();
-      buildTimeline();
-      if (leafMap) { leafMap.remove(); leafMap = null; }
+      if (leafMap) { leafMap.remove(); leafMap = null; markerLayer = null; }
       document.getElementById('loading').style.display = 'none';
       setView(currentView);
+      // Delay timeline build to ensure layout is complete
+      setTimeout(buildTimeline, 80);
     })
     .catch(err => {
-      document.getElementById('loading').textContent = 'Error loading module. Check the file path.';
+      document.getElementById('loading').textContent = 'Error loading module — check file path.';
       console.error(err);
     });
 }
 
 function renderHeader() {
-  document.title = MOD.title + ' ' + MOD.subtitle + ' — Historical Evidence Atlas';
+  document.title = 'Area Studies Atlas | ' + MOD.title + ' ' + MOD.subtitle;
   document.getElementById('module-title').textContent = MOD.title;
-  document.getElementById('module-subtitle').textContent = MOD.subtitle + ' · EVIDENCE-ANCHORED';
-  document.getElementById('module-cats').textContent = MOD.categories.map(c => c.label.toUpperCase()).join(' · ');
+  document.getElementById('module-subtitle').textContent = MOD.subtitle;
+  document.getElementById('module-cats').textContent = MOD.categories.map(c => (CAT_ICONS[c.id]||c.icon) + ' ' + c.label.toUpperCase()).join('  ·  ');
+  document.getElementById('module-name-top').textContent = MOD.title + ' · ' + MOD.subtitle;
 }
 
 // ── VIEW SWITCHING ────────────────────────────────────────────────────────────
 function setView(v) {
   currentView = v;
-  document.getElementById('list-view').style.display = v === 'list' ? 'block' : 'none';
-  document.getElementById('map-view').style.display  = v === 'map'  ? 'block' : 'none';
-  document.getElementById('btn-list').classList.toggle('active', v === 'list');
-  document.getElementById('btn-map').classList.toggle('active',  v === 'map');
-  if (v === 'map' && !leafMap) initMap();
+  document.getElementById('list-view').style.display      = v==='list'     ? 'block' : 'none';
+  document.getElementById('timeline-view').style.display  = v==='timeline' ? 'block' : 'none';
+  document.getElementById('map-view').style.display       = v==='map'      ? 'block' : 'none';
+  document.getElementById('btn-list').classList.toggle('active',     v==='list');
+  document.getElementById('btn-timeline').classList.toggle('active', v==='timeline');
+  document.getElementById('btn-map').classList.toggle('active',      v==='map');
+  if (v==='map' && !leafMap) initMap();
+  if (v==='timeline') setTimeout(buildTimeline, 40);
 }
 
 // ── MODULE PICKER ─────────────────────────────────────────────────────────────
@@ -250,7 +292,7 @@ function buildPicker() {
   list.innerHTML = '';
   MODULES.forEach(m => {
     const card = document.createElement('div');
-    card.className = 'module-card' + (MOD && MOD.id === m.id ? ' active' : '');
+    card.className = 'module-card' + (MOD && MOD.id===m.id ? ' active' : '');
     card.innerHTML = `<div class="module-card-title">${m.label}</div><div class="module-card-sub">${m.sub}</div>`;
     card.onclick = () => { closePicker(); loadModule(m.file); };
     list.appendChild(card);
@@ -264,7 +306,7 @@ function openModal(entry, accent) {
   const c = TAG_COLORS[entry.tag] || '#888';
   const ac = accent || c;
   document.getElementById('modal').style.borderTopColor = ac;
-  document.getElementById('modal-tag').textContent = entry.tag;
+  document.getElementById('modal-tag').textContent = entry.tag || '';
   document.getElementById('modal-tag').style.cssText = `display:inline-block;font-size:9px;font-family:'Courier New',monospace;letter-spacing:.1em;padding:2px 7px;border:1px solid ${c};color:${c};border-radius:2px;margin-bottom:6px`;
   document.getElementById('modal-title').textContent = entry.label;
   document.getElementById('modal-date').textContent = entry.date || '';
@@ -282,23 +324,27 @@ function allEntries() {
   if (!MOD) return [];
   const out = [];
   MOD.categories.forEach(cat => {
-    cat.entries.forEach(e => out.push({ ...e, catId: cat.id, accent: cat.accent }));
+    cat.entries.forEach(e => out.push({...e, catId:cat.id, accent:cat.accent}));
   });
   return out;
 }
+
+// Build a lookup from entry id → entry (with catId/accent) for timeline clicks
+function entryById(id) { return allEntries().find(e => e.id === id); }
 
 // ── LIST ──────────────────────────────────────────────────────────────────────
 function buildList() {
   const area = document.getElementById('list-area');
   area.innerHTML = '';
   MOD.categories.forEach(cat => {
+    const icon = catIcon(cat);
     const panel = document.createElement('div');
     panel.className = 'cat-panel';
     panel.style.setProperty('--accent', cat.accent);
     panel.style.setProperty('--color', cat.color);
     panel.innerHTML = `
       <div class="cat-head" onclick="togglePanel(this)">
-        <div class="cat-icon-circle">${cat.icon}</div>
+        <div class="cat-icon-circle">${icon}</div>
         <div>
           <div class="cat-name">${cat.label}</div>
           <div class="cat-sub">${cat.subtitle} · ${cat.entries.length} entries</div>
@@ -307,29 +353,17 @@ function buildList() {
       </div>
       <div class="cat-body"></div>`;
     const body = panel.querySelector('.cat-body');
-
-    // Group entries by group field if present
     const groups = {};
-    cat.entries.forEach(e => {
-      const g = e.group || '_';
-      if (!groups[g]) groups[g] = [];
-      groups[g].push(e);
-    });
-    Object.entries(groups).forEach(([g, entries]) => {
-      if (g !== '_') {
-        const lbl = document.createElement('div');
-        lbl.className = 'subgroup-label';
-        lbl.textContent = g;
-        body.appendChild(lbl);
-      }
+    cat.entries.forEach(e => { const g=e.group||'_'; if(!groups[g])groups[g]=[]; groups[g].push(e); });
+    Object.entries(groups).forEach(([g,entries]) => {
+      if (g!=='_') { const lbl=document.createElement('div'); lbl.className='subgroup-label'; lbl.textContent=g; body.appendChild(lbl); }
       entries.forEach(e => body.appendChild(makeEntry(e, cat.accent)));
     });
     area.appendChild(panel);
   });
-
   const meth = document.createElement('div');
   meth.className = 'methodology';
-  meth.textContent = 'METHODOLOGY · Every entry anchors to a datable primary source: surviving manuscript, inscription, coin series, standing monument, or datable chronicle. Locations given as ancient name with modern equivalent where useful.';
+  meth.textContent = 'METHODOLOGY · Every entry anchors to a datable primary source: surviving manuscript, inscription, coin series, standing monument, or datable chronicle.';
   area.appendChild(meth);
 }
 
@@ -337,15 +371,15 @@ function makeEntry(e, accent) {
   const div = document.createElement('div');
   div.className = 'entry';
   div.style.setProperty('--accent', accent);
-  div.style.setProperty('--accent-faint', accent + '18');
+  div.style.setProperty('--accent-faint', accent+'18');
   div.innerHTML = `
     <div>
       <div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap">
         <span class="entry-name">${e.label}</span>
-        ${e.date ? `<span class="entry-date" style="color:${accent}">${e.date}</span>` : ''}
+        ${e.date?`<span class="entry-date" style="color:${accent}">${e.date}</span>`:''}
       </div>
-      ${e.hint ? `<div class="entry-hint">${e.hint}</div>` : ''}
-      ${e.loc  ? `<div class="entry-loc">📍 ${e.loc}</div>` : ''}
+      ${e.hint?`<div class="entry-hint">${e.hint}</div>`:''}
+      ${e.loc?`<div class="entry-loc">📍 ${e.loc}</div>`:''}
     </div>
     <div class="entry-arrow">↗</div>`;
   div.onclick = () => openModal(e, accent);
@@ -353,9 +387,8 @@ function makeEntry(e, accent) {
 }
 
 function togglePanel(head) {
-  const panel = head.parentElement;
-  panel.classList.toggle('open');
-  head.querySelector('.cat-toggle').textContent = panel.classList.contains('open') ? '−' : '+';
+  const p=head.parentElement; p.classList.toggle('open');
+  head.querySelector('.cat-toggle').textContent = p.classList.contains('open') ? '−' : '+';
 }
 
 function filterList() {
@@ -368,95 +401,140 @@ function filterList() {
 // ── TIMELINE ──────────────────────────────────────────────────────────────────
 function buildTimeline() {
   if (!MOD) return;
-  const svg = document.getElementById('tl-svg');
-  const wrap = document.getElementById('timeline-wrap');
-  const W = (wrap.offsetWidth > 50 ? wrap.offsetWidth : wrap.parentElement.offsetWidth) - 28 || 640;
+  const svg  = document.getElementById('tl-svg');
+  const wrap = document.getElementById('timeline-scroll');
+  const W = Math.max(640, wrap.clientWidth - 28);
   const lanes = MOD.timeline;
   const MIN = MOD.period.start, MAX = MOD.period.end;
-  const LW = 80, RH = 26, GAP = 2;
-  const H = lanes.length * (RH + GAP) + 28;
-  const TICKS = [];
-  for (let y = Math.ceil(MIN/10)*10; y <= MAX; y += 10) TICKS.push(y);
+  const LW = 84, GAP = 2;
+
+  // ── For the POWER lane, compute non-overlapping row layout ──
+  // Each lane gets its own sub-row structure
+  function layoutSpans(events) {
+    // returns array of {ev, row} where row is 0,1,2...
+    const rows = []; // rows[i] = end year of last span placed there
+    return events.map(ev => {
+      const start = ev.y, end = (ev.y2 && ev.y2 > ev.y+1) ? ev.y2 : ev.y;
+      let r = 0;
+      while (rows[r] !== undefined && rows[r] > start) r++;
+      rows[r] = end;
+      return { ev, row: r };
+    });
+  }
+
+  // Pre-compute layout for each lane
+  const laneLayouts = lanes.map(lane => {
+    const spanned = lane.events.filter(ev => ev.y2 && ev.y2 > ev.y+1);
+    if (spanned.length === 0) return { rows: 1, layout: lane.events.map(ev => ({ev, row:0})) };
+    const layout = layoutSpans(lane.events);
+    const rows = Math.max(...layout.map(l => l.row)) + 1;
+    return { rows, layout };
+  });
+
+  // Compute Y offsets per lane
+  const ROW_H = 18; // height per sub-row
+  const LANE_PAD = 4; // top/bottom padding per lane
+  let laneOffsets = [];
+  let y = 0;
+  laneLayouts.forEach(ll => {
+    laneOffsets.push(y);
+    y += ll.rows * ROW_H + LANE_PAD * 2 + GAP;
+  });
+  const H = y + 22; // +22 for year axis at bottom
 
   svg.setAttribute('width', W);
   svg.setAttribute('height', H);
   svg.innerHTML = '';
 
-  const px = y => LW + Math.max(0, Math.min(1, (y - MIN) / (MAX - MIN))) * (W - LW);
+  const px = yr => LW + Math.max(0, Math.min(1, (yr-MIN)/(MAX-MIN))) * (W-LW);
 
-  // Grid lines
-  TICKS.forEach(y => {
-    const x = px(y);
+  // Decade grid lines + axis labels
+  const TICKS = [];
+  for (let yr = Math.ceil(MIN/10)*10; yr<=MAX; yr+=10) TICKS.push(yr);
+  TICKS.forEach(yr => {
+    const x = px(yr);
     const l = document.createElementNS('http://www.w3.org/2000/svg','line');
-    l.setAttribute('x1',x); l.setAttribute('y1',0);
-    l.setAttribute('x2',x); l.setAttribute('y2',H-18);
+    l.setAttribute('x1',x); l.setAttribute('y1',0); l.setAttribute('x2',x); l.setAttribute('y2',H-18);
     l.setAttribute('stroke','#e4ddd4'); l.setAttribute('stroke-width','0.6');
     svg.appendChild(l);
     const t = document.createElementNS('http://www.w3.org/2000/svg','text');
-    t.setAttribute('x',x); t.setAttribute('y',H-4);
-    t.setAttribute('text-anchor','middle'); t.setAttribute('font-size','8');
-    t.setAttribute('fill','#bbb'); t.setAttribute('font-family',"'Courier New',monospace");
-    t.textContent = y; svg.appendChild(t);
+    t.setAttribute('x',x); t.setAttribute('y',H-4); t.setAttribute('text-anchor','middle');
+    t.setAttribute('font-size','8'); t.setAttribute('fill','#bbb'); t.setAttribute('font-family',"'Courier New',monospace");
+    t.textContent = yr; svg.appendChild(t);
   });
 
-  // 476 marker (or midpoint if different period)
-  const mid = Math.round((MIN + MAX) / 2);
-  const markerYear = (MIN <= 476 && 476 <= MAX) ? 476 : null;
-  if (markerYear) {
-    const xm = px(markerYear);
+  // 476 AD marker line
+  if (MIN<=476 && 476<=MAX) {
+    const xm = px(476);
     const vl = document.createElementNS('http://www.w3.org/2000/svg','line');
-    vl.setAttribute('x1',xm); vl.setAttribute('y1',0);
-    vl.setAttribute('x2',xm); vl.setAttribute('y2',H-18);
-    vl.setAttribute('stroke','#B22222'); vl.setAttribute('stroke-width','1.2'); vl.setAttribute('opacity','0.4');
+    vl.setAttribute('x1',xm); vl.setAttribute('y1',0); vl.setAttribute('x2',xm); vl.setAttribute('y2',H-18);
+    vl.setAttribute('stroke','#B22222'); vl.setAttribute('stroke-width','1.2'); vl.setAttribute('opacity','0.35');
     svg.appendChild(vl);
   }
 
+  // Draw each lane
   lanes.forEach((lane, li) => {
-    const ty = li * (RH + GAP);
+    const ty = laneOffsets[li];
+    const ll = laneLayouts[li];
+    const laneH = ll.rows * ROW_H + LANE_PAD * 2;
+
+    // Lane background
     const bg = document.createElementNS('http://www.w3.org/2000/svg','rect');
-    bg.setAttribute('x',0); bg.setAttribute('y',ty);
-    bg.setAttribute('width',W); bg.setAttribute('height',RH);
-    bg.setAttribute('fill', li % 2 === 0 ? '#faf9f6' : '#f4f1eb'); bg.setAttribute('rx','2');
+    bg.setAttribute('x',0); bg.setAttribute('y',ty); bg.setAttribute('width',W); bg.setAttribute('height',laneH);
+    bg.setAttribute('fill', li%2===0 ? '#faf9f6' : '#f4f1eb'); bg.setAttribute('rx','2');
     svg.appendChild(bg);
 
+    // Lane label (icon + name)
+    const licon = CAT_ICONS[lane.id] || lane.icon || '';
     const lt = document.createElementNS('http://www.w3.org/2000/svg','text');
-    lt.setAttribute('x','4'); lt.setAttribute('y', ty + RH/2 + 4);
-    lt.setAttribute('font-size','9'); lt.setAttribute('fill', lane.accent);
+    lt.setAttribute('x','4'); lt.setAttribute('y', ty + laneH/2 + 4);
+    lt.setAttribute('font-size','11'); lt.setAttribute('fill', lane.accent);
     lt.setAttribute('font-family',"'Courier New',monospace"); lt.setAttribute('font-weight','600');
-    lt.textContent = lane.icon + ' ' + lane.id.slice(0,8).toUpperCase();
+    lt.textContent = licon + ' ' + lane.id.slice(0,7).toUpperCase();
     svg.appendChild(lt);
 
-    lane.events.forEach(ev => {
-      const isSpan = ev.y2 && ev.y2 > ev.y + 1;
+    // Draw events
+    ll.layout.forEach(({ ev, row }) => {
+      const isSpan = ev.y2 && ev.y2 > ev.y+1;
       const x1 = px(Math.max(MIN, ev.y));
-      const tip = ev.l + (ev.y2 && ev.y2 !== ev.y ? ` (${ev.y}–${ev.y2})` : ` (${ev.y})`);
+      const rowY = ty + LANE_PAD + row * ROW_H;
+      const tip = ev.l + (ev.y2 && ev.y2!==ev.y ? ` (${ev.y}–${ev.y2})` : ` (${ev.y})`);
+
+      // Find matching entry in data for click
+      const matchEntry = allEntries().find(e => e.label === ev.l || (ev.entryId && e.id === ev.entryId));
+      const clickFn = matchEntry ? () => openModal(matchEntry, matchEntry.accent) : null;
 
       if (isSpan) {
         const x2 = px(Math.min(MAX, ev.y2));
+        const barH = ROW_H - 4;
         const r = document.createElementNS('http://www.w3.org/2000/svg','rect');
-        r.setAttribute('x', x1); r.setAttribute('y', ty + RH*.22);
-        r.setAttribute('width', Math.max(2, x2-x1)); r.setAttribute('height', RH*.56);
-        r.setAttribute('fill', lane.accent+'40'); r.setAttribute('rx','2');
-        r.setAttribute('stroke', lane.accent+'80'); r.setAttribute('stroke-width','0.8');
+        r.setAttribute('x', x1); r.setAttribute('y', rowY + 2);
+        r.setAttribute('width', Math.max(2, x2-x1)); r.setAttribute('height', barH);
+        r.setAttribute('fill', lane.accent+'50'); r.setAttribute('rx','2');
+        r.setAttribute('stroke', lane.accent+'90'); r.setAttribute('stroke-width','0.8');
         r.style.cursor = 'pointer';
         r.addEventListener('mouseenter', e => showTip(tip, e));
         r.addEventListener('mouseleave', hideTip);
+        if (clickFn) r.addEventListener('click', clickFn);
         svg.appendChild(r);
-        if (x2 - x1 > 20) {
+        if (x2-x1 > 24) {
           const rt = document.createElementNS('http://www.w3.org/2000/svg','text');
-          rt.setAttribute('x', x1+3); rt.setAttribute('y', ty+RH/2+3.5);
+          rt.setAttribute('x', x1+4); rt.setAttribute('y', rowY + ROW_H/2 + 3.5);
           rt.setAttribute('font-size','7'); rt.setAttribute('fill', lane.accent);
           rt.setAttribute('font-family',"'Courier New',monospace"); rt.textContent = ev.l;
+          rt.style.pointerEvents = 'none';
           svg.appendChild(rt);
         }
       } else {
+        const cx = x1, cy = rowY + ROW_H/2;
         const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
-        c.setAttribute('cx', x1); c.setAttribute('cy', ty + RH/2);
+        c.setAttribute('cx', cx); c.setAttribute('cy', cy);
         c.setAttribute('r','4'); c.setAttribute('fill', lane.accent);
         c.setAttribute('stroke','white'); c.setAttribute('stroke-width','1.2');
         c.style.cursor = 'pointer';
         c.addEventListener('mouseenter', e => showTip(tip, e));
         c.addEventListener('mouseleave', hideTip);
+        if (clickFn) c.addEventListener('click', clickFn);
         svg.appendChild(c);
       }
     });
@@ -465,31 +543,18 @@ function buildTimeline() {
 
 let tipEl = null;
 function showTip(text, e) {
-  if (!tipEl) {
-    tipEl = document.createElement('div');
-    tipEl.style.cssText = 'position:fixed;background:#1a1a1a;color:#f0ead6;font-size:11px;font-family:Georgia,serif;padding:4px 10px;border-radius:3px;pointer-events:none;z-index:9999;white-space:nowrap';
-    document.body.appendChild(tipEl);
-  }
+  if (!tipEl) { tipEl=document.createElement('div'); tipEl.style.cssText='position:fixed;background:#1a1a1a;color:#f0ead6;font-size:11px;font-family:Georgia,serif;padding:4px 10px;border-radius:3px;pointer-events:none;z-index:9999;white-space:nowrap'; document.body.appendChild(tipEl); }
   tipEl.textContent = text;
-  tipEl.style.left = (e.clientX + 10) + 'px';
-  tipEl.style.top  = (e.clientY - 28) + 'px';
-  tipEl.style.display = 'block';
+  tipEl.style.left = (e.clientX+10)+'px'; tipEl.style.top=(e.clientY-28)+'px'; tipEl.style.display='block';
 }
-function hideTip() { if (tipEl) tipEl.style.display = 'none'; }
+function hideTip() { if(tipEl) tipEl.style.display='none'; }
 
 // ── MAP ────────────────────────────────────────────────────────────────────────
 function initMap() {
-  leafMap = L.map('the-map', {
-    center: MOD.mapCenter || [42, 18],
-    zoom:   MOD.mapZoom   || 4,
-    minZoom: 2, maxZoom: 12,
-  });
-
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors',
-    maxZoom: 19
-}).addTo(leafMap);
-
+  leafMap = L.map('the-map', { center:MOD.mapCenter||[42,18], zoom:MOD.mapZoom||4, minZoom:2, maxZoom:12 });
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution:'© OpenStreetMap contributors', maxZoom:19
+  }).addTo(leafMap);
   buildMapFilters();
   buildLegend();
   renderPins();
@@ -499,11 +564,12 @@ function buildMapFilters() {
   const wrap = document.getElementById('map-filters');
   wrap.innerHTML = '';
   MOD.categories.forEach(cat => {
+    const icon = catIcon(cat);
     const btn = document.createElement('button');
     btn.className = 'filter-pill on';
     btn.style.setProperty('--accent', cat.accent);
-    btn.style.setProperty('--faint', cat.accent + '18');
-    btn.innerHTML = cat.icon + ' ' + cat.label.toUpperCase();
+    btn.style.setProperty('--faint', cat.accent+'18');
+    btn.innerHTML = icon + ' ' + cat.label.toUpperCase();
     btn.onclick = () => {
       activeCatIds.has(cat.id) ? activeCatIds.delete(cat.id) : activeCatIds.add(cat.id);
       btn.classList.toggle('on', activeCatIds.has(cat.id));
@@ -517,66 +583,57 @@ function buildLegend() {
   const wrap = document.getElementById('map-legend');
   wrap.innerHTML = '';
   MOD.categories.forEach(cat => {
-    const d = document.createElement('div');
-    d.className = 'leg-item';
-    d.innerHTML = `<div class="leg-dot" style="background:${cat.accent}"></div><span class="leg-label">${cat.label}</span>`;
+    const d = document.createElement('div'); d.className='leg-item';
+    d.innerHTML = `<div class="leg-dot" style="background:${cat.accent}"></div><span class="leg-label">${catIcon(cat)} ${cat.label}</span>`;
     wrap.appendChild(d);
   });
 }
 
-// Global store for map popup entry access
 window._mapEntries = {};
 
 function renderPins() {
   if (!leafMap) return;
   if (markerLayer) markerLayer.clearLayers();
   markerLayer = L.layerGroup().addTo(leafMap);
-
   const entries = allEntries().filter(e => e.coords && activeCatIds.has(e.catId));
-
-  // Group by snapped coord
   const groups = {};
   entries.forEach(e => {
-    const key = e.coords[0].toFixed(1) + ',' + e.coords[1].toFixed(1);
-    if (!groups[key]) groups[key] = { latlng: e.coords, items: [] };
+    const key = e.coords[0].toFixed(1)+','+e.coords[1].toFixed(1);
+    if (!groups[key]) groups[key]={latlng:e.coords,items:[]};
     groups[key].items.push(e);
     window._mapEntries[e.id] = e;
   });
 
-  Object.values(groups).forEach(({ latlng, items }) => {
-    const multi = items.length > 1;
+  Object.values(groups).forEach(({latlng,items}) => {
+    const multi = items.length>1;
     let html, size;
-
     if (multi) {
-      const R = 12, total = Math.min(items.length, 8);
-      let slices = '';
-      items.slice(0, total).forEach((it, i) => {
-        const a0 = (i/total)*2*Math.PI - Math.PI/2;
-        const a1 = ((i+1)/total)*2*Math.PI - Math.PI/2;
-        const x1=R+R*Math.cos(a0), y1=R+R*Math.sin(a0);
-        const x2=R+R*Math.cos(a1), y2=R+R*Math.sin(a1);
-        slices += `<path d="M${R},${R} L${x1},${y1} A${R},${R} 0 ${(a1-a0)>Math.PI?1:0} 1 ${x2},${y2} Z" fill="${it.accent}" opacity="0.9"/>`;
+      const R=12, total=Math.min(items.length,8);
+      let slices='';
+      items.slice(0,total).forEach((it,i) => {
+        const a0=(i/total)*2*Math.PI-Math.PI/2, a1=((i+1)/total)*2*Math.PI-Math.PI/2;
+        const x1=R+R*Math.cos(a0),y1=R+R*Math.sin(a0),x2=R+R*Math.cos(a1),y2=R+R*Math.sin(a1);
+        slices+=`<path d="M${R},${R} L${x1},${y1} A${R},${R} 0 ${(a1-a0)>Math.PI?1:0} 1 ${x2},${y2} Z" fill="${it.accent}" opacity="0.9"/>`;
       });
-      html = `<div style="width:28px;height:28px;border-radius:50%;border:2px solid white;box-shadow:0 1px 5px rgba(0,0,0,.4);overflow:hidden;background:white;cursor:pointer"><svg width="28" height="28" viewBox="0 0 24 24">${slices}</svg></div>`;
-      size = [28,28];
+      html=`<div style="width:28px;height:28px;border-radius:50%;border:2px solid white;box-shadow:0 1px 5px rgba(0,0,0,.4);overflow:hidden;background:white;cursor:pointer"><svg width="28" height="28" viewBox="0 0 24 24">${slices}</svg></div>`;
+      size=[28,28];
     } else {
-      const cat = MOD.categories.find(c => c.id === items[0].catId);
-      html = `<div style="width:26px;height:26px;border-radius:50%;background:${items[0].accent};border:2px solid white;box-shadow:0 1px 5px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;font-size:12px;cursor:pointer">${cat?.icon||'·'}</div>`;
-      size = [26,26];
+      const icon = catIcon(MOD.categories.find(c=>c.id===items[0].catId)||{});
+      html=`<div style="width:26px;height:26px;border-radius:50%;background:${items[0].accent};border:2px solid white;box-shadow:0 1px 5px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer">${icon}</div>`;
+      size=[26,26];
     }
-
-    const icon = L.divIcon({ html, className:'', iconSize:size, iconAnchor:[size[0]/2,size[1]/2] });
-    const marker = L.marker(latlng, { icon }).addTo(markerLayer);
+    const lIcon = L.divIcon({html, className:'', iconSize:size, iconAnchor:[size[0]/2,size[1]/2]});
+    const marker = L.marker(latlng,{icon:lIcon}).addTo(markerLayer);
 
     if (multi) {
       const listHtml = items.map(it =>
         `<div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;cursor:pointer" onclick="openModal(window._mapEntries['${it.id}'],'${it.accent}')">
-           <span style="width:8px;height:8px;border-radius:50%;background:${it.accent};display:inline-block;flex-shrink:0"></span>
-           <span style="font-size:12px;font-family:Georgia,serif">${it.label}</span>
-           <span style="font-size:10px;color:#999;font-family:'Courier New',monospace">${it.date||''}</span>
-         </div>`
+          <span style="width:8px;height:8px;border-radius:50%;background:${it.accent};display:inline-block;flex-shrink:0"></span>
+          <span style="font-size:12px;font-family:Georgia,serif">${it.label}</span>
+          <span style="font-size:10px;color:#999;font-family:'Courier New',monospace">${it.date||''}</span>
+        </div>`
       ).join('');
-      marker.bindPopup(`<div style="min-width:180px;max-width:240px">${listHtml}</div>`, { maxWidth:260 });
+      marker.bindPopup(`<div style="min-width:180px;max-width:240px">${listHtml}</div>`,{maxWidth:260});
     } else {
       marker.on('click', () => openModal(items[0], items[0].accent));
     }
@@ -588,7 +645,7 @@ window.addEventListener('load', () => {
   buildPicker();
   loadModule(MODULES[0].file);
 });
-window.addEventListener('resize', () => { if (MOD) buildTimeline(); });
+window.addEventListener('resize', () => { if (MOD && currentView==='timeline') buildTimeline(); });
 </script>
 </body>
 </html>
