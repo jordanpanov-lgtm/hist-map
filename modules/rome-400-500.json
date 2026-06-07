@@ -11,24 +11,24 @@
       "color": "#8B1A1A", "accent": "#B22222", "bg": "#FFF5F5",
       "subtitle": "Rulers & successions",
       "entries": [
-        { "id":"w1",  "group":"Western Empire", "label":"Honorius",           "date":"395–423",           "loc":"Ravenna (court from 402); previously Milan",                  "coords":[44.4,12.2],  "hint":"Inherited throne age 10 on death of father Theodosius I; never led an army.",                          "tag":"SUCCESSION", "note":"Coin evidence: solidus series minted Ravenna/Mediolanum. Court relocated to Ravenna 402." },
-        { "id":"w2",  "group":"Western Empire", "label":"Constantius III",    "date":"421 (7 months)",    "loc":"Ravenna",                                                     "coords":[44.4,12.2],  "hint":"General who married Galla Placidia, then muscled Honorius into making him co-emperor.",              "tag":"COUP",       "note":"Co-emperor with Honorius. Copper and gold coinage confirms brief reign. Died Aug 421." },
-        { "id":"w3",  "group":"Western Empire", "label":"Valentinian III",    "date":"425–455",           "loc":"Ravenna (court); Rome (ceremonial)",                          "coords":[41.9,12.5],  "hint":"Crowned age 6; real power held first by his mother Galla Placidia, then by general Aetius.",         "tag":"SUCCESSION", "note":"Ivory diptych of consul Probus 406, later coins depict Valentinian. Murdered 16 Mar 455 — Hydatius Chronicle records date." },
-        { "id":"w4",  "group":"Western Empire", "label":"Petronius Maximus",  "date":"Mar–May 455",       "loc":"Rome",                                                        "coords":[41.9,12.5],  "hint":"Wealthy senator who organised Valentinian III's assassination, then seized the throne.",              "tag":"COUP",       "note":"11-week reign. Solidus coinage confirmed. Mob-killed 31 May 455 per Prosper of Aquitaine." },
-        { "id":"w5",  "group":"Western Empire", "label":"Avitus",             "date":"455–456",           "loc":"Arles (proclaimed); Rome (brief residence)",                  "coords":[43.7,4.6],   "hint":"Gallic aristocrat elevated by Visigoth king Theoderic II; deposed by general Ricimer.",              "tag":"COUP",       "note":"Sidonius Apollinaris composed panegyric for him (Carmen VII, 456 AD). Deposed Oct 456." },
-        { "id":"w6",  "group":"Western Empire", "label":"Majorian",           "date":"457–461",           "loc":"Ravenna (base); campaigns to Gaul, Spain",                    "coords":[44.4,12.2],  "hint":"Last Western emperor to mount serious military campaigns; murdered by strongman Ricimer.",             "tag":"COUP",       "note":"Seven novels (imperial laws) survive bearing his name and exact dates. Murdered 7 Aug 461." },
-        { "id":"w7",  "group":"Western Empire", "label":"Libius Severus",     "date":"461–465",           "loc":"Ravenna",                                                     "coords":[44.4,12.2],  "hint":"Puppet installed by Ricimer; not recognised by Constantinople.",                                        "tag":"PUPPET",     "note":"Sparse coinage. John of Antioch records him as figurehead." },
-        { "id":"w8",  "group":"Western Empire", "label":"Anthemius",          "date":"467–472",           "loc":"Rome",                                                        "coords":[41.9,12.5],  "hint":"Eastern candidate sent by Leo I to restore Western authority; killed in civil war with Ricimer.",     "tag":"APPOINTED",  "note":"Greek inscription from Rome survives. Sidonius Apollinaris: panegyric Carmen II delivered 1 Jan 468." },
-        { "id":"w9",  "group":"Western Empire", "label":"Olybrius",           "date":"Apr–Nov 472",       "loc":"Rome",                                                        "coords":[41.9,12.5],  "hint":"Puppet of Ricimer; reigned barely seven months before dying of illness.",                              "tag":"PUPPET",     "note":"Solidus coins minted. Malalas chronicle records death." },
-        { "id":"w10", "group":"Western Empire", "label":"Glycerius",          "date":"473–474",           "loc":"Mediolanum (Milan)",                                           "coords":[45.5,9.2],   "hint":"Army commander elevated locally at Milan; deposed on arrival of Eastern-backed Julius Nepos.",        "tag":"COUP",       "note":"Deposed by Julius Nepos. Coins minted Milan only." },
-        { "id":"w11", "group":"Western Empire", "label":"Julius Nepos",       "date":"474–480 (de jure)", "loc":"Ravenna; then Salona, Dalmatia (in exile)",                   "coords":[43.5,16.5],  "hint":"Last emperor recognised by both East and West; fled to Dalmatia when Orestes revolted.",              "tag":"LEGITIMATE", "note":"Solidus coins. Assassinated in Dalmatia 480 per Cassiodorus." },
-        { "id":"w12", "group":"Western Empire", "label":"Romulus Augustulus", "date":"475–476",           "loc":"Ravenna (court); exiled to Castellum Lucullanum, Bay of Naples","coords":[40.8,14.2],  "hint":"Boy emperor installed by his father Orestes; deposed 4 Sep 476 by Odoacer.",                          "tag":"DEPOSED",    "note":"Ennodius and Cassiodorus both record 4 Sep 476. Castellum Lucullanum = Pizzofalcone, Naples bay." },
-        { "id":"e1",  "group":"Eastern Empire", "label":"Arcadius",           "date":"395–408",           "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"Inherited Eastern throne age 17; dominated by court factions.",                                       "tag":"SUCCESSION", "note":"Inscription base of obelisk, Hippodrome Constantinople (extant). Died 1 May 408." },
-        { "id":"e2",  "group":"Eastern Empire", "label":"Theodosius II",      "date":"408–450",           "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"Longest-reigning emperor of the century; compiled the Theodosian Code, built the great walls.",     "tag":"SUCCESSION", "note":"Theodosian Code promulgated 15 Feb 438. Theodosian Walls 413 AD (still standing). Died horse accident 28 Jul 450." },
-        { "id":"e3",  "group":"Eastern Empire", "label":"Marcian",            "date":"450–457",           "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"Military officer who married empress Pulcheria to legitimise his claim; called Chalcedon.",            "tag":"MARRIAGE",   "note":"Council of Chalcedon 451 convened under him — acts survive. Ivory consular diptych 451 extant." },
-        { "id":"e4",  "group":"Eastern Empire", "label":"Leo I",              "date":"457–474",           "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"First emperor formally crowned by the Patriarch of Constantinople.",                                   "tag":"SUCCESSION", "note":"Ceremony attested Theophanes Confessor. Novellae survive." },
-        { "id":"e5",  "group":"Eastern Empire", "label":"Leo II",             "date":"474 (10 mo.)",      "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"Seven-year-old grandson of Leo I; died of illness before ruling alone.",                               "tag":"SUCCESSION", "note":"Gold coinage. Died of illness Nov 474." },
-        { "id":"e6",  "group":"Eastern Empire", "label":"Zeno",               "date":"474–491",           "loc":"Constantinople (court); Isauria (origin)",                     "coords":[41.01,28.97], "hint":"Isaurian general; seized sole rule on son's death, twice exiled and restored.",                       "tag":"COUP",       "note":"Henotikon edict 482 — text in Evagrius Scholasticus HE III.14." }
+        { "id":"w1",  "group":"Western Empire", "dynasty":"Theodosian", "label":"Honorius",           "date":"395–423",           "loc":"Ravenna (court from 402); previously Milan",                  "coords":[44.4,12.2],  "hint":"Inherited throne age 10 on death of father Theodosius I; never led an army.",                          "tag":"SUCCESSION", "note":"Coin evidence: solidus series minted Ravenna/Mediolanum. Court relocated to Ravenna 402." },
+        { "id":"w2",  "group":"Western Empire", "dynasty":"Theodosian", "label":"Constantius III",    "date":"421 (7 months)",    "loc":"Ravenna",                                                     "coords":[44.4,12.2],  "hint":"General who married Galla Placidia, then muscled Honorius into making him co-emperor.",              "tag":"COUP",       "note":"Co-emperor with Honorius. Copper and gold coinage confirms brief reign. Died Aug 421." },
+        { "id":"w3",  "group":"Western Empire", "dynasty":"Theodosian", "label":"Valentinian III",    "date":"425–455",           "loc":"Ravenna (court); Rome (ceremonial)",                          "coords":[41.9,12.5],  "hint":"Crowned age 6; real power held first by his mother Galla Placidia, then by general Aetius.",         "tag":"SUCCESSION", "note":"Ivory diptych of consul Probus 406, later coins depict Valentinian. Murdered 16 Mar 455 — Hydatius Chronicle records date." },
+        { "id":"w4",  "group":"Western Empire", "dynasty":"Post-Theodosian (W)", "label":"Petronius Maximus",  "date":"Mar–May 455",       "loc":"Rome",                                                        "coords":[41.9,12.5],  "hint":"Wealthy senator who organised Valentinian III's assassination, then seized the throne.",              "tag":"COUP",       "note":"11-week reign. Solidus coinage confirmed. Mob-killed 31 May 455 per Prosper of Aquitaine." },
+        { "id":"w5",  "group":"Western Empire", "dynasty":"Post-Theodosian (W)", "label":"Avitus",             "date":"455–456",           "loc":"Arles (proclaimed); Rome (brief residence)",                  "coords":[43.7,4.6],   "hint":"Gallic aristocrat elevated by Visigoth king Theoderic II; deposed by general Ricimer.",              "tag":"COUP",       "note":"Sidonius Apollinaris composed panegyric for him (Carmen VII, 456 AD). Deposed Oct 456." },
+        { "id":"w6",  "group":"Western Empire", "dynasty":"Post-Theodosian (W)", "label":"Majorian",           "date":"457–461",           "loc":"Ravenna (base); campaigns to Gaul, Spain",                    "coords":[44.4,12.2],  "hint":"Last Western emperor to mount serious military campaigns; murdered by strongman Ricimer.",             "tag":"COUP",       "note":"Seven novels (imperial laws) survive bearing his name and exact dates. Murdered 7 Aug 461." },
+        { "id":"w7",  "group":"Western Empire", "dynasty":"Post-Theodosian (W)", "label":"Libius Severus",     "date":"461–465",           "loc":"Ravenna",                                                     "coords":[44.4,12.2],  "hint":"Puppet installed by Ricimer; not recognised by Constantinople.",                                        "tag":"PUPPET",     "note":"Sparse coinage. John of Antioch records him as figurehead." },
+        { "id":"w8",  "group":"Western Empire", "dynasty":"Post-Theodosian (W)", "label":"Anthemius",          "date":"467–472",           "loc":"Rome",                                                        "coords":[41.9,12.5],  "hint":"Eastern candidate sent by Leo I to restore Western authority; killed in civil war with Ricimer.",     "tag":"APPOINTED",  "note":"Greek inscription from Rome survives. Sidonius Apollinaris: panegyric Carmen II delivered 1 Jan 468." },
+        { "id":"w9",  "group":"Western Empire", "dynasty":"Post-Theodosian (W)", "label":"Olybrius",           "date":"Apr–Nov 472",       "loc":"Rome",                                                        "coords":[41.9,12.5],  "hint":"Puppet of Ricimer; reigned barely seven months before dying of illness.",                              "tag":"PUPPET",     "note":"Solidus coins minted. Malalas chronicle records death." },
+        { "id":"w10", "group":"Western Empire", "dynasty":"Post-Theodosian (W)", "label":"Glycerius",          "date":"473–474",           "loc":"Mediolanum (Milan)",                                           "coords":[45.5,9.2],   "hint":"Army commander elevated locally at Milan; deposed on arrival of Eastern-backed Julius Nepos.",        "tag":"COUP",       "note":"Deposed by Julius Nepos. Coins minted Milan only." },
+        { "id":"w11", "group":"Western Empire", "dynasty":"Post-Theodosian (W)", "label":"Julius Nepos",       "date":"474–480 (de jure)", "loc":"Ravenna; then Salona, Dalmatia (in exile)",                   "coords":[43.5,16.5],  "hint":"Last emperor recognised by both East and West; fled to Dalmatia when Orestes revolted.",              "tag":"LEGITIMATE", "note":"Solidus coins. Assassinated in Dalmatia 480 per Cassiodorus." },
+        { "id":"w12", "group":"Western Empire", "dynasty":"Post-Theodosian (W)", "label":"Romulus Augustulus", "date":"475–476",           "loc":"Ravenna (court); exiled to Castellum Lucullanum, Bay of Naples","coords":[40.8,14.2],  "hint":"Boy emperor installed by his father Orestes; deposed 4 Sep 476 by Odoacer.",                          "tag":"DEPOSED",    "note":"Ennodius and Cassiodorus both record 4 Sep 476. Castellum Lucullanum = Pizzofalcone, Naples bay." },
+        { "id":"e1",  "group":"Eastern Empire", "dynasty":"Theodosian", "label":"Arcadius",           "date":"395–408",           "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"Inherited Eastern throne age 17; dominated by court factions.",                                       "tag":"SUCCESSION", "note":"Inscription base of obelisk, Hippodrome Constantinople (extant). Died 1 May 408." },
+        { "id":"e2",  "group":"Eastern Empire", "dynasty":"Theodosian", "label":"Theodosius II",      "date":"408–450",           "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"Longest-reigning emperor of the century; compiled the Theodosian Code, built the great walls.",     "tag":"SUCCESSION", "note":"Theodosian Code promulgated 15 Feb 438. Theodosian Walls 413 AD (still standing). Died horse accident 28 Jul 450." },
+        { "id":"e3",  "group":"Eastern Empire", "dynasty":"Theodosian", "label":"Marcian",            "date":"450–457",           "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"Military officer who married empress Pulcheria to legitimise his claim; called Chalcedon.",            "tag":"MARRIAGE",   "note":"Council of Chalcedon 451 convened under him — acts survive. Ivory consular diptych 451 extant." },
+        { "id":"e4",  "group":"Eastern Empire", "dynasty":"Leonid",     "label":"Leo I",              "date":"457–474",           "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"First emperor formally crowned by the Patriarch of Constantinople.",                                   "tag":"SUCCESSION", "note":"Ceremony attested Theophanes Confessor. Novellae survive." },
+        { "id":"e5",  "group":"Eastern Empire", "dynasty":"Leonid",     "label":"Leo II",             "date":"474 (10 mo.)",      "loc":"Constantinople",                                               "coords":[41.01,28.97], "hint":"Seven-year-old grandson of Leo I; died of illness before ruling alone.",                               "tag":"SUCCESSION", "note":"Gold coinage. Died of illness Nov 474." },
+        { "id":"e6",  "group":"Eastern Empire", "dynasty":"Leonid",     "label":"Zeno",               "date":"474–491",           "loc":"Constantinople (court); Isauria (origin)",                     "coords":[41.01,28.97], "hint":"Isaurian general; seized sole rule on son's death, twice exiled and restored.",                       "tag":"COUP",       "note":"Henotikon edict 482 — text in Evagrius Scholasticus HE III.14." }
       ]
     },
     {
@@ -138,14 +138,83 @@
     }
   ],
   "timeline": [
-    {"id":"power",       "icon":"♛","accent":"#B22222","events":[{"y":395,"y2":408,"l":"Arcadius (E)"},{"y":395,"y2":423,"l":"Honorius (W)"},{"y":408,"y2":450,"l":"Theodosius II (E)"},{"y":421,"y2":421,"l":"Constantius III"},{"y":425,"y2":455,"l":"Valentinian III (W)"},{"y":450,"y2":457,"l":"Marcian (E)"},{"y":455,"y2":456,"l":"Avitus"},{"y":457,"y2":461,"l":"Majorian"},{"y":457,"y2":474,"l":"Leo I (E)"},{"y":461,"y2":465,"l":"Libius Severus"},{"y":467,"y2":472,"l":"Anthemius"},{"y":474,"y2":491,"l":"Zeno (E)"},{"y":475,"y2":476,"l":"Romulus Aug."}]},
-    {"id":"conflict",    "icon":"⚔","accent":"#7D3C98","events":[{"y":402,"l":"Pollentia"},{"y":406,"l":"Rhine crossing"},{"y":410,"l":"Rome sacked"},{"y":451,"l":"Châlons"},{"y":452,"l":"Attila–Italy"},{"y":455,"l":"Vandals–Rome"},{"y":460,"l":"Cartagena"},{"y":468,"l":"Cape Bon"},{"y":476,"l":"476"}]},
-    {"id":"order",       "icon":"⚖","accent":"#2471A3","events":[{"y":413,"l":"Walls"},{"y":438,"l":"Theod. Code"},{"y":458,"l":"Novellae"},{"y":482,"l":"Henotikon"},{"y":484,"l":"Schism"}]},
-    {"id":"belief",      "icon":"✝","accent":"#1E8449","events":[{"y":420,"l":"Jerome †"},{"y":431,"l":"Ephesus I"},{"y":449,"l":"Ephesus II"},{"y":451,"l":"Chalcedon"},{"y":484,"l":"Schism"}]},
-    {"id":"expression",  "icon":"◈","accent":"#8D6E63","events":[{"y":388,"l":"Missorium"},{"y":400,"l":"Baptistery"},{"y":402,"l":"Col. Arcadius"},{"y":425,"l":"Galla Placidia"}]},
-    {"id":"thought",     "icon":"📖","accent":"#566573","events":[{"y":417,"l":"Orosius"},{"y":426,"l":"City of God"},{"y":427,"l":"Hydatius"},{"y":448,"l":"Priscus"},{"y":455,"l":"Sidonius"}]},
-    {"id":"subsistence", "icon":"🌾","accent":"#8B5E00","events":[{"y":429,"l":"Vandals–Africa"},{"y":439,"l":"Carthage falls"},{"y":455,"l":"Coinage collapse"}]},
-    {"id":"technology",  "icon":"⚙","accent":"#2E7D52","events":[{"y":402,"l":"Ravenna base"},{"y":413,"l":"Theodosian Walls"},{"y":447,"l":"Walls restored"}]},
-    {"id":"world",       "icon":"🌍","accent":"#2471A3","events":[{"y":376,"l":"Gothic crossing"},{"y":446,"l":"Plague"},{"y":447,"l":"Quake"},{"y":453,"l":"Hunnic collapse"}]}
+    {"id":"theodosian",        "icon":"⚜️","accent":"#B22222","label":"Theodosian dynasty",        "events":[
+      {"y":395,"y2":408,"l":"Arcadius (E)",        "entryId":"e1"},
+      {"y":395,"y2":423,"l":"Honorius (W)",         "entryId":"w1"},
+      {"y":408,"y2":450,"l":"Theodosius II (E)",    "entryId":"e2"},
+      {"y":421,"y2":421,"l":"Constantius III",      "entryId":"w2"},
+      {"y":425,"y2":455,"l":"Valentinian III (W)",  "entryId":"w3"},
+      {"y":450,"y2":457,"l":"Marcian (E)",          "entryId":"e3"}
+    ]},
+    {"id":"post-theodosian-w", "icon":"⚜️","accent":"#C0392B","label":"Post-Theodosian (West)",    "events":[
+      {"y":455,"y2":456,"l":"Petronius Maximus",    "entryId":"w4"},
+      {"y":455,"y2":456,"l":"Avitus",               "entryId":"w5"},
+      {"y":457,"y2":461,"l":"Majorian",             "entryId":"w6"},
+      {"y":461,"y2":465,"l":"Libius Severus",       "entryId":"w7"},
+      {"y":467,"y2":472,"l":"Anthemius",            "entryId":"w8"},
+      {"y":472,"y2":472,"l":"Olybrius",             "entryId":"w9"},
+      {"y":473,"y2":474,"l":"Glycerius",            "entryId":"w10"},
+      {"y":474,"y2":480,"l":"Julius Nepos",         "entryId":"w11"},
+      {"y":475,"y2":476,"l":"Romulus Aug.",         "entryId":"w12"}
+    ]},
+    {"id":"leonid",            "icon":"⚜️","accent":"#884EA0","label":"Leonid dynasty (East)",      "events":[
+      {"y":457,"y2":474,"l":"Leo I",                "entryId":"e4"},
+      {"y":474,"y2":474,"l":"Leo II",               "entryId":"e5"},
+      {"y":474,"y2":491,"l":"Zeno",                 "entryId":"e6"}
+    ]},
+    {"id":"conflict",    "icon":"⚔️","accent":"#7D3C98","events":[
+      {"y":402,"l":"Battle of Pollentia",                   "entryId":"m1"},
+      {"y":406,"l":"Rhine crossing",                        "entryId":"m2"},
+      {"y":410,"l":"Sack of Rome (Alaric)",                 "entryId":"m3"},
+      {"y":451,"l":"Catalaunian Plains",                    "entryId":"m4"},
+      {"y":452,"l":"Attila invades Italy",                  "entryId":"m5"},
+      {"y":455,"l":"Vandal Sack of Rome",                   "entryId":"m6"},
+      {"y":460,"l":"Fleet at Cartagena",                    "entryId":"m7"},
+      {"y":468,"l":"Battle of Cape Bon",                    "entryId":"m8"},
+      {"y":476,"l":"Odoacer deposes Romulus",               "entryId":"m9"}
+    ]},
+    {"id":"order",       "icon":"⚖️","accent":"#2471A3","events":[
+      {"y":413,"l":"Theodosian Walls",              "entryId":"l1"},
+      {"y":438,"l":"Theodosian Code",               "entryId":"l2"},
+      {"y":458,"l":"Majorian Novellae",             "entryId":"l3"},
+      {"y":482,"l":"Henotikon",                     "entryId":"l5"},
+      {"y":484,"l":"Acacian Schism",                "entryId":"l6"}
+    ]},
+    {"id":"belief",      "icon":"🙏","accent":"#1E8449","events":[
+      {"y":420,"l":"Jerome dies",                   "entryId":"r5"},
+      {"y":431,"l":"Council of Ephesus I",          "entryId":"r1"},
+      {"y":449,"l":"Robber Synod",                  "entryId":"r2"},
+      {"y":451,"l":"Council of Chalcedon",          "entryId":"r3"},
+      {"y":484,"l":"Acacian Schism",                "entryId":"l6"}
+    ]},
+    {"id":"expression",  "icon":"✨","accent":"#8D6E63","events":[
+      {"y":388,"l":"Missorium of Theodosius",       "entryId":"a1"},
+      {"y":400,"l":"Baptistery of the Orthodox",    "entryId":"a4"},
+      {"y":402,"l":"Column of Arcadius",            "entryId":"a5"},
+      {"y":425,"l":"Mausoleum of Galla Placidia",   "entryId":"a3"}
+    ]},
+    {"id":"thought",     "icon":"💡","accent":"#566573","events":[
+      {"y":417,"l":"Orosius",                       "entryId":"tx2"},
+      {"y":426,"l":"City of God",                   "entryId":"tx1"},
+      {"y":427,"l":"Hydatius: Chronicle",           "entryId":"tx3"},
+      {"y":448,"l":"Priscus at Attila's court",     "entryId":"tx5"},
+      {"y":455,"l":"Sidonius Apollinaris",          "entryId":"tx6"}
+    ]},
+    {"id":"subsistence", "icon":"🌾","accent":"#8B5E00","events":[
+      {"y":429,"l":"Vandals into Africa",           "entryId":"s5"},
+      {"y":439,"l":"Carthage falls",                "entryId":"s5"},
+      {"y":455,"l":"Coinage collapse",              "entryId":"s7"}
+    ]},
+    {"id":"technology",  "icon":"⚙️","accent":"#2E7D52","events":[
+      {"y":402,"l":"Ravenna harbour base",          "entryId":"t3"},
+      {"y":413,"l":"Theodosian Walls built",        "entryId":"t1"},
+      {"y":447,"l":"Walls restored after quake",    "entryId":"t1"}
+    ]},
+    {"id":"world",       "icon":"🌍","accent":"#2471A3","events":[
+      {"y":376,"l":"Gothic crossing (Huns)",        "entryId":"s1"},
+      {"y":446,"l":"Plague: Spain",                 "entryId":"s3"},
+      {"y":447,"l":"Constantinople earthquake",     "entryId":"s2"},
+      {"y":453,"l":"Hunnic collapse",               "entryId":"s6"}
+    ]}
   ]
 }
