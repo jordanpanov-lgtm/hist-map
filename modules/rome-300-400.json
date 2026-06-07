@@ -2,213 +2,1343 @@
   "id": "rome-300-400",
   "title": "Roman Empire",
   "subtitle": "300–400 AD · Constantine to Theodosius",
-  "period": { "start": 300, "end": 400 },
-  "mapCenter": [41, 22],
+  "period": {
+    "start": 300,
+    "end": 400
+  },
+  "mapCenter": [
+    41,
+    22
+  ],
   "mapZoom": 4,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#8B1A1A", "accent": "#B22222", "bg": "#FFF5F5",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#8B1A1A",
+      "accent": "#B22222",
+      "bg": "#FFF5F5",
       "subtitle": "Rulers, dynasties & the consolidation of Christian empire",
       "entries": [
-        { "id":"p1",  "group":"Tetrarchy",           "dynasty":"Tetrarchic",    "label":"Diocletian (abdication)", "date":"305",      "loc":"Nicomedia (court); Split (retirement palace, extant)",          "coords":[40.76,29.92], "hint":"Diocletian abdicates voluntarily on 1 May 305 — the only emperor in this era to retire peacefully; his palace at Split still inhabited today.", "tag":"SUCCESSION", "note":"Abdication date: Lactantius De Mort. Pers. 19. Palace at Split (Spalatum): extant, UNESCO. Lactantius and Eutropius 9.26 both record the abdication." },
-        { "id":"p2",  "group":"Tetrarchy",           "dynasty":"Tetrarchic",    "label":"Galerius",                "date":"305–311",  "loc":"Sirmium; Thessalonica",                                         "coords":[41.9,22.4],   "hint":"Eastern Augustus after Diocletian's abdication; issued the Edict of Toleration (311) on his deathbed, ending the Great Persecution.",             "tag":"SUCCESSION", "note":"Edict of Toleration 311: Lactantius De Mort. Pers. 33–34 (full text). Eusebius HE 8.17. Died May 311 — both sources agree." },
-        { "id":"p3",  "group":"Tetrarchy",           "dynasty":"Tetrarchic",    "label":"Maxentius",               "date":"306–312",  "loc":"Rome",                                                          "coords":[41.9,12.5],   "hint":"Son of Maximian who seized power in Rome against the Tetrarchic system; controlled Italy and Africa until defeated and drowned at the Milvian Bridge.", "tag":"COUP",       "note":"SHA Vita Maxentii (disputed authenticity). Defeated at Milvian Bridge 28 Oct 312 — Lactantius De Mort. Pers. 44; Eusebius Vita Const. 1.37–38." },
-        { "id":"p4",  "group":"Constantinian Dynasty","dynasty":"Constantinian", "label":"Constantine I ('the Great')", "date":"306–337", "loc":"Trier (early); Rome; Constantinople (from 330)",             "coords":[41.01,28.97], "hint":"Reunified the empire, legalised Christianity, founded Constantinople, convened Nicaea — the most consequential emperor since Augustus.",           "tag":"SUCCESSION", "note":"Victory at Milvian Bridge 28 Oct 312: Lactantius De Mort. Pers. 44; Eusebius VC 1.28–29. Death 22 May 337 at Nicomedia — Eusebius VC 4.62. Extensive coinage throughout reign." },
-        { "id":"p5",  "group":"Constantinian Dynasty","dynasty":"Constantinian", "label":"Licinius",                "date":"308–324",  "loc":"Sirmium; Nicomedia",                                            "coords":[44.0,19.0],   "hint":"Constantine's co-emperor and brother-in-law who co-signed the Edict of Milan (313); defeated and executed by Constantine in 324.",                  "tag":"COUP",       "note":"Edict of Milan 313: Lactantius De Mort. Pers. 48 (full Latin text). Defeated at Chrysopolis 18 Sep 324 — Zosimus 2.25; Eusebius VC 2.15–18." },
-        { "id":"p6",  "group":"Constantinian Dynasty","dynasty":"Constantinian", "label":"Constantius II",          "date":"337–361",  "loc":"Antioch (primary); Constantinople; Milan",                      "coords":[36.2,36.2],   "hint":"Sole emperor from 353; devoted Arian Christian who expelled the pro-Nicene bishop Athanasius five times and tried to impose Arian Christianity empire-wide.", "tag":"SUCCESSION", "note":"Athanasius's own letters document the five exiles. Ammianus Marcellinus 21.16 records Constantius's death 3 Nov 361 at Mopsucrene. Extensive Arian synod records survive." },
-        { "id":"p7",  "group":"Constantinian Dynasty","dynasty":"Constantinian", "label":"Julian ('the Apostate')", "date":"361–363",  "loc":"Constantinople; Antioch; Persia (died on campaign)",            "coords":[41.01,28.97], "hint":"Constantine's nephew who publicly renounced Christianity and attempted to restore traditional Roman religion; died on the Persian campaign he himself launched.", "tag":"SUCCESSION", "note":"Julian's own writings survive: Orations, Letters, Against the Galileans (fragments). Died 26 Jun 363 near Samarra — Ammianus Marcellinus 25.3. Libanius Oratio 18 (funeral oration)." },
-        { "id":"p8",  "group":"Valentinianic Dynasty","dynasty":"Valentinianic", "label":"Jovian",                  "date":"363–364 (8 months)", "loc":"Antioch; died at Dadastana (Bithynia)",                 "coords":[39.5,32.0],   "hint":"Christian general elected by the army on Julian's death; concluded the humiliating peace with Persia ceding Nisibis, then died after 8 months.",       "tag":"SUCCESSION", "note":"Peace of 363: Ammianus Marcellinus 25.7 records terms. Death at Dadastana: Ammianus 25.10. Eutropius 10.17 confirms date. Nisibis cession documented in multiple sources." },
-        { "id":"p9",  "group":"Valentinianic Dynasty","dynasty":"Valentinianic", "label":"Valentinian I (West)",    "date":"364–375",  "loc":"Mediolanum (Milan); Rhine frontier campaigns",                  "coords":[45.5,9.2],    "hint":"Capable military emperor who spent his reign fortifying the Rhine frontier; died of a stroke while angrily haranguing a Gothic delegation.",             "tag":"SUCCESSION", "note":"Death 17 Nov 375 at Brigetio — Ammianus Marcellinus 30.6. Rhine fortification programme: Ammianus 28.2. Zosimus 4.17. Multiple inscription evidence from Rhine forts." },
-        { "id":"p10", "group":"Valentinianic Dynasty","dynasty":"Valentinianic", "label":"Valens (East)",           "date":"364–378",  "loc":"Antioch; Constantinople; Adrianople",                           "coords":[41.68,26.56], "hint":"Eastern emperor who admitted the Goths across the Danube in 376 and was killed at the Battle of Adrianople — his body never found.",                  "tag":"SUCCESSION", "note":"Death at Adrianople 9 Aug 378 — Ammianus Marcellinus 31.13. Zosimus 4.24. Eunapius fragments. Body never recovered: Ammianus 31.13.15." },
-        { "id":"p11", "group":"Valentinianic Dynasty","dynasty":"Valentinianic", "label":"Gratian (West)",          "date":"375–383",  "loc":"Trier; Milan",                                                  "coords":[49.75,6.64],  "hint":"Young Western emperor who removed the Altar of Victory from the Senate and stripped pagan priests of their stipends; murdered in a military revolt.",    "tag":"SUCCESSION", "note":"Altar of Victory dispute: Symmachus Relatio 3 (384) and Ambrose Epistulae 17–18 (both survive in full). Murdered Lugdunum 25 Aug 383 — Zosimus 4.35." },
-        { "id":"p12", "group":"Theodosian Dynasty",   "dynasty":"Theodosian",   "label":"Theodosius I (East, then sole)", "date":"379–395", "loc":"Thessalonica; Constantinople",                          "coords":[40.64,22.94], "hint":"Made Christianity the only legal religion of the empire (380 & 391); baptised on his deathbed in 380, then became sole emperor — the last to rule a united empire.", "tag":"SUCCESSION", "note":"Edict of Thessalonica 27 Feb 380: Codex Theodosianus 16.1.2 (full text survives). Sole emperor from 394. Death 17 Jan 395 at Milan — Zosimus 4.59; Claudian's panegyric." }
+        {
+          "id": "p1",
+          "group": "Tetrarchy",
+          "dynasty": "Tetrarchic",
+          "label": "Diocletian (abdication)",
+          "date": "305",
+          "loc": "Nicomedia (court); Split (retirement palace, extant)",
+          "coords": [
+            40.76,
+            29.92
+          ],
+          "hint": "Diocletian abdicates voluntarily on 1 May 305 — the only emperor in this era to retire peacefully; his palace at Split still inhabited today.",
+          "tag": "SUCCESSION",
+          "note": "Abdication date: Lactantius De Mort. Pers. 19. Palace at Split (Spalatum): extant, UNESCO. Lactantius and Eutropius 9.26 both record the abdication."
+        },
+        {
+          "id": "p2",
+          "group": "Tetrarchy",
+          "dynasty": "Tetrarchic",
+          "label": "Galerius",
+          "date": "305–311",
+          "loc": "Sirmium; Thessalonica",
+          "coords": [
+            41.9,
+            22.4
+          ],
+          "hint": "Eastern Augustus after Diocletian's abdication; issued the Edict of Toleration (311) on his deathbed, ending the Great Persecution.",
+          "tag": "SUCCESSION",
+          "note": "Edict of Toleration 311: Lactantius De Mort. Pers. 33–34 (full text). Eusebius HE 8.17. Died May 311 — both sources agree."
+        },
+        {
+          "id": "p3",
+          "group": "Tetrarchy",
+          "dynasty": "Tetrarchic",
+          "label": "Maxentius",
+          "date": "306–312",
+          "loc": "Rome",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Son of Maximian who seized power in Rome against the Tetrarchic system; controlled Italy and Africa until defeated and drowned at the Milvian Bridge.",
+          "tag": "COUP",
+          "note": "SHA Vita Maxentii (disputed authenticity). Defeated at Milvian Bridge 28 Oct 312 — Lactantius De Mort. Pers. 44; Eusebius Vita Const. 1.37–38."
+        },
+        {
+          "id": "p4",
+          "group": "Constantinian Dynasty",
+          "dynasty": "Constantinian",
+          "label": "Constantine I ('the Great')",
+          "date": "306–337",
+          "loc": "Trier (early); Rome; Constantinople (from 330)",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "Reunified the empire, legalised Christianity, founded Constantinople, convened Nicaea — the most consequential emperor since Augustus.",
+          "tag": "SUCCESSION",
+          "note": "Victory at Milvian Bridge 28 Oct 312: Lactantius De Mort. Pers. 44; Eusebius VC 1.28–29. Death 22 May 337 at Nicomedia — Eusebius VC 4.62. Extensive coinage throughout reign."
+        },
+        {
+          "id": "p5",
+          "group": "Constantinian Dynasty",
+          "dynasty": "Constantinian",
+          "label": "Licinius",
+          "date": "308–324",
+          "loc": "Sirmium; Nicomedia",
+          "coords": [
+            44.0,
+            19.0
+          ],
+          "hint": "Constantine's co-emperor and brother-in-law who co-signed the Edict of Milan (313); defeated and executed by Constantine in 324.",
+          "tag": "COUP",
+          "note": "Edict of Milan 313: Lactantius De Mort. Pers. 48 (full Latin text). Defeated at Chrysopolis 18 Sep 324 — Zosimus 2.25; Eusebius VC 2.15–18."
+        },
+        {
+          "id": "p6",
+          "group": "Constantinian Dynasty",
+          "dynasty": "Constantinian",
+          "label": "Constantius II",
+          "date": "337–361",
+          "loc": "Antioch (primary); Constantinople; Milan",
+          "coords": [
+            36.2,
+            36.2
+          ],
+          "hint": "Sole emperor from 353; devoted Arian Christian who expelled the pro-Nicene bishop Athanasius five times and tried to impose Arian Christianity empire-wide.",
+          "tag": "SUCCESSION",
+          "note": "Athanasius's own letters document the five exiles. Ammianus Marcellinus 21.16 records Constantius's death 3 Nov 361 at Mopsucrene. Extensive Arian synod records survive."
+        },
+        {
+          "id": "p7",
+          "group": "Constantinian Dynasty",
+          "dynasty": "Constantinian",
+          "label": "Julian ('the Apostate')",
+          "date": "361–363",
+          "loc": "Constantinople; Antioch; Persia (died on campaign)",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "Constantine's nephew who publicly renounced Christianity and attempted to restore traditional Roman religion; died on the Persian campaign he himself launched.",
+          "tag": "SUCCESSION",
+          "note": "Julian's own writings survive: Orations, Letters, Against the Galileans (fragments). Died 26 Jun 363 near Samarra — Ammianus Marcellinus 25.3. Libanius Oratio 18 (funeral oration)."
+        },
+        {
+          "id": "p8",
+          "group": "Valentinianic Dynasty",
+          "dynasty": "Valentinianic",
+          "label": "Jovian",
+          "date": "363–364 (8 months)",
+          "loc": "Antioch; died at Dadastana (Bithynia)",
+          "coords": [
+            39.5,
+            32.0
+          ],
+          "hint": "Christian general elected by the army on Julian's death; concluded the humiliating peace with Persia ceding Nisibis, then died after 8 months.",
+          "tag": "SUCCESSION",
+          "note": "Peace of 363: Ammianus Marcellinus 25.7 records terms. Death at Dadastana: Ammianus 25.10. Eutropius 10.17 confirms date. Nisibis cession documented in multiple sources."
+        },
+        {
+          "id": "p9",
+          "group": "Valentinianic Dynasty",
+          "dynasty": "Valentinianic",
+          "label": "Valentinian I (West)",
+          "date": "364–375",
+          "loc": "Mediolanum (Milan); Rhine frontier campaigns",
+          "coords": [
+            45.5,
+            9.2
+          ],
+          "hint": "Capable military emperor who spent his reign fortifying the Rhine frontier; died of a stroke while angrily haranguing a Gothic delegation.",
+          "tag": "SUCCESSION",
+          "note": "Death 17 Nov 375 at Brigetio — Ammianus Marcellinus 30.6. Rhine fortification programme: Ammianus 28.2. Zosimus 4.17. Multiple inscription evidence from Rhine forts."
+        },
+        {
+          "id": "p10",
+          "group": "Valentinianic Dynasty",
+          "dynasty": "Valentinianic",
+          "label": "Valens (East)",
+          "date": "364–378",
+          "loc": "Antioch; Constantinople; Adrianople",
+          "coords": [
+            41.68,
+            26.56
+          ],
+          "hint": "Eastern emperor who admitted the Goths across the Danube in 376 and was killed at the Battle of Adrianople — his body never found.",
+          "tag": "SUCCESSION",
+          "note": "Death at Adrianople 9 Aug 378 — Ammianus Marcellinus 31.13. Zosimus 4.24. Eunapius fragments. Body never recovered: Ammianus 31.13.15."
+        },
+        {
+          "id": "p11",
+          "group": "Valentinianic Dynasty",
+          "dynasty": "Valentinianic",
+          "label": "Gratian (West)",
+          "date": "375–383",
+          "loc": "Trier; Milan",
+          "coords": [
+            49.75,
+            6.64
+          ],
+          "hint": "Young Western emperor who removed the Altar of Victory from the Senate and stripped pagan priests of their stipends; murdered in a military revolt.",
+          "tag": "SUCCESSION",
+          "note": "Altar of Victory dispute: Symmachus Relatio 3 (384) and Ambrose Epistulae 17–18 (both survive in full). Murdered Lugdunum 25 Aug 383 — Zosimus 4.35."
+        },
+        {
+          "id": "p12",
+          "group": "Theodosian Dynasty",
+          "dynasty": "Theodosian",
+          "label": "Theodosius I (East, then sole)",
+          "date": "379–395",
+          "loc": "Thessalonica; Constantinople",
+          "coords": [
+            40.64,
+            22.94
+          ],
+          "hint": "Made Christianity the only legal religion of the empire (380 & 391); baptised on his deathbed in 380, then became sole emperor — the last to rule a united empire.",
+          "tag": "SUCCESSION",
+          "note": "Edict of Thessalonica 27 Feb 380: Codex Theodosianus 16.1.2 (full text survives). Sole emperor from 394. Death 17 Jan 395 at Milan — Zosimus 4.59; Claudian's panegyric."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "Wars, civil wars & frontier battles",
       "entries": [
-        { "id":"c1",  "group":"Civil Wars",            "label":"Battle of the Milvian Bridge",        "date":"28 Oct 312",     "loc":"Pons Milvius, north of Rome (mod. Ponte Milvio)",         "coords":[41.93,12.47], "hint":"Constantine defeats Maxentius, who drowns in the Tiber — the battle after which Constantine attributes his victory to the Christian god.",              "tag":"BATTLE",    "note":"Lactantius De Mort. Pers. 44 (chi-rho dream). Eusebius VC 1.28–29 (cross in sky). Panegyrici Latini 12 (313) — contemporary oration. Bridge and site identified." },
-        { "id":"c2",  "group":"Civil Wars",            "label":"Battle of Chrysopolis",               "date":"18 Sep 324",     "loc":"Chrysopolis (mod. Üsküdar, Istanbul)",                    "coords":[41.02,29.02], "hint":"Constantine defeats Licinius to become sole emperor of the reunified Roman world — the last civil war until the 350s.",                               "tag":"BATTLE",    "note":"Zosimus 2.25. Eusebius VC 2.15–18. Anonymus Valesianus 5.27–28. Licinius subsequently executed — Zosimus 2.28." },
-        { "id":"c3",  "group":"Parthian / Persian Wars","label":"Julian's Persian campaign",          "date":"363",            "loc":"Ctesiphon (mod. Iraq); death near Samarra",               "coords":[33.1,44.6],   "hint":"Julian leads a massive invasion of Persia, reaches Ctesiphon but cannot take it, then is mortally wounded during the retreat — ending the campaign in disaster.", "tag":"INVASION",  "note":"Ammianus Marcellinus 23–25 (detailed eyewitness account). Julian's own letters document preparations. Death 26 Jun 363: Ammianus 25.3. Zosimus 3.12–29." },
-        { "id":"c4",  "group":"Parthian / Persian Wars","label":"Peace of 363 — cession of Nisibis", "date":"363",            "loc":"Nisibis (mod. Nusaybin, Turkey) ceded to Persia",         "coords":[37.07,41.22], "hint":"Rome cedes Nisibis and 15 frontier towns to Persia — the most humiliating territorial concession in Roman history, forced after Julian's disastrous campaign.", "tag":"POLITICAL", "note":"Ammianus Marcellinus 25.7 records full terms. Ephrem the Syrian's Carmina Nisibena (Syriac poems) document the Roman evacuation — primary eyewitness." },
-        { "id":"c5",  "group":"Gothic Wars",           "label":"Gothic crossing of the Danube",       "date":"376",            "loc":"Danube delta, Moesia (mod. Romania/Bulgaria border)",     "coords":[45.2,28.8],   "hint":"Valens admits around 200,000 Goths fleeing the Huns across the Danube — the largest single migration into the empire, and the event that leads directly to Adrianople.", "tag":"INVASION",  "note":"Ammianus Marcellinus 31.3–4. Eunapius fragments. Scale and circumstances: Heather, Goths and Romans (1991). Papyrus evidence for administrative processing of refugees." },
-        { "id":"c6",  "group":"Gothic Wars",           "label":"Battle of Adrianople",                "date":"9 Aug 378",      "loc":"Adrianople (mod. Edirne, Turkey)",                        "coords":[41.68,26.56], "hint":"The Roman army is annihilated by the Goths; emperor Valens killed — the worst Roman defeat since Cannae and a turning point in late Roman history.",         "tag":"BATTLE",    "note":"Ammianus Marcellinus 31.12–13 (detailed, near-contemporary). Eunapius. Orosius 7.33. Valens's body never found: Ammianus 31.13.15. Date confirmed by multiple sources." },
-        { "id":"c7",  "group":"Civil Wars",            "label":"Battle of the Frigidus",              "date":"5–6 Sep 394",    "loc":"Frigidus river (mod. Vipava valley, Slovenia)",           "coords":[45.85,13.95], "hint":"Theodosius defeats the pagan usurper Eugenius in a battle later framed as Christianity defeating paganism — a fierce two-day fight decided partly by a windstorm.", "tag":"BATTLE",    "note":"Claudian, De III Consulatu Honorii 96–98. Ambrose, De obitu Theodosii 10. Orosius 7.35. The bora windstorm (literary topos or real): Rufinus HE 11.33 records it." },
-        { "id":"c8",  "group":"Rhine Frontier",        "label":"Battle of Argentoratum",              "date":"357",            "loc":"Argentoratum (mod. Strasbourg), Rhine frontier",          "coords":[48.58,7.75],  "hint":"Julian (then Caesar under Constantius) defeats the Alamanni king Chnodomar with a much smaller Roman force — his greatest military victory.",               "tag":"BATTLE",    "note":"Ammianus Marcellinus 16.12 (detailed). Libanius Oratio 18.56–69. Chnodomar captured and sent to Constantius: Ammianus 16.12.66. Site identified near Strasbourg." }
+        {
+          "id": "c1",
+          "group": "Civil Wars",
+          "label": "Battle of the Milvian Bridge",
+          "date": "28 Oct 312",
+          "loc": "Pons Milvius, north of Rome (mod. Ponte Milvio)",
+          "coords": [
+            41.93,
+            12.47
+          ],
+          "hint": "Constantine defeats Maxentius, who drowns in the Tiber — the battle after which Constantine attributes his victory to the Christian god.",
+          "tag": "BATTLE",
+          "note": "Lactantius De Mort. Pers. 44 (chi-rho dream). Eusebius VC 1.28–29 (cross in sky). Panegyrici Latini 12 (313) — contemporary oration. Bridge and site identified."
+        },
+        {
+          "id": "c2",
+          "group": "Civil Wars",
+          "label": "Battle of Chrysopolis",
+          "date": "18 Sep 324",
+          "loc": "Chrysopolis (mod. Üsküdar, Istanbul)",
+          "coords": [
+            41.02,
+            29.02
+          ],
+          "hint": "Constantine defeats Licinius to become sole emperor of the reunified Roman world — the last civil war until the 350s.",
+          "tag": "BATTLE",
+          "note": "Zosimus 2.25. Eusebius VC 2.15–18. Anonymus Valesianus 5.27–28. Licinius subsequently executed — Zosimus 2.28."
+        },
+        {
+          "id": "c3",
+          "group": "Parthian / Persian Wars",
+          "label": "Julian's Persian campaign",
+          "date": "363",
+          "loc": "Ctesiphon (mod. Iraq); death near Samarra",
+          "coords": [
+            33.1,
+            44.6
+          ],
+          "hint": "Julian leads a massive invasion of Persia, reaches Ctesiphon but cannot take it, then is mortally wounded during the retreat — ending the campaign in disaster.",
+          "tag": "INVASION",
+          "note": "Ammianus Marcellinus 23–25 (detailed eyewitness account). Julian's own letters document preparations. Death 26 Jun 363: Ammianus 25.3. Zosimus 3.12–29."
+        },
+        {
+          "id": "c4",
+          "group": "Parthian / Persian Wars",
+          "label": "Peace of 363 — cession of Nisibis",
+          "date": "363",
+          "loc": "Nisibis (mod. Nusaybin, Turkey) ceded to Persia",
+          "coords": [
+            37.07,
+            41.22
+          ],
+          "hint": "Rome cedes Nisibis and 15 frontier towns to Persia — the most humiliating territorial concession in Roman history, forced after Julian's disastrous campaign.",
+          "tag": "POLITICAL",
+          "note": "Ammianus Marcellinus 25.7 records full terms. Ephrem the Syrian's Carmina Nisibena (Syriac poems) document the Roman evacuation — primary eyewitness."
+        },
+        {
+          "id": "c5",
+          "group": "Gothic Wars",
+          "label": "Gothic crossing of the Danube",
+          "date": "376",
+          "loc": "Danube delta, Moesia (mod. Romania/Bulgaria border)",
+          "coords": [
+            45.2,
+            28.8
+          ],
+          "hint": "Valens admits around 200,000 Goths fleeing the Huns across the Danube — the largest single migration into the empire, and the event that leads directly to Adrianople.",
+          "tag": "INVASION",
+          "note": "Ammianus Marcellinus 31.3–4. Eunapius fragments. Scale and circumstances: Heather, Goths and Romans (1991). Papyrus evidence for administrative processing of refugees."
+        },
+        {
+          "id": "c6",
+          "group": "Gothic Wars",
+          "label": "Battle of Adrianople",
+          "date": "9 Aug 378",
+          "loc": "Adrianople (mod. Edirne, Turkey)",
+          "coords": [
+            41.68,
+            26.56
+          ],
+          "hint": "The Roman army is annihilated by the Goths; emperor Valens killed — the worst Roman defeat since Cannae and a turning point in late Roman history.",
+          "tag": "BATTLE",
+          "note": "Ammianus Marcellinus 31.12–13 (detailed, near-contemporary). Eunapius. Orosius 7.33. Valens's body never found: Ammianus 31.13.15. Date confirmed by multiple sources."
+        },
+        {
+          "id": "c7",
+          "group": "Civil Wars",
+          "label": "Battle of the Frigidus",
+          "date": "5–6 Sep 394",
+          "loc": "Frigidus river (mod. Vipava valley, Slovenia)",
+          "coords": [
+            45.85,
+            13.95
+          ],
+          "hint": "Theodosius defeats the pagan usurper Eugenius in a battle later framed as Christianity defeating paganism — a fierce two-day fight decided partly by a windstorm.",
+          "tag": "BATTLE",
+          "note": "Claudian, De III Consulatu Honorii 96–98. Ambrose, De obitu Theodosii 10. Orosius 7.35. The bora windstorm (literary topos or real): Rufinus HE 11.33 records it."
+        },
+        {
+          "id": "c8",
+          "group": "Rhine Frontier",
+          "label": "Battle of Argentoratum",
+          "date": "357",
+          "loc": "Argentoratum (mod. Strasbourg), Rhine frontier",
+          "coords": [
+            48.58,
+            7.75
+          ],
+          "hint": "Julian (then Caesar under Constantius) defeats the Alamanni king Chnodomar with a much smaller Roman force — his greatest military victory.",
+          "tag": "BATTLE",
+          "note": "Ammianus Marcellinus 16.12 (detailed). Libanius Oratio 18.56–69. Chnodomar captured and sent to Constantius: Ammianus 16.12.66. Site identified near Strasbourg."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Law, edicts & imperial administration",
       "entries": [
-        { "id":"o1",  "group":"Ecclesiastical Act",   "label":"Edict of Toleration (Galerius)",      "date":"30 Apr 311",     "loc":"Nicomedia (issued)",                                      "coords":[40.76,29.92], "hint":"Galerius's deathbed edict ending the Great Persecution and explicitly acknowledging that the campaign to suppress Christianity had failed.",             "tag":"EDICT",        "note":"Full Latin text: Lactantius De Mort. Pers. 33–34. Greek version: Eusebius HE 8.17. Dated 30 Apr 311 by consular dating in the text itself." },
-        { "id":"o2",  "group":"Ecclesiastical Act",   "label":"Edict of Milan",                      "date":"Jun 313",        "loc":"Milan (agreed); Nicomedia (posted)",                      "coords":[45.5,9.2],    "hint":"Constantine and Licinius agree to full religious toleration and restoration of confiscated Church property — the foundational document of Christian freedom in the West.", "tag":"EDICT",        "note":"Full Latin text: Lactantius De Mort. Pers. 48. Greek version: Eusebius HE 10.5. Neither is an 'edict' strictly — a rescript posted at Nicomedia Jun 313." },
-        { "id":"o3",  "group":"Administrative Reform", "label":"Foundation of Constantinople",        "date":"11 May 330",     "loc":"Constantinople (mod. Istanbul)",                          "coords":[41.01,28.97], "hint":"Constantine formally dedicates his new eastern capital on 11 May 330 — a city built from scratch to be the Christian capital of a Christian empire.",         "tag":"EDICT",        "note":"Dedication date: Chronicon Paschale s.a. 330. Zosimus 2.30. Jerome Chronicle s.a. 330. Foundation inscription: partially preserved. Extensive numismatic commemoration." },
-        { "id":"o4",  "group":"Imperial Law",         "label":"Constantine's Sunday Law",            "date":"7 Mar 321",      "loc":"Issued Empire-wide",                                     "coords":[41.01,28.97], "hint":"First law mandating rest on Sunday (dies Solis) — bridges pagan solar cult and Christian Sabbath observance in deliberate ambiguity.",                     "tag":"LAW",          "note":"Codex Justinianus 3.12.2 (full text). Dated 7 Mar 321 by consular dating. Rordorf, Sunday (1968). The law uses 'dies Solis' (Sun's day), not 'Lord's day'." },
-        { "id":"o5",  "group":"Ecclesiastical Act",   "label":"Edict of Thessalonica",               "date":"27 Feb 380",     "loc":"Thessalonica (issued); applicable Empire-wide",           "coords":[40.64,22.94], "hint":"Theodosius makes Nicene Christianity the only legal religion of the empire — all other forms of worship become heresy punishable by law.",                 "tag":"EDICT",        "note":"Codex Theodosianus 16.1.2 (full text survives). Dated by internal consular formula to 27 Feb 380. McLynn, Ambrose of Milan (1994) for context." },
-        { "id":"o6",  "group":"Ecclesiastical Act",   "label":"Theodosian edicts banning pagan cult", "date":"391–392",       "loc":"Issued from Milan and Constantinople",                   "coords":[45.5,9.2],    "hint":"Theodosius issues a series of edicts closing temples, banning sacrifice and forbidding even entering a temple — effectively outlawing paganism.",         "tag":"EDICT",        "note":"CTh 16.10.10 (24 Feb 391) and 16.10.12 (8 Nov 392) — both texts survive in Codex Theodosianus. Zosimus 4.36–37 records the effects with hostility." },
-        { "id":"o7",  "group":"Administrative Reform", "label":"Diocletian's army reforms (legacy)",  "date":"c.300–305",     "loc":"Empire-wide",                                            "coords":[40.76,29.92], "hint":"Diocletian's doubling of the army to ~600,000 and introduction of the comitatenses (mobile reserves) vs. limitanei (frontier troops) shapes 4th-century warfare.", "tag":"MILITARY DECREE", "note":"John the Lydian, De Mensibus 1.27 records size. Zosimus 2.34 (hostile account). Jones, LRE ch. 17 synthesises papyrus and legal evidence for army structure." }
+        {
+          "id": "o1",
+          "group": "Ecclesiastical Act",
+          "label": "Edict of Toleration (Galerius)",
+          "date": "30 Apr 311",
+          "loc": "Nicomedia (issued)",
+          "coords": [
+            40.76,
+            29.92
+          ],
+          "hint": "Galerius's deathbed edict ending the Great Persecution and explicitly acknowledging that the campaign to suppress Christianity had failed.",
+          "tag": "EDICT",
+          "note": "Full Latin text: Lactantius De Mort. Pers. 33–34. Greek version: Eusebius HE 8.17. Dated 30 Apr 311 by consular dating in the text itself."
+        },
+        {
+          "id": "o2",
+          "group": "Ecclesiastical Act",
+          "label": "Edict of Milan",
+          "date": "Jun 313",
+          "loc": "Milan (agreed); Nicomedia (posted)",
+          "coords": [
+            45.5,
+            9.2
+          ],
+          "hint": "Constantine and Licinius agree to full religious toleration and restoration of confiscated Church property — the foundational document of Christian freedom in the West.",
+          "tag": "EDICT",
+          "note": "Full Latin text: Lactantius De Mort. Pers. 48. Greek version: Eusebius HE 10.5. Neither is an 'edict' strictly — a rescript posted at Nicomedia Jun 313."
+        },
+        {
+          "id": "o3",
+          "group": "Administrative Reform",
+          "label": "Foundation of Constantinople",
+          "date": "11 May 330",
+          "loc": "Constantinople (mod. Istanbul)",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "Constantine formally dedicates his new eastern capital on 11 May 330 — a city built from scratch to be the Christian capital of a Christian empire.",
+          "tag": "EDICT",
+          "note": "Dedication date: Chronicon Paschale s.a. 330. Zosimus 2.30. Jerome Chronicle s.a. 330. Foundation inscription: partially preserved. Extensive numismatic commemoration."
+        },
+        {
+          "id": "o4",
+          "group": "Imperial Law",
+          "label": "Constantine's Sunday Law",
+          "date": "7 Mar 321",
+          "loc": "Issued Empire-wide",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "First law mandating rest on Sunday (dies Solis) — bridges pagan solar cult and Christian Sabbath observance in deliberate ambiguity.",
+          "tag": "LAW",
+          "note": "Codex Justinianus 3.12.2 (full text). Dated 7 Mar 321 by consular dating. Rordorf, Sunday (1968). The law uses 'dies Solis' (Sun's day), not 'Lord's day'."
+        },
+        {
+          "id": "o5",
+          "group": "Ecclesiastical Act",
+          "label": "Edict of Thessalonica",
+          "date": "27 Feb 380",
+          "loc": "Thessalonica (issued); applicable Empire-wide",
+          "coords": [
+            40.64,
+            22.94
+          ],
+          "hint": "Theodosius makes Nicene Christianity the only legal religion of the empire — all other forms of worship become heresy punishable by law.",
+          "tag": "EDICT",
+          "note": "Codex Theodosianus 16.1.2 (full text survives). Dated by internal consular formula to 27 Feb 380. McLynn, Ambrose of Milan (1994) for context."
+        },
+        {
+          "id": "o6",
+          "group": "Ecclesiastical Act",
+          "label": "Theodosian edicts banning pagan cult",
+          "date": "391–392",
+          "loc": "Issued from Milan and Constantinople",
+          "coords": [
+            45.5,
+            9.2
+          ],
+          "hint": "Theodosius issues a series of edicts closing temples, banning sacrifice and forbidding even entering a temple — effectively outlawing paganism.",
+          "tag": "EDICT",
+          "note": "CTh 16.10.10 (24 Feb 391) and 16.10.12 (8 Nov 392) — both texts survive in Codex Theodosianus. Zosimus 4.36–37 records the effects with hostility."
+        },
+        {
+          "id": "o7",
+          "group": "Administrative Reform",
+          "label": "Diocletian's army reforms (legacy)",
+          "date": "c.300–305",
+          "loc": "Empire-wide",
+          "coords": [
+            40.76,
+            29.92
+          ],
+          "hint": "Diocletian's doubling of the army to ~600,000 and introduction of the comitatenses (mobile reserves) vs. limitanei (frontier troops) shapes 4th-century warfare.",
+          "tag": "MILITARY DECREE",
+          "note": "John the Lydian, De Mensibus 1.27 records size. Zosimus 2.34 (hostile account). Jones, LRE ch. 17 synthesises papyrus and legal evidence for army structure."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
-      "subtitle": "Christianity's rise, councils & the last pagans",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
+      "subtitle": "Christianity, Graeco-Roman religion & the councils",
       "entries": [
-        { "id":"r1",  "group":"Christological Controversy", "label":"Council of Nicaea I",                          "date":"19 Jun – 25 Aug 325", "loc":"Nicaea (mod. İznik, Turkey)",        "coords":[40.43,29.72], "hint":"First ecumenical council, called by Constantine; defines Christ as 'of one substance with the Father' (homoousios) and sets the date of Easter — foundational for all subsequent Christianity.", "tag":"COUNCIL",  "note":"Acts survive only partially; Eusebius VC 3.6–14 and Athanasius's letters are primary sources. Creed text: Socrates HE 1.8. Date confirmed by multiple chronicles. ~300 bishops attend." },
-        { "id":"r2",  "group":"Christological Controversy", "label":"Council of Constantinople I",                 "date":"May–Jul 381",         "loc":"Constantinople",                     "coords":[41.01,28.97], "hint":"Confirms Nicene Christianity, extends the creed to include the Holy Spirit, and declares Constantinople second in honour after Rome — the Niceno-Constantinopolitan Creed still used today.", "tag":"COUNCIL",  "note":"Acts survive fragmentarily; Gregory of Nazianzus letter 130 is near-contemporary. Creed text in Theoderet HE 5.9. Socrates HE 5.8. 150 bishops; only Eastern bishops invited." },
-        { "id":"r3",  "group":"Christological Controversy", "label":"Athanasius vs. Arianism (five exiles)",       "date":"328–373",             "loc":"Alexandria; exile in Trier, Rome, desert", "coords":[31.2,29.9], "hint":"Athanasius is exiled five times by pro-Arian emperors but never recants — his persistence single-handedly keeps Nicene Christianity alive during Constantius II's reign.", "tag":"PERSECUTION","note":"Athanasius's own Apologia contra Arianos (c.357), Historia Arianorum (c.358), and letters document each exile. Exile dates reconstructed by Barnes (1993). 'Athanasius against the world' (Ath. contra mundum) becomes a byword." },
-        { "id":"r4",  "group":"Non-Christian Religion",    "label":"Julian's pagan restoration",                  "date":"361–363",             "loc":"Constantinople; Antioch",            "coords":[41.01,28.97], "hint":"Julian publicly sacrifices to the old gods, reopens temples, strips the Church of tax privileges and bans Christians from teaching the classics — reversed immediately on his death.", "tag":"CULT",     "note":"Julian: Orations, Letters, Misopogon (Against the Antiochenes, 362) — all survive. CTh 13.3.5 (Jun 362): bans Christian teachers. Ammianus 22.5 describes sacrifices. Gregory of Nazianzus Orationes 4–5 (hostile)." },
-        { "id":"r5",  "group":"Non-Christian Religion",    "label":"Altar of Victory controversy",                "date":"382–384",             "loc":"Rome (Senate house)",                "coords":[41.9,12.5],   "hint":"Gratian removes the Altar of Victory from the Senate; Symmachus writes a famous plea for religious tolerance; Ambrose writes the reply forbidding the Christian emperor to comply.", "tag":"CULT",     "note":"Symmachus Relatio 3 (384): complete text survives. Ambrose Epistulae 17 and 18 (his reply): both survive. Klein (1972). One of the sharpest documented pagan-Christian confrontations." },
-        { "id":"r6",  "group":"Christological Controversy", "label":"Arian controversy: Council of Sirmium",      "date":"357",                 "loc":"Sirmium (mod. Sremska Mitrovica, Serbia)", "coords":[44.97,19.62], "hint":"The 'Blasphemy of Sirmium' — Constantius II's council tries to resolve the Arian controversy by forbidding use of 'substance' language entirely, causing uproar among both sides.", "tag":"COUNCIL",  "note":"Text of the Sirmium formula: Athanasius De Synodis 28 (hostile but verbatim). Hilary of Poitiers De Synodis 11 (same formula with commentary). Jerome: 'the whole world groaned and found itself Arian' — Dial. adv. Lucif. 19." },
-        { "id":"r7",  "group":"Missions & New Churches",   "label":"Ulfilas's Gothic Bible translation",          "date":"c.341–383",           "loc":"Gothic territory north of Danube; later Nicopolis (Bulgaria)", "coords":[43.7,24.9], "hint":"Ulfilas invents the Gothic alphabet and translates the Bible into Gothic — the earliest substantial text in any Germanic language and the vehicle for Arian Christianity among the Goths.", "tag":"DOCUMENT", "note":"Codex Argenteus (Uppsala University Library, DG 1): 188 surviving leaves on purple vellum, 4th–5th c. The only substantial Gothic manuscript. Ulfilas's life: Philostorgius HE 2.5." }
+        {
+          "id": "r1",
+          "group": "Christological Controversy",
+          "label": "Council of Nicaea I",
+          "date": "19 Jun – 25 Aug 325",
+          "loc": "Nicaea (mod. İznik, Turkey)",
+          "coords": [
+            40.43,
+            29.72
+          ],
+          "hint": "First ecumenical council, called by Constantine; defines Christ as 'of one substance with the Father' (homoousios) and sets the date of Easter — foundational for all subsequent Christianity.",
+          "tag": "COUNCIL",
+          "note": "Acts survive only partially; Eusebius VC 3.6–14 and Athanasius's letters are primary sources. Creed text: Socrates HE 1.8. Date confirmed by multiple chronicles. ~300 bishops attend."
+        },
+        {
+          "id": "r2",
+          "group": "Christological Controversy",
+          "label": "Council of Constantinople I",
+          "date": "May–Jul 381",
+          "loc": "Constantinople",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "Confirms Nicene Christianity, extends the creed to include the Holy Spirit, and declares Constantinople second in honour after Rome — the Niceno-Constantinopolitan Creed still used today.",
+          "tag": "COUNCIL",
+          "note": "Acts survive fragmentarily; Gregory of Nazianzus letter 130 is near-contemporary. Creed text in Theoderet HE 5.9. Socrates HE 5.8. 150 bishops; only Eastern bishops invited."
+        },
+        {
+          "id": "r3",
+          "group": "Christological Controversy",
+          "label": "Athanasius vs. Arianism (five exiles)",
+          "date": "328–373",
+          "loc": "Alexandria; exile in Trier, Rome, desert",
+          "coords": [
+            31.2,
+            29.9
+          ],
+          "hint": "Athanasius is exiled five times by pro-Arian emperors but never recants — his persistence single-handedly keeps Nicene Christianity alive during Constantius II's reign.",
+          "tag": "PERSECUTION",
+          "note": "Athanasius's own Apologia contra Arianos (c.357), Historia Arianorum (c.358), and letters document each exile. Exile dates reconstructed by Barnes (1993). 'Athanasius against the world' (Ath. contra mundum) becomes a byword."
+        },
+        {
+          "id": "r4",
+          "group": "Graeco-Roman Polytheism",
+          "label": "Julian's pagan restoration",
+          "date": "361–363",
+          "loc": "Constantinople; Antioch",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "Julian publicly sacrifices to the old gods, reopens temples, strips the Church of tax privileges and bans Christians from teaching the classics — reversed immediately on his death.",
+          "tag": "CULT",
+          "note": "Julian: Orations, Letters, Misopogon (Against the Antiochenes, 362) — all survive. CTh 13.3.5 (Jun 362): bans Christian teachers. Ammianus 22.5 describes sacrifices. Gregory of Nazianzus Orationes 4–5 (hostile)."
+        },
+        {
+          "id": "r5",
+          "group": "Graeco-Roman Polytheism",
+          "label": "Altar of Victory controversy",
+          "date": "382–384",
+          "loc": "Rome (Senate house)",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Gratian removes the Altar of Victory from the Senate; Symmachus writes a famous plea for religious tolerance; Ambrose writes the reply forbidding the Christian emperor to comply.",
+          "tag": "CULT",
+          "note": "Symmachus Relatio 3 (384): complete text survives. Ambrose Epistulae 17 and 18 (his reply): both survive. Klein (1972). One of the sharpest documented pagan-Christian confrontations."
+        },
+        {
+          "id": "r6",
+          "group": "Christological Controversy",
+          "label": "Arian controversy: Council of Sirmium",
+          "date": "357",
+          "loc": "Sirmium (mod. Sremska Mitrovica, Serbia)",
+          "coords": [
+            44.97,
+            19.62
+          ],
+          "hint": "The 'Blasphemy of Sirmium' — Constantius II's council tries to resolve the Arian controversy by forbidding use of 'substance' language entirely, causing uproar among both sides.",
+          "tag": "COUNCIL",
+          "note": "Text of the Sirmium formula: Athanasius De Synodis 28 (hostile but verbatim). Hilary of Poitiers De Synodis 11 (same formula with commentary). Jerome: 'the whole world groaned and found itself Arian' — Dial. adv. Lucif. 19."
+        },
+        {
+          "id": "r7",
+          "group": "Missions & New Churches",
+          "label": "Ulfilas's Gothic Bible translation",
+          "date": "c.341–383",
+          "loc": "Gothic territory north of Danube; later Nicopolis (Bulgaria)",
+          "coords": [
+            43.7,
+            24.9
+          ],
+          "hint": "Ulfilas invents the Gothic alphabet and translates the Bible into Gothic — the earliest substantial text in any Germanic language and the vehicle for Arian Christianity among the Goths.",
+          "tag": "DOCUMENT",
+          "note": "Codex Argenteus (Uppsala University Library, DG 1): 188 surviving leaves on purple vellum, 4th–5th c. The only substantial Gothic manuscript. Ulfilas's life: Philostorgius HE 2.5."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "Art, architecture & material culture",
       "entries": [
-        { "id":"a1",  "group":"Architecture",            "label":"Arch of Constantine, Rome",                    "date":"315",           "loc":"Rome, near the Colosseum (extant)",               "coords":[41.89,12.49], "hint":"Triumphal arch dedicated to Constantine after the Milvian Bridge victory; combines spolia from Trajan, Hadrian and Marcus Aurelius with new Constantinian reliefs — a snapshot of artistic transition.", "tag":"MONUMENT", "note":"Extant. Dedicatory inscription (CIL VI.1139): 'instinctu divinitatis' — deliberately ambiguous on Christianity. Completed 315 for Constantine's decennalia. L'Orange & von Gerkan (1939)." },
-        { "id":"a2",  "group":"Architecture",            "label":"Old St Peter's Basilica, Rome",                "date":"c.319–333",     "loc":"Vatican Hill, Rome (demolished 1506, excavated)",  "coords":[41.9,12.45],  "hint":"Constantine's vast basilica over Peter's tomb — the prototype Christian church building; demolished for the present St Peter's but its foundations survive below.", "tag":"MONUMENT", "note":"Liber Pontificalis records construction under Constantine. Foundations excavated 1940–1950 (Vatican Necropolis). Krautheimer, Corpus Basilicarum Christianarum Romae (1937–77)." },
-        { "id":"a3",  "group":"Architecture",            "label":"Church of the Holy Sepulchre, Jerusalem",      "date":"c.325–335",     "loc":"Jerusalem (extant, substantially rebuilt)",        "coords":[31.78,35.23], "hint":"Constantine builds over the site of Christ's tomb — the most sacred building in Christianity, dedicated 13 Sep 335, still standing though heavily altered.",          "tag":"MONUMENT", "note":"Dedication 13 Sep 335: Eusebius VC 3.25–40 (describes construction). Egeria (Peregrinatio, c.381–384) describes the completed building — earliest pilgrim account. Biddle (1999) on archaeology." },
-        { "id":"a4",  "group":"Sculpture & Relief",      "label":"Colossal head of Constantine, Rome",           "date":"c.312–315",     "loc":"Basilica of Maxentius, Rome · Now: Capitoline Museums", "coords":[41.89,12.49], "hint":"Fragment of a 12-metre seated statue of Constantine from the Basilica of Maxentius — the blank, superhuman gaze epitomises the new imperial image.",                "tag":"OBJECT",   "note":"Capitoline Museums, Rome (Inv. 1072). Marble head 2.6m tall. Part of a seated acrolith (marble head/hands, bronze body). Kleiner (1992), Roman Sculpture." },
-        { "id":"a5",  "group":"Mosaic & Painting",       "label":"Hinton St Mary mosaic (Chi-Rho)",              "date":"c.350",         "loc":"Found: Hinton St Mary, Dorset, England · Now: British Museum", "coords":[50.93,-2.25], "hint":"The earliest known image of Christ from Britain — a mosaic floor with a Chi-Rho monogram behind a portrait figure, found in a Roman villa in Dorset.",          "tag":"OBJECT",   "note":"British Museum (1965,0702.1). Found 1963. Dated c.350 by coin evidence. Toynbee (1964), Art in Roman Britain. The identification as Christ (not Constantine) is generally accepted." },
-        { "id":"a6",  "group":"Metalwork & Luxury Arts", "label":"Esquiline Treasure (partly)",                  "date":"c.330–380",     "loc":"Found: Esquiline Hill, Rome · Now: British Museum / Paris", "coords":[41.9,12.5],  "hint":"Hoard of silver plate including the Projecta Casket — aristocratic Christian luxury at its finest, bearing both pagan myth and Christian inscription on the same objects.", "tag":"OBJECT",   "note":"British Museum, Bibliothèque nationale Paris. Mango (1994), The Sevso Treasure. Kathleen Shelton, The Esquiline Treasure (1981). Projecta Casket: BM 1866,0520.1." },
-        { "id":"a7",  "group":"Architecture",            "label":"Palace of Constantinople (Hippodrome complex)",  "date":"c.324–337",     "loc":"Constantinople (partial remains extant)",          "coords":[41.0,28.97],  "hint":"Constantine transforms Byzantium into a vast imperial capital: hippodrome, imperial palace and Christian basilicas built simultaneously on a massive scale.",       "tag":"MONUMENT", "note":"Hippodrome obelisk inscriptions (extant). Malalas 13.7–8. Eusebius VC 3.48–49. Columns of Serpent (from Delphi), Theodosius, and Constantine still visible in Istanbul." }
+        {
+          "id": "a1",
+          "group": "Architecture",
+          "label": "Arch of Constantine, Rome",
+          "date": "315",
+          "loc": "Rome, near the Colosseum (extant)",
+          "coords": [
+            41.89,
+            12.49
+          ],
+          "hint": "Triumphal arch dedicated to Constantine after the Milvian Bridge victory; combines spolia from Trajan, Hadrian and Marcus Aurelius with new Constantinian reliefs — a snapshot of artistic transition.",
+          "tag": "MONUMENT",
+          "note": "Extant. Dedicatory inscription (CIL VI.1139): 'instinctu divinitatis' — deliberately ambiguous on Christianity. Completed 315 for Constantine's decennalia. L'Orange & von Gerkan (1939)."
+        },
+        {
+          "id": "a2",
+          "group": "Architecture",
+          "label": "Old St Peter's Basilica, Rome",
+          "date": "c.319–333",
+          "loc": "Vatican Hill, Rome (demolished 1506, excavated)",
+          "coords": [
+            41.9,
+            12.45
+          ],
+          "hint": "Constantine's vast basilica over Peter's tomb — the prototype Christian church building; demolished for the present St Peter's but its foundations survive below.",
+          "tag": "MONUMENT",
+          "note": "Liber Pontificalis records construction under Constantine. Foundations excavated 1940–1950 (Vatican Necropolis). Krautheimer, Corpus Basilicarum Christianarum Romae (1937–77)."
+        },
+        {
+          "id": "a3",
+          "group": "Architecture",
+          "label": "Church of the Holy Sepulchre, Jerusalem",
+          "date": "c.325–335",
+          "loc": "Jerusalem (extant, substantially rebuilt)",
+          "coords": [
+            31.78,
+            35.23
+          ],
+          "hint": "Constantine builds over the site of Christ's tomb — the most sacred building in Christianity, dedicated 13 Sep 335, still standing though heavily altered.",
+          "tag": "MONUMENT",
+          "note": "Dedication 13 Sep 335: Eusebius VC 3.25–40 (describes construction). Egeria (Peregrinatio, c.381–384) describes the completed building — earliest pilgrim account. Biddle (1999) on archaeology."
+        },
+        {
+          "id": "a4",
+          "group": "Sculpture & Relief",
+          "label": "Colossal head of Constantine, Rome",
+          "date": "c.312–315",
+          "loc": "Basilica of Maxentius, Rome · Now: Capitoline Museums",
+          "coords": [
+            41.89,
+            12.49
+          ],
+          "hint": "Fragment of a 12-metre seated statue of Constantine from the Basilica of Maxentius — the blank, superhuman gaze epitomises the new imperial image.",
+          "tag": "OBJECT",
+          "note": "Capitoline Museums, Rome (Inv. 1072). Marble head 2.6m tall. Part of a seated acrolith (marble head/hands, bronze body). Kleiner (1992), Roman Sculpture."
+        },
+        {
+          "id": "a5",
+          "group": "Mosaic & Painting",
+          "label": "Hinton St Mary mosaic (Chi-Rho)",
+          "date": "c.350",
+          "loc": "Found: Hinton St Mary, Dorset, England · Now: British Museum",
+          "coords": [
+            50.93,
+            -2.25
+          ],
+          "hint": "The earliest known image of Christ from Britain — a mosaic floor with a Chi-Rho monogram behind a portrait figure, found in a Roman villa in Dorset.",
+          "tag": "OBJECT",
+          "note": "British Museum (1965,0702.1). Found 1963. Dated c.350 by coin evidence. Toynbee (1964), Art in Roman Britain. The identification as Christ (not Constantine) is generally accepted."
+        },
+        {
+          "id": "a6",
+          "group": "Metalwork & Luxury Arts",
+          "label": "Esquiline Treasure (partly)",
+          "date": "c.330–380",
+          "loc": "Found: Esquiline Hill, Rome · Now: British Museum / Paris",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Hoard of silver plate including the Projecta Casket — aristocratic Christian luxury at its finest, bearing both pagan myth and Christian inscription on the same objects.",
+          "tag": "OBJECT",
+          "note": "British Museum, Bibliothèque nationale Paris. Mango (1994), The Sevso Treasure. Kathleen Shelton, The Esquiline Treasure (1981). Projecta Casket: BM 1866,0520.1."
+        },
+        {
+          "id": "a7",
+          "group": "Architecture",
+          "label": "Palace of Constantinople (Hippodrome complex)",
+          "date": "c.324–337",
+          "loc": "Constantinople (partial remains extant)",
+          "coords": [
+            41.0,
+            28.97
+          ],
+          "hint": "Constantine transforms Byzantium into a vast imperial capital: hippodrome, imperial palace and Christian basilicas built simultaneously on a massive scale.",
+          "tag": "MONUMENT",
+          "note": "Hippodrome obelisk inscriptions (extant). Malalas 13.7–8. Eusebius VC 3.48–49. Columns of Serpent (from Delphi), Theodosius, and Constantine still visible in Istanbul."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
-      "subtitle": "Intellectual history, theology & the last pagans",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
+      "subtitle": "Intellectual history, theology & the philosophical schools",
       "entries": [
-        { "id":"t1",  "group":"Theology",           "label":"Eusebius of Caesarea: Ecclesiastical History",  "date":"c.313 (final ed.)", "loc":"Caesarea Maritima (Palestine)",              "coords":[32.5,34.9],   "hint":"The first history of the Christian Church, tracing it from the apostles to Constantine's victory — the founding text of Church historiography, still our primary source for early Christianity.", "tag":"TEXT",      "note":"Multiple editions; final edition c.313. Earliest MS: Codex Sinaiticus (4th c.) contains some portions. Schwartz-Mommsen critical edition (1903–09). Lake translation (1926)." },
-        { "id":"t2",  "group":"Theology",           "label":"Athanasius: De Incarnatione",                   "date":"c.318",            "loc":"Alexandria, Egypt",                          "coords":[31.2,29.9],   "hint":"Athanasius's foundational theological argument for why God became man — written before the Arian controversy erupted, it becomes the pro-Nicene position's core text.",  "tag":"TEXT",      "note":"Complete text survives. Earliest MS: multiple 9th-c. copies. Thomson critical edition (1971). C.S. Lewis's introduction to the Macmillan edition (1946) notes its accessibility." },
-        { "id":"t3",  "group":"History & Chronicle","label":"Ammianus Marcellinus: Res Gestae",               "date":"c.390–395",        "loc":"Rome (written); subject spans entire empire",  "coords":[41.9,12.5],   "hint":"The last great Latin historian — a Syrian soldier who continues Tacitus; Books 14–31 survive, covering 353–378, including the Gothic crisis from firsthand experience.",  "tag":"TEXT",      "note":"Books 14–31 survive (1–13 lost). Oldest MS: Fuldensis (9th c., Fulda). Author identifies as a soldier: 31.16.9. Seyfarth critical edition (1978). Sabbah (1978) on sources." },
-        { "id":"t4",  "group":"Theology",           "label":"Lactantius: Divine Institutes",                  "date":"c.304–313",        "loc":"Nicomedia; then Trier (tutor to Constantine's son)", "coords":[40.76,29.92], "hint":"The first systematic Latin defence of Christianity as a rational philosophy — Lactantius aims to show educated pagans that Christianity is intellectually coherent.",      "tag":"TEXT",      "note":"Complete text survives. Earliest MS: 9th c. Brandt-Laubmann critical edition (CSEL 19, 1890). Lactantius was summoned to Trier by Constantine — Jerome, De Viris Ill. 80." },
-        { "id":"t5",  "group":"Philosophy",         "label":"Iamblichus: De Mysteriis",                       "date":"c.300",            "loc":"Apamea, Syria",                              "coords":[35.42,36.42], "hint":"Iamblichus's defence of theurgy (ritual magic as philosophy) — the philosophical foundation for Julian's pagan revival and a major text of Neoplatonism.",              "tag":"TEXT",      "note":"Complete text survives. Earliest MS: 12th c. Des Places critical edition (1966). Julian's debt to Iamblichus: Julian Letter to Iamblichus (spurious but revealing), and Eunapius Lives of the Sophists 457–58." },
-        { "id":"t6",  "group":"Letters & Correspondence", "label":"Symmachus: Relatio 3 (Altar of Victory)",  "date":"384",              "loc":"Rome",                                       "coords":[41.9,12.5],   "hint":"Symmachus's elegant plea to Valentinian II to restore the Altar of Victory — the most eloquent surviving defence of Roman paganism and religious pluralism.",           "tag":"LETTERS",   "note":"Text in Seeck's MGH edition (1883). Ambrose's replies (Ep. 17–18) survive alongside. Klein (1972), Symmachus und die heidnisch-christliche Auseinandersetzung. One of the most studied late-antique texts." },
-        { "id":"t7",  "group":"Theology",           "label":"Jerome begins the Vulgate translation",          "date":"382",              "loc":"Rome (begun); Bethlehem (completed c.405)",   "coords":[41.9,12.5],   "hint":"Pope Damasus commissions Jerome to produce a standard Latin Bible — the Vulgate becomes the authoritative text of Western Christianity for over 1,000 years.",             "tag":"TEXT",      "note":"Commission by Pope Damasus: Jerome Preface to the Four Gospels (382). Codex Amiatinus (c.692, Biblioteca Medicea Laurenziana, Florence) is the earliest complete copy. Weber-Gryson Stuttgart Vulgate (1969)." }
+        {
+          "id": "t1",
+          "group": "Theology",
+          "label": "Eusebius of Caesarea: Ecclesiastical History",
+          "date": "c.313 (final ed.)",
+          "loc": "Caesarea Maritima (Palestine)",
+          "coords": [
+            32.5,
+            34.9
+          ],
+          "hint": "The first history of the Christian Church, tracing it from the apostles to Constantine's victory — the founding text of Church historiography, still our primary source for early Christianity.",
+          "tag": "TEXT",
+          "note": "Multiple editions; final edition c.313. Earliest MS: Codex Sinaiticus (4th c.) contains some portions. Schwartz-Mommsen critical edition (1903–09). Lake translation (1926)."
+        },
+        {
+          "id": "t2",
+          "group": "Theology",
+          "label": "Athanasius: De Incarnatione",
+          "date": "c.318",
+          "loc": "Alexandria, Egypt",
+          "coords": [
+            31.2,
+            29.9
+          ],
+          "hint": "Athanasius's foundational theological argument for why God became man — written before the Arian controversy erupted, it becomes the pro-Nicene position's core text.",
+          "tag": "TEXT",
+          "note": "Complete text survives. Earliest MS: multiple 9th-c. copies. Thomson critical edition (1971). C.S. Lewis's introduction to the Macmillan edition (1946) notes its accessibility."
+        },
+        {
+          "id": "t3",
+          "group": "History & Chronicle",
+          "label": "Ammianus Marcellinus: Res Gestae",
+          "date": "c.390–395",
+          "loc": "Rome (written); subject spans entire empire",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "The last great Latin historian — a Syrian soldier who continues Tacitus; Books 14–31 survive, covering 353–378, including the Gothic crisis from firsthand experience.",
+          "tag": "TEXT",
+          "note": "Books 14–31 survive (1–13 lost). Oldest MS: Fuldensis (9th c., Fulda). Author identifies as a soldier: 31.16.9. Seyfarth critical edition (1978). Sabbah (1978) on sources."
+        },
+        {
+          "id": "t4",
+          "group": "Theology",
+          "label": "Lactantius: Divine Institutes",
+          "date": "c.304–313",
+          "loc": "Nicomedia; then Trier (tutor to Constantine's son)",
+          "coords": [
+            40.76,
+            29.92
+          ],
+          "hint": "The first systematic Latin defence of Christianity as a rational philosophy — Lactantius aims to show educated pagans that Christianity is intellectually coherent.",
+          "tag": "TEXT",
+          "note": "Complete text survives. Earliest MS: 9th c. Brandt-Laubmann critical edition (CSEL 19, 1890). Lactantius was summoned to Trier by Constantine — Jerome, De Viris Ill. 80."
+        },
+        {
+          "id": "t5",
+          "group": "Philosophy",
+          "label": "Iamblichus: De Mysteriis",
+          "date": "c.300",
+          "loc": "Apamea, Syria",
+          "coords": [
+            35.42,
+            36.42
+          ],
+          "hint": "Iamblichus's defence of theurgy (ritual magic as philosophy) — the philosophical foundation for Julian's pagan revival and a major text of Neoplatonism.",
+          "tag": "TEXT",
+          "note": "Complete text survives. Earliest MS: 12th c. Des Places critical edition (1966). Julian's debt to Iamblichus: Julian Letter to Iamblichus (spurious but revealing), and Eunapius Lives of the Sophists 457–58."
+        },
+        {
+          "id": "t6",
+          "group": "Letters & Correspondence",
+          "label": "Symmachus: Relatio 3 (Altar of Victory)",
+          "date": "384",
+          "loc": "Rome",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Symmachus's elegant plea to Valentinian II to restore the Altar of Victory — the most eloquent surviving defence of Roman paganism and religious pluralism.",
+          "tag": "LETTERS",
+          "note": "Text in Seeck's MGH edition (1883). Ambrose's replies (Ep. 17–18) survive alongside. Klein (1972), Symmachus und die heidnisch-christliche Auseinandersetzung. One of the most studied late-antique texts."
+        },
+        {
+          "id": "t7",
+          "group": "Theology",
+          "label": "Jerome begins the Vulgate translation",
+          "date": "382",
+          "loc": "Rome (begun); Bethlehem (completed c.405)",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Pope Damasus commissions Jerome to produce a standard Latin Bible — the Vulgate becomes the authoritative text of Western Christianity for over 1,000 years.",
+          "tag": "TEXT",
+          "note": "Commission by Pope Damasus: Jerome Preface to the Four Gospels (382). Codex Amiatinus (c.692, Biblioteca Medicea Laurenziana, Florence) is the earliest complete copy. Weber-Gryson Stuttgart Vulgate (1969)."
+        }
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Economy, land & demographic change",
       "entries": [
-        { "id":"s1",  "group":"Fiscal & Monetary",  "label":"Constantinian gold standard (solidus)",          "date":"c.309–312",        "loc":"Empire-wide (minted across 20+ cities)",         "coords":[41.9,12.5],   "hint":"Constantine introduces the gold solidus at 72 to the pound — it becomes the most stable currency in the world for over 700 years, surviving as the Byzantine nomisma until 1092.", "tag":"ECONOMIC",  "note":"Numismatic evidence: RIC VII. First minted c.309 at Trier. Hendy, Studies in the Byzantine Monetary Economy (1985). Stability confirmed by papyrus price data from Egypt (P.Oxy. various)." },
-        { "id":"s2",  "group":"Fiscal & Monetary",  "label":"Diocletian's tax reform (iugatio-capitatio)",    "date":"c.297–300",        "loc":"Empire-wide (best documented in Egypt, Syria)",  "coords":[30.0,28.0],   "hint":"Diocletian's systematic census-based land and head tax — the most ambitious fiscal reorganisation in Roman history, creating uniform assessable tax units (iuga/capita).",  "tag":"ECONOMIC",  "note":"Egyptian papyri: P.Cair.Isid. corpus (Karanis village archive, c.296–335). Syrian evidence: inscriptions from Thrace (IGLS). Jones, LRE ch. 13 synthesises the system." },
-        { "id":"s3",  "group":"Agriculture & Land", "label":"Gothic settlement in Moesia (foederati)",        "date":"382",              "loc":"Moesia (mod. Bulgaria/Romania)",                  "coords":[43.0,25.0],   "hint":"After Adrianople, Theodosius settles the Goths inside the empire as a self-governing federate nation — the first time a barbarian people retain their own laws and leaders on Roman soil.", "tag":"ECONOMIC",  "note":"Treaty date Oct 382: Themistius Oration 16 (delivered to Theodosius). Zosimus 4.34. Wolfram, History of the Goths (1988). Land allocation terms: Jordanes Getica 27 (later source)." },
-        { "id":"s4",  "group":"Trade & Commerce",   "label":"Disruption of Eastern trade (Julian's war)",     "date":"363",              "loc":"Mesopotamia; Nisibis ceded",                      "coords":[37.07,41.22], "hint":"Julian's failed Persian campaign and the cession of Nisibis disrupts the principal eastern trade route; merchants must reroute through Sassanid-controlled territory.",     "tag":"ECONOMIC",  "note":"Ephrem the Syrian, Carmina Nisibena (eyewitness to the Roman evacuation). Commercial impact inferred from Procopius's later account of treaty terms (Wars 1.2) and decline of Nisibene trade pottery." }
+        {
+          "id": "s1",
+          "group": "Fiscal & Monetary",
+          "label": "Constantinian gold standard (solidus)",
+          "date": "c.309–312",
+          "loc": "Empire-wide (minted across 20+ cities)",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Constantine introduces the gold solidus at 72 to the pound — it becomes the most stable currency in the world for over 700 years, surviving as the Byzantine nomisma until 1092.",
+          "tag": "ECONOMIC",
+          "note": "Numismatic evidence: RIC VII. First minted c.309 at Trier. Hendy, Studies in the Byzantine Monetary Economy (1985). Stability confirmed by papyrus price data from Egypt (P.Oxy. various)."
+        },
+        {
+          "id": "s2",
+          "group": "Fiscal & Monetary",
+          "label": "Diocletian's tax reform (iugatio-capitatio)",
+          "date": "c.297–300",
+          "loc": "Empire-wide (best documented in Egypt, Syria)",
+          "coords": [
+            30.0,
+            28.0
+          ],
+          "hint": "Diocletian's systematic census-based land and head tax — the most ambitious fiscal reorganisation in Roman history, creating uniform assessable tax units (iuga/capita).",
+          "tag": "ECONOMIC",
+          "note": "Egyptian papyri: P.Cair.Isid. corpus (Karanis village archive, c.296–335). Syrian evidence: inscriptions from Thrace (IGLS). Jones, LRE ch. 13 synthesises the system."
+        },
+        {
+          "id": "s3",
+          "group": "Agriculture & Land",
+          "label": "Gothic settlement in Moesia (foederati)",
+          "date": "382",
+          "loc": "Moesia (mod. Bulgaria/Romania)",
+          "coords": [
+            43.0,
+            25.0
+          ],
+          "hint": "After Adrianople, Theodosius settles the Goths inside the empire as a self-governing federate nation — the first time a barbarian people retain their own laws and leaders on Roman soil.",
+          "tag": "ECONOMIC",
+          "note": "Treaty date Oct 382: Themistius Oration 16 (delivered to Theodosius). Zosimus 4.34. Wolfram, History of the Goths (1988). Land allocation terms: Jordanes Getica 27 (later source)."
+        },
+        {
+          "id": "s4",
+          "group": "Trade & Commerce",
+          "label": "Disruption of Eastern trade (Julian's war)",
+          "date": "363",
+          "loc": "Mesopotamia; Nisibis ceded",
+          "coords": [
+            37.07,
+            41.22
+          ],
+          "hint": "Julian's failed Persian campaign and the cession of Nisibis disrupts the principal eastern trade route; merchants must reroute through Sassanid-controlled territory.",
+          "tag": "ECONOMIC",
+          "note": "Ephrem the Syrian, Carmina Nisibena (eyewitness to the Roman evacuation). Commercial impact inferred from Procopius's later account of treaty terms (Wars 1.2) and decline of Nisibene trade pottery."
+        }
       ]
     },
     {
-      "id": "technology", "label": "Technology", "icon": "⚙️",
-      "color": "#1A3A2A", "accent": "#2E7D52", "bg": "#F0FFF8",
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#1A3A2A",
+      "accent": "#2E7D52",
+      "bg": "#F0FFF8",
       "subtitle": "Engineering, infrastructure & innovation",
       "entries": [
-        { "id":"te1", "group":"Civil Engineering",           "label":"Constantinople's water infrastructure",       "date":"c.324–373",        "loc":"Constantinople (aqueduct of Valens extant)",     "coords":[41.01,28.93], "hint":"Constantinople is built with an entirely new water system from scratch: the Aqueduct of Valens (completed 373), cisterns and harbour infrastructure for a city of 500,000.",  "tag":"CONSTRUCTION", "note":"Aqueduct of Valens: extant (Bozdoğan Kemeri, Istanbul). Completion 373: Socrates HE 4.8. Crow, Bardill & Bayliss, The Water Supply of Byzantine Constantinople (2008)." },
-        { "id":"te2", "group":"Military Engineering",        "label":"Constantinian frontier fort programme",       "date":"c.306–337",        "loc":"Rhine, Danube, Eastern frontier",                "coords":[47.0,8.0],    "hint":"Constantine rebuilds and extends the Rhine-Danube frontier with a new generation of forts — bridgeheads on the barbarian side of the rivers as aggressive outposts.",        "tag":"CONSTRUCTION", "note":"Ammianus Marcellinus 17.1.11 (Julian rebuilds forts, continuing Constantine's work). Johnson, Late Roman Fortifications (1983). Bridgehead forts at Divitia (Cologne), Deutz: excavated." },
-        { "id":"te3", "group":"Information & Communication", "label":"Gothic alphabet invented (Ulfilas)",          "date":"c.341",            "loc":"Gothic territory (north of Danube)",              "coords":[44.5,26.0],   "hint":"Ulfilas creates a new alphabet of 27 letters to transcribe the Gothic language — the first writing system for any Germanic language, invented specifically to translate the Bible.", "tag":"TECHNOLOGY",   "note":"Philostorgius HE 2.5 records Ulfilas as inventor. Codex Argenteus (Uppsala) preserves the result. The alphabet derives from Greek uncials with some Latin and runic elements: Friedrichsen (1926)." },
-        { "id":"te4", "group":"Civil Engineering",           "label":"Church basilica building programme",          "date":"c.313–400",        "loc":"Rome, Jerusalem, Antioch, Constantinople",       "coords":[41.9,12.5],   "hint":"The legalisation of Christianity triggers the first large-scale public building programme in the Christian world — the Roman basilica form adapted and standardised as the church building.", "tag":"CONSTRUCTION", "note":"Krautheimer, Early Christian and Byzantine Architecture (1965). Liber Pontificalis records Roman foundations. Eusebius VC 3.29–40 describes the Jerusalem buildings. Engineering continuity from secular basilica documented archaeologically." }
+        {
+          "id": "te1",
+          "group": "Civil Engineering",
+          "label": "Constantinople's water infrastructure",
+          "date": "c.324–373",
+          "loc": "Constantinople (aqueduct of Valens extant)",
+          "coords": [
+            41.01,
+            28.93
+          ],
+          "hint": "Constantinople is built with an entirely new water system from scratch: the Aqueduct of Valens (completed 373), cisterns and harbour infrastructure for a city of 500,000.",
+          "tag": "CONSTRUCTION",
+          "note": "Aqueduct of Valens: extant (Bozdoğan Kemeri, Istanbul). Completion 373: Socrates HE 4.8. Crow, Bardill & Bayliss, The Water Supply of Byzantine Constantinople (2008)."
+        },
+        {
+          "id": "te2",
+          "group": "Military Engineering",
+          "label": "Constantinian frontier fort programme",
+          "date": "c.306–337",
+          "loc": "Rhine, Danube, Eastern frontier",
+          "coords": [
+            47.0,
+            8.0
+          ],
+          "hint": "Constantine rebuilds and extends the Rhine-Danube frontier with a new generation of forts — bridgeheads on the far side of the rivers as aggressive forward outposts.",
+          "tag": "CONSTRUCTION",
+          "note": "Ammianus Marcellinus 17.1.11 (Julian rebuilds forts, continuing Constantine's work). Johnson, Late Roman Fortifications (1983). Bridgehead forts at Divitia (Cologne), Deutz: excavated."
+        },
+        {
+          "id": "te3",
+          "group": "Information & Communication",
+          "label": "Gothic alphabet invented (Ulfilas)",
+          "date": "c.341",
+          "loc": "Gothic territory (north of Danube)",
+          "coords": [
+            44.5,
+            26.0
+          ],
+          "hint": "Ulfilas creates a new alphabet of 27 letters to transcribe the Gothic language — the first writing system for any Germanic language, invented specifically to translate the Bible.",
+          "tag": "TECHNOLOGY",
+          "note": "Philostorgius HE 2.5 records Ulfilas as inventor. Codex Argenteus (Uppsala) preserves the result. The alphabet derives from Greek uncials with some Latin and runic elements: Friedrichsen (1926)."
+        },
+        {
+          "id": "te4",
+          "group": "Civil Engineering",
+          "label": "Church basilica building programme",
+          "date": "c.313–400",
+          "loc": "Rome, Jerusalem, Antioch, Constantinople",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "The legalisation of Christianity triggers the first large-scale public building programme in the Christian world — the Roman basilica form adapted and standardised as the church building.",
+          "tag": "CONSTRUCTION",
+          "note": "Krautheimer, Early Christian and Byzantine Architecture (1965). Liber Pontificalis records Roman foundations. Eusebius VC 3.29–40 describes the Jerusalem buildings. Engineering continuity from secular basilica documented archaeologically."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Geopolitical shifts, migration & the wider world",
       "entries": [
-        { "id":"w1",  "group":"Geopolitical Shift",  "label":"Sassanid Empire under Shapur II",                 "date":"309–379",          "loc":"Ctesiphon (mod. Iraq); eastern frontier",         "coords":[33.1,44.6],   "hint":"Shapur II's 70-year reign makes Persia Rome's most dangerous and consistent rival; he besieges Nisibis three times, recaptures it in 363 and kills the emperor Julian.",  "tag":"EVENT",     "note":"Ammianus Marcellinus (multiple books) is the main Roman source. Tabari's Chronicle (9th c.) for Persian perspective. Shapur II's rock inscriptions at Taq-e Bostan (extant)." },
-        { "id":"w2",  "group":"Migration & Invasion", "label":"Hunnic expansion westward",                       "date":"c.370–395",        "loc":"Pontic steppe → Gothic territory (mod. Ukraine)",  "coords":[48.0,35.0],   "hint":"The Huns appear on the Pontic steppe around 370 and push the Goths westward with devastating speed — the chain reaction that produces the Gothic crossing of 376 and Adrianople.", "tag":"MIGRATION", "note":"Ammianus Marcellinus 31.2–3 (describes Hunnic way of life). Eunapius fragments. Physical evidence: Hunnic cauldron finds cluster west of Don river. Heather, Goths and Romans (1991) ch. 3." },
-        { "id":"w3",  "group":"Geopolitical Shift",  "label":"Division of empire at Theodosius's death",        "date":"17 Jan 395",       "loc":"Milan (Theodosius died); Constantinople / Rome",   "coords":[45.5,9.2],    "hint":"Theodosius dies leaving the empire to his two sons — 11-year-old Honorius in the West and 18-year-old Arcadius in the East — a division that proves permanent.",           "tag":"EVENT",     "note":"Death 17 Jan 395: Zosimus 4.59; Claudian, De III Consulatu Honorii. Stilicho's guardianship: Claudian, De Consulatu Stilichonis. Orosius 7.36 for the political consequences." },
-        { "id":"w4",  "group":"Climate & Environment", "label":"Ammianus on climate and natural disasters",      "date":"c.350–378",        "loc":"Empire-wide (earthquakes, floods documented)",     "coords":[38.0,28.0],   "hint":"Ammianus Marcellinus records major earthquakes (365 AD tsunami devastating Alexandria), floods and crop failures — unusually rich environmental documentation for the period.", "tag":"CLIMATE",   "note":"Earthquake and tsunami 21 Jul 365: Ammianus 26.10 (eyewitness account of waves reaching Egypt). Kelly Harper, The Fate of Rome (2017) ch. 6. Archaeological evidence: destruction layers at coastal sites." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Sassanid Empire under Shapur II",
+          "date": "309–379",
+          "loc": "Ctesiphon (mod. Iraq); eastern frontier",
+          "coords": [
+            33.1,
+            44.6
+          ],
+          "hint": "Shapur II's 70-year reign makes Persia Rome's most dangerous and consistent rival; he besieges Nisibis three times, recaptures it in 363 and kills the emperor Julian.",
+          "tag": "EVENT",
+          "note": "Ammianus Marcellinus (multiple books) is the main Roman source. Tabari's Chronicle (9th c.) for Persian perspective. Shapur II's rock inscriptions at Taq-e Bostan (extant)."
+        },
+        {
+          "id": "w2",
+          "group": "Migration & Invasion",
+          "label": "Hunnic expansion westward",
+          "date": "c.370–395",
+          "loc": "Pontic steppe → Gothic territory (mod. Ukraine)",
+          "coords": [
+            48.0,
+            35.0
+          ],
+          "hint": "The Huns appear on the Pontic steppe around 370 and push the Goths westward with devastating speed — the chain reaction that produces the Gothic crossing of 376 and Adrianople.",
+          "tag": "MIGRATION",
+          "note": "Ammianus Marcellinus 31.2–3 (describes Hunnic way of life). Eunapius fragments. Physical evidence: Hunnic cauldron finds cluster west of Don river. Heather, Goths and Romans (1991) ch. 3."
+        },
+        {
+          "id": "w3",
+          "group": "Geopolitical Shift",
+          "label": "Division of empire at Theodosius's death",
+          "date": "17 Jan 395",
+          "loc": "Milan (Theodosius died); Constantinople / Rome",
+          "coords": [
+            45.5,
+            9.2
+          ],
+          "hint": "Theodosius dies leaving the empire to his two sons — 11-year-old Honorius in the West and 18-year-old Arcadius in the East — a division that proves permanent.",
+          "tag": "EVENT",
+          "note": "Death 17 Jan 395: Zosimus 4.59; Claudian, De III Consulatu Honorii. Stilicho's guardianship: Claudian, De Consulatu Stilichonis. Orosius 7.36 for the political consequences."
+        },
+        {
+          "id": "w4",
+          "group": "Climate & Environment",
+          "label": "Ammianus on climate and natural disasters",
+          "date": "c.350–378",
+          "loc": "Empire-wide (earthquakes, floods documented)",
+          "coords": [
+            38.0,
+            28.0
+          ],
+          "hint": "Ammianus Marcellinus records major earthquakes (365 AD tsunami devastating Alexandria), floods and crop failures — unusually rich environmental documentation for the period.",
+          "tag": "CLIMATE",
+          "note": "Earthquake and tsunami 21 Jul 365: Ammianus 26.10 (eyewitness account of waves reaching Egypt). Kelly Harper, The Fate of Rome (2017) ch. 6. Archaeological evidence: destruction layers at coastal sites."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"tetrarchy",     "icon":"⚜️","accent":"#922B21","label":"Tetrarchy",                  "events":[
-      {"y":284,"y2":305,"l":"Diocletian",           "entryId":"p1"},
-      {"y":305,"y2":311,"l":"Galerius (E)",         "entryId":"p2"},
-      {"y":306,"y2":312,"l":"Maxentius (W)",        "entryId":"p3"}
-    ]},
-    {"id":"constantinian", "icon":"⚜️","accent":"#B22222","label":"Constantinian dynasty",      "events":[
-      {"y":306,"y2":337,"l":"Constantine I",        "entryId":"p4"},
-      {"y":308,"y2":324,"l":"Licinius (E)",         "entryId":"p5"},
-      {"y":337,"y2":361,"l":"Constantius II",       "entryId":"p6"},
-      {"y":361,"y2":363,"l":"Julian",               "entryId":"p7"}
-    ]},
-    {"id":"valentinianic", "icon":"⚜️","accent":"#C0392B","label":"Valentinianic dynasty",      "events":[
-      {"y":363,"y2":364,"l":"Jovian",               "entryId":"p8"},
-      {"y":364,"y2":375,"l":"Valentinian I (W)",    "entryId":"p9"},
-      {"y":364,"y2":378,"l":"Valens (E)",           "entryId":"p10"},
-      {"y":375,"y2":383,"l":"Gratian (W)",          "entryId":"p11"}
-    ]},
-    {"id":"theodosian",    "icon":"⚜️","accent":"#884EA0","label":"Theodosian dynasty",          "events":[
-      {"y":379,"y2":395,"l":"Theodosius I",         "entryId":"p12"}
-    ]},
-    {"id":"conflict",      "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":312,"l":"Milvian Bridge",                "entryId":"c1"},
-      {"y":324,"l":"Chrysopolis",                   "entryId":"c2"},
-      {"y":357,"l":"Argentoratum",                  "entryId":"c8"},
-      {"y":363,"l":"Julian's Persian campaign",     "entryId":"c3"},
-      {"y":363,"l":"Nisibis ceded",                 "entryId":"c4"},
-      {"y":376,"l":"Gothic Danube crossing",        "entryId":"c5"},
-      {"y":378,"l":"Battle of Adrianople",          "entryId":"c6"},
-      {"y":394,"l":"Battle of the Frigidus",        "entryId":"c7"}
-    ]},
-    {"id":"order",         "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":311,"l":"Edict of Toleration",           "entryId":"o1"},
-      {"y":313,"l":"Edict of Milan",                "entryId":"o2"},
-      {"y":321,"l":"Sunday Law",                    "entryId":"o4"},
-      {"y":330,"l":"Constantinople founded",        "entryId":"o3"},
-      {"y":380,"l":"Edict of Thessalonica",         "entryId":"o5"},
-      {"y":391,"l":"Temples banned",                "entryId":"o6"}
-    ]},
-    {"id":"belief",        "icon":"🙏","accent":"#1E8449","events":[
-      {"y":325,"l":"Council of Nicaea",             "entryId":"r1"},
-      {"y":341,"l":"Ulfilas — Gothic Bible",        "entryId":"r7"},
-      {"y":357,"l":"Council of Sirmium",            "entryId":"r6"},
-      {"y":361,"l":"Julian's pagan restoration",    "entryId":"r4"},
-      {"y":382,"l":"Altar of Victory removed",      "entryId":"r5"},
-      {"y":381,"l":"Council of Constantinople",     "entryId":"r2"}
-    ]},
-    {"id":"expression",    "icon":"✨","accent":"#8D6E63","events":[
-      {"y":315,"l":"Arch of Constantine",           "entryId":"a1"},
-      {"y":326,"l":"Old St Peter's begun",          "entryId":"a2"},
-      {"y":330,"l":"Constantinople Hippodrome",     "entryId":"a7"},
-      {"y":335,"l":"Holy Sepulchre dedicated",      "entryId":"a3"},
-      {"y":350,"l":"Hinton St Mary mosaic",         "entryId":"a5"}
-    ]},
-    {"id":"thought",       "icon":"💡","accent":"#566573","events":[
-      {"y":313,"l":"Eusebius: Church History",      "entryId":"t1"},
-      {"y":318,"l":"Athanasius: De Incarnatione",   "entryId":"t2"},
-      {"y":382,"l":"Jerome: Vulgate begun",         "entryId":"t7"},
-      {"y":384,"l":"Symmachus: Relatio 3",          "entryId":"t6"},
-      {"y":390,"l":"Ammianus: Res Gestae",          "entryId":"t3"}
-    ]},
-    {"id":"subsistence",   "icon":"🌾","accent":"#8B5E00","events":[
-      {"y":300,"l":"Diocletian tax census",         "entryId":"s2"},
-      {"y":310,"l":"Solidus introduced",            "entryId":"s1"},
-      {"y":363,"l":"Nisibis trade disruption",      "entryId":"s4"},
-      {"y":382,"l":"Gothic settlement in Moesia",   "entryId":"s3"}
-    ]},
-    {"id":"technology",    "icon":"⚙️","accent":"#2E7D52","events":[
-      {"y":313,"l":"Church building programme",     "entryId":"te4"},
-      {"y":324,"l":"Constantinople water system",   "entryId":"te1"},
-      {"y":341,"l":"Gothic alphabet",               "entryId":"te3"},
-      {"y":373,"l":"Aqueduct of Valens",            "entryId":"te1"}
-    ]},
-    {"id":"world",         "icon":"🌍","accent":"#2471A3","events":[
-      {"y":309,"l":"Shapur II (Sassanids)",         "entryId":"w1"},
-      {"y":365,"l":"Alexandria earthquake/tsunami", "entryId":"w4"},
-      {"y":370,"l":"Huns push westward",            "entryId":"w2"},
-      {"y":376,"l":"Gothic crisis begins",          "entryId":"c5"},
-      {"y":395,"l":"Empire splits permanently",     "entryId":"w3"}
-    ]}
+    {
+      "id": "tetrarchy",
+      "icon": "⚜️",
+      "accent": "#922B21",
+      "label": "Tetrarchy",
+      "events": [
+        {
+          "y": 284,
+          "y2": 305,
+          "l": "Diocletian",
+          "entryId": "p1"
+        },
+        {
+          "y": 305,
+          "y2": 311,
+          "l": "Galerius (E)",
+          "entryId": "p2"
+        },
+        {
+          "y": 306,
+          "y2": 312,
+          "l": "Maxentius (W)",
+          "entryId": "p3"
+        }
+      ]
+    },
+    {
+      "id": "constantinian",
+      "icon": "⚜️",
+      "accent": "#B22222",
+      "label": "Constantinian dynasty",
+      "events": [
+        {
+          "y": 306,
+          "y2": 337,
+          "l": "Constantine I",
+          "entryId": "p4"
+        },
+        {
+          "y": 308,
+          "y2": 324,
+          "l": "Licinius (E)",
+          "entryId": "p5"
+        },
+        {
+          "y": 337,
+          "y2": 361,
+          "l": "Constantius II",
+          "entryId": "p6"
+        },
+        {
+          "y": 361,
+          "y2": 363,
+          "l": "Julian",
+          "entryId": "p7"
+        }
+      ]
+    },
+    {
+      "id": "valentinianic",
+      "icon": "⚜️",
+      "accent": "#C0392B",
+      "label": "Valentinianic dynasty",
+      "events": [
+        {
+          "y": 363,
+          "y2": 364,
+          "l": "Jovian",
+          "entryId": "p8"
+        },
+        {
+          "y": 364,
+          "y2": 375,
+          "l": "Valentinian I (W)",
+          "entryId": "p9"
+        },
+        {
+          "y": 364,
+          "y2": 378,
+          "l": "Valens (E)",
+          "entryId": "p10"
+        },
+        {
+          "y": 375,
+          "y2": 383,
+          "l": "Gratian (W)",
+          "entryId": "p11"
+        }
+      ]
+    },
+    {
+      "id": "theodosian",
+      "icon": "⚜️",
+      "accent": "#884EA0",
+      "label": "Theodosian dynasty",
+      "events": [
+        {
+          "y": 379,
+          "y2": 395,
+          "l": "Theodosius I",
+          "entryId": "p12"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 312,
+          "l": "Milvian Bridge",
+          "entryId": "c1"
+        },
+        {
+          "y": 324,
+          "l": "Chrysopolis",
+          "entryId": "c2"
+        },
+        {
+          "y": 357,
+          "l": "Argentoratum",
+          "entryId": "c8"
+        },
+        {
+          "y": 363,
+          "l": "Julian's Persian campaign",
+          "entryId": "c3"
+        },
+        {
+          "y": 363,
+          "l": "Nisibis ceded",
+          "entryId": "c4"
+        },
+        {
+          "y": 376,
+          "l": "Gothic Danube crossing",
+          "entryId": "c5"
+        },
+        {
+          "y": 378,
+          "l": "Battle of Adrianople",
+          "entryId": "c6"
+        },
+        {
+          "y": 394,
+          "l": "Battle of the Frigidus",
+          "entryId": "c7"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 311,
+          "l": "Edict of Toleration",
+          "entryId": "o1"
+        },
+        {
+          "y": 313,
+          "l": "Edict of Milan",
+          "entryId": "o2"
+        },
+        {
+          "y": 321,
+          "l": "Sunday Law",
+          "entryId": "o4"
+        },
+        {
+          "y": 330,
+          "l": "Constantinople founded",
+          "entryId": "o3"
+        },
+        {
+          "y": 380,
+          "l": "Edict of Thessalonica",
+          "entryId": "o5"
+        },
+        {
+          "y": 391,
+          "l": "Temples banned",
+          "entryId": "o6"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 325,
+          "l": "Council of Nicaea",
+          "entryId": "r1"
+        },
+        {
+          "y": 341,
+          "l": "Ulfilas — Gothic Bible",
+          "entryId": "r7"
+        },
+        {
+          "y": 357,
+          "l": "Council of Sirmium",
+          "entryId": "r6"
+        },
+        {
+          "y": 361,
+          "l": "Julian's pagan restoration",
+          "entryId": "r4"
+        },
+        {
+          "y": 382,
+          "l": "Altar of Victory removed",
+          "entryId": "r5"
+        },
+        {
+          "y": 381,
+          "l": "Council of Constantinople",
+          "entryId": "r2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 315,
+          "l": "Arch of Constantine",
+          "entryId": "a1"
+        },
+        {
+          "y": 326,
+          "l": "Old St Peter's begun",
+          "entryId": "a2"
+        },
+        {
+          "y": 330,
+          "l": "Constantinople Hippodrome",
+          "entryId": "a7"
+        },
+        {
+          "y": 335,
+          "l": "Holy Sepulchre dedicated",
+          "entryId": "a3"
+        },
+        {
+          "y": 350,
+          "l": "Hinton St Mary mosaic",
+          "entryId": "a5"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 313,
+          "l": "Eusebius: Church History",
+          "entryId": "t1"
+        },
+        {
+          "y": 318,
+          "l": "Athanasius: De Incarnatione",
+          "entryId": "t2"
+        },
+        {
+          "y": 382,
+          "l": "Jerome: Vulgate begun",
+          "entryId": "t7"
+        },
+        {
+          "y": 384,
+          "l": "Symmachus: Relatio 3",
+          "entryId": "t6"
+        },
+        {
+          "y": 390,
+          "l": "Ammianus: Res Gestae",
+          "entryId": "t3"
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "icon": "🌾",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 300,
+          "l": "Diocletian tax census",
+          "entryId": "s2"
+        },
+        {
+          "y": 310,
+          "l": "Solidus introduced",
+          "entryId": "s1"
+        },
+        {
+          "y": 363,
+          "l": "Nisibis trade disruption",
+          "entryId": "s4"
+        },
+        {
+          "y": 382,
+          "l": "Gothic settlement in Moesia",
+          "entryId": "s3"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#2E7D52",
+      "events": [
+        {
+          "y": 313,
+          "l": "Church building programme",
+          "entryId": "te4"
+        },
+        {
+          "y": 324,
+          "l": "Constantinople water system",
+          "entryId": "te1"
+        },
+        {
+          "y": 341,
+          "l": "Gothic alphabet",
+          "entryId": "te3"
+        },
+        {
+          "y": 373,
+          "l": "Aqueduct of Valens",
+          "entryId": "te1"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 309,
+          "l": "Shapur II (Sassanids)",
+          "entryId": "w1"
+        },
+        {
+          "y": 365,
+          "l": "Alexandria earthquake/tsunami",
+          "entryId": "w4"
+        },
+        {
+          "y": 370,
+          "l": "Huns push westward",
+          "entryId": "w2"
+        },
+        {
+          "y": 376,
+          "l": "Gothic crisis begins",
+          "entryId": "c5"
+        },
+        {
+          "y": 395,
+          "l": "Empire splits permanently",
+          "entryId": "w3"
+        }
+      ]
+    }
   ]
 }
