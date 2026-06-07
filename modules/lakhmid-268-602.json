@@ -2,161 +2,935 @@
   "id": "lakhmid-268-602",
   "title": "Lakhmid Kingdom",
   "subtitle": "c.268–602 AD · The Nasrid Kings of al-Hira",
-  "period": { "start": 268, "end": 610 },
-  "mapCenter": [32.5, 44.5],
+  "period": {
+    "start": 268,
+    "end": 610
+  },
+  "mapCenter": [
+    32.5,
+    44.5
+  ],
   "mapZoom": 5,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#5D3A00", "accent": "#A0522D", "bg": "#FFF8F0",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5D3A00",
+      "accent": "#A0522D",
+      "bg": "#FFF8F0",
       "subtitle": "The Nasrid dynasty of al-Hira — Sasanian client kings",
       "entries": [
-        { "id":"k1",  "group":"Early Nasrids (c.268–400)",   "dynasty":"Nasrid", "label":"Amr ibn Adi",              "date":"c.268–295",      "loc":"Al-Hira (mod. south of Kufa, Iraq)",                           "coords":[31.98,44.39], "hint":"Traditional founder of the Lakhmid kingdom at al-Hira; mentioned in a Pahlavi/Parthian inscription and a Coptic text — the two earliest hard anchors for the dynasty.",          "tag":"SUCCESSION", "note":"Identified as 'Amr ibn Lakhm' in two pre-Islamic inscriptions: one Pahlavi/Parthian, one Coptic — cited by Schiettecatte & Arbach (2016). Later Arabic tradition: Hisham al-Kalbi (d.819), drawing on al-Hira records. Dates approximate." },
-        { "id":"k2",  "group":"Early Nasrids (c.268–400)",   "dynasty":"Nasrid", "label":"Imru al-Qays ibn Amr",     "date":"c.295–328",      "loc":"Al-Hira; died at Namara, Syria",                               "coords":[33.02,37.28], "hint":"Calls himself 'King of all the Arabs' on his tombstone — the Namara inscription of 328 CE, found in southern Syria, is the most important pre-Islamic Arabic inscription known.",    "tag":"SUCCESSION", "note":"HARD ANCHOR: Namara inscription, basalt stele, dated 7 Dec 328 CE (internal calendar date). Found Namara, Syria 1901. Now Louvre (inv. AO 4083). Nabataean-Arabic script. Irfan Shahid: 'the most important Arabic inscription of pre-Islamic times.' Text: Robin (2010)." },
-        { "id":"k3",  "group":"Early Nasrids (c.268–400)",   "dynasty":"Nasrid", "label":"Amr II ibn Imru al-Qays",  "date":"c.328–363",      "loc":"Al-Hira",                                                      "coords":[31.98,44.39], "hint":"Reigned through the period of Julian's Persian war; al-Hira close enough to the Roman-Persian frontier that Lakhmid forces likely participated in Sasanian defence.",              "tag":"SUCCESSION", "note":"Source: Hisham al-Kalbi king list (9th c., drawing on al-Hira records). Dates uncertain by ±10 years. No contemporary non-Arabic source corroborates this reign specifically. Rothstein (1899) Die Dynastie der Lahmiden is the foundational study." },
-        { "id":"k4",  "group":"Early Nasrids (c.268–400)",   "dynasty":"Nasrid", "label":"Aws ibn Qallam",           "date":"c.363–368",      "loc":"Al-Hira",                                                      "coords":[31.98,44.39], "hint":"A non-Nasrid interlude — a Christian Arab nobleman who briefly displaced the dynasty, then was killed in a Lakhmid nobleman's revolt restoring Nasrid rule.",                      "tag":"COUP",       "note":"Source: Hisham al-Kalbi. Rothstein (1899) p.64. Aws described as scion of a Christian Arab family; a relative built a church at al-Hira. Dates uncertain." },
-        { "id":"k5",  "group":"Early Nasrids (c.268–400)",   "dynasty":"Nasrid", "label":"Imru al-Qays II ibn Amr",  "date":"c.368–390",      "loc":"Al-Hira",                                                      "coords":[31.98,44.39], "hint":"Nestorian Christian; restored Nasrid rule after the Aws interlude. Little documented beyond his religion and approximate dates.",                                               "tag":"SUCCESSION", "note":"Source: Hisham al-Kalbi. Religion: Nestorian Christianity noted in Arabic sources. Chronology approximate per Rothstein (1899). No contemporary external corroboration for this specific reign." },
-        { "id":"k6",  "group":"Early Nasrids (c.268–400)",   "dynasty":"Nasrid", "label":"al-Numan I ibn Imru al-Qays","date":"c.390–418",    "loc":"Al-Hira; palaces Khawarnaq and Sadir",                         "coords":[31.98,44.39], "hint":"Builder of the legendary palaces Khawarnaq (built for the Sasanian prince Bahram Gur) and Sadir — both praised in pre-Islamic Arabic poetry as wonders of the world.",         "tag":"SUCCESSION", "note":"Palaces: Khawarnaq and Sadir named in multiple Arabic poetic sources (Adi ibn Zayd, al-Nabigha). Encyclopaedia Iranica (Bosworth). Dates from Hisham al-Kalbi. The palace of Khawarnaq is the subject of a famous qasida by al-Nābigha al-Dhubyānī." },
-        { "id":"k7",  "group":"Middle Nasrids (c.400–503)",  "dynasty":"Nasrid", "label":"al-Mundhir I ibn al-Numan", "date":"c.418–452",     "loc":"Al-Hira; campaigns against Byzantium",                         "coords":[31.98,44.39], "hint":"Fought for the Persians against the Byzantines and played a role in the Sasanian succession crisis of 420 — corroborated by the Greek church historian Socrates Scholasticus.",   "tag":"SUCCESSION", "note":"CORROBORATED: Socrates Scholasticus HE 7.18 (c.440) mentions al-Mundhir as commander of Lakhmid troops in 421–422 without calling him king. Shahid, BASIC I.1 (1989). Duration from Hisham al-Kalbi." },
-        { "id":"k8",  "group":"Middle Nasrids (c.400–503)",  "dynasty":"Nasrid", "label":"al-Aswad ibn al-Mundhir",  "date":"c.452–462",      "loc":"Al-Hira",                                                      "coords":[31.98,44.39], "hint":"Brief reign following his father al-Mundhir I; the 5th century is better documented than the 4th but dates remain approximate within a decade.",                               "tag":"SUCCESSION", "note":"Source: Hisham al-Kalbi. Partial corroboration from Syriac chronicles of the period. Shahid, BASIC I.1 (1989) pp.31–40." },
-        { "id":"k9",  "group":"Middle Nasrids (c.400–503)",  "dynasty":"Nasrid", "label":"al-Numan II ibn al-Aswad", "date":"c.462–503",      "loc":"Al-Hira",                                                      "coords":[31.98,44.39], "hint":"Long reign bridging the middle and late periods; his son al-Mundhir III will become the most powerful Lakhmid king.",                                                            "tag":"SUCCESSION", "note":"Source: Hisham al-Kalbi. Dates partially corroborated by Syriac chronicle material. Rothstein (1899); Shahid, BASIC I.2 (1989)." },
-        { "id":"k10", "group":"High Nasrids (503–569)",      "dynasty":"Nasrid", "label":"al-Mundhir III ibn al-Numan","date":"503/505–554",   "loc":"Al-Hira; campaigns across Arabia and Syria frontier",           "coords":[31.98,44.39], "hint":"The most powerful Lakhmid king — reigned 50 years, fought the Ghassanids repeatedly, extended Sasanian influence across Arabia, and died at the Battle of Yawm Halima in 554.",   "tag":"SUCCESSION", "note":"WELL DOCUMENTED: Procopius Wars 1.17, 2.1, 2.16 (Greek, contemporary). Syriac Chronicle of Pseudo-Zacharias Rhetor. Died at Yawm Halima 554 — multiple Arabic sources; Shahid, BASIC I.2 pp.195–260. Dates confirmed by cross-reference with Byzantine sources." },
-        { "id":"k11", "group":"High Nasrids (503–569)",      "dynasty":"Nasrid", "label":"Amr ibn Hind",             "date":"554–569",        "loc":"Al-Hira",                                                      "coords":[31.98,44.39], "hint":"Notoriously arrogant king celebrated and condemned in Arabic poetry; patron of the poet Tarafa, whom he executed — the most vivid portrait of a Lakhmid king in the literary record.", "tag":"SUCCESSION", "note":"LITERARY ANCHOR: Tarafa ibn al-Abd's Muallaqat (one of the Seven Odes) — composed at Amr ibn Hind's court, terminus ante quem 569. Al-Nabigha al-Dhubyani's odes addressed to Amr ibn Hind survive. Tabari I.948–950. Montgomery (2012), Arabian Poet." },
-        { "id":"k12", "group":"Late Nasrids (569–602)",      "dynasty":"Nasrid", "label":"al-Mundhir IV ibn al-Mundhir","date":"c.569–580",   "loc":"Al-Hira",                                                      "coords":[31.98,44.39], "hint":"Son of al-Mundhir III; his short reign is a transition between the dynasty's peak and its final collapse under Khosrow II.",                                                     "tag":"SUCCESSION", "note":"Source: Tabari I; Hisham al-Kalbi. Dates partly corroborated by Byzantine sources mentioning Lakhmid activity. Shahid, BASIC II.1 (1995)." },
-        { "id":"k13", "group":"Late Nasrids (569–602)",      "dynasty":"Nasrid", "label":"al-Numan III ibn al-Mundhir","date":"580–602",       "loc":"Al-Hira; died in Persian captivity at Ctesiphon",              "coords":[31.98,44.39], "hint":"Last Lakhmid king — converted to Nestorian Christianity, was betrayed to Khosrow II (possibly over the Adi ibn Zayd affair), then executed, ending the dynasty in 602.",         "tag":"DEPOSED",    "note":"WELL DOCUMENTED: Tabari I.1012–1022. Al-Numan's Christianity: multiple Arabic sources. Death c.609 at Ctesiphon: Tabari. Adi ibn Zayd connection: Ibn al-Kalbi. Bosworth (1999) EI2 s.v. al-Numan ibn al-Mundhir. End of kingdom: Tabari I.1022; Dinawari, Akhbar al-Tiwal." }
+        {
+          "id": "k1",
+          "group": "Early Nasrids (c.268–400)",
+          "dynasty": "Nasrid",
+          "label": "Amr ibn Adi",
+          "date": "c.268–295",
+          "loc": "Al-Hira (mod. south of Kufa, Iraq)",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Traditional founder of the Lakhmid kingdom at al-Hira; mentioned in a Pahlavi/Parthian inscription and a Coptic text — the two earliest hard anchors for the dynasty.",
+          "tag": "SUCCESSION",
+          "note": "Identified as 'Amr ibn Lakhm' in two pre-Islamic inscriptions: one Pahlavi/Parthian, one Coptic — cited by Schiettecatte & Arbach (2016). Later Arabic tradition: Hisham al-Kalbi (d.819), drawing on al-Hira records. Dates approximate."
+        },
+        {
+          "id": "k2",
+          "group": "Early Nasrids (c.268–400)",
+          "dynasty": "Nasrid",
+          "label": "Imru al-Qays ibn Amr",
+          "date": "c.295–328",
+          "loc": "Al-Hira; died at Namara, Syria",
+          "coords": [
+            33.02,
+            37.28
+          ],
+          "hint": "Calls himself 'King of all the Arabs' on his tombstone — the Namara inscription of 328 CE, found in southern Syria, is the most important pre-Islamic Arabic inscription known.",
+          "tag": "SUCCESSION",
+          "note": "HARD ANCHOR: Namara inscription, basalt stele, dated 7 Dec 328 CE (internal calendar date). Found Namara, Syria 1901. Now Louvre (inv. AO 4083). Nabataean-Arabic script. Irfan Shahid: 'the most important Arabic inscription of pre-Islamic times.' Text: Robin (2010)."
+        },
+        {
+          "id": "k3",
+          "group": "Early Nasrids (c.268–400)",
+          "dynasty": "Nasrid",
+          "label": "Amr II ibn Imru al-Qays",
+          "date": "c.328–363",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Reigned through the period of Julian's Persian war; al-Hira close enough to the Roman-Persian frontier that Lakhmid forces likely participated in Sasanian defence.",
+          "tag": "SUCCESSION",
+          "note": "Source: Hisham al-Kalbi king list (9th c., drawing on al-Hira records). Dates uncertain by ±10 years. No contemporary non-Arabic source corroborates this reign specifically. Rothstein (1899) Die Dynastie der Lahmiden is the foundational study."
+        },
+        {
+          "id": "k4",
+          "group": "Early Nasrids (c.268–400)",
+          "dynasty": "Nasrid",
+          "label": "Aws ibn Qallam",
+          "date": "c.363–368",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "A non-Nasrid interlude — a Christian Arab nobleman who briefly displaced the dynasty, then was killed in a Lakhmid nobleman's revolt restoring Nasrid rule.",
+          "tag": "COUP",
+          "note": "Source: Hisham al-Kalbi. Rothstein (1899) p.64. Aws described as scion of a Christian Arab family; a relative built a church at al-Hira. Dates uncertain."
+        },
+        {
+          "id": "k5",
+          "group": "Early Nasrids (c.268–400)",
+          "dynasty": "Nasrid",
+          "label": "Imru al-Qays II ibn Amr",
+          "date": "c.368–390",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Nestorian Christian; restored Nasrid rule after the Aws interlude. Little documented beyond his religion and approximate dates.",
+          "tag": "SUCCESSION",
+          "note": "Source: Hisham al-Kalbi. Religion: Nestorian Christianity noted in Arabic sources. Chronology approximate per Rothstein (1899). No contemporary external corroboration for this specific reign."
+        },
+        {
+          "id": "k6",
+          "group": "Early Nasrids (c.268–400)",
+          "dynasty": "Nasrid",
+          "label": "al-Numan I ibn Imru al-Qays",
+          "date": "c.390–418",
+          "loc": "Al-Hira; palaces Khawarnaq and Sadir",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Builder of the legendary palaces Khawarnaq (built for the Sasanian prince Bahram Gur) and Sadir — both praised in pre-Islamic Arabic poetry as wonders of the world.",
+          "tag": "SUCCESSION",
+          "note": "Palaces: Khawarnaq and Sadir named in multiple Arabic poetic sources (Adi ibn Zayd, al-Nabigha). Encyclopaedia Iranica (Bosworth). Dates from Hisham al-Kalbi. The palace of Khawarnaq is the subject of a famous qasida by al-Nābigha al-Dhubyānī."
+        },
+        {
+          "id": "k7",
+          "group": "Middle Nasrids (c.400–503)",
+          "dynasty": "Nasrid",
+          "label": "al-Mundhir I ibn al-Numan",
+          "date": "c.418–452",
+          "loc": "Al-Hira; campaigns against Byzantium",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Fought for the Persians against the Byzantines and played a role in the Sasanian succession crisis of 420 — corroborated by the Greek church historian Socrates Scholasticus.",
+          "tag": "SUCCESSION",
+          "note": "CORROBORATED: Socrates Scholasticus HE 7.18 (c.440) mentions al-Mundhir as commander of Lakhmid troops in 421–422 without calling him king. Shahid, BASIC I.1 (1989). Duration from Hisham al-Kalbi."
+        },
+        {
+          "id": "k8",
+          "group": "Middle Nasrids (c.400–503)",
+          "dynasty": "Nasrid",
+          "label": "al-Aswad ibn al-Mundhir",
+          "date": "c.452–462",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Brief reign following his father al-Mundhir I; the 5th century is better documented than the 4th but dates remain approximate within a decade.",
+          "tag": "SUCCESSION",
+          "note": "Source: Hisham al-Kalbi. Partial corroboration from Syriac chronicles of the period. Shahid, BASIC I.1 (1989) pp.31–40."
+        },
+        {
+          "id": "k9",
+          "group": "Middle Nasrids (c.400–503)",
+          "dynasty": "Nasrid",
+          "label": "al-Numan II ibn al-Aswad",
+          "date": "c.462–503",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Long reign bridging the middle and late periods; his son al-Mundhir III will become the most powerful Lakhmid king.",
+          "tag": "SUCCESSION",
+          "note": "Source: Hisham al-Kalbi. Dates partially corroborated by Syriac chronicle material. Rothstein (1899); Shahid, BASIC I.2 (1989)."
+        },
+        {
+          "id": "k10",
+          "group": "High Nasrids (503–569)",
+          "dynasty": "Nasrid",
+          "label": "al-Mundhir III ibn al-Numan",
+          "date": "503/505–554",
+          "loc": "Al-Hira; campaigns across Arabia and Syria frontier",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "The most powerful Lakhmid king — reigned 50 years, fought the Ghassanids repeatedly, extended Sasanian influence across Arabia, and died at the Battle of Yawm Halima in 554.",
+          "tag": "SUCCESSION",
+          "note": "WELL DOCUMENTED: Procopius Wars 1.17, 2.1, 2.16 (Greek, contemporary). Syriac Chronicle of Pseudo-Zacharias Rhetor. Died at Yawm Halima 554 — multiple Arabic sources; Shahid, BASIC I.2 pp.195–260. Dates confirmed by cross-reference with Byzantine sources."
+        },
+        {
+          "id": "k11",
+          "group": "High Nasrids (503–569)",
+          "dynasty": "Nasrid",
+          "label": "Amr ibn Hind",
+          "date": "554–569",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Notoriously arrogant king celebrated and condemned in Arabic poetry; patron of the poet Tarafa, whom he executed — the most vivid portrait of a Lakhmid king in the literary record.",
+          "tag": "SUCCESSION",
+          "note": "LITERARY ANCHOR: Tarafa ibn al-Abd's Muallaqat (one of the Seven Odes) — composed at Amr ibn Hind's court, terminus ante quem 569. Al-Nabigha al-Dhubyani's odes addressed to Amr ibn Hind survive. Tabari I.948–950. Montgomery (2012), Arabian Poet."
+        },
+        {
+          "id": "k12",
+          "group": "Late Nasrids (569–602)",
+          "dynasty": "Nasrid",
+          "label": "al-Mundhir IV ibn al-Mundhir",
+          "date": "c.569–580",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Son of al-Mundhir III; his short reign is a transition between the dynasty's peak and its final collapse under Khosrow II.",
+          "tag": "SUCCESSION",
+          "note": "Source: Tabari I; Hisham al-Kalbi. Dates partly corroborated by Byzantine sources mentioning Lakhmid activity. Shahid, BASIC II.1 (1995)."
+        },
+        {
+          "id": "k13",
+          "group": "Late Nasrids (569–602)",
+          "dynasty": "Nasrid",
+          "label": "al-Numan III ibn al-Mundhir",
+          "date": "580–602",
+          "loc": "Al-Hira; died in Persian captivity at Ctesiphon",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Last Lakhmid king — converted to Nestorian Christianity, was betrayed to Khosrow II (possibly over the Adi ibn Zayd affair), then executed, ending the dynasty in 602.",
+          "tag": "DEPOSED",
+          "note": "WELL DOCUMENTED: Tabari I.1012–1022. Al-Numan's Christianity: multiple Arabic sources. Death c.609 at Ctesiphon: Tabari. Adi ibn Zayd connection: Ibn al-Kalbi. Bosworth (1999) EI2 s.v. al-Numan ibn al-Mundhir. End of kingdom: Tabari I.1022; Dinawari, Akhbar al-Tiwal."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "Wars, raids & the Ghassanid rivalry",
       "entries": [
-        { "id":"c1",  "group":"Ghassanid-Lakhmid Wars", "label":"Yawm Halima — death of al-Mundhir III",    "date":"c.554",          "loc":"Unknown site, Syrian steppe (disputed location)",              "coords":[33.5,38.5],   "hint":"Al-Mundhir III killed fighting the Ghassanids in 'the Day of Halima' — named for the Ghassanid princess who rallied her side's warriors; one of the most famous battles in pre-Islamic Arabic tradition.", "tag":"BATTLE",    "note":"Arabic sources: Tabari I.948; Aghani (Kitab al-Aghani by al-Isfahani, 10th c.) preserves poetic accounts. Named after Halima, daughter of al-Harith ibn Jabalah (Ghassanid). Irfan Shahid, BASIC I.2 pp.195–260. Date c.554 confirmed by Byzantine synchronism." },
-        { "id":"c2",  "group":"Ghassanid-Lakhmid Wars", "label":"al-Mundhir III raids Byzantine Syria",     "date":"c.529",          "loc":"Syria — Antioch region raided",                                "coords":[36.2,36.2],   "hint":"Al-Mundhir III leads a devastating raid into Byzantine Syria reaching the outskirts of Antioch — Procopius describes it as leaving a trail of destruction the Romans could not halt.", "tag":"INVASION",  "note":"Procopius Wars 2.1.4–5 (contemporary Greek source). Shahid, BASIC I.2 pp.128–140. Date 529 from Procopius's narrative context; consistent with Malalas Chronicle." },
-        { "id":"c3",  "group":"Ghassanid-Lakhmid Wars", "label":"Ain Ubagh — al-Mundhir III kills Harith",  "date":"c.554",          "loc":"Ain Ubagh, steppe west of al-Hira (approximate)",              "coords":[33.0,40.0],   "hint":"Al-Mundhir III captures and sacrifices the Ghassanid king al-Harith ibn Jabalah at a sanctuary — a ritual killing that becomes one of the defining events of pre-Islamic Arab history.", "tag":"BATTLE",    "note":"Procopius Wars 2.28.13 (contemporary). Tabari I.948. The human sacrifice detail: Procopius and Arabic tradition agree on the ritual character. Shahid, BASIC I.2 pp.176–195. Exact location unidentified." },
-        { "id":"c4",  "group":"Roman-Persian Wars",     "label":"Lakhmid forces in the Roman-Persian wars",  "date":"421–422; 502–506; 527–531", "loc":"Mesopotamian frontier; Euphrates crossings",          "coords":[35.0,41.0],   "hint":"Lakhmid troops serve as Sasanian auxiliaries in successive Roman-Persian wars — the primary military purpose of the client kingdom from a Persian perspective.",                    "tag":"MILITARY",  "note":"421–422: Socrates Scholasticus HE 7.18 (al-Mundhir I as commander). 502–506: Procopius Wars 1.8–9. 527–531: Procopius Wars 1.17–18. The Lakhmid military role in these campaigns is the best-documented aspect of the kingdom's external relations." },
-        { "id":"c5",  "group":"Internal Conflicts",     "label":"Abolition of the Lakhmid kingdom",          "date":"602",            "loc":"Al-Hira; Ctesiphon (Khosrow II's court)",                      "coords":[33.09,44.58], "hint":"Khosrow II has al-Numan III executed and replaces the Lakhmid king with a Persian-appointed governor — removing the desert buffer that had protected Persia for three centuries.", "tag":"COUP",      "note":"Tabari I.1022 (the standard account). Dinawari, Akhbar al-Tiwal. The decision's strategic consequences: the removed buffer allowed Arab tribes free movement, contributing to the ease of the 630s Islamic conquest. Bosworth (1999) EI2." },
-        { "id":"c6",  "group":"Roman-Persian Wars",     "label":"Battle of Dhu Qar",                         "date":"c.604–610",      "loc":"Dhu Qar, lower Mesopotamia (exact site disputed)",             "coords":[31.5,46.0],   "hint":"Arab tribal forces defeat a Sassanid army near al-Hira — the first Arab victory over Persia, fought in the power vacuum left by the abolition of the Lakhmid kingdom.",          "tag":"BATTLE",    "note":"Tabari I.1030–1040 (most detailed account). Date disputed: 604, 606 or 610 in different sources. The battle's symbolic importance was enormous — celebrated as proof Arab forces could defeat Persia. Authenticity accepted by most scholars; Caskel (1954)." }
+        {
+          "id": "c1",
+          "group": "Ghassanid-Lakhmid Wars",
+          "label": "Yawm Halima — death of al-Mundhir III",
+          "date": "c.554",
+          "loc": "Unknown site, Syrian steppe (disputed location)",
+          "coords": [
+            33.5,
+            38.5
+          ],
+          "hint": "Al-Mundhir III killed fighting the Ghassanids in 'the Day of Halima' — named for the Ghassanid princess who rallied her side's warriors; one of the most famous battles in pre-Islamic Arabic tradition.",
+          "tag": "BATTLE",
+          "note": "Arabic sources: Tabari I.948; Aghani (Kitab al-Aghani by al-Isfahani, 10th c.) preserves poetic accounts. Named after Halima, daughter of al-Harith ibn Jabalah (Ghassanid). Irfan Shahid, BASIC I.2 pp.195–260. Date c.554 confirmed by Byzantine synchronism."
+        },
+        {
+          "id": "c2",
+          "group": "Ghassanid-Lakhmid Wars",
+          "label": "al-Mundhir III raids Byzantine Syria",
+          "date": "c.529",
+          "loc": "Syria — Antioch region raided",
+          "coords": [
+            36.2,
+            36.2
+          ],
+          "hint": "Al-Mundhir III leads a devastating raid into Byzantine Syria reaching the outskirts of Antioch — Procopius describes it as leaving a trail of destruction the Romans could not halt.",
+          "tag": "INVASION",
+          "note": "Procopius Wars 2.1.4–5 (contemporary Greek source). Shahid, BASIC I.2 pp.128–140. Date 529 from Procopius's narrative context; consistent with Malalas Chronicle."
+        },
+        {
+          "id": "c3",
+          "group": "Ghassanid-Lakhmid Wars",
+          "label": "Ain Ubagh — al-Mundhir III kills Harith",
+          "date": "c.554",
+          "loc": "Ain Ubagh, steppe west of al-Hira (approximate)",
+          "coords": [
+            33.0,
+            40.0
+          ],
+          "hint": "Al-Mundhir III captures and sacrifices the Ghassanid king al-Harith ibn Jabalah at a sanctuary — a ritual killing that becomes one of the defining events of pre-Islamic Arab history.",
+          "tag": "BATTLE",
+          "note": "Procopius Wars 2.28.13 (contemporary). Tabari I.948. The human sacrifice detail: Procopius and Arabic tradition agree on the ritual character. Shahid, BASIC I.2 pp.176–195. Exact location unidentified."
+        },
+        {
+          "id": "c4",
+          "group": "Roman-Persian Wars",
+          "label": "Lakhmid forces in the Roman-Persian wars",
+          "date": "421–422; 502–506; 527–531",
+          "loc": "Mesopotamian frontier; Euphrates crossings",
+          "coords": [
+            35.0,
+            41.0
+          ],
+          "hint": "Lakhmid troops serve as Sasanian auxiliaries in successive Roman-Persian wars — the primary military purpose of the client kingdom from a Persian perspective.",
+          "tag": "MILITARY",
+          "note": "421–422: Socrates Scholasticus HE 7.18 (al-Mundhir I as commander). 502–506: Procopius Wars 1.8–9. 527–531: Procopius Wars 1.17–18. The Lakhmid military role in these campaigns is the best-documented aspect of the kingdom's external relations."
+        },
+        {
+          "id": "c5",
+          "group": "Internal Conflicts",
+          "label": "Abolition of the Lakhmid kingdom",
+          "date": "602",
+          "loc": "Al-Hira; Ctesiphon (Khosrow II's court)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Khosrow II has al-Numan III executed and replaces the Lakhmid king with a Persian-appointed governor — removing the desert buffer that had protected Persia for three centuries.",
+          "tag": "COUP",
+          "note": "Tabari I.1022 (the standard account). Dinawari, Akhbar al-Tiwal. The decision's strategic consequences: the removed buffer allowed Arab tribes free movement, contributing to the ease of the 630s Islamic conquest. Bosworth (1999) EI2."
+        },
+        {
+          "id": "c6",
+          "group": "Roman-Persian Wars",
+          "label": "Battle of Dhu Qar",
+          "date": "c.604–610",
+          "loc": "Dhu Qar, lower Mesopotamia (exact site disputed)",
+          "coords": [
+            31.5,
+            46.0
+          ],
+          "hint": "Arab tribal forces defeat a Sassanid army near al-Hira — the first Arab victory over Persia, fought in the power vacuum left by the abolition of the Lakhmid kingdom.",
+          "tag": "BATTLE",
+          "note": "Tabari I.1030–1040 (most detailed account). Date disputed: 604, 606 or 610 in different sources. The battle's symbolic importance was enormous — celebrated as proof Arab forces could defeat Persia. Authenticity accepted by most scholars; Caskel (1954)."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Administration, client relationships & legal acts",
       "entries": [
-        { "id":"o1",  "group":"Administrative Reform", "label":"Al-Hira as Sasanian administrative hub",      "date":"c.400–602",      "loc":"Al-Hira, southern Mesopotamia",                                "coords":[31.98,44.39], "hint":"Al-Hira serves as the Sasanian Empire's interface with the Arab tribal world — Adi ibn Zayd and his brothers held the official position of 'secretaries of Arab affairs' at the Sasanian court.", "tag":"DOCUMENT",     "note":"Adi ibn Zayd's role: Tabari I.1000–1005; Toral-Niehoff (2008) p.239. The secretarial function is the clearest evidence of how the Lakhmid-Sasanian administrative relationship worked in practice." },
-        { "id":"o2",  "group":"Imperial Law",          "label":"Sasanian grant of autonomy to Lakhmids",      "date":"c.300–602",      "loc":"Al-Hira / Ctesiphon (Sasanian capital)",                        "coords":[33.09,44.58], "hint":"The Lakhmids retained their own laws, language and religious practices under Sasanian suzerainty — a formally documented client relationship distinguishing them from direct Sasanian provinces.", "tag":"DOCUMENT",     "note":"The client relationship's legal structure is inferred from Procopius Wars 1.17 (Greek), Tabari's account of the relationship, and the contrast with directly administered Sasanian territories. Rothstein (1899); Encyclopaedia Iranica (Bosworth)." },
-        { "id":"o3",  "group":"Ecclesiastical Act",   "label":"Church of the East synod at al-Hira",          "date":"554",            "loc":"Al-Hira",                                                      "coords":[31.98,44.39], "hint":"A synod of the Church of the East (Nestorian) is held at al-Hira — one of several Church councils documented at the Lakhmid capital, confirming its importance as a Christian centre.", "tag":"COUNCIL",      "note":"Synodicon Orientale (Chabot edition, 1902): synod records survive in Syriac. Date 554 internally confirmed. Fiey (1965) on the Church of the East in Mesopotamia. Al-Hira's bishopric is documented from the 5th century onward." }
+        {
+          "id": "o1",
+          "group": "Administrative Reform",
+          "label": "Al-Hira as Sasanian administrative hub",
+          "date": "c.400–602",
+          "loc": "Al-Hira, southern Mesopotamia",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Al-Hira serves as the Sasanian Empire's interface with the Arab tribal world — Adi ibn Zayd and his brothers held the official position of 'secretaries of Arab affairs' at the Sasanian court.",
+          "tag": "DOCUMENT",
+          "note": "Adi ibn Zayd's role: Tabari I.1000–1005; Toral-Niehoff (2008) p.239. The secretarial function is the clearest evidence of how the Lakhmid-Sasanian administrative relationship worked in practice."
+        },
+        {
+          "id": "o2",
+          "group": "Imperial Law",
+          "label": "Sasanian grant of autonomy to Lakhmids",
+          "date": "c.300–602",
+          "loc": "Al-Hira / Ctesiphon (Sasanian capital)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The Lakhmids retained their own laws, language and religious practices under Sasanian suzerainty — a formally documented client relationship distinguishing them from direct Sasanian provinces.",
+          "tag": "DOCUMENT",
+          "note": "The client relationship's legal structure is inferred from Procopius Wars 1.17 (Greek), Tabari's account of the relationship, and the contrast with directly administered Sasanian territories. Rothstein (1899); Encyclopaedia Iranica (Bosworth)."
+        },
+        {
+          "id": "o3",
+          "group": "Ecclesiastical Act",
+          "label": "Church of the East synod at al-Hira",
+          "date": "554",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "A synod of the Church of the East (Nestorian) is held at al-Hira — one of several Church councils documented at the Lakhmid capital, confirming its importance as a Christian centre.",
+          "tag": "COUNCIL",
+          "note": "Synodicon Orientale (Chabot edition, 1902): synod records survive in Syriac. Date 554 internally confirmed. Fiey (1965) on the Church of the East in Mesopotamia. Al-Hira's bishopric is documented from the 5th century onward."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
-      "subtitle": "Religion at al-Hira — pagan, Christian, oscillating",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
+      "subtitle": "Religion at al-Hira — Traditional Arab, Nestorian Christian, and the oscillation between",
       "entries": [
-        { "id":"r1",  "group":"Church of the East (Nestorian)", "label":"Al-Hira as a major Nestorian centre",     "date":"c.410–602",      "loc":"Al-Hira; Church of the East network",                          "coords":[31.98,44.39], "hint":"Al-Hira is home to a Nestorian bishop from at least the early 5th century — the Church of the East uses it as a base for missionary activity in the Persian Gulf and Eastern Arabia.", "tag":"MISSION",  "note":"Synodicon Orientale (Syriac; Chabot 1902): al-Hira's bishop listed from 410 synod. Fiey (1965) Assyrie chrétienne. The bishopric's role in Gulf missions: Potts (1990), The Arabian Gulf in Antiquity." },
-        { "id":"r2",  "group":"Church of the East (Nestorian)", "label":"Al-Numan III converts to Christianity",   "date":"c.591",          "loc":"Al-Hira",                                                      "coords":[31.98,44.39], "hint":"The last Lakhmid king publicly converts to Nestorian Christianity — possibly after the peace with Byzantium in 591; his conversion enhanced al-Hira's status as a Christian missionary hub.", "tag":"MISSION",  "note":"Conversion after 591 peace: Shahid, BASIC II.1 (1995) pp.119–120. Multiple Arabic sources note al-Numan as Christian. The connection to the 591 Byzantine-Persian peace is argued by Shahid but disputed by others." },
-        { "id":"r3",  "group":"Non-Christian Religion",         "label":"Pagan cult and the oscillation of kings", "date":"c.268–602",      "loc":"Al-Hira; Arabian shrine network",                              "coords":[31.98,44.39], "hint":"Several Lakhmid kings oscillate between paganism and Christianity — some are pagan, some Christian, some ambiguous; al-Mundhir III performs a human sacrifice at a pagan sanctuary in 554.", "tag":"CULT",     "note":"Human sacrifice: Procopius Wars 2.28.13 (contemporary). Oscillation documented across Tabari and Arabic sources. Trimingham (1979), Christianity Among the Arabs. The religious ambiguity at al-Hira is a major scholarly discussion: Toral-Niehoff (2010)." },
-        { "id":"r4",  "group":"Church of the East (Nestorian)", "label":"Church of the East Synod of Isaac — al-Hira bishop listed", "date":"410",  "loc":"Seleucia-Ctesiphon (council site); al-Hira (bishop's see)", "coords":[33.09,44.58], "hint":"The first great synod of the Church of the East in 410 lists a bishop of al-Hira — the earliest hard evidence for a Christian institutional presence in the Lakhmid capital.",  "tag":"COUNCIL",  "note":"Synodicon Orientale, Synod of Isaac 410 (Syriac text; Chabot 1902 critical edition). The bishop of al-Hira is listed among signatories. This is the earliest certain documentary evidence for Christianity at al-Hira." }
+        {
+          "id": "r1",
+          "group": "Church of the East (Nestorian)",
+          "label": "Al-Hira as a major Nestorian centre",
+          "date": "c.410–602",
+          "loc": "Al-Hira; Church of the East network",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Al-Hira is home to a Nestorian bishop from at least the early 5th century — the Church of the East uses it as a base for missionary activity in the Persian Gulf and Eastern Arabia.",
+          "tag": "MISSION",
+          "note": "Synodicon Orientale (Syriac; Chabot 1902): al-Hira's bishop listed from 410 synod. Fiey (1965) Assyrie chrétienne. The bishopric's role in Gulf missions: Potts (1990), The Arabian Gulf in Antiquity."
+        },
+        {
+          "id": "r2",
+          "group": "Church of the East (Nestorian)",
+          "label": "Al-Numan III converts to Christianity",
+          "date": "c.591",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "The last Lakhmid king publicly converts to Nestorian Christianity — possibly after the peace with Byzantium in 591; his conversion enhanced al-Hira's status as a Christian missionary hub.",
+          "tag": "MISSION",
+          "note": "Conversion after 591 peace: Shahid, BASIC II.1 (1995) pp.119–120. Multiple Arabic sources note al-Numan as Christian. The connection to the 591 Byzantine-Persian peace is argued by Shahid but disputed by others."
+        },
+        {
+          "id": "r3",
+          "group": "Traditional Arab Religion",
+          "label": "Pagan cult and the oscillation of kings",
+          "date": "c.268–602",
+          "loc": "Al-Hira; Arabian shrine network",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Several Lakhmid kings oscillate between paganism and Christianity — some are pagan, some Christian, some ambiguous; al-Mundhir III performs a human sacrifice at a pagan sanctuary in 554.",
+          "tag": "CULT",
+          "note": "Human sacrifice: Procopius Wars 2.28.13 (contemporary). Oscillation documented across Tabari and Arabic sources. Trimingham (1979), Christianity Among the Arabs. The religious ambiguity at al-Hira is a major scholarly discussion: Toral-Niehoff (2010)."
+        },
+        {
+          "id": "r4",
+          "group": "Church of the East (Nestorian)",
+          "label": "Church of the East Synod of Isaac — al-Hira bishop listed",
+          "date": "410",
+          "loc": "Seleucia-Ctesiphon (council site); al-Hira (bishop's see)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The first great synod of the Church of the East in 410 lists a bishop of al-Hira — the earliest hard evidence for a Christian institutional presence in the Lakhmid capital.",
+          "tag": "COUNCIL",
+          "note": "Synodicon Orientale, Synod of Isaac 410 (Syriac text; Chabot 1902 critical edition). The bishop of al-Hira is listed among signatories. This is the earliest certain documentary evidence for Christianity at al-Hira."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "Architecture, poetry & the pre-Islamic Arabic literary tradition",
       "entries": [
-        { "id":"a1",  "group":"Architecture",            "label":"Palace of Khawarnaq",                         "date":"c.390–418",      "loc":"Near al-Hira, southern Mesopotamia",                            "coords":[31.98,44.39], "hint":"Built by al-Numan I for the Sasanian prince Bahram Gur during his upbringing at al-Hira — praised in pre-Islamic Arabic poetry as a wonder of the world, not yet archaeologically identified.", "tag":"MONUMENT", "note":"Literary source: al-Nabigha al-Dhubyani's ode on Khawarnaq (surviving poem, 6th c. but describing 5th c. tradition). Also: Adi ibn Zayd's poem. Massignon identified a probable site. Encyclopaedia Iranica (Bosworth) s.v. Khawarnaq." },
-        { "id":"a2",  "group":"Literature & Poetry",     "label":"Tarafa ibn al-Abd: Muallaqat ode",             "date":"c.550–569",      "loc":"Al-Hira (composed at court of Amr ibn Hind)",                  "coords":[31.98,44.39], "hint":"One of the Seven Hanging Odes (Muallaqat) — the pre-Islamic Arabic poetic canon; composed at the Lakhmid court, it is the finest surviving example of 6th-century Arabic qasida poetry.", "tag":"LITERATURE","note":"Text survives in multiple medieval manuscripts; printed editions from 19th c. onward. Montgomery (2012), The Muallaqat. Tarafa executed by Amr ibn Hind — the ode itself contains veiled critique of the king. Terminus ante quem: 569 (Amr's death)." },
-        { "id":"a3",  "group":"Literature & Poetry",     "label":"Al-Nabigha al-Dhubyani: court odes to Lakhmids","date":"c.560–600",     "loc":"Al-Hira (composed at Lakhmid and Ghassanid courts)",           "coords":[31.98,44.39], "hint":"Al-Nabigha served at both the Lakhmid and Ghassanid courts alternately — his surviving odes addressed to Amr ibn Hind and al-Numan III are primary sources for 6th-century court culture.", "tag":"LITERATURE","note":"Poems survive in the Aghani (al-Isfahani, 10th c.) and Diwans (collected works). Arberry (1957), The Seven Odes. The odes' historical references (battles, court events) have been cross-referenced with other sources by Shahid, BASIC II.1." },
-        { "id":"a4",  "group":"Literature & Poetry",     "label":"Adi ibn Zayd: prison poems",                   "date":"c.595–600",      "loc":"Ctesiphon prison (composed during imprisonment)",              "coords":[33.09,44.58], "hint":"Christian Arab poet and Sasanian court secretary imprisoned by al-Numan III; his prison poems are among the most personal pre-Islamic Arabic texts, combining wine poetry with theological reflection.", "tag":"LITERATURE","note":"Poems survive in Aghani and the Diwan of Adi ibn Zayd. Toral-Niehoff (2008) critical study. Imprisonment and execution c.600: Tabari I.1005–1010. Adi's poems are the richest internal literary source for late Lakhmid court culture." },
-        { "id":"a5",  "group":"Metalwork & Luxury Arts", "label":"Sasanian silver plate at al-Hira",              "date":"c.400–600",      "loc":"Al-Hira (production/distribution); finds across region",       "coords":[31.98,44.39], "hint":"Al-Hira was a major distribution point for Sasanian luxury silver — plates and vessels found across the Arabian peninsula reflect the material culture of the Lakhmid court and its gift economy.", "tag":"OBJECT",   "note":"Gunter & Jett (1992), Ancient Iranian Metalwork in the Arthur M. Sackler Gallery. The distribution of Sasanian silver in Arabia is partly mapped through find-spots. Al-Hira itself has limited archaeological excavation (Harper 1978)." }
+        {
+          "id": "a1",
+          "group": "Architecture",
+          "label": "Palace of Khawarnaq",
+          "date": "c.390–418",
+          "loc": "Near al-Hira, southern Mesopotamia",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Built by al-Numan I for the Sasanian prince Bahram Gur during his upbringing at al-Hira — praised in pre-Islamic Arabic poetry as a wonder of the world, not yet archaeologically identified.",
+          "tag": "MONUMENT",
+          "note": "Literary source: al-Nabigha al-Dhubyani's ode on Khawarnaq (surviving poem, 6th c. but describing 5th c. tradition). Also: Adi ibn Zayd's poem. Massignon identified a probable site. Encyclopaedia Iranica (Bosworth) s.v. Khawarnaq."
+        },
+        {
+          "id": "a2",
+          "group": "Literature & Poetry",
+          "label": "Tarafa ibn al-Abd: Muallaqat ode",
+          "date": "c.550–569",
+          "loc": "Al-Hira (composed at court of Amr ibn Hind)",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "One of the Seven Hanging Odes (Muallaqat) — the pre-Islamic Arabic poetic canon; composed at the Lakhmid court, it is the finest surviving example of 6th-century Arabic qasida poetry.",
+          "tag": "LITERATURE",
+          "note": "Text survives in multiple medieval manuscripts; printed editions from 19th c. onward. Montgomery (2012), The Muallaqat. Tarafa executed by Amr ibn Hind — the ode itself contains veiled critique of the king. Terminus ante quem: 569 (Amr's death)."
+        },
+        {
+          "id": "a3",
+          "group": "Literature & Poetry",
+          "label": "Al-Nabigha al-Dhubyani: court odes to Lakhmids",
+          "date": "c.560–600",
+          "loc": "Al-Hira (composed at Lakhmid and Ghassanid courts)",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Al-Nabigha served at both the Lakhmid and Ghassanid courts alternately — his surviving odes addressed to Amr ibn Hind and al-Numan III are primary sources for 6th-century court culture.",
+          "tag": "LITERATURE",
+          "note": "Poems survive in the Aghani (al-Isfahani, 10th c.) and Diwans (collected works). Arberry (1957), The Seven Odes. The odes' historical references (battles, court events) have been cross-referenced with other sources by Shahid, BASIC II.1."
+        },
+        {
+          "id": "a4",
+          "group": "Literature & Poetry",
+          "label": "Adi ibn Zayd: prison poems",
+          "date": "c.595–600",
+          "loc": "Ctesiphon prison (composed during imprisonment)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Christian Arab poet and Sasanian court secretary imprisoned by al-Numan III; his prison poems are among the most personal pre-Islamic Arabic texts, combining wine poetry with theological reflection.",
+          "tag": "LITERATURE",
+          "note": "Poems survive in Aghani and the Diwan of Adi ibn Zayd. Toral-Niehoff (2008) critical study. Imprisonment and execution c.600: Tabari I.1005–1010. Adi's poems are the richest internal literary source for late Lakhmid court culture."
+        },
+        {
+          "id": "a5",
+          "group": "Metalwork & Luxury Arts",
+          "label": "Sasanian silver plate at al-Hira",
+          "date": "c.400–600",
+          "loc": "Al-Hira (production/distribution); finds across region",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Al-Hira was a major distribution point for Sasanian luxury silver — plates and vessels found across the Arabian peninsula reflect the material culture of the Lakhmid court and its gift economy.",
+          "tag": "OBJECT",
+          "note": "Gunter & Jett (1992), Ancient Iranian Metalwork in the Arthur M. Sackler Gallery. The distribution of Sasanian silver in Arabia is partly mapped through find-spots. Al-Hira itself has limited archaeological excavation (Harper 1978)."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "Sources, scholarship & intellectual life at al-Hira",
       "entries": [
-        { "id":"t1",  "group":"History & Chronicle",  "label":"Hisham al-Kalbi: king list of al-Hira",          "date":"compiled c.800 (events: 268–602)", "loc":"Written in Kufa/Baghdad; based on al-Hira records",   "coords":[31.98,44.39], "hint":"Ibn al-Kalbi's king list is the backbone of Lakhmid chronology — compiled in the early 9th century but explicitly drawing on records kept at al-Hira itself; the 2022 Shahid study confirms it is reliable where it can be checked.", "tag":"CHRONICLE", "note":"Hisham al-Kalbi (d.819/821): Jamharat al-Nasab. King list assessed by Shahid (2022, ResearchGate): 'periods of rule as in Hisham al-Kalbi's list are to be accepted as reliable evidence for they appear to go back to primary sources from al-Hira.' Rothstein (1899) first critical use." },
-        { "id":"t2",  "group":"History & Chronicle",  "label":"Tabari: Annals on the Lakhmid kings",            "date":"compiled c.915 (events: 268–602)", "loc":"Baghdad (written); al-Hira (subject)",                "coords":[31.98,44.39], "hint":"Al-Tabari's vast Annals contain the most detailed narrative of Lakhmid history in Arabic — drawn from earlier sources including Ibn al-Kalbi; invaluable for the 6th-century kings but epistemically a secondary source.", "tag":"CHRONICLE", "note":"Al-Tabari (d.923), Tarikh al-Rusul wa'l-Muluk. English translation: Bosworth (1999), vol. V, The Sasanids, the Byzantines, the Lakhmids and Yemen. Primary compilation ~915 CE. Earlier sources identified and assessed by Nöldeke (1879)." },
-        { "id":"t3",  "group":"Science & Geography",  "label":"Al-Hira as Arabic literary transmission centre",  "date":"c.500–700",      "loc":"Al-Hira; later Kufa (successor centre)",                        "coords":[31.98,44.39], "hint":"Al-Hira was the principal centre where the pre-Islamic Arabic poetic tradition was preserved and transmitted — the poets and scribes of al-Hira are the channel through which the Muallaqat and other pre-Islamic odes reached Islamic-era collectors.", "tag":"TEXT",      "note":"Toral-Niehoff (2010): 'Al-Hira, a paradigmatic third space.' The scribal tradition at al-Hira: Adi ibn Zayd's family served as court secretaries in both Arabic and Persian. Al-Hira's role in Arabic literary transmission: Beeston (1983), Arabic Literature to the End of the Umayyad Period." }
+        {
+          "id": "t1",
+          "group": "History & Chronicle",
+          "label": "Hisham al-Kalbi: king list of al-Hira",
+          "date": "compiled c.800 (events: 268–602)",
+          "loc": "Written in Kufa/Baghdad; based on al-Hira records",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Ibn al-Kalbi's king list is the backbone of Lakhmid chronology — compiled in the early 9th century but explicitly drawing on records kept at al-Hira itself; the 2022 Shahid study confirms it is reliable where it can be checked.",
+          "tag": "CHRONICLE",
+          "note": "Hisham al-Kalbi (d.819/821): Jamharat al-Nasab. King list assessed by Shahid (2022, ResearchGate): 'periods of rule as in Hisham al-Kalbi's list are to be accepted as reliable evidence for they appear to go back to primary sources from al-Hira.' Rothstein (1899) first critical use."
+        },
+        {
+          "id": "t2",
+          "group": "History & Chronicle",
+          "label": "Tabari: Annals on the Lakhmid kings",
+          "date": "compiled c.915 (events: 268–602)",
+          "loc": "Baghdad (written); al-Hira (subject)",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Al-Tabari's vast Annals contain the most detailed narrative of Lakhmid history in Arabic — drawn from earlier sources including Ibn al-Kalbi; invaluable for the 6th-century kings but epistemically a secondary source.",
+          "tag": "CHRONICLE",
+          "note": "Al-Tabari (d.923), Tarikh al-Rusul wa'l-Muluk. English translation: Bosworth (1999), vol. V, The Sasanids, the Byzantines, the Lakhmids and Yemen. Primary compilation ~915 CE. Earlier sources identified and assessed by Nöldeke (1879)."
+        },
+        {
+          "id": "t3",
+          "group": "Science & Geography",
+          "label": "Al-Hira as Arabic literary transmission centre",
+          "date": "c.500–700",
+          "loc": "Al-Hira; later Kufa (successor centre)",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Al-Hira was the principal centre where the pre-Islamic Arabic poetic tradition was preserved and transmitted — the poets and scribes of al-Hira are the channel through which the Muallaqat and other pre-Islamic odes reached Islamic-era collectors.",
+          "tag": "TEXT",
+          "note": "Toral-Niehoff (2010): 'Al-Hira, a paradigmatic third space.' The scribal tradition at al-Hira: Adi ibn Zayd's family served as court secretaries in both Arabic and Persian. Al-Hira's role in Arabic literary transmission: Beeston (1983), Arabic Literature to the End of the Umayyad Period."
+        }
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Economy, trade & the desert frontier",
       "entries": [
-        { "id":"s1",  "group":"Trade & Commerce",  "label":"Al-Hira as Arabian trade entrepôt",                 "date":"c.300–602",      "loc":"Al-Hira; caravan routes to Najd and Hijaz",                    "coords":[31.98,44.39], "hint":"Al-Hira sat at the junction of the Euphrates trade and the overland Arabian routes — a major market connecting the Sasanian economy with the Arabian peninsula's tribes and the Indian Ocean trade.",  "tag":"ECONOMIC",  "note":"Trade role: inferred from al-Hira's geography and the caravan poetry of the period. Potts (1990), The Arabian Gulf in Antiquity. Direct documentary evidence is sparse — the trade function is argued from material culture and literary references rather than papyri or inscriptions." },
-        { "id":"s2",  "group":"Fiscal & Monetary", "label":"Sasanian tributary relationship",                    "date":"c.300–602",      "loc":"Al-Hira / Ctesiphon",                                          "coords":[33.09,44.58], "hint":"The Lakhmids received Sasanian subsidy in exchange for frontier defence — the reverse of a tax relationship; Procopius records that the Persians paid the Ghassanids and Lakhmids for their services.", "tag":"ECONOMIC",  "note":"Procopius Wars 1.17.47 records Sasanian payments to Lakhmid and other Arab client rulers. Shahid, BASIC I.1 pp.115–120. The precise terms are not documented in a surviving treaty text." }
+        {
+          "id": "s1",
+          "group": "Trade & Commerce",
+          "label": "Al-Hira as Arabian trade entrepôt",
+          "date": "c.300–602",
+          "loc": "Al-Hira; caravan routes to Najd and Hijaz",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Al-Hira sat at the junction of the Euphrates trade and the overland Arabian routes — a major market connecting the Sasanian economy with the Arabian peninsula's tribes and the Indian Ocean trade.",
+          "tag": "ECONOMIC",
+          "note": "Trade role: inferred from al-Hira's geography and the caravan poetry of the period. Potts (1990), The Arabian Gulf in Antiquity. Direct documentary evidence is sparse — the trade function is argued from material culture and literary references rather than papyri or inscriptions."
+        },
+        {
+          "id": "s2",
+          "group": "Fiscal & Monetary",
+          "label": "Sasanian tributary relationship",
+          "date": "c.300–602",
+          "loc": "Al-Hira / Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The Lakhmids received Sasanian subsidy in exchange for frontier defence — the reverse of a tax relationship; Procopius records that the Persians paid the Ghassanids and Lakhmids for their services.",
+          "tag": "ECONOMIC",
+          "note": "Procopius Wars 1.17.47 records Sasanian payments to Lakhmid and other Arab client rulers. Shahid, BASIC I.1 pp.115–120. The precise terms are not documented in a surviving treaty text."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "The Lakhmids in their geopolitical context",
       "entries": [
-        { "id":"w1",  "group":"Geopolitical Shift",  "label":"Lakhmid-Ghassanid rivalry as proxy war",          "date":"c.500–602",      "loc":"Syrian steppe; Mesopotamian frontier",                         "coords":[33.5,38.5],   "hint":"The Lakhmids (Sasanian clients) and Ghassanids (Byzantine clients) fight a decades-long proxy war across the Syrian steppe — the most sustained documented Arab geopolitical rivalry before Islam.", "tag":"EVENT",     "note":"Procopius Wars (multiple books, contemporary). Shahid, BASIC I.2 and II.1 are the comprehensive modern studies. The rivalry structured Arab politics from c.500 until the abolition of both client kingdoms (Lakhmids 602, Ghassanids effectively 584)." },
-        { "id":"w2",  "group":"Geopolitical Shift",  "label":"Bahram Gur raised at al-Hira",                    "date":"c.400–420",      "loc":"Al-Hira (upbringing); Ctesiphon (accession)",                  "coords":[31.98,44.39], "hint":"The Sasanian prince Bahram V was raised at the Lakhmid court of al-Numan I — al-Hira's cultural influence was deep enough that a future Sasanian emperor grew up there and gained his throne with Lakhmid help.", "tag":"EVENT",     "note":"Encyclopaedia Iranica (Bosworth): Bahram V raised at al-Hira. Tabari I.848–855. Bahram gained Sasanian throne 420 with Lakhmid support against Persian nobles — Tabari's account is corroborated by Socrates Scholasticus HE 7.18." },
-        { "id":"w3",  "group":"Migration & Invasion", "label":"Abolition creates the vacuum for Islamic conquest","date":"602–633",        "loc":"Mesopotamia; Arabia",                                          "coords":[32.0,44.0],   "hint":"The removal of the Lakhmid buffer in 602 left the Sasanian western flank exposed to Arab tribal raiding — within a generation this vacuum becomes the corridor for the Islamic conquest of Iraq (633–637).", "tag":"EVENT",     "note":"The strategic consequence: Tabari I.1022 (explicit). Kennedy (2007), The Great Arab Conquests, ch.4. The causal connection between Lakhmid abolition and Islamic conquest is a historiographic consensus, not just Arabic tradition." },
-        { "id":"w4",  "group":"Geopolitical Shift",  "label":"Namara inscription — earliest Arabic literary text","date":"7 Dec 328",      "loc":"Namara, Hauran, southern Syria · Now: Louvre, Paris",          "coords":[33.02,37.28], "hint":"The tombstone of Imru al-Qays ibn Amr, dated to the day, is one of the earliest Arabic language texts — it places the Lakhmids at the intersection of Nabataean, Arabic and proto-Islamic epigraphy.", "tag":"DOCUMENT",  "note":"Louvre AO 4083. Basalt, 7 Dec 328. Nabataean-Arabic script. First published: Dussaud & Macler (1901). Critical studies: Bellamy (1985), Robin (2010). Irfan Shahid: 'the most important Arabic inscription of pre-Islamic times.' Now a key text in Arabic linguistic history." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Lakhmid-Ghassanid rivalry as proxy war",
+          "date": "c.500–602",
+          "loc": "Syrian steppe; Mesopotamian frontier",
+          "coords": [
+            33.5,
+            38.5
+          ],
+          "hint": "The Lakhmids (Sasanian clients) and Ghassanids (Byzantine clients) fight a decades-long proxy war across the Syrian steppe — the most sustained documented Arab geopolitical rivalry before Islam.",
+          "tag": "EVENT",
+          "note": "Procopius Wars (multiple books, contemporary). Shahid, BASIC I.2 and II.1 are the comprehensive modern studies. The rivalry structured Arab politics from c.500 until the abolition of both client kingdoms (Lakhmids 602, Ghassanids effectively 584)."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Bahram Gur raised at al-Hira",
+          "date": "c.400–420",
+          "loc": "Al-Hira (upbringing); Ctesiphon (accession)",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "The Sasanian prince Bahram V was raised at the Lakhmid court of al-Numan I — al-Hira's cultural influence was deep enough that a future Sasanian emperor grew up there and gained his throne with Lakhmid help.",
+          "tag": "EVENT",
+          "note": "Encyclopaedia Iranica (Bosworth): Bahram V raised at al-Hira. Tabari I.848–855. Bahram gained Sasanian throne 420 with Lakhmid support against Persian nobles — Tabari's account is corroborated by Socrates Scholasticus HE 7.18."
+        },
+        {
+          "id": "w3",
+          "group": "Migration & Invasion",
+          "label": "Abolition creates the vacuum for Islamic conquest",
+          "date": "602–633",
+          "loc": "Mesopotamia; Arabia",
+          "coords": [
+            32.0,
+            44.0
+          ],
+          "hint": "The removal of the Lakhmid buffer in 602 left the Sasanian western flank exposed to Arab tribal raiding — within a generation this vacuum becomes the corridor for the Islamic conquest of Iraq (633–637).",
+          "tag": "EVENT",
+          "note": "The strategic consequence: Tabari I.1022 (explicit). Kennedy (2007), The Great Arab Conquests, ch.4. The causal connection between Lakhmid abolition and Islamic conquest is a historiographic consensus, not just Arabic tradition."
+        },
+        {
+          "id": "w4",
+          "group": "Geopolitical Shift",
+          "label": "Namara inscription — earliest Arabic literary text",
+          "date": "7 Dec 328",
+          "loc": "Namara, Hauran, southern Syria · Now: Louvre, Paris",
+          "coords": [
+            33.02,
+            37.28
+          ],
+          "hint": "The tombstone of Imru al-Qays ibn Amr, dated to the day, is one of the earliest Arabic language texts — it places the Lakhmids at the intersection of Nabataean, Arabic and proto-Islamic epigraphy.",
+          "tag": "DOCUMENT",
+          "note": "Louvre AO 4083. Basalt, 7 Dec 328. Nabataean-Arabic script. First published: Dussaud & Macler (1901). Critical studies: Bellamy (1985), Robin (2010). Irfan Shahid: 'the most important Arabic inscription of pre-Islamic times.' Now a key text in Arabic linguistic history."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"early-nasrids",  "icon":"⚜️","accent":"#A0522D","label":"Early Nasrids (c.268–400)",   "events":[
-      {"y":268,"y2":295,"l":"Amr ibn Adi",               "entryId":"k1"},
-      {"y":295,"y2":328,"l":"Imru al-Qays I",            "entryId":"k2"},
-      {"y":328,"y2":363,"l":"Amr II ibn Imru al-Qays",   "entryId":"k3"},
-      {"y":363,"y2":368,"l":"Aws ibn Qallam (non-Nasrid)","entryId":"k4"},
-      {"y":368,"y2":390,"l":"Imru al-Qays II",           "entryId":"k5"},
-      {"y":390,"y2":418,"l":"al-Numan I (Khawarnaq)",    "entryId":"k6"}
-    ]},
-    {"id":"middle-nasrids", "icon":"⚜️","accent":"#8B4513","label":"Middle Nasrids (c.400–503)",   "events":[
-      {"y":418,"y2":452,"l":"al-Mundhir I",              "entryId":"k7"},
-      {"y":452,"y2":462,"l":"al-Aswad",                  "entryId":"k8"},
-      {"y":462,"y2":503,"l":"al-Numan II",               "entryId":"k9"}
-    ]},
-    {"id":"high-nasrids",   "icon":"⚜️","accent":"#6B2B00","label":"High Nasrids (503–569)",        "events":[
-      {"y":503,"y2":554,"l":"al-Mundhir III (peak power)","entryId":"k10"},
-      {"y":554,"y2":569,"l":"Amr ibn Hind",              "entryId":"k11"}
-    ]},
-    {"id":"late-nasrids",   "icon":"⚜️","accent":"#4A1A00","label":"Late Nasrids (569–602)",         "events":[
-      {"y":569,"y2":580,"l":"al-Mundhir IV",             "entryId":"k12"},
-      {"y":580,"y2":602,"l":"al-Numan III (last king)",  "entryId":"k13"}
-    ]},
-    {"id":"conflict",       "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":421,"l":"Lakhmids vs. Byzantium",             "entryId":"c4"},
-      {"y":502,"l":"Lakhmids in Persian Wars",           "entryId":"c4"},
-      {"y":529,"l":"Raid on Byzantine Syria",            "entryId":"c2"},
-      {"y":554,"l":"Yawm Halima / Ain Ubagh",            "entryId":"c1"},
-      {"y":602,"l":"Kingdom abolished",                  "entryId":"c5"},
-      {"y":607,"l":"Battle of Dhu Qar",                  "entryId":"c6"}
-    ]},
-    {"id":"order",          "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":410,"l":"Church synod — bishop listed",       "entryId":"r4"},
-      {"y":554,"l":"Synod at al-Hira",                   "entryId":"o3"}
-    ]},
-    {"id":"belief",         "icon":"🙏","accent":"#1E8449","events":[
-      {"y":410,"l":"Nestorian bishop at al-Hira",        "entryId":"r1"},
-      {"y":554,"l":"al-Mundhir III pagan sacrifice",     "entryId":"r3"},
-      {"y":591,"l":"al-Numan III converts",              "entryId":"r2"}
-    ]},
-    {"id":"expression",     "icon":"✨","accent":"#8D6E63","events":[
-      {"y":400,"l":"Palace of Khawarnaq",                "entryId":"a1"},
-      {"y":560,"l":"Tarafa: Muallaqat ode",              "entryId":"a2"},
-      {"y":575,"l":"al-Nabigha court odes",              "entryId":"a3"},
-      {"y":597,"l":"Adi ibn Zayd prison poems",          "entryId":"a4"}
-    ]},
-    {"id":"thought",        "icon":"💡","accent":"#566573","events":[
-      {"y":328,"l":"Namara inscription",                 "entryId":"w4"},
-      {"y":500,"l":"Al-Hira literary centre",            "entryId":"t3"}
-    ]},
-    {"id":"world",          "icon":"🌍","accent":"#2471A3","events":[
-      {"y":328,"l":"Namara — 'King of all Arabs'",       "entryId":"w4"},
-      {"y":420,"l":"Bahram Gur raised at al-Hira",       "entryId":"w2"},
-      {"y":500,"l":"Lakhmid-Ghassanid proxy war",        "entryId":"w1"},
-      {"y":602,"l":"Vacuum for Islamic conquest",        "entryId":"w3"}
-    ]}
+    {
+      "id": "early-nasrids",
+      "icon": "⚜️",
+      "accent": "#A0522D",
+      "label": "Early Nasrids (c.268–400)",
+      "events": [
+        {
+          "y": 268,
+          "y2": 295,
+          "l": "Amr ibn Adi",
+          "entryId": "k1"
+        },
+        {
+          "y": 295,
+          "y2": 328,
+          "l": "Imru al-Qays I",
+          "entryId": "k2"
+        },
+        {
+          "y": 328,
+          "y2": 363,
+          "l": "Amr II ibn Imru al-Qays",
+          "entryId": "k3"
+        },
+        {
+          "y": 363,
+          "y2": 368,
+          "l": "Aws ibn Qallam (non-Nasrid)",
+          "entryId": "k4"
+        },
+        {
+          "y": 368,
+          "y2": 390,
+          "l": "Imru al-Qays II",
+          "entryId": "k5"
+        },
+        {
+          "y": 390,
+          "y2": 418,
+          "l": "al-Numan I (Khawarnaq)",
+          "entryId": "k6"
+        }
+      ]
+    },
+    {
+      "id": "middle-nasrids",
+      "icon": "⚜️",
+      "accent": "#8B4513",
+      "label": "Middle Nasrids (c.400–503)",
+      "events": [
+        {
+          "y": 418,
+          "y2": 452,
+          "l": "al-Mundhir I",
+          "entryId": "k7"
+        },
+        {
+          "y": 452,
+          "y2": 462,
+          "l": "al-Aswad",
+          "entryId": "k8"
+        },
+        {
+          "y": 462,
+          "y2": 503,
+          "l": "al-Numan II",
+          "entryId": "k9"
+        }
+      ]
+    },
+    {
+      "id": "high-nasrids",
+      "icon": "⚜️",
+      "accent": "#6B2B00",
+      "label": "High Nasrids (503–569)",
+      "events": [
+        {
+          "y": 503,
+          "y2": 554,
+          "l": "al-Mundhir III (peak power)",
+          "entryId": "k10"
+        },
+        {
+          "y": 554,
+          "y2": 569,
+          "l": "Amr ibn Hind",
+          "entryId": "k11"
+        }
+      ]
+    },
+    {
+      "id": "late-nasrids",
+      "icon": "⚜️",
+      "accent": "#4A1A00",
+      "label": "Late Nasrids (569–602)",
+      "events": [
+        {
+          "y": 569,
+          "y2": 580,
+          "l": "al-Mundhir IV",
+          "entryId": "k12"
+        },
+        {
+          "y": 580,
+          "y2": 602,
+          "l": "al-Numan III (last king)",
+          "entryId": "k13"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 421,
+          "l": "Lakhmids vs. Byzantium",
+          "entryId": "c4"
+        },
+        {
+          "y": 502,
+          "l": "Lakhmids in Persian Wars",
+          "entryId": "c4"
+        },
+        {
+          "y": 529,
+          "l": "Raid on Byzantine Syria",
+          "entryId": "c2"
+        },
+        {
+          "y": 554,
+          "l": "Yawm Halima / Ain Ubagh",
+          "entryId": "c1"
+        },
+        {
+          "y": 602,
+          "l": "Kingdom abolished",
+          "entryId": "c5"
+        },
+        {
+          "y": 607,
+          "l": "Battle of Dhu Qar",
+          "entryId": "c6"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 410,
+          "l": "Church synod — bishop listed",
+          "entryId": "r4"
+        },
+        {
+          "y": 554,
+          "l": "Synod at al-Hira",
+          "entryId": "o3"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 410,
+          "l": "Nestorian bishop at al-Hira",
+          "entryId": "r1"
+        },
+        {
+          "y": 554,
+          "l": "al-Mundhir III pagan sacrifice",
+          "entryId": "r3"
+        },
+        {
+          "y": 591,
+          "l": "al-Numan III converts",
+          "entryId": "r2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 400,
+          "l": "Palace of Khawarnaq",
+          "entryId": "a1"
+        },
+        {
+          "y": 560,
+          "l": "Tarafa: Muallaqat ode",
+          "entryId": "a2"
+        },
+        {
+          "y": 575,
+          "l": "al-Nabigha court odes",
+          "entryId": "a3"
+        },
+        {
+          "y": 597,
+          "l": "Adi ibn Zayd prison poems",
+          "entryId": "a4"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 328,
+          "l": "Namara inscription",
+          "entryId": "w4"
+        },
+        {
+          "y": 500,
+          "l": "Al-Hira literary centre",
+          "entryId": "t3"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 328,
+          "l": "Namara — 'King of all Arabs'",
+          "entryId": "w4"
+        },
+        {
+          "y": 420,
+          "l": "Bahram Gur raised at al-Hira",
+          "entryId": "w2"
+        },
+        {
+          "y": 500,
+          "l": "Lakhmid-Ghassanid proxy war",
+          "entryId": "w1"
+        },
+        {
+          "y": 602,
+          "l": "Vacuum for Islamic conquest",
+          "entryId": "w3"
+        }
+      ]
+    }
   ]
 }
