@@ -370,7 +370,7 @@ function buildTimeline() {
   if (!MOD) return;
   const svg = document.getElementById('tl-svg');
   const wrap = document.getElementById('timeline-wrap');
-  const W = wrap.offsetWidth - 28 || 640;
+  const W = (wrap.offsetWidth > 50 ? wrap.offsetWidth : wrap.parentElement.offsetWidth) - 28 || 640;
   const lanes = MOD.timeline;
   const MIN = MOD.period.start, MAX = MOD.period.end;
   const LW = 80, RH = 26, GAP = 2;
