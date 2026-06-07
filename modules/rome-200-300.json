@@ -1,0 +1,213 @@
+{
+  "id": "rome-200-300",
+  "title": "Roman Empire",
+  "subtitle": "200–300 AD · The Third Century Crisis",
+  "period": { "start": 200, "end": 300 },
+  "mapCenter": [40, 20],
+  "mapZoom": 4,
+  "categories": [
+    {
+      "id": "power", "label": "Power", "icon": "⚜️",
+      "color": "#8B1A1A", "accent": "#B22222", "bg": "#FFF5F5",
+      "subtitle": "Rulers, successions & the soldier-emperors",
+      "entries": [
+        { "id":"p1",  "group":"Severan Dynasty",        "dynasty":"Severan",          "label":"Septimius Severus",   "date":"193–211",  "loc":"Rome (court); campaigns in Britain, Mesopotamia",      "coords":[41.9,12.5],   "hint":"Founded the Severan dynasty after winning the civil war of 193; died at York on campaign in Britain.",                                     "tag":"SUCCESSION", "note":"Gold aureus coinage extensively documented. SHA Vita Severi. Died Eboracum (York) 4 Feb 211 — Cassius Dio 77.15 records date." },
+        { "id":"p2",  "group":"Severan Dynasty",        "dynasty":"Severan",          "label":"Caracalla",           "date":"211–217",  "loc":"Rome; campaigns on Rhine, Danube, and Parthian frontier","coords":[41.9,12.5],   "hint":"Murdered his brother Geta to rule alone; issued the Constitutio Antoniniana granting citizenship to all free inhabitants of the Empire.",  "tag":"COUP",       "note":"Constitutio Antoniniana (212) survives as P.Giss. 40 (Papyrus Giessen). Murdered 8 Apr 217 near Carrhae — Cassius Dio 79.4." },
+        { "id":"p3",  "group":"Severan Dynasty",        "dynasty":"Severan",          "label":"Macrinus",            "date":"217–218",  "loc":"Antioch (Syria)",                                      "coords":[36.2,36.2],   "hint":"First non-senatorial, non-Italian emperor; praetorian prefect who arranged Caracalla's murder then seized power.",                       "tag":"COUP",       "note":"Coinage series confirms reign. Cassius Dio 79. Defeated and executed 218 — Herodian 5.4." },
+        { "id":"p4",  "group":"Severan Dynasty",        "dynasty":"Severan",          "label":"Elagabalus",          "date":"218–222",  "loc":"Rome; Emesa (Syria, origin)",                          "coords":[41.9,12.5],   "hint":"Syrian priest-emperor who imposed his sun god cult on Rome; his religious innovations provoked the praetorian guard to murder him.",       "tag":"SUCCESSION", "note":"SHA Vita Heliogabali. Murdered 11 Mar 222 — Cassius Dio 80.20. Extensive numismatic record." },
+        { "id":"p5",  "group":"Severan Dynasty",        "dynasty":"Severan",          "label":"Severus Alexander",   "date":"222–235",  "loc":"Rome; campaigns on Rhine and against Sassanids",       "coords":[41.9,12.5],   "hint":"Last of the Severan dynasty; murdered by his own troops on the Rhine, triggering the Crisis of the Third Century.",                       "tag":"SUCCESSION", "note":"SHA Vita Alexandri. Murdered at Mogontiacum (Mainz) Mar 235 — Herodian 6.9. Extensive legal record in the Codex Justinianus." },
+        { "id":"p6",  "group":"Soldier Emperors",       "dynasty":"Crisis (235–268)", "label":"Maximinus Thrax",     "date":"235–238",  "loc":"Rhine frontier campaigns; never visited Rome",         "coords":[48.0,8.0],    "hint":"First emperor never to set foot in Rome; a Thracian peasant soldier elevated by the army, killed by his own troops after 3 years.",      "tag":"COUP",       "note":"SHA Vita Maximini. Killed at Aquileia 238 — Herodian 8.5. Coinage confirms reign, minted without Senate recognition." },
+        { "id":"p7",  "group":"Soldier Emperors",       "dynasty":"Crisis (235–268)", "label":"Gordian I & II",      "date":"238 (21 days)","loc":"Carthage (Africa Proconsularis)",                  "coords":[36.85,10.33], "hint":"A 79-year-old senator and his son proclaimed in Africa; both dead within 3 weeks — Gordian II killed in battle, Gordian I by suicide.",   "tag":"COUP",       "note":"SHA Vita Gordianorum. Herodian 7.5–9. Coinage extremely rare — confirms 21-day reign. Died Mar 238." },
+        { "id":"p8",  "group":"Soldier Emperors",       "dynasty":"Crisis (235–268)", "label":"Pupienus & Balbinus",  "date":"238 (99 days)","loc":"Rome",                                           "coords":[41.9,12.5],   "hint":"Two senatorial emperors elected simultaneously by the Senate to oppose Maximinus; both murdered by the praetorian guard in 99 days.",      "tag":"COUP",       "note":"SHA Vita Maximi et Balbini. Herodian 8.6–8. Murdered Jul 238. Numismatic record confirms brief joint reign." },
+        { "id":"p9",  "group":"Soldier Emperors",       "dynasty":"Crisis (235–268)", "label":"Gordian III",         "date":"238–244",  "loc":"Rome; campaign against Sassanids (Euphrates)",         "coords":[41.9,12.5],   "hint":"13-year-old elevated by the praetorians after they killed Pupienus and Balbinus; died on campaign against Shapur I.",                     "tag":"SUCCESSION", "note":"SHA Vita Gordiani III. Died Feb 244 near Ctesiphon — circumstances disputed; Res Gestae Divi Saporis (inscription) records Shapur's version." },
+        { "id":"p10", "group":"Soldier Emperors",       "dynasty":"Crisis (235–268)", "label":"Philip the Arab",     "date":"244–249",  "loc":"Rome; born near Damascus (Arabia)",                    "coords":[41.9,12.5],   "hint":"First emperor from the province of Arabia; presided over Rome's 1,000th anniversary celebrations in 248.",                               "tag":"COUP",       "note":"SHA Vita Philippi. Rome Millennium coinage (248 AD) well documented — extensive numismatic series. Killed at Verona Sep 249 — Eutropius 9.3." },
+        { "id":"p11", "group":"Soldier Emperors",       "dynasty":"Crisis (235–268)", "label":"Decius",              "date":"249–251",  "loc":"Rome; Danube frontier",                                "coords":[41.9,12.5],   "hint":"First emperor to die in battle against a foreign enemy; killed fighting the Goths at the Battle of Abritus, 251 AD.",                     "tag":"COUP",       "note":"Killed at Abritus (mod. Razgrad, Bulgaria) Jun 251 — Zosimus 1.23. Issued empire-wide sacrifice edict (250) attested in multiple papyri: P.Oxy. 658, P.Mich. 3867." },
+        { "id":"p12", "group":"Soldier Emperors",       "dynasty":"Crisis (235–268)", "label":"Gallienus",           "date":"253–268",  "loc":"Rome; Rhine and Danube frontiers",                     "coords":[41.9,12.5],   "hint":"Longest-reigning Crisis emperor; faced simultaneous invasions, the Gallic breakaway, the Palmyrene breakaway, and multiple usurpers.",     "tag":"SUCCESSION", "note":"Extensive coinage. SHA Vita Gallieni. Murdered at Milan 268 — Zosimus 1.40. His military reforms documented by Zosimus and later sources." },
+        { "id":"p13", "group":"Soldier Emperors",       "dynasty":"Crisis (235–268)", "label":"Valerian",            "date":"253–260",  "loc":"Antioch; captured at Edessa (Turkey)",                 "coords":[37.15,38.8],  "hint":"Only Roman emperor ever captured alive by an enemy — taken prisoner by Shapur I of Persia at the Battle of Edessa, 260 AD.",              "tag":"SUCCESSION", "note":"Capture attested in Res Gestae Divi Saporis, rock inscription at Naqsh-e Rostam (Iran, extant). Also Zosimus 1.36, Lactantius De Mort. Pers. 5." },
+        { "id":"p14", "group":"Restorer Emperors",      "dynasty":"Illyrian",         "label":"Claudius Gothicus",   "date":"268–270",  "loc":"Sirmium; Naissus (Balkans)",                           "coords":[44.0,19.0],   "hint":"Defeated the Goths at the Battle of Naissus (269), earning his cognomen; died of plague shortly after — the first of the Illyrian restorer emperors.", "tag":"SUCCESSION", "note":"SHA Vita Claudii. Battle of Naissus: Zosimus 1.43–45. Died of plague Sirmium 270 — confirmed numismatically and in Eutropius 9.11." },
+        { "id":"p15", "group":"Restorer Emperors",      "dynasty":"Illyrian",         "label":"Aurelian",            "date":"270–275",  "loc":"Rome; campaigns across entire empire",                 "coords":[41.9,12.5],   "hint":"'Restorer of the World' — reunified the empire by defeating the Gallic Empire (274) and Palmyra (273); built the Aurelian Wall around Rome.", "tag":"SUCCESSION", "note":"SHA Vita Aureliani. Aurelian Walls (begun 271): extant, inscriptions survive. Reunification coinage: RESTITVTOR ORBIS series. Murdered 275 — SHA." },
+        { "id":"p16", "group":"Restorer Emperors",      "dynasty":"Illyrian",         "label":"Probus",              "date":"276–282",  "loc":"Rome; Rhine and Danube campaigns",                     "coords":[41.9,12.5],   "hint":"Systematic restorer of the Rhine and Danube frontiers; employed barbarian federates at scale — a policy that defined the late empire.",      "tag":"SUCCESSION", "note":"SHA Vita Probi. Murdered at Sirmium 282 — SHA. Coinage well attested. Policy on barbarian federates documented in SHA and later Zosimus." },
+        { "id":"p17", "group":"Restorer Emperors",      "dynasty":"Illyrian",         "label":"Diocletian",          "date":"284–305",  "loc":"Nicomedia (primary); Mediolanum; Split (retirement)",  "coords":[40.76,29.92], "hint":"Ended the Crisis definitively; created the Tetrarchy (rule of four), reformed coinage, tax, army, and administration — reshaping the empire entirely.", "tag":"SUCCESSION", "note":"Edict on Maximum Prices (301): over 1,000 fragments found across Eastern Mediterranean. Lactantius De Mort. Pers. 7–18. Palace at Split (Croatia): extant, UNESCO." }
+      ]
+    },
+    {
+      "id": "conflict", "label": "Conflict", "icon": "⚔️",
+      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "subtitle": "Wars, invasions & civil wars",
+      "entries": [
+        { "id":"c1",  "label":"Battle of Lugdunum",                     "date":"19 Feb 197",    "loc":"Lugdunum (mod. Lyon), Gaul",                             "coords":[45.75,4.83],  "hint":"Septimius Severus crushes his last rival Clodius Albinus; the largest Roman civil war battle since Actium.",                              "tag":"BATTLE",    "note":"Cassius Dio 76.6–7. Herodian 3.7. Site near modern Lyon confirmed by coin finds and Cassius Dio's topographic description." },
+        { "id":"c2",  "label":"Severus' Parthian campaigns",            "date":"197–199",       "loc":"Mesopotamia; Ctesiphon (mod. Iraq)",                      "coords":[33.1,44.6],   "hint":"Severus sacks the Parthian capital Ctesiphon for the third time in Roman history, creating the new province of Mesopotamia.",            "tag":"INVASION",  "note":"Cassius Dio 76.9. Arch of Septimius Severus (Rome, 203 AD, extant): reliefs record the Parthian campaigns explicitly." },
+        { "id":"c3",  "label":"Severus' British campaign",              "date":"208–211",       "loc":"Caledonia (Scotland); HQ at Eboracum (York)",             "coords":[53.96,-1.08], "hint":"Severus personally leads the last major Roman offensive into Scotland; dies at York before the campaign concludes.",                      "tag":"INVASION",  "note":"Cassius Dio 77.11–15. Herodian 3.14–15. Severus died at Eboracum 4 Feb 211 — SHA and Cassius Dio agree on date." },
+        { "id":"c4",  "label":"Battle of the Abritus",                  "date":"Jun 251",       "loc":"Abritus (mod. Razgrad, Bulgaria)",                        "coords":[43.53,26.52], "hint":"Emperor Decius and his son killed fighting the Goths — the first Roman emperor to die in battle against a foreign enemy.",               "tag":"BATTLE",    "note":"Zosimus 1.23. Dexippus (fragments in FHG III). Coins of Decius struck 249–251 provide precise terminus. Site confirmed by modern archaeology." },
+        { "id":"c5",  "label":"Battle of Edessa — Valerian captured",   "date":"260",           "loc":"Edessa (mod. Şanlıurfa, Turkey)",                         "coords":[37.15,38.8],  "hint":"Emperor Valerian captured alive by Shapur I of Persia — the most humiliating defeat in Roman history; he died in Persian captivity.",    "tag":"BATTLE",    "note":"Primary: Res Gestae Divi Saporis, rock inscription at Naqsh-e Rostam (Iran). Also Zosimus 1.36; Lactantius De Mort. Pers. 5. Date disputed: 259 or 260." },
+        { "id":"c6",  "label":"Gothic invasions of the Balkans",        "date":"250–270",       "loc":"Balkans — Thessalonica, Ephesus, Athens raided",          "coords":[41.0,23.0],   "hint":"Gothic sea-raids and land invasions devastate Greece and Asia Minor; Athens sacked c.267, Ephesus temples looted.",                      "tag":"INVASION",  "note":"Zosimus 1.39–43. Dexippus: Scythica fragments (P.Oxy. 5105, discovered 2010 — eyewitness account of Athenian defence). Destruction layers confirmed archaeologically." },
+        { "id":"c7",  "label":"Battle of Naissus",                      "date":"268–269",       "loc":"Naissus (mod. Niš, Serbia)",                              "coords":[43.32,21.9],  "hint":"Claudius Gothicus defeats a massive Gothic force near Naissus, breaking the Gothic threat to the Balkans — his cognomen 'Gothicus' follows.", "tag":"BATTLE",    "note":"Zosimus 1.43–45. SHA Vita Claudii 8–9. Scale of battle (reported 320,000 Goths) likely exaggerated; victory confirmed by coinage and title." },
+        { "id":"c8",  "label":"Zenobia's conquest of Egypt and Asia",   "date":"270–272",       "loc":"Palmyra; Egypt; Asia Minor",                              "coords":[34.55,38.27], "hint":"Queen Zenobia of Palmyra seizes Egypt and much of Asia Minor, creating a breakaway Palmyrene Empire that controls Rome's eastern trade.",  "tag":"INVASION",  "note":"Historia Augusta Vita Aureliani 22–31. Zosimus 1.44–50. Egyptian papyri show Palmyrene administrative control — P.Oxy. 1413 dated by Vaballathus era." },
+        { "id":"c9",  "label":"Aurelian defeats Palmyra",               "date":"272–273",       "loc":"Immae (Syria); Palmyra (Syria)",                          "coords":[34.55,38.27], "hint":"Aurelian defeats Zenobia twice — at Immae and outside Palmyra — then sacks the city after a second revolt, ending the Palmyrene Empire.",  "tag":"BATTLE",    "note":"SHA Vita Aureliani 25–28. Zosimus 1.50–56. Palmyra ruins (extant, UNESCO) show destruction layer. Coins of Vaballathus/Zenobia give chronology." },
+        { "id":"c10", "label":"Aurelian defeats the Gallic Empire",     "date":"274",           "loc":"Châlons-sur-Marne (Catalaunian Plains), Gaul",            "coords":[48.95,4.35],  "hint":"Aurelian defeats Tetricus at the Battle of Châlons, reunifying the breakaway Gallic Empire with Rome after 14 years of separation.",      "tag":"BATTLE",    "note":"SHA Vita Aureliani 32–39. Zosimus 1.61. Tetricus's surrender in 274: Eutropius 9.13 records the triumphal procession in Rome." }
+      ]
+    },
+    {
+      "id": "order", "label": "Order", "icon": "⚖️",
+      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "Law, administration & imperial acts",
+      "entries": [
+        { "id":"o1",  "label":"Constitutio Antoniniana",                "date":"212",           "loc":"Issued Empire-wide (papyrus found at Giessen, Germany)",  "coords":[41.9,12.5],   "hint":"Caracalla's edict extending Roman citizenship to all free inhabitants of the Empire — the most sweeping legal act in Roman history.",      "tag":"LAW",          "note":"P.Giss. 40 (Papyrus Giessen): partial text survives, recto and verso. Cassius Dio 78.9 mentions it. Legal implications documented in Digest of Justinian." },
+        { "id":"o2",  "label":"Decius' Empire-wide sacrifice edict",    "date":"249–250",       "loc":"Issued Empire-wide; libelli (certificates) found in Egypt","coords":[29.0,31.0],   "hint":"First systematic empire-wide persecution of Christians: all inhabitants must sacrifice to the gods and obtain a certificate (libellus).",  "tag":"EDICT",        "note":"Forty-seven libelli survive on papyrus from Egypt (P.Oxy. 658, P.Mich. 3867 etc.). Cyprian of Carthage's correspondence (letters 8–12) is contemporary." },
+        { "id":"o3",  "label":"Edict of Maximum Prices (Diocletian)",   "date":"301",           "loc":"Issued Nicomedia; fragments found across Eastern Mediterranean","coords":[40.76,29.92],"hint":"Diocletian's attempt to fix maximum prices for goods and wages across the Empire — the most detailed ancient price document to survive.", "tag":"LAW",          "note":"Over 1,000 fragments found in Turkey, Greece, Jordan, Italy. Reconstructed by Lauffer (1971). Latin and Greek versions. Lactantius De Mort. Pers. 7.6 criticises it." },
+        { "id":"o4",  "label":"Tetrarchy established",                  "date":"293",           "loc":"Nicomedia (Diocletian's HQ); Milan; Trier; Sirmium",      "coords":[40.76,29.92], "hint":"Diocletian formally creates the rule of four (two Augusti, two Caesars), dividing the empire's military and administrative burden.",       "tag":"EDICT",        "note":"Lactantius De Mort. Pers. 8. Panegyrici Latini III (289) and VI (307) document the system. Tetrarchic portraits: porphyry group, St Mark's Venice (extant)." },
+        { "id":"o5",  "label":"Diocletian's currency reform",           "date":"293–301",       "loc":"Empire-wide (mint evidence across 20+ cities)",           "coords":[41.9,12.5],   "hint":"Systematic overhaul of the Roman coinage — new silver argenteus and reformed bronze — attempting to stabilise decades of currency debasement.", "tag":"LAW",          "note":"Numismatic evidence: mint-marks on reformed coins (RIC V-VI). The argenteus series: Carradice & Buttrey (2007). Lactantius criticises the financial effects." },
+        { "id":"o6",  "label":"Diocletian's provincial reorganisation", "date":"c.293–305",     "loc":"Empire-wide (administrative reform)",                     "coords":[41.9,12.5],   "hint":"Diocletian doubles the number of provinces (from ~50 to ~100) and creates a new layer of dioceses — reshaping Roman administration for centuries.", "tag":"LAW",          "note":"Attested in the Laterculus Veronensis (Verona List, c.314) — earliest surviving list of all Roman provinces. Lactantius De Mort. Pers. 7.4." }
+      ]
+    },
+    {
+      "id": "belief", "label": "Belief", "icon": "🙏",
+      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "subtitle": "Religion, persecution & new cults",
+      "entries": [
+        { "id":"r1",  "label":"Cult of Sol Invictus promoted (Elagabalus)", "date":"218–222",   "loc":"Rome (Elagabalium temple on Palatine)",                   "coords":[41.9,12.5],   "hint":"Emperor Elagabalus imports his Syrian sun god cult to Rome, building a new temple and attempting to make it supreme — later reversed by Alexander Severus.", "tag":"CULT",     "note":"SHA Vita Heliogabali 3.1–5. Cassius Dio 80.11. Coins show the conical baetyl (sacred stone) being carried to Rome. Temple site on Palatine identified archaeologically." },
+        { "id":"r2",  "label":"Origen writes Contra Celsum",             "date":"c.248",        "loc":"Caesarea Maritima (Palestine)",                           "coords":[32.5,34.9],   "hint":"The most sophisticated Christian intellectual defence against pagan philosophy — written in response to the philosopher Celsus's attack on Christianity.", "tag":"TEXT",     "note":"Manuscript tradition: earliest complete MS 13th c. (Vaticanus gr. 386). Written c.248 — internal reference to 'almost 200 years since Jesus'. Jerome, De Viris Ill. 54." },
+        { "id":"r3",  "label":"Decian persecution of Christians",        "date":"249–251",      "loc":"Empire-wide (documented in Egypt, North Africa, Rome)",   "coords":[41.9,12.5],   "hint":"First systematic empire-wide persecution requiring all citizens to sacrifice to Roman gods; drives Cyprian of Carthage into hiding.",                   "tag":"PERSECUTION","note":"Cyprian of Carthage: Letters 8–12 (written during persecution, dated by context). Forty-seven libelli (sacrifice certificates) survive on papyrus from Egypt." },
+        { "id":"r4",  "label":"Valerian's persecution of Christians",    "date":"257–260",      "loc":"Rome; Carthage (Cyprian martyred); Caesarea",             "coords":[36.9,10.1],   "hint":"Two edicts targeting specifically the Church leadership and property; Cyprian of Carthage beheaded 14 Sep 258, the first bishop-martyr.",               "tag":"PERSECUTION","note":"Cyprian: Letters 75–82 (258). Eusebius HE 7.10–13 preserves Valerian's letters. Acta Cypriani (eyewitness account of martyrdom, 258) survives in full." },
+        { "id":"r5",  "label":"Mani founds Manichaeism",                 "date":"c.240–274",    "loc":"Ctesiphon (Sassanid Persia, mod. Iraq)",                  "coords":[33.1,44.6],   "hint":"The prophet Mani begins preaching his synthesis of Zoroastrian, Christian and Buddhist ideas — a religion that will spread from Spain to China.",        "tag":"RELIGION",  "note":"Mani's own writings: Cologne Mani Codex (CMC), papyrus found 1969, now Cologne University — earliest autobiographical source. Executed by Bahram I c.274–277." },
+        { "id":"r6",  "label":"Diocletian's Great Persecution begins",   "date":"23 Feb 303",   "loc":"Nicomedia (edict issued); empire-wide",                   "coords":[40.76,29.92], "hint":"The most systematic persecution of Christians in Roman history: churches destroyed, scriptures burned, clergy imprisoned — begins on the Feast of Terminalia.", "tag":"PERSECUTION","note":"Lactantius De Mort. Pers. 12–15 (eyewitness; Lactantius was in Nicomedia). Eusebius HE 8.2–6. First edict dated 23 Feb 303 by Lactantius." }
+      ]
+    },
+    {
+      "id": "expression", "label": "Expression", "icon": "✨",
+      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "subtitle": "Art, architecture & material culture",
+      "entries": [
+        { "id":"a1",  "label":"Arch of Septimius Severus, Rome",         "date":"203",           "loc":"Roman Forum, Rome (extant)",                              "coords":[41.89,12.48], "hint":"Triumphal arch celebrating Severus's Parthian victories; reliefs document the campaigns in explicit detail — still standing in the Forum.", "tag":"MONUMENT", "note":"Extant. Dedicatory inscription survives (CIL VI.1033). Construction date 203 confirmed by inscription. Reliefs: Brilliant (1967), Arch of Septimius Severus." },
+        { "id":"a2",  "label":"Baths of Caracalla, Rome",                "date":"212–216",       "loc":"Rome (extant)",                                           "coords":[41.88,12.49], "hint":"The largest bathing complex in the Roman world, accommodating 1,600 bathers; the concrete vaulting remains one of antiquity's greatest engineering feats.", "tag":"MONUMENT", "note":"Extant (partial). Building inscription CIL VI.1082. Dedication confirmed 216 by Chronographer of 354. Floor mosaics (athletes): now Vatican Museums." },
+        { "id":"a3",  "label":"Aurelian Walls of Rome begun",            "date":"271",           "loc":"Rome (19km circuit, mostly extant)",                      "coords":[41.87,12.51], "hint":"12-metre-high brick wall encircling Rome for the first time since the Republic — a monument to the city's vulnerability in the Crisis years.", "tag":"MONUMENT", "note":"Mostly extant. SHA Vita Aureliani 21.9. Brickstamps dated 271–275 by Steinby (1986). Later heightened by Maxentius (306–312) — structurally distinguishable." },
+        { "id":"a4",  "label":"Ludovisi Battle Sarcophagus",             "date":"c.250–260",     "loc":"Found: Rome · Now: Palazzo Altemps, Rome",               "coords":[41.9,12.5],   "hint":"Marble sarcophagus with a frenzied battle scene between Romans and 'barbarians' — the most vivid sculptural image of the Crisis-era military anxiety.", "tag":"OBJECT",   "note":"Palazzo Altemps, Rome (Inv. 8574). No inscription but dated stylistically and by material context to c.250–260. Kähler (1952); Andreae (1956)." },
+        { "id":"a5",  "label":"Portraiture: the tetrarchic porphyry group", "date":"c.300",     "loc":"Constantinople (origin) · Now: St Mark's Basilica, Venice","coords":[45.43,12.34], "hint":"Four porphyry emperors embracing each other — the definitive image of the Tetrarchy: rigid, abstract, deliberately non-individual.",          "tag":"OBJECT",   "note":"St Mark's Basilica, Venice (spolia from Constantinople). Porphyry quarried at Mons Porphyrites, Egypt. Companion pieces: Vatican Museums. Dated c.300 on stylistic and historical grounds." },
+        { "id":"a6",  "label":"Palace of Diocletian, Split",             "date":"c.295–305",     "loc":"Spalatum (mod. Split, Croatia) (extant, UNESCO)",         "coords":[43.51,16.44], "hint":"Diocletian's retirement palace — a fortified city for a single man; still inhabited today, with thousands of people living inside its walls.", "tag":"MONUMENT", "note":"Extant, UNESCO. Construction dated 295–305 by brick stamps and historical sources. Malalas and Eutropius record retirement there. Hebrard & Zeiller survey (1912)." }
+      ]
+    },
+    {
+      "id": "thought", "label": "Thought", "icon": "💡",
+      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "subtitle": "Intellectual history, texts & witness accounts",
+      "entries": [
+        { "id":"t1",  "label":"Cassius Dio: Roman History",              "date":"c.202–229",     "loc":"Written in Rome and Bithynia (author's origin: Nicaea)",  "coords":[40.42,29.72], "hint":"80-book history of Rome from Aeneas to 229 AD; Dio was a senator and eyewitness to the Severan court — Books 78–80 are primary sources.",   "tag":"TEXT",      "note":"Partially preserved: Books 36–54 complete, others in epitome (Xiphilinus, 11th c.). Oldest MS: Codex Venetus Marcianus gr. 395 (11th c.). Author identifies himself as witness." },
+        { "id":"t2",  "label":"Herodian: History of the Empire",         "date":"c.230–240",     "loc":"Written in Rome (author's exact origin unknown)",         "coords":[41.9,12.5],   "hint":"8-book history covering 180–238 AD, written by a minor bureaucrat who claims to have witnessed some events — our main source for 193–238.",     "tag":"TEXT",      "note":"Complete text survives. Oldest MS: Codex Laurentianus 70.7 (11th c.). Author's claim to eyewitness status (1.1.3) taken seriously by most scholars." },
+        { "id":"t3",  "label":"Cyprian of Carthage: Letters",            "date":"249–258",       "loc":"Carthage (modern Tunis, Tunisia)",                        "coords":[36.85,10.33], "hint":"Bishop of Carthage writes 82 surviving letters during the Decian and Valerian persecutions — the most vivid eyewitness account of Christians under pressure.", "tag":"LETTERS",   "note":"82 letters survive in multiple MS traditions (oldest: 6th c. Codex Parisinus lat. 1661). The corpus is precisely dated: letters reference events we can fix independently." },
+        { "id":"t4",  "label":"Dexippus: Scythica (fragments)",          "date":"c.270–280",     "loc":"Athens (author's origin and subject)",                    "coords":[37.97,23.72], "hint":"Athenian historian who personally organised the defence of Athens against Gothic raiders c.267; his fragments are the only near-contemporary Greek account of the invasions.", "tag":"FRAGMENT",  "note":"P.Oxy. 5105 (discovered 2010, published 2016) — new fragment showing Dexippus's Athenian speech. Older fragments: FHG III. Millar (1969) is the key study." },
+        { "id":"t5",  "label":"Res Gestae Divi Saporis (Shapur I inscription)", "date":"262–263", "loc":"Naqsh-e Rostam, Fars province, Iran (extant)",           "coords":[29.89,52.87], "hint":"Shapur I's own account of his victories over three Roman emperors — the primary source for Valerian's capture, written in Middle Persian, Parthian and Greek.", "tag":"DOCUMENT",  "note":"Rock inscription at Naqsh-e Rostam (extant). Three languages: Middle Persian, Parthian, Greek. Published by Sprengling (1953); Back (1978). Unique as a non-Roman primary source for Roman history." },
+        { "id":"t6",  "label":"Lactantius: De Mortibus Persecutorum",    "date":"c.313–315",     "loc":"Nicomedia and Trier (author's locations)",                "coords":[40.76,29.92], "hint":"Eyewitness account of Diocletian's Great Persecution and the Tetrarchic crisis — Lactantius was in Nicomedia when the persecution began in 303.", "tag":"TEXT",      "note":"Lactantius was present at Nicomedia. Text survives complete in Codex Bononiensis 701 (11th c.). Internal dating references allow precise chronology. Creed (1984) critical edition." }
+      ]
+    },
+    {
+      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "subtitle": "Economy, agriculture & fiscal collapse",
+      "entries": [
+        { "id":"s1",  "label":"Currency debasement crisis",              "date":"c.235–270",     "loc":"Empire-wide (mint evidence from Rome, Antioch, Alexandria)","coords":[41.9,12.5],  "hint":"The silver content of the antoninianus coin falls from ~50% to under 2% between 235 and 270 — the most severe monetary debasement in Roman history.", "tag":"ECONOMIC",  "note":"Numismatic analysis: Walker (1976–1978), The Metrology of the Roman Silver Coinage. XRF analysis of coin hoards. The Antioch hoard (Reece 1999) provides the debasement curve." },
+        { "id":"s2",  "label":"Plague of Cyprian",                       "date":"249–262",       "loc":"Empire-wide (documented Alexandria, Carthage, Rome)",     "coords":[36.85,10.33], "hint":"A devastating epidemic kills thousands daily across the empire for over a decade — Cyprian of Carthage describes symptoms in De Mortalitate (252).",  "tag":"PLAGUE",    "note":"Cyprian: De Mortalitate (252 AD) — primary source, names symptoms. Eusebius HE 7.22. Pontius, Vita Cypriani 9. Pathogen identity debated: haemorrhagic fever, smallpox, or Ebola-like virus (Kyle Harper, 2017)." },
+        { "id":"s3",  "label":"Disruption of eastern trade networks",    "date":"c.240–270",     "loc":"Syria; Palmyra; Red Sea routes",                          "coords":[34.55,38.27], "hint":"Sassanid expansion and Roman military collapse disrupt the Silk Road and Red Sea trade through Palmyra — accelerating the economic crisis.",           "tag":"ECONOMIC",  "note":"Archaeological evidence: dramatic decline in eastern luxury goods in Western hoards post-260. Palmyrene trade inscriptions (PAT corpus) end abruptly c.273 after Aurelian's sack." },
+        { "id":"s4",  "label":"Antonine plague long-term demographic impact", "date":"c.200–250","loc":"Empire-wide (especially Asia Minor, Egypt)",               "coords":[38.0,32.0],   "hint":"The earlier Antonine plague (165–180) left a demographic hole that shaped 3rd century labour shortages — papyri from Egypt show declining village populations.", "tag":"ECONOMIC",  "note":"Egyptian census papyri (P.Oxy. various): Bagnall & Frier, The Demography of Roman Egypt (1994). Scheidel (2002) synthesises the evidence for population decline." }
+      ]
+    },
+    {
+      "id": "technology", "label": "Technology", "icon": "⚙️",
+      "color": "#1A3A2A", "accent": "#2E7D52", "bg": "#F0FFF8",
+      "subtitle": "Military engineering & infrastructure",
+      "entries": [
+        { "id":"te1", "label":"Baths of Caracalla — concrete engineering", "date":"212–216",     "loc":"Rome (extant)",                                           "coords":[41.88,12.49], "hint":"The largest concrete vaulted spaces in antiquity — the 55m-span main hall was not surpassed until the 19th century.",                          "tag":"CONSTRUCTION", "note":"Extant. Vault dimensions: Lancaster (2005), Concrete Vaulted Construction in Imperial Rome. Opus caementicium (Roman concrete) composition analysed: Jackson et al. (2013)." },
+        { "id":"te2", "label":"Aurelian Walls — rapid military construction", "date":"271–275",  "loc":"Rome (19km circuit, mostly extant)",                      "coords":[41.87,12.51], "hint":"19km of brick-faced concrete walls built in under 5 years — an astonishing engineering achievement by a workforce that included soldiers and civilians.", "tag":"CONSTRUCTION", "note":"Brickstamps dated by Steinby (1986). Construction pace inferred from SHA and numismatic dating. Coarelli (1999) on construction method." },
+        { "id":"te3", "label":"Roman road network — maintenance documentation", "date":"c.200–300","loc":"Empire-wide (milestone evidence)",                       "coords":[42.0,15.0],   "hint":"Milestones from the 3rd century — many bearing emperor names — are among the most numerous surviving inscriptions, documenting road maintenance even during the Crisis.", "tag":"DOCUMENT",     "note":"Milestone corpus: AE (L'Année Épigraphique) annual volumes. 3rd-century milestones the most numerous Roman period — Witschel (2002) analyses 2,000+ examples." }
+      ]
+    },
+    {
+      "id": "world", "label": "World", "icon": "🌍",
+      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "Climate, plague, migration & geopolitical shifts",
+      "entries": [
+        { "id":"w1",  "label":"Rise of the Sassanid Empire",             "date":"224–260",       "loc":"Ctesiphon (mod. Iraq); Naqsh-e Rostam (Iran)",            "coords":[29.89,52.87], "hint":"The Sassanids overthrow the Parthians (224) and immediately become a far more aggressive eastern neighbour — Shapur I captures a Roman emperor within 36 years.", "tag":"EVENT",     "note":"Ardashir's victory over Artabanus V (224): Tabari (9th c.) and Res Gestae Divi Saporis. Shapur I's rock inscriptions at Naqsh-e Rostam (extant) document the new empire's power." },
+        { "id":"w2",  "label":"Plague of Cyprian",                       "date":"249–262",       "loc":"Empire-wide (Africa, Egypt, Rome, Gaul all documented)",  "coords":[36.85,10.33], "hint":"Epidemic mortality on a scale that stripped the empire of defenders, taxpayers and farmers precisely when the external military pressure was greatest.", "tag":"PLAGUE",    "note":"Kyle Harper, The Fate of Rome (2017) synthesises evidence. Cyprian De Mortalitate (252) primary source. DNA evidence for disease pathogen sought but not yet confirmed." },
+        { "id":"w3",  "label":"Gothic confederation formation",          "date":"c.230–250",     "loc":"Pontic steppe and Danube delta (modern Ukraine/Romania)", "coords":[47.0,30.0],   "hint":"Previously scattered Germanic peoples coalesce into the Gothic confederation north of the Danube — creating the empire's most dangerous northern neighbour.", "tag":"MIGRATION", "note":"Jordanes, Getica 16–21 (6th c. but preserves earlier tradition). Archaeological: Chernyakhiv culture emergence c.200–250, Heather (1996). Herwig Wolfram, History of the Goths." },
+        { "id":"w4",  "label":"Breakaway Gallic Empire",                 "date":"260–274",       "loc":"Trier (capital); Rhine and Gaul",                         "coords":[49.75,6.64],  "hint":"After Valerian's capture, the Rhine commander Postumus breaks away and creates the Gallic Empire — a separate Roman state that lasts 14 years.",       "tag":"EVENT",     "note":"Coinage of Postumus and successors (RIC V). König (1981). Trier as capital: Julian, Oration I (panegyric of Constantius). Reunified by Aurelian 274 — Eutropius 9.13." },
+        { "id":"w5",  "label":"Breakaway Palmyrene Empire",              "date":"260–273",       "loc":"Palmyra (mod. Syria); Egypt; Asia Minor",                 "coords":[34.55,38.27], "hint":"After Valerian's capture, Palmyra under Odaenathus then Zenobia seizes the eastern provinces — a second breakaway state controlling Rome's eastern trade.", "tag":"EVENT",     "note":"Palmyrene coins of Vaballathus/Zenobia. P.Oxy. 1413 (papyrus dated by Palmyrene era) confirms Egyptian control. Zosimus 1.39–50. Destroyed by Aurelian 273." }
+      ]
+    }
+  ],
+  "timeline": [
+    {"id":"severan",          "icon":"⚜️","accent":"#B22222","label":"Severan dynasty",           "events":[
+      {"y":193,"y2":211,"l":"Septimius Severus",  "entryId":"p1"},
+      {"y":211,"y2":217,"l":"Caracalla",           "entryId":"p2"},
+      {"y":217,"y2":218,"l":"Macrinus",            "entryId":"p3"},
+      {"y":218,"y2":222,"l":"Elagabalus",          "entryId":"p4"},
+      {"y":222,"y2":235,"l":"Severus Alexander",   "entryId":"p5"}
+    ]},
+    {"id":"crisis-emperors",  "icon":"⚜️","accent":"#C0392B","label":"Soldier emperors (235–268)","events":[
+      {"y":235,"y2":238,"l":"Maximinus Thrax",     "entryId":"p6"},
+      {"y":238,"y2":238,"l":"Gordian I & II",      "entryId":"p7"},
+      {"y":238,"y2":238,"l":"Pupienus & Balbinus", "entryId":"p8"},
+      {"y":238,"y2":244,"l":"Gordian III",         "entryId":"p9"},
+      {"y":244,"y2":249,"l":"Philip the Arab",     "entryId":"p10"},
+      {"y":249,"y2":251,"l":"Decius",              "entryId":"p11"},
+      {"y":253,"y2":260,"l":"Valerian",            "entryId":"p13"},
+      {"y":253,"y2":268,"l":"Gallienus",           "entryId":"p12"}
+    ]},
+    {"id":"illyrian",         "icon":"⚜️","accent":"#884EA0","label":"Illyrian restorers",         "events":[
+      {"y":268,"y2":270,"l":"Claudius Gothicus",   "entryId":"p14"},
+      {"y":270,"y2":275,"l":"Aurelian",            "entryId":"p15"},
+      {"y":276,"y2":282,"l":"Probus",              "entryId":"p16"},
+      {"y":284,"y2":305,"l":"Diocletian",          "entryId":"p17"}
+    ]},
+    {"id":"conflict",         "icon":"⚔️","accent":"#7D3C98","events":[
+      {"y":197,"l":"Battle of Lugdunum",            "entryId":"c1"},
+      {"y":197,"l":"Parthian campaign",             "entryId":"c2"},
+      {"y":208,"l":"British campaign",              "entryId":"c3"},
+      {"y":251,"l":"Battle of Abritus",             "entryId":"c4"},
+      {"y":260,"l":"Valerian captured",             "entryId":"c5"},
+      {"y":260,"l":"Gothic invasions",              "entryId":"c6"},
+      {"y":269,"l":"Battle of Naissus",             "entryId":"c7"},
+      {"y":272,"l":"Aurelian vs. Palmyra",          "entryId":"c9"},
+      {"y":274,"l":"Gallic Empire ends",            "entryId":"c10"}
+    ]},
+    {"id":"order",            "icon":"⚖️","accent":"#2471A3","events":[
+      {"y":212,"l":"Constitutio Antoniniana",       "entryId":"o1"},
+      {"y":249,"l":"Decius sacrifice edict",        "entryId":"o2"},
+      {"y":293,"l":"Tetrarchy established",         "entryId":"o4"},
+      {"y":301,"l":"Edict of Maximum Prices",       "entryId":"o3"}
+    ]},
+    {"id":"belief",           "icon":"🙏","accent":"#1E8449","events":[
+      {"y":218,"l":"Sol Invictus cult (Rome)",      "entryId":"r1"},
+      {"y":240,"l":"Mani founds Manichaeism",       "entryId":"r5"},
+      {"y":249,"l":"Decian persecution",            "entryId":"r3"},
+      {"y":257,"l":"Valerian persecution",          "entryId":"r4"},
+      {"y":303,"l":"Great Persecution begins",      "entryId":"r6"}
+    ]},
+    {"id":"expression",       "icon":"✨","accent":"#8D6E63","events":[
+      {"y":203,"l":"Arch of Septimius Severus",     "entryId":"a1"},
+      {"y":216,"l":"Baths of Caracalla",            "entryId":"a2"},
+      {"y":250,"l":"Ludovisi Sarcophagus",          "entryId":"a4"},
+      {"y":271,"l":"Aurelian Walls begun",          "entryId":"a3"},
+      {"y":300,"l":"Tetrarchic porphyry group",     "entryId":"a5"},
+      {"y":305,"l":"Palace of Diocletian",          "entryId":"a6"}
+    ]},
+    {"id":"thought",          "icon":"💡","accent":"#566573","events":[
+      {"y":229,"l":"Cassius Dio",                   "entryId":"t1"},
+      {"y":240,"l":"Herodian",                      "entryId":"t2"},
+      {"y":249,"l":"Cyprian letters",               "entryId":"t3"},
+      {"y":262,"l":"Res Gestae Divi Saporis",       "entryId":"t5"},
+      {"y":280,"l":"Dexippus fragments",            "entryId":"t4"}
+    ]},
+    {"id":"subsistence",      "icon":"🌾","accent":"#8B5E00","events":[
+      {"y":235,"l":"Currency debasement",           "entryId":"s1"},
+      {"y":249,"l":"Plague of Cyprian",             "entryId":"s2"},
+      {"y":260,"l":"Eastern trade disruption",      "entryId":"s3"}
+    ]},
+    {"id":"world",            "icon":"🌍","accent":"#2471A3","events":[
+      {"y":224,"l":"Sassanid Empire rises",         "entryId":"w1"},
+      {"y":230,"l":"Gothic confederation",          "entryId":"w3"},
+      {"y":249,"l":"Plague of Cyprian",             "entryId":"w2"},
+      {"y":260,"l":"Gallic Empire breaks away",     "entryId":"w4"},
+      {"y":260,"l":"Palmyrene Empire breaks away",  "entryId":"w5"},
+      {"y":274,"l":"Empire reunified",              "entryId":"p15"}
+    ]}
+  ]
+}
