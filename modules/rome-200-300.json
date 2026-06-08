@@ -2,10 +2,7 @@
   "id": "rome-200-300",
   "title": "Roman Empire",
   "subtitle": "200–300 AD · The Third Century Crisis",
-  "period": {
-    "start": 200,
-    "end": 300
-  },
+  "period": "Late Antique",
   "mapCenter": [
     40,
     20
@@ -711,6 +708,20 @@
           "tag": "MONUMENT",
           "note": "Extant, UNESCO. Construction dated 295–305 by brick stamps and historical sources. Malalas and Eutropius record retirement there. Hebrard & Zeiller survey (1912).",
           "group": "Architecture"
+        },
+        {
+          "id": "a7",
+          "group": "Music & Performance",
+          "label": "The hydraulis (water organ) in Roman public life",
+          "date": "c.200–300",
+          "loc": "Amphitheatres and arenas across the empire; Aquincum (Budapest) find",
+          "coords": [
+            47.53,
+            19.04
+          ],
+          "hint": "The water-powered pipe organ accompanies gladiatorial games and theatrical performances across the empire — the most technologically sophisticated musical instrument of antiquity, described by Vitruvius and confirmed by the Aquincum organ fragments found in 1931.",
+          "tag": "OBJECT",
+          "note": "HARD ANCHOR: Aquincum organ fragments (Budapest History Museum, inv. 64.10.1): bronze components of a hydraulis dated 228 CE by inscription 'Gaius Iulius Viatorinus... anno CCXXVIII.' Vitruvius, De Architectura X.8: detailed technical description. Hero of Alexandria, Pneumatica 1.42: independent technical account. McKinnon (2001), The Temple, the Church Fathers and Early Western Chant. The 228 CE inscription makes the Aquincum find the only precisely dated musical instrument from the Roman world."
         }
       ]
     },
@@ -1417,6 +1428,11 @@
           "y": 305,
           "l": "Palace of Diocletian",
           "entryId": "a6"
+        },
+        {
+          "y": 228,
+          "l": "Hydraulis — Aquincum organ (228 CE)",
+          "entryId": "a7"
         }
       ]
     },
@@ -1592,5 +1608,6 @@
         }
       ]
     }
-  ]
+  ],
+  "region": "Europe"
 }
