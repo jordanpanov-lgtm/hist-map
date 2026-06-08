@@ -2,190 +2,1212 @@
   "id": "sassanid-484-651",
   "title": "Sassanid Empire",
   "subtitle": "484–651 AD · Renewal, Apogee and Collapse",
-  "period": { "start": 484, "end": 651 },
-  "mapCenter": [34, 50],
+  "period": {
+    "start": 484,
+    "end": 651
+  },
+  "mapCenter": [
+    34,
+    50
+  ],
   "mapZoom": 5,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#5C1A00", "accent": "#A0400A", "bg": "#FFF5EE",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C1A00",
+      "accent": "#A0400A",
+      "bg": "#FFF5EE",
       "subtitle": "From Hephthalite humiliation to the Arab conquest",
       "entries": [
-        { "id":"k1",  "group":"Recovery (484–531)",    "dynasty":"House of Sasan", "label":"Balash",          "date":"484–488",  "loc":"Ctesiphon",                                                               "coords":[33.09,44.58], "hint":"Inherited the post-Hephthalite catastrophe — forced to pay tribute and cede territory; his weakness allowed the nobility to extract a charter of rights, the earliest evidence of limits on Sassanid royal power.", "tag":"SUCCESSION", "note":"Tribute to Hephthalites: Procopius Wars 1.4.35. Nobility charter: later Islamic sources (Tabari I.885). Coinage: SNS III. Deposed 488 by his brother Kavad — Tabari I.886." },
-        { "id":"k2",  "group":"Recovery (484–531)",    "dynasty":"House of Sasan", "label":"Kavad I (first reign)", "date":"488–496", "loc":"Ctesiphon; Hephthalite territory (exile)",                          "coords":[33.09,44.58], "hint":"Supported the Mazdakite social movement to break the power of the nobility; was deposed and imprisoned in the Castle of Oblivion, escaped to the Hephthalites and returned with an army.",                           "tag":"COUP",       "note":"Mazdakite movement: Procopius Wars 1.5. Imprisonment in Castle of Oblivion (Anushbord): Tabari I.887–888. Escape to Hephthalites: Procopius 1.6.10–18. Coinage: SNS III." },
-        { "id":"k3",  "group":"Recovery (484–531)",    "dynasty":"House of Sasan", "label":"Jamasp",          "date":"496–499",  "loc":"Ctesiphon",                                                               "coords":[33.09,44.58], "hint":"Kavad's brother placed on the throne during Kavad's exile; voluntarily abdicated when Kavad returned — one of the very few peaceful transfers of Sassanid power.",                                                 "tag":"COUP",       "note":"Coinage: SNS III — brief distinctive series. Voluntary abdication: Tabari I.893; Procopius 1.6.18. Duration c.3 years confirmed by coinage." },
-        { "id":"k4",  "group":"Recovery (484–531)",    "dynasty":"House of Sasan", "label":"Kavad I (second reign)", "date":"499–531", "loc":"Ctesiphon; campaigns in Caucasus, Anatolia",                       "coords":[33.09,44.58], "hint":"Began the tax reform completed by his son Khosrow I; executed the Mazdakite leadership when they had served their political purpose; his 32-year second reign rebuilt the Sassanid state after the Hephthalite disaster.", "tag":"SUCCESSION", "note":"Tax reform begun under Kavad: Encyclopaedia Iranica, Khorow I Reforms (Frye). Mazdak execution c.524–528: Procopius 1.5.1 (approximate). Coinage: SNS III (largest single-reign Sassanid coinage corpus). Death 531: Procopius Wars 1.21." },
-        { "id":"k5",  "group":"Apogee (531–579)",      "dynasty":"House of Sasan", "label":"Khosrow I (Anushirvan)", "date":"531–579", "loc":"Ctesiphon; campaigns from Antioch to Oxus",                       "coords":[33.09,44.58], "hint":"'The Immortal Soul' — the greatest Sassanid king: completed the tax reform, reorganised the army, sacked Antioch, destroyed the Hephthalites with the Turks, hosted Greek philosophers expelled from Athens, and patronised the Academy of Gundeshapur.", "tag":"SUCCESSION", "note":"WELL DOCUMENTED: Procopius Wars 1.22–2.28 (contemporary Greek). Agathias (6th c.). Perpetual Peace 532: Procopius 1.22. Tax reform: Encyclopaedia Iranica. Academy of Gundeshapur: multiple sources. Greek philosophers: Agathias 2.30–31. Death Feb 579: Tabari I.960." },
-        { "id":"k6",  "group":"Apogee (531–579)",      "dynasty":"House of Sasan", "label":"Hormizd IV",      "date":"579–590",  "loc":"Ctesiphon",                                                               "coords":[33.09,44.58], "hint":"Son of Khosrow I and a Byzantine princess; known for anti-aristocratic policies summarised in his famous letter: 'A king who does not protect the poor cannot be safe'; murdered in a coup by his general Bahram Chobin.", "tag":"SUCCESSION", "note":"Letter to nobles: preserved in Tabari I.991–993 (likely authentic core). Murder 590: Theophylact Simocatta (contemporary Byzantine), History 4.7. Agathias on Hormizd's character. Coinage: SNS III." },
-        { "id":"k7",  "group":"Apogee (531–579)",      "dynasty":"House of Sasan", "label":"Bahram Chobin (usurper)", "date":"590–591", "loc":"Ctesiphon",                                                      "coords":[33.09,44.58], "hint":"Sassanid general who usurped the throne after defeating his own king — the first non-Sassanid to rule Persia since the dynasty's founding; defeated and driven out with Byzantine military help.",               "tag":"COUP",       "note":"Theophylact Simocatta (contemporary), History 4–5. Sebeos (Armenian, 7th c.). Byzantine military assistance to Khosrow II against Bahram: Theophylact 5.9–15. Bahram's brief reign confirmed by rare coinage: SNS III." },
-        { "id":"k8",  "group":"Great War (590–628)",   "dynasty":"House of Sasan", "label":"Khosrow II (Parviz)", "date":"590–628",  "loc":"Ctesiphon; Dastagird palace; campaigns from Egypt to Anatolia",   "coords":[33.09,44.58], "hint":"'The Victorious' — expanded the empire to its greatest extent, capturing Jerusalem, Egypt and most of Anatolia before Heraclius reversed everything; Taq-e Bostan reliefs and the 'Spring of Khosrow' carpet mark the cultural peak of the dynasty.", "tag":"SUCCESSION", "note":"WELL DOCUMENTED: Theophylact Simocatta (contemporary Greek). Sebeos (Armenian, 7th c.). Chronicle of Seert (Syriac). Taq-e Bostan reliefs (extant, Kermanshah). Gold dinar commemorating Jerusalem capture 613 (Barber Institute): dated by Pahlavi inscription. Executed 628: Tabari I.1042." },
-        { "id":"k9",  "group":"Collapse (628–651)",    "dynasty":"House of Sasan", "label":"Kavad II (Sheroe)", "date":"628 (8 months)", "loc":"Ctesiphon",                                                       "coords":[33.09,44.58], "hint":"Murdered his father Khosrow II and 17 brothers to seize the throne; signed peace with Heraclius restoring all conquests; died of plague within 8 months — triggering the dynastic collapse.",                        "tag":"COUP",       "note":"Murders: Tabari I.1047. Peace with Heraclius: Sebeos ch.38; confirmed in Byzantine sources. Death of plague 628: Theophanes Confessor. The peace treaty is the last major Sassanid-Byzantine diplomatic document." },
-        { "id":"k10", "group":"Collapse (628–651)",    "dynasty":"House of Sasan", "label":"The 28 kings (628–632)", "date":"628–632",  "loc":"Ctesiphon",                                                        "coords":[33.09,44.58], "hint":"A 4-year succession catastrophe: at least 10–14 different claimants (some sources say 28) seize the throne in rapid succession — the empire is paralysed just as the Arab forces begin their invasion.",                "tag":"COUP",       "note":"Tabari I.1042–1065 (most detailed account). Some 'kings' are known only from rare coin issues: SNS III for numismatic evidence. The chaos is the proximate cause of the ease of the Arab conquest. Pourshariati (2008), Decline and Fall of the Sasanian Empire." },
-        { "id":"k11", "group":"Collapse (628–651)",    "dynasty":"House of Sasan", "label":"Yazdegerd III",    "date":"632–651",  "loc":"Ctesiphon (briefly); Merv; assassinated at Merv mill",             "coords":[37.6,61.8],   "hint":"Last Sassanid king — spent his reign fleeing eastward as Arab armies advanced; assassinated by a miller at Merv in 651 after his last ally the Turks abandoned him; his death ends the dynasty.",                      "tag":"DEPOSED",    "note":"Assassination at Merv 651: Tabari (most detailed). Sebeos ch.42. The assassination circumstances — killed by a local miller — are consistent across Arabic and Armenian sources. Coinage: SNS III (minted from multiple eastern cities as he fled). Pourshariati (2008)." }
+        {
+          "id": "k1",
+          "group": "Recovery (484–531)",
+          "dynasty": "House of Sasan",
+          "label": "Balash",
+          "date": "484–488",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Inherited the post-Hephthalite catastrophe — forced to pay tribute and cede territory; his weakness allowed the nobility to extract a charter of rights, the earliest evidence of limits on Sassanid royal power.",
+          "tag": "SUCCESSION",
+          "note": "Tribute to Hephthalites: Procopius Wars 1.4.35. Nobility charter: later Islamic sources (Tabari I.885). Coinage: SNS III. Deposed 488 by his brother Kavad — Tabari I.886."
+        },
+        {
+          "id": "k2",
+          "group": "Recovery (484–531)",
+          "dynasty": "House of Sasan",
+          "label": "Kavad I (first reign)",
+          "date": "488–496",
+          "loc": "Ctesiphon; Hephthalite territory (exile)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Supported the Mazdakite social movement to break the power of the nobility; was deposed and imprisoned in the Castle of Oblivion, escaped to the Hephthalites and returned with an army.",
+          "tag": "COUP",
+          "note": "Mazdakite movement: Procopius Wars 1.5. Imprisonment in Castle of Oblivion (Anushbord): Tabari I.887–888. Escape to Hephthalites: Procopius 1.6.10–18. Coinage: SNS III."
+        },
+        {
+          "id": "k3",
+          "group": "Recovery (484–531)",
+          "dynasty": "House of Sasan",
+          "label": "Jamasp",
+          "date": "496–499",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Kavad's brother placed on the throne during Kavad's exile; voluntarily abdicated when Kavad returned — one of the very few peaceful transfers of Sassanid power.",
+          "tag": "COUP",
+          "note": "Coinage: SNS III — brief distinctive series. Voluntary abdication: Tabari I.893; Procopius 1.6.18. Duration c.3 years confirmed by coinage."
+        },
+        {
+          "id": "k4",
+          "group": "Recovery (484–531)",
+          "dynasty": "House of Sasan",
+          "label": "Kavad I (second reign)",
+          "date": "499–531",
+          "loc": "Ctesiphon; campaigns in Caucasus, Anatolia",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Began the tax reform completed by his son Khosrow I; executed the Mazdakite leadership when they had served their political purpose; his 32-year second reign rebuilt the Sassanid state after the Hephthalite disaster.",
+          "tag": "SUCCESSION",
+          "note": "Tax reform begun under Kavad: Encyclopaedia Iranica, Khorow I Reforms (Frye). Mazdak execution c.524–528: Procopius 1.5.1 (approximate). Coinage: SNS III (largest single-reign Sassanid coinage corpus). Death 531: Procopius Wars 1.21."
+        },
+        {
+          "id": "k5",
+          "group": "Apogee (531–579)",
+          "dynasty": "House of Sasan",
+          "label": "Khosrow I (Anushirvan)",
+          "date": "531–579",
+          "loc": "Ctesiphon; campaigns from Antioch to Oxus",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "'The Immortal Soul' — the greatest Sassanid king: completed the tax reform, reorganised the army, sacked Antioch, destroyed the Hephthalites with the Turks, hosted Greek philosophers expelled from Athens, and patronised the Academy of Gundeshapur.",
+          "tag": "SUCCESSION",
+          "note": "WELL DOCUMENTED: Procopius Wars 1.22–2.28 (contemporary Greek). Agathias (6th c.). Perpetual Peace 532: Procopius 1.22. Tax reform: Encyclopaedia Iranica. Academy of Gundeshapur: multiple sources. Greek philosophers: Agathias 2.30–31. Death Feb 579: Tabari I.960."
+        },
+        {
+          "id": "k6",
+          "group": "Apogee (531–579)",
+          "dynasty": "House of Sasan",
+          "label": "Hormizd IV",
+          "date": "579–590",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Son of Khosrow I and a Byzantine princess; known for anti-aristocratic policies summarised in his famous letter: 'A king who does not protect the poor cannot be safe'; murdered in a coup by his general Bahram Chobin.",
+          "tag": "SUCCESSION",
+          "note": "Letter to nobles: preserved in Tabari I.991–993 (likely authentic core). Murder 590: Theophylact Simocatta (contemporary Byzantine), History 4.7. Agathias on Hormizd's character. Coinage: SNS III."
+        },
+        {
+          "id": "k7",
+          "group": "Apogee (531–579)",
+          "dynasty": "House of Sasan",
+          "label": "Bahram Chobin (usurper)",
+          "date": "590–591",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Sassanid general who usurped the throne after defeating his own king — the first non-Sassanid to rule Persia since the dynasty's founding; defeated and driven out with Byzantine military help.",
+          "tag": "COUP",
+          "note": "Theophylact Simocatta (contemporary), History 4–5. Sebeos (Armenian, 7th c.). Byzantine military assistance to Khosrow II against Bahram: Theophylact 5.9–15. Bahram's brief reign confirmed by rare coinage: SNS III."
+        },
+        {
+          "id": "k8",
+          "group": "Great War (590–628)",
+          "dynasty": "House of Sasan",
+          "label": "Khosrow II (Parviz)",
+          "date": "590–628",
+          "loc": "Ctesiphon; Dastagird palace; campaigns from Egypt to Anatolia",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "'The Victorious' — expanded the empire to its greatest extent, capturing Jerusalem, Egypt and most of Anatolia before Heraclius reversed everything; Taq-e Bostan reliefs and the 'Spring of Khosrow' carpet mark the cultural peak of the dynasty.",
+          "tag": "SUCCESSION",
+          "note": "WELL DOCUMENTED: Theophylact Simocatta (contemporary Greek). Sebeos (Armenian, 7th c.). Chronicle of Seert (Syriac). Taq-e Bostan reliefs (extant, Kermanshah). Gold dinar commemorating Jerusalem capture 613 (Barber Institute): dated by Pahlavi inscription. Executed 628: Tabari I.1042."
+        },
+        {
+          "id": "k9",
+          "group": "Collapse (628–651)",
+          "dynasty": "House of Sasan",
+          "label": "Kavad II (Sheroe)",
+          "date": "628 (8 months)",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Murdered his father Khosrow II and 17 brothers to seize the throne; signed peace with Heraclius restoring all conquests; died of plague within 8 months — triggering the dynastic collapse.",
+          "tag": "COUP",
+          "note": "Murders: Tabari I.1047. Peace with Heraclius: Sebeos ch.38; confirmed in Byzantine sources. Death of plague 628: Theophanes Confessor. The peace treaty is the last major Sassanid-Byzantine diplomatic document."
+        },
+        {
+          "id": "k10",
+          "group": "Collapse (628–651)",
+          "dynasty": "House of Sasan",
+          "label": "The 28 kings (628–632)",
+          "date": "628–632",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "A 4-year succession catastrophe: at least 10–14 different claimants (some sources say 28) seize the throne in rapid succession — the empire is paralysed just as the Arab forces begin their invasion.",
+          "tag": "COUP",
+          "note": "Tabari I.1042–1065 (most detailed account). Some 'kings' are known only from rare coin issues: SNS III for numismatic evidence. The chaos is the proximate cause of the ease of the Arab conquest. Pourshariati (2008), Decline and Fall of the Sasanian Empire."
+        },
+        {
+          "id": "k11",
+          "group": "Collapse (628–651)",
+          "dynasty": "House of Sasan",
+          "label": "Yazdegerd III",
+          "date": "632–651",
+          "loc": "Ctesiphon (briefly); Merv; assassinated at Merv mill",
+          "coords": [
+            37.6,
+            61.8
+          ],
+          "hint": "Last Sassanid king — spent his reign fleeing eastward as Arab armies advanced; assassinated by a miller at Merv in 651 after his last ally the Turks abandoned him; his death ends the dynasty.",
+          "tag": "DEPOSED",
+          "note": "Assassination at Merv 651: Tabari (most detailed). Sebeos ch.42. The assassination circumstances — killed by a local miller — are consistent across Arabic and Armenian sources. Coinage: SNS III (minted from multiple eastern cities as he fled). Pourshariati (2008)."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "The great wars — Byzantine, Hephthalite, Turk and Arab",
       "entries": [
-        { "id":"c1",  "group":"Byzantine-Persian Wars", "label":"Khosrow I sacks Antioch",                      "date":"540",            "loc":"Antioch (mod. Antakya, Turkey)",                          "coords":[36.2,36.16],  "hint":"Khosrow I violates the Perpetual Peace of 532 and sacks Antioch — the second city of the eastern Mediterranean; he deports the entire population to a new city near Ctesiphon (Weh-Antiok-Khosrow, 'Better-than-Antioch').",  "tag":"SACK",      "note":"Procopius Wars 2.8–9 (eyewitness account). John Malalas 18.86 (contemporary). New city founded: Procopius 2.14.1–4. The sack's trauma evident in Syriac literary sources. Evagrius Scholasticus HE 4.25." },
-        { "id":"c2",  "group":"Eastern Wars",           "label":"Khosrow I destroys the Hephthalite Empire",    "date":"557–563",        "loc":"Bactria/Sogdia (mod. Afghanistan/Central Asia)",          "coords":[37.0,66.0],   "hint":"Khosrow I allies with the Göktürks to crush the Hephthalites — the power that had humiliated his grandfather Peroz I; the Oxus river becomes the new eastern frontier between Turk and Persian spheres.",               "tag":"BATTLE",    "note":"Menander Protector (Byzantine, 6th c.) — fragments record the alliance and campaigns. Procopius Wars 1.3 for earlier context. Turkic sources corroborated in Chinese dynastic histories. The Oxus boundary: confirmed in multiple sources." },
-        { "id":"c3",  "group":"Byzantine-Persian Wars", "label":"Khosrow II captures Jerusalem — True Cross taken", "date":"614",          "loc":"Jerusalem",                                               "coords":[31.78,35.23], "hint":"Persian forces under Shahrbaraz capture Jerusalem, taking the True Cross — the most sacred relic in Christianity; the Antiochus Strategos account describes the capture in eyewitness detail including casualties.",     "tag":"SACK",      "note":"Antiochus Strategos, Fall of Jerusalem (Greek, near-contemporary eyewitness). Sophronius of Jerusalem (contemporary). Chronicle of Seert (Syriac). Gold dinar of Khosrow II (Barber Institute) dated by Pahlavi inscription to 613 CE — likely commemorates this campaign." },
-        { "id":"c4",  "group":"Byzantine-Persian Wars", "label":"Persian siege of Constantinople",               "date":"626",            "loc":"Constantinople (modern Istanbul)",                        "coords":[41.01,28.97], "hint":"A combined Avar-Persian siege of Constantinople fails — the Avars attack by land while Persians mass across the Bosphorus; the city holds, the Avars retreat, and the tide turns against Persia permanently.",           "tag":"BATTLE",    "note":"Theodore Syncellus, Homily on the Siege of Constantinople 626 (contemporary, extant). George of Pisidia (court poet, contemporary): Bellum Avaricum. Theophanes Confessor. The Bosphorus crossing attempt: multiple sources agree on the failure." },
-        { "id":"c5",  "group":"Byzantine-Persian Wars", "label":"Battle of Nineveh — Heraclius reverses the war", "date":"12 Dec 627",    "loc":"Near Nineveh (mod. Mosul, Iraq)",                         "coords":[36.36,43.15], "hint":"Heraclius defeats the main Persian army near Nineveh in a decisive night battle — the turning point of the great war; within months Khosrow II is overthrown and executed.",                                             "tag":"BATTLE",    "note":"Date 12 Dec 627: confirmed in Byzantine chronicles. Theophanes Confessor (8th c., using earlier sources). Sebeos (Armenian, near-contemporary). The battle's decisive character: Kaegi (2003), Heraclius: Emperor of Byzantium. George of Pisidia." },
-        { "id":"c6",  "group":"Arab Conquest",          "label":"Battle of al-Qadisiyya — Arab conquest of Iraq",  "date":"636",           "loc":"Al-Qadisiyya (near Hilla, mod. Iraq)",                    "coords":[32.05,44.35], "hint":"The Arab Muslim army under Sa'd ibn Abi Waqqas defeats the last major Sassanid army — a battle lasting three days; the Sassanid general Rustam is killed; Ctesiphon falls within months.",                             "tag":"BATTLE",    "note":"Tabari I (Arabic, most detailed). Baladhuri, Futuh al-Buldan. Date 636 standard in scholarship (some scholars prefer 637). Kennedy (2007), The Great Arab Conquests, ch.5. The battle is the best-documented early Islamic military engagement." },
-        { "id":"c7",  "group":"Arab Conquest",          "label":"Fall of Ctesiphon — Sassanid capital taken",     "date":"637",            "loc":"Ctesiphon (mod. Al-Madain, Iraq)",                        "coords":[33.09,44.58], "hint":"Arab forces enter Ctesiphon — the greatest city in western Asia — finding it largely abandoned; they find the Sassanid royal treasury, the 'Spring of Khosrow' carpet, and the imperial regalia.",                     "tag":"SACK",      "note":"Tabari I, Baladhuri. The carpet find: multiple Arabic sources describe 'Bahar-e Khosrow' (Spring of Khosrow) cut up and distributed. Taq Kasra (Arch of Ctesiphon) survived the Arab conquest — still partially standing. Kennedy (2007)." },
-        { "id":"c8",  "group":"Internal Conflicts",     "label":"Bahram Chobin's usurpation and Byzantine war",   "date":"589–591",        "loc":"Ctesiphon; Byzantine frontier",                           "coords":[33.09,44.58], "hint":"General Bahram Chobin defeats Hormizd IV, seizes the throne and defeats Khosrow II before Byzantine military intervention restores Khosrow — the crisis that leads directly to the great war of 603–628.",              "tag":"CIVIL WAR", "note":"Theophylact Simocatta (contemporary), History 4–5. Sebeos (Armenian). Byzantine military support: documented in Theophylact and confirmed in numismatic evidence. The alliance between Khosrow II and Maurice: the pretext for the 603 war after Maurice's murder." }
+        {
+          "id": "c1",
+          "group": "Byzantine-Persian Wars",
+          "label": "Khosrow I sacks Antioch",
+          "date": "540",
+          "loc": "Antioch (mod. Antakya, Turkey)",
+          "coords": [
+            36.2,
+            36.16
+          ],
+          "hint": "Khosrow I violates the Perpetual Peace of 532 and sacks Antioch — the second city of the eastern Mediterranean; he deports the entire population to a new city near Ctesiphon (Weh-Antiok-Khosrow, 'Better-than-Antioch').",
+          "tag": "SACK",
+          "note": "Procopius Wars 2.8–9 (eyewitness account). John Malalas 18.86 (contemporary). New city founded: Procopius 2.14.1–4. The sack's trauma evident in Syriac literary sources. Evagrius Scholasticus HE 4.25."
+        },
+        {
+          "id": "c2",
+          "group": "Eastern Wars",
+          "label": "Khosrow I destroys the Hephthalite Empire",
+          "date": "557–563",
+          "loc": "Bactria/Sogdia (mod. Afghanistan/Central Asia)",
+          "coords": [
+            37.0,
+            66.0
+          ],
+          "hint": "Khosrow I allies with the Göktürks to crush the Hephthalites — the power that had humiliated his grandfather Peroz I; the Oxus river becomes the new eastern frontier between Turk and Persian spheres.",
+          "tag": "BATTLE",
+          "note": "Menander Protector (Byzantine, 6th c.) — fragments record the alliance and campaigns. Procopius Wars 1.3 for earlier context. Turkic sources corroborated in Chinese dynastic histories. The Oxus boundary: confirmed in multiple sources."
+        },
+        {
+          "id": "c3",
+          "group": "Byzantine-Persian Wars",
+          "label": "Khosrow II captures Jerusalem — True Cross taken",
+          "date": "614",
+          "loc": "Jerusalem",
+          "coords": [
+            31.78,
+            35.23
+          ],
+          "hint": "Persian forces under Shahrbaraz capture Jerusalem, taking the True Cross — the most sacred relic in Christianity; the Antiochus Strategos account describes the capture in eyewitness detail including casualties.",
+          "tag": "SACK",
+          "note": "Antiochus Strategos, Fall of Jerusalem (Greek, near-contemporary eyewitness). Sophronius of Jerusalem (contemporary). Chronicle of Seert (Syriac). Gold dinar of Khosrow II (Barber Institute) dated by Pahlavi inscription to 613 CE — likely commemorates this campaign."
+        },
+        {
+          "id": "c4",
+          "group": "Byzantine-Persian Wars",
+          "label": "Persian siege of Constantinople",
+          "date": "626",
+          "loc": "Constantinople (modern Istanbul)",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "A combined Avar-Persian siege of Constantinople fails — the Avars attack by land while Persians mass across the Bosphorus; the city holds, the Avars retreat, and the tide turns against Persia permanently.",
+          "tag": "BATTLE",
+          "note": "Theodore Syncellus, Homily on the Siege of Constantinople 626 (contemporary, extant). George of Pisidia (court poet, contemporary): Bellum Avaricum. Theophanes Confessor. The Bosphorus crossing attempt: multiple sources agree on the failure."
+        },
+        {
+          "id": "c5",
+          "group": "Byzantine-Persian Wars",
+          "label": "Battle of Nineveh — Heraclius reverses the war",
+          "date": "12 Dec 627",
+          "loc": "Near Nineveh (mod. Mosul, Iraq)",
+          "coords": [
+            36.36,
+            43.15
+          ],
+          "hint": "Heraclius defeats the main Persian army near Nineveh in a decisive night battle — the turning point of the great war; within months Khosrow II is overthrown and executed.",
+          "tag": "BATTLE",
+          "note": "Date 12 Dec 627: confirmed in Byzantine chronicles. Theophanes Confessor (8th c., using earlier sources). Sebeos (Armenian, near-contemporary). The battle's decisive character: Kaegi (2003), Heraclius: Emperor of Byzantium. George of Pisidia."
+        },
+        {
+          "id": "c6",
+          "group": "Arab Conquest",
+          "label": "Battle of al-Qadisiyya — Arab conquest of Iraq",
+          "date": "636",
+          "loc": "Al-Qadisiyya (near Hilla, mod. Iraq)",
+          "coords": [
+            32.05,
+            44.35
+          ],
+          "hint": "The Arab Muslim army under Sa'd ibn Abi Waqqas defeats the last major Sassanid army — a battle lasting three days; the Sassanid general Rustam is killed; Ctesiphon falls within months.",
+          "tag": "BATTLE",
+          "note": "Tabari I (Arabic, most detailed). Baladhuri, Futuh al-Buldan. Date 636 standard in scholarship (some scholars prefer 637). Kennedy (2007), The Great Arab Conquests, ch.5. The battle is the best-documented early Islamic military engagement."
+        },
+        {
+          "id": "c7",
+          "group": "Arab Conquest",
+          "label": "Fall of Ctesiphon — Sassanid capital taken",
+          "date": "637",
+          "loc": "Ctesiphon (mod. Al-Madain, Iraq)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Arab forces enter Ctesiphon — the greatest city in western Asia — finding it largely abandoned; they find the Sassanid royal treasury, the 'Spring of Khosrow' carpet, and the imperial regalia.",
+          "tag": "SACK",
+          "note": "Tabari I, Baladhuri. The carpet find: multiple Arabic sources describe 'Bahar-e Khosrow' (Spring of Khosrow) cut up and distributed. Taq Kasra (Arch of Ctesiphon) survived the Arab conquest — still partially standing. Kennedy (2007)."
+        },
+        {
+          "id": "c8",
+          "group": "Internal Conflicts",
+          "label": "Bahram Chobin's usurpation and Byzantine war",
+          "date": "589–591",
+          "loc": "Ctesiphon; Byzantine frontier",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "General Bahram Chobin defeats Hormizd IV, seizes the throne and defeats Khosrow II before Byzantine military intervention restores Khosrow — the crisis that leads directly to the great war of 603–628.",
+          "tag": "CIVIL WAR",
+          "note": "Theophylact Simocatta (contemporary), History 4–5. Sebeos (Armenian). Byzantine military support: documented in Theophylact and confirmed in numismatic evidence. The alliance between Khosrow II and Maurice: the pretext for the 603 war after Maurice's murder."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Administrative reforms, law & the restructured Sassanid state",
       "entries": [
-        { "id":"o1",  "group":"Economic Act",          "label":"Khosrow I's tax reform — the land survey",        "date":"c.531–540",      "loc":"Empire-wide",                                             "coords":[33.0,51.0],   "hint":"Khosrow I replaces the Sassanid crop-share tax with a fixed assessment based on a comprehensive land survey — inspired partly by Diocletian's Roman reforms; the result is a dramatically more stable state revenue.",  "tag":"LAW",          "note":"Encyclopaedia Iranica, Khosrow I Reforms (Frye/Altheim). The reform is described in multiple Islamic-era sources drawing on the Khwaday-Namag. The fixed assessment (bahra) replacing crop-share: Tabari I.962–964. Comparison with Diocletian's reform: Altheim (inference)." },
-        { "id":"o2",  "group":"Administrative Reform", "label":"Khosrow I's military reform — the four generals",  "date":"c.531–550",      "loc":"Ctesiphon (court)",                                       "coords":[33.09,44.58], "hint":"Khosrow I restructures the army into four regional commands (north, south, east, west) each under a spahbad — replacing the single commander; a professional cavalry replaces the feudal noble levy.",               "tag":"MILITARY DECREE","note":"Tabari I.963. Procopius Wars 1.21 (indirect evidence of reformed army). The four spahbads: multiple Islamic-era sources drawing on Sassanid records. The military reform's connection to the tax reform: Jones (1964), LRE analogy. Pourshariati (2008)." },
-        { "id":"o3",  "group":"Ecclesiastical Act",   "label":"Perpetual Peace of 532 — Justinian pays Khosrow",  "date":"532",            "loc":"Ctesiphon / Constantinople (negotiated)",                 "coords":[33.09,44.58], "hint":"Khosrow I signs the 'Endless Peace' with Justinian for 11,000 pounds of gold — allowing him to secure the western frontier and focus on the Mazdakite suppression; he breaks it 8 years later when Antioch beckons.",  "tag":"LAW",          "note":"Procopius Wars 1.22.1–3 (contemporary). Payment of 11,000 lb gold: Procopius 1.22.3. 'Perpetual Peace' terminology: standard in both Byzantine and Persian sources. The peace's violation in 540: Procopius 2.1." },
-        { "id":"o4",  "group":"Ecclesiastical Act",   "label":"Khosrow I's letter on just governance",            "date":"c.550–579",      "loc":"Ctesiphon",                                               "coords":[33.09,44.58], "hint":"Attributed letters and advice of Khosrow I to his successors survive in Arabic translation — the best evidence for how the Sassanid court articulated the ideology of just kingship; the Letter of Tansar is the most famous.", "tag":"DOCUMENT",     "note":"Letter of Tansar (Namag i Tansar): Arabic translation by Ibn Isfandiyar (1217) from lost Middle Persian. Boyce translation (1968). The 'Ardashir Testament' — similar advisory literature. These texts preserve Sassanid political theory, though their authenticity is debated." }
+        {
+          "id": "o1",
+          "group": "Economic Act",
+          "label": "Khosrow I's tax reform — the land survey",
+          "date": "c.531–540",
+          "loc": "Empire-wide",
+          "coords": [
+            33.0,
+            51.0
+          ],
+          "hint": "Khosrow I replaces the Sassanid crop-share tax with a fixed assessment based on a comprehensive land survey — inspired partly by Diocletian's Roman reforms; the result is a dramatically more stable state revenue.",
+          "tag": "LAW",
+          "note": "Encyclopaedia Iranica, Khosrow I Reforms (Frye/Altheim). The reform is described in multiple Islamic-era sources drawing on the Khwaday-Namag. The fixed assessment (bahra) replacing crop-share: Tabari I.962–964. Comparison with Diocletian's reform: Altheim (inference)."
+        },
+        {
+          "id": "o2",
+          "group": "Administrative Reform",
+          "label": "Khosrow I's military reform — the four generals",
+          "date": "c.531–550",
+          "loc": "Ctesiphon (court)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Khosrow I restructures the army into four regional commands (north, south, east, west) each under a spahbad — replacing the single commander; a professional cavalry replaces the feudal noble levy.",
+          "tag": "MILITARY DECREE",
+          "note": "Tabari I.963. Procopius Wars 1.21 (indirect evidence of reformed army). The four spahbads: multiple Islamic-era sources drawing on Sassanid records. The military reform's connection to the tax reform: Jones (1964), LRE analogy. Pourshariati (2008)."
+        },
+        {
+          "id": "o3",
+          "group": "Ecclesiastical Act",
+          "label": "Perpetual Peace of 532 — Justinian pays Khosrow",
+          "date": "532",
+          "loc": "Ctesiphon / Constantinople (negotiated)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Khosrow I signs the 'Endless Peace' with Justinian for 11,000 pounds of gold — allowing him to secure the western frontier and focus on the Mazdakite suppression; he breaks it 8 years later when Antioch beckons.",
+          "tag": "LAW",
+          "note": "Procopius Wars 1.22.1–3 (contemporary). Payment of 11,000 lb gold: Procopius 1.22.3. 'Perpetual Peace' terminology: standard in both Byzantine and Persian sources. The peace's violation in 540: Procopius 2.1."
+        },
+        {
+          "id": "o4",
+          "group": "Ecclesiastical Act",
+          "label": "Khosrow I's letter on just governance",
+          "date": "c.550–579",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Attributed letters and advice of Khosrow I to his successors survive in Arabic translation — the best evidence for how the Sassanid court articulated the ideology of just kingship; the Letter of Tansar is the most famous.",
+          "tag": "DOCUMENT",
+          "note": "Letter of Tansar (Namag i Tansar): Arabic translation by Ibn Isfandiyar (1217) from lost Middle Persian. Boyce translation (1968). The 'Ardashir Testament' — similar advisory literature. These texts preserve Sassanid political theory, though their authenticity is debated."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
       "subtitle": "Mazdakism, Zoroastrianism, Christianity and the multi-religious empire",
       "entries": [
-        { "id":"r1",  "group":"Zoroastrianism",         "label":"Mazdakite movement and suppression",              "date":"c.488–528",      "loc":"Persia; Mesopotamia",                                     "coords":[33.0,48.0],   "hint":"The prophet Mazdak preaches communal sharing of property and challenges the Zoroastrian priestly hierarchy; Kavad I uses him to break noble power, then Khosrow I massacres the Mazdakites when they are no longer useful.", "tag":"PERSECUTION","note":"Procopius Wars 1.5 (contemporary Greek, most detailed). Tabari I.887–895. The Mazdakite massacre c.524–528: Procopius 1.5.1. Cologne Mani Codex background for earlier dualist traditions. The movement's ideological content: Crone (1991), Kavad's Heresy." },
-        { "id":"r2",  "group":"Zoroastrianism",         "label":"Denkard compiled — Zoroastrian encyclopaedia",    "date":"compiled c.9th c. (material: 3rd–9th c.)", "loc":"Iraq/Iran (Islamic-era compilation)", "coords":[33.0,44.0], "hint":"The Denkard ('Acts of the Religion') — a nine-volume encyclopaedia of Zoroastrian knowledge compiled in the 9th century but preserving Sassanid-era texts, the court chronicle, medical knowledge and theological debate.", "tag":"DOCUMENT", "note":"Denkard: oldest MS Mulla Firuz (Copenhagen). Books III–IX survive. Books IV and VII record Sassanid Avesta compilation and the Khwaday-Namag. West (1882) first translation. The Sassanid-era material identifiable within it: Boyce (1968), de Menasce (1975)." },
-        { "id":"r3",  "group":"Christianity",           "label":"Khosrow II and his Christian wife Shirin",        "date":"590–628",        "loc":"Ctesiphon; palace of Qasr-e Shirin",                      "coords":[34.19,45.58], "hint":"Khosrow II's favourite wife Shirin is a Christian; her influence and the presence of many Christian officials at court make the late Sassanid period the most tolerant for Christians — until the True Cross is captured.",  "tag":"MISSION",  "note":"Shirin's Christianity: Tabari, Sebeos, Chronicle of Seert (all note it). Qasr-e Shirin palace: ruins extant (named after her). The court poet Khusraw ud Shirin — narrative of their love — is a major Persian literary tradition. Thomas of Marga (9th c.) on Christian court presence." },
-        { "id":"r4",  "group":"Zoroastrianism",         "label":"Persian capture of Jerusalem and the True Cross",  "date":"614",            "loc":"Jerusalem",                                               "coords":[31.78,35.23], "hint":"Persian forces take the True Cross to Ctesiphon — from a Zoroastrian perspective this is a triumph of Ahura Mazda over the Christian god; from a Christian perspective it is the greatest catastrophe since the Crucifixion.", "tag":"CULT",     "note":"Antiochus Strategos (eyewitness, Greek). Eutychius of Alexandria. Sophronius of Jerusalem. The Cross's return after Heraclius's victory 628: confirmed in multiple Byzantine and Syriac sources. The episode's religious significance: Howard-Johnston (2010), Witnesses to a World Crisis." },
-        { "id":"r5",  "group":"Zoroastrianism",         "label":"Conversion of South Arabia to Zoroastrianism",    "date":"c.597",          "loc":"Yemen (Sassanid province after 575)",                     "coords":[15.35,44.21], "hint":"After the Sassanid conquest of Yemen in 575, the governor Badhan converts to Islam (after 622) — but before that, Persian rule had implanted Zoroastrian institutions in the Arabian peninsula, a remarkable geographical extension.", "tag":"MISSION",  "note":"Sassanid conquest of Yemen 575: Tabari I.950. Badhan's conversion: Ibn Ishaq (biography of the Prophet, 8th c.). The Zoroastrian presence in Yemen: documented in Islamic-era sources. Howard-Johnston (2010) on the Sassanid southern strategy." }
+        {
+          "id": "r1",
+          "group": "Zoroastrianism",
+          "label": "Mazdakite movement and suppression",
+          "date": "c.488–528",
+          "loc": "Persia; Mesopotamia",
+          "coords": [
+            33.0,
+            48.0
+          ],
+          "hint": "The prophet Mazdak preaches communal sharing of property and challenges the Zoroastrian priestly hierarchy; Kavad I uses him to break noble power, then Khosrow I massacres the Mazdakites when they are no longer useful.",
+          "tag": "PERSECUTION",
+          "note": "Procopius Wars 1.5 (contemporary Greek, most detailed). Tabari I.887–895. The Mazdakite massacre c.524–528: Procopius 1.5.1. Cologne Mani Codex background for earlier dualist traditions. The movement's ideological content: Crone (1991), Kavad's Heresy."
+        },
+        {
+          "id": "r2",
+          "group": "Zoroastrianism",
+          "label": "Denkard compiled — Zoroastrian encyclopaedia",
+          "date": "compiled c.9th c. (material: 3rd–9th c.)",
+          "loc": "Iraq/Iran (Islamic-era compilation)",
+          "coords": [
+            33.0,
+            44.0
+          ],
+          "hint": "The Denkard ('Acts of the Religion') — a nine-volume encyclopaedia of Zoroastrian knowledge compiled in the 9th century but preserving Sassanid-era texts, the court chronicle, medical knowledge and theological debate.",
+          "tag": "DOCUMENT",
+          "note": "Denkard: oldest MS Mulla Firuz (Copenhagen). Books III–IX survive. Books IV and VII record Sassanid Avesta compilation and the Khwaday-Namag. West (1882) first translation. The Sassanid-era material identifiable within it: Boyce (1968), de Menasce (1975)."
+        },
+        {
+          "id": "r3",
+          "group": "Christianity",
+          "label": "Khosrow II and his Christian wife Shirin",
+          "date": "590–628",
+          "loc": "Ctesiphon; palace of Qasr-e Shirin",
+          "coords": [
+            34.19,
+            45.58
+          ],
+          "hint": "Khosrow II's favourite wife Shirin is a Christian; her influence and the presence of many Christian officials at court make the late Sassanid period the most tolerant for Christians — until the True Cross is captured.",
+          "tag": "MISSION",
+          "note": "Shirin's Christianity: Tabari, Sebeos, Chronicle of Seert (all note it). Qasr-e Shirin palace: ruins extant (named after her). The court poet Khusraw ud Shirin — narrative of their love — is a major Persian literary tradition. Thomas of Marga (9th c.) on Christian court presence."
+        },
+        {
+          "id": "r4",
+          "group": "Zoroastrianism",
+          "label": "Persian capture of Jerusalem and the True Cross",
+          "date": "614",
+          "loc": "Jerusalem",
+          "coords": [
+            31.78,
+            35.23
+          ],
+          "hint": "Persian forces take the True Cross to Ctesiphon — from a Zoroastrian perspective this is a triumph of Ahura Mazda over the Christian god; from a Christian perspective it is the greatest catastrophe since the Crucifixion.",
+          "tag": "CULT",
+          "note": "Antiochus Strategos (eyewitness, Greek). Eutychius of Alexandria. Sophronius of Jerusalem. The Cross's return after Heraclius's victory 628: confirmed in multiple Byzantine and Syriac sources. The episode's religious significance: Howard-Johnston (2010), Witnesses to a World Crisis."
+        },
+        {
+          "id": "r5",
+          "group": "Zoroastrianism",
+          "label": "Conversion of South Arabia to Zoroastrianism",
+          "date": "c.597",
+          "loc": "Yemen (Sassanid province after 575)",
+          "coords": [
+            15.35,
+            44.21
+          ],
+          "hint": "After the Sassanid conquest of Yemen in 575, the governor Badhan converts to Islam (after 622) — but before that, Persian rule had implanted Zoroastrian institutions in the Arabian peninsula, a remarkable geographical extension.",
+          "tag": "MISSION",
+          "note": "Sassanid conquest of Yemen 575: Tabari I.950. Badhan's conversion: Ibn Ishaq (biography of the Prophet, 8th c.). The Zoroastrian presence in Yemen: documented in Islamic-era sources. Howard-Johnston (2010) on the Sassanid southern strategy."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "The cultural peak — Taq-e Bostan, silver, carpets and court poetry",
       "entries": [
-        { "id":"a1",  "group":"Architecture",           "label":"Taq-e Bostan grottos — Khosrow II investiture",   "date":"c.590–628",      "loc":"Taq-e Bostan, Kermanshah (extant)",                       "coords":[34.37,47.07], "hint":"The greatest surviving Sassanid rock monument: two grottos with Khosrow II's investiture scene (Ahura Mazda and Anahita), a colossal equestrian portrait, and boar and stag hunting scenes — the last gasp of Sassanid monumental art.", "tag":"MONUMENT", "note":"Extant (Kermanshah province). Most scholars attribute the Great Grotto to Khosrow II: Encyclopaedia Iranica (Herrmann). Inscription names Khosrow. Hunters and musicians in the relief document court culture. Overlaet (2009) survey." },
-        { "id":"a2",  "group":"Metalwork & Luxury Arts","label":"'Spring of Khosrow' carpet — the lost masterpiece", "date":"c.590–628",     "loc":"Ctesiphon palace (destroyed 637)",                        "coords":[33.09,44.58], "hint":"The 'Bahar-e Khosrow' (Spring of Khosrow) — a 27m × 27m garden carpet of silk, gold and precious stones, depicting spring flowers and fruit; Arab conquerors cut it up and divided it as booty in 637.",             "tag":"OBJECT",   "note":"Multiple Arabic sources describe the carpet: Tabari, Baladhuri, Yaqut. All agree on its destruction in 637. Dimensions vary in sources. Woven metalwork tradition confirmed by surviving Sassanid textiles in museum collections. Compareti (2009) on Sassanid carpets." },
-        { "id":"a3",  "group":"Metalwork & Luxury Arts","label":"Sassanid silver hunting plate — peak production",  "date":"c.484–651",      "loc":"Court workshops; finds across Central Asia and China",     "coords":[33.0,51.0],   "hint":"The finest Sassanid silver is produced in the 6th–7th centuries: royal hunting scenes, banquet plates and rhytons found from the Hermitage to the Xinjiang museums attest to the global reach of Persian luxury goods.",   "tag":"OBJECT",   "note":"Harper (1978), Silver Vessels of the Sasanian Period (Metropolitan Museum). Silver dish thought to show Khosrow II: Bibliothèque nationale, Paris. Coin-portrait identification allows dating. Export confirmed by finds in China, Scandinavia, Hungary." },
-        { "id":"a4",  "group":"Literature & Poetry",   "label":"Barbad — court musician of Khosrow II",            "date":"c.590–628",      "loc":"Ctesiphon court",                                         "coords":[33.09,44.58], "hint":"Barbad, the greatest Sassanid court musician, composes the 'Khosrow and Shirin' cycle and the 'Royal Modes' (365 melodies, one for each day of the year) — the foundation text of Persian classical music theory, known only through later Islamic sources.", "tag":"LITERATURE","note":"Barbad documented in Tabari and Ferdowsi's Shahnameh. The 365 melodies and 7 royal modes: attested in Islamic musical theory (al-Farabi, Ibn Sina) as derived from Sassanid tradition. Farmer (1929), A History of Arabian Music, on the Sassanid musical heritage." },
-        { "id":"a5",  "group":"Architecture",           "label":"Taq Kasra (Arch of Ctesiphon) — the great vault",  "date":"c.540–580",      "loc":"Ctesiphon (mod. Al-Madain, Iraq) — partial extant",       "coords":[33.09,44.57], "hint":"The largest single-span brick vault in the world at 25.4m — the throne room of Khosrow I or his successors; it survived the Arab conquest, still stands today, and was the model for Islamic iwans for centuries.",    "tag":"MONUMENT", "note":"Partial extant. Construction attributed to Khosrow I: Tabari I.962 (mentions 'White Palace'). Reuther (1929) architectural analysis. The arch's span of 25.4m was not surpassed in brick until the 19th century. UNESCO World Heritage tentative list." }
+        {
+          "id": "a1",
+          "group": "Architecture",
+          "label": "Taq-e Bostan grottos — Khosrow II investiture",
+          "date": "c.590–628",
+          "loc": "Taq-e Bostan, Kermanshah (extant)",
+          "coords": [
+            34.37,
+            47.07
+          ],
+          "hint": "The greatest surviving Sassanid rock monument: two grottos with Khosrow II's investiture scene (Ahura Mazda and Anahita), a colossal equestrian portrait, and boar and stag hunting scenes — the last gasp of Sassanid monumental art.",
+          "tag": "MONUMENT",
+          "note": "Extant (Kermanshah province). Most scholars attribute the Great Grotto to Khosrow II: Encyclopaedia Iranica (Herrmann). Inscription names Khosrow. Hunters and musicians in the relief document court culture. Overlaet (2009) survey."
+        },
+        {
+          "id": "a2",
+          "group": "Metalwork & Luxury Arts",
+          "label": "'Spring of Khosrow' carpet — the lost masterpiece",
+          "date": "c.590–628",
+          "loc": "Ctesiphon palace (destroyed 637)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The 'Bahar-e Khosrow' (Spring of Khosrow) — a 27m × 27m garden carpet of silk, gold and precious stones, depicting spring flowers and fruit; Arab conquerors cut it up and divided it as booty in 637.",
+          "tag": "OBJECT",
+          "note": "Multiple Arabic sources describe the carpet: Tabari, Baladhuri, Yaqut. All agree on its destruction in 637. Dimensions vary in sources. Woven metalwork tradition confirmed by surviving Sassanid textiles in museum collections. Compareti (2009) on Sassanid carpets."
+        },
+        {
+          "id": "a3",
+          "group": "Metalwork & Luxury Arts",
+          "label": "Sassanid silver hunting plate — peak production",
+          "date": "c.484–651",
+          "loc": "Court workshops; finds across Central Asia and China",
+          "coords": [
+            33.0,
+            51.0
+          ],
+          "hint": "The finest Sassanid silver is produced in the 6th–7th centuries: royal hunting scenes, banquet plates and rhytons found from the Hermitage to the Xinjiang museums attest to the global reach of Persian luxury goods.",
+          "tag": "OBJECT",
+          "note": "Harper (1978), Silver Vessels of the Sasanian Period (Metropolitan Museum). Silver dish thought to show Khosrow II: Bibliothèque nationale, Paris. Coin-portrait identification allows dating. Export confirmed by finds in China, Scandinavia, Hungary."
+        },
+        {
+          "id": "a4",
+          "group": "Literature & Poetry",
+          "label": "Barbad — court musician of Khosrow II",
+          "date": "c.590–628",
+          "loc": "Ctesiphon court",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Barbad, the greatest Sassanid court musician, composes the 'Khosrow and Shirin' cycle and the 'Royal Modes' (365 melodies, one for each day of the year) — the foundation text of Persian classical music theory, known only through later Islamic sources.",
+          "tag": "LITERATURE",
+          "note": "Barbad documented in Tabari and Ferdowsi's Shahnameh. The 365 melodies and 7 royal modes: attested in Islamic musical theory (al-Farabi, Ibn Sina) as derived from Sassanid tradition. Farmer (1929), A History of Arabian Music, on the Sassanid musical heritage."
+        },
+        {
+          "id": "a5",
+          "group": "Architecture",
+          "label": "Taq Kasra (Arch of Ctesiphon) — the great vault",
+          "date": "c.540–580",
+          "loc": "Ctesiphon (mod. Al-Madain, Iraq) — partial extant",
+          "coords": [
+            33.09,
+            44.57
+          ],
+          "hint": "The largest single-span brick vault in the world at 25.4m — the throne room of Khosrow I or his successors; it survived the Arab conquest, still stands today, and was the model for Islamic iwans for centuries.",
+          "tag": "MONUMENT",
+          "note": "Partial extant. Construction attributed to Khosrow I: Tabari I.962 (mentions 'White Palace'). Reuther (1929) architectural analysis. The arch's span of 25.4m was not surpassed in brick until the 19th century. UNESCO World Heritage tentative list."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "The translation movement, the Academy of Gundeshapur and Persian learning",
       "entries": [
-        { "id":"t1",  "group":"Philosophy",            "label":"Greek philosophers at Khosrow's court",            "date":"529–532",        "loc":"Ctesiphon; Academy of Gundeshapur",                        "coords":[32.3,48.5],   "hint":"When Justinian closes the Academy of Athens in 529, seven Neoplatonist philosophers travel to Khosrow I's court — he negotiates their right of safe return in the Perpetual Peace of 532; Agathias records this extraordinary episode.", "tag":"TEXT",      "note":"Agathias 2.30–31 (contemporary Byzantine historian). The seven philosophers named. Perpetual Peace 532 included their protection: Procopius 1.22. Damascius, Simplicius and others identifiable. This is the best-documented example of cross-cultural intellectual exchange in late antiquity." },
-        { "id":"t2",  "group":"Science & Geography",  "label":"Academy of Gundeshapur — Sassanid medical centre",  "date":"c.489–651",      "loc":"Gundeshapur (mod. Shahabad, Khuzestan, Iran)",             "coords":[32.3,48.5],   "hint":"The Academy of Gundeshapur combines Greek (displaced Nestorian scholars from Edessa, 489), Indian and Iranian medical traditions — the most important centre of medical learning in the pre-Islamic world, providing physicians to the early Islamic caliphs.", "tag":"CONSTRUCTION","note":"Foundation of Nestorian school after Edessa's closure 489: Chronicle of Se'ert (Syriac). Khosrow I's expansion: multiple Islamic sources (Ibn al-Qifti). Indian physicians invited: documented in Tabari and Dinkard. The Barmakid family (later Abbasid viziers) managed the Academy: confirmed in Islamic sources." },
-        { "id":"t3",  "group":"Science & Geography",  "label":"Indian mathematical and astronomical texts translated","date":"c.531–579",     "loc":"Gundeshapur; Ctesiphon",                                  "coords":[32.3,48.5],   "hint":"Khosrow I sends the scholar Borzuya to India to bring back scientific texts — the Panchatantra (fables) is translated into Middle Persian as Kalilah wa Dimnah; Indian astronomical and medical texts also translated.",   "tag":"TEXT",      "note":"Borzuya's mission to India: recorded in the Arabic Kalilah wa Dimnah (Ibn al-Muqaffa translation, 8th c., from lost Middle Persian). The Panchatantra-Kalilah wa Dimnah transmission is one of the best-documented instances of Sanskrit-Persian-Arabic literary transfer." },
-        { "id":"t4",  "group":"History & Chronicle",  "label":"Sebeos: Armenian History — eyewitness to collapse",  "date":"c.661",          "loc":"Armenia (written)",                                       "coords":[40.0,45.0],   "hint":"The Armenian bishop Sebeos writes a history covering the great war and Arab conquest from the perspective of a people caught between the two empires — the richest near-contemporary account of the Sassanid collapse.",  "tag":"TEXT",      "note":"Sebeos (Armenian bishop, 7th c.): Historia i Heraklin — Armenian text, translated by Thomson & Howard-Johnston (1999). Covers 590–661. Howard-Johnston (2010) argues Sebeos used a near-contemporary Sassanid source for Persian events." },
-        { "id":"t5",  "group":"Theology",             "label":"Chronicle of Seert — Syriac witness to Sassanid history","date":"c.9th–10th c. (events: 5th–7th c.)", "loc":"Iraq/Persia (compiled)", "coords":[33.0,44.0],  "hint":"The Syriac Chronicle of Seert preserves unique Sassanid-era Church records — synod acts, bishop lists, royal correspondence and theological debates — making it the most important internal source for Christian life under the Sassanids.", "tag":"TEXT",      "note":"Chronicle of Seert: Syriac text, Paris MS (BnF Syr. 354). Addai Scher edition (PO 4, 5, 7, 13). The Chronicle preserves documents not found elsewhere, including letters attributed to Sassanid kings. Howard-Johnston (2010) for contextual analysis." }
+        {
+          "id": "t1",
+          "group": "Philosophy",
+          "label": "Greek philosophers at Khosrow's court",
+          "date": "529–532",
+          "loc": "Ctesiphon; Academy of Gundeshapur",
+          "coords": [
+            32.3,
+            48.5
+          ],
+          "hint": "When Justinian closes the Academy of Athens in 529, seven Neoplatonist philosophers travel to Khosrow I's court — he negotiates their right of safe return in the Perpetual Peace of 532; Agathias records this extraordinary episode.",
+          "tag": "TEXT",
+          "note": "Agathias 2.30–31 (contemporary Byzantine historian). The seven philosophers named. Perpetual Peace 532 included their protection: Procopius 1.22. Damascius, Simplicius and others identifiable. This is the best-documented example of cross-cultural intellectual exchange in late antiquity."
+        },
+        {
+          "id": "t2",
+          "group": "Science & Geography",
+          "label": "Academy of Gundeshapur — Sassanid medical centre",
+          "date": "c.489–651",
+          "loc": "Gundeshapur (mod. Shahabad, Khuzestan, Iran)",
+          "coords": [
+            32.3,
+            48.5
+          ],
+          "hint": "The Academy of Gundeshapur combines Greek (displaced Nestorian scholars from Edessa, 489), Indian and Iranian medical traditions — the most important centre of medical learning in the pre-Islamic world, providing physicians to the early Islamic caliphs.",
+          "tag": "CONSTRUCTION",
+          "note": "Foundation of Nestorian school after Edessa's closure 489: Chronicle of Se'ert (Syriac). Khosrow I's expansion: multiple Islamic sources (Ibn al-Qifti). Indian physicians invited: documented in Tabari and Dinkard. The Barmakid family (later Abbasid viziers) managed the Academy: confirmed in Islamic sources."
+        },
+        {
+          "id": "t3",
+          "group": "Science & Geography",
+          "label": "Indian mathematical and astronomical texts translated",
+          "date": "c.531–579",
+          "loc": "Gundeshapur; Ctesiphon",
+          "coords": [
+            32.3,
+            48.5
+          ],
+          "hint": "Khosrow I sends the scholar Borzuya to India to bring back scientific texts — the Panchatantra (fables) is translated into Middle Persian as Kalilah wa Dimnah; Indian astronomical and medical texts also translated.",
+          "tag": "TEXT",
+          "note": "Borzuya's mission to India: recorded in the Arabic Kalilah wa Dimnah (Ibn al-Muqaffa translation, 8th c., from lost Middle Persian). The Panchatantra-Kalilah wa Dimnah transmission is one of the best-documented instances of Sanskrit-Persian-Arabic literary transfer."
+        },
+        {
+          "id": "t4",
+          "group": "History & Chronicle",
+          "label": "Sebeos: Armenian History — eyewitness to collapse",
+          "date": "c.661",
+          "loc": "Armenia (written)",
+          "coords": [
+            40.0,
+            45.0
+          ],
+          "hint": "The Armenian bishop Sebeos writes a history covering the great war and Arab conquest from the perspective of a people caught between the two empires — the richest near-contemporary account of the Sassanid collapse.",
+          "tag": "TEXT",
+          "note": "Sebeos (Armenian bishop, 7th c.): Historia i Heraklin — Armenian text, translated by Thomson & Howard-Johnston (1999). Covers 590–661. Howard-Johnston (2010) argues Sebeos used a near-contemporary Sassanid source for Persian events."
+        },
+        {
+          "id": "t5",
+          "group": "Theology",
+          "label": "Chronicle of Seert — Syriac witness to Sassanid history",
+          "date": "c.9th–10th c. (events: 5th–7th c.)",
+          "loc": "Iraq/Persia (compiled)",
+          "coords": [
+            33.0,
+            44.0
+          ],
+          "hint": "The Syriac Chronicle of Seert preserves unique Sassanid-era Church records — synod acts, bishop lists, royal correspondence and theological debates — making it the most important internal source for Christian life under the Sassanids.",
+          "tag": "TEXT",
+          "note": "Chronicle of Seert: Syriac text, Paris MS (BnF Syr. 354). Addai Scher edition (PO 4, 5, 7, 13). The Chronicle preserves documents not found elsewhere, including letters attributed to Sassanid kings. Howard-Johnston (2010) for contextual analysis."
+        }
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Economy, agriculture and fiscal transformation",
       "entries": [
-        { "id":"s1",  "group":"Fiscal & Monetary",    "label":"Fixed land tax replaces crop-share assessment",     "date":"c.531–540",      "loc":"Empire-wide",                                             "coords":[33.0,51.0],   "hint":"Khosrow I's land survey creates a stable fiscal base: every plot assessed at a fixed rate regardless of annual yield — peasants no longer ruined by good harvests (which trigger higher assessments); state revenue predictable.", "tag":"ECONOMIC",  "note":"Tabari I.962–964. Altheim's analysis in Reformpolitik (1939): the reform compared with Diocletian's Roman precedent. The fixed assessment (bahra) described in multiple Islamic geographical and administrative texts as originating with Khosrow. Encyclopaedia Iranica (Frye)." },
-        { "id":"s2",  "group":"Trade & Commerce",    "label":"Sassanid silk monopoly and Byzantine competition",   "date":"c.531–562",      "loc":"Ctesiphon; Silk Road routes through Central Asia",        "coords":[37.0,62.0],   "hint":"The Sassanids maintain a stranglehold on the Silk Road, forcing Byzantium to buy Persian silk at fixed prices; Justinian attempts to circumvent this via Ethiopia, Ceylon and eventually silkworm smuggling — all documented in Procopius.", "tag":"ECONOMIC",  "note":"Procopius Wars 1.20 (Byzantine silk purchasing from Persia). Procopius Wars 8.17 (silkworm smuggling by monks, c.552). Ethiopian route attempt: Procopius Wars 1.20.9–12. The economic importance of the silk monopoly: Laufer (1919), Sino-Iranica." },
-        { "id":"s3",  "group":"Epidemic & Demographic","label":"Justinianic plague reaches Persia",                "date":"542–549",        "loc":"Persia; Mesopotamia — after arrival from Byzantine side",  "coords":[33.0,48.0],   "hint":"The Justinianic plague (likely Yersinia pestis — the first pandemic) reaches Persia after devastating the Byzantine Empire; it kills Sassanid soldiers and civilians in waves, contributing to both empires' weakening.",    "tag":"PLAGUE",     "note":"Procopius Wars 2.22–23 (Constantinople outbreak, 542). Persian outbreak: Evagrius Scholasticus HE 4.29; John of Ephesus (Syriac). Palaeogenomic confirmation of Yersinia pestis: Wagner et al. (2014), Lancet Infectious Diseases. The plague's Persian impact: less documented than Byzantine side." }
+        {
+          "id": "s1",
+          "group": "Fiscal & Monetary",
+          "label": "Fixed land tax replaces crop-share assessment",
+          "date": "c.531–540",
+          "loc": "Empire-wide",
+          "coords": [
+            33.0,
+            51.0
+          ],
+          "hint": "Khosrow I's land survey creates a stable fiscal base: every plot assessed at a fixed rate regardless of annual yield — peasants no longer ruined by good harvests (which trigger higher assessments); state revenue predictable.",
+          "tag": "ECONOMIC",
+          "note": "Tabari I.962–964. Altheim's analysis in Reformpolitik (1939): the reform compared with Diocletian's Roman precedent. The fixed assessment (bahra) described in multiple Islamic geographical and administrative texts as originating with Khosrow. Encyclopaedia Iranica (Frye)."
+        },
+        {
+          "id": "s2",
+          "group": "Trade & Commerce",
+          "label": "Sassanid silk monopoly and Byzantine competition",
+          "date": "c.531–562",
+          "loc": "Ctesiphon; Silk Road routes through Central Asia",
+          "coords": [
+            37.0,
+            62.0
+          ],
+          "hint": "The Sassanids maintain a stranglehold on the Silk Road, forcing Byzantium to buy Persian silk at fixed prices; Justinian attempts to circumvent this via Ethiopia, Ceylon and eventually silkworm smuggling — all documented in Procopius.",
+          "tag": "ECONOMIC",
+          "note": "Procopius Wars 1.20 (Byzantine silk purchasing from Persia). Procopius Wars 8.17 (silkworm smuggling by monks, c.552). Ethiopian route attempt: Procopius Wars 1.20.9–12. The economic importance of the silk monopoly: Laufer (1919), Sino-Iranica."
+        },
+        {
+          "id": "s3",
+          "group": "Epidemic & Demographic",
+          "label": "Justinianic plague reaches Persia",
+          "date": "542–549",
+          "loc": "Persia; Mesopotamia — after arrival from Byzantine side",
+          "coords": [
+            33.0,
+            48.0
+          ],
+          "hint": "The Justinianic plague (likely Yersinia pestis — the first pandemic) reaches Persia after devastating the Byzantine Empire; it kills Sassanid soldiers and civilians in waves, contributing to both empires' weakening.",
+          "tag": "PLAGUE",
+          "note": "Procopius Wars 2.22–23 (Constantinople outbreak, 542). Persian outbreak: Evagrius Scholasticus HE 4.29; John of Ephesus (Syriac). Palaeogenomic confirmation of Yersinia pestis: Wagner et al. (2014), Lancet Infectious Diseases. The plague's Persian impact: less documented than Byzantine side."
+        }
       ]
     },
     {
-      "id": "technology", "label": "Technology", "icon": "⚙️",
-      "color": "#1A3A2A", "accent": "#2E7D52", "bg": "#F0FFF8",
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#1A3A2A",
+      "accent": "#2E7D52",
+      "bg": "#F0FFF8",
       "subtitle": "Engineering, hydraulics and the built environment",
       "entries": [
-        { "id":"te1", "group":"Civil Engineering",           "label":"Sassanid canal system — peak expansion",           "date":"c.531–579",      "loc":"Tigris-Euphrates floodplain (Iraq)",                       "coords":[32.5,45.5],   "hint":"Khosrow I's reign sees the maximum extent of Sassanid irrigation — the Nahrawan canal (300km) and its network irrigate millions of hectares; the Arab conquest's disruption of this system caused a demographic collapse from which Iraq recovered only in the 20th century.", "tag":"CONSTRUCTION", "note":"Archaeological survey: Adams (1965, 1981) maps the Nahrawan canal network. The canal's scale: confirmed by satellite imagery and ground survey. Disruption under Arab conquest: Adams (1965) documents abandonment. The agricultural productivity underpins all Sassanid fiscal calculations." },
-        { "id":"te2", "group":"Information & Communication", "label":"Middle Persian administrative script — peak use",  "date":"c.484–651",      "loc":"Empire-wide (administrative documents, seals)",            "coords":[33.0,51.0],   "hint":"The Sassanid administrative system at its mature peak uses Middle Persian Pahlavi script across an empire from Egypt to Bactria — thousands of administrative seals survive, providing a bureaucratic record unmatched before the Islamic period.", "tag":"TECHNOLOGY",   "note":"Sassanid administrative seals: Gyselen (2002), Nouveaux matériaux pour la géographie historique de l'empire sassanide. Over 2,000 seals published. The seals document provincial governors, tax officials, army commanders — the only direct administrative evidence from provincial level." },
-        { "id":"te3", "group":"Military Engineering",        "label":"The Gorgan Wall — Sassanid Great Wall",            "date":"c.420–530",      "loc":"Gorgan plain, northeast Iran (extant, 195km)",             "coords":[36.8,54.5],   "hint":"A 195km wall with forts, a canal and a garrison of 30,000 soldiers defending Persia's northeast frontier against steppe peoples — bigger than Hadrian's Wall; recent excavations date it to the 5th–6th century Sassanid period.", "tag":"CONSTRUCTION", "note":"Extant (195km). Sauer et al. (2013), Persia's Imperial Power in Late Antiquity: The Great Wall of Gorgan. Archaeological dating: 5th–6th c. CE. Brick production evidence for centralised construction. One of the largest military engineering projects of late antiquity, almost unknown outside specialist scholarship." }
+        {
+          "id": "te1",
+          "group": "Civil Engineering",
+          "label": "Sassanid canal system — peak expansion",
+          "date": "c.531–579",
+          "loc": "Tigris-Euphrates floodplain (Iraq)",
+          "coords": [
+            32.5,
+            45.5
+          ],
+          "hint": "Khosrow I's reign sees the maximum extent of Sassanid irrigation — the Nahrawan canal (300km) and its network irrigate millions of hectares; the Arab conquest's disruption of this system caused a demographic collapse from which Iraq recovered only in the 20th century.",
+          "tag": "CONSTRUCTION",
+          "note": "Archaeological survey: Adams (1965, 1981) maps the Nahrawan canal network. The canal's scale: confirmed by satellite imagery and ground survey. Disruption under Arab conquest: Adams (1965) documents abandonment. The agricultural productivity underpins all Sassanid fiscal calculations."
+        },
+        {
+          "id": "te2",
+          "group": "Information & Communication",
+          "label": "Middle Persian administrative script — peak use",
+          "date": "c.484–651",
+          "loc": "Empire-wide (administrative documents, seals)",
+          "coords": [
+            33.0,
+            51.0
+          ],
+          "hint": "The Sassanid administrative system at its mature peak uses Middle Persian Pahlavi script across an empire from Egypt to Bactria — thousands of administrative seals survive, providing a bureaucratic record unmatched before the Islamic period.",
+          "tag": "TECHNOLOGY",
+          "note": "Sassanid administrative seals: Gyselen (2002), Nouveaux matériaux pour la géographie historique de l'empire sassanide. Over 2,000 seals published. The seals document provincial governors, tax officials, army commanders — the only direct administrative evidence from provincial level."
+        },
+        {
+          "id": "te3",
+          "group": "Military Engineering",
+          "label": "The Gorgan Wall — Sassanid Great Wall",
+          "date": "c.420–530",
+          "loc": "Gorgan plain, northeast Iran (extant, 195km)",
+          "coords": [
+            36.8,
+            54.5
+          ],
+          "hint": "A 195km wall with forts, a canal and a garrison of 30,000 soldiers defending Persia's northeast frontier against steppe peoples — bigger than Hadrian's Wall; recent excavations date it to the 5th–6th century Sassanid period.",
+          "tag": "CONSTRUCTION",
+          "note": "Extant (195km). Sauer et al. (2013), Persia's Imperial Power in Late Antiquity: The Great Wall of Gorgan. Archaeological dating: 5th–6th c. CE. Brick production evidence for centralised construction. One of the largest military engineering projects of late antiquity, almost unknown outside specialist scholarship."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "The Sassanids in their Eurasian context — Silk Road to Arabia",
       "entries": [
-        { "id":"w1",  "group":"Geopolitical Shift",  "label":"Sassanid conquest of Yemen — Arabia entered",         "date":"575",            "loc":"Yemen (Sassanid province 575–628)",                       "coords":[15.35,44.21], "hint":"Khosrow I sends forces to expel the Ethiopian Aksumites from Yemen — the Sassanids reach the furthest south they will ever hold, giving Persia control of the Red Sea trade and a direct border with Arabia.",            "tag":"EVENT",     "note":"Tabari I.950. The Aksumite expulsion: confirmed in South Arabian inscriptions and Ethiopian sources. Sassanid governor appointed: multiple sources. The strategic consequence: Sassanid presence at Arabia's doorstep immediately before Islam's emergence." },
-        { "id":"w2",  "group":"Geopolitical Shift",  "label":"Islamic conquest ends the Sassanid Empire",           "date":"633–651",        "loc":"Iraq; Iran; from Euphrates to Merv",                      "coords":[33.0,50.0],   "hint":"Arab Muslim forces move through Mesopotamia and Persia with extraordinary speed — the Sassanid state, exhausted by the great war and succession crisis, offers almost no organised resistance after al-Qadisiyya in 636.",  "tag":"EVENT",     "note":"Kennedy (2007), The Great Arab Conquests, chs.5–6. Tabari (Arabic, most detailed). Baladhuri, Futuh al-Buldan. Pourshariati (2008), Decline and Fall of the Sasanian Empire: argues the collapse was caused by internal noble fragmentation, not just Arab military strength." },
-        { "id":"w3",  "group":"Trade & Commerce",    "label":"Sassanid cultural legacy in Islamic civilisation",    "date":"c.651–900",      "loc":"Iraq; Iran; under Abbasid Caliphate",                     "coords":[33.0,44.0],   "hint":"The Sassanid administrative, artistic and intellectual tradition passes almost intact into the early Islamic caliphate — Sassanid bureaucrats run the new state, Sassanid artistic motifs dominate early Islamic art, and Sassanid court culture defines Abbasid Baghdad.", "tag":"EVENT",     "note":"Administrative continuity: Tabari and Baladhuri document Sassanid officials retained. Artistic continuity: Grabar (1973), The Formation of Islamic Art. The Barmakid family (former Gundeshapur administrators) become Abbasid viziers. Daryaee (2009), Sasanian Iran, ch.9." },
-        { "id":"w4",  "group":"Climate & Environment","label":"Late Antique Little Ice Age — climate shift 536–660",  "date":"536–660",        "loc":"Northern Hemisphere — ice cores, dendrochronology",       "coords":[40.0,40.0],   "hint":"A catastrophic volcanic eruption in 536 causes global cooling — tree rings show the worst growing seasons in 2,000 years; the climate shock triggers famine, plague and social disruption across Eurasia including the Sassanid Empire.", "tag":"CLIMATE",   "note":"Büntgen et al. (2016), Science 352: Alpine tree-ring evidence. Larsen et al. (2008), Geophysical Research Letters: ice core evidence. The 536 event: Procopius, John of Lydus (contemporary sources). Connection to Justinianic plague and Sassanid weakness: Harper (2017), The Fate of Rome." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Sassanid conquest of Yemen — Arabia entered",
+          "date": "575",
+          "loc": "Yemen (Sassanid province 575–628)",
+          "coords": [
+            15.35,
+            44.21
+          ],
+          "hint": "Khosrow I sends forces to expel the Ethiopian Aksumites from Yemen — the Sassanids reach the furthest south they will ever hold, giving Persia control of the Red Sea trade and a direct border with Arabia.",
+          "tag": "EVENT",
+          "note": "Tabari I.950. The Aksumite expulsion: confirmed in South Arabian inscriptions and Ethiopian sources. Sassanid governor appointed: multiple sources. The strategic consequence: Sassanid presence at Arabia's doorstep immediately before Islam's emergence."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Islamic conquest ends the Sassanid Empire",
+          "date": "633–651",
+          "loc": "Iraq; Iran; from Euphrates to Merv",
+          "coords": [
+            33.0,
+            50.0
+          ],
+          "hint": "Arab Muslim forces move through Mesopotamia and Persia with extraordinary speed — the Sassanid state, exhausted by the great war and succession crisis, offers almost no organised resistance after al-Qadisiyya in 636.",
+          "tag": "EVENT",
+          "note": "Kennedy (2007), The Great Arab Conquests, chs.5–6. Tabari (Arabic, most detailed). Baladhuri, Futuh al-Buldan. Pourshariati (2008), Decline and Fall of the Sasanian Empire: argues the collapse was caused by internal noble fragmentation, not just Arab military strength."
+        },
+        {
+          "id": "w3",
+          "group": "Trade & Commerce",
+          "label": "Sassanid cultural legacy in Islamic civilisation",
+          "date": "c.651–900",
+          "loc": "Iraq; Iran; under Abbasid Caliphate",
+          "coords": [
+            33.0,
+            44.0
+          ],
+          "hint": "The Sassanid administrative, artistic and intellectual tradition passes almost intact into the early Islamic caliphate — Sassanid bureaucrats run the new state, Sassanid artistic motifs dominate early Islamic art, and Sassanid court culture defines Abbasid Baghdad.",
+          "tag": "EVENT",
+          "note": "Administrative continuity: Tabari and Baladhuri document Sassanid officials retained. Artistic continuity: Grabar (1973), The Formation of Islamic Art. The Barmakid family (former Gundeshapur administrators) become Abbasid viziers. Daryaee (2009), Sasanian Iran, ch.9."
+        },
+        {
+          "id": "w4",
+          "group": "Climate & Environment",
+          "label": "Late Antique Little Ice Age — climate shift 536–660",
+          "date": "536–660",
+          "loc": "Northern Hemisphere — ice cores, dendrochronology",
+          "coords": [
+            40.0,
+            40.0
+          ],
+          "hint": "A catastrophic volcanic eruption in 536 causes global cooling — tree rings show the worst growing seasons in 2,000 years; the climate shock triggers famine, plague and social disruption across Eurasia including the Sassanid Empire.",
+          "tag": "CLIMATE",
+          "note": "Büntgen et al. (2016), Science 352: Alpine tree-ring evidence. Larsen et al. (2008), Geophysical Research Letters: ice core evidence. The 536 event: Procopius, John of Lydus (contemporary sources). Connection to Justinianic plague and Sassanid weakness: Harper (2017), The Fate of Rome."
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
+      "entries": [
+        {
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "Purandokht and Azarmidokht — women as Shahanshah",
+          "date": "629–631",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "During the collapse of the dynasty, two women rule as Shahanshah in succession — Purandokht (daughter of Khosrow II) and Azarmidokht (her sister); their reigns are brief but their existence as ruling queens is attested in coinage and multiple sources.",
+          "tag": "EVIDENCE",
+          "note": "Purandokht's coins: SNS III — rare but confirmed series. Tabari I.1062–1065. Sebeos ch.40. The Arabic sources are generally hostile but consistent on the fact of female rule. Daryaee (2009), Sasanian Iran, pp.28–29. The queens' existence during the '28 kings' chaos is the most direct evidence of women's political agency at the Sassanid peak."
+        },
+        {
+          "id": "lv2",
+          "group": "Gender Variance",
+          "label": "Mukhannathun — gender-variant persons in pre-Islamic Arabia",
+          "date": "c.550–650",
+          "loc": "Arabia; al-Hira; Medina (early Islamic period)",
+          "coords": [
+            24.7,
+            46.7
+          ],
+          "hint": "The mukhannathun (often translated 'effeminate men') occupy a recognised social role in pre-Islamic and early Islamic Arabia — present at court, performing music, acting as go-betweens; early Islamic legal texts treat them as a distinct gender category, preserving evidence of a pre-Islamic recognised third social role.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Early Islamic sources documenting the category: Ibn Sa'd, Tabaqat al-Kubra; Bukhari (Sahih). The mukhannathun at Medina: Ibn Sa'd 8.305–312. Rowson (1991), The Effeminates of Early Medina, JAOS 111(4): the foundational scholarly study. The pre-Islamic roots in al-Hira court culture: Toral-Niehoff (2010). The early Islamic legal redefinition of this category is a textbook CATEGORICAL SHIFT."
+        },
+        {
+          "id": "lv3",
+          "group": "Same-Sex Practice & Law",
+          "label": "Early Islamic jurisprudence redefines same-sex acts",
+          "date": "c.622–650",
+          "loc": "Arabia; Mesopotamia (early Islamic community)",
+          "coords": [
+            24.7,
+            46.7
+          ],
+          "hint": "The first generation of Islamic legal thinking begins to classify same-sex acts under a new jurisprudential framework — neither Roman (role/status) nor Zoroastrian (ritual purity) but a new synthesis drawing on Biblical prohibition and Arabic tribal custom; the categories being built here will govern Islamic law for centuries.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Hadith collections on the subject (Bukhari, Abu Dawud) are later compilations but preserve early community debate. Schmitt & Sofer eds. (1992), Sexuality and Eroticism Among Males in Moslem Societies. Murray & Roscoe eds. (1997), Islamic Homosexualities. The jurisprudential shift from Sassanid/Byzantine frameworks to Islamic fiqh is a major Foucauldian moment — a new power-knowledge configuration replacing two older ones simultaneously."
+        },
+        {
+          "id": "lv4",
+          "group": "Women's Agency",
+          "label": "Shirin — documented agency of a queen consort",
+          "date": "c.590–628",
+          "loc": "Ctesiphon; Qasr-e Shirin palace",
+          "coords": [
+            34.19,
+            45.58
+          ],
+          "hint": "Khosrow II's Christian queen Shirin is documented interceding for prisoners, managing her own estates, and being consulted on political matters — the most detailed evidence for a Sassanid queen's active agency; her palace (Qasr-e Shirin) still bears her name.",
+          "tag": "EVIDENCE",
+          "note": "Chronicle of Seert (Syriac): Shirin's intercession for Christian prisoners. Tabari I.1003 on her influence. Qasr-e Shirin palace: ruins extant (Kermanshah province), named for her in all sources. The Khusraw ud Shirin literary tradition (Nizami, 12th c.) is later, but the historical core — her documented status — is confirmed in 7th-century sources."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"recovery",     "icon":"⚜️","accent":"#A0400A","label":"Recovery (484–531)",         "events":[
-      {"y":484,"y2":488,"l":"Balash",                  "entryId":"k1"},
-      {"y":488,"y2":496,"l":"Kavad I (1st reign)",     "entryId":"k2"},
-      {"y":496,"y2":499,"l":"Jamasp",                  "entryId":"k3"},
-      {"y":499,"y2":531,"l":"Kavad I (2nd reign)",     "entryId":"k4"}
-    ]},
-    {"id":"apogee",       "icon":"⚜️","accent":"#7B2900","label":"Apogee (531–590)",            "events":[
-      {"y":531,"y2":579,"l":"Khosrow I (Anushirvan)",  "entryId":"k5"},
-      {"y":579,"y2":590,"l":"Hormizd IV",              "entryId":"k6"},
-      {"y":590,"y2":591,"l":"Bahram Chobin (usurper)", "entryId":"k7"}
-    ]},
-    {"id":"great-war",    "icon":"⚜️","accent":"#5C1A00","label":"Great War & Decline (590–628)","events":[
-      {"y":590,"y2":628,"l":"Khosrow II (Parviz)",     "entryId":"k8"},
-      {"y":628,"y2":628,"l":"Kavad II (8 months)",     "entryId":"k9"}
-    ]},
-    {"id":"collapse",     "icon":"⚜️","accent":"#3A0E00","label":"Collapse (628–651)",           "events":[
-      {"y":628,"y2":632,"l":"The 28 kings",            "entryId":"k10"},
-      {"y":632,"y2":651,"l":"Yazdegerd III (last king)","entryId":"k11"}
-    ]},
-    {"id":"conflict",     "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":540,"l":"Antioch sacked",                   "entryId":"c1"},
-      {"y":557,"l":"Hephthalites destroyed",           "entryId":"c2"},
-      {"y":589,"l":"Bahram Chobin revolt",             "entryId":"c8"},
-      {"y":614,"l":"Jerusalem captured",               "entryId":"c3"},
-      {"y":626,"l":"Siege of Constantinople",          "entryId":"c4"},
-      {"y":627,"l":"Battle of Nineveh",                "entryId":"c5"},
-      {"y":636,"l":"Battle of al-Qadisiyya",           "entryId":"c6"},
-      {"y":637,"l":"Ctesiphon falls",                  "entryId":"c7"}
-    ]},
-    {"id":"order",        "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":532,"l":"Perpetual Peace",                  "entryId":"o3"},
-      {"y":540,"l":"Tax reform complete",              "entryId":"o1"},
-      {"y":550,"l":"Military reform",                  "entryId":"o2"}
-    ]},
-    {"id":"belief",       "icon":"🙏","accent":"#1E8449","events":[
-      {"y":488,"l":"Mazdak movement",                  "entryId":"r1"},
-      {"y":528,"l":"Mazdakites massacred",             "entryId":"r1"},
-      {"y":575,"l":"Yemen — Zoroastrianism south",     "entryId":"r5"},
-      {"y":614,"l":"True Cross to Ctesiphon",          "entryId":"r4"}
-    ]},
-    {"id":"expression",   "icon":"✨","accent":"#8D6E63","events":[
-      {"y":540,"l":"Taq Kasra built",                  "entryId":"a5"},
-      {"y":600,"l":"Taq-e Bostan grottos",             "entryId":"a1"},
-      {"y":600,"l":"Barbad — court music",             "entryId":"a4"},
-      {"y":610,"l":"Spring of Khosrow carpet",         "entryId":"a2"}
-    ]},
-    {"id":"thought",      "icon":"💡","accent":"#566573","events":[
-      {"y":489,"l":"Gundeshapur expanded",             "entryId":"t2"},
-      {"y":529,"l":"Greek philosophers arrive",        "entryId":"t1"},
-      {"y":550,"l":"Indian texts translated",          "entryId":"t3"},
-      {"y":661,"l":"Sebeos writes history",            "entryId":"t4"}
-    ]},
-    {"id":"subsistence",  "icon":"🌾","accent":"#8B5E00","events":[
-      {"y":531,"l":"Fixed land tax",                   "entryId":"s1"},
-      {"y":542,"l":"Plague reaches Persia",            "entryId":"s3"},
-      {"y":552,"l":"Silk monopoly challenged",         "entryId":"s2"}
-    ]},
-    {"id":"technology",   "icon":"⚙️","accent":"#2E7D52","events":[
-      {"y":500,"l":"Gorgan Wall",                      "entryId":"te3"},
-      {"y":540,"l":"Nahrawan canal peak",              "entryId":"te1"},
-      {"y":600,"l":"Sassanid seals corpus",            "entryId":"te2"}
-    ]},
-    {"id":"world",        "icon":"🌍","accent":"#2471A3","events":[
-      {"y":536,"l":"LALIA climate shock",              "entryId":"w4"},
-      {"y":575,"l":"Sassanids reach Yemen",            "entryId":"w1"},
-      {"y":636,"l":"Islamic conquest begins",          "entryId":"w2"},
-      {"y":700,"l":"Sassanid legacy in Islam",         "entryId":"w3"}
-    ]}
+    {
+      "id": "recovery",
+      "icon": "⚜️",
+      "accent": "#A0400A",
+      "label": "Recovery (484–531)",
+      "events": [
+        {
+          "y": 484,
+          "y2": 488,
+          "l": "Balash",
+          "entryId": "k1"
+        },
+        {
+          "y": 488,
+          "y2": 496,
+          "l": "Kavad I (1st reign)",
+          "entryId": "k2"
+        },
+        {
+          "y": 496,
+          "y2": 499,
+          "l": "Jamasp",
+          "entryId": "k3"
+        },
+        {
+          "y": 499,
+          "y2": 531,
+          "l": "Kavad I (2nd reign)",
+          "entryId": "k4"
+        }
+      ]
+    },
+    {
+      "id": "apogee",
+      "icon": "⚜️",
+      "accent": "#7B2900",
+      "label": "Apogee (531–590)",
+      "events": [
+        {
+          "y": 531,
+          "y2": 579,
+          "l": "Khosrow I (Anushirvan)",
+          "entryId": "k5"
+        },
+        {
+          "y": 579,
+          "y2": 590,
+          "l": "Hormizd IV",
+          "entryId": "k6"
+        },
+        {
+          "y": 590,
+          "y2": 591,
+          "l": "Bahram Chobin (usurper)",
+          "entryId": "k7"
+        }
+      ]
+    },
+    {
+      "id": "great-war",
+      "icon": "⚜️",
+      "accent": "#5C1A00",
+      "label": "Great War & Decline (590–628)",
+      "events": [
+        {
+          "y": 590,
+          "y2": 628,
+          "l": "Khosrow II (Parviz)",
+          "entryId": "k8"
+        },
+        {
+          "y": 628,
+          "y2": 628,
+          "l": "Kavad II (8 months)",
+          "entryId": "k9"
+        }
+      ]
+    },
+    {
+      "id": "collapse",
+      "icon": "⚜️",
+      "accent": "#3A0E00",
+      "label": "Collapse (628–651)",
+      "events": [
+        {
+          "y": 628,
+          "y2": 632,
+          "l": "The 28 kings",
+          "entryId": "k10"
+        },
+        {
+          "y": 632,
+          "y2": 651,
+          "l": "Yazdegerd III (last king)",
+          "entryId": "k11"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 540,
+          "l": "Antioch sacked",
+          "entryId": "c1"
+        },
+        {
+          "y": 557,
+          "l": "Hephthalites destroyed",
+          "entryId": "c2"
+        },
+        {
+          "y": 589,
+          "l": "Bahram Chobin revolt",
+          "entryId": "c8"
+        },
+        {
+          "y": 614,
+          "l": "Jerusalem captured",
+          "entryId": "c3"
+        },
+        {
+          "y": 626,
+          "l": "Siege of Constantinople",
+          "entryId": "c4"
+        },
+        {
+          "y": 627,
+          "l": "Battle of Nineveh",
+          "entryId": "c5"
+        },
+        {
+          "y": 636,
+          "l": "Battle of al-Qadisiyya",
+          "entryId": "c6"
+        },
+        {
+          "y": 637,
+          "l": "Ctesiphon falls",
+          "entryId": "c7"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 532,
+          "l": "Perpetual Peace",
+          "entryId": "o3"
+        },
+        {
+          "y": 540,
+          "l": "Tax reform complete",
+          "entryId": "o1"
+        },
+        {
+          "y": 550,
+          "l": "Military reform",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 488,
+          "l": "Mazdak movement",
+          "entryId": "r1"
+        },
+        {
+          "y": 528,
+          "l": "Mazdakites massacred",
+          "entryId": "r1"
+        },
+        {
+          "y": 575,
+          "l": "Yemen — Zoroastrianism south",
+          "entryId": "r5"
+        },
+        {
+          "y": 614,
+          "l": "True Cross to Ctesiphon",
+          "entryId": "r4"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 540,
+          "l": "Taq Kasra built",
+          "entryId": "a5"
+        },
+        {
+          "y": 600,
+          "l": "Taq-e Bostan grottos",
+          "entryId": "a1"
+        },
+        {
+          "y": 600,
+          "l": "Barbad — court music",
+          "entryId": "a4"
+        },
+        {
+          "y": 610,
+          "l": "Spring of Khosrow carpet",
+          "entryId": "a2"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 489,
+          "l": "Gundeshapur expanded",
+          "entryId": "t2"
+        },
+        {
+          "y": 529,
+          "l": "Greek philosophers arrive",
+          "entryId": "t1"
+        },
+        {
+          "y": 550,
+          "l": "Indian texts translated",
+          "entryId": "t3"
+        },
+        {
+          "y": 661,
+          "l": "Sebeos writes history",
+          "entryId": "t4"
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "icon": "🌾",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 531,
+          "l": "Fixed land tax",
+          "entryId": "s1"
+        },
+        {
+          "y": 542,
+          "l": "Plague reaches Persia",
+          "entryId": "s3"
+        },
+        {
+          "y": 552,
+          "l": "Silk monopoly challenged",
+          "entryId": "s2"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#2E7D52",
+      "events": [
+        {
+          "y": 500,
+          "l": "Gorgan Wall",
+          "entryId": "te3"
+        },
+        {
+          "y": 540,
+          "l": "Nahrawan canal peak",
+          "entryId": "te1"
+        },
+        {
+          "y": 600,
+          "l": "Sassanid seals corpus",
+          "entryId": "te2"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 536,
+          "l": "LALIA climate shock",
+          "entryId": "w4"
+        },
+        {
+          "y": 575,
+          "l": "Sassanids reach Yemen",
+          "entryId": "w1"
+        },
+        {
+          "y": 636,
+          "l": "Islamic conquest begins",
+          "entryId": "w2"
+        },
+        {
+          "y": 700,
+          "l": "Sassanid legacy in Islam",
+          "entryId": "w3"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 590,
+          "l": "Shirin — queen's documented agency",
+          "entryId": "lv4"
+        },
+        {
+          "y": 600,
+          "l": "Mukhannathun — recognised third role",
+          "entryId": "lv2"
+        },
+        {
+          "y": 629,
+          "l": "Purandokht — woman as Shahanshah",
+          "entryId": "lv1"
+        },
+        {
+          "y": 640,
+          "l": "Islamic jurisprudence redefines category",
+          "entryId": "lv3"
+        }
+      ]
+    }
   ]
 }
