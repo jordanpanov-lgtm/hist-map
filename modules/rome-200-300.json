@@ -1009,6 +1009,87 @@
           "group": "Geopolitical Shift"
         }
       ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
+      "entries": [
+        {
+          "id": "lv1",
+          "group": "Gender & Legal Status",
+          "label": "Ulpian defines the legal personhood of enslaved people",
+          "date": "c.211–222",
+          "loc": "Rome (legal writing)",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "The jurist Ulpian writes the foundational texts on the legal non-personhood of enslaved people — simultaneously the most detailed Roman documentation of their humanity and its systematic denial.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Ulpian's texts survive in the Digest of Justinian (533 CE). Digest 1.5.4: 'slavery is an institution of the law of nations by which a person is, contrary to nature, subjected to the ownership of another.' The contradictions in the legal texts — acknowledging humanity while denying legal personality — are the richest source for enslaved life. Watson (1987), Roman Slave Law."
+        },
+        {
+          "id": "lv2",
+          "group": "Same-Sex Practice & Law",
+          "label": "Caracalla extends citizenship — Lex Scantinia implications",
+          "date": "212",
+          "loc": "Empire-wide",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "The Constitutio Antoniniana extending citizenship to all free persons also extends the Lex Scantinia's prohibitions — the law punishing the passive role in same-sex acts between free men now applies to millions of new citizens, redefining who is subject to its gender-normative logic.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "P.Giss. 40 (Papyrus Giessen): the Constitutio text. Lex Scantinia: Williams (2010), Roman Homosexuality, ch.4. The Scantinia's logic is about status and role (passive = degrading for a free man) not identity — the key distinction from later Christian frameworks. The citizenship extension's legal implications: Sherwin-White (1973)."
+        },
+        {
+          "id": "lv3",
+          "group": "Gender Variance",
+          "label": "Elagabalus — gender identity in imperial sources",
+          "date": "218–222",
+          "loc": "Rome",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "The Historia Augusta describes Elagabalus preferring to be addressed as domina (mistress) rather than dominus (master), wearing women's dress at court, and reportedly seeking physicians to create female genitalia — the most detailed ancient account of what modern scholars read as gender variance at the highest level.",
+          "tag": "EVIDENCE",
+          "note": "SHA Vita Heliogabali 5.1–4 (hostile source — anachronism and bias must be acknowledged). Cassius Dio 80.13–16. The SHA's reliability is disputed, but the consistency of the gender details across hostile sources is notable. Icks (2012), The Crimes of Elagabalus. The anachronism of applying 'transgender' retrospectively: discussed in Roller (2018), Gender Studies and Ancient Rome."
+        },
+        {
+          "id": "lv4",
+          "group": "Women's Agency",
+          "label": "Julia Domna — philosopher-empress and intellectual patron",
+          "date": "193–217",
+          "loc": "Rome; Antioch",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Julia Domna, wife of Septimius Severus, convenes a philosophical circle, corresponds with Philostratus (who dedicates his Life of Apollonius to her), and exercises documented political influence — the best-evidenced example of female intellectual power in the Severan period.",
+          "tag": "EVIDENCE",
+          "note": "Philostratus, Life of Apollonius: dedication to Julia Domna is explicit. Her correspondence and intellectual circle: Levick (2007), Julia Domna: Syrian Empress. Coins depict her as Mater Senatus and Mater Patriae — titles with political content. Her role after Septimius's death: Herodian 4.3."
+        },
+        {
+          "id": "lv5",
+          "group": "Same-Sex Practice & Law",
+          "label": "Paul's Letter to the Romans — desire as moral category",
+          "date": "c.57 CE (read/copied in this period)",
+          "loc": "Circulating in Rome and across the empire",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Paul's Romans 1:26–27 introduces a fundamentally new framework: same-sex desire itself — not just the passive role or citizen status — is the moral problem. This is the CATEGORICAL SHIFT from Roman act-based to Christian desire-based analysis, circulating widely by the 3rd century.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Romans 1:26–27: earliest MS Papyrus 46 (Chester Beatty, c.200 CE — within this module's period). Boswell (1980), Christianity, Social Tolerance, and Homosexuality: the foundational (if contested) study. Martin (1995), Heterosexism and the Interpretation of Romans 1:18–32 for the debate. The shift from Roman 'acts' to Christian 'desires' as moral categories: Foucault, The Use of Pleasure (1985)."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -1396,6 +1477,38 @@
           "y": 274,
           "l": "Empire reunified",
           "entryId": "p15"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 193,
+          "l": "Julia Domna — philosopher empress",
+          "entryId": "lv4"
+        },
+        {
+          "y": 203,
+          "l": "Perpetua's prison account",
+          "entryId": "lv3"
+        },
+        {
+          "y": 212,
+          "l": "Citizenship & Lex Scantinia extended",
+          "entryId": "lv2"
+        },
+        {
+          "y": 218,
+          "l": "Elagabalus — gender variance at court",
+          "entryId": "lv3"
+        },
+        {
+          "y": 220,
+          "l": "Ulpian defines enslaved non-personhood",
+          "entryId": "lv1"
         }
       ]
     }
