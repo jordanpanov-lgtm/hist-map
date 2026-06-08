@@ -672,6 +672,59 @@
           "note": "Louvre AO 4083. Basalt, 7 Dec 328. Nabataean-Arabic script. First published: Dussaud & Macler (1901). Critical studies: Bellamy (1985), Robin (2010). Irfan Shahid: 'the most important Arabic inscription of pre-Islamic times.' Now a key text in Arabic linguistic history."
         }
       ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
+      "entries": [
+        {
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "Hind bint al-Nu'man — documented queen of al-Hira",
+          "date": "c.569–602",
+          "loc": "Al-Hira",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Hind, daughter of al-Nu'man III, is documented in Arabic sources as a significant cultural figure at al-Hira — her Christian convents, her patronage of poets, and her exchanges with the early Muslim community give her more textual presence than almost any pre-Islamic Arab woman.",
+          "tag": "EVIDENCE",
+          "note": "Hind's convents at al-Hira: multiple Arabic sources. Her meeting with the Prophet Muhammad: Ibn Sa'd, Tabaqat. Aghani (al-Isfahani) preserves stories of her patronage. Shahid, BASIC II.1 (1995) pp.427–430. The evidence is later Arabic tradition, not contemporary, but internally consistent. She is the best-evidenced named woman in the Lakhmid corpus."
+        },
+        {
+          "id": "lv2",
+          "group": "Gender Variance",
+          "label": "Mukhannathun in pre-Islamic court culture",
+          "date": "c.500–602",
+          "loc": "Al-Hira; Arabian courts",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "The courts of al-Hira and the Ghassanids both employed mukhannathun as musicians and entertainers — the earliest context for this recognised gender-variant role that will later be explicitly documented in early Islamic Medina.",
+          "tag": "EVIDENCE",
+          "note": "The al-Hira connection: Toral-Niehoff (2010), al-Hira as cultural transmission centre. Rowson (1991) traces the mukhannathun category back through the al-Hira court tradition. The evidence is indirect — the court music tradition at al-Hira is documented (Adi ibn Zayd, Barbad's later training), and the mukhannathun role within it is inferred from the early Islamic sources that describe the tradition they inherited."
+        },
+        {
+          "id": "lv3",
+          "group": "Women's Agency",
+          "label": "Al-Khansa — the greatest pre-Islamic Arab poet",
+          "date": "c.575–645",
+          "loc": "Najd, Arabia (origin); al-Hira and tribal courts",
+          "coords": [
+            25.0,
+            45.0
+          ],
+          "hint": "Al-Khansa bint Amr composes the most celebrated elegies in pre-Islamic Arabic poetry — for her brothers killed in battle; she later converts to Islam and is praised by the Prophet; her documented public poetic career is the strongest evidence for female intellectual agency in the pre-Islamic Arab world.",
+          "tag": "EVIDENCE",
+          "note": "Al-Khansa's Diwan (collected poems): multiple medieval manuscript traditions; printed edition (Beirut 1888). Her meeting with the Prophet: Ibn Sa'd, Tabaqat al-Kubra 8.273–277. Her performance at the Ukaz market: documented in the Aghani. Arberry (1957) translation. The Diwan is the most substantial body of work by a pre-Islamic woman in any language from this region."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -929,6 +982,28 @@
           "y": 602,
           "l": "Vacuum for Islamic conquest",
           "entryId": "w3"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 575,
+          "l": "Al-Khansa — pre-Islamic woman poet",
+          "entryId": "lv3"
+        },
+        {
+          "y": 569,
+          "l": "Hind bint al-Nu'man — documented queen",
+          "entryId": "lv1"
+        },
+        {
+          "y": 550,
+          "l": "Mukhannathun at al-Hira court",
+          "entryId": "lv2"
         }
       ]
     }
