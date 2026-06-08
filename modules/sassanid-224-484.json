@@ -2,195 +2,1281 @@
   "id": "sassanid-224-484",
   "title": "Sassanid Empire",
   "subtitle": "224–484 AD · Foundation to the Hephthalite Crisis",
-  "period": { "start": 224, "end": 484 },
-  "mapCenter": [32, 50],
+  "period": {
+    "start": 224,
+    "end": 484
+  },
+  "mapCenter": [
+    32,
+    50
+  ],
   "mapZoom": 5,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#5C1A00", "accent": "#A0400A", "bg": "#FFF5EE",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C1A00",
+      "accent": "#A0400A",
+      "bg": "#FFF5EE",
       "subtitle": "The Shahanshah — King of Kings of Iran and non-Iran",
       "entries": [
-        { "id":"k1",  "group":"Foundation (224–270)",      "dynasty":"House of Sasan", "label":"Ardashir I",       "date":"224–242",  "loc":"Istakhr (origin); Ctesiphon (capital); Naqsh-e Rajab (investiture relief)", "coords":[29.94,52.89], "hint":"Overthrew the last Parthian king Artabanus IV at the Battle of Hormozdgan in 224, founding the Sassanid Empire; his investiture relief at Naqsh-e Rajab, with trilingual inscription, is the founding monument of the dynasty.", "tag":"SUCCESSION", "note":"HARD ANCHOR: Investiture relief, Naqsh-e Rajab (extant, Fars province). Trilingual inscription: Parthian, Middle Persian, Greek — Back (1978), Die sassanidischen Staatsinschriften. Battle of Hormozdgan 224 CE: Cassius Dio 80.3 (Roman source, contemporary). Coinage: Sylloge Nummorum Sasanidarum (SNS) I." },
-        { "id":"k2",  "group":"Foundation (224–270)",      "dynasty":"House of Sasan", "label":"Shapur I",         "date":"240–270",  "loc":"Ctesiphon; Bishapur (his foundation city); Naqsh-e Rostam",              "coords":[29.78,51.58], "hint":"Captured the Roman emperor Valerian in 260 — the most humiliating defeat ever suffered by Rome; founded the city of Bishapur with Roman prisoner-of-war labour; left the most detailed Sassanid inscription ever found.", "tag":"SUCCESSION", "note":"EXCEPTIONAL ANCHOR: Res Gestae Divi Saporis (ŠKZ) — trilingual inscription (Middle Persian, Parthian, Greek) on Ka'ba-ye Zardosht, Naqsh-e Rostam (extant). Back (1978). Bishapur city (extant, excavated). Rock relief at Naqsh-e Rostam showing Valerian captured (extant). SNS I for coinage." },
-        { "id":"k3",  "group":"Foundation (224–270)",      "dynasty":"House of Sasan", "label":"Hormizd I",        "date":"270–271",  "loc":"Ctesiphon",                                                               "coords":[33.09,44.58], "hint":"Brief reign of one year; son of Shapur I born at Bishapur. His short reign is confirmed by a distinct coin series and the Kartir inscriptions which span from Shapur I through his successors.", "tag":"SUCCESSION", "note":"Coinage: SNS I — distinct crown type confirms separate reign. Born at Bishapur: Bishapur city records. Kartir inscriptions span his reign: Skjærvø, Encyclopaedia Iranica XV (2011) pp.608–628." },
-        { "id":"k4",  "group":"Consolidation (270–309)",   "dynasty":"House of Sasan", "label":"Bahram I",         "date":"271–274",  "loc":"Ctesiphon",                                                               "coords":[33.09,44.58], "hint":"Executed the prophet Mani in 274 under pressure from the high priest Kartir — the execution that made Mani a martyr and paradoxically spread Manichaeism westward.",                                                "tag":"SUCCESSION", "note":"Mani's execution 274–277 CE: Cologne Mani Codex (CMC, Cologne University) gives Mani's own earlier testimony; death confirmed in multiple later sources. Kartir's role: Kartir inscription at Sar Mashhad (KSM, extant) — Skjærvø (2011)." },
-        { "id":"k5",  "group":"Consolidation (270–309)",   "dynasty":"House of Sasan", "label":"Bahram II",        "date":"274–293",  "loc":"Ctesiphon; Bishapur",                                                     "coords":[33.09,44.58], "hint":"Kartir reaches the peak of his power under Bahram II — the only non-royal to receive an inscription right, at four sites; Bahram II's family portrait relief at Naqsh-e Rostam is the most intimate Sassanid royal image.", "tag":"SUCCESSION", "note":"Bahram II portrait relief with wife and son: Naqsh-e Rostam (extant). Kartir's four inscriptions all completed under this reign: KNRb, KKZ, KSM, KNRm — Back (1978). Coinage: SNS I." },
-        { "id":"k6",  "group":"Consolidation (270–309)",   "dynasty":"House of Sasan", "label":"Narseh",           "date":"293–302",  "loc":"Ctesiphon; Paikuli (tower inscription, Iraq)",                           "coords":[35.4,45.6],   "hint":"Left the Paikuli inscription — a tower covered in Parthian and Middle Persian text recording his seizure of the throne — one of the most important Sassanid historical documents.",                                     "tag":"COUP",       "note":"HARD ANCHOR: Paikuli inscription (NPi) — bilingual tower inscription, Sulaymaniyah Governorate, Iraq. Humbach & Skjaervø, The Sassanian Inscription of Paikuli (1983). Records Narseh's accession and legitimation narrative in his own words." },
-        { "id":"k7",  "group":"Consolidation (270–309)",   "dynasty":"House of Sasan", "label":"Hormizd II",       "date":"302–309",  "loc":"Ctesiphon",                                                               "coords":[33.09,44.58], "hint":"Competent king who kept peace with Rome; his equestrian relief at Naqsh-e Rostam survives. His death led to a dynastic crisis resolved by placing his unborn son (Shapur II) on the throne.",                            "tag":"SUCCESSION", "note":"Equestrian relief: Naqsh-e Rostam (extant). Coinage: SNS I. Death 309: Tabari I.836. The dynastic crisis and crown placed on the pregnant queen's belly: Tabari I.837 — this story appears in multiple sources as a legitimacy legend." },
-        { "id":"k8",  "group":"Imperial Peak (309–379)",   "dynasty":"House of Sasan", "label":"Shapur II",        "date":"309–379",  "loc":"Ctesiphon; campaigns from Armenia to Mesopotamia",                       "coords":[33.09,44.58], "hint":"Longest-reigning Sassanid king (70 years); fought three wars against Rome, systematically persecuted Christians and other minorities, and defeated Julian's invasion of Persia in 363 — the reign that defined the classical Sassanid state.", "tag":"SUCCESSION", "note":"WELL DOCUMENTED: Ammianus Marcellinus (Books 18–25, eyewitness to campaigns). Armenian sources: Faustus of Byzantium. Syriac martyrology: Book of the Laws of the Countries. Taq-e Bostan inscriptions (ŠTBn-I: extant). Coinage: SNS I. Reign length 70 years confirmed by multiple sources." },
-        { "id":"k9",  "group":"Imperial Peak (309–379)",   "dynasty":"House of Sasan", "label":"Ardashir II",      "date":"379–383",  "loc":"Ctesiphon",                                                               "coords":[33.09,44.58], "hint":"Brother of Shapur II; brief reign confirmed by distinct coinage and the Taq-e Bostan inscription (ŠTBn-II); deposed by the nobility according to later Persian tradition.",                                             "tag":"SUCCESSION", "note":"Coinage: SNS II. Taq-e Bostan inscription ŠTBn-II (extant, Kermanshah). Deposition: Tabari I.865. Reign length 4 years consistent across sources." },
-        { "id":"k10", "group":"Imperial Peak (309–379)",   "dynasty":"House of Sasan", "label":"Shapur III",       "date":"383–388",  "loc":"Ctesiphon; Taq-e Bostan (inscription)",                                  "coords":[34.37,47.07], "hint":"Concluded the partition of Armenia with Theodosius I in 387 — the treaty that divided the Caucasus between Rome and Persia and held for nearly two centuries.",                                                           "tag":"SUCCESSION", "note":"Taq-e Bostan ŠTBn-I and II: both Ardashir II and Shapur III inscriptions at same site (extant). Treaty of 387: Faustus of Byzantium; confirmed in Roman sources. Coinage: SNS II." },
-        { "id":"k11", "group":"Late Period (388–484)",     "dynasty":"House of Sasan", "label":"Bahram IV",        "date":"388–399",  "loc":"Ctesiphon; founded Kirman city",                                          "coords":[30.28,57.08], "hint":"Stable reign; founded or refounded the city of Kirman (named after him as 'Bahram-Ardashir'); his coinage is the best-documented of the later 4th-century kings.",                                                      "tag":"SUCCESSION", "note":"Coinage: SNS II. City foundation: Tabari. Murdered by his own nobles: Tabari I.869. Reign of 11 years consistent across sources." },
-        { "id":"k12", "group":"Late Period (388–484)",     "dynasty":"House of Sasan", "label":"Yazdegerd I",      "date":"399–420",  "loc":"Ctesiphon",                                                               "coords":[33.09,44.58], "hint":"Called 'the Sinner' by Zoroastrian priests for his tolerance of Christians and Jews; his reign is the best-documented 5th-century Sassanid reign thanks to Roman, Syriac and Armenian sources.",                        "tag":"SUCCESSION", "note":"Syriac sources: Synodicon Orientale (Chabot 1902) — synod of Isaac 410 held under his protection. Roman sources: Theodoret HE 5.37–38. Jewish sources: Babylonian Talmud, Avodah Zarah 10b (names him favourably). Coinage: SNS II." },
-        { "id":"k13", "group":"Late Period (388–484)",     "dynasty":"House of Sasan", "label":"Bahram V (Gur)",   "date":"420–438",  "loc":"Al-Hira (upbringing); Ctesiphon",                                        "coords":[33.09,44.58], "hint":"Raised at the Lakhmid court of al-Hira; the most celebrated Sassanid king in Persian literary tradition — the great hunter, polo player and lover of the singer Azadeh; his deeds are the subject of Ferdowsi's Shahnameh.", "tag":"SUCCESSION", "note":"Upbringing at al-Hira: Tabari I.848; corroborated by Socrates Scholasticus HE 7.18. Peace with Byzantium 422: Theodoret HE 5.37. Coinage: SNS II (distinctive 'Gur' hunting imagery on some issues). Shahnameh: Ferdowsi (c.1010) — literary tradition, not primary." },
-        { "id":"k14", "group":"Late Period (388–484)",     "dynasty":"House of Sasan", "label":"Yazdegerd II",     "date":"438–457",  "loc":"Ctesiphon; campaigns in Armenia",                                        "coords":[33.09,44.58], "hint":"Reversed his father's tolerance: persecuted Christians in Persia and forcibly imposed Zoroastrianism on Armenia — the Armenian uprising of 451 (Battle of Avarayr) is the direct response.",                            "tag":"SUCCESSION", "note":"Armenian uprising 451: Eghishe, History of Vardan and the Armenian War (5th c. Armenian, primary source). Lazar P'arpets'i. Persecution: Syriac martyrologies. Coinage: SNS II." },
-        { "id":"k15", "group":"Late Period (388–484)",     "dynasty":"House of Sasan", "label":"Hormizd III",      "date":"457–459",  "loc":"Ctesiphon",                                                               "coords":[33.09,44.58], "hint":"Brief disputed reign; fought his brother Peroz I for the throne and was killed — one of the first Sassanid civil wars over succession.",                                                                              "tag":"COUP",       "note":"Coinage: SNS II (brief series). Conflict with Peroz: Tabari I.875. Duration 2 years consistent across sources." },
-        { "id":"k16", "group":"Late Period (388–484)",     "dynasty":"House of Sasan", "label":"Peroz I",          "date":"459–484",  "loc":"Ctesiphon; eastern frontier campaigns",                                   "coords":[33.09,44.58], "hint":"Died in battle against the Hephthalites in 484 — the catastrophic defeat that killed the king, destroyed the Sassanid army and forced a humiliating tribute; the crisis that ends Module 1.", "tag":"SUCCESSION", "note":"Death against Hephthalites 484: Procopius Wars 1.4.21–35 (Greek, most detailed). Joshua the Stylite, Chronicle (Syriac, near-contemporary). Priscus fragments. Coinage: SNS II. The treaty requiring Sassanid tribute to Hephthalites: Procopius 1.4.35." }
+        {
+          "id": "k1",
+          "group": "Foundation (224–270)",
+          "dynasty": "House of Sasan",
+          "label": "Ardashir I",
+          "date": "224–242",
+          "loc": "Istakhr (origin); Ctesiphon (capital); Naqsh-e Rajab (investiture relief)",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "Overthrew the last Parthian king Artabanus IV at the Battle of Hormozdgan in 224, founding the Sassanid Empire; his investiture relief at Naqsh-e Rajab, with trilingual inscription, is the founding monument of the dynasty.",
+          "tag": "SUCCESSION",
+          "note": "HARD ANCHOR: Investiture relief, Naqsh-e Rajab (extant, Fars province). Trilingual inscription: Parthian, Middle Persian, Greek — Back (1978), Die sassanidischen Staatsinschriften. Battle of Hormozdgan 224 CE: Cassius Dio 80.3 (Roman source, contemporary). Coinage: Sylloge Nummorum Sasanidarum (SNS) I."
+        },
+        {
+          "id": "k2",
+          "group": "Foundation (224–270)",
+          "dynasty": "House of Sasan",
+          "label": "Shapur I",
+          "date": "240–270",
+          "loc": "Ctesiphon; Bishapur (his foundation city); Naqsh-e Rostam",
+          "coords": [
+            29.78,
+            51.58
+          ],
+          "hint": "Captured the Roman emperor Valerian in 260 — the most humiliating defeat ever suffered by Rome; founded the city of Bishapur with Roman prisoner-of-war labour; left the most detailed Sassanid inscription ever found.",
+          "tag": "SUCCESSION",
+          "note": "EXCEPTIONAL ANCHOR: Res Gestae Divi Saporis (ŠKZ) — trilingual inscription (Middle Persian, Parthian, Greek) on Ka'ba-ye Zardosht, Naqsh-e Rostam (extant). Back (1978). Bishapur city (extant, excavated). Rock relief at Naqsh-e Rostam showing Valerian captured (extant). SNS I for coinage."
+        },
+        {
+          "id": "k3",
+          "group": "Foundation (224–270)",
+          "dynasty": "House of Sasan",
+          "label": "Hormizd I",
+          "date": "270–271",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Brief reign of one year; son of Shapur I born at Bishapur. His short reign is confirmed by a distinct coin series and the Kartir inscriptions which span from Shapur I through his successors.",
+          "tag": "SUCCESSION",
+          "note": "Coinage: SNS I — distinct crown type confirms separate reign. Born at Bishapur: Bishapur city records. Kartir inscriptions span his reign: Skjærvø, Encyclopaedia Iranica XV (2011) pp.608–628."
+        },
+        {
+          "id": "k4",
+          "group": "Consolidation (270–309)",
+          "dynasty": "House of Sasan",
+          "label": "Bahram I",
+          "date": "271–274",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Executed the prophet Mani in 274 under pressure from the high priest Kartir — the execution that made Mani a martyr and paradoxically spread Manichaeism westward.",
+          "tag": "SUCCESSION",
+          "note": "Mani's execution 274–277 CE: Cologne Mani Codex (CMC, Cologne University) gives Mani's own earlier testimony; death confirmed in multiple later sources. Kartir's role: Kartir inscription at Sar Mashhad (KSM, extant) — Skjærvø (2011)."
+        },
+        {
+          "id": "k5",
+          "group": "Consolidation (270–309)",
+          "dynasty": "House of Sasan",
+          "label": "Bahram II",
+          "date": "274–293",
+          "loc": "Ctesiphon; Bishapur",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Kartir reaches the peak of his power under Bahram II — the only non-royal to receive an inscription right, at four sites; Bahram II's family portrait relief at Naqsh-e Rostam is the most intimate Sassanid royal image.",
+          "tag": "SUCCESSION",
+          "note": "Bahram II portrait relief with wife and son: Naqsh-e Rostam (extant). Kartir's four inscriptions all completed under this reign: KNRb, KKZ, KSM, KNRm — Back (1978). Coinage: SNS I."
+        },
+        {
+          "id": "k6",
+          "group": "Consolidation (270–309)",
+          "dynasty": "House of Sasan",
+          "label": "Narseh",
+          "date": "293–302",
+          "loc": "Ctesiphon; Paikuli (tower inscription, Iraq)",
+          "coords": [
+            35.4,
+            45.6
+          ],
+          "hint": "Left the Paikuli inscription — a tower covered in Parthian and Middle Persian text recording his seizure of the throne — one of the most important Sassanid historical documents.",
+          "tag": "COUP",
+          "note": "HARD ANCHOR: Paikuli inscription (NPi) — bilingual tower inscription, Sulaymaniyah Governorate, Iraq. Humbach & Skjaervø, The Sassanian Inscription of Paikuli (1983). Records Narseh's accession and legitimation narrative in his own words."
+        },
+        {
+          "id": "k7",
+          "group": "Consolidation (270–309)",
+          "dynasty": "House of Sasan",
+          "label": "Hormizd II",
+          "date": "302–309",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Competent king who kept peace with Rome; his equestrian relief at Naqsh-e Rostam survives. His death led to a dynastic crisis resolved by placing his unborn son (Shapur II) on the throne.",
+          "tag": "SUCCESSION",
+          "note": "Equestrian relief: Naqsh-e Rostam (extant). Coinage: SNS I. Death 309: Tabari I.836. The dynastic crisis and crown placed on the pregnant queen's belly: Tabari I.837 — this story appears in multiple sources as a legitimacy legend."
+        },
+        {
+          "id": "k8",
+          "group": "Imperial Peak (309–379)",
+          "dynasty": "House of Sasan",
+          "label": "Shapur II",
+          "date": "309–379",
+          "loc": "Ctesiphon; campaigns from Armenia to Mesopotamia",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Longest-reigning Sassanid king (70 years); fought three wars against Rome, systematically persecuted Christians and other minorities, and defeated Julian's invasion of Persia in 363 — the reign that defined the classical Sassanid state.",
+          "tag": "SUCCESSION",
+          "note": "WELL DOCUMENTED: Ammianus Marcellinus (Books 18–25, eyewitness to campaigns). Armenian sources: Faustus of Byzantium. Syriac martyrology: Book of the Laws of the Countries. Taq-e Bostan inscriptions (ŠTBn-I: extant). Coinage: SNS I. Reign length 70 years confirmed by multiple sources."
+        },
+        {
+          "id": "k9",
+          "group": "Imperial Peak (309–379)",
+          "dynasty": "House of Sasan",
+          "label": "Ardashir II",
+          "date": "379–383",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Brother of Shapur II; brief reign confirmed by distinct coinage and the Taq-e Bostan inscription (ŠTBn-II); deposed by the nobility according to later Persian tradition.",
+          "tag": "SUCCESSION",
+          "note": "Coinage: SNS II. Taq-e Bostan inscription ŠTBn-II (extant, Kermanshah). Deposition: Tabari I.865. Reign length 4 years consistent across sources."
+        },
+        {
+          "id": "k10",
+          "group": "Imperial Peak (309–379)",
+          "dynasty": "House of Sasan",
+          "label": "Shapur III",
+          "date": "383–388",
+          "loc": "Ctesiphon; Taq-e Bostan (inscription)",
+          "coords": [
+            34.37,
+            47.07
+          ],
+          "hint": "Concluded the partition of Armenia with Theodosius I in 387 — the treaty that divided the Caucasus between Rome and Persia and held for nearly two centuries.",
+          "tag": "SUCCESSION",
+          "note": "Taq-e Bostan ŠTBn-I and II: both Ardashir II and Shapur III inscriptions at same site (extant). Treaty of 387: Faustus of Byzantium; confirmed in Roman sources. Coinage: SNS II."
+        },
+        {
+          "id": "k11",
+          "group": "Late Period (388–484)",
+          "dynasty": "House of Sasan",
+          "label": "Bahram IV",
+          "date": "388–399",
+          "loc": "Ctesiphon; founded Kirman city",
+          "coords": [
+            30.28,
+            57.08
+          ],
+          "hint": "Stable reign; founded or refounded the city of Kirman (named after him as 'Bahram-Ardashir'); his coinage is the best-documented of the later 4th-century kings.",
+          "tag": "SUCCESSION",
+          "note": "Coinage: SNS II. City foundation: Tabari. Murdered by his own nobles: Tabari I.869. Reign of 11 years consistent across sources."
+        },
+        {
+          "id": "k12",
+          "group": "Late Period (388–484)",
+          "dynasty": "House of Sasan",
+          "label": "Yazdegerd I",
+          "date": "399–420",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Called 'the Sinner' by Zoroastrian priests for his tolerance of Christians and Jews; his reign is the best-documented 5th-century Sassanid reign thanks to Roman, Syriac and Armenian sources.",
+          "tag": "SUCCESSION",
+          "note": "Syriac sources: Synodicon Orientale (Chabot 1902) — synod of Isaac 410 held under his protection. Roman sources: Theodoret HE 5.37–38. Jewish sources: Babylonian Talmud, Avodah Zarah 10b (names him favourably). Coinage: SNS II."
+        },
+        {
+          "id": "k13",
+          "group": "Late Period (388–484)",
+          "dynasty": "House of Sasan",
+          "label": "Bahram V (Gur)",
+          "date": "420–438",
+          "loc": "Al-Hira (upbringing); Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Raised at the Lakhmid court of al-Hira; the most celebrated Sassanid king in Persian literary tradition — the great hunter, polo player and lover of the singer Azadeh; his deeds are the subject of Ferdowsi's Shahnameh.",
+          "tag": "SUCCESSION",
+          "note": "Upbringing at al-Hira: Tabari I.848; corroborated by Socrates Scholasticus HE 7.18. Peace with Byzantium 422: Theodoret HE 5.37. Coinage: SNS II (distinctive 'Gur' hunting imagery on some issues). Shahnameh: Ferdowsi (c.1010) — literary tradition, not primary."
+        },
+        {
+          "id": "k14",
+          "group": "Late Period (388–484)",
+          "dynasty": "House of Sasan",
+          "label": "Yazdegerd II",
+          "date": "438–457",
+          "loc": "Ctesiphon; campaigns in Armenia",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Reversed his father's tolerance: persecuted Christians in Persia and forcibly imposed Zoroastrianism on Armenia — the Armenian uprising of 451 (Battle of Avarayr) is the direct response.",
+          "tag": "SUCCESSION",
+          "note": "Armenian uprising 451: Eghishe, History of Vardan and the Armenian War (5th c. Armenian, primary source). Lazar P'arpets'i. Persecution: Syriac martyrologies. Coinage: SNS II."
+        },
+        {
+          "id": "k15",
+          "group": "Late Period (388–484)",
+          "dynasty": "House of Sasan",
+          "label": "Hormizd III",
+          "date": "457–459",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Brief disputed reign; fought his brother Peroz I for the throne and was killed — one of the first Sassanid civil wars over succession.",
+          "tag": "COUP",
+          "note": "Coinage: SNS II (brief series). Conflict with Peroz: Tabari I.875. Duration 2 years consistent across sources."
+        },
+        {
+          "id": "k16",
+          "group": "Late Period (388–484)",
+          "dynasty": "House of Sasan",
+          "label": "Peroz I",
+          "date": "459–484",
+          "loc": "Ctesiphon; eastern frontier campaigns",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Died in battle against the Hephthalites in 484 — the catastrophic defeat that killed the king, destroyed the Sassanid army and forced a humiliating tribute; the crisis that ends Module 1.",
+          "tag": "SUCCESSION",
+          "note": "Death against Hephthalites 484: Procopius Wars 1.4.21–35 (Greek, most detailed). Joshua the Stylite, Chronicle (Syriac, near-contemporary). Priscus fragments. Coinage: SNS II. The treaty requiring Sassanid tribute to Hephthalites: Procopius 1.4.35."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "Wars on multiple frontiers — Rome, Armenia, the eastern steppes",
       "entries": [
-        { "id":"c1",  "group":"Roman-Persian Wars",     "label":"Battle of Hormozdgan — Sassanid foundation",  "date":"28 Apr 224",     "loc":"Hormozdgan plain, Fars (exact site disputed)",           "coords":[29.5,53.0],   "hint":"Ardashir I defeats and kills the last Parthian king Artabanus IV — the founding battle of the Sassanid Empire, the most consequential single engagement in Iranian history before the Arab conquest.",                  "tag":"BATTLE",    "note":"Date 28 Apr 224 from Tabari's chronicle and confirmed by coin evidence: SNS I shows Ardashir minting as Shahanshah from 224. Cassius Dio 80.3 (Roman, near-contemporary). Exact site unidentified; Fars province." },
-        { "id":"c2",  "group":"Roman-Persian Wars",     "label":"Shapur I captures emperor Valerian",          "date":"260",            "loc":"Edessa (mod. Şanlıurfa, Turkey)",                         "coords":[37.15,38.8],  "hint":"Shapur I defeats and captures the Roman emperor Valerian — the only Roman emperor ever taken prisoner in battle — a humiliation depicted in three surviving rock reliefs and recorded in Shapur's own inscription.",      "tag":"BATTLE",    "note":"PRIMARY: Res Gestae Divi Saporis (ŠKZ), Ka'ba-ye Zardosht (extant). Rock relief: Naqsh-e Rostam (extant). Also Bishapur rock relief (extant). Roman sources: SHA Vita Valeriani. Zosimus 1.36. Date 260 — disputed 259/260 in scholarship." },
-        { "id":"c3",  "group":"Roman-Persian Wars",     "label":"Battle of Misiche — Philip pays tribute",     "date":"244",            "loc":"Misiche (near Falluja, mod. Iraq)",                       "coords":[33.35,43.78], "hint":"Shapur defeats and kills Gordian III, forcing Philip the Arab to pay 500,000 gold denarii tribute — all three figures (Gordian dead, Philip kneeling, Valerian captive) appear in the Naqsh-e Rostam relief.",          "tag":"BATTLE",    "note":"ŠKZ records 500,000 gold denarii tribute from Philip. Relief at Naqsh-e Rostam depicts all three emperors. Roman sources dispute Gordian's death — SHA says he died of illness. Date 244 from ŠKZ internal chronology." },
-        { "id":"c4",  "group":"Roman-Persian Wars",     "label":"Battle of Singara and campaigns of Shapur II", "date":"337–363",       "loc":"Singara (mod. Sinjar, Iraq); Nisibis (besieged x3)",     "coords":[36.32,41.85], "hint":"Shapur II besieges Nisibis three times (338, 346, 350) and fights a grinding 26-year campaign against Constantius II — Ammianus Marcellinus describes these campaigns from personal experience.",                      "tag":"BATTLE",    "note":"Ammianus Marcellinus Books 18–20 (eyewitness participant). Three sieges of Nisibis: confirmed in Roman and Armenian sources. The 26-year war (337–363): structured around Constantius II's reign." },
-        { "id":"c5",  "group":"Roman-Persian Wars",     "label":"Defeat of Julian's invasion — death of Julian","date":"363",           "loc":"Near Samarra (mod. Iraq); Ctesiphon campaign",           "coords":[34.2,43.87],  "hint":"Shapur II defeats Julian's massive invasion — Julian reaches Ctesiphon but cannot take it, retreats and is mortally wounded; Rome cedes Nisibis and 15 cities in the subsequent peace.",                               "tag":"BATTLE",    "note":"Ammianus Marcellinus 23–25 (most detailed ancient account; eyewitness). Julian's death 26 Jun 363: Ammianus 25.3. Ephrem the Syrian, Carmina Nisibena (Syriac, eyewitness to Roman evacuation of Nisibis). Peace terms: Ammianus 25.7." },
-        { "id":"c6",  "group":"Armenian Wars",          "label":"Battle of Avarayr — Armenian resistance",     "date":"26 May 451",     "loc":"Avarayr plain, Armenia (mod. northwest Iran)",            "coords":[39.2,44.5],   "hint":"Armenian Christian nobles fight the Sassanid army to resist forced Zoroastrian conversion; the Armenians lose the battle but win strategically — Yazdegerd II eventually grants religious toleration.",               "tag":"BATTLE",    "note":"PRIMARY: Eghishe, History of Vardan and the Armenian War (5th c. Armenian historian, near-contemporary). Lazar P'arpets'i (5th–6th c.). Date 26 May 451 from Armenian tradition. Avarayr is the founding event of Armenian national memory." },
-        { "id":"c7",  "group":"Eastern Frontier",       "label":"Peroz I's campaigns against the Hephthalites", "date":"469–484",       "loc":"Eastern frontier (Bactria/Khorasan region)",             "coords":[36.5,63.0],   "hint":"Peroz I launches three campaigns against the Hephthalites; the third ends in disaster when his entire army, including himself, is killed — the worst Sassanid military defeat of the 5th century.",                    "tag":"BATTLE",    "note":"Procopius Wars 1.3–4 (most detailed Greek account). Joshua the Stylite, Chronicle ch. 11 (Syriac, near-contemporary). Priscus fragments. The Hephthalite tribute imposed on Sassanids afterward: Procopius 1.4.35. Date of death 484 confirmed." },
-        { "id":"c8",  "group":"Armenian Wars",          "label":"Partition of Armenia between Rome and Persia",  "date":"387",           "loc":"Armenia — partition treaty (no single site)",            "coords":[40.0,44.5],   "hint":"Rome and Persia divide Armenia — Persia takes roughly four-fifths; the treaty creates a stable frontier that lasts until Justinian's reorganisation, making it the most durable Roman-Sassanid agreement.",             "tag":"POLITICAL", "note":"Faustus of Byzantium (Armenian, near-contemporary). Confirmed in Roman sources. The treaty's terms: western Armenia becomes Roman client, eastern (Persarmenia) under direct Sassanid control. Landmark in late antique geopolitics." }
+        {
+          "id": "c1",
+          "group": "Roman-Persian Wars",
+          "label": "Battle of Hormozdgan — Sassanid foundation",
+          "date": "28 Apr 224",
+          "loc": "Hormozdgan plain, Fars (exact site disputed)",
+          "coords": [
+            29.5,
+            53.0
+          ],
+          "hint": "Ardashir I defeats and kills the last Parthian king Artabanus IV — the founding battle of the Sassanid Empire, the most consequential single engagement in Iranian history before the Arab conquest.",
+          "tag": "BATTLE",
+          "note": "Date 28 Apr 224 from Tabari's chronicle and confirmed by coin evidence: SNS I shows Ardashir minting as Shahanshah from 224. Cassius Dio 80.3 (Roman, near-contemporary). Exact site unidentified; Fars province."
+        },
+        {
+          "id": "c2",
+          "group": "Roman-Persian Wars",
+          "label": "Shapur I captures emperor Valerian",
+          "date": "260",
+          "loc": "Edessa (mod. Şanlıurfa, Turkey)",
+          "coords": [
+            37.15,
+            38.8
+          ],
+          "hint": "Shapur I defeats and captures the Roman emperor Valerian — the only Roman emperor ever taken prisoner in battle — a humiliation depicted in three surviving rock reliefs and recorded in Shapur's own inscription.",
+          "tag": "BATTLE",
+          "note": "PRIMARY: Res Gestae Divi Saporis (ŠKZ), Ka'ba-ye Zardosht (extant). Rock relief: Naqsh-e Rostam (extant). Also Bishapur rock relief (extant). Roman sources: SHA Vita Valeriani. Zosimus 1.36. Date 260 — disputed 259/260 in scholarship."
+        },
+        {
+          "id": "c3",
+          "group": "Roman-Persian Wars",
+          "label": "Battle of Misiche — Philip pays tribute",
+          "date": "244",
+          "loc": "Misiche (near Falluja, mod. Iraq)",
+          "coords": [
+            33.35,
+            43.78
+          ],
+          "hint": "Shapur defeats and kills Gordian III, forcing Philip the Arab to pay 500,000 gold denarii tribute — all three figures (Gordian dead, Philip kneeling, Valerian captive) appear in the Naqsh-e Rostam relief.",
+          "tag": "BATTLE",
+          "note": "ŠKZ records 500,000 gold denarii tribute from Philip. Relief at Naqsh-e Rostam depicts all three emperors. Roman sources dispute Gordian's death — SHA says he died of illness. Date 244 from ŠKZ internal chronology."
+        },
+        {
+          "id": "c4",
+          "group": "Roman-Persian Wars",
+          "label": "Battle of Singara and campaigns of Shapur II",
+          "date": "337–363",
+          "loc": "Singara (mod. Sinjar, Iraq); Nisibis (besieged x3)",
+          "coords": [
+            36.32,
+            41.85
+          ],
+          "hint": "Shapur II besieges Nisibis three times (338, 346, 350) and fights a grinding 26-year campaign against Constantius II — Ammianus Marcellinus describes these campaigns from personal experience.",
+          "tag": "BATTLE",
+          "note": "Ammianus Marcellinus Books 18–20 (eyewitness participant). Three sieges of Nisibis: confirmed in Roman and Armenian sources. The 26-year war (337–363): structured around Constantius II's reign."
+        },
+        {
+          "id": "c5",
+          "group": "Roman-Persian Wars",
+          "label": "Defeat of Julian's invasion — death of Julian",
+          "date": "363",
+          "loc": "Near Samarra (mod. Iraq); Ctesiphon campaign",
+          "coords": [
+            34.2,
+            43.87
+          ],
+          "hint": "Shapur II defeats Julian's massive invasion — Julian reaches Ctesiphon but cannot take it, retreats and is mortally wounded; Rome cedes Nisibis and 15 cities in the subsequent peace.",
+          "tag": "BATTLE",
+          "note": "Ammianus Marcellinus 23–25 (most detailed ancient account; eyewitness). Julian's death 26 Jun 363: Ammianus 25.3. Ephrem the Syrian, Carmina Nisibena (Syriac, eyewitness to Roman evacuation of Nisibis). Peace terms: Ammianus 25.7."
+        },
+        {
+          "id": "c6",
+          "group": "Armenian Wars",
+          "label": "Battle of Avarayr — Armenian resistance",
+          "date": "26 May 451",
+          "loc": "Avarayr plain, Armenia (mod. northwest Iran)",
+          "coords": [
+            39.2,
+            44.5
+          ],
+          "hint": "Armenian Christian nobles fight the Sassanid army to resist forced Zoroastrian conversion; the Armenians lose the battle but win strategically — Yazdegerd II eventually grants religious toleration.",
+          "tag": "BATTLE",
+          "note": "PRIMARY: Eghishe, History of Vardan and the Armenian War (5th c. Armenian historian, near-contemporary). Lazar P'arpets'i (5th–6th c.). Date 26 May 451 from Armenian tradition. Avarayr is the founding event of Armenian national memory."
+        },
+        {
+          "id": "c7",
+          "group": "Eastern Frontier",
+          "label": "Peroz I's campaigns against the Hephthalites",
+          "date": "469–484",
+          "loc": "Eastern frontier (Bactria/Khorasan region)",
+          "coords": [
+            36.5,
+            63.0
+          ],
+          "hint": "Peroz I launches three campaigns against the Hephthalites; the third ends in disaster when his entire army, including himself, is killed — the worst Sassanid military defeat of the 5th century.",
+          "tag": "BATTLE",
+          "note": "Procopius Wars 1.3–4 (most detailed Greek account). Joshua the Stylite, Chronicle ch. 11 (Syriac, near-contemporary). Priscus fragments. The Hephthalite tribute imposed on Sassanids afterward: Procopius 1.4.35. Date of death 484 confirmed."
+        },
+        {
+          "id": "c8",
+          "group": "Armenian Wars",
+          "label": "Partition of Armenia between Rome and Persia",
+          "date": "387",
+          "loc": "Armenia — partition treaty (no single site)",
+          "coords": [
+            40.0,
+            44.5
+          ],
+          "hint": "Rome and Persia divide Armenia — Persia takes roughly four-fifths; the treaty creates a stable frontier that lasts until Justinian's reorganisation, making it the most durable Roman-Sassanid agreement.",
+          "tag": "POLITICAL",
+          "note": "Faustus of Byzantium (Armenian, near-contemporary). Confirmed in Roman sources. The treaty's terms: western Armenia becomes Roman client, eastern (Persarmenia) under direct Sassanid control. Landmark in late antique geopolitics."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Imperial administration, law & the Zoroastrian state church",
       "entries": [
-        { "id":"o1",  "group":"Administrative Reform",  "label":"Foundation of Ctesiphon as imperial capital",    "date":"c.224–226",      "loc":"Ctesiphon (mod. Al-Madain, Iraq) — arch extant",          "coords":[33.09,44.58], "hint":"Ardashir I consolidates Ctesiphon on the Tigris as the Sassanid capital — the Taq Kasra (Arch of Ctesiphon), the largest single-span brick vault in the world, survives as testament to the city's scale.",               "tag":"CONSTRUCTION", "note":"Taq Kasra (Arch of Ctesiphon): extant (partially). Span 25.4m — the largest unreinforced brick arch ever built. Construction date debated: most scholars attribute it to Khosrow I (6th c.) but the city was established by Ardashir. Reuther (1929) on the arch." },
-        { "id":"o2",  "group":"Ecclesiastical Act",     "label":"Kartir establishes the Zoroastrian state church",  "date":"c.260–293",     "loc":"Naqsh-e Rajab; Naqsh-e Rostam; Sar Mashhad; Ka'ba-ye Zardosht", "coords":[29.94,52.89], "hint":"The high priest Kartir leaves four inscriptions documenting his creation of a state Zoroastrian church — the only non-royal Sassanid to hold inscription rights; he claims to have persecuted Jews, Christians, Buddhists and Manichaeans.", "tag":"EDICT",        "note":"Four Kartir inscriptions: KNRb (Naqsh-e Rajab), KKZ (Ka'ba-ye Zardosht), KSM (Sar Mashhad), KNRm (Naqsh-e Rostam) — all extant. Skjærvø, Encyclopaedia Iranica XV (2011). The KSM inscription is the longest and most detailed." },
-        { "id":"o3",  "group":"Imperial Law",           "label":"Sassanid legal code — Matigan i Hazar Dadestan", "date":"compiled c.224–650", "loc":"Ctesiphon (court)",                                   "coords":[33.09,44.58], "hint":"The 'Book of a Thousand Judgements' — the Sassanid civil law code compiled over centuries; it survives in a single Pahlavi manuscript and is the primary evidence for Sassanid private law, inheritance and property.",     "tag":"LAW",          "note":"Matigan i Hazar Dadestan: single surviving manuscript, MK (Mulla Kaus MS, Sanjana family, Bombay). Critical edition: Perikhanian (1973). The text's accumulation over the Sassanid period makes precise dating of individual sections difficult." },
-        { "id":"o4",  "group":"Administrative Reform",  "label":"Shapur I founds cities with Roman prisoner labour",  "date":"c.260–270",   "loc":"Bishapur; Gundeshapur; Shapur-Khwast",                    "coords":[29.78,51.58], "hint":"After capturing Valerian's army, Shapur I uses Roman prisoners of war to build cities and infrastructure — Bishapur is laid out on a Roman grid plan; Gundeshapur becomes a major intellectual centre.",              "tag":"CONSTRUCTION", "note":"Bishapur: extant (archaeological site). Roman grid plan confirmed by excavation. Inscription at Bishapur records city foundation. Gundeshapur: later Academy documented in multiple sources. Roman prisoner role: ŠKZ mentions Roman captives settled in Persia." }
+        {
+          "id": "o1",
+          "group": "Administrative Reform",
+          "label": "Foundation of Ctesiphon as imperial capital",
+          "date": "c.224–226",
+          "loc": "Ctesiphon (mod. Al-Madain, Iraq) — arch extant",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Ardashir I consolidates Ctesiphon on the Tigris as the Sassanid capital — the Taq Kasra (Arch of Ctesiphon), the largest single-span brick vault in the world, survives as testament to the city's scale.",
+          "tag": "CONSTRUCTION",
+          "note": "Taq Kasra (Arch of Ctesiphon): extant (partially). Span 25.4m — the largest unreinforced brick arch ever built. Construction date debated: most scholars attribute it to Khosrow I (6th c.) but the city was established by Ardashir. Reuther (1929) on the arch."
+        },
+        {
+          "id": "o2",
+          "group": "Ecclesiastical Act",
+          "label": "Kartir establishes the Zoroastrian state church",
+          "date": "c.260–293",
+          "loc": "Naqsh-e Rajab; Naqsh-e Rostam; Sar Mashhad; Ka'ba-ye Zardosht",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "The high priest Kartir leaves four inscriptions documenting his creation of a state Zoroastrian church — the only non-royal Sassanid to hold inscription rights; he claims to have persecuted Jews, Christians, Buddhists and Manichaeans.",
+          "tag": "EDICT",
+          "note": "Four Kartir inscriptions: KNRb (Naqsh-e Rajab), KKZ (Ka'ba-ye Zardosht), KSM (Sar Mashhad), KNRm (Naqsh-e Rostam) — all extant. Skjærvø, Encyclopaedia Iranica XV (2011). The KSM inscription is the longest and most detailed."
+        },
+        {
+          "id": "o3",
+          "group": "Imperial Law",
+          "label": "Sassanid legal code — Matigan i Hazar Dadestan",
+          "date": "compiled c.224–650",
+          "loc": "Ctesiphon (court)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The 'Book of a Thousand Judgements' — the Sassanid civil law code compiled over centuries; it survives in a single Pahlavi manuscript and is the primary evidence for Sassanid private law, inheritance and property.",
+          "tag": "LAW",
+          "note": "Matigan i Hazar Dadestan: single surviving manuscript, MK (Mulla Kaus MS, Sanjana family, Bombay). Critical edition: Perikhanian (1973). The text's accumulation over the Sassanid period makes precise dating of individual sections difficult."
+        },
+        {
+          "id": "o4",
+          "group": "Administrative Reform",
+          "label": "Shapur I founds cities with Roman prisoner labour",
+          "date": "c.260–270",
+          "loc": "Bishapur; Gundeshapur; Shapur-Khwast",
+          "coords": [
+            29.78,
+            51.58
+          ],
+          "hint": "After capturing Valerian's army, Shapur I uses Roman prisoners of war to build cities and infrastructure — Bishapur is laid out on a Roman grid plan; Gundeshapur becomes a major intellectual centre.",
+          "tag": "CONSTRUCTION",
+          "note": "Bishapur: extant (archaeological site). Roman grid plan confirmed by excavation. Inscription at Bishapur records city foundation. Gundeshapur: later Academy documented in multiple sources. Roman prisoner role: ŠKZ mentions Roman captives settled in Persia."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
       "subtitle": "Zoroastrianism as state religion, Manichaeism, and the persecuted minorities",
       "entries": [
-        { "id":"r1",  "group":"Zoroastrianism",         "label":"Kartir's inscriptions — Zoroastrian state ideology",  "date":"c.260–293",   "loc":"Four sites, Fars province, Iran (all extant)",           "coords":[29.94,52.89], "hint":"Kartir's four rock inscriptions are the primary source for how the Sassanid state conceptualised its Zoroastrian mission — he lists the minorities he persecuted (Jews, Christians, Buddhists, Manichaeans) and the fire temples he established.", "tag":"DOCUMENT", "note":"KNRb, KKZ, KSM, KNRm — all extant. Skjærvø (2011) Encyclopaedia Iranica. The KSM inscription includes a vision narrative (soul journey) that is unique in Sassanid epigraphy. These are the only detailed first-person Sassanid religious documents." },
-        { "id":"r2",  "group":"Manichaeism",            "label":"Execution of Mani — first great religious martyrdom", "date":"274–277",     "loc":"Gundeshapur (or Belapat) — exact site disputed",          "coords":[32.3,48.5],   "hint":"Bahram I has Mani executed under pressure from the high priest Kartir — Mani dies in chains, his skin stuffed and displayed at the city gate; his death makes him a martyr and paradoxically accelerates the spread of Manichaeism westward.", "tag":"PERSECUTION","note":"Cologne Mani Codex (CMC, P.Colon. inv. 4780, Cologne University Library) — Mani's autobiography survives; the CMC is the key primary source. Multiple Manichaean texts record the martyrdom. Kartir's role: KSM inscription. Execution date 274–277 debated." },
-        { "id":"r3",  "group":"Christianity",           "label":"Shapur II's persecution of Christians",              "date":"339–379",      "loc":"Persia, Mesopotamia — documented at Seleucia-Ctesiphon",  "coords":[33.09,44.58], "hint":"Shapur II launches a systematic 40-year persecution of Christians following Constantine's adoption of Christianity — Christians were now seen as a potential fifth column for Rome; the Syriac martyrology records thousands of named martyrs.", "tag":"PERSECUTION","note":"Book of Laws of the Countries (Syriac). Martyrdom of Simeon bar Sabbae (bishop of Seleucia-Ctesiphon, executed 344): Syriac Acta Martyrum et Sanctorum (ed. Bedjan). Sozomen HE 2.9–14 (Greek). The 344 CE persecution is the best-documented Sassanid religious event." },
-        { "id":"r4",  "group":"Zoroastrianism",         "label":"Avesta compiled and canonised under Shapur II",      "date":"c.309–379",    "loc":"Ctesiphon (court tradition)",                             "coords":[33.09,44.58], "hint":"The Zoroastrian sacred text the Avesta is canonised in its definitive form under the Sassanids — the Denkard (9th c.) records that Shapur II ordered a systematic collection of all Zoroastrian oral and written traditions.",               "tag":"DOCUMENT", "note":"Denkard (9th c. Middle Persian encyclopaedia) Book IV: records Sassanid Avesta compilation. The Denkard itself: oldest MS Mulla Firuz MS (Copenhagen). The Avesta's Sassanid recension is the basis for all surviving Zoroastrian texts. Boyce (1968), The Transmission of the Avesta." },
-        { "id":"r5",  "group":"Christianity",           "label":"Synod of Isaac 410 — Church of the East organised",  "date":"410",          "loc":"Seleucia-Ctesiphon",                                      "coords":[33.09,44.58], "hint":"Under the tolerant Yazdegerd I, the Church of the East holds its first great synod, organising the Persian Christian community and declaring its autonomy from Rome — a foundational moment for Eastern Christianity.", "tag":"COUNCIL",  "note":"Synodicon Orientale (Syriac; Chabot critical edition 1902). Date 410 internally confirmed. The synod explicitly declares the Persian church independent of Antioch and Rome. Bishop list preserved. This is the clearest documentary evidence of Sassanid religious policy under Yazdegerd I." },
-        { "id":"r6",  "group":"Judaism",                "label":"Jewish academies of Babylonia under Sassanid rule",  "date":"c.220–500",    "loc":"Sura; Pumbedita (mod. Iraq)",                             "coords":[32.0,44.5],   "hint":"The two great Jewish academies of Sura and Pumbedita flourish under Sassanid rule, producing the Babylonian Talmud — the most important document of post-biblical Judaism, compiled in Persian-ruled territory.",               "tag":"DOCUMENT", "note":"Babylonian Talmud: compiled c.200–500 CE under Sassanid rule. Multiple references to Sassanid kings (e.g. Yazdegerd I in Avodah Zarah 10b). Neusner, A History of the Jews in Babylonia (5 vols, 1965–1970). The academies at Sura and Pumbedita are attested in the Talmud itself." }
+        {
+          "id": "r1",
+          "group": "Zoroastrianism",
+          "label": "Kartir's inscriptions — Zoroastrian state ideology",
+          "date": "c.260–293",
+          "loc": "Four sites, Fars province, Iran (all extant)",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "Kartir's four rock inscriptions are the primary source for how the Sassanid state conceptualised its Zoroastrian mission — he lists the minorities he persecuted (Jews, Christians, Buddhists, Manichaeans) and the fire temples he established.",
+          "tag": "DOCUMENT",
+          "note": "KNRb, KKZ, KSM, KNRm — all extant. Skjærvø (2011) Encyclopaedia Iranica. The KSM inscription includes a vision narrative (soul journey) that is unique in Sassanid epigraphy. These are the only detailed first-person Sassanid religious documents."
+        },
+        {
+          "id": "r2",
+          "group": "Manichaeism",
+          "label": "Execution of Mani — first great religious martyrdom",
+          "date": "274–277",
+          "loc": "Gundeshapur (or Belapat) — exact site disputed",
+          "coords": [
+            32.3,
+            48.5
+          ],
+          "hint": "Bahram I has Mani executed under pressure from the high priest Kartir — Mani dies in chains, his skin stuffed and displayed at the city gate; his death makes him a martyr and paradoxically accelerates the spread of Manichaeism westward.",
+          "tag": "PERSECUTION",
+          "note": "Cologne Mani Codex (CMC, P.Colon. inv. 4780, Cologne University Library) — Mani's autobiography survives; the CMC is the key primary source. Multiple Manichaean texts record the martyrdom. Kartir's role: KSM inscription. Execution date 274–277 debated."
+        },
+        {
+          "id": "r3",
+          "group": "Christianity",
+          "label": "Shapur II's persecution of Christians",
+          "date": "339–379",
+          "loc": "Persia, Mesopotamia — documented at Seleucia-Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Shapur II launches a systematic 40-year persecution of Christians following Constantine's adoption of Christianity — Christians were now seen as a potential fifth column for Rome; the Syriac martyrology records thousands of named martyrs.",
+          "tag": "PERSECUTION",
+          "note": "Book of Laws of the Countries (Syriac). Martyrdom of Simeon bar Sabbae (bishop of Seleucia-Ctesiphon, executed 344): Syriac Acta Martyrum et Sanctorum (ed. Bedjan). Sozomen HE 2.9–14 (Greek). The 344 CE persecution is the best-documented Sassanid religious event."
+        },
+        {
+          "id": "r4",
+          "group": "Zoroastrianism",
+          "label": "Avesta compiled and canonised under Shapur II",
+          "date": "c.309–379",
+          "loc": "Ctesiphon (court tradition)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The Zoroastrian sacred text the Avesta is canonised in its definitive form under the Sassanids — the Denkard (9th c.) records that Shapur II ordered a systematic collection of all Zoroastrian oral and written traditions.",
+          "tag": "DOCUMENT",
+          "note": "Denkard (9th c. Middle Persian encyclopaedia) Book IV: records Sassanid Avesta compilation. The Denkard itself: oldest MS Mulla Firuz MS (Copenhagen). The Avesta's Sassanid recension is the basis for all surviving Zoroastrian texts. Boyce (1968), The Transmission of the Avesta."
+        },
+        {
+          "id": "r5",
+          "group": "Christianity",
+          "label": "Synod of Isaac 410 — Church of the East organised",
+          "date": "410",
+          "loc": "Seleucia-Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Under the tolerant Yazdegerd I, the Church of the East holds its first great synod, organising the Persian Christian community and declaring its autonomy from Rome — a foundational moment for Eastern Christianity.",
+          "tag": "COUNCIL",
+          "note": "Synodicon Orientale (Syriac; Chabot critical edition 1902). Date 410 internally confirmed. The synod explicitly declares the Persian church independent of Antioch and Rome. Bishop list preserved. This is the clearest documentary evidence of Sassanid religious policy under Yazdegerd I."
+        },
+        {
+          "id": "r6",
+          "group": "Judaism",
+          "label": "Jewish academies of Babylonia under Sassanid rule",
+          "date": "c.220–500",
+          "loc": "Sura; Pumbedita (mod. Iraq)",
+          "coords": [
+            32.0,
+            44.5
+          ],
+          "hint": "The two great Jewish academies of Sura and Pumbedita flourish under Sassanid rule, producing the Babylonian Talmud — the most important document of post-biblical Judaism, compiled in Persian-ruled territory.",
+          "tag": "DOCUMENT",
+          "note": "Babylonian Talmud: compiled c.200–500 CE under Sassanid rule. Multiple references to Sassanid kings (e.g. Yazdegerd I in Avodah Zarah 10b). Neusner, A History of the Jews in Babylonia (5 vols, 1965–1970). The academies at Sura and Pumbedita are attested in the Talmud itself."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "Rock reliefs, silver, cities and the Sassanid visual programme",
       "entries": [
-        { "id":"a1",  "group":"Sculpture & Relief",     "label":"Ardashir I investiture relief, Naqsh-e Rajab",      "date":"c.226–240",    "loc":"Naqsh-e Rajab, Fars province (extant)",                   "coords":[29.94,52.89], "hint":"The founding image of the Sassanid dynasty: Ardashir and Ahura Mazda face each other on horseback as equals, the god handing the king the ring of sovereignty — establishing the visual theology of Sassanid royal legitimacy.", "tag":"MONUMENT", "note":"Extant. Trilingual inscription on Ardashir's horse: Back (1978). Relief dimensions 6.65m × 2.40m. Carved c.226–240. Herrmann (1989), The Sassanian Rock Reliefs at Naqsh-i Rustam." },
-        { "id":"a2",  "group":"Sculpture & Relief",     "label":"Shapur I's victory relief — Valerian captured",     "date":"c.260–270",    "loc":"Naqsh-e Rostam, Fars province (extant)",                  "coords":[29.94,52.87], "hint":"The most politically charged image in ancient Iranian art: Shapur on horseback holds the wrist of the captured emperor Valerian; Philip the Arab kneels in submission; Gordian III lies dead under the horse's hooves.", "tag":"MONUMENT", "note":"Extant. 11m × 5m. Naqsh-e Rostam. Three emperors identified: MacDermot (1954) refuted earlier misidentifications, now standard. Herrmann (1989). Also at Bishapur (second version, extant)." },
-        { "id":"a3",  "group":"Architecture",           "label":"City of Bishapur — Roman grid plan",                 "date":"c.266",        "loc":"Bishapur, Fars province (extant, excavated)",             "coords":[29.78,51.58], "hint":"Shapur I founds Bishapur using Roman prisoner architects and engineers — the only Sassanid city laid out on a Roman grid; mosaic floors with Hellenistic motifs found at the Shapur palace are unique in Iranian archaeology.", "tag":"MONUMENT", "note":"Extant (archaeological site). Grid plan confirmed by excavation: Ghirshman (1971–1978) Bishapur excavation reports. Roman mosaic floors: Ghirshman (1956). Inscription recording foundation: readable in situ." },
-        { "id":"a4",  "group":"Metalwork & Luxury Arts","label":"Sassanid royal silver — the hunting plate tradition",  "date":"c.224–484",   "loc":"Produced at court workshops; finds across Central Asia",  "coords":[33.0,51.0],   "hint":"Sassanid silver plates showing kings hunting lions are among the finest metalwork of late antiquity — the royal portrait on each plate is the same as the coin of that king, allowing precise dating of the entire corpus.",  "tag":"OBJECT",   "note":"Corpus: Harper (1978), Silver Vessels of the Sasanian Period. Gunter & Jett (1992). Coin-portrait identification: SNS (Sylloge Nummorum Sasanidarum). Major holdings: Hermitage, Metropolitan Museum, British Museum, Bibliothèque nationale. Dating methodology: Harper (1978)." },
-        { "id":"a5",  "group":"Sculpture & Relief",     "label":"Kartir portrait inscription at Sar Mashhad",          "date":"c.274–293",    "loc":"Sar Mashhad, Fars province (extant)",                     "coords":[28.35,55.06], "hint":"The largest Kartir inscription — unique in Sassanid art as the only non-royal rock inscription; Kartir's 5m × 3m bust faces outward as he points at his own text, in a gesture of personal authority unprecedented in Iranian epigraphy.", "tag":"MONUMENT", "note":"Extant. KSM inscription. Skjærvø (2011). The pointing-finger motif: Herrmann (1989) interprets as claiming the viewer's attention. The inscription includes a soul journey/vision narrative with no parallel in Sassanid sources." }
+        {
+          "id": "a1",
+          "group": "Sculpture & Relief",
+          "label": "Ardashir I investiture relief, Naqsh-e Rajab",
+          "date": "c.226–240",
+          "loc": "Naqsh-e Rajab, Fars province (extant)",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "The founding image of the Sassanid dynasty: Ardashir and Ahura Mazda face each other on horseback as equals, the god handing the king the ring of sovereignty — establishing the visual theology of Sassanid royal legitimacy.",
+          "tag": "MONUMENT",
+          "note": "Extant. Trilingual inscription on Ardashir's horse: Back (1978). Relief dimensions 6.65m × 2.40m. Carved c.226–240. Herrmann (1989), The Sassanian Rock Reliefs at Naqsh-i Rustam."
+        },
+        {
+          "id": "a2",
+          "group": "Sculpture & Relief",
+          "label": "Shapur I's victory relief — Valerian captured",
+          "date": "c.260–270",
+          "loc": "Naqsh-e Rostam, Fars province (extant)",
+          "coords": [
+            29.94,
+            52.87
+          ],
+          "hint": "The most politically charged image in ancient Iranian art: Shapur on horseback holds the wrist of the captured emperor Valerian; Philip the Arab kneels in submission; Gordian III lies dead under the horse's hooves.",
+          "tag": "MONUMENT",
+          "note": "Extant. 11m × 5m. Naqsh-e Rostam. Three emperors identified: MacDermot (1954) refuted earlier misidentifications, now standard. Herrmann (1989). Also at Bishapur (second version, extant)."
+        },
+        {
+          "id": "a3",
+          "group": "Architecture",
+          "label": "City of Bishapur — Roman grid plan",
+          "date": "c.266",
+          "loc": "Bishapur, Fars province (extant, excavated)",
+          "coords": [
+            29.78,
+            51.58
+          ],
+          "hint": "Shapur I founds Bishapur using Roman prisoner architects and engineers — the only Sassanid city laid out on a Roman grid; mosaic floors with Hellenistic motifs found at the Shapur palace are unique in Iranian archaeology.",
+          "tag": "MONUMENT",
+          "note": "Extant (archaeological site). Grid plan confirmed by excavation: Ghirshman (1971–1978) Bishapur excavation reports. Roman mosaic floors: Ghirshman (1956). Inscription recording foundation: readable in situ."
+        },
+        {
+          "id": "a4",
+          "group": "Metalwork & Luxury Arts",
+          "label": "Sassanid royal silver — the hunting plate tradition",
+          "date": "c.224–484",
+          "loc": "Produced at court workshops; finds across Central Asia",
+          "coords": [
+            33.0,
+            51.0
+          ],
+          "hint": "Sassanid silver plates showing kings hunting lions are among the finest metalwork of late antiquity — the royal portrait on each plate is the same as the coin of that king, allowing precise dating of the entire corpus.",
+          "tag": "OBJECT",
+          "note": "Corpus: Harper (1978), Silver Vessels of the Sasanian Period. Gunter & Jett (1992). Coin-portrait identification: SNS (Sylloge Nummorum Sasanidarum). Major holdings: Hermitage, Metropolitan Museum, British Museum, Bibliothèque nationale. Dating methodology: Harper (1978)."
+        },
+        {
+          "id": "a5",
+          "group": "Sculpture & Relief",
+          "label": "Kartir portrait inscription at Sar Mashhad",
+          "date": "c.274–293",
+          "loc": "Sar Mashhad, Fars province (extant)",
+          "coords": [
+            28.35,
+            55.06
+          ],
+          "hint": "The largest Kartir inscription — unique in Sassanid art as the only non-royal rock inscription; Kartir's 5m × 3m bust faces outward as he points at his own text, in a gesture of personal authority unprecedented in Iranian epigraphy.",
+          "tag": "MONUMENT",
+          "note": "Extant. KSM inscription. Skjærvø (2011). The pointing-finger motif: Herrmann (1989) interprets as claiming the viewer's attention. The inscription includes a soul journey/vision narrative with no parallel in Sassanid sources."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "Sources, scholarship and intellectual traditions",
       "entries": [
-        { "id":"t1",  "group":"History & Chronicle",   "label":"Res Gestae Divi Saporis (ŠKZ) — Shapur's own annals","date":"c.260–270",    "loc":"Ka'ba-ye Zardosht, Naqsh-e Rostam (extant)",             "coords":[29.94,52.87], "hint":"Shapur I's trilingual inscription records his wars against three Roman emperors in his own words — the most important primary document in Sassanid history and unique as a non-Roman account of Roman defeat.", "tag":"DOCUMENT",  "note":"Extant: Middle Persian (Parsik), Parthian (Pahlawik), Greek — three panels on Ka'ba-ye Zardosht. Back (1978), Die sassanidischen Staatsinschriften, pp.284–371. Sprengling (1953) earlier edition. The Greek text confirmed the identification of the three emperors." },
-        { "id":"t2",  "group":"Theology",             "label":"Avestan texts — compilation of Zoroastrian scripture", "date":"c.3rd–4th c. (oral tradition much older)", "loc":"Ctesiphon; Fars (temple centres)", "coords":[33.0,51.0], "hint":"The Sassanids commission the first systematic written compilation of the Avesta — the Gathas, Yasna, Videvdad and other texts previously transmitted orally by priests; the Denkard records the royal role in this canonisation.", "tag":"TEXT",      "note":"Denkard (9th c.) records Sassanid compilation history. Surviving Avesta: multiple manuscripts, oldest complete MS c.13th–14th c. Boyce (1968), The Transmission of the Avesta. The Sassanid recension is the basis for all modern Avestan texts." },
-        { "id":"t3",  "group":"Science & Geography",  "label":"Gundeshapur — foundation of the first hospital",      "date":"c.260–500",    "loc":"Gundeshapur (mod. Shahabad, Khuzestan province, Iran)",   "coords":[32.3,48.5],   "hint":"Shapur I founds Gundeshapur with Roman and Syrian prisoner scholars; it develops into the most important medical centre of the ancient world — a teaching hospital combining Greek, Indian and Iranian medical traditions.", "tag":"CONSTRUCTION","note":"Foundation by Shapur I with prisoner scholars: multiple later sources. The Academy of Gundeshapur: documented in Islamic-era sources (Ibn al-Qifti, Tarikh al-Hukama). The hospital's Sassanid-era existence confirmed in Syriac sources. Daryaee (2009), Sasanian Iran." },
-        { "id":"t4",  "group":"Political Theory",     "label":"Khwaday-Namag — the Sassanid royal book of kings",    "date":"compiled c.3rd–6th c.", "loc":"Ctesiphon (court)",                           "coords":[33.09,44.58], "hint":"The official Sassanid royal chronicle — the 'Book of Lords' — compiled at court over centuries; it does not survive directly but is the source used by Tabari, Ferdowsi and most later Persian historical tradition.", "tag":"TEXT",      "note":"Lost in original; Arabic translation by Ibn al-Muqaffa (8th c.) also lost. Reconstructed from: Tabari's Annals, Ferdowsi's Shahnameh, Tha'alibi's Ghurar. Nöldeke (1879) remains the foundational study. The Khwaday-Namag is the missing link in Iranian historiography." }
+        {
+          "id": "t1",
+          "group": "History & Chronicle",
+          "label": "Res Gestae Divi Saporis (ŠKZ) — Shapur's own annals",
+          "date": "c.260–270",
+          "loc": "Ka'ba-ye Zardosht, Naqsh-e Rostam (extant)",
+          "coords": [
+            29.94,
+            52.87
+          ],
+          "hint": "Shapur I's trilingual inscription records his wars against three Roman emperors in his own words — the most important primary document in Sassanid history and unique as a non-Roman account of Roman defeat.",
+          "tag": "DOCUMENT",
+          "note": "Extant: Middle Persian (Parsik), Parthian (Pahlawik), Greek — three panels on Ka'ba-ye Zardosht. Back (1978), Die sassanidischen Staatsinschriften, pp.284–371. Sprengling (1953) earlier edition. The Greek text confirmed the identification of the three emperors."
+        },
+        {
+          "id": "t2",
+          "group": "Theology",
+          "label": "Avestan texts — compilation of Zoroastrian scripture",
+          "date": "c.3rd–4th c. (oral tradition much older)",
+          "loc": "Ctesiphon; Fars (temple centres)",
+          "coords": [
+            33.0,
+            51.0
+          ],
+          "hint": "The Sassanids commission the first systematic written compilation of the Avesta — the Gathas, Yasna, Videvdad and other texts previously transmitted orally by priests; the Denkard records the royal role in this canonisation.",
+          "tag": "TEXT",
+          "note": "Denkard (9th c.) records Sassanid compilation history. Surviving Avesta: multiple manuscripts, oldest complete MS c.13th–14th c. Boyce (1968), The Transmission of the Avesta. The Sassanid recension is the basis for all modern Avestan texts."
+        },
+        {
+          "id": "t3",
+          "group": "Science & Geography",
+          "label": "Gundeshapur — foundation of the first hospital",
+          "date": "c.260–500",
+          "loc": "Gundeshapur (mod. Shahabad, Khuzestan province, Iran)",
+          "coords": [
+            32.3,
+            48.5
+          ],
+          "hint": "Shapur I founds Gundeshapur with Roman and Syrian prisoner scholars; it develops into the most important medical centre of the ancient world — a teaching hospital combining Greek, Indian and Iranian medical traditions.",
+          "tag": "CONSTRUCTION",
+          "note": "Foundation by Shapur I with prisoner scholars: multiple later sources. The Academy of Gundeshapur: documented in Islamic-era sources (Ibn al-Qifti, Tarikh al-Hukama). The hospital's Sassanid-era existence confirmed in Syriac sources. Daryaee (2009), Sasanian Iran."
+        },
+        {
+          "id": "t4",
+          "group": "Political Theory",
+          "label": "Khwaday-Namag — the Sassanid royal book of kings",
+          "date": "compiled c.3rd–6th c.",
+          "loc": "Ctesiphon (court)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The official Sassanid royal chronicle — the 'Book of Lords' — compiled at court over centuries; it does not survive directly but is the source used by Tabari, Ferdowsi and most later Persian historical tradition.",
+          "tag": "TEXT",
+          "note": "Lost in original; Arabic translation by Ibn al-Muqaffa (8th c.) also lost. Reconstructed from: Tabari's Annals, Ferdowsi's Shahnameh, Tha'alibi's Ghurar. Nöldeke (1879) remains the foundational study. The Khwaday-Namag is the missing link in Iranian historiography."
+        }
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Economy, agriculture & the Mesopotamian heartland",
       "entries": [
-        { "id":"s1",  "group":"Agriculture & Land",   "label":"Sassanid irrigation works in Mesopotamia",           "date":"c.224–484",    "loc":"Tigris-Euphrates plain (Iraq/Khuzestan)",                  "coords":[32.0,47.0],   "hint":"The Sassanids inherit and massively expand the Mesopotamian irrigation network — the most productive agricultural landscape in the ancient world; their canal engineering is documented archaeologically and in papyri.", "tag":"CONSTRUCTION", "note":"Archaeological survey: Adams (1965), Land Behind Baghdad; Adams (1981), Heartland of Cities. Identifies Sassanid-era canal expansion. The productivity of Mesopotamian agriculture under Sassanids: attested in Talmudic sources and later Islamic geographical texts." },
-        { "id":"s2",  "group":"Trade & Commerce",    "label":"Silk Road trade — Sassanids as intermediaries",       "date":"c.224–484",    "loc":"Ctesiphon; Merv; Nishapur; routes to China",              "coords":[37.6,61.8],   "hint":"The Sassanids control the overland Silk Road between China and the Mediterranean — Sassanid silk, silver and luxury goods are found from Britain to China; they actively blocked direct Byzantine-Chinese contact.", "tag":"ECONOMIC",     "note":"Sassanid coins found in China: confirmed in Chinese archaeological reports (coin hoards, tombs). Procopius Wars 1.20 documents Sassanid monopoly on silk. Byzantine attempts to circumvent: Procopius Wars 8.17 (Justinian's silk diplomacy). Bi Sheng hoard, Xinjiang." },
-        { "id":"s3",  "group":"Fiscal & Monetary",   "label":"Sassanid coinage — the drachm standard",              "date":"c.224–484",    "loc":"Multiple mints across the empire",                        "coords":[33.0,51.0],   "hint":"The Sassanid silver drachm is one of the most consistent monetary systems of late antiquity — 32 rulers documented numismatically; from the mid-5th century, dies were centrally produced and distributed to provincial mints.", "tag":"ECONOMIC",     "note":"Sylloge Nummorum Sasanidarum (SNS), 3 vols — the definitive corpus. Central die production from mid-5th c.: Schindel (2004). The drachm's stability contrasts with Roman silver debasement in the same period. Encyclopaedia Iranica: Sasanian Coinage (Schindel)." }
+        {
+          "id": "s1",
+          "group": "Agriculture & Land",
+          "label": "Sassanid irrigation works in Mesopotamia",
+          "date": "c.224–484",
+          "loc": "Tigris-Euphrates plain (Iraq/Khuzestan)",
+          "coords": [
+            32.0,
+            47.0
+          ],
+          "hint": "The Sassanids inherit and massively expand the Mesopotamian irrigation network — the most productive agricultural landscape in the ancient world; their canal engineering is documented archaeologically and in papyri.",
+          "tag": "CONSTRUCTION",
+          "note": "Archaeological survey: Adams (1965), Land Behind Baghdad; Adams (1981), Heartland of Cities. Identifies Sassanid-era canal expansion. The productivity of Mesopotamian agriculture under Sassanids: attested in Talmudic sources and later Islamic geographical texts."
+        },
+        {
+          "id": "s2",
+          "group": "Trade & Commerce",
+          "label": "Silk Road trade — Sassanids as intermediaries",
+          "date": "c.224–484",
+          "loc": "Ctesiphon; Merv; Nishapur; routes to China",
+          "coords": [
+            37.6,
+            61.8
+          ],
+          "hint": "The Sassanids control the overland Silk Road between China and the Mediterranean — Sassanid silk, silver and luxury goods are found from Britain to China; they actively blocked direct Byzantine-Chinese contact.",
+          "tag": "ECONOMIC",
+          "note": "Sassanid coins found in China: confirmed in Chinese archaeological reports (coin hoards, tombs). Procopius Wars 1.20 documents Sassanid monopoly on silk. Byzantine attempts to circumvent: Procopius Wars 8.17 (Justinian's silk diplomacy). Bi Sheng hoard, Xinjiang."
+        },
+        {
+          "id": "s3",
+          "group": "Fiscal & Monetary",
+          "label": "Sassanid coinage — the drachm standard",
+          "date": "c.224–484",
+          "loc": "Multiple mints across the empire",
+          "coords": [
+            33.0,
+            51.0
+          ],
+          "hint": "The Sassanid silver drachm is one of the most consistent monetary systems of late antiquity — 32 rulers documented numismatically; from the mid-5th century, dies were centrally produced and distributed to provincial mints.",
+          "tag": "ECONOMIC",
+          "note": "Sylloge Nummorum Sasanidarum (SNS), 3 vols — the definitive corpus. Central die production from mid-5th c.: Schindel (2004). The drachm's stability contrasts with Roman silver debasement in the same period. Encyclopaedia Iranica: Sasanian Coinage (Schindel)."
+        }
       ]
     },
     {
-      "id": "technology", "label": "Technology", "icon": "⚙️",
-      "color": "#1A3A2A", "accent": "#2E7D52", "bg": "#F0FFF8",
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#1A3A2A",
+      "accent": "#2E7D52",
+      "bg": "#F0FFF8",
       "subtitle": "Engineering, water management & military innovation",
       "entries": [
-        { "id":"te1", "group":"Civil Engineering",           "label":"Band-e Kaisar — dam and bridge built by prisoners", "date":"c.260–270",  "loc":"Shushtar, Khuzestan province, Iran (extant, UNESCO)",     "coords":[32.04,48.86], "hint":"Shapur I uses captured Roman engineers and prisoners to build a combined dam and bridge at Shushtar — still partially standing, it diverts the Karun river and irrigates the surrounding plain; the Roman engineering is evident in its construction.", "tag":"CONSTRUCTION", "note":"Extant (UNESCO World Heritage Site, 2009). Known as Band-e Kaisar ('Caesar's Dam') — the name preserves the tradition of Roman construction. Procopius Wars 2.14.1 mentions Roman prisoner engineers. Hydraulic engineering survey: Habibi (1974)." },
-        { "id":"te2", "group":"Military Engineering",        "label":"Sassanid siege technology — learned from Rome",    "date":"c.224–484",  "loc":"Nisibis (x3); Amida; other sieges",                       "coords":[37.07,41.22], "hint":"The Sassanids rapidly adopt and improve Roman siege technology after early failures — by Shapur II's reign they are conducting sophisticated sieges with artillery, mining and circumvallation that rival anything Rome deploys.", "tag":"MILITARY DECREE","note":"Ammianus Marcellinus 18.9–19.2 (siege of Amida 359 — detailed eyewitness account). Three sieges of Nisibis: Ephrem the Syrian's Carmina Nisibena (Syriac poems, eyewitness). The evolution of Sassanid siege technology: Greatrex & Lieu (2002), The Roman Eastern Frontier." },
-        { "id":"te3", "group":"Agriculture & Industry",     "label":"Shapur I's city foundations — urban planning",     "date":"c.260–270",  "loc":"Bishapur; Gundeshapur; Nishapour (Shapur's foundations)", "coords":[29.78,51.58], "hint":"Shapur I founds or refounds at least four major cities — Bishapur (Roman grid), Gundeshapur (medical centre), Nishapour and Shapur-Khwast — representing the most systematic Sassanid urban investment of the 3rd century.", "tag":"CONSTRUCTION", "note":"Bishapur: excavated (Ghirshman 1971–78). Gundeshapur: documented in Syriac and Islamic sources. ŠKZ mentions cities founded with Roman captives. Daryaee (2009), Sasanian Iran, pp.75–82 surveys all foundations." }
+        {
+          "id": "te1",
+          "group": "Civil Engineering",
+          "label": "Band-e Kaisar — dam and bridge built by prisoners",
+          "date": "c.260–270",
+          "loc": "Shushtar, Khuzestan province, Iran (extant, UNESCO)",
+          "coords": [
+            32.04,
+            48.86
+          ],
+          "hint": "Shapur I uses captured Roman engineers and prisoners to build a combined dam and bridge at Shushtar — still partially standing, it diverts the Karun river and irrigates the surrounding plain; the Roman engineering is evident in its construction.",
+          "tag": "CONSTRUCTION",
+          "note": "Extant (UNESCO World Heritage Site, 2009). Known as Band-e Kaisar ('Caesar's Dam') — the name preserves the tradition of Roman construction. Procopius Wars 2.14.1 mentions Roman prisoner engineers. Hydraulic engineering survey: Habibi (1974)."
+        },
+        {
+          "id": "te2",
+          "group": "Military Engineering",
+          "label": "Sassanid siege technology — learned from Rome",
+          "date": "c.224–484",
+          "loc": "Nisibis (x3); Amida; other sieges",
+          "coords": [
+            37.07,
+            41.22
+          ],
+          "hint": "The Sassanids rapidly adopt and improve Roman siege technology after early failures — by Shapur II's reign they are conducting sophisticated sieges with artillery, mining and circumvallation that rival anything Rome deploys.",
+          "tag": "MILITARY DECREE",
+          "note": "Ammianus Marcellinus 18.9–19.2 (siege of Amida 359 — detailed eyewitness account). Three sieges of Nisibis: Ephrem the Syrian's Carmina Nisibena (Syriac poems, eyewitness). The evolution of Sassanid siege technology: Greatrex & Lieu (2002), The Roman Eastern Frontier."
+        },
+        {
+          "id": "te3",
+          "group": "Agriculture & Industry",
+          "label": "Shapur I's city foundations — urban planning",
+          "date": "c.260–270",
+          "loc": "Bishapur; Gundeshapur; Nishapour (Shapur's foundations)",
+          "coords": [
+            29.78,
+            51.58
+          ],
+          "hint": "Shapur I founds or refounds at least four major cities — Bishapur (Roman grid), Gundeshapur (medical centre), Nishapour and Shapur-Khwast — representing the most systematic Sassanid urban investment of the 3rd century.",
+          "tag": "CONSTRUCTION",
+          "note": "Bishapur: excavated (Ghirshman 1971–78). Gundeshapur: documented in Syriac and Islamic sources. ŠKZ mentions cities founded with Roman captives. Daryaee (2009), Sasanian Iran, pp.75–82 surveys all foundations."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "The Sassanids in their Eurasian context",
       "entries": [
-        { "id":"w1",  "group":"Geopolitical Shift",  "label":"Sassanid Empire replaces Parthia",                    "date":"224",            "loc":"Iran (entire Parthian territory)",                        "coords":[33.0,53.0],   "hint":"The Sassanid revolution is not just a dynasty change but an ideological shift — the new rulers claim descent from Achaemenid Persia, adopt Zoroastrianism as state religion, and present themselves as restorers of a pure Iranian empire against the 'Romanised' Parthians.", "tag":"EVENT",     "note":"Sassanid claim to Achaemenid descent: ŠKZ and rock relief programme at Naqsh-e Rostam deliberately sited below Achaemenid royal tombs — a visual statement of continuity. Wiesehöfer (1996), Ancient Persia. The ideological break with Parthia: Pourshariati (2008)." },
-        { "id":"w2",  "group":"Geopolitical Shift",  "label":"Rise of the Hephthalites in the east",               "date":"c.450–484",      "loc":"Bactria / Sogdia (mod. Afghanistan/Uzbekistan)",          "coords":[36.5,65.0],   "hint":"The Hephthalites ('White Huns') emerge as the dominant power east of Persia in the mid-5th century — their defeat of Peroz I in 484 ends Module 1 and forces the Sassanids into a subordinate relationship that shapes the entire 5th–6th century.", "tag":"MIGRATION", "note":"Procopius Wars 1.3–4 (most detailed account). Priscus fragments (5th c. Greek diplomat). The Hephthalites' origins: debated — steppe nomads, not related to European Huns. Encyclopaedia Iranica: Hephthalites (Bivar). Coin evidence for Hephthalite territory." },
-        { "id":"w3",  "group":"Trade & Commerce",    "label":"Sassanid-Chinese diplomatic and trade relations",     "date":"c.455–555",      "loc":"Ctesiphon to Chang'an (Silk Road)",                       "coords":[34.0,108.0],  "hint":"Sixteen Sassanid embassies to China are documented in Chinese records between 455 and 555; Sassanid musicians and dancers perform at the Chinese imperial court; Sassanid coins are found in southern China confirming maritime trade.", "tag":"EVENT",     "note":"Chinese sources: Wei Shu, Sui Shu — both record Sassanid embassies with dates. 16 embassies 455–555: confirmed in multiple Chinese dynastic histories. Sassanid coins in China: archaeological finds documented in Chinese reports. Compareti (2003), Sasanians in China." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Sassanid Empire replaces Parthia",
+          "date": "224",
+          "loc": "Iran (entire Parthian territory)",
+          "coords": [
+            33.0,
+            53.0
+          ],
+          "hint": "The Sassanid revolution is not just a dynasty change but an ideological shift — the new rulers claim descent from Achaemenid Persia, adopt Zoroastrianism as state religion, and present themselves as restorers of a pure Iranian empire against the 'Romanised' Parthians.",
+          "tag": "EVENT",
+          "note": "Sassanid claim to Achaemenid descent: ŠKZ and rock relief programme at Naqsh-e Rostam deliberately sited below Achaemenid royal tombs — a visual statement of continuity. Wiesehöfer (1996), Ancient Persia. The ideological break with Parthia: Pourshariati (2008)."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Rise of the Hephthalites in the east",
+          "date": "c.450–484",
+          "loc": "Bactria / Sogdia (mod. Afghanistan/Uzbekistan)",
+          "coords": [
+            36.5,
+            65.0
+          ],
+          "hint": "The Hephthalites ('White Huns') emerge as the dominant power east of Persia in the mid-5th century — their defeat of Peroz I in 484 ends Module 1 and forces the Sassanids into a subordinate relationship that shapes the entire 5th–6th century.",
+          "tag": "MIGRATION",
+          "note": "Procopius Wars 1.3–4 (most detailed account). Priscus fragments (5th c. Greek diplomat). The Hephthalites' origins: debated — steppe nomads, not related to European Huns. Encyclopaedia Iranica: Hephthalites (Bivar). Coin evidence for Hephthalite territory."
+        },
+        {
+          "id": "w3",
+          "group": "Trade & Commerce",
+          "label": "Sassanid-Chinese diplomatic and trade relations",
+          "date": "c.455–555",
+          "loc": "Ctesiphon to Chang'an (Silk Road)",
+          "coords": [
+            34.0,
+            108.0
+          ],
+          "hint": "Sixteen Sassanid embassies to China are documented in Chinese records between 455 and 555; Sassanid musicians and dancers perform at the Chinese imperial court; Sassanid coins are found in southern China confirming maritime trade.",
+          "tag": "EVENT",
+          "note": "Chinese sources: Wei Shu, Sui Shu — both record Sassanid embassies with dates. 16 embassies 455–555: confirmed in multiple Chinese dynastic histories. Sassanid coins in China: archaeological finds documented in Chinese reports. Compareti (2003), Sasanians in China."
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
+      "entries": [
+        {
+          "id": "lv1",
+          "group": "Gender & Legal Status",
+          "label": "Matigan i Hazar Dadestan — women's property and divorce rights",
+          "date": "compiled c.224–650 (core text: 3rd–5th c.)",
+          "loc": "Ctesiphon (court legal tradition)",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The Sassanid civil law code contains remarkably detailed provisions on women's property rights, divorce, guardianship and remarriage — in some respects more protective of women's financial interests than contemporary Roman law, reflecting Zoroastrian theological equality of souls.",
+          "tag": "EVIDENCE",
+          "note": "Matigan i Hazar Dadestan: Perikhanian (1973) critical edition and translation. The women's property provisions: Perikhanian (1983), 'Iranian Society and Law' in Cambridge History of Iran 3(2). The padixsay (autonomous woman) legal category: a woman who has reached legal majority and can act without a male guardian — unique in ancient law. Macuch (1993) on Sassanid family law."
+        },
+        {
+          "id": "lv2",
+          "group": "Same-Sex Practice & Law",
+          "label": "Vendidad — Zoroastrian classification of same-sex acts as druj",
+          "date": "c.3rd–4th c. CE (Sassanid recension)",
+          "loc": "Persia (priestly tradition)",
+          "coords": [
+            33.0,
+            53.0
+          ],
+          "hint": "The Vendidad (Zoroastrian purity code, in its Sassanid form) classifies certain same-sex acts as druj — cosmic pollution or 'lie' — not as moral sin in the Christian sense but as ritual impurity; a completely different categorical framework from contemporaneous Roman law.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Vendidad 8.32 (male same-sex acts classified as pollution). Foucault's point about different frameworks applies directly: the Zoroastrian category is cosmological-ritual, not moral-legal. Zaehner (1961), The Dawn and Twilight of Zoroastrianism. Skjaervø (2012) on the Vendidad's Sassanid recension. The contrast with Paul's Romans 1 framework (moral-desire) is a textbook Foucauldian categorical difference."
+        },
+        {
+          "id": "lv3",
+          "group": "Women's Agency",
+          "label": "Shahnameh tradition — Gordafarid and the warrior woman",
+          "date": "tradition rooted in Sassanid period; compiled c.1010",
+          "loc": "Persia (oral/court tradition)",
+          "coords": [
+            33.0,
+            51.0
+          ],
+          "hint": "The warrior women of the Shahnameh (Gordafarid, Tahmineh) are rooted in Sassanid court tradition — not direct evidence, but the persistence and detail of female martial agency in Persian epic suggests a cultural category with pre-Islamic roots.",
+          "tag": "EVIDENCE",
+          "note": "Ferdowsi's Shahnameh (c.1010) draws on the Khwaday-Namag (Sassanid royal chronicle). The warrior women episodes: Davis (2006), Shahnameh: The Persian Book of Kings. Scholarly debate on historicity: Pourshariati (2008) notes the Shahnameh preserves otherwise lost Sassanid aristocratic traditions. FLAG: this entry is literary tradition, not direct evidence — noted explicitly."
+        },
+        {
+          "id": "lv4",
+          "group": "Enslaved Lives",
+          "label": "Barda (enslaved persons) in Sassanid law",
+          "date": "c.224–484",
+          "loc": "Persia; Mesopotamia",
+          "coords": [
+            33.0,
+            48.0
+          ],
+          "hint": "The Matigan i Hazar Dadestan contains extensive provisions on enslaved persons (barda) — their sale, manumission, sexual use by owners, and testimony — documenting both the legal framework of Sassanid slavery and the moments where enslaved humanity breaks through the legal text.",
+          "tag": "EVIDENCE",
+          "note": "Matigan i Hazar Dadestan: Perikhanian (1973). The barda provisions: Macuch (1993), Rechtskasuistik und Gerichtspraxis. Sexual use of enslaved women by male owners: legally unrestricted. Manumission provisions: more detailed than Roman law. Dandamaev (1984), Slavery in Babylonia: provides comparative context for the Mesopotamian tradition the Sassanids inherited."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"foundation",    "icon":"⚜️","accent":"#A0400A","label":"Foundation (224–270)",      "events":[
-      {"y":224,"y2":242,"l":"Ardashir I",          "entryId":"k1"},
-      {"y":240,"y2":270,"l":"Shapur I",            "entryId":"k2"},
-      {"y":270,"y2":271,"l":"Hormizd I",           "entryId":"k3"}
-    ]},
-    {"id":"consolidation", "icon":"⚜️","accent":"#8B3A00","label":"Consolidation (271–309)",   "events":[
-      {"y":271,"y2":274,"l":"Bahram I",            "entryId":"k4"},
-      {"y":274,"y2":293,"l":"Bahram II",           "entryId":"k5"},
-      {"y":293,"y2":302,"l":"Narseh",              "entryId":"k6"},
-      {"y":302,"y2":309,"l":"Hormizd II",          "entryId":"k7"}
-    ]},
-    {"id":"imperial-peak", "icon":"⚜️","accent":"#6B2A00","label":"Imperial Peak (309–388)",   "events":[
-      {"y":309,"y2":379,"l":"Shapur II (70 yrs)",  "entryId":"k8"},
-      {"y":379,"y2":383,"l":"Ardashir II",         "entryId":"k9"},
-      {"y":383,"y2":388,"l":"Shapur III",          "entryId":"k10"}
-    ]},
-    {"id":"late-period",   "icon":"⚜️","accent":"#4A1A00","label":"Late Period (388–484)",      "events":[
-      {"y":388,"y2":399,"l":"Bahram IV",           "entryId":"k11"},
-      {"y":399,"y2":420,"l":"Yazdegerd I",         "entryId":"k12"},
-      {"y":420,"y2":438,"l":"Bahram V (Gur)",      "entryId":"k13"},
-      {"y":438,"y2":457,"l":"Yazdegerd II",        "entryId":"k14"},
-      {"y":457,"y2":459,"l":"Hormizd III",         "entryId":"k15"},
-      {"y":459,"y2":484,"l":"Peroz I",             "entryId":"k16"}
-    ]},
-    {"id":"conflict",      "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":224,"l":"Battle of Hormozdgan",         "entryId":"c1"},
-      {"y":244,"l":"Philip pays tribute",          "entryId":"c3"},
-      {"y":260,"l":"Valerian captured",            "entryId":"c2"},
-      {"y":337,"l":"Shapur II vs. Rome",           "entryId":"c4"},
-      {"y":363,"l":"Julian's invasion fails",      "entryId":"c5"},
-      {"y":387,"l":"Armenia partitioned",          "entryId":"c8"},
-      {"y":451,"l":"Battle of Avarayr",            "entryId":"c6"},
-      {"y":484,"l":"Peroz I vs. Hephthalites",     "entryId":"c7"}
-    ]},
-    {"id":"order",         "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":224,"l":"Ctesiphon as capital",         "entryId":"o1"},
-      {"y":266,"l":"Bishapur founded",             "entryId":"o4"},
-      {"y":293,"l":"Kartir state church",          "entryId":"o2"},
-      {"y":410,"l":"Synod of Isaac",               "entryId":"r5"}
-    ]},
-    {"id":"belief",        "icon":"🙏","accent":"#1E8449","events":[
-      {"y":260,"l":"Kartir's inscriptions",        "entryId":"r1"},
-      {"y":274,"l":"Mani executed",                "entryId":"r2"},
-      {"y":339,"l":"Christian persecution",        "entryId":"r3"},
-      {"y":350,"l":"Avesta canonised",             "entryId":"r4"},
-      {"y":410,"l":"Church of the East synod",     "entryId":"r5"}
-    ]},
-    {"id":"expression",    "icon":"✨","accent":"#8D6E63","events":[
-      {"y":226,"l":"Ardashir investiture relief",  "entryId":"a1"},
-      {"y":260,"l":"Valerian victory relief",      "entryId":"a2"},
-      {"y":266,"l":"Bishapur city",                "entryId":"a3"},
-      {"y":280,"l":"Kartir at Sar Mashhad",        "entryId":"a5"}
-    ]},
-    {"id":"thought",       "icon":"💡","accent":"#566573","events":[
-      {"y":260,"l":"ŠKZ — Shapur's annals",        "entryId":"t1"},
-      {"y":260,"l":"Gundeshapur hospital",         "entryId":"t3"},
-      {"y":350,"l":"Avesta compiled",              "entryId":"t2"}
-    ]},
-    {"id":"subsistence",   "icon":"🌾","accent":"#8B5E00","events":[
-      {"y":260,"l":"Band-e Kaisar dam",            "entryId":"te1"},
-      {"y":260,"l":"Silk Road intermediary",       "entryId":"s2"},
-      {"y":224,"l":"Mesopotamian irrigation",      "entryId":"s1"}
-    ]},
-    {"id":"world",         "icon":"🌍","accent":"#2471A3","events":[
-      {"y":224,"l":"Sassanid replaces Parthia",    "entryId":"w1"},
-      {"y":455,"l":"Hephthalites rise",            "entryId":"w2"},
-      {"y":455,"l":"Sassanid embassies to China",  "entryId":"w3"},
-      {"y":484,"l":"Hephthalite catastrophe",      "entryId":"c7"}
-    ]}
+    {
+      "id": "foundation",
+      "icon": "⚜️",
+      "accent": "#A0400A",
+      "label": "Foundation (224–270)",
+      "events": [
+        {
+          "y": 224,
+          "y2": 242,
+          "l": "Ardashir I",
+          "entryId": "k1"
+        },
+        {
+          "y": 240,
+          "y2": 270,
+          "l": "Shapur I",
+          "entryId": "k2"
+        },
+        {
+          "y": 270,
+          "y2": 271,
+          "l": "Hormizd I",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "consolidation",
+      "icon": "⚜️",
+      "accent": "#8B3A00",
+      "label": "Consolidation (271–309)",
+      "events": [
+        {
+          "y": 271,
+          "y2": 274,
+          "l": "Bahram I",
+          "entryId": "k4"
+        },
+        {
+          "y": 274,
+          "y2": 293,
+          "l": "Bahram II",
+          "entryId": "k5"
+        },
+        {
+          "y": 293,
+          "y2": 302,
+          "l": "Narseh",
+          "entryId": "k6"
+        },
+        {
+          "y": 302,
+          "y2": 309,
+          "l": "Hormizd II",
+          "entryId": "k7"
+        }
+      ]
+    },
+    {
+      "id": "imperial-peak",
+      "icon": "⚜️",
+      "accent": "#6B2A00",
+      "label": "Imperial Peak (309–388)",
+      "events": [
+        {
+          "y": 309,
+          "y2": 379,
+          "l": "Shapur II (70 yrs)",
+          "entryId": "k8"
+        },
+        {
+          "y": 379,
+          "y2": 383,
+          "l": "Ardashir II",
+          "entryId": "k9"
+        },
+        {
+          "y": 383,
+          "y2": 388,
+          "l": "Shapur III",
+          "entryId": "k10"
+        }
+      ]
+    },
+    {
+      "id": "late-period",
+      "icon": "⚜️",
+      "accent": "#4A1A00",
+      "label": "Late Period (388–484)",
+      "events": [
+        {
+          "y": 388,
+          "y2": 399,
+          "l": "Bahram IV",
+          "entryId": "k11"
+        },
+        {
+          "y": 399,
+          "y2": 420,
+          "l": "Yazdegerd I",
+          "entryId": "k12"
+        },
+        {
+          "y": 420,
+          "y2": 438,
+          "l": "Bahram V (Gur)",
+          "entryId": "k13"
+        },
+        {
+          "y": 438,
+          "y2": 457,
+          "l": "Yazdegerd II",
+          "entryId": "k14"
+        },
+        {
+          "y": 457,
+          "y2": 459,
+          "l": "Hormizd III",
+          "entryId": "k15"
+        },
+        {
+          "y": 459,
+          "y2": 484,
+          "l": "Peroz I",
+          "entryId": "k16"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 224,
+          "l": "Battle of Hormozdgan",
+          "entryId": "c1"
+        },
+        {
+          "y": 244,
+          "l": "Philip pays tribute",
+          "entryId": "c3"
+        },
+        {
+          "y": 260,
+          "l": "Valerian captured",
+          "entryId": "c2"
+        },
+        {
+          "y": 337,
+          "l": "Shapur II vs. Rome",
+          "entryId": "c4"
+        },
+        {
+          "y": 363,
+          "l": "Julian's invasion fails",
+          "entryId": "c5"
+        },
+        {
+          "y": 387,
+          "l": "Armenia partitioned",
+          "entryId": "c8"
+        },
+        {
+          "y": 451,
+          "l": "Battle of Avarayr",
+          "entryId": "c6"
+        },
+        {
+          "y": 484,
+          "l": "Peroz I vs. Hephthalites",
+          "entryId": "c7"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 224,
+          "l": "Ctesiphon as capital",
+          "entryId": "o1"
+        },
+        {
+          "y": 266,
+          "l": "Bishapur founded",
+          "entryId": "o4"
+        },
+        {
+          "y": 293,
+          "l": "Kartir state church",
+          "entryId": "o2"
+        },
+        {
+          "y": 410,
+          "l": "Synod of Isaac",
+          "entryId": "r5"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 260,
+          "l": "Kartir's inscriptions",
+          "entryId": "r1"
+        },
+        {
+          "y": 274,
+          "l": "Mani executed",
+          "entryId": "r2"
+        },
+        {
+          "y": 339,
+          "l": "Christian persecution",
+          "entryId": "r3"
+        },
+        {
+          "y": 350,
+          "l": "Avesta canonised",
+          "entryId": "r4"
+        },
+        {
+          "y": 410,
+          "l": "Church of the East synod",
+          "entryId": "r5"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 226,
+          "l": "Ardashir investiture relief",
+          "entryId": "a1"
+        },
+        {
+          "y": 260,
+          "l": "Valerian victory relief",
+          "entryId": "a2"
+        },
+        {
+          "y": 266,
+          "l": "Bishapur city",
+          "entryId": "a3"
+        },
+        {
+          "y": 280,
+          "l": "Kartir at Sar Mashhad",
+          "entryId": "a5"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 260,
+          "l": "ŠKZ — Shapur's annals",
+          "entryId": "t1"
+        },
+        {
+          "y": 260,
+          "l": "Gundeshapur hospital",
+          "entryId": "t3"
+        },
+        {
+          "y": 350,
+          "l": "Avesta compiled",
+          "entryId": "t2"
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "icon": "🌾",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 260,
+          "l": "Band-e Kaisar dam",
+          "entryId": "te1"
+        },
+        {
+          "y": 260,
+          "l": "Silk Road intermediary",
+          "entryId": "s2"
+        },
+        {
+          "y": 224,
+          "l": "Mesopotamian irrigation",
+          "entryId": "s1"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 224,
+          "l": "Sassanid replaces Parthia",
+          "entryId": "w1"
+        },
+        {
+          "y": 455,
+          "l": "Hephthalites rise",
+          "entryId": "w2"
+        },
+        {
+          "y": 455,
+          "l": "Sassanid embassies to China",
+          "entryId": "w3"
+        },
+        {
+          "y": 484,
+          "l": "Hephthalite catastrophe",
+          "entryId": "c7"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 224,
+          "l": "Barda (enslaved) in Sassanid law",
+          "entryId": "lv4"
+        },
+        {
+          "y": 250,
+          "l": "Matigan — women's property rights",
+          "entryId": "lv1"
+        },
+        {
+          "y": 300,
+          "l": "Vendidad — druj vs. Roman sin framework",
+          "entryId": "lv2"
+        }
+      ]
+    }
   ]
 }
