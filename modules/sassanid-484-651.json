@@ -2,10 +2,7 @@
   "id": "sassanid-484-651",
   "title": "Sassanid Empire",
   "subtitle": "484–651 AD · Renewal, Apogee and Collapse",
-  "period": {
-    "start": 484,
-    "end": 651
-  },
+  "period": "Late Antique",
   "mapCenter": [
     34,
     50
@@ -512,7 +509,7 @@
         },
         {
           "id": "a4",
-          "group": "Literature & Poetry",
+          "group": "Music & Performance",
           "label": "Barbad — court musician of Khosrow II",
           "date": "c.590–628",
           "loc": "Ctesiphon court",
@@ -537,6 +534,20 @@
           "hint": "The largest single-span brick vault in the world at 25.4m — the throne room of Khosrow I or his successors; it survived the Arab conquest, still stands today, and was the model for Islamic iwans for centuries.",
           "tag": "MONUMENT",
           "note": "Partial extant. Construction attributed to Khosrow I: Tabari I.962 (mentions 'White Palace'). Reuther (1929) architectural analysis. The arch's span of 25.4m was not surpassed in brick until the 19th century. UNESCO World Heritage tentative list."
+        },
+        {
+          "id": "a6",
+          "group": "Music & Performance",
+          "label": "Persian musicians sent to the Chinese imperial court",
+          "date": "c.568–616",
+          "loc": "Ctesiphon → Chang'an (Tang capital)",
+          "coords": [
+            34.0,
+            108.9
+          ],
+          "hint": "Sassanid kings send musicians and dancers as diplomatic gifts to the Chinese court — Chinese sources record Persian performers at the Sui and early Tang courts; the exchange transmits Persian musical modes and instruments (including the barbat/pipa) eastward along the Silk Road.",
+          "tag": "DOCUMENT",
+          "note": "Chinese sources: Sui Shu (Book of Sui, 636 CE), Yue Zhi (music treatises) — record Persian musicians at court. The 'Western Regions music' (Xiyue) genre at Tang court includes Persian elements: Picken (1955), The Music of Far Eastern Asia, New Oxford History of Music. The barbat/pipa transmission: Encyclopaedia Iranica (Lawergren). The exchange of musicians as diplomacy: confirmed in multiple Chinese dynastic histories alongside the 16 Sassanid embassies."
         }
       ]
     },
@@ -1120,6 +1131,11 @@
           "y": 610,
           "l": "Spring of Khosrow carpet",
           "entryId": "a2"
+        },
+        {
+          "y": 580,
+          "l": "Persian musicians to Chinese court",
+          "entryId": "a6"
         }
       ]
     },
@@ -1275,5 +1291,6 @@
         }
       ]
     }
-  ]
+  ],
+  "region": "Near East"
 }
