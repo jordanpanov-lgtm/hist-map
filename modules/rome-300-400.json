@@ -897,6 +897,73 @@
       ]
     },
     {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🔀",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
+      "subtitle": "Diplomacy, trade routes, cultural transmission & the movement of peoples, goods and ideas",
+      "entries": [
+        {
+          "id": "ex1",
+          "group": "Diplomatic Exchange",
+          "label": "Constantine's diplomatic correspondence with Shapur II",
+          "date": "c.324–337",
+          "loc": "Constantinople / Ctesiphon",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "Constantine writes to Shapur II presenting himself as protector of Christians in Persia — the first recorded use of religious minority status as a diplomatic instrument; Eusebius preserves the letter, which Shapur II likely read as an interference claim.",
+          "tag": "DOCUMENT",
+          "note": "Eusebius, Vita Constantini 4.9–13: preserves Constantine's letter to Shapur II in full. The letter's strategic implications: Barnes (1985), Constantine and Eusebius. The Sassanid reaction — intensified Christian persecution under Shapur II — is the documented consequence. A rare case where diplomatic correspondence survives with its response legible in historical events."
+        },
+        {
+          "id": "ex2",
+          "group": "Silk Road & Trade Routes",
+          "label": "Silk Road disruption and the search for alternatives",
+          "date": "c.350–400",
+          "loc": "Nisibis (ceded 363); Red Sea; Caucasus routes",
+          "coords": [
+            37.07,
+            41.22
+          ],
+          "hint": "The cession of Nisibis in 363 — the principal Silk Road hub — forces Rome to reroute eastern trade through the Caucasus and Red Sea; the economic geography of Eurasian trade is visibly restructured by a single military defeat.",
+          "tag": "ECONOMIC",
+          "note": "Nisibis as trade hub: Lieu (1986), Nisibis as a Centre of the Translation Movement. Ephrem the Syrian's Carmina Nisibena document the Roman evacuation. Post-363 trade rerouting: inferred from the decline of Syrian and rise of Red Sea finds in Western hoards. The economic consequence of the Peace of 363 is underexplored in scholarship: Dignas & Winter (2007)."
+        },
+        {
+          "id": "ex3",
+          "group": "Cultural Transmission",
+          "label": "Translation of Greek texts into Syriac — the bridge tradition",
+          "date": "c.300–400",
+          "loc": "Nisibis; Edessa (School of the Persians)",
+          "coords": [
+            37.07,
+            41.22
+          ],
+          "hint": "The School of the Persians at Edessa begins the systematic translation of Greek philosophical and medical texts into Syriac — the transmission chain that will eventually carry Aristotle to Baghdad via Syriac; one of the most consequential intellectual relay points in history.",
+          "tag": "DOCUMENT",
+          "note": "The School at Edessa: Becker (2006), Fear of God and the Beginning of Wisdom: the School of Nisibis. Vööbus (1965), History of the School of Nisibis. The Syriac translation tradition: Brock (1977), Greek into Syriac and Syriac into Greek, Journal of the Syriac Academy 3. This is the first link in the Greek→Syriac→Arabic translation chain documented by scholars."
+        },
+        {
+          "id": "ex4",
+          "group": "Diplomatic Exchange",
+          "label": "Gothic Bible as diplomatic and cultural instrument",
+          "date": "c.341–383",
+          "loc": "Gothic territory north of Danube; later Nicopolis",
+          "coords": [
+            43.7,
+            24.9
+          ],
+          "hint": "Ulfilas's Gothic Bible is simultaneously a religious mission, a cultural transmission event, and a diplomatic act — the Goths gain literacy and Arian Christianity together, creating a cultural bond with Constantinople that shapes their behaviour for a century.",
+          "tag": "DOCUMENT",
+          "note": "Codex Argenteus (Uppsala, DG 1): 188 leaves of Gothic text. Ulfilas commissioned by the Eastern court: Philostorgius HE 2.5. The diplomatic dimension — Arian Christianity as a connecting identity between Gothic federates and Constantinople — is argued by Heather (1991), Goths and Romans."
+        }
+      ]
+    },
+    {
       "id": "world",
       "label": "World",
       "icon": "🌍",
@@ -1386,6 +1453,33 @@
           "y": 373,
           "l": "Aqueduct of Valens",
           "entryId": "te1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🔀",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 300,
+          "l": "Syriac translation school (Edessa)",
+          "entryId": "ex3"
+        },
+        {
+          "y": 325,
+          "l": "Constantine's letter to Shapur II",
+          "entryId": "ex1"
+        },
+        {
+          "y": 341,
+          "l": "Gothic Bible — cultural instrument",
+          "entryId": "ex4"
+        },
+        {
+          "y": 363,
+          "l": "Nisibis ceded — trade disrupted",
+          "entryId": "ex2"
         }
       ]
     },
