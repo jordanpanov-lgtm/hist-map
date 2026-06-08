@@ -13,26 +13,26 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 /* ── TOPBAR (module selector) ── */
 #topbar{background:#0e1f15;padding:0 20px;display:flex;align-items:center;gap:0;position:sticky;top:0;z-index:600;border-bottom:1px solid #1e3a26}
-#app-label{font-family:'IM Fell English',serif;font-size:11px;color:#4a7a55;letter-spacing:.15em;padding:10px 14px 10px 0;border-right:1px solid #1e3a26;margin-right:12px;white-space:nowrap}
-#select-btn{padding:8px 14px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;background:transparent;color:#5a8a6a;border:none;cursor:pointer;border-right:1px solid #1e3a26;display:flex;align-items:center;gap:6px;white-space:nowrap;transition:all .15s}
-#select-btn:hover{color:#a0c8a8;background:#142a1c}
-#module-name-top{font-size:11px;font-family:'Courier New',monospace;color:#2e5a38;padding:8px 14px;letter-spacing:.07em}
+#app-label{font-family:'IM Fell English',serif;font-size:11px;color:#a0c8a8;letter-spacing:.15em;padding:10px 14px 10px 0;border-right:1px solid #1e3a26;margin-right:12px;white-space:nowrap}
+#select-btn{padding:8px 14px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;background:transparent;color:#a0c8a8;border:none;cursor:pointer;border-right:1px solid #1e3a26;display:flex;align-items:center;gap:6px;white-space:nowrap;transition:all .15s}
+#select-btn:hover{color:#d4e8d0;background:#142a1c}
+#module-name-top{font-size:11px;font-family:'Courier New',monospace;color:#6a9a7a;padding:8px 14px;letter-spacing:.07em}
 
 /* ── HEADER ── */
-#header{background:#fff;border-bottom:1px solid #e0d8cc;padding:14px 20px 0}
+#header{background:#f2f8f2;border-bottom:1px solid #c8e0c8;padding:14px 20px 0}
 #header-top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-bottom:10px}
-#module-title{font-family:'IM Fell English',serif;font-size:22px;color:#1a1a1a}
-#module-subtitle{font-size:11px;font-family:'Courier New',monospace;color:#8B6914;letter-spacing:.13em}
-#module-cats{font-size:10px;color:#bbb;font-family:'Courier New',monospace;letter-spacing:.06em;padding-bottom:10px}
+#module-title{font-family:'IM Fell English',serif;font-size:22px;color:#0e2a18}
+#module-subtitle{font-size:11px;font-family:'Courier New',monospace;color:#2a6a3a;letter-spacing:.13em}
+#module-cats{font-size:10px;color:#6a9a7a;font-family:'Courier New',monospace;letter-spacing:.06em;padding-bottom:10px}
 
 /* ── TABS ── */
-#tabs{display:flex;gap:0;border-top:1px solid #e8e0d0}
-.tab-btn{padding:9px 18px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;border:none;background:transparent;color:#aaa;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;margin-bottom:-1px}
-.tab-btn.active{color:#1a1a1a;border-bottom-color:#1a1a1a}
-.tab-btn:hover:not(.active){color:#555}
-#search-wrap{flex:1;display:flex;align-items:center;padding:4px 0 4px 12px;border-left:1px solid #e8e0d0;margin-left:auto}
-#search-input{width:100%;background:transparent;border:none;color:#333;padding:4px 8px;font-size:13px;font-family:Georgia,serif;outline:none}
-#search-input::placeholder{color:#ccc}
+#tabs{display:flex;gap:0;border-top:1px solid #c8e0c8}
+.tab-btn{padding:9px 18px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;border:none;background:transparent;color:#6a9a7a;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;margin-bottom:-1px}
+.tab-btn.active{color:#0e2a18;border-bottom-color:#0e2a18}
+.tab-btn:hover:not(.active){color:#2a5a38}
+#search-wrap{flex:1;display:flex;align-items:center;padding:4px 0 4px 12px;border-left:1px solid #c8e0c8;margin-left:auto}
+#search-input{width:100%;background:transparent;border:none;color:#0e2a18;padding:4px 8px;font-size:13px;font-family:Georgia,serif;outline:none}
+#search-input::placeholder{color:#8ab89a}
 
 /* ── MODULE MATRIX PICKER ── */
 #module-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:1000;align-items:flex-start;justify-content:flex-start}
@@ -197,12 +197,12 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
         <thead>
           <tr>
             <th></th>
-            <th>Prehistoric<br><span style="font-weight:400;color:#333">till 1200 BC</span></th>
-            <th>Ancient<br><span style="font-weight:400;color:#333">1200–300 BC</span></th>
-            <th>Late Antique<br><span style="font-weight:400;color:#333">300 BC–600 AD</span></th>
-            <th>Medieval<br><span style="font-weight:400;color:#333">600–1500 AD</span></th>
-            <th>Early Modern<br><span style="font-weight:400;color:#333">1500–1800</span></th>
-            <th>Modern<br><span style="font-weight:400;color:#333">1800–today</span></th>
+            <th>Prehistoric<br><span style="font-weight:400;color:#6a9a7a">till 1200 BC</span></th>
+            <th>Ancient<br><span style="font-weight:400;color:#6a9a7a">1200–300 BC</span></th>
+            <th>Late Antique<br><span style="font-weight:400;color:#6a9a7a">300 BC–600 AD</span></th>
+            <th>Medieval<br><span style="font-weight:400;color:#6a9a7a">600–1500 AD</span></th>
+            <th>Early Modern<br><span style="font-weight:400;color:#6a9a7a">1500–1900</span></th>
+            <th>Modern<br><span style="font-weight:400;color:#6a9a7a">1900–today</span></th>
           </tr>
         </thead>
         <tbody id="matrix-body"></tbody>
@@ -359,8 +359,8 @@ const PERIODS = [
   { id:'Ancient',       label:'Ancient',        sub:'1200–300 BC'  },
   { id:'Late Antique',  label:'Late Antique',   sub:'300 BC–600 AD'},
   { id:'Medieval',      label:'Medieval',       sub:'600–1500 AD'  },
-  { id:'Early Modern',  label:'Early Modern',   sub:'1500–1800'    },
-  { id:'Modern',        label:'Modern',         sub:'1800–today'   },
+  { id:'Early Modern',  label:'Early Modern',   sub:'1500–1900'    },
+  { id:'Modern',        label:'Modern',         sub:'1900–today'   },
 ];
 
 function buildMatrix() {
