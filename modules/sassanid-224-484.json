@@ -720,20 +720,6 @@
           "note": "Archaeological survey: Adams (1965), Land Behind Baghdad; Adams (1981), Heartland of Cities. Identifies Sassanid-era canal expansion. The productivity of Mesopotamian agriculture under Sassanids: attested in Talmudic sources and later Islamic geographical texts."
         },
         {
-          "id": "s2",
-          "group": "Trade & Commerce",
-          "label": "Silk Road trade — Sassanids as intermediaries",
-          "date": "c.224–484",
-          "loc": "Ctesiphon; Merv; Nishapur; routes to China",
-          "coords": [
-            37.6,
-            61.8
-          ],
-          "hint": "The Sassanids control the overland Silk Road between China and the Mediterranean — Sassanid silk, silver and luxury goods are found from Britain to China; they actively blocked direct Byzantine-Chinese contact.",
-          "tag": "ECONOMIC",
-          "note": "Sassanid coins found in China: confirmed in Chinese archaeological reports (coin hoards, tombs). Procopius Wars 1.20 documents Sassanid monopoly on silk. Byzantine attempts to circumvent: Procopius Wars 8.17 (Justinian's silk diplomacy). Bi Sheng hoard, Xinjiang."
-        },
-        {
           "id": "s3",
           "group": "Fiscal & Monetary",
           "label": "Sassanid coinage — the drachm standard",
@@ -799,6 +785,73 @@
           "hint": "Shapur I founds or refounds at least four major cities — Bishapur (Roman grid), Gundeshapur (medical centre), Nishapour and Shapur-Khwast — representing the most systematic Sassanid urban investment of the 3rd century.",
           "tag": "CONSTRUCTION",
           "note": "Bishapur: excavated (Ghirshman 1971–78). Gundeshapur: documented in Syriac and Islamic sources. ŠKZ mentions cities founded with Roman captives. Daryaee (2009), Sasanian Iran, pp.75–82 surveys all foundations."
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🔀",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
+      "subtitle": "Diplomacy, trade routes, cultural transmission & the movement of peoples, goods and ideas",
+      "entries": [
+        {
+          "id": "ex1",
+          "group": "Silk Road & Trade Routes",
+          "label": "Sassanid control of the Silk Road — monopoly established",
+          "date": "c.224–484",
+          "loc": "Ctesiphon; Merv; Nishapur; routes to China and India",
+          "coords": [
+            37.6,
+            61.8
+          ],
+          "hint": "The Sassanids inherit and consolidate Parthian control of the overland Silk Road — Sassanid silver plates and coins found from Britain to China map the trade network; they actively block direct Byzantine-Chinese contact to maintain the intermediary advantage.",
+          "tag": "ECONOMIC",
+          "note": "Sassanid coins in China: archaeological reports from Xinjiang and coastal China. Procopius Wars 1.20 documents Byzantine silk purchasing from Persia. The monopoly structure: de la Vaissière (2005), Sogdian Traders: A History. The Sogdians as the actual carriers within the Sassanid sphere: Sims-Williams (1985), Sogdian and Other Iranian Inscriptions of the Upper Indus. MOVED from Subsistence s2."
+        },
+        {
+          "id": "ex2",
+          "group": "Diplomatic Exchange",
+          "label": "Sassanid-Chinese diplomatic exchanges begin",
+          "date": "c.455–484",
+          "loc": "Ctesiphon to Luoyang/Chang'an (Silk Road)",
+          "coords": [
+            34.0,
+            108.0
+          ],
+          "hint": "Chinese dynastic records document Sassanid embassies to the Northern Wei court — the earliest hard-dated diplomatic contacts between Persia and China; Sassanid musicians and luxury goods travel east while Chinese silk travels west.",
+          "tag": "DOCUMENT",
+          "note": "Wei Shu (Chinese dynastic history): records Sassanid embassies with dates. 16 embassies 455–555: confirmed across Wei Shu, Sui Shu. Sassanid musicians at Chinese court: Sui Shu 15. Coins found in China: Xinjiang Museum holdings. Compareti (2003), Sasanians in China. MOVED from World w3 (first module's version)."
+        },
+        {
+          "id": "ex3",
+          "group": "Cultural Transmission",
+          "label": "Gundeshapur — multi-tradition medical knowledge exchange",
+          "date": "c.260–500",
+          "loc": "Gundeshapur (mod. Shahabad, Khuzestan, Iran)",
+          "coords": [
+            32.3,
+            48.5
+          ],
+          "hint": "Gundeshapur combines Greek (Roman prisoner physicians), Syriac Christian (Nestorian scholars), Indian (physicians invited by Sassanid court) and Iranian medical traditions — the most concrete instance of multi-civilisational knowledge exchange in late antiquity.",
+          "tag": "CONSTRUCTION",
+          "note": "Foundation with prisoner physicians: multiple sources. Indian physicians invited: Dinkard records; Tabari. The Nestorian influx after Edessa's closure (489): Chronicle of Se'ert. Ibn al-Qifti, Tarikh al-Hukama (12th c.) on Gundeshapur's traditions. The three-way Greek-Syriac-Indian synthesis: Daryaee (2009), Sasanian Iran. MOVED from Technology te3 in module 1."
+        },
+        {
+          "id": "ex4",
+          "group": "Intellectual Exchange",
+          "label": "Armenian cultural transmission between Rome and Persia",
+          "date": "c.300–484",
+          "loc": "Armenia — between Roman and Sassanid spheres",
+          "coords": [
+            40.0,
+            45.0
+          ],
+          "hint": "Armenia sits between Rome and Persia and transmits cultural, religious and diplomatic signals between them — the invention of the Armenian alphabet (c.405 CE by Mesrop Mashtots) enables a distinct Armenian literary culture that preserves texts lost in both Greek and Syriac.",
+          "tag": "DOCUMENT",
+          "note": "Mesrop Mashtots and the Armenian alphabet: Koriun, Vark Mashtots (5th c. biography, extant). Date c.405 confirmed by internal evidence. The corpus of Armenian translations of Greek texts: Thomson (1994), Studies in Armenian Literature and Christianity. Armenia as transmission zone: Garsoïan (1985), Armenia Between Byzantium and the Sasanians."
         }
       ]
     },
@@ -1226,6 +1279,33 @@
           "y": 224,
           "l": "Mesopotamian irrigation",
           "entryId": "s1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🔀",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 224,
+          "l": "Silk Road monopoly consolidated",
+          "entryId": "ex1"
+        },
+        {
+          "y": 260,
+          "l": "Gundeshapur — multi-tradition hub",
+          "entryId": "ex3"
+        },
+        {
+          "y": 300,
+          "l": "Armenian alphabet — relay culture",
+          "entryId": "ex4"
+        },
+        {
+          "y": 455,
+          "l": "Sassanid embassies to China",
+          "entryId": "ex2"
         }
       ]
     },
