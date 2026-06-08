@@ -34,19 +34,50 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 #search-input{width:100%;background:transparent;border:none;color:#333;padding:4px 8px;font-size:13px;font-family:Georgia,serif;outline:none}
 #search-input::placeholder{color:#ccc}
 
-/* ── MODULE PICKER ── */
-#module-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;align-items:flex-start;justify-content:flex-start;padding:0}
+/* ── MODULE MATRIX PICKER ── */
+#module-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:1000;align-items:flex-start;justify-content:flex-start}
 #module-overlay.open{display:flex}
-#module-picker{background:#1a1a1a;width:280px;min-height:100vh;padding:24px 20px;box-shadow:4px 0 24px rgba(0,0,0,.4)}
-#module-picker h2{font-family:'IM Fell English',serif;font-size:16px;color:#f0ead6;margin-bottom:4px}
-#picker-sub{font-size:10px;color:#555;font-family:'Courier New',monospace;margin-bottom:18px;letter-spacing:.08em}
-.module-card{border:1px solid #2a2a2a;border-radius:4px;padding:10px 12px;margin-bottom:6px;cursor:pointer;transition:all .15s}
-.module-card:hover{border-color:#8B6914;background:#222}
-.module-card.active{border-color:#B22222;background:#1f1010}
-.module-card-title{font-family:'IM Fell English',serif;font-size:13px;color:#e0d8cc}
-.module-card-sub{font-size:10px;color:#666;font-family:'Courier New',monospace;margin-top:2px}
-#picker-note{font-size:10px;color:#444;font-family:'Courier New',monospace;margin-top:16px;line-height:1.7;border-top:1px solid #2a2a2a;padding-top:12px}
-#picker-close{position:absolute;top:16px;right:16px;background:transparent;border:1px solid #333;color:#666;padding:4px 10px;cursor:pointer;font-size:11px;font-family:'Courier New',monospace;border-radius:3px}
+#module-picker{background:#111;width:min(96vw,860px);min-height:100vh;max-height:100vh;overflow-y:auto;padding:24px 24px 40px;box-shadow:4px 0 40px rgba(0,0,0,.6);display:flex;flex-direction:column;gap:0}
+
+/* Picker header */
+#picker-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:6px}
+#picker-head h2{font-family:'IM Fell English',serif;font-size:17px;color:#f0ead6}
+#picker-close{background:transparent;border:1px solid #333;color:#666;padding:4px 10px;cursor:pointer;font-size:11px;font-family:'Courier New',monospace;border-radius:3px;flex-shrink:0}
+
+/* Global search */
+#global-search-wrap{margin-bottom:18px}
+#global-search{width:100%;background:#1a1a1a;border:1px solid #333;border-radius:4px;color:#e0d8cc;padding:9px 14px;font-size:13px;font-family:Georgia,serif;outline:none}
+#global-search::placeholder{color:#444}
+#global-search:focus{border-color:#8B6914}
+#global-results{margin-top:8px;max-height:220px;overflow-y:auto;display:none}
+#global-results.open{display:block}
+.gr-module{font-size:10px;color:#666;font-family:'Courier New',monospace;letter-spacing:.08em;padding:6px 10px 2px;text-transform:uppercase}
+.gr-entry{display:flex;align-items:baseline;gap:8px;padding:5px 10px;cursor:pointer;border-radius:3px;transition:background .12s}
+.gr-entry:hover{background:#1f1f1f}
+.gr-entry-name{font-size:12px;color:#c8bfa8;font-family:'IM Fell English',serif}
+.gr-entry-date{font-size:10px;color:#555;font-family:'Courier New',monospace;white-space:nowrap}
+.gr-entry-hint{font-size:10px;color:#555;font-style:italic;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gr-no-results{font-size:11px;color:#444;font-family:'Courier New',monospace;padding:10px}
+
+/* Matrix */
+#matrix-label{font-size:9px;color:#444;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:10px}
+#matrix-wrap{overflow-x:auto}
+#matrix{border-collapse:collapse;width:100%;min-width:560px}
+#matrix th{font-size:9px;font-family:'Courier New',monospace;letter-spacing:.1em;color:#555;text-transform:uppercase;padding:6px 8px;border-bottom:1px solid #222;text-align:left;white-space:nowrap;font-weight:600}
+#matrix th:first-child{width:110px}
+#matrix td{padding:5px 6px;border:1px solid #1a1a1a;vertical-align:top;min-width:100px}
+.matrix-region{font-size:10px;font-family:'Courier New',monospace;color:#555;letter-spacing:.08em;padding:6px 0;text-transform:uppercase;white-space:nowrap}
+.matrix-cell{min-height:36px;border-radius:3px;padding:2px}
+.matrix-cell.empty{background:#0d0d0d;opacity:.4}
+.mc-card{background:#1a1a1a;border:1px solid #2a2a2a;border-radius:3px;padding:6px 8px;margin-bottom:4px;cursor:pointer;transition:all .15s}
+.mc-card:hover{border-color:#8B6914;background:#222}
+.mc-card.active{border-color:#A0522D;background:#1a1008}
+.mc-title{font-family:'IM Fell English',serif;font-size:12px;color:#c8bfa8;line-height:1.3}
+.mc-sub{font-size:9px;color:#555;font-family:'Courier New',monospace;margin-top:2px;line-height:1.4}
+.mc-empty{font-size:9px;color:#2a2a2a;font-family:'Courier New',monospace;padding:4px 0;text-align:center}
+
+/* Picker footer */
+#picker-note{font-size:10px;color:#333;font-family:'Courier New',monospace;margin-top:20px;line-height:1.7;border-top:1px solid #1a1a1a;padding-top:14px}
 
 /* ── FULL-WIDTH CONTENT WRAPPER ── */
 #content-wrap{max-width:none;width:100%;padding:0}
@@ -142,18 +173,46 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
   </div>
 </div>
 
-<!-- MODULE PICKER (slide-out panel) -->
+<!-- MODULE MATRIX PICKER -->
 <div id="module-overlay" onclick="if(event.target===this)closePicker()">
   <div id="module-picker">
-    <h2>Area Studies Atlas</h2>
-    <div id="picker-sub">SELECT A MODULE</div>
-    <div id="picker-list"></div>
-    <div id="picker-note">
-      To add a module: drop a .json file into modules/<br>
-      and add it to the MODULES list in index.html.<br>
-      Ask Claude to generate the JSON.
+
+    <div id="picker-head">
+      <h2>Area Studies Atlas</h2>
+      <button id="picker-close" onclick="closePicker()">✕ CLOSE</button>
     </div>
-    <button id="picker-close" onclick="closePicker()">✕</button>
+
+    <!-- Global search -->
+    <div id="global-search-wrap">
+      <input id="global-search" placeholder="Search across all modules — rulers, battles, manuscripts, places…"
+        oninput="globalSearch(this.value)" autocomplete="off">
+      <div id="global-results"></div>
+    </div>
+
+    <!-- Matrix -->
+    <div id="matrix-label">SELECT MODULE BY REGION × PERIOD</div>
+    <div id="matrix-wrap">
+      <table id="matrix">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Prehistoric<br><span style="font-weight:400;color:#333">till 1200 BC</span></th>
+            <th>Ancient<br><span style="font-weight:400;color:#333">1200–300 BC</span></th>
+            <th>Late Antique<br><span style="font-weight:400;color:#333">300 BC–600 AD</span></th>
+            <th>Medieval<br><span style="font-weight:400;color:#333">600–1500 AD</span></th>
+            <th>Early Modern<br><span style="font-weight:400;color:#333">1500–1800</span></th>
+            <th>Modern<br><span style="font-weight:400;color:#333">1800–today</span></th>
+          </tr>
+        </thead>
+        <tbody id="matrix-body"></tbody>
+      </table>
+    </div>
+
+    <div id="picker-note">
+      To add a module: generate a JSON in this chat, save it to modules/ in your repo,<br>
+      add it to the MODULES list in index.html with region + period fields.<br>
+      Empty cells show where modules can still be built.
+    </div>
   </div>
 </div>
 
@@ -199,13 +258,13 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 <script>
 // ── MODULE REGISTRY ───────────────────────────────────────────────────────────
 const MODULES = [
-  { id:"rome-400-500",      file:"modules/rome-400-500.json",      label:"Roman Empire",     sub:"400–500 AD · Fall of the West" },
-  { id:"rome-300-400",      file:"modules/rome-300-400.json",      label:"Roman Empire",     sub:"300–400 AD · Constantine to Theodosius" },
-  { id:"rome-200-300",      file:"modules/rome-200-300.json",      label:"Roman Empire",     sub:"200–300 AD · Third Century Crisis" },
-  { id:"sassanid-224-484",  file:"modules/sassanid-224-484.json",  label:"Sassanid Empire",  sub:"224–484 AD · Foundation to Hephthalite Crisis" },
-  { id:"sassanid-484-651",  file:"modules/sassanid-484-651.json",  label:"Sassanid Empire",  sub:"484–651 AD · Renewal, Apogee and Collapse" },
-  { id:"lakhmid-268-602",   file:"modules/lakhmid-268-602.json",   label:"Lakhmid Kingdom",  sub:"c.268–602 AD · The Nasrid Kings of al-Hira" },
-  // { id:"visigoths", file:"modules/visigoths.json", label:"Visigoth Kingdom", sub:"410–507 AD" },
+  { id:"rome-400-500",      file:"modules/rome-400-500.json",      label:"Roman Empire",     sub:"400–500 AD · Fall of the West",                region:"Europe",    period:"Late Antique" },
+  { id:"rome-300-400",      file:"modules/rome-300-400.json",      label:"Roman Empire",     sub:"300–400 AD · Constantine to Theodosius",        region:"Europe",    period:"Late Antique" },
+  { id:"rome-200-300",      file:"modules/rome-200-300.json",      label:"Roman Empire",     sub:"200–300 AD · Third Century Crisis",             region:"Europe",    period:"Late Antique" },
+  { id:"sassanid-224-484",  file:"modules/sassanid-224-484.json",  label:"Sassanid Empire",  sub:"224–484 AD · Foundation to Hephthalite Crisis", region:"Near East", period:"Late Antique" },
+  { id:"sassanid-484-651",  file:"modules/sassanid-484-651.json",  label:"Sassanid Empire",  sub:"484–651 AD · Renewal, Apogee and Collapse",     region:"Near East", period:"Late Antique" },
+  { id:"lakhmid-268-602",   file:"modules/lakhmid-268-602.json",   label:"Lakhmid Kingdom",  sub:"c.268–602 AD · The Nasrid Kings of al-Hira",    region:"Near East", period:"Late Antique" },
+  // To add a module: { id:"...", file:"modules/....json", label:"...", sub:"...", region:"...", period:"..." }
 ];
 
 // ── ICON MAP: override per category id ───────────────────────────────────────
@@ -292,20 +351,144 @@ function setView(v) {
   if (v==='timeline') setTimeout(buildTimeline, 40);
 }
 
-// ── MODULE PICKER ─────────────────────────────────────────────────────────────
-function buildPicker() {
-  const list = document.getElementById('picker-list');
-  list.innerHTML = '';
-  MODULES.forEach(m => {
-    const card = document.createElement('div');
-    card.className = 'module-card' + (MOD && MOD.id===m.id ? ' active' : '');
-    card.innerHTML = `<div class="module-card-title">${m.label}</div><div class="module-card-sub">${m.sub}</div>`;
-    card.onclick = () => { closePicker(); loadModule(m.file); };
-    list.appendChild(card);
+// ── MODULE MATRIX PICKER ──────────────────────────────────────────────────────
+const REGIONS = ['Europe','Near East','Far East','Africa','Americas & Oceania'];
+const PERIODS = [
+  { id:'Prehistoric',   label:'Prehistoric',   sub:'till 1200 BC' },
+  { id:'Ancient',       label:'Ancient',        sub:'1200–300 BC'  },
+  { id:'Late Antique',  label:'Late Antique',   sub:'300 BC–600 AD'},
+  { id:'Medieval',      label:'Medieval',       sub:'600–1500 AD'  },
+  { id:'Early Modern',  label:'Early Modern',   sub:'1500–1800'    },
+  { id:'Modern',        label:'Modern',         sub:'1800–today'   },
+];
+
+function buildMatrix() {
+  const tbody = document.getElementById('matrix-body');
+  tbody.innerHTML = '';
+  REGIONS.forEach(region => {
+    const tr = document.createElement('tr');
+    // Region label cell
+    const th = document.createElement('td');
+    th.innerHTML = `<div class="matrix-region">${region}</div>`;
+    tr.appendChild(th);
+    // Period cells
+    PERIODS.forEach(period => {
+      const td = document.createElement('td');
+      const mods = MODULES.filter(m => m.region === region && m.period === period.id);
+      const cell = document.createElement('div');
+      cell.className = 'matrix-cell' + (mods.length === 0 ? ' empty' : '');
+      if (mods.length === 0) {
+        cell.innerHTML = `<div class="mc-empty">—</div>`;
+      } else {
+        mods.forEach(m => {
+          const card = document.createElement('div');
+          card.className = 'mc-card' + (MOD && MOD.id === m.id ? ' active' : '');
+          card.innerHTML = `<div class="mc-title">${m.label}</div><div class="mc-sub">${m.sub}</div>`;
+          card.onclick = () => { closePicker(); loadModule(m.file); };
+          cell.appendChild(card);
+        });
+      }
+      td.appendChild(cell);
+      tr.appendChild(td);
+    });
+    tbody.appendChild(tr);
   });
 }
-function openPicker()  { buildPicker(); document.getElementById('module-overlay').classList.add('open'); }
-function closePicker() { document.getElementById('module-overlay').classList.remove('open'); }
+
+function openPicker() {
+  buildMatrix();
+  document.getElementById('global-search').value = '';
+  document.getElementById('global-results').classList.remove('open');
+  document.getElementById('global-results').innerHTML = '';
+  document.getElementById('module-overlay').classList.add('open');
+  setTimeout(() => document.getElementById('global-search').focus(), 80);
+}
+function closePicker() {
+  document.getElementById('module-overlay').classList.remove('open');
+}
+
+// ── GLOBAL SEARCH ─────────────────────────────────────────────────────────────
+// Cache: load all modules lazily into memory for searching
+const _modCache = {};
+
+async function ensureModCache() {
+  const unloaded = MODULES.filter(m => !_modCache[m.id]);
+  await Promise.all(unloaded.map(m =>
+    fetch(m.file).then(r => r.json()).then(d => { _modCache[m.id] = { meta: m, data: d }; }).catch(()=>{})
+  ));
+}
+
+function globalSearch(q) {
+  const resultsEl = document.getElementById('global-results');
+  q = q.trim().toLowerCase();
+  if (q.length < 2) { resultsEl.classList.remove('open'); resultsEl.innerHTML = ''; return; }
+
+  resultsEl.classList.add('open');
+  resultsEl.innerHTML = '<div class="gr-no-results">Searching…</div>';
+
+  ensureModCache().then(() => {
+    const hits = [];
+    Object.values(_modCache).forEach(({ meta, data }) => {
+      if (!data.categories) return;
+      data.categories.forEach(cat => {
+        (cat.entries || []).forEach(e => {
+          const searchable = [e.label, e.hint, e.note, e.date, e.loc, e.group].filter(Boolean).join(' ').toLowerCase();
+          if (searchable.includes(q)) {
+            hits.push({ meta, entry: e, catAccent: cat.accent, catLabel: cat.label });
+          }
+        });
+      });
+    });
+
+    if (hits.length === 0) {
+      resultsEl.innerHTML = `<div class="gr-no-results">No results for "${q}" across ${MODULES.length} modules</div>`;
+      return;
+    }
+
+    // Group by module
+    const byMod = {};
+    hits.forEach(h => {
+      if (!byMod[h.meta.id]) byMod[h.meta.id] = { meta: h.meta, hits: [] };
+      byMod[h.meta.id].hits.push(h);
+    });
+
+    let html = '';
+    Object.values(byMod).forEach(({ meta, hits }) => {
+      html += `<div class="gr-module">${meta.label} · ${meta.sub} (${hits.length})</div>`;
+      hits.slice(0, 6).forEach(h => {
+        const e = h.entry;
+        html += `<div class="gr-entry" onclick="globalSelectEntry('${meta.id}','${meta.file}','${e.id}','${h.catAccent}')">
+          <span class="gr-entry-name">${e.label}</span>
+          <span class="gr-entry-date">${e.date||''}</span>
+          <span class="gr-entry-hint">${e.hint||''}</span>
+        </div>`;
+      });
+      if (hits.length > 6) html += `<div class="gr-no-results" style="padding:2px 10px 6px">…and ${hits.length-6} more in this module</div>`;
+    });
+    resultsEl.innerHTML = html;
+  });
+}
+
+function globalSelectEntry(modId, modFile, entryId, accent) {
+  closePicker();
+  // If the module is already loaded, open the entry directly
+  if (MOD && MOD.id === modId) {
+    const entry = allEntries().find(e => e.id === entryId);
+    if (entry) openModal(entry, accent);
+  } else {
+    // Load the module, then open the entry
+    loadModule(modFile).then(() => {
+      setTimeout(() => {
+        const entry = allEntries().find(e => e.id === entryId);
+        if (entry) openModal(entry, accent);
+      }, 300);
+    });
+  }
+}
+
+// Make loadModule return a promise so globalSelectEntry can chain
+// (already is async via fetch chain — we just need to capture it)
+let _loadModuleResolve = null;
 
 // ── MODAL ─────────────────────────────────────────────────────────────────────
 function openModal(entry, accent) {
@@ -714,8 +897,9 @@ function renderPins() {
 
 // ── INIT ───────────────────────────────────────────────────────────────────────
 window.addEventListener('load', () => {
-  buildPicker();
   loadModule(MODULES[0].file);
+  // Preload all module data into cache silently for global search
+  setTimeout(ensureModCache, 2000);
 });
 window.addEventListener('resize', () => { /* viewBox scales automatically */ });
 </script>
