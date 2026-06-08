@@ -987,6 +987,73 @@
       ]
     },
     {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🔀",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
+      "subtitle": "Diplomacy, trade routes, cultural transmission & the movement of peoples, goods and ideas",
+      "entries": [
+        {
+          "id": "ex1",
+          "group": "Diplomatic Exchange",
+          "label": "Priscus's embassy to Attila — firsthand diplomatic record",
+          "date": "449",
+          "loc": "Hunnic court on the Pannonian plain (Hungary)",
+          "coords": [
+            47.5,
+            19.0
+          ],
+          "hint": "The Byzantine diplomat Priscus travels to Attila's court as part of an embassy — his account is the only firsthand description of Hunnic court culture, the physical appearance of Attila's settlement, and the mechanics of Roman-Hunnic diplomacy.",
+          "tag": "DOCUMENT",
+          "note": "Priscus fragments: Exc. de Legationibus (Constantine VII's compilation). The embassy of 449 is datable. Priscus describes meeting a Greek merchant who had settled with the Huns voluntarily — one of the most striking cross-cultural encounters in the sources. MOVED from Thought tx5 — belongs here as a diplomatic record as much as an intellectual one."
+        },
+        {
+          "id": "ex2",
+          "group": "Diplomatic Exchange",
+          "label": "Odoacer sends imperial regalia to Constantinople",
+          "date": "476–477",
+          "loc": "Ravenna → Constantinople",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "After deposing Romulus Augustulus, Odoacer sends the Western imperial regalia to Constantinople with a message that one emperor is sufficient — a diplomatic act that simultaneously ends the Western Empire and asserts continuity with the East.",
+          "tag": "POLITICAL",
+          "note": "Marcellinus Comes records the regalia transfer. Malchus fragments (diplomat and historian, contemporary) on the subsequent negotiations. The diplomatic formula — Odoacer rules Italy in the name of Zeno — is documented in Cassiodorus. This is the key exchange that legally defines what 476 meant."
+        },
+        {
+          "id": "ex3",
+          "group": "Silk Road & Trade Routes",
+          "label": "Vandal North Africa — disruption of Western Mediterranean trade",
+          "date": "429–477",
+          "loc": "Carthage; Sicilian straits; Western Mediterranean",
+          "coords": [
+            36.82,
+            10.18
+          ],
+          "hint": "Vandal naval control of the Western Mediterranean from Carthage disrupts the grain and luxury trade routes that had sustained Rome for 500 years — the archaeological evidence (sharp decline in African Red Slip pottery in Western sites) is one of the clearest material signatures of the 5th-century economic collapse.",
+          "tag": "ECONOMIC",
+          "note": "African Red Slip (ARS) pottery distribution: Hayes (1972), Late Roman Pottery — the standard reference. Dramatic decline in ARS at Western sites post-439 documented in multiple excavation reports. Wickham (2005), Framing the Early Middle Ages, ch.2: synthesises the evidence for trade collapse. This is the best-evidenced material trace of the Western Empire's economic unravelling."
+        },
+        {
+          "id": "ex4",
+          "group": "Cultural Transmission",
+          "label": "Sidonius Apollinaris — Roman aristocratic culture persisting in Visigothic Gaul",
+          "date": "c.455–480",
+          "loc": "Clermont-Ferrand; Visigothic court at Toulouse",
+          "coords": [
+            45.78,
+            3.08
+          ],
+          "hint": "Sidonius Apollinaris's letters document the extraordinary cultural negotiation between Roman aristocratic literary culture and the new Visigothic kingdom — he praises Gothic kings in Latin verse, teaches Roman rhetoric to Gallo-Roman nobles under Gothic rule, and records the terms of cultural survival.",
+          "tag": "LETTERS",
+          "note": "Sidonius Apollinaris, Epistulae (9 books, extant). Letters to King Euric: Ep. 7.6. Description of Theoderic II's court: Ep. 1.2 — a unique ethnographic account. Harries (1994), Sidonius Apollinaris and the Fall of Rome. This is the richest single source for cultural transmission across the Roman-barbarian boundary."
+        }
+      ]
+    },
+    {
       "id": "world",
       "label": "World",
       "icon": "🌍",
@@ -1484,6 +1551,33 @@
           "y": 447,
           "l": "Walls restored after quake",
           "entryId": "t1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🔀",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 439,
+          "l": "Vandal disruption of Med. trade",
+          "entryId": "ex3"
+        },
+        {
+          "y": 449,
+          "l": "Priscus at Attila's court",
+          "entryId": "ex1"
+        },
+        {
+          "y": 455,
+          "l": "Sidonius — Roman culture in Gaul",
+          "entryId": "ex4"
+        },
+        {
+          "y": 476,
+          "l": "Regalia sent to Constantinople",
+          "entryId": "ex2"
         }
       ]
     },
