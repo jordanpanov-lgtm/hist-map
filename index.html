@@ -63,26 +63,49 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 #matrix-label{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:0;padding-bottom:8px}
 
-/* Matrix scroll area — only this scrolls */
+/* Matrix scroll area */
 #matrix-wrap{flex:1;overflow-y:auto;overflow-x:hidden;padding:0 28px 20px;min-height:0}
 #matrix{border-collapse:collapse;width:100%;table-layout:fixed}
 
-/* Sticky column headers inside the scroll area */
+/* Sticky column headers */
 #matrix thead th{position:sticky;top:0;z-index:3;font-size:9px;font-family:'Courier New',monospace;letter-spacing:.08em;color:#2a5a38;text-transform:uppercase;padding:8px 8px 7px;border-bottom:2px solid #8ab89a;text-align:left;white-space:nowrap;font-weight:700;background:#e8f2e8;box-shadow:0 2px 0 #8ab89a}
 #matrix th:first-child{width:100px}
-#matrix td{padding:6px 6px;border:1px solid #c8e0c8;vertical-align:top;background:#f2f8f2}
-.matrix-region{font-size:9px;font-family:'Courier New',monospace;color:#2a5a38;letter-spacing:.07em;padding:6px 0;text-transform:uppercase;white-space:nowrap;font-weight:600}
-.matrix-cell{min-height:44px;border-radius:3px;padding:2px}
-.matrix-cell.empty{background:#e0ede0;opacity:.5}
-.mc-card{background:#fff;border:1px solid #b8d8b8;border-radius:3px;padding:6px 8px;margin-bottom:4px;cursor:pointer;transition:all .15s;box-shadow:0 1px 3px rgba(0,0,0,.06)}
-.mc-card:hover{border-color:#2a6a3a;background:#f0f8f0;box-shadow:0 2px 6px rgba(42,106,58,.15)}
+#matrix td{padding:3px 4px;border:1px solid #d0e8d0;vertical-align:top}
+
+/* Tier 1 — Region header: darkest green, full-width clickable */
+.matrix-t1-cell{background:#0e2a18;cursor:pointer;padding:7px 12px;user-select:none;transition:background .12s;border-top:3px solid #0e2a18}
+.matrix-t1-cell:hover{background:#163d24}
+.m-t1-label{font-size:11px;font-family:'Courier New',monospace;color:#d4e8d0;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.m-toggle{font-size:9px;color:#4a7a55;margin-right:8px;font-family:'Courier New',monospace;display:inline-block;width:8px}
+.m-count{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;margin-left:10px}
+
+/* Tier 2 — Sub-region header: medium green, full-width clickable */
+.matrix-t2-cell{background:#1a3d24;cursor:pointer;padding:5px 12px 5px 22px;user-select:none;transition:background .12s;border-top:1px solid #2a5a38}
+.matrix-t2-cell:hover{background:#224d2e}
+.m-t2-label{font-size:9px;font-family:'Courier New',monospace;color:#a0c8a8;font-weight:600;letter-spacing:.1em;text-transform:uppercase}
+
+/* Tier 3 — Zone rows: light green label, data cells */
+.matrix-zone-row td{background:#f2f8f2}
+.matrix-zone-label{background:#e0eee0 !important;width:100px}
+.m-zone-name{font-size:8px;font-family:'Courier New',monospace;color:#2a5a38;padding:3px 4px;white-space:nowrap;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+
+/* Cross-regional and sub-regional folio rows */
+.matrix-cross-row td,.matrix-sub-row td{background:#eaf4ea}
+.matrix-cross-label,.matrix-sub-label{background:#d4ecd4 !important;width:100px}
+
+/* Module cards */
+.matrix-cell{min-height:24px;border-radius:2px;padding:1px}
+.matrix-cell.empty{background:#e8f2e8;opacity:.35}
+.mc-card{background:#fff;border:1px solid #b8d8b8;border-radius:3px;padding:4px 6px;margin-bottom:2px;cursor:pointer;transition:all .15s;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.mc-card:hover{border-color:#2a6a3a;background:#f0f8f0;box-shadow:0 2px 5px rgba(42,106,58,.15)}
 .mc-card.active{border-color:#0e4a22;background:#e0f0e4;box-shadow:inset 0 0 0 1px #0e4a22}
 .mc-title{font-family:'IM Fell English',serif;font-size:11px;color:#0e2a18;line-height:1.3}
-.mc-sub{font-size:8px;color:#4a7a55;font-family:'Courier New',monospace;margin-top:2px;line-height:1.4}
-.mc-empty{font-size:9px;color:#b8d8b8;font-family:'Courier New',monospace;padding:4px 0;text-align:center}
+.mc-sub-hover{font-size:8px;color:#4a7a55;font-family:'Courier New',monospace;line-height:1.4;max-height:0;overflow:hidden;opacity:0;transition:max-height .18s ease,opacity .18s ease;margin-top:0}
+.mc-card:hover .mc-sub-hover{max-height:36px;opacity:1;margin-top:2px}
+.mc-empty{font-size:8px;color:#c0d8c0;font-family:'Courier New',monospace;padding:2px 0;text-align:center}
 
-/* Picker footer inside scroll area */
-#picker-note{font-size:10px;color:#6a9a7a;font-family:'Courier New',monospace;margin-top:16px;line-height:1.7;border-top:1px solid #b8d8b8;padding-top:12px}
+/* Picker footer */
+#picker-note{font-size:10px;color:#6a9a7a;font-family:'Courier New',monospace;margin-top:12px;line-height:1.7;border-top:1px solid #b8d8b8;padding-top:10px}
 
 /* ── FULL-WIDTH CONTENT WRAPPER ── */
 #content-wrap{max-width:none;width:100%;padding:0}
@@ -187,11 +210,11 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
         <button id="picker-close" onclick="closePicker(true)" style="visibility:hidden">✕ CLOSE</button>
       </div>
       <div id="global-search-wrap">
-        <input id="global-search" placeholder="Search across all modules — rulers, battles, manuscripts, places…"
+        <input id="global-search" placeholder="Search across all folios — rulers, battles, manuscripts, places…"
           oninput="globalSearch(this.value)" autocomplete="off">
         <div id="global-results"></div>
       </div>
-      <div id="matrix-label">SELECT MODULE BY REGION × PERIOD</div>
+      <div id="matrix-label">SELECT A FOLIO BY REGION × PERIOD</div>
     </div>
     <div id="matrix-wrap">
       <table id="matrix">
@@ -208,11 +231,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
         </thead>
         <tbody id="matrix-body"></tbody>
       </table>
-      <div id="picker-note">
-        To add a module: generate a JSON in this chat, save it to modules/ in your repo,<br>
-        add it to the MODULES list in index.html with region + period fields.<br>
-        Empty cells show where modules can still be built.
-      </div>
+      <div id="picker-note"></div>
     </div>
   </div>
 </div>
@@ -259,17 +278,20 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 <script>
 // ── MODULE REGISTRY ───────────────────────────────────────────────────────────
 const MODULES = [
-  { id:"rome-400-500",      file:"modules/rome-400-500.json",      label:"Roman Empire",       sub:"400–500 AD · Fall of the West",                region:"Europe",    period:"Late Antique"  },
-  { id:"rome-300-400",      file:"modules/rome-300-400.json",      label:"Roman Empire",       sub:"300–400 AD · Constantine to Theodosius",        region:"Europe",    period:"Late Antique"  },
-  { id:"rome-200-300",      file:"modules/rome-200-300.json",      label:"Roman Empire",       sub:"200–300 AD · Third Century Crisis",             region:"Europe",    period:"Late Antique"  },
-  { id:"sassanid-224-484",  file:"modules/sassanid-224-484.json",  label:"Sassanid Empire",    sub:"224–484 AD · Foundation to Hephthalite Crisis", region:"Near East", period:"Late Antique"  },
-  { id:"sassanid-484-651",  file:"modules/sassanid-484-651.json",  label:"Sassanid Empire",    sub:"484–651 AD · Renewal, Apogee and Collapse",     region:"Near East", period:"Late Antique"  },
-  { id:"lakhmid-268-602",   file:"modules/lakhmid-268-602.json",   label:"Lakhmid Kingdom",    sub:"c.268–638 AD · The Nasrid Kings of al-Hira",    region:"Near East", period:"Late Antique"  },
-  { id:"ghassanid-420-638", file:"modules/ghassanid-420-638.json", label:"Ghassanid Kingdom",  sub:"c.420–638 AD · The Jafnid Kings of the Syrian Steppe", region:"Near East", period:"Late Antique" },
-  { id:"nabataean-400bc-106ce", file:"modules/nabataean-400bc-106ce.json", label:"Nabataean Kingdom", sub:"c.400 BC–106 AD · The Incense Kingdom of Petra", region:"Near East", period:"Late Antique" },
-  { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire",  sub:"c.100 BC–273 AD · Caravan City to Queen of the East", region:"Near East", period:"Late Antique" },
-  { id:"france-1494-1610",  file:"modules/france-1494-1610.json",  label:"Kingdom of France",  sub:"1494–1610 · Renaissance, Reformation & Wars of Religion", region:"Europe", period:"Early Modern" },
-  // To add a module: { id:"...", file:"modules/....json", label:"...", sub:"...", region:"...", period:"..." }
+  // ── EUROPE ─────────────────────────────────────────────────────────────────
+  // Roman Empire spans Europe + Near East + North Africa → top-level "Europe"
+  { id:"rome-400-500",      file:"modules/rome-400-500.json",      label:"Roman Empire",      sub:"400–500 AD · Fall of the West",                          region:"Europe",      period:"Late Antique" },
+  { id:"rome-300-400",      file:"modules/rome-300-400.json",      label:"Roman Empire",      sub:"300–400 AD · Constantine to Theodosius",                 region:"Europe",      period:"Late Antique" },
+  { id:"rome-200-300",      file:"modules/rome-200-300.json",      label:"Roman Empire",      sub:"200–300 AD · Third Century Crisis",                      region:"Europe",      period:"Late Antique" },
+  { id:"france-1494-1610",  file:"modules/france-1494-1610.json",  label:"Kingdom of France", sub:"1494–1610 · Renaissance, Reformation & Wars of Religion", region:"France",      period:"Early Modern" },
+  // ── NEAR EAST ──────────────────────────────────────────────────────────────
+  { id:"sassanid-224-484",  file:"modules/sassanid-224-484.json",  label:"Sassanid Empire",   sub:"224–484 AD · Foundation to Hephthalite Crisis",          region:"Iran",        period:"Late Antique" },
+  { id:"sassanid-484-651",  file:"modules/sassanid-484-651.json",  label:"Sassanid Empire",   sub:"484–651 AD · Renewal, Apogee and Collapse",              region:"Iran",        period:"Late Antique" },
+  { id:"lakhmid-268-602",   file:"modules/lakhmid-268-602.json",   label:"Lakhmid Kingdom",   sub:"c.268–638 AD · The Nasrid Kings of al-Hira",             region:"Iraq",        period:"Late Antique" },
+  { id:"ghassanid-420-638", file:"modules/ghassanid-420-638.json", label:"Ghassanid Kingdom", sub:"c.420–638 AD · The Jafnid Kings of the Syrian Steppe",   region:"Levant",      period:"Late Antique" },
+  { id:"nabataean-400bc-106ce", file:"modules/nabataean-400bc-106ce.json", label:"Nabataean Kingdom", sub:"c.400 BC–106 AD · The Incense Kingdom of Petra", region:"Arabia",      period:"Late Antique" },
+  { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire",  sub:"c.100 BC–273 AD · Caravan City to Queen of the East", region:"Levant",  period:"Late Antique" },
+  // To add a folio: { id, file, label, sub, region:"[zone id or sub-region id or region id]", period:"[period id]" }
 ];
 
 // ── ICON MAP: override per category id ───────────────────────────────────────
@@ -359,48 +381,258 @@ function setView(v) {
   if (v==='timeline') setTimeout(buildTimeline, 40);
 }
 
-// ── MODULE MATRIX PICKER ──────────────────────────────────────────────────────
-const REGIONS = ['Europe','Near East','Far East','Africa','Americas & Oceania'];
-const PERIODS = [
-  { id:'Prehistoric',   label:'Prehistoric',   sub:'till 1200 BC' },
-  { id:'Ancient',       label:'Ancient',        sub:'1200–300 BC'  },
-  { id:'Late Antique',  label:'Late Antique',   sub:'300 BC–600 AD'},
-  { id:'Medieval',      label:'Medieval',       sub:'600–1500 AD'  },
-  { id:'Early Modern',  label:'Early Modern',   sub:'1500–1900'    },
-  { id:'Modern',        label:'Modern',         sub:'1900–today'   },
+// ── FOLIO MATRIX — THREE-TIER TAXONOMY ───────────────────────────────────────
+// Tier 1: Region        e.g. "Near East"
+// Tier 2: Sub-region    e.g. "West Asia"
+// Tier 3: Zone          e.g. "Turkey"
+//
+// Folio placement rules:
+//   - Single zone entity   → zone ID       e.g. region:"Turkey"
+//   - Spans a sub-region   → sub-region ID e.g. region:"West Asia"
+//   - Spans a full region  → region ID     e.g. region:"Near East"
+//   - Cross-regional       → core region ID (Roman Empire → "Europe")
+
+const TAXONOMY = [
+  { id:'Europe', label:'Europe', subs:[
+    { id:'South Europe', label:'South Europe', zones:[
+      { id:'Iberia',        label:'Iberia',        detail:'Spain · Portugal' },
+      { id:'Mediterranean', label:'Mediterranean', detail:'Italy · Greece · Malta · Cyprus' },
+    ]},
+    { id:'West Europe', label:'West Europe', zones:[
+      { id:'Britain',      label:'Britain',      detail:'England · Scotland · Wales · Ireland' },
+      { id:'France',       label:'France',       detail:'France · Monaco' },
+      { id:'Low Countries',label:'Low Countries',detail:'Belgium · Netherlands · Luxembourg' },
+      { id:'Germany',      label:'Germany',      detail:'Germany · Austria · Switzerland' },
+    ]},
+    { id:'Central Europe', label:'Central Europe', zones:[
+      { id:'Poland',       label:'Poland',       detail:'Poland' },
+      { id:'Bohemia',      label:'Bohemia',      detail:'Czechia · Slovakia' },
+      { id:'Pannonia',     label:'Pannonia',     detail:'Hungary · Slovenia · Croatia' },
+    ]},
+    { id:'North Europe', label:'North Europe', zones:[
+      { id:'Scandinavia',  label:'Scandinavia',  detail:'Denmark · Sweden · Norway' },
+      { id:'Finland',      label:'Finland',      detail:'Finland · Estonia' },
+      { id:'Iceland',      label:'Iceland',      detail:'Iceland' },
+      { id:'Baltic States',label:'Baltic States',detail:'Latvia · Lithuania' },
+    ]},
+    { id:'East Europe', label:'East Europe', zones:[
+      { id:'Russia West',  label:'Russia (W)',   detail:'European Russia' },
+      { id:'Ukraine',      label:'Ukraine',      detail:'Ukraine · Belarus · Moldova' },
+      { id:'Romania',      label:'Romania',      detail:'Romania · Bulgaria' },
+      { id:'West Balkans', label:'W. Balkans',   detail:'Serbia · Croatia · Bosnia · Albania · N. Macedonia · Montenegro' },
+    ]},
+  ]},
+  { id:'Near East', label:'Near East', subs:[
+    { id:'West Asia', label:'West Asia', zones:[
+      { id:'Turkey',   label:'Turkey',   detail:'Anatolia · Thrace' },
+      { id:'Caucasus', label:'Caucasus', detail:'Armenia · Georgia · Azerbaijan' },
+      { id:'Levant',   label:'Levant',   detail:'Syria · Lebanon · Palestine · Jordan · Israel' },
+      { id:'Egypt',    label:'Egypt',    detail:'Nile Valley · Sinai · Delta' },
+      { id:'Arabia',   label:'Arabia',   detail:'Arabian Peninsula · Hejaz · Yemen · Oman · Gulf' },
+      { id:'Iraq',     label:'Iraq',     detail:'Mesopotamia · Tigris-Euphrates basin' },
+      { id:'Iran',     label:'Iran',     detail:'Persia · Fars · Khorasan · Zagros' },
+    ]},
+  ]},
+  { id:'Far East', label:'Far East', subs:[
+    { id:'North Asia', label:'North Asia', zones:[
+      { id:'Siberia',  label:'Siberia',   detail:'Siberia · Russian Far East' },
+    ]},
+    { id:'Central Asia', label:'Central Asia', zones:[
+      { id:'Steppe',   label:'Steppe',    detail:'Kazakhstan · Kyrgyzstan · Mongolia (steppe)' },
+      { id:'Oxus',     label:'Oxus',      detail:'Uzbekistan · Tajikistan · Turkmenistan · Afghanistan' },
+    ]},
+    { id:'East Asia', label:'East Asia', zones:[
+      { id:'China',    label:'China',     detail:'China · Tibet · Xinjiang' },
+      { id:'Mongolia', label:'Mongolia',  detail:'Mongolia' },
+      { id:'Korea',    label:'Korea',     detail:'Korean Peninsula' },
+      { id:'Japan',    label:'Japan',     detail:'Japanese Archipelago' },
+    ]},
+    { id:'South Asia', label:'South Asia', zones:[
+      { id:'North India', label:'N. India',  detail:'North India · Pakistan' },
+      { id:'Himalaya',    label:'Himalaya',  detail:'Nepal · Bhutan · Tibet' },
+      { id:'Deccan',      label:'Deccan',    detail:'Central India' },
+      { id:'South India', label:'S. India',  detail:'South India · Sri Lanka' },
+    ]},
+    { id:'South East Asia', label:'SE Asia', zones:[
+      { id:'Mainland SEA', label:'Mainland', detail:'Vietnam · Cambodia · Laos · Thailand · Myanmar' },
+      { id:'Maritime SEA', label:'Maritime', detail:'Malaysia · Indonesia · Philippines' },
+    ]},
+  ]},
+  { id:'Africa', label:'Africa', subs:[
+    { id:'North Africa', label:'North Africa', zones:[
+      { id:'Maghreb',    label:'Maghreb',    detail:'Morocco · Algeria · Tunisia · Libya' },
+      { id:'Nile Sudan', label:'Nile/Sudan', detail:'Egypt (historical) · Sudan · Ethiopia' },
+    ]},
+    { id:'West Africa', label:'West Africa', zones:[
+      { id:'Sahel',      label:'Sahel',      detail:'Mali · Niger · Chad · Mauritania' },
+      { id:'Gulf Guinea',label:'Gulf Guinea',detail:'Nigeria · Ghana · Senegal · Ivory Coast · Benin' },
+    ]},
+    { id:'East Africa', label:'East Africa', zones:[
+      { id:'Horn',       label:'Horn',       detail:'Ethiopia · Somalia · Eritrea · Djibouti' },
+      { id:'Great Lakes',label:'Great Lakes',detail:'Kenya · Tanzania · Uganda · Rwanda · Burundi' },
+    ]},
+    { id:'Central Africa', label:'Central Africa', zones:[
+      { id:'Congo Basin',label:'Congo Basin',detail:'DRC · Congo · Cameroon · Gabon · CAR' },
+    ]},
+    { id:'South Africa', label:'South Africa', zones:[
+      { id:'Southern Africa',label:'S. Africa',detail:'South Africa · Zimbabwe · Mozambique · Zambia · Namibia · Botswana' },
+      { id:'Madagascar',     label:'Madagascar',detail:'Madagascar · Comoros · Réunion' },
+    ]},
+  ]},
+  { id:'Americas', label:'Americas', subs:[
+    { id:'North America', label:'North America', zones:[
+      { id:'Canada',         label:'Canada',         detail:'Canada' },
+      { id:'United States',  label:'United States',  detail:'United States' },
+      { id:'Mexico',         label:'Mexico',         detail:'Mexico' },
+    ]},
+    { id:'Central America', label:'Central America', zones:[
+      { id:'Mesoamerica',    label:'Mesoamerica',    detail:'Guatemala · Belize · Honduras · El Salvador · Nicaragua · Costa Rica · Panama' },
+      { id:'Caribbean',      label:'Caribbean',      detail:'Cuba · Haiti · Dominican Republic · Jamaica · Puerto Rico' },
+    ]},
+    { id:'South America', label:'South America', zones:[
+      { id:'Andes',          label:'Andes',          detail:'Peru · Bolivia · Ecuador · Chile · Colombia · Venezuela' },
+      { id:'Brazil',         label:'Brazil',         detail:'Brazil' },
+      { id:'Southern Cone',  label:'S. Cone',        detail:'Argentina · Uruguay · Paraguay' },
+    ]},
+  ]},
+  { id:'Oceania', label:'Oceania', subs:[
+    { id:'Australia & NZ', label:'Australia & NZ', zones:[
+      { id:'Australia',    label:'Australia',    detail:'Australian continent' },
+      { id:'New Zealand',  label:'New Zealand',  detail:'New Zealand' },
+    ]},
+    { id:'Pacific', label:'Pacific Islands', zones:[
+      { id:'Melanesia',    label:'Melanesia',    detail:'Papua New Guinea · Fiji · Solomon Islands · Vanuatu' },
+      { id:'Polynesia',    label:'Polynesia',    detail:'Samoa · Tonga · Hawaii · Easter Island · French Polynesia' },
+      { id:'Micronesia',   label:'Micronesia',   detail:'Guam · Palau · Marshall Islands · Federated States of Micronesia' },
+    ]},
+  ]},
 ];
+
+const PERIODS = [
+  { id:'Prehistoric',  label:'Prehistoric',  sub:'till 1200 BC'  },
+  { id:'Ancient',      label:'Ancient',       sub:'1200–300 BC'   },
+  { id:'Late Antique', label:'Late Antique',  sub:'300 BC–600 AD' },
+  { id:'Medieval',     label:'Medieval',      sub:'600–1500 AD'   },
+  { id:'Early Modern', label:'Early Modern',  sub:'1500–1900'     },
+  { id:'Modern',       label:'Modern',        sub:'1900–today'    },
+];
+
+// Collapse state: tier1 and tier2 both start collapsed
+const _t1Collapsed = {}, _t2Collapsed = {};
+TAXONOMY.forEach(r => {
+  _t1Collapsed[r.id] = true;
+  r.subs.forEach(s => { _t2Collapsed[s.id] = true; });
+});
+
+// Collect all IDs at every tier for counting
+function _allZoneIds(region) {
+  const ids = [region.id];
+  region.subs.forEach(s => {
+    ids.push(s.id);
+    s.zones.forEach(z => ids.push(z.id));
+  });
+  return ids;
+}
+
+function _subZoneIds(sub) {
+  return [sub.id, ...sub.zones.map(z => z.id)];
+}
 
 function buildMatrix() {
   const tbody = document.getElementById('matrix-body');
   tbody.innerHTML = '';
-  REGIONS.forEach(region => {
-    const tr = document.createElement('tr');
-    // Region label cell
-    const th = document.createElement('td');
-    th.innerHTML = `<div class="matrix-region">${region}</div>`;
-    tr.appendChild(th);
-    // Period cells
-    PERIODS.forEach(period => {
-      const td = document.createElement('td');
-      const mods = MODULES.filter(m => m.region === region && m.period === period.id);
-      const cell = document.createElement('div');
-      cell.className = 'matrix-cell' + (mods.length === 0 ? ' empty' : '');
-      if (mods.length === 0) {
-        cell.innerHTML = `<div class="mc-empty">—</div>`;
-      } else {
-        mods.forEach(m => {
-          const card = document.createElement('div');
-          card.className = 'mc-card' + (MOD && MOD.id === m.id ? ' active' : '');
-          card.innerHTML = `<div class="mc-title">${m.label}</div><div class="mc-sub">${m.sub}</div>`;
-      card.onclick = () => { closePicker(true); loadModule(m.file); };
-          cell.appendChild(card);
-        });
-      }
-      td.appendChild(cell);
-      tr.appendChild(td);
+
+  TAXONOMY.forEach(region => {
+    const t1Collapsed = _t1Collapsed[region.id];
+    const allIds = _allZoneIds(region);
+    const folioCount = MODULES.filter(m => allIds.includes(m.region)).length;
+
+    // ── Tier 1: Region header ──────────────────────────────────────────────
+    const t1tr = document.createElement('tr');
+    t1tr.className = 'matrix-t1-row';
+    const t1td = document.createElement('td');
+    t1td.colSpan = PERIODS.length + 1;
+    t1td.className = 'matrix-t1-cell';
+    t1td.innerHTML = `
+      <span class="m-toggle">${t1Collapsed ? '▶' : '▼'}</span>
+      <span class="m-t1-label">${region.label}</span>
+      ${folioCount > 0 ? `<span class="m-count">${folioCount} folio${folioCount > 1 ? 's' : ''}</span>` : ''}
+    `;
+    t1td.onclick = () => { _t1Collapsed[region.id] = !_t1Collapsed[region.id]; buildMatrix(); };
+    t1tr.appendChild(t1td);
+    tbody.appendChild(t1tr);
+    if (t1Collapsed) return;
+
+    // Folios assigned directly to the region (cross-regional)
+    _appendFolioRow(tbody, region.label, 'cross', MODULES.filter(m => m.region === region.id));
+
+    // ── Tier 2: Sub-region rows ────────────────────────────────────────────
+    region.subs.forEach(sub => {
+      const t2Collapsed = _t2Collapsed[sub.id];
+      const subIds = _subZoneIds(sub);
+      const subCount = MODULES.filter(m => subIds.includes(m.region)).length;
+
+      const t2tr = document.createElement('tr');
+      t2tr.className = 'matrix-t2-row';
+      const t2td = document.createElement('td');
+      t2td.colSpan = PERIODS.length + 1;
+      t2td.className = 'matrix-t2-cell';
+      t2td.innerHTML = `
+        <span class="m-toggle">${t2Collapsed ? '▶' : '▼'}</span>
+        <span class="m-t2-label">${sub.label}</span>
+        ${subCount > 0 ? `<span class="m-count">${subCount} folio${subCount > 1 ? 's' : ''}</span>` : ''}
+      `;
+      t2td.onclick = () => { _t2Collapsed[sub.id] = !_t2Collapsed[sub.id]; buildMatrix(); };
+      t2tr.appendChild(t2td);
+      tbody.appendChild(t2tr);
+      if (t2Collapsed) return;
+
+      // Folios assigned to the sub-region level (span sub-region)
+      _appendFolioRow(tbody, sub.label, 'sub', MODULES.filter(m => m.region === sub.id));
+
+      // ── Tier 3: Zone rows ────────────────────────────────────────────────
+      sub.zones.forEach(zone => {
+        _appendFolioRow(tbody, zone.label, 'zone', MODULES.filter(m => m.region === zone.id));
+      });
     });
-    tbody.appendChild(tr);
   });
+}
+
+function _appendFolioRow(tbody, label, tier, mods) {
+  // For zone rows: always show even if empty
+  // For cross/sub rows: only show if there are folios
+  if ((tier === 'cross' || tier === 'sub') && mods.length === 0) return;
+
+  const tr = document.createElement('tr');
+  tr.className = `matrix-${tier}-row`;
+
+  const labelTd = document.createElement('td');
+  labelTd.className = `matrix-${tier}-label`;
+  labelTd.innerHTML = `<div class="m-zone-name">${label}</div>`;
+  tr.appendChild(labelTd);
+
+  PERIODS.forEach(period => {
+    const td = document.createElement('td');
+    const periodMods = mods.filter(m => m.period === period.id);
+    const cell = document.createElement('div');
+    cell.className = 'matrix-cell' + (periodMods.length === 0 ? ' empty' : '');
+
+    if (periodMods.length === 0) {
+      cell.innerHTML = `<div class="mc-empty">—</div>`;
+    } else {
+      periodMods.forEach(m => {
+        const card = document.createElement('div');
+        card.className = 'mc-card' + (MOD && MOD.id === m.id ? ' active' : '');
+        card.innerHTML = `<div class="mc-title">${m.label}</div><div class="mc-sub-hover">${m.sub}</div>`;
+        card.onclick = () => { closePicker(true); loadModule(m.file); };
+        cell.appendChild(card);
+      });
+    }
+    td.appendChild(cell);
+    tr.appendChild(td);
+  });
+
+  tbody.appendChild(tr);
 }
 
 function openPicker() {
@@ -504,7 +736,7 @@ function runSearch(q) {
   });
 
   if (hits.length === 0) {
-    resultsEl.innerHTML = `<div class="gr-no-results">No results for "${q}" across ${MODULES.length} modules</div>`;
+    resultsEl.innerHTML = `<div class="gr-no-results">No results for "${q}" across ${MODULES.length} folios</div>`;
     return;
   }
 
