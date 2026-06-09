@@ -2,7 +2,10 @@
   "id": "rome-300-400",
   "title": "Roman Empire",
   "subtitle": "300–400 AD · Constantine to Theodosius",
-  "period": "Late Antique",
+  "period": {
+    "start": 300,
+    "end": 400
+  },
   "mapCenter": [
     41,
     22
@@ -1559,5 +1562,6 @@
       ]
     }
   ],
-  "region": "Europe"
+  "region": "Europe",
+  "period_label": "Late Antique"
 }
