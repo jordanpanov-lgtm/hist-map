@@ -279,24 +279,23 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 // ── MODULE REGISTRY ───────────────────────────────────────────────────────────
 const MODULES = [
   // ── EUROPE ─────────────────────────────────────────────────────────────────
-  // Roman Empire spans Europe + Near East + North Africa → top-level "Europe"
-  { id:"rome-400-500",      file:"modules/rome-400-500.json",      label:"Roman Empire",      sub:"400–500 AD · Fall of the West",                          region:"Europe",      period:"Late Antique" },
-  { id:"rome-300-400",      file:"modules/rome-300-400.json",      label:"Roman Empire",      sub:"300–400 AD · Constantine to Theodosius",                 region:"Europe",      period:"Late Antique" },
-  { id:"rome-200-300",      file:"modules/rome-200-300.json",      label:"Roman Empire",      sub:"200–300 AD · Third Century Crisis",                      region:"Europe",      period:"Late Antique" },
-  { id:"france-1494-1610",  file:"modules/france-1494-1610.json",  label:"Kingdom of France", sub:"1494–1610 · Renaissance, Reformation & Wars of Religion", region:"France",      period:"Early Modern" },
-  { id:"spain-1516-1700",  file:"modules/spain-1516-1700.json",  label:"Spanish Habsburg Empire", sub:"1516–1700 · The First Global Empire",                              region:"Iberia", period:"Early Modern" },
-  { id:"spain-1700-1808",  file:"modules/spain-1700-1808.json",  label:"Bourbon Spain",           sub:"1700–1808 · War of Succession, Enlightenment and Reform",         region:"Iberia", period:"Early Modern" },
-  { id:"spain-1808-1900",  file:"modules/spain-1808-1900.json",  label:"Spain",                   sub:"1808–1900 · Peninsular War, Constitutions and the Long Crisis",   region:"Iberia", period:"Early Modern" },
-  { id:"spain-1900-1975",          file:"modules/spain-1900-1975.json",          label:"Spain",                   sub:"1900–1975 · Crisis, Republic, Civil War and Dictatorship",         region:"Iberia", period:"Modern"       },
-  { id:"spain-1975-today",         file:"modules/spain-1975-today.json",         label:"Spain",                   sub:"1975–today · Transition, Democracy and the Unfinished Nation",     region:"Iberia", period:"Modern"       },
+  { id:"rome-200-300",          file:"modules/rome-200-300.json",          label:"Roman Empire 200–300",        sub:"Third Century Crisis",                        region:"Europe",  period:"Late Antique"  },
+  { id:"rome-300-400",          file:"modules/rome-300-400.json",          label:"Roman Empire 300–400",        sub:"Constantine to Theodosius",                   region:"Europe",  period:"Late Antique"  },
+  { id:"rome-400-500",          file:"modules/rome-400-500.json",          label:"Roman Empire 400–500",        sub:"Fall of the West",                            region:"Europe",  period:"Late Antique"  },
+  { id:"france-1494-1610",      file:"modules/france-1494-1610.json",      label:"Kingdom of France 1494–1610", sub:"Renaissance, Reformation & Wars of Religion", region:"France",  period:"Early Modern"  },
+  { id:"spain-1516-1700",       file:"modules/spain-1516-1700.json",       label:"Habsburg Spain 1516–1700",    sub:"The First Global Empire",                     region:"Iberia",  period:"Early Modern"  },
+  { id:"spain-1700-1808",       file:"modules/spain-1700-1808.json",       label:"Bourbon Spain 1700–1808",     sub:"Enlightenment & Reform",                      region:"Iberia",  period:"Early Modern"  },
+  { id:"spain-1808-1900",       file:"modules/spain-1808-1900.json",       label:"Spain 1808–1900",             sub:"Peninsular War & the Long Crisis",             region:"Iberia",  period:"Early Modern"  },
+  { id:"spain-1900-1975",       file:"modules/spain-1900-1975.json",       label:"Spain 1900–1975",             sub:"Republic, Civil War & Dictatorship",           region:"Iberia",  period:"Modern"        },
+  { id:"spain-1975-today",      file:"modules/spain-1975-today.json",      label:"Spain 1975–today",            sub:"Transition & Democracy",                      region:"Iberia",  period:"Modern"        },
   // ── NEAR EAST ──────────────────────────────────────────────────────────────
-  { id:"sassanid-224-484",  file:"modules/sassanid-224-484.json",  label:"Sassanid Empire",   sub:"224–484 AD · Foundation to Hephthalite Crisis",          region:"Iran",        period:"Late Antique" },
-  { id:"sassanid-484-651",  file:"modules/sassanid-484-651.json",  label:"Sassanid Empire",   sub:"484–651 AD · Renewal, Apogee and Collapse",              region:"Iran",        period:"Late Antique" },
-  { id:"lakhmid-268-602",   file:"modules/lakhmid-268-602.json",   label:"Lakhmid Kingdom",   sub:"c.268–638 AD · The Nasrid Kings of al-Hira",             region:"Iraq",        period:"Late Antique" },
-  { id:"ghassanid-420-638", file:"modules/ghassanid-420-638.json", label:"Ghassanid Kingdom", sub:"c.420–638 AD · The Jafnid Kings of the Syrian Steppe",   region:"Levant",      period:"Late Antique" },
-  { id:"nabataean-400bc-106ce", file:"modules/nabataean-400bc-106ce.json", label:"Nabataean Kingdom", sub:"c.400 BC–106 AD · The Incense Kingdom of Petra", region:"Arabia",      period:"Late Antique" },
-  { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire",  sub:"c.100 BC–273 AD · Caravan City to Queen of the East", region:"Levant",  period:"Late Antique" },
-  // To add a folio: { id, file, label, sub, region:"[zone id or sub-region id or region id]", period:"[period id]" }
+  { id:"nabataean-400bc-106ce", file:"modules/nabataean-400bc-106ce.json", label:"Nabataean Kingdom 400BC–106", sub:"The Incense Kingdom of Petra",                region:"Arabia",  period:"Late Antique"  },
+  { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
+  { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
+  { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
+  { id:"sassanid-224-484",      file:"modules/sassanid-224-484.json",      label:"Sassanid Empire 224–484",     sub:"Foundation to Hephthalite Crisis",            region:"Iran",    period:"Late Antique"  },
+  { id:"sassanid-484-651",      file:"modules/sassanid-484-651.json",      label:"Sassanid Empire 484–651",     sub:"Renewal, Apogee & Collapse",                  region:"Iran",    period:"Late Antique"  },
+  // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
 
 // ── ICON MAP: override per category id ───────────────────────────────────────
