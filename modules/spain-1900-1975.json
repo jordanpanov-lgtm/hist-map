@@ -2,171 +2,877 @@
   "id": "spain-1900-1975",
   "title": "Spain",
   "subtitle": "1900–1975 · Crisis, Republic, Civil War and Dictatorship",
-  "period": { "start": 1900, "end": 1975 },
+  "period": {
+    "start": 1900,
+    "end": 1975
+  },
   "region": "Iberia",
   "period_label": "Modern",
-  "mapCenter": [40.4, -3.7],
+  "mapCenter": [
+    40.4,
+    -3.7
+  ],
   "mapZoom": 6,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#5C0A00", "accent": "#A0200A", "bg": "#FFF5EE",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "bg": "#FFF5EE",
       "subtitle": "Monarchy, Republic, military coup and dictatorship",
       "entries": [
-        { "id":"k1", "group":"Restoration Monarchy (1874–1931)", "dynasty":"Bourbon", "label":"Alfonso XIII — the last Restoration king", "date":"1902–1931", "loc":"Madrid (Royal Palace)", "coords":[40.42,-3.71], "hint":"Alfonso XIII reigns through colonial collapse, the 1923 military coup, and growing republican pressure — he goes into exile on 14 April 1931 after republican parties win local elections, interpreted as a referendum against the monarchy.", "tag":"SUCCESSION", "note":"Alfonso XIII's abdication letter (14 Apr 1931): published in full in La Gaceta de Madrid (official gazette) and major newspapers of the day. The 1931 local election results — the trigger for his departure — are in the Archivo Histórico Nacional (AHN). Preston (2004), Juan Carlos: A People's King, ch.1 for context." },
-        { "id":"k2", "group":"Second Republic (1931–1936)", "dynasty":"Republic", "label":"Second Spanish Republic proclaimed", "date":"14 Apr 1931", "loc":"Madrid (Puerta del Sol)", "coords":[40.42,-3.7], "hint":"The Second Republic is proclaimed from the balcony of the Interior Ministry at the Puerta del Sol — a jubilant popular moment; the Republic will govern through four phases before the Civil War destroys it.", "tag":"SUCCESSION", "note":"Proclamation 14 April 1931: La Gaceta de Madrid, 15 Apr 1931 — the official gazette records the Provisional Government. Photographs: Agencia EFE archive. The Provisional Government's composition: documented in the same gazette. Carr (1982), Spain 1808–1975: the standard English-language history of the Republic." },
-        { "id":"k3", "group":"Civil War (1936–1939)", "dynasty":"Nationalist", "label":"Franco's coup and the military uprising", "date":"17–18 Jul 1936", "loc":"Melilla (Morocco, 17 Jul); mainland Spain (18 Jul)", "coords":[35.29,-2.94], "hint":"The military uprising begins in Spanish Morocco on 17 July 1936 — within hours Franco broadcasts his manifesto; the coup fails to take Madrid and Barcelona immediately, triggering three years of civil war rather than a quick seizure of power.", "tag":"COUP", "note":"Franco's manifesto (18 Jul 1936): text published in Diario de Burgos and preserved in AHN. The telegram from Melilla beginning the uprising: documented in military archives. Thomas (1961), The Spanish Civil War: the foundational English-language study. Jackson (1965), The Spanish Republic and the Civil War." },
-        { "id":"k4", "group":"Civil War (1936–1939)", "dynasty":"Nationalist", "label":"Franco declared Generalísimo and head of state", "date":"1 Oct 1936", "loc":"Burgos (Nationalist headquarters)", "coords":[42.34,-3.7], "hint":"The Nationalist junta elevates Franco to supreme command and head of government — the decree is published in the official Nationalist bulletin; his consolidation of personal power over rival generals begins immediately.", "tag":"SUCCESSION", "note":"Boletín Oficial de la Junta de Defensa Nacional, 1 Oct 1936: the decree text. The internal politics of the elevation: Preston (1993), Franco: A Biography, ch.10. The elimination of rival Nationalist leaders (Mola, José Antonio Primo de Rivera) consolidates Franco's position through 1937." },
-        { "id":"k5", "group":"Francoist Dictatorship (1939–1975)", "dynasty":"Francoist", "label":"Franco — 36 years of dictatorship", "date":"1 Apr 1939–20 Nov 1975", "loc":"El Pardo Palace (Madrid) — Franco's residence", "coords":[40.51,-3.78], "hint":"Francisco Franco rules Spain from April 1939 to his death on 20 November 1975 — the longest dictatorship in 20th-century Western Europe; his regime archives are partly in the AHN and partly still classified.", "tag":"SUCCESSION", "note":"Franco's death certificate 20 Nov 1975: registered in Madrid civil registry. The Valle de los Caídos decree (Apr 1940): BOE. Franco's 36 years of rule: documented in Boletín Oficial del Estado (BOE), the official state gazette, throughout. Preston (1993), Franco: A Biography: the standard modern biography (900pp)." }
+        {
+          "id": "k1",
+          "group": "Restoration Monarchy (1874–1931)",
+          "dynasty": "Bourbon",
+          "label": "Alfonso XIII — the last Restoration king",
+          "date": "1902–1931",
+          "loc": "Madrid (Royal Palace)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Alfonso XIII reigns through colonial collapse, the 1923 military coup, and growing republican pressure — he goes into exile on 14 April 1931 after republican parties win local elections, interpreted as a referendum against the monarchy.",
+          "tag": "SUCCESSION",
+          "note": "Alfonso XIII's abdication letter (14 Apr 1931): published in full in La Gaceta de Madrid (official gazette) and major newspapers of the day. The 1931 local election results — the trigger for his departure — are in the Archivo Histórico Nacional (AHN). Preston (2004), Juan Carlos: A People's King, ch.1 for context."
+        },
+        {
+          "id": "k2",
+          "group": "Second Republic (1931–1936)",
+          "dynasty": "Republic",
+          "label": "Second Spanish Republic proclaimed",
+          "date": "14 Apr 1931",
+          "loc": "Madrid (Puerta del Sol)",
+          "coords": [
+            40.42,
+            -3.7
+          ],
+          "hint": "The Second Republic is proclaimed from the balcony of the Interior Ministry at the Puerta del Sol — a jubilant popular moment; the Republic will govern through four phases before the Civil War destroys it.",
+          "tag": "SUCCESSION",
+          "note": "Proclamation 14 April 1931: La Gaceta de Madrid, 15 Apr 1931 — the official gazette records the Provisional Government. Photographs: Agencia EFE archive. The Provisional Government's composition: documented in the same gazette. Carr (1982), Spain 1808–1975: the standard English-language history of the Republic."
+        },
+        {
+          "id": "k3",
+          "group": "Civil War (1936–1939)",
+          "dynasty": "Nationalist",
+          "label": "Franco's coup and the military uprising",
+          "date": "17–18 Jul 1936",
+          "loc": "Melilla (Morocco, 17 Jul); mainland Spain (18 Jul)",
+          "coords": [
+            35.29,
+            -2.94
+          ],
+          "hint": "The military uprising begins in Spanish Morocco on 17 July 1936 — within hours Franco broadcasts his manifesto; the coup fails to take Madrid and Barcelona immediately, triggering three years of civil war rather than a quick seizure of power.",
+          "tag": "COUP",
+          "note": "Franco's manifesto (18 Jul 1936): text published in Diario de Burgos and preserved in AHN. The telegram from Melilla beginning the uprising: documented in military archives. Thomas (1961), The Spanish Civil War: the foundational English-language study. Jackson (1965), The Spanish Republic and the Civil War."
+        },
+        {
+          "id": "k4",
+          "group": "Civil War (1936–1939)",
+          "dynasty": "Nationalist",
+          "label": "Franco declared Generalísimo and head of state",
+          "date": "1 Oct 1936",
+          "loc": "Burgos (Nationalist headquarters)",
+          "coords": [
+            42.34,
+            -3.7
+          ],
+          "hint": "The Nationalist junta elevates Franco to supreme command and head of government — the decree is published in the official Nationalist bulletin; his consolidation of personal power over rival generals begins immediately.",
+          "tag": "SUCCESSION",
+          "note": "Boletín Oficial de la Junta de Defensa Nacional, 1 Oct 1936: the decree text. The internal politics of the elevation: Preston (1993), Franco: A Biography, ch.10. The elimination of rival Nationalist leaders (Mola, José Antonio Primo de Rivera) consolidates Franco's position through 1937."
+        },
+        {
+          "id": "k5",
+          "group": "Francoist Dictatorship (1939–1975)",
+          "dynasty": "Francoist",
+          "label": "Franco — 36 years of dictatorship",
+          "date": "1 Apr 1939–20 Nov 1975",
+          "loc": "El Pardo Palace (Madrid) — Franco's residence",
+          "coords": [
+            40.51,
+            -3.78
+          ],
+          "hint": "Francisco Franco rules Spain from April 1939 to his death on 20 November 1975 — the longest dictatorship in 20th-century Western Europe; his regime archives are partly in the AHN and partly still classified.",
+          "tag": "SUCCESSION",
+          "note": "Franco's death certificate 20 Nov 1975: registered in Madrid civil registry. The Valle de los Caídos decree (Apr 1940): BOE. Franco's 36 years of rule: documented in Boletín Oficial del Estado (BOE), the official state gazette, throughout. Preston (1993), Franco: A Biography: the standard modern biography (900pp)."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "Civil war, international intervention and Francoist repression",
       "entries": [
-        { "id":"c1", "group":"Spanish Civil War", "label":"Military uprising begins — 17 July 1936", "date":"17–18 Jul 1936", "loc":"Melilla; Ceuta; mainland Spain", "coords":[35.29,-2.94], "hint":"The uprising starts in Spanish Morocco — Franco flies from the Canary Islands in a chartered British plane to take command; within 48 hours Spain is divided between Republican government and Nationalist rebels.", "tag":"CIVIL WAR", "note":"Franco's flight in the Dragon Rapide: documented in the plane's manifest (preserved). The uprising's spread across garrisons: documented in military and newspaper archives from both sides. Thomas (1961), The Spanish Civil War, Part I. The Dragon Rapide charter: Rankin (2003), Telegram from Guernica." },
-        { "id":"c2", "group":"Spanish Civil War", "label":"Bombing of Guernica — 26 April 1937", "date":"26 Apr 1937", "loc":"Guernica (Gernika), Basque Country", "coords":[43.31,-2.67], "hint":"The Condor Legion and Italian Air Force bomb the Basque market town of Guernica for three hours on a busy market day — the number of dead is disputed (126–1,654 in sources) but the symbolic impact is immediate and global; Picasso begins his painting within days.", "tag":"BATTLE", "note":"HARD ANCHOR: Wolfram von Richthofen diary entries, 18 and 23 April 1937: preserved in German military archives (Bundesarchiv-Militärarchiv) — describe the operation planning. Eyewitness: Father Alberto Onaindía (Basque priest, present that day) — his testimony published 1937. George Steer, The Times of London, 28 Apr 1937 (journalist, arrived hours after bombing). Casualty dispute: Basque government reported 1,654; local historians revised to 126–153. The uncertainty must be flagged." },
-        { "id":"c3", "group":"Spanish Civil War", "label":"Battle of the Ebro — final Republican offensive", "date":"25 Jul–16 Nov 1938", "loc":"Ebro river, Catalonia-Aragon border", "coords":[41.0,0.5], "hint":"The largest battle of the Civil War — the Republic crosses the Ebro with 80,000 troops in a desperate effort to relieve Valencia; initial success is reversed over four months; the Republic loses 70,000 casualties it cannot replace.", "tag":"BATTLE", "note":"Republican military records (fragmentary): Archivo General Militar de Ávila. International Brigades records: ALBA digital archive (UCSD). Thomas (1961) ch.55–59. The battle as the Republic's last major offensive: Graham (2002), The Spanish Republic at War. International press coverage: New York Times archive, Le Monde archive." },
-        { "id":"c4", "group":"Civil War — International", "label":"Non-Intervention and the International Brigades", "date":"1936–1939", "loc":"Madrid; Jarama; Teruel (main IB engagement sites)", "coords":[40.42,-3.7], "hint":"The Non-Intervention Agreement (27 powers) allows Nazi Germany and Fascist Italy to support Franco while nominally maintaining neutrality — the International Brigades (35,000 volunteers from 50 countries) fight for the Republic; their records survive in the ALBA archive.", "tag":"POLITICAL", "note":"Non-Intervention Agreement 1936: text in League of Nations archives, Geneva. ALBA (Abraham Lincoln Brigade Archives): digital collection at UCSD — 150+ letters, photographs, personnel records. British Trades Union Congress archive: 46 files on the Civil War (IHR, London). Orwell, Homage to Catalonia (1938): eyewitness by a participant — first edition British Library." },
-        { "id":"c5", "group":"Francoist Repression", "label":"White Terror — Francoist mass killings 1936–1945", "date":"1936–1945", "loc":"Spain-wide; mass graves throughout Andalusia, Extremadura, Castile", "coords":[40.0,-4.0], "hint":"Francoist forces systematically execute Republican soldiers, officials and civilians during and after the Civil War — the Historical Memory Law (2007) initiated a mass graves programme; current estimates range from 100,000 to 200,000 killed in political repression.", "tag":"PERSECUTION", "note":"UNCERTAIN: Casualty figures disputed. Centro Documental de la Memoria Histórica (Salamanca): the primary archive. Mass graves database: Ministerio de la Presidencia, online from 2007. Preston (2012), The Spanish Holocaust: the most comprehensive modern study, with detailed regional evidence. The 'pact of silence' during the Transition limited documentation; ongoing excavations continue to revise numbers." }
+        {
+          "id": "c1",
+          "group": "Spanish Civil War",
+          "label": "Military uprising begins — 17 July 1936",
+          "date": "17–18 Jul 1936",
+          "loc": "Melilla; Ceuta; mainland Spain",
+          "coords": [
+            35.29,
+            -2.94
+          ],
+          "hint": "The uprising starts in Spanish Morocco — Franco flies from the Canary Islands in a chartered British plane to take command; within 48 hours Spain is divided between Republican government and Nationalist rebels.",
+          "tag": "CIVIL WAR",
+          "note": "Franco's flight in the Dragon Rapide: documented in the plane's manifest (preserved). The uprising's spread across garrisons: documented in military and newspaper archives from both sides. Thomas (1961), The Spanish Civil War, Part I. The Dragon Rapide charter: Rankin (2003), Telegram from Guernica."
+        },
+        {
+          "id": "c2",
+          "group": "Spanish Civil War",
+          "label": "Bombing of Guernica — 26 April 1937",
+          "date": "26 Apr 1937",
+          "loc": "Guernica (Gernika), Basque Country",
+          "coords": [
+            43.31,
+            -2.67
+          ],
+          "hint": "The Condor Legion and Italian Air Force bomb the Basque market town of Guernica for three hours on a busy market day — the number of dead is disputed (126–1,654 in sources) but the symbolic impact is immediate and global; Picasso begins his painting within days.",
+          "tag": "BATTLE",
+          "note": "HARD ANCHOR: Wolfram von Richthofen diary entries, 18 and 23 April 1937: preserved in German military archives (Bundesarchiv-Militärarchiv) — describe the operation planning. Eyewitness: Father Alberto Onaindía (Basque priest, present that day) — his testimony published 1937. George Steer, The Times of London, 28 Apr 1937 (journalist, arrived hours after bombing). Casualty dispute: Basque government reported 1,654; local historians revised to 126–153. The uncertainty must be flagged."
+        },
+        {
+          "id": "c3",
+          "group": "Spanish Civil War",
+          "label": "Battle of the Ebro — final Republican offensive",
+          "date": "25 Jul–16 Nov 1938",
+          "loc": "Ebro river, Catalonia-Aragon border",
+          "coords": [
+            41.0,
+            0.5
+          ],
+          "hint": "The largest battle of the Civil War — the Republic crosses the Ebro with 80,000 troops in a desperate effort to relieve Valencia; initial success is reversed over four months; the Republic loses 70,000 casualties it cannot replace.",
+          "tag": "BATTLE",
+          "note": "Republican military records (fragmentary): Archivo General Militar de Ávila. International Brigades records: ALBA digital archive (UCSD). Thomas (1961) ch.55–59. The battle as the Republic's last major offensive: Graham (2002), The Spanish Republic at War. International press coverage: New York Times archive, Le Monde archive."
+        },
+        {
+          "id": "c4",
+          "group": "Civil War — International",
+          "label": "Non-Intervention and the International Brigades",
+          "date": "1936–1939",
+          "loc": "Madrid; Jarama; Teruel (main IB engagement sites)",
+          "coords": [
+            40.42,
+            -3.7
+          ],
+          "hint": "The Non-Intervention Agreement (27 powers) allows Nazi Germany and Fascist Italy to support Franco while nominally maintaining neutrality — the International Brigades (35,000 volunteers from 50 countries) fight for the Republic; their records survive in the ALBA archive.",
+          "tag": "POLITICAL",
+          "note": "Non-Intervention Agreement 1936: text in League of Nations archives, Geneva. ALBA (Abraham Lincoln Brigade Archives): digital collection at UCSD — 150+ letters, photographs, personnel records. British Trades Union Congress archive: 46 files on the Civil War (IHR, London). Orwell, Homage to Catalonia (1938): eyewitness by a participant — first edition British Library."
+        },
+        {
+          "id": "c5",
+          "group": "Francoist Repression",
+          "label": "White Terror — Francoist mass killings 1936–1945",
+          "date": "1936–1945",
+          "loc": "Spain-wide; mass graves throughout Andalusia, Extremadura, Castile",
+          "coords": [
+            40.0,
+            -4.0
+          ],
+          "hint": "Francoist forces systematically execute Republican soldiers, officials and civilians during and after the Civil War — the Historical Memory Law (2007) initiated a mass graves programme; current estimates range from 100,000 to 200,000 killed in political repression.",
+          "tag": "PERSECUTION",
+          "note": "UNCERTAIN: Casualty figures disputed. Centro Documental de la Memoria Histórica (Salamanca): the primary archive. Mass graves database: Ministerio de la Presidencia, online from 2007. Preston (2012), The Spanish Holocaust: the most comprehensive modern study, with detailed regional evidence. The 'pact of silence' during the Transition limited documentation; ongoing excavations continue to revise numbers."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Constitutions, laws and the architecture of the Francoist state",
       "entries": [
-        { "id":"o1", "group":"Republican Law", "label":"Constitution of the Second Republic — 1931", "date":"9 Dec 1931", "loc":"Madrid (Cortes)", "coords":[40.43,-3.69], "hint":"The 1931 Constitution separates Church and State, grants women the vote (the first time in Spanish history), establishes regional autonomy, and secularises education — it is the most progressive Spanish constitution to that date.", "tag":"LAW", "note":"Text: Gaceta de Madrid, 10 Dec 1931 (extant, digitised). Women's suffrage article 36: confirmed by vote in Cortes (debated by Clara Campoamor vs Victoria Kent — both women deputies). The Cortes debates on women's suffrage: Diario de Sesiones de las Cortes Constituyentes 1931. Arranz (2007), La Constitución de 1931." },
-        { "id":"o2", "group":"Francoist Law", "label":"Fuero del Trabajo — Francoist labour charter", "date":"9 Mar 1938", "loc":"Burgos (Nationalist zone)", "coords":[42.34,-3.7], "hint":"Franco's labour charter — the first of the Leyes Fundamentales that together constitute the 'organic' Francoist state; it abolishes independent trade unions, bans strikes, and creates a corporatist 'vertical syndicate' system.", "tag":"LAW", "note":"Boletín Oficial del Estado (BOE), 10 Mar 1938: text of the Fuero del Trabajo. The six Leyes Fundamentales together: AHN documentation. Payne (1987), The Franco Regime 1936–1975: the standard academic analysis of the legal structure." },
-        { "id":"o3", "group":"Francoist Law", "label":"Ley de Responsabilidades Políticas — retrospective repression", "date":"9 Feb 1939", "loc":"Burgos", "coords":[42.34,-3.7], "hint":"The Political Responsibilities Law holds all who 'opposed the National Movement' from October 1934 onwards legally liable — giving the regime a legal framework to confiscate property and imprison Republicans retroactively going back five years.", "tag":"LAW", "note":"BOE 13 Feb 1939: text of the law. The retroactivity to 1934 was historically unprecedented in Spanish law. Preston (1993), Franco, ch.20 on the repression's legal architecture. The law created 40,000+ proceedings: AHN Fondos del Tribunal Nacional de Responsabilidades Políticas." },
-        { "id":"o4", "group":"Republican Law", "label":"Statute of Autonomy of Catalonia — the Estatut", "date":"9 Sep 1932", "loc":"Madrid (Cortes); Barcelona (referendum)", "coords":[41.38,2.18], "hint":"The first Statute of Catalan Autonomy, approved by referendum (592,961 votes to 3,276) and ratified by the Madrid Cortes — giving Catalonia its own government (Generalitat) and official status for the Catalan language; suppressed by Franco in 1939.", "tag":"LAW", "note":"Gaceta de Madrid, 21 Sep 1932: text of the Estatut. The referendum result: documented in the Archivo del Parlament de Catalunya. The Generalitat archives (ANC, Barcelona): primary repository. The Estatut's suppression by Franco: documented in BOE 1938–39. The 1932 statute became the template for all subsequent Catalan autonomy statutes." }
+        {
+          "id": "o1",
+          "group": "Republican Law",
+          "label": "Constitution of the Second Republic — 1931",
+          "date": "9 Dec 1931",
+          "loc": "Madrid (Cortes)",
+          "coords": [
+            40.43,
+            -3.69
+          ],
+          "hint": "The 1931 Constitution separates Church and State, grants women the vote (the first time in Spanish history), establishes regional autonomy, and secularises education — it is the most progressive Spanish constitution to that date.",
+          "tag": "LAW",
+          "note": "Text: Gaceta de Madrid, 10 Dec 1931 (extant, digitised). Women's suffrage article 36: confirmed by vote in Cortes (debated by Clara Campoamor vs Victoria Kent — both women deputies). The Cortes debates on women's suffrage: Diario de Sesiones de las Cortes Constituyentes 1931. Arranz (2007), La Constitución de 1931."
+        },
+        {
+          "id": "o2",
+          "group": "Francoist Law",
+          "label": "Fuero del Trabajo — Francoist labour charter",
+          "date": "9 Mar 1938",
+          "loc": "Burgos (Nationalist zone)",
+          "coords": [
+            42.34,
+            -3.7
+          ],
+          "hint": "Franco's labour charter — the first of the Leyes Fundamentales that together constitute the 'organic' Francoist state; it abolishes independent trade unions, bans strikes, and creates a corporatist 'vertical syndicate' system.",
+          "tag": "LAW",
+          "note": "Boletín Oficial del Estado (BOE), 10 Mar 1938: text of the Fuero del Trabajo. The six Leyes Fundamentales together: AHN documentation. Payne (1987), The Franco Regime 1936–1975: the standard academic analysis of the legal structure."
+        },
+        {
+          "id": "o3",
+          "group": "Francoist Law",
+          "label": "Ley de Responsabilidades Políticas — retrospective repression",
+          "date": "9 Feb 1939",
+          "loc": "Burgos",
+          "coords": [
+            42.34,
+            -3.7
+          ],
+          "hint": "The Political Responsibilities Law holds all who 'opposed the National Movement' from October 1934 onwards legally liable — giving the regime a legal framework to confiscate property and imprison Republicans retroactively going back five years.",
+          "tag": "LAW",
+          "note": "BOE 13 Feb 1939: text of the law. The retroactivity to 1934 was historically unprecedented in Spanish law. Preston (1993), Franco, ch.20 on the repression's legal architecture. The law created 40,000+ proceedings: AHN Fondos del Tribunal Nacional de Responsabilidades Políticas."
+        },
+        {
+          "id": "o4",
+          "group": "Republican Law",
+          "label": "Statute of Autonomy of Catalonia — the Estatut",
+          "date": "9 Sep 1932",
+          "loc": "Madrid (Cortes); Barcelona (referendum)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "The first Statute of Catalan Autonomy, approved by referendum (592,961 votes to 3,276) and ratified by the Madrid Cortes — giving Catalonia its own government (Generalitat) and official status for the Catalan language; suppressed by Franco in 1939.",
+          "tag": "LAW",
+          "note": "Gaceta de Madrid, 21 Sep 1932: text of the Estatut. The referendum result: documented in the Archivo del Parlament de Catalunya. The Generalitat archives (ANC, Barcelona): primary repository. The Estatut's suppression by Franco: documented in BOE 1938–39. The 1932 statute became the template for all subsequent Catalan autonomy statutes."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
       "subtitle": "National Catholicism, anticlerical violence and the Church-State alliance",
       "entries": [
-        { "id":"r1", "group":"Catholic / Church of Rome", "label":"National Catholicism — Franco's ideological fusion", "date":"1939–1975", "loc":"Spain-wide", "coords":[40.4,-3.7], "hint":"Franco fuses Catholic identity with Spanish nationalism — the Church receives extraordinary privileges (censorship power, education control, tax exemption) in exchange for legitimating the regime; the Concordat of 1953 formalises this arrangement.", "tag":"EDICT", "note":"Concordat of 1953 (Spain-Vatican): text in BOE 19 Oct 1953. The National Catholicism ideology: analysed in Lannon (1987), Privilege, Persecution and Prophecy: The Catholic Church in Spain. The Church's educational role: documented in Education Ministry records (AHN). Pérez-Díaz (1993), The Return of Civil Society on the Church's post-Franco evolution." },
-        { "id":"r2", "group":"Catholic / Church of Rome", "label":"Anticlerical violence — burning of churches 1931 and 1936", "date":"May 1931; Jul–Sep 1936", "loc":"Madrid; Málaga; Valencia; Catalonia", "coords":[40.42,-3.7], "hint":"Churches and convents are burned in May 1931 (Madrid, Málaga) by Republican crowds and more extensively in July–September 1936 at Civil War's outbreak — approximately 7,000 clergy killed in Republican territory; documented in Church martyrology.", "tag":"PERSECUTION", "note":"The 1936 killings: documented in Causa General (1943) — a Francoist legal inquiry, biased but containing real data. Modern reassessment: Montero Moreno (1961), Historia de la persecución religiosa en España 1936–1939. The 7,000 figure: Callahan (2000), The Catholic Church in Spain. FLAG: the Causa General data requires critical handling as a Francoist propaganda document as well as a historical source." }
+        {
+          "id": "r1",
+          "group": "Catholic / Church of Rome",
+          "label": "National Catholicism — Franco's ideological fusion",
+          "date": "1939–1975",
+          "loc": "Spain-wide",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Franco fuses Catholic identity with Spanish nationalism — the Church receives extraordinary privileges (censorship power, education control, tax exemption) in exchange for legitimating the regime; the Concordat of 1953 formalises this arrangement.",
+          "tag": "EDICT",
+          "note": "Concordat of 1953 (Spain-Vatican): text in BOE 19 Oct 1953. The National Catholicism ideology: analysed in Lannon (1987), Privilege, Persecution and Prophecy: The Catholic Church in Spain. The Church's educational role: documented in Education Ministry records (AHN). Pérez-Díaz (1993), The Return of Civil Society on the Church's post-Franco evolution."
+        },
+        {
+          "id": "r2",
+          "group": "Catholic / Church of Rome",
+          "label": "Anticlerical violence — burning of churches 1931 and 1936",
+          "date": "May 1931; Jul–Sep 1936",
+          "loc": "Madrid; Málaga; Valencia; Catalonia",
+          "coords": [
+            40.42,
+            -3.7
+          ],
+          "hint": "Churches and convents are burned in May 1931 (Madrid, Málaga) by Republican crowds and more extensively in July–September 1936 at Civil War's outbreak — approximately 7,000 clergy killed in Republican territory; documented in Church martyrology.",
+          "tag": "PERSECUTION",
+          "note": "The 1936 killings: documented in Causa General (1943) — a Francoist legal inquiry, biased but containing real data. Modern reassessment: Montero Moreno (1961), Historia de la persecución religiosa en España 1936–1939. The 7,000 figure: Callahan (2000), The Catholic Church in Spain. FLAG: the Causa General data requires critical handling as a Francoist propaganda document as well as a historical source."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "Guernica, the Generation of '98, Lorca and Republican culture",
       "entries": [
-        { "id":"a1", "group":"Painting & Visual Art", "label":"Guernica — Picasso's response to the bombing", "date":"May–Jun 1937", "loc":"Paris (painted); Madrid (Museo Reina Sofía, since 1992)", "coords":[40.41,-3.69], "hint":"Picasso paints Guernica in six weeks after reading George Steer's newspaper report — 3.49m × 7.76m, oils on canvas; it becomes the defining image of 20th-century political art and the most discussed painting of the Spanish Civil War.", "tag":"MONUMENT", "note":"Extant: Museo Reina Sofía, Madrid (since 1992, transferred from MoMA). Picasso began painting May 1937. The preparatory sketches (45 studies): also Reina Sofía. Van Hensbergen (2004), Guernica: The Biography of a Twentieth-Century Icon. The painting's political history — kept in MoMA throughout the Franco years at Picasso's explicit request — is itself a primary source on Spain-US relations." },
-        { "id":"a2", "group":"Literature & Poetry", "label":"Generation of '98 — crisis of Spanish identity", "date":"c.1898–1930", "loc":"Madrid (Residencia de Estudiantes); Salamanca (Unamuno)", "coords":[40.43,-3.69], "hint":"The intellectual response to the 1898 colonial disaster produces a generation of writers who interrogate Spanish identity — Unamuno, Azorín, Baroja, Machado; their essays and novels are the primary evidence for elite Spanish self-questioning at the century's opening.", "tag":"LITERATURE", "note":"Unamuno, En torno al casticismo (1902): first edition, Biblioteca Nacional de España (BNE). Antonio Machado, Campos de Castilla (1912): BNE first edition. The Residencia de Estudiantes (Madrid, 1910–1936): archive held at the Residencia itself — documents the intellectual network connecting the '98 generation to the Republic. Fox (1997), Reimagining Spain: the standard English study." },
-        { "id":"a3", "group":"Literature & Poetry", "label":"Federico García Lorca — poet, playwright, martyr", "date":"1898–1936", "loc":"Granada (birth, death); Madrid; New York", "coords":[37.18,-3.6], "hint":"Lorca is shot by Nationalist forces in August 1936 near Granada — his body has never been found; his Romancero Gitano (1928) and Poeta en Nueva York (written 1929–30) are the most celebrated Spanish poems of the 20th century; his death became the defining symbol of Francoist cultural repression.", "tag":"LITERATURE", "note":"Lorca shot 18 Aug 1936: documented in multiple contemporary accounts; Gibson (1983), Federico García Lorca: A Life, the standard biography. The location of his burial: subject of ongoing forensic investigation (mass grave near Víznar, Granada) — as of 2024 not conclusively located. Romancero Gitano first edition 1928: BNE. Poet in New York first edition 1940 (posthumous): BNE." },
-        { "id":"a4", "group":"Architecture", "label":"Valle de los Caídos — monument built by political prisoners", "date":"1940–1959", "loc":"San Lorenzo de El Escorial, Madrid (extant)", "coords":[40.64,-4.15], "hint":"Franco orders a vast underground basilica cut into a granite mountain using Republican political prisoners as forced labour — 558m tunnel, 150m cross visible for 30km; Franco himself is buried here until 2019 when his remains are exhumed and moved.", "tag":"MONUMENT", "note":"Construction decree: BOE Apr 1940. The use of forced labour: documented in Sueiro (1976), El Valle de los Caídos. Franco's burial: documented 1975; exhumation 24 Oct 2019: BOE, Supreme Court ruling. Extant (closed since 2019, transformation ongoing). The monument is itself a primary source for Francoist ideology of 'reconciliation' through Catholic ritual." },
-        { "id":"a5", "group":"Music & Performance", "label":"Flamenco and Republican culture — Carmen Amaya", "date":"c.1913–1963", "loc":"Barcelona (early career); Madrid; international tours", "coords":[41.38,2.18], "hint":"Carmen Amaya, born in a shack by the Barcelona waterfront, becomes the greatest flamenco dancer of the 20th century — her 1936 performance tour is interrupted by the Civil War, she goes into exile in South America, returns under Franco; her career documents the survival of Romani-Andalusian culture across the rupture.", "tag":"EVIDENCE", "note":"Carmen Amaya's career: documented in contemporary press and film. Her 1963 film Amor de Dios (extant). Pohren (1964), The Art of Flamenco: primary documentation of her technique. The Romani community's experience under Francoism: Castro Varela & Dhawan (2020). Her passport and emigration records: Archivo General de la Administración (AGA), Alcalá de Henares." }
+        {
+          "id": "a1",
+          "group": "Painting & Visual Art",
+          "label": "Guernica — Picasso's response to the bombing",
+          "date": "May–Jun 1937",
+          "loc": "Paris (painted); Madrid (Museo Reina Sofía, since 1992)",
+          "coords": [
+            40.41,
+            -3.69
+          ],
+          "hint": "Picasso paints Guernica in six weeks after reading George Steer's newspaper report — 3.49m × 7.76m, oils on canvas; it becomes the defining image of 20th-century political art and the most discussed painting of the Spanish Civil War.",
+          "tag": "MONUMENT",
+          "note": "Extant: Museo Reina Sofía, Madrid (since 1992, transferred from MoMA). Picasso began painting May 1937. The preparatory sketches (45 studies): also Reina Sofía. Van Hensbergen (2004), Guernica: The Biography of a Twentieth-Century Icon. The painting's political history — kept in MoMA throughout the Franco years at Picasso's explicit request — is itself a primary source on Spain-US relations."
+        },
+        {
+          "id": "a2",
+          "group": "Literature & Poetry",
+          "label": "Generation of '98 — crisis of Spanish identity",
+          "date": "c.1898–1930",
+          "loc": "Madrid (Residencia de Estudiantes); Salamanca (Unamuno)",
+          "coords": [
+            40.43,
+            -3.69
+          ],
+          "hint": "The intellectual response to the 1898 colonial disaster produces a generation of writers who interrogate Spanish identity — Unamuno, Azorín, Baroja, Machado; their essays and novels are the primary evidence for elite Spanish self-questioning at the century's opening.",
+          "tag": "LITERATURE",
+          "note": "Unamuno, En torno al casticismo (1902): first edition, Biblioteca Nacional de España (BNE). Antonio Machado, Campos de Castilla (1912): BNE first edition. The Residencia de Estudiantes (Madrid, 1910–1936): archive held at the Residencia itself — documents the intellectual network connecting the '98 generation to the Republic. Fox (1997), Reimagining Spain: the standard English study."
+        },
+        {
+          "id": "a3",
+          "group": "Literature & Poetry",
+          "label": "Federico García Lorca — poet, playwright, martyr",
+          "date": "1898–1936",
+          "loc": "Granada (birth, death); Madrid; New York",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "Lorca is shot by Nationalist forces in August 1936 near Granada — his body has never been found; his Romancero Gitano (1928) and Poeta en Nueva York (written 1929–30) are the most celebrated Spanish poems of the 20th century; his death became the defining symbol of Francoist cultural repression.",
+          "tag": "LITERATURE",
+          "note": "Lorca shot 18 Aug 1936: documented in multiple contemporary accounts; Gibson (1983), Federico García Lorca: A Life, the standard biography. The location of his burial: subject of ongoing forensic investigation (mass grave near Víznar, Granada) — as of 2024 not conclusively located. Romancero Gitano first edition 1928: BNE. Poet in New York first edition 1940 (posthumous): BNE."
+        },
+        {
+          "id": "a4",
+          "group": "Architecture",
+          "label": "Valle de los Caídos — monument built by political prisoners",
+          "date": "1940–1959",
+          "loc": "San Lorenzo de El Escorial, Madrid (extant)",
+          "coords": [
+            40.64,
+            -4.15
+          ],
+          "hint": "Franco orders a vast underground basilica cut into a granite mountain using Republican political prisoners as forced labour — 558m tunnel, 150m cross visible for 30km; Franco himself is buried here until 2019 when his remains are exhumed and moved.",
+          "tag": "MONUMENT",
+          "note": "Construction decree: BOE Apr 1940. The use of forced labour: documented in Sueiro (1976), El Valle de los Caídos. Franco's burial: documented 1975; exhumation 24 Oct 2019: BOE, Supreme Court ruling. Extant (closed since 2019, transformation ongoing). The monument is itself a primary source for Francoist ideology of 'reconciliation' through Catholic ritual."
+        },
+        {
+          "id": "a5",
+          "group": "Music & Performance",
+          "label": "Flamenco and Republican culture — Carmen Amaya",
+          "date": "c.1913–1963",
+          "loc": "Barcelona (early career); Madrid; international tours",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Carmen Amaya, born in a shack by the Barcelona waterfront, becomes the greatest flamenco dancer of the 20th century — her 1936 performance tour is interrupted by the Civil War, she goes into exile in South America, returns under Franco; her career documents the survival of Romani-Andalusian culture across the rupture.",
+          "tag": "EVIDENCE",
+          "note": "Carmen Amaya's career: documented in contemporary press and film. Her 1963 film Amor de Dios (extant). Pohren (1964), The Art of Flamenco: primary documentation of her technique. The Romani community's experience under Francoism: Castro Varela & Dhawan (2020). Her passport and emigration records: Archivo General de la Administración (AGA), Alcalá de Henares."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "Intellectuals, exile and the suppression of free thought",
       "entries": [
-        { "id":"t1", "group":"Philosophy", "label":"Ortega y Gasset — The Revolt of the Masses (1930)", "date":"1930", "loc":"Madrid (written)", "coords":[40.42,-3.71], "hint":"José Ortega y Gasset's La Rebelión de las Masas is the most internationally influential Spanish philosophical text of the 20th century — a diagnosis of European mass society that sells 15,000 copies in its first year and is translated into 20 languages.", "tag":"TEXT", "note":"First edition: Revista de Occidente, Madrid 1930: BNE. The Revista de Occidente (1923–1936) itself: key intellectual journal of the era, archive at BNE. Moran (1996), El maestro en el erial: Ortega y Gasset and the Second Republic. The book's international reception: documented in translation records and press reviews." },
-        { "id":"t2", "group":"History & Chronicle", "label":"George Orwell — Homage to Catalonia (1938)", "date":"1938", "loc":"Barcelona; Huesca front; London (published)", "coords":[41.38,2.18], "hint":"Orwell fights with the POUM militia on the Aragon front, witnesses the Communist-Anarchist street fighting in Barcelona (May 1937), is shot through the throat, and barely escapes — his eyewitness account is the most vivid English-language primary source for the Republic's internal conflicts.", "tag":"TEXT", "note":"First edition: Secker & Warburg, London 1938 — British Library holds the first edition. Orwell's POUM militia card (extant): documents his service. His medical records from the bullet wound: documented in Orwell's own correspondence (University College London, Orwell Archive). Crick (1980), George Orwell: A Life. The book sold only 638 copies in Orwell's lifetime." },
-        { "id":"t3", "group":"Political Theory", "label":"Republican propaganda posters — a visual primary corpus", "date":"1936–1939", "loc":"Barcelona; Madrid (printed)", "coords":[41.38,2.18], "hint":"The Spanish Republic produces over 2,000 propaganda posters — lithographs by Renau, El Lissitzky-influenced designs by various artists — constituting the richest single corpus of political graphic design of the 20th century, now digitised by multiple archives.", "tag":"DOCUMENT", "note":"Brandeis University Spanish Civil War Collection: 5,000+ items. BNE digital collection: hundreds of posters. Cary (1973) on Republican poster art. The Nationalist counter-poster tradition: smaller and less artistically significant. Southworth Collection (UCSD): the most comprehensive private collection, now digitised. The posters as primary evidence for Republican ideology: Brihuega (1982)." }
+        {
+          "id": "t1",
+          "group": "Philosophy",
+          "label": "Ortega y Gasset — The Revolt of the Masses (1930)",
+          "date": "1930",
+          "loc": "Madrid (written)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "José Ortega y Gasset's La Rebelión de las Masas is the most internationally influential Spanish philosophical text of the 20th century — a diagnosis of European mass society that sells 15,000 copies in its first year and is translated into 20 languages.",
+          "tag": "TEXT",
+          "note": "First edition: Revista de Occidente, Madrid 1930: BNE. The Revista de Occidente (1923–1936) itself: key intellectual journal of the era, archive at BNE. Moran (1996), El maestro en el erial: Ortega y Gasset and the Second Republic. The book's international reception: documented in translation records and press reviews."
+        },
+        {
+          "id": "t2",
+          "group": "History & Chronicle",
+          "label": "George Orwell — Homage to Catalonia (1938)",
+          "date": "1938",
+          "loc": "Barcelona; Huesca front; London (published)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Orwell fights with the POUM militia on the Aragon front, witnesses the Communist-Anarchist street fighting in Barcelona (May 1937), is shot through the throat, and barely escapes — his eyewitness account is the most vivid English-language primary source for the Republic's internal conflicts.",
+          "tag": "TEXT",
+          "note": "First edition: Secker & Warburg, London 1938 — British Library holds the first edition. Orwell's POUM militia card (extant): documents his service. His medical records from the bullet wound: documented in Orwell's own correspondence (University College London, Orwell Archive). Crick (1980), George Orwell: A Life. The book sold only 638 copies in Orwell's lifetime."
+        },
+        {
+          "id": "t3",
+          "group": "Political Theory",
+          "label": "Republican propaganda posters — a visual primary corpus",
+          "date": "1936–1939",
+          "loc": "Barcelona; Madrid (printed)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "The Spanish Republic produces over 2,000 propaganda posters — lithographs by Renau, El Lissitzky-influenced designs by various artists — constituting the richest single corpus of political graphic design of the 20th century, now digitised by multiple archives.",
+          "tag": "DOCUMENT",
+          "note": "Brandeis University Spanish Civil War Collection: 5,000+ items. BNE digital collection: hundreds of posters. Cary (1973) on Republican poster art. The Nationalist counter-poster tradition: smaller and less artistically significant. Southworth Collection (UCSD): the most comprehensive private collection, now digitised. The posters as primary evidence for Republican ideology: Brihuega (1982)."
+        }
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Economy from colonial collapse to autarky to technocratic growth",
       "entries": [
-        { "id":"s1", "group":"Fiscal & Monetary", "label":"Disaster of 1898 — colonial collapse and economic crisis", "date":"1898", "loc":"Cuba; Puerto Rico; Philippines (lost); Spain (consequences)", "coords":[40.4,-3.7], "hint":"Spain loses Cuba, Puerto Rico and the Philippines to the United States in the Treaty of Paris (December 1898) — the loss of the last colonial markets triggers a crisis of national identity and economic restructuring that sets the century's political agenda.", "tag":"ECONOMIC", "note":"Treaty of Paris, 10 Dec 1898: US Senate ratification records; Spanish text in Gaceta de Madrid. The economic impact: Tortella (2000), The Development of Modern Spain, ch.5. The repatriation of 200,000 soldiers from Cuba: documented in military records (AHN). The indemnity paid to the US ($20m): documented in Treasury records." },
-        { "id":"s2", "group":"Fiscal & Monetary", "label":"Francoist autarky — the hungry decade", "date":"1939–1959", "loc":"Spain-wide (rationing, black market)", "coords":[40.4,-3.7], "hint":"Franco's autarky policy (economic self-sufficiency) produces a decade of stagnation and hunger — rationing cards are in use until 1952; Spain's GDP does not recover to 1935 levels until 1951; the black market (estraperlo) becomes pervasive.", "tag":"ECONOMIC", "note":"Rationing records: AGA, Alcalá de Henares. Ration cards (extant objects): multiple museum collections. GDP data: Prados de la Escosura (2003), El progreso económico de España. The estraperlo (black market): documented in police and court records. Viñas et al. (1979), Política comercial exterior en España 1931–1975: the standard economic history." },
-        { "id":"s3", "group":"Trade & Commerce", "label":"Opus Dei technocrats and the Plan de Estabilización (1959)", "date":"1959", "loc":"Madrid (Economics Ministry)", "coords":[40.42,-3.71], "hint":"Franco appoints Opus Dei-linked technocrats who impose austerity and open Spain to foreign investment — the 1959 Stabilisation Plan ends autarky and triggers the 'Spanish miracle' of 6% annual growth in the 1960s.", "tag":"ECONOMIC", "note":"Plan de Estabilización decree: BOE, Jul 1959. World Bank and IMF involvement: documented in their archives (Washington DC). Payne (1987), The Franco Regime, ch.17 on the technocrats. GDP growth 1960–1973: Prados de la Escosura (2003). The plan's social consequences — mass internal migration from Andalusia and Extremadura to Catalonia and Basque Country — documented in census records." }
+        {
+          "id": "s1",
+          "group": "Fiscal & Monetary",
+          "label": "Disaster of 1898 — colonial collapse and economic crisis",
+          "date": "1898",
+          "loc": "Cuba; Puerto Rico; Philippines (lost); Spain (consequences)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Spain loses Cuba, Puerto Rico and the Philippines to the United States in the Treaty of Paris (December 1898) — the loss of the last colonial markets triggers a crisis of national identity and economic restructuring that sets the century's political agenda.",
+          "tag": "ECONOMIC",
+          "note": "Treaty of Paris, 10 Dec 1898: US Senate ratification records; Spanish text in Gaceta de Madrid. The economic impact: Tortella (2000), The Development of Modern Spain, ch.5. The repatriation of 200,000 soldiers from Cuba: documented in military records (AHN). The indemnity paid to the US ($20m): documented in Treasury records."
+        },
+        {
+          "id": "s2",
+          "group": "Fiscal & Monetary",
+          "label": "Francoist autarky — the hungry decade",
+          "date": "1939–1959",
+          "loc": "Spain-wide (rationing, black market)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Franco's autarky policy (economic self-sufficiency) produces a decade of stagnation and hunger — rationing cards are in use until 1952; Spain's GDP does not recover to 1935 levels until 1951; the black market (estraperlo) becomes pervasive.",
+          "tag": "ECONOMIC",
+          "note": "Rationing records: AGA, Alcalá de Henares. Ration cards (extant objects): multiple museum collections. GDP data: Prados de la Escosura (2003), El progreso económico de España. The estraperlo (black market): documented in police and court records. Viñas et al. (1979), Política comercial exterior en España 1931–1975: the standard economic history."
+        },
+        {
+          "id": "s3",
+          "group": "Trade & Commerce",
+          "label": "Opus Dei technocrats and the Plan de Estabilización (1959)",
+          "date": "1959",
+          "loc": "Madrid (Economics Ministry)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Franco appoints Opus Dei-linked technocrats who impose austerity and open Spain to foreign investment — the 1959 Stabilisation Plan ends autarky and triggers the 'Spanish miracle' of 6% annual growth in the 1960s.",
+          "tag": "ECONOMIC",
+          "note": "Plan de Estabilización decree: BOE, Jul 1959. World Bank and IMF involvement: documented in their archives (Washington DC). Payne (1987), The Franco Regime, ch.17 on the technocrats. GDP growth 1960–1973: Prados de la Escosura (2003). The plan's social consequences — mass internal migration from Andalusia and Extremadura to Catalonia and Basque Country — documented in census records."
+        }
       ]
     },
     {
-      "id": "exchange", "label": "Exchange", "icon": "🌐",
-      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
       "subtitle": "International intervention, exile and Cold War diplomacy",
       "entries": [
-        { "id":"ex1", "group":"Diplomatic Exchange", "label":"Non-Intervention Agreement — European powers abandon the Republic", "date":"1936–1939", "loc":"London (Non-Intervention Committee)", "coords":[51.5,-0.12], "hint":"27 European states sign the Non-Intervention Agreement while Germany and Italy openly supply Franco — the most cynical diplomatic exercise of the interwar period; the Republic receives Soviet aid but at a political cost (Soviet interference in Republican politics).", "tag":"POLITICAL", "note":"Non-Intervention Committee records: National Archives (UK), FO 849 series. German military aid (Operation Magic Fire): Bundesarchiv-Militärarchiv. Italian aid: ACS (Rome). Soviet aid: RGVA (Moscow), partly published in Radosh et al. (2001), Spain Betrayed. Thomas (1961) ch.25–28 synthesises the international dimension." },
-        { "id":"ex2", "group":"Migration & Settlement", "label":"Republican exile — 500,000 flee to France (1939)", "date":"Feb–Mar 1939", "loc":"Pyrenean border crossings; Argelès-sur-Mer (French internment camps)", "coords":[42.48,3.04], "hint":"Half a million Republicans flee to France in the Retirada (February–March 1939) — the largest refugee movement in European history to that date; they are interned in camps on the beaches; many go on to Mexico, which receives the Republican government in exile.", "tag":"MIGRATION", "note":"French government records: Archives nationales (Paris), series F7 (refugees). The Retirada's scale: documented in French military and police records. Mexican reception: Archivo Histórico Diplomático Mexicano. Pons Prades (1977), Republicanos españoles en la Segunda Guerra Mundial. Martínez (2007) on the Republican exile community." },
-        { "id":"ex3", "group":"Diplomatic Exchange", "label":"US-Spain Pacts of Madrid (1953) — Cold War legitimacy", "date":"26 Sep 1953", "loc":"Madrid", "coords":[40.42,-3.71], "hint":"The United States signs the Pacts of Madrid with Franco — giving the US military bases in Spain in exchange for economic aid and diplomatic recognition; the pacts legitimise the dictatorship internationally and mark Spain's integration into Cold War Western structures.", "tag":"POLITICAL", "note":"Pacts of Madrid (Mutual Defence Assistance Agreement, 26 Sep 1953): US National Archives (NARA), State Department records. Declassified US diplomatic cables on the negotiation: FRUS 1952–54 Vol.VI. Viñas (2003), En las garras del águila: the standard Spanish study. The simultaneous Concordat with the Vatican (July 1953): the two agreements together define the Francoist international settlement." }
+        {
+          "id": "ex1",
+          "group": "Diplomatic Exchange",
+          "label": "Non-Intervention Agreement — European powers abandon the Republic",
+          "date": "1936–1939",
+          "loc": "London (Non-Intervention Committee)",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "27 European states sign the Non-Intervention Agreement while Germany and Italy openly supply Franco — the most cynical diplomatic exercise of the interwar period; the Republic receives Soviet aid but at a political cost (Soviet interference in Republican politics).",
+          "tag": "POLITICAL",
+          "note": "Non-Intervention Committee records: National Archives (UK), FO 849 series. German military aid (Operation Magic Fire): Bundesarchiv-Militärarchiv. Italian aid: ACS (Rome). Soviet aid: RGVA (Moscow), partly published in Radosh et al. (2001), Spain Betrayed. Thomas (1961) ch.25–28 synthesises the international dimension."
+        },
+        {
+          "id": "ex2",
+          "group": "Migration & Settlement",
+          "label": "Republican exile — 500,000 flee to France (1939)",
+          "date": "Feb–Mar 1939",
+          "loc": "Pyrenean border crossings; Argelès-sur-Mer (French internment camps)",
+          "coords": [
+            42.48,
+            3.04
+          ],
+          "hint": "Half a million Republicans flee to France in the Retirada (February–March 1939) — the largest refugee movement in European history to that date; they are interned in camps on the beaches; many go on to Mexico, which receives the Republican government in exile.",
+          "tag": "MIGRATION",
+          "note": "French government records: Archives nationales (Paris), series F7 (refugees). The Retirada's scale: documented in French military and police records. Mexican reception: Archivo Histórico Diplomático Mexicano. Pons Prades (1977), Republicanos españoles en la Segunda Guerra Mundial. Martínez (2007) on the Republican exile community."
+        },
+        {
+          "id": "ex3",
+          "group": "Diplomatic Exchange",
+          "label": "US-Spain Pacts of Madrid (1953) — Cold War legitimacy",
+          "date": "26 Sep 1953",
+          "loc": "Madrid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The United States signs the Pacts of Madrid with Franco — giving the US military bases in Spain in exchange for economic aid and diplomatic recognition; the pacts legitimise the dictatorship internationally and mark Spain's integration into Cold War Western structures.",
+          "tag": "POLITICAL",
+          "note": "Pacts of Madrid (Mutual Defence Assistance Agreement, 26 Sep 1953): US National Archives (NARA), State Department records. Declassified US diplomatic cables on the negotiation: FRUS 1952–54 Vol.VI. Viñas (2003), En las garras del águila: the standard Spanish study. The simultaneous Concordat with the Vatican (July 1953): the two agreements together define the Francoist international settlement."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Spain in its 20th-century European and global context",
       "entries": [
-        { "id":"w1", "group":"Geopolitical Shift", "label":"Spain's neutrality in World War II", "date":"1939–1945", "loc":"Spain (non-belligerent)", "coords":[40.4,-3.7], "hint":"Franco maintains nominal neutrality while sending the Blue Division (47,000 volunteers) to fight alongside Germany on the Eastern Front — the Blue Division allows Franco to maintain the German alliance without formal belligerency, documented in German and Spanish military records.", "tag":"EVENT", "note":"Blue Division records: Archivo General Militar de Ávila; German Bundesarchiv-Militärarchiv. The 47,000 volunteers: documented in enlistment records. Kleinfeld & Tambs (1979), Hitler's Spanish Legion: the standard study. The neutrality negotiations: US NARA, State Department decimal files on Spain. Franco's Hendaye meeting with Hitler (23 Oct 1940): German Foreign Ministry records (PAAA, Berlin)." },
-        { "id":"w2", "group":"Geopolitical Shift", "label":"UN ostracism and rehabilitation of Franco's Spain", "date":"1945–1955", "loc":"United Nations (New York); Madrid", "coords":[40.42,-3.71], "hint":"The 1946 UN resolution recommends member states withdraw ambassadors from Spain (45 to 2 vote) — Spain is isolated; by 1955 the Cold War reverses this and Spain is admitted to the UN; the complete diplomatic rehabilitation of a Fascist regime by Western powers.", "tag":"EVENT", "note":"UN Resolution 39(I), 12 Dec 1946: UN General Assembly records (digitised). The ambassador withdrawals: documented in diplomatic correspondence (AHN). Spain's UN admission 14 Dec 1955: UN records. The US role in rehabilitation: FRUS 1952–54 Vol.VI. Payne (1987), The Franco Regime, ch.16 on the Cold War transformation." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Spain's neutrality in World War II",
+          "date": "1939–1945",
+          "loc": "Spain (non-belligerent)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Franco maintains nominal neutrality while sending the Blue Division (47,000 volunteers) to fight alongside Germany on the Eastern Front — the Blue Division allows Franco to maintain the German alliance without formal belligerency, documented in German and Spanish military records.",
+          "tag": "EVENT",
+          "note": "Blue Division records: Archivo General Militar de Ávila; German Bundesarchiv-Militärarchiv. The 47,000 volunteers: documented in enlistment records. Kleinfeld & Tambs (1979), Hitler's Spanish Legion: the standard study. The neutrality negotiations: US NARA, State Department decimal files on Spain. Franco's Hendaye meeting with Hitler (23 Oct 1940): German Foreign Ministry records (PAAA, Berlin)."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "UN ostracism and rehabilitation of Franco's Spain",
+          "date": "1945–1955",
+          "loc": "United Nations (New York); Madrid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The 1946 UN resolution recommends member states withdraw ambassadors from Spain (45 to 2 vote) — Spain is isolated; by 1955 the Cold War reverses this and Spain is admitted to the UN; the complete diplomatic rehabilitation of a Fascist regime by Western powers.",
+          "tag": "EVENT",
+          "note": "UN Resolution 39(I), 12 Dec 1946: UN General Assembly records (digitised). The ambassador withdrawals: documented in diplomatic correspondence (AHN). Spain's UN admission 14 Dec 1955: UN records. The US role in rehabilitation: FRUS 1952–54 Vol.VI. Payne (1987), The Franco Regime, ch.16 on the Cold War transformation."
+        }
       ]
     },
     {
-      "id": "lives", "label": "Lives", "icon": "🪞",
-      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
       "entries": [
-        { "id":"lv1", "group":"Women's Agency", "label":"Clara Campoamor — architect of women's suffrage", "date":"1931", "loc":"Madrid (Cortes Constituyentes)", "coords":[40.43,-3.69], "hint":"Clara Campoamor argues for women's suffrage in the 1931 Constituent Cortes against opposition from fellow Republican Victoria Kent — her speech on 1 October 1931 is the primary document of Spanish feminism; women vote for the first time in the November 1933 elections.", "tag":"EVIDENCE", "note":"Campoamor's speech, 1 Oct 1931: Diario de Sesiones de las Cortes Constituyentes, 1 Oct 1931 (digitised, Congreso de los Diputados archive). The vote: Article 36 of the 1931 Constitution. Campoamor (1936), El voto femenino y yo: her own memoir of the suffrage campaign, BNE. Nash (1991), Defying Male Civilization: Women in the Spanish Civil War." },
-        { "id":"lv2", "group":"Same-Sex Practice & Law", "label":"Ley de Vagos y Maleantes — criminalisation of homosexuality", "date":"1954 (amendment)", "loc":"Spain-wide", "coords":[40.4,-3.7], "hint":"The 1933 Vagrancy Law is amended in 1954 to explicitly include homosexuals as subject to detention and forced labour camps — a CATEGORICAL SHIFT from implicit social stigma to explicit criminal category; replaced by the even harsher Ley de Peligrosidad Social (1970).", "tag":"CATEGORICAL SHIFT", "note":"BOE 17 Jul 1954: the amendment text. The Ley de Peligrosidad y Rehabilitación Social (1970): BOE 6 Aug 1970 — replaced the 1954 law with even more explicit criminalisation. Ugarte Pérez (2008), Una discriminación universal: la homosexualidad bajo el franquismo: the primary modern study. The internment camps (especially Badajoz): documented in prison records, partly in AGA. The transition to democracy formally decriminalised homosexuality in 1979." },
-        { "id":"lv3", "group":"Women's Agency", "label":"Mujeres Libres — anarchist women's organisation 1936–1939", "date":"1936–1939", "loc":"Barcelona; Madrid; Valencia", "coords":[41.38,2.18], "hint":"Mujeres Libres (Free Women) organises 20,000 members during the Civil War — running schools, childcare centres and training programmes; their magazine and archive is the primary source for women's autonomous political organising in the Spanish Republic.", "tag":"EVIDENCE", "note":"Mujeres Libres magazine (1936–1938): digitised, BNE and IISG Amsterdam. The organisation's records: International Institute of Social History (IISG), Amsterdam — the primary archive. Ackelsberg (1991), Free Women of Spain: Anarchism and the Struggle for the Emancipation of Women: the standard scholarly study. Membership figure of 20,000: documented in the organisation's own publications." },
-        { "id":"lv4", "group":"Enslaved Lives", "label":"Forced labour under Francoism — Republican prisoners", "date":"1939–1956", "loc":"Valle de los Caídos; Cuelgamuros; railway and canal construction sites", "coords":[40.64,-4.15], "hint":"Franco uses Republican political prisoners as forced labour on construction projects including the Valle de los Caídos — an estimated 20,000 prisoners work at the site; the legal mechanism (Redención de Penas por el Trabajo) frames exploitation as 'redemption'.", "tag":"CATEGORICAL SHIFT", "note":"Redención de Penas por el Trabajo decree (1939): BOE. The Valle de los Caídos forced labour: documented in Sueiro (1976) and Aguilar (2008), Memory and Amnesia. Prisoner records: AHN. The number 20,000 at Valle de los Caídos: documented in Fernández-Poyatos (1995). This is a CATEGORICAL SHIFT: forced labour reframed as spiritual 'redemption' — one of the most cynical legislative manoeuvres of the dictatorship." }
+        {
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "Clara Campoamor — architect of women's suffrage",
+          "date": "1931",
+          "loc": "Madrid (Cortes Constituyentes)",
+          "coords": [
+            40.43,
+            -3.69
+          ],
+          "hint": "Clara Campoamor argues for women's suffrage in the 1931 Constituent Cortes against opposition from fellow Republican Victoria Kent — her speech on 1 October 1931 is the primary document of Spanish feminism; women vote for the first time in the November 1933 elections.",
+          "tag": "EVIDENCE",
+          "note": "Campoamor's speech, 1 Oct 1931: Diario de Sesiones de las Cortes Constituyentes, 1 Oct 1931 (digitised, Congreso de los Diputados archive). The vote: Article 36 of the 1931 Constitution. Campoamor (1936), El voto femenino y yo: her own memoir of the suffrage campaign, BNE. Nash (1991), Defying Male Civilization: Women in the Spanish Civil War."
+        },
+        {
+          "id": "lv2",
+          "group": "Same-Sex Practice & Law",
+          "label": "Ley de Vagos y Maleantes — criminalisation of homosexuality",
+          "date": "1954 (amendment)",
+          "loc": "Spain-wide",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "The 1933 Vagrancy Law is amended in 1954 to explicitly include homosexuals as subject to detention and forced labour camps — a CATEGORICAL SHIFT from implicit social stigma to explicit criminal category; replaced by the even harsher Ley de Peligrosidad Social (1970).",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "BOE 17 Jul 1954: the amendment text. The Ley de Peligrosidad y Rehabilitación Social (1970): BOE 6 Aug 1970 — replaced the 1954 law with even more explicit criminalisation. Ugarte Pérez (2008), Una discriminación universal: la homosexualidad bajo el franquismo: the primary modern study. The internment camps (especially Badajoz): documented in prison records, partly in AGA. The transition to democracy formally decriminalised homosexuality in 1979."
+        },
+        {
+          "id": "lv3",
+          "group": "Women's Agency",
+          "label": "Mujeres Libres — anarchist women's organisation 1936–1939",
+          "date": "1936–1939",
+          "loc": "Barcelona; Madrid; Valencia",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Mujeres Libres (Free Women) organises 20,000 members during the Civil War — running schools, childcare centres and training programmes; their magazine and archive is the primary source for women's autonomous political organising in the Spanish Republic.",
+          "tag": "EVIDENCE",
+          "note": "Mujeres Libres magazine (1936–1938): digitised, BNE and IISG Amsterdam. The organisation's records: International Institute of Social History (IISG), Amsterdam — the primary archive. Ackelsberg (1991), Free Women of Spain: Anarchism and the Struggle for the Emancipation of Women: the standard scholarly study. Membership figure of 20,000: documented in the organisation's own publications."
+        },
+        {
+          "id": "lv4",
+          "group": "Enslaved Lives",
+          "label": "Forced labour under Francoism — Republican prisoners",
+          "date": "1939–1956",
+          "loc": "Valle de los Caídos; Cuelgamuros; railway and canal construction sites",
+          "coords": [
+            40.64,
+            -4.15
+          ],
+          "hint": "Franco uses Republican political prisoners as forced labour on construction projects including the Valle de los Caídos — an estimated 20,000 prisoners work at the site; the legal mechanism (Redención de Penas por el Trabajo) frames exploitation as 'redemption'.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Redención de Penas por el Trabajo decree (1939): BOE. The Valle de los Caídos forced labour: documented in Sueiro (1976) and Aguilar (2008), Memory and Amnesia. Prisoner records: AHN. The number 20,000 at Valle de los Caídos: documented in Fernández-Poyatos (1995). This is a CATEGORICAL SHIFT: forced labour reframed as spiritual 'redemption' — one of the most cynical legislative manoeuvres of the dictatorship."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"monarchy",    "icon":"⚜️","accent":"#A0200A","label":"Restoration Monarchy",    "events":[
-      {"y":1902,"y2":1923,"l":"Alfonso XIII",                    "entryId":"k1"},
-      {"y":1923,"y2":1930,"l":"Primo de Rivera dictatorship",    "entryId":"k1"},
-      {"y":1930,"y2":1931,"l":"Crisis and fall of monarchy",     "entryId":"k1"}
-    ]},
-    {"id":"republic",    "icon":"⚜️","accent":"#7B1A0A","label":"Second Republic (1931–1936)", "events":[
-      {"y":1931,"y2":1936,"l":"Second Spanish Republic",         "entryId":"k2"}
-    ]},
-    {"id":"franco",      "icon":"⚜️","accent":"#3A0000","label":"Franco Dictatorship (1939–1975)", "events":[
-      {"y":1936,"y2":1939,"l":"Franco — Generalísimo",           "entryId":"k4"},
-      {"y":1939,"y2":1975,"l":"Franco — head of state",          "entryId":"k5"}
-    ]},
-    {"id":"conflict",    "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":1936,"l":"Military coup — Civil War begins",          "entryId":"c1"},
-      {"y":1937,"l":"Bombing of Guernica",                       "entryId":"c2"},
-      {"y":1938,"l":"Battle of the Ebro",                        "entryId":"c3"},
-      {"y":1939,"l":"White Terror begins",                       "entryId":"c5"}
-    ]},
-    {"id":"order",       "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":1931,"l":"Constitution — women's suffrage",           "entryId":"o1"},
-      {"y":1932,"l":"Catalan Estatut",                           "entryId":"o4"},
-      {"y":1938,"l":"Fuero del Trabajo",                         "entryId":"o2"},
-      {"y":1939,"l":"Ley de Responsabilidades Políticas",        "entryId":"o3"}
-    ]},
-    {"id":"expression",  "icon":"✨","accent":"#8D6E63","events":[
-      {"y":1898,"l":"Generation of '98",                         "entryId":"a2"},
-      {"y":1930,"l":"Ortega: Revolt of the Masses",              "entryId":"t1"},
-      {"y":1936,"l":"Lorca killed",                              "entryId":"a3"},
-      {"y":1937,"l":"Picasso: Guernica",                         "entryId":"a1"},
-      {"y":1940,"l":"Valle de los Caídos (forced labour)",       "entryId":"a4"}
-    ]},
-    {"id":"subsistence", "icon":"🌾","accent":"#8B5E00","events":[
-      {"y":1898,"l":"Colonial collapse — 1898 disaster",         "entryId":"s1"},
-      {"y":1939,"l":"Autarky — the hungry decade",               "entryId":"s2"},
-      {"y":1959,"l":"Plan de Estabilización",                    "entryId":"s3"}
-    ]},
-    {"id":"exchange",    "icon":"🌐","accent":"#148080","events":[
-      {"y":1936,"l":"Non-Intervention Agreement",                "entryId":"ex1"},
-      {"y":1939,"l":"Retirada — 500,000 into exile",             "entryId":"ex2"},
-      {"y":1953,"l":"Pacts of Madrid — US bases",                "entryId":"ex3"}
-    ]},
-    {"id":"world",       "icon":"🌍","accent":"#2471A3","events":[
-      {"y":1940,"l":"Blue Division — Eastern Front",             "entryId":"w1"},
-      {"y":1946,"l":"UN ostracism of Spain",                     "entryId":"w2"},
-      {"y":1953,"l":"Cold War rehabilitation",                   "entryId":"ex3"}
-    ]},
-    {"id":"lives",       "icon":"🪞","accent":"#7B4FA6","events":[
-      {"y":1931,"l":"Campoamor — women's suffrage",              "entryId":"lv1"},
-      {"y":1936,"l":"Mujeres Libres — 20,000 members",           "entryId":"lv3"},
-      {"y":1939,"l":"Forced labour — Valle de los Caídos",       "entryId":"lv4"},
-      {"y":1954,"l":"Homosexuality criminalised (Ley Vagos)",    "entryId":"lv2"}
-    ]}
+    {
+      "id": "monarchy",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Head of State — Restoration",
+      "events": [
+        {
+          "y": 1902,
+          "y2": 1923,
+          "l": "Alfonso XIII",
+          "entryId": "k1"
+        },
+        {
+          "y": 1923,
+          "y2": 1930,
+          "l": "Primo de Rivera dictatorship",
+          "entryId": "k1"
+        },
+        {
+          "y": 1930,
+          "y2": 1931,
+          "l": "Crisis and fall of monarchy",
+          "entryId": "k1"
+        }
+      ]
+    },
+    {
+      "id": "republic",
+      "icon": "⚜️",
+      "accent": "#7B1A0A",
+      "label": "Head of State — Republic",
+      "events": [
+        {
+          "y": 1931,
+          "y2": 1936,
+          "l": "Second Spanish Republic",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
+      "id": "franco",
+      "icon": "⚜️",
+      "accent": "#3A0000",
+      "label": "Government — Franco",
+      "events": [
+        {
+          "y": 1936,
+          "y2": 1939,
+          "l": "Franco — Generalísimo",
+          "entryId": "k4"
+        },
+        {
+          "y": 1939,
+          "y2": 1975,
+          "l": "Franco — head of state",
+          "entryId": "k5"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 1936,
+          "l": "Military coup — Civil War begins",
+          "entryId": "c1"
+        },
+        {
+          "y": 1937,
+          "l": "Bombing of Guernica",
+          "entryId": "c2"
+        },
+        {
+          "y": 1938,
+          "l": "Battle of the Ebro",
+          "entryId": "c3"
+        },
+        {
+          "y": 1939,
+          "l": "White Terror begins",
+          "entryId": "c5"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1931,
+          "l": "Constitution — women's suffrage",
+          "entryId": "o1"
+        },
+        {
+          "y": 1932,
+          "l": "Catalan Estatut",
+          "entryId": "o4"
+        },
+        {
+          "y": 1938,
+          "l": "Fuero del Trabajo",
+          "entryId": "o2"
+        },
+        {
+          "y": 1939,
+          "l": "Ley de Responsabilidades Políticas",
+          "entryId": "o3"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 1898,
+          "l": "Generation of '98",
+          "entryId": "a2"
+        },
+        {
+          "y": 1930,
+          "l": "Ortega: Revolt of the Masses",
+          "entryId": "t1"
+        },
+        {
+          "y": 1936,
+          "l": "Lorca killed",
+          "entryId": "a3"
+        },
+        {
+          "y": 1937,
+          "l": "Picasso: Guernica",
+          "entryId": "a1"
+        },
+        {
+          "y": 1940,
+          "l": "Valle de los Caídos (forced labour)",
+          "entryId": "a4"
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "icon": "🌾",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 1898,
+          "l": "Colonial collapse — 1898 disaster",
+          "entryId": "s1"
+        },
+        {
+          "y": 1939,
+          "l": "Autarky — the hungry decade",
+          "entryId": "s2"
+        },
+        {
+          "y": 1959,
+          "l": "Plan de Estabilización",
+          "entryId": "s3"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 1936,
+          "l": "Non-Intervention Agreement",
+          "entryId": "ex1"
+        },
+        {
+          "y": 1939,
+          "l": "Retirada — 500,000 into exile",
+          "entryId": "ex2"
+        },
+        {
+          "y": 1953,
+          "l": "Pacts of Madrid — US bases",
+          "entryId": "ex3"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1940,
+          "l": "Blue Division — Eastern Front",
+          "entryId": "w1"
+        },
+        {
+          "y": 1946,
+          "l": "UN ostracism of Spain",
+          "entryId": "w2"
+        },
+        {
+          "y": 1953,
+          "l": "Cold War rehabilitation",
+          "entryId": "ex3"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 1931,
+          "l": "Campoamor — women's suffrage",
+          "entryId": "lv1"
+        },
+        {
+          "y": 1936,
+          "l": "Mujeres Libres — 20,000 members",
+          "entryId": "lv3"
+        },
+        {
+          "y": 1939,
+          "l": "Forced labour — Valle de los Caídos",
+          "entryId": "lv4"
+        },
+        {
+          "y": 1954,
+          "l": "Homosexuality criminalised (Ley Vagos)",
+          "entryId": "lv2"
+        }
+      ]
+    }
   ]
 }
