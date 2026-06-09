@@ -35,18 +35,19 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 #search-input::placeholder{color:#8ab89a}
 
 /* ── MODULE MATRIX PICKER ── */
-#module-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:1000;align-items:flex-start;justify-content:flex-start}
+#module-overlay{display:none;position:fixed;inset:0;z-index:1000;background:#e8f2e8}
 #module-overlay.open{display:flex}
-#module-picker{background:#e8f2e8;width:100vw;max-width:1100px;min-height:100vh;max-height:100vh;overflow-y:auto;overflow-x:hidden;padding:24px 28px 40px;box-shadow:4px 0 40px rgba(0,0,0,.2);display:flex;flex-direction:column;gap:0}
+#module-picker{background:#e8f2e8;width:100%;height:100vh;display:flex;flex-direction:column;padding:0}
 
-/* Picker header */
-#picker-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:8px;flex-shrink:0}
+/* Sticky top section — never scrolls */
+#picker-top{padding:18px 28px 0;flex-shrink:0;background:#e8f2e8;z-index:2}
+#picker-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:10px}
 #picker-head h2{font-family:'IM Fell English',serif;font-size:17px;color:#0e2a18}
 #picker-close{background:transparent;border:1px solid #6a9a7a;color:#2a5a38;padding:4px 10px;cursor:pointer;font-size:11px;font-family:'Courier New',monospace;border-radius:3px;flex-shrink:0;transition:all .15s}
 #picker-close:hover{background:#0e2a18;color:#d4e8d0;border-color:#0e2a18}
 
 /* Global search */
-#global-search-wrap{margin-bottom:14px;flex-shrink:0;position:relative}
+#global-search-wrap{margin-bottom:12px;position:relative}
 #global-search{width:100%;background:#fff;border:1px solid #8ab89a;border-radius:4px;color:#0e2a18;padding:9px 14px;font-size:13px;font-family:Georgia,serif;outline:none}
 #global-search::placeholder{color:#8ab89a}
 #global-search:focus{border-color:#2a6a3a;box-shadow:0 0 0 2px rgba(42,106,58,.12)}
@@ -60,16 +61,19 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .gr-entry-hint{font-size:10px;color:#6a9a7a;font-style:italic;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .gr-no-results{font-size:11px;color:#6a9a7a;font-family:'Courier New',monospace;padding:10px}
 
-/* Matrix */
-#matrix-label{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:10px;flex-shrink:0}
-#matrix-wrap{width:100%}
+#matrix-label{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:0;padding-bottom:8px}
+
+/* Matrix scroll area — only this scrolls */
+#matrix-wrap{flex:1;overflow-y:auto;overflow-x:hidden;padding:0 28px 20px;min-height:0}
 #matrix{border-collapse:collapse;width:100%;table-layout:fixed}
-#matrix th{font-size:9px;font-family:'Courier New',monospace;letter-spacing:.08em;color:#2a5a38;text-transform:uppercase;padding:8px 8px 6px;border-bottom:2px solid #8ab89a;text-align:left;white-space:nowrap;font-weight:700;background:#e8f2e8}
+
+/* Sticky column headers inside the scroll area */
+#matrix thead th{position:sticky;top:0;z-index:3;font-size:9px;font-family:'Courier New',monospace;letter-spacing:.08em;color:#2a5a38;text-transform:uppercase;padding:8px 8px 7px;border-bottom:2px solid #8ab89a;text-align:left;white-space:nowrap;font-weight:700;background:#e8f2e8;box-shadow:0 2px 0 #8ab89a}
 #matrix th:first-child{width:100px}
-#matrix td{padding:5px 6px;border:1px solid #c8e0c8;vertical-align:top;background:#f2f8f2}
+#matrix td{padding:6px 6px;border:1px solid #c8e0c8;vertical-align:top;background:#f2f8f2}
 .matrix-region{font-size:9px;font-family:'Courier New',monospace;color:#2a5a38;letter-spacing:.07em;padding:6px 0;text-transform:uppercase;white-space:nowrap;font-weight:600}
-.matrix-cell{min-height:40px;border-radius:3px;padding:2px}
-.matrix-cell.empty{background:#e0ede0;opacity:.6}
+.matrix-cell{min-height:44px;border-radius:3px;padding:2px}
+.matrix-cell.empty{background:#e0ede0;opacity:.5}
 .mc-card{background:#fff;border:1px solid #b8d8b8;border-radius:3px;padding:6px 8px;margin-bottom:4px;cursor:pointer;transition:all .15s;box-shadow:0 1px 3px rgba(0,0,0,.06)}
 .mc-card:hover{border-color:#2a6a3a;background:#f0f8f0;box-shadow:0 2px 6px rgba(42,106,58,.15)}
 .mc-card.active{border-color:#0e4a22;background:#e0f0e4;box-shadow:inset 0 0 0 1px #0e4a22}
@@ -77,8 +81,8 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .mc-sub{font-size:8px;color:#4a7a55;font-family:'Courier New',monospace;margin-top:2px;line-height:1.4}
 .mc-empty{font-size:9px;color:#b8d8b8;font-family:'Courier New',monospace;padding:4px 0;text-align:center}
 
-/* Picker footer */
-#picker-note{font-size:10px;color:#6a9a7a;font-family:'Courier New',monospace;margin-top:20px;line-height:1.7;border-top:1px solid #b8d8b8;padding-top:14px;flex-shrink:0}
+/* Picker footer inside scroll area */
+#picker-note{font-size:10px;color:#6a9a7a;font-family:'Courier New',monospace;margin-top:16px;line-height:1.7;border-top:1px solid #b8d8b8;padding-top:12px}
 
 /* ── FULL-WIDTH CONTENT WRAPPER ── */
 #content-wrap{max-width:none;width:100%;padding:0}
@@ -177,21 +181,18 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 <!-- MODULE MATRIX PICKER -->
 <div id="module-overlay" onclick="if(event.target===this)closePicker()">
   <div id="module-picker">
-
-    <div id="picker-head">
-      <h2>Area Studies Atlas</h2>
-      <button id="picker-close" onclick="closePicker()" style="visibility:hidden">✕ CLOSE</button>
+    <div id="picker-top">
+      <div id="picker-head">
+        <h2>Area Studies Atlas</h2>
+        <button id="picker-close" onclick="closePicker()" style="visibility:hidden">✕ CLOSE</button>
+      </div>
+      <div id="global-search-wrap">
+        <input id="global-search" placeholder="Search across all modules — rulers, battles, manuscripts, places…"
+          oninput="globalSearch(this.value)" autocomplete="off">
+        <div id="global-results"></div>
+      </div>
+      <div id="matrix-label">SELECT MODULE BY REGION × PERIOD</div>
     </div>
-
-    <!-- Global search -->
-    <div id="global-search-wrap">
-      <input id="global-search" placeholder="Search across all modules — rulers, battles, manuscripts, places…"
-        oninput="globalSearch(this.value)" autocomplete="off">
-      <div id="global-results"></div>
-    </div>
-
-    <!-- Matrix -->
-    <div id="matrix-label">SELECT MODULE BY REGION × PERIOD</div>
     <div id="matrix-wrap">
       <table id="matrix">
         <thead>
@@ -207,12 +208,11 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
         </thead>
         <tbody id="matrix-body"></tbody>
       </table>
-    </div>
-
-    <div id="picker-note">
-      To add a module: generate a JSON in this chat, save it to modules/ in your repo,<br>
-      add it to the MODULES list in index.html with region + period fields.<br>
-      Empty cells show where modules can still be built.
+      <div id="picker-note">
+        To add a module: generate a JSON in this chat, save it to modules/ in your repo,<br>
+        add it to the MODULES list in index.html with region + period fields.<br>
+        Empty cells show where modules can still be built.
+      </div>
     </div>
   </div>
 </div>
