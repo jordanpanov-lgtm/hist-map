@@ -2,7 +2,10 @@
   "id": "rome-400-500",
   "title": "Roman Empire",
   "subtitle": "400–500 AD",
-  "period": "Late Antique",
+  "period": {
+    "start": 400,
+    "end": 500
+  },
   "mapCenter": [
     41,
     18
@@ -1652,5 +1655,6 @@
       ]
     }
   ],
-  "region": "Europe"
+  "region": "Europe",
+  "period_label": "Late Antique"
 }
