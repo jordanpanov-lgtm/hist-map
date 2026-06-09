@@ -2,7 +2,10 @@
   "id": "sassanid-224-484",
   "title": "Sassanid Empire",
   "subtitle": "224–484 AD · Foundation to the Hephthalite Crisis",
-  "period": "Late Antique",
+  "period": {
+    "start": 224,
+    "end": 484
+  },
   "mapCenter": [
     32,
     50
@@ -1375,5 +1378,6 @@
       ]
     }
   ],
-  "region": "Near East"
+  "region": "Near East",
+  "period_label": "Late Antique"
 }
