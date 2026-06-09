@@ -681,10 +681,50 @@
   ],
   "timeline": [
     {
+      "id": "transition",
+      "icon": "⚜️",
+      "accent": "#2471A3",
+      "label": "Head of State — Transition",
+      "events": [
+        {
+          "y": 1975,
+          "y2": 1982,
+          "l": "Juan Carlos I — Transition architect",
+          "entryId": "k1"
+        },
+        {
+          "y": 1976,
+          "y2": 1981,
+          "l": "Adolfo Suárez — first PM",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "democracy",
+      "icon": "⚜️",
+      "accent": "#1A5276",
+      "label": "Head of State — Democracy",
+      "events": [
+        {
+          "y": 1982,
+          "y2": 2014,
+          "l": "Juan Carlos I — constitutional king",
+          "entryId": "k1"
+        },
+        {
+          "y": 2014,
+          "y2": 2025,
+          "l": "Felipe VI",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
       "id": "governments",
       "icon": "⚜️",
       "accent": "#1A5276",
-      "label": "Prime Ministers",
+      "label": "Governments",
       "events": [
         {
           "y": 1982,
@@ -715,46 +755,6 @@
           "y2": 2025,
           "l": "Sánchez (PSOE)",
           "entryId": "k8"
-        }
-      ]
-    },
-    {
-      "id": "transition",
-      "icon": "⚜️",
-      "accent": "#2471A3",
-      "label": "La Transición (1975–1982)",
-      "events": [
-        {
-          "y": 1975,
-          "y2": 1982,
-          "l": "Juan Carlos I — Transition architect",
-          "entryId": "k1"
-        },
-        {
-          "y": 1976,
-          "y2": 1981,
-          "l": "Adolfo Suárez — first PM",
-          "entryId": "k3"
-        }
-      ]
-    },
-    {
-      "id": "democracy",
-      "icon": "⚜️",
-      "accent": "#1A5276",
-      "label": "Democratic Spain (1982–today)",
-      "events": [
-        {
-          "y": 1982,
-          "y2": 2014,
-          "l": "Juan Carlos I — constitutional king",
-          "entryId": "k1"
-        },
-        {
-          "y": 2014,
-          "y2": 2025,
-          "l": "Felipe VI",
-          "entryId": "k2"
         }
       ]
     },
