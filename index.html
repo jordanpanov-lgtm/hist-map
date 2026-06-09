@@ -1037,9 +1037,10 @@ function buildTimeline() {
     bg.setAttribute('fill', li%2===0 ? '#faf9f6' : '#f4f1eb'); bg.setAttribute('rx','2');
     svg.appendChild(bg);
 
-    // Lane label (icon + name, using label field if present)
+    // Lane label (icon + name, using label field if present, then category label, then full id)
     const licon = CAT_ICONS[lane.id] || lane.icon || '';
-    const ltext = lane.label || lane.id.slice(0,8).toUpperCase();
+    const catMeta = MOD.categories.find(c => c.id === lane.id);
+    const ltext = lane.label || (catMeta && catMeta.label) || lane.id.replace(/-/g,' ').toUpperCase();
     const lt = document.createElementNS('http://www.w3.org/2000/svg','text');
     lt.setAttribute('x','4'); lt.setAttribute('y', ty + laneH/2 + 4);
     lt.setAttribute('font-size','9'); lt.setAttribute('fill', lane.accent);
