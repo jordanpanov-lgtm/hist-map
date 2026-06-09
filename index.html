@@ -417,65 +417,117 @@ function closePicker(force) {
 }
 
 // ── GLOBAL SEARCH ─────────────────────────────────────────────────────────────
-// Cache: load all modules lazily into memory for searching
-const _modCache = {};
+// Lightweight index: only {modId, modFile, modLabel, modSub, entryId,
+//   label, hint, date, loc, group, catAccent, catLabel} per entry.
+// Full module JSON is only fetched when user selects a specific result.
 
-async function ensureModCache() {
-  const unloaded = MODULES.filter(m => !_modCache[m.id]);
-  await Promise.all(unloaded.map(m =>
-    fetch(m.file).then(r => r.json()).then(d => { _modCache[m.id] = { meta: m, data: d }; }).catch(()=>{})
+let _searchIndex = null;      // null = not built yet
+let _indexBuilding = false;
+let _pendingSearch = null;    // query waiting for index to finish
+
+async function buildSearchIndex() {
+  if (_searchIndex || _indexBuilding) return;
+  _indexBuilding = true;
+
+  const index = [];
+  await Promise.all(MODULES.map(m =>
+    fetch(m.file)
+      .then(r => r.json())
+      .then(data => {
+        if (!data.categories) return;
+        data.categories.forEach(cat => {
+          (cat.entries || []).forEach(e => {
+            // Store only the fields needed for search + display
+            // Discard full module data immediately — no memory bloat
+            index.push({
+              modId:    m.id,
+              modFile:  m.file,
+              modLabel: m.label,
+              modSub:   m.sub,
+              entryId:  e.id,
+              label:    e.label   || '',
+              hint:     e.hint    || '',
+              date:     e.date    || '',
+              loc:      e.loc     || '',
+              group:    e.group   || '',
+              note:     e.note    || '',
+              catAccent: cat.accent || '#888',
+              catLabel:  cat.label  || '',
+            });
+          });
+        });
+      })
+      .catch(() => {}) // silently skip modules that fail to load
   ));
+
+  _searchIndex = index;
+  _indexBuilding = false;
+
+  // If a search was typed while the index was building, run it now
+  if (_pendingSearch !== null) {
+    runSearch(_pendingSearch);
+    _pendingSearch = null;
+  }
 }
 
 function globalSearch(q) {
   const resultsEl = document.getElementById('global-results');
   q = q.trim().toLowerCase();
-  if (q.length < 2) { resultsEl.classList.remove('open'); resultsEl.innerHTML = ''; return; }
+  if (q.length < 2) {
+    resultsEl.classList.remove('open');
+    resultsEl.innerHTML = '';
+    return;
+  }
 
   resultsEl.classList.add('open');
-  resultsEl.innerHTML = '<div class="gr-no-results">Searching…</div>';
 
-  ensureModCache().then(() => {
-    const hits = [];
-    Object.values(_modCache).forEach(({ meta, data }) => {
-      if (!data.categories) return;
-      data.categories.forEach(cat => {
-        (cat.entries || []).forEach(e => {
-          const searchable = [e.label, e.hint, e.note, e.date, e.loc, e.group].filter(Boolean).join(' ').toLowerCase();
-          if (searchable.includes(q)) {
-            hits.push({ meta, entry: e, catAccent: cat.accent, catLabel: cat.label });
-          }
-        });
-      });
-    });
+  if (!_searchIndex) {
+    // Index not ready yet — show building message and queue the search
+    resultsEl.innerHTML = '<div class="gr-no-results">Building search index…</div>';
+    _pendingSearch = q;
+    buildSearchIndex();
+    return;
+  }
 
-    if (hits.length === 0) {
-      resultsEl.innerHTML = `<div class="gr-no-results">No results for "${q}" across ${MODULES.length} modules</div>`;
-      return;
-    }
+  runSearch(q);
+}
 
-    // Group by module
-    const byMod = {};
-    hits.forEach(h => {
-      if (!byMod[h.meta.id]) byMod[h.meta.id] = { meta: h.meta, hits: [] };
-      byMod[h.meta.id].hits.push(h);
-    });
+function runSearch(q) {
+  const resultsEl = document.getElementById('global-results');
 
-    let html = '';
-    Object.values(byMod).forEach(({ meta, hits }) => {
-      html += `<div class="gr-module">${meta.label} · ${meta.sub} (${hits.length})</div>`;
-      hits.slice(0, 6).forEach(h => {
-        const e = h.entry;
-        html += `<div class="gr-entry" onclick="globalSelectEntry('${meta.id}','${meta.file}','${e.id}','${h.catAccent}')">
-          <span class="gr-entry-name">${e.label}</span>
-          <span class="gr-entry-date">${e.date||''}</span>
-          <span class="gr-entry-hint">${e.hint||''}</span>
-        </div>`;
-      });
-      if (hits.length > 6) html += `<div class="gr-no-results" style="padding:2px 10px 6px">…and ${hits.length-6} more in this module</div>`;
-    });
-    resultsEl.innerHTML = html;
+  const hits = _searchIndex.filter(item => {
+    const searchable = [item.label, item.hint, item.date, item.loc,
+                        item.group, item.note].join(' ').toLowerCase();
+    return searchable.includes(q);
   });
+
+  if (hits.length === 0) {
+    resultsEl.innerHTML = `<div class="gr-no-results">No results for "${q}" across ${MODULES.length} modules</div>`;
+    return;
+  }
+
+  // Group by module
+  const byMod = {};
+  hits.forEach(h => {
+    if (!byMod[h.modId]) byMod[h.modId] = { modLabel: h.modLabel, modSub: h.modSub, modFile: h.modFile, hits: [] };
+    byMod[h.modId].hits.push(h);
+  });
+
+  let html = '';
+  Object.values(byMod).forEach(({ modLabel, modSub, modFile, hits }) => {
+    html += `<div class="gr-module">${modLabel} · ${modSub} (${hits.length})</div>`;
+    hits.slice(0, 6).forEach(h => {
+      html += `<div class="gr-entry" onclick="globalSelectEntry('${h.modId}','${h.modFile}','${h.entryId}','${h.catAccent}')">
+        <span class="gr-entry-name">${h.label}</span>
+        <span class="gr-entry-date">${h.date}</span>
+        <span class="gr-entry-hint">${h.hint}</span>
+      </div>`;
+    });
+    if (hits.length > 6) {
+      html += `<div class="gr-no-results" style="padding:2px 10px 6px">…and ${hits.length - 6} more in this module</div>`;
+    }
+  });
+  resultsEl.innerHTML = html;
 }
 
 function globalSelectEntry(modId, modFile, entryId, accent) {
@@ -531,9 +583,6 @@ function globalSelectEntry(modId, modFile, entryId, accent) {
     });
   }
 }
-
-// Make loadModule return a promise so globalSelectEntry can chain
-let _loadModuleResolve = null;
 
 // ── MODAL ─────────────────────────────────────────────────────────────────────
 function openModal(entry, accent) {
@@ -945,8 +994,9 @@ function renderPins() {
 // ── INIT ───────────────────────────────────────────────────────────────────────
 window.addEventListener('load', () => {
   openPicker();
-  // Preload all module data into cache silently for global search
-  setTimeout(ensureModCache, 1000);
+  // Build search index in the background after a short delay
+  // so the initial render is not blocked
+  setTimeout(buildSearchIndex, 1500);
 });
 window.addEventListener('resize', () => { /* viewBox scales automatically */ });
 </script>
