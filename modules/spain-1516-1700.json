@@ -392,6 +392,34 @@
           "hint": "Tomás Luis de Victoria is the greatest Spanish composer of the Renaissance — his Officium Defunctorum (1605), written for the death of Empress María, is the masterpiece of Counter-Reformation polyphony; printed by the Royal Printer in Madrid.",
           "tag": "LITERATURE",
           "note": "Officium Defunctorum first edition: Madrid, 1605 (Royal Printer) — BNE and British Library. Victoria's appointment to the Descalzas Reales convent, Madrid: Archivo del Palacio Real. Stevenson (1961), Spanish Cathedral Music in the Golden Age: the standard study. The Officium's dedicatory letter to Philip III: documents Victoria's position at court."
+        },
+        {
+          "id": "a6",
+          "group": "Literature & Poetry",
+          "label": "Lazarillo de Tormes — the picaresque and the view from below",
+          "date": "1554",
+          "loc": "Burgos (published anonymously)",
+          "coords": [
+            42.34,
+            -3.7
+          ],
+          "hint": "Lazarillo de Tormes (1554, anonymous) is the founding text of the picaresque novel — narrated by a pauper's son who survives by serving a succession of masters each exposed as hypocrites; its anti-clerical satire was placed on the Index; it is the satirical, gritty counterweight to the idealised literature of the Renaissance, documenting poverty and social mobility from below.",
+          "tag": "LITERATURE",
+          "note": "First edition: Burgos (also Alcalá and Antwerp, all 1554): BNE holds copies. Placed on the Index of Forbidden Books 1559: documented. An expurgated version published 1573. The anonymous authorship: still debated — Diego Hurtado de Mendoza and others proposed. Rico (1987), La novela picaresca española: the standard modern study. The picaresque genre it founds: Guzmán de Alfarache (1599), Quevedo's El Buscón (c.1626) — all documented."
+        },
+        {
+          "id": "a7",
+          "group": "Literature & Poetry",
+          "label": "Lope de Vega and Calderón — Golden Age theatre",
+          "date": "1580–1681",
+          "loc": "Madrid (Corral de la Cruz, 1579; Corral del Príncipe, 1583 — both extant plans)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Lope de Vega (1,500+ plays; Arte nuevo de hacer comedias, 1609) revolutionises European drama with the comedia nueva mixing tragedy and comedy; Calderón de la Barca's La vida es sueño (1635) is the metaphysical masterpiece of the age; the corrales de comedias (open-air public theatres) are the primary social and architectural sources for early modern performance.",
+          "tag": "LITERATURE",
+          "note": "Lope de Vega, Arte nuevo de hacer comedias (1609): BNE — the manifesto of the new drama. La vida es sueño first edition (1636): BNE. The Corral de la Cruz (1579) and Corral del Príncipe (1583): floor plans documented in Archivo de la Villa de Madrid. Surviving corral: Corral de Comedias de Almagro (1628) — extant, UNESCO tentative list; annual festival of classical theatre. Shergold (1967), A History of the Spanish Stage: the standard study. Lope's documented 1,500+ plays: the largest output of any playwright in Western literature."
         }
       ]
     },
@@ -643,6 +671,20 @@
           "hint": "Sor Juana Inés de la Cruz, a nun in colonial Mexico, is the greatest poet of the Spanish Golden Age — her Respuesta a Sor Filotea (1691) is the first feminist manifesto in the Americas, defending women's right to education against her bishop's censure.",
           "tag": "EVIDENCE",
           "note": "Respuesta a Sor Filotea de la Cruz (1691): manuscript at New York Public Library (Berg Collection). First published 1700 (Fama y Obras Póstumas). Sor Juana's convent records: Archivo del Antiguo Convento de San Jerónimo, Mexico City. Paz (1982), Sor Juana or, the Traps of Faith: the standard modern biography. Her forced 'renunciation' of learning (1693): documented in the convent's own records — the bishop's pressure and her submission."
+        },
+        {
+          "id": "lv5",
+          "group": "Enslaved Lives",
+          "label": "Urban pícaros and domestic slaves in Habsburg Seville",
+          "date": "c. 1550–1650",
+          "loc": "Seville; Madrid (main centres)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "The American silver influx triggers massive inflation (the Price Revolution) destroying domestic industries — Seville and Madrid fill with urban poor, beggars and abandoned children; simultaneously, enslaved Black Africans and Morisco war captives constitute up to 10% of Seville's urban population, serving in households, shipyards and municipal services; the picaresque literature documents both realities.",
+          "tag": "EVIDENCE",
+          "note": "Seville's enslaved population (up to 10%): documented in parish records and notarial archives (Archivo Histórico Provincial de Sevilla) — Pike (1967), 'Sevillian Society in the Sixteenth Century', Hispanic American Historical Review: the standard study. The Price Revolution in Spain: Hamilton (1934), American Treasure and the Price Revolution in Spain: uses AGS data. The pícaros: contemporaries (Mateo Alemán, Quevedo) document them. Domínguez Ortiz (1955), La sociedad española en el siglo XVII: the standard social history. The Lazarillo de Tormes entry (a6) documents this reality from within."
         }
       ]
     }
@@ -815,6 +857,11 @@
       "accent": "#8D6E63",
       "events": [
         {
+          "y": 1554,
+          "l": "Lazarillo de Tormes — picaresque founded",
+          "entryId": "a6"
+        },
+        {
           "y": 1563,
           "l": "El Escorial begun",
           "entryId": "a3"
@@ -830,14 +877,19 @@
           "entryId": "a1"
         },
         {
-          "y": 1623,
-          "l": "Velázquez at court",
-          "entryId": "a2"
-        },
-        {
           "y": 1605,
           "l": "Victoria: Officium Defunctorum",
           "entryId": "a5"
+        },
+        {
+          "y": 1609,
+          "l": "Lope de Vega; Calderón — Golden Age theatre",
+          "entryId": "a7"
+        },
+        {
+          "y": 1623,
+          "l": "Velázquez at court",
+          "entryId": "a2"
         }
       ]
     },
@@ -953,6 +1005,11 @@
           "y": 1577,
           "l": "Florentine Codex — indigenous voice",
           "entryId": "lv3"
+        },
+        {
+          "y": 1580,
+          "l": "Urban pícaros and domestic slaves in Seville",
+          "entryId": "lv5"
         },
         {
           "y": 1691,

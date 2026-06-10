@@ -338,6 +338,20 @@
           "hint": "The Llibre Vermell (Red Book) of Montserrat contains 10 songs for pilgrims to sing or dance at the shrine — the earliest documented use of dancing in a Christian devotional context; the manuscript also contains plague songs written during the Black Death epidemics; it is the oldest extant Catalan music manuscript.",
           "tag": "LITERATURE",
           "note": "HARD ANCHOR: Llibre Vermell de Montserrat (c.1399): Arxiu de l'Abadia de Montserrat. The 10 songs include polyphonic and monophonic pieces. Gómez (1990), La música medieval en España: the standard study. The dancing at shrines: the text explicitly describes pilgrims dancing in the nave — 'because the pilgrims are accustomed to watch at night in the church'. The plague songs: composed c.1348–1350 — documented by internal references."
+        },
+        {
+          "id": "a4",
+          "group": "Architecture",
+          "label": "Gothic cathedrals — Burgos, Toledo and León",
+          "date": "1221–c.1500",
+          "loc": "Burgos (begun 1221); Toledo (begun 1226); León (begun c.1205)",
+          "coords": [
+            42.34,
+            -3.7
+          ],
+          "hint": "The great Gothic cathedrals of Burgos, Toledo and León — all begun in the 13th century under French influence — are the monumental primary sources of medieval Spanish religious expression; León's cathedral (c.1,800 sq metres of stained glass) is called 'the house of light'; Burgos and Toledo develop into the hyper-ornate Isabelline Gothic by the late 15th century.",
+          "tag": "MONUMENT",
+          "note": "Burgos Cathedral (begun 1221): UNESCO 1984 — building accounts in Archivo de la Catedral de Burgos. Toledo Cathedral (begun 1226): extant — Archivo de la Catedral de Toledo. León Cathedral (begun c.1205): extant — c.1,800 sq metres of medieval stained glass, the largest concentration in a Romanesque/Gothic structure in Europe. Williams (1977), A Spanish Romanesque: contextualises the transition. The Isabelline Gothic (Flamboyant-Mudéjar fusion): San Juan de los Reyes, Toledo (1476–1504) — commissioned by the Catholic Monarchs, extant."
         }
       ]
     },
@@ -575,6 +589,20 @@
           "hint": "A wave of pogroms sweeps the Christian kingdoms of the Iberian Peninsula in 1391 — beginning in Seville in June and spreading across Castile and Aragon; these cities had been under Christian rule for over a century; thousands killed, many more forced to convert; the converso class created directly causes the Inquisition's founding and the 1492 expulsion.",
           "tag": "CATEGORICAL SHIFT",
           "note": "The Seville pogrom June 1391: documented in municipal records (Archivo Municipal de Sevilla). All cities affected (Seville, Córdoba, Toledo, Valencia, Barcelona) were under Christian rule — this entry belongs in the Christian kingdoms folio, not al-Andalus. Baer (1961), A History of the Jews in Christian Spain Vol.II. The Tàrrega 1348 mass graves: MDPI genetic study (March 2026). The forced conversions' scale: Beinart (2002) estimates 100,000+ converted in 1391."
+        },
+        {
+          "id": "lv5",
+          "group": "Persecuted Communities",
+          "label": "Remensas peasants — the largest successful peasant revolt in late medieval Europe",
+          "date": "1462–1486",
+          "loc": "Catalonia (rural estates; Remensa Wars 1462–1472 and 1484–1486)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Catalan peasants (pagesos de remença) live under the 'Bad Customs' (mals usos) — brutal feudal abuses binding them to the land, taxing their marriages, and permitting physical punishment; their Remensa Wars (1462–1486) are the largest successful peasant rebellion in late medieval Europe; Ferdinand II abolishes the Bad Customs in the Sentencia Arbitral de Guadalupe (1486).",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "The mals usos documentation: Arxiu de la Corona d'Aragó — the six Bad Customs listed in contemporary documents. The Remensa Wars: Vicens Vives (1945), El gran sindicat remença: the standard study. The Sentencia Arbitral de Guadalupe 21 Apr 1486: Arxiu de la Corona d'Aragó — Ferdinand II's arbitration abolishing the mals usos. Freedman (1991), The Origins of Peasant Servitude in Medieval Catalonia: the standard English study. This is a CATEGORICAL SHIFT: the legal abolition of inherited servitude for Catalan peasants — the only such wholesale peasant liberation in 15th-century Iberia."
         }
       ]
     }
@@ -746,6 +774,11 @@
       "accent": "#8D6E63",
       "events": [
         {
+          "y": 1221,
+          "l": "Gothic cathedrals — Burgos, Toledo, León",
+          "entryId": "a4"
+        },
+        {
           "y": 1230,
           "l": "Mudéjar architecture flourishes",
           "entryId": "a1"
@@ -849,6 +882,11 @@
           "y": 1474,
           "l": "Isabella I crowned — queen regnant",
           "entryId": "lv1"
+        },
+        {
+          "y": 1486,
+          "l": "Sentencia de Guadalupe — remensa peasants freed",
+          "entryId": "lv5"
         }
       ]
     }
