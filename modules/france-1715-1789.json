@@ -1,0 +1,146 @@
+{
+  "id": "france-1715-1789",
+  "title": "France",
+  "subtitle": "1715–1789 · Enlightenment and Ancien Régime",
+  "period": { "start": 1715, "end": 1789 },
+  "region": "France",
+  "period_label": "Early Modern",
+  "mapCenter": [47.0, 2.5],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power", "label": "Power", "icon": "⚜️",
+      "color": "#1A0050", "accent": "#5B2C8D", "bg": "#F5F0FF",
+      "subtitle": "Regency, weak kings and the collapse of royal authority",
+      "entries": [
+        { "id":"k1", "group":"Regency & Louis XV (1715–1774)", "dynasty":"Bourbon", "label":"Regency of Philippe d'Orléans — and Law's System", "date":"1715–1723", "loc":"Paris (Palais-Royal)", "coords":[48.86,2.34], "hint":"Louis XV is five years old — the Regent Philippe d'Orléans rules from Paris (not Versailles), relaxes court formality, and allows John Law's financial experiment; Law's System crashes in 1720, devastating French finances and creating lasting suspicion of paper money.", "tag":"SUCCESSION", "note":"Regency council records: Archives nationales, série E. John Law's Mississippi Company prospectus (1719): BnF. The crash of 1720: documented in contemporary pamphlets (BnF), police reports (Archives nationales Y). Faure (1977), La Banqueroute de Law: the standard study. The contrast between Regency libertinism and Versailles formality: Saint-Simon's Mémoires (he was present)." },
+        { "id":"k2", "group":"Regency & Louis XV (1715–1774)", "dynasty":"Bourbon", "label":"Louis XV — le Bien-Aimé to the unloved", "date":"1723–1774", "loc":"Versailles", "coords":[48.8,2.12], "hint":"Louis XV reigns 59 years — initially popular ('le Bien-Aimé'), he loses the Seven Years War (1756–1763), giving up Canada and most of France's empire; his private correspondence with diplomats (the King's Secret) reveals parallel foreign policy conducted without his ministers' knowledge.", "tag":"SUCCESSION", "note":"Louis XV's private diplomatic correspondence ('le Secret du Roi'): Archives des Affaires Étrangères, Mémoires et Documents France 1397–2053. Published: Broglie (1878), Le Secret du Roi. The Seven Years War archives: Archives de la Guerre A1. McManners (1998), Church and Society, Vol.II for the religious dimension. Petitfils (2014), Louis XV: the standard modern biography." },
+        { "id":"k3", "group":"Louis XVI (1774–1789)", "dynasty":"Bourbon", "label":"Louis XVI — the king who lost the initiative", "date":"10 May 1774–1789", "loc":"Versailles", "coords":[48.8,2.12], "hint":"Louis XVI inherits a fiscal crisis and an Enlightenment culture that questions royal authority — he appoints Turgot, Necker and other reformers, then dismisses them under court pressure; his convocation of the Estates-General in May 1789 inadvertently triggers the Revolution.", "tag":"SUCCESSION", "note":"Louis XVI's diary (covering 1766–1792): Archives nationales, KK 622 — the famous entry for 14 July 1789: 'Rien' (nothing, referring to his hunting). His appointment of Turgot 1774: Archives nationales. The Estates-General convocation decree 24 Jan 1789: Archives nationales, série AD. Price (2002), Preserving the Monarchy: the standard study of Louis XVI's political decisions." }
+      ]
+    },
+    {
+      "id": "conflict", "label": "Conflict", "icon": "⚔️",
+      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "subtitle": "Seven Years War and the loss of empire",
+      "entries": [
+        { "id":"c1", "group":"Colonial Wars", "label":"Seven Years War — France loses its empire", "date":"1756–1763", "loc":"Canada; India; Caribbean; Europe", "coords":[46.0,-73.5], "hint":"The Seven Years War is France's catastrophic colonial defeat — Canada, most of India and Caribbean islands are lost to Britain; the Peace of Paris (1763) is the greatest colonial contraction in French history to that point; Voltaire mocks Canada as 'quelques arpents de neige'.", "tag":"BATTLE", "note":"Archives de la Guerre A1: French military records. Peace of Paris 10 Feb 1763: Archives des Affaires Étrangères; British National Archives SP 108. The battle of the Plains of Abraham 13 Sep 1759: documented in both French and British military records. Voltaire's 'quelques arpents de neige': Candide (1759), Ch.23. Dziembowski (1998), Un nouveau patriotisme français: analyses French public opinion during the war." },
+        { "id":"c2", "group":"Colonial Wars", "label":"American War of Independence — France's revenge", "date":"1778–1783", "loc":"North America; Caribbean; Atlantic", "coords":[39.0,-77.0], "hint":"France enters the American war against Britain in 1778 — Lafayette volunteers, Rochambeau commands French forces at Yorktown; the Treaty of Paris (1783) partially reverses the 1763 losses but at enormous financial cost that accelerates the fiscal crisis leading to the Revolution.", "tag":"BATTLE", "note":"French declaration of war on Britain 17 Jun 1778: Archives des Affaires Étrangères. Rochambeau's Yorktown dispatches: Archives de la Guerre A1. Lafayette's letters: Library of Congress. French debt from the war: documented in Necker's Compte rendu (1781). Dull (1975), The French Navy and American Independence: the standard study." }
+      ]
+    },
+    {
+      "id": "order", "label": "Order", "icon": "⚖️",
+      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "Fiscal crisis, law reform and the collapse of absolutism",
+      "entries": [
+        { "id":"o1", "group":"Administrative Reform", "label":"Necker's Compte rendu — public finance made public", "date":"1781", "loc":"Paris (published)", "coords":[48.85,2.35], "hint":"Jacques Necker publishes the first public account of royal finances — the Compte rendu au roi (1781) is the first time French fiscal data is shared with the public; it sells 100,000 copies immediately and transforms public debate about royal spending.", "tag":"DOCUMENT", "note":"Compte rendu au roi (Feb 1781): BnF first edition. 100,000 copies in weeks: documented in publisher's records. Hardman (1995), French Politics 1774–1789: the standard study. Necker's subsequent dismissal and rehiring: documented in Archives nationales. The Compte rendu's reliability: debated by historians — Harris (1979), Necker: Reform Statesman of the Ancien Régime." },
+        { "id":"o2", "group":"Imperial Law", "label":"The Calas Affair — Voltaire and judicial reform", "date":"1762–1765", "loc":"Toulouse (trial); Paris (campaign)", "coords":[43.6,1.44], "hint":"Jean Calas, a Protestant merchant, is judicially tortured and executed in Toulouse on false evidence of killing his son to prevent conversion — Voltaire campaigns publicly for his rehabilitation; the case is overturned in 1765 and becomes the founding moment of European human rights advocacy.", "tag":"LAW", "note":"The Toulouse tribunal records: Archives départementales de la Haute-Garonne. The rehabilitation decision 1765: Archives nationales, Conseil du Roi. Voltaire, Traité sur la Tolérance (1763): BnF first edition. Bien (1960), The Calas Affair: the standard study. Voltaire's campaign letters: published in his Correspondence (Besterman edition, 51,000 letters — the largest surviving 18th-c correspondence)." }
+      ]
+    },
+    {
+      "id": "belief", "label": "Belief", "icon": "🙏",
+      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "subtitle": "Enlightenment critique of religion and Jansenist resistance",
+      "entries": [
+        { "id":"r1", "group":"Catholic / Church of Rome", "label":"Expulsion of the Jesuits from France — 1762", "date":"6 Aug 1762", "loc":"Paris (Parlement)", "coords":[48.85,2.35], "hint":"The Paris Parlement expels the Jesuits from France on 6 August 1762 — 3,000 Jesuits are forced to leave or secularise; it is the most dramatic assertion of Gallican parliamentary power before the Revolution.", "tag":"EDICT", "note":"Parlement of Paris arrêt 6 Aug 1762: Archives nationales, série X. The Jesuits' response and appeal to the Pope: Vatican Archives (ASV). The royal edict confirming expulsion 1764: Archives nationales. Latreille (1950), L'Église catholique et la Révolution française, Vol.I: the standard study. Spain's parallel expulsion 1767: the two are connected — documented in both French and Spanish archives." }
+      ]
+    },
+    {
+      "id": "expression", "label": "Expression", "icon": "✨",
+      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "subtitle": "The Rococo, Watteau, the salons and pre-revolutionary culture",
+      "entries": [
+        { "id":"a1", "group":"Painting & Visual Art", "label":"Watteau and the fête galante — Rococo as style", "date":"c.1717–1721", "loc":"Paris (Académie Royale; various collections)", "coords":[48.85,2.35], "hint":"Jean-Antoine Watteau is admitted to the Académie Royale in 1717 with a new genre — the fête galante (elegant outdoor party); his Pilgrimage to the Island of Cythera defines the Rococo aesthetic; he dies of tuberculosis aged 36, leaving only 200 paintings.", "tag":"OBJECT", "note":"Pilgrimage to the Island of Cythera (1717): Louvre (INV 8525). Watteau's Académie reception recorded in: Procès-verbaux de l'Académie Royale (Archives nationales, série O1). The catalogue of his work: Rosenberg & Prat (1996), Antoine Watteau: catalogue raisonné des dessins. His death 18 Jul 1721: parish records Nogent-sur-Marne." },
+        { "id":"a2", "group":"Architecture", "label":"Place de la Concorde and Soufflot's Panthéon — Neoclassicism", "date":"1755–1791", "loc":"Paris (both extant)", "coords":[48.86,2.32], "hint":"Gabriel's Place de la Concorde (1755) and Soufflot's Panthéon (begun 1758, completed 1790) represent the neoclassical turn away from Rococo — both built under Louis XV and XVI; the Panthéon becomes the secular temple of the Revolution within months of completion.", "tag":"MONUMENT", "note":"Place de la Concorde: extant. Building accounts: Archives nationales, série O1. Soufflot's Panthéon building accounts: Archives nationales. The conversion to secular use Apr 1791: documented in the Revolutionary assembly records. Middleton & Watkin (1987), Neoclassical and Nineteenth Century Architecture: the standard survey." },
+        { "id":"a3", "group":"Music & Performance", "label":"Rameau and the Querelle des Bouffons", "date":"1733–1764", "loc":"Paris (Opéra; salons)", "coords":[48.86,2.35], "hint":"Jean-Philippe Rameau's Hippolyte et Aricie (1733) launches French Baroque opera's greatest period — the Querelle des Bouffons (1752–1754) pits Italian against French musical style, with Rousseau championing Italian and Rameau defending French; the debate is a proxy for the Enlightenment's cultural politics.", "tag":"LITERATURE", "note":"Hippolyte et Aricie first performance 1 Oct 1733: Opéra records (BnF département de la musique). Rameau's autograph scores: BnF. The Querelle des Bouffons pamphlets (1752–1754): BnF — over 60 pamphlets. Rousseau's Lettre sur la musique françoise (1753): BnF first edition. Anthony (1973), French Baroque Music: the standard study." }
+      ]
+    },
+    {
+      "id": "thought", "label": "Thought", "icon": "💡",
+      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "subtitle": "Voltaire, Rousseau, the Encyclopédie and the republic of letters",
+      "entries": [
+        { "id":"t1", "group":"Philosophy", "label":"Diderot and d'Alembert's Encyclopédie", "date":"1751–1772", "loc":"Paris (published by Le Breton and partners)", "coords":[48.85,2.35], "hint":"The Encyclopédie ou Dictionnaire raisonné (28 volumes, 1751–1772) is the collective mind of the Enlightenment — 74,000 articles by 142 contributors including Voltaire, Rousseau and Montesquieu; it is banned twice and circulates clandestinely; the primary intellectual monument of the 18th century.", "tag":"TEXT", "note":"First edition: Paris, Le Breton, 1751–1772 (17 text vols + 11 plates vols): BnF holds complete sets. The ban of 1759: Archives nationales. The ARTFL Encyclopédie Project (University of Chicago): digitised full text. Wilson (1972), Diderot: the standard English biography. The contributor list and article attributions: documented in the project's scholarly apparatus." },
+        { "id":"t2", "group":"Political Theory", "label":"Rousseau — Du Contrat Social (1762)", "date":"1762", "loc":"Amsterdam (published); France (banned)", "coords":[52.37,4.9], "hint":"Rousseau's Social Contract opens with 'Man is born free, and everywhere he is in chains' — the founding text of modern democratic theory; banned in France and Geneva immediately; its concept of the 'general will' directly shapes the French Revolution's ideology.", "tag":"TEXT", "note":"Du Contrat Social: Marc-Michel Rey, Amsterdam, 1762; BnF. Banned by Paris Parlement 11 Jun 1762 (same session as Émile): Archives nationales, série X. The manuscript: Bibliothèque de Neuchâtel. Masters (1968), The Political Philosophy of Rousseau: the standard analytical study. The Social Contract's influence on the Revolution: Schama (1989), Citizens, throughout." },
+        { "id":"t3", "group":"Philosophy", "label":"Voltaire's Philosophical Dictionary (1764)", "date":"1764", "loc":"Geneva (published); Paris (banned)", "coords":[46.2,6.15], "hint":"Voltaire publishes the Dictionnaire philosophique portatif (1764) — 118 articles attacking religious intolerance, superstition and arbitrary power in alphabetical form; small enough to hide in a pocket ('portatif'); the most widely distributed Enlightenment text after the Encyclopédie.", "tag":"TEXT", "note":"First edition: Geneva, 1764; BnF. Voltaire's 51,000-letter correspondence: Besterman edition (Geneva 1953–65) — the largest surviving 18th-century correspondence corpus. Voltaire's papers: BnF and Institut et Musée Voltaire, Geneva. Gay (1959), Voltaire's Politics: the standard study. The Dictionnaire's multiple revised editions (Voltaire kept updating it): documented in bibliographic records." },
+        { "id":"t4", "group":"Political Theory", "label":"Montesquieu — De l'Esprit des Lois (1748)", "date":"1748", "loc":"Geneva (published)", "coords":[46.2,6.15], "hint":"Montesquieu's Spirit of the Laws (1748) distinguishes despotism, monarchy and republic; introduces the concept of separation of powers; directly influences the American and French constitutions; put on the Index of Forbidden Books by the Church.", "tag":"TEXT", "note":"First edition: Barillot, Geneva, 1748 (2 vols): BnF. The Spirit of the Laws's influence on the US Constitution: Madison's Federalist No.47 quotes it explicitly. On the Index: documented in Vatican records. Shackleton (1961), Montesquieu: A Critical Biography: the standard study. The manuscript: Bibliothèque de Bordeaux." }
+      ]
+    },
+    {
+      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "subtitle": "Fiscal crisis, colonial wealth and the debt that caused the Revolution",
+      "entries": [
+        { "id":"s1", "group":"Fiscal & Monetary", "label":"The royal debt crisis — anatomy of fiscal collapse", "date":"1715–1789", "loc":"Paris (treasury)", "coords":[48.85,2.35], "hint":"France spends the 18th century in escalating fiscal crisis — Law's crash (1720), seven wars, and Versailles maintenance; by 1788 debt service consumes 62% of state revenue; Louis XVI's inability to tax the nobility or clergy makes bankruptcy inevitable.", "tag":"ECONOMIC", "note":"Necker's Compte rendu (1781): the primary public document. Calonne's reform proposals 1786: Archives nationales, série E. The Assembly of Notables rejection 1787: Archives nationales. Hardman (1995), French Politics 1774–1789: synthesises the fiscal evidence. Bairoch (1997), Victoires et déboires: comparative European fiscal data." }
+      ]
+    },
+    {
+      "id": "exchange", "label": "Exchange", "icon": "🌐",
+      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "subtitle": "The Republic of Letters, salonnières and intellectual networks",
+      "entries": [
+        { "id":"ex1", "group":"Intellectual Exchange", "label":"The salonnières — women as the infrastructure of the Enlightenment", "date":"c.1720–1789", "loc":"Paris (salons of Tencin, du Deffand, Lespinasse, Necker, Geoffrin)", "coords":[48.85,2.35], "hint":"The French Enlightenment is organised through salons hosted by women — Marie Thérèse Rodet Geoffrin finances the Encyclopédie; Julie de Lespinasse manages d'Alembert's correspondence; Suzanne Necker's salon launches her husband's political career; the salonnières are the primary intellectual infrastructure of the period.", "tag":"DOCUMENT", "note":"Madame Geoffrin's correspondence: Bibliothèque de l'Institut de France. Her financial support of the Encyclopédie: documented in Diderot's correspondence. Julie de Lespinasse's letters: BnF (published 1809). Madame du Deffand's 800-letter correspondence with Horace Walpole: Lewis (1939–1980), Yale Walpole Correspondence. Goodman (1994), The Republic of Letters: A Cultural History of the French Enlightenment: the standard study." },
+        { "id":"ex2", "group":"Silk Road & Trade Routes", "label":"Saint-Domingue — the most profitable colony in history", "date":"c.1720–1789", "loc":"Saint-Domingue (mod. Haiti)", "coords":[18.97,-72.29], "hint":"By the 1780s Saint-Domingue (Haiti) produces 40% of Europe's sugar and 60% of its coffee — on the labour of 500,000 enslaved Africans; it is the most profitable colony in the Atlantic world; the enslaved population outnumbers the free population 10 to 1.", "tag":"ECONOMIC", "note":"Saint-Domingue plantation records: ANOM (Aix-en-Provence). Population statistics: Census of Saint-Domingue 1789 (500,000 enslaved, 32,000 white colonists, 28,000 free people of colour): Archives nationales, Colonies G1. Dubois (2004), Avengers of the New World: analyses the data. The colony's trade value: documented in Chambre de Commerce de Marseille records." }
+      ]
+    },
+    {
+      "id": "world", "label": "World", "icon": "🌍",
+      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "France in 18th-century Europe",
+      "entries": [
+        { "id":"w1", "group":"Geopolitical Shift", "label":"The Diplomatic Revolution of 1756", "date":"1756", "loc":"Versailles (Treaty of Versailles)", "coords":[48.8,2.12], "hint":"France reverses its century-long alliance with Prussia and makes peace with Austria (Treaty of Versailles, 1 May 1756) — the 'Diplomatic Revolution' reorganises European alliances before the Seven Years War; it is the most dramatic single diplomatic shift of the 18th century.", "tag":"EVENT", "note":"Treaty of Versailles 1 May 1756: Archives des Affaires Étrangères (La Courneuve). Kaunitz's role in negotiating the reversal: Haus-, Hof- und Staatsarchiv, Vienna. Scott (1990), The Emergence of the Eastern Powers 1756–1775: the standard study. The reversal's irony — France now defending the Habsburgs — noted by all contemporary observers including Frederick the Great." }
+      ]
+    },
+    {
+      "id": "lives", "label": "Lives", "icon": "🪞",
+      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored",
+      "entries": [
+        { "id":"lv1", "group":"Women's Agency", "label":"Madame de Pompadour — political power through the king's favour", "date":"1745–1764", "loc":"Versailles (apartments); Paris (Élysée Palace)", "coords":[48.8,2.12], "hint":"Jeanne-Antoinette Poisson (Madame de Pompadour) is Louis XV's official mistress from 1745 — she appoints and dismisses ministers, directs foreign policy, patronises Voltaire and the philosophes, and commissions the Sèvres porcelain factory; her correspondence is a primary source for political decision-making.", "tag":"EVIDENCE", "note":"Pompadour's correspondence: BnF fonds français. Her role in the Diplomatic Revolution 1756: argued by Lever (2003), Madame de Pompadour using Affaires Étrangères archives. The Sèvres commission: Manufacture nationale de Sèvres archives. Her apartments at Versailles: Château de Versailles archives. She outlasted all rival mistresses (1745–1764) through political skill documented in multiple sources." },
+        { "id":"lv2", "group":"Enslaved Lives", "label":"Saint-Domingue — the largest enslaved population in the Caribbean", "date":"1720–1789", "loc":"Saint-Domingue (Haiti)", "coords":[18.97,-72.29], "hint":"500,000 enslaved Africans in Saint-Domingue by 1789 — the largest enslaved population in any Caribbean colony; the plantation records document individual lives in the most complete surviving colonial slavery archive; their resistance is also documented.", "tag":"EVIDENCE", "note":"ANOM plantation records: Aix-en-Provence — the primary archive for individual enslaved people's names and histories. The maroon communities: documented in colonial police records (ANOM). Geggus (2002), Haitian Revolutionary Studies: uses the ANOM archive. The Haitian Revolution (1791) begins in the folio that follows — the connection is direct: the enslaved population documented here is the one that revolts." }
+      ]
+    }
+  ],
+  "timeline": [
+    {"id":"regency",       "icon":"⚜️","accent":"#5B2C8D","label":"Regency (1715–1723)", "events":[
+      {"y":1715,"y2":1723,"l":"Regency — Philippe d'Orléans",  "entryId":"k1"}
+    ]},
+    {"id":"louis-xv",     "icon":"⚜️","accent":"#3A1A70","label":"Louis XV (1723–1774)", "events":[
+      {"y":1723,"y2":1774,"l":"Louis XV",                      "entryId":"k2"}
+    ]},
+    {"id":"louis-xvi",    "icon":"⚜️","accent":"#2A0A60","label":"Louis XVI (1774–1789)", "events":[
+      {"y":1774,"y2":1789,"l":"Louis XVI",                     "entryId":"k3"}
+    ]},
+    {"id":"conflict",     "icon":"⚔️","accent":"#7D3C98","events":[
+      {"y":1756,"l":"Seven Years War begins",                   "entryId":"c1"},
+      {"y":1763,"l":"Peace of Paris — empire lost",            "entryId":"c1"},
+      {"y":1778,"l":"American War — France joins",             "entryId":"c2"}
+    ]},
+    {"id":"order",        "icon":"⚖️","accent":"#2471A3","events":[
+      {"y":1762,"l":"Jesuits expelled",                        "entryId":"r1"},
+      {"y":1762,"l":"Calas Affair",                            "entryId":"o2"},
+      {"y":1781,"l":"Necker's Compte rendu",                   "entryId":"o1"}
+    ]},
+    {"id":"expression",   "icon":"✨","accent":"#8D6E63","events":[
+      {"y":1717,"l":"Watteau: Pilgrimage to Cythera",          "entryId":"a1"},
+      {"y":1733,"l":"Rameau: Hippolyte et Aricie",             "entryId":"a3"},
+      {"y":1755,"l":"Place de la Concorde; Panthéon",          "entryId":"a2"}
+    ]},
+    {"id":"thought",      "icon":"💡","accent":"#566573","events":[
+      {"y":1748,"l":"Montesquieu: De l'Esprit des Lois",       "entryId":"t4"},
+      {"y":1751,"l":"Encyclopédie (1751–1772)",                "entryId":"t1"},
+      {"y":1762,"l":"Rousseau: Du Contrat Social",             "entryId":"t2"},
+      {"y":1764,"l":"Voltaire: Dictionnaire philosophique",    "entryId":"t3"}
+    ]},
+    {"id":"exchange",     "icon":"🌐","accent":"#148080","events":[
+      {"y":1720,"l":"Salonnières — Enlightenment infrastructure","entryId":"ex1"},
+      {"y":1750,"l":"Saint-Domingue — peak colonial wealth",   "entryId":"ex2"}
+    ]},
+    {"id":"world",        "icon":"🌍","accent":"#2471A3","events":[
+      {"y":1756,"l":"Diplomatic Revolution",                   "entryId":"w1"}
+    ]},
+    {"id":"lives",        "icon":"🪞","accent":"#7B4FA6","events":[
+      {"y":1745,"l":"Pompadour — political power",             "entryId":"lv1"},
+      {"y":1750,"l":"500,000 enslaved in Saint-Domingue",      "entryId":"lv2"}
+    ]}
+  ]
+}

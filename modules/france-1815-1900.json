@@ -1,0 +1,160 @@
+{
+  "id": "france-1815-1900",
+  "title": "France",
+  "subtitle": "1815–1900 · Restoration to the Third Republic",
+  "period": { "start": 1815, "end": 1900 },
+  "region": "France",
+  "period_label": "Early Modern",
+  "mapCenter": [47.0, 2.5],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power", "label": "Power", "icon": "⚜️",
+      "color": "#1A0050", "accent": "#5B2C8D", "bg": "#F5F0FF",
+      "subtitle": "Five regimes in 85 years — the long search for stable government",
+      "entries": [
+        { "id":"k1", "group":"Bourbon Restoration (1815–1830)", "dynasty":"Bourbon", "label":"The Restoration — Louis XVIII and Charles X", "date":"1815–1830", "loc":"Paris (Tuileries)", "coords":[48.86,2.34], "hint":"The Bourbon monarchy is restored after Waterloo — Louis XVIII governs as a constitutional monarch but Charles X attempts to reverse the Revolution; his July Ordinances (1830) suspending press freedom trigger the July Revolution that overthrows him in three days.", "tag":"SUCCESSION", "note":"Louis XVIII's Constitutional Charter 4 Jun 1814: Archives nationales. Charles X's July Ordinances 25 Jul 1830: Moniteur Universel 26 Jul 1830 (BnF). The July Revolution (les Trois Glorieuses) 27–29 Jul 1830: police and press records. Bertier de Sauvigny (1966), The Bourbon Restoration: the standard English study." },
+        { "id":"k2", "group":"July Monarchy (1830–1848)", "dynasty":"Orléans", "label":"Louis-Philippe — the bourgeois king", "date":"1830–1848", "loc":"Paris (Tuileries)", "coords":[48.86,2.34], "hint":"Louis-Philippe rules as a constitutional monarch under the July Monarchy — he is the 'bourgeois king' who carries an umbrella; the regime enriches the middle class but ignores workers; the Revolution of 1848 (February) overthrows him when he refuses electoral reform.", "tag":"SUCCESSION", "note":"Louis-Philippe's accession charter 9 Aug 1830: Archives nationales. His abdication 24 Feb 1848: documented in Archives nationales and press. Tocqueville's account of 24 Feb 1848: Souvenirs (written 1850, published 1893) — an eyewitness account. Pinkney (1972), The French Revolution of 1830: the standard study." },
+        { "id":"k3", "group":"Second Republic & Empire (1848–1870)", "dynasty":"Bonaparte", "label":"Napoleon III — the Second Empire", "date":"1848–1870", "loc":"Paris (Tuileries; Saint-Cloud)", "coords":[48.86,2.34], "hint":"Louis-Napoleon is elected President (December 1848), stages a coup (2 December 1851) and declares himself Emperor Napoleon III (2 December 1852); his Second Empire industrialises France and rebuilds Paris under Haussmann; defeated at Sedan (1870) he is captured and the Empire collapses.", "tag":"SUCCESSION", "note":"The coup of 2 Dec 1851: Archives nationales AF IV; Victor Hugo, Histoire d'un crime (written 1851–52, published 1877). The plebiscite of 20 Nov 1851: Interior Ministry records. Sedan and capture 2 Sep 1870: Archives de la Guerre A1. Price (1997), The French Second Empire: the standard study." },
+        { "id":"k4", "group":"Third Republic (1870–1900)", "dynasty":"Republic", "label":"Third Republic — France's longest-lasting democratic regime", "date":"4 Sep 1870–1900", "loc":"Paris (Versailles during Commune; then Paris)", "coords":[48.85,2.35], "hint":"The Third Republic is proclaimed on 4 September 1870 — it will last until 1940, France's most durable republican regime; the first two decades are dominated by the Commune (1871), monarchist threats and the Dreyfus Affair (1894–1906); the Constitutional Laws of 1875 are the founding texts.", "tag":"SUCCESSION", "note":"Proclamation of the Republic 4 Sep 1870: Moniteur Universel 5 Sep 1870 (BnF). Constitutional Laws of 1875: Journal Officiel 25–28 Feb and 17 Jul 1875. Gambetta's role: documented in his correspondence (Archives nationales 615AP). Mayeur & Rebérioux (1984), The Third Republic from its Origins to the Great War: the standard English study." }
+      ]
+    },
+    {
+      "id": "conflict", "label": "Conflict", "icon": "⚔️",
+      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "subtitle": "Revolutions, the Commune and colonial conquest",
+      "entries": [
+        { "id":"c1", "group":"Internal Conflicts", "label":"Revolutions of 1830 and 1848 — the long revolutionary cycle", "date":"1830; 1848", "loc":"Paris (barricades)", "coords":[48.85,2.35], "hint":"Paris has three revolutions in 18 years — July 1830 (overthrows Charles X), February 1848 (overthrows Louis-Philippe), June 1848 (workers suppressed); the barricades of Paris are the most documented street fighting in 19th-century Europe.", "tag":"CIVIL WAR", "note":"July 1830 (Trois Glorieuses): police and press records, Archives nationales, série F7. February 1848: documented in the press — digitised Gallica. June 1848 suppression: Archives de la Guerre A1; 1,500 killed, 12,000 arrested documented. Tocqueville's eyewitness Souvenirs covers both. Marx, The Class Struggles in France (1850): a primary political analysis." },
+        { "id":"c2", "group":"Internal Conflicts", "label":"The Paris Commune — 72 days of worker rule", "date":"18 Mar–28 May 1871", "loc":"Paris", "coords":[48.85,2.35], "hint":"After France's defeat by Prussia, Paris workers seize power for 72 days — the Commune establishes the world's first worker government; its suppression (la Semaine Sanglante, 21–28 May 1871) kills 10,000–30,000 Communards; the primary source archive is exceptionally rich.", "tag":"CIVIL WAR", "note":"Commune Journal Officiel (18 Mar–24 May 1871): BnF Gallica. The Semaine Sanglante: Versailles army records (Archives de la Guerre A1). The 30,000 death estimate: Edwards (1971), The Paris Commune 1871. The photographic record: Commune photographs (BnF, département des estampes) — first major use of photography to document a political event. Marx, The Civil War in France (1871): written within weeks — primary political analysis." },
+        { "id":"c3", "group":"Colonial Wars", "label":"Franco-Prussian War — Sedan and French humiliation", "date":"19 Jul 1870–28 Jan 1871", "loc":"Sedan; Paris (besieged)", "coords":[49.7,4.94], "hint":"Prussia defeats France in six weeks — the Emperor captured at Sedan (2 September 1870), Paris besieged and starved for 18 weeks; France cedes Alsace-Lorraine and pays 5 billion francs indemnity; the humiliation drives French politics for the next 44 years.", "tag":"BATTLE", "note":"Napoleon III's surrender at Sedan 2 Sep 1870: Archives de la Guerre A1. The siege of Paris: documented in the Journal officiel de la Défense nationale (BnF). The peace terms: Archives des Affaires Étrangères. Howard (1961), The Franco-Prussian War: the standard modern study. The loss of Alsace-Lorraine: documented in the Frankfurt Treaty 10 May 1871." }
+      ]
+    },
+    {
+      "id": "order", "label": "Order", "icon": "⚖️",
+      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "Constitutional instability and the search for a republic",
+      "entries": [
+        { "id":"o1", "group":"Constitutional Law", "label":"Constitutional Laws of 1875 — founding the Third Republic", "date":"24–25 Feb; 16 Jul 1875", "loc":"Versailles (National Assembly)", "coords":[48.8,2.12], "hint":"Three constitutional laws are voted in 1875 — establishing the Senate, the Chamber of Deputies and the presidency; the Republic is confirmed by one vote (353 to 352) on 30 January 1875; this marginally-won republic lasts 65 years.", "tag":"LAW", "note":"Constitutional Laws: Journal Officiel 25–28 Feb and 17 Jul 1875. The one-vote margin: Archives parlementaires (Séances de 1875). MacMahon's 'seize mai' crisis 1877: documented in Journal Officiel and press (Gallica). Mayeur & Rebérioux (1984). The laws remain partially in force today through the 1958 Constitution's Article 89." },
+        { "id":"o2", "group":"Human Rights", "label":"The Dreyfus Affair — truth against the state", "date":"1894–1906", "loc":"Paris; Devil's Island (Guiana); Rennes (retrial)", "coords":[48.85,2.35], "hint":"Captain Alfred Dreyfus, a Jewish officer, is falsely convicted of treason in 1894 — imprisoned on Devil's Island; Zola's J'Accuse…! (13 January 1898) exposes the cover-up; Dreyfus is exonerated in 1906; the affair defines the French left-right divide for the entire 20th century.", "tag":"LAW", "note":"The 1894 court martial: Service Historique de la Défense (Vincennes). Zola's J'Accuse…! (L'Aurore, 13 Jan 1898): BnF Gallica — full text. Dreyfus's own prison diary (Carnets de l'île du Diable): published 1894–1895; BnF. Zola's trial records: Archives nationales. Burns (2014), Dreyfus: A Family Affair: uses family archives. The affair's exoneration decision 12 Jul 1906: Journal Officiel." }
+      ]
+    },
+    {
+      "id": "belief", "label": "Belief", "icon": "🙏",
+      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "subtitle": "The Church-State battle and the road to laïcité",
+      "entries": [
+        { "id":"r1", "group":"Catholic / Church of Rome", "label":"The battle for laïcité — Jules Ferry's education laws", "date":"1881–1886", "loc":"Paris (Ministry of Education)", "coords":[48.85,2.35], "hint":"Jules Ferry's laws (1881–1886) make primary education free, compulsory and secular — crucifixes removed from state schools, religious teachers replaced by lay teachers; it is the most consequential secularisation of education in European history and the foundation of French laïcité.", "tag":"CATEGORICAL SHIFT", "note":"Loi Ferry 16 Jun 1881 (free schools): Journal Officiel 17 Jun 1881. Loi du 28 Mar 1882 (secular, compulsory education): Journal Officiel. Loi Goblet 30 Oct 1886 (lay teachers): Journal Officiel. Ferry's speeches: Archives nationales 56AP. Ozouf (1982), L'École, l'Église et la République: the standard study. The 1905 law on separation of Church and State extends this — documented in the folio that follows." }
+      ]
+    },
+    {
+      "id": "expression", "label": "Expression", "icon": "✨",
+      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "subtitle": "Delacroix, the Impressionists, Flaubert and Zola",
+      "entries": [
+        { "id":"a1", "group":"Painting & Visual Art", "label":"Géricault and Delacroix — Romanticism and revolution", "date":"1819–1863", "loc":"Paris (Louvre; Salon)", "coords":[48.85,2.35], "hint":"Géricault's Raft of the Medusa (1819) and Delacroix's Liberty Leading the People (1830) are the defining Romantic paintings — both are responses to specific historical events (the Medusa shipwreck; the July Revolution); both are in the Louvre and both faced official resistance.", "tag":"OBJECT", "note":"Raft of the Medusa (1819): Louvre INV 4884. Salon reception: Moniteur Universel Aug 1819 (BnF). Liberty Leading the People (1830): Louvre RF129. Delacroix's own diary (1822–1863): BnF fonds français 13761 — the richest artist's diary of the 19th century. Athanassoglou-Kallmyer (2010), Géricault: the standard study." },
+        { "id":"a2", "group":"Painting & Visual Art", "label":"Impressionism — Monet, Renoir, Degas and the 1874 exhibition", "date":"15 Apr–15 May 1874", "loc":"Paris (35 boulevard des Capucines, studio of photographer Nadar)", "coords":[48.87,2.33], "hint":"The first Impressionist exhibition opens on 15 April 1874 — 30 artists including Monet, Renoir, Degas, Pissarro and Morisot show 165 works; the critic Leroy coins 'Impressionism' as a mockery of Monet's Impression, Sunrise; the exhibition is the founding moment of modern art.", "tag":"OBJECT", "note":"Exhibition catalogue (15 Apr–15 May 1874): BnF; reprinted in Rewald (1973). Leroy's review 25 Apr 1874 (Le Charivari): BnF Gallica. Monet's Impression, Sunrise (1872): Musée Marmottan Monet, Paris. Morisot's The Cradle (1872): Orsay — the only woman in the founding group. Rewald (1973), The History of Impressionism: the standard art-historical study." },
+        { "id":"a3", "group":"Literature & Poetry", "label":"Flaubert's Madame Bovary and Baudelaire's Fleurs du Mal — prosecuted art", "date":"1857", "loc":"Paris (published; tried)", "coords":[48.85,2.35], "hint":"Madame Bovary and Les Fleurs du Mal are both published in 1857 and both prosecuted for obscenity — Flaubert is acquitted, Baudelaire convicted; the two trials are the defining moment of 19th-century literary freedom and document the state's attempt to control artistic expression.", "tag":"LITERATURE", "note":"Flaubert's trial records: Tribunal Correctionnel de Paris, 29 Jan 1857 — Archives nationales. Baudelaire's trial 20 Aug 1857: Archives nationales. Both first editions 1857: BnF. Flaubert's acquittal: Moniteur Universel 8 Feb 1857 (BnF). Baudelaire's conviction: he was ordered to remove 6 poems; order lifted posthumously 1949. Richardson (1994), Baudelaire: the standard English biography." },
+        { "id":"a4", "group":"Music & Performance", "label":"Berlioz and the Romantic symphony — Symphonie Fantastique (1830)", "date":"5 Dec 1830", "loc":"Paris (Conservatoire)", "coords":[48.85,2.35], "hint":"Hector Berlioz premieres the Symphonie Fantastique on 5 December 1830 — the most autobiographical symphony ever written (it depicts his obsessive love for actress Harriet Smithson); the programme notes are a primary source for Romantic aesthetic ideology.", "tag":"LITERATURE", "note":"Premiere 5 Dec 1830: Conservatoire de Paris records. The original programme notes (written by Berlioz): BnF département de la musique. Berlioz's Mémoires (1870, published posthumously): BnF — one of the great musical memoirs. The autograph score: BnF, MS 1189. Cairns (1999), Berlioz, Vol.I: the standard biography." }
+      ]
+    },
+    {
+      "id": "thought", "label": "Thought", "icon": "💡",
+      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "subtitle": "Romanticism, positivism and the birth of sociology",
+      "entries": [
+        { "id":"t1", "group":"Political Theory", "label":"Saint-Simon, Fourier and the origins of socialism", "date":"1817–1848", "loc":"Paris", "coords":[48.85,2.35], "hint":"Henri de Saint-Simon and Charles Fourier develop the first systematic socialist alternatives to capitalism in Paris — Saint-Simon's vision of a technocratic society managed by industrialists and scientists; Fourier's utopian communities (phalanstères); their ideas directly influence Marx.", "tag":"TEXT", "note":"Saint-Simon's L'Industrie (1817): BnF. Fourier's Théorie des quatre mouvements (1808): BnF. Marx's notebooks citing Saint-Simon: MEGA (Marx-Engels Gesamtausgabe). Manuel (1956), The New World of Henri Saint-Simon: the standard study. Fourier's manuscripts: Archives nationales, 10AS (Fourier archive)." },
+        { "id":"t2", "group":"History & Chronicle", "label":"Zola's Rougon-Macquart — the social novel as primary source", "date":"1871–1893", "loc":"Paris (written); published Charpentier", "coords":[48.85,2.35], "hint":"Émile Zola's 20-novel Rougon-Macquart cycle documents Second Empire and early Third Republic France from the slums to the stock exchange — each novel is based on documented research (miners' notebooks, department store records); they are simultaneously primary sources for social history.", "tag":"TEXT", "note":"Zola's research notebooks: BnF, NAF 10303–10345 (Nouveaux Acquisitions Françaises) — published in Zola's preparatory dossiers. Germinal (1885) research notes: BnF NAF 10307–10309 (he spent a week in the Anzin mines). L'Assommoir (1877) first edition: BnF. Brown (1995), Zola: A Life: the standard English biography, uses BnF manuscript collection." }
+      ]
+    },
+    {
+      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "subtitle": "Industrialisation, Haussmann's Paris and the social question",
+      "entries": [
+        { "id":"s1", "group":"Trade & Commerce", "label":"Haussmann rebuilds Paris — the first urban planning at scale", "date":"1853–1870", "loc":"Paris", "coords":[48.85,2.35], "hint":"Prefect Georges-Eugène Haussmann demolishes medieval Paris and builds the boulevard system — 27,000 buildings demolished, 102,000 new buildings constructed; the population displaced from central Paris to the periphery creates the class geography that produces the Commune.", "tag":"CONSTRUCTION", "note":"Haussmann's Mémoires (3 vols, 1890–1893): the primary account — BnF. The Prefecture of the Seine's building records: Archives de Paris. Jordan (1995), Transforming Paris: the standard study. The 102,000 new buildings: documented in Prefecture records. Haussmann's own later admission that he demolished too much: Mémoires Vol.III. The financing method (controversial bonds): documented in Finance Ministry records." },
+        { "id":"s2", "group":"Trade & Commerce", "label":"French industrialisation — railways and banking", "date":"1840–1900", "loc":"France (railway network; Lyon silk; Nord coal)", "coords":[47.0,2.5], "hint":"France industrialises more slowly than Britain but the railway network (5,000km by 1860) and the Crédit Mobilier banking system transform the economy; the 1900 Exposition Universelle celebrates France as the world's second industrial power.", "tag":"ECONOMIC", "note":"Railway network statistics: Annuaire statistique de la France (INSEE historical series). Crédit Mobilier prospectus 1852: Archives nationales, F12. The 1900 Exposition records: Archives nationales F12 4310–4412. Landes (1969), The Unbound Prometheus: places French industrialisation in comparative context." }
+      ]
+    },
+    {
+      "id": "exchange", "label": "Exchange", "icon": "🌐",
+      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "subtitle": "Colonial empire, the Suez Canal and French cultural diplomacy",
+      "entries": [
+        { "id":"ex1", "group":"Diplomatic Exchange", "label":"Suez Canal — de Lesseps and French engineering diplomacy", "date":"17 Nov 1869", "loc":"Suez (Egypt)", "coords":[30.58,32.26], "hint":"Ferdinand de Lesseps opens the Suez Canal on 17 November 1869 — a French engineering triumph connecting the Mediterranean and Red Sea; the opening ceremony attended by Empress Eugénie is documented in photographs and press dispatches; it transforms global trade and geopolitics.", "tag":"ECONOMIC", "note":"Opening ceremony 17 Nov 1869: Le Figaro and Le Temps (BnF Gallica). De Lesseps's papers: Archives nationales, Compagnie de Suez fonds. Edgar-Bonnet (1959), Ferdinand de Lesseps: the standard biography. The Suez Canal Company records: ANOM and private archives. The canal's design drawings: Archives nationales, Cartes et Plans." },
+        { "id":"ex2", "group":"Migration & Settlement", "label":"French colonial empire — Africa and Indochina", "date":"1830–1900", "loc":"Algeria (1830); Senegal; Indochina (1858)", "coords":[36.7,3.2], "hint":"France builds its second colonial empire in North Africa (Algeria 1830), sub-Saharan Africa and Indochina — by 1900 France controls 10 million km² and 50 million colonial subjects; Algeria is the most important (100,000 settlers by 1870) and most violent (1 million Algerians killed 1830–1880, estimated).", "tag":"MIGRATION", "note":"The Algeria conquest 5 Jul 1830: Archives de la Guerre A1. Colonial population statistics: Annuaire statistique de la France. Algerian death toll estimate: Kiernan (2007), Blood and Soil: a comparative genocide study. The ANOM (Aix-en-Provence): the primary archive for all French colonial records. Aldrich (1996), Greater France: the standard English survey of the colonial empire." }
+      ]
+    },
+    {
+      "id": "world", "label": "World", "icon": "🌍",
+      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "France between German unification and the 20th century",
+      "entries": [
+        { "id":"w1", "group":"Geopolitical Shift", "label":"German unification — France's new neighbour", "date":"18 Jan 1871", "loc":"Versailles (Hall of Mirrors)", "coords":[48.8,2.12], "hint":"The German Empire is proclaimed in the Hall of Mirrors at Versailles on 18 January 1871 — deliberately in occupied French territory; France loses Alsace-Lorraine and pays 5 billion francs; Germany replaces France as Europe's dominant continental power.", "tag":"EVENT", "note":"Wilhelm I's proclamation: documented in Bismarck's memoirs and German military records (Bundesarchiv-Militärarchiv). The deliberate choice of Versailles: Howard (1961). The Treaty of Frankfurt 10 May 1871: Archives des Affaires Étrangères. The 5 billion franc indemnity: French Treasury records. Taylor (1955), Bismarck: The Man and the Statesman: contextualises the proclamation." }
+      ]
+    },
+    {
+      "id": "lives", "label": "Lives", "icon": "🪞",
+      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored",
+      "entries": [
+        { "id":"lv1", "group":"Women's Agency", "label":"George Sand — novelist, bohemian and political actor", "date":"1832–1876", "loc":"Paris; Nohant (Berry)", "coords":[46.63,2.0], "hint":"Aurore Dupin (George Sand) publishes under a male pseudonym, wears men's clothes, smokes, and conducts highly publicised affairs with Chopin and Musset — her 80 novels are primary sources for provincial life; she writes political manifestos during the 1848 Revolution.", "tag":"EVIDENCE", "note":"George Sand's correspondence (25,000 letters): BnF and Bibliothèque historique de la Ville de Paris. Her published correspondence: Lubin edition (26 vols, 1964–1995). Her political manifestos 1848: BnF. The pseudonym 'George Sand' first used 1832: publisher's records. Barry (1977), Infamous Woman: The Life of George Sand: the standard biography. Her relationship with Chopin: documented in both their correspondence." },
+        { "id":"lv2", "group":"Same-Sex Practice & Law", "label":"Verlaine and Rimbaud — documented queer literary lives", "date":"1871–1873", "loc":"Paris; London; Brussels", "coords":[48.85,2.35], "hint":"Paul Verlaine and Arthur Rimbaud's relationship (1871–1873) is the most documented same-sex relationship in 19th-century French literature — their correspondence, Verlaine's trial records (Brussels, 1873) and Rimbaud's Une Saison en Enfer document a relationship that produced some of the greatest French poetry.", "tag":"EVIDENCE", "note":"Verlaine's trial for shooting Rimbaud (Brussels, 10 Jul 1873): Belgian judicial archives. Verlaine's prison correspondence: BnF. Rimbaud, Une Saison en Enfer (1873): first edition, printed by Alliance Typographique, Brussels; BnF holds copies. Their correspondence: BnF. Starkie (1954), Arthur Rimbaud: the standard English biography. The relationship's documentation is unusually complete for the period." },
+        { "id":"lv3", "group":"Marginalised Communities", "label":"The Paris Commune and women's participation", "date":"18 Mar–28 May 1871", "loc":"Paris", "coords":[48.85,2.35], "hint":"Women play a central role in the Paris Commune — organising clubs, running ambulances, fighting on barricades; Louise Michel ('La Louve') is the most prominent; the photograph record of women Communards is the most detailed visual documentation of women in political action in 19th-century history.", "tag":"EVIDENCE", "note":"Louise Michel's testimony at her trial (Dec 1871): Archives nationales, Conseils de guerre. Her own Mémoires (1886): BnF. The photographs of women Communards (BnF département des estampes): the first major photographic documentation of women in armed political action. Thomas (1966), The Women Incendiaries: uses trial records to document women's roles. The 'pétroleuses' accusation (women allegedly burning Paris): documented as propaganda in press archives." }
+      ]
+    }
+  ],
+  "timeline": [
+    {"id":"restoration",    "icon":"⚜️","accent":"#5B2C8D","label":"Bourbon Restoration (1815–1830)", "events":[
+      {"y":1815,"y2":1824,"l":"Louis XVIII",                  "entryId":"k1"},
+      {"y":1824,"y2":1830,"l":"Charles X",                   "entryId":"k1"}
+    ]},
+    {"id":"july-monarchy",  "icon":"⚜️","accent":"#3A1A70","label":"July Monarchy (1830–1848)", "events":[
+      {"y":1830,"y2":1848,"l":"Louis-Philippe",               "entryId":"k2"}
+    ]},
+    {"id":"second-empire",  "icon":"⚜️","accent":"#8B0000","label":"Republic & Empire (1848–1870)", "events":[
+      {"y":1848,"y2":1852,"l":"Second Republic",              "entryId":"k3"},
+      {"y":1852,"y2":1870,"l":"Napoleon III",                 "entryId":"k3"}
+    ]},
+    {"id":"third-republic", "icon":"⚜️","accent":"#1A5276","label":"Third Republic (1870–1900)", "events":[
+      {"y":1870,"y2":1900,"l":"Third Republic",               "entryId":"k4"}
+    ]},
+    {"id":"conflict",       "icon":"⚔️","accent":"#7D3C98","events":[
+      {"y":1830,"l":"July Revolution",                        "entryId":"c1"},
+      {"y":1848,"l":"Revolutions of 1848",                   "entryId":"c1"},
+      {"y":1870,"l":"Franco-Prussian War — Sedan",           "entryId":"c3"},
+      {"y":1871,"l":"Paris Commune",                         "entryId":"c2"}
+    ]},
+    {"id":"order",          "icon":"⚖️","accent":"#2471A3","events":[
+      {"y":1875,"l":"Constitutional Laws — Third Republic",   "entryId":"o1"},
+      {"y":1881,"l":"Ferry laws — secular education",        "entryId":"r1"},
+      {"y":1898,"l":"Zola: J'Accuse — Dreyfus Affair",       "entryId":"o2"}
+    ]},
+    {"id":"expression",     "icon":"✨","accent":"#8D6E63","events":[
+      {"y":1819,"l":"Géricault: Raft of the Medusa",         "entryId":"a1"},
+      {"y":1830,"l":"Delacroix: Liberty Leading the People", "entryId":"a1"},
+      {"y":1830,"l":"Berlioz: Symphonie Fantastique",        "entryId":"a4"},
+      {"y":1857,"l":"Flaubert & Baudelaire tried",           "entryId":"a3"},
+      {"y":1874,"l":"First Impressionist exhibition",        "entryId":"a2"}
+    ]},
+    {"id":"thought",        "icon":"💡","accent":"#566573","events":[
+      {"y":1817,"l":"Saint-Simon — origins of socialism",    "entryId":"t1"},
+      {"y":1871,"l":"Zola's Rougon-Macquart series",        "entryId":"t2"}
+    ]},
+    {"id":"subsistence",    "icon":"🌾","accent":"#8B5E00","events":[
+      {"y":1853,"l":"Haussmann rebuilds Paris",              "entryId":"s1"},
+      {"y":1860,"l":"Railway network — 5,000 km",           "entryId":"s2"}
+    ]},
+    {"id":"exchange",       "icon":"🌐","accent":"#148080","events":[
+      {"y":1830,"l":"Algeria — colonial conquest begins",    "entryId":"ex2"},
+      {"y":1869,"l":"Suez Canal opens",                     "entryId":"ex1"}
+    ]},
+    {"id":"world",          "icon":"🌍","accent":"#2471A3","events":[
+      {"y":1871,"l":"German Empire proclaimed at Versailles","entryId":"w1"}
+    ]},
+    {"id":"lives",          "icon":"🪞","accent":"#7B4FA6","events":[
+      {"y":1832,"l":"George Sand — novels and politics",     "entryId":"lv1"},
+      {"y":1871,"l":"Commune — women on barricades",        "entryId":"lv3"},
+      {"y":1873,"l":"Verlaine-Rimbaud — queer literary lives","entryId":"lv2"}
+    ]}
+  ]
+}
