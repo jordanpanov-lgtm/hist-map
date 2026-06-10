@@ -2,158 +2,764 @@
   "id": "hispania-27bc-409ad",
   "title": "Roman Hispania",
   "subtitle": "27 BC–409 AD · Emperors, Philosophers and Christianisation",
-  "period": { "start": -27, "end": 409 },
+  "period": {
+    "start": -27,
+    "end": 409
+  },
   "region": "Iberia",
   "period_label": "Late Antique",
-  "mapCenter": [40.4, -3.7],
+  "mapCenter": [
+    40.4,
+    -3.7
+  ],
   "mapZoom": 6,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#1A0A3A", "accent": "#3A1A8B", "bg": "#F5F0FF",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#1A0A3A",
+      "accent": "#3A1A8B",
+      "bg": "#F5F0FF",
       "subtitle": "From Augustus's provinces to the emperors born in Hispania",
       "entries": [
-        { "id":"k1", "group":"Julio-Claudian Hispania (27 BC–68 AD)", "dynasty":"Roman Imperial", "label":"Augustus reorganises Hispania — three provinces", "date":"27 BC", "loc":"Hispania Citerior (Tarraco); Baetica (Corduba); Lusitania (Emerita Augusta)", "coords":[41.12,1.25], "hint":"Augustus reorganises Hispania into three provinces: Tarraconensis (senatorial-turned-imperial), Baetica (senatorial) and Lusitania (imperial); Emerita Augusta (Mérida) is founded as the capital of Lusitania in 25 BC for veteran soldiers; the reorganisation creates the administrative framework for four centuries.", "tag":"SUCCESSION", "note":"Cassius Dio LIII.12 and 26: primary sources for Augustus's reorganisation. The founding of Emerita Augusta 25 BC: Cassius Dio LIII.26 (primary). The Res Gestae Divi Augusti (Augustus's own account): documents Hispania's place in the empire. The three-province structure: documented in administrative inscriptions throughout Hispania." },
-        { "id":"k2", "group":"Flavian-Antonine Hispania (69–193 AD)", "dynasty":"Roman Imperial", "label":"Trajan and Hadrian — emperors born at Italica", "date":"98–138 AD", "loc":"Italica (Santiponce, near Seville) — birthplace of both", "coords":[37.44,-6.04], "hint":"Trajan (emperor 98–117 AD) and Hadrian (117–138 AD) are both born at Italica near Seville — the only case in Roman history of two successive emperors from the same city; under Hadrian, Italica is rebuilt as a major imperial city; his lead water pipes stamped with his name survive in situ.", "tag":"SUCCESSION", "note":"Trajan's Italica origins: Historia Augusta, Vita Traiani 1.1 (primary). Hadrian's origins: Historia Augusta, Vita Hadriani 1.1. The Hadrianic city at Italica: archaeology — lead pipes stamped 'IMP HADRIANI' in situ (confirmed by UNESCO tentative list documentation). The Traianeum (temple of Trajan): excavated at Italica. The amphitheatre: one of the largest in the empire — dimensions documented." },
-        { "id":"k3", "group":"Late Roman Hispania (284–409 AD)", "dynasty":"Roman Imperial", "label":"Theodosius — the last great emperor, born in Hispania", "date":"379–395 AD", "loc":"Cauca (mod. Coca, Segovia) — birthplace", "coords":[41.22,-4.52], "hint":"Theodosius I (the Great) is born at Cauca in Hispania and becomes the last emperor to rule both halves of the Roman Empire; he makes Christianity the official state religion (Edict of Thessalonica 380 AD); his death in 395 splits the empire permanently.", "tag":"SUCCESSION", "note":"Theodosius's Cauca origin: Zosimus IV.24 and Pacatus, Panegyric of Theodosius. The Edict of Thessalonica 380 AD (Cunctos populos): Codex Theodosianus XVI.1.2 — the edict making Nicene Christianity the state religion. His death 17 Jan 395: documented. His burial at Milan: documented. Hispania's three emperors (Trajan, Hadrian, Theodosius): the peninsula's most direct contribution to the Roman empire." }
+        {
+          "id": "k1",
+          "group": "Julio-Claudian Hispania (27 BC–68 AD)",
+          "dynasty": "Roman Imperial",
+          "label": "Augustus reorganises Hispania — three provinces",
+          "date": "27 BC",
+          "loc": "Hispania Citerior (Tarraco); Baetica (Corduba); Lusitania (Emerita Augusta)",
+          "coords": [
+            41.12,
+            1.25
+          ],
+          "hint": "Augustus reorganises Hispania into three provinces: Tarraconensis (senatorial-turned-imperial), Baetica (senatorial) and Lusitania (imperial); Emerita Augusta (Mérida) is founded as the capital of Lusitania in 25 BC for veteran soldiers; the reorganisation creates the administrative framework for four centuries.",
+          "tag": "SUCCESSION",
+          "note": "Cassius Dio LIII.12 and 26: primary sources for Augustus's reorganisation. The founding of Emerita Augusta 25 BC: Cassius Dio LIII.26 (primary). The Res Gestae Divi Augusti (Augustus's own account): documents Hispania's place in the empire. The three-province structure: documented in administrative inscriptions throughout Hispania."
+        },
+        {
+          "id": "k2",
+          "group": "Flavian-Antonine Hispania (69–193 AD)",
+          "dynasty": "Roman Imperial",
+          "label": "Trajan and Hadrian — emperors born at Italica",
+          "date": "98–138 AD",
+          "loc": "Italica (Santiponce, near Seville) — birthplace of both",
+          "coords": [
+            37.44,
+            -6.04
+          ],
+          "hint": "Trajan (emperor 98–117 AD) is born at Italica near Seville; Hadrian's birthplace is contested — Cassius Dio (69.1) says Italica, the Historia Augusta (Vita Hadriani 1.3) says Rome; most modern scholars favour Italica given his family's deep roots there; under Hadrian, Italica is rebuilt as a major imperial city with lead water pipes stamped with his name surviving in situ.",
+          "tag": "SUCCESSION",
+          "note": "Trajan's Italica origin: Historia Augusta, Vita Traiani 1.1 (uncontested). Hadrian's birthplace: Cassius Dio 69.1 says Italica; Historia Augusta Vita Hadriani 1.3 says 'Natus est Romae' — a genuine scholarly dispute. Most modern scholars favour Italica: Birley (1997), Hadrian: The Restless Emperor, ch.1. Lead pipes stamped 'IMP HADRIANI': in situ at Italica (UNESCO tentative list documentation). The amphitheatre: one of the largest in the empire."
+        },
+        {
+          "id": "k3",
+          "group": "Late Roman Hispania (284–409 AD)",
+          "dynasty": "Roman Imperial",
+          "label": "Theodosius — the last great emperor, born in Hispania",
+          "date": "379–395 AD",
+          "loc": "Cauca (mod. Coca, Segovia) — birthplace",
+          "coords": [
+            41.22,
+            -4.52
+          ],
+          "hint": "Theodosius I (the Great) is most likely born at Cauca in Hispania — Hydatius and Zosimus name Cauca; Marcellinus Comes argues for Italica; his family's deep roots in Baetica are not disputed; he becomes the last emperor to rule both halves of the Roman Empire.",
+          "tag": "SUCCESSION",
+          "note": "Theodosius's Cauca origin: Zosimus IV.24 and Hydatius, Chronicle (primary). Marcellinus Comes attributes Italica — a minority view. Birley (2009) on the birthplace debate. The Edict of Thessalonica 380 AD (Cunctos populos): Codex Theodosianus XVI.1.2 — mandates Nicene Christianity specifically against Arianism; paganism not outlawed until separate decrees of 391–392 AD. His death 17 Jan 395: documented."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "Sertorian War, Roman civil wars in Hispania and the Germanic crossing",
       "entries": [
-        { "id":"c1", "group":"Roman Civil Wars", "label":"Sertorian War — the rebel province", "date":"80–72 BC", "loc":"Hispania (Sertorius's capital at Osca, mod. Huesca)", "coords":[42.14,-0.41], "hint":"Quintus Sertorius, a Roman general backing Marius, creates an independent quasi-republic in Hispania using local support — he establishes a Senate, Roman schools for Iberian chiefs' sons, and holds off Pompey and Metellus for eight years; assassinated in 72 BC at a banquet.", "tag":"CIVIL WAR", "note":"Plutarch, Life of Sertorius (primary biography). Appian, Civil Wars I.86–115. Sertorius's school at Osca: Plutarch Sert.14 — 'he gathered around him the sons of the most distinguished Iberians...and gave them Latin and Roman culture'. His senate of 300 Romans: Plutarch Sert.22. Konrad (1994), Plutarch's Sertorius: the standard modern study. The Sertorian War is the best-documented example of Roman-Iberian political collaboration." },
-        { "id":"c2", "group":"Roman Civil Wars", "label":"Battle of Munda — Caesar's last battle", "date":"17 Mar 45 BC", "loc":"Munda (near Montilla or Osuna, Andalusia)", "coords":[37.6,-4.9], "hint":"Julius Caesar defeats the sons of Pompey at Munda — his most desperately contested battle; Caesar later says he had often fought for victory but at Munda he fought for his life; it is the final military act of the Roman civil wars on Iberian soil.", "tag":"BATTLE", "note":"Caesar's own reaction: Suetonius, Divus Julius 36 — 'Caesar said that he had often fought for victory, but at Munda he had fought for his life.' Appian, Civil Wars II.103–105: detailed account. The Bellum Hispaniense (written by an unknown officer, primary): the most detailed account of the Spanish campaign. The battle site: disputed — Montilla or Osuna most commonly identified." },
-        { "id":"c3", "group":"Germanic Invasions", "label":"The Rhine crossing — Vandals and Suebi reach Hispania", "date":"406–409 AD", "loc":"Rhine (crossing, 31 Dec 406); Pyrenees (409); Hispania", "coords":[47.6,7.5], "hint":"On 31 December 406 the Rhine freezes and Vandals, Alans and Suebi pour across — by 409 they reach Hispania; the Suebi settle in Galicia, the Vandals in Baetica (giving their name to 'Andalusia' via 'Vandalusia'); the Roman province of Hispania effectively ends.", "tag":"BATTLE", "note":"The Rhine crossing 31 Dec 406: Jerome, Letter 123.16 — eyewitness account ('all Gaul burned with one fire'). Prosper of Aquitaine, Chronicle: records the crossing's date. The Vandals in Baetica: Hydatius, Chronicle (contemporary Galician bishop) — the primary source for events in Hispania 406–469. The Suebi in Galicia: Hydatius covers this in detail. The name 'Andalusia' from 'Vandalusia': documented in Arabic sources." }
+        {
+          "id": "c3",
+          "group": "Germanic Invasions",
+          "label": "The Rhine crossing — Vandals and Suebi reach Hispania",
+          "date": "406–409 AD",
+          "loc": "Rhine (crossing, 31 Dec 406); Pyrenees (409); Hispania",
+          "coords": [
+            47.6,
+            7.5
+          ],
+          "hint": "On 31 December 406 the Rhine freezes and Vandals, Alans and Suebi pour across — by 409 they reach Hispania; the Suebi settle in Galicia, the Vandals move through Baetica toward North Africa; the popular etymology connecting 'Andalusia' to 'Vandalusia' is contested by most modern linguists, who favour other origins including Visigothic or pre-Roman toponyms.",
+          "tag": "BATTLE",
+          "note": "The Rhine crossing 31 Dec 406: Jerome, Letter 123.16 — eyewitness account ('all Gaul burned with one fire'). Prosper of Aquitaine, Chronicle: records the crossing's date. The Vandals in Baetica: Hydatius, Chronicle (contemporary Galician bishop) — the primary source for events in Hispania 406–469. The Suebi in Galicia: Hydatius covers this in detail. The name 'Andalusia' from 'Vandalusia': documented in Arabic sources."
+        },
+        {
+          "id": "c4",
+          "group": "Wars of Resistance",
+          "label": "Cantabrian Wars — the opening act of Roman Hispania",
+          "date": "29–19 BC",
+          "loc": "Cantabria; Asturias",
+          "coords": [
+            43.4,
+            -4.0
+          ],
+          "hint": "The Cantabrian Wars are not yet fully concluded at Augustus's reorganisation of 27 BC — resistance continues until 19 BC when Agrippa finally pacifies the north; the wars directly drive the foundation of Emerita Augusta (25 BC) for veterans and Caesaraugusta (14 BC); Augustus's three-province reorganisation is military administration of a territory still being conquered.",
+          "tag": "BATTLE",
+          "note": "Cassius Dio LIII.25–26: Augustus's personal command. Agrippa's final campaign 19 BC: Cassius Dio LIV.5. The foundation of Emerita Augusta: explicitly for veterans of the Cantabrian Wars — Cassius Dio LIII.26. See hispania-300bc-27bc folio for the full Cantabrian Wars narrative."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Roman municipal law, the Flavian privilege and Christianisation edicts",
       "entries": [
-        { "id":"o1", "group":"Constitutional Law", "label":"Flavian municipal law — universal Latin rights in Hispania", "date":"73–74 AD", "loc":"Hispania (empire-wide grant)", "coords":[40.4,-3.7], "hint":"Vespasian grants the entire Iberian Peninsula the ius Latii (Latin rights) — the single largest extension of Roman citizenship rights in history to that point; it transforms Hispania's population from provincials to Latin citizens with a path to full Roman citizenship.", "tag":"LAW", "note":"Pliny, Natural History III.30: primary source — 'Vespasian Augustus, in the storms of the state, gave Latin rights to the whole of Spain'. The Lex Irnitana (from the previous folio, c.91 AD): documents the practical implementation of Flavian municipal law. Millar (1977), The Emperor in the Roman World: contextualises the grant's significance. The Lex Malacitana (another Flavian municipal charter): BNE — parallel document." },
-        { "id":"o2", "group":"Ecclesiastical Act", "label":"Council of Elvira — the first Western church council", "date":"c.306 AD", "loc":"Elvira (mod. Granada area)", "coords":[37.2,-3.6], "hint":"The Council of Elvira (c.306 AD) is the earliest known church council in the Western Mediterranean — 19 bishops and 26 priests attend; its 81 canons cover sexual conduct, idolatry, and Christian-pagan interaction; it is the primary documentary source for Christianity in pre-Constantinian Hispania.", "tag":"COUNCIL", "note":"The 81 canons of Elvira: preserved in canonical collections; Laeuchli (1972), Power and Sexuality: The Emergence of Canon Law at the Synod of Elvira: the standard English study. The council's date: debated (306 vs 313) — most scholars favour c.306. The bishop list: 19 bishops from across Hispania — documents the geographical extent of early Iberian Christianity. Canon 36 (on images): the earliest documented prohibition of images in a church." }
+        {
+          "id": "o1",
+          "group": "Constitutional Law",
+          "label": "Flavian municipal law — universal Latin rights in Hispania",
+          "date": "73–74 AD",
+          "loc": "Hispania (empire-wide grant)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Vespasian grants the entire Iberian Peninsula the ius Latii (Latin rights) — the single largest extension of Roman citizenship rights in history to that point; it transforms Hispania's population from provincials to Latin citizens with a path to full Roman citizenship.",
+          "tag": "LAW",
+          "note": "Pliny, Natural History III.30: primary source — 'Vespasian Augustus, in the storms of the state, gave Latin rights to the whole of Spain'. The Lex Irnitana (from the previous folio, c.91 AD): documents the practical implementation of Flavian municipal law. Millar (1977), The Emperor in the Roman World: contextualises the grant's significance. The Lex Malacitana (another Flavian municipal charter): BNE — parallel document."
+        },
+        {
+          "id": "o2",
+          "group": "Ecclesiastical Act",
+          "label": "Council of Elvira — the first Western church council",
+          "date": "c.306 AD",
+          "loc": "Elvira (mod. Granada area)",
+          "coords": [
+            37.2,
+            -3.6
+          ],
+          "hint": "The Council of Elvira (c.306 AD) is the earliest known church council in the Western Mediterranean — 19 bishops and 26 priests attend; its 81 canons cover sexual conduct, idolatry, and Christian-pagan interaction; it is the primary documentary source for Christianity in pre-Constantinian Hispania.",
+          "tag": "COUNCIL",
+          "note": "The 81 canons of Elvira: preserved in canonical collections; Laeuchli (1972), Power and Sexuality: The Emergence of Canon Law at the Synod of Elvira: the standard English study. The council's date: debated (306 vs 313) — most scholars favour c.306. The bishop list: 19 bishops from across Hispania — documents the geographical extent of early Iberian Christianity. Canon 36 (on images): the earliest documented prohibition of images in a church."
+        },
+        {
+          "id": "o3",
+          "group": "Constitutional Law",
+          "label": "Constitutio Antoniniana — full citizenship for all Hispani",
+          "date": "212 AD",
+          "loc": "Rome (issued); Hispania (implemented)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Caracalla's Edict of 212 AD grants full Roman citizenship to all free inhabitants of the empire — the logical conclusion of Vespasian's 73 AD Latin rights grant; every free person in Hispania becomes a full Roman citizen overnight; the most significant single legal change in the peninsula since the Roman conquest.",
+          "tag": "LAW",
+          "note": "Papyrus Giessen 40 (P.Giss.40): the primary documentary evidence for the Constitutio Antoniniana — Greek papyrus found in Egypt preserving the edict's text. Cassius Dio LXXVII.9: the literary source, noting fiscal motivation. Millar (1977), The Emperor in the Roman World: the standard analysis of the edict's significance. The practical effect in Hispania: documented through the explosion of Latin names in 3rd-century Hispanian inscriptions (EDCS database)."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
       "subtitle": "The martyrs of Hispania and the Christianisation of a province",
       "entries": [
-        { "id":"r1", "group":"Catholic / Church of Rome", "label":"Eulalia of Mérida — the most celebrated Hispanian martyr", "date":"304 AD", "loc":"Emerita Augusta (Mérida)", "coords":[38.92,-6.34], "hint":"Eulalia of Mérida, a 12-year-old girl, is executed during Diocletian's persecution in 304 AD — she becomes the most venerated martyr in Hispania; the poet Prudentius writes her passion (c.400); her basilica at Mérida is documented archaeologically; her cult survives through the Visigothic period.", "tag":"PERSECUTION", "note":"Prudentius, Peristephanon III (c.400 AD): the primary literary account — written within living memory of the martyrdom. The Eulalia basilica at Mérida: documented archaeologically (Mateos Cruz 1999). The Visigothic continuation of her cult: documented in the Vitas Sanctorum Patrum Emeritensium (7th c.). The 304 date: fits Diocletian's persecution decree of that year — documented." },
-        { "id":"r2", "group":"Catholic / Church of Rome", "label":"Priscillian — heresy, execution and the first Christian to be executed by the state", "date":"385 AD", "loc":"Trier (executed); Hispania (his movement)", "coords":[49.75,6.64], "hint":"Priscillian, bishop of Ávila, is executed in Trier in 385 AD — the first Christian to be executed by a Christian Roman emperor for heresy; his followers bring his body back to Hispania; his execution is condemned by Ambrose of Milan and Martin of Tours; it sets a precedent for state religious persecution.", "tag":"PERSECUTION", "note":"Sulpicius Severus, Chronica II.46–51: primary source — contemporary and hostile. Ambrose of Milan's correspondence: condemns the execution. Martin of Tours's opposition: documented in Sulpicius Severus, Life of Martin. The Priscillianist texts (surviving): identified in Würzburg manuscript. Chadwick (1976), Priscillian of Avila: the standard study. The precedent set: documented in subsequent debates about heresy and state power." }
+        {
+          "id": "r1",
+          "group": "Catholic / Church of Rome",
+          "label": "Eulalia of Mérida — the most celebrated Hispanian martyr",
+          "date": "304 AD",
+          "loc": "Emerita Augusta (Mérida)",
+          "coords": [
+            38.92,
+            -6.34
+          ],
+          "hint": "Eulalia of Mérida, a 12-year-old girl, is executed during Diocletian's persecution in 304 AD — she becomes the most venerated martyr in Hispania; the poet Prudentius writes her passion (c.400); her basilica at Mérida is documented archaeologically; her cult survives through the Visigothic period.",
+          "tag": "PERSECUTION",
+          "note": "Prudentius, Peristephanon III (c.400 AD): the primary literary account — written within living memory of the martyrdom. The Eulalia basilica at Mérida: documented archaeologically (Mateos Cruz 1999). The Visigothic continuation of her cult: documented in the Vitas Sanctorum Patrum Emeritensium (7th c.). The 304 date: fits Diocletian's persecution decree of that year — documented."
+        },
+        {
+          "id": "r2",
+          "group": "Catholic / Church of Rome",
+          "label": "Priscillian — heresy, execution and the first Christian to be executed by the state",
+          "date": "385 AD",
+          "loc": "Trier (executed); Hispania (his movement)",
+          "coords": [
+            49.75,
+            6.64
+          ],
+          "hint": "Priscillian, bishop of Ávila, is executed in Trier in 385 AD by the usurper Magnus Maximus — formally on a charge of maleficium (sorcery/witchcraft), not heresy; the theological motivations are clear but the legal mechanism is sorcery; condemned by Ambrose and Martin of Tours; sets the precedent for state religious persecution.",
+          "tag": "PERSECUTION",
+          "note": "Sulpicius Severus, Chronica II.46–51: primary source — contemporary and hostile. The formal charge: maleficium (sorcery) — not heresy, which did not yet carry the death penalty in Roman law. Ambrose's condemnation: his correspondence. Martin of Tours's opposition: Sulpicius Severus, Life of Martin. Chadwick (1976), Priscillian of Avila: the standard study — ch.7 on the legal charges. The precedent: the first execution by a Christian ruler of a Christian on religious grounds, whatever the formal charge."
+        },
+        {
+          "id": "r3",
+          "group": "Catholic / Church of Rome",
+          "label": "Hosius of Corduba — architect of the Nicene Creed",
+          "date": "c.256–357 AD",
+          "loc": "Corduba (born and bishop); Nicaea; Sirmium",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Hosius of Corduba is Constantine's personal theological advisor, presides over the Council of Elvira (c.306), chairs the Council of Nicaea (325) where the Nicene Creed is drafted, and remains active into extreme old age; no single Hispanian figure has greater influence on the institutional shape of Western Christianity.",
+          "tag": "COUNCIL",
+          "note": "Hosius's role at Nicaea: Athanasius, De Synodis 43 and Historia Arianorum 42 — primary sources identifying him as the president. His role at Elvira: documented in the council acts (the bishop list). His correspondence with Constantine: partially preserved in Eusebius, Life of Constantine. Sotomayor (1979), La iglesia en la España romana y visigoda: the standard study. Hosius signed the Nicene Creed first — his signature heads the list of bishops, documented."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "The Roman monuments of Hispania — Mérida, Segovia, Alcántara",
       "entries": [
-        { "id":"a1", "group":"Architecture", "label":"Theatre of Emerita Augusta — the most complete Roman theatre in Hispania", "date":"16–15 BC", "loc":"Emerita Augusta (mod. Mérida, Badajoz) — extant, UNESCO", "coords":[38.92,-6.34], "hint":"The Roman theatre of Mérida (16–15 BC) is the best-preserved Roman theatre in Iberia — built by Agrippa, seating 6,000, with a two-storey stage backdrop still standing; still used for the annual Festival de Teatro Clásico; the dedication inscription survives in situ.", "tag":"MONUMENT", "note":"UNESCO World Heritage (1993). The dedication inscription: in situ — 'M. Agrippa L.F. cos. III trib. pot. III'. The inscription dates the theatre to 16–15 BC with certainty. Álvarez Martínez (1982), El teatro romano de Mérida: the standard archaeological study. Mérida (Emerita Augusta): the best-preserved Roman city in Iberia — also contains amphitheatre, circus, bridge, arch and aqueduct." },
-        { "id":"a2", "group":"Architecture", "label":"Segovia aqueduct — Roman engineering without mortar", "date":"c.1st–early 2nd century AD", "loc":"Segovia (extant, UNESCO)", "coords":[40.95,-4.12], "hint":"The Segovia aqueduct stands 28 metres tall, has 167 arches over 818 metres, and is built entirely without mortar — the precisely cut granite blocks hold each other by friction alone; in continuous use for nearly 2,000 years, it still carried water to Segovia into the 20th century.", "tag":"MONUMENT", "note":"UNESCO World Heritage (1985). The 'no mortar' construction: confirmed by modern engineering surveys. Dating: numismatic evidence suggests 1st or early 2nd c. AD — no direct inscription survives. The aqueduct's continuous use to c.1970s: documented in Spanish municipal water records. Bonnin & Raya (2005), El acueducto de Segovia: the standard technical study. The 20,400 individual granite blocks: documented." },
-        { "id":"a3", "group":"Architecture", "label":"Alcántara bridge — the most perfect Roman bridge", "date":"104–106 AD", "loc":"Alcántara, Cáceres (extant)", "coords":[39.72,-6.89], "hint":"The Trajan-era bridge at Alcántara spans the Tagus at 71 metres height — its dedicatory inscription survives: 'Pontis perfectionem perpetuam' (to the eternal perfection of this bridge); its architect Lacer dedicates a small temple to the bridge's own immortality; it is the most celebrated Roman bridge in Iberia.", "tag":"MONUMENT", "note":"HARD ANCHOR: Dedicatory inscription: in situ on the bridge's triumphal arch — records Trajan's reign and the architect Lacer's name. The inscription text: 'Pontem perpetui mansurum in saecula mundi' (a bridge to last through the ages of the world). Blázquez (1965) on Roman bridges in Hispania. The bridge: extant (partially reconstructed after civil war damage). The small temple to the bridge: also extant at one end." },
-        { "id":"a4", "group":"Music & Performance", "label":"Roman circus of Mérida — chariot racing and spectacle", "date":"c.1st century AD", "loc":"Emerita Augusta (Mérida) — partially extant", "coords":[38.92,-6.34], "hint":"Emerita Augusta's circus (hippodrome) is the longest in Roman Hispania — 430 metres, seating up to 30,000; the circus, theatre and amphitheatre together make Mérida the most complete Roman entertainment complex surviving in Iberia; the circus's spina (central barrier) is documented archaeologically.", "tag":"MONUMENT", "note":"The Mérida circus: documented in the Conjunto Arqueológico de Mérida. Sánchez-Palencia et al. (2001), El circo romano de Emerita Augusta: the standard study. The seating capacity (30,000): estimated from dimensions. Chariot racing as the primary public spectacle: documented in Roman literary sources throughout the imperial period. The circus's alignment with the street grid: documented in the archaeological plan of Mérida." }
+        {
+          "id": "a1",
+          "group": "Architecture",
+          "label": "Theatre of Emerita Augusta — the most complete Roman theatre in Hispania",
+          "date": "16–15 BC",
+          "loc": "Emerita Augusta (mod. Mérida, Badajoz) — extant, UNESCO",
+          "coords": [
+            38.92,
+            -6.34
+          ],
+          "hint": "The Roman theatre of Mérida (16–15 BC) is the best-preserved Roman theatre in Iberia — built by Agrippa, seating 6,000, with a two-storey stage backdrop still standing; still used for the annual Festival de Teatro Clásico; the dedication inscription survives in situ.",
+          "tag": "MONUMENT",
+          "note": "UNESCO World Heritage (1993). The dedication inscription: in situ — 'M. Agrippa L.F. cos. III trib. pot. III'. The inscription dates the theatre to 16–15 BC with certainty. Álvarez Martínez (1982), El teatro romano de Mérida: the standard archaeological study. Mérida (Emerita Augusta): the best-preserved Roman city in Iberia — also contains amphitheatre, circus, bridge, arch and aqueduct."
+        },
+        {
+          "id": "a2",
+          "group": "Architecture",
+          "label": "Segovia aqueduct — Roman engineering without mortar",
+          "date": "c.1st–early 2nd century AD",
+          "loc": "Segovia (extant, UNESCO)",
+          "coords": [
+            40.95,
+            -4.12
+          ],
+          "hint": "The Segovia aqueduct stands 28 metres tall, has 167 arches over 818 metres, and is built entirely without mortar — the precisely cut granite blocks hold each other by friction alone; in continuous use for nearly 2,000 years, it still carried water to Segovia into the 20th century.",
+          "tag": "MONUMENT",
+          "note": "UNESCO World Heritage (1985). The 'no mortar' construction: confirmed by modern engineering surveys. Dating: numismatic evidence suggests 1st or early 2nd c. AD — no direct inscription survives. The aqueduct's continuous use to c.1970s: documented in Spanish municipal water records. Bonnin & Raya (2005), El acueducto de Segovia: the standard technical study. The 20,400 individual granite blocks: documented."
+        },
+        {
+          "id": "a3",
+          "group": "Architecture",
+          "label": "Alcántara bridge — the most perfect Roman bridge",
+          "date": "104–106 AD",
+          "loc": "Alcántara, Cáceres (extant)",
+          "coords": [
+            39.72,
+            -6.89
+          ],
+          "hint": "The Trajan-era bridge at Alcántara spans the Tagus at 71 metres height — its dedicatory inscription survives: 'Pontis perfectionem perpetuam' (to the eternal perfection of this bridge); its architect Lacer dedicates a small temple to the bridge's own immortality; it is the most celebrated Roman bridge in Iberia.",
+          "tag": "MONUMENT",
+          "note": "HARD ANCHOR: Dedicatory inscription: in situ on the bridge's triumphal arch — records Trajan's reign and the architect Lacer's name. The inscription text: 'Pontem perpetui mansurum in saecula mundi' (a bridge to last through the ages of the world). Blázquez (1965) on Roman bridges in Hispania. The bridge: extant (partially reconstructed after civil war damage). The small temple to the bridge: also extant at one end."
+        },
+        {
+          "id": "a4",
+          "group": "Music & Performance",
+          "label": "Roman circus of Mérida — chariot racing and spectacle",
+          "date": "c.1st century AD",
+          "loc": "Emerita Augusta (Mérida) — partially extant",
+          "coords": [
+            38.92,
+            -6.34
+          ],
+          "hint": "Emerita Augusta's circus (hippodrome) is the longest in Roman Hispania — 430 metres, seating up to 30,000; the circus, theatre and amphitheatre together make Mérida the most complete Roman entertainment complex surviving in Iberia; the circus's spina (central barrier) is documented archaeologically.",
+          "tag": "MONUMENT",
+          "note": "The Mérida circus: documented in the Conjunto Arqueológico de Mérida. Sánchez-Palencia et al. (2001), El circo romano de Emerita Augusta: the standard study. The seating capacity (30,000): estimated from dimensions. Chariot racing as the primary public spectacle: documented in Roman literary sources throughout the imperial period. The circus's alignment with the street grid: documented in the archaeological plan of Mérida."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "Hispania's remarkable literary generation — Seneca, Lucan, Quintilian, Martial",
       "entries": [
-        { "id":"t1", "group":"Philosophy", "label":"Seneca — the Stoic philosopher from Córdoba", "date":"c.4 BC–65 AD", "loc":"Corduba (mod. Córdoba) — born; Rome (career)", "coords":[37.88,-4.78], "hint":"Lucius Annaeus Seneca is born in Córdoba and becomes the most influential philosopher of the Roman imperial period — his Letters, Tragedies and Moral Essays are the primary documents of Stoic thought in Latin; he is Nero's tutor and is forced to commit suicide on Nero's orders in 65 AD.", "tag":"TEXT", "note":"Seneca's birth in Corduba: Seneca, Consolatio ad Helviam 17.3 (autobiographical reference). His death: Tacitus, Annals XV.60–64 (primary, detailed, near-contemporary). The Letters to Lucilius: 124 letters — BnF and Bodleian hold medieval manuscripts. The tragedies: first printed edition Ferrara 1484. Wilson (2014), The Greatest Empire: A Life of Seneca: the standard modern biography." },
-        { "id":"t2", "group":"Literature & Poetry", "label":"Lucan — the epic poet who died for Calpurnius Piso's conspiracy", "date":"39–65 AD", "loc":"Corduba (born); Rome (career)", "coords":[37.88,-4.78], "hint":"Marcus Annaeus Lucanus (Lucan) is Seneca's nephew, born in Córdoba — his Bellum Civile (Pharsalia) is the greatest Latin epic after the Aeneid, covering Caesar's civil war without gods; he joins the Pisonian conspiracy against Nero and is forced to commit suicide at 25.", "tag":"TEXT", "note":"Lucan's Córdoba birth: Suetonius, De Poetis (Vita Lucani). The Bellum Civile (Pharsalia): 10 books — earliest manuscripts 9th c., BnF and Monte Cassino. His death 65 AD: Tacitus, Annals XV.56 and 70 (primary). Fantham (1992), Lucan: De Bello Civili Book II (Cambridge): the standard modern commentary. The Bellum Civile's Republican ideology: the reason Nero banned it and the reason it survives — it circulated underground." },
-        { "id":"t3", "group":"Letters & Correspondence", "label":"Martial — the epigrammatist from Bilbilis", "date":"c.38–104 AD", "loc":"Bilbilis (mod. Calatayud, Zaragoza) — born; Rome (career); Bilbilis (retired)", "coords":[41.35,-1.64], "hint":"Marcus Valerius Martialis is born in Bilbilis and writes the 12 books of Epigrams that are the primary documentary source for daily life in 1st-century Rome — Latin literature's most direct social observation; he retires to Bilbilis in old age and his later poems document small-town Hispanian life.", "tag":"TEXT", "note":"Martial's Bilbilis origin: Martial, Epigrams X.103 and XII.18 (self-documented). The Epigrams (c.86–102 AD): 12 books; first printed edition Venice 1501. The retirement to Bilbilis: Epigrams XII.18. Sullivan (1991), Martial: the Unexpected Classic: the standard English study. Martial's social documentation: he names over 1,000 individuals — the richest social record in Latin poetry." },
-        { "id":"t4", "group":"Political Theory", "label":"Quintilian — the rhetoric teacher from Calagurris", "date":"c.35–100 AD", "loc":"Calagurris (mod. Calahorra, La Rioja) — born; Rome (career)", "coords":[42.3,-1.97], "hint":"Marcus Fabius Quintilianus is born in Calagurris and becomes Rome's first state-funded professor of rhetoric — his Institutio Oratoria (12 books) is the most comprehensive ancient treatise on education and rhetoric; its recovery by Poggio Bracciolini in 1416 is a landmark of the Renaissance.", "tag":"TEXT", "note":"Institutio Oratoria (c.95 AD): 12 books. The full text recovered by Poggio Bracciolini at the monastery of Saint Gall 1416: documented in Poggio's letters. BnF and British Library hold early manuscripts. Quintilian's state salary: Suetonius, De Grammaticis et Rhetoribus 17 — 'Vespasian was the first to give rhetoric teachers an annual salary of 100,000 sesterces from the treasury'. Kennedy (1969), Quintilian: the standard English study." }
+        {
+          "id": "t1",
+          "group": "Philosophy",
+          "label": "Seneca — the Stoic philosopher from Córdoba",
+          "date": "c.4 BC–65 AD",
+          "loc": "Corduba (mod. Córdoba) — born; Rome (career)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Lucius Annaeus Seneca is born in Córdoba and becomes the most influential philosopher of the Roman imperial period — his Letters, Tragedies and Moral Essays are the primary documents of Stoic thought in Latin; he is Nero's tutor and is forced to commit suicide on Nero's orders in 65 AD.",
+          "tag": "TEXT",
+          "note": "Seneca's birth in Corduba: Seneca, Consolatio ad Helviam 17.3 (autobiographical reference). His death: Tacitus, Annals XV.60–64 (primary, detailed, near-contemporary). The Letters to Lucilius: 124 letters — BnF and Bodleian hold medieval manuscripts. The tragedies: first printed edition Ferrara 1484. Wilson (2014), The Greatest Empire: A Life of Seneca: the standard modern biography."
+        },
+        {
+          "id": "t2",
+          "group": "Literature & Poetry",
+          "label": "Lucan — the epic poet who died for Calpurnius Piso's conspiracy",
+          "date": "39–65 AD",
+          "loc": "Corduba (born); Rome (career)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Marcus Annaeus Lucanus (Lucan) is Seneca's nephew, born in Córdoba — his Bellum Civile (Pharsalia) is the greatest Latin epic after the Aeneid, covering Caesar's civil war without gods; he joins the Pisonian conspiracy against Nero and is forced to commit suicide at 25.",
+          "tag": "TEXT",
+          "note": "Lucan's Córdoba birth: Suetonius, De Poetis (Vita Lucani). The Bellum Civile (Pharsalia): 10 books — earliest manuscripts 9th c., BnF and Monte Cassino. His death 65 AD: Tacitus, Annals XV.56 and 70 (primary). Fantham (1992), Lucan: De Bello Civili Book II (Cambridge): the standard modern commentary. The Bellum Civile's Republican ideology: the reason Nero banned it and the reason it survives — it circulated underground."
+        },
+        {
+          "id": "t3",
+          "group": "Letters & Correspondence",
+          "label": "Martial — the epigrammatist from Bilbilis",
+          "date": "c.38–104 AD",
+          "loc": "Bilbilis (mod. Calatayud, Zaragoza) — born; Rome (career); Bilbilis (retired)",
+          "coords": [
+            41.35,
+            -1.64
+          ],
+          "hint": "Marcus Valerius Martialis is born in Bilbilis and writes the 12 books of Epigrams that are the primary documentary source for daily life in 1st-century Rome — Latin literature's most direct social observation; he retires to Bilbilis in old age and his later poems document small-town Hispanian life.",
+          "tag": "TEXT",
+          "note": "Martial's Bilbilis origin: Martial, Epigrams X.103 and XII.18 (self-documented). The Epigrams (c.86–102 AD): 12 books; first printed edition Venice 1501. The retirement to Bilbilis: Epigrams XII.18. Sullivan (1991), Martial: the Unexpected Classic: the standard English study. Martial's social documentation: he names over 1,000 individuals — the richest social record in Latin poetry."
+        },
+        {
+          "id": "t4",
+          "group": "Political Theory",
+          "label": "Quintilian — the rhetoric teacher from Calagurris",
+          "date": "c.35–100 AD",
+          "loc": "Calagurris (mod. Calahorra, La Rioja) — born; Rome (career)",
+          "coords": [
+            42.3,
+            -1.97
+          ],
+          "hint": "Marcus Fabius Quintilianus is born in Calagurris and becomes Rome's first state-funded professor of rhetoric — his Institutio Oratoria (12 books) is the most comprehensive ancient treatise on education and rhetoric; its recovery by Poggio Bracciolini in 1416 is a landmark of the Renaissance.",
+          "tag": "TEXT",
+          "note": "Institutio Oratoria (c.95 AD): 12 books. The full text recovered by Poggio Bracciolini at the monastery of Saint Gall 1416: documented in Poggio's letters. BnF and British Library hold early manuscripts. Quintilian's state salary: Suetonius, De Grammaticis et Rhetoribus 17 — 'Vespasian was the first to give rhetoric teachers an annual salary of 100,000 sesterces from the treasury'. Kennedy (1969), Quintilian: the standard English study."
+        }
       ]
     },
     {
-      "id": "economy", "label": "Economy", "icon": "💰",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Baetican olive oil, Hispanian silver and the peninsula's wealth",
       "entries": [
-        { "id":"s1", "group":"Trade & Commerce", "label":"Dressel 20 amphoras — Baetican oil across the empire", "date":"c.1st–3rd century AD", "loc":"Baetica (production); Monte Testaccio, Rome (deposit)", "coords":[41.88,12.47], "hint":"Dressel 20 amphoras produced in the Guadalquivir valley are found across the entire Roman empire — from Hadrian's Wall to Mesopotamia; Monte Testaccio in Rome is a 50-metre hill made entirely of smashed Baetican olive oil amphoras, estimated at 53 million individual containers.", "tag":"Trade & Commerce", "note":"Dressel 20 amphoras: the single most distributed amphora type in the Roman world. Monte Testaccio: Rodríguez Almeida (1984) — estimated 53 million amphoras. The stamped handles (tituli picti): carry producer names, dates, weights and inspector marks — the most detailed ancient trade documentation. Mattingly (1988), Oil for Export?: the standard study. Blázquez (1978), Economía de la Hispania romana: the broader economic context." },
-        { "id":"s2", "group":"Agriculture & Land", "label":"Roman Hispania at its peak — three emperors, five writers", "date":"c.70–200 AD", "loc":"Italica; Corduba; Calagurris; Bilbilis; Emerita Augusta", "coords":[37.44,-6.04], "hint":"The period 70–200 AD is Hispania's cultural and political peak — three emperors (Trajan, Hadrian, later Theodosius) and four of Latin literature's greatest writers (Seneca, Lucan, Martial, Quintilian) all come from the peninsula; no other province contributes more to the Roman imperial project.", "tag":"Agriculture & Land", "note":"The concentration of Hispanian talent: noted by ancient writers including Juvenal (who mocks Iberian poets flooding Rome). The five writers: all documented as Iberian-born in ancient sources. The three emperors: all documented as Iberian-born in ancient sources. The irony: Hispania, conquered so brutally by Rome, becomes one of Rome's most productive provinces — a primary case study in romanisation." }
+        {
+          "id": "s1",
+          "group": "Trade & Commerce",
+          "label": "Dressel 20 amphoras — Baetican oil across the empire",
+          "date": "c.1st–3rd century AD",
+          "loc": "Baetica (production); Monte Testaccio, Rome (deposit)",
+          "coords": [
+            41.88,
+            12.47
+          ],
+          "hint": "Dressel 20 amphoras produced in the Guadalquivir valley are found across the entire Roman empire — from Hadrian's Wall to Mesopotamia; Monte Testaccio in Rome is a 50-metre hill made entirely of smashed Baetican olive oil amphoras, estimated at 53 million individual containers.",
+          "tag": "Trade & Commerce",
+          "note": "Dressel 20 amphoras: the single most distributed amphora type in the Roman world. Monte Testaccio: Rodríguez Almeida (1984) — estimated 53 million amphoras. The stamped handles (tituli picti): carry producer names, dates, weights and inspector marks — the most detailed ancient trade documentation. Mattingly (1988), Oil for Export?: the standard study. Blázquez (1978), Economía de la Hispania romana: the broader economic context."
+        },
+        {
+          "id": "s2",
+          "group": "Agriculture & Land",
+          "label": "Roman Hispania at its peak — three emperors, five writers",
+          "date": "c.70–200 AD",
+          "loc": "Italica; Corduba; Calagurris; Bilbilis; Emerita Augusta",
+          "coords": [
+            37.44,
+            -6.04
+          ],
+          "hint": "The period 70–200 AD is Hispania's cultural and political peak — three emperors (Trajan, Hadrian, Theodosius) and five of Latin literature's greatest writers (Seneca, Lucan, Martial, Quintilian, and the geographer Pomponius Mela) all come from the peninsula; no other province contributes more to the Roman imperial project.",
+          "tag": "Agriculture & Land",
+          "note": "The concentration of Hispanian talent: noted by ancient writers including Juvenal (who mocks Iberian poets flooding Rome). The five writers: all documented as Iberian-born in ancient sources. The three emperors: all documented as Iberian-born in ancient sources. The irony: Hispania, conquered so brutally by Rome, becomes one of Rome's most productive provinces — a primary case study in romanisation."
+        },
+        {
+          "id": "s3",
+          "group": "Industry & Production",
+          "label": "Las Médulas — the Roman Empire's largest gold mine",
+          "date": "c.25 BC–250 AD",
+          "loc": "Las Médulas, León (extant, UNESCO)",
+          "coords": [
+            42.46,
+            -6.77
+          ],
+          "hint": "Las Médulas in León is the largest open-cast gold mine in the entire Roman Empire — the Romans use ruina montium (wrecking of mountains), a hydraulic mining technique that collapses entire hillsides with pressurised water; an estimated 5 million tonnes of gold ore extracted over 250 years; the dramatic landscape of red cliffs and caves survives today.",
+          "tag": "CONSTRUCTION",
+          "note": "UNESCO World Heritage (1997). Pliny the Elder, Natural History XXXIII.66–78: the primary ancient description of ruina montium — Pliny served in Hispania as a procurator and observed the mines firsthand. The estimated gold output: Domergue (1990), Les mines de la péninsule ibérique Vol.I. The landscape today: the most dramatic archaeological landscape in Roman Iberia. Sánchez-Palencia et al. (2000), Las Médulas (León): the standard modern archaeological study."
+        }
       ]
     },
     {
-      "id": "exchange", "label": "Exchange", "icon": "🌐",
-      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
       "subtitle": "Trade networks, Stoic philosophy across the empire and the Atlantic route",
       "entries": [
-        { "id":"ex1", "group":"Silk Road & Trade Routes", "label":"Garum — the fermented fish sauce that conquered Rome", "date":"c.100 BC–300 AD", "loc":"Baelo Claudia (mod. Bolonia, Cádiz); Carthago Nova; Baetica coast", "coords":[36.07,-5.79], "hint":"Hispania is the primary producer of garum (fermented fish sauce) for the Roman Empire — factories at Baelo Claudia, Carthago Nova and along the Atlantic coast; the garum of Hispania is considered the finest; its factories are documented archaeologically as the largest food-processing sites in Roman Hispania.", "tag":"ECONOMIC", "note":"Baelo Claudia (extant, Tarifa area): UNESCO — the best-preserved garum factory site in the Roman world, fully excavated. The Scomber fish-sauce amphoras (Dressel 7–11): found across the empire. Curtis (1991), Garum and Salsamenta: the standard study. Ponsich & Tarradell (1965): the foundational archaeological survey of garum factories. Pliny, Natural History XXXI.94: documents Hispanian garum's excellence." },
-        { "id":"ex2", "group":"Cultural Transmission", "label":"Stoic philosophy — the Senecan school and its transmission", "date":"c.4 BC–65 AD (and beyond)", "loc":"Corduba (origin); Rome; later — all of Europe", "coords":[37.88,-4.78], "hint":"Seneca's Stoicism, rooted in his Corduban upbringing, becomes the dominant philosophical influence on Western Europe through the Middle Ages and Renaissance — his Letters to Lucilius are the primary vector; Erasmus, Montaigne and Francis Bacon all cite Seneca; his Hispanian origin is a thread connecting ancient and early modern Europe.", "tag":"DOCUMENT", "note":"Seneca's influence on Erasmus: documented in Erasmus's edition of Seneca (1515, 1529). Montaigne's citations of Seneca: throughout the Essays — over 100 references. The manuscript transmission: Reynolds (1965), The Medieval Tradition of Seneca's Letters: the standard study of manuscript history. The Corduba connection: Seneca explicitly describes his Iberian upbringing — Consolatio ad Helviam 17." }
+        {
+          "id": "ex1",
+          "group": "Maritime & Trade Routes",
+          "label": "Garum — the fermented fish sauce that conquered Rome",
+          "date": "c.100 BC–300 AD",
+          "loc": "Baelo Claudia (mod. Bolonia, Cádiz); Carthago Nova; Baetica coast",
+          "coords": [
+            36.07,
+            -5.79
+          ],
+          "hint": "Hispania is the primary producer of garum (fermented fish sauce) for the Roman Empire — factories at Baelo Claudia, Carthago Nova and along the Atlantic coast; the garum of Hispania is considered the finest; its factories are documented archaeologically as the largest food-processing sites in Roman Hispania.",
+          "tag": "ECONOMIC",
+          "note": "Baelo Claudia (extant, Tarifa area): UNESCO — the best-preserved garum factory site in the Roman world, fully excavated. The Scomber fish-sauce amphoras (Dressel 7–11): found across the empire. Curtis (1991), Garum and Salsamenta: the standard study. Ponsich & Tarradell (1965): the foundational archaeological survey of garum factories. Pliny, Natural History XXXI.94: documents Hispanian garum's excellence."
+        },
+        {
+          "id": "ex2",
+          "group": "Cultural Transmission",
+          "label": "Stoic philosophy — the Senecan school and its transmission",
+          "date": "c.4 BC–65 AD (and beyond)",
+          "loc": "Corduba (origin); Rome; later — all of Europe",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Seneca's Stoicism, rooted in his Corduban upbringing, becomes the dominant philosophical influence on Western Europe through the Middle Ages and Renaissance — his Letters to Lucilius are the primary vector; Erasmus, Montaigne and Francis Bacon all cite Seneca; his Hispanian origin is a thread connecting ancient and early modern Europe.",
+          "tag": "DOCUMENT",
+          "note": "Seneca's influence on Erasmus: documented in Erasmus's edition of Seneca (1515, 1529). Montaigne's citations of Seneca: throughout the Essays — over 100 references. The manuscript transmission: Reynolds (1965), The Medieval Tradition of Seneca's Letters: the standard study of manuscript history. The Corduba connection: Seneca explicitly describes his Iberian upbringing — Consolatio ad Helviam 17."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Roman Hispania in the context of the empire's rise and fall",
       "entries": [
-        { "id":"w1", "group":"Geopolitical Shift", "label":"Hispania's contribution to the Roman empire — and its end", "date":"27 BC–409 AD", "loc":"Hispania (peninsula-wide)", "coords":[40.4,-3.7], "hint":"Roman Hispania's 436 years of provincial existence is a story of remarkable integration — from resistance to the peninsula that supplied Rome with its greatest emperors and writers; the irony that the Germanic peoples who end Roman Hispania (Vandals, Suebi) enter the peninsula from the same direction as the Carthaginians and Romans before them.", "tag":"EVENT", "note":"The 436-year span (27 BC–409 AD): documented in continuous administrative records. Hydatius, Chronicle (contemporary, from Galicia): the primary source for the 409 AD crossing and its immediate consequences. The Vandal name and 'Andalusia': documented in Arabic sources as 'al-Andalus' from 'Vandalusia' — though some scholars dispute this etymology. Collins (2004), Visigothic Spain: contextualises the transition." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Hispania's contribution to the Roman empire — and its end",
+          "date": "27 BC–409 AD",
+          "loc": "Hispania (peninsula-wide)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Roman Hispania's 436 years of provincial existence is a story of remarkable integration — from resistance to the peninsula that supplied Rome with its greatest emperors and writers; the irony that the Germanic peoples who end Roman Hispania (Vandals, Suebi) enter the peninsula from the same direction as the Carthaginians and Romans before them.",
+          "tag": "EVENT",
+          "note": "The 436-year span (27 BC–409 AD): documented in continuous administrative records. Hydatius, Chronicle (contemporary, from Galicia): the primary source for the 409 AD crossing and its immediate consequences. The Vandal name and 'Andalusia': documented in Arabic sources as 'al-Andalus' from 'Vandalusia' — though some scholars dispute this etymology. Collins (2004), Visigothic Spain: contextualises the transition."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Crisis of the Third Century — Franks sack Tarraco",
+          "date": "260–284 AD",
+          "loc": "Tarraco (sacked c.260); Hispania (briefly Gallic Empire)",
+          "coords": [
+            41.12,
+            1.25
+          ],
+          "hint": "During the Crisis of the Third Century, Germanic Franks breach the Pyrenees and sack Tarraco (c.260 AD) — the first time a foreign enemy reaches deep into Hispania since the Punic Wars; the peninsula is temporarily absorbed into the breakaway Gallic Empire (260–274 AD) before Aurelian restores it to Roman control.",
+          "tag": "EVENT",
+          "note": "The Frankish sack of Tarraco c.260 AD: documented in the Historia Augusta and confirmed archaeologically — destruction layers in Tarraco excavations. The Gallic Empire (260–274 AD): Hispania under Postumus and successors — documented in coinage (Gallic imperial coin series found in Hispania). Arce (2005), Bárbaros y romanos en Hispania: the standard study of the period. The crisis's long-term impact: Tarraco never recovers its former prominence."
+        }
       ]
     },
     {
-      "id": "lives", "label": "Lives", "icon": "🪞",
-      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored",
       "entries": [
-        { "id":"lv1", "group":"Enslaved Lives", "label":"Columella — Roman agricultural slavery documented from Hispania", "date":"c.4–70 AD", "loc":"Gades (mod. Cádiz) — born; Hispania Baetica (family estate)", "coords":[36.53,-6.3], "hint":"Lucius Junius Moderatus Columella is born in Cádiz and writes the most comprehensive Roman agricultural manual (De Re Rustica, 12 books) — it documents in detail the management of enslaved agricultural workers on Baetican estates, including their housing, diet, punishments and reproduction.", "tag":"EVIDENCE", "note":"Columella, De Re Rustica (c.60 AD): 12 books. BnF and other libraries hold medieval manuscripts. His Gades origin: Columella I Praef.1. The chapters on enslaved workers: Book I.6–9 — 'the management of slaves' (primary documentation of agricultural slavery conditions). Ash (1941), Columella translation (Loeb): the standard English edition. The Baetican context: Columella draws on personal experience of Baetica — primary evidence for the province's agricultural organisation." },
-        { "id":"lv2", "group":"Women's Agency", "label":"Roman women in Hispanian inscriptions — the epigraphic evidence", "date":"c.1st–3rd century AD", "loc":"Emerita Augusta; Tarraco; Barcino (main urban centres)", "coords":[38.92,-6.34], "hint":"The Roman inscriptions of Hispania (over 20,000 surviving) include substantial numbers commemorating women — as wives, mothers, priestesses and occasionally in economic roles; the Hispanian inscriptions are among the richest evidence for Roman women's lives outside Rome and Italy.", "tag":"EVIDENCE", "note":"Hispanian inscriptions: EDCS (Epigraphik-Datenbank Clauss-Slaby) — digitised corpus of 20,000+ Hispanian inscriptions. The Emerita Augusta female priests (flamines): multiple inscriptions document women in religious office. Dixon (1992), The Roman Family: uses Hispanian inscriptions as evidence. The mosaics at Italica depicting women: primary visual evidence. Curchin (1991), Roman Spain ch.7 on social life." }
+        {
+          "id": "lv1",
+          "group": "Enslaved Lives",
+          "label": "Columella — Roman agricultural slavery documented from Hispania",
+          "date": "c.4–70 AD",
+          "loc": "Gades (mod. Cádiz) — born; Hispania Baetica (family estate)",
+          "coords": [
+            36.53,
+            -6.3
+          ],
+          "hint": "Lucius Junius Moderatus Columella is born in Cádiz and writes the most comprehensive Roman agricultural manual (De Re Rustica, 12 books) — it documents in detail the management of enslaved agricultural workers on Baetican estates, including their housing, diet, punishments and reproduction.",
+          "tag": "EVIDENCE",
+          "note": "Columella, De Re Rustica (c.60 AD): 12 books. BnF and other libraries hold medieval manuscripts. His Gades origin: Columella I Praef.1. The chapters on enslaved workers: Book I.6–9 — 'the management of slaves' (primary documentation of agricultural slavery conditions). Ash (1941), Columella translation (Loeb): the standard English edition. The Baetican context: Columella draws on personal experience of Baetica — primary evidence for the province's agricultural organisation."
+        },
+        {
+          "id": "lv2",
+          "group": "Women's Agency",
+          "label": "Roman women in Hispanian inscriptions — the epigraphic evidence",
+          "date": "c.1st–3rd century AD",
+          "loc": "Emerita Augusta; Tarraco; Barcino (main urban centres)",
+          "coords": [
+            38.92,
+            -6.34
+          ],
+          "hint": "The Roman inscriptions of Hispania (over 20,000 surviving) include substantial numbers commemorating women — as wives, mothers, priestesses and occasionally in economic roles; the Hispanian inscriptions are among the richest evidence for Roman women's lives outside Rome and Italy.",
+          "tag": "EVIDENCE",
+          "note": "Hispanian inscriptions: EDCS (Epigraphik-Datenbank Clauss-Slaby) — digitised corpus of 20,000+ Hispanian inscriptions. The Emerita Augusta female priests (flamines): multiple inscriptions document women in religious office. Dixon (1992), The Roman Family: uses Hispanian inscriptions as evidence. The mosaics at Italica depicting women: primary visual evidence. Curchin (1991), Roman Spain ch.7 on social life."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"julio-claudian", "icon":"⚜️","accent":"#3A1A8B","label":"Julio-Claudian Hispania (27 BC–68 AD)", "events":[
-      {"y":-27,"y2":68,"l":"Augustus → Nero",                   "entryId":"k1"}
-    ]},
-    {"id":"flavian-antonine","icon":"⚜️","accent":"#2A0A7B","label":"Flavian & Antonine Hispania (69–193 AD)", "events":[
-      {"y":69, "y2":98, "l":"Flavian dynasty",                  "entryId":"k1"},
-      {"y":98, "y2":117,"l":"Trajan (born Italica)",            "entryId":"k2"},
-      {"y":117,"y2":138,"l":"Hadrian (born Italica)",           "entryId":"k2"}
-    ]},
-    {"id":"late-roman",    "icon":"⚜️","accent":"#1A006B","label":"Late Roman Hispania (284–409 AD)", "events":[
-      {"y":379,"y2":395,"l":"Theodosius (born Hispania)",        "entryId":"k3"}
-    ]},
-    {"id":"conflict",      "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":-80,"l":"Sertorian War — rebel province",            "entryId":"c1"},
-      {"y":-45,"l":"Battle of Munda — Caesar's last battle",    "entryId":"c2"},
-      {"y":406, "l":"Rhine crossing — Germans reach Hispania",   "entryId":"c3"}
-    ]},
-    {"id":"order",         "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":-27,"l":"Augustus — three provinces established",    "entryId":"k1"},
-      {"y":73,  "l":"Flavian grant — Latin rights for all",     "entryId":"o1"},
-      {"y":306, "l":"Council of Elvira — first Western council","entryId":"o2"},
-      {"y":380, "l":"Theodosius — Christianity official",       "entryId":"k3"}
-    ]},
-    {"id":"belief",        "icon":"🙏","accent":"#1E8449","events":[
-      {"y":304, "l":"Martyrdom of Eulalia of Mérida",           "entryId":"r1"},
-      {"y":385, "l":"Priscillian — first Christian executed for heresy","entryId":"r2"}
-    ]},
-    {"id":"expression",    "icon":"✨","accent":"#8D6E63","events":[
-      {"y":-15, "l":"Theatre of Mérida built",                  "entryId":"a1"},
-      {"y":100, "l":"Segovia aqueduct",                         "entryId":"a2"},
-      {"y":106, "l":"Alcántara bridge",                         "entryId":"a3"}
-    ]},
-    {"id":"thought",       "icon":"💡","accent":"#566573","events":[
-      {"y":-4,  "l":"Seneca born in Córdoba",                   "entryId":"t1"},
-      {"y":39,  "l":"Lucan born in Córdoba",                    "entryId":"t2"},
-      {"y":38,  "l":"Martial born in Bilbilis",                 "entryId":"t3"},
-      {"y":35,  "l":"Quintilian born in Calagurris",            "entryId":"t4"},
-      {"y":95,  "l":"Quintilian: Institutio Oratoria",          "entryId":"t4"}
-    ]},
-    {"id":"economy",       "icon":"💰","accent":"#8B5E00","events":[
-      {"y":1,   "l":"Dressel 20 — Baetican oil across empire",  "entryId":"s1"},
-      {"y":100, "l":"Hispania's cultural and political peak",    "entryId":"s2"}
-    ]},
-    {"id":"exchange",      "icon":"🌐","accent":"#148080","events":[
-      {"y":-100,"l":"Garum factories — Baelo Claudia",          "entryId":"ex1"},
-      {"y":65,  "l":"Seneca's Stoicism — transmission begins",  "entryId":"ex2"}
-    ]},
-    {"id":"lives",         "icon":"🪞","accent":"#7B4FA6","events":[
-      {"y":60,  "l":"Columella documents agricultural slavery",  "entryId":"lv1"},
-      {"y":100, "l":"Women in Hispanian inscriptions",           "entryId":"lv2"}
-    ]}
+    {
+      "id": "julio-claudian",
+      "icon": "⚜️",
+      "accent": "#3A1A8B",
+      "label": "Julio-Claudian Hispania (27 BC–68 AD)",
+      "events": [
+        {
+          "y": -27,
+          "y2": 68,
+          "l": "Augustus → Nero",
+          "entryId": "k1"
+        }
+      ]
+    },
+    {
+      "id": "flavian-antonine",
+      "icon": "⚜️",
+      "accent": "#2A0A7B",
+      "label": "Flavian & Antonine Hispania (69–193 AD)",
+      "events": [
+        {
+          "y": 69,
+          "y2": 98,
+          "l": "Flavian dynasty",
+          "entryId": "k1"
+        },
+        {
+          "y": 98,
+          "y2": 117,
+          "l": "Trajan (born Italica)",
+          "entryId": "k2"
+        },
+        {
+          "y": 117,
+          "y2": 138,
+          "l": "Hadrian (born Italica)",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
+      "id": "late-roman",
+      "icon": "⚜️",
+      "accent": "#1A006B",
+      "label": "Late Roman Hispania (284–409 AD)",
+      "events": [
+        {
+          "y": 379,
+          "y2": 395,
+          "l": "Theodosius (born Hispania)",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": -19,
+          "l": "Cantabrian Wars end — Hispania fully pacified",
+          "entryId": "c4"
+        },
+        {
+          "y": 260,
+          "l": "Franks sack Tarraco",
+          "entryId": "w2"
+        },
+        {
+          "y": 406,
+          "l": "Rhine crossing — Germans reach Hispania",
+          "entryId": "c3"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": -27,
+          "l": "Augustus — three provinces established",
+          "entryId": "k1"
+        },
+        {
+          "y": 73,
+          "l": "Flavian grant — Latin rights for all",
+          "entryId": "o1"
+        },
+        {
+          "y": 212,
+          "l": "Caracalla — full citizenship for all Hispani",
+          "entryId": "o3"
+        },
+        {
+          "y": 306,
+          "l": "Council of Elvira — first Western council",
+          "entryId": "o2"
+        },
+        {
+          "y": 380,
+          "l": "Theodosius — Christianity official",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 304,
+          "l": "Martyrdom of Eulalia of Mérida",
+          "entryId": "r1"
+        },
+        {
+          "y": 385,
+          "l": "Priscillian — first Christian executed for heresy",
+          "entryId": "r2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": -15,
+          "l": "Theatre of Mérida built",
+          "entryId": "a1"
+        },
+        {
+          "y": 100,
+          "l": "Segovia aqueduct",
+          "entryId": "a2"
+        },
+        {
+          "y": 106,
+          "l": "Alcántara bridge",
+          "entryId": "a3"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": -4,
+          "l": "Seneca born in Córdoba",
+          "entryId": "t1"
+        },
+        {
+          "y": 35,
+          "l": "Quintilian born in Calagurris",
+          "entryId": "t4"
+        },
+        {
+          "y": 38,
+          "l": "Martial born in Bilbilis",
+          "entryId": "t3"
+        },
+        {
+          "y": 39,
+          "l": "Lucan born in Córdoba",
+          "entryId": "t2"
+        },
+        {
+          "y": 95,
+          "l": "Quintilian: Institutio Oratoria",
+          "entryId": "t4"
+        },
+        {
+          "y": 256,
+          "l": "Hosius of Corduba — Nicene Creed architect",
+          "entryId": "r3"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": -25,
+          "l": "Las Médulas — largest Roman gold mine",
+          "entryId": "s3"
+        },
+        {
+          "y": 1,
+          "l": "Dressel 20 — Baetican oil across empire",
+          "entryId": "s1"
+        },
+        {
+          "y": 100,
+          "l": "Hispania's cultural and political peak",
+          "entryId": "s2"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": -100,
+          "l": "Garum factories — Baelo Claudia",
+          "entryId": "ex1"
+        },
+        {
+          "y": 65,
+          "l": "Seneca's Stoicism — transmission begins",
+          "entryId": "ex2"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 60,
+          "l": "Columella documents agricultural slavery",
+          "entryId": "lv1"
+        },
+        {
+          "y": 100,
+          "l": "Women in Hispanian inscriptions",
+          "entryId": "lv2"
+        }
+      ]
+    }
   ]
 }

@@ -106,6 +106,20 @@
           "hint": "Nelson defeats the combined Franco-Spanish fleet at Trafalgar — 18 Spanish ships lost, 2,500 Spanish dead; Spain's naval power is broken permanently, making it impossible to maintain the American empire; Napoleon's invasion follows three years later.",
           "tag": "BATTLE",
           "note": "The battle: documented in both British National Archives (ADM 1/404, Nelson's log) and AGS Marina (Spanish fleet records). Spanish casualties: AGS Marina. The Spanish flagship Santísima Trinidad (112 guns, largest warship in the world): its last log entry is in AGS. Adkins (2004), Trafalgar: uses both British and Spanish archives. Spain's fleet never recovered: documented in AGS Marina statistics."
+        },
+        {
+          "id": "c3",
+          "group": "Internal Conflicts",
+          "label": "Motín de Esquilache — the riots that triggered the Jesuit expulsion",
+          "date": "Mar 1766",
+          "loc": "Madrid (Puerta del Sol and throughout)",
+          "coords": [
+            40.42,
+            -3.7
+          ],
+          "hint": "In March 1766 Madrid erupts in riots against Charles III's Italian minister Esquilache — ostensibly over a ban on long cloaks and broad-brimmed hats, but driven by bread price inflation; the king flees the capital; the Crown blames the Jesuits for instigating the riots, using this as the formal pretext for their expulsion in February 1767.",
+          "tag": "CIVIL WAR",
+          "note": "The Motín de Esquilache March 1766: AGS and contemporary press. Charles III's flight to Aranjuez: documented. The secret investigation blaming Jesuits: AGS Gracia y Justicia. Lynch (1989), Bourbon Spain pp.254–261: the standard analysis of the Esquilache-expulsion connection. The Pragmática Sanción (1767) gives no stated reason — the Esquilache connection is documented only in the secret AGS report."
         }
       ]
     },
@@ -181,9 +195,9 @@
             40.42,
             -3.71
           ],
-          "hint": "The Bourbon Inquisition is significantly less violent than its Habsburg predecessor — the last auto de fe burning is 1826; but it still operates, banning Enlightenment texts and prosecuting free thinkers; Goya witnesses its proceedings and documents them.",
+          "hint": "The Bourbon Inquisition is significantly less active than its Habsburg predecessor — the last person burned alive at the stake by the Spanish Inquisition is María de los Dolores López (Seville, 1781); the 1826 execution of Cayetano Ripoll (hanging, by a diocesan board, not the Inquisition itself) is outside this folio's 1808 boundary; Goya witnesses the Inquisition's proceedings and documents them.",
           "tag": "EDICT",
-          "note": "AHN Inquisición: the archive continues into the Bourbon period. The Índice de libros prohibidos: published editions 1707, 1747, 1790 — BNE. The last auto de fe with burning: Seville 1781 (Manuel Cayetano Rodriguez, hanged in effigy). Goya's Inquisition scenes: Prado (painted c.1812–1819). Kamen (1997), The Spanish Inquisition: covers the Bourbon period."
+          "note": "AHN Inquisición: the archive continues into the Bourbon period. The Índice de libros prohibidos: published editions 1707, 1747, 1790 — BNE. The last actual burning at the stake by the Inquisition: María de los Dolores López, Seville, 1781 — convicted of heretical quietism. The 1826 Cayetano Ripoll execution (hanging, by a diocesan 'Junta de Fe', not the official Inquisition) falls outside this folio's 1808 boundary. Goya's Inquisition scenes: Prado (painted c.1812–1819). Kamen (1997), The Spanish Inquisition: covers the Bourbon period."
         }
       ]
     },
@@ -276,13 +290,27 @@
           "hint": "Gaspar Melchor de Jovellanos's Report on the Agrarian Law is the most important Enlightenment economic document in Spanish history — arguing for the abolition of entail, common lands and guild restrictions; it influences Spanish liberalism for a century.",
           "tag": "TEXT",
           "note": "First published 1795 (Madrid): BNE. The manuscript submitted to the Council of Castile 1794: AHN Consejos. Jovellanos's subsequent imprisonment by Godoy (1801–1808): documented in AGS. Caso González (1998), Jovellanos: the standard biography. The Informe's influence on the Cádiz Constitution debates (1810–1812): explicit references in the Diario de Sesiones."
+        },
+        {
+          "id": "t3",
+          "group": "Science & Geography",
+          "label": "Archivo General de Indias — the empire's colonial memory",
+          "date": "1785 (archive founded; documents from 1492)",
+          "loc": "Seville (Casa Lonja; extant, UNESCO)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "Charles III orders all colonial documents consolidated in the Casa Lonja in Seville — 43,000 bundles covering the administration of the Americas and Philippines from 1492 to independence; the most complete colonial administrative archive in the world.",
+          "tag": "DOCUMENT",
+          "note": "UNESCO Memory of the World (1997). Founded by royal decree 1785: AGI itself. Holdings: 43,000 legajos, 80 million pages, 8,000 maps. PARES digital access. The archive contains: Cortés's letters, Pizarro's orders, the Laws of Burgos, Las Casas's petitions, every colonial governor's reports — the most complete record of a colonial empire's administration in existence."
         }
       ]
     },
     {
-      "id": "economy",
-      "label": "Economy",
-      "icon": "💰",
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
       "color": "#4A3200",
       "accent": "#8B5E00",
       "bg": "#FFFBF0",
@@ -301,6 +329,20 @@
           "hint": "Charles III ends the Cádiz monopoly on colonial trade — his Free Trade Decree allows 13 Spanish ports to trade directly with the Americas; colonial trade increases 700% between 1778 and 1796, the most dramatic economic expansion in Spanish colonial history.",
           "tag": "ECONOMIC",
           "note": "Decreto de Libre Comercio 12 Oct 1778: Gaceta de Madrid. AGI, Indiferente General: trade statistics before and after. The 700% growth figure: Fisher (1985), Commercial Relations between Spain and Spanish America in the Era of Free Trade. Lynch (1989), Bourbon Spain, ch.7. The decree's text is explicit about ending the Cádiz monopoly."
+        },
+        {
+          "id": "s2",
+          "group": "Industry & Production",
+          "label": "Reales Fábricas — Bourbon state manufactures",
+          "date": "c.1720–1808",
+          "loc": "La Granja (glass); El Buen Retiro (porcelain); Santa Bárbara (tapestries); Seville (tobacco)",
+          "coords": [
+            40.9,
+            -4.0
+          ],
+          "hint": "The Bourbon royal manufactories are the centrepiece of mercantilist economic theory in 18th-century Spain — La Granja produces glass and crystal, El Buen Retiro produces porcelain to rival Sèvres and Meissen, Santa Bárbara produces tapestries from Goya's cartoons, the Seville tobacco factory (1728) becomes the largest industrial building in Spain.",
+          "tag": "Industry & Production",
+          "note": "La Granja Real Fábrica de Cristales: royal foundation documents (AGS). El Buen Retiro porcelain manufactory (founded 1760): Archivo del Palacio Real. Santa Bárbara tapestry factory: Goya's cartoons held in the Prado — 63 cartoons documented. The Seville Fábrica de Tabacos (1728, completed 1757): extant (now University of Seville). Lynch (1989), Bourbon Spain ch.5: the standard survey."
         }
       ]
     },
@@ -323,7 +365,7 @@
             48.85,
             2.35
           ],
-          "hint": "Three successive Family Compacts between the French and Spanish Bourbon branches coordinate their foreign policies against Britain — the alliance draws Spain into the Seven Years War, the American War of Independence (Spain aids the colonies), and eventually Napoleon's orbit.",
+          "hint": "Three Family Compacts between French and Spanish Bourbon branches (1733, 1743, 1761) coordinate policy against Britain — the Fourth Compact (Treaty of Aranjuez 1779) formally brings Spain into the American Revolutionary War; together they draw Spain into the Seven Years War, the American war and eventually Napoleon's orbit.",
           "tag": "POLITICAL",
           "note": "First Family Compact 1733: AGS Estado; Archives des Affaires Étrangères, Paris. Third Family Compact 1761: AGS Estado. Spain's role in the American War of Independence 1779–1783: documented in AGS Marina and AGS Guerra. Dull (2005), The French Navy and the Seven Years' War: analyses the Family Compact's strategic consequences."
         },
@@ -340,6 +382,34 @@
           "hint": "Philip V founds the Real Academia Española in 1713 — modelled on the Académie française, its purpose is to 'purify' and standardise the Spanish language; its first dictionary (1726–1739) and grammar (1771) are the foundational documents of modern standard Spanish.",
           "tag": "DOCUMENT",
           "note": "Royal warrant founding the RAE: 3 Oct 1714, Gaceta de Madrid. Diccionario de Autoridades (1726–1739, 6 vols): BNE — the first comprehensive Spanish dictionary with literary citations. The 1771 Gramática: BNE. Lázaro Carreter (1949), Las ideas lingüísticas en España durante el siglo XVIII: the standard study. The RAE's founding documents: Archivo de la Real Academia Española, Madrid."
+        },
+        {
+          "id": "ex3",
+          "group": "Diplomatic Exchange",
+          "label": "Treaty of Aranjuez — the Fourth Family Compact",
+          "date": "12 Apr 1779",
+          "loc": "Aranjuez (signed)",
+          "coords": [
+            40.03,
+            -3.6
+          ],
+          "hint": "The Treaty of Aranjuez (1779) is the Fourth Family Compact — Spain joins France against Britain in the American Revolutionary War; Spain's war goals focus on recovering Gibraltar; the siege of Gibraltar (1779–1783) becomes the longest siege in British military history.",
+          "tag": "POLITICAL",
+          "note": "Treaty of Aranjuez 12 Apr 1779: AGS Estado and Archives des Affaires Étrangères. The siege of Gibraltar 1779–1783: British National Archives (WO series) and AGS Marina. Dull (1985), A Diplomatic History of the American Revolution: analyses the treaty. Minorca recovered (1782): Treaty of Paris 1783. Gibraltar not recovered: the fundamental Spanish strategic failure documented."
+        },
+        {
+          "id": "ex4",
+          "group": "Diplomatic Exchange",
+          "label": "Treaty of San Ildefonso and the War of the Oranges",
+          "date": "1796–1801",
+          "loc": "San Ildefonso (treaty signed); Portugal (war theatre)",
+          "coords": [
+            40.9,
+            -4.0
+          ],
+          "hint": "Godoy signs the Treaty of San Ildefonso (1796) — an offensive alliance with Revolutionary France leading directly to the War of the Oranges (Spain invades Portugal 1801 at Napoleon's behest) and to Trafalgar (1805); the treaty is the mechanism of Spain's fatal entanglement with Napoleon.",
+          "tag": "POLITICAL",
+          "note": "Treaty of San Ildefonso 18 Aug 1796: AGS Estado. The War of the Oranges May–Jun 1801: AGS Guerra. La Parra López (1992), La alianza de Godoy con los revolucionarios: the standard study. The consequential chain: San Ildefonso (1796) → Trafalgar (1805) → Bayonne (1808) — documented in AGS and Archives des Affaires Étrangères."
         }
       ]
     },
@@ -408,16 +478,16 @@
         {
           "id": "lv2",
           "group": "Same-Sex Practice & Law",
-          "label": "CATEGORICAL SHIFT: Bourbon secularisation of sodomy law",
+          "label": "The Bourbon Inquisition and sodomy — declining but not abolished",
           "date": "1787",
           "loc": "Spain",
           "coords": [
             40.42,
             -3.71
           ],
-          "hint": "The Bourbon Código Criminal of 1787 transfers sodomy cases from the Inquisition to secular courts — a CATEGORICAL SHIFT from religious heresy to secular crime; part of the broader Bourbon effort to limit Church jurisdiction, but not a decriminalisation.",
-          "tag": "CATEGORICAL SHIFT",
-          "note": "Código Criminal project 1787: AHN Consejos — the reform documents. The transfer of sodomy jurisdiction: analysed in Berco (2007), Sexual Hierarchies, Public Status. The Inquisition's resistance to the transfer: documented in AHN Inquisición. Tomás y Valiente (1990), El derecho penal de la monarquía absoluta: the standard legal history. This is a CATEGORICAL SHIFT: the same act moves from religious to secular jurisdiction, changing its social meaning and its punishers."
+          "hint": "Sodomy jurisdiction in Castile had always resided primarily with secular courts under the Catholic Monarchs' pragmática (1497); in the Crown of Aragon, the Inquisition held specific jurisdiction since a 1524 papal brief; Bourbon reformers curtail this Aragonese Inquisition jurisdiction across the 18th century as part of broader efforts to limit Church courts — but no criminal code formalising this was ever enacted; Spain's first Penal Code is 1822.",
+          "tag": "EVIDENCE",
+          "note": "The Catholic Monarchs' pragmática on sodomy (1497): documented — assigns jurisdiction to secular courts in Castile. The 1524 papal brief for the Aragonese Inquisition: documented in AHN Inquisición. The Bourbon restriction of Inquisition jurisdiction: documented in AHN Inquisición series — declining caseloads. Spain's first Penal Code: 1822 (Liberal Triennium). Lardizábal's unenacted reform draft c.1787: AHN Consejos — never approved. Berco (2007), Sexual Hierarchies: the standard study of sodomy prosecution across both periods."
         }
       ]
     }
@@ -480,6 +550,11 @@
           "y": 1707,
           "l": "Battle of Almansa",
           "entryId": "c1"
+        },
+        {
+          "y": 1766,
+          "l": "Motín de Esquilache",
+          "entryId": "c3"
         },
         {
           "y": 1805,
@@ -553,6 +628,11 @@
           "entryId": "t1"
         },
         {
+          "y": 1785,
+          "l": "Archivo General de Indias founded",
+          "entryId": "t3"
+        },
+        {
           "y": 1794,
           "l": "Jovellanos: Informe Agrario",
           "entryId": "t2"
@@ -578,6 +658,16 @@
           "y": 1779,
           "l": "Spain aids American independence",
           "entryId": "ex1"
+        },
+        {
+          "y": 1779,
+          "l": "Treaty of Aranjuez — Fourth Family Compact",
+          "entryId": "ex3"
+        },
+        {
+          "y": 1796,
+          "l": "San Ildefonso — Spain in Napoleon's orbit",
+          "entryId": "ex4"
         }
       ]
     },

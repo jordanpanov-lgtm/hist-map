@@ -2,163 +2,855 @@
   "id": "spain-1230-1492",
   "title": "Castile & Aragon",
   "subtitle": "1230–1492 · Union, Reconquest and the Catholic Monarchs",
-  "period": { "start": 1230, "end": 1492 },
+  "period": {
+    "start": 1230,
+    "end": 1492
+  },
   "region": "Iberia",
   "period_label": "Medieval",
-  "mapCenter": [40.4, -3.7],
+  "mapCenter": [
+    40.4,
+    -3.7
+  ],
   "mapZoom": 6,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#0A1A3A", "accent": "#1A3A8B", "bg": "#F0F5FF",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#0A1A3A",
+      "accent": "#1A3A8B",
+      "bg": "#F0F5FF",
       "subtitle": "From Ferdinand III to the Catholic Monarchs — the making of Spain",
       "entries": [
-        { "id":"k1", "group":"Crown of Castile (1230–1284)", "dynasty":"Castilian", "label":"Ferdinand III — the Saint who unified Castile and León", "date":"1217–1252", "loc":"Burgos; Toledo; Seville (conquered)", "coords":[40.35,-3.7], "hint":"Ferdinand III unites the crowns of Castile and León permanently (1230) — then conquers Córdoba (1236), Jaén (1246) and Seville (1248) in rapid succession; canonised in 1671; his tomb in Seville Cathedral contains his sword and a multilingual epitaph in Latin, Castilian, Arabic and Hebrew.", "tag":"SUCCESSION", "note":"Ferdinand III's multilingual epitaph: Cathedral of Seville — the four languages symbolise his multicultural kingdom. His canonisation 1671: Vatican records. Primera Crónica General (Alfonso X, c.1270): documents his campaigns. The unification of Castile and León 1230: documented in royal charters (AHN). Linehan (1993), History and Historians of Medieval Spain: analyses the source tradition." },
-        { "id":"k2", "group":"Crown of Castile (1284–1369)", "dynasty":"Castilian", "label":"Alfonso X el Sabio — the scholar king", "date":"1252–1284", "loc":"Toledo; Seville; Murcia", "coords":[39.86,-4.03], "hint":"Alfonso X is the most intellectually productive medieval Iberian monarch — he supervises the Siete Partidas (law code), the Cantigas de Santa María (420 songs with musical notation), astronomical tables, and a general history of Spain; his multilingual court includes Christian, Muslim and Jewish scholars.", "tag":"SUCCESSION", "note":"Alfonso X's reign: documented through his own prolific output. The Siete Partidas: multiple manuscripts; Las siete partidas del Rey don Alfonso (BnF and BNE). The Cantigas de Santa María: 4 illuminated manuscripts survive — Real Biblioteca del Monasterio de El Escorial (T.I.1 and B.I.2), BNE and BnF. His astronomical Alfonsine Tables: used in Europe until the 17th century — British Library holds early copies." },
-        { "id":"k3", "group":"Crown of Aragon (1213–1410)", "dynasty":"Aragonese", "label":"James I of Aragon — the Mediterranean empire", "date":"1213–1276", "loc":"Zaragoza; Valencia (conquered 1238); Palma de Mallorca (conquered 1229)", "coords":[41.65,-0.88], "hint":"James I of Aragon conquers the Balearic Islands (1229) and Valencia (1238) — establishing the Crown of Aragon as a Mediterranean power; his own autobiography the Llibre dels Fets is the first royal autobiography in a European vernacular language.", "tag":"SUCCESSION", "note":"Llibre dels Fets (Book of Deeds, c.1270–1276): James I's own autobiography — oldest royal autobiography in a vernacular European language. BNE and Arxiu de la Corona d'Aragó hold manuscripts. Smith & Buffery (2003), The Book of Deeds of James I of Aragon: the standard English translation. The Crown of Aragon's Mediterranean expansion: documented in treaty archives." },
-        { "id":"k4", "group":"Catholic Monarchs (1469–1492)", "dynasty":"Trastámara", "label":"Ferdinand and Isabella — the Catholic Monarchs", "date":"1469–1492 (and beyond)", "loc":"Castile; Aragon; Granada (from 1492)", "coords":[40.42,-3.71], "hint":"Ferdinand of Aragon and Isabella of Castile marry in 1469 — their union doesn't formally merge the two kingdoms but creates a personal union that acts as one; they complete the Reconquista (1492), expel the Jews (1492), and send Columbus (1492); they are the effective founders of unified Spain.", "tag":"SUCCESSION", "note":"The marriage contract 18 Oct 1469: Archivo de la Corona de Aragón — the primary document of the dynastic union. Their joint titulature ('los Reyes Católicos'): conferred by Pope Alexander VI 1496 — Vatican Archives. The Alhambra Decree (31 Mar 1492): AGS. Columbus commission: AGS Patronato Real. Edwards (2000), Ferdinand and Isabella: the standard English biography." }
+        {
+          "id": "k1",
+          "group": "Crown of Castile (1230–1284)",
+          "dynasty": "Castilian",
+          "label": "Ferdinand III — the Saint who unified Castile and León",
+          "date": "1217–1252",
+          "loc": "Burgos; Toledo; Seville (conquered)",
+          "coords": [
+            40.35,
+            -3.7
+          ],
+          "hint": "Ferdinand III unites the crowns of Castile and León permanently (1230) — then conquers Córdoba (1236), Jaén (1246) and Seville (1248) in rapid succession; canonised in 1671; his tomb in Seville Cathedral contains his sword and a multilingual epitaph in Latin, Castilian, Arabic and Hebrew.",
+          "tag": "SUCCESSION",
+          "note": "Ferdinand III's multilingual epitaph: Cathedral of Seville — the four languages symbolise his multicultural kingdom. His canonisation 1671: Vatican records. Primera Crónica General (Alfonso X, c.1270): documents his campaigns. The unification of Castile and León 1230: documented in royal charters (AHN). Linehan (1993), History and Historians of Medieval Spain: analyses the source tradition."
+        },
+        {
+          "id": "k2",
+          "group": "Crown of Castile (1284–1369)",
+          "dynasty": "Castilian",
+          "label": "Alfonso X el Sabio — the scholar king",
+          "date": "1252–1284",
+          "loc": "Toledo; Seville; Murcia",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Alfonso X is the most intellectually productive medieval Iberian monarch — he supervises the Siete Partidas (law code), the Cantigas de Santa María (420 songs with musical notation), astronomical tables, and a general history of Spain; his multilingual court includes Christian, Muslim and Jewish scholars.",
+          "tag": "SUCCESSION",
+          "note": "Alfonso X's reign: documented through his own prolific output. The Siete Partidas: multiple manuscripts; Las siete partidas del Rey don Alfonso (BnF and BNE). The Cantigas de Santa María: 4 illuminated manuscripts survive — Real Biblioteca del Monasterio de El Escorial (T.I.1 and B.I.2), BNE and BnF. His astronomical Alfonsine Tables: used in Europe until the 17th century — British Library holds early copies."
+        },
+        {
+          "id": "k3",
+          "group": "Crown of Aragon (1213–1410)",
+          "dynasty": "Aragonese",
+          "label": "James I of Aragon — the Mediterranean empire",
+          "date": "1213–1276",
+          "loc": "Zaragoza; Valencia (conquered 1238); Palma de Mallorca (conquered 1229)",
+          "coords": [
+            41.65,
+            -0.88
+          ],
+          "hint": "James I of Aragon conquers the Balearic Islands (1229) and Valencia (1238) — establishing the Crown of Aragon as a Mediterranean power; his own autobiography the Llibre dels Fets is the first royal autobiography in a European vernacular language.",
+          "tag": "SUCCESSION",
+          "note": "Llibre dels Fets (Book of Deeds, c.1270–1276): James I's own autobiography — oldest royal autobiography in a vernacular European language. BNE and Arxiu de la Corona d'Aragó hold manuscripts. Smith & Buffery (2003), The Book of Deeds of James I of Aragon: the standard English translation. The Crown of Aragon's Mediterranean expansion: documented in treaty archives."
+        },
+        {
+          "id": "k4",
+          "group": "Catholic Monarchs (1469–1492)",
+          "dynasty": "Trastámara",
+          "label": "Ferdinand and Isabella — the Catholic Monarchs",
+          "date": "1469–1492 (and beyond)",
+          "loc": "Castile; Aragon; Granada (from 1492)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Ferdinand of Aragon and Isabella of Castile marry in 1469 — their union doesn't formally merge the two kingdoms but creates a personal union that acts as one; they complete the Reconquista (1492), expel the Jews (1492), and send Columbus (1492); they are the effective founders of unified Spain.",
+          "tag": "SUCCESSION",
+          "note": "The marriage contract 18 Oct 1469: Archivo de la Corona de Aragón — the primary document of the dynastic union. Their joint titulature ('los Reyes Católicos'): conferred by Pope Alexander VI 1496 — Vatican Archives. The Alhambra Decree (31 Mar 1492): AGS. Columbus commission: AGS Patronato Real. Edwards (2000), Ferdinand and Isabella: the standard English biography."
+        },
+        {
+          "id": "k5",
+          "group": "Crown of Castile (1284–1369)",
+          "dynasty": "Castilian",
+          "label": "Alfonso XI — Río Salado and the Black Death at Gibraltar",
+          "date": "1312–1350",
+          "loc": "Castile; Río Salado (battle); Gibraltar (death)",
+          "coords": [
+            40.35,
+            -3.7
+          ],
+          "hint": "Alfonso XI ('the Implacable') defeats the Marinids and Nasrids at Río Salado (1340), permanently ending North African intervention; he consolidates royal power, codifies Castilian law in the Ordenamiento de Alcalá (1348 — the act that finally gives the Siete Partidas legal force); he dies of the Black Death at the Siege of Gibraltar (1350) — the only western European monarch to die of plague.",
+          "tag": "SUCCESSION",
+          "note": "Alfonso XI's reign: Crónica de Alfonso XI (primary). The Battle of Río Salado 30 Oct 1340: ibid. The Ordenamiento de Alcalá 1348: AHN — gives the Siete Partidas legal force. His death at Gibraltar 26 Mar 1350: Crónica de Alfonso XI — documented as the Black Death; confirmed by the timing and symptoms described. O'Callaghan (2011), The Gibraltar Crusade: the standard modern study. He is the only western European monarch documented to have died of plague."
+        },
+        {
+          "id": "k6",
+          "group": "Crown of Aragon (1213–1410)",
+          "dynasty": "Trastámara",
+          "label": "Compromise of Caspe — constitutional succession in Aragon",
+          "date": "28 Jun 1412",
+          "loc": "Caspe (Zaragoza) — the compromise site",
+          "coords": [
+            41.23,
+            -0.04
+          ],
+          "hint": "When Martin I of Aragon dies childless in 1410, the Crown of Aragon faces civil war over succession — instead of fighting, representatives of Aragon, Catalonia and Valencia appoint nine arbitrators who meet at Caspe; on 28 June 1412 they select Ferdinand I of Antequera (a Castilian Trastámara) as king, bringing the Trastámara dynasty to both Castile and Aragon, directly enabling the Ferdinand/Isabella marriage of 1469.",
+          "tag": "SUCCESSION",
+          "note": "The Caspe proceedings 1412: Archivo de la Corona d'Aragó — the arbitrators' records. The selection of Ferdinand I: documented. Vicens Vives (1953), Juan II de Aragón: the standard study of the Caspe compromise's dynastic consequences. The direct chain: Caspe (1412) → Trastámaras in Aragon → John II → Ferdinand → marriage to Isabella (1469) → Catholic Monarchs. Without Caspe there is no Ferdinand and Isabella."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "Final reconquest, civil wars and Aragon's Mediterranean campaigns",
       "entries": [
-        { "id":"c1", "group":"Reconquista", "label":"Ferdinand III conquers Córdoba and Seville", "date":"1236–1248", "loc":"Córdoba (1236); Jaén (1246); Seville (1248)", "coords":[37.88,-4.78], "hint":"Ferdinand III's rapid reconquest of the Guadalquivir valley — Córdoba falls to a night raid on 7 January 1236; Seville after a two-year siege on 23 November 1248; the Great Mosque of Córdoba is consecrated as a cathedral the day it falls; the heart of al-Andalus passes to Christian rule.", "tag":"BATTLE", "note":"The fall of Córdoba 7 Jan 1236: Primera Crónica General (Alfonso X). The night raid by Domingo Muñoz: documented — he disguised his men as Moors. The fall of Seville 23 Nov 1248: documented in the Primera Crónica and Arabic sources. Ferdinand III's epitaph in four languages: in situ, Cathedral of Seville. González (1980), Fernando III el Santo: the standard modern biography." },
-        { "id":"c2", "group":"Crown of Aragon", "label":"Battle of Las Navas de Tolosa consequences — Valencia falls", "date":"1238", "loc":"Valencia", "coords":[39.47,-0.38], "hint":"James I of Aragon takes Valencia from its Muslim rulers in 1238 — completing the Aragonese reconquest of the eastern peninsula; Valencia becomes the most populous city of the Crown of Aragon; its Aragonese charter (Furs de Valencia) gives it distinctive legal status.", "tag":"BATTLE", "note":"The fall of Valencia 28 Sep 1238: documented in the Llibre dels Fets (James I's own account). The Furs de Valencia (1261): Arxiu de la Corona d'Aragó — the Valencian law code. The founding of the Kingdom of Valencia as distinct from Aragon: documented in the charter archives. The moriscos who remain in Valencia: documented in subsequent administrative records." },
-        { "id":"c3", "group":"Civil Wars", "label":"Castilian civil war — Pedro I vs Enrique II", "date":"1366–1369", "loc":"Castile (battlefields throughout)", "coords":[40.35,-3.7], "hint":"The Castilian civil war between King Pedro I ('the Cruel') and his illegitimate half-brother Enrique de Trastámara involves England (Black Prince supports Pedro), France (Du Guesclin supports Enrique) and the Crown of Aragon; Pedro is murdered at Montiel (1369); the Trastámara dynasty takes power.", "tag":"CIVIL WAR", "note":"The murder of Pedro I at Montiel 23 Mar 1369: documented in multiple chronicles. The Black Prince's intervention (Battle of Nájera 1367): English chronicles document his role. Froissart's Chronicles: detailed account of the English involvement — BnF. The Trastámara dynasty's subsequent rule: documented in royal archives. Russell (1955), The English Intervention in Spain and Portugal: the standard study." }
+        {
+          "id": "c1",
+          "group": "Reconquista",
+          "label": "Ferdinand III conquers Córdoba and Seville",
+          "date": "1236–1248",
+          "loc": "Córdoba (1236); Jaén (1246); Seville (1248)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Ferdinand III's reconquest of the Guadalquivir valley: on the night of 7/8 January 1236, a small group of Christian knights seize only the eastern suburb (Ajarquía) of Córdoba in a daring coup de main; after months of siege the main city formally surrenders and Ferdinand III enters on 29 June 1236 (the feast of Saints Peter and Paul); Seville falls after a two-year siege on 23 November 1248.",
+          "tag": "BATTLE",
+          "note": "The night raid on the Ajarquía suburb 7/8 Jan 1236: Primera Crónica General (Alfonso X). The formal fall of Córdoba 29 Jun 1236: documented in the Primera Crónica — the feast of Saints Peter and Paul. The fall of Seville 23 Nov 1248: ibid. Ferdinand III's multilingual epitaph: Cathedral of Seville. González (1980), Fernando III el Santo: the standard modern biography. The distinction between the January raid and the June formal surrender is confirmed in all primary sources."
+        },
+        {
+          "id": "c2",
+          "group": "Crown of Aragon",
+          "label": "Battle of Las Navas de Tolosa consequences — Valencia falls",
+          "date": "1238",
+          "loc": "Valencia",
+          "coords": [
+            39.47,
+            -0.38
+          ],
+          "hint": "James I of Aragon takes Valencia from its Muslim rulers in 1238 — completing the Aragonese reconquest of the eastern peninsula; Valencia becomes the most populous city of the Crown of Aragon; its Aragonese charter (Furs de Valencia) gives it distinctive legal status.",
+          "tag": "BATTLE",
+          "note": "The fall of Valencia 28 Sep 1238: documented in the Llibre dels Fets (James I's own account). The Furs de Valencia (1261): Arxiu de la Corona d'Aragó — the Valencian law code. The founding of the Kingdom of Valencia as distinct from Aragon: documented in the charter archives. The moriscos who remain in Valencia: documented in subsequent administrative records."
+        },
+        {
+          "id": "c3",
+          "group": "Civil Wars",
+          "label": "Castilian civil war — Pedro I vs Enrique II",
+          "date": "1366–1369",
+          "loc": "Castile (battlefields throughout)",
+          "coords": [
+            40.35,
+            -3.7
+          ],
+          "hint": "The Castilian civil war between King Pedro I ('the Cruel') and his illegitimate half-brother Enrique de Trastámara involves England (Black Prince supports Pedro), France (Du Guesclin supports Enrique) and the Crown of Aragon; Pedro is murdered at Montiel (1369); the Trastámara dynasty takes power.",
+          "tag": "CIVIL WAR",
+          "note": "The murder of Pedro I at Montiel 23 Mar 1369: documented in multiple chronicles. The Black Prince's intervention (Battle of Nájera 1367): English chronicles document his role. Froissart's Chronicles: detailed account of the English involvement — BnF. The Trastámara dynasty's subsequent rule: documented in royal archives. Russell (1955), The English Intervention in Spain and Portugal: the standard study."
+        },
+        {
+          "id": "c4",
+          "group": "Civil Wars",
+          "label": "Catalan Civil War — the crisis that forced the Ferdinand-Isabella marriage",
+          "date": "1462–1472",
+          "loc": "Catalonia (Generalitat vs John II of Aragon)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "John II of Aragon fights a decade-long civil war against the Catalan Generalitat — the war devastates Catalonia's economy and breaks Barcelona's mercantile dominance; John II's desperation for a Castilian alliance to end the war is the direct political driver of the Ferdinand-Isabella marriage (1469), which he arranges.",
+          "tag": "CIVIL WAR",
+          "note": "The Catalan Civil War: Vicens Vives (1953), Juan II de Aragón — the standard study. The Generalitat's war against John II: Arxiu de la Corona d'Aragó. The connection to the Ferdinand-Isabella marriage: explicit in Vicens Vives — John II needed Castilian support and arranged the marriage as a strategic alliance. The Barcelona economy's collapse: documented in municipal records (Arxiu Municipal de Barcelona). Catalonia does not recover its pre-1462 commercial dominance until the 18th century."
+        },
+        {
+          "id": "c5",
+          "group": "Civil Wars",
+          "label": "Castilian War of Succession — Isabella vs Joanna la Beltraneja",
+          "date": "1475–1479",
+          "loc": "Castile; Portugal (Battle of Toro 1476); Alcaçovas (treaty)",
+          "coords": [
+            40.4,
+            -5.5
+          ],
+          "hint": "Isabella's accession in 1474 triggers a civil war — her niece Joanna ('la Beltraneja') is backed by Afonso V of Portugal; the Battle of Toro (1476) turns the conflict; the Treaty of Alcaçovas (1479) secures Isabella's crown and, crucially, divides Atlantic maritime spheres — Portugal keeps Africa and the Atlantic islands; Castile gets the Canaries; this shapes the age of exploration.",
+          "tag": "CIVIL WAR",
+          "note": "The Battle of Toro 1 Mar 1476: documented in chronicles. Treaty of Alcaçovas 4 Sep 1479: AGS Patronato Real and Arquivo Nacional da Torre do Tombo (Lisbon) — primary texts. The Atlantic sphere division: Article 2 grants Portugal exclusive rights to navigate the African coast; Castile gets the Canaries. Suárez Fernández (1964), Política internacional de Isabel la Católica Vol.I: the standard study. The treaty directly shapes the framework within which Columbus will negotiate his 1492 commission."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "The Siete Partidas, Cortes and the development of Iberian law",
       "entries": [
-        { "id":"o1", "group":"Imperial Law", "label":"Siete Partidas — Alfonso X's universal law code", "date":"c.1265", "loc":"Castile (written and promulgated)", "coords":[40.35,-3.7], "hint":"Alfonso X's Siete Partidas (Seven-Part Code, c.1265) is the most comprehensive medieval Iberian law code — 2,800 laws in 7 parts covering religion, royal power, nobles, towns, contracts, wills and criminal law; it remains in force in parts of Louisiana and Texas until the 19th century.", "tag":"LAW", "note":"Siete Partidas (c.1265): BNE holds the primary manuscripts. Issued as law 1348 by Alfonso XI (Ordenamiento de Alcalá). US influence: still referenced in Louisiana courts until 1825 — documented in US legal records. Burns (2001), Las Siete Partidas (University of Pennsylvania): the standard English translation. The code's treatment of Jews and Muslims: explicit legal provisions documented — less restrictive than later legislation." },
-        { "id":"o2", "group":"Constitutional Law", "label":"Cortes of Castile and Aragon — early representative assemblies", "date":"c.1188–1400", "loc":"León (Cortes of 1188); Zaragoza; Barcelona (Corts)", "coords":[42.6,-5.57], "hint":"The Cortes of León (1188) is the earliest documented representative assembly in European history — meeting before the Magna Carta (1215); the Aragonese Corts is even more powerful; both assemblies develop documentary traditions of petitions and royal responses that are primary sources.", "tag":"LAW", "note":"Cortes of León 1188: UNESCO Memory of the World (2013) — the decrees are the primary documents. The Aragonese Corts: Arxiu de la Corona d'Aragó — extensive documentation. Valdeavellano (1968), Historia de España Vol.I: the standard survey. The León 1188 Cortes' UNESCO inscription: explicitly as 'the first representative parliament in world history'." },
-        { "id":"o3", "group":"Ecclesiastical Act", "label":"Spanish Inquisition established — 1478", "date":"1 Nov 1478", "loc":"Spain-wide (authorised by Sixtus IV)", "coords":[40.42,-3.71], "hint":"Ferdinand and Isabella petition Pope Sixtus IV to establish a royal Inquisition — the papal bull of 1 November 1478 authorises it; the Inquisition is under royal (not papal) control; its first auto de fe is held in Seville in 1481; Tomás de Torquemada is appointed Inquisitor General in 1483.", "tag":"EDICT", "note":"Papal bull Exigit sincerae devotionis (1 Nov 1478): Vatican Archives. Torquemada's appointment 1483: documented. The first auto de fe (Seville, 6 Feb 1481): documented in contemporary records. AHN Inquisición: the primary archive for all subsequent proceedings. Kamen (1997), The Spanish Inquisition: the standard modern study — covers this founding period." }
+        {
+          "id": "o1",
+          "group": "Imperial Law",
+          "label": "Siete Partidas — composed by Alfonso X, enforced by Alfonso XI",
+          "date": "c.1265",
+          "loc": "Castile (written and promulgated)",
+          "coords": [
+            40.35,
+            -3.7
+          ],
+          "hint": "Alfonso X compiles the Siete Partidas (c.1256–1265) — the most comprehensive medieval Iberian law code; but it is never promulgated in his lifetime due to fierce noble opposition favouring local fueros; it remains a theoretical compendium until 1348 when his great-grandson Alfonso XI gives it statutory force in the Ordenamiento de Alcalá.",
+          "tag": "LAW",
+          "note": "Siete Partidas (c.1256–1265): BNE holds the primary manuscripts. The failure to promulgate under Alfonso X: documented in the political conflict with the Castilian nobility. The Ordenamiento de Alcalá 1348 (Alfonso XI): gives the Siete Partidas legal force — text in AHN. US influence: still referenced in Louisiana courts until 1825. Burns (2001), Las Siete Partidas (Pennsylvania): the standard English translation. The gap between composition and enforcement is itself a primary fact about the limits of royal legislative power in 13th-century Castile."
+        },
+        {
+          "id": "o2",
+          "group": "Constitutional Law",
+          "label": "Cortes of Castile and Aragon — early representative assemblies",
+          "date": "c.1188–1400",
+          "loc": "León (Cortes of 1188); Zaragoza; Barcelona (Corts)",
+          "coords": [
+            42.6,
+            -5.57
+          ],
+          "hint": "The Cortes of León (1188) is the earliest documented representative assembly in European history — meeting before the Magna Carta (1215); the Aragonese Corts is even more powerful; both assemblies develop documentary traditions of petitions and royal responses that are primary sources.",
+          "tag": "LAW",
+          "note": "NOTE: Cortes of León (1188) predates this folio's 1230 start — included as foundational context. UNESCO Memory of the World (2013). Cortes of León 1188: UNESCO Memory of the World (2013) — the decrees are the primary documents. The Aragonese Corts: Arxiu de la Corona d'Aragó — extensive documentation. Valdeavellano (1968), Historia de España Vol.I: the standard survey. The León 1188 Cortes' UNESCO inscription: explicitly as 'the first representative parliament in world history'."
+        },
+        {
+          "id": "o3",
+          "group": "Ecclesiastical Act",
+          "label": "Spanish Inquisition established — 1478",
+          "date": "1 Nov 1478",
+          "loc": "Spain-wide (authorised by Sixtus IV)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Ferdinand and Isabella petition Pope Sixtus IV to establish a royal Inquisition — the papal bull of 1 November 1478 authorises it; the Inquisition is under royal (not papal) control; its first auto de fe is held in Seville in 1481; Tomás de Torquemada is appointed Inquisitor General in 1483.",
+          "tag": "EDICT",
+          "note": "Papal bull Exigit sincerae devotionis (1 Nov 1478): Vatican Archives. Torquemada's appointment 1483: documented. The first auto de fe (Seville, 6 Feb 1481): documented in contemporary records. AHN Inquisición: the primary archive for all subsequent proceedings. Kamen (1997), The Spanish Inquisition: the standard modern study — covers this founding period."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
       "subtitle": "Church, Inquisition and the end of religious pluralism",
       "entries": [
-        { "id":"r1", "group":"Catholic / Church of Rome", "label":"Las Huelgas — royal monastery and Cistercian centre", "date":"1187", "loc":"Burgos (extant)", "coords":[42.34,-3.72], "hint":"Alfonso VIII founds Las Huelgas monastery in 1187 — it becomes the royal pantheon of Castile (32 kings and queens buried there), a Cistercian intellectual centre, and the holder of an extraordinary archive including the Almohad battle standard captured at Las Navas; its music manuscripts are primary sources for 13th-century polyphony.", "tag":"CONSTRUCTION", "note":"Extant (partially closed to public). The Las Navas battle standard: in situ at Las Huelgas. The music manuscripts (Códice de Las Huelgas, c.1300): BNE — the largest collection of 13th-century polyphony in Spain. Anderson (1982), The Las Huelgas Manuscript: the standard musicological study. The royal tombs: documented in Gómez-Moreno (1946), El panteón real de Las Huelgas." },
-        { "id":"r2", "group":"Judaism", "label":"Samuel Halevi Abulafia — treasurer, synagogue builder", "date":"c.1320–1360", "loc":"Toledo (El Tránsito synagogue, extant)", "coords":[39.86,-4.03], "hint":"Samuel Halevi Abulafia, treasurer of Pedro I of Castile, builds the El Tránsito synagogue in Toledo (c.1357) — the finest medieval synagogue in Spain; its Hebrew inscriptions praise both God and Pedro I; its survival after the 1391 pogroms and the 1492 expulsion is itself a primary source.", "tag":"CONSTRUCTION", "note":"El Tránsito synagogue (c.1357): extant, Toledo (Museo Sefardí). The Hebrew inscriptions: translated and documented. Samuel Halevi's subsequent arrest and execution by Pedro I (c.1360): documented in chronicles. Baer (1961), A History of the Jews in Christian Spain Vol.II. The synagogue's conversion to a church after 1492 and its survival: documented. The inscription praising Pedro I alongside God: primary evidence for Jewish-Christian political collaboration." }
+        {
+          "id": "r1",
+          "group": "Catholic / Church of Rome",
+          "label": "Las Huelgas — royal monastery and Cistercian centre",
+          "date": "1187",
+          "loc": "Burgos (extant)",
+          "coords": [
+            42.34,
+            -3.72
+          ],
+          "hint": "Alfonso VIII founds Las Huelgas monastery in 1187 — it becomes the royal pantheon of Castile (32 kings and queens buried there), a Cistercian intellectual centre, and the holder of an extraordinary archive including the Almohad battle standard captured at Las Navas; its music manuscripts are primary sources for 13th-century polyphony.",
+          "tag": "CONSTRUCTION",
+          "note": "NOTE: Las Huelgas was founded 1187, predating this folio's 1230 start — included as essential institutional context. Extant (partially closed to public). Extant (partially closed to public). The Las Navas battle standard: in situ at Las Huelgas. The music manuscripts (Códice de Las Huelgas, c.1300): BNE — the largest collection of 13th-century polyphony in Spain. Anderson (1982), The Las Huelgas Manuscript: the standard musicological study. The royal tombs: documented in Gómez-Moreno (1946), El panteón real de Las Huelgas."
+        },
+        {
+          "id": "r2",
+          "group": "Judaism",
+          "label": "Samuel Halevi Abulafia — treasurer, synagogue builder",
+          "date": "c.1320–1360",
+          "loc": "Toledo (El Tránsito synagogue, extant)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Samuel Halevi Abulafia, treasurer of Pedro I of Castile, builds the El Tránsito synagogue in Toledo (c.1357) — the finest medieval synagogue in Spain; its Hebrew inscriptions praise both God and Pedro I; its survival after the 1391 pogroms and the 1492 expulsion is itself a primary source.",
+          "tag": "CONSTRUCTION",
+          "note": "El Tránsito synagogue (c.1357): extant, Toledo (Museo Sefardí). The Hebrew inscriptions: translated and documented. Samuel Halevi's subsequent arrest and execution by Pedro I (c.1360): documented in chronicles. Baer (1961), A History of the Jews in Christian Spain Vol.II. The synagogue's conversion to a church after 1492 and its survival: documented. The inscription praising Pedro I alongside God: primary evidence for Jewish-Christian political collaboration."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "Gothic cathedrals, the Cantigas and Mudéjar art",
       "entries": [
-        { "id":"a1", "group":"Architecture", "label":"Mudéjar architecture — Muslim craftsmen for Christian patrons", "date":"c.1230–1492", "loc":"Toledo; Seville; Teruel; Zaragoza (main centres)", "coords":[39.86,-4.03], "hint":"Mudéjar architecture is produced by Muslim craftsmen working for Christian and Jewish patrons — it fuses Islamic geometric decoration, horseshoe arches and brick construction with Gothic and Romanesque structural forms; it is uniquely Iberian, found nowhere else.", "tag":"MONUMENT", "note":"UNESCO World Heritage: Mudéjar architecture of Aragon (1986, extended 2001) — towers of Teruel and Zaragoza. The Seville Alcázar (14th c.): extant (UNESCO) — built by Pedro I using Nasrid craftsmen from Granada; the primary monument. The Sinagoga del Tránsito, Toledo: also Mudéjar. Dodds (1990), Architecture and Ideology: the standard study of Mudéjar's cross-cultural meaning." },
-        { "id":"a2", "group":"Manuscript & Book Arts", "label":"Cantigas de Santa María — Alfonso X's illustrated songbook", "date":"c.1270–1284", "loc":"Toledo; Seville (created); Escorial; BNE (held)", "coords":[40.59,-4.15], "hint":"The Cantigas de Santa María is 420 poems with musical notation — the largest collection of medieval monophonic songs from any single source; four illuminated manuscripts survive with miniatures documenting 13th-century daily life; the musical notation is the primary source for Iberian medieval music.", "tag":"LITERATURE", "note":"Four manuscripts: El Escorial T.I.1 (the Florence codex), El Escorial B.I.2, BNE 10069, BnF Esp.361. Katz & Keller (1987), Studies on the Cantigas de Santa María: the standard scholarly collection. The miniatures as social history: Ferreira (2019) uses them as primary sources for musical instruments, clothing and daily life. The musical notation: enables modern performance — documented in recordings." },
-        { "id":"a3", "group":"Music & Performance", "label":"The Llibre Vermell de Montserrat — pilgrimage songs (c.1399)", "date":"c.1399", "loc":"Montserrat monastery, Catalonia (held)", "coords":[41.59,1.84], "hint":"The Llibre Vermell (Red Book) of Montserrat contains 10 songs for pilgrims to sing or dance at the shrine — the earliest documented use of dancing in a Christian devotional context; the manuscript also contains plague songs written during the Black Death epidemics; it is the oldest extant Catalan music manuscript.", "tag":"LITERATURE", "note":"HARD ANCHOR: Llibre Vermell de Montserrat (c.1399): Arxiu de l'Abadia de Montserrat. The 10 songs include polyphonic and monophonic pieces. Gómez (1990), La música medieval en España: the standard study. The dancing at shrines: the text explicitly describes pilgrims dancing in the nave — 'because the pilgrims are accustomed to watch at night in the church'. The plague songs: composed c.1348–1350 — documented by internal references." }
+        {
+          "id": "a1",
+          "group": "Architecture",
+          "label": "Mudéjar architecture — Muslim craftsmen for Christian patrons",
+          "date": "c.1230–1492",
+          "loc": "Toledo; Seville; Teruel; Zaragoza (main centres)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Mudéjar architecture is produced by Muslim craftsmen working for Christian and Jewish patrons — it fuses Islamic geometric decoration, horseshoe arches and brick construction with Gothic and Romanesque structural forms; it is uniquely Iberian, found nowhere else.",
+          "tag": "MONUMENT",
+          "note": "UNESCO World Heritage: Mudéjar architecture of Aragon (1986, extended 2001) — towers of Teruel and Zaragoza. The Seville Alcázar (14th c.): extant (UNESCO) — built by Pedro I using Nasrid craftsmen from Granada; the primary monument. The Sinagoga del Tránsito, Toledo: also Mudéjar. Dodds (1990), Architecture and Ideology: the standard study of Mudéjar's cross-cultural meaning."
+        },
+        {
+          "id": "a2",
+          "group": "Manuscript & Book Arts",
+          "label": "Cantigas de Santa María — Alfonso X's illustrated songbook",
+          "date": "c.1270–1284",
+          "loc": "Toledo; Seville (created); Escorial; BNE (held)",
+          "coords": [
+            40.59,
+            -4.15
+          ],
+          "hint": "The Cantigas de Santa María is 420 poems with musical notation — the largest collection of medieval monophonic songs from any single source; four illuminated manuscripts survive with miniatures documenting 13th-century daily life; the musical notation is the primary source for Iberian medieval music.",
+          "tag": "LITERATURE",
+          "note": "Four manuscripts: El Escorial T.I.1 (the Florence codex), El Escorial B.I.2, BNE 10069, BnF Esp.361. Katz & Keller (1987), Studies on the Cantigas de Santa María: the standard scholarly collection. The miniatures as social history: Ferreira (2019) uses them as primary sources for musical instruments, clothing and daily life. The musical notation: enables modern performance — documented in recordings."
+        },
+        {
+          "id": "a3",
+          "group": "Music & Performance",
+          "label": "The Llibre Vermell de Montserrat — pilgrimage songs (c.1399)",
+          "date": "c.1399",
+          "loc": "Montserrat monastery, Catalonia (held)",
+          "coords": [
+            41.59,
+            1.84
+          ],
+          "hint": "The Llibre Vermell (Red Book) of Montserrat contains 10 songs for pilgrims to sing or dance at the shrine — the earliest documented use of dancing in a Christian devotional context; the manuscript also contains plague songs written during the Black Death epidemics; it is the oldest extant Catalan music manuscript.",
+          "tag": "LITERATURE",
+          "note": "HARD ANCHOR: Llibre Vermell de Montserrat (c.1399): Arxiu de l'Abadia de Montserrat. The 10 songs include polyphonic and monophonic pieces. Gómez (1990), La música medieval en España: the standard study. The dancing at shrines: the text explicitly describes pilgrims dancing in the nave — 'because the pilgrims are accustomed to watch at night in the church'. The plague songs: composed c.1348–1350 — documented by internal references."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "Alfonso X's scriptorium and the intellectual synthesis",
       "entries": [
-        { "id":"t1", "group":"Science & Geography", "label":"Alfonsine Tables — astronomy in three languages", "date":"c.1252–1270", "loc":"Toledo (Alfonso X's scriptorium)", "coords":[39.86,-4.03], "hint":"Alfonso X commissions revised astronomical tables — the Alfonsine Tables — from a team of Jewish and Muslim astronomers working in Toledo; compiled in Arabic, translated to Castilian, later to Latin; used by European astronomers including Copernicus until the 17th century.", "tag":"TEXT", "note":"Alfonsine Tables (c.1270): compiled by Isaac ibn Sid and Judah ben Moses ha-Cohen. The Paris edition 1483: the standard Latin version. Copernicus used them: documented in his notes. Chabás & Goldstein (2003), The Alfonsine Tables of Toledo: the standard modern study. The collaboration of Jewish and Muslim astronomers under a Christian king: a primary example of convivencia in intellectual production." },
-        { "id":"t2", "group":"Political Theory", "label":"Ramon Llull — missionary philosophy and the Art", "date":"c.1232–1316", "loc":"Mallorca (born); Montpellier; North Africa (missions)", "coords":[39.57,2.65], "hint":"Ramon Llull is the first European philosopher to write systematic philosophy in a vernacular language (Catalan) — his Ars Magna proposes a logical machine for generating theological arguments; he learns Arabic, visits North Africa on three missionary journeys, and is reportedly stoned to death in Tunis.", "tag":"TEXT", "note":"Ars Magna (c.1274): Latin and Catalan manuscripts — BnF and Archivo de la Corona d'Aragó. Llull's Catalan works: the first philosophical corpus in Catalan. Bonner (2007), The Art and Logic of Ramon Llull: the standard English study. His death in Tunis c.1316: documented in contemporary sources (disputed). His influence on later logic and computing: documented — Leibniz credited him as an influence." }
+        {
+          "id": "t1",
+          "group": "Science & Geography",
+          "label": "Alfonsine Tables — astronomy in three languages",
+          "date": "c.1252–1270",
+          "loc": "Toledo (Alfonso X's scriptorium)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Alfonso X commissions revised astronomical tables — the Alfonsine Tables — from a team of Jewish and Muslim astronomers working in Toledo; compiled in Arabic, translated to Castilian, later to Latin; used by European astronomers including Copernicus until the 17th century.",
+          "tag": "TEXT",
+          "note": "Alfonsine Tables (c.1270): compiled by Isaac ibn Sid and Judah ben Moses ha-Cohen. The Paris edition 1483: the standard Latin version. Copernicus used them: documented in his notes. Chabás & Goldstein (2003), The Alfonsine Tables of Toledo: the standard modern study. The collaboration of Jewish and Muslim astronomers under a Christian king: a primary example of convivencia in intellectual production."
+        },
+        {
+          "id": "t2",
+          "group": "Political Theory",
+          "label": "Ramon Llull — missionary philosophy and the Art",
+          "date": "c.1232–1316",
+          "loc": "Mallorca (born); Montpellier; North Africa (missions)",
+          "coords": [
+            39.57,
+            2.65
+          ],
+          "hint": "Ramon Llull is the first European philosopher to write systematic philosophy in a vernacular language (Catalan) — his Ars Magna proposes a logical method for generating theological arguments; he learns Arabic and makes missionary journeys to North Africa; the tradition that he was stoned to death in Tunis is a later hagiographical legend; most scholars conclude he died of old age at sea or in Mallorca c.1315–1316.",
+          "tag": "TEXT",
+          "note": "Ars Magna (c.1274): Latin and Catalan manuscripts — BnF and Archivo de la Corona d'Aragó. Llull's Catalan works: the first philosophical corpus in Catalan. Bonner (2007), The Art and Logic of Ramon Llull: the standard English study. His death: most critical scholarship concludes he died at sea or in Mallorca c.1315–1316 of natural causes; the stoning-at-Tunis story develops in later Franciscan hagiography. His influence on later logic: Leibniz credited him — documented."
+        },
+        {
+          "id": "t3",
+          "group": "History & Chronicle",
+          "label": "Archbishop Rodrigo Jiménez de Rada — De Rebus Hispaniae",
+          "date": "c.1243",
+          "loc": "Toledo (written)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Archbishop Rodrigo Jiménez de Rada's De Rebus Hispaniae (On the Affairs of Spain, c.1243) is the first comprehensive history of the Iberian Peninsula — he was present at Las Navas de Tolosa (1212) and his account of it is an eyewitness document; the work defines the Reconquista as a providential national narrative.",
+          "tag": "TEXT",
+          "note": "De Rebus Hispaniae (c.1243): manuscripts in multiple archives; printed edition Lorenzana (1793). Rodrigo's eyewitness account of Las Navas de Tolosa: the most detailed contemporary narrative. Linehan (1993), History and the Historians of Medieval Spain: the standard critical study of the source tradition. The work's 'national narrative' framing: Linehan argues it retrospectively constructs a Spanish identity."
+        }
       ]
     },
     {
-      "id": "economy", "label": "Economy", "icon": "💰",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Wool, silver and the economy of medieval Castile",
       "entries": [
-        { "id":"s1", "group":"Trade & Commerce", "label":"The Mesta — Castilian wool and the transhumance economy", "date":"1273 (charter)", "loc":"Castile; Extremadura; Andalusia (transhumance routes)", "coords":[40.0,-5.0], "hint":"Alfonso X charters the Mesta (the shepherds' guild) in 1273 — organising the seasonal migration of up to 2 million merino sheep between summer pastures in the north and winter pastures in the south; Castilian wool drives the Flemish textile industry and becomes the engine of the medieval Castilian economy.", "tag":"Trade & Commerce", "note":"Mesta charter 1273: AGS and AHN. Klein (1920), The Mesta: A Study in Spanish Economic History 1273–1836: the standard study. The merino sheep numbers: documented in 14th-c. fiscal records. The Castile-Flanders wool trade: documented in Bruges merchant archives and Castilian royal customs records. The Mesta's long-term impact on Castilian agriculture: documented in subsequent land-use surveys." },
-        { "id":"s2", "group":"Epidemic & Demographic", "label":"Black Death in Iberia — 1348 and the Jewish pogroms", "date":"1348–1351", "loc":"Catalonia; Castile; Aragon (arrival via Mediterranean ports)", "coords":[41.38,2.18], "hint":"The Black Death reaches Iberia via Catalan ports in 1348 — killing an estimated 30–40% of the population; Jews are blamed for poisoning wells and massacred (Tàrrega 1348; Barcelona 1348); the pogroms of 1348 foreshadow and directly cause the larger pogroms of 1391.", "tag":"Epidemic & Demographic", "note":"The Tàrrega pogrom 1348: documented in contemporary municipal records and now genetically confirmed — MDPI study (March 2026) using DNA from six mass graves at the Roquetes necropolis, Tàrrega. The Barcelona pogrom 1348: documented in municipal archives (Arxiu Municipal de Barcelona). Nirenberg (1996), Communities of Violence: the standard study of 14th-century Iberian pogroms. The Black Death mortality: Benedictow (2004), The Black Death 1346–1353, estimates 30–40% for Iberia." }
+        {
+          "id": "s1",
+          "group": "Trade & Commerce",
+          "label": "The Mesta — Castilian wool and the transhumance economy",
+          "date": "1273 (charter)",
+          "loc": "Castile; Extremadura; Andalusia (transhumance routes)",
+          "coords": [
+            40.0,
+            -5.0
+          ],
+          "hint": "Alfonso X charters the Mesta (the shepherds' guild) in 1273 — organising the seasonal migration of up to 2 million merino sheep between summer pastures in the north and winter pastures in the south; Castilian wool drives the Flemish textile industry and becomes the engine of the medieval Castilian economy.",
+          "tag": "Trade & Commerce",
+          "note": "Mesta charter 1273: AGS and AHN. Klein (1920), The Mesta: A Study in Spanish Economic History 1273–1836: the standard study. The merino sheep numbers: documented in 14th-c. fiscal records. The Castile-Flanders wool trade: documented in Bruges merchant archives and Castilian royal customs records. The Mesta's long-term impact on Castilian agriculture: documented in subsequent land-use surveys."
+        },
+        {
+          "id": "s2",
+          "group": "Epidemic & Demographic",
+          "label": "Black Death in Iberia — 1348 and the Jewish pogroms",
+          "date": "1348–1351",
+          "loc": "Catalonia; Castile; Aragon (arrival via Mediterranean ports)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "The Black Death reaches Iberia via Catalan ports in 1348 — killing an estimated 30–40% of the population; Jews are blamed for poisoning wells and massacred (Tàrrega 1348; Barcelona 1348); the pogroms of 1348 foreshadow and directly cause the larger pogroms of 1391.",
+          "tag": "Epidemic & Demographic",
+          "note": "The Tàrrega pogrom 1348: documented in contemporary municipal records and now genetically confirmed — MDPI study (March 2026) using DNA from six mass graves at the Roquetes necropolis, Tàrrega. The Barcelona pogrom 1348: documented in municipal archives (Arxiu Municipal de Barcelona). Nirenberg (1996), Communities of Violence: the standard study of 14th-century Iberian pogroms. The Black Death mortality: Benedictow (2004), The Black Death 1346–1353, estimates 30–40% for Iberia."
+        }
       ]
     },
     {
-      "id": "exchange", "label": "Exchange", "icon": "🌐",
-      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
       "subtitle": "Iberian-Mediterranean trade and cross-cultural exchange",
       "entries": [
-        { "id":"ex1", "group":"Trade & Commerce", "label":"Crown of Aragon's Mediterranean empire — the Catalan Atlas (1375)", "date":"1375", "loc":"Mallorca (made); Paris (BnF, held)", "coords":[39.57,2.65], "hint":"The Catalan Atlas (1375) made by Abraham Cresques in Mallorca is the most detailed world map of the 14th century — showing the Silk Road, West African gold kingdoms, and the Indian Ocean; it is the product of the Crown of Aragon's Mediterranean mercantile intelligence.", "tag":"DOCUMENT", "note":"HARD ANCHOR: Catalan Atlas (1375): BnF (Manuscrit espagnol 30) — digitised. Made by Abraham Cresques, a Jewish cartographer in Mallorca. The detail of West Africa (including Mali's gold): drawn from traveller accounts. Pujades (2007), Les cartes portolanes: the standard study. The Crown of Aragon's Mediterranean trade documentation: Arxiu de la Corona d'Aragó — extensive merchant records." },
-        { "id":"ex2", "group":"Diplomatic Exchange", "label":"Iberian-Genoese alliance — trade and Columbus's context", "date":"c.1300–1492", "loc":"Seville; Barcelona; Genoa (Ligurian port)", "coords":[37.38,-5.99], "hint":"Genoese merchants are embedded in Castilian and Aragonese trade networks throughout the 14th and 15th centuries — providing credit, maritime expertise and commercial connections; Christopher Columbus is a Genoese working for Castile; his voyage is the product of this long Ibero-Genoese commercial partnership.", "tag":"POLITICAL", "note":"Genoese merchant records in Seville: Archivo Histórico Provincial de Sevilla. The Genoese colony in Seville: documented from the 13th century. Columbus's Genoese origins: documented in notarial records from Genoa. Phillips (1988), Columbus: the standard biography, documents the Genoese-Castilian commercial world. The connection between the Genoese network and the 1492 voyage: Fernández-Armesto (1991), Columbus." }
+        {
+          "id": "ex1",
+          "group": "Trade & Commerce",
+          "label": "Crown of Aragon's Mediterranean empire — the Catalan Atlas (1375)",
+          "date": "1375",
+          "loc": "Mallorca (made); Paris (BnF, held)",
+          "coords": [
+            39.57,
+            2.65
+          ],
+          "hint": "The Catalan Atlas (1375) made by Abraham Cresques in Mallorca is the most detailed world map of the 14th century — showing the Silk Road, West African gold kingdoms, and the Indian Ocean; it is the product of the Crown of Aragon's Mediterranean mercantile intelligence.",
+          "tag": "DOCUMENT",
+          "note": "HARD ANCHOR: Catalan Atlas (1375): BnF (Manuscrit espagnol 30) — digitised. Made by Abraham Cresques, a Jewish cartographer in Mallorca. The detail of West Africa (including Mali's gold): drawn from traveller accounts. Pujades (2007), Les cartes portolanes: the standard study. The Crown of Aragon's Mediterranean trade documentation: Arxiu de la Corona d'Aragó — extensive merchant records."
+        },
+        {
+          "id": "ex2",
+          "group": "Diplomatic Exchange",
+          "label": "Iberian-Genoese alliance — trade and Columbus's context",
+          "date": "c.1300–1492",
+          "loc": "Seville; Barcelona; Genoa (Ligurian port)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "Genoese merchants are embedded in Castilian and Aragonese trade networks throughout the 14th and 15th centuries — providing credit, maritime expertise and commercial connections; Christopher Columbus is a Genoese working for Castile; his voyage is the product of this long Ibero-Genoese commercial partnership.",
+          "tag": "POLITICAL",
+          "note": "Genoese merchant records in Seville: Archivo Histórico Provincial de Sevilla. The Genoese colony in Seville: documented from the 13th century. Columbus's Genoese origins: documented in notarial records from Genoa. Phillips (1988), Columbus: the standard biography, documents the Genoese-Castilian commercial world. The connection between the Genoese network and the 1492 voyage: Fernández-Armesto (1991), Columbus."
+        },
+        {
+          "id": "ex3",
+          "group": "Migration & Settlement",
+          "label": "Conquest of the Canary Islands — Spain's colonial blueprint",
+          "date": "1402–1496",
+          "loc": "Canary Islands (Gran Canaria; Tenerife; La Palma)",
+          "coords": [
+            28.1,
+            -15.4
+          ],
+          "hint": "Castile conquers the indigenous Guanches of the Canary Islands between 1402 and 1496 — the methods of conquest, systematic subjugation, forced conversion and land division are the direct administrative and military blueprint applied to the Americas from 1492 onwards; the Canaries are Spain's first colonial experiment.",
+          "tag": "MIGRATION",
+          "note": "The Canary conquest: begun by Jean de Béthencourt for Castile 1402 — documented. The later royal campaigns (Gran Canaria 1478–1483; La Palma 1492–1493; Tenerife 1494–1496): AGS. The Guanche extermination and assimilation: documented in colonial records (AGS and Archivo Municipal de Las Palmas). Fernández-Armesto (1982), The Canary Islands after the Conquest: the standard study. The blueprint argument: Verlinden (1970), The Beginnings of Modern Colonization: explicitly connects Canary methods to American practice."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "The Catholic Monarchs and the birth of the global world",
       "entries": [
-        { "id":"w1", "group":"Geopolitical Shift", "label":"1492 — the year Spain makes the modern world", "date":"1492", "loc":"Granada; Palos de Moguer; Atlantic Ocean", "coords":[40.42,-3.71], "hint":"Three events in 1492 authorised by Ferdinand and Isabella from the Alhambra: Granada falls (2 January), Jews expelled (31 March), Columbus departs (3 August); the same year Nebrija publishes the first Castilian grammar — the tools of empire, religious homogeneity and overseas expansion all coincide.", "tag":"EVENT", "note":"Granada's fall 2 Jan 1492: documented. Alhambra Decree 31 Mar 1492: AGS. Columbus's departure 3 Aug 1492: his journal (BNF). Nebrija's Gramática castellana (1492): BNE — first grammar of a modern European vernacular language. Elliot (2002), Imperial Spain 1469–1716: the standard modern study of the Catholic Monarchs' legacy. The connection between language standardisation and empire: Nebrija's preface explicitly argues grammar is the 'companion of empire'." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "1492 — the year Spain makes the modern world",
+          "date": "1492",
+          "loc": "Granada; Palos de Moguer; Atlantic Ocean",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Three events in 1492 authorised by Ferdinand and Isabella from the Alhambra: Granada falls (2 January), Jews expelled (31 March), Columbus departs (3 August); the same year Nebrija publishes the first Castilian grammar — the tools of empire, religious homogeneity and overseas expansion all coincide.",
+          "tag": "EVENT",
+          "note": "Granada's fall 2 Jan 1492: documented. Alhambra Decree 31 Mar 1492: AGS. Columbus's departure 3 Aug 1492: his journal (BNF). Nebrija's Gramática castellana (1492): BNE — first grammar of a modern European vernacular language. Elliot (2002), Imperial Spain 1469–1716: the standard modern study of the Catholic Monarchs' legacy. The connection between language standardisation and empire: Nebrija's preface explicitly argues grammar is the 'companion of empire'."
+        }
       ]
     },
     {
-      "id": "lives", "label": "Lives", "icon": "🪞",
-      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
       "entries": [
-        { "id":"lv1", "group":"Women's Agency", "label":"Isabella I — queen regnant and architect of Spain", "date":"1474–1504", "loc":"Castile; Granada; Segovia (coronation)", "coords":[40.95,-4.12], "hint":"Isabella I of Castile is crowned in Segovia on 13 December 1474 — ruling in her own right; she initiates the Inquisition, completes the Reconquista, expels the Jews, and authorises Columbus; she is the most consequential woman in the founding of the modern world and the primary political actor behind every 1492 event.", "tag":"EVIDENCE", "note":"Isabella's coronation 13 Dec 1474: Segovia — documented in contemporary chronicles. Her personal correspondence: AGS — documented. Liss (1992), Isabel the Queen: the standard modern biography. The Granada capitulations and Alhambra Decree: both issued jointly but Isabella's role documented as dominant in Spanish sources. The contrast with her husband: Ferdinand handled Aragon; Isabella handled Castile — documented in their separate chancelleries." },
-        { "id":"lv2", "group":"Marginalised Communities", "label":"The conversos — forced converts and their impossible position", "date":"1391–1492", "loc":"Spain-wide", "coords":[40.42,-3.71], "hint":"The conversos (Jewish converts to Christianity, mostly forced) are the central social problem of 15th-century Castile — too Christian to be Jewish, too recently Jewish to be trusted as Christians; the Inquisition is created specifically to investigate their sincerity; the blood purity statutes (limpieza de sangre) later bar them from office.", "tag":"CATEGORICAL SHIFT", "note":"The converso population: Beinart (2002) estimates 100,000+ forced conversions in 1391. The Inquisition's primary targets: AHN Inquisición records show conversos as the dominant category in 15th-c. proceedings. The Toledo blood purity statute (1449): the first such statute — documented in AHN (see Visigothic Spain folio connection). Netanyahu (1995), The Origins of the Inquisition: the foundational study of the converso problem. This is a CATEGORICAL SHIFT: the creation of a new intermediate category (converso) that satisfies neither Christian nor Jewish frameworks." },
-        { "id":"lv3", "group":"Enslaved Lives", "label":"African slavery in medieval Iberia — the Valencian slave market", "date":"c.1300–1492", "loc":"Valencia; Barcelona; Seville (main slave markets)", "coords":[39.47,-0.38], "hint":"The Crown of Aragon operates slave markets in Valencia and Barcelona from the 14th century — trading primarily in sub-Saharan Africans, Moors, and enslaved people from the Black Sea region; the Valencian notarial records are among the best-documented medieval European slave trade archives.", "tag":"EVIDENCE", "note":"Valencian notarial records documenting slave sales: Arxiu del Regne de València — published in Verlinden (1955), L'Esclavage dans l'Europe médiévale Vol.I. The Barcelona slave market: documented in Arxiu de la Corona d'Aragó. Blumenthal (2009), Enemies and Familiars: Slavery and Mastery in Fifteenth-Century Valencia: the standard modern study using the notarial records. The scale: Blumenthal documents 10,000+ slave sales in Valencia alone 1375–1425." }
+        {
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "Isabella I — queen regnant and architect of Spain",
+          "date": "1474–1504",
+          "loc": "Castile; Granada; Segovia (coronation)",
+          "coords": [
+            40.95,
+            -4.12
+          ],
+          "hint": "Isabella I of Castile is crowned in Segovia on 13 December 1474 — ruling in her own right; she initiates the Inquisition, completes the Reconquista, expels the Jews, and authorises Columbus; she is the most consequential woman in the founding of the modern world and the primary political actor behind every 1492 event.",
+          "tag": "EVIDENCE",
+          "note": "Isabella's coronation 13 Dec 1474: Segovia — documented in contemporary chronicles. Her personal correspondence: AGS — documented. Liss (1992), Isabel the Queen: the standard modern biography. The Granada capitulations and Alhambra Decree: both issued jointly but Isabella's role documented as dominant in Spanish sources. The contrast with her husband: Ferdinand handled Aragon; Isabella handled Castile — documented in their separate chancelleries."
+        },
+        {
+          "id": "lv2",
+          "group": "Marginalised Communities",
+          "label": "The conversos — forced converts and their impossible position",
+          "date": "1391–1492",
+          "loc": "Spain-wide",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The conversos (Jewish converts to Christianity, mostly forced) are the central social problem of 15th-century Castile — too Christian to be Jewish, too recently Jewish to be trusted as Christians; the Inquisition is created specifically to investigate their sincerity; the blood purity statutes (limpieza de sangre) later bar them from office.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "The converso population: Beinart (2002) estimates 100,000+ forced conversions in 1391. The Inquisition's primary targets: AHN Inquisición records show conversos as the dominant category in 15th-c. proceedings. The Toledo blood purity statute (1449): the first such statute — documented in AHN (see Visigothic Spain folio connection). Netanyahu (1995), The Origins of the Inquisition: the foundational study of the converso problem. This is a CATEGORICAL SHIFT: the creation of a new intermediate category (converso) that satisfies neither Christian nor Jewish frameworks."
+        },
+        {
+          "id": "lv3",
+          "group": "Enslaved Lives",
+          "label": "African slavery in medieval Iberia — the Valencian slave market",
+          "date": "c.1300–1492",
+          "loc": "Valencia; Barcelona; Seville (main slave markets)",
+          "coords": [
+            39.47,
+            -0.38
+          ],
+          "hint": "The Crown of Aragon operates slave markets in Valencia and Barcelona from the 14th century — trading primarily in sub-Saharan Africans, Moors, and enslaved people from the Black Sea region; the Valencian notarial records are among the best-documented medieval European slave trade archives.",
+          "tag": "EVIDENCE",
+          "note": "Valencian notarial records documenting slave sales: Arxiu del Regne de València — published in Verlinden (1955), L'Esclavage dans l'Europe médiévale Vol.I. The Barcelona slave market: documented in Arxiu de la Corona d'Aragó. Blumenthal (2009), Enemies and Familiars: Slavery and Mastery in Fifteenth-Century Valencia: the standard modern study using the notarial records. The scale: Blumenthal documents 10,000+ slave sales in Valencia alone 1375–1425."
+        },
+        {
+          "id": "lv4",
+          "group": "Persecuted Communities",
+          "label": "Pogroms of 1391 — the turning point for Iberian Jews",
+          "date": "1391",
+          "loc": "Seville (origin); Córdoba; Toledo; Barcelona; Valencia (spread)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "A wave of pogroms sweeps the Christian kingdoms of the Iberian Peninsula in 1391 — beginning in Seville in June and spreading across Castile and Aragon; these cities had been under Christian rule for over a century; thousands killed, many more forced to convert; the converso class created directly causes the Inquisition's founding and the 1492 expulsion.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "The Seville pogrom June 1391: documented in municipal records (Archivo Municipal de Sevilla). All cities affected (Seville, Córdoba, Toledo, Valencia, Barcelona) were under Christian rule — this entry belongs in the Christian kingdoms folio, not al-Andalus. Baer (1961), A History of the Jews in Christian Spain Vol.II. The Tàrrega 1348 mass graves: MDPI genetic study (March 2026). The forced conversions' scale: Beinart (2002) estimates 100,000+ converted in 1391."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"ferdinand-iii",  "icon":"⚜️","accent":"#1A3A8B","label":"Ferdinand III (1217–1252)", "events":[
-      {"y":1217,"y2":1252,"l":"Ferdinand III — Castile + León + Andalusia","entryId":"k1"}
-    ]},
-    {"id":"alfonso-x",     "icon":"⚜️","accent":"#0A2A5C","label":"Alfonso X el Sabio (1252–1284)", "events":[
-      {"y":1252,"y2":1284,"l":"Alfonso X — scholar king",        "entryId":"k2"}
-    ]},
-    {"id":"aragon",        "icon":"⚜️","accent":"#1A4A8B","label":"Crown of Aragon (1213–1410)", "events":[
-      {"y":1213,"y2":1276,"l":"James I — Balearics + Valencia",  "entryId":"k3"},
-      {"y":1276,"y2":1410,"l":"Aragonese successors",            "entryId":"k3"}
-    ]},
-    {"id":"trastamara",    "icon":"⚜️","accent":"#0A1A4A","label":"Trastámara to Catholic Monarchs", "events":[
-      {"y":1369,"y2":1474,"l":"Trastámara dynasty",              "entryId":"k4"},
-      {"y":1469,"y2":1492,"l":"Ferdinand & Isabella",            "entryId":"k4"}
-    ]},
-    {"id":"conflict",      "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":1236,"l":"Córdoba falls to Ferdinand III",            "entryId":"c1"},
-      {"y":1238,"l":"Valencia taken by James I",                 "entryId":"c2"},
-      {"y":1248,"l":"Seville falls",                             "entryId":"c1"},
-      {"y":1366,"l":"Castilian civil war",                       "entryId":"c3"},
-      {"y":1481,"l":"Final conquest of Granada",                 "entryId":"c3"}
-    ]},
-    {"id":"order",         "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":1188,"l":"Cortes of León — first parliament",         "entryId":"o2"},
-      {"y":1265,"l":"Siete Partidas",                            "entryId":"o1"},
-      {"y":1478,"l":"Spanish Inquisition established",           "entryId":"o3"}
-    ]},
-    {"id":"belief",        "icon":"🙏","accent":"#1E8449","events":[
-      {"y":1187,"l":"Las Huelgas monastery founded",             "entryId":"r1"},
-      {"y":1357,"l":"El Tránsito synagogue — Samuel Halevi",     "entryId":"r2"}
-    ]},
-    {"id":"expression",    "icon":"✨","accent":"#8D6E63","events":[
-      {"y":1230,"l":"Mudéjar architecture flourishes",           "entryId":"a1"},
-      {"y":1270,"l":"Cantigas de Santa María",                   "entryId":"a2"},
-      {"y":1399,"l":"Llibre Vermell — pilgrimage songs",         "entryId":"a3"}
-    ]},
-    {"id":"thought",       "icon":"💡","accent":"#566573","events":[
-      {"y":1270,"l":"Alfonsine Tables — astronomy",              "entryId":"t1"},
-      {"y":1274,"l":"Ramon Llull: Ars Magna",                    "entryId":"t2"}
-    ]},
-    {"id":"economy",       "icon":"💰","accent":"#8B5E00","events":[
-      {"y":1273,"l":"Mesta chartered — Castilian wool",          "entryId":"s1"},
-      {"y":1348,"l":"Black Death — Tàrrega pogrom",              "entryId":"s2"}
-    ]},
-    {"id":"exchange",      "icon":"🌐","accent":"#148080","events":[
-      {"y":1375,"l":"Catalan Atlas — world map from Mallorca",   "entryId":"ex1"},
-      {"y":1300,"l":"Genoese merchants in Castile",              "entryId":"ex2"}
-    ]},
-    {"id":"world",         "icon":"🌍","accent":"#2471A3","events":[
-      {"y":1492,"l":"Granada falls; Jews expelled; Columbus",    "entryId":"w1"}
-    ]},
-    {"id":"lives",         "icon":"🪞","accent":"#7B4FA6","events":[
-      {"y":1348,"l":"Black Death — Jewish pogroms",              "entryId":"s2"},
-      {"y":1391,"l":"Pogroms — converso class created",          "entryId":"lv2"},
-      {"y":1474,"l":"Isabella I crowned — queen regnant",        "entryId":"lv1"}
-    ]}
+    {
+      "id": "ferdinand-iii",
+      "icon": "⚜️",
+      "accent": "#1A3A8B",
+      "label": "Ferdinand III (1217–1252)",
+      "events": [
+        {
+          "y": 1217,
+          "y2": 1252,
+          "l": "Ferdinand III — Castile + León + Andalusia",
+          "entryId": "k1"
+        }
+      ]
+    },
+    {
+      "id": "alfonso-x",
+      "icon": "⚜️",
+      "accent": "#0A2A5C",
+      "label": "Alfonso X el Sabio (1252–1284)",
+      "events": [
+        {
+          "y": 1252,
+          "y2": 1284,
+          "l": "Alfonso X — scholar king",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
+      "id": "aragon",
+      "icon": "⚜️",
+      "accent": "#1A4A8B",
+      "label": "Crown of Aragon (1213–1410)",
+      "events": [
+        {
+          "y": 1213,
+          "y2": 1276,
+          "l": "James I — Balearics + Valencia",
+          "entryId": "k3"
+        },
+        {
+          "y": 1276,
+          "y2": 1410,
+          "l": "Aragonese successors",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "trastamara",
+      "icon": "⚜️",
+      "accent": "#0A1A4A",
+      "label": "Trastámara to Catholic Monarchs",
+      "events": [
+        {
+          "y": 1312,
+          "y2": 1350,
+          "l": "Alfonso XI — Río Salado; Black Death",
+          "entryId": "k5"
+        },
+        {
+          "y": 1369,
+          "y2": 1474,
+          "l": "Trastámara dynasty",
+          "entryId": "k4"
+        },
+        {
+          "y": 1412,
+          "l": "Compromise of Caspe",
+          "entryId": "k6"
+        },
+        {
+          "y": 1469,
+          "y2": 1492,
+          "l": "Ferdinand & Isabella",
+          "entryId": "k4"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 1236,
+          "l": "Córdoba falls to Ferdinand III",
+          "entryId": "c1"
+        },
+        {
+          "y": 1238,
+          "l": "Valencia taken by James I",
+          "entryId": "c2"
+        },
+        {
+          "y": 1248,
+          "l": "Seville falls",
+          "entryId": "c1"
+        },
+        {
+          "y": 1366,
+          "l": "Castilian civil war",
+          "entryId": "c3"
+        },
+        {
+          "y": 1462,
+          "l": "Catalan Civil War",
+          "entryId": "c4"
+        },
+        {
+          "y": 1475,
+          "l": "Castilian War of Succession",
+          "entryId": "c5"
+        },
+        {
+          "y": 1481,
+          "l": "Final conquest of Granada",
+          "entryId": "c3"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1188,
+          "l": "Cortes of León — first parliament",
+          "entryId": "o2"
+        },
+        {
+          "y": 1265,
+          "l": "Siete Partidas",
+          "entryId": "o1"
+        },
+        {
+          "y": 1478,
+          "l": "Spanish Inquisition established",
+          "entryId": "o3"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 1187,
+          "l": "Las Huelgas monastery founded",
+          "entryId": "r1"
+        },
+        {
+          "y": 1357,
+          "l": "El Tránsito synagogue — Samuel Halevi",
+          "entryId": "r2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 1230,
+          "l": "Mudéjar architecture flourishes",
+          "entryId": "a1"
+        },
+        {
+          "y": 1270,
+          "l": "Cantigas de Santa María",
+          "entryId": "a2"
+        },
+        {
+          "y": 1399,
+          "l": "Llibre Vermell — pilgrimage songs",
+          "entryId": "a3"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 1270,
+          "l": "Alfonsine Tables — astronomy",
+          "entryId": "t1"
+        },
+        {
+          "y": 1274,
+          "l": "Ramon Llull: Ars Magna",
+          "entryId": "t2"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 1273,
+          "l": "Mesta chartered — Castilian wool",
+          "entryId": "s1"
+        },
+        {
+          "y": 1348,
+          "l": "Black Death — Tàrrega pogrom",
+          "entryId": "s2"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 1300,
+          "l": "Genoese merchants in Castile",
+          "entryId": "ex2"
+        },
+        {
+          "y": 1375,
+          "l": "Catalan Atlas — world map from Mallorca",
+          "entryId": "ex1"
+        },
+        {
+          "y": 1402,
+          "l": "Canary Islands conquest — colonial blueprint",
+          "entryId": "ex3"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1492,
+          "l": "Granada falls; Jews expelled; Columbus",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 1348,
+          "l": "Black Death — Jewish pogroms",
+          "entryId": "s2"
+        },
+        {
+          "y": 1391,
+          "l": "Pogroms — converso class created",
+          "entryId": "lv2"
+        },
+        {
+          "y": 1474,
+          "l": "Isabella I crowned — queen regnant",
+          "entryId": "lv1"
+        }
+      ]
+    }
   ]
 }

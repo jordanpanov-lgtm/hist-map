@@ -1,145 +1,660 @@
 {
   "id": "hispania-300bc-27bc",
   "title": "Hispania",
-  "subtitle": "300–27 BC · Carthage, Rome and the Wars of Resistance",
-  "period": { "start": -300, "end": -27 },
+  "subtitle": "300–19 BC · Carthage, Rome and the Wars of Resistance",
+  "period": {
+    "start": -300,
+    "end": -19
+  },
   "region": "Iberia",
   "period_label": "Late Antique",
-  "mapCenter": [40.4, -3.7],
+  "mapCenter": [
+    40.4,
+    -3.7
+  ],
   "mapZoom": 6,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#3A1A00", "accent": "#8B3A00", "bg": "#FFF8F0",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#3A1A00",
+      "accent": "#8B3A00",
+      "bg": "#FFF8F0",
       "subtitle": "Carthaginian expansion, Roman conquest and the indigenous resistance",
       "entries": [
-        { "id":"k1", "group":"Carthaginian Iberia (c.237–206 BC)", "dynasty":"Barcid", "label":"Hamilcar Barca founds Carthaginian Hispania", "date":"237–228 BC", "loc":"Cádiz (Gadir); Cartagena (Carthago Nova, founded c.227)", "coords":[37.98,-4.79], "hint":"After the First Punic War defeat, Carthage compensates by conquering southern Iberia — Hamilcar Barca lands at Gadir (Cádiz) in 237 BC and systematically builds a Barcid empire; his son Hasdrubal founds Carthago Nova (modern Cartagena) c.227 BC as the capital of Carthaginian Hispania.", "tag":"SUCCESSION", "note":"Polybius II.1.5–8: primary source for Hamilcar's campaign (Polybius uses Iberian informants). The founding of Carthago Nova: Polybius II.13. Hasdrubal's treaty with Rome (226 BC) fixing the Ebro as boundary: Polybius II.13.7. The Barcid family's Iberian empire: documented through coins (Cartagena numismatic museum) and Polybius. Richardson (1986), Hispaniae: Spain and the Development of Roman Imperialism: the standard modern study." },
-        { "id":"k2", "group":"Roman Hispania (218–133 BC)", "dynasty":"Roman", "label":"Scipio Africanus conquers Carthago Nova", "date":"209 BC", "loc":"Carthago Nova (mod. Cartagena)", "coords":[37.6,-0.98], "hint":"Scipio Africanus — aged 25 and never having held a consulship — takes command in Hispania in 210 BC; in 209 BC he captures Carthago Nova in a single assault, taking the Carthaginian treasury and silver mines; the capture is the turning point of the Punic War in Iberia.", "tag":"SUCCESSION", "note":"Polybius X.9–15: detailed account of the Carthago Nova assault — primary source (Polybius had access to participants). Livy XXVI.41–51: parallel account. The silver mines: Polybius X.10 documents their output. The campaign's audacity: Scipio attacked on one side while the tide cut off the other — a tactical detail confirmed by both Polybius and archaeology. Liddell Hart (1926), A Greater Than Napoleon: Scipio Africanus: contextualises the achievement." },
-        { "id":"k3", "group":"Roman Hispania (133–27 BC)", "dynasty":"Roman", "label":"Caesar and Augustus — Hispania in the Roman civil wars", "date":"49–27 BC", "loc":"Hispalis (Seville); Munda (battle 45 BC); Emerita Augusta (founded 25 BC)", "coords":[37.38,-5.99], "hint":"Hispania is the arena for Julius Caesar's Spanish campaigns (49, 45 BC) — the Battle of Munda (45 BC) is his last great battle; Augustus founds Emerita Augusta (Mérida) in 25 BC for veterans; his reorganisation of Hispania into three provinces is the administrative foundation for four centuries of Roman governance.", "tag":"SUCCESSION", "note":"Caesar, Civil War III: primary source for his Spanish campaigns. The Battle of Munda 17 Mar 45 BC: Appian, Civil Wars II.103–105. Emerita Augusta founded 25 BC: Cassius Dio LIII.26 (primary). Augustus's provincial reorganisation: documented in the Res Gestae Divi Augusti (primary — the emperor's own account). The Lex Irnitana (bronze tablet, 1st c. AD, Museo Arqueológico Nacional): documents the detailed administration of a Hispanian municipium." }
+        {
+          "id": "k1",
+          "group": "Carthaginian Iberia (c.237–206 BC)",
+          "dynasty": "Barcid",
+          "label": "Hamilcar Barca founds Carthaginian Hispania",
+          "date": "237–228 BC",
+          "loc": "Cádiz (Gadir); Cartagena (Carthago Nova, founded c.227)",
+          "coords": [
+            37.98,
+            -4.79
+          ],
+          "hint": "After the First Punic War defeat, Carthage compensates by conquering southern Iberia — Hamilcar Barca lands at Gadir (Cádiz) in 237 BC and systematically builds a Barcid empire; his son Hasdrubal founds Carthago Nova (modern Cartagena) c.227 BC as the capital of Carthaginian Hispania.",
+          "tag": "SUCCESSION",
+          "note": "Polybius II.1.5–8: primary source for Hamilcar's campaign (Polybius uses Iberian informants). The founding of Carthago Nova: Polybius II.13. Hasdrubal's treaty with Rome (226 BC) fixing the Ebro as boundary: Polybius II.13.7. The Barcid family's Iberian empire: documented through coins (Cartagena numismatic museum) and Polybius. Richardson (1986), Hispaniae: Spain and the Development of Roman Imperialism: the standard modern study."
+        },
+        {
+          "id": "k2",
+          "group": "Roman Hispania (218–133 BC)",
+          "dynasty": "Roman",
+          "label": "Scipio Africanus conquers Carthago Nova",
+          "date": "209 BC",
+          "loc": "Carthago Nova (mod. Cartagena)",
+          "coords": [
+            37.6,
+            -0.98
+          ],
+          "hint": "Scipio Africanus — aged 25 and never having held a consulship — takes command in Hispania in 210 BC; in 209 BC he captures Carthago Nova in a single assault, taking the Carthaginian treasury and silver mines; the capture is the turning point of the Punic War in Iberia.",
+          "tag": "SUCCESSION",
+          "note": "Polybius X.9–15: detailed account of the Carthago Nova assault — primary source (Polybius had access to participants). Livy XXVI.41–51: parallel account. The silver mines: Polybius X.10 documents their output. The campaign's audacity: Scipio attacked on one side while the tide cut off the other — a tactical detail confirmed by both Polybius and archaeology. Liddell Hart (1926), A Greater Than Napoleon: Scipio Africanus: contextualises the achievement."
+        },
+        {
+          "id": "k3",
+          "group": "Roman Hispania (133–27 BC)",
+          "dynasty": "Roman",
+          "label": "Caesar and Augustus — Hispania in the Roman civil wars",
+          "date": "49–27 BC",
+          "loc": "Hispalis (Seville); Munda (battle 45 BC); Emerita Augusta (founded 25 BC)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "Hispania is the arena for Julius Caesar's Spanish campaigns (49, 45 BC) — the Battle of Munda (45 BC) is his last great battle; Augustus founds Emerita Augusta (Mérida) in 25 BC for veterans; his reorganisation of Hispania into three provinces is the administrative foundation for four centuries of Roman governance.",
+          "tag": "SUCCESSION",
+          "note": "Caesar, Civil War III: primary source for his Spanish campaigns. The Battle of Munda 17 Mar 45 BC: Appian, Civil Wars II.103–105. Emerita Augusta founded 25 BC: Cassius Dio LIII.26 (primary). Augustus's provincial reorganisation: documented in the Res Gestae Divi Augusti (primary — the emperor's own account). The Lex Irnitana (bronze tablet, 1st c. AD, Museo Arqueológico Nacional): documents the detailed administration of a Hispanian municipium."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "Punic Wars, the Lusitanian rebellion and the siege of Numantia",
       "entries": [
-        { "id":"c1", "group":"Second Punic War", "label":"Siege of Saguntum — the spark of the Second Punic War", "date":"219–218 BC", "loc":"Saguntum (mod. Sagunto, Valencia)", "coords":[39.68,-0.27], "hint":"Hannibal besieges the Iberian city of Saguntum — ally of Rome but south of the Ebro treaty line — for eight months; the city burns itself rather than surrender; Rome declares war; Hannibal leaves for Italy; his brother Hasdrubal is left to hold Hispania.", "tag":"BATTLE", "note":"Polybius III.17 (primary, most detailed). Livy XXI.7–15 (parallel account). The siege duration (eight months): confirmed in both sources. The mass suicide/burning: Livy XXI.14. The theatre of Saguntum (1st c. AD, extant): later Roman monument at the same site — documents the city's eventual full romanisation. The Saguntine coins (Arse/Saguntum series): numismatic primary evidence." },
-        { "id":"c2", "group":"Second Punic War", "label":"Battle of Ilipa — the final Carthaginian defeat in Iberia", "date":"206 BC", "loc":"Ilipa (near modern Alcalá del Río, Seville)", "coords":[37.52,-6.0], "hint":"Scipio defeats a numerically superior Carthaginian army at Ilipa through a tactical manoeuvre that reverses his battle order at the last moment — the most tactically sophisticated battle of the Punic Wars in Iberia; after Ilipa, Carthage's Iberian empire is finished.", "tag":"BATTLE", "note":"Polybius XI.20–24 (primary; detailed tactical account). Livy XXVIII.12–16 (parallel). The battle's tactical innovation: Scipio reverses his usual order of battle — strong wings, weak centre — documented precisely in Polybius. The Carthaginian numbers (70,000 foot, 4,000 horse, 32 elephants): Polybius XI.20.2. Lazenby (1978), Hannibal's War: the standard modern tactical analysis." },
-        { "id":"c3", "group":"Wars of Resistance", "label":"Viriathus — the Lusitanian who humiliated Rome", "date":"147–139 BC", "loc":"Lusitania (mod. Portugal and western Spain)", "coords":[39.5,-7.0], "hint":"Viriathus, a Lusitanian shepherd turned general, defeats Roman armies eight times in eight years — even forcing the Roman commander Quintus Servilius Caepio to sign a peace treaty (140 BC); he is eventually assassinated by his own envoys bribed by Rome; his death document Rome's willingness to win by treachery what it could not win in battle.", "tag":"BATTLE", "note":"Appian, Iberian Wars 60–75: primary source (Appian draws on earlier Iberian accounts). Diodorus Siculus XXXIII.1: additional account. The Roman peace treaty with Viriathus 140 BC: Appian IB.69 — the Senate's subsequent refusal to ratify. His assassination: Appian IB.74 — 'Rome does not pay traitors' (attributed to the Senate). Curchin (1991), Roman Spain: the standard modern survey of the resistance period." },
-        { "id":"c4", "group":"Wars of Resistance", "label":"Siege of Numantia — the city that chose death over surrender", "date":"134–133 BC", "loc":"Numantia (mod. Garray, Soria)", "coords":[41.81,-2.44], "hint":"Scipio Aemilianus builds a 9km circumvallation wall around Numantia with seven camps — the most documented siege in ancient Iberian history; after 13 months the 4,000 surviving Numantines burn their city and kill themselves rather than be enslaved; the last act of organised Celtiberian resistance.", "tag":"BATTLE", "note":"Appian, Iberian Wars 76–98: primary source — draws on Polybius who was present as Scipio's friend. The circumvallation: 9km wall confirmed archaeologically. Excavations at Renieblas (Scipio's camps): ongoing since 2015 (Cambridge Scholars Publishing 2018 publication). Carbon-14 of Numantia city wall base: dated 340±50 BCE — confirms pre-Roman occupation. The Numantine ceramics at block XXIII: primary archaeological evidence for the 133 BC destruction layer." }
+        {
+          "id": "c1",
+          "group": "Second Punic War",
+          "label": "Siege of Saguntum — the spark of the Second Punic War",
+          "date": "219–218 BC",
+          "loc": "Saguntum (mod. Sagunto, Valencia)",
+          "coords": [
+            39.68,
+            -0.27
+          ],
+          "hint": "Hannibal besieges Saguntum for eight months — when the city falls Hannibal plunders it and the survivors are killed or enslaved; later Roman sources (Livy) add a dramatic mass self-immolation that Polybius, the more contemporary source, does not record; the gap between the two accounts is itself a primary source on how Rome mythologised the war's origins.",
+          "tag": "BATTLE",
+          "note": "Polybius III.17 (primary, most contemporary): describes the capture and plunder but no mass suicide. Livy XXI.14: the self-immolation tradition — written c.200 years later. The discrepancy: scholarly consensus follows Polybius; Livy's account reflects Roman moralising tradition. The Saguntine coins (Arse series): numismatic primary evidence. The Roman theatre of Saguntum (1st c. AD): documents full romanisation after the war."
+        },
+        {
+          "id": "c2",
+          "group": "Second Punic War",
+          "label": "Battle of Ilipa — the final Carthaginian defeat in Iberia",
+          "date": "206 BC",
+          "loc": "Ilipa (near modern Alcalá del Río, Seville)",
+          "coords": [
+            37.52,
+            -6.0
+          ],
+          "hint": "Scipio defeats a numerically superior Carthaginian army at Ilipa through a tactical manoeuvre that reverses his battle order at the last moment — the most tactically sophisticated battle of the Punic Wars in Iberia; after Ilipa, Carthage's Iberian empire is finished.",
+          "tag": "BATTLE",
+          "note": "Polybius XI.20–24 (primary; detailed tactical account). Livy XXVIII.12–16 (parallel). The battle's tactical innovation: Scipio reverses his usual order of battle — strong wings, weak centre — documented precisely in Polybius. The Carthaginian numbers (70,000 foot, 4,000 horse, 32 elephants): Polybius XI.20.2. Lazenby (1978), Hannibal's War: the standard modern tactical analysis."
+        },
+        {
+          "id": "c3",
+          "group": "Wars of Resistance",
+          "label": "Viriathus — the Lusitanian who humiliated Rome",
+          "date": "147–139 BC",
+          "loc": "Lusitania (mod. Portugal and western Spain)",
+          "coords": [
+            39.5,
+            -7.0
+          ],
+          "hint": "Viriathus, a Lusitanian shepherd turned general, defeats Roman armies eight times in eight years — forcing Quintus Fabius Maximus Servilianus to sign a humiliating peace treaty (141/140 BC); his adoptive brother Quintus Servilius Caepio then convinces the Senate to repudiate the treaty and bribes Viriathus's own envoys to murder him (139 BC).",
+          "tag": "BATTLE",
+          "note": "Appian, Iberian Wars 60–75: primary source. The peace treaty with Servilianus: Appian IB.65–69 — the Senate refused to ratify. Caepio's role: Appian IB.69 — he succeeded Servilianus, despised the treaty, lobbied the Senate to annul it, and bribed the assassins. Viriathus's assassination: Appian IB.74 — 'Rome does not pay traitors.' Richardson (1986), Hispaniae ch.6: the standard modern account."
+        },
+        {
+          "id": "c4",
+          "group": "Wars of Resistance",
+          "label": "Siege of Numantia — the city that chose death over surrender",
+          "date": "134–133 BC",
+          "loc": "Numantia (mod. Garray, Soria)",
+          "coords": [
+            41.81,
+            -2.44
+          ],
+          "hint": "Scipio Aemilianus builds a 9km circumvallation wall around Numantia with seven camps — after 13 months the surviving Numantines burn their city and many kill themselves rather than be enslaved; the symbolic end of the Celtiberian Wars, though organised resistance continues in subsequent decades.",
+          "tag": "BATTLE",
+          "note": "Appian, Iberian Wars 76–98: primary source — draws on Polybius who was present as Scipio's friend. The circumvallation: 9km wall confirmed archaeologically. Excavations at Renieblas (Scipio's camps): ongoing since 2015 (Cambridge Scholars Publishing 2018 publication). Carbon-14 of Numantia city wall base: dated 340±50 BCE — confirms pre-Roman occupation. The Numantine ceramics at block XXIII: primary archaeological evidence for the 133 BC destruction layer."
+        },
+        {
+          "id": "c5",
+          "group": "Roman Civil Wars",
+          "label": "Sertorian War — Rome's rebel province",
+          "date": "80–72 BC",
+          "loc": "Osca (mod. Huesca); Hispania throughout",
+          "coords": [
+            42.14,
+            -0.41
+          ],
+          "hint": "Quintus Sertorius, a Roman general of the Marian faction, creates a quasi-independent state in Hispania with strong indigenous support — he establishes a shadow Senate, founds a school at Osca for the sons of Iberian chiefs, and holds off Pompey and Metellus for eight years; assassinated at a banquet in 72 BC.",
+          "tag": "CIVIL WAR",
+          "note": "Plutarch, Life of Sertorius: primary biography — documents the school at Osca (Sert.14) and the shadow Senate (Sert.22). Appian, Civil Wars I.86–115. The school at Osca: 'he gathered around him the sons of the most distinguished Iberians and gave them a Roman education' — primary source for Roman-Iberian cultural integration under duress. Konrad (1994), Plutarch's Sertorius: the standard modern study. The Sertorian War is the largest gap in the 133–27 BC narrative and the clearest example of Iberian participation in Roman politics."
+        },
+        {
+          "id": "c6",
+          "group": "Wars of Resistance",
+          "label": "Cantabrian Wars — Rome's last Iberian conquest",
+          "date": "29–19 BC",
+          "loc": "Cantabria; Asturias (northern mountains)",
+          "coords": [
+            43.4,
+            -4.0
+          ],
+          "hint": "The Cantabrian and Asturian tribes of the northern mountains are the last independent holdouts in Iberia — Augustus himself commands the early campaigns (26–25 BC) and is invalided out; Marcus Agrippa finally breaks resistance in 19 BC; the Cantabrian Wars are the bloodiest phase of Roman conquest in the peninsula and the true end of indigenous resistance.",
+          "tag": "BATTLE",
+          "note": "Cassius Dio LIII.25–26 (primary for Augustus's campaigns). Florus II.33: account of the wars. Augustus's personal command: documented — he falls ill and withdraws. Agrippa's final campaign 19 BC: documented in Cassius Dio LIV.5. The foundation of Emerita Augusta (25 BC) and Caesaraugusta (14 BC): direct results of the Cantabrian campaigns — documented. Syme (1934), The Spanish War of Augustus: the standard modern study. The Cantabrian Wars extend the folio's resistance narrative to its actual conclusion."
+        },
+        {
+          "id": "c7",
+          "group": "Roman Civil Wars",
+          "label": "Battle of Munda — Caesar's last battle",
+          "date": "17 Mar 45 BC",
+          "loc": "Munda (near Montilla or Osuna, Andalusia)",
+          "coords": [
+            37.6,
+            -4.9
+          ],
+          "hint": "Julius Caesar defeats the sons of Pompey at Munda in his most desperately contested battle — he later says he had often fought for victory but at Munda he had fought for his life; the final military act of the Roman civil wars on Iberian soil.",
+          "tag": "BATTLE",
+          "note": "Caesar's remark: Suetonius, Divus Julius 36 — 'he had often fought for victory, but at Munda he had fought for his life.' Appian, Civil Wars II.103–105: detailed account. Bellum Hispaniense (by an unknown officer, primary): the most detailed account of the Spanish campaign. The battle site: disputed — Montilla or Osuna most commonly identified."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Roman provincial administration and the Lex Provinciae",
       "entries": [
-        { "id":"o1", "group":"Colonial Law", "label":"Division of Hispania into two provinces — 197 BC", "date":"197 BC", "loc":"Rome (decree); Hispania Citerior and Ulterior", "coords":[40.4,-3.7], "hint":"After Carthage's expulsion, Rome divides Hispania into two provinces (197 BC) — Hispania Citerior (Nearer Spain, Tarraco capital) and Hispania Ulterior (Further Spain, Corduba capital); this is the first formal Roman provincial administration in Iberia and the administrative foundation of Roman Hispania.", "tag":"LAW", "note":"Livy XXXII.28: records the creation of two permanent praetors for the two Spanish provinces in 197 BC. The administrative distinction: documented throughout Livy and later sources. Richardson (1986), Hispaniae: analyses the provincial organisation in detail. The Lex Provinciae: the founding legal document — not directly surviving but its content reconstructed from later documents including the Lex Irnitana." },
-        { "id":"o2", "group":"Colonial Law", "label":"Lex Irnitana — the municipal charter of a Roman town", "date":"c.91 AD (Flavian era)", "loc":"Irni (near El Saucejo, Seville); now Museo Arqueológico Nacional, Madrid", "coords":[37.06,-5.07], "hint":"The Lex Irnitana (discovered 1981) is the most complete surviving Roman municipal charter — a bronze tablet giving Irni, a small Baetica town, its legal framework; it documents in extraordinary detail how Roman municipal governance actually functioned in Hispania.", "tag":"LAW", "note":"HARD ANCHOR: Lex Irnitana (c.91 AD): five bronze tablets discovered 1981 near El Saucejo, Seville. Now Museo Arqueológico Nacional, Madrid. González (1986), JRS 76: the editio princeps and standard text. The charter is 10 columns of dense Latin legal text — the most complete surviving Roman municipal law. Its provisions: local magistrates, councils, elections, legal procedures — primary source for Roman provincial governance." }
+        {
+          "id": "o1",
+          "group": "Colonial Law",
+          "label": "Division of Hispania into two provinces — 197 BC",
+          "date": "197 BC",
+          "loc": "Rome (decree); Hispania Citerior and Ulterior",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Rome creates two permanent provincial praetors for Hispania in 197 BC — Hispania Citerior (Nearer Spain, with Tarraco as its main Roman base) and Hispania Ulterior (Further Spain, where early governors operated from Gadir and Hispalis); this is the first formal Roman provincial administration in Iberia. Corduba is not founded until c.169–152 BC.",
+          "tag": "LAW",
+          "note": "Livy XXXII.28: records the creation of two permanent praetors for Spain in 197 BC — primary source. Corduba's founding c.169–152 BC: Strabo III.2.1; the city postdates the 197 BC division. Tarraco as a Roman military base from 218 BC: confirmed archaeologically; its formal designation as provincial capital is Augustan. Richardson (1986), Hispaniae ch.3: the standard analysis of early provincial organisation. The later Lex Irnitana (c.91 AD, Museo Arqueológico de Sevilla) documents how this provincial framework functioned in practice — see Roman Hispania 27BC–409AD folio."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
       "subtitle": "Iberian religion, the cult of Hercules Gaditanus and Roman polytheism",
       "entries": [
-        { "id":"r1", "group":"Traditional Iberian Religion", "label":"Sanctuary of Hercules Gaditanus — Phoenician-Roman cult", "date":"c.1100 BC onwards (with Roman period peak)", "loc":"Cádiz (Gadir) — offshore island sanctuary", "coords":[36.53,-6.3], "hint":"The sanctuary of Melqart/Hercules at Gadir is one of the oldest continuously worshipped sites in the Western Mediterranean — Phoenician, Carthaginian and Roman in succession; Julius Caesar reportedly wept here at a statue of Alexander the Great; Polybius documents its pre-Roman prestige.", "tag":"CULT", "note":"Polybius III.33 (on the sanctuary's prestige). Caesar's weeping: Suetonius, Divus Julius 7 (primary). Strabo III.5.3: describes the sanctuary at length — primary geographical source. The sanctuary's Phoenician origins: Diodorus Siculus V.20. Koch (1984), Hispanien und Karthago: the standard study of Punic religious influence. The site today: partially documented through underwater archaeology off Cádiz." }
+        {
+          "id": "r1",
+          "group": "Traditional Iberian Religion",
+          "label": "Sanctuary of Hercules Gaditanus — Phoenician-Roman cult",
+          "date": "c.1100 BC onwards (with Roman period peak)",
+          "loc": "Cádiz (Gadir) — offshore island sanctuary",
+          "coords": [
+            36.53,
+            -6.3
+          ],
+          "hint": "The sanctuary of Melqart/Hercules at Gadir is one of the oldest continuously worshipped sites in the Western Mediterranean — Phoenician, Carthaginian and Roman in succession; Julius Caesar reportedly wept here at a statue of Alexander the Great; Polybius documents its pre-Roman prestige.",
+          "tag": "CULT",
+          "note": "Polybius III.33 (on the sanctuary's prestige). Caesar's weeping: Suetonius, Divus Julius 7 (primary). Strabo III.5.3: describes the sanctuary at length — primary geographical source. The sanctuary's Phoenician origins: Diodorus Siculus V.20. Koch (1984), Hispanien und Karthago: the standard study of Punic religious influence. The site today: partially documented through underwater archaeology off Cádiz."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "Iberian art, the Dama de Elche and Carthaginian material culture",
       "entries": [
-        { "id":"a1", "group":"Sculpture & Relief", "label":"Dama de Elche — Iberian sculpture", "date":"c.4th century BC", "loc":"Elche (La Alcudia excavation, 1897); now Museo Arqueológico Nacional, Madrid", "coords":[38.27,-0.7], "hint":"The Dama de Elche is the masterpiece of Iberian sculpture — a stone bust of a woman with elaborate headdress, jewellery and holes that may have held a funerary urn; found 1897; acquired by the Louvre then returned to Spain 1941; the most important pre-Roman artistic object from Iberia.", "tag":"OBJECT", "note":"Discovery: 4 Aug 1897, La Alcudia excavation, Elche. Museo Arqueológico Nacional, Madrid (MAN). Date: c.4th century BC (contested). Chapa Brunet (2003), La escultura ibérica: the standard study. The hole in the back: suggests use as a funerary urn — confirmed by comparison with other Iberian bust-urns. The Louvre acquisition (1897) and repatriation (1941): documented in both French and Spanish museum records." },
-        { "id":"a2", "group":"Architecture", "label":"Carthago Nova — the Barcid capital", "date":"c.227–209 BC", "loc":"Carthago Nova (mod. Cartagena)", "coords":[37.6,-0.98], "hint":"Hasdrubal founds Carthago Nova c.227 BC as the capital of Barcid Hispania — controlling the richest silver mines in the Western Mediterranean; Scipio's conquest (209 BC) gives Rome access to these mines; the Roman theatre of Cartagena (1st c. BC) is built on the Carthaginian layers.", "tag":"MONUMENT", "note":"Polybius X.10: documents the silver mines — 40,000 men working them, yielding 25,000 drachmas daily to Carthage (primary). The Roman theatre of Cartagena: extant (restored, opened as museum 2008) — overlies Carthaginian levels. The Carthaginian town plan: documented archaeologically. González Simancas (1905): early systematic excavation. The mine archaeology: Domergue (1990), Les mines de la péninsule ibérique: the standard study." },
-        { "id":"a3", "group":"Music & Performance", "label":"Iberian bronze votive figurines — musicians documented", "date":"c.4th–2nd century BC", "loc":"Various sites; Museo Arqueológico Nacional, Madrid", "coords":[40.43,-3.69], "hint":"Bronze votive figurines from Iberian sanctuaries include musicians playing double flutes (aulos) — the best evidence for music in pre-Roman Iberia; they are dedicated at sanctuaries and document both the instruments and the ritual context of Iberian musical performance.", "tag":"OBJECT", "note":"Iberian bronze figurines: MAN Madrid and Museo de Jaén hold major collections. The musician figurines: catalogued in Lillo Carpio (1993), El santuario ibérico de La Luz (Murcia). Cerdeño & García Huerta (1992) on Iberian votive practices. The double flute (tibia) figurines: the most common musical representation. The sanctuaries as performance spaces: documented in excavation records from La Serreta (Alcoy) and other sites." }
+        {
+          "id": "a1",
+          "group": "Sculpture & Relief",
+          "label": "Dama de Elche — Iberian sculpture",
+          "date": "c.4th century BC",
+          "loc": "Elche (La Alcudia excavation, 1897); now Museo Arqueológico Nacional, Madrid",
+          "coords": [
+            38.27,
+            -0.7
+          ],
+          "hint": "The Dama de Elche is the masterpiece of Iberian sculpture — a stone bust of a woman with elaborate headdress, jewellery and holes that may have held a funerary urn; found 1897; acquired by the Louvre then returned to Spain 1941; the most important pre-Roman artistic object from Iberia.",
+          "tag": "OBJECT",
+          "note": "Discovery: 4 Aug 1897, La Alcudia excavation, Elche. Museo Arqueológico Nacional, Madrid (MAN). Date: c.4th century BC (contested). Chapa Brunet (2003), La escultura ibérica: the standard study. The hole in the back: suggests use as a funerary urn — confirmed by comparison with other Iberian bust-urns. The Louvre acquisition (1897) and repatriation (1941): documented in both French and Spanish museum records."
+        },
+        {
+          "id": "a2",
+          "group": "Architecture",
+          "label": "Carthago Nova — the Barcid capital",
+          "date": "c.227–209 BC",
+          "loc": "Carthago Nova (mod. Cartagena)",
+          "coords": [
+            37.6,
+            -0.98
+          ],
+          "hint": "Hasdrubal founds Carthago Nova c.227 BC as the capital of Barcid Hispania — controlling the richest silver mines in the Western Mediterranean; Scipio's conquest (209 BC) gives Rome access to these mines; the Roman theatre of Cartagena (1st c. BC) is built on the Carthaginian layers.",
+          "tag": "MONUMENT",
+          "note": "Polybius X.10: documents the silver mines — 40,000 men working them, yielding 25,000 drachmas daily to Carthage (primary). The Roman theatre of Cartagena: extant (restored, opened as museum 2008) — overlies Carthaginian levels. The Carthaginian town plan: documented archaeologically. González Simancas (1905): early systematic excavation. The mine archaeology: Domergue (1990), Les mines de la péninsule ibérique: the standard study."
+        },
+        {
+          "id": "a3",
+          "group": "Music & Performance",
+          "label": "Iberian bronze votive figurines — musicians documented",
+          "date": "c.4th–2nd century BC",
+          "loc": "Various sites; Museo Arqueológico Nacional, Madrid",
+          "coords": [
+            40.43,
+            -3.69
+          ],
+          "hint": "Bronze votive figurines from Iberian sanctuaries include musicians playing double flutes (aulos) — the best evidence for music in pre-Roman Iberia; they are dedicated at sanctuaries and document both the instruments and the ritual context of Iberian musical performance.",
+          "tag": "OBJECT",
+          "note": "Iberian bronze figurines: MAN Madrid and Museo de Jaén hold major collections. The musician figurines: catalogued in Lillo Carpio (1993), El santuario ibérico de La Luz (Murcia). Cerdeño & García Huerta (1992) on Iberian votive practices. The double flute (tibia) figurines: the most common musical representation. The sanctuaries as performance spaces: documented in excavation records from La Serreta (Alcoy) and other sites."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "Greek and Roman geographic writing on Iberia",
       "entries": [
-        { "id":"t1", "group":"Science & Geography", "label":"Strabo's Geography — the primary literary source for Iberia", "date":"c.7 BC–AD 23", "loc":"Amaseia (written); subject: Iberia", "coords":[40.4,-3.7], "hint":"Strabo's Geography Books III–IV cover Iberia in detail — drawing on Polybius, Artemidorus, Posidonius and his own research; it is the most systematic ancient geographical account of the peninsula and documents physical geography, resources, peoples, cities and Roman administration.", "tag":"TEXT", "note":"Strabo, Geography III (Iberia): Loeb Classical Library (Jones translation 1923). Strabo draws on Polybius (who visited Iberia) and Artemidorus (who surveyed the coastline c.100 BC). The description of the Guadalquivir valley, the silver mines, and the Celtiberian peoples: primary literary source. Roller (2018), A Historical and Topographical Guide to the Geography of Strabo: the standard modern commentary." },
-        { "id":"t2", "group":"History & Chronicle", "label":"Appian's Iberian Wars — the primary narrative of Roman conquest", "date":"c.150 AD (events: 264–133 BC)", "loc":"Alexandria (written)", "coords":[40.4,-3.7], "hint":"Appian's Iberica (part of the Roman History) is the primary narrative source for the entire Roman conquest of Iberia — drawing on Polybius (eyewitness of the Numantine campaign), it preserves information not found elsewhere; the Numantine War section is the most detailed surviving account of any Iberian resistance.", "tag":"TEXT", "note":"Appian, Iberica: Loeb edition (White translation). Appian's source for Numantia: explicitly Polybius, who was present — Princeton Encyclopedia notes 'Appian obtained his information from Polybios, a friend and chronicler of Scipio and an eyewitness of the siege'. Richardson (2000), Appian: Wars of the Romans in Iberia: the standard modern translation with commentary." }
+        {
+          "id": "t1",
+          "group": "Science & Geography",
+          "label": "Strabo's Geography — the primary literary source for Iberia",
+          "date": "c.7 BC–AD 23",
+          "loc": "Amaseia (written); subject: Iberia",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Strabo's Geography Books III–IV cover Iberia in detail — drawing on Polybius, Artemidorus, Posidonius and his own research; it is the most systematic ancient geographical account of the peninsula and documents physical geography, resources, peoples, cities and Roman administration.",
+          "tag": "TEXT",
+          "note": "Strabo, Geography III (Iberia): Loeb Classical Library (Jones translation 1923). Strabo draws on Polybius (who visited Iberia) and Artemidorus (who surveyed the coastline c.100 BC). The description of the Guadalquivir valley, the silver mines, and the Celtiberian peoples: primary literary source. Roller (2018), A Historical and Topographical Guide to the Geography of Strabo: the standard modern commentary."
+        },
+        {
+          "id": "t2",
+          "group": "History & Chronicle",
+          "label": "Appian's Iberian Wars — the primary narrative of Roman conquest",
+          "date": "c.150 AD (events: 264–133 BC)",
+          "loc": "Alexandria (written)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Appian's Iberica (part of the Roman History) is the primary narrative source for the entire Roman conquest of Iberia — drawing on Polybius (eyewitness of the Numantine campaign), it preserves information not found elsewhere; the Numantine War section is the most detailed surviving account of any Iberian resistance.",
+          "tag": "TEXT",
+          "note": "Appian, Iberica: Loeb edition (White translation). Appian's source for Numantia: explicitly Polybius, who was present — Princeton Encyclopedia notes 'Appian obtained his information from Polybios, a friend and chronicler of Scipio and an eyewitness of the siege'. Richardson (2000), Appian: Wars of the Romans in Iberia: the standard modern translation with commentary."
+        }
       ]
     },
     {
-      "id": "economy", "label": "Economy", "icon": "💰",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Iberian silver, Carthaginian mines and Roman exploitation",
       "entries": [
-        { "id":"s1", "group":"Fiscal & Monetary", "label":"Sierra Morena silver mines — the wealth of Hispania", "date":"c.300 BC–200 AD", "loc":"Sierra Morena; Carthago Nova (Cartagena) mining district", "coords":[37.6,-0.98], "hint":"The silver mines of Hispania are the richest in the Western Mediterranean — Polybius documents 40,000 workers at the Carthago Nova mines producing 25,000 drachmas daily for Carthage; Rome then takes them; the mines fund the Punic War effort and Rome's imperial expansion.", "tag":"Fiscal & Monetary", "note":"Polybius X.10.12 (40,000 workers, 25,000 drachmas): primary. Livy XXVI.47 (on the treasures captured at Carthago Nova). Diodorus Siculus V.36 (on the mines' general productivity). Domergue (1990), Les mines de la péninsule ibérique dans l'antiquité romaine: the comprehensive modern study. The mine archaeology: Linares (Jaén) and Cartagena provide the best excavated evidence." },
-        { "id":"s2", "group":"Agriculture & Land", "label":"Olive oil and wine — Hispania as Rome's breadbasket", "date":"c.206 BC–200 AD", "loc":"Baetica (Guadalquivir valley); Hispania Tarraconensis", "coords":[37.5,-5.5], "hint":"After Rome takes Hispania, the Guadalquivir valley (Baetica) becomes one of Rome's most productive agricultural provinces — Dressel 20 amphoras carrying Baetican olive oil are found across the entire Roman Empire; Monte Testaccio in Rome is a mountain of smashed olive-oil amphoras from Baetica.", "tag":"Agriculture & Land", "note":"Dressel 20 amphoras: the most common amphora type found in Roman contexts across the empire — Museo Arqueológico Nacional holds examples. Monte Testaccio, Rome: estimated 53 million amphoras, predominantly from Baetica — documented by Rodríguez Almeida (1984). Mattingly (1988), Oil for Export? A Comparison of Libyan, Spanish and Tunisian Olive Oil Production: the standard study. The sheer volume of Baetican exports: the most concrete economic evidence for Hispania's productivity." }
+        {
+          "id": "s1",
+          "group": "Fiscal & Monetary",
+          "label": "Sierra Morena silver mines — the wealth of Hispania",
+          "date": "c.300 BC–200 AD",
+          "loc": "Sierra Morena; Carthago Nova (Cartagena) mining district",
+          "coords": [
+            37.6,
+            -0.98
+          ],
+          "hint": "The silver mines of southern Hispania are the richest in the Western Mediterranean — Polybius (preserved in Strabo) documents 40,000 workers at the Carthago Nova mines under Roman administration producing 25,000 drachmas daily for the Roman treasury; the Carthaginians had exploited the same mines before Rome; the mines fund Rome's imperial expansion.",
+          "tag": "Fiscal & Monetary",
+          "note": "Strabo III.2.10 (preserving Polybius): '40,000 workers, 25,000 drachmas daily for the Roman people' — the workers are under Roman, not Carthaginian, management at the time of writing. Polybius X.10 on the Roman capture of Carthago Nova's treasury (209 BC): separate passage. Domergue (1990), Les mines de la péninsule ibérique: the comprehensive modern study. The Carthaginian use of the same mines before 209 BC: inferred from their strategic importance but less directly documented than the Roman-era output figures."
+        },
+        {
+          "id": "s2",
+          "group": "Agriculture & Land",
+          "label": "Olive oil and wine — Hispania as Rome's breadbasket",
+          "date": "c.206 BC–200 AD",
+          "loc": "Baetica (Guadalquivir valley); Hispania Tarraconensis",
+          "coords": [
+            37.5,
+            -5.5
+          ],
+          "hint": "After Rome takes Hispania, the Guadalquivir valley (Baetica) becomes one of Rome's most productive agricultural provinces — Dressel 20 amphoras carrying Baetican olive oil are found across the entire Roman Empire; Monte Testaccio in Rome is a mountain of smashed olive-oil amphoras from Baetica.",
+          "tag": "Agriculture & Land",
+          "note": "Dressel 20 amphoras: the most common amphora type found in Roman contexts across the empire — Museo Arqueológico Nacional holds examples. Monte Testaccio, Rome: estimated 53 million amphoras, predominantly from Baetica — documented by Rodríguez Almeida (1984). Mattingly (1988), Oil for Export? A Comparison of Libyan, Spanish and Tunisian Olive Oil Production: the standard study. The sheer volume of Baetican exports: the most concrete economic evidence for Hispania's productivity."
+        }
       ]
     },
     {
-      "id": "exchange", "label": "Exchange", "icon": "🌐",
-      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
       "subtitle": "Phoenician trading networks, Carthaginian colonisation and Roman integration",
       "entries": [
-        { "id":"ex1", "group":"Silk Road & Trade Routes", "label":"Phoenician-Punic trading network — Gadir and beyond", "date":"c.800–200 BC", "loc":"Gadir (Cádiz); Malaca (Málaga); Abdera (Adra)", "coords":[36.53,-6.3], "hint":"Gadir (Cádiz) is the oldest continuously inhabited city in Western Europe — founded by Phoenicians c.1100 BC as a trading post; the Phoenician-Punic commercial network from Gadir to Carthage to the Eastern Mediterranean is the pre-Roman globalisation of Iberia.", "tag":"ECONOMIC", "note":"The foundation of Gadir c.1100 BC: Velleius Paterculus I.2 (cites Timaeus); Strabo III.5.5. The Phoenician archaeological evidence: excavations under modern Cádiz (difficult due to urban overlay) — documented in Aubet (1993), The Phoenicians and the West: the standard study. The Phoenician cemetery at Villaricos and other sites: documented in Museo Arqueológico Nacional collections." },
-        { "id":"ex2", "group":"Cultural Transmission", "label":"Iberian script — a writing system still partially undeciphered", "date":"c.5th–1st century BC", "loc":"Eastern and southeastern Iberia (Iberophone zone)", "coords":[39.47,-0.38], "hint":"The Iberians develop their own script (adapting Phoenician/Greek) c.5th century BC — over 2,000 inscriptions survive; the script is partially deciphered (its phonetic values are known) but the language remains poorly understood; it is one of the major unsolved linguistic puzzles of antiquity.", "tag":"DOCUMENT", "note":"The Iberian script corpus: HESPERIA database (online, University of Valencia) — over 2,000 inscriptions. The script's partial decipherment: the letters' values are known from bilingual Iberian-Latin and Iberian-Greek inscriptions; the language's grammar and vocabulary remain largely opaque. Untermann (1975–1997), Monumenta Linguarum Hispanicarum (4 vols): the standard corpus. The linguistic isolation: Iberian has no known relatives." }
+        {
+          "id": "ex1",
+          "group": "Maritime & Trade Routes",
+          "label": "Phoenician-Punic trading network — Gadir and beyond",
+          "date": "c.800–200 BC",
+          "loc": "Gadir (Cádiz); Malaca (Málaga); Abdera (Adra)",
+          "coords": [
+            36.53,
+            -6.3
+          ],
+          "hint": "Gadir (Cádiz) is the oldest continuously inhabited city in Western Europe — founded by Phoenicians c.1100 BC as a trading post; the Phoenician-Punic commercial network from Gadir to Carthage to the Eastern Mediterranean is the pre-Roman globalisation of Iberia.",
+          "tag": "ECONOMIC",
+          "note": "The foundation of Gadir c.1100 BC: Velleius Paterculus I.2 (cites Timaeus); Strabo III.5.5. The Phoenician archaeological evidence: excavations under modern Cádiz (difficult due to urban overlay) — documented in Aubet (1993), The Phoenicians and the West: the standard study. The Phoenician cemetery at Villaricos and other sites: documented in Museo Arqueológico Nacional collections."
+        },
+        {
+          "id": "ex2",
+          "group": "Cultural Transmission",
+          "label": "Iberian script — a writing system still partially undeciphered",
+          "date": "c.5th–1st century BC",
+          "loc": "Eastern and southeastern Iberia (Iberophone zone)",
+          "coords": [
+            39.47,
+            -0.38
+          ],
+          "hint": "The Iberians develop their own script (adapting Phoenician/Greek) c.5th century BC — over 2,000 inscriptions survive; the script is partially deciphered (its phonetic values are known) but the language remains poorly understood; it is one of the major unsolved linguistic puzzles of antiquity.",
+          "tag": "DOCUMENT",
+          "note": "The Iberian script corpus: HESPERIA database (online, University of Valencia) — over 2,000 inscriptions. The script's partial decipherment: the letters' values are known from bilingual Iberian-Latin and Iberian-Greek inscriptions; the language's grammar and vocabulary remain largely opaque. Untermann (1975–1997), Monumenta Linguarum Hispanicarum (4 vols): the standard corpus. The linguistic isolation: Iberian has no known relatives."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Iberia between Carthage and Rome — a contested periphery",
       "entries": [
-        { "id":"w1", "group":"Geopolitical Shift", "label":"Ebro Treaty (226 BC) — Iberia as a Roman sphere", "date":"226 BC", "loc":"Rome; Hispania (Ebro as treaty line)", "coords":[40.4,-3.7], "hint":"Rome and Carthage agree the Ebro as the boundary of their spheres of influence in Iberia — everything north of the Ebro belongs to Rome; Saguntum, south of the line but an ally of Rome, becomes the ambiguous case that triggers the Second Punic War.", "tag":"EVENT", "note":"Polybius II.13.7: primary source for the Ebro treaty. The Saguntum complication: Polybius III.17 — the treaty's ambiguity is the legal cause of the war. The modern historiographic debate about the treaty's exact terms: Eckstein (1987), Senate and General, ch.4. The treaty as a document defining spheres of interest rather than formal sovereignty: the first such agreement in the Western Mediterranean." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Ebro Treaty (226 BC) — Iberia as a Roman sphere",
+          "date": "226 BC",
+          "loc": "Rome; Hispania (Ebro as treaty line)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Rome and Carthage agree the Ebro as the boundary of their spheres of influence in Iberia — everything north of the Ebro belongs to Rome; Saguntum, south of the line but an ally of Rome, becomes the ambiguous case that triggers the Second Punic War.",
+          "tag": "EVENT",
+          "note": "Polybius II.13.7: primary source for the Ebro treaty. The Saguntum complication: Polybius III.17 — the treaty's ambiguity is the legal cause of the war. The modern historiographic debate about the treaty's exact terms: Eckstein (1987), Senate and General, ch.4. The treaty as a document defining spheres of interest rather than formal sovereignty: the first such agreement in the Western Mediterranean."
+        }
       ]
     },
     {
-      "id": "lives", "label": "Lives", "icon": "🪞",
-      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored",
       "entries": [
-        { "id":"lv1", "group":"Enslaved Lives", "label":"Slave labour in the Carthago Nova silver mines", "date":"c.227–200 BC", "loc":"Carthago Nova mining district", "coords":[37.6,-0.98], "hint":"Polybius documents 40,000 workers in the Carthago Nova silver mines — the largest single documented concentration of slave labour in the ancient Western Mediterranean; these are not free workers but enslaved people; their conditions are described as extreme in Diodorus Siculus.", "tag":"EVIDENCE", "note":"Polybius X.10.12: '40,000 workers, yielding 25,000 drachmas daily to Carthage' — the primary figure. Diodorus Siculus V.36–38: describes mine conditions — 'many die because of the extreme severity of their treatment'. Domergue (1990): documents the slaves' physical evidence (skeletal remains showing mine injuries). This is the best-documented large-scale slave labour operation in ancient Iberia." },
-        { "id":"lv2", "group":"Indigenous Lives", "label":"Devoting Numantia — mass suicide as documented resistance", "date":"133 BC", "loc":"Numantia (mod. Garray, Soria)", "coords":[41.81,-2.44], "hint":"When Numantia finally falls, the surviving 4,000 inhabitants burn their city and kill themselves — refusing to be enslaved; Appian describes individual acts of resistance including men killing their families before themselves; the destruction layer is archaeologically documented.", "tag":"EVIDENCE", "note":"Appian, Iberian Wars 97–98: the most detailed account of the city's end. The burning layer: documented in excavations at block XXIII (Numantia archaeology) — carbon-dated to 133 BC. The skeletal evidence: remains showing signs of starvation and violence documented in the excavations. The site today: Museo Numantino (Soria) and in situ remains at Garray. Appian's source: Polybius, who was present at the siege." }
+        {
+          "id": "lv1",
+          "group": "Enslaved Lives",
+          "label": "Slave labour in the Carthago Nova silver mines",
+          "date": "c.227–200 BC",
+          "loc": "Carthago Nova mining district",
+          "coords": [
+            37.6,
+            -0.98
+          ],
+          "hint": "Polybius documents 40,000 workers in the Carthago Nova silver mines — the largest single documented concentration of slave labour in the ancient Western Mediterranean; these are not free workers but enslaved people; their conditions are described as extreme in Diodorus Siculus.",
+          "tag": "EVIDENCE",
+          "note": "Polybius X.10.12: '40,000 workers, yielding 25,000 drachmas daily to Carthage' — the primary figure. Diodorus Siculus V.36–38: describes mine conditions — 'many die because of the extreme severity of their treatment'. Domergue (1990): documents the slaves' physical evidence (skeletal remains showing mine injuries). This is the best-documented large-scale slave labour operation in ancient Iberia."
+        },
+        {
+          "id": "lv2",
+          "group": "Indigenous Lives",
+          "label": "Devoting Numantia — mass suicide as documented resistance",
+          "date": "133 BC",
+          "loc": "Numantia (mod. Garray, Soria)",
+          "coords": [
+            41.81,
+            -2.44
+          ],
+          "hint": "When Numantia finally falls, the surviving 4,000 inhabitants burn their city and kill themselves — refusing to be enslaved; Appian describes individual acts of resistance including men killing their families before themselves; the destruction layer is archaeologically documented.",
+          "tag": "EVIDENCE",
+          "note": "Appian, Iberian Wars 97–98: the most detailed account of the city's end. The burning layer: documented in excavations at block XXIII (Numantia archaeology) — carbon-dated to 133 BC. The skeletal evidence: remains showing signs of starvation and violence documented in the excavations. The site today: Museo Numantino (Soria) and in situ remains at Garray. Appian's source: Polybius, who was present at the siege."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"carthaginian",  "icon":"⚜️","accent":"#8B3A00","label":"Carthaginian Hispania (237–206 BC)", "events":[
-      {"y":-237,"y2":-206,"l":"Barcid dynasty in Hispania",     "entryId":"k1"}
-    ]},
-    {"id":"conquest",     "icon":"⚜️","accent":"#5C1A00","label":"Roman Conquest (218–133 BC)", "events":[
-      {"y":-218,"y2":-133,"l":"Roman conquest of Hispania",     "entryId":"k2"}
-    ]},
-    {"id":"province",     "icon":"⚜️","accent":"#3A0A00","label":"Roman Province (133–27 BC)", "events":[
-      {"y":-133,"y2":-27,"l":"Roman provincial Hispania",       "entryId":"k3"}
-    ]},
-    {"id":"conflict",     "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":-219,"l":"Siege of Saguntum",                        "entryId":"c1"},
-      {"y":-209,"l":"Scipio takes Carthago Nova",               "entryId":"k2"},
-      {"y":-206,"l":"Battle of Ilipa",                          "entryId":"c2"},
-      {"y":-147,"l":"Viriathus — Lusitanian resistance",        "entryId":"c3"},
-      {"y":-134,"l":"Siege of Numantia",                        "entryId":"c4"}
-    ]},
-    {"id":"order",        "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":-226,"l":"Ebro Treaty — Iberian sphere defined",     "entryId":"w1"},
-      {"y":-197,"l":"Hispania divided into two provinces",      "entryId":"o1"}
-    ]},
-    {"id":"expression",   "icon":"✨","accent":"#8D6E63","events":[
-      {"y":-350,"l":"Dama de Elche — Iberian sculpture",        "entryId":"a1"},
-      {"y":-227,"l":"Carthago Nova — Barcid capital",           "entryId":"a2"}
-    ]},
-    {"id":"thought",      "icon":"💡","accent":"#566573","events":[
-      {"y":-7,  "l":"Strabo: Geography (Iberia)",               "entryId":"t1"}
-    ]},
-    {"id":"economy",      "icon":"💰","accent":"#8B5E00","events":[
-      {"y":-237,"l":"Silver mines — Carthago Nova",             "entryId":"s1"},
-      {"y":-206,"l":"Baetican olive oil — Roman exports begin", "entryId":"s2"}
-    ]},
-    {"id":"exchange",     "icon":"🌐","accent":"#148080","events":[
-      {"y":-800,"l":"Phoenician Gadir — oldest Western city",   "entryId":"ex1"},
-      {"y":-450,"l":"Iberian script develops",                  "entryId":"ex2"}
-    ]},
-    {"id":"lives",        "icon":"🪞","accent":"#7B4FA6","events":[
-      {"y":-227,"l":"40,000 slaves in silver mines",            "entryId":"lv1"},
-      {"y":-133,"l":"Numantia — mass suicide documented",       "entryId":"lv2"}
-    ]}
+    {
+      "id": "carthaginian",
+      "icon": "⚜️",
+      "accent": "#8B3A00",
+      "label": "Carthaginian Hispania (237–206 BC)",
+      "events": [
+        {
+          "y": -237,
+          "y2": -206,
+          "l": "Barcid dynasty in Hispania",
+          "entryId": "k1"
+        }
+      ]
+    },
+    {
+      "id": "conquest",
+      "icon": "⚜️",
+      "accent": "#5C1A00",
+      "label": "Roman Conquest (218–133 BC)",
+      "events": [
+        {
+          "y": -218,
+          "y2": -133,
+          "l": "Roman conquest of Hispania",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
+      "id": "province",
+      "icon": "⚜️",
+      "accent": "#3A0A00",
+      "label": "Roman Province (133–27 BC)",
+      "events": [
+        {
+          "y": -133,
+          "y2": -27,
+          "l": "Roman provincial Hispania",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": -219,
+          "l": "Siege of Saguntum",
+          "entryId": "c1"
+        },
+        {
+          "y": -209,
+          "l": "Scipio takes Carthago Nova",
+          "entryId": "k2"
+        },
+        {
+          "y": -206,
+          "l": "Battle of Ilipa",
+          "entryId": "c2"
+        },
+        {
+          "y": -147,
+          "l": "Viriathus — Lusitanian resistance",
+          "entryId": "c3"
+        },
+        {
+          "y": -134,
+          "l": "Siege of Numantia",
+          "entryId": "c4"
+        },
+        {
+          "y": -80,
+          "l": "Sertorian War — Rome's rebel province",
+          "entryId": "c5"
+        },
+        {
+          "y": -45,
+          "l": "Battle of Munda — Caesar's last battle",
+          "entryId": "c7"
+        },
+        {
+          "y": -29,
+          "l": "Cantabrian Wars begin",
+          "entryId": "c6"
+        },
+        {
+          "y": -19,
+          "l": "Cantabrian Wars end — Iberia fully Roman",
+          "entryId": "c6"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": -226,
+          "l": "Ebro Treaty — Iberian sphere defined",
+          "entryId": "w1"
+        },
+        {
+          "y": -197,
+          "l": "Hispania divided into two provinces",
+          "entryId": "o1"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": -350,
+          "l": "Dama de Elche — Iberian sculpture",
+          "entryId": "a1"
+        },
+        {
+          "y": -227,
+          "l": "Carthago Nova — Barcid capital",
+          "entryId": "a2"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": -7,
+          "l": "Strabo: Geography (Iberia)",
+          "entryId": "t1"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": -237,
+          "l": "Silver mines — Carthago Nova",
+          "entryId": "s1"
+        },
+        {
+          "y": -206,
+          "l": "Baetican olive oil — Roman exports begin",
+          "entryId": "s2"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": -800,
+          "l": "Phoenician Gadir — oldest Western city",
+          "entryId": "ex1"
+        },
+        {
+          "y": -450,
+          "l": "Iberian script develops",
+          "entryId": "ex2"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": -227,
+          "l": "40,000 slaves in silver mines",
+          "entryId": "lv1"
+        },
+        {
+          "y": -133,
+          "l": "Numantia — mass suicide documented",
+          "entryId": "lv2"
+        }
+      ]
+    }
   ]
 }

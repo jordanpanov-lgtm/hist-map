@@ -2,167 +2,801 @@
   "id": "al-andalus-1031-1492",
   "title": "Al-Andalus",
   "subtitle": "1031–1492 · Taifas, Berber Dynasties and the Last Kingdom of Granada",
-  "period": { "start": 1031, "end": 1492 },
+  "period": {
+    "start": 1031,
+    "end": 1492
+  },
   "region": "Iberia",
   "period_label": "Medieval",
-  "mapCenter": [37.2, -3.6],
+  "mapCenter": [
+    37.2,
+    -3.6
+  ],
   "mapZoom": 7,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#0A2A0A", "accent": "#1A5C1A", "bg": "#F0FFF0",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#0A2A0A",
+      "accent": "#1A5C1A",
+      "bg": "#F0FFF0",
       "subtitle": "From twenty-three taifas to the last sultanate of Granada",
       "entries": [
-        { "id":"k1", "group":"Taifa Period (1031–1086)", "dynasty":"Various", "label":"The taifa kingdoms — fragmentation and patronage", "date":"1031–1086", "loc":"Seville; Toledo; Zaragoza; Valencia; Granada (main taifas)", "coords":[37.38,-5.99], "hint":"After the caliphate's collapse, al-Andalus fragments into 23 independent taifa kingdoms — each ruled by a former governor or military commander; the taifas pay tribute (parias) to the Christian kingdoms for protection; but they also become brilliant centres of poetry, music and philosophy.", "tag":"SUCCESSION", "note":"The taifa system: documented in Ibn Hayyan's Muqtabis (fragments) and Ibn Idhari, al-Bayan al-Mughrib (13th c., drawing on earlier sources). The parias payments: documented in Christian royal archives (Archivo de la Catedral de Toledo). Kennedy (1996), Muslim Spain and Portugal pp.130–160. The cultural flowering: best documented in the diwan (poetry collections) of taifa rulers, several of whom were themselves poets." },
-        { "id":"k2", "group":"Almoravid Period (1086–1147)", "dynasty":"Almoravid", "label":"Almoravid dynasty — Berber reform and reversal", "date":"1086–1147", "loc":"Marrakesh (capital); Seville; Córdoba (Iberian bases)", "coords":[37.38,-5.99], "hint":"The Almoravids arrive from Morocco at the taifas' invitation after Toledo falls (1085) — they defeat Alfonso VI at Sagrajas (1086), depose the taifa rulers, and temporarily reverse Christian advances; but their puritanical reform alienates the sophisticated Andalusian population.", "tag":"SUCCESSION", "note":"The Almoravid invitation: Ibn Idhari. The Battle of Sagrajas 23 Oct 1086: documented in both Arabic and Christian sources. The deposing of taifa rulers: documented in chronicles. Messier (2010), The Almoravids and the Meanings of Jihad: the standard modern study. The Almoravid architectural legacy in Marrakesh (UNESCO) and in Iberian buildings." },
-        { "id":"k3", "group":"Almohad Period (1147–1228)", "dynasty":"Almohad", "label":"Almohad Caliphate — the last North African empire in Iberia", "date":"1147–1228", "loc":"Seville (Iberian capital); Marrakesh (main capital)", "coords":[37.38,-5.99], "hint":"The Almohads succeed the Almoravids — even stricter Berber reformers who exile or execute Averroës and Maimonides; they build the Giralda tower in Seville (1184); their defeat at Las Navas de Tolosa (1212) begins the final collapse; their Iberian territories fragment after 1228.", "tag":"SUCCESSION", "note":"The Giralda (1184): extant, Seville — the minaret built by the Almohads, now the cathedral's bell tower (UNESCO 1987). The exile of Averroës 1195: documented in Arabic sources. The defeat at Las Navas 1212: documented. Fromherz (2010), The Almohads: the standard modern study. The Almohad library programme: documented in their court records." },
-        { "id":"k4", "group":"Nasrid Emirate of Granada (1238–1492)", "dynasty":"Nasrid", "label":"Muhammad I founds the Nasrid Emirate of Granada", "date":"1238–1273", "loc":"Granada (capital; Alhambra begun)", "coords":[37.18,-3.6], "hint":"Muhammad I al-Ghalib founds the Nasrid dynasty in 1232 and begins the Alhambra fortress; he accepts tributary vassal status under Ferdinand III of Castile — a pragmatic bargain that keeps Granada independent for 250 more years; refugees from fallen Córdoba, Seville and Valencia enrich the new capital.", "tag":"SUCCESSION", "note":"Britannica: 'The first Naṣrid ruler, Muḥammad I al-Ghālib, a tributary vassal of the Christian king Ferdinand.' His accession 1238: documented in Arabic chronicles. The Alhambra's early construction: archaeology confirms 13th-c. foundations. Harvey (1992), Islamic Spain 1250–1500: the standard modern study. The influx of refugees from reconquered cities: documented in Arabic and Christian sources." },
-        { "id":"k5", "group":"Nasrid Emirate of Granada (1238–1492)", "dynasty":"Nasrid", "label":"Muhammad V — the Alhambra at its peak", "date":"1354–1359; 1362–1391", "loc":"Granada (Alhambra)", "coords":[37.18,-3.6], "hint":"Muhammad V's two reigns see the completion of the Alhambra's greatest spaces — the Court of the Lions (1370s) and the Comares Hall; his court poet Ibn Zamrak inscribes poems on the walls of the palace; the Alhambra in its final form is his monument.", "tag":"SUCCESSION", "note":"Court of the Lions construction: dated by Ibn Zamrak's poems inscribed on the walls — the poem texts are the primary dating evidence. Ibn Zamrak's poetry on the Alhambra walls: primary source for the palace's meaning. Grabar (1978), The Alhambra: the standard art-historical study. Puerta Vílchez (2010), Reading the Alhambra: the most comprehensive study of the inscriptions." },
-        { "id":"k6", "group":"Nasrid Emirate of Granada (1238–1492)", "dynasty":"Nasrid", "label":"Muhammad XII (Boabdil) — the last sultan", "date":"1482–1492", "loc":"Granada (Alhambra)", "coords":[37.18,-3.6], "hint":"Muhammad XII (Boabdil) surrenders Granada to Ferdinand and Isabella on 2 January 1492 — handing over the keys of the Alhambra; legend says he wept at the last view of his palace (the 'Moor's last sigh' pass); the fall of Granada completes the Reconquista.", "tag":"DEPOSED", "note":"The surrender 2 Jan 1492: documented in both Spanish and Arabic sources. The capitulations (terms of surrender): Archivo General de Simancas — guaranteeing religious freedom for Muslims (later violated). Washington Irving's Tales of the Alhambra (1832): romanticised but influential account. Harvey (1992) pp.280–310. The keys of the Alhambra: traditional account." }
+        {
+          "id": "k1",
+          "group": "Taifa Period (1031–1086)",
+          "dynasty": "Various",
+          "label": "The taifa kingdoms — fragmentation and patronage",
+          "date": "1031–1086",
+          "loc": "Seville; Toledo; Zaragoza; Valencia; Granada (main taifas)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "After the caliphate's collapse, al-Andalus fragments into 23 independent taifa kingdoms — each ruled by a former governor or military commander; the taifas pay tribute (parias) to the Christian kingdoms for protection; but they also become brilliant centres of poetry, music and philosophy.",
+          "tag": "SUCCESSION",
+          "note": "The taifa system: documented in Ibn Hayyan's Muqtabis (fragments) and Ibn Idhari, al-Bayan al-Mughrib (13th c., drawing on earlier sources). The parias payments: documented in Christian royal archives (Archivo de la Catedral de Toledo). Kennedy (1996), Muslim Spain and Portugal pp.130–160. The cultural flowering: best documented in the diwan (poetry collections) of taifa rulers, several of whom were themselves poets."
+        },
+        {
+          "id": "k2",
+          "group": "Almoravid Period (1086–1147)",
+          "dynasty": "Almoravid",
+          "label": "Almoravid dynasty — Berber reform and reversal",
+          "date": "1086–1147",
+          "loc": "Marrakesh (capital); Seville; Córdoba (Iberian bases)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "The Almoravids arrive from Morocco at the taifas' invitation after Toledo falls (1085) — they defeat Alfonso VI at Sagrajas (1086), depose the taifa rulers, and temporarily reverse Christian advances; but their puritanical reform alienates the sophisticated Andalusian population.",
+          "tag": "SUCCESSION",
+          "note": "The Almoravid invitation: Ibn Idhari. The Battle of Sagrajas 23 Oct 1086: documented in both Arabic and Christian sources. The deposing of taifa rulers: documented in chronicles. Messier (2010), The Almoravids and the Meanings of Jihad: the standard modern study. The Almoravid architectural legacy in Marrakesh (UNESCO) and in Iberian buildings."
+        },
+        {
+          "id": "k3",
+          "group": "Almohad Period (1147–1228)",
+          "dynasty": "Almohad",
+          "label": "Almohad Caliphate — the last North African empire in Iberia",
+          "date": "1147–1228",
+          "loc": "Seville (Iberian capital); Marrakesh (main capital)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "The Almohads succeed the Almoravids — stricter Berber reformers who briefly exile Averroës (disgraced 1195, recalled to Marrakesh shortly before his death in 1198) and force Maimonides's family to flee Córdoba for Egypt; they build the Giralda tower in Seville (1184); their defeat at Las Navas (1212) begins the final collapse.",
+          "tag": "SUCCESSION",
+          "note": "The Giralda (1184): extant, Seville — the minaret built by the Almohads, now the cathedral's bell tower (UNESCO 1987). The exile of Averroës 1195: documented in Arabic sources. The defeat at Las Navas 1212: documented. Fromherz (2010), The Almohads: the standard modern study. The Almohad library programme: documented in their court records."
+        },
+        {
+          "id": "k4",
+          "group": "Nasrid Emirate of Granada (1238–1492)",
+          "dynasty": "Nasrid",
+          "label": "Muhammad I founds the Nasrid Emirate of Granada",
+          "date": "1238–1273",
+          "loc": "Granada (capital; Alhambra begun)",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "Muhammad I al-Ghalib founds the Nasrid dynasty in 1232 and begins the Alhambra fortress; he accepts tributary vassal status under Ferdinand III of Castile — a pragmatic bargain that keeps Granada independent for 250 more years; refugees from fallen Córdoba, Seville and Valencia enrich the new capital.",
+          "tag": "SUCCESSION",
+          "note": "Britannica: 'The first Naṣrid ruler, Muḥammad I al-Ghālib, a tributary vassal of the Christian king Ferdinand.' His accession 1238: documented in Arabic chronicles. The Alhambra's early construction: archaeology confirms 13th-c. foundations. Harvey (1992), Islamic Spain 1250–1500: the standard modern study. The influx of refugees from reconquered cities: documented in Arabic and Christian sources."
+        },
+        {
+          "id": "k5",
+          "group": "Nasrid Emirate of Granada (1238–1492)",
+          "dynasty": "Nasrid",
+          "label": "Muhammad V — the Alhambra at its peak",
+          "date": "1354–1359; 1362–1391",
+          "loc": "Granada (Alhambra)",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "Muhammad V's two reigns see the completion of the Alhambra's greatest spaces — the Court of the Lions (1370s) and the Comares Hall; his court poet Ibn Zamrak inscribes poems on the walls of the palace; the Alhambra in its final form is his monument.",
+          "tag": "SUCCESSION",
+          "note": "Court of the Lions construction: dated by Ibn Zamrak's poems inscribed on the walls — the poem texts are the primary dating evidence. Ibn Zamrak's poetry on the Alhambra walls: primary source for the palace's meaning. Grabar (1978), The Alhambra: the standard art-historical study. Puerta Vílchez (2010), Reading the Alhambra: the most comprehensive study of the inscriptions."
+        },
+        {
+          "id": "k6",
+          "group": "Nasrid Emirate of Granada (1238–1492)",
+          "dynasty": "Nasrid",
+          "label": "Muhammad XII (Boabdil) — the last sultan",
+          "date": "1482–1492",
+          "loc": "Granada (Alhambra)",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "Muhammad XII (Boabdil) surrenders Granada to Ferdinand and Isabella on 2 January 1492 — handing over the keys of the Alhambra; legend says he wept at the last view of his palace (the 'Moor's last sigh' pass); the fall of Granada completes the Reconquista.",
+          "tag": "DEPOSED",
+          "note": "The surrender 2 Jan 1492: documented in both Spanish and Arabic sources. The capitulations (terms of surrender): Archivo General de Simancas — guaranteeing religious freedom for Muslims (later violated). Washington Irving's Tales of the Alhambra (1832): romanticised but influential account. Harvey (1992) pp.280–310. The keys of the Alhambra: traditional account."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "The collapse of Muslim Spain — taifas, crusades and the final siege",
       "entries": [
-        { "id":"c1", "group":"Almohad Wars", "label":"Battle of Las Navas de Tolosa — already covered in spain-718-1230", "date":"16 Jul 1212", "loc":"Las Navas de Tolosa, Jaén", "coords":[38.3,-3.6], "hint":"The battle's significance is felt in this folio: after Las Navas, the Almohad empire collapses; within 40 years Córdoba (1236), Jaén (1246), Seville (1248) and Valencia (1238) fall; only Granada survives because it accepts Castilian vassalage.", "tag":"BATTLE", "note":"See spain-718-1230 folio for full documentation of the battle. The consequences here: Almohad collapse documented in Arabic sources. Ferdinand III's campaigns: documented in the Primera Crónica General (Alfonso X's chronicle, c.1270). The fall of Córdoba 29 Jun 1236: documented — the Great Mosque consecrated as a Christian church the same day. The fall of Seville 23 Nov 1248: documented." },
-        { "id":"c2", "group":"Nasrid Wars", "label":"Granada as vassal — the 250-year survival strategy", "date":"1246–1492", "loc":"Granada; Castilian frontier", "coords":[37.18,-3.6], "hint":"The Nasrid Emirate survives for 250 years as a tributary vassal of Castile — paying annual tribute, providing military auxiliaries, and exploiting Christian internal conflicts; Muhammad I fought alongside Ferdinand III against Muslim opponents; survival through submission rather than resistance.", "tag":"POLITICAL", "note":"Muhammad I's military service for Ferdinand III: documented in the Primera Crónica General. The annual tribute system: documented in Castilian royal accounts (AGS). Harvey (1992), Islamic Spain 1250–1500 ch.1. The exploitation of Christian civil wars (Pedro I vs Enrique II, 1366–1369): documented. Granada outlasts every other Muslim state in Iberia by adapting to vassal status." },
-        { "id":"c3", "group":"Final Reconquest", "label":"The fall of Granada — the last Reconquista campaign", "date":"1481–1492", "loc":"Granada (final siege Jan 1492)", "coords":[37.18,-3.6], "hint":"Ferdinand and Isabella's systematic campaign against Granada (1481–1492) takes the remaining towns one by one — Alhama (1482), Ronda (1485), Málaga (1487), Baza (1489); Granada surrenders 2 January 1492 under capitulation terms that are violated within a decade.", "tag":"BATTLE", "note":"The capitulations 2 Jan 1492: AGS Patronato Real — primary text. The systematic campaign: documented in the Primera Crónica de Fernando e Isabel (published Pulgar 1490). Prescott (1838), History of the Reign of Ferdinand and Isabella: the classic account. Harvey (1992) pp.280–315. The violation of the capitulations (forced conversions begin c.1502): documented in royal decrees." }
+        {
+          "id": "c1",
+          "group": "Almohad Wars",
+          "label": "Battle of Las Navas de Tolosa — already covered in spain-718-1230",
+          "date": "16 Jul 1212",
+          "loc": "Las Navas de Tolosa, Jaén",
+          "coords": [
+            38.3,
+            -3.6
+          ],
+          "hint": "The battle's significance is felt in this folio: after Las Navas, the Almohad empire collapses; within 40 years Córdoba (1236), Jaén (1246), Seville (1248) and Valencia (1238) fall; only Granada survives because it accepts Castilian vassalage.",
+          "tag": "BATTLE",
+          "note": "See spain-718-1230 folio for full documentation of the battle. The consequences here: Almohad collapse documented in Arabic sources. Ferdinand III's campaigns: documented in the Primera Crónica General (Alfonso X's chronicle, c.1270). The fall of Córdoba 29 Jun 1236: documented — the Great Mosque consecrated as a Christian church the same day. The fall of Seville 23 Nov 1248: documented."
+        },
+        {
+          "id": "c2",
+          "group": "Nasrid Wars",
+          "label": "Granada as vassal — the 250-year survival strategy",
+          "date": "1246–1492",
+          "loc": "Granada; Castilian frontier",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "The Nasrid Emirate survives for 250 years as a tributary vassal of Castile — paying annual tribute, providing military auxiliaries, and exploiting Christian internal conflicts; Muhammad I fought alongside Ferdinand III against Muslim opponents; survival through submission rather than resistance.",
+          "tag": "POLITICAL",
+          "note": "Muhammad I's military service for Ferdinand III: documented in the Primera Crónica General. The annual tribute system: documented in Castilian royal accounts (AGS). Harvey (1992), Islamic Spain 1250–1500 ch.1. The exploitation of Christian civil wars (Pedro I vs Enrique II, 1366–1369): documented. Granada outlasts every other Muslim state in Iberia by adapting to vassal status."
+        },
+        {
+          "id": "c3",
+          "group": "Final Reconquest",
+          "label": "The fall of Granada — the last Reconquista campaign",
+          "date": "1481–1492",
+          "loc": "Granada (final siege Jan 1492)",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "Ferdinand and Isabella's systematic campaign against Granada (1481–1492) takes the remaining towns one by one — Alhama (1482), Ronda (1485), Málaga (1487), Baza (1489); Granada surrenders 2 January 1492 under capitulation terms that are violated within a decade.",
+          "tag": "BATTLE",
+          "note": "The capitulations 2 Jan 1492: AGS Patronato Real — primary text. The systematic campaign: documented in the Primera Crónica de Fernando e Isabel (published Pulgar 1490). Prescott (1838), History of the Reign of Ferdinand and Isabella: the classic account. Harvey (1992) pp.280–315. The violation of the capitulations (forced conversions begin c.1502): documented in royal decrees."
+        },
+        {
+          "id": "c4",
+          "group": "Final Reconquest",
+          "label": "Battle of Río Salado — the end of North African intervention",
+          "date": "30 Oct 1340",
+          "loc": "Río Salado, near Tarifa, Cádiz",
+          "coords": [
+            36.05,
+            -5.6
+          ],
+          "hint": "Alfonso XI of Castile and Alfonso IV of Portugal crush the combined armies of the Marinid Sultan of Morocco and the Nasrid Sultan of Granada at Río Salado — this catastrophic defeat permanently ends North African military intervention in the Iberian Peninsula, leaving Granada completely isolated and entirely dependent on its defensive geography and tributary diplomacy.",
+          "tag": "BATTLE",
+          "note": "The battle 30 Oct 1340: documented in the Crónica de Alfonso XI (primary Castilian source). The Marinid forces: Ibn Khaldun, Muqaddima: contextualises the Marinid dynasty's involvement. The battle's long-term consequence: no further North African force crosses to Iberia after 1340 — documented through the absence of subsequent interventions. O'Callaghan (2011), The Gibraltar Crusade: the standard modern study. Lomax (1978), The Reconquista of Spain: contextualises Río Salado in the broader narrative."
+        },
+        {
+          "id": "c5",
+          "group": "Internal Conflicts",
+          "label": "Mudéjar Revolt of 1264 — mass expulsion reshapes Andalusia",
+          "date": "1264–1266",
+          "loc": "Seville; Jerez; Murcia (main centres of revolt)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "Muslim populations (Mudéjars) in recently conquered Seville, Jerez and Murcia launch a major uprising backed by Muhammad I of Granada — the revolt is crushed by Castile with Aragonese help; the aftermath is the mass expulsion of Muslims from Castilian urban centres, transforming Andalusia's cities into purely Christian-settled areas and creating the hostile 'La Frontera' zone.",
+          "tag": "CIVIL WAR",
+          "note": "The revolt: Crónica de Alfonso X (primary). Muhammad I of Granada's role: documented in both Castilian chronicles and Arabic sources. The expulsions: documented in subsequent repopulation charters (AGS). Burns (1973), Islam Under the Crusaders: the standard study of Mudéjar experience in the 13th century. The long-term demographic consequence: Andalusian cities lose their Muslim populations — documented in urban archaeology and subsequent census records."
+        },
+        {
+          "id": "c6",
+          "group": "Final Reconquest",
+          "label": "Nasrid civil wars — faction warfare enables the final conquest",
+          "date": "1482–1492",
+          "loc": "Granada (Alhambra); frontier towns",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "The final Castilian campaign exploits Granada's internal collapse — the rival noble clans (Abencerrajes and Zenetes) wage factional war; Muley Hacén is deposed by his son Boabdil (Muhammad XII); civil war then erupts between Boabdil and his uncle El Zagal (Muhammad XIII); Ferdinand and Isabella pick off isolated towns as the kingdom tears itself apart.",
+          "tag": "CIVIL WAR",
+          "note": "The Nasrid dynastic conflict: documented in Arabic sources and in the Castilian court chronicles. The Abencerrajes and Zenetes: their rivalry documented in Arabic sources and in Washington Irving's (romanticised) Tales of the Alhambra. The deposition of Muley Hacén: documented. Boabdil's capture by Ferdinand at Lucena 1483: documented — he was released in exchange for a treaty recognising Castilian suzerainty. Harvey (1992), Islamic Spain pp.265–280: the standard account using Arabic and Castilian sources."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Nasrid administration and the capitulations of Granada",
       "entries": [
-        { "id":"o1", "group":"Constitutional Law", "label":"Capitulations of Granada — the broken promise", "date":"2 Jan 1492", "loc":"Santa Fe (signed); Granada", "coords":[37.18,-3.59], "hint":"The capitulations guaranteeing Muslims religious freedom, property rights and continued use of mosques are signed before the surrender — within a decade Archbishop Cisneros forces mass baptisms; the capitulations are formally the founding document of Spain's broken covenant with its Muslim population.", "tag":"LAW", "note":"HARD ANCHOR: Capitulations text: AGS Patronato Real, leg.11, doc.27. Translated in Constable (1997), Medieval Iberia. The violation: Cisneros's forced conversions from 1499 — documented in his biographers and in AGS. Harvey (1990), Islamic Spain: the standard study of the Mudéjar and Morisco experience. The capitulations and their violation are the clearest documented case of Spain's treatment of its Muslim subjects." },
-        { "id":"o2", "group":"Administrative Reform", "label":"Taifa courts as cultural patronage states", "date":"1031–1086", "loc":"Seville; Toledo; Zaragoza; Denia", "coords":[37.38,-5.99], "hint":"The taifa rulers compensate for political weakness with cultural patronage — al-Mu'tamid of Seville is himself a celebrated poet, al-Muqtadir of Zaragoza builds the Aljafería palace (extant, UNESCO), the Banu Hud patronise music and science; the taifa courts are the peak of Andalusian cultural production.", "tag":"DOCUMENT", "note":"Al-Mu'tamid's poetry: diwan preserved in multiple manuscripts; Nykl (1946), Hispano-Arabic Poetry. The Aljafería palace (c.1065): extant, Zaragoza (UNESCO). Al-Muqtadir's court: documented in Ibn Idhari. Scales (1994), The Fall of the Caliphate, ch.4–5. The Aljafería is the best-preserved taifa palace — its archaeology provides the primary material evidence for taifa court culture." }
+        {
+          "id": "o1",
+          "group": "Constitutional Law",
+          "label": "Capitulations of Granada — the broken promise",
+          "date": "2 Jan 1492",
+          "loc": "Santa Fe (signed); Granada",
+          "coords": [
+            37.18,
+            -3.59
+          ],
+          "hint": "The capitulations guaranteeing Muslims religious freedom, property rights and continued use of mosques are signed before the surrender — within a decade Archbishop Cisneros forces mass baptisms; the capitulations are formally the founding document of Spain's broken covenant with its Muslim population.",
+          "tag": "LAW",
+          "note": "HARD ANCHOR: Capitulations text: AGS Patronato Real, leg.11, doc.27. Translated in Constable (1997), Medieval Iberia. The violation: Cisneros's forced conversions from 1499 — documented in his biographers and in AGS. Harvey (1990), Islamic Spain: the standard study of the Mudéjar and Morisco experience. The capitulations and their violation are the clearest documented case of Spain's treatment of its Muslim subjects."
+        },
+        {
+          "id": "o2",
+          "group": "Administrative Reform",
+          "label": "Taifa courts as cultural patronage states",
+          "date": "1031–1086",
+          "loc": "Seville; Toledo; Zaragoza; Denia",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "The taifa rulers compensate for political weakness with cultural patronage — al-Mu'tamid of Seville is himself a celebrated poet, al-Muqtadir of Zaragoza builds the Aljafería palace (extant, UNESCO), the Banu Hud patronise music and science; the taifa courts are the peak of Andalusian cultural production.",
+          "tag": "DOCUMENT",
+          "note": "Al-Mu'tamid's poetry: diwan preserved in multiple manuscripts; Nykl (1946), Hispano-Arabic Poetry. The Aljafería palace (c.1065): extant, Zaragoza (UNESCO). Al-Muqtadir's court: documented in Ibn Idhari. Scales (1994), The Fall of the Caliphate, ch.4–5. The Aljafería is the best-preserved taifa palace — its archaeology provides the primary material evidence for taifa court culture."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
       "subtitle": "Almohad orthodoxy, Sufi mysticism and Ibn Arabi",
       "entries": [
-        { "id":"r1", "group":"Islam", "label":"Ibn Arabi — the greatest Sufi mystic of Islam", "date":"1165–1240", "loc":"Murcia (born); Seville (educated); Damascus (died)", "coords":[37.98,-1.13], "hint":"Muhyi al-Din ibn Arabi is born in Murcia, educated in Seville, and becomes the most influential mystic philosopher in Islamic history — his Fusus al-Hikam (Bezels of Wisdom) and Al-Futuhat al-Makkiyya (Meccan Revelations) synthesise Sufi thought; he is the 'Greatest Sheikh' (al-Shaykh al-Akbar).", "tag":"TEXT", "note":"Al-Futuhat al-Makkiyya (Meccan Revelations): multiple manuscripts; Chittick (1989), The Sufi Path of Knowledge: the standard English study. Fusus al-Hikam: multiple manuscripts; Austin (1980), Bezels of Wisdom. Ibn Arabi's Andalusian origins: documented in his autobiography Ruh al-quds. Austin (1971), Sufis of Andalusia: documents his Andalusian teachers. Ibn Arabi spent his formative years in al-Andalus before leaving for Mecca in 1200." },
-        { "id":"r2", "group":"Islam", "label":"The Alhambra — a palace of Quranic inscriptions", "date":"c.1238–1390", "loc":"Granada (extant, UNESCO)", "coords":[37.18,-3.59], "hint":"The Alhambra's walls are covered with over 10,000 Arabic inscriptions — Quranic verses, poems, and the repeated phrase 'There is no victor but God' (the Nasrid motto); the inscriptions make the palace simultaneously an architecture of power and a theological statement.", "tag":"MONUMENT", "note":"Extant (UNESCO 1984). The inscriptions corpus: Puerta Vílchez (2010), Reading the Alhambra — the comprehensive catalogue of all inscriptions. The Ibn Zamrak poems (Muhammad V's court poet): primary source for the palace's self-understanding. The phrase 'Wa la ghalib illa Allah' (No victor but God): appears hundreds of times — the Nasrid motto. Grabar (1978), The Alhambra: the foundational art-historical analysis." }
+        {
+          "id": "r1",
+          "group": "Islam",
+          "label": "Ibn Arabi — the greatest Sufi mystic of Islam",
+          "date": "1165–1240",
+          "loc": "Murcia (born); Seville (educated); Damascus (died)",
+          "coords": [
+            37.98,
+            -1.13
+          ],
+          "hint": "Muhyi al-Din ibn Arabi is born in Murcia, educated in Seville, and becomes the most influential mystic philosopher in Islamic history — his Fusus al-Hikam (Bezels of Wisdom) and Al-Futuhat al-Makkiyya (Meccan Revelations) synthesise Sufi thought; he is the 'Greatest Sheikh' (al-Shaykh al-Akbar).",
+          "tag": "TEXT",
+          "note": "Al-Futuhat al-Makkiyya (Meccan Revelations): multiple manuscripts; Chittick (1989), The Sufi Path of Knowledge: the standard English study. Fusus al-Hikam: multiple manuscripts; Austin (1980), Bezels of Wisdom. Ibn Arabi's Andalusian origins: documented in his autobiography Ruh al-quds. Austin (1971), Sufis of Andalusia: documents his Andalusian teachers. Ibn Arabi spent his formative years in al-Andalus before leaving for Mecca in 1200."
+        },
+        {
+          "id": "r2",
+          "group": "Islam",
+          "label": "The Alhambra — a palace of Quranic inscriptions",
+          "date": "c.1238–1390",
+          "loc": "Granada (extant, UNESCO)",
+          "coords": [
+            37.18,
+            -3.59
+          ],
+          "hint": "The Alhambra's walls are covered with over 10,000 Arabic inscriptions — Quranic verses, poems, and the repeated phrase 'There is no victor but God' (the Nasrid motto); the inscriptions make the palace simultaneously an architecture of power and a theological statement.",
+          "tag": "MONUMENT",
+          "note": "Extant (UNESCO 1984). The inscriptions corpus: Puerta Vílchez (2010), Reading the Alhambra — the comprehensive catalogue of all inscriptions. The Ibn Zamrak poems (Muhammad V's court poet): primary source for the palace's self-understanding. The phrase 'Wa la ghalib illa Allah' (No victor but God): appears hundreds of times — the Nasrid motto. Grabar (1978), The Alhambra: the foundational art-historical analysis."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "The Alhambra, taifa poetry and the last flowering of Andalusian culture",
       "entries": [
-        { "id":"a1", "group":"Architecture", "label":"The Alhambra — the palace of water, light and inscription", "date":"c.1238–1390 (main construction)", "loc":"Granada (extant, UNESCO)", "coords":[37.18,-3.59], "hint":"The Alhambra is the most complete surviving medieval Islamic palace complex in the world — the Comares Hall (throne room), Court of the Lions (begun 1370s), Generalife gardens; its system of water channels, stucco decoration and calligraphic inscriptions are the primary evidence for Nasrid court culture.", "tag":"MONUMENT", "note":"Extant (UNESCO 1984). Ongoing ALHAMAT archaeological project (Cambridge 2021–2022): documents building phases using radiocarbon dating — published Antiquity 2025. Grabar (1978), The Alhambra: the foundational study. The Court of the Lions: dated by Ibn Zamrak's inscribed poems. Dodds (1992), Architecture and Ideology in Early Medieval Spain: contextualises within Iberian tradition." },
-        { "id":"a2", "group":"Literature & Poetry", "label":"Al-Mu'tamid of Seville — the poet-king", "date":"c.1040–1095", "loc":"Seville (court); Aghmat, Morocco (exile and death)", "coords":[37.38,-5.99], "hint":"Al-Mu'tamid ibn Abbad, ruler of Seville (1069–1091), is the greatest poet of the taifa era — he writes with his court poet Ibn Ammar, rules a brilliant court, and ends his life in exile in Morocco after inviting the Almoravids who then depose him; his elegy from exile is one of the most moving Arabic poems.", "tag":"LITERATURE", "note":"Al-Mu'tamid's diwan: manuscripts preserved in multiple Arabic libraries; Nykl (1946), Hispano-Arabic Poetry: selections translated. His elegy from Moroccan exile: widely anthologised. The story of his relationship with Ibn Ammar: documented in biographical sources. He died in Aghmat, Morocco, 1095 — his tomb became a pilgrimage site. García Gómez (1944), Poemas arabigoandaluces: the standard Spanish anthology." },
-        { "id":"a3", "group":"Music & Performance", "label":"Andalusian musical tradition — the nuba system", "date":"c.1031–1492", "loc":"Al-Andalus; transmitted to North Africa", "coords":[37.18,-3.6], "hint":"The Andalusian musical tradition (al-musiqa al-andalusiyya) develops in the taifa and Nasrid periods — the nuba (suite) system organises compositions by mode and rhythm; after 1492 the tradition is carried to Morocco, Algeria and Tunisia by exiles where it still survives as living performance practice.", "tag":"LITERATURE", "note":"The nuba system: documented in Ibn Khaldun's Muqaddima (14th c.) — the most detailed medieval account. Farmer (1929), A History of Arabian Music: the standard older study. The survival in North Africa: documented in the contemporary practice of the Moroccan Andalusian orchestra. The connection to Ziryab's 9th-c. foundations: traced through Arabic musical theory treatises. Reynolds (2008), The Cambridge Companion to Medieval Music ch.12." }
+        {
+          "id": "a1",
+          "group": "Architecture",
+          "label": "The Alhambra — the palace of water, light and inscription",
+          "date": "c.1238–1390 (main construction)",
+          "loc": "Granada (extant, UNESCO)",
+          "coords": [
+            37.18,
+            -3.59
+          ],
+          "hint": "The Alhambra is the most complete surviving medieval Islamic palace complex in the world — the Comares Hall (throne room), Court of the Lions (begun 1370s), Generalife gardens; its system of water channels, stucco decoration and calligraphic inscriptions are the primary evidence for Nasrid court culture.",
+          "tag": "MONUMENT",
+          "note": "Extant (UNESCO 1984). Ongoing ALHAMAT archaeological project (Cambridge 2021–2022): documents building phases using radiocarbon dating — published Antiquity 2025. Grabar (1978), The Alhambra: the foundational study. The Court of the Lions: dated by Ibn Zamrak's inscribed poems. Dodds (1992), Architecture and Ideology in Early Medieval Spain: contextualises within Iberian tradition."
+        },
+        {
+          "id": "a2",
+          "group": "Literature & Poetry",
+          "label": "Al-Mu'tamid of Seville — the poet-king",
+          "date": "c.1040–1095",
+          "loc": "Seville (court); Aghmat, Morocco (exile and death)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "Al-Mu'tamid ibn Abbad, ruler of Seville (1069–1091), is the greatest poet of the taifa era — he writes with his court poet Ibn Ammar, rules a brilliant court, and ends his life in exile in Morocco after inviting the Almoravids who then depose him; his elegy from exile is one of the most moving Arabic poems.",
+          "tag": "LITERATURE",
+          "note": "Al-Mu'tamid's diwan: manuscripts preserved in multiple Arabic libraries; Nykl (1946), Hispano-Arabic Poetry: selections translated. His elegy from Moroccan exile: widely anthologised. The story of his relationship with Ibn Ammar: documented in biographical sources. He died in Aghmat, Morocco, 1095 — his tomb became a pilgrimage site. García Gómez (1944), Poemas arabigoandaluces: the standard Spanish anthology."
+        },
+        {
+          "id": "a3",
+          "group": "Music & Performance",
+          "label": "Andalusian musical tradition — the nuba system",
+          "date": "c.1031–1492",
+          "loc": "Al-Andalus; transmitted to North Africa",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "The Andalusian musical tradition (al-musiqa al-andalusiyya) develops in the taifa and Nasrid periods — the nuba (suite) system organises compositions by mode and rhythm; after 1492 the tradition is carried to Morocco, Algeria and Tunisia by exiles where it still survives as living performance practice.",
+          "tag": "LITERATURE",
+          "note": "The nuba system: documented in Ibn Khaldun's Muqaddima (14th c.) — the most detailed medieval account. Farmer (1929), A History of Arabian Music: the standard older study. The survival in North Africa: documented in the contemporary practice of the Moroccan Andalusian orchestra. The connection to Ziryab's 9th-c. foundations: traced through Arabic musical theory treatises. Reynolds (2008), The Cambridge Companion to Medieval Music ch.12."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "Averroës, Maimonides and the philosophical Golden Age",
       "entries": [
-        { "id":"t1", "group":"Philosophy", "label":"Averroës (Ibn Rushd) — Aristotle reaches Europe through Córdoba", "date":"1126–1198", "loc":"Córdoba (born, worked); Seville; Marrakesh (exiled)", "coords":[37.88,-4.78], "hint":"Ibn Rushd (Averroës) writes commentaries on virtually all of Aristotle's works between 1169 and 1195 — translated into Latin and Hebrew, they make Aristotle accessible to medieval Europe for the first time; his medical encyclopaedia Colliget becomes a European textbook; he is exiled by the Almohads in 1195.", "tag":"TEXT", "note":"Averroës's commentaries (1169–1195): Arabic originals and Latin translations. Major Latin manuscripts: BnF and British Library. Colliget (Al-Kulliyat fi al-Tibb): translated as Colliget — European university textbook for centuries. The exile of 1195: documented in Arabic sources. Taylor & López-Farjeat (2016), The Routledge Companion to Islamic Philosophy: the standard survey. The 'Commentator' sobriquet (Dante calls him this): documented in medieval European sources." },
-        { "id":"t2", "group":"Theology", "label":"Maimonides (Ibn Maymun) — Guide for the Perplexed", "date":"1138–1204", "loc":"Córdoba (born); Fez; Cairo (died)", "coords":[37.88,-4.78], "hint":"Moses ben Maimon (Maimonides) is born in Córdoba in 1138 — forced to flee the Almohad persecution, he eventually settles in Egypt; his Guide for the Perplexed (c.1190) reconciles Aristotelian philosophy with Jewish theology and becomes the most influential medieval Jewish philosophical text.", "tag":"TEXT", "note":"Guide for the Perplexed (Dalalat al-Ha'irin, c.1190): Arabic original; Hebrew translation by Samuel ibn Tibbon (1204) — BnF. Maimonides's birth in Córdoba 1138: documented. The Almohad persecution forcing his family to flee: documented in his own writings. Pines (1963), Guide of the Perplexed (Chicago): the standard English translation. His Mishneh Torah (Hebrew law code, 1180): the other major work." },
-        { "id":"t3", "group":"History & Chronicle", "label":"Ibn Khaldun — the Muqaddima and the philosophy of history", "date":"1332–1406", "loc":"Tunis (born); Fez; Granada (visited); Cairo (died)", "coords":[37.18,-3.6], "hint":"Ibn Khaldun visits Granada briefly but his Muqaddima (Prolegomena, 1377) — the introduction to his universal history — is deeply shaped by his Andalusian cultural inheritance; it is the first work to propose a cyclical theory of history based on social cohesion (asabiyya) and is sometimes called the first work of sociology.", "tag":"TEXT", "note":"Muqaddima (1377): Arabic manuscripts in multiple libraries; Rosenthal translation (Princeton 1967), 3 vols. Ibn Khaldun's visit to Granada and meeting with Pedro I of Castile: documented in his Autobiography (Ta'rif). Lacoste (1984), Ibn Khaldun: the Birth of History and the Past of the Third World: the standard modern study. His Andalusian connections: documented in the autobiography." }
+        {
+          "id": "t1",
+          "group": "Philosophy",
+          "label": "Averroës (Ibn Rushd) — Aristotle reaches Europe through Córdoba",
+          "date": "1126–1198",
+          "loc": "Córdoba (born, worked); Seville; Marrakesh (exiled)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Ibn Rushd (Averroës) writes commentaries on virtually all of Aristotle's works between 1169 and 1195 — translated into Latin and Hebrew, they make Aristotle accessible to medieval Europe for the first time; his medical encyclopaedia Colliget becomes a European textbook; he is exiled by the Almohads in 1195.",
+          "tag": "TEXT",
+          "note": "Averroës's commentaries (1169–1195): Arabic originals and Latin translations. Major Latin manuscripts: BnF and British Library. Colliget (Al-Kulliyat fi al-Tibb): translated as Colliget — European university textbook for centuries. The exile of 1195: documented in Arabic sources. Taylor & López-Farjeat (2016), The Routledge Companion to Islamic Philosophy: the standard survey. The 'Commentator' sobriquet (Dante calls him this): documented in medieval European sources."
+        },
+        {
+          "id": "t2",
+          "group": "Theology",
+          "label": "Maimonides (Ibn Maymun) — Guide for the Perplexed",
+          "date": "1138–1204",
+          "loc": "Córdoba (born); Fez; Cairo (died)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Moses ben Maimon (Maimonides) is born in Córdoba in 1138 — forced to flee the Almohad persecution, he eventually settles in Egypt; his Guide for the Perplexed (c.1190) reconciles Aristotelian philosophy with Jewish theology and becomes the most influential medieval Jewish philosophical text.",
+          "tag": "TEXT",
+          "note": "Guide for the Perplexed (Dalalat al-Ha'irin, c.1190): Arabic original; Hebrew translation by Samuel ibn Tibbon (1204) — BnF. Maimonides's birth in Córdoba 1138: documented. The Almohad persecution forcing his family to flee: documented in his own writings. Pines (1963), Guide of the Perplexed (Chicago): the standard English translation. His Mishneh Torah (Hebrew law code, 1180): the other major work."
+        },
+        {
+          "id": "t3",
+          "group": "History & Chronicle",
+          "label": "Ibn Khaldun — the Muqaddima and the philosophy of history",
+          "date": "1332–1406",
+          "loc": "Tunis (born); Fez; Granada (visited); Cairo (died)",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "Ibn Khaldun visits Granada briefly but his Muqaddima (Prolegomena, 1377) — the introduction to his universal history — is deeply shaped by his Andalusian cultural inheritance; it is the first work to propose a cyclical theory of history based on social cohesion (asabiyya) and is sometimes called the first work of sociology.",
+          "tag": "TEXT",
+          "note": "Muqaddima (1377): Arabic manuscripts in multiple libraries; Rosenthal translation (Princeton 1967), 3 vols. Ibn Khaldun's visit to Granada and meeting with Pedro I of Castile: documented in his Autobiography (Ta'rif). Lacoste (1984), Ibn Khaldun: the Birth of History and the Past of the Third World: the standard modern study. His Andalusian connections: documented in the autobiography."
+        },
+        {
+          "id": "t4",
+          "group": "History & Chronicle",
+          "label": "Ibn al-Khatib — vizier, historian and voice of the Alhambra",
+          "date": "1313–1374",
+          "loc": "Granada (court of Yusuf I and Muhammad V); Fez (exile and death)",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "Lisan al-Din ibn al-Khatib is the dominant intellectual figure of Nasrid Granada — chief minister (vizier) under Yusuf I and Muhammad V, author of the Ihata (the definitive history of Granada), and poet whose verses are inscribed on the walls of the Alhambra's Court of the Myrtles; his dramatic fall from favour, exile and execution in Fez embodies late Nasrid political volatility.",
+          "tag": "TEXT",
+          "note": "The Ihata fi akhbar Gharnata (History of Granada): multiple Arabic manuscripts — the definitive history of the Nasrid kingdom. Ibn al-Khatib's poems in the Alhambra: identified and documented in Puerta Vílchez (2010), Reading the Alhambra — his verses appear in the Court of the Myrtles. His execution in Fez 1374: documented in Arabic sources — strangled in prison on charges of heresy brought by enemies in Granada. Harvey (1992), Islamic Spain 1250–1500 ch.8: the standard English account."
+        }
       ]
     },
     {
-      "id": "economy", "label": "Economy", "icon": "💰",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Trade, silk and the economy of the last Islamic state",
       "entries": [
-        { "id":"s1", "group":"Trade & Commerce", "label":"Granada's silk economy — the maristán and the silk market", "date":"c.1238–1492", "loc":"Granada (Alcaicería silk market; maristán hospital)", "coords":[37.18,-3.6], "hint":"The Nasrid Emirate of Granada sustains its independence partly through a sophisticated silk economy — the Vega de Granada produces raw silk exported across the Mediterranean; the Alcaicería (silk market) and the maristán (hospital funded by silk revenues) document a complex urban economy.", "tag":"Trade & Commerce", "note":"The Alcaicería: documented in Arabic sources and urban archaeology. The maristán (hospital, c.1367): foundation inscription survives — it records that Muhammad V funded it from silk revenues (Puerta Vílchez 2010). Constable (1994), Trade and Traders in Muslim Spain: the standard economic study. The silk export documentation: Genoese merchant records (Archivio di Stato, Genoa) document Granadan silk exports." },
-        { "id":"s2", "group":"Epidemic & Demographic", "label":"Black Death in al-Andalus — Ibn Khatima's treatise", "date":"1348–1351", "loc":"Almería; Granada; al-Andalus", "coords":[36.83,-2.46], "hint":"The Black Death reaches al-Andalus via Almería in 1348 — the Almerian physician Ibn Khatima writes the first Arabic treatise specifically on plague, proposing a theory of contagion through tiny bodies entering the body; his Andalusian colleague Ibn al-Khatib writes a second treatise independently reaching similar conclusions.", "tag":"Epidemic & Demographic", "note":"Ibn Khatima, Tahqiq al-naba' an amr al-waba' (1349): Arabic manuscript — Biblioteca Nacional de España. Ibn al-Khatib, Muqni'at al-sa'il (c.1362): also Arabic manuscript. Both propose germ-like theories of contagion 500 years before Pasteur. Dols (1977), The Black Death in the Middle East: the standard study. The Tàrrega pogrom 1348 (see Lives): documented genetically (MDPI 2026 study)." }
+        {
+          "id": "s1",
+          "group": "Trade & Commerce",
+          "label": "Granada's silk economy — the maristán and the silk market",
+          "date": "c.1238–1492",
+          "loc": "Granada (Alcaicería silk market; maristán hospital)",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "The Nasrid Emirate of Granada sustains its independence partly through a sophisticated silk economy — the Vega de Granada produces raw silk exported across the Mediterranean; the Alcaicería (silk market) and the maristán (hospital funded by silk revenues) document a complex urban economy.",
+          "tag": "Trade & Commerce",
+          "note": "The Alcaicería: documented in Arabic sources and urban archaeology. The maristán (hospital, c.1367): foundation inscription survives — it records that Muhammad V funded it from silk revenues (Puerta Vílchez 2010). Constable (1994), Trade and Traders in Muslim Spain: the standard economic study. The silk export documentation: Genoese merchant records (Archivio di Stato, Genoa) document Granadan silk exports."
+        },
+        {
+          "id": "s2",
+          "group": "Epidemic & Demographic",
+          "label": "Black Death in al-Andalus — Ibn Khatima's treatise",
+          "date": "1348–1351",
+          "loc": "Almería; Granada; al-Andalus",
+          "coords": [
+            36.83,
+            -2.46
+          ],
+          "hint": "The Black Death reaches al-Andalus via Almería in 1348 — the Almerian physician Ibn Khatima writes the first Arabic treatise specifically on plague, proposing a theory of contagion through tiny bodies entering the body; his Andalusian colleague Ibn al-Khatib writes a second treatise independently reaching similar conclusions.",
+          "tag": "Epidemic & Demographic",
+          "note": "Ibn Khatima, Tahqiq al-naba' an amr al-waba' (1349): Arabic manuscript — Biblioteca Nacional de España. Ibn al-Khatib, Muqni'at al-sa'il (c.1362): also Arabic manuscript. Both propose germ-like theories of contagion 500 years before Pasteur. Dols (1977), The Black Death in the Middle East: the standard study. The Tàrrega pogrom 1348 (see Lives): documented genetically (MDPI 2026 study)."
+        }
       ]
     },
     {
-      "id": "exchange", "label": "Exchange", "icon": "🌐",
-      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
       "subtitle": "Toledo translations, diplomatic exchange and the Andalusian diaspora",
       "entries": [
-        { "id":"ex1", "group":"Intellectual Exchange", "label":"Toledo school — Averroës translated into Latin", "date":"c.1150–1230", "loc":"Toledo", "coords":[39.86,-4.03], "hint":"After Toledo's reconquest (1085) the translation school reaches its peak in the 12th century — Gerard of Cremona translates Averroës's commentaries, al-Zahrawi's surgical treatise, and Ptolemy's Almagest; these translations make Andalusian scholarship the foundation of European university curricula.", "tag":"DOCUMENT", "note":"Gerard of Cremona's translations of Averroës: Latin manuscripts in BnF and British Library. Michael Scot's translations (c.1217): also important. Burnett (2001), 'The Coherence of the Arabic-Latin Translation Program in Toledo': the standard study. The impact on European universities: Averroës becomes required reading at Paris by the 1240s — documented in University of Paris statutes." },
-        { "id":"ex2", "group":"Migration & Settlement", "label":"The Andalusian diaspora — knowledge carries west and east", "date":"1085–1492", "loc":"Morocco; Tunisia; Egypt; Ottoman Empire", "coords":[34.02,-6.85], "hint":"Each Christian conquest sends waves of Andalusian scholars and artisans into the Islamic world — after 1492, the entire surviving Muslim community of Spain (Mudejars) is expelled or forced to convert; they carry Andalusian architecture, music, cuisine and scholarship to Morocco and the Ottoman Empire.", "tag":"MIGRATION", "note":"The Nasrid refugees after 1492: Harvey (1990), Islamic Spain — the standard study. The Andalusian architectural influence in Morocco: the Bou Inania madrasa in Fez (1351) uses craftsmen from Granada — documented. The survival of Andalusian music in North Africa: Reynolds (2008). The genetic evidence for the diaspora: recent DNA studies document Sephardic and Morisco genetic clusters in Morocco and Turkey." }
+        {
+          "id": "ex1",
+          "group": "Intellectual Exchange",
+          "label": "Toledo school — Averroës translated into Latin",
+          "date": "c.1150–1230",
+          "loc": "Toledo",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "After Toledo's reconquest (1085) the translation school reaches its peak in the 12th–13th century — Michael Scot translates Averroës's Aristotle commentaries into Latin (c.1217, working in Toledo then Italy), Herman the German continues the work; these translations make Andalusian scholarship the foundation of European university curricula.",
+          "tag": "DOCUMENT",
+          "note": "Michael Scot's translations of Averroës (c.1217 onwards): Latin manuscripts in BnF and British Library — he translated the major commentaries on Aristotle while working in Toledo and Sicily. Herman the German (Hermannus Alemannus, mid-13th c.): further translations. Gerard of Cremona (d.1187) did not translate Averroës — chronologically impossible as Averroës's major commentaries (1169–1195) postdate Cremona's death. Burnett (2001), 'The Coherence of the Arabic-Latin Translation Program in Toledo'. The impact on European universities: Averroës becomes required reading at Paris by the 1240s."
+        },
+        {
+          "id": "ex2",
+          "group": "Migration & Settlement",
+          "label": "The Andalusian diaspora — knowledge carries west and east",
+          "date": "1085–1492",
+          "loc": "Morocco; Tunisia; Egypt; Ottoman Empire",
+          "coords": [
+            34.02,
+            -6.85
+          ],
+          "hint": "Each Christian conquest sends waves of Andalusian scholars and artisans into the Islamic world — after 1492, the entire surviving Muslim community of Spain (Mudejars) is expelled or forced to convert; they carry Andalusian architecture, music, cuisine and scholarship to Morocco and the Ottoman Empire.",
+          "tag": "MIGRATION",
+          "note": "The Nasrid refugees after 1492: Harvey (1990), Islamic Spain — the standard study. The Andalusian architectural influence in Morocco: the Bou Inania madrasa in Fez (1351) uses craftsmen from Granada — documented. The survival of Andalusian music in North Africa: Reynolds (2008). The genetic evidence for the diaspora: recent DNA studies document Sephardic and Morisco genetic clusters in Morocco and Turkey."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Granada in Mediterranean geopolitics",
       "entries": [
-        { "id":"w1", "group":"Geopolitical Shift", "label":"1492 — three events in one year", "date":"1492", "loc":"Granada; Palos de Moguer; Alhambra", "coords":[37.18,-3.6], "hint":"1492 is the hinge year of Spanish history: Granada falls (2 January), the Jews are expelled (31 March Alhambra Decree), and Columbus departs for the Americas (3 August) — all three authorised by the same monarchs from the same palace; the end of medieval Spain and the beginning of the global empire.", "tag":"EVENT", "note":"The Alhambra Decree (31 Mar 1492): AGS Patronato Real — expelling all unbaptised Jews. Columbus's departure: documented in his journal (copy: BnF). The co-incidence of these three events in one year from the Alhambra: the central argument of Colon (2004), 1492: The Poetics of Diaspora. The three events' connection: explicitly noted by contemporaries including Peter Martyr d'Anghiera in letters dated that year." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "1492 — three events in one year",
+          "date": "1492",
+          "loc": "Granada; Palos de Moguer; Alhambra",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "1492 is the hinge year of Spanish history: Granada falls (2 January), the Jews are expelled (31 March Alhambra Decree), and Columbus departs for the Americas (3 August) — all three authorised by the same monarchs from the same palace; the end of medieval Spain and the beginning of the global empire.",
+          "tag": "EVENT",
+          "note": "The Alhambra Decree (31 Mar 1492): AGS Patronato Real — expelling all unbaptised Jews. Columbus's departure: documented in his journal (copy: BnF). The co-incidence of these three events in one year from the Alhambra: the central argument of Colon (2004), 1492: The Poetics of Diaspora. The three events' connection: explicitly noted by contemporaries including Peter Martyr d'Anghiera in letters dated that year."
+        }
       ]
     },
     {
-      "id": "lives", "label": "Lives", "icon": "🪞",
-      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
       "entries": [
-        { "id":"lv1", "group":"Persecuted Communities", "label":"Pogroms of 1391 — the turning point for Iberian Jews", "date":"1391", "loc":"Seville (origin); Córdoba; Toledo; Barcelona; Valencia (spread)", "coords":[37.38,-5.99], "hint":"A wave of pogroms sweeps the Iberian Peninsula in 1391 — beginning in Seville in June and spreading across Castile and Aragon; thousands killed, many more forced to convert; the converso class created by forced baptism will be persecuted by the Inquisition for generations; the 1391 pogroms directly cause the 1492 expulsion.", "tag":"CATEGORICAL SHIFT", "note":"The Seville pogrom June 1391: documented in contemporary chronicles and municipal records (Archivo Municipal de Sevilla). The spread across Spain: Ibn Khaldun's account (he was in North Africa, documenting refugees) — Muqaddima appendix. Baer (1961), A History of the Jews in Christian Spain Vol.II: the standard study. The Tàrrega 1348 mass graves: MDPI genetic study (March 2026) — DNA evidence confirming medieval Jewish identity of victims. The forced conversions' scale: Beinart (2002) estimates 100,000+ converted in 1391." },
-        { "id":"lv2", "group":"Women's Agency", "label":"The 'lady of the Alhambra' — Nasrid women in inscriptions", "date":"c.1238–1492", "loc":"Granada (Alhambra)", "coords":[37.18,-3.59], "hint":"The Alhambra's inscriptions include dedications to royal women — the Mexuar hall carries inscriptions referencing the sultan's mother; Nasrid women are documented as patrons of religious foundations; the Generalife gardens are associated with female royal use; the evidence is fragmented but present.", "tag":"EVIDENCE", "note":"Alhambra inscriptions mentioning royal women: Puerta Vílchez (2010) catalogues them. The patronage of religious foundations by Nasrid women: Harvey (1992). The Generalife: its association with female royal quarters documented in Arabic literary sources. The Moroccan connection — Nasrid women's letters preserved in Moroccan archives (unpublished): noted in Harvey (1992) as an under-researched area." },
-        { "id":"lv3", "group":"Same-Sex Practice & Law", "label":"Ibn Hazm — The Ring of the Dove", "date":"c.1022", "loc":"Córdoba; Almería (written in exile)", "coords":[36.83,-2.46], "hint":"Ibn Hazm's Tawq al-Hamama (The Ring of the Dove, c.1022) is a treatise on love including documented accounts of same-sex desire — written in exile after the fall of Córdoba; it discusses love between men with the same analytical framework as heterosexual love, without the condemnatory framework of later Islamic jurisprudence.", "tag":"EVIDENCE", "note":"Tawq al-Hamama (c.1022): Arabic manuscripts; Arberry translation (1953), The Ring of the Dove. Ibn Hazm was a courtier of the last Umayyad caliph — writing from direct observation. Pérès (1953), La poésie andalouse en arabe classique: contextualises the homoerotic poetry tradition. The text's frank treatment of same-sex desire: noted by Boswell (1980), Christianity, Social Tolerance and Homosexuality (uses it as evidence for medieval Islamic tolerance)." }
+        {
+          "id": "lv2",
+          "group": "Women's Agency",
+          "label": "The 'lady of the Alhambra' — Nasrid women in inscriptions",
+          "date": "c.1238–1492",
+          "loc": "Granada (Alhambra)",
+          "coords": [
+            37.18,
+            -3.59
+          ],
+          "hint": "The Alhambra's inscriptions include dedications to royal women — the Mexuar hall carries inscriptions referencing the sultan's mother; Nasrid women are documented as patrons of religious foundations; the Generalife gardens are associated with female royal use; the evidence is fragmented but present.",
+          "tag": "EVIDENCE",
+          "note": "Alhambra inscriptions mentioning royal women: Puerta Vílchez (2010) catalogues them. The patronage of religious foundations by Nasrid women: Harvey (1992). The Generalife: its association with female royal quarters documented in Arabic literary sources. The Moroccan connection — Nasrid women's letters preserved in Moroccan archives (unpublished): noted in Harvey (1992) as an under-researched area."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"taifas",         "icon":"⚜️","accent":"#1A5C1A","label":"Taifa Kingdoms (1031–1086)", "events":[
-      {"y":1031,"y2":1086,"l":"23 taifa kingdoms",              "entryId":"k1"}
-    ]},
-    {"id":"almoravids",    "icon":"⚜️","accent":"#0A3A0A","label":"Almoravid Dynasty (1086–1147)", "events":[
-      {"y":1086,"y2":1147,"l":"Almoravid dynasty",              "entryId":"k2"}
-    ]},
-    {"id":"almohads",      "icon":"⚜️","accent":"#062006","label":"Almohad Caliphate (1147–1228)", "events":[
-      {"y":1147,"y2":1228,"l":"Almohad caliphate",              "entryId":"k3"}
-    ]},
-    {"id":"nasrids",       "icon":"⚜️","accent":"#003A00","label":"Nasrid Emirate (1238–1492)", "events":[
-      {"y":1238,"y2":1273,"l":"Muhammad I — Granada founded",   "entryId":"k4"},
-      {"y":1354,"y2":1391,"l":"Muhammad V — Alhambra peak",    "entryId":"k5"},
-      {"y":1482,"y2":1492,"l":"Boabdil — last sultan",         "entryId":"k6"}
-    ]},
-    {"id":"conflict",      "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":1212,"l":"Las Navas — Almohad empire collapses",     "entryId":"c1"},
-      {"y":1236,"l":"Córdoba falls; Seville 1248",              "entryId":"c1"},
-      {"y":1481,"l":"Final Reconquista campaign",               "entryId":"c3"},
-      {"y":1492,"l":"Granada surrenders",                       "entryId":"c3"}
-    ]},
-    {"id":"order",         "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":1065,"l":"Aljafería palace — taifa patronage",       "entryId":"o2"},
-      {"y":1492,"l":"Capitulations — the broken promise",       "entryId":"o1"}
-    ]},
-    {"id":"belief",        "icon":"🙏","accent":"#1E8449","events":[
-      {"y":1165,"l":"Ibn Arabi born — greatest Sufi mystic",    "entryId":"r1"},
-      {"y":1370,"l":"Alhambra — palace of inscriptions",        "entryId":"r2"}
-    ]},
-    {"id":"expression",    "icon":"✨","accent":"#8D6E63","events":[
-      {"y":1069,"l":"Al-Mu'tamid — poet-king of Seville",       "entryId":"a2"},
-      {"y":1238,"l":"Alhambra construction begins",             "entryId":"a1"},
-      {"y":1370,"l":"Court of the Lions completed",             "entryId":"a1"},
-      {"y":1031,"l":"Andalusian nuba music tradition",          "entryId":"a3"}
-    ]},
-    {"id":"thought",       "icon":"💡","accent":"#566573","events":[
-      {"y":1138,"l":"Maimonides born in Córdoba",               "entryId":"t2"},
-      {"y":1126,"l":"Averroës born in Córdoba",                 "entryId":"t1"},
-      {"y":1169,"l":"Averroës: Aristotle commentaries",         "entryId":"t1"},
-      {"y":1190,"l":"Maimonides: Guide for the Perplexed",      "entryId":"t2"},
-      {"y":1377,"l":"Ibn Khaldun: Muqaddima",                   "entryId":"t3"}
-    ]},
-    {"id":"economy",       "icon":"💰","accent":"#8B5E00","events":[
-      {"y":1238,"l":"Granada's silk economy",                   "entryId":"s1"},
-      {"y":1348,"l":"Black Death — Ibn Khatima's treatise",     "entryId":"s2"}
-    ]},
-    {"id":"exchange",      "icon":"🌐","accent":"#148080","events":[
-      {"y":1150,"l":"Averroës translated in Toledo",            "entryId":"ex1"},
-      {"y":1492,"l":"Andalusian diaspora begins",               "entryId":"ex2"}
-    ]},
-    {"id":"world",         "icon":"🌍","accent":"#2471A3","events":[
-      {"y":1492,"l":"Granada falls; Jews expelled; Columbus",   "entryId":"w1"}
-    ]},
-    {"id":"lives",         "icon":"🪞","accent":"#7B4FA6","events":[
-      {"y":1022,"l":"Ibn Hazm: The Ring of the Dove",           "entryId":"lv3"},
-      {"y":1348,"l":"Black Death pogroms — Tàrrega 1348",       "entryId":"lv1"},
-      {"y":1391,"l":"Pogroms of 1391 — forced conversions",     "entryId":"lv1"}
-    ]}
+    {
+      "id": "taifas",
+      "icon": "⚜️",
+      "accent": "#1A5C1A",
+      "label": "Taifa Kingdoms (1031–1086)",
+      "events": [
+        {
+          "y": 1031,
+          "y2": 1086,
+          "l": "23 taifa kingdoms",
+          "entryId": "k1"
+        }
+      ]
+    },
+    {
+      "id": "almoravids",
+      "icon": "⚜️",
+      "accent": "#0A3A0A",
+      "label": "Almoravid Dynasty (1086–1147)",
+      "events": [
+        {
+          "y": 1086,
+          "y2": 1147,
+          "l": "Almoravid dynasty",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
+      "id": "almohads",
+      "icon": "⚜️",
+      "accent": "#062006",
+      "label": "Almohad Caliphate (1147–1228)",
+      "events": [
+        {
+          "y": 1147,
+          "y2": 1228,
+          "l": "Almohad caliphate",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "nasrids",
+      "icon": "⚜️",
+      "accent": "#003A00",
+      "label": "Nasrid Emirate (1238–1492)",
+      "events": [
+        {
+          "y": 1238,
+          "y2": 1273,
+          "l": "Muhammad I — Granada founded",
+          "entryId": "k4"
+        },
+        {
+          "y": 1354,
+          "y2": 1391,
+          "l": "Muhammad V — Alhambra peak",
+          "entryId": "k5"
+        },
+        {
+          "y": 1482,
+          "y2": 1492,
+          "l": "Boabdil — last sultan",
+          "entryId": "k6"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 1212,
+          "l": "Las Navas — Almohad empire collapses",
+          "entryId": "c1"
+        },
+        {
+          "y": 1236,
+          "l": "Córdoba falls; Seville 1248",
+          "entryId": "c1"
+        },
+        {
+          "y": 1264,
+          "l": "Mudéjar Revolt — mass expulsion of Muslims",
+          "entryId": "c5"
+        },
+        {
+          "y": 1340,
+          "l": "Battle of Río Salado — North Africa halted",
+          "entryId": "c4"
+        },
+        {
+          "y": 1481,
+          "l": "Final Reconquista campaign",
+          "entryId": "c3"
+        },
+        {
+          "y": 1482,
+          "l": "Nasrid civil wars — kingdom fractures",
+          "entryId": "c6"
+        },
+        {
+          "y": 1492,
+          "l": "Granada surrenders",
+          "entryId": "c3"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1065,
+          "l": "Aljafería palace — taifa patronage",
+          "entryId": "o2"
+        },
+        {
+          "y": 1492,
+          "l": "Capitulations — the broken promise",
+          "entryId": "o1"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 1165,
+          "l": "Ibn Arabi born — greatest Sufi mystic",
+          "entryId": "r1"
+        },
+        {
+          "y": 1370,
+          "l": "Alhambra — palace of inscriptions",
+          "entryId": "r2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 1069,
+          "l": "Al-Mu'tamid — poet-king of Seville",
+          "entryId": "a2"
+        },
+        {
+          "y": 1238,
+          "l": "Alhambra construction begins",
+          "entryId": "a1"
+        },
+        {
+          "y": 1370,
+          "l": "Court of the Lions completed",
+          "entryId": "a1"
+        },
+        {
+          "y": 1031,
+          "l": "Andalusian nuba music tradition",
+          "entryId": "a3"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 1126,
+          "l": "Averroës born in Córdoba",
+          "entryId": "t1"
+        },
+        {
+          "y": 1138,
+          "l": "Maimonides born in Córdoba",
+          "entryId": "t2"
+        },
+        {
+          "y": 1169,
+          "l": "Averroës: Aristotle commentaries",
+          "entryId": "t1"
+        },
+        {
+          "y": 1190,
+          "l": "Maimonides: Guide for the Perplexed",
+          "entryId": "t2"
+        },
+        {
+          "y": 1350,
+          "l": "Ibn al-Khatib — vizier and historian of Granada",
+          "entryId": "t4"
+        },
+        {
+          "y": 1377,
+          "l": "Ibn Khaldun: Muqaddima",
+          "entryId": "t3"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 1238,
+          "l": "Granada's silk economy",
+          "entryId": "s1"
+        },
+        {
+          "y": 1348,
+          "l": "Black Death — Ibn Khatima's treatise",
+          "entryId": "s2"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 1150,
+          "l": "Averroës translated in Toledo",
+          "entryId": "ex1"
+        },
+        {
+          "y": 1492,
+          "l": "Andalusian diaspora begins",
+          "entryId": "ex2"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1492,
+          "l": "Granada falls; Jews expelled; Columbus",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": []
+    }
   ]
 }
