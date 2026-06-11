@@ -423,3 +423,62 @@ The Spain folios oscillate between peninsular and global imperial scope. Colonia
 
 ### Primary source discipline — modern anchors
 Entries anchoring to **modern legislation** (e.g. Historical Memory Law 2007) or **modern academic debates** (e.g. convivencia historiography) as their PRIMARY source violate the methodology. These may be referenced as **secondary interpretive frameworks** but the primary anchor must be a medieval/contemporary source: a court record, treaty text, council act, or dated chronicle. Flag this explicitly in the note field.
+
+---
+
+## STRUCTURAL INVARIANTS — apply to every folio without exception
+
+### 1. Canonical category order (11 categories, always in this sequence)
+Every folio MUST contain all 11 categories in this exact order:
+1. ⚜️  power
+2. ⚔️  conflict
+3. ⚖️  order
+4. 🙏  belief
+5. ✨  expression
+6. 💡  thought
+7. 💰  economy
+8. ⚙️  technology
+9. 🌐  exchange
+10. 🌍  world
+11. 🪞  lives
+
+Technology was historically generated as a late addition and ends up appended at the end — always explicitly insert it at position 8. If a folio genuinely has no technology content, add an empty stub with the correct id/label/icon so the category bar renders.
+
+### 2. Timeline lane order
+Timeline lanes must mirror the category order above. The power category generates TWO lanes — a span lane for dynasties/rulers (e.g. "bourbon-kings") followed immediately by a span lane for prime ministers or equivalent executives (e.g. "prime-ministers"). This gives:
+- [dynasty spans]
+- [executive spans]  
+- conflict
+- order
+- belief
+- expression
+- thought
+- economy
+- technology
+- exchange
+- world
+- lives
+
+Belief and Thought lanes are frequently omitted — they must always be present with events if the category has entries.
+
+### 3. Chronological order within categories
+All entries within every category must be sorted by date ascending (oldest first). The ONE exception is the power category: entries are sorted by GROUP first (groups appear in historical sequence), then by date within each group. The sort key for all entries is the first 4-digit year found in the `date` field.
+
+### 4. Subsistence → Economy
+The category id is `economy` (icon 💰). The old id `subsistence` must never be used. If any folio still has `subsistence`, rename it globally before committing.
+
+### 5. Open-ended timeline events
+Any entry whose `date` field contains "present", "today", "ongoing" or "–present" should have its corresponding timeline event set with `y2: 2026` so it renders as a bar reaching the right edge of the timeline rather than an isolated dot.
+
+### 6. Validation checklist before finalising any folio
+Run this check mentally before saving:
+- [ ] All 11 categories present in canonical order?
+- [ ] Technology category populated (even if stub)?
+- [ ] All entries sorted chronologically within categories?
+- [ ] All timeline lanes present and ordered?
+- [ ] Belief and Thought lanes present with events?
+- [ ] No `subsistence` category ids?
+- [ ] Open-ended events have y2=2026?
+- [ ] No duplicate entry ids?
+- [ ] No broken timeline entryId references?
+
