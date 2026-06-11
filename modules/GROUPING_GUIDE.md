@@ -467,8 +467,12 @@ All entries within every category must be sorted by date ascending (oldest first
 ### 4. Subsistence → Economy
 The category id is `economy` (icon 💰). The old id `subsistence` must never be used. If any folio still has `subsistence`, rename it globally before committing.
 
-### 5. Open-ended timeline events
-Any entry whose `date` field contains "present", "today", "ongoing" or "–present" should have its corresponding timeline event set with `y2: 2026` so it renders as a bar reaching the right edge of the timeline rather than an isolated dot.
+### 5. Span bars: rulers and PMs only
+`y2` values should only be set on events in the **dynasty/ruler lane** and the **prime-ministers lane** (or equivalent executive span lanes). Every other lane uses dots — including Economy, Technology, Exchange, Expression, and Lives — even when the entry is ongoing.
+
+The reason: bars encode *duration as meaningful information*. For a PM, how long they governed is genuinely significant data (14 years of González vs 7 of Aznar). For a trend, a movement, or a structural condition, a bar reaching 2026 adds false precision — it implies a defined endpoint. A dot at the start year says "this begins here" clearly enough.
+
+The current convention for open-ended rulers/PMs: set `y2: 2026` on their timeline event so the bar reaches the right edge of the visible timeline. All other events: no y2, dots only.
 
 ### 6. Validation checklist before finalising any folio
 Run this check mentally before saving:
