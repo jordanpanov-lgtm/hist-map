@@ -84,21 +84,6 @@
           "note": "HARD ANCHOR: Ambroise Paré, surgical account of Henry II's wound (primary source; Paré was the royal surgeon). Paré, Œuvres (1575 edition) contains his account. Date 30 Jun–10 Jul 1559 confirmed in multiple contemporary dispatches. Estienne Pasquier, Lettres describes the wound in letter to a friend written within days."
         },
         {
-          "id": "k5",
-          "group": "Valois — Wars of Religion (1547–1589)",
-          "dynasty": "Valois",
-          "label": "Catherine de' Medici — regent and political actor",
-          "date": "1560–1589",
-          "loc": "Paris; Blois; royal court itinerant",
-          "coords": [
-            48.85,
-            2.35
-          ],
-          "hint": "Queen mother and regent for three sons — navigates 30 years of civil war with a policy of pragmatic tolerance that satisfies neither side; the St Bartholomew's Day Massacre is ordered on her watch.",
-          "tag": "SUCCESSION",
-          "note": "Catherine's own correspondence: Lettres de Catherine de Médicis (11 vols, ed. La Ferrière 1880–1909) — the most important single primary source for the period. Over 4,000 surviving letters in her hand or signed by her. Knecht (1998), Catherine de' Medici: the standard English biography."
-        },
-        {
           "id": "k6",
           "group": "Valois — Wars of Religion (1547–1589)",
           "dynasty": "Valois",
@@ -112,6 +97,21 @@
           "hint": "Three brothers reign in 30 years — Francis II (16 months), Charles IX (14 years, the Massacre king), Henry III (15 years, assassinated by a Dominican friar) — the Valois dynasty extinguished in one generation.",
           "tag": "SUCCESSION",
           "note": "Francis II death certificate (Dec 1560): Archives nationales. Charles IX: Mémoires de l'état de France sous Charles neuvième (3 vols, 1576) — contemporary collection. Henry III assassination 1 Aug 1589 by Jacques Clément: multiple eyewitness accounts, including Agrippa d'Aubigné, Histoire universelle."
+        },
+        {
+          "id": "k5",
+          "group": "Valois — Wars of Religion (1547–1589)",
+          "dynasty": "Valois",
+          "label": "Catherine de' Medici — regent and political actor",
+          "date": "1560–1589",
+          "loc": "Paris; Blois; royal court itinerant",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Queen mother and regent for three sons — navigates 30 years of civil war with a policy of pragmatic tolerance that satisfies neither side; the St Bartholomew's Day Massacre is ordered on her watch.",
+          "tag": "SUCCESSION",
+          "note": "Catherine's own correspondence: Lettres de Catherine de Médicis (11 vols, ed. La Ferrière 1880–1909) — the most important single primary source for the period. Over 4,000 surviving letters in her hand or signed by her. Knecht (1998), Catherine de' Medici: the standard English biography."
         },
         {
           "id": "k7",
@@ -182,6 +182,20 @@
           "note": "WELL DOCUMENTED: Calvinist account by Jean de la Fosse (eyewitness). Catholic account by Gaspard de Saulx-Tavannes, Mémoires. Number killed: disputed in sources; modern consensus 50–100. Sutherland (1962), The Massacre of Vassy, Scottish Historical Review 41. Date 1 March 1562 confirmed in all sources."
         },
         {
+          "id": "c7",
+          "group": "Wars of Religion",
+          "label": "The eight Wars of Religion and their peace treaties",
+          "date": "1562–1598",
+          "loc": "France — Amboise (1563), Longjumeau (1568), Saint-Germain (1570), Monsieur (1576), Bergerac (1577)",
+          "coords": [
+            47.41,
+            0.99
+          ],
+          "hint": "Eight named wars separated by seven peace treaties — each treaty grants Huguenots concessions, each is repudiated within years; the pattern of war-edict-massacre-war is itself the historical phenomenon, and every peace text survives in the Archives nationales.",
+          "tag": "POLITICAL",
+          "note": "Peace of Amboise (Mar 1563): Isambert XIV. Peace of Longjumeau (Mar 1568): Isambert XIV. Peace of Saint-Germain (Aug 1570): Isambert XIV. Peace of Monsieur/Beaulieu (May 1576): Isambert XIV. Peace of Bergerac (Sep 1577): Isambert XIV. All texts in Isambert, Recueil général des anciennes lois françaises, Vol. XIV. Holt (1995), The French Wars of Religion pp.59–155: analyses the treaty pattern. The Edict of Nantes (1598) is the eighth and final settlement."
+        },
+        {
           "id": "c4",
           "group": "Wars of Religion",
           "label": "St Bartholomew's Day Massacre",
@@ -222,20 +236,6 @@
           "hint": "Henry IV besieges Paris, reducing the population to eating rats and grinding bones for bread — the siege fails when Parma's Spanish army relieves the city; the episode reveals the depths of confessional hatred.",
           "tag": "BATTLE",
           "note": "Pierre de L'Estoile, Mémoires-journaux (diary, Parisian eyewitness): describes starvation in detail, including the bone-bread episode. The relief by Parma: Motley, The United Netherlands (1860) citing Spanish archival sources. Siege duration May–Aug 1590 confirmed across sources."
-        },
-        {
-          "id": "c7",
-          "group": "Wars of Religion",
-          "label": "The eight Wars of Religion and their peace treaties",
-          "date": "1562–1598",
-          "loc": "France — Amboise (1563), Longjumeau (1568), Saint-Germain (1570), Monsieur (1576), Bergerac (1577)",
-          "coords": [
-            47.41,
-            0.99
-          ],
-          "hint": "Eight named wars separated by seven peace treaties — each treaty grants Huguenots concessions, each is repudiated within years; the pattern of war-edict-massacre-war is itself the historical phenomenon, and every peace text survives in the Archives nationales.",
-          "tag": "POLITICAL",
-          "note": "Peace of Amboise (Mar 1563): Isambert XIV. Peace of Longjumeau (Mar 1568): Isambert XIV. Peace of Saint-Germain (Aug 1570): Isambert XIV. Peace of Monsieur/Beaulieu (May 1576): Isambert XIV. Peace of Bergerac (Sep 1577): Isambert XIV. All texts in Isambert, Recueil général des anciennes lois françaises, Vol. XIV. Holt (1995), The French Wars of Religion pp.59–155: analyses the treaty pattern. The Edict of Nantes (1598) is the eighth and final settlement."
         }
       ]
     },
@@ -249,6 +249,20 @@
       "subtitle": "Royal edicts, law & the architecture of the French state",
       "entries": [
         {
+          "id": "o6",
+          "group": "Ecclesiastical Act",
+          "label": "Concordat of Bologna — Crown controls the Church",
+          "date": "18 Aug 1516",
+          "loc": "Bologna (negotiated); Paris (registered by Parlement 1517)",
+          "coords": [
+            44.49,
+            11.34
+          ],
+          "hint": "Francis I negotiates with Pope Leo X the right to appoint all French bishops, abbots and priors — giving the Crown control of 600 ecclesiastical appointments; this Gallican settlement explains why the French Reformation takes a different path from Germany.",
+          "tag": "EDICT",
+          "note": "HARD ANCHOR: Original text Archives nationales (J-892). Registered by Parlement of Paris March 1517 after initial resistance — registration records survive. Knecht (1984), Francis I pp.52–58. The Concordat replaces the Pragmatic Sanction of Bourges (1438). Its importance for the Reformation: Britnell (1996), France and the British Isles in the Middle Ages."
+        },
+        {
           "id": "o1",
           "group": "Imperial Law",
           "label": "Ordinance of Villers-Cotterêts — French as official language",
@@ -258,7 +272,7 @@
             49.25,
             3.09
           ],
-          "hint": "Francis I's 192-article ordinance mandates French (not Latin) for all legal documents — the foundational act of French as a language of state, and the most consequential administrative reform of the 16th century.",
+          "hint": "The Ordinance of Villers-Cotterêts (1539) replaces Latin with French in all legal and administrative documents — but its Article 111 mandates specifically the langage maternel françoys (Parisian Langue d'oïl), suppressing regional vernaculars: Occitan in the south, Breton, Basque and Alsatian; a centralising cultural weapon against the linguistic majority of the kingdom.",
           "tag": "LAW",
           "note": "HARD ANCHOR: Original text survives at Archives nationales (AE/II/323). Articles 110–111 mandate French for legal records. Still technically in force: Article 2 was cited in constitutional debates as recently as 1992. Text: Isambert, Recueil général des anciennes lois françaises Vol. XII."
         },
@@ -275,6 +289,20 @@
           "hint": "Catherine de' Medici's edict grants Huguenots limited rights to worship outside town walls — the first legal recognition of Protestantism in France; issued 6 weeks before the Massacre of Wassy that renders it void.",
           "tag": "EDICT",
           "note": "Text: Isambert, Recueil général Vol. XIV. Date 17 January 1562: confirmed in Archives nationales. The edict's irony — issued 6 weeks before the first massacre — noted by all contemporary chroniclers. Sutherland (1980), The Huguenot Struggle for Recognition."
+        },
+        {
+          "id": "o5",
+          "group": "Peace Treaty",
+          "label": "Edict of Saint-Germain — Peace of Religion (1570)",
+          "date": "8 Aug 1570",
+          "loc": "Saint-Germain-en-Laye",
+          "coords": [
+            48.9,
+            2.09
+          ],
+          "hint": "One of several 'peaces of religion' — grants Huguenots four security towns including La Rochelle; breached two years later by the St Bartholomew's Day Massacre; the failure of these edicts is itself the historical story.",
+          "tag": "EDICT",
+          "note": "Text: Isambert, Recueil général Vol. XIV. The four towns (places de sûreté): La Rochelle, Montauban, Cognac, La Charité-sur-Loire — listed in the edict text. The pattern of edicts followed by massacres: Holt (1995), The French Wars of Religion pp.78–82."
         },
         {
           "id": "o3",
@@ -303,34 +331,6 @@
           "hint": "Finance minister Sully introduces the paulette — an annual fee allowing officeholders to pass their offices to heirs — creating a hereditary bureaucratic class (the noblesse de robe) that reshapes French society for two centuries.",
           "tag": "LAW",
           "note": "Sully (Maximilien de Béthune), Mémoires des sages et royales économies d'estat: describes the reform from the inside (Sully implemented it). The paulette of 1604: Archives nationales, Conseil d'état registers. Mousnier (1971), La Vénalité des offices sous Henri IV et Louis XIII: the definitive scholarly study."
-        },
-        {
-          "id": "o5",
-          "group": "Economic Act",
-          "label": "Edict of Saint-Germain — Peace of Religion (1570)",
-          "date": "8 Aug 1570",
-          "loc": "Saint-Germain-en-Laye",
-          "coords": [
-            48.9,
-            2.09
-          ],
-          "hint": "One of several 'peaces of religion' — grants Huguenots four security towns including La Rochelle; breached two years later by the St Bartholomew's Day Massacre; the failure of these edicts is itself the historical story.",
-          "tag": "EDICT",
-          "note": "Text: Isambert, Recueil général Vol. XIV. The four towns (places de sûreté): La Rochelle, Montauban, Cognac, La Charité-sur-Loire — listed in the edict text. The pattern of edicts followed by massacres: Holt (1995), The French Wars of Religion pp.78–82."
-        },
-        {
-          "id": "o6",
-          "group": "Ecclesiastical Act",
-          "label": "Concordat of Bologna — Crown controls the Church",
-          "date": "18 Aug 1516",
-          "loc": "Bologna (negotiated); Paris (registered by Parlement 1517)",
-          "coords": [
-            44.49,
-            11.34
-          ],
-          "hint": "Francis I negotiates with Pope Leo X the right to appoint all French bishops, abbots and priors — giving the Crown control of 600 ecclesiastical appointments; this Gallican settlement explains why the French Reformation takes a different path from Germany.",
-          "tag": "EDICT",
-          "note": "HARD ANCHOR: Original text Archives nationales (J-892). Registered by Parlement of Paris March 1517 after initial resistance — registration records survive. Knecht (1984), Francis I pp.52–58. The Concordat replaces the Pragmatic Sanction of Bourges (1438). Its importance for the Reformation: Britnell (1996), France and the British Isles in the Middle Ages."
         }
       ]
     },
@@ -344,6 +344,34 @@
       "subtitle": "The Reformation arrives — Calvinist, Catholic, and the spaces between",
       "entries": [
         {
+          "id": "r7",
+          "group": "Calvinist / Reformed Church",
+          "label": "Lefèvre d'Étaples — French Bible translation",
+          "date": "1523–1530",
+          "loc": "Meaux; Paris; Strasbourg (in exile)",
+          "coords": [
+            48.96,
+            2.89
+          ],
+          "hint": "Jacques Lefèvre d'Étaples translates the New Testament (1523) then the complete Bible (1530) into French — the first complete French Bible, pre-dating Calvin's arrival; his circle at Meaux is the indigenous French reform tradition that precedes and shapes Calvinist influence.",
+          "tag": "TEXT",
+          "note": "New Testament 1523 (Antwerp, Thielman Kerver): BnF Rés. A-2085. Complete Bible 1530 (Antwerp): BnF Rés. A-80. Bedouelle (1976), Lefèvre d'Étaples et l'intelligence des Écritures: the standard study. The Meaux circle (Briçonnet, Lefèvre, Farel): documented in Briçonnet-Marguerite de Navarre correspondence (ed. Veissière & Martineau). Lefèvre forced to flee to Strasbourg 1525 after Sorbonne condemnation."
+        },
+        {
+          "id": "r5",
+          "group": "Protestant / Huguenot",
+          "label": "Affaire des Placards (1534) — the turning point of the French Reformation",
+          "date": "17–18 Oct 1534",
+          "loc": "Paris (Louvre door; city-wide posting); Amboise (Francis I's door)",
+          "coords": [
+            47.41,
+            0.98
+          ],
+          "hint": "Overnight on 17–18 October 1534, Protestant broadsheets mocking the Mass are posted across Paris and even on the door of Francis I's bedchamber at Amboise — the Affaire des Placards shatters the king's early humanist tolerance; he orders systematic state executions of Protestants; John Calvin flees France; the French Reformation's character as a persecuted underground movement is set.",
+          "tag": "PERSECUTION",
+          "note": "The placards (printed by Antoine Marcourt, pastor at Neuchâtel): BnF holds copies. Francis I's response: Ordonnance of January 1535 — documented in the royal chancellery registers. Calvin's flight from France: documented in his own preface to the Commentary on the Psalms (1557). Knecht (1982), Francis I: the standard English biography, ch.20. The specific posting at Amboise: documented in contemporary accounts. The Affaire is the date from which historians conventionally mark the end of French royal toleration of the Reformation."
+        },
+        {
           "id": "r1",
           "group": "Calvinist / Reformed Church",
           "label": "Calvin's Institutes — French edition circulates",
@@ -356,20 +384,6 @@
           "hint": "Calvin publishes his Institutes of the Christian Religion in French (not just Latin) — the first major theological work written for a French popular audience; it becomes the intellectual foundation of French Protestantism.",
           "tag": "TEXT",
           "note": "Calvin, Institution de la religion chrétienne (1541 French edition): first printing, Geneva. BnF holds multiple copies. The French edition's importance: Cottret (2000), Calvin: A Biography. The Institutes' 1536 Latin edition exists in fewer than 10 copies; the 1541 French edition is more widely held. Gilmont (1997), Jean Calvin et le livre imprimé."
-        },
-        {
-          "id": "r2",
-          "group": "Calvinist / Reformed Church",
-          "label": "First National Synod of French Reformed Churches",
-          "date": "25–29 May 1559",
-          "loc": "Paris (secret location, rue Visconti)",
-          "coords": [
-            48.85,
-            2.35
-          ],
-          "hint": "72 delegates from Reformed congregations across France meet in secret in Paris — adopting the Confession de foi (Gallican Confession) and establishing the Presbyterian church structure that organises French Protestantism.",
-          "tag": "COUNCIL",
-          "note": "Acts of the Synod survive: published in Quick (1692), Synodicon in Gallia Reformata. The Confession de foi (also called Gallican Confession): text in Schaff (1877), The Creeds of Christendom Vol. III. Location identified as rue Visconti by later research. At least 72 congregations represented: the synod's own records."
         },
         {
           "id": "r3",
@@ -386,32 +400,18 @@
           "note": "Trent Acts (Concilium Tridentinum, Görres-Gesellschaft edition): the authoritative modern edition. French participation and resistance: Evennett (1930), The Cardinal of Lorraine and the Council of Trent. The Gallican tradition: Blet (1959), Les Assemblées du clergé de France."
         },
         {
-          "id": "r4",
-          "group": "Catholic / Church of Rome",
-          "label": "Catholic League founded — radical Catholicism organises",
-          "date": "1576",
-          "loc": "Péronne (League headquarters)",
-          "coords": [
-            49.93,
-            2.93
-          ],
-          "hint": "Henry of Guise founds the Holy League after Henry III concedes too much to Huguenots — a state within the state, funded by Spain, that eventually seizes Paris and forces the king to flee.",
-          "tag": "CULT",
-          "note": "The League's foundation manifesto (1576): published in Mémoires de la Ligue (6 vols, 1758). L'Estoile, Mémoires-journaux documents the League's control of Paris 1588–1594 from inside the city. The Spanish subsidy: documented in Parma's correspondence (Archives générales du Royaume, Brussels)."
-        },
-        {
-          "id": "r5",
+          "id": "r2",
           "group": "Calvinist / Reformed Church",
-          "label": "Henry IV's conversion to Catholicism",
-          "date": "25 Jul 1593",
-          "loc": "Basilica of Saint-Denis, Paris",
+          "label": "First National Synod of French Reformed Churches",
+          "date": "25–29 May 1559",
+          "loc": "Paris (secret location, rue Visconti)",
           "coords": [
-            48.93,
-            2.36
+            48.85,
+            2.35
           ],
-          "hint": "The Protestant heir abjures his faith at Saint-Denis to secure the throne — his reported quip 'Paris is well worth a Mass' is probably apocryphal but captures the political calculation perfectly.",
-          "tag": "CULT",
-          "note": "Abjuration ceremony 25 Jul 1593: documented in Archives nationales. The 'Paris vaut bien une messe' remark: first appears in Sully's Mémoires decades later — likely apocryphal but universally cited. Henry's letter explaining the conversion: Lettres missives de Henri IV, Vol. IV (Archives nationales)."
+          "hint": "72 delegates from Reformed congregations across France meet in secret in Paris — adopting the Confession de foi (Gallican Confession) and establishing the Presbyterian church structure that organises French Protestantism.",
+          "tag": "COUNCIL",
+          "note": "Acts of the Synod survive: published in Quick (1692), Synodicon in Gallia Reformata. The Confession de foi (also called Gallican Confession): text in Schaff (1877), The Creeds of Christendom Vol. III. Location identified as rue Visconti by later research. At least 72 congregations represented: the synod's own records."
         },
         {
           "id": "r6",
@@ -428,18 +428,32 @@
           "note": "Full transcript published: Claude de Sainctes, Discours sur la conférence de Poissy (1561) — contemporary publication. Théodore de Bèze's account: his own Correspondance (ed. Aubert, Vol. III). Evennett (1930), The Cardinal of Lorraine and the Council of Trent: analyses the colloquy in detail. Date 9–26 September 1561 confirmed in all sources."
         },
         {
-          "id": "r7",
-          "group": "Calvinist / Reformed Church",
-          "label": "Lefèvre d'Étaples — French Bible translation",
-          "date": "1523–1530",
-          "loc": "Meaux; Paris; Strasbourg (in exile)",
+          "id": "r4",
+          "group": "Catholic / Church of Rome",
+          "label": "Catholic League founded — radical Catholicism organises",
+          "date": "1576",
+          "loc": "Péronne (League headquarters)",
           "coords": [
-            48.96,
-            2.89
+            49.93,
+            2.93
           ],
-          "hint": "Jacques Lefèvre d'Étaples translates the New Testament (1523) then the complete Bible (1530) into French — the first complete French Bible, pre-dating Calvin's arrival; his circle at Meaux is the indigenous French reform tradition that precedes and shapes Calvinist influence.",
-          "tag": "TEXT",
-          "note": "New Testament 1523 (Antwerp, Thielman Kerver): BnF Rés. A-2085. Complete Bible 1530 (Antwerp): BnF Rés. A-80. Bedouelle (1976), Lefèvre d'Étaples et l'intelligence des Écritures: the standard study. The Meaux circle (Briçonnet, Lefèvre, Farel): documented in Briçonnet-Marguerite de Navarre correspondence (ed. Veissière & Martineau). Lefèvre forced to flee to Strasbourg 1525 after Sorbonne condemnation."
+          "hint": "The local Holy League of Péronne is founded in 1576 by Jacques d'Humières (governor of Péronne); Henry of Guise does not organise the national Catholic League — a 'state within a state' — until 1584, after the death of the Duke of Anjou places the Protestant Henry of Navarre as direct heir to the throne.",
+          "tag": "CULT",
+          "note": "The League's foundation manifesto (1576): published in Mémoires de la Ligue (6 vols, 1758). L'Estoile, Mémoires-journaux documents the League's control of Paris 1588–1594 from inside the city. The Spanish subsidy: documented in Parma's correspondence (Archives générales du Royaume, Brussels)."
+        },
+        {
+          "id": "r8",
+          "group": "Calvinist / Reformed Church",
+          "label": "Henry IV's conversion to Catholicism",
+          "date": "25 Jul 1593",
+          "loc": "Basilica of Saint-Denis, Paris",
+          "coords": [
+            48.93,
+            2.36
+          ],
+          "hint": "The Protestant heir abjures his faith at Saint-Denis to secure the throne — his reported quip 'Paris is well worth a Mass' is probably apocryphal but captures the political calculation perfectly.",
+          "tag": "CULT",
+          "note": "Abjuration ceremony 25 Jul 1593: documented in Archives nationales. The 'Paris vaut bien une messe' remark: first appears in Sully's Mémoires decades later — likely apocryphal but universally cited. Henry's letter explaining the conversion: Lettres missives de Henri IV, Vol. IV (Archives nationales)."
         }
       ]
     },
@@ -452,6 +466,20 @@
       "bg": "#FFF8F5",
       "subtitle": "The French Renaissance — châteaux, poetry and the birth of French art",
       "entries": [
+        {
+          "id": "a7",
+          "group": "Music & Performance",
+          "label": "Josquin des Prez and the Franco-Flemish school",
+          "date": "c.1450–1521",
+          "loc": "Paris (chapel royal); Ferrara; Rome; Condé-sur-l'Escaut (died)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The greatest composer of the Renaissance and the dominant figure of the Franco-Flemish polyphonic tradition — served the French royal chapel; his chansons and masses were the first music printed with movable type in France by Attaingnant in 1528.",
+          "tag": "LITERATURE",
+          "note": "Attaingnant's Paris prints (1528): the first French music printed with movable type — BnF Rés. Vm7-504 onwards. Josquin's service records at the French royal chapel: documented in court accounts. Fallows (2009), Josquin (American Institute of Musicology): the definitive modern biography. The 1502 Petrucci prints (Venice) preserve his earlier work. Luther called him 'master of the notes.'"
+        },
         {
           "id": "a1",
           "group": "Architecture",
@@ -481,20 +509,6 @@
           "note": "Extant (UNESCO). Building accounts: Archives nationales, Comptes des Bâtiments. Rosso Fiorentino arrives 1530: documented in royal household accounts. Galerie François I (1533–1540): the only major French Renaissance decorative programme to survive largely intact. Cox-Rearick (1972), The Collection of Francis I."
         },
         {
-          "id": "a3",
-          "group": "Literature & Poetry",
-          "label": "Ronsard: Amours — the Pléiade programme",
-          "date": "1552–1553",
-          "loc": "Paris (printed by Veuve Maurice de la Porte)",
-          "coords": [
-            48.85,
-            2.35
-          ],
-          "hint": "Pierre de Ronsard publishes the first Amours — sonnets to Cassandre modelled on Petrarch; the Pléiade group's manifesto for elevating French as a literary language equal to Greek and Latin.",
-          "tag": "LITERATURE",
-          "note": "First edition 1552: BnF Rés. Ye-1751. Du Bellay's Défense et illustration de la langue française (1549) is the Pléiade manifesto — also BnF first edition held. Laumonier, Ronsard, poète lyrique (1909): the foundational scholarly study. The 1553 expanded edition adds 'Les Amours de Marie.'"
-        },
-        {
           "id": "a4",
           "group": "Literature & Poetry",
           "label": "Rabelais: Gargantua and Pantagruel",
@@ -507,6 +521,34 @@
           "hint": "Rabelais's comic giants — Pantagruel (1532) and Gargantua (1534) — invent the French novel, satirise scholasticism and theology, and are condemned by the Sorbonne; the first major works of French literary modernity.",
           "tag": "LITERATURE",
           "note": "Pantagruel first edition 1532 (Lyon, Claude Nourry): BnF Rés. Y2-2137 (one of very few surviving copies). Gargantua 1534: BnF Rés. Y2-218. The Sorbonne condemnation: documented in Faculty records. Screech (1979), Rabelais: the standard English scholarly study. Rabelais published under pseudonym 'Alcofribas Nasier' (anagram)."
+        },
+        {
+          "id": "a6",
+          "group": "Music & Performance",
+          "label": "Genevan Psalter and Claude Goudimel — Huguenot psalmody as resistance",
+          "date": "1542–1572",
+          "loc": "Geneva (composed); France (sung)",
+          "coords": [
+            46.2,
+            6.15
+          ],
+          "hint": "The Genevan Psalter — French psalms set to polyphonic music by Claude Goudimel — becomes the auditory symbol of Huguenot identity; singing these psalms in public triggers Catholic riots; Goudimel is murdered in Lyon during the St Bartholomew's Day Massacre (1572); the Psalter is simultaneously sacred text, political statement and evidence of mass religious literacy.",
+          "tag": "LITERATURE",
+          "note": "Goudimel's Psalter harmonisations: first complete edition Geneva 1565 — BnF. The political use of psalm-singing: documented in Catholic missionary reports and municipal records (Archives municipales de Lyon). Goudimel's death in Lyon during the Massacre: documented in contemporary accounts. Pidoux (1962), Le Psautier Huguenot (2 vols): the standard musicological study. The mass distribution of the Psalter: over 100,000 copies by 1580 — documented in publisher's records at the Geneva Consistory archives."
+        },
+        {
+          "id": "a9",
+          "group": "Architecture",
+          "label": "Pierre Lescot rebuilds the Louvre",
+          "date": "1546–1578",
+          "loc": "Louvre Palace, Paris (extant)",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "Francis I commissions Pierre Lescot to rebuild the medieval Louvre — the square court façade is the foundational statement of French classical architecture, combining Italian Renaissance with French decorative tradition.",
+          "tag": "MONUMENT",
+          "note": "Extant (Cour Carrée, Louvre). Commission documented in royal accounts 1546. Lescot's design with Jean Goujon's sculpture: Blunt (1953), Art and Architecture in France 1500–1700. The façade's influence on subsequent French architecture: documented in 17th-century architectural treatises."
         },
         {
           "id": "a5",
@@ -523,32 +565,46 @@
           "note": "Extant (Place Joachim-du-Bellay, Paris — relocated 1786). Original 1549 commission documented in municipal records. Goujon's Huguenot faith and post-1562 exile: Champeaux & Gauchery (1894), Les Travaux d'art exécutés pour Jean de France. The reliefs are among the finest surviving 16th-century sculptures in France."
         },
         {
-          "id": "a6",
-          "group": "Architecture",
-          "label": "Pierre Lescot rebuilds the Louvre",
-          "date": "1546–1578",
-          "loc": "Louvre Palace, Paris (extant)",
-          "coords": [
-            48.86,
-            2.34
-          ],
-          "hint": "Francis I commissions Pierre Lescot to rebuild the medieval Louvre — the square court façade is the foundational statement of French classical architecture, combining Italian Renaissance with French decorative tradition.",
-          "tag": "MONUMENT",
-          "note": "Extant (Cour Carrée, Louvre). Commission documented in royal accounts 1546. Lescot's design with Jean Goujon's sculpture: Blunt (1953), Art and Architecture in France 1500–1700. The façade's influence on subsequent French architecture: documented in 17th-century architectural treatises."
-        },
-        {
-          "id": "a7",
-          "group": "Music & Performance",
-          "label": "Josquin des Prez and the Franco-Flemish school",
-          "date": "c.1450–1521",
-          "loc": "Paris (chapel royal); Ferrara; Rome; Condé-sur-l'Escaut (died)",
+          "id": "a10",
+          "group": "Literature & Poetry",
+          "label": "Du Bellay — Défense et illustration de la langue française (1549)",
+          "date": "1549",
+          "loc": "Paris (published by Arnoul l'Angelier)",
           "coords": [
             48.85,
             2.35
           ],
-          "hint": "The greatest composer of the Renaissance and the dominant figure of the Franco-Flemish polyphonic tradition — served the French royal chapel; his chansons and masses were the first music printed with movable type in France by Attaingnant in 1528.",
+          "hint": "Joachim du Bellay's Défense et illustration de la langue française (1549) is the founding manifesto of the Pléiade group — arguing passionately that French should become a literary language of the highest order, equal to Latin and Greek; it shapes French literary expression and language policy for centuries and directly underpins the Académie française's mission.",
           "tag": "LITERATURE",
-          "note": "Attaingnant's Paris prints (1528): the first French music printed with movable type — BnF Rés. Vm7-504 onwards. Josquin's service records at the French royal chapel: documented in court accounts. Fallows (2009), Josquin (American Institute of Musicology): the definitive modern biography. The 1502 Petrucci prints (Venice) preserve his earlier work. Luther called him 'master of the notes.'"
+          "note": "First edition: Paris, Arnoul l'Angelier, 1549 — BnF (Rés. Ye.544). Chamard (1948), Joachim du Bellay: the standard study. The Défense's relationship to the Ordinance of Villers-Cotterêts (1539): du Bellay builds on the legal precedent of French replacing Latin — documented. The text's influence on the Académie française (1635): explicitly acknowledged in Richelieu's founding documents. Smith (2004), Joachim du Bellay's Veiled Victims: the modern English study."
+        },
+        {
+          "id": "a3",
+          "group": "Literature & Poetry",
+          "label": "Ronsard: Amours — the Pléiade programme",
+          "date": "1552–1553",
+          "loc": "Paris (printed by Veuve Maurice de la Porte)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Pierre de Ronsard publishes the first Amours — sonnets to Cassandre modelled on Petrarch; the Pléiade group's manifesto for elevating French as a literary language equal to Greek and Latin.",
+          "tag": "LITERATURE",
+          "note": "First edition 1552: BnF Rés. Ye-1751. Du Bellay's Défense et illustration de la langue française (1549) is the Pléiade manifesto — also BnF first edition held. Laumonier, Ronsard, poète lyrique (1909): the foundational scholarly study. The 1553 expanded edition adds 'Les Amours de Marie.'"
+        },
+        {
+          "id": "a8",
+          "group": "Music & Performance",
+          "label": "Ballet Comique de la Reine (1581) — birth of ballet and opera",
+          "date": "15 Oct 1581",
+          "loc": "Salle du Bourbon, Louvre, Paris",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "Choreographed by Balthasar de Beaujoyeulx for Catherine de' Medici, the Ballet Comique de la Reine (15 October 1581) is the first synthesis of poetry, music, dance and elaborate scenic design in European history — five and a half hours of performance before 10,000 spectators; universally recognised as the founding document of classical ballet and the structural precursor to opera.",
+          "tag": "LITERATURE",
+          "note": "HARD ANCHOR: The libretto and score were printed immediately: Ballet Comique de la Reine (Paris, Ballard, 1582) — BnF (Rés. Yf.32). This is the earliest complete document of a court ballet. McGowan (1963), L'Art du ballet de cour en France 1581–1643: the standard study. Christout (1998), Le Ballet de cour de Louis XIV: the art-historical survey. The date 15 Oct 1581: documented in the printed libretto. The cost: 3.6 million livres — documented in the royal accounts."
         }
       ]
     },
@@ -562,46 +618,32 @@
       "subtitle": "Humanism, the essay, political theory and legal scholarship",
       "entries": [
         {
-          "id": "t1",
+          "id": "t6",
+          "group": "Science & Geography",
+          "label": "Collège de France founded — royal humanist institution",
+          "date": "1530",
+          "loc": "Paris (rue Saint-Jacques; present site from 1610)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Francis I establishes the Lecteurs Royaux (later Collège de France) over the Sorbonne's fierce opposition — chairs in Greek, Hebrew and mathematics taught in the vernacular; the institutional home of French humanism and the model for secular higher education.",
+          "tag": "CONSTRUCTION",
+          "note": "Royal letters patent 1530: Archives nationales. The first three lecteurs royaux (Guillaume Budé advising): Lefranc (1893), Histoire du Collège de France. The Sorbonne's opposition documented in Faculty registers. Guillaume Budé's role as intellectual architect: Mann (1925), Étude sur les humanistes français. The Collège's significance as a counter-institution to the Sorbonne: Fumaroli (1994), L'Age de l'éloquence."
+        },
+        {
+          "id": "t5",
           "group": "Philosophy",
-          "label": "Montaigne: Essais — first edition",
-          "date": "1580",
-          "loc": "Bordeaux (printed by Simon Millanges)",
-          "coords": [
-            44.84,
-            -0.58
-          ],
-          "hint": "Montaigne publishes the first two books of the Essais in Bordeaux — inventing a new literary form (the personal essay) and a new kind of thinking (self-examination as philosophical method); written during the Wars of Religion as an act of personal withdrawal.",
-          "tag": "TEXT",
-          "note": "HARD ANCHOR: First edition 1580 (Bordeaux, Simon Millanges): University of Virginia (McGregor Collection) and BnF hold copies. The Bordeaux Copy (1588 edition with 1,300 manuscript annotations by Montaigne): Bibliothèque municipale de Bordeaux (Ms 1866) — described as 'exceptional' by UNESCO. Montaigne's working method visible in the annotations."
-        },
-        {
-          "id": "t2",
-          "group": "Political Theory",
-          "label": "Bodin: Les Six Livres de la République",
-          "date": "1576",
-          "loc": "Paris (printed by Jacques Du Puys)",
+          "label": "Peter Ramus (Pierre de la Ramée) — pedagogy and Aristotle's murder",
+          "date": "1543–1572",
+          "loc": "Paris (Collège de Presles); murdered St Bartholomew's Day 1572",
           "coords": [
             48.85,
             2.35
           ],
-          "hint": "Jean Bodin's Six Books of the Republic — the first systematic theory of sovereignty in modern political thought; written during the Wars of Religion to argue for strong royal authority above both religious factions.",
+          "hint": "Ramus formulates a fierce critique of Aristotelian scholasticism (Ramism) proposing practical, structured pedagogy that transforms Protestant universities across Europe; his Dialectique (1555) is the first systematic philosophy text written in French; he is murdered on the third day of the St Bartholomew's Day Massacre — his body thrown from a window.",
           "tag": "TEXT",
-          "note": "First edition 1576 (Paris, Jacques Du Puys): BnF Rés. E*-228. Bodin's concept of sovereignty (souveraineté): the foundational term for modern state theory. Franklin (1973), Jean Bodin and the Rise of Absolutist Theory. The work's political context — the Wars of Religion — is explicit in the text's preface."
-        },
-        {
-          "id": "t3",
-          "group": "History & Chronicle",
-          "label": "L'Estoile: Mémoires-journaux — Paris diary",
-          "date": "1574–1611",
-          "loc": "Paris (written; never published in author's lifetime)",
-          "coords": [
-            48.85,
-            2.35
-          ],
-          "hint": "Pierre de L'Estoile keeps a detailed diary of Parisian life through the Wars of Religion — recording massacres, religious processions, pamphlet wars and royal entries; the most vivid eyewitness account of 16th-century Paris.",
-          "tag": "CHRONICLE",
-          "note": "Mémoires-journaux de Pierre de L'Estoile: first published 1719 (12 vols). Modern edition: Brunet et al. (1875–1896, 12 vols). L'Estoile was a royal official with access to court gossip and street rumour alike. His diary for 1572 (the Massacre) is the most detailed surviving Parisian account."
+          "note": "Ramus, Dialecticae Partitiones (1543, Latin) and Dialectique (1555, French): BnF — the French version is the first philosophical text in French. His death 26 Aug 1572: documented in multiple contemporary sources. Ong (1958), Ramus: Method and the Decay of Dialogue: the standard English study. The international impact of Ramism: documented in Protestant university curricula across England, Germany and the Netherlands (university statutes). His murder as the intersection of Thought and Conflict: uniquely documented."
         },
         {
           "id": "t4",
@@ -618,7 +660,49 @@
           "note": "Foundation documents: Archives d'État de Genève. Theodore Beza (Calvin's successor) as first rector: documented. The number of French students: Ganoczy (1966), La Bibliothèque de l'Académie de Calvin. By 1564 the Academy had 300 students; the majority French. This is the organisational infrastructure of French Protestantism."
         },
         {
-          "id": "t5",
+          "id": "t8",
+          "group": "Political Theory",
+          "label": "Monarchomachs — the first theory of popular sovereignty and tyrannicide",
+          "date": "c.1573–1579",
+          "loc": "France (written in exile and underground)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The Monarchomach jurists — François Hotman (Francogallia, 1573), Théodore de Bèze (Du Droit des Magistrats, 1574) and the anonymous Vindiciae contra Tyrannos (1579) — formulate the first systematic modern theories of popular sovereignty, the social contract, and the constitutional right to depose tyrants; the direct intellectual ancestors of Locke and Rousseau.",
+          "tag": "TEXT",
+          "note": "Hotman, Francogallia (1573): BnF. De Bèze, Du Droit des Magistrats (1574): BnF. Vindiciae contra Tyrannos (1579, attributed to Duplessis-Mornay or Languet): BnF. Skinner (1978), The Foundations of Modern Political Thought Vol.II: the standard modern analysis of Monarchomach thought. Franklin (1969), Constitutionalism and Resistance in the 16th Century: the primary English study. The Monarchomach texts circulate underground after St Bartholomew's Day — documented in censorship records."
+        },
+        {
+          "id": "t3",
+          "group": "History & Chronicle",
+          "label": "L'Estoile: Mémoires-journaux — Paris diary",
+          "date": "1574–1611",
+          "loc": "Paris (written; never published in author's lifetime)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Pierre de L'Estoile keeps a detailed diary of Parisian life through the Wars of Religion — recording massacres, religious processions, pamphlet wars and royal entries; the most vivid eyewitness account of 16th-century Paris.",
+          "tag": "CHRONICLE",
+          "note": "Mémoires-journaux de Pierre de L'Estoile: first published 1719 (12 vols). Modern edition: Brunet et al. (1875–1896, 12 vols). L'Estoile was a royal official with access to court gossip and street rumour alike. His diary for 1572 (the Massacre) is the most detailed surviving Parisian account."
+        },
+        {
+          "id": "t2",
+          "group": "Political Theory",
+          "label": "Bodin: Les Six Livres de la République",
+          "date": "1576",
+          "loc": "Paris (printed by Jacques Du Puys)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Jean Bodin's Six Books of the Republic — the first systematic theory of sovereignty in modern political thought; written during the Wars of Religion to argue for strong royal authority above both religious factions.",
+          "tag": "TEXT",
+          "note": "First edition 1576 (Paris, Jacques Du Puys): BnF Rés. E*-228. Bodin's concept of sovereignty (souveraineté): the foundational term for modern state theory. Franklin (1973), Jean Bodin and the Rise of Absolutist Theory. The work's political context — the Wars of Religion — is explicit in the text's preface."
+        },
+        {
+          "id": "t7",
           "group": "Political Theory",
           "label": "Vindiciae contra Tyrannos — Huguenot resistance theory",
           "date": "1579",
@@ -632,25 +716,25 @@
           "note": "Vindiciae contra Tyrannos (1579), pseudonym 'Stephanus Junius Brutus': author debated (Duplessis-Mornay or Beza). BnF holds multiple copies of the 1579 edition. Garnett (1994) critical edition. The text's influence on English Civil War thought and Locke: Skinner (1978), The Foundations of Modern Political Thought Vol. II."
         },
         {
-          "id": "t6",
-          "group": "Science & Geography",
-          "label": "Collège de France founded — royal humanist institution",
-          "date": "1530",
-          "loc": "Paris (rue Saint-Jacques; present site from 1610)",
+          "id": "t1",
+          "group": "Philosophy",
+          "label": "Montaigne: Essais — first edition",
+          "date": "1580",
+          "loc": "Bordeaux (printed by Simon Millanges)",
           "coords": [
-            48.85,
-            2.35
+            44.84,
+            -0.58
           ],
-          "hint": "Francis I establishes the Lecteurs Royaux (later Collège de France) over the Sorbonne's fierce opposition — chairs in Greek, Hebrew and mathematics taught in the vernacular; the institutional home of French humanism and the model for secular higher education.",
-          "tag": "CONSTRUCTION",
-          "note": "Royal letters patent 1530: Archives nationales. The first three lecteurs royaux (Guillaume Budé advising): Lefranc (1893), Histoire du Collège de France. The Sorbonne's opposition documented in Faculty registers. Guillaume Budé's role as intellectual architect: Mann (1925), Étude sur les humanistes français. The Collège's significance as a counter-institution to the Sorbonne: Fumaroli (1994), L'Age de l'éloquence."
+          "hint": "Montaigne publishes the first two books of the Essais in Bordeaux — inventing a new literary form (the personal essay) and a new kind of thinking (self-examination as philosophical method); written during the Wars of Religion as an act of personal withdrawal.",
+          "tag": "TEXT",
+          "note": "HARD ANCHOR: First edition 1580 (Bordeaux, Simon Millanges): University of Virginia (McGregor Collection) and BnF hold copies. The Bordeaux Copy (1588 edition with 1,300 manuscript annotations by Montaigne): Bibliothèque municipale de Bordeaux (Ms 1866) — described as 'exceptional' by UNESCO. Montaigne's working method visible in the annotations."
         }
       ]
     },
     {
-      "id": "economy",
-      "label": "Economy",
-      "icon": "💰",
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
       "color": "#4A3200",
       "accent": "#8B5E00",
       "bg": "#FFFBF0",
@@ -739,7 +823,7 @@
         },
         {
           "id": "te3",
-          "group": "Agriculture & Industry",
+          "group": "Medicine & Science",
           "label": "Ambroise Paré — surgical reform",
           "date": "1545–1590",
           "loc": "Paris (Hôtel-Dieu); military campaigns",
@@ -763,6 +847,20 @@
       "subtitle": "Italy, Geneva, the New World and European diplomacy",
       "entries": [
         {
+          "id": "ex3",
+          "group": "European Financial Exchange",
+          "label": "Lyon as European financial capital",
+          "date": "c.1490–1580",
+          "loc": "Lyon (four annual fairs)",
+          "coords": [
+            45.75,
+            4.83
+          ],
+          "hint": "Lyon's four annual trade fairs make it the financial capital of Europe — Italian, German and Flemish merchants converge; the fairs finance the Italian Wars and transmit Renaissance culture northward through the merchants who attend.",
+          "tag": "ECONOMIC",
+          "note": "Lyon fair records: Archives municipales de Lyon (série HH). Gascon (1971), Grand commerce et vie urbaine: the definitive study. The Italian merchant community in Lyon: Rabel (1979). Francis I borrows from the Lyon money market — documented in Comptes royaux. The fairs' decline after 1572 (Massacre drives Protestant merchants away): documented in municipal records."
+        },
+        {
           "id": "ex1",
           "group": "Cultural Transmission",
           "label": "Leonardo da Vinci at Amboise — Italian Renaissance arrives",
@@ -777,34 +875,6 @@
           "note": "Leonardo's presence at Amboise: documented in his own notebooks (Codex Arundel, British Library; Codex Atlanticus, Ambrosiana). Salary records in Francis I's household accounts. Antonio de Beatis (Cardinal of Aragon's secretary) visited Leonardo at Amboise 1517 — his diary (eyewitness) confirms Leonardo's presence and the paintings. Leonardo died at Amboise 2 May 1519."
         },
         {
-          "id": "ex2",
-          "group": "Diplomatic Exchange",
-          "label": "Treaty of Cateau-Cambrésis — end of Italian Wars",
-          "date": "3–4 Apr 1559",
-          "loc": "Cateau-Cambrésis (Hainaut)",
-          "coords": [
-            50.1,
-            3.54
-          ],
-          "hint": "France abandons its Italian claims — ending 65 years of Italian Wars; France keeps Calais and the Three Bishoprics (Metz, Toul, Verdun) but surrenders Italy to the Habsburgs; the treaty that defines early modern European borders.",
-          "tag": "POLITICAL",
-          "note": "Original treaty text: Archives nationales (Traités 1559). Ratified 3 April (France-England) and 4 April (France-Spain). Lualdi (2003) on the treaty's implementation. The celebration that killed Henry II (the fatal tournament): organised to mark this treaty."
-        },
-        {
-          "id": "ex3",
-          "group": "Silk Road & Trade Routes",
-          "label": "Lyon as European financial capital",
-          "date": "c.1490–1580",
-          "loc": "Lyon (four annual fairs)",
-          "coords": [
-            45.75,
-            4.83
-          ],
-          "hint": "Lyon's four annual trade fairs make it the financial capital of Europe — Italian, German and Flemish merchants converge; the fairs finance the Italian Wars and transmit Renaissance culture northward through the merchants who attend.",
-          "tag": "ECONOMIC",
-          "note": "Lyon fair records: Archives municipales de Lyon (série HH). Gascon (1971), Grand commerce et vie urbaine: the definitive study. The Italian merchant community in Lyon: Rabel (1979). Francis I borrows from the Lyon money market — documented in Comptes royaux. The fairs' decline after 1572 (Massacre drives Protestant merchants away): documented in municipal records."
-        },
-        {
           "id": "ex4",
           "group": "Cultural Transmission",
           "label": "French explorations — Cartier in Canada",
@@ -817,6 +887,20 @@
           "hint": "Jacques Cartier makes three voyages to Canada, mapping the St Lawrence River and claiming the territory for France — his reports introduce the concept of Canada to French consciousness and begin the French colonial project.",
           "tag": "DOCUMENT",
           "note": "Cartier's Brief Récit (account of second voyage, 1536): first published Paris 1545; BnF holds early copies. Cartier's relations (voyage accounts): published Hakluyt Society Vol. 14. The name 'Canada': from Huron-Iroquois 'kanata' (village) — Cartier's own account documents his misunderstanding of the word."
+        },
+        {
+          "id": "ex2",
+          "group": "Diplomatic Exchange",
+          "label": "Treaty of Cateau-Cambrésis — end of Italian Wars",
+          "date": "3–4 Apr 1559",
+          "loc": "Cateau-Cambrésis (Hainaut)",
+          "coords": [
+            50.1,
+            3.54
+          ],
+          "hint": "France abandons its Italian claims — ending 65 years of Italian Wars; France keeps Calais and the Three Bishoprics (Metz, Toul, Verdun) but surrenders Italy to the Habsburgs; the treaty that defines early modern European borders.",
+          "tag": "POLITICAL",
+          "note": "Original treaty text: Archives nationales (Traités 1559). Ratified 3 April (France-England) and 4 April (France-Spain). Lualdi (2003) on the treaty's implementation. The celebration that killed Henry II (the fatal tournament): organised to mark this treaty."
         }
       ]
     },
@@ -897,6 +981,20 @@
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
       "entries": [
         {
+          "id": "lv6",
+          "group": "Marginalised Communities",
+          "label": "The Cagots — hereditary untouchables of southwestern France",
+          "date": "c.1400–1600 (documented peak)",
+          "loc": "Gascony; Béarn; Navarre; Pyrenees",
+          "coords": [
+            43.3,
+            -0.37
+          ],
+          "hint": "The Cagots are a hereditary untouchable caste in southwestern France — forced to live in separate quarters outside villages, enter churches through tiny side doors (portes des Cagots), use separate holy water fonts, and wear a carved goose foot on their clothing; forbidden from entering agricultural trades; their origins are unknown and disputed; their persecution is documented in municipal and ecclesiastical records across several centuries.",
+          "tag": "EVIDENCE",
+          "note": "Municipal records documenting Cagot restrictions: Archives départementales des Basses-Pyrénées and Hautes-Pyrénées. Church records documenting separate doors and fonts: extant physical evidence in Pyrenean churches (several portes des Cagots survive). Béarn customary law (15th–16th c.): published in Fors de Béarn. Merlet (1847), Recherches sur les Cagots: the earliest systematic study. Bogin (1984), The Women Troubadours: contextualises Pyrenean social structures. The goose foot badge: documented in municipal statutes."
+        },
+        {
           "id": "lv1",
           "group": "Women's Agency",
           "label": "Marguerite de Navarre — queen, author, protector",
@@ -909,6 +1007,48 @@
           "hint": "Francis I's sister — queen of Navarre, author of the Heptaméron (72 novellas modelled on Boccaccio), and protector of Reformers including Calvin; the most politically powerful and intellectually significant woman in 16th-century France.",
           "tag": "EVIDENCE",
           "note": "Heptaméron: first published posthumously 1559 (Paris, Gilles Robineau). BnF holds the manuscript (BnF fr. 1524). Jourda (1930), Marguerite d'Angoulême: the standard biography. Her protection of Reform-minded scholars: documented in her correspondence (BnF fr. 2935–2936). Her letters to Francis I: BnF fonds français."
+        },
+        {
+          "id": "lv5",
+          "group": "Enslaved Lives",
+          "label": "French galley slavery — chained to the oars of the Mediterranean fleet",
+          "date": "c.1530–1610",
+          "loc": "Marseille (arsenal); Mediterranean campaigns",
+          "coords": [
+            43.3,
+            5.37
+          ],
+          "hint": "The French Royal Navy systematically uses forced labour at the oars — galériens are convicted criminals, prisoners of war, Protestants, North African Moors and Ottoman Turks; chained to benches in all weathers, whipped, denied medical care, facing mortality rates of 30–50% per year; a major state-sponsored slave labour system documented in the Marseille naval arsenal records.",
+          "tag": "ENSLAVED LIVES",
+          "note": "Marseille arsenal records: Archives départementales des Bouches-du-Rhône (series B and C) — the primary archive. The galley corpus: Zysberg (1987), Les galériens: vies et destins de 60,000 forçats sur les galères de France: the standard study, based on the arsenal records. Protestant galériens: documented — Jean Marteilhe's memoir of 13 years on the galleys (Mémoires d'un protestant condamné aux galères, 1757) is a primary autobiography. The mortality rates: documented in Zysberg."
+        },
+        {
+          "id": "lv4",
+          "group": "Persecuted Communities",
+          "label": "Mérindol Massacre of the Waldensians (1545) — 3,000 killed",
+          "date": "Apr 1545",
+          "loc": "Luberon region, Provence (22 villages destroyed)",
+          "coords": [
+            43.8,
+            5.4
+          ],
+          "hint": "Francis I orders a military campaign against the Waldensian (Vaudois) communities of the Luberon — royal troops destroy 22 villages, execute over 3,000 peasants, and send hundreds of survivors to the galleys; the first large-scale state-sponsored massacre of a religious minority in France, directly foreshadowing the Wars of Religion.",
+          "tag": "PERSECUTION",
+          "note": "The arrêt of Mérindol (11 Nov 1540): the legal order — Parlement of Aix records. The 1545 campaign: documented in the Parlement of Aix records and subsequent royal investigation. Audisio (1998), The Waldensian Dissent (Cambridge): the standard English study. Cameron (2000), Waldenses: the standard survey. Survivor accounts: documented in the subsequent trial of the judge Oppède (1551) — Bibliothèque de l'Arsenal. The massacre's geopolitical resonance: Protestant pamphlets distributed across Europe — documented in the Genevan archives."
+        },
+        {
+          "id": "lv7",
+          "group": "Gender Variance",
+          "label": "Martin Guerre affair — identity and imposture",
+          "date": "1548–1560",
+          "loc": "Artigat, Ariège (village)",
+          "coords": [
+            43.0,
+            1.5
+          ],
+          "hint": "A peasant returns to his village after 8 years claiming to be Martin Guerre — his wife accepts him, he is eventually exposed as an impostor; the case raises questions about identity, gender performance and the instability of the self.",
+          "tag": "EVIDENCE",
+          "note": "Trial records: Archives départementales de l'Ariège and Archives nationales (Parlement de Toulouse records). Jean de Coras, Arrest Memorable (1561): the judge's published account, a primary source of extraordinary detail. Natalie Zemon Davis (1983), The Return of Martin Guerre: the definitive modern study using the original records."
         },
         {
           "id": "lv2",
@@ -939,22 +1079,8 @@
           "note": "L'Estoile, Mémoires-journaux: the most detailed account of the mignons (entries 1576–1589). The political pamphlets attacking Henri III for effeminacy: collected in the Bibliothèque nationale. Motley (1994), Becoming a French Aristocrat — analyses the mignons' social function. Crawford (2010), The Sexual Culture of the French Renaissance."
         },
         {
-          "id": "lv4",
-          "group": "Gender Variance",
-          "label": "Martin Guerre affair — identity and imposture",
-          "date": "1548–1560",
-          "loc": "Artigat, Ariège (village)",
-          "coords": [
-            43.0,
-            1.5
-          ],
-          "hint": "A peasant returns to his village after 8 years claiming to be Martin Guerre — his wife accepts him, he is eventually exposed as an impostor; the case raises questions about identity, gender performance and the instability of the self.",
-          "tag": "EVIDENCE",
-          "note": "Trial records: Archives départementales de l'Ariège and Archives nationales (Parlement de Toulouse records). Jean de Coras, Arrest Memorable (1561): the judge's published account, a primary source of extraordinary detail. Natalie Zemon Davis (1983), The Return of Martin Guerre: the definitive modern study using the original records."
-        },
-        {
-          "id": "lv5",
-          "group": "Enslaved Lives",
+          "id": "lv8",
+          "group": "Indigenous Lives",
           "label": "Montaigne on cannibals — the colonial other",
           "date": "1580",
           "loc": "Bordeaux (written); Brazil (subject)",
@@ -962,7 +1088,7 @@
             44.84,
             -0.58
           ],
-          "hint": "Montaigne's essay 'Des Cannibales' (I.31) argues that Brazilian 'cannibals' are morally superior to Europeans who torture each other in the Wars of Religion — the foundational text of cultural relativism in European thought.",
+          "hint": "Montaigne's essay Des Cannibales (1580) — written from his library in Périgord — interrogates European claims to civilisation by comparing them unfavourably with Brazilian indigenous peoples reported by travellers; a landmark of cultural relativism but not a direct document of enslaved lives; the primary lived reality of enslaved people in this period is documented separately (galley slavery, Mérindol).",
           "tag": "CATEGORICAL SHIFT",
           "note": "Montaigne, Essais I.31 'Des Cannibales': first published 1580 (Bordeaux). Bordeaux Copy (BM Bordeaux Ms 1866): Montaigne's own annotations. Montaigne's sources: he interviewed Brazilian Tupinambá brought to Rouen in 1562 (he records this directly). Frame (1955) translation. The essay's argument for cultural relativism: Nakam (1984), Montaigne et son temps."
         }
@@ -1057,6 +1183,11 @@
           "entryId": "c3"
         },
         {
+          "y": 1563,
+          "l": "Peace treaties (1563–1577)",
+          "entryId": "c7"
+        },
+        {
           "y": 1572,
           "l": "St Bartholomew's Day",
           "entryId": "c4"
@@ -1070,11 +1201,6 @@
           "y": 1590,
           "l": "Siege of Paris",
           "entryId": "c6"
-        },
-        {
-          "y": 1563,
-          "l": "Peace treaties (1563–1577)",
-          "entryId": "c7"
         }
       ]
     },
@@ -1083,6 +1209,11 @@
       "icon": "⚖️",
       "accent": "#2471A3",
       "events": [
+        {
+          "y": 1516,
+          "l": "Concordat of Bologna",
+          "entryId": "o6"
+        },
         {
           "y": 1539,
           "l": "Villers-Cotterêts — French official",
@@ -1107,11 +1238,6 @@
           "y": 1604,
           "l": "Paulette — hereditary offices",
           "entryId": "o4"
-        },
-        {
-          "y": 1516,
-          "l": "Concordat of Bologna",
-          "entryId": "o6"
         }
       ]
     },
@@ -1120,6 +1246,16 @@
       "icon": "🙏",
       "accent": "#1E8449",
       "events": [
+        {
+          "y": 1523,
+          "l": "Lefèvre Bible translation",
+          "entryId": "r7"
+        },
+        {
+          "y": 1534,
+          "l": "Affaire des Placards — Reformation turns underground",
+          "entryId": "r8"
+        },
         {
           "y": 1541,
           "l": "Calvin's Institutes in French",
@@ -1136,6 +1272,11 @@
           "entryId": "t4"
         },
         {
+          "y": 1561,
+          "l": "Colloquy of Poissy",
+          "entryId": "r6"
+        },
+        {
           "y": 1576,
           "l": "Catholic League founded",
           "entryId": "r4"
@@ -1144,16 +1285,6 @@
           "y": 1593,
           "l": "Henry IV converts",
           "entryId": "r5"
-        },
-        {
-          "y": 1523,
-          "l": "Lefèvre Bible translation",
-          "entryId": "r7"
-        },
-        {
-          "y": 1561,
-          "l": "Colloquy of Poissy",
-          "entryId": "r6"
         }
       ]
     },
@@ -1162,6 +1293,11 @@
       "icon": "✨",
       "accent": "#8D6E63",
       "events": [
+        {
+          "y": 1500,
+          "l": "Josquin des Prez — Franco-Flemish",
+          "entryId": "a7"
+        },
         {
           "y": 1519,
           "l": "Chambord begun",
@@ -1188,14 +1324,24 @@
           "entryId": "a5"
         },
         {
+          "y": 1549,
+          "l": "Du Bellay: Défense — French as literary language",
+          "entryId": "a10"
+        },
+        {
           "y": 1552,
           "l": "Ronsard: Amours",
           "entryId": "a3"
         },
         {
-          "y": 1500,
-          "l": "Josquin des Prez — Franco-Flemish",
-          "entryId": "a7"
+          "y": 1565,
+          "l": "Genevan Psalter — Huguenot musical resistance",
+          "entryId": "a9"
+        },
+        {
+          "y": 1581,
+          "l": "Ballet Comique de la Reine — birth of ballet",
+          "entryId": "a8"
         }
       ]
     },
@@ -1204,6 +1350,26 @@
       "icon": "💡",
       "accent": "#566573",
       "events": [
+        {
+          "y": 1530,
+          "l": "Collège de France founded",
+          "entryId": "t6"
+        },
+        {
+          "y": 1555,
+          "l": "Ramus: Dialectique — Aristotle challenged",
+          "entryId": "t7"
+        },
+        {
+          "y": 1573,
+          "l": "Monarchomachs — popular sovereignty theory",
+          "entryId": "t8"
+        },
+        {
+          "y": 1574,
+          "l": "L'Estoile diary begins",
+          "entryId": "t3"
+        },
         {
           "y": 1576,
           "l": "Bodin: Six Livres de la République",
@@ -1218,22 +1384,12 @@
           "y": 1580,
           "l": "Montaigne: Essais",
           "entryId": "t1"
-        },
-        {
-          "y": 1574,
-          "l": "L'Estoile diary begins",
-          "entryId": "t3"
-        },
-        {
-          "y": 1530,
-          "l": "Collège de France founded",
-          "entryId": "t6"
         }
       ]
     },
     {
-      "id": "economy",
-      "icon": "💰",
+      "id": "subsistence",
+      "icon": "🌾",
       "accent": "#8B5E00",
       "events": [
         {
@@ -1340,9 +1496,24 @@
       "accent": "#7B4FA6",
       "events": [
         {
+          "y": 1450,
+          "l": "Cagots — hereditary untouchables of the Pyrenees",
+          "entryId": "lv6"
+        },
+        {
           "y": 1520,
           "l": "Marguerite de Navarre",
           "entryId": "lv1"
+        },
+        {
+          "y": 1530,
+          "l": "French galley slavery — Mediterranean fleet",
+          "entryId": "lv8"
+        },
+        {
+          "y": 1545,
+          "l": "Mérindol Massacre — 3,000 Waldensians killed",
+          "entryId": "lv7"
         },
         {
           "y": 1548,

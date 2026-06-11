@@ -2,159 +2,939 @@
   "id": "france-1789-1815",
   "title": "France",
   "subtitle": "1789–1815 · Revolution and Empire",
-  "period": { "start": 1789, "end": 1815 },
+  "period": {
+    "start": 1789,
+    "end": 1815
+  },
   "region": "France",
   "period_label": "Early Modern",
-  "mapCenter": [47.0, 2.5],
+  "mapCenter": [
+    47.0,
+    2.5
+  ],
   "mapZoom": 6,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#1A0050", "accent": "#5B2C8D", "bg": "#F5F0FF",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#1A0050",
+      "accent": "#5B2C8D",
+      "bg": "#F5F0FF",
       "subtitle": "From monarchy to republic to empire — five regimes in 26 years",
       "entries": [
-        { "id":"k1", "group":"Constitutional Monarchy (1789–1792)", "dynasty":"Bourbon", "label":"Louis XVI — from king to prisoner", "date":"1789–1793", "loc":"Versailles (until Oct 1789); Tuileries (until 1792); Temple prison", "coords":[48.86,2.34], "hint":"Louis XVI moves from Versailles to Paris under popular pressure in October 1789 — his flight to Varennes in June 1791 destroys his credibility; the storming of the Tuileries (10 August 1792) ends the monarchy; he is executed on 21 January 1793.", "tag":"SUCCESSION", "note":"Louis XVI's diary entry for 14 Jul 1789: 'Rien' — Archives nationales KK 622. The flight to Varennes 20–21 Jun 1791: documented in eyewitness accounts and official records. The trial records: Archives nationales, série W 293. The execution 21 Jan 1793: Moniteur Universel 22 Jan 1793 (BnF). Jordan (1979), The King's Trial: the standard study of Louis XVI's trial." },
-        { "id":"k2", "group":"First Republic (1792–1799)", "dynasty":"Republic", "label":"The Republic — from the Convention to the Directory", "date":"22 Sep 1792–9 Nov 1799", "loc":"Paris (Convention; Tuileries; Palais-Royal)", "coords":[48.86,2.34], "hint":"The First Republic passes through the Terror (1793–1794), Thermidor, and the Directory — five years of political violence, dechristianisation, revolutionary war and corruption; the Revolutionary archive is one of the richest primary source collections in European history.", "tag":"SUCCESSION", "note":"Archives parlementaires (1789–1860): the verbatim record of the Revolutionary assemblies — digitised by Stanford/BnF (French Revolution Digital Archive). The Moniteur Universel (official newspaper of the Revolution): BnF Gallica. The Terror's records: Archives nationales, Tribunal Révolutionnaire série W. Schama (1989), Citizens: A Chronicle of the French Revolution: the standard narrative history." },
-        { "id":"k3", "group":"Consulate & Empire (1799–1815)", "dynasty":"Bonaparte", "label":"Napoleon Bonaparte — from First Consul to Emperor", "date":"9 Nov 1799–22 Jun 1815", "loc":"Paris (Tuileries; Saint-Cloud); campaigns across Europe", "coords":[48.86,2.34], "hint":"Napoleon seizes power in the coup of 18 Brumaire — rules as First Consul (1799–1804) then Emperor; his Civil Code (1804), prefectural system and Concordat with the Church reshape France permanently; defeated at Waterloo on 18 June 1815 he abdicates a second time.", "tag":"SUCCESSION", "note":"Napoleon's correspondence: published in 32 volumes (1858–1870) by the Commission Impériale; over 20,000 letters. Las Cases, Mémorial de Sainte-Hélène (1823): Napoleon's own retrospective account — BnF. The Civil Code (Code Napoléon): Bulletin des Lois 1804. Waterloo: 18 Jun 1815 confirmed in military records on both sides. Tulard (1977), Napoléon ou le mythe du sauveur: the standard French biography." }
+        {
+          "id": "k1",
+          "group": "Constitutional Monarchy (1789–1792)",
+          "dynasty": "Bourbon",
+          "label": "Louis XVI — from king to prisoner",
+          "date": "1789–1793",
+          "loc": "Versailles (until Oct 1789); Tuileries (until 1792); Temple prison",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "Louis XVI moves from Versailles to Paris under popular pressure in October 1789 — his flight to Varennes in June 1791 destroys his credibility; the storming of the Tuileries (10 August 1792) ends the monarchy; he is executed on 21 January 1793.",
+          "tag": "SUCCESSION",
+          "note": "Louis XVI's diary entry for 14 Jul 1789: 'Rien' — Archives nationales KK 622. The flight to Varennes 20–21 Jun 1791: documented in eyewitness accounts and official records. The trial records: Archives nationales, série W 293. The execution 21 Jan 1793: Moniteur Universel 22 Jan 1793 (BnF). Jordan (1979), The King's Trial: the standard study of Louis XVI's trial."
+        },
+        {
+          "id": "k2",
+          "group": "First Republic (1792–1799)",
+          "dynasty": "Republic",
+          "label": "The Republic — from the Convention to the Directory",
+          "date": "22 Sep 1792–9 Nov 1799",
+          "loc": "Paris (Convention; Tuileries; Palais-Royal)",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "The First Republic passes through the Terror (1793–1794), Thermidor, and the Directory — five years of political violence, dechristianisation, revolutionary war and corruption; the Revolutionary archive is one of the richest primary source collections in European history.",
+          "tag": "SUCCESSION",
+          "note": "Archives parlementaires (1789–1860): the verbatim record of the Revolutionary assemblies — digitised by Stanford/BnF (French Revolution Digital Archive). The Moniteur Universel (official newspaper of the Revolution): BnF Gallica. The Terror's records: Archives nationales, Tribunal Révolutionnaire série W. Schama (1989), Citizens: A Chronicle of the French Revolution: the standard narrative history."
+        },
+        {
+          "id": "k3",
+          "group": "Consulate & Empire (1799–1815)",
+          "dynasty": "Bonaparte",
+          "label": "Napoleon Bonaparte — from First Consul to Emperor",
+          "date": "9 Nov 1799–22 Jun 1815",
+          "loc": "Paris (Tuileries; Saint-Cloud); campaigns across Europe",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "Napoleon seizes power in the coup of 18 Brumaire — rules as First Consul (1799–1804) then Emperor; his Civil Code (1804), prefectural system and Concordat with the Church reshape France permanently; defeated at Waterloo on 18 June 1815 he abdicates a second time.",
+          "tag": "SUCCESSION",
+          "note": "Napoleon's correspondence: published in 32 volumes (1858–1870) by the Commission Impériale; over 20,000 letters. Las Cases, Mémorial de Sainte-Hélène (1823): Napoleon's own retrospective account — BnF. The Civil Code (Code Napoléon): Bulletin des Lois 1804. Waterloo: 18 Jun 1815 confirmed in military records on both sides. Tulard (1977), Napoléon ou le mythe du sauveur: the standard French biography."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "Revolutionary wars, the Haitian Revolution and the Napoleonic wars",
       "entries": [
-        { "id":"c1", "group":"Revolutionary Wars", "label":"Valmy — the Revolution defends itself", "date":"20 Sep 1792", "loc":"Valmy, Marne", "coords":[49.08,4.78], "hint":"The revolutionary army stops the Prussian-Austrian invasion at Valmy — a cannonade that barely touches either side; but the Prussians retreat; Goethe (present as an observer) remarks 'From this place and from this day forth commences a new era in the world's history'.", "tag":"BATTLE", "note":"Kellermann's dispatches: Archives de la Guerre A1. Goethe's account: Campagne in Frankreich (1822) — he was an eyewitness. The battle's minor tactical significance vs enormous symbolic importance: documented in all contemporary accounts. Moniteur Universel 24 Sep 1792: BnF. Forrest (2011), Napoleon's Men: analyses the Revolutionary army's social composition." },
-        { "id":"c2", "group":"Terror & Internal Conflict", "label":"The Terror — 16,594 official executions", "date":"Sep 1793–Jul 1794", "loc":"Paris (guillotine at Place de la Révolution); provinces (noyades)", "coords":[48.86,2.32], "hint":"The Committee of Public Safety under Robespierre executes 16,594 people by guillotine (official figure) and perhaps 40,000 in total including mass drownings (noyades) in Nantes and shootings in Lyon; the Tribunal Révolutionnaire records survive as a primary source of extraordinary completeness.", "tag":"CIVIL WAR", "note":"Tribunal Révolutionnaire records: Archives nationales, série W — the most complete record of any mass political execution in European history. The 16,594 official figure: Greer (1935), The Incidence of the Terror. Noyades in Nantes: documented in Carrier's dispatches (Archives nationales) and local records. Linton (2013), Choosing Terror: uses the tribunal records. Robespierre's fall 9 Thermidor (27 Jul 1794): Convention records (Archives parlementaires)." },
-        { "id":"c3", "group":"Colonial Conflict", "label":"Haitian Revolution — enslaved people overthrow slavery", "date":"22 Aug 1791–1 Jan 1804", "loc":"Saint-Domingue (mod. Haiti)", "coords":[18.97,-72.29], "hint":"The enslaved population of Saint-Domingue rises on 22 August 1791 — the only successful slave revolution in history; after 13 years of war against France, Spain and Britain, Haiti declares independence on 1 January 1804; Napoleon sends an expedition that fails disastrously.", "tag":"CIVIL WAR", "note":"The night of 22 Aug 1791: documented in colonial records (ANOM) and contemporary white colonist accounts. The Declaration of Independence 1 Jan 1804: original document (Haitian National Archives). Napoleon's expedition: Archives de la Guerre A1 and Archives nationales, Colonies CC9. Dubois (2004), Avengers of the New World: the standard modern history using French, Haitian and British archives." },
-        { "id":"c4", "group":"Napoleonic Wars", "label":"Austerlitz — Napoleon's greatest victory", "date":"2 Dec 1805", "loc":"Austerlitz (mod. Slavkov u Brna, Czech Republic)", "coords":[49.13,16.93], "hint":"Napoleon defeats the combined Austrian-Russian army in less than a day at Austerlitz — his most brilliant tactical victory; he dictates the subsequent peace terms from the battlefield; the Emperor's 18th Bulletin (3 Dec 1805) is his own account.", "tag":"BATTLE", "note":"Napoleon's Bulletins de la Grande Armée (official campaign bulletins): Archives nationales, AF IV. Austrian military records: Kriegsarchiv, Vienna. Russian military records: RGVIA, Moscow. Austrian-Russian casualties: c.36,000 vs French c.9,000 — documented in after-action reports. Chandler (1966), The Campaigns of Napoleon: the standard modern tactical study." },
-        { "id":"c5", "group":"Napoleonic Wars", "label":"Waterloo — the final defeat", "date":"18 Jun 1815", "loc":"Waterloo (mod. Belgium)", "coords":[50.68,4.41], "hint":"Napoleon's final battle — Wellington and Blücher defeat him in 8 hours; 47,000 casualties in one day; Napoleon abdicates four days later; the battle is the most documented military engagement of the 19th century, with eyewitness accounts from hundreds of participants.", "tag":"BATTLE", "note":"Wellington's dispatches: British National Archives, WO 1/337 (his Waterloo despatch). Napoleon's abdication 22 Jun 1815: Archives nationales. Victor Hugo's Les Misérables (1862), the Waterloo chapter: a literary reconstruction but based on direct testimony from veterans. Roberts (2005), Waterloo: Napoleon's Last Gamble: uses archives on both sides. The battlefield: extant (UNESCO Memory of the World for the associated records)." }
+        {
+          "id": "c3",
+          "group": "Colonial Conflict",
+          "label": "Haitian Revolution — enslaved people overthrow slavery",
+          "date": "22 Aug 1791–1 Jan 1804",
+          "loc": "Saint-Domingue (mod. Haiti)",
+          "coords": [
+            18.97,
+            -72.29
+          ],
+          "hint": "The enslaved population of Saint-Domingue rises on 22 August 1791 — the only successful slave revolution in history; after 13 years of war against France, Spain and Britain, Haiti declares independence on 1 January 1804; Napoleon sends an expedition that fails disastrously.",
+          "tag": "CIVIL WAR",
+          "note": "The night of 22 Aug 1791: documented in colonial records (ANOM) and contemporary white colonist accounts. The Declaration of Independence 1 Jan 1804: original document (Haitian National Archives). Napoleon's expedition: Archives de la Guerre A1 and Archives nationales, Colonies CC9. Dubois (2004), Avengers of the New World: the standard modern history using French, Haitian and British archives."
+        },
+        {
+          "id": "c1",
+          "group": "Revolutionary Wars",
+          "label": "Valmy — the Revolution defends itself",
+          "date": "20 Sep 1792",
+          "loc": "Valmy, Marne",
+          "coords": [
+            49.08,
+            4.78
+          ],
+          "hint": "The revolutionary army stops the Prussian-Austrian invasion at Valmy — a cannonade that barely touches either side; but the Prussians retreat; Goethe (present as an observer) remarks 'From this place and from this day forth commences a new era in the world's history'.",
+          "tag": "BATTLE",
+          "note": "Kellermann's dispatches: Archives de la Guerre A1. Goethe's account: Campagne in Frankreich (1822) — he was an eyewitness. The battle's minor tactical significance vs enormous symbolic importance: documented in all contemporary accounts. Moniteur Universel 24 Sep 1792: BnF. Forrest (2011), Napoleon's Men: analyses the Revolutionary army's social composition."
+        },
+        {
+          "id": "c2",
+          "group": "Terror & Internal Conflict",
+          "label": "The Terror — 16,594 official executions",
+          "date": "Sep 1793–Jul 1794",
+          "loc": "Paris (guillotine at Place de la Révolution); provinces (noyades)",
+          "coords": [
+            48.86,
+            2.32
+          ],
+          "hint": "The Committee of Public Safety under Robespierre executes 16,594 people by guillotine (official figure) and perhaps 40,000 in total including mass drownings (noyades) in Nantes and shootings in Lyon; the Tribunal Révolutionnaire records survive as a primary source of extraordinary completeness.",
+          "tag": "CIVIL WAR",
+          "note": "Tribunal Révolutionnaire records: Archives nationales, série W — the most complete record of any mass political execution in European history. The 16,594 official figure: Greer (1935), The Incidence of the Terror. Noyades in Nantes: documented in Carrier's dispatches (Archives nationales) and local records. Linton (2013), Choosing Terror: uses the tribunal records. Robespierre's fall 9 Thermidor (27 Jul 1794): Convention records (Archives parlementaires)."
+        },
+        {
+          "id": "c6",
+          "group": "Civil Wars",
+          "label": "War in the Vendée — the Revolution's bloodiest internal conflict",
+          "date": "Mar 1793–Feb 1796",
+          "loc": "Vendée; Loire-Inférieure; Maine-et-Loire",
+          "coords": [
+            46.83,
+            -1.35
+          ],
+          "hint": "Counter-revolutionary peasant uprising against conscription and dechristianisation — the Republican army uses the 'infernal columns' of General Turreau, burning villages and killing civilians; an estimated 170,000–200,000 die; the most devastating internal military conflict of the Revolution; still contested in France (the Vendée debates genocide classification).",
+          "tag": "CIVIL WAR",
+          "note": "General Turreau's 'infernal columns' dispatches (February 1794): Archives de la Guerre A1. Parish burial records (mass graves): documented in departmental archives of Vendée and Maine-et-Loire. Martin (1987), La Vendée de la mémoire: the standard modern study. Secher (1986), Le Génocide franco-français: the contested 'genocide' argument. The casualty estimate 170,000–200,000: Reynald Secher's figure — debated by Martin (1987) who argues lower. The primary legislative trigger: the levée en masse decree of 23 February 1793 — documented."
+        },
+        {
+          "id": "c4",
+          "group": "Napoleonic Wars",
+          "label": "Austerlitz — Napoleon's greatest victory",
+          "date": "2 Dec 1805",
+          "loc": "Austerlitz (mod. Slavkov u Brna, Czech Republic)",
+          "coords": [
+            49.13,
+            16.93
+          ],
+          "hint": "Napoleon defeats the combined Austrian-Russian army in less than a day at Austerlitz — his most brilliant tactical victory; he dictates the subsequent peace terms from the battlefield; the Emperor's 18th Bulletin (3 Dec 1805) is his own account.",
+          "tag": "BATTLE",
+          "note": "Napoleon's Bulletins de la Grande Armée (official campaign bulletins): Archives nationales, AF IV. Austrian military records: Kriegsarchiv, Vienna. Russian military records: RGVIA, Moscow. Austrian-Russian casualties: c.36,000 vs French c.9,000 — documented in after-action reports. Chandler (1966), The Campaigns of Napoleon: the standard modern tactical study."
+        },
+        {
+          "id": "c7",
+          "group": "Napoleonic Wars",
+          "label": "Peninsular War — Napoleon's 'Spanish ulcer'",
+          "date": "1808–1814",
+          "loc": "Spain and Portugal",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Napoleon's attempt to replace the Spanish Bourbons triggers a popular guerrilla war — the Peninsular War ties down 300,000 French troops for six years; the guerrilla (the word enters European languages from this war) and Wellington's forces bleed the Grande Armée; Napoleon calls it 'my Spanish ulcer'; the military catalyst for his decline.",
+          "tag": "BATTLE",
+          "note": "Napoleon's 'ulcère espagnol': Las Cases, Mémorial de Sainte-Hélène Vol.II — documented. French military records: Archives de la Guerre A1 (Spain series). Wellington's dispatches: British National Archives WO 1. Esdaile (2003), The Peninsular War: the standard modern study. The troop commitment: 300,000 French soldiers documented in Archives de la Guerre. The word 'guerrilla': first enters English military usage from Spanish reports — documented in the OED (1809 first usage)."
+        },
+        {
+          "id": "c5",
+          "group": "Napoleonic Wars",
+          "label": "Waterloo — the final defeat",
+          "date": "18 Jun 1815",
+          "loc": "Waterloo (mod. Belgium)",
+          "coords": [
+            50.68,
+            4.41
+          ],
+          "hint": "Napoleon's final battle — Wellington and Blücher defeat him in 8 hours; 47,000 casualties in one day; Napoleon abdicates four days later; the battle is the most documented military engagement of the 19th century, with eyewitness accounts from hundreds of participants.",
+          "tag": "BATTLE",
+          "note": "Wellington's dispatches: British National Archives, WO 1/337 (his Waterloo despatch). Napoleon's abdication 22 Jun 1815: Archives nationales. Victor Hugo's Les Misérables (1862), the Waterloo chapter: a literary reconstruction but based on direct testimony from veterans. Roberts (2005), Waterloo: Napoleon's Last Gamble: uses archives on both sides. The battlefield: extant (UNESCO Memory of the World for the associated records)."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "The Declaration of Rights, the Civil Code and the new legal order",
       "entries": [
-        { "id":"o1", "group":"Constitutional Law", "label":"Declaration of the Rights of Man — 26 August 1789", "date":"26 Aug 1789", "loc":"Paris (National Assembly, Hôtel des Menus-Plaisirs)", "coords":[48.85,2.35], "hint":"The National Assembly adopts the Declaration of the Rights of Man and Citizen on 26 August 1789 — 17 articles establishing natural rights, national sovereignty and the rule of law; it is the foundational document of modern human rights and directly influenced the Universal Declaration of Human Rights (1948).", "tag":"LAW", "note":"HARD ANCHOR: Original text: Archives nationales (AE/I/12). The vote on 26 Aug 1789: Archives parlementaires Vol.VIII (digitised). The Declaration's influence on the UDHR (1948): documented in the UN drafting committee records. Hunt (1996), The French Revolution and Human Rights: documentary anthology. The French Revolution Digital Archive (Stanford/BnF): digitised primary sources." },
-        { "id":"o2", "group":"Constitutional Law", "label":"Code Napoléon — the Civil Code of 1804", "date":"21 Mar 1804", "loc":"Paris (Conseil d'État)", "coords":[48.85,2.35], "hint":"The Code Civil (Code Napoléon) is promulgated on 21 March 1804 — 2,281 articles codifying civil law, property rights, contracts and family law; it remains the basis of French law and has been adopted or influenced law codes in 70+ countries.", "tag":"LAW", "note":"Code Civil des Français: Bulletin des Lois, No.3909, 21 Mar 1804. Napoleon's personal role in the drafting sessions: documented in the Conseil d'État procès-verbaux (Archives nationales). Halpérin (1992), L'Impossible Code Civil: the standard study of its drafting. Current use in 70+ countries: documented by the Conseil constitutionnel's comparative law studies." },
-        { "id":"o3", "group":"Ecclesiastical Act", "label":"Concordat of 1801 — Napoleon re-establishes the Church", "date":"15 Jul 1801", "loc":"Paris (signed); Rome (negotiated)", "coords":[48.85,2.35], "hint":"Napoleon signs a Concordat with Pope Pius VII re-establishing the Catholic Church in France — it heals the Revolutionary schism, the Church accepts the loss of its confiscated property; still in force in Alsace-Moselle today.", "tag":"EDICT", "note":"Concordat text 15 Jul 1801: Archives nationales (AF IV 1851). The negotiation: Consalvi's memoirs (Vatican Archives). Still in force in Alsace-Lorraine (returned from Germany after 1918): documented in French law. Ellis (2000), Napoleon: the standard English biography, ch.6 on the Concordat's strategic purpose." }
+        {
+          "id": "o1",
+          "group": "Constitutional Law",
+          "label": "Declaration of the Rights of Man — 26 August 1789",
+          "date": "26 Aug 1789",
+          "loc": "Paris (National Assembly, Hôtel des Menus-Plaisirs)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The National Assembly adopts the Declaration of the Rights of Man and Citizen on 26 August 1789 — 17 articles establishing natural rights, national sovereignty and the rule of law; it is the foundational document of modern human rights and directly influenced the Universal Declaration of Human Rights (1948).",
+          "tag": "LAW",
+          "note": "HARD ANCHOR: Original text: Archives nationales (AE/I/12). The vote on 26 Aug 1789: Archives parlementaires Vol.VIII (digitised). The Declaration's influence on the UDHR (1948): documented in the UN drafting committee records. Hunt (1996), The French Revolution and Human Rights: documentary anthology. The French Revolution Digital Archive (Stanford/BnF): digitised primary sources."
+        },
+        {
+          "id": "o4",
+          "group": "Constitutional Law",
+          "label": "August Decrees (4–11 Aug 1789) — abolition of the feudal regime",
+          "date": "4–11 Aug 1789",
+          "loc": "Versailles (National Assembly)",
+          "coords": [
+            48.8,
+            2.12
+          ],
+          "hint": "On the night of 4 August 1789, in a cascade of renunciations, the National Assembly abolishes tithes, seignorial rights, venality of offices, and aristocratic privileges — the feudal regime is destroyed in a single night; the August Decrees are the legal foundation of modern France, as structurally important as the Declaration of Rights but less celebrated.",
+          "tag": "LAW",
+          "note": "August Decrees: Archives parlementaires, Vol.VIII — the verbatim record. Published: Gaceta de la Régence. Markoff (1996), The Abolition of Feudalism: the standard modern study, using both the décrets and the cahiers de doléances. The night of 4 August: documented in the Archives parlementaires — the cascade of voluntary renunciations by nobles. The connection to the cahiers de doléances (lists of grievances): Markoff documents the peasant demands that the decrees answered."
+        },
+        {
+          "id": "o5",
+          "group": "Ecclesiastical Act",
+          "label": "Civil Constitution of the Clergy (12 Jul 1790) — the fractured nation",
+          "date": "12 Jul 1790",
+          "loc": "Paris (National Assembly)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The Civil Constitution of the Clergy turns priests into salaried public servants elected by their parishioners and requires an oath of loyalty to the constitution — the resulting split between juror priests (who swear) and refractory priests (who refuse) alienates millions of devout Catholics, drives the peasantry into counter-revolution, and is the primary cause of the Vendée uprising.",
+          "tag": "LAW",
+          "note": "Civil Constitution of the Clergy 12 Jul 1790: Archives parlementaires; Moniteur Universel 13 Jul 1790 (BnF). The oath requirement (27 Nov 1790): documented. The split statistics: approximately 55% of priests swear, 45% refuse — documented in departmental records. McManners (1972), The French Revolution and the Church: the standard study. The papal condemnation (Quod Aliquantum, 10 Mar 1791): Vatican Archives. The connection to the Vendée: explicitly documented — refractory priests' influence on the peasantry."
+        },
+        {
+          "id": "o6",
+          "group": "Imperial Law",
+          "label": "Law of 22 Prairial (10 Jun 1794) — the legal engine of the Great Terror",
+          "date": "10 Jun 1794",
+          "loc": "Paris (National Convention)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The Law of 22 Prairial strips accused counter-revolutionaries of the right to legal counsel or defence witnesses — the Revolutionary Tribunal has only two options: acquittal or death; executions surge from c.5 per day to c.29 per day; the Great Terror (June–July 1794) follows; Robespierre falls on 9 Thermidor partly because the law terrifies the Convention itself.",
+          "tag": "LAW",
+          "note": "Law of 22 Prairial: Archives parlementaires, Vol.XCI; Moniteur Universel (BnF). Linton (2013), Choosing Terror, ch.10: the standard modern study. The execution statistics (before and after 22 Prairial): Greer (1935), The Incidence of the Terror: the quantitative study. The connection to Thermidor: the Convention members' fear that they were next — documented in multiple memoirs. The Tribunal records showing the acceleration: Archives nationales, série W."
+        },
+        {
+          "id": "o3",
+          "group": "Ecclesiastical Act",
+          "label": "Concordat of 1801 — Napoleon re-establishes the Church",
+          "date": "15 Jul 1801",
+          "loc": "Paris (signed); Rome (negotiated)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Napoleon signs a Concordat with Pope Pius VII re-establishing the Catholic Church in France — it heals the Revolutionary schism, the Church accepts the loss of its confiscated property; still in force in Alsace-Moselle today.",
+          "tag": "EDICT",
+          "note": "Concordat text 15 Jul 1801: Archives nationales (AF IV 1851). The negotiation: Consalvi's memoirs (Vatican Archives). Still in force in Alsace-Lorraine (returned from Germany after 1918): documented in French law. Ellis (2000), Napoleon: the standard English biography, ch.6 on the Concordat's strategic purpose."
+        },
+        {
+          "id": "o2",
+          "group": "Constitutional Law",
+          "label": "Code Napoléon — the Civil Code of 1804",
+          "date": "21 Mar 1804",
+          "loc": "Paris (Conseil d'État)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The Code Civil (Code Napoléon) is promulgated on 21 March 1804 — 2,281 articles codifying civil law, property rights, contracts and family law; it remains the basis of French law and has been adopted or influenced law codes in 70+ countries.",
+          "tag": "LAW",
+          "note": "Code Civil des Français: Bulletin des Lois, No.3909, 21 Mar 1804. Napoleon's personal role in the drafting sessions: documented in the Conseil d'État procès-verbaux (Archives nationales). Halpérin (1992), L'Impossible Code Civil: the standard study of its drafting. Current use in 70+ countries: documented by the Conseil constitutionnel's comparative law studies."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
       "subtitle": "Dechristianisation, Cult of the Supreme Being and the religious settlement",
       "entries": [
-        { "id":"r1", "group":"Dechristianisation", "label":"Dechristianisation — Reason replaces God", "date":"Nov 1793–Jun 1794", "loc":"Paris (Notre-Dame becomes Temple of Reason); provinces", "coords":[48.85,2.35], "hint":"The Terror's dechristianisation campaign converts churches to Temples of Reason, abolishes Sunday, renames months, and executes priests — Notre-Dame de Paris becomes a Temple of Reason on 10 November 1793; Robespierre then institutes the Cult of the Supreme Being.", "tag":"CULT", "note":"The ceremony at Notre-Dame 10 Nov 1793 (20 Brumaire Year II): Moniteur Universel 12 Nov 1793 (BnF). The dechristianisation decrees: Archives parlementaires. The Revolutionary calendar (introduced 22 Sep 1792): Bulletin des Lois. Vovelle (1988), The Revolution Against the Church: the standard study. The Cult of the Supreme Being festival 8 Jun 1794: Moniteur Universel." }
+        {
+          "id": "r1",
+          "group": "Dechristianisation",
+          "label": "Dechristianisation — Reason replaces God",
+          "date": "Nov 1793–Jun 1794",
+          "loc": "Paris (Notre-Dame becomes Temple of Reason); provinces",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The Terror's dechristianisation campaign converts churches to Temples of Reason, abolishes Sunday, renames months, and executes priests — Notre-Dame de Paris becomes a Temple of Reason on 10 November 1793; Robespierre then institutes the Cult of the Supreme Being.",
+          "tag": "CULT",
+          "note": "The ceremony at Notre-Dame 10 Nov 1793 (20 Brumaire Year II): Moniteur Universel 12 Nov 1793 (BnF). The dechristianisation decrees: Archives parlementaires. The Revolutionary calendar (introduced 22 Sep 1792): Bulletin des Lois. Vovelle (1988), The Revolution Against the Church: the standard study. The Cult of the Supreme Being festival 8 Jun 1794: Moniteur Universel."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "David, Géricault, the Revolutionary visual programme and Napoleon's cultural policy",
       "entries": [
-        { "id":"a1", "group":"Painting & Visual Art", "label":"Jacques-Louis David — painter of the Revolution and Empire", "date":"1784–1825", "loc":"Paris (Louvre; Tuileries)", "coords":[48.86,2.34], "hint":"David paints The Death of Marat (1793) — the Revolution's most powerful image; becomes Napoleon's official painter (The Coronation of Napoleon, 1807); his career from the Ancien Régime through Revolution to Empire is the most complete artistic document of the entire period.", "tag":"OBJECT", "note":"Death of Marat (1793): Musées Royaux des Beaux-Arts, Brussels. The Coronation of Napoleon (1807): Louvre (INV 1270). David's revolutionary activities: Archives nationales, série F17. His official commission records: Archives nationales, série O2 (Maison de l'Empéreur). Johnson (1993), Jacques-Louis David: Art in Metamorphosis: the standard study." },
-        { "id":"a2", "group":"Architecture", "label":"Arc de Triomphe and the Napoleonic building programme", "date":"1806–1836", "loc":"Paris (Champs-Élysées; extant)", "coords":[48.87,2.3], "hint":"Napoleon orders the Arc de Triomphe on 2 December 1806 (first anniversary of Austerlitz) — 50 metres high, the largest triumphal arch in the world; completed under Louis-Philippe; it lists 660 generals' names and 128 battles; the building programme transforms Paris.", "tag":"MONUMENT", "note":"Commission decree 2 Dec 1806: Archives nationales AF IV. Architect Chalgrin's plans: Archives nationales, Cartes et Plans. The arch's completion 1836: documented in construction records. The list of battles and generals: extant on the arch. Tulard (1985), Paris sous Louis XIV: contextualises the Napoleonic building programme." },
-        { "id":"a3", "group":"Music & Performance", "label":"Beethoven's Eroica — Napoleon as muse and disappointment", "date":"1803–1804", "loc":"Vienna (composed); Paris (context)", "coords":[48.85,2.35], "hint":"Beethoven composes his Third Symphony dedicated to Napoleon — then, on hearing Napoleon had declared himself Emperor, tears off the dedication page and re-titles it simply 'Heroic Symphony'; the torn page survives, documenting the Enlightenment's disillusionment with Napoleon.", "tag":"LITERATURE", "note":"The torn dedication page (autograph score): Gesellschaft der Musikfreunde, Vienna — the most famous crossed-out dedication in music history. Beethoven's letter about Napoleon to his pupil Ries: documented in Schindler (1840), Biographie von Ludwig van Beethoven. First performance (private) 9 Jun 1804, Vienna: documented. Cooper (2000), Beethoven: the standard biography." }
+        {
+          "id": "a1",
+          "group": "Painting & Visual Art",
+          "label": "Jacques-Louis David — painter of the Revolution and Empire",
+          "date": "1784–1825",
+          "loc": "Paris (Louvre; Tuileries)",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "David paints The Death of Marat (1793) — the Revolution's most powerful image; becomes Napoleon's official painter (The Coronation of Napoleon, 1807); his career from the Ancien Régime through Revolution to Empire is the most complete artistic document of the entire period.",
+          "tag": "OBJECT",
+          "note": "Death of Marat (1793): Musées Royaux des Beaux-Arts, Brussels. The Coronation of Napoleon (1807): Louvre (INV 1270). David's revolutionary activities: Archives nationales, série F17. His official commission records: Archives nationales, série O2 (Maison de l'Empéreur). Johnson (1993), Jacques-Louis David: Art in Metamorphosis: the standard study."
+        },
+        {
+          "id": "a4",
+          "group": "Music & Performance",
+          "label": "La Marseillaise (1792) — the auditory revolution",
+          "date": "25–26 Apr 1792",
+          "loc": "Strasbourg (composed); Paris (adopted)",
+          "coords": [
+            48.58,
+            7.75
+          ],
+          "hint": "Claude Joseph Rouget de Lisle composes the Chant de Guerre pour l'Armée du Rhin on the night of 25–26 April 1792 in Strasbourg — it reaches Paris via the Marseille volunteers (hence the name); adopted as the national anthem in 1795; it is the auditory rallying cry of the revolutionary armies and the defining musical primary source of the period.",
+          "tag": "LITERATURE",
+          "note": "Rouget de Lisle's autograph manuscript of the Marseillaise: BnF (Ms.fr.11748). Composed night of 25–26 April 1792: documented in his own account. Adopted as national anthem 14 July 1795: Moniteur Universel. Tiersot (1915), Histoire de la Marseillaise: the standard musical study. The Marseille volunteers' role: documented in the military correspondence (Archives de la Guerre). The anthem's suspension under Napoleon and restoration: documented in official decrees."
+        },
+        {
+          "id": "a3",
+          "group": "Music & Performance",
+          "label": "Beethoven's Eroica — Napoleon as muse and disappointment",
+          "date": "1803–1804",
+          "loc": "Vienna (composed); Paris (context)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Beethoven composes his Third Symphony dedicated to Napoleon — then, on hearing Napoleon had declared himself Emperor, tears off the dedication page and re-titles it simply 'Heroic Symphony'; the torn page survives, documenting the Enlightenment's disillusionment with Napoleon.",
+          "tag": "LITERATURE",
+          "note": "The torn dedication page (autograph score): Gesellschaft der Musikfreunde, Vienna — the most famous crossed-out dedication in music history. Beethoven's letter about Napoleon to his pupil Ries: documented in Schindler (1840), Biographie von Ludwig van Beethoven. First performance (private) 9 Jun 1804, Vienna: documented. Cooper (2000), Beethoven: the standard biography."
+        },
+        {
+          "id": "a2",
+          "group": "Architecture",
+          "label": "Arc de Triomphe and the Napoleonic building programme",
+          "date": "1806–1836",
+          "loc": "Paris (Champs-Élysées; extant)",
+          "coords": [
+            48.87,
+            2.3
+          ],
+          "hint": "Napoleon orders the Arc de Triomphe on 2 December 1806 (first anniversary of Austerlitz) — 50 metres high, the largest triumphal arch in the world; completed under Louis-Philippe; it lists 660 generals' names and 128 battles; the building programme transforms Paris.",
+          "tag": "MONUMENT",
+          "note": "Commission decree 2 Dec 1806: Archives nationales AF IV. Architect Chalgrin's plans: Archives nationales, Cartes et Plans. The arch's completion 1836: documented in construction records. The list of battles and generals: extant on the arch. Tulard (1985), Paris sous Louis XIV: contextualises the Napoleonic building programme."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "Revolutionary ideology, Napoleon's propaganda and counter-revolutionary thought",
       "entries": [
-        { "id":"t1", "group":"Political Theory", "label":"What Is the Third Estate? — Sieyès launches the Revolution", "date":"Jan 1789", "loc":"Paris (published)", "coords":[48.85,2.35], "hint":"Abbé Sieyès's pamphlet Qu'est-ce que le tiers état? (January 1789) asks and answers its own question: 'Everything. What has it been until now in the political order? Nothing. What does it want? To become something' — the founding manifesto of the Revolution.", "tag":"TEXT", "note":"Qu'est-ce que le tiers état?: published January 1789, Paris; BnF. 30,000 copies sold within weeks: documented in publisher's records. Sieyès's papers: Archives nationales, 284AP. Forsyth (1987), Reason and Revolution: The Political Thought of the Abbé Sieyès: the standard study." },
-        { "id":"t2", "group":"History & Chronicle", "label":"The Bulletins de la Grande Armée — Napoleon's self-narration", "date":"1805–1814", "loc":"Campaign headquarters; Paris (published)", "coords":[48.85,2.35], "hint":"Napoleon writes or dictates 29 Bulletins de la Grande Armée — official campaign reports, published in the Moniteur, combining genuine military information with propaganda; the 29th Bulletin (1812) contains the famous line about the Russian campaign: 'The Emperor's health has never been better'.", "tag":"TEXT", "note":"Bulletins: Archives nationales AF IV; published in Moniteur Universel. The 29th Bulletin (3 Dec 1812): Moniteur 17 Dec 1812 (BnF) — 'La santé de Sa Majesté n'a jamais été meilleure.' As primary sources: the Bulletins' reliability must be assessed against other records (they systematically undercount French losses). Bret (2004), Napoleon's Bulletins: the primary analytical study." }
+        {
+          "id": "t1",
+          "group": "Political Theory",
+          "label": "What Is the Third Estate? — Sieyès launches the Revolution",
+          "date": "Jan 1789",
+          "loc": "Paris (published)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Abbé Sieyès's pamphlet Qu'est-ce que le tiers état? (January 1789) asks and answers its own question: 'Everything. What has it been until now in the political order? Nothing. What does it want? To become something' — the founding manifesto of the Revolution.",
+          "tag": "TEXT",
+          "note": "Qu'est-ce que le tiers état?: published January 1789, Paris; BnF. 30,000 copies sold within weeks: documented in publisher's records. Sieyès's papers: Archives nationales, 284AP. Forsyth (1987), Reason and Revolution: The Political Thought of the Abbé Sieyès: the standard study."
+        },
+        {
+          "id": "t3",
+          "group": "Political Theory",
+          "label": "Robespierre — 'On the Principles of Political Morality' (Feb 1794)",
+          "date": "5 Feb 1794",
+          "loc": "Paris (National Convention)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Robespierre's speech of 5 February 1794 formulates the intellectual justification of the Terror: 'virtue without terror is powerless; terror without virtue is blind'; it argues that democracy and moral virtue require terror against its enemies as their necessary instrument; the foundational text in the history of revolutionary totalitarianism.",
+          "tag": "TEXT",
+          "note": "Archives parlementaires (5 Feb 1794): the verbatim record — Vol.LXXXIV. Moniteur Universel 7 Feb 1794 (BnF): published text. Linton (2013), Choosing Terror: Virtue, Friendship and Authenticity in the French Revolution: the standard modern study. The speech's relationship to the Law of 22 Prairial (4 months later): documented — the same logic. Hannah Arendt, On Revolution (1963): the canonical analysis of this text in the tradition of totalitarian thought."
+        },
+        {
+          "id": "t2",
+          "group": "History & Chronicle",
+          "label": "The Bulletins de la Grande Armée — Napoleon's self-narration",
+          "date": "1805–1814",
+          "loc": "Campaign headquarters; Paris (published)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Napoleon writes or dictates 29 Bulletins de la Grande Armée — official campaign reports, published in the Moniteur, combining genuine military information with propaganda; the 29th Bulletin (1812) contains the famous line about the Russian campaign: 'The Emperor's health has never been better'.",
+          "tag": "TEXT",
+          "note": "Bulletins: Archives nationales AF IV; published in Moniteur Universel. The 29th Bulletin (3 Dec 1812): Moniteur 17 Dec 1812 (BnF) — 'La santé de Sa Majesté n'a jamais été meilleure.' As primary sources: the Bulletins' reliability must be assessed against other records (they systematically undercount French losses). Bret (2004), Napoleon's Bulletins: the primary analytical study."
+        }
       ]
     },
     {
-      "id": "economy", "label": "Economy", "icon": "💰",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Revolutionary economy, assignats and the Continental System",
       "entries": [
-        { "id":"s1", "group":"Fiscal & Monetary", "label":"The assignats — revolutionary paper money and hyperinflation", "date":"1789–1796", "loc":"Paris (Assemblée nationale; Treasury)", "coords":[48.85,2.35], "hint":"The National Assembly issues assignats (paper currency backed by confiscated Church property) — by 1796 they have lost 97% of their face value through overprinting; the hyperinflation is the most dramatic monetary collapse in pre-modern European history.", "tag":"ECONOMIC", "note":"Assignat issue decrees: Archives parlementaires. Seymour Harris (1930), The Assignats: the standard economic study, with tables documenting the devaluation. The surviving assignat collection: BnF (Cabinet des médailles). The total face value issued: documented in Treasury records (Archives nationales, série Q). The connection between assignat collapse and the end of the Terror: argued by Schama (1989)." },
-        { "id":"s2", "group":"Trade & Commerce", "label":"Continental System — economic war against Britain", "date":"21 Nov 1806–1814", "loc":"Europe (empire-wide blockade)", "coords":[48.85,2.35], "hint":"Napoleon's Berlin Decree (21 November 1806) closes all French-controlled ports to British goods — an attempted total economic blockade; it damages British trade but destroys French commerce too; Portugal's refusal to join triggers the Peninsular War; Russia's breach helps cause the 1812 invasion.", "tag":"ECONOMIC", "note":"Berlin Decree 21 Nov 1806: Archives nationales AF IV; Moniteur Universel 22 Nov 1806 (BnF). The system's economic effects: Crouzet (1964), Wars, Blockade and Economic Change in Europe 1792–1815, JEH 24: the standard economic analysis. Portugal's refusal: AGS Estado (the connection to the Peninsular War folio). The Russian breach 1810: documented in diplomatic archives." }
+        {
+          "id": "s1",
+          "group": "Fiscal & Monetary",
+          "label": "The assignats — revolutionary paper money and hyperinflation",
+          "date": "1789–1796",
+          "loc": "Paris (Assemblée nationale; Treasury)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The National Assembly issues assignats (paper currency backed by confiscated Church property) — by 1796 they have lost 97% of their face value through overprinting; the hyperinflation is the most dramatic monetary collapse in pre-modern European history.",
+          "tag": "ECONOMIC",
+          "note": "Assignat issue decrees: Archives parlementaires. Seymour Harris (1930), The Assignats: the standard economic study, with tables documenting the devaluation. The surviving assignat collection: BnF (Cabinet des médailles). The total face value issued: documented in Treasury records (Archives nationales, série Q). The connection between assignat collapse and the end of the Terror: argued by Schama (1989)."
+        },
+        {
+          "id": "s3",
+          "group": "Fiscal & Monetary",
+          "label": "Maximum General (29 Sep 1793) — price controls backed by the guillotine",
+          "date": "29 Sep 1793",
+          "loc": "Paris (National Convention)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The Maximum General fixes the maximum price of grain, flour and basic necessities — backed by the penalty of death for hoarding; it pits urban consumers (sans-culottes) against rural producers; it temporarily controls inflation but creates massive black markets and shortages; abolished in December 1794 after Thermidor.",
+          "tag": "ECONOMIC",
+          "note": "Law of 29 Sep 1793 (Maximum général): Archives parlementaires; Moniteur Universel 30 Sep 1793 (BnF). Aftalion (1987), The French Revolution: An Economic Interpretation: the standard economic study. Harris (1930), 'Assignats and Prices in France, 1789–1796', American Economic Review: quantifies the inflation context. The sans-culotte vs peasant conflict over the Maximum: documented in the sectional assembly records (Archives nationales, série AA). The abolition of the Maximum (24 Dec 1794): Moniteur Universel."
+        },
+        {
+          "id": "s2",
+          "group": "Trade & Commerce",
+          "label": "Continental System — economic war against Britain",
+          "date": "21 Nov 1806–1814",
+          "loc": "Europe (empire-wide blockade)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Napoleon's Berlin Decree (21 November 1806) closes all French-controlled ports to British goods — an attempted total economic blockade; it damages British trade but destroys French commerce too; Portugal's refusal to join triggers the Peninsular War; Russia's breach helps cause the 1812 invasion.",
+          "tag": "ECONOMIC",
+          "note": "Berlin Decree 21 Nov 1806: Archives nationales AF IV; Moniteur Universel 22 Nov 1806 (BnF). The system's economic effects: Crouzet (1964), Wars, Blockade and Economic Change in Europe 1792–1815, JEH 24: the standard economic analysis. Portugal's refusal: AGS Estado (the connection to the Peninsular War folio). The Russian breach 1810: documented in diplomatic archives."
+        }
       ]
     },
     {
-      "id": "exchange", "label": "Exchange", "icon": "🌐",
-      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
       "subtitle": "Revolutionary ideas across Europe and Napoleon's imperial cultural policy",
       "entries": [
-        { "id":"ex1", "group":"Cultural Transmission", "label":"The Revolution exports itself — European resonance", "date":"1789–1799", "loc":"Europe — Britain; German states; Poland; Saint-Domingue", "coords":[51.5,-0.12], "hint":"The French Revolution immediately resonates across Europe — Paine writes Rights of Man (1791), Wollstonecraft writes A Vindication of the Rights of Woman (1792), Kościuszko leads a Polish uprising (1794) citing the Declaration; the revolutionary ideas travel through pamphlets, newspapers and refugees.", "tag":"DOCUMENT", "note":"Thomas Paine, Rights of Man (1791–1792): British Library. Wollstonecraft, A Vindication of the Rights of Woman (1792): BL. Kościuszko's proclamation (24 Mar 1794): citing the French Declaration — Polish State Archives. The network of Jacobin clubs outside France: documented in Archives nationales, série F7. Kates (1998), The French Revolution: Recent Debates and New Controversies." },
-        { "id":"ex2", "group":"Diplomatic Exchange", "label":"Napoleon's looting of European art — the Louvre as world museum", "date":"1796–1815", "loc":"Italy; Egypt; Spain; Netherlands (looted from)", "coords":[48.86,2.34], "hint":"Napoleon's armies systematically remove art from conquered territories — 506 works from Italy (1796–1797), Egyptian antiquities, hundreds of paintings from Spain; the Louvre becomes the world's first universal museum; most works are returned after Waterloo but many remain.", "tag":"DOCUMENT", "note":"The Italian armistice terms (1796) demanding art works: Archives des Affaires Étrangères. The inventory of works seized: Archives des musées nationaux (Louvre). The 1815 return negotiations: Archives des Affaires Étrangères. McClellan (1994), Inventing the Louvre: the standard study of the museum's Revolutionary origins. The works not returned: documented in Louvre inventories." }
+        {
+          "id": "ex1",
+          "group": "Cultural Transmission",
+          "label": "The Revolution exports itself — European resonance",
+          "date": "1789–1799",
+          "loc": "Europe — Britain; German states; Poland; Saint-Domingue",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "The French Revolution immediately resonates across Europe — Paine writes Rights of Man (1791), Wollstonecraft writes A Vindication of the Rights of Woman (1792), Kościuszko leads a Polish uprising (1794) citing the Declaration; the revolutionary ideas travel through pamphlets, newspapers and refugees.",
+          "tag": "DOCUMENT",
+          "note": "Thomas Paine, Rights of Man (1791–1792): British Library. Wollstonecraft, A Vindication of the Rights of Woman (1792): BL. Kościuszko's proclamation (24 Mar 1794): citing the French Declaration — Polish State Archives. The network of Jacobin clubs outside France: documented in Archives nationales, série F7. Kates (1998), The French Revolution: Recent Debates and New Controversies."
+        },
+        {
+          "id": "ex3",
+          "group": "Cultural Transmission",
+          "label": "The Metric System (1795–1799) — global standardisation from the Revolution",
+          "date": "7 Apr 1795 (legal adoption); 1799 (metre defined)",
+          "loc": "Paris (Bureau des Longitudes; Académie des sciences)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The National Assembly commissions scientists Delambre and Méchain to measure the meridian arc from Dunkirk to Barcelona to define the metre — adopted legally on 7 April 1795; the platinum metre bar deposited in 1799; the most lasting global exchange of the Revolution; the metric system eventually becomes the universal scientific and commercial language.",
+          "tag": "DOCUMENT",
+          "note": "Adoption decree 7 Apr 1795: Archives parlementaires; Moniteur Universel. The platinum metre bar (1799): Bureau International des Poids et Mesures, Sèvres (extant). Delambre (1806–1810), Base du Système Métrique Décimal (3 vols): the expedition's own account — the primary scientific documentation. Alder (2002), The Measure of All Things: the standard modern account. The international adoption: by 1900, 35 countries use the metric system — documented."
+        },
+        {
+          "id": "ex2",
+          "group": "Diplomatic Exchange",
+          "label": "Napoleon's looting of European art — the Louvre as world museum",
+          "date": "1796–1815",
+          "loc": "Italy; Egypt; Spain; Netherlands (looted from)",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "Napoleon's armies systematically remove art from conquered territories — 506 works from Italy (1796–1797), Egyptian antiquities, hundreds of paintings from Spain; the Louvre becomes the world's first universal museum; most works are returned after Waterloo but many remain.",
+          "tag": "DOCUMENT",
+          "note": "The Italian armistice terms (1796) demanding art works: Archives des Affaires Étrangères. The inventory of works seized: Archives des musées nationaux (Louvre). The 1815 return negotiations: Archives des Affaires Étrangères. McClellan (1994), Inventing the Louvre: the standard study of the museum's Revolutionary origins. The works not returned: documented in Louvre inventories."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "France reshapes the world — and is reshaped by it",
       "entries": [
-        { "id":"w1", "group":"Geopolitical Shift", "label":"Napoleon reshapes the map of Europe", "date":"1800–1812", "loc":"Europe — from Lisbon to Moscow", "coords":[48.85,2.35], "hint":"At its peak in 1810–1811, Napoleon's empire directly controls 70 million people across Europe — Holy Roman Empire dissolved (1806), Confederation of the Rhine, Kingdom of Westphalia; the map of Europe is redrawn more dramatically than at any point since the Roman Empire.", "tag":"EVENT", "note":"The dissolution of the Holy Roman Empire 6 Aug 1806: the Emperor's renunciation document — Haus-, Hof- und Staatsarchiv, Vienna. The map of Napoleonic Europe: documented in the treaties series (Archives des Affaires Étrangères). Broers (2002), Europe Under Napoleon: the standard study of the empire's administration." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Napoleon reshapes the map of Europe",
+          "date": "1800–1812",
+          "loc": "Europe — from Lisbon to Moscow",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "At its peak in 1810–1811, Napoleon's empire directly controls 70 million people across Europe — Holy Roman Empire dissolved (1806), Confederation of the Rhine, Kingdom of Westphalia; the map of Europe is redrawn more dramatically than at any point since the Roman Empire.",
+          "tag": "EVENT",
+          "note": "The dissolution of the Holy Roman Empire 6 Aug 1806: the Emperor's renunciation document — Haus-, Hof- und Staatsarchiv, Vienna. The map of Napoleonic Europe: documented in the treaties series (Archives des Affaires Étrangères). Broers (2002), Europe Under Napoleon: the standard study of the empire's administration."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Louisiana Purchase (1803) — Napoleon ends French North America",
+          "date": "30 Apr 1803",
+          "loc": "Paris (signed); New Orleans; Washington",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "After the failure of the Saint-Domingue expedition, Napoleon recognises France cannot defend Louisiana against Britain — he sells the entire territory to the United States for 60 million francs on 30 April 1803; this doubles the size of the US, ends French imperial ambitions in North America, and funds Napoleon's European wars.",
+          "tag": "EVENT",
+          "note": "Louisiana Purchase treaty 30 Apr 1803: US National Archives (Washington); French ratification in Archives des Affaires Étrangères. The connection to Saint-Domingue: documented — Napoleon's letter to Talleyrand (January 1803) acknowledges the connection. DeConde (1976), This Affair of Louisiana: the standard study. The price: 60 million francs (15 million dollars at the time) — documented. The US Senate ratification (24 Oct 1803): documented. The territory's size: 2.1 million km² — doubles the US."
+        }
       ]
     },
     {
-      "id": "lives", "label": "Lives", "icon": "🪞",
-      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
       "entries": [
-        { "id":"lv1", "group":"Women's Agency", "label":"Olympe de Gouges — Declaration of the Rights of Woman", "date":"Sep 1791", "loc":"Paris", "coords":[48.85,2.35], "hint":"Olympe de Gouges publishes the Déclaration des droits de la femme et de la citoyenne in September 1791 — mirroring the 1789 Declaration article by article to argue women have the same rights as men; she is guillotined in November 1793; her text is the founding document of modern feminism.", "tag":"EVIDENCE", "note":"Déclaration des droits de la femme et de la citoyenne (Sep 1791): BnF. Her trial records: Archives nationales, Tribunal Révolutionnaire série W. Executed 3 Nov 1793: Moniteur Universel 4 Nov 1793 (BnF). Blanc (2003), Olympe de Gouges: the standard biography. The Declaration's text: explicitly parallels the 1789 Declaration — 'Article I: Woman is born free and lives equal to man in her rights.'" },
-        { "id":"lv2", "group":"Same-Sex Practice & Law", "label":"Penal Code 1791 — homosexuality decriminalised in France", "date":"1791", "loc":"Paris (National Assembly)", "coords":[48.85,2.35], "hint":"The Revolutionary Penal Code of 1791 removes sodomy from the list of crimes — France becomes the first major European country to decriminalise same-sex acts; the Napoleonic Code (1810) maintains this decriminalisation; the CATEGORICAL SHIFT is the logical extension of 'crimes without victims' Enlightenment philosophy.", "tag":"CATEGORICAL SHIFT", "note":"Penal Code 1791: Archives parlementaires, Vol.XXVI. The Napoleonic Penal Code 1810: Bulletin des Lois — maintains the 1791 decriminalisation. Crompton (1985), Byron and Greek Love, ch.1: analyses the 1791 decriminalisation. Sibalis (1996), 'The Regulation of Male Homosexuality in Revolutionary and Napoleonic France' in Merrick & Ragan (eds.): the primary scholarly study. France maintained decriminalisation throughout the 19th–20th century until today." },
-        { "id":"lv3", "group":"Enslaved Lives", "label":"Haitian Independence — the enslaved overthrow slavery", "date":"1 Jan 1804", "loc":"Saint-Domingue (Haiti)", "coords":[18.97,-72.29], "hint":"Haiti's declaration of independence on 1 January 1804 is the only successful revolution by enslaved people in history — the 500,000 enslaved Africans documented in the previous folio have abolished slavery and defeated Napoleon's army; the original Declaration of Independence is the primary document.", "tag":"CATEGORICAL SHIFT", "note":"Declaration of Haitian Independence 1 Jan 1804: original document discovered 2010 (University of Puerto Rico library collection, documented in Dubois & Garrigus 2006 appendix; confirmed authentic by Haitian National Archives). Napoleon's expedition records: Archives nationales, Colonies CC9. Dubois (2004), Avengers of the New World: uses French, Haitian and British archives. This is the most consequential CATEGORICAL SHIFT in the entire Lives corpus: enslaved people abolish their own legal category." }
+        {
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "Olympe de Gouges — Declaration of the Rights of Woman",
+          "date": "Sep 1791",
+          "loc": "Paris",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Olympe de Gouges publishes the Déclaration des droits de la femme et de la citoyenne in September 1791 — mirroring the 1789 Declaration article by article to argue women have the same rights as men; she is guillotined in November 1793; her text is the founding document of modern feminism.",
+          "tag": "EVIDENCE",
+          "note": "Déclaration des droits de la femme et de la citoyenne (Sep 1791): BnF. Her trial records: Archives nationales, Tribunal Révolutionnaire série W. Executed 3 Nov 1793: Moniteur Universel 4 Nov 1793 (BnF). Blanc (2003), Olympe de Gouges: the standard biography. The Declaration's text: explicitly parallels the 1789 Declaration — 'Article I: Woman is born free and lives equal to man in her rights.'"
+        },
+        {
+          "id": "lv2",
+          "group": "Same-Sex Practice & Law",
+          "label": "Penal Code 1791 — homosexuality decriminalised in France",
+          "date": "1791",
+          "loc": "Paris (National Assembly)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The Revolutionary Penal Code of 1791 removes sodomy from the list of crimes — France becomes the first major European country to decriminalise same-sex acts; the Penal Code of 1810 (the Code pénal — distinct from the Napoleonic Code / Civil Code of 1804) maintains this decriminalisation; the CATEGORICAL SHIFT is the logical extension of 'crimes without victims' Enlightenment philosophy.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Penal Code 1791: Archives parlementaires, Vol.XXVI. The Napoleonic Penal Code 1810: Bulletin des Lois — maintains the 1791 decriminalisation. Crompton (1985), Byron and Greek Love, ch.1: analyses the 1791 decriminalisation. Sibalis (1996), 'The Regulation of Male Homosexuality in Revolutionary and Napoleonic France' in Merrick & Ragan (eds.): the primary scholarly study. France maintained decriminalisation throughout the 19th–20th century until today."
+        },
+        {
+          "id": "lv4",
+          "group": "Marginalised Communities",
+          "label": "Sans-culottes — the lived politics of the street",
+          "date": "1792–1795",
+          "loc": "Paris (sections; Faubourg Saint-Antoine; Faubourg Saint-Marcel)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The sans-culottes (literally 'without breeches' — wearing working-class trousers instead of aristocratic knee-breeches) are the radical working-class militants who drive the Revolution's radicalisation through sectional assembly politics, bread riots and armed insurrections; their daily struggle with soaring bread prices, their distinct egalitarian dress and their September 1792 prison massacres are the lived politics of the street.",
+          "tag": "EVIDENCE",
+          "note": "Sectional assembly records: Archives nationales, série AA — the primary source for sans-culotte political activity. Soboul (1958), Les Sans-Culottes Parisiens en l'An II: the standard study, using the sectional archives. The September Massacres 1792: documented in the Tribunal criminel records. Bread price data: documented in Labrousse (1933), Esquisse du mouvement des prix et des revenus en France. The sans-culotte dress code: documented in municipal decrees and police reports."
+        },
+        {
+          "id": "lv5",
+          "group": "Marginalised Communities",
+          "label": "Levée en masse (23 Aug 1793) — the first modern national draft",
+          "date": "23 Aug 1793",
+          "loc": "France (empire-wide implementation)",
+          "coords": [
+            47.0,
+            2.5
+          ],
+          "hint": "The Levée en masse places the entire French population at the service of the war effort — all unmarried men 18–25 are conscripted; married men forge weapons; women sew tents; children make bandages; old men preach republican virtue in public squares; the first modern total-mobilisation draft transforms the social fabric and generates massive domestic resistance.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Decree of the Levée en masse 23 Aug 1793: Archives parlementaires; Moniteur Universel 24 Aug 1793 (BnF). Forrest (1989), Conscripts and Deserters: the standard study of the draft's social impact. The desertion and evasion rates: documented in Archives de la Guerre A1 — approximately 20–30% of conscripts evaded. The resistance in the Vendée and elsewhere: documented connection. The decree's text: one of the most famous documents in French military history — reprinted in every standard source."
+        },
+        {
+          "id": "lv3",
+          "group": "Enslaved Lives",
+          "label": "Haitian Independence — the enslaved overthrow slavery",
+          "date": "1 Jan 1804",
+          "loc": "Saint-Domingue (Haiti)",
+          "coords": [
+            18.97,
+            -72.29
+          ],
+          "hint": "Haiti's declaration of independence on 1 January 1804 is the only successful revolution by enslaved people in history — the 500,000 enslaved Africans documented in the previous folio have abolished slavery and defeated Napoleon's army; the original Declaration of Independence is the primary document.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Declaration of Haitian Independence 1 Jan 1804: original document discovered 2010 (University of Puerto Rico library collection, documented in Dubois & Garrigus 2006 appendix; confirmed authentic by Haitian National Archives). Napoleon's expedition records: Archives nationales, Colonies CC9. Dubois (2004), Avengers of the New World: uses French, Haitian and British archives. This is the most consequential CATEGORICAL SHIFT in the entire Lives corpus: enslaved people abolish their own legal category."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"constitutional-monarchy", "icon":"⚜️","accent":"#5B2C8D","label":"Constitutional Monarchy (1789–1792)", "events":[
-      {"y":1789,"y2":1793,"l":"Louis XVI",                    "entryId":"k1"}
-    ]},
-    {"id":"republic",     "icon":"⚜️","accent":"#8B0000","label":"First Republic (1792–1799)", "events":[
-      {"y":1792,"y2":1799,"l":"The Republic",                 "entryId":"k2"}
-    ]},
-    {"id":"napoleon",     "icon":"⚜️","accent":"#3A1A70","label":"Consulate & Empire (1799–1815)", "events":[
-      {"y":1799,"y2":1804,"l":"Napoleon — First Consul",      "entryId":"k3"},
-      {"y":1804,"y2":1815,"l":"Napoleon I — Emperor",         "entryId":"k3"}
-    ]},
-    {"id":"conflict",     "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":1791,"l":"Haitian Revolution begins",              "entryId":"c3"},
-      {"y":1792,"l":"Valmy — Revolution defends itself",      "entryId":"c1"},
-      {"y":1793,"l":"The Terror",                             "entryId":"c2"},
-      {"y":1804,"l":"Haiti independent",                      "entryId":"c3"},
-      {"y":1805,"l":"Austerlitz",                             "entryId":"c4"},
-      {"y":1815,"l":"Waterloo",                               "entryId":"c5"}
-    ]},
-    {"id":"order",        "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":1789,"l":"Declaration of Rights of Man",           "entryId":"o1"},
-      {"y":1791,"l":"Penal Code — sodomy decriminalised",     "entryId":"lv2"},
-      {"y":1793,"l":"Dechristianisation",                     "entryId":"r1"},
-      {"y":1801,"l":"Concordat with Rome",                    "entryId":"o3"},
-      {"y":1804,"l":"Code Napoléon",                          "entryId":"o2"}
-    ]},
-    {"id":"expression",   "icon":"✨","accent":"#8D6E63","events":[
-      {"y":1793,"l":"David: Death of Marat",                  "entryId":"a1"},
-      {"y":1804,"l":"Beethoven: Eroica — torn dedication",    "entryId":"a3"},
-      {"y":1806,"l":"Arc de Triomphe commissioned",           "entryId":"a2"}
-    ]},
-    {"id":"thought",      "icon":"💡","accent":"#566573","events":[
-      {"y":1789,"l":"Sieyès: What Is the Third Estate?",      "entryId":"t1"},
-      {"y":1805,"l":"Napoleon's Bulletins",                   "entryId":"t2"}
-    ]},
-    {"id":"economy",  "icon":"💰","accent":"#8B5E00","events":[
-      {"y":1789,"l":"Assignats — paper money",                "entryId":"s1"},
-      {"y":1806,"l":"Continental System",                     "entryId":"s2"}
-    ]},
-    {"id":"exchange",     "icon":"🌐","accent":"#148080","events":[
-      {"y":1791,"l":"Revolution spreads to Europe",           "entryId":"ex1"},
-      {"y":1796,"l":"Napoleon loots Italian art",             "entryId":"ex2"}
-    ]},
-    {"id":"world",        "icon":"🌍","accent":"#2471A3","events":[
-      {"y":1806,"l":"Holy Roman Empire dissolved",            "entryId":"w1"},
-      {"y":1812,"l":"Napoleon at peak — 70 million subjects", "entryId":"w1"}
-    ]},
-    {"id":"lives",        "icon":"🪞","accent":"#7B4FA6","events":[
-      {"y":1791,"l":"Olympe de Gouges — Rights of Woman",     "entryId":"lv1"},
-      {"y":1791,"l":"Homosexuality decriminalised",           "entryId":"lv2"},
-      {"y":1804,"l":"Haiti — enslaved overthrow slavery",     "entryId":"lv3"}
-    ]}
+    {
+      "id": "constitutional-monarchy",
+      "icon": "⚜️",
+      "accent": "#5B2C8D",
+      "label": "Constitutional Monarchy (1789–1792)",
+      "events": [
+        {
+          "y": 1789,
+          "y2": 1793,
+          "l": "Louis XVI",
+          "entryId": "k1"
+        }
+      ]
+    },
+    {
+      "id": "republic",
+      "icon": "⚜️",
+      "accent": "#8B0000",
+      "label": "First Republic (1792–1799)",
+      "events": [
+        {
+          "y": 1792,
+          "y2": 1799,
+          "l": "The Republic",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
+      "id": "napoleon",
+      "icon": "⚜️",
+      "accent": "#3A1A70",
+      "label": "Consulate & Empire (1799–1815)",
+      "events": [
+        {
+          "y": 1799,
+          "y2": 1804,
+          "l": "Napoleon — First Consul",
+          "entryId": "k3"
+        },
+        {
+          "y": 1804,
+          "y2": 1815,
+          "l": "Napoleon I — Emperor",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 1791,
+          "l": "Haitian Revolution begins",
+          "entryId": "c3"
+        },
+        {
+          "y": 1792,
+          "l": "Valmy — Revolution defends itself",
+          "entryId": "c1"
+        },
+        {
+          "y": 1793,
+          "l": "The Terror",
+          "entryId": "c2"
+        },
+        {
+          "y": 1793,
+          "l": "War in the Vendée — infernal columns",
+          "entryId": "c6"
+        },
+        {
+          "y": 1804,
+          "l": "Haiti independent",
+          "entryId": "c3"
+        },
+        {
+          "y": 1805,
+          "l": "Austerlitz",
+          "entryId": "c4"
+        },
+        {
+          "y": 1808,
+          "l": "Peninsular War — Napoleon's Spanish ulcer",
+          "entryId": "c7"
+        },
+        {
+          "y": 1815,
+          "l": "Waterloo",
+          "entryId": "c5"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1789,
+          "l": "Declaration of Rights of Man",
+          "entryId": "o1"
+        },
+        {
+          "y": 1789,
+          "l": "August Decrees — feudal regime abolished",
+          "entryId": "o4"
+        },
+        {
+          "y": 1790,
+          "l": "Civil Constitution of the Clergy — nation fractured",
+          "entryId": "o5"
+        },
+        {
+          "y": 1791,
+          "l": "Penal Code — sodomy decriminalised",
+          "entryId": "lv2"
+        },
+        {
+          "y": 1793,
+          "l": "Dechristianisation",
+          "entryId": "r1"
+        },
+        {
+          "y": 1794,
+          "l": "Law of 22 Prairial — Great Terror",
+          "entryId": "o6"
+        },
+        {
+          "y": 1801,
+          "l": "Concordat with Rome",
+          "entryId": "o3"
+        },
+        {
+          "y": 1804,
+          "l": "Code Napoléon",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 1792,
+          "l": "La Marseillaise composed",
+          "entryId": "a4"
+        },
+        {
+          "y": 1793,
+          "l": "David: Death of Marat",
+          "entryId": "a1"
+        },
+        {
+          "y": 1804,
+          "l": "Beethoven: Eroica — torn dedication",
+          "entryId": "a3"
+        },
+        {
+          "y": 1806,
+          "l": "Arc de Triomphe commissioned",
+          "entryId": "a2"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 1789,
+          "l": "Sieyès: What Is the Third Estate?",
+          "entryId": "t1"
+        },
+        {
+          "y": 1794,
+          "l": "Robespierre: virtue and terror",
+          "entryId": "t3"
+        },
+        {
+          "y": 1805,
+          "l": "Napoleon's Bulletins",
+          "entryId": "t2"
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "icon": "🌾",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 1789,
+          "l": "Assignats — paper money",
+          "entryId": "s1"
+        },
+        {
+          "y": 1793,
+          "l": "Maximum General — price controls",
+          "entryId": "s3"
+        },
+        {
+          "y": 1806,
+          "l": "Continental System",
+          "entryId": "s2"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 1791,
+          "l": "Revolution spreads to Europe",
+          "entryId": "ex1"
+        },
+        {
+          "y": 1795,
+          "l": "Metric System — global standardisation",
+          "entryId": "ex3"
+        },
+        {
+          "y": 1796,
+          "l": "Napoleon loots Italian art",
+          "entryId": "ex2"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1803,
+          "l": "Louisiana Purchase — French North America sold",
+          "entryId": "w2"
+        },
+        {
+          "y": 1806,
+          "l": "Holy Roman Empire dissolved",
+          "entryId": "w1"
+        },
+        {
+          "y": 1812,
+          "l": "Napoleon at peak — 70 million subjects",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 1791,
+          "l": "Olympe de Gouges — Rights of Woman",
+          "entryId": "lv1"
+        },
+        {
+          "y": 1791,
+          "l": "Homosexuality decriminalised",
+          "entryId": "lv2"
+        },
+        {
+          "y": 1793,
+          "l": "Sans-culottes — street politics",
+          "entryId": "lv4"
+        },
+        {
+          "y": 1793,
+          "l": "Levée en masse — first modern draft",
+          "entryId": "lv5"
+        },
+        {
+          "y": 1804,
+          "l": "Haiti — enslaved overthrow slavery",
+          "entryId": "lv3"
+        }
+      ]
+    }
   ]
 }

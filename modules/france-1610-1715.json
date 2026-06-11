@@ -2,161 +2,943 @@
   "id": "france-1610-1715",
   "title": "Bourbon France",
   "subtitle": "1610–1715 · Richelieu, Louis XIV and Versailles",
-  "period": { "start": 1610, "end": 1715 },
+  "period": {
+    "start": 1610,
+    "end": 1715
+  },
   "region": "France",
   "period_label": "Early Modern",
-  "mapCenter": [47.0, 2.5],
+  "mapCenter": [
+    47.0,
+    2.5
+  ],
   "mapZoom": 6,
   "categories": [
     {
-      "id": "power", "label": "Power", "icon": "⚜️",
-      "color": "#1A0050", "accent": "#5B2C8D", "bg": "#F5F0FF",
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#1A0050",
+      "accent": "#5B2C8D",
+      "bg": "#F5F0FF",
       "subtitle": "From regency crisis to the Sun King — the construction of absolute monarchy",
       "entries": [
-        { "id":"k1", "group":"Early Bourbon (1610–1643)", "dynasty":"Bourbon", "label":"Marie de Médicis — regent and the minority of Louis XIII", "date":"14 May 1610–1617", "loc":"Paris (Louvre; Saint-Germain)", "coords":[48.85,2.35], "hint":"Henri IV is assassinated on 14 May 1610 — his widow Marie de Médicis becomes regent for the nine-year-old Louis XIII; her regency is marked by noble revolts, Concini's murder (1617) and the young king's seizure of power, documented in Richelieu's own memoirs.", "tag":"SUCCESSION", "note":"Henri IV's assassination 14 May 1610: contemporary accounts, Archives nationales. Marie de Médicis's regency: documented in the royal council registers (Archives nationales, série E). Richelieu's Mémoires (covering 1610–1638): BnF manuscript fonds français 10296–10303. Bergin (2000), Cardinal Richelieu: Power and the Pursuit of Wealth: the standard English biography." },
-        { "id":"k2", "group":"Richelieu's Ministry (1624–1642)", "dynasty":"Bourbon", "label":"Cardinal Richelieu — minister and architect of French power", "date":"1624–1642", "loc":"Paris; Rueil-Malmaison (residence)", "coords":[48.85,2.35], "hint":"Richelieu serves Louis XIII for 18 years — systematically crushing noble power, destroying the Huguenot military state (Siege of La Rochelle 1627–1628), and building French diplomatic dominance; his *Testament Politique* is the foundational text of French raison d'état.", "tag":"SUCCESSION", "note":"Richelieu's Testament Politique (written c.1638–1640): first published 1688; BnF. His correspondence: Lettres, instructions diplomatiques et papiers d'état du Cardinal de Richelieu (8 vols, ed. Avenel 1853–77). The Académie française founded at his instigation 1635: Archives de l'Académie. Bergin (2000). Levi (2000), Cardinal Richelieu and the Making of France: the standard modern study." },
-        { "id":"k3", "group":"Mazarin & Fronde (1643–1661)", "dynasty":"Bourbon", "label":"Cardinal Mazarin and the Fronde", "date":"1643–1661", "loc":"Paris (besieged); Vincennes; exile (1651)", "coords":[48.85,2.35], "hint":"Mazarin governs during Louis XIV's minority — the Fronde (1648–1653) sees Paris in revolt, princes in arms, and Mazarin twice exiled; Louis XIV never forgets or forgives, and Versailles is partly built to prevent another Fronde by keeping the nobles under surveillance.", "tag":"COUP", "note":"The Fronde: documented in the Mazarinades — 5,000 pamphlets published 1648–1653, BnF collection. Mazarin's papers: Archives nationales, série AP 1656. The young Louis XIV's flight from Paris (night of 5–6 Jan 1649): documented in the Journal de Jean Vallier. Ranum (1993), The Fronde: A French Revolution: the standard modern study. Mazarin's death 9 Mar 1661 triggers Louis XIV's personal rule." },
-        { "id":"k4", "group":"Louis XIV (1661–1715)", "dynasty":"Bourbon", "label":"Louis XIV — L'État c'est moi", "date":"9 Mar 1661–1 Sep 1715", "loc":"Versailles (from 1682); Saint-Germain-en-Laye (before)", "coords":[48.8,2.12], "hint":"Louis XIV rules personally for 54 years — the longest reign of any major European monarch; he moves the court to Versailles in 1682, revokes the Edict of Nantes in 1685, wages four major wars, and leaves France exhausted but culturally dominant; he dies on 1 September 1715.", "tag":"SUCCESSION", "note":"Louis XIV's Mémoires pour l'instruction du dauphin (covering 1661–1666): BnF fonds français 10262. He dictated them himself — Longnon edition (1923). Saint-Simon's Mémoires (eyewitness, covering 1691–1723): BnF, published Chéruel 1856–1858 (20 vols). Death certificate 1 Sep 1715: Archives nationales, état civil. Petitfils (2002), Louis XIV: the standard modern French biography." }
+        {
+          "id": "k1",
+          "group": "Early Bourbon (1610–1643)",
+          "dynasty": "Bourbon",
+          "label": "Marie de Médicis — regent and the minority of Louis XIII",
+          "date": "14 May 1610–1617",
+          "loc": "Paris (Louvre; Saint-Germain)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Henri IV is assassinated on 14 May 1610 — his widow Marie de Médicis becomes regent for the nine-year-old Louis XIII; her regency is marked by noble revolts, Concini's murder (1617) and the young king's seizure of power, documented in Richelieu's own memoirs.",
+          "tag": "SUCCESSION",
+          "note": "Henri IV's assassination 14 May 1610: contemporary accounts, Archives nationales. Marie de Médicis's regency: documented in the royal council registers (Archives nationales, série E). Richelieu's Mémoires (covering 1610–1638): BnF manuscript fonds français 10296–10303. Bergin (2000), Cardinal Richelieu: Power and the Pursuit of Wealth: the standard English biography."
+        },
+        {
+          "id": "k5",
+          "group": "Early Bourbon (1610–1643)",
+          "dynasty": "Bourbon",
+          "label": "Day of the Dupes (10–11 Nov 1630) — Richelieu survives",
+          "date": "10–11 Nov 1630",
+          "loc": "Versailles (Château de Versailles, Louis XIII's room)",
+          "coords": [
+            48.8,
+            2.12
+          ],
+          "hint": "Marie de Médicis and the Dévots faction convince Louis XIII to dismiss Richelieu on 10 November 1630 — the court celebrates; but the next day Louis reaffirms his cardinal and exiles his mother; the 'Day of the Dupes' (so called because the Dévots were duped) is the turning point that solidifies the raison d'état model of French governance.",
+          "tag": "COUP",
+          "note": "The Day of the Dupes 10–11 Nov 1630: documented in Richelieu's own Mémoires (BnF) and in the memoirs of multiple court witnesses. Louis XIII's letter confirming Richelieu (the following day): Archives nationales. Bergin (2000), Cardinal Richelieu, ch.7: the standard account using the primary sources. Marie de Médicis never returns to France — she dies in exile in Cologne (1642). The term 'Journée des Dupes': coined by contemporaries and documented in the gazettes."
+        },
+        {
+          "id": "k2",
+          "group": "Richelieu's Ministry (1624–1642)",
+          "dynasty": "Bourbon",
+          "label": "Cardinal Richelieu — minister and architect of French power",
+          "date": "1624–1642",
+          "loc": "Paris; Rueil-Malmaison (residence)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Richelieu serves Louis XIII for 18 years — systematically crushing noble power, destroying the Huguenot military state (Siege of La Rochelle 1627–1628), and building French diplomatic dominance; his *Testament Politique* is the foundational text of French raison d'état.",
+          "tag": "SUCCESSION",
+          "note": "Richelieu's Testament Politique (written c.1638–1640): first published 1688; BnF. His correspondence: Lettres, instructions diplomatiques et papiers d'état du Cardinal de Richelieu (8 vols, ed. Avenel 1853–77). The Académie française founded at his instigation 1635: Archives de l'Académie. Bergin (2000). Levi (2000), Cardinal Richelieu and the Making of France: the standard modern study."
+        },
+        {
+          "id": "k3",
+          "group": "Mazarin & Fronde (1643–1661)",
+          "dynasty": "Bourbon",
+          "label": "Cardinal Mazarin and the Fronde",
+          "date": "1643–1661",
+          "loc": "Paris (besieged); Vincennes; exile (1651)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Mazarin governs during Louis XIV's minority — the Fronde (1648–1653) sees Paris in revolt, princes in arms, and Mazarin twice exiled; Louis XIV never forgets or forgives, and Versailles is partly built to prevent another Fronde by keeping the nobles under surveillance.",
+          "tag": "COUP",
+          "note": "The Fronde: documented in the Mazarinades — 5,000 pamphlets published 1648–1653, BnF collection. Mazarin's papers: Archives nationales, série AP 1656. The young Louis XIV's flight from Paris (night of 5–6 Jan 1649): documented in the Journal de Jean Vallier. Ranum (1993), The Fronde: A French Revolution: the standard modern study. Mazarin's death 9 Mar 1661 triggers Louis XIV's personal rule."
+        },
+        {
+          "id": "k4",
+          "group": "Louis XIV (1661–1715)",
+          "dynasty": "Bourbon",
+          "label": "Louis XIV — L'État c'est moi",
+          "date": "9 Mar 1661–1 Sep 1715",
+          "loc": "Versailles (from 1682); Saint-Germain-en-Laye (before)",
+          "coords": [
+            48.8,
+            2.12
+          ],
+          "hint": "Louis XIV rules personally for 54 years — the longest reign of any major European monarch; he moves the court to Versailles in 1682, revokes the Edict of Nantes in 1685, wages four major wars, and leaves France exhausted but culturally dominant; he dies on 1 September 1715.",
+          "tag": "SUCCESSION",
+          "note": "Louis XIV's Mémoires pour l'instruction du dauphin (covering 1661–1666): BnF fonds français 10262. He dictated them himself — Longnon edition (1923). Saint-Simon's Mémoires (eyewitness, covering 1691–1723): BnF, published Chéruel 1856–1858 (20 vols). Death certificate 1 Sep 1715: Archives nationales, état civil. Petitfils (2002), Louis XIV: the standard modern French biography."
+        },
+        {
+          "id": "k6",
+          "group": "Louis XIV (1661–1715)",
+          "dynasty": "Bourbon",
+          "label": "Arrest of Fouquet (1661) — 'nec pluribus impar'",
+          "date": "5 Sep 1661",
+          "loc": "Nantes (arrest); Vaux-le-Vicomte (scene of hubris)",
+          "coords": [
+            47.22,
+            -1.55
+          ],
+          "hint": "Louis XIV's first act of personal rule is the arrest of Nicolas Fouquet (Superintendent of Finances) by d'Artagnan — days after Fouquet had hosted the king at his palatial Vaux-le-Vicomte; orchestrated by Colbert; the message is absolute: no minister may rival the king's splendour; Fouquet's artists (Le Vau, Le Brun, Le Nôtre) are immediately recruited for Versailles.",
+          "tag": "COUP",
+          "note": "The arrest 5 Sep 1661: documented — d'Artagnan commanded the musketeers. Fouquet's trial records: Archives nationales. Louis XIV's own account in his Mémoires: BnF. Petitfils (1998), Fouquet: the standard biography. The recycling of Fouquet's artistic team for Versailles: documented in Colbert's papers (Archives nationales, 619AP). The motto 'Quo non ascendet?' on Fouquet's coat of arms: the perceived provocation documented."
+        }
       ]
     },
     {
-      "id": "conflict", "label": "Conflict", "icon": "⚔️",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "Noble revolts, religious wars and Louis XIV's wars of expansion",
       "entries": [
-        { "id":"c1", "group":"Internal Conflicts", "label":"Siege of La Rochelle — end of Huguenot military power", "date":"Aug 1627–Oct 1628", "loc":"La Rochelle (Atlantic coast)", "coords":[46.16,-1.15], "hint":"Richelieu besieges La Rochelle for 14 months — the last major Huguenot stronghold; the city surrenders in October 1628 after a sea blockade defeats an English relief fleet; the Peace of Alès (1629) strips Huguenots of military rights while preserving religious toleration.", "tag":"BATTLE", "note":"Siege records: Archives nationales, série G7. Richelieu's own account in his Mémoires. The sea blockade engineering: dike built across the harbour mouth documented in contemporary engineering records. The English relief fleets (Buckingham): British National Archives, SP 78. The Peace of Alès 28 Jun 1629: Archives nationales. Bergin (2000), ch.5." },
-        { "id":"c2", "group":"Internal Conflicts", "label":"The Fronde — civil war and noble revolt", "date":"1648–1653", "loc":"Paris; Bordeaux; various", "coords":[48.85,2.35], "hint":"The Fronde (1648–1653) is France's last great noble revolt — the Parlement of Paris resists Mazarin's taxes, the princes take up arms, and Louis XIV flees Paris twice as a child; the 5,000 Mazarinade pamphlets are the primary source for popular political opinion.", "tag":"CIVIL WAR", "note":"Mazarinades: BnF — digitised collection of over 5,000 pamphlets. The Parlement of Paris resolutions: Archives nationales, série X. Cardinal de Retz, Mémoires: eyewitness account from a leader of the Fronde — BnF. Ranum (1993), The Fronde: the standard modern study. The Fronde's decisive importance for Louis XIV's later absolutism: argued by all biographers." },
-        { "id":"c3", "group":"Louis XIV's Wars", "label":"War of the League of Augsburg — France against Europe", "date":"1688–1697", "loc":"Rhineland; Low Countries; Ireland; Savoy", "coords":[49.5,6.5], "hint":"Louis XIV's fourth war — a coalition of England, Holland, Spain, Austria and the Holy Roman Empire formed against France; ends in stalemate; the devastation of the Palatinate (1689) shocks Europe; William III's victory at the Boyne (1690) is part of the same conflict.", "tag":"BATTLE", "note":"French military records: Archives de la Guerre (Vincennes), série A1. The Palatinate devastation orders: documented in Archives de la Guerre. Treaty of Ryswick 1697: Archives des Affaires Étrangères (La Courneuve). Lynn (1999), The Wars of Louis XIV: the standard modern study. William III's correspondence with the coalition: British National Archives, SP 77." },
-        { "id":"c4", "group":"Louis XIV's Wars", "label":"War of Spanish Succession — Louis XIV's last gamble", "date":"1701–1714", "loc":"Spain; Low Countries; Italy; Germany", "coords":[50.5,4.5], "hint":"Louis XIV accepts the Spanish throne for his grandson Philip V — triggering a 13-year war against the Grand Alliance; Marlborough defeats France at Blenheim (1704), Ramillies (1706), Oudenarde (1708); ends with the Peace of Utrecht confirming Philip V but stripping France of colonial gains.", "tag":"BATTLE", "note":"French military records: Archives de la Guerre A1. The Blenheim campaign: Marlborough's dispatches (British National Archives, WO 7). Peace of Utrecht: Archives des Affaires Étrangères (La Courneuve). Spanish ratification: AGS Estado. Lynn (1999), ch.10–12. This is the war that ends with Spain's Bourbon restoration — bridging to the Habsburg Spain and Spain 1700–1808 folios." }
+        {
+          "id": "c1",
+          "group": "Internal Conflicts",
+          "label": "Siege of La Rochelle — end of Huguenot military power",
+          "date": "Aug 1627–Oct 1628",
+          "loc": "La Rochelle (Atlantic coast)",
+          "coords": [
+            46.16,
+            -1.15
+          ],
+          "hint": "Richelieu besieges La Rochelle for 14 months — the last major Huguenot stronghold; the city surrenders in October 1628 after a sea blockade defeats an English relief fleet; the Peace of Alès (1629) strips Huguenots of military rights while preserving religious toleration.",
+          "tag": "BATTLE",
+          "note": "Siege records: Archives nationales, série G7. Richelieu's own account in his Mémoires. The sea blockade engineering: dike built across the harbour mouth documented in contemporary engineering records. The English relief fleets (Buckingham): British National Archives, SP 78. The Peace of Alès 28 Jun 1629: Archives nationales. Bergin (2000), ch.5."
+        },
+        {
+          "id": "c2",
+          "group": "Internal Conflicts",
+          "label": "The Fronde — civil war and noble revolt",
+          "date": "1648–1653",
+          "loc": "Paris; Bordeaux; various",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The Fronde (1648–1653) is France's last great noble revolt — the Parlement of Paris resists Mazarin's taxes, the princes take up arms, and Louis XIV flees Paris twice as a child; the 5,000 Mazarinade pamphlets are the primary source for popular political opinion.",
+          "tag": "CIVIL WAR",
+          "note": "Mazarinades: BnF — digitised collection of over 5,000 pamphlets. The Parlement of Paris resolutions: Archives nationales, série X. Cardinal de Retz, Mémoires: eyewitness account from a leader of the Fronde — BnF. Ranum (1993), The Fronde: the standard modern study. The Fronde's decisive importance for Louis XIV's later absolutism: argued by all biographers."
+        },
+        {
+          "id": "c5",
+          "group": "Louis XIV's Wars",
+          "label": "Franco-Dutch War — 'Louis le Grand'",
+          "date": "1672–1678",
+          "loc": "Dutch Republic; Rhine; Spanish Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "hint": "Louis XIV crosses the Rhine with 100,000 men in June 1672 — the most aggressive expansion of his reign; Vauban's siegecraft, Turenne's campaigns and Condé's final battles define the war; the Treaties of Nijmegen (1678) give France Franche-Comté and secure the title 'Louis le Grand'; the war establishes French military supremacy but the defensive Coalition pattern that follows.",
+          "tag": "BATTLE",
+          "note": "The Rhine crossing June 1672: documented in French military records (Archives de la Guerre A1). Vauban's siege records: Archives de la Guerre. Treaties of Nijmegen (5 Feb 1678 and 17 Sep 1678): Archives des Affaires Étrangères. Lynn (1999), The Wars of Louis XIV, ch.4–6: the standard modern account. The title 'Louis le Grand': granted by the Paris municipality in 1680 — documented in the municipal archives. The Dutch opening of the dykes: documented in Dutch and French sources."
+        },
+        {
+          "id": "c3",
+          "group": "Louis XIV's Wars",
+          "label": "War of the League of Augsburg — France against Europe",
+          "date": "1688–1697",
+          "loc": "Rhineland; Low Countries; Ireland; Savoy",
+          "coords": [
+            49.5,
+            6.5
+          ],
+          "hint": "Louis XIV's fourth war — a coalition of England, Holland, Spain, Austria and the Holy Roman Empire formed against France; ends in stalemate; the devastation of the Palatinate (1689) shocks Europe; William III's victory at the Boyne (1690) is part of the same conflict.",
+          "tag": "BATTLE",
+          "note": "French military records: Archives de la Guerre (Vincennes), série A1. The Palatinate devastation orders: documented in Archives de la Guerre. Treaty of Ryswick 1697: Archives des Affaires Étrangères (La Courneuve). Lynn (1999), The Wars of Louis XIV: the standard modern study. William III's correspondence with the coalition: British National Archives, SP 77."
+        },
+        {
+          "id": "c4",
+          "group": "Louis XIV's Wars",
+          "label": "War of Spanish Succession — Louis XIV's last gamble",
+          "date": "1701–1714",
+          "loc": "Spain; Low Countries; Italy; Germany",
+          "coords": [
+            50.5,
+            4.5
+          ],
+          "hint": "Louis XIV accepts the Spanish throne for his grandson Philip V — triggering a 13-year war against the Grand Alliance; Marlborough defeats France at Blenheim (1704), Ramillies (1706), Oudenarde (1708); ends with the Peace of Utrecht confirming Philip V but stripping France of colonial gains.",
+          "tag": "BATTLE",
+          "note": "French military records: Archives de la Guerre A1. The Blenheim campaign: Marlborough's dispatches (British National Archives, WO 7). Peace of Utrecht: Archives des Affaires Étrangères (La Courneuve). Spanish ratification: AGS Estado. Lynn (1999), ch.10–12. This is the war that ends with Spain's Bourbon restoration — bridging to the Habsburg Spain and Spain 1700–1808 folios."
+        }
       ]
     },
     {
-      "id": "order", "label": "Order", "icon": "⚖️",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "Absolute monarchy in law — Colbert's codes, the Académie and the centralised state",
       "entries": [
-        { "id":"o1", "group":"Administrative Reform", "label":"Colbert's great ordinances — codifying French law", "date":"1667–1685", "loc":"Versailles; Paris (Conseil d'État)", "coords":[48.8,2.12], "hint":"Jean-Baptiste Colbert issues a series of ordinances that codify French civil procedure (1667), criminal law (1670), commerce (1673), the marine (1681) and colonial slavery (Code Noir, 1685) — the most systematic legal codification since Justinian, underpinning the French state for two centuries.", "tag":"LAW", "note":"Ordonnance civile 1667: Bibliothèque nationale de France (BnF), recueil des ordonnances. Ordonnance criminelle 1670: BnF. Code de commerce 1673: BnF. Ordonnance de la Marine 1681: BnF. Code Noir 1685: Archives nationales, Colonies F2. Colbert's papers: Archives nationales, série 619AP. Isambert, Recueil général des anciennes lois françaises, Vol. XVIII–XIX." },
-        { "id":"o2", "group":"Ecclesiastical Act", "label":"Revocation of the Edict of Nantes — 1685", "date":"18 Oct 1685", "loc":"Fontainebleau (signed)", "coords":[48.4,2.7], "hint":"Louis XIV revokes Henri IV's 1598 Edict of Nantes — ending legal Protestantism in France; 200,000–400,000 Huguenots flee to England, Prussia and the Dutch Republic, taking manufacturing skills; the revocation is the most consequential religious act of 17th-century France.", "tag":"EDICT", "note":"Édit de Fontainebleau 18 Oct 1685: Archives nationales (AE/II/291 series); published in Recueil des édits et déclarations. The refugee count (200,000–400,000): documented in Dutch, Prussian and English civic registers. The economic consequence: Scoville (1960), The Persecution of Huguenots. Saint-Simon's account of the revocation: Mémoires, vol.1. This is the exact reversal of the folio that precedes this one — Henri IV's Edict of Nantes (1598)." },
-        { "id":"o3", "group":"Administrative Reform", "label":"Code Noir — slavery codified for the French colonies", "date":"Mar 1685", "loc":"Versailles (issued); French Caribbean (implemented)", "coords":[14.6,-61.0], "hint":"Colbert's Code Noir codifies the legal status of enslaved Africans in French colonies — 60 articles governing purchase, treatment, manumission and punishment; it simultaneously acknowledges enslaved humanity and denies it legal personhood; the foundational document of French colonial slavery.", "tag":"LAW", "note":"Code Noir, March 1685: Archives nationales, Colonies F2 B1. Published in Recueil des édits. Peabody & Grinberg (2007), Slavery, Freedom and the Law in the Atlantic World: the standard documentary study. Sala-Molins (1987), Le Code Noir ou le calvaire de Canaan: the foundational critical study. The Code governed slavery until abolition in 1794 (restored 1802, finally abolished 1848)." }
+        {
+          "id": "o4",
+          "group": "Administrative Reform",
+          "label": "The Intendants — the structural mechanism of Bourbon absolutism",
+          "date": "c.1635–1715",
+          "loc": "France (32 généralités each with an Intendant)",
+          "coords": [
+            47.0,
+            2.5
+          ],
+          "hint": "Royal Intendants (commissioners directly answerable to the Crown) are deployed systematically from the 1630s — stripping local military governors, noble families, and provincial parlements of their traditional fiscal and judicial authority; they collect taxes, supervise justice, manage public works and report directly to Versailles; the structural skeleton of French centralised governance.",
+          "tag": "DOCUMENT",
+          "note": "Intendant commission letters: Archives nationales, série E. Colbert's intendant instructions: Archives nationales, 619AP. Bonney (1978), Political Change in France under Richelieu and Mazarin 1624–1661: the standard study of intendant origins. Beik (1985), Absolutism and Society in Seventeenth-Century France: the standard study of how absolutism actually functioned at the local level (it was more negotiated than the Intendant narrative suggests). The number of intendancies (32 by 1680): documented in administrative records."
+        },
+        {
+          "id": "o1",
+          "group": "Administrative Reform",
+          "label": "Colbert's great ordinances — codifying French law",
+          "date": "1667–1685",
+          "loc": "Versailles; Paris (Conseil d'État)",
+          "coords": [
+            48.8,
+            2.12
+          ],
+          "hint": "The Code Noir is a series of ordinances that codify French civil procedure (1667), criminal law (1670), commerce (1673), the marine (1681) and colonial slavery (Code Noir, 1685) — the most systematic legal codification since Justinian, underpinning the French state for two centuries.",
+          "tag": "LAW",
+          "note": "Code Noir, March 1685: Archives nationales, Colonies F2 B1. NOTE: Jean-Baptiste Colbert died September 1683; the Code was drafted under his direction but finalized and issued in March 1685 by his son Jean-Baptiste Colbert de Seignelay (Minister of the Marine) under Louis XIV's signature. Peabody & Grinberg (2007), Slavery, Freedom and the Law in the Atlantic World: the standard documentary study. Sala-Molins (1987), Le Code Noir: the foundational critical study."
+        },
+        {
+          "id": "o2",
+          "group": "Ecclesiastical Act",
+          "label": "Revocation of the Edict of Nantes — 1685",
+          "date": "18 Oct 1685",
+          "loc": "Fontainebleau (signed)",
+          "coords": [
+            48.4,
+            2.7
+          ],
+          "hint": "Louis XIV revokes Henri IV's 1598 Edict of Nantes — ending legal Protestantism in France; 200,000–400,000 Huguenots flee to England, Prussia and the Dutch Republic, taking manufacturing skills; the revocation is the most consequential religious act of 17th-century France.",
+          "tag": "EDICT",
+          "note": "Édit de Fontainebleau 18 Oct 1685: Archives nationales (AE/II/291 series); published in Recueil des édits et déclarations. The refugee count (200,000–400,000): documented in Dutch, Prussian and English civic registers. The economic consequence: Scoville (1960), The Persecution of Huguenots. Saint-Simon's account of the revocation: Mémoires, vol.1. This is the exact reversal of the folio that precedes this one — Henri IV's Edict of Nantes (1598)."
+        },
+        {
+          "id": "o3",
+          "group": "Administrative Reform",
+          "label": "Code Noir — slavery codified for the French colonies",
+          "date": "Mar 1685",
+          "loc": "Versailles (issued); French Caribbean (implemented)",
+          "coords": [
+            14.6,
+            -61.0
+          ],
+          "hint": "The Code Noir codifies the legal status of enslaved Africans in French colonies — 60 articles governing purchase, treatment, manumission and punishment; it simultaneously acknowledges enslaved humanity and denies it legal personhood; the foundational document of French colonial slavery.",
+          "tag": "LAW",
+          "note": "Code Noir, March 1685: Archives nationales, Colonies F2 B1. NOTE: Jean-Baptiste Colbert died September 1683; the Code was drafted under his direction but finalized and issued in March 1685 by his son Jean-Baptiste Colbert de Seignelay (Minister of the Marine) under Louis XIV's signature. Peabody & Grinberg (2007), Slavery, Freedom and the Law in the Atlantic World: the standard documentary study. Sala-Molins (1987), Le Code Noir: the foundational critical study."
+        }
       ]
     },
     {
-      "id": "belief", "label": "Belief", "icon": "🙏",
-      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
       "subtitle": "Jansenism, Quietism, Gallicanism and the religious politics of absolutism",
       "entries": [
-        { "id":"r1", "group":"Catholic / Church of Rome", "label":"Jansenism — theological revolt within French Catholicism", "date":"1640–1715", "loc":"Port-Royal-des-Champs (destroyed 1709)", "coords":[48.73,2.06], "hint":"The Jansenist movement — centred on Port-Royal abbey — challenges Jesuit optimism about human free will; Pascal writes the Provinciales (1656–1657) in its defence; Louis XIV eventually destroys Port-Royal in 1709; Jansenism becomes a vehicle for Gallican resistance to papal authority.", "tag":"COUNCIL", "note":"Pascal's Lettres Provinciales (18 letters, 1656–1657): first published pseudonymously; BnF. The Papal bull Unigenitus (1713) condemning Jansenism: Archives nationales. The destruction of Port-Royal 1709: documented in contemporary accounts and engravings. Doyle (2000), Jansenism: the standard English introduction. Port-Royal's archive: preserved despite the abbey's destruction, Bibliothèque de la Société de Port-Royal, Paris." },
-        { "id":"r2", "group":"Catholic / Church of Rome", "label":"Gallican Declaration of 1682 — Church vs Pope", "date":"19 Mar 1682", "loc":"Versailles (assembly)", "coords":[48.8,2.12], "hint":"Louis XIV's assembly of French clergy issues the Four Gallican Articles — asserting the French Church's independence from Rome on temporal matters; Bossuet is the principal author; the Declaration is the foundational document of French religious independence from the papacy.", "tag":"COUNCIL", "note":"Déclaration du clergé de France sur la puissance ecclésiastique 19 Mar 1682: published by the Assembly of the Clergy; BnF. Bossuet's Defensio declarationis (Latin, 1682): BnF. The Pope's refusal to recognise the declaration: Vatican Archives (ASV). McManners (1998), Church and Society in Eighteenth-Century France, Vol.I, ch.1 on Gallicanism." }
+        {
+          "id": "r1",
+          "group": "Catholic / Church of Rome",
+          "label": "Jansenism — theological revolt within French Catholicism",
+          "date": "1640–1715",
+          "loc": "Port-Royal-des-Champs (destroyed 1709)",
+          "coords": [
+            48.73,
+            2.06
+          ],
+          "hint": "The Jansenist movement — centred on Port-Royal abbey — challenges Jesuit optimism about human free will; Pascal writes the Provinciales (1656–1657) in its defence; Louis XIV expels the remaining Jansenist nuns in 1709; the abbey of Port-Royal-des-Champs is then physically razed to the ground and its cemetery exhumed in 1710–1711 on the King's orders to prevent the site becoming a dissident shrine; Jansenism becomes a vehicle for Gallican resistance to papal authority.",
+          "tag": "COUNCIL",
+          "note": "Pascal's Lettres Provinciales (18 letters, 1656–1657): first published pseudonymously; BnF. The Papal bull Unigenitus (1713) condemning Jansenism: Archives nationales. The destruction of Port-Royal 1709: documented in contemporary accounts and engravings. Doyle (2000), Jansenism: the standard English introduction. Port-Royal's archive: preserved despite the abbey's destruction, Bibliothèque de la Société de Port-Royal, Paris."
+        },
+        {
+          "id": "r2",
+          "group": "Catholic / Church of Rome",
+          "label": "Gallican Declaration of 1682 — Church vs Pope",
+          "date": "19 Mar 1682",
+          "loc": "Versailles (assembly)",
+          "coords": [
+            48.8,
+            2.12
+          ],
+          "hint": "Louis XIV's assembly of French clergy issues the Four Gallican Articles — asserting the French Church's independence from Rome on temporal matters; Bossuet is the principal author; the Declaration is the foundational document of French religious independence from the papacy.",
+          "tag": "COUNCIL",
+          "note": "Déclaration du clergé de France sur la puissance ecclésiastique 19 Mar 1682: published by the Assembly of the Clergy; BnF. Bossuet's Defensio declarationis (Latin, 1682): BnF. The Pope's refusal to recognise the declaration: Vatican Archives (ASV). McManners (1998), Church and Society in Eighteenth-Century France, Vol.I, ch.1 on Gallicanism."
+        }
       ]
     },
     {
-      "id": "expression", "label": "Expression", "icon": "✨",
-      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
       "subtitle": "Versailles, Molière, Racine and the classical ideal",
       "entries": [
-        { "id":"a1", "group":"Architecture", "label":"Palace of Versailles — the architecture of absolute power", "date":"1661–1710", "loc":"Versailles (extant, UNESCO)", "coords":[48.8,2.12], "hint":"Louis XIV transforms his father's hunting lodge into the largest palace in Europe — 2,300 rooms, 800 hectares of gardens designed by Le Nôtre; from 1662 Louis XIV commissioned the first great campaign of construction work at Versailles; it becomes the model for every royal palace in Europe.", "tag":"MONUMENT", "note":"Building accounts: Archives nationales, série O1 (Maison du Roi). Colbert-Louis XIV correspondence on Versailles: published Clément (1870), Lettres de Colbert, Vol.VII. The court moves to Versailles 6 May 1682: Gazette de France. UNESCO World Heritage (1979). Le Nôtre's garden plans: Archives nationales, Cartes et Plans. Berger (1985), Versailles: the Château of Louis XIV: the standard art-historical study." },
-        { "id":"a2", "group":"Literature & Poetry", "label":"Molière at court — comedy as social mirror", "date":"1659–1673", "loc":"Paris (Palais-Royal); Versailles (court performances)", "coords":[48.86,2.34], "hint":"Molière writes and performs at court under Louis XIV's direct patronage — Tartuffe (1664), Le Misanthrope (1666), Le Bourgeois Gentilhomme (1670); his plays are performed at Versailles fêtes and documented in royal household accounts; he dies on stage in 1673.", "tag":"LITERATURE", "note":"Royal household accounts documenting Molière's court performances: Archives nationales, série O1. Tartuffe first performed 12 May 1664 at Versailles: documented. Molière's death 17 Feb 1673 during Le Malade Imaginaire: parish records Saint-Eustache. First collected edition 1682 (published posthumously by his widow): BnF. Bray (1954), Molière, Homme de Théâtre: the standard French study." },
-        { "id":"a3", "group":"Literature & Poetry", "label":"Racine and French classical tragedy", "date":"1664–1691", "loc":"Paris (Théâtre de l'Hôtel de Bourgogne); Versailles", "coords":[48.86,2.34], "hint":"Jean Racine's tragedies — Phèdre (1677), Andromaque (1667), Britannicus (1669) — define French classical theatre; he serves as Louis XIV's official historiographer from 1677; his private correspondence with Boileau is a primary source for literary life at Versailles.", "tag":"LITERATURE", "note":"Racine's first editions: BnF (Phèdre 1677: BnF Yf-354). His appointment as royal historiographer 1677: Archives nationales, série O1. Racine-Boileau correspondence: BnF fonds français. Goldmann (1955), Le Dieu caché (the Jansenist reading of Racine): a seminal secondary study. Tobin (1999), Racine and Seneca: the standard English critical study." },
-        { "id":"a4", "group":"Music & Performance", "label":"Lully and the birth of French opera", "date":"1661–1687", "loc":"Paris (Académie Royale de Musique); Versailles", "coords":[48.86,2.34], "hint":"Jean-Baptiste Lully holds the monopoly on French opera under Louis XIV — he composes Cadmus et Hermione (1673), Alceste (1674) and 15 more tragédies en musique; his death (he stabbed his own foot with a conducting staff and died of gangrene) is documented in police records.", "tag":"LITERATURE", "note":"Lully's patent on French opera 1672: Archives nationales, série O1. The Académie Royale de Musique founding: Archives nationales. His death 22 Mar 1687: parish records Saint-Eustache, Paris. Anthony (1973), French Baroque Music from Beaujoyeulx to Rameau: the standard study. Lully's own scores: BnF département de la musique, autograph manuscripts." }
+        {
+          "id": "a2",
+          "group": "Literature & Poetry",
+          "label": "Molière at court — comedy as social mirror",
+          "date": "1659–1673",
+          "loc": "Paris (Palais-Royal); Versailles (court performances)",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "Molière writes and performs at court under Louis XIV's direct patronage — Tartuffe (1664), Le Misanthrope (1666), Le Bourgeois Gentilhomme (1670); his plays are performed at Versailles fêtes and documented in royal household accounts; he dies on stage in 1673.",
+          "tag": "LITERATURE",
+          "note": "Royal household accounts documenting Molière's court performances: Archives nationales, série O1. Tartuffe first performed 12 May 1664 at Versailles: documented. Molière's death 17 Feb 1673 during Le Malade Imaginaire: parish records Saint-Eustache. First collected edition 1682 (published posthumously by his widow): BnF. Bray (1954), Molière, Homme de Théâtre: the standard French study."
+        },
+        {
+          "id": "a1",
+          "group": "Architecture",
+          "label": "Palace of Versailles — the architecture of absolute power",
+          "date": "1661–1710",
+          "loc": "Versailles (extant, UNESCO)",
+          "coords": [
+            48.8,
+            2.12
+          ],
+          "hint": "Louis XIV transforms his father's hunting lodge into the largest palace in Europe — 2,300 rooms, 800 hectares of gardens designed by Le Nôtre; from 1662 Louis XIV commissioned the first great campaign of construction work at Versailles; it becomes the model for every royal palace in Europe.",
+          "tag": "MONUMENT",
+          "note": "Building accounts: Archives nationales, série O1 (Maison du Roi). Colbert-Louis XIV correspondence on Versailles: published Clément (1870), Lettres de Colbert, Vol.VII. The court moves to Versailles 6 May 1682: Gazette de France. UNESCO World Heritage (1979). Le Nôtre's garden plans: Archives nationales, Cartes et Plans. Berger (1985), Versailles: the Château of Louis XIV: the standard art-historical study."
+        },
+        {
+          "id": "a4",
+          "group": "Music & Performance",
+          "label": "Lully and the birth of French opera",
+          "date": "1661–1687",
+          "loc": "Paris (Académie Royale de Musique); Versailles",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "Jean-Baptiste Lully holds the monopoly on French opera under Louis XIV — he composes Cadmus et Hermione (1673), Alceste (1674) and 15 more tragédies en musique; his death (he stabbed his own foot with a conducting staff and died of gangrene) is documented in police records.",
+          "tag": "LITERATURE",
+          "note": "Lully's patent on French opera 1672: Archives nationales, série O1. The Académie Royale de Musique founding: Archives nationales. His death 22 Mar 1687: parish records Saint-Eustache, Paris. Anthony (1973), French Baroque Music from Beaujoyeulx to Rameau: the standard study. Lully's own scores: BnF département de la musique, autograph manuscripts."
+        },
+        {
+          "id": "a3",
+          "group": "Literature & Poetry",
+          "label": "Racine and French classical tragedy",
+          "date": "1664–1691",
+          "loc": "Paris (Théâtre de l'Hôtel de Bourgogne); Versailles",
+          "coords": [
+            48.86,
+            2.34
+          ],
+          "hint": "Jean Racine's tragedies — Phèdre (1677), Andromaque (1667), Britannicus (1669) — define French classical theatre; he serves as Louis XIV's official historiographer from 1677; his private correspondence with Boileau is a primary source for literary life at Versailles.",
+          "tag": "LITERATURE",
+          "note": "Racine's first editions: BnF (Phèdre 1677: BnF Yf-354). His appointment as royal historiographer 1677: Archives nationales, série O1. Racine-Boileau correspondence: BnF fonds français. Goldmann (1955), Le Dieu caché (the Jansenist reading of Racine): a seminal secondary study. Tobin (1999), Racine and Seneca: the standard English critical study."
+        }
       ]
     },
     {
-      "id": "thought", "label": "Thought", "icon": "💡",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "Descartes, Pascal, Bossuet and the philosophical foundations of the Grand Siècle",
       "entries": [
-        { "id":"t1", "group":"Philosophy", "label":"Descartes — Discours de la Méthode (1637)", "date":"1637", "loc":"Leiden (published); France (written)", "coords":[52.16,4.49], "hint":"René Descartes publishes the Discours de la Méthode in Leiden — the foundational text of modern philosophy and scientific rationalism; written in French not Latin (a deliberate choice), it introduces systematic doubt, the cogito, and the method that underpins European intellectual life.", "tag":"TEXT", "note":"First edition: Jan Maire, Leiden, 1637. BnF holds copies. Published in French (not Latin): Descartes's own explanation in the preface. The manuscripts: partially lost; fragments at Institut de France. Gaukroger (1995), Descartes: An Intellectual Biography: the standard modern biography. The Discours was published anonymously — Descartes's authorship known from correspondence." },
-        { "id":"t2", "group":"Theology", "label":"Pascal — Pensées and the Provinciales", "date":"1656–1670", "loc":"Paris (Port-Royal circle)", "coords":[48.85,2.35], "hint":"Blaise Pascal writes the Lettres Provinciales (1656–57) defending Jansenism against the Jesuits — the most brilliant polemical prose of the century; the Pensées (published posthumously 1670) are the foundational text of Christian existentialism.", "tag":"TEXT", "note":"Provinciales (18 letters): first edition under pseudonym 'Louis de Montalte', 1657; BnF. The original manuscript fragments of the Pensées: BnF fonds français 9202 — Pascal's handwritten notes, cut up and pinned to paper. First published edition of the Pensées 1670: BnF. Hammond (2003), Pascal's Pensées and the Enlightenment: the standard English study." },
-        { "id":"t3", "group":"Political Theory", "label":"Bossuet — Politics Drawn from Holy Scripture", "date":"1709", "loc":"Paris (published posthumously)", "coords":[48.85,2.35], "hint":"Bossuet's Politique tirée des propres paroles de l'Écriture sainte is the definitive statement of divine right absolutism — written for Louis XIV's grandson; it argues the king receives his authority directly from God and is accountable to no human authority.", "tag":"TEXT", "note":"Politique tirée: published posthumously 1709 (Bossuet died 1704); BnF. Written c.1677–1679 for the Dauphin's education. The manuscript: Bibliothèque municipale de Meaux. Riley (1990), The Political Writings of Leibniz: includes Leibniz's response to Bossuet. Treasure (2013), Louis XIV: contextualises Bossuet's political role." }
+        {
+          "id": "t1",
+          "group": "Philosophy",
+          "label": "Descartes — Discours de la Méthode (1637)",
+          "date": "1637",
+          "loc": "Leiden (published); France (written)",
+          "coords": [
+            52.16,
+            4.49
+          ],
+          "hint": "René Descartes publishes the Discours de la Méthode in Leiden — the foundational text of modern philosophy and scientific rationalism; written in French not Latin (a deliberate choice), it introduces systematic doubt, the cogito, and the method that underpins European intellectual life.",
+          "tag": "TEXT",
+          "note": "First edition: Jan Maire, Leiden, 1637. BnF holds copies. Published in French (not Latin): Descartes's own explanation in the preface. The manuscripts: partially lost; fragments at Institut de France. Gaukroger (1995), Descartes: An Intellectual Biography: the standard modern biography. The Discours was published anonymously — Descartes's authorship known from correspondence."
+        },
+        {
+          "id": "t2",
+          "group": "Theology",
+          "label": "Pascal — Pensées and the Provinciales",
+          "date": "1656–1670",
+          "loc": "Paris (Port-Royal circle)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Blaise Pascal writes the Lettres Provinciales (1656–57) defending Jansenism against the Jesuits — the most brilliant polemical prose of the century; the Pensées (published posthumously 1670) are the foundational text of Christian existentialism.",
+          "tag": "TEXT",
+          "note": "Provinciales (18 letters): first edition under pseudonym 'Louis de Montalte', 1657; BnF. The original manuscript fragments of the Pensées: BnF fonds français 9202 — Pascal's handwritten notes, cut up and pinned to paper. First published edition of the Pensées 1670: BnF. Hammond (2003), Pascal's Pensées and the Enlightenment: the standard English study."
+        },
+        {
+          "id": "t4",
+          "group": "Philosophy",
+          "label": "Pierre Bayle — Dictionnaire Historique et Critique (1697)",
+          "date": "1697",
+          "loc": "Rotterdam (published in exile)",
+          "coords": [
+            51.92,
+            4.48
+          ],
+          "hint": "Pierre Bayle (Huguenot exile in Rotterdam) publishes the Dictionnaire Historique et Critique in 1697 — rigorous scepticism, advocacy for religious toleration, and systematic critique of theological dogmatism; the most-read intellectual text for Voltaire, Diderot and the French philosophes; the bridge between 17th-century scepticism and 18th-century Enlightenment.",
+          "tag": "TEXT",
+          "note": "Dictionnaire Historique et Critique (1697, 2 vols; 1702, expanded): BnF. The first edition Rotterdam: Reinier Leers. Labrousse (1983–1985), Pierre Bayle (2 vols): the standard biography. Voltaire's explicit debt to Bayle: documented throughout the Dictionnaire philosophique. Diderot's use of Bayle: documented in the Encyclopédie scholarship. The text's 'fideism' strategy: arguing reason undermines theology — the most dangerous form of scepticism."
+        },
+        {
+          "id": "t5",
+          "group": "Theology",
+          "label": "Quietism controversy — Fénelon vs Bossuet",
+          "date": "1697–1699",
+          "loc": "Versailles; Rome (papal adjudication)",
+          "coords": [
+            48.8,
+            2.12
+          ],
+          "hint": "Archbishop Fénelon's Maximes des Saints (1697) champions Quietism — the 'disinterested love of God' unattached to personal salvation; Bossuet attacks it as heresy; Louis XIV backs Bossuet; Pope Innocent XII condemns Fénelon's book in 1699; the intellectual civil war within Versailles Catholicism is documented in the most voluminous theological polemic of the century.",
+          "tag": "TEXT",
+          "note": "Fénelon, Explication des Maximes des Saints (1697): BnF. Bossuet's Instruction sur les états d'oraison (1697): BnF. The condemnation by Innocent XII (12 Mar 1699, bull Cum Alias): Vatican Archives. Goré (1957), La notion d'indifférence chez Fénelon: the standard theological study. Louis XIV's role: documented in his correspondence (AGS Estado cross-references). Fénelon's submission to the condemnation — his famous letter to his flock: Archives de l'Archevêché de Cambrai."
+        },
+        {
+          "id": "t3",
+          "group": "Political Theory",
+          "label": "Bossuet — Politics Drawn from Holy Scripture",
+          "date": "1709",
+          "loc": "Paris (published posthumously)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Bossuet's Politique tirée des propres paroles de l'Écriture sainte is the definitive statement of divine right absolutism — written for Louis XIV's grandson; it argues the king receives his authority directly from God and is accountable to no human authority.",
+          "tag": "TEXT",
+          "note": "Politique tirée: published posthumously 1709 (Bossuet died 1704); BnF. Written c.1677–1679 for the Dauphin's education. The manuscript: Bibliothèque municipale de Meaux. Riley (1990), The Political Writings of Leibniz: includes Leibniz's response to Bossuet. Treasure (2013), Louis XIV: contextualises Bossuet's political role."
+        }
       ]
     },
     {
-      "id": "economy", "label": "Economy", "icon": "💰",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "Colbertism, mercantilism and the cost of Louis XIV's wars",
       "entries": [
-        { "id":"s1", "group":"Fiscal & Monetary", "label":"Colbertism — mercantilism as state policy", "date":"1661–1683", "loc":"Paris (Conseil des finances)", "coords":[48.85,2.35], "hint":"Jean-Baptiste Colbert systematically builds the French economy through mercantilism — promoting manufactures, founding the Compagnie des Indes Orientales (1664), building the Canal du Midi (1666–1681), reforming tariffs; his papers are the most detailed surviving record of early modern state economic management.", "tag":"ECONOMIC", "note":"Colbert's papers: Archives nationales, série 619AP (177 cartons). Published: Clément (1861–1882), Lettres, instructions et mémoires de Colbert (7 vols). The Compagnie des Indes Orientales 1664: Archives nationales, Colonies C2. Canal du Midi: UNESCO World Heritage (1996); building accounts in Archives départementales de l'Hérault. Cole (1939), Colbert and a Century of French Mercantilism (2 vols): the standard study." },
-        { "id":"s2", "group":"Fiscal & Monetary", "label":"Vauban's Dîme royale — diagnosing poverty under Louis XIV", "date":"1707", "loc":"France (surveyed); Paris (published)", "coords":[48.85,2.35], "hint":"Marshal Vauban's Projet d'une dîme royale (1707) proposes replacing the chaotic tax system with a universal income tax — it documents that one-tenth of the population is reduced to begging; Louis XIV bans the book and it circulates clandestinely.", "tag":"ECONOMIC", "note":"Projet d'une dîme royale: published January 1707; banned by royal decree within weeks; BnF holds copies. Vauban's statistical data: based on his own regional surveys (Boisguilbert conducted parallel surveys). The banning order: Archives nationales. The clandestine circulation: documented in police reports (Archives nationales, série Y). Garlan (1974), Vauban: un autre visage: the standard modern study." }
+        {
+          "id": "s1",
+          "group": "Fiscal & Monetary",
+          "label": "Colbertism — mercantilism as state policy",
+          "date": "1661–1683",
+          "loc": "Paris (Conseil des finances)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Jean-Baptiste Colbert systematically builds the French economy through mercantilism — promoting manufactures, founding the Compagnie des Indes Orientales (1664), building the Canal du Midi (1666–1681), reforming tariffs; his papers are the most detailed surviving record of early modern state economic management.",
+          "tag": "ECONOMIC",
+          "note": "Colbert's papers: Archives nationales, série 619AP (177 cartons). Published: Clément (1861–1882), Lettres, instructions et mémoires de Colbert (7 vols). The Compagnie des Indes Orientales 1664: Archives nationales, Colonies C2. Canal du Midi: UNESCO World Heritage (1996); building accounts in Archives départementales de l'Hérault. Cole (1939), Colbert and a Century of French Mercantilism (2 vols): the standard study."
+        },
+        {
+          "id": "s3",
+          "group": "Epidemic & Demographic",
+          "label": "Great Famines of 1693–1694 and 1709 — 1.9 million dead",
+          "date": "1693–1694; 1709–1710",
+          "loc": "France (nationwide, worst in the north and Paris basin)",
+          "coords": [
+            47.0,
+            2.5
+          ],
+          "hint": "Two catastrophic agrarian crises strike late Louis XIV's France — the Great Famine of 1693–1694 kills over 1.3 million people (c.6% of the population); the Great Winter of 1709 (when the Seine freezes solid) destroys crops and kills another 600,000; caused by Little Ice Age cold spells and exacerbated by Louis XIV's war taxes; the true lived economic reality behind Versailles.",
+          "tag": "Epidemic & Demographic",
+          "note": "Parish burial registers: Archives départementales throughout France — the primary demographic evidence. Dupâquier (1988), Histoire de la population française Vol.II: the standard demographic study. The 1693–1694 mortality: 1.3 million excess deaths calculated from parish registers. The 1709 freeze: documented in weather diaries and the Gazette de France. Bois (1976), Paysans de l'Ouest: the standard regional study. Vauban's Dîme Royale (1707): written in direct response to these famines — the connection documented in the text."
+        },
+        {
+          "id": "s2",
+          "group": "Fiscal & Monetary",
+          "label": "Vauban's Dîme royale — diagnosing poverty under Louis XIV",
+          "date": "1707",
+          "loc": "France (surveyed); Paris (published)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Marshal Vauban's Projet d'une dîme royale (1707) proposes replacing the chaotic tax system with a universal income tax — it documents that one-tenth of the population is reduced to begging; Louis XIV bans the book and it circulates clandestinely.",
+          "tag": "ECONOMIC",
+          "note": "Projet d'une dîme royale: published January 1707; banned by royal decree within weeks; BnF holds copies. Vauban's statistical data: based on his own regional surveys (Boisguilbert conducted parallel surveys). The banning order: Archives nationales. The clandestine circulation: documented in police reports (Archives nationales, série Y). Garlan (1974), Vauban: un autre visage: the standard modern study."
+        }
       ]
     },
     {
-      "id": "exchange", "label": "Exchange", "icon": "🌐",
-      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
       "subtitle": "French colonial expansion, diplomacy and cultural hegemony",
       "entries": [
-        { "id":"ex1", "group":"Cultural Transmission", "label":"French as the language of European diplomacy", "date":"c.1660–1715", "loc":"Versailles; courts of Europe", "coords":[48.8,2.12], "hint":"Under Louis XIV, French replaces Latin as the language of European diplomacy and elite culture — the Treaty of Nijmegen (1678) is the first major European treaty drafted in French; Versailles becomes the cultural model for every European court from Petersburg to Madrid.", "tag":"DOCUMENT", "note":"Treaty of Nijmegen 1678–1679 in French: Archives des Affaires Étrangères (La Courneuve). The spread of French court culture: documented in diplomatic correspondence across European archives. Burke (1992), The Fabrication of Louis XIV: the standard study of French cultural hegemony. Versailles copies: Schönbrunn (Vienna), Herrenhausen (Hanover), La Granja (Spain) — all documented in their respective state archives." },
-        { "id":"ex2", "group":"Diplomatic Exchange", "label":"French colonial expansion — Canada, Louisiana, Caribbean", "date":"1608–1715", "loc":"Quebec; Mississippi Valley; Saint-Domingue", "coords":[46.82,-71.21], "hint":"Under Louis XIV, France establishes New France (Canada), Louisiana (1682 — La Salle claims the entire Mississippi Valley for France), and builds the most profitable Caribbean sugar colonies (Saint-Domingue); the colonial system is documented in the Archives nationales d'Outre-Mer.", "tag":"ECONOMIC", "note":"La Salle's Mississippi claim 9 Apr 1682: documented in his own journal (Archives nationales, Colonies C13). The founding of Louisiana: Archives nationales, Colonies C13A. Saint-Domingue plantation records: Archives nationales d'Outre-Mer (ANOM), Aix-en-Provence. Moogk (2000), La Nouvelle France: the standard study of New France." }
+        {
+          "id": "ex2",
+          "group": "Diplomatic Exchange",
+          "label": "French colonial expansion — Canada, Louisiana, Caribbean",
+          "date": "1608–1715",
+          "loc": "Quebec; Mississippi Valley; Saint-Domingue",
+          "coords": [
+            46.82,
+            -71.21
+          ],
+          "hint": "Under Louis XIV, France establishes New France (Canada), Louisiana (1682 — La Salle claims the entire Mississippi Valley for France), and builds the most profitable Caribbean sugar colonies (Saint-Domingue); the colonial system is documented in the Archives nationales d'Outre-Mer.",
+          "tag": "ECONOMIC",
+          "note": "La Salle's Mississippi claim 9 Apr 1682: documented in his own journal (Archives nationales, Colonies C13). The founding of Louisiana: Archives nationales, Colonies C13A. Saint-Domingue plantation records: Archives nationales d'Outre-Mer (ANOM), Aix-en-Provence. Moogk (2000), La Nouvelle France: the standard study of New France."
+        },
+        {
+          "id": "ex1",
+          "group": "Cultural Transmission",
+          "label": "French as the language of European diplomacy",
+          "date": "c.1660–1715",
+          "loc": "Versailles; courts of Europe",
+          "coords": [
+            48.8,
+            2.12
+          ],
+          "hint": "Under Louis XIV, French replaces Latin as the language of European diplomacy and elite culture — the Treaty of Nijmegen (1678) is the first major European treaty drafted in French; Versailles becomes the cultural model for every European court from Petersburg to Madrid.",
+          "tag": "DOCUMENT",
+          "note": "Treaty of Nijmegen 1678–1679 in French: Archives des Affaires Étrangères (La Courneuve). The spread of French court culture: documented in diplomatic correspondence across European archives. Burke (1992), The Fabrication of Louis XIV: the standard study of French cultural hegemony. Versailles copies: Schönbrunn (Vienna), Herrenhausen (Hanover), La Granja (Spain) — all documented in their respective state archives."
+        },
+        {
+          "id": "ex3",
+          "group": "Maritime & Trade Routes",
+          "label": "Compagnie du Levant — Ottoman trade and Mediterranean mercantilism",
+          "date": "c.1670–1715",
+          "loc": "Marseille; Toulon; Constantinople; Alexandria; Smyrna",
+          "coords": [
+            43.3,
+            5.37
+          ],
+          "hint": "France's Mediterranean trade through the Compagnie du Levant and the ports of Marseille and Toulon is the other half of French commercial expansion — exchanging French woolens (draps de Languedoc) for Ottoman silk, cotton and spices; the Levant trade is as significant as the Atlantic for French commercial policy and is documented in the Marseille Chamber of Commerce records.",
+          "tag": "ECONOMIC",
+          "note": "Compagnie du Levant records: Archives de la Chambre de Commerce de Marseille — the primary archive (also Archives nationales Colonies C2). Colbert's Levant regulations: documented in his papers (Archives nationales 619AP). Masson (1896), Histoire du commerce français dans le Levant au XVIIe siècle: the standard study. The Marseille Chamber of Commerce (founded 1599): the oldest chamber of commerce in France — its records document every Levant voyage. The draps de Languedoc: their role documented in French textile export statistics."
+        }
       ]
     },
     {
-      "id": "world", "label": "World", "icon": "🌍",
-      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "France as Europe's dominant power",
       "entries": [
-        { "id":"w1", "group":"Geopolitical Shift", "label":"France replaces Spain as Europe's dominant power", "date":"c.1659–1715", "loc":"Europe", "coords":[47.0,2.5], "hint":"The Peace of the Pyrenees (1659) marks the formal transfer of European hegemony from Spain to France — confirmed by the War of Devolution, the Dutch War and subsequent conflicts; France in 1680 is what Spain was in 1580 — the arbiter of European politics.", "tag":"EVENT", "note":"Peace of the Pyrenees 7 Nov 1659: Archives des Affaires Étrangères; text in Dumont, Corps universel diplomatique (1726). The population comparison: France c.20 million vs Spain c.8 million (estimated from contemporary surveys). Lynn (1999), The Wars of Louis XIV: analyses French hegemony quantitatively. The connection to the Spain-1516-1700 folio: the same events seen from opposite sides." }
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "France replaces Spain as Europe's dominant power",
+          "date": "c.1659–1715",
+          "loc": "Europe",
+          "coords": [
+            47.0,
+            2.5
+          ],
+          "hint": "The Peace of the Pyrenees (1659) marks the formal transfer of European hegemony from Spain to France — confirmed by the War of Devolution, the Dutch War and subsequent conflicts; France in 1680 is what Spain was in 1580 — the arbiter of European politics.",
+          "tag": "EVENT",
+          "note": "Peace of the Pyrenees 7 Nov 1659: Archives des Affaires Étrangères; text in Dumont, Corps universel diplomatique (1726). The population comparison: France c.20 million vs Spain c.8 million (estimated from contemporary surveys). Lynn (1999), The Wars of Louis XIV: analyses French hegemony quantitatively. The connection to the Spain-1516-1700 folio: the same events seen from opposite sides."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Treaty of Utrecht (1713) — Balance of Power as European doctrine",
+          "date": "11 Apr 1713",
+          "loc": "Utrecht (negotiations and signing)",
+          "coords": [
+            52.09,
+            5.12
+          ],
+          "hint": "The Peace of Utrecht ends the War of Spanish Succession and formally codifies the 'Balance of Power' (justum potentiae equilibrium) as the guiding principle of European diplomacy — Louis XIV's dream of French universal monarchy is definitively ended; Philip V is confirmed in Spain but France and Spain are permanently barred from union; the modern state system is crystallised.",
+          "tag": "EVENT",
+          "note": "Treaty of Utrecht 11 Apr 1713: British National Archives (SP 108/402); French ratification in Archives des Affaires Étrangères. The 'balance of power' language: explicit in the treaty preamble. Black (1983), Natural and Necessary Enemies: analyses the Balance of Power doctrine. Lynn (1999), The Wars of Louis XIV, ch.12. The 'no union' clause (Art. 6): the definitive rejection of Louis XIV's universal monarchy ambition — documented. This is the foundational document of the modern European state system."
+        }
       ]
     },
     {
-      "id": "lives", "label": "Lives", "icon": "🪞",
-      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
       "entries": [
-        { "id":"lv1", "group":"Women's Agency", "label":"The Précieuses and the salons — women as intellectual arbiters", "date":"c.1640–1700", "loc":"Paris (Hôtel de Rambouillet; Madeleine de Scudéry's salon)", "coords":[48.85,2.35], "hint":"The précieuses movement centres on aristocratic women who host literary salons, set linguistic standards and shape taste — Catherine de Vivonne's Hôtel de Rambouillet is the first major French salon; Madeleine de Scudéry's novels and her Saturday salon are the primary evidence for women's intellectual authority in the Grand Siècle.", "tag":"EVIDENCE", "note":"Madeleine de Scudéry's Clélie (1654–1660, 10 vols): BnF. Her Carte du Tendre (map of the land of tenderness): included in Clélie Vol.I. The Hôtel de Rambouillet (active 1610s–1650s): documented in Tallemant des Réaux, Historiettes (c.1657–1659) — a primary gossip chronicle. Dejean (1991), Tender Geographies: Women and the Origins of the Novel: the standard study." },
-        { "id":"lv2", "group":"Same-Sex Practice & Law", "label":"The Affaire des Poisons and Madame de Montespan", "date":"1679–1682", "loc":"Paris (Chambre Ardente proceedings)", "coords":[48.85,2.35], "hint":"The Affaire des Poisons (1679–1682) — a mass poisoning scandal — implicates Louis XIV's mistress Athénaïs de Montespan in black masses and infanticide; the 218 trial records are a unique primary source for popular magic, gender and power at the court.", "tag":"EVIDENCE", "note":"Trial records (218 dossiers): Archives nationales, série AD III 6 — partially suppressed by Louis XIV but surviving. Somerset (2003), The Affair of the Poisons: the standard modern study, using the archives. The transcripts include evidence of same-sex practices, abortion and infanticide — the most detailed surviving documentation of women's clandestine networks under the Ancien Régime. Louis XIV ordered the transcripts sealed in 1682: Archives nationales." },
-        { "id":"lv3", "group":"Enslaved Lives", "label":"Code Noir — enslaved Africans under French law", "date":"1685", "loc":"French Caribbean (Martinique; Guadeloupe; Saint-Domingue)", "coords":[14.6,-61.0], "hint":"The Code Noir (1685) codifies the legal status of enslaved Africans in French colonies — it simultaneously defines them as property and as persons with minimal rights (religious instruction, family protection in theory); the gap between the law's text and colonial practice is documented in plantation records.", "tag":"CATEGORICAL SHIFT", "note":"Code Noir 1685: Archives nationales, Colonies F2 B1. Plantation records documenting the gap between law and practice: ANOM (Aix-en-Provence). Sala-Molins (1987), Le Code Noir: the foundational critical analysis. This is a CATEGORICAL SHIFT: the Code establishes race (African origin) as the legal basis for enslavement in French law — the first such explicit racial definition in French colonial legislation." }
+        {
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "The Précieuses and the salons — women as intellectual arbiters",
+          "date": "c.1640–1700",
+          "loc": "Paris (Hôtel de Rambouillet; Madeleine de Scudéry's salon)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The précieuses movement centres on aristocratic women who host literary salons, set linguistic standards and shape taste — Catherine de Vivonne's Hôtel de Rambouillet is the first major French salon; Madeleine de Scudéry's novels and her Saturday salon are the primary evidence for women's intellectual authority in the Grand Siècle.",
+          "tag": "EVIDENCE",
+          "note": "Madeleine de Scudéry's Clélie (1654–1660, 10 vols): BnF. Her Carte du Tendre (map of the land of tenderness): included in Clélie Vol.I. The Hôtel de Rambouillet (active 1610s–1650s): documented in Tallemant des Réaux, Historiettes (c.1657–1659) — a primary gossip chronicle. Dejean (1991), Tender Geographies: Women and the Origins of the Novel: the standard study."
+        },
+        {
+          "id": "lv5",
+          "group": "Same-Sex Practice & Law",
+          "label": "Monsieur (Philippe d'Orléans) and the culture of same-sex favouritism at court",
+          "date": "c.1660–1701",
+          "loc": "Versailles; Saint-Cloud (Monsieur's court)",
+          "coords": [
+            48.84,
+            2.21
+          ],
+          "hint": "Philippe I, Duke of Orléans (Louis XIV's brother, 'Monsieur') openly maintains a circle of male favourites — the Chevalier de Lorraine being the most notorious; his documented same-sex relationships are a major political and social reality at Versailles, commented on extensively by Saint-Simon and Liselotte von der Pfalz in their published correspondence.",
+          "tag": "EVIDENCE",
+          "note": "Saint-Simon, Mémoires: multiple explicit accounts of Philippe's relationships — BnF published edition. Liselotte von der Pfalz's correspondence (published): extensive documented accounts of her husband's relationships and their political consequences. The Chevalier de Lorraine's political influence (he was exiled for three years by Louis XIV due to his influence over Philippe): documented in court records. Garrisson (2002), Monsieur, frère de Louis XIV: the standard biography. This is the actual same-sex Lives entry for this folio — replacing the misplaced Affaire des Poisons entry."
+        },
+        {
+          "id": "lv2",
+          "group": "Women's Agency",
+          "label": "The Affaire des Poisons and Madame de Montespan",
+          "date": "1679–1682",
+          "loc": "Paris (Chambre Ardente proceedings)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "The Affaire des Poisons (1679–1682) — a mass poisoning and witchcraft scandal — implicates Athénaïs de Montespan in black masses and infanticide; the 218 trial records document women's clandestine networks at the heart of Versailles; this is an entry about women and power, not about same-sex practice.",
+          "tag": "EVIDENCE",
+          "note": "Trial records (218 dossiers): Archives nationales, série AD III 6 — partially suppressed by Louis XIV but surviving. Somerset (2003), The Affair of the Poisons: the standard modern study, using the archives. The transcripts include evidence of same-sex practices, abortion and infanticide — the most detailed surviving documentation of women's clandestine networks under the Ancien Régime. Louis XIV ordered the transcripts sealed in 1682: Archives nationales."
+        },
+        {
+          "id": "lv3",
+          "group": "Enslaved Lives",
+          "label": "Code Noir — enslaved Africans under French law",
+          "date": "1685",
+          "loc": "French Caribbean (Martinique; Guadeloupe; Saint-Domingue)",
+          "coords": [
+            14.6,
+            -61.0
+          ],
+          "hint": "The Code Noir (1685) codifies the legal status of enslaved Africans in French colonies — it simultaneously defines them as property and as persons with minimal rights (religious instruction, family protection in theory); the gap between the law's text and colonial practice is documented in plantation records.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Code Noir, March 1685: Archives nationales, Colonies F2 B1. NOTE: Jean-Baptiste Colbert died September 1683; the Code was drafted under his direction but finalized and issued in March 1685 by his son Jean-Baptiste Colbert de Seignelay (Minister of the Marine) under Louis XIV's signature. Peabody & Grinberg (2007), Slavery, Freedom and the Law in the Atlantic World: the standard documentary study. Sala-Molins (1987), Le Code Noir: the foundational critical study."
+        },
+        {
+          "id": "lv4",
+          "group": "Persecuted Communities",
+          "label": "Camisard Revolt — Huguenot guerrilla war in the Cévennes",
+          "date": "1702–1710",
+          "loc": "Cévennes mountains (Languedoc)",
+          "coords": [
+            44.2,
+            3.7
+          ],
+          "hint": "Following the Revocation of the Edict of Nantes (1685), Huguenots in the Cévennes launch a major guerrilla war — the Camisards; their lived experience is prophetic religious trances, cave warfare, and brutal royal counter-insurgency by Marshal Villars and Montrevel (entire villages burned, populations executed); 20,000 killed on both sides.",
+          "tag": "EVIDENCE",
+          "note": "The Camisard revolt documentation: Archives de la Guerre A1 (Villars's dispatches). The Jean Cavalier memoir (1726): the primary Camisard leader's own account. Joutard (1976), La légende des Camisards: the standard modern study. The village burnings and executions: documented in Montrevel's dispatches (Archives de la Guerre) and Protestant accounts. The Camisard revolt directly follows from the Revocation entry — the lived consequence documented."
+        }
       ]
     }
   ],
   "timeline": [
-    {"id":"early-bourbon",  "icon":"⚜️","accent":"#5B2C8D","label":"Early Bourbon (1610–1661)", "events":[
-      {"y":1610,"y2":1617,"l":"Regency — Marie de Médicis",   "entryId":"k1"},
-      {"y":1617,"y2":1643,"l":"Louis XIII",                   "entryId":"k1"},
-      {"y":1624,"y2":1642,"l":"Ministry of Richelieu",        "entryId":"k2"},
-      {"y":1643,"y2":1661,"l":"Regency / Mazarin / Fronde",   "entryId":"k3"}
-    ]},
-    {"id":"louis-xiv",     "icon":"⚜️","accent":"#3A1A70","label":"Louis XIV (1661–1715)", "events":[
-      {"y":1661,"y2":1715,"l":"Louis XIV — personal rule",    "entryId":"k4"}
-    ]},
-    {"id":"conflict",     "icon":"⚔️","accent":"#7D3C98","events":[
-      {"y":1627,"l":"Siege of La Rochelle",                   "entryId":"c1"},
-      {"y":1648,"l":"The Fronde",                             "entryId":"c2"},
-      {"y":1688,"l":"War of League of Augsburg",              "entryId":"c3"},
-      {"y":1701,"l":"War of Spanish Succession",              "entryId":"c4"}
-    ]},
-    {"id":"order",        "icon":"⚖️","accent":"#2471A3","events":[
-      {"y":1667,"l":"Colbert's great ordinances",             "entryId":"o1"},
-      {"y":1682,"l":"Gallican Declaration",                   "entryId":"r2"},
-      {"y":1685,"l":"Code Noir",                              "entryId":"o3"},
-      {"y":1685,"l":"Revocation of Edict of Nantes",          "entryId":"o2"}
-    ]},
-    {"id":"belief",       "icon":"🙏","accent":"#1E8449","events":[
-      {"y":1640,"l":"Jansenism — Port-Royal",                 "entryId":"r1"},
-      {"y":1682,"l":"Gallican Declaration",                   "entryId":"r2"}
-    ]},
-    {"id":"expression",   "icon":"✨","accent":"#8D6E63","events":[
-      {"y":1637,"l":"Descartes: Discours de la Méthode",      "entryId":"t1"},
-      {"y":1656,"l":"Pascal: Lettres Provinciales",           "entryId":"t2"},
-      {"y":1661,"l":"Versailles construction begins",         "entryId":"a1"},
-      {"y":1664,"l":"Molière at court",                       "entryId":"a2"},
-      {"y":1667,"l":"Racine: Andromaque",                     "entryId":"a3"},
-      {"y":1673,"l":"Lully — French opera",                   "entryId":"a4"}
-    ]},
-    {"id":"economy",  "icon":"💰","accent":"#8B5E00","events":[
-      {"y":1661,"l":"Colbertism — mercantilism",              "entryId":"s1"},
-      {"y":1707,"l":"Vauban: Dîme royale",                    "entryId":"s2"}
-    ]},
-    {"id":"exchange",     "icon":"🌐","accent":"#148080","events":[
-      {"y":1659,"l":"France replaces Spain as hegemon",       "entryId":"w1"},
-      {"y":1664,"l":"Compagnie des Indes; colonial expansion","entryId":"ex2"},
-      {"y":1678,"l":"French as language of diplomacy",        "entryId":"ex1"}
-    ]},
-    {"id":"world",        "icon":"🌍","accent":"#2471A3","events":[
-      {"y":1659,"l":"Peace of Pyrenees — French hegemony",    "entryId":"w1"}
-    ]},
-    {"id":"lives",        "icon":"🪞","accent":"#7B4FA6","events":[
-      {"y":1640,"l":"The Précieuses — women's salons",        "entryId":"lv1"},
-      {"y":1679,"l":"Affaire des Poisons",                    "entryId":"lv2"},
-      {"y":1685,"l":"Code Noir — race as legal category",     "entryId":"lv3"}
-    ]}
+    {
+      "id": "early-bourbon",
+      "icon": "⚜️",
+      "accent": "#5B2C8D",
+      "label": "Early Bourbon (1610–1661)",
+      "events": [
+        {
+          "y": 1610,
+          "y2": 1617,
+          "l": "Regency — Marie de Médicis",
+          "entryId": "k1"
+        },
+        {
+          "y": 1617,
+          "y2": 1643,
+          "l": "Louis XIII",
+          "entryId": "k1"
+        },
+        {
+          "y": 1624,
+          "y2": 1642,
+          "l": "Ministry of Richelieu",
+          "entryId": "k2"
+        },
+        {
+          "y": 1643,
+          "y2": 1661,
+          "l": "Regency / Mazarin / Fronde",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "louis-xiv",
+      "icon": "⚜️",
+      "accent": "#3A1A70",
+      "label": "Louis XIV (1661–1715)",
+      "events": [
+        {
+          "y": 1661,
+          "y2": 1715,
+          "l": "Louis XIV — personal rule",
+          "entryId": "k4"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 1627,
+          "l": "Siege of La Rochelle",
+          "entryId": "c1"
+        },
+        {
+          "y": 1648,
+          "l": "The Fronde",
+          "entryId": "c2"
+        },
+        {
+          "y": 1672,
+          "l": "Franco-Dutch War — 'Louis le Grand'",
+          "entryId": "c5"
+        },
+        {
+          "y": 1688,
+          "l": "War of League of Augsburg",
+          "entryId": "c3"
+        },
+        {
+          "y": 1701,
+          "l": "War of Spanish Succession",
+          "entryId": "c4"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1635,
+          "l": "Intendants — Bourbon absolutism in practice",
+          "entryId": "o4"
+        },
+        {
+          "y": 1667,
+          "l": "Colbert's great ordinances",
+          "entryId": "o1"
+        },
+        {
+          "y": 1682,
+          "l": "Gallican Declaration",
+          "entryId": "r2"
+        },
+        {
+          "y": 1685,
+          "l": "Code Noir",
+          "entryId": "o3"
+        },
+        {
+          "y": 1685,
+          "l": "Revocation of Edict of Nantes",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 1640,
+          "l": "Jansenism — Port-Royal",
+          "entryId": "r1"
+        },
+        {
+          "y": 1682,
+          "l": "Gallican Declaration",
+          "entryId": "r2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 1637,
+          "l": "Descartes: Discours de la Méthode",
+          "entryId": "t1"
+        },
+        {
+          "y": 1656,
+          "l": "Pascal: Lettres Provinciales",
+          "entryId": "t2"
+        },
+        {
+          "y": 1661,
+          "l": "Versailles construction begins",
+          "entryId": "a1"
+        },
+        {
+          "y": 1664,
+          "l": "Molière at court",
+          "entryId": "a2"
+        },
+        {
+          "y": 1667,
+          "l": "Racine: Andromaque",
+          "entryId": "a3"
+        },
+        {
+          "y": 1673,
+          "l": "Lully — French opera",
+          "entryId": "a4"
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "icon": "🌾",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 1661,
+          "l": "Colbertism — mercantilism",
+          "entryId": "s1"
+        },
+        {
+          "y": 1693,
+          "l": "Great Famines — 1.9 million dead",
+          "entryId": "s3"
+        },
+        {
+          "y": 1707,
+          "l": "Vauban: Dîme royale",
+          "entryId": "s2"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 1659,
+          "l": "France replaces Spain as hegemon",
+          "entryId": "w1"
+        },
+        {
+          "y": 1664,
+          "l": "Compagnie des Indes; colonial expansion",
+          "entryId": "ex2"
+        },
+        {
+          "y": 1670,
+          "l": "Compagnie du Levant — Ottoman trade",
+          "entryId": "ex3"
+        },
+        {
+          "y": 1678,
+          "l": "French as language of diplomacy",
+          "entryId": "ex1"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1659,
+          "l": "Peace of Pyrenees — French hegemony",
+          "entryId": "w1"
+        },
+        {
+          "y": 1713,
+          "l": "Utrecht — Balance of Power doctrine",
+          "entryId": "w2"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 1640,
+          "l": "The Précieuses — women's salons",
+          "entryId": "lv1"
+        },
+        {
+          "y": 1660,
+          "l": "Monsieur — same-sex culture at Versailles",
+          "entryId": "lv5"
+        },
+        {
+          "y": 1679,
+          "l": "Affaire des Poisons",
+          "entryId": "lv2"
+        },
+        {
+          "y": 1685,
+          "l": "Code Noir — race as legal category",
+          "entryId": "lv3"
+        },
+        {
+          "y": 1702,
+          "l": "Camisard revolt — Huguenot guerrilla war",
+          "entryId": "lv4"
+        }
+      ]
+    }
   ]
 }
