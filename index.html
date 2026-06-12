@@ -176,6 +176,55 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 /* ── LOADING ── */
 #loading{display:flex;align-items:center;justify-content:center;height:40vh;font-size:12px;color:#aaa;font-family:'Courier New',monospace;letter-spacing:.1em}
+
+/* ── MOBILE ── */
+@media (max-width:640px){
+
+  /* Topbar */
+  #topbar{padding:0 12px}
+  #app-label{display:none}
+  #module-name-top{font-size:10px;padding:8px 0 8px 8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:calc(100vw - 100px)}
+
+  /* Header */
+  #header{padding:10px 12px 0;top:37px}
+  #module-title{font-size:17px}
+  #module-subtitle{font-size:10px}
+  #module-cats{display:none}
+  #header-top{gap:6px;padding-bottom:8px}
+
+  /* Tabs — fill row, hide search inline */
+  #tabs{flex-wrap:wrap}
+  .tab-btn{flex:1;padding:9px 4px;font-size:10px;letter-spacing:.03em;text-align:center}
+  #search-wrap{order:10;width:100%;border-left:none;border-top:1px solid #c8e0c8;padding:6px 10px}
+  #search-input{font-size:14px}
+
+  /* Picker */
+  #picker-top{padding:14px 14px 0}
+  #picker-head h2{font-size:15px}
+  #matrix-wrap{padding:0 10px 20px}
+  #matrix{min-width:500px}
+
+  /* List */
+  #list-area{padding:10px 10px 60px}
+  .cat-head{padding:12px 10px;gap:8px}
+  .cat-icon-circle{width:30px;height:30px;font-size:15px}
+  .cat-name{font-size:13px}
+  .entry{padding:10px 8px}
+  .entry-name{font-size:14px}
+  .entry-hint{font-size:11px}
+
+  /* Modal — full screen */
+  #modal-overlay{padding:0;align-items:flex-end}
+  #modal{max-width:100%;width:100%;max-height:90vh;border-radius:12px 12px 0 0;padding:20px 16px 32px}
+  #modal-title{font-size:17px}
+  #modal-hint{font-size:12px}
+  #modal-close{width:100%;text-align:center;padding:10px;font-size:12px;margin-top:14px}
+
+  /* Map */
+  #map-area{padding:10px 10px 40px}
+  #map-container{height:calc(100vh - 260px);min-height:300px}
+  #map-note{display:none}
+}
 </style>
 </head>
 <body>
