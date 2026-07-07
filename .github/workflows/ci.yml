@@ -2,8 +2,9 @@ name: CI
 
 # Validates every folio against the schema + referential-integrity rules
 # (region/period against config/regions.js, timeline entryId resolution,
-# xlink resolution across folios). Runs on pushes and PRs; separate from
-# the automatic Pages deployment.
+# xlink resolution across folios), and guarantees the committed
+# _global_index.json matches a fresh rebuild. Runs on pushes and PRs;
+# separate from the automatic Pages deployment.
 
 on:
   push:
@@ -30,3 +31,16 @@ jobs:
 
       - name: Validate folios (schema + referential integrity)
         run: node modules/validate.js
+
+      - name: Rebuild global index
+        run: node modules/build-global-index.js
+
+      - name: Fail if committed _global_index.json is stale
+        run: |
+          if ! git diff --quiet -- modules/_global_index.json; then
+            echo "::error::modules/_global_index.json is out of date."
+            echo "Run 'node modules/build-global-index.js' and commit the result."
+            git diff -- modules/_global_index.json | head -80
+            exit 1
+          fi
+          echo "Global index is in sync."
