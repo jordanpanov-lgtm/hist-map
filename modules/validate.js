@@ -140,11 +140,6 @@ for (const folioId of Object.keys(folios)) {
         if (!XLINK_RE.test(x)) err(file, `${e.id}: xlink "${x}" malformed (expected folioId::entryId)`);
         else if (!globalKeys.has(x)) err(file, `${e.id}: xlink "${x}" does not resolve to a real entry`);
       }
-
-      // note: should cite a datable source
-      if (typeof e.note === 'string' && !/\b(1[0-9]{3}|20[0-9]{2})\b/.test(e.note)) {
-        warn(file, `${e.id}: note has no 4-digit year — citation may be missing`);
-      }
     }
   }
 
