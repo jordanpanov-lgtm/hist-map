@@ -70,9 +70,44 @@ const TOO_GENERIC_ALONE = new Set([
   'persia', 'arabia', 'iberia', 'europe', 'asia', 'africa', 'gaul', 'byzantium',
 ]);
 
+// Rough [minYear, maxYear] from a free-text date field (BC negative). Deliberately
+// conservative: a 1-3 digit number without an explicit BC marker is ambiguous (could be
+// a day-of-month in a modern "22 Nov 1975" style date, or a short year) so it's only kept
+// if it's the sole number found — otherwise the >=100 numbers anchor the estimate. This
+// doesn't need to be precise, just good enough to catch centuries-scale homonym gaps.
+function parseYearRange(dateStr) {
+  if (!dateStr) return null;
+  const years = [];
+  const re = /(\d{1,4})\s*(BC|BCE)?/gi;
+  let m;
+  while ((m = re.exec(dateStr))) {
+    const y = parseInt(m[1], 10);
+    if (m[2]) years.push(-y);
+    else if (y >= 100) years.push(y);
+  }
+  if (!years.length) {
+    const any = dateStr.match(/\d{1,4}/);
+    if (any) years.push(parseInt(any[0], 10));
+  }
+  if (!years.length) return null;
+  return [Math.min(...years), Math.max(...years)];
+}
+
+// Individual humans don't span centuries — if both entries have a parseable date and the
+// gap between their ranges is implausibly large for one lifetime (generously padded),
+// they're almost certainly different people who happen to share a name (a very common
+// pattern in monarchies: regnal first names recur every few generations).
+const MAX_LIFESPAN_GAP_YEARS = 80;
+function datesImplausible(rangeA, rangeB) {
+  if (!rangeA || !rangeB) return false; // can't tell — don't reject on missing data
+  const gap = rangeA[0] > rangeB[1] ? rangeA[0] - rangeB[1] : rangeB[0] > rangeA[1] ? rangeB[0] - rangeA[1] : 0;
+  return gap > MAX_LIFESPAN_GAP_YEARS;
+}
+
 const figureCandidates = entries.filter(e => e.dynasty || e.cat === 'power');
 const figureMatches = [];
 const seenFigurePairs = new Set();
+let rejectedDynasty = 0, rejectedDate = 0;
 
 for (const fig of figureCandidates) {
   const phrases = extractPhrases(fig.label);
@@ -84,15 +119,30 @@ for (const fig of figureCandidates) {
   );
   if (!name || name.length < 4) continue; // no usable phrase, or too short to be discriminating
 
-  const hits = entries.filter(e =>
-    e.folio !== fig.folio &&
-    new RegExp(`\\b${escapeRegex(name)}\\b`, 'i').test(e.label)
-  );
+  const figRange = parseYearRange(fig.date);
+
+  // Word boundary on both sides, and not immediately preceded/followed by a hyphen —
+  // otherwise "Franco" matches inside "Franco-Prussian War" (the "Franco-" combining
+  // form means "French", not the Spanish dictator whose entry produced this pivot).
+  const nameRe = new RegExp(`(?<!-)\\b${escapeRegex(name)}\\b(?!-)`, 'i');
+
+  const hits = entries.filter(e => e.folio !== fig.folio && nameRe.test(e.label));
 
   for (const hit of hits) {
     const pairKey = [fig.key, hit.key].sort().join('|');
     if (seenFigurePairs.has(pairKey)) continue;
     seenFigurePairs.add(pairKey);
+
+    // Different dynasty on both sides is a strong signal these are different people who
+    // happen to share a regnal name (e.g. Henry II of Valois France vs. Henry II of
+    // Trastámara Castile) — reject rather than present as a same-entity match.
+    if (fig.dynasty && hit.dynasty && fig.dynasty !== hit.dynasty) { rejectedDynasty++; continue; }
+
+    // Centuries-scale date gap catches same-name different-person collisions that dynasty
+    // can't (e.g. an 8th-century king vs. a 19th-century scholar who happens to share a
+    // name) as well as unrelated dynasties that weren't caught above.
+    if (datesImplausible(figRange, parseYearRange(hit.date))) { rejectedDate++; continue; }
+
     figureMatches.push({
       confidence: 'high',
       type: 'figure-name',
@@ -158,6 +208,8 @@ const out = {
   _meta: {
     generated: new Date().toISOString().slice(0, 10),
     figure_matches: figureMatches.length,
+    figure_matches_rejected_dynasty_mismatch: rejectedDynasty,
+    figure_matches_rejected_date_implausible: rejectedDate,
     keyword_matches: keywordMatches.length,
     high_confidence: [...figureMatches, ...keywordMatches].filter(c => c.confidence === 'high').length,
     medium_confidence: keywordMatches.filter(c => c.confidence === 'medium').length,
@@ -175,6 +227,8 @@ const hr = '─'.repeat(70);
 console.log('\nCross-folio link candidates');
 console.log(hr);
 console.log(`Figure-name matches:        ${figureMatches.length}`);
+console.log(`  rejected (dynasty mismatch): ${rejectedDynasty}`);
+console.log(`  rejected (date implausible): ${rejectedDate}`);
 console.log(`Keyword overlap (>=2 terms): ${keywordMatches.length}`);
 console.log(`  high (>=4 terms):         ${keywordMatches.filter(c => c.confidence === 'high').length}`);
 console.log(`  medium (3 terms):         ${keywordMatches.filter(c => c.confidence === 'medium').length}`);

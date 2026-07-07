@@ -1,33 +1,15 @@
 {
   "_meta": {
     "generated": "2026-07-07",
-    "figure_matches": 90,
-    "keyword_matches": 790,
-    "high_confidence": 94,
-    "medium_confidence": 52,
-    "low_confidence": 734
+    "figure_matches": 30,
+    "figure_matches_rejected_dynasty_mismatch": 8,
+    "figure_matches_rejected_date_implausible": 3,
+    "keyword_matches": 757,
+    "high_confidence": 32,
+    "medium_confidence": 49,
+    "low_confidence": 706
   },
   "figure_name_matches": [
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Henry II",
-      "pivot": {
-        "folio": "france-1494-1610",
-        "id": "k4",
-        "cat": "power",
-        "label": "Henry II — death at the tournament",
-        "dynasty": "Valois"
-      },
-      "match": {
-        "folio": "spain-1230-1492",
-        "id": "k7",
-        "cat": "power",
-        "label": "Henry II -- the Trastamara revolution"
-      },
-      "xlink_a": "france-1494-1610::k4",
-      "xlink_b": "spain-1230-1492::k7"
-    },
     {
       "confidence": "high",
       "type": "figure-name",
@@ -47,106 +29,6 @@
       },
       "xlink_a": "france-1715-1789::k3",
       "xlink_b": "france-1789-1815::k1"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Restoration",
-      "pivot": {
-        "folio": "france-1815-1900",
-        "id": "k1",
-        "cat": "power",
-        "label": "The Restoration — Louis XVIII and Charles X",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "rome-300-400",
-        "id": "r4",
-        "cat": "belief",
-        "label": "Julian's pagan restoration"
-      },
-      "xlink_a": "france-1815-1900::k1",
-      "xlink_b": "rome-300-400::r4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Restoration",
-      "pivot": {
-        "folio": "france-1815-1900",
-        "id": "k1",
-        "cat": "power",
-        "label": "The Restoration — Louis XVIII and Charles X",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1516-1700",
-        "id": "c12",
-        "cat": "conflict",
-        "label": "War of the Portuguese Restoration (1640-1668)"
-      },
-      "xlink_a": "france-1815-1900::k1",
-      "xlink_b": "spain-1516-1700::c12"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Restoration",
-      "pivot": {
-        "folio": "france-1815-1900",
-        "id": "k1",
-        "cat": "power",
-        "label": "The Restoration — Louis XVIII and Charles X",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1808-1900",
-        "id": "k3",
-        "cat": "power",
-        "label": "Alfonso XII and the Bourbon Restoration"
-      },
-      "xlink_a": "france-1815-1900::k1",
-      "xlink_b": "spain-1808-1900::k3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Restoration",
-      "pivot": {
-        "folio": "france-1815-1900",
-        "id": "k1",
-        "cat": "power",
-        "label": "The Restoration — Louis XVIII and Charles X",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1900-1975",
-        "id": "k1",
-        "cat": "power",
-        "label": "Alfonso XIII — the last Restoration king"
-      },
-      "xlink_a": "france-1815-1900::k1",
-      "xlink_b": "spain-1900-1975::k1"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Al-Mundhir III",
-      "pivot": {
-        "folio": "ghassanid-420-638",
-        "id": "k5",
-        "cat": "power",
-        "label": "Al-Mundhir III ibn al-Harith (Alamoundaros) — the Miaphysite king",
-        "dynasty": "Jafnid"
-      },
-      "match": {
-        "folio": "lakhmid-268-602",
-        "id": "k10",
-        "cat": "power",
-        "label": "al-Mundhir III ibn al-Numan"
-      },
-      "xlink_a": "ghassanid-420-638::k5",
-      "xlink_b": "lakhmid-268-602::k10"
     },
     {
       "confidence": "high",
@@ -211,26 +93,6 @@
     {
       "confidence": "high",
       "type": "figure-name",
-      "name": "Augustus",
-      "pivot": {
-        "folio": "hispania-27bc-409ad",
-        "id": "k1",
-        "cat": "power",
-        "label": "Augustus reorganises Hispania — three provinces",
-        "dynasty": "Roman Imperial"
-      },
-      "match": {
-        "folio": "hispania-300bc-27bc",
-        "id": "k3",
-        "cat": "power",
-        "label": "Caesar and Augustus — Hispania in the Roman civil wars"
-      },
-      "xlink_a": "hispania-27bc-409ad::k1",
-      "xlink_b": "hispania-300bc-27bc::k3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
       "name": "Trajan",
       "pivot": {
         "folio": "hispania-27bc-409ad",
@@ -261,52 +123,12 @@
       },
       "match": {
         "folio": "rome-300-400",
-        "id": "p12",
-        "cat": "power",
-        "label": "Theodosius I (East, then sole)"
-      },
-      "xlink_a": "hispania-27bc-409ad::k3",
-      "xlink_b": "rome-300-400::p12"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Theodosius",
-      "pivot": {
-        "folio": "hispania-27bc-409ad",
-        "id": "k3",
-        "cat": "power",
-        "label": "Theodosius — the last great emperor, born in Hispania",
-        "dynasty": "Roman Imperial"
-      },
-      "match": {
-        "folio": "rome-300-400",
         "id": "w3",
         "cat": "world",
         "label": "Division of empire at Theodosius's death"
       },
       "xlink_a": "hispania-27bc-409ad::k3",
       "xlink_b": "rome-300-400::w3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Theodosius",
-      "pivot": {
-        "folio": "hispania-27bc-409ad",
-        "id": "k3",
-        "cat": "power",
-        "label": "Theodosius — the last great emperor, born in Hispania",
-        "dynasty": "Roman Imperial"
-      },
-      "match": {
-        "folio": "rome-400-500",
-        "id": "e2",
-        "cat": "power",
-        "label": "Theodosius II"
-      },
-      "xlink_a": "hispania-27bc-409ad::k3",
-      "xlink_b": "rome-400-500::e2"
     },
     {
       "confidence": "high",
@@ -501,26 +323,6 @@
       },
       "match": {
         "folio": "rome-300-400",
-        "id": "p1",
-        "cat": "power",
-        "label": "Diocletian (abdication)"
-      },
-      "xlink_a": "rome-200-300::p17",
-      "xlink_b": "rome-300-400::p1"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Diocletian",
-      "pivot": {
-        "folio": "rome-200-300",
-        "id": "p17",
-        "cat": "power",
-        "label": "Diocletian",
-        "dynasty": "Illyrian"
-      },
-      "match": {
-        "folio": "rome-300-400",
         "id": "o7",
         "cat": "order",
         "label": "Diocletian's army reforms (legacy)"
@@ -647,26 +449,6 @@
       },
       "xlink_a": "rome-300-400::p1",
       "xlink_b": "rome-200-300::a6"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Shapur I",
-      "pivot": {
-        "folio": "sassanid-224-484",
-        "id": "k2",
-        "cat": "power",
-        "label": "Shapur I",
-        "dynasty": "House of Sasan"
-      },
-      "match": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "k3",
-        "cat": "power",
-        "label": "Odaenathus II — defeats Shapur I, saves the Roman East"
-      },
-      "xlink_a": "sassanid-224-484::k2",
-      "xlink_b": "palmyrene-100bc-273ce::k3"
     },
     {
       "confidence": "high",
@@ -811,986 +593,6 @@
     {
       "confidence": "high",
       "type": "figure-name",
-      "name": "Ferdinand",
-      "pivot": {
-        "folio": "spain-1230-1492",
-        "id": "k4",
-        "cat": "power",
-        "label": "Ferdinand and Isabella — the Catholic Monarchs",
-        "dynasty": "Trastámara"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "k4",
-        "cat": "power",
-        "label": "Ferdinand VI -- the pacifist interlude"
-      },
-      "xlink_a": "spain-1230-1492::k4",
-      "xlink_b": "spain-1700-1808::k4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Ferdinand",
-      "pivot": {
-        "folio": "spain-1230-1492",
-        "id": "k4",
-        "cat": "power",
-        "label": "Ferdinand and Isabella — the Catholic Monarchs",
-        "dynasty": "Trastámara"
-      },
-      "match": {
-        "folio": "spain-1808-1900",
-        "id": "k1",
-        "cat": "power",
-        "label": "Joseph I and Ferdinand VII — war and absolutism"
-      },
-      "xlink_a": "spain-1230-1492::k4",
-      "xlink_b": "spain-1808-1900::k1"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Ferdinand",
-      "pivot": {
-        "folio": "spain-1230-1492",
-        "id": "k4",
-        "cat": "power",
-        "label": "Ferdinand and Isabella — the Catholic Monarchs",
-        "dynasty": "Trastámara"
-      },
-      "match": {
-        "folio": "spain-718-1230",
-        "id": "k5",
-        "cat": "power",
-        "label": "Ferdinand III — the 1230 union that ends this era"
-      },
-      "xlink_a": "spain-1230-1492::k4",
-      "xlink_b": "spain-718-1230::k5"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "france-1610-1715",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "War of Spanish Succession — Louis XIV's last gamble"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "france-1610-1715::c4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "france-1789-1815",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Peninsular War — Napoleon's 'Spanish ulcer'"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "france-1789-1815::c7"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1230-1492",
-        "id": "o3",
-        "cat": "order",
-        "label": "Spanish Inquisition established — 1478"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1230-1492::o3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1516-1700",
-        "id": "c16",
-        "cat": "conflict",
-        "label": "The Spanish Road -- Europe's logistical masterpiece"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1516-1700::c16"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1516-1700",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "Spanish Armada — the great failure of 1588"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1516-1700::c2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1516-1700",
-        "id": "r1",
-        "cat": "belief",
-        "label": "Council of Trent — Spanish Counter-Reformation"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1516-1700::r1"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1516-1700",
-        "id": "te2",
-        "cat": "technology",
-        "label": "The Padron Real and Spanish navigational science"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1516-1700::te2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "k1",
-        "cat": "power",
-        "label": "Philip V — the War of Spanish Succession"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1700-1808::k1"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "Battle of Trafalgar — end of Spanish naval power"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1700-1808::c2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Churrigueresque — the exuberant Spanish Baroque"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1700-1808::a4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "a3",
-        "cat": "expression",
-        "label": "Luigi Boccherini in Madrid — Spanish-Italian musical fusion"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1700-1808::a3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "t4",
-        "cat": "thought",
-        "label": "Spanish Enlightenment and the Real Academia Española"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1700-1808::t4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "t5",
-        "cat": "thought",
-        "label": "Melchor de Macanaz -- the founder of Spanish regalist thought"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1700-1808::t5"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "ex8",
-        "cat": "exchange",
-        "label": "Cadiz -- the cosmopolitan gateway of the Spanish empire"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1700-1808::ex8"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "lv7",
-        "cat": "lives",
-        "label": "Coartacion -- the Spanish colonial path to self-purchased freedom"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1700-1808::lv7"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1700-1808",
-        "id": "lv1",
-        "cat": "lives",
-        "label": "Josefa Amar y Borbón — Spanish Enlightenment feminism"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1700-1808::lv1"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1900-1975",
-        "id": "k2",
-        "cat": "power",
-        "label": "Second Spanish Republic proclaimed"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1900-1975::k2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1900-1975",
-        "id": "k8",
-        "cat": "thought",
-        "label": "José Antonio Primo de Rivera — the Falange and Spanish fascism"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1900-1975::k8"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1900-1975",
-        "id": "s5",
-        "cat": "economy",
-        "label": "The Spanish Miracle (1959–1973) — fastest growth in Western Europe"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1900-1975::s5"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1900-1975",
-        "id": "ex7",
-        "cat": "exchange",
-        "label": "Spanish workers in Europe — 1 million emigrants fuel the Miracle"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1900-1975::ex7"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1900-1975",
-        "id": "w3",
-        "cat": "world",
-        "label": "Disaster of Annual (1921) — Morocco annihilates a Spanish army"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1900-1975::w3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1900-1975",
-        "id": "w4",
-        "cat": "world",
-        "label": "Green March — Spain abandons the Spanish Sahara (1975)"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1900-1975::w4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1900-1975",
-        "id": "lv8",
-        "cat": "lives",
-        "label": "Francesc Boix — Spanish Republicans in Nazi concentration camps"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1900-1975::lv8"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1975-today",
-        "id": "t4",
-        "cat": "thought",
-        "label": "Vox — Spain's right-wing populism ends Spanish exceptionalism"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1975-today::t4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1975-today",
-        "id": "te2",
-        "cat": "technology",
-        "label": "Severo Ochoa Centre network and the CSIC — Spanish science post-transition"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1975-today::te2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1975-today",
-        "id": "ex7",
-        "cat": "exchange",
-        "label": "Spanish multinationals in Latin America — BBVA, Santander, Telefónica"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1975-today::ex7"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1975-today",
-        "id": "ex6",
-        "cat": "exchange",
-        "label": "Instituto Cervantes (1991) — the political economy of Spanish"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1975-today::ex6"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-1975-today",
-        "id": "w4",
-        "cat": "world",
-        "label": "15-F anti-Iraq War protests — largest in Spanish history"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1975-today::w4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism",
-        "dynasty": "Bourbon"
-      },
-      "match": {
-        "folio": "spain-718-1230",
-        "id": "a2",
-        "cat": "expression",
-        "label": "Cantar de Mio Cid — the first Spanish epic"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-718-1230::a2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Spanish Republic",
-      "pivot": {
-        "folio": "spain-1808-1900",
-        "id": "k6",
-        "cat": "power",
-        "label": "First Spanish Republic — four presidents in eleven months",
-        "dynasty": "Republic"
-      },
-      "match": {
-        "folio": "spain-1900-1975",
-        "id": "k2",
-        "cat": "power",
-        "label": "Second Spanish Republic proclaimed"
-      },
-      "xlink_a": "spain-1808-1900::k6",
-      "xlink_b": "spain-1900-1975::k2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k3",
-        "cat": "power",
-        "label": "Franco's coup and the military uprising",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1494-1610",
-        "id": "a7",
-        "cat": "expression",
-        "label": "Josquin des Prez and the Franco-Flemish school"
-      },
-      "xlink_a": "spain-1900-1975::k3",
-      "xlink_b": "france-1494-1610::a7"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k3",
-        "cat": "power",
-        "label": "Franco's coup and the military uprising",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1494-1610",
-        "id": "w2",
-        "cat": "world",
-        "label": "Franco-Ottoman alliance — the 'impious alliance'"
-      },
-      "xlink_a": "spain-1900-1975::k3",
-      "xlink_b": "france-1494-1610::w2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k3",
-        "cat": "power",
-        "label": "Franco's coup and the military uprising",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1610-1715",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "Franco-Dutch War — 'Louis le Grand'"
-      },
-      "xlink_a": "spain-1900-1975::k3",
-      "xlink_b": "france-1610-1715::c5"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k3",
-        "cat": "power",
-        "label": "Franco's coup and the military uprising",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1815-1900",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Franco-Prussian War — Sedan and French humiliation"
-      },
-      "xlink_a": "spain-1900-1975::k3",
-      "xlink_b": "france-1815-1900::c3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k3",
-        "cat": "power",
-        "label": "Franco's coup and the military uprising",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1815-1900",
-        "id": "w3",
-        "cat": "world",
-        "label": "Franco-Russian Alliance (1894) — ending isolation, dividing Europe"
-      },
-      "xlink_a": "spain-1900-1975::k3",
-      "xlink_b": "france-1815-1900::w3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k4",
-        "cat": "power",
-        "label": "Franco declared Generalísimo and head of state",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1494-1610",
-        "id": "a7",
-        "cat": "expression",
-        "label": "Josquin des Prez and the Franco-Flemish school"
-      },
-      "xlink_a": "spain-1900-1975::k4",
-      "xlink_b": "france-1494-1610::a7"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k4",
-        "cat": "power",
-        "label": "Franco declared Generalísimo and head of state",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1494-1610",
-        "id": "w2",
-        "cat": "world",
-        "label": "Franco-Ottoman alliance — the 'impious alliance'"
-      },
-      "xlink_a": "spain-1900-1975::k4",
-      "xlink_b": "france-1494-1610::w2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k4",
-        "cat": "power",
-        "label": "Franco declared Generalísimo and head of state",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1610-1715",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "Franco-Dutch War — 'Louis le Grand'"
-      },
-      "xlink_a": "spain-1900-1975::k4",
-      "xlink_b": "france-1610-1715::c5"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k4",
-        "cat": "power",
-        "label": "Franco declared Generalísimo and head of state",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1815-1900",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Franco-Prussian War — Sedan and French humiliation"
-      },
-      "xlink_a": "spain-1900-1975::k4",
-      "xlink_b": "france-1815-1900::c3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k4",
-        "cat": "power",
-        "label": "Franco declared Generalísimo and head of state",
-        "dynasty": "Nationalist"
-      },
-      "match": {
-        "folio": "france-1815-1900",
-        "id": "w3",
-        "cat": "world",
-        "label": "Franco-Russian Alliance (1894) — ending isolation, dividing Europe"
-      },
-      "xlink_a": "spain-1900-1975::k4",
-      "xlink_b": "france-1815-1900::w3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k5",
-        "cat": "power",
-        "label": "Franco — 36 years of dictatorship",
-        "dynasty": "Francoist"
-      },
-      "match": {
-        "folio": "france-1494-1610",
-        "id": "a7",
-        "cat": "expression",
-        "label": "Josquin des Prez and the Franco-Flemish school"
-      },
-      "xlink_a": "spain-1900-1975::k5",
-      "xlink_b": "france-1494-1610::a7"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k5",
-        "cat": "power",
-        "label": "Franco — 36 years of dictatorship",
-        "dynasty": "Francoist"
-      },
-      "match": {
-        "folio": "france-1494-1610",
-        "id": "w2",
-        "cat": "world",
-        "label": "Franco-Ottoman alliance — the 'impious alliance'"
-      },
-      "xlink_a": "spain-1900-1975::k5",
-      "xlink_b": "france-1494-1610::w2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k5",
-        "cat": "power",
-        "label": "Franco — 36 years of dictatorship",
-        "dynasty": "Francoist"
-      },
-      "match": {
-        "folio": "france-1610-1715",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "Franco-Dutch War — 'Louis le Grand'"
-      },
-      "xlink_a": "spain-1900-1975::k5",
-      "xlink_b": "france-1610-1715::c5"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k5",
-        "cat": "power",
-        "label": "Franco — 36 years of dictatorship",
-        "dynasty": "Francoist"
-      },
-      "match": {
-        "folio": "france-1815-1900",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Franco-Prussian War — Sedan and French humiliation"
-      },
-      "xlink_a": "spain-1900-1975::k5",
-      "xlink_b": "france-1815-1900::c3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Franco",
-      "pivot": {
-        "folio": "spain-1900-1975",
-        "id": "k5",
-        "cat": "power",
-        "label": "Franco — 36 years of dictatorship",
-        "dynasty": "Francoist"
-      },
-      "match": {
-        "folio": "france-1815-1900",
-        "id": "w3",
-        "cat": "world",
-        "label": "Franco-Russian Alliance (1894) — ending isolation, dividing Europe"
-      },
-      "xlink_a": "spain-1900-1975::k5",
-      "xlink_b": "france-1815-1900::w3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Pelayo",
-      "pivot": {
-        "folio": "spain-718-1230",
-        "id": "k1",
-        "cat": "power",
-        "label": "Pelayo — founder of Asturias",
-        "dynasty": "Asturian"
-      },
-      "match": {
-        "folio": "spain-1808-1900",
-        "id": "t4",
-        "cat": "thought",
-        "label": "Menéndez Pelayo — conservative Catholic intellectual Spain"
-      },
-      "xlink_a": "spain-718-1230::k1",
-      "xlink_b": "spain-1808-1900::t4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
       "name": "Ferdinand III",
       "pivot": {
         "folio": "spain-718-1230",
@@ -1810,32 +612,6 @@
     }
   ],
   "keyword_matches": [
-    {
-      "confidence": "high",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "British Museum",
-        "Esquiline Hill",
-        "Found",
-        "Now",
-        "Rome"
-      ],
-      "sharedCount": 5,
-      "a": {
-        "folio": "rome-300-400",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Esquiline Treasure (partly)"
-      },
-      "b": {
-        "folio": "rome-400-500",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Projecta Casket (Esquiline Treasure)"
-      },
-      "xlink_a": "rome-300-400::a6",
-      "xlink_b": "rome-400-500::a6"
-    },
     {
       "confidence": "high",
       "type": "keyword-overlap",
@@ -1885,31 +661,6 @@
       },
       "xlink_a": "palmyrene-100bc-273ce::k1",
       "xlink_b": "rome-200-300::ex3"
-    },
-    {
-      "confidence": "high",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Bishapur",
-        "Gundeshapur",
-        "Roman",
-        "Shapur I"
-      ],
-      "sharedCount": 4,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "ex2",
-        "cat": "exchange",
-        "label": "Shapur I's diplomatic use of Roman prisoners"
-      },
-      "b": {
-        "folio": "sassanid-224-484",
-        "id": "o4",
-        "cat": "order",
-        "label": "Shapur I founds cities with Roman prisoner labour"
-      },
-      "xlink_a": "rome-200-300::ex2",
-      "xlink_b": "sassanid-224-484::o4"
     },
     {
       "confidence": "medium",
@@ -2275,78 +1026,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "France",
-        "French",
-        "Lyon"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "france-1494-1610",
-        "id": "te1",
-        "cat": "technology",
-        "label": "Printing presses in France — Protestant pamphlet war"
-      },
-      "b": {
-        "folio": "france-1815-1900",
-        "id": "s2",
-        "cat": "subsistence",
-        "label": "French industrialisation — railways and banking"
-      },
-      "xlink_a": "france-1494-1610::te1",
-      "xlink_b": "france-1815-1900::s2"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Found",
-        "Now",
-        "Rome"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Ludovisi Battle Sarcophagus"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Esquiline Treasure (partly)"
-      },
-      "xlink_a": "rome-200-300::a4",
-      "xlink_b": "rome-300-400::a6"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Found",
-        "Now",
-        "Rome"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Ludovisi Battle Sarcophagus"
-      },
-      "b": {
-        "folio": "rome-400-500",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Projecta Casket (Esquiline Treasure)"
-      },
-      "xlink_a": "rome-200-300::a4",
-      "xlink_b": "rome-400-500::a6"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Alexandria",
         "Empire-wide",
         "Rome"
@@ -2390,6 +1069,30 @@
       },
       "xlink_a": "rome-200-300::s2",
       "xlink_b": "rome-400-500::t4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "British Museum",
+        "Esquiline Hill",
+        "Rome"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "rome-300-400",
+        "id": "a6",
+        "cat": "expression",
+        "label": "Esquiline Treasure (partly)"
+      },
+      "b": {
+        "folio": "rome-400-500",
+        "id": "a6",
+        "cat": "expression",
+        "label": "Projecta Casket (Esquiline Treasure)"
+      },
+      "xlink_a": "rome-300-400::a6",
+      "xlink_b": "rome-400-500::a6"
     },
     {
       "confidence": "medium",
@@ -2947,30 +1650,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Bishapur",
-        "Roman",
-        "Shapur I"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "ex2",
-        "cat": "exchange",
-        "label": "Shapur I's diplomatic use of Roman prisoners"
-      },
-      "b": {
-        "folio": "sassanid-224-484",
-        "id": "a3",
-        "cat": "expression",
-        "label": "City of Bishapur — Roman grid plan"
-      },
-      "xlink_a": "rome-200-300::ex2",
-      "xlink_b": "sassanid-224-484::a3"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Aurelian",
         "Gallic Empire",
         "Gaul"
@@ -2995,30 +1674,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "British Museum",
-        "Found",
-        "Now"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "rome-300-400",
-        "id": "a5",
-        "cat": "expression",
-        "label": "Hinton St Mary mosaic (Chi-Rho)"
-      },
-      "b": {
-        "folio": "rome-400-500",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Projecta Casket (Esquiline Treasure)"
-      },
-      "xlink_a": "rome-300-400::a5",
-      "xlink_b": "rome-400-500::a6"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "PAT",
         "Palmyra",
         "Silk Road"
@@ -3038,6 +1693,30 @@
       },
       "xlink_a": "palmyrene-100bc-273ce::t3",
       "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bishapur",
+        "Gundeshapur",
+        "Shapur I"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "rome-200-300",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Shapur I's diplomatic use of Roman prisoners"
+      },
+      "b": {
+        "folio": "sassanid-224-484",
+        "id": "o4",
+        "cat": "order",
+        "label": "Shapur I founds cities with Roman prisoner labour"
+      },
+      "xlink_a": "rome-200-300::ex2",
+      "xlink_b": "sassanid-224-484::o4"
     },
     {
       "confidence": "medium",
@@ -5463,29 +4142,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Iberia",
-        "Roman"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hispania-300bc-27bc",
-        "id": "w1",
-        "cat": "world",
-        "label": "Ebro Treaty (226 BC) — Iberia as a Roman sphere"
-      },
-      "b": {
-        "folio": "visigoths-589-711",
-        "id": "ex1",
-        "cat": "exchange",
-        "label": "Byzantine Spania — the last Roman territory in Iberia"
-      },
-      "xlink_a": "hispania-300bc-27bc::w1",
-      "xlink_b": "visigoths-589-711::ex1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Castile",
         "Iberia"
       ],
@@ -6636,29 +5292,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Byzantine",
-        "Constantinople"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ghassanid-420-638",
-        "id": "s1",
-        "cat": "economy",
-        "label": "Byzantine subsidy payments to the Ghassanids"
-      },
-      "b": {
-        "folio": "sassanid-484-651",
-        "id": "ex2",
-        "cat": "exchange",
-        "label": "Silk monopoly broken — Byzantine silkworm smuggling"
-      },
-      "xlink_a": "ghassanid-420-638::s1",
-      "xlink_b": "sassanid-484-651::ex2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Constantinople",
         "Rome"
       ],
@@ -7257,29 +5890,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Hispania",
-        "Roman"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hispania-27bc-409ad",
-        "id": "a1",
-        "cat": "expression",
-        "label": "Theatre of Emerita Augusta — the most complete Roman theatre in Hispania"
-      },
-      "b": {
-        "folio": "hispania-300bc-27bc",
-        "id": "k3",
-        "cat": "power",
-        "label": "Caesar and Augustus — Hispania in the Roman civil wars"
-      },
-      "xlink_a": "hispania-27bc-409ad::a1",
-      "xlink_b": "hispania-300bc-27bc::k3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "France",
         "Paris"
       ],
@@ -7367,6 +5977,29 @@
       },
       "xlink_a": "france-1494-1610::te1",
       "xlink_b": "france-1715-1789::s2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "France",
+        "Lyon"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1494-1610",
+        "id": "te1",
+        "cat": "technology",
+        "label": "Printing presses in France — Protestant pamphlet war"
+      },
+      "b": {
+        "folio": "france-1815-1900",
+        "id": "s2",
+        "cat": "subsistence",
+        "label": "French industrialisation — railways and banking"
+      },
+      "xlink_a": "france-1494-1610::te1",
+      "xlink_b": "france-1815-1900::s2"
     },
     {
       "confidence": "low",
@@ -7924,29 +6557,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "French",
-        "Paris"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1494-1610",
-        "id": "te1",
-        "cat": "technology",
-        "label": "Printing presses in France — Protestant pamphlet war"
-      },
-      "b": {
-        "folio": "france-1610-1715",
-        "id": "k2",
-        "cat": "power",
-        "label": "Cardinal Richelieu — minister and architect of French power"
-      },
-      "xlink_a": "france-1494-1610::te1",
-      "xlink_b": "france-1610-1715::k2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Geneva",
         "Paris"
       ],
@@ -7970,29 +6580,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "French",
-        "Paris"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1494-1610",
-        "id": "te1",
-        "cat": "technology",
-        "label": "Printing presses in France — Protestant pamphlet war"
-      },
-      "b": {
-        "folio": "france-1815-1900",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Franco-Prussian War — Sedan and French humiliation"
-      },
-      "xlink_a": "france-1494-1610::te1",
-      "xlink_b": "france-1815-1900::c3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Geneva",
         "Paris"
       ],
@@ -8011,29 +6598,6 @@
       },
       "xlink_a": "france-1494-1610::te1",
       "xlink_b": "spain-1900-1975::t4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "French",
-        "Paris"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1610-1715",
-        "id": "k2",
-        "cat": "power",
-        "label": "Cardinal Richelieu — minister and architect of French power"
-      },
-      "b": {
-        "folio": "france-1815-1900",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Franco-Prussian War — Sedan and French humiliation"
-      },
-      "xlink_a": "france-1610-1715::k2",
-      "xlink_b": "france-1815-1900::c3"
     },
     {
       "confidence": "low",
@@ -8126,29 +6690,6 @@
       },
       "xlink_a": "france-1789-1815::w2",
       "xlink_b": "spain-1808-1900::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Now",
-        "Paris"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "lakhmid-268-602",
-        "id": "w4",
-        "cat": "world",
-        "label": "Namara inscription — earliest Arabic literary text"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Esquiline Treasure (partly)"
-      },
-      "xlink_a": "lakhmid-268-602::w4",
-      "xlink_b": "rome-300-400::a6"
     },
     {
       "confidence": "low",
@@ -8499,29 +7040,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Roman",
-        "Rome"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hispania-300bc-27bc",
-        "id": "w1",
-        "cat": "world",
-        "label": "Ebro Treaty (226 BC) — Iberia as a Roman sphere"
-      },
-      "b": {
-        "folio": "sassanid-224-484",
-        "id": "ex4",
-        "cat": "exchange",
-        "label": "Armenian cultural transmission between Rome and Persia"
-      },
-      "xlink_a": "hispania-300bc-27bc::w1",
-      "xlink_b": "sassanid-224-484::ex4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Alexandria",
         "Rome"
       ],
@@ -8798,29 +7316,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Now",
-        "Rome"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Ludovisi Battle Sarcophagus"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Colossal head of Constantine, Rome"
-      },
-      "xlink_a": "rome-200-300::a4",
-      "xlink_b": "rome-300-400::a4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Alexandria",
         "Rome"
       ],
@@ -9023,29 +7518,6 @@
       },
       "xlink_a": "rome-300-400::r3",
       "xlink_b": "rome-400-500::t4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Now",
-        "Rome"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-300-400",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Colossal head of Constantine, Rome"
-      },
-      "b": {
-        "folio": "rome-400-500",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Projecta Casket (Esquiline Treasure)"
-      },
-      "xlink_a": "rome-300-400::a4",
-      "xlink_b": "rome-400-500::a6"
     },
     {
       "confidence": "low",
@@ -9690,29 +8162,6 @@
       },
       "xlink_a": "france-1789-1815::k1",
       "xlink_b": "spain-1700-1808::k1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Bourbon",
-        "Restoration"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1815-1900",
-        "id": "k1",
-        "cat": "power",
-        "label": "The Restoration — Louis XVIII and Charles X"
-      },
-      "b": {
-        "folio": "spain-1900-1975",
-        "id": "k1",
-        "cat": "power",
-        "label": "Alfonso XIII — the last Restoration king"
-      },
-      "xlink_a": "france-1815-1900::k1",
-      "xlink_b": "spain-1900-1975::k1"
     },
     {
       "confidence": "low",
@@ -13076,52 +11525,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Cartagena",
-        "Roman"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hispania-300bc-27bc",
-        "id": "k2",
-        "cat": "power",
-        "label": "Scipio Africanus conquers Carthago Nova"
-      },
-      "b": {
-        "folio": "visigoths-589-711",
-        "id": "ex1",
-        "cat": "exchange",
-        "label": "Byzantine Spania — the last Roman territory in Iberia"
-      },
-      "xlink_a": "hispania-300bc-27bc::k2",
-      "xlink_b": "visigoths-589-711::ex1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Empire-wide",
-        "Roman"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "te3",
-        "cat": "technology",
-        "label": "Roman road network — maintenance documentation"
-      },
-      "b": {
-        "folio": "rome-400-500",
-        "id": "t2",
-        "cat": "technology",
-        "label": "Roman road network in use"
-      },
-      "xlink_a": "rome-200-300::te3",
-      "xlink_b": "rome-400-500::t2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Bethlehem",
         "Jerome"
       ],
@@ -13393,167 +11796,6 @@
       },
       "xlink_a": "spain-1700-1808::t4",
       "xlink_b": "spain-1975-today::t9"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Madrid",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1700-1808",
-        "id": "t5",
-        "cat": "thought",
-        "label": "Melchor de Macanaz -- the founder of Spanish regalist thought"
-      },
-      "b": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism"
-      },
-      "xlink_a": "spain-1700-1808::t5",
-      "xlink_b": "spain-1808-1900::k5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Madrid",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1700-1808",
-        "id": "t5",
-        "cat": "thought",
-        "label": "Melchor de Macanaz -- the founder of Spanish regalist thought"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "te2",
-        "cat": "technology",
-        "label": "Severo Ochoa Centre network and the CSIC — Spanish science post-transition"
-      },
-      "xlink_a": "spain-1700-1808::t5",
-      "xlink_b": "spain-1975-today::te2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Madrid",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1700-1808",
-        "id": "t5",
-        "cat": "thought",
-        "label": "Melchor de Macanaz -- the founder of Spanish regalist thought"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "w4",
-        "cat": "world",
-        "label": "15-F anti-Iraq War protests — largest in Spanish history"
-      },
-      "xlink_a": "spain-1700-1808::t5",
-      "xlink_b": "spain-1975-today::w4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Madrid",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1700-1808",
-        "id": "t5",
-        "cat": "thought",
-        "label": "Melchor de Macanaz -- the founder of Spanish regalist thought"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "lv2",
-        "cat": "lives",
-        "label": "8-M feminist strikes — 2018 and 2019"
-      },
-      "xlink_a": "spain-1700-1808::t5",
-      "xlink_b": "spain-1975-today::lv2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Madrid",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "te2",
-        "cat": "technology",
-        "label": "Severo Ochoa Centre network and the CSIC — Spanish science post-transition"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1975-today::te2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Madrid",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "w4",
-        "cat": "world",
-        "label": "15-F anti-Iraq War protests — largest in Spanish history"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1975-today::w4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Madrid",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "k5",
-        "cat": "power",
-        "label": "The espadones — military brokers of Spanish liberalism"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "lv2",
-        "cat": "lives",
-        "label": "8-M feminist strikes — 2018 and 2019"
-      },
-      "xlink_a": "spain-1808-1900::k5",
-      "xlink_b": "spain-1975-today::lv2"
     },
     {
       "confidence": "low",
@@ -14336,75 +12578,6 @@
       },
       "xlink_a": "lakhmid-268-602::ex2",
       "xlink_b": "sassanid-224-484::k13"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ctesiphon",
-        "Persian"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "lakhmid-268-602",
-        "id": "k13",
-        "cat": "power",
-        "label": "al-Numan III ibn al-Mundhir"
-      },
-      "b": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "Odaenathus defeats Shapur I — Persian army routed"
-      },
-      "xlink_a": "lakhmid-268-602::k13",
-      "xlink_b": "palmyrene-100bc-273ce::c1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ctesiphon",
-        "Persian"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "lakhmid-268-602",
-        "id": "k13",
-        "cat": "power",
-        "label": "al-Numan III ibn al-Mundhir"
-      },
-      "b": {
-        "folio": "sassanid-484-651",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Persian musicians sent to the Chinese imperial court"
-      },
-      "xlink_a": "lakhmid-268-602::k13",
-      "xlink_b": "sassanid-484-651::a6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ctesiphon",
-        "Persian"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "Odaenathus defeats Shapur I — Persian army routed"
-      },
-      "b": {
-        "folio": "sassanid-484-651",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Persian musicians sent to the Chinese imperial court"
-      },
-      "xlink_a": "palmyrene-100bc-273ce::c1",
-      "xlink_b": "sassanid-484-651::a6"
     },
     {
       "confidence": "low",
@@ -19056,98 +17229,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Found",
-        "Now"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Ludovisi Battle Sarcophagus"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "a5",
-        "cat": "expression",
-        "label": "Hinton St Mary mosaic (Chi-Rho)"
-      },
-      "xlink_a": "rome-200-300::a4",
-      "xlink_b": "rome-300-400::a5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Found",
-        "Now"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Ludovisi Battle Sarcophagus"
-      },
-      "b": {
-        "folio": "rome-400-500",
-        "id": "a1",
-        "cat": "expression",
-        "label": "Missorium of Theodosius I"
-      },
-      "xlink_a": "rome-200-300::a4",
-      "xlink_b": "rome-400-500::a1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Found",
-        "Now"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-300-400",
-        "id": "a5",
-        "cat": "expression",
-        "label": "Hinton St Mary mosaic (Chi-Rho)"
-      },
-      "b": {
-        "folio": "rome-400-500",
-        "id": "a1",
-        "cat": "expression",
-        "label": "Missorium of Theodosius I"
-      },
-      "xlink_a": "rome-300-400::a5",
-      "xlink_b": "rome-400-500::a1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Found",
-        "Now"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-300-400",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Esquiline Treasure (partly)"
-      },
-      "b": {
-        "folio": "rome-400-500",
-        "id": "a1",
-        "cat": "expression",
-        "label": "Missorium of Theodosius I"
-      },
-      "xlink_a": "rome-300-400::a6",
-      "xlink_b": "rome-400-500::a1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Palmyra",
         "Shapur I"
       ],
@@ -19327,6 +17408,29 @@
       },
       "xlink_a": "rome-200-300::ex2",
       "xlink_b": "sassanid-224-484::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bishapur",
+        "Shapur I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "rome-200-300",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Shapur I's diplomatic use of Roman prisoners"
+      },
+      "b": {
+        "folio": "sassanid-224-484",
+        "id": "a3",
+        "cat": "expression",
+        "label": "City of Bishapur — Roman grid plan"
+      },
+      "xlink_a": "rome-200-300::ex2",
+      "xlink_b": "sassanid-224-484::a3"
     },
     {
       "confidence": "low",
@@ -19856,75 +17960,6 @@
       },
       "xlink_a": "rome-300-400::w2",
       "xlink_b": "rome-400-500::s1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Barcelona",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "t5",
-        "cat": "thought",
-        "label": "Pi i Margall — the theory of Spanish federalism"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "te2",
-        "cat": "technology",
-        "label": "Severo Ochoa Centre network and the CSIC — Spanish science post-transition"
-      },
-      "xlink_a": "spain-1808-1900::t5",
-      "xlink_b": "spain-1975-today::te2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Barcelona",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "t5",
-        "cat": "thought",
-        "label": "Pi i Margall — the theory of Spanish federalism"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "w4",
-        "cat": "world",
-        "label": "15-F anti-Iraq War protests — largest in Spanish history"
-      },
-      "xlink_a": "spain-1808-1900::t5",
-      "xlink_b": "spain-1975-today::w4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Barcelona",
-        "Spanish"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "t5",
-        "cat": "thought",
-        "label": "Pi i Margall — the theory of Spanish federalism"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "lv2",
-        "cat": "lives",
-        "label": "8-M feminist strikes — 2018 and 2019"
-      },
-      "xlink_a": "spain-1808-1900::t5",
-      "xlink_b": "spain-1975-today::lv2"
     },
     {
       "confidence": "low",

@@ -45,10 +45,19 @@ const STOPWORDS = new Set([
   'second', 'third', 'new', 'old', 'great', 'king', 'queen', 'prince', 'emperor',
   'general', 'president', 'battle', 'war', 'city', 'river', 'kingdom', 'empire',
   'council', 'church', 'state', 'crown', 'republic', 'government', 'army', 'court',
-  'law', 'treaty', 'palace', 'style', 'era', 'age', 'period', 'century',
+  'law', 'treaty', 'palace', 'style', 'era', 'age', 'period', 'century', 'restoration',
   'called', 'named', 'known', 'styled', 'held', 'ruled', 'born', 'died', 'took', 'made',
   'gave', 'sent', 'saw', 'went', 'came', 'following', 'since', 'upon', 'given', 'though',
   'unlike', 'despite', 'still', 'once', 'until', 'per', 'via', 'within', 'across',
+  // Catalog/provenance metadata words — loc fields often follow a "Found: X · Now: Y"
+  // museum-label convention; these are field labels, not content, and were leaking in
+  // as if they were meaningful place/person keywords.
+  'found', 'now', 'located', 'discovered', 'excavated', 'housed', 'kept', 'extant',
+  // Nationality/civilization demonyms — legitimate as prose but useless as a keyword:
+  // "French"/"Spanish"/"Roman" recur across a thousand years of otherwise-unrelated
+  // entries and produce false cross-folio links on pure co-occurrence.
+  'french', 'spanish', 'roman', 'english', 'german', 'italian', 'portuguese', 'arab',
+  'byzantine', 'persian', 'greek', 'turkish', 'moorish',
 ]);
 
 function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
