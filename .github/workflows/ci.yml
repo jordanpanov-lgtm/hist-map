@@ -1,0 +1,32 @@
+name: CI
+
+# Validates every folio against the schema + referential-integrity rules
+# (region/period against config/regions.js, timeline entryId resolution,
+# xlink resolution across folios). Runs on pushes and PRs; separate from
+# the automatic Pages deployment.
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "modules/**"
+      - "config/**"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "modules/**"
+      - "config/**"
+      - ".github/workflows/ci.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate folios (schema + referential integrity)
+        run: node modules/validate.js
