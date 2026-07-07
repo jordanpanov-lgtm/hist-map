@@ -50,6 +50,18 @@ const entryByKey = new Map(entries.map(e => [e.key, e]));
 
 const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
+// Human-readable decade label ("1230s", "560s BC") for cross-checking a candidate pair
+// by eye — this is deliberately NOT fed into keyword extraction or the matching/scoring
+// itself (a shared decade is far too common to be matching signal — half the corpus in
+// any period folio shares one), only attached to output for the reviewer's benefit and
+// for the implausibility checks below.
+function decadeLabel(range) {
+  if (!range) return null;
+  const year = range[0];
+  const decade = Math.floor(Math.abs(year) / 10) * 10;
+  return year < 0 ? `${decade}s BC` : `${decade}s`;
+}
+
 // Reuse build-keywords.js's proper-noun-phrase extractor rather than a second, cruder
 // heuristic. A naive "take the last word before the dash" approach was tried first and
 // produced heavy noise: hist-map labels follow a "Name — descriptor" convention, but the
@@ -93,15 +105,31 @@ function parseYearRange(dateStr) {
   return [Math.min(...years), Math.max(...years)];
 }
 
+// Years between two [min,max] ranges — 0 if they overlap at all.
+function rangeGap(rangeA, rangeB) {
+  if (!rangeA || !rangeB) return null;
+  return rangeA[0] > rangeB[1] ? rangeA[0] - rangeB[1] : rangeB[0] > rangeA[1] ? rangeB[0] - rangeA[1] : 0;
+}
+
 // Individual humans don't span centuries — if both entries have a parseable date and the
 // gap between their ranges is implausibly large for one lifetime (generously padded),
 // they're almost certainly different people who happen to share a name (a very common
-// pattern in monarchies: regnal first names recur every few generations).
+// pattern in monarchies: regnal first names recur every few generations). Used to REJECT
+// figure-name matches (Strategy 1), where "same entity" is the whole claim.
 const MAX_LIFESPAN_GAP_YEARS = 80;
 function datesImplausible(rangeA, rangeB) {
-  if (!rangeA || !rangeB) return false; // can't tell — don't reject on missing data
-  const gap = rangeA[0] > rangeB[1] ? rangeA[0] - rangeB[1] : rangeB[0] > rangeA[1] ? rangeB[0] - rangeA[1] : 0;
-  return gap > MAX_LIFESPAN_GAP_YEARS;
+  const gap = rangeGap(rangeA, rangeB);
+  return gap !== null && gap > MAX_LIFESPAN_GAP_YEARS;
+}
+
+// Advisory only (see Strategy 2 below) — never filters anything, just labels the gap for
+// the human reviewer.
+function dateGapFlag(rangeA, rangeB) {
+  const gap = rangeGap(rangeA, rangeB);
+  if (gap === null) return 'no date data';
+  if (gap === 0) return 'overlapping';
+  if (gap <= 50) return `${gap}yr gap`;
+  return `${gap}yr gap — verify same entity, not just shared theme`;
 }
 
 const figureCandidates = entries.filter(e => e.dynasty || e.cat === 'power');
@@ -141,14 +169,15 @@ for (const fig of figureCandidates) {
     // Centuries-scale date gap catches same-name different-person collisions that dynasty
     // can't (e.g. an 8th-century king vs. a 19th-century scholar who happens to share a
     // name) as well as unrelated dynasties that weren't caught above.
-    if (datesImplausible(figRange, parseYearRange(hit.date))) { rejectedDate++; continue; }
+    const hitRange = parseYearRange(hit.date);
+    if (datesImplausible(figRange, hitRange)) { rejectedDate++; continue; }
 
     figureMatches.push({
       confidence: 'high',
       type: 'figure-name',
       name,
-      pivot: { folio: fig.folio, id: fig.id, cat: fig.cat, label: fig.label, dynasty: fig.dynasty },
-      match: { folio: hit.folio, id: hit.id, cat: hit.cat, label: hit.label },
+      pivot: { folio: fig.folio, id: fig.id, cat: fig.cat, label: fig.label, dynasty: fig.dynasty, decade: decadeLabel(figRange) },
+      match: { folio: hit.folio, id: hit.id, cat: hit.cat, label: hit.label, decade: decadeLabel(hitRange) },
       xlink_a: fig.key,
       xlink_b: hit.key,
     });
@@ -176,11 +205,20 @@ for (const [term, keys] of Object.entries(keywordIndex)) {
 
       const pairKey = keyA < keyB ? `${keyA}|${keyB}` : `${keyB}|${keyA}`;
       if (!pairScore.has(pairKey)) {
+        const rangeA = parseYearRange(a.date), rangeB = parseYearRange(b.date);
         pairScore.set(pairKey, {
           count: 0, terms: [],
-          a: { folio: a.folio, id: a.id, cat: a.cat, label: a.label },
-          b: { folio: b.folio, id: b.id, cat: b.cat, label: b.label },
+          a: { folio: a.folio, id: a.id, cat: a.cat, label: a.label, decade: decadeLabel(rangeA) },
+          b: { folio: b.folio, id: b.id, cat: b.cat, label: b.label, decade: decadeLabel(rangeB) },
           xlink_a: keyA, xlink_b: keyB,
+          // Unlike Strategy 1, a wide date gap here is NOT rejected — geographic/dynastic
+          // continuity legitimately spans centuries (e.g. "Toledo" recurring across six
+          // period folios is exactly the kind of link this tool exists to find). This is
+          // surfaced as a flag for the human reviewer, not used to filter anything, since
+          // it can't distinguish "same place, different eras — still worth a look" from
+          // "same institution name, but actually a different instance" (e.g. First vs.
+          // Second Spanish Republic) without deeper entity modeling.
+          date_flag: dateGapFlag(rangeA, rangeB),
         });
       }
       const rec = pairScore.get(pairKey);
@@ -198,6 +236,7 @@ const keywordMatches = [...pairScore.values()]
     sharedTerms: [...new Set(r.terms)].sort(),
     sharedCount: r.count,
     a: r.a, b: r.b,
+    date_flag: r.date_flag,
     xlink_a: r.xlink_a, xlink_b: r.xlink_b,
   }))
   .sort((a, b) => b.sharedCount - a.sharedCount);
