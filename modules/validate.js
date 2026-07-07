@@ -22,8 +22,8 @@ const vm = require('vm');
 const configSrc = ['registry.js', 'regions.js', 'style.js']
   .map(f => fs.readFileSync(path.join(CONFIG_DIR, f), 'utf8'))
   .join('\n');
-const { MODULES, TAXONOMY, PERIODS, CAT_ICONS, TAG_COLORS } = vm.runInNewContext(
-  configSrc + '\n({ MODULES, TAXONOMY, PERIODS, CAT_ICONS, TAG_COLORS });',
+const { MODULES, TAXONOMY, PERIODS, CAT_ICONS } = vm.runInNewContext(
+  configSrc + '\n({ MODULES, TAXONOMY, PERIODS, CAT_ICONS });',
   {},
   { filename: 'config-bundle.js' }
 );
@@ -46,7 +46,6 @@ const XLINK_RE = /^[a-z0-9-]+::.+$/;
 
 const errors = [];
 const warns = [];
-const unmappedTagCount = {};   // tag → number of entries using it with no config/style.js color
 const err = (folio, msg) => errors.push(`${folio}: ${msg}`);
 const warn = (folio, msg) => warns.push(`${folio}: ${msg}`);
 
@@ -142,11 +141,6 @@ for (const folioId of Object.keys(folios)) {
         else if (!globalKeys.has(x)) err(file, `${e.id}: xlink "${x}" does not resolve to a real entry`);
       }
 
-      // tag: soft vocabulary check against config/style.js TAG_COLORS — aggregated below, not per-entry
-      if (typeof e.tag === 'string' && e.tag && !TAG_COLORS[e.tag]) {
-        unmappedTagCount[e.tag] = (unmappedTagCount[e.tag] || 0) + 1;
-      }
-
       // note: should cite a datable source
       if (typeof e.note === 'string' && !/\b(1[0-9]{3}|20[0-9]{2})\b/.test(e.note)) {
         warn(file, `${e.id}: note has no 4-digit year — citation may be missing`);
@@ -160,12 +154,6 @@ for (const folioId of Object.keys(folios)) {
       if (ev.entryId && !ids.has(ev.entryId)) err(file, `timeline references missing entry "${ev.entryId}"`);
     }
   }
-}
-
-// One warning per distinct unmapped tag (not per entry) — corpus-wide, so authoring a
-// TAG_COLORS entry once silences it everywhere instead of needing per-entry fixes.
-for (const [t, count] of Object.entries(unmappedTagCount).sort((a, b) => b[1] - a[1])) {
-  warn('(corpus)', `tag "${t}" has no color mapping in config/style.js — used by ${count} entr${count === 1 ? 'y' : 'ies'}`);
 }
 
 // ── Report ──

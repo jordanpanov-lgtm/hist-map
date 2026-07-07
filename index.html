@@ -656,11 +656,10 @@ function globalSelectEntry(modId, modFile, entryId, accent) {
 
 // ── MODAL ─────────────────────────────────────────────────────────────────────
 function openModal(entry, accent) {
-  const c = TAG_COLORS[entry.tag] || '#888';
-  const ac = accent || c;
+  const ac = accent || '#888';
   document.getElementById('modal').style.borderTopColor = ac;
   document.getElementById('modal-tag').textContent = entry.tag || '';
-  document.getElementById('modal-tag').style.cssText = `display:inline-block;font-size:9px;font-family:'Courier New',monospace;letter-spacing:.1em;padding:2px 7px;border:1px solid ${c};color:${c};border-radius:2px;margin-bottom:6px`;
+  document.getElementById('modal-tag').style.cssText = `display:inline-block;font-size:9px;font-family:'Courier New',monospace;letter-spacing:.1em;padding:2px 7px;border:1px solid ${ac};color:${ac};border-radius:2px;margin-bottom:6px`;
   document.getElementById('modal-title').textContent = entry.label;
   document.getElementById('modal-date').textContent = entry.date || '';
   document.getElementById('modal-date').style.color = ac;
