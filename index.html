@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="config/registry.js"></script>
+<script src="config/regions.js"></script>
+<script src="config/style.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
@@ -185,7 +188,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 <!-- TOP NAV BAR -->
 <div id="topbar">
-  <span id="app-label">Area Studies Atlas</span>
+  <span id="app-label"></span>
   <button id="select-btn" onclick="openPicker()">⊞ Select</button>
   <span id="module-name-top">—</span>
 </div>
@@ -210,7 +213,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
   <div id="module-picker">
     <div id="picker-top">
       <div id="picker-head">
-        <h2>Area Studies Atlas</h2>
+        <h2 id="picker-title"></h2>
         <button id="picker-close" onclick="closePicker(true)" style="visibility:hidden">✕ CLOSE</button>
       </div>
       <div id="global-search-wrap">
@@ -280,53 +283,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 </div>
 
 <script>
-// ── MODULE REGISTRY ───────────────────────────────────────────────────────────
-const MODULES = [
-  // ── EUROPE ─────────────────────────────────────────────────────────────────
-  { id:"hispania-300bc-27bc",    file:"modules/hispania-300bc-27bc.json",    label:"Hispania 300–27 BC",           sub:"Punic Wars, Conquest & Resistance",              region:"Iberia",  period:"Late Antique"  },
-  { id:"hispania-27bc-409ad",   file:"modules/hispania-27bc-409ad.json",   label:"Roman Hispania 27 BC–409 AD",  sub:"Emperors, Philosophers & Christianisation",      region:"Iberia",  period:"Late Antique"  },
-  { id:"visigoths-589-711",     file:"modules/visigoths-589-711.json",     label:"Visigothic Spain 589–711",     sub:"The Kingdom of Toledo",                          region:"Iberia",  period:"Medieval"      },
-  { id:"al-andalus-711-1031",   file:"modules/al-andalus-711-1031.json",   label:"Al-Andalus 711–1031",          sub:"Emirate to Caliphate of Córdoba",                region:"Iberia",  period:"Medieval"      },
-  { id:"spain-718-1230",        file:"modules/spain-718-1230.json",        label:"Christian Kingdoms 718–1230",  sub:"Asturias to Las Navas de Tolosa",                region:"Iberia",  period:"Medieval"      },
-  { id:"al-andalus-1031-1492",  file:"modules/al-andalus-1031-1492.json",  label:"Al-Andalus 1031–1492",         sub:"Taifas, Berber Dynasties and Granada",           region:"Iberia",  period:"Medieval"      },
-  { id:"spain-1230-1492",       file:"modules/spain-1230-1492.json",       label:"Castile & Aragon 1230–1492",   sub:"Union, Reconquest and the Catholic Monarchs",    region:"Iberia",  period:"Medieval"      },
-  { id:"rome-200-300",          file:"modules/rome-200-300.json",          label:"Roman Empire 200–300",        sub:"Third Century Crisis",                        region:"Europe",  period:"Late Antique"  },
-  { id:"rome-300-400",          file:"modules/rome-300-400.json",          label:"Roman Empire 300–400",        sub:"Constantine to Theodosius",                   region:"Europe",  period:"Late Antique"  },
-  { id:"rome-400-500",          file:"modules/rome-400-500.json",          label:"Roman Empire 400–500",        sub:"Fall of the West",                            region:"Europe",  period:"Late Antique"  },
-  { id:"france-1494-1610",      file:"modules/france-1494-1610.json",      label:"Kingdom of France 1494–1610", sub:"Renaissance, Reformation & Wars of Religion",   region:"France",  period:"Early Modern"  },
-  { id:"france-1610-1715",      file:"modules/france-1610-1715.json",      label:"Bourbon France 1610–1715",    sub:"Richelieu, Louis XIV & Versailles",              region:"France",  period:"Early Modern"  },
-  { id:"france-1715-1789",      file:"modules/france-1715-1789.json",      label:"France 1715–1789",            sub:"Enlightenment & Ancien Régime",                  region:"France",  period:"Early Modern"  },
-  { id:"france-1789-1815",      file:"modules/france-1789-1815.json",      label:"France 1789–1815",            sub:"Revolution & Empire",                            region:"France",  period:"Early Modern"  },
-  { id:"france-1815-1900",      file:"modules/france-1815-1900.json",      label:"France 1815–1900",            sub:"Restoration to the Third Republic",              region:"France",  period:"Early Modern"  },
-  { id:"spain-1516-1700",       file:"modules/spain-1516-1700.json",       label:"Habsburg Spain 1516–1700",    sub:"The First Global Empire",                     region:"Iberia",  period:"Early Modern"  },
-  { id:"spain-1700-1808",       file:"modules/spain-1700-1808.json",       label:"Bourbon Spain 1700–1808",     sub:"Enlightenment & Reform",                      region:"Iberia",  period:"Early Modern"  },
-  { id:"spain-1808-1900",       file:"modules/spain-1808-1900.json",       label:"Spain 1808–1900",             sub:"Peninsular War & the Long Crisis",             region:"Iberia",  period:"Early Modern"  },
-  { id:"spain-1900-1975",       file:"modules/spain-1900-1975.json",       label:"Spain 1900–1975",             sub:"Republic, Civil War & Dictatorship",           region:"Iberia",  period:"Modern"        },
-  { id:"spain-1975-today",      file:"modules/spain-1975-today.json",      label:"Spain 1975–today",            sub:"Transition & Democracy",                      region:"Iberia",  period:"Modern"        },
-  // ── NEAR EAST ──────────────────────────────────────────────────────────────
-  { id:"nabataean-400bc-106ce", file:"modules/nabataean-400bc-106ce.json", label:"Nabataean Kingdom 400BC–106", sub:"The Incense Kingdom of Petra",                region:"Arabia",  period:"Late Antique"  },
-  { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
-  { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
-  { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
-  { id:"sassanid-224-484",      file:"modules/sassanid-224-484.json",      label:"Sassanid Empire 224–484",     sub:"Foundation to Hephthalite Crisis",            region:"Iran",    period:"Late Antique"  },
-  { id:"sassanid-484-651",      file:"modules/sassanid-484-651.json",      label:"Sassanid Empire 484–651",     sub:"Renewal, Apogee & Collapse",                  region:"Iran",    period:"Late Antique"  },
-  // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
-];
-
-// ── ICON MAP: override per category id ───────────────────────────────────────
-// These replace whatever icon is in the JSON with a consistent emoji set
-const CAT_ICONS = {
-  power:       "⚜️",
-  conflict:    "⚔️",
-  order:       "⚖️",
-  belief:      "🙏",
-  expression:  "✨",
-  thought:     "💡",
-  economy: "💰",
-  technology:  "⚙️",
-  exchange:    "🌐",
-  lives:       "🪞",
-};
+// MODULES, CAT_ICONS, TAG_COLORS now live in config/registry.js and config/style.js
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let MOD = null;
@@ -334,20 +291,6 @@ let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
 let currentView = 'list';
-
-// ── TAG COLOURS ───────────────────────────────────────────────────────────────
-const TAG_COLORS = {
-  SUCCESSION:"#2471A3",COUP:"#C0392B",PUPPET:"#884EA0",APPOINTED:"#1E8449",
-  LEGITIMATE:"#2471A3",DEPOSED:"#C0392B",MARRIAGE:"#884EA0",
-  BATTLE:"#7D3C98",INVASION:"#C0392B",SACK:"#922B21",NAVAL:"#1A5276",
-  POLITICAL:"#566573",CONSTRUCTION:"#1E8449",LAW:"#2471A3",EDICT:"#2471A3",
-  SCHISM:"#117A65",DOCUMENT:"#566573",COUNCIL:"#1E8449",MISSION:"#117A65",
-  DEATH:"#7B7D7D",TEXT:"#2C3E50",CHRONICLE:"#2C3E50",FRAGMENT:"#566573",
-  LETTERS:"#2C3E50",OBJECT:"#8D6E63",MONUMENT:"#6D4C41",
-  MIGRATION:"#B7770D",EARTHQUAKE:"#D35400",PLAGUE:"#7D3C98",
-  ECONOMIC:"#8B5E00",EVENT:"#566573",CLIMATE:"#2471A3",TECHNOLOGY:"#2E7D52",
-  "CATEGORICAL SHIFT":"#7B4FA6",PRESCRIPTIVE:"#9B6FA6",CIVIL_WAR:"#C0392B",
-};
 
 function catIcon(cat) { return CAT_ICONS[cat.id] || cat.icon || "•"; }
 
@@ -378,7 +321,7 @@ function loadModule(file) {
 }
 
 function renderHeader() {
-  document.title = 'Area Studies Atlas | ' + MOD.title + ' ' + MOD.subtitle;
+  document.title = ATLAS_NAME + ' | ' + MOD.title + ' ' + MOD.subtitle;
   document.getElementById('module-title').textContent = MOD.title;
   document.getElementById('module-subtitle').textContent = MOD.subtitle;
   document.getElementById('module-cats').textContent = MOD.categories.map(c => (CAT_ICONS[c.id]||c.icon) + ' ' + c.label.toUpperCase()).join('  ·  ');
@@ -400,141 +343,7 @@ function setView(v) {
   if (v==='timeline') setTimeout(buildTimeline, 40);
 }
 
-// ── FOLIO MATRIX — THREE-TIER TAXONOMY ───────────────────────────────────────
-// Tier 1: Region        e.g. "Near East"
-// Tier 2: Sub-region    e.g. "West Asia"
-// Tier 3: Zone          e.g. "Turkey"
-//
-// Folio placement rules:
-//   - Single zone entity   → zone ID       e.g. region:"Turkey"
-//   - Spans a sub-region   → sub-region ID e.g. region:"West Asia"
-//   - Spans a full region  → region ID     e.g. region:"Near East"
-//   - Cross-regional       → core region ID (Roman Empire → "Europe")
-
-const TAXONOMY = [
-  { id:'Europe', label:'Europe', subs:[
-    { id:'South Europe', label:'South Europe', zones:[
-      { id:'Iberia',        label:'Iberia',        detail:'Spain · Portugal' },
-      { id:'Mediterranean', label:'Mediterranean', detail:'Italy · Greece · Malta · Cyprus' },
-    ]},
-    { id:'West Europe', label:'West Europe', zones:[
-      { id:'Britain',      label:'Britain',      detail:'England · Scotland · Wales · Ireland' },
-      { id:'France',       label:'France',       detail:'France · Monaco' },
-      { id:'Low Countries',label:'Low Countries',detail:'Belgium · Netherlands · Luxembourg' },
-      { id:'Germany',      label:'Germany',      detail:'Germany · Austria · Switzerland' },
-    ]},
-    { id:'Central Europe', label:'Central Europe', zones:[
-      { id:'Poland',       label:'Poland',       detail:'Poland' },
-      { id:'Bohemia',      label:'Bohemia',      detail:'Czechia · Slovakia' },
-      { id:'Pannonia',     label:'Pannonia',     detail:'Hungary · Slovenia · Croatia' },
-    ]},
-    { id:'North Europe', label:'North Europe', zones:[
-      { id:'Scandinavia',  label:'Scandinavia',  detail:'Denmark · Sweden · Norway' },
-      { id:'Finland',      label:'Finland',      detail:'Finland · Estonia' },
-      { id:'Iceland',      label:'Iceland',      detail:'Iceland' },
-      { id:'Baltic States',label:'Baltic States',detail:'Latvia · Lithuania' },
-    ]},
-    { id:'East Europe', label:'East Europe', zones:[
-      { id:'Russia West',  label:'Russia (W)',   detail:'European Russia' },
-      { id:'Ukraine',      label:'Ukraine',      detail:'Ukraine · Belarus · Moldova' },
-      { id:'Romania',      label:'Romania',      detail:'Romania · Bulgaria' },
-      { id:'West Balkans', label:'W. Balkans',   detail:'Serbia · Croatia · Bosnia · Albania · N. Macedonia · Montenegro' },
-    ]},
-  ]},
-  { id:'Near East', label:'Near East', subs:[
-    { id:'West Asia', label:'West Asia', zones:[
-      { id:'Turkey',   label:'Turkey',   detail:'Anatolia · Thrace' },
-      { id:'Caucasus', label:'Caucasus', detail:'Armenia · Georgia · Azerbaijan' },
-      { id:'Levant',   label:'Levant',   detail:'Syria · Lebanon · Palestine · Jordan · Israel' },
-      { id:'Egypt',    label:'Egypt',    detail:'Nile Valley · Sinai · Delta' },
-      { id:'Arabia',   label:'Arabia',   detail:'Arabian Peninsula · Hejaz · Yemen · Oman · Gulf' },
-      { id:'Iraq',     label:'Iraq',     detail:'Mesopotamia · Tigris-Euphrates basin' },
-      { id:'Iran',     label:'Iran',     detail:'Persia · Fars · Khorasan · Zagros' },
-    ]},
-  ]},
-  { id:'Far East', label:'Far East', subs:[
-    { id:'North Asia', label:'North Asia', zones:[
-      { id:'Siberia',  label:'Siberia',   detail:'Siberia · Russian Far East' },
-    ]},
-    { id:'Central Asia', label:'Central Asia', zones:[
-      { id:'Steppe',   label:'Steppe',    detail:'Kazakhstan · Kyrgyzstan · Mongolia (steppe)' },
-      { id:'Oxus',     label:'Oxus',      detail:'Uzbekistan · Tajikistan · Turkmenistan · Afghanistan' },
-    ]},
-    { id:'East Asia', label:'East Asia', zones:[
-      { id:'China',    label:'China',     detail:'China · Tibet · Xinjiang' },
-      { id:'Mongolia', label:'Mongolia',  detail:'Mongolia' },
-      { id:'Korea',    label:'Korea',     detail:'Korean Peninsula' },
-      { id:'Japan',    label:'Japan',     detail:'Japanese Archipelago' },
-    ]},
-    { id:'South Asia', label:'South Asia', zones:[
-      { id:'North India', label:'N. India',  detail:'North India · Pakistan' },
-      { id:'Himalaya',    label:'Himalaya',  detail:'Nepal · Bhutan · Tibet' },
-      { id:'Deccan',      label:'Deccan',    detail:'Central India' },
-      { id:'South India', label:'S. India',  detail:'South India · Sri Lanka' },
-    ]},
-    { id:'South East Asia', label:'SE Asia', zones:[
-      { id:'Mainland SEA', label:'Mainland', detail:'Vietnam · Cambodia · Laos · Thailand · Myanmar' },
-      { id:'Maritime SEA', label:'Maritime', detail:'Malaysia · Indonesia · Philippines' },
-    ]},
-  ]},
-  { id:'Africa', label:'Africa', subs:[
-    { id:'North Africa', label:'North Africa', zones:[
-      { id:'Maghreb',    label:'Maghreb',    detail:'Morocco · Algeria · Tunisia · Libya' },
-      { id:'Nile Sudan', label:'Nile/Sudan', detail:'Egypt (historical) · Sudan · Ethiopia' },
-    ]},
-    { id:'West Africa', label:'West Africa', zones:[
-      { id:'Sahel',      label:'Sahel',      detail:'Mali · Niger · Chad · Mauritania' },
-      { id:'Gulf Guinea',label:'Gulf Guinea',detail:'Nigeria · Ghana · Senegal · Ivory Coast · Benin' },
-    ]},
-    { id:'East Africa', label:'East Africa', zones:[
-      { id:'Horn',       label:'Horn',       detail:'Ethiopia · Somalia · Eritrea · Djibouti' },
-      { id:'Great Lakes',label:'Great Lakes',detail:'Kenya · Tanzania · Uganda · Rwanda · Burundi' },
-    ]},
-    { id:'Central Africa', label:'Central Africa', zones:[
-      { id:'Congo Basin',label:'Congo Basin',detail:'DRC · Congo · Cameroon · Gabon · CAR' },
-    ]},
-    { id:'South Africa', label:'South Africa', zones:[
-      { id:'Southern Africa',label:'S. Africa',detail:'South Africa · Zimbabwe · Mozambique · Zambia · Namibia · Botswana' },
-      { id:'Madagascar',     label:'Madagascar',detail:'Madagascar · Comoros · Réunion' },
-    ]},
-  ]},
-  { id:'Americas', label:'Americas', subs:[
-    { id:'North America', label:'North America', zones:[
-      { id:'Canada',         label:'Canada',         detail:'Canada' },
-      { id:'United States',  label:'United States',  detail:'United States' },
-      { id:'Mexico',         label:'Mexico',         detail:'Mexico' },
-    ]},
-    { id:'Central America', label:'Central America', zones:[
-      { id:'Mesoamerica',    label:'Mesoamerica',    detail:'Guatemala · Belize · Honduras · El Salvador · Nicaragua · Costa Rica · Panama' },
-      { id:'Caribbean',      label:'Caribbean',      detail:'Cuba · Haiti · Dominican Republic · Jamaica · Puerto Rico' },
-    ]},
-    { id:'South America', label:'South America', zones:[
-      { id:'Andes',          label:'Andes',          detail:'Peru · Bolivia · Ecuador · Chile · Colombia · Venezuela' },
-      { id:'Brazil',         label:'Brazil',         detail:'Brazil' },
-      { id:'Southern Cone',  label:'S. Cone',        detail:'Argentina · Uruguay · Paraguay' },
-    ]},
-  ]},
-  { id:'Oceania', label:'Oceania', subs:[
-    { id:'Australia & NZ', label:'Australia & NZ', zones:[
-      { id:'Australia',    label:'Australia',    detail:'Australian continent' },
-      { id:'New Zealand',  label:'New Zealand',  detail:'New Zealand' },
-    ]},
-    { id:'Pacific', label:'Pacific Islands', zones:[
-      { id:'Melanesia',    label:'Melanesia',    detail:'Papua New Guinea · Fiji · Solomon Islands · Vanuatu' },
-      { id:'Polynesia',    label:'Polynesia',    detail:'Samoa · Tonga · Hawaii · Easter Island · French Polynesia' },
-      { id:'Micronesia',   label:'Micronesia',   detail:'Guam · Palau · Marshall Islands · Federated States of Micronesia' },
-    ]},
-  ]},
-];
-
-const PERIODS = [
-  { id:'Prehistoric',  label:'Prehistoric',  sub:'till 1200 BC'  },
-  { id:'Ancient',      label:'Ancient',       sub:'1200–300 BC'   },
-  { id:'Late Antique', label:'Late Antique',  sub:'300 BC–600 AD' },
-  { id:'Medieval',     label:'Medieval',      sub:'600–1500 AD'   },
-  { id:'Early Modern', label:'Early Modern',  sub:'1500–1900'     },
-  { id:'Modern',       label:'Modern',        sub:'1900–today'    },
-];
+// TAXONOMY and PERIODS now live in config/regions.js
 
 // Collapse state: tier1 and tier2 both start collapsed
 const _t1Collapsed = {}, _t2Collapsed = {};
@@ -1321,6 +1130,9 @@ function renderPins() {
 
 // ── INIT ───────────────────────────────────────────────────────────────────────
 window.addEventListener('load', () => {
+  document.title = ATLAS_NAME;
+  document.getElementById('app-label').textContent = ATLAS_NAME;
+  document.getElementById('picker-title').textContent = ATLAS_NAME;
   openPicker();
   // Build search index in the background after a short delay
   // so the initial render is not blocked
