@@ -65,9 +65,15 @@ function extractPhrases(text) {
   const phrases = [];
   let current = [];
   const flush = () => {
-    // trim trailing connector words, then trim leading stopwords/weak-verbs
+    // trim trailing connector words
     while (current.length && GLUE.has(current[current.length - 1].toLowerCase())) current.pop();
-    while (current.length && STOPWORDS.has(current[0].toLowerCase())) current.shift();
+    // trim leading stopwords/weak-verbs (sentence-initial junk like "The X" or chains
+    // like "Battle of X"), but never trim past the last remaining word. A plain `while`
+    // without the length>1 guard can erase a real multi-word proper noun whose parts each
+    // happen to also be common words on their own — e.g. "Third Republic": "Third" and
+    // "Republic" are both in STOPWORDS individually, but together they're a specific
+    // historical term, and unconditional cascading used to collapse it to nothing.
+    while (current.length > 1 && STOPWORDS.has(current[0].toLowerCase())) current.shift();
     if (current.length) phrases.push(current.join(' '));
     current = [];
   };
@@ -192,7 +198,7 @@ function injectKeywords(fileText, data) {
   return { out, added, skippedExisting, skippedEmpty };
 }
 
-module.exports = { extractPhrases, buildKeywords, stripPossessive };
+module.exports = { extractPhrases, buildKeywords, stripPossessive, isUsefulSingleWord };
 
 // Guard the actual file-writing driver so `require()`-ing this module (e.g. to unit-test
 // buildKeywords in isolation) can never trigger a real write as a side effect.
