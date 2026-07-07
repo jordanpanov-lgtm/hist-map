@@ -6,7 +6,9 @@
  *      (hist-map has no "figure" category like sci-map does) appears in another
  *      folio's entry label.
  *   2. Keyword overlap — two entries in different folios share 2+ of the auto-seeded
- *      keywords[], via _global_index.json's keyword_index.
+ *      keywords[], via _global_index.json's keyword_index. Pairs where every shared term
+ *      is a bare place name AND the entries' dates are >20 years apart are dropped —
+ *      coincidental co-location isn't a historical connection.
  * Output: _xlink_candidates.json — review this, then add xlinks manually to folio
  * entries. This script never writes xlinks itself.
  */
@@ -39,6 +41,7 @@ for (const file of files) {
         cat: cat.id,
         label: e.label,
         date: e.date,
+        loc: e.loc,
         dynasty: e.dynasty || null,
       });
     }
@@ -54,12 +57,19 @@ const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // by eye — this is deliberately NOT fed into keyword extraction or the matching/scoring
 // itself (a shared decade is far too common to be matching signal — half the corpus in
 // any period folio shares one), only attached to output for the reviewer's benefit and
-// for the implausibility checks below.
-function decadeLabel(range) {
-  if (!range) return null;
-  const year = range[0];
+// for the implausibility checks below. When a range is wide (a summary/institutional
+// entry like "c.260-500", not a single dated event), showing only the start decade is
+// actively misleading — a reviewer sees "260s" and "480s" and assumes no relation, missing
+// that the first entry's own stated span reaches 500. Show the full span in that case.
+function oneDecade(year) {
   const decade = Math.floor(Math.abs(year) / 10) * 10;
   return year < 0 ? `${decade}s BC` : `${decade}s`;
+}
+function decadeLabel(range) {
+  if (!range) return null;
+  const [start, end] = range;
+  if (end - start < 30) return oneDecade(start);
+  return `${oneDecade(start)}–${oneDecade(end)}`;
 }
 
 // Reuse build-keywords.js's proper-noun-phrase extractor rather than a second, cruder
@@ -105,7 +115,15 @@ function parseYearRange(dateStr) {
   return [Math.min(...years), Math.max(...years)];
 }
 
-// Years between two [min,max] ranges — 0 if they overlap at all.
+// Gap between the CLOSEST edges of two [min,max] ranges — 0 if they overlap at all.
+// (A start-year-only comparison was tried instead, to stop wide summary/institutional
+// entries like "c.260-500" from swallowing anything nearby as "overlapping" — but that
+// broke genuinely correct matches like "Palmyra as autonomous caravan city" (100 BC-212
+// AD) against a 260s Roman entry, which IS legitimately within that span; comparing bare
+// start years put 312 years between them. Closest-edge is the more defensible default —
+// the wide-range "false overlap" cases turned out to be real overlaps by the source
+// data's own stated span, just poorly communicated by a decade label showing only the
+// start. Fixed that by widening decadeLabel() to show the full span instead.)
 function rangeGap(rangeA, rangeB) {
   if (!rangeA || !rangeB) return null;
   return rangeA[0] > rangeB[1] ? rangeA[0] - rangeB[1] : rangeB[0] > rangeA[1] ? rangeB[0] - rangeA[1] : 0;
@@ -133,6 +151,30 @@ function dateGapFlag(rangeA, rangeB) {
 }
 
 const figureCandidates = entries.filter(e => e.dynasty || e.cat === 'power');
+
+// Group dynasty-bearing candidates by folio, for the "borrowed dynasty" lookup below.
+const figureCandidatesByFolio = new Map();
+for (const c of figureCandidates) {
+  if (!figureCandidatesByFolio.has(c.folio)) figureCandidatesByFolio.set(c.folio, []);
+  figureCandidatesByFolio.get(c.folio).push(c);
+}
+
+// A hit entry often doesn't carry its own `dynasty` — e.g. a "conflict" category entry
+// like "Yawm Halima — death of al-Mundhir III" describes the same king as a "power"
+// category entry elsewhere in its folio, but only the power entry is tagged with
+// dynasty. Rather than skip the dynasty check whenever the direct field is empty
+// (which is how the Lakhmid/Ghassanid Al-Mundhir III collision survived the first
+// fix), borrow the dynasty from another entry in the SAME folio whose label names the
+// same person. This stays narrowly scoped to "entries about this specific name" rather
+// than "the folio's most common dynasty", so it doesn't misfire on folios that
+// legitimately span multiple ruling houses (e.g. a long multi-dynasty period folio).
+function effectiveDynasty(entry, nameRe) {
+  if (entry.dynasty) return entry.dynasty;
+  const siblings = figureCandidatesByFolio.get(entry.folio) || [];
+  const named = siblings.find(s => s.dynasty && nameRe.test(s.label));
+  return named ? named.dynasty : null;
+}
+
 const figureMatches = [];
 const seenFigurePairs = new Set();
 let rejectedDynasty = 0, rejectedDate = 0;
@@ -163,8 +205,11 @@ for (const fig of figureCandidates) {
 
     // Different dynasty on both sides is a strong signal these are different people who
     // happen to share a regnal name (e.g. Henry II of Valois France vs. Henry II of
-    // Trastámara Castile) — reject rather than present as a same-entity match.
-    if (fig.dynasty && hit.dynasty && fig.dynasty !== hit.dynasty) { rejectedDynasty++; continue; }
+    // Trastámara Castile) — reject rather than present as a same-entity match. Falls back
+    // to a same-folio, same-name "borrowed" dynasty when the entry itself lacks the field.
+    const figDynasty = effectiveDynasty(fig, nameRe);
+    const hitDynasty = effectiveDynasty(hit, nameRe);
+    if (figDynasty && hitDynasty && figDynasty !== hitDynasty) { rejectedDynasty++; continue; }
 
     // Centuries-scale date gap catches same-name different-person collisions that dynasty
     // can't (e.g. an 8th-century king vs. a 19th-century scholar who happens to share a
@@ -191,6 +236,19 @@ for (const fig of figureCandidates) {
 
 const { keyword_index: keywordIndex } = JSON.parse(fs.readFileSync(GLOBAL_INDEX, 'utf8'));
 
+// Terms extracted from any entry's `loc` field are place names by construction (that's
+// what loc is). A match whose ENTIRE shared-term set is place names with a real date gap
+// is coincidental co-location, not a historical connection — e.g. "Catalonia, Madrid,
+// Valencia" linking an 18th-century administrative reform to 1930s anticlerical violence
+// just because both happened somewhere in those regions. Kept as a separate check from
+// build-keywords.js's STOPWORDS (which is about single generic words); this is about
+// whole shared-term sets being purely geographic regardless of how specific each term is.
+const geographicTerms = new Set();
+for (const e of entries) {
+  for (const p of extractPhrases(e.loc || '')) geographicTerms.add(p.toLowerCase());
+}
+const MIN_GAP_FOR_GEO_ONLY_DROP = 20;
+
 const pairScore = new Map(); // "keyA|keyB" (sorted) -> { count, terms, a, b, xlink_a, xlink_b }
 
 for (const [term, keys] of Object.entries(keywordIndex)) {
@@ -211,13 +269,12 @@ for (const [term, keys] of Object.entries(keywordIndex)) {
           a: { folio: a.folio, id: a.id, cat: a.cat, label: a.label, decade: decadeLabel(rangeA) },
           b: { folio: b.folio, id: b.id, cat: b.cat, label: b.label, decade: decadeLabel(rangeB) },
           xlink_a: keyA, xlink_b: keyB,
-          // Unlike Strategy 1, a wide date gap here is NOT rejected — geographic/dynastic
-          // continuity legitimately spans centuries (e.g. "Toledo" recurring across six
-          // period folios is exactly the kind of link this tool exists to find). This is
-          // surfaced as a flag for the human reviewer, not used to filter anything, since
-          // it can't distinguish "same place, different eras — still worth a look" from
-          // "same institution name, but actually a different instance" (e.g. First vs.
-          // Second Spanish Republic) without deeper entity modeling.
+          // A wide date gap is NOT rejected here in general — geographic/dynastic continuity
+          // legitimately spans centuries (e.g. "Toledo" recurring across six period folios
+          // is exactly the kind of link this tool exists to find). It's surfaced as a flag
+          // for the reviewer. The one case it IS used to reject: see MIN_GAP_FOR_GEO_ONLY_DROP
+          // below, when literally every shared term is a bare place name.
+          gap: rangeGap(rangeA, rangeB),
           date_flag: dateGapFlag(rangeA, rangeB),
         });
       }
@@ -228,8 +285,16 @@ for (const [term, keys] of Object.entries(keywordIndex)) {
   }
 }
 
+let rejectedGeoOnly = 0;
 const keywordMatches = [...pairScore.values()]
   .filter(r => r.count >= 2)
+  .filter(r => {
+    const terms = [...new Set(r.terms)];
+    const allGeographic = terms.every(t => geographicTerms.has(t.toLowerCase()));
+    const drop = allGeographic && r.gap !== null && r.gap > MIN_GAP_FOR_GEO_ONLY_DROP;
+    if (drop) rejectedGeoOnly++;
+    return !drop;
+  })
   .map(r => ({
     confidence: r.count >= 4 ? 'high' : r.count >= 3 ? 'medium' : 'low',
     type: 'keyword-overlap',
@@ -250,6 +315,7 @@ const out = {
     figure_matches_rejected_dynasty_mismatch: rejectedDynasty,
     figure_matches_rejected_date_implausible: rejectedDate,
     keyword_matches: keywordMatches.length,
+    keyword_matches_rejected_geo_only: rejectedGeoOnly,
     high_confidence: [...figureMatches, ...keywordMatches].filter(c => c.confidence === 'high').length,
     medium_confidence: keywordMatches.filter(c => c.confidence === 'medium').length,
     low_confidence: keywordMatches.filter(c => c.confidence === 'low').length,
@@ -269,6 +335,7 @@ console.log(`Figure-name matches:        ${figureMatches.length}`);
 console.log(`  rejected (dynasty mismatch): ${rejectedDynasty}`);
 console.log(`  rejected (date implausible): ${rejectedDate}`);
 console.log(`Keyword overlap (>=2 terms): ${keywordMatches.length}`);
+console.log(`  rejected (geo-only, >${MIN_GAP_FOR_GEO_ONLY_DROP}yr gap): ${rejectedGeoOnly}`);
 console.log(`  high (>=4 terms):         ${keywordMatches.filter(c => c.confidence === 'high').length}`);
 console.log(`  medium (3 terms):         ${keywordMatches.filter(c => c.confidence === 'medium').length}`);
 console.log(`  low (2 terms):            ${keywordMatches.filter(c => c.confidence === 'low').length}`);
