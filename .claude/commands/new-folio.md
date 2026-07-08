@@ -94,10 +94,9 @@ Script must write:
 1. Top-level fields: `id`, `title`, `subtitle`, `period`, `region`, `period_label`, `mapCenter`,
    `mapZoom` (see FIELD_GUIDE.md for `mapCenter` derivation)
 2. All **11** category stubs (canonical order — see FIELD_GUIDE.md; never `subsistence`) with
-   correct `label`, `icon` (from `CAT_ICONS` in `config/style.js`, or a sensible fallback if this
-   category doesn't have a central override), a fresh per-folio `color`/`accent`/`bg` palette (see
-   FIELD_GUIDE.md — don't copy another folio's palette verbatim), a one-line `subtitle`, and
-   **empty** `entries: []`
+   correct `label`, `icon` (from `CAT_ICONS` in `config/style.js`), `color`/`accent` copied verbatim
+   from `CAT_COLORS` in `config/style.js` (fixed globally — do not invent a per-folio palette, see
+   FIELD_GUIDE.md), a one-line `subtitle`, and **empty** `entries: []`
 3. Timeline stubs — lane objects per GROUPING_GUIDE.md Structural Invariants §2 (power split into
    named dynasty/executive lanes, the rest one lane per category with entries), each with **empty**
    `events: []`

@@ -87,7 +87,8 @@ contradicting GROUPING_GUIDE.md's Structural Invariants §4 — migrated 2026-07
     "label": "Power",
     "icon": "⚜️",                          // overridden centrally by CAT_ICONS in config/style.js —
                                             // the per-entry value here is a fallback, keep it anyway
-    "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+    "color": "#5C0A00", "accent": "#A0200A",  // copy verbatim from CAT_COLORS in config/style.js —
+                                               // see below, do not invent a per-folio palette
     "subtitle": "Constitutional monarchy — from La Transición to today",  // folio-specific, one line
     "entries": [ /* ... */ ]
   },
@@ -96,16 +97,22 @@ contradicting GROUPING_GUIDE.md's Structural Invariants §4 — migrated 2026-07
 ]
 ```
 
-### `color` / `accent` / `bg` are per-folio, not a fixed global palette
+### `color` / `accent` — copy verbatim from `CAT_COLORS`, no `bg` field at all
 
-Unlike sci-map (where the 8 categories' colors are identical across every folio, copied verbatim
-from FIELD_GUIDE.md), hist-map lets each folio pick its own thematic palette per category — e.g.
-Spain 1975–today's Power category is blue-toned (`#1A3A5C`/`#2471A3`), while Al-Andalus 1031–1492's
-Power category is green-toned (`#0A2A0A`/`#1A5C1A`), evoking each civilization's own visual
-identity. When starting a new folio, look at 1–2 sibling folios from a related civilization/era for
-palette inspiration, but feel free to pick a fresh thematic palette rather than copying one verbatim
-— `accent` is what actually renders (the modal border, the tag badge, entry highlighting), pick
-something that reads clearly against `#f4f1eb` (the app's cream background).
+Fixed globally, matching sci-map's convention (and `CAT_ICONS`'s existing pattern within this
+project) — `config/style.js`'s `CAT_COLORS` is the single source of truth, and `index.html` reads
+it centrally via `catColor(cat)`/`catAccent(cat)` (which fall back to the per-folio JSON value only
+if a category id isn't in `CAT_COLORS` at all — it always is for the 11 canonical ids). The
+per-folio `color`/`accent` values in the JSON are consequently redundant with `config/style.js` and
+should always match it exactly; copy the values verbatim from `CAT_COLORS` rather than inventing
+new ones, the same way you'd copy `CAT_ICONS`'s icon.
+
+This wasn't always true — until 2026-07-08 each folio picked its own thematic palette per category
+(e.g. Spain's Power was blue, Al-Andalus's was green), which felt like a nice per-civilization touch
+but meant a reader could never learn "crimson = Power" the way they learn "⚜️ = Power", since the
+color changed folio to folio. Centralized for the same reason icons already were. There is no `bg`
+field — it was grep-confirmed dead (never read anywhere in `index.html`) and removed entirely from
+the schema.
 
 ---
 

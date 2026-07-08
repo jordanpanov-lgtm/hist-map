@@ -301,6 +301,8 @@ let activeCatIds = new Set();
 let currentView = 'list';
 
 function catIcon(cat) { return CAT_ICONS[cat.id] || cat.icon || "•"; }
+function catColor(cat) { return (CAT_COLORS[cat.id] && CAT_COLORS[cat.id].color) || cat.color || "#333"; }
+function catAccent(cat) { return (CAT_COLORS[cat.id] && CAT_COLORS[cat.id].accent) || cat.accent || "#888"; }
 
 // ── MODULE LOADING ────────────────────────────────────────────────────────────
 function loadModule(file) {
@@ -529,7 +531,7 @@ async function buildSearchIndex() {
               loc:      e.loc     || '',
               group:    e.group   || '',
               note:     e.note    || '',
-              catAccent: cat.accent || '#888',
+              catAccent: catAccent(cat),
               catLabel:  cat.label  || '',
             });
           });
@@ -709,7 +711,7 @@ function navigateToXlink(key) {
   const openTarget = () => {
     for (const cat of MOD.categories) {
       const e = cat.entries.find(e => e.id === entryId);
-      if (e) { openModal(e, cat.accent); return; }
+      if (e) { openModal(e, catAccent(cat)); return; }
     }
     console.error('Entry not found after loading folio:', key);
   };
@@ -722,7 +724,7 @@ function allEntries() {
   if (!MOD) return [];
   const out = [];
   MOD.categories.forEach(cat => {
-    cat.entries.forEach(e => out.push({...e, catId:cat.id, accent:cat.accent}));
+    cat.entries.forEach(e => out.push({...e, catId:cat.id, accent:catAccent(cat)}));
   });
   return out;
 }
@@ -758,8 +760,8 @@ function buildList() {
     const icon = catIcon(cat);
     const panel = document.createElement('div');
     panel.className = 'cat-panel';
-    panel.style.setProperty('--accent', cat.accent);
-    panel.style.setProperty('--color', cat.color);
+    panel.style.setProperty('--accent', catAccent(cat));
+    panel.style.setProperty('--color', catColor(cat));
     panel.innerHTML = `
       <div class="cat-head" onclick="togglePanel(this)">
         <div class="cat-icon-circle">${icon}</div>
@@ -775,7 +777,7 @@ function buildList() {
     cat.entries.forEach(e => { const g=e.group||'_'; if(!groups[g])groups[g]=[]; groups[g].push(e); });
     Object.entries(groups).forEach(([g,entries]) => {
       if (g!=='_') { const lbl=document.createElement('div'); lbl.className='subgroup-label'; lbl.textContent=g; body.appendChild(lbl); }
-      entries.forEach(e => body.appendChild(makeEntry(e, cat.accent)));
+      entries.forEach(e => body.appendChild(makeEntry(e, catAccent(cat))));
     });
     area.appendChild(panel);
   });
@@ -1078,8 +1080,8 @@ function buildMapFilters() {
     const btn = document.createElement('button');
     btn.className = 'filter-pill on';
     btn.dataset.catid = cat.id;
-    btn.style.setProperty('--accent', cat.accent);
-    btn.style.setProperty('--faint', cat.accent+'18');
+    btn.style.setProperty('--accent', catAccent(cat));
+    btn.style.setProperty('--faint', catAccent(cat)+'18');
     btn.innerHTML = icon + ' ' + cat.label.toUpperCase();
     btn.onclick = () => {
       const isAllOn = activeCatIds.size === allIds.size;
@@ -1117,7 +1119,7 @@ function buildLegend() {
   wrap.innerHTML = '';
   MOD.categories.forEach(cat => {
     const d = document.createElement('div'); d.className='leg-item';
-    d.innerHTML = `<div class="leg-dot" style="background:${cat.accent}"></div><span class="leg-label">${catIcon(cat)} ${cat.label}</span>`;
+    d.innerHTML = `<div class="leg-dot" style="background:${catAccent(cat)}"></div><span class="leg-label">${catIcon(cat)} ${cat.label}</span>`;
     wrap.appendChild(d);
   });
 }

@@ -39,7 +39,7 @@
   "$defs": {
     "category": {
       "type": "object",
-      "required": ["id", "label", "icon", "color", "accent", "bg", "entries"],
+      "required": ["id", "label", "icon", "color", "accent", "entries"],
       "properties": {
         "id": {
           "type": "string",
@@ -49,7 +49,6 @@
         "icon": { "type": "string" },
         "color": { "type": "string" },
         "accent": { "type": "string" },
-        "bg": { "type": "string" },
         "subtitle": { "type": "string" },
         "entries": {
           "type": "array",

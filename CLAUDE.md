@@ -38,11 +38,11 @@ FIELD_GUIDE.md is the schema truth; GROUPING_GUIDE.md is the content-taxonomy tr
 |---|---|
 | `MODULES` array (register a folio, its `region`/`period`) | `config/registry.js` |
 | `TAXONOMY` (region tree) / `PERIODS` (time axis) | `config/regions.js` |
-| `CAT_ICONS` (category icon overrides) | `config/style.js` |
+| `CAT_ICONS` / `CAT_COLORS` (category icon + color, fixed globally) | `config/style.js` |
 
 Register every new folio in `config/registry.js`'s `MODULES`. Unlike sci-map, there is no separate
 study-plan file and no `TAG_COLORS` — entry accent color comes from its own category's `accent`
-field (set per-folio in the JSON itself, not centrally), and there is no per-tag color system.
+(via `CAT_COLORS`, same centralization as icons), and there is no per-tag color system.
 
 ---
 
