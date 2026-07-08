@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1435,
+    "total_entries": 1439,
     "folio_count": 27,
     "xlink_pairs": 19,
-    "keyword_terms": 3444,
+    "keyword_terms": 3452,
     "folios": [
       {
         "id": "al-andalus-1031-1492",
@@ -18,7 +18,7 @@
       {
         "id": "egypt-3000bc-2100bc",
         "title": "Ancient Egypt",
-        "entries": 71
+        "entries": 75
       },
       {
         "id": "france-1494-1610",
@@ -269,6 +269,7 @@
     "egypt-3000bc-2100bc::o4": "The Dahshur decree — royal tax and corvée exemption for pyramid towns",
     "egypt-3000bc-2100bc::o5": "Weni's appointment as sole judge in a royal harem trial",
     "egypt-3000bc-2100bc::o6": "Nomarch offices become hereditary under the Sixth Dynasty",
+    "egypt-3000bc-2100bc::o7": "Memphis (Ineb-Hedj) — the founding of Egypt's first capital",
     "egypt-3000bc-2100bc::b1": "The living Horus — royal titulary as religious doctrine",
     "egypt-3000bc-2100bc::b2": "'Son of Ra' enters the royal titulary",
     "egypt-3000bc-2100bc::b3": "Niuserre's sun temple at Abu Ghurab",
@@ -283,11 +284,13 @@
     "egypt-3000bc-2100bc::e5": "The Abusir Papyri — the mortuary temple archive of Neferirkare",
     "egypt-3000bc-2100bc::e6": "Musicians and singers in the tomb of Ti",
     "egypt-3000bc-2100bc::e7": "The rise of the tomb autobiography as a literary genre",
+    "egypt-3000bc-2100bc::e8": "The Meidum Geese",
     "egypt-3000bc-2100bc::t1": "The Palermo Stone — Egypt's earliest royal annal",
     "egypt-3000bc-2100bc::t2": "Ma'at — truth, justice and cosmic order as a governing principle",
     "egypt-3000bc-2100bc::t3": "Stellar orientation of the Giza pyramids to true north",
     "egypt-3000bc-2100bc::t4": "The Instruction of Ptahhotep",
     "egypt-3000bc-2100bc::t5": "Letters to the Dead",
+    "egypt-3000bc-2100bc::t6": "The Teaching for Merikare",
     "egypt-3000bc-2100bc::ec1": "Nile flood-basin irrigation",
     "egypt-3000bc-2100bc::ec2": "Corvée labor during the Akhet flood season",
     "egypt-3000bc-2100bc::ec3": "Barter market scenes in Old Kingdom tombs",
@@ -312,6 +315,7 @@
     "egypt-3000bc-2100bc::l3": "War captives as a dependent labor class",
     "egypt-3000bc-2100bc::l4": "Seneb — a court official of short stature",
     "egypt-3000bc-2100bc::l5": "The joint tomb of Niankhkhnum and Khnumhotep",
+    "egypt-3000bc-2100bc::l6": "Peseshet — overseer of a corps of female physicians",
     "france-1494-1610::k1": "Charles VIII invades Italy",
     "france-1494-1610::k2": "Louis XII — Duke of Milan and King of Naples",
     "france-1494-1610::k3": "Francis I — the Renaissance king",
@@ -2524,6 +2528,13 @@
       "Pepi II",
       "Intermediate Period"
     ],
+    "egypt-3000bc-2100bc::o7": [
+      "Memphis Mit Rahina",
+      "Memphis Ineb-Hedj",
+      "Ineb-Hedj White Walls",
+      "Lower Egypt",
+      "Early Dynastic"
+    ],
     "egypt-3000bc-2100bc::b1": [
       "Hierakonpolis",
       "Abydos",
@@ -2591,6 +2602,9 @@
       "Abydos",
       "Sixth Dynasty"
     ],
+    "egypt-3000bc-2100bc::e8": [
+      "Meidum Geese"
+    ],
     "egypt-3000bc-2100bc::t1": [
       "Palermo Regional Archaeological Museum",
       "Palermo Stone",
@@ -2618,6 +2632,14 @@
       "Letters",
       "Dead",
       "Intermediate Period"
+    ],
+    "egypt-3000bc-2100bc::t6": [
+      "Herakleopolis",
+      "Teaching",
+      "Merikare",
+      "Wahkare Khety",
+      "Khety I",
+      "Middle Kingdom"
     ],
     "egypt-3000bc-2100bc::ec1": [
       "Memphis",
@@ -2747,6 +2769,10 @@
       "Niankhkhnum",
       "Khnumhotep",
       "Overseer of the Manicurists of the Palace"
+    ],
+    "egypt-3000bc-2100bc::l6": [
+      "Giza",
+      "Peseshet"
     ],
     "france-1494-1610::k1": [
       "Valois",
@@ -12680,6 +12706,7 @@
     "Lower Egypt": [
       "egypt-3000bc-2100bc::k3",
       "egypt-3000bc-2100bc::c1",
+      "egypt-3000bc-2100bc::o7",
       "egypt-3000bc-2100bc::l2"
     ],
     "Dynasty 3": [
@@ -12752,7 +12779,8 @@
       "egypt-3000bc-2100bc::ec5",
       "egypt-3000bc-2100bc::tc2",
       "egypt-3000bc-2100bc::l2",
-      "egypt-3000bc-2100bc::l4"
+      "egypt-3000bc-2100bc::l4",
+      "egypt-3000bc-2100bc::l6"
     ],
     "Khafre": [
       "egypt-3000bc-2100bc::k7",
@@ -12828,7 +12856,8 @@
       "egypt-3000bc-2100bc::k14"
     ],
     "Khety I": [
-      "egypt-3000bc-2100bc::k14"
+      "egypt-3000bc-2100bc::k14",
+      "egypt-3000bc-2100bc::t6"
     ],
     "Middle Egypt": [
       "egypt-3000bc-2100bc::k14"
@@ -12923,6 +12952,7 @@
     "Herakleopolis": [
       "egypt-3000bc-2100bc::c6",
       "egypt-3000bc-2100bc::c7",
+      "egypt-3000bc-2100bc::t6",
       "egypt-3000bc-2100bc::w3"
     ],
     "Intermediate": [
@@ -12943,7 +12973,8 @@
     ],
     "Middle Kingdom": [
       "egypt-3000bc-2100bc::o1",
-      "egypt-3000bc-2100bc::t4"
+      "egypt-3000bc-2100bc::t4",
+      "egypt-3000bc-2100bc::t6"
     ],
     "Hemiunu": [
       "egypt-3000bc-2100bc::o2"
@@ -12961,6 +12992,19 @@
     ],
     "Nomarch": [
       "egypt-3000bc-2100bc::o6"
+    ],
+    "Memphis Mit Rahina": [
+      "egypt-3000bc-2100bc::o7"
+    ],
+    "Memphis Ineb-Hedj": [
+      "egypt-3000bc-2100bc::o7"
+    ],
+    "Ineb-Hedj White Walls": [
+      "egypt-3000bc-2100bc::o7"
+    ],
+    "Early Dynastic": [
+      "egypt-3000bc-2100bc::o7",
+      "egypt-3000bc-2100bc::b5"
     ],
     "Horus": [
       "egypt-3000bc-2100bc::b1"
@@ -12984,9 +13028,6 @@
       "egypt-3000bc-2100bc::b4"
     ],
     "Osiris": [
-      "egypt-3000bc-2100bc::b5"
-    ],
-    "Early Dynastic": [
       "egypt-3000bc-2100bc::b5"
     ],
     "Evisceration": [
@@ -13029,6 +13070,9 @@
     "Musicians": [
       "egypt-3000bc-2100bc::e6"
     ],
+    "Meidum Geese": [
+      "egypt-3000bc-2100bc::e8"
+    ],
     "Palermo Regional Archaeological Museum": [
       "egypt-3000bc-2100bc::t1"
     ],
@@ -13057,6 +13101,15 @@
     ],
     "Dead": [
       "egypt-3000bc-2100bc::t5"
+    ],
+    "Teaching": [
+      "egypt-3000bc-2100bc::t6"
+    ],
+    "Merikare": [
+      "egypt-3000bc-2100bc::t6"
+    ],
+    "Wahkare Khety": [
+      "egypt-3000bc-2100bc::t6"
     ],
     "Nile": [
       "egypt-3000bc-2100bc::ec1",
@@ -13222,6 +13275,9 @@
     ],
     "Overseer of the Manicurists of the Palace": [
       "egypt-3000bc-2100bc::l5"
+    ],
+    "Peseshet": [
+      "egypt-3000bc-2100bc::l6"
     ],
     "Valois": [
       "france-1494-1610::k1",
