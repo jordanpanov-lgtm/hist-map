@@ -178,6 +178,12 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 #modal-hint{font-size:13px;color:#444;margin-top:12px;line-height:1.65;font-style:italic;border-left:3px solid #ccc;padding-left:12px}
 #modal-ev-label{font-size:9px;color:#aaa;font-family:'Courier New',monospace;letter-spacing:.1em;margin-top:14px;display:block}
 #modal-note{font-size:12px;color:#666;line-height:1.75;margin-top:4px}
+#modal-related{margin-top:14px}
+#modal-related-label{font-size:9px;color:#aaa;font-family:'Courier New',monospace;letter-spacing:.1em;display:block;margin-bottom:6px}
+.related-item{display:flex;align-items:baseline;gap:8px;padding:6px 0;border-top:1px solid #eee;cursor:pointer;transition:background .1s}
+.related-item:hover{background:#f7f7f7}
+.related-item .related-label{font-size:12.5px;font-family:Georgia,serif;color:#333}
+.related-item .related-folio{font-size:9.5px;font-family:'Courier New',monospace;color:#999;white-space:nowrap;margin-left:auto}
 #modal-close{margin-top:18px;background:transparent;border:1px solid #ccc;color:#888;padding:5px 16px;cursor:pointer;font-size:11px;letter-spacing:.1em;font-family:'Courier New',monospace;border-radius:3px}
 
 /* ── LOADING ── */
@@ -278,6 +284,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
     <div id="modal-hint"></div>
     <span id="modal-ev-label">PRIMARY EVIDENCE</span>
     <div id="modal-note"></div>
+    <div id="modal-related"></div>
     <button id="modal-close" onclick="closeModal()">CLOSE</button>
   </div>
 </div>
@@ -287,6 +294,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let MOD = null;
+let GIDX = null; // modules/_global_index.json, fetched once at boot — used to label xlinks in the modal
 let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
@@ -667,9 +675,47 @@ function openModal(entry, accent) {
   document.getElementById('modal-hint').textContent = entry.hint || '';
   document.getElementById('modal-hint').style.borderLeftColor = ac;
   document.getElementById('modal-note').textContent = entry.note || '';
+  renderRelated(entry);
   document.getElementById('modal-overlay').classList.add('open');
 }
 function closeModal() { document.getElementById('modal-overlay').classList.remove('open'); }
+
+// Cross-folio "see also" panel, built from entry.xlinks[] ("folioId::entryId" strings).
+// Labels come from the prebuilt GIDX.index map — if it hasn't loaded yet, falls back to
+// the raw key rather than blocking modal display on a fetch.
+function renderRelated(entry) {
+  const box = document.getElementById('modal-related');
+  if (!entry.xlinks || !entry.xlinks.length) { box.innerHTML = ''; return; }
+  const rows = entry.xlinks.map(key => {
+    const [folioId, entryId] = key.split('::');
+    const mod = MODULES.find(m => m.id === folioId);
+    const label = (GIDX && GIDX.index && GIDX.index[key]) || entryId;
+    const folioLabel = mod ? mod.label : folioId;
+    return `<div class="related-item" onclick="navigateToXlink('${key}')">
+      <span class="related-label">${label}</span>
+      <span class="related-folio">${folioLabel}</span>
+    </div>`;
+  }).join('');
+  box.innerHTML = `<span id="modal-related-label">RELATED ENTRIES</span>${rows}`;
+}
+
+// Close the current modal, load the target folio if it isn't already loaded, then open
+// the modal for the linked entry with its own category's accent color.
+function navigateToXlink(key) {
+  const [folioId, entryId] = key.split('::');
+  const mod = MODULES.find(m => m.id === folioId);
+  if (!mod) { console.error('Unknown folio in xlink:', folioId); return; }
+  closeModal();
+  const openTarget = () => {
+    for (const cat of MOD.categories) {
+      const e = cat.entries.find(e => e.id === entryId);
+      if (e) { openModal(e, cat.accent); return; }
+    }
+    console.error('Entry not found after loading folio:', key);
+  };
+  if (MOD && MOD.id === folioId) { openTarget(); return; }
+  loadModule(mod.file).then(openTarget);
+}
 
 // ── HELPERS ───────────────────────────────────────────────────────────────────
 function allEntries() {
@@ -1136,6 +1182,9 @@ window.addEventListener('load', () => {
   // Build search index in the background after a short delay
   // so the initial render is not blocked
   setTimeout(buildSearchIndex, 1500);
+  // Fetch the prebuilt cross-folio index in the background, used to label related-entry
+  // links in the modal (built by modules/build-global-index.js, not regenerated here).
+  fetch('modules/_global_index.json').then(r => r.json()).then(d => { GIDX = d; }).catch(() => {});
 });
 window.addEventListener('resize', () => { /* viewBox scales automatically */ });
 </script>
