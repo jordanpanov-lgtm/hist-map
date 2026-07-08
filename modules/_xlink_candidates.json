@@ -1,14 +1,15 @@
 {
   "_meta": {
-    "generated": "2026-07-07",
-    "figure_matches": 17,
-    "figure_matches_rejected_dynasty_mismatch": 21,
+    "generated": "2026-07-08",
+    "figure_matches": 18,
+    "figure_matches_rejected_dynasty_mismatch": 16,
     "figure_matches_rejected_date_implausible": 3,
-    "keyword_matches": 370,
-    "keyword_matches_rejected_geo_only": 387,
-    "high_confidence": 19,
-    "medium_confidence": 33,
-    "low_confidence": 335
+    "dynasty_alignment_proposals_count": 8,
+    "keyword_matches": 366,
+    "keyword_matches_rejected_geo_only": 391,
+    "high_confidence": 20,
+    "medium_confidence": 30,
+    "low_confidence": 334
   },
   "figure_name_matches": [
     {
@@ -244,6 +245,28 @@
         "decade": "240s–270s"
       },
       "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Odaenathus defeats Shapur I — Persian army routed",
+        "decade": "260s"
+      },
+      "xlink_a": "sassanid-224-484::k2",
+      "xlink_b": "palmyrene-100bc-273ce::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Shapur I",
+      "pivot": {
+        "folio": "sassanid-224-484",
+        "id": "k2",
+        "cat": "power",
+        "label": "Shapur I",
+        "dynasty": "House of Sasan",
+        "decade": "240s–270s"
+      },
+      "match": {
         "folio": "rome-200-300",
         "id": "t5",
         "cat": "thought",
@@ -386,6 +409,144 @@
       "xlink_b": "spain-1230-1492::c1"
     }
   ],
+  "dynasty_alignment_proposals": [
+    {
+      "name": "Theodosius",
+      "entry_a": {
+        "folio": "hispania-27bc-409ad",
+        "id": "k3",
+        "label": "Theodosius — the last great emperor, born in Hispania",
+        "dynasty": "Roman Imperial",
+        "decade": "370s"
+      },
+      "entry_b": {
+        "folio": "rome-300-400",
+        "id": "p12",
+        "label": "Theodosius I (East, then sole)",
+        "dynasty": "Theodosian",
+        "decade": "370s"
+      }
+    },
+    {
+      "name": "Theodosius",
+      "entry_a": {
+        "folio": "hispania-27bc-409ad",
+        "id": "k3",
+        "label": "Theodosius — the last great emperor, born in Hispania",
+        "dynasty": "Roman Imperial",
+        "decade": "370s"
+      },
+      "entry_b": {
+        "folio": "rome-300-400",
+        "id": "w3",
+        "label": "Division of empire at Theodosius's death",
+        "dynasty": "Theodosian",
+        "decade": "390s"
+      }
+    },
+    {
+      "name": "Theodosius",
+      "entry_a": {
+        "folio": "hispania-27bc-409ad",
+        "id": "k3",
+        "label": "Theodosius — the last great emperor, born in Hispania",
+        "dynasty": "Roman Imperial",
+        "decade": "370s"
+      },
+      "entry_b": {
+        "folio": "rome-400-500",
+        "id": "a1",
+        "label": "Missorium of Theodosius I",
+        "dynasty": "Theodosian",
+        "decade": "380s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "rome-200-300",
+        "id": "p17",
+        "label": "Diocletian",
+        "dynasty": "Illyrian",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-300-400",
+        "id": "p1",
+        "label": "Diocletian (abdication)",
+        "dynasty": "Tetrarchic",
+        "decade": "300s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "rome-200-300",
+        "id": "p17",
+        "label": "Diocletian",
+        "dynasty": "Illyrian",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-300-400",
+        "id": "o7",
+        "label": "Diocletian's army reforms (legacy)",
+        "dynasty": "Tetrarchic",
+        "decade": "300s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "rome-200-300",
+        "id": "p17",
+        "label": "Diocletian",
+        "dynasty": "Illyrian",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-300-400",
+        "id": "s2",
+        "label": "Diocletian's tax reform (iugatio-capitatio)",
+        "dynasty": "Tetrarchic",
+        "decade": "290s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "rome-300-400",
+        "id": "p1",
+        "label": "Diocletian (abdication)",
+        "dynasty": "Tetrarchic",
+        "decade": "300s"
+      },
+      "entry_b": {
+        "folio": "rome-200-300",
+        "id": "o6",
+        "label": "Diocletian's provincial reorganisation",
+        "dynasty": "Illyrian",
+        "decade": "290s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "rome-300-400",
+        "id": "p1",
+        "label": "Diocletian (abdication)",
+        "dynasty": "Tetrarchic",
+        "decade": "300s"
+      },
+      "entry_b": {
+        "folio": "rome-200-300",
+        "id": "a6",
+        "label": "Palace of Diocletian, Split",
+        "dynasty": "Illyrian",
+        "decade": "290s"
+      }
+    }
+  ],
   "keyword_matches": [
     {
       "confidence": "high",
@@ -394,9 +555,10 @@
         "Day of Halima",
         "Syrian",
         "Unknown",
-        "Yawm Halima"
+        "Yawm Halima",
+        "al-Mundhir III"
       ],
-      "sharedCount": 4,
+      "sharedCount": 5,
       "a": {
         "folio": "ghassanid-420-638",
         "id": "c2",
@@ -577,33 +739,6 @@
       "date_flag": "overlapping",
       "xlink_a": "rome-300-400::a6",
       "xlink_b": "rome-400-500::a6"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Madrid",
-        "Rome",
-        "Spanish Crown"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "spain-1516-1700",
-        "id": "r5",
-        "cat": "belief",
-        "label": "Immaculate Conception controversy -- theology, art and diplomacy",
-        "decade": "1610s–1660s"
-      },
-      "b": {
-        "folio": "spain-1700-1808",
-        "id": "r2",
-        "cat": "belief",
-        "label": "Concordat of 1753 -- regalism's triumph over Rome",
-        "decade": "1750s"
-      },
-      "date_flag": "92yr gap — verify same entity, not just shared theme",
-      "xlink_a": "spain-1516-1700::r5",
-      "xlink_b": "spain-1700-1808::r2"
     },
     {
       "confidence": "medium",
@@ -793,60 +928,6 @@
       "date_flag": "12yr gap",
       "xlink_a": "spain-1808-1900::lv5",
       "xlink_b": "spain-1900-1975::s1"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Louis XIV",
-        "Philip V",
-        "Spanish Succession"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "france-1610-1715",
-        "id": "w2",
-        "cat": "world",
-        "label": "Treaty of Utrecht (1713) — Balance of Power as European doctrine",
-        "decade": "1710s"
-      },
-      "b": {
-        "folio": "spain-1700-1808",
-        "id": "k1",
-        "cat": "power",
-        "label": "Philip V — the War of Spanish Succession",
-        "decade": "1700s–1740s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "france-1610-1715::w2",
-      "xlink_b": "spain-1700-1808::k1"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Peace of Utrecht",
-        "Philip V",
-        "Spanish Succession"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "france-1610-1715",
-        "id": "w2",
-        "cat": "world",
-        "label": "Treaty of Utrecht (1713) — Balance of Power as European doctrine",
-        "decade": "1710s"
-      },
-      "b": {
-        "folio": "spain-1700-1808",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Peace of Utrecht — Spain's European losses",
-        "decade": "1710s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "france-1610-1715::w2",
-      "xlink_b": "spain-1700-1808::c7"
     },
     {
       "confidence": "medium",
@@ -1442,32 +1523,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Seville",
-        "Zaragoza"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "al-andalus-1031-1492",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Taifa courts as cultural patronage states",
-        "decade": "1030s–1080s"
-      },
-      "b": {
-        "folio": "visigoths-589-711",
-        "id": "r2",
-        "cat": "belief",
-        "label": "Mozarabic liturgy — the Visigothic rite",
-        "decade": "600s–1080s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "al-andalus-1031-1492::a4",
-      "xlink_b": "visigoths-589-711::r2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Granada",
         "Seville"
       ],
@@ -1910,6 +1965,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "North Africa",
+        "al-Andalus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "al-andalus-1031-1492",
+        "id": "s4",
+        "cat": "economy",
+        "label": "Almeria and Malaga -- al-Andalus's commercial ports",
+        "decade": "1030s–1490s"
+      },
+      "b": {
+        "folio": "spain-718-1230",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Almoravids and Almohads — North Africa intervenes",
+        "decade": "1080s–1210s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "al-andalus-1031-1492::s4",
+      "xlink_b": "spain-718-1230::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Alfonso VIII",
         "Burgos"
       ],
@@ -2009,32 +2090,6 @@
       "date_flag": "overlapping",
       "xlink_a": "spain-1230-1492::k1",
       "xlink_b": "spain-718-1230::k5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ibn Hazm Tawq",
-        "Ring of the Dove"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "al-andalus-1031-1492",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Ibn Hazm — Tawq al-Hamama (The Ring of the Dove)",
-        "decade": "1020s"
-      },
-      "b": {
-        "folio": "al-andalus-711-1031",
-        "id": "lv3",
-        "cat": "lives",
-        "label": "Ibn Hazm — The Ring of the Dove",
-        "decade": "1020s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "al-andalus-1031-1492::a6",
-      "xlink_b": "al-andalus-711-1031::lv3"
     },
     {
       "confidence": "low",
@@ -2477,6 +2532,32 @@
       "date_flag": "10yr gap",
       "xlink_a": "rome-300-400::lv2",
       "xlink_b": "rome-400-500::t4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "France"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "o4",
+        "cat": "order",
+        "label": "The Intendants — the structural mechanism of Bourbon absolutism",
+        "decade": "1630s–1710s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Family Compact — Bourbon alliance with France",
+        "decade": "1730s"
+      },
+      "date_flag": "18yr gap",
+      "xlink_a": "france-1610-1715::o4",
+      "xlink_b": "spain-1700-1808::ex1"
     },
     {
       "confidence": "low",
@@ -3237,7 +3318,7 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Louis XIV",
-        "Spanish Succession"
+        "Succession"
       ],
       "sharedCount": 2,
       "a": {
@@ -3418,16 +3499,16 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Madrid",
-        "Spanish Succession"
+        "Louis XIV",
+        "Philip V"
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "spain-1516-1700",
-        "id": "k7",
-        "cat": "power",
-        "label": "Charles II -- the end of the Habsburg line",
-        "decade": "1660s–1700s"
+        "folio": "france-1610-1715",
+        "id": "w2",
+        "cat": "world",
+        "label": "Treaty of Utrecht (1713) — Balance of Power as European doctrine",
+        "decade": "1710s"
       },
       "b": {
         "folio": "spain-1700-1808",
@@ -3437,8 +3518,34 @@
         "decade": "1700s–1740s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "spain-1516-1700::k7",
+      "xlink_a": "france-1610-1715::w2",
       "xlink_b": "spain-1700-1808::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Peace of Utrecht",
+        "Philip V"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "w2",
+        "cat": "world",
+        "label": "Treaty of Utrecht (1713) — Balance of Power as European doctrine",
+        "decade": "1710s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Peace of Utrecht — Spain's European losses",
+        "decade": "1710s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "france-1610-1715::w2",
+      "xlink_b": "spain-1700-1808::c7"
     },
     {
       "confidence": "low",
@@ -3782,32 +3889,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Antioch",
-        "Byzantine Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ghassanid-420-638",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "Ghassanids at the siege of Antioch (540)",
-        "decade": "540s"
-      },
-      "b": {
-        "folio": "lakhmid-268-602",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "al-Mundhir III raids Byzantine Syria",
-        "decade": "520s"
-      },
-      "date_flag": "11yr gap",
-      "xlink_a": "ghassanid-420-638::c4",
-      "xlink_b": "lakhmid-268-602::c2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Ghassanid",
         "Lakhmid"
       ],
@@ -3834,7 +3915,7 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Al-Nabigha",
+        "Al-Nabigha al-Dhubyani",
         "Ghassanid"
       ],
       "sharedCount": 2,
@@ -3855,6 +3936,32 @@
       "date_flag": "overlapping",
       "xlink_a": "ghassanid-420-638::a6",
       "xlink_b": "lakhmid-268-602::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Yawm Halima",
+        "al-Mundhir III"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ghassanid-420-638",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Al-Harith kills al-Mundhir III at Yawm Halima",
+        "decade": "550s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Ain Ubagh — al-Mundhir III sacrifices son of al-Harith",
+        "decade": "540s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ghassanid-420-638::c2",
+      "xlink_b": "lakhmid-268-602::c3"
     },
     {
       "confidence": "low",
@@ -3881,6 +3988,32 @@
       "date_flag": "overlapping",
       "xlink_a": "lakhmid-268-602::w3",
       "xlink_b": "sassanid-484-651::lv3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Augustus",
+        "Emerita Augusta Mérida"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hispania-27bc-409ad",
+        "id": "k1",
+        "cat": "power",
+        "label": "Augustus reorganises Hispania — three provinces",
+        "decade": "20s BC"
+      },
+      "b": {
+        "folio": "hispania-300bc-27bc",
+        "id": "k3",
+        "cat": "power",
+        "label": "Caesar and Augustus — Hispania in the Roman civil wars",
+        "decade": "20s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hispania-27bc-409ad::k1",
+      "xlink_b": "hispania-300bc-27bc::k3"
     },
     {
       "confidence": "low",
@@ -3990,58 +4123,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Madrid",
-        "Spanish Republic"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "k6",
-        "cat": "power",
-        "label": "First Spanish Republic — four presidents in eleven months",
-        "decade": "1870s"
-      },
-      "b": {
-        "folio": "spain-1900-1975",
-        "id": "t3",
-        "cat": "thought",
-        "label": "Republican propaganda posters — a visual primary corpus",
-        "decade": "1930s"
-      },
-      "date_flag": "62yr gap — verify same entity, not just shared theme",
-      "xlink_a": "spain-1808-1900::k6",
-      "xlink_b": "spain-1900-1975::t3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Madrid",
-        "Spanish Republic"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "k6",
-        "cat": "power",
-        "label": "First Spanish Republic — four presidents in eleven months",
-        "decade": "1870s"
-      },
-      "b": {
-        "folio": "spain-1900-1975",
-        "id": "lv3",
-        "cat": "lives",
-        "label": "Mujeres Libres — anarchist women's organisation 1936–1939",
-        "decade": "1930s"
-      },
-      "date_flag": "62yr gap — verify same entity, not just shared theme",
-      "xlink_a": "spain-1808-1900::k6",
-      "xlink_b": "spain-1900-1975::lv3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Civil War",
         "Madrid"
       ],
@@ -4141,6 +4222,32 @@
       "date_flag": "1yr gap",
       "xlink_a": "spain-1900-1975::a9",
       "xlink_b": "spain-1975-today::t1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basque Country",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1900-1975",
+        "id": "s5",
+        "cat": "economy",
+        "label": "The Spanish Miracle (1959–1973) — fastest growth in Western Europe",
+        "decade": "1950s"
+      },
+      "b": {
+        "folio": "spain-1975-today",
+        "id": "o5",
+        "cat": "order",
+        "label": "GAL affair — state terrorism and Spain's worst constitutional scandal",
+        "decade": "1980s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "spain-1900-1975::s5",
+      "xlink_b": "spain-1975-today::o5"
     },
     {
       "confidence": "low",
@@ -9320,32 +9427,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Asia Minor",
-        "Palmyra"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "k4",
-        "cat": "power",
-        "label": "Zenobia — regent, conqueror, queen of the East",
-        "decade": "260s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "w5",
-        "cat": "world",
-        "label": "Breakaway Palmyrene Empire",
-        "decade": "260s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::k4",
-      "xlink_b": "rome-200-300::w5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Palmyra",
         "Silk Road"
       ],
@@ -9549,32 +9630,6 @@
       "date_flag": "overlapping",
       "xlink_a": "rome-200-300::ex2",
       "xlink_b": "sassanid-224-484::te3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Asia Minor",
-        "Zenobia"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "k4",
-        "cat": "power",
-        "label": "Zenobia — regent, conqueror, queen of the East",
-        "decade": "260s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "c8",
-        "cat": "conflict",
-        "label": "Zenobia's conquest of Egypt and Asia",
-        "decade": "270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::k4",
-      "xlink_b": "rome-200-300::c8"
     },
     {
       "confidence": "low",
@@ -9918,8 +9973,8 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Spain-wide",
-        "Spanish Inquisition"
+        "Inquisition",
+        "Spain-wide"
       ],
       "sharedCount": 2,
       "a": {
@@ -9930,15 +9985,15 @@
         "decade": "1470s"
       },
       "b": {
-        "folio": "spain-1700-1808",
-        "id": "r1",
-        "cat": "belief",
-        "label": "The Inquisition under Bourbon reform — declining but present",
-        "decade": "1700s–1800s"
+        "folio": "spain-1516-1700",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Conversos under the Inquisition — blood purity statutes",
+        "decade": "1440s–1700s"
       },
-      "date_flag": "222yr gap — verify same entity, not just shared theme",
+      "date_flag": "overlapping",
       "xlink_a": "spain-1230-1492::o3",
-      "xlink_b": "spain-1700-1808::r1"
+      "xlink_b": "spain-1516-1700::lv1"
     },
     {
       "confidence": "low",

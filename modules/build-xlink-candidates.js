@@ -171,11 +171,36 @@ for (const c of figureCandidates) {
 function effectiveDynasty(entry, nameRe) {
   if (entry.dynasty) return entry.dynasty;
   const siblings = figureCandidatesByFolio.get(entry.folio) || [];
-  const named = siblings.find(s => s.dynasty && nameRe.test(s.label));
+  // Require the sibling's OWN subject (not just a passing mention in its label) to be our
+  // target — otherwise "Odaenathus defeats Shapur I" could borrow Odaenathus's own
+  // "Palmyrene" dynasty for a Shapur I match, which is exactly the same "mention vs.
+  // subject" confusion the alignment-proposal guard below exists to prevent.
+  const named = siblings.find(s => s.dynasty && nameRe.test(s.label) && nameRe.test(ownName(s) || ''));
   return named ? named.dynasty : null;
 }
 
+// Each figureCandidate's own extracted name (memoized) — used below to tell "this hit
+// entry is genuinely about our target person" apart from "this hit entry has its own
+// direct dynasty tag describing a DIFFERENT person who merely mentions our target" (e.g.
+// "Odaenathus II — defeats Shapur I" is directly tagged dynasty:"Palmyrene", but that
+// describes Odaenathus, not Shapur — comparing it to Shapur's own dynasty and proposing
+// they be "aligned" would be a confident-sounding, historically wrong suggestion).
+const ownNameCache = new Map();
+function ownName(entry) {
+  if (!ownNameCache.has(entry.key)) ownNameCache.set(entry.key, extractPhrases(entry.label)[0] || null);
+  return ownNameCache.get(entry.key);
+}
+// True only when hit has its OWN directly-authored dynasty (not one borrowed from a
+// sibling — a borrowed dynasty already came from an entry naming our target, so it can't
+// be describing someone else) AND hit's own extracted name isn't our target.
+function hitDynastyDescribesSomeoneElse(hit, nameRe) {
+  if (!hit.dynasty) return false;
+  const leadName = ownName(hit);
+  return !!leadName && !nameRe.test(leadName);
+}
+
 const figureMatches = [];
+const dynastyAlignmentProposals = [];
 const seenFigurePairs = new Set();
 let rejectedDynasty = 0, rejectedDate = 0;
 
@@ -203,18 +228,42 @@ for (const fig of figureCandidates) {
     if (seenFigurePairs.has(pairKey)) continue;
     seenFigurePairs.add(pairKey);
 
+    const hitRange = parseYearRange(hit.date);
+
     // Different dynasty on both sides is a strong signal these are different people who
     // happen to share a regnal name (e.g. Henry II of Valois France vs. Henry II of
     // Trastámara Castile) — reject rather than present as a same-entity match. Falls back
     // to a same-folio, same-name "borrowed" dynasty when the entry itself lacks the field.
     const figDynasty = effectiveDynasty(fig, nameRe);
     const hitDynasty = effectiveDynasty(hit, nameRe);
-    if (figDynasty && hitDynasty && figDynasty !== hitDynasty) { rejectedDynasty++; continue; }
+    if (figDynasty && hitDynasty && figDynasty !== hitDynasty) {
+      rejectedDynasty++;
+      // Same name AND genuinely overlapping dates (not just close — Al-Mundhir III of
+      // Lakhmid and Al-Mundhir III of Ghassanid are only 15 years apart but never
+      // actually overlap, and are correctly two different people) is strong evidence
+      // this is really one person described inconsistently across entries, not two
+      // different people who share a name. Propose the source data get aligned rather
+      // than silently dropping it — this is exactly how Diocletian ("Illyrian" in one
+      // entry, "Tetrarchic" in another) and Theodosius I ("Roman Imperial" vs
+      // "Theodosian") got lost to the dynasty check in the previous pass.
+      //
+      // But guard against the hit merely MENTIONING our name rather than being ABOUT
+      // them — "Odaenathus defeats Shapur I" is an entry about Odaenathus, whose own
+      // dynasty ("Palmyrene") has nothing to do with Shapur's ("House of Sasan");
+      // comparing the two and proposing "alignment" would be historically wrong.
+      if (!hitDynastyDescribesSomeoneElse(hit, nameRe) && rangeGap(figRange, hitRange) === 0) {
+        dynastyAlignmentProposals.push({
+          name,
+          entry_a: { folio: fig.folio, id: fig.id, label: fig.label, dynasty: figDynasty, decade: decadeLabel(figRange) },
+          entry_b: { folio: hit.folio, id: hit.id, label: hit.label, dynasty: hitDynasty, decade: decadeLabel(hitRange) },
+        });
+      }
+      continue;
+    }
 
     // Centuries-scale date gap catches same-name different-person collisions that dynasty
     // can't (e.g. an 8th-century king vs. a 19th-century scholar who happens to share a
     // name) as well as unrelated dynasties that weren't caught above.
-    const hitRange = parseYearRange(hit.date);
     if (datesImplausible(figRange, hitRange)) { rejectedDate++; continue; }
 
     figureMatches.push({
@@ -314,6 +363,7 @@ const out = {
     figure_matches: figureMatches.length,
     figure_matches_rejected_dynasty_mismatch: rejectedDynasty,
     figure_matches_rejected_date_implausible: rejectedDate,
+    dynasty_alignment_proposals_count: dynastyAlignmentProposals.length,
     keyword_matches: keywordMatches.length,
     keyword_matches_rejected_geo_only: rejectedGeoOnly,
     high_confidence: [...figureMatches, ...keywordMatches].filter(c => c.confidence === 'high').length,
@@ -321,6 +371,12 @@ const out = {
     low_confidence: keywordMatches.filter(c => c.confidence === 'low').length,
   },
   figure_name_matches: figureMatches,
+  // Same name, genuinely overlapping dates, different dynasty label — near-certainly one
+  // person described inconsistently across entries (see the comment where these are
+  // pushed, above). NOT auto-fixed: this is a proposal for the source folio JSON's
+  // `dynasty` fields to be reviewed and aligned by hand, then the corresponding entries
+  // in figure_name_matches will appear on the next run once they agree.
+  dynasty_alignment_proposals: dynastyAlignmentProposals,
   keyword_matches: keywordMatches,
 };
 
@@ -333,6 +389,7 @@ console.log('\nCross-folio link candidates');
 console.log(hr);
 console.log(`Figure-name matches:        ${figureMatches.length}`);
 console.log(`  rejected (dynasty mismatch): ${rejectedDynasty}`);
+console.log(`    of which proposed for dynasty alignment (overlapping dates): ${dynastyAlignmentProposals.length}`);
 console.log(`  rejected (date implausible): ${rejectedDate}`);
 console.log(`Keyword overlap (>=2 terms): ${keywordMatches.length}`);
 console.log(`  rejected (geo-only, >${MIN_GAP_FOR_GEO_ONLY_DROP}yr gap): ${rejectedGeoOnly}`);

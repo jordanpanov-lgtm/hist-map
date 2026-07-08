@@ -93,7 +93,12 @@ function extractPhrases(text) {
     let clean = raw.replace(/^[^\wÀ-ſ]+|[^\wÀ-ſ]+$/g, '');
     clean = stripPossessive(clean);
     if (!clean) { flush(); continue; }
-    const isCap = /^[A-ZÀ-Ý]/.test(clean);
+    // Arabic-convention names write the definite article lowercase and hyphenated
+    // directly onto the following name ("al-Mundhir", "al-Harith"), not as a separate
+    // capitalized word — treat that as name-starting too, not just mid-phrase GLUE,
+    // otherwise a label that begins with one ("al-Mundhir III ibn al-Numan") never
+    // starts a phrase at all and the whole name is lost.
+    const isCap = /^[A-ZÀ-Ý]/.test(clean) || /^al-[A-ZÀ-Ý]/.test(clean);
     if (isCap) current.push(clean);
     else if (GLUE.has(clean.toLowerCase()) && current.length) current.push(clean);
     else { flush(); continue; }
