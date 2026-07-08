@@ -1,5 +1,13 @@
 # Histomap — Grouping Taxonomy
 
+This is the content/taxonomy authoring guide — what `group` to use per category, terminology and
+framing rules, and historiographic corrections specific to this project's actual content (history
+as datable events, not scientific findings). For the entry/folio **schema** (fields, `dynasty`,
+`keywords`, `xlinks`, validation), see `FIELD_GUIDE.md` — the two are deliberately separate files
+since schema is mechanical and stable while this taxonomy reflects editorial decisions revised more
+often, some of them hard-won across many folios (see the historiographic warnings and terminology
+rules below — these came from real mistakes in earlier drafts, not abstract principle).
+
 Every entry has a `"group"` field. For **Power**, group = empire/kingdom subdivision
 (e.g. "Western Empire", "Eastern Empire", "Kingdom of France"). For all other categories,
 use the taxonomies below. These are the *standard* groups — you may add context-specific
@@ -219,7 +227,11 @@ When asked to generate a new histomap folio, always:
 
 ## 🗺️ Folio Region & Sub-Region Taxonomy
 
-Every folio must have a `region` field in the MODULES list in `index.html` set to one of the sub-region IDs below, OR to the top-level region ID when the entity spans multiple sub-regions.
+Every folio must have a `region` field in the `MODULES` array in `config/registry.js` (not
+`index.html` — the config was extracted out of the main script) set to one of the sub-region IDs
+below, OR to the top-level region ID when the entity spans multiple sub-regions. The same taxonomy
+also lives in `config/regions.js`'s `TAXONOMY` constant, which the app reads at runtime — the table
+below should match it; if they ever diverge, `config/regions.js` is the one the app actually uses.
 
 ### Exception rule — when to use the top-level region ID
 Use the **top-level region ID** (e.g. `"Europe"`, `"Near East"`) when the entity's territorial scope genuinely spans multiple sub-regions and no single sub-region contains its core. Examples:

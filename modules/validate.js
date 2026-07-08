@@ -104,6 +104,12 @@ for (const folioId of Object.keys(folios)) {
     } else if (!CAT_ICONS[cat.id] && !cat.icon) {
       warn(file, `category "${cat.id}" has no icon override in config/style.js and no per-folio "icon" fallback`);
     }
+    // "subsistence" is a legacy category id superseded by "economy" (GROUPING_GUIDE.md Structural
+    // Invariants §4) — 5 France folios still use it. Warn so it stays visible, not an error since
+    // fixing it is a tracked but not-yet-done content migration, not something to block CI on.
+    if (cat.id === 'subsistence') {
+      warn(file, `category "subsistence" is legacy — use "economy" (see GROUPING_GUIDE.md §4); not renamed in this folio yet`);
+    }
   }
 
   // entries
