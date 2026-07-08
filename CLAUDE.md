@@ -27,9 +27,7 @@ modules/FIELD_GUIDE.md          ← entry/folio SCHEMA reference (fields, keywor
 .claude/commands/new-folio.md   ← full creation workflow incl. batch checkpointing
 ```
 
-Do **not** infer the schema from existing JSON files — some predate the current schema (e.g. 5 France
-folios still use a legacy `subsistence` category id instead of `economy`; see GROUPING_GUIDE.md
-Structural Invariants §4 — this is a known, not-yet-fixed inconsistency, not a valid pattern to copy).
+Do **not** infer the schema from existing JSON files — a few predate the current conventions.
 FIELD_GUIDE.md is the schema truth; GROUPING_GUIDE.md is the content-taxonomy truth.
 
 ---

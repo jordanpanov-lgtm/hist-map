@@ -39,7 +39,7 @@ for (const region of TAXONOMY) {
   }
 }
 const PERIOD_IDS = new Set(PERIODS.map(p => p.id));
-const CANON_CATS = ['power', 'conflict', 'order', 'belief', 'expression', 'thought', 'economy', 'technology', 'exchange', 'world', 'lives', 'subsistence'];
+const CANON_CATS = ['power', 'conflict', 'order', 'belief', 'expression', 'thought', 'economy', 'technology', 'exchange', 'world', 'lives'];
 const REQUIRED_ENTRY = ['id', 'group', 'label', 'date', 'loc', 'coords', 'hint', 'tag', 'note'];
 const REQUIRED_FOLIO = ['id', 'title', 'subtitle', 'period', 'region', 'period_label', 'mapCenter', 'mapZoom', 'categories', 'timeline'];
 const XLINK_RE = /^[a-z0-9-]+::.+$/;
@@ -97,18 +97,12 @@ for (const folioId of Object.keys(folios)) {
     err(file, `period_label "${data.period_label}" not in allowed set (${[...PERIOD_IDS].join(', ')})`);
   }
 
-  // categories: ids must be from the canonical 12, no fixed count/order (folios use a field-specific subset)
+  // categories: ids must be from the canonical 11, no fixed count/order (folios use a field-specific subset)
   for (const cat of (data.categories || [])) {
     if (!CANON_CATS.includes(cat.id)) {
       err(file, `category id "${cat.id}" not in known set (${CANON_CATS.join(', ')})`);
     } else if (!CAT_ICONS[cat.id] && !cat.icon) {
       warn(file, `category "${cat.id}" has no icon override in config/style.js and no per-folio "icon" fallback`);
-    }
-    // "subsistence" is a legacy category id superseded by "economy" (GROUPING_GUIDE.md Structural
-    // Invariants §4) — 5 France folios still use it. Warn so it stays visible, not an error since
-    // fixing it is a tracked but not-yet-done content migration, not something to block CI on.
-    if (cat.id === 'subsistence') {
-      warn(file, `category "subsistence" is legacy — use "economy" (see GROUPING_GUIDE.md §4); not renamed in this folio yet`);
     }
   }
 

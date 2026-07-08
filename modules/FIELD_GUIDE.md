@@ -76,13 +76,9 @@ This is a different spine from sci-map's 8 (theory/study/effect/concept/method/f
 application) — hist-map's categories are dimensions of a society (power, belief, economy...), not
 stages of a scientific claim's lifecycle. Do not force sci-map's category names onto history content.
 
-**Known inconsistency, not a pattern to copy:** 5 France folios (`france-1494-1610` through
-`france-1815-1900`) still use a legacy `subsistence` category id instead of `economy` — a rename
-that GROUPING_GUIDE.md's Structural Invariants §4 calls for but that was never actually applied to
-those 5 files. `validate.js` warns on this (does not error, so it doesn't block unrelated commits),
-and `schema.json` still accepts it structurally. **Never use `subsistence` in a new or edited
-folio** — use `economy`. Migrating the 5 legacy folios is a tracked but not-yet-done cleanup, not
-something to fix silently as a side effect of unrelated work.
+A legacy `subsistence` category id (superseded by `economy`) used to exist in 5 France folios,
+contradicting GROUPING_GUIDE.md's Structural Invariants §4 — migrated 2026-07-08. `schema.json` and
+`validate.js` no longer recognize `subsistence` at all; it's a hard error now, not a warning.
 
 ```jsonc
 "categories": [
@@ -255,9 +251,9 @@ the exact convention and lane ordering).
 node modules/validate.js
 ```
 Must show **0 errors**. It checks: required fields present, `region`/`period_label` resolve against
-`config/regions.js`, category ids are from the canonical 11 (12 counting legacy `subsistence`,
-warned not blocked), `coords` in range, duplicate entry ids, timeline `entryId` resolution, `xlinks`
-format and resolution, and (informational only) unmapped tags and legacy `subsistence` usage.
+`config/regions.js`, category ids are from the canonical 11, `coords` in range, duplicate entry ids,
+timeline `entryId` resolution, `xlinks` format and resolution, and (informational only) unmapped
+categories missing an icon override.
 
 After any entry/keyword/xlink change:
 ```
@@ -268,7 +264,7 @@ alongside content changes, same as sci-map's workflow.
 
 **Before considering a folio done:**
 - [ ] `node modules/validate.js` shows 0 errors?
-- [ ] All 11 categories present in canonical order (not the legacy `subsistence`)?
+- [ ] All 11 categories present in canonical order?
 - [ ] Every entry has `coords` (no null)?
 - [ ] Every Power-category entry about an individual has `dynasty`, and the SAME string is used
       everywhere that person appears (see §dynasty above)?

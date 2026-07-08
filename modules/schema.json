@@ -43,7 +43,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "enum": ["power", "conflict", "order", "belief", "expression", "thought", "economy", "technology", "exchange", "world", "lives", "subsistence"]
+          "enum": ["power", "conflict", "order", "belief", "expression", "thought", "economy", "technology", "exchange", "world", "lives"]
         },
         "label": { "type": "string", "minLength": 1 },
         "icon": { "type": "string" },
