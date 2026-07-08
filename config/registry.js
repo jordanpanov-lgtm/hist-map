@@ -25,6 +25,7 @@ const MODULES = [
   { id:"spain-1900-1975",       file:"modules/spain-1900-1975.json",       label:"Spain 1900–1975",             sub:"Republic, Civil War & Dictatorship",           region:"Iberia",  period:"Modern"        },
   { id:"spain-1975-today",      file:"modules/spain-1975-today.json",      label:"Spain 1975–today",            sub:"Transition & Democracy",                      region:"Iberia",  period:"Modern"        },
   // ── NEAR EAST ──────────────────────────────────────────────────────────────
+  { id:"egypt-3000bc-2100bc",   file:"modules/egypt-3000bc-2100bc.json",   label:"Ancient Egypt 3000–2100 BC",  sub:"Unification, Pyramids and the First Collapse",region:"Egypt",   period:"Prehistoric"   },
   { id:"nabataean-400bc-106ce", file:"modules/nabataean-400bc-106ce.json", label:"Nabataean Kingdom 400BC–106", sub:"The Incense Kingdom of Petra",                region:"Arabia",  period:"Late Antique"  },
   { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
   { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
