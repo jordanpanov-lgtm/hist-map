@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 1364,
     "folio_count": 26,
-    "xlink_pairs": 0,
+    "xlink_pairs": 19,
     "keyword_terms": 3287,
     "folios": [
       {
@@ -1503,7 +1503,104 @@
     "visigoths-589-711::lv1": "The Jews of Visigothic Spain — from tolerance to enslavement",
     "visigoths-589-711::lv2": "Visigothic queens — property rights and regency"
   },
-  "xlinks": {},
+  "xlinks": {
+    "france-1715-1789::k3": [
+      "france-1789-1815::k1"
+    ],
+    "france-1789-1815::k1": [
+      "france-1715-1789::k3"
+    ],
+    "ghassanid-420-638::c2": [
+      "lakhmid-268-602::c1"
+    ],
+    "lakhmid-268-602::c1": [
+      "ghassanid-420-638::c2"
+    ],
+    "hispania-27bc-409ad::k2": [
+      "nabataean-400bc-106ce::c3"
+    ],
+    "nabataean-400bc-106ce::c3": [
+      "hispania-27bc-409ad::k2"
+    ],
+    "nabataean-400bc-106ce::o3": [
+      "palmyrene-100bc-273ce::k1"
+    ],
+    "palmyrene-100bc-273ce::k1": [
+      "nabataean-400bc-106ce::o3",
+      "rome-200-300::c9",
+      "rome-200-300::ex3"
+    ],
+    "rome-200-300::c9": [
+      "palmyrene-100bc-273ce::k1"
+    ],
+    "rome-200-300::ex3": [
+      "palmyrene-100bc-273ce::k1"
+    ],
+    "palmyrene-100bc-273ce::k4": [
+      "rome-200-300::c8"
+    ],
+    "rome-200-300::c8": [
+      "palmyrene-100bc-273ce::k4"
+    ],
+    "palmyrene-100bc-273ce::c1": [
+      "sassanid-224-484::k2"
+    ],
+    "sassanid-224-484::k2": [
+      "palmyrene-100bc-273ce::c1",
+      "rome-200-300::t5",
+      "rome-200-300::ex1",
+      "rome-200-300::ex2"
+    ],
+    "palmyrene-100bc-273ce::c4": [
+      "rome-200-300::p15"
+    ],
+    "rome-200-300::p15": [
+      "palmyrene-100bc-273ce::c4",
+      "palmyrene-100bc-273ce::w2"
+    ],
+    "palmyrene-100bc-273ce::w2": [
+      "rome-200-300::p15"
+    ],
+    "rome-200-300::p13": [
+      "sassanid-224-484::a2",
+      "sassanid-224-484::c2"
+    ],
+    "sassanid-224-484::a2": [
+      "rome-200-300::p13"
+    ],
+    "sassanid-224-484::c2": [
+      "rome-200-300::p13"
+    ],
+    "rome-200-300::t5": [
+      "sassanid-224-484::k2"
+    ],
+    "rome-200-300::ex1": [
+      "sassanid-224-484::k2"
+    ],
+    "rome-200-300::ex2": [
+      "sassanid-224-484::k2"
+    ],
+    "rome-300-400::ex1": [
+      "sassanid-224-484::k8"
+    ],
+    "sassanid-224-484::k8": [
+      "rome-300-400::ex1",
+      "rome-300-400::w1"
+    ],
+    "rome-300-400::w1": [
+      "sassanid-224-484::k8"
+    ],
+    "spain-1230-1492::k1": [
+      "spain-718-1230::k5"
+    ],
+    "spain-718-1230::k5": [
+      "spain-1230-1492::k1",
+      "spain-1230-1492::c1"
+    ],
+    "spain-1230-1492::c1": [
+      "spain-718-1230::k5"
+    ]
+  },
   "entry_keywords": {
     "al-andalus-1031-1492::k1": [
       "Various",
