@@ -118,7 +118,11 @@ git commit -m "<id>: batch A — skeleton"
 
 Fill in all **power** entries (every individual ruler/head-of-government entry needs `dynasty` —
 see FIELD_GUIDE.md's §dynasty on using the *same* string for the same person everywhere they
-appear) and all **conflict** entries.
+appear) and all **conflict** entries. Power entries about a named ruler must be dated to their
+reign span and tagged `SUCCESSION`/`COUP`/`DEPOSED`/`APPOINTED`/`MARRIAGE` as fits — never dated to
+a single achievement. Pick ruler-vs-cluster-vs-whole-regime granularity per folio density. See
+GROUPING_GUIDE.md's `⚜️ Power` section for the full rule, the pre-state exception, and worked
+examples.
 
 Validate JSON syntax, then commit:
 ```

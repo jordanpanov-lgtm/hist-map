@@ -1,6 +1,6 @@
 {
   "id": "egypt-3000bc-2100bc",
-  "title": "Ancient Egypt",
+  "title": "Early Dynastic & Old Kingdom Egypt",
   "subtitle": "3000–2100 BC · Unification, Pyramids and the First Collapse",
   "period": {
     "start": -3000,
@@ -24,7 +24,7 @@
       "entries": [
         {
           "id": "k1",
-          "group": "Early Dynastic Unification",
+          "group": "Dynasty 1",
           "dynasty": "Dynasty 0-1",
           "label": "Narmer — unifier of Upper and Lower Egypt",
           "date": "c.3000 BC",
@@ -33,7 +33,7 @@
             25.1,
             32.78
           ],
-          "hint": "The Narmer Palette shows the king wearing the White Crown of Upper Egypt on one face and the Red Crown of Lower Egypt on the other, smiting a bound northern enemy — the canonical image of unification, though the actual process was likely more gradual and involved several generations of Dynasty 0 rulers before him.",
+          "hint": "The Narmer Palette shows the king wearing the White Crown of Upper Egypt on one face and the Red Crown of Lower Egypt on the other, smiting a bound northern enemy — the canonical image of unification, though the actual process was likely more gradual and involved several generations of Dynasty 0 rulers before him. His own reign length is not securely established, and some traditions merge him with his successor Aha as a single 'Menes'.",
           "tag": "SUCCESSION",
           "note": "Narmer Palette (Cairo JE 32169): discovered by Quibell and Green at the Hierakonpolis 'Main Deposit', 1897–98. Wilkinson, Early Dynastic Egypt (1999) pp.36–58 is the standard modern synthesis on the unification process and its likely gradual, multi-generational nature. Narmer serekhs also found at southern Canaanite sites (e.g. Tel Erani), evidencing early Egyptian contact/trade reach.",
           "keywords": [
@@ -48,17 +48,17 @@
         },
         {
           "id": "k2",
-          "group": "Early Dynastic Unification",
+          "group": "Dynasty 1",
           "dynasty": "Dynasty 0-1",
           "label": "Djer — early royal record-keeping",
-          "date": "c.2980s BC",
+          "date": "c.3080–3030 BC",
           "loc": "Abydos (Umm el-Qaab)",
           "coords": [
             26.18,
             31.92
           ],
-          "hint": "Ivory and wood year-labels from Djer's tomb record specific royal acts by year — among the earliest datable historical annals anywhere, predating comparable Mesopotamian king-lists in this level of yearly detail.",
-          "tag": "DOCUMENT",
+          "hint": "Ivory and wood year-labels from Djer's tomb record specific royal acts by year — among the earliest datable historical annals anywhere, predating comparable Mesopotamian king-lists in this level of yearly detail. His reign (c.50 years by some later king-list traditions) is one of the longest attested in Dynasty 1.",
+          "tag": "SUCCESSION",
           "note": "Year-labels from Tomb O at Umm el-Qaab, Abydos: excavated by Petrie (1900) and later the German Archaeological Institute under Günter Dreyer. Dreyer et al., excavation reports in Mitteilungen des Deutschen Archäologischen Instituts, Kairo (various years 1990s) publish the label corpus.",
           "keywords": [
             "Dynasty 0-1",
@@ -68,17 +68,17 @@
         },
         {
           "id": "k3",
-          "group": "Early Dynastic Unification",
+          "group": "Dynasty 1",
           "dynasty": "Dynasty 1",
           "label": "Den — first king shown wearing the Double Crown",
-          "date": "c.2950 BC",
+          "date": "c.3000–2960 BC",
           "loc": "Abydos (Umm el-Qaab)",
           "coords": [
             26.18,
             31.92
           ],
-          "hint": "An ivory label from Den's reign is the earliest surviving depiction of a king wearing the combined Double Crown (pschent) of both Upper and Lower Egypt — a symbolic consolidation of the Narmer-era unification into settled royal iconography a century or so later.",
-          "tag": "CATEGORICAL SHIFT",
+          "hint": "Den's roughly four-decade reign — one of the longest and best-documented of Dynasty 1 — produced the earliest surviving depiction of a king wearing the combined Double Crown (pschent) of both Upper and Lower Egypt on an ivory label, a symbolic consolidation of the Narmer-era unification into settled royal iconography a century or so later. His mother Merneith likely ruled as regent before his majority (see Lives).",
+          "tag": "SUCCESSION",
           "note": "Label British Museum EA55586. Wilkinson, Early Dynastic Egypt (1999) pp.74–80 discusses Den's titulary innovations, including the first consistent use of the nswt-bity ('he of the sedge and bee') title.",
           "keywords": [
             "Dynasty 1",
@@ -89,18 +89,63 @@
           ]
         },
         {
+          "id": "k16",
+          "group": "Dynasty 2",
+          "dynasty": "Dynasty 2",
+          "label": "Hotepsekhemwy to Peribsen — Dynasty Two's founding and fracture",
+          "date": "c.2890–2734 BC",
+          "loc": "Saqqara / Abydos",
+          "coords": [
+            29.87,
+            31.22
+          ],
+          "hint": "Dynasty Two opens with Hotepsekhemwy and continues through Nebra, Nynetjer and several still-obscure successors, then splits around Peribsen, who broke with tradition by writing his royal name under the Seth animal rather than the falcon Horus — evidence, alongside the fragmentary archaeological and epigraphic record of unrest in this period, of a serious internal political rupture, possibly a renewed Upper/Lower Egypt tension. Individual reign lengths for most of this stretch are too uncertain to date separately, so this entry represents the dynasty's founding and fracture as a whole.",
+          "tag": "SUCCESSION",
+          "note": "Wilkinson, Early Dynastic Egypt (1999) pp.79–95 surveys the fragmentary Second Dynasty succession and the Peribsen/Seth evidence. Reign-length estimates for individual kings (Hotepsekhemwy c.25–29y, Nebra c.10–14y, Nynetjer c.40y) come from later king-list traditions and are not independently secure enough to anchor to specific calendar years.",
+          "keywords": [
+            "Dynasty 2",
+            "Hotepsekhemwy",
+            "Nebra",
+            "Nynetjer",
+            "Peribsen",
+            "Seth"
+          ]
+        },
+        {
+          "id": "k17",
+          "group": "Dynasty 2",
+          "dynasty": "Dynasty 2",
+          "label": "Khasekhemwy — ending the Second Dynasty's civil war",
+          "date": "c.2703–2686 BC",
+          "loc": "Abydos / Hierakonpolis",
+          "coords": [
+            26.18,
+            31.92
+          ],
+          "hint": "Khasekhemwy's reign closes the internal conflict recorded in his own statue inscriptions (see Conflict) — his name, meaning 'the Two Powers have appeared', and his fusion of the Horus and Seth royal titles into a single figure literally embody the reconciliation of Upper and Lower Egypt after Peribsen's schism. His funerary enclosure at Abydos, the largest mudbrick structure of its age, and his tomb's stone-built inner chambers — the earliest substantial dressed masonry in a royal tomb — anticipate Djoser's Step Pyramid a generation later.",
+          "tag": "SUCCESSION",
+          "note": "Seated statues of Khasekhemwy (Ashmolean Museum, Oxford; Cairo JE 32161). Wilkinson, Early Dynastic Egypt (1999) pp.90–98 discusses the reconciliation reading of his name and titulary, and the tomb's transitional masonry technique.",
+          "keywords": [
+            "Dynasty 2",
+            "Khasekhemwy",
+            "Abydos",
+            "Two Powers",
+            "Hierakonpolis"
+          ]
+        },
+        {
           "id": "k4",
-          "group": "Old Kingdom — Pyramid Age",
+          "group": "Dynasty 3",
           "dynasty": "Dynasty 3",
           "label": "Djoser — the Step Pyramid, first monumental stone building",
-          "date": "c.2670 BC",
+          "date": "2686–2649 BC",
           "loc": "Saqqara",
           "coords": [
             29.87,
             31.22
           ],
-          "hint": "Djoser's Step Pyramid at Saqqara, credited to his vizier Imhotep, is the first large-scale cut-stone building known anywhere in the world — a six-stepped mastaba stack that reoriented Egyptian royal burial and state resources decisively toward monumental construction.",
-          "tag": "CONSTRUCTION",
+          "hint": "Djoser opens the Third Dynasty and the Old Kingdom proper; his reign's defining achievement is the Step Pyramid at Saqqara, credited to his vizier Imhotep — the first large-scale cut-stone building known anywhere in the world, a six-stepped mastaba stack that reoriented Egyptian royal burial and state resources decisively toward monumental construction.",
+          "tag": "SUCCESSION",
           "note": "Step Pyramid complex, Saqqara: excavated principally by Cecil Firth and Jean-Philippe Lauer (whose reconstruction work spanned six decades). Imhotep's role: attested by an inscription on the pyramid enclosure wall naming him alongside Djoser's titulary — the earliest architect known by name in history. Lauer, Saqqara: The Royal Cemetery of Memphis (1976) is the standard excavation synthesis.",
           "keywords": [
             "Dynasty 3",
@@ -111,17 +156,17 @@
         },
         {
           "id": "k5",
-          "group": "Old Kingdom — Pyramid Age",
+          "group": "Dynasty 4",
           "dynasty": "Dynasty 4",
           "label": "Sneferu — three pyramids and the invention of the true pyramid form",
-          "date": "c.2600 BC",
+          "date": "2613–2589 BC",
           "loc": "Meidum / Dahshur",
           "coords": [
             29.61,
             31.18
           ],
-          "hint": "Sneferu built at least three major pyramids in a single reign — the collapsed Meidum pyramid, the Bent Pyramid at Dahshur (whose angle was changed mid-construction, visible evidence of real-time structural trial and error), and the Red Pyramid, the first successful true smooth-sided pyramid.",
-          "tag": "CONSTRUCTION",
+          "hint": "Sneferu opens the Fourth Dynasty and built at least three major pyramids across his roughly 24-year reign — the collapsed Meidum pyramid, the Bent Pyramid at Dahshur (whose angle was changed mid-construction, visible evidence of real-time structural trial and error), and the Red Pyramid, the first successful true smooth-sided pyramid.",
+          "tag": "SUCCESSION",
           "note": "Dahshur excavations: Rainer Stadelmann for the German Archaeological Institute, 1980s–90s. Verner, The Pyramids: The Mystery, Culture and Science of Egypt's Great Monuments (1997/2001 Eng. trans.) pp.106–140 synthesizes the engineering evidence for the angle change at the Bent Pyramid.",
           "keywords": [
             "Dynasty 4",
@@ -134,17 +179,17 @@
         },
         {
           "id": "k6",
-          "group": "Old Kingdom — Pyramid Age",
+          "group": "Dynasty 4",
           "dynasty": "Dynasty 4",
           "label": "Khufu — the Great Pyramid of Giza",
-          "date": "c.2560 BC",
+          "date": "2589–2566 BC",
           "loc": "Giza",
           "coords": [
             29.98,
             31.13
           ],
           "hint": "Khufu's Great Pyramid, the largest ever built in Egypt, remained the tallest human-made structure on Earth for roughly 3,800 years. The 2013 discovery of the 'Diary of Merer' — a papyrus logbook kept by a work-gang overseer recording limestone shipments to Giza — is the most direct primary-source account of the pyramid's construction logistics ever found.",
-          "tag": "CONSTRUCTION",
+          "tag": "SUCCESSION",
           "note": "Diary of Merer (Papyri Jarf A and B): discovered by Pierre Tallet's mission at Wadi al-Jarf, 2013, published in Tallet, Les papyrus de la mer Rouge I (2017). Great Pyramid dimensions and construction history: Lehner, The Complete Pyramids (1997) remains the standard synthesis.",
           "keywords": [
             "Dynasty 4",
@@ -154,18 +199,39 @@
           ]
         },
         {
+          "id": "k18",
+          "group": "Dynasty 4",
+          "dynasty": "Dynasty 4",
+          "label": "Djedefre — the 'Son of Ra' title and a pyramid at Abu Rawash",
+          "date": "2566–2558 BC",
+          "loc": "Abu Rawash",
+          "coords": [
+            30.03,
+            31.11
+          ],
+          "hint": "Khufu's son and successor broke with Giza to build his own pyramid complex eight kilometres north at Abu Rawash — now the most ruined of all Old Kingdom pyramids, its core stone largely quarried away in antiquity — and became the first king attested using 'Son of Ra' in his formal titulary (see Belief), a lasting theological innovation that outlived his own brief, poorly preserved reign.",
+          "tag": "SUCCESSION",
+          "note": "Title first attested on inscribed fragments from Djedefre's pyramid complex at Abu Rawash, excavated by the French Archaeological Mission under Michel Baud from the 1990s. Baud, Michel, Djedefrê et la famille royale de Khéops (2005) is the standard modern study of the reign.",
+          "keywords": [
+            "Dynasty 4",
+            "Abu Rawash",
+            "Djedefre",
+            "Son of Ra"
+          ]
+        },
+        {
           "id": "k7",
-          "group": "Old Kingdom — Pyramid Age",
+          "group": "Dynasty 4",
           "dynasty": "Dynasty 4",
           "label": "Khafre — the second Giza pyramid",
-          "date": "c.2530 BC",
+          "date": "2558–2532 BC",
           "loc": "Giza",
           "coords": [
             29.98,
             31.13
           ],
           "hint": "Khafre's pyramid at Giza, slightly smaller than his father Khufu's but built on higher ground so it appears taller, retains original casing stone at its peak. The Great Sphinx nearby is conventionally attributed to his reign on stylistic and proximity grounds, though the attribution is not settled with the certainty popular accounts often imply.",
-          "tag": "CONSTRUCTION",
+          "tag": "SUCCESSION",
           "note": "Sphinx attribution debate: Lehner, The Complete Pyramids (1997) pp.127–136 lays out the stylistic case for Khafre while noting it rests on circumstantial (proximity, causeway alignment) rather than inscriptional evidence — no contemporary text names the Sphinx's patron.",
           "keywords": [
             "Dynasty 4",
@@ -175,17 +241,17 @@
         },
         {
           "id": "k8",
-          "group": "Old Kingdom — Pyramid Age",
+          "group": "Dynasty 4",
           "dynasty": "Dynasty 4",
           "label": "Menkaure — the third, smaller Giza pyramid",
-          "date": "c.2510 BC",
+          "date": "2532–2503 BC",
           "loc": "Giza",
           "coords": [
             29.98,
             31.13
           ],
           "hint": "Menkaure's pyramid at Giza is markedly smaller than his father's and grandfather's — a genuine scale reduction, not just a smaller building plot, that later Egyptian tradition (via Herodotus) turned into moralizing legend about a supposedly more benevolent king, though the real cause was likely resource strain after two generations of maximal construction.",
-          "tag": "CONSTRUCTION",
+          "tag": "SUCCESSION",
           "note": "Triad statues of Menkaure with deities: excavated by George Reisner's Harvard–Boston Expedition, 1908–1910, now split between Cairo and the Museum of Fine Arts, Boston. Herodotus, Histories 2.129–134 (5th c. BC, centuries after the fact) preserves the legendary 'benevolent king' tradition — a much later reinterpretation, not a contemporary source.",
           "keywords": [
             "Dynasty 4",
@@ -194,18 +260,39 @@
           ]
         },
         {
+          "id": "k19",
+          "group": "Dynasty 4",
+          "dynasty": "Dynasty 4",
+          "label": "Shepseskaf — ending the pyramid, choosing a mastaba",
+          "date": "2503–2498 BC",
+          "loc": "South Saqqara (Mastabat al-Fir'aun)",
+          "coords": [
+            29.85,
+            31.22
+          ],
+          "hint": "Menkaure's son broke decisively with three generations of Giza pyramid-building, choosing instead a massive rectangular mastaba tomb — the 'Mastabat al-Fir'aun' — at South Saqqara. Whether this reflects financial exhaustion after the Giza pyramids, a deliberate religious break from his father's cult, or an unfinished-pyramid compromise remains debated, but it closes the Fourth Dynasty's pyramid age as decisively as Djoser opened it.",
+          "tag": "SUCCESSION",
+          "note": "Mastabat al-Fir'aun, South Saqqara: discussed in Lehner, The Complete Pyramids (1997) pp.138–139, including the competing explanations for the break with pyramid form.",
+          "keywords": [
+            "Dynasty 4",
+            "Shepseskaf",
+            "South Saqqara",
+            "Mastabat al-Fir'aun"
+          ]
+        },
+        {
           "id": "k9",
-          "group": "Old Kingdom — Fifth & Sixth Dynasties",
+          "group": "Dynasty 5",
           "dynasty": "Dynasty 5",
           "label": "Userkaf — founder of the Fifth Dynasty and the first sun temple",
-          "date": "c.2490 BC",
+          "date": "2494–2487 BC",
           "loc": "Abusir / Saqqara",
           "coords": [
             29.9,
             31.21
           ],
-          "hint": "Userkaf built the first known freestanding sun temple, dedicated to Ra at Abusir — a distinct building type from the pyramid, marking a theological shift toward more overt solar kingship ideology that defines the Fifth Dynasty.",
-          "tag": "CONSTRUCTION",
+          "hint": "Userkaf founds the Fifth Dynasty and builds the first known freestanding sun temple, dedicated to Ra at Abusir — a distinct building type from the pyramid, marking a theological shift toward more overt solar kingship ideology that defines the dynasty he begins.",
+          "tag": "SUCCESSION",
           "note": "Sun temple of Userkaf, Abusir: excavated by the Swiss Institute (Ricke) in the 1950s, more recently by the Czech Institute of Egyptology under Miroslav Verner. Verner, Abusir: Realm of Osiris (2002) covers the site synthesis.",
           "keywords": [
             "Dynasty 5",
@@ -216,18 +303,101 @@
           ]
         },
         {
+          "id": "k20",
+          "group": "Dynasty 5",
+          "dynasty": "Dynasty 5",
+          "label": "Sahure — the Punt expedition and Abusir's first pyramid",
+          "date": "2487–2475 BC",
+          "loc": "Abusir",
+          "coords": [
+            29.9,
+            31.21
+          ],
+          "hint": "Sahure's mortuary temple reliefs at Abusir record Egypt's first securely documented expedition to Punt (see Exchange), returning with myrrh, electrum and exotic goods depicted in unusual pictorial detail, alongside some of the finest surviving Old Kingdom relief carving of ships under sail.",
+          "tag": "SUCCESSION",
+          "note": "Mortuary temple of Sahure, Abusir: excavated by Ludwig Borchardt, 1907–08; re-examined by the Czech Institute. Verner, Abusir: Realm of Osiris (2002) covers the Punt relief cycle.",
+          "keywords": [
+            "Dynasty 5",
+            "Sahure",
+            "Abusir",
+            "Punt"
+          ]
+        },
+        {
+          "id": "k21",
+          "group": "Dynasty 5",
+          "dynasty": "Dynasty 5",
+          "label": "Neferirkare Kakai — the Abusir Papyri and a new royal titulary",
+          "date": "2475–2455 BC",
+          "loc": "Abusir",
+          "coords": [
+            29.9,
+            31.21
+          ],
+          "hint": "Neferirkare introduced the five-fold royal titulary's prenomen form used by nearly every Egyptian king thereafter, and his mortuary temple's administrative archive — priest rosters, offering accounts, equipment inventories, the Abusir Papyri (see Expression) — is the oldest substantial papyrus archive to survive from anywhere in Egypt.",
+          "tag": "SUCCESSION",
+          "note": "Posener-Kriéger, Paule, Les archives du temple funéraire de Néferirkarê-Kakaï: les papyrus d'Abousir (1976). Verner, Abusir: Realm of Osiris (2002) covers the titulary innovation.",
+          "keywords": [
+            "Dynasty 5",
+            "Neferirkare Kakai",
+            "Abusir Papyri"
+          ]
+        },
+        {
+          "id": "k22",
+          "group": "Dynasty 5",
+          "dynasty": "Dynasty 5",
+          "label": "Neferefre to Menkauhor — the Abusir sun-temple builders",
+          "date": "2455–2414 BC",
+          "loc": "Abusir / Abu Ghurab",
+          "coords": [
+            29.9,
+            31.2
+          ],
+          "hint": "Four short reigns fill out the mid-Fifth Dynasty: Neferefre's brief, unfinished pyramid; the still-unlocated Shepseskare, whose short and possibly disputed reign is known mainly from seal impressions; Nyuserre, whose long, active reign completed the Abusir building program and restarted royal activity at Giza; and Menkauhor, the dynasty's most poorly documented king. Nyuserre's sun temple at Abu Ghurab (see Belief) is the best-preserved of the six Fifth Dynasty sun temples attested by name.",
+          "tag": "SUCCESSION",
+          "note": "Verner, Miroslav, Abusir: Realm of Osiris (2002) is the standard synthesis for this cluster of reigns and the Abusir/Abu Ghurab building program.",
+          "keywords": [
+            "Dynasty 5",
+            "Neferefre",
+            "Shepseskare",
+            "Nyuserre",
+            "Menkauhor"
+          ]
+        },
+        {
+          "id": "k23",
+          "group": "Dynasty 5",
+          "dynasty": "Dynasty 5",
+          "label": "Djedkare Isesi — the vizier Ptahhotep and a break with sun-temple tradition",
+          "date": "2414–2375 BC",
+          "loc": "South Saqqara",
+          "coords": [
+            29.85,
+            31.22
+          ],
+          "hint": "Djedkare Isesi was the first Fifth Dynasty king in over a century not to build a sun temple, a break some Egyptologists read as a real shift away from the dynasty's solar-cult emphasis; his vizier Ptahhotep is the traditionally credited author of the Instruction of Ptahhotep (see Thought), Egyptian wisdom literature's foundational text.",
+          "tag": "SUCCESSION",
+          "note": "Lichtheim, Ancient Egyptian Literature, Vol. I (1973) pp.61–80 discusses the Ptahhotep attribution. The end of sun-temple building under Djedkare is noted in Verner, Abusir: Realm of Osiris (2002).",
+          "keywords": [
+            "Dynasty 5",
+            "Djedkare Isesi",
+            "Ptahhotep"
+          ]
+        },
+        {
           "id": "k10",
-          "group": "Old Kingdom — Fifth & Sixth Dynasties",
+          "group": "Dynasty 5",
           "dynasty": "Dynasty 5",
           "label": "Unas — the first Pyramid Texts",
-          "date": "c.2350 BC",
+          "date": "2375–2345 BC",
           "loc": "Saqqara",
           "coords": [
             29.87,
             31.22
           ],
           "hint": "Unas, the last king of the Fifth Dynasty, was the first to have his pyramid's internal chambers inscribed with the Pyramid Texts — the oldest substantial body of religious literature known anywhere, spells intended to secure the king's passage into the afterlife.",
-          "tag": "TEXT",
+          "tag": "SUCCESSION",
           "note": "Pyramid of Unas, Saqqara: texts first fully published by Gaston Maspero in the 1880s. Allen, The Ancient Egyptian Pyramid Texts (2005) is the standard modern translation and commentary, used throughout Egyptology for citing individual spells (Pyramid Text 'Utterances').",
           "keywords": [
             "Dynasty 5",
@@ -239,10 +409,10 @@
         },
         {
           "id": "k11",
-          "group": "Old Kingdom — Fifth & Sixth Dynasties",
+          "group": "Dynasty 6",
           "dynasty": "Dynasty 6",
           "label": "Teti — founder of the Sixth Dynasty",
-          "date": "c.2320 BC",
+          "date": "2345–2333 BC",
           "loc": "Saqqara",
           "coords": [
             29.87,
@@ -260,18 +430,39 @@
           ]
         },
         {
+          "id": "k24",
+          "group": "Dynasty 6",
+          "dynasty": "Dynasty 6",
+          "label": "Userkare — a brief interruption between Teti and Pepi I",
+          "date": "2333–2331 BC",
+          "loc": "Saqqara",
+          "coords": [
+            29.87,
+            31.22
+          ],
+          "hint": "Userkare's two-year reign breaks the succession between Teti's murky end and Teti's son Pepi I's accession; his omission from some later king-lists and the near-total absence of monuments in his name have led some Egyptologists to read him as a usurper, possibly linked to the unproven assassination tradition attached to Teti, though the evidence for any of this remains circumstantial.",
+          "tag": "COUP",
+          "note": "The Userkare-as-usurper reading is discussed alongside the Teti assassination tradition in general Sixth Dynasty surveys; both rest on later, indirect evidence rather than a contemporary account. See Teti (k11) note on the assassination tradition's own sourcing problem.",
+          "keywords": [
+            "Dynasty 6",
+            "Userkare",
+            "Teti",
+            "Pepi I"
+          ]
+        },
+        {
           "id": "k12",
-          "group": "Old Kingdom — Fifth & Sixth Dynasties",
+          "group": "Dynasty 6",
           "dynasty": "Dynasty 6",
           "label": "Pepi I — provincial expansion and Weni's career",
-          "date": "c.2280 BC",
+          "date": "2331–2287 BC",
           "loc": "Saqqara",
           "coords": [
             29.87,
             31.22
           ],
           "hint": "Pepi I's reign is unusually well documented through the autobiography of his official Weni, which records a conspiracy trial involving a royal queen and Weni's own military campaigns — a rare window into Old Kingdom court politics beyond royal titulary alone.",
-          "tag": "POLITICAL",
+          "tag": "SUCCESSION",
           "note": "Weni's autobiography, tomb at Abydos (Cairo CG 1435): translated in Lichtheim, Ancient Egyptian Literature, Vol. I: The Old and Middle Kingdoms (1973) pp.18–23. The 'secret charge concerning the Royal Harim regarding Queen Weret-Imtes' is described but its exact nature left deliberately vague in the original inscription.",
           "keywords": [
             "Dynasty 6",
@@ -281,8 +472,30 @@
           ]
         },
         {
+          "id": "k25",
+          "group": "Dynasty 6",
+          "dynasty": "Dynasty 6",
+          "label": "Merenre I — Nubian expeditions and Harkhuf's early career",
+          "date": "2287–2278 BC",
+          "loc": "Aswan / Elephantine",
+          "coords": [
+            24.09,
+            32.9
+          ],
+          "hint": "Merenre I personally travelled to Elephantine to receive the submission of Nubian chieftains — a rare instance of an Old Kingdom king recorded travelling that far south in person — and sent his official Harkhuf on the trade expeditions to Yam that Harkhuf's tomb autobiography records in detail (see Order, Exchange), a career that continued into the following reign of the child-king Pepi II.",
+          "tag": "SUCCESSION",
+          "note": "Harkhuf's autobiography, tomb at Qubbet el-Hawa: translated in Lichtheim, Ancient Egyptian Literature, Vol. I (1973) pp.23–27.",
+          "keywords": [
+            "Dynasty 6",
+            "Merenre I",
+            "Aswan",
+            "Elephantine",
+            "Harkhuf"
+          ]
+        },
+        {
           "id": "k13",
-          "group": "Old Kingdom — Fifth & Sixth Dynasties",
+          "group": "Dynasty 6",
           "dynasty": "Dynasty 6",
           "label": "Pepi II — the longest reign and accelerating decentralization",
           "date": "c.2278–2184 BC",
@@ -292,7 +505,7 @@
             31.22
           ],
           "hint": "Pepi II's reign, traditionally the longest in Egyptian history (Manetho claims 94 years; modern scholarship favors a still-exceptional c.64 years), saw increasing power devolve to provincial nomarchs, whose tombs grew grander as the central pyramid-building state weakened — and who increasingly built these tombs in their own home provinces rather than clustering around the king's pyramid at Saqqara as earlier officials had, physically breaking the Old Kingdom's ideological pull toward a single royal necropolis (see Order). A structural cause of the collapse that follows, not a single dramatic event.",
-          "tag": "POLITICAL",
+          "tag": "SUCCESSION",
           "note": "Manetho's 94-year figure (via Africanus) is now widely doubted; the Turin King List's entry for Pepi II is damaged, and highest attested regnal year on contemporary monuments is Year 62 (33rd cattle count), giving c.64 years by biennial counting — see Baud & Dobrev, 'De nouvelles annales de l'Ancien Empire égyptien', BIFAO 95 (1995). Provincial tomb evidence: Kanawati, Governmental Reforms in Old Kingdom Egypt (1980).",
           "keywords": [
             "Dynasty 6",
@@ -301,23 +514,44 @@
           ]
         },
         {
+          "id": "k26",
+          "group": "Dynasty 6",
+          "dynasty": "Dynasty 6",
+          "label": "Merenre II and Netjerkare — the Old Kingdom's final collapse",
+          "date": "2184–2181 BC",
+          "loc": "Saqqara / Memphis",
+          "coords": [
+            29.84,
+            31.25
+          ],
+          "hint": "Pepi II's death after nearly a century on the throne triggered an almost immediate collapse: Merenre II's reign lasted about a year, and Netjerkare (later Greek tradition's semi-legendary queen Nitocris, an identification now widely doubted) closed out the Sixth Dynasty within a few more years, after which no king controlled the whole of Egypt for over a century.",
+          "tag": "SUCCESSION",
+          "note": "The rapid post-Pepi II succession crisis is discussed alongside the Sixth Dynasty's chronology in Baud & Dobrev, 'De nouvelles annales de l'Ancien Empire égyptien', BIFAO 95 (1995) — the same source underlying Pepi II's reign-length note (k13).",
+          "keywords": [
+            "Dynasty 6",
+            "Merenre II",
+            "Netjerkare",
+            "Nitocris"
+          ]
+        },
+        {
           "id": "k14",
           "group": "First Intermediate Period",
           "dynasty": "Herakleopolitan (Dynasty 9-10)",
-          "label": "Khety I — founder of the Herakleopolitan line amid collapse",
-          "date": "c.2160 BC",
+          "label": "The Herakleopolitan kings — a rival line after the Old Kingdom's collapse",
+          "date": "c.2181–2040 BC",
           "loc": "Herakleopolis (Ihnasya el-Medina)",
           "coords": [
             29.09,
             30.93
           ],
-          "hint": "As central Memphite authority disintegrated after Pepi II, Khety I founded a rival royal line at Herakleopolis in Middle Egypt — one of at least two competing centers of nominal kingship during the First Intermediate Period, the other being Thebes in the south.",
+          "hint": "As central authority disintegrated after the Sixth Dynasty's collapse, a rival royal line based at Herakleopolis in Middle Egypt held nominal kingship over the north for roughly a century and a half — one of at least two competing centers of kingship during the First Intermediate Period, the other being Thebes in the south. Later king-lists represent its rulers overwhelmingly by variants of a single throne name, conventionally distinguished in modern scholarship as Khety I, II and III, but Manetho's tradition cannot reliably separate one Herakleopolitan Khety from another on contemporary evidence — this entry represents the line as a whole across its full span rather than any one individually secure reign.",
           "tag": "SUCCESSION",
-          "note": "Khety I (also read Akhtoy/Meryibre) is known mainly through the later literary 'Teaching for Merikare' (see Conflict entry on the FIP civil war), addressed by a Herakleopolitan king to his son, and through Manetho's king-list tradition, which credits the Ninth Dynasty's founder with notorious cruelty — likely later Theban-favoring propaganda, given no contemporary Herakleopolitan source corroborates it. Grajetzki, The Middle Kingdom of Ancient Egypt (2006) pp.1–9 surveys the FIP source problem.",
+          "note": "The Herakleopolitan kings are known mainly through the later literary 'Teaching for Merikare' (see Thought, and the Conflict entry on the FIP civil war), addressed by one such king to his son, and through Manetho's king-list tradition, which credits the Ninth Dynasty's founder with notorious cruelty — likely later Theban-favoring propaganda, given no contemporary Herakleopolitan source corroborates it. Grajetzki, The Middle Kingdom of Ancient Egypt (2006) pp.1–9 surveys the FIP source problem and the difficulty of individuating the Herakleopolitan kings.",
           "keywords": [
             "Herakleopolitan (Dynasty 9-10)",
             "Herakleopolis Ihnasya",
-            "Khety I",
+            "Khety",
             "Pepi II",
             "Middle Egypt",
             "Intermediate Period"
@@ -1600,7 +1834,7 @@
       "id": "early-dynastic",
       "icon": "⚜️",
       "accent": "#A0200A",
-      "label": "Early Dynastic Kings",
+      "label": "Dynasty 1–2 Kings",
       "events": [
         {
           "y": -3000,
@@ -1608,47 +1842,78 @@
           "entryId": "k1"
         },
         {
-          "y": -2980,
-          "l": "Djer's year-labels",
+          "y": -3080,
+          "y2": -3030,
+          "l": "Djer (c.3080–3030 BC)",
           "entryId": "k2"
         },
         {
-          "y": -2950,
-          "l": "Den wears the Double Crown",
+          "y": -3000,
+          "y2": -2960,
+          "l": "Den (c.3000–2960 BC)",
           "entryId": "k3"
+        },
+        {
+          "y": -2890,
+          "y2": -2734,
+          "l": "Hotepsekhemwy to Peribsen (c.2890–2734 BC)",
+          "entryId": "k16"
+        },
+        {
+          "y": -2703,
+          "y2": -2686,
+          "l": "Khasekhemwy (c.2703–2686 BC)",
+          "entryId": "k17"
         }
       ]
     },
     {
-      "id": "old-kingdom-pyramid-age",
+      "id": "old-kingdom-3rd-4th",
       "icon": "⚜️",
       "accent": "#A0200A",
-      "label": "Pyramid Age Kings",
+      "label": "Dynasty 3–4: Pyramid Age Kings",
       "events": [
         {
-          "y": -2670,
-          "l": "Djoser's Step Pyramid",
+          "y": -2686,
+          "y2": -2649,
+          "l": "Djoser (2686–2649 BC)",
           "entryId": "k4"
         },
         {
-          "y": -2600,
-          "l": "Sneferu's three pyramids",
+          "y": -2613,
+          "y2": -2589,
+          "l": "Sneferu (2613–2589 BC)",
           "entryId": "k5"
         },
         {
-          "y": -2560,
-          "l": "Khufu's Great Pyramid",
+          "y": -2589,
+          "y2": -2566,
+          "l": "Khufu (2589–2566 BC)",
           "entryId": "k6"
         },
         {
-          "y": -2530,
-          "l": "Khafre's pyramid",
+          "y": -2566,
+          "y2": -2558,
+          "l": "Djedefre (2566–2558 BC)",
+          "entryId": "k18"
+        },
+        {
+          "y": -2558,
+          "y2": -2532,
+          "l": "Khafre (2558–2532 BC)",
           "entryId": "k7"
         },
         {
-          "y": -2510,
-          "l": "Menkaure's pyramid",
+          "y": -2532,
+          "y2": -2503,
+          "l": "Menkaure (2532–2503 BC)",
           "entryId": "k8"
+        },
+        {
+          "y": -2503,
+          "y2": -2498,
+          "l": "Shepseskaf (2503–2498 BC)",
+          "entryId": "k19"
         }
       ]
     },
@@ -1656,33 +1921,79 @@
       "id": "old-kingdom-5th-6th",
       "icon": "⚜️",
       "accent": "#A0200A",
-      "label": "Fifth & Sixth Dynasty Kings",
+      "label": "Dynasty 5–6 Kings",
       "events": [
         {
-          "y": -2490,
-          "l": "Userkaf's sun temple",
+          "y": -2494,
+          "y2": -2487,
+          "l": "Userkaf (2494–2487 BC)",
           "entryId": "k9"
         },
         {
-          "y": -2350,
-          "l": "Unas's Pyramid Texts",
+          "y": -2487,
+          "y2": -2475,
+          "l": "Sahure (2487–2475 BC)",
+          "entryId": "k20"
+        },
+        {
+          "y": -2475,
+          "y2": -2455,
+          "l": "Neferirkare (2475–2455 BC)",
+          "entryId": "k21"
+        },
+        {
+          "y": -2455,
+          "y2": -2414,
+          "l": "Neferefre to Menkauhor (2455–2414 BC)",
+          "entryId": "k22"
+        },
+        {
+          "y": -2414,
+          "y2": -2375,
+          "l": "Djedkare Isesi (2414–2375 BC)",
+          "entryId": "k23"
+        },
+        {
+          "y": -2375,
+          "y2": -2345,
+          "l": "Unas (2375–2345 BC)",
           "entryId": "k10"
         },
         {
-          "y": -2320,
-          "l": "Teti founds Dynasty 6",
+          "y": -2345,
+          "y2": -2333,
+          "l": "Teti (2345–2333 BC)",
           "entryId": "k11"
         },
         {
-          "y": -2280,
-          "l": "Pepi I & Weni",
+          "y": -2333,
+          "y2": -2331,
+          "l": "Userkare (2333–2331 BC)",
+          "entryId": "k24"
+        },
+        {
+          "y": -2331,
+          "y2": -2287,
+          "l": "Pepi I (2331–2287 BC)",
           "entryId": "k12"
+        },
+        {
+          "y": -2287,
+          "y2": -2278,
+          "l": "Merenre I (2287–2278 BC)",
+          "entryId": "k25"
         },
         {
           "y": -2278,
           "y2": -2184,
           "l": "Pepi II (c.2278–2184 BC)",
           "entryId": "k13"
+        },
+        {
+          "y": -2184,
+          "y2": -2181,
+          "l": "Merenre II & Netjerkare (2184–2181 BC)",
+          "entryId": "k26"
         }
       ]
     },
@@ -1693,8 +2004,9 @@
       "label": "First Intermediate Rivals",
       "events": [
         {
-          "y": -2160,
-          "l": "Khety I founds Herakleopolis",
+          "y": -2181,
+          "y2": -2040,
+          "l": "Herakleopolitan kings (c.2181–2040 BC)",
           "entryId": "k14"
         },
         {

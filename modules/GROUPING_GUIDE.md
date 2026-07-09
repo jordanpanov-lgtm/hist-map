@@ -15,6 +15,43 @@ ones (e.g. "Gothic Wars", "First Crusade") but keep the structure.
 
 ---
 
+## ⚜️ Power
+*Rulers, dynasties, and the exercise of sovereign authority*
+
+**Power entries about a named ruler must be dated to their reign span** (accession – end of rule),
+never to a single achievement within that reign. Tag with `SUCCESSION` or a more specific
+accession-type tag (`COUP`, `DEPOSED`, `APPOINTED`, `MARRIAGE`) as the content warrants — never a
+content-type tag like `CONSTRUCTION`/`TEXT`/`DOCUMENT`. That achievement belongs in its own entry, in
+whichever category it actually represents (Expression, Technology, Order...) — see how Rome keeps
+Caracalla (Power, reign-dated `211–217`) separate from the Baths of Caracalla (Technology, point-dated
+`212`). This is what lets the timeline render an unbroken chain of reign bars (`y2` set per Structural
+Invariant §5) instead of scattered single-year dots.
+
+**Exception — pre-state / non-monarchical Power content.** Where there is no named ruler to date a
+reign to (archaeological cultures, proto-state horizons), point-dated `EVIDENCE` entries are correct —
+see Predynastic Egypt's `predynastic-cultures` lane: five Neolithic culture-horizons rendered as dots,
+versus its three attested proto-kings (Scorpion I, Iry-Hor, Ka), which are reign-dated with bars.
+
+**Granularity — one entry per ruler is the default, not a rule.** Pick the tier that keeps the Power
+category *and* its timeline lane readable, per folio:
+
+| Tier | When | Example |
+|---|---|---|
+| Whole-regime block | No individual ruler in the stretch is independently significant/documented | Al-Andalus taifa fragmentation 1031–1086 — one `SUCCESSION` entry for the whole regime, not one per taifa king |
+| Compressed reign-cluster | A dynasty mixes well-documented and minor rulers | Nasrid Granada: "Muhammad I to Muhammad IV — building the emirate" bundles four minor sultans into one entry, while Yusuf I and Muhammad V (individually pivotal) get their own |
+| One entry per ruler | Reigns are individually significant/documented and not too dense for the folio's span | Roman emperors, Sassanid shahs, Visigothic kings — even very short reigns (Rome's "Year of Six Emperors") stay individual, since the resulting cluster of short bars *is* the meaningful signal |
+
+For long, dynasty-heavy folios (e.g. Egyptian Old/Middle/New Kingdom, ~30 kings per few hundred
+years), group by **Dynasty number** (matching standard Egyptological convention) rather than
+inventing ad hoc lane names, and default to the compressed-cluster tier — most dynasties collapse
+into one or two entries, with only the individually famous kings (Djoser, Sneferu, Khufu, Pepi II)
+breaking out on their own.
+
+See "Power entries in Modern folios" below for the modern-period-specific two-lane (Head of State +
+Governments) convention, which extends rather than replaces the rules above.
+
+---
+
 ## ⚔️ Conflict
 | Group | Use for |
 |---|---|

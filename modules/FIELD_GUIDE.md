@@ -196,6 +196,13 @@ completely fine. Most-used tags in the corpus today, for reference — not a che
 | `DOCUMENT` | a specific written source | `CONSTRUCTION` | building project |
 | `CIVIL WAR` | internal armed conflict | `EDICT` | ruler's formal decree |
 
+**Power-category entries are the one place tag choice isn't free-form**: a Power entry about a named
+ruler must use `SUCCESSION` or a more specific accession-type tag (`COUP`, `DEPOSED`, `APPOINTED`,
+`MARRIAGE`), dated to the ruler's reign span — never a content-type tag like `CONSTRUCTION`/`TEXT`/
+`DOCUMENT` dated to a single achievement. See GROUPING_GUIDE.md's `⚜️ Power` section for the full
+rule, the pre-state exception, and the ruler-granularity tiers (one entry per ruler vs. compressed
+reign-clusters vs. whole-regime blocks).
+
 ### `coords` — required, no null
 
 Every entry needs a real `[lat, lng]`. For entries about texts/objects now held in a museum or
