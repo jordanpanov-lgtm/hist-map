@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1507,
+    "total_entries": 1510,
     "folio_count": 28,
     "xlink_pairs": 23,
-    "keyword_terms": 3596,
+    "keyword_terms": 3603,
     "folios": [
       {
         "id": "al-andalus-1031-1492",
@@ -18,7 +18,7 @@
       {
         "id": "egypt-3000bc-2100bc",
         "title": "Early Dynastic & Old Kingdom Egypt",
-        "entries": 87
+        "entries": 90
       },
       {
         "id": "egypt-6000bc-3000bc",
@@ -294,6 +294,7 @@
     "egypt-3000bc-2100bc::b5": "Abydos becomes Osiris's principal cult center",
     "egypt-3000bc-2100bc::b6": "Evisceration and natron preservation in Hetepheres I's burial",
     "egypt-3000bc-2100bc::b7": "Monthu of Thebes rises as the Eleventh Dynasty's patron war-god",
+    "egypt-3000bc-2100bc::b8": "Ptah — Memphis's creator god and patron of craftsmen",
     "egypt-3000bc-2100bc::e1": "The Valley Temple of Khafre — granite megalithic architecture",
     "egypt-3000bc-2100bc::e2": "The seated statue of Khafre in diorite",
     "egypt-3000bc-2100bc::e3": "The Giza 'reserve heads'",
@@ -318,6 +319,8 @@
     "egypt-3000bc-2100bc::tc3": "Hieratic — a cursive script for administration",
     "egypt-3000bc-2100bc::tc4": "The Wadi al-Jarf harbor — the world's oldest known port structure",
     "egypt-3000bc-2100bc::tc5": "Tubular drilling of hard-stone vessels",
+    "egypt-3000bc-2100bc::tc6": "The Khufu Ship — the world's oldest intact full-size vessel",
+    "egypt-3000bc-2100bc::tc7": "The Sealing of Peribsen — hieroglyphic writing's first known complete sentence",
     "egypt-3000bc-2100bc::ex1": "Sahure's expedition to the Land of Punt",
     "egypt-3000bc-2100bc::ex2": "Harkhuf's trade expeditions to Yam",
     "egypt-3000bc-2100bc::ex3": "Pepi II's letter to Harkhuf",
@@ -2738,6 +2741,12 @@
       "Eleventh Dynasty",
       "Mentuhotep Monthu"
     ],
+    "egypt-3000bc-2100bc::b8": [
+      "Memphis",
+      "Ptah",
+      "Hut-ka-Ptah",
+      "Shabaka Stone"
+    ],
     "egypt-3000bc-2100bc::e1": [
       "Giza",
       "Valley Temple of Khafre",
@@ -2853,6 +2862,18 @@
       "Saqqara Step Pyramid",
       "Tubular",
       "Djoser Step Pyramid"
+    ],
+    "egypt-3000bc-2100bc::tc6": [
+      "Giza",
+      "Khufu Ship",
+      "Solar Barque",
+      "Kamal el-Mallakh"
+    ],
+    "egypt-3000bc-2100bc::tc7": [
+      "Peribsen",
+      "Abydos Umm",
+      "hieroglyphs",
+      "Dynasty 2"
     ],
     "egypt-3000bc-2100bc::ex1": [
       "Abusir",
@@ -13216,6 +13237,7 @@
     "Abydos Umm": [
       "egypt-3000bc-2100bc::k2",
       "egypt-3000bc-2100bc::k3",
+      "egypt-3000bc-2100bc::tc7",
       "egypt-3000bc-2100bc::l1"
     ],
     "Djer": [
@@ -13238,7 +13260,8 @@
     ],
     "Dynasty 2": [
       "egypt-3000bc-2100bc::k16",
-      "egypt-3000bc-2100bc::k17"
+      "egypt-3000bc-2100bc::k17",
+      "egypt-3000bc-2100bc::tc7"
     ],
     "Hotepsekhemwy": [
       "egypt-3000bc-2100bc::k16"
@@ -13250,7 +13273,8 @@
       "egypt-3000bc-2100bc::k16"
     ],
     "Peribsen": [
-      "egypt-3000bc-2100bc::k16"
+      "egypt-3000bc-2100bc::k16",
+      "egypt-3000bc-2100bc::tc7"
     ],
     "Seth": [
       "egypt-3000bc-2100bc::k16"
@@ -13358,6 +13382,7 @@
       "egypt-3000bc-2100bc::ec2",
       "egypt-3000bc-2100bc::ec5",
       "egypt-3000bc-2100bc::tc2",
+      "egypt-3000bc-2100bc::tc6",
       "egypt-3000bc-2100bc::l2",
       "egypt-3000bc-2100bc::l4",
       "egypt-3000bc-2100bc::l6"
@@ -13643,6 +13668,7 @@
       "egypt-3000bc-2100bc::o1",
       "egypt-3000bc-2100bc::o3",
       "egypt-3000bc-2100bc::o5",
+      "egypt-3000bc-2100bc::b8",
       "egypt-3000bc-2100bc::ec1",
       "egypt-3000bc-2100bc::l3"
     ],
@@ -13712,6 +13738,15 @@
     ],
     "Mentuhotep Monthu": [
       "egypt-3000bc-2100bc::b7"
+    ],
+    "Ptah": [
+      "egypt-3000bc-2100bc::b8"
+    ],
+    "Hut-ka-Ptah": [
+      "egypt-3000bc-2100bc::b8"
+    ],
+    "Shabaka Stone": [
+      "egypt-3000bc-2100bc::b8"
     ],
     "Valley Temple of Khafre": [
       "egypt-3000bc-2100bc::e1"
@@ -13835,6 +13870,18 @@
     "Tubular": [
       "egypt-3000bc-2100bc::tc5",
       "egypt-6000bc-3000bc::tc6"
+    ],
+    "Khufu Ship": [
+      "egypt-3000bc-2100bc::tc6"
+    ],
+    "Solar Barque": [
+      "egypt-3000bc-2100bc::tc6"
+    ],
+    "Kamal el-Mallakh": [
+      "egypt-3000bc-2100bc::tc6"
+    ],
+    "hieroglyphs": [
+      "egypt-3000bc-2100bc::tc7"
     ],
     "Horn of Africa": [
       "egypt-3000bc-2100bc::ex1"
