@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 1495,
     "folio_count": 28,
-    "xlink_pairs": 19,
+    "xlink_pairs": 23,
     "keyword_terms": 3569,
     "folios": [
       {
@@ -1645,6 +1645,24 @@
     "visigoths-589-711::lv2": "Visigothic queens — property rights and regency"
   },
   "xlinks": {
+    "egypt-3000bc-2100bc::k1": [
+      "egypt-6000bc-3000bc::c2",
+      "egypt-6000bc-3000bc::c3",
+      "egypt-6000bc-3000bc::x4"
+    ],
+    "egypt-6000bc-3000bc::c2": [
+      "egypt-3000bc-2100bc::k1",
+      "egypt-3000bc-2100bc::c1"
+    ],
+    "egypt-6000bc-3000bc::c3": [
+      "egypt-3000bc-2100bc::k1"
+    ],
+    "egypt-6000bc-3000bc::x4": [
+      "egypt-3000bc-2100bc::k1"
+    ],
+    "egypt-3000bc-2100bc::c1": [
+      "egypt-6000bc-3000bc::c2"
+    ],
     "france-1715-1789::k3": [
       "france-1789-1815::k1"
     ],

@@ -1,15 +1,15 @@
 {
   "_meta": {
-    "generated": "2026-07-08",
+    "generated": "2026-07-09",
     "figure_matches": 18,
     "figure_matches_rejected_dynasty_mismatch": 16,
     "figure_matches_rejected_date_implausible": 3,
     "dynasty_alignment_proposals_count": 8,
-    "keyword_matches": 366,
-    "keyword_matches_rejected_geo_only": 391,
+    "keyword_matches": 402,
+    "keyword_matches_rejected_geo_only": 366,
     "high_confidence": 20,
-    "medium_confidence": 30,
-    "low_confidence": 334
+    "medium_confidence": 31,
+    "low_confidence": 369
   },
   "figure_name_matches": [
     {
@@ -717,6 +717,33 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis",
+        "Narmer Palette"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Narmer — unifier of Upper and Lower Egypt",
+        "decade": "3000s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Battlefield Palette — a lion-king tramples a defeated enemy",
+        "decade": "3100s BC–3200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::k1",
+      "xlink_b": "egypt-6000bc-3000bc::c2"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "British Museum",
         "Esquiline Hill",
         "Rome"
@@ -739,6 +766,33 @@
       "date_flag": "overlapping",
       "xlink_a": "rome-300-400::a6",
       "xlink_b": "rome-400-500::a6"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Euphrates",
+        "Lakhmid",
+        "Mesopotamian"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ghassanid-420-638",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Ghassanid raids on Lakhmid territory",
+        "decade": "520s–570s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Lakhmid forces in the Roman-Persian wars",
+        "decade": "420s–530s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ghassanid-420-638::c3",
+      "xlink_b": "lakhmid-268-602::c4"
     },
     {
       "confidence": "medium",
@@ -1090,33 +1144,6 @@
       "date_flag": "314yr gap — verify same entity, not just shared theme",
       "xlink_a": "sassanid-224-484::o1",
       "xlink_b": "sassanid-484-651::a5"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Euphrates",
-        "Lakhmid",
-        "Mesopotamian"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "ghassanid-420-638",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Ghassanid raids on Lakhmid territory",
-        "decade": "520s–570s"
-      },
-      "b": {
-        "folio": "lakhmid-268-602",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "Lakhmid forces in the Roman-Persian wars",
-        "decade": "420s–530s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ghassanid-420-638::c3",
-      "xlink_b": "lakhmid-268-602::c4"
     },
     {
       "confidence": "medium",
@@ -2615,6 +2642,136 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Bourbon",
+        "Paris"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1494-1610",
+        "id": "a8",
+        "cat": "expression",
+        "label": "Ballet Comique de la Reine (1581) — birth of ballet and opera",
+        "decade": "1580s"
+      },
+      "b": {
+        "folio": "france-1610-1715",
+        "id": "k2",
+        "cat": "power",
+        "label": "Cardinal Richelieu — minister and architect of French power",
+        "decade": "1620s"
+      },
+      "date_flag": "43yr gap",
+      "xlink_a": "france-1494-1610::a8",
+      "xlink_b": "france-1610-1715::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Paris"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1494-1610",
+        "id": "a8",
+        "cat": "expression",
+        "label": "Ballet Comique de la Reine (1581) — birth of ballet and opera",
+        "decade": "1580s"
+      },
+      "b": {
+        "folio": "france-1610-1715",
+        "id": "k3",
+        "cat": "power",
+        "label": "Cardinal Mazarin and the Fronde",
+        "decade": "1640s"
+      },
+      "date_flag": "62yr gap — verify same entity, not just shared theme",
+      "xlink_a": "france-1494-1610::a8",
+      "xlink_b": "france-1610-1715::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Paris"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1494-1610",
+        "id": "a8",
+        "cat": "expression",
+        "label": "Ballet Comique de la Reine (1581) — birth of ballet and opera",
+        "decade": "1580s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Family Compact — Bourbon alliance with France",
+        "decade": "1730s"
+      },
+      "date_flag": "152yr gap — verify same entity, not just shared theme",
+      "xlink_a": "france-1494-1610::a8",
+      "xlink_b": "spain-1700-1808::ex1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Paris"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "k2",
+        "cat": "power",
+        "label": "Cardinal Richelieu — minister and architect of French power",
+        "decade": "1620s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Family Compact — Bourbon alliance with France",
+        "decade": "1730s"
+      },
+      "date_flag": "91yr gap — verify same entity, not just shared theme",
+      "xlink_a": "france-1610-1715::k2",
+      "xlink_b": "spain-1700-1808::ex1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Paris"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "k3",
+        "cat": "power",
+        "label": "Cardinal Mazarin and the Fronde",
+        "decade": "1640s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Family Compact — Bourbon alliance with France",
+        "decade": "1730s"
+      },
+      "date_flag": "72yr gap — verify same entity, not just shared theme",
+      "xlink_a": "france-1610-1715::k3",
+      "xlink_b": "spain-1700-1808::ex1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Paris",
         "United States"
       ],
@@ -2792,6 +2949,266 @@
       "date_flag": "171yr gap — verify same entity, not just shared theme",
       "xlink_a": "france-1789-1815::ex2",
       "xlink_b": "spain-1975-today::ex4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Narmer — unifier of Upper and Lower Egypt",
+        "decade": "3000s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Naqada I–II grave orientation and provisioning — a standardized afterlife",
+        "decade": "3300s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::k1",
+      "xlink_b": "egypt-6000bc-3000bc::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Narmer — unifier of Upper and Lower Egypt",
+        "decade": "3000s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "tc5",
+        "cat": "technology",
+        "label": "Pot-marks — incised signs before the serekh",
+        "decade": "3300s BC–3600s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::k1",
+      "xlink_b": "egypt-6000bc-3000bc::tc5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hierakonpolis",
+        "Narmer Palette"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The unification of Upper and Lower Egypt",
+        "decade": "3000s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Battlefield Palette — a lion-king tramples a defeated enemy",
+        "decade": "3100s BC–3200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c1",
+      "xlink_b": "egypt-6000bc-3000bc::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The living Horus — royal titulary as religious doctrine",
+        "decade": "2900s BC–3000s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Battlefield Palette — a lion-king tramples a defeated enemy",
+        "decade": "3100s BC–3200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::b1",
+      "xlink_b": "egypt-6000bc-3000bc::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The living Horus — royal titulary as religious doctrine",
+        "decade": "2900s BC–3000s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Naqada I–II grave orientation and provisioning — a standardized afterlife",
+        "decade": "3300s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::b1",
+      "xlink_b": "egypt-6000bc-3000bc::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The living Horus — royal titulary as religious doctrine",
+        "decade": "2900s BC–3000s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "tc5",
+        "cat": "technology",
+        "label": "Pot-marks — incised signs before the serekh",
+        "decade": "3300s BC–3600s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::b1",
+      "xlink_b": "egypt-6000bc-3000bc::tc5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Narmer Palette"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Narmer — unifier of Upper and Lower Egypt",
+        "decade": "3000s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Bull Palette — a bull gores an enemy before a walled town",
+        "decade": "3100s BC–3150s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::k1",
+      "xlink_b": "egypt-6000bc-3000bc::c3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Nile Valley"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Djer's Nubian campaign",
+        "decade": "2980s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "White Cross-lined ware — Naqada I's earliest figural pottery",
+        "decade": "3500s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c2",
+      "xlink_b": "egypt-6000bc-3000bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Narmer Palette",
+        "White Crown of Upper Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Narmer — unifier of Upper and Lower Egypt",
+        "decade": "3000s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "x4",
+        "cat": "expression",
+        "label": "The Scorpion Macehead — the first narrative royal relief",
+        "decade": "3100s BC"
+      },
+      "date_flag": "100yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-3000bc-2100bc::k1",
+      "xlink_b": "egypt-6000bc-3000bc::x4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Lower Egyptian",
+        "Nile Delta"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Khasekhemwy suppresses a civil war, ending the Second Dynasty",
+        "decade": "2700s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "p2",
+        "cat": "power",
+        "label": "Merimde Beni Salama — the Delta's largest Neolithic village",
+        "decade": "4300s BC–4800s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c3",
+      "xlink_b": "egypt-6000bc-3000bc::p2"
     },
     {
       "confidence": "low",
@@ -3032,6 +3449,110 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Bourbon",
+        "Versailles"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "k4",
+        "cat": "power",
+        "label": "Louis XIV — L'État c'est moi",
+        "decade": "1660s–1710s"
+      },
+      "b": {
+        "folio": "france-1715-1789",
+        "id": "k3",
+        "cat": "power",
+        "label": "Louis XVI — the king who lost the initiative",
+        "decade": "1770s"
+      },
+      "date_flag": "59yr gap — verify same entity, not just shared theme",
+      "xlink_a": "france-1610-1715::k4",
+      "xlink_b": "france-1715-1789::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Versailles"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "k4",
+        "cat": "power",
+        "label": "Louis XIV — L'État c'est moi",
+        "decade": "1660s–1710s"
+      },
+      "b": {
+        "folio": "france-1715-1789",
+        "id": "k5",
+        "cat": "power",
+        "label": "Assembly of Notables (1787) — the point of no return",
+        "decade": "1780s"
+      },
+      "date_flag": "72yr gap — verify same entity, not just shared theme",
+      "xlink_a": "france-1610-1715::k4",
+      "xlink_b": "france-1715-1789::k5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Versailles"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "k4",
+        "cat": "power",
+        "label": "Louis XIV — L'État c'est moi",
+        "decade": "1660s–1710s"
+      },
+      "b": {
+        "folio": "france-1715-1789",
+        "id": "k4",
+        "cat": "power",
+        "label": "Maupeou Revolution (1771–1774) — the coup that could have saved the monarchy",
+        "decade": "1770s"
+      },
+      "date_flag": "56yr gap — verify same entity, not just shared theme",
+      "xlink_a": "france-1610-1715::k4",
+      "xlink_b": "france-1715-1789::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Versailles"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "k4",
+        "cat": "power",
+        "label": "Louis XIV — L'État c'est moi",
+        "decade": "1660s–1710s"
+      },
+      "b": {
+        "folio": "france-1789-1815",
+        "id": "k1",
+        "cat": "power",
+        "label": "Louis XVI — from king to prisoner",
+        "decade": "1780s"
+      },
+      "date_flag": "74yr gap — verify same entity, not just shared theme",
+      "xlink_a": "france-1610-1715::k4",
+      "xlink_b": "france-1789-1815::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
         "Louis XIV"
       ],
       "sharedCount": 2,
@@ -3110,6 +3631,292 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Bourbon",
+        "Versailles"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1715-1789",
+        "id": "k3",
+        "cat": "power",
+        "label": "Louis XVI — the king who lost the initiative",
+        "decade": "1770s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "k1",
+        "cat": "power",
+        "label": "Philip V — the War of Spanish Succession",
+        "decade": "1700s–1740s"
+      },
+      "date_flag": "28yr gap",
+      "xlink_a": "france-1715-1789::k3",
+      "xlink_b": "spain-1700-1808::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Versailles"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1715-1789",
+        "id": "k5",
+        "cat": "power",
+        "label": "Assembly of Notables (1787) — the point of no return",
+        "decade": "1780s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "k1",
+        "cat": "power",
+        "label": "Philip V — the War of Spanish Succession",
+        "decade": "1700s–1740s"
+      },
+      "date_flag": "41yr gap",
+      "xlink_a": "france-1715-1789::k5",
+      "xlink_b": "spain-1700-1808::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Versailles"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1715-1789",
+        "id": "k4",
+        "cat": "power",
+        "label": "Maupeou Revolution (1771–1774) — the coup that could have saved the monarchy",
+        "decade": "1770s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "k1",
+        "cat": "power",
+        "label": "Philip V — the War of Spanish Succession",
+        "decade": "1700s–1740s"
+      },
+      "date_flag": "25yr gap",
+      "xlink_a": "france-1715-1789::k4",
+      "xlink_b": "spain-1700-1808::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Versailles"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1789-1815",
+        "id": "k1",
+        "cat": "power",
+        "label": "Louis XVI — from king to prisoner",
+        "decade": "1780s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "k1",
+        "cat": "power",
+        "label": "Philip V — the War of Spanish Succession",
+        "decade": "1700s–1740s"
+      },
+      "date_flag": "43yr gap",
+      "xlink_a": "france-1789-1815::k1",
+      "xlink_b": "spain-1700-1808::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "k1",
+        "cat": "power",
+        "label": "Philip V — the War of Spanish Succession",
+        "decade": "1700s–1740s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k5",
+        "cat": "power",
+        "label": "The espadones — military brokers of Spanish liberalism",
+        "decade": "1840s"
+      },
+      "date_flag": "94yr gap — verify same entity, not just shared theme",
+      "xlink_a": "spain-1700-1808::k1",
+      "xlink_b": "spain-1808-1900::k5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "k1",
+        "cat": "power",
+        "label": "Philip V — the War of Spanish Succession",
+        "decade": "1700s–1740s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k4",
+        "cat": "conflict",
+        "label": "Rafael del Riego and the Trienio Liberal — liberalism's first test",
+        "decade": "1820s"
+      },
+      "date_flag": "74yr gap — verify same entity, not just shared theme",
+      "xlink_a": "spain-1700-1808::k1",
+      "xlink_b": "spain-1808-1900::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "k2",
+        "cat": "power",
+        "label": "Charles III — Spain's great enlightened monarch",
+        "decade": "1750s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k5",
+        "cat": "power",
+        "label": "The espadones — military brokers of Spanish liberalism",
+        "decade": "1840s"
+      },
+      "date_flag": "52yr gap — verify same entity, not just shared theme",
+      "xlink_a": "spain-1700-1808::k2",
+      "xlink_b": "spain-1808-1900::k5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "k2",
+        "cat": "power",
+        "label": "Charles III — Spain's great enlightened monarch",
+        "decade": "1750s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k4",
+        "cat": "conflict",
+        "label": "Rafael del Riego and the Trienio Liberal — liberalism's first test",
+        "decade": "1820s"
+      },
+      "date_flag": "32yr gap",
+      "xlink_a": "spain-1700-1808::k2",
+      "xlink_b": "spain-1808-1900::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "k6",
+        "cat": "power",
+        "label": "Conde de Floridablanca -- the Bourbon reform programme's architect",
+        "decade": "1770s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k5",
+        "cat": "power",
+        "label": "The espadones — military brokers of Spanish liberalism",
+        "decade": "1840s"
+      },
+      "date_flag": "48yr gap",
+      "xlink_a": "spain-1700-1808::k6",
+      "xlink_b": "spain-1808-1900::k5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "k6",
+        "cat": "power",
+        "label": "Conde de Floridablanca -- the Bourbon reform programme's architect",
+        "decade": "1770s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k4",
+        "cat": "conflict",
+        "label": "Rafael del Riego and the Trienio Liberal — liberalism's first test",
+        "decade": "1820s"
+      },
+      "date_flag": "28yr gap",
+      "xlink_a": "spain-1700-1808::k6",
+      "xlink_b": "spain-1808-1900::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "o4",
+        "cat": "order",
+        "label": "Novisima Recopilacion (1805) -- the last Bourbon legal codification",
+        "decade": "1800s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k5",
+        "cat": "power",
+        "label": "The espadones — military brokers of Spanish liberalism",
+        "decade": "1840s"
+      },
+      "date_flag": "35yr gap",
+      "xlink_a": "spain-1700-1808::o4",
+      "xlink_b": "spain-1808-1900::k5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
         "Madrid"
       ],
       "sharedCount": 2,
@@ -3130,6 +3937,136 @@
       "date_flag": "15yr gap",
       "xlink_a": "spain-1700-1808::o4",
       "xlink_b": "spain-1808-1900::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "a2",
+        "cat": "expression",
+        "label": "Ventura Rodríguez and Bourbon neoclassicism",
+        "decade": "1750s–1780s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k5",
+        "cat": "power",
+        "label": "The espadones — military brokers of Spanish liberalism",
+        "decade": "1840s"
+      },
+      "date_flag": "55yr gap — verify same entity, not just shared theme",
+      "xlink_a": "spain-1700-1808::a2",
+      "xlink_b": "spain-1808-1900::k5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "a2",
+        "cat": "expression",
+        "label": "Ventura Rodríguez and Bourbon neoclassicism",
+        "decade": "1750s–1780s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k4",
+        "cat": "conflict",
+        "label": "Rafael del Riego and the Trienio Liberal — liberalism's first test",
+        "decade": "1820s"
+      },
+      "date_flag": "35yr gap",
+      "xlink_a": "spain-1700-1808::a2",
+      "xlink_b": "spain-1808-1900::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Family Compact — Bourbon alliance with France",
+        "decade": "1730s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k5",
+        "cat": "power",
+        "label": "The espadones — military brokers of Spanish liberalism",
+        "decade": "1840s"
+      },
+      "date_flag": "79yr gap — verify same entity, not just shared theme",
+      "xlink_a": "spain-1700-1808::ex1",
+      "xlink_b": "spain-1808-1900::k5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Family Compact — Bourbon alliance with France",
+        "decade": "1730s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "k4",
+        "cat": "conflict",
+        "label": "Rafael del Riego and the Trienio Liberal — liberalism's first test",
+        "decade": "1820s"
+      },
+      "date_flag": "59yr gap — verify same entity, not just shared theme",
+      "xlink_a": "spain-1700-1808::ex1",
+      "xlink_b": "spain-1808-1900::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Bourbon",
+        "Madrid Royal Palace"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1808-1900",
+        "id": "k2",
+        "cat": "power",
+        "label": "Isabel II — the liberal monarchy",
+        "decade": "1830s–1860s"
+      },
+      "b": {
+        "folio": "spain-1900-1975",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alfonso XIII — the last Restoration king",
+        "decade": "1900s"
+      },
+      "date_flag": "34yr gap",
+      "xlink_a": "spain-1808-1900::k2",
+      "xlink_b": "spain-1900-1975::k1"
     },
     {
       "confidence": "low",
