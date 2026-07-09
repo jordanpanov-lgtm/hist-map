@@ -772,7 +772,78 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "Saharan desiccation, migration into the Nile Valley and the consolidation of chiefdoms",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Climate & Environment",
+          "label": "The Green Sahara dries — the African Humid Period ends",
+          "date": "c.6000–3000 BC",
+          "loc": "Sahara / Western Desert (Nabta Playa region)",
+          "coords": [
+            22.51,
+            30.7
+          ],
+          "hint": "Lake and pollen cores across the Sahara show progressively drying conditions through this period, as the monsoon rains that had sustained a 'Green Sahara' of lakes and savanna since the early Holocene retreated southward — the single largest environmental force shaping Predynastic Egypt, since it is what pushed dispersed desert populations toward the one reliable water source left: the Nile.",
+          "tag": "EVENT",
+          "note": "deMenocal et al., 'Abrupt onset and termination of the African Humid Period' (2000, Quaternary Science Reviews) is the key paleoclimate synthesis; Kuper & Kröpelin, 'Climate-Controlled Holocene Occupation in the Sahara' (2006, Science) links the desiccation timeline directly to Nile Valley settlement patterns."
+        },
+        {
+          "id": "w2",
+          "group": "Migration & Invasion",
+          "label": "Saharan pastoralists move into the Nile Valley",
+          "date": "c.5300–4000 BC",
+          "loc": "Fayum and the Nile Valley margins",
+          "coords": [
+            29.45,
+            30.75
+          ],
+          "hint": "As Saharan grazing land contracted, cattle-herding populations with a Western Desert material-culture background moved into the Nile floodplain and its margins, bringing pastoral practices and, in some interpretations, contributing directly to the Fayum A and Badarian populations — meaning Nile Valley civilization's earliest layer is partly a story of climate refugees rather than a spontaneous local development.",
+          "tag": "EVENT",
+          "note": "Wengrow, The Archaeology of Early Egypt (2006) ch.2 discusses the Saharan-to-Nile population model; Wendorf & Schild, Holocene Settlement of the Egyptian Sahara (2001) provides the Western Desert side of the evidence."
+        },
+        {
+          "id": "w3",
+          "group": "Geopolitical Shift",
+          "label": "Three rival chiefdoms dominate Naqada II Upper Egypt",
+          "date": "c.3500–3300 BC",
+          "loc": "Naqada (Ombos), Hierakonpolis (Nekhen), Abydos (This)",
+          "coords": [
+            25.73,
+            32.47
+          ],
+          "hint": "By Naqada II, cemetery wealth and monumental construction cluster at three centers roughly 100km apart — Naqada, Hierakonpolis and This (near Abydos) — read by most Egyptologists as competing regional chiefdoms of comparable scale, the political landscape that Naqada III kingship would eventually resolve into a single line based at This/Abydos.",
+          "tag": "EVENT",
+          "note": "Kemp, Ancient Egypt: Anatomy of a Civilization (2nd ed., 2006) ch.2 lays out the 'three chiefdoms' model in detail, drawing on Kaiser's earlier cemetery-wealth analysis (1957, Archaeologia Geographica)."
+        },
+        {
+          "id": "w4",
+          "group": "Geopolitical Shift",
+          "label": "Naqada culture absorbs the Delta's Maadi-Buto culture",
+          "date": "c.3300–3200 BC",
+          "loc": "Buto (Tell el-Fara'in), Nile Delta",
+          "coords": [
+            31.62,
+            30.73
+          ],
+          "hint": "Around Naqada IIIA, the distinctive Lower Egyptian Maadi-Buto material culture — its own pottery styles, house forms and burial customs — is abruptly replaced across Delta sites by Upper Egyptian Naqada-style material culture, whether through conquest, migration or rapid elite emulation remains debated, but the effect was the disappearance of Lower Egypt's independent cultural trajectory a full Dynasty before Narmer.",
+          "tag": "EVENT",
+          "note": "von der Way, 'Investigations at the Early Dynastic Site of Tell el-Fara'in/Buto' (1988, in Aspects of Early Egypt); Köhler, 'History or Ideology? New Reflections on the Narmer Palette' (2002, in Egypt and the Levant) discusses the Buto stratigraphic transition as evidence for how unification actually unfolded on the ground."
+        },
+        {
+          "id": "w5",
+          "group": "Migration & Invasion",
+          "label": "A-Group Nubia disappears from the record under Egyptian pressure",
+          "date": "c.3100–2900 BC",
+          "loc": "Qustul and the Lower Nubian Nile Valley",
+          "coords": [
+            22.4,
+            31.6
+          ],
+          "hint": "The rich A-Group Nubian cemeteries around Qustul, which had rivaled contemporary Naqada Egypt in wealth and royal-style iconography, abruptly stop being used around the time of Egyptian unification — coinciding with the Gebel Sheikh Suleiman raid inscription — and Lower Nubia shows a marked population and settlement gap for centuries afterward, widely read as evidence of Egyptian military or economic pressure displacing or suppressing A-Group society, though the exact mechanism remains debated.",
+          "tag": "EVENT",
+          "note": "Williams, Excavations Between Abu Simbel and the Sudan Frontier, Part 1: The A-Group Royal Cemetery at Qustul (1986); Takamiya, 'Egyptian Pottery Distribution in A-Group Cemeteries, Lower Nubia' (2004, JEA) discusses the settlement gap and its possible causes."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -781,7 +852,64 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Status, gender and group identity as read from Predynastic grave goods",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Women's Agency",
+          "label": "Female Naqada burials rank among the cemetery's wealthiest",
+          "date": "c.3900–3300 BC",
+          "loc": "Naqada cemeteries",
+          "coords": [
+            25.9,
+            32.72
+          ],
+          "hint": "Statistical analysis of Naqada I–II grave-good wealth across sexed burials shows that a number of the richest graves in these cemeteries — measured by ivory, imported stone and quantity of pottery — belong to women, on a par with the wealthiest male 'chiefly' burials, evidence that high status and resource access in Predynastic Upper Egypt was not exclusively channelled through men, even if later pharaonic ideology would present kingship as an overwhelmingly male institution.",
+          "tag": "EVIDENCE",
+          "note": "Bard, From Farmers to Pharaohs: Mortuary Evidence for the Rise of Complex Society in Egypt (1994) presents the statistical wealth analysis by sexed burial across Naqada cemeteries."
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "label": "A-Group Nubia — visible mainly through what Egypt chose to exchange",
+          "date": "c.3300–3100 BC",
+          "loc": "Qustul, Lower Nubia",
+          "coords": [
+            22.4,
+            31.6
+          ],
+          "hint": "Almost everything known about A-Group Nubian society comes from Egyptian imports found in Nubian graves and Nubian goods found in Egyptian ones — there is no surviving A-Group writing, so the culture's own account of itself is absent, and even the interpretation of its most famous artifact, the Qustul incense burner, has been shaped largely by Egyptological debate about what it means for Egypt (see Exchange, this folio) rather than for Nubia on its own terms.",
+          "tag": "EVIDENCE",
+          "note": "Smith, Wretched Kush: Ethnic Identities and Boundaries in Egypt's Nubian Empire (2003) ch.1 discusses the historiographic asymmetry in how A-Group Nubia has been studied primarily through an Egyptological lens."
+        },
+        {
+          "id": "l3",
+          "group": "Enslaved Lives",
+          "label": "Bound captives on ceremonial palettes — the earliest unfree status imagery",
+          "date": "c.3200–3100 BC",
+          "loc": "Hierakonpolis (Main Deposit findspot of related palettes)",
+          "coords": [
+            25.1,
+            32.78
+          ],
+          "hint": "The Battlefield and Bull Palettes both show captives with arms bound behind their backs or roped by the neck, led by standard-bearers — the earliest surviving Egyptian images of unfree, subjugated human beings. These are royal commemorative objects designed to project the ruler's power, not neutral records, so what they document reliably is unification-era ideology about domination and captivity, not the lived experience of the captives themselves.",
+          "tag": "EVIDENCE",
+          "note": "Davis, Masking the Blow: The Scene of Representation in Late Prehistoric Egyptian Art (1992) analyses the bound-captive motif's propagandistic function on unification-era ceremonial objects."
+        },
+        {
+          "id": "l4",
+          "group": "Marginalised Communities",
+          "label": "The Maadi-Buto population's culture is absorbed, its own account lost",
+          "date": "c.3300–3200 BC",
+          "loc": "Maadi (near Cairo)",
+          "coords": [
+            29.96,
+            31.25
+          ],
+          "hint": "When Naqada material culture replaces the distinctive Lower Egyptian Maadi-Buto assemblage across the Delta (see World, this folio), the people living through that shift left no independent written record of what the change meant for them — whether experienced as conquest, absorption into a shared elite culture, or simple fashion change is a question the archaeological record, dominated by the Upper Egyptian winners' perspective, cannot fully answer.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Rizkana & Seeher, Maadi IV: The Predynastic Cemeteries of Maadi and Wadi Digla (1990) documents the site's material culture up to its replacement; Köhler, 'Bio-archaeology in Egypt and Nubia' (2018, in Oxford Handbook of Egyptology) discusses the interpretive limits of reading political meaning from cultural-material replacement alone."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -790,84 +918,378 @@
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Predynastic Cultures",
-      "events": []
+      "events": [
+        {
+          "y": -5200,
+          "l": "Fayum A: earliest Nile farming (c.5200–4500 BC)",
+          "entryId": "p1"
+        },
+        {
+          "y": -4800,
+          "l": "Merimde Beni Salama village (c.4800–4300 BC)",
+          "entryId": "p2"
+        },
+        {
+          "y": -4400,
+          "l": "Badarian culture (c.4400–4000 BC)",
+          "entryId": "p3"
+        },
+        {
+          "y": -4000,
+          "l": "Naqada I chiefly cemeteries (c.4000–3500 BC)",
+          "entryId": "p4"
+        },
+        {
+          "y": -3600,
+          "l": "Hierakonpolis HK6 elite cemetery (c.3600–3400 BC)",
+          "entryId": "p5"
+        }
+      ]
     },
     {
       "id": "naqada-proto-kings",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Naqada III Proto-Kings",
-      "events": []
+      "events": [
+        {
+          "y": -3320,
+          "l": "'Scorpion I' — Tomb U-j, Abydos (c.3320 BC)",
+          "entryId": "p6"
+        },
+        {
+          "y": -3200,
+          "y2": -3150,
+          "l": "Iry-Hor (c.3200–3150 BC)",
+          "entryId": "p7"
+        },
+        {
+          "y": -3150,
+          "y2": -3100,
+          "l": "Ka / Sekhen (c.3150–3100 BC)",
+          "entryId": "p8"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
       "label": "Conflict",
-      "events": []
+      "events": [
+        {
+          "y": -3500,
+          "l": "Tomb 100 combat scene, Hierakonpolis",
+          "entryId": "c1"
+        },
+        {
+          "y": -3200,
+          "l": "Battlefield Palette",
+          "entryId": "c2"
+        },
+        {
+          "y": -3150,
+          "l": "Bull Palette",
+          "entryId": "c3"
+        },
+        {
+          "y": -3100,
+          "l": "Gebel Sheikh Suleiman raid inscription",
+          "entryId": "c4"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
       "label": "Order",
-      "events": []
+      "events": [
+        {
+          "y": -3320,
+          "l": "Tomb U-j label corpus",
+          "entryId": "o1"
+        },
+        {
+          "y": -3300,
+          "l": "Tell el-Farkha sealings",
+          "entryId": "o2"
+        },
+        {
+          "y": -3200,
+          "l": "Serekh standardized cross-regionally",
+          "entryId": "o3"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
       "label": "Belief",
-      "events": []
+      "events": [
+        {
+          "y": -4000,
+          "l": "Standardized Naqada burial orientation",
+          "entryId": "b1"
+        },
+        {
+          "y": -3900,
+          "l": "Naqada female figurines in graves",
+          "entryId": "b2"
+        },
+        {
+          "y": -3400,
+          "l": "Hierakonpolis Main Deposit temple",
+          "entryId": "b3"
+        },
+        {
+          "y": -3300,
+          "l": "Cow-horned imagery on palettes",
+          "entryId": "b5"
+        },
+        {
+          "y": -3200,
+          "l": "Two Dog Palette's composite beasts",
+          "entryId": "b4"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
       "label": "Expression",
-      "events": []
+      "events": [
+        {
+          "y": -4000,
+          "l": "White Cross-lined ware",
+          "entryId": "x1"
+        },
+        {
+          "y": -4000,
+          "l": "Ivory clappers & dancer imagery",
+          "entryId": "x6"
+        },
+        {
+          "y": -3650,
+          "l": "Naqada II Decorated ware",
+          "entryId": "x2"
+        },
+        {
+          "y": -3600,
+          "l": "The 'MacGregor Man' ivory figure",
+          "entryId": "x3"
+        },
+        {
+          "y": -3400,
+          "l": "Gebelein painted linen",
+          "entryId": "x7"
+        },
+        {
+          "y": -3300,
+          "l": "Naqada tomb 1863 gold & lapis jewelry",
+          "entryId": "x5"
+        },
+        {
+          "y": -3100,
+          "l": "The Scorpion Macehead",
+          "entryId": "x4"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
       "label": "Thought",
-      "events": []
+      "events": [
+        {
+          "y": -4800,
+          "l": "Nabta Playa calendar circle",
+          "entryId": "th1"
+        },
+        {
+          "y": -4000,
+          "l": "Wadi Hammamat route rock art",
+          "entryId": "th2"
+        },
+        {
+          "y": -3600,
+          "l": "HK6 captive-animal husbandry",
+          "entryId": "th3"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
       "label": "Economy",
-      "events": []
+      "events": [
+        {
+          "y": -6000,
+          "l": "Western Desert cattle pastoralism",
+          "entryId": "ec1"
+        },
+        {
+          "y": -4000,
+          "l": "Hierakonpolis settlement growth",
+          "entryId": "ec5"
+        },
+        {
+          "y": -3800,
+          "l": "Emmer wheat & barley staples",
+          "entryId": "ec2"
+        },
+        {
+          "y": -3700,
+          "l": "HK11C large-scale brewery",
+          "entryId": "ec4"
+        },
+        {
+          "y": -3600,
+          "l": "Ripple-flaked flint knives",
+          "entryId": "ec3"
+        },
+        {
+          "y": -3300,
+          "l": "Naqada III stone-vessel workshops",
+          "entryId": "ec6"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
       "label": "Technology",
-      "events": []
+      "events": [
+        {
+          "y": -4400,
+          "l": "Copper metallurgy (Badari–Naqada)",
+          "entryId": "tc1"
+        },
+        {
+          "y": -4000,
+          "l": "Invention of Egyptian faience",
+          "entryId": "tc2"
+        },
+        {
+          "y": -3600,
+          "l": "Pot-marks precede the serekh",
+          "entryId": "tc5"
+        },
+        {
+          "y": -3500,
+          "l": "Plank-built Nile watercraft",
+          "entryId": "tc3"
+        },
+        {
+          "y": -3400,
+          "l": "Tubular copper drills for stone vessels",
+          "entryId": "tc6"
+        },
+        {
+          "y": -3200,
+          "l": "Standardized mudbrick tomb architecture",
+          "entryId": "tc4"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
       "label": "Exchange",
-      "events": []
+      "events": [
+        {
+          "y": -4400,
+          "l": "Lapis lazuli from Afghanistan",
+          "entryId": "ex3"
+        },
+        {
+          "y": -3900,
+          "l": "Maadi culture's Levant ties",
+          "entryId": "ex4"
+        },
+        {
+          "y": -3300,
+          "l": "Gebel el-Arak knife",
+          "entryId": "ex1"
+        },
+        {
+          "y": -3300,
+          "l": "Cylinder seals adopted from Mesopotamia",
+          "entryId": "ex2"
+        },
+        {
+          "y": -3200,
+          "l": "Qustul incense burner",
+          "entryId": "ex5"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
       "label": "World",
-      "events": []
+      "events": [
+        {
+          "y": -6000,
+          "l": "African Humid Period ends",
+          "entryId": "w1"
+        },
+        {
+          "y": -5300,
+          "l": "Saharan pastoralists migrate to the Nile",
+          "entryId": "w2"
+        },
+        {
+          "y": -3500,
+          "l": "Three rival Naqada chiefdoms",
+          "entryId": "w3"
+        },
+        {
+          "y": -3300,
+          "l": "Naqada absorbs the Delta's Maadi-Buto culture",
+          "entryId": "w4"
+        },
+        {
+          "y": -3100,
+          "l": "A-Group Nubia declines",
+          "entryId": "w5"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
       "label": "Lives",
-      "events": []
+      "events": [
+        {
+          "y": -3900,
+          "l": "Wealthy female Naqada burials",
+          "entryId": "l1"
+        },
+        {
+          "y": -3300,
+          "l": "A-Group Nubia's one-sided visibility",
+          "entryId": "l2"
+        },
+        {
+          "y": -3300,
+          "l": "Maadi-Buto population absorbed",
+          "entryId": "l4"
+        },
+        {
+          "y": -3200,
+          "l": "Bound captives on unification palettes",
+          "entryId": "l3"
+        }
+      ]
     }
   ]
 }
