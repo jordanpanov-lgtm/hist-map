@@ -30,7 +30,7 @@ const MAX_KEYWORDS = 6;
 // phrase. Roman numerals ("Juan Carlos I") are NOT here — they're already capitalized
 // so isCap() picks them up directly, and trimming would strip real regnal numbers.
 const GLUE = new Set([
-  'de', 'del', 'of', 'the', 'al', 'ibn', 'bin', 'von', 'van', 'da', 'di', 'le', 'la',
+  'de', 'del', 'of', 'the', 'al', 'ibn', 'bin', 'von', 'van', 'da', 'di', 'le', 'la', 'du',
 ]);
 
 // Single capitalized words that are too generic to be useful alone (function words,
@@ -57,7 +57,13 @@ const STOPWORDS = new Set([
   // "French"/"Spanish"/"Roman" recur across a thousand years of otherwise-unrelated
   // entries and produce false cross-folio links on pure co-occurrence.
   'french', 'spanish', 'roman', 'english', 'german', 'italian', 'portuguese', 'arab',
-  'byzantine', 'persian', 'greek', 'turkish', 'moorish',
+  'byzantine', 'persian', 'greek', 'turkish', 'moorish', 'egyptian', 'nubian',
+  // Sentence-initial common words/quantifiers/adjectives that happen to be capitalized
+  // only because they open a label or hint sentence ("Invention of...", "Around 3300
+  // BC...", "Bound captives...", "Three rival..."), not because they're part of a
+  // proper noun — found leaking as standalone or phrase-leading junk keywords
+  // (e.g. "Invention of Egyptian", "Around Naqada IIIA", bare "Bound", bare "Three").
+  'invention', 'around', 'bound', 'three', 'standardized',
 ]);
 
 function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
