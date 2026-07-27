@@ -475,7 +475,9 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     const meta = legendMeta.find(l => l.id === clusterId);
     return meta ? meta.name : 'Other';
   }
-  function fmtYear(y) { return y < 0 ? Math.abs(y) + ' BCE' : y + ' CE'; }
+  // BC/AD, not BCE/CE -- matches the convention every folio in hist-map already
+  // uses (FIELD_GUIDE.md's own date-format example is "9 BC-40 AD")
+  function fmtYear(y) { return y < 0 ? Math.abs(y) + ' BC' : y + ' AD'; }
   function fmtTime(t) {
     if (!t) return '';
     return t.start === t.end ? fmtYear(t.start) : (fmtYear(t.start) + '–' + fmtYear(t.end));
