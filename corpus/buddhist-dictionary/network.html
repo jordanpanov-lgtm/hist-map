@@ -140,6 +140,19 @@ body {
 .lr-types { font-size: 10px; color: var(--muted); font-family: "SFMono-Regular", Consolas, monospace; text-transform: uppercase; letter-spacing: 0.04em; }
 .lr-note { font-size: 12px; color: var(--ink-2); margin-top: 3px; line-height: 1.45; }
 
+.timeline-pane, .map-pane { flex: 1; min-width: 0; display: none; flex-direction: column; background: var(--surface); }
+.timeline-scroll { flex: 1; overflow: auto; }
+.map-scroll { flex: 1; overflow: hidden; position: relative; }
+#timeline-svg { display: block; }
+#map-svg { display: block; width: 100%; height: 100%; }
+.tl-bar, .tl-dot, .map-dot { cursor: pointer; transition: opacity 0.1s ease; }
+.tl-bar:hover, .tl-dot:hover, .map-dot:hover { opacity: 0.7; }
+.tl-label, .map-ref-label { font-size: 9.5px; fill: var(--ink-2); font-family: -apple-system, "Segoe UI", sans-serif; pointer-events: none; }
+.map-ref-label { fill: var(--muted); }
+.tl-axis, .map-grid { stroke: var(--hairline); stroke-width: 1; }
+.tl-axis-label, .map-grid-label { font-size: 10px; fill: var(--muted); font-family: "SFMono-Regular", Consolas, monospace; pointer-events: none; }
+.tl-focus-ring, .map-focus-ring { fill: none; stroke: var(--ink); stroke-width: 1.5; pointer-events: none; }
+
 .panel {
   width: 300px;
   flex: none;
@@ -212,7 +225,6 @@ body {
   gap: 8px;
 }
 .search-result:hover, .search-result:focus { background: var(--surface); color: var(--ink); }
-.search-result .pg { font-family: "SFMono-Regular", Consolas, monospace; font-size: 10.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
 .type-list { display: flex; flex-direction: column; gap: 1px; }
 .type-item {
@@ -363,10 +375,12 @@ body {
 <div class="app">
   <div class="topbar">
     <h1>Buddhism</h1>
-    <div class="sub">Top tier of most cross-referenced entries — people, schools, works, concepts, deities &amp; places</div>
+    <div class="sub">People, schools, works, concepts, deities &amp; places</div>
     <div class="viewtabs">
       <button id="vtab-graph" class="active">◈ Graph</button>
       <button id="vtab-list">☰ List</button>
+      <button id="vtab-timeline">◷ Timeline</button>
+      <button id="vtab-map">📍 Map</button>
     </div>
     <div class="stats">
       <span><b id="stat-nodes"></b> entries</span>
@@ -386,6 +400,18 @@ body {
     <div class="list-pane" id="list-pane">
       <div class="list-toolbar" id="list-count-label"></div>
       <div class="list-rows" id="list-rows"></div>
+    </div>
+    <div class="timeline-pane" id="timeline-pane">
+      <div class="list-toolbar" id="timeline-count-label"></div>
+      <div class="timeline-scroll" id="timeline-scroll">
+        <svg id="timeline-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+      </div>
+    </div>
+    <div class="map-pane" id="map-pane">
+      <div class="list-toolbar" id="map-count-label"></div>
+      <div class="map-scroll" id="map-scroll">
+        <svg id="map-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+      </div>
     </div>
     <div class="panel">
       <div id="detail-panel"></div>
@@ -663,11 +689,13 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     focusNode = n; focusSet = neighbors.get(n[idIdx]);
     soloCluster = null; clearTypeFilter();
     renderLegend(); renderFilters(); updateVisibleCount(); renderList(); renderDetail(n);
+    renderTimeline(); renderMap();
   }
   function clearSelection() {
     focusNode = null; focusSet = null;
     hideDetail();
     renderLegend(); renderFilters(); updateVisibleCount(); renderList();
+    renderTimeline(); renderMap();
   }
   function focusAndCenter(n) {
     applySelection(n);
@@ -742,7 +770,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
   document.getElementById('reset-btn').addEventListener('click', () => {
     soloCluster = null; focusNode = null; focusSet = null; clearTypeFilter();
     hideDetail();
-    fitView(); renderLegend(); renderFilters(); updateVisibleCount(); renderList(); draw();
+    fitView(); renderLegend(); renderFilters(); updateVisibleCount(); renderList(); renderTimeline(); renderMap(); draw();
   });
 
   // ---- tooltip (lightweight hover preview; full detail lives in the sidebar on click) ----
@@ -753,7 +781,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     tooltip.style.top = Math.min(cy+14, window.innerHeight-90) + 'px';
     const types = (n[F.type] || []).map(t => TYPE_LABELS[t] || t);
     tooltip.innerHTML = '<div class="hw">'+escapeHtml(n[F.headword])+'</div>'
-      + '<div class="meta">p. '+n[F.page]+' · cited by '+n[F.inDegree]+' · degree '+n[F.degree]+'</div>'
+      + '<div class="meta">cited by '+n[F.inDegree]+' · degree '+n[F.degree]+'</div>'
       + '<div class="cl">'+escapeHtml(clusterName(n[F.cluster]))+'</div>'
       + (types.length ? '<div class="cl" style="opacity:0.75">'+types.join(' · ')+'</div>' : '');
   }
@@ -773,7 +801,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
       + (time ? '<div class="det-meta"><b>When</b>'+escapeHtml(fmtTime(time))+'</div>' : '')
       + (loc ? '<div class="det-meta"><b>Where</b>'+escapeHtml(loc.label)+'</div>' : '')
       + (note ? '<div class="det-note">'+escapeHtml(note)+'</div>' : '')
-      + '<div class="det-sub">p. '+n[F.page]+' · degree '+n[F.degree]+' · cited by '+n[F.inDegree]+'</div>';
+      + '<div class="det-sub">degree '+n[F.degree]+' · cited by '+n[F.inDegree]+'</div>';
     document.getElementById('det-close').addEventListener('click', () => { clearSelection(); draw(); });
   }
   function hideDetail() { detailPanel.style.display = 'none'; detailPanel.innerHTML = ''; }
@@ -788,13 +816,21 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     viewMode = v;
     document.getElementById('stage').style.display = v === 'graph' ? '' : 'none';
     document.getElementById('list-pane').style.display = v === 'list' ? 'flex' : 'none';
+    document.getElementById('timeline-pane').style.display = v === 'timeline' ? 'flex' : 'none';
+    document.getElementById('map-pane').style.display = v === 'map' ? 'flex' : 'none';
     document.getElementById('vtab-graph').classList.toggle('active', v === 'graph');
     document.getElementById('vtab-list').classList.toggle('active', v === 'list');
+    document.getElementById('vtab-timeline').classList.toggle('active', v === 'timeline');
+    document.getElementById('vtab-map').classList.toggle('active', v === 'map');
     if (v === 'graph') applySize(stage.clientWidth, stage.clientHeight);
-    else renderList();
+    else if (v === 'list') renderList();
+    else if (v === 'timeline') renderTimeline();
+    else if (v === 'map') renderMap();
   }
   document.getElementById('vtab-graph').addEventListener('click', () => setViewMode('graph'));
   document.getElementById('vtab-list').addEventListener('click', () => setViewMode('list'));
+  document.getElementById('vtab-timeline').addEventListener('click', () => setViewMode('timeline'));
+  document.getElementById('vtab-map').addEventListener('click', () => setViewMode('map'));
 
   // ---- legend ----
   const legendEl = document.getElementById('legend');
@@ -810,7 +846,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
       btn.addEventListener('click', () => {
         focusNode = null; focusSet = null; hideDetail();
         soloCluster = (soloCluster === item.id) ? null : item.id;
-        renderLegend(); updateVisibleCount(); renderList(); draw();
+        renderLegend(); updateVisibleCount(); renderList(); renderTimeline(); renderMap(); draw();
       });
       legendEl.appendChild(btn);
     }
@@ -836,7 +872,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
       btn.addEventListener('click', () => {
         focusNode = null; focusSet = null; hideDetail();
         if (activeTypes.has(f.key)) activeTypes.delete(f.key); else activeTypes.add(f.key);
-        renderFilters(); updateVisibleCount(); renderList();
+        renderFilters(); updateVisibleCount(); renderList(); renderTimeline(); renderMap();
         draw();
       });
       filtersEl.appendChild(btn);
@@ -867,6 +903,157 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     }
   }
 
+  // ---- timeline & map: markers wired into the same select/hover/detail plumbing as
+  // the graph and list, and scoped by the same computeCurrentSet() (type filter /
+  // cluster solo / focus) so all four views always agree on what's "in view" ----
+  function wireMarkerEvents(svg) {
+    svg.querySelectorAll('[data-id]').forEach(el => {
+      const n = nodeById.get(el.getAttribute('data-id'));
+      if (!n) return;
+      el.addEventListener('click', e => { e.stopPropagation(); applySelection(n); draw(); });
+      el.addEventListener('mouseenter', e => { renderDetail(n); showTooltip(n, e.clientX, e.clientY); });
+      el.addEventListener('mousemove', e => showTooltip(n, e.clientX, e.clientY));
+      el.addEventListener('mouseleave', () => { hideTooltip(); if (focusNode) renderDetail(focusNode); else hideDetail(); });
+    });
+    svg.addEventListener('click', e => { if (e.target === svg) { clearSelection(); draw(); } });
+  }
+
+  // ---- timeline ----
+  const TL_ROW_H = 16, TL_PAD_L = 8, TL_PAD_R = 140, TL_PAD_T = 24, TL_PAD_B = 10;
+  function assignLanes(arr) {
+    const sorted = arr.slice().sort((a,b) => a[F.time].start - b[F.time].start || a[F.time].end - b[F.time].end);
+    const laneEnds = [];
+    const laneOf = new Map();
+    for (const n of sorted) {
+      const t = n[F.time];
+      let placed = false;
+      for (let i = 0; i < laneEnds.length; i++) {
+        if (t.start >= laneEnds[i]) { laneEnds[i] = t.end + 4; laneOf.set(n, i); placed = true; break; }
+      }
+      if (!placed) { laneEnds.push(t.end + 4); laneOf.set(n, laneEnds.length - 1); }
+    }
+    return { laneOf, laneCount: Math.max(1, laneEnds.length) };
+  }
+  function renderTimeline() {
+    const totalDated = nodes.filter(n => n[F.time]).length;
+    const arr = computeCurrentSet().filter(n => n[F.time]);
+    const label = arr.length.toLocaleString() + ' dated entries' + (arr.length !== totalDated ? ' (of ' + totalDated.toLocaleString() + ' total)' : '');
+    document.getElementById('timeline-count-label').textContent = label;
+    const svg = document.getElementById('timeline-svg');
+    if (arr.length === 0) { svg.innerHTML = ''; return; }
+
+    let minY = Infinity, maxY = -Infinity;
+    for (const n of arr) { minY = Math.min(minY, n[F.time].start); maxY = Math.max(maxY, n[F.time].end); }
+    if (minY === maxY) { minY -= 10; maxY += 10; }
+    const { laneOf, laneCount } = assignLanes(arr);
+
+    const scrollEl = document.getElementById('timeline-scroll');
+    const width = Math.max(scrollEl.clientWidth || 0, 700);
+    const innerW = width - TL_PAD_L - TL_PAD_R;
+    const height = TL_PAD_T + TL_PAD_B + laneCount * TL_ROW_H;
+    svg.setAttribute('viewBox', '0 0 ' + width + ' ' + height);
+    svg.setAttribute('width', width);
+    svg.setAttribute('height', height);
+    const yr2x = y => TL_PAD_L + (y - minY) / (maxY - minY) * innerW;
+
+    const span = maxY - minY;
+    const step = span > 1500 ? 200 : span > 700 ? 100 : span > 300 ? 50 : span > 100 ? 20 : 5;
+    const parts = [];
+    for (let y = Math.ceil(minY/step)*step; y <= maxY; y += step) {
+      const x = yr2x(y);
+      parts.push('<line class="tl-axis" x1="'+x+'" y1="'+TL_PAD_T+'" x2="'+x+'" y2="'+height+'" />');
+      parts.push('<text class="tl-axis-label" x="'+x+'" y="15" text-anchor="middle">'+escapeHtml(fmtYear(y))+'</text>');
+    }
+    for (const n of arr) {
+      const lane = laneOf.get(n);
+      const y = TL_PAD_T + lane*TL_ROW_H + TL_ROW_H/2;
+      const t = n[F.time];
+      const x1 = yr2x(t.start), x2 = yr2x(t.end);
+      const color = clusterColor(n[F.cluster]);
+      if (t.start === t.end) {
+        parts.push('<circle class="tl-dot" data-id="'+n[idIdx]+'" cx="'+x1+'" cy="'+y+'" r="4" style="fill:'+color+'" />');
+      } else {
+        parts.push('<rect class="tl-bar" data-id="'+n[idIdx]+'" x="'+x1+'" y="'+(y-3)+'" width="'+Math.max(2,x2-x1)+'" height="6" rx="3" style="fill:'+color+'" />');
+      }
+      if (n === focusNode) parts.push('<circle class="tl-focus-ring" cx="'+((x1+x2)/2)+'" cy="'+y+'" r="8" />');
+      parts.push('<text class="tl-label" x="'+(Math.max(x1,x2)+6)+'" y="'+(y+3)+'">'+escapeHtml(n[F.headword])+'</text>');
+    }
+    svg.innerHTML = parts.join('');
+    wireMarkerEvents(svg);
+  }
+
+  // ---- map (equirectangular scatter; the corpus is entirely South/East/Southeast
+  // Asian, so a few labeled reference cities give orientation without needing an
+  // embedded coastline asset) ----
+  const MAP_PAD = 30;
+  const MAP_REF_CITIES = [
+    { name: 'Delhi', lat: 28.6139, lng: 77.2090 },
+    { name: 'Lhasa', lat: 29.6520, lng: 91.1721 },
+    { name: 'Beijing', lat: 39.9042, lng: 116.4074 },
+    { name: 'Kyoto', lat: 35.0116, lng: 135.7681 },
+    { name: 'Colombo', lat: 6.9271, lng: 79.8612 },
+    { name: 'Kathmandu', lat: 27.7172, lng: 85.3240 },
+    { name: 'Bangkok', lat: 13.7563, lng: 100.5018 },
+  ];
+  function renderMap() {
+    const totalLocated = nodes.filter(n => n[F.location]).length;
+    const arr = computeCurrentSet().filter(n => n[F.location]);
+    const label = arr.length.toLocaleString() + ' located entries' + (arr.length !== totalLocated ? ' (of ' + totalLocated.toLocaleString() + ' total)' : '');
+    document.getElementById('map-count-label').textContent = label;
+    const svg = document.getElementById('map-svg');
+    if (arr.length === 0) { svg.innerHTML = ''; return; }
+
+    let minLat=Infinity, maxLat=-Infinity, minLng=Infinity, maxLng=-Infinity;
+    for (const n of arr) {
+      const l = n[F.location];
+      minLat = Math.min(minLat, l.lat); maxLat = Math.max(maxLat, l.lat);
+      minLng = Math.min(minLng, l.lng); maxLng = Math.max(maxLng, l.lng);
+    }
+    const latPad = Math.max(3, (maxLat-minLat)*0.12) || 5, lngPad = Math.max(3, (maxLng-minLng)*0.12) || 5;
+    minLat -= latPad; maxLat += latPad; minLng -= lngPad; maxLng += lngPad;
+
+    const scrollEl = document.getElementById('map-scroll');
+    const width = Math.max(scrollEl.clientWidth || 0, 400);
+    const height = Math.max(scrollEl.clientHeight || 0, 300);
+    svg.setAttribute('viewBox', '0 0 ' + width + ' ' + height);
+    svg.removeAttribute('width'); svg.removeAttribute('height');
+
+    const lngSpan = maxLng-minLng, latSpan = maxLat-minLat;
+    const availW = width - MAP_PAD*2, availH = height - MAP_PAD*2;
+    const s = Math.min(availW/lngSpan, availH/latSpan);
+    const offX = MAP_PAD + (availW - lngSpan*s)/2, offY = MAP_PAD + (availH - latSpan*s)/2;
+    const proj = (lat,lng) => [offX + (lng-minLng)*s, offY + (maxLat-lat)*s];
+
+    const parts = [];
+    const step = lngSpan > 60 ? 20 : lngSpan > 25 ? 10 : 5;
+    for (let g = Math.ceil(minLng/step)*step; g <= maxLng; g += step) {
+      const [x1,y1] = proj(minLat, g), [x2] = proj(maxLat, g);
+      parts.push('<line class="map-grid" x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+proj(maxLat,g)[1]+'" />');
+      parts.push('<text class="map-grid-label" x="'+(x1+3)+'" y="'+(height-6)+'">'+g+'°E</text>');
+    }
+    for (let g = Math.ceil(minLat/step)*step; g <= maxLat; g += step) {
+      const [x1,y1] = proj(g, minLng), [x2,y2] = proj(g, maxLng);
+      parts.push('<line class="map-grid" x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" />');
+      parts.push('<text class="map-grid-label" x="4" y="'+(y1-3)+'">'+g+'°N</text>');
+    }
+    for (const ref of MAP_REF_CITIES) {
+      if (ref.lat < minLat || ref.lat > maxLat || ref.lng < minLng || ref.lng > maxLng) continue;
+      const [x,y] = proj(ref.lat, ref.lng);
+      parts.push('<circle cx="'+x+'" cy="'+y+'" r="2" fill="var(--hairline)" />');
+      parts.push('<text class="map-ref-label" x="'+(x+5)+'" y="'+(y-4)+'">'+escapeHtml(ref.name)+'</text>');
+    }
+    for (const n of arr) {
+      const l = n[F.location];
+      const [x,y] = proj(l.lat, l.lng);
+      const color = clusterColor(n[F.cluster]);
+      const r = 3 + Math.sqrt(n[F.degree])*0.5;
+      parts.push('<circle class="map-dot" data-id="'+n[idIdx]+'" cx="'+x+'" cy="'+y+'" r="'+r+'" style="fill:'+color+'" />');
+      if (n === focusNode) parts.push('<circle class="map-focus-ring" cx="'+x+'" cy="'+y+'" r="'+(r+3)+'" />');
+    }
+    svg.innerHTML = parts.join('');
+    wireMarkerEvents(svg);
+  }
+
   // ---- search ----
   const searchInput = document.getElementById('search');
   const searchResults = document.getElementById('search-results');
@@ -880,21 +1067,27 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
       const div = document.createElement('div');
       div.className = 'search-result';
       div.tabIndex = 0;
-      div.innerHTML = '<span>'+escapeHtml(n[F.headword])+'</span><span class="pg">p.'+n[F.page]+'</span>';
+      div.innerHTML = '<span>'+escapeHtml(n[F.headword])+'</span>';
       div.addEventListener('click', () => focusAndCenter(n));
       searchResults.appendChild(div);
     }
   });
 
-  // theme change redraw (canvas colors are read from CSS vars at draw time)
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
-  new MutationObserver(draw).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  // theme change redraw (canvas colors, and the timeline/map SVGs' inline per-node
+  // fill styles, are all read from CSS vars at render time, not live-bound)
+  function redrawAll() { draw(); renderTimeline(); renderMap(); }
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', redrawAll);
+  new MutationObserver(redrawAll).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 
   new ResizeObserver(entries => {
     const cr = entries[0].contentRect;
     if (viewMode === 'graph') applySize(cr.width, cr.height);
   }).observe(stage);
-  window.addEventListener('resize', () => { if (viewMode === 'graph') applySize(stage.clientWidth, stage.clientHeight); });
+  window.addEventListener('resize', () => {
+    if (viewMode === 'graph') applySize(stage.clientWidth, stage.clientHeight);
+    else if (viewMode === 'timeline') renderTimeline();
+    else if (viewMode === 'map') renderMap();
+  });
 
   // belt-and-braces: some embedding contexts deliver layout a frame or two late,
   // or don't fire ResizeObserver while the tab is unpainted — poll briefly until sized.
@@ -906,5 +1099,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
   })();
 
   renderList();
+  renderTimeline();
+  renderMap();
 })();
 </script>

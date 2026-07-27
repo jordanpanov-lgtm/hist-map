@@ -8,7 +8,7 @@ const CORPORA = [
     id: "buddhist-dictionary",
     file: "corpus/buddhist-dictionary/network.html",
     label: "Buddhism",
-    sub: "Top-tier network of the Princeton Dictionary of Buddhism — people, schools, works, concepts, deities & places",
+    sub: "People, schools, works, concepts, deities & places",
     count: 514,
   },
   // To add a corpus: { id, file, label:"[Name]", sub:"[short description]", count:N }
