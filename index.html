@@ -925,26 +925,36 @@ function buildTimeline() {
   const LW = Math.min(220, Math.max(120, longestLabel * 7));
   const GAP = 2;
 
-  // ── For the POWER lane, compute non-overlapping row layout ──
-  // Each lane gets its own sub-row structure
+  const TPAD = (MAX - MIN) * 0.02; // 2% padding each side so boundary events aren't clipped
+  const px = yr => LW + Math.max(0, Math.min(1, (yr-(MIN-TPAD))/((MAX+TPAD)-(MIN-TPAD)))) * (W-LW);
+  const fmtYear = yr => yr < 0 ? Math.abs(yr) + ' BC' : yr + ' AD';
+  // point events (no span) get an effective width, in years, equivalent to ~14 logical
+  // px -- just enough that two events close in time still push each other onto separate
+  // rows instead of rendering as overlapping dots on the same row
+  const minGapYears = 14 * ((MAX+TPAD)-(MIN-TPAD)) / (W-LW);
+
+  // ── Non-overlapping row layout, for every lane (not just ones with spans) ──
+  // a lane of pure point-events still needs collision packing: two events a few years
+  // apart render as touching/overlapping dots otherwise, not just exactly-same-year ones
   function layoutSpans(events) {
-    // returns array of {ev, row} where row is 0,1,2...
-    const rows = []; // rows[i] = end year of last span placed there
-    return events.map(ev => {
-      const start = ev.y, end = (ev.y2 && ev.y2 > ev.y+1) ? ev.y2 : ev.y;
+    const sorted = events.slice().sort((a, b) => a.y - b.y || (a.y2||a.y) - (b.y2||b.y));
+    const rows = []; // rows[i] = end year of last item placed there
+    const rowOf = new Map();
+    sorted.forEach(ev => {
+      const start = ev.y;
+      const end = (ev.y2 && ev.y2 > ev.y+1) ? ev.y2 : ev.y + minGapYears;
       let r = 0;
       while (rows[r] !== undefined && rows[r] > start) r++;
       rows[r] = end;
-      return { ev, row: r };
+      rowOf.set(ev, r);
     });
+    return events.map(ev => ({ ev, row: rowOf.get(ev) }));
   }
 
   // Pre-compute layout for each lane
   const laneLayouts = lanes.map(lane => {
-    const spanned = lane.events.filter(ev => ev.y2 && ev.y2 > ev.y+1);
-    if (spanned.length === 0) return { rows: 1, layout: lane.events.map(ev => ({ev, row:0})) };
     const layout = layoutSpans(lane.events);
-    const rows = Math.max(...layout.map(l => l.row)) + 1;
+    const rows = lane.events.length ? Math.max(...layout.map(l => l.row)) + 1 : 1;
     return { rows, layout };
   });
 
@@ -965,9 +975,6 @@ function buildTimeline() {
   svg.removeAttribute('height');
   svg.innerHTML = '';
 
-  const TPAD = (MAX - MIN) * 0.02; // 2% padding each side so boundary events aren't clipped
-  const px = yr => LW + Math.max(0, Math.min(1, (yr-(MIN-TPAD))/((MAX+TPAD)-(MIN-TPAD)))) * (W-LW);
-
   // Decade grid lines + axis labels
   const TICKS = [];
   for (let yr = Math.ceil(MIN/10)*10; yr<=MAX; yr+=10) TICKS.push(yr);
@@ -980,7 +987,7 @@ function buildTimeline() {
     const t = document.createElementNS('http://www.w3.org/2000/svg','text');
     t.setAttribute('x',x); t.setAttribute('y',H-4); t.setAttribute('text-anchor','middle');
     t.setAttribute('font-size','8'); t.setAttribute('fill','#bbb'); t.setAttribute('font-family',"'Courier New',monospace");
-    t.textContent = yr; svg.appendChild(t);
+    t.textContent = fmtYear(yr); svg.appendChild(t);
   });
 
   // 476 AD marker line
