@@ -68,7 +68,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 #matrix-label{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:0;padding-bottom:8px}
 
 /* Corpus picker — distinct content type from folios: not region/period-bound */
-#corpus-section{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #b8d8b8}
+#corpus-section{margin-top:18px;padding-top:14px;border-top:1px solid #b8d8b8;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #b8d8b8}
 #corpus-label{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:8px}
 #corpus-cards{display:flex;flex-wrap:wrap;gap:8px}
 .corpus-card{background:#fff;border:1px solid #b8d8b8;border-radius:4px;padding:9px 14px;cursor:pointer;transition:all .15s;max-width:340px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
@@ -243,10 +243,6 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
           oninput="globalSearch(this.value)" autocomplete="off">
         <div id="global-results"></div>
       </div>
-      <div id="corpus-section">
-        <div id="corpus-label">OR EXPLORE A CORPUS — cross-referenced, not region/period-bound</div>
-        <div id="corpus-cards"></div>
-      </div>
       <div id="matrix-label">SELECT A FOLIO BY REGION × PERIOD</div>
     </div>
     <div id="matrix-wrap">
@@ -264,6 +260,10 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
         </thead>
         <tbody id="matrix-body"></tbody>
       </table>
+      <div id="corpus-section">
+        <div id="corpus-label">OR EXPLORE A CORPUS — cross-referenced, not region/period-bound</div>
+        <div id="corpus-cards"></div>
+      </div>
       <div id="picker-note"></div>
     </div>
   </div>
