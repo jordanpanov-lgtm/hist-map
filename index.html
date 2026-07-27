@@ -10,6 +10,7 @@
 <script src="config/registry.js"></script>
 <script src="config/regions.js"></script>
 <script src="config/style.js"></script>
+<script src="config/corpora.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
@@ -65,6 +66,21 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .gr-no-results{font-size:11px;color:#6a9a7a;font-family:'Courier New',monospace;padding:10px}
 
 #matrix-label{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:0;padding-bottom:8px}
+
+/* Corpus picker — distinct content type from folios: not region/period-bound */
+#corpus-section{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #b8d8b8}
+#corpus-label{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:8px}
+#corpus-cards{display:flex;flex-wrap:wrap;gap:8px}
+.corpus-card{background:#fff;border:1px solid #b8d8b8;border-radius:4px;padding:9px 14px;cursor:pointer;transition:all .15s;max-width:340px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.corpus-card:hover{border-color:#2a6a3a;background:#f0f8f0;box-shadow:0 2px 6px rgba(42,106,58,.15)}
+.corpus-card.active{border-color:#0e4a22;background:#e0f0e4;box-shadow:inset 0 0 0 1px #0e4a22}
+.cc-title{font-family:'IM Fell English',serif;font-size:13px;color:#0e2a18;display:flex;align-items:center;gap:6px}
+.cc-title::before{content:"◈";font-size:11px;color:#2a6a3a}
+.cc-sub{font-size:9.5px;color:#4a7a55;font-family:'Courier New',monospace;line-height:1.5;margin-top:3px}
+
+/* ── CORPUS VIEW ── */
+#corpus-view{display:none;height:calc(100vh - 37px)}
+#corpus-view iframe{width:100%;height:100%;border:none;display:block}
 
 /* Matrix scroll area */
 #matrix-wrap{flex:1;overflow-y:auto;overflow-x:hidden;padding:0 28px 20px;min-height:0}
@@ -227,6 +243,10 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
           oninput="globalSearch(this.value)" autocomplete="off">
         <div id="global-results"></div>
       </div>
+      <div id="corpus-section">
+        <div id="corpus-label">OR EXPLORE A CORPUS — cross-referenced, not region/period-bound</div>
+        <div id="corpus-cards"></div>
+      </div>
       <div id="matrix-label">SELECT A FOLIO BY REGION × PERIOD</div>
     </div>
     <div id="matrix-wrap">
@@ -272,6 +292,10 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
   </div>
 </div>
 
+<div id="corpus-view">
+  <iframe id="corpus-frame" title="Corpus network graph"></iframe>
+</div>
+
 <!-- MODAL -->
 <div id="modal-overlay" onclick="if(event.target===this)closeModal()">
   <div id="modal">
@@ -294,6 +318,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let MOD = null;
+let currentCorpus = null; // set to a CORPORA entry when a corpus (not a folio) is loaded
 let GIDX = null; // modules/_global_index.json, fetched once at boot — used to label xlinks in the modal
 let leafMap = null;
 let markerLayer = null;
@@ -306,6 +331,11 @@ function catAccent(cat) { return (CAT_COLORS[cat.id] && CAT_COLORS[cat.id].accen
 
 // ── MODULE LOADING ────────────────────────────────────────────────────────────
 function loadModule(file) {
+  currentCorpus = null;
+  document.getElementById('corpus-view').style.display = 'none';
+  document.getElementById('corpus-frame').src = ''; // stop the iframe's JS/canvas work while hidden
+  document.getElementById('header').style.display = '';
+
   const loadEl = document.getElementById('loading');
   loadEl.textContent = 'LOADING MODULE…';
   loadEl.style.display = 'flex';
@@ -328,6 +358,42 @@ function loadModule(file) {
       document.getElementById('loading').textContent = 'Error loading module — check file path.';
       console.error(err);
     });
+}
+
+// ── CORPUS LOADING ────────────────────────────────────────────────────────────
+// A corpus is a different content type from a folio: no categories, no
+// list/timeline/map tabs, no dated entries — just its own self-contained viewer
+// (a network graph today). Loading one hides the folio header/tabs entirely and
+// shows the viewer full-bleed below the topbar.
+function loadCorpus(c) {
+  MOD = null;
+  currentCorpus = c;
+  closePicker(true);
+
+  ['list-view','timeline-view','map-view'].forEach(id => document.getElementById(id).style.display = 'none');
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('header').style.display = 'none';
+  if (leafMap) { leafMap.remove(); leafMap = null; markerLayer = null; }
+
+  document.title = ATLAS_NAME + ' | ' + c.label;
+  document.getElementById('module-name-top').textContent = c.label + ' · ' + c.sub;
+  document.getElementById('picker-close').style.visibility = 'visible';
+
+  const frame = document.getElementById('corpus-frame');
+  frame.src = c.file;
+  document.getElementById('corpus-view').style.display = 'block';
+}
+
+function buildCorpusCards() {
+  const wrap = document.getElementById('corpus-cards');
+  wrap.innerHTML = '';
+  CORPORA.forEach(c => {
+    const card = document.createElement('div');
+    card.className = 'corpus-card' + (currentCorpus && currentCorpus.id === c.id ? ' active' : '');
+    card.innerHTML = `<div class="cc-title">${c.label}</div><div class="cc-sub">${c.sub}</div>`;
+    card.onclick = () => loadCorpus(c);
+    wrap.appendChild(card);
+  });
 }
 
 function renderHeader() {
@@ -483,6 +549,7 @@ function _appendFolioRow(tbody, label, tier, mods) {
 
 function openPicker() {
   buildMatrix();
+  buildCorpusCards();
   document.getElementById('global-search').value = '';
   document.getElementById('global-results').classList.remove('open');
   document.getElementById('global-results').innerHTML = '';
@@ -490,9 +557,9 @@ function openPicker() {
   setTimeout(() => document.getElementById('global-search').focus(), 80);
 }
 function closePicker(force) {
-  // Block accidental close (clicking backdrop) until a module is loaded
+  // Block accidental close (clicking backdrop) until a module or corpus is loaded
   // but always allow when force=true (card click or close button)
-  if (!force && !MOD) return;
+  if (!force && !MOD && !currentCorpus) return;
   document.getElementById('module-overlay').classList.remove('open');
 }
 
