@@ -499,9 +499,17 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     if (!grid.has(k)) grid.set(k, []);
     grid.get(k).push(n);
   }
-  function nearestNode(wx, wy, maxDist) {
+  function radiusFor(degree) { return 2.1 + Math.sqrt(degree) * 1.15; }
+
+  // hit radius per node: at least a fixed ~10-screen-px minimum tap target, but
+  // never smaller than the node's own rendered circle -- a fixed tolerance alone
+  // meant clicking near the edge of a big, high-degree circle (which can render
+  // far larger than 10px on screen) missed the node entirely, even though the
+  // click landed visibly inside it.
+  function nearestNode(wx, wy) {
     const cx = Math.floor(wx / CELL), cy = Math.floor(wy / CELL);
-    let best = null, bestD = maxDist * maxDist;
+    const minR = 10 / scale;
+    let best = null, bestD = Infinity;
     for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
       const arr = grid.get(cellKey(cx+dx, cy+dy));
       if (!arr) continue;
@@ -509,7 +517,8 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
         if (isHidden(n)) continue;
         const ddx = n[F.x]-wx, ddy = n[F.y]-wy;
         const d = ddx*ddx+ddy*ddy;
-        if (d < bestD) { bestD = d; best = n; }
+        const r = Math.max(minR, radiusFor(n[F.degree]));
+        if (d < r*r && d < bestD) { bestD = d; best = n; }
       }
     }
     return best;
@@ -519,8 +528,6 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
   const neighbors = new Map();
   for (const n of nodes) neighbors.set(n[idIdx], new Set());
   for (const [a, b] of edges) { neighbors.get(a).add(b); neighbors.get(b).add(a); }
-
-  function radiusFor(degree) { return 2.1 + Math.sqrt(degree) * 1.15; }
 
   // ---- canvas + view transform ----
   const stage = document.getElementById('stage');
@@ -736,7 +743,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     const rect = canvas.getBoundingClientRect();
     const sx = e.clientX-rect.left, sy = e.clientY-rect.top;
     const [wx, wy] = screenToWorld(sx, sy);
-    const n = nearestNode(wx, wy, 10/scale);
+    const n = nearestNode(wx, wy);
     if (n !== hoverNode) {
       hoverNode = n;
       // preview the hovered entry's description aside in the sidebar; falls back to
@@ -763,7 +770,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     const rect = canvas.getBoundingClientRect();
     const sx = e.clientX-rect.left, sy = e.clientY-rect.top;
     const [wx, wy] = screenToWorld(sx, sy);
-    const n = nearestNode(wx, wy, 10/scale);
+    const n = nearestNode(wx, wy);
     if (n) {
       if (focusNode === n) clearSelection();
       else applySelection(n);
