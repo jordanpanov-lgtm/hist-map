@@ -1,4 +1,6 @@
 <!-- Buddhist cross-reference network — top tier of most cross-referenced entries -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 :root {
   color-scheme: light dark;
@@ -142,16 +144,27 @@ body {
 
 .timeline-pane, .map-pane { flex: 1; min-width: 0; display: none; flex-direction: column; background: var(--surface); }
 .timeline-scroll { flex: 1; overflow: auto; }
-.map-scroll { flex: 1; overflow: hidden; position: relative; }
 #timeline-svg { display: block; }
-#map-svg { display: block; width: 100%; height: 100%; }
-.tl-bar, .tl-dot, .map-dot { cursor: pointer; transition: opacity 0.1s ease; }
-.tl-bar:hover, .tl-dot:hover, .map-dot:hover { opacity: 0.7; }
-.tl-label, .map-ref-label { font-size: 9.5px; fill: var(--ink-2); font-family: -apple-system, "Segoe UI", sans-serif; pointer-events: none; }
-.map-ref-label { fill: var(--muted); }
-.tl-axis, .map-grid { stroke: var(--hairline); stroke-width: 1; }
-.tl-axis-label, .map-grid-label { font-size: 10px; fill: var(--muted); font-family: "SFMono-Regular", Consolas, monospace; pointer-events: none; }
-.tl-focus-ring, .map-focus-ring { fill: none; stroke: var(--ink); stroke-width: 1.5; pointer-events: none; }
+.tl-bar, .tl-dot { cursor: pointer; transition: opacity 0.1s ease; }
+.tl-bar:hover, .tl-dot:hover { opacity: 0.7; }
+.tl-label { font-size: 9.5px; fill: var(--ink-2); font-family: -apple-system, "Segoe UI", sans-serif; pointer-events: none; }
+.tl-axis { stroke: var(--hairline); stroke-width: 1; }
+.tl-axis-label { font-size: 10px; fill: var(--muted); font-family: "SFMono-Regular", Consolas, monospace; pointer-events: none; }
+.tl-focus-ring { fill: none; stroke: var(--ink); stroke-width: 1.5; pointer-events: none; }
+
+/* ---- map: a real Leaflet + OpenStreetMap basemap, matching hist-map's own
+   folio Map tab (same tile source, same pin/cluster styling language) rather
+   than a from-scratch projection, so switching between a folio and this corpus
+   doesn't feel like a different app ---- */
+#map-container { flex: 1; min-height: 0; }
+#the-corpus-map { width: 100%; height: 100%; background: var(--surface); }
+.corpus-pin { cursor: pointer; }
+.map-pop { min-width: 160px; max-width: 240px; }
+.map-pop-item { display: flex; align-items: center; gap: 7px; padding: 5px 3px; cursor: pointer; border-radius: 4px; }
+.map-pop-item:hover { background: var(--surface); }
+.map-pop-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.map-pop-name { font-size: 12.5px; font-family: "Iowan Old Style", Georgia, serif; color: var(--ink); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--panel); color: var(--ink); }
 
 .panel {
   width: 300px;
@@ -409,9 +422,7 @@ body {
     </div>
     <div class="map-pane" id="map-pane">
       <div class="list-toolbar" id="map-count-label"></div>
-      <div class="map-scroll" id="map-scroll">
-        <svg id="map-svg" xmlns="http://www.w3.org/2000/svg"></svg>
-      </div>
+      <div id="map-container"><div id="the-corpus-map"></div></div>
     </div>
     <div class="panel">
       <div id="detail-panel"></div>
@@ -825,7 +836,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     if (v === 'graph') applySize(stage.clientWidth, stage.clientHeight);
     else if (v === 'list') renderList();
     else if (v === 'timeline') renderTimeline();
-    else if (v === 'map') renderMap();
+    else if (v === 'map') { if (!leafMap) initCorpusMap(); else { leafMap.invalidateSize(); renderMap(); } }
   }
   document.getElementById('vtab-graph').addEventListener('click', () => setViewMode('graph'));
   document.getElementById('vtab-list').addEventListener('click', () => setViewMode('list'));
@@ -982,76 +993,85 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     wireMarkerEvents(svg);
   }
 
-  // ---- map (equirectangular scatter; the corpus is entirely South/East/Southeast
-  // Asian, so a few labeled reference cities give orientation without needing an
-  // embedded coastline asset) ----
-  const MAP_PAD = 30;
-  const MAP_REF_CITIES = [
-    { name: 'Delhi', lat: 28.6139, lng: 77.2090 },
-    { name: 'Lhasa', lat: 29.6520, lng: 91.1721 },
-    { name: 'Beijing', lat: 39.9042, lng: 116.4074 },
-    { name: 'Kyoto', lat: 35.0116, lng: 135.7681 },
-    { name: 'Colombo', lat: 6.9271, lng: 79.8612 },
-    { name: 'Kathmandu', lat: 27.7172, lng: 85.3240 },
-    { name: 'Bangkok', lat: 13.7563, lng: 100.5018 },
-  ];
+  // ---- map: a real Leaflet + OpenStreetMap basemap, same tile source and pin/
+  // cluster visual language as hist-map's own folio Map tab, so this doesn't look
+  // like a different app bolted on. Lazy-initialized on first visit to the tab
+  // (a hidden-container Leaflet map lays out at zero size); renderMap() re-renders
+  // markers only, on the same computeCurrentSet() as every other view. ----
+  let leafMap = null, markerLayer = null;
+  function initCorpusMap() {
+    leafMap = L.map('the-corpus-map', { minZoom: 2, maxZoom: 12 });
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors', maxZoom: 19
+    }).addTo(leafMap);
+    const all = nodes.filter(n => n[F.location]);
+    if (all.length) {
+      leafMap.fitBounds(L.latLngBounds(all.map(n => [n[F.location].lat, n[F.location].lng])), { padding: [24, 24] });
+    } else {
+      leafMap.setView([20, 95], 4);
+    }
+    leafMap.on('click', () => { clearSelection(); draw(); });
+    renderMap();
+  }
   function renderMap() {
+    if (!leafMap) return;
     const totalLocated = nodes.filter(n => n[F.location]).length;
     const arr = computeCurrentSet().filter(n => n[F.location]);
-    const label = arr.length.toLocaleString() + ' located entries' + (arr.length !== totalLocated ? ' (of ' + totalLocated.toLocaleString() + ' total)' : '');
-    document.getElementById('map-count-label').textContent = label;
-    const svg = document.getElementById('map-svg');
-    if (arr.length === 0) { svg.innerHTML = ''; return; }
+    document.getElementById('map-count-label').textContent =
+      arr.length.toLocaleString() + ' located entries' + (arr.length !== totalLocated ? ' (of ' + totalLocated.toLocaleString() + ' total)' : '');
 
-    let minLat=Infinity, maxLat=-Infinity, minLng=Infinity, maxLng=-Infinity;
+    if (markerLayer) markerLayer.clearLayers();
+    markerLayer = L.layerGroup().addTo(leafMap);
+
+    const groups = new Map();
     for (const n of arr) {
       const l = n[F.location];
-      minLat = Math.min(minLat, l.lat); maxLat = Math.max(maxLat, l.lat);
-      minLng = Math.min(minLng, l.lng); maxLng = Math.max(maxLng, l.lng);
+      const key = l.lat.toFixed(2) + ',' + l.lng.toFixed(2);
+      if (!groups.has(key)) groups.set(key, { latlng: [l.lat, l.lng], items: [] });
+      groups.get(key).items.push(n);
     }
-    const latPad = Math.max(3, (maxLat-minLat)*0.12) || 5, lngPad = Math.max(3, (maxLng-minLng)*0.12) || 5;
-    minLat -= latPad; maxLat += latPad; minLng -= lngPad; maxLng += lngPad;
 
-    const scrollEl = document.getElementById('map-scroll');
-    const width = Math.max(scrollEl.clientWidth || 0, 400);
-    const height = Math.max(scrollEl.clientHeight || 0, 300);
-    svg.setAttribute('viewBox', '0 0 ' + width + ' ' + height);
-    svg.removeAttribute('width'); svg.removeAttribute('height');
+    for (const { latlng, items } of groups.values()) {
+      const multi = items.length > 1;
+      let html, size;
+      if (multi) {
+        const R = 13, total = Math.min(items.length, 8);
+        let slices = '';
+        items.slice(0, total).forEach((it, i) => {
+          const a0 = (i/total)*2*Math.PI - Math.PI/2, a1 = ((i+1)/total)*2*Math.PI - Math.PI/2;
+          const x1=R+R*Math.cos(a0), y1=R+R*Math.sin(a0), x2=R+R*Math.cos(a1), y2=R+R*Math.sin(a1);
+          slices += '<path d="M'+R+','+R+' L'+x1+','+y1+' A'+R+','+R+' 0 '+((a1-a0)>Math.PI?1:0)+' 1 '+x2+','+y2+' Z" fill="'+clusterColor(it[F.cluster])+'" opacity="0.92"/>';
+        });
+        html = '<div style="width:30px;height:30px;border-radius:50%;border:2px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.4);overflow:hidden;background:#fff"><svg width="30" height="30" viewBox="0 0 26 26">'+slices+'</svg></div>';
+        size = [30, 30];
+      } else {
+        const isFocus = items[0] === focusNode;
+        html = '<div style="width:22px;height:22px;border-radius:50%;background:'+clusterColor(items[0][F.cluster])+';border:2px solid '+(isFocus?'#201c14':'#fff')+';box-shadow:0 1px 5px rgba(0,0,0,.4)"></div>';
+        size = [22, 22];
+      }
+      const icon = L.divIcon({ html, className: 'corpus-pin', iconSize: size, iconAnchor: [size[0]/2, size[1]/2] });
+      const marker = L.marker(latlng, { icon }).addTo(markerLayer);
 
-    const lngSpan = maxLng-minLng, latSpan = maxLat-minLat;
-    const availW = width - MAP_PAD*2, availH = height - MAP_PAD*2;
-    const s = Math.min(availW/lngSpan, availH/latSpan);
-    const offX = MAP_PAD + (availW - lngSpan*s)/2, offY = MAP_PAD + (availH - latSpan*s)/2;
-    const proj = (lat,lng) => [offX + (lng-minLng)*s, offY + (maxLat-lat)*s];
-
-    const parts = [];
-    const step = lngSpan > 60 ? 20 : lngSpan > 25 ? 10 : 5;
-    for (let g = Math.ceil(minLng/step)*step; g <= maxLng; g += step) {
-      const [x1,y1] = proj(minLat, g), [x2] = proj(maxLat, g);
-      parts.push('<line class="map-grid" x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+proj(maxLat,g)[1]+'" />');
-      parts.push('<text class="map-grid-label" x="'+(x1+3)+'" y="'+(height-6)+'">'+g+'°E</text>');
+      if (multi) {
+        const listHtml = items.map(it =>
+          '<div class="map-pop-item" data-id="'+it[idIdx]+'">'
+          + '<span class="map-pop-dot" style="background:'+clusterColor(it[F.cluster])+'"></span>'
+          + '<span class="map-pop-name">'+escapeHtml(it[F.headword])+'</span></div>'
+        ).join('');
+        marker.bindPopup('<div class="map-pop">'+listHtml+'</div>', { maxWidth: 260 });
+        marker.on('popupopen', e => {
+          e.popup.getElement().querySelectorAll('[data-id]').forEach(el => {
+            const nd = nodeById.get(el.getAttribute('data-id'));
+            if (nd) el.addEventListener('click', () => { applySelection(nd); draw(); leafMap.closePopup(); });
+          });
+        });
+      } else {
+        const n = items[0];
+        marker.on('click', () => { applySelection(n); draw(); });
+        marker.on('mouseover', () => renderDetail(n));
+        marker.on('mouseout', () => { if (focusNode) renderDetail(focusNode); else hideDetail(); });
+      }
     }
-    for (let g = Math.ceil(minLat/step)*step; g <= maxLat; g += step) {
-      const [x1,y1] = proj(g, minLng), [x2,y2] = proj(g, maxLng);
-      parts.push('<line class="map-grid" x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" />');
-      parts.push('<text class="map-grid-label" x="4" y="'+(y1-3)+'">'+g+'°N</text>');
-    }
-    for (const ref of MAP_REF_CITIES) {
-      if (ref.lat < minLat || ref.lat > maxLat || ref.lng < minLng || ref.lng > maxLng) continue;
-      const [x,y] = proj(ref.lat, ref.lng);
-      parts.push('<circle cx="'+x+'" cy="'+y+'" r="2" fill="var(--hairline)" />');
-      parts.push('<text class="map-ref-label" x="'+(x+5)+'" y="'+(y-4)+'">'+escapeHtml(ref.name)+'</text>');
-    }
-    for (const n of arr) {
-      const l = n[F.location];
-      const [x,y] = proj(l.lat, l.lng);
-      const color = clusterColor(n[F.cluster]);
-      const r = 3 + Math.sqrt(n[F.degree])*0.5;
-      parts.push('<circle class="map-dot" data-id="'+n[idIdx]+'" cx="'+x+'" cy="'+y+'" r="'+r+'" style="fill:'+color+'" />');
-      if (n === focusNode) parts.push('<circle class="map-focus-ring" cx="'+x+'" cy="'+y+'" r="'+(r+3)+'" />');
-    }
-    svg.innerHTML = parts.join('');
-    wireMarkerEvents(svg);
   }
 
   // ---- search ----
@@ -1073,8 +1093,8 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
     }
   });
 
-  // theme change redraw (canvas colors, and the timeline/map SVGs' inline per-node
-  // fill styles, are all read from CSS vars at render time, not live-bound)
+  // theme change redraw (canvas colors, and the timeline SVG's/map pins' inline
+  // per-node fill styles, are all read from CSS vars at render time, not live-bound)
   function redrawAll() { draw(); renderTimeline(); renderMap(); }
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', redrawAll);
   new MutationObserver(redrawAll).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
@@ -1086,7 +1106,7 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
   window.addEventListener('resize', () => {
     if (viewMode === 'graph') applySize(stage.clientWidth, stage.clientHeight);
     else if (viewMode === 'timeline') renderTimeline();
-    else if (viewMode === 'map') renderMap();
+    else if (viewMode === 'map' && leafMap) leafMap.invalidateSize();
   });
 
   // belt-and-braces: some embedding contexts deliver layout a frame or two late,
@@ -1100,6 +1120,5 @@ const DATA = {"meta":{"nodeCount":514,"edgeCount":5120,"bounds":{"minX":-397,"ma
 
   renderList();
   renderTimeline();
-  renderMap();
 })();
 </script>
