@@ -11,5 +11,12 @@ const CORPORA = [
     sub: "People, schools, works, concepts, deities & places",
     count: 514,
   },
+  {
+    id: "islamic-political-thought",
+    file: "corpus/islamic-political-thought/network.html",
+    label: "Islamic Political Thought",
+    sub: "Persons, dynasties, places, schools, institutions, events, works & concepts",
+    count: 416,
+  },
   // To add a corpus: { id, file, label:"[Name]", sub:"[short description]", count:N }
 ];
