@@ -42,5 +42,6 @@ const MODULES = [
   { id:"eastern-arabia-750-1200", file:"modules/eastern-arabia-750-1200.json", label:"Islamic Eastern Arabia & the Qarmatians 750–1200", sub:"The Ibadi Imamate, the Qarmatian State and the China Trade", region:"Arabia", period:"Medieval" },
   { id:"hormuz-1200-1507",       file:"modules/hormuz-1200-1507.json",       label:"The Kingdom of Hormuz & Eastern Arabia 1200–1507", sub:"The Jewel of the Gulf, the Jabrid State and the Horse Trade", region:"Arabia", period:"Medieval" },
   { id:"portuguese-gulf-1507-1650", file:"modules/portuguese-gulf-1507-1650.json", label:"The Portuguese Gulf 1507–1650", sub:"Albuquerque's Choke-Point, the Ottoman Challenge and the Ya'ruba Liberation", region:"Arabia", period:"Early Modern" },
+  { id:"oman-gulf-1650-1820",    file:"modules/oman-gulf-1650-1820.json",    label:"Oman, the Bani Utbah & the Gulf 1650–1820", sub:"The Omani Sea Empire and the Founding of the Gulf Dynasties", region:"Arabia", period:"Early Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
