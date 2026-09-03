@@ -454,6 +454,96 @@ Modern folios inevitably cover politically live territory. Follow these rules:
 
 ---
 
+## 🕌 Gulf & Arabian Peninsula Folios — the shared-entity rule
+
+The Gulf littoral (the six modern GCC states: Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, Oman)
+has **one shared past and six recent states**. Modern borders are treaty lines drawn 1913–1974;
+every polity, trade sphere and archaeological horizon before that cuts across them. Folio
+boundaries therefore follow **the dominant polity or material-culture horizon of each era, never
+the modern map**.
+
+### Rule 1 — pre-national eras get ONE folio each, named for the era's entity
+
+| Era | Folio entity | Covers (modern) |
+|---|---|---|
+| Neolithic–Chalcolithic | Prehistoric Eastern Arabia | Gulf coast: Bahrain, E. Saudi, Qatar, Kuwait (Failaka), UAE, N. Oman |
+| Bronze Age, Gulf | **Dilmun** | Bahrain, E. Saudi (Eastern Province), Failaka (Kuwait), Tarut |
+| Bronze–Iron Age, SE Arabia | **Magan** | Oman + UAE (copper, Umm an-Nar, Wadi Suq, *aflaj* irrigation) |
+| Hellenistic–Parthian | **Tylos & Mleiha** | Bahrain (Tylos), UAE/N. Oman (Mleiha–ed-Dur kingdom), Gerrha |
+| Late Antique | **Sasanian Gulf / Beth Qatraye** | Sasanian Mazun (Oman), Church-of-the-East province of NE Arabia (Qatar, Bahrain, UAE islands) |
+| Early Islamic | **Islamic Eastern Arabia & the Qarmatians** | al-Ahsa, Bahrain, Qatif, Oman's first Ibadi Imamate |
+| High Medieval | **Kingdom of Hormuz & Eastern Arabia** | both Gulf shores; Uyunid–Usfurid–Jarwanid–Jabrid dynasties; Julfar (RAK) |
+| 16th–17th c. | **The Portuguese Gulf** | Hormuz, Muscat, Bahrain, Julfar, Khor Fakkan; Ottoman & Safavid counter-moves |
+| 17th–early 19th c. | **Oman, the Bani Utbah & the Gulf** | Ya'ruba/Busaidi Oman; founding of Al Sabah (Kuwait) & Al Khalifa (Bahrain); the Qawasim; first Saudi state in al-Hasa |
+| 1820–1971 | **The Trucial States & the British Gulf** | the maritime-truce system over the Trucial Coast, Bahrain, Qatar, Kuwait, Muscat; pearl boom & 1929 bust; oil concessions; 1971 withdrawal |
+
+The Dilmun / Magan split is **load-bearing** — eastern Arabia (Dilmun sphere, Mesopotamia-facing)
+and the Oman peninsula (Magan sphere, copper and Indian-Ocean-facing) are genuinely different
+societies in the Bronze Age and must not be merged into a generic "Gulf" folio. They converge only
+from the Hellenistic period on.
+
+### Rule 2 — each modern nation-state gets its own Modern folio
+
+Built at independence, not before: `uae-1971-today`, `kuwait-1961-today`, `bahrain-1971-today`,
+`qatar-1971-today`, `oman-1970-today` (the 1970 palace coup is the natural start), and
+`saudi-arabia-1932-today` (unification; a `saudi-arabia-1744-1932` folio covers the first two Saudi
+states). The pre-1971 shared folios carry the story up to each state's independence; the modern
+folio picks it up there. Follow all the `period_label:"Modern"` rules in the section above.
+
+### Rule 3 — region and coordinates
+
+- `region` is **`Arabia`** for every folio in this list (the finest zone in `config/regions.js`
+  covering the peninsula and Gulf). There is no finer zone; do not invent one.
+- The Kingdom of Hormuz and the Portuguese Gulf straddle the **Persian shore** (Hormuz island,
+  Bandar Abbas, Lingeh). Keep `region:"Arabia"` — the eastern-Arabian coast carries more of each
+  folio's weight — but place individual `coords` on the actual (sometimes Iranian) site and say so
+  in `loc`.
+- `mapCenter`: the Gulf itself (~26.0 N, 51.5 E) for folios spanning both shores; the entity's
+  heartland (Bahrain ~26.1/50.5, inner Oman ~23.0/57.5, Abu Dhabi ~24.4/54.4) for the rest.
+
+### Rule 4 — Gulf-specific taxonomy notes
+
+- **Power, pre-state horizons** — Dilmun and Magan have no king-lists; use point-dated `EVIDENCE`
+  entries for culture-phases (Hafit, Umm an-Nar, Wadi Suq, Barbar temple periods) exactly as
+  Predynastic Egypt's `predynastic-cultures` lane does. Named rulers appear only from the
+  Hellenistic period (the "Abiel" coin-kings of Mleiha) onward.
+- **Economy** — the **pearl fishery** is the structural backbone of Gulf material life from the
+  6th millennium BC (Marawah, Umm al-Quwain) to the 1930s. Give it recurring Economy entries in
+  every folio; the 1929–35 collapse (Japanese cultured pearls + Depression) is a first-order
+  historical event, not background. Copper (Magan), dates, dhow-building, and the horse trade to
+  India (Julfar, Hormuz) are the other recurring Economy threads.
+- **Exchange** — the Gulf is a *route*, not a periphery: Dilmun brokers Mesopotamia↔Indus; Gerrha
+  and Hormuz broker the incense and Indian-Ocean trades. Exchange should be one of the fuller
+  categories in these folios.
+- **Belief** — name the actual tradition: pre-Islamic eastern-Arabian cult (the Barbar temple,
+  Awal); **Church of the East** (not "Nestorian" as a slur — the folio may note the label);
+  **Ibadi Islam** in Oman (a distinct, third branch — never fold it into "Sunni" or treat it as a
+  sect of convenience); Twelver Shia in Bahrain and al-Ahsa; the Qarmatian movement; Wahhabism
+  from the 18th c.
+- **Conflict** — use named groups: `Ridda Wars`, `Qarmatian Campaigns`, `Portuguese–Ottoman Naval
+  War`, `Qawasim–British Wars`, `Saudi–Omani Wars`, `Buraimi Dispute`.
+
+### Rule 5 — historiographic discipline for the Gulf
+
+- **Reject the "empty desert before oil" narrative.** Pre-oil Gulf society was urban, literate,
+  monetised and globally connected (pearl merchants banking in Bombay, Hormuz coining money,
+  Dilmun sealing contracts). Oil wealth is a transformation of an existing commercial society, not
+  the arrival of history.
+- **Tribal maritime confederations are state-like actors.** The Qawasim fleet, the Bani Yas, the
+  Al Bu Said — treat their treaties, tribute systems and successions as Power/Order content, not
+  ethnography.
+- **Naming.** Use "the Gulf" in authored hint/subtitle text. "Persian Gulf" and "Arabian Gulf"
+  are both live political claims; the neutral form is "the Gulf". In `note` citations, keep
+  whatever form the cited source uses.
+- **Keep Ibadi Oman distinct.** Oman's Imamate/Sultanate trajectory diverges from the rest of the
+  Gulf from the 8th century; resist absorbing it into a single "Gulf" storyline.
+- **Colonial-era sourcing.** The India Office records, the Bushire Residency files and Lorimer's
+  *Gazetteer of the Persian Gulf* (1908–15) are the dominant primary corpus for 1820–1947 — rich
+  but written by the protecting power. Flag where the British record is the only witness, and
+  prefer an Arabic chronicle, a treaty text, or a pearl-merchant's account where one exists.
+
+---
+
 ## Historiographic Warnings for AI-Generated Content
 
 These notes address known biases in the source tradition that Claude should correct for when generating new folios.
