@@ -41,5 +41,6 @@ const MODULES = [
   { id:"beth-qatraye-240-750",   file:"modules/beth-qatraye-240-750.json",   label:"Late Antique Eastern Arabia 240–750", sub:"Sasanian Mazun, the Church of Beth Qatraye and the Coming of Islam", region:"Arabia", period:"Late Antique" },
   { id:"eastern-arabia-750-1200", file:"modules/eastern-arabia-750-1200.json", label:"Islamic Eastern Arabia & the Qarmatians 750–1200", sub:"The Ibadi Imamate, the Qarmatian State and the China Trade", region:"Arabia", period:"Medieval" },
   { id:"hormuz-1200-1507",       file:"modules/hormuz-1200-1507.json",       label:"The Kingdom of Hormuz & Eastern Arabia 1200–1507", sub:"The Jewel of the Gulf, the Jabrid State and the Horse Trade", region:"Arabia", period:"Medieval" },
+  { id:"portuguese-gulf-1507-1650", file:"modules/portuguese-gulf-1507-1650.json", label:"The Portuguese Gulf 1507–1650", sub:"Albuquerque's Choke-Point, the Ottoman Challenge and the Ya'ruba Liberation", region:"Arabia", period:"Early Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
