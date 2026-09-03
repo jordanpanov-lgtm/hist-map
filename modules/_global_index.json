@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2065,
     "folio_count": 39,
-    "xlink_pairs": 23,
+    "xlink_pairs": 42,
     "keyword_terms": 4453,
     "folios": [
       {
@@ -2270,6 +2270,44 @@
     "visigoths-589-711::lv2": "Visigothic queens — property rights and regency"
   },
   "xlinks": {
+    "beth-qatraye-240-750::k6": [
+      "eastern-arabia-750-1200::k2"
+    ],
+    "eastern-arabia-750-1200::k2": [
+      "beth-qatraye-240-750::k6"
+    ],
+    "beth-qatraye-240-750::c1": [
+      "sassanid-224-484::k8"
+    ],
+    "sassanid-224-484::k8": [
+      "beth-qatraye-240-750::c1",
+      "rome-300-400::ex1",
+      "rome-300-400::w1"
+    ],
+    "beth-qatraye-240-750::ec5": [
+      "hormuz-1200-1507::ec3"
+    ],
+    "hormuz-1200-1507::ec3": [
+      "beth-qatraye-240-750::ec5"
+    ],
+    "dilmun-3000bc-600bc::ec3": [
+      "magan-3000bc-300bc::ec2"
+    ],
+    "magan-3000bc-300bc::ec2": [
+      "dilmun-3000bc-600bc::ec3"
+    ],
+    "dilmun-3000bc-600bc::x1": [
+      "magan-3000bc-300bc::x1"
+    ],
+    "magan-3000bc-300bc::x1": [
+      "dilmun-3000bc-600bc::x1"
+    ],
+    "dilmun-3000bc-600bc::x3": [
+      "gulf-prehistory-8000bc-3000bc::x1"
+    ],
+    "gulf-prehistory-8000bc-3000bc::x1": [
+      "dilmun-3000bc-600bc::x3"
+    ],
     "egypt-3000bc-2100bc::k1": [
       "egypt-6000bc-3000bc::c2",
       "egypt-6000bc-3000bc::c3",
@@ -2300,11 +2338,35 @@
     "lakhmid-268-602::c1": [
       "ghassanid-420-638::c2"
     ],
+    "gulf-prehistory-8000bc-3000bc::p6": [
+      "magan-3000bc-300bc::k1"
+    ],
+    "magan-3000bc-300bc::k1": [
+      "gulf-prehistory-8000bc-3000bc::p6"
+    ],
     "hispania-27bc-409ad::k2": [
       "nabataean-400bc-106ce::c3"
     ],
     "nabataean-400bc-106ce::c3": [
       "hispania-27bc-409ad::k2"
+    ],
+    "hormuz-1200-1507::c3": [
+      "portuguese-gulf-1507-1650::c1"
+    ],
+    "portuguese-gulf-1507-1650::c1": [
+      "hormuz-1200-1507::c3"
+    ],
+    "hormuz-1200-1507::c5": [
+      "portuguese-gulf-1507-1650::k1"
+    ],
+    "portuguese-gulf-1507-1650::k1": [
+      "hormuz-1200-1507::c5"
+    ],
+    "magan-3000bc-300bc::ec5": [
+      "tylos-mleiha-300bc-300ad::b3"
+    ],
+    "tylos-mleiha-300bc-300ad::b3": [
+      "magan-3000bc-300bc::ec5"
     ],
     "nabataean-400bc-106ce::o3": [
       "palmyrene-100bc-273ce::k1"
@@ -2313,6 +2375,22 @@
       "nabataean-400bc-106ce::o3",
       "rome-200-300::c9",
       "rome-200-300::ex3"
+    ],
+    "oman-gulf-1650-1820::k1": [
+      "portuguese-gulf-1507-1650::c6",
+      "portuguese-gulf-1507-1650::k6"
+    ],
+    "portuguese-gulf-1507-1650::c6": [
+      "oman-gulf-1650-1820::k1"
+    ],
+    "portuguese-gulf-1507-1650::k6": [
+      "oman-gulf-1650-1820::k1"
+    ],
+    "oman-gulf-1650-1820::c6": [
+      "trucial-gulf-1820-1971::c1"
+    ],
+    "trucial-gulf-1820-1971::c1": [
+      "oman-gulf-1650-1820::c6"
     ],
     "rome-200-300::c9": [
       "palmyrene-100bc-273ce::k1"
@@ -2367,12 +2445,14 @@
     "rome-300-400::ex1": [
       "sassanid-224-484::k8"
     ],
-    "sassanid-224-484::k8": [
-      "rome-300-400::ex1",
-      "rome-300-400::w1"
-    ],
     "rome-300-400::w1": [
       "sassanid-224-484::k8"
+    ],
+    "sassanid-224-484::k1": [
+      "tylos-mleiha-300bc-300ad::k5"
+    ],
+    "tylos-mleiha-300bc-300ad::k5": [
+      "sassanid-224-484::k1"
     ],
     "spain-1230-1492::k1": [
       "spain-718-1230::k5"
@@ -2383,6 +2463,36 @@
     ],
     "spain-1230-1492::c1": [
       "spain-718-1230::k5"
+    ],
+    "trucial-gulf-1820-1971::k3": [
+      "uae-1971-today::k5"
+    ],
+    "uae-1971-today::k5": [
+      "trucial-gulf-1820-1971::k3"
+    ],
+    "trucial-gulf-1820-1971::k4": [
+      "uae-1971-today::k1"
+    ],
+    "uae-1971-today::k1": [
+      "trucial-gulf-1820-1971::k4"
+    ],
+    "trucial-gulf-1820-1971::c6": [
+      "uae-1971-today::c1"
+    ],
+    "uae-1971-today::c1": [
+      "trucial-gulf-1820-1971::c6"
+    ],
+    "trucial-gulf-1820-1971::e2": [
+      "uae-1971-today::e3"
+    ],
+    "uae-1971-today::e3": [
+      "trucial-gulf-1820-1971::e2"
+    ],
+    "trucial-gulf-1820-1971::ec3": [
+      "uae-1971-today::ec3"
+    ],
+    "uae-1971-today::ec3": [
+      "trucial-gulf-1820-1971::ec3"
     ]
   },
   "entry_keywords": {
