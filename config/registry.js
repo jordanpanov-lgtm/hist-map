@@ -39,5 +39,6 @@ const MODULES = [
   { id:"magan-3000bc-300bc",     file:"modules/magan-3000bc-300bc.json",     label:"Magan & the Oman Peninsula 3000–300 BC", sub:"Copper Land, the Falaj Revolution and the Camel", region:"Arabia", period:"Ancient" },
   { id:"tylos-mleiha-300bc-300ad", file:"modules/tylos-mleiha-300bc-300ad.json", label:"The Hellenistic & Parthian Gulf 300 BC–300 AD", sub:"Tylos, Mleiha and Gerrha — Greek Coins and the India Route", region:"Arabia", period:"Late Antique" },
   { id:"beth-qatraye-240-750",   file:"modules/beth-qatraye-240-750.json",   label:"Late Antique Eastern Arabia 240–750", sub:"Sasanian Mazun, the Church of Beth Qatraye and the Coming of Islam", region:"Arabia", period:"Late Antique" },
+  { id:"eastern-arabia-750-1200", file:"modules/eastern-arabia-750-1200.json", label:"Islamic Eastern Arabia & the Qarmatians 750–1200", sub:"The Ibadi Imamate, the Qarmatian State and the China Trade", region:"Arabia", period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
