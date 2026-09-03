@@ -44,5 +44,6 @@ const MODULES = [
   { id:"portuguese-gulf-1507-1650", file:"modules/portuguese-gulf-1507-1650.json", label:"The Portuguese Gulf 1507–1650", sub:"Albuquerque's Choke-Point, the Ottoman Challenge and the Ya'ruba Liberation", region:"Arabia", period:"Early Modern" },
   { id:"oman-gulf-1650-1820",    file:"modules/oman-gulf-1650-1820.json",    label:"Oman, the Bani Utbah & the Gulf 1650–1820", sub:"The Omani Sea Empire and the Founding of the Gulf Dynasties", region:"Arabia", period:"Early Modern" },
   { id:"trucial-gulf-1820-1971", file:"modules/trucial-gulf-1820-1971.json", label:"The Trucial States & the British Gulf 1820–1971", sub:"The Maritime Truce, the Pearl Bust and the Road to Independence", region:"Arabia", period:"Modern" },
+  { id:"uae-1971-today",         file:"modules/uae-1971-today.json",         label:"United Arab Emirates 1971–today", sub:"Federation, Oil Wealth and an Assertive Foreign Policy", region:"Arabia", period:"Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
