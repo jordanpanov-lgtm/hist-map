@@ -36,5 +36,6 @@ const MODULES = [
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },
+  { id:"magan-3000bc-300bc",     file:"modules/magan-3000bc-300bc.json",     label:"Magan & the Oman Peninsula 3000–300 BC", sub:"Copper Land, the Falaj Revolution and the Camel", region:"Arabia", period:"Ancient" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
