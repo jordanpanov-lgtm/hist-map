@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-04",
-    "figure_matches": 272,
-    "figure_matches_rejected_dynasty_mismatch": 544,
-    "figure_matches_rejected_date_implausible": 511,
-    "dynasty_alignment_proposals_count": 16,
-    "keyword_matches": 974,
-    "keyword_matches_rejected_geo_only": 1335,
-    "high_confidence": 281,
-    "medium_confidence": 58,
-    "low_confidence": 907
+    "figure_matches": 314,
+    "figure_matches_rejected_dynasty_mismatch": 648,
+    "figure_matches_rejected_date_implausible": 550,
+    "dynasty_alignment_proposals_count": 25,
+    "keyword_matches": 1021,
+    "keyword_matches_rejected_geo_only": 1512,
+    "high_confidence": 323,
+    "medium_confidence": 60,
+    "low_confidence": 952
   },
   "figure_name_matches": [
     {
@@ -2717,6 +2717,930 @@
       },
       "xlink_a": "hispania-27bc-409ad::k2",
       "xlink_b": "nabataean-400bc-106ce::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Nubia",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Nubia, Cilician Armenia and the Assassins",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1260s"
+      },
+      "match": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Gebel Sheikh Suleiman rock inscription — a raid into Nubia",
+        "decade": "3000s BC–3100s"
+      },
+      "xlink_a": "mamluks-1250-1517::c5",
+      "xlink_b": "egypt-6000bc-3000bc::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Nubia",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Nubia, Cilician Armenia and the Assassins",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1260s"
+      },
+      "match": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "ex5",
+        "cat": "exchange",
+        "label": "The Qustul incense burner and Nubia's A-Group elite",
+        "decade": "3100s BC–3200s"
+      },
+      "xlink_a": "mamluks-1250-1517::c5",
+      "xlink_b": "egypt-6000bc-3000bc::ex5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Nubia",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Nubia, Cilician Armenia and the Assassins",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1260s"
+      },
+      "match": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "w5",
+        "cat": "world",
+        "label": "A-Group Nubia disappears from the record under Egyptian pressure",
+        "decade": "2900s BC–3100s"
+      },
+      "xlink_a": "mamluks-1250-1517::c5",
+      "xlink_b": "egypt-6000bc-3000bc::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Nubia",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Nubia, Cilician Armenia and the Assassins",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1260s"
+      },
+      "match": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "l2",
+        "cat": "lives",
+        "label": "A-Group Nubia — visible mainly through what Egypt chose to exchange",
+        "decade": "3100s BC–3300s"
+      },
+      "xlink_a": "mamluks-1250-1517::c5",
+      "xlink_b": "egypt-6000bc-3000bc::l2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Mamluk system — a one-generation ruling caste",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "xlink_a": "mamluks-1250-1517::o1",
+      "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jewish",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b7",
+        "cat": "belief",
+        "label": "The Jewish communities and the office of nagid",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "b8",
+        "cat": "belief",
+        "label": "The Jewish communities and the Palestinian and Babylonian rites",
+        "decade": "960s–1170s"
+      },
+      "xlink_a": "mamluks-1250-1517::b7",
+      "xlink_b": "fatimids-909-1171::b8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jewish",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b7",
+        "cat": "belief",
+        "label": "The Jewish communities and the office of nagid",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "s2",
+        "cat": "economy",
+        "label": "Black Death in Iberia — 1348 and the Jewish pogroms",
+        "decade": "1340s"
+      },
+      "xlink_a": "mamluks-1250-1517::b7",
+      "xlink_b": "spain-1230-1492::s2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ibn Arabi",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The school of Ibn Arabi and the unity of being",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1270s–1420s"
+      },
+      "match": {
+        "folio": "al-andalus-1031-1492",
+        "id": "r1",
+        "cat": "belief",
+        "label": "Ibn Arabi — the greatest Sufi mystic of Islam",
+        "decade": "1160s–1240s"
+      },
+      "xlink_a": "mamluks-1250-1517::b4",
+      "xlink_b": "al-andalus-1031-1492::r1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ibn Arabi",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The school of Ibn Arabi and the unity of being",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1270s–1420s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "b4",
+        "cat": "belief",
+        "label": "Ibn Arabi and the unity of being",
+        "decade": "1200s–1240s"
+      },
+      "xlink_a": "mamluks-1250-1517::b4",
+      "xlink_b": "caliphate-945-1258::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Coptic church retreats to the monasteries",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1510s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Coptic golden age of Arabic letters",
+        "decade": "1200s–1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::b6",
+      "xlink_b": "ayyubids-1171-1250::b6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Coptic church retreats to the monasteries",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1510s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The Coptic community under pressure",
+        "decade": "1170s–1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::b6",
+      "xlink_b": "ayyubids-1171-1250::lv4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1350s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "xlink_a": "mamluks-1250-1517::ex3",
+      "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Enamelled",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Enamelled glass and its extinction",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1400s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex5",
+        "cat": "expression",
+        "label": "Enamelled glass and Raqqa ware",
+        "decade": "1170s–1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::ex4",
+      "xlink_b": "ayyubids-1171-1250::ex5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluks",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex1",
+        "cat": "expression",
+        "label": "The stone city of the Mamluks",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1280s–1360s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Mamluks take Egypt",
+        "decade": "1250s"
+      },
+      "xlink_a": "mamluks-1250-1517::ex1",
+      "xlink_b": "ayyubids-1171-1250::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Shadow",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex7",
+        "cat": "expression",
+        "label": "Shadow theatre, the coffee-house epic and the Nights",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1280s–1500s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Mongol shadow",
+        "decade": "1210s"
+      },
+      "xlink_a": "mamluks-1250-1517::ex7",
+      "xlink_b": "ayyubids-1171-1250::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Karimi",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The transit trade and the Karimi merchants",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1260s–1420s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1100s–1250s"
+      },
+      "xlink_a": "mamluks-1250-1517::ec1",
+      "xlink_b": "caliphate-945-1258::ec4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Black Death",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec3",
+        "cat": "economy",
+        "label": "The Black Death and the recurring plague",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s–1510s"
+      },
+      "match": {
+        "folio": "al-andalus-1031-1492",
+        "id": "s2",
+        "cat": "economy",
+        "label": "Black Death in al-Andalus — Ibn Khatima's treatise",
+        "decade": "1340s"
+      },
+      "xlink_a": "mamluks-1250-1517::ec3",
+      "xlink_b": "al-andalus-1031-1492::s2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Black Death",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec3",
+        "cat": "economy",
+        "label": "The Black Death and the recurring plague",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s–1510s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "s2",
+        "cat": "economy",
+        "label": "Black Death in Iberia — 1348 and the Jewish pogroms",
+        "decade": "1340s"
+      },
+      "xlink_a": "mamluks-1250-1517::ec3",
+      "xlink_b": "spain-1230-1492::s2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Black Death",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec3",
+        "cat": "economy",
+        "label": "The Black Death and the recurring plague",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s–1510s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "s3",
+        "cat": "economy",
+        "label": "Castilian monetary debasement -- from the Black Death to civil war",
+        "decade": "1350s–1390s"
+      },
+      "xlink_a": "mamluks-1250-1517::ec3",
+      "xlink_b": "spain-1230-1492::s3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sugar",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "tc5",
+        "cat": "technology",
+        "label": "Sugar, saltpetre and the chemical trades",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1260s–1400s"
+      },
+      "match": {
+        "folio": "al-andalus-1031-1492",
+        "id": "s5",
+        "cat": "economy",
+        "label": "The Genoese-Granada alliance -- silk, sugar and the fondaco network",
+        "decade": "1270s–1490s"
+      },
+      "xlink_a": "mamluks-1250-1517::tc5",
+      "xlink_b": "al-andalus-1031-1492::s5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Crusades",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "The diplomacy that replaced the Crusades",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1290s–1370s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "Commerce through the Crusades",
+        "decade": "1090s–1250s"
+      },
+      "xlink_a": "mamluks-1250-1517::x3",
+      "xlink_b": "caliphate-945-1258::ec5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Crusades",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "The diplomacy that replaced the Crusades",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1290s–1370s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Crusades as contact",
+        "decade": "1090s–1250s"
+      },
+      "xlink_a": "mamluks-1250-1517::x3",
+      "xlink_b": "caliphate-945-1258::x2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Crusades",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "The diplomacy that replaced the Crusades",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1290s–1370s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Crusades",
+        "decade": "1090s–1290s"
+      },
+      "xlink_a": "mamluks-1250-1517::x3",
+      "xlink_b": "caliphate-945-1258::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "European",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x7",
+        "cat": "exchange",
+        "label": "European eyes on Egypt",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1500s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x6",
+        "cat": "exchange",
+        "label": "Saladin becomes a European legend",
+        "decade": "1190s–1350s"
+      },
+      "xlink_a": "mamluks-1250-1517::x7",
+      "xlink_b": "ayyubids-1171-1250::x6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "European",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x7",
+        "cat": "exchange",
+        "label": "European eyes on Egypt",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1500s"
+      },
+      "match": {
+        "folio": "france-1494-1610",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Lyon as European financial capital",
+        "decade": "1490s–1580s"
+      },
+      "xlink_a": "mamluks-1250-1517::x7",
+      "xlink_b": "france-1494-1610::ex3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "European",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x7",
+        "cat": "exchange",
+        "label": "European eyes on Egypt",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1500s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "te3",
+        "cat": "technology",
+        "label": "Basque ferrerias -- hydropowered ironworking for European export",
+        "decade": "1300s–1490s"
+      },
+      "xlink_a": "mamluks-1250-1517::x7",
+      "xlink_b": "spain-1230-1492::te3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Making",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Making peace with the Mongols",
+        "dynasty": "Qalawunid",
+        "decade": "1320s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The making of the ulama class",
+        "decade": "1050s–1250s"
+      },
+      "xlink_a": "mamluks-1250-1517::x2",
+      "xlink_b": "caliphate-945-1258::lv1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ibn Battuta",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "Ibn Battuta in the Mamluk lands",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1320s"
+      },
+      "match": {
+        "folio": "hormuz-1200-1507",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Ibn Battuta on the Gulf",
+        "decade": "1330s"
+      },
+      "xlink_a": "mamluks-1250-1517::x4",
+      "xlink_b": "hormuz-1200-1507::x2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mongols",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Mongols are stopped",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1260s–1320s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The scholars fleeing the Mongols",
+        "decade": "1220s–1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::w1",
+      "xlink_b": "ayyubids-1171-1250::x4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Black Death",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Black Death on the western arm of the pandemic",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s"
+      },
+      "match": {
+        "folio": "al-andalus-1031-1492",
+        "id": "s2",
+        "cat": "economy",
+        "label": "Black Death in al-Andalus — Ibn Khatima's treatise",
+        "decade": "1340s"
+      },
+      "xlink_a": "mamluks-1250-1517::w4",
+      "xlink_b": "al-andalus-1031-1492::s2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Black Death",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Black Death on the western arm of the pandemic",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "s2",
+        "cat": "economy",
+        "label": "Black Death in Iberia — 1348 and the Jewish pogroms",
+        "decade": "1340s"
+      },
+      "xlink_a": "mamluks-1250-1517::w4",
+      "xlink_b": "spain-1230-1492::s2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Black Death",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Black Death on the western arm of the pandemic",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "s3",
+        "cat": "economy",
+        "label": "Castilian monetary debasement -- from the Black Death to civil war",
+        "decade": "1350s–1390s"
+      },
+      "xlink_a": "mamluks-1250-1517::w4",
+      "xlink_b": "spain-1230-1492::s3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Ottoman defters of Lahsa",
+        "decade": "1550s–1600s"
+      },
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "portuguese-gulf-1507-1650::o3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "t3",
+        "cat": "thought",
+        "label": "Piri Reis and the Ottoman charting of the Gulf",
+        "decade": "1520s"
+      },
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "portuguese-gulf-1507-1650::t3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Ottoman–Portuguese contest for the Indian Ocean",
+        "decade": "1530s"
+      },
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "portuguese-gulf-1507-1650::w2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "spain-1516-1700",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Battle of Lepanto — Ottoman advance halted",
+        "decade": "1570s"
+      },
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "spain-1516-1700::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The making of a Mamluk",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv1",
+      "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Citadel",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The great ladies of the Citadel",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The counterweight trebuchet and the citadel",
+        "decade": "1100s–1250s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv2",
+      "xlink_b": "caliphate-945-1258::tc3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Citadel",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The eunuchs of the Citadel and the Prophet's tomb",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The counterweight trebuchet and the citadel",
+        "decade": "1100s–1250s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv4",
+      "xlink_b": "caliphate-945-1258::tc3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved in Mamluk letters",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1280s–1500s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv5",
+      "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Plague",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "Plague at eye level",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s–1510s"
+      },
+      "match": {
+        "folio": "france-1494-1610",
+        "id": "s2",
+        "cat": "economy",
+        "label": "Plague cycles throughout the century",
+        "decade": "1500s–1600s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv6",
+      "xlink_b": "france-1494-1610::s2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Plague",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "Plague at eye level",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s–1510s"
+      },
+      "match": {
+        "folio": "spain-1516-1700",
+        "id": "s5",
+        "cat": "economy",
+        "label": "The plague of 1596-1602 and 17th-century demographic collapse",
+        "decade": "1590s–1680s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv6",
+      "xlink_b": "spain-1516-1700::s5"
     },
     {
       "confidence": "high",
@@ -6186,6 +7110,159 @@
       }
     },
     {
+      "name": "Timur",
+      "entry_a": {
+        "folio": "hormuz-1200-1507",
+        "id": "w2",
+        "label": "Timur's empire and Timurid Persia",
+        "dynasty": "Timurid",
+        "decade": "1370s–1400s"
+      },
+      "entry_b": {
+        "folio": "mamluks-1250-1517",
+        "id": "c7",
+        "label": "Timur sacks Aleppo and Damascus",
+        "dynasty": "Burji Mamluk",
+        "decade": "1400s"
+      }
+    },
+    {
+      "name": "Mamluk",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "o1",
+        "label": "The Mamluk system — a one-generation ruling caste",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "entry_b": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv3",
+        "label": "The mamluk regiments before the coup",
+        "dynasty": "Ayyubid",
+        "decade": "1230s"
+      }
+    },
+    {
+      "name": "Mamluk",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "o1",
+        "label": "The Mamluk system — a one-generation ruling caste",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "entry_b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv4",
+        "label": "The mamluk household",
+        "dynasty": "Seljuk",
+        "decade": "940s–1250s"
+      }
+    },
+    {
+      "name": "Mamluk",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1350s"
+      },
+      "entry_b": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv3",
+        "label": "The mamluk regiments before the coup",
+        "dynasty": "Ayyubid",
+        "decade": "1230s"
+      }
+    },
+    {
+      "name": "Mamluk",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1350s"
+      },
+      "entry_b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv4",
+        "label": "The mamluk household",
+        "dynasty": "Seljuk",
+        "decade": "940s–1250s"
+      }
+    },
+    {
+      "name": "Mongols",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "w1",
+        "label": "The Mongols are stopped",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1260s–1320s"
+      },
+      "entry_b": {
+        "folio": "caliphate-945-1258",
+        "id": "x5",
+        "label": "The scholars flee the Mongols",
+        "dynasty": "Mongol",
+        "decade": "1220s–1260s"
+      }
+    },
+    {
+      "name": "Mamluk",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv1",
+        "label": "The making of a Mamluk",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "entry_b": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv3",
+        "label": "The mamluk regiments before the coup",
+        "dynasty": "Ayyubid",
+        "decade": "1230s"
+      }
+    },
+    {
+      "name": "Mamluk",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv1",
+        "label": "The making of a Mamluk",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "entry_b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv4",
+        "label": "The mamluk household",
+        "dynasty": "Seljuk",
+        "decade": "940s–1250s"
+      }
+    },
+    {
+      "name": "Household",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv7",
+        "label": "Household slavery and the racial hierarchy",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "entry_b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv4",
+        "label": "The mamluk household",
+        "dynasty": "Seljuk",
+        "decade": "940s–1250s"
+      }
+    },
+    {
       "name": "Diocletian",
       "entry_a": {
         "folio": "rome-200-300",
@@ -6637,6 +7714,33 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Aleppo",
+        "Damascus",
+        "Enamelled"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex5",
+        "cat": "expression",
+        "label": "Enamelled glass and Raqqa ware",
+        "decade": "1170s–1260s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Enamelled glass and its extinction",
+        "decade": "1250s–1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ex5",
+      "xlink_b": "mamluks-1250-1517::ex4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Cairo",
         "Damascus",
         "Nur al-Din"
@@ -6956,6 +8060,33 @@
       "date_flag": "20yr gap",
       "xlink_a": "ayyubids-1171-1250::ec1",
       "xlink_b": "fatimids-909-1171::ec1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aden",
+        "Karimi",
+        "Qus"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The transit trade and the Karimi merchants",
+        "decade": "1260s–1420s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::ec1",
+      "xlink_b": "mamluks-1250-1517::ec1"
     },
     {
       "confidence": "medium",
@@ -8823,6 +9954,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Köse Dagh, the tributary Jazira and the fall of Syria",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Enamelled glass and its extinction",
+        "decade": "1250s–1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c11",
+      "xlink_b": "mamluks-1250-1517::ex4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Cairo",
         "Damascus"
       ],
@@ -8844,6 +10001,84 @@
       "date_flag": "6yr gap",
       "xlink_a": "ayyubids-1171-1250::o4",
       "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o4",
+        "cat": "order",
+        "label": "Ayyubid coinage and the last figural dirhams",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k3",
+        "cat": "power",
+        "label": "Baybars — the real founder of the Mamluk state",
+        "decade": "1260s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::o4",
+      "xlink_b": "mamluks-1250-1517::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o4",
+        "cat": "order",
+        "label": "Ayyubid coinage and the last figural dirhams",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The twin capitals of Sunni learning",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::o4",
+      "xlink_b": "mamluks-1250-1517::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o4",
+        "cat": "order",
+        "label": "Ayyubid coinage and the last figural dirhams",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "decade": "1250s–1350s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o4",
+      "xlink_b": "mamluks-1250-1517::ex3"
     },
     {
       "confidence": "low",
@@ -8881,6 +10116,84 @@
       "sharedCount": 2,
       "a": {
         "folio": "ayyubids-1171-1250",
+        "id": "o2",
+        "cat": "order",
+        "label": "The confederation as a form of government",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k3",
+        "cat": "power",
+        "label": "Baybars — the real founder of the Mamluk state",
+        "decade": "1260s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::o2",
+      "xlink_b": "mamluks-1250-1517::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o2",
+        "cat": "order",
+        "label": "The confederation as a form of government",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The twin capitals of Sunni learning",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::o2",
+      "xlink_b": "mamluks-1250-1517::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o2",
+        "cat": "order",
+        "label": "The confederation as a form of government",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "decade": "1250s–1350s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o2",
+      "xlink_b": "mamluks-1250-1517::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
         "id": "b2",
         "cat": "belief",
         "label": "The four-madhhab madrasa and Ash'ari theology",
@@ -8896,6 +10209,84 @@
       "date_flag": "6yr gap",
       "xlink_a": "ayyubids-1171-1250::b2",
       "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The four-madhhab madrasa and Ash'ari theology",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k3",
+        "cat": "power",
+        "label": "Baybars — the real founder of the Mamluk state",
+        "decade": "1260s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::b2",
+      "xlink_b": "mamluks-1250-1517::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The four-madhhab madrasa and Ash'ari theology",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The twin capitals of Sunni learning",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::b2",
+      "xlink_b": "mamluks-1250-1517::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The four-madhhab madrasa and Ash'ari theology",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "decade": "1250s–1350s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::b2",
+      "xlink_b": "mamluks-1250-1517::ex3"
     },
     {
       "confidence": "low",
@@ -8927,6 +10318,84 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex6",
+        "cat": "expression",
+        "label": "The poets of the Ayyubid courts",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k3",
+        "cat": "power",
+        "label": "Baybars — the real founder of the Mamluk state",
+        "decade": "1260s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::ex6",
+      "xlink_b": "mamluks-1250-1517::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex6",
+        "cat": "expression",
+        "label": "The poets of the Ayyubid courts",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The twin capitals of Sunni learning",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::ex6",
+      "xlink_b": "mamluks-1250-1517::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex6",
+        "cat": "expression",
+        "label": "The poets of the Ayyubid courts",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "decade": "1250s–1350s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ex6",
+      "xlink_b": "mamluks-1250-1517::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Damascus",
         "Syria"
       ],
@@ -8948,6 +10417,58 @@
       "date_flag": "16yr gap",
       "xlink_a": "ayyubids-1171-1250::ex3",
       "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "The citadels of Syria and the ablaq facade",
+        "decade": "1190s–1230s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Enamelled glass and its extinction",
+        "decade": "1250s–1400s"
+      },
+      "date_flag": "20yr gap",
+      "xlink_a": "ayyubids-1171-1250::ex3",
+      "xlink_b": "mamluks-1250-1517::ex4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Inlaid brass and the scattering of Mosul",
+        "decade": "1200s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Enamelled glass and its extinction",
+        "decade": "1250s–1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ex4",
+      "xlink_b": "mamluks-1250-1517::ex4"
     },
     {
       "confidence": "low",
@@ -8985,6 +10506,84 @@
       "sharedCount": 2,
       "a": {
         "folio": "ayyubids-1171-1250",
+        "id": "t6",
+        "cat": "thought",
+        "label": "Ayyubid medicine and the teaching hospital",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k3",
+        "cat": "power",
+        "label": "Baybars — the real founder of the Mamluk state",
+        "decade": "1260s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::t6",
+      "xlink_b": "mamluks-1250-1517::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "t6",
+        "cat": "thought",
+        "label": "Ayyubid medicine and the teaching hospital",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The twin capitals of Sunni learning",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::t6",
+      "xlink_b": "mamluks-1250-1517::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "t6",
+        "cat": "thought",
+        "label": "Ayyubid medicine and the teaching hospital",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "decade": "1250s–1350s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::t6",
+      "xlink_b": "mamluks-1250-1517::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
         "id": "t2",
         "cat": "thought",
         "label": "Abd al-Latif al-Baghdadi — observation against authority",
@@ -9000,6 +10599,32 @@
       "date_flag": "16yr gap",
       "xlink_a": "ayyubids-1171-1250::t2",
       "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The scholars fleeing the Mongols",
+        "decade": "1220s–1260s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Enamelled glass and its extinction",
+        "decade": "1250s–1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::x4",
+      "xlink_b": "mamluks-1250-1517::ex4"
     },
     {
       "confidence": "low",
@@ -9052,6 +10677,110 @@
       "date_flag": "6yr gap",
       "xlink_a": "ayyubids-1171-1250::lv5",
       "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved youth in Ayyubid letters",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k3",
+        "cat": "power",
+        "label": "Baybars — the real founder of the Mamluk state",
+        "decade": "1260s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv5",
+      "xlink_b": "mamluks-1250-1517::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved youth in Ayyubid letters",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The twin capitals of Sunni learning",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv5",
+      "xlink_b": "mamluks-1250-1517::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved youth in Ayyubid letters",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "decade": "1250s–1350s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv5",
+      "xlink_b": "mamluks-1250-1517::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The princess-builders of Ayyubid Syria",
+        "decade": "1180s–1240s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Enamelled glass and its extinction",
+        "decade": "1250s–1400s"
+      },
+      "date_flag": "8yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv2",
+      "xlink_b": "mamluks-1250-1517::ex4"
     },
     {
       "confidence": "low",
@@ -9208,6 +10937,32 @@
       "date_flag": "74yr gap — verify same entity, not just shared theme",
       "xlink_a": "france-1610-1715::ex1",
       "xlink_b": "france-1789-1815::ex1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Constantinople"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "al-andalus-1031-1492",
+        "id": "w2",
+        "cat": "world",
+        "label": "Nasrid diplomacy -- survival through navigation between powers",
+        "decade": "1230s–1490s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Golden Horde alliance against the Ilkhanate",
+        "decade": "1260s–1320s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "al-andalus-1031-1492::w2",
+      "xlink_b": "mamluks-1250-1517::x1"
     },
     {
       "confidence": "low",
@@ -9447,6 +11202,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Cairo",
+        "Qipchaq Turks"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k6",
+        "cat": "power",
+        "label": "Al-Salih Ayyub and rule by mamluk",
+        "decade": "1230s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The slave trade — the Black Sea, the Caucasus and Cairo",
+        "decade": "1260s–1500s"
+      },
+      "date_flag": "11yr gap",
+      "xlink_a": "ayyubids-1171-1250::k6",
+      "xlink_b": "mamluks-1250-1517::ec5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Ayyubid",
         "Cairo"
       ],
@@ -9494,6 +11275,32 @@
       "date_flag": "overlapping",
       "xlink_a": "ayyubids-1171-1250::o1",
       "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Sunni"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The twin capitals of Sunni learning",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "80yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "mamluks-1250-1517::b1"
     },
     {
       "confidence": "low",
@@ -9624,6 +11431,32 @@
       "date_flag": "overlapping",
       "xlink_a": "ayyubids-1171-1250::b1",
       "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Sunni"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni triumph in Egypt",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The twin capitals of Sunni learning",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "60yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::b1",
+      "xlink_b": "mamluks-1250-1517::b1"
     },
     {
       "confidence": "low",
@@ -10071,6 +11904,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Ayn Jalut",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Mamluks take Egypt",
+        "decade": "1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k2",
+        "cat": "power",
+        "label": "Qutuz and the road to Ayn Jalut",
+        "decade": "1250s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::w5",
+      "xlink_b": "mamluks-1250-1517::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Black Sea",
         "Cairo"
       ],
@@ -10175,6 +12034,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Black Sea",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "The slave supply of Egypt",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The slave trade — the Black Sea, the Caucasus and Cairo",
+        "decade": "1260s–1500s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv6",
+      "xlink_b": "mamluks-1250-1517::ec5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Ayyubid",
         "Cairo"
       ],
@@ -10306,6 +12191,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Cairo",
+        "Qipchaq Turks"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "The mamluk regiments before the coup",
+        "decade": "1230s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The slave trade — the Black Sea, the Caucasus and Cairo",
+        "decade": "1260s–1500s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv3",
+      "xlink_b": "mamluks-1250-1517::ec5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
         "al-Salih Ayyub"
       ],
       "sharedCount": 2,
@@ -10378,6 +12289,84 @@
       "date_flag": "78yr gap — verify same entity, not just shared theme",
       "xlink_a": "ayyubids-1171-1250::lv1",
       "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Shajar al-Durr"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Shajar al-Durr",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k1",
+        "cat": "power",
+        "label": "Aybak, Shajar al-Durr and the seizure of power",
+        "decade": "1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv1",
+      "xlink_b": "mamluks-1250-1517::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Shajar al-Durr"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Shajar al-Durr",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The great ladies of the Citadel",
+        "decade": "1250s–1500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv1",
+      "xlink_b": "mamluks-1250-1517::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mongols"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "x6",
+        "cat": "exchange",
+        "label": "The Mongols and the wider world",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Making peace with the Mongols",
+        "decade": "1320s"
+      },
+      "date_flag": "65yr gap — verify same entity, not just shared theme",
+      "xlink_a": "caliphate-945-1258::x6",
+      "xlink_b": "mamluks-1250-1517::x2"
     },
     {
       "confidence": "low",
@@ -10404,6 +12393,84 @@
       "date_flag": "16yr gap",
       "xlink_a": "caliphate-945-1258::w1",
       "xlink_b": "fatimids-909-1171::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "w6",
+        "cat": "world",
+        "label": "The end of the institutional caliphate",
+        "decade": "1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Abbasid caliphate reinstalled in Cairo",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "3yr gap",
+      "xlink_a": "caliphate-945-1258::w6",
+      "xlink_b": "mamluks-1250-1517::o2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayn Jalut",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k2",
+        "cat": "power",
+        "label": "Qutuz and the road to Ayn Jalut",
+        "decade": "1250s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "caliphate-945-1258::lv7",
+      "xlink_b": "mamluks-1250-1517::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Black Sea",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The slave trade — the Black Sea, the Caucasus and Cairo",
+        "decade": "1260s–1500s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "caliphate-945-1258::lv7",
+      "xlink_b": "mamluks-1250-1517::ec5"
     },
     {
       "confidence": "low",
@@ -11132,6 +13199,32 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-945-1258::lv4",
       "xlink_b": "fatimids-909-1171::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "European"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1789-1815",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Napoleon's looting of European art — the Louvre as world museum",
+        "decade": "1790s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "x7",
+        "cat": "exchange",
+        "label": "European eyes on Egypt",
+        "decade": "1300s–1500s"
+      },
+      "date_flag": "296yr gap — verify same entity, not just shared theme",
+      "xlink_a": "france-1789-1815::ex2",
+      "xlink_b": "mamluks-1250-1517::x7"
     },
     {
       "confidence": "low",
@@ -13737,6 +15830,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Ayn Jalut",
+        "Galilee"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "c10",
+        "cat": "conflict",
+        "label": "The sack of Baghdad and the check at Ayn Jalut",
+        "decade": "1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Ayn Jalut",
+        "decade": "1260s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::c10",
+      "xlink_b": "mamluks-1250-1517::c1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Fustat",
         "Sunni"
       ],
@@ -13789,6 +15908,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Aden",
+        "Karimi"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1100s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The transit trade and the Karimi merchants",
+        "decade": "1260s–1420s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "caliphate-945-1258::ec4",
+      "xlink_b": "mamluks-1250-1517::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Gulf",
         "Red Sea"
       ],
@@ -13836,6 +15981,58 @@
       "date_flag": "overlapping",
       "xlink_a": "beth-qatraye-240-750::ec1",
       "xlink_b": "tylos-mleiha-300bc-300ad::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Coptic church retreats to the monasteries",
+        "decade": "1300s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-6000bc-3000bc::th2",
+      "xlink_b": "mamluks-1250-1517::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Delta",
+        "Sugar"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "Sugar",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "tc5",
+        "cat": "technology",
+        "label": "Sugar, saltpetre and the chemical trades",
+        "decade": "1260s–1400s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::ec4",
+      "xlink_b": "mamluks-1250-1517::tc5"
     },
     {
       "confidence": "low",
@@ -18105,6 +20302,58 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Medina",
+        "Prophet"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The Prophet's envoys reach the Gulf",
+        "decade": "620s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The eunuchs of the Citadel and the Prophet's tomb",
+        "decade": "1250s–1510s"
+      },
+      "date_flag": "620yr gap — verify same entity, not just shared theme",
+      "xlink_a": "beth-qatraye-240-750::x4",
+      "xlink_b": "mamluks-1250-1517::lv4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Medina",
+        "Prophet"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The Prophet's biography takes written form",
+        "decade": "700s–760s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The eunuchs of the Citadel and the Prophet's tomb",
+        "decade": "1250s–1510s"
+      },
+      "date_flag": "483yr gap — verify same entity, not just shared theme",
+      "xlink_a": "caliphate-632-750::t3",
+      "xlink_b": "mamluks-1250-1517::lv4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Abu Dhabi",
         "Bani Yas"
       ],
@@ -19140,6 +21389,32 @@
       "date_flag": "167yr gap — verify same entity, not just shared theme",
       "xlink_a": "trucial-gulf-1820-1971::c1",
       "xlink_b": "uae-1971-today::k8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Indian Ocean",
+        "Ming China"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hormuz-1200-1507",
+        "id": "w3",
+        "cat": "world",
+        "label": "China withdraws from the sea",
+        "decade": "1430s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "x6",
+        "cat": "exchange",
+        "label": "Embassies from the Indian Ocean and Ming China",
+        "decade": "1400s–1440s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hormuz-1200-1507::w3",
+      "xlink_b": "mamluks-1250-1517::x6"
     },
     {
       "confidence": "low",
@@ -26472,6 +28747,32 @@
       "date_flag": "254yr gap — verify same entity, not just shared theme",
       "xlink_a": "spain-1516-1700::lv1",
       "xlink_b": "spain-1900-1975::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Africa",
+        "Cape"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hormuz-1200-1507",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Portuguese round Africa",
+        "decade": "1480s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "w5",
+        "cat": "world",
+        "label": "The spice route goes around Africa",
+        "decade": "1490s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hormuz-1200-1507::w5",
+      "xlink_b": "mamluks-1250-1517::w5"
     },
     {
       "confidence": "low",
