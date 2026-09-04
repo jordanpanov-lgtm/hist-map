@@ -320,6 +320,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 let MOD = null;
 let currentCorpus = null; // set to a CORPORA entry when a corpus (not a folio) is loaded
 let GIDX = null; // modules/_global_index.json, fetched once at boot — used to label xlinks in the modal
+let MODAL_ENTRY = null; // entry currently shown in the modal, so renderRelated can re-run when GIDX arrives
 let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
@@ -744,6 +745,7 @@ function openModal(entry, accent) {
   document.getElementById('modal-hint').textContent = entry.hint || '';
   document.getElementById('modal-hint').style.borderLeftColor = ac;
   document.getElementById('modal-note').textContent = entry.note || '';
+  MODAL_ENTRY = entry;
   renderRelated(entry);
   document.getElementById('modal-overlay').classList.add('open');
 }
@@ -1264,7 +1266,11 @@ window.addEventListener('load', () => {
   setTimeout(buildSearchIndex, 1500);
   // Fetch the prebuilt cross-folio index in the background, used to label related-entry
   // links in the modal (built by modules/build-global-index.js, not regenerated here).
-  fetch('modules/_global_index.json').then(r => r.json()).then(d => { GIDX = d; }).catch(() => {});
+  fetch('modules/_global_index.json').then(r => r.json()).then(d => {
+    GIDX = d;
+    // If a modal is already open, its RELATED ENTRIES rendered with the id fallback — refresh them now.
+    if (MODAL_ENTRY && document.getElementById('modal-overlay').classList.contains('open')) renderRelated(MODAL_ENTRY);
+  }).catch(() => {});
 });
 window.addEventListener('resize', () => { /* viewBox scales automatically */ });
 </script>
