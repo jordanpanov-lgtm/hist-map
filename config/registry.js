@@ -42,6 +42,12 @@ const MODULES = [
   { id:"mamluks-1250-1517",     file:"modules/mamluks-1250-1517.json",     label:"The Mamluk Sultanate 1250–1517", sub:"The Slave-Soldier Empire, the Mongol Wall and the Cairo of the Sultans", region:"Egypt", period:"Medieval" },
   // PLANNED — successor territorial empires: ottomans-* (region:"Near East"), and safavid-iran /
   //   mughals under their zones.
+  // ── PREHISTORIC INTERIOR ARABIA (Hejaz & Najd — a distinct thread from the Gulf
+  //   littoral folios below: same "Arabia" region, different geography and culture) ─
+  { id:"arabia-paleolithic-500000bc-8000bc", file:"modules/arabia-paleolithic-500000bc-8000bc.json", label:"Palaeolithic Arabia 500,000–8,000 BC", sub:"Green Corridors, Archaic Hominins and Homo Sapiens Out of Africa", region:"Arabia", period:"Prehistoric" },
+  { id:"hejaz-prehistory-8000bc-1200bc", file:"modules/hejaz-prehistory-8000bc-1200bc.json", label:"Prehistoric Northwest Arabia 8,000–1,200 BC", sub:"Mustatils, the Funerary Avenues and the Walled Oases of Tayma and Khaybar", region:"Arabia", period:"Prehistoric" },
+  // PLANNED — the thread continues: a Dadan-and-Lihyan folio (region "Arabia", c.1000–100 BC)
+  //   would bridge the gap to nabataean-400bc-106ce.json, already built above.
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },

@@ -64,6 +64,12 @@ const STOPWORDS = new Set([
   // proper noun — found leaking as standalone or phrase-leading junk keywords
   // (e.g. "Invention of Egyptian", "Around Naqada IIIA", bare "Bound", bare "Three").
   'invention', 'around', 'bound', 'three', 'standardized',
+  // More of the same, found in the Palaeolithic/Prehistoric Arabia folios: labels
+  // opening on a number-word or a negating quantifier ("Seventeen thousand marked...",
+  // "One finger, one person...", "Neither the Nubian Complex population...", "Dead-end
+  // dispersals...") leaked as bare "Seventeen", "One", a four-word "Neither the Nubian
+  // Complex" clause fragment, and bare "Dead-end".
+  'neither', 'one', 'seventeen', 'dead-end',
 ]);
 
 function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
