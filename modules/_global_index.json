@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2119,
+    "total_entries": 2121,
     "folio_count": 40,
-    "xlink_pairs": 56,
-    "keyword_terms": 4540,
+    "xlink_pairs": 61,
+    "keyword_terms": 4542,
     "folios": [
       {
         "id": "al-andalus-1031-1492",
@@ -28,7 +28,7 @@
       {
         "id": "eastern-arabia-750-1200",
         "title": "Islamic Eastern Arabia & the Qarmatians",
-        "entries": 51
+        "entries": 52
       },
       {
         "id": "egypt-3000bc-2100bc",
@@ -113,7 +113,7 @@
       {
         "id": "oman-gulf-1650-1820",
         "title": "Oman, the Bani Utbah & the Gulf",
-        "entries": 58
+        "entries": 59
       },
       {
         "id": "palmyrene-100bc-273ce",
@@ -458,6 +458,7 @@
     "eastern-arabia-750-1200::lv2": "The Sabiyya — the state's collective slaves",
     "eastern-arabia-750-1200::lv3": "A commonwealth with no poor",
     "eastern-arabia-750-1200::lv4": "The pilgrims of 930",
+    "eastern-arabia-750-1200::lv5": "The ghulam — the beloved youth as a social figure",
     "egypt-3000bc-2100bc::k1": "Narmer — unifier of Upper and Lower Egypt",
     "egypt-3000bc-2100bc::k2": "Djer — early royal record-keeping",
     "egypt-3000bc-2100bc::k3": "Den — first king shown wearing the Double Crown",
@@ -1254,6 +1255,7 @@
     "oman-gulf-1650-1820::lv2": "Slavery on the Omani coast",
     "oman-gulf-1650-1820::lv3": "Women and the household economy of the dive season",
     "oman-gulf-1650-1820::lv4": "The Hinawi–Ghafiri divide",
+    "oman-gulf-1650-1820::lv5": "Same-sex roles on the Omani–Swahili coast",
     "palmyrene-100bc-273ce::k1": "Palmyra as autonomous caravan city",
     "palmyrene-100bc-273ce::k2": "Odaenathus I — first titled Palmyrene lord",
     "palmyrene-100bc-273ce::k3": "Odaenathus II — defeats Shapur I, saves the Roman East",
@@ -2329,6 +2331,14 @@
     "visigoths-589-711::lv2": "Visigothic queens — property rights and regency"
   },
   "xlinks": {
+    "al-andalus-711-1031::lv3": [
+      "eastern-arabia-750-1200::lv5"
+    ],
+    "eastern-arabia-750-1200::lv5": [
+      "al-andalus-711-1031::lv3",
+      "oman-gulf-1650-1820::lv5",
+      "sassanid-484-651::lv3"
+    ],
     "beth-qatraye-240-750::k6": [
       "eastern-arabia-750-1200::k2"
     ],
@@ -2372,6 +2382,14 @@
     ],
     "oman-1970-today::b1": [
       "eastern-arabia-750-1200::b1"
+    ],
+    "oman-gulf-1650-1820::lv5": [
+      "eastern-arabia-750-1200::lv5",
+      "oman-1970-today::lv2",
+      "sassanid-484-651::lv2"
+    ],
+    "sassanid-484-651::lv3": [
+      "eastern-arabia-750-1200::lv5"
     ],
     "egypt-3000bc-2100bc::k1": [
       "egypt-6000bc-3000bc::c2",
@@ -2438,6 +2456,7 @@
     ],
     "oman-1970-today::lv2": [
       "lakhmid-268-602::lv2",
+      "oman-gulf-1650-1820::lv5",
       "sassanid-484-651::lv2"
     ],
     "magan-3000bc-300bc::ec5": [
@@ -2507,7 +2526,8 @@
       "oman-1970-today::lv1"
     ],
     "sassanid-484-651::lv2": [
-      "oman-1970-today::lv2"
+      "oman-1970-today::lv2",
+      "oman-gulf-1650-1820::lv5"
     ],
     "oman-gulf-1650-1820::k1": [
       "portuguese-gulf-1507-1650::c6",
@@ -4226,6 +4246,13 @@
     "eastern-arabia-750-1200::lv4": [
       "Mecca",
       "Zamzam"
+    ],
+    "eastern-arabia-750-1200::lv5": [
+      "Basra",
+      "Siraf",
+      "Gulf",
+      "Abbasid",
+      "Abu Nuwas"
     ],
     "egypt-3000bc-2100bc::k1": [
       "Dynasty 0-1",
@@ -9245,6 +9272,14 @@
     "oman-gulf-1650-1820::lv4": [
       "Oman",
       "Hinawi–Ghafiri"
+    ],
+    "oman-gulf-1650-1820::lv5": [
+      "Zanzibar",
+      "Pemba",
+      "Mombasa",
+      "Lamu",
+      "Muscat",
+      "Same-sex"
     ],
     "palmyrene-100bc-273ce::k1": [
       "Palmyrene",
@@ -18112,6 +18147,7 @@
       "eastern-arabia-750-1200::tc2",
       "eastern-arabia-750-1200::tc4",
       "eastern-arabia-750-1200::lv1",
+      "eastern-arabia-750-1200::lv5",
       "portuguese-gulf-1507-1650::t4",
       "portuguese-gulf-1507-1650::ec4",
       "trucial-gulf-1820-1971::w3"
@@ -18200,7 +18236,8 @@
       "beth-qatraye-240-750::c4",
       "beth-qatraye-240-750::w5",
       "eastern-arabia-750-1200::k1",
-      "eastern-arabia-750-1200::c1"
+      "eastern-arabia-750-1200::c1",
+      "eastern-arabia-750-1200::lv5"
     ],
     "Ibadi Oman": [
       "beth-qatraye-240-750::c4",
@@ -18240,6 +18277,7 @@
       "eastern-arabia-750-1200::tc1",
       "eastern-arabia-750-1200::x5",
       "eastern-arabia-750-1200::w4",
+      "eastern-arabia-750-1200::lv5",
       "gulf-prehistory-8000bc-3000bc::e2",
       "gulf-prehistory-8000bc-3000bc::x3",
       "hormuz-1200-1507::k2",
@@ -19444,7 +19482,8 @@
       "eastern-arabia-750-1200::t2",
       "eastern-arabia-750-1200::t3",
       "eastern-arabia-750-1200::t4",
-      "eastern-arabia-750-1200::ec4"
+      "eastern-arabia-750-1200::ec4",
+      "eastern-arabia-750-1200::lv5"
     ],
     "Chinese": [
       "eastern-arabia-750-1200::e3",
@@ -19549,12 +19588,14 @@
       "oman-1970-today::w2",
       "oman-gulf-1650-1820::ec4",
       "oman-gulf-1650-1820::x1",
-      "oman-gulf-1650-1820::lv2"
+      "oman-gulf-1650-1820::lv2",
+      "oman-gulf-1650-1820::lv5"
     ],
     "Pemba": [
       "eastern-arabia-750-1200::x3",
       "hormuz-1200-1507::x5",
-      "oman-gulf-1650-1820::x1"
+      "oman-gulf-1650-1820::x1",
+      "oman-gulf-1650-1820::lv5"
     ],
     "Kilwa": [
       "eastern-arabia-750-1200::x3",
@@ -19624,6 +19665,9 @@
     ],
     "Zamzam": [
       "eastern-arabia-750-1200::lv4"
+    ],
+    "Abu Nuwas": [
+      "eastern-arabia-750-1200::lv5"
     ],
     "Dynasty 0-1": [
       "egypt-3000bc-2100bc::k1",
@@ -24001,6 +24045,7 @@
       "oman-gulf-1650-1820::x4",
       "oman-gulf-1650-1820::x5",
       "oman-gulf-1650-1820::lv2",
+      "oman-gulf-1650-1820::lv5",
       "portuguese-gulf-1507-1650::c3",
       "portuguese-gulf-1507-1650::o1",
       "portuguese-gulf-1507-1650::e2",
@@ -25057,7 +25102,8 @@
     "Mombasa": [
       "hormuz-1200-1507::x5",
       "oman-gulf-1650-1820::c1",
-      "oman-gulf-1650-1820::ec4"
+      "oman-gulf-1650-1820::ec4",
+      "oman-gulf-1650-1820::lv5"
     ],
     "Swahili": [
       "hormuz-1200-1507::x5",
@@ -26675,6 +26721,13 @@
     ],
     "Hinawi–Ghafiri": [
       "oman-gulf-1650-1820::lv4"
+    ],
+    "Lamu": [
+      "oman-gulf-1650-1820::lv5"
+    ],
+    "Same-sex": [
+      "oman-gulf-1650-1820::lv5",
+      "spain-1975-today::lv1"
     ],
     "Palmyrene": [
       "palmyrene-100bc-273ce::k1",
@@ -32986,9 +33039,6 @@
     ],
     "Gender-Based Violence": [
       "spain-1975-today::lv5"
-    ],
-    "Same-sex": [
-      "spain-1975-today::lv1"
     ],
     "Prime Minister Zapatero": [
       "spain-1975-today::lv1"
