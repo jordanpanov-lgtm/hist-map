@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2424,
     "folio_count": 44,
-    "xlink_pairs": 84,
+    "xlink_pairs": 100,
     "keyword_terms": 5009,
     "folios": [
       {
@@ -2654,6 +2654,14 @@
     "visigoths-589-711::lv2": "Visigothic queens — property rights and regency"
   },
   "xlinks": {
+    "al-andalus-711-1031::k3": [
+      "fatimids-909-1171::w1"
+    ],
+    "fatimids-909-1171::w1": [
+      "al-andalus-711-1031::k3",
+      "caliphate-750-945::x5",
+      "eastern-arabia-750-1200::w2"
+    ],
     "al-andalus-711-1031::c1": [
       "caliphate-632-750::x5"
     ],
@@ -2753,10 +2761,21 @@
       "caliphate-750-945::c8"
     ],
     "caliphate-750-945::b6": [
-      "eastern-arabia-750-1200::x2"
+      "eastern-arabia-750-1200::x2",
+      "fatimids-909-1171::x1"
     ],
     "eastern-arabia-750-1200::x2": [
+      "caliphate-750-945::b6",
+      "fatimids-909-1171::c3"
+    ],
+    "fatimids-909-1171::x1": [
       "caliphate-750-945::b6"
+    ],
+    "caliphate-750-945::t7": [
+      "fatimids-909-1171::t5"
+    ],
+    "fatimids-909-1171::t5": [
+      "caliphate-750-945::t7"
     ],
     "caliphate-750-945::ec2": [
       "eastern-arabia-750-1200::ec1"
@@ -2771,10 +2790,12 @@
       "caliphate-750-945::ec3"
     ],
     "caliphate-750-945::x5": [
-      "eastern-arabia-750-1200::w2"
+      "eastern-arabia-750-1200::w2",
+      "fatimids-909-1171::w1"
     ],
     "eastern-arabia-750-1200::w2": [
-      "caliphate-750-945::x5"
+      "caliphate-750-945::x5",
+      "fatimids-909-1171::w1"
     ],
     "caliphate-750-945::w2": [
       "eastern-arabia-750-1200::w1"
@@ -2798,11 +2819,49 @@
     "caliphate-945-1258::lv4": [
       "caliphate-750-945::lv1"
     ],
+    "caliphate-945-1258::c4": [
+      "fatimids-909-1171::w4"
+    ],
+    "fatimids-909-1171::w4": [
+      "caliphate-945-1258::c4"
+    ],
+    "caliphate-945-1258::c6": [
+      "fatimids-909-1171::c10"
+    ],
+    "fatimids-909-1171::c10": [
+      "caliphate-945-1258::c6"
+    ],
+    "caliphate-945-1258::c8": [
+      "fatimids-909-1171::b5"
+    ],
+    "fatimids-909-1171::b5": [
+      "caliphate-945-1258::c8",
+      "caliphate-945-1258::b6"
+    ],
+    "caliphate-945-1258::b6": [
+      "fatimids-909-1171::b5"
+    ],
+    "caliphate-945-1258::ec4": [
+      "fatimids-909-1171::ec1"
+    ],
+    "fatimids-909-1171::ec1": [
+      "caliphate-945-1258::ec4"
+    ],
     "caliphate-945-1258::w2": [
-      "eastern-arabia-750-1200::w4"
+      "eastern-arabia-750-1200::w4",
+      "fatimids-909-1171::w3"
     ],
     "eastern-arabia-750-1200::w4": [
       "caliphate-945-1258::w2"
+    ],
+    "fatimids-909-1171::w3": [
+      "caliphate-945-1258::w2"
+    ],
+    "caliphate-945-1258::w4": [
+      "fatimids-909-1171::w5"
+    ],
+    "fatimids-909-1171::w5": [
+      "caliphate-945-1258::w4"
     ],
     "caliphate-945-1258::w5": [
       "hormuz-1200-1507::w1"
@@ -2811,7 +2870,11 @@
       "caliphate-945-1258::w5"
     ],
     "caliphate-945-1258::lv7": [
+      "fatimids-909-1171::lv4",
       "spain-1230-1492::lv3"
+    ],
+    "fatimids-909-1171::lv4": [
+      "caliphate-945-1258::lv7"
     ],
     "spain-1230-1492::lv3": [
       "caliphate-945-1258::lv7"
@@ -2840,6 +2903,15 @@
     "oman-1970-today::b1": [
       "eastern-arabia-750-1200::b1"
     ],
+    "eastern-arabia-750-1200::tc4": [
+      "fatimids-909-1171::e4"
+    ],
+    "fatimids-909-1171::e4": [
+      "eastern-arabia-750-1200::tc4"
+    ],
+    "fatimids-909-1171::c3": [
+      "eastern-arabia-750-1200::x2"
+    ],
     "oman-gulf-1650-1820::lv5": [
       "eastern-arabia-750-1200::lv5",
       "oman-1970-today::lv2",
@@ -2865,6 +2937,12 @@
     ],
     "egypt-3000bc-2100bc::c1": [
       "egypt-6000bc-3000bc::c2"
+    ],
+    "fatimids-909-1171::lv1": [
+      "spain-718-1230::lv1"
+    ],
+    "spain-718-1230::lv1": [
+      "fatimids-909-1171::lv1"
     ],
     "france-1715-1789::k3": [
       "france-1789-1815::k1"
