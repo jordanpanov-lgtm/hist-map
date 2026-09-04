@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2345,
+    "total_entries": 2346,
     "folio_count": 43,
-    "xlink_pairs": 83,
-    "keyword_terms": 4891,
+    "xlink_pairs": 84,
+    "keyword_terms": 4896,
     "folios": [
       {
         "id": "al-andalus-1031-1492",
@@ -33,7 +33,7 @@
       {
         "id": "caliphate-945-1258",
         "title": "The Abbasid Caliphate",
-        "entries": 79
+        "entries": 80
       },
       {
         "id": "dilmun-3000bc-600bc",
@@ -594,6 +594,7 @@
     "caliphate-945-1258::lv4": "The mamluk household",
     "caliphate-945-1258::lv5": "The beloved and the jurist — a continuing tension",
     "caliphate-945-1258::lv6": "The human toll of the Mongol conquest",
+    "caliphate-945-1258::lv7": "The conquest stocks the slave markets — and makes the Mamluk state",
     "dilmun-3000bc-600bc::k1": "Dilmun enters the cuneiform record",
     "dilmun-3000bc-600bc::k2": "Sargon of Akkad — 'ships of Dilmun, Magan and Meluhha'",
     "dilmun-3000bc-600bc::k3": "The walled capital at Qal'at al-Bahrain",
@@ -2725,6 +2726,12 @@
     ],
     "hormuz-1200-1507::w1": [
       "caliphate-945-1258::w5"
+    ],
+    "caliphate-945-1258::lv7": [
+      "spain-1230-1492::lv3"
+    ],
+    "spain-1230-1492::lv3": [
+      "caliphate-945-1258::lv7"
     ],
     "dilmun-3000bc-600bc::ec3": [
       "magan-3000bc-300bc::ec2"
@@ -5437,6 +5444,18 @@
       "Merv",
       "Baghdad",
       "Mongol"
+    ],
+    "caliphate-945-1258::lv7": [
+      "Qipchaq steppe",
+      "Black Sea",
+      "Sudak",
+      "Cairo",
+      "Mamluk Sultanate",
+      "al-Salih Ayyub",
+      "Ayn Jalut",
+      "Caffa",
+      "Genoa",
+      "Venetian Tana"
     ],
     "dilmun-3000bc-600bc::k1": [
       "Referenced",
@@ -18705,6 +18724,7 @@
       "caliphate-945-1258::x6",
       "caliphate-945-1258::w1",
       "caliphate-945-1258::w6",
+      "caliphate-945-1258::lv7",
       "eastern-arabia-750-1200::w2",
       "egypt-6000bc-3000bc::ex4",
       "egypt-6000bc-3000bc::l4"
@@ -18858,7 +18878,8 @@
       "al-andalus-1031-1492::te1"
     ],
     "Genoa": [
-      "al-andalus-1031-1492::s5"
+      "al-andalus-1031-1492::s5",
+      "caliphate-945-1258::lv7"
     ],
     "Genoese-Granada": [
       "al-andalus-1031-1492::s5"
@@ -22528,7 +22549,8 @@
     ],
     "Ayn Jalut": [
       "caliphate-945-1258::c10",
-      "caliphate-945-1258::w5"
+      "caliphate-945-1258::w5",
+      "caliphate-945-1258::lv7"
     ],
     "Al-Mawardi Ordinances of Government": [
       "caliphate-945-1258::o1"
@@ -22817,7 +22839,8 @@
       "caliphate-945-1258::w4"
     ],
     "Mamluk Sultanate": [
-      "caliphate-945-1258::w4"
+      "caliphate-945-1258::w4",
+      "caliphate-945-1258::lv7"
     ],
     "al-Bukhari Sahih": [
       "caliphate-945-1258::lv2"
@@ -22830,6 +22853,25 @@
     ],
     "Assassins": [
       "caliphate-945-1258::lv3"
+    ],
+    "Qipchaq steppe": [
+      "caliphate-945-1258::lv7"
+    ],
+    "Black Sea": [
+      "caliphate-945-1258::lv7",
+      "rome-400-500::tx7"
+    ],
+    "Sudak": [
+      "caliphate-945-1258::lv7"
+    ],
+    "al-Salih Ayyub": [
+      "caliphate-945-1258::lv7"
+    ],
+    "Caffa": [
+      "caliphate-945-1258::lv7"
+    ],
+    "Venetian Tana": [
+      "caliphate-945-1258::lv7"
     ],
     "Referenced": [
       "dilmun-3000bc-600bc::k1"
@@ -32148,9 +32190,6 @@
       "rome-400-500::tx6"
     ],
     "Author": [
-      "rome-400-500::tx7"
-    ],
-    "Black Sea": [
       "rome-400-500::tx7"
     ],
     "Olympiodorus of Thebes": [

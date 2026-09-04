@@ -474,6 +474,11 @@ Some entities are too large in space and time for one folio and get a **run of f
 - **Where to stop.** End the run when the polity stops being a functioning state, even if the title
   persists. Rome stops at 500 and lets Byzantium be implied; the Caliphate stops at 1258 and the
   residual Cairo / Ottoman caliphate becomes coda entries in the successor folios.
+- **Forward references.** When a folio's thread is picked up by a successor folio that does not yet
+  exist (the territorial empires — Mamluk 1250–1517, Ottoman, Safavid, Mughal — are still to be
+  built), name that folio in the entry's `note` and leave the `xlink` for when it exists. E.g.
+  `caliphate-945-1258` flags that the mature Genoese/Venetian Black Sea slave trade to the Mamluks
+  belongs to the Mamluk folio.
 
 ---
 
