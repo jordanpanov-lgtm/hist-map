@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2313,
     "folio_count": 43,
-    "xlink_pairs": 61,
+    "xlink_pairs": 81,
     "keyword_terms": 4811,
     "folios": [
       {
@@ -2538,6 +2538,18 @@
     "visigoths-589-711::lv2": "Visigothic queens — property rights and regency"
   },
   "xlinks": {
+    "al-andalus-711-1031::c1": [
+      "caliphate-632-750::x5"
+    ],
+    "caliphate-632-750::x5": [
+      "al-andalus-711-1031::c1"
+    ],
+    "al-andalus-711-1031::c4": [
+      "caliphate-632-750::c6"
+    ],
+    "caliphate-632-750::c6": [
+      "al-andalus-711-1031::c4"
+    ],
     "al-andalus-711-1031::lv3": [
       "eastern-arabia-750-1200::lv5"
     ],
@@ -2565,6 +2577,110 @@
     ],
     "hormuz-1200-1507::ec3": [
       "beth-qatraye-240-750::ec5"
+    ],
+    "beth-qatraye-240-750::w5": [
+      "caliphate-632-750::w5"
+    ],
+    "caliphate-632-750::w5": [
+      "beth-qatraye-240-750::w5",
+      "caliphate-750-945::k1"
+    ],
+    "caliphate-632-750::c1": [
+      "lakhmid-268-602::w5"
+    ],
+    "lakhmid-268-602::w5": [
+      "caliphate-632-750::c1"
+    ],
+    "caliphate-632-750::c5": [
+      "caliphate-750-945::c3"
+    ],
+    "caliphate-750-945::c3": [
+      "caliphate-632-750::c5"
+    ],
+    "caliphate-632-750::ec4": [
+      "eastern-arabia-750-1200::tc2"
+    ],
+    "eastern-arabia-750-1200::tc2": [
+      "caliphate-632-750::ec4"
+    ],
+    "caliphate-632-750::x3": [
+      "sassanid-484-651::w3"
+    ],
+    "sassanid-484-651::w3": [
+      "caliphate-632-750::x3"
+    ],
+    "caliphate-632-750::w1": [
+      "sassanid-484-651::w2"
+    ],
+    "sassanid-484-651::w2": [
+      "caliphate-632-750::w1"
+    ],
+    "caliphate-750-945::k1": [
+      "caliphate-632-750::w5"
+    ],
+    "caliphate-750-945::c4": [
+      "eastern-arabia-750-1200::c2"
+    ],
+    "eastern-arabia-750-1200::c2": [
+      "caliphate-750-945::c4"
+    ],
+    "caliphate-750-945::b6": [
+      "eastern-arabia-750-1200::x2"
+    ],
+    "eastern-arabia-750-1200::x2": [
+      "caliphate-750-945::b6"
+    ],
+    "caliphate-750-945::ec2": [
+      "eastern-arabia-750-1200::ec1"
+    ],
+    "eastern-arabia-750-1200::ec1": [
+      "caliphate-750-945::ec2"
+    ],
+    "caliphate-750-945::ec3": [
+      "caliphate-945-1258::ec2"
+    ],
+    "caliphate-945-1258::ec2": [
+      "caliphate-750-945::ec3"
+    ],
+    "caliphate-750-945::x5": [
+      "eastern-arabia-750-1200::w2"
+    ],
+    "eastern-arabia-750-1200::w2": [
+      "caliphate-750-945::x5"
+    ],
+    "caliphate-750-945::w2": [
+      "eastern-arabia-750-1200::w1"
+    ],
+    "eastern-arabia-750-1200::w1": [
+      "caliphate-750-945::w2"
+    ],
+    "caliphate-750-945::w5": [
+      "caliphate-945-1258::k2",
+      "eastern-arabia-750-1200::w3"
+    ],
+    "caliphate-945-1258::k2": [
+      "caliphate-750-945::w5"
+    ],
+    "eastern-arabia-750-1200::w3": [
+      "caliphate-750-945::w5"
+    ],
+    "caliphate-750-945::lv1": [
+      "caliphate-945-1258::lv4"
+    ],
+    "caliphate-945-1258::lv4": [
+      "caliphate-750-945::lv1"
+    ],
+    "caliphate-945-1258::w2": [
+      "eastern-arabia-750-1200::w4"
+    ],
+    "eastern-arabia-750-1200::w4": [
+      "caliphate-945-1258::w2"
+    ],
+    "caliphate-945-1258::w5": [
+      "hormuz-1200-1507::w1"
+    ],
+    "hormuz-1200-1507::w1": [
+      "caliphate-945-1258::w5"
     ],
     "dilmun-3000bc-600bc::ec3": [
       "magan-3000bc-300bc::ec2"

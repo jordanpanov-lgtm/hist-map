@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-04",
-    "figure_matches": 187,
-    "figure_matches_rejected_dynasty_mismatch": 440,
-    "figure_matches_rejected_date_implausible": 343,
+    "figure_matches": 217,
+    "figure_matches_rejected_dynasty_mismatch": 486,
+    "figure_matches_rejected_date_implausible": 394,
     "dynasty_alignment_proposals_count": 9,
-    "keyword_matches": 751,
-    "keyword_matches_rejected_geo_only": 711,
-    "high_confidence": 191,
-    "medium_confidence": 46,
-    "low_confidence": 701
+    "keyword_matches": 823,
+    "keyword_matches_rejected_geo_only": 1064,
+    "high_confidence": 223,
+    "medium_confidence": 49,
+    "low_confidence": 768
   },
   "figure_name_matches": [
     {
@@ -575,6 +575,50 @@
         "decade": "740s"
       },
       "match": {
+        "folio": "caliphate-632-750",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Abbasid Revolution",
+        "decade": "740s"
+      },
+      "xlink_a": "beth-qatraye-240-750::w5",
+      "xlink_b": "caliphate-632-750::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "beth-qatraye-240-750",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Abbasid revolution",
+        "dynasty": "Abbasid",
+        "decade": "740s"
+      },
+      "match": {
+        "folio": "caliphate-750-945",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The many slaveries of the Abbasid world",
+        "decade": "750s–940s"
+      },
+      "xlink_a": "beth-qatraye-240-750::w5",
+      "xlink_b": "caliphate-750-945::lv4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "beth-qatraye-240-750",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Abbasid revolution",
+        "dynasty": "Abbasid",
+        "decade": "740s"
+      },
+      "match": {
         "folio": "eastern-arabia-750-1200",
         "id": "k1",
         "cat": "power",
@@ -583,6 +627,600 @@
       },
       "xlink_a": "beth-qatraye-240-750::w5",
       "xlink_b": "eastern-arabia-750-1200::k1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantinople",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The two sieges of Constantinople",
+        "dynasty": "Umayyad",
+        "decade": "670s–710s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Persian siege of Constantinople",
+        "decade": "620s"
+      },
+      "xlink_a": "caliphate-632-750::c5",
+      "xlink_b": "sassanid-484-651::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Berber Revolt",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The Great Berber Revolt",
+        "dynasty": "Umayyad",
+        "decade": "740s"
+      },
+      "match": {
+        "folio": "al-andalus-711-1031",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Berber Revolt — the crisis that reshaped al-Andalus",
+        "decade": "730s"
+      },
+      "xlink_a": "caliphate-632-750::c6",
+      "xlink_b": "al-andalus-711-1031::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islamic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "Chinese porcelain and Islamic glass trade places",
+        "decade": "800s–1100s"
+      },
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "eastern-arabia-750-1200::x5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islamic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "lakhmid-268-602",
+        "id": "w3",
+        "cat": "world",
+        "label": "Abolition creates the vacuum for Islamic conquest",
+        "decade": "600s–630s"
+      },
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "lakhmid-268-602::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islamic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "lakhmid-268-602",
+        "id": "w5",
+        "cat": "world",
+        "label": "Al-Hira falls to the Islamic state",
+        "decade": "630s"
+      },
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "lakhmid-268-602::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islamic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "w2",
+        "cat": "world",
+        "label": "Islamic conquest ends the Sassanid Empire",
+        "decade": "630s"
+      },
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "sassanid-484-651::w2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islamic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "w3",
+        "cat": "world",
+        "label": "Sassanid cultural legacy in Islamic civilisation",
+        "decade": "650s–900s"
+      },
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "sassanid-484-651::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islamic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Early Islamic jurisprudence redefines same-sex acts",
+        "decade": "620s"
+      },
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "sassanid-484-651::lv3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Umayyad",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Umayyad desert palaces",
+        "dynasty": "Umayyad",
+        "decade": "710s–740s"
+      },
+      "match": {
+        "folio": "al-andalus-711-1031",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Umayyad advance into France — Battle of Tours/Poitiers",
+        "decade": "730s"
+      },
+      "xlink_a": "caliphate-632-750::e3",
+      "xlink_b": "al-andalus-711-1031::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water engineering across the empire",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "beth-qatraye-240-750",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "Monastic water systems on the islands",
+        "decade": "600s–750s"
+      },
+      "xlink_a": "caliphate-632-750::tc4",
+      "xlink_b": "beth-qatraye-240-750::tc2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water engineering across the empire",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "dilmun-3000bc-600bc",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The Barbar water temple",
+        "decade": "1800s BC–2200s"
+      },
+      "xlink_a": "caliphate-632-750::tc4",
+      "xlink_b": "dilmun-3000bc-600bc::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water engineering across the empire",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "magan-3000bc-300bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The falaj — a communal institution for shared water",
+        "decade": "600s BC–1000s"
+      },
+      "xlink_a": "caliphate-632-750::tc4",
+      "xlink_b": "magan-3000bc-300bc::o1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water engineering across the empire",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "magan-3000bc-300bc",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "The falaj / qanat water tunnel",
+        "decade": "600s BC–1000s"
+      },
+      "xlink_a": "caliphate-632-750::tc4",
+      "xlink_b": "magan-3000bc-300bc::tc2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Zanj Revolt",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Zanj Revolt reaches toward Baghdad",
+        "dynasty": "Abbasid",
+        "decade": "860s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Zanj Revolt at the head of the Gulf",
+        "decade": "860s"
+      },
+      "xlink_a": "caliphate-750-945::c4",
+      "xlink_b": "eastern-arabia-750-1200::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Baghdad",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Baghdad and the instruments of finance",
+        "dynasty": "Abbasid",
+        "decade": "770s–930s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "t3",
+        "cat": "thought",
+        "label": "Abu Sa'id al-Sirafi, grammarian of Baghdad",
+        "decade": "930s–970s"
+      },
+      "xlink_a": "caliphate-750-945::ec1",
+      "xlink_b": "eastern-arabia-750-1200::t3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Indian Ocean",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Indian Ocean trade at its height",
+        "dynasty": "Abbasid",
+        "decade": "800s–900s"
+      },
+      "match": {
+        "folio": "beth-qatraye-240-750",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Church of the East as an Indian Ocean network",
+        "decade": "410s–750s"
+      },
+      "xlink_a": "caliphate-750-945::ec2",
+      "xlink_b": "beth-qatraye-240-750::x1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sawad",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "ec3",
+        "cat": "economy",
+        "label": "The Sawad — the granary and its decline",
+        "dynasty": "Abbasid",
+        "decade": "750s–930s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The end of the Sawad",
+        "decade": "930s–1250s"
+      },
+      "xlink_a": "caliphate-750-945::ec3",
+      "xlink_b": "caliphate-945-1258::ec2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Buyids",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Buyids take Baghdad",
+        "dynasty": "Buyid",
+        "decade": "940s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Buyids take Baghdad",
+        "decade": "940s"
+      },
+      "xlink_a": "caliphate-750-945::w5",
+      "xlink_b": "eastern-arabia-750-1200::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The many slaveries of the Abbasid world",
+        "dynasty": "Abbasid",
+        "decade": "750s–940s"
+      },
+      "match": {
+        "folio": "beth-qatraye-240-750",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Abbasid conquest of Ibadi Oman",
+        "decade": "750s"
+      },
+      "xlink_a": "caliphate-750-945::lv4",
+      "xlink_b": "beth-qatraye-240-750::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The many slaveries of the Abbasid world",
+        "dynasty": "Abbasid",
+        "decade": "750s–940s"
+      },
+      "match": {
+        "folio": "caliphate-632-750",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Abbasid Revolution",
+        "decade": "740s"
+      },
+      "xlink_a": "caliphate-750-945::lv4",
+      "xlink_b": "caliphate-632-750::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The many slaveries of the Abbasid world",
+        "dynasty": "Abbasid",
+        "decade": "750s–940s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k1",
+        "cat": "power",
+        "label": "Eastern Arabia as an Abbasid periphery",
+        "decade": "750s–890s"
+      },
+      "xlink_a": "caliphate-750-945::lv4",
+      "xlink_b": "eastern-arabia-750-1200::k1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The many slaveries of the Abbasid world",
+        "dynasty": "Abbasid",
+        "decade": "750s–940s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Abbasid destruction of the Omani Imamate",
+        "decade": "890s"
+      },
+      "xlink_a": "caliphate-750-945::lv4",
+      "xlink_b": "eastern-arabia-750-1200::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The many slaveries of the Abbasid world",
+        "dynasty": "Abbasid",
+        "decade": "750s–940s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Abbasid Caliphate fragments",
+        "decade": "860s–940s"
+      },
+      "xlink_a": "caliphate-750-945::lv4",
+      "xlink_b": "eastern-arabia-750-1200::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sunni",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni revival",
+        "dynasty": "Seljuk",
+        "decade": "1050s–1150s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Seljuk Turks and the Sunni restoration",
+        "decade": "1050s"
+      },
+      "xlink_a": "caliphate-945-1258::b1",
+      "xlink_b": "eastern-arabia-750-1200::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Shia",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Shia academy moves to Najaf",
+        "dynasty": "Buyid",
+        "decade": "1010s–1060s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The Shia oases of al-Hasa, Qatif and Bahrain",
+        "decade": "900s–1200s"
+      },
+      "xlink_a": "caliphate-945-1258::b5",
+      "xlink_b": "eastern-arabia-750-1200::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Seljuk",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "e1",
+        "cat": "expression",
+        "label": "The four-iwan plan and the Seljuk dome",
+        "dynasty": "Seljuk",
+        "decade": "1080s–1160s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Seljuk Turks and the Sunni restoration",
+        "decade": "1050s"
+      },
+      "xlink_a": "caliphate-945-1258::e1",
+      "xlink_b": "eastern-arabia-750-1200::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Seljuk",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Seljuk restoration",
+        "dynasty": "Seljuk",
+        "decade": "1050s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Seljuk Turks and the Sunni restoration",
+        "decade": "1050s"
+      },
+      "xlink_a": "caliphate-945-1258::w2",
+      "xlink_b": "eastern-arabia-750-1200::w4"
     },
     {
       "confidence": "high",
@@ -781,6 +1419,28 @@
       },
       "xlink_a": "eastern-arabia-750-1200::t1",
       "xlink_b": "hormuz-1200-1507::x5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ismaili",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Ismaili da'wa and the Qarmatian network",
+        "dynasty": "Jannabid",
+        "decade": "880s–1000s"
+      },
+      "match": {
+        "folio": "caliphate-750-945",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Ismaili da'wa and a third caliphate",
+        "decade": "870s–900s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::x2",
+      "xlink_b": "caliphate-750-945::b6"
     },
     {
       "confidence": "high",
@@ -4372,6 +5032,62 @@
       "confidence": "high",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Basra",
+        "East African",
+        "Iraq",
+        "Zanj Revolt"
+      ],
+      "sharedCount": 4,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Zanj Revolt reaches toward Baghdad",
+        "decade": "860s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "Reclaiming the salt flats of lower Iraq",
+        "decade": "800s–860s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::c4",
+      "xlink_b": "eastern-arabia-750-1200::tc2"
+    },
+    {
+      "confidence": "high",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Basra",
+        "Gulf",
+        "Siraf"
+      ],
+      "sharedCount": 4,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Indian Ocean trade at its height",
+        "decade": "800s–900s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The ghulam — the beloved youth as a social figure",
+        "decade": "780s–1050s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::ec2",
+      "xlink_b": "eastern-arabia-750-1200::lv5"
+    },
+    {
+      "confidence": "high",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Palmyra",
         "Silk Road",
         "Syria",
@@ -4638,6 +5354,33 @@
       "date_flag": "150yr gap — verify same entity, not just shared theme",
       "xlink_a": "oman-1970-today::t3",
       "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Iraq",
+        "Zanj Revolt"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Zanj Revolt reaches toward Baghdad",
+        "decade": "860s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Zanj Revolt at the head of the Gulf",
+        "decade": "860s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::c4",
+      "xlink_b": "eastern-arabia-750-1200::c2"
     },
     {
       "confidence": "medium",
@@ -4940,6 +5683,33 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Fustat",
+        "Kufa",
+        "Medina"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "decade": "660s–740s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The four Sunni schools of law take shape",
+        "decade": "760s–850s"
+      },
+      "date_flag": "20yr gap",
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "caliphate-750-945::b1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Antakya",
         "Antioch",
         "Khosrow I"
@@ -4962,6 +5732,33 @@
       "date_flag": "overlapping",
       "xlink_a": "ghassanid-420-638::c4",
       "xlink_b": "sassanid-484-651::c1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Merv",
+        "Sassanid Empire"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Sassanid Empire falls",
+        "decade": "650s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "w2",
+        "cat": "world",
+        "label": "Islamic conquest ends the Sassanid Empire",
+        "decade": "630s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::w1",
+      "xlink_b": "sassanid-484-651::w2"
     },
     {
       "confidence": "medium",
@@ -5021,33 +5818,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Euphrates",
-        "Lakhmid",
-        "Mesopotamian"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "ghassanid-420-638",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Ghassanid raids on Lakhmid territory",
-        "decade": "520s–570s"
-      },
-      "b": {
-        "folio": "lakhmid-268-602",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "Lakhmid forces in the Roman-Persian wars",
-        "decade": "420s–530s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ghassanid-420-638::c3",
-      "xlink_b": "lakhmid-268-602::c4"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Palmyra",
         "Syria",
         "Tadmur"
@@ -5097,6 +5867,114 @@
       "date_flag": "13yr gap",
       "xlink_a": "nabataean-400bc-106ce::o3",
       "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Euphrates",
+        "Lakhmid",
+        "Mesopotamian"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ghassanid-420-638",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Ghassanid raids on Lakhmid territory",
+        "decade": "520s–570s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Lakhmid forces in the Roman-Persian wars",
+        "decade": "420s–530s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ghassanid-420-638::c3",
+      "xlink_b": "lakhmid-268-602::c4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "PAT",
+        "Palmyra",
+        "Silk Road"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "t3",
+        "cat": "thought",
+        "label": "PAT corpus — 3,000 Palmyrene inscriptions",
+        "decade": "100s BC–270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
+        "decade": "150s–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::t3",
+      "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Roman Empire",
+        "Italy",
+        "Spain"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "france-1494-1610",
+        "id": "w1",
+        "cat": "world",
+        "label": "Habsburg encirclement — France surrounded",
+        "decade": "1510s–1550s"
+      },
+      "b": {
+        "folio": "spain-1516-1700",
+        "id": "w1",
+        "cat": "world",
+        "label": "The empire on which the sun never sets",
+        "decade": "1510s–1700s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "france-1494-1610::w1",
+      "xlink_b": "spain-1516-1700::w1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cuba",
+        "Puerto Rico",
+        "Spain"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "spain-1808-1900",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "Slavery abolished in Cuba (1886) — Spain's last enslaved population",
+        "decade": "1880s"
+      },
+      "b": {
+        "folio": "spain-1900-1975",
+        "id": "s1",
+        "cat": "economy",
+        "label": "Post-1898 economic nationalism — the regeneracionismo movement",
+        "decade": "1890s"
+      },
+      "date_flag": "12yr gap",
+      "xlink_a": "spain-1808-1900::lv5",
+      "xlink_b": "spain-1900-1975::s1"
     },
     {
       "confidence": "medium",
@@ -5210,33 +6088,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Holy Roman Empire",
-        "Italy",
-        "Spain"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "france-1494-1610",
-        "id": "w1",
-        "cat": "world",
-        "label": "Habsburg encirclement — France surrounded",
-        "decade": "1510s–1550s"
-      },
-      "b": {
-        "folio": "spain-1516-1700",
-        "id": "w1",
-        "cat": "world",
-        "label": "The empire on which the sun never sets",
-        "decade": "1510s–1700s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "france-1494-1610::w1",
-      "xlink_b": "spain-1516-1700::w1"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Bourbon",
         "Louis XIV",
         "Versailles"
@@ -5340,33 +6191,6 @@
       "date_flag": "15yr gap",
       "xlink_a": "france-1715-1789::k4",
       "xlink_b": "france-1789-1815::k1"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Cuba",
-        "Puerto Rico",
-        "Spain"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "lv5",
-        "cat": "lives",
-        "label": "Slavery abolished in Cuba (1886) — Spain's last enslaved population",
-        "decade": "1880s"
-      },
-      "b": {
-        "folio": "spain-1900-1975",
-        "id": "s1",
-        "cat": "economy",
-        "label": "Post-1898 economic nationalism — the regeneracionismo movement",
-        "decade": "1890s"
-      },
-      "date_flag": "12yr gap",
-      "xlink_a": "spain-1808-1900::lv5",
-      "xlink_b": "spain-1900-1975::s1"
     },
     {
       "confidence": "medium",
@@ -5502,33 +6326,6 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::w2",
       "xlink_b": "rome-200-300::c10"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "PAT",
-        "Palmyra",
-        "Silk Road"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "t3",
-        "cat": "thought",
-        "label": "PAT corpus — 3,000 Palmyrene inscriptions",
-        "decade": "100s BC–270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "ex3",
-        "cat": "exchange",
-        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
-        "decade": "150s–270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::t3",
-      "xlink_b": "rome-200-300::ex3"
     },
     {
       "confidence": "medium",
@@ -6318,6 +7115,84 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Berber Revolt",
+        "North Africa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "al-andalus-711-1031",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Berber Revolt — the crisis that reshaped al-Andalus",
+        "decade": "730s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The Great Berber Revolt",
+        "decade": "740s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "al-andalus-711-1031::c4",
+      "xlink_b": "caliphate-632-750::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Córdoba"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "al-andalus-711-1031",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Radhanite trade network — Córdoba as western terminus of global commerce",
+        "decade": "800s–1000s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "Three caliphs at once",
+        "decade": "900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "al-andalus-711-1031::ex3",
+      "xlink_b": "caliphate-750-945::x5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Córdoba"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "al-andalus-711-1031",
+        "id": "ex5",
+        "cat": "exchange",
+        "label": "Radhanites and the muwashshah — Córdoba at the centre of global exchange",
+        "decade": "850s–1030s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "Three caliphs at once",
+        "decade": "900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "al-andalus-711-1031::ex5",
+      "xlink_b": "caliphate-750-945::x5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Europe",
         "European"
       ],
@@ -6786,6 +7661,110 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Basra",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "k5",
+        "cat": "power",
+        "label": "Eastern Arabia governed from Basra",
+        "decade": "640s–740s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "decade": "660s–740s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-750::k5",
+      "xlink_b": "caliphate-632-750::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "k5",
+        "cat": "power",
+        "label": "Eastern Arabia governed from Basra",
+        "decade": "640s–740s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The isnad and the first hadith collectors",
+        "decade": "680s–740s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-750::k5",
+      "xlink_b": "caliphate-632-750::b4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "k5",
+        "cat": "power",
+        "label": "Eastern Arabia governed from Basra",
+        "decade": "640s–740s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "b5",
+        "cat": "belief",
+        "label": "Free will, sin and the community — the first theological disputes",
+        "decade": "690s–740s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-750::k5",
+      "xlink_b": "caliphate-632-750::b5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "k5",
+        "cat": "power",
+        "label": "Eastern Arabia governed from Basra",
+        "decade": "640s–740s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "b6",
+        "cat": "belief",
+        "label": "Al-Hasan al-Basri and the beginnings of renunciation",
+        "decade": "720s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-750::k5",
+      "xlink_b": "caliphate-632-750::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Bourbon",
         "France"
       ],
@@ -7046,6 +8025,708 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Baghdad",
+        "Medina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The Prophet's biography takes written form",
+        "decade": "700s–760s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The four Sunni schools of law take shape",
+        "decade": "760s–850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::t3",
+      "xlink_b": "caliphate-750-945::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Medina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The Prophet's biography takes written form",
+        "decade": "700s–760s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The qiyan — the singing-girls as an institution",
+        "decade": "760s–900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::t3",
+      "xlink_b": "caliphate-750-945::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "k5",
+        "cat": "power",
+        "label": "Al-Mu'tasim, Samarra and the Turkish soldiers",
+        "decade": "830s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Abbasid Caliphate fragments",
+        "decade": "860s–940s"
+      },
+      "date_flag": "19yr gap",
+      "xlink_a": "caliphate-750-945::k5",
+      "xlink_b": "eastern-arabia-750-1200::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "k6",
+        "cat": "power",
+        "label": "The Samarra anarchy and the slide to 945",
+        "decade": "860s–940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::k6",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "k6",
+        "cat": "power",
+        "label": "The Samarra anarchy and the slide to 945",
+        "decade": "860s–940s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Abbasid Caliphate fragments",
+        "decade": "860s–940s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::k6",
+      "xlink_b": "eastern-arabia-750-1200::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "o3",
+        "cat": "order",
+        "label": "The theory of the caliphate is written down",
+        "decade": "850s–940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "5yr gap",
+      "xlink_a": "caliphate-750-945::o3",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Sunni"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The four Sunni schools of law take shape",
+        "decade": "760s–850s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni revival",
+        "decade": "1050s–1150s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "caliphate-750-945::b1",
+      "xlink_b": "caliphate-945-1258::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Sunni"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "b4",
+        "cat": "belief",
+        "label": "Al-Ash'ari and the Sunni theological settlement",
+        "decade": "910s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni revival",
+        "decade": "1050s–1150s"
+      },
+      "date_flag": "119yr gap — verify same entity, not just shared theme",
+      "xlink_a": "caliphate-750-945::b4",
+      "xlink_b": "caliphate-945-1258::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The line of imams ends — the Occultation",
+        "decade": "870s–940s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Abbasid Caliphate fragments",
+        "decade": "860s–940s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::b5",
+      "xlink_b": "eastern-arabia-750-1200::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Sufism"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "b7",
+        "cat": "belief",
+        "label": "Sufism takes form — al-Junayd and al-Hallaj",
+        "decade": "850s–920s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Al-Ghazali — law, theology and Sufism reconciled",
+        "decade": "1090s"
+      },
+      "date_flag": "169yr gap — verify same entity, not just shared theme",
+      "xlink_a": "caliphate-750-945::b7",
+      "xlink_b": "caliphate-945-1258::b2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "t1",
+        "cat": "thought",
+        "label": "The Translation Movement",
+        "decade": "750s–950s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::t1",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Rayy"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "t4",
+        "cat": "thought",
+        "label": "Al-Razi and the Baghdad hospital",
+        "decade": "900s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k2",
+        "cat": "power",
+        "label": "The Buyid amirs",
+        "decade": "940s–1050s"
+      },
+      "date_flag": "20yr gap",
+      "xlink_a": "caliphate-750-945::t4",
+      "xlink_b": "caliphate-945-1258::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Baghdad and the instruments of finance",
+        "decade": "770s–930s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "15yr gap",
+      "xlink_a": "caliphate-750-945::ec1",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The treasury goes bankrupt",
+        "decade": "900s–940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::ec4",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec6",
+        "cat": "economy",
+        "label": "The paper and sugar industries",
+        "decade": "800s–940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::ec6",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The astrolabe workshop",
+        "decade": "800s–940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::tc3",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Buyid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Buyids take Baghdad",
+        "decade": "940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k2",
+        "cat": "power",
+        "label": "The Buyid amirs",
+        "decade": "940s–1050s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::w5",
+      "xlink_b": "caliphate-945-1258::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Buyid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Buyids take Baghdad",
+        "decade": "940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "o1",
+        "cat": "order",
+        "label": "Al-Mawardi writes the constitution of the caliphate",
+        "decade": "1040s"
+      },
+      "date_flag": "100yr gap — verify same entity, not just shared theme",
+      "xlink_a": "caliphate-750-945::w5",
+      "xlink_b": "caliphate-945-1258::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Buyid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Buyids take Baghdad",
+        "decade": "940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Shia academy moves to Najaf",
+        "decade": "1010s–1060s"
+      },
+      "date_flag": "73yr gap — verify same entity, not just shared theme",
+      "xlink_a": "caliphate-750-945::w5",
+      "xlink_b": "caliphate-945-1258::b5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Buyid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Buyids take Baghdad",
+        "decade": "940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "t7",
+        "cat": "thought",
+        "label": "The Fihrist — a catalogue of everything written",
+        "decade": "980s"
+      },
+      "date_flag": "43yr gap",
+      "xlink_a": "caliphate-750-945::w5",
+      "xlink_b": "caliphate-945-1258::t7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Buyids"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Buyids take Baghdad",
+        "decade": "940s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Buyids take Baghdad",
+        "decade": "940s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::w5",
+      "xlink_b": "eastern-arabia-750-1200::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The ghilman — enslaved soldiers who ruled",
+        "decade": "830s–940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::lv1",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The ghilman — enslaved soldiers who ruled",
+        "decade": "830s–940s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Abbasid Caliphate fragments",
+        "decade": "860s–940s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::lv1",
+      "xlink_b": "eastern-arabia-750-1200::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "The women who ran the palace",
+        "decade": "770s–930s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "13yr gap",
+      "xlink_a": "caliphate-750-945::lv3",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "The women who ran the palace",
+        "decade": "770s–930s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Abbasid Caliphate fragments",
+        "decade": "860s–940s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::lv3",
+      "xlink_b": "eastern-arabia-750-1200::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Baghdad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The People of the Book as a professional elite",
+        "decade": "750s–940s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k1",
+        "cat": "power",
+        "label": "The caliph as a source of legitimacy",
+        "decade": "940s–1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::lv5",
+      "xlink_b": "caliphate-945-1258::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "al-Ahsa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Shi'i century",
+        "decade": "940s–1050s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The Abbasids pay the Qarmatians to spare the Hajj",
+        "decade": "930s–1000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::w1",
+      "xlink_b": "eastern-arabia-750-1200::x4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Ctesiphon",
         "India"
       ],
@@ -7197,6 +8878,32 @@
       "date_flag": "550yr gap — verify same entity, not just shared theme",
       "xlink_a": "beth-qatraye-240-750::x2",
       "xlink_b": "hormuz-1200-1507::t3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabic",
+        "Kufa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Arabic grammar and the two schools",
+        "decade": "660s–760s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Al-Hira as transmission centre for pre-Islamic Arabic poetry",
+        "decade": "500s–700s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::t2",
+      "xlink_b": "lakhmid-268-602::ex3"
     },
     {
       "confidence": "low",
@@ -9958,6 +11665,396 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Basra",
+        "Rashidun"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "w4",
+        "cat": "world",
+        "label": "The founding of Basra reorients the Gulf",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "o1",
+        "cat": "order",
+        "label": "The diwan and the garrison cities",
+        "decade": "630s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-750::w4",
+      "xlink_b": "caliphate-632-750::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Rashidun"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "w4",
+        "cat": "world",
+        "label": "The founding of Basra reorients the Gulf",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Uthmanic recension of the Quran",
+        "decade": "650s"
+      },
+      "date_flag": "12yr gap",
+      "xlink_a": "beth-qatraye-240-750::w4",
+      "xlink_b": "caliphate-632-750::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Rashidun"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "w4",
+        "cat": "world",
+        "label": "The founding of Basra reorients the Gulf",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The First Fitna makes the sects",
+        "decade": "650s"
+      },
+      "date_flag": "18yr gap",
+      "xlink_a": "beth-qatraye-240-750::w4",
+      "xlink_b": "caliphate-632-750::b2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Medina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "decade": "660s–740s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The qiyan — the singing-girls as an institution",
+        "decade": "760s–900s"
+      },
+      "date_flag": "20yr gap",
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "caliphate-750-945::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Medina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The isnad and the first hadith collectors",
+        "decade": "680s–740s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The qiyan — the singing-girls as an institution",
+        "decade": "760s–900s"
+      },
+      "date_flag": "18yr gap",
+      "xlink_a": "caliphate-632-750::b4",
+      "xlink_b": "caliphate-750-945::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Basra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Zanj Revolt reaches toward Baghdad",
+        "decade": "860s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k1",
+        "cat": "power",
+        "label": "Eastern Arabia as an Abbasid periphery",
+        "decade": "750s–890s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::c4",
+      "xlink_b": "eastern-arabia-750-1200::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Zanj Revolt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Zanj Revolt reaches toward Baghdad",
+        "decade": "860s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The Zanj make themselves a state",
+        "decade": "860s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::c4",
+      "xlink_b": "eastern-arabia-750-1200::lv1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Basra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Zanj Revolt reaches toward Baghdad",
+        "decade": "860s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The ghulam — the beloved youth as a social figure",
+        "decade": "780s–1050s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::c4",
+      "xlink_b": "eastern-arabia-750-1200::lv5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Basra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "e4",
+        "cat": "expression",
+        "label": "Adab prose — al-Jahiz and the translated wisdom",
+        "decade": "750s–860s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k1",
+        "cat": "power",
+        "label": "Eastern Arabia as an Abbasid periphery",
+        "decade": "750s–890s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::e4",
+      "xlink_b": "eastern-arabia-750-1200::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Basra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "e4",
+        "cat": "expression",
+        "label": "Adab prose — al-Jahiz and the translated wisdom",
+        "decade": "750s–860s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The ghulam — the beloved youth as a social figure",
+        "decade": "780s–1050s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::e4",
+      "xlink_b": "eastern-arabia-750-1200::lv5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Basra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Indian Ocean trade at its height",
+        "decade": "800s–900s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k1",
+        "cat": "power",
+        "label": "Eastern Arabia as an Abbasid periphery",
+        "decade": "750s–890s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::ec2",
+      "xlink_b": "eastern-arabia-750-1200::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Gulf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Indian Ocean trade at its height",
+        "decade": "800s–900s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Zanj Revolt at the head of the Gulf",
+        "decade": "860s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::ec2",
+      "xlink_b": "eastern-arabia-750-1200::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Basra",
+        "Siraf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Indian Ocean trade at its height",
+        "decade": "800s–900s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "t2",
+        "cat": "thought",
+        "label": "The Akhbar al-Sin wa'l-Hind",
+        "decade": "850s–910s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::ec2",
+      "xlink_b": "eastern-arabia-750-1200::t2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Basra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The qiyan — the singing-girls as an institution",
+        "decade": "760s–900s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k1",
+        "cat": "power",
+        "label": "Eastern Arabia as an Abbasid periphery",
+        "decade": "750s–890s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::lv2",
+      "xlink_b": "eastern-arabia-750-1200::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Basra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The qiyan — the singing-girls as an institution",
+        "decade": "760s–900s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The ghulam — the beloved youth as a social figure",
+        "decade": "780s–1050s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::lv2",
+      "xlink_b": "eastern-arabia-750-1200::lv5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Eastern Arabia",
         "Gulf"
       ],
@@ -10218,6 +12315,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Abbasid",
+        "Abu Nuwas"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "e5",
+        "cat": "expression",
+        "label": "The poetry of the 'moderns'",
+        "decade": "760s–900s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The ghulam — the beloved youth as a social figure",
+        "decade": "780s–1050s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::e5",
+      "xlink_b": "eastern-arabia-750-1200::lv5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Gulf",
         "Marawah"
       ],
@@ -10239,6 +12362,32 @@
       "date_flag": "overlapping",
       "xlink_a": "beth-qatraye-240-750::b3",
       "xlink_b": "gulf-prehistory-8000bc-3000bc::e2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Persian Gulf as the Sasanian trade artery",
+        "decade": "240s–650s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "One market from the Atlantic to the Indus",
+        "decade": "660s–750s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "beth-qatraye-240-750::ec1",
+      "xlink_b": "caliphate-632-750::ec2"
     },
     {
       "confidence": "low",
@@ -10291,6 +12440,58 @@
       "date_flag": "overlapping",
       "xlink_a": "beth-qatraye-240-750::w4",
       "xlink_b": "gulf-prehistory-8000bc-3000bc::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
+        "Siraf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Indian Ocean trade at its height",
+        "decade": "800s–900s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "e3",
+        "cat": "expression",
+        "label": "Chinese ceramics reach the Gulf in quantity",
+        "decade": "800s–1000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::ec2",
+      "xlink_b": "eastern-arabia-750-1200::e3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
+        "Siraf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Indian Ocean trade at its height",
+        "decade": "800s–900s"
+      },
+      "b": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The Gulf pilots and the science of the monsoon",
+        "decade": "850s–1200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::ec2",
+      "xlink_b": "eastern-arabia-750-1200::t4"
     },
     {
       "confidence": "low",
@@ -10790,6 +12991,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Medina",
+        "Prophet"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The Prophet's envoys reach the Gulf",
+        "decade": "620s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The Prophet's biography takes written form",
+        "decade": "700s–760s"
+      },
+      "date_flag": "70yr gap — verify same entity, not just shared theme",
+      "xlink_a": "beth-qatraye-240-750::x4",
+      "xlink_b": "caliphate-632-750::t3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Abu Dhabi",
         "Bani Yas"
       ],
@@ -10958,6 +13185,58 @@
         "decade": "620s"
       },
       "b": {
+        "folio": "caliphate-632-750",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water engineering across the empire",
+        "decade": "660s–740s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "beth-qatraye-240-750::w3",
+      "xlink_b": "caliphate-632-750::tc4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Iraq"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "w3",
+        "cat": "world",
+        "label": "The rise of Islam and the Arab conquest of Persia",
+        "decade": "620s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The dhimmis — the protected majority",
+        "decade": "640s–750s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-750::w3",
+      "xlink_b": "caliphate-632-750::lv5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Iraq"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "w3",
+        "cat": "world",
+        "label": "The rise of Islam and the Arab conquest of Persia",
+        "decade": "620s"
+      },
+      "b": {
         "folio": "sassanid-484-651",
         "id": "w2",
         "cat": "world",
@@ -10993,6 +13272,162 @@
       "date_flag": "overlapping",
       "xlink_a": "beth-qatraye-240-750::w3",
       "xlink_b": "sassanid-484-651::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Iraq"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "ec3",
+        "cat": "economy",
+        "label": "The crop transfers begin",
+        "decade": "700s–900s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "w3",
+        "cat": "world",
+        "label": "Sassanid cultural legacy in Islamic civilisation",
+        "decade": "650s–900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::ec3",
+      "xlink_b": "sassanid-484-651::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Iraq"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water engineering across the empire",
+        "decade": "660s–740s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "w2",
+        "cat": "world",
+        "label": "Islamic conquest ends the Sassanid Empire",
+        "decade": "630s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "caliphate-632-750::tc4",
+      "xlink_b": "sassanid-484-651::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Iraq"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water engineering across the empire",
+        "decade": "660s–740s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "w3",
+        "cat": "world",
+        "label": "Sassanid cultural legacy in Islamic civilisation",
+        "decade": "650s–900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::tc4",
+      "xlink_b": "sassanid-484-651::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Iraq"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The dhimmis — the protected majority",
+        "decade": "640s–750s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "w2",
+        "cat": "world",
+        "label": "Islamic conquest ends the Sassanid Empire",
+        "decade": "630s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::lv5",
+      "xlink_b": "sassanid-484-651::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Iraq"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The dhimmis — the protected majority",
+        "decade": "640s–750s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "w3",
+        "cat": "world",
+        "label": "Sassanid cultural legacy in Islamic civilisation",
+        "decade": "650s–900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::lv5",
+      "xlink_b": "sassanid-484-651::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iraq",
+        "Sawad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "ec3",
+        "cat": "economy",
+        "label": "The Sawad — the granary and its decline",
+        "decade": "750s–930s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The end of the Sawad",
+        "decade": "930s–1250s"
+      },
+      "date_flag": "7yr gap",
+      "xlink_a": "caliphate-750-945::ec3",
+      "xlink_b": "caliphate-945-1258::ec2"
     },
     {
       "confidence": "low",
@@ -16536,6 +18971,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Islamic",
+        "Medina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "decade": "660s–740s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Mukhannathun — gender-variant persons in pre-Islamic Arabia",
+        "decade": "550s–650s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "sassanid-484-651::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Persia",
         "Safavid"
       ],
@@ -16583,6 +19044,32 @@
       "date_flag": "4yr gap",
       "xlink_a": "sassanid-224-484::lv4",
       "xlink_b": "sassanid-484-651::r1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Sassanid Empire"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Sassanid Empire falls",
+        "decade": "650s"
+      },
+      "b": {
+        "folio": "sassanid-224-484",
+        "id": "w1",
+        "cat": "world",
+        "label": "Sassanid Empire replaces Parthia",
+        "decade": "220s"
+      },
+      "date_flag": "427yr gap — verify same entity, not just shared theme",
+      "xlink_a": "caliphate-632-750::w1",
+      "xlink_b": "sassanid-224-484::w1"
     },
     {
       "confidence": "low",
@@ -16640,53 +19127,27 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Mesopotamia",
-        "Rome"
+        "Syria",
+        "Yarmuk"
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "rome-200-300",
-        "id": "p1",
-        "cat": "power",
-        "label": "Septimius Severus",
-        "decade": "190s"
+        "folio": "caliphate-632-750",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Yarmuk and al-Qadisiyya",
+        "decade": "630s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "ghassanid-420-638",
         "id": "w3",
         "cat": "world",
-        "label": "Rome and Parthia fight over the trade roads",
-        "decade": "20s BC–200s"
+        "label": "Muslim conquest of Syria and the Ghassanid end",
+        "decade": "630s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "rome-200-300::p1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Muscat",
-        "Women"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "gulf-prehistory-8000bc-3000bc",
-        "id": "lv2",
-        "cat": "lives",
-        "label": "Women's fishing toolkits at Ra's al-Hamra",
-        "decade": "3500s BC–4500s"
-      },
-      "b": {
-        "folio": "portuguese-gulf-1507-1650",
-        "id": "lv4",
-        "cat": "lives",
-        "label": "Women in the mixed households of the ports",
-        "decade": "1520s–1650s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "gulf-prehistory-8000bc-3000bc::lv2",
-      "xlink_b": "portuguese-gulf-1507-1650::lv4"
+      "xlink_a": "caliphate-632-750::c1",
+      "xlink_b": "ghassanid-420-638::w3"
     },
     {
       "confidence": "low",
@@ -16739,6 +19200,422 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::c5",
       "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Merv",
+        "Yazdegerd III"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Sassanid Empire falls",
+        "decade": "650s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "k11",
+        "cat": "power",
+        "label": "Yazdegerd III",
+        "decade": "630s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::w1",
+      "xlink_b": "sassanid-484-651::k11"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Silk Road"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "t3",
+        "cat": "thought",
+        "label": "PAT corpus — 3,000 Palmyrene inscriptions",
+        "decade": "100s BC–270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Sassanid disruption of eastern trade under Shapur I",
+        "decade": "240s–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::t3",
+      "xlink_b": "rome-200-300::ex1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Silk Road"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "s1",
+        "cat": "economy",
+        "label": "Silk Road control — Palmyra as the key node",
+        "decade": "100s BC–270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Sassanid disruption of eastern trade under Shapur I",
+        "decade": "240s–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::s1",
+      "xlink_b": "rome-200-300::ex1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Silk Road"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "s1",
+        "cat": "economy",
+        "label": "Silk Road control — Palmyra as the key node",
+        "decade": "100s BC–270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
+        "decade": "150s–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::s1",
+      "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Italy",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "War of Spanish Succession — Louis XIV's last gamble",
+        "decade": "1700s"
+      },
+      "b": {
+        "folio": "spain-1516-1700",
+        "id": "w1",
+        "cat": "world",
+        "label": "The empire on which the sun never sets",
+        "decade": "1510s–1700s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "france-1610-1715::c4",
+      "xlink_b": "spain-1516-1700::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Peninsular War",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1789-1815",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Peninsular War — Napoleon's 'Spanish ulcer'",
+        "decade": "1800s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "ex5",
+        "cat": "exchange",
+        "label": "Treaty of Fontainebleau (1807) — the Trojan Horse",
+        "decade": "1800s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "france-1789-1815::c7",
+      "xlink_b": "spain-1700-1808::ex5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Portugal",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1789-1815",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Peninsular War — Napoleon's 'Spanish ulcer'",
+        "decade": "1800s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "w3",
+        "cat": "world",
+        "label": "Fontainebleau geopolitical trap — Spain's fatal alliance with Napoleon",
+        "decade": "1790s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "france-1789-1815::c7",
+      "xlink_b": "spain-1700-1808::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Peninsular War",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1789-1815",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Peninsular War — Napoleon's 'Spanish ulcer'",
+        "decade": "1800s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "w2",
+        "cat": "world",
+        "label": "Congress of Vienna (1815) — Spain sidelined despite the Peninsular War",
+        "decade": "1810s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "france-1789-1815::c7",
+      "xlink_b": "spain-1808-1900::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Napoleon",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1789-1815",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Napoleon's looting of European art — the Louvre as world museum",
+        "decade": "1790s"
+      },
+      "b": {
+        "folio": "spain-1700-1808",
+        "id": "w3",
+        "cat": "world",
+        "label": "Fontainebleau geopolitical trap — Spain's fatal alliance with Napoleon",
+        "decade": "1790s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "france-1789-1815::ex2",
+      "xlink_b": "spain-1700-1808::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Peninsular War",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1700-1808",
+        "id": "ex5",
+        "cat": "exchange",
+        "label": "Treaty of Fontainebleau (1807) — the Trojan Horse",
+        "decade": "1800s"
+      },
+      "b": {
+        "folio": "spain-1808-1900",
+        "id": "w2",
+        "cat": "world",
+        "label": "Congress of Vienna (1815) — Spain sidelined despite the Peninsular War",
+        "decade": "1810s"
+      },
+      "date_flag": "7yr gap",
+      "xlink_a": "spain-1700-1808::ex5",
+      "xlink_b": "spain-1808-1900::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Railway Law",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1808-1900",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Railway Law of 1855 — wider gauge isolates Spain from Europe",
+        "decade": "1850s"
+      },
+      "b": {
+        "folio": "spain-1900-1975",
+        "id": "s7",
+        "cat": "economy",
+        "label": "RENFE (1941) — nationalising the railways",
+        "decade": "1940s"
+      },
+      "date_flag": "86yr gap — verify same entity, not just shared theme",
+      "xlink_a": "spain-1808-1900::ex2",
+      "xlink_b": "spain-1900-1975::s7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cuba",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1808-1900",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Quintos — conscription of the poor and the blood tax",
+        "decade": "1830s–1900s"
+      },
+      "b": {
+        "folio": "spain-1900-1975",
+        "id": "s1",
+        "cat": "economy",
+        "label": "Post-1898 economic nationalism — the regeneracionismo movement",
+        "decade": "1890s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "spain-1808-1900::lv3",
+      "xlink_b": "spain-1900-1975::s1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Central Asia",
+        "Sassanid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "sassanid-224-484",
+        "id": "a4",
+        "cat": "expression",
+        "label": "Sassanid royal silver — the hunting plate tradition",
+        "decade": "220s–480s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "a3",
+        "cat": "expression",
+        "label": "Sassanid silver hunting plate — peak production",
+        "decade": "480s–650s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "sassanid-224-484::a4",
+      "xlink_b": "sassanid-484-651::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Antioch",
+        "Rome"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Zenobia — the most documented pre-Islamic Arab woman",
+        "decade": "240s–270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "s1",
+        "cat": "economy",
+        "label": "Currency debasement crisis",
+        "decade": "230s–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::lv1",
+      "xlink_b": "rome-200-300::s1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Mesopotamia",
+        "Rome"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "rome-200-300",
+        "id": "p1",
+        "cat": "power",
+        "label": "Septimius Severus",
+        "decade": "190s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "w3",
+        "cat": "world",
+        "label": "Rome and Parthia fight over the trade roads",
+        "decade": "20s BC–200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "rome-200-300::p1",
+      "xlink_b": "tylos-mleiha-300bc-300ad::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Muscat",
+        "Women"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Women's fishing toolkits at Ra's al-Hamra",
+        "decade": "3500s BC–4500s"
+      },
+      "b": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "Women in the mixed households of the ports",
+        "decade": "1520s–1650s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "gulf-prehistory-8000bc-3000bc::lv2",
+      "xlink_b": "portuguese-gulf-1507-1650::lv4"
     },
     {
       "confidence": "low",
@@ -17264,32 +20141,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Antioch",
-        "Rome"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "lv1",
-        "cat": "lives",
-        "label": "Zenobia — the most documented pre-Islamic Arab woman",
-        "decade": "240s–270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "s1",
-        "cat": "economy",
-        "label": "Currency debasement crisis",
-        "decade": "230s–270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::lv1",
-      "xlink_b": "rome-200-300::s1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Milan",
         "Theodosian"
       ],
@@ -17311,32 +20162,6 @@
       "date_flag": "3yr gap",
       "xlink_a": "rome-300-400::o6",
       "xlink_b": "rome-400-500::w1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Italy",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1610-1715",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "War of Spanish Succession — Louis XIV's last gamble",
-        "decade": "1700s"
-      },
-      "b": {
-        "folio": "spain-1516-1700",
-        "id": "w1",
-        "cat": "world",
-        "label": "The empire on which the sun never sets",
-        "decade": "1510s–1700s"
-      },
-      "date_flag": "1yr gap",
-      "xlink_a": "france-1610-1715::c4",
-      "xlink_b": "spain-1516-1700::w1"
     },
     {
       "confidence": "low",
@@ -18013,188 +20838,6 @@
       "date_flag": "34yr gap",
       "xlink_a": "spain-1808-1900::k2",
       "xlink_b": "spain-1900-1975::k1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Peninsular War",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1789-1815",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Peninsular War — Napoleon's 'Spanish ulcer'",
-        "decade": "1800s"
-      },
-      "b": {
-        "folio": "spain-1700-1808",
-        "id": "ex5",
-        "cat": "exchange",
-        "label": "Treaty of Fontainebleau (1807) — the Trojan Horse",
-        "decade": "1800s"
-      },
-      "date_flag": "1yr gap",
-      "xlink_a": "france-1789-1815::c7",
-      "xlink_b": "spain-1700-1808::ex5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Portugal",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1789-1815",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Peninsular War — Napoleon's 'Spanish ulcer'",
-        "decade": "1800s"
-      },
-      "b": {
-        "folio": "spain-1700-1808",
-        "id": "w3",
-        "cat": "world",
-        "label": "Fontainebleau geopolitical trap — Spain's fatal alliance with Napoleon",
-        "decade": "1790s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "france-1789-1815::c7",
-      "xlink_b": "spain-1700-1808::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Peninsular War",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1789-1815",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Peninsular War — Napoleon's 'Spanish ulcer'",
-        "decade": "1800s"
-      },
-      "b": {
-        "folio": "spain-1808-1900",
-        "id": "w2",
-        "cat": "world",
-        "label": "Congress of Vienna (1815) — Spain sidelined despite the Peninsular War",
-        "decade": "1810s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "france-1789-1815::c7",
-      "xlink_b": "spain-1808-1900::w2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Napoleon",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1789-1815",
-        "id": "ex2",
-        "cat": "exchange",
-        "label": "Napoleon's looting of European art — the Louvre as world museum",
-        "decade": "1790s"
-      },
-      "b": {
-        "folio": "spain-1700-1808",
-        "id": "w3",
-        "cat": "world",
-        "label": "Fontainebleau geopolitical trap — Spain's fatal alliance with Napoleon",
-        "decade": "1790s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "france-1789-1815::ex2",
-      "xlink_b": "spain-1700-1808::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Peninsular War",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1700-1808",
-        "id": "ex5",
-        "cat": "exchange",
-        "label": "Treaty of Fontainebleau (1807) — the Trojan Horse",
-        "decade": "1800s"
-      },
-      "b": {
-        "folio": "spain-1808-1900",
-        "id": "w2",
-        "cat": "world",
-        "label": "Congress of Vienna (1815) — Spain sidelined despite the Peninsular War",
-        "decade": "1810s"
-      },
-      "date_flag": "7yr gap",
-      "xlink_a": "spain-1700-1808::ex5",
-      "xlink_b": "spain-1808-1900::w2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Railway Law",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "ex2",
-        "cat": "exchange",
-        "label": "Railway Law of 1855 — wider gauge isolates Spain from Europe",
-        "decade": "1850s"
-      },
-      "b": {
-        "folio": "spain-1900-1975",
-        "id": "s7",
-        "cat": "economy",
-        "label": "RENFE (1941) — nationalising the railways",
-        "decade": "1940s"
-      },
-      "date_flag": "86yr gap — verify same entity, not just shared theme",
-      "xlink_a": "spain-1808-1900::ex2",
-      "xlink_b": "spain-1900-1975::s7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Cuba",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "lv3",
-        "cat": "lives",
-        "label": "Quintos — conscription of the poor and the blood tax",
-        "decade": "1830s–1900s"
-      },
-      "b": {
-        "folio": "spain-1900-1975",
-        "id": "s1",
-        "cat": "economy",
-        "label": "Post-1898 economic nationalism — the regeneracionismo movement",
-        "decade": "1890s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "spain-1808-1900::lv3",
-      "xlink_b": "spain-1900-1975::s1"
     },
     {
       "confidence": "low",
@@ -23167,84 +25810,6 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Palmyra",
-        "Silk Road"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "t3",
-        "cat": "thought",
-        "label": "PAT corpus — 3,000 Palmyrene inscriptions",
-        "decade": "100s BC–270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "ex1",
-        "cat": "exchange",
-        "label": "Sassanid disruption of eastern trade under Shapur I",
-        "decade": "240s–270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::t3",
-      "xlink_b": "rome-200-300::ex1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Silk Road"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "s1",
-        "cat": "economy",
-        "label": "Silk Road control — Palmyra as the key node",
-        "decade": "100s BC–270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "ex1",
-        "cat": "exchange",
-        "label": "Sassanid disruption of eastern trade under Shapur I",
-        "decade": "240s–270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::s1",
-      "xlink_b": "rome-200-300::ex1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Silk Road"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "s1",
-        "cat": "economy",
-        "label": "Silk Road control — Palmyra as the key node",
-        "decade": "100s BC–270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "ex3",
-        "cat": "exchange",
-        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
-        "decade": "150s–270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::s1",
-      "xlink_b": "rome-200-300::ex3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
         "Palmyrene"
       ],
       "sharedCount": 2,
@@ -23499,32 +26064,6 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::c3",
       "xlink_b": "rome-200-300::c8"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Central Asia",
-        "Sassanid"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "sassanid-224-484",
-        "id": "a4",
-        "cat": "expression",
-        "label": "Sassanid royal silver — the hunting plate tradition",
-        "decade": "220s–480s"
-      },
-      "b": {
-        "folio": "sassanid-484-651",
-        "id": "a3",
-        "cat": "expression",
-        "label": "Sassanid silver hunting plate — peak production",
-        "decade": "480s–650s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "sassanid-224-484::a4",
-      "xlink_b": "sassanid-484-651::a3"
     },
     {
       "confidence": "low",
