@@ -1,17 +1,633 @@
 {
   "_meta": {
     "generated": "2026-09-04",
-    "figure_matches": 238,
-    "figure_matches_rejected_dynasty_mismatch": 513,
-    "figure_matches_rejected_date_implausible": 460,
-    "dynasty_alignment_proposals_count": 15,
-    "keyword_matches": 866,
-    "keyword_matches_rejected_geo_only": 1280,
-    "high_confidence": 245,
-    "medium_confidence": 48,
-    "low_confidence": 811
+    "figure_matches": 272,
+    "figure_matches_rejected_dynasty_mismatch": 544,
+    "figure_matches_rejected_date_implausible": 511,
+    "dynasty_alignment_proposals_count": 16,
+    "keyword_matches": 974,
+    "keyword_matches_rejected_geo_only": 1335,
+    "high_confidence": 281,
+    "medium_confidence": 58,
+    "low_confidence": 907
   },
   "figure_name_matches": [
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k1",
+        "cat": "power",
+        "label": "Saladin welds Egypt and Syria into one bloc",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k1",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k2",
+        "cat": "power",
+        "label": "Saladin — the reconquest and the last years",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k2",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k3",
+        "cat": "power",
+        "label": "The war of Saladin's heirs and the rise of al-Adil",
+        "dynasty": "Ayyubid",
+        "decade": "1190s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k3",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Damascus",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Damascus line",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1260s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The women traditionists of Damascus and Baghdad",
+        "decade": "1100s–1250s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k9",
+      "xlink_b": "caliphate-945-1258::lv2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Hattin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Hattin",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c1",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The wars of Saladin's house",
+        "dynasty": "Ayyubid",
+        "decade": "1190s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c5",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sunni",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Sunni majority the Fatimids did not convert",
+        "decade": "960s–1170s"
+      },
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "fatimids-909-1171::b6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sunni",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ayyubids",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o5",
+        "cat": "order",
+        "label": "The dhimma under the Ayyubids",
+        "dynasty": "Ayyubid",
+        "decade": "1170s–1250s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "xlink_a": "ayyubids-1171-1250::o5",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sunni",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni triumph in Egypt",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Sunni majority the Fatimids did not convert",
+        "decade": "960s–1170s"
+      },
+      "xlink_a": "ayyubids-1171-1250::b1",
+      "xlink_b": "fatimids-909-1171::b6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sunni",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni triumph in Egypt",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "xlink_a": "ayyubids-1171-1250::b1",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ibn Arabi",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b4",
+        "cat": "belief",
+        "label": "Ibn Arabi and the unity of being, in Damascus",
+        "dynasty": "Ayyubid",
+        "decade": "1220s"
+      },
+      "match": {
+        "folio": "al-andalus-1031-1492",
+        "id": "r1",
+        "cat": "belief",
+        "label": "Ibn Arabi — the greatest Sufi mystic of Islam",
+        "decade": "1160s–1240s"
+      },
+      "xlink_a": "ayyubids-1171-1250::b4",
+      "xlink_b": "al-andalus-1031-1492::r1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ibn Arabi",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b4",
+        "cat": "belief",
+        "label": "Ibn Arabi and the unity of being, in Damascus",
+        "dynasty": "Ayyubid",
+        "decade": "1220s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "b4",
+        "cat": "belief",
+        "label": "Ibn Arabi and the unity of being",
+        "decade": "1200s–1240s"
+      },
+      "xlink_a": "ayyubids-1171-1250::b4",
+      "xlink_b": "caliphate-945-1258::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Red Sea",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "dynasty": "Ayyubid",
+        "decade": "1170s–1250s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1100s–1250s"
+      },
+      "xlink_a": "ayyubids-1171-1250::ec1",
+      "xlink_b": "caliphate-945-1258::ec4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Red Sea",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "dynasty": "Ayyubid",
+        "decade": "1170s–1250s"
+      },
+      "match": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "xlink_a": "ayyubids-1171-1250::ec1",
+      "xlink_b": "egypt-6000bc-3000bc::th2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sugar",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "Sugar",
+        "dynasty": "Ayyubid",
+        "decade": "1170s–1250s"
+      },
+      "match": {
+        "folio": "al-andalus-1031-1492",
+        "id": "s5",
+        "cat": "economy",
+        "label": "The Genoese-Granada alliance -- silk, sugar and the fondaco network",
+        "decade": "1270s–1490s"
+      },
+      "xlink_a": "ayyubids-1171-1250::ec4",
+      "xlink_b": "al-andalus-1031-1492::s5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Yemen",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec6",
+        "cat": "economy",
+        "label": "Yemen, Aden and the India trade",
+        "dynasty": "Ayyubid",
+        "decade": "1170s–1220s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "The Sulayhid queen of Yemen",
+        "decade": "1060s–1130s"
+      },
+      "xlink_a": "ayyubids-1171-1250::ec6",
+      "xlink_b": "fatimids-909-1171::x3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Crusader",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "The answer to the Crusader castle",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1230s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "c10",
+        "cat": "conflict",
+        "label": "The Zangid–Crusader contest for Egypt",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::tc1",
+      "xlink_b": "fatimids-909-1171::c10"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water for the Citadel and the Ghouta",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1240s"
+      },
+      "match": {
+        "folio": "al-andalus-1031-1492",
+        "id": "a1",
+        "cat": "expression",
+        "label": "The Alhambra — the palace of water, light and inscription",
+        "decade": "1230s–1390s"
+      },
+      "xlink_a": "ayyubids-1171-1250::tc4",
+      "xlink_b": "al-andalus-1031-1492::a1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water for the Citadel and the Ghouta",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1240s"
+      },
+      "match": {
+        "folio": "al-andalus-1031-1492",
+        "id": "te1",
+        "cat": "technology",
+        "label": "Andalusi hydraulic engineering -- acequias, norias and the Alhambra's water",
+        "decade": "1030s–1490s"
+      },
+      "xlink_a": "ayyubids-1171-1250::tc4",
+      "xlink_b": "al-andalus-1031-1492::te1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water for the Citadel and the Ghouta",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1240s"
+      },
+      "match": {
+        "folio": "dilmun-3000bc-600bc",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The Barbar water temple",
+        "decade": "1800s BC–2200s"
+      },
+      "xlink_a": "ayyubids-1171-1250::tc4",
+      "xlink_b": "dilmun-3000bc-600bc::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "cat": "world",
+        "label": "Egypt and Syria under one hand",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "The Seljuks take Fatimid Syria and Palestine",
+        "decade": "1070s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w1",
+      "xlink_b": "fatimids-909-1171::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mediterranean",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w6",
+        "cat": "world",
+        "label": "Egypt bound into the Mediterranean economy",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1250s"
+      },
+      "match": {
+        "folio": "caliphate-945-1258",
+        "id": "ec6",
+        "cat": "economy",
+        "label": "Papermaking crosses to the Mediterranean",
+        "decade": "950s–1150s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w6",
+      "xlink_b": "caliphate-945-1258::ec6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mediterranean",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w6",
+        "cat": "world",
+        "label": "Egypt bound into the Mediterranean economy",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1250s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "k17",
+        "cat": "power",
+        "label": "Alfonso III, James II and Alfonso IV -- consolidating the Mediterranean empire",
+        "decade": "1280s–1330s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w6",
+      "xlink_b": "spain-1230-1492::k17"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mediterranean",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w6",
+        "cat": "world",
+        "label": "Egypt bound into the Mediterranean economy",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1250s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "James I conquers Valencia -- Aragon's own Mediterranean strategy",
+        "decade": "1230s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w6",
+      "xlink_b": "spain-1230-1492::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mediterranean",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w6",
+        "cat": "world",
+        "label": "Egypt bound into the Mediterranean economy",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1250s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Sicilian Vespers (1282) -- the founding of Aragon's Mediterranean empire",
+        "decade": "1280s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w6",
+      "xlink_b": "spain-1230-1492::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mediterranean",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w6",
+        "cat": "world",
+        "label": "Egypt bound into the Mediterranean economy",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1250s"
+      },
+      "match": {
+        "folio": "spain-1230-1492",
+        "id": "ex4",
+        "cat": "exchange",
+        "label": "Consolat de Mar — the founding code of Mediterranean maritime law",
+        "decade": "1250s–1350s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w6",
+      "xlink_b": "spain-1230-1492::ex4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Levant",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w3",
+        "cat": "world",
+        "label": "Egypt is the key to the Levant",
+        "dynasty": "Ayyubid",
+        "decade": "1210s–1250s"
+      },
+      "match": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "ex4",
+        "cat": "exchange",
+        "label": "Maadi culture — a Delta gateway to the southern Levant",
+        "decade": "3500s BC–3900s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w3",
+      "xlink_b": "egypt-6000bc-3000bc::ex4"
+    },
     {
       "confidence": "high",
       "type": "figure-name",
@@ -1379,6 +1995,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Mongols",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "x6",
+        "cat": "exchange",
+        "label": "The Mongols and the wider world",
+        "dynasty": "Mongol",
+        "decade": "1240s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The scholars fleeing the Mongols",
+        "decade": "1220s–1260s"
+      },
+      "xlink_a": "caliphate-945-1258::x6",
+      "xlink_b": "ayyubids-1171-1250::x4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Seljuk",
       "pivot": {
         "folio": "caliphate-945-1258",
@@ -1419,6 +2057,72 @@
       },
       "xlink_a": "caliphate-945-1258::w2",
       "xlink_b": "fatimids-909-1171::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ayyubids",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "dynasty": "Ayyubid",
+        "decade": "1170s–1250s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The historians of Saladin and the Ayyubids",
+        "decade": "1190s–1260s"
+      },
+      "xlink_a": "caliphate-945-1258::w4",
+      "xlink_b": "ayyubids-1171-1250::t4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mongol",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Mongol cataclysm",
+        "dynasty": "Mongol",
+        "decade": "1210s–1260s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "The Mongol ultimatum",
+        "decade": "1240s"
+      },
+      "xlink_a": "caliphate-945-1258::w5",
+      "xlink_b": "ayyubids-1171-1250::x5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mongol",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Mongol cataclysm",
+        "dynasty": "Mongol",
+        "decade": "1210s–1260s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Mongol shadow",
+        "decade": "1210s"
+      },
+      "xlink_a": "caliphate-945-1258::w5",
+      "xlink_b": "ayyubids-1171-1250::w4"
     },
     {
       "confidence": "high",
@@ -1727,6 +2431,50 @@
       },
       "xlink_a": "eastern-arabia-750-1200::w2",
       "xlink_b": "fatimids-909-1171::b6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "dynasty": "Ayyubid",
+        "decade": "1160s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The historians of Saladin and the Ayyubids",
+        "decade": "1190s–1260s"
+      },
+      "xlink_a": "fatimids-909-1171::v6",
+      "xlink_b": "ayyubids-1171-1250::t4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "dynasty": "Ayyubid",
+        "decade": "1160s"
+      },
+      "match": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x6",
+        "cat": "exchange",
+        "label": "Saladin becomes a European legend",
+        "decade": "1190s–1350s"
+      },
+      "xlink_a": "fatimids-909-1171::v6",
+      "xlink_b": "ayyubids-1171-1250::x6"
     },
     {
       "confidence": "high",
@@ -5251,6 +5999,23 @@
   ],
   "dynasty_alignment_proposals": [
     {
+      "name": "Syria",
+      "entry_a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "label": "Egypt and Syria under one hand",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "entry_b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "label": "The unification of Syria under Nur al-Din",
+        "dynasty": "Zangid",
+        "decade": "1140s–1170s"
+      }
+    },
+    {
       "name": "Qarmatians",
       "entry_a": {
         "folio": "caliphate-750-945",
@@ -5540,6 +6305,90 @@
       "confidence": "high",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Bezels of Wisdom",
+        "Damascus",
+        "Ibn Arabi",
+        "Meccan Openings"
+      ],
+      "sharedCount": 4,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b4",
+        "cat": "belief",
+        "label": "Ibn Arabi and the unity of being, in Damascus",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "b4",
+        "cat": "belief",
+        "label": "Ibn Arabi and the unity of being",
+        "decade": "1200s–1240s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::b4",
+      "xlink_b": "caliphate-945-1258::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Ayyubids",
+        "Egypt",
+        "Syria"
+      ],
+      "sharedCount": 4,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o5",
+        "cat": "order",
+        "label": "The dhimma under the Ayyubids",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o5",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Silk Road",
+        "Syria",
+        "Tadmur"
+      ],
+      "sharedCount": 4,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "k1",
+        "cat": "power",
+        "label": "Palmyra as autonomous caravan city",
+        "decade": "100s BC–210s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
+        "decade": "150s–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::k1",
+      "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "high",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Nizwa",
         "Omani",
         "Rustaq",
@@ -5677,34 +6526,6 @@
       "xlink_b": "eastern-arabia-750-1200::lv5"
     },
     {
-      "confidence": "high",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Silk Road",
-        "Syria",
-        "Tadmur"
-      ],
-      "sharedCount": 4,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "k1",
-        "cat": "power",
-        "label": "Palmyra as autonomous caravan city",
-        "decade": "100s BC–210s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "ex3",
-        "cat": "exchange",
-        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
-        "decade": "150s–270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::k1",
-      "xlink_b": "rome-200-300::ex3"
-    },
-    {
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
@@ -5811,6 +6632,411 @@
       "date_flag": "overlapping",
       "xlink_a": "al-andalus-1031-1492::ex3",
       "xlink_b": "spain-1230-1492::c8"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus",
+        "Nur al-Din"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "t6",
+        "cat": "thought",
+        "label": "Ayyubid medicine and the teaching hospital",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::t6",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Damascus",
+        "Mamluk Cairo",
+        "Mongols"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The scholars fleeing the Mongols",
+        "decade": "1220s–1260s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "The scholars flee the Mongols",
+        "decade": "1220s–1260s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::x4",
+      "xlink_b": "caliphate-945-1258::x5"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo",
+        "Saladin"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k1",
+        "cat": "power",
+        "label": "Saladin welds Egypt and Syria into one bloc",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k1",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo",
+        "Saladin"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k3",
+        "cat": "power",
+        "label": "The war of Saladin's heirs and the rise of al-Adil",
+        "decade": "1190s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "22yr gap",
+      "xlink_a": "ayyubids-1171-1250::k3",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Egypt",
+        "Fustat"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c10",
+        "cat": "conflict",
+        "label": "The Zangid–Crusader contest for Egypt",
+        "decade": "1160s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "fatimids-909-1171::c10"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Nile",
+        "Red Sea"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "The slave supply of Egypt",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "Slavery in the Fatimid world",
+        "decade": "960s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv6",
+      "xlink_b": "fatimids-909-1171::lv4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt",
+        "Syria"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o3",
+        "cat": "order",
+        "label": "The iqta and the cadastral survey",
+        "decade": "1180s–1210s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o3",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt",
+        "Syria"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The militarised land and the shrinking of cash",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ec5",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Syria",
+        "Tadmur"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "nabataean-400bc-106ce",
+        "id": "o3",
+        "cat": "order",
+        "label": "Nabataean Tariff inscription of Palmyra",
+        "decade": "130s"
+      },
+      "b": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "k1",
+        "cat": "power",
+        "label": "Palmyra as autonomous caravan city",
+        "decade": "100s BC–210s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "nabataean-400bc-106ce::o3",
+      "xlink_b": "palmyrene-100bc-273ce::k1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Syria",
+        "Tadmur"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "nabataean-400bc-106ce",
+        "id": "o3",
+        "cat": "order",
+        "label": "Nabataean Tariff inscription of Palmyra",
+        "decade": "130s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
+        "decade": "150s–270s"
+      },
+      "date_flag": "13yr gap",
+      "xlink_a": "nabataean-400bc-106ce::o3",
+      "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fustat",
+        "Kufa",
+        "Medina"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "decade": "660s–740s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The four Sunni schools of law take shape",
+        "decade": "760s–850s"
+      },
+      "date_flag": "20yr gap",
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "caliphate-750-945::b1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aden",
+        "Aydhab",
+        "Qus"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The India trade moves to the Red Sea",
+        "decade": "970s–1150s"
+      },
+      "date_flag": "20yr gap",
+      "xlink_a": "ayyubids-1171-1250::ec1",
+      "xlink_b": "fatimids-909-1171::ec1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aden",
+        "Karimi",
+        "Red Sea"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1100s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ec1",
+      "xlink_b": "caliphate-945-1258::ec4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Roman Empire",
+        "Italy",
+        "Spain"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "france-1494-1610",
+        "id": "w1",
+        "cat": "world",
+        "label": "Habsburg encirclement — France surrounded",
+        "decade": "1510s–1550s"
+      },
+      "b": {
+        "folio": "spain-1516-1700",
+        "id": "w1",
+        "cat": "world",
+        "label": "The empire on which the sun never sets",
+        "decade": "1510s–1700s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "france-1494-1610::w1",
+      "xlink_b": "spain-1516-1700::w1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ghassanids Byzantine",
+        "Lakhmids Sasanian",
+        "Syrian"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ghassanid-420-638",
+        "id": "w1",
+        "cat": "world",
+        "label": "Ghassanid-Lakhmid proxy war as the Arab Cold War",
+        "decade": "500s–600s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "w1",
+        "cat": "world",
+        "label": "Lakhmid-Ghassanid rivalry as proxy war",
+        "decade": "500s–600s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ghassanid-420-638::w1",
+      "xlink_b": "lakhmid-268-602::w1"
     },
     {
       "confidence": "medium",
@@ -6248,33 +7474,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Fustat",
-        "Kufa",
-        "Medina"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "caliphate-632-750",
-        "id": "o5",
-        "cat": "order",
-        "label": "The office of qadi and the beginnings of Islamic law",
-        "decade": "660s–740s"
-      },
-      "b": {
-        "folio": "caliphate-750-945",
-        "id": "b1",
-        "cat": "belief",
-        "label": "The four Sunni schools of law take shape",
-        "decade": "760s–850s"
-      },
-      "date_flag": "20yr gap",
-      "xlink_a": "caliphate-632-750::o5",
-      "xlink_b": "caliphate-750-945::b1"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Antakya",
         "Antioch",
         "Khosrow I"
@@ -6410,60 +7609,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Palmyra",
-        "Syria",
-        "Tadmur"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "nabataean-400bc-106ce",
-        "id": "o3",
-        "cat": "order",
-        "label": "Nabataean Tariff inscription of Palmyra",
-        "decade": "130s"
-      },
-      "b": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "k1",
-        "cat": "power",
-        "label": "Palmyra as autonomous caravan city",
-        "decade": "100s BC–210s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "nabataean-400bc-106ce::o3",
-      "xlink_b": "palmyrene-100bc-273ce::k1"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Syria",
-        "Tadmur"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "nabataean-400bc-106ce",
-        "id": "o3",
-        "cat": "order",
-        "label": "Nabataean Tariff inscription of Palmyra",
-        "decade": "130s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "ex3",
-        "cat": "exchange",
-        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
-        "decade": "150s–270s"
-      },
-      "date_flag": "13yr gap",
-      "xlink_a": "nabataean-400bc-106ce::o3",
-      "xlink_b": "rome-200-300::ex3"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "PAT",
         "Palmyra",
         "Silk Road"
@@ -6486,33 +7631,6 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::t3",
       "xlink_b": "rome-200-300::ex3"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Holy Roman Empire",
-        "Italy",
-        "Spain"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "france-1494-1610",
-        "id": "w1",
-        "cat": "world",
-        "label": "Habsburg encirclement — France surrounded",
-        "decade": "1510s–1550s"
-      },
-      "b": {
-        "folio": "spain-1516-1700",
-        "id": "w1",
-        "cat": "world",
-        "label": "The empire on which the sun never sets",
-        "decade": "1510s–1700s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "france-1494-1610::w1",
-      "xlink_b": "spain-1516-1700::w1"
     },
     {
       "confidence": "medium",
@@ -6810,33 +7928,6 @@
       "date_flag": "overlapping",
       "xlink_a": "nabataean-400bc-106ce::o3",
       "xlink_b": "palmyrene-100bc-273ce::o1"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ghassanids Byzantine",
-        "Lakhmids Sasanian",
-        "Syrian"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "ghassanid-420-638",
-        "id": "w1",
-        "cat": "world",
-        "label": "Ghassanid-Lakhmid proxy war as the Arab Cold War",
-        "decade": "500s–600s"
-      },
-      "b": {
-        "folio": "lakhmid-268-602",
-        "id": "w1",
-        "cat": "world",
-        "label": "Lakhmid-Ghassanid rivalry as proxy war",
-        "decade": "500s–600s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ghassanid-420-638::w1",
-      "xlink_b": "lakhmid-268-602::w1"
     },
     {
       "confidence": "medium",
@@ -7680,6 +8771,292 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k1",
+        "cat": "power",
+        "label": "Saladin welds Egypt and Syria into one bloc",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k1",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k3",
+        "cat": "power",
+        "label": "The war of Saladin's heirs and the rise of al-Adil",
+        "decade": "1190s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "19yr gap",
+      "xlink_a": "ayyubids-1171-1250::k3",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o4",
+        "cat": "order",
+        "label": "Ayyubid coinage and the last figural dirhams",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "6yr gap",
+      "xlink_a": "ayyubids-1171-1250::o4",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o2",
+        "cat": "order",
+        "label": "The confederation as a form of government",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "12yr gap",
+      "xlink_a": "ayyubids-1171-1250::o2",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The four-madhhab madrasa and Ash'ari theology",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "6yr gap",
+      "xlink_a": "ayyubids-1171-1250::b2",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex6",
+        "cat": "expression",
+        "label": "The poets of the Ayyubid courts",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "6yr gap",
+      "xlink_a": "ayyubids-1171-1250::ex6",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Damascus",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "The citadels of Syria and the ablaq facade",
+        "decade": "1190s–1230s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "16yr gap",
+      "xlink_a": "ayyubids-1171-1250::ex3",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Damascus",
+        "Near East"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "t6",
+        "cat": "thought",
+        "label": "Ayyubid medicine and the teaching hospital",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "b4",
+        "cat": "belief",
+        "label": "Ibn Arabi and the unity of being",
+        "decade": "1200s–1240s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::t6",
+      "xlink_b": "caliphate-945-1258::b4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Abd al-Latif al-Baghdadi — observation against authority",
+        "decade": "1190s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "16yr gap",
+      "xlink_a": "ayyubids-1171-1250::t2",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "cat": "world",
+        "label": "Egypt and Syria under one hand",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::w1",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved youth in Ayyubid letters",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "decade": "1140s–1170s"
+      },
+      "date_flag": "6yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv5",
+      "xlink_b": "caliphate-945-1258::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Baghdad",
         "Córdoba"
       ],
@@ -7831,6 +9208,1176 @@
       "date_flag": "74yr gap — verify same entity, not just shared theme",
       "xlink_a": "france-1610-1715::ex1",
       "xlink_b": "france-1789-1815::ex1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k1",
+        "cat": "power",
+        "label": "Saladin welds Egypt and Syria into one bloc",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c10",
+        "cat": "conflict",
+        "label": "The Zangid–Crusader contest for Egypt",
+        "decade": "1160s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "ayyubids-1171-1250::k1",
+      "xlink_b": "fatimids-909-1171::c10"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k1",
+        "cat": "power",
+        "label": "Saladin welds Egypt and Syria into one bloc",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k1",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k3",
+        "cat": "power",
+        "label": "The war of Saladin's heirs and the rise of al-Adil",
+        "decade": "1190s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "22yr gap",
+      "xlink_a": "ayyubids-1171-1250::k3",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k4",
+        "cat": "power",
+        "label": "Al-Adil reunites the confederation",
+        "decade": "1200s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "29yr gap",
+      "xlink_a": "ayyubids-1171-1250::k4",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k4",
+        "cat": "power",
+        "label": "Al-Adil reunites the confederation",
+        "decade": "1200s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "29yr gap",
+      "xlink_a": "ayyubids-1171-1250::k4",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k5",
+        "cat": "power",
+        "label": "Al-Kamil",
+        "decade": "1210s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "47yr gap",
+      "xlink_a": "ayyubids-1171-1250::k5",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k5",
+        "cat": "power",
+        "label": "Al-Kamil",
+        "decade": "1210s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "47yr gap",
+      "xlink_a": "ayyubids-1171-1250::k5",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k6",
+        "cat": "power",
+        "label": "Al-Salih Ayyub and rule by mamluk",
+        "decade": "1230s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "67yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::k6",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k6",
+        "cat": "power",
+        "label": "Al-Salih Ayyub and rule by mamluk",
+        "decade": "1230s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "67yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::k6",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o2",
+        "cat": "order",
+        "label": "The confederation as a form of government",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "15yr gap",
+      "xlink_a": "ayyubids-1171-1250::o2",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o2",
+        "cat": "order",
+        "label": "The confederation as a form of government",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "15yr gap",
+      "xlink_a": "ayyubids-1171-1250::o2",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni triumph in Egypt",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::b1",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni triumph in Egypt",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c10",
+        "cat": "conflict",
+        "label": "The Zangid–Crusader contest for Egypt",
+        "decade": "1160s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "ayyubids-1171-1250::b1",
+      "xlink_b": "fatimids-909-1171::c10"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni triumph in Egypt",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::b1",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Sufism becomes an institution of state",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "ayyubids-1171-1250::b3",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Sufism becomes an institution of state",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "ayyubids-1171-1250::b3",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The four-madhhab madrasa and Ash'ari theology",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::b2",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The four-madhhab madrasa and Ash'ari theology",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::b2",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "al-Salih Ayyub"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex6",
+        "cat": "expression",
+        "label": "The poets of the Ayyubid courts",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ex6",
+      "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex6",
+        "cat": "expression",
+        "label": "The poets of the Ayyubid courts",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::ex6",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex6",
+        "cat": "expression",
+        "label": "The poets of the Ayyubid courts",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::ex6",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex2",
+        "cat": "expression",
+        "label": "The tomb-madrasa arrives in Egypt",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "54yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::ex2",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex2",
+        "cat": "expression",
+        "label": "The tomb-madrasa arrives in Egypt",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "54yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::ex2",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "t6",
+        "cat": "thought",
+        "label": "Ayyubid medicine and the teaching hospital",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "3yr gap",
+      "xlink_a": "ayyubids-1171-1250::t6",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "t6",
+        "cat": "thought",
+        "label": "Ayyubid medicine and the teaching hospital",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "3yr gap",
+      "xlink_a": "ayyubids-1171-1250::t6",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "The answer to the Crusader castle",
+        "decade": "1180s–1230s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::tc1",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "The answer to the Crusader castle",
+        "decade": "1180s–1230s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::tc1",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "cat": "world",
+        "label": "Egypt and Syria under one hand",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "3yr gap",
+      "xlink_a": "ayyubids-1171-1250::w1",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "cat": "world",
+        "label": "Egypt and Syria under one hand",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c10",
+        "cat": "conflict",
+        "label": "The Zangid–Crusader contest for Egypt",
+        "decade": "1160s"
+      },
+      "date_flag": "5yr gap",
+      "xlink_a": "ayyubids-1171-1250::w1",
+      "xlink_b": "fatimids-909-1171::c10"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "cat": "world",
+        "label": "Egypt and Syria under one hand",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "3yr gap",
+      "xlink_a": "ayyubids-1171-1250::w1",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayn Jalut",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Mamluks take Egypt",
+        "decade": "1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::w5",
+      "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Black Sea",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "The slave supply of Egypt",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv6",
+      "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "The slave supply of Egypt",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv6",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "The slave supply of Egypt",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c10",
+        "cat": "conflict",
+        "label": "The Zangid–Crusader contest for Egypt",
+        "decade": "1160s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv6",
+      "xlink_b": "fatimids-909-1171::c10"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "The slave supply of Egypt",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv6",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved youth in Ayyubid letters",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv5",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved youth in Ayyubid letters",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv5",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "al-Salih Ayyub"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "The mamluk regiments before the coup",
+        "decade": "1230s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv3",
+      "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "The mamluk regiments before the coup",
+        "decade": "1230s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "59yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::lv3",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "The mamluk regiments before the coup",
+        "decade": "1230s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "59yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::lv3",
+      "xlink_b": "fatimids-909-1171::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "al-Salih Ayyub"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Shajar al-Durr",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "The conquest stocks the slave markets — and makes the Mamluk state",
+        "decade": "1230s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv1",
+      "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Shajar al-Durr",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "78yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::lv1",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Cairo"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Shajar al-Durr",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w5",
+        "cat": "world",
+        "label": "Egypt returns to Sunni Islam",
+        "decade": "1170s"
+      },
+      "date_flag": "78yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::lv1",
+      "xlink_b": "fatimids-909-1171::w5"
     },
     {
       "confidence": "low",
@@ -8065,6 +10612,448 @@
       "date_flag": "overlapping",
       "xlink_a": "al-andalus-1031-1492::s3",
       "xlink_b": "spain-718-1230::e_s2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k1",
+        "cat": "power",
+        "label": "Saladin welds Egypt and Syria into one bloc",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k1",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Sunni"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Sunni majority the Fatimids did not convert",
+        "decade": "960s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "fatimids-909-1171::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o5",
+        "cat": "order",
+        "label": "The dhimma under the Ayyubids",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The mamluk household",
+        "decade": "940s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o5",
+      "xlink_b": "caliphate-945-1258::lv4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o5",
+        "cat": "order",
+        "label": "The dhimma under the Ayyubids",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "o5",
+        "cat": "order",
+        "label": "The dhimma under the Fatimids — and under al-Hakim",
+        "decade": "960s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o5",
+      "xlink_b": "fatimids-909-1171::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o3",
+        "cat": "order",
+        "label": "The iqta and the cadastral survey",
+        "decade": "1180s–1210s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The mamluk household",
+        "decade": "940s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::o3",
+      "xlink_b": "caliphate-945-1258::lv4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o3",
+        "cat": "order",
+        "label": "The iqta and the cadastral survey",
+        "decade": "1180s–1210s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "o5",
+        "cat": "order",
+        "label": "The dhimma under the Fatimids — and under al-Hakim",
+        "decade": "960s–1170s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::o3",
+      "xlink_b": "fatimids-909-1171::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni triumph in Egypt",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::b1",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Sunni"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Sunni triumph in Egypt",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Sunni majority the Fatimids did not convert",
+        "decade": "960s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::b1",
+      "xlink_b": "fatimids-909-1171::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex2",
+        "cat": "expression",
+        "label": "The tomb-madrasa arrives in Egypt",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ex2",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The militarised land and the shrinking of cash",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The mamluk household",
+        "decade": "940s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ec5",
+      "xlink_b": "caliphate-945-1258::lv4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The militarised land and the shrinking of cash",
+        "decade": "1180s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "o5",
+        "cat": "order",
+        "label": "The dhimma under the Fatimids — and under al-Hakim",
+        "decade": "960s–1170s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "ayyubids-1171-1250::ec5",
+      "xlink_b": "fatimids-909-1171::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec3",
+        "cat": "economy",
+        "label": "The great famine of 1200–1202",
+        "decade": "1200s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ec3",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "cat": "world",
+        "label": "Egypt and Syria under one hand",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::w1",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w3",
+        "cat": "world",
+        "label": "Egypt is the key to the Levant",
+        "decade": "1210s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::w3",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Coptic",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The Coptic community under pressure",
+        "decade": "1170s–1260s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "An inherited bureaucracy — Greek, Coptic and Persian officials",
+        "decade": "640s–700s"
+      },
+      "date_flag": "470yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::lv4",
+      "xlink_b": "caliphate-632-750::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "The slave supply of Egypt",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::lv6",
+      "xlink_b": "caliphate-945-1258::w4"
     },
     {
       "confidence": "low",
@@ -9969,6 +12958,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "European",
+        "Italy"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x6",
+        "cat": "exchange",
+        "label": "Saladin becomes a European legend",
+        "decade": "1190s–1350s"
+      },
+      "b": {
+        "folio": "france-1789-1815",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Napoleon's looting of European art — the Louvre as world museum",
+        "decade": "1790s"
+      },
+      "date_flag": "446yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::x6",
+      "xlink_b": "france-1789-1815::ex2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "European",
         "Napoleon"
       ],
       "sharedCount": 2,
@@ -10015,6 +13030,942 @@
       "date_flag": "171yr gap — verify same entity, not just shared theme",
       "xlink_a": "france-1789-1815::ex2",
       "xlink_b": "spain-1975-today::ex4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k2",
+        "cat": "power",
+        "label": "Saladin — the reconquest and the last years",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k2",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Saladin"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k2",
+        "cat": "power",
+        "label": "Saladin — the reconquest and the last years",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "16yr gap",
+      "xlink_a": "ayyubids-1171-1250::k2",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k11",
+        "cat": "power",
+        "label": "The end of the dynasty in Syria",
+        "decade": "1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k11",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Horns of Hattin"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Hattin",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c1",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The surrender of Jerusalem",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c2",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Acre",
+        "Ayyubid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The siege of Acre",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c3",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Arsuf, the marches on Jerusalem and the Treaty of Jaffa",
+        "decade": "1190s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c4",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Saladin"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The wars of Saladin's house",
+        "decade": "1190s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "22yr gap",
+      "xlink_a": "ayyubids-1171-1250::c5",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "37yr gap",
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c9",
+        "cat": "conflict",
+        "label": "The Khwarazmian sack of Jerusalem and La Forbie",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "52yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::c9",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "The citadels of Syria and the ablaq facade",
+        "decade": "1190s–1230s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ex3",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Acre",
+        "Ayyubid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Frankish–Ayyubid truce system",
+        "decade": "1190s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::x1",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Al-Kamil and Frederick II",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "34yr gap",
+      "xlink_a": "ayyubids-1171-1250::x2",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The destruction of the Holy Sepulchre",
+        "decade": "1000s"
+      },
+      "date_flag": "220yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "fatimids-909-1171::c5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "Byzantium — the peace across the frontier",
+        "decade": "980s–1050s"
+      },
+      "date_flag": "174yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "fatimids-909-1171::x4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "a3",
+        "cat": "expression",
+        "label": "Church of the Holy Sepulchre, Jerusalem",
+        "decade": "320s"
+      },
+      "date_flag": "894yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "rome-300-400::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "fatimids-909-1171",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The destruction of the Holy Sepulchre",
+        "decade": "1000s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "a3",
+        "cat": "expression",
+        "label": "Church of the Holy Sepulchre, Jerusalem",
+        "decade": "320s"
+      },
+      "date_flag": "674yr gap — verify same entity, not just shared theme",
+      "xlink_a": "fatimids-909-1171::c5",
+      "xlink_b": "rome-300-400::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "fatimids-909-1171",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "Byzantium — the peace across the frontier",
+        "decade": "980s–1050s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "a3",
+        "cat": "expression",
+        "label": "Church of the Holy Sepulchre, Jerusalem",
+        "decade": "320s"
+      },
+      "date_flag": "652yr gap — verify same entity, not just shared theme",
+      "xlink_a": "fatimids-909-1171::x4",
+      "xlink_b": "rome-300-400::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jazira",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Köse Dagh, the tributary Jazira and the fall of Syria",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The counterweight trebuchet and the citadel",
+        "decade": "1100s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c11",
+      "xlink_b": "caliphate-945-1258::tc3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jazira",
+        "Seljuks of Rum"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "The Mongol ultimatum",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k11",
+        "cat": "power",
+        "label": "The succession wars and the atabeg states",
+        "decade": "1090s–1150s"
+      },
+      "date_flag": "86yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::x5",
+      "xlink_b": "caliphate-945-1258::k11"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayn Jalut",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k11",
+        "cat": "power",
+        "label": "The end of the dynasty in Syria",
+        "decade": "1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Mongol cataclysm",
+        "decade": "1210s–1260s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k11",
+      "xlink_b": "caliphate-945-1258::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Syria",
+        "Yarmuk"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Ajnadayn and Yarmuk — Byzantine Syria falls",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "ghassanid-420-638",
+        "id": "w3",
+        "cat": "world",
+        "label": "Muslim conquest of Syria and the Ghassanid end",
+        "decade": "630s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::c2",
+      "xlink_b": "ghassanid-420-638::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Seljuk",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "k11",
+        "cat": "power",
+        "label": "The succession wars and the atabeg states",
+        "decade": "1090s–1150s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Seljuk squeeze",
+        "decade": "1050s–1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::k11",
+      "xlink_b": "fatimids-909-1171::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Seljuk",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The mamluk household",
+        "decade": "940s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Seljuk squeeze",
+        "decade": "1050s–1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::lv4",
+      "xlink_b": "fatimids-909-1171::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ghassanid-420-638",
+        "id": "o2",
+        "cat": "order",
+        "label": "Unified Arab foederati command under Ghassanid phylarch",
+        "decade": "520s–580s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "k10",
+        "cat": "power",
+        "label": "al-Mundhir III ibn al-Numan",
+        "decade": "500s–550s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ghassanid-420-638::o2",
+      "xlink_b": "lakhmid-268-602::k10"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Asia Minor",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Zenobia conquers Asia Minor and Arabia",
+        "decade": "270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "w5",
+        "cat": "world",
+        "label": "Breakaway Palmyrene Empire",
+        "decade": "260s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::c3",
+      "xlink_b": "rome-200-300::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Syria",
+        "Tadmur"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Fall of Palmyra — city sacked, then razed",
+        "decade": "270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
+        "decade": "150s–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::c5",
+      "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fustat",
+        "Sunni"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The four Sunni schools of law take shape",
+        "decade": "760s–850s"
+      },
+      "date_flag": "316yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "caliphate-750-945::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aden",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec6",
+        "cat": "economy",
+        "label": "Yemen, Aden and the India trade",
+        "decade": "1170s–1220s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1100s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ec6",
+      "xlink_b": "caliphate-945-1258::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Persian Gulf as the Sasanian trade artery",
+        "decade": "240s–650s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "One market from the Atlantic to the Indus",
+        "decade": "660s–750s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "beth-qatraye-240-750::ec1",
+      "xlink_b": "caliphate-632-750::ec2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Persian Gulf as the Sasanian trade artery",
+        "decade": "240s–650s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Gulf as Rome's back door to India",
+        "decade": "250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-750::ec1",
+      "xlink_b": "tylos-mleiha-300bc-300ad::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Book of Contemplation",
+        "Usama ibn Munqidh"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Usama ibn Munqidh and life across the frontier",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Crusades as contact",
+        "decade": "1090s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::x3",
+      "xlink_b": "caliphate-945-1258::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Italy",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "War of Spanish Succession — Louis XIV's last gamble",
+        "decade": "1700s"
+      },
+      "b": {
+        "folio": "spain-1516-1700",
+        "id": "w1",
+        "cat": "world",
+        "label": "The empire on which the sun never sets",
+        "decade": "1510s–1700s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "france-1610-1715::c4",
+      "xlink_b": "spain-1516-1700::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Syrian",
+        "Yawm Halima"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ghassanid-420-638",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Halima bint al-Harith — the woman who names a battle",
+        "decade": "550s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Yawm Halima — death of al-Mundhir III",
+        "decade": "550s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ghassanid-420-638::lv1",
+      "xlink_b": "lakhmid-268-602::c1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Crusades",
+        "Levant"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Crusades as contact",
+        "decade": "1090s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Crusades and the Fatimid misjudgement",
+        "decade": "1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::x2",
+      "xlink_b": "fatimids-909-1171::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Crusades",
+        "Levant"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Crusades",
+        "decade": "1090s–1290s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Crusades and the Fatimid misjudgement",
+        "decade": "1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::w3",
+      "xlink_b": "fatimids-909-1171::w4"
     },
     {
       "confidence": "low",
@@ -12023,32 +15974,6 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Arabia",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ghassanid-420-638",
-        "id": "o2",
-        "cat": "order",
-        "label": "Unified Arab foederati command under Ghassanid phylarch",
-        "decade": "520s–580s"
-      },
-      "b": {
-        "folio": "lakhmid-268-602",
-        "id": "k10",
-        "cat": "power",
-        "label": "al-Mundhir III ibn al-Numan",
-        "decade": "500s–550s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ghassanid-420-638::o2",
-      "xlink_b": "lakhmid-268-602::k10"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Arabia",
         "Mesopotamia"
       ],
       "sharedCount": 2,
@@ -13577,58 +17502,6 @@
       "date_flag": "overlapping",
       "xlink_a": "beth-qatraye-240-750::b3",
       "xlink_b": "gulf-prehistory-8000bc-3000bc::e2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Gulf",
-        "Red Sea"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "beth-qatraye-240-750",
-        "id": "ec1",
-        "cat": "economy",
-        "label": "The Persian Gulf as the Sasanian trade artery",
-        "decade": "240s–650s"
-      },
-      "b": {
-        "folio": "caliphate-632-750",
-        "id": "ec2",
-        "cat": "economy",
-        "label": "One market from the Atlantic to the Indus",
-        "decade": "660s–750s"
-      },
-      "date_flag": "10yr gap",
-      "xlink_a": "beth-qatraye-240-750::ec1",
-      "xlink_b": "caliphate-632-750::ec2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Gulf",
-        "Red Sea"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "beth-qatraye-240-750",
-        "id": "ec1",
-        "cat": "economy",
-        "label": "The Persian Gulf as the Sasanian trade artery",
-        "decade": "240s–650s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
-        "id": "x1",
-        "cat": "exchange",
-        "label": "The Gulf as Rome's back door to India",
-        "decade": "250s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "beth-qatraye-240-750::ec1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x1"
     },
     {
       "confidence": "low",
@@ -20576,188 +24449,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Syria",
-        "Yarmuk"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-632-750",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "Ajnadayn and Yarmuk — Byzantine Syria falls",
-        "decade": "630s"
-      },
-      "b": {
-        "folio": "ghassanid-420-638",
-        "id": "w3",
-        "cat": "world",
-        "label": "Muslim conquest of Syria and the Ghassanid end",
-        "decade": "630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-632-750::c2",
-      "xlink_b": "ghassanid-420-638::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Seljuk",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "k11",
-        "cat": "power",
-        "label": "The succession wars and the atabeg states",
-        "decade": "1090s–1150s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "w3",
-        "cat": "world",
-        "label": "The Seljuk squeeze",
-        "decade": "1050s–1090s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-945-1258::k11",
-      "xlink_b": "fatimids-909-1171::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Seljuk",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "lv4",
-        "cat": "lives",
-        "label": "The mamluk household",
-        "decade": "940s–1250s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "w3",
-        "cat": "world",
-        "label": "The Seljuk squeeze",
-        "decade": "1050s–1090s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-945-1258::lv4",
-      "xlink_b": "fatimids-909-1171::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Asia Minor",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Zenobia conquers Asia Minor and Arabia",
-        "decade": "270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "w5",
-        "cat": "world",
-        "label": "Breakaway Palmyrene Empire",
-        "decade": "260s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::c3",
-      "xlink_b": "rome-200-300::w5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Syria",
-        "Tadmur"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "Fall of Palmyra — city sacked, then razed",
-        "decade": "270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "ex3",
-        "cat": "exchange",
-        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
-        "decade": "150s–270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::c5",
-      "xlink_b": "rome-200-300::ex3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Holy Sepulchre",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "fatimids-909-1171",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "The destruction of the Holy Sepulchre",
-        "decade": "1000s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "a3",
-        "cat": "expression",
-        "label": "Church of the Holy Sepulchre, Jerusalem",
-        "decade": "320s"
-      },
-      "date_flag": "674yr gap — verify same entity, not just shared theme",
-      "xlink_a": "fatimids-909-1171::c5",
-      "xlink_b": "rome-300-400::a3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Holy Sepulchre",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "fatimids-909-1171",
-        "id": "x4",
-        "cat": "exchange",
-        "label": "Byzantium — the peace across the frontier",
-        "decade": "980s–1050s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "a3",
-        "cat": "expression",
-        "label": "Church of the Holy Sepulchre, Jerusalem",
-        "decade": "320s"
-      },
-      "date_flag": "652yr gap — verify same entity, not just shared theme",
-      "xlink_a": "fatimids-909-1171::x4",
-      "xlink_b": "rome-300-400::a3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Palmyra",
         "Silk Road"
       ],
@@ -20831,32 +24522,6 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::s1",
       "xlink_b": "rome-200-300::ex3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Italy",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1610-1715",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "War of Spanish Succession — Louis XIV's last gamble",
-        "decade": "1700s"
-      },
-      "b": {
-        "folio": "spain-1516-1700",
-        "id": "w1",
-        "cat": "world",
-        "label": "The empire on which the sun never sets",
-        "decade": "1510s–1700s"
-      },
-      "date_flag": "1yr gap",
-      "xlink_a": "france-1610-1715::c4",
-      "xlink_b": "spain-1516-1700::w1"
     },
     {
       "confidence": "low",
@@ -21195,58 +24860,6 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::lv1",
       "xlink_b": "rome-200-300::s1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Crusades",
-        "Levant"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "The Crusades as contact",
-        "decade": "1090s–1250s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "w4",
-        "cat": "world",
-        "label": "The Crusades and the Fatimid misjudgement",
-        "decade": "1090s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-945-1258::x2",
-      "xlink_b": "fatimids-909-1171::w4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Crusades",
-        "Levant"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "w3",
-        "cat": "world",
-        "label": "The Crusades",
-        "decade": "1090s–1290s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "w4",
-        "cat": "world",
-        "label": "The Crusades and the Fatimid misjudgement",
-        "decade": "1090s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-945-1258::w3",
-      "xlink_b": "fatimids-909-1171::w4"
     },
     {
       "confidence": "low",
@@ -22859,32 +26472,6 @@
       "date_flag": "254yr gap — verify same entity, not just shared theme",
       "xlink_a": "spain-1516-1700::lv1",
       "xlink_b": "spain-1900-1975::lv2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Syrian",
-        "Yawm Halima"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ghassanid-420-638",
-        "id": "lv1",
-        "cat": "lives",
-        "label": "Halima bint al-Harith — the woman who names a battle",
-        "decade": "550s"
-      },
-      "b": {
-        "folio": "lakhmid-268-602",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "Yawm Halima — death of al-Mundhir III",
-        "decade": "550s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ghassanid-420-638::lv1",
-      "xlink_b": "lakhmid-268-602::c1"
     },
     {
       "confidence": "low",

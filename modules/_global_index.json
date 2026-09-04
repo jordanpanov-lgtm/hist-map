@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2499,
     "folio_count": 45,
-    "xlink_pairs": 100,
+    "xlink_pairs": 122,
     "keyword_terms": 5116,
     "folios": [
       {
@@ -2734,6 +2734,13 @@
     "visigoths-589-711::lv2": "Visigothic queens — property rights and regency"
   },
   "xlinks": {
+    "al-andalus-1031-1492::r1": [
+      "ayyubids-1171-1250::b4"
+    ],
+    "ayyubids-1171-1250::b4": [
+      "al-andalus-1031-1492::r1",
+      "caliphate-945-1258::b4"
+    ],
     "al-andalus-711-1031::k3": [
       "fatimids-909-1171::w1"
     ],
@@ -2759,8 +2766,123 @@
     ],
     "eastern-arabia-750-1200::lv5": [
       "al-andalus-711-1031::lv3",
+      "ayyubids-1171-1250::lv5",
       "oman-gulf-1650-1820::lv5",
       "sassanid-484-651::lv3"
+    ],
+    "ayyubids-1171-1250::k1": [
+      "caliphate-945-1258::c6",
+      "fatimids-909-1171::v6"
+    ],
+    "caliphate-945-1258::c6": [
+      "ayyubids-1171-1250::k1",
+      "fatimids-909-1171::c10"
+    ],
+    "fatimids-909-1171::v6": [
+      "ayyubids-1171-1250::k1"
+    ],
+    "ayyubids-1171-1250::c1": [
+      "caliphate-945-1258::c7"
+    ],
+    "caliphate-945-1258::c7": [
+      "ayyubids-1171-1250::c1"
+    ],
+    "ayyubids-1171-1250::c11": [
+      "caliphate-945-1258::c10"
+    ],
+    "caliphate-945-1258::c10": [
+      "ayyubids-1171-1250::c11"
+    ],
+    "ayyubids-1171-1250::o1": [
+      "fatimids-909-1171::w5"
+    ],
+    "fatimids-909-1171::w5": [
+      "ayyubids-1171-1250::o1",
+      "ayyubids-1171-1250::b1",
+      "caliphate-945-1258::w4"
+    ],
+    "ayyubids-1171-1250::o5": [
+      "fatimids-909-1171::o5"
+    ],
+    "fatimids-909-1171::o5": [
+      "ayyubids-1171-1250::o5"
+    ],
+    "ayyubids-1171-1250::b1": [
+      "fatimids-909-1171::b6",
+      "fatimids-909-1171::w5"
+    ],
+    "fatimids-909-1171::b6": [
+      "ayyubids-1171-1250::b1"
+    ],
+    "caliphate-945-1258::b4": [
+      "ayyubids-1171-1250::b4"
+    ],
+    "ayyubids-1171-1250::ec1": [
+      "caliphate-945-1258::ec4",
+      "fatimids-909-1171::ec1"
+    ],
+    "caliphate-945-1258::ec4": [
+      "ayyubids-1171-1250::ec1",
+      "fatimids-909-1171::ec1"
+    ],
+    "fatimids-909-1171::ec1": [
+      "ayyubids-1171-1250::ec1",
+      "caliphate-945-1258::ec4"
+    ],
+    "ayyubids-1171-1250::ec6": [
+      "fatimids-909-1171::x3"
+    ],
+    "fatimids-909-1171::x3": [
+      "ayyubids-1171-1250::ec6"
+    ],
+    "ayyubids-1171-1250::x4": [
+      "caliphate-945-1258::x5"
+    ],
+    "caliphate-945-1258::x5": [
+      "ayyubids-1171-1250::x4"
+    ],
+    "ayyubids-1171-1250::w4": [
+      "caliphate-945-1258::w5"
+    ],
+    "caliphate-945-1258::w5": [
+      "ayyubids-1171-1250::w4",
+      "hormuz-1200-1507::w1"
+    ],
+    "ayyubids-1171-1250::w5": [
+      "caliphate-945-1258::lv7",
+      "caliphate-945-1258::w4"
+    ],
+    "caliphate-945-1258::lv7": [
+      "ayyubids-1171-1250::w5",
+      "ayyubids-1171-1250::lv3",
+      "fatimids-909-1171::lv4",
+      "spain-1230-1492::lv3"
+    ],
+    "caliphate-945-1258::w4": [
+      "ayyubids-1171-1250::w5",
+      "fatimids-909-1171::w5"
+    ],
+    "ayyubids-1171-1250::lv6": [
+      "fatimids-909-1171::lv4"
+    ],
+    "fatimids-909-1171::lv4": [
+      "ayyubids-1171-1250::lv6",
+      "caliphate-945-1258::lv7"
+    ],
+    "ayyubids-1171-1250::lv5": [
+      "caliphate-945-1258::lv5",
+      "eastern-arabia-750-1200::lv5"
+    ],
+    "caliphate-945-1258::lv5": [
+      "ayyubids-1171-1250::lv5"
+    ],
+    "ayyubids-1171-1250::lv3": [
+      "caliphate-945-1258::lv4",
+      "caliphate-945-1258::lv7"
+    ],
+    "caliphate-945-1258::lv4": [
+      "ayyubids-1171-1250::lv3",
+      "caliphate-750-945::lv1"
     ],
     "beth-qatraye-240-750::k6": [
       "eastern-arabia-750-1200::k2"
@@ -2896,17 +3018,11 @@
     "caliphate-750-945::lv1": [
       "caliphate-945-1258::lv4"
     ],
-    "caliphate-945-1258::lv4": [
-      "caliphate-750-945::lv1"
-    ],
     "caliphate-945-1258::c4": [
       "fatimids-909-1171::w4"
     ],
     "fatimids-909-1171::w4": [
       "caliphate-945-1258::c4"
-    ],
-    "caliphate-945-1258::c6": [
-      "fatimids-909-1171::c10"
     ],
     "fatimids-909-1171::c10": [
       "caliphate-945-1258::c6"
@@ -2921,12 +3037,6 @@
     "caliphate-945-1258::b6": [
       "fatimids-909-1171::b5"
     ],
-    "caliphate-945-1258::ec4": [
-      "fatimids-909-1171::ec1"
-    ],
-    "fatimids-909-1171::ec1": [
-      "caliphate-945-1258::ec4"
-    ],
     "caliphate-945-1258::w2": [
       "eastern-arabia-750-1200::w4",
       "fatimids-909-1171::w3"
@@ -2937,24 +3047,8 @@
     "fatimids-909-1171::w3": [
       "caliphate-945-1258::w2"
     ],
-    "caliphate-945-1258::w4": [
-      "fatimids-909-1171::w5"
-    ],
-    "fatimids-909-1171::w5": [
-      "caliphate-945-1258::w4"
-    ],
-    "caliphate-945-1258::w5": [
-      "hormuz-1200-1507::w1"
-    ],
     "hormuz-1200-1507::w1": [
       "caliphate-945-1258::w5"
-    ],
-    "caliphate-945-1258::lv7": [
-      "fatimids-909-1171::lv4",
-      "spain-1230-1492::lv3"
-    ],
-    "fatimids-909-1171::lv4": [
-      "caliphate-945-1258::lv7"
     ],
     "spain-1230-1492::lv3": [
       "caliphate-945-1258::lv7"
