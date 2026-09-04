@@ -325,6 +325,9 @@ let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
 let currentView = 'list';
+const _HASH_VIEWS = new Set(['list', 'timeline', 'map']); // reserved 2nd hash segments
+let _selfHash = false;   // set immediately before we assign location.hash ourselves
+let _replaying = false;  // set while route() is applying a hash to the page
 
 function catIcon(cat) { return CAT_ICONS[cat.id] || cat.icon || "•"; }
 function catColor(cat) { return (CAT_COLORS[cat.id] && CAT_COLORS[cat.id].color) || cat.color || "#333"; }
@@ -354,6 +357,7 @@ function loadModule(file) {
       document.getElementById('loading').style.display = 'none';
       setView(currentView);
       setTimeout(buildTimeline, 80);
+      writeHash(true);
     })
     .catch(err => {
       document.getElementById('loading').textContent = 'Error loading module — check file path.';
@@ -383,6 +387,10 @@ function loadCorpus(c) {
   const frame = document.getElementById('corpus-frame');
   frame.src = c.file;
   document.getElementById('corpus-view').style.display = 'block';
+  // replace, not push: the corpus <iframe> navigation already adds its own
+  // session-history entry, so pushing a second one here makes "Back" out of a
+  // corpus need two presses. The hash still updates and stays shareable.
+  writeHash(false);
 }
 
 function buildCorpusCards() {
@@ -418,6 +426,7 @@ function setView(v) {
   document.getElementById('btn-map').classList.toggle('active',      v==='map');
   if (v==='map' && !leafMap) initMap();
   if (v==='timeline') setTimeout(buildTimeline, 40);
+  writeHash(false);
 }
 
 // TAXONOMY and PERIODS now live in config/regions.js
@@ -748,8 +757,9 @@ function openModal(entry, accent) {
   MODAL_ENTRY = entry;
   renderRelated(entry);
   document.getElementById('modal-overlay').classList.add('open');
+  writeHash(true);
 }
-function closeModal() { document.getElementById('modal-overlay').classList.remove('open'); }
+function closeModal() { document.getElementById('modal-overlay').classList.remove('open'); writeHash(false); }
 
 // Cross-folio "see also" panel, built from entry.xlinks[] ("folioId::entryId" strings).
 // Labels come from the prebuilt GIDX.index map — if it hasn't loaded yet, falls back to
@@ -1255,12 +1265,77 @@ function renderPins() {
   });
 }
 
+// ── URL DEEP LINKS ────────────────────────────────────────────────────────────
+// The location hash mirrors where you are, so links are shareable, a refresh
+// lands in place, and Back / Forward work:
+//   (empty)                folio picker
+//   #<folioId>             a folio, list view
+//   #<folioId>/timeline    a folio in timeline or map view — 'list' / 'timeline'
+//   #<folioId>/map           / 'map' are reserved second segments
+//   #<folioId>/<entryId>   a folio with that entry's detail open
+//   #<corpusId>            a corpus viewer
+// Navigation writes the hash via writeHash(); the hashchange listener replays
+// EXTERNAL changes (Back/Forward, a hand-edited URL, a pasted link) through route().
+// (_HASH_VIEWS / _selfHash / _replaying are declared with the other STATE vars.)
+
+function computeHash() {
+  if (currentCorpus) return currentCorpus.id;
+  if (!MOD) return '';
+  const modalOpen = document.getElementById('modal-overlay').classList.contains('open');
+  if (modalOpen && MODAL_ENTRY) return MOD.id + '/' + MODAL_ENTRY.id;
+  if (currentView && currentView !== 'list') return MOD.id + '/' + currentView;
+  return MOD.id;
+}
+
+function writeHash(push) {
+  if (_replaying) return;
+  const h = computeHash();
+  if (location.hash.replace(/^#/, '') === h) return;
+  if (push && h) { _selfHash = true; location.hash = h; }
+  else history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+}
+
+function route() {
+  const raw = decodeURIComponent(location.hash.replace(/^#/, '')).trim();
+  if (!raw) { openPicker(); return; }
+  const cut = raw.indexOf('/');
+  const id  = cut === -1 ? raw : raw.slice(0, cut);
+  const seg = cut === -1 ? '' : raw.slice(cut + 1);
+
+  const corpus = CORPORA.find(c => c.id === id);
+  if (corpus) { if (!currentCorpus || currentCorpus.id !== id) loadCorpus(corpus); return; }
+
+  const mod = MODULES.find(m => m.id === id);
+  if (!mod) { openPicker(); return; }
+
+  const apply = () => {
+    _replaying = true;
+    try {
+      const entry = seg && !_HASH_VIEWS.has(seg) ? entryById(seg) : null;
+      if (entry) { setView('list'); openModal(entry, entry.accent); }
+      else { closeModal(); setView(_HASH_VIEWS.has(seg) ? seg : 'list'); }
+    } finally { _replaying = false; }
+  };
+
+  if (MOD && MOD.id === id) { apply(); }
+  else {
+    _replaying = true;               // suppress writeHash() while the folio loads
+    closePicker(true);
+    loadModule(mod.file).then(apply, () => { _replaying = false; });
+  }
+}
+
+window.addEventListener('hashchange', () => {
+  if (_selfHash) { _selfHash = false; return; }
+  route();
+});
+
 // ── INIT ───────────────────────────────────────────────────────────────────────
 window.addEventListener('load', () => {
   document.title = ATLAS_NAME;
   document.getElementById('app-label').textContent = ATLAS_NAME;
   document.getElementById('picker-title').textContent = ATLAS_NAME;
-  openPicker();
+  route();
   // Build search index in the background after a short delay
   // so the initial render is not blocked
   setTimeout(buildSearchIndex, 1500);
