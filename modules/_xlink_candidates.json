@@ -1,15 +1,15 @@
 {
   "_meta": {
-    "generated": "2026-09-03",
-    "figure_matches": 171,
-    "figure_matches_rejected_dynasty_mismatch": 359,
-    "figure_matches_rejected_date_implausible": 244,
+    "generated": "2026-09-04",
+    "figure_matches": 187,
+    "figure_matches_rejected_dynasty_mismatch": 440,
+    "figure_matches_rejected_date_implausible": 343,
     "dynasty_alignment_proposals_count": 9,
-    "keyword_matches": 571,
-    "keyword_matches_rejected_geo_only": 667,
-    "high_confidence": 175,
-    "medium_confidence": 40,
-    "low_confidence": 527
+    "keyword_matches": 751,
+    "keyword_matches_rejected_geo_only": 711,
+    "high_confidence": 191,
+    "medium_confidence": 46,
+    "low_confidence": 701
   },
   "figure_name_matches": [
     {
@@ -847,6 +847,336 @@
       },
       "xlink_a": "hispania-27bc-409ad::k2",
       "xlink_b": "nabataean-400bc-106ce::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iranian",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Iranian, Jordanian and British intervention",
+        "dynasty": "Pahlavi",
+        "decade": "1970s"
+      },
+      "match": {
+        "folio": "uae-1971-today",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Iranian Revolution and the Iran–Iraq War",
+        "decade": "1970s"
+      },
+      "xlink_a": "oman-1970-today::c3",
+      "xlink_b": "uae-1971-today::w2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Religious",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The living Horus — royal titulary as religious doctrine",
+        "decade": "2900s BC–3000s"
+      },
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "egypt-3000bc-2100bc::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Gulf",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s"
+      },
+      "match": {
+        "folio": "dilmun-3000bc-600bc",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "The 'Gulf seal' as a shared trade script",
+        "decade": "1900s BC–2100s"
+      },
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "dilmun-3000bc-600bc::x3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Gulf",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s"
+      },
+      "match": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Gulf shell and pearl reach Mesopotamia",
+        "decade": "4000s BC–5000s"
+      },
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "gulf-prehistory-8000bc-3000bc::x3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Gulf",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s"
+      },
+      "match": {
+        "folio": "magan-3000bc-300bc",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Magan in the Gulf trade triangle",
+        "decade": "1800s BC–2400s"
+      },
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "magan-3000bc-300bc::x1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Gulf",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s"
+      },
+      "match": {
+        "folio": "uae-1971-today",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Gulf War and the US security guarantee",
+        "decade": "1990s"
+      },
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "uae-1971-today::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Gulf",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s"
+      },
+      "match": {
+        "folio": "uae-1971-today",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Ukraine war and the non-aligned Gulf",
+        "decade": "2020s"
+      },
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "uae-1971-today::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Women",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "dilmun-3000bc-600bc",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Women buried with seals and ornament",
+        "decade": "1750s BC–2000s"
+      },
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "dilmun-3000bc-600bc::lv2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Women",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Women's fishing toolkits at Ra's al-Hamra",
+        "decade": "3500s BC–4500s"
+      },
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "gulf-prehistory-8000bc-3000bc::lv2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Women",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "spain-1900-1975",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Clara Campoamor — architect of women's suffrage",
+        "decade": "1930s"
+      },
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "spain-1900-1975::lv1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Women",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "spain-1900-1975",
+        "id": "lv10",
+        "cat": "lives",
+        "label": "Seccion Femenina — Francoist women's organisation and its paradoxes",
+        "decade": "1930s–1970s"
+      },
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "spain-1900-1975::lv10"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Women",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "spain-1900-1975",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Mujeres Libres — anarchist women's organisation 1936–1939",
+        "decade": "1930s"
+      },
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "spain-1900-1975::lv3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Women",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "spain-1900-1975",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "Las Trece Rosas — thirteen women executed on 5 August 1939",
+        "decade": "1930s"
+      },
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "spain-1900-1975::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Women",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "trucial-gulf-1820-1971",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "The mission doctors and the first women's healthcare",
+        "decade": "1900s–1960s"
+      },
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "trucial-gulf-1820-1971::lv3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Women",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "uae-1971-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women in public life",
+        "decade": "2000s"
+      },
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "uae-1971-today::lv3"
     },
     {
       "confidence": "high",
@@ -3017,6 +3347,28 @@
         "decade": "1970s"
       },
       "match": {
+        "folio": "oman-1970-today",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Iranian Revolution and the Iran–Iraq War",
+        "decade": "1970s"
+      },
+      "xlink_a": "trucial-gulf-1820-1971::c6",
+      "xlink_b": "oman-1970-today::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iran",
+      "pivot": {
+        "folio": "trucial-gulf-1820-1971",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Iran seizes the Tunbs and Abu Musa",
+        "dynasty": "Pahlavi",
+        "decade": "1970s"
+      },
+      "match": {
         "folio": "uae-1971-today",
         "id": "w2",
         "cat": "world",
@@ -4156,6 +4508,33 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Al Bu Said",
+        "Muscat",
+        "Oman"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "161yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Awal",
         "Qatif",
         "al-Hasa"
@@ -4232,6 +4611,33 @@
       "date_flag": "overlapping",
       "xlink_a": "oman-gulf-1650-1820::e4",
       "xlink_b": "trucial-gulf-1820-1971::ec1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat",
+        "Omani"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The 'Omani way' in foreign policy",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t3",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
     },
     {
       "confidence": "medium",
@@ -4345,6 +4751,33 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Gulf",
+        "Iranian Revolution",
+        "Iran–Iraq War"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Iranian Revolution and the Iran–Iraq War",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "uae-1971-today",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Iranian Revolution and the Iran–Iraq War",
+        "decade": "1970s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "oman-1970-today::w3",
+      "xlink_b": "uae-1971-today::w2"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Abu Dhabi",
         "Al Nahyan",
         "Das Island"
@@ -4448,6 +4881,60 @@
       "date_flag": "overlapping",
       "xlink_a": "oman-gulf-1650-1820::c6",
       "xlink_b": "trucial-gulf-1820-1971::c1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Indian Ocean",
+        "Muscat"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The 'Omani way' in foreign policy",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "166yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t3",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Indian Ocean",
+        "Muscat"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The 'Omani way' in foreign policy",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "160yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t3",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
     },
     {
       "confidence": "medium",
@@ -4610,6 +5097,33 @@
       "date_flag": "13yr gap",
       "xlink_a": "nabataean-400bc-106ce::o3",
       "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "East Africa",
+        "Muscat"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "The first Council of Ministers and the ministries built from nothing",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "160yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p4",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
     },
     {
       "confidence": "medium",
@@ -7090,6 +7604,84 @@
         "decade": "3500s BC–4500s"
       },
       "b": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "gulf-prehistory-8000bc-3000bc::lv2",
+      "xlink_b": "oman-1970-today::o2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Muscat",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Women's fishing toolkits at Ra's al-Hamra",
+        "decade": "3500s BC–4500s"
+      },
+      "b": {
+        "folio": "oman-1970-today",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Oman, the Ibadi state",
+        "decade": "1970s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "gulf-prehistory-8000bc-3000bc::lv2",
+      "xlink_b": "oman-1970-today::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Oman",
+        "Women"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Women's fishing toolkits at Ra's al-Hamra",
+        "decade": "3500s BC–4500s"
+      },
+      "b": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "decade": "1990s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "gulf-prehistory-8000bc-3000bc::lv2",
+      "xlink_b": "oman-1970-today::lv3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Muscat",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Women's fishing toolkits at Ra's al-Hamra",
+        "decade": "3500s BC–4500s"
+      },
+      "b": {
         "folio": "oman-gulf-1650-1820",
         "id": "c2",
         "cat": "conflict",
@@ -7194,6 +7786,32 @@
         "decade": "1300s BC–2000s"
       },
       "b": {
+        "folio": "oman-1970-today",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Oman, the Ibadi state",
+        "decade": "1970s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "magan-3000bc-300bc::k4",
+      "xlink_b": "oman-1970-today::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Nizwa",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "magan-3000bc-300bc",
+        "id": "k4",
+        "cat": "power",
+        "label": "The Wadi Suq reorganisation",
+        "decade": "1300s BC–2000s"
+      },
+      "b": {
         "folio": "portuguese-gulf-1507-1650",
         "id": "k6",
         "cat": "power",
@@ -7203,6 +7821,734 @@
       "date_flag": "overlapping",
       "xlink_a": "magan-3000bc-300bc::k4",
       "xlink_b": "portuguese-gulf-1507-1650::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "198yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Oman rules the Swahili coast",
+        "decade": "1690s–1820s"
+      },
+      "date_flag": "161yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o3",
+        "cat": "order",
+        "label": "The abolition of slavery",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "187yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o3",
+      "xlink_b": "oman-gulf-1650-1820::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o3",
+        "cat": "order",
+        "label": "The abolition of slavery",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o3",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o3",
+        "cat": "order",
+        "label": "The abolition of slavery",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Oman rules the Swahili coast",
+        "decade": "1690s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o3",
+      "xlink_b": "oman-gulf-1650-1820::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o4",
+        "cat": "order",
+        "label": "Omanisation",
+        "decade": "1980s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "205yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o4",
+      "xlink_b": "oman-gulf-1650-1820::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o4",
+        "cat": "order",
+        "label": "Omanisation",
+        "decade": "1980s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "168yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o4",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o4",
+        "cat": "order",
+        "label": "Omanisation",
+        "decade": "1980s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Oman rules the Swahili coast",
+        "decade": "1690s–1820s"
+      },
+      "date_flag": "168yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o4",
+      "xlink_b": "oman-gulf-1650-1820::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o6",
+        "cat": "order",
+        "label": "The narrowing of public speech",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "228yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o6",
+      "xlink_b": "oman-gulf-1650-1820::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o6",
+        "cat": "order",
+        "label": "The narrowing of public speech",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "191yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o6",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o6",
+        "cat": "order",
+        "label": "The narrowing of public speech",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Oman rules the Swahili coast",
+        "decade": "1690s–1820s"
+      },
+      "date_flag": "191yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o6",
+      "xlink_b": "oman-gulf-1650-1820::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ibadi",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Oman, the Ibadi state",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "o4",
+        "cat": "order",
+        "label": "The restored Ibadi imamate under the Ya'ruba",
+        "decade": "1620s"
+      },
+      "date_flag": "346yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b1",
+      "xlink_b": "portuguese-gulf-1507-1650::o4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ibadi",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Oman, the Ibadi state",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Ibadi revival as a war of liberation",
+        "decade": "1620s"
+      },
+      "date_flag": "320yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b1",
+      "xlink_b": "portuguese-gulf-1507-1650::b3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Renaissance",
+        "decade": "1970s–2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "187yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::ec2",
+      "xlink_b": "oman-gulf-1650-1820::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Renaissance",
+        "decade": "1970s–2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::ec2",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Renaissance",
+        "decade": "1970s–2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Oman rules the Swahili coast",
+        "decade": "1690s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::ec2",
+      "xlink_b": "oman-gulf-1650-1820::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The 2020 fiscal crisis and the recovery",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "237yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::ec5",
+      "xlink_b": "oman-gulf-1650-1820::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The 2020 fiscal crisis and the recovery",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::ec5",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The 2020 fiscal crisis and the recovery",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Oman rules the Swahili coast",
+        "decade": "1690s–1820s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::ec5",
+      "xlink_b": "oman-gulf-1650-1820::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "207yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "oman-gulf-1650-1820::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "170yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Oman rules the Swahili coast",
+        "decade": "1690s–1820s"
+      },
+      "date_flag": "170yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "oman-gulf-1650-1820::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "211yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "oman-gulf-1650-1820::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "174yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Women at the ballot and in office",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Oman rules the Swahili coast",
+        "decade": "1690s–1820s"
+      },
+      "date_flag": "174yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::lv3",
+      "xlink_b": "oman-gulf-1650-1820::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The narrow space for dissent",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "229yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::lv5",
+      "xlink_b": "oman-gulf-1650-1820::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The narrow space for dissent",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "192yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::lv5",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Oman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The narrow space for dissent",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Oman rules the Swahili coast",
+        "decade": "1690s–1820s"
+      },
+      "date_flag": "192yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::lv5",
+      "xlink_b": "oman-gulf-1650-1820::x1"
     },
     {
       "confidence": "low",
@@ -7468,6 +8814,84 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Ibadi",
+        "Nizwa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hormuz-1200-1507",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Nabhani maliks against the Ibadi imams",
+        "decade": "1300s–1500s"
+      },
+      "b": {
+        "folio": "oman-1970-today",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Oman, the Ibadi state",
+        "decade": "1970s–2020s"
+      },
+      "date_flag": "470yr gap — verify same entity, not just shared theme",
+      "xlink_a": "hormuz-1200-1507::c4",
+      "xlink_b": "oman-1970-today::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Nizwa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e5",
+        "cat": "expression",
+        "label": "Museums and the conservation of old Muscat",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The interior ulama reject the Al Bu Said sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "180yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e5",
+      "xlink_b": "oman-gulf-1650-1820::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Nizwa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t2",
+        "cat": "thought",
+        "label": "The Imamate tradition and the modern state",
+        "decade": "1970s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The interior ulama reject the Al Bu Said sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t2",
+      "xlink_b": "oman-gulf-1650-1820::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Nizwa",
         "Ya'ruba"
       ],
@@ -7541,6 +8965,32 @@
       "date_flag": "26yr gap",
       "xlink_a": "oman-gulf-1650-1820::tc2",
       "xlink_b": "portuguese-gulf-1507-1650::o4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Sohar"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "Ports and the Duqm bet",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ahmad bin Said founds the Al Bu Said dynasty",
+        "decade": "1740s–1780s"
+      },
+      "date_flag": "215yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::ec4",
+      "xlink_b": "oman-gulf-1650-1820::k3"
     },
     {
       "confidence": "low",
@@ -8456,6 +9906,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Al Bu Said",
+        "Omani"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The 'Omani way' in foreign policy",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The interior ulama reject the Al Bu Said sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t3",
+      "xlink_b": "oman-gulf-1650-1820::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Omani",
         "Ya'ruba"
       ],
@@ -8899,6 +10375,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Gulf",
+        "Iraq"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Gulf shell and pearl reach Mesopotamia",
+        "decade": "4000s BC–5000s"
+      },
+      "b": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "decade": "1990s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "gulf-prehistory-8000bc-3000bc::x3",
+      "xlink_b": "oman-1970-today::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
         "Hormuz"
       ],
       "sharedCount": 2,
@@ -9127,6 +10629,84 @@
       "date_flag": "87yr gap — verify same entity, not just shared theme",
       "xlink_a": "hormuz-1200-1507::w4",
       "xlink_b": "portuguese-gulf-1507-1650::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Gulf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "181yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
+        "Kuwait"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "trucial-gulf-1820-1971",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The press and the Gulf nahda",
+        "decade": "1920s–1970s"
+      },
+      "date_flag": "19yr gap",
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "trucial-gulf-1820-1971::t4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
+        "Kuwait"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Gulf wars of 1991 and 2003",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "trucial-gulf-1820-1971",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "Arab nationalism reaches the Gulf",
+        "decade": "1950s"
+      },
+      "date_flag": "19yr gap",
+      "xlink_a": "oman-1970-today::w4",
+      "xlink_b": "trucial-gulf-1820-1971::x4"
     },
     {
       "confidence": "low",
@@ -9569,6 +11149,32 @@
       "date_flag": "254yr gap — verify same entity, not just shared theme",
       "xlink_a": "rome-300-400::w1",
       "xlink_b": "sassanid-484-651::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Batinah"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The aflaj alongside desalination",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::tc3",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
     },
     {
       "confidence": "low",
@@ -17556,6 +19162,3412 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "Haitham bin Tariq — succession by sealed letter",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "216yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p2",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "Haitham bin Tariq — succession by sealed letter",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p2",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "Haitham bin Tariq — succession by sealed letter",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "216yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p2",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "Haitham bin Tariq — succession by sealed letter",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "222yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p2",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "Haitham bin Tariq — succession by sealed letter",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "210yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p2",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "Haitham bin Tariq — succession by sealed letter",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p2",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "Haitham bin Tariq — succession by sealed letter",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "211yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p2",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "Haitham bin Tariq — succession by sealed letter",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p2",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p3",
+        "cat": "power",
+        "label": "Said bin Taimur — the sultanate Qaboos inherited",
+        "decade": "1930s–1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "128yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p3",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p3",
+        "cat": "power",
+        "label": "Said bin Taimur — the sultanate Qaboos inherited",
+        "decade": "1930s–1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "112yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p3",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p3",
+        "cat": "power",
+        "label": "Said bin Taimur — the sultanate Qaboos inherited",
+        "decade": "1930s–1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "128yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p3",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p3",
+        "cat": "power",
+        "label": "Said bin Taimur — the sultanate Qaboos inherited",
+        "decade": "1930s–1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "134yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p3",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p3",
+        "cat": "power",
+        "label": "Said bin Taimur — the sultanate Qaboos inherited",
+        "decade": "1930s–1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "122yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p3",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p3",
+        "cat": "power",
+        "label": "Said bin Taimur — the sultanate Qaboos inherited",
+        "decade": "1930s–1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "112yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p3",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p3",
+        "cat": "power",
+        "label": "Said bin Taimur — the sultanate Qaboos inherited",
+        "decade": "1930s–1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "123yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p3",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p3",
+        "cat": "power",
+        "label": "Said bin Taimur — the sultanate Qaboos inherited",
+        "decade": "1930s–1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "112yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p3",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "The first Council of Ministers and the ministries built from nothing",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "166yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p4",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "The first Council of Ministers and the ministries built from nothing",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p4",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "The first Council of Ministers and the ministries built from nothing",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "166yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p4",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "The first Council of Ministers and the ministries built from nothing",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "172yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p4",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "The first Council of Ministers and the ministries built from nothing",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p4",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "The first Council of Ministers and the ministries built from nothing",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "161yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p4",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "The first Council of Ministers and the ministries built from nothing",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p4",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The creation of a Crown Prince office",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "217yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p5",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The creation of a Crown Prince office",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "201yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p5",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The creation of a Crown Prince office",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "217yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p5",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The creation of a Crown Prince office",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "223yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p5",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The creation of a Crown Prince office",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "211yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p5",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The creation of a Crown Prince office",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "201yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p5",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The creation of a Crown Prince office",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "212yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p5",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The creation of a Crown Prince office",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "201yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::p5",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Basic Law of the State",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "192yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o1",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Basic Law of the State",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "176yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o1",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Basic Law of the State",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "192yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o1",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Basic Law of the State",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "198yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o1",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Basic Law of the State",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "186yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o1",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Basic Law of the State",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "176yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o1",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Basic Law of the State",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "187yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o1",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Basic Law of the State",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "176yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o1",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "177yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "177yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "183yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "171yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "161yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "172yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "161yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o5",
+        "cat": "order",
+        "label": "Fiscal reform under Haitham",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "216yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o5",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o5",
+        "cat": "order",
+        "label": "Fiscal reform under Haitham",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o5",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o5",
+        "cat": "order",
+        "label": "Fiscal reform under Haitham",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "216yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o5",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o5",
+        "cat": "order",
+        "label": "Fiscal reform under Haitham",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "222yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o5",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o5",
+        "cat": "order",
+        "label": "Fiscal reform under Haitham",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "210yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o5",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o5",
+        "cat": "order",
+        "label": "Fiscal reform under Haitham",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o5",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o5",
+        "cat": "order",
+        "label": "Fiscal reform under Haitham",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "211yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o5",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o5",
+        "cat": "order",
+        "label": "Fiscal reform under Haitham",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o5",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "190yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "174yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "190yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "196yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "184yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "174yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "185yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "decade": "1990s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "174yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Sultan Qaboos Grand Mosque",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "197yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b3",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Sultan Qaboos Grand Mosque",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "181yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b3",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Sultan Qaboos Grand Mosque",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "197yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b3",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Sultan Qaboos Grand Mosque",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "203yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b3",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Sultan Qaboos Grand Mosque",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "191yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b3",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Sultan Qaboos Grand Mosque",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "181yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b3",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Sultan Qaboos Grand Mosque",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "192yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b3",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Sultan Qaboos Grand Mosque",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "181yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::b3",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Royal Oman Symphony Orchestra",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "181yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e2",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Royal Oman Symphony Orchestra",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "165yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e2",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Royal Oman Symphony Orchestra",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "181yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e2",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Royal Oman Symphony Orchestra",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "187yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e2",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Royal Oman Symphony Orchestra",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "175yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e2",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Royal Oman Symphony Orchestra",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "165yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e2",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Royal Oman Symphony Orchestra",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "176yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e2",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Royal Oman Symphony Orchestra",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "165yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e2",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Oman Centre for Traditional Music",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "180yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e3",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Oman Centre for Traditional Music",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "164yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e3",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Oman Centre for Traditional Music",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "180yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e3",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Oman Centre for Traditional Music",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "186yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e3",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Oman Centre for Traditional Music",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "174yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e3",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Oman Centre for Traditional Music",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "164yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e3",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Oman Centre for Traditional Music",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "175yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e3",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Oman Centre for Traditional Music",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "164yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e3",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e5",
+        "cat": "expression",
+        "label": "Museums and the conservation of old Muscat",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "196yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e5",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e5",
+        "cat": "expression",
+        "label": "Museums and the conservation of old Muscat",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "180yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e5",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e5",
+        "cat": "expression",
+        "label": "Museums and the conservation of old Muscat",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "196yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e5",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e5",
+        "cat": "expression",
+        "label": "Museums and the conservation of old Muscat",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "202yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e5",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e5",
+        "cat": "expression",
+        "label": "Museums and the conservation of old Muscat",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "190yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e5",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e5",
+        "cat": "expression",
+        "label": "Museums and the conservation of old Muscat",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "180yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e5",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e5",
+        "cat": "expression",
+        "label": "Museums and the conservation of old Muscat",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "191yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e5",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "e5",
+        "cat": "expression",
+        "label": "Museums and the conservation of old Muscat",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "180yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::e5",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t1",
+        "cat": "thought",
+        "label": "Sultan Qaboos University",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "182yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t1",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t1",
+        "cat": "thought",
+        "label": "Sultan Qaboos University",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "166yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t1",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t1",
+        "cat": "thought",
+        "label": "Sultan Qaboos University",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "182yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t1",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t1",
+        "cat": "thought",
+        "label": "Sultan Qaboos University",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "188yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t1",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t1",
+        "cat": "thought",
+        "label": "Sultan Qaboos University",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "176yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t1",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t1",
+        "cat": "thought",
+        "label": "Sultan Qaboos University",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "166yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t1",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t1",
+        "cat": "thought",
+        "label": "Sultan Qaboos University",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "177yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t1",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t1",
+        "cat": "thought",
+        "label": "Sultan Qaboos University",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "166yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t1",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The 'Omani way' in foreign policy",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t3",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The 'Omani way' in foreign policy",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "166yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t3",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The 'Omani way' in foreign policy",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "172yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t3",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The 'Omani way' in foreign policy",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t3",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The 'Omani way' in foreign policy",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "161yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t3",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The National Records and Archives Authority",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "203yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t4",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The National Records and Archives Authority",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "187yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t4",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The National Records and Archives Authority",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "203yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t4",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The National Records and Archives Authority",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "209yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t4",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The National Records and Archives Authority",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "197yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t4",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The National Records and Archives Authority",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "187yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t4",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The National Records and Archives Authority",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "198yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t4",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The National Records and Archives Authority",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "187yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::t4",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Talking to everyone",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "166yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x1",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Talking to everyone",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x1",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Talking to everyone",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "166yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x1",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Talking to everyone",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "172yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x1",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Talking to everyone",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "160yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x1",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Talking to everyone",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x1",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Talking to everyone",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "161yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x1",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Talking to everyone",
+        "decade": "1970s–2020s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x1",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Muscat back-channel",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "k4",
+        "cat": "power",
+        "label": "Sultan bin Ahmad and the Muscat free port",
+        "decade": "1790s"
+      },
+      "date_flag": "207yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x2",
+      "xlink_b": "oman-gulf-1650-1820::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Muscat back-channel",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "191yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x2",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Muscat back-channel",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Muscat customs regime",
+        "decade": "1790s"
+      },
+      "date_flag": "207yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x2",
+      "xlink_b": "oman-gulf-1650-1820::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Muscat back-channel",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o5",
+        "cat": "order",
+        "label": "The 1798 Anglo-Omani treaty",
+        "decade": "1790s"
+      },
+      "date_flag": "213yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x2",
+      "xlink_b": "oman-gulf-1650-1820::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Muscat back-channel",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Muscat, entrepôt of the western Indian Ocean",
+        "decade": "1780s–1810s"
+      },
+      "date_flag": "201yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x2",
+      "xlink_b": "oman-gulf-1650-1820::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Muscat back-channel",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Omani East African trade",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "191yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x2",
+      "xlink_b": "oman-gulf-1650-1820::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Muscat back-channel",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Britain enters Gulf diplomacy",
+        "decade": "1790s"
+      },
+      "date_flag": "202yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x2",
+      "xlink_b": "oman-gulf-1650-1820::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Al Bu Said",
+        "Muscat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Muscat back-channel",
+        "decade": "2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Slavery on the Omani coast",
+        "decade": "1700s–1820s"
+      },
+      "date_flag": "191yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::x2",
+      "xlink_b": "oman-gulf-1650-1820::lv2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Muscat",
         "Ya'ruba"
       ],
@@ -18305,6 +23317,32 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::lv2",
       "xlink_b": "tylos-mleiha-300bc-300ad::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "GCC",
+        "Saudi Arabia"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "A GCC member on its own terms",
+        "decade": "1980s–2020s"
+      },
+      "b": {
+        "folio": "uae-1971-today",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "The Qatar blockade and the GCC rift",
+        "decade": "2010s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "oman-1970-today::x5",
+      "xlink_b": "uae-1971-today::x3"
     },
     {
       "confidence": "low",
