@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-04",
-    "figure_matches": 314,
-    "figure_matches_rejected_dynasty_mismatch": 648,
-    "figure_matches_rejected_date_implausible": 550,
-    "dynasty_alignment_proposals_count": 25,
-    "keyword_matches": 1021,
+    "figure_matches": 325,
+    "figure_matches_rejected_dynasty_mismatch": 647,
+    "figure_matches_rejected_date_implausible": 554,
+    "dynasty_alignment_proposals_count": 24,
+    "keyword_matches": 1031,
     "keyword_matches_rejected_geo_only": 1512,
-    "high_confidence": 323,
+    "high_confidence": 334,
     "medium_confidence": 60,
-    "low_confidence": 952
+    "low_confidence": 962
   },
   "figure_name_matches": [
     {
@@ -473,6 +473,28 @@
       },
       "xlink_a": "ayyubids-1171-1250::tc4",
       "xlink_b": "dilmun-3000bc-600bc::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water for the Citadel and the Ghouta",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1240s"
+      },
+      "match": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Tayma's fortification and water engineering",
+        "decade": "1500s BC–2600s"
+      },
+      "xlink_a": "ayyubids-1171-1250::tc4",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::tc1"
     },
     {
       "confidence": "high",
@@ -1609,6 +1631,28 @@
         "decade": "660s–740s"
       },
       "match": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Tayma's fortification and water engineering",
+        "decade": "1500s BC–2600s"
+      },
+      "xlink_a": "caliphate-632-750::tc4",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::tc1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water engineering across the empire",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
         "folio": "magan-3000bc-300bc",
         "id": "o1",
         "cat": "order",
@@ -2717,6 +2761,28 @@
       },
       "xlink_a": "hispania-27bc-409ad::k2",
       "xlink_b": "nabataean-400bc-106ce::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Timur",
+      "pivot": {
+        "folio": "hormuz-1200-1507",
+        "id": "w2",
+        "cat": "world",
+        "label": "Timur's empire and Timurid Persia",
+        "dynasty": "Timurid",
+        "decade": "1370s–1400s"
+      },
+      "match": {
+        "folio": "mamluks-1250-1517",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Timur sacks Aleppo and Damascus",
+        "decade": "1400s"
+      },
+      "xlink_a": "hormuz-1200-1507::w2",
+      "xlink_b": "mamluks-1250-1517::c7"
     },
     {
       "confidence": "high",
@@ -6549,6 +6615,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Mleiha",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "k3",
+        "cat": "power",
+        "label": "Mleiha — fort, palace and royal necropolis",
+        "dynasty": "Abiel",
+        "decade": "200s BC–250s"
+      },
+      "match": {
+        "folio": "arabia-paleolithic-500000bc-8000bc",
+        "id": "ex1",
+        "cat": "expression",
+        "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
+        "decade": "400s BC–800s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-300ad::k3",
+      "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Ardashir I",
       "pivot": {
         "folio": "tylos-mleiha-300bc-300ad",
@@ -6567,6 +6655,94 @@
       },
       "xlink_a": "tylos-mleiha-300bc-300ad::k5",
       "xlink_b": "sassanid-224-484::a1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mleiha",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The destruction and abandonment of Mleiha",
+        "dynasty": "Abiel",
+        "decade": "150s–250s"
+      },
+      "match": {
+        "folio": "arabia-paleolithic-500000bc-8000bc",
+        "id": "ex1",
+        "cat": "expression",
+        "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
+        "decade": "400s BC–800s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-300ad::c3",
+      "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Camel",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Camel and horse burials at Mleiha and ed-Dur",
+        "dynasty": "Abiel",
+        "decade": "100s BC–200s"
+      },
+      "match": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "k4",
+        "cat": "power",
+        "label": "The Camel Site community, Sakaka",
+        "decade": "5200s BC–5600s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::k4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Camel",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Camel and horse burials at Mleiha and ed-Dur",
+        "dynasty": "Abiel",
+        "decade": "100s BC–200s"
+      },
+      "match": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The Camel Site as a seasonal gathering ritual",
+        "decade": "5200s BC–5600s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Camel",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Camel and horse burials at Mleiha and ed-Dur",
+        "dynasty": "Abiel",
+        "decade": "100s BC–200s"
+      },
+      "match": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "ex1",
+        "cat": "expression",
+        "label": "The Camel Site reliefs",
+        "decade": "5200s BC–5600s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::ex1"
     },
     {
       "confidence": "high",
@@ -6611,6 +6787,50 @@
       },
       "xlink_a": "tylos-mleiha-300bc-300ad::b3",
       "xlink_b": "magan-3000bc-300bc::x4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mleiha",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "e1",
+        "cat": "expression",
+        "label": "The tower tombs of Mleiha",
+        "dynasty": "Abiel",
+        "decade": "200s BC–200s"
+      },
+      "match": {
+        "folio": "arabia-paleolithic-500000bc-8000bc",
+        "id": "ex1",
+        "cat": "expression",
+        "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
+        "decade": "400s BC–800s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-300ad::e1",
+      "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mleiha",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "Mleiha, the Gulf's iron town",
+        "dynasty": "Abiel",
+        "decade": "100s BC–200s"
+      },
+      "match": {
+        "folio": "arabia-paleolithic-500000bc-8000bc",
+        "id": "ex1",
+        "cat": "expression",
+        "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
+        "decade": "400s BC–800s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-300ad::ec4",
+      "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
     },
     {
       "confidence": "high",
@@ -6787,6 +7007,28 @@
       },
       "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
       "xlink_b": "magan-3000bc-300bc::lv4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mleiha",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "The mud-brick fort of Mleiha",
+        "dynasty": "Abiel",
+        "decade": "100s BC–200s"
+      },
+      "match": {
+        "folio": "arabia-paleolithic-500000bc-8000bc",
+        "id": "ex1",
+        "cat": "expression",
+        "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
+        "decade": "400s BC–800s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-300ad::tc2",
+      "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
     },
     {
       "confidence": "high",
@@ -7107,23 +7349,6 @@
         "label": "Missorium of Theodosius I",
         "dynasty": "Theodosian",
         "decade": "380s"
-      }
-    },
-    {
-      "name": "Timur",
-      "entry_a": {
-        "folio": "hormuz-1200-1507",
-        "id": "w2",
-        "label": "Timur's empire and Timurid Persia",
-        "dynasty": "Timurid",
-        "decade": "1370s–1400s"
-      },
-      "entry_b": {
-        "folio": "mamluks-1250-1517",
-        "id": "c7",
-        "label": "Timur sacks Aleppo and Damascus",
-        "dynasty": "Burji Mamluk",
-        "decade": "1400s"
       }
     },
     {
@@ -7957,6 +8182,60 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Al Bu Said",
+        "Muscat",
+        "Oman"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "oman-1970-today",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Council of Oman — from consultation to limited legislation",
+        "decade": "1980s–2010s"
+      },
+      "b": {
+        "folio": "oman-gulf-1650-1820",
+        "id": "o1",
+        "cat": "order",
+        "label": "Oman abandons the imamate for the sultanate",
+        "decade": "1780s–1820s"
+      },
+      "date_flag": "161yr gap — verify same entity, not just shared theme",
+      "xlink_a": "oman-1970-today::o2",
+      "xlink_b": "oman-gulf-1650-1820::o1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aden",
+        "Karimi",
+        "Red Sea"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1100s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ec1",
+      "xlink_b": "caliphate-945-1258::ec4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Palmyra",
         "Syria",
         "Tadmur"
@@ -8092,33 +8371,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Aden",
-        "Karimi",
-        "Red Sea"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "ec1",
-        "cat": "economy",
-        "label": "The Red Sea route and the Karimi merchants",
-        "decade": "1170s–1250s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "ec4",
-        "cat": "economy",
-        "label": "The Red Sea route and the Karimi merchants",
-        "decade": "1100s–1250s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::ec1",
-      "xlink_b": "caliphate-945-1258::ec4"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Holy Roman Empire",
         "Italy",
         "Spain"
@@ -8168,33 +8420,6 @@
       "date_flag": "overlapping",
       "xlink_a": "ghassanid-420-638::w1",
       "xlink_b": "lakhmid-268-602::w1"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Al Bu Said",
-        "Muscat",
-        "Oman"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "oman-1970-today",
-        "id": "o2",
-        "cat": "order",
-        "label": "The Council of Oman — from consultation to limited legislation",
-        "decade": "1980s–2010s"
-      },
-      "b": {
-        "folio": "oman-gulf-1650-1820",
-        "id": "o1",
-        "cat": "order",
-        "label": "Oman abandons the imamate for the sultanate",
-        "decade": "1780s–1820s"
-      },
-      "date_flag": "161yr gap — verify same entity, not just shared theme",
-      "xlink_a": "oman-1970-today::o2",
-      "xlink_b": "oman-gulf-1650-1820::o1"
     },
     {
       "confidence": "medium",
@@ -13074,6 +13299,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Egypt",
+        "Levant"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w3",
+        "cat": "world",
+        "label": "Egypt is the key to the Levant",
+        "decade": "1210s–1250s"
+      },
+      "b": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Qurayyah ware and contact with New Kingdom Egypt's mining frontier",
+        "decade": "1200s BC–1300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::w3",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Coptic",
         "Egypt"
       ],
@@ -15128,1067 +15379,53 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Ayyubid",
-        "Jerusalem"
+        "Nefud",
+        "Saudi Arabia"
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "k2",
+        "folio": "arabia-paleolithic-500000bc-8000bc",
+        "id": "k6",
         "cat": "power",
-        "label": "Saladin — the reconquest and the last years",
-        "decade": "1180s"
+        "label": "Playas reform and people return to the Nefud",
+        "decade": "400s BC–800s"
       },
       "b": {
-        "folio": "caliphate-945-1258",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Hattin and the Third Crusade",
-        "decade": "1180s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::k2",
-      "xlink_b": "caliphate-945-1258::c7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayyubid",
-        "Saladin"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "k2",
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "k1",
         "cat": "power",
-        "label": "Saladin — the reconquest and the last years",
-        "decade": "1180s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "v6",
-        "cat": "power",
-        "label": "Saladin ends the caliphate",
-        "decade": "1160s"
-      },
-      "date_flag": "16yr gap",
-      "xlink_a": "ayyubids-1171-1250::k2",
-      "xlink_b": "fatimids-909-1171::v6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayyubid",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "k11",
-        "cat": "power",
-        "label": "The end of the dynasty in Syria",
-        "decade": "1250s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "w4",
-        "cat": "world",
-        "label": "The Ayyubids and the Mamluk coup",
-        "decade": "1170s–1250s"
+        "label": "Herders return to the Hejaz and Najd margins",
+        "decade": "6000s BC–8000s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::k11",
-      "xlink_b": "caliphate-945-1258::w4"
+      "xlink_a": "arabia-paleolithic-500000bc-8000bc::k6",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::k1"
     },
     {
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Ayyubid",
-        "Horns of Hattin"
+        "GCC",
+        "Saudi Arabia"
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "Hattin",
-        "decade": "1180s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Hattin and the Third Crusade",
-        "decade": "1180s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::c1",
-      "xlink_b": "caliphate-945-1258::c7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayyubid",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "The surrender of Jerusalem",
-        "decade": "1180s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Hattin and the Third Crusade",
-        "decade": "1180s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::c2",
-      "xlink_b": "caliphate-945-1258::c7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Acre",
-        "Ayyubid"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "The siege of Acre",
-        "decade": "1180s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Hattin and the Third Crusade",
-        "decade": "1180s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::c3",
-      "xlink_b": "caliphate-945-1258::c7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayyubid",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "Arsuf, the marches on Jerusalem and the Treaty of Jaffa",
-        "decade": "1190s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Hattin and the Third Crusade",
-        "decade": "1180s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::c4",
-      "xlink_b": "caliphate-945-1258::c7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayyubid",
-        "Saladin"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "The wars of Saladin's house",
-        "decade": "1190s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "v6",
-        "cat": "power",
-        "label": "Saladin ends the caliphate",
-        "decade": "1160s"
-      },
-      "date_flag": "22yr gap",
-      "xlink_a": "ayyubids-1171-1250::c5",
-      "xlink_b": "fatimids-909-1171::v6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayyubid",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c8",
-        "cat": "conflict",
-        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
-        "decade": "1220s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Hattin and the Third Crusade",
-        "decade": "1180s"
-      },
-      "date_flag": "37yr gap",
-      "xlink_a": "ayyubids-1171-1250::c8",
-      "xlink_b": "caliphate-945-1258::c7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayyubid",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c9",
-        "cat": "conflict",
-        "label": "The Khwarazmian sack of Jerusalem and La Forbie",
-        "decade": "1240s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Hattin and the Third Crusade",
-        "decade": "1180s"
-      },
-      "date_flag": "52yr gap — verify same entity, not just shared theme",
-      "xlink_a": "ayyubids-1171-1250::c9",
-      "xlink_b": "caliphate-945-1258::c7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayyubid",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "ex3",
-        "cat": "expression",
-        "label": "The citadels of Syria and the ablaq facade",
-        "decade": "1190s–1230s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "w4",
-        "cat": "world",
-        "label": "The Ayyubids and the Mamluk coup",
-        "decade": "1170s–1250s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::ex3",
-      "xlink_b": "caliphate-945-1258::w4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Acre",
-        "Ayyubid"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "x1",
-        "cat": "exchange",
-        "label": "The Frankish–Ayyubid truce system",
-        "decade": "1190s–1250s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Hattin and the Third Crusade",
-        "decade": "1180s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::x1",
-      "xlink_b": "caliphate-945-1258::c7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayyubid",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Al-Kamil and Frederick II",
-        "decade": "1220s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Hattin and the Third Crusade",
-        "decade": "1180s"
-      },
-      "date_flag": "34yr gap",
-      "xlink_a": "ayyubids-1171-1250::x2",
-      "xlink_b": "caliphate-945-1258::c7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Holy Sepulchre",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c8",
-        "cat": "conflict",
-        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
-        "decade": "1220s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "The destruction of the Holy Sepulchre",
-        "decade": "1000s"
-      },
-      "date_flag": "220yr gap — verify same entity, not just shared theme",
-      "xlink_a": "ayyubids-1171-1250::c8",
-      "xlink_b": "fatimids-909-1171::c5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Holy Sepulchre",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c8",
-        "cat": "conflict",
-        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
-        "decade": "1220s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "x4",
-        "cat": "exchange",
-        "label": "Byzantium — the peace across the frontier",
-        "decade": "980s–1050s"
-      },
-      "date_flag": "174yr gap — verify same entity, not just shared theme",
-      "xlink_a": "ayyubids-1171-1250::c8",
-      "xlink_b": "fatimids-909-1171::x4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Holy Sepulchre",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c8",
-        "cat": "conflict",
-        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
-        "decade": "1220s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "a3",
-        "cat": "expression",
-        "label": "Church of the Holy Sepulchre, Jerusalem",
-        "decade": "320s"
-      },
-      "date_flag": "894yr gap — verify same entity, not just shared theme",
-      "xlink_a": "ayyubids-1171-1250::c8",
-      "xlink_b": "rome-300-400::a3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Holy Sepulchre",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "fatimids-909-1171",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "The destruction of the Holy Sepulchre",
-        "decade": "1000s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "a3",
-        "cat": "expression",
-        "label": "Church of the Holy Sepulchre, Jerusalem",
-        "decade": "320s"
-      },
-      "date_flag": "674yr gap — verify same entity, not just shared theme",
-      "xlink_a": "fatimids-909-1171::c5",
-      "xlink_b": "rome-300-400::a3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Holy Sepulchre",
-        "Jerusalem"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "fatimids-909-1171",
-        "id": "x4",
-        "cat": "exchange",
-        "label": "Byzantium — the peace across the frontier",
-        "decade": "980s–1050s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "a3",
-        "cat": "expression",
-        "label": "Church of the Holy Sepulchre, Jerusalem",
-        "decade": "320s"
-      },
-      "date_flag": "652yr gap — verify same entity, not just shared theme",
-      "xlink_a": "fatimids-909-1171::x4",
-      "xlink_b": "rome-300-400::a3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Jazira",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "c11",
-        "cat": "conflict",
-        "label": "Köse Dagh, the tributary Jazira and the fall of Syria",
-        "decade": "1240s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "tc3",
-        "cat": "technology",
-        "label": "The counterweight trebuchet and the citadel",
-        "decade": "1100s–1250s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::c11",
-      "xlink_b": "caliphate-945-1258::tc3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Jazira",
-        "Seljuks of Rum"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
+        "folio": "oman-1970-today",
         "id": "x5",
         "cat": "exchange",
-        "label": "The Mongol ultimatum",
-        "decade": "1240s"
+        "label": "A GCC member on its own terms",
+        "decade": "1980s–2020s"
       },
       "b": {
-        "folio": "caliphate-945-1258",
-        "id": "k11",
-        "cat": "power",
-        "label": "The succession wars and the atabeg states",
-        "decade": "1090s–1150s"
-      },
-      "date_flag": "86yr gap — verify same entity, not just shared theme",
-      "xlink_a": "ayyubids-1171-1250::x5",
-      "xlink_b": "caliphate-945-1258::k11"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayn Jalut",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "k11",
-        "cat": "power",
-        "label": "The end of the dynasty in Syria",
-        "decade": "1250s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "w5",
-        "cat": "world",
-        "label": "The Mongol cataclysm",
-        "decade": "1210s–1260s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::k11",
-      "xlink_b": "caliphate-945-1258::w5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Syria",
-        "Yarmuk"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-632-750",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "Ajnadayn and Yarmuk — Byzantine Syria falls",
-        "decade": "630s"
-      },
-      "b": {
-        "folio": "ghassanid-420-638",
-        "id": "w3",
-        "cat": "world",
-        "label": "Muslim conquest of Syria and the Ghassanid end",
-        "decade": "630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-632-750::c2",
-      "xlink_b": "ghassanid-420-638::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Seljuk",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "k11",
-        "cat": "power",
-        "label": "The succession wars and the atabeg states",
-        "decade": "1090s–1150s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "w3",
-        "cat": "world",
-        "label": "The Seljuk squeeze",
-        "decade": "1050s–1090s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-945-1258::k11",
-      "xlink_b": "fatimids-909-1171::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Seljuk",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "lv4",
-        "cat": "lives",
-        "label": "The mamluk household",
-        "decade": "940s–1250s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "w3",
-        "cat": "world",
-        "label": "The Seljuk squeeze",
-        "decade": "1050s–1090s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-945-1258::lv4",
-      "xlink_b": "fatimids-909-1171::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Arabia",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ghassanid-420-638",
-        "id": "o2",
-        "cat": "order",
-        "label": "Unified Arab foederati command under Ghassanid phylarch",
-        "decade": "520s–580s"
-      },
-      "b": {
-        "folio": "lakhmid-268-602",
-        "id": "k10",
-        "cat": "power",
-        "label": "al-Mundhir III ibn al-Numan",
-        "decade": "500s–550s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ghassanid-420-638::o2",
-      "xlink_b": "lakhmid-268-602::k10"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Asia Minor",
-        "Syria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Zenobia conquers Asia Minor and Arabia",
-        "decade": "270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "w5",
-        "cat": "world",
-        "label": "Breakaway Palmyrene Empire",
-        "decade": "260s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::c3",
-      "xlink_b": "rome-200-300::w5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Syria",
-        "Tadmur"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "Fall of Palmyra — city sacked, then razed",
-        "decade": "270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "ex3",
-        "cat": "exchange",
-        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
-        "decade": "150s–270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::c5",
-      "xlink_b": "rome-200-300::ex3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ayn Jalut",
-        "Galilee"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "c10",
-        "cat": "conflict",
-        "label": "The sack of Baghdad and the check at Ayn Jalut",
-        "decade": "1250s"
-      },
-      "b": {
-        "folio": "mamluks-1250-1517",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "Ayn Jalut",
-        "decade": "1260s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-945-1258::c10",
-      "xlink_b": "mamluks-1250-1517::c1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Fustat",
-        "Sunni"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "o1",
-        "cat": "order",
-        "label": "The Sunni restoration of Egypt in law",
-        "decade": "1170s"
-      },
-      "b": {
-        "folio": "caliphate-750-945",
-        "id": "b1",
-        "cat": "belief",
-        "label": "The four Sunni schools of law take shape",
-        "decade": "760s–850s"
-      },
-      "date_flag": "316yr gap — verify same entity, not just shared theme",
-      "xlink_a": "ayyubids-1171-1250::o1",
-      "xlink_b": "caliphate-750-945::b1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Aden",
-        "Red Sea"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "ec6",
-        "cat": "economy",
-        "label": "Yemen, Aden and the India trade",
-        "decade": "1170s–1220s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "ec4",
-        "cat": "economy",
-        "label": "The Red Sea route and the Karimi merchants",
-        "decade": "1100s–1250s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::ec6",
-      "xlink_b": "caliphate-945-1258::ec4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Aden",
-        "Karimi"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "ec4",
-        "cat": "economy",
-        "label": "The Red Sea route and the Karimi merchants",
-        "decade": "1100s–1250s"
-      },
-      "b": {
-        "folio": "mamluks-1250-1517",
-        "id": "ec1",
-        "cat": "economy",
-        "label": "The transit trade and the Karimi merchants",
-        "decade": "1260s–1420s"
-      },
-      "date_flag": "2yr gap",
-      "xlink_a": "caliphate-945-1258::ec4",
-      "xlink_b": "mamluks-1250-1517::ec1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Gulf",
-        "Red Sea"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "beth-qatraye-240-750",
-        "id": "ec1",
-        "cat": "economy",
-        "label": "The Persian Gulf as the Sasanian trade artery",
-        "decade": "240s–650s"
-      },
-      "b": {
-        "folio": "caliphate-632-750",
-        "id": "ec2",
-        "cat": "economy",
-        "label": "One market from the Atlantic to the Indus",
-        "decade": "660s–750s"
-      },
-      "date_flag": "10yr gap",
-      "xlink_a": "beth-qatraye-240-750::ec1",
-      "xlink_b": "caliphate-632-750::ec2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Gulf",
-        "Red Sea"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "beth-qatraye-240-750",
-        "id": "ec1",
-        "cat": "economy",
-        "label": "The Persian Gulf as the Sasanian trade artery",
-        "decade": "240s–650s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
-        "id": "x1",
-        "cat": "exchange",
-        "label": "The Gulf as Rome's back door to India",
-        "decade": "250s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "beth-qatraye-240-750::ec1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Eastern Desert",
-        "Red Sea"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "th2",
-        "cat": "thought",
-        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
-        "decade": "3200s BC–4000s"
-      },
-      "b": {
-        "folio": "mamluks-1250-1517",
-        "id": "b6",
-        "cat": "belief",
-        "label": "The Coptic church retreats to the monasteries",
-        "decade": "1300s–1510s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-6000bc-3000bc::th2",
-      "xlink_b": "mamluks-1250-1517::b6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Delta",
-        "Sugar"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
-        "id": "ec4",
-        "cat": "economy",
-        "label": "Sugar",
-        "decade": "1170s–1250s"
-      },
-      "b": {
-        "folio": "mamluks-1250-1517",
-        "id": "tc5",
-        "cat": "technology",
-        "label": "Sugar, saltpetre and the chemical trades",
-        "decade": "1260s–1400s"
-      },
-      "date_flag": "10yr gap",
-      "xlink_a": "ayyubids-1171-1250::ec4",
-      "xlink_b": "mamluks-1250-1517::tc5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Book of Contemplation",
-        "Usama ibn Munqidh"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ayyubids-1171-1250",
+        "folio": "uae-1971-today",
         "id": "x3",
         "cat": "exchange",
-        "label": "Usama ibn Munqidh and life across the frontier",
-        "decade": "1180s"
-      },
-      "b": {
-        "folio": "caliphate-945-1258",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "The Crusades as contact",
-        "decade": "1090s–1250s"
+        "label": "The Qatar blockade and the GCC rift",
+        "decade": "2010s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "ayyubids-1171-1250::x3",
-      "xlink_b": "caliphate-945-1258::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Italy",
-        "Spain"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "france-1610-1715",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "War of Spanish Succession — Louis XIV's last gamble",
-        "decade": "1700s"
-      },
-      "b": {
-        "folio": "spain-1516-1700",
-        "id": "w1",
-        "cat": "world",
-        "label": "The empire on which the sun never sets",
-        "decade": "1510s–1700s"
-      },
-      "date_flag": "1yr gap",
-      "xlink_a": "france-1610-1715::c4",
-      "xlink_b": "spain-1516-1700::w1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Syrian",
-        "Yawm Halima"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "ghassanid-420-638",
-        "id": "lv1",
-        "cat": "lives",
-        "label": "Halima bint al-Harith — the woman who names a battle",
-        "decade": "550s"
-      },
-      "b": {
-        "folio": "lakhmid-268-602",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "Yawm Halima — death of al-Mundhir III",
-        "decade": "550s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "ghassanid-420-638::lv1",
-      "xlink_b": "lakhmid-268-602::c1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Crusades",
-        "Levant"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "The Crusades as contact",
-        "decade": "1090s–1250s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "w4",
-        "cat": "world",
-        "label": "The Crusades and the Fatimid misjudgement",
-        "decade": "1090s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-945-1258::x2",
-      "xlink_b": "fatimids-909-1171::w4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Crusades",
-        "Levant"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "caliphate-945-1258",
-        "id": "w3",
-        "cat": "world",
-        "label": "The Crusades",
-        "decade": "1090s–1290s"
-      },
-      "b": {
-        "folio": "fatimids-909-1171",
-        "id": "w4",
-        "cat": "world",
-        "label": "The Crusades and the Fatimid misjudgement",
-        "decade": "1090s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "caliphate-945-1258::w3",
-      "xlink_b": "fatimids-909-1171::w4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Arabian",
-        "Parthian"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "ex2",
-        "cat": "exchange",
-        "label": "Palmyrene art — Greek, Parthian and Arabian fusion",
-        "decade": "100s BC–270s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
-        "id": "x3",
-        "cat": "exchange",
-        "label": "Roman and Parthian goods on the Arabian shore",
-        "decade": "0s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::ex2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x3"
+      "xlink_a": "oman-1970-today::x5",
+      "xlink_b": "uae-1971-today::x3"
     },
     {
       "confidence": "low",
@@ -17676,6 +16913,1436 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Aden",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec6",
+        "cat": "economy",
+        "label": "Yemen, Aden and the India trade",
+        "decade": "1170s–1220s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1100s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ec6",
+      "xlink_b": "caliphate-945-1258::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Persian Gulf as the Sasanian trade artery",
+        "decade": "240s–650s"
+      },
+      "b": {
+        "folio": "caliphate-632-750",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "One market from the Atlantic to the Indus",
+        "decade": "660s–750s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "beth-qatraye-240-750::ec1",
+      "xlink_b": "caliphate-632-750::ec2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gulf",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Persian Gulf as the Sasanian trade artery",
+        "decade": "240s–650s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Gulf as Rome's back door to India",
+        "decade": "250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-750::ec1",
+      "xlink_b": "tylos-mleiha-300bc-300ad::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Coptic church retreats to the monasteries",
+        "decade": "1300s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-6000bc-3000bc::th2",
+      "xlink_b": "mamluks-1250-1517::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Arabian Peninsula"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "arabia-paleolithic-500000bc-8000bc",
+        "id": "ec3",
+        "cat": "economy",
+        "label": "The Last Glacial Maximum empties northern Arabia",
+        "decade": "0s"
+      },
+      "b": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "Marawah island — the earliest stone architecture in Arabia",
+        "decade": "4500s BC–5500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "arabia-paleolithic-500000bc-8000bc::ec3",
+      "xlink_b": "gulf-prehistory-8000bc-3000bc::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Arabian Peninsula"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "arabia-paleolithic-500000bc-8000bc",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Arabia as the Africa–Eurasia crossroads",
+        "decade": "0s–440s"
+      },
+      "b": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "Marawah island — the earliest stone architecture in Arabia",
+        "decade": "4500s BC–5500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "arabia-paleolithic-500000bc-8000bc::x3",
+      "xlink_b": "gulf-prehistory-8000bc-3000bc::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabian",
+        "Parthian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Palmyrene art — Greek, Parthian and Arabian fusion",
+        "decade": "100s BC–270s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Roman and Parthian goods on the Arabian shore",
+        "decade": "0s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::ex2",
+      "xlink_b": "tylos-mleiha-300bc-300ad::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "al-Hasa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "k3",
+        "cat": "power",
+        "label": "Al-Mundhir ibn Sawa accepts Islam in Bahrain",
+        "decade": "620s"
+      },
+      "b": {
+        "folio": "dilmun-3000bc-600bc",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Rise of Gerrha and the shift of Gulf power to the mainland",
+        "decade": "600s BC–650s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-750::k3",
+      "xlink_b": "dilmun-3000bc-600bc::c3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Sasanian Empire"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-750",
+        "id": "w3",
+        "cat": "world",
+        "label": "The rise of Islam and the Arab conquest of Persia",
+        "decade": "620s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-300ad",
+        "id": "k5",
+        "cat": "power",
+        "label": "Ardashir I ends the Parthian Gulf order",
+        "decade": "240s"
+      },
+      "date_flag": "382yr gap — verify same entity, not just shared theme",
+      "xlink_a": "beth-qatraye-240-750::w3",
+      "xlink_b": "tylos-mleiha-300bc-300ad::k5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Qatif"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "dilmun-3000bc-600bc",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "Tarut and the eastern Arabian mainland in the Dilmun world",
+        "decade": "2000s BC–2900s"
+      },
+      "b": {
+        "folio": "hormuz-1200-1507",
+        "id": "k3",
+        "cat": "power",
+        "label": "The Usfurids and Jarwanids of al-Hasa and Qatif",
+        "decade": "1250s–1440s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "dilmun-3000bc-600bc::x5",
+      "xlink_b": "hormuz-1200-1507::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ghassanid-420-638",
+        "id": "o2",
+        "cat": "order",
+        "label": "Unified Arab foederati command under Ghassanid phylarch",
+        "decade": "520s–580s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "k10",
+        "cat": "power",
+        "label": "al-Mundhir III ibn al-Numan",
+        "decade": "500s–550s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ghassanid-420-638::o2",
+      "xlink_b": "lakhmid-268-602::k10"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Neolithic"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Neolithic herding package reaches Arabia",
+        "decade": "5000s BC–6000s"
+      },
+      "b": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "A Neolithic reprise of Arabia as a corridor",
+        "decade": "4000s BC–8000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "gulf-prehistory-8000bc-3000bc::ec1",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Mesopotamia"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Herding, pottery use and boat-building spread south",
+        "decade": "4500s BC–6000s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "w3",
+        "cat": "world",
+        "label": "Abolition creates the vacuum for Islamic conquest",
+        "decade": "600s–630s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "gulf-prehistory-8000bc-3000bc::x2",
+      "xlink_b": "lakhmid-268-602::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Mesopotamia"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "gulf-prehistory-8000bc-3000bc",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Herding, pottery use and boat-building spread south",
+        "decade": "4500s BC–6000s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Early Islamic jurisprudence redefines same-sex acts",
+        "decade": "620s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "gulf-prehistory-8000bc-3000bc::x2",
+      "xlink_b": "sassanid-484-651::lv3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Najd"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "A Neolithic reprise of Arabia as a corridor",
+        "decade": "4000s BC–8000s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Al-Khansa — the greatest pre-Islamic Arab poet",
+        "decade": "570s–640s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-prehistory-8000bc-1200bc::x3",
+      "xlink_b": "lakhmid-268-602::lv3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Hejaz"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "A Neolithic reprise of Arabia as a corridor",
+        "decade": "4000s BC–8000s"
+      },
+      "b": {
+        "folio": "nabataean-400bc-106ce",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Aelius Gallus expedition sabotaged by Syllaeus",
+        "decade": "20s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-prehistory-8000bc-1200bc::x3",
+      "xlink_b": "nabataean-400bc-106ce::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Hejaz"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "A Neolithic reprise of Arabia as a corridor",
+        "decade": "4000s BC–8000s"
+      },
+      "b": {
+        "folio": "nabataean-400bc-106ce",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Nabataean script — ancestor of the Arabic alphabet",
+        "decade": "200s BC–400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-prehistory-8000bc-1200bc::x3",
+      "xlink_b": "nabataean-400bc-106ce::ex2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Hejaz"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "w4",
+        "cat": "world",
+        "label": "An open question: does the c.1200 BC crisis reach the Hejaz?",
+        "decade": "1200s BC–1300s"
+      },
+      "b": {
+        "folio": "nabataean-400bc-106ce",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Aelius Gallus expedition sabotaged by Syllaeus",
+        "decade": "20s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-prehistory-8000bc-1200bc::w4",
+      "xlink_b": "nabataean-400bc-106ce::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Hejaz"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "w4",
+        "cat": "world",
+        "label": "An open question: does the c.1200 BC crisis reach the Hejaz?",
+        "decade": "1200s BC–1300s"
+      },
+      "b": {
+        "folio": "nabataean-400bc-106ce",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Nabataean script — ancestor of the Arabic alphabet",
+        "decade": "200s BC–400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-prehistory-8000bc-1200bc::w4",
+      "xlink_b": "nabataean-400bc-106ce::ex2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Arabia",
+        "Mesopotamia"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "lakhmid-268-602",
+        "id": "w3",
+        "cat": "world",
+        "label": "Abolition creates the vacuum for Islamic conquest",
+        "decade": "600s–630s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Early Islamic jurisprudence redefines same-sex acts",
+        "decade": "620s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "lakhmid-268-602::w3",
+      "xlink_b": "sassanid-484-651::lv3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Crusades",
+        "Levant"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Crusades as contact",
+        "decade": "1090s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Crusades and the Fatimid misjudgement",
+        "decade": "1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::x2",
+      "xlink_b": "fatimids-909-1171::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Crusades",
+        "Levant"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Crusades",
+        "decade": "1090s–1290s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Crusades and the Fatimid misjudgement",
+        "decade": "1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::w3",
+      "xlink_b": "fatimids-909-1171::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k2",
+        "cat": "power",
+        "label": "Saladin — the reconquest and the last years",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k2",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Saladin"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k2",
+        "cat": "power",
+        "label": "Saladin — the reconquest and the last years",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "16yr gap",
+      "xlink_a": "ayyubids-1171-1250::k2",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k11",
+        "cat": "power",
+        "label": "The end of the dynasty in Syria",
+        "decade": "1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k11",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Horns of Hattin"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Hattin",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c1",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The surrender of Jerusalem",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c2",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Acre",
+        "Ayyubid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The siege of Acre",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c3",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Arsuf, the marches on Jerusalem and the Treaty of Jaffa",
+        "decade": "1190s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c4",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Saladin"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The wars of Saladin's house",
+        "decade": "1190s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "decade": "1160s"
+      },
+      "date_flag": "22yr gap",
+      "xlink_a": "ayyubids-1171-1250::c5",
+      "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "37yr gap",
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c9",
+        "cat": "conflict",
+        "label": "The Khwarazmian sack of Jerusalem and La Forbie",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "52yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::c9",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "The citadels of Syria and the ablaq facade",
+        "decade": "1190s–1230s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ex3",
+      "xlink_b": "caliphate-945-1258::w4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Acre",
+        "Ayyubid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Frankish–Ayyubid truce system",
+        "decade": "1190s–1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::x1",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayyubid",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Al-Kamil and Frederick II",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "decade": "1180s"
+      },
+      "date_flag": "34yr gap",
+      "xlink_a": "ayyubids-1171-1250::x2",
+      "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The destruction of the Holy Sepulchre",
+        "decade": "1000s"
+      },
+      "date_flag": "220yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "fatimids-909-1171::c5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "Byzantium — the peace across the frontier",
+        "decade": "980s–1050s"
+      },
+      "date_flag": "174yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "fatimids-909-1171::x4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "a3",
+        "cat": "expression",
+        "label": "Church of the Holy Sepulchre, Jerusalem",
+        "decade": "320s"
+      },
+      "date_flag": "894yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "rome-300-400::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "fatimids-909-1171",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The destruction of the Holy Sepulchre",
+        "decade": "1000s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "a3",
+        "cat": "expression",
+        "label": "Church of the Holy Sepulchre, Jerusalem",
+        "decade": "320s"
+      },
+      "date_flag": "674yr gap — verify same entity, not just shared theme",
+      "xlink_a": "fatimids-909-1171::c5",
+      "xlink_b": "rome-300-400::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Sepulchre",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "fatimids-909-1171",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "Byzantium — the peace across the frontier",
+        "decade": "980s–1050s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "a3",
+        "cat": "expression",
+        "label": "Church of the Holy Sepulchre, Jerusalem",
+        "decade": "320s"
+      },
+      "date_flag": "652yr gap — verify same entity, not just shared theme",
+      "xlink_a": "fatimids-909-1171::x4",
+      "xlink_b": "rome-300-400::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jazira",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Köse Dagh, the tributary Jazira and the fall of Syria",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The counterweight trebuchet and the citadel",
+        "decade": "1100s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c11",
+      "xlink_b": "caliphate-945-1258::tc3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jazira",
+        "Seljuks of Rum"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "The Mongol ultimatum",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "k11",
+        "cat": "power",
+        "label": "The succession wars and the atabeg states",
+        "decade": "1090s–1150s"
+      },
+      "date_flag": "86yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::x5",
+      "xlink_b": "caliphate-945-1258::k11"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayn Jalut",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k11",
+        "cat": "power",
+        "label": "The end of the dynasty in Syria",
+        "decade": "1250s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Mongol cataclysm",
+        "decade": "1210s–1260s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::k11",
+      "xlink_b": "caliphate-945-1258::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Syria",
+        "Yarmuk"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Ajnadayn and Yarmuk — Byzantine Syria falls",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "ghassanid-420-638",
+        "id": "w3",
+        "cat": "world",
+        "label": "Muslim conquest of Syria and the Ghassanid end",
+        "decade": "630s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::c2",
+      "xlink_b": "ghassanid-420-638::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Seljuk",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "k11",
+        "cat": "power",
+        "label": "The succession wars and the atabeg states",
+        "decade": "1090s–1150s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Seljuk squeeze",
+        "decade": "1050s–1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::k11",
+      "xlink_b": "fatimids-909-1171::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Seljuk",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The mamluk household",
+        "decade": "940s–1250s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Seljuk squeeze",
+        "decade": "1050s–1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::lv4",
+      "xlink_b": "fatimids-909-1171::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Asia Minor",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Zenobia conquers Asia Minor and Arabia",
+        "decade": "270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "w5",
+        "cat": "world",
+        "label": "Breakaway Palmyrene Empire",
+        "decade": "260s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::c3",
+      "xlink_b": "rome-200-300::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Syria",
+        "Tadmur"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Fall of Palmyra — city sacked, then razed",
+        "decade": "270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Palmyra as trade entrepôt — the PAT inscriptions",
+        "decade": "150s–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::c5",
+      "xlink_b": "rome-200-300::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ayn Jalut",
+        "Galilee"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "c10",
+        "cat": "conflict",
+        "label": "The sack of Baghdad and the check at Ayn Jalut",
+        "decade": "1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Ayn Jalut",
+        "decade": "1260s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::c10",
+      "xlink_b": "mamluks-1250-1517::c1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fustat",
+        "Sunni"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Sunni restoration of Egypt in law",
+        "decade": "1170s"
+      },
+      "b": {
+        "folio": "caliphate-750-945",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The four Sunni schools of law take shape",
+        "decade": "760s–850s"
+      },
+      "date_flag": "316yr gap — verify same entity, not just shared theme",
+      "xlink_a": "ayyubids-1171-1250::o1",
+      "xlink_b": "caliphate-750-945::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aden",
+        "Karimi"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "The Red Sea route and the Karimi merchants",
+        "decade": "1100s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The transit trade and the Karimi merchants",
+        "decade": "1260s–1420s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "caliphate-945-1258::ec4",
+      "xlink_b": "mamluks-1250-1517::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Delta",
+        "Sugar"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "Sugar",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "tc5",
+        "cat": "technology",
+        "label": "Sugar, saltpetre and the chemical trades",
+        "decade": "1260s–1400s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::ec4",
+      "xlink_b": "mamluks-1250-1517::tc5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Book of Contemplation",
+        "Usama ibn Munqidh"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Usama ibn Munqidh and life across the frontier",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "caliphate-945-1258",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Crusades as contact",
+        "decade": "1090s–1250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::x3",
+      "xlink_b": "caliphate-945-1258::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Italy",
+        "Spain"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "france-1610-1715",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "War of Spanish Succession — Louis XIV's last gamble",
+        "decade": "1700s"
+      },
+      "b": {
+        "folio": "spain-1516-1700",
+        "id": "w1",
+        "cat": "world",
+        "label": "The empire on which the sun never sets",
+        "decade": "1510s–1700s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "france-1610-1715::c4",
+      "xlink_b": "spain-1516-1700::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Syrian",
+        "Yawm Halima"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ghassanid-420-638",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Halima bint al-Harith — the woman who names a battle",
+        "decade": "550s"
+      },
+      "b": {
+        "folio": "lakhmid-268-602",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Yawm Halima — death of al-Mundhir III",
+        "decade": "550s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ghassanid-420-638::lv1",
+      "xlink_b": "lakhmid-268-602::c1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Ibadi Imamate",
         "Nizwa"
       ],
@@ -18014,32 +18681,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Arabia",
-        "al-Hasa"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "beth-qatraye-240-750",
-        "id": "k3",
-        "cat": "power",
-        "label": "Al-Mundhir ibn Sawa accepts Islam in Bahrain",
-        "decade": "620s"
-      },
-      "b": {
-        "folio": "dilmun-3000bc-600bc",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Rise of Gerrha and the shift of Gulf power to the mainland",
-        "decade": "600s BC–650s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "beth-qatraye-240-750::k3",
-      "xlink_b": "dilmun-3000bc-600bc::c3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Gulf",
         "al-Hasa"
       ],
@@ -18113,136 +18754,6 @@
       "date_flag": "313yr gap — verify same entity, not just shared theme",
       "xlink_a": "hormuz-1200-1507::b2",
       "xlink_b": "trucial-gulf-1820-1971::b2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Arabia",
-        "Sasanian Empire"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "beth-qatraye-240-750",
-        "id": "w3",
-        "cat": "world",
-        "label": "The rise of Islam and the Arab conquest of Persia",
-        "decade": "620s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
-        "id": "k5",
-        "cat": "power",
-        "label": "Ardashir I ends the Parthian Gulf order",
-        "decade": "240s"
-      },
-      "date_flag": "382yr gap — verify same entity, not just shared theme",
-      "xlink_a": "beth-qatraye-240-750::w3",
-      "xlink_b": "tylos-mleiha-300bc-300ad::k5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Arabia",
-        "Qatif"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "dilmun-3000bc-600bc",
-        "id": "x5",
-        "cat": "exchange",
-        "label": "Tarut and the eastern Arabian mainland in the Dilmun world",
-        "decade": "2000s BC–2900s"
-      },
-      "b": {
-        "folio": "hormuz-1200-1507",
-        "id": "k3",
-        "cat": "power",
-        "label": "The Usfurids and Jarwanids of al-Hasa and Qatif",
-        "decade": "1250s–1440s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "dilmun-3000bc-600bc::x5",
-      "xlink_b": "hormuz-1200-1507::k3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Arabia",
-        "Mesopotamia"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "gulf-prehistory-8000bc-3000bc",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Herding, pottery use and boat-building spread south",
-        "decade": "4500s BC–6000s"
-      },
-      "b": {
-        "folio": "lakhmid-268-602",
-        "id": "w3",
-        "cat": "world",
-        "label": "Abolition creates the vacuum for Islamic conquest",
-        "decade": "600s–630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "gulf-prehistory-8000bc-3000bc::x2",
-      "xlink_b": "lakhmid-268-602::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Arabia",
-        "Mesopotamia"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "gulf-prehistory-8000bc-3000bc",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Herding, pottery use and boat-building spread south",
-        "decade": "4500s BC–6000s"
-      },
-      "b": {
-        "folio": "sassanid-484-651",
-        "id": "lv3",
-        "cat": "lives",
-        "label": "Early Islamic jurisprudence redefines same-sex acts",
-        "decade": "620s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "gulf-prehistory-8000bc-3000bc::x2",
-      "xlink_b": "sassanid-484-651::lv3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Arabia",
-        "Mesopotamia"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "lakhmid-268-602",
-        "id": "w3",
-        "cat": "world",
-        "label": "Abolition creates the vacuum for Islamic conquest",
-        "decade": "600s–630s"
-      },
-      "b": {
-        "folio": "sassanid-484-651",
-        "id": "lv3",
-        "cat": "lives",
-        "label": "Early Islamic jurisprudence redefines same-sex acts",
-        "decade": "620s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "lakhmid-268-602::w3",
-      "xlink_b": "sassanid-484-651::lv3"
     },
     {
       "confidence": "low",
@@ -33453,32 +33964,6 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::lv2",
       "xlink_b": "tylos-mleiha-300bc-300ad::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "GCC",
-        "Saudi Arabia"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "oman-1970-today",
-        "id": "x5",
-        "cat": "exchange",
-        "label": "A GCC member on its own terms",
-        "decade": "1980s–2020s"
-      },
-      "b": {
-        "folio": "uae-1971-today",
-        "id": "x3",
-        "cat": "exchange",
-        "label": "The Qatar blockade and the GCC rift",
-        "decade": "2010s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "oman-1970-today::x5",
-      "xlink_b": "uae-1971-today::x3"
     },
     {
       "confidence": "low",

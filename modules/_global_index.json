@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2670,
     "folio_count": 48,
-    "xlink_pairs": 162,
+    "xlink_pairs": 172,
     "keyword_terms": 5298,
     "folios": [
       {
@@ -2972,6 +2972,43 @@
       "oman-gulf-1650-1820::lv5",
       "sassanid-484-651::lv3"
     ],
+    "arabia-paleolithic-500000bc-8000bc::k4": [
+      "gulf-prehistory-8000bc-3000bc::w1"
+    ],
+    "gulf-prehistory-8000bc-3000bc::w1": [
+      "arabia-paleolithic-500000bc-8000bc::k4",
+      "arabia-paleolithic-500000bc-8000bc::x1"
+    ],
+    "arabia-paleolithic-500000bc-8000bc::k6": [
+      "hejaz-prehistory-8000bc-1200bc::k1"
+    ],
+    "hejaz-prehistory-8000bc-1200bc::k1": [
+      "arabia-paleolithic-500000bc-8000bc::k6",
+      "arabia-paleolithic-500000bc-8000bc::w4"
+    ],
+    "arabia-paleolithic-500000bc-8000bc::ex1": [
+      "hejaz-prehistory-8000bc-1200bc::ex2"
+    ],
+    "hejaz-prehistory-8000bc-1200bc::ex2": [
+      "arabia-paleolithic-500000bc-8000bc::ex1"
+    ],
+    "arabia-paleolithic-500000bc-8000bc::x3": [
+      "hejaz-prehistory-8000bc-1200bc::x3"
+    ],
+    "hejaz-prehistory-8000bc-1200bc::x3": [
+      "arabia-paleolithic-500000bc-8000bc::x3",
+      "gulf-prehistory-8000bc-3000bc::ec1"
+    ],
+    "arabia-paleolithic-500000bc-8000bc::x1": [
+      "gulf-prehistory-8000bc-3000bc::w1"
+    ],
+    "arabia-paleolithic-500000bc-8000bc::w4": [
+      "gulf-prehistory-8000bc-3000bc::w2",
+      "hejaz-prehistory-8000bc-1200bc::k1"
+    ],
+    "gulf-prehistory-8000bc-3000bc::w2": [
+      "arabia-paleolithic-500000bc-8000bc::w4"
+    ],
     "ayyubids-1171-1250::k1": [
       "caliphate-945-1258::c6",
       "fatimids-909-1171::v6"
@@ -3473,6 +3510,19 @@
     ],
     "magan-3000bc-300bc::k1": [
       "gulf-prehistory-8000bc-3000bc::p6"
+    ],
+    "gulf-prehistory-8000bc-3000bc::ec1": [
+      "hejaz-prehistory-8000bc-1200bc::x3"
+    ],
+    "hejaz-prehistory-8000bc-1200bc::x1": [
+      "nabataean-400bc-106ce::s1"
+    ],
+    "nabataean-400bc-106ce::s1": [
+      "hejaz-prehistory-8000bc-1200bc::x1",
+      "hejaz-prehistory-8000bc-1200bc::w5"
+    ],
+    "hejaz-prehistory-8000bc-1200bc::w5": [
+      "nabataean-400bc-106ce::s1"
     ],
     "hispania-27bc-409ad::k2": [
       "nabataean-400bc-106ce::c3"
