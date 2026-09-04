@@ -26,97 +26,193 @@
           "id": "k1",
           "group": "The Rashidun (632–661)",
           "dynasty": "Rashidun",
-          "label": "Abu Bakr and Umar — the caliphate takes shape",
-          "date": "632–644",
+          "label": "Abu Bakr and the Ridda",
+          "date": "632–634",
           "loc": "Medina",
           "coords": [
             24.47,
             39.61
           ],
-          "hint": "On the Prophet's death Abu Bakr held the community together through the Ridda wars; Umar built the machinery that a conquering state needed — the stipend register (diwan), the garrison cities, the Hijri calendar, the title 'Commander of the Faithful'. Umar was murdered by a Persian slave in 644.",
+          "hint": "Chosen at the Saqifa gathering over the Prophet's family's claims, Abu Bakr spent his two years holding Arabia together: the tribes that had followed Muhammad now refused Abu Bakr, and the 'wars of apostasy' reconquered the peninsula before the armies turned outward. He nominated Umar to succeed him.",
           "tag": "SUCCESSION",
-          "note": "al-Tabari, 'Tarikh al-rusul wa'l-muluk' (the central narrative source, trans. SUNY Press); Kennedy, 'The Prophet and the Age of the Caliphates' (3rd ed. 2016).",
-          "keywords": ["Rashidun","Medina","Abu Bakr","Umar","Commander of the Faithful"]
+          "note": "The narrative rests almost entirely on al-Tabari (d. 923) and al-Baladhuri (d. 892), compilers working 250+ years later from the akhbar of Sayf ibn Umar (partisan and unreliable), Abu Mikhnaf (pro-Kufan) and al-Waqidi. Contemporary evidence for the 630s is limited to a handful of Greek and Syriac notices (the 'Doctrina Jacobi', c.634) and, from 643, the Arabic papyri.",
+          "keywords": ["Rashidun","Medina","Abu Bakr","Ridda"]
         },
         {
           "id": "k2",
           "group": "The Rashidun (632–661)",
           "dynasty": "Rashidun",
-          "label": "Uthman, Ali and the First Fitna",
-          "date": "644–661",
-          "loc": "Medina; then Kufa (Ali)",
+          "label": "Umar — the conquest state",
+          "date": "634–644",
+          "loc": "Medina",
           "coords": [
             24.47,
             39.61
           ],
-          "hint": "Uthman's favouring of his Umayyad kin provoked a revolt that ended with his murder in 656. Ali, the fourth caliph, was then fought by Aisha and the Zubayrids (the Camel), by Muawiya (Siffin), and finally by the Kharijites, one of whom killed him in 661. The unity of the umma never fully returned.",
+          "hint": "Umar built the machinery a conquering movement needed: the stipend register (diwan) scaled by precedence in Islam, the garrison cities, the dating of documents from the Hijra, and the title 'Commander of the Faithful'. Syria, Egypt and Iraq were all taken under him. He was stabbed at prayer by a Persian captive in 644.",
           "tag": "SUCCESSION",
-          "note": "al-Tabari; the standardisation of the Quran under Uthman (see Belief); Hinds, 'Studies in Early Islamic History' (1996).",
-          "keywords": ["Rashidun","Medina","Kufa Ali","Uthman","Fitna","Zubayrids the Camel"]
+          "note": "al-Tabari and al-Baladhuri as above; the diwan and land settlement also in Abu Yusuf, 'Kitab al-Kharaj' (d. 798) and Abu Ubayd, 'Kitab al-Amwal' (d. 838) — juristic reconstructions, not archives. The Nessana and Aphrodito papyri give the earliest documentary picture of the new administration.",
+          "keywords": ["Rashidun","Medina","Umar","Commander of the Faithful"]
         },
         {
           "id": "k3",
+          "group": "The Rashidun (632–661)",
+          "dynasty": "Rashidun",
+          "label": "Uthman — the recension and the revolt",
+          "date": "644–656",
+          "loc": "Medina",
+          "coords": [
+            24.47,
+            39.61
+          ],
+          "hint": "Uthman fixed the text of the Quran and staffed the provinces with his Umayyad kin. Grievances over the appointments, the treatment of dissidents and the control of conquered land converged on Medina, where rebels from Egypt and Iraq besieged his house and killed him — the first caliph murdered by Muslims.",
+          "tag": "SUCCESSION",
+          "note": "al-Tabari (drawing here on the lost work of Sayf ibn Umar, which minimises the rebels' grievances, and on al-Waqidi); the pro-Uthman and pro-rebel versions are irreconcilable in the sources. The Quran recension is corroborated by the Sanaa palimpsest and the Birmingham folios (radiocarbon 568–645).",
+          "keywords": ["Rashidun","Medina","Uthman"]
+        },
+        {
+          "id": "k4",
+          "group": "The Rashidun (632–661)",
+          "dynasty": "Rashidun",
+          "label": "Ali — the First Fitna",
+          "date": "656–661",
+          "loc": "Kufa (his capital)",
+          "coords": [
+            32.03,
+            44.35
+          ],
+          "hint": "Ali moved the caliphate to Kufa and fought three wars: against Aisha, Talha and al-Zubayr at the Camel; against Muawiya at Siffin, which ended in an arbitration; and against the Kharijites, who broke from him over that arbitration and killed him at prayer in 661. Shia Islam counts him the first imam.",
+          "tag": "SUCCESSION",
+          "note": "al-Tabari, largely via Abu Mikhnaf (d. 774), a Kufan whose reports are early but sympathetic to the Alid side; the Umayyad-Syrian version is thinner. The Siffin arbitration document is preserved in several recensions (Hinds, JSS 1972) but its authenticity is debated.",
+          "keywords": ["Rashidun","Kufa","Ali","Fitna","Shia Islam"]
+        },
+        {
+          "id": "k5",
           "group": "The Umayyads — Sufyanids (661–684)",
           "dynasty": "Umayyad",
-          "label": "Muawiya makes the caliphate a dynasty",
+          "label": "Muawiya I makes the caliphate a dynasty",
           "date": "661–680",
           "loc": "Damascus",
           "coords": [
             33.51,
             36.29
           ],
-          "hint": "Muawiya, governor of Syria for twenty years, took the caliphate by force, moved the capital to Damascus, ran it on the Byzantine model with a standing Syrian army, and — the decisive break — had his son Yazid recognised as heir. Critics called it the moment the caliphate became mulk, mere kingship.",
+          "hint": "Muawiya had governed Syria for twenty years and had a standing army and a treasury. Ruling from Damascus on the Byzantine administrative model, he restored order after the fitna — the sources call 661 'the year of unity' — and then had his son Yazid recognised as heir, the step his critics never forgave.",
           "tag": "SUCCESSION",
-          "note": "al-Tabari; Hawting, 'The First Dynasty of Islam: The Umayyad Caliphate AD 661–750' (2nd ed. 2000).",
-          "keywords": ["Umayyad","Damascus","Muawiya"]
+          "note": "Hawting, 'The First Dynasty of Islam' (2nd ed. 2000). The Umayyad period is written almost entirely by their Abbasid-era enemies; the one substantial contemporary source is documentary — the papyri, the coins, and inscriptions such as the Muawiya dam text near Taif (677/78) and the bath inscription at Hammat Gader.",
+          "keywords": ["Umayyad","Damascus","Muawiya I"]
         },
         {
-          "id": "k4",
-          "group": "The Umayyads — Marwanids (684–705)",
+          "id": "k6",
+          "group": "The Umayyads — Sufyanids (661–684)",
           "dynasty": "Umayyad",
-          "label": "Abd al-Malik refounds the state",
-          "date": "685–705",
+          "label": "Yazid I, Karbala and the Second Fitna",
+          "date": "680–684",
           "loc": "Damascus",
           "coords": [
             33.51,
             36.29
           ],
-          "hint": "After the Second Fitna and Ibn al-Zubayr's rival caliphate at Mecca, Abd al-Malik rebuilt Umayyad power: an Arabic-language bureaucracy, a reformed aniconic gold and silver coinage, the Dome of the Rock, and al-Hajjaj's iron governorship of Iraq. The empire acquired a shape it kept for centuries.",
+          "hint": "Yazid's accession was met by Husayn's march on Kufa, which ended in the massacre at Karbala (680), and by the revolt of Medina, crushed with a sack of the city at al-Harra (683). His army then besieged Mecca, where the Kaaba burned. Yazid and his son Muawiya II died within months, and the Sufyanid line ended.",
           "tag": "SUCCESSION",
-          "note": "Robinson, 'Abd al-Malik' (2005); al-Baladhuri, 'Futuh al-Buldan'; the coinage and epigraphy discussed in Belief and Order.",
+          "note": "al-Tabari; the Karbala narrative descends from Abu Mikhnaf's 'Maqtal al-Husayn', a devotional-political text that shaped Shia liturgy — early but not disinterested. Al-Harra and the Kaaba fire are in the Zubayrid-friendly tradition.",
+          "keywords": ["Umayyad","Damascus","Yazid I","Karbala","Fitna","Muawiya II"]
+        },
+        {
+          "id": "k7",
+          "group": "The Umayyads — Marwanids (684–705)",
+          "dynasty": "Umayyad",
+          "label": "Marwan I and the Zubayrid war",
+          "date": "684–692",
+          "loc": "Damascus; against Mecca (Ibn al-Zubayr) and Kufa (al-Mukhtar)",
+          "coords": [
+            33.51,
+            36.29
+          ],
+          "hint": "With the Sufyanids gone, Abd Allah ibn al-Zubayr was acknowledged caliph across most of the empire from Mecca. The Syrian tribes chose Marwan of the other Umayyad branch, who won the Battle of Marj Rahit (684). His son then had to reconquer Iraq — from al-Mukhtar's pro-Alid Kufan regime and from the Zubayrids — before the empire was whole again.",
+          "tag": "SUCCESSION",
+          "note": "Rotter, 'Die Umayyaden und der zweite Bürgerkrieg' (1982); al-Tabari and al-Baladhuri. Ibn al-Zubayr's coins survive, giving a rare Umayyad-era documentary check on a contested reign.",
+          "keywords": ["Umayyad","Damascus","Mecca Ibn al-Zubayr","Kufa al-Mukhtar","Marwan I","Zubayrid"]
+        },
+        {
+          "id": "k8",
+          "group": "The Umayyads — Marwanids (684–705)",
+          "dynasty": "Umayyad",
+          "label": "Abd al-Malik refounds the state",
+          "date": "692–705",
+          "loc": "Damascus",
+          "coords": [
+            33.51,
+            36.29
+          ],
+          "hint": "After al-Hajjaj's siege killed Ibn al-Zubayr at Mecca in 692, Abd al-Malik rebuilt: an Arabic-language bureaucracy, a reformed aniconic gold and silver coinage, the Dome of the Rock, and al-Hajjaj installed as viceroy of the whole east. The empire took a form it kept for centuries.",
+          "tag": "SUCCESSION",
+          "note": "Robinson, 'Abd al-Malik' (2005). This reign is unusually well documented in physical evidence: the dated Dome of the Rock inscription (72 AH / 691–92), the coinage sequence, and the switch of the Egyptian papyrus protocol to Arabic.",
           "keywords": ["Umayyad","Damascus","Abd al-Malik","Ibn al-Zubayr","Dome of the Rock"]
         },
         {
-          "id": "k5",
+          "id": "k9",
           "group": "The Umayyads — Marwanids (705–743)",
           "dynasty": "Umayyad",
-          "label": "Al-Walid I to Hisham — the apogee",
-          "date": "705–743",
-          "loc": "Damascus; the Rusafa of Hisham",
+          "label": "Al-Walid I — the conquests at their limit",
+          "date": "705–715",
+          "loc": "Damascus",
+          "coords": [
+            33.51,
+            36.29
+          ],
+          "hint": "Under al-Walid, three fronts advanced at once: Tariq ibn Ziyad destroyed the Visigothic kingdom of Spain (711), Muhammad ibn al-Qasim took Sind (711), and Qutayba ibn Muslim conquered the Sogdian cities of Transoxiana. Al-Walid also built the Great Mosque of Damascus. It was the widest the empire ever reached under one campaign generation.",
+          "tag": "SUCCESSION",
+          "note": "al-Baladhuri; for Sind the later Persian 'Chachnama'. The Damascus mosque is dated by its own foundation inscription and by al-Muqaddasi's 10th-century description; the Barada mosaic panel is in situ.",
+          "keywords": ["Umayyad","Al-Walid I","Tariq ibn Ziyad","Muhammad ibn al-Qasim","Qutayba ibn Muslim","Mosque of Damascus"]
+        },
+        {
+          "id": "k10",
+          "group": "The Umayyads — Marwanids (705–743)",
+          "dynasty": "Umayyad",
+          "label": "Sulayman, Umar II and Yazid II",
+          "date": "715–724",
+          "loc": "Damascus; Ramla; the Rusafa",
+          "coords": [
+            33.51,
+            36.29
+          ],
+          "hint": "Sulayman staked everything on the second siege of Constantinople (717–718) and lost. His successor Umar II, the one Umayyad his enemies praised, tried to fix the tax injustice done to non-Arab converts and to end the ritual cursing of Ali. His early death and the reaction under Yazid II left the problem unsolved.",
+          "tag": "SUCCESSION",
+          "note": "the 'Fiscal Rescript of Umar II' (Gibb, 'Arabica' 1955) survives as a text in the later tradition; its authenticity and scope are disputed. Umar II's near-canonisation in Sunni memory makes his reign the hardest of the period to read straight.",
+          "keywords": ["Umayyad","Damascus","Ramla","Rusafa","Sulayman","Umar II"]
+        },
+        {
+          "id": "k11",
+          "group": "The Umayyads — Marwanids (705–743)",
+          "dynasty": "Umayyad",
+          "label": "Hisham — the long holding operation",
+          "date": "724–743",
+          "loc": "the Rusafa, on the Euphrates steppe",
           "coords": [
             35.63,
             38.75
           ],
-          "hint": "Under al-Walid I the empire reached its greatest extent — Iberia, Sind and Transoxiana all taken in a decade — and the Great Mosque of Damascus was built. Umar II (717–720) tried to fix the fiscal contradiction of a converting empire; Hisham (724–743) held the line as revolts multiplied.",
+          "hint": "Hisham governed for nineteen years from a steppe palace, squeezing revenue, stalling the frontiers and putting down revolt after revolt — Zayd ibn Ali's rising in Kufa (740), the Kharijites, and the great Berber revolt that broke Umayyad North Africa. Historians have called his reign the end of the 'jihad state', the moment expansion stopped paying for itself.",
           "tag": "SUCCESSION",
-          "note": "Hawting (2000); Blankinship, 'The End of the Jihad State: The Reign of Hisham ibn Abd al-Malik' (1994).",
-          "keywords": ["Umayyad","Rusafa of Hisham","Al-Walid I","Mosque of Damascus","Umar II"]
+          "note": "Blankinship, 'The End of the Jihad State: The Reign of Hisham' (1994) — the fullest modern treatment, arguing the fiscal-military model was already failing before the revolution. Sources: al-Tabari; the Rusafa (Sergiopolis) excavated.",
+          "keywords": ["Rusafa","Euphrates","Hisham","Zayd ibn Ali","Umayyad North Africa"]
         },
         {
-          "id": "k6",
+          "id": "k12",
           "group": "The Umayyads — Marwanids (705–743)",
           "dynasty": "Umayyad",
           "label": "The Third Fitna and the fall of the Umayyads",
-          "date": "744–750",
-          "loc": "Syria and Iraq; the river Zab",
+          "date": "743–750",
+          "loc": "Syria; Iraq; Harran; the river Zab",
           "coords": [
             35.95,
             43.35
           ],
-          "hint": "Civil war among the Umayyads themselves let a long-planned revolution surface in Khurasan. Under the black banners of the house of the Prophet, Abu Muslim's army swept west; the last Umayyad caliph Marwan II was beaten at the Zab in 750 and hunted down in Egypt.",
+          "hint": "Al-Walid II was murdered by his own family in 744, and the Syrian army destroyed itself in a Qays–Yaman civil war under three caliphs in two years. Marwan II moved the capital to Harran and held on until Abu Muslim's Khurasani army, marching under black banners for 'the family of the Prophet', beat him at the Zab in 750 and hunted him down in Egypt.",
           "tag": "DEPOSED",
-          "note": "al-Tabari; Sharon, 'Black Banners from the East' (1983); the Abbasid Revolution — continued in the next folio.",
-          "keywords": ["Umayyad","Syria","Iraq","Zab","Fitna","Umayyads"]
+          "note": "al-Tabari; Sharon, 'Black Banners from the East' (1983) and 'Revolt: The Social and Military Aspects of the Abbasid Revolution' (1990); Agha, 'The Revolution which Toppled the Umayyads' (2003), which stresses the Khurasani-Arab rather than mawali character of the movement.",
+          "keywords": ["Umayyad","Syria","Iraq","Harran","Zab","Fitna"]
         }
       ]
     },
@@ -130,55 +226,84 @@
       "entries": [
         {
           "id": "c1",
-          "group": "The Conquests",
-          "label": "Yarmuk and al-Qadisiyya",
-          "date": "636",
-          "loc": "the Yarmuk river (Syria); al-Qadisiyya (Iraq)",
+          "group": "The Ridda Wars",
+          "label": "The wars of apostasy",
+          "date": "632–633",
+          "loc": "Najd, Yamama, Oman, Yemen, Bahrain",
           "coords": [
-            32.72,
-            35.95
+            25.35,
+            45
           ],
-          "hint": "In a single year Arab armies destroyed the main field forces of both empires — the Byzantines on the Yarmuk, the Sassanians at al-Qadisiyya. Syria and Iraq fell open, and the conquest turned from raiding into the seizure of two of the richest regions on Earth.",
+          "hint": "On the Prophet's death much of Arabia repudiated Medina's authority, some following rival prophets — Musaylima in Yamama, Tulayha, the prophetess Sajah. Khalid ibn al-Walid's campaigns, above all the bloody Battle of Yamama, reconquered the peninsula in a year and turned a coalition of tribes back into a state.",
           "tag": "BATTLE",
-          "note": "al-Tabari; al-Baladhuri, 'Futuh al-Buldan'; Donner, 'The Early Islamic Conquests' (1981); Kaegi, 'Byzantium and the Early Islamic Conquests' (1992).",
-          "keywords": ["Yarmuk","Syria","al-Qadisiyya Iraq"],
-          "xlinks": ["lakhmid-268-602::w5"]
+          "note": "al-Tabari and al-Baladhuri, drawing on Sayf ibn Umar, whose Ridda narrative is the most detailed and the least trustworthy in the corpus (Donner, 'Narratives of Islamic Origins', 1998). The scale and even the framing of the 'apostasy' are debated.",
+          "xlinks": ["beth-qatraye-240-750::c2"],
+          "keywords": ["Najd","Yamama","Oman","Yemen","Bahrain","Khalid ibn al-Walid"]
         },
         {
           "id": "c2",
           "group": "The Conquests",
-          "label": "Nihawand — the end of Sassanid Persia",
-          "date": "642",
-          "loc": "Nihawand, western Iran",
+          "label": "Ajnadayn and Yarmuk — Byzantine Syria falls",
+          "date": "634–636",
+          "loc": "Ajnadayn (Palestine); the Yarmuk river",
+          "coords": [
+            32.72,
+            35.95
+          ],
+          "hint": "Two battles broke Byzantine Syria: Ajnadayn in 634 and, decisively, the six-day fight on the Yarmuk in 636, where a Byzantine field army was destroyed against the river gorges. Heraclius withdrew behind the Taurus, reportedly with the farewell 'Peace to you, Syria'.",
+          "tag": "BATTLE",
+          "note": "Kaegi, 'Byzantium and the Early Islamic Conquests' (1992), reconstructs the campaign critically against al-Tabari, al-Baladhuri and the Syriac chronicles (the 'Chronicle of 1234', dependent on the lost work of Theophilus of Edessa).",
+          "keywords": ["Ajnadayn Palestine","Yarmuk","Syria"]
+        },
+        {
+          "id": "c3",
+          "group": "The Conquests",
+          "label": "al-Qadisiyya, Jalula and Nihawand — the end of Sasanian Persia",
+          "date": "636–642",
+          "loc": "al-Qadisiyya and Jalula (Iraq); Nihawand (western Iran)",
           "coords": [
             34.19,
             48.37
           ],
-          "hint": "Called by the Arabs 'the Victory of Victories', Nihawand broke the last Sassanian army. The Persian court fled east; Yazdegerd III was murdered near Merv in 651. A 400-year empire was gone, and its administrative class went to work for the conquerors.",
+          "hint": "Al-Hira surrendered on the road; al-Qadisiyya (636) opened Ctesiphon and the Sawad; Jalula and then Nihawand (642), 'the Victory of Victories', broke the last imperial army. The Persian court fled east until Yazdegerd III was murdered near Merv in 651.",
           "tag": "BATTLE",
-          "note": "al-Tabari; Pourshariati, 'Decline and Fall of the Sasanian Empire' (2008).",
-          "keywords": ["Nihawand","Iran","Sassanid Persia","Arabs the Victory of Victories","Yazdegerd III"]
+          "note": "al-Tabari's Iraq narrative is mostly Sayf ibn Umar's, with its inflated numbers and invented units; the bare outcomes are secure, the details are not. Pourshariati, 'Decline and Fall of the Sasanian Empire' (2008), argues the Parthian noble houses' defection was decisive.",
+          "xlinks": ["lakhmid-268-602::w5"],
+          "keywords": ["al-Qadisiyya","Jalula Iraq","Nihawand","Iran","Sasanian Persia","Victory of Victories"]
         },
         {
-          "id": "c3",
-          "group": "The Fitnas",
-          "dynasty": "Rashidun",
-          "label": "Siffin, the arbitration and the birth of the Kharijites",
-          "date": "657",
-          "loc": "Siffin, on the upper Euphrates",
+          "id": "c4",
+          "group": "The Conquests",
+          "label": "The conquest of Egypt",
+          "date": "639–642",
+          "loc": "the fortress of Babylon (Cairo); Alexandria",
+          "coords": [
+            30.01,
+            31.3
+          ],
+          "hint": "Amr ibn al-As took Egypt with a small force against little Byzantine resistance: the fortress of Babylon fell in 641, Alexandria was surrendered by treaty in 642, and the garrison town of Fustat — the nucleus of Cairo — was founded beside the Nile. Egypt's grain now fed Arabia by canal and sea.",
+          "tag": "BATTLE",
+          "note": "the near-contemporary Coptic 'Chronicle of John of Nikiu' (survives only in a Ge'ez translation) is the best source; al-Baladhuri and the papyri (the Aphrodito archive of governor Qurra ibn Sharik, 709–714) fill in the administration. The 'burning of the Library of Alexandria' story is a 13th-century invention.",
+          "keywords": ["Babylon Cairo","Alexandria","Egypt","Amr ibn al-As"]
+        },
+        {
+          "id": "c5",
+          "group": "The First Fitna",
+          "label": "The Battle of the Camel and Siffin",
+          "date": "656–657",
+          "loc": "Basra (the Camel); Siffin, on the upper Euphrates",
           "coords": [
             35.95,
             39.02
           ],
-          "hint": "When Ali agreed to arbitrate his dispute with Muawiya rather than fight it out, a faction of his own army 'went out' (kharaju) in protest that judgement belonged to God alone. The Kharijites became early Islam's first sect defined by doctrine, and they killed Ali in 661.",
+          "hint": "The first war among Muslims: Ali defeated Aisha, Talha and al-Zubayr outside Basra in a battle named for the camel Aisha rode, then fought Muawiya to a standstill at Siffin. The agreement to submit the dispute to arbitrators split Ali's own army and created the Kharijites.",
           "tag": "CIVIL WAR",
-          "note": "al-Tabari; Hinds, 'The Siffin Arbitration Agreement', JSS (1972); the Kharijite/Ibadi tradition.",
-          "keywords": ["Rashidun","Siffin","Euphrates","Kharijites"]
+          "note": "Nasr ibn Muzahim al-Minqari's 'Waq'at Siffin' (d. 827) is the earliest connected account — Kufan and pro-Alid. al-Tabari supplements it. The number and even the fact of the arbitration's terms are contested in the tradition.",
+          "keywords": ["Basra the Camel","Siffin","Euphrates"]
         },
         {
-          "id": "c4",
-          "group": "The Fitnas",
-          "dynasty": "Umayyad",
+          "id": "c6",
+          "group": "The Second Fitna",
           "label": "Karbala",
           "date": "10 October 680",
           "loc": "Karbala, southern Iraq",
@@ -186,44 +311,91 @@
             32.62,
             44.03
           ],
-          "hint": "Husayn ibn Ali, the Prophet's grandson, was surrounded and killed with his family and companions by an Umayyad force while trying to reach Kufa. The massacre made the Shia a permanent community of mourning and opposition, and it triggered the Second Fitna.",
+          "hint": "Invited to Kufa and then abandoned by it, Husayn ibn Ali was surrounded by an Umayfad force on the desert plain of Karbala, cut off from the Euphrates, and killed with his male kin and companions; the women and the surviving child were taken to Damascus. The day, Ashura, became the central rite of Shia Islam.",
           "tag": "BATTLE",
-          "note": "al-Tabari; Abu Mikhnaf's 'Maqtal al-Husayn' (preserved in later works); the centrality of Ashura in Shia tradition.",
-          "keywords": ["Umayyad","Karbala","Iraq","Husayn ibn Ali"]
+          "note": "the account descends through Abu Mikhnaf's 'Maqtal al-Husayn', preserved in al-Tabari and in later devotional recensions that expanded it steadily. It is early evidence for the event and primary evidence for how the Shia community formed around its memory.",
+          "keywords": ["Karbala","Iraq","Husayn ibn Ali","Shia Islam"]
         },
         {
-          "id": "c5",
+          "id": "c7",
+          "group": "The Second Fitna",
+          "label": "al-Harra, the Kaaba fire, and al-Mukhtar",
+          "date": "683–687",
+          "loc": "Medina (al-Harra); Mecca; Kufa",
+          "coords": [
+            24.47,
+            39.61
+          ],
+          "hint": "The revolt of Medina ended in 683 with a three-day sack (al-Harra); the Umayyad siege of Mecca that followed left the Kaaba burned by fire from a catapult. In Kufa, al-Mukhtar seized the city in 685 in the name of a son of Ali, hunted down the men responsible for Karbala, and was killed in 687 by the Zubayrids.",
+          "tag": "CIVIL WAR",
+          "note": "al-Tabari, from the Kufan and Zubayrid traditions; al-Mukhtar is treated as a fraud by the Sunni sources and a proto-Shia hero by others. The physical damage to the Kaaba is confirmed by the rebuilding that Ibn al-Zubayr and then al-Hajjaj carried out.",
+          "keywords": ["Medina al-Harra","Mecca","Kufa","Kaaba","al-Mukhtar"]
+        },
+        {
+          "id": "c8",
           "group": "Byzantium",
+          "label": "The first siege of Constantinople",
+          "date": "674–678",
+          "loc": "the Sea of Marmara; Cyzicus",
+          "coords": [
+            41.01,
+            28.98
+          ],
           "dynasty": "Umayyad",
-          "label": "The two sieges of Constantinople",
-          "date": "674–678 and 717–718",
+          "hint": "Muawiya's fleets wintered at Cyzicus on the Marmara and pressed the capital for several seasons. The Arabic tradition is thin; the Byzantine account credits the invention of 'Greek fire' by a refugee named Kallinikos with breaking the campaign. The Arabs withdrew and agreed a thirty-year truce.",
+          "tag": "BATTLE",
+          "note": "Theophanes (d. 818), whose 7th-century material comes from a lost eastern Christian source (Theophilus of Edessa); Howard-Johnston and Jankowiak have questioned the traditional dating and even the coherence of a single 'siege'.",
+          "keywords": ["Umayyad","Sea of Marmara","Cyzicus","Constantinople"]
+        },
+        {
+          "id": "c9",
+          "group": "Byzantium",
+          "label": "The second siege of Constantinople",
+          "date": "717–718",
           "loc": "Constantinople",
           "coords": [
             41.01,
             28.98
           ],
-          "hint": "The Umayyads twice threw everything at the Byzantine capital. The second siege, under Maslama in 717–718, was broken by winter, a Bulgar attack and the incendiary 'Greek fire'. It marked the limit of the first Arab expansion in the west; Byzantium survived, halved but intact.",
+          "dynasty": "Umayyad",
+          "hint": "Maslama ibn Abd al-Malik brought an army and an enormous fleet against the walls in the autumn of 717. A hard winter, a Bulgar attack on the besiegers, defecting Egyptian crews and Greek fire destroyed it; the survivors straggled home in 718. It fixed the northern limit of the first Arab expansion.",
           "tag": "BATTLE",
-          "note": "Theophanes, 'Chronographia'; al-Tabari; the naval dimension and Greek fire (Haldon, 'Byzantium in the Seventh Century', 1990).",
-          "keywords": ["Umayyad","Constantinople"],
-          "xlinks": ["caliphate-750-945::c3"]
+          "note": "Theophanes and the 'Chronicle of 819'; the Umayfad court poet al-Farazdaq alludes to the disaster. Modern account: Guilland; Lilie, 'Die byzantinische Reaktion auf die Ausbreitung der Araber' (1976).",
+          "xlinks": ["caliphate-750-945::c4"],
+          "keywords": ["Umayyad","Constantinople","Maslama ibn Abd al-Malik"]
         },
         {
-          "id": "c6",
-          "group": "Revolts",
+          "id": "c10",
+          "group": "The Eastern Front",
+          "label": "Transoxiana and the Turgesh war",
+          "date": "705–740",
+          "loc": "Bukhara, Samarqand, the Zarafshan valley",
+          "coords": [
+            39.65,
+            66.96
+          ],
           "dynasty": "Umayyad",
+          "hint": "Qutayba ibn Muslim conquered the Sogdian city-states between 706 and 715, but the tax demands and the fiscal treatment of converts drove repeated revolts. The Turgesh Turkish confederation nearly rolled the Arabs back to the Oxus — the 'Day of Thirst' in 724 was a rout — before Nasr ibn Sayyar stabilised the frontier in the 740s.",
+          "tag": "BATTLE",
+          "note": "al-Tabari, largely from al-Mada'ini (d. 843), whose Khurasan reports are relatively sober; Gibb, 'The Arab Conquests in Central Asia' (1923), still the standard narrative. The Sogdian 'Mount Mugh' documents give a rare local-language check.",
+          "keywords": ["Umayyad","Bukhara","Samarqand","Zarafshan","Transoxiana","Qutayba ibn Muslim"]
+        },
+        {
+          "id": "c11",
+          "group": "Revolts",
           "label": "The Great Berber Revolt",
           "date": "740–743",
-          "loc": "North Africa and Iberia",
+          "loc": "the Maghreb; Tangier; the Sebou valley",
           "coords": [
             33.97,
             -6.85
           ],
-          "hint": "North African Berbers, most of them Muslim but taxed and enslaved as if they were not, rose under Kharijite banners and destroyed two Umayyad armies. It was the first major defeat of Umayyad forces by their own subjects and it broke Damascus's grip on the far west for good.",
+          "dynasty": "Umayyad",
+          "hint": "North African Berbers, most of them Muslim but taxed and enslaved as though they were not, rose under Kharijite banners. They wiped out an Umayyad army at the 'Battle of the Nobles' near Tangier (740) and a second, Syrian, army at the Bagdoura in 741. Umayyad authority never recovered west of Kairouan, and the revolt spilled into Spain.",
           "tag": "CIVIL WAR",
-          "note": "al-Tabari; Ibn Khaldun on the Berber revolts; the Kharijite element (Sufri and Ibadi).",
-          "keywords": ["Umayyad","North Africa","Iberia","Berber Revolt","North African Berbers"],
-          "xlinks": ["al-andalus-711-1031::c4"]
+          "note": "al-Tabari and the later North African compilers (Ibn Idhari, 'al-Bayan al-Mughrib', 13th c.); the Kharijite (Sufri and Ibadi) dimension is best seen through the Ibadi 'siyar' tradition. Cross-references the Al-Andalus 711–1031 folio.",
+          "xlinks": ["al-andalus-711-1031::c4"],
+          "keywords": ["Umayyad","Maghreb","Tangier","Sebou","Berber Revolt","North African Berbers"]
         }
       ]
     },
@@ -338,7 +510,7 @@
           ],
           "hint": "Uthman had an authoritative consonantal text compiled and copies sent to the garrison cities, with variant collections ordered destroyed. Whatever its exact process, this is the moment the Quran becomes a fixed, empire-wide book — confirmed by the early manuscripts (the Birmingham and Sanaa folios).",
           "tag": "TEXT",
-          "note": "al-Bukhari on the Uthmanic collection; the Sanaa palimpsest and the Birmingham Quran (radiocarbon 568–645); Sinai, 'The Qur'an: A Historical-Critical Introduction' (2017).",
+          "note": "The traditional account is in al-Bukhari's 'Sahih' (compiled c.850s, ~200 years after the event). The strongest evidence is physical: the Sanaa palimpsest (whose erased lower text preserves a non-Uthmanic recension), the Birmingham folios and the Codex Parisino-petropolitanus, radiocarbon-dated to the mid-7th century. Sinai, 'The Qur'an: A Historical-Critical Introduction' (2017), reviews the debate.",
           "keywords": ["Rashidun","Medina","Kufa","Basra","Damascus","Fustat"]
         },
         {
@@ -370,7 +542,7 @@
           ],
           "hint": "Abd al-Malik's shrine over the rock carries the earliest dated monumental Quranic inscriptions — texts affirming God's oneness and denying that God has a son, addressed pointedly at Christianity. The Marwanid caliphs styled themselves khalifat Allah, God's deputy on earth, not merely the Prophet's successor.",
           "tag": "MONUMENT",
-          "note": "the Dome of the Rock inscriptions (Grabar, 'The Shape of the Holy', 1996; Milwright, 'The Dome of the Rock and its Umayyad Mosaic Inscriptions', 2016); Crone & Hinds, 'God's Caliph' (1986).",
+          "note": "The primary evidence is the building and its mosaic inscription, dated 72 AH (691–92) — the earliest dated monumental Quranic text and a rare fixed point in Umayyad history. Grabar, 'The Shape of the Holy' (1996); Milwright, 'The Dome of the Rock and its Umayyad Mosaic Inscriptions' (2016). The khalifat Allah title is argued from coins, papyri and poetry, not the hostile Abbasid-era prose (Crone & Hinds, 'God's Caliph', 1986).",
           "keywords": ["Umayyad","Jerusalem the Haram al-Sharif","Dome of the Rock","God","Abd al-Malik"]
         },
         {
@@ -386,7 +558,7 @@
           ],
           "hint": "As the Companions died, reports of what the Prophet said and did began to be transmitted with a named chain of authorities (isnad). Ibn Shihab al-Zuhri (d. 742), working partly for the Umayyad court, was the first to gather this material systematically — the beginning of the hadith sciences.",
           "tag": "TEXT",
-          "note": "al-Zuhri and the early transmission (Motzki, 'The Origins of Islamic Jurisprudence', 2002); Cook, 'Early Muslim Dogma' (1981) on the source problems.",
+          "note": "al-Zuhri left no book; his material survives as quotations in al-Tabari, Ibn Ishaq and the hadith collections. Whether continuous isnad-backed transmission is as old as it claims is the field's central source-critical problem: Schacht (1950) dated it late; Motzki, 'The Origins of Islamic Jurisprudence' (2002), pushed it back toward al-Zuhri's generation with the isnad-cum-matn method.",
           "keywords": ["Umayyad","Medina","Basra","Syria","Ibn Shihab al-Zuhri"]
         },
         {
@@ -433,7 +605,7 @@
           ],
           "hint": "A Christian who had served in the Umayyad tax administration, John of Damascus wrote the first substantial Christian analysis of Islam, treating it as 'the heresy of the Ishmaelites' and supplying arguments Byzantine polemicists used for centuries. The empire's Christian majority was working out how to live under, and argue with, the new order.",
           "tag": "TEXT",
-          "note": "John of Damascus, 'On Heresies' ch. 100/101 ('The Heresy of the Ishmaelites'); Sahas, 'John of Damascus on Islam' (1972); Griffith, 'The Church in the Shadow of the Mosque' (2008).",
+          "note": "John of Damascus, 'On Heresies' ch. 100 — a genuinely contemporary insider (he served in the Umayyad fisc before entering Mar Saba c.706), which is rare for this period. Ed. Kotter; Sahas, 'John of Damascus on Islam' (1972); Griffith, 'The Church in the Shadow of the Mosque' (2008). The chapter's attribution to John himself is generally but not universally accepted.",
           "keywords": ["Mar Saba","Jerusalem","Umayyad","John of Damascus","Islam"]
         }
       ]
@@ -538,7 +710,7 @@
           ],
           "hint": "The Umayyad court kept rival panegyrists — Jarir, al-Farazdaq and the Christian al-Akhtal traded verse insults (naqaid) for a generation — while in the Hijaz the love lyric (ghazal) flourished and singers like Ibn Misjah and the mukhannath Tuways set poetry to modal song, founding classical Arabic music.",
           "tag": "LITERATURE",
-          "note": "the naqaid of Jarir and al-Farazdaq; the Hijazi ghazal (Umar ibn Abi Rabia); Kitab al-Aghani on Ibn Misjah, Ibn Surayj and Tuways; Sawa, 'Music Performance Practice in the Early Abbasid Era' for the tradition's later shape.",
+          "note": "From al-Isfahani's 'Kitab al-Aghani' (d. 967) — a vast anecdotal compilation written ~250 years after the Umayyad Hijaz it describes, rich but not documentary. The naqaid of Jarir and al-Farazdaq survive as an independently transmitted poetic corpus (ed. Bevan, 1905–12).",
           "keywords": ["Umayyad","Damascus","Mecca","Medina","Christian al-Akhtal","Ibn Misjah"]
         }
       ]
@@ -593,7 +765,7 @@
           ],
           "hint": "Urwa ibn al-Zubayr began collecting reports of the Prophet's campaigns (maghazi); Ibn Ishaq (d. 767) assembled them, with the pre-Islamic background and the Meccan preaching, into a continuous 'Life' (sira). It is the framework through which the origins of Islam have been told ever since.",
           "tag": "TEXT",
-          "note": "Ibn Ishaq's sira in Ibn Hisham's recension (Guillaume trans.); the maghazi tradition (Schoeler, 'The Biography of Muhammad', 2011).",
+          "note": "Ibn Ishaq (d. 767) wrote ~130 years after the events; his 'Sira' survives only in Ibn Hisham's edited recension (d. 833) and in al-Tabari's quotations of a different transmission line. Urwa ibn al-Zubayr's earlier maghazi material is recoverable only as fragments (Schoeler, 'The Biography of Muhammad', 2011).",
           "keywords": ["Medina","Baghdad","Prophet","Urwa ibn al-Zubayr","Ibn Ishaq"]
         },
         {
@@ -757,7 +929,7 @@
           ],
           "hint": "Egypt's state papyrus workshops supplied the whole empire's administration. Each roll opened with a printed header (protokollon) naming the caliph and the standard — first in Greek, from Abd al-Malik's time in Arabic — the origin of the word 'protocol' and of a vast documentary record now recovered from the sands.",
           "tag": "OBJECT",
-          "note": "the Arabic and bilingual papyri (the Aphrodito and Nessana archives; Sijpesteijn, 'Shaping a Muslim State', 2013).",
+          "note": "One of the few well-documented areas: the Greek, Coptic and Arabic papyri of Egypt — the Aphrodito archive of governor Qurra ibn Sharik (709–714), the Nessana papyri — show the administration working and its language shifting to Arabic under Abd al-Malik. Sijpesteijn, 'Shaping a Muslim State' (2013).",
           "keywords": ["Umayyad","Egypt","Damascus","Papyrus","Abd al-Malik"]
         },
         {
@@ -815,7 +987,7 @@
           ],
           "hint": "Umayyad–Byzantine relations were a routine of raids, tribute payments, prisoner exchanges and, remarkably, cultural loans: Byzantine emperors sent craftsmen and mosaic cubes for the mosques of Damascus and Medina. The two empires fought along a fixed line and did business across it.",
           "tag": "DIPLOMACY",
-          "note": "Theophanes and the Arabic sources on the truces and the mosaicists; the Umayyad–Byzantine relationship (Kaegi; El-Cheikh, 'Byzantium Viewed by the Arabs', 2004).",
+          "note": "The mosaicist loans rest on the Arabic sources (al-Tabari; later al-Muqaddasi on Damascus) and are plausible but not independently confirmed; the truces and tribute are in Theophanes. El-Cheikh, 'Byzantium Viewed by the Arabs' (2004).",
           "keywords": ["Umayyad","Constantinople","Damascus","Byzantium"]
         },
         {
@@ -1074,15 +1246,27 @@
       "events": [
         {
           "y": 632,
-          "y2": 644,
-          "l": "Abu Bakr and Umar",
+          "y2": 634,
+          "l": "Abu Bakr and the Ridda",
           "entryId": "k1"
         },
         {
-          "y": 644,
-          "y2": 661,
-          "l": "Uthman, Ali and the First Fitna",
+          "y": 634,
+          "y2": 644,
+          "l": "Umar — the conquest state",
           "entryId": "k2"
+        },
+        {
+          "y": 644,
+          "y2": 656,
+          "l": "Uthman — the recension and the revolt",
+          "entryId": "k3"
+        },
+        {
+          "y": 656,
+          "y2": 661,
+          "l": "Ali — the First Fitna",
+          "entryId": "k4"
         }
       ]
     },
@@ -1095,26 +1279,50 @@
         {
           "y": 661,
           "y2": 680,
-          "l": "Muawiya makes the caliphate a dynasty",
-          "entryId": "k3"
-        },
-        {
-          "y": 685,
-          "y2": 705,
-          "l": "Abd al-Malik refounds the state",
-          "entryId": "k4"
-        },
-        {
-          "y": 705,
-          "y2": 743,
-          "l": "Al-Walid I to Hisham — the apogee",
+          "l": "Muawiya I makes the caliphate a dynasty",
           "entryId": "k5"
         },
         {
-          "y": 744,
+          "y": 680,
+          "y2": 684,
+          "l": "Yazid I, Karbala and the Second Fitna",
+          "entryId": "k6"
+        },
+        {
+          "y": 684,
+          "y2": 692,
+          "l": "Marwan I and the Zubayrid war",
+          "entryId": "k7"
+        },
+        {
+          "y": 692,
+          "y2": 705,
+          "l": "Abd al-Malik refounds the state",
+          "entryId": "k8"
+        },
+        {
+          "y": 705,
+          "y2": 715,
+          "l": "Al-Walid I — the conquests at their limit",
+          "entryId": "k9"
+        },
+        {
+          "y": 715,
+          "y2": 724,
+          "l": "Sulayman, Umar II and Yazid II",
+          "entryId": "k10"
+        },
+        {
+          "y": 724,
+          "y2": 743,
+          "l": "Hisham — the long holding operation",
+          "entryId": "k11"
+        },
+        {
+          "y": 743,
           "y2": 750,
           "l": "The Third Fitna and the fall of the Umayyads",
-          "entryId": "k6"
+          "entryId": "k12"
         }
       ]
     },
@@ -1125,34 +1333,59 @@
       "label": "Conflict",
       "events": [
         {
-          "y": 636,
-          "l": "Yarmuk and al-Qadisiyya",
+          "y": 632,
+          "l": "The wars of apostasy",
           "entryId": "c1"
         },
         {
-          "y": 642,
-          "l": "Nihawand — the end of Sassanid Persia",
+          "y": 634,
+          "l": "Ajnadayn and Yarmuk — Byzantine Syria falls",
           "entryId": "c2"
         },
         {
-          "y": 657,
-          "l": "Siffin, the arbitration and the Kharijites",
+          "y": 636,
+          "l": "al-Qadisiyya, Jalula and Nihawand",
           "entryId": "c3"
+        },
+        {
+          "y": 639,
+          "l": "The conquest of Egypt",
+          "entryId": "c4"
+        },
+        {
+          "y": 656,
+          "l": "The Battle of the Camel and Siffin",
+          "entryId": "c5"
+        },
+        {
+          "y": 674,
+          "l": "The first siege of Constantinople",
+          "entryId": "c8"
         },
         {
           "y": 680,
           "l": "Karbala",
-          "entryId": "c4"
+          "entryId": "c6"
+        },
+        {
+          "y": 683,
+          "l": "al-Harra, the Kaaba fire, and al-Mukhtar",
+          "entryId": "c7"
+        },
+        {
+          "y": 705,
+          "l": "Transoxiana and the Turgesh war",
+          "entryId": "c10"
         },
         {
           "y": 717,
           "l": "The second siege of Constantinople",
-          "entryId": "c5"
+          "entryId": "c9"
         },
         {
           "y": 740,
           "l": "The Great Berber Revolt",
-          "entryId": "c6"
+          "entryId": "c11"
         }
       ]
     },
