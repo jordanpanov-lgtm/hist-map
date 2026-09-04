@@ -38,8 +38,10 @@ const MODULES = [
   { id:"caliphate-750-945",     file:"modules/caliphate-750-945.json",     label:"The Abbasid Caliphate 750–945", sub:"Baghdad, the Translation Movement and the House of Islam", region:"Near East", period:"Medieval" },
   { id:"caliphate-945-1258",    file:"modules/caliphate-945-1258.json",    label:"The Abbasid Caliphate 945–1258", sub:"The Age of Sultans, the Sunni Revival and the Mongol Sack", region:"Near East", period:"Medieval" },
   { id:"fatimids-909-1171",     file:"modules/fatimids-909-1171.json",     label:"The Fatimid Caliphate 909–1171", sub:"The Ismaili Counter-Caliphate, Cairo and the Red Sea World", region:"Egypt", period:"Medieval" },
-  // PLANNED — successor territorial empires (region:"Near East"): mamluks-1250-1517 (carries the
-  //   Genoese/Venetian Black Sea slave trade), ottomans-*, and safavid-iran / mughals under their zones.
+  { id:"ayyubids-1171-1250",    file:"modules/ayyubids-1171-1250.json",    label:"The Ayyubid Sultanate 1171–1250", sub:"Saladin's Confederation, the Sunnisation of Egypt and the Crusades", region:"Egypt", period:"Medieval" },
+  // PLANNED — successor territorial empires: mamluks-1250-1517 (region:"Egypt" — carries the mature
+  //   Genoese/Venetian Black Sea slave trade), ottomans-* (region:"Near East"), and safavid-iran /
+  //   mughals under their zones.
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },
