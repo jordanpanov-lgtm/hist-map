@@ -454,54 +454,55 @@ Modern folios inevitably cover politically live territory. Follow these rules:
 
 ---
 
-## 🕌 Gulf & Arabian Peninsula Folios — the shared-entity rule
+## 🏛️ Imperial entities that span several folios (Rome, the Caliphate, and future empires)
 
-The Gulf littoral (the six modern GCC states: Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, Oman)
-has **one shared past and six recent states**. Modern borders are treaty lines drawn 1913–1974;
-every polity, trade sphere and archaeological horizon before that cuts across them. Folio
-boundaries therefore follow **the dominant polity or material-culture horizon of each era, never
-the modern map**.
+Some entities are too large in space and time for one folio and get a **run of folios** instead
+(Rome → three; the Caliphate → three). Two rules govern them:
 
-### Rule 1 — pre-national eras get ONE folio each, named for the era's entity
+- **Region.** Use the **top-level region ID** (`"Europe"`, `"Near East"`, `"Far East"`…), chosen by
+  the institution's *core*, not its maximum extent — see the "Exception rule" under the Region
+  Taxonomy above. A moving capital does not change this: the Caliphate is `"Near East"` whether the
+  caliph sits in Medina, Damascus or Baghdad.
+- **Centre vs. periphery — division of labour.** The imperial folio carries the **institution** (the
+  ruler and succession, the central administration, the army, the court, and whatever cultural /
+  religious / economic history radiates from the centre). A **regional folio** covering one of the
+  empire's provinces tells that province's *own* story and does **not** re-narrate the empire — it
+  carries an entry or two on the imperial relationship and `xlinks` up to the imperial folio.
+  Al-Andalus, the Gulf folios and (later) Egypt / Khurasan / the Levant are regional branches of the
+  Caliphate story in exactly this sense. The imperial folios become xlink hubs, the way the Rome
+  folios already are for the late-antique Mediterranean.
+- **Where to stop.** End the run when the polity stops being a functioning state, even if the title
+  persists. Rome stops at 500 and lets Byzantium be implied; the Caliphate stops at 1258 and the
+  residual Cairo / Ottoman caliphate becomes coda entries in the successor folios.
 
-| Era | Folio entity | Covers (modern) |
-|---|---|---|
-| Neolithic–Chalcolithic | Prehistoric Eastern Arabia | Gulf coast: Bahrain, E. Saudi, Qatar, Kuwait (Failaka), UAE, N. Oman |
-| Bronze Age, Gulf | **Dilmun** | Bahrain, E. Saudi (Eastern Province), Failaka (Kuwait), Tarut |
-| Bronze–Iron Age, SE Arabia | **Magan** | Oman + UAE (copper, Umm an-Nar, Wadi Suq, *aflaj* irrigation) |
-| Hellenistic–Parthian | **Tylos & Mleiha** | Bahrain (Tylos), UAE/N. Oman (Mleiha–ed-Dur kingdom), Gerrha |
-| Late Antique | **Sasanian Gulf / Beth Qatraye** | Sasanian Mazun (Oman), Church-of-the-East province of NE Arabia (Qatar, Bahrain, UAE islands) |
-| Early Islamic | **Islamic Eastern Arabia & the Qarmatians** | al-Ahsa, Bahrain, Qatif, Oman's first Ibadi Imamate |
-| High Medieval | **Kingdom of Hormuz & Eastern Arabia** | both Gulf shores; Uyunid–Usfurid–Jarwanid–Jabrid dynasties; Julfar (RAK) |
-| 16th–17th c. | **The Portuguese Gulf** | Hormuz, Muscat, Bahrain, Julfar, Khor Fakkan; Ottoman & Safavid counter-moves |
-| 17th–early 19th c. | **Oman, the Bani Utbah & the Gulf** | Ya'ruba/Busaidi Oman; founding of Al Sabah (Kuwait) & Al Khalifa (Bahrain); the Qawasim; first Saudi state in al-Hasa |
-| 1820–1971 | **The Trucial States & the British Gulf** | the maritime-truce system over the Trucial Coast, Bahrain, Qatar, Kuwait, Muscat; pearl boom & 1929 bust; oil concessions; 1971 withdrawal |
+---
 
-The Dilmun / Magan split is **load-bearing** — eastern Arabia (Dilmun sphere, Mesopotamia-facing)
-and the Oman peninsula (Magan sphere, copper and Indian-Ocean-facing) are genuinely different
-societies in the Bronze Age and must not be merged into a generic "Gulf" folio. They converge only
-from the Hellenistic period on.
+## 🕌 Gulf & Arabian Peninsula Folios
 
-### Rule 2 — each modern nation-state gets its own Modern folio
+The Gulf littoral (the six modern GCC states) has **one shared past and six recent states**. Modern
+borders are treaty lines drawn 1913–1974; every polity, trade sphere and archaeological horizon
+before that cuts across them. So: **each pre-national era is one folio, named for its dominant
+polity or material-culture horizon, never for the modern map**; and **each modern nation-state gets
+its own folio from its independence**, where the shared pre-independence folio hands off.
 
-Built at independence, not before: `uae-1971-today`, `kuwait-1961-today`, `bahrain-1971-today`,
-`qatar-1971-today`, `oman-1970-today` (the 1970 palace coup is the natural start), and
-`saudi-arabia-1932-today` (unification; a `saudi-arabia-1744-1932` folio covers the first two Saudi
-states). The pre-1971 shared folios carry the story up to each state's independence; the modern
-folio picks it up there. Follow all the `period_label:"Modern"` rules in the section above.
+The **Dilmun / Magan split is load-bearing** — eastern Arabia (Dilmun sphere, Mesopotamia-facing)
+and the Oman peninsula (Magan sphere, copper- and Indian-Ocean-facing) are genuinely different
+Bronze Age societies and must not be merged into a generic "Gulf" folio; they converge only from
+the Hellenistic period. The same caution applies wherever two regions share a coast but not a
+history.
 
-### Rule 3 — region and coordinates
+### Region and coordinates
 
-- `region` is **`Arabia`** for every folio in this list (the finest zone in `config/regions.js`
-  covering the peninsula and Gulf). There is no finer zone; do not invent one.
-- The Kingdom of Hormuz and the Portuguese Gulf straddle the **Persian shore** (Hormuz island,
-  Bandar Abbas, Lingeh). Keep `region:"Arabia"` — the eastern-Arabian coast carries more of each
-  folio's weight — but place individual `coords` on the actual (sometimes Iranian) site and say so
-  in `loc`.
+- `region` is **`Arabia`** for every Gulf folio (the finest zone in `config/regions.js` covering the
+  peninsula and Gulf; there is no finer zone, do not invent one).
+- Entities that straddle the **Persian shore** (the Kingdom of Hormuz, the Portuguese Gulf — Hormuz
+  island, Bandar Abbas, Lingeh) still take `region:"Arabia"` when the eastern-Arabian coast carries
+  more of the folio's weight, but individual `coords` go on the actual (sometimes Iranian) site,
+  noted in `loc`.
 - `mapCenter`: the Gulf itself (~26.0 N, 51.5 E) for folios spanning both shores; the entity's
-  heartland (Bahrain ~26.1/50.5, inner Oman ~23.0/57.5, Abu Dhabi ~24.4/54.4) for the rest.
+  heartland otherwise.
 
-### Rule 4 — Gulf-specific taxonomy notes
+### Gulf-specific taxonomy notes
 
 - **Power, pre-state horizons** — Dilmun and Magan have no king-lists; use point-dated `EVIDENCE`
   entries for culture-phases (Hafit, Umm an-Nar, Wadi Suq, Barbar temple periods) exactly as
@@ -523,7 +524,7 @@ folio picks it up there. Follow all the `period_label:"Modern"` rules in the sec
 - **Conflict** — use named groups: `Ridda Wars`, `Qarmatian Campaigns`, `Portuguese–Ottoman Naval
   War`, `Qawasim–British Wars`, `Saudi–Omani Wars`, `Buraimi Dispute`.
 
-### Rule 5 — historiographic discipline for the Gulf
+### Historiographic discipline for the Gulf
 
 - **Reject the "empty desert before oil" narrative.** Pre-oil Gulf society was urban, literate,
   monetised and globally connected (pearl merchants banking in Bombay, Hormuz coining money,
