@@ -1,0 +1,664 @@
+{
+  "nodes": [
+    {
+      "id": "ext1",
+      "lane": "external",
+      "year": 1050,
+      "label": "Al-Andalus and the taifa kingdoms",
+      "full": "Al-Andalus after the caliphate: the taifa kingdoms and their Almoravid and Almohad successors. They pay the parias tribute in gold, hire and shelter Christian warriors such as El Cid, lose Toledo and Valencia, and — when pressed — call in the armies of Morocco.",
+      "src": "background — Wasserstein, 'The Rise and Fall of the Party-Kings' (1985); Kennedy, 'Muslim Spain and Portugal' (1996)",
+      "external": true
+    },
+    {
+      "id": "ext2",
+      "lane": "external",
+      "year": 1100,
+      "label": "Rome and Cluny",
+      "full": "The reforming papacy of Gregory VII and Innocent III and the Burgundian abbey of Cluny: they press the Spanish church into the Roman rite, send monks and architecture along the Camino, and grant the Iberian campaigns the status and finance of a crusade.",
+      "src": "background — O'Callaghan, 'Reconquest and Crusade in Medieval Spain' (2003); Bishko (1969)",
+      "external": true
+    },
+    {
+      "id": "k1",
+      "lane": "power",
+      "year": 722,
+      "label": "Pelayo — founder of Asturias",
+      "full": "Pelayo (Pelagius) founds the Kingdom of Asturias after defeating a Muslim force at Covadonga (c.722) — the battle is later magnified into the founding moment of the Reconquista; the earliest primary sources are from Alfonso III's court (866–910), 150 years later; Covadonga is as much myth as history.",
+      "src": "Chronicle of Alfonso III (c.910): primary source — but 150 years after the events, ideologically motivated. The Battle of Covadonga: dated c.718–722 in scholarship (Collins, Reconquista debate). Britannica: 'the stories and relics of Pelayo belong to legend rather than fact; it was in this legendary guise that he became an important symbol'. Linehan (1993), History and the Historians of Medieval Spain: critiques the source tradition."
+    },
+    {
+      "id": "k2",
+      "lane": "power",
+      "year": 815,
+      "label": "Alfonso II — the Chaste and Santiago de Compostela",
+      "full": "Alfonso II builds the original Santiago de Compostela cathedral over the supposed tomb of St James — the discovery is traditionally dated to 813 but most historians place it 820–830; the earliest surviving royal charter endorsing the tomb dates to 829 or 834; Alfonso makes the first royal journey from Oviedo and establishes the cult that becomes medieval Europe's most important pilgrimage.",
+      "src": "Alfonso II's construction programme: documented in chronicles. The discovery date: traditionally 813 but most historians place it 820–830 — the earliest surviving charter (829 or 834) is the documentary anchor. Moralejo (1985) on Asturian architecture. The first royal pilgrimage: documented in chronicles as Alfonso II's journey from Oviedo. Linehan (1993): sceptical analysis of the source tradition. Santiago Cathedral: UNESCO World Heritage (1985)."
+    },
+    {
+      "id": "k6",
+      "lane": "power",
+      "year": 1020,
+      "label": "Sancho III the Great — and the birth of Castile and Aragon",
+      "full": "Sancho III of Pamplona is the most powerful Christian monarch in early 11th-century Iberia — his hegemony extends over Castile, Aragon, Sobrarbe and Ribagorza; at his death in 1035 he divides his realm between sons, making Castile an independent kingdom (García) and Aragon a kingdom (Ramiro I) for the first time; the partition directly creates the political geography of medieval Spain.",
+      "src": "Sancho III's partition: his testament (1035) — AHN. The creation of the Kingdom of Castile: García receives Castile as a kingdom (not a county). The creation of the Kingdom of Aragon: Ramiro I. Menéndez Pidal (1950), La España del Cid: contextualises Sancho's hegemony. Linehan (1993), History and the Historians of Medieval Spain: the standard critical survey. Sancho III's importance: without this partition, Castile and Aragon do not exist as the political units that shape subsequent Iberian history."
+    },
+    {
+      "id": "k3",
+      "lane": "power",
+      "year": 1085,
+      "label": "Alfonso VI — Toledo reconquered (1085)",
+      "full": "Alfonso VI of León and Castile reconquers Toledo on 25 May 1085 — the first major Muslim city taken in the Reconquista, the old Visigothic capital; the Christian world celebrates; the shocked Muslim taifas invite the Almoravids from Morocco, who reverse many gains.",
+      "src": "The reconquest of Toledo 25 May 1085: documented in both Christian chronicles and Arabic sources. The Almoravid invitation: ibn Idhari, al-Bayan al-Mughrib. Alfonso VI's title 'Emperor of all Spain': documented in royal charters (Archivo de la Catedral de Toledo). El Cid's relationship with Alfonso VI: documented in the Chronica Adefonsi Imperatoris. Barton & Fletcher (2000), The World of El Cid."
+    },
+    {
+      "id": "k4",
+      "lane": "power",
+      "year": 1200,
+      "label": "Alfonso VIII — Las Navas de Tolosa (1212)",
+      "full": "Alfonso VIII leads a coalition of Castile, Aragon, Navarre and Portugal to decisive victory over the Almohad Caliphate at Las Navas de Tolosa on 16 July 1212 — the turning point of the Reconquista; within 40 years Córdoba, Seville and Valencia fall; the Almohad empire collapses.",
+      "src": "The battle 16 Jul 1212: documented in Archbishop Rodrigo Jiménez de Rada, De Rebus Hispaniae (c.1243) — primary Castilian source; he was present. Arabic sources: Ibn Abi Zar, Rawdh al-Qirtas. Alfonso VIII's correspondence with Pope Innocent III requesting a crusade: Vatican Archives. Lomax (1978), The Reconquista of Spain: the standard English study."
+    },
+    {
+      "id": "k5",
+      "lane": "power",
+      "year": 1230,
+      "label": "Ferdinand III — the 1230 union that ends this era",
+      "full": "When his uncle Alfonso IX of León dies in 1230, Ferdinand III inherits both crowns — the permanent union of Castile and León ends seventy years of dynastic rivalry; it is the foundational political act that enables the rapid reconquest of Córdoba (1236) and Seville (1248) within the next two decades.",
+      "src": "The union of Castile and León 1230: Treaty of Benavente — documented in royal archives. The preceding split: Alfonso VII's division between Sancho III (Castile) and Fernando II (León) in 1157 — documented in his testament. González (1980), Fernando III el Santo Vol.I: the standard biography. The union's immediate military consequence: Fernando now commands the combined resources of both kingdoms for the southern campaigns."
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": 722,
+      "label": "Battle of Covadonga — the founding myth",
+      "full": "Pelayo's victory at Covadonga — the scale is disputed: the Chronicle of 754 (the most contemporary Christian source) does not mention Covadonga, Pelayo, or the battle at all; it is entirely silent on the Asturian rebellion. The description of a minor skirmish ('thirty wild asses in the hills') comes from later Arabic chronicles such as Ibn Hayyan; the Asturian chronicles of Alfonso III's court (c.910) then inflate it into a providential founding.",
+      "src": "Chronicle of 754 (Mozarabic Chronicle): primary — silent on Covadonga entirely. The 'wild asses' description: Arabic chronicles (al-Maqqari drawing on Ibn Hayyan) — not the Chronicle of 754 as commonly misattributed. Chronicle of Alfonso III (c.910): inflates it as a providential founding — 150 years after the event. Collins (1989), The Arab Conquest of Spain: analyses the source discrepancy carefully. Linehan (1993), History and the Historians of Medieval Spain ch.1: the standard critique of the source tradition."
+    },
+    {
+      "id": "c2",
+      "lane": "conflict",
+      "year": 1094,
+      "label": "El Cid takes Valencia (1094)",
+      "full": "Rodrigo Díaz de Vivar (El Cid) captures Valencia in June 1094 and rules it independently until his death in 1099 — a Christian warrior sometimes fighting for Muslim rulers against Christians; his career is the clearest example of the Reconquista's complexity; his widow Jimena holds Valencia two more years.",
+      "src": "Carmen Campidoctoris (c.1090s): the earliest Latin poem about El Cid — near-contemporary evidence. Historia Roderici (c.1110): the primary Latin biography. The Cantar de Mio Cid (c.1207): the literary account — manuscript Biblioteca Nacional de España, Vitr.7-17. Fletcher (1989), The Quest for El Cid: uses the Historia Roderici as the primary source. Valencia falls back to the Almoravids 1102 — three years after El Cid's death."
+    },
+    {
+      "id": "c3",
+      "lane": "conflict",
+      "year": 1212,
+      "label": "Battle of Las Navas de Tolosa — the turning point",
+      "full": "The combined Christian kingdoms defeat the Almohad Caliph al-Nasir — estimates of dead range from 2,000 to 100,000 (sources vary wildly); within a generation the Almohad empire collapses; the battle opens Andalusia to Christian reconquest.",
+      "src": "Archbishop Rodrigo Jiménez de Rada, De Rebus Hispaniae (c.1243): eyewitness account — he was present and coordinated the coalition. Pope Innocent III's letter of congratulation: Vatican Archives. Arabic sources: Ibn Abi Zar. Casualty figures: impossible to verify — the wildly varying numbers document medieval tendencies in military reporting. The captured Almohad standard: reportedly sent to Las Huelgas monastery, Burgos (where it survives)."
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 1020,
+      "label": "Fueros — the municipal charters of Christian Spain",
+      "full": "The fueros (municipal charters) granted to repopulated frontier towns from the 11th century onwards give towns significant autonomy and legal rights — the Fuero of León (1017/1020) is among the earliest; they are the primary legal evidence for the organisation of Reconquista society.",
+      "src": "Fuero of León (1017/1020): Archivo de la Catedral de León — primary text, digitised. Fuero de Jaca (c.1063): also early. García de Valdeavellano (1968), Historia de España Vol.I: the standard survey of the fuero system. The fueros' long-term importance: the Cádiz Constitution debates (1810) explicitly invoke the fuero tradition. They are among the earliest documents of representative governance in Western Europe."
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 1100,
+      "label": "Santiago de Compostela Cathedral — the Romanesque primary source",
+      "full": "Construction of the Cathedral of Santiago de Compostela begins in 1075 under Bishop Diego Peláez and the Pilgrim's Guide (c.1139) is the first European tourist guide — documenting the pilgrimage routes, shrines and hostels; the Codex Calixtinus (c.1160) contains the earliest polyphonic Western music.",
+      "src": "UNESCO World Heritage (1985). Building begun 1075: documented in the Chronicon Compostellanum. Pilgrim's Guide (Liber V of Codex Calixtinus, c.1139): BnF and Archivo de la Catedral de Santiago — the first European travel guide. The Codex Calixtinus (c.1160): Archivo de la Catedral de Santiago — stolen 2011, recovered 2012. Moralejo et al. (1992), Liber Sancti Jacobi: the standard edition."
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 1157,
+      "label": "Alfonso VII's partition — the Castilian-Leonese split (1157)",
+      "full": "When Alfonso VII 'the Emperor' dies in 1157 he divides his realm between his two sons — Castile to Sancho III and León to Fernando II; the resulting 73-year separation produces rival kingdoms, border wars, distinct legal traditions, and the complex dynastic manoeuvring that culminates in the 1230 reunion under Ferdinand III.",
+      "src": "Alfonso VII's testament (1157): documented in royal archive. The subsequent border wars between Castile and León: documented in chronicles. The legal divergence: separate fueros, separate Cortes, separate military commands — all documented in AHN. Linehan (1993): analyses the split's long-term consequences. The 73-year separation is the essential context for understanding both the Battle of Las Navas (a joint effort despite rivalry) and the 1230 union's significance."
+    },
+    {
+      "id": "o4",
+      "lane": "order",
+      "year": 950,
+      "label": "Basque and Navarrese fueros — self-governing charters before Castile",
+      "full": "The Basque provinces and Navarre maintain their own fueros (ancestral charters) independent of Castilian law — separate fiscal systems, customs borders, and regional assemblies including the General Assembly under the Tree of Guernica; their self-governing institutions predate and persist alongside the Christian kingdoms' centralising tendencies.",
+      "src": "The Fuero of Vizcaya (Fuero Viejo, c.1452 compilation of older custom): Archivo Foral de Bizkaia. The Navarrese Fuero General (13th c. compilation): Archivo General de Navarra. The General Assembly of Vizcaya under the Tree of Guernica: documented from 13th century — Archivo Foral. Monreal Zia (1977), Las instituciones públicas del señorío de Vizcaya: the standard study. García-Gallo (1956), 'El derecho foral como derecho regional': the comparative legal study. The fueros' survival through the Carlist Wars into the late 19th century: documented — their abolition (1876) is the grievance that drives Basque nationalism."
+    },
+    {
+      "id": "r1",
+      "lane": "belief",
+      "year": 900,
+      "label": "The Camino de Santiago — pilgrimage as geopolitical act",
+      "full": "The discovery of St James's tomb c.830 creates the most important pilgrimage route in medieval Europe — by the 11th century 500,000 pilgrims annually; the route brings French Romanesque architecture, monastic reform (Cluny), new settlement patterns and pan-European cultural contact.",
+      "src": "The discovery narrative: Alfonso II's letter (c.830). The Pilgrim's Guide c.1139: first documented tourist guide in Europe (Liber V of Codex Calixtinus). Pilgrimage numbers: Valiña Sampedro (1971) estimates. The Cluniac reform connection: documented in papal correspondence (Vatican Archives). The route's physical evidence: documented archaeological finds along the Camino. UNESCO World Heritage (1993)."
+    },
+    {
+      "id": "r2",
+      "lane": "belief",
+      "year": 1170,
+      "label": "Military orders — knights of Santiago, Calatrava, Alcántara",
+      "full": "Three Iberian military orders are founded in 60 years — the Order of Calatrava (1158), Order of Santiago (1170) and Order of Alcántara (c.1176); they combine monastery and castle, hold frontier zones, and become major landowners; their archives are primary sources for the Reconquista's social organisation.",
+      "src": "Order of Calatrava: founded by Abbot Raimundo of Fitero (1158), confirmed by Pope Alexander III (1164) — papal bull in Vatican Archives. Order of Santiago: papal confirmation 1175 — Vatican Archives. O'Callaghan (1975), The Spanish Military Order of Calatrava: the standard study. The orders' archives: Archivo Histórico Nacional, Madrid (Sección de Órdenes Militares)."
+    },
+    {
+      "id": "a5",
+      "lane": "expression",
+      "year": 940,
+      "label": "Beatus of Liébana manuscripts — Christian art under Islam",
+      "full": "The illuminated Beatus manuscripts — commentaries on the Apocalypse by Beatus of Liébana (c.776, Asturian monk) — are copied and painted in the scriptoria of the Northern Christian Kingdoms (San Miguel de Escalada, Tábara, Valeránica); their vivid colours and flat figures document a Christian artistic tradition shaped by Mozarabic aesthetic influence; they are the primary art of the Christian north, not of Al-Andalus.",
+      "src": "UNESCO Memory of the World (2015). The Morgan Beatus (c.940–945): Pierpont Morgan Library, New York (MS M.644) — made at San Miguel de Escalada, León. The Girona Beatus (975): Cathedral Archive of Girona — made at the monastery of Tábara, Zamora. Williams (1994–2003), The Illustrated Beatus: A Corpus (5 vols): the complete catalogue. The manuscripts' northern Christian origin: the scriptoria of León and Castile, not Al-Andalus. The Mozarabic aesthetic influence: documented in Williams — eastern Mediterranean visual language absorbed through contact with Mozarab refugees from the south."
+    },
+    {
+      "id": "a1",
+      "lane": "expression",
+      "year": 848,
+      "label": "Santa María del Naranco (848) — Ramiro I's pre-Romanesque palace",
+      "full": "Santa María del Naranco was built by Ramiro I of Asturias (r.842–850), not Alfonso I — the dedication stone altar inside the building dates its completion to June 848; originally a royal hall converted to a church, it is the finest surviving pre-Romanesque building in Spain.",
+      "src": "Extant (UNESCO 1985). Dedication stone altar: in situ — dates completion to June 848 during Ramiro I's reign. Schlunk & Berenguer (1957), La pintura mural asturiana: the standard architectural study. The Alfonso I confusion: a common error in older literature; the dedicatory evidence clearly assigns the building to Ramiro I. The palace-to-church conversion: documented in later medieval sources."
+    },
+    {
+      "id": "a3",
+      "lane": "expression",
+      "year": 1160,
+      "label": "Codex Calixtinus — earliest three-part polyphony and the pilgrimage songs",
+      "full": "The Codex Calixtinus (c.1160) contains 20 polyphonic compositions including Congaudeant catholici — the earliest surviving example of three-part (triplum) polyphony in Western music; earlier polyphony exists (Musica enchiriadis c.900; Winchester Troper c.1000) but the Codex Calixtinus is the earliest source of three independent vocal parts.",
+      "src": "HARD ANCHOR: Codex Calixtinus (c.1160): Archivo de la Catedral de Santiago de Compostela — returned after theft and recovery 2011–2012. Moralejo et al. (1992), Liber Sancti Jacobi: critical edition. Congaudeant catholici: identified as the earliest three-part polyphony in Western music — not the earliest polyphony overall (the Musica enchiriadis c.900 and Winchester Troper c.1000 are earlier). Stones (2011), A Manuscript of the Codex Calixtinus: the standard musicological study."
+    },
+    {
+      "id": "a4",
+      "lane": "expression",
+      "year": 1188,
+      "label": "Pórtico de la Gloria — the pinnacle of Romanesque sculpture",
+      "full": "Master Mateo's Pórtico de la Gloria (completed 1188) is the absolute pinnacle of Romanesque sculpture in Europe — three arched portals with over 200 carved figures showing the Last Judgement; the transition from rigid Romanesque formalism to the naturalism of Gothic sculpture is visible in a single composition; the central column shows Mateo himself kneeling, with his self-portrait still visible.",
+      "src": "HARD ANCHOR: Pórtico de la Gloria (completed 1188): in situ, Santiago de Compostela Cathedral. The dedication inscription: dated 1 April 1188, documenting completion under King Ferdinand II of León and Master Mateo's authorship. Castiñeiras (2011), El Pórtico de la Gloria: the standard modern study. Master Mateo's stone self-portrait (the 'Santo dos Croques'): documented. The recent restoration (Fundación Pedro Barrié de la Maza, 2018): revealed original polychrome paint. UNESCO World Heritage (part of Cathedral, 1985)."
+    },
+    {
+      "id": "a2",
+      "lane": "expression",
+      "year": 1207,
+      "label": "Cantar de Mio Cid — the first Spanish epic",
+      "full": "The Cantar de Mio Cid is the earliest surviving major literary text in Castilian Spanish — the single surviving physical manuscript dates to the 14th century (c.1320–1330); the colophon records the date 1207 (Era 1245) as when Per Abbat copied a lost archetype, not as the date of the surviving manuscript.",
+      "src": "The surviving manuscript (14th c., c.1320–1330): Biblioteca Nacional de España, Vitr.7-17. The colophon date 1207: Per Abbat's copy of a lost original — the surviving manuscript is a copy of that copy. Menéndez Pidal (1908, 1944): the standard critical editions. Smith (1983), The Making of the Poema de Mio Cid: the standard English study. The poem's historical reliability: it post-dates El Cid by ~100 years and the surviving manuscript by a further century."
+    },
+    {
+      "id": "t3",
+      "lane": "thought",
+      "year": 910,
+      "label": "Neogothicism — the ideology of the Reconquista",
+      "full": "The Chronicle of Alfonso III (c.910) constructs Neogothicism — the doctrine that the Asturian kings are the direct heirs to the Visigothic Kingdom of Toledo, giving them a providential duty to 'restore' lost Hispania; this ideology is the theological and political engine of the Reconquista, distinct from mere territorial defence.",
+      "src": "Chronicle of Alfonso III (c.910): Real Academia de la Historia — the primary document of Neogothic ideology. The Visigothic genealogy claim: Pelayo presented as a Gothic nobleman. The 'restoration' language: documented throughout the chronicle. Linehan (1993), History and the Historians of Medieval Spain ch.1–2: the standard critique of Neogothicism as constructed ideology. O'Callaghan (2003), Reconquest and Crusade: analyses Neogothicism alongside Crusading ideology as the two theological frameworks of the Reconquista."
+    },
+    {
+      "id": "t1",
+      "lane": "thought",
+      "year": 1150,
+      "label": "Toledo school of translators — Arabic science reaches Europe",
+      "full": "After Toledo's reconquest (1085) a wave of European scholars come to translate Arabic philosophy and science into Latin — Aristotle, Ptolemy, Avicenna, al-Zahrawi, al-Khwarizmi; Gerard of Cremona alone translates 87 works; this transmission is how ancient Greek thought reaches medieval Europe.",
+      "src": "Gerard of Cremona (c.1114–1187): translated 87 Arabic works including Ptolemy's Almagest — documented in his obituary notice by his pupils (published Burnett 2001). Adelard of Bath's translations (c.1116–1142): documented. Burnett (2001), 'The Coherence of the Arabic-Latin Translation Program in Toledo' in Science in Context 14: the standard modern study. The physical manuscripts of translations: BnF and British Library hold early copies."
+    },
+    {
+      "id": "s1",
+      "lane": "economy",
+      "year": 1000,
+      "label": "Repopulation — the demographic engine of the Reconquista",
+      "full": "The Christian kingdoms systematically repopulate conquered territory — granting fueros to attract settlers to dangerous frontier zones; the 10th–12th century sees the Duero valley, then the Tagus valley, then Extremadura settled; repopulation documents are primary sources for medieval demographic and economic history.",
+      "src": "Repopulation charters (cartas de población): Archivo de la Catedral de León; Archivo Histórico Nacional. The fuero system's role in repopulation: documented in the charters. Powers (1988), A Society Organized for War: The Iberian Municipal Militias: the standard study of frontier society. The population movement's scale: documented in charter density maps by Barton (2004), The Aristocracy in Twelfth-Century León and Castile."
+    },
+    {
+      "id": "s2",
+      "lane": "economy",
+      "year": 1050,
+      "label": "Parias system — taifa gold finances Romanesque cathedrals",
+      "full": "The parias system — annual protection tributes paid in Fatimid gold dinars by the fragmented taifa kingdoms to the northern Christian kings — is the defining economic mechanism of 11th-century Iberia; it transfers immense wealth northward, finances the construction of Romanesque cathedrals (Santiago, León), pays for mercenary armies, and systematically drains the taifas, making their eventual conquest both affordable and inevitable.",
+      "src": "The parias payments: documented in the taifa rulers' court records (partially surviving) and in the Christian royal archives (Archivo de la Catedral de Toledo and AHN). Reilly (1988), The Kingdom of León-Castilla under King Alfonso VI: analyses the parias system in detail. The funding of Santiago Cathedral: the connection between parias revenue and Romanesque building programmes documented in Bishko (1969). The paradox: taifa sophistication finances the military-cultural apparatus of its own destruction."
+    },
+    {
+      "id": "ex2",
+      "lane": "exchange",
+      "year": 1050,
+      "label": "Christian-Muslim alliances — the Reconquista's real complexity",
+      "full": "Christian and Muslim rulers regularly ally against their co-religionists — El Cid fights for the Muslim king of Zaragoza, Alfonso VI makes alliances with Muslim taifas, Castilian and Aragonese kings negotiate with Almohads; the Reconquista is as much politics as religion.",
+      "src": "El Cid's service to the Muslim king of Zaragoza: Historia Roderici (c.1110) — primary source. The parias system (tribute paid by taifas to Christian kings): documented in royal archives. Fletcher (1989), The Quest for El Cid, ch.5–6. The cross-religious alliances: O'Callaghan (2003), Reconquest and Crusade in Medieval Spain — argues the religious framing was always mixed with political calculation."
+    },
+    {
+      "id": "ex1",
+      "lane": "exchange",
+      "year": 1080,
+      "label": "Cluny and the Camino — French monasticism transforms Iberia",
+      "full": "The Cluny monastery reforms spread along the Camino — Alfonso VI invites Cluniac monks to reform Spanish monasteries; French Romanesque architecture arrives with the pilgrims; the French Way brings not just pilgrims but settlers, craftsmen and a new European cultural contact.",
+      "src": "Alfonso VI's Cluny donations: documented in Archivo de la Catedral de Toledo and Cluny's own archives. The Romanesque architecture spread: documented in the Pilgrim's Guide c.1139. Bishko (1969), 'Fernando I and the Origins of the Leonese-Castilian Alliance with Cluny': the standard study. The broader cultural exchange: documented in the building programme at Santiago Cathedral."
+    },
+    {
+      "id": "ex3",
+      "lane": "exchange",
+      "year": 1080,
+      "label": "Council of Burgos 1080 — Mozarabic rite abolished, Europe aligned",
+      "full": "At the behest of Rome and the Cluniac reform movement, Alfonso VI convenes the Council of Burgos (1080) and formally abolishes the ancient Mozarabic/Visigothic liturgical rite in favour of the Roman Liturgy — the most consequential Exchange entry for medieval Spain: it permanently aligns Spain's religious, intellectual and cultural exchange with the European mainstream and away from its indigenous late-antique heritage.",
+      "src": "Council of Burgos 1080: documented in chronicles and in Alfonso VI's royal correspondence. The papal pressure: Gregory VII's letters to Alfonso VI demanding liturgical conformity — documented. The Cluniac role: Bishko (1969), 'Fernando I and the Origins of the Leonese-Castilian Alliance with Cluny'. The replacement of Visigothic script with Caroline minuscule (a direct consequence): Millares Carlo (1983). The Mozarabic rite's survival in Toledo (uniquely preserved by a Toledo privilege): documented — still celebrated in Toledo Cathedral's Mozarabic Chapel."
+    },
+    {
+      "id": "ex4",
+      "lane": "exchange",
+      "year": 1180,
+      "label": "Crusading integration — Reconquista becomes a papal crusade",
+      "full": "Popes grant crusading status to Iberian campaigns — Pope Eugene III's bull for the conquest of Almería (1147) and Innocent III's bull for Las Navas de Tolosa (1212) grant the same spiritual indulgences and financial privileges as crusades to the Holy Land; the Reconquista transforms from a local territorial expansion into an internationally funded and legitimised papal crusade.",
+      "src": "Pope Eugene III's crusading bull for Almería 1147: Vatican Archives; analysed in O'Callaghan (2003), Reconquest and Crusade ch.2. Innocent III's bull for Las Navas 1212: Vatican Archives. The financial consequences: crusade taxes (twentieth and fortieth) collected across Europe for the Iberian campaigns — documented in papal registers. O'Callaghan (2003): the standard study of the Reconquista as crusade. The integration into the broader crusading movement: Spanish knights receive the same plenary indulgences as Jerusalem crusaders."
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 1120,
+      "label": "The Almoravids and Almohads — North Africa intervenes",
+      "full": "The fragmented taifa kingdoms invite the Almoravid Berbers from Morocco in 1086 — they reverse Christian gains and subjugate the taifas; then the even stricter Almohad movement succeeds them; the North African interventions transform al-Andalus and eventually provoke the coalition that wins at Las Navas.",
+      "src": "The Almoravid invitation 1086: Ibn Idhari, al-Bayan al-Mughrib. The Almohad invasion 1147: documented in Arabic sources. The Battle of Alarcos (1195) — Almohad victory over Alfonso VIII: documented in De Rebus Hispaniae. Lomax (1978), The Reconquista of Spain: the standard survey. The paradox: the taifas' invitation of the Almoravids was a strategic mistake — the Almoravids quickly deposed the taifa rulers they came to protect."
+    },
+    {
+      "id": "lv3",
+      "lane": "lives",
+      "year": 1050,
+      "label": "Cautivos — frontier captives and the alfaqueques who ransomed them",
+      "full": "Living on the fluid frontier between Christian and Muslim Iberia meant constant risk of abduction during lightning raids (razias) — captives were enslaved or held for ransom; specialised trans-frontier negotiators (alfaqueques) emerged to broker ransoms; the Order of Mercy (Mercedarians, founded 1218) was established specifically to ransom impoverished Christian captives from Muslim prisons.",
+      "src": "The alfaqueque institution: documented in Alfonso X's Siete Partidas (Part II, Title XXIX) — the only medieval European legal code to formally define and regulate trans-frontier ransom negotiators. The Mercedarian Order (1218): papal confirmation 1235 — Vatican Archives. Brodman (1986), Ransoming Captives in Crusader Spain: the standard study. Captivity narratives: preserved in hagiographic sources. The frontier's two-way captivity: Christians in Muslim hands and Muslims in Christian hands — documented symmetrically in Arabic and Latin sources."
+    },
+    {
+      "id": "lv1",
+      "lane": "lives",
+      "year": 1112,
+      "label": "Queens regent and 'reinas propietarias' — ruling women of medieval Iberia",
+      "full": "Urraca of León (1109–1126) is one of medieval Europe's earliest queens regnant — but her early reign included a coerced marriage to Alfonso I of Aragon ('the Battler') who assumed the joint title of King of Castile and León; violent civil war between their factions until papal annulment c.1112–1114 preceded her independent rule; her charters document executive authority clearly from c.1114 onwards.",
+      "src": "Queen Urraca's charters (1109–1126): Archivo de la Catedral de León and AHN — multiple charters in her own name. The forced marriage to Alfonso I of Aragon: documented in chronicles and in the subsequent papal annulment proceedings. Reilly (1982), The Kingdom of León-Castilla under Queen Urraca 1109–1126: the standard biography — covers both the joint reign and her independent rule after 1114. The papal annulment c.1112–1114: documented in ecclesiastical sources."
+    },
+    {
+      "id": "lv2",
+      "lane": "lives",
+      "year": 1090,
+      "label": "Jews under Christian rule — fueros and protection",
+      "full": "The Jewish communities of Christian Iberia live under royal protection — the fuero system grants them specific rights; Alfonso VI's Toledo is deliberately multi-religious after the reconquest (1085); the community produces scholars in both Hebrew and Arabic, connecting the Sephardic world to European learning.",
+      "src": "Alfonso VI's Toledo charters for Jews (post-1085): Archivo de la Catedral de Toledo. The Barcelona Jewish community: documented in municipal records from 10th century. Baer (1961–1966), A History of the Jews in Christian Spain (2 vols): the standard study. The contrast with Visigothic persecution: a genuine improvement documented in the charters. The vulnerability before the 1391 pogroms: foreshadowed in the 1109 Toledo pogrom after Alfonso VI's death."
+    }
+  ],
+  "edges": [
+    [
+      "k1",
+      "c1",
+      "strong",
+      "Pelayo founds the Kingdom of Asturias after the skirmish at Covadonga"
+    ],
+    [
+      "c1",
+      "t3",
+      "strong",
+      "the Chronicle of Alfonso III inflates Covadonga into a providential founding"
+    ],
+    [
+      "k1",
+      "t3",
+      "strong",
+      "Neogothicism casts Pelayo as a Gothic noble and the Asturian kings as heirs to Visigothic Toledo"
+    ],
+    [
+      "t3",
+      "k3",
+      "strong",
+      "the providential duty to restore lost Hispania is what makes Toledo, the old Visigothic capital, the prize"
+    ],
+    [
+      "k2",
+      "r1",
+      "strong",
+      "Alfonso II builds the first Santiago cathedral and makes the first royal pilgrimage, founding the cult"
+    ],
+    [
+      "k2",
+      "a1",
+      "loose",
+      "the Asturian court's pre-Romanesque building programme continues under Ramiro I at Naranco"
+    ],
+    [
+      "r1",
+      "o2",
+      "strong",
+      "the pilgrimage drives the construction of the Romanesque cathedral of Santiago from 1075"
+    ],
+    [
+      "r1",
+      "ex1",
+      "strong",
+      "the Camino carries Cluniac reform, French Romanesque architecture and French settlers into Iberia"
+    ],
+    [
+      "ext2",
+      "ex1",
+      "strong",
+      "Cluny is the Burgundian reform abbey the papacy channels into Spain"
+    ],
+    [
+      "k3",
+      "ex1",
+      "strong",
+      "Alfonso VI invites Cluniac monks to reform the Spanish monasteries"
+    ],
+    [
+      "ex1",
+      "o2",
+      "strong",
+      "French Romanesque masons arriving with the pilgrims build the cathedral"
+    ],
+    [
+      "o2",
+      "a3",
+      "strong",
+      "the Codex Calixtinus, a Santiago cathedral manuscript, holds the earliest three-part polyphony"
+    ],
+    [
+      "o2",
+      "a4",
+      "strong",
+      "Master Mateo's Pórtico de la Gloria is the cathedral's western portal, completed 1188"
+    ],
+    [
+      "a3",
+      "a4",
+      "loose",
+      "both come out of the cathedral's twelfth-century artistic programme"
+    ],
+    [
+      "r1",
+      "a4",
+      "loose",
+      "the Pórtico is the threshold the arriving pilgrims cross"
+    ],
+    [
+      "ext2",
+      "ex3",
+      "strong",
+      "Gregory VII presses Alfonso VI to bring the Spanish church into liturgical conformity"
+    ],
+    [
+      "ex1",
+      "ex3",
+      "strong",
+      "the Cluniac reform movement drives the Council of Burgos"
+    ],
+    [
+      "k3",
+      "ex3",
+      "strong",
+      "Alfonso VI convenes the Council of Burgos in 1080 and abolishes the Mozarabic rite"
+    ],
+    [
+      "ex3",
+      "a5",
+      "loose",
+      "the reform replaces Visigothic script with Caroline minuscule, closing the tradition the Beatus manuscripts belong to"
+    ],
+    [
+      "a5",
+      "a1",
+      "loose",
+      "both are the art of the Christian north in the Asturian and Leonese scriptoria"
+    ],
+    [
+      "ext1",
+      "s2",
+      "strong",
+      "the taifa kingdoms pay annual parias tribute in gold to the northern Christian kings"
+    ],
+    [
+      "s2",
+      "o2",
+      "strong",
+      "parias gold finances the Romanesque cathedral-building programmes at Santiago and León"
+    ],
+    [
+      "s2",
+      "ex1",
+      "loose",
+      "parias revenue funds Alfonso VI's donations to Cluny"
+    ],
+    [
+      "s2",
+      "k3",
+      "strong",
+      "parias pays Alfonso VI's armies and makes the conquest of the taifas affordable"
+    ],
+    [
+      "s2",
+      "w1",
+      "strong",
+      "the parias systematically drain the taifas, and the pressure drives them to call in the Almoravids"
+    ],
+    [
+      "s2",
+      "c2",
+      "loose",
+      "El Cid's career runs on tribute extracted from Muslim rulers"
+    ],
+    [
+      "ext1",
+      "ex2",
+      "strong",
+      "Christian and Muslim rulers routinely ally across the faith line — El Cid serves the king of Zaragoza"
+    ],
+    [
+      "ex2",
+      "c2",
+      "strong",
+      "El Cid, sometimes fighting for Muslim rulers, captures Valencia in 1094"
+    ],
+    [
+      "k3",
+      "c2",
+      "loose",
+      "El Cid's exile and service turn on his relationship with Alfonso VI"
+    ],
+    [
+      "ext1",
+      "k3",
+      "strong",
+      "Alfonso VI takes Toledo from the taifa of Toledo in 1085"
+    ],
+    [
+      "k3",
+      "w1",
+      "strong",
+      "the shocked taifas invite the Almoravids from Morocco, who reverse many of Alfonso VI's gains"
+    ],
+    [
+      "c2",
+      "w1",
+      "strong",
+      "Valencia falls back to the Almoravids in 1102, three years after El Cid's death"
+    ],
+    [
+      "k6",
+      "k3",
+      "loose",
+      "Sancho III's 1035 partition first makes Castile a kingdom, the realm Alfonso VI unites with León"
+    ],
+    [
+      "k6",
+      "o4",
+      "loose",
+      "Sancho III rules from Pamplona; the Navarrese and Basque fueros develop under and around his line"
+    ],
+    [
+      "k6",
+      "k5",
+      "loose",
+      "the kingdoms Sancho III's partition created are the ones Ferdinand III's 1230 union recombines"
+    ],
+    [
+      "o3",
+      "k4",
+      "strong",
+      "Alfonso VII's 1157 partition gives Castile to Sancho III, the line Alfonso VIII continues"
+    ],
+    [
+      "o3",
+      "k5",
+      "strong",
+      "the 73-year Castile–León separation culminates in the 1230 reunion under Ferdinand III"
+    ],
+    [
+      "o3",
+      "c3",
+      "loose",
+      "the rival kingdoms still combine for Las Navas despite the split"
+    ],
+    [
+      "k4",
+      "k5",
+      "strong",
+      "Ferdinand III is Alfonso VIII's grandson and heir in the Castilian line"
+    ],
+    [
+      "k4",
+      "c3",
+      "strong",
+      "Alfonso VIII leads the Castile–Aragon–Navarre–Portugal coalition to Las Navas de Tolosa in 1212"
+    ],
+    [
+      "w1",
+      "c3",
+      "strong",
+      "the Almohad interventions provoke the coalition that wins at Las Navas"
+    ],
+    [
+      "w1",
+      "k4",
+      "loose",
+      "the Almohad victory at Alarcos in 1195 is the defeat Alfonso VIII avenges at Las Navas"
+    ],
+    [
+      "ext2",
+      "ex4",
+      "strong",
+      "Popes Eugene III and Innocent III issue crusading bulls for the Spanish campaigns"
+    ],
+    [
+      "k4",
+      "ex4",
+      "strong",
+      "Alfonso VIII petitions Innocent III for a crusade before Las Navas"
+    ],
+    [
+      "ex4",
+      "c3",
+      "strong",
+      "Innocent III's 1212 bull grants Las Navas the indulgences and finance of a crusade"
+    ],
+    [
+      "ex4",
+      "r2",
+      "loose",
+      "crusading status reinforces the frontier-holding role of the military orders"
+    ],
+    [
+      "r2",
+      "c3",
+      "loose",
+      "the military orders field contingents at Las Navas"
+    ],
+    [
+      "k4",
+      "r2",
+      "loose",
+      "the three Iberian military orders are founded across Alfonso VIII's reign"
+    ],
+    [
+      "c3",
+      "k5",
+      "loose",
+      "Las Navas opens Andalusia, and the 1230 union lets Ferdinand III take Córdoba and Seville within two decades"
+    ],
+    [
+      "o1",
+      "s1",
+      "strong",
+      "the fueros are the legal instrument that draws settlers onto the dangerous frontier"
+    ],
+    [
+      "o4",
+      "o1",
+      "loose",
+      "the older Navarrese and Basque charters are a parallel self-governing tradition"
+    ],
+    [
+      "s1",
+      "k3",
+      "loose",
+      "the Tagus valley is repopulated behind Alfonso VI's line after Toledo"
+    ],
+    [
+      "o1",
+      "lv2",
+      "strong",
+      "the fuero system grants the Jewish communities of Christian Iberia specific rights"
+    ],
+    [
+      "k3",
+      "lv2",
+      "strong",
+      "Alfonso VI's Toledo is deliberately kept multi-religious after 1085"
+    ],
+    [
+      "lv2",
+      "t1",
+      "loose",
+      "Jewish scholars working in Hebrew and Arabic connect the Sephardic world to the translators"
+    ],
+    [
+      "k3",
+      "t1",
+      "strong",
+      "the Toledo school of translators forms in the decades after the 1085 conquest"
+    ],
+    [
+      "ext1",
+      "t1",
+      "loose",
+      "the Arabic philosophy and science being rendered into Latin is al-Andalus's inheritance"
+    ],
+    [
+      "r2",
+      "s1",
+      "loose",
+      "the military orders hold frontier zones and become the great landlords of repopulated country"
+    ],
+    [
+      "ex2",
+      "lv3",
+      "strong",
+      "the frontier of raids and shifting alliances produces captives, ransom and the alfaqueque brokers"
+    ],
+    [
+      "lv3",
+      "r2",
+      "loose",
+      "the Mercedarian order is founded in 1218 specifically to ransom Christian captives"
+    ],
+    [
+      "c2",
+      "a2",
+      "strong",
+      "the Cantar de Mio Cid is the literary account of El Cid's Valencia campaign"
+    ],
+    [
+      "a2",
+      "lv3",
+      "loose",
+      "the poem's world of razzias and captives is the lived frontier"
+    ],
+    [
+      "k3",
+      "lv1",
+      "strong",
+      "Urraca is Alfonso VI's daughter and heir, one of Europe's earliest queens regnant"
+    ],
+    [
+      "lv1",
+      "lv2",
+      "loose",
+      "the 1109 Toledo pogrom follows Alfonso VI's death, as Urraca's contested accession opens"
+    ]
+  ]
+}
