@@ -568,7 +568,13 @@ function buildNexus() {
   // scroll or browser zoom, since it happens inside the coordinate system).
   const LEFT_PAD = 38, RIGHT_PAD = NODE_W + 20;
   const availW = Math.max(600, stageEl.clientWidth - 16);
-  const PX_PER_YEAR = Math.max(1.6, (availW - LEFT_PAD - RIGHT_PAD) / (YEAR_MAX - YEAR_MIN));
+  // No lower floor here on purpose: a floor sets a MINIMUM px-per-year, which for a
+  // folio spanning hundreds of thousands or millions of years (deep prehistory)
+  // multiplies out to a multi-million-pixel-wide SVG — effectively broken regardless
+  // of container scroll or zoom. Letting it shrink freely keeps the diagram's total
+  // width bounded to the stage; very close-together nodes in the same lane still
+  // separate visually via the row-stacking below, which adds rows instead of width.
+  const PX_PER_YEAR = (availW - LEFT_PAD - RIGHT_PAD) / (YEAR_MAX - YEAR_MIN);
   const W = LEFT_PAD + (YEAR_MAX-YEAR_MIN)*PX_PER_YEAR + RIGHT_PAD;
   const xOf = yr => LEFT_PAD + (yr-YEAR_MIN)*PX_PER_YEAR;
 
@@ -604,7 +610,16 @@ function buildNexus() {
     svg.appendChild(el('line',{x1:0,y1:l.top-4,x2:W,y2:l.top-4,class:'nx-lane-rule'}));
   });
   svg.appendChild(el('line',{x1:0,y1:cursorY-4,x2:W,y2:cursorY-4,class:'nx-lane-rule'}));
-  for(let y=Math.ceil(YEAR_MIN/20)*20; y<=YEAR_MAX; y+=20){
+  // Tick step scales with the folio's own span — a fixed 20-year step is fine for a
+  // multi-century dynasty but would emit tens or hundreds of thousands of gridlines
+  // for a folio spanning deep prehistory (same tick-explosion class of bug fixed
+  // once already in buildTimeline(); mirrored here with two coarser tiers on top for
+  // the million-year spans a Nexus can now cover).
+  const span = YEAR_MAX - YEAR_MIN;
+  const tickStep = span > 2000000 ? 500000 : span > 1000000 ? 200000 : span > 200000 ? 50000 :
+    span > 50000 ? 10000 : span > 20000 ? 5000 : span > 1500 ? 200 : span > 700 ? 100 :
+    span > 300 ? 50 : span > 100 ? 20 : 5;
+  for(let y=Math.ceil(YEAR_MIN/tickStep)*tickStep; y<=YEAR_MAX; y+=tickStep){
     const x = xOf(y);
     svg.appendChild(el('line',{x1:x,y1:22,x2:x,y2:cursorY-4,class:'nx-decade-rule'}));
     const t = el('text',{x,y:H-10,class:'nx-decade-label','text-anchor':'middle'}); t.textContent=y; svg.appendChild(t);
