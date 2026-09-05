@@ -660,7 +660,7 @@
       "k1",
       "k2",
       "strong",
-      "succession"
+      "al-Mansur's death in 775 passes the throne to his son al-Mahdi, already groomed as heir"
     ],
     [
       "k2",
@@ -672,7 +672,7 @@
       "k2",
       "k3",
       "strong",
-      "succession"
+      "al-Mahdi's death in 785 opens the brief reign of al-Hadi and then Harun's own accession the year after"
     ],
     [
       "k2",
@@ -774,7 +774,7 @@
       "k5",
       "k6",
       "strong",
-      "succession"
+      "al-Ma'mun's death in 833 passes the throne to his brother al-Mu'tasim"
     ],
     [
       "k6",
@@ -810,7 +810,7 @@
       "k6",
       "k7",
       "strong",
-      "succession"
+      "al-Wathiq's death in 847 brings his brother al-Mutawakkil to the throne"
     ],
     [
       "e1",
@@ -1150,18 +1150,19 @@
     ]
   ],
   "criticalPath": [
-    "ext1>k1",
     "k1>k2",
     "k2>k3",
     "k3>k4",
     "k4>k5",
     "k5>k6",
-    "k6>k7",
-    "k7>k8",
+    "k6>w3",
+    "w3>k8",
     "k8>k9",
     "k9>k10",
     "k10>k11",
-    "k11>k12",
-    "k12>w5"
+    "k11>ec4",
+    "ec4>k12",
+    "k12>c9",
+    "c9>w5"
   ]
 }

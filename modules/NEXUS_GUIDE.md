@@ -190,16 +190,57 @@ Do **not** default to `strong` to make the graph look more rigorous — the tier
 mechanism that keeps the graph honest, and a Nexus with mostly-strong tiers on a folio full of
 parallel independent developments should be treated as a red flag during review, not a good sign.
 
-### Step 4 — Find the critical path
+### Step 4 — Find the critical path: centre it on the graph's own hubs, don't default to the king-list
 
 Trace the single chain, if one exists, where every link is `strong` and where removing any one link
 would sever the chain that follows from it — i.e., no alternate route in the graph reaches the same
-downstream nodes if that specific edge is cut. In a folio built around one continuous seat of power
-(a dynasty, a single state), this is usually the backbone succession-and-shock chain: each ruler's
-accession causally required by the previous node's incident, punctuated by external shocks
-(`ext2`→`w4`, the Black Death; `ext3`→`c7`, Timur) that redirect the chain rather than branching it.
+downstream nodes if that specific edge is cut.
+
+**Do not default to "the succession chain, start to finish."** A dynastic folio's `power` entries
+naturally accumulate the most cross-references — every other category's entries tend to mention which
+ruler's reign they fall under — so a lazy pass will always find a technically-valid, unbroken chain of
+bare rulerN→rulerN+1 edges spanning the whole folio. It is real causation (a caliph's death really
+does open his successor's reign), but a critical path that is 85%+ one category reads as a king-list
+wearing a causal-web costume, not as "one connected story" — the whole reason to build a Nexus.
+
+The fix is mechanical, not aesthetic. Before drafting `criticalPath`, compute degree (in-edges plus
+out-edges, `strong` tier only) for every node:
+
+```js
+const strong = edges.filter(e => e[2] === 'strong');
+const deg = {};
+nodes.forEach(n => deg[n.id] = 0);
+strong.forEach(([a, b]) => { deg[a]++; deg[b]++; });
+// sort nodes by deg, descending — the top of that list is your hub set
+```
+
+The highest-degree node (or two, if there's a near-tie) is almost always the folio's real centre of
+gravity, and it is frequently **not** a ruler — a single battle, plague, economic shift, or schism that
+the folio's authors independently cross-referenced from many other entries. Build the critical path
+*around* that hub: walk outward from it in both time directions, and at every junction prefer an
+existing `strong` edge that routes through a **different lane** than a same-lane succession hop would,
+even if that means the path visits fewer of the folio's individual rulers by name. A ruler whose reign
+contributed no distinctive edge of their own can be a gap in the gold line without weakening it — the
+line marks *no slack*, not *complete coverage of the power category*.
+
+Concretely: if `rulerN → rulerN+1` is your only edge between two reigns, that hop is unavoidable and
+fine to keep — but if `rulerN` also has a `strong` edge into a conflict/economy/belief/world node that
+in turn leads back into `rulerN+1` (or further down the timeline), prefer that two-hop route over the
+direct one. It is usually more specific too: "the Kharijites the Siffin arbitration creates are the
+ones who kill Ali" is a sharper claim than "Uthman's murder opens Ali's caliphate, then Ali is
+succeeded by Muawiya." Adding one or two new, well-sourced edges to make such a reroute possible is
+legitimate — it's still bound by the same sourcing rule as every other edge (Step 3), it's just being
+added because the critical path exposed a gap in the graph's own routing, not because the story needed
+padding.
+
+**Target and check.** After drafting, count `criticalPath` nodes by lane the same way. There's no hard
+threshold, but if one lane (almost always `power`) is still comfortably over half the path after a
+genuine hub-routing pass, look again — either a real cross-lane alternative was missed, or the folio's
+own content genuinely is that dynastically concentrated and the ratio is honest; the check is there to
+catch the lazy default, not to force an artificial quota.
+
 If the folio genuinely has two or more independent centers of causation that never causally
-intersect, there may be no single critical path — do not force two unrelated success chains into one
+intersect, there may be no single critical path — do not force two unrelated chains into one
 `criticalPath` array by inserting a manufactured link between them. It's fine, and more honest, to
 either omit `criticalPath` (empty array) or describe two shorter critical paths in the surrounding
 prose/intro text and put only the stronger of the two in the actual array.
@@ -208,10 +249,16 @@ prose/intro text and put only the stronger of the two in the actual array.
 
 - An edge whose `why` doesn't actually name a mechanism ("related to," "connects to") — rewrite it to
   state the specific causal claim, or drop the edge.
+- **An edge whose `why` is the bare word "succession"** (or similar one-word placeholder) — every
+  transition has a specific proximate cause (a death, an assassination, an abdication, a specific named
+  act); write that, even for a plain father-to-son handover ("al-Mansur's death in 775 passes the
+  throne to his son al-Mahdi"). A one-word `why` is a sign the edge was added to keep the chain
+  unbroken rather than because it was independently worth stating.
 - A `strong` edge that's actually just topical similarity — retier to `loose` or drop.
 - A node with no edges at all that isn't marked as an intentional orphan in your own head — either
   find its real connection or accept it as an orphan; don't force a spurious edge just to avoid one.
-- A critical path that skips a step it depends on, or that includes a `loose`-tier edge.
+- A critical path that skips a step it depends on, includes a `loose`-tier edge, or is dominated by a
+  single lane without a hub-degree check (see Step 4) to justify it.
 - External nodes not clearly marked as folio-sourced vs. editorially-added in `src`.
 
 ---
