@@ -4,6 +4,7 @@ authoritative references:
 ```
 modules/FIELD_GUIDE.md       ← schema: entry/folio fields, dynasty, keywords, xlinks, validation
 modules/GROUPING_GUIDE.md    ← taxonomy: what group per category, terminology, historiographic rules
+modules/NEXUS_GUIDE.md       ← optional: building a causal-web "Nexus" view for a folio (Step 9 below)
 ```
 
 Do not infer the schema or taxonomy from existing JSON files — some are older than the current
@@ -296,6 +297,30 @@ If no confident xlinks are found, skip this step. Xlinks can always be added lat
 
 ---
 
+### Step 9 — Nexus (causal web), optional — not part of every folio
+
+The folio is **complete without this step** — most folios never get a Nexus. Consider it only when
+asked, or when this folio's own entries turned out to have unusually dense, explicitly-stated causal
+chains (a single continuous dynasty/state with clear succession-and-shock causation is a good
+candidate; a folio of mostly-independent parallel developments is not).
+
+If building one, read `modules/NEXUS_GUIDE.md` in full first — it is the schema and methodology
+reference, with `modules/mamluks-1250-1517.nexus.json` as the worked example. In short: a
+`modules/<id>.nexus.json` sidecar (never inside the folio's own JSON) listing `nodes` (folio entries
+by their real `id`, plus named external forces), `edges` (directed, sourced causal links tiered
+`strong`/`loose`), and an optional `criticalPath` (the one chain with no slack, if the folio has one).
+No `config/registry.js` entry and no `validate.js` changes are needed — `index.html` auto-detects the
+sidecar file by name and shows a 🕸 Nexus tab only when it exists.
+
+Commit if built:
+```
+git add modules/<id>.nexus.json
+git commit -m "<id> folio: Nexus — causal-web view"
+git push
+```
+
+---
+
 ## Resuming after a context-limit interruption
 
 1. Read `CLAUDE.md` (loaded automatically) — it points here and to the two guide files
@@ -323,3 +348,4 @@ If no confident xlinks are found, skip this step. Xlinks can always be added lat
 | Step 6 | Keywords generated | Every entry has a `keywords` array |
 | Step 7 | Registered + global index rebuilt | Folio listed in `config/registry.js` MODULES and in `_global_index.json` |
 | Step 8 | Xlink wiring done (or explicitly skipped) | Reviewed matches applied via `apply-xlinks.js`, or none found |
+| Step 9 | Nexus built (or skipped — the default) | `modules/<id>.nexus.json` exists and committed, or intentionally not built |

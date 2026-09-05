@@ -25,6 +25,8 @@ modules/GROUPING_GUIDE.md       ← WHAT group/taxonomy to use, terminology rule
                                    specific rules (repl badges, domain taxonomy) into this file.
 modules/FIELD_GUIDE.md          ← entry/folio SCHEMA reference (fields, keywords, xlinks, validation)
 .claude/commands/new-folio.md   ← full creation workflow incl. batch checkpointing
+modules/NEXUS_GUIDE.md          ← OPTIONAL: building a "Nexus" causal-web view for a folio (rare —
+                                   only when asked or when a folio's causation is unusually dense)
 ```
 
 Do **not** infer the schema from existing JSON files — a few predate the current conventions.
