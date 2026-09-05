@@ -535,6 +535,10 @@ function renderHeader() {
 // per-folio authoring is needed — see NEXUS_GUIDE.md.
 let NX = null; // {nodeById, edgeEls, nodeEls, hubRank}
 
+// Year label for the Nexus axis, node boxes and popup — mirrors buildTimeline's
+// fmtYear so a negative year reads "3000 BC", never "-3000".
+const nxYear = yr => yr < 0 ? Math.abs(yr) + ' BC' : yr + ' AD';
+
 function buildNexus() {
   const stageEl = document.getElementById('nx-stage');
   const svg = document.getElementById('nx-svg');
@@ -622,7 +626,7 @@ function buildNexus() {
   for(let y=Math.ceil(YEAR_MIN/tickStep)*tickStep; y<=YEAR_MAX; y+=tickStep){
     const x = xOf(y);
     svg.appendChild(el('line',{x1:x,y1:22,x2:x,y2:cursorY-4,class:'nx-decade-rule'}));
-    const t = el('text',{x,y:H-10,class:'nx-decade-label','text-anchor':'middle'}); t.textContent=y; svg.appendChild(t);
+    const t = el('text',{x,y:H-10,class:'nx-decade-label','text-anchor':'middle'}); t.textContent=nxYear(y); svg.appendChild(t);
   }
 
   const defs = el('defs',{});
@@ -663,7 +667,7 @@ function buildNexus() {
     g.appendChild(el('rect',{x:n.x,y:n.y,width:NODE_W,height:NODE_H,rx:4,
       fill: n.external||n.orphan ? 'transparent' : laneColor,
       stroke: n.external||n.orphan ? (n.external?'#8a8060':'#bbb') : laneColor}));
-    const yr = el('text',{x:n.x+6,y:n.y+9.5,class:'nx-yr'}); yr.setAttribute('fill', n.external||n.orphan ? '#888' : '#fff'); yr.textContent=n.year;
+    const yr = el('text',{x:n.x+6,y:n.y+9.5,class:'nx-yr'}); yr.setAttribute('fill', n.external||n.orphan ? '#888' : '#fff'); yr.textContent=nxYear(n.year);
     g.appendChild(yr);
     const lbl = el('text',{x:n.x+6,y:n.y+20}); lbl.textContent = n.label.length>13 ? n.label.slice(0,12)+'…' : n.label;
     g.appendChild(lbl);
@@ -709,7 +713,7 @@ function showNexusNode(id){
   NX.edgeEls.forEach(e=>{ if(e.a===id||e.b===id) e.path.classList.add('on'); });
 
   const lane = NX.LANES[NX.laneIndex[n.lane]];
-  let html = `<div><span class="nx-p-tag" style="background:${n.external?'#8a8060':lane.color}">${n.external?'external force':lane.label}</span><span class="nx-p-id">${id} · ${n.year}</span></div>
+  let html = `<div><span class="nx-p-tag" style="background:${n.external?'#8a8060':lane.color}">${n.external?'external force':lane.label}</span><span class="nx-p-id">${id} · ${nxYear(n.year)}</span></div>
     <div class="nx-p-title">${n.label}</div>
     <div class="nx-p-body">${n.full}</div>
     <div class="nx-p-src">Source — ${n.src}</div>`;
