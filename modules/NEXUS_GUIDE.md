@@ -59,8 +59,10 @@ A Nexus is **not** stored in the folio's own JSON file. It's a separate sidecar,
 reviewed and re-reviewed — cleanly separate from the folio's own factual entries, and means
 `index.html` needs zero changes to support a new folio's Nexus: it probes for the sidecar file at
 load time and only shows the tab if the probe succeeds (see "How index.html finds and renders a
-Nexus" below). **No registration in `config/registry.js` and no `validate.js` schema entry are
-needed** — the sidecar is fetched directly by filename convention, not looked up through any config.
+Nexus" below). **No registration in `config/registry.js` is needed** — the sidecar is fetched
+directly by filename convention, not looked up through any config. `validate.js` picks it up
+automatically from the same convention (any `modules/*.nexus.json`) and checks it against the folio
+of the same name; there is nothing to add there either.
 
 ### Top-level shape
 
@@ -237,6 +239,12 @@ the check is to catch an authoring shortcut, not to force artificial diversity i
 - A `strong` edge that's actually just topical similarity — retier to `loose` or drop.
 - A node with no edges at all that isn't marked as an intentional orphan in your own head — either
   find its real connection or accept it as an orphan; don't force a spurious edge just to avoid one.
+  (`validate.js` warns on every edgeless node — silence the warning by connecting it or by being sure
+  it's a genuine honest orphan, not by adding a filler edge.)
+- **Two nodes joined by more than one edge** — usually a pair written in both directions ("A enables B"
+  and "B is the autonomy A tolerated"). The renderer draws one link and the hub-degree count is
+  inflated; `validate.js` now rejects this. Keep the single edge whose direction and `why` carry the
+  most, and fold the other framing into that `why` if it adds something.
 - An edge added or re-tiered because it would change which node ranks in the top-3 hub highlight,
   rather than because it's independently true — see "Hub highlighting" above.
 - External nodes not clearly marked as folio-sourced vs. editorially-added in `src`.
@@ -296,18 +304,20 @@ sidecar format should grow a per-folio escape hatch — keep the sidecar schema 
 3. Draft `edges[]`, tiering each `strong`/`loose` honestly (Step 3), sourcing every `why` back to the
    folio's own text or a cited external fact.
 4. Review pass against the failure-mode list above, including the hub-degree sanity check.
-5. Save as `modules/<folioId>.nexus.json` — no registry entry, no `validate.js` changes, nothing else
-   to wire up. Reload the app on that folio and confirm the 🕸 Nexus tab appears.
-6. Sanity-check in the browser: every lane's nodes plotted in year order, the top-3 hub nodes visibly
+5. Save as `modules/<folioId>.nexus.json` — no registry entry, nothing else to wire up. Reload the app
+   on that folio and confirm the 🕸 Nexus tab appears.
+6. Run `node modules/validate.js` (CI runs it too). It checks every `.nexus.json`: `{nodes, edges}`
+   shape; each node has `id/lane/year/label/full/src`; non-external node ids and lanes match a real
+   entry in `modules/<folioId>.json`; edges are `[from, to, tier, why]` 4-tuples with `tier` in
+   `strong|loose` and both endpoints declared; no self-loops; no two nodes joined twice. It **warns**
+   (doesn't fail) on edgeless nodes and on a `why` under three words.
+7. Sanity-check in the browser: every lane's nodes plotted in year order, the top-3 hub nodes visibly
    gold/silver/bronze and narratively sensible, at least skim a few node popups for their "caused
    by"/"leads to" text reading correctly, and confirm the diagram doesn't need a horizontal scrollbar
    at a normal window width.
 
-There is no `validate.js` check for `.nexus.json` files today — correctness here is editorial review,
-not schema validation. If this capability gets rolled out across many folios, a lightweight validator
-(node ids resolve to real folio entries or external ids, edge endpoints exist) would be a reasonable
-future addition to `modules/validate.js`, but building that is a separate task from building any
-individual Nexus file.
+Beyond what `validate.js` enforces mechanically, correctness here is editorial review — a valid graph
+can still tell a false story.
 
 ---
 

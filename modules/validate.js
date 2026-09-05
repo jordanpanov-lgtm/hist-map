@@ -49,7 +49,9 @@ const warns = [];
 const err = (folio, msg) => errors.push(`${folio}: ${msg}`);
 const warn = (folio, msg) => warns.push(`${folio}: ${msg}`);
 
-const files = fs.readdirSync(DIR).filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json').sort();
+const allJson = fs.readdirSync(DIR).filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json').sort();
+const nexusFiles = allJson.filter(f => f.endsWith('.nexus.json'));
+const files = allJson.filter(f => !f.endsWith('.nexus.json'));
 
 // ── Pass 1: parse every folio, collect all global keys for xlink resolution ──
 const folios = {};
@@ -148,6 +150,79 @@ for (const folioId of Object.keys(folios)) {
     for (const ev of (lane.events || [])) {
       if (ev.entryId && !ids.has(ev.entryId)) err(file, `timeline references missing entry "${ev.entryId}"`);
     }
+  }
+}
+
+// ── Pass 3: validate each Nexus sidecar (<folioId>.nexus.json → { nodes, edges }) ──
+// Contract: NEXUS_GUIDE.md. Node ids/lanes for non-external nodes must match a real
+// folio entry; edges are [from, to, tier, why] 4-tuples over declared node ids.
+const NEXUS_TIERS = new Set(['strong', 'loose']);
+for (const file of nexusFiles) {
+  const folioId = file.replace(/\.nexus\.json$/, '');
+  let nx;
+  try {
+    nx = JSON.parse(fs.readFileSync(path.join(DIR, file), 'utf8'));
+  } catch (e) {
+    err(file, `JSON parse failed — ${e.message}`);
+    continue;
+  }
+  if (!Array.isArray(nx.nodes) || !Array.isArray(nx.edges)) {
+    err(file, 'Nexus sidecar must be { nodes: [...], edges: [...] }');
+    continue;
+  }
+  const folio = folios[folioId];
+  if (!folio) err(file, `no folio "${folioId}" for this Nexus sidecar`);
+  const folioEntry = {}; // id → category id
+  if (folio) {
+    for (const cat of (folio.data.categories || [])) {
+      for (const e of (cat.entries || [])) folioEntry[e.id] = cat.id;
+    }
+  }
+
+  const nodeIds = new Set();
+  for (const n of nx.nodes) {
+    if (!n || typeof n.id !== 'string') { err(file, `node missing string "id" (${JSON.stringify(n)})`); continue; }
+    if (nodeIds.has(n.id)) err(file, `duplicate node id "${n.id}"`);
+    nodeIds.add(n.id);
+    for (const rf of ['lane', 'year', 'label', 'full', 'src']) {
+      if (n[rf] === undefined) err(file, `node "${n.id}": missing "${rf}"`);
+    }
+    if (typeof n.year !== 'number') err(file, `node "${n.id}": "year" must be a number`);
+    if (n.external) {
+      if (n.lane !== 'external') err(file, `node "${n.id}": external node must have lane "external"`);
+    } else {
+      if (n.lane !== undefined && n.lane !== 'external' && !CANON_CATS.includes(n.lane)) {
+        err(file, `node "${n.id}": lane "${n.lane}" not a canonical category`);
+      }
+      if (folio && !(n.id in folioEntry)) {
+        err(file, `node "${n.id}": no matching entry in folio "${folioId}" (mark external:true if intentional)`);
+      } else if (folio && n.lane !== folioEntry[n.id]) {
+        err(file, `node "${n.id}": lane "${n.lane}" ≠ folio entry category "${folioEntry[n.id]}"`);
+      }
+    }
+  }
+
+  const seenPairs = new Set();
+  const touched = new Set();
+  for (const edge of nx.edges) {
+    if (!Array.isArray(edge) || edge.length !== 4) {
+      err(file, `edge must be [from, to, tier, why] (got ${JSON.stringify(edge)})`);
+      continue;
+    }
+    const [a, b, tier, why] = edge;
+    if (!nodeIds.has(a)) err(file, `edge from unknown node "${a}"`);
+    if (!nodeIds.has(b)) err(file, `edge to unknown node "${b}"`);
+    if (a === b) err(file, `edge is a self-loop on "${a}"`);
+    if (!NEXUS_TIERS.has(tier)) err(file, `edge ${a}→${b}: tier "${tier}" not "strong"|"loose"`);
+    if (typeof why !== 'string' || !why.trim()) err(file, `edge ${a}→${b}: "why" must be a non-empty string`);
+    else if (why.trim().split(/\s+/).length < 3) warn(file, `edge ${a}→${b}: "why" reads like a placeholder ("${why}")`);
+    const key = [a, b].sort().join('~');
+    if (seenPairs.has(key)) err(file, `duplicate edge between "${a}" and "${b}"`);
+    seenPairs.add(key);
+    touched.add(a); touched.add(b);
+  }
+  for (const n of nx.nodes) {
+    if (n && n.id && !touched.has(n.id)) warn(file, `node "${n.id}" is an orphan (no edges)`);
   }
 }
 
