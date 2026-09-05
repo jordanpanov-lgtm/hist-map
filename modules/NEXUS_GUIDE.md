@@ -87,7 +87,9 @@ inert and fine to delete.)
                                // folio JSON (not a new id) — this is what makes the Nexus a reading
                                // OF the folio rather than a parallel dataset
   "lane": "power",             // one of the folio's own category ids, OR "external"
-  "year": 1260,                 // integer; used only for x-axis placement, not shown beyond the node
+  "year": 1260,                 // SIGNED integer. Negative = BC (year: -300 is 300 BC). Never a
+                               //   string, never "300 BC". Drives x-axis placement AND is shown as a
+                               //   label (node box, axis tick, popup header) — see "Year convention"
   "label": "Baybars founds the state",   // short — rendered truncated at ~13 characters in the node
                                           // box, so front-load the identifying word(s)
   "full": "Baybars built the institution: installed a refugee Abbasid as caliph for legitimacy, ...",
@@ -103,6 +105,28 @@ future automated cross-check) can always resolve `nodes[].id` back to `modules/<
 `categories[].entries[].id`. External-force nodes get their own short id namespace not used by the
 folio (the Mamluk file uses `ext1`..`ext8`) — pick something similarly unambiguous, never an id that
 could collide with a real entry id.
+
+#### Year convention (BC folios)
+
+`nodes[].year` is a **signed integer on the same scale the folios themselves use**: a positive number
+is AD, a negative number stands in for BC (`-96` = 96 BC). There is no historical year 0, but nothing
+forbids the value `0` — an axis tick that lands there just prints `0 AD`, harmless and consistent with
+the Timeline tab. Match the folio:
+`modules/<id>.json`'s `period.start` / `period.end` and its `timeline[].events[].y` are already
+signed this way (e.g. `nabataean-400bc-106ce` has `"period": { "start": -400, "end": 106 }`), and a
+node's year should sit inside the real entry's `date` range. For a Nabataean entry dated
+`"c.96 BC"`, write `"year": -96`.
+
+**Do not** write `"300 BC"`, `"300 BCE"`, `-300` as a string, or a positive number you mentally
+tag as BC. The sidecar stores the number; `index.html` formats it for display.
+
+The app renders every year through `nxYear()` in `buildNexus()` (`index.html`) — `yr < 0 ? abs+' BC'
+: yr+' AD'`, the same rule the Timeline tab's `fmtYear()` uses — at all three places a year is shown:
+the node-box label, the x-axis ticks, and the `id · year` line in the node popup. So a correct
+sidecar with `"year": -96` displays as `96 BC` everywhere; if you ever see a bare `-96` on screen it
+means either a stale cached `index.html` (hard-reload) or a new render path that skipped `nxYear()` —
+fix the code, never the data. `validate.js` requires `year` to be a number and does not care about
+its sign.
 
 **Not every folio entry needs a node.** For a very large folio, or one where whole categories are
 thematic surveys with no internal causal chain (Lives, Expression entries especially, per the corpus
@@ -272,11 +296,18 @@ and debug it if something regresses, not as a to-do list.
   matches that folio's own category order, labels, and accent colors with no per-folio styling code.
 - **Width is computed dynamically from the actual rendered stage element**
   (`stageEl.clientWidth`), not a fixed pixel budget, specifically so the diagram never needs a
-  horizontal scrollbar regardless of a folio's entry count or the reader's window width — see the
-  buffer/floor constants (`stageEl.clientWidth - 16`, floor `1.6` px/year) in `buildNexus()` in
-  `index.html` if a future folio's Nexus still overflows; these were tuned once against the Mamluk
-  file's ~500-year, 97-node span and may need retuning for a very different scale (a folio spanning
-  many millennia, or one with a much denser node count in a single lane).
+  horizontal scrollbar regardless of a folio's entry count or the reader's window width. `PX_PER_YEAR`
+  in `buildNexus()` is `(availW - LEFT_PAD - RIGHT_PAD) / (YEAR_MAX - YEAR_MIN)` with **no lower
+  floor** — a floor sets a minimum px-per-year that multiplies out to a multi-million-pixel SVG for a
+  deep-prehistory folio; tightly-clustered nodes are separated by adding rows (height), not width.
+  `tickStep` is tiered by total span (down to `500000` for million-year folios) so the axis never
+  emits tens of thousands of gridlines. If a future folio's Nexus overflows or its axis explodes,
+  those are the two knobs.
+- **Year labels go through `nxYear()`** (defined just above `buildNexus()` in `index.html`):
+  `yr < 0 ? Math.abs(yr) + ' BC' : yr + ' AD'`, mirroring the Timeline tab's `fmtYear()`. It is
+  applied in three places — the node-box year, the axis tick text, and the popup's `id · year` line.
+  Any new code path that prints a `nodes[].year` must call it too; a raw negative on screen is a code
+  bug, not a data one (see "Year convention" above).
 - **Node detail is a floating popup (`#nx-popup`), never a reserved layout column.** This was a
   deliberate correction after an earlier version used a sticky sidebar that permanently ate into the
   diagram's width — see the CSS comment directly above `#nx-popup`'s rule in `index.html`. Any future
@@ -300,7 +331,9 @@ sidecar format should grow a per-folio escape hatch — keep the sidecar schema 
 1. Read every entry's `hint` and `note` in the target folio; list stated causal relationships
    (Step 1 above) and named external forces (Step 2).
 2. Draft `nodes[]` — real entries by their existing `id`, plus external nodes with a distinct id
-   prefix and `external:true`. Skip entries with no causal role rather than padding.
+   prefix and `external:true`. Skip entries with no causal role rather than padding. Each `year` is a
+   signed integer matching the folio's own scale — **BC years are negative** (`-96`, not `"96 BC"`);
+   see "Year convention" above.
 3. Draft `edges[]`, tiering each `strong`/`loose` honestly (Step 3), sourcing every `why` back to the
    folio's own text or a cited external fact.
 4. Review pass against the failure-mode list above, including the hub-degree sanity check.
