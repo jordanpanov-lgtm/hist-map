@@ -180,6 +180,62 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .leg-label{font-size:10px;color:#888;font-style:italic}
 #map-note{margin-top:6px;font-size:10px;color:#bbb;font-family:'Courier New',monospace}
 
+/* ── NEXUS (causal web) ── */
+#nexus-view{display:none}
+#nexus-area{padding:14px 20px 40px}
+#nx-intro{font-size:12px;color:#666;font-style:italic;max-width:90ch;line-height:1.6;margin-bottom:10px}
+#nx-legend{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-bottom:12px;padding:9px 14px;background:#fafafa;border:1px solid #e0d8cc;border-radius:6px;font-size:11px;color:#666}
+.nx-lg-row{display:flex;align-items:center;gap:6px}
+.nx-line{width:20px;height:0;border-top:2px solid #8a8060}
+.nx-line.critical{border-top-color:#b8860b;border-top-width:2.5px}
+.nx-line.loose{border-top:1.5px dashed #bbb}
+.nx-node-swatch{width:14px;height:9px;border:1.5px dashed #8a8060;border-radius:2px}
+#nx-toggle-all{font-size:10px;font-family:'Courier New',monospace;padding:4px 10px;border:1px solid #bbb;border-radius:3px;background:#fff;color:#555;cursor:pointer;letter-spacing:.05em;margin-left:auto}
+#nx-toggle-all:hover{background:#f0ead6;border-color:#888}
+#nx-stage{position:relative;border:1px solid #e0d8cc;border-radius:6px;background:#fff;overflow-x:auto;overflow-y:hidden}
+#nx-footer{margin-top:10px;font-size:10px;color:#bbb;font-family:'Courier New',monospace;line-height:1.8}
+
+/* the node-detail popup — fixed and out of layout flow on purpose (fix for
+   an earlier sticky-sidebar version that permanently ate into the diagram's
+   width): it floats over the diagram instead of reserving space for it */
+#nx-popup{display:none;position:fixed;right:22px;bottom:22px;width:360px;max-width:calc(100vw - 44px);max-height:64vh;overflow-y:auto;background:#fff;border-radius:8px;box-shadow:0 10px 36px rgba(0,0,0,.22);padding:18px 20px;z-index:900;border-top:4px solid #999}
+#nx-popup.open{display:block}
+#nx-popup-close{position:absolute;top:8px;right:10px;background:transparent;border:none;color:#aaa;font-size:14px;cursor:pointer;padding:4px 6px;line-height:1}
+#nx-popup-close:hover{color:#333}
+.nx-p-tag{display:inline-block;font-size:9px;font-family:'Courier New',monospace;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:2px;color:#fff}
+.nx-p-id{font-size:10px;font-family:'Courier New',monospace;color:#999;margin-left:8px}
+.nx-p-title{font-size:17px;font-family:'IM Fell English',serif;margin:6px 0 8px;color:#1a1a1a;line-height:1.3}
+.nx-p-body{font-size:13px;color:#555;line-height:1.6}
+.nx-p-src{margin-top:9px;font-size:10.5px;font-family:'Courier New',monospace;color:#999}
+.nx-p-links{margin-top:12px;display:flex;flex-direction:column;gap:4px}
+.nx-p-links-title{font-size:9px;font-family:'Courier New',monospace;letter-spacing:.08em;text-transform:uppercase;color:#999;margin-bottom:2px}
+.nx-p-link{font-size:12px;color:#555;cursor:pointer;border-left:2px solid #ddd;padding-left:8px}
+.nx-p-link:hover{color:#0e2a18;border-left-color:#0e2a18}
+
+.nx-node{cursor:pointer}
+.nx-node rect{stroke-width:1.1}
+.nx-node.external rect{fill:transparent;stroke-dasharray:2.5 2.5}
+.nx-node text{font-family:Georgia,serif;font-size:8.6px;font-weight:700;fill:#fff;pointer-events:none}
+.nx-node.external text, .nx-node.orphan text{fill:#888}
+.nx-node .nx-yr{font-family:'Courier New',monospace;font-size:6.6px;font-weight:600;opacity:.9}
+.nx-node.dim{opacity:.25}
+.nx-node.hi rect{stroke:#b8860b;stroke-width:2.6}
+.nx-node.orphan rect{fill:transparent;stroke:#bbb;stroke-dasharray:2 2}
+.nx-lane-band{fill:#fafafa}
+.nx-lane-band.alt{fill:#fff}
+.nx-lane-label{font-family:'Courier New',monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;fill:#999}
+.nx-lane-rule{stroke:#e5ddd0;stroke-width:1}
+.nx-decade-rule{stroke:#e5ddd0;stroke-width:1;stroke-dasharray:1 3}
+.nx-decade-label{font-family:'Courier New',monospace;font-size:9px;fill:#bbb}
+.nx-edge-strong{fill:none;stroke:#8a8060;stroke-width:1.1;opacity:.1;transition:opacity .15s}
+.nx-edge-loose{fill:none;stroke:#bbb;stroke-width:1;stroke-dasharray:1.5 3;opacity:.09;transition:opacity .15s}
+.nx-edge-hit{fill:none;stroke:transparent;stroke-width:9;cursor:pointer}
+.nx-edge-strong.on,.nx-edge-loose.on{opacity:1;stroke-width:2.1}
+.nx-edge-critical{stroke:#b8860b !important;stroke-dasharray:none !important;opacity:.8 !important;stroke-width:1.8 !important}
+.nx-edge-critical.on{stroke-width:2.8 !important;opacity:1 !important}
+body.nx-show-all .nx-edge-strong:not(.nx-edge-critical){opacity:.5}
+body.nx-show-all .nx-edge-loose:not(.nx-edge-critical){opacity:.45}
+
 /* ── MODAL ── */
 #modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:2000;align-items:center;justify-content:center;padding:20px}
 #modal-overlay.open{display:flex}
@@ -226,6 +282,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
     <button class="tab-btn active" id="btn-list"     onclick="setView('list')">☰ List</button>
     <button class="tab-btn"        id="btn-timeline" onclick="setView('timeline')">◫ Timeline</button>
     <button class="tab-btn"        id="btn-map"      onclick="setView('map')">◎ Map</button>
+    <button class="tab-btn"        id="btn-nexus"    onclick="setView('nexus')" style="display:none">🕸 Nexus</button>
     <div id="search-wrap"><input id="search-input" placeholder="Search entries…" oninput="filterList()"></div>
   </div>
 </div>
@@ -292,6 +349,25 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
   </div>
 </div>
 
+<div id="nexus-view">
+  <div id="nexus-area">
+    <p id="nx-intro">Every entry in this folio, laid out as one causal web — hand-curated, not auto-generated. Solid lines are causation the folio's own hints and notes state outright; the gold path is the single chain with no slack in it. Click a node for its links; click empty space to reset.</p>
+    <div id="nx-legend">
+      <div class="nx-lg-row"><span class="nx-line critical"></span> critical path</div>
+      <div class="nx-lg-row"><span class="nx-line"></span> stated causation</div>
+      <div class="nx-lg-row"><span class="nx-line loose"></span> same current</div>
+      <div class="nx-lg-row"><span class="nx-node-swatch"></span> external force, not a folio entry</div>
+      <button id="nx-toggle-all">Show every connection</button>
+    </div>
+    <div id="nx-stage"><svg id="nx-svg"></svg></div>
+    <div id="nx-footer">Every node is a real entry in this folio, or a named external force (dashed border) — nothing invented, sourced in each entry's own note. Click a node to read it; click empty space or ✕ to close.</div>
+  </div>
+  <div id="nx-popup">
+    <button id="nx-popup-close" aria-label="Close">✕</button>
+    <div id="nx-popup-body"></div>
+  </div>
+</div>
+
 <div id="corpus-view">
   <iframe id="corpus-frame" title="Corpus network graph"></iframe>
 </div>
@@ -325,7 +401,9 @@ let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
 let currentView = 'list';
-const _HASH_VIEWS = new Set(['list', 'timeline', 'map']); // reserved 2nd hash segments
+let NEXUS_DATA = null;      // {nodes, edges, criticalPath} from modules/<id>.nexus.json, if one exists
+let NEXUS_BUILT_FOR = null; // MOD.id the #nx-svg was last rendered for, so switching back doesn't rebuild
+const _HASH_VIEWS = new Set(['list', 'timeline', 'map', 'nexus']); // reserved 2nd hash segments
 let _selfHash = false;   // set immediately before we assign location.hash ourselves
 let _replaying = false;  // set while route() is applying a hash to the page
 
@@ -343,7 +421,7 @@ function loadModule(file) {
   const loadEl = document.getElementById('loading');
   loadEl.textContent = 'LOADING MODULE…';
   loadEl.style.display = 'flex';
-  ['list-view','timeline-view','map-view'].forEach(id => document.getElementById(id).style.display = 'none');
+  ['list-view','timeline-view','map-view','nexus-view'].forEach(id => document.getElementById(id).style.display = 'none');
 
   return fetch(file)
     .then(r => r.json())
@@ -355,6 +433,22 @@ function loadModule(file) {
       buildList();
       if (leafMap) { leafMap.remove(); leafMap = null; markerLayer = null; }
       document.getElementById('loading').style.display = 'none';
+      // A causal-web reading is hand-curated per folio, not auto-derived — most
+      // folios won't have one. Probe for modules/<id>.nexus.json and only show
+      // the tab when it actually exists; a 404 here is expected, not an error.
+      NEXUS_DATA = null;
+      document.getElementById('btn-nexus').style.display = 'none';
+      if (currentView === 'nexus') currentView = 'list';
+      fetch(file.replace(/\.json$/, '.nexus.json'))
+        .then(r => r.ok ? r.json() : Promise.reject())
+        .then(nx => {
+          if (MOD !== data) return; // a different folio loaded while this was in flight
+          NEXUS_DATA = nx;
+          document.getElementById('btn-nexus').style.display = '';
+          // a deep link that named the nexus tab before the probe resolved
+          if (location.hash.replace(/^#/, '').split('/')[1] === 'nexus') setView('nexus');
+        })
+        .catch(() => {});
       setView(currentView);
       setTimeout(buildTimeline, 80);
       writeHash(true);
@@ -375,7 +469,7 @@ function loadCorpus(c) {
   currentCorpus = c;
   closePicker(true);
 
-  ['list-view','timeline-view','map-view'].forEach(id => document.getElementById(id).style.display = 'none');
+  ['list-view','timeline-view','map-view','nexus-view'].forEach(id => document.getElementById(id).style.display = 'none');
   document.getElementById('loading').style.display = 'none';
   document.getElementById('header').style.display = 'none';
   if (leafMap) { leafMap.remove(); leafMap = null; markerLayer = null; }
@@ -415,17 +509,203 @@ function renderHeader() {
   document.getElementById('picker-close').style.visibility = 'visible';
 }
 
+// ── NEXUS (causal web) ──────────────────────────────────────────────────────
+// Renders NEXUS_DATA ({nodes, edges, criticalPath}) — a hand-curated causal
+// reading of the current folio, fetched from modules/<id>.nexus.json — as a
+// lane-per-category SVG diagram. Lane colour/label comes live from MOD's own
+// categories (catAccent), so it can never drift from the app's own palette.
+// Sized to the stage's actual width so the diagram never needs a horizontal
+// scrollbar; node detail opens in a floating popup, not a reserved column,
+// so the popup never eats into the diagram's own width.
+let NX = null; // {nodeById, edgeEls, nodeEls, criticalSet}
+
+function buildNexus() {
+  const stageEl = document.getElementById('nx-stage');
+  const svg = document.getElementById('nx-svg');
+  svg.innerHTML = '';
+
+  const LANES = [{id:'external', label:'External forces', color:'#8a8060'},
+    ...MOD.categories.map(c => ({id:c.id, label:c.label, color:catAccent(c)}))];
+  const laneIndex = Object.fromEntries(LANES.map((l,i)=>[l.id,i]));
+
+  const nodes = NEXUS_DATA.nodes.map(n => ({...n}));
+  const edges = NEXUS_DATA.edges;
+  const criticalSet = new Set(NEXUS_DATA.criticalPath);
+  const nodeById = Object.fromEntries(nodes.map(n=>[n.id,n]));
+  const connected = new Set();
+  edges.forEach(([a,b])=>{ connected.add(a); connected.add(b); });
+  nodes.forEach(n => { n.orphan = !connected.has(n.id) && !n.external; });
+
+  const years = nodes.map(n=>n.year);
+  const YEAR_MIN = Math.min(...years) - 2, YEAR_MAX = Math.max(...years) + 2;
+  const LEFT_PAD = 38, RIGHT_PAD = 24;
+  const NODE_W = 80, NODE_H = 27, ROW_GAP = 5, LANE_PAD = 9;
+  const availW = Math.max(600, stageEl.clientWidth - 16);
+  const PX_PER_YEAR = Math.max(1.6, (availW - LEFT_PAD - RIGHT_PAD) / (YEAR_MAX - YEAR_MIN));
+  const W = LEFT_PAD + (YEAR_MAX-YEAR_MIN)*PX_PER_YEAR + RIGHT_PAD;
+  const xOf = yr => LEFT_PAD + (yr-YEAR_MIN)*PX_PER_YEAR;
+
+  const laneRows = {}; LANES.forEach(l=>laneRows[l.id]=[]);
+  nodes.sort((a,b)=>a.year-b.year);
+  nodes.forEach(n=>{
+    const rows = laneRows[n.lane];
+    let placed=false;
+    for(let r=0;r<rows.length;r++){
+      if(xOf(n.year) > rows[r] + NODE_W + 6){ n.row=r; rows[r]=xOf(n.year); placed=true; break; }
+    }
+    if(!placed){ n.row = rows.length; rows.push(xOf(n.year)); }
+  });
+  LANES.forEach(l=>{ l.rows = Math.max(1, laneRows[l.id].length); });
+  let laneY = {}, cursorY = 26;
+  LANES.forEach(l=>{
+    laneY[l.id]=cursorY; l.top=cursorY;
+    l.height = l.rows*(NODE_H+ROW_GAP) - ROW_GAP + LANE_PAD*2;
+    cursorY += l.height;
+  });
+  const H = cursorY + 30;
+  nodes.forEach(n=>{ n.x = xOf(n.year); n.y = laneY[n.lane] + LANE_PAD + n.row*(NODE_H+ROW_GAP); });
+
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.setAttribute('width', W); svg.setAttribute('height', H);
+
+  function el(tag, attrs){ const e=document.createElementNS('http://www.w3.org/2000/svg', tag); for(const k in attrs) e.setAttribute(k, attrs[k]); return e; }
+
+  LANES.forEach((l,i)=>{
+    svg.appendChild(el('rect',{x:0,y:l.top-4,width:W,height:l.height,class:'nx-lane-band'+(i%2?' alt':'')}));
+    const t = el('text',{x:8,y:l.top+13,class:'nx-lane-label'}); t.textContent = l.label; t.style.fill = l.color;
+    svg.appendChild(t);
+    svg.appendChild(el('line',{x1:0,y1:l.top-4,x2:W,y2:l.top-4,class:'nx-lane-rule'}));
+  });
+  svg.appendChild(el('line',{x1:0,y1:cursorY-4,x2:W,y2:cursorY-4,class:'nx-lane-rule'}));
+  for(let y=Math.ceil(YEAR_MIN/20)*20; y<=YEAR_MAX; y+=20){
+    const x = xOf(y);
+    svg.appendChild(el('line',{x1:x,y1:22,x2:x,y2:cursorY-4,class:'nx-decade-rule'}));
+    const t = el('text',{x,y:H-10,class:'nx-decade-label','text-anchor':'middle'}); t.textContent=y; svg.appendChild(t);
+  }
+
+  const defs = el('defs',{});
+  const mk = (id,color) => { const m=el('marker',{id,markerWidth:7,markerHeight:7,refX:6,refY:3,orient:'auto'}); m.appendChild(el('path',{d:'M0,0 L7,3 L0,6 Z',fill:color})); return m; };
+  defs.appendChild(mk('nx-arrow-strong','#8a8060')); defs.appendChild(mk('nx-arrow-loose','#bbb')); defs.appendChild(mk('nx-arrow-critical','#b8860b'));
+  svg.appendChild(defs);
+
+  function anchor(n, side){ const cy=n.y+NODE_H/2; return side==='r' ? [n.x+NODE_W, cy] : [n.x, cy]; }
+  function curvePath(a,b){
+    const [x1,y1] = anchor(a, a.x<=b.x?'r':'l'), [x2,y2] = anchor(b, a.x<=b.x?'l':'r');
+    const midY = (y1+y2)/2;
+    return `M${x1},${y1} C${x1},${midY} ${x2},${midY} ${x2},${y2}`;
+  }
+
+  const edgeGroup = el('g',{}); const edgeEls = [];
+  edges.forEach(([a,b,tier,why])=>{
+    const na=nodeById[a], nb=nodeById[b]; if(!na||!nb) return;
+    const critical = criticalSet.has(a+'>'+b);
+    let cls = tier==='strong' ? 'nx-edge-strong' : 'nx-edge-loose';
+    if(critical) cls += ' nx-edge-critical';
+    const marker = critical ? 'url(#nx-arrow-critical)' : (tier==='strong' ? 'url(#nx-arrow-strong)' : 'url(#nx-arrow-loose)');
+    const d = curvePath(na,nb);
+    const path = el('path',{d, class:cls, 'marker-end':marker});
+    const hit = el('path',{d, class:'nx-edge-hit'});
+    hit.addEventListener('click', (e)=>{ e.stopPropagation(); showNexusNode(a); });
+    edgeGroup.appendChild(path); edgeGroup.appendChild(hit);
+    edgeEls.push({a,b,path});
+  });
+  svg.appendChild(edgeGroup);
+
+  const nodeGroup = el('g',{}); const nodeEls = {};
+  nodes.forEach(n=>{
+    const g = el('g',{class:'nx-node'+(n.external?' external':'')+(n.orphan?' orphan':''), 'data-id':n.id});
+    const laneColor = LANES[laneIndex[n.lane]].color;
+    g.appendChild(el('rect',{x:n.x,y:n.y,width:NODE_W,height:NODE_H,rx:4,
+      fill: n.external||n.orphan ? 'transparent' : laneColor,
+      stroke: n.external||n.orphan ? (n.external?'#8a8060':'#bbb') : laneColor}));
+    const yr = el('text',{x:n.x+6,y:n.y+9.5,class:'nx-yr'}); yr.setAttribute('fill', n.external||n.orphan ? '#888' : '#fff'); yr.textContent=n.year;
+    g.appendChild(yr);
+    const lbl = el('text',{x:n.x+6,y:n.y+20}); lbl.textContent = n.label.length>13 ? n.label.slice(0,12)+'…' : n.label;
+    g.appendChild(lbl);
+    g.addEventListener('click', (e)=>{ e.stopPropagation(); showNexusNode(n.id); });
+    nodeGroup.appendChild(g); nodeEls[n.id]=g;
+  });
+  svg.appendChild(nodeGroup);
+
+  NX = { LANES, laneIndex, nodeById, edges, edgeEls, nodeEls, criticalSet };
+
+  // click anywhere in the tab that isn't a node/edge/link/toggle closes the popup
+  const area = document.getElementById('nexus-area');
+  area.onclick = (e) => {
+    if (e.target.closest('.nx-node') || e.target.closest('.nx-edge-hit') || e.target.closest('#nx-toggle-all')) return;
+    closeNexusPopup();
+  };
+  document.getElementById('nx-toggle-all').onclick = (e) => {
+    e.stopPropagation();
+    const on = document.body.classList.toggle('nx-show-all');
+    e.target.textContent = on ? 'Show critical path only' : 'Show every connection';
+  };
+  document.getElementById('nx-popup-close').onclick = closeNexusPopup;
+}
+
+function closeNexusPopup(){
+  if (!NX) return;
+  Object.values(NX.nodeEls).forEach(g=>g.classList.remove('dim','hi'));
+  NX.edgeEls.forEach(e=>e.path.classList.remove('on'));
+  document.getElementById('nx-popup').classList.remove('open');
+}
+
+function showNexusNode(id){
+  if (!NX) return;
+  const n = NX.nodeById[id]; if (!n) return;
+  Object.values(NX.nodeEls).forEach(g=>g.classList.remove('dim','hi'));
+  NX.edgeEls.forEach(e=>e.path.classList.remove('on'));
+
+  const incoming = NX.edges.filter(e=>e[1]===id);
+  const outgoing = NX.edges.filter(e=>e[0]===id);
+  const touched = new Set([id, ...incoming.map(e=>e[0]), ...outgoing.map(e=>e[1])]);
+  Object.entries(NX.nodeEls).forEach(([nid,g])=>{ if(!touched.has(nid)) g.classList.add('dim'); });
+  NX.nodeEls[id].classList.add('hi');
+  NX.edgeEls.forEach(e=>{ if(e.a===id||e.b===id) e.path.classList.add('on'); });
+
+  const lane = NX.LANES[NX.laneIndex[n.lane]];
+  let html = `<div><span class="nx-p-tag" style="background:${n.external?'#8a8060':lane.color}">${n.external?'external force':lane.label}</span><span class="nx-p-id">${id} · ${n.year}</span></div>
+    <div class="nx-p-title">${n.label}</div>
+    <div class="nx-p-body">${n.full}</div>
+    <div class="nx-p-src">Source — ${n.src}</div>`;
+  if (incoming.length || outgoing.length) {
+    html += `<div class="nx-p-links">`;
+    if (incoming.length) {
+      html += `<div class="nx-p-links-title">caused by</div>`;
+      incoming.forEach(([a,,,why]) => { html += `<div class="nx-p-link" data-jump="${a}">← ${NX.nodeById[a].label} <span style="opacity:.6">— ${why}</span></div>`; });
+    }
+    if (outgoing.length) {
+      html += `<div class="nx-p-links-title" style="margin-top:7px">leads to</div>`;
+      outgoing.forEach(([,b,,why]) => { html += `<div class="nx-p-link" data-jump="${b}">→ ${NX.nodeById[b].label} <span style="opacity:.6">— ${why}</span></div>`; });
+    }
+    html += `</div>`;
+  } else if (n.orphan) {
+    html += `<div class="nx-p-links"><div class="nx-p-links-title">connections</div><div style="font-size:12px;color:#888">None found in the sources — shown disconnected rather than forced into the web.</div></div>`;
+  }
+  const body = document.getElementById('nx-popup-body');
+  body.innerHTML = html;
+  body.querySelectorAll('[data-jump]').forEach(elx => elx.addEventListener('click', (e)=>{ e.stopPropagation(); showNexusNode(elx.getAttribute('data-jump')); }));
+  const popup = document.getElementById('nx-popup');
+  popup.style.borderTopColor = n.external ? '#8a8060' : lane.color;
+  popup.classList.add('open');
+}
+
 // ── VIEW SWITCHING ────────────────────────────────────────────────────────────
 function setView(v) {
+  if (v === 'nexus' && !NEXUS_DATA) v = 'list'; // no causal web for this folio — fall back quietly
   currentView = v;
   document.getElementById('list-view').style.display      = v==='list'     ? 'block' : 'none';
   document.getElementById('timeline-view').style.display  = v==='timeline' ? 'block' : 'none';
   document.getElementById('map-view').style.display       = v==='map'      ? 'block' : 'none';
+  document.getElementById('nexus-view').style.display     = v==='nexus'    ? 'block' : 'none';
   document.getElementById('btn-list').classList.toggle('active',     v==='list');
   document.getElementById('btn-timeline').classList.toggle('active', v==='timeline');
   document.getElementById('btn-map').classList.toggle('active',      v==='map');
+  document.getElementById('btn-nexus').classList.toggle('active',    v==='nexus');
   if (v==='map' && !leafMap) initMap();
   if (v==='timeline') setTimeout(buildTimeline, 40);
+  if (v==='nexus' && NEXUS_BUILT_FOR !== MOD.id) { buildNexus(); NEXUS_BUILT_FOR = MOD.id; }
+  if (v!=='nexus') closeNexusPopup();
   writeHash(false);
 }
 
