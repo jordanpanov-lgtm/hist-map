@@ -29,18 +29,18 @@ within one.
 Two more things distinguish a Nexus from a generic "everything connects to everything" diagram, and
 both are load-bearing:
 
-1. **A critical path.** Within the web, identify the one connected chain that has *no slack* — where
-   removing any single link breaks the causal chain that follows it (see "Critical path" below for
-   the exact test). Not every folio has a clean single chain; the Mamluk one does (a chain from the
-   Mongol destruction of Baghdad through to Ottoman conquest), because it's a single continuous state
-   with one central seat of power. A folio built around several parallel, non-interacting polities
-   may not have one clean chain — say so rather than forcing one.
+1. **Hub highlighting, computed automatically — not authored.** The app itself ranks the three nodes
+   with the most total edges (either tier) and highlights every edge touching them gold / silver /
+   bronze (rank 1 / 2 / 3), so a reader's eye lands first on the folio's real centres of causal
+   gravity. This used to be a hand-picked "critical path" field in the sidecar file; it isn't anymore
+   (see "Hub highlighting" below) — you do not write or choose anything for this, `buildNexus()` in
+   `index.html` derives it live from whatever `edges[]` you write. Getting `edges[]` right (Steps 1-3
+   below) is what actually determines which three nodes light up, so the honesty burden is still on
+   the edges, just not on a separate field.
 2. **Honest orphans.** If an entry's `hint`/`note` gives no causal link to anything else in the
    folio, it is rendered disconnected (dashed border, no edges) rather than force-connected to
-   something nearby in time. The Mamluk Nexus has one (`tc4`, block-printed amulets — a real
-   technology with no stated causal tie to anything else in the corpus). A Nexus with zero orphans
-   across ~90 entries should read as suspicious, not as a job well done — it likely means edges were
-   invented to avoid loose ends.
+   something nearby in time. A Nexus with zero orphans across ~90 entries should read as suspicious,
+   not as a job well done — it likely means edges were invented to avoid loose ends.
 
 The governing rule for the whole exercise: **every edge must be traceable to something the folio's
 own `hint` or `note` field already says, or to well-established background history you can cite**
@@ -67,10 +67,15 @@ needed** — the sidecar is fetched directly by filename convention, not looked 
 ```jsonc
 {
   "nodes": [ /* every folio entry that appears in the web, plus external-force nodes */ ],
-  "edges": [ /* directed causal links, as 4-tuples */ ],
-  "criticalPath": [ /* edge keys with no slack, as "from>to" strings */ ]
+  "edges": [ /* directed causal links, as 4-tuples */ ]
 }
 ```
+
+That's the whole schema — two arrays, nothing else. (An earlier version of this format had a third
+`criticalPath` array of hand-picked "no slack" edges; the app no longer reads it, because it reliably
+collapsed into a bare dynastic succession list — see "Hub highlighting" below for what replaced it.
+Don't add a `criticalPath` field to a new file; if you're editing an old one that still has one, it's
+inert and fine to delete.)
 
 ### `nodes[]`
 
@@ -125,18 +130,6 @@ deposition opens the strongmen interregnum, and separately the interregnum's end
 is two edges, `k6→k7` and `k7→k6`, each with its own `why` — not one bidirectional edge. There is no
 special bidirectional-edge syntax; just add both directed edges.
 
-### `criticalPath[]` — edge keys, not node ids
-
-```jsonc
-"criticalPath": ["ext1>c1", "c1>k2", "k2>k3", ...]
-```
-
-Each entry is `"${from}>${to}"` for one specific edge already present in `edges[]` (the app looks
-this set up as `new Set(NEXUS_DATA.criticalPath)` and matches it against each rendered edge's own
-`from+'>'+to`). It is a **set of edges**, not a path object — order in the array doesn't matter to
-the renderer, though writing it in causal sequence (as the Mamluk file does) makes the source file
-itself readable as a one-paragraph narrative of the whole folio.
-
 ---
 
 ## Analytical methodology — how to actually build one
@@ -183,69 +176,56 @@ For each causal relationship found in Steps 1-2, write the edge and immediately 
   chain: two entries belong to the same endowment culture, the same barracks system, the same
   scholarly milieu, without one text asserting that one produced the other. `b1`→`b5` ("the same
   institutional flourishing produces the age of hadith scholarship") is loose for exactly this
-  reason. Loose edges are rendered dashed and thinner, and are excluded from the critical path by
-  construction (a "no slack" chain cannot rest on a merely-thematic link).
+  reason. Loose edges are rendered dashed and thinner — but note they still count toward a node's
+  degree for hub highlighting (see below), so don't tier something `loose` just to keep it out of the
+  hub computation; tier it by how it's actually justified.
 
 Do **not** default to `strong` to make the graph look more rigorous — the tier distinction is the
 mechanism that keeps the graph honest, and a Nexus with mostly-strong tiers on a folio full of
 parallel independent developments should be treated as a red flag during review, not a good sign.
 
-### Step 4 — Find the critical path: centre it on the graph's own hubs, don't default to the king-list
+### Hub highlighting — computed by the app, nothing to author
 
-Trace the single chain, if one exists, where every link is `strong` and where removing any one link
-would sever the chain that follows from it — i.e., no alternate route in the graph reaches the same
-downstream nodes if that specific edge is cut.
+Earlier versions of this format had you hand-pick a `criticalPath`: the one "no slack" chain through
+the graph, highlighted gold. In practice this reliably collapsed into a bare dynastic succession
+list — a folio's `power` entries naturally accumulate the most cross-references (every other
+category's entries tend to mention which ruler's reign they fall under), so a lazy pass always found
+a technically-valid, unbroken chain of ruler→ruler edges spanning the whole folio. It was real
+causation, but a "critical path" that's 85%+ one category reads as a king-list wearing a causal-web
+costume, not as the one connected story a Nexus exists to show.
 
-**Do not default to "the succession chain, start to finish."** A dynastic folio's `power` entries
-naturally accumulate the most cross-references — every other category's entries tend to mention which
-ruler's reign they fall under — so a lazy pass will always find a technically-valid, unbroken chain of
-bare rulerN→rulerN+1 edges spanning the whole folio. It is real causation (a caliph's death really
-does open his successor's reign), but a critical path that is 85%+ one category reads as a king-list
-wearing a causal-web costume, not as "one connected story" — the whole reason to build a Nexus.
+`buildNexus()` now computes this itself, live, every time it renders: it counts each node's total
+edge degree (in-edges plus out-edges, **both tiers** — a `loose` edge counts same as `strong` here,
+since the question is "how much does this event touch," not "how certain is each individual link"),
+ranks the top three, and highlights every edge touching each of those three nodes gold / silver /
+bronze (rank 1 / 2 / 3 respectively; an edge touching two ranked hubs takes the higher rank's colour).
+There is nothing to write in the sidecar file for this — you cannot choose or override which three
+nodes light up, short of changing what `edges[]` actually says, which is exactly the point: the
+highlight is an honest read-out of the graph you built, not a narrative you additionally curated on
+top of it.
 
-The fix is mechanical, not aesthetic. Before drafting `criticalPath`, compute degree (in-edges plus
-out-edges, `strong` tier only) for every node:
+**What this means for how you draft `edges[]` (Step 3 above):** the hub ranking is a downstream
+signal, not something to design toward. Don't add an edge, or bump a tier, to try to engineer a
+particular node into the top three — that's the same dishonesty the old critical-path field invited,
+just moved one step earlier. Write every edge because it's independently true per Steps 1-3; then, as
+a **check** (not a target), look at what actually ranked. If a folio's top three all turn out to be
+rulers, that may simply be an honest fact about a tightly dynastic story — but it's worth first
+checking whether a real conflict, economic, or belief-lane connection was left un-drafted that would
+have told a truer story. A quick sanity check after drafting:
 
 ```js
-const strong = edges.filter(e => e[2] === 'strong');
-const deg = {};
-nodes.forEach(n => deg[n.id] = 0);
-strong.forEach(([a, b]) => { deg[a]++; deg[b]++; });
-// sort nodes by deg, descending — the top of that list is your hub set
+const degree = {};
+nodes.forEach(n => degree[n.id] = 0);
+edges.forEach(([a, b]) => { degree[a]++; degree[b]++; });
+nodes.slice().sort((a, b) => degree[b.id] - degree[a.id]).slice(0, 3)
+  .forEach(n => console.log(degree[n.id], n.lane, n.label));
 ```
 
-The highest-degree node (or two, if there's a near-tie) is almost always the folio's real centre of
-gravity, and it is frequently **not** a ruler — a single battle, plague, economic shift, or schism that
-the folio's authors independently cross-referenced from many other entries. Build the critical path
-*around* that hub: walk outward from it in both time directions, and at every junction prefer an
-existing `strong` edge that routes through a **different lane** than a same-lane succession hop would,
-even if that means the path visits fewer of the folio's individual rulers by name. A ruler whose reign
-contributed no distinctive edge of their own can be a gap in the gold line without weakening it — the
-line marks *no slack*, not *complete coverage of the power category*.
+If the top three are all `power` and a moment's thought doesn't turn up a missed cross-lane edge, take
+the result at face value — some folios genuinely are that dynastically concentrated, and the point of
+the check is to catch an authoring shortcut, not to force artificial diversity into an honest graph.
 
-Concretely: if `rulerN → rulerN+1` is your only edge between two reigns, that hop is unavoidable and
-fine to keep — but if `rulerN` also has a `strong` edge into a conflict/economy/belief/world node that
-in turn leads back into `rulerN+1` (or further down the timeline), prefer that two-hop route over the
-direct one. It is usually more specific too: "the Kharijites the Siffin arbitration creates are the
-ones who kill Ali" is a sharper claim than "Uthman's murder opens Ali's caliphate, then Ali is
-succeeded by Muawiya." Adding one or two new, well-sourced edges to make such a reroute possible is
-legitimate — it's still bound by the same sourcing rule as every other edge (Step 3), it's just being
-added because the critical path exposed a gap in the graph's own routing, not because the story needed
-padding.
-
-**Target and check.** After drafting, count `criticalPath` nodes by lane the same way. There's no hard
-threshold, but if one lane (almost always `power`) is still comfortably over half the path after a
-genuine hub-routing pass, look again — either a real cross-lane alternative was missed, or the folio's
-own content genuinely is that dynastically concentrated and the ratio is honest; the check is there to
-catch the lazy default, not to force an artificial quota.
-
-If the folio genuinely has two or more independent centers of causation that never causally
-intersect, there may be no single critical path — do not force two unrelated chains into one
-`criticalPath` array by inserting a manufactured link between them. It's fine, and more honest, to
-either omit `criticalPath` (empty array) or describe two shorter critical paths in the surrounding
-prose/intro text and put only the stronger of the two in the actual array.
-
-### Step 5 — Review pass, looking specifically for these failure modes
+### Step 4 — Review pass, looking specifically for these failure modes
 
 - An edge whose `why` doesn't actually name a mechanism ("related to," "connects to") — rewrite it to
   state the specific causal claim, or drop the edge.
@@ -257,8 +237,8 @@ prose/intro text and put only the stronger of the two in the actual array.
 - A `strong` edge that's actually just topical similarity — retier to `loose` or drop.
 - A node with no edges at all that isn't marked as an intentional orphan in your own head — either
   find its real connection or accept it as an orphan; don't force a spurious edge just to avoid one.
-- A critical path that skips a step it depends on, includes a `loose`-tier edge, or is dominated by a
-  single lane without a hub-degree check (see Step 4) to justify it.
+- An edge added or re-tiered because it would change which node ranks in the top-3 hub highlight,
+  rather than because it's independently true — see "Hub highlighting" above.
 - External nodes not clearly marked as folio-sourced vs. editorially-added in `src`.
 
 ---
@@ -298,8 +278,8 @@ and debug it if something regresses, not as a to-do list.
   popup with the node's `full`/`src` text and clickable "caused by"/"leads to" links (which jump the
   popup to that neighboring node without closing it); clicking empty diagram space, or the popup's own
   close button, resets to the default view. A "Show every connection" toggle (`#nx-toggle-all`) lets a
-  reader see every edge at once at reduced opacity instead of only the critical path standing out by
-  default.
+  reader see every edge at once at reduced opacity instead of only the top-3 hubs' edges standing out
+  by default.
 
 If you need to change any of this behavior for a specific folio, that's a sign the generic mechanism
 needs to change (edit `buildNexus()` in `index.html`, which every folio's Nexus shares), not that the
@@ -315,30 +295,28 @@ sidecar format should grow a per-folio escape hatch — keep the sidecar schema 
    prefix and `external:true`. Skip entries with no causal role rather than padding.
 3. Draft `edges[]`, tiering each `strong`/`loose` honestly (Step 3), sourcing every `why` back to the
    folio's own text or a cited external fact.
-4. Trace the `criticalPath[]`, or consciously decide the folio doesn't have one clean chain and say so.
-5. Review pass against the failure-mode list above.
-6. Save as `modules/<folioId>.nexus.json` — no registry entry, no `validate.js` changes, nothing else
+4. Review pass against the failure-mode list above, including the hub-degree sanity check.
+5. Save as `modules/<folioId>.nexus.json` — no registry entry, no `validate.js` changes, nothing else
    to wire up. Reload the app on that folio and confirm the 🕸 Nexus tab appears.
-7. Sanity-check in the browser: every lane's nodes plotted in year order, the critical path visibly
-   gold, at least skim a few node popups for their "caused by"/"leads to" text reading correctly, and
-   confirm the diagram doesn't need a horizontal scrollbar at a normal window width.
+6. Sanity-check in the browser: every lane's nodes plotted in year order, the top-3 hub nodes visibly
+   gold/silver/bronze and narratively sensible, at least skim a few node popups for their "caused
+   by"/"leads to" text reading correctly, and confirm the diagram doesn't need a horizontal scrollbar
+   at a normal window width.
 
 There is no `validate.js` check for `.nexus.json` files today — correctness here is editorial review,
 not schema validation. If this capability gets rolled out across many folios, a lightweight validator
-(node ids resolve to real folio entries or external ids, edge endpoints exist, criticalPath entries
-match real edges) would be a reasonable future addition to `modules/validate.js`, but building that is
-a separate task from building any individual Nexus file.
+(node ids resolve to real folio entries or external ids, edge endpoints exist) would be a reasonable
+future addition to `modules/validate.js`, but building that is a separate task from building any
+individual Nexus file.
 
 ---
 
 ## Worked example
 
 `modules/mamluks-1250-1517.nexus.json` (97 nodes: 89 folio entries + 8 external-force nodes, 110
-edges, 29-edge critical path, 1 honest orphan) is the model instance — read it alongside this guide
-the first time you build a new one. Its critical path runs, in outline: the Mongol sack of Baghdad →
-Ayn Jalut → the Baybars/Qalawun/Khalil succession chain → the long al-Nasir Muhammad era → the Black
-Death → the strongmen decades → Barquq's Circassian regime (redirected by the Golden Horde's collapse
-under Timur) → Timur's invasion of Syria → the 15th-century sultans → the Ottoman gunpowder buildup
-and the Portuguese Cape route converging on → Marj Dabiq → the fall of Cairo. That one paragraph is
-what a critical path is *for*: a single connected story a reader can hold in their head, with every
-link in it independently checkable against the `why` text and the folio's own sources.
+edges, 1 honest orphan) is the model instance — read it alongside this guide the first time you build
+a new one. Its highest-degree nodes cluster around the Baybars/Qalawun/Khalil succession, the Black
+Death, and the Ottoman-Portuguese convergence on Marj Dabiq — the same backbone an earlier, hand-picked
+critical path used to trace from the Mongol sack of Baghdad through Ayn Jalut, the strongmen decades,
+Barquq's Circassian regime, and Timur's invasion, to the fall of Cairo. The hub highlighting now
+surfaces that same centre of gravity automatically, without anyone having had to choose it.

@@ -307,8 +307,9 @@ candidate; a folio of mostly-independent parallel developments is not).
 If building one, read `modules/NEXUS_GUIDE.md` in full first — it is the schema and methodology
 reference, with `modules/mamluks-1250-1517.nexus.json` as the worked example. In short: a
 `modules/<id>.nexus.json` sidecar (never inside the folio's own JSON) listing `nodes` (folio entries
-by their real `id`, plus named external forces), `edges` (directed, sourced causal links tiered
-`strong`/`loose`), and an optional `criticalPath` (the one chain with no slack, if the folio has one).
+by their real `id`, plus named external forces) and `edges` (directed, sourced causal links tiered
+`strong`/`loose`) — that's the whole schema. The app highlights the folio's own three most-connected
+nodes gold/silver/bronze automatically; nothing else needs to be authored for that.
 No `config/registry.js` entry and no `validate.js` changes are needed — `index.html` auto-detects the
 sidecar file by name and shows a 🕸 Nexus tab only when it exists.
 

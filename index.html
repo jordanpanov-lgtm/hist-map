@@ -187,7 +187,9 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 #nx-legend{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-bottom:12px;padding:9px 14px;background:#fafafa;border:1px solid #e0d8cc;border-radius:6px;font-size:11px;color:#666}
 .nx-lg-row{display:flex;align-items:center;gap:6px}
 .nx-line{width:20px;height:0;border-top:2px solid #8a8060}
-.nx-line.critical{border-top-color:#b8860b;border-top-width:2.5px}
+.nx-line.hub1{border-top-color:#b8860b;border-top-width:2.5px}
+.nx-line.hub2{border-top-color:#8a94a6;border-top-width:2.5px}
+.nx-line.hub3{border-top-color:#a3672b;border-top-width:2.5px}
 .nx-line.loose{border-top:1.5px dashed #bbb}
 .nx-node-swatch{width:14px;height:9px;border:1.5px dashed #8a8060;border-radius:2px}
 #nx-toggle-all{font-size:10px;font-family:'Courier New',monospace;padding:4px 10px;border:1px solid #bbb;border-radius:3px;background:#fff;color:#555;cursor:pointer;letter-spacing:.05em;margin-left:auto}
@@ -219,7 +221,10 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .nx-node.external text, .nx-node.orphan text{fill:#888}
 .nx-node .nx-yr{font-family:'Courier New',monospace;font-size:6.6px;font-weight:600;opacity:.9}
 .nx-node.dim{opacity:.25}
-.nx-node.hi rect{stroke:#b8860b;stroke-width:2.6}
+.nx-node.hub1 rect{stroke:#b8860b;stroke-width:2.6}
+.nx-node.hub2 rect{stroke:#8a94a6;stroke-width:2.6}
+.nx-node.hub3 rect{stroke:#a3672b;stroke-width:2.6}
+.nx-node.hi rect{stroke:#0e2a18 !important;stroke-width:2.8 !important}
 .nx-node.orphan rect{fill:transparent;stroke:#bbb;stroke-dasharray:2 2}
 .nx-lane-band{fill:#fafafa}
 .nx-lane-band.alt{fill:#fff}
@@ -231,10 +236,14 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .nx-edge-loose{fill:none;stroke:#bbb;stroke-width:1;stroke-dasharray:1.5 3;opacity:.09;transition:opacity .15s}
 .nx-edge-hit{fill:none;stroke:transparent;stroke-width:9;cursor:pointer}
 .nx-edge-strong.on,.nx-edge-loose.on{opacity:1;stroke-width:2.1}
-.nx-edge-critical{stroke:#b8860b !important;stroke-dasharray:none !important;opacity:.8 !important;stroke-width:1.8 !important}
-.nx-edge-critical.on{stroke-width:2.8 !important;opacity:1 !important}
-body.nx-show-all .nx-edge-strong:not(.nx-edge-critical){opacity:.5}
-body.nx-show-all .nx-edge-loose:not(.nx-edge-critical){opacity:.45}
+.nx-edge-hub1{stroke:#b8860b !important;stroke-dasharray:none !important;opacity:.85 !important;stroke-width:1.9 !important}
+.nx-edge-hub1.on{stroke-width:2.9 !important;opacity:1 !important}
+.nx-edge-hub2{stroke:#8a94a6 !important;stroke-dasharray:none !important;opacity:.8 !important;stroke-width:1.7 !important}
+.nx-edge-hub2.on{stroke-width:2.7 !important;opacity:1 !important}
+.nx-edge-hub3{stroke:#a3672b !important;stroke-dasharray:none !important;opacity:.75 !important;stroke-width:1.6 !important}
+.nx-edge-hub3.on{stroke-width:2.6 !important;opacity:1 !important}
+body.nx-show-all .nx-edge-strong:not(.nx-edge-hub1):not(.nx-edge-hub2):not(.nx-edge-hub3){opacity:.5}
+body.nx-show-all .nx-edge-loose:not(.nx-edge-hub1):not(.nx-edge-hub2):not(.nx-edge-hub3){opacity:.45}
 
 /* ── MODAL ── */
 #modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:2000;align-items:center;justify-content:center;padding:20px}
@@ -351,9 +360,11 @@ body.nx-show-all .nx-edge-loose:not(.nx-edge-critical){opacity:.45}
 
 <div id="nexus-view">
   <div id="nexus-area">
-    <p id="nx-intro">Every entry in this folio, laid out as one causal web — hand-curated, not auto-generated. Solid lines are causation the folio's own hints and notes state outright; the gold path is the single chain with no slack in it. Click a node for its links; click empty space to reset.</p>
+    <p id="nx-intro">Every entry in this folio, laid out as one causal web — hand-curated, not auto-generated. Solid lines are causation the folio's own hints and notes state outright; gold, silver and bronze mark the links of this folio's three most-connected events — the clusters where causation concentrates. Click a node for its links; click empty space to reset.</p>
     <div id="nx-legend">
-      <div class="nx-lg-row"><span class="nx-line critical"></span> critical path</div>
+      <div class="nx-lg-row"><span class="nx-line hub1"></span> #1 most-connected</div>
+      <div class="nx-lg-row"><span class="nx-line hub2"></span> #2 most-connected</div>
+      <div class="nx-lg-row"><span class="nx-line hub3"></span> #3 most-connected</div>
       <div class="nx-lg-row"><span class="nx-line"></span> stated causation</div>
       <div class="nx-lg-row"><span class="nx-line loose"></span> same current</div>
       <div class="nx-lg-row"><span class="nx-node-swatch"></span> external force, not a folio entry</div>
@@ -401,7 +412,7 @@ let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
 let currentView = 'list';
-let NEXUS_DATA = null;      // {nodes, edges, criticalPath} from modules/<id>.nexus.json, if one exists
+let NEXUS_DATA = null;      // {nodes, edges} from modules/<id>.nexus.json, if one exists
 let NEXUS_BUILT_FOR = null; // MOD.id the #nx-svg was last rendered for, so switching back doesn't rebuild
 const _HASH_VIEWS = new Set(['list', 'timeline', 'map', 'nexus']); // reserved 2nd hash segments
 let _selfHash = false;   // set immediately before we assign location.hash ourselves
@@ -510,14 +521,21 @@ function renderHeader() {
 }
 
 // ── NEXUS (causal web) ──────────────────────────────────────────────────────
-// Renders NEXUS_DATA ({nodes, edges, criticalPath}) — a hand-curated causal
-// reading of the current folio, fetched from modules/<id>.nexus.json — as a
-// lane-per-category SVG diagram. Lane colour/label comes live from MOD's own
-// categories (catAccent), so it can never drift from the app's own palette.
-// Sized to the stage's actual width so the diagram never needs a horizontal
-// scrollbar; node detail opens in a floating popup, not a reserved column,
-// so the popup never eats into the diagram's own width.
-let NX = null; // {nodeById, edgeEls, nodeEls, criticalSet}
+// Renders NEXUS_DATA ({nodes, edges}) — a hand-curated causal reading of the
+// current folio, fetched from modules/<id>.nexus.json — as a lane-per-category
+// SVG diagram. Lane colour/label comes live from MOD's own categories
+// (catAccent), so it can never drift from the app's own palette. Sized to the
+// stage's actual width so the diagram never needs a horizontal scrollbar; node
+// detail opens in a floating popup, not a reserved column, so the popup never
+// eats into the diagram's own width.
+//
+// The three most-connected events (by raw edge count, either tier — the graph's
+// own hubs) are highlighted gold/silver/bronze by default, rather than a single
+// hand-picked "critical path": that earlier design read as a disguised king-list,
+// since power-lane entries naturally accumulate the most cross-references in a
+// dynastic folio. Highlighting is computed live from NEXUS_DATA.edges, so no
+// per-folio authoring is needed — see NEXUS_GUIDE.md.
+let NX = null; // {nodeById, edgeEls, nodeEls, hubRank}
 
 function buildNexus() {
   const stageEl = document.getElementById('nx-stage');
@@ -530,11 +548,17 @@ function buildNexus() {
 
   const nodes = NEXUS_DATA.nodes.map(n => ({...n}));
   const edges = NEXUS_DATA.edges;
-  const criticalSet = new Set(NEXUS_DATA.criticalPath);
   const nodeById = Object.fromEntries(nodes.map(n=>[n.id,n]));
   const connected = new Set();
   edges.forEach(([a,b])=>{ connected.add(a); connected.add(b); });
   nodes.forEach(n => { n.orphan = !connected.has(n.id) && !n.external; });
+
+  // Rank the top 3 nodes by total edge count (both tiers) — the graph's own hubs.
+  const degree = {};
+  nodes.forEach(n => degree[n.id] = 0);
+  edges.forEach(([a,b]) => { if(degree[a]!=null) degree[a]++; if(degree[b]!=null) degree[b]++; });
+  const hubRank = {}; // nodeId -> 1, 2 or 3
+  nodes.slice().sort((a,b)=>degree[b.id]-degree[a.id]).slice(0,3).forEach((n,i)=>{ hubRank[n.id] = i+1; });
 
   const years = nodes.map(n=>n.year);
   const YEAR_MIN = Math.min(...years) - 2, YEAR_MAX = Math.max(...years) + 2;
@@ -590,7 +614,8 @@ function buildNexus() {
 
   const defs = el('defs',{});
   const mk = (id,color) => { const m=el('marker',{id,markerWidth:7,markerHeight:7,refX:6,refY:3,orient:'auto'}); m.appendChild(el('path',{d:'M0,0 L7,3 L0,6 Z',fill:color})); return m; };
-  defs.appendChild(mk('nx-arrow-strong','#8a8060')); defs.appendChild(mk('nx-arrow-loose','#bbb')); defs.appendChild(mk('nx-arrow-critical','#b8860b'));
+  defs.appendChild(mk('nx-arrow-strong','#8a8060')); defs.appendChild(mk('nx-arrow-loose','#bbb'));
+  defs.appendChild(mk('nx-arrow-hub1','#b8860b')); defs.appendChild(mk('nx-arrow-hub2','#8a94a6')); defs.appendChild(mk('nx-arrow-hub3','#a3672b'));
   svg.appendChild(defs);
 
   function anchor(n, side){ const cy=n.y+NODE_H/2; return side==='r' ? [n.x+NODE_W, cy] : [n.x, cy]; }
@@ -603,10 +628,12 @@ function buildNexus() {
   const edgeGroup = el('g',{}); const edgeEls = [];
   edges.forEach(([a,b,tier,why])=>{
     const na=nodeById[a], nb=nodeById[b]; if(!na||!nb) return;
-    const critical = criticalSet.has(a+'>'+b);
+    // an edge touching two ranked hubs takes the higher rank's colour (1 beats 2 beats 3)
+    const touchedRanks = [hubRank[a], hubRank[b]].filter(Boolean);
+    const hubTier = touchedRanks.length ? Math.min(...touchedRanks) : null;
     let cls = tier==='strong' ? 'nx-edge-strong' : 'nx-edge-loose';
-    if(critical) cls += ' nx-edge-critical';
-    const marker = critical ? 'url(#nx-arrow-critical)' : (tier==='strong' ? 'url(#nx-arrow-strong)' : 'url(#nx-arrow-loose)');
+    if(hubTier) cls += ' nx-edge-hub' + hubTier;
+    const marker = hubTier ? `url(#nx-arrow-hub${hubTier})` : (tier==='strong' ? 'url(#nx-arrow-strong)' : 'url(#nx-arrow-loose)');
     const d = curvePath(na,nb);
     const path = el('path',{d, class:cls, 'marker-end':marker});
     const hit = el('path',{d, class:'nx-edge-hit'});
@@ -618,7 +645,7 @@ function buildNexus() {
 
   const nodeGroup = el('g',{}); const nodeEls = {};
   nodes.forEach(n=>{
-    const g = el('g',{class:'nx-node'+(n.external?' external':'')+(n.orphan?' orphan':''), 'data-id':n.id});
+    const g = el('g',{class:'nx-node'+(n.external?' external':'')+(n.orphan?' orphan':'')+(hubRank[n.id]?' hub'+hubRank[n.id]:''), 'data-id':n.id});
     const laneColor = LANES[laneIndex[n.lane]].color;
     g.appendChild(el('rect',{x:n.x,y:n.y,width:NODE_W,height:NODE_H,rx:4,
       fill: n.external||n.orphan ? 'transparent' : laneColor,
@@ -632,7 +659,7 @@ function buildNexus() {
   });
   svg.appendChild(nodeGroup);
 
-  NX = { LANES, laneIndex, nodeById, edges, edgeEls, nodeEls, criticalSet };
+  NX = { LANES, laneIndex, nodeById, edges, edgeEls, nodeEls, hubRank };
 
   // click anywhere in the tab that isn't a node/edge/link/toggle closes the popup
   const area = document.getElementById('nexus-area');
@@ -643,7 +670,7 @@ function buildNexus() {
   document.getElementById('nx-toggle-all').onclick = (e) => {
     e.stopPropagation();
     const on = document.body.classList.toggle('nx-show-all');
-    e.target.textContent = on ? 'Show critical path only' : 'Show every connection';
+    e.target.textContent = on ? 'Show top 3 only' : 'Show every connection';
   };
   document.getElementById('nx-popup-close').onclick = closeNexusPopup;
 }
