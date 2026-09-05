@@ -538,8 +538,13 @@ function buildNexus() {
 
   const years = nodes.map(n=>n.year);
   const YEAR_MIN = Math.min(...years) - 2, YEAR_MAX = Math.max(...years) + 2;
-  const LEFT_PAD = 38, RIGHT_PAD = 24;
   const NODE_W = 80, NODE_H = 27, ROW_GAP = 5, LANE_PAD = 9;
+  // Nodes are positioned by their LEFT edge (xOf(year)), so the right margin must
+  // clear a full node's width or the rightmost node's box — and any node that lands
+  // near the end of the timeline — extends past the SVG's own viewBox and is
+  // silently clipped by the SVG boundary itself (invisible regardless of container
+  // scroll or browser zoom, since it happens inside the coordinate system).
+  const LEFT_PAD = 38, RIGHT_PAD = NODE_W + 20;
   const availW = Math.max(600, stageEl.clientWidth - 16);
   const PX_PER_YEAR = Math.max(1.6, (availW - LEFT_PAD - RIGHT_PAD) / (YEAR_MAX - YEAR_MIN));
   const W = LEFT_PAD + (YEAR_MAX-YEAR_MIN)*PX_PER_YEAR + RIGHT_PAD;
