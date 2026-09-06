@@ -76,7 +76,7 @@ const MODULES = [
   // ── NAJD (the central plateau — the Yamama, the caravan cross-routes, the
   //   Wahhabi movement and the Saudi states). Its Ancient record is thin and belongs
   //   to the north (see qedar-853bc-330bc); the Najd thread proper begins at 300 BC.
-  { id:"najd-300bc-632", file:"modules/najd-300bc-632.json", label:"Late Antique Najd 300 BC–632 AD", sub:"Qaryat al-Faw, the Kingdom of Kindah, the Age of the Poets and the Ridda", region:"NW Arabia", period:"Late Antique" },
+  { id:"najd-300bc-632", file:"modules/najd-300bc-632.json", label:"Kindah, the Poets and the Ridda 300 BC–632 AD", sub:"Qaryat al-Faw, the Kindah Kingdoms, the Pre-Islamic Poets and the Ridda Wars", region:"NW Arabia", period:"Late Antique" },
   { id:"najd-632-1517", file:"modules/najd-632-1517.json", label:"Medieval Najd 632–1517", sub:"The Yamāma Province, the Ukhaydirid Emirate, the Bedouin Centuries and the Founding of the Oasis Towns", region:"NW Arabia", period:"Medieval" },
   { id:"najd-1517-1744", file:"modules/najd-1517-1744.json", label:"Najd on the Eve of the Reform 1517–1744", sub:"The Oasis-Town Emirates, Banū Khālid Overlordship and the Road to the Pact of Dirʿiyya", region:"NW Arabia", period:"Early Modern" },
   { id:"najd-1744-1900", file:"modules/najd-1744-1900.json", label:"The Two Saudi Emirates 1744–1900", sub:"The First Saudi State, the Egyptian Destruction, the Second State and the Rise of the Āl Rashīd", region:"NW Arabia", period:"Early Modern" },
