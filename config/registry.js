@@ -63,6 +63,7 @@ const MODULES = [
   { id:"najd-632-1517", file:"modules/najd-632-1517.json", label:"Medieval Najd 632–1517", sub:"The Yamāma Province, the Ukhaydirid Emirate, the Bedouin Centuries and the Founding of the Oasis Towns", region:"Arabia", period:"Medieval" },
   { id:"najd-1517-1744", file:"modules/najd-1517-1744.json", label:"Najd on the Eve of the Reform 1517–1744", sub:"The Oasis-Town Emirates, Banū Khālid Overlordship and the Road to the Pact of Dirʿiyya", region:"Arabia", period:"Early Modern" },
   { id:"najd-1744-1900", file:"modules/najd-1744-1900.json", label:"The Two Saudi Emirates 1744–1900", sub:"The First Saudi State, the Egyptian Destruction, the Second State and the Rise of the Āl Rashīd", region:"Arabia", period:"Early Modern" },
+  { id:"saudi-1902-today", file:"modules/saudi-1902-today.json", label:"The Kingdom of Saudi Arabia 1902–today", sub:"Ibn Saud's Conquest, the Oil State, the Turn of 1979 and the MBS Transformation", region:"Arabia", period:"Modern" },
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },
