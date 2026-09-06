@@ -27,6 +27,7 @@ const MODULES = [
   // ── NEAR EAST ──────────────────────────────────────────────────────────────
   { id:"egypt-6000bc-3000bc",   file:"modules/egypt-6000bc-3000bc.json",   label:"Predynastic Egypt 6000–3000 BC", sub:"Neolithic Nile, Naqada Cultures and the Rise of Kingship", region:"Egypt", period:"Prehistoric" },
   { id:"egypt-3000bc-2100bc",   file:"modules/egypt-3000bc-2100bc.json",   label:"Ancient Egypt 3000–2100 BC",  sub:"Unification, Pyramids and the First Collapse",region:"Egypt",   period:"Prehistoric"   },
+  { id:"egypt-2100bc-1550bc",   file:"modules/egypt-2100bc-1550bc.json",   label:"Middle Kingdom and the Hyksos 2100–1550 BC", sub:"Reunification, the Classic State, and the Foreign Kings of the Delta", region:"Egypt", period:"Prehistoric" },
   { id:"nabataean-312bc-106ce", file:"modules/nabataean-312bc-106ce.json", label:"Nabataean Kingdom 312BC–106", sub:"The Incense Kingdom of Petra",                region:"NW Arabia",  period:"Late Antique"  },
   // placed here — after Nabataea — because it is the Roman-province aftermath of it;
   //   its Medieval sibling nw-arabia-632-1517 sits in the Northwest-oases block below.
