@@ -86,5 +86,6 @@ const MODULES = [
   { id:"trucial-gulf-1820-1971", file:"modules/trucial-gulf-1820-1971.json", label:"The Trucial States & the British Gulf 1820–1971", sub:"The Maritime Truce, the Pearl Bust and the Road to Independence", region:"Arabia", period:"Modern" },
   { id:"uae-1971-today",         file:"modules/uae-1971-today.json",         label:"United Arab Emirates 1971–today", sub:"Federation, Oil Wealth and an Assertive Foreign Policy", region:"Arabia", period:"Modern" },
   { id:"oman-1970-today",        file:"modules/oman-1970-today.json",        label:"Oman 1970–today",              sub:"The Qaboos Renaissance, the Dhofar War and Armed Neutrality", region:"Arabia", period:"Modern" },
+  { id:"kuwait-1961-today",      file:"modules/kuwait-1961-today.json",      label:"The State of Kuwait 1961–today", sub:"Independence, the Gulf's Parliament, the Iraqi Invasion, and the Frozen Rentier State", region:"Arabia", period:"Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
