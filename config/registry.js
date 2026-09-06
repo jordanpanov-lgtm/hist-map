@@ -57,14 +57,14 @@ const MODULES = [
   { id:"hejaz-300bc-632", file:"modules/hejaz-300bc-632.json", label:"Mecca, Yathrib and the Rise of Islam 300 BC–632 AD", sub:"Mecca, Yathrib, the Pre-Islamic Sanctuary and the Life of Muḥammad", region:"NW Arabia", period:"Late Antique" },
   { id:"hejaz-632-1517", file:"modules/hejaz-632-1517.json", label:"Medieval Hejaz 632–1517", sub:"The Caliphal Holy Cities, the Rise of the Sharifs and the Guardianship of the Ḥaramayn", region:"NW Arabia", period:"Medieval" },
   { id:"hejaz-1517-1900", file:"modules/hejaz-1517-1900.json", label:"Ottoman Hejaz 1517–1900", sub:"The Guardianship of the Ḥaramayn, the Wahhābī Interlude, the Steamship Hajj and the Northwest Oases", region:"NW Arabia", period:"Early Modern" },
-  { id:"hejaz-1900-1925", file:"modules/hejaz-1900-1925.json", label:"The Kingdom of the Hejaz 1900–1925", sub:"The Railway, the Arab Revolt, the Hashemite Kingdom and the Saudi Conquest", region:"NW Arabia", period:"Modern" },
+  { id:"hejaz-1900-1925", file:"modules/hejaz-1900-1925.json", label:"Kingdom of the Hejaz 1900–1925", sub:"The Railway, the Arab Revolt, the Hashemite Kingdom and the Saudi Conquest", region:"NW Arabia", period:"Modern" },
   // ── THE NORTHWEST OASES (Taymāʾ, Dadān/al-ʿUlā, Khaybar, Dūmah — the western
   //   corridor; feeds into nabataean-312bc-106ce for the Nabataean period) ─────────
-  { id:"dedan-tayma-1200bc-300bc", file:"modules/dedan-tayma-1200bc-300bc.json", label:"The Oasis Kingdoms: Taymāʾ, Dadān and Lihyān 1,200–300 BC", sub:"Taymāʾ, Nabonidus in Arabia, and the Kingdoms of Dadān and Lihyān", region:"NW Arabia", period:"Ancient" },
+  { id:"dedan-tayma-1200bc-300bc", file:"modules/dedan-tayma-1200bc-300bc.json", label:"Taymāʾ, Dadān and Lihyān 1,200–300 BC", sub:"Taymāʾ, Nabonidus in Arabia, and the Kingdoms of Dadān and Lihyān", region:"NW Arabia", period:"Ancient" },
   // The north-Arabian desert kingdom (Wādī Sirḥān, Dūmat al-Jandal) — dated to its
   //   own span, not the period bucket, since the record is firm from Gindibu (853 BC).
-  { id:"qedar-853bc-330bc", file:"modules/qedar-853bc-330bc.json", label:"The Kingdom of Qedar 853–330 BC", sub:"Gindibu, the Five Arab Queens, Adummatu and the North Arabian Kingdom", region:"NW Arabia", period:"Ancient" },
-  { id:"nw-arabia-632-1517", file:"modules/nw-arabia-632-1517.json", label:"The Medieval Oasis Corridor 632–1517", sub:"A Corridor of the Hajj Roads — the Oases, the Tribes, and the Cities of Thamūd", region:"NW Arabia", period:"Medieval" },
+  { id:"qedar-853bc-330bc", file:"modules/qedar-853bc-330bc.json", label:"Kingdom of Qedar 853–330 BC", sub:"Gindibu, the Five Arab Queens, Adummatu and the North Arabian Kingdom", region:"NW Arabia", period:"Ancient" },
+  { id:"nw-arabia-632-1517", file:"modules/nw-arabia-632-1517.json", label:"Medieval Oasis Corridor 632–1517", sub:"A Corridor of the Hajj Roads — the Oases, the Tribes, and the Cities of Thamūd", region:"NW Arabia", period:"Medieval" },
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread; grouped with SE Arabia
   //   for its Indian-Ocean orientation) ──────────────────────────────────────────
   { id:"south-arabia-prehistory-8000bc-1200bc", file:"modules/south-arabia-prehistory-8000bc-1200bc.json", label:"Prehistoric South Arabia 8,000–1,200 BC", sub:"The Highland Neolithic, the Cattle Cult and the Roots of the Incense Kingdoms", region:"SE Arabia", period:"Prehistoric" },
@@ -72,7 +72,7 @@ const MODULES = [
   { id:"south-arabia-300bc-628", file:"modules/south-arabia-300bc-628.json", label:"Late Antique South Arabia 300 BC–628 AD", sub:"Himyar, the Sabaean Wars, the Turn to Monotheism and the Coming of Aksum and Persia", region:"SE Arabia", period:"Late Antique" },
   { id:"yemen-628-1517", file:"modules/yemen-628-1517.json", label:"Medieval Yemen 628–1517", sub:"Islamisation, the Zaydi Imamate, Queen Arwa, the Rasulid Sultanate and the Coming of the Ottomans", region:"SE Arabia", period:"Medieval" },
   { id:"yemen-1517-1900", file:"modules/yemen-1517-1900.json", label:"Early Modern Yemen 1517–1900", sub:"The Ottoman Century, the Qasimid Imams, the Coffee Boom of Mocha and the British at Aden", region:"SE Arabia", period:"Early Modern" },
-  { id:"yemen-1900-today", file:"modules/yemen-1900-today.json", label:"Modern Yemen 1900–today", sub:"The Imamate, Two Republics, Unification and the War", region:"SE Arabia", period:"Modern" },
+  { id:"yemen-1900-today", file:"modules/yemen-1900-today.json", label:"Yemen 1900–today", sub:"The Imamate, Two Republics, Unification and the War", region:"SE Arabia", period:"Modern" },
   // ── NAJD (the central plateau — the Yamama, the caravan cross-routes, the
   //   Wahhabi movement and the Saudi states). Its Ancient record is thin and belongs
   //   to the north (see qedar-853bc-330bc); the Najd thread proper begins at 300 BC.
@@ -80,7 +80,7 @@ const MODULES = [
   { id:"najd-632-1517", file:"modules/najd-632-1517.json", label:"Medieval Najd 632–1517", sub:"The Yamāma Province, the Ukhaydirid Emirate, the Bedouin Centuries and the Founding of the Oasis Towns", region:"NW Arabia", period:"Medieval" },
   { id:"najd-1517-1744", file:"modules/najd-1517-1744.json", label:"Najd on the Eve of the Reform 1517–1744", sub:"The Oasis-Town Emirates, Banū Khālid Overlordship and the Road to the Pact of Dirʿiyya", region:"NW Arabia", period:"Early Modern" },
   { id:"najd-1744-1900", file:"modules/najd-1744-1900.json", label:"The Two Saudi Emirates 1744–1900", sub:"The First Saudi State, the Egyptian Destruction, the Second State and the Rise of the Āl Rashīd", region:"NW Arabia", period:"Early Modern" },
-  { id:"saudi-1902-today", file:"modules/saudi-1902-today.json", label:"The Kingdom of Saudi Arabia 1902–today", sub:"Ibn Saud's Conquest, the Oil State, the Turn of 1979 and the MBS Transformation", region:"NW Arabia", period:"Modern" },
+  { id:"saudi-1902-today", file:"modules/saudi-1902-today.json", label:"Saudi Arabia 1902–today", sub:"Ibn Saud's Conquest, the Oil State, the Turn of 1979 and the MBS Transformation", region:"NW Arabia", period:"Modern" },
   // ── THE GULF & OMAN (SE Arabia — the Gulf littoral folios + modern states) ──
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"SE Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-1200bc",   file:"modules/dilmun-3000bc-1200bc.json",   label:"Dilmun 3000–1200 BC",           sub:"The Bronze Age Entrepôt of the Gulf",             region:"SE Arabia", period:"Prehistoric" },
@@ -95,11 +95,11 @@ const MODULES = [
   { id:"portuguese-gulf-1507-1650", file:"modules/portuguese-gulf-1507-1650.json", label:"Portuguese Gulf 1507–1650", sub:"Albuquerque's Choke-Point, the Ottoman Challenge and the Ya'ruba Liberation", region:"SE Arabia", period:"Early Modern" },
   { id:"oman-gulf-1650-1820",    file:"modules/oman-gulf-1650-1820.json",    label:"Oman, the Bani Utbah & the Gulf 1650–1820", sub:"The Omani Sea Empire and the Founding of the Gulf Dynasties", region:"SE Arabia", period:"Early Modern" },
   { id:"trucial-gulf-1820-1900", file:"modules/trucial-gulf-1820-1900.json", label:"Trucial States & the Maritime Truce 1820–1900", sub:"The General Treaty, the Making of the Shaykhdoms and the Age of Pearl", region:"SE Arabia", period:"Early Modern" },
-  { id:"trucial-gulf-1900-1971", file:"modules/trucial-gulf-1900-1971.json", label:"Trucial States: Pearl Bust to Independence 1900–1971", sub:"The Pearl Crash, the Coming of Oil and the Retreat from East of Suez", region:"SE Arabia", period:"Modern" },
+  { id:"trucial-gulf-1900-1971", file:"modules/trucial-gulf-1900-1971.json", label:"Trucial States 1900–1971", sub:"The Pearl Crash, the Coming of Oil and the Retreat from East of Suez", region:"SE Arabia", period:"Modern" },
   { id:"uae-1971-today",         file:"modules/uae-1971-today.json",         label:"United Arab Emirates 1971–today", sub:"Federation, Oil Wealth and an Assertive Foreign Policy", region:"SE Arabia", period:"Modern" },
   { id:"oman-1970-today",        file:"modules/oman-1970-today.json",        label:"Oman 1970–today",              sub:"The Qaboos Renaissance, the Dhofar War and Armed Neutrality", region:"SE Arabia", period:"Modern" },
-  { id:"kuwait-1961-today",      file:"modules/kuwait-1961-today.json",      label:"The State of Kuwait 1961–today", sub:"Independence, the Gulf's Parliament, the Iraqi Invasion, and the Frozen Rentier State", region:"SE Arabia", period:"Modern" },
-  { id:"bahrain-1971-today",     file:"modules/bahrain-1971-today.json",     label:"The Kingdom of Bahrain 1971–today", sub:"A Shiʿi-Majority Island under the Āl Khalīfa, the 2011 Uprising, and a Repression Stabilised", region:"SE Arabia", period:"Modern" },
-  { id:"qatar-1971-today",       file:"modules/qatar-1971-today.json",       label:"The State of Qatar 1971–today", sub:"Gas, Al Jazeera, the Blockade, the World Cup and the Mediator's Chair", region:"SE Arabia", period:"Modern" },
+  { id:"kuwait-1961-today",      file:"modules/kuwait-1961-today.json",      label:"Kuwait 1961–today", sub:"Independence, the Gulf's Parliament, the Iraqi Invasion, and the Frozen Rentier State", region:"SE Arabia", period:"Modern" },
+  { id:"bahrain-1971-today",     file:"modules/bahrain-1971-today.json",     label:"Bahrain 1971–today", sub:"A Shiʿi-Majority Island under the Āl Khalīfa, the 2011 Uprising, and a Repression Stabilised", region:"SE Arabia", period:"Modern" },
+  { id:"qatar-1971-today",       file:"modules/qatar-1971-today.json",       label:"Qatar 1971–today", sub:"Gas, Al Jazeera, the Blockade, the World Cup and the Mediator's Chair", region:"SE Arabia", period:"Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
