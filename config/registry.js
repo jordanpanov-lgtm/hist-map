@@ -51,14 +51,14 @@ const MODULES = [
   { id:"hejaz-prehistory-8000bc-1200bc", file:"modules/hejaz-prehistory-8000bc-1200bc.json", label:"Prehistoric Northwest Arabia 8,000–1,200 BC", sub:"Mustatils, the Funerary Avenues and the Walled Oases of Tayma and Khaybar", region:"NW Arabia", period:"Prehistoric" },
   // ── THE HEJAZ (Mecca, Medina, Ṭāʾif, the western coast — a distinct thread from
   //   the NW-Arabian oasis towns and from the central plateau) ────────────────────
-  { id:"hejaz-300bc-632", file:"modules/hejaz-300bc-632.json", label:"The Hejaz and the Prophet 300 BC–632 AD", sub:"Mecca, Yathrib, the Pre-Islamic Sanctuary and the Life of Muḥammad", region:"NW Arabia", period:"Late Antique" },
+  { id:"hejaz-300bc-632", file:"modules/hejaz-300bc-632.json", label:"Mecca, Yathrib and the Rise of Islam 300 BC–632 AD", sub:"Mecca, Yathrib, the Pre-Islamic Sanctuary and the Life of Muḥammad", region:"NW Arabia", period:"Late Antique" },
   { id:"hejaz-632-1517", file:"modules/hejaz-632-1517.json", label:"The Medieval Hejaz 632–1517", sub:"The Caliphal Holy Cities, the Rise of the Sharifs and the Guardianship of the Ḥaramayn", region:"NW Arabia", period:"Medieval" },
   { id:"hejaz-1517-1900", file:"modules/hejaz-1517-1900.json", label:"The Ottoman Hejaz 1517–1900", sub:"The Guardianship of the Ḥaramayn, the Wahhābī Interlude, the Steamship Hajj and the Northwest Oases", region:"NW Arabia", period:"Early Modern" },
   { id:"hejaz-1900-1925", file:"modules/hejaz-1900-1925.json", label:"The Kingdom of the Hejaz 1900–1925", sub:"The Railway, the Arab Revolt, the Hashemite Kingdom and the Saudi Conquest", region:"NW Arabia", period:"Modern" },
   // ── THE NORTHWEST OASES (Taymāʾ, Dadān/al-ʿUlā, Khaybar, Dūmah — the western
   //   corridor; feeds into nabataean-312bc-106ce for the Nabataean period) ─────────
-  { id:"dedan-tayma-1200bc-300bc", file:"modules/dedan-tayma-1200bc-300bc.json", label:"Ancient Northwest Arabia 1,200–300 BC", sub:"Taymāʾ, Nabonidus, and the Oasis Kingdoms of Dadān and Lihyān", region:"NW Arabia", period:"Ancient" },
-  { id:"nw-arabia-106-632", file:"modules/nw-arabia-106-632.json", label:"Late Antique Northwest Arabia 106–632", sub:"The Roman Frontier, the Tribal and Jewish Oases, and the Conquest of the North", region:"NW Arabia", period:"Late Antique" },
+  { id:"dedan-tayma-1200bc-300bc", file:"modules/dedan-tayma-1200bc-300bc.json", label:"The Oasis Kingdoms: Taymāʾ, Dadān and Lihyān 1,200–300 BC", sub:"Taymāʾ, Nabonidus in Arabia, and the Kingdoms of Dadān and Lihyān", region:"NW Arabia", period:"Ancient" },
+  { id:"nw-arabia-106-632", file:"modules/nw-arabia-106-632.json", label:"Rome and the Oases 106–632", sub:"The Roman Frontier, the Tribal and Jewish Oases, and the Conquest of the North", region:"NW Arabia", period:"Late Antique" },
   { id:"nw-arabia-632-1517", file:"modules/nw-arabia-632-1517.json", label:"The Medieval Northwest 632–1517", sub:"A Corridor of the Hajj Roads — the Oases, the Tribes, and the Cities of Thamūd", region:"NW Arabia", period:"Medieval" },
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread; grouped with SE Arabia
   //   for its Indian-Ocean orientation) ──────────────────────────────────────────
