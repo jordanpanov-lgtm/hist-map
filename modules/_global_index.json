@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2901,
-    "folio_count": 52,
-    "xlink_pairs": 194,
-    "keyword_terms": 5558,
+    "total_entries": 2957,
+    "folio_count": 53,
+    "xlink_pairs": 200,
+    "keyword_terms": 5619,
     "folios": [
       {
         "id": "al-andalus-1031-1492",
@@ -259,6 +259,11 @@
         "id": "visigoths-589-711",
         "title": "Visigothic Spain",
         "entries": 32
+      },
+      {
+        "id": "yemen-1517-1900",
+        "title": "Early Modern Yemen",
+        "entries": 56
       },
       {
         "id": "yemen-628-1517",
@@ -3103,6 +3108,62 @@
     "visigoths-589-711::ex5": "Mediterranean commercial rupture — the Pirenne Thesis",
     "visigoths-589-711::lv1": "The Jews of Visigothic Spain — from tolerance to enslavement",
     "visigoths-589-711::lv2": "Visigothic queens — property rights and regency",
+    "yemen-1517-1900::k1": "The Ottoman conquest of Yemen",
+    "yemen-1517-1900::k2": "Garrison and revolt",
+    "yemen-1517-1900::k3": "Imam al-Qasim the Great and the war of expulsion",
+    "yemen-1517-1900::k4": "Imam al-Muʾayyad Muhammad completes the reconquest",
+    "yemen-1517-1900::k5": "Imam al-Mutawakkil Ismaʿil and the Qasimid apogee",
+    "yemen-1517-1900::k6": "The turn to hereditary succession",
+    "yemen-1517-1900::k7": "The peripheries break away",
+    "yemen-1517-1900::k8": "The Wahhabi and Egyptian incursions",
+    "yemen-1517-1900::k9": "The East India Company takes Aden",
+    "yemen-1517-1900::k10": "Aden, Suez and the treaty hinterland",
+    "yemen-1517-1900::k11": "The Ottoman return",
+    "yemen-1517-1900::k12": "The Vilayet at war",
+    "yemen-1517-1900::c1": "The great highland rising of 1567",
+    "yemen-1517-1900::c2": "Forty years of mountain war",
+    "yemen-1517-1900::c3": "Civil war and the loss of the coast",
+    "yemen-1517-1900::c4": "Taking and holding Aden",
+    "yemen-1517-1900::c5": "The highland insurgency that never ended",
+    "yemen-1517-1900::o1": "The Ottoman coffee monopoly and the Mocha customs",
+    "yemen-1517-1900::o2": "A Zaydi imamate governing Sunnis",
+    "yemen-1517-1900::o3": "The traditionist turn in Zaydi law",
+    "yemen-1517-1900::o4": "The free port and the treaty system",
+    "yemen-1517-1900::b1": "Zaydism as the creed of a state",
+    "yemen-1517-1900::b2": "Ibn al-Amir al-Sanʿani and al-Shawkani",
+    "yemen-1517-1900::b3": "Shrine and festival religion",
+    "yemen-1517-1900::b4": "Hadramawt turns outward",
+    "yemen-1517-1900::b5": "Wahhabi doctrine reaches the south",
+    "yemen-1517-1900::ex1": "The tower house and old Sanʿaʾ",
+    "yemen-1517-1900::ex2": "Ottoman building in Yemen",
+    "yemen-1517-1900::ex3": "Mocha, the coffee port",
+    "yemen-1517-1900::ex4": "Silver, the janbiya and the belt",
+    "yemen-1517-1900::ex5": "The classical Sanʿani song",
+    "yemen-1517-1900::t1": "Al-Shawkani's legal corpus",
+    "yemen-1517-1900::t2": "The Yemeni chronicle tradition",
+    "yemen-1517-1900::t3": "The Niebuhr expedition",
+    "yemen-1517-1900::t4": "Coffee botany and the broken monopoly",
+    "yemen-1517-1900::ec1": "Mocha and the world coffee monopoly",
+    "yemen-1517-1900::ec2": "The monopoly broken, Mocha declines",
+    "yemen-1517-1900::ec3": "Aden reborn as a coaling port",
+    "yemen-1517-1900::ec4": "The highlands turn inward",
+    "yemen-1517-1900::ec5": "The Red Sea slave trade and its suppression",
+    "yemen-1517-1900::tc1": "The Ottoman fortress network",
+    "yemen-1517-1900::tc2": "Steam, cable and condenser at Aden",
+    "yemen-1517-1900::tc3": "Keeping the terraces alive",
+    "yemen-1517-1900::x1": "Yemen and the Ottoman Empire",
+    "yemen-1517-1900::x2": "The European companies at Mocha",
+    "yemen-1517-1900::x3": "Aden as a piece of British India",
+    "yemen-1517-1900::x4": "The Hadrami diaspora matures",
+    "yemen-1517-1900::x5": "The undrawn Anglo-Ottoman line",
+    "yemen-1517-1900::w1": "The one unified Zaydi Yemen",
+    "yemen-1517-1900::w2": "From coffee monopoly to backwater",
+    "yemen-1517-1900::w3": "The steamship cuts the country in two",
+    "yemen-1517-1900::w4": "The thread continues — three Yemens in 1900",
+    "yemen-1517-1900::lv1": "The Mawzaʿ Exile",
+    "yemen-1517-1900::lv2": "The Jewish craft economy and Shalom Shabazi",
+    "yemen-1517-1900::lv3": "The Akhdam of the Tihama",
+    "yemen-1517-1900::lv4": "Enslaved Africans in Yemen",
     "yemen-628-1517::k1": "Yemen accepts Islam, and the Ridda",
     "yemen-628-1517::k2": "A province of the Caliphate",
     "yemen-628-1517::k3": "The Ziyadids of Zabid",
@@ -4104,6 +4165,38 @@
     ],
     "uae-1971-today::ec3": [
       "trucial-gulf-1820-1971::ec3"
+    ],
+    "yemen-1517-1900::k1": [
+      "yemen-628-1517::w3"
+    ],
+    "yemen-628-1517::w3": [
+      "yemen-1517-1900::k1"
+    ],
+    "yemen-1517-1900::c2": [
+      "yemen-628-1517::c4"
+    ],
+    "yemen-628-1517::c4": [
+      "yemen-1517-1900::c2",
+      "yemen-1517-1900::x1"
+    ],
+    "yemen-1517-1900::o4": [
+      "yemen-628-1517::b1"
+    ],
+    "yemen-628-1517::b1": [
+      "yemen-1517-1900::o4",
+      "yemen-1517-1900::b1"
+    ],
+    "yemen-1517-1900::b1": [
+      "yemen-628-1517::b1"
+    ],
+    "yemen-1517-1900::ec1": [
+      "yemen-628-1517::ec3"
+    ],
+    "yemen-628-1517::ec3": [
+      "yemen-1517-1900::ec1"
+    ],
+    "yemen-1517-1900::x1": [
+      "yemen-628-1517::c4"
     ],
     "yemen-628-1517::k1": [
       "south-arabia-300bc-628::w3"
@@ -22058,6 +22151,335 @@
       "Recared I",
       "Liber Iudiciorum"
     ],
+    "yemen-1517-1900::k1": [
+      "Ottoman",
+      "Aden",
+      "Sanaa",
+      "Yemen",
+      "Suleiman Pasha India-bound",
+      "Ozdemir Pasha"
+    ],
+    "yemen-1517-1900::k2": [
+      "Ottoman",
+      "Sanaa",
+      "Yemen",
+      "Garrison",
+      "Sinan Pasha"
+    ],
+    "yemen-1517-1900::k3": [
+      "Qasimid",
+      "Yemen",
+      "Imam al-Qasim the Great",
+      "Al-Mansur al-Qasim ibn Muhammad"
+    ],
+    "yemen-1517-1900::k4": [
+      "Qasimid",
+      "Sanaa",
+      "Yemen",
+      "Imam al-Muʾayyad Muhammad"
+    ],
+    "yemen-1517-1900::k5": [
+      "Sanaa",
+      "Yemen",
+      "Imam al-Mutawakkil Ismaʿil",
+      "al-Mutawakkil Ismaʿil the Qasimid"
+    ],
+    "yemen-1517-1900::k6": [
+      "Qasimid",
+      "Sanaa",
+      "Yemen",
+      "Bayt al-Qasim"
+    ],
+    "yemen-1517-1900::k7": [
+      "Qasimid",
+      "Lahej",
+      "Hadramawt",
+      "Yemen",
+      "Sharif of Abu Arish"
+    ],
+    "yemen-1517-1900::k8": [
+      "Qasimid",
+      "Asir",
+      "Najran",
+      "Tihama",
+      "Yemen",
+      "Wahhabi"
+    ],
+    "yemen-1517-1900::k9": [
+      "British",
+      "Aden",
+      "Yemen",
+      "East India Company",
+      "Commander Stafford Haines",
+      "Bombay Presidency"
+    ],
+    "yemen-1517-1900::k10": [
+      "British",
+      "Aden",
+      "Yemen",
+      "Suez Canal"
+    ],
+    "yemen-1517-1900::k11": [
+      "Ottoman",
+      "Hodeida",
+      "Sanaa",
+      "Ahmed Muhtar Pasha",
+      "Vilayet of Yemen"
+    ],
+    "yemen-1517-1900::k12": [
+      "Ottoman",
+      "Yemen",
+      "Vilayet",
+      "Hamid al-Din"
+    ],
+    "yemen-1517-1900::c1": [
+      "Yemen",
+      "Sinan Pasha"
+    ],
+    "yemen-1517-1900::c2": [
+      "Yemen",
+      "Forty"
+    ],
+    "yemen-1517-1900::c3": [
+      "Sanaa",
+      "Tihama",
+      "Asir",
+      "Yemen",
+      "Civil"
+    ],
+    "yemen-1517-1900::c4": [
+      "Aden",
+      "Yemen",
+      "Taking"
+    ],
+    "yemen-1517-1900::c5": [
+      "Yemen",
+      "Ahmed Muhtar Pasha",
+      "Imam al-Mansur"
+    ],
+    "yemen-1517-1900::o1": [
+      "al-Mukha Mocha",
+      "Yemen",
+      "Ottoman"
+    ],
+    "yemen-1517-1900::o2": [
+      "Taʿizz",
+      "Zabid",
+      "Tihama",
+      "Yemen",
+      "Zaydi",
+      "Sunnis"
+    ],
+    "yemen-1517-1900::o3": [
+      "Sanaa",
+      "Yemen",
+      "Zaydi",
+      "Ibn al-Amir al-Sanʿani"
+    ],
+    "yemen-1517-1900::o4": [
+      "Yemen",
+      "Aden Protectorate"
+    ],
+    "yemen-1517-1900::b1": [
+      "Sanaa",
+      "Yemen",
+      "Zaydism"
+    ],
+    "yemen-1517-1900::b2": [
+      "Sanaa",
+      "Yemen",
+      "Ibn al-Amir al-Sanʿani",
+      "al-Shawkani",
+      "Two Sanʿa"
+    ],
+    "yemen-1517-1900::b3": [
+      "Taʿizz",
+      "Aden",
+      "Yemen",
+      "Shrine",
+      "Tihama Sufi"
+    ],
+    "yemen-1517-1900::b4": [
+      "Tarim",
+      "Hadramawt",
+      "Yemen",
+      "Indian Ocean",
+      "East Africa",
+      "Shafiʿi-Sufi Islam"
+    ],
+    "yemen-1517-1900::b5": [
+      "Asir",
+      "Najran",
+      "Yemen",
+      "Wahhabi"
+    ],
+    "yemen-1517-1900::ex1": [
+      "Sanaa",
+      "Yemen",
+      "Sanʿa",
+      "UNESCO World Heritage"
+    ],
+    "yemen-1517-1900::ex2": [
+      "Sanaa",
+      "Hodeida",
+      "Yemen",
+      "Ottoman"
+    ],
+    "yemen-1517-1900::ex3": [
+      "al-Mukha Mocha",
+      "Yemen"
+    ],
+    "yemen-1517-1900::ex4": [
+      "Sanaa",
+      "Yemen",
+      "Silver"
+    ],
+    "yemen-1517-1900::ex5": [
+      "Sanaa",
+      "Yemen",
+      "Sanʿani"
+    ],
+    "yemen-1517-1900::t1": [
+      "Sanaa",
+      "Yemen",
+      "Al-Shawkani"
+    ],
+    "yemen-1517-1900::t2": [
+      "Sanaa",
+      "Yemen",
+      "Yemeni",
+      "Yahya ibn al-Husayn",
+      "Lutf Allah Jahhaf"
+    ],
+    "yemen-1517-1900::t3": [
+      "Tihama",
+      "Sanaa",
+      "Yemen",
+      "Carsten Niebuhr"
+    ],
+    "yemen-1517-1900::t4": [
+      "Mocha",
+      "Dutch",
+      "Coffee"
+    ],
+    "yemen-1517-1900::ec1": [
+      "al-Mukha Mocha",
+      "Yemen"
+    ],
+    "yemen-1517-1900::ec2": [
+      "al-Mukha",
+      "Yemen",
+      "Java",
+      "Réunion",
+      "Brazil",
+      "Mocha"
+    ],
+    "yemen-1517-1900::ec3": [
+      "Aden",
+      "Yemen"
+    ],
+    "yemen-1517-1900::ec4": [
+      "Yemen"
+    ],
+    "yemen-1517-1900::ec5": [
+      "Mocha",
+      "Hodeida",
+      "Aden",
+      "Yemen",
+      "Red Sea",
+      "Horn of Africa"
+    ],
+    "yemen-1517-1900::tc1": [
+      "Both Ottoman",
+      "Holding Yemen"
+    ],
+    "yemen-1517-1900::tc2": [
+      "Aden",
+      "Yemen",
+      "Steam"
+    ],
+    "yemen-1517-1900::tc3": [
+      "Yemen",
+      "Keeping"
+    ],
+    "yemen-1517-1900::x1": [
+      "Istanbul",
+      "Sanaa",
+      "Yemen",
+      "Ottoman Empire",
+      "Red Sea"
+    ],
+    "yemen-1517-1900::x2": [
+      "al-Mukha Mocha",
+      "Yemen",
+      "European",
+      "Dutch VOC",
+      "East India Company"
+    ],
+    "yemen-1517-1900::x3": [
+      "Aden",
+      "Yemen",
+      "British India",
+      "Indian Army"
+    ],
+    "yemen-1517-1900::x4": [
+      "Hadramawt",
+      "Hyderabad",
+      "Singapore",
+      "Java",
+      "Swahili",
+      "Hadrami"
+    ],
+    "yemen-1517-1900::x5": [
+      "Aden",
+      "Ottoman Yemen",
+      "Anglo-Ottoman"
+    ],
+    "yemen-1517-1900::w1": [
+      "Sanaa",
+      "Zaydi Yemen"
+    ],
+    "yemen-1517-1900::w2": [
+      "Yemen"
+    ],
+    "yemen-1517-1900::w3": [
+      "Aden",
+      "Yemen"
+    ],
+    "yemen-1517-1900::w4": [
+      "Aden",
+      "Tihama",
+      "Sanaa",
+      "Yemen",
+      "Yemens",
+      "Hamid al-Din"
+    ],
+    "yemen-1517-1900::lv1": [
+      "Tihama",
+      "Yemen",
+      "Mawza Exile",
+      "Imam al-Mahdi Ahmad",
+      "Yemeni Jewry"
+    ],
+    "yemen-1517-1900::lv2": [
+      "Sanaa al-Qa",
+      "Yemen",
+      "Jewish",
+      "Shalom Shabazi",
+      "Yemeni Jews"
+    ],
+    "yemen-1517-1900::lv3": [
+      "Yemen",
+      "Akhdam of the Tihama"
+    ],
+    "yemen-1517-1900::lv4": [
+      "Sanaa",
+      "Tihama",
+      "Yemen",
+      "Enslaved Africans",
+      "Red Sea",
+      "East Africa"
+    ],
     "yemen-628-1517::k1": [
       "Sanaa",
       "Najran",
@@ -23720,7 +24142,8 @@
     ],
     "Ottoman Empire": [
       "al-andalus-1031-1492::ex2",
-      "spain-1516-1700::w6"
+      "spain-1516-1700::w6",
+      "yemen-1517-1900::x1"
     ],
     "Each Christian": [
       "al-andalus-1031-1492::ex2"
@@ -23863,7 +24286,8 @@
       "sassanid-224-484::r6",
       "south-arabia-300bc-628::b3",
       "spain-718-1230::lv2",
-      "visigoths-589-711::lv1"
+      "visigoths-589-711::lv1",
+      "yemen-1517-1900::lv2"
     ],
     "Hebrew": [
       "al-andalus-1031-1492::lv4"
@@ -23872,7 +24296,8 @@
       "al-andalus-1031-1492::lv4"
     ],
     "Enslaved Africans": [
-      "al-andalus-1031-1492::lv5"
+      "al-andalus-1031-1492::lv5",
+      "yemen-1517-1900::lv4"
     ],
     "Archivo de la Alhambra": [
       "al-andalus-1031-1492::lv5"
@@ -24575,7 +25000,8 @@
       "spain-1808-1900::c2",
       "spain-1900-1975::t5",
       "spain-1900-1975::ex1",
-      "spain-1975-today::ex4"
+      "spain-1975-today::ex4",
+      "yemen-1517-1900::x2"
     ],
     "Subh": [
       "al-andalus-711-1031::lv1"
@@ -24785,7 +25211,8 @@
       "arabia-paleolithic-500000bc-8000bc::tc2",
       "arabia-paleolithic-500000bc-8000bc::x1",
       "egypt-3000bc-2100bc::ex1",
-      "south-arabia-prehistory-8000bc-1200bc::x1"
+      "south-arabia-prehistory-8000bc-1200bc::x1",
+      "yemen-1517-1900::ec5"
     ],
     "Red Sea": [
       "arabia-paleolithic-500000bc-8000bc::k4",
@@ -24824,6 +25251,9 @@
       "south-arabia-prehistory-8000bc-1200bc::x3",
       "south-arabia-prehistory-8000bc-1200bc::x4",
       "tylos-mleiha-300bc-300ad::x1",
+      "yemen-1517-1900::ec5",
+      "yemen-1517-1900::x1",
+      "yemen-1517-1900::lv4",
       "yemen-628-1517::c5",
       "yemen-628-1517::ec2",
       "yemen-628-1517::x2",
@@ -25719,6 +26149,18 @@
       "south-arabia-prehistory-8000bc-1200bc::ex2",
       "south-arabia-prehistory-8000bc-1200bc::lv2",
       "uae-1971-today::c4",
+      "yemen-1517-1900::k1",
+      "yemen-1517-1900::k9",
+      "yemen-1517-1900::k10",
+      "yemen-1517-1900::c4",
+      "yemen-1517-1900::b3",
+      "yemen-1517-1900::ec3",
+      "yemen-1517-1900::ec5",
+      "yemen-1517-1900::tc2",
+      "yemen-1517-1900::x3",
+      "yemen-1517-1900::x5",
+      "yemen-1517-1900::w3",
+      "yemen-1517-1900::w4",
       "yemen-628-1517::k16",
       "yemen-628-1517::o3",
       "yemen-628-1517::ec1",
@@ -25900,6 +26342,56 @@
       "south-arabia-prehistory-8000bc-1200bc::lv2",
       "south-arabia-prehistory-8000bc-1200bc::lv3",
       "uae-1971-today::c4",
+      "yemen-1517-1900::k1",
+      "yemen-1517-1900::k2",
+      "yemen-1517-1900::k3",
+      "yemen-1517-1900::k4",
+      "yemen-1517-1900::k5",
+      "yemen-1517-1900::k6",
+      "yemen-1517-1900::k7",
+      "yemen-1517-1900::k8",
+      "yemen-1517-1900::k9",
+      "yemen-1517-1900::k10",
+      "yemen-1517-1900::k12",
+      "yemen-1517-1900::c1",
+      "yemen-1517-1900::c2",
+      "yemen-1517-1900::c3",
+      "yemen-1517-1900::c4",
+      "yemen-1517-1900::c5",
+      "yemen-1517-1900::o1",
+      "yemen-1517-1900::o2",
+      "yemen-1517-1900::o3",
+      "yemen-1517-1900::o4",
+      "yemen-1517-1900::b1",
+      "yemen-1517-1900::b2",
+      "yemen-1517-1900::b3",
+      "yemen-1517-1900::b4",
+      "yemen-1517-1900::b5",
+      "yemen-1517-1900::ex1",
+      "yemen-1517-1900::ex2",
+      "yemen-1517-1900::ex3",
+      "yemen-1517-1900::ex4",
+      "yemen-1517-1900::ex5",
+      "yemen-1517-1900::t1",
+      "yemen-1517-1900::t2",
+      "yemen-1517-1900::t3",
+      "yemen-1517-1900::ec1",
+      "yemen-1517-1900::ec2",
+      "yemen-1517-1900::ec3",
+      "yemen-1517-1900::ec4",
+      "yemen-1517-1900::ec5",
+      "yemen-1517-1900::tc2",
+      "yemen-1517-1900::tc3",
+      "yemen-1517-1900::x1",
+      "yemen-1517-1900::x2",
+      "yemen-1517-1900::x3",
+      "yemen-1517-1900::w2",
+      "yemen-1517-1900::w3",
+      "yemen-1517-1900::w4",
+      "yemen-1517-1900::lv1",
+      "yemen-1517-1900::lv2",
+      "yemen-1517-1900::lv3",
+      "yemen-1517-1900::lv4",
       "yemen-628-1517::k1",
       "yemen-628-1517::k2",
       "yemen-628-1517::k3",
@@ -27039,6 +27531,7 @@
       "south-arabia-300bc-628::tc2",
       "south-arabia-prehistory-8000bc-1200bc::w1",
       "tylos-mleiha-300bc-300ad::e3",
+      "yemen-1517-1900::b4",
       "yemen-628-1517::k16",
       "yemen-628-1517::ec1",
       "yemen-628-1517::ec6",
@@ -27952,7 +28445,9 @@
       "oman-1970-today::p4",
       "oman-gulf-1650-1820::ec1",
       "oman-gulf-1650-1820::ec5",
-      "portuguese-gulf-1507-1650::c6"
+      "portuguese-gulf-1507-1650::c6",
+      "yemen-1517-1900::b4",
+      "yemen-1517-1900::lv4"
     ],
     "Pact of Umar": [
       "caliphate-632-750::lv5"
@@ -32061,7 +32556,8 @@
       "france-1494-1610::lv3"
     ],
     "Brazil": [
-      "france-1494-1610::lv8"
+      "france-1494-1610::lv8",
+      "yemen-1517-1900::ec2"
     ],
     "Des Cannibales": [
       "france-1494-1610::lv8"
@@ -32713,7 +33209,9 @@
       "oman-1970-today::c3",
       "oman-gulf-1650-1820::c6",
       "spain-1700-1808::ex7",
-      "trucial-gulf-1820-1971::c2"
+      "trucial-gulf-1820-1971::c2",
+      "yemen-1517-1900::k9",
+      "yemen-1517-1900::k10"
     ],
     "Eden Treaty Anglo-French": [
       "france-1715-1789::s2"
@@ -33470,7 +33968,8 @@
       "france-1815-1900::ex1"
     ],
     "Suez Canal": [
-      "france-1815-1900::ex1"
+      "france-1815-1900::ex1",
+      "yemen-1517-1900::k10"
     ],
     "Ferdinand de Lesseps": [
       "france-1815-1900::ex1"
@@ -34217,6 +34716,7 @@
     ],
     "UNESCO World Heritage": [
       "hejaz-prehistory-8000bc-1200bc::k2",
+      "yemen-1517-1900::ex1",
       "yemen-628-1517::ex2"
     ],
     "Sakaka": [
@@ -35399,7 +35899,8 @@
     "Swahili": [
       "hormuz-1200-1507::x5",
       "oman-gulf-1650-1820::k1",
-      "oman-gulf-1650-1820::x1"
+      "oman-gulf-1650-1820::x1",
+      "yemen-1517-1900::x4"
     ],
     "Il-Khanid": [
       "hormuz-1200-1507::w1"
@@ -36180,6 +36681,12 @@
       "portuguese-gulf-1507-1650::w2",
       "spain-1516-1700::c1",
       "trucial-gulf-1820-1971::k6",
+      "yemen-1517-1900::k1",
+      "yemen-1517-1900::k2",
+      "yemen-1517-1900::k11",
+      "yemen-1517-1900::k12",
+      "yemen-1517-1900::o1",
+      "yemen-1517-1900::ex2",
       "yemen-628-1517::k17",
       "yemen-628-1517::w3"
     ],
@@ -37297,7 +37804,9 @@
       "oman-gulf-1650-1820::c5",
       "oman-gulf-1650-1820::o4",
       "oman-gulf-1650-1820::b2",
-      "oman-gulf-1650-1820::b3"
+      "oman-gulf-1650-1820::b3",
+      "yemen-1517-1900::k8",
+      "yemen-1517-1900::b5"
     ],
     "East India Company": [
       "oman-gulf-1650-1820::c6",
@@ -37308,7 +37817,9 @@
       "portuguese-gulf-1507-1650::c5",
       "portuguese-gulf-1507-1650::ec4",
       "portuguese-gulf-1507-1650::x1",
-      "trucial-gulf-1820-1971::c1"
+      "trucial-gulf-1820-1971::c1",
+      "yemen-1517-1900::k9",
+      "yemen-1517-1900::x2"
     ],
     "Kuwaiti": [
       "oman-gulf-1650-1820::o2"
@@ -37369,7 +37880,8 @@
       "oman-gulf-1650-1820::x5"
     ],
     "Carsten Niebuhr": [
-      "oman-gulf-1650-1820::t3"
+      "oman-gulf-1650-1820::t3",
+      "yemen-1517-1900::t3"
     ],
     "Danish Arabia": [
       "oman-gulf-1650-1820::t3"
@@ -37410,7 +37922,8 @@
     ],
     "Dutch": [
       "oman-gulf-1650-1820::x4",
-      "portuguese-gulf-1507-1650::w4"
+      "portuguese-gulf-1507-1650::w4",
+      "yemen-1517-1900::t4"
     ],
     "Other Europeans": [
       "oman-gulf-1650-1820::x4"
@@ -37435,7 +37948,8 @@
       "oman-gulf-1650-1820::w3"
     ],
     "British India": [
-      "oman-gulf-1650-1820::w4"
+      "oman-gulf-1650-1820::w4",
+      "yemen-1517-1900::x3"
     ],
     "Muhammad Ali of Egypt": [
       "oman-gulf-1650-1820::w5"
@@ -37817,7 +38331,8 @@
       "rome-300-400::o3",
       "rome-400-500::r3",
       "rome-400-500::a5",
-      "sassanid-484-651::c4"
+      "sassanid-484-651::c4",
+      "yemen-1517-1900::x1"
     ],
     "Piri Reis Kitab-i Bahriye Book of the Sea": [
       "portuguese-gulf-1507-1650::t3"
@@ -37827,7 +38342,8 @@
     ],
     "Dutch VOC": [
       "portuguese-gulf-1507-1650::ec4",
-      "spain-1516-1700::c15"
+      "spain-1516-1700::c15",
+      "yemen-1517-1900::x2"
     ],
     "Naval": [
       "portuguese-gulf-1507-1650::tc2"
@@ -40047,6 +40563,8 @@
       "south-arabia-300bc-628::lv1",
       "south-arabia-300bc-628::lv2",
       "south-arabia-prehistory-8000bc-1200bc::ex1",
+      "yemen-1517-1900::k8",
+      "yemen-1517-1900::b5",
       "yemen-628-1517::k1",
       "yemen-628-1517::c1"
     ],
@@ -40367,6 +40885,27 @@
       "south-arabia-prehistory-8000bc-1200bc::b4",
       "south-arabia-prehistory-8000bc-1200bc::ex1",
       "south-arabia-prehistory-8000bc-1200bc::ex6",
+      "yemen-1517-1900::k1",
+      "yemen-1517-1900::k2",
+      "yemen-1517-1900::k4",
+      "yemen-1517-1900::k5",
+      "yemen-1517-1900::k6",
+      "yemen-1517-1900::k11",
+      "yemen-1517-1900::c3",
+      "yemen-1517-1900::o3",
+      "yemen-1517-1900::b1",
+      "yemen-1517-1900::b2",
+      "yemen-1517-1900::ex1",
+      "yemen-1517-1900::ex2",
+      "yemen-1517-1900::ex4",
+      "yemen-1517-1900::ex5",
+      "yemen-1517-1900::t1",
+      "yemen-1517-1900::t2",
+      "yemen-1517-1900::t3",
+      "yemen-1517-1900::x1",
+      "yemen-1517-1900::w1",
+      "yemen-1517-1900::w4",
+      "yemen-1517-1900::lv4",
       "yemen-628-1517::k1",
       "yemen-628-1517::k6",
       "yemen-628-1517::k7",
@@ -40411,6 +40950,13 @@
       "south-arabia-prehistory-8000bc-1200bc::tc2",
       "south-arabia-prehistory-8000bc-1200bc::tc4",
       "south-arabia-prehistory-8000bc-1200bc::x3",
+      "yemen-1517-1900::k8",
+      "yemen-1517-1900::c3",
+      "yemen-1517-1900::o2",
+      "yemen-1517-1900::t3",
+      "yemen-1517-1900::w4",
+      "yemen-1517-1900::lv1",
+      "yemen-1517-1900::lv4",
       "yemen-628-1517::c2",
       "yemen-628-1517::o5",
       "yemen-628-1517::b4",
@@ -40492,6 +41038,7 @@
     ],
     "Yemeni": [
       "south-arabia-300bc-628::ex6",
+      "yemen-1517-1900::t2",
       "yemen-628-1517::ex7"
     ],
     "Periplus of the Erythraean Sea": [
@@ -40571,6 +41118,9 @@
       "south-arabia-prehistory-8000bc-1200bc::ec6",
       "south-arabia-prehistory-8000bc-1200bc::x5",
       "south-arabia-prehistory-8000bc-1200bc::lv1",
+      "yemen-1517-1900::k7",
+      "yemen-1517-1900::b4",
+      "yemen-1517-1900::x4",
       "yemen-628-1517::b5",
       "yemen-628-1517::x4"
     ],
@@ -42014,7 +42564,8 @@
       "spain-1516-1700::s1"
     ],
     "Silver": [
-      "spain-1516-1700::s1"
+      "spain-1516-1700::s1",
+      "yemen-1517-1900::ex4"
     ],
     "Europe the Price Revolution": [
       "spain-1516-1700::s1"
@@ -45109,7 +45660,8 @@
       "trucial-gulf-1820-1971::x5"
     ],
     "Keeping": [
-      "trucial-gulf-1820-1971::w1"
+      "trucial-gulf-1820-1971::w1",
+      "yemen-1517-1900::tc3"
     ],
     "British Gulf": [
       "trucial-gulf-1820-1971::w1"
@@ -45829,6 +46381,259 @@
     "Jews of Visigothic Spain": [
       "visigoths-589-711::lv1"
     ],
+    "Suleiman Pasha India-bound": [
+      "yemen-1517-1900::k1"
+    ],
+    "Ozdemir Pasha": [
+      "yemen-1517-1900::k1"
+    ],
+    "Garrison": [
+      "yemen-1517-1900::k2"
+    ],
+    "Sinan Pasha": [
+      "yemen-1517-1900::k2",
+      "yemen-1517-1900::c1"
+    ],
+    "Qasimid": [
+      "yemen-1517-1900::k3",
+      "yemen-1517-1900::k4",
+      "yemen-1517-1900::k6",
+      "yemen-1517-1900::k7",
+      "yemen-1517-1900::k8"
+    ],
+    "Imam al-Qasim the Great": [
+      "yemen-1517-1900::k3"
+    ],
+    "Al-Mansur al-Qasim ibn Muhammad": [
+      "yemen-1517-1900::k3"
+    ],
+    "Imam al-Muʾayyad Muhammad": [
+      "yemen-1517-1900::k4"
+    ],
+    "Imam al-Mutawakkil Ismaʿil": [
+      "yemen-1517-1900::k5"
+    ],
+    "al-Mutawakkil Ismaʿil the Qasimid": [
+      "yemen-1517-1900::k5"
+    ],
+    "Bayt al-Qasim": [
+      "yemen-1517-1900::k6"
+    ],
+    "Lahej": [
+      "yemen-1517-1900::k7"
+    ],
+    "Sharif of Abu Arish": [
+      "yemen-1517-1900::k7"
+    ],
+    "Asir": [
+      "yemen-1517-1900::k8",
+      "yemen-1517-1900::c3",
+      "yemen-1517-1900::b5"
+    ],
+    "Commander Stafford Haines": [
+      "yemen-1517-1900::k9"
+    ],
+    "Bombay Presidency": [
+      "yemen-1517-1900::k9"
+    ],
+    "Hodeida": [
+      "yemen-1517-1900::k11",
+      "yemen-1517-1900::ex2",
+      "yemen-1517-1900::ec5"
+    ],
+    "Ahmed Muhtar Pasha": [
+      "yemen-1517-1900::k11",
+      "yemen-1517-1900::c5"
+    ],
+    "Vilayet of Yemen": [
+      "yemen-1517-1900::k11"
+    ],
+    "Vilayet": [
+      "yemen-1517-1900::k12"
+    ],
+    "Hamid al-Din": [
+      "yemen-1517-1900::k12",
+      "yemen-1517-1900::w4"
+    ],
+    "Forty": [
+      "yemen-1517-1900::c2"
+    ],
+    "Civil": [
+      "yemen-1517-1900::c3"
+    ],
+    "Taking": [
+      "yemen-1517-1900::c4"
+    ],
+    "Imam al-Mansur": [
+      "yemen-1517-1900::c5"
+    ],
+    "al-Mukha Mocha": [
+      "yemen-1517-1900::o1",
+      "yemen-1517-1900::ex3",
+      "yemen-1517-1900::ec1",
+      "yemen-1517-1900::x2"
+    ],
+    "Taʿizz": [
+      "yemen-1517-1900::o2",
+      "yemen-1517-1900::b3",
+      "yemen-628-1517::k11",
+      "yemen-628-1517::k12",
+      "yemen-628-1517::k13",
+      "yemen-628-1517::k14",
+      "yemen-628-1517::k15",
+      "yemen-628-1517::o4",
+      "yemen-628-1517::b3",
+      "yemen-628-1517::b4",
+      "yemen-628-1517::ex4",
+      "yemen-628-1517::ex6",
+      "yemen-628-1517::ex7",
+      "yemen-628-1517::t4",
+      "yemen-628-1517::ec4",
+      "yemen-628-1517::x2",
+      "yemen-628-1517::w2"
+    ],
+    "Zabid": [
+      "yemen-1517-1900::o2",
+      "yemen-628-1517::k11",
+      "yemen-628-1517::k15",
+      "yemen-628-1517::k17",
+      "yemen-628-1517::c2",
+      "yemen-628-1517::c6",
+      "yemen-628-1517::b3",
+      "yemen-628-1517::ex2",
+      "yemen-628-1517::ex7",
+      "yemen-628-1517::ec6",
+      "yemen-628-1517::tc3",
+      "yemen-628-1517::w3",
+      "yemen-628-1517::lv3"
+    ],
+    "Zaydi": [
+      "yemen-1517-1900::o2",
+      "yemen-1517-1900::o3",
+      "yemen-628-1517::t5"
+    ],
+    "Sunnis": [
+      "yemen-1517-1900::o2"
+    ],
+    "Ibn al-Amir al-Sanʿani": [
+      "yemen-1517-1900::o3",
+      "yemen-1517-1900::b2"
+    ],
+    "Aden Protectorate": [
+      "yemen-1517-1900::o4"
+    ],
+    "Zaydism": [
+      "yemen-1517-1900::b1"
+    ],
+    "al-Shawkani": [
+      "yemen-1517-1900::b2"
+    ],
+    "Two Sanʿa": [
+      "yemen-1517-1900::b2"
+    ],
+    "Shrine": [
+      "yemen-1517-1900::b3"
+    ],
+    "Tihama Sufi": [
+      "yemen-1517-1900::b3"
+    ],
+    "Tarim": [
+      "yemen-1517-1900::b4",
+      "yemen-628-1517::b5"
+    ],
+    "Shafiʿi-Sufi Islam": [
+      "yemen-1517-1900::b4"
+    ],
+    "Sanʿa": [
+      "yemen-1517-1900::ex1"
+    ],
+    "Sanʿani": [
+      "yemen-1517-1900::ex5"
+    ],
+    "Al-Shawkani": [
+      "yemen-1517-1900::t1"
+    ],
+    "Yahya ibn al-Husayn": [
+      "yemen-1517-1900::t2",
+      "yemen-628-1517::k5"
+    ],
+    "Lutf Allah Jahhaf": [
+      "yemen-1517-1900::t2"
+    ],
+    "Mocha": [
+      "yemen-1517-1900::t4",
+      "yemen-1517-1900::ec2",
+      "yemen-1517-1900::ec5"
+    ],
+    "Coffee": [
+      "yemen-1517-1900::t4"
+    ],
+    "al-Mukha": [
+      "yemen-1517-1900::ec2"
+    ],
+    "Java": [
+      "yemen-1517-1900::ec2",
+      "yemen-1517-1900::x4"
+    ],
+    "Réunion": [
+      "yemen-1517-1900::ec2"
+    ],
+    "Both Ottoman": [
+      "yemen-1517-1900::tc1"
+    ],
+    "Holding Yemen": [
+      "yemen-1517-1900::tc1"
+    ],
+    "Steam": [
+      "yemen-1517-1900::tc2"
+    ],
+    "Indian Army": [
+      "yemen-1517-1900::x3"
+    ],
+    "Hyderabad": [
+      "yemen-1517-1900::x4"
+    ],
+    "Singapore": [
+      "yemen-1517-1900::x4"
+    ],
+    "Hadrami": [
+      "yemen-1517-1900::x4",
+      "yemen-628-1517::b5",
+      "yemen-628-1517::x4"
+    ],
+    "Ottoman Yemen": [
+      "yemen-1517-1900::x5"
+    ],
+    "Anglo-Ottoman": [
+      "yemen-1517-1900::x5"
+    ],
+    "Zaydi Yemen": [
+      "yemen-1517-1900::w1"
+    ],
+    "Yemens": [
+      "yemen-1517-1900::w4"
+    ],
+    "Mawza Exile": [
+      "yemen-1517-1900::lv1"
+    ],
+    "Imam al-Mahdi Ahmad": [
+      "yemen-1517-1900::lv1"
+    ],
+    "Yemeni Jewry": [
+      "yemen-1517-1900::lv1"
+    ],
+    "Sanaa al-Qa": [
+      "yemen-1517-1900::lv2"
+    ],
+    "Shalom Shabazi": [
+      "yemen-1517-1900::lv2"
+    ],
+    "Yemeni Jews": [
+      "yemen-1517-1900::lv2"
+    ],
+    "Akhdam of the Tihama": [
+      "yemen-1517-1900::lv3"
+    ],
     "Mosque of Sanaa": [
       "yemen-628-1517::k2",
       "yemen-628-1517::ex1"
@@ -45860,9 +46665,6 @@
       "yemen-628-1517::k5",
       "yemen-628-1517::o1"
     ],
-    "Yahya ibn al-Husayn": [
-      "yemen-628-1517::k5"
-    ],
     "Ali al-Sulayhi": [
       "yemen-628-1517::k7",
       "yemen-628-1517::c2"
@@ -45888,37 +46690,6 @@
     ],
     "Hamdanids of Sanaa": [
       "yemen-628-1517::k9"
-    ],
-    "Taʿizz": [
-      "yemen-628-1517::k11",
-      "yemen-628-1517::k12",
-      "yemen-628-1517::k13",
-      "yemen-628-1517::k14",
-      "yemen-628-1517::k15",
-      "yemen-628-1517::o4",
-      "yemen-628-1517::b3",
-      "yemen-628-1517::b4",
-      "yemen-628-1517::ex4",
-      "yemen-628-1517::ex6",
-      "yemen-628-1517::ex7",
-      "yemen-628-1517::t4",
-      "yemen-628-1517::ec4",
-      "yemen-628-1517::x2",
-      "yemen-628-1517::w2"
-    ],
-    "Zabid": [
-      "yemen-628-1517::k11",
-      "yemen-628-1517::k15",
-      "yemen-628-1517::k17",
-      "yemen-628-1517::c2",
-      "yemen-628-1517::c6",
-      "yemen-628-1517::b3",
-      "yemen-628-1517::ex2",
-      "yemen-628-1517::ex7",
-      "yemen-628-1517::ec6",
-      "yemen-628-1517::tc3",
-      "yemen-628-1517::w3",
-      "yemen-628-1517::lv3"
     ],
     "Turan Shah": [
       "yemen-628-1517::k11",
@@ -46011,13 +46782,6 @@
     "Abu'l-Ghayth ibn Jamil": [
       "yemen-628-1517::b4"
     ],
-    "Tarim": [
-      "yemen-628-1517::b5"
-    ],
-    "Hadrami": [
-      "yemen-628-1517::b5",
-      "yemen-628-1517::x4"
-    ],
     "Alawi": [
       "yemen-628-1517::b5"
     ],
@@ -46058,9 +46822,6 @@
     ],
     "Rasulid Hexaglot": [
       "yemen-628-1517::t4"
-    ],
-    "Zaydi": [
-      "yemen-628-1517::t5"
     ],
     "Fustat/Cairo": [
       "yemen-628-1517::ec2"

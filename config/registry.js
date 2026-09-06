@@ -54,6 +54,7 @@ const MODULES = [
   { id:"south-arabia-1200bc-300bc", file:"modules/south-arabia-1200bc-300bc.json", label:"Ancient South Arabia 1,200–300 BC", sub:"Sabaʾ, Maʿīn, Qatabān and the Rise of the Incense Kingdoms", region:"Arabia", period:"Ancient" },
   { id:"south-arabia-300bc-628", file:"modules/south-arabia-300bc-628.json", label:"Late Antique South Arabia 300 BC–628 AD", sub:"Himyar, the Sabaean Wars, the Turn to Monotheism and the Coming of Aksum and Persia", region:"Arabia", period:"Late Antique" },
   { id:"yemen-628-1517", file:"modules/yemen-628-1517.json", label:"Medieval Yemen 628–1517", sub:"Islamisation, the Zaydi Imamate, Queen Arwa, the Rasulid Sultanate and the Coming of the Ottomans", region:"Arabia", period:"Medieval" },
+  { id:"yemen-1517-1900", file:"modules/yemen-1517-1900.json", label:"Early Modern Yemen 1517–1900", sub:"The Ottoman Century, the Qasimid Imams, the Coffee Boom of Mocha and the British at Aden", region:"Arabia", period:"Early Modern" },
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },
