@@ -46,6 +46,9 @@ const MODULES = [
   //   littoral folios below: same "Arabia" region, different geography and culture) ─
   { id:"arabia-paleolithic-500000bc-8000bc", file:"modules/arabia-paleolithic-500000bc-8000bc.json", label:"Palaeolithic Arabia 500,000–8,000 BC", sub:"Green Corridors, Archaic Hominins and Homo Sapiens Out of Africa", region:"Arabia", period:"Prehistoric" },
   { id:"hejaz-prehistory-8000bc-1200bc", file:"modules/hejaz-prehistory-8000bc-1200bc.json", label:"Prehistoric Northwest Arabia 8,000–1,200 BC", sub:"Mustatils, the Funerary Avenues and the Walled Oases of Tayma and Khaybar", region:"Arabia", period:"Prehistoric" },
+  // ── THE HEJAZ (Mecca, Medina, Ṭāʾif, the western coast — a distinct thread from
+  //   the NW-Arabian oasis towns and from the central plateau) ────────────────────
+  { id:"hejaz-300bc-632", file:"modules/hejaz-300bc-632.json", label:"The Hejaz and the Prophet 300 BC–632 AD", sub:"Mecca, Yathrib, the Pre-Islamic Sanctuary and the Life of Muḥammad", region:"Arabia", period:"Late Antique" },
   // PLANNED — the thread continues: a Dadan-and-Lihyan folio (region "Arabia", c.1000–100 BC)
   //   would bridge the gap to nabataean-400bc-106ce.json, already built above.
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread, distinct from both the
