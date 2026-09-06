@@ -56,6 +56,9 @@ const MODULES = [
   { id:"yemen-628-1517", file:"modules/yemen-628-1517.json", label:"Medieval Yemen 628–1517", sub:"Islamisation, the Zaydi Imamate, Queen Arwa, the Rasulid Sultanate and the Coming of the Ottomans", region:"Arabia", period:"Medieval" },
   { id:"yemen-1517-1900", file:"modules/yemen-1517-1900.json", label:"Early Modern Yemen 1517–1900", sub:"The Ottoman Century, the Qasimid Imams, the Coffee Boom of Mocha and the British at Aden", region:"Arabia", period:"Early Modern" },
   { id:"yemen-1900-today", file:"modules/yemen-1900-today.json", label:"Modern Yemen 1900–today", sub:"The Imamate, Two Republics, Unification and the War", region:"Arabia", period:"Modern" },
+  // ── NAJD (the central plateau — the Yamama, the caravan cross-routes, the
+  //   Wahhabi movement and the Saudi states) ─────────────────────────────────────
+  { id:"najd-1200bc-300bc", file:"modules/najd-1200bc-300bc.json", label:"Ancient Najd 1,200–300 BC", sub:"The Camel Nomads, the Arab Queens, the Kingdom of Qedar and the Oases of al-Yamama", region:"Arabia", period:"Ancient" },
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 3020,
-    "folio_count": 54,
-    "xlink_pairs": 205,
-    "keyword_terms": 5713,
+    "total_entries": 3062,
+    "folio_count": 55,
+    "xlink_pairs": 208,
+    "keyword_terms": 5743,
     "folios": [
       {
         "id": "al-andalus-1031-1492",
@@ -144,6 +144,11 @@
         "id": "nabataean-400bc-106ce",
         "title": "Nabataean Kingdom",
         "entries": 35
+      },
+      {
+        "id": "najd-1200bc-300bc",
+        "title": "Ancient Najd",
+        "entries": 42
       },
       {
         "id": "oman-1970-today",
@@ -1762,6 +1767,48 @@
     "nabataean-400bc-106ce::lv1": "Nabataean queens on coinage — named and portrayed",
     "nabataean-400bc-106ce::lv2": "Babatha — a woman's legal archive",
     "nabataean-400bc-106ce::lv3": "Nabataean women's property rights — inscription evidence",
+    "najd-1200bc-300bc::k1": "Gindibu the Arab, and the first 'Arabs'",
+    "najd-1200bc-300bc::k2": "The ʿAribi on the Assyrian tribute frontier",
+    "najd-1200bc-300bc::k3": "The Arab queens",
+    "najd-1200bc-300bc::k4": "Adummatu, the desert stronghold",
+    "najd-1200bc-300bc::k5": "The kingdom of Qedar",
+    "najd-1200bc-300bc::k6": "Gashmu the Arabian, king of Qedar",
+    "najd-1200bc-300bc::k7": "Al-Yamama — the oases of Wadi Hanifa",
+    "najd-1200bc-300bc::k8": "The homeland of Kindah",
+    "najd-1200bc-300bc::c1": "Qarqar and the camel contingent",
+    "najd-1200bc-300bc::c2": "The punitive campaigns into the desert",
+    "najd-1200bc-300bc::c3": "The raid, the camel and the well",
+    "najd-1200bc-300bc::c4": "Qedar and its rivals",
+    "najd-1200bc-300bc::o1": "Tribute, hostage and overseer on the frontier",
+    "najd-1200bc-300bc::o2": "The confederation as a state",
+    "najd-1200bc-300bc::o3": "Custody of the gods",
+    "najd-1200bc-300bc::b1": "The North Arabian pantheon",
+    "najd-1200bc-300bc::b2": "The standing stone and the well",
+    "najd-1200bc-300bc::b3": "The truce-shrine at Dumah",
+    "najd-1200bc-300bc::ex1": "The Ancient North Arabian inscriptions",
+    "najd-1200bc-300bc::ex2": "The rock art of Najd",
+    "najd-1200bc-300bc::ex3": "The camel and the horse in the plateau's art",
+    "najd-1200bc-300bc::ex4": "The huda and the rock-art dancers",
+    "najd-1200bc-300bc::t1": "Nineveh's archive as the first history of Najd",
+    "najd-1200bc-300bc::t2": "Reading the rock scripts of the interior",
+    "najd-1200bc-300bc::t3": "The genealogists' ancient Najd",
+    "najd-1200bc-300bc::ec1": "The camel-nomad economy",
+    "najd-1200bc-300bc::ec2": "The trans-Arabian cross-routes",
+    "najd-1200bc-300bc::ec3": "The oasis farms of al-Yamama",
+    "najd-1200bc-300bc::ec4": "Camels, incense and captives for the north",
+    "najd-1200bc-300bc::tc1": "The North Arabian camel saddle",
+    "najd-1200bc-300bc::tc2": "Wells, cisterns and the falaj frontier",
+    "najd-1200bc-300bc::tc3": "The horse and the composite bow",
+    "najd-1200bc-300bc::x1": "Assyria and the Arabs",
+    "najd-1200bc-300bc::x2": "Qedar and the Persian Empire",
+    "najd-1200bc-300bc::x3": "Geshem the Arabian and Judah",
+    "najd-1200bc-300bc::x4": "The corridor between the two Fertile Crescents",
+    "najd-1200bc-300bc::w1": "The camel and the making of the Arab nomad",
+    "najd-1200bc-300bc::w2": "'Arab' enters history",
+    "najd-1200bc-300bc::w3": "The thread continues — Qaryat al-Faw and Kindah",
+    "najd-1200bc-300bc::lv1": "The Arab queens",
+    "najd-1200bc-300bc::lv2": "The priestess and the women of the inscriptions",
+    "najd-1200bc-300bc::lv3": "The tribute in people",
     "oman-1970-today::p1": "Qaboos bin Said — the 1970 coup and a 50-year reign",
     "oman-1970-today::p2": "Haitham bin Tariq — succession by sealed letter",
     "oman-1970-today::p3": "Said bin Taimur — the sultanate Qaboos inherited",
@@ -3378,7 +3425,8 @@
     ],
     "hejaz-prehistory-8000bc-1200bc::x3": [
       "arabia-paleolithic-500000bc-8000bc::x3",
-      "gulf-prehistory-8000bc-3000bc::ec1"
+      "gulf-prehistory-8000bc-3000bc::ec1",
+      "najd-1200bc-300bc::x4"
     ],
     "arabia-paleolithic-500000bc-8000bc::x1": [
       "gulf-prehistory-8000bc-3000bc::w1"
@@ -3991,6 +4039,24 @@
       "rome-200-300::c9",
       "rome-200-300::ex3"
     ],
+    "najd-1200bc-300bc::ec2": [
+      "south-arabia-1200bc-300bc::x1"
+    ],
+    "south-arabia-1200bc-300bc::x1": [
+      "najd-1200bc-300bc::ec2",
+      "hejaz-prehistory-8000bc-1200bc::x1",
+      "nabataean-400bc-106ce::s1",
+      "south-arabia-300bc-628::ec1"
+    ],
+    "najd-1200bc-300bc::ec4": [
+      "south-arabia-1200bc-300bc::ec6"
+    ],
+    "south-arabia-1200bc-300bc::ec6": [
+      "najd-1200bc-300bc::ec4"
+    ],
+    "najd-1200bc-300bc::x4": [
+      "hejaz-prehistory-8000bc-1200bc::x3"
+    ],
     "oman-1970-today::p1": [
       "oman-gulf-1650-1820::k3"
     ],
@@ -4149,11 +4215,6 @@
     ],
     "south-arabia-prehistory-8000bc-1200bc::tc3": [
       "south-arabia-1200bc-300bc::tc1"
-    ],
-    "south-arabia-1200bc-300bc::x1": [
-      "hejaz-prehistory-8000bc-1200bc::x1",
-      "nabataean-400bc-106ce::s1",
-      "south-arabia-300bc-628::ec1"
     ],
     "south-arabia-300bc-628::k1": [
       "south-arabia-1200bc-300bc::w4"
@@ -13669,6 +13730,181 @@
       "Hegra",
       "Oboda",
       "Nabataean"
+    ],
+    "najd-1200bc-300bc::k1": [
+      "Qarqar",
+      "Syria",
+      "Gindibu of the Najd",
+      "Gindibu the Arab",
+      "Arabs",
+      "Shalmaneser III"
+    ],
+    "najd-1200bc-300bc::k2": [
+      "Najd",
+      "Assyria",
+      "Aribi",
+      "Assyrian",
+      "Tiglath-Pileser III"
+    ],
+    "najd-1200bc-300bc::k3": [
+      "Adummatu",
+      "North Arabian"
+    ],
+    "najd-1200bc-300bc::k4": [
+      "Dumat al-Jandal",
+      "al-Jawf",
+      "Saudi Arabia",
+      "Adummatu"
+    ],
+    "najd-1200bc-300bc::k5": [
+      "Qedar",
+      "Dumah",
+      "Najd",
+      "North Arabian"
+    ],
+    "najd-1200bc-300bc::k6": [
+      "Qedar",
+      "Najd",
+      "Levant",
+      "Gashmu the Arabian",
+      "Nile Delta"
+    ],
+    "najd-1200bc-300bc::k7": [
+      "Wadi Hanifa",
+      "al-Kharj",
+      "al-Aflaj",
+      "Saudi Arabia",
+      "Al-Yamama"
+    ],
+    "najd-1200bc-300bc::k8": [
+      "Kindah",
+      "Wadi al-Dawasir",
+      "Najd",
+      "Saudi Arabia"
+    ],
+    "najd-1200bc-300bc::c1": [
+      "Qarqar",
+      "Orontes",
+      "Syria",
+      "Shalmaneser III"
+    ],
+    "najd-1200bc-300bc::c2": [
+      "Adummatu"
+    ],
+    "najd-1200bc-300bc::c3": [
+      "Najd"
+    ],
+    "najd-1200bc-300bc::c4": [
+      "Qedar"
+    ],
+    "najd-1200bc-300bc::o1": [
+      "Assyrian",
+      "Tribute"
+    ],
+    "najd-1200bc-300bc::o2": [
+      "Najd",
+      "North Arabian"
+    ],
+    "najd-1200bc-300bc::o3": [
+      "Dumat al-Jandal",
+      "al-Jawf",
+      "Custody"
+    ],
+    "najd-1200bc-300bc::b1": [
+      "North Arabian"
+    ],
+    "najd-1200bc-300bc::b3": [
+      "Dumat al-Jandal",
+      "al-Jawf",
+      "Dumah"
+    ],
+    "najd-1200bc-300bc::ex1": [
+      "Najd",
+      "Ancient North Arabian"
+    ],
+    "najd-1200bc-300bc::ex2": [
+      "Najd"
+    ],
+    "najd-1200bc-300bc::ex3": [
+      "Najd"
+    ],
+    "najd-1200bc-300bc::t1": [
+      "Nineveh",
+      "Najd"
+    ],
+    "najd-1200bc-300bc::t2": [
+      "Najd",
+      "Reading",
+      "Ancient North Arabian"
+    ],
+    "najd-1200bc-300bc::t3": [
+      "Kufa",
+      "Basra",
+      "Hijaz",
+      "Najd"
+    ],
+    "najd-1200bc-300bc::ec1": [
+      "Najd"
+    ],
+    "najd-1200bc-300bc::ec2": [
+      "al-Aflaj",
+      "al-Kharj",
+      "Yamama"
+    ],
+    "najd-1200bc-300bc::ec3": [
+      "Wadi Hanifa",
+      "al-Kharj",
+      "Saudi Arabia",
+      "al-Yamama"
+    ],
+    "najd-1200bc-300bc::ec4": [
+      "Nineveh",
+      "Babylon",
+      "Camels"
+    ],
+    "najd-1200bc-300bc::tc1": [
+      "North Arabian"
+    ],
+    "najd-1200bc-300bc::tc2": [
+      "Wells"
+    ],
+    "najd-1200bc-300bc::x1": [
+      "Nineveh",
+      "Assyria",
+      "Arabs"
+    ],
+    "najd-1200bc-300bc::x2": [
+      "Qedar"
+    ],
+    "najd-1200bc-300bc::x3": [
+      "Jerusalem",
+      "Qedarite",
+      "Geshem the Arabian",
+      "Judah"
+    ],
+    "najd-1200bc-300bc::x4": [
+      "Najd",
+      "Fertile Crescents"
+    ],
+    "najd-1200bc-300bc::w2": [
+      "Fertile Crescent",
+      "Central Arabia"
+    ],
+    "najd-1200bc-300bc::w3": [
+      "Qaryat al-Faw",
+      "Najd",
+      "Saudi Arabia",
+      "Kindah"
+    ],
+    "najd-1200bc-300bc::lv1": [
+      "Adummatu",
+      "North Arabian"
+    ],
+    "najd-1200bc-300bc::lv2": [
+      "Adummatu"
+    ],
+    "najd-1200bc-300bc::lv3": [
+      "Assyria"
     ],
     "oman-1970-today::p1": [
       "Al Bu Said",
@@ -25552,6 +25788,11 @@
       "hejaz-prehistory-8000bc-1200bc::w5",
       "hejaz-prehistory-8000bc-1200bc::lv1",
       "nabataean-400bc-106ce::a2",
+      "najd-1200bc-300bc::k4",
+      "najd-1200bc-300bc::k7",
+      "najd-1200bc-300bc::k8",
+      "najd-1200bc-300bc::ec3",
+      "najd-1200bc-300bc::w3",
       "oman-1970-today::x5",
       "south-arabia-1200bc-300bc::x3",
       "south-arabia-300bc-628::c4",
@@ -25856,7 +26097,8 @@
       "arabia-paleolithic-500000bc-8000bc::t3"
     ],
     "Reading": [
-      "arabia-paleolithic-500000bc-8000bc::t2"
+      "arabia-paleolithic-500000bc-8000bc::t2",
+      "najd-1200bc-300bc::t2"
     ],
     "Megafauna": [
       "arabia-paleolithic-500000bc-8000bc::ec1"
@@ -25933,7 +26175,8 @@
       "france-1610-1715::ex3",
       "gulf-prehistory-8000bc-3000bc::x2",
       "hejaz-prehistory-8000bc-1200bc::ec4",
-      "hejaz-prehistory-8000bc-1200bc::x2"
+      "hejaz-prehistory-8000bc-1200bc::x2",
+      "najd-1200bc-300bc::k6"
     ],
     "Dead": [
       "arabia-paleolithic-500000bc-8000bc::x4",
@@ -26078,6 +26321,7 @@
       "fatimids-909-1171::c8",
       "fatimids-909-1171::b8",
       "fatimids-909-1171::x4",
+      "najd-1200bc-300bc::x3",
       "rome-300-400::a3",
       "rome-300-400::te4",
       "sassanid-484-651::c3",
@@ -26242,6 +26486,8 @@
       "mamluks-1250-1517::ec3",
       "nabataean-400bc-106ce::o3",
       "nabataean-400bc-106ce::t2",
+      "najd-1200bc-300bc::k1",
+      "najd-1200bc-300bc::c1",
       "palmyrene-100bc-273ce::k1",
       "palmyrene-100bc-273ce::c3",
       "palmyrene-100bc-273ce::c5",
@@ -27462,6 +27708,7 @@
       "eastern-arabia-750-1200::tc4",
       "eastern-arabia-750-1200::lv1",
       "eastern-arabia-750-1200::lv5",
+      "najd-1200bc-300bc::t3",
       "portuguese-gulf-1507-1650::t4",
       "portuguese-gulf-1507-1650::ec4",
       "trucial-gulf-1820-1971::w3"
@@ -27517,7 +27764,9 @@
     ],
     "Arabs": [
       "beth-qatraye-240-750::c1",
-      "caliphate-750-945::t3"
+      "caliphate-750-945::t3",
+      "najd-1200bc-300bc::k1",
+      "najd-1200bc-300bc::x1"
     ],
     "Juwatha": [
       "beth-qatraye-240-750::c2",
@@ -27846,6 +28095,9 @@
       "dilmun-3000bc-600bc::k6",
       "dilmun-3000bc-600bc::x4",
       "dilmun-3000bc-600bc::w4",
+      "najd-1200bc-300bc::t1",
+      "najd-1200bc-300bc::ec4",
+      "najd-1200bc-300bc::x1",
       "south-arabia-1200bc-300bc::ec6"
     ],
     "Isaac of Nineveh": [
@@ -28392,6 +28644,7 @@
       "lakhmid-268-602::k1",
       "lakhmid-268-602::ex3",
       "lakhmid-268-602::w5",
+      "najd-1200bc-300bc::t3",
       "south-arabia-300bc-628::t3"
     ],
     "Ali": [
@@ -28513,6 +28766,21 @@
       "hormuz-1200-1507::o3",
       "lakhmid-268-602::ex1",
       "lakhmid-268-602::lv3",
+      "najd-1200bc-300bc::k2",
+      "najd-1200bc-300bc::k5",
+      "najd-1200bc-300bc::k6",
+      "najd-1200bc-300bc::k8",
+      "najd-1200bc-300bc::c3",
+      "najd-1200bc-300bc::o2",
+      "najd-1200bc-300bc::ex1",
+      "najd-1200bc-300bc::ex2",
+      "najd-1200bc-300bc::ex3",
+      "najd-1200bc-300bc::t1",
+      "najd-1200bc-300bc::t2",
+      "najd-1200bc-300bc::t3",
+      "najd-1200bc-300bc::ec1",
+      "najd-1200bc-300bc::x4",
+      "najd-1200bc-300bc::w3",
       "oman-gulf-1650-1820::b2",
       "oman-gulf-1650-1820::e3",
       "oman-gulf-1650-1820::t2",
@@ -28520,7 +28788,8 @@
       "oman-gulf-1650-1820::w5"
     ],
     "Yamama": [
-      "caliphate-632-750::c1"
+      "caliphate-632-750::c1",
+      "najd-1200bc-300bc::ec2"
     ],
     "Khalid ibn al-Walid": [
       "caliphate-632-750::c1",
@@ -28694,6 +28963,7 @@
       "eastern-arabia-750-1200::k4",
       "eastern-arabia-750-1200::b3",
       "lakhmid-268-602::ex1",
+      "najd-1200bc-300bc::t3",
       "oman-gulf-1650-1820::w5"
     ],
     "Quran": [
@@ -30132,7 +30402,8 @@
       "dilmun-3000bc-600bc::k6"
     ],
     "Tribute": [
-      "dilmun-3000bc-600bc::k5"
+      "dilmun-3000bc-600bc::k5",
+      "najd-1200bc-300bc::o1"
     ],
     "Dilmun Bahrain": [
       "dilmun-3000bc-600bc::k5",
@@ -30160,6 +30431,9 @@
     ],
     "Assyria": [
       "dilmun-3000bc-600bc::c1",
+      "najd-1200bc-300bc::k2",
+      "najd-1200bc-300bc::x1",
+      "najd-1200bc-300bc::lv3",
       "south-arabia-1200bc-300bc::x4"
     ],
     "Merodach-baladan Chaldeans": [
@@ -30323,6 +30597,8 @@
     ],
     "Assyrian": [
       "dilmun-3000bc-600bc::x4",
+      "najd-1200bc-300bc::k2",
+      "najd-1200bc-300bc::o1",
       "south-arabia-1200bc-300bc::k3",
       "south-arabia-1200bc-300bc::t1"
     ],
@@ -31119,7 +31395,8 @@
       "egypt-6000bc-3000bc::o2",
       "egypt-6000bc-3000bc::w4",
       "fatimids-909-1171::c3",
-      "mamluks-1250-1517::c8"
+      "mamluks-1250-1517::c8",
+      "najd-1200bc-300bc::k6"
     ],
     "Dynasty": [
       "egypt-3000bc-2100bc::c3",
@@ -31728,7 +32005,8 @@
       "egypt-6000bc-3000bc::ec2"
     ],
     "Fertile Crescent": [
-      "egypt-6000bc-3000bc::ec2"
+      "egypt-6000bc-3000bc::ec2",
+      "najd-1200bc-300bc::w2"
     ],
     "Gebel": [
       "egypt-6000bc-3000bc::ec3",
@@ -37881,6 +38159,130 @@
     "Cave of Letters": [
       "nabataean-400bc-106ce::lv2"
     ],
+    "Qarqar": [
+      "najd-1200bc-300bc::k1",
+      "najd-1200bc-300bc::c1"
+    ],
+    "Gindibu of the Najd": [
+      "najd-1200bc-300bc::k1"
+    ],
+    "Gindibu the Arab": [
+      "najd-1200bc-300bc::k1"
+    ],
+    "Shalmaneser III": [
+      "najd-1200bc-300bc::k1",
+      "najd-1200bc-300bc::c1"
+    ],
+    "Aribi": [
+      "najd-1200bc-300bc::k2"
+    ],
+    "Tiglath-Pileser III": [
+      "najd-1200bc-300bc::k2"
+    ],
+    "Adummatu": [
+      "najd-1200bc-300bc::k3",
+      "najd-1200bc-300bc::k4",
+      "najd-1200bc-300bc::c2",
+      "najd-1200bc-300bc::lv1",
+      "najd-1200bc-300bc::lv2"
+    ],
+    "North Arabian": [
+      "najd-1200bc-300bc::k3",
+      "najd-1200bc-300bc::k5",
+      "najd-1200bc-300bc::o2",
+      "najd-1200bc-300bc::b1",
+      "najd-1200bc-300bc::tc1",
+      "najd-1200bc-300bc::lv1"
+    ],
+    "Dumat al-Jandal": [
+      "najd-1200bc-300bc::k4",
+      "najd-1200bc-300bc::o3",
+      "najd-1200bc-300bc::b3"
+    ],
+    "al-Jawf": [
+      "najd-1200bc-300bc::k4",
+      "najd-1200bc-300bc::o3",
+      "najd-1200bc-300bc::b3"
+    ],
+    "Qedar": [
+      "najd-1200bc-300bc::k5",
+      "najd-1200bc-300bc::k6",
+      "najd-1200bc-300bc::c4",
+      "najd-1200bc-300bc::x2"
+    ],
+    "Dumah": [
+      "najd-1200bc-300bc::k5",
+      "najd-1200bc-300bc::b3"
+    ],
+    "Gashmu the Arabian": [
+      "najd-1200bc-300bc::k6"
+    ],
+    "Wadi Hanifa": [
+      "najd-1200bc-300bc::k7",
+      "najd-1200bc-300bc::ec3"
+    ],
+    "al-Kharj": [
+      "najd-1200bc-300bc::k7",
+      "najd-1200bc-300bc::ec2",
+      "najd-1200bc-300bc::ec3"
+    ],
+    "al-Aflaj": [
+      "najd-1200bc-300bc::k7",
+      "najd-1200bc-300bc::ec2"
+    ],
+    "Al-Yamama": [
+      "najd-1200bc-300bc::k7"
+    ],
+    "Kindah": [
+      "najd-1200bc-300bc::k8",
+      "najd-1200bc-300bc::w3"
+    ],
+    "Wadi al-Dawasir": [
+      "najd-1200bc-300bc::k8"
+    ],
+    "Orontes": [
+      "najd-1200bc-300bc::c1"
+    ],
+    "Custody": [
+      "najd-1200bc-300bc::o3"
+    ],
+    "Ancient North Arabian": [
+      "najd-1200bc-300bc::ex1",
+      "najd-1200bc-300bc::t2"
+    ],
+    "al-Yamama": [
+      "najd-1200bc-300bc::ec3"
+    ],
+    "Babylon": [
+      "najd-1200bc-300bc::ec4",
+      "south-arabia-1200bc-300bc::ec6",
+      "tylos-mleiha-300bc-300ad::w1"
+    ],
+    "Camels": [
+      "najd-1200bc-300bc::ec4",
+      "south-arabia-1200bc-300bc::ec6"
+    ],
+    "Wells": [
+      "najd-1200bc-300bc::tc2"
+    ],
+    "Qedarite": [
+      "najd-1200bc-300bc::x3"
+    ],
+    "Geshem the Arabian": [
+      "najd-1200bc-300bc::x3"
+    ],
+    "Judah": [
+      "najd-1200bc-300bc::x3"
+    ],
+    "Fertile Crescents": [
+      "najd-1200bc-300bc::x4"
+    ],
+    "Central Arabia": [
+      "najd-1200bc-300bc::w2"
+    ],
+    "Qaryat al-Faw": [
+      "najd-1200bc-300bc::w3"
+    ],
     "Al Bu Said": [
       "oman-1970-today::p1",
       "oman-1970-today::p2",
@@ -41275,13 +41677,6 @@
     ],
     "Aegean": [
       "south-arabia-1200bc-300bc::ec5"
-    ],
-    "Babylon": [
-      "south-arabia-1200bc-300bc::ec6",
-      "tylos-mleiha-300bc-300ad::w1"
-    ],
-    "Camels": [
-      "south-arabia-1200bc-300bc::ec6"
     ],
     "Wadi Dhana": [
       "south-arabia-1200bc-300bc::tc1",
