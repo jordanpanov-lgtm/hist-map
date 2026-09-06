@@ -58,6 +58,9 @@ const MODULES = [
   // ── THE NORTHWEST OASES (Taymāʾ, Dadān/al-ʿUlā, Khaybar, Dūmah — the western
   //   corridor; feeds into nabataean-312bc-106ce for the Nabataean period) ─────────
   { id:"dedan-tayma-1200bc-300bc", file:"modules/dedan-tayma-1200bc-300bc.json", label:"The Oasis Kingdoms: Taymāʾ, Dadān and Lihyān 1,200–300 BC", sub:"Taymāʾ, Nabonidus in Arabia, and the Kingdoms of Dadān and Lihyān", region:"NW Arabia", period:"Ancient" },
+  // The north-Arabian desert kingdom (Wādī Sirḥān, Dūmat al-Jandal) — dated to its
+  //   own span, not the period bucket, since the record is firm from Gindibu (853 BC).
+  { id:"qedar-853bc-330bc", file:"modules/qedar-853bc-330bc.json", label:"The Kingdom of Qedar 853–330 BC", sub:"Gindibu, the Five Arab Queens, Adummatu and the North Arabian Kingdom", region:"NW Arabia", period:"Ancient" },
   { id:"nw-arabia-106-632", file:"modules/nw-arabia-106-632.json", label:"Rome and the Oases 106–632", sub:"The Roman Frontier, the Tribal and Jewish Oases, and the Conquest of the North", region:"NW Arabia", period:"Late Antique" },
   { id:"nw-arabia-632-1517", file:"modules/nw-arabia-632-1517.json", label:"The Medieval Northwest 632–1517", sub:"A Corridor of the Hajj Roads — the Oases, the Tribes, and the Cities of Thamūd", region:"NW Arabia", period:"Medieval" },
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread; grouped with SE Arabia
@@ -69,8 +72,8 @@ const MODULES = [
   { id:"yemen-1517-1900", file:"modules/yemen-1517-1900.json", label:"Early Modern Yemen 1517–1900", sub:"The Ottoman Century, the Qasimid Imams, the Coffee Boom of Mocha and the British at Aden", region:"SE Arabia", period:"Early Modern" },
   { id:"yemen-1900-today", file:"modules/yemen-1900-today.json", label:"Modern Yemen 1900–today", sub:"The Imamate, Two Republics, Unification and the War", region:"SE Arabia", period:"Modern" },
   // ── NAJD (the central plateau — the Yamama, the caravan cross-routes, the
-  //   Wahhabi movement and the Saudi states) ─────────────────────────────────────
-  { id:"najd-1200bc-300bc", file:"modules/najd-1200bc-300bc.json", label:"Ancient Najd 1,200–300 BC", sub:"The Camel Nomads, the Arab Queens, the Kingdom of Qedar and the Oases of al-Yamama", region:"NW Arabia", period:"Ancient" },
+  //   Wahhabi movement and the Saudi states). Its Ancient record is thin and belongs
+  //   to the north (see qedar-853bc-330bc); the Najd thread proper begins at 300 BC.
   { id:"najd-300bc-632", file:"modules/najd-300bc-632.json", label:"Late Antique Najd 300 BC–632 AD", sub:"Qaryat al-Faw, the Kingdom of Kindah, the Age of the Poets and the Ridda", region:"NW Arabia", period:"Late Antique" },
   { id:"najd-632-1517", file:"modules/najd-632-1517.json", label:"Medieval Najd 632–1517", sub:"The Yamāma Province, the Ukhaydirid Emirate, the Bedouin Centuries and the Founding of the Oasis Towns", region:"NW Arabia", period:"Medieval" },
   { id:"najd-1517-1744", file:"modules/najd-1517-1744.json", label:"Najd on the Eve of the Reform 1517–1744", sub:"The Oasis-Town Emirates, Banū Khālid Overlordship and the Road to the Pact of Dirʿiyya", region:"NW Arabia", period:"Early Modern" },
