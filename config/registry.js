@@ -68,7 +68,7 @@ const MODULES = [
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread; grouped with SE Arabia
   //   for its Indian-Ocean orientation) ──────────────────────────────────────────
   { id:"south-arabia-prehistory-8000bc-1200bc", file:"modules/south-arabia-prehistory-8000bc-1200bc.json", label:"Prehistoric South Arabia 8,000–1,200 BC", sub:"The Highland Neolithic, the Cattle Cult and the Roots of the Incense Kingdoms", region:"SE Arabia", period:"Prehistoric" },
-  { id:"south-arabia-1200bc-300bc", file:"modules/south-arabia-1200bc-300bc.json", label:"Ancient South Arabia 1,200–300 BC", sub:"Sabaʾ, Maʿīn, Qatabān and the Rise of the Incense Kingdoms", region:"SE Arabia", period:"Ancient" },
+  { id:"south-arabia-1200bc-300bc", file:"modules/south-arabia-1200bc-300bc.json", label:"Sabaʾ, Maʿīn and Qatabān 1,200–300 BC", sub:"The Mukarribs of Sabaʾ, Awsān and Ḥaḍramawt, and the Rise of the Incense Trade", region:"SE Arabia", period:"Ancient" },
   { id:"south-arabia-300bc-628", file:"modules/south-arabia-300bc-628.json", label:"Himyar 300 BC–628", sub:"The Unification of Yemen, the Sabaean Wars, the Turn to Monotheism, and the Coming of Aksum and Persia", region:"SE Arabia", period:"Late Antique" },
   { id:"yemen-628-1517", file:"modules/yemen-628-1517.json", label:"Medieval Yemen 628–1517", sub:"Islamisation, the Zaydi Imamate, Queen Arwa, the Rasulid Sultanate and the Coming of the Ottomans", region:"SE Arabia", period:"Medieval" },
   { id:"yemen-1517-1900", file:"modules/yemen-1517-1900.json", label:"Early Modern Yemen 1517–1900", sub:"The Ottoman Century, the Qasimid Imams, the Coffee Boom of Mocha and the British at Aden", region:"SE Arabia", period:"Early Modern" },
