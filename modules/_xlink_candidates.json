@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-06",
-    "figure_matches": 747,
-    "figure_matches_rejected_dynasty_mismatch": 904,
-    "figure_matches_rejected_date_implausible": 1046,
+    "figure_matches": 745,
+    "figure_matches_rejected_dynasty_mismatch": 906,
+    "figure_matches_rejected_date_implausible": 1055,
     "dynasty_alignment_proposals_count": 62,
-    "keyword_matches": 3658,
-    "keyword_matches_rejected_geo_only": 8685,
-    "high_confidence": 774,
-    "medium_confidence": 312,
-    "low_confidence": 3319
+    "keyword_matches": 3663,
+    "keyword_matches_rejected_geo_only": 8687,
+    "high_confidence": 772,
+    "medium_confidence": 313,
+    "low_confidence": 3323
   },
   "figure_name_matches": [
     {
@@ -1675,14 +1675,14 @@
         "decade": "240s–630s"
       },
       "match": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "k5",
         "cat": "power",
         "label": "Ardashir I ends the Parthian Gulf order",
         "decade": "240s"
       },
       "xlink_a": "beth-qatraye-240-632::ec1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::k5"
+      "xlink_b": "tylos-mleiha-300bc-240ad::k5"
     },
     {
       "confidence": "high",
@@ -1697,14 +1697,14 @@
         "decade": "240s–630s"
       },
       "match": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "ec2",
         "cat": "economy",
         "label": "Omana — the Gulf's port on the India run",
         "decade": "50s BC–200s"
       },
       "xlink_a": "beth-qatraye-240-632::ec1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::ec2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::ec2"
     },
     {
       "confidence": "high",
@@ -1719,14 +1719,14 @@
         "decade": "240s–630s"
       },
       "match": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x1",
         "cat": "exchange",
         "label": "The Gulf as Rome's back door to India",
         "decade": "250s"
       },
       "xlink_a": "beth-qatraye-240-632::ec1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x1"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x1"
     },
     {
       "confidence": "high",
@@ -6229,14 +6229,14 @@
         "decade": "130s"
       },
       "match": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "c3",
         "cat": "conflict",
         "label": "Trajan annexes Nabataea as Arabia Petraea",
         "decade": "100s"
       },
       "xlink_a": "hispania-27bc-409ad::k2",
-      "xlink_b": "nabataean-400bc-106ce::c3"
+      "xlink_b": "nabataean-312bc-106ce::c3"
     },
     {
       "confidence": "high",
@@ -7637,6 +7637,28 @@
         "decade": "1250s–1510s"
       },
       "match": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "o5",
+        "cat": "order",
+        "label": "Household registers and bonded labour",
+        "decade": "1700s BC–1810s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv7",
+      "xlink_b": "egypt-2100bc-1550bc::o5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Household",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv7",
+        "cat": "lives",
+        "label": "Household slavery and the racial hierarchy",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "match": {
         "folio": "south-arabia-prehistory-8000bc-1200bc",
         "id": "lv3",
         "cat": "lives",
@@ -7733,94 +7755,6 @@
       },
       "xlink_a": "mamluks-1250-1517::lv6",
       "xlink_b": "spain-1516-1700::s5"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Kindah",
-      "pivot": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k8",
-        "cat": "power",
-        "label": "The homeland of Kindah",
-        "dynasty": "Kindah",
-        "decade": "300s BC–500s"
-      },
-      "match": {
-        "folio": "najd-300bc-632",
-        "id": "k4",
-        "cat": "power",
-        "label": "Hujr Ākil al-Murār and Kindah's kingship",
-        "decade": "450s–490s"
-      },
-      "xlink_a": "najd-1200bc-300bc::k8",
-      "xlink_b": "najd-300bc-632::k4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Kindah",
-      "pivot": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k8",
-        "cat": "power",
-        "label": "The homeland of Kindah",
-        "dynasty": "Kindah",
-        "decade": "300s BC–500s"
-      },
-      "match": {
-        "folio": "najd-300bc-632",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "Kindah takes and loses al-Ḥīra",
-        "decade": "520s"
-      },
-      "xlink_a": "najd-1200bc-300bc::k8",
-      "xlink_b": "najd-300bc-632::c2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Kindah",
-      "pivot": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k8",
-        "cat": "power",
-        "label": "The homeland of Kindah",
-        "dynasty": "Kindah",
-        "decade": "300s BC–500s"
-      },
-      "match": {
-        "folio": "najd-300bc-632",
-        "id": "o2",
-        "cat": "order",
-        "label": "Kindah's viceregal kingship",
-        "decade": "450s–520s"
-      },
-      "xlink_a": "najd-1200bc-300bc::k8",
-      "xlink_b": "najd-300bc-632::o2"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Kindah",
-      "pivot": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k8",
-        "cat": "power",
-        "label": "The homeland of Kindah",
-        "dynasty": "Kindah",
-        "decade": "300s BC–500s"
-      },
-      "match": {
-        "folio": "najd-300bc-632",
-        "id": "w2",
-        "cat": "world",
-        "label": "Kindah, the kingdom that failed",
-        "decade": "450s–550s"
-      },
-      "xlink_a": "najd-1200bc-300bc::k8",
-      "xlink_b": "najd-300bc-632::w2"
     },
     {
       "confidence": "high",
@@ -8397,24 +8331,90 @@
     {
       "confidence": "high",
       "type": "figure-name",
-      "name": "Qaryat al-Faw",
+      "name": "Lakhmid",
       "pivot": {
         "folio": "najd-300bc-632",
-        "id": "k1",
+        "id": "k2",
         "cat": "power",
-        "label": "Qaryat al-Faw, the caravan city",
-        "dynasty": null,
-        "decade": "300s BC–350s"
+        "label": "The Lakhmid claim on eastern Najd",
+        "dynasty": "Lakhmid",
+        "decade": "300s–600s"
       },
       "match": {
-        "folio": "najd-1200bc-300bc",
-        "id": "w3",
-        "cat": "world",
-        "label": "The thread continues — Qaryat al-Faw and Kindah",
-        "decade": "300s BC"
+        "folio": "ghassanid-420-638",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Ghassanid raids on Lakhmid territory",
+        "decade": "520s–570s"
       },
-      "xlink_a": "najd-300bc-632::k1",
-      "xlink_b": "najd-1200bc-300bc::w3"
+      "xlink_a": "najd-300bc-632::k2",
+      "xlink_b": "ghassanid-420-638::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Lakhmid",
+      "pivot": {
+        "folio": "najd-300bc-632",
+        "id": "k2",
+        "cat": "power",
+        "label": "The Lakhmid claim on eastern Najd",
+        "dynasty": "Lakhmid",
+        "decade": "300s–600s"
+      },
+      "match": {
+        "folio": "lakhmid-268-602",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Lakhmid forces in the Roman-Persian wars",
+        "decade": "420s–530s"
+      },
+      "xlink_a": "najd-300bc-632::k2",
+      "xlink_b": "lakhmid-268-602::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Lakhmid",
+      "pivot": {
+        "folio": "najd-300bc-632",
+        "id": "k2",
+        "cat": "power",
+        "label": "The Lakhmid claim on eastern Najd",
+        "dynasty": "Lakhmid",
+        "decade": "300s–600s"
+      },
+      "match": {
+        "folio": "lakhmid-268-602",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Abolition of the Lakhmid kingdom",
+        "decade": "600s"
+      },
+      "xlink_a": "najd-300bc-632::k2",
+      "xlink_b": "lakhmid-268-602::c5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Lakhmid",
+      "pivot": {
+        "folio": "najd-300bc-632",
+        "id": "k2",
+        "cat": "power",
+        "label": "The Lakhmid claim on eastern Najd",
+        "dynasty": "Lakhmid",
+        "decade": "300s–600s"
+      },
+      "match": {
+        "folio": "lakhmid-268-602",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Tabari: Annals on the Lakhmid kings",
+        "decade": "260s–910s"
+      },
+      "xlink_a": "najd-300bc-632::k2",
+      "xlink_b": "lakhmid-268-602::t2"
     },
     {
       "confidence": "high",
@@ -8424,9 +8424,9 @@
         "folio": "najd-300bc-632",
         "id": "k3",
         "cat": "power",
-        "label": "The Lakhmid claim on the north-east",
-        "dynasty": "Lakhmid",
-        "decade": "300s–600s"
+        "label": "The end of the Lakhmid buffer, 602",
+        "dynasty": "Sasanian",
+        "decade": "600s"
       },
       "match": {
         "folio": "ghassanid-420-638",
@@ -8446,9 +8446,9 @@
         "folio": "najd-300bc-632",
         "id": "k3",
         "cat": "power",
-        "label": "The Lakhmid claim on the north-east",
-        "dynasty": "Lakhmid",
-        "decade": "300s–600s"
+        "label": "The end of the Lakhmid buffer, 602",
+        "dynasty": "Sasanian",
+        "decade": "600s"
       },
       "match": {
         "folio": "lakhmid-268-602",
@@ -8468,9 +8468,9 @@
         "folio": "najd-300bc-632",
         "id": "k3",
         "cat": "power",
-        "label": "The Lakhmid claim on the north-east",
-        "dynasty": "Lakhmid",
-        "decade": "300s–600s"
+        "label": "The end of the Lakhmid buffer, 602",
+        "dynasty": "Sasanian",
+        "decade": "600s"
       },
       "match": {
         "folio": "lakhmid-268-602",
@@ -8490,9 +8490,9 @@
         "folio": "najd-300bc-632",
         "id": "k3",
         "cat": "power",
-        "label": "The Lakhmid claim on the north-east",
-        "dynasty": "Lakhmid",
-        "decade": "300s–600s"
+        "label": "The end of the Lakhmid buffer, 602",
+        "dynasty": "Sasanian",
+        "decade": "600s"
       },
       "match": {
         "folio": "lakhmid-268-602",
@@ -8525,28 +8525,6 @@
       },
       "xlink_a": "najd-300bc-632::k7",
       "xlink_b": "hejaz-prehistory-8000bc-1200bc::k1"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Najd",
-      "pivot": {
-        "folio": "najd-300bc-632",
-        "id": "k7",
-        "cat": "power",
-        "label": "The tribal confederations of Najd",
-        "dynasty": null,
-        "decade": "550s–620s"
-      },
-      "match": {
-        "folio": "najd-1200bc-300bc",
-        "id": "t1",
-        "cat": "thought",
-        "label": "Nineveh's archive as the first history of Najd",
-        "decade": "630s BC–850s"
-      },
-      "xlink_a": "najd-300bc-632::k7",
-      "xlink_b": "najd-1200bc-300bc::t1"
     },
     {
       "confidence": "high",
@@ -8595,90 +8573,24 @@
     {
       "confidence": "high",
       "type": "figure-name",
-      "name": "Lakhmid",
+      "name": "Najd",
       "pivot": {
         "folio": "najd-300bc-632",
-        "id": "k8",
+        "id": "k7",
         "cat": "power",
-        "label": "The end of the Lakhmid buffer",
-        "dynasty": "Sasanian",
-        "decade": "600s"
+        "label": "The tribal confederations of Najd",
+        "dynasty": null,
+        "decade": "550s–620s"
       },
       "match": {
-        "folio": "ghassanid-420-638",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Ghassanid raids on Lakhmid territory",
-        "decade": "520s–570s"
-      },
-      "xlink_a": "najd-300bc-632::k8",
-      "xlink_b": "ghassanid-420-638::c3"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Lakhmid",
-      "pivot": {
-        "folio": "najd-300bc-632",
-        "id": "k8",
-        "cat": "power",
-        "label": "The end of the Lakhmid buffer",
-        "dynasty": "Sasanian",
-        "decade": "600s"
-      },
-      "match": {
-        "folio": "lakhmid-268-602",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "Lakhmid forces in the Roman-Persian wars",
-        "decade": "420s–530s"
-      },
-      "xlink_a": "najd-300bc-632::k8",
-      "xlink_b": "lakhmid-268-602::c4"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Lakhmid",
-      "pivot": {
-        "folio": "najd-300bc-632",
-        "id": "k8",
-        "cat": "power",
-        "label": "The end of the Lakhmid buffer",
-        "dynasty": "Sasanian",
-        "decade": "600s"
-      },
-      "match": {
-        "folio": "lakhmid-268-602",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "Abolition of the Lakhmid kingdom",
-        "decade": "600s"
-      },
-      "xlink_a": "najd-300bc-632::k8",
-      "xlink_b": "lakhmid-268-602::c5"
-    },
-    {
-      "confidence": "high",
-      "type": "figure-name",
-      "name": "Lakhmid",
-      "pivot": {
-        "folio": "najd-300bc-632",
-        "id": "k8",
-        "cat": "power",
-        "label": "The end of the Lakhmid buffer",
-        "dynasty": "Sasanian",
-        "decade": "600s"
-      },
-      "match": {
-        "folio": "lakhmid-268-602",
-        "id": "t2",
+        "folio": "qedar-853bc-330bc",
+        "id": "t1",
         "cat": "thought",
-        "label": "Tabari: Annals on the Lakhmid kings",
-        "decade": "260s–910s"
+        "label": "Nineveh's archive as the first history of Najd",
+        "decade": "630s BC–850s"
       },
-      "xlink_a": "najd-300bc-632::k8",
-      "xlink_b": "lakhmid-268-602::t2"
+      "xlink_a": "najd-300bc-632::k7",
+      "xlink_b": "qedar-853bc-330bc::t1"
     },
     {
       "confidence": "high",
@@ -9009,6 +8921,28 @@
       },
       "xlink_a": "najd-300bc-632::k10",
       "xlink_b": "yemen-628-1517::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Al-Yamāma",
+      "pivot": {
+        "folio": "najd-632-1517",
+        "id": "k1",
+        "cat": "power",
+        "label": "Al-Yamāma emptied, governed from afar",
+        "dynasty": null,
+        "decade": "630s–750s"
+      },
+      "match": {
+        "folio": "najd-300bc-632",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Banū Ḥanīfa of al-Yamāma",
+        "decade": "400s–630s"
+      },
+      "xlink_a": "najd-632-1517::k1",
+      "xlink_b": "najd-300bc-632::k8"
     },
     {
       "confidence": "high",
@@ -11069,14 +11003,14 @@
         "decade": "100s BC–210s"
       },
       "match": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "o3",
         "cat": "order",
         "label": "Nabataean Tariff inscription of Palmyra",
         "decade": "130s"
       },
       "xlink_a": "palmyrene-100bc-273ce::k1",
-      "xlink_b": "nabataean-400bc-106ce::o3"
+      "xlink_b": "nabataean-312bc-106ce::o3"
     },
     {
       "confidence": "high",
@@ -12851,14 +12785,14 @@
         "decade": "220s"
       },
       "match": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "k5",
         "cat": "power",
         "label": "Ardashir I ends the Parthian Gulf order",
         "decade": "240s"
       },
       "xlink_a": "sassanid-224-484::k1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::k5"
+      "xlink_b": "tylos-mleiha-300bc-240ad::k5"
     },
     {
       "confidence": "high",
@@ -15153,7 +15087,7 @@
       "type": "figure-name",
       "name": "Mleiha",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "k3",
         "cat": "power",
         "label": "Mleiha — fort, palace and royal necropolis",
@@ -15167,7 +15101,7 @@
         "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
         "decade": "400s BC–800s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::k3",
+      "xlink_a": "tylos-mleiha-300bc-240ad::k3",
       "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
     },
     {
@@ -15175,7 +15109,7 @@
       "type": "figure-name",
       "name": "Ardashir I",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "k5",
         "cat": "power",
         "label": "Ardashir I ends the Parthian Gulf order",
@@ -15189,7 +15123,7 @@
         "label": "Ardashir I investiture relief, Naqsh-e Rajab",
         "decade": "220s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::k5",
+      "xlink_a": "tylos-mleiha-300bc-240ad::k5",
       "xlink_b": "sassanid-224-484::a1"
     },
     {
@@ -15197,7 +15131,7 @@
       "type": "figure-name",
       "name": "Mleiha",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "c3",
         "cat": "conflict",
         "label": "The destruction and abandonment of Mleiha",
@@ -15211,7 +15145,7 @@
         "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
         "decade": "400s BC–800s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::c3",
+      "xlink_a": "tylos-mleiha-300bc-240ad::c3",
       "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
     },
     {
@@ -15219,7 +15153,7 @@
       "type": "figure-name",
       "name": "Camel",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b3",
         "cat": "belief",
         "label": "Camel and horse burials at Mleiha and ed-Dur",
@@ -15233,7 +15167,7 @@
         "label": "The Camel Site community, Sakaka",
         "decade": "5200s BC–5600s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
+      "xlink_a": "tylos-mleiha-300bc-240ad::b3",
       "xlink_b": "hejaz-prehistory-8000bc-1200bc::k4"
     },
     {
@@ -15241,7 +15175,7 @@
       "type": "figure-name",
       "name": "Camel",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b3",
         "cat": "belief",
         "label": "Camel and horse burials at Mleiha and ed-Dur",
@@ -15255,7 +15189,7 @@
         "label": "The Camel Site as a seasonal gathering ritual",
         "decade": "5200s BC–5600s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
+      "xlink_a": "tylos-mleiha-300bc-240ad::b3",
       "xlink_b": "hejaz-prehistory-8000bc-1200bc::b2"
     },
     {
@@ -15263,7 +15197,7 @@
       "type": "figure-name",
       "name": "Camel",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b3",
         "cat": "belief",
         "label": "Camel and horse burials at Mleiha and ed-Dur",
@@ -15277,7 +15211,7 @@
         "label": "The Camel Site reliefs",
         "decade": "5200s BC–5600s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
+      "xlink_a": "tylos-mleiha-300bc-240ad::b3",
       "xlink_b": "hejaz-prehistory-8000bc-1200bc::ex1"
     },
     {
@@ -15285,7 +15219,7 @@
       "type": "figure-name",
       "name": "Camel",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b3",
         "cat": "belief",
         "label": "Camel and horse burials at Mleiha and ed-Dur",
@@ -15299,7 +15233,7 @@
         "label": "Domestication of the dromedary camel",
         "decade": "900s BC–1000s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
+      "xlink_a": "tylos-mleiha-300bc-240ad::b3",
       "xlink_b": "magan-1200bc-300bc::ec5"
     },
     {
@@ -15307,7 +15241,7 @@
       "type": "figure-name",
       "name": "Camel",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b3",
         "cat": "belief",
         "label": "Camel and horse burials at Mleiha and ed-Dur",
@@ -15321,7 +15255,7 @@
         "label": "The camel opens the overland route to south Arabia",
         "decade": "600s BC–900s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
+      "xlink_a": "tylos-mleiha-300bc-240ad::b3",
       "xlink_b": "magan-1200bc-300bc::x4"
     },
     {
@@ -15329,7 +15263,7 @@
       "type": "figure-name",
       "name": "Camel",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b3",
         "cat": "belief",
         "label": "Camel and horse burials at Mleiha and ed-Dur",
@@ -15337,21 +15271,21 @@
         "decade": "100s BC–200s"
       },
       "match": {
-        "folio": "najd-1200bc-300bc",
+        "folio": "qedar-853bc-330bc",
         "id": "c3",
         "cat": "conflict",
         "label": "The raid, the camel and the well",
         "decade": "300s BC–1200s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
-      "xlink_b": "najd-1200bc-300bc::c3"
+      "xlink_a": "tylos-mleiha-300bc-240ad::b3",
+      "xlink_b": "qedar-853bc-330bc::c3"
     },
     {
       "confidence": "high",
       "type": "figure-name",
       "name": "Camel",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b3",
         "cat": "belief",
         "label": "Camel and horse burials at Mleiha and ed-Dur",
@@ -15359,21 +15293,21 @@
         "decade": "100s BC–200s"
       },
       "match": {
-        "folio": "najd-1200bc-300bc",
+        "folio": "qedar-853bc-330bc",
         "id": "ex3",
         "cat": "expression",
         "label": "The camel and the horse in the plateau's art",
         "decade": "300s BC–1000s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
-      "xlink_b": "najd-1200bc-300bc::ex3"
+      "xlink_a": "tylos-mleiha-300bc-240ad::b3",
+      "xlink_b": "qedar-853bc-330bc::ex3"
     },
     {
       "confidence": "high",
       "type": "figure-name",
       "name": "Camel",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b3",
         "cat": "belief",
         "label": "Camel and horse burials at Mleiha and ed-Dur",
@@ -15381,21 +15315,21 @@
         "decade": "100s BC–200s"
       },
       "match": {
-        "folio": "najd-1200bc-300bc",
+        "folio": "qedar-853bc-330bc",
         "id": "tc1",
         "cat": "technology",
         "label": "The North Arabian camel saddle",
         "decade": "300s BC–1000s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
-      "xlink_b": "najd-1200bc-300bc::tc1"
+      "xlink_a": "tylos-mleiha-300bc-240ad::b3",
+      "xlink_b": "qedar-853bc-330bc::tc1"
     },
     {
       "confidence": "high",
       "type": "figure-name",
       "name": "Camel",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b3",
         "cat": "belief",
         "label": "Camel and horse burials at Mleiha and ed-Dur",
@@ -15403,21 +15337,21 @@
         "decade": "100s BC–200s"
       },
       "match": {
-        "folio": "najd-1200bc-300bc",
+        "folio": "qedar-853bc-330bc",
         "id": "w1",
         "cat": "world",
         "label": "The camel and the making of the Arab nomad",
         "decade": "800s BC–1200s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::b3",
-      "xlink_b": "najd-1200bc-300bc::w1"
+      "xlink_a": "tylos-mleiha-300bc-240ad::b3",
+      "xlink_b": "qedar-853bc-330bc::w1"
     },
     {
       "confidence": "high",
       "type": "figure-name",
       "name": "Mleiha",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "e1",
         "cat": "expression",
         "label": "The tower tombs of Mleiha",
@@ -15431,7 +15365,7 @@
         "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
         "decade": "400s BC–800s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::e1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::e1",
       "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
     },
     {
@@ -15439,7 +15373,7 @@
       "type": "figure-name",
       "name": "Mleiha",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "ec4",
         "cat": "economy",
         "label": "Mleiha, the Gulf's iron town",
@@ -15453,7 +15387,7 @@
         "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
         "decade": "400s BC–800s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::ec4",
+      "xlink_a": "tylos-mleiha-300bc-240ad::ec4",
       "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
     },
     {
@@ -15461,7 +15395,7 @@
       "type": "figure-name",
       "name": "Iron",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc1",
         "cat": "technology",
         "label": "Iron smelting at scale",
@@ -15475,7 +15409,7 @@
         "label": "Iron reaches the Gulf",
         "decade": "600s BC–1000s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "dilmun-1200bc-600bc::tc2"
     },
     {
@@ -15483,7 +15417,7 @@
       "type": "figure-name",
       "name": "Iron",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc1",
         "cat": "technology",
         "label": "Iron smelting at scale",
@@ -15497,7 +15431,7 @@
         "label": "The Iron Age settlement boom",
         "decade": "600s BC–1100s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "magan-1200bc-300bc::k5"
     },
     {
@@ -15505,7 +15439,7 @@
       "type": "figure-name",
       "name": "Iron",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc1",
         "cat": "technology",
         "label": "Iron smelting at scale",
@@ -15519,7 +15453,7 @@
         "label": "Iron Age columned halls as redistribution centres",
         "decade": "600s BC–900s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "magan-1200bc-300bc::o3"
     },
     {
@@ -15527,7 +15461,7 @@
       "type": "figure-name",
       "name": "Iron",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc1",
         "cat": "technology",
         "label": "Iron smelting at scale",
@@ -15541,7 +15475,7 @@
         "label": "The Iron Age snake shrines",
         "decade": "600s BC–900s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "magan-1200bc-300bc::b3"
     },
     {
@@ -15549,7 +15483,7 @@
       "type": "figure-name",
       "name": "Iron",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc1",
         "cat": "technology",
         "label": "Iron smelting at scale",
@@ -15563,7 +15497,7 @@
         "label": "The gold and iron of Saruq al-Hadid",
         "decade": "600s BC–1000s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "magan-1200bc-300bc::e4"
     },
     {
@@ -15571,7 +15505,7 @@
       "type": "figure-name",
       "name": "Iron",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc1",
         "cat": "technology",
         "label": "Iron smelting at scale",
@@ -15585,7 +15519,7 @@
         "label": "An Iron Age copper-alloy vessel with rattles",
         "decade": "600s BC–900s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "magan-1200bc-300bc::e5"
     },
     {
@@ -15593,7 +15527,7 @@
       "type": "figure-name",
       "name": "Iron",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc1",
         "cat": "technology",
         "label": "Iron smelting at scale",
@@ -15607,7 +15541,7 @@
         "label": "The falaj revolution and the Iron Age harvest",
         "decade": "600s BC–1000s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "magan-1200bc-300bc::ec4"
     },
     {
@@ -15615,7 +15549,7 @@
       "type": "figure-name",
       "name": "Iron",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc1",
         "cat": "technology",
         "label": "Iron smelting at scale",
@@ -15629,7 +15563,7 @@
         "label": "Iron working reaches the peninsula",
         "decade": "600s BC–1000s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "magan-1200bc-300bc::tc1"
     },
     {
@@ -15637,7 +15571,7 @@
       "type": "figure-name",
       "name": "Iron",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc1",
         "cat": "technology",
         "label": "Iron smelting at scale",
@@ -15651,7 +15585,7 @@
         "label": "Weapons in Iron Age women's graves",
         "decade": "600s BC–900s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc1",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "magan-1200bc-300bc::lv4"
     },
     {
@@ -15659,7 +15593,7 @@
       "type": "figure-name",
       "name": "Mleiha",
       "pivot": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "tc2",
         "cat": "technology",
         "label": "The mud-brick fort of Mleiha",
@@ -15673,8 +15607,30 @@
         "label": "Monumental engravings at Jebel Arnaan, Mleiha and Misma",
         "decade": "400s BC–800s"
       },
-      "xlink_a": "tylos-mleiha-300bc-300ad::tc2",
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc2",
       "xlink_b": "arabia-paleolithic-500000bc-8000bc::ex1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Succession",
+      "pivot": {
+        "folio": "uae-1971-today",
+        "id": "k8",
+        "cat": "power",
+        "label": "Succession disputes within the emirates",
+        "dynasty": "Al Qasimi",
+        "decade": "1980s"
+      },
+      "match": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "o6",
+        "cat": "order",
+        "label": "Co-regency as a device for the succession",
+        "decade": "1910s BC–1970s"
+      },
+      "xlink_a": "uae-1971-today::k8",
+      "xlink_b": "egypt-2100bc-1550bc::o6"
     },
     {
       "confidence": "high",
@@ -22424,33 +22380,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Kindah",
-        "Qaryat al-Faw",
-        "Saudi Arabia"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "w3",
-        "cat": "world",
-        "label": "The thread continues — Qaryat al-Faw and Kindah",
-        "decade": "300s BC"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "k2",
-        "cat": "power",
-        "label": "The kings of al-Faw",
-        "decade": "100s BC–300s"
-      },
-      "date_flag": "200yr gap — verify same entity, not just shared theme",
-      "xlink_a": "najd-1200bc-300bc::w3",
-      "xlink_b": "najd-300bc-632::k2"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Saudi Arabia",
         "Wadi",
         "al-Qaṣīm"
@@ -23423,6 +23352,33 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Kindah",
+        "Qaryat al-Faw",
+        "Saudi Arabia"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "najd-300bc-632",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Kingdom of Qaryat al-Faw",
+        "decade": "100s BC–350s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "w3",
+        "cat": "world",
+        "label": "The thread passes on — the Nabataeans, Qaryat al-Faw and Kindah",
+        "decade": "330s BC"
+      },
+      "date_flag": "230yr gap — verify same entity, not just shared theme",
+      "xlink_a": "najd-300bc-632::k1",
+      "xlink_b": "qedar-853bc-330bc::w3"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Fadak",
         "Khaybar",
         "Saudi Arabia"
@@ -23915,7 +23871,7 @@
       ],
       "sharedCount": 3,
       "a": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "o3",
         "cat": "order",
         "label": "Nabataean Tariff inscription of Palmyra",
@@ -23929,7 +23885,7 @@
         "decade": "100s BC–210s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "nabataean-400bc-106ce::o3",
+      "xlink_a": "nabataean-312bc-106ce::o3",
       "xlink_b": "palmyrene-100bc-273ce::k1"
     },
     {
@@ -23942,7 +23898,7 @@
       ],
       "sharedCount": 3,
       "a": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "o3",
         "cat": "order",
         "label": "Nabataean Tariff inscription of Palmyra",
@@ -23956,7 +23912,7 @@
         "decade": "150s–270s"
       },
       "date_flag": "13yr gap",
-      "xlink_a": "nabataean-400bc-106ce::o3",
+      "xlink_a": "nabataean-312bc-106ce::o3",
       "xlink_b": "rome-200-300::ex3"
     },
     {
@@ -24165,7 +24121,7 @@
         "decade": "20s BC"
       },
       "b": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "c2",
         "cat": "conflict",
         "label": "Aelius Gallus expedition sabotaged by Syllaeus",
@@ -24173,7 +24129,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "hejaz-300bc-632::c1",
-      "xlink_b": "nabataean-400bc-106ce::c2"
+      "xlink_b": "nabataean-312bc-106ce::c2"
     },
     {
       "confidence": "medium",
@@ -25940,7 +25896,7 @@
       ],
       "sharedCount": 3,
       "a": {
-        "folio": "najd-1200bc-300bc",
+        "folio": "qedar-853bc-330bc",
         "id": "ec4",
         "cat": "economy",
         "label": "Camels, incense and captives for the north",
@@ -25954,7 +25910,7 @@
         "decade": "500s BC–740s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::ec4",
+      "xlink_a": "qedar-853bc-330bc::ec4",
       "xlink_b": "south-arabia-1200bc-300bc::ec6"
     },
     {
@@ -26231,6 +26187,33 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Herakleopolis",
+        "Mentuhotep II",
+        "Thebes"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Mentuhotep II defeats Herakleopolis",
+        "decade": "2040s BC"
+      },
+      "b": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "w3",
+        "cat": "world",
+        "label": "The first collapse-and-reunification cycle",
+        "decade": "2050s BC–2160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::c1",
+      "xlink_b": "egypt-3000bc-2100bc::w3"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Abydos",
         "Hierakonpolis",
         "Narmer Palette"
@@ -26453,7 +26436,7 @@
       ],
       "sharedCount": 3,
       "a": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "o3",
         "cat": "order",
         "label": "Nabataean Tariff inscription of Palmyra",
@@ -26467,7 +26450,7 @@
         "decade": "130s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "nabataean-400bc-106ce::o3",
+      "xlink_a": "nabataean-312bc-106ce::o3",
       "xlink_b": "palmyrene-100bc-273ce::o1"
     },
     {
@@ -46841,6 +46824,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Egypt",
+        "Middle Kingdom"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Mentuhotep II — reunifier of Egypt",
+        "decade": "2000s BC–2050s"
+      },
+      "b": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The nome system — Egypt's provincial administration",
+        "decade": "2600s BC–2900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::k1",
+      "xlink_b": "egypt-3000bc-2100bc::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
         "Syria"
       ],
       "sharedCount": 2,
@@ -47183,7 +47192,7 @@
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "t3",
         "cat": "thought",
         "label": "Periplus Maris Erythraei — Nabataean trade documented",
@@ -47197,7 +47206,7 @@
         "decade": "40s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "nabataean-400bc-106ce::t3",
+      "xlink_a": "nabataean-312bc-106ce::t3",
       "xlink_b": "south-arabia-300bc-628::t1"
     },
     {
@@ -50544,7 +50553,7 @@
         "decade": "300s BC–900s"
       },
       "b": {
-        "folio": "najd-1200bc-300bc",
+        "folio": "qedar-853bc-330bc",
         "id": "k4",
         "cat": "power",
         "label": "Adummatu, the desert stronghold",
@@ -50552,33 +50561,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "dedan-tayma-1200bc-300bc::k7",
-      "xlink_b": "najd-1200bc-300bc::k4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Saudi Arabia",
-        "al-Jawf"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "dedan-tayma-1200bc-300bc",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "Sennacherib and Esarhaddon at Dūmah",
-        "decade": "670s BC–680s"
-      },
-      "b": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k4",
-        "cat": "power",
-        "label": "Adummatu, the desert stronghold",
-        "decade": "650s BC–700s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "dedan-tayma-1200bc-300bc::c1",
-      "xlink_b": "najd-1200bc-300bc::k4"
+      "xlink_b": "qedar-853bc-330bc::k4"
     },
     {
       "confidence": "low",
@@ -50605,6 +50588,32 @@
       "date_flag": "overlapping",
       "xlink_a": "dedan-tayma-1200bc-300bc::c1",
       "xlink_b": "nw-arabia-106-632::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Saudi Arabia",
+        "al-Jawf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "dedan-tayma-1200bc-300bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Sennacherib and Esarhaddon at Dūmah",
+        "decade": "670s BC–680s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "k4",
+        "cat": "power",
+        "label": "Adummatu, the desert stronghold",
+        "decade": "650s BC–700s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "dedan-tayma-1200bc-300bc::c1",
+      "xlink_b": "qedar-853bc-330bc::k4"
     },
     {
       "confidence": "low",
@@ -59020,41 +59029,15 @@
         "decade": "6000s BC–8000s"
       },
       "b": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k8",
-        "cat": "power",
-        "label": "The homeland of Kindah",
-        "decade": "300s BC–500s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "hejaz-prehistory-8000bc-1200bc::k1",
-      "xlink_b": "najd-1200bc-300bc::k8"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Najd",
-        "Saudi Arabia"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hejaz-prehistory-8000bc-1200bc",
-        "id": "k1",
-        "cat": "power",
-        "label": "Herders return to the Hejaz and Najd margins",
-        "decade": "6000s BC–8000s"
-      },
-      "b": {
-        "folio": "najd-1200bc-300bc",
+        "folio": "qedar-853bc-330bc",
         "id": "w3",
         "cat": "world",
-        "label": "The thread continues — Qaryat al-Faw and Kindah",
-        "decade": "300s BC"
+        "label": "The thread passes on — the Nabataeans, Qaryat al-Faw and Kindah",
+        "decade": "330s BC"
       },
       "date_flag": "overlapping",
       "xlink_a": "hejaz-prehistory-8000bc-1200bc::k1",
-      "xlink_b": "najd-1200bc-300bc::w3"
+      "xlink_b": "qedar-853bc-330bc::w3"
     },
     {
       "confidence": "low",
@@ -59445,240 +59428,6 @@
       "date_flag": "overlapping",
       "xlink_a": "hejaz-prehistory-8000bc-1200bc::ex3",
       "xlink_b": "najd-1517-1744::w3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Saudi Arabia",
-        "al-Jawf"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k4",
-        "cat": "power",
-        "label": "Adummatu, the desert stronghold",
-        "decade": "650s BC–700s"
-      },
-      "b": {
-        "folio": "nw-arabia-106-632",
-        "id": "k6",
-        "cat": "power",
-        "label": "Dūmat al-Jandal and its kings",
-        "decade": "400s–630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::k4",
-      "xlink_b": "nw-arabia-106-632::k6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Saudi Arabia",
-        "al-Jawf"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k4",
-        "cat": "power",
-        "label": "Adummatu, the desert stronghold",
-        "decade": "650s BC–700s"
-      },
-      "b": {
-        "folio": "nw-arabia-106-632",
-        "id": "c4",
-        "cat": "conflict",
-        "label": "The seizure of Dūmah",
-        "decade": "630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::k4",
-      "xlink_b": "nw-arabia-106-632::c4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Saudi Arabia",
-        "al-Jawf"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k4",
-        "cat": "power",
-        "label": "Adummatu, the desert stronghold",
-        "decade": "650s BC–700s"
-      },
-      "b": {
-        "folio": "nw-arabia-106-632",
-        "id": "o4",
-        "cat": "order",
-        "label": "The fair of Dūmah",
-        "decade": "400s–630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::k4",
-      "xlink_b": "nw-arabia-106-632::o4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Saudi Arabia",
-        "al-Jawf"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k4",
-        "cat": "power",
-        "label": "Adummatu, the desert stronghold",
-        "decade": "650s BC–700s"
-      },
-      "b": {
-        "folio": "nw-arabia-632-1517",
-        "id": "k4",
-        "cat": "power",
-        "label": "Dūmat al-Jandal and the small emirates",
-        "decade": "700s–1510s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::k4",
-      "xlink_b": "nw-arabia-632-1517::k4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Saudi Arabia",
-        "al-Kharj"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k7",
-        "cat": "power",
-        "label": "Al-Yamama — the oases of Wadi Hanifa",
-        "decade": "300s BC–1200s"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "ʿAqrabāʾ and the Garden of Death",
-        "decade": "630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::k7",
-      "xlink_b": "najd-300bc-632::c5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Saudi Arabia",
-        "Wadi al-Dawasir"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k8",
-        "cat": "power",
-        "label": "The homeland of Kindah",
-        "decade": "300s BC–500s"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "k1",
-        "cat": "power",
-        "label": "Qaryat al-Faw, the caravan city",
-        "decade": "300s BC–350s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::k8",
-      "xlink_b": "najd-300bc-632::k1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Kindah",
-        "Saudi Arabia"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k8",
-        "cat": "power",
-        "label": "The homeland of Kindah",
-        "decade": "300s BC–500s"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "k2",
-        "cat": "power",
-        "label": "The kings of al-Faw",
-        "decade": "100s BC–300s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::k8",
-      "xlink_b": "najd-300bc-632::k2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Saudi Arabia",
-        "al-Kharj"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "ec3",
-        "cat": "economy",
-        "label": "The oasis farms of al-Yamama",
-        "decade": "300s BC–1200s"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "c5",
-        "cat": "conflict",
-        "label": "ʿAqrabāʾ and the Garden of Death",
-        "decade": "630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::ec3",
-      "xlink_b": "najd-300bc-632::c5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Qaryat al-Faw",
-        "Saudi Arabia"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "w3",
-        "cat": "world",
-        "label": "The thread continues — Qaryat al-Faw and Kindah",
-        "decade": "300s BC"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "k1",
-        "cat": "power",
-        "label": "Qaryat al-Faw, the caravan city",
-        "decade": "300s BC–350s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::w3",
-      "xlink_b": "najd-300bc-632::k1"
     },
     {
       "confidence": "low",
@@ -61536,6 +61285,32 @@
       "sharedCount": 2,
       "a": {
         "folio": "najd-300bc-632",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Banū Ḥanīfa of al-Yamāma",
+        "decade": "400s–630s"
+      },
+      "b": {
+        "folio": "najd-632-1517",
+        "id": "k1",
+        "cat": "power",
+        "label": "Al-Yamāma emptied, governed from afar",
+        "decade": "630s–750s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "najd-300bc-632::k8",
+      "xlink_b": "najd-632-1517::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Saudi Arabia",
+        "al-Yamāma"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "najd-300bc-632",
         "id": "c5",
         "cat": "conflict",
         "label": "ʿAqrabāʾ and the Garden of Death",
@@ -61603,6 +61378,32 @@
       "date_flag": "2yr gap",
       "xlink_a": "najd-300bc-632::c5",
       "xlink_b": "nw-arabia-106-632::c4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Saudi Arabia",
+        "al-Jawf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "nw-arabia-106-632",
+        "id": "k6",
+        "cat": "power",
+        "label": "Dūmat al-Jandal and its kings",
+        "decade": "400s–630s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "k4",
+        "cat": "power",
+        "label": "Adummatu, the desert stronghold",
+        "decade": "650s BC–700s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "nw-arabia-106-632::k6",
+      "xlink_b": "qedar-853bc-330bc::k4"
     },
     {
       "confidence": "low",
@@ -61946,6 +61747,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Saudi Arabia",
+        "al-Jawf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "nw-arabia-106-632",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The seizure of Dūmah",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "k4",
+        "cat": "power",
+        "label": "Adummatu, the desert stronghold",
+        "decade": "650s BC–700s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "nw-arabia-106-632::c4",
+      "xlink_b": "qedar-853bc-330bc::k4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Jews of Khaybar",
         "Saudi Arabia"
       ],
@@ -61967,6 +61794,32 @@
       "date_flag": "overlapping",
       "xlink_a": "nw-arabia-106-632::o3",
       "xlink_b": "nw-arabia-632-1517::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Saudi Arabia",
+        "al-Jawf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "nw-arabia-106-632",
+        "id": "o4",
+        "cat": "order",
+        "label": "The fair of Dūmah",
+        "decade": "400s–630s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "k4",
+        "cat": "power",
+        "label": "Adummatu, the desert stronghold",
+        "decade": "650s BC–700s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "nw-arabia-106-632::o4",
+      "xlink_b": "qedar-853bc-330bc::k4"
     },
     {
       "confidence": "low",
@@ -62227,6 +62080,32 @@
       "date_flag": "overlapping",
       "xlink_a": "nw-arabia-106-632::lv3",
       "xlink_b": "nw-arabia-632-1517::tc2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Saudi Arabia",
+        "al-Jawf"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "nw-arabia-632-1517",
+        "id": "k4",
+        "cat": "power",
+        "label": "Dūmat al-Jandal and the small emirates",
+        "decade": "700s–1510s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "k4",
+        "cat": "power",
+        "label": "Adummatu, the desert stronghold",
+        "decade": "650s BC–700s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "nw-arabia-632-1517::k4",
+      "xlink_b": "qedar-853bc-330bc::k4"
     },
     {
       "confidence": "low",
@@ -65182,7 +65061,7 @@
         "decade": "240s–630s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x1",
         "cat": "exchange",
         "label": "The Gulf as Rome's back door to India",
@@ -65190,7 +65069,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "beth-qatraye-240-632::ec1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x1"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x1"
     },
     {
       "confidence": "low",
@@ -65269,6 +65148,110 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-945-1258::ec4",
       "xlink_b": "south-arabia-prehistory-8000bc-1200bc::k8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Red Sea",
+        "Wadi Hammamat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "k2",
+        "cat": "power",
+        "label": "Mentuhotep III and IV — the end of the Eleventh Dynasty",
+        "decade": "1980s BC–2000s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::k2",
+      "xlink_b": "egypt-6000bc-3000bc::th2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "x4",
+        "cat": "expression",
+        "label": "The Tale of the Shipwrecked Sailor",
+        "decade": "1900s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::x4",
+      "xlink_b": "egypt-6000bc-3000bc::th2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "g5",
+        "cat": "technology",
+        "label": "Prefabricated seagoing ships at Mersa Gawasis",
+        "decade": "1800s BC–1950s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::g5",
+      "xlink_b": "egypt-6000bc-3000bc::th2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "g5",
+        "cat": "technology",
+        "label": "Prefabricated seagoing ships at Mersa Gawasis",
+        "decade": "1800s BC–1950s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The Coptic church retreats to the monasteries",
+        "decade": "1300s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::g5",
+      "xlink_b": "mamluks-1250-1517::b6"
     },
     {
       "confidence": "low",
@@ -66534,7 +66517,7 @@
         "decade": "100s BC–270s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x3",
         "cat": "exchange",
         "label": "Roman and Parthian goods on the Arabian shore",
@@ -66542,7 +66525,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::ex2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x3"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x3"
     },
     {
       "confidence": "low",
@@ -66586,7 +66569,7 @@
         "decade": "630s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "k5",
         "cat": "power",
         "label": "Ardashir I ends the Parthian Gulf order",
@@ -66594,7 +66577,7 @@
       },
       "date_flag": "392yr gap — verify same entity, not just shared theme",
       "xlink_a": "beth-qatraye-632-750::w3",
-      "xlink_b": "tylos-mleiha-300bc-300ad::k5"
+      "xlink_b": "tylos-mleiha-300bc-240ad::k5"
     },
     {
       "confidence": "low",
@@ -66794,7 +66777,7 @@
         "decade": "4000s BC–8000s"
       },
       "b": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "c2",
         "cat": "conflict",
         "label": "Aelius Gallus expedition sabotaged by Syllaeus",
@@ -66802,7 +66785,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "hejaz-prehistory-8000bc-1200bc::x3",
-      "xlink_b": "nabataean-400bc-106ce::c2"
+      "xlink_b": "nabataean-312bc-106ce::c2"
     },
     {
       "confidence": "low",
@@ -66820,7 +66803,7 @@
         "decade": "4000s BC–8000s"
       },
       "b": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "ex2",
         "cat": "exchange",
         "label": "Nabataean script — ancestor of the Arabic alphabet",
@@ -66828,7 +66811,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "hejaz-prehistory-8000bc-1200bc::x3",
-      "xlink_b": "nabataean-400bc-106ce::ex2"
+      "xlink_b": "nabataean-312bc-106ce::ex2"
     },
     {
       "confidence": "low",
@@ -66872,7 +66855,7 @@
         "decade": "1200s BC–1300s"
       },
       "b": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "c2",
         "cat": "conflict",
         "label": "Aelius Gallus expedition sabotaged by Syllaeus",
@@ -66880,7 +66863,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "hejaz-prehistory-8000bc-1200bc::w4",
-      "xlink_b": "nabataean-400bc-106ce::c2"
+      "xlink_b": "nabataean-312bc-106ce::c2"
     },
     {
       "confidence": "low",
@@ -66898,7 +66881,7 @@
         "decade": "1200s BC–1300s"
       },
       "b": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "ex2",
         "cat": "exchange",
         "label": "Nabataean script — ancestor of the Arabic alphabet",
@@ -66906,7 +66889,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "hejaz-prehistory-8000bc-1200bc::w4",
-      "xlink_b": "nabataean-400bc-106ce::ex2"
+      "xlink_b": "nabataean-312bc-106ce::ex2"
     },
     {
       "confidence": "low",
@@ -66943,7 +66926,7 @@
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "c2",
         "cat": "conflict",
         "label": "Aelius Gallus expedition sabotaged by Syllaeus",
@@ -66957,8 +66940,34 @@
         "decade": "1200s BC–2500s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "nabataean-400bc-106ce::c2",
+      "xlink_a": "nabataean-312bc-106ce::c2",
       "xlink_b": "south-arabia-prehistory-8000bc-1200bc::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Serabit",
+        "Sinai"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "e4",
+        "cat": "economy",
+        "label": "Quarrying expeditions as state enterprise",
+        "decade": "1780s BC–2000s"
+      },
+      "b": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "State-organized turquoise and copper mining in Sinai",
+        "decade": "2200s BC–2650s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::e4",
+      "xlink_b": "egypt-3000bc-2100bc::ec4"
     },
     {
       "confidence": "low",
@@ -71441,7 +71450,7 @@
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "c2",
         "cat": "conflict",
         "label": "Aelius Gallus expedition sabotaged by Syllaeus",
@@ -71455,7 +71464,7 @@
         "decade": "20s BC"
       },
       "date_flag": "1yr gap",
-      "xlink_a": "nabataean-400bc-106ce::c2",
+      "xlink_a": "nabataean-312bc-106ce::c2",
       "xlink_b": "south-arabia-300bc-628::c1"
     },
     {
@@ -91442,7 +91451,7 @@
         "decade": "600s BC–1000s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "c4",
         "cat": "conflict",
         "label": "Ardashir's Arabian campaign",
@@ -91450,7 +91459,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "dilmun-1200bc-600bc::tc2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::c4"
+      "xlink_b": "tylos-mleiha-300bc-240ad::c4"
     },
     {
       "confidence": "low",
@@ -91468,7 +91477,7 @@
         "decade": "600s BC–1000s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "t3",
         "cat": "thought",
         "label": "A trilingual epigraphic culture",
@@ -91476,7 +91485,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "dilmun-1200bc-600bc::tc2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::t3"
+      "xlink_b": "tylos-mleiha-300bc-240ad::t3"
     },
     {
       "confidence": "low",
@@ -94692,7 +94701,7 @@
         "decade": "600s BC–900s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "o3",
         "cat": "order",
         "label": "Hasaitic funerary inscriptions and their formulae",
@@ -94700,7 +94709,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "dilmun-1200bc-600bc::x2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::o3"
+      "xlink_b": "tylos-mleiha-300bc-240ad::o3"
     },
     {
       "confidence": "low",
@@ -94718,7 +94727,7 @@
         "decade": "600s BC–900s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "b4",
         "cat": "belief",
         "label": "Aramaic and the goddess of the eastern Arabian tombs",
@@ -94726,7 +94735,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "dilmun-1200bc-600bc::x2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::b4"
+      "xlink_b": "tylos-mleiha-300bc-240ad::b4"
     },
     {
       "confidence": "low",
@@ -94744,7 +94753,7 @@
         "decade": "600s BC–900s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "lv2",
         "cat": "lives",
         "label": "Women as tomb-owners in the Hasaitic texts",
@@ -94752,7 +94761,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "dilmun-1200bc-600bc::x2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::lv2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::lv2"
     },
     {
       "confidence": "low",
@@ -102362,15 +102371,15 @@
         "decade": "660s–740s"
       },
       "b": {
-        "folio": "najd-1200bc-300bc",
-        "id": "t3",
+        "folio": "najd-300bc-632",
+        "id": "t1",
         "cat": "thought",
-        "label": "The genealogists' ancient Najd",
-        "decade": "750s–950s"
+        "label": "The rāwī and the memory of the tribes",
+        "decade": "500s–800s"
       },
-      "date_flag": "10yr gap",
+      "date_flag": "overlapping",
       "xlink_a": "caliphate-632-750::o5",
-      "xlink_b": "najd-1200bc-300bc::t3"
+      "xlink_b": "najd-300bc-632::t1"
     },
     {
       "confidence": "low",
@@ -102388,15 +102397,15 @@
         "decade": "660s–740s"
       },
       "b": {
-        "folio": "najd-300bc-632",
-        "id": "t1",
+        "folio": "qedar-853bc-330bc",
+        "id": "t3",
         "cat": "thought",
-        "label": "The rāwī and the memory of the tribes",
-        "decade": "500s–800s"
+        "label": "The genealogists' ancient Najd",
+        "decade": "750s–950s"
       },
-      "date_flag": "overlapping",
+      "date_flag": "10yr gap",
       "xlink_a": "caliphate-632-750::o5",
-      "xlink_b": "najd-300bc-632::t1"
+      "xlink_b": "qedar-853bc-330bc::t3"
     },
     {
       "confidence": "low",
@@ -102492,15 +102501,15 @@
         "decade": "660s–760s"
       },
       "b": {
-        "folio": "najd-1200bc-300bc",
-        "id": "t3",
+        "folio": "najd-300bc-632",
+        "id": "t1",
         "cat": "thought",
-        "label": "The genealogists' ancient Najd",
-        "decade": "750s–950s"
+        "label": "The rāwī and the memory of the tribes",
+        "decade": "500s–800s"
       },
       "date_flag": "overlapping",
       "xlink_a": "caliphate-632-750::t2",
-      "xlink_b": "najd-1200bc-300bc::t3"
+      "xlink_b": "najd-300bc-632::t1"
     },
     {
       "confidence": "low",
@@ -102518,15 +102527,15 @@
         "decade": "660s–760s"
       },
       "b": {
-        "folio": "najd-300bc-632",
-        "id": "t1",
+        "folio": "qedar-853bc-330bc",
+        "id": "t3",
         "cat": "thought",
-        "label": "The rāwī and the memory of the tribes",
-        "decade": "500s–800s"
+        "label": "The genealogists' ancient Najd",
+        "decade": "750s–950s"
       },
       "date_flag": "overlapping",
       "xlink_a": "caliphate-632-750::t2",
-      "xlink_b": "najd-300bc-632::t1"
+      "xlink_b": "qedar-853bc-330bc::t3"
     },
     {
       "confidence": "low",
@@ -102570,15 +102579,15 @@
         "decade": "660s–740s"
       },
       "b": {
-        "folio": "najd-1200bc-300bc",
-        "id": "t3",
+        "folio": "najd-300bc-632",
+        "id": "t1",
         "cat": "thought",
-        "label": "The genealogists' ancient Najd",
-        "decade": "750s–950s"
+        "label": "The rāwī and the memory of the tribes",
+        "decade": "500s–800s"
       },
-      "date_flag": "10yr gap",
+      "date_flag": "overlapping",
       "xlink_a": "caliphate-632-750::t4",
-      "xlink_b": "najd-1200bc-300bc::t3"
+      "xlink_b": "najd-300bc-632::t1"
     },
     {
       "confidence": "low",
@@ -102596,15 +102605,15 @@
         "decade": "660s–740s"
       },
       "b": {
-        "folio": "najd-300bc-632",
-        "id": "t1",
+        "folio": "qedar-853bc-330bc",
+        "id": "t3",
         "cat": "thought",
-        "label": "The rāwī and the memory of the tribes",
-        "decade": "500s–800s"
+        "label": "The genealogists' ancient Najd",
+        "decade": "750s–950s"
       },
-      "date_flag": "overlapping",
+      "date_flag": "10yr gap",
       "xlink_a": "caliphate-632-750::t4",
-      "xlink_b": "najd-300bc-632::t1"
+      "xlink_b": "qedar-853bc-330bc::t3"
     },
     {
       "confidence": "low",
@@ -102752,7 +102761,7 @@
         "decade": "890s–930s"
       },
       "b": {
-        "folio": "najd-1200bc-300bc",
+        "folio": "qedar-853bc-330bc",
         "id": "t3",
         "cat": "thought",
         "label": "The genealogists' ancient Najd",
@@ -102760,7 +102769,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "caliphate-750-945::c8",
-      "xlink_b": "najd-1200bc-300bc::t3"
+      "xlink_b": "qedar-853bc-330bc::t3"
     },
     {
       "confidence": "low",
@@ -102934,15 +102943,15 @@
         "decade": "760s–830s"
       },
       "b": {
-        "folio": "najd-1200bc-300bc",
-        "id": "t3",
+        "folio": "najd-300bc-632",
+        "id": "t1",
         "cat": "thought",
-        "label": "The genealogists' ancient Najd",
-        "decade": "750s–950s"
+        "label": "The rāwī and the memory of the tribes",
+        "decade": "500s–800s"
       },
       "date_flag": "overlapping",
       "xlink_a": "hejaz-300bc-632::t2",
-      "xlink_b": "najd-1200bc-300bc::t3"
+      "xlink_b": "najd-300bc-632::t1"
     },
     {
       "confidence": "low",
@@ -102960,15 +102969,15 @@
         "decade": "760s–830s"
       },
       "b": {
-        "folio": "najd-300bc-632",
-        "id": "t1",
+        "folio": "qedar-853bc-330bc",
+        "id": "t3",
         "cat": "thought",
-        "label": "The rāwī and the memory of the tribes",
-        "decade": "500s–800s"
+        "label": "The genealogists' ancient Najd",
+        "decade": "750s–950s"
       },
       "date_flag": "overlapping",
       "xlink_a": "hejaz-300bc-632::t2",
-      "xlink_b": "najd-300bc-632::t1"
+      "xlink_b": "qedar-853bc-330bc::t3"
     },
     {
       "confidence": "low",
@@ -102979,22 +102988,22 @@
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "t3",
-        "cat": "thought",
-        "label": "The genealogists' ancient Najd",
-        "decade": "750s–950s"
-      },
-      "b": {
         "folio": "najd-300bc-632",
         "id": "t1",
         "cat": "thought",
         "label": "The rāwī and the memory of the tribes",
         "decade": "500s–800s"
       },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The genealogists' ancient Najd",
+        "decade": "750s–950s"
+      },
       "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::t3",
-      "xlink_b": "najd-300bc-632::t1"
+      "xlink_a": "najd-300bc-632::t1",
+      "xlink_b": "qedar-853bc-330bc::t3"
     },
     {
       "confidence": "low",
@@ -103598,58 +103607,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Kindah",
-        "Najd"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k8",
-        "cat": "power",
-        "label": "The homeland of Kindah",
-        "decade": "300s BC–500s"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "k6",
-        "cat": "power",
-        "label": "Imruʾ al-Qays, the wandering king",
-        "decade": "530s"
-      },
-      "date_flag": "30yr gap",
-      "xlink_a": "najd-1200bc-300bc::k8",
-      "xlink_b": "najd-300bc-632::k6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Kindah",
-        "Najd"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "w3",
-        "cat": "world",
-        "label": "The thread continues — Qaryat al-Faw and Kindah",
-        "decade": "300s BC"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "k6",
-        "cat": "power",
-        "label": "Imruʾ al-Qays, the wandering king",
-        "decade": "530s"
-      },
-      "date_flag": "830yr gap — verify same entity, not just shared theme",
-      "xlink_a": "najd-1200bc-300bc::w3",
-      "xlink_b": "najd-300bc-632::k6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Najd",
         "al-Aḥsā"
       ],
@@ -103957,6 +103914,32 @@
       "date_flag": "overlapping",
       "xlink_a": "najd-1744-1900::lv2",
       "xlink_b": "oman-gulf-1650-1820::w5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Kindah",
+        "Najd"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "najd-300bc-632",
+        "id": "k6",
+        "cat": "power",
+        "label": "The break-up — Imruʾ al-Qays and the lost throne",
+        "decade": "520s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "w3",
+        "cat": "world",
+        "label": "The thread passes on — the Nabataeans, Qaryat al-Faw and Kindah",
+        "decade": "330s BC"
+      },
+      "date_flag": "858yr gap — verify same entity, not just shared theme",
+      "xlink_a": "najd-300bc-632::k6",
+      "xlink_b": "qedar-853bc-330bc::w3"
     },
     {
       "confidence": "low",
@@ -104780,7 +104763,7 @@
         "decade": "640s BC–730s"
       },
       "b": {
-        "folio": "najd-1200bc-300bc",
+        "folio": "qedar-853bc-330bc",
         "id": "k2",
         "cat": "power",
         "label": "The ʿAribi on the Assyrian tribute frontier",
@@ -104788,7 +104771,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "dedan-tayma-1200bc-300bc::k2",
-      "xlink_b": "najd-1200bc-300bc::k2"
+      "xlink_b": "qedar-853bc-330bc::k2"
     },
     {
       "confidence": "low",
@@ -104988,7 +104971,7 @@
         "decade": "190s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "w3",
         "cat": "world",
         "label": "Rome and Parthia fight over the trade roads",
@@ -104996,7 +104979,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "rome-200-300::p1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::w3"
+      "xlink_b": "tylos-mleiha-300bc-240ad::w3"
     },
     {
       "confidence": "low",
@@ -105054,235 +105037,157 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Abydos",
-        "Hierakonpolis"
+        "Nile Valley",
+        "Thebes"
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "k1",
-        "cat": "power",
-        "label": "Narmer — unifier of Upper and Lower Egypt",
-        "decade": "3000s BC"
+        "folio": "egypt-2100bc-1550bc",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The Theban war against the Hyksos",
+        "decade": "1550s BC–1560s"
       },
       "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "b1",
-        "cat": "belief",
-        "label": "Naqada I–II grave orientation and provisioning — a standardized afterlife",
-        "decade": "3300s BC–4000s"
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Herakleopolis versus Thebes — the First Intermediate civil war",
+        "decade": "2050s BC–2150s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::k1",
-      "xlink_b": "egypt-6000bc-3000bc::b1"
+      "xlink_a": "egypt-2100bc-1550bc::c6",
+      "xlink_b": "egypt-3000bc-2100bc::c6"
     },
     {
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
         "Abydos",
-        "Hierakonpolis"
+        "Nile Valley"
       ],
       "sharedCount": 2,
       "a": {
         "folio": "egypt-3000bc-2100bc",
-        "id": "k1",
-        "cat": "power",
-        "label": "Narmer — unifier of Upper and Lower Egypt",
-        "decade": "3000s BC"
-      },
-      "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "tc5",
-        "cat": "technology",
-        "label": "Pot-marks — incised signs before the serekh",
-        "decade": "3300s BC–3600s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::k1",
-      "xlink_b": "egypt-6000bc-3000bc::tc5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Abydos",
-        "Hierakonpolis"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "k17",
-        "cat": "power",
-        "label": "Khasekhemwy — ending the Second Dynasty's civil war",
-        "decade": "2680s BC–2700s"
-      },
-      "b": {
-        "folio": "egypt-6000bc-3000bc",
         "id": "c2",
         "cat": "conflict",
-        "label": "Battlefield Palette — a lion-king tramples a defeated enemy",
-        "decade": "3100s BC–3200s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::k17",
-      "xlink_b": "egypt-6000bc-3000bc::c2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Abydos",
-        "Hierakonpolis"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "k17",
-        "cat": "power",
-        "label": "Khasekhemwy — ending the Second Dynasty's civil war",
-        "decade": "2680s BC–2700s"
+        "label": "Djer's Nubian campaign",
+        "decade": "2980s BC"
       },
       "b": {
         "folio": "egypt-6000bc-3000bc",
-        "id": "b1",
-        "cat": "belief",
-        "label": "Naqada I–II grave orientation and provisioning — a standardized afterlife",
-        "decade": "3300s BC–4000s"
+        "id": "x1",
+        "cat": "expression",
+        "label": "White Cross-lined ware — Naqada I's earliest figural pottery",
+        "decade": "3500s BC–4000s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::k17",
-      "xlink_b": "egypt-6000bc-3000bc::b1"
+      "xlink_a": "egypt-3000bc-2100bc::c2",
+      "xlink_b": "egypt-6000bc-3000bc::x1"
     },
     {
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Abydos",
-        "Hierakonpolis"
+        "Mentuhotep II",
+        "Thebes"
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "k17",
-        "cat": "power",
-        "label": "Khasekhemwy — ending the Second Dynasty's civil war",
-        "decade": "2680s BC–2700s"
-      },
-      "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "tc5",
-        "cat": "technology",
-        "label": "Pot-marks — incised signs before the serekh",
-        "decade": "3300s BC–3600s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::k17",
-      "xlink_b": "egypt-6000bc-3000bc::tc5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Hierakonpolis",
-        "Narmer Palette"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-3000bc-2100bc",
+        "folio": "egypt-2100bc-1550bc",
         "id": "c1",
         "cat": "conflict",
-        "label": "The unification of Upper and Lower Egypt",
-        "decade": "3000s BC"
+        "label": "Mentuhotep II defeats Herakleopolis",
+        "decade": "2040s BC"
       },
       "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "c2",
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k15",
+        "cat": "power",
+        "label": "Intef II — Thebes begins the push toward reunification",
+        "decade": "2060s BC–2110s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::c1",
+      "xlink_b": "egypt-3000bc-2100bc::k15"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Herakleopolis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "c1",
         "cat": "conflict",
-        "label": "Battlefield Palette — a lion-king tramples a defeated enemy",
-        "decade": "3100s BC–3200s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::c1",
-      "xlink_b": "egypt-6000bc-3000bc::c2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Abydos",
-        "Hierakonpolis"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "b1",
-        "cat": "belief",
-        "label": "The living Horus — royal titulary as religious doctrine",
-        "decade": "2900s BC–3000s"
+        "label": "Mentuhotep II defeats Herakleopolis",
+        "decade": "2040s BC"
       },
       "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "c2",
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c6",
         "cat": "conflict",
-        "label": "Battlefield Palette — a lion-king tramples a defeated enemy",
-        "decade": "3100s BC–3200s"
+        "label": "Herakleopolis versus Thebes — the First Intermediate civil war",
+        "decade": "2050s BC–2150s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::b1",
-      "xlink_b": "egypt-6000bc-3000bc::c2"
+      "xlink_a": "egypt-2100bc-1550bc::c1",
+      "xlink_b": "egypt-3000bc-2100bc::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Herakleopolis",
+        "Mentuhotep II"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Mentuhotep II defeats Herakleopolis",
+        "decade": "2040s BC"
+      },
+      "b": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Intef II campaigns against Herakleopolis",
+        "decade": "2080s BC"
+      },
+      "date_flag": "40yr gap",
+      "xlink_a": "egypt-2100bc-1550bc::c1",
+      "xlink_b": "egypt-3000bc-2100bc::c7"
     },
     {
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
         "Abydos",
-        "Hierakonpolis"
+        "Osiris"
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "egypt-3000bc-2100bc",
+        "folio": "egypt-2100bc-1550bc",
         "id": "b1",
         "cat": "belief",
-        "label": "The living Horus — royal titulary as religious doctrine",
-        "decade": "2900s BC–3000s"
+        "label": "The mysteries of Osiris at Abydos",
+        "decade": "1850s BC"
       },
       "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "b1",
-        "cat": "belief",
-        "label": "Naqada I–II grave orientation and provisioning — a standardized afterlife",
-        "decade": "3300s BC–4000s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::b1",
-      "xlink_b": "egypt-6000bc-3000bc::b1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Abydos",
-        "Hierakonpolis"
-      ],
-      "sharedCount": 2,
-      "a": {
         "folio": "egypt-3000bc-2100bc",
-        "id": "b1",
+        "id": "b5",
         "cat": "belief",
-        "label": "The living Horus — royal titulary as religious doctrine",
-        "decade": "2900s BC–3000s"
-      },
-      "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "tc5",
-        "cat": "technology",
-        "label": "Pot-marks — incised signs before the serekh",
-        "decade": "3300s BC–3600s"
+        "label": "Abydos becomes Osiris's principal cult center",
+        "decade": "2200s BC–2400s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::b1",
-      "xlink_b": "egypt-6000bc-3000bc::tc5"
+      "xlink_a": "egypt-2100bc-1550bc::b1",
+      "xlink_b": "egypt-3000bc-2100bc::b5"
     },
     {
       "confidence": "low",
@@ -105315,26 +105220,234 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Abydos",
-        "Nile Valley"
+        "Hierakonpolis"
       ],
       "sharedCount": 2,
       "a": {
         "folio": "egypt-3000bc-2100bc",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "Djer's Nubian campaign",
-        "decade": "2980s BC"
+        "id": "k1",
+        "cat": "power",
+        "label": "Narmer — unifier of Upper and Lower Egypt",
+        "decade": "3000s BC"
       },
       "b": {
         "folio": "egypt-6000bc-3000bc",
-        "id": "x1",
-        "cat": "expression",
-        "label": "White Cross-lined ware — Naqada I's earliest figural pottery",
-        "decade": "3500s BC–4000s"
+        "id": "b1",
+        "cat": "belief",
+        "label": "Naqada I–II grave orientation and provisioning — a standardized afterlife",
+        "decade": "3300s BC–4000s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::c2",
-      "xlink_b": "egypt-6000bc-3000bc::x1"
+      "xlink_a": "egypt-3000bc-2100bc::k1",
+      "xlink_b": "egypt-6000bc-3000bc::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Narmer — unifier of Upper and Lower Egypt",
+        "decade": "3000s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "tc5",
+        "cat": "technology",
+        "label": "Pot-marks — incised signs before the serekh",
+        "decade": "3300s BC–3600s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::k1",
+      "xlink_b": "egypt-6000bc-3000bc::tc5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k17",
+        "cat": "power",
+        "label": "Khasekhemwy — ending the Second Dynasty's civil war",
+        "decade": "2680s BC–2700s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Battlefield Palette — a lion-king tramples a defeated enemy",
+        "decade": "3100s BC–3200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::k17",
+      "xlink_b": "egypt-6000bc-3000bc::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k17",
+        "cat": "power",
+        "label": "Khasekhemwy — ending the Second Dynasty's civil war",
+        "decade": "2680s BC–2700s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Naqada I–II grave orientation and provisioning — a standardized afterlife",
+        "decade": "3300s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::k17",
+      "xlink_b": "egypt-6000bc-3000bc::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k17",
+        "cat": "power",
+        "label": "Khasekhemwy — ending the Second Dynasty's civil war",
+        "decade": "2680s BC–2700s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "tc5",
+        "cat": "technology",
+        "label": "Pot-marks — incised signs before the serekh",
+        "decade": "3300s BC–3600s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::k17",
+      "xlink_b": "egypt-6000bc-3000bc::tc5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The living Horus — royal titulary as religious doctrine",
+        "decade": "2900s BC–3000s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Battlefield Palette — a lion-king tramples a defeated enemy",
+        "decade": "3100s BC–3200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::b1",
+      "xlink_b": "egypt-6000bc-3000bc::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The living Horus — royal titulary as religious doctrine",
+        "decade": "2900s BC–3000s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Naqada I–II grave orientation and provisioning — a standardized afterlife",
+        "decade": "3300s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::b1",
+      "xlink_b": "egypt-6000bc-3000bc::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Hierakonpolis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The living Horus — royal titulary as religious doctrine",
+        "decade": "2900s BC–3000s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "tc5",
+        "cat": "technology",
+        "label": "Pot-marks — incised signs before the serekh",
+        "decade": "3300s BC–3600s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::b1",
+      "xlink_b": "egypt-6000bc-3000bc::tc5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hierakonpolis",
+        "Narmer Palette"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The unification of Upper and Lower Egypt",
+        "decade": "3000s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Battlefield Palette — a lion-king tramples a defeated enemy",
+        "decade": "3100s BC–3200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c1",
+      "xlink_b": "egypt-6000bc-3000bc::c2"
     },
     {
       "confidence": "low",
@@ -105475,7 +105588,7 @@
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "w1",
         "cat": "world",
         "label": "Nabataea between Rome and Parthia — the buffer strategy",
@@ -105489,7 +105602,7 @@
         "decade": "100s BC–260s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "nabataean-400bc-106ce::w1",
+      "xlink_a": "nabataean-312bc-106ce::w1",
       "xlink_b": "palmyrene-100bc-273ce::ex1"
     },
     {
@@ -105501,22 +105614,22 @@
       ],
       "sharedCount": 2,
       "a": {
-        "folio": "nabataean-400bc-106ce",
+        "folio": "nabataean-312bc-106ce",
         "id": "w1",
         "cat": "world",
         "label": "Nabataea between Rome and Parthia — the buffer strategy",
         "decade": "60s BC–100s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "w3",
         "cat": "world",
         "label": "Rome and Parthia fight over the trade roads",
         "decade": "20s BC–200s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "nabataean-400bc-106ce::w1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::w3"
+      "xlink_a": "nabataean-312bc-106ce::w1",
+      "xlink_b": "tylos-mleiha-300bc-240ad::w3"
     },
     {
       "confidence": "low",
@@ -105534,7 +105647,7 @@
         "decade": "100s BC–260s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "w3",
         "cat": "world",
         "label": "Rome and Parthia fight over the trade roads",
@@ -105542,7 +105655,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::ex1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::w3"
+      "xlink_b": "tylos-mleiha-300bc-240ad::w3"
     },
     {
       "confidence": "low",
@@ -106808,7 +106921,7 @@
         "decade": "2000s BC–2100s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "k2",
         "cat": "power",
         "label": "The Abiel coinage — rulers of the lower Gulf",
@@ -106816,7 +106929,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "magan-3000bc-1200bc::lv2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::k2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::k2"
     },
     {
       "confidence": "low",
@@ -111462,7 +111575,7 @@
         "decade": "100s BC–210s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x2",
         "cat": "exchange",
         "label": "Palmyrene merchants at Spasinou Charax",
@@ -111470,7 +111583,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::k1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
     },
     {
       "confidence": "low",
@@ -111514,7 +111627,7 @@
         "decade": "100s–260s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x2",
         "cat": "exchange",
         "label": "Palmyrene merchants at Spasinou Charax",
@@ -111522,7 +111635,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::o2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
     },
     {
       "confidence": "low",
@@ -111540,7 +111653,7 @@
         "decade": "100s BC–200s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x2",
         "cat": "exchange",
         "label": "Palmyrene merchants at Spasinou Charax",
@@ -111548,7 +111661,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::a1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
     },
     {
       "confidence": "low",
@@ -111566,7 +111679,7 @@
         "decade": "100s–270s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x2",
         "cat": "exchange",
         "label": "Palmyrene merchants at Spasinou Charax",
@@ -111574,7 +111687,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::a2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
     },
     {
       "confidence": "low",
@@ -111592,7 +111705,7 @@
         "decade": "100s–250s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x2",
         "cat": "exchange",
         "label": "Palmyrene merchants at Spasinou Charax",
@@ -111600,7 +111713,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::a5",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
     },
     {
       "confidence": "low",
@@ -111618,7 +111731,7 @@
         "decade": "100s BC–260s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x2",
         "cat": "exchange",
         "label": "Palmyrene merchants at Spasinou Charax",
@@ -111626,7 +111739,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::ex1",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
     },
     {
       "confidence": "low",
@@ -111644,7 +111757,7 @@
         "decade": "100s BC–270s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x2",
         "cat": "exchange",
         "label": "Palmyrene merchants at Spasinou Charax",
@@ -111652,7 +111765,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::ex2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x2"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
     },
     {
       "confidence": "low",
@@ -111670,7 +111783,7 @@
         "decade": "100s–270s"
       },
       "b": {
-        "folio": "tylos-mleiha-300bc-300ad",
+        "folio": "tylos-mleiha-300bc-240ad",
         "id": "x2",
         "cat": "exchange",
         "label": "Palmyrene merchants at Spasinou Charax",
@@ -111678,59 +111791,7 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::lv2",
-      "xlink_b": "tylos-mleiha-300bc-300ad::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Wadi Hanifa",
-        "al-Kharj"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "k7",
-        "cat": "power",
-        "label": "Al-Yamama — the oases of Wadi Hanifa",
-        "decade": "300s BC–1200s"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "ec3",
-        "cat": "economy",
-        "label": "Al-Yamāma, the granary",
-        "decade": "300s BC–630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::k7",
-      "xlink_b": "najd-300bc-632::ec3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Wadi Hanifa",
-        "al-Kharj"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1200bc-300bc",
-        "id": "ec3",
-        "cat": "economy",
-        "label": "The oasis farms of al-Yamama",
-        "decade": "300s BC–1200s"
-      },
-      "b": {
-        "folio": "najd-300bc-632",
-        "id": "ec3",
-        "cat": "economy",
-        "label": "Al-Yamāma, the granary",
-        "decade": "300s BC–630s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1200bc-300bc::ec3",
-      "xlink_b": "najd-300bc-632::ec3"
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
     },
     {
       "confidence": "low",
@@ -111939,6 +112000,32 @@
       "date_flag": "overlapping",
       "xlink_a": "najd-1517-1744::tc1",
       "xlink_b": "najd-632-1517::tc1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "al-Aflaj",
+        "al-Kharj"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "najd-300bc-632",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Banū Ḥanīfa of al-Yamāma",
+        "decade": "400s–630s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The trans-Arabian cross-routes",
+        "decade": "300s BC–900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "najd-300bc-632::k8",
+      "xlink_b": "qedar-853bc-330bc::ec2"
     },
     {
       "confidence": "low",
