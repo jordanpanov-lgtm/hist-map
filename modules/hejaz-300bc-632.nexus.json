@@ -1,0 +1,934 @@
+{
+  "nodes": [
+    {
+      "id": "ext1",
+      "lane": "external",
+      "year": 500,
+      "label": "Rome and Byzantium",
+      "full": "The empire to the north-west: it pulled its frontier back from the Hejaz, held Gaza and Syria as the northern end of the caravan trade, was one party to the īlāf treaties, and received the tradition's letter from Medina.",
+      "src": "background — Bowersock, 'Roman Arabia' (1983).",
+      "external": true
+    },
+    {
+      "id": "ext2",
+      "lane": "external",
+      "year": 600,
+      "label": "Sasanian Persia",
+      "full": "The empire to the north-east: through its Lakhmid clients at al-Ḥīra a party to the Meccan trade agreements, and — briefly the master of Yemen — a presence on the Hejaz's southern flank.",
+      "src": "background — Fisher (ed.), 'Arabs and Empires before Islam' (2015).",
+      "external": true
+    },
+    {
+      "id": "ext3",
+      "lane": "external",
+      "year": 570,
+      "label": "Ḥimyar and Aksum",
+      "full": "The powers of the south: Abraha's march on Mecca, the Christian Ethiopia that sheltered the first Muslim emigrants, and the southern end of the winter caravan.",
+      "src": "background — Bowersock, 'The Throne of Adulis' (2013).",
+      "external": true
+    },
+    {
+      "id": "ext4",
+      "lane": "external",
+      "year": 635,
+      "label": "The caliphate and the conquests",
+      "full": "The state that formed on the Prophet's death: it put down the Ridda and sent the Arab armies out of the Hejaz into Syria, Iraq and Egypt within a decade.",
+      "src": "background — added on review; Donner, 'The Early Islamic Conquests' (1981).",
+      "external": true
+    },
+    {
+      "id": "k1",
+      "lane": "power",
+      "year": -100,
+      "label": "The Hejaz between empires",
+      "full": "The northern Hejaz lay under Nabataean and then Roman reach — Hegra a Nabataean city, a Roman garrison and customs post at the Red Sea harbour of Leuke Kome — while the interior stayed a tribal country the empires taxed but did not govern.",
+      "src": "the Periplus of the Erythraean Sea §19 on Leuke Kome; Bowersock, 'Roman Arabia' (1983); the Ruwāfa temple inscription of the Thamūd under Marcus Aurelius."
+    },
+    {
+      "id": "k2",
+      "lane": "power",
+      "year": 380,
+      "label": "The retreat of the empires",
+      "full": "As Rome pulled its frontier back and the Nabataean order faded, the Hejaz reverted fully to tribal control — Kināna, Khuzāʿa, Muḍar — with the sanctuary at Mecca one of the few fixed institutions in the country.",
+      "src": "Bowersock, 'Roman Arabia' (1983); Robert Hoyland, 'Arabia and the Arabs' (2001)."
+    },
+    {
+      "id": "k3",
+      "lane": "power",
+      "year": 465,
+      "label": "Quṣayy ibn Kilāb gathers Quraysh",
+      "full": "Quṣayy united the scattered clans of Quraysh, took Mecca from Khuzāʿa, settled his people around the Kaʿba, and created the hereditary Meccan offices — the key-holding, the pilgrim water and food, the council house and the war banner.",
+      "src": "Ibn Hishām, al-Sīra al-Nabawiyya; al-Ṭabarī; W. Montgomery Watt, 'Muhammad at Mecca' (1953)."
+    },
+    {
+      "id": "k4",
+      "lane": "power",
+      "year": 520,
+      "label": "Hāshim and the trade treaties",
+      "full": "Hāshim ibn ʿAbd Manāf is credited with the īlāf — the safe-conduct agreements with Byzantium and the Ghassānids, with Ḥimyar and with the Lakhmids — that let the two annual Meccan caravans run. His brother ʿAbd Shams founded the line of the Umayyads.",
+      "src": "Ibn Hishām; the Qurʾan's Sūrat Quraysh (106); Patricia Crone, 'Meccan Trade and the Rise of Islam' (1987), which questions the scale of the trade."
+    },
+    {
+      "id": "k5",
+      "lane": "power",
+      "year": 585,
+      "label": "The Meccan oligarchy on the eve of Islam",
+      "full": "Mecca had no king. It was run by a council of clan heads — Makhzūm, ʿAbd Shams and Umayya, Hāshim, Nawfal the leading houses — with ʿAbd al-Muṭṭalib ibn Hāshim, the Prophet's grandfather, holding the water and food offices.",
+      "src": "Ibn Hishām; al-Ṭabarī; Watt, 'Muhammad at Mecca' (1953); Michael Lecker on the Meccan clans."
+    },
+    {
+      "id": "k6",
+      "lane": "power",
+      "year": 500,
+      "label": "The tribes of Yathrib",
+      "full": "The oasis of Yathrib held three substantial Jewish tribes — Qurayẓa, al-Naḍīr and Qaynuqāʿ — who had been there longest, and the Arab Aws and Khazraj, of South Arabian descent by tradition, who came later and by the 6th century dominated the land.",
+      "src": "Ibn Hishām; Michael Lecker, 'Muslims, Jews and Pagans: Studies on Early Islamic Medina' (1995); Gordon Newby, 'A History of the Jews of Arabia' (1988)."
+    },
+    {
+      "id": "k7",
+      "lane": "power",
+      "year": 617,
+      "label": "The Battle of Buʿāth and the Yathrib deadlock",
+      "full": "The last and worst of the Aws–Khazraj wars left the oasis exhausted and leaderless, each Arab tribe allied to a different Jewish tribe. It is the vacuum into which the Yathrib clans invited an outside arbiter.",
+      "src": "the akhbar of the ayyām of Yathrib in Ibn Hishām and Abū al-Faraj al-Iṣfahānī; Watt, 'Muhammad at Medina' (1956)."
+    },
+    {
+      "id": "k8",
+      "lane": "power",
+      "year": 595,
+      "label": "Muḥammad ibn ʿAbd Allāh at Mecca",
+      "full": "Born about 570 to the clan of Hāshim, orphaned young, raised by his grandfather and then his uncle Abū Ṭālib, and married to the merchant Khadīja bint Khuwaylid. From about 610 he preached a strict monotheism and the resurrection to a hostile Quraysh.",
+      "src": "Ibn Isḥāq's Sīra (in Ibn Hishām's recension); al-Wāqidī; the Qurʾan; Watt, 'Muhammad at Mecca' (1953)."
+    },
+    {
+      "id": "k9",
+      "lane": "power",
+      "year": 622,
+      "label": "The Hijra and the Medinan community",
+      "full": "After years of persecution and a failed appeal to Ṭāʾif, the Prophet accepted the invitation of the Yathrib clans and emigrated with his followers in 622, becoming first the arbiter and then the ruler of the oasis. The Islamic calendar counts from that year.",
+      "src": "Ibn Hishām; al-Ṭabarī; Watt, 'Muhammad at Medina' (1956); the ʿAqaba pledges."
+    },
+    {
+      "id": "k10",
+      "lane": "power",
+      "year": 630,
+      "label": "The conquest of Mecca and the unification of the Hejaz",
+      "full": "The Treaty of Ḥudaybiyya in 628, the near-bloodless entry into Mecca in 630 and the clearing of the idols from the Kaʿba, the victory at Ḥunayn and the submission of Ṭāʾif, the Farewell Pilgrimage of 632, and the Prophet's death at Medina that same year.",
+      "src": "Ibn Hishām; al-Wāqidī, Kitāb al-Maghāzī; the sīra tradition on the last two years."
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": -25,
+      "label": "The Aelius Gallus expedition through the Hejaz",
+      "full": "A Roman army of some 10,000 marched south through the Hejaz toward the incense kingdoms, guided and — by Strabo's account — deliberately misguided by the Nabataean minister Syllaeus through waterless country, and struggled back destroyed by thirst and disease.",
+      "src": "Strabo, Geography XVI.4.22–24; Pliny, Natural History VI.32."
+    },
+    {
+      "id": "c2",
+      "lane": "conflict",
+      "year": 600,
+      "label": "The Aws–Khazraj wars and Buʿāth",
+      "full": "A century of feud between the two Arab tribes of Yathrib, drawing in the Jewish tribes as allies of one side or the other, and ending in the exhausting Battle of Buʿāth — the disorder that made the oasis look for a ruler from outside.",
+      "src": "Ibn Hishām; al-Iṣfahānī, Kitāb al-Aghānī; Watt, 'Muhammad at Medina' (1956)."
+    },
+    {
+      "id": "c3",
+      "lane": "conflict",
+      "year": 614,
+      "label": "The persecution and the boycott",
+      "full": "The Quraysh leadership answered the new preaching with social pressure and violence against the weak and the enslaved converts, drove a group of Muslims to seek refuge in Aksum, and imposed a two- or three-year commercial and social boycott on the clans of Hāshim and al-Muṭṭalib.",
+      "src": "Ibn Hishām on the boycott and the persecution; Watt, 'Muhammad at Mecca' (1953)."
+    },
+    {
+      "id": "c4",
+      "lane": "conflict",
+      "year": 624,
+      "label": "Badr",
+      "full": "A Medinan raiding party set out to intercept a Meccan caravan and instead met a Quraysh relief army at the wells of Badr. The outnumbered Muslims won, killing several of the leading men of Mecca — the battle that made the Medinan state a military power.",
+      "src": "the Qurʾan (Sūra 8); Ibn Hishām; al-Wāqidī; the battle is the best-attested event of the Prophet's career."
+    },
+    {
+      "id": "c5",
+      "lane": "conflict",
+      "year": 626,
+      "label": "Uḥud and the Trench",
+      "full": "A Meccan army under Abū Sufyān defeated the Muslims outside Medina at Uḥud in 625, wounding the Prophet. Two years later a much larger confederate force besieged Medina, was held off by a defensive trench, and withdrew — the last Meccan offensive.",
+      "src": "the Qurʾan (Sūra 3 on Uḥud, Sūra 33 on the Trench); Ibn Hishām; al-Wāqidī."
+    },
+    {
+      "id": "c6",
+      "lane": "conflict",
+      "year": 625,
+      "label": "The end of the Medinan Jewish tribes",
+      "full": "Qaynuqāʿ was expelled from Medina in 624 and al-Naḍīr in 625; after the Trench in 627 the men of Qurayẓa were killed and the women and children enslaved, on a charge of treachery during the siege. It was the violent end of the Jewish presence in the oasis.",
+      "src": "Ibn Hishām; al-Wāqidī; the historicity and scale of the Qurayẓa killing are debated (Watt; W. N. Arafat; M. J. Kister, 'The Massacre of the Banū Qurayẓa')."
+    },
+    {
+      "id": "c7",
+      "lane": "conflict",
+      "year": 630,
+      "label": "The conquest of Mecca and Ḥunayn",
+      "full": "After Quraysh broke the Ḥudaybiyya truce the Prophet marched on Mecca and took it almost without a fight; then he defeated the Hawāzin and Thaqīf at Ḥunayn and besieged Ṭāʾif, which submitted the following year. The Hejaz was unified.",
+      "src": "the Qurʾan (Sūra 9 on Ḥunayn); Ibn Hishām; al-Wāqidī."
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 460,
+      "label": "The Meccan offices of Quṣayy",
+      "full": "A bundle of hereditary functions — the key of the Kaʿba, the water and food for the pilgrims, the council house where affairs were decided, the war banner — was how a Mecca with no king, no wall and no army governed itself and its sanctuary.",
+      "src": "Ibn Hishām on Quṣayy's offices; Watt, 'Muhammad at Mecca' (1953). Customary institutions, not a written constitution."
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 510,
+      "label": "The ḥums and the sacred economy",
+      "full": "Quraysh's ritual confederation, the ḥums, claimed distinctive privileges and obligations at the pilgrimage and bound the surrounding tribes to Mecca's sanctuary through shared observance — a religious framework that was also a commercial one.",
+      "src": "Ibn al-Kalbī, Kitāb al-Aṣnām; Uri Rubin, 'The Ḥums: an early Islamic Ḥums'; Kister on the ḥums."
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 590,
+      "label": "The ḥilf al-fuḍūl",
+      "full": "A pact several Meccan clans swore — and which the young Muḥammad is said to have witnessed and later praised — to stand with any wronged person in the city against any wrongdoer, whatever his standing. It is remembered as the noblest of the pre-Islamic Meccan alliances.",
+      "src": "Ibn Hishām; the ḥadīth in which the Prophet says he would still answer a call to such a pact under Islam."
+    },
+    {
+      "id": "o4",
+      "lane": "order",
+      "year": 623,
+      "label": "The Constitution of Medina",
+      "full": "The document the Prophet drew up on arriving at Yathrib defined the emigrants, the Medinan Muslims and the Jewish tribes as a single community for defence, with disputes referred to God and the Prophet — an early written charter of a mixed polity.",
+      "src": "the text preserved in Ibn Hishām; the analyses of Watt, R. B. Serjeant, and Michael Lecker, 'The Constitution of Medina' (2004)."
+    },
+    {
+      "id": "o5",
+      "lane": "order",
+      "year": 627,
+      "label": "The new law of Medina",
+      "full": "Over ten years the Medinan revelations built a body of law — the alms-tax, fixed inheritance shares, rules of marriage and divorce, the ḥudūd penalties, the ban on interest — that replaced tribal custom with a scripturally grounded order.",
+      "src": "the legal passages of the Medinan sūras (2, 4, 5, 24, 65); the later fiqh tradition's reconstruction of the sequence."
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": -50,
+      "label": "The sanctuary and the gods of the Kaʿba",
+      "full": "The haram of Mecca, the god Hubal above the well inside the Kaʿba, images of the tribes' deities around it, the Black Stone set in its corner, and the pilgrimage rites — the circling, the run between Ṣafā and Marwa, the standing at ʿArafāt — that Islam would keep and reinterpret.",
+      "src": "Ibn al-Kalbī, Kitāb al-Aṣnām; G. R. Hawting, 'The Idea of Idolatry and the Emergence of Islam' (1999)."
+    },
+    {
+      "id": "b2",
+      "lane": "belief",
+      "year": 200,
+      "label": "Al-Lāt, al-ʿUzzā and Manāt",
+      "full": "The three goddesses — al-Lāt at Ṭāʾif, al-ʿUzzā in the valley of Nakhla, Manāt on the coast near Qudayd — were worshipped across the Hejaz and are named in the Qurʾan. Their shrines were destroyed in the year after the conquest of Mecca.",
+      "src": "the Qurʾan 53:19–20; Ibn al-Kalbī on the three shrines; the destruction of al-ʿUzzā by Khālid ibn al-Walīd in the sīra."
+    },
+    {
+      "id": "b3",
+      "lane": "belief",
+      "year": 250,
+      "label": "The Jews of the Hejaz",
+      "full": "Substantial Jewish communities lived at Yathrib, Khaybar, Taymāʾ, Fadak and along Wādī al-Qurā — farmers, craftsmen and traders, some of Israelite descent and some Arab converts, with their own law and learning. Islam engaged with them closely and then largely ended their presence in the region.",
+      "src": "Newby, 'A History of the Jews of Arabia' (1988); Lecker, 'Muslims, Jews and Pagans' (1995)."
+    },
+    {
+      "id": "b4",
+      "lane": "belief",
+      "year": 550,
+      "label": "Christians and ḥanīfs at the edges",
+      "full": "Christian communities and monasteries in the northern Hejaz, Christian slaves and merchants in Mecca, and individual Meccan seekers — Waraqa ibn Nawfal, Zayd ibn ʿAmr, ʿUbayd Allāh ibn Jaḥsh — who had already rejected the idols before Islam.",
+      "src": "Ibn Hishām on the ḥanīfs; J. S. Trimingham, 'Christianity Among the Arabs in Pre-Islamic Times' (1979)."
+    },
+    {
+      "id": "b5",
+      "lane": "belief",
+      "year": 612,
+      "label": "The Qurʾan as event",
+      "full": "The recitations delivered over twenty-two years — first short, rhymed warnings of judgement at Mecca, later long legal and narrative passages at Medina — recited, memorised and partly written down in the Prophet's lifetime and collected within a generation.",
+      "src": "the Qurʾan itself; the traditional accounts of its collection under Abū Bakr and ʿUthmān; Angelika Neuwirth on the Meccan–Medinan sequence."
+    },
+    {
+      "id": "b6",
+      "lane": "belief",
+      "year": 630,
+      "label": "The remaking of the pilgrimage",
+      "full": "The conquest turned the pagan haram into the centre of a monotheist religion — the idols removed, Abraham named as the builder of the Kaʿba, the old rites kept but re-explained, and the Farewell Pilgrimage of 632 fixing the form the Hajj still takes.",
+      "src": "the Qurʾan 2:125–129, 22:26–29; the sīra on the Farewell Pilgrimage; F. E. Peters, 'The Hajj' (1994)."
+    },
+    {
+      "id": "ex1",
+      "lane": "expression",
+      "year": 605,
+      "label": "The Kaʿba and its rebuilding",
+      "full": "The cube of stone at the centre of Mecca was rebuilt by Quraysh after a flash flood, roofed with timber salvaged from a wrecked Byzantine ship. The young Muḥammad arbitrated which clan should lift the Black Stone into place — the last major pre-Islamic act at the shrine.",
+      "src": "Ibn Hishām on the rebuilding and the Black Stone arbitration; the later architectural history of the Kaʿba."
+    },
+    {
+      "id": "ex2",
+      "lane": "expression",
+      "year": 622,
+      "label": "The Prophet's Mosque at Medina",
+      "full": "On arriving in 622 the Prophet built a simple enclosure of palm trunks and mud brick beside his house — the first mosque, a courtyard with a shaded prayer area, and the model for the mosque plan ever after. His tomb lies within its later expansions.",
+      "src": "Ibn Hishām; K. A. C. Creswell, 'Early Muslim Architecture' (1969), on the first mosque."
+    },
+    {
+      "id": "ex3",
+      "lane": "expression",
+      "year": 622,
+      "label": "The poets of the sīra",
+      "full": "The pre-Islamic verse of the western tribes, the poetic duels around the Prophet — Ḥassān ibn Thābit answering for him, the Meccan satirists against him — and the elegies for the dead of Badr and Uḥud. Poetry was a weapon in the conflict as much as a record of it.",
+      "src": "the Dīwān of Ḥassān ibn Thābit; the poetry embedded in Ibn Hishām; Nadia Jamil and others on sīra poetry."
+    },
+    {
+      "id": "ex4",
+      "lane": "expression",
+      "year": 626,
+      "label": "An art of the word, not the image",
+      "full": "The new religion's aesthetic began as an art of voice and script — the call to prayer, the cadenced recitation of the Qurʾan, and the earliest Arabic writing of the Companions on the pilgrim routes — deliberately without figural image.",
+      "src": "the early Ḥijāzī Qurʾan fragments; the Companion-era graffiti of the western Arabian routes, now being surveyed and published (the Islamic Awareness and Saudi epigraphic projects)."
+    },
+    {
+      "id": "t1",
+      "lane": "thought",
+      "year": 780,
+      "label": "The sīra tradition",
+      "full": "The biography of the Prophet — Ibn Isḥāq's mid-8th-century Sīra, surviving in Ibn Hishām's recension, al-Wāqidī's Maghāzī, the ḥadīth collections — was compiled a century or more after the events from oral testimony, and is the single richest and most contested source for the period.",
+      "src": "Ibn Hishām, al-Sīra al-Nabawiyya; al-Wāqidī, Kitāb al-Maghāzī; al-Ṭabarī; the debate over the reliability of the isnād."
+    },
+    {
+      "id": "t2",
+      "lane": "thought",
+      "year": 800,
+      "label": "The genealogists and the pre-Islamic Hejaz",
+      "full": "Ibn al-Kalbī's Kitāb al-Aṣnām, the 'Book of Idols', and his vast genealogical work, together with the akhbar of the ayyām al-ʿArab, preserved the religion, the shrines and the tribal map of the Hejaz that Islam overturned.",
+      "src": "Ibn al-Kalbī, Kitāb al-Aṣnām (ed. Faris, 1952); the Jamharat al-nasab."
+    },
+    {
+      "id": "t3",
+      "lane": "thought",
+      "year": 1977,
+      "label": "The revisionist question",
+      "full": "Modern scholarship has argued over how much of the traditional account — of Mecca's location and trade, of the Prophet's life, of the Qurʾan's early history — can be treated as fact, and how much is a later construction read back onto the origins.",
+      "src": "John Wansbrough, 'Quranic Studies' (1977); Patricia Crone and Michael Cook, 'Hagarism' (1977) and Crone, 'Meccan Trade' (1987); the responses of R. B. Serjeant, Gregor Schoeler, and others."
+    },
+    {
+      "id": "t4",
+      "lane": "thought",
+      "year": 2010,
+      "label": "The material and epigraphic Hejaz",
+      "full": "Archaeology and the pre-Islamic and early-Islamic Arabic inscriptions of the western routes — long neglected, now the subject of Saudi and international survey — are beginning to give the period a physical record independent of the texts.",
+      "src": "the epigraphic surveys around Ṭāʾif, al-ʿUlā and the Darb al-Ḥajj; Frédéric Imbert and others on the early Arabic graffiti."
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 510,
+      "label": "The Meccan caravan trade",
+      "full": "Two caravans a year — south to Yemen in winter, north to Syria and Gaza in summer — carried leather, raisins and cloth, and in the traditional account luxury goods too. It was the trade that made Quraysh rich, and the Qurʾan's Sūrat Quraysh commemorates it.",
+      "src": "the Qurʾan, Sūra 106; Ibn Hishām; Crone, 'Meccan Trade' (1987), arguing the goods were humbler than the tradition claims."
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 450,
+      "label": "The oases of Yathrib and Ṭāʾif",
+      "full": "The date palms and grain of Yathrib, worked by the Jewish tribes and the Arab settlers, and the vineyards and orchards of Ṭāʾif in the cool highlands — the food base of the western Hejaz, and the reason both towns mattered.",
+      "src": "Ibn Hishām; Lecker, 'Muslims, Jews and Pagans' (1995), on the Yathrib palm economy."
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 470,
+      "label": "The pilgrimage economy",
+      "full": "The fairs of ʿUkāẓ, Majanna and Dhū al-Majāz just before the Hajj, and the trade that concentrated at Mecca in the sacred months, made the sanctuary an economic engine — pilgrimage and market were the same season.",
+      "src": "al-Marzūqī, Kitāb al-Azmina wa'l-amkina; Peters, 'The Hajj' (1994)."
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 625,
+      "label": "The Medinan war economy",
+      "full": "The early Medinan state was funded by raids on the Meccan caravans, the fifth of the booty reserved for the Prophet and the community, the land and palm groves taken from the expelled Jewish tribes, and the tribute imposed on Khaybar after 628.",
+      "src": "al-Wāqidī, Kitāb al-Maghāzī; the Qurʾan 8:41 on the khums; the Khaybar settlement."
+    },
+    {
+      "id": "tc1",
+      "lane": "technology",
+      "year": 470,
+      "label": "The wells and the water of Mecca",
+      "full": "Zamzam, the well beside the Kaʿba, rediscovered in the tradition by ʿAbd al-Muṭṭalib, and the cisterns and channels that supplied it — the water technology that let a town exist in a valley with no farmland at all.",
+      "src": "Ibn Hishām on Zamzam; the hydrology of the Meccan valley."
+    },
+    {
+      "id": "tc2",
+      "lane": "technology",
+      "year": 627,
+      "label": "The trench of Medina",
+      "full": "On the advice of the Persian convert Salmān, the Muslims dug a defensive ditch across the exposed northern approach to the oasis. It was a fortification technique new to Arabian warfare and the reason the confederate siege of 627 failed.",
+      "src": "the Qurʾan, Sūra 33 (al-Aḥzāb); Ibn Hishām; al-Wāqidī."
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": 520,
+      "label": "The īlāf and the great powers",
+      "full": "The safe-conduct agreements the Meccan tradition attributes to Hāshim and his brothers — with Byzantium and its Ghassānid clients, with Ḥimyar, with the Lakhmids of al-Ḥīra — let Quraysh's caravans cross every sphere of influence between Yemen and Syria.",
+      "src": "Ibn Hishām; the Qurʾan 106:1–2; Crone, 'Meccan Trade' (1987), on the īlāf tradition."
+    },
+    {
+      "id": "x2",
+      "lane": "exchange",
+      "year": 615,
+      "label": "The emigration to Aksum",
+      "full": "A group of early Muslims fled across the Red Sea to Christian Ethiopia, where the Negus heard both sides and refused a Quraysh demand to extradite them — the first Muslim experience of protection by a foreign, and monotheist, power.",
+      "src": "Ibn Hishām on the two emigrations to Abyssinia; the tradition of the Negus's conversion."
+    },
+    {
+      "id": "x3",
+      "lane": "exchange",
+      "year": 570,
+      "label": "The Year of the Elephant",
+      "full": "Abraha's march from Yemen against Mecca, remembered as ending in disaster before the city and synchronised in the tradition with the Prophet's birth — the Hejaz's brush with the Aksumite–Himyarite world to its south.",
+      "src": "the Qurʾan, Sūra 105 (al-Fīl); Ibn Hishām; the date and reality much debated."
+    },
+    {
+      "id": "x4",
+      "lane": "exchange",
+      "year": 628,
+      "label": "The letters to the kings",
+      "full": "The tradition that after Ḥudaybiyya the Prophet sent envoys with letters to Heraclius, Khosrow II, the Negus, the ruler of Egypt and the Arab border kings, calling them to Islam — the Medinan state announcing itself to the world beyond Arabia.",
+      "src": "Ibn Hishām; al-Ṭabarī; the surviving 'letters' are late and their authenticity is disputed."
+    },
+    {
+      "id": "x5",
+      "lane": "exchange",
+      "year": 631,
+      "label": "The delegations at Medina",
+      "full": "After the conquest of Mecca, tribes from across Arabia sent deputations to Medina to accept Islam and the alms-tax — the 'Year of Delegations' that turned a Hejazi state into an Arabian one on the eve of the great conquests.",
+      "src": "Ibn Hishām and al-Wāqidī on the wufūd; al-Ṭabarī."
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 470,
+      "label": "A stateless sanctuary in a stateless land",
+      "full": "Pre-Islamic Mecca had no king, no wall and no army — a shrine and a market held together by a sacred truce, a ritual confederation and the hereditary offices of one tribe. That such a place produced a religion and an empire is the central improbability of the period.",
+      "src": "Watt, 'Muhammad at Mecca' (1953); Hoyland, 'Arabia and the Arabs' (2001)."
+    },
+    {
+      "id": "w2",
+      "lane": "world",
+      "year": -200,
+      "label": "The Hejaz between Rome and Persia",
+      "full": "For six centuries the western Arabian corridor lay just outside the reach of both great empires — close enough to trade with and be shaped by, far enough to stay independent. That gap is the space in which Islam took form.",
+      "src": "Bowersock, 'Roman Arabia' (1983); Greg Fisher (ed.), 'Arabs and Empires before Islam' (2015)."
+    },
+    {
+      "id": "w3",
+      "lane": "world",
+      "year": 625,
+      "label": "A state and a religion founded together",
+      "full": "In ten years at Medina the Prophet built at once a scripture, a law, a ritual system and a polity — and by his death in 632 that polity held the whole Hejaz and had the allegiance of much of Arabia.",
+      "src": "Watt, 'Muhammad at Medina' (1956); Fred Donner, 'Muhammad and the Believers' (2010)."
+    },
+    {
+      "id": "w4",
+      "lane": "world",
+      "year": 632,
+      "label": "The thread continues — the Ridda, the caliphate and the conquests",
+      "full": "The folio ends with the Prophet's death in 632. The succession crisis, the Ridda, the election of Abū Bakr and the explosion of the Arab armies out of the Hejaz into Syria, Iraq and Egypt are the story of the caliphate — a folio that already exists — and of medieval Hejaz.",
+      "src": "a forward reference: caliphate-632-750 is already built; hejaz-632-1517 (the Hejaz under the caliphs and the Sharifate of Mecca) is planned but not yet built."
+    },
+    {
+      "id": "lv1",
+      "lane": "lives",
+      "year": 595,
+      "label": "Khadīja bint Khuwaylid",
+      "full": "A Meccan merchant who ran her own caravan trade, employed Muḥammad as her agent, proposed marriage to him, and was the first person to accept his message. A wealthy, independent woman stands at the very beginning of the story.",
+      "src": "Ibn Hishām; the sīra tradition on Khadīja; Barbara Stowasser, 'Women in the Qurʾan, Traditions, and Interpretation' (1994)."
+    },
+    {
+      "id": "lv2",
+      "lane": "lives",
+      "year": 615,
+      "label": "The enslaved early converts",
+      "full": "Bilāl ibn Rabāḥ, an Ethiopian slave tortured for his faith and freed by Abū Bakr, who became the first to call the prayer; Sumayya bint Khayyāṭ, an enslaved woman killed under torture and counted as the first martyr of Islam; and the others whom the message reached first because they had least to lose.",
+      "src": "Ibn Hishām on the persecution of the weak converts; the ḥadīth tradition on Bilāl and Sumayya."
+    },
+    {
+      "id": "lv3",
+      "lane": "lives",
+      "year": 624,
+      "label": "The women of Yathrib and the record",
+      "full": "Women were among those who gave the ʿAqaba pledges, fought at Uḥud (Nusayba bint Kaʿb), transmitted a large body of ḥadīth (ʿĀʾisha), and are addressed directly in the Medinan revelations — a visibility the sources record and that later interpretation worked to narrow.",
+      "src": "Stowasser (1994); the ḥadīth of Nusayba; Aisha Geissinger and others on women's transmission."
+    },
+    {
+      "id": "lv4",
+      "lane": "lives",
+      "year": 626,
+      "label": "The Jewish communities and their end",
+      "full": "The farmers and scholars of Yathrib, Khaybar and the northern oases — their expulsions, the killing of the men of Qurayẓa, the poll-tax settlement imposed on Khaybar and its later cancellation by ʿUmar — the end of a community that had shaped the Hejaz for centuries.",
+      "src": "Ibn Hishām; al-Wāqidī; Newby, 'A History of the Jews of Arabia' (1988); the debated ʿUmar expulsion tradition."
+    },
+    {
+      "id": "lv5",
+      "lane": "lives",
+      "year": 628,
+      "label": "Slavery and the new rules",
+      "full": "The Hejaz ran on enslaved labour — herders, domestics, artisans, concubines. The Medinan revelations did not abolish slavery, but made manumission a pious act and an expiation, regulated the treatment of the enslaved, and opened marriage and inheritance to freed people.",
+      "src": "the Qurʾanic manumission verses (2:177, 4:92, 5:89, 90:13); Jonathan Brown, 'Slavery and Islam' (2019); Kecia Ali, 'Marriage and Slavery in Early Islam' (2010)."
+    }
+  ],
+  "edges": [
+    [
+      "w2",
+      "k1",
+      "strong",
+      "the western corridor lay just outside the reach of Rome and Persia alike"
+    ],
+    [
+      "ext1",
+      "k1",
+      "loose",
+      "Rome held a garrison and customs post at the Red Sea harbour of Leuke Kome"
+    ],
+    [
+      "k1",
+      "k2",
+      "strong",
+      "as Rome pulled back and the Nabataean order faded the Hejaz reverted to the tribes"
+    ],
+    [
+      "k2",
+      "k3",
+      "strong",
+      "into that tribal country Quṣayy gathered Quraysh and took Mecca"
+    ],
+    [
+      "k3",
+      "o1",
+      "strong",
+      "Quṣayy created the hereditary Meccan offices"
+    ],
+    [
+      "o1",
+      "w1",
+      "strong",
+      "a kingless Mecca governed itself through those offices and a sacred truce"
+    ],
+    [
+      "b1",
+      "o2",
+      "strong",
+      "the sanctuary cult and the ḥums confederation are one framework"
+    ],
+    [
+      "b1",
+      "b2",
+      "loose",
+      "al-Lāt, al-ʿUzzā and Manāt were worshipped across the same Hejaz"
+    ],
+    [
+      "b1",
+      "ex1",
+      "strong",
+      "Quraysh rebuilt the Kaʿba after a flash flood, the last major pre-Islamic act at the shrine"
+    ],
+    [
+      "b1",
+      "tc1",
+      "loose",
+      "Zamzam beside the Kaʿba is what let a town exist in a barren valley"
+    ],
+    [
+      "w1",
+      "tc1",
+      "strong",
+      "Mecca had no farmland and lived on its wells"
+    ],
+    [
+      "o2",
+      "ec3",
+      "strong",
+      "the ḥums bound the tribes to Mecca's sanctuary, and pilgrimage and market were one season"
+    ],
+    [
+      "ec3",
+      "ec1",
+      "strong",
+      "the trade that concentrated at Mecca in the sacred months fed the caravan business"
+    ],
+    [
+      "k4",
+      "x1",
+      "strong",
+      "Hāshim is credited with the īlāf safe-conduct agreements"
+    ],
+    [
+      "ext1",
+      "x1",
+      "strong",
+      "with Byzantium and its Ghassānid clients"
+    ],
+    [
+      "ext2",
+      "x1",
+      "strong",
+      "and with the Lakhmids of al-Ḥīra"
+    ],
+    [
+      "ext3",
+      "x1",
+      "loose",
+      "and with Ḥimyar at the southern end of the route"
+    ],
+    [
+      "x1",
+      "ec1",
+      "strong",
+      "the treaties let the two annual caravans cross every sphere of influence"
+    ],
+    [
+      "ec1",
+      "k5",
+      "strong",
+      "the caravan trade made Quraysh rich and its clan heads the rulers of Mecca"
+    ],
+    [
+      "ext3",
+      "x3",
+      "strong",
+      "Abraha marched from Yemen against Mecca in the Year of the Elephant"
+    ],
+    [
+      "x3",
+      "k8",
+      "loose",
+      "the year is synchronised in the tradition with the Prophet's birth"
+    ],
+    [
+      "k6",
+      "k7",
+      "strong",
+      "the Aws–Khazraj feud culminated in the Battle of Buʿāth"
+    ],
+    [
+      "k7",
+      "c2",
+      "strong",
+      "Buʿāth was the last and worst of the wars that broke Yathrib"
+    ],
+    [
+      "c2",
+      "k9",
+      "strong",
+      "the exhausted, leaderless oasis invited an outside arbiter"
+    ],
+    [
+      "k6",
+      "b3",
+      "strong",
+      "Yathrib held three substantial Jewish tribes"
+    ],
+    [
+      "k6",
+      "ec2",
+      "strong",
+      "the Jewish tribes and the Arab settlers worked the Yathrib palm oasis"
+    ],
+    [
+      "k8",
+      "b5",
+      "strong",
+      "from about 610 the recitations were delivered at Mecca"
+    ],
+    [
+      "b4",
+      "b5",
+      "loose",
+      "individual Meccan seekers had already rejected the idols before Islam"
+    ],
+    [
+      "b5",
+      "c3",
+      "strong",
+      "the new preaching against the gods provoked the Quraysh leadership"
+    ],
+    [
+      "k5",
+      "c3",
+      "strong",
+      "the clan heads answered with pressure, violence against the weak, and a boycott"
+    ],
+    [
+      "c3",
+      "x2",
+      "strong",
+      "the persecution drove a group of Muslims to seek refuge in Aksum"
+    ],
+    [
+      "ext3",
+      "x2",
+      "strong",
+      "the Christian Negus heard both sides and refused to extradite them"
+    ],
+    [
+      "c3",
+      "k9",
+      "strong",
+      "after years of persecution and a failed appeal to Ṭāʾif came the Hijra"
+    ],
+    [
+      "k9",
+      "o4",
+      "strong",
+      "the Prophet drew up the Constitution of Medina on arriving"
+    ],
+    [
+      "o4",
+      "o5",
+      "strong",
+      "over ten years the Medinan revelations built a body of scriptural law"
+    ],
+    [
+      "k9",
+      "ex2",
+      "strong",
+      "he built the first mosque beside his house"
+    ],
+    [
+      "k9",
+      "ec4",
+      "strong",
+      "the early Medinan state was funded by raids on the Meccan caravans"
+    ],
+    [
+      "ec4",
+      "c4",
+      "strong",
+      "a raid aimed at a caravan met a Quraysh army instead at Badr"
+    ],
+    [
+      "c4",
+      "c5",
+      "strong",
+      "Mecca struck back at Uḥud and then besieged Medina"
+    ],
+    [
+      "tc2",
+      "c5",
+      "strong",
+      "the defensive trench is why the confederate siege of 627 failed"
+    ],
+    [
+      "c5",
+      "c6",
+      "strong",
+      "after the Trench the men of Qurayẓa were killed on a charge of treachery"
+    ],
+    [
+      "c4",
+      "c6",
+      "loose",
+      "Qaynuqāʿ and al-Naḍīr had already been expelled after Badr and Uḥud"
+    ],
+    [
+      "c6",
+      "lv4",
+      "strong",
+      "it was the violent end of the Jewish presence in the oasis"
+    ],
+    [
+      "c6",
+      "ec4",
+      "strong",
+      "the land and palm groves of the expelled tribes went to the community"
+    ],
+    [
+      "k9",
+      "x4",
+      "strong",
+      "the Medinan state announced itself with letters to Heraclius, Khosrow and the Negus"
+    ],
+    [
+      "ext1",
+      "x4",
+      "loose",
+      "one letter was addressed to Byzantium"
+    ],
+    [
+      "c5",
+      "c7",
+      "strong",
+      "the failed siege left Mecca on the defensive and the initiative with Medina"
+    ],
+    [
+      "c7",
+      "k10",
+      "strong",
+      "the near-bloodless conquest of Mecca unified the Hejaz"
+    ],
+    [
+      "c7",
+      "b6",
+      "strong",
+      "the idols were cleared from the Kaʿba and the haram made monotheist"
+    ],
+    [
+      "c7",
+      "b2",
+      "strong",
+      "the shrines of the three goddesses were destroyed in the following year"
+    ],
+    [
+      "b6",
+      "w3",
+      "strong",
+      "a scripture, a law, a ritual system and a state, all built in a decade"
+    ],
+    [
+      "o5",
+      "w3",
+      "strong",
+      "the new law replaced tribal custom with a scripturally grounded order"
+    ],
+    [
+      "k10",
+      "x5",
+      "strong",
+      "after the conquest tribes from across Arabia sent delegations to Medina"
+    ],
+    [
+      "x5",
+      "w4",
+      "strong",
+      "the Year of Delegations turned a Hejazi state into an Arabian one"
+    ],
+    [
+      "w4",
+      "ext4",
+      "strong",
+      "on the Prophet's death the Ridda and then the conquests followed"
+    ],
+    [
+      "ext4",
+      "t1",
+      "loose",
+      "the biography was compiled a century later, under the empire it produced"
+    ],
+    [
+      "b1",
+      "t2",
+      "strong",
+      "Ibn al-Kalbī's Book of Idols preserved the religion Islam overturned"
+    ],
+    [
+      "b2",
+      "t2",
+      "strong",
+      "and the shrines of the three goddesses"
+    ],
+    [
+      "t1",
+      "t3",
+      "strong",
+      "the modern argument is over how much of the sīra tradition is history"
+    ],
+    [
+      "ec1",
+      "t3",
+      "strong",
+      "and how much of the account of Mecca's trade can be taken as fact"
+    ],
+    [
+      "t3",
+      "t4",
+      "strong",
+      "archaeology and the early Arabic graffiti are beginning to give an independent record"
+    ],
+    [
+      "c3",
+      "ex3",
+      "strong",
+      "poetry was a weapon in the Meccan conflict as much as a record of it"
+    ],
+    [
+      "c4",
+      "ex3",
+      "loose",
+      "the elegies for the dead of Badr and Uḥud"
+    ],
+    [
+      "b5",
+      "ex4",
+      "strong",
+      "the new aesthetic was an art of the recited and written word, without figural image"
+    ],
+    [
+      "lv1",
+      "k8",
+      "strong",
+      "Khadīja employed Muḥammad and was the first to accept his message"
+    ],
+    [
+      "b5",
+      "lv2",
+      "strong",
+      "the message reached the enslaved and the weak first, because they had least to lose"
+    ],
+    [
+      "c3",
+      "lv2",
+      "strong",
+      "the enslaved converts were tortured in the persecution"
+    ],
+    [
+      "o5",
+      "lv3",
+      "loose",
+      "women are addressed directly in the Medinan revelations and gave the ʿAqaba pledges"
+    ],
+    [
+      "o5",
+      "lv5",
+      "strong",
+      "the new rules made manumission a pious act and regulated the treatment of the enslaved"
+    ],
+    [
+      "ec3",
+      "w1",
+      "loose",
+      "the sanctuary and the market were what held the stateless town together"
+    ],
+    [
+      "w2",
+      "c1",
+      "loose",
+      "the Aelius Gallus expedition was Rome's last attempt to reach down the corridor"
+    ],
+    [
+      "c1",
+      "ec1",
+      "loose",
+      "Rome's failed reach for the incense road left the caravan trade to the Arabs"
+    ],
+    [
+      "k5",
+      "o3",
+      "loose",
+      "the ḥilf al-fuḍūl was a pact of several Meccan clans to stand with the wronged"
+    ],
+    [
+      "o3",
+      "k8",
+      "loose",
+      "the young Muḥammad is said to have witnessed it and later praised it"
+    ]
+  ]
+}
