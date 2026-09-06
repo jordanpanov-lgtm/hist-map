@@ -56,6 +56,7 @@ const MODULES = [
   //   corridor; feeds into nabataean-400bc-106ce for the Nabataean period) ─────────
   { id:"dedan-tayma-1200bc-300bc", file:"modules/dedan-tayma-1200bc-300bc.json", label:"Ancient Northwest Arabia 1,200–300 BC", sub:"Taymāʾ, Nabonidus, and the Oasis Kingdoms of Dadān and Lihyān", region:"Arabia", period:"Ancient" },
   { id:"nw-arabia-106-632", file:"modules/nw-arabia-106-632.json", label:"Late Antique Northwest Arabia 106–632", sub:"The Roman Frontier, the Tribal and Jewish Oases, and the Conquest of the North", region:"Arabia", period:"Late Antique" },
+  { id:"nw-arabia-632-1517", file:"modules/nw-arabia-632-1517.json", label:"The Medieval Northwest 632–1517", sub:"A Corridor of the Hajj Roads — the Oases, the Tribes, and the Cities of Thamūd", region:"Arabia", period:"Medieval" },
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread, distinct from both the
   //   NW-Arabian interior and the Gulf littoral) ─────────────────────────────────
   { id:"south-arabia-prehistory-8000bc-1200bc", file:"modules/south-arabia-prehistory-8000bc-1200bc.json", label:"Prehistoric South Arabia 8,000–1,200 BC", sub:"The Highland Neolithic, the Cattle Cult and the Roots of the Incense Kingdoms", region:"Arabia", period:"Prehistoric" },

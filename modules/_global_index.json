@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 3612,
-    "folio_count": 66,
-    "xlink_pairs": 272,
-    "keyword_terms": 6176,
+    "total_entries": 3648,
+    "folio_count": 67,
+    "xlink_pairs": 277,
+    "keyword_terms": 6185,
     "folios": [
       {
         "id": "al-andalus-1031-1492",
@@ -199,6 +199,11 @@
         "id": "nw-arabia-106-632",
         "title": "Late Antique Northwest Arabia",
         "entries": 44
+      },
+      {
+        "id": "nw-arabia-632-1517",
+        "title": "The Medieval Northwest",
+        "entries": 36
       },
       {
         "id": "oman-1970-today",
@@ -2352,6 +2357,42 @@
     "nw-arabia-106-632::lv1": "The Jews of Khaybar",
     "nw-arabia-106-632::lv2": "The Roman soldiers of Hegra",
     "nw-arabia-106-632::lv3": "Ṣafiyya bint Ḥuyayy",
+    "nw-arabia-632-1517::k1": "The northwest under the caliphs",
+    "nw-arabia-632-1517::k2": "Wādī al-Qurā and the early Islamic oases",
+    "nw-arabia-632-1517::k3": "The bedouin northwest",
+    "nw-arabia-632-1517::k4": "Dūmat al-Jandal and the small emirates",
+    "nw-arabia-632-1517::k5": "The overlords of the Hajj roads",
+    "nw-arabia-632-1517::k6": "Qurḥ, Taymāʾ and Khaybar",
+    "nw-arabia-632-1517::c1": "The expulsion of the Jews",
+    "nw-arabia-632-1517::c2": "The tribes and the pilgrim caravans",
+    "nw-arabia-632-1517::c3": "The wars of the bedouin northwest",
+    "nw-arabia-632-1517::o1": "The Fadak affair",
+    "nw-arabia-632-1517::o2": "The administration of the Hajj roads",
+    "nw-arabia-632-1517::o3": "The surra and the tribal subsidy",
+    "nw-arabia-632-1517::b1": "Madāʾin Ṣāliḥ and the Thamūd",
+    "nw-arabia-632-1517::b2": "The pilgrim road as a religious landscape",
+    "nw-arabia-632-1517::b3": "The last Jews and the end of a presence",
+    "nw-arabia-632-1517::ex1": "The old town of al-ʿUlA",
+    "nw-arabia-632-1517::ex2": "The early Islamic rock inscriptions",
+    "nw-arabia-632-1517::ex3": "The Hajj-road wells and forts",
+    "nw-arabia-632-1517::ex4": "Qurḥ, the vanished market town",
+    "nw-arabia-632-1517::t1": "The geographers on the northwest",
+    "nw-arabia-632-1517::t2": "The travellers on the road",
+    "nw-arabia-632-1517::t3": "The epigraphy of the route",
+    "nw-arabia-632-1517::ec1": "The Hajj-service economy",
+    "nw-arabia-632-1517::ec2": "The shrinking oasis farmland",
+    "nw-arabia-632-1517::ec3": "The surra as the region's income",
+    "nw-arabia-632-1517::tc1": "The wells and reservoirs of the route",
+    "nw-arabia-632-1517::tc2": "The oasis irrigation, maintained",
+    "nw-arabia-632-1517::x1": "The corridor between Syria, Egypt and the Ḥaramayn",
+    "nw-arabia-632-1517::x2": "The pilgrim as a carrier of goods and news",
+    "nw-arabia-632-1517::x3": "The tribes and the two capitals",
+    "nw-arabia-632-1517::w1": "A corridor, not a country",
+    "nw-arabia-632-1517::w2": "The deep continuity of the tribe",
+    "nw-arabia-632-1517::w3": "The thread continues — the Ottoman northwest and the railway",
+    "nw-arabia-632-1517::lv1": "The pilgrims on the road",
+    "nw-arabia-632-1517::lv2": "The tribes as guides and predators",
+    "nw-arabia-632-1517::lv3": "The oasis women and the caravan slaves",
     "oman-1970-today::p1": "Qaboos bin Said — the 1970 coup and a 50-year reign",
     "oman-1970-today::p2": "Haitham bin Tariq — succession by sealed letter",
     "oman-1970-today::p3": "Said bin Taimur — the sultanate Qaboos inherited",
@@ -4644,7 +4685,8 @@
     ],
     "hejaz-632-1517::ec1": [
       "hejaz-1517-1900::ec1",
-      "najd-632-1517::ec1"
+      "najd-632-1517::ec1",
+      "nw-arabia-632-1517::x1"
     ],
     "hejaz-1517-1900::x1": [
       "hejaz-632-1517::x3"
@@ -4741,7 +4783,8 @@
       "hejaz-632-1517::t3"
     ],
     "najd-632-1517::ec1": [
-      "hejaz-632-1517::ec1"
+      "hejaz-632-1517::ec1",
+      "nw-arabia-632-1517::ec1"
     ],
     "hejaz-632-1517::x4": [
       "yemen-628-1517::x2"
@@ -4973,6 +5016,30 @@
     ],
     "nw-arabia-106-632::x4": [
       "hejaz-300bc-632::x5"
+    ],
+    "nw-arabia-632-1517::k1": [
+      "nw-arabia-106-632::w3"
+    ],
+    "nw-arabia-106-632::w3": [
+      "nw-arabia-632-1517::k1"
+    ],
+    "nw-arabia-632-1517::c1": [
+      "nw-arabia-106-632::lv1"
+    ],
+    "nw-arabia-106-632::lv1": [
+      "nw-arabia-632-1517::c1"
+    ],
+    "nw-arabia-632-1517::o2": [
+      "najd-632-1517::o2"
+    ],
+    "najd-632-1517::o2": [
+      "nw-arabia-632-1517::o2"
+    ],
+    "nw-arabia-632-1517::ec1": [
+      "najd-632-1517::ec1"
+    ],
+    "nw-arabia-632-1517::x1": [
+      "hejaz-632-1517::ec1"
     ],
     "oman-1970-today::p1": [
       "oman-gulf-1650-1820::k3"
@@ -17482,6 +17549,159 @@
       "Saudi Arabia",
       "Banū al-Naḍīr"
     ],
+    "nw-arabia-632-1517::k1": [
+      "Wādī al-Qurā",
+      "Saudi Arabia",
+      "Jews of Khaybar"
+    ],
+    "nw-arabia-632-1517::k2": [
+      "Wādī al-Qurā",
+      "Saudi Arabia",
+      "Islamic"
+    ],
+    "nw-arabia-632-1517::k3": [
+      "Banū Aṭiyya"
+    ],
+    "nw-arabia-632-1517::k4": [
+      "Dūmat al-Jandal",
+      "al-Jawf",
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::k5": [
+      "Mamluk",
+      "Damascus",
+      "Cairo",
+      "Hajj",
+      "Mamluks of Egypt"
+    ],
+    "nw-arabia-632-1517::k6": [
+      "Taymā",
+      "Khaybar",
+      "Saudi Arabia",
+      "Qur al-Mābiyāt"
+    ],
+    "nw-arabia-632-1517::c1": [
+      "Khaybar",
+      "Fadak",
+      "Saudi Arabia",
+      "Jews"
+    ],
+    "nw-arabia-632-1517::c2": [
+      "Syrian",
+      "Hajj"
+    ],
+    "nw-arabia-632-1517::o1": [
+      "Fadak",
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::o2": [
+      "Damascus",
+      "Cairo",
+      "Medina",
+      "Hajj"
+    ],
+    "nw-arabia-632-1517::o3": [
+      "Hajj"
+    ],
+    "nw-arabia-632-1517::b1": [
+      "Hegra Madāʾin",
+      "Saudi Arabia",
+      "Thamūd",
+      "Medieval Muslims"
+    ],
+    "nw-arabia-632-1517::b2": [
+      "Tabūk",
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::b3": [
+      "Taymā",
+      "Wādī al-Qurā",
+      "Saudi Arabia",
+      "Jews",
+      "Small Jewish"
+    ],
+    "nw-arabia-632-1517::ex1": [
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::ex2": [
+      "Hajj",
+      "Saudi Arabia",
+      "Islamic"
+    ],
+    "nw-arabia-632-1517::ex3": [
+      "Syrian",
+      "Arabia",
+      "Hajj-road"
+    ],
+    "nw-arabia-632-1517::ex4": [
+      "al-Mābiyāt Qur",
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::t1": [
+      "Yāqūt Muʿjam"
+    ],
+    "nw-arabia-632-1517::t2": [
+      "Tabūk",
+      "Ibn Jubayr",
+      "Ibn Baṭṭūṭa"
+    ],
+    "nw-arabia-632-1517::t3": [
+      "Hajj",
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::ec1": [
+      "Hajj",
+      "Saudi Arabia",
+      "Hajj-service"
+    ],
+    "nw-arabia-632-1517::ec2": [
+      "Taymā",
+      "Khaybar",
+      "Wādī al-Qurā",
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::tc1": [
+      "Syrian",
+      "Hajj"
+    ],
+    "nw-arabia-632-1517::tc2": [
+      "Taymā",
+      "Khaybar",
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::x1": [
+      "Hajj",
+      "Saudi Arabia",
+      "Syria",
+      "Egypt"
+    ],
+    "nw-arabia-632-1517::x2": [
+      "Tabūk",
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::x3": [
+      "Damascus",
+      "Cairo"
+    ],
+    "nw-arabia-632-1517::w1": [
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::w3": [
+      "Saudi Arabia",
+      "Ottoman",
+      "Hejaz Railway"
+    ],
+    "nw-arabia-632-1517::lv1": [
+      "Hajj",
+      "Saudi Arabia"
+    ],
+    "nw-arabia-632-1517::lv2": [
+      "Saudi Arabia",
+      "Banū Uqba"
+    ],
+    "nw-arabia-632-1517::lv3": [
+      "Saudi Arabia"
+    ],
     "oman-1970-today::p1": [
       "Al Bu Said",
       "Muscat Al Alam Palace",
@@ -28144,7 +28364,10 @@
       "nabataean-400bc-106ce::k3",
       "najd-1517-1744::x4",
       "najd-632-1517::x1",
-      "najd-632-1517::x4"
+      "najd-632-1517::x4",
+      "nw-arabia-632-1517::k5",
+      "nw-arabia-632-1517::o2",
+      "nw-arabia-632-1517::x3"
     ],
     "Sufi": [
       "al-andalus-1031-1492::r1",
@@ -28539,6 +28762,9 @@
       "najd-1744-1900::x2",
       "najd-1744-1900::lv1",
       "najd-632-1517::x4",
+      "nw-arabia-632-1517::k5",
+      "nw-arabia-632-1517::o2",
+      "nw-arabia-632-1517::x3",
       "saudi-1902-today::x3",
       "yemen-1900-today::t1",
       "yemen-1900-today::x1",
@@ -28960,6 +29186,7 @@
       "najd-632-1517::ex4",
       "najd-632-1517::ec3",
       "najd-632-1517::x3",
+      "nw-arabia-632-1517::x1",
       "oman-gulf-1650-1820::w4",
       "rome-200-300::c8",
       "rome-200-300::o2",
@@ -29450,6 +29677,8 @@
       "hejaz-1517-1900::b5",
       "najd-300bc-632::b3",
       "nw-arabia-106-632::b2",
+      "nw-arabia-632-1517::c1",
+      "nw-arabia-632-1517::b3",
       "palmyrene-100bc-273ce::o3",
       "south-arabia-300bc-628::lv2",
       "spain-718-1230::lv2"
@@ -30196,6 +30425,29 @@
       "nw-arabia-106-632::lv1",
       "nw-arabia-106-632::lv2",
       "nw-arabia-106-632::lv3",
+      "nw-arabia-632-1517::k1",
+      "nw-arabia-632-1517::k2",
+      "nw-arabia-632-1517::k4",
+      "nw-arabia-632-1517::k6",
+      "nw-arabia-632-1517::c1",
+      "nw-arabia-632-1517::o1",
+      "nw-arabia-632-1517::b1",
+      "nw-arabia-632-1517::b2",
+      "nw-arabia-632-1517::b3",
+      "nw-arabia-632-1517::ex1",
+      "nw-arabia-632-1517::ex2",
+      "nw-arabia-632-1517::ex4",
+      "nw-arabia-632-1517::t3",
+      "nw-arabia-632-1517::ec1",
+      "nw-arabia-632-1517::ec2",
+      "nw-arabia-632-1517::tc2",
+      "nw-arabia-632-1517::x1",
+      "nw-arabia-632-1517::x2",
+      "nw-arabia-632-1517::w1",
+      "nw-arabia-632-1517::w3",
+      "nw-arabia-632-1517::lv1",
+      "nw-arabia-632-1517::lv2",
+      "nw-arabia-632-1517::lv3",
       "oman-1970-today::x5",
       "saudi-1902-today::k1",
       "saudi-1902-today::k2",
@@ -30618,6 +30870,7 @@
       "najd-632-1517::c1",
       "najd-632-1517::b1",
       "nw-arabia-106-632::tc1",
+      "nw-arabia-632-1517::ex3",
       "palmyrene-100bc-273ce::c3",
       "sassanid-484-651::w1",
       "sassanid-484-651::lv3",
@@ -30874,6 +31127,7 @@
     "Mamluk": [
       "ayyubids-1171-1250::k7",
       "hejaz-632-1517::k8",
+      "nw-arabia-632-1517::k5",
       "yemen-628-1517::k17",
       "yemen-628-1517::c6",
       "yemen-628-1517::x2"
@@ -30974,6 +31228,7 @@
       "najd-1517-1744::ec2",
       "najd-300bc-632::k6",
       "najd-632-1517::ec3",
+      "nw-arabia-632-1517::x1",
       "palmyrene-100bc-273ce::k1",
       "palmyrene-100bc-273ce::c3",
       "palmyrene-100bc-273ce::c5",
@@ -31893,6 +32148,9 @@
       "lakhmid-268-602::w1",
       "mamluks-1250-1517::w2",
       "najd-300bc-632::x2",
+      "nw-arabia-632-1517::c2",
+      "nw-arabia-632-1517::ex3",
+      "nw-arabia-632-1517::tc1",
       "tylos-mleiha-300bc-300ad::w3"
     ],
     "Outremer": [
@@ -33094,6 +33352,7 @@
       "nw-arabia-106-632::t2",
       "nw-arabia-106-632::x4",
       "nw-arabia-106-632::lv3",
+      "nw-arabia-632-1517::o2",
       "oman-gulf-1650-1820::b5",
       "sassanid-484-651::lv2",
       "saudi-1902-today::c3"
@@ -33606,6 +33865,8 @@
       "lakhmid-268-602::w5",
       "mamluks-1250-1517::t4",
       "nw-arabia-106-632::k8",
+      "nw-arabia-632-1517::k2",
+      "nw-arabia-632-1517::ex2",
       "sassanid-484-651::w2",
       "sassanid-484-651::w3",
       "sassanid-484-651::lv2"
@@ -34221,6 +34482,16 @@
       "najd-632-1517::b5",
       "najd-632-1517::ec1",
       "najd-632-1517::tc2",
+      "nw-arabia-632-1517::k5",
+      "nw-arabia-632-1517::c2",
+      "nw-arabia-632-1517::o2",
+      "nw-arabia-632-1517::o3",
+      "nw-arabia-632-1517::ex2",
+      "nw-arabia-632-1517::t3",
+      "nw-arabia-632-1517::ec1",
+      "nw-arabia-632-1517::tc1",
+      "nw-arabia-632-1517::x1",
+      "nw-arabia-632-1517::lv1",
       "saudi-1902-today::ec1"
     ],
     "Hamdanids of Mosul": [
@@ -35067,7 +35338,11 @@
       "nw-arabia-106-632::b2",
       "nw-arabia-106-632::ec2",
       "nw-arabia-106-632::x3",
-      "nw-arabia-106-632::w2"
+      "nw-arabia-106-632::w2",
+      "nw-arabia-632-1517::k6",
+      "nw-arabia-632-1517::b3",
+      "nw-arabia-632-1517::ec2",
+      "nw-arabia-632-1517::tc2"
     ],
     "Tabuk Province": [
       "dedan-tayma-1200bc-300bc::k1",
@@ -35169,7 +35444,8 @@
       "hejaz-1517-1900::k7",
       "nw-arabia-106-632::k6",
       "nw-arabia-106-632::c4",
-      "nw-arabia-106-632::o4"
+      "nw-arabia-106-632::o4",
+      "nw-arabia-632-1517::k4"
     ],
     "al-Jawf": [
       "dedan-tayma-1200bc-300bc::k7",
@@ -35180,7 +35456,8 @@
       "najd-1200bc-300bc::b3",
       "nw-arabia-106-632::k6",
       "nw-arabia-106-632::c4",
-      "nw-arabia-106-632::o4"
+      "nw-arabia-106-632::o4",
+      "nw-arabia-632-1517::k4"
     ],
     "Sennacherib": [
       "dedan-tayma-1200bc-300bc::c1",
@@ -35236,7 +35513,11 @@
       "nw-arabia-106-632::ec2",
       "nw-arabia-106-632::tc2",
       "nw-arabia-106-632::x3",
-      "nw-arabia-106-632::lv3"
+      "nw-arabia-106-632::lv3",
+      "nw-arabia-632-1517::k6",
+      "nw-arabia-632-1517::c1",
+      "nw-arabia-632-1517::ec2",
+      "nw-arabia-632-1517::tc2"
     ],
     "Jabal Ikmah": [
       "dedan-tayma-1200bc-300bc::o1",
@@ -35258,7 +35539,11 @@
       "dedan-tayma-1200bc-300bc::b4",
       "hejaz-300bc-632::b3",
       "nw-arabia-106-632::k7",
-      "nw-arabia-106-632::b2"
+      "nw-arabia-106-632::b2",
+      "nw-arabia-632-1517::k1",
+      "nw-arabia-632-1517::k2",
+      "nw-arabia-632-1517::b3",
+      "nw-arabia-632-1517::ec2"
     ],
     "Jews of Yathrib": [
       "dedan-tayma-1200bc-300bc::b4"
@@ -35389,7 +35674,8 @@
       "nw-arabia-106-632::k1",
       "nw-arabia-106-632::k2",
       "nw-arabia-106-632::ex1",
-      "nw-arabia-106-632::lv2"
+      "nw-arabia-106-632::lv2",
+      "nw-arabia-632-1517::b1"
     ],
     "Nabataean": [
       "dedan-tayma-1200bc-300bc::x4",
@@ -40694,6 +40980,7 @@
       "najd-1517-1744::k5",
       "najd-1744-1900::x1",
       "najd-1744-1900::w2",
+      "nw-arabia-632-1517::w3",
       "portuguese-gulf-1507-1650::c2",
       "portuguese-gulf-1507-1650::c3",
       "portuguese-gulf-1507-1650::o3",
@@ -40824,7 +41111,10 @@
       "hejaz-1517-1900::tc1",
       "hejaz-1517-1900::x5",
       "nw-arabia-106-632::k8",
-      "nw-arabia-106-632::c3"
+      "nw-arabia-106-632::c3",
+      "nw-arabia-632-1517::b2",
+      "nw-arabia-632-1517::t2",
+      "nw-arabia-632-1517::x2"
     ],
     "Syrian Hajj": [
       "hejaz-1517-1900::k7"
@@ -40834,7 +41124,8 @@
       "hejaz-1517-1900::ex3"
     ],
     "Hajj-road": [
-      "hejaz-1517-1900::k8"
+      "hejaz-1517-1900::k8",
+      "nw-arabia-632-1517::ex3"
     ],
     "Dhawū Zayd–Dhawū Barakāt": [
       "hejaz-1517-1900::c1"
@@ -40988,7 +41279,8 @@
       "hejaz-1900-1925::ex1",
       "hejaz-1900-1925::tc1",
       "hejaz-1900-1925::tc2",
-      "hejaz-632-1517::w4"
+      "hejaz-632-1517::w4",
+      "nw-arabia-632-1517::w3"
     ],
     "Meccan": [
       "hejaz-1517-1900::x4",
@@ -41443,7 +41735,8 @@
       "hejaz-632-1517::c2"
     ],
     "Ibn Jubayr": [
-      "hejaz-632-1517::c5"
+      "hejaz-632-1517::c5",
+      "nw-arabia-632-1517::t2"
     ],
     "Sunna": [
       "hejaz-632-1517::o1",
@@ -41493,7 +41786,8 @@
       "hejaz-632-1517::t1"
     ],
     "Ibn Baṭṭūṭa": [
-      "hejaz-632-1517::t2"
+      "hejaz-632-1517::t2",
+      "nw-arabia-632-1517::t2"
     ],
     "Andalusian Ibn Jubayr Riḥla": [
       "hejaz-632-1517::t2"
@@ -44781,6 +45075,7 @@
     ],
     "Mamluks of Egypt": [
       "najd-632-1517::k7",
+      "nw-arabia-632-1517::k5",
       "yemen-628-1517::c5"
     ],
     "Faḍl of the Syrian": [
@@ -44876,7 +45171,9 @@
       "nw-arabia-106-632::k7",
       "nw-arabia-106-632::o2",
       "nw-arabia-106-632::b2",
-      "nw-arabia-106-632::ec2"
+      "nw-arabia-106-632::ec2",
+      "nw-arabia-632-1517::c1",
+      "nw-arabia-632-1517::o1"
     ],
     "Ukaydir of Dūmah": [
       "nw-arabia-106-632::k8"
@@ -44896,7 +45193,8 @@
     ],
     "Jews of Khaybar": [
       "nw-arabia-106-632::o3",
-      "nw-arabia-106-632::lv1"
+      "nw-arabia-106-632::lv1",
+      "nw-arabia-632-1517::k1"
     ],
     "Christian Kalb of Dūmah": [
       "nw-arabia-106-632::b1"
@@ -44927,6 +45225,33 @@
     ],
     "Banū al-Naḍīr": [
       "nw-arabia-106-632::lv3"
+    ],
+    "Banū Aṭiyya": [
+      "nw-arabia-632-1517::k3"
+    ],
+    "Qur al-Mābiyāt": [
+      "nw-arabia-632-1517::k6"
+    ],
+    "Thamūd": [
+      "nw-arabia-632-1517::b1"
+    ],
+    "Medieval Muslims": [
+      "nw-arabia-632-1517::b1"
+    ],
+    "Small Jewish": [
+      "nw-arabia-632-1517::b3"
+    ],
+    "al-Mābiyāt Qur": [
+      "nw-arabia-632-1517::ex4"
+    ],
+    "Yāqūt Muʿjam": [
+      "nw-arabia-632-1517::t1"
+    ],
+    "Hajj-service": [
+      "nw-arabia-632-1517::ec1"
+    ],
+    "Banū Uqba": [
+      "nw-arabia-632-1517::lv2"
     ],
     "Al Bu Said": [
       "oman-1970-today::p1",
