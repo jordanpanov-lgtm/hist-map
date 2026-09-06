@@ -75,7 +75,8 @@ const MODULES = [
   { id:"saudi-1902-today", file:"modules/saudi-1902-today.json", label:"The Kingdom of Saudi Arabia 1902–today", sub:"Ibn Saud's Conquest, the Oil State, the Turn of 1979 and the MBS Transformation", region:"Arabia", period:"Modern" },
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
-  { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },
+  { id:"dilmun-3000bc-1200bc",   file:"modules/dilmun-3000bc-1200bc.json",   label:"Dilmun 3000–1200 BC",           sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },
+  { id:"dilmun-1200bc-600bc",    file:"modules/dilmun-1200bc-600bc.json",    label:"Late Dilmun 1200–600 BC",       sub:"The Tributary Kingdom in the Shadow of Assyria",  region:"Arabia", period:"Ancient" },
   { id:"magan-3000bc-300bc",     file:"modules/magan-3000bc-300bc.json",     label:"Magan & the Oman Peninsula 3000–300 BC", sub:"Copper Land, the Falaj Revolution and the Camel", region:"Arabia", period:"Ancient" },
   { id:"tylos-mleiha-300bc-300ad", file:"modules/tylos-mleiha-300bc-300ad.json", label:"The Hellenistic & Parthian Gulf 300 BC–300 AD", sub:"Tylos, Mleiha and Gerrha — Greek Coins and the India Route", region:"Arabia", period:"Late Antique" },
   { id:"beth-qatraye-240-750",   file:"modules/beth-qatraye-240-750.json",   label:"Late Antique Eastern Arabia 240–750", sub:"Sasanian Mazun, the Church of Beth Qatraye and the Coming of Islam", region:"Arabia", period:"Late Antique" },
