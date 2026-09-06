@@ -1,0 +1,843 @@
+{
+  "nodes": [
+    {
+      "id": "ext1",
+      "lane": "external",
+      "year": 700,
+      "label": "The caliphate (Damascus and Baghdad)",
+      "full": "The Umayyad and Abbasid state, ruling from outside the Hejaz: it took the capital away in 661, patronised the two mosques and the pilgrim road, and crushed the ʿAlid risings in the Prophet's own city.",
+      "src": "background — Hugh Kennedy, 'The Prophet and the Age of the Caliphates' (2004).",
+      "external": true
+    },
+    {
+      "id": "ext2",
+      "lane": "external",
+      "year": 1100,
+      "label": "Egypt (Fatimid, Ayyubid, Mamluk)",
+      "full": "The power that held Egypt and, with it, the claim to the Ḥaramayn: it sent the kiswa and the grain, appointed and deposed the sharif, and made the guardianship of Mecca and Medina the core of its legitimacy.",
+      "src": "background — John Meloy, 'Imperial Power and Maritime Trade' (2010).",
+      "external": true
+    },
+    {
+      "id": "ext3",
+      "lane": "external",
+      "year": 930,
+      "label": "The Qarmatians",
+      "full": "The Ismaili state of al-Aḥsāʾ: it sacked Mecca during the Hajj of 930 and carried off the Black Stone for twenty-two years.",
+      "src": "background — Madelung, 'The Fatimids and the Qarmatis of Bahrain'.",
+      "external": true
+    },
+    {
+      "id": "ext4",
+      "lane": "external",
+      "year": 1300,
+      "label": "Rasulid Yemen",
+      "full": "The sultanate that competed with Cairo for influence over the pilgrimage — sending grain, the kiswa and resident agents to Mecca and occasionally clashing with the Egyptians there.",
+      "src": "background — Vallet, 'L'Arabie marchande' (2010).",
+      "external": true
+    },
+    {
+      "id": "ext5",
+      "lane": "external",
+      "year": 900,
+      "label": "The endowments and pilgrims of the umma",
+      "full": "The whole Muslim world as a support system: the waqf revenues dedicated to the Ḥaramayn from Egypt to India, the resident scholars, and the hundreds of thousands who came each year.",
+      "src": "background — the awqāf al-Ḥaramayn literature.",
+      "external": true
+    },
+    {
+      "id": "k1",
+      "lane": "power",
+      "year": 633,
+      "label": "Medina, the first caliphal capital",
+      "full": "The Rāshidūn caliphs ruled the new empire from Medina. The murder of ʿUthmān there in 656 opened the First Fitna, and Muʿāwiya's move to Damascus in 661 ended the Hejaz's political centrality for good.",
+      "src": "al-Ṭabarī; Wilferd Madelung, 'The Succession to Muḥammad' (1997)."
+    },
+    {
+      "id": "k2",
+      "lane": "power",
+      "year": 680,
+      "label": "The Umayyad Hejaz — exile and learning",
+      "full": "Stripped of power, the two cities became a place of internal exile for the disaffected Quraysh, a centre of religious scholarship, and the home of a leisured, musical, poetic elite — the golden age of Arab song and the urbane ghazal.",
+      "src": "Abū al-Faraj al-Iṣfahānī, Kitāb al-Aghānī; G. H. A. Juynboll on the early Ḥijazi scholars."
+    },
+    {
+      "id": "k3",
+      "lane": "power",
+      "year": 685,
+      "label": "The counter-caliphate of Ibn al-Zubayr",
+      "full": "ʿAbd Allāh ibn al-Zubayr declared himself caliph at Mecca and held the Hejaz and much of the east for nine years. The Umayyads besieged Mecca twice, burning and damaging the Kaʿba, sacked Medina at al-Ḥarra, and finally killed him.",
+      "src": "al-Ṭabarī; the two sieges of Mecca (683, 692) and the Kaʿba's rebuilding by Ibn al-Zubayr and then al-Ḥajjāj."
+    },
+    {
+      "id": "k4",
+      "lane": "power",
+      "year": 800,
+      "label": "The Abbasid Ḥaramayn",
+      "full": "The Abbasid caliphs patronised the two holy cities lavishly — mosque expansions, the Darb Zubayda pilgrim road, Zubayda's aqueduct to Mecca — while crushing repeated ʿAlid revolts in the Hejaz.",
+      "src": "al-Azraqī, Akhbār Makka; the Darb Zubayda inscriptions; the risings of 762 (Medina) and 786 (Fakhkh)."
+    },
+    {
+      "id": "k5",
+      "lane": "power",
+      "year": 1000,
+      "label": "The rise of the sharifs",
+      "full": "As Abbasid power collapsed, local families claiming descent from the Prophet took control — the Ḥasanid sharifs at Mecca, the Ḥusaynid sharifs at Medina — beginning a form of rule by the Prophet's kin that would last a thousand years.",
+      "src": "al-Fāsī, Shifāʾ al-gharām bi-akhbār al-balad al-ḥarām; Richard Mortel on the early sharifate."
+    },
+    {
+      "id": "k6",
+      "lane": "power",
+      "year": 1050,
+      "label": "Between Cairo and Baghdad",
+      "full": "The Fatimids of Cairo claimed the Hejaz and the Friday sermon was often said in their name, but the sharifs played the Fatimids, the Abbasids, the Sulayhids of Yemen and whoever would pay against one another.",
+      "src": "al-Fāsī; the alternation of the khuṭba between the Fatimid and Abbasid caliphs at Mecca."
+    },
+    {
+      "id": "k7",
+      "lane": "power",
+      "year": 1300,
+      "label": "The Qatāda dynasty",
+      "full": "Qatāda ibn Idrīs, a Ḥasanid chief, seized Mecca and founded the sharifian dynasty that ruled it — through endless internal quarrels but with no dynastic break — until 1925.",
+      "src": "al-Fāsī; the Qatādid genealogies; the long list of sharifs Abū Numayy I and II, Ḥasan, Barakāt."
+    },
+    {
+      "id": "k8",
+      "lane": "power",
+      "year": 1350,
+      "label": "The Mamluk overlordship",
+      "full": "The Mamluk sultans of Egypt became the effective masters of the two holy cities — appointing and deposing the sharif, sending the annual Egyptian Hajj caravan with the kiswa and the ceremonial litter, and feeding the Hejaz with Egyptian grain.",
+      "src": "al-Maqrīzī; John Meloy, 'Imperial Power and Maritime Trade: Mecca and Cairo in the Later Middle Ages' (2010)."
+    },
+    {
+      "id": "k9",
+      "lane": "power",
+      "year": 1300,
+      "label": "The Cairo caliphate and the guardianship",
+      "full": "After the Mongols killed the last Abbasid caliph of Baghdad in 1258, the Mamluks installed a shadow Abbasid line in Cairo. The sultan's guardianship of Mecca and Medina became the main basis of his claim to leadership of the Sunni world.",
+      "src": "al-Maqrīzī; P. M. Holt, 'The Cairo Caliphate' (1984)."
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": 660,
+      "label": "The Fitnas in the Hejaz",
+      "full": "The murder of ʿUthmān and the Battle of the Camel (656), the sack of Medina at al-Ḥarra (683), the two Umayyad sieges of Mecca and the burning of the Kaʿba — the civil wars that decided the empire were partly fought in and over the holy cities.",
+      "src": "al-Ṭabarī; al-Balādhurī; the sieges of Mecca in the Umayyad accounts."
+    },
+    {
+      "id": "c2",
+      "lane": "conflict",
+      "year": 762,
+      "label": "The ʿAlid revolts",
+      "full": "The risings of Zayd ibn ʿAlī, Muḥammad al-Nafs al-Zakiyya at Medina in 762 and Ḥusayn ibn ʿAlī at Fakhkh in 786 — the Prophet's family repeatedly rebelling against the caliphs who claimed to protect his city, and repeatedly crushed.",
+      "src": "al-Ṭabarī; Abū al-Faraj al-Iṣfahānī, Maqātil al-Ṭālibiyyīn."
+    },
+    {
+      "id": "c3",
+      "lane": "conflict",
+      "year": 930,
+      "label": "The sack of Mecca and the Black Stone",
+      "full": "A Qarmatian raiding force stormed Mecca during the Hajj, killed the pilgrims, filled the well of Zamzam with corpses, and carried off the Black Stone. It was held at al-Aḥsāʾ for twenty-two years before being returned in 951.",
+      "src": "Ibn al-Athīr; al-Masʿūdī; Wilferd Madelung, 'The Fatimids and the Qarmatis of Bahrain'."
+    },
+    {
+      "id": "c4",
+      "lane": "conflict",
+      "year": 1150,
+      "label": "The wars of the sharifs",
+      "full": "The endless quarrels within and between the sharifian families — brothers, uncles and cousins fighting for Mecca and Medina, each faction backed by a different outside power — a chronic low-level war under every overlord.",
+      "src": "al-Fāsī; Mortel and Meloy on the sharifian successions."
+    },
+    {
+      "id": "c5",
+      "lane": "conflict",
+      "year": 1183,
+      "label": "The pilgrims as prey",
+      "full": "Bedouin raids on the caravans, and the sharifs' irregular tolls on arriving pilgrims — the 'customs' at Jeddah and Mecca's gates that Ibn Jubayr condemned as extortion — made the pilgrimage dangerous and costly, and drew periodic crackdowns from Cairo.",
+      "src": "Ibn Jubayr, Riḥla (1183–85), on the tolls; the Mamluk decrees against the pilgrim levies."
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 700,
+      "label": "Medina, the abode of the Sunna",
+      "full": "ʿUmar's administrative decisions and the pension register, and above all the legal practice of Medina — the ʿamal ahl al-Madīna, 'the practice of the people of Medina', which Mālik ibn Anas codified as a source of law in its own right.",
+      "src": "Mālik ibn Anas, al-Muwaṭṭaʾ; Yasin Dutton, 'The Origins of Islamic Law' (1999)."
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 1100,
+      "label": "The four schools at the Kaʿba",
+      "full": "By the medieval period each of the four Sunni law schools had its own prayer station around the Kaʿba and led its followers in separate congregations — a formalised legal pluralism at the physical centre of the religion.",
+      "src": "al-Fāsī on the four maqāms; the later Ottoman regularisation of the arrangement."
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 1050,
+      "label": "The kiswa, the maḥmal and the sovereignty of the Hajj",
+      "full": "Shipping the Kaʿba's covering and the ceremonial litter from Cairo each year, and reading the overlord's name in the Friday sermon at Mecca, were how a distant ruler asserted sovereignty over the Ḥaramayn without keeping a garrison there.",
+      "src": "Jacques Jomier, 'Le Maḥmal et la caravane égyptienne des pèlerins de La Mecque' (1953)."
+    },
+    {
+      "id": "o4",
+      "lane": "order",
+      "year": 1100,
+      "label": "The grain of Egypt and the survival of the Hejaz",
+      "full": "The Hejaz could not feed itself. The Fatimid, Mamluk and Rasulid states shipped grain to the two cities, above all in famine years, as an act of rule and of piety — and the Hejaz's politics turned on who controlled that supply.",
+      "src": "al-Maqrīzī on the grain shipments; Meloy (2010); the Rasulid administrative texts on the Yemen grain."
+    },
+    {
+      "id": "o5",
+      "lane": "order",
+      "year": 950,
+      "label": "The waqf endowments of the Ḥaramayn",
+      "full": "Charitable endowments in Egypt, Syria, India and North Africa dedicated their revenues to the two mosques, the poor of the holy cities, and the resident scholars. The Ḥaramayn lived on the piety of the whole umma, not on the Hejaz.",
+      "src": "the awqāf al-Ḥaramayn records in the later Ottoman archives, with medieval roots; Miriam Hoexter on Ḥaramayn endowments."
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": 720,
+      "label": "The Ḥijazi ḥadīth and the making of the Sunna",
+      "full": "The two cities were the primary sites of the collection and transmission of the Prophet's sayings and practice in the first two centuries — the raw material from which the Sunni tradition built its law and its account of the origins.",
+      "src": "Juynboll, 'Muslim Tradition' (1983); Gregor Schoeler on the early transmission."
+    },
+    {
+      "id": "b2",
+      "lane": "belief",
+      "year": 770,
+      "label": "Mālik ibn Anas and the Mālikī school",
+      "full": "The Medinan jurist whose Muwaṭṭaʾ organised law around the living practice of Medina. His school became dominant in North Africa and Muslim Spain, carrying a piece of the medieval Hejaz across the whole western Muslim world.",
+      "src": "Mālik, al-Muwaṭṭaʾ; the spread of Mālikism traced in Nico Brubaker and others."
+    },
+    {
+      "id": "b3",
+      "lane": "belief",
+      "year": 850,
+      "label": "The cult of the Prophet's tomb",
+      "full": "The mosque at Medina grew around the Prophet's grave, and visiting it became, for most Muslims, an all-but-obligatory complement to the Hajj — a devotion codified in whole books of etiquette, and one the later Wahhābī movement would attack as excessive.",
+      "src": "al-Samhūdī, Wafāʾ al-wafāʾ bi-akhbār dār al-Muṣṭafā; the ziyāra literature."
+    },
+    {
+      "id": "b4",
+      "lane": "belief",
+      "year": 1150,
+      "label": "Sufism at the Ḥaramayn",
+      "full": "The ribāṭs of Mecca housed poor pilgrims and Sufi devotees; Meccan and Medinan teachers and the orders made the two cities a node of their networks. For many, the pilgrimage was a Sufi circuit as much as a legal obligation.",
+      "src": "al-Fāsī on the Meccan ribāṭs; Ralph Kauz and others on the Ḥaramayn Sufi networks."
+    },
+    {
+      "id": "b5",
+      "lane": "belief",
+      "year": 1050,
+      "label": "The sharifs, the ʿAlids and Shiʿism in the Hejaz",
+      "full": "The sharifian families were of the Prophet's line and often Zaydī or moderate Shiʿi in sympathy while remaining pragmatic. A Shiʿi community, the Nakhāwila, lived at Medina, and the tension between ʿAlid loyalism and Sunni overlordship ran through the whole period.",
+      "src": "Werner Ende, 'The Nakhāwila, a Shiite Community in Medina'; Mortel on the sharifs' religious identity."
+    },
+    {
+      "id": "ex1",
+      "lane": "expression",
+      "year": 685,
+      "label": "The rebuildings of the Kaʿba",
+      "full": "Ibn al-Zubayr rebuilt the Kaʿba after the fire of 683, taking in the Ḥijr and giving it two doors; al-Ḥajjāj then rebuilt it to the form it kept for nine centuries. The shrine's shape was settled by the civil wars.",
+      "src": "al-Azraqī, Akhbār Makka; the architectural history of the Kaʿba in the Ottoman and modern rebuildings."
+    },
+    {
+      "id": "ex2",
+      "lane": "expression",
+      "year": 720,
+      "label": "The expansions of the two mosques",
+      "full": "The Umayyad rebuilding of the Prophet's Mosque under al-Walīd I, with Byzantine mosaicists; the Abbasid enlargements of the Meccan sanctuary; the Mamluk additions, including Qāytbāy's madrasa of 1477 — the Ḥaramayn as an unbroken imperial building programme.",
+      "src": "K. A. C. Creswell, 'Early Muslim Architecture' (1969); the Meccan and Medinan mosque histories."
+    },
+    {
+      "id": "ex3",
+      "lane": "expression",
+      "year": 810,
+      "label": "ʿAyn Zubayda and the Meccan waterworks",
+      "full": "Zubayda, the wife of Hārūn al-Rashīd, built an aqueduct bringing mountain water tens of kilometres to Mecca and the pilgrimage plain of ʿArafāt. Maintained and re-cut for a thousand years, it is the largest engineering work ever undertaken for the pilgrimage.",
+      "src": "the ʿAyn Zubayda channels; Saʿad al-Rashid and the Saudi surveys of the Meccan water system."
+    },
+    {
+      "id": "ex4",
+      "lane": "expression",
+      "year": 700,
+      "label": "The golden age of Ḥijazi song",
+      "full": "The Umayyad-era musicians of the two cities — Ṭuways, Ibn Surayj, Maʿbad, and the singing-girls — created classical Arab music, and the Kitāb al-Aghānī, the great anthology of Arabic song, is built around their Ḥijazi repertoire.",
+      "src": "Abū al-Faraj al-Iṣfahānī, Kitāb al-Aghānī; Henry George Farmer, 'A History of Arabian Music' (1929)."
+    },
+    {
+      "id": "ex5",
+      "lane": "expression",
+      "year": 680,
+      "label": "ʿUmar ibn Abī Rabīʿa and the Meccan ghazal",
+      "full": "The Meccan aristocrat-poet whose love poetry, set among the women pilgrims circling the Kaʿba, is the classic of the urbane Ḥijazi ghazal — a worldly, faintly scandalous counterpoint to the holy city that produced it.",
+      "src": "the Dīwān of ʿUmar ibn Abī Rabīʿa; the Aghānī entries on him; Renate Jacobi on the Ḥijazi ghazal."
+    },
+    {
+      "id": "t1",
+      "lane": "thought",
+      "year": 900,
+      "label": "The historians of Mecca and Medina",
+      "full": "Al-Azraqī's 9th-century Akhbār Makka and its continuators, al-Samhūdī's Wafāʾ al-wafāʾ for Medina, and al-Fāsī's history of Mecca — a continuous local historiography of the two cities, their buildings, their floods and their scholars.",
+      "src": "al-Azraqī; al-Fāsī, Shifāʾ al-gharām; al-Samhūdī, Wafāʾ al-wafāʾ."
+    },
+    {
+      "id": "t2",
+      "lane": "thought",
+      "year": 1184,
+      "label": "Ibn Jubayr and Ibn Baṭṭūṭa",
+      "full": "The Andalusian Ibn Jubayr's Riḥla of 1183–85, the classic eyewitness of the medieval Hejaz and a sharp critic of how the sharifs treated pilgrims, and Ibn Baṭṭūṭa's several Hajj visits a century and a half later.",
+      "src": "Ibn Jubayr, Riḥla (tr. Broadhurst); Ibn Baṭṭūṭa, Riḥla."
+    },
+    {
+      "id": "t3",
+      "lane": "thought",
+      "year": 950,
+      "label": "The manāsik and the law of the Hajj",
+      "full": "The vast literature — school by school — setting out exactly how the pilgrimage must be performed, what invalidates it and what expiates a fault, produced by the ʿulamāʾ of the Ḥaramayn for the hundreds of thousands who came each year.",
+      "src": "the manāsik al-Hajj literature of all four schools; the fiqh chapters on the pilgrimage."
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 720,
+      "label": "The Hajj caravans and the sea route",
+      "full": "The four great overland caravans — Egyptian, Syrian, Iraqi and Yemeni — and the Red Sea route through Jeddah brought the Hejaz its people, its money, its news and most of its trade goods once a year.",
+      "src": "F. E. Peters, 'The Hajj' (1994); the caravan literature."
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 800,
+      "label": "Jeddah, the port of Mecca",
+      "full": "The harbour handled the sea pilgrims and the Indian Ocean trade transhipped for Egypt. Its customs were a major revenue for the sharif and, in the 15th century, a Mamluk monopoly, and the Kārimī spice merchants ran their cargoes through it.",
+      "src": "John Meloy, 'Imperial Power and Maritime Trade' (2010); the Jeddah customs disputes between the sharifs and Cairo."
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 720,
+      "label": "The dependent economy of the holy cities",
+      "full": "Mecca had no farmland and Medina little. The two cities lived on the caravans, the endowment revenues, the caliphs' and sultans' charity, and the spending of the pilgrims and the resident mujāwirūn — an economy of piety, not production.",
+      "src": "Ibn Jubayr; al-Fāsī; the general accounts of the Ḥaramayn economy."
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 850,
+      "label": "Famine and the imported grain",
+      "full": "Recurrent famines — years when the price of bread put the poor of Mecca at risk of death — were broken only by grain fleets from Egypt or Yemen. The Hejaz's food security was always in someone else's hands, and its politics reflected that.",
+      "src": "al-Fāsī and al-Maqrīzī on the Meccan famine years."
+    },
+    {
+      "id": "tc1",
+      "lane": "technology",
+      "year": 810,
+      "label": "The Zubayda aqueduct system",
+      "full": "Covered channels, tunnels and settling tanks carried mountain water tens of kilometres to Mecca and the pilgrimage stations. Repaired and re-cut across a millennium, it is the only large hydraulic system the Hejaz ever built.",
+      "src": "the ʿAyn Zubayda works; the Saudi engineering surveys of the system."
+    },
+    {
+      "id": "tc2",
+      "lane": "technology",
+      "year": 750,
+      "label": "The ships and pilotage of the Hajj sea route",
+      "full": "The sewn and nailed dhows of the Red Sea pilgrim traffic, the difficult reef-fringed approach to Jeddah, and the pilot knowledge of the winds and the coral that made the sea route a real alternative to the desert caravans.",
+      "src": "the Red Sea navigation literature; the Kārimī shipping records; George Hourani, 'Arab Seafaring' (1951)."
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": 850,
+      "label": "The Hejaz as the meeting point of the umma",
+      "full": "Every year the Hajj brought Muslims from West Africa to India to the same few square kilometres — a mechanism for the exchange of scholarship, books, goods, news, disease and ideas unmatched anywhere in the pre-modern world.",
+      "src": "Peters, 'The Hajj' (1994); the studies of the Hajj as an information network."
+    },
+    {
+      "id": "x2",
+      "lane": "exchange",
+      "year": 1050,
+      "label": "The sharifs' foreign policy",
+      "full": "A small local dynasty with the most prestigious address in Islam played the great powers — Fatimid Cairo, Abbasid Baghdad, Sulayhid and Rasulid Yemen, Ayyubid and Mamluk Egypt — recognising whoever paid best and switching when the balance shifted.",
+      "src": "Mortel and Meloy on sharifian diplomacy; the alternating khuṭba."
+    },
+    {
+      "id": "x3",
+      "lane": "exchange",
+      "year": 1000,
+      "label": "Egypt and the guardianship",
+      "full": "Control of Egypt carried with it the claim to the Ḥaramayn. The Fatimids, the Ayyubids, the Mamluks and finally the Ottomans each in turn made the guardianship of Mecca and Medina central to their legitimacy as Muslim rulers.",
+      "src": "Meloy (2010); Holt on the Cairo caliphate and the guardianship."
+    },
+    {
+      "id": "x4",
+      "lane": "exchange",
+      "year": 1320,
+      "label": "Rasulid Yemen and the Ḥaramayn",
+      "full": "The Rasulid sultans of Yemen sent grain and the kiswa and stationed agents at Mecca, competing with Cairo for influence over the pilgrimage and occasionally clashing with the Egyptians there during the Hajj.",
+      "src": "Éric Vallet, 'L'Arabie marchande' (2010); the Rasulid–Mamluk rivalry over Mecca."
+    },
+    {
+      "id": "x5",
+      "lane": "exchange",
+      "year": 900,
+      "label": "The mujāwirūn and the scholarly diaspora",
+      "full": "Scholars from across the Muslim world settled at the two cities to study, teach and die near the sanctuaries. These 'neighbours' of God turned the Ḥaramayn into an international university that any pilgrim could sample for a season.",
+      "src": "the ṭabaqāt of the Ḥaramayn scholars; Michael Bonner and others on the mujāwara."
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 680,
+      "label": "The sacred centre and the political periphery",
+      "full": "Within thirty years of the Prophet's death the Hejaz went from the capital of the empire to a poor, dependent backwater whose only asset was its holiness — a reversal that defined the region for the next thirteen centuries.",
+      "src": "the standard narrative of the Umayyad shift to Damascus; Hugh Kennedy, 'The Prophet and the Age of the Caliphates' (2004)."
+    },
+    {
+      "id": "w2",
+      "lane": "world",
+      "year": 1000,
+      "label": "Whoever holds Egypt holds the Ḥaramayn",
+      "full": "The pattern set in this period — the master of Egypt is the guardian of Mecca and Medina, and that guardianship is the surest claim to leadership of the Sunni world — held under the Fatimids, the Ayyubids, the Mamluks, the Ottomans and, in a sense, still.",
+      "src": "Holt, 'The Cairo Caliphate' (1984); Meloy (2010)."
+    },
+    {
+      "id": "w3",
+      "lane": "world",
+      "year": 1250,
+      "label": "The thousand-year sharifate",
+      "full": "The sharifian dynasty founded by Qatāda survived under a succession of overlords who could depose an individual sharif but never the family, ruling Mecca until 1925 — one of the longest-lasting dynasties in Islamic history, and one of the least powerful.",
+      "src": "the sharifian king-lists; Joshua Teitelbaum, 'The Rise and Fall of the Hashimite Kingdom of Arabia' (2001), on the dynasty's endurance."
+    },
+    {
+      "id": "w4",
+      "lane": "world",
+      "year": 1517,
+      "label": "The thread continues — the Ottoman Hejaz and the Hashemites",
+      "full": "The folio ends in 1517, when the Ottomans took Egypt and with it the guardianship of the Ḥaramayn. Four centuries of Ottoman overlordship, the Hejaz Railway, the Arab Revolt and the short-lived Hashemite kingdom are the next folio.",
+      "src": "a forward reference: hejaz-1517-1900 (the Ottoman Hejaz and the northwest oases) is planned but not yet built."
+    },
+    {
+      "id": "lv1",
+      "lane": "lives",
+      "year": 710,
+      "label": "The singing-girls and the music scene",
+      "full": "The qiyān — trained, often enslaved, singers — were the performers and sometimes the composers of the Umayyad-era music of the two cities, moving between the salons of the Hejaz and the courts of Damascus and Baghdad, and worth fortunes.",
+      "src": "al-Iṣfahānī, Kitāb al-Aghānī; Gordon and Hain (eds), 'Concubines and Courtesans' (2017); Fuad Matthew Caswell, 'The Slave Girls of Baghdad' (2011)."
+    },
+    {
+      "id": "lv2",
+      "lane": "lives",
+      "year": 800,
+      "label": "Women scholars and women pilgrims",
+      "full": "Medina had a continuous tradition of women transmitting ḥadīth, from ʿĀʾisha onward. Women came on the Hajj in large numbers, some heading their own parties, and the manāsik literature addresses their particular rulings at length.",
+      "src": "Mohammad Akram Nadwi, 'al-Muḥaddithāt: The Women Scholars in Islam' (2007); the women's-Hajj rulings in the fiqh."
+    },
+    {
+      "id": "lv3",
+      "lane": "lives",
+      "year": 1250,
+      "label": "The eunuchs of the tomb",
+      "full": "The corps of eunuchs (aghawāt) that guarded the Prophet's tomb and the Meccan sanctuary — an institution formalised under the Ayyubids and Mamluks and continued for centuries — were enslaved men, mostly African, holding a position of unusual honour and permanence at the heart of Islam.",
+      "src": "Shaun Marmon, 'Eunuchs and Sacred Boundaries in Islamic Society' (1995)."
+    },
+    {
+      "id": "lv4",
+      "lane": "lives",
+      "year": 900,
+      "label": "The pilgrims, the poor and the plague",
+      "full": "The mujāwirūn living on charity, the destitute of Mecca in the famine years, and the epidemics — the annual concentration of hundreds of thousands of travellers made the Hajj a recurring vector of plague across the whole Muslim world.",
+      "src": "Michael Dols, 'The Black Death in the Middle East' (1977); the chronicle notices of pilgrimage-year epidemics."
+    }
+  ],
+  "edges": [
+    [
+      "k1",
+      "c1",
+      "strong",
+      "the murder of ʿUthmān at Medina opened the First Fitna"
+    ],
+    [
+      "ext1",
+      "k2",
+      "strong",
+      "Muʿāwiya moved the capital to Damascus and the Hejaz lost its power"
+    ],
+    [
+      "c1",
+      "k2",
+      "strong",
+      "the losing side of the civil wars was exiled to the holy cities"
+    ],
+    [
+      "k2",
+      "w1",
+      "strong",
+      "within thirty years the Hejaz went from the empire's capital to a holy backwater"
+    ],
+    [
+      "k2",
+      "ex4",
+      "strong",
+      "the leisured, exiled Ḥijazi elite created classical Arab song"
+    ],
+    [
+      "k2",
+      "ex5",
+      "strong",
+      "and the urbane Meccan ghazal"
+    ],
+    [
+      "ex4",
+      "lv1",
+      "strong",
+      "the qiyān were the performers and often the composers of that music"
+    ],
+    [
+      "k3",
+      "c1",
+      "strong",
+      "Ibn al-Zubayr's counter-caliphate at Mecca drew two Umayyad sieges"
+    ],
+    [
+      "c1",
+      "ex1",
+      "strong",
+      "the Kaʿba was burned and damaged in the sieges and rebuilt twice"
+    ],
+    [
+      "ext1",
+      "k4",
+      "strong",
+      "the Abbasid caliphs patronised the two holy cities lavishly"
+    ],
+    [
+      "k4",
+      "ex2",
+      "strong",
+      "the mosque expansions were a continuous imperial building programme"
+    ],
+    [
+      "k4",
+      "ex3",
+      "strong",
+      "Zubayda, the caliph's wife, built the aqueduct to Mecca"
+    ],
+    [
+      "ex3",
+      "tc1",
+      "strong",
+      "the covered channels, tunnels and tanks are one hydraulic system"
+    ],
+    [
+      "ext1",
+      "c2",
+      "strong",
+      "the caliphs crushed the ʿAlid risings in the Prophet's own city"
+    ],
+    [
+      "k4",
+      "k5",
+      "strong",
+      "as Abbasid power collapsed, local families of the Prophet's line took control"
+    ],
+    [
+      "k5",
+      "w3",
+      "strong",
+      "the dynasty founded then ruled Mecca until 1925"
+    ],
+    [
+      "k5",
+      "x2",
+      "strong",
+      "a small dynasty with the most prestigious address in Islam played the great powers"
+    ],
+    [
+      "k5",
+      "b5",
+      "strong",
+      "the sharifian families were of the ʿAlid line and often Shiʿi in sympathy"
+    ],
+    [
+      "k5",
+      "k7",
+      "strong",
+      "Qatāda ibn Idrīs seized Mecca and founded the lasting sharifian dynasty"
+    ],
+    [
+      "k7",
+      "c4",
+      "strong",
+      "the sharifian succession was a chronic low-level war between brothers and cousins"
+    ],
+    [
+      "ext3",
+      "c3",
+      "strong",
+      "the Qarmatians sacked Mecca during the Hajj and carried off the Black Stone"
+    ],
+    [
+      "ext2",
+      "k6",
+      "strong",
+      "the Fatimids of Cairo claimed the Hejaz and the Friday sermon in their name"
+    ],
+    [
+      "k6",
+      "x3",
+      "strong",
+      "control of Egypt carried with it the claim to the Ḥaramayn"
+    ],
+    [
+      "x3",
+      "w2",
+      "strong",
+      "that guardianship became the surest claim to leadership of the Sunni world"
+    ],
+    [
+      "ext2",
+      "k8",
+      "strong",
+      "the Mamluk sultans became the effective masters of the two holy cities"
+    ],
+    [
+      "k8",
+      "o3",
+      "strong",
+      "the kiswa and the ceremonial litter, sent from Cairo, asserted sovereignty each year"
+    ],
+    [
+      "k8",
+      "o4",
+      "strong",
+      "and the Egyptian grain fleets kept the Hejaz alive"
+    ],
+    [
+      "ext2",
+      "k9",
+      "strong",
+      "the Mamluks installed a shadow Abbasid caliph in Cairo after Baghdad fell"
+    ],
+    [
+      "k9",
+      "w2",
+      "strong",
+      "the Cairo caliphate made the guardianship the sultan's main Islamic claim"
+    ],
+    [
+      "o1",
+      "b1",
+      "strong",
+      "the practice of Medina was the source both of Mālik's law and of the wider Sunna"
+    ],
+    [
+      "b1",
+      "b2",
+      "strong",
+      "Mālik codified the ʿamal ahl al-Madīna into a school of law"
+    ],
+    [
+      "b1",
+      "t1",
+      "strong",
+      "the two cities produced a continuous local historiography of themselves"
+    ],
+    [
+      "o1",
+      "t3",
+      "loose",
+      "the ʿulamāʾ of the Ḥaramayn wrote the detailed law of how the Hajj must be done"
+    ],
+    [
+      "k1",
+      "b3",
+      "strong",
+      "the mosque at Medina grew around the Prophet's grave and the cult of the tomb"
+    ],
+    [
+      "ec3",
+      "b4",
+      "loose",
+      "the ribāṭs that housed poor pilgrims were also Sufi lodges"
+    ],
+    [
+      "ec1",
+      "ec3",
+      "strong",
+      "the two cities lived on the caravans, not on any production of their own"
+    ],
+    [
+      "ec3",
+      "ec4",
+      "strong",
+      "with no farmland, a failed grain fleet meant famine"
+    ],
+    [
+      "o4",
+      "ec4",
+      "strong",
+      "the Egyptian and Yemeni grain was what broke the famine years"
+    ],
+    [
+      "ec1",
+      "x1",
+      "strong",
+      "the Hajj brought Muslims from West Africa to India to the same few square kilometres"
+    ],
+    [
+      "ec1",
+      "ec2",
+      "strong",
+      "the sea route ran through Jeddah, the port of Mecca"
+    ],
+    [
+      "ec2",
+      "c5",
+      "strong",
+      "the customs at Jeddah and the tolls at Mecca's gates were condemned as extortion"
+    ],
+    [
+      "ext2",
+      "ec2",
+      "strong",
+      "in the 15th century the Jeddah customs became a Mamluk monopoly"
+    ],
+    [
+      "c4",
+      "c5",
+      "loose",
+      "the sharifs squeezed the pilgrims to fund their own wars"
+    ],
+    [
+      "ec2",
+      "tc2",
+      "strong",
+      "the reef-fringed approach to Jeddah made pilotage knowledge essential"
+    ],
+    [
+      "ext5",
+      "o5",
+      "strong",
+      "endowments across the Muslim world dedicated their revenues to the Ḥaramayn"
+    ],
+    [
+      "ext5",
+      "x5",
+      "strong",
+      "and scholars from everywhere settled at the two cities as 'neighbours' of God"
+    ],
+    [
+      "ext5",
+      "ec3",
+      "strong",
+      "the holy cities lived on the piety of the whole umma"
+    ],
+    [
+      "ext5",
+      "x1",
+      "strong",
+      "the Hajj was the umma's annual meeting and its information network"
+    ],
+    [
+      "ext4",
+      "x4",
+      "strong",
+      "Rasulid Yemen sent grain, the kiswa and agents to compete with Cairo at Mecca"
+    ],
+    [
+      "x4",
+      "o4",
+      "strong",
+      "the Yemeni grain was a second lifeline for the Hejaz"
+    ],
+    [
+      "x4",
+      "x2",
+      "loose",
+      "the sharifs recognised whichever of Cairo and Zabid paid best"
+    ],
+    [
+      "b2",
+      "x1",
+      "loose",
+      "Mālikism travelled west with the pilgrims who studied at Medina"
+    ],
+    [
+      "ex2",
+      "x5",
+      "loose",
+      "the resident scholars taught in the mosques the empires kept enlarging"
+    ],
+    [
+      "b3",
+      "lv3",
+      "strong",
+      "the eunuch corps existed to guard the Prophet's tomb"
+    ],
+    [
+      "ext2",
+      "lv3",
+      "strong",
+      "the aghawāt institution was formalised under the Ayyubids and Mamluks"
+    ],
+    [
+      "b1",
+      "lv2",
+      "strong",
+      "Medina had a continuous tradition of women transmitting ḥadīth"
+    ],
+    [
+      "x1",
+      "lv4",
+      "strong",
+      "the annual concentration of travellers made the Hajj a recurring vector of plague"
+    ],
+    [
+      "ec4",
+      "lv4",
+      "loose",
+      "and the famine years put the poor of Mecca at risk of death"
+    ],
+    [
+      "ext2",
+      "w4",
+      "strong",
+      "in 1517 the Ottomans took Egypt and with it the guardianship"
+    ],
+    [
+      "k8",
+      "w4",
+      "loose",
+      "the Mamluk overlordship passed intact to the Ottomans"
+    ],
+    [
+      "o2",
+      "x5",
+      "loose",
+      "the four schools each held their own congregation at the Kaʿba for their followers"
+    ],
+    [
+      "ex1",
+      "ex2",
+      "loose",
+      "the Kaʿba and the two mosques were rebuilt and enlarged across the whole period"
+    ],
+    [
+      "t1",
+      "t2",
+      "loose",
+      "Ibn Jubayr's eyewitness account complements the local chronicles"
+    ],
+    [
+      "k3",
+      "ex1",
+      "strong",
+      "Ibn al-Zubayr's reconstruction took in the Ḥijr and gave the Kaʿba two doors"
+    ]
+  ]
+}
