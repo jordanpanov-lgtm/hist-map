@@ -61,6 +61,7 @@ const MODULES = [
   { id:"najd-1200bc-300bc", file:"modules/najd-1200bc-300bc.json", label:"Ancient Najd 1,200–300 BC", sub:"The Camel Nomads, the Arab Queens, the Kingdom of Qedar and the Oases of al-Yamama", region:"Arabia", period:"Ancient" },
   { id:"najd-300bc-632", file:"modules/najd-300bc-632.json", label:"Late Antique Najd 300 BC–632 AD", sub:"Qaryat al-Faw, the Kingdom of Kindah, the Age of the Poets and the Ridda", region:"Arabia", period:"Late Antique" },
   { id:"najd-632-1517", file:"modules/najd-632-1517.json", label:"Medieval Najd 632–1517", sub:"The Yamāma Province, the Ukhaydirid Emirate, the Bedouin Centuries and the Founding of the Oasis Towns", region:"Arabia", period:"Medieval" },
+  { id:"najd-1517-1744", file:"modules/najd-1517-1744.json", label:"Najd on the Eve of the Reform 1517–1744", sub:"The Oasis-Town Emirates, Banū Khālid Overlordship and the Road to the Pact of Dirʿiyya", region:"Arabia", period:"Early Modern" },
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },

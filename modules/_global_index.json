@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 3166,
-    "folio_count": 57,
-    "xlink_pairs": 215,
-    "keyword_terms": 5825,
+    "total_entries": 3208,
+    "folio_count": 58,
+    "xlink_pairs": 221,
+    "keyword_terms": 5854,
     "folios": [
       {
         "id": "al-andalus-1031-1492",
@@ -148,6 +148,11 @@
       {
         "id": "najd-1200bc-300bc",
         "title": "Ancient Najd",
+        "entries": 42
+      },
+      {
+        "id": "najd-1517-1744",
+        "title": "Najd on the Eve of the Reform",
         "entries": 42
       },
       {
@@ -1819,6 +1824,48 @@
     "najd-1200bc-300bc::lv1": "The Arab queens",
     "najd-1200bc-300bc::lv2": "The priestess and the women of the inscriptions",
     "najd-1200bc-300bc::lv3": "The tribute in people",
+    "najd-1517-1744::k1": "The oasis-town emirates",
+    "najd-1517-1744::k2": "The Āl Saʿūd of Dirʿiyya",
+    "najd-1517-1744::k3": "The Muʿammar of al-ʿUyayna",
+    "najd-1517-1744::k4": "Banū Khālid overlordship",
+    "najd-1517-1744::k5": "The Ottoman and Sharifian fringe",
+    "najd-1517-1744::k6": "Muḥammad ibn ʿAbd al-Wahhāb, the early years",
+    "najd-1517-1744::k7": "The al-ʿUyayna experiment and the expulsion",
+    "najd-1517-1744::k8": "The pact of Dirʿiyya",
+    "najd-1517-1744::c1": "The wars of the town emirates",
+    "najd-1517-1744::c2": "Banū Khālid marches into Najd",
+    "najd-1517-1744::c3": "The bedouin pressure and the bad years",
+    "najd-1517-1744::c4": "The first acts of enforcement",
+    "najd-1517-1744::o1": "The town amirate and the majlis",
+    "najd-1517-1744::o2": "Banū Khālid tribute and arbitration",
+    "najd-1517-1744::o3": "The oath of 1744",
+    "najd-1517-1744::b1": "The religion the reform attacked",
+    "najd-1517-1744::b2": "The Medina hadith revival",
+    "najd-1517-1744::b3": "The doctrine of tawḥīd",
+    "najd-1517-1744::b4": "The first refutations",
+    "najd-1517-1744::ex1": "The mature Najdi town and the majlis style",
+    "najd-1517-1744::ex2": "Ḥmēdān al-Shwēʿir",
+    "najd-1517-1744::ex3": "The amīr-poets",
+    "najd-1517-1744::ex4": "The samir, the ʿarda and the women's song",
+    "najd-1517-1744::t1": "Ibn ʿAbd al-Wahhāb's writings",
+    "najd-1517-1744::t2": "The Najdi town annals",
+    "najd-1517-1744::t3": "The transmission of Ibn Taymiyya",
+    "najd-1517-1744::ec1": "The date-and-khuwa economy",
+    "najd-1517-1744::ec2": "The ʿUqaylāt and the horse trade",
+    "najd-1517-1744::ec3": "The pastoral economy and the tribes",
+    "najd-1517-1744::ec4": "Drought, famine and the fragile town",
+    "najd-1517-1744::tc1": "Well irrigation at its limit",
+    "najd-1517-1744::tc2": "Firearms reach the plateau",
+    "najd-1517-1744::x1": "Study in the Ḥaramayn",
+    "najd-1517-1744::x2": "Basra and the expulsion",
+    "najd-1517-1744::x3": "The al-Aḥsāʾ connection",
+    "najd-1517-1744::x4": "The ʿUqaylāt networks abroad",
+    "najd-1517-1744::w1": "Stateless Najd on the eve of the reform",
+    "najd-1517-1744::w2": "The reform as a Najdi phenomenon",
+    "najd-1517-1744::w3": "The thread continues — the pact and the first Saudi state",
+    "najd-1517-1744::lv1": "The woman stoned at al-ʿUyayna",
+    "najd-1517-1744::lv2": "Women in the emirate town",
+    "najd-1517-1744::lv3": "The enslaved and the freed in the towns",
     "najd-300bc-632::k1": "Qaryat al-Faw, the caravan city",
     "najd-300bc-632::k2": "The kings of al-Faw",
     "najd-300bc-632::k3": "The Lakhmid claim on the north-east",
@@ -4173,6 +4220,41 @@
     "najd-1200bc-300bc::x4": [
       "hejaz-prehistory-8000bc-1200bc::x3"
     ],
+    "najd-1517-1744::k1": [
+      "najd-632-1517::o3"
+    ],
+    "najd-632-1517::o3": [
+      "najd-1517-1744::k1",
+      "najd-1517-1744::ec1",
+      "najd-300bc-632::o3"
+    ],
+    "najd-1517-1744::k2": [
+      "najd-632-1517::w4"
+    ],
+    "najd-632-1517::w4": [
+      "najd-1517-1744::k2"
+    ],
+    "najd-1517-1744::b1": [
+      "najd-632-1517::b4"
+    ],
+    "najd-632-1517::b4": [
+      "najd-1517-1744::b1"
+    ],
+    "najd-1517-1744::ec1": [
+      "najd-632-1517::o3"
+    ],
+    "najd-1517-1744::ec2": [
+      "najd-632-1517::ec3"
+    ],
+    "najd-632-1517::ec3": [
+      "najd-1517-1744::ec2"
+    ],
+    "najd-1517-1744::x1": [
+      "najd-632-1517::x4"
+    ],
+    "najd-632-1517::x4": [
+      "najd-1517-1744::x1"
+    ],
     "najd-300bc-632::k1": [
       "najd-1200bc-300bc::w3"
     ],
@@ -4194,9 +4276,6 @@
     ],
     "najd-300bc-632::w4": [
       "najd-632-1517::k1"
-    ],
-    "najd-632-1517::o3": [
-      "najd-300bc-632::o3"
     ],
     "najd-300bc-632::o3": [
       "najd-632-1517::o3"
@@ -14055,6 +14134,227 @@
     ],
     "najd-1200bc-300bc::lv3": [
       "Assyria"
+    ],
+    "najd-1517-1744::k1": [
+      "Wadi",
+      "al-Qaṣīm",
+      "Sudayr",
+      "Saudi Arabia"
+    ],
+    "najd-1517-1744::k2": [
+      "Āl Saʿūd",
+      "Wadi",
+      "Saudi Arabia",
+      "Saʿūd of Dirʿiyya",
+      "Māni al-Muraydī",
+      "Saʿūd ibn Muḥammad"
+    ],
+    "najd-1517-1744::k3": [
+      "Āl Muʿammar",
+      "Saudi Arabia",
+      "Uthmān ibn Muʿammar",
+      "Muḥammad ibn Abd al-Wahhāb",
+      "Banū Khālid"
+    ],
+    "najd-1517-1744::k4": [
+      "Banū Khālid",
+      "al-Aḥsā",
+      "Najd",
+      "Barrāk ibn Ghurayr"
+    ],
+    "najd-1517-1744::k5": [
+      "Hijaz",
+      "al-Aḥsā",
+      "Najd",
+      "Ottoman",
+      "Sharifian"
+    ],
+    "najd-1517-1744::k6": [
+      "Āl al-Shaykh",
+      "Medina",
+      "Basra",
+      "Muḥammad ibn Abd al-Wahhāb",
+      "Kitāb al-Tawḥīd"
+    ],
+    "najd-1517-1744::k7": [
+      "Āl al-Shaykh",
+      "al-Jubayla",
+      "Saudi Arabia",
+      "Zayd ibn al-Khaṭṭāb",
+      "Banū Khālid",
+      "Ibn Muʿammar"
+    ],
+    "najd-1517-1744::k8": [
+      "Āl Saʿūd",
+      "Dirʿiyya",
+      "Wadi",
+      "Saudi Arabia",
+      "Ibn Abd al-Wahhāb",
+      "Muḥammad ibn Saʿūd"
+    ],
+    "najd-1517-1744::c1": [
+      "Najd"
+    ],
+    "najd-1517-1744::c2": [
+      "Najdi",
+      "Banū Khālid",
+      "Najd"
+    ],
+    "najd-1517-1744::c3": [
+      "Najd"
+    ],
+    "najd-1517-1744::c4": [
+      "al-Jubayla",
+      "Saudi Arabia",
+      "Ibn Abd al-Wahhāb",
+      "Banū Khālid"
+    ],
+    "najd-1517-1744::o1": [
+      "Najdi"
+    ],
+    "najd-1517-1744::o2": [
+      "al-Aḥsā",
+      "Najd",
+      "Banū Khālid",
+      "Ibn Abd al-Wahhāb"
+    ],
+    "najd-1517-1744::o3": [
+      "Dirʿiyya",
+      "Saudi Arabia"
+    ],
+    "najd-1517-1744::b1": [
+      "Najd",
+      "Zayd ibn al-Khaṭṭāb",
+      "Dhū Saʿab",
+      "Bint al-Amīr",
+      "Ibn Abd al-Wahhāb"
+    ],
+    "najd-1517-1744::b2": [
+      "Medina",
+      "Ibrāhīm al-Kūrānī",
+      "Abd Allāh ibn Ibrāhīm ibn Sayf",
+      "Ibn Taymiyya",
+      "Ibn Abd al-Wahhāb"
+    ],
+    "najd-1517-1744::b3": [
+      "Saudi Arabia",
+      "Ibn Abd al-Wahhāb"
+    ],
+    "najd-1517-1744::b4": [
+      "Najdi"
+    ],
+    "najd-1517-1744::ex1": [
+      "Dirʿiyya",
+      "Unayzah",
+      "Ushayqir",
+      "Najdi"
+    ],
+    "najd-1517-1744::ex2": [
+      "al-Washm",
+      "Saudi Arabia",
+      "al-Shwēʿir",
+      "al-Shuwayʿir of al-Qaṣab"
+    ],
+    "najd-1517-1744::ex3": [
+      "Sudayr",
+      "Wadi",
+      "Rumayzān ibn Ghashshām of al-Ghā",
+      "Jaʿaythin al-Yazīdī"
+    ],
+    "najd-1517-1744::ex4": [
+      "Najdi"
+    ],
+    "najd-1517-1744::t1": [
+      "Saudi Arabia",
+      "Ibn Abd al-Wahhāb",
+      "Kitāb al-Tawḥīd",
+      "Kashf al-Shubuhāt",
+      "Thalāthat al-Uṣūl"
+    ],
+    "najd-1517-1744::t2": [
+      "Najd",
+      "Najdi",
+      "Ibn Ghannām",
+      "Ibn Bishr"
+    ],
+    "najd-1517-1744::t3": [
+      "Ushayqir",
+      "Najdi",
+      "Ibn Taymiyya",
+      "Ibn Abd al-Wahhāb"
+    ],
+    "najd-1517-1744::ec1": [
+      "Najdi",
+      "Banū Khālid"
+    ],
+    "najd-1517-1744::ec2": [
+      "al-Qaṣīm",
+      "Iraq",
+      "Syria",
+      "Egypt",
+      "India",
+      "Uqaylāt"
+    ],
+    "najd-1517-1744::ec4": [
+      "Najd",
+      "Drought"
+    ],
+    "najd-1517-1744::tc1": [
+      "Najdi",
+      "Well"
+    ],
+    "najd-1517-1744::tc2": [
+      "Najdi",
+      "Firearms"
+    ],
+    "najd-1517-1744::x1": [
+      "Mecca",
+      "Medina",
+      "Najd",
+      "Study",
+      "Ibn Abd al-Wahhāb"
+    ],
+    "najd-1517-1744::x2": [
+      "Basra",
+      "Iraq",
+      "Ibn Abd al-Wahhāb"
+    ],
+    "najd-1517-1744::x3": [
+      "Najdi",
+      "al-Aḥsā",
+      "Banū Khālid"
+    ],
+    "najd-1517-1744::x4": [
+      "Basra",
+      "Baghdad",
+      "Damascus",
+      "Cairo",
+      "Uqaylāt"
+    ],
+    "najd-1517-1744::w1": [
+      "Stateless Najd",
+      "Banū Khālid"
+    ],
+    "najd-1517-1744::w2": [
+      "Dirʿiyya",
+      "Najdi",
+      "Ibn Abd al-Wahhāb"
+    ],
+    "najd-1517-1744::w3": [
+      "Dirʿiyya",
+      "Saudi Arabia",
+      "Arabian Peninsula"
+    ],
+    "najd-1517-1744::lv1": [
+      "Saudi Arabia",
+      "Ibn Abd al-Wahhāb"
+    ],
+    "najd-1517-1744::lv2": [
+      "Najdi",
+      "Women"
+    ],
+    "najd-1517-1744::lv3": [
+      "Najdi"
     ],
     "najd-300bc-632::k1": [
       "Wadi al-Dawasir",
@@ -24830,6 +25130,7 @@
       "mamluks-1250-1517::lv3",
       "mamluks-1250-1517::lv6",
       "nabataean-400bc-106ce::k3",
+      "najd-1517-1744::x4",
       "najd-632-1517::x1",
       "najd-632-1517::x4"
     ],
@@ -25201,6 +25502,7 @@
       "mamluks-1250-1517::lv5",
       "mamluks-1250-1517::lv3",
       "mamluks-1250-1517::lv6",
+      "najd-1517-1744::x4",
       "najd-632-1517::x4",
       "yemen-1900-today::t1",
       "yemen-1900-today::x1",
@@ -25261,6 +25563,7 @@
       "eastern-arabia-750-1200::b3",
       "eastern-arabia-750-1200::lv4",
       "hormuz-1200-1507::t3",
+      "najd-1517-1744::x1",
       "najd-632-1517::c2",
       "south-arabia-300bc-628::c6",
       "yemen-628-1517::c5",
@@ -25484,6 +25787,7 @@
       "mamluks-1250-1517::x7",
       "mamluks-1250-1517::w6",
       "nabataean-400bc-106ce::t3",
+      "najd-1517-1744::ec2",
       "najd-632-1517::ex4",
       "najd-632-1517::ec3",
       "najd-632-1517::x3",
@@ -26237,6 +26541,7 @@
       "eastern-arabia-750-1200::w4",
       "fatimids-909-1171::w1",
       "lakhmid-268-602::t2",
+      "najd-1517-1744::x4",
       "najd-632-1517::x1",
       "south-arabia-300bc-628::t3"
     ],
@@ -26253,6 +26558,7 @@
       "france-1715-1789::c1",
       "mamluks-1250-1517::c10",
       "nabataean-400bc-106ce::ex1",
+      "najd-1517-1744::ec2",
       "oman-gulf-1650-1820::ec4",
       "oman-gulf-1650-1820::ec5",
       "portuguese-gulf-1507-1650::x3",
@@ -26443,6 +26749,18 @@
       "najd-1200bc-300bc::k8",
       "najd-1200bc-300bc::ec3",
       "najd-1200bc-300bc::w3",
+      "najd-1517-1744::k1",
+      "najd-1517-1744::k2",
+      "najd-1517-1744::k3",
+      "najd-1517-1744::k7",
+      "najd-1517-1744::k8",
+      "najd-1517-1744::c4",
+      "najd-1517-1744::o3",
+      "najd-1517-1744::b3",
+      "najd-1517-1744::ex2",
+      "najd-1517-1744::t1",
+      "najd-1517-1744::w3",
+      "najd-1517-1744::lv1",
       "najd-300bc-632::k1",
       "najd-300bc-632::k2",
       "najd-300bc-632::c5",
@@ -26703,6 +27021,7 @@
       "gulf-prehistory-8000bc-3000bc::w2",
       "hejaz-prehistory-8000bc-1200bc::ex3",
       "magan-3000bc-300bc::w5",
+      "najd-1517-1744::w3",
       "oman-1970-today::e1",
       "south-arabia-1200bc-300bc::k2",
       "south-arabia-1200bc-300bc::w1"
@@ -27155,6 +27474,7 @@
       "nabataean-400bc-106ce::t2",
       "najd-1200bc-300bc::k1",
       "najd-1200bc-300bc::c1",
+      "najd-1517-1744::ec2",
       "najd-300bc-632::k6",
       "najd-632-1517::ec3",
       "palmyrene-100bc-273ce::k1",
@@ -28386,6 +28706,9 @@
       "eastern-arabia-750-1200::lv1",
       "eastern-arabia-750-1200::lv5",
       "najd-1200bc-300bc::t3",
+      "najd-1517-1744::k6",
+      "najd-1517-1744::x2",
+      "najd-1517-1744::x4",
       "najd-300bc-632::t1",
       "portuguese-gulf-1507-1650::t4",
       "portuguese-gulf-1507-1650::ec4",
@@ -28887,6 +29210,8 @@
       "lakhmid-268-602::k1",
       "lakhmid-268-602::t3",
       "lakhmid-268-602::w5",
+      "najd-1517-1744::ec2",
+      "najd-1517-1744::x2",
       "najd-300bc-632::c2",
       "najd-300bc-632::ex3",
       "najd-300bc-632::w3",
@@ -29165,6 +29490,9 @@
       "ghassanid-420-638::a5",
       "mamluks-1250-1517::o7",
       "mamluks-1250-1517::lv4",
+      "najd-1517-1744::k6",
+      "najd-1517-1744::b2",
+      "najd-1517-1744::x1",
       "najd-300bc-632::k9",
       "najd-300bc-632::o4",
       "najd-300bc-632::x5",
@@ -29472,6 +29800,16 @@
       "najd-1200bc-300bc::ec1",
       "najd-1200bc-300bc::x4",
       "najd-1200bc-300bc::w3",
+      "najd-1517-1744::k4",
+      "najd-1517-1744::k5",
+      "najd-1517-1744::c1",
+      "najd-1517-1744::c2",
+      "najd-1517-1744::c3",
+      "najd-1517-1744::o2",
+      "najd-1517-1744::b1",
+      "najd-1517-1744::t2",
+      "najd-1517-1744::ec4",
+      "najd-1517-1744::x1",
       "najd-300bc-632::k3",
       "najd-300bc-632::k6",
       "najd-300bc-632::k7",
@@ -29699,6 +30037,7 @@
       "eastern-arabia-750-1200::b3",
       "lakhmid-268-602::ex1",
       "najd-1200bc-300bc::t3",
+      "najd-1517-1744::k5",
       "oman-gulf-1650-1820::w5"
     ],
     "Quran": [
@@ -31424,6 +31763,7 @@
       "dilmun-3000bc-600bc::lv2",
       "fatimids-909-1171::lv1",
       "gulf-prehistory-8000bc-3000bc::lv2",
+      "najd-1517-1744::lv2",
       "najd-632-1517::lv1",
       "oman-1970-today::lv3",
       "oman-gulf-1650-1820::lv3",
@@ -38275,6 +38615,7 @@
     ],
     "Ottoman": [
       "mamluks-1250-1517::k14",
+      "najd-1517-1744::k5",
       "portuguese-gulf-1507-1650::c2",
       "portuguese-gulf-1507-1650::c3",
       "portuguese-gulf-1507-1650::o3",
@@ -38393,6 +38734,8 @@
     "Ibn Taymiyya": [
       "mamluks-1250-1517::b4",
       "mamluks-1250-1517::b2",
+      "najd-1517-1744::b2",
+      "najd-1517-1744::t3",
       "najd-632-1517::b2",
       "najd-632-1517::x4"
     ],
@@ -39061,6 +39404,224 @@
       "najd-300bc-632::tc1",
       "najd-300bc-632::tc3"
     ],
+    "Wadi": [
+      "najd-1517-1744::k1",
+      "najd-1517-1744::k2",
+      "najd-1517-1744::k8",
+      "najd-1517-1744::ex3",
+      "najd-632-1517::k9",
+      "najd-632-1517::ex2",
+      "najd-632-1517::x5",
+      "najd-632-1517::w3",
+      "najd-632-1517::w4"
+    ],
+    "al-Qaṣīm": [
+      "najd-1517-1744::k1",
+      "najd-1517-1744::ec2",
+      "najd-632-1517::k9",
+      "najd-632-1517::ex2",
+      "najd-632-1517::w3"
+    ],
+    "Sudayr": [
+      "najd-1517-1744::k1",
+      "najd-1517-1744::ex3"
+    ],
+    "Āl Saʿūd": [
+      "najd-1517-1744::k2",
+      "najd-1517-1744::k8"
+    ],
+    "Saʿūd of Dirʿiyya": [
+      "najd-1517-1744::k2"
+    ],
+    "Māni al-Muraydī": [
+      "najd-1517-1744::k2",
+      "najd-632-1517::k9",
+      "najd-632-1517::x5"
+    ],
+    "Saʿūd ibn Muḥammad": [
+      "najd-1517-1744::k2"
+    ],
+    "Āl Muʿammar": [
+      "najd-1517-1744::k3"
+    ],
+    "Uthmān ibn Muʿammar": [
+      "najd-1517-1744::k3"
+    ],
+    "Muḥammad ibn Abd al-Wahhāb": [
+      "najd-1517-1744::k3",
+      "najd-1517-1744::k6",
+      "najd-632-1517::b4"
+    ],
+    "Banū Khālid": [
+      "najd-1517-1744::k3",
+      "najd-1517-1744::k4",
+      "najd-1517-1744::k7",
+      "najd-1517-1744::c2",
+      "najd-1517-1744::c4",
+      "najd-1517-1744::o2",
+      "najd-1517-1744::ec1",
+      "najd-1517-1744::x3",
+      "najd-1517-1744::w1",
+      "najd-632-1517::c5"
+    ],
+    "al-Aḥsā": [
+      "najd-1517-1744::k4",
+      "najd-1517-1744::k5",
+      "najd-1517-1744::o2",
+      "najd-1517-1744::x3",
+      "najd-632-1517::k5",
+      "najd-632-1517::k8",
+      "najd-632-1517::c5",
+      "najd-632-1517::x2"
+    ],
+    "Barrāk ibn Ghurayr": [
+      "najd-1517-1744::k4"
+    ],
+    "Sharifian": [
+      "najd-1517-1744::k5"
+    ],
+    "Āl al-Shaykh": [
+      "najd-1517-1744::k6",
+      "najd-1517-1744::k7"
+    ],
+    "Kitāb al-Tawḥīd": [
+      "najd-1517-1744::k6",
+      "najd-1517-1744::t1"
+    ],
+    "al-Jubayla": [
+      "najd-1517-1744::k7",
+      "najd-1517-1744::c4"
+    ],
+    "Zayd ibn al-Khaṭṭāb": [
+      "najd-1517-1744::k7",
+      "najd-1517-1744::b1",
+      "najd-632-1517::b4"
+    ],
+    "Ibn Muʿammar": [
+      "najd-1517-1744::k7"
+    ],
+    "Dirʿiyya": [
+      "najd-1517-1744::k8",
+      "najd-1517-1744::o3",
+      "najd-1517-1744::ex1",
+      "najd-1517-1744::w2",
+      "najd-1517-1744::w3",
+      "najd-632-1517::t2",
+      "najd-632-1517::x5",
+      "najd-632-1517::w4"
+    ],
+    "Ibn Abd al-Wahhāb": [
+      "najd-1517-1744::k8",
+      "najd-1517-1744::c4",
+      "najd-1517-1744::o2",
+      "najd-1517-1744::b1",
+      "najd-1517-1744::b2",
+      "najd-1517-1744::b3",
+      "najd-1517-1744::t1",
+      "najd-1517-1744::t3",
+      "najd-1517-1744::x1",
+      "najd-1517-1744::x2",
+      "najd-1517-1744::w2",
+      "najd-1517-1744::lv1"
+    ],
+    "Muḥammad ibn Saʿūd": [
+      "najd-1517-1744::k8"
+    ],
+    "Najdi": [
+      "najd-1517-1744::c2",
+      "najd-1517-1744::o1",
+      "najd-1517-1744::b4",
+      "najd-1517-1744::ex1",
+      "najd-1517-1744::ex4",
+      "najd-1517-1744::t2",
+      "najd-1517-1744::t3",
+      "najd-1517-1744::ec1",
+      "najd-1517-1744::tc1",
+      "najd-1517-1744::tc2",
+      "najd-1517-1744::x3",
+      "najd-1517-1744::w2",
+      "najd-1517-1744::lv2",
+      "najd-1517-1744::lv3",
+      "najd-632-1517::o4",
+      "najd-632-1517::ex2",
+      "najd-632-1517::t2",
+      "najd-632-1517::ec2",
+      "najd-632-1517::tc1",
+      "najd-632-1517::tc3",
+      "oman-gulf-1650-1820::t4"
+    ],
+    "Dhū Saʿab": [
+      "najd-1517-1744::b1",
+      "najd-632-1517::b4"
+    ],
+    "Bint al-Amīr": [
+      "najd-1517-1744::b1"
+    ],
+    "Ibrāhīm al-Kūrānī": [
+      "najd-1517-1744::b2"
+    ],
+    "Abd Allāh ibn Ibrāhīm ibn Sayf": [
+      "najd-1517-1744::b2"
+    ],
+    "Unayzah": [
+      "najd-1517-1744::ex1"
+    ],
+    "Ushayqir": [
+      "najd-1517-1744::ex1",
+      "najd-1517-1744::t3",
+      "najd-632-1517::b3",
+      "najd-632-1517::t2"
+    ],
+    "al-Washm": [
+      "najd-1517-1744::ex2",
+      "najd-632-1517::b3"
+    ],
+    "al-Shwēʿir": [
+      "najd-1517-1744::ex2"
+    ],
+    "al-Shuwayʿir of al-Qaṣab": [
+      "najd-1517-1744::ex2"
+    ],
+    "Rumayzān ibn Ghashshām of al-Ghā": [
+      "najd-1517-1744::ex3"
+    ],
+    "Jaʿaythin al-Yazīdī": [
+      "najd-1517-1744::ex3"
+    ],
+    "Kashf al-Shubuhāt": [
+      "najd-1517-1744::t1"
+    ],
+    "Thalāthat al-Uṣūl": [
+      "najd-1517-1744::t1"
+    ],
+    "Ibn Ghannām": [
+      "najd-1517-1744::t2"
+    ],
+    "Ibn Bishr": [
+      "najd-1517-1744::t2",
+      "oman-gulf-1650-1820::t4"
+    ],
+    "Uqaylāt": [
+      "najd-1517-1744::ec2",
+      "najd-1517-1744::x4"
+    ],
+    "Drought": [
+      "najd-1517-1744::ec4"
+    ],
+    "Well": [
+      "najd-1517-1744::tc1",
+      "najd-632-1517::tc1"
+    ],
+    "Firearms": [
+      "najd-1517-1744::tc2"
+    ],
+    "Study": [
+      "najd-1517-1744::x1",
+      "najd-632-1517::x4"
+    ],
+    "Stateless Najd": [
+      "najd-1517-1744::w1"
+    ],
     "Muʿāwiya ibn Rabīʿa": [
       "najd-300bc-632::k2"
     ],
@@ -39287,12 +39848,6 @@
     "Nāṣir-i Khusraw Yamāma": [
       "najd-632-1517::k4"
     ],
-    "al-Aḥsā": [
-      "najd-632-1517::k5",
-      "najd-632-1517::k8",
-      "najd-632-1517::c5",
-      "najd-632-1517::x2"
-    ],
     "Ismaili Qarmatian": [
       "najd-632-1517::k5"
     ],
@@ -39319,28 +39874,12 @@
       "najd-632-1517::k8",
       "najd-632-1517::c5"
     ],
-    "Wadi": [
-      "najd-632-1517::k9",
-      "najd-632-1517::ex2",
-      "najd-632-1517::x5",
-      "najd-632-1517::w3",
-      "najd-632-1517::w4"
-    ],
-    "al-Qaṣīm": [
-      "najd-632-1517::k9",
-      "najd-632-1517::ex2",
-      "najd-632-1517::w3"
-    ],
     "Jabal Shammar": [
       "najd-632-1517::k9",
       "najd-632-1517::w3"
     ],
     "Najd of the Saudi": [
       "najd-632-1517::k9"
-    ],
-    "Māni al-Muraydī": [
-      "najd-632-1517::k9",
-      "najd-632-1517::x5"
     ],
     "Najdiyya": [
       "najd-632-1517::c1"
@@ -39357,39 +39896,11 @@
     "Umān": [
       "najd-632-1517::c5"
     ],
-    "Banū Khālid": [
-      "najd-632-1517::c5"
-    ],
     "Kufa–Mecca": [
       "najd-632-1517::o2"
     ],
-    "Najdi": [
-      "najd-632-1517::o4",
-      "najd-632-1517::ex2",
-      "najd-632-1517::t2",
-      "najd-632-1517::ec2",
-      "najd-632-1517::tc1",
-      "najd-632-1517::tc3",
-      "oman-gulf-1650-1820::t4"
-    ],
     "Kharijism": [
       "najd-632-1517::b1"
-    ],
-    "Ushayqir": [
-      "najd-632-1517::b3",
-      "najd-632-1517::t2"
-    ],
-    "al-Washm": [
-      "najd-632-1517::b3"
-    ],
-    "Zayd ibn al-Khaṭṭāb": [
-      "najd-632-1517::b4"
-    ],
-    "Dhū Saʿab": [
-      "najd-632-1517::b4"
-    ],
-    "Muḥammad ibn Abd al-Wahhāb": [
-      "najd-632-1517::b4"
     ],
     "Faid": [
       "najd-632-1517::ex1",
@@ -39408,25 +39919,14 @@
     "Kitāb al-Jawharatayn": [
       "najd-632-1517::t1"
     ],
-    "Dirʿiyya": [
-      "najd-632-1517::t2",
-      "najd-632-1517::x5",
-      "najd-632-1517::w4"
-    ],
     "Recovering": [
       "najd-632-1517::t3"
     ],
     "Mines": [
       "najd-632-1517::ec5"
     ],
-    "Well": [
-      "najd-632-1517::tc1"
-    ],
     "Earthen": [
       "najd-632-1517::tc3"
-    ],
-    "Study": [
-      "najd-632-1517::x4"
     ],
     "al-Qaṭīf": [
       "najd-632-1517::x5"
@@ -40008,9 +40508,6 @@
       "oman-gulf-1650-1820::t3"
     ],
     "Ibn Ghannam": [
-      "oman-gulf-1650-1820::t4"
-    ],
-    "Ibn Bishr": [
       "oman-gulf-1650-1820::t4"
     ],
     "Kutchi Hindus": [
