@@ -27,7 +27,7 @@ const MODULES = [
   // ── NEAR EAST ──────────────────────────────────────────────────────────────
   { id:"egypt-6000bc-3000bc",   file:"modules/egypt-6000bc-3000bc.json",   label:"Predynastic Egypt 6000–3000 BC", sub:"Neolithic Nile, Naqada Cultures and the Rise of Kingship", region:"Egypt", period:"Prehistoric" },
   { id:"egypt-3000bc-2100bc",   file:"modules/egypt-3000bc-2100bc.json",   label:"Ancient Egypt 3000–2100 BC",  sub:"Unification, Pyramids and the First Collapse",region:"Egypt",   period:"Prehistoric"   },
-  { id:"nabataean-400bc-106ce", file:"modules/nabataean-400bc-106ce.json", label:"Nabataean Kingdom 400BC–106", sub:"The Incense Kingdom of Petra",                region:"NW Arabia",  period:"Late Antique"  },
+  { id:"nabataean-312bc-106ce", file:"modules/nabataean-312bc-106ce.json", label:"Nabataean Kingdom 312BC–106", sub:"The Incense Kingdom of Petra",                region:"NW Arabia",  period:"Late Antique"  },
   { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
   { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
   { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
@@ -56,7 +56,7 @@ const MODULES = [
   { id:"hejaz-1517-1900", file:"modules/hejaz-1517-1900.json", label:"The Ottoman Hejaz 1517–1900", sub:"The Guardianship of the Ḥaramayn, the Wahhābī Interlude, the Steamship Hajj and the Northwest Oases", region:"NW Arabia", period:"Early Modern" },
   { id:"hejaz-1900-1925", file:"modules/hejaz-1900-1925.json", label:"The Kingdom of the Hejaz 1900–1925", sub:"The Railway, the Arab Revolt, the Hashemite Kingdom and the Saudi Conquest", region:"NW Arabia", period:"Modern" },
   // ── THE NORTHWEST OASES (Taymāʾ, Dadān/al-ʿUlā, Khaybar, Dūmah — the western
-  //   corridor; feeds into nabataean-400bc-106ce for the Nabataean period) ─────────
+  //   corridor; feeds into nabataean-312bc-106ce for the Nabataean period) ─────────
   { id:"dedan-tayma-1200bc-300bc", file:"modules/dedan-tayma-1200bc-300bc.json", label:"Ancient Northwest Arabia 1,200–300 BC", sub:"Taymāʾ, Nabonidus, and the Oasis Kingdoms of Dadān and Lihyān", region:"NW Arabia", period:"Ancient" },
   { id:"nw-arabia-106-632", file:"modules/nw-arabia-106-632.json", label:"Late Antique Northwest Arabia 106–632", sub:"The Roman Frontier, the Tribal and Jewish Oases, and the Conquest of the North", region:"NW Arabia", period:"Late Antique" },
   { id:"nw-arabia-632-1517", file:"modules/nw-arabia-632-1517.json", label:"The Medieval Northwest 632–1517", sub:"A Corridor of the Hajj Roads — the Oases, the Tribes, and the Cities of Thamūd", region:"NW Arabia", period:"Medieval" },

@@ -113,7 +113,7 @@ is AD, a negative number stands in for BC (`-96` = 96 BC). There is no historica
 forbids the value `0` — an axis tick that lands there just prints `0 AD`, harmless and consistent with
 the Timeline tab. Match the folio:
 `modules/<id>.json`'s `period.start` / `period.end` and its `timeline[].events[].y` are already
-signed this way (e.g. `nabataean-400bc-106ce` has `"period": { "start": -400, "end": 106 }`), and a
+signed this way (e.g. `nabataean-312bc-106ce` has `"period": { "start": -312, "end": 106 }`), and a
 node's year should sit inside the real entry's `date` range. For a Nabataean entry dated
 `"c.96 BC"`, write `"year": -96`.
 
