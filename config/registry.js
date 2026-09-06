@@ -59,6 +59,7 @@ const MODULES = [
   // ── NAJD (the central plateau — the Yamama, the caravan cross-routes, the
   //   Wahhabi movement and the Saudi states) ─────────────────────────────────────
   { id:"najd-1200bc-300bc", file:"modules/najd-1200bc-300bc.json", label:"Ancient Najd 1,200–300 BC", sub:"The Camel Nomads, the Arab Queens, the Kingdom of Qedar and the Oases of al-Yamama", region:"Arabia", period:"Ancient" },
+  { id:"najd-300bc-632", file:"modules/najd-300bc-632.json", label:"Late Antique Najd 300 BC–632 AD", sub:"Qaryat al-Faw, the Kingdom of Kindah, the Age of the Poets and the Ridda", region:"Arabia", period:"Late Antique" },
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },

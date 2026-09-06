@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 3062,
-    "folio_count": 55,
-    "xlink_pairs": 208,
-    "keyword_terms": 5743,
+    "total_entries": 3114,
+    "folio_count": 56,
+    "xlink_pairs": 212,
+    "keyword_terms": 5783,
     "folios": [
       {
         "id": "al-andalus-1031-1492",
@@ -149,6 +149,11 @@
         "id": "najd-1200bc-300bc",
         "title": "Ancient Najd",
         "entries": 42
+      },
+      {
+        "id": "najd-300bc-632",
+        "title": "Late Antique Najd",
+        "entries": 52
       },
       {
         "id": "oman-1970-today",
@@ -1809,6 +1814,58 @@
     "najd-1200bc-300bc::lv1": "The Arab queens",
     "najd-1200bc-300bc::lv2": "The priestess and the women of the inscriptions",
     "najd-1200bc-300bc::lv3": "The tribute in people",
+    "najd-300bc-632::k1": "Qaryat al-Faw, the caravan city",
+    "najd-300bc-632::k2": "The kings of al-Faw",
+    "najd-300bc-632::k3": "The Lakhmid claim on the north-east",
+    "najd-300bc-632::k4": "Hujr Ākil al-Murār and Kindah's kingship",
+    "najd-300bc-632::k5": "Al-Ḥārith ibn ʿAmr, the high point",
+    "najd-300bc-632::k6": "Imruʾ al-Qays, the wandering king",
+    "najd-300bc-632::k7": "The tribal confederations of Najd",
+    "najd-300bc-632::k8": "The end of the Lakhmid buffer",
+    "najd-300bc-632::k9": "Islam reaches Najd",
+    "najd-300bc-632::k10": "The Ridda — apostasy and reconquest",
+    "najd-300bc-632::c1": "The defence of al-Faw's road",
+    "najd-300bc-632::c2": "Kindah takes and loses al-Ḥīra",
+    "najd-300bc-632::c3": "The ayyām al-ʿArab",
+    "najd-300bc-632::c4": "The Battle of Dhū Qār",
+    "najd-300bc-632::c5": "ʿAqrabāʾ and the Garden of Death",
+    "najd-300bc-632::c6": "Buzākha and the breaking of Ṭulayḥa",
+    "najd-300bc-632::o1": "The temple of Kahl at al-Faw",
+    "najd-300bc-632::o2": "Kindah's viceregal kingship",
+    "najd-300bc-632::o3": "The ḥilf, the jiwār and the sacred months",
+    "najd-300bc-632::o4": "The zakāt and the treaties of 630–631",
+    "najd-300bc-632::b1": "Kahl and the gods of the tribes",
+    "najd-300bc-632::b2": "Christianity among the tribes",
+    "najd-300bc-632::b3": "Jews in the interior",
+    "najd-300bc-632::b4": "The ḥanīfs and the one God",
+    "najd-300bc-632::b5": "The sacred months and the fairs",
+    "najd-300bc-632::ex1": "The art of Qaryat al-Faw",
+    "najd-300bc-632::ex2": "The pre-Islamic qaṣīda",
+    "najd-300bc-632::ex3": "The Muʿallaqāt",
+    "najd-300bc-632::ex4": "ʿAntara and Ḥātim",
+    "najd-300bc-632::ex5": "Poetry as performance",
+    "najd-300bc-632::t1": "The rāwī and the memory of the tribes",
+    "najd-300bc-632::t2": "Excavating Qaryat al-Faw",
+    "najd-300bc-632::t3": "The making of Arabic",
+    "najd-300bc-632::ec1": "Al-Faw and the eastern incense road",
+    "najd-300bc-632::ec2": "The tribal pastoral economy",
+    "najd-300bc-632::ec3": "Al-Yamāma, the granary",
+    "najd-300bc-632::ec4": "The fair economy",
+    "najd-300bc-632::tc1": "The built caravan city",
+    "najd-300bc-632::tc2": "The war-camel and the light horse",
+    "najd-300bc-632::tc3": "A plateau of many scripts",
+    "najd-300bc-632::x1": "Ḥimyar reaches into Najd",
+    "najd-300bc-632::x2": "The Lakhmid–Byzantine tug-of-war",
+    "najd-300bc-632::x3": "Imruʾ al-Qays and the emperor",
+    "najd-300bc-632::x4": "The fairs as an all-Arabian institution",
+    "najd-300bc-632::x5": "Medina reaches the plateau",
+    "najd-300bc-632::w1": "The plateau without a state",
+    "najd-300bc-632::w2": "Kindah, the kingdom that failed",
+    "najd-300bc-632::w3": "The poetry that became a national memory",
+    "najd-300bc-632::w4": "The thread continues — Najd inside the Caliphate",
+    "najd-300bc-632::lv1": "ʿAntara ibn Shaddād",
+    "najd-300bc-632::lv2": "Sajāḥ the prophetess",
+    "najd-300bc-632::lv3": "The qayna and the captive",
     "oman-1970-today::p1": "Qaboos bin Said — the 1970 coup and a 50-year reign",
     "oman-1970-today::p2": "Haitham bin Tariq — succession by sealed letter",
     "oman-1970-today::p3": "Said bin Taimur — the sultanate Qaboos inherited",
@@ -4040,10 +4097,12 @@
       "rome-200-300::ex3"
     ],
     "najd-1200bc-300bc::ec2": [
-      "south-arabia-1200bc-300bc::x1"
+      "south-arabia-1200bc-300bc::x1",
+      "najd-300bc-632::ec1"
     ],
     "south-arabia-1200bc-300bc::x1": [
       "najd-1200bc-300bc::ec2",
+      "najd-300bc-632::ec1",
       "hejaz-prehistory-8000bc-1200bc::x1",
       "nabataean-400bc-106ce::s1",
       "south-arabia-300bc-628::ec1"
@@ -4056,6 +4115,22 @@
     ],
     "najd-1200bc-300bc::x4": [
       "hejaz-prehistory-8000bc-1200bc::x3"
+    ],
+    "najd-300bc-632::k1": [
+      "najd-1200bc-300bc::w3"
+    ],
+    "najd-1200bc-300bc::w3": [
+      "najd-300bc-632::k1"
+    ],
+    "najd-300bc-632::ec1": [
+      "najd-1200bc-300bc::ec2",
+      "south-arabia-1200bc-300bc::x1"
+    ],
+    "najd-300bc-632::x1": [
+      "south-arabia-300bc-628::k10"
+    ],
+    "south-arabia-300bc-628::k10": [
+      "najd-300bc-632::x1"
     ],
     "oman-1970-today::p1": [
       "oman-gulf-1650-1820::k3"
@@ -13905,6 +13980,241 @@
     ],
     "najd-1200bc-300bc::lv3": [
       "Assyria"
+    ],
+    "najd-300bc-632::k1": [
+      "Wadi al-Dawasir",
+      "Saudi Arabia",
+      "Qaryat al-Faw"
+    ],
+    "najd-300bc-632::k2": [
+      "Kindah",
+      "Qaryat al-Faw",
+      "Saudi Arabia",
+      "Muʿāwiya ibn Rabīʿa"
+    ],
+    "najd-300bc-632::k3": [
+      "Lakhmid",
+      "Najd",
+      "Sasanian Persia"
+    ],
+    "najd-300bc-632::k4": [
+      "Kindah",
+      "Yemen",
+      "al-Murār",
+      "Kindite Hujr"
+    ],
+    "najd-300bc-632::k5": [
+      "Kindah",
+      "Al-Ḥārith ibn Amr"
+    ],
+    "najd-300bc-632::k6": [
+      "Kindah",
+      "Najd",
+      "Syria",
+      "Anatolia",
+      "Imru al-Qays"
+    ],
+    "najd-300bc-632::k7": [
+      "Najd"
+    ],
+    "najd-300bc-632::k8": [
+      "Sasanian",
+      "Lakhmid",
+      "Khosrow II",
+      "al-Nuʿmān III"
+    ],
+    "najd-300bc-632::k9": [
+      "Medina",
+      "Islam",
+      "Najd",
+      "Year of Delegations"
+    ],
+    "najd-300bc-632::k10": [
+      "Najd",
+      "Ridda",
+      "Abū Bakr",
+      "Khālid ibn al-Walīd"
+    ],
+    "najd-300bc-632::c1": [
+      "Qaryat al-Faw",
+      "Wadi al-Dawasir"
+    ],
+    "najd-300bc-632::c2": [
+      "Iraq",
+      "Kindah",
+      "Al-Ḥārith ibn Amr"
+    ],
+    "najd-300bc-632::c3": [
+      "Najd",
+      "Jazīra"
+    ],
+    "najd-300bc-632::c4": [
+      "Euphrates",
+      "Dhū Qār",
+      "Bakr ibn Wāʾil"
+    ],
+    "najd-300bc-632::c5": [
+      "al-Yamāma",
+      "al-Kharj",
+      "Saudi Arabia",
+      "Aqrabā",
+      "Garden of Death",
+      "Khālid ibn al-Walīd"
+    ],
+    "najd-300bc-632::c6": [
+      "Buzākha",
+      "Asad"
+    ],
+    "najd-300bc-632::o1": [
+      "Qaryat al-Faw",
+      "Saudi Arabia",
+      "Kahl",
+      "South Arabian"
+    ],
+    "najd-300bc-632::o2": [
+      "Yemen",
+      "Kindah"
+    ],
+    "najd-300bc-632::o3": [
+      "Najd"
+    ],
+    "najd-300bc-632::o4": [
+      "Najd",
+      "Medina"
+    ],
+    "najd-300bc-632::b1": [
+      "al-Faw",
+      "Jabal Ajā",
+      "Najd",
+      "Kahl"
+    ],
+    "najd-300bc-632::b2": [
+      "Christianity"
+    ],
+    "najd-300bc-632::b3": [
+      "al-Yamāma",
+      "Jews"
+    ],
+    "najd-300bc-632::b4": [
+      "God",
+      "Quss ibn Sāʿida of Iyād",
+      "Last Judgement"
+    ],
+    "najd-300bc-632::b5": [
+      "Ukā",
+      "Majanna",
+      "Dhū al-Majāz"
+    ],
+    "najd-300bc-632::ex1": [
+      "Qaryat al-Faw",
+      "Saudi Arabia",
+      "South Arabian"
+    ],
+    "najd-300bc-632::ex2": [
+      "Najd",
+      "Imru al-Qays"
+    ],
+    "najd-300bc-632::ex3": [
+      "Ukā",
+      "Iraq",
+      "Muʿallaqāt",
+      "Imru al-Qays"
+    ],
+    "najd-300bc-632::ex4": [
+      "Najd",
+      "Antara",
+      "Antara ibn Shaddād of Abs"
+    ],
+    "najd-300bc-632::ex5": [
+      "Poetry"
+    ],
+    "najd-300bc-632::t1": [
+      "Arabia",
+      "Kufa",
+      "Basra",
+      "Islamic Iraq"
+    ],
+    "najd-300bc-632::t2": [
+      "Wadi al-Dawasir",
+      "Saudi Arabia",
+      "Excavating Qaryat al-Faw"
+    ],
+    "najd-300bc-632::t3": [
+      "Arabic"
+    ],
+    "najd-300bc-632::ec1": [
+      "Najrān",
+      "al-Faw",
+      "Gulf"
+    ],
+    "najd-300bc-632::ec3": [
+      "Wadi Hanifa",
+      "al-Kharj",
+      "Al-Yamāma"
+    ],
+    "najd-300bc-632::ec4": [
+      "Ukā",
+      "Majanna",
+      "Dhū al-Majāz"
+    ],
+    "najd-300bc-632::tc1": [
+      "Qaryat al-Faw",
+      "Saudi Arabia"
+    ],
+    "najd-300bc-632::tc2": [
+      "Najd"
+    ],
+    "najd-300bc-632::tc3": [
+      "Qaryat al-Faw",
+      "South Arabian Musnad"
+    ],
+    "najd-300bc-632::x1": [
+      "Zafar",
+      "Najd",
+      "Abikarib Asʿad"
+    ],
+    "najd-300bc-632::x2": [
+      "Syrian",
+      "Lakhmid–Byzantine"
+    ],
+    "najd-300bc-632::x3": [
+      "Constantinople",
+      "Anatolia",
+      "Imru al-Qays"
+    ],
+    "najd-300bc-632::x4": [
+      "Ukā",
+      "Najd–Hijaz"
+    ],
+    "najd-300bc-632::x5": [
+      "Najd",
+      "Medina",
+      "Qurʾan-teachers the Prophet"
+    ],
+    "najd-300bc-632::w1": [
+      "Najd"
+    ],
+    "najd-300bc-632::w2": [
+      "Kindah"
+    ],
+    "najd-300bc-632::w3": [
+      "Najd",
+      "Iraq"
+    ],
+    "najd-300bc-632::w4": [
+      "al-Yamāma",
+      "Najd",
+      "Caliphate"
+    ],
+    "najd-300bc-632::lv1": [
+      "Abs",
+      "Najd",
+      "Antara ibn Shaddād"
+    ],
+    "najd-300bc-632::lv2": [
+      "Jazīra",
+      "Najd",
+      "Sajā"
     ],
     "oman-1970-today::p1": [
       "Al Bu Said",
@@ -24210,6 +24520,7 @@
       "caliphate-632-750::b7",
       "ghassanid-420-638::r4",
       "ghassanid-420-638::a5",
+      "najd-300bc-632::k9",
       "south-arabia-300bc-628::w3",
       "spain-718-1230::a5",
       "uae-1971-today::b2",
@@ -24937,6 +25248,7 @@
       "ghassanid-420-638::s1",
       "ghassanid-420-638::ex3",
       "mamluks-1250-1517::x1",
+      "najd-300bc-632::x3",
       "palmyrene-100bc-273ce::t2",
       "rome-200-300::a5",
       "rome-300-400::p4",
@@ -25293,6 +25605,7 @@
     "Caliphate": [
       "al-andalus-711-1031::c7",
       "al-andalus-711-1031::w1",
+      "najd-300bc-632::w4",
       "yemen-628-1517::k2"
     ],
     "Ramiro II of León": [
@@ -25310,6 +25623,7 @@
     ],
     "Jews": [
       "al-andalus-711-1031::o1",
+      "najd-300bc-632::b3",
       "palmyrene-100bc-273ce::o3",
       "south-arabia-300bc-628::lv2",
       "spain-718-1230::lv2"
@@ -25659,6 +25973,7 @@
       "lakhmid-268-602::ex3",
       "lakhmid-268-602::w4",
       "nabataean-400bc-106ce::ex2",
+      "najd-300bc-632::t3",
       "south-arabia-300bc-628::t3",
       "spain-718-1230::t1"
     ],
@@ -25793,6 +26108,13 @@
       "najd-1200bc-300bc::k8",
       "najd-1200bc-300bc::ec3",
       "najd-1200bc-300bc::w3",
+      "najd-300bc-632::k1",
+      "najd-300bc-632::k2",
+      "najd-300bc-632::c5",
+      "najd-300bc-632::o1",
+      "najd-300bc-632::ex1",
+      "najd-300bc-632::t2",
+      "najd-300bc-632::tc1",
       "oman-1970-today::x5",
       "south-arabia-1200bc-300bc::x3",
       "south-arabia-300bc-628::c4",
@@ -26139,6 +26461,7 @@
       "magan-3000bc-300bc::w2",
       "nabataean-400bc-106ce::c2",
       "nabataean-400bc-106ce::ex2",
+      "najd-300bc-632::t1",
       "palmyrene-100bc-273ce::c3",
       "sassanid-484-651::w1",
       "sassanid-484-651::lv3",
@@ -26488,6 +26811,7 @@
       "nabataean-400bc-106ce::t2",
       "najd-1200bc-300bc::k1",
       "najd-1200bc-300bc::c1",
+      "najd-300bc-632::k6",
       "palmyrene-100bc-273ce::k1",
       "palmyrene-100bc-273ce::c3",
       "palmyrene-100bc-273ce::c5",
@@ -26984,6 +27308,8 @@
       "fatimids-909-1171::x3",
       "fatimids-909-1171::w6",
       "nabataean-400bc-106ce::c2",
+      "najd-300bc-632::k4",
+      "najd-300bc-632::o2",
       "south-arabia-1200bc-300bc::k2",
       "south-arabia-1200bc-300bc::k4",
       "south-arabia-1200bc-300bc::k5",
@@ -27390,6 +27716,7 @@
       "lakhmid-268-602::c1",
       "lakhmid-268-602::w1",
       "mamluks-1250-1517::w2",
+      "najd-300bc-632::x2",
       "tylos-mleiha-300bc-300ad::w3"
     ],
     "Outremer": [
@@ -27415,6 +27742,8 @@
       "caliphate-945-1258::c3",
       "caliphate-945-1258::b4",
       "caliphate-945-1258::x1",
+      "najd-300bc-632::k6",
+      "najd-300bc-632::x3",
       "palmyrene-100bc-273ce::c3",
       "sassanid-484-651::k4",
       "sassanid-484-651::k8"
@@ -27462,6 +27791,7 @@
       "caliphate-750-945::w1",
       "lakhmid-268-602::a5",
       "lakhmid-268-602::s2",
+      "najd-300bc-632::k8",
       "south-arabia-300bc-628::k13"
     ],
     "Mishmahig Bahrain": [
@@ -27709,6 +28039,7 @@
       "eastern-arabia-750-1200::lv1",
       "eastern-arabia-750-1200::lv5",
       "najd-1200bc-300bc::t3",
+      "najd-300bc-632::t1",
       "portuguese-gulf-1507-1650::t4",
       "portuguese-gulf-1507-1650::ec4",
       "trucial-gulf-1820-1971::w3"
@@ -27775,6 +28106,7 @@
     "Ridda": [
       "beth-qatraye-240-750::c2",
       "caliphate-632-750::k1",
+      "najd-300bc-632::k10",
       "yemen-628-1517::k1",
       "yemen-628-1517::c1"
     ],
@@ -27928,6 +28260,7 @@
       "hormuz-1200-1507::w4",
       "magan-3000bc-300bc::x1",
       "magan-3000bc-300bc::w1",
+      "najd-300bc-632::ec1",
       "oman-1970-today::w1",
       "oman-1970-today::w3",
       "oman-1970-today::w4",
@@ -28205,6 +28538,9 @@
       "lakhmid-268-602::k1",
       "lakhmid-268-602::t3",
       "lakhmid-268-602::w5",
+      "najd-300bc-632::c2",
+      "najd-300bc-632::ex3",
+      "najd-300bc-632::w3",
       "oman-1970-today::w4",
       "oman-gulf-1650-1820::c4",
       "rome-200-300::c2",
@@ -28480,6 +28816,9 @@
       "ghassanid-420-638::a5",
       "mamluks-1250-1517::o7",
       "mamluks-1250-1517::lv4",
+      "najd-300bc-632::k9",
+      "najd-300bc-632::o4",
+      "najd-300bc-632::x5",
       "oman-gulf-1650-1820::b5",
       "sassanid-484-651::lv2"
     ],
@@ -28645,6 +28984,7 @@
       "lakhmid-268-602::ex3",
       "lakhmid-268-602::w5",
       "najd-1200bc-300bc::t3",
+      "najd-300bc-632::t1",
       "south-arabia-300bc-628::t3"
     ],
     "Ali": [
@@ -28735,6 +29075,7 @@
       "lakhmid-268-602::c4",
       "mamluks-1250-1517::tc3",
       "mamluks-1250-1517::w1",
+      "najd-300bc-632::c4",
       "palmyrene-100bc-273ce::c1",
       "sassanid-484-651::w2"
     ],
@@ -28781,6 +29122,25 @@
       "najd-1200bc-300bc::ec1",
       "najd-1200bc-300bc::x4",
       "najd-1200bc-300bc::w3",
+      "najd-300bc-632::k3",
+      "najd-300bc-632::k6",
+      "najd-300bc-632::k7",
+      "najd-300bc-632::k9",
+      "najd-300bc-632::k10",
+      "najd-300bc-632::c3",
+      "najd-300bc-632::o3",
+      "najd-300bc-632::o4",
+      "najd-300bc-632::b1",
+      "najd-300bc-632::ex2",
+      "najd-300bc-632::ex4",
+      "najd-300bc-632::tc2",
+      "najd-300bc-632::x1",
+      "najd-300bc-632::x5",
+      "najd-300bc-632::w1",
+      "najd-300bc-632::w3",
+      "najd-300bc-632::w4",
+      "najd-300bc-632::lv1",
+      "najd-300bc-632::lv2",
       "oman-gulf-1650-1820::b2",
       "oman-gulf-1650-1820::e3",
       "oman-gulf-1650-1820::t2",
@@ -28813,6 +29173,7 @@
     ],
     "Sasanian Persia": [
       "caliphate-632-750::c3",
+      "najd-300bc-632::k3",
       "south-arabia-300bc-628::x3"
     ],
     "Victory of Victories": [
@@ -28919,6 +29280,7 @@
       "caliphate-632-750::b3",
       "france-1715-1789::r2",
       "france-1789-1815::r1",
+      "najd-300bc-632::b4",
       "rome-400-500::tx1",
       "south-arabia-300bc-628::k9"
     ],
@@ -35006,7 +35368,9 @@
       "ghassanid-420-638::c3",
       "lakhmid-268-602::c4",
       "lakhmid-268-602::a3",
-      "lakhmid-268-602::t2"
+      "lakhmid-268-602::t2",
+      "najd-300bc-632::k3",
+      "najd-300bc-632::k8"
     ],
     "Sasanian Arab": [
       "ghassanid-420-638::c3"
@@ -36925,6 +37289,7 @@
     ],
     "Khosrow II": [
       "lakhmid-268-602::k12",
+      "najd-300bc-632::k8",
       "sassanid-484-651::k9",
       "sassanid-484-651::c3",
       "sassanid-484-651::c5",
@@ -38219,12 +38584,15 @@
     ],
     "Wadi Hanifa": [
       "najd-1200bc-300bc::k7",
-      "najd-1200bc-300bc::ec3"
+      "najd-1200bc-300bc::ec3",
+      "najd-300bc-632::ec3"
     ],
     "al-Kharj": [
       "najd-1200bc-300bc::k7",
       "najd-1200bc-300bc::ec2",
-      "najd-1200bc-300bc::ec3"
+      "najd-1200bc-300bc::ec3",
+      "najd-300bc-632::c5",
+      "najd-300bc-632::ec3"
     ],
     "al-Aflaj": [
       "najd-1200bc-300bc::k7",
@@ -38235,10 +38603,20 @@
     ],
     "Kindah": [
       "najd-1200bc-300bc::k8",
-      "najd-1200bc-300bc::w3"
+      "najd-1200bc-300bc::w3",
+      "najd-300bc-632::k2",
+      "najd-300bc-632::k4",
+      "najd-300bc-632::k5",
+      "najd-300bc-632::k6",
+      "najd-300bc-632::c2",
+      "najd-300bc-632::o2",
+      "najd-300bc-632::w2"
     ],
     "Wadi al-Dawasir": [
-      "najd-1200bc-300bc::k8"
+      "najd-1200bc-300bc::k8",
+      "najd-300bc-632::k1",
+      "najd-300bc-632::c1",
+      "najd-300bc-632::t2"
     ],
     "Orontes": [
       "najd-1200bc-300bc::c1"
@@ -38281,7 +38659,212 @@
       "najd-1200bc-300bc::w2"
     ],
     "Qaryat al-Faw": [
-      "najd-1200bc-300bc::w3"
+      "najd-1200bc-300bc::w3",
+      "najd-300bc-632::k1",
+      "najd-300bc-632::k2",
+      "najd-300bc-632::c1",
+      "najd-300bc-632::o1",
+      "najd-300bc-632::ex1",
+      "najd-300bc-632::tc1",
+      "najd-300bc-632::tc3"
+    ],
+    "Muʿāwiya ibn Rabīʿa": [
+      "najd-300bc-632::k2"
+    ],
+    "al-Murār": [
+      "najd-300bc-632::k4"
+    ],
+    "Kindite Hujr": [
+      "najd-300bc-632::k4"
+    ],
+    "Al-Ḥārith ibn Amr": [
+      "najd-300bc-632::k5",
+      "najd-300bc-632::c2"
+    ],
+    "Imru al-Qays": [
+      "najd-300bc-632::k6",
+      "najd-300bc-632::ex2",
+      "najd-300bc-632::ex3",
+      "najd-300bc-632::x3"
+    ],
+    "al-Nuʿmān III": [
+      "najd-300bc-632::k8"
+    ],
+    "Year of Delegations": [
+      "najd-300bc-632::k9"
+    ],
+    "Abū Bakr": [
+      "najd-300bc-632::k10"
+    ],
+    "Khālid ibn al-Walīd": [
+      "najd-300bc-632::k10",
+      "najd-300bc-632::c5"
+    ],
+    "Jazīra": [
+      "najd-300bc-632::c3",
+      "najd-300bc-632::lv2"
+    ],
+    "Dhū Qār": [
+      "najd-300bc-632::c4"
+    ],
+    "Bakr ibn Wāʾil": [
+      "najd-300bc-632::c4"
+    ],
+    "al-Yamāma": [
+      "najd-300bc-632::c5",
+      "najd-300bc-632::b3",
+      "najd-300bc-632::w4"
+    ],
+    "Aqrabā": [
+      "najd-300bc-632::c5"
+    ],
+    "Garden of Death": [
+      "najd-300bc-632::c5"
+    ],
+    "Buzākha": [
+      "najd-300bc-632::c6"
+    ],
+    "Asad": [
+      "najd-300bc-632::c6"
+    ],
+    "Kahl": [
+      "najd-300bc-632::o1",
+      "najd-300bc-632::b1"
+    ],
+    "South Arabian": [
+      "najd-300bc-632::o1",
+      "najd-300bc-632::ex1",
+      "south-arabia-1200bc-300bc::ex1",
+      "south-arabia-1200bc-300bc::ex2",
+      "south-arabia-1200bc-300bc::ex3",
+      "south-arabia-1200bc-300bc::ex4",
+      "south-arabia-1200bc-300bc::ex5",
+      "south-arabia-1200bc-300bc::tc2",
+      "south-arabia-1200bc-300bc::tc4",
+      "south-arabia-1200bc-300bc::x4",
+      "south-arabia-1200bc-300bc::w2",
+      "south-arabia-1200bc-300bc::lv1",
+      "south-arabia-300bc-628::k4",
+      "south-arabia-300bc-628::o2",
+      "south-arabia-300bc-628::ex3",
+      "south-arabia-300bc-628::t1",
+      "south-arabia-300bc-628::ec3",
+      "south-arabia-300bc-628::tc2",
+      "south-arabia-300bc-628::x2",
+      "south-arabia-300bc-628::x5",
+      "south-arabia-prehistory-8000bc-1200bc::b1",
+      "south-arabia-prehistory-8000bc-1200bc::b2",
+      "south-arabia-prehistory-8000bc-1200bc::ec6",
+      "south-arabia-prehistory-8000bc-1200bc::x4",
+      "tylos-mleiha-300bc-300ad::b4",
+      "yemen-628-1517::t3"
+    ],
+    "al-Faw": [
+      "najd-300bc-632::b1",
+      "najd-300bc-632::ec1"
+    ],
+    "Jabal Ajā": [
+      "najd-300bc-632::b1"
+    ],
+    "Christianity": [
+      "najd-300bc-632::b2"
+    ],
+    "Quss ibn Sāʿida of Iyād": [
+      "najd-300bc-632::b4"
+    ],
+    "Last Judgement": [
+      "najd-300bc-632::b4",
+      "spain-718-1230::a4"
+    ],
+    "Ukā": [
+      "najd-300bc-632::b5",
+      "najd-300bc-632::ex3",
+      "najd-300bc-632::ec4",
+      "najd-300bc-632::x4"
+    ],
+    "Majanna": [
+      "najd-300bc-632::b5",
+      "najd-300bc-632::ec4"
+    ],
+    "Dhū al-Majāz": [
+      "najd-300bc-632::b5",
+      "najd-300bc-632::ec4"
+    ],
+    "Muʿallaqāt": [
+      "najd-300bc-632::ex3"
+    ],
+    "Antara": [
+      "najd-300bc-632::ex4"
+    ],
+    "Antara ibn Shaddād of Abs": [
+      "najd-300bc-632::ex4"
+    ],
+    "Poetry": [
+      "najd-300bc-632::ex5"
+    ],
+    "Islamic Iraq": [
+      "najd-300bc-632::t1"
+    ],
+    "Excavating Qaryat al-Faw": [
+      "najd-300bc-632::t2"
+    ],
+    "Najrān": [
+      "najd-300bc-632::ec1"
+    ],
+    "Al-Yamāma": [
+      "najd-300bc-632::ec3"
+    ],
+    "South Arabian Musnad": [
+      "najd-300bc-632::tc3"
+    ],
+    "Zafar": [
+      "najd-300bc-632::x1",
+      "south-arabia-300bc-628::k4",
+      "south-arabia-300bc-628::k5",
+      "south-arabia-300bc-628::k6",
+      "south-arabia-300bc-628::k7",
+      "south-arabia-300bc-628::k8",
+      "south-arabia-300bc-628::k9",
+      "south-arabia-300bc-628::k10",
+      "south-arabia-300bc-628::k11",
+      "south-arabia-300bc-628::c5",
+      "south-arabia-300bc-628::o1",
+      "south-arabia-300bc-628::o2",
+      "south-arabia-300bc-628::o3",
+      "south-arabia-300bc-628::b1",
+      "south-arabia-300bc-628::b2",
+      "south-arabia-300bc-628::b3",
+      "south-arabia-300bc-628::b4",
+      "south-arabia-300bc-628::ex1",
+      "south-arabia-300bc-628::ex2",
+      "south-arabia-300bc-628::ex3",
+      "south-arabia-300bc-628::ex4",
+      "south-arabia-300bc-628::ec5",
+      "south-arabia-300bc-628::x1",
+      "south-arabia-300bc-628::w1",
+      "south-arabia-300bc-628::lv2"
+    ],
+    "Abikarib Asʿad": [
+      "najd-300bc-632::x1",
+      "south-arabia-300bc-628::k10"
+    ],
+    "Lakhmid–Byzantine": [
+      "najd-300bc-632::x2"
+    ],
+    "Najd–Hijaz": [
+      "najd-300bc-632::x4"
+    ],
+    "Qurʾan-teachers the Prophet": [
+      "najd-300bc-632::x5"
+    ],
+    "Abs": [
+      "najd-300bc-632::lv1"
+    ],
+    "Antara ibn Shaddād": [
+      "najd-300bc-632::lv1"
+    ],
+    "Sajā": [
+      "najd-300bc-632::lv2"
     ],
     "Al Bu Said": [
       "oman-1970-today::p1",
@@ -41618,32 +42201,6 @@
     "Bar'an": [
       "south-arabia-1200bc-300bc::ex1"
     ],
-    "South Arabian": [
-      "south-arabia-1200bc-300bc::ex1",
-      "south-arabia-1200bc-300bc::ex2",
-      "south-arabia-1200bc-300bc::ex3",
-      "south-arabia-1200bc-300bc::ex4",
-      "south-arabia-1200bc-300bc::ex5",
-      "south-arabia-1200bc-300bc::tc2",
-      "south-arabia-1200bc-300bc::tc4",
-      "south-arabia-1200bc-300bc::x4",
-      "south-arabia-1200bc-300bc::w2",
-      "south-arabia-1200bc-300bc::lv1",
-      "south-arabia-300bc-628::k4",
-      "south-arabia-300bc-628::o2",
-      "south-arabia-300bc-628::ex3",
-      "south-arabia-300bc-628::t1",
-      "south-arabia-300bc-628::ec3",
-      "south-arabia-300bc-628::tc2",
-      "south-arabia-300bc-628::x2",
-      "south-arabia-300bc-628::x5",
-      "south-arabia-prehistory-8000bc-1200bc::b1",
-      "south-arabia-prehistory-8000bc-1200bc::b2",
-      "south-arabia-prehistory-8000bc-1200bc::ec6",
-      "south-arabia-prehistory-8000bc-1200bc::x4",
-      "tylos-mleiha-300bc-300ad::b4",
-      "yemen-628-1517::t3"
-    ],
     "Musnad": [
       "south-arabia-1200bc-300bc::ex2"
     ],
@@ -41756,32 +42313,6 @@
     "Qana Bir Ali": [
       "south-arabia-300bc-628::k3"
     ],
-    "Zafar": [
-      "south-arabia-300bc-628::k4",
-      "south-arabia-300bc-628::k5",
-      "south-arabia-300bc-628::k6",
-      "south-arabia-300bc-628::k7",
-      "south-arabia-300bc-628::k8",
-      "south-arabia-300bc-628::k9",
-      "south-arabia-300bc-628::k10",
-      "south-arabia-300bc-628::k11",
-      "south-arabia-300bc-628::c5",
-      "south-arabia-300bc-628::o1",
-      "south-arabia-300bc-628::o2",
-      "south-arabia-300bc-628::o3",
-      "south-arabia-300bc-628::b1",
-      "south-arabia-300bc-628::b2",
-      "south-arabia-300bc-628::b3",
-      "south-arabia-300bc-628::b4",
-      "south-arabia-300bc-628::ex1",
-      "south-arabia-300bc-628::ex2",
-      "south-arabia-300bc-628::ex3",
-      "south-arabia-300bc-628::ex4",
-      "south-arabia-300bc-628::ec5",
-      "south-arabia-300bc-628::x1",
-      "south-arabia-300bc-628::w1",
-      "south-arabia-300bc-628::lv2"
-    ],
     "Yarim": [
       "south-arabia-300bc-628::k4",
       "south-arabia-300bc-628::ex1"
@@ -41821,9 +42352,6 @@
     "Lord of Heaven": [
       "south-arabia-300bc-628::k9",
       "south-arabia-300bc-628::b2"
-    ],
-    "Abikarib Asʿad": [
-      "south-arabia-300bc-628::k10"
     ],
     "Tubba": [
       "south-arabia-300bc-628::k10"
@@ -46225,9 +46753,6 @@
       "spain-718-1230::a3"
     ],
     "Master Mateo Pórtico de la Gloria": [
-      "spain-718-1230::a4"
-    ],
-    "Last Judgement": [
       "spain-718-1230::a4"
     ],
     "San Pedro de Cardeña": [
