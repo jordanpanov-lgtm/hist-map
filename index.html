@@ -415,6 +415,7 @@ let NEXUS_BUILT_FOR = null; // MOD.id the #nx-svg was last rendered for, so swit
 const _HASH_VIEWS = new Set(['list', 'timeline', 'map', 'nexus']); // reserved 2nd hash segments
 let _selfHash = false;   // set immediately before we assign location.hash ourselves
 let _replaying = false;  // set while route() is applying a hash to the page
+let _pickerOpen = false; // folio picker overlay open — reflected in the hash as #browse[/<region>,…]
 
 function catIcon(cat) { return CAT_ICONS[cat.id] || cat.icon || "•"; }
 function catColor(cat) { return (CAT_COLORS[cat.id] && CAT_COLORS[cat.id].color) || cat.color || "#333"; }
@@ -536,8 +537,14 @@ function renderHeader() {
 let NX = null; // {nodeById, edgeEls, nodeEls, hubRank}
 
 // Year label for the Nexus axis, node boxes and popup — mirrors buildTimeline's
-// fmtYear so a negative year reads "3000 BC", never "-3000".
-const nxYear = yr => yr < 0 ? Math.abs(yr) + ' BC' : yr + ' AD';
+// fmtYear so a negative year reads "3000 BC", never "-3000". Folios from the
+// Medieval period on drop the " AD" suffix (every year is already unambiguous);
+// BC / AD stay on the earlier periods that straddle the era boundary.
+const NX_AD_PERIODS = new Set(['Prehistoric', 'Ancient', 'Late Antique']);
+const nxYear = yr => {
+  if (yr < 0) return Math.abs(yr) + ' BC';
+  return (!MOD || NX_AD_PERIODS.has(MOD.period_label)) ? yr + ' AD' : String(yr);
+};
 
 function buildNexus() {
   const stageEl = document.getElementById('nx-stage');
@@ -809,6 +816,7 @@ function buildMatrix() {
         region.subs.forEach(s => { _t2Collapsed[s.id] = false; });
       }
       buildMatrix();
+      writeHash(false);
     };
     t1tr.appendChild(t1td);
     tbody.appendChild(t1tr);
@@ -833,7 +841,7 @@ function buildMatrix() {
         <span class="m-t2-label">${sub.label}</span>
         ${subCount > 0 ? `<span class="m-count">${subCount} folio${subCount > 1 ? 's' : ''}</span>` : ''}
       `;
-      t2td.onclick = () => { _t2Collapsed[sub.id] = !_t2Collapsed[sub.id]; buildMatrix(); };
+      t2td.onclick = () => { _t2Collapsed[sub.id] = !_t2Collapsed[sub.id]; buildMatrix(); writeHash(false); };
       t2tr.appendChild(t2td);
       tbody.appendChild(t2tr);
       if (t2Collapsed) return;
@@ -886,13 +894,16 @@ function _appendFolioRow(tbody, label, tier, mods) {
   tbody.appendChild(tr);
 }
 
-function openPicker() {
+function openPicker(fromRoute) {
   buildMatrix();
   buildCorpusCards();
   document.getElementById('global-search').value = '';
   document.getElementById('global-results').classList.remove('open');
   document.getElementById('global-results').innerHTML = '';
   document.getElementById('module-overlay').classList.add('open');
+  _pickerOpen = true;
+  if (!fromRoute) writeHash(true);
+  else _scrollExpandedRegionIntoView();
   setTimeout(() => document.getElementById('global-search').focus(), 80);
 }
 function closePicker(force) {
@@ -900,6 +911,42 @@ function closePicker(force) {
   // but always allow when force=true (card click or close button)
   if (!force && !MOD && !currentCorpus) return;
   document.getElementById('module-overlay').classList.remove('open');
+  if (_pickerOpen) { _pickerOpen = false; if (!_replaying) writeHash(true); }
+}
+
+// #browse  ·  #browse/<regionOrSubId>,<…>  — picker open, with those tiers expanded
+function _pickerHashSuffix() {
+  const open = [];
+  TAXONOMY.forEach(r => {
+    if (!_t1Collapsed[r.id]) {
+      open.push(r.id);
+      r.subs.forEach(s => { if (!_t2Collapsed[s.id]) open.push(s.id); });
+    }
+  });
+  return open.length ? '/' + open.join(',') : '';
+}
+function _applyPickerHash(seg) {
+  const want = new Set((seg || '').split(',').map(s => s.trim()).filter(Boolean));
+  TAXONOMY.forEach(r => {
+    const rOpen = want.has(r.id);
+    _t1Collapsed[r.id] = !rOpen;
+    const anySubNamed = r.subs.some(s => want.has(s.id));
+    r.subs.forEach(s => {
+      // a sub is open if named directly, or — for a region opened without any
+      // sub named (e.g. a hand-typed #browse/<region>) — by inheriting the region
+      _t2Collapsed[s.id] = !(want.has(s.id) || (rOpen && !anySubNamed));
+    });
+  });
+}
+function _scrollExpandedRegionIntoView() {
+  const open = TAXONOMY.find(r => !_t1Collapsed[r.id]);
+  if (!open) return;
+  setTimeout(() => {
+    const rows = document.querySelectorAll('#matrix-body .matrix-t1-cell .m-t1-label');
+    for (const el of rows) {
+      if (el.textContent.trim() === open.label) { el.closest('tr').scrollIntoView({ block: 'start', behavior: 'auto' }); break; }
+    }
+  }, 30);
 }
 
 // ── GLOBAL SEARCH ─────────────────────────────────────────────────────────────
@@ -1613,6 +1660,7 @@ function renderPins() {
 // (_HASH_VIEWS / _selfHash / _replaying are declared with the other STATE vars.)
 
 function computeHash() {
+  if (_pickerOpen) return 'browse' + _pickerHashSuffix();
   if (currentCorpus) return currentCorpus.id;
   if (!MOD) return '';
   const modalOpen = document.getElementById('modal-overlay').classList.contains('open');
@@ -1631,16 +1679,21 @@ function writeHash(push) {
 
 function route() {
   const raw = decodeURIComponent(location.hash.replace(/^#/, '')).trim();
-  if (!raw) { openPicker(); return; }
   const cut = raw.indexOf('/');
   const id  = cut === -1 ? raw : raw.slice(0, cut);
   const seg = cut === -1 ? '' : raw.slice(cut + 1);
+
+  // #browse[/<region>,…]  and the bare root both land on the folio picker
+  if (!raw || id === 'browse') { _applyPickerHash(id === 'browse' ? seg : ''); openPicker(true); return; }
+
+  // any other hash means we're leaving the picker
+  if (_pickerOpen) { _pickerOpen = false; document.getElementById('module-overlay').classList.remove('open'); }
 
   const corpus = CORPORA.find(c => c.id === id);
   if (corpus) { if (!currentCorpus || currentCorpus.id !== id) loadCorpus(corpus); return; }
 
   const mod = MODULES.find(m => m.id === id);
-  if (!mod) { openPicker(); return; }
+  if (!mod) { openPicker(true); return; }
 
   const apply = () => {
     _replaying = true;
