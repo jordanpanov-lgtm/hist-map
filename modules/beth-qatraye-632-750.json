@@ -1,0 +1,893 @@
+{
+  "id": "beth-qatraye-632-750",
+  "title": "The Church of Beth Qatraye & the First Islamic Century",
+  "subtitle": "632–750 AD · The Ridda, the Synod of Dayrin, the Syriac Writers and the Twilight of Gulf Christianity",
+  "period": {
+    "start": 632,
+    "end": 750
+  },
+  "region": "Arabia",
+  "period_label": "Medieval",
+  "mapCenter": [
+    25.4,
+    51.2
+  ],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "Eastern Arabia governed from Basra, and the first Ibadi imam of Oman",
+      "entries": [
+        {
+          "id": "k5",
+          "group": "Umayyad & Abbasid Rule",
+          "label": "Eastern Arabia governed from Basra",
+          "date": "c.640–748 AD",
+          "loc": "Bahrain and Oman as provinces of Basra",
+          "coords": [
+            30.5,
+            47.8
+          ],
+          "hint": "Under the Umayyads and early Abbasids, Bahrain and Oman were administered as appendages of Basra, their governors appointed by the Iraqi viceroy. Distance from the centre made both regions chronically hard to hold.",
+          "tag": "APPOINTED",
+          "note": "al-Tabari and al-Baladhuri on the Basran governorship of al-Bahrayn and Oman; the Azd of Oman as a major faction in Basra itself.",
+          "dynasty": "Umayyad",
+          "keywords": ["Umayyad","Bahrain","Oman","Basra","Eastern Arabia"]
+        },
+        {
+          "id": "k6",
+          "group": "The First Ibadi Imamate",
+          "label": "Al-Julanda ibn Masud, first imam of Oman",
+          "date": "749–751 AD",
+          "loc": "Oman interior; killed near Julfar",
+          "coords": [
+            24.3,
+            56.1
+          ],
+          "hint": "As the Umayyad state collapsed, the Omani Ibadis elected al-Julanda ibn Masud as imam — the first attempt to realise their ideal of a community governed by an elected, deposable religious leader. An Abbasid army killed him within two years.",
+          "tag": "SUCCESSION",
+          "note": "Ibadi chronicle tradition (al-Salimi, 'Tuhfat al-Ayan'); Wilkinson, 'The Imamate Tradition of Oman' (1987). Killed at the battle of Julfar, 751.",
+          "dynasty": "Julanda",
+          "xlinks": [
+            "eastern-arabia-750-1200::k2"
+          ],
+          "keywords": ["Julanda","Oman","Julfar","Al-Julanda ibn Masud","Omani Ibadis"]
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "The Ridda battles that fixed the Gulf inside Islam, and the crushing of the first imamate",
+      "entries": [
+        {
+          "id": "c2",
+          "group": "Ridda Wars",
+          "label": "The Ridda war in Bahrain — the siege of Juwatha",
+          "date": "632–633 AD",
+          "loc": "Juwatha and Hajar, al-Hasa",
+          "coords": [
+            25.42,
+            49.65
+          ],
+          "hint": "On the Prophet's death much of Bahrain renounced Islam under al-Hutam and a claimant king. The Muslim loyalists, chiefly the Abd al-Qays, were besieged at Juwatha until a relief force under al-Ala al-Hadrami broke the revolt.",
+          "tag": "BATTLE",
+          "note": "al-Tabari on the Ridda in al-Bahrayn; the siege of Juwatha and the battle that followed, 633; al-Ala ibn al-Hadrami's command.",
+          "xlinks": [
+            "caliphate-632-750::c1"
+          ],
+          "keywords": ["Juwatha","Hajar","al-Hasa","Ridda","Bahrain","Abd al-Qays"]
+        },
+        {
+          "id": "c3",
+          "group": "Ridda Wars",
+          "label": "The Battle of Dibba",
+          "date": "633 AD",
+          "loc": "Dibba, on the Gulf of Oman coast",
+          "coords": [
+            25.62,
+            56.27
+          ],
+          "hint": "The Omani apostasy under Laqit ibn Malik, 'Dhu al-Taj', ended at Dibba, where a caliphal army with Julanda allies destroyed the rebel host. A vast early cemetery at Dibba is traditionally linked to the dead of the battle.",
+          "tag": "BATTLE",
+          "note": "al-Baladhuri and al-Tabari on the Omani Ridda and Dibba, 633; the Dibba cemetery excavated by the Sharjah and Fujairah authorities.",
+          "keywords": ["Dibba","Gulf of Oman","Laqit ibn Malik","Dhu al-Taj"]
+        },
+        {
+          "id": "c4",
+          "group": "Kharijite & Ibadi Revolts",
+          "label": "The Abbasid conquest of Ibadi Oman",
+          "date": "751 AD",
+          "loc": "Julfar, northern Oman coast",
+          "coords": [
+            25.79,
+            55.94
+          ],
+          "hint": "An Abbasid expeditionary force under Khazim ibn Khuzayma crushed the first Ibadi imamate at Julfar, killing Imam al-Julanda ibn Masud. Ibadi self-government in Oman would have to be rebuilt from scratch a generation later.",
+          "tag": "BATTLE",
+          "note": "al-Tabari on Khazim ibn Khuzayma's campaign; Ibadi accounts of the martyrdom of al-Julanda ibn Masud (al-Salimi).",
+          "keywords": ["Julfar","Abbasid","Ibadi Oman","Khazim ibn Khuzayma","Imam al-Julanda ibn Masud"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "Caliphal tax from Basra, a Gulf church running itself, and the synod that reined it back in",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Colonial Law",
+          "label": "Governing the Gulf from Basra",
+          "date": "c.638–750 AD",
+          "loc": "al-Bahrayn and Oman, assessed from Basra",
+          "coords": [
+            30.5,
+            47.8
+          ],
+          "hint": "Under the Rashidun and Umayyads the Gulf coast was run as an appendage of Basra: a governor (ʿāmil) collected the ṣadaqa and the jizya, confirmed tribal leaders and left the interior largely alone. Distance made the arrangement loose, and both Bahrain and Oman slipped in and out of real caliphal control.",
+          "tag": "LAW",
+          "note": "al-Baladhuri and al-Tabari on the Basran administration of al-Bahrayn and Oman; the ṣadaqa/jizya assessment of the region.",
+          "dynasty": "Rashidun",
+          "keywords": ["Rashidun","al-Bahrayn","Oman","Basra","Governing the Gulf","Umayyads the Gulf"]
+        },
+        {
+          "id": "o3",
+          "group": "Ecclesiastical Act",
+          "label": "The Beth Qatraye schism",
+          "date": "c.648–676 AD",
+          "loc": "Beth Qatraye (Qatar, Bahrain, Tarut, the islands)",
+          "coords": [
+            25.3,
+            51.2
+          ],
+          "hint": "For nearly thirty years the bishops of the Gulf refused obedience to the Catholicos in Ctesiphon, running their church as an autonomous body. The dispute — over authority, not doctrine — shows how far the Gulf Christian community had grown into its own identity.",
+          "tag": "EVENT",
+          "note": "The schism and its resolution at the 676 synod (Synodicon Orientale); Brock, 'Syriac writers from Beth Qatraye', ARAM 11–12 (1999–2000).",
+          "keywords": ["Beth Qatraye Qatar","Bahrain","Tarut","Gulf Christian"]
+        },
+        {
+          "id": "o2",
+          "group": "Ecclesiastical Act",
+          "label": "The Synod of Dayrin, 676 — canons for the Gulf churches",
+          "date": "676 AD",
+          "loc": "Dayrin (Tarut island), off Qatif",
+          "coords": [
+            26.57,
+            50.04
+          ],
+          "hint": "The Catholicos George I sailed to Tarut island and held a synod for the bishops of Beth Qatraye, issuing nineteen canons on clergy, marriage, inheritance and the conduct of women — and healing a decades-long schism in which the Gulf bishops had rejected his authority.",
+          "tag": "LAW",
+          "note": "Acts of the Synod of Mar George (676), in Chabot, 'Synodicon Orientale' (1902); Kozah et al. (eds.), 'The Syriac Writers of Qatar' (2014).",
+          "keywords": ["Dayrin Tarut","Qatif","Synod of Dayrin","Gulf","Catholicos George I","Beth Qatraye"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "Isaac of Nineveh, the mosque at Juwatha, the Ibadi da'wa, and a faith fading out",
+      "entries": [
+        {
+          "id": "b4",
+          "group": "Church of the East (Nestorian)",
+          "label": "Isaac of Nineveh and the Qatari ascetic tradition",
+          "date": "c.640–700 AD",
+          "loc": "Beth Qatraye; Isaac later bishop of Nineveh",
+          "coords": [
+            25.3,
+            51.2
+          ],
+          "hint": "Isaac the Syrian, the most widely read spiritual writer the Church of the East produced, was born in Beth Qatraye. His treatises on prayer, solitude and divine mercy were later translated into Greek, Arabic, Ethiopic and Slavonic and are read across Christianity to this day.",
+          "tag": "TEXT",
+          "note": "Isaac of Nineveh, 'Ascetical Homilies'; Brock and Kozah et al., 'The Syriac Writers of Qatar' (2014). Isaac consecrated bishop of Nineveh c.676, then withdrew to solitude.",
+          "keywords": ["Beth Qatraye","Nineveh","Isaac of Nineveh","Qatari","Isaac the Syrian"]
+        },
+        {
+          "id": "b6",
+          "group": "Missions & New Churches",
+          "label": "The mosque of Juwatha",
+          "date": "c.629–650 AD",
+          "loc": "Juwatha, al-Hasa oasis",
+          "coords": [
+            25.55,
+            49.75
+          ],
+          "hint": "Tradition holds that the Abd al-Qays built a mosque at Juwatha soon after accepting Islam and defending it through the Ridda, and that it was the first place outside Medina where the Friday congregational prayer was held. Its ruined mud-brick remains are among the oldest mosque sites in the Gulf.",
+          "tag": "MONUMENT",
+          "note": "Juwatha mosque tradition in the hadith collections and al-Bakri; the standing mud-brick remains restored by the Saudi antiquities authority.",
+          "keywords": ["Juwatha","al-Hasa","Abd al-Qays"]
+        },
+        {
+          "id": "b1",
+          "group": "Political Islam",
+          "label": "The Ibadi da'wa reaches Oman",
+          "date": "c.680–740 AD",
+          "loc": "Basra → interior Oman",
+          "coords": [
+            23.2,
+            57.1
+          ],
+          "hint": "The quietist Kharijite school that became Ibadism formed among scholars in Basra, many of them Omani Azd, and its missionaries carried it back to the Omani interior. By the early 8th century Ibadism was the framework through which Oman's tribes imagined a rightly-guided community — and the basis for the imamate they would proclaim.",
+          "tag": "EVIDENCE",
+          "note": "The Basran origins of Ibadism around Jabir ibn Zayd and Abu Ubayda (Wilkinson, 'Ibadism: Origins and Early Development in Oman', 2010); the da'wa to Oman.",
+          "dynasty": "Ibadi Imamate",
+          "keywords": ["Ibadi Imamate","Basra","Oman","Omani Azd"]
+        },
+        {
+          "id": "b2",
+          "group": "Church of the East (Nestorian)",
+          "label": "The twilight of Gulf Christianity",
+          "date": "c.700–850 AD",
+          "loc": "Sir Bani Yas, Al-Qusur, the island monasteries",
+          "coords": [
+            24.31,
+            52.6
+          ],
+          "hint": "The Gulf monasteries were abandoned, one by one and without violence, through the 8th and into the 9th century. No bishop of Beth Qatraye is recorded after the early 8th century. Under dhimmi status, without new converts, the Christian population dwindled and assimilated into the Muslim majority.",
+          "tag": "EVIDENCE",
+          "note": "Monastery abandonment dates from the archaeology (Carter, 'Christianity in the Gulf during the first centuries of Islam', AAE 19, 2008); the disappearance of the Beth Qatraye see from the synod records.",
+          "keywords": ["Sir Bani Yas","Al-Qusur","Gulf Christianity","Beth Qatraye"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "The last Christian building phase, and the mosque rising where the monastery stood",
+      "entries": [
+        {
+          "id": "e4",
+          "group": "Architecture",
+          "label": "The earliest Gulf mosques",
+          "date": "c.632–750 AD",
+          "loc": "Juwatha (al-Hasa); early mosques of Oman",
+          "coords": [
+            25.55,
+            49.75
+          ],
+          "hint": "The first Gulf mosques were simple mud-brick prayer halls, their qibla walls later fitted with concave mihrabs. The transition can be read on the ground where a monastery is abandoned and a mosque rises in the same oasis within a generation.",
+          "tag": "MONUMENT",
+          "note": "Juwatha mosque; early Omani mosque archaeology (e.g. the mosque sequence at Bilad Sur and inland Oman); Carter (2008).",
+          "keywords": ["Juwatha al-Hasa","Oman","Gulf"]
+        },
+        {
+          "id": "e1",
+          "group": "Architecture",
+          "label": "The last phase at Al-Qusur",
+          "date": "c.650–750 AD",
+          "loc": "Al-Qusur, Failaka island, Kuwait",
+          "coords": [
+            29.44,
+            48.33
+          ],
+          "hint": "The large church complex at Al-Qusur on Failaka was built and decorated with moulded plaster crosses in the seventh century — under Muslim rule, not before it. The finest surviving phase of Gulf Christian architecture dates from after the conquest, a reminder that the community's decline was slow.",
+          "tag": "MONUMENT",
+          "note": "Al-Qusur excavations (French/Kuwaiti mission; Bernard & Salles); the 7th-century date of the main building phase (Carter 2008).",
+          "keywords": ["Al-Qusur","Failaka","Kuwait","Gulf Christian"]
+        },
+        {
+          "id": "e2",
+          "group": "Architecture",
+          "label": "From monastery to mosque",
+          "date": "c.680–750 AD",
+          "loc": "Oasis sites in al-Hasa and inner Oman",
+          "coords": [
+            25.55,
+            49.75
+          ],
+          "hint": "At several eastern Arabian oases the archaeological sequence shows a church or monastery going out of use and a mud-brick mosque built nearby within a generation or two — the physical trace of a population changing its religion, read in stratigraphy.",
+          "tag": "MONUMENT",
+          "note": "The monastery-to-mosque transition in the Gulf oasis archaeology (Carter 2008); early Omani mosque sequences.",
+          "keywords": ["Oasis","al-Hasa","Oman"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "The seventh-century flowering — Isaac, Dadisho, and the last generation of Qatari writers",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "Theology",
+          "label": "Dadisho Qatraya on the solitary life",
+          "date": "c.680 AD",
+          "loc": "Beth Qatraye; monastery of Rab-Kennare",
+          "coords": [
+            25.3,
+            51.2
+          ],
+          "hint": "Dadisho of Qatar wrote commentaries on the ascetic classics — 'The Book of Abba Isaiah', the 'Paradise of the Fathers' — and a treatise on solitude that codified the theory of the hermit's life for the whole Church of the East.",
+          "tag": "TEXT",
+          "note": "Dadisho Qatraya, 'Commentary on Abba Isaiah' and 'On Stillness'; Kozah et al., 'An Anthology of Syriac Writers from Qatar in the Seventh Century' (2015).",
+          "keywords": ["Beth Qatraye","Rab-Kennare","Dadisho Qatraya","Dadisho of Qatar","Book of Abba Isaiah","Paradise of the Fathers"]
+        },
+        {
+          "id": "t3",
+          "group": "Letters & Correspondence",
+          "label": "A cluster of scholars from one small region",
+          "date": "c.632–700 AD",
+          "loc": "Beth Qatraye",
+          "coords": [
+            25.3,
+            51.2
+          ],
+          "hint": "In the decades after the conquest, and largely under Muslim rule, Beth Qatraye produced Isaac of Nineveh, Dadisho, Ahob the exegete and Abraham bar Lipeh — an intellectual output out of all proportion to the region's size, and the last great flowering of Gulf Christian learning.",
+          "tag": "TEXT",
+          "note": "Brock, 'Syriac writers from Beth Qatraye', ARAM 11–12 (1999–2000); the 2014–15 Qatar-based edition project.",
+          "keywords": ["Beth Qatraye","Isaac of Nineveh","Gulf Christian"]
+        },
+        {
+          "id": "t2",
+          "group": "Letters & Correspondence",
+          "label": "Abraham bar Lipeh and the last generation",
+          "date": "c.700–730 AD",
+          "loc": "Beth Qatraye",
+          "coords": [
+            25.3,
+            51.2
+          ],
+          "hint": "Abraham bar Lipeh of Qatar wrote a compact commentary on the liturgy, drawing on Gabriel of Qatar's fuller work of a century before. He is among the last named writers of Beth Qatraye — the tradition closing just as the community that sustained it began to disappear.",
+          "tag": "TEXT",
+          "note": "Abraham bar Lipeh, 'Commentary on the Liturgical Offices' (dependent on Gabriel of Qatar); Brock, 'Syriac writers from Beth Qatraye', ARAM 11–12 (1999–2000).",
+          "keywords": ["Beth Qatraye","Abraham","Lipeh of Qatar","Gabriel of Qatar"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "The China trade re-routed through Basra, and the Gulf's revenue as caliphal tax",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Trade & Commerce",
+          "label": "The Indian Ocean trade under the caliphate",
+          "date": "c.650–750 AD",
+          "loc": "Gulf shipping lanes; Basra and Siraf",
+          "coords": [
+            29.5,
+            50.8
+          ],
+          "hint": "The sea route to India and China did not stop at the conquest — it was redirected to its head. Basra, and then the Persian port of Siraf, became the great emporia through which Gulf shipping reached Guangzhou, and the Omani and Sirafi merchant communities that would dominate that trade began to form.",
+          "tag": "ECONOMIC",
+          "note": "The early Islamic Gulf–China trade (Chaffee, 'The Muslim Merchants of Premodern China', 2018); the rise of Basra and Siraf as the eastern trade's northern termini.",
+          "keywords": ["Gulf","Basra","Siraf","Indian Ocean"]
+        },
+        {
+          "id": "ec2",
+          "group": "Trade & Commerce",
+          "label": "The Sasanian–Islamic ceramic continuum",
+          "date": "c.632–800 AD",
+          "loc": "Gulf-wide",
+          "coords": [
+            26,
+            52
+          ],
+          "hint": "The turquoise-glazed and torpedo storage jars of the late Sasanian Gulf kept being made, shipped and used, unchanged, for a century after the conquest — the archaeologists' 'Sasanian-Islamic' ware. The economy of the Gulf carried on across the political rupture with barely a visible seam.",
+          "tag": "OBJECT",
+          "note": "D. Kennet, 'Sasanian and Islamic Pottery from Ras al-Khaimah' (2004); the 'Sasanian-Islamic' ceramic horizon as evidence of economic continuity.",
+          "keywords": ["Gulf-wide","Sasanian–Islamic","Sasanian Gulf"]
+        },
+        {
+          "id": "ec3",
+          "group": "Trade & Commerce",
+          "label": "Pearls and dates as caliphal revenue",
+          "date": "c.640–750 AD",
+          "loc": "al-Bahrayn and al-Hasa",
+          "coords": [
+            26,
+            50.5
+          ],
+          "hint": "The pearl banks and the al-Hasa date gardens went on producing, and the caliphal governor took his share. The wealth that had made eastern Arabia worth garrisoning for the Sasanians made it worth taxing for Basra — one reason the region was never simply let go.",
+          "tag": "ECONOMIC",
+          "note": "The revenue of al-Bahrayn in the early Arabic administrative and geographical literature (al-Baladhuri; later Qudama ibn Ja'far).",
+          "keywords": ["al-Bahrayn","al-Hasa","Pearls"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "The sewn boat and the mud-brick mosque — old craft under a new order",
+      "entries": [
+        {
+          "id": "tc1",
+          "group": "Military Engineering",
+          "label": "The sewn boat under new management",
+          "date": "c.632–750 AD",
+          "loc": "Gulf and western Indian Ocean",
+          "coords": [
+            25,
+            58
+          ],
+          "hint": "The stitched-plank, bitumen-caulked hull that carried Sasanian trade to China went on being built in exactly the same way for the caliphate's merchants. Arab and Persian shipwrights, many of them the same families, kept the technology unbroken across the change of rulers.",
+          "tag": "OBJECT",
+          "note": "Continuity of the sewn-boat tradition across the Sasanian–Islamic transition (Agius, 'Classic Ships of Islam', 2008).",
+          "keywords": ["Gulf","Indian Ocean"]
+        },
+        {
+          "id": "tc2",
+          "group": "Civil Engineering",
+          "label": "The mud-brick hypostyle mosque",
+          "date": "c.629–750 AD",
+          "loc": "Juwatha; early Omani mosques",
+          "coords": [
+            25.55,
+            49.75
+          ],
+          "hint": "The first Gulf mosques were built with the region's oldest technique — sun-dried mud brick on a stone footing — in a new plan: a broad prayer hall of palm-trunk columns facing a qibla wall, later fitted with a concave miḥrāb. The form was simple, cheap and fast, and it spread with the faith.",
+          "tag": "OBJECT",
+          "note": "Juwatha mosque and early Omani mosque archaeology; the hypostyle mud-brick plan of the earliest Arabian mosques (Carter 2008).",
+          "keywords": ["Juwatha","Omani"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "The Syriac writers as a bridge to Arabic, the Azd in Basra, and the Gulf church's last ties to Ctesiphon",
+      "entries": [
+        {
+          "id": "x2",
+          "group": "Intellectual Exchange",
+          "label": "Syriac and Arabic in the Gulf schools",
+          "date": "c.600–750 AD",
+          "loc": "Beth Qatraye monasteries",
+          "coords": [
+            25.3,
+            51.2
+          ],
+          "hint": "The Qatari writers worked in Syriac but lived among Arabic-speakers; within a century their world would be Arabic-speaking and Muslim. Their works became a bridge — several were translated into Arabic and fed into the wider Islamic-era spiritual literature.",
+          "tag": "EVENT",
+          "note": "The Arabic reception of Isaac of Nineveh and Dadisho; Brock on Syriac–Arabic bilingualism in Beth Qatraye.",
+          "keywords": ["Beth Qatraye","Syriac","Arabic","Gulf"]
+        },
+        {
+          "id": "x3",
+          "group": "Migration & Settlement",
+          "label": "The Azd of Oman migrate to Basra",
+          "date": "c.638–700 AD",
+          "loc": "Oman → Basra, southern Iraq",
+          "coords": [
+            30.5,
+            47.8
+          ],
+          "hint": "Large numbers of the Omani Azd resettled in the new garrison city of Basra, becoming one of its dominant tribal blocs and a power in early Islamic politics. Oman's affairs and Basra's were thereafter entangled for centuries.",
+          "tag": "EVENT",
+          "note": "The Azd of Basra in al-Tabari and the futuh literature; Wilkinson (1987) on the Oman–Basra connection.",
+          "keywords": ["Basra","Iraq","Azd of Oman","Omani Azd"]
+        },
+        {
+          "id": "x1",
+          "group": "Cultural Transmission",
+          "label": "The last road to Ctesiphon",
+          "date": "c.648–700 AD",
+          "loc": "Beth Qatraye ↔ the Catholicos's seat",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Even after the conquest the bishops of Beth Qatraye still owed obedience to the Catholicos of the Church of the East, now living under Muslim rule near Ctesiphon — and still, for thirty years, refused it. The 676 synod's journey to Tarut was the church's structure reasserting itself one last time before the Gulf sees faded from the record.",
+          "tag": "EVENT",
+          "note": "The Beth Qatraye schism and its resolution (Synodicon Orientale, Synod of 676); the Catholicos's position under early Islamic rule (Brock).",
+          "keywords": ["Beth Qatraye","Ctesiphon","Catholicos of the Church of the East"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "The Arab conquest of Persia, the founding of Basra and the Abbasid revolution",
+      "entries": [
+        {
+          "id": "w3",
+          "group": "Geopolitical Shift",
+          "label": "The rise of Islam and the Arab conquest of Persia",
+          "date": "632–651 AD",
+          "loc": "Arabia; then Iraq and Iran",
+          "coords": [
+            24.47,
+            39.61
+          ],
+          "hint": "Within twenty years the new Muslim state absorbed the whole Sasanian Empire. For the Gulf coast it meant the Persian governing apparatus vanished and the region became part of a polity centred, for the first time in a millennium, on Arabia and then Iraq.",
+          "tag": "GEOPOLITICAL",
+          "note": "The battles of al-Qadisiyya (636) and Nihawand (642); the death of Yazdegerd III (651). Standard accounts in al-Tabari and al-Baladhuri.",
+          "keywords": ["Arabia","Iraq","Iran","Islam","Persia","Sasanian Empire"]
+        },
+        {
+          "id": "w4",
+          "group": "Geopolitical Shift",
+          "label": "The founding of Basra reorients the Gulf",
+          "date": "638 AD",
+          "loc": "Basra, southern Iraq",
+          "coords": [
+            30.5,
+            47.8
+          ],
+          "hint": "The new garrison city of Basra became the administrative and naval capital of the Gulf, from which Bahrain and Oman were governed and toward which their tribes and trade were drawn. The Gulf's centre of gravity moved to its head.",
+          "tag": "GEOPOLITICAL",
+          "note": "Foundation of Basra under Umar, 638; its role as the base for Gulf administration and Indian Ocean expeditions (al-Baladhuri).",
+          "dynasty": "Rashidun",
+          "keywords": ["Rashidun","Basra","Iraq","Gulf"]
+        },
+        {
+          "id": "w5",
+          "group": "Geopolitical Shift",
+          "label": "The Abbasid revolution",
+          "date": "747–750 AD",
+          "loc": "Khurasan; consequences reach Oman",
+          "coords": [
+            36.2,
+            59.6
+          ],
+          "hint": "The overthrow of the Umayyads convulsed the whole caliphate. In the confusion the Omani Ibadis proclaimed their first imam — and the victorious Abbasids, once secure, sent an army to destroy him.",
+          "tag": "GEOPOLITICAL",
+          "note": "The Abbasid revolution (Sharon, 'Black Banners from the East', 1983); the Omani imamate proclaimed 749, crushed 751.",
+          "dynasty": "Abbasid",
+          "xlinks": [
+            "caliphate-632-750::w5"
+          ],
+          "keywords": ["Abbasid","Khurasan","Oman","Omani Ibadis"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "Anchorites and canons on women, the dead of Dibba, and the new category of dhimmi",
+      "entries": [
+        {
+          "id": "lv1",
+          "group": "Gender Variance",
+          "label": "The solitary as a recognised way of life",
+          "date": "c.640–700 AD",
+          "loc": "Beth Qatraye monasteries",
+          "coords": [
+            25.3,
+            51.2
+          ],
+          "hint": "Dadisho Qatraya's treatise 'On Stillness' gives the hermit — withdrawn, silent, outside ordinary social and family roles — a fully theorised place in the church. The Gulf helped define solitude itself as a legitimate human vocation.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Dadisho Qatraya, 'On Stillness / Shelya'; the anchoretic ideal in the Church of the East (Brock).",
+          "keywords": ["Beth Qatraye","Dadisho Qatraya"]
+        },
+        {
+          "id": "lv2",
+          "group": "Women's Agency",
+          "label": "The 676 canons on women in church",
+          "date": "676 AD",
+          "loc": "Dayrin (Tarut island)",
+          "coords": [
+            26.57,
+            50.04
+          ],
+          "hint": "Several of the Synod of Dayrin's canons concern women — barring them from certain parts of the church, regulating consecrated virgins and widows, restricting mixed gatherings. The rules are restrictive, but they document an active female presence the hierarchy felt the need to control.",
+          "tag": "EVIDENCE",
+          "note": "Canons of the Synod of Mar George (676), Synodicon Orientale; discussion in the Qatar Syriac writers project (Kozah et al. 2014).",
+          "keywords": ["Dayrin Tarut","Several of the Synod of Dayrin"]
+        },
+        {
+          "id": "lv3",
+          "group": "Enslaved Lives",
+          "label": "The dead of Dibba",
+          "date": "c.633 AD (and after)",
+          "loc": "Dibba, Gulf of Oman coast",
+          "coords": [
+            25.62,
+            56.27
+          ],
+          "hint": "The very large early cemetery at Dibba — thousands of simple graves — is traditionally the burial of those killed in the Ridda battle. Whatever its exact makeup, it is a rare physical trace of the human cost of the wars that fixed the Gulf inside Islam.",
+          "tag": "EVIDENCE",
+          "note": "The Dibba cemetery (Sharjah and Fujairah archaeology authorities); the traditional association with the 633 battle.",
+          "keywords": ["Dibba","Gulf of Oman"]
+        },
+        {
+          "id": "lv4",
+          "group": "Marginalised Communities",
+          "label": "Becoming dhimmi",
+          "date": "c.632–650 AD",
+          "loc": "Bahrain and Oman",
+          "coords": [
+            26.05,
+            50.62
+          ],
+          "hint": "For the Gulf's Christians, Jews and Zoroastrians, the settlements of the 620s created a new legal identity: protected non-Muslims, free to practise but taxed and subordinate. Christianity persisted in the Gulf for generations under this status before fading in the 8th–9th centuries.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "The dhimma arrangements (Ibn Sa'd; al-Baladhuri); the slow decline of Gulf Christianity traced by Carter (2008) via the monastery abandonment dates.",
+          "keywords": ["Bahrain","Oman","Becoming","Gulf Christians"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "power",
+      "icon": "⚜️",
+      "accent": "#A0522D",
+      "label": "Rulers",
+      "events": [
+        {
+          "y": 640,
+          "l": "Eastern Arabia governed from Basra",
+          "entryId": "k5"
+        },
+        {
+          "y": 749,
+          "l": "Al-Julanda ibn Masud, first imam of Oman",
+          "entryId": "k6"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 632,
+          "l": "Ridda war in Bahrain — siege of Juwatha",
+          "entryId": "c2"
+        },
+        {
+          "y": 633,
+          "l": "The Battle of Dibba",
+          "entryId": "c3"
+        },
+        {
+          "y": 751,
+          "l": "Abbasid conquest of Ibadi Oman",
+          "entryId": "c4"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 640,
+          "l": "Governing the Gulf from Basra",
+          "entryId": "o1"
+        },
+        {
+          "y": 648,
+          "l": "The Beth Qatraye schism",
+          "entryId": "o3"
+        },
+        {
+          "y": 676,
+          "l": "The Synod of Dayrin",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 635,
+          "l": "The mosque of Juwatha",
+          "entryId": "b6"
+        },
+        {
+          "y": 660,
+          "l": "Isaac of Nineveh & the Qatari ascetic tradition",
+          "entryId": "b4"
+        },
+        {
+          "y": 710,
+          "l": "The Ibadi da'wa reaches Oman",
+          "entryId": "b1"
+        },
+        {
+          "y": 760,
+          "l": "The twilight of Gulf Christianity",
+          "entryId": "b2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 670,
+          "l": "The last phase at Al-Qusur",
+          "entryId": "e1"
+        },
+        {
+          "y": 690,
+          "l": "The earliest Gulf mosques",
+          "entryId": "e4"
+        },
+        {
+          "y": 715,
+          "l": "From monastery to mosque",
+          "entryId": "e2"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 660,
+          "l": "A cluster of scholars from one small region",
+          "entryId": "t3"
+        },
+        {
+          "y": 680,
+          "l": "Dadisho Qatraya on the solitary life",
+          "entryId": "t1"
+        },
+        {
+          "y": 715,
+          "l": "Abraham bar Lipeh and the last generation",
+          "entryId": "t2"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 670,
+          "l": "The Sasanian–Islamic ceramic continuum",
+          "entryId": "ec2"
+        },
+        {
+          "y": 690,
+          "l": "Pearls and dates as caliphal revenue",
+          "entryId": "ec3"
+        },
+        {
+          "y": 700,
+          "l": "The Indian Ocean trade under the caliphate",
+          "entryId": "ec1"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 640,
+          "l": "The mud-brick hypostyle mosque",
+          "entryId": "tc2"
+        },
+        {
+          "y": 680,
+          "l": "The sewn boat under new management",
+          "entryId": "tc1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 660,
+          "l": "The last road to Ctesiphon",
+          "entryId": "x1"
+        },
+        {
+          "y": 665,
+          "l": "The Azd of Oman migrate to Basra",
+          "entryId": "x3"
+        },
+        {
+          "y": 675,
+          "l": "Syriac and Arabic in the Gulf schools",
+          "entryId": "x2"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 638,
+          "l": "The founding of Basra reorients the Gulf",
+          "entryId": "w4"
+        },
+        {
+          "y": 640,
+          "l": "Rise of Islam and the Arab conquest of Persia",
+          "entryId": "w3"
+        },
+        {
+          "y": 747,
+          "l": "The Abbasid revolution",
+          "entryId": "w5"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 633,
+          "l": "The dead of Dibba",
+          "entryId": "lv3"
+        },
+        {
+          "y": 640,
+          "l": "Becoming dhimmi",
+          "entryId": "lv4"
+        },
+        {
+          "y": 676,
+          "l": "The 676 canons on women in church",
+          "entryId": "lv2"
+        },
+        {
+          "y": 685,
+          "l": "The solitary as a recognised way of life",
+          "entryId": "lv1"
+        }
+      ]
+    }
+  ]
+}
