@@ -55,8 +55,8 @@ const MODULES = [
   // ── THE HEJAZ (Mecca, Medina, Ṭāʾif, the western coast — a distinct thread from
   //   the NW-Arabian oasis towns and from the central plateau) ────────────────────
   { id:"hejaz-300bc-632", file:"modules/hejaz-300bc-632.json", label:"Mecca, Yathrib and the Rise of Islam 300 BC–632 AD", sub:"Mecca, Yathrib, the Pre-Islamic Sanctuary and the Life of Muḥammad", region:"NW Arabia", period:"Late Antique" },
-  { id:"hejaz-632-1517", file:"modules/hejaz-632-1517.json", label:"The Medieval Hejaz 632–1517", sub:"The Caliphal Holy Cities, the Rise of the Sharifs and the Guardianship of the Ḥaramayn", region:"NW Arabia", period:"Medieval" },
-  { id:"hejaz-1517-1900", file:"modules/hejaz-1517-1900.json", label:"The Ottoman Hejaz 1517–1900", sub:"The Guardianship of the Ḥaramayn, the Wahhābī Interlude, the Steamship Hajj and the Northwest Oases", region:"NW Arabia", period:"Early Modern" },
+  { id:"hejaz-632-1517", file:"modules/hejaz-632-1517.json", label:"Medieval Hejaz 632–1517", sub:"The Caliphal Holy Cities, the Rise of the Sharifs and the Guardianship of the Ḥaramayn", region:"NW Arabia", period:"Medieval" },
+  { id:"hejaz-1517-1900", file:"modules/hejaz-1517-1900.json", label:"Ottoman Hejaz 1517–1900", sub:"The Guardianship of the Ḥaramayn, the Wahhābī Interlude, the Steamship Hajj and the Northwest Oases", region:"NW Arabia", period:"Early Modern" },
   { id:"hejaz-1900-1925", file:"modules/hejaz-1900-1925.json", label:"The Kingdom of the Hejaz 1900–1925", sub:"The Railway, the Arab Revolt, the Hashemite Kingdom and the Saudi Conquest", region:"NW Arabia", period:"Modern" },
   // ── THE NORTHWEST OASES (Taymāʾ, Dadān/al-ʿUlā, Khaybar, Dūmah — the western
   //   corridor; feeds into nabataean-312bc-106ce for the Nabataean period) ─────────
@@ -64,7 +64,7 @@ const MODULES = [
   // The north-Arabian desert kingdom (Wādī Sirḥān, Dūmat al-Jandal) — dated to its
   //   own span, not the period bucket, since the record is firm from Gindibu (853 BC).
   { id:"qedar-853bc-330bc", file:"modules/qedar-853bc-330bc.json", label:"The Kingdom of Qedar 853–330 BC", sub:"Gindibu, the Five Arab Queens, Adummatu and the North Arabian Kingdom", region:"NW Arabia", period:"Ancient" },
-  { id:"nw-arabia-632-1517", file:"modules/nw-arabia-632-1517.json", label:"The Medieval Northwest 632–1517", sub:"A Corridor of the Hajj Roads — the Oases, the Tribes, and the Cities of Thamūd", region:"NW Arabia", period:"Medieval" },
+  { id:"nw-arabia-632-1517", file:"modules/nw-arabia-632-1517.json", label:"The Medieval Oasis Corridor 632–1517", sub:"A Corridor of the Hajj Roads — the Oases, the Tribes, and the Cities of Thamūd", region:"NW Arabia", period:"Medieval" },
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread; grouped with SE Arabia
   //   for its Indian-Ocean orientation) ──────────────────────────────────────────
   { id:"south-arabia-prehistory-8000bc-1200bc", file:"modules/south-arabia-prehistory-8000bc-1200bc.json", label:"Prehistoric South Arabia 8,000–1,200 BC", sub:"The Highland Neolithic, the Cattle Cult and the Roots of the Incense Kingdoms", region:"SE Arabia", period:"Prehistoric" },
