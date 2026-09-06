@@ -1,0 +1,884 @@
+{
+  "nodes": [
+    {
+      "id": "ext1",
+      "lane": "external",
+      "year": -715,
+      "label": "Assyria and Babylon",
+      "full": "The Mesopotamian empires: the source of the 715 and 685 BC synchronisms that date Sabaean history, and the northern luxury market that bought South Arabian camels, gold, stones and aromatics.",
+      "src": "background — the Assyrian royal annals; Ephʿal, 'The Ancient Arabs' (1982).",
+      "external": true
+    },
+    {
+      "id": "ext2",
+      "lane": "external",
+      "year": -320,
+      "label": "The Mediterranean world",
+      "full": "Greece, Ptolemaic Egypt and rising Rome: the ultimate market for frankincense, the origin of the first outside geography of 'Arabia Felix', and — as its ships begin working the Red Sea — the force that will undercut the overland route.",
+      "src": "background — Theophrastus; Agatharchides; Sidebotham, 'Berenike' (2011).",
+      "external": true
+    },
+    {
+      "id": "ext3",
+      "lane": "external",
+      "year": -450,
+      "label": "The kingdom at Dedan",
+      "full": "The Dadanite and then Lihyanite kingdom of the al-ʿUlā oasis: the northern hinge of the incense road, host to the resident Minaean merchant colony.",
+      "src": "background — Farès-Drappeau, 'Dédan et Liḥyān' (2005).",
+      "external": true
+    },
+    {
+      "id": "ext4",
+      "lane": "external",
+      "year": -110,
+      "label": "Himyar",
+      "full": "The new highland power that emerges around 110 BC and breaks the four-kingdom balance — the subject of the following folio.",
+      "src": "background — added on review; forward reference to south-arabia-300bc-628.",
+      "external": true
+    },
+    {
+      "id": "k1",
+      "lane": "power",
+      "year": -820,
+      "label": "Awsān, the southern power broken by Sabaʾ",
+      "full": "Awsān, in Wadi Markha, was briefly a leading power of the deep south, its kings later remembered with a semi-divine cult. Karibʾil Watar of Sabaʾ destroyed its capital around 680 BC; its distinctive royal statues were dug from the ruins two and a half millennia later.",
+      "src": "RES 3945 (the Sabaean account of Awsān's destruction); the Awsanite royal statues, now in Aden and European collections; Antonini and Agostini on Awsān."
+    },
+    {
+      "id": "k2",
+      "lane": "power",
+      "year": -850,
+      "label": "The mukarribs and the federation of Sabaʾ",
+      "full": "Sabaʾ's early rulers held the title mukarrib — 'federator' — and bound a loose confederation of highland and desert-edge tribes together through the collective cult of the god Almaqah and periodic rituals of inclusion. It is the first organised state on the Arabian Peninsula.",
+      "src": "the Sabaean royal inscriptions of Sirwah and Marib; Christian Robin, 'Sabaʾ et ses rois', and Norbert Nebes on the mukarrib institution."
+    },
+    {
+      "id": "k3",
+      "lane": "power",
+      "year": -715,
+      "label": "Yathaʿʾamar Watar and the Assyrian synchronism",
+      "full": "In 715 BC the annals of Sargon II of Assyria record tribute from 'Itʾamra the Sabaean' — almost certainly the mukarrib Yathaʿʾamar Watar. It is the earliest firmly datable event in South Arabian history and the peg on which the whole 'long chronology' hangs.",
+      "src": "the Khorsabad Annals of Sargon II; the identification is standard since Glaser — see Kitchen, 'Documentation for Ancient Arabia' (1994–2000)."
+    },
+    {
+      "id": "k4",
+      "lane": "power",
+      "year": -685,
+      "label": "Karibʾil Watar, the conqueror",
+      "full": "Karibʾil Watar bin Dhamarʿali left a long war-record inscription at Sirwah listing campaigns that destroyed Nashshan and Awsān, subdued the Jawf and pushed Sabaean power from Najran to the sea. A 'Karibʾilu king of Saba' also sent gifts to Sennacherib, fixing his date.",
+      "src": "RES 3945, the res gestae of Karibʾil Watar; Sennacherib's account of Arabian gifts. Nebes, 'Der Tatenbericht des Karibʾil Watar' (2016)."
+    },
+    {
+      "id": "k5",
+      "lane": "power",
+      "year": -560,
+      "label": "From mukarrib to malik — the kings of Sabaʾ",
+      "full": "By the 6th century BC Sabaean rulers had dropped the sacral title mukarrib for the plain 'malik', king of Sabaʾ — a shift from priest-federator to territorial monarch, ruling from Marib over an oasis kingdom rather than a ritual confederation.",
+      "src": "the later Sabaean royal titulary; Robin, 'Sabaʾ et ses rois', in Robin and Vogt (eds), 'Yémen: au pays de la reine de Saba' (1997)."
+    },
+    {
+      "id": "k6",
+      "lane": "power",
+      "year": -600,
+      "label": "The kingdom of Maʿīn at Qarnaw",
+      "full": "Maʿīn was a kingdom built on commerce, not conquest: from Qarnaw and the walled town of Yathill (Baraqish) its merchant houses ran the incense road north, planting colonies as far as Dedan and Egypt. Its kings appear alongside a powerful council of merchants.",
+      "src": "the Minaean royal and commercial inscriptions; Alessandra Avanzini, 'Corpus of South Arabian Inscriptions I–III: Qatabanic, Marginal Qatabanic, Awsanite' and the Minaean corpus; Robin on Maʿīn."
+    },
+    {
+      "id": "k7",
+      "lane": "power",
+      "year": -700,
+      "label": "The Jawf city-states — Nashshan, Kaminahu, Haram",
+      "full": "Between Maʿīn and Marib the Wadi al-Jawf held a cluster of small walled caravan cities — Nashshan, Kaminahu, Haram, Nashqum — each with its own kings, temples and script variant, alternately independent and subject to Sabaʾ or Maʿīn.",
+      "src": "the Jawf city inscriptions; the French–Yemeni excavations at as-Sawda (Nashshan) and Kaminahu; Robin and Bron, 'Inventaire des inscriptions sudarabiques'."
+    },
+    {
+      "id": "k8",
+      "lane": "power",
+      "year": -700,
+      "label": "Qatabān and the kings at Timnaʿ",
+      "full": "Qatabān, ruled from Timnaʿ in Wadi Bayhan, controlled a central stretch of the incense road and the approaches to the Bab al-Mandab. Its kings issued coinage and the earliest surviving market law in Arabia.",
+      "src": "the Qatabanic royal inscriptions; the American Foundation for the Study of Man excavations at Timnaʿ (Wendell Phillips, 1950–51); Avanzini, 'Corpus of South Arabian Inscriptions' (Qatabanic)."
+    },
+    {
+      "id": "k9",
+      "lane": "power",
+      "year": -650,
+      "label": "Ḥaḍramawt and the gatekeepers of Shabwa",
+      "full": "The kingdom of Ḥaḍramawt, ruled from Shabwa on the edge of the sands, held the frankincense-bearing valleys of the far south-east. Every caravan of incense had to pass through Shabwa and pay its tithe before heading north.",
+      "src": "the Ḥaḍramite royal inscriptions; the French archaeological mission at Shabwa (Jean-François Breton, Rémy Audouin); Pliny, Natural History XII, on the Shabwa tithe."
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": -685,
+      "label": "Karibʾil Watar's campaigns of conquest",
+      "full": "The Sirwah war-record claims campaign after campaign under Karibʾil Watar — Nashshan burned, its walls thrown down, tens of thousands killed or enslaved, Awsān annihilated, the Jawf cities made tributary. It is the founding text of Sabaean imperial memory.",
+      "src": "RES 3945; Nebes (2016). The casualty figures are the inscription's own claims and are not independently checkable."
+    },
+    {
+      "id": "c2",
+      "lane": "conflict",
+      "year": -680,
+      "label": "The destruction of Awsān",
+      "full": "Sabaʾ razed the Awsanite capital and broke the kingdom so thoroughly that it vanished from history for four centuries. The surviving Awsanite royal statues, stiff and frontal, are almost all that is left of a power that had rivalled Sabaʾ itself.",
+      "src": "RES 3945; the Awsanite statuary in the National Museum, Aden, and the Musée du Louvre."
+    },
+    {
+      "id": "c3",
+      "lane": "conflict",
+      "year": -500,
+      "label": "The three-cornered contest for the road",
+      "full": "After Sabaean hegemony faded, Sabaʾ, Maʿīn and Qatabān spent two centuries fighting over control of the caravan corridor and its toll revenue, with the Jawf cities and Ḥaḍramawt shifting allegiance between them. No one power could hold the whole route.",
+      "src": "reconstructed from the royal inscriptions of all three kingdoms; Robin, 'Sabaʾ et ses rois'; Avanzini on the Qatabanic–Sabaean frontier."
+    },
+    {
+      "id": "c4",
+      "lane": "conflict",
+      "year": -650,
+      "label": "The walled caravan towns",
+      "full": "Every caravan city was a fortress: Baraqish's oval wall with its fifty-odd towers still stands nearly complete, and Marib, Timnaʿ and the Jawf towns were all ringed in ashlar masonry. Endemic raiding and inter-kingdom war made the wall the normal condition of urban life.",
+      "src": "the standing wall of Baraqish (Yathill); Breton, 'Les fortifications d'Arabie méridionale du 7e au 1er siècle avant notre ère' (1994)."
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": -800,
+      "label": "The Almaqah cult as the constitution of Sabaʾ",
+      "full": "The mukarrib governed by ritual: leading the pilgrimage to Almaqah's temple, staging the ceremonies that periodically re-admitted tribes to the federation, and performing the sacred hunt. Political membership of Sabaʾ was defined by participation in the cult.",
+      "src": "Nebes on the mukarrib institution; Robin, 'Le calendrier sabéen' and 'Sabaʾ et ses rois'."
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": -650,
+      "label": "The Marib oasis water regime",
+      "full": "The dam's floodwater was divided between a northern and a southern oasis through a system of canals, distributors and sluice gates, administered by named officials and recorded in inscriptions. Water rights, not land, were the fundamental property of the Sabaean economy.",
+      "src": "the Marib irrigation inscriptions; the German Archaeological Institute's Marib oasis surveys (Brunner, Gerlach)."
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": -350,
+      "label": "The market law of Timnaʿ",
+      "full": "A long Qatabanic royal inscription set up at the Timnaʿ market regulates it in detail: who may trade, the king's dues on sales, the treatment of foreign merchants, penalties for fraud. It is the earliest commercial statute known from Arabia.",
+      "src": "RES 3878, 'the market law of Timnaʿ'; translations in Beeston, 'The Qatabanic Market Law', and Avanzini's Qatabanic corpus."
+    },
+    {
+      "id": "o4",
+      "lane": "order",
+      "year": -450,
+      "label": "The frankincense tithe at Shabwa",
+      "full": "Frankincense harvested in Ḥaḍramawt had to be brought to Shabwa, where the priests of the god Sayin took a tenth off the top before the caravans were allowed to proceed. It was a state tax collected as religion, funding both temple and crown.",
+      "src": "Pliny the Elder, Natural History XII.63–65, on the Shabwa tithe; the French mission's work on Shabwa's warehouses."
+    },
+    {
+      "id": "o5",
+      "lane": "order",
+      "year": -450,
+      "label": "Maʿīn's law over its merchants abroad",
+      "full": "Maʿīn maintained legal authority over its citizens far from home — regulating the marriages, property and obligations of Minaean traders resident at Dedan, in Egypt and around the Mediterranean, and recording their affairs on inscriptions back in the Jawf.",
+      "src": "the Minaean commercial and 'hierodule' inscriptions; K. A. Kitchen and Avanzini on the Minaean diaspora texts."
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": -850,
+      "label": "ʿAthtar and the national gods",
+      "full": "Every South Arabian kingdom shared the astral god ʿAthtar at the head of its pantheon, then set its own national deity below him: Almaqah for Sabaʾ, Wadd for Maʿīn, ʿAmm and Anbay for Qatabān, Sayin for Ḥaḍramawt. Religion and political identity were the same thing.",
+      "src": "Jacques Ryckmans and Christian Robin on the South Arabian pantheon; the standard synthesis in 'Yémen: au pays de la reine de Saba' (1997)."
+    },
+    {
+      "id": "b2",
+      "lane": "belief",
+      "year": -680,
+      "label": "The temple of Almaqah at Awwam",
+      "full": "The oval precinct of Awwam, its great curtain wall enclosing a pillared hall, was the federal sanctuary of Sabaʾ and the goal of its annual pilgrimage. Thousands of dedicatory inscriptions from the temple are a primary archive of Sabaean society.",
+      "src": "the American Foundation for the Study of Man excavations at the Maḥram Bilqīs (1951–52, resumed 1998); Glanzman and the AFSM reports."
+    },
+    {
+      "id": "b3",
+      "lane": "belief",
+      "year": -820,
+      "label": "Pilgrimage and the sacred hunt",
+      "full": "The Sabaean year turned on a pilgrimage to Almaqah and on a ritual hunt of ibex and gazelle, performed by the ruler to secure rain and the land's fertility. The hunt appears again and again in the inscriptions and on the temple reliefs.",
+      "src": "Robin, 'Le calendrier sabéen'; Serjeant, 'South Arabian Hunt' (1976), on the ritual hunt and its survival into recent times."
+    },
+    {
+      "id": "b4",
+      "lane": "belief",
+      "year": -380,
+      "label": "The confession inscriptions",
+      "full": "Worshippers who had broken a ritual rule — entering the sanctuary in a state of impurity, breaking a sexual taboo — publicly confessed the offence on an inscribed bronze or stone plaque and paid a fine to the god. Many of the confessants are women.",
+      "src": "the South Arabian 'expiation' or 'confession' texts; Sima, 'Die sabäischen Bußinschriften'; Robin on the genre."
+    },
+    {
+      "id": "b5",
+      "lane": "belief",
+      "year": -660,
+      "label": "The votive economy of the temples",
+      "full": "Vows fulfilled with bronze statuettes, alabaster plaques, incense altars and slaves poured into the great temples, which became the largest landowners and creditors in their kingdoms. The temple was a bank, an archive and a court as much as a place of sacrifice.",
+      "src": "the dedicatory inscription corpora of Awwam and the Minaean temples; Maraqten on temple administration in ancient Yemen."
+    },
+    {
+      "id": "ex1",
+      "lane": "expression",
+      "year": -680,
+      "label": "The great temples of Marib and the Jawf",
+      "full": "South Arabian builders worked in finely dressed ashlar, without mortar, raising peristyle halls on tall monolithic pillars — the Bar'an temple's five standing pillars are the emblem of ancient Yemen. The style spread unchanged from Marib to the Jawf and across the sea to Yeha.",
+      "src": "the DAI excavations at Bar'an (al-Masajid) and Awwam; Schmidt, 'Der Tempel des Waddum dhu-Masmaʿim'."
+    },
+    {
+      "id": "ex2",
+      "lane": "expression",
+      "year": -830,
+      "label": "The Musnad script as a visual system",
+      "full": "The monumental South Arabian script — tall, strictly geometric letters of even weight, first written boustrophedon then left-to-right — was designed for the chisel. Its regularity makes South Arabian inscriptions instantly recognisable and, unusually, closely datable by letter form.",
+      "src": "Jacques Ryckmans, 'L'ordre alphabétique sud-sémitique'; Peter Stein on South Arabian palaeography."
+    },
+    {
+      "id": "ex3",
+      "lane": "expression",
+      "year": -450,
+      "label": "Alabaster funerary heads and stelae",
+      "full": "South Arabian tombs were marked with alabaster faces — broad, flat, geometric, the eyes once inlaid with shell and lapis or paste — and with name-stelae in Musnad. Mass-produced yet individually named, they are the region's most recognisable art.",
+      "src": "the alabaster stelae in the museums of Aden, Sanaa, the Louvre and the British Museum; Antonini, 'Scul­ture sudarabiche'."
+    },
+    {
+      "id": "ex4",
+      "lane": "expression",
+      "year": -560,
+      "label": "The bronze statuary of Awwam",
+      "full": "Sabaean bronzeworkers cast near-life-size human figures for the temple, including the famous pair dedicated by a man named Maʿadkarib. The scale and the confident modelling put South Arabian bronze casting on a level with the contemporary Mediterranean.",
+      "src": "the Maʿadkarib bronzes and related figures from the Maḥram Bilqīs; AFSM excavation records; Simpson (ed.), 'Queen of Sheba' (2002)."
+    },
+    {
+      "id": "ex5",
+      "lane": "expression",
+      "year": -650,
+      "label": "The ibex frieze and the false-window motif",
+      "full": "A standard decorative grammar runs through South Arabian building and furniture: rows of ibex horns, dentil courses, and the recessed 'false window' panel. It is consistent enough to trace the culture's reach and to date buildings by their ornament.",
+      "src": "Antonini and Avanzini on South Arabian architectural decoration; the ibex-frieze fragments in the Sanaa and Aden museums."
+    },
+    {
+      "id": "ex6",
+      "lane": "expression",
+      "year": -560,
+      "label": "Lyres, pipes and the temple banquet",
+      "full": "Carved stelae and bronze plaques show seated figures playing lyres and double pipes at banquets, and bronze cymbals and rattles turn up in temple deposits. Music accompanied both the ritual feast and the funerary cult.",
+      "src": "banqueting stelae from Timnaʿ (AFSM excavations); instrument depictions catalogued in Simpson (ed.), 'Queen of Sheba' (2002)."
+    },
+    {
+      "id": "t1",
+      "lane": "thought",
+      "year": -400,
+      "label": "The long-and-short chronology problem",
+      "full": "Dating the Sabaean mukarribs has divided scholarship for a century: a 'long chronology' anchored on the Assyrian synchronisms of 715 and 685 BC, against a 'short chronology' that once brought Karibʾil Watar down to the 5th century. Palaeography and radiocarbon now favour the long version.",
+      "src": "the history of the debate from Glaser and Rhodokanakis to Pirenne's 'Paléographie des inscriptions sud-arabes' (1956); recent resolution in Kitchen (1994–2000) and Nebes (2016)."
+    },
+    {
+      "id": "t2",
+      "lane": "thought",
+      "year": -330,
+      "label": "The zabur wooden documents",
+      "full": "Alongside the monumental script, South Arabians wrote an everyday minuscule cursive on palm-leaf stalks and wooden sticks: letters, loans, contracts, and children's writing exercises. Their decipherment revealed a broadly literate society, not just a monument-carving elite.",
+      "src": "Peter Stein, 'Die altsüdarabischen Minuskelinschriften auf Holzstäbchen' (2010); Yūsuf Muḥammad ʿAbd Allāh and the Sanaa collection."
+    },
+    {
+      "id": "t3",
+      "lane": "thought",
+      "year": -300,
+      "label": "The Greeks discover Arabia Felix",
+      "full": "Theophrastus described the frankincense and myrrh trees around 300 BC from traders' reports; Eratosthenes and then Agatharchides mapped the incense kingdoms and their wealth. 'Arabia Felix' — fortunate, or simply southern — enters Mediterranean geography.",
+      "src": "Theophrastus, Enquiry into Plants IX; Agatharchides of Cnidus, On the Erythraean Sea (preserved in Photius and Diodorus)."
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": -680,
+      "label": "The Marib oasis",
+      "full": "The floodwater of the Great Dam irrigated some ninety square kilometres of the Marib oasis in two great fields, the largest area of artificial cultivation anywhere in ancient Arabia. It fed the Sabaean capital and made the whole caravan-kingdom model possible.",
+      "src": "the DAI Marib oasis project (Brunner, Gerlach); Charloux and Schiettecatte on South Arabian oasis agriculture."
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": -660,
+      "label": "The Jawf and Wadi Bayhan irrigation",
+      "full": "Maʿīn and Qatabān built their own runoff-irrigation systems in the Jawf and Wadi Bayhan — smaller than Marib's but on the same principle, spreading silt-laden flash floods across bunded fields to grow the grain that fed the caravan towns.",
+      "src": "Avanzini and the Italian mission's surveys of the Wadi Bayhan; the French mission in the Jawf."
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": -850,
+      "label": "Frankincense and myrrh",
+      "full": "The Boswellia trees of Ḥaḍramawt and Dhofar and the Commiphora of the south yielded the ancient world's supply of frankincense and myrrh — burned in every temple from Babylon to Rome. South Arabia's monopoly on the source is the foundation of its wealth.",
+      "src": "Groom, 'Frankincense and Myrrh' (1981); Pliny, Natural History XII, on the harvest and the routes."
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": -660,
+      "label": "The incense road toll economy",
+      "full": "Every kingdom the caravans crossed levied dues, water charges and protection payments; Pliny reckoned the cost of moving frankincense to the Mediterranean at nearly its own weight in silver. The temples and city walls of ancient Yemen were built on that toll.",
+      "src": "Pliny, Natural History XII.63–65; Nigel Groom's route reconstruction; Schiettecatte, 'D'Aden à Zafar'."
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": -480,
+      "label": "The Minaean merchant houses",
+      "full": "Maʿīn ran the northern end of the trade as a commercial network: Minaean merchant families resident at Dedan, in the Egyptian Fayyum, at Gaza, and a Minaean altar dedicated on Delos. It is the earliest documented long-distance trading diaspora from Arabia.",
+      "src": "the Minaean inscriptions of Dedan (al-ʿUlā); the Delos altar (Minaean dedication to Wadd); Minaean names in Egyptian sources — Kitchen (2000)."
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": -720,
+      "label": "Camels, gold and stones for the northern courts",
+      "full": "Assyrian and Babylonian records list camels, gold, precious and semi-precious stones, and aromatics coming from 'the Sabaeans'. South Arabia was plugged into the Near Eastern luxury market from the 8th century BC, a full participant rather than a curiosity.",
+      "src": "the Assyrian royal annals (Tiglath-Pileser III, Sargon II, Sennacherib); Ephʿal, 'The Ancient Arabs' (1982)."
+    },
+    {
+      "id": "tc1",
+      "lane": "technology",
+      "year": -700,
+      "label": "The Great Dam of Marib",
+      "full": "An earthen barrier some 720 metres long threw Wadi Dhana's floods sideways into two masonry sluice complexes, the North and South Sluices, which fed the oasis canals. Rebuilt again and again against silt and flood, it stood for well over a thousand years.",
+      "src": "the DAI Marib Dam studies (Brunner, 'Die Erforschung der antiken Oase von Marib'); the standing North and South Sluice structures."
+    },
+    {
+      "id": "tc2",
+      "lane": "technology",
+      "year": -840,
+      "label": "The South Arabian alphabet, monumental and minuscule",
+      "full": "The 29-consonant Musnad abjad — a South Semitic branch of the alphabet — came in two registers: the geometric monumental script for stone and bronze, and a flowing minuscule for palm-wood. The same society read and wrote in both.",
+      "src": "Ryckmans on the South Semitic alphabetic order; Stein (2010) on the minuscule; the abecedaries from Raybun and elsewhere."
+    },
+    {
+      "id": "tc3",
+      "lane": "technology",
+      "year": -900,
+      "label": "Pack camels and caravan logistics",
+      "full": "The domesticated dromedary and a shoulder-borne pack saddle turned the waterless interior into a highway: caravans of hundreds of camels, moving between fixed wells and walled way-stations, could carry incense from Shabwa to Gaza in about seventy days.",
+      "src": "Bulliet, 'The Camel and the Wheel' (1975); Groom (1981) on caravan stages and timings."
+    },
+    {
+      "id": "tc4",
+      "lane": "technology",
+      "year": -660,
+      "label": "Silt management and the rising oasis",
+      "full": "South Arabian irrigators deliberately let each flood drop its silt on the fields, raising the cultivated surface by metres over the centuries and forcing constant heightening of the canals and sluice gates. The oasis was an engineered landform, not just watered ground.",
+      "src": "Gerlach and Brunner on the Marib oasis stratigraphy; the metres-deep anthropogenic silt of the Marib fields."
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": -830,
+      "label": "The Incense Road as a system",
+      "full": "The overland route ran from the Ḥaḍramawt groves through each kingdom's capital in turn, up the western edge of Arabia to Dedan and Yathrib, and on to Gaza and the sea — with an eastern branch to Gerrha on the Gulf. It is the deep ancestor of the classical caravan geography.",
+      "src": "Groom, 'Frankincense and Myrrh' (1981); Pliny, Natural History XII; the way-station archaeology along the Wadi al-Jawf–Najran corridor."
+    },
+    {
+      "id": "x2",
+      "lane": "exchange",
+      "year": -720,
+      "label": "Dʿmt — South Arabia across the Red Sea",
+      "full": "South Arabian colonists and influence created the Ethio-Sabaean kingdom of Dʿmt in the northern Ethiopian highlands. The temple of Yeha, raised around 700 BC in pure South Arabian ashlar and inscribed in Sabaic, still stands twelve metres high.",
+      "src": "the German–Ethiopian excavations at Yeha (DAI, Wolbert Smidt, Iris Gerlach); Nebes, 'Die Inschriften aus dem Almaqah-Tempel in Meqaber Gaʿewa'."
+    },
+    {
+      "id": "x3",
+      "lane": "exchange",
+      "year": -450,
+      "label": "The Minaean quarter at Dedan",
+      "full": "At Dedan, the northern hinge of the incense road, Minaean merchants formed a resident community with their own inscriptions and cult, living alongside the Dadanite and then Lihyanite kingdom that hosted them. The road created diaspora settlements at both ends.",
+      "src": "the Minaean inscriptions of al-ʿUlā; Farès-Drappeau, 'Dédan et Liḥyān' (2005); the Saudi–European surveys of the al-ʿUlā oasis."
+    },
+    {
+      "id": "x4",
+      "lane": "exchange",
+      "year": -700,
+      "label": "Assyria, Babylon and Persia",
+      "full": "South Arabian rulers sent tribute and gifts to Sargon II and Sennacherib, traded into Nebuchadnezzar's Babylon, and fell within the notional reach of the Achaemenid road system. The caravan kingdoms managed relations with every great power to their north.",
+      "src": "the Assyrian annals; Ephʿal, 'The Ancient Arabs' (1982); Herodotus III.107–113 on Arabian incense and the Persian tribute."
+    },
+    {
+      "id": "x5",
+      "lane": "exchange",
+      "year": -820,
+      "label": "The Queen of Sheba tradition",
+      "full": "The account of the queen of Sabaʾ visiting Solomon with camels bearing spices, gold and gems, and Sheba recurring in the prophets as a byword for caravan wealth, is a Hebrew memory of contact with the incense trade — later elaborated across three religions.",
+      "src": "1 Kings 10:1–13 and 2 Chronicles 9; Ezekiel 27:22–23, Isaiah 60:6, Psalm 72:10, 15; Job 6:19. Simpson (ed.), 'Queen of Sheba' (2002), on the tradition's growth."
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": -950,
+      "label": "The rise of the caravan kingdoms",
+      "full": "Between about 1000 and 700 BC a cluster of literate, temple-centred, irrigation-based states — Sabaʾ, Maʿīn, Qatabān, Ḥaḍramawt, Awsān — takes shape in the south. They are the first states anywhere on the Arabian Peninsula, and they run on trade.",
+      "src": "Robin, 'Sabaʾ et ses rois'; Schiettecatte, 'Les villes de l'Arabie du Sud aux époques préislamiques'."
+    },
+    {
+      "id": "w2",
+      "lane": "world",
+      "year": -830,
+      "label": "An irrigation civilisation in a drying land",
+      "full": "South Arabian civilisation was a standing fight against the environment: the monsoon that fed the dam was weakening, the wadis ran only in flash floods, and the oasis silted up as fast as it was watered. Prosperity depended on unbroken collective maintenance.",
+      "src": "Lézine on the Holocene monsoon decline; Brunner on the dam's maintenance cycles."
+    },
+    {
+      "id": "w3",
+      "lane": "world",
+      "year": -620,
+      "label": "From Sabaean hegemony to a balance of powers",
+      "full": "Karibʾil Watar's 7th-century Sabaʾ briefly dominated the whole south; by the 5th century that had settled into a stable multipolar system of four kingdoms sharing the road, a balance that lasted until Himyar upset it three centuries later.",
+      "src": "Robin, 'Sabaʾ et ses rois'; Avanzini, 'By land and by sea: a history of South Arabia before Islam' (2016)."
+    },
+    {
+      "id": "w4",
+      "lane": "world",
+      "year": -260,
+      "label": "The thread continues — the sea route and the rise of Himyar",
+      "full": "From the 3rd century BC, Ptolemaic and then Roman shipping began working the Red Sea directly, slowly undercutting the overland toll economy. Around 110 BC a new power, Himyar, rose in the southern highlands — the subject of the next folio.",
+      "src": "a forward reference: south-arabia-300bc-628 (Sabaean–Himyarite wars to the eve of Islam) is planned but not yet built. On the sea shift, Sidebotham, 'Berenike and the Ancient Maritime Spice Route' (2011)."
+    },
+    {
+      "id": "lv1",
+      "lane": "lives",
+      "year": -660,
+      "label": "Women in the South Arabian inscriptions",
+      "full": "South Arabian women dedicate statues in their own names, hold and transfer property, and appear as legal persons in the texts — within a patrilineal society, but with a visibility rare in the ancient Near East. Some Minaean inscriptions are commissioned by women alone.",
+      "src": "Maraqten, 'Women's inscriptions from ancient South Arabia'; Robin on the legal status of South Arabian women."
+    },
+    {
+      "id": "lv2",
+      "lane": "lives",
+      "year": -330,
+      "label": "The Minaean 'hierodule' lists",
+      "full": "A set of Minaean inscriptions lists women — many named as being from Gaza, Egypt, Dedan, Ammon and Moab — brought into Minaean households or temple service. Whether marriage records, manumissions or dedications, they document cross-cultural unions along the trade road.",
+      "src": "the Minaean 'Hierodulenlisten' (M 392 and related); the interpretation is debated — Rhodokanakis, Beeston, and more recently Multhoff and Stein."
+    },
+    {
+      "id": "lv3",
+      "lane": "lives",
+      "year": -370,
+      "label": "Ordinary belief on the confession plaques",
+      "full": "The expiation inscriptions are one of the few ancient sources that record the religious anxieties of non-elite people — mostly about sexual and menstrual purity, mostly women — in their own words, prompted by illness or misfortune read as divine punishment.",
+      "src": "Sima, 'Die sabäischen Bußinschriften'; see the Belief entry on the genre."
+    },
+    {
+      "id": "lv4",
+      "lane": "lives",
+      "year": -650,
+      "label": "Dependent labour under the oasis",
+      "full": "The canals, sluices and fields were built and maintained by corvée and by dependent and enslaved labour attached to the crown and the temples. Slaves are among the objects dedicated to the gods in the votive inscriptions.",
+      "src": "the dedicatory inscriptions listing dedicated slaves; Maraqten on labour and temple estates in ancient Yemen."
+    }
+  ],
+  "edges": [
+    [
+      "ec3",
+      "ec4",
+      "strong",
+      "the monopoly on the frankincense source is what let every kingdom levy a toll on it"
+    ],
+    [
+      "ec3",
+      "x1",
+      "strong",
+      "the incense road exists to move frankincense and myrrh out of the south-east"
+    ],
+    [
+      "ec3",
+      "o4",
+      "strong",
+      "the Shabwa tithe taxes the frankincense harvest before it can leave Ḥaḍramawt"
+    ],
+    [
+      "ec4",
+      "b5",
+      "strong",
+      "toll revenue is what filled the temples with bronze, alabaster and dedications"
+    ],
+    [
+      "ec4",
+      "ex1",
+      "strong",
+      "the wealth of the road paid for the monumental ashlar temples"
+    ],
+    [
+      "ec4",
+      "c4",
+      "strong",
+      "caravan wealth and inter-kingdom war together made every caravan city a fortress"
+    ],
+    [
+      "tc3",
+      "x1",
+      "strong",
+      "the pack camel and the shoulder saddle turned the waterless interior into a highway"
+    ],
+    [
+      "x1",
+      "x2",
+      "loose",
+      "the same commercial expansion carried South Arabians across the Red Sea into Ethiopia"
+    ],
+    [
+      "x1",
+      "x3",
+      "strong",
+      "Dedan is the northern hinge where the road met the kingdom of the al-ʿUlā oasis"
+    ],
+    [
+      "ext3",
+      "x3",
+      "strong",
+      "the Dadanite–Lihyanite kingdom hosted the resident Minaean colony"
+    ],
+    [
+      "k6",
+      "ec5",
+      "strong",
+      "Maʿīn ran the northern trade as a network of resident merchant houses"
+    ],
+    [
+      "ec5",
+      "x3",
+      "strong",
+      "the Minaean merchant families formed the resident community at Dedan"
+    ],
+    [
+      "ec5",
+      "o5",
+      "strong",
+      "governing merchants abroad is why Maʿīn recorded their affairs back in the Jawf"
+    ],
+    [
+      "ec5",
+      "lv2",
+      "strong",
+      "the hierodule lists document the foreign women married into the merchant diaspora"
+    ],
+    [
+      "ec5",
+      "ext2",
+      "loose",
+      "Minaean traders reached Egypt, Gaza and a dedication on Delos"
+    ],
+    [
+      "k2",
+      "o1",
+      "strong",
+      "the mukarrib governed Sabaʾ through the collective cult of Almaqah"
+    ],
+    [
+      "o1",
+      "b2",
+      "strong",
+      "the Awwam temple is the federal sanctuary the cult was centred on"
+    ],
+    [
+      "o1",
+      "b3",
+      "strong",
+      "the pilgrimage and the sacred hunt are the rituals that defined membership of Sabaʾ"
+    ],
+    [
+      "b2",
+      "b5",
+      "strong",
+      "the great temple is where the votive economy of dedications accumulated"
+    ],
+    [
+      "b5",
+      "ex3",
+      "loose",
+      "the same votive impulse produced the mass of alabaster stelae"
+    ],
+    [
+      "b5",
+      "ex4",
+      "strong",
+      "the near-life-size bronzes were cast as temple dedications"
+    ],
+    [
+      "ex1",
+      "ex5",
+      "loose",
+      "the ibex frieze and false window are the decorative grammar of the temple architecture"
+    ],
+    [
+      "b3",
+      "ex6",
+      "loose",
+      "music accompanied the ritual feast and the funerary cult"
+    ],
+    [
+      "ext1",
+      "k3",
+      "strong",
+      "Sargon II's annals of 715 BC name 'Itʾamra the Sabaean' paying tribute"
+    ],
+    [
+      "k3",
+      "t1",
+      "strong",
+      "the Assyrian synchronisms are the peg the long chronology hangs on"
+    ],
+    [
+      "ext1",
+      "ec6",
+      "strong",
+      "Assyrian and Babylonian records list the camels, gold and stones coming from the Sabaeans"
+    ],
+    [
+      "ec6",
+      "x4",
+      "loose",
+      "the luxury tribute is one strand of a managed relationship with every northern power"
+    ],
+    [
+      "ext1",
+      "k4",
+      "strong",
+      "a 'Karibʾilu king of Saba' sending gifts to Sennacherib fixes his date"
+    ],
+    [
+      "k4",
+      "c1",
+      "strong",
+      "Karibʾil Watar's Sirwah war-record lists the campaigns of conquest"
+    ],
+    [
+      "c1",
+      "c2",
+      "strong",
+      "the same campaign that broke the Jawf annihilated Awsān"
+    ],
+    [
+      "c2",
+      "k1",
+      "strong",
+      "Sabaʾ razed the Awsanite capital and erased the kingdom for four centuries"
+    ],
+    [
+      "k4",
+      "w3",
+      "strong",
+      "Karibʾil Watar's 7th-century hegemony is the peak the later balance settled down from"
+    ],
+    [
+      "c3",
+      "w3",
+      "strong",
+      "the three-cornered war for the road is the multipolar system in operation"
+    ],
+    [
+      "k6",
+      "c3",
+      "loose",
+      "Maʿīn was one of the three powers contesting the caravan corridor"
+    ],
+    [
+      "k8",
+      "c3",
+      "loose",
+      "Qatabān was another of the three"
+    ],
+    [
+      "k4",
+      "k5",
+      "strong",
+      "the conqueror's successors dropped the sacral title mukarrib for plain kingship"
+    ],
+    [
+      "tc1",
+      "ec1",
+      "strong",
+      "the dam's floodwater is what irrigated the ninety square kilometres of the Marib oasis"
+    ],
+    [
+      "ec1",
+      "k5",
+      "strong",
+      "the oasis fed the capital the territorial kings ruled from"
+    ],
+    [
+      "tc1",
+      "o2",
+      "strong",
+      "dividing the dam's water between the two oases is what the water law administered"
+    ],
+    [
+      "tc1",
+      "tc4",
+      "strong",
+      "letting each flood drop its silt is the same engineering as the dam and canals"
+    ],
+    [
+      "tc4",
+      "w2",
+      "loose",
+      "the oasis silting up as fast as it was watered is the environmental fight underneath"
+    ],
+    [
+      "w2",
+      "tc1",
+      "strong",
+      "a weakening monsoon and flash-flood wadis are why the dam had to be built and rebuilt"
+    ],
+    [
+      "ec1",
+      "lv4",
+      "strong",
+      "the canals and fields were built and maintained by corvée and dependent labour"
+    ],
+    [
+      "tc1",
+      "lv4",
+      "loose",
+      "the dam and sluices were raised by the same bonded workforce"
+    ],
+    [
+      "k9",
+      "o4",
+      "strong",
+      "Ḥaḍramawt collected the tithe at Shabwa on every load of incense"
+    ],
+    [
+      "k8",
+      "o3",
+      "strong",
+      "the market law of Timnaʿ is a Qatabanic royal statute"
+    ],
+    [
+      "k7",
+      "k6",
+      "loose",
+      "the Jawf city-states sat between Maʿīn and Marib and were absorbed by turns"
+    ],
+    [
+      "k4",
+      "k7",
+      "loose",
+      "Karibʾil Watar made the Jawf cities tributary to Sabaʾ"
+    ],
+    [
+      "tc2",
+      "ex2",
+      "strong",
+      "the geometric monumental script is a system designed for the chisel"
+    ],
+    [
+      "tc2",
+      "t2",
+      "strong",
+      "the same society wrote a flowing minuscule on palm-wood alongside the monumental script"
+    ],
+    [
+      "ext2",
+      "t3",
+      "strong",
+      "Theophrastus and Agatharchides build the first outside account of the incense kingdoms"
+    ],
+    [
+      "ec3",
+      "t3",
+      "loose",
+      "it is the frankincense trade that draws Greek attention to Arabia Felix"
+    ],
+    [
+      "ec4",
+      "x5",
+      "loose",
+      "the biblical Queen of Sheba is a Hebrew memory of Sabaean caravan wealth"
+    ],
+    [
+      "ec6",
+      "x5",
+      "loose",
+      "Sheba in the prophets is a byword for the spice and gold coming up the road"
+    ],
+    [
+      "b4",
+      "lv3",
+      "strong",
+      "the confession plaques are the record of ordinary, mostly female, religious anxiety"
+    ],
+    [
+      "b1",
+      "b2",
+      "loose",
+      "Almaqah below ʿAthtar is the pantheon the Awwam temple served"
+    ],
+    [
+      "b1",
+      "b4",
+      "loose",
+      "ritual purity rules enforced by the pantheon are what the confessions breach"
+    ],
+    [
+      "k6",
+      "x2",
+      "loose",
+      "Maʿīn's commercial reach is part of the wider South Arabian expansion overseas"
+    ],
+    [
+      "x2",
+      "ext2",
+      "loose",
+      "the Ethio-Sabaean world would later feed the Aksumite power in the Red Sea"
+    ],
+    [
+      "w1",
+      "k2",
+      "strong",
+      "the caravan kingdoms are the first states on the peninsula and Sabaʾ is the first of them"
+    ],
+    [
+      "w1",
+      "ec3",
+      "loose",
+      "the whole state cluster is built on the single fact of the frankincense source"
+    ],
+    [
+      "ec2",
+      "k6",
+      "loose",
+      "the Jawf and Bayhan oases fed the rival kingdoms as Marib fed Sabaʾ"
+    ],
+    [
+      "ext2",
+      "w4",
+      "strong",
+      "Ptolemaic and Roman shipping in the Red Sea begins to undercut the overland toll economy"
+    ],
+    [
+      "ext4",
+      "w4",
+      "strong",
+      "Himyar rises around 110 BC and breaks the four-kingdom balance"
+    ],
+    [
+      "w3",
+      "w4",
+      "loose",
+      "the stable multipolar system is what Himyar and the sea route together bring to an end"
+    ],
+    [
+      "lv1",
+      "lv2",
+      "loose",
+      "women visible as legal persons in the inscriptions include the diaspora brides of the lists"
+    ],
+    [
+      "ex3",
+      "lv1",
+      "loose",
+      "some alabaster stelae and dedications are commissioned by women alone"
+    ]
+  ]
+}
