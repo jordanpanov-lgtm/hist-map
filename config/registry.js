@@ -51,6 +51,7 @@ const MODULES = [
   { id:"hejaz-300bc-632", file:"modules/hejaz-300bc-632.json", label:"The Hejaz and the Prophet 300 BC–632 AD", sub:"Mecca, Yathrib, the Pre-Islamic Sanctuary and the Life of Muḥammad", region:"Arabia", period:"Late Antique" },
   { id:"hejaz-632-1517", file:"modules/hejaz-632-1517.json", label:"The Medieval Hejaz 632–1517", sub:"The Caliphal Holy Cities, the Rise of the Sharifs and the Guardianship of the Ḥaramayn", region:"Arabia", period:"Medieval" },
   { id:"hejaz-1517-1900", file:"modules/hejaz-1517-1900.json", label:"The Ottoman Hejaz 1517–1900", sub:"The Guardianship of the Ḥaramayn, the Wahhābī Interlude, the Steamship Hajj and the Northwest Oases", region:"Arabia", period:"Early Modern" },
+  { id:"hejaz-1900-1925", file:"modules/hejaz-1900-1925.json", label:"The Kingdom of the Hejaz 1900–1925", sub:"The Railway, the Arab Revolt, the Hashemite Kingdom and the Saudi Conquest", region:"Arabia", period:"Modern" },
   // PLANNED — the thread continues: a Dadan-and-Lihyan folio (region "Arabia", c.1000–100 BC)
   //   would bridge the gap to nabataean-400bc-106ce.json, already built above.
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread, distinct from both the
