@@ -1,0 +1,748 @@
+{
+  "nodes": [
+    {
+      "id": "ext1",
+      "lane": "external",
+      "year": 200,
+      "label": "Rome and Byzantium",
+      "full": "The empire to the north-west: it annexed Nabataea in 106, garrisoned and roaded the northwest, then withdrew from the deep frontier, and in the 630s was the rumoured threat that drew the Tabūk expedition.",
+      "src": "background — Bowersock, 'Roman Arabia' (1983).",
+      "external": true
+    },
+    {
+      "id": "ext2",
+      "lane": "external",
+      "year": 560,
+      "label": "The Ghassānids",
+      "full": "Byzantium's Arab federate phylarchs: they recruited and paid the Christian tribes of the northwest as frontier troops, and were part of the concentration Tabūk was marched against.",
+      "src": "background — Irfan Shahid, 'Byzantium and the Arabs in the Sixth Century'.",
+      "external": true
+    },
+    {
+      "id": "ext3",
+      "lane": "external",
+      "year": 629,
+      "label": "The Medinan state",
+      "full": "The Prophet's polity: it took Khaybar in 628, marched to Tabūk in 630, seized Dūmah, and bound the northern tribes and towns by treaty — the launch position for the conquest of Syria.",
+      "src": "background — Donner, 'The Early Islamic Conquests' (1981).",
+      "external": true
+    },
+    {
+      "id": "ext4",
+      "lane": "external",
+      "year": 400,
+      "label": "The Jewish diaspora",
+      "full": "The communities of Palestine and Iraq: linked to the Jews of the northern Arabian oases by shared law, calendar and learning.",
+      "src": "background — Newby, 'A History of the Jews of Arabia' (1988).",
+      "external": true
+    },
+    {
+      "id": "k1",
+      "lane": "power",
+      "year": 106,
+      "label": "The annexation and Provincia Arabia",
+      "full": "Trajan annexed the Nabataean kingdom in 106; Hegra became the southernmost garrison of the Roman Empire, and the paved Via Nova Traiana ran the length of the new province from Bostra to the Red Sea.",
+      "src": "Cassius Dio 68.14; the Via Nova milestones; Bowersock, 'Roman Arabia' (1983)."
+    },
+    {
+      "id": "k2",
+      "lane": "power",
+      "year": 200,
+      "label": "Hegra as a Roman garrison town",
+      "full": "A detachment of Roman troops held the fort at Hegra. A Latin building inscription of 175–177 AD from the site is the southernmost dated Latin inscription anywhere in the world — the physical limit of the Roman writ.",
+      "src": "the Latin inscription of Hegra (AE 2005, 1621); the French–Saudi excavations at Madāʾin Ṣāliḥ (Nehmé, Villeneuve)."
+    },
+    {
+      "id": "k3",
+      "lane": "power",
+      "year": 300,
+      "label": "The frontier reorganised",
+      "full": "Diocletian split the province, thickened the frontier with the forts of the Strata Diocletiana, and reorganised the garrison. But by the 4th century the Roman military presence in the deep northwest had thinned to almost nothing.",
+      "src": "the Notitia Dignitatum; S. Thomas Parker, 'The Roman Frontier in Central Jordan' (2006)."
+    },
+    {
+      "id": "k4",
+      "lane": "power",
+      "year": 400,
+      "label": "Aila, the Byzantine port",
+      "full": "The Red Sea town at the head of the gulf was a customs post, a bishopric, the site of one of the oldest purpose-built churches known, and the Roman and Byzantine window on the northwest — its pottery is found down the Arabian coast.",
+      "src": "S. Thomas Parker's Roman Aqaba Project; the Aila church excavations (Parker, 1990s)."
+    },
+    {
+      "id": "k5",
+      "lane": "power",
+      "year": 400,
+      "label": "The tribes of the northwest",
+      "full": "As Roman control receded, the oases and routes passed to the Arab tribes — Judhām, Balī, ʿUdhra, Bahrāʾ and the Kalb of the Quḍāʿa group — some allied to Byzantium as federates, some Christian, some pagan.",
+      "src": "the tribal geographies in Ibn al-Kalbī and later; Greg Fisher, 'Between Empires' (2011)."
+    },
+    {
+      "id": "k6",
+      "lane": "power",
+      "year": 500,
+      "label": "Dūmat al-Jandal and its kings",
+      "full": "The great oasis of al-Jawf, held by the Kalb, was a Christian tribal centre with one of Arabia's famous annual fairs. Its last ruler, Ukaydir ibn ʿAbd al-Malik, was captured by Khālid ibn al-Walīd in 630.",
+      "src": "al-Wāqidī, Kitāb al-Maghāzī, on Ukaydir; the Italian–Saudi excavations at Dūmat al-Jandal."
+    },
+    {
+      "id": "k7",
+      "lane": "power",
+      "year": 400,
+      "label": "The Jewish oases",
+      "full": "Khaybar, Taymāʾ, Fadak, Wādī al-Qurā and Maqnā held substantial Jewish farming and trading communities — the northern half of the Jewish presence in the Hejaz, at its height in the last pre-Islamic centuries.",
+      "src": "Gordon Newby, 'A History of the Jews of Arabia' (1988); Michael Lecker on the northern Jewish oases."
+    },
+    {
+      "id": "k8",
+      "lane": "power",
+      "year": 629,
+      "label": "The Islamic conquest of the north",
+      "full": "Khaybar fell to the Prophet in 628 and the other Jewish oases submitted by treaty; the Tabūk expedition of 630 secured the Byzantine frontier; and Ukaydir of Dūmah, John of Aila and the northern communities made poll-tax settlements.",
+      "src": "Ibn Hishām; al-Wāqidī, Kitāb al-Maghāzī; the treaty texts preserved in the maghāzī literature."
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": 250,
+      "label": "Holding and losing the limes",
+      "full": "The Roman garrisoning of the frontier, the campaigns against the tribes of the interior, and the gradual withdrawal — visible in the abandonment of the southern forts — that left the deep northwest to the Arabs by the 4th century.",
+      "src": "Parker, 'The Roman Frontier in Central Jordan' (2006); the archaeology of the abandoned limes forts."
+    },
+    {
+      "id": "c2",
+      "lane": "conflict",
+      "year": 628,
+      "label": "Khaybar",
+      "full": "The Prophet's siege and capture of Khaybar, the strongest of the Jewish settlements — a set-piece assault on a chain of rock forts, ending with a settlement that left the Jews farming the land for a share of the crop.",
+      "src": "Ibn Hishām; al-Wāqidī; the Khaybar campaign is among the best-documented of the maghāzī."
+    },
+    {
+      "id": "c3",
+      "lane": "conflict",
+      "year": 630,
+      "label": "The Tabūk expedition",
+      "full": "The Prophet's largest campaign, marched north in the heat of summer against a rumoured Byzantine and Ghassānid concentration that did not materialise — a demonstration of reach that brought the northern communities to terms without a battle.",
+      "src": "the Qurʾan, Sūra 9 (al-Tawba, much of it on Tabūk); Ibn Hishām; al-Wāqidī."
+    },
+    {
+      "id": "c4",
+      "lane": "conflict",
+      "year": 630,
+      "label": "The seizure of Dūmah",
+      "full": "Khālid ibn al-Walīd's expedition to al-Jawf, the capture of Ukaydir while he was out hunting, and the submission of the oasis by treaty — the extension of the Medinan state to the very edge of Byzantine Syria.",
+      "src": "al-Wāqidī, Kitāb al-Maghāzī, on the Dūmah expedition."
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 112,
+      "label": "The Via Nova Traiana and the road system",
+      "full": "The paved military road from Bostra to the Red Sea, its milestones, its forts and its way-stations — the infrastructure of a province run for the frontier and the trade, and the spine of Roman control in the northwest.",
+      "src": "the Via Nova milestones, dated 111–114 AD; David Graf, 'The Via Nova Traiana in Arabia Petraea'."
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 629,
+      "label": "The dhimma treaties of the north",
+      "full": "The settlements the Prophet made with the Jewish oases and the Christian communities — poll-tax and protection in place of conversion — were the model for the treatment of the conquered peoples of the whole empire that followed within a decade.",
+      "src": "the treaty texts in al-Wāqidī and al-Balādhurī; the treaty with John of Aila is one of the earliest."
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 628,
+      "label": "The Khaybar sharecropping arrangement",
+      "full": "The terms by which the Jews of Khaybar kept working their palm groves for the Prophet and the community, paying half the produce — an early Islamic land-tenure form (the muzāraʿa), ended when ʿUmar expelled them a decade later.",
+      "src": "al-Balādhurī, Futūḥ al-buldān; the debated ʿUmar expulsion tradition; Lecker on the Khaybar settlement."
+    },
+    {
+      "id": "o4",
+      "lane": "order",
+      "year": 500,
+      "label": "The fair of Dūmah",
+      "full": "Dūmah held one of the great annual fairs of Arabia, under a sacred truce, where the tribes of the north met the merchants of Syria and Iraq — a self-regulating commercial institution outside any state, like the fairs of the Hejaz.",
+      "src": "al-Marzūqī, Kitāb al-Azmina wa'l-amkina, on the Arabian fairs."
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": 320,
+      "label": "Christianity in the northwest",
+      "full": "Churches and monasteries along the Roman road and among the tribes — the church of Aila, the Christian Kalb of Dūmah, the Christians of Judhām and Balī, and the monasteries on the pilgrim route to Sinai.",
+      "src": "the Aila church; Trimingham, 'Christianity Among the Arabs in Pre-Islamic Times' (1979); Fisher (ed.), 'Arabs and Empires before Islam' (2015)."
+    },
+    {
+      "id": "b2",
+      "lane": "belief",
+      "year": 400,
+      "label": "The Jews of the northern oases",
+      "full": "A farming and trading population with its own law and learning — the largest Jewish community in Arabia outside Yathrib, and the one Islam engaged with most directly in the north, through siege and through treaty.",
+      "src": "Newby, 'A History of the Jews of Arabia' (1988); Lecker, 'Muslims, Jews and Pagans' (1995)."
+    },
+    {
+      "id": "b3",
+      "lane": "belief",
+      "year": 400,
+      "label": "The tribal paganism of the north",
+      "full": "The gods and shrines of the Quḍāʿa tribes, the sanctuary and idol at Dūmah, and the standing-stone cult that persisted alongside Christianity and Judaism across the region right up to the conquest.",
+      "src": "Ibn al-Kalbī, Kitāb al-Aṣnām; the sanctuary evidence from Dūmat al-Jandal."
+    },
+    {
+      "id": "b4",
+      "lane": "belief",
+      "year": 550,
+      "label": "Monotheism at the edges",
+      "full": "Jewish and Christian influence on the tribes, mixed and partial adherence, and the reports of individual northern seekers who had abandoned the idols before Islam — a religious landscape already tilting toward monotheism when the Medinan state arrived.",
+      "src": "the ḥanīf material in Ibn Hishām; the wider argument in Fisher (ed.) (2015)."
+    },
+    {
+      "id": "ex1",
+      "lane": "expression",
+      "year": 176,
+      "label": "Hegra reused",
+      "full": "The Roman fort and bath built among the Nabataean tombs, the Latin inscription of 175–177, and the graffiti cut on the tomb façades by soldiers, travellers and tribesmen for centuries after the kingdom fell — a monument continuously written on.",
+      "src": "Nehmé and Villeneuve, the Madāʾin Ṣāliḥ Archaeological Project reports."
+    },
+    {
+      "id": "ex2",
+      "lane": "expression",
+      "year": 320,
+      "label": "The church of Aila",
+      "full": "A mudbrick basilica of the late 3rd or early 4th century, excavated at Aqaba in the 1990s — among the oldest known purpose-built churches anywhere, from the generation of the church's transition out of the house-church.",
+      "src": "S. Thomas Parker, 'The Roman Aqaba Project: the 1994 campaign' and later reports; the church's early date is debated."
+    },
+    {
+      "id": "ex3",
+      "lane": "expression",
+      "year": 250,
+      "label": "The milestones and the frontier landscape",
+      "full": "The milestones of the Via Nova, the rectangular forts of the Strata Diocletiana and the watchtowers along the ridges — the visible geometry of a Roman frontier laid across the northwest desert, and much of it still standing.",
+      "src": "Parker (2006); the milestone corpora of Arabia Petraea."
+    },
+    {
+      "id": "ex4",
+      "lane": "expression",
+      "year": 300,
+      "label": "The graffiti of the last pre-Islamic centuries",
+      "full": "The dense Thamudic, Nabataean and early Arabic rock inscriptions of the northwest routes — names, prayers, laments, records of travel and mourning — the everyday writing of the region right up to the eve of Islam.",
+      "src": "the OCIANA database; the Nabataeo-Arabic transitional texts of the region."
+    },
+    {
+      "id": "t1",
+      "lane": "thought",
+      "year": 350,
+      "label": "The Roman record of the frontier",
+      "full": "The late-Roman army list, the milestones, and Ammianus Marcellinus — from which the shape, the manning and the slow contraction of the Arabian frontier are reconstructed, since the region kept almost no narrative of its own.",
+      "src": "the Notitia Dignitatum; Ammianus Marcellinus; Parker (2006)."
+    },
+    {
+      "id": "t2",
+      "lane": "thought",
+      "year": 790,
+      "label": "The maghāzī of the north",
+      "full": "The accounts in Ibn Isḥāq and al-Wāqidī of Khaybar, Tabūk and Dūmah are detailed and are the main narrative source for the Islamic conquest of the northwest — checked, where possible, against the treaty texts they preserve.",
+      "src": "al-Wāqidī, Kitāb al-Maghāzī; Ibn Hishām; al-Balādhurī, Futūḥ al-buldān."
+    },
+    {
+      "id": "t3",
+      "lane": "thought",
+      "year": 267,
+      "label": "The emergence of the Arabic script",
+      "full": "The epigraphic evidence — the Raqūsh inscription at Hegra of 267 AD, with a line of Arabic in Nabataean letters, and the later Nabataeo-Arabic transitional texts — traces the birth of the Arabic alphabet, in this region, from the Nabataean cursive.",
+      "src": "the Raqūsh inscription; Laïla Nehmé, 'A glimpse of the development of the Nabataean script into Arabic'; the Nabataeo-Arabic corpus."
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 200,
+      "label": "The decline of the incense road",
+      "full": "As Roman shipping took over the Red Sea trade, the overland route through the northwest oases lost its transit business. Hegra shrank, and the oases fell back on farming and local exchange.",
+      "src": "Groom, 'Frankincense and Myrrh' (1981); Sidebotham, 'Berenike' (2011), on the maritime shift."
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 400,
+      "label": "The Jewish oasis economy",
+      "full": "The palm groves, the grain, the metalworking and the trade of the northern Jewish oases — a productive settled economy, worked with sophisticated irrigation, that made these communities worth besieging.",
+      "src": "al-Balādhurī on the Khaybar and Fadak revenues; the archaeology of the Khaybar oasis."
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 450,
+      "label": "The tribal and fair economy",
+      "full": "The herding of the Quḍāʿa tribes, the annual fair of Dūmah, and the reduced but continuing caravan traffic between the Hejaz, Syria and Iraq — the economy of a region that had lost its through-trade but kept its crossroads.",
+      "src": "al-Marzūqī on the fairs; the tribal-economy literature."
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 400,
+      "label": "Aila and the Red Sea trade",
+      "full": "The port handled the Byzantine trade with the Hejaz and beyond; distinctive 'Ayla' amphorae are found down the Arabian coast and into the Indian Ocean — a small but connected node on the sea route that had replaced the land one.",
+      "src": "the Roman Aqaba Project ceramic studies; the distribution of Ayla ware."
+    },
+    {
+      "id": "tc1",
+      "lane": "technology",
+      "year": 120,
+      "label": "Roman road and fort engineering",
+      "full": "The paved and cambered Via Nova, the rectangular forts with their cisterns, and the surveying that fixed the milestones — Roman military engineering applied to the northwest desert and maintained, at least in the north, for five centuries.",
+      "src": "Parker (2006); the engineering studies of the Via Nova."
+    },
+    {
+      "id": "tc2",
+      "lane": "technology",
+      "year": 300,
+      "label": "The irrigation of Khaybar",
+      "full": "The volcanic-rock terrain of Khaybar was worked with underground channels tapping the water table, feeding a landscape of separate walled strongholds each with its own gardens — the hydrology behind the 'fortress oasis' the Prophet had to take fort by fort.",
+      "src": "the Khaybar oasis archaeology (the AlUla / Khaybar surveys); the ghayl and qanāt systems."
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": 150,
+      "label": "Rome and the northwest frontier",
+      "full": "For three centuries the northwest was the edge of the Roman world — garrisoned, roaded, taxed and watched from Aila and Bostra, with the tribes beyond it alternately raided and paid to keep the peace.",
+      "src": "Bowersock, 'Roman Arabia' (1983); Parker (2006)."
+    },
+    {
+      "id": "x2",
+      "lane": "exchange",
+      "year": 560,
+      "label": "Byzantium, the Ghassānids and the tribes",
+      "full": "In the last pre-Islamic century Byzantium managed the frontier through the Ghassānid phylarchs, who recruited and paid the Christian Arab tribes of the northwest as federate troops against Persia and against raiders.",
+      "src": "Irfan Shahid, 'Byzantium and the Arabs in the Sixth Century'; Fisher, 'Between Empires' (2011)."
+    },
+    {
+      "id": "x3",
+      "lane": "exchange",
+      "year": 300,
+      "label": "The Jewish oases and the diaspora",
+      "full": "The Jews of the northern oases kept links to the communities of Palestine and Iraq — the shared law and calendar, the traditions of the 'Banū Isrāʾīl' of the Hejaz — a connected minority on an Arabian frontier.",
+      "src": "Newby, 'A History of the Jews of Arabia' (1988); the debate over the origins of the Arabian Jews."
+    },
+    {
+      "id": "x4",
+      "lane": "exchange",
+      "year": 631,
+      "label": "Medina reaches the frontier",
+      "full": "The Prophet's campaigns and the treaties that followed pushed the Medinan state to the Byzantine frontier and made the northern tribes and towns its clients — the launch position for the conquest of Syria three years later.",
+      "src": "al-Wāqidī; Fred Donner, 'The Early Islamic Conquests' (1981)."
+    },
+    {
+      "id": "x5",
+      "lane": "exchange",
+      "year": 400,
+      "label": "The Sinai pilgrimage route",
+      "full": "Pilgrims and monks moving to and from the monasteries of Sinai crossed the northwest, and the accounts of that traffic — Egeria, the Piacenza pilgrim, the narratives of the Sinai martyrs — are a window on the region's late-antique life.",
+      "src": "Egeria's Itinerarium; the Piacenza pilgrim; the Ammonius narrative."
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 106,
+      "label": "The northwest as a Roman and Byzantine frontier",
+      "full": "From 106 to the 630s the northwest was, formally, the southeastern edge of the classical Mediterranean world — the only part of the Arabian Peninsula ever incorporated into a European empire.",
+      "src": "Bowersock, 'Roman Arabia' (1983)."
+    },
+    {
+      "id": "w2",
+      "lane": "world",
+      "year": 300,
+      "label": "The oases fall back to farming and tribe",
+      "full": "With the incense trade gone and Rome withdrawn, the great oasis towns of Taymāʾ and Dadān shrank to villages, and the region's centre of gravity moved to the Jewish farming settlements and the tribal fair at Dūmah.",
+      "src": "the settlement archaeology of Taymāʾ and al-ʿUlA for the Roman and Byzantine periods."
+    },
+    {
+      "id": "w3",
+      "lane": "world",
+      "year": 632,
+      "label": "The thread continues — the north under Islam",
+      "full": "The folio ends at 632 with the northwest incorporated into the Medinan state by treaty and conquest. The expulsion of the Jews under ʿUmar, the northern oases and the Hajj-fort towns under the caliphate, and the medieval northwest are the next folio.",
+      "src": "a forward reference: nw-arabia-632-1517 (the medieval northwest oases and the Syrian pilgrim road) is planned but not yet built."
+    },
+    {
+      "id": "lv1",
+      "lane": "lives",
+      "year": 400,
+      "label": "The Jews of Khaybar",
+      "full": "Named families, their forts and their fields, the negotiations of 628 and the sharecropping years that followed, and the expulsion under ʿUmar around 642 — a community with a documented beginning, middle and end, unusual for the ancient Hejaz.",
+      "src": "al-Wāqidī; al-Balādhurī; Lecker on the Khaybar Jews and the expulsion tradition."
+    },
+    {
+      "id": "lv2",
+      "lane": "lives",
+      "year": 200,
+      "label": "The Roman soldiers of Hegra",
+      "full": "The men of the garrison detachment, stationed far from home at the empire's southernmost post, whose Latin and Greek graffiti and building inscriptions on the Nabataean tombs are almost all that records their years there.",
+      "src": "the Latin and Greek inscriptions of Hegra; the Madāʾin Ṣāliḥ project."
+    },
+    {
+      "id": "lv3",
+      "lane": "lives",
+      "year": 629,
+      "label": "Ṣafiyya bint Ḥuyayy",
+      "full": "A Jewish woman of the Banū al-Naḍīr, taken at Khaybar after her husband and father were killed, married to the Prophet and one of his wives — a life that crosses the conquest of the northern oases from one side of it to the other.",
+      "src": "Ibn Hishām; the sīra tradition on Ṣafiyya; Barbara Stowasser, 'Women in the Qurʾan, Traditions, and Interpretation' (1994)."
+    }
+  ],
+  "edges": [
+    [
+      "ext1",
+      "k1",
+      "strong",
+      "Trajan annexed the Nabataean kingdom in 106"
+    ],
+    [
+      "k1",
+      "k2",
+      "strong",
+      "Hegra became the southernmost Roman garrison town"
+    ],
+    [
+      "k1",
+      "o1",
+      "strong",
+      "the Via Nova Traiana ran the length of the new province"
+    ],
+    [
+      "o1",
+      "tc1",
+      "strong",
+      "the paved road, the milestones and the forts are one engineering programme"
+    ],
+    [
+      "o1",
+      "ex3",
+      "strong",
+      "the milestones and the frontier forts are its visible geometry"
+    ],
+    [
+      "k1",
+      "w1",
+      "strong",
+      "the northwest became the southeastern edge of the classical Mediterranean world"
+    ],
+    [
+      "ext1",
+      "k3",
+      "strong",
+      "Diocletian reorganised the province and the frontier defences"
+    ],
+    [
+      "k3",
+      "c1",
+      "strong",
+      "the garrisoning gave way to a gradual withdrawal from the southern forts"
+    ],
+    [
+      "k3",
+      "ex3",
+      "loose",
+      "and to the forts of the Strata Diocletiana"
+    ],
+    [
+      "ext1",
+      "k4",
+      "strong",
+      "Aila was a Byzantine customs post and bishopric"
+    ],
+    [
+      "k4",
+      "b1",
+      "strong",
+      "the church of Aila is one of the oldest purpose-built churches known"
+    ],
+    [
+      "k4",
+      "ex2",
+      "strong",
+      "the mudbrick basilica excavated at Aqaba"
+    ],
+    [
+      "k4",
+      "ec4",
+      "strong",
+      "the port handled the Byzantine trade with the Hejaz"
+    ],
+    [
+      "ec1",
+      "w2",
+      "strong",
+      "with the incense trade gone the great oasis towns shrank to villages"
+    ],
+    [
+      "c1",
+      "w2",
+      "strong",
+      "and Rome's withdrawal left the region to the tribes"
+    ],
+    [
+      "w2",
+      "k5",
+      "strong",
+      "the oases and routes passed to the Arab tribes"
+    ],
+    [
+      "ext2",
+      "k5",
+      "strong",
+      "Byzantium managed the frontier tribes through the Ghassānid phylarchs"
+    ],
+    [
+      "ext2",
+      "x2",
+      "strong",
+      "who recruited and paid the Christian tribes as federate troops"
+    ],
+    [
+      "k5",
+      "x2",
+      "strong",
+      "the northwestern tribes served on both sides of the frontier"
+    ],
+    [
+      "k5",
+      "k6",
+      "strong",
+      "the Kalb held the great oasis of Dūmah"
+    ],
+    [
+      "k6",
+      "o4",
+      "strong",
+      "Dūmah held one of the great annual fairs of Arabia"
+    ],
+    [
+      "k6",
+      "b3",
+      "strong",
+      "with its own sanctuary and idol among the tribal paganism of the north"
+    ],
+    [
+      "k5",
+      "b1",
+      "loose",
+      "and the Christian Kalb and Judhām along the road"
+    ],
+    [
+      "ext4",
+      "k7",
+      "strong",
+      "the Jews of the oases were linked to the communities of Palestine and Iraq"
+    ],
+    [
+      "k7",
+      "b2",
+      "strong",
+      "the largest Jewish population in Arabia outside Yathrib"
+    ],
+    [
+      "k7",
+      "ec2",
+      "strong",
+      "the palm groves, grain and metalworking of Khaybar, Taymāʾ and Fadak"
+    ],
+    [
+      "tc2",
+      "ec2",
+      "strong",
+      "worked with underground channels tapping the Khaybar water table"
+    ],
+    [
+      "ext4",
+      "x3",
+      "strong",
+      "the shared law and calendar and the traditions of the Banū Isrāʾīl of the Hejaz"
+    ],
+    [
+      "b2",
+      "b4",
+      "loose",
+      "Jewish and Christian influence tilted the tribes toward monotheism"
+    ],
+    [
+      "b1",
+      "b4",
+      "loose",
+      "as did the Christian communities along the road"
+    ],
+    [
+      "ext3",
+      "k8",
+      "strong",
+      "the Prophet's campaigns and treaties incorporated the northwest"
+    ],
+    [
+      "k8",
+      "c2",
+      "strong",
+      "Khaybar, the strongest Jewish settlement, was taken by siege in 628"
+    ],
+    [
+      "k7",
+      "c2",
+      "strong",
+      "the fortress oasis had to be taken fort by fort"
+    ],
+    [
+      "tc2",
+      "c2",
+      "loose",
+      "its landscape of separate walled strongholds was the reason"
+    ],
+    [
+      "c2",
+      "o3",
+      "strong",
+      "the settlement left the Jews of Khaybar farming the land for half the produce"
+    ],
+    [
+      "c2",
+      "lv1",
+      "strong",
+      "the Khaybar Jews have a documented beginning, middle and end"
+    ],
+    [
+      "c2",
+      "lv3",
+      "strong",
+      "Ṣafiyya bint Ḥuyayy was taken at Khaybar and married to the Prophet"
+    ],
+    [
+      "ext1",
+      "c3",
+      "strong",
+      "Tabūk was marched against a rumoured Byzantine concentration that did not come"
+    ],
+    [
+      "ext2",
+      "c3",
+      "strong",
+      "and a Ghassānid one"
+    ],
+    [
+      "c3",
+      "k8",
+      "strong",
+      "the demonstration of reach brought the northern communities to terms without a battle"
+    ],
+    [
+      "k6",
+      "c4",
+      "strong",
+      "Khālid ibn al-Walīd captured Ukaydir and took Dūmah in 630"
+    ],
+    [
+      "k8",
+      "c4",
+      "strong",
+      "extending the Medinan state to the edge of Byzantine Syria"
+    ],
+    [
+      "c3",
+      "o2",
+      "strong",
+      "the dhimma treaties of the north followed Tabūk"
+    ],
+    [
+      "c2",
+      "o2",
+      "strong",
+      "and the settlement of Khaybar"
+    ],
+    [
+      "o2",
+      "x4",
+      "strong",
+      "the treaties made the northern tribes and towns Medinan clients"
+    ],
+    [
+      "x4",
+      "w3",
+      "strong",
+      "the northwest became the launch position for the conquest of Syria"
+    ],
+    [
+      "ext3",
+      "x4",
+      "strong",
+      "directed from Medina"
+    ],
+    [
+      "ex4",
+      "t3",
+      "strong",
+      "the graffiti and the Nabataeo-Arabic transitional texts trace the birth of the Arabic script"
+    ],
+    [
+      "ex1",
+      "t3",
+      "strong",
+      "the Raqūsh inscription at Hegra of 267 has a line of Arabic in Nabataean letters"
+    ],
+    [
+      "k2",
+      "ex1",
+      "strong",
+      "the Roman fort and bath were built among the Nabataean tombs of Hegra"
+    ],
+    [
+      "k2",
+      "lv2",
+      "strong",
+      "the garrison detachment held the empire's southernmost post"
+    ],
+    [
+      "ext1",
+      "t1",
+      "strong",
+      "the Roman army list and Ammianus are the record of a region that kept little of its own"
+    ],
+    [
+      "k3",
+      "t1",
+      "loose",
+      "from which the contraction of the Arabian frontier is reconstructed"
+    ],
+    [
+      "k8",
+      "t2",
+      "strong",
+      "the maghāzī of Khaybar, Tabūk and Dūmah are the main narrative source for the conquest"
+    ],
+    [
+      "b1",
+      "x5",
+      "strong",
+      "the monasteries of Sinai drew a pilgrim traffic that crossed the northwest"
+    ],
+    [
+      "ext1",
+      "x1",
+      "strong",
+      "for three centuries the northwest was garrisoned, roaded and watched from Bostra and Aila"
+    ],
+    [
+      "ec1",
+      "x1",
+      "loose",
+      "Rome's reach for the through-trade faded as the sea route took over"
+    ],
+    [
+      "k5",
+      "ec3",
+      "strong",
+      "the herding of the Quḍāʿa tribes and the fair of Dūmah"
+    ],
+    [
+      "ec4",
+      "ec1",
+      "loose",
+      "the small Red Sea port was a node on the route that had replaced the land one"
+    ]
+  ]
+}
