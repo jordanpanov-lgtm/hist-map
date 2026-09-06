@@ -28,6 +28,9 @@ const MODULES = [
   { id:"egypt-6000bc-3000bc",   file:"modules/egypt-6000bc-3000bc.json",   label:"Predynastic Egypt 6000–3000 BC", sub:"Neolithic Nile, Naqada Cultures and the Rise of Kingship", region:"Egypt", period:"Prehistoric" },
   { id:"egypt-3000bc-2100bc",   file:"modules/egypt-3000bc-2100bc.json",   label:"Ancient Egypt 3000–2100 BC",  sub:"Unification, Pyramids and the First Collapse",region:"Egypt",   period:"Prehistoric"   },
   { id:"nabataean-312bc-106ce", file:"modules/nabataean-312bc-106ce.json", label:"Nabataean Kingdom 312BC–106", sub:"The Incense Kingdom of Petra",                region:"NW Arabia",  period:"Late Antique"  },
+  // placed here — after Nabataea — because it is the Roman-province aftermath of it;
+  //   its Medieval sibling nw-arabia-632-1517 sits in the Northwest-oases block below.
+  { id:"nw-arabia-106-632", file:"modules/nw-arabia-106-632.json", label:"Rome and the Oases 106–632", sub:"The Roman Frontier, the Tribal and Jewish Oases, and the Conquest of the North", region:"NW Arabia", period:"Late Antique" },
   { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
   { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
   { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
@@ -61,7 +64,6 @@ const MODULES = [
   // The north-Arabian desert kingdom (Wādī Sirḥān, Dūmat al-Jandal) — dated to its
   //   own span, not the period bucket, since the record is firm from Gindibu (853 BC).
   { id:"qedar-853bc-330bc", file:"modules/qedar-853bc-330bc.json", label:"The Kingdom of Qedar 853–330 BC", sub:"Gindibu, the Five Arab Queens, Adummatu and the North Arabian Kingdom", region:"NW Arabia", period:"Ancient" },
-  { id:"nw-arabia-106-632", file:"modules/nw-arabia-106-632.json", label:"Rome and the Oases 106–632", sub:"The Roman Frontier, the Tribal and Jewish Oases, and the Conquest of the North", region:"NW Arabia", period:"Late Antique" },
   { id:"nw-arabia-632-1517", file:"modules/nw-arabia-632-1517.json", label:"The Medieval Northwest 632–1517", sub:"A Corridor of the Hajj Roads — the Oases, the Tribes, and the Cities of Thamūd", region:"NW Arabia", period:"Medieval" },
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread; grouped with SE Arabia
   //   for its Indian-Ocean orientation) ──────────────────────────────────────────
