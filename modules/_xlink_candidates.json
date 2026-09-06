@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-06",
-    "figure_matches": 745,
-    "figure_matches_rejected_dynasty_mismatch": 906,
-    "figure_matches_rejected_date_implausible": 1055,
+    "figure_matches": 750,
+    "figure_matches_rejected_dynasty_mismatch": 908,
+    "figure_matches_rejected_date_implausible": 1056,
     "dynasty_alignment_proposals_count": 62,
-    "keyword_matches": 3663,
-    "keyword_matches_rejected_geo_only": 8687,
-    "high_confidence": 772,
-    "medium_confidence": 313,
-    "low_confidence": 3323
+    "keyword_matches": 3671,
+    "keyword_matches_rejected_geo_only": 8689,
+    "high_confidence": 777,
+    "medium_confidence": 314,
+    "low_confidence": 3330
   },
   "figure_name_matches": [
     {
@@ -839,6 +839,28 @@
         "decade": "1180s–1240s"
       },
       "match": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Water clocks and star ceilings",
+        "decade": "1150s BC–1470s"
+      },
+      "xlink_a": "ayyubids-1171-1250::tc4",
+      "xlink_b": "egypt-1550bc-1200bc::t2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water for the Citadel and the Ghouta",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1240s"
+      },
+      "match": {
         "folio": "hejaz-prehistory-8000bc-1200bc",
         "id": "tc1",
         "cat": "technology",
@@ -935,6 +957,28 @@
       },
       "xlink_a": "ayyubids-1171-1250::w6",
       "xlink_b": "caliphate-945-1258::ec6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mediterranean",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w6",
+        "cat": "world",
+        "label": "Egypt bound into the Mediterranean economy",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1250s"
+      },
+      "match": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "w5",
+        "cat": "world",
+        "label": "The drying of the eastern Mediterranean",
+        "decade": "1180s BC–1250s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w6",
+      "xlink_b": "egypt-1550bc-1200bc::w5"
     },
     {
       "confidence": "high",
@@ -2431,6 +2475,28 @@
       },
       "xlink_a": "caliphate-632-750::tc4",
       "xlink_b": "dilmun-3000bc-1200bc::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Water",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "tc4",
+        "cat": "technology",
+        "label": "Water engineering across the empire",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Water clocks and star ceilings",
+        "decade": "1150s BC–1470s"
+      },
+      "xlink_a": "caliphate-632-750::tc4",
+      "xlink_b": "egypt-1550bc-1200bc::t2"
     },
     {
       "confidence": "high",
@@ -4807,6 +4873,28 @@
       },
       "xlink_a": "fatimids-909-1171::lv1",
       "xlink_b": "dilmun-3000bc-1200bc::lv2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Women",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Women of power — Sitt al-Mulk and Queen Arwa",
+        "dynasty": "Fatimid",
+        "decade": "1020s–1130s"
+      },
+      "match": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "l5",
+        "cat": "lives",
+        "label": "The women of the harem and the weaving houses",
+        "decade": "1200s BC–1390s"
+      },
+      "xlink_a": "fatimids-909-1171::lv1",
+      "xlink_b": "egypt-1550bc-1200bc::l5"
     },
     {
       "confidence": "high",
@@ -15411,6 +15499,28 @@
       },
       "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "dilmun-1200bc-600bc::tc2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iron",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Iron smelting at scale",
+        "dynasty": "Abiel",
+        "decade": "100s BC–200s"
+      },
+      "match": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "g2",
+        "cat": "technology",
+        "label": "Bronze at its height, iron as a curiosity",
+        "decade": "1200s BC–1500s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
+      "xlink_b": "egypt-1550bc-1200bc::g2"
     },
     {
       "confidence": "high",
@@ -26182,6 +26292,33 @@
       "date_flag": "overlapping",
       "xlink_a": "dedan-tayma-1200bc-300bc::w1",
       "xlink_b": "nw-arabia-106-632::o2"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Avaris",
+        "Hyksos",
+        "Thebes"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Ahmose I — the expulsion of the Hyksos",
+        "decade": "1520s BC–1550s"
+      },
+      "b": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The Theban war against the Hyksos",
+        "decade": "1550s BC–1560s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::k1",
+      "xlink_b": "egypt-2100bc-1550bc::c6"
     },
     {
       "confidence": "medium",
@@ -46818,6 +46955,58 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-945-1258::lv4",
       "xlink_b": "nw-arabia-632-1517::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aegean",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc3",
+        "cat": "exchange",
+        "label": "Keftiu — Egypt and the Aegean world",
+        "decade": "1350s BC–1470s"
+      },
+      "b": {
+        "folio": "south-arabia-1200bc-300bc",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The Minaean merchant houses",
+        "decade": "300s BC–500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::xc3",
+      "xlink_b": "south-arabia-1200bc-300bc::ec5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "Foreign gods and words in Egypt",
+        "decade": "1200s BC–1400s"
+      },
+      "b": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The nome system — Egypt's provincial administration",
+        "decade": "2600s BC–2900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::xc6",
+      "xlink_b": "egypt-3000bc-2100bc::o1"
     },
     {
       "confidence": "low",
@@ -105037,53 +105226,27 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Nile Valley",
+        "Avaris",
         "Thebes"
       ],
       "sharedCount": 2,
       "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Ahmose I — the expulsion of the Hyksos",
+        "decade": "1520s BC–1550s"
+      },
+      "b": {
         "folio": "egypt-2100bc-1550bc",
-        "id": "c6",
-        "cat": "conflict",
-        "label": "The Theban war against the Hyksos",
-        "decade": "1550s BC–1560s"
-      },
-      "b": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "c6",
-        "cat": "conflict",
-        "label": "Herakleopolis versus Thebes — the First Intermediate civil war",
-        "decade": "2050s BC–2150s"
+        "id": "k18",
+        "cat": "power",
+        "label": "Kamose — the campaign to Avaris",
+        "decade": "1550s BC–1550s"
       },
       "date_flag": "overlapping",
-      "xlink_a": "egypt-2100bc-1550bc::c6",
-      "xlink_b": "egypt-3000bc-2100bc::c6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Abydos",
-        "Nile Valley"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "Djer's Nubian campaign",
-        "decade": "2980s BC"
-      },
-      "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "x1",
-        "cat": "expression",
-        "label": "White Cross-lined ware — Naqada I's earliest figural pottery",
-        "decade": "3500s BC–4000s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::c2",
-      "xlink_b": "egypt-6000bc-3000bc::x1"
+      "xlink_a": "egypt-1550bc-1200bc::k1",
+      "xlink_b": "egypt-2100bc-1550bc::k18"
     },
     {
       "confidence": "low",
@@ -105141,27 +105304,105 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Herakleopolis",
-        "Mentuhotep II"
+        "Nile Valley",
+        "Thebes"
       ],
       "sharedCount": 2,
       "a": {
         "folio": "egypt-2100bc-1550bc",
-        "id": "c1",
+        "id": "c6",
         "cat": "conflict",
-        "label": "Mentuhotep II defeats Herakleopolis",
-        "decade": "2040s BC"
+        "label": "The Theban war against the Hyksos",
+        "decade": "1550s BC–1560s"
       },
       "b": {
         "folio": "egypt-3000bc-2100bc",
-        "id": "c7",
+        "id": "c6",
         "cat": "conflict",
-        "label": "Intef II campaigns against Herakleopolis",
-        "decade": "2080s BC"
+        "label": "Herakleopolis versus Thebes — the First Intermediate civil war",
+        "decade": "2050s BC–2150s"
       },
-      "date_flag": "40yr gap",
-      "xlink_a": "egypt-2100bc-1550bc::c1",
-      "xlink_b": "egypt-3000bc-2100bc::c7"
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::c6",
+      "xlink_b": "egypt-3000bc-2100bc::c6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Avaris",
+        "Hyksos"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Ahmose I — the expulsion of the Hyksos",
+        "decade": "1520s BC–1550s"
+      },
+      "b": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "k12",
+        "cat": "power",
+        "label": "Salitis — the founding of the Hyksos kingdom",
+        "decade": "1650s BC"
+      },
+      "date_flag": "125yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1550bc-1200bc::k1",
+      "xlink_b": "egypt-2100bc-1550bc::k12"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Avaris",
+        "Hyksos"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Ahmose I — the expulsion of the Hyksos",
+        "decade": "1520s BC–1550s"
+      },
+      "b": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Hyksos take Memphis and the Delta",
+        "decade": "1650s BC"
+      },
+      "date_flag": "125yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1550bc-1200bc::k1",
+      "xlink_b": "egypt-2100bc-1550bc::c5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Amun of Thebes",
+        "Thebes Karnak"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "e2",
+        "cat": "economy",
+        "label": "The rise of the temple estates",
+        "decade": "1200s BC–1400s"
+      },
+      "b": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Amun of Thebes rises to national god",
+        "decade": "1950s BC"
+      },
+      "date_flag": "750yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1550bc-1200bc::e2",
+      "xlink_b": "egypt-2100bc-1550bc::b3"
     },
     {
       "confidence": "low",
@@ -105350,6 +105591,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Abydos",
+        "Nile Valley"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Djer's Nubian campaign",
+        "decade": "2980s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "White Cross-lined ware — Naqada I's earliest figural pottery",
+        "decade": "3500s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c2",
+      "xlink_b": "egypt-6000bc-3000bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
         "Hierakonpolis"
       ],
       "sharedCount": 2,
@@ -105427,6 +105694,84 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Eastern Desert",
+        "Wadi Hammamat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Nile and the gold roads",
+        "decade": "1290s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::w1",
+      "xlink_b": "egypt-6000bc-3000bc::th2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Lower Egyptian",
+        "Nile Delta"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Khasekhemwy suppresses a civil war, ending the Second Dynasty",
+        "decade": "2700s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "p2",
+        "cat": "power",
+        "label": "Merimde Beni Salama — the Delta's largest Neolithic village",
+        "decade": "4300s BC–4800s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c3",
+      "xlink_b": "egypt-6000bc-3000bc::p2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Herakleopolis",
+        "Mentuhotep II"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Mentuhotep II defeats Herakleopolis",
+        "decade": "2040s BC"
+      },
+      "b": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Intef II campaigns against Herakleopolis",
+        "decade": "2080s BC"
+      },
+      "date_flag": "40yr gap",
+      "xlink_a": "egypt-2100bc-1550bc::c1",
+      "xlink_b": "egypt-3000bc-2100bc::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Hierakonpolis",
         "Narmer Palette"
       ],
@@ -105474,32 +105819,6 @@
       "date_flag": "100yr gap — verify same entity, not just shared theme",
       "xlink_a": "egypt-3000bc-2100bc::k1",
       "xlink_b": "egypt-6000bc-3000bc::x4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Lower Egyptian",
-        "Nile Delta"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Khasekhemwy suppresses a civil war, ending the Second Dynasty",
-        "decade": "2700s BC"
-      },
-      "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "p2",
-        "cat": "power",
-        "label": "Merimde Beni Salama — the Delta's largest Neolithic village",
-        "decade": "4300s BC–4800s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::c3",
-      "xlink_b": "egypt-6000bc-3000bc::p2"
     },
     {
       "confidence": "low",

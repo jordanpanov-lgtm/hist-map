@@ -31,6 +31,18 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-1550bc-1200bc (The New Kingdom): hand-off from the Middle Kingdom & Hyksos folio ──
+  ['egypt-1550bc-1200bc::k1', 'egypt-2100bc-1550bc::k18'],   // Ahmose completes the expulsion Kamose began
+  ['egypt-1550bc-1200bc::c1', 'egypt-2100bc-1550bc::c6'],    // the Theban war of liberation — its final act
+  ['egypt-1550bc-1200bc::c2', 'egypt-2100bc-1550bc::w3'],    // Egypt conquers the Kerma kingdom of Kush
+  ['egypt-1550bc-1200bc::o1', 'egypt-2100bc-1550bc::c3'],    // the MK Semna frontier → the NK viceroyalty of Kush
+  ['egypt-1550bc-1200bc::b1', 'egypt-2100bc-1550bc::b3'],    // Amun of Thebes rises → the empire of Amun
+  ['egypt-1550bc-1200bc::b4', 'egypt-2100bc-1550bc::b2'],    // Coffin Texts → the Book of the Dead
+  ['egypt-1550bc-1200bc::b5', 'egypt-2100bc-1550bc::b5'],    // the MK pyramid → the hidden Valley of the Kings tomb
+  ['egypt-1550bc-1200bc::e1', 'egypt-2100bc-1550bc::e2'],    // Nubian gold and the Wadi Allaqi road, now the empire's reserve
+  ['egypt-1550bc-1200bc::g1', 'egypt-2100bc-1550bc::g6'],    // the chariot arrives with the Hyksos → the chariot workshop
+  ['egypt-1550bc-1200bc::g5', 'egypt-2100bc-1550bc::g3'],    // hauling Djehutihotep's colossus → moving the obelisks
+  ['egypt-1550bc-1200bc::xc4', 'egypt-2100bc-1550bc::xc2'],  // Punt from Saww → Hatshepsut's Punt expedition
   // ── egypt-2100bc-1550bc (Middle Kingdom & the Hyksos): hand-off from the Old Kingdom folio ──
   ['egypt-2100bc-1550bc::k1', 'egypt-3000bc-2100bc::k15'],  // Mentuhotep II completes the reunification Intef II began
   ['egypt-2100bc-1550bc::c1', 'egypt-3000bc-2100bc::c7'],   // Intef II's campaigns vs Herakleopolis → Mentuhotep II's victory
