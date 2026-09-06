@@ -48,6 +48,9 @@ const MODULES = [
   { id:"hejaz-prehistory-8000bc-1200bc", file:"modules/hejaz-prehistory-8000bc-1200bc.json", label:"Prehistoric Northwest Arabia 8,000–1,200 BC", sub:"Mustatils, the Funerary Avenues and the Walled Oases of Tayma and Khaybar", region:"Arabia", period:"Prehistoric" },
   // PLANNED — the thread continues: a Dadan-and-Lihyan folio (region "Arabia", c.1000–100 BC)
   //   would bridge the gap to nabataean-400bc-106ce.json, already built above.
+  // ── SOUTH ARABIA (Yemen — the highland & Tihama thread, distinct from both the
+  //   NW-Arabian interior and the Gulf littoral) ─────────────────────────────────
+  { id:"south-arabia-prehistory-8000bc-1200bc", file:"modules/south-arabia-prehistory-8000bc-1200bc.json", label:"Prehistoric South Arabia 8,000–1,200 BC", sub:"The Highland Neolithic, the Cattle Cult and the Roots of the Incense Kingdoms", region:"Arabia", period:"Prehistoric" },
   // ── THE GULF (shared Arabian-Peninsula folios + modern nation-states) ───────
   { id:"gulf-prehistory-8000bc-3000bc", file:"modules/gulf-prehistory-8000bc-3000bc.json", label:"Prehistoric Eastern Arabia 8000–3000 BC", sub:"Green Arabia, the Arabian Neolithic and the First Pearl Fishers", region:"Arabia", period:"Prehistoric" },
   { id:"dilmun-3000bc-600bc",    file:"modules/dilmun-3000bc-600bc.json",    label:"Dilmun 3000–600 BC",            sub:"The Bronze Age Entrepôt of the Gulf",             region:"Arabia", period:"Prehistoric" },
