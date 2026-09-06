@@ -31,6 +31,20 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-1200bc-664bc (Priests, Libyans and Kushites): hand-off from The New Kingdom folio ──
+  ['egypt-1200bc-664bc::k1', 'egypt-1550bc-1200bc::k19'],   // the disputed end of Dyn 19 → Setnakhte restores order
+  ['egypt-1200bc-664bc::c1', 'egypt-1550bc-1200bc::w4'],    // the Sea Peoples appear → Ramesses III repels them
+  ['egypt-1200bc-664bc::w1', 'egypt-1550bc-1200bc::w5'],    // the drying Mediterranean → the Bronze Age collapse
+  ['egypt-1200bc-664bc::w1', 'egypt-1550bc-1200bc::w3'],    // the club of great powers → its systemic collapse
+  ['egypt-1200bc-664bc::o2', 'egypt-1550bc-1200bc::b1'],    // the empire of Amun → the High Priesthood as a state
+  ['egypt-1200bc-664bc::e3', 'egypt-1550bc-1200bc::e2'],    // the rise of the temple estates → the temple as landlord
+  ['egypt-1200bc-664bc::o5', 'egypt-1550bc-1200bc::b5'],    // the hidden royal tombs → the tomb-robbery commissions
+  ['egypt-1200bc-664bc::o6', 'egypt-1550bc-1200bc::o4'],    // Deir el-Medina → its abandonment and the reburials
+  ['egypt-1200bc-664bc::b2', 'egypt-1550bc-1200bc::b4'],    // the Book of the Dead → the portable afterlife
+  ['egypt-1200bc-664bc::e4', 'egypt-1550bc-1200bc::e1'],    // Nubian gold and tribute → the loss of that income
+  ['egypt-1200bc-664bc::b4', 'egypt-1550bc-1200bc::c2'],    // Egypt conquers and Egyptianises Kush → Kush takes Egypt
+  ['egypt-1200bc-664bc::x1', 'egypt-1550bc-1200bc::x1'],    // the temple at imperial scale → Medinet Habu, the last of them
+  ['egypt-1200bc-664bc::x2', 'egypt-2100bc-1550bc::xc1'],   // Byblos the Egyptianising city → Wenamun's humbling at Byblos
   // ── egypt-1550bc-1200bc (The New Kingdom): hand-off from the Middle Kingdom & Hyksos folio ──
   ['egypt-1550bc-1200bc::k1', 'egypt-2100bc-1550bc::k18'],   // Ahmose completes the expulsion Kamose began
   ['egypt-1550bc-1200bc::c1', 'egypt-2100bc-1550bc::c6'],    // the Theban war of liberation — its final act

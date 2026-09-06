@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-06",
-    "figure_matches": 750,
+    "figure_matches": 753,
     "figure_matches_rejected_dynasty_mismatch": 908,
-    "figure_matches_rejected_date_implausible": 1056,
+    "figure_matches_rejected_date_implausible": 1063,
     "dynasty_alignment_proposals_count": 62,
-    "keyword_matches": 3671,
-    "keyword_matches_rejected_geo_only": 8689,
-    "high_confidence": 777,
-    "medium_confidence": 314,
-    "low_confidence": 3330
+    "keyword_matches": 3710,
+    "keyword_matches_rejected_geo_only": 8693,
+    "high_confidence": 780,
+    "medium_confidence": 315,
+    "low_confidence": 3368
   },
   "figure_name_matches": [
     {
@@ -4015,6 +4015,28 @@
       },
       "xlink_a": "eastern-arabia-750-1200::k5",
       "xlink_b": "al-andalus-711-1031::r3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Rule",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k5",
+        "cat": "power",
+        "label": "Rule by council — the Iqdaniyya",
+        "dynasty": "Jannabid",
+        "decade": "940s–1070s"
+      },
+      "match": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "o4",
+        "cat": "order",
+        "label": "Rule through Libyan chiefdoms",
+        "decade": "710s BC–1000s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::k5",
+      "xlink_b": "egypt-1200bc-664bc::o4"
     },
     {
       "confidence": "high",
@@ -13357,6 +13379,28 @@
         "decade": "1800s BC–2500s"
       },
       "match": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "w1",
+        "cat": "world",
+        "label": "The end of the Bronze Age",
+        "decade": "1150s BC–1200s"
+      },
+      "xlink_a": "south-arabia-prehistory-8000bc-1200bc::k5",
+      "xlink_b": "egypt-1200bc-664bc::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Bronze Age",
+      "pivot": {
+        "folio": "south-arabia-prehistory-8000bc-1200bc",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Bronze Age culture of Khawlan at-Tiyal",
+        "dynasty": null,
+        "decade": "1800s BC–2500s"
+      },
+      "match": {
         "folio": "hejaz-prehistory-8000bc-1200bc",
         "id": "ex4",
         "cat": "expression",
@@ -15499,6 +15543,28 @@
       },
       "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "dilmun-1200bc-600bc::tc2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iron",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Iron smelting at scale",
+        "dynasty": "Abiel",
+        "decade": "100s BC–200s"
+      },
+      "match": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "g1",
+        "cat": "technology",
+        "label": "Iron becomes a working metal",
+        "decade": "660s BC–1100s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
+      "xlink_b": "egypt-1200bc-664bc::g1"
     },
     {
       "confidence": "high",
@@ -26292,6 +26358,33 @@
       "date_flag": "overlapping",
       "xlink_a": "dedan-tayma-1200bc-300bc::w1",
       "xlink_b": "nw-arabia-106-632::o2"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Harris Papyrus",
+        "Nineteenth Dynasty",
+        "Thebes"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Setnakhte — order restored after the interregnum",
+        "decade": "1180s BC–1180s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k19",
+        "cat": "power",
+        "label": "The disputed end of the Nineteenth Dynasty",
+        "decade": "1180s BC–1200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k1",
+      "xlink_b": "egypt-1550bc-1200bc::k19"
     },
     {
       "confidence": "medium",
@@ -46955,6 +47048,136 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-945-1258::lv4",
       "xlink_b": "nw-arabia-632-1517::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "Marrying into Egypt",
+        "decade": "1240s BC–1390s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-1550bc-1200bc::xc2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc3",
+        "cat": "exchange",
+        "label": "Keftiu — Egypt and the Aegean world",
+        "decade": "1350s BC–1470s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-1550bc-1200bc::xc3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "Foreign gods and words in Egypt",
+        "decade": "1200s BC–1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-1550bc-1200bc::xc6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The nome system — Egypt's provincial administration",
+        "decade": "2600s BC–2900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-3000bc-2100bc::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Levant"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "xc3",
+        "cat": "exchange",
+        "label": "Egypt among the kingdoms of the Levant",
+        "decade": "700s BC–940s"
+      },
+      "b": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Qurayyah ware and contact with New Kingdom Egypt's mining frontier",
+        "decade": "1200s BC–1300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::xc3",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::x2"
     },
     {
       "confidence": "low",
@@ -68177,6 +68400,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Near East",
+        "Thebes Karnak"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The theocracy of Amun",
+        "decade": "900s BC–1080s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k6",
+        "cat": "power",
+        "label": "Thutmose III — the empire at its greatest extent",
+        "decade": "1420s BC–1470s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::b1",
+      "xlink_b": "egypt-1550bc-1200bc::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Near East",
         "South Arabia"
       ],
       "sharedCount": 2,
@@ -71317,6 +71566,32 @@
       "date_flag": "10yr gap",
       "xlink_a": "ayyubids-1171-1250::ec4",
       "xlink_b": "mamluks-1250-1517::tc5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Delta",
+        "Sea Peoples"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Sea Peoples repelled",
+        "decade": "1170s BC"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "Merneptah's Libyan war",
+        "decade": "1200s BC"
+      },
+      "date_flag": "31yr gap",
+      "xlink_a": "egypt-1200bc-664bc::c1",
+      "xlink_b": "egypt-1550bc-1200bc::c8"
     },
     {
       "confidence": "low",
@@ -90510,6 +90785,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Memphis",
+        "Nile"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "xc4",
+        "cat": "exchange",
+        "label": "The Kushite reunion of the Nile",
+        "decade": "660s BC–720s"
+      },
+      "b": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Nile flood-basin irrigation",
+        "decade": "2200s BC–3000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::xc4",
+      "xlink_b": "egypt-3000bc-2100bc::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Manama",
         "Women"
       ],
@@ -96251,6 +96552,32 @@
       "date_flag": "260yr gap — verify same entity, not just shared theme",
       "xlink_a": "eastern-arabia-750-1200::t4",
       "xlink_b": "hormuz-1200-1507::tc1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Kush",
+        "Napata Gebel Barkal"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k16",
+        "cat": "power",
+        "label": "Kashta — Kush reaches into Egypt",
+        "decade": "740s BC–760s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The conquest of Kush to the Fourth Cataract",
+        "decade": "1450s BC–1550s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k16",
+      "xlink_b": "egypt-1550bc-1200bc::c2"
     },
     {
       "confidence": "low",
@@ -103276,6 +103603,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Assyria",
+        "Nineveh"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Assyria enters Egypt",
+        "decade": "660s BC–670s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Assyria and the Arabs",
+        "decade": "630s BC–850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::xc5",
+      "xlink_b": "qedar-853bc-330bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Kuwait",
         "Qatar"
       ],
@@ -104129,6 +104482,32 @@
       "date_flag": "858yr gap — verify same entity, not just shared theme",
       "xlink_a": "najd-300bc-632::k6",
       "xlink_b": "qedar-853bc-330bc::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Mediterranean",
+        "Ugarit"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "w1",
+        "cat": "world",
+        "label": "The end of the Bronze Age",
+        "decade": "1150s BC–1200s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "w3",
+        "cat": "world",
+        "label": "The club of great powers",
+        "decade": "1250s BC–1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::w1",
+      "xlink_b": "egypt-1550bc-1200bc::w3"
     },
     {
       "confidence": "low",
@@ -105226,6 +105605,630 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Nineteenth Dynasty",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Setnakhte — order restored after the interregnum",
+        "decade": "1180s BC–1180s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k15",
+        "cat": "power",
+        "label": "Ramesses I — the founder from the army",
+        "decade": "1290s BC–1290s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k1",
+      "xlink_b": "egypt-1550bc-1200bc::k15"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Thebes",
+        "Wadi Hammamat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ramesses IV to VI — the empire slips away",
+        "decade": "1130s BC–1150s"
+      },
+      "b": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "k2",
+        "cat": "power",
+        "label": "Mentuhotep III and IV — the end of the Eleventh Dynasty",
+        "decade": "1980s BC–2000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k3",
+      "xlink_b": "egypt-2100bc-1550bc::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Pi-Ramesses",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k5",
+        "cat": "power",
+        "label": "Ramesses XI and the end of the New Kingdom",
+        "decade": "1070s BC–1100s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "Marrying into Egypt",
+        "decade": "1240s BC–1390s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k5",
+      "xlink_b": "egypt-1550bc-1200bc::xc2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Seti I",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Pinedjem I to Pinedjem II — the priestly dynasty",
+        "decade": "940s BC–1070s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k16",
+        "cat": "power",
+        "label": "Seti I — the recovery of the empire",
+        "decade": "1270s BC–1290s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k14",
+      "xlink_b": "egypt-1550bc-1200bc::k16"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ramesses II",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Pinedjem I to Pinedjem II — the priestly dynasty",
+        "decade": "940s BC–1070s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Merneptah — the Libyan war and the Israel Stele",
+        "decade": "1200s BC–1210s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k14",
+      "xlink_b": "egypt-1550bc-1200bc::k18"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Seti I",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Pinedjem I to Pinedjem II — the priestly dynasty",
+        "decade": "940s BC–1070s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The undoing of Amarna",
+        "decade": "1290s BC–1330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k14",
+      "xlink_b": "egypt-1550bc-1200bc::b3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ramesses II",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Pinedjem I to Pinedjem II — the priestly dynasty",
+        "decade": "940s BC–1070s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "x6",
+        "cat": "expression",
+        "label": "The colossus and the multiplied king",
+        "decade": "1250s BC–1360s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k14",
+      "xlink_b": "egypt-1550bc-1200bc::x6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "Amenhotep II — holding the empire by fear",
+        "decade": "1400s BC–1420s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-1550bc-1200bc::k7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k12",
+        "cat": "power",
+        "label": "Tutankhamun — the restoration of the old gods",
+        "decade": "1320s BC–1330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-1550bc-1200bc::k12"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Horemheb — the general who reset the state",
+        "decade": "1290s BC–1320s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-1550bc-1200bc::k14"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k15",
+        "cat": "power",
+        "label": "Ramesses I — the founder from the army",
+        "decade": "1290s BC–1290s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-1550bc-1200bc::k15"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "x5",
+        "cat": "expression",
+        "label": "Tales, myths and the new wisdom",
+        "decade": "1180s BC–1300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-1550bc-1200bc::x5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k20",
+        "cat": "power",
+        "label": "Tantamani and the sack of Thebes",
+        "decade": "650s BC–660s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "Amenhotep II — holding the empire by fear",
+        "decade": "1400s BC–1420s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k20",
+      "xlink_b": "egypt-1550bc-1200bc::k7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k20",
+        "cat": "power",
+        "label": "Tantamani and the sack of Thebes",
+        "decade": "650s BC–660s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k12",
+        "cat": "power",
+        "label": "Tutankhamun — the restoration of the old gods",
+        "decade": "1320s BC–1330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k20",
+      "xlink_b": "egypt-1550bc-1200bc::k12"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k20",
+        "cat": "power",
+        "label": "Tantamani and the sack of Thebes",
+        "decade": "650s BC–660s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Horemheb — the general who reset the state",
+        "decade": "1290s BC–1320s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k20",
+      "xlink_b": "egypt-1550bc-1200bc::k14"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k20",
+        "cat": "power",
+        "label": "Tantamani and the sack of Thebes",
+        "decade": "650s BC–660s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k15",
+        "cat": "power",
+        "label": "Ramesses I — the founder from the army",
+        "decade": "1290s BC–1290s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k20",
+      "xlink_b": "egypt-1550bc-1200bc::k15"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k20",
+        "cat": "power",
+        "label": "Tantamani and the sack of Thebes",
+        "decade": "650s BC–660s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "x5",
+        "cat": "expression",
+        "label": "Tales, myths and the new wisdom",
+        "decade": "1180s BC–1300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k20",
+      "xlink_b": "egypt-1550bc-1200bc::x5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "Assyria invades and sacks Thebes",
+        "decade": "660s BC–670s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "Amenhotep II — holding the empire by fear",
+        "decade": "1400s BC–1420s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::c8",
+      "xlink_b": "egypt-1550bc-1200bc::k7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "Assyria invades and sacks Thebes",
+        "decade": "660s BC–670s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k12",
+        "cat": "power",
+        "label": "Tutankhamun — the restoration of the old gods",
+        "decade": "1320s BC–1330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::c8",
+      "xlink_b": "egypt-1550bc-1200bc::k12"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "Assyria invades and sacks Thebes",
+        "decade": "660s BC–670s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Horemheb — the general who reset the state",
+        "decade": "1290s BC–1320s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::c8",
+      "xlink_b": "egypt-1550bc-1200bc::k14"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "Assyria invades and sacks Thebes",
+        "decade": "660s BC–670s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k15",
+        "cat": "power",
+        "label": "Ramesses I — the founder from the army",
+        "decade": "1290s BC–1290s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::c8",
+      "xlink_b": "egypt-1550bc-1200bc::k15"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "Assyria invades and sacks Thebes",
+        "decade": "660s BC–670s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "x5",
+        "cat": "expression",
+        "label": "Tales, myths and the new wisdom",
+        "decade": "1180s BC–1300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::c8",
+      "xlink_b": "egypt-1550bc-1200bc::x5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Book of the Dead",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "b2",
+        "cat": "belief",
+        "label": "The dead king's body and the portable afterlife",
+        "decade": "900s BC–1070s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The Book of the Dead",
+        "decade": "1500s BC"
+      },
+      "date_flag": "600yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1200bc-664bc::b2",
+      "xlink_b": "egypt-1550bc-1200bc::b4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Thebes",
+        "Twentieth Dynasty"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "w2",
+        "cat": "world",
+        "label": "Low Niles and the Ramesside crisis",
+        "decade": "1070s BC–1150s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "k19",
+        "cat": "power",
+        "label": "The disputed end of the Nineteenth Dynasty",
+        "decade": "1180s BC–1200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::w2",
+      "xlink_b": "egypt-1550bc-1200bc::k19"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Avaris",
         "Thebes"
       ],
@@ -105330,6 +106333,188 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Eastern Desert",
+        "Wadi Hammamat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Nile and the gold roads",
+        "decade": "1290s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::w1",
+      "xlink_b": "egypt-6000bc-3000bc::th2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Amun",
+        "Thebes Karnak"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The theocracy of Amun",
+        "decade": "900s BC–1080s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The empire of Amun",
+        "decade": "1350s BC–1500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::b1",
+      "xlink_b": "egypt-1550bc-1200bc::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Amun of Thebes",
+        "Thebes Karnak"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "e2",
+        "cat": "economy",
+        "label": "The rise of the temple estates",
+        "decade": "1200s BC–1400s"
+      },
+      "b": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Amun of Thebes rises to national god",
+        "decade": "1950s BC"
+      },
+      "date_flag": "750yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1550bc-1200bc::e2",
+      "xlink_b": "egypt-2100bc-1550bc::b3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Lower Egyptian",
+        "Nile Delta"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Khasekhemwy suppresses a civil war, ending the Second Dynasty",
+        "decade": "2700s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "p2",
+        "cat": "power",
+        "label": "Merimde Beni Salama — the Delta's largest Neolithic village",
+        "decade": "4300s BC–4800s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c3",
+      "xlink_b": "egypt-6000bc-3000bc::p2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ramesses II",
+        "Seti I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Pinedjem I to Pinedjem II — the priestly dynasty",
+        "decade": "940s BC–1070s"
+      },
+      "b": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "The temple at imperial scale",
+        "decade": "1210s BC–1450s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k14",
+      "xlink_b": "egypt-1550bc-1200bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Herakleopolis",
+        "Mentuhotep II"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Mentuhotep II defeats Herakleopolis",
+        "decade": "2040s BC"
+      },
+      "b": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Intef II campaigns against Herakleopolis",
+        "decade": "2080s BC"
+      },
+      "date_flag": "40yr gap",
+      "xlink_a": "egypt-2100bc-1550bc::c1",
+      "xlink_b": "egypt-3000bc-2100bc::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Late Bronze Age",
+        "Mycenaean Greece"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "w1",
+        "cat": "world",
+        "label": "The end of the Bronze Age",
+        "decade": "1150s BC–1200s"
+      },
+      "b": {
+        "folio": "hejaz-prehistory-8000bc-1200bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Al-Natah is abandoned",
+        "decade": "1300s BC–1500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::w1",
+      "xlink_b": "hejaz-prehistory-8000bc-1200bc::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Avaris",
         "Hyksos"
       ],
@@ -105377,32 +106562,6 @@
       "date_flag": "125yr gap — verify same entity, not just shared theme",
       "xlink_a": "egypt-1550bc-1200bc::k1",
       "xlink_b": "egypt-2100bc-1550bc::c5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Amun of Thebes",
-        "Thebes Karnak"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-1550bc-1200bc",
-        "id": "e2",
-        "cat": "economy",
-        "label": "The rise of the temple estates",
-        "decade": "1200s BC–1400s"
-      },
-      "b": {
-        "folio": "egypt-2100bc-1550bc",
-        "id": "b3",
-        "cat": "belief",
-        "label": "Amun of Thebes rises to national god",
-        "decade": "1950s BC"
-      },
-      "date_flag": "750yr gap — verify same entity, not just shared theme",
-      "xlink_a": "egypt-1550bc-1200bc::e2",
-      "xlink_b": "egypt-2100bc-1550bc::b3"
     },
     {
       "confidence": "low",
@@ -105689,84 +106848,6 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-3000bc-2100bc::b1",
       "xlink_b": "egypt-6000bc-3000bc::tc5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Eastern Desert",
-        "Wadi Hammamat"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-1550bc-1200bc",
-        "id": "w1",
-        "cat": "world",
-        "label": "The Nile and the gold roads",
-        "decade": "1290s BC"
-      },
-      "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "th2",
-        "cat": "thought",
-        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
-        "decade": "3200s BC–4000s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-1550bc-1200bc::w1",
-      "xlink_b": "egypt-6000bc-3000bc::th2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Lower Egyptian",
-        "Nile Delta"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "c3",
-        "cat": "conflict",
-        "label": "Khasekhemwy suppresses a civil war, ending the Second Dynasty",
-        "decade": "2700s BC"
-      },
-      "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "p2",
-        "cat": "power",
-        "label": "Merimde Beni Salama — the Delta's largest Neolithic village",
-        "decade": "4300s BC–4800s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::c3",
-      "xlink_b": "egypt-6000bc-3000bc::p2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Herakleopolis",
-        "Mentuhotep II"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-2100bc-1550bc",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "Mentuhotep II defeats Herakleopolis",
-        "decade": "2040s BC"
-      },
-      "b": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "c7",
-        "cat": "conflict",
-        "label": "Intef II campaigns against Herakleopolis",
-        "decade": "2080s BC"
-      },
-      "date_flag": "40yr gap",
-      "xlink_a": "egypt-2100bc-1550bc::c1",
-      "xlink_b": "egypt-3000bc-2100bc::c7"
     },
     {
       "confidence": "low",
