@@ -1,0 +1,954 @@
+{
+  "nodes": [
+    {
+      "id": "ext1",
+      "lane": "external",
+      "year": 100,
+      "label": "Rome and Byzantium",
+      "full": "The Mediterranean empire: Aelius Gallus's failed invasion, the market for the incense and India trade, the sender of the first Christian mission, and — as Byzantium — the power that pushes Aksum to invade and tries to route the silk trade through the Red Sea.",
+      "src": "background — Strabo XVI.4; the Periplus; Procopius, Wars I.19–20.",
+      "external": true
+    },
+    {
+      "id": "ext2",
+      "lane": "external",
+      "year": 250,
+      "label": "Aksum",
+      "full": "The Christian kingdom across the Bab al-Mandab: an expeditionary presence in Yemen from the 3rd-century general GDRT, the conqueror of Himyar under Kaleb in 525, and the suzerain over Abraha's kingship.",
+      "src": "background — the GDRT inscriptions; Bowersock, 'The Throne of Adulis' (2013).",
+      "external": true
+    },
+    {
+      "id": "ext3",
+      "lane": "external",
+      "year": 560,
+      "label": "Sasanian Persia",
+      "full": "The eastern empire: Khosrow I's cheap seaborne expedition expels the Aksumites and turns Yemen into a Persian march, closing the Red Sea corner of the Rome–Persia rivalry.",
+      "src": "background — al-Tabari; Nöldeke; Bosworth, 'The Persian impact on Arabia'.",
+      "external": true
+    },
+    {
+      "id": "ext4",
+      "lane": "external",
+      "year": 625,
+      "label": "The rise of Islam",
+      "full": "The new polity in the Hijaz: the 'Year of the Elephant' is synchronised with the Prophet's birth, and around 628 the Persian governor Badhan and the Abna hand Yemen to Islam almost without resistance.",
+      "src": "background — added on review; the sira tradition; al-Tabari on Badhan.",
+      "external": true
+    },
+    {
+      "id": "k1",
+      "lane": "power",
+      "year": -80,
+      "label": "Sabaʾ, Qatabān and Maʿīn in decline",
+      "full": "As sea traffic drained the overland toll economy, Maʿīn faded by the 1st century BC and Qatabān was swallowed by its neighbours in the 2nd century AD. Sabaʾ held on at Marib, but as one kingdom among several rather than the hegemon it had been.",
+      "src": "Robin, 'Sabaʾ et ses rois'; Avanzini, 'By land and by sea' (2016). Cross-refers to the preceding folio."
+    },
+    {
+      "id": "k3",
+      "lane": "power",
+      "year": -50,
+      "label": "Ḥaḍramawt and the port of Qanaʾ",
+      "full": "Ḥaḍramawt outlasted the other old kingdoms by pivoting to the sea: its port of Qanaʾ on the south coast shipped Dhofar frankincense directly to Egypt and India, keeping Shabwa wealthy while the interior routes withered.",
+      "src": "the Periplus of the Erythraean Sea §27–29; the Russian–Yemeni excavations at Qanaʾ (Sedov)."
+    },
+    {
+      "id": "k4",
+      "lane": "power",
+      "year": -110,
+      "label": "Himyar rises at Zafar",
+      "full": "A highland people, the dhu-Raydan, built a new capital at Zafar and claimed the title 'king of Sabaʾ and dhu-Raydan'. Their calendar epoch of 110 BC became the dating era for the whole of late South Arabian history.",
+      "src": "the Himyarite royal inscriptions; Robin, 'Ḥimyar et Israël'; the DAI Zafar excavations (Paul Yule)."
+    },
+    {
+      "id": "k5",
+      "lane": "power",
+      "year": 50,
+      "label": "Charibael, friend of the emperors",
+      "full": "The Periplus names the reigning king as Charibael — Karibʾil Watar Yuhanʿim — ruler of both the Sabaeans and the Homerites, 'a friend of the emperors through continuous embassies and gifts'. South Arabia was in regular diplomatic contact with Rome.",
+      "src": "the Periplus of the Erythraean Sea §23; the identification with the Himyarite king is Robin's."
+    },
+    {
+      "id": "k6",
+      "lane": "power",
+      "year": 200,
+      "label": "Two kingdoms, two capitals, one war",
+      "full": "For over a century a Sabaean line at Marib and a Himyarite line at Zafar fought for the whole south, each hiring Aksumite expeditionary troops and desert tribes. The inscriptions of both sides record a grinding, inconclusive war.",
+      "src": "the war inscriptions of both kingdoms; Robin, 'Sabaʾ et ses rois'; Beaucamp, Briquel-Chatonnet and Robin (eds), 'Juifs et chrétiens en Arabie'."
+    },
+    {
+      "id": "k7",
+      "lane": "power",
+      "year": 285,
+      "label": "Shammar Yuharʿish unifies Yemen",
+      "full": "The Himyarite king Shammar Yuharʿish conquered Sabaʾ and then Ḥaḍramawt, and was the first ruler to style himself 'king of Sabaʾ and dhu-Raydan and Ḥaḍramawt and Yamanat'. It is the first political unification of Yemen.",
+      "src": "Shammar Yuharʿish's inscriptions; Robin, 'Ḥimyar, Aksūm et l'Arabie'; the fuller titulary discussed in Gajda, 'Le royaume de Ḥimyar' (2009)."
+    },
+    {
+      "id": "k8",
+      "lane": "power",
+      "year": 340,
+      "label": "Classical Himyar — a stable century",
+      "full": "Under Yasir Yuhanʿim, Dhamarʿali Yuhabirr and Thaʾran Yuhanʿim the unified kingdom enjoyed its most settled period — a strong monarchy over the qayls, campaigns deep into central Arabia, and the last flourishing of the traditional temple religion.",
+      "src": "the royal inscriptions of the 4th-century kings; Gajda, 'Le royaume de Ḥimyar' (2009)."
+    },
+    {
+      "id": "k9",
+      "lane": "power",
+      "year": 385,
+      "label": "Malkikarib Yuhaʾmin and the turn to one God",
+      "full": "Around 380 the royal inscriptions stop naming the old gods and begin invoking only 'Rahmanan, Lord of Heaven'. Malkikarib Yuhaʾmin and his sons made monotheism the religion of the Himyarite state — a change with no clear external compulsion behind it.",
+      "src": "the first monotheist royal inscriptions (Ja 856 and related); Robin, 'Le judaïsme de Ḥimyar', Arabia 1 (2003)."
+    },
+    {
+      "id": "k10",
+      "lane": "power",
+      "year": 420,
+      "label": "Abikarib Asʿad, the 'Tubbaʿ' of legend",
+      "full": "Abikarib Asʿad reigned nearly half a century, campaigning as far as the oasis of Yathrib and the lands of Maʿadd, and is remembered in the Arabic tradition as Asʿad al-Kamil, the model Tubbaʿ king, and as an early convert to Judaism.",
+      "src": "Abikarib Asʿad's inscriptions (including the long Maʾsal al-Jumh text); the Arabic Tubbaʿ tradition in al-Hamdani and al-Tabari."
+    },
+    {
+      "id": "k11",
+      "lane": "power",
+      "year": 523,
+      "label": "Dhu Nuwas, the last king of independent Himyar",
+      "full": "Yusuf Asʾar Yathʾar, called Dhu Nuwas, seized the throne as a militant Jewish monarch, expelled the Aksumite garrison, and moved against the Christians of Najran. His reign ended in defeat and death when Aksum invaded.",
+      "src": "Dhu Nuwas's own campaign inscriptions (Ry 507, Ja 1028); the Christian accounts in the Book of the Himyarites and the Letter of Simeon of Beth Arsham."
+    },
+    {
+      "id": "k12",
+      "lane": "power",
+      "year": 540,
+      "label": "Abraha, king of Himyar under Aksum",
+      "full": "After Kaleb of Aksum installed a viceroy, the Aksumite general Abraha overthrew him and ruled Himyar in his own name, acknowledging Aksumite suzerainty only nominally. He repaired the Marib dam, built a great church at Sanaa and campaigned into central Arabia.",
+      "src": "Abraha's inscriptions, above all the dam text CIH 541 (548 AD) and the Murayghan campaign text Ry 506 (552 AD); Procopius, Wars I.20."
+    },
+    {
+      "id": "k13",
+      "lane": "power",
+      "year": 590,
+      "label": "Yemen becomes a Persian march",
+      "full": "A Himyarite appeal to Khosrow I brought a Sasanian expedition that expelled the Aksumites; Yemen was then governed for the Persian empire by a succession of viceroys, the last of whom, Badhan, accepted Islam around 628.",
+      "src": "al-Tabari and Ibn Hisham on the Persian conquest and the governors; Bosworth, 'The Persian impact on Arabia', in 'The Cambridge History of Iran' 3."
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": -25,
+      "label": "The expedition of Aelius Gallus",
+      "full": "Augustus sent the prefect of Egypt, Aelius Gallus, with a Roman army to seize Arabia Felix. Guided into the desert by the Nabataean Syllaeus, the force reached and besieged Marib but was destroyed by disease, thirst and distance and struggled home. Rome never tried again.",
+      "src": "Strabo, Geography XVI.4.22–24 (Strabo knew Gallus personally); Cassius Dio LIII.29."
+    },
+    {
+      "id": "c2",
+      "lane": "conflict",
+      "year": 200,
+      "label": "The war in the field, with Aksum in it",
+      "full": "The Sabaean–Himyarite war drew in the kingdom of Aksum, whose expeditionary forces (under a general the inscriptions call GDRT) held the Tihama coast for decades, and the Bedouin of the interior as mercenary cavalry. It was a regional war fought largely by proxies.",
+      "src": "the Sabaean war inscriptions naming GDRT and the Aksumites (e.g. Ir 28); Robin, 'Ḥimyar, Aksūm et l'Arabie'."
+    },
+    {
+      "id": "c3",
+      "lane": "conflict",
+      "year": 280,
+      "label": "Shammar Yuharʿish's wars of unification",
+      "full": "Himyar's decisive campaigns took Marib and ended the kingdom of Sabaʾ, then pushed east to storm Shabwa and annex Ḥaḍramawt — the military work behind the new four-part royal title.",
+      "src": "Shammar Yuharʿish's inscriptions; Gajda, 'Le royaume de Ḥimyar' (2009)."
+    },
+    {
+      "id": "c4",
+      "lane": "conflict",
+      "year": 523,
+      "label": "The massacre of the Christians of Najran",
+      "full": "Dhu Nuwas besieged and took Najran, burned its church, and executed its Christian leadership and a large number of consecrated men and women who refused to renounce their faith. The 'men of the trench' entered scripture in the Qurʾan's Sura 85.",
+      "src": "the Book of the Himyarites; the two letters of Simeon of Beth Arsham; the Martyrium Arethae; Qurʾan 85:4–8 (Ashab al-Ukhdud). The scale is debated but the event is firmly attested."
+    },
+    {
+      "id": "c5",
+      "lane": "conflict",
+      "year": 525,
+      "label": "Kaleb of Aksum invades Himyar",
+      "full": "Urged on by Byzantium and by the Christian refugees from Najran, the Aksumite king Kaleb (Ella Asbeha) launched an amphibious invasion, defeated and killed Dhu Nuwas, and ended six centuries of native rule in the highlands.",
+      "src": "the Martyrium Arethae; Procopius, Wars I.20; Kaleb's own inscriptions from Aksum; the Ethiopic Kebra Nagast tradition."
+    },
+    {
+      "id": "c6",
+      "lane": "conflict",
+      "year": 552,
+      "label": "The Expedition of the Elephant",
+      "full": "Abraha campaigned north against the tribes of Maʿadd — the Murayghan inscription records a victory of 552 — and the Arabic tradition remembers a march on Mecca with an elephant that ended in disaster, the 'Year of the Elephant', later synchronised with the Prophet's birth.",
+      "src": "the Murayghan inscription Ry 506 (552 AD); Surat al-Fil (Qurʾan 105) and the sira tradition; the elephant march's date and reality are much debated."
+    },
+    {
+      "id": "c7",
+      "lane": "conflict",
+      "year": 572,
+      "label": "Wahriz's expedition",
+      "full": "A Himyarite prince, Sayf ibn Dhi Yazan, appealed to Khosrow I, who sent a small seaborne force of released prisoners under the aged commander Wahriz. It killed the last Aksumite king in Yemen and installed Persian rule.",
+      "src": "al-Tabari, History I; Ibn Hisham, Sira; Nöldeke's reconstruction in 'Geschichte der Perser und Araber zur Zeit der Sasaniden'."
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": -50,
+      "label": "The qayls, the crown and the Himyarite era",
+      "full": "Himyar ruled through the qayls — great highland clan lords who held land and troops and dated their own inscriptions by the royal calendar begun in 110 BC. The king was strong but never absolute; the qayls were the permanent structure of power.",
+      "src": "Robin, 'Les Ḥimyarites et la question de leur origine'; Gajda (2009) on the qayl institution and the era."
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 380,
+      "label": "The state adopts monotheism",
+      "full": "Within a single generation the royal and elite inscriptions abandon the entire South Arabian pantheon and address only 'Rahmanan'. Temples went out of use, the old god-names disappear from personal names — a top-down religious revolution.",
+      "src": "Robin, 'Le judaïsme de Ḥimyar' (2003); the statistical study of the inscriptions' religious vocabulary."
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 522,
+      "label": "Dhu Nuwas's war on the Church",
+      "full": "Dhu Nuwas closed and burned churches, killed the Aksumite garrison and clergy at Zafar, and demanded Najran's submission — presenting it in his inscriptions as defence of the kingdom against an Aksumite–Byzantine Christian bloc, not simply as persecution.",
+      "src": "Dhu Nuwas's inscriptions Ja 1028 and Ry 508; the Christian sources; Bowersock, 'The Throne of Adulis' (2013)."
+    },
+    {
+      "id": "o4",
+      "lane": "order",
+      "year": 548,
+      "label": "Abraha's dam decree and grand assembly",
+      "full": "The CIH 541 inscription records Abraha summoning the whole kingdom's manpower to repair the Marib dam after a great breach, settling a rebellion, receiving embassies from the Negus, Caesar, Khosrow and the Arab phylarchs, and consecrating a church — the fullest single document of 6th-century Yemen.",
+      "src": "CIH 541, the Abraha dam inscription; edition and commentary in Robin and others; the church reference in line 65ff."
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": -100,
+      "label": "The last generations of the old gods",
+      "full": "Almaqah, ʿAthtar, Wadd, ʿAmm and Sayin were still receiving dedications in the mid-4th century AD, more than a thousand years after the first temples. The last dated polytheist inscriptions cluster in the 370s, just before the monotheist turn.",
+      "src": "the late polytheist inscription corpus; Robin on the chronology of the religious change."
+    },
+    {
+      "id": "b2",
+      "lane": "belief",
+      "year": 390,
+      "label": "The monotheism of Rahmanan",
+      "full": "For a century and a half the Himyarite elite worshipped one God — 'Rahmanan, Lord of Heaven and Earth', invoked with the peoples 'Israel', in halls called mikrab. Whether this was formal Judaism or a Judaizing 'Rahmanism' open to non-Jews is still argued.",
+      "src": "Robin, 'Le judaïsme de Ḥimyar' (2003) and 'Ḥimyar et Israël'; the mikrab and 'Israel' inscriptions; the debate summarised in Bowersock (2013)."
+    },
+    {
+      "id": "b3",
+      "lane": "belief",
+      "year": 400,
+      "label": "The Jewish community of Himyar",
+      "full": "Jewish merchants, priests named as kohanim, and communities described as 'Israel' are attested in the inscriptions and the hostile Christian sources. Whatever the kings believed, a real Jewish population lived in Himyar — and in Yemen continuously afterward, into the 20th century.",
+      "src": "the Jewish Himyarite epitaphs (Zafar, Bayt al-Ashwal); Nebes, 'The Martyrs of Najran and the end of the Ḥimyarite kingdom'."
+    },
+    {
+      "id": "b4",
+      "lane": "belief",
+      "year": 354,
+      "label": "The Christian mission and its churches",
+      "full": "Constantius II sent Theophilus 'the Indian', who is said to have built churches at Zafar, Aden and a Persian-Gulf port around 354. Najran developed a substantial Christian community, and after 525 the Ethiopian and then a Nestorian church spread under Aksumite protection.",
+      "src": "Philostorgius, Ecclesiastical History III.4–6, on Theophilus; the Najran church in the martyr literature; Abraha's al-Qalis church at Sanaa."
+    },
+    {
+      "id": "b5",
+      "lane": "belief",
+      "year": 524,
+      "label": "The martyrs of Najran across the Christian world",
+      "full": "The Najran dead were canonised almost at once. Their story circulated in Syriac, Greek, Ethiopic, Arabic and Old Georgian within a generation, and the feast of St Arethas (al-Harith, the city's leader) is still kept in several churches.",
+      "src": "the Book of the Himyarites (Syriac); the Martyrium Arethae (Greek); the Ethiopic synaxarium; Detoraki's edition of the Martyrium (2007)."
+    },
+    {
+      "id": "b6",
+      "lane": "belief",
+      "year": 575,
+      "label": "Zoroastrians with the Persian garrison",
+      "full": "The Sasanian expeditionary force and the mixed community it founded, the Abna, brought a Zoroastrian presence to Sanaa — one more strand in a Yemen that on the eve of Islam held polytheists, Jews, several churches and now fire-worship.",
+      "src": "al-Tabari and the sira on the Abna; general treatments of Sasanian Yemen in Bosworth and Piacentini."
+    },
+    {
+      "id": "ex1",
+      "lane": "expression",
+      "year": -110,
+      "label": "Zafar, the Himyarite capital",
+      "full": "Zafar spread over two hills behind a long wall, its skyline dominated by multi-storey palaces the inscriptions name — Raydan, Shawhatan, Hargab, Kawkaban. Excavation has recovered its gates, its relief-carved masonry and a monumental cemetery.",
+      "src": "the DAI Zafar project, Paul Yule, 'Ẓafār, Capital of Ḥimyar' (2013)."
+    },
+    {
+      "id": "ex2",
+      "lane": "expression",
+      "year": 150,
+      "label": "The late Himyarite relief style",
+      "full": "Himyarite relief carving — crowned royal heads, seated figures, the Zafar lion, vine scrolls and vigorous animal friezes — is heavier and more frontal than the old alabaster work, and shows clear contact with Roman provincial art through the Red Sea trade.",
+      "src": "Yule (2013); the Himyarite reliefs in the National Museum, Sanaa, and the Zafar site museum."
+    },
+    {
+      "id": "ex3",
+      "lane": "expression",
+      "year": 200,
+      "label": "Bronze statuary and the Roman connection",
+      "full": "Life-size gilt-bronze royal statues — the pair of Dhamarʿali Yuhabirr and his son is the finest — were cast for the palaces and temples, drawing on both the older South Arabian bronze tradition and imported Mediterranean models.",
+      "src": "the Dhamarʿali bronzes in the National Museum, Sanaa; Simpson (ed.), 'Queen of Sheba' (2002)."
+    },
+    {
+      "id": "ex4",
+      "lane": "expression",
+      "year": 560,
+      "label": "Synagogue and church halls",
+      "full": "The new religions built new spaces: the mikrab prayer halls of the monotheists, the church of Najran that later Arabic writers called 'the Kaʿba of Najran', and Abraha's cathedral of al-Qalis at Sanaa, described as marble-columned and mosaic-lined.",
+      "src": "the mikrab inscriptions; al-Azraqi and al-Tabari on al-Qalis; Finster and Halbherr on the archaeology of Christian Najran."
+    },
+    {
+      "id": "ex5",
+      "lane": "expression",
+      "year": 500,
+      "label": "The last Sabaic and the near-poem",
+      "full": "The monotheist and campaign inscriptions of the last century grow long, rhetorical and sometimes near-metrical, invoking Rahmanan in cadenced lines. Within decades of the final Sabaic text the region's written language would be Arabic.",
+      "src": "CIH 541; the Murayghan texts; Stein on the late Sabaic register; Robin on the Sabaic–Arabic transition."
+    },
+    {
+      "id": "ex6",
+      "lane": "expression",
+      "year": 300,
+      "label": "The singing-girls of the Yemeni ports",
+      "full": "Aden and Mukha were already known before Islam as a source of trained singing women, sold up the trade routes into the Hijaz and beyond. The qayna tradition that the early Islamic sources describe in detail has its commercial roots here.",
+      "src": "the early Islamic adab sources (al-Isfahani, Kitab al-Aghani) projecting the trade back; Serjeant on the Yemeni ports. See the Lives entry."
+    },
+    {
+      "id": "t1",
+      "lane": "thought",
+      "year": 50,
+      "label": "The Periplus of the Erythraean Sea",
+      "full": "An anonymous Greek-Egyptian merchant's guide to the Red Sea and Indian Ocean trade, the Periplus lists every South Arabian port, its ruler, its goods and its dangers. It is the single richest source for 1st-century Yemen.",
+      "src": "the Periplus Maris Erythraei; Casson's edition and commentary (1989)."
+    },
+    {
+      "id": "t2",
+      "lane": "thought",
+      "year": 530,
+      "label": "The martyr-histories as sources",
+      "full": "The Book of the Himyarites, Simeon of Beth Arsham's letters and the Martyrium Arethae are hostile, hagiographic and propagandistic — and still the most detailed narrative sources for the 520s, checked wherever possible against Dhu Nuwas's own inscriptions.",
+      "src": "Shahid, 'The Martyrs of Najran' (1971); Beaucamp, Briquel-Chatonnet, Robin (eds), 'Juifs et chrétiens en Arabie' (2010)."
+    },
+    {
+      "id": "t3",
+      "lane": "thought",
+      "year": 850,
+      "label": "The Arabic memory of Himyar",
+      "full": "Later Muslim historians remembered pre-Islamic Yemen through the Tubbaʿ kings, the 'flood of the dam', and Sayf ibn Dhi Yazan — part genuine tradition, part south-Arabian genealogical pride, part moral fable. Al-Hamdani's tenth-century 'Iklil' tried to systematise it.",
+      "src": "al-Hamdani, al-Iklil; al-Tabari, History I; Ibn Hisham; the modern critique in Robin, 'Le judaïsme de Ḥimyar' and Piotr Grzybowski."
+    },
+    {
+      "id": "t4",
+      "lane": "thought",
+      "year": 1,
+      "label": "The Himyarite era, still counting",
+      "full": "Late South Arabian inscriptions are dated by a continuous era with its epoch in 110 BC — one of the few native chronological systems of the ancient Near East, and the backbone of every modern reconstruction of Himyarite history.",
+      "src": "the era is discussed in every edition of the late inscriptions; Robin, 'La première intervention abyssine en Arabie'."
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": -60,
+      "label": "The maritime turn",
+      "full": "By the 1st century the frankincense and India trade moved by ship. Aden — the Periplus's Eudaemon Arabia — Mukha and Qanaʾ handled the cargoes; the caravan cities of the interior lost their reason to exist and began to shrink.",
+      "src": "the Periplus §21–29; Seland, 'Ports and Political Power in the Periplus'."
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": -40,
+      "label": "Sumhuram and the Dhofar frankincense",
+      "full": "The Ḥaḍramite kings founded Sumhuram at Khor Rori in Dhofar to gather the best 'Sachalite' frankincense at the source and ship it directly. Its inscribed foundation text and Indian and Roman finds show a purpose-built export port.",
+      "src": "the Italian Mission to Oman (IMTO) excavations at Sumhuram (Avanzini); the foundation inscription of Sumhuram."
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 100,
+      "label": "The India route and the Roman ports",
+      "full": "South Arabian ports were the hinge of the monsoon trade between the Roman Red Sea and India — Roman coins, amphorae and glass at Qanaʾ, Indian pottery and Yemeni incense in both directions. It was the busiest the region's economy ever got.",
+      "src": "Sedov's Qanaʾ reports; Tomber, 'Indo-Roman Trade' (2008); the Muziris papyrus for the scale of a single cargo."
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 520,
+      "label": "The slow failure of the Marib oasis",
+      "full": "The Great Dam breached repeatedly in the 5th and 6th centuries; each repair — the last major one under Abraha in 548 — recovered less ground than the last. The irrigated area contracted and the oasis population drifted away decades before the final collapse.",
+      "src": "CIH 541 and the earlier repair inscriptions; the DAI Marib oasis stratigraphy (Gerlach)."
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": 300,
+      "label": "The highlands become the centre",
+      "full": "As the caravan and oasis economy declined, wealth, people and power concentrated in the well-watered terraced highlands. Sanaa, a minor town in the caravan age, was a major city by the time the Persians made it their seat.",
+      "src": "Schiettecatte, 'D'Aden à Zafar: villes d'Arabie du Sud préislamique' (2011)."
+    },
+    {
+      "id": "tc1",
+      "lane": "technology",
+      "year": 548,
+      "label": "Abraha's repair of the Marib dam",
+      "full": "The CIH 541 inscription details a labour levy of tens of thousands of men, dragged from across the kingdom, rebuilding the breached dam over months amid famine and plague. It is the last documented major work on the structure — and it still failed within a generation.",
+      "src": "CIH 541; Brunner and the DAI Marib Dam studies."
+    },
+    {
+      "id": "tc2",
+      "lane": "technology",
+      "year": 1,
+      "label": "Monsoon navigation and the Indian Ocean ship",
+      "full": "Sailing the open ocean on the seasonal monsoon winds — the technique Greek tradition credited to a pilot called Hippalus — cut the India voyage from a coasting crawl to a direct run, and it is what made the maritime spice trade beat the caravans.",
+      "src": "the Periplus §57; Casson (1989); Whitewright on ancient Indian Ocean rigs."
+    },
+    {
+      "id": "tc3",
+      "lane": "technology",
+      "year": 520,
+      "label": "A written language on the way out",
+      "full": "The monumental Musnad script, in use since about 900 BC, produced its last dated inscriptions in the 560s. No successor script took its place in Yemen: for two generations before Arabic arrived, the region largely stopped writing on stone at all.",
+      "src": "Robin on the end of the epigraphic habit; Stein on the latest datable Sabaic texts."
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": -20,
+      "label": "Rome and Himyar",
+      "full": "After Aelius Gallus's failure, Rome dealt with South Arabia as a trading partner: Charibael the 'friend of the emperors', a Roman freedman managing affairs at Aden in the Periplus, and Roman merchants wintering at the ports.",
+      "src": "Strabo XVI.4; the Periplus §23, §26; Robin on Roman–Himyarite diplomacy."
+    },
+    {
+      "id": "x2",
+      "lane": "exchange",
+      "year": 190,
+      "label": "Aksum across the sea",
+      "full": "From the general GDRT in the 3rd century to Kaleb's conquest in 525 and Abraha's kingship after, the Christian kingdom of Aksum was the constant outside player in South Arabian affairs, twenty hours' sail across the Bab al-Mandab.",
+      "src": "the Monumentum Adulitanum (in Cosmas Indicopleustes); the GDRT inscriptions; Bowersock, 'The Throne of Adulis' (2013)."
+    },
+    {
+      "id": "x3",
+      "lane": "exchange",
+      "year": 520,
+      "label": "Byzantium's Red Sea proxy war",
+      "full": "Justin I and Justinian pressed Aksum to invade Himyar, then tried to route the eastern silk trade through the Aksum–Himyar corridor to starve Sasanian Persia of customs revenue. Procopius describes the scheme and its failure in detail.",
+      "src": "Procopius, Wars I.19–20; Bowersock (2013); Greatrex on the Roman–Persian economic contest."
+    },
+    {
+      "id": "x4",
+      "lane": "exchange",
+      "year": 572,
+      "label": "Persia takes the southern flank",
+      "full": "Khosrow I's cheap, opportunistic expedition turned Yemen into a Persian march, closing the Red Sea corner of the empire's rivalry with Byzantium and planting the Abna community that would hand the province to Islam in 628.",
+      "src": "al-Tabari; Nöldeke; Bosworth, 'The Persian impact on Arabia'."
+    },
+    {
+      "id": "x5",
+      "lane": "exchange",
+      "year": 520,
+      "label": "The 'flood of the dam' and the scattering of the tribes",
+      "full": "Arab genealogists and the Qurʾan's Sura 34 explain the northward spread of South Arabian tribes — the Azd to Oman and Iraq, Ghassan to Syria, the Aws and Khazraj to Yathrib — as flight from the dam's final failure. The migrations were real; the single-cause story is a later frame.",
+      "src": "Qurʾan 34:15–17 (Sayl al-ʿArim); al-Masʿudi and al-Hamdani on the tribal dispersal; the critical view in Robin and in Kister."
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 290,
+      "label": "The first unification of Yemen",
+      "full": "Shammar Yuharʿish's four-part title — Sabaʾ, dhu-Raydan, Ḥaḍramawt, Yamanat — marks the moment the southern highlands, the old Sabaean heartland, the Ḥaḍramawt and the desert borderland first came under one ruler. The idea of 'Yemen' as a single country starts here.",
+      "src": "Gajda, 'Le royaume de Ḥimyar' (2009); Robin, 'Ḥimyar, Aksūm et l'Arabie'."
+    },
+    {
+      "id": "w2",
+      "lane": "world",
+      "year": 520,
+      "label": "A great-power client zone",
+      "full": "By the 6th century Himyar's religion and its kings were being chosen abroad: Byzantium and Aksum backed Christianity and Kaleb's viceroys, Persia backed the Zoroastrian-tinged Abna state. South Arabia had become a board on which Rome and Persia played.",
+      "src": "Bowersock, 'The Throne of Adulis' (2013); Fisher (ed.), 'Arabs and Empires before Islam' (2015)."
+    },
+    {
+      "id": "w3",
+      "lane": "world",
+      "year": 610,
+      "label": "The eve of Islam",
+      "full": "On the eve of the Muslim conquest Yemen was a Persian-governed province holding polytheists, Jews, several churches and Zoroastrians, its ancient irrigation gone, its cities shrunken. When the Prophet's letters reached Badhan around 628, the province converted almost without resistance.",
+      "src": "al-Tabari and Ibn Hisham on Badhan's conversion; Wilferd Madelung and others on the Islamisation of Yemen."
+    },
+    {
+      "id": "w4",
+      "lane": "world",
+      "year": 560,
+      "label": "An epigraphic civilisation goes silent",
+      "full": "The last dated Sabaic inscription, the last known functioning temple and the last repair of the Marib dam all fall within a few decades of each other in the mid-6th century. A literate civilisation that had cut inscriptions for fourteen centuries simply stopped.",
+      "src": "Robin on the end of South Arabian epigraphy; the observation is the field's own."
+    },
+    {
+      "id": "lv1",
+      "lane": "lives",
+      "year": 523,
+      "label": "The consecrated women of Najran",
+      "full": "The Book of the Himyarites names and quotes the noblewoman Ruhm and the 'daughters of the covenant' who were offered their lives for a renunciation and refused. Their deaths are among the most fully narrated of any women in late antiquity.",
+      "src": "the Book of the Himyarites, chapters on the women martyrs; Shahid (1971); Sizgorich on the gendering of the Najran narrative."
+    },
+    {
+      "id": "lv2",
+      "lane": "lives",
+      "year": 420,
+      "label": "Jews and Christians as Yemenis",
+      "full": "For nearly three centuries before Islam, two scriptural communities were woven into Himyarite society — inscribing tombs, holding office, running congregations. The Christian presence faded after the conquest; the Jewish one continued unbroken until the mass emigration of 1949–50.",
+      "src": "the Jewish Himyarite epitaphs; the Christian Najran evidence; Eric Vallet and the CEFAS surveys."
+    },
+    {
+      "id": "lv3",
+      "lane": "lives",
+      "year": 600,
+      "label": "The Abna of Sanaa",
+      "full": "The descendants of Wahriz's soldiers, mostly by Yemeni mothers, formed a distinct Sanaa community — the Abna, 'the sons'. They backed the Prophet's envoy, supplied the first Muslim governors of Yemen, and were absorbed within a couple of generations.",
+      "src": "al-Tabari; Ibn Hisham; Wilferd Madelung, 'The Abna'."
+    },
+    {
+      "id": "lv4",
+      "lane": "lives",
+      "year": 300,
+      "label": "The singers of Aden and Mukha",
+      "full": "Behind the Yemeni ports' pre-Islamic musical fame stood a trade in enslaved women trained as singers and sold north into the Hijaz. It is a rare, oblique glimpse of the human cargo moving alongside the incense.",
+      "src": "the early Islamic adab tradition read back; Serjeant on the Yemeni coast; Gordon and Hain (eds), 'Concubines and Courtesans' (2017) on the qiyan trade."
+    }
+  ],
+  "edges": [
+    [
+      "tc2",
+      "ec1",
+      "strong",
+      "open-ocean sailing on the monsoon wind is what let the sea route beat the caravans"
+    ],
+    [
+      "ec1",
+      "k1",
+      "strong",
+      "losing the toll traffic to shipping is what put Sabaʾ, Qatabān and Maʿīn into decline"
+    ],
+    [
+      "ec1",
+      "ec3",
+      "strong",
+      "the South Arabian ports became the hinge of the Roman–India monsoon trade"
+    ],
+    [
+      "ec1",
+      "ec5",
+      "strong",
+      "as the caravan and oasis economy shrank, people and wealth moved to the highlands"
+    ],
+    [
+      "ec1",
+      "t1",
+      "strong",
+      "the Periplus is a merchant's handbook to exactly this port trade"
+    ],
+    [
+      "ext1",
+      "ec3",
+      "loose",
+      "Roman demand for spices and Indian goods drove the volume through the ports"
+    ],
+    [
+      "k3",
+      "ec2",
+      "strong",
+      "the Ḥaḍramite kings founded Sumhuram to gather Dhofar frankincense at the source"
+    ],
+    [
+      "ec2",
+      "ec1",
+      "loose",
+      "shipping incense straight from Dhofar is part of the same maritime shift"
+    ],
+    [
+      "ext1",
+      "c1",
+      "strong",
+      "Augustus sent Aelius Gallus to seize Arabia Felix"
+    ],
+    [
+      "k4",
+      "ex1",
+      "strong",
+      "Himyar built Zafar as its capital"
+    ],
+    [
+      "k4",
+      "t4",
+      "strong",
+      "the Himyarite calendar epoch of 110 BC became the dating era for all late South Arabia"
+    ],
+    [
+      "k4",
+      "k5",
+      "strong",
+      "Charibael is the Himyarite king reigning when the Periplus was written"
+    ],
+    [
+      "k5",
+      "x1",
+      "strong",
+      "Charibael cultivated Rome as 'friend of the emperors' through embassies and gifts"
+    ],
+    [
+      "k4",
+      "k6",
+      "strong",
+      "the Himyarite line at Zafar and the Sabaean line at Marib fought for the whole south"
+    ],
+    [
+      "ext2",
+      "c2",
+      "strong",
+      "Aksum's expeditionary forces held the Tihama coast through the Sabaean–Himyarite war"
+    ],
+    [
+      "k6",
+      "c2",
+      "strong",
+      "the war was fought largely by Aksumite and Bedouin proxies"
+    ],
+    [
+      "k6",
+      "c3",
+      "strong",
+      "Himyar's decisive campaigns ended the kingdom of Sabaʾ"
+    ],
+    [
+      "c3",
+      "k7",
+      "strong",
+      "taking Marib and then Shabwa is the military work behind the four-part title"
+    ],
+    [
+      "k7",
+      "w1",
+      "strong",
+      "Shammar Yuharʿish's four-part title is the first political unification of Yemen"
+    ],
+    [
+      "k7",
+      "k8",
+      "strong",
+      "the unified kingdom settled into its most stable century under his successors"
+    ],
+    [
+      "k8",
+      "b1",
+      "strong",
+      "the 4th-century kings presided over the last flourishing of the temple religion"
+    ],
+    [
+      "k9",
+      "o2",
+      "strong",
+      "Malkikarib Yuhaʾmin's inscriptions are where the state stops naming the old gods"
+    ],
+    [
+      "o2",
+      "b2",
+      "strong",
+      "the royal turn to 'Rahmanan' is the elite's century-and-a-half of monotheism"
+    ],
+    [
+      "o2",
+      "b1",
+      "strong",
+      "temples fell out of use as the state abandoned the pantheon"
+    ],
+    [
+      "o1",
+      "k8",
+      "loose",
+      "the qayls were the permanent structure of power the strong monarchy worked through"
+    ],
+    [
+      "k12",
+      "o1",
+      "loose",
+      "Abraha's grand assembly at Marib was called partly to settle a revolt of the qayls"
+    ],
+    [
+      "b2",
+      "b3",
+      "strong",
+      "the strongly Jewish language of the state cult sits alongside a real Jewish community"
+    ],
+    [
+      "k10",
+      "b3",
+      "loose",
+      "Abikarib Asʿad is remembered as an early royal convert to Judaism"
+    ],
+    [
+      "ext1",
+      "b4",
+      "strong",
+      "Constantius II sent Theophilus 'the Indian' to build the first churches"
+    ],
+    [
+      "b4",
+      "b5",
+      "strong",
+      "the Christian community of Najran is the one Dhu Nuwas destroyed"
+    ],
+    [
+      "b3",
+      "k11",
+      "strong",
+      "Dhu Nuwas seized the throne as a militant Jewish monarch"
+    ],
+    [
+      "k11",
+      "o3",
+      "strong",
+      "Dhu Nuwas closed and burned churches and killed the Aksumite clergy"
+    ],
+    [
+      "o3",
+      "c4",
+      "strong",
+      "the demand that Najran submit ended in the storming and massacre of the city"
+    ],
+    [
+      "c4",
+      "b5",
+      "strong",
+      "the Najran dead were canonised across the Christian world almost at once"
+    ],
+    [
+      "c4",
+      "lv1",
+      "strong",
+      "the martyr-books name and quote the consecrated women killed at Najran"
+    ],
+    [
+      "c4",
+      "t2",
+      "strong",
+      "the massacre is what the Syriac and Greek martyr-histories were written to record"
+    ],
+    [
+      "c4",
+      "x3",
+      "strong",
+      "the Najran refugees and the news of the massacre pushed Byzantium to act"
+    ],
+    [
+      "ext1",
+      "x3",
+      "strong",
+      "Justin and Justinian pressed Aksum to invade and tried to reroute the silk trade"
+    ],
+    [
+      "x3",
+      "c5",
+      "strong",
+      "Byzantine urging is part of why Kaleb launched the invasion"
+    ],
+    [
+      "ext2",
+      "c5",
+      "strong",
+      "the Aksumite king Kaleb led the amphibious conquest of Himyar"
+    ],
+    [
+      "c5",
+      "k11",
+      "strong",
+      "the invasion defeated and killed Dhu Nuwas"
+    ],
+    [
+      "c5",
+      "k12",
+      "strong",
+      "after Kaleb's viceroy, the Aksumite general Abraha took the throne for himself"
+    ],
+    [
+      "k12",
+      "o4",
+      "strong",
+      "Abraha's CIH 541 records the grand assembly and the mobilisation for the dam"
+    ],
+    [
+      "o4",
+      "tc1",
+      "strong",
+      "the decree summoned the labour levy that rebuilt the breached dam in 548"
+    ],
+    [
+      "tc1",
+      "ec4",
+      "strong",
+      "the 548 repair was the last major work, and it recovered less ground than before"
+    ],
+    [
+      "ec4",
+      "x5",
+      "strong",
+      "the dam's final failure is remembered as the flight that scattered the tribes north"
+    ],
+    [
+      "k12",
+      "ex4",
+      "strong",
+      "Abraha built the great church of al-Qalis at Sanaa"
+    ],
+    [
+      "k12",
+      "c6",
+      "strong",
+      "Abraha campaigned north against Maʿadd and, in tradition, marched on Mecca"
+    ],
+    [
+      "c6",
+      "ext4",
+      "loose",
+      "the 'Year of the Elephant' is synchronised with the birth of the Prophet"
+    ],
+    [
+      "k12",
+      "x4",
+      "strong",
+      "a Himyarite appeal against Abraha's line brought the Persian expedition"
+    ],
+    [
+      "ext3",
+      "x4",
+      "strong",
+      "Khosrow I's opportunistic expedition turned Yemen into a Persian march"
+    ],
+    [
+      "x4",
+      "c7",
+      "strong",
+      "the Persian force under Wahriz killed the last Aksumite king in Yemen"
+    ],
+    [
+      "c7",
+      "k13",
+      "strong",
+      "Wahriz's victory installed the line of Persian viceroys"
+    ],
+    [
+      "k13",
+      "lv3",
+      "strong",
+      "the descendants of Wahriz's soldiers formed the Abna community of Sanaa"
+    ],
+    [
+      "k13",
+      "b6",
+      "strong",
+      "the Persian garrison brought a Zoroastrian presence to Sanaa"
+    ],
+    [
+      "lv3",
+      "ext4",
+      "strong",
+      "the Abna and the governor Badhan handed Yemen to Islam around 628"
+    ],
+    [
+      "k13",
+      "w3",
+      "strong",
+      "on the eve of Islam Yemen was a shrunken, plural, Persian-governed province"
+    ],
+    [
+      "w3",
+      "ext4",
+      "strong",
+      "when the Prophet's letters reached Badhan the province converted almost without resistance"
+    ],
+    [
+      "tc3",
+      "w4",
+      "strong",
+      "the Musnad script produced its last dated inscriptions in the 560s and had no successor"
+    ],
+    [
+      "o2",
+      "w4",
+      "loose",
+      "the last functioning temple falls silent along with the last inscription"
+    ],
+    [
+      "ec4",
+      "w4",
+      "loose",
+      "the last dam repair belongs to the same mid-6th-century cluster of endings"
+    ],
+    [
+      "ext1",
+      "ex2",
+      "loose",
+      "Red Sea contact carried Roman provincial models into Himyarite relief carving"
+    ],
+    [
+      "ext1",
+      "ex3",
+      "loose",
+      "imported Mediterranean bronzes influenced the local royal statuary"
+    ],
+    [
+      "b2",
+      "ex5",
+      "strong",
+      "the long, cadenced monotheist inscriptions are the last register of written Sabaic"
+    ],
+    [
+      "b2",
+      "ex4",
+      "strong",
+      "the new religions built the mikrab halls and, later, the churches"
+    ],
+    [
+      "ex6",
+      "lv4",
+      "strong",
+      "the ports' musical fame rested on a trade in enslaved women trained as singers"
+    ],
+    [
+      "b3",
+      "lv2",
+      "strong",
+      "the Jewish community is half of the two scriptural populations embedded in Himyar"
+    ],
+    [
+      "b4",
+      "lv2",
+      "strong",
+      "the Christian community is the other half"
+    ],
+    [
+      "w1",
+      "w2",
+      "loose",
+      "the unified kingdom is what the outside powers then competed to control"
+    ],
+    [
+      "x2",
+      "w2",
+      "strong",
+      "Aksum's repeated intervention made South Arabia a great-power client zone"
+    ],
+    [
+      "x3",
+      "w2",
+      "strong",
+      "and so did Byzantium's proxy war"
+    ],
+    [
+      "t3",
+      "x5",
+      "loose",
+      "the Arabic memory of Himyar preserves the flood-of-the-dam migration story"
+    ]
+  ]
+}
