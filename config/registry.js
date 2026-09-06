@@ -52,8 +52,9 @@ const MODULES = [
   { id:"hejaz-632-1517", file:"modules/hejaz-632-1517.json", label:"The Medieval Hejaz 632–1517", sub:"The Caliphal Holy Cities, the Rise of the Sharifs and the Guardianship of the Ḥaramayn", region:"Arabia", period:"Medieval" },
   { id:"hejaz-1517-1900", file:"modules/hejaz-1517-1900.json", label:"The Ottoman Hejaz 1517–1900", sub:"The Guardianship of the Ḥaramayn, the Wahhābī Interlude, the Steamship Hajj and the Northwest Oases", region:"Arabia", period:"Early Modern" },
   { id:"hejaz-1900-1925", file:"modules/hejaz-1900-1925.json", label:"The Kingdom of the Hejaz 1900–1925", sub:"The Railway, the Arab Revolt, the Hashemite Kingdom and the Saudi Conquest", region:"Arabia", period:"Modern" },
-  // PLANNED — the thread continues: a Dadan-and-Lihyan folio (region "Arabia", c.1000–100 BC)
-  //   would bridge the gap to nabataean-400bc-106ce.json, already built above.
+  // ── THE NORTHWEST OASES (Taymāʾ, Dadān/al-ʿUlā, Khaybar, Dūmah — the western
+  //   corridor; feeds into nabataean-400bc-106ce for the Nabataean period) ─────────
+  { id:"dedan-tayma-1200bc-300bc", file:"modules/dedan-tayma-1200bc-300bc.json", label:"Ancient Northwest Arabia 1,200–300 BC", sub:"Taymāʾ, Nabonidus, and the Oasis Kingdoms of Dadān and Lihyān", region:"Arabia", period:"Ancient" },
   // ── SOUTH ARABIA (Yemen — the highland & Tihama thread, distinct from both the
   //   NW-Arabian interior and the Gulf littoral) ─────────────────────────────────
   { id:"south-arabia-prehistory-8000bc-1200bc", file:"modules/south-arabia-prehistory-8000bc-1200bc.json", label:"Prehistoric South Arabia 8,000–1,200 BC", sub:"The Highland Neolithic, the Cattle Cult and the Roots of the Incense Kingdoms", region:"Arabia", period:"Prehistoric" },
