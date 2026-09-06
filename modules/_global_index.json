@@ -2333,18 +2333,18 @@
     "najd-1744-1900::lv2": "Slavery in the Saudi states",
     "najd-1744-1900::lv3": "Lady Anne Blunt at Ḥāʾil",
     "najd-1744-1900::lv4": "The displaced of the campaigns",
+    "najd-300bc-632::k11": "Al-Yamāma — the settled oasis",
     "najd-300bc-632::k1": "Qaryat al-Faw, the caravan city",
     "najd-300bc-632::k2": "The kings of al-Faw",
     "najd-300bc-632::k3": "The Lakhmid claim on the north-east",
+    "najd-300bc-632::k8": "The end of the Lakhmid buffer, 602",
+    "najd-300bc-632::k12": "Kindah before the kingship",
     "najd-300bc-632::k4": "Hujr Ākil al-Murār and Kindah's kingship",
     "najd-300bc-632::k5": "Al-Ḥārith ibn ʿAmr, the high point",
     "najd-300bc-632::k6": "Imruʾ al-Qays, the wandering king",
     "najd-300bc-632::k7": "The tribal confederations of Najd",
-    "najd-300bc-632::k8": "The end of the Lakhmid buffer",
     "najd-300bc-632::k9": "Islam reaches Najd",
     "najd-300bc-632::k10": "The Ridda — apostasy and reconquest",
-    "najd-300bc-632::k11": "Al-Yamama and the Banū Ḥanīfa",
-    "najd-300bc-632::k12": "The origins of Kindah",
     "najd-300bc-632::c1": "The defence of al-Faw's road",
     "najd-300bc-632::c2": "Kindah takes and loses al-Ḥīra",
     "najd-300bc-632::c3": "The ayyām al-ʿArab",
@@ -17849,6 +17849,14 @@
       "Gulf",
       "Iraq"
     ],
+    "najd-300bc-632::k11": [
+      "Wadi Hanifa",
+      "al-Kharj",
+      "al-Aflaj",
+      "Saudi Arabia",
+      "Al-Yamama",
+      "Banū"
+    ],
     "najd-300bc-632::k1": [
       "Wadi al-Dawasir",
       "Saudi Arabia",
@@ -17864,6 +17872,18 @@
       "Lakhmid",
       "Najd",
       "Sasanian Persia"
+    ],
+    "najd-300bc-632::k8": [
+      "Sasanian",
+      "Lakhmid",
+      "Khosrow II",
+      "al-Nuʿmān III"
+    ],
+    "najd-300bc-632::k12": [
+      "Wadi al-Dawasir",
+      "Najd",
+      "Sabaic",
+      "Kindah Kdt"
     ],
     "najd-300bc-632::k4": [
       "Kindah",
@@ -17885,12 +17905,6 @@
     "najd-300bc-632::k7": [
       "Najd"
     ],
-    "najd-300bc-632::k8": [
-      "Sasanian",
-      "Lakhmid",
-      "Khosrow II",
-      "al-Nuʿmān III"
-    ],
     "najd-300bc-632::k9": [
       "Medina",
       "Islam",
@@ -17902,20 +17916,6 @@
       "Ridda",
       "Abū Bakr",
       "Khālid ibn al-Walīd"
-    ],
-    "najd-300bc-632::k11": [
-      "Wadi Hanifa",
-      "al-Kharj",
-      "al-Aflaj",
-      "Saudi Arabia",
-      "Al-Yamama",
-      "Banū"
-    ],
-    "najd-300bc-632::k12": [
-      "Wadi al-Dawasir",
-      "Najd",
-      "Sabaic",
-      "Kindah Kdt"
     ],
     "najd-300bc-632::c1": [
       "Qaryat al-Faw",
@@ -31929,9 +31929,9 @@
       "najd-1744-1900::tc2",
       "najd-1744-1900::w2",
       "najd-1744-1900::lv3",
+      "najd-300bc-632::k11",
       "najd-300bc-632::k1",
       "najd-300bc-632::k2",
-      "najd-300bc-632::k11",
       "najd-300bc-632::c5",
       "najd-300bc-632::o1",
       "najd-300bc-632::ex1",
@@ -35945,11 +35945,11 @@
       "najd-1744-1900::lv2",
       "najd-1744-1900::lv4",
       "najd-300bc-632::k3",
+      "najd-300bc-632::k12",
       "najd-300bc-632::k6",
       "najd-300bc-632::k7",
       "najd-300bc-632::k9",
       "najd-300bc-632::k10",
-      "najd-300bc-632::k12",
       "najd-300bc-632::c3",
       "najd-300bc-632::o3",
       "najd-300bc-632::o4",
@@ -47162,6 +47162,27 @@
     "Lady Anne Blunt": [
       "najd-1744-1900::lv3"
     ],
+    "Wadi Hanifa": [
+      "najd-300bc-632::k11",
+      "najd-300bc-632::ec3"
+    ],
+    "al-Kharj": [
+      "najd-300bc-632::k11",
+      "najd-300bc-632::c5",
+      "najd-300bc-632::ec3",
+      "najd-632-1517::t3",
+      "qedar-853bc-330bc::ec2"
+    ],
+    "al-Aflaj": [
+      "najd-300bc-632::k11",
+      "qedar-853bc-330bc::ec2"
+    ],
+    "Al-Yamama": [
+      "najd-300bc-632::k11"
+    ],
+    "Banū": [
+      "najd-300bc-632::k11"
+    ],
     "Wadi al-Dawasir": [
       "najd-300bc-632::k1",
       "najd-300bc-632::k12",
@@ -47191,6 +47212,16 @@
     "Muʿāwiya ibn Rabīʿa": [
       "najd-300bc-632::k2"
     ],
+    "al-Nuʿmān III": [
+      "najd-300bc-632::k8"
+    ],
+    "Sabaic": [
+      "najd-300bc-632::k12",
+      "south-arabia-300bc-628::ex5"
+    ],
+    "Kindah Kdt": [
+      "najd-300bc-632::k12"
+    ],
     "al-Murār": [
       "najd-300bc-632::k4"
     ],
@@ -47207,42 +47238,11 @@
       "najd-300bc-632::ex3",
       "najd-300bc-632::x3"
     ],
-    "al-Nuʿmān III": [
-      "najd-300bc-632::k8"
-    ],
     "Khālid ibn al-Walīd": [
       "najd-300bc-632::k10",
       "najd-300bc-632::c5",
       "nw-arabia-106-632::k6",
       "nw-arabia-106-632::c4"
-    ],
-    "Wadi Hanifa": [
-      "najd-300bc-632::k11",
-      "najd-300bc-632::ec3"
-    ],
-    "al-Kharj": [
-      "najd-300bc-632::k11",
-      "najd-300bc-632::c5",
-      "najd-300bc-632::ec3",
-      "najd-632-1517::t3",
-      "qedar-853bc-330bc::ec2"
-    ],
-    "al-Aflaj": [
-      "najd-300bc-632::k11",
-      "qedar-853bc-330bc::ec2"
-    ],
-    "Al-Yamama": [
-      "najd-300bc-632::k11"
-    ],
-    "Banū": [
-      "najd-300bc-632::k11"
-    ],
-    "Sabaic": [
-      "najd-300bc-632::k12",
-      "south-arabia-300bc-628::ex5"
-    ],
-    "Kindah Kdt": [
-      "najd-300bc-632::k12"
     ],
     "Jazīra": [
       "najd-300bc-632::c3",
