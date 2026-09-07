@@ -31,6 +31,22 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-1798-1900 (Muhammad Ali and the Khedivate): hand-off from Ottoman Egypt ──
+  ['egypt-1798-1900::k1', 'egypt-1517-1798::k11'],   // the French invasion → the struggle for power after it
+  ['egypt-1798-1900::k1', 'egypt-1517-1798::k10'],   // Ibrahim Bey and Murad Bey → the beys Muhammad Ali displaces
+  ['egypt-1798-1900::c1', 'egypt-1517-1798::c8'],    // the Pyramids and the Cairo revolt → the expulsion of the French
+  ['egypt-1798-1900::c2', 'egypt-1517-1798::k5'],    // the Mamluk households return → their destruction at the Citadel
+  ['egypt-1798-1900::o3', 'egypt-1517-1798::o2'],    // the iltizam tax-farm → the cadastre and private property
+  ['egypt-1798-1900::b1', 'egypt-1517-1798::o4'],    // the ulama as the notables of Cairo → their decline under the state
+  ['egypt-1798-1900::b2', 'egypt-1517-1798::b6'],    // the stirrings of reform → Islamic modernism
+  ['egypt-1798-1900::b3', 'egypt-1517-1798::b4'],    // the Coptic Church under the Ottomans → the Coptic reform movement
+  ['egypt-1798-1900::b4', 'egypt-1517-1798::b2'],    // the Sufi orders and the mawlids → brought under state control
+  ['egypt-1798-1900::b5', 'egypt-1517-1798::b5'],    // the Jewish community of Ottoman Egypt → in the century of change
+  ['egypt-1798-1900::x1', 'egypt-1517-1798::x5'],    // Cairo as a city of manuscripts → the coming of print
+  ['egypt-1798-1900::x3', 'egypt-1517-1798::x1'],    // Ottoman-Cairene architecture → the rebuilding of Cairo
+  ['egypt-1798-1900::t6', 'egypt-1517-1798::x3'],    // al-Jabarti's chronicle → 'Ali Mubarak's Khitat
+  ['egypt-1798-1900::xc4', 'egypt-1517-1798::e2'],   // the transit trade and the Red Sea → the road to India
+  ['egypt-1798-1900::xc1', 'egypt-1517-1798::xc6'],  // 1798 and the Eastern Question → the Suez Canal and the occupation
   // ── egypt-1517-1798 (Ottoman Egypt): hand-off from the Mamluk Sultanate ──
   ['egypt-1517-1798::k1', 'mamluks-1250-1517::k14'],   // al-Ghawri, Tuman Bay and the Ottoman conquest → Selim conquers Egypt
   ['egypt-1517-1798::c1', 'mamluks-1250-1517::c11'],   // Marj Dabiq
