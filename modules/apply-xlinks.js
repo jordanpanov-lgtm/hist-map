@@ -31,6 +31,19 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-332bc-30bc (Ptolemaic Egypt): hand-off from The Late Period ──
+  ['egypt-332bc-30bc::k1', 'egypt-664bc-332bc::k16'],   // the Second Persian Period → Alexander takes Egypt
+  ['egypt-332bc-30bc::k1', 'egypt-664bc-332bc::l6'],    // Somtutefnakht outlives the conquest to serve Alexander
+  ['egypt-332bc-30bc::b1', 'egypt-664bc-332bc::b3'],    // the Apis and the Serapeum → Serapis
+  ['egypt-332bc-30bc::b2', 'egypt-664bc-332bc::x3'],    // the last native temples → the Ptolemaic temple programme
+  ['egypt-332bc-30bc::t7', 'egypt-664bc-332bc::t2'],    // the House of Life → Egyptian temple learning and Manetho
+  ['egypt-332bc-30bc::o2', 'egypt-664bc-332bc::o4'],    // the Persian satrapy's extractive apparatus → the dioiketes
+  ['egypt-332bc-30bc::xc3', 'egypt-664bc-332bc::xc4'],  // the Jews of Elephantine → the Jews of Egypt and the Septuagint
+  ['egypt-332bc-30bc::w3', 'egypt-664bc-332bc::w4'],    // Kush turns to Meroe → Meroe at its height
+  ['egypt-332bc-30bc::xc6', 'egypt-664bc-332bc::xc1'],  // the Greeks settle in → Greeks and Egyptians blend
+  ['egypt-332bc-30bc::e6', 'egypt-664bc-332bc::e2'],    // the Nile–Red Sea canal → the Red Sea ports
+  ['egypt-332bc-30bc::o5', 'egypt-664bc-332bc::o7'],    // the decree stelae of the last native kings → the priestly synods
+  ['egypt-332bc-30bc::b6', 'egypt-664bc-332bc::x5'],    // Demotic literature and the Chronicle → the Oracle of the Potter
   // ── egypt-664bc-332bc (The Late Period): hand-off from Priests, Libyans and Kushites ──
   ['egypt-664bc-332bc::k1', 'egypt-1200bc-664bc::k20'],   // Tantamani and the sack of Thebes → Psamtik I takes over
   ['egypt-664bc-332bc::k1', 'egypt-1200bc-664bc::xc6'],   // the Ionians and Carians appear → the 'bronze men' who serve Psamtik I

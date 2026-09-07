@@ -3,13 +3,13 @@
     "generated": "2026-09-07",
     "figure_matches": 756,
     "figure_matches_rejected_dynasty_mismatch": 909,
-    "figure_matches_rejected_date_implausible": 1068,
+    "figure_matches_rejected_date_implausible": 1078,
     "dynasty_alignment_proposals_count": 62,
-    "keyword_matches": 3728,
-    "keyword_matches_rejected_geo_only": 8696,
+    "keyword_matches": 3755,
+    "keyword_matches_rejected_geo_only": 8719,
     "high_confidence": 783,
     "medium_confidence": 315,
-    "low_confidence": 3386
+    "low_confidence": 3413
   },
   "figure_name_matches": [
     {
@@ -47235,6 +47235,58 @@
         "decade": "690s BC–710s"
       },
       "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-332bc-30bc::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Alexander takes Egypt",
+        "decade": "330s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-332bc-30bc::c1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
         "folio": "egypt-664bc-332bc",
         "id": "k7",
         "cat": "power",
@@ -47365,6 +47417,32 @@
         "decade": "1350s BC–1470s"
       },
       "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "Egypt in the Hellenistic system",
+        "decade": "200s BC–300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::xc3",
+      "xlink_b": "egypt-332bc-30bc::xc2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aegean",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc3",
+        "cat": "exchange",
+        "label": "Keftiu — Egypt and the Aegean world",
+        "decade": "1350s BC–1470s"
+      },
+      "b": {
         "folio": "south-arabia-1200bc-300bc",
         "id": "ec5",
         "cat": "economy",
@@ -47400,6 +47478,58 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-1550bc-1200bc::xc6",
       "xlink_b": "egypt-3000bc-2100bc::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "Foreign gods and words in Egypt",
+        "decade": "1200s BC–1400s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::xc6",
+      "xlink_b": "egypt-332bc-30bc::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "Foreign gods and words in Egypt",
+        "decade": "1200s BC–1400s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Alexander takes Egypt",
+        "decade": "330s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::xc6",
+      "xlink_b": "egypt-332bc-30bc::c1"
     },
     {
       "confidence": "low",
@@ -47547,6 +47677,58 @@
         "decade": "2600s BC–2900s"
       },
       "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::o1",
+      "xlink_b": "egypt-332bc-30bc::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The nome system — Egypt's provincial administration",
+        "decade": "2600s BC–2900s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Alexander takes Egypt",
+        "decade": "330s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::o1",
+      "xlink_b": "egypt-332bc-30bc::c1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The nome system — Egypt's provincial administration",
+        "decade": "2600s BC–2900s"
+      },
+      "b": {
         "folio": "egypt-664bc-332bc",
         "id": "k7",
         "cat": "power",
@@ -47634,6 +47816,266 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-3000bc-2100bc::o1",
       "xlink_b": "egypt-664bc-332bc::e3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "Cambyses II — Egypt becomes a Persian province",
+        "decade": "520s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::k1",
+      "xlink_b": "egypt-664bc-332bc::k7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "o4",
+        "cat": "order",
+        "label": "Egypt as a Persian satrapy",
+        "decade": "330s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::k1",
+      "xlink_b": "egypt-664bc-332bc::o4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "e3",
+        "cat": "economy",
+        "label": "Coinage reaches Egypt",
+        "decade": "350s BC–500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::k1",
+      "xlink_b": "egypt-664bc-332bc::e3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Athanasius: De Incarnatione",
+        "decade": "310s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::k1",
+      "xlink_b": "rome-300-400::t2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Alexander takes Egypt",
+        "decade": "330s BC"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "Cambyses II — Egypt becomes a Persian province",
+        "decade": "520s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::c1",
+      "xlink_b": "egypt-664bc-332bc::k7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Alexander takes Egypt",
+        "decade": "330s BC"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "o4",
+        "cat": "order",
+        "label": "Egypt as a Persian satrapy",
+        "decade": "330s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::c1",
+      "xlink_b": "egypt-664bc-332bc::o4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Alexander takes Egypt",
+        "decade": "330s BC"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "e3",
+        "cat": "economy",
+        "label": "Coinage reaches Egypt",
+        "decade": "350s BC–500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::c1",
+      "xlink_b": "egypt-664bc-332bc::e3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aegean",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "Egypt in the Hellenistic system",
+        "decade": "200s BC–300s"
+      },
+      "b": {
+        "folio": "south-arabia-1200bc-300bc",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "The Minaean merchant houses",
+        "decade": "300s BC–500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::xc2",
+      "xlink_b": "south-arabia-1200bc-300bc::ec5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Rome"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt drawn into Rome's orbit",
+        "decade": "30s BC–270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "r3",
+        "cat": "belief",
+        "label": "Decian persecution of Christians",
+        "decade": "240s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::xc5",
+      "xlink_b": "rome-200-300::r3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Rome"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt drawn into Rome's orbit",
+        "decade": "30s BC–270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "w2",
+        "cat": "world",
+        "label": "Plague of Cyprian",
+        "decade": "240s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::xc5",
+      "xlink_b": "rome-200-300::w2"
     },
     {
       "confidence": "low",
@@ -65943,6 +66385,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Nile",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "e5",
+        "cat": "economy",
+        "label": "Kushite gold and the reunited Nile",
+        "decade": "660s BC–720s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Nile and the desert roads",
+        "decade": "30s BC–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::e5",
+      "xlink_b": "egypt-332bc-30bc::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Red Sea",
         "Wadi Hammamat"
       ],
@@ -66007,6 +66475,32 @@
         "decade": "1800s BC–1950s"
       },
       "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Nile and the desert roads",
+        "decade": "30s BC–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::g5",
+      "xlink_b": "egypt-332bc-30bc::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "g5",
+        "cat": "technology",
+        "label": "Prefabricated seagoing ships at Mersa Gawasis",
+        "decade": "1800s BC–1950s"
+      },
+      "b": {
         "folio": "egypt-6000bc-3000bc",
         "id": "th2",
         "cat": "thought",
@@ -66042,6 +66536,32 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-2100bc-1550bc::g5",
       "xlink_b": "mamluks-1250-1517::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Nile and the desert roads",
+        "decade": "30s BC–270s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::w2",
+      "xlink_b": "egypt-6000bc-3000bc::th2"
     },
     {
       "confidence": "low",
@@ -71996,6 +72516,58 @@
       "date_flag": "31yr gap",
       "xlink_a": "egypt-1200bc-664bc::c1",
       "xlink_b": "egypt-1550bc-1200bc::c8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Rome"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k8",
+        "cat": "power",
+        "label": "Ptolemy VI Philometor — the reign of civil war and Rome",
+        "decade": "140s BC–180s"
+      },
+      "b": {
+        "folio": "nabataean-312bc-106ce",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Nabataean diplomacy with Rome — from rivals to province",
+        "decade": "60s BC–100s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::k8",
+      "xlink_b": "nabataean-312bc-106ce::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Rome"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "o7",
+        "cat": "order",
+        "label": "Rome the overlord",
+        "decade": "30s BC–200s"
+      },
+      "b": {
+        "folio": "nabataean-312bc-106ce",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Nabataean diplomacy with Rome — from rivals to province",
+        "decade": "60s BC–100s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::o7",
+      "xlink_b": "nabataean-312bc-106ce::ex3"
     },
     {
       "confidence": "low",
@@ -106737,6 +107309,58 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Thebes",
+        "Upper Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Herakleopolis versus Thebes — the First Intermediate civil war",
+        "decade": "2050s BC–2150s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Horwennefer and Ankhwennefer — the rebel kings of Thebes",
+        "decade": "180s BC–200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c6",
+      "xlink_b": "egypt-332bc-30bc::k14"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Thebes",
+        "Upper Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Herakleopolis versus Thebes — the First Intermediate civil war",
+        "decade": "2050s BC–2150s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Great Revolt of the Thebaid",
+        "decade": "180s BC–200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c6",
+      "xlink_b": "egypt-332bc-30bc::c5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Eastern Desert",
         "Wadi Hammamat"
       ],
@@ -106966,6 +107590,84 @@
       "date_flag": "1226yr gap — verify same entity, not just shared theme",
       "xlink_a": "egypt-2100bc-1550bc::k12",
       "xlink_b": "egypt-664bc-332bc::k9"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexander the Great",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "k16",
+        "cat": "power",
+        "label": "Artaxerxes III to Mazaces — reconquest and surrender",
+        "decade": "330s BC–340s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::k1",
+      "xlink_b": "egypt-664bc-332bc::k16"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexander the Great",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The reconquest of 343 and Alexander's arrival",
+        "decade": "330s BC–340s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::k1",
+      "xlink_b": "egypt-664bc-332bc::c8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Memphis",
+        "Pelusium"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Alexander takes Egypt",
+        "decade": "330s BC"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "k6",
+        "cat": "power",
+        "label": "Psamtik III — six months and the fall",
+        "decade": "520s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-332bc-30bc::c1",
+      "xlink_b": "egypt-664bc-332bc::k6"
     },
     {
       "confidence": "low",
@@ -107439,32 +108141,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Africa",
-        "Cape"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hormuz-1200-1507",
-        "id": "w5",
-        "cat": "world",
-        "label": "The Portuguese round Africa",
-        "decade": "1480s"
-      },
-      "b": {
-        "folio": "mamluks-1250-1517",
-        "id": "w5",
-        "cat": "world",
-        "label": "The spice route goes around Africa",
-        "decade": "1490s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "hormuz-1200-1507::w5",
-      "xlink_b": "mamluks-1250-1517::w5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Concordat",
         "Rome"
       ],
@@ -107616,6 +108292,32 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::ex1",
       "xlink_b": "tylos-mleiha-300bc-240ad::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Africa",
+        "Cape"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hormuz-1200-1507",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Portuguese round Africa",
+        "decade": "1480s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "w5",
+        "cat": "world",
+        "label": "The spice route goes around Africa",
+        "decade": "1490s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hormuz-1200-1507::w5",
+      "xlink_b": "mamluks-1250-1517::w5"
     },
     {
       "confidence": "low",
