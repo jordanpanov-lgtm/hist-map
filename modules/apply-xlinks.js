@@ -31,6 +31,24 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-641-969 (Early Islamic Egypt): hand-offs both to Byzantine Egypt and to the Fatimids ──
+  ['egypt-641-969::k1', 'egypt-300-641::k15'],    // the Arab conquest of Egypt → the conquest generation
+  ['egypt-641-969::o1', 'egypt-300-641::k16'],    // 'Amr founds Fustat → the garrison city as capital
+  ['egypt-641-969::k14', 'egypt-300-641::k13'],   // Benjamin I → the Coptic patriarchate under Islam
+  ['egypt-641-969::o2', 'egypt-300-641::xc6'],    // the Arab settlement and the dhimma → the kharaj and jizya
+  ['egypt-641-969::b6', 'egypt-300-641::b6'],     // the monastic desert → the monasteries endure and thin
+  ['egypt-641-969::b7', 'egypt-300-641::xc2'],    // the conversion of Nubia → the Nile churches under the patriarch
+  ['egypt-641-969::e5', 'egypt-300-641::w4'],     // plague, cooling and decline → the shrinking cultivated land
+  ['egypt-641-969::b1', 'egypt-300-641::b3'],     // the Coptic Church → a still-Christian country
+  ['egypt-641-969::k13', 'fatimids-909-1171::k3'],   // Jawhar founds Cairo → al-Muʿizz conquers Egypt and builds Cairo
+  ['egypt-641-969::k13', 'fatimids-909-1171::c2'],   // Jawhar founds Cairo → Jawhar takes Egypt
+  ['egypt-641-969::c8', 'fatimids-909-1171::c3'],    // the Qarmatian aftermath → the Qarmatians invade Egypt
+  ['egypt-641-969::k12', 'fatimids-909-1171::c2'],   // the end of the Ikhshidids → Jawhar takes Egypt
+  ['egypt-641-969::xc6', 'fatimids-909-1171::k3'],   // the Fatimid daʿwa reaches Egypt → al-Muʿizz conquers Egypt
+  ['egypt-641-969::g3', 'fatimids-909-1171::e4'],    // lustre, tin-glaze and the loom → Fatimid lustre, wood and tiraz
+  ['egypt-641-969::xc4', 'fatimids-909-1171::ec1'],  // the Red Sea revival begins → the India trade moves to the Red Sea
+  ['egypt-641-969::b5', 'fatimids-909-1171::b8'],    // the Jewish communities of Fustat → their Fatimid-era continuation
+  ['egypt-641-969::k14', 'fatimids-909-1171::o5'],   // the Coptic patriarchate → the dhimma under the Fatimids
   // ── egypt-300-641 (Byzantine and Christian Egypt): hand-off from Roman Egypt ──
   ['egypt-300-641::k1', 'egypt-30bc-300ad::b6'],    // the persecutions and Era of the Martyrs → Constantine's Christian turn
   ['egypt-300-641::e1', 'egypt-30bc-300ad::e1'],    // the grain of Rome → the grain of Constantinople

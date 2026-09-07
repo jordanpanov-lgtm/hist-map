@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-07",
-    "figure_matches": 805,
-    "figure_matches_rejected_dynasty_mismatch": 938,
-    "figure_matches_rejected_date_implausible": 1126,
-    "dynasty_alignment_proposals_count": 73,
-    "keyword_matches": 3826,
-    "keyword_matches_rejected_geo_only": 8792,
-    "high_confidence": 832,
+    "figure_matches": 854,
+    "figure_matches_rejected_dynasty_mismatch": 954,
+    "figure_matches_rejected_date_implausible": 1148,
+    "dynasty_alignment_proposals_count": 75,
+    "keyword_matches": 3867,
+    "keyword_matches_rejected_geo_only": 8818,
+    "high_confidence": 881,
     "medium_confidence": 316,
-    "low_confidence": 3483
+    "low_confidence": 3524
   },
   "figure_name_matches": [
     {
@@ -2071,6 +2071,28 @@
         "decade": "740s"
       },
       "match": {
+        "folio": "egypt-641-969",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Abbasid governors and al-Askar",
+        "decade": "750s–850s"
+      },
+      "xlink_a": "beth-qatraye-632-750::w5",
+      "xlink_b": "egypt-641-969::k5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "beth-qatraye-632-750",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Abbasid revolution",
+        "dynasty": "Abbasid",
+        "decade": "740s"
+      },
+      "match": {
         "folio": "hejaz-632-1517",
         "id": "k4",
         "cat": "power",
@@ -2269,6 +2291,50 @@
         "decade": "660s–740s"
       },
       "match": {
+        "folio": "egypt-641-969",
+        "id": "o6",
+        "cat": "order",
+        "label": "The qadi and Islamic law in Egypt",
+        "decade": "700s–820s"
+      },
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "egypt-641-969::o6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islamic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "b2",
+        "cat": "belief",
+        "label": "al-Shafiʿi and the making of Egyptian Islamic law",
+        "decade": "810s"
+      },
+      "xlink_a": "caliphate-632-750::o5",
+      "xlink_b": "egypt-641-969::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islamic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "o5",
+        "cat": "order",
+        "label": "The office of qadi and the beginnings of Islamic law",
+        "dynasty": "Umayyad",
+        "decade": "660s–740s"
+      },
+      "match": {
         "folio": "lakhmid-268-602",
         "id": "w3",
         "cat": "world",
@@ -2453,6 +2519,28 @@
       },
       "xlink_a": "caliphate-632-750::e3",
       "xlink_b": "hejaz-632-1517::k2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Marwanid",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The first translations and the Marwanid interest in learning",
+        "dynasty": "Umayyad",
+        "decade": "680s–740s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "k2",
+        "cat": "power",
+        "label": "'Abd al-Aziz ibn Marwan, the Marwanid viceroy",
+        "decade": "680s"
+      },
+      "xlink_a": "caliphate-632-750::t5",
+      "xlink_b": "egypt-641-969::k2"
     },
     {
       "confidence": "high",
@@ -2809,6 +2897,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Qays",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "w4",
+        "cat": "world",
+        "label": "Qays and Yaman — the faction that ran the empire",
+        "dynasty": "Umayyad",
+        "decade": "680s–750s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Qays–Yaman feuds of the jund",
+        "decade": "700s–830s"
+      },
+      "xlink_a": "caliphate-632-750::w4",
+      "xlink_b": "egypt-641-969::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Zanj Revolt",
       "pivot": {
         "folio": "caliphate-750-945",
@@ -2849,6 +2959,28 @@
       },
       "xlink_a": "caliphate-750-945::c8",
       "xlink_b": "najd-632-1517::k5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Al-Kindi",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "t3",
+        "cat": "thought",
+        "label": "Al-Kindi — the philosopher of the Arabs",
+        "dynasty": "Abbasid",
+        "decade": "830s–870s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "t2",
+        "cat": "thought",
+        "label": "al-Kindi and the history of a province",
+        "decade": "940s"
+      },
+      "xlink_a": "caliphate-750-945::t3",
+      "xlink_b": "egypt-641-969::t2"
     },
     {
       "confidence": "high",
@@ -3157,6 +3289,50 @@
       },
       "xlink_a": "caliphate-750-945::lv4",
       "xlink_b": "eastern-arabia-750-1200::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The many slaveries of the Abbasid world",
+        "dynasty": "Abbasid",
+        "decade": "750s–940s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Abbasid governors and al-Askar",
+        "decade": "750s–850s"
+      },
+      "xlink_a": "caliphate-750-945::lv4",
+      "xlink_b": "egypt-641-969::k5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The many slaveries of the Abbasid world",
+        "dynasty": "Abbasid",
+        "decade": "750s–940s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Abbasid reconquest of 905",
+        "decade": "900s–930s"
+      },
+      "xlink_a": "caliphate-750-945::lv4",
+      "xlink_b": "egypt-641-969::k9"
     },
     {
       "confidence": "high",
@@ -4381,6 +4557,28 @@
         "decade": "920s–1050s"
       },
       "match": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::o2",
+      "xlink_b": "egypt-641-969::c8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Qarmatian",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Qarmatian commonwealth of al-Ahsa",
+        "dynasty": "Jannabid",
+        "decade": "920s–1050s"
+      },
+      "match": {
         "folio": "najd-632-1517",
         "id": "x2",
         "cat": "exchange",
@@ -4389,6 +4587,28 @@
       },
       "xlink_a": "eastern-arabia-750-1200::o2",
       "xlink_b": "najd-632-1517::x2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Qarmatian",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Qarmatian toll system on Hajj and shipping",
+        "dynasty": "Jannabid",
+        "decade": "930s–1050s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::o3",
+      "xlink_b": "egypt-641-969::c8"
     },
     {
       "confidence": "high",
@@ -4653,6 +4873,28 @@
       },
       "xlink_a": "eastern-arabia-750-1200::t1",
       "xlink_b": "hormuz-1200-1507::x5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Qarmatian",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Qarmatian estates and their thirty thousand slaves",
+        "dynasty": "Jannabid",
+        "decade": "920s–1050s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::ec2",
+      "xlink_b": "egypt-641-969::c8"
     },
     {
       "confidence": "high",
@@ -5647,6 +5889,402 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Umayyads",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k4",
+        "cat": "power",
+        "label": "The fall of the Umayyads at Busir",
+        "dynasty": "Umayyad",
+        "decade": "750s"
+      },
+      "match": {
+        "folio": "caliphate-632-750",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Third Fitna and the fall of the Umayyads",
+        "decade": "740s"
+      },
+      "xlink_a": "egypt-641-969::k4",
+      "xlink_b": "caliphate-632-750::k12"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Abbasid governors and al-Askar",
+        "dynasty": "Abbasid",
+        "decade": "750s–850s"
+      },
+      "match": {
+        "folio": "beth-qatraye-632-750",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Abbasid conquest of Ibadi Oman",
+        "decade": "750s"
+      },
+      "xlink_a": "egypt-641-969::k5",
+      "xlink_b": "beth-qatraye-632-750::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Abbasid governors and al-Askar",
+        "dynasty": "Abbasid",
+        "decade": "750s–850s"
+      },
+      "match": {
+        "folio": "caliphate-632-750",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Abbasid Revolution",
+        "decade": "740s"
+      },
+      "xlink_a": "egypt-641-969::k5",
+      "xlink_b": "caliphate-632-750::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Abbasid governors and al-Askar",
+        "dynasty": "Abbasid",
+        "decade": "750s–850s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k1",
+        "cat": "power",
+        "label": "Eastern Arabia as an Abbasid periphery",
+        "decade": "750s–890s"
+      },
+      "xlink_a": "egypt-641-969::k5",
+      "xlink_b": "eastern-arabia-750-1200::k1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Abbasid governors and al-Askar",
+        "dynasty": "Abbasid",
+        "decade": "750s–850s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Abbasid destruction of the Omani Imamate",
+        "decade": "890s"
+      },
+      "xlink_a": "egypt-641-969::k5",
+      "xlink_b": "eastern-arabia-750-1200::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Abbasid governors and al-Askar",
+        "dynasty": "Abbasid",
+        "decade": "750s–850s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Abbasid Caliphate fragments",
+        "decade": "860s–940s"
+      },
+      "xlink_a": "egypt-641-969::k5",
+      "xlink_b": "eastern-arabia-750-1200::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Abbasid governors and al-Askar",
+        "dynasty": "Abbasid",
+        "decade": "750s–850s"
+      },
+      "match": {
+        "folio": "hejaz-632-1517",
+        "id": "k4",
+        "cat": "power",
+        "label": "The Abbasid Ḥaramayn",
+        "decade": "750s–960s"
+      },
+      "xlink_a": "egypt-641-969::k5",
+      "xlink_b": "hejaz-632-1517::k4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Abbasid reconquest of 905",
+        "dynasty": "Abbasid",
+        "decade": "900s–930s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k1",
+        "cat": "power",
+        "label": "Eastern Arabia as an Abbasid periphery",
+        "decade": "750s–890s"
+      },
+      "xlink_a": "egypt-641-969::k9",
+      "xlink_b": "eastern-arabia-750-1200::k1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Abbasid reconquest of 905",
+        "dynasty": "Abbasid",
+        "decade": "900s–930s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Abbasid destruction of the Omani Imamate",
+        "decade": "890s"
+      },
+      "xlink_a": "egypt-641-969::k9",
+      "xlink_b": "eastern-arabia-750-1200::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Abbasid reconquest of 905",
+        "dynasty": "Abbasid",
+        "decade": "900s–930s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w1",
+        "cat": "world",
+        "label": "The Abbasid Caliphate fragments",
+        "decade": "860s–940s"
+      },
+      "xlink_a": "egypt-641-969::k9",
+      "xlink_b": "eastern-arabia-750-1200::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Abbasid reconquest of 905",
+        "dynasty": "Abbasid",
+        "decade": "900s–930s"
+      },
+      "match": {
+        "folio": "hejaz-632-1517",
+        "id": "k4",
+        "cat": "power",
+        "label": "The Abbasid Ḥaramayn",
+        "decade": "750s–960s"
+      },
+      "xlink_a": "egypt-641-969::k9",
+      "xlink_b": "hejaz-632-1517::k4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jawhar",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k13",
+        "cat": "power",
+        "label": "Jawhar and the founding of Cairo",
+        "dynasty": "Fatimid",
+        "decade": "960s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Jawhar takes Egypt",
+        "decade": "960s"
+      },
+      "xlink_a": "egypt-641-969::k13",
+      "xlink_b": "fatimids-909-1171::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Coptic patriarchate under Islam",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "640s–960s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "k13",
+        "cat": "power",
+        "label": "Benjamin I — the Coptic Church survives the conquest",
+        "decade": "620s–660s"
+      },
+      "xlink_a": "egypt-641-969::k14",
+      "xlink_b": "egypt-300-641::k13"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Coptic patriarchate under Islam",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "640s–960s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "o5",
+        "cat": "order",
+        "label": "Roman codes and Coptic contracts",
+        "decade": "430s–640s"
+      },
+      "xlink_a": "egypt-641-969::k14",
+      "xlink_b": "egypt-300-641::o5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Coptic patriarchate under Islam",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "640s–960s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "x1",
+        "cat": "expression",
+        "label": "Literary Coptic and the monastic library",
+        "decade": "350s–640s"
+      },
+      "xlink_a": "egypt-641-969::k14",
+      "xlink_b": "egypt-300-641::x1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Coptic patriarchate under Islam",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "640s–960s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "x2",
+        "cat": "expression",
+        "label": "Coptic art and the textiles",
+        "decade": "300s–640s"
+      },
+      "xlink_a": "egypt-641-969::k14",
+      "xlink_b": "egypt-300-641::x2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Coptic patriarchate under Islam",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "640s–960s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "x6",
+        "cat": "expression",
+        "label": "Coptic chant and the end of the theatre",
+        "decade": "350s–640s"
+      },
+      "xlink_a": "egypt-641-969::k14",
+      "xlink_b": "egypt-300-641::x6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Coptic patriarchate under Islam",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "640s–960s"
+      },
+      "match": {
+        "folio": "fatimids-909-1171",
+        "id": "b7",
+        "cat": "belief",
+        "label": "The Coptic church under Fatimid rule",
+        "decade": "960s–1170s"
+      },
+      "xlink_a": "egypt-641-969::k14",
+      "xlink_b": "fatimids-909-1171::b7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Saladin",
       "pivot": {
         "folio": "fatimids-909-1171",
@@ -5713,6 +6351,94 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Cairo — the walled palace-city",
+        "dynasty": "Fatimid",
+        "decade": "960s–1090s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "k13",
+        "cat": "power",
+        "label": "Jawhar and the founding of Cairo",
+        "decade": "960s"
+      },
+      "xlink_a": "fatimids-909-1171::e1",
+      "xlink_b": "egypt-641-969::k13"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e3",
+        "cat": "expression",
+        "label": "Fatimid rock crystal",
+        "dynasty": "Fatimid",
+        "decade": "970s–1050s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "The failed Fatimid invasions and the Syrian wars",
+        "decade": "910s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::e3",
+      "xlink_b": "egypt-641-969::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e3",
+        "cat": "expression",
+        "label": "Fatimid rock crystal",
+        "dynasty": "Fatimid",
+        "decade": "970s–1050s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "xlink_a": "fatimids-909-1171::e3",
+      "xlink_b": "egypt-641-969::c8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e3",
+        "cat": "expression",
+        "label": "Fatimid rock crystal",
+        "dynasty": "Fatimid",
+        "decade": "970s–1050s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "The Fatimid da'wa reaches Egypt",
+        "decade": "910s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::e3",
+      "xlink_b": "egypt-641-969::xc6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Fatimid",
       "pivot": {
         "folio": "fatimids-909-1171",
@@ -5753,6 +6479,94 @@
       },
       "xlink_a": "fatimids-909-1171::e4",
       "xlink_b": "eastern-arabia-750-1200::tc4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Lustre",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e4",
+        "cat": "expression",
+        "label": "Lustre pottery, carved wood and tiraz",
+        "dynasty": "Fatimid",
+        "decade": "970s–1150s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "g3",
+        "cat": "technology",
+        "label": "Lustre, tin-glaze and the figured loom",
+        "decade": "800s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::e4",
+      "xlink_b": "egypt-641-969::g3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e5",
+        "cat": "expression",
+        "label": "The Fatimid ceremonial calendar",
+        "dynasty": "Fatimid",
+        "decade": "970s–1130s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "The failed Fatimid invasions and the Syrian wars",
+        "decade": "910s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::e5",
+      "xlink_b": "egypt-641-969::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e5",
+        "cat": "expression",
+        "label": "The Fatimid ceremonial calendar",
+        "dynasty": "Fatimid",
+        "decade": "970s–1130s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "xlink_a": "fatimids-909-1171::e5",
+      "xlink_b": "egypt-641-969::c8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e5",
+        "cat": "expression",
+        "label": "The Fatimid ceremonial calendar",
+        "dynasty": "Fatimid",
+        "decade": "970s–1130s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "The Fatimid da'wa reaches Egypt",
+        "decade": "910s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::e5",
+      "xlink_b": "egypt-641-969::xc6"
     },
     {
       "confidence": "high",
@@ -5801,6 +6615,204 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Fustat",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "Fustat — a manufacturing and warehousing city",
+        "dynasty": "Fatimid",
+        "decade": "960s–1160s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The mosque of 'Amr and Muslim Fustat",
+        "decade": "640s–900s"
+      },
+      "xlink_a": "fatimids-909-1171::ec5",
+      "xlink_b": "egypt-641-969::b3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fustat",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "Fustat — a manufacturing and warehousing city",
+        "dynasty": "Fatimid",
+        "decade": "960s–1160s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Jewish communities of Fustat",
+        "decade": "750s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::ec5",
+      "xlink_b": "egypt-641-969::b5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fustat",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "Fustat — a manufacturing and warehousing city",
+        "dynasty": "Fatimid",
+        "decade": "960s–1160s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "x3",
+        "cat": "expression",
+        "label": "Fustat lustreware and the potters' quarter",
+        "decade": "800s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::ec5",
+      "xlink_b": "egypt-641-969::x3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fustat",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "Fustat — a manufacturing and warehousing city",
+        "dynasty": "Fatimid",
+        "decade": "960s–1160s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "e4",
+        "cat": "economy",
+        "label": "The crafts of Fustat",
+        "decade": "700s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::ec5",
+      "xlink_b": "egypt-641-969::e4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fustat",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "Fustat — a manufacturing and warehousing city",
+        "dynasty": "Fatimid",
+        "decade": "960s–1160s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "xc3",
+        "cat": "exchange",
+        "label": "Fustat, the hinge of three seas",
+        "decade": "700s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::ec5",
+      "xlink_b": "egypt-641-969::xc3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fustat",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "ec5",
+        "cat": "economy",
+        "label": "Fustat — a manufacturing and warehousing city",
+        "dynasty": "Fatimid",
+        "decade": "960s–1160s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "w1",
+        "cat": "world",
+        "label": "Fustat, the new metropolis",
+        "decade": "700s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::ec5",
+      "xlink_b": "egypt-641-969::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Fatimid war fleet",
+        "dynasty": "Fatimid",
+        "decade": "970s–1160s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "The failed Fatimid invasions and the Syrian wars",
+        "decade": "910s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::tc3",
+      "xlink_b": "egypt-641-969::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Fatimid war fleet",
+        "dynasty": "Fatimid",
+        "decade": "970s–1160s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "xlink_a": "fatimids-909-1171::tc3",
+      "xlink_b": "egypt-641-969::c8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Fatimid war fleet",
+        "dynasty": "Fatimid",
+        "decade": "970s–1160s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "The Fatimid da'wa reaches Egypt",
+        "decade": "910s–960s"
+      },
+      "xlink_a": "fatimids-909-1171::tc3",
+      "xlink_b": "egypt-641-969::xc6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Fatimid",
       "pivot": {
         "folio": "fatimids-909-1171",
@@ -5819,6 +6831,28 @@
       },
       "xlink_a": "fatimids-909-1171::tc3",
       "xlink_b": "yemen-628-1517::x1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "w2",
+        "cat": "world",
+        "label": "The centre of gravity moves to Cairo",
+        "dynasty": "Fatimid",
+        "decade": "960s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "k13",
+        "cat": "power",
+        "label": "Jawhar and the founding of Cairo",
+        "decade": "960s"
+      },
+      "xlink_a": "fatimids-909-1171::w2",
+      "xlink_b": "egypt-641-969::k13"
     },
     {
       "confidence": "high",
@@ -9837,6 +10871,28 @@
         "decade": "620s"
       },
       "match": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Coptic patriarchate under Islam",
+        "decade": "640s–960s"
+      },
+      "xlink_a": "najd-300bc-632::k9",
+      "xlink_b": "egypt-641-969::k14"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islam",
+      "pivot": {
+        "folio": "najd-300bc-632",
+        "id": "k9",
+        "cat": "power",
+        "label": "Islam reaches Najd",
+        "dynasty": null,
+        "decade": "620s"
+      },
+      "match": {
         "folio": "ghassanid-420-638",
         "id": "r4",
         "cat": "belief",
@@ -10307,6 +11363,28 @@
       },
       "xlink_a": "nw-arabia-106-632::k8",
       "xlink_b": "beth-qatraye-632-750::ec2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Islamic",
+      "pivot": {
+        "folio": "nw-arabia-106-632",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Islamic conquest of the north",
+        "dynasty": "Hāshim",
+        "decade": "620s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "o6",
+        "cat": "order",
+        "label": "The qadi and Islamic law in Egypt",
+        "decade": "700s–820s"
+      },
+      "xlink_a": "nw-arabia-106-632::k8",
+      "xlink_b": "egypt-641-969::o6"
     },
     {
       "confidence": "high",
@@ -17773,6 +18851,40 @@
         "label": "Syriac and Arabic in the Gulf schools",
         "dynasty": "Rashidun",
         "decade": "600s–750s"
+      }
+    },
+    {
+      "name": "Coptic",
+      "entry_a": {
+        "folio": "caliphate-632-750",
+        "id": "x3",
+        "label": "An inherited bureaucracy — Greek, Coptic and Persian officials",
+        "dynasty": "Umayyad",
+        "decade": "640s–700s"
+      },
+      "entry_b": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "label": "The Coptic patriarchate under Islam",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "640s–960s"
+      }
+    },
+    {
+      "name": "Coptic",
+      "entry_a": {
+        "folio": "caliphate-632-750",
+        "id": "x3",
+        "label": "An inherited bureaucracy — Greek, Coptic and Persian officials",
+        "dynasty": "Umayyad",
+        "decade": "640s–700s"
+      },
+      "entry_b": {
+        "folio": "egypt-641-969",
+        "id": "x5",
+        "label": "Late Coptic art and the new vocabulary",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "640s–900s"
       }
     },
     {
@@ -32650,6 +33762,32 @@
       "date_flag": "45yr gap",
       "xlink_a": "qatar-1971-today::b1",
       "xlink_b": "saudi-1902-today::b5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fatimid",
+        "North Africa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Fatimids proclaim a rival caliphate",
+        "decade": "900s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "The Fatimid da'wa reaches Egypt",
+        "decade": "910s–960s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "eastern-arabia-750-1200::w2",
+      "xlink_b": "egypt-641-969::xc6"
     },
     {
       "confidence": "low",
@@ -49764,6 +50902,162 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Egypt",
+        "Fustat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "k11",
+        "cat": "power",
+        "label": "Kafur, the eunuch who ruled Egypt",
+        "decade": "940s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Jawhar takes Egypt",
+        "decade": "960s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "egypt-641-969::k11",
+      "xlink_b": "fatimids-909-1171::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Fatimid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "The Fatimid da'wa reaches Egypt",
+        "decade": "910s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "k3",
+        "cat": "power",
+        "label": "Al-Mu'izz conquers Egypt and builds Cairo",
+        "decade": "950s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::xc6",
+      "xlink_b": "fatimids-909-1171::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Fatimid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "The Fatimid da'wa reaches Egypt",
+        "decade": "910s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Jawhar takes Egypt",
+        "decade": "960s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::xc6",
+      "xlink_b": "fatimids-909-1171::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Fatimid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "The Fatimid da'wa reaches Egypt",
+        "decade": "910s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The Qarmatians invade Egypt",
+        "decade": "970s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "egypt-641-969::xc6",
+      "xlink_b": "fatimids-909-1171::c3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Fatimid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "The Fatimid da'wa reaches Egypt",
+        "decade": "910s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "o5",
+        "cat": "order",
+        "label": "The dhimma under the Fatimids — and under al-Hakim",
+        "decade": "960s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::xc6",
+      "xlink_b": "fatimids-909-1171::o5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Fustat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "l4",
+        "cat": "lives",
+        "label": "Kafur, the slave who ruled Egypt",
+        "decade": "900s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Jawhar takes Egypt",
+        "decade": "960s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "egypt-641-969::l4",
+      "xlink_b": "fatimids-909-1171::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
         "Syria"
       ],
       "sharedCount": 2,
@@ -51011,6 +52305,188 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Abd al-Malik",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "k8",
+        "cat": "power",
+        "label": "Abd al-Malik refounds the state",
+        "decade": "690s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k2",
+        "cat": "power",
+        "label": "'Abd al-Aziz ibn Marwan, the Marwanid viceroy",
+        "decade": "680s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::k8",
+      "xlink_b": "egypt-641-969::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abd al-Malik",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "o3",
+        "cat": "order",
+        "label": "The reformed dinar and dirham",
+        "decade": "690s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k2",
+        "cat": "power",
+        "label": "'Abd al-Aziz ibn Marwan, the Marwanid viceroy",
+        "decade": "680s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::o3",
+      "xlink_b": "egypt-641-969::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abd al-Malik",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Dome of the Rock and the caliph as God's deputy",
+        "decade": "690s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k2",
+        "cat": "power",
+        "label": "'Abd al-Aziz ibn Marwan, the Marwanid viceroy",
+        "decade": "680s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::b3",
+      "xlink_b": "egypt-641-969::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marwanid",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The first translations and the Marwanid interest in learning",
+        "decade": "680s–740s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k2",
+        "cat": "power",
+        "label": "'Abd al-Aziz ibn Marwan, the Marwanid viceroy",
+        "decade": "680s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::t5",
+      "xlink_b": "egypt-641-969::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abd al-Malik",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "Al-Hajjaj and the reclamation of lower Iraq",
+        "decade": "690s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k2",
+        "cat": "power",
+        "label": "'Abd al-Aziz ibn Marwan, the Marwanid viceroy",
+        "decade": "680s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::ec4",
+      "xlink_b": "egypt-641-969::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abd al-Malik",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "The barid — the imperial relay",
+        "decade": "680s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k2",
+        "cat": "power",
+        "label": "'Abd al-Aziz ibn Marwan, the Marwanid viceroy",
+        "decade": "680s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::tc1",
+      "xlink_b": "egypt-641-969::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abd al-Malik",
+        "Umayyad"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "Papyrus, the chancery and the 'protocol'",
+        "decade": "640s–750s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k2",
+        "cat": "power",
+        "label": "'Abd al-Aziz ibn Marwan, the Marwanid viceroy",
+        "decade": "680s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::tc2",
+      "xlink_b": "egypt-641-969::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Bourbon",
         "France"
       ],
@@ -51838,6 +53314,32 @@
       "date_flag": "200yr gap — verify same entity, not just shared theme",
       "xlink_a": "caliphate-750-945::b1",
       "xlink_b": "caliphate-945-1258::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Baghdad",
+        "Fustat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The four Sunni schools of law take shape",
+        "decade": "760s–850s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "e2",
+        "cat": "economy",
+        "label": "From tribute to tax-farm to assignment",
+        "decade": "700s–960s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::b1",
+      "xlink_b": "egypt-641-969::e2"
     },
     {
       "confidence": "low",
@@ -68639,6 +70141,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Fustat",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "The Arab settlement and the dhimma",
+        "decade": "640s–700s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "xc3",
+        "cat": "exchange",
+        "label": "Fustat, the hinge of three seas",
+        "decade": "700s–960s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::xc6",
+      "xlink_b": "egypt-641-969::xc3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Eastern Desert",
         "Red Sea"
       ],
@@ -68712,6 +70240,32 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-300-641::l1",
       "xlink_b": "egypt-6000bc-3000bc::th2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Nile–Red Sea",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k6",
+        "cat": "power",
+        "label": "Trajan — the canal, the fort and the Jewish war",
+        "decade": "110s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "xc4",
+        "cat": "exchange",
+        "label": "The canal, Qulzum and the Red Sea revival",
+        "decade": "640s–960s"
+      },
+      "date_flag": "525yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-30bc-300ad::k6",
+      "xlink_b": "egypt-641-969::xc4"
     },
     {
       "confidence": "low",
@@ -68816,6 +70370,58 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-6000bc-3000bc::th2",
       "xlink_b": "mamluks-1250-1517::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "East Africa",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "xc4",
+        "cat": "exchange",
+        "label": "The canal, Qulzum and the Red Sea revival",
+        "decade": "640s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "Slavery in the Fatimid world",
+        "decade": "960s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::xc4",
+      "xlink_b": "fatimids-909-1171::lv4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Indian Ocean",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "xc4",
+        "cat": "exchange",
+        "label": "The canal, Qulzum and the Red Sea revival",
+        "decade": "640s–960s"
+      },
+      "b": {
+        "folio": "nw-arabia-106-632",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "Aila and the Red Sea trade",
+        "decade": "300s–630s"
+      },
+      "date_flag": "12yr gap",
+      "xlink_a": "egypt-641-969::xc4",
+      "xlink_b": "nw-arabia-106-632::ec4"
     },
     {
       "confidence": "low",
@@ -71473,6 +73079,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Damietta",
+        "Tinnis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "e3",
+        "cat": "economy",
+        "label": "Linen and the textile economy",
+        "decade": "700s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Fatimid war fleet",
+        "decade": "970s–1160s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "egypt-641-969::e3",
+      "xlink_b": "fatimids-909-1171::tc3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Fustat",
         "Sunni"
       ],
@@ -71546,6 +73178,136 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-632-750::b1",
       "xlink_b": "egypt-300-641::k16"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Fustat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Coptic patriarchate under Islam",
+        "decade": "640s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "b8",
+        "cat": "belief",
+        "label": "The Jewish communities and the Palestinian and Babylonian rites",
+        "decade": "960s–1170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::k14",
+      "xlink_b": "fatimids-909-1171::b8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fatimid",
+        "Fustat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Jawhar takes Egypt",
+        "decade": "960s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::c8",
+      "xlink_b": "fatimids-909-1171::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fatimid",
+        "Fustat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "e4",
+        "cat": "expression",
+        "label": "Lustre pottery, carved wood and tiraz",
+        "decade": "970s–1150s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "egypt-641-969::c8",
+      "xlink_b": "fatimids-909-1171::e4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fatimid",
+        "Fustat"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The India trade moves to the Red Sea",
+        "decade": "970s–1150s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::c8",
+      "xlink_b": "fatimids-909-1171::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fustat",
+        "Lustre"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "g3",
+        "cat": "technology",
+        "label": "Lustre, tin-glaze and the figured loom",
+        "decade": "800s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "e4",
+        "cat": "expression",
+        "label": "Lustre pottery, carved wood and tiraz",
+        "decade": "970s–1150s"
+      },
+      "date_flag": "6yr gap",
+      "xlink_a": "egypt-641-969::g3",
+      "xlink_b": "fatimids-909-1171::e4"
     },
     {
       "confidence": "low",
@@ -74854,6 +76616,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Alexandria",
+        "Coptic Patriarchs"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k13",
+        "cat": "power",
+        "label": "Benjamin I — the Coptic Church survives the conquest",
+        "decade": "620s–660s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Coptic patriarchate under Islam",
+        "decade": "640s–960s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k13",
+      "xlink_b": "egypt-641-969::k14"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
         "Alexandrian"
       ],
       "sharedCount": 2,
@@ -75394,6 +77182,32 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-332bc-30bc::o7",
       "xlink_b": "nabataean-312bc-106ce::ex3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Fatimid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "The failed Fatimid invasions and the Syrian wars",
+        "decade": "910s–960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Fatimid war fleet",
+        "decade": "970s–1160s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "egypt-641-969::c7",
+      "xlink_b": "fatimids-909-1171::tc3"
     },
     {
       "confidence": "low",
@@ -107432,6 +109246,188 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "k6",
+        "cat": "power",
+        "label": "Al-Mu'tasim and al-Wathiq",
+        "decade": "830s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "3yr gap",
+      "xlink_a": "caliphate-750-945::k6",
+      "xlink_b": "egypt-641-969::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "k7",
+        "cat": "power",
+        "label": "Al-Mutawakkil",
+        "decade": "840s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::k7",
+      "xlink_b": "egypt-641-969::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "k8",
+        "cat": "power",
+        "label": "Four caliphs in nine years",
+        "decade": "860s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::k8",
+      "xlink_b": "egypt-641-969::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "k9",
+        "cat": "power",
+        "label": "Al-Mu'tamid and the regency of al-Muwaffaq",
+        "decade": "870s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "caliphate-750-945::k9",
+      "xlink_b": "egypt-641-969::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "o5",
+        "cat": "order",
+        "label": "Al-Mutawakkil's edicts on the dhimmis",
+        "decade": "850s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::o5",
+      "xlink_b": "egypt-641-969::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Samarra and the spiral minaret",
+        "decade": "830s–890s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::e1",
+      "xlink_b": "egypt-641-969::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Samarra stucco style spreads the empire over",
+        "decade": "850s–900s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::e2",
+      "xlink_b": "egypt-641-969::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
         "Abu Nuwas"
       ],
       "sharedCount": 2,
@@ -107452,6 +109448,84 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-750-945::e5",
       "xlink_b": "eastern-arabia-750-1200::lv5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "w3",
+        "cat": "world",
+        "label": "The slave-soldier state",
+        "decade": "830s–870s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::w3",
+      "xlink_b": "egypt-641-969::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The ghilman — enslaved soldiers who ruled",
+        "decade": "830s–940s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::lv1",
+      "xlink_b": "egypt-641-969::k6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abbasid",
+        "Samarra"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-750-945",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "The women who ran the palace",
+        "decade": "770s–930s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "k6",
+        "cat": "power",
+        "label": "The tax-farm and the Turkish generals",
+        "decade": "850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-750-945::lv3",
+      "xlink_b": "egypt-641-969::k6"
     },
     {
       "confidence": "low",
@@ -108804,6 +110878,84 @@
       "date_flag": "78yr gap — verify same entity, not just shared theme",
       "xlink_a": "caliphate-945-1258::k2",
       "xlink_b": "fatimids-909-1171::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fatimid",
+        "al-Qahira the Victorious"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "k13",
+        "cat": "power",
+        "label": "Jawhar and the founding of Cairo",
+        "decade": "960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "k3",
+        "cat": "power",
+        "label": "Al-Mu'izz conquers Egypt and builds Cairo",
+        "decade": "950s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::k13",
+      "xlink_b": "fatimids-909-1171::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fatimid",
+        "Jawhar al-Siqilli"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "k13",
+        "cat": "power",
+        "label": "Jawhar and the founding of Cairo",
+        "decade": "960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Jawhar takes Egypt",
+        "decade": "960s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::k13",
+      "xlink_b": "fatimids-909-1171::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fatimid",
+        "al-Qahira"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "b": {
+        "folio": "fatimids-909-1171",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Cairo — the walled palace-city",
+        "decade": "960s–1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-641-969::c8",
+      "xlink_b": "fatimids-909-1171::e1"
     },
     {
       "confidence": "low",
@@ -110624,6 +112776,32 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-1200bc-664bc::k14",
       "xlink_b": "egypt-1550bc-1200bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Nile Valley",
+        "Upper Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Herakleopolis versus Thebes — the First Intermediate civil war",
+        "decade": "2050s BC–2150s"
+      },
+      "b": {
+        "folio": "egypt-641-969",
+        "id": "xc1",
+        "cat": "exchange",
+        "label": "Arab settlement and the long shift",
+        "decade": "640s–960s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c6",
+      "xlink_b": "egypt-641-969::xc1"
     },
     {
       "confidence": "low",
