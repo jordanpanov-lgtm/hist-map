@@ -811,7 +811,92 @@
       "color": "#4A3200",
       "accent": "#8B5E00",
       "subtitle": "The grain of Constantinople, the estate and its tenants, the church's wealth, and the monetised village",
-      "entries": []
+      "entries": [
+        {
+          "id": "e1",
+          "group": "The Annona",
+          "label": "The grain of Constantinople",
+          "date": "330–641 AD",
+          "loc": "Constantinople",
+          "coords": [
+            41.01,
+            28.98
+          ],
+          "hint": "From 330 the Egyptian grain tax, once Rome's, was shipped to Constantinople — an annual delivery of the order of eight million artabas that fed the capital's bread dole, carried by a compulsory guild of shippers under close state supervision. It was the material foundation of the eastern empire, and its interruption twice proved catastrophic: the Persian conquest of 619 and the Arab conquest of 642 each cut it off, and Constantinople's population and confidence fell sharply as a result.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Justinian, Edict 13; the Theodosian Code 13–14. Geoffrey Rickman, The Corn Supply of Ancient Rome (1980); Michael Hendy, Studies in the Byzantine Monetary Economy (1985); Jairus Banaji, Agrarian Change in Late Antiquity (2001)."
+        },
+        {
+          "id": "e2",
+          "group": "Land & Estates",
+          "label": "The estate economy",
+          "date": "c.450–620 AD",
+          "loc": "Oxyrhynchus",
+          "coords": [
+            28.53,
+            30.66
+          ],
+          "hint": "The great estates ran integrated production units: grain on the best land, vineyards and olive groves on the rest, tenant farmers increasingly bound to their plots, and irrigation machinery maintained as capital equipment. Rents came in both wheat and gold; surplus wine and oil went to market in the towns and abroad. The trend of the period was concentration — land, and the labour on it, gathering into fewer, larger hands, whether of senators, the church, or the crown.",
+          "tag": "ECONOMIC",
+          "note": "Jairus Banaji, Agrarian Change in Late Antiquity: Gold, Labour, and Aristocratic Dominance (2001); Peter Sarris, Economy and Society in the Age of Justinian (2006); Todd Hickey, Wine, Wealth, and the State (2012)."
+        },
+        {
+          "id": "e3",
+          "group": "Money",
+          "label": "The monetised village and the gold solidus",
+          "date": "c.310–641 AD",
+          "loc": "the Nile chora",
+          "coords": [
+            29.3,
+            30.9
+          ],
+          "hint": "Constantine's gold solidus held its weight and fineness for centuries and became the anchor of the late-antique economy, supported by fractional gold and a shifting copper small change. In Egypt this reached all the way down: village papyri record wages, rents, loans, dowries and tax payments in gold and its fractions, and keep running accounts. The rural economy was more thoroughly and routinely monetised than at almost any point before the modern era.",
+          "tag": "ECONOMIC",
+          "note": "Banaji, Agrarian Change in Late Antiquity (2001) is the central study. Roger Bagnall, Currency and Inflation in Fourth Century Egypt (1985); the price data in the Oxyrhynchus and Aphrodito papyri."
+        },
+        {
+          "id": "e4",
+          "group": "Church Economy",
+          "label": "The church and monastery as economic engines",
+          "date": "c.350–641 AD",
+          "loc": "the White Monastery (Sohag)",
+          "coords": [
+            26.51,
+            31.66
+          ],
+          "hint": "The church was a major economic actor. It held enormous estates; its monasteries were workshops that made rope, baskets, mats, linen, wine and bread, ran their own mills and presses, and sold the surplus to the towns; it employed and fed thousands, kept 'poor lists' for regular grain doles, and lent money. The pilgrimage centre at Abu Mina was effectively a religious industrial town. Much of the surplus that had gone to temples now flowed through Christian institutions.",
+          "tag": "ECONOMIC",
+          "note": "Ewa Wipszycka, Les ressources et les activités économiques des églises en Égypte du IVe au VIIIe siècle (1972); Ariel López, Shenoute of Atripe and the Uses of Poverty (2013); the White Monastery economic documents."
+        },
+        {
+          "id": "e5",
+          "group": "Trade",
+          "label": "Wine replaces beer",
+          "date": "c.300–641 AD",
+          "loc": "the Mareotis (Lake Mariout)",
+          "coords": [
+            31,
+            29.85
+          ],
+          "hint": "Over late antiquity wine displaced barley beer as the ordinary drink of Egypt — pushed by Christian communion, by the monasteries' own production and trade, and by the estates' commercial vineyards. The vineyards of the Mareotis behind Alexandria and of the Middle Egyptian estates supplied a large export, shipped in the distinctive tall amphorae ('Late Roman Amphora 5/6' and 7) that archaeologists find all round the eastern Mediterranean.",
+          "tag": "ECONOMIC",
+          "note": "Roberta Tomber and the Late Roman Amphora typologies; Dominic Rathbone, 'The Ancient Economy and Graeco-Roman Egypt', in Criscuolo & Geraci (eds.) (1989). Mareotic wine: Strabo 17.1.14 and the amphora evidence."
+        },
+        {
+          "id": "e6",
+          "group": "Exports",
+          "label": "Papyrus, linen and glass",
+          "date": "c.300–700 AD",
+          "loc": "the Nile Delta",
+          "coords": [
+            30.8,
+            31
+          ],
+          "hint": "Egypt remained the workshop of the Mediterranean for a few key products. It was still the sole source of papyrus, and the Merovingian royal and papal chanceries were writing on Egyptian papyrus into the seventh and even eighth centuries; its fine linen and its glass were exported across the empire; and natron for glassmaking and mummification went out from the Wadi Natrun. These trades outlasted Roman rule and kept Egypt tied into the wider economy under its new masters.",
+          "tag": "ECONOMIC",
+          "note": "Papyrus in the west: Naphtali Lewis, Papyrus in Classical Antiquity (1974) and its supplement. Glass: Ian Freestone's compositional work locating primary production on the Levantine–Egyptian coast."
+        }
+      ]
     },
     {
       "id": "technology",
@@ -820,7 +905,64 @@
       "color": "#5C2D00",
       "accent": "#B7770D",
       "subtitle": "Church and monastery building, the water-wheel economy, book production on parchment, and the fortress",
-      "entries": []
+      "entries": [
+        {
+          "id": "g1",
+          "group": "Construction",
+          "label": "Building the churches and the fortified monastery",
+          "date": "c.350–641 AD",
+          "loc": "Abu Mina",
+          "coords": [
+            30.85,
+            29.66
+          ],
+          "hint": "Christian Egypt sustained a large construction sector. Basilicas — timber-roofed, often with a transept, built of fired brick and re-used pharaonic stone — went up in every town, the grandest at the pilgrim city of Abu Mina and at Hermopolis. The desert monasteries were built like forts, with battered mud-brick or stone walls and a tower keep (qasr) to shelter in during raids; the White Monastery re-used blocks quarried from nearby temples in walls that still stand to their full height.",
+          "tag": "CONSTRUCTION",
+          "note": "Peter Grossmann, Christliche Architektur in Ägypten (2002) and Abu Mina I (1989). The White Monastery: Bentley Layton and the recent conservation work."
+        },
+        {
+          "id": "g2",
+          "group": "Agriculture & Water",
+          "label": "The saqiya economy",
+          "date": "c.300–641 AD",
+          "loc": "the Faiyum",
+          "coords": [
+            29.44,
+            31.11
+          ],
+          "hint": "The ox-driven waterwheel — a vertical wheel with a garland of pots, turned through a right-angle pin-and-drum gear by an animal walking a circle — became the backbone of Egyptian farming in late antiquity, its maintenance written into land leases as a standing obligation. It is one of the first large-scale uses of gearing to transmit power, and it let irrigated land carry multiple crops a year, sustaining both the population and the grain shipped to Constantinople.",
+          "tag": "OBJECT",
+          "note": "Thorkild Schiøler, Roman and Islamic Water-Lifting Wheels (1973); Michael Lewis, Millstone and Hammer: The Origins of Water Power (1997) on the gearing. Lease clauses: Jane Rowlandson, Landowners and Tenants in Roman Egypt (1996)."
+        },
+        {
+          "id": "g3",
+          "group": "The Book",
+          "label": "Making books for the church",
+          "date": "c.300–641 AD",
+          "loc": "the monastic scriptorium",
+          "coords": [
+            26.51,
+            31.66
+          ],
+          "hint": "The demand for scripture, liturgy and theology in both Greek and Coptic supported a book-making craft centred on the monasteries: preparing papyrus and, increasingly, parchment; ruling and copying in a formal book-hand; correcting; and binding folded quires between wooden or leather-covered boards with sewn spines and wrapping ties. The techniques worked out here — the codex, the bound spine, the ruled page — are those of the book ever since.",
+          "tag": "OBJECT",
+          "note": "Colin Roberts & T.C. Skeat, The Birth of the Codex (1983); the Nag Hammadi and White Monastery bindings. Coptic book-hands: Anne Boud'hors and the palaeographical literature."
+        },
+        {
+          "id": "g4",
+          "group": "Military Architecture",
+          "label": "The fortress of Babylon and the frontier forts",
+          "date": "c.300–641 AD",
+          "loc": "Babylon (Old Cairo)",
+          "coords": [
+            30.006,
+            31.23
+          ],
+          "hint": "Late Roman military engineering in Egypt centred on the great fortress of Babylon at the head of the Delta — rebuilt by Trajan and strengthened again in late antiquity, with massive round bastions of banded stone and brick, straddling the mouth of the canal to the Red Sea. It was the linchpin of the country's defence and the object whose seven-month siege decided the Arab conquest; two of its towers still stand, embedded in Coptic Cairo.",
+          "tag": "CONSTRUCTION",
+          "note": "Peter Sheehan, Babylon of Egypt: The Archaeology of Old Cairo and the Origins of the City (2010). The wider frontier: the Notitia Dignitatum and the surviving Nile fortress-towns."
+        }
+      ]
     },
     {
       "id": "exchange",
@@ -829,7 +971,92 @@
       "color": "#1A3A3A",
       "accent": "#148080",
       "subtitle": "The Red Sea trade in decline, the conversion of Nubia, and Egyptian monasticism exported to the world",
-      "entries": []
+      "entries": [
+        {
+          "id": "xc1",
+          "group": "The Red Sea",
+          "label": "The Red Sea trade in the Christian era",
+          "date": "c.300–620 AD",
+          "loc": "Clysma (Suez) / Adulis",
+          "coords": [
+            15.26,
+            39.66
+          ],
+          "hint": "The India and East Africa trade continued into the Christian centuries but contracted: Berenike and Myos Hormos gave way to Clysma at the head of the Gulf of Suez, and the Christian kingdom of Axum, with its port of Adulis, became the dominant Red Sea power and a partner of Constantinople against Persia. Cosmas, who sailed the route himself around 520, describes its ports, its Christian merchant communities as far as Ceylon, and a trade that was shrinking as the wider ancient economy contracted.",
+          "tag": "EVENT",
+          "note": "Cosmas Indicopleustes, Christian Topography, esp. book 2 and 11. Steven Sidebotham, Berenike and the Ancient Maritime Spice Route (2011) pp.259–81; Glen Bowersock, The Throne of Adulis (2013)."
+        },
+        {
+          "id": "xc2",
+          "group": "The Nile Corridor",
+          "label": "The conversion of Nubia",
+          "date": "c.540–580 AD",
+          "loc": "Faras (Nobadia)",
+          "coords": [
+            22.2,
+            31.48
+          ],
+          "hint": "In the mid-sixth century rival missions — a Miaphysite one sent by the empress Theodora, a Chalcedonian one by Justinian — competed to convert the three Nubian kingdoms south of Egypt: Nobadia, Makuria and Alodia. Within a generation all three were Christian, and, following Egypt, most of Nubia held to the non-Chalcedonian faith and looked to the Coptic patriarch of Alexandria for its bishops. A distinctively Nubian Christian civilisation, with cathedrals like the painted one at Faras, lasted some eight centuries.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "John of Ephesus, Ecclesiastical History 4.6–8, 49–53. William Adams, Nubia: Corridor to Africa (1977); Derek Welsby, The Medieval Kingdoms of Nubia (2002). Faras: Kazimierz Michałowski, Faras (1974)."
+        },
+        {
+          "id": "xc3",
+          "group": "Religious Export",
+          "label": "Egyptian monasticism goes to the world",
+          "date": "c.380–641 AD",
+          "loc": "Marseille",
+          "coords": [
+            43.3,
+            5.37
+          ],
+          "hint": "Egypt's largest export to later history was the monastic ideal. John Cassian, who had spent years among the Egyptian monks, founded a monastery at Marseille around 415 and wrote the Institutes and Conferences that carried desert practice into the Latin west and, through Benedict, into the whole medieval church. The Sayings of the Desert Fathers and the Lives were translated into Latin, Syriac, Armenian, Georgian, Ethiopic and Arabic; wherever Christian monks lived, they were following an Egyptian pattern.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "John Cassian, Institutes and Conferences (Boniface Ramsey's translation). Columba Stewart, Cassian the Monk (1998); Derwas Chitty, The Desert a City (1966)."
+        },
+        {
+          "id": "xc4",
+          "group": "The Wider Church",
+          "label": "Alexandria and the non-Chalcedonian world",
+          "date": "325–641 AD",
+          "loc": "Alexandria",
+          "coords": [
+            31.2,
+            29.9
+          ],
+          "hint": "Alexandria was one of the five great patriarchates and, for a century, the most theologically assertive — its bishop styled 'pope' before Rome's claim was fixed, its councils dominant at Nicaea and Ephesus, its rivalry with Constantinople bitter. After Chalcedon the see took on a new role: the head and reference point of the whole non-Chalcedonian communion — the churches of Egypt, Syria, Armenia, and later Ethiopia and Nubia — the Oriental Orthodox family that still exists.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Norman Russell, Cyril of Alexandria (2000); Stephen Davis, The Early Coptic Papacy (2004); W.H.C. Frend, The Rise of the Monophysite Movement (1972)."
+        },
+        {
+          "id": "xc5",
+          "group": "Travel & Pilgrimage",
+          "label": "Pilgrims to the Egyptian holy places",
+          "date": "c.380–620 AD",
+          "loc": "Mount Sinai",
+          "coords": [
+            28.54,
+            33.97
+          ],
+          "hint": "Christian Egypt drew a steady traffic of pilgrims: to the living desert fathers of Nitria and Scetis, to the shrine of St Menas, to Mount Sinai and the bush of Moses, and to the sites where the Holy Family was said to have sheltered. The travellers left accounts — the nun Egeria, the anonymous Piacenza pilgrim, the authors of the Historia Monachorum and the Lausiac History — that are among the best sources for late-antique Egyptian religion and daily life on the road.",
+          "tag": "EVIDENCE",
+          "note": "Egeria, Itinerarium; the Piacenza Pilgrim; Historia Monachorum in Aegypto; Palladius, Lausiac History. Georgia Frank, The Memory of the Eyes: Pilgrims to Living Saints in Christian Late Antiquity (2000)."
+        },
+        {
+          "id": "xc6",
+          "group": "The Coming of Islam",
+          "label": "The Arab settlement and the dhimma",
+          "date": "641–700 AD",
+          "loc": "Fustat",
+          "coords": [
+            30.005,
+            31.233
+          ],
+          "hint": "The conquest began a new exchange, not just a change of ruler. The mass of the population kept its Coptic church under a treaty that levied a land tax and a poll tax (jizya) on non-Muslims and, at first, largely left local society alone; Greek and Coptic stayed the languages of administration for another century; the surplus that had gone to Constantinople now went to Medina, along a re-dug Red Sea canal. Conversion and Arabisation would take centuries — the deep transformation was still ahead.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "The conquest-era bilingual papyri (PERF 558 etc.). Petra Sijpesteijn, Shaping a Muslim State: The World of a Mid-Eighth-Century Egyptian Official (2013); Hugh Kennedy, The Great Arab Conquests (2007); Robert Hoyland, In God's Path (2015)."
+        }
+      ]
     },
     {
       "id": "world",
