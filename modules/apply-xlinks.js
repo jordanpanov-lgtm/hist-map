@@ -31,6 +31,23 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-1900-1952 (Colonial Egypt and the Monarchy): hand-off from Muhammad Ali and the Khedivate ──
+  ['egypt-1900-1952::k1', 'egypt-1798-1900::k8'],    // Abbas II Hilmi acceding → deposed on the Protectorate
+  ['egypt-1900-1952::k5', 'egypt-1798-1900::k10'],   // the occupation and Cromer → the man in the Residency
+  ['egypt-1900-1952::c1', 'egypt-1798-1900::l5'],    // Lord Cromer → his fall over the Denshawai reaction
+  ['egypt-1900-1952::k11', 'egypt-1798-1900::b6'],   // religion, the state and national identity → Mustafa Kamil's nationalism
+  ['egypt-1900-1952::o1', 'egypt-1798-1900::o6'],    // the Veiled Protectorate → the Protectorate and the reserved points
+  ['egypt-1900-1952::xc5', 'egypt-1798-1900::xc5'],  // the Nile question → the Sudan question
+  ['egypt-1900-1952::e1', 'egypt-1798-1900::e1'],    // the cotton monoculture → the cotton cycle and the Depression
+  ['egypt-1900-1952::e4', 'egypt-1798-1900::o3'],    // private property in land → the land question
+  ['egypt-1900-1952::e5', 'egypt-1798-1900::e7'],    // the fellah and the agrarian crisis → the condition of the fellah
+  ['egypt-1900-1952::b1', 'egypt-1798-1900::b2'],    // al-Afghani and 'Abduh → Islamic modernism and its reaction
+  ['egypt-1900-1952::b3', 'egypt-1798-1900::b3'],    // the Coptic reform movement → national unity and the Coptic question
+  ['egypt-1900-1952::b6', 'egypt-1798-1900::xc3'],   // cosmopolitan Alexandria → the Jewish and foreign communities
+  ['egypt-1900-1952::t1', 'egypt-1798-1900::t2'],    // the new schools → the Egyptian University
+  ['egypt-1900-1952::t3', 'egypt-1798-1900::t5'],    // the woman question → the feminist movement
+  ['egypt-1900-1952::t5', 'egypt-1798-1900::t4'],    // the survey of Egypt and Egyptology → the claim on the pharaohs
+  ['egypt-1900-1952::x5', 'egypt-1798-1900::x2'],    // the Nahda and the new journalism → the press at its height
   // ── egypt-1798-1900 (Muhammad Ali and the Khedivate): hand-off from Ottoman Egypt ──
   ['egypt-1798-1900::k1', 'egypt-1517-1798::k11'],   // the French invasion → the struggle for power after it
   ['egypt-1798-1900::k1', 'egypt-1517-1798::k10'],   // Ibrahim Bey and Murad Bey → the beys Muhammad Ali displaces
