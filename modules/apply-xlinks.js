@@ -31,6 +31,19 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-30bc-300ad (Roman Egypt): hand-off from Ptolemaic Egypt ──
+  ['egypt-30bc-300ad::k1', 'egypt-332bc-30bc::c9'],   // Actium and the annexation → the Augustan settlement
+  ['egypt-30bc-300ad::c1', 'egypt-332bc-30bc::xc4'],  // Meroe and the shared frontier → the war with Meroe
+  ['egypt-30bc-300ad::e1', 'egypt-332bc-30bc::e3'],   // grain and the fleet → the grain of Rome
+  ['egypt-30bc-300ad::o1', 'egypt-332bc-30bc::o7'],   // Rome the overlord → the emperor's closed province
+  ['egypt-30bc-300ad::b1', 'egypt-332bc-30bc::b2'],   // the Ptolemaic temple programme → the temples under Rome
+  ['egypt-30bc-300ad::b2', 'egypt-332bc-30bc::b3'],   // Isis becomes universal → Isis conquers the empire
+  ['egypt-30bc-300ad::t4', 'egypt-332bc-30bc::t1'],   // the Museum and Library → the Museum after its golden age
+  ['egypt-30bc-300ad::xc1', 'egypt-332bc-30bc::xc1'], // the Indian Ocean route opens → the India trade at its height
+  ['egypt-30bc-300ad::xc6', 'egypt-332bc-30bc::xc3'], // the Septuagint community → the end of Egyptian Jewry
+  ['egypt-30bc-300ad::o3', 'egypt-332bc-30bc::xc6'],  // Greeks and Egyptians blend → Rome re-freezes the ethnic grades
+  ['egypt-30bc-300ad::e4', 'egypt-332bc-30bc::e4'],   // the closed currency and the banks → the closed tetradrachm's collapse
+  ['egypt-30bc-300ad::t3', 'egypt-332bc-30bc::t7'],   // Egyptian temple learning → the birth of alchemy
   // ── egypt-332bc-30bc (Ptolemaic Egypt): hand-off from The Late Period ──
   ['egypt-332bc-30bc::k1', 'egypt-664bc-332bc::k16'],   // the Second Persian Period → Alexander takes Egypt
   ['egypt-332bc-30bc::k1', 'egypt-664bc-332bc::l6'],    // Somtutefnakht outlives the conquest to serve Alexander

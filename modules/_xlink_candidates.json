@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-07",
-    "figure_matches": 756,
-    "figure_matches_rejected_dynasty_mismatch": 909,
-    "figure_matches_rejected_date_implausible": 1078,
-    "dynasty_alignment_proposals_count": 62,
-    "keyword_matches": 3755,
-    "keyword_matches_rejected_geo_only": 8719,
-    "high_confidence": 783,
-    "medium_confidence": 315,
-    "low_confidence": 3413
+    "figure_matches": 780,
+    "figure_matches_rejected_dynasty_mismatch": 924,
+    "figure_matches_rejected_date_implausible": 1101,
+    "dynasty_alignment_proposals_count": 71,
+    "keyword_matches": 3788,
+    "keyword_matches_rejected_geo_only": 8734,
+    "high_confidence": 807,
+    "medium_confidence": 316,
+    "low_confidence": 3445
   },
   "figure_name_matches": [
     {
@@ -4635,6 +4635,468 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Trajan",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k6",
+        "cat": "power",
+        "label": "Trajan — the canal, the fort and the Jewish war",
+        "dynasty": "Nerva-Antonine",
+        "decade": "110s"
+      },
+      "match": {
+        "folio": "nabataean-312bc-106ce",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Trajan annexes Nabataea as Arabia Petraea",
+        "decade": "100s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k6",
+      "xlink_b": "nabataean-312bc-106ce::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Septimius Severus",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k9",
+        "cat": "power",
+        "label": "Septimius Severus gives the cities councils",
+        "dynasty": "Severan",
+        "decade": "190s"
+      },
+      "match": {
+        "folio": "rome-200-300",
+        "id": "p1",
+        "cat": "power",
+        "label": "Septimius Severus",
+        "decade": "190s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k9",
+      "xlink_b": "rome-200-300::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Septimius Severus",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k9",
+        "cat": "power",
+        "label": "Septimius Severus gives the cities councils",
+        "dynasty": "Severan",
+        "decade": "190s"
+      },
+      "match": {
+        "folio": "rome-200-300",
+        "id": "a1",
+        "cat": "expression",
+        "label": "Arch of Septimius Severus, Rome",
+        "decade": "200s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k9",
+      "xlink_b": "rome-200-300::a1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Caracalla",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k10",
+        "cat": "power",
+        "label": "Caracalla's citizenship and Caracalla's massacre",
+        "dynasty": "Severan",
+        "decade": "210s"
+      },
+      "match": {
+        "folio": "rome-200-300",
+        "id": "p2",
+        "cat": "power",
+        "label": "Caracalla",
+        "decade": "210s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k10",
+      "xlink_b": "rome-200-300::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Caracalla",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k10",
+        "cat": "power",
+        "label": "Caracalla's citizenship and Caracalla's massacre",
+        "dynasty": "Severan",
+        "decade": "210s"
+      },
+      "match": {
+        "folio": "rome-200-300",
+        "id": "a2",
+        "cat": "expression",
+        "label": "Baths of Caracalla, Rome",
+        "decade": "210s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k10",
+      "xlink_b": "rome-200-300::a2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Caracalla",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k10",
+        "cat": "power",
+        "label": "Caracalla's citizenship and Caracalla's massacre",
+        "dynasty": "Severan",
+        "decade": "210s"
+      },
+      "match": {
+        "folio": "rome-200-300",
+        "id": "te1",
+        "cat": "technology",
+        "label": "Baths of Caracalla — concrete engineering",
+        "decade": "210s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k10",
+      "xlink_b": "rome-200-300::te1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Caracalla",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k10",
+        "cat": "power",
+        "label": "Caracalla's citizenship and Caracalla's massacre",
+        "dynasty": "Severan",
+        "decade": "210s"
+      },
+      "match": {
+        "folio": "rome-200-300",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Caracalla extends citizenship — Lex Scantinia implications",
+        "decade": "210s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k10",
+      "xlink_b": "rome-200-300::lv2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "k2",
+        "cat": "power",
+        "label": "Odaenathus I — first titled Palmyrene lord",
+        "decade": "220s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::k2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "k5",
+        "cat": "power",
+        "label": "Vaballathus — child emperor, last Palmyrene ruler",
+        "decade": "260s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::k5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "o2",
+        "cat": "order",
+        "label": "Palmyrene city constitution — the boule and strategos",
+        "decade": "100s–260s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::o2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "a1",
+        "cat": "expression",
+        "label": "Palmyrene tower tombs — the valley of the dead",
+        "decade": "100s BC–200s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::a1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "a2",
+        "cat": "expression",
+        "label": "Palmyrene funerary busts — the portrait tradition",
+        "decade": "100s–270s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::a2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "a4",
+        "cat": "expression",
+        "label": "Palmyrene coinage under Vaballathus and Zenobia",
+        "decade": "270s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::a4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "a5",
+        "cat": "expression",
+        "label": "Palmyrene banquet reliefs — music at the symposium",
+        "decade": "100s–250s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::a5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "t3",
+        "cat": "thought",
+        "label": "PAT corpus — 3,000 Palmyrene inscriptions",
+        "decade": "100s BC–270s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::t3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "s2",
+        "cat": "economy",
+        "label": "Palmyrene merchants across the Roman world",
+        "decade": "270s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::s2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Palmyrene trade network — Rome to Parthia",
+        "decade": "100s BC–260s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::ex1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Palmyrene art — Greek, Parthian and Arabian fusion",
+        "decade": "100s BC–270s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::ex2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "ex3",
+        "cat": "exchange",
+        "label": "Odaenathus's Roman titles and Palmyrene ambiguity",
+        "decade": "260s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::ex3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Palmyrene women in inscription evidence",
+        "decade": "100s–270s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "palmyrene-100bc-273ce::lv2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Palmyrene",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "dynasty": "Palmyrene",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "rome-200-300",
+        "id": "w5",
+        "cat": "world",
+        "label": "Breakaway Palmyrene Empire",
+        "decade": "260s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "rome-200-300::w5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Saladin",
       "pivot": {
         "folio": "fatimids-909-1171",
@@ -9177,6 +9639,28 @@
         "decade": "100s–620s"
       },
       "match": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k6",
+        "cat": "power",
+        "label": "Trajan — the canal, the fort and the Jewish war",
+        "decade": "110s"
+      },
+      "xlink_a": "nw-arabia-106-632::k7",
+      "xlink_b": "egypt-30bc-300ad::k6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jewish",
+      "pivot": {
+        "folio": "nw-arabia-106-632",
+        "id": "k7",
+        "cat": "power",
+        "label": "The Jewish oases",
+        "dynasty": null,
+        "decade": "100s–620s"
+      },
+      "match": {
         "folio": "hejaz-300bc-632",
         "id": "c6",
         "cat": "conflict",
@@ -12819,6 +13303,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Caracalla",
+      "pivot": {
+        "folio": "rome-200-300",
+        "id": "p2",
+        "cat": "power",
+        "label": "Caracalla",
+        "dynasty": "Severan",
+        "decade": "210s"
+      },
+      "match": {
+        "folio": "egypt-30bc-300ad",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Caracalla's massacre at Alexandria",
+        "decade": "210s"
+      },
+      "xlink_a": "rome-200-300::p2",
+      "xlink_b": "egypt-30bc-300ad::c6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Valerian",
       "pivot": {
         "folio": "rome-200-300",
@@ -12859,6 +13365,28 @@
       },
       "xlink_a": "rome-200-300::p13",
       "xlink_b": "sassanid-224-484::a2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Aurelian",
+      "pivot": {
+        "folio": "rome-200-300",
+        "id": "p15",
+        "cat": "power",
+        "label": "Aurelian",
+        "dynasty": "Illyrian",
+        "decade": "270s"
+      },
+      "match": {
+        "folio": "egypt-30bc-300ad",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "The Palmyrene war and Aurelian's reconquest",
+        "decade": "270s"
+      },
+      "xlink_a": "rome-200-300::p15",
+      "xlink_b": "egypt-30bc-300ad::c7"
     },
     {
       "confidence": "high",
@@ -16763,6 +17291,159 @@
         "label": "The Qarmatians invade Egypt",
         "dynasty": "Fatimid",
         "decade": "970s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k13",
+        "label": "Diocletian — the siege and the reorganisation",
+        "dynasty": "Tetrarchy",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-200-300",
+        "id": "p17",
+        "label": "Diocletian",
+        "dynasty": "Illyrian",
+        "decade": "280s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k13",
+        "label": "Diocletian — the siege and the reorganisation",
+        "dynasty": "Tetrarchy",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-200-300",
+        "id": "o3",
+        "label": "Edict of Maximum Prices (Diocletian)",
+        "dynasty": "Illyrian",
+        "decade": "300s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k13",
+        "label": "Diocletian — the siege and the reorganisation",
+        "dynasty": "Tetrarchy",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-200-300",
+        "id": "o5",
+        "label": "Diocletian's currency reform",
+        "dynasty": "Illyrian",
+        "decade": "290s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k13",
+        "label": "Diocletian — the siege and the reorganisation",
+        "dynasty": "Tetrarchy",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-200-300",
+        "id": "o6",
+        "label": "Diocletian's provincial reorganisation",
+        "dynasty": "Illyrian",
+        "decade": "290s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k13",
+        "label": "Diocletian — the siege and the reorganisation",
+        "dynasty": "Tetrarchy",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-200-300",
+        "id": "r6",
+        "label": "Diocletian's Great Persecution begins",
+        "dynasty": "Illyrian",
+        "decade": "300s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k13",
+        "label": "Diocletian — the siege and the reorganisation",
+        "dynasty": "Tetrarchy",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-200-300",
+        "id": "a6",
+        "label": "Palace of Diocletian, Split",
+        "dynasty": "Illyrian",
+        "decade": "290s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k13",
+        "label": "Diocletian — the siege and the reorganisation",
+        "dynasty": "Tetrarchy",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-300-400",
+        "id": "p1",
+        "label": "Diocletian (abdication)",
+        "dynasty": "Tetrarchic",
+        "decade": "300s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k13",
+        "label": "Diocletian — the siege and the reorganisation",
+        "dynasty": "Tetrarchy",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-300-400",
+        "id": "o7",
+        "label": "Diocletian's army reforms (legacy)",
+        "dynasty": "Tetrarchic",
+        "decade": "300s"
+      }
+    },
+    {
+      "name": "Diocletian",
+      "entry_a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k13",
+        "label": "Diocletian — the siege and the reorganisation",
+        "dynasty": "Tetrarchy",
+        "decade": "280s"
+      },
+      "entry_b": {
+        "folio": "rome-300-400",
+        "id": "s2",
+        "label": "Diocletian's tax reform (iugatio-capitatio)",
+        "dynasty": "Tetrarchic",
+        "decade": "290s"
       }
     },
     {
@@ -26537,6 +27218,87 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Meroe",
+        "Philae",
+        "Twelve-Mile Land"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "xc4",
+        "cat": "exchange",
+        "label": "Meroe and the long peace at the cataract",
+        "decade": "20s BC–270s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "xc4",
+        "cat": "exchange",
+        "label": "Meroe and the shared frontier",
+        "decade": "30s BC–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::xc4",
+      "xlink_b": "egypt-332bc-30bc::xc4"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Diocletian",
+        "Nicomedia",
+        "Split"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "rome-200-300",
+        "id": "p17",
+        "cat": "power",
+        "label": "Diocletian",
+        "decade": "280s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "p1",
+        "cat": "power",
+        "label": "Diocletian (abdication)",
+        "decade": "300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "rome-200-300::p17",
+      "xlink_b": "rome-300-400::p1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aurelian",
+        "Gallic Empire",
+        "Gaul"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "w2",
+        "cat": "world",
+        "label": "Aurelian reunifies the empire — Palmyra as turning point",
+        "decade": "270s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "c10",
+        "cat": "conflict",
+        "label": "Aurelian defeats the Gallic Empire",
+        "decade": "270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::w2",
+      "xlink_b": "rome-200-300::c10"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "British Museum",
         "Esquiline Hill",
         "Rome"
@@ -26807,33 +27569,6 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Aurelian",
-        "Gallic Empire",
-        "Gaul"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "w2",
-        "cat": "world",
-        "label": "Aurelian reunifies the empire — Palmyra as turning point",
-        "decade": "270s"
-      },
-      "b": {
-        "folio": "rome-200-300",
-        "id": "c10",
-        "cat": "conflict",
-        "label": "Aurelian defeats the Gallic Empire",
-        "decade": "270s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::w2",
-      "xlink_b": "rome-200-300::c10"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Bishapur",
         "Gundeshapur",
         "Shapur I"
@@ -26856,33 +27591,6 @@
       "date_flag": "overlapping",
       "xlink_a": "rome-200-300::ex2",
       "xlink_b": "sassanid-224-484::o4"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Diocletian",
-        "Nicomedia",
-        "Split"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "p17",
-        "cat": "power",
-        "label": "Diocletian",
-        "decade": "280s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "p1",
-        "cat": "power",
-        "label": "Diocletian (abdication)",
-        "decade": "300s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "rome-200-300::p17",
-      "xlink_b": "rome-300-400::p1"
     },
     {
       "confidence": "medium",
@@ -47821,6 +48529,214 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k1",
+        "cat": "power",
+        "label": "Augustus annexes Egypt",
+        "decade": "30s BC"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::k1",
+      "xlink_b": "egypt-332bc-30bc::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k1",
+        "cat": "power",
+        "label": "Augustus annexes Egypt",
+        "decade": "30s BC"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c9",
+        "cat": "conflict",
+        "label": "Actium and the annexation of Egypt",
+        "decade": "30s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::k1",
+      "xlink_b": "egypt-332bc-30bc::c9"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Plague of Cyprian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k11",
+        "cat": "power",
+        "label": "The third-century crisis in Egypt",
+        "decade": "240s–280s"
+      },
+      "b": {
+        "folio": "rome-200-300",
+        "id": "w2",
+        "cat": "world",
+        "label": "Plague of Cyprian",
+        "decade": "240s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::k11",
+      "xlink_b": "rome-200-300::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k12",
+        "cat": "power",
+        "label": "The Palmyrene occupation of Egypt",
+        "decade": "270s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::k12",
+      "xlink_b": "egypt-332bc-30bc::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k14",
+        "cat": "power",
+        "label": "The prefecture of Egypt",
+        "decade": "30s BC–300s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::k14",
+      "xlink_b": "egypt-332bc-30bc::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k14",
+        "cat": "power",
+        "label": "The prefecture of Egypt",
+        "decade": "30s BC–300s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c9",
+        "cat": "conflict",
+        "label": "Actium and the annexation of Egypt",
+        "decade": "30s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::k14",
+      "xlink_b": "egypt-332bc-30bc::c9"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k14",
+        "cat": "power",
+        "label": "The prefecture of Egypt",
+        "decade": "30s BC–300s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Athanasius: De Incarnatione",
+        "decade": "310s"
+      },
+      "date_flag": "18yr gap",
+      "xlink_a": "egypt-30bc-300ad::k14",
+      "xlink_b": "rome-300-400::t2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "o7",
+        "cat": "order",
+        "label": "The army of Egypt",
+        "decade": "30s BC–300s"
+      },
+      "b": {
+        "folio": "south-arabia-300bc-628",
+        "id": "t1",
+        "cat": "thought",
+        "label": "The Periplus of the Erythraean Sea",
+        "decade": "40s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::o7",
+      "xlink_b": "south-arabia-300bc-628::t1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Egypt",
         "Memphis"
       ],
@@ -66475,6 +67391,32 @@
         "decade": "1800s BC–1950s"
       },
       "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Eastern Desert put to work",
+        "decade": "260s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::g5",
+      "xlink_b": "egypt-30bc-300ad::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "g5",
+        "cat": "technology",
+        "label": "Prefabricated seagoing ships at Mersa Gawasis",
+        "decade": "1800s BC–1950s"
+      },
+      "b": {
         "folio": "egypt-332bc-30bc",
         "id": "w2",
         "cat": "world",
@@ -66536,6 +67478,58 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-2100bc-1550bc::g5",
       "xlink_b": "mamluks-1250-1517::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Eastern Desert put to work",
+        "decade": "260s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Nile and the desert roads",
+        "decade": "30s BC–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::w3",
+      "xlink_b": "egypt-332bc-30bc::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Eastern Desert put to work",
+        "decade": "260s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::w3",
+      "xlink_b": "egypt-6000bc-3000bc::th2"
     },
     {
       "confidence": "low",
@@ -72516,6 +73510,344 @@
       "date_flag": "31yr gap",
       "xlink_a": "egypt-1200bc-664bc::c1",
       "xlink_b": "egypt-1550bc-1200bc::c8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k3",
+        "cat": "power",
+        "label": "Germanicus and the rule that the family stays out",
+        "decade": "10s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k10",
+        "cat": "power",
+        "label": "The later Ptolemies — dynasty at war with itself",
+        "decade": "80s BC–110s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::k3",
+      "xlink_b": "egypt-332bc-30bc::k10"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k3",
+        "cat": "power",
+        "label": "Germanicus and the rule that the family stays out",
+        "decade": "10s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The dynasty at war with itself",
+        "decade": "80s BC–170s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::k3",
+      "xlink_b": "egypt-332bc-30bc::c8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The Alexandrian pogrom of 38 AD",
+        "decade": "30s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "Alexandrian poetry",
+        "decade": "240s BC–280s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::c3",
+      "xlink_b": "egypt-332bc-30bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The Alexandrian pogrom of 38 AD",
+        "decade": "30s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "g2",
+        "cat": "technology",
+        "label": "Alexandrian mechanics and pneumatics",
+        "decade": "200s BC–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::c3",
+      "xlink_b": "egypt-332bc-30bc::g2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Artists of Dionysus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "x6",
+        "cat": "expression",
+        "label": "The games, the pantomime and the water-organ",
+        "decade": "30s BC–300s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "x6",
+        "cat": "expression",
+        "label": "The theatre, the guild and the water-organ",
+        "decade": "30s BC–280s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::x6",
+      "xlink_b": "egypt-332bc-30bc::x6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Museum"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The Museum after its golden age",
+        "decade": "30s BC–300s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "t1",
+        "cat": "thought",
+        "label": "The Museum and the Library",
+        "decade": "290s BC"
+      },
+      "date_flag": "265yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-30bc-300ad::t4",
+      "xlink_b": "egypt-332bc-30bc::t1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Museum"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "t4",
+        "cat": "thought",
+        "label": "The Museum after its golden age",
+        "decade": "30s BC–300s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "l3",
+        "cat": "lives",
+        "label": "The scholars of the Museum",
+        "decade": "200s BC–280s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::t4",
+      "xlink_b": "egypt-332bc-30bc::l3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The Alexandrian roots of Neoplatonism",
+        "decade": "190s–240s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "Alexandrian poetry",
+        "decade": "240s BC–280s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::t5",
+      "xlink_b": "egypt-332bc-30bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The Alexandrian roots of Neoplatonism",
+        "decade": "190s–240s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "g2",
+        "cat": "technology",
+        "label": "Alexandrian mechanics and pneumatics",
+        "decade": "200s BC–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::t5",
+      "xlink_b": "egypt-332bc-30bc::g2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "g4",
+        "cat": "technology",
+        "label": "Alexandrian instruments and machines in use",
+        "decade": "30s BC–200s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "Alexandrian poetry",
+        "decade": "240s BC–280s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::g4",
+      "xlink_b": "egypt-332bc-30bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "g4",
+        "cat": "technology",
+        "label": "Alexandrian instruments and machines in use",
+        "decade": "30s BC–200s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "g2",
+        "cat": "technology",
+        "label": "Alexandrian mechanics and pneumatics",
+        "decade": "200s BC–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::g4",
+      "xlink_b": "egypt-332bc-30bc::g2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "g5",
+        "cat": "technology",
+        "label": "Alexandrian glass and luxury craft",
+        "decade": "30s BC–200s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "Alexandrian poetry",
+        "decade": "240s BC–280s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::g5",
+      "xlink_b": "egypt-332bc-30bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "g5",
+        "cat": "technology",
+        "label": "Alexandrian glass and luxury craft",
+        "decade": "30s BC–200s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "g2",
+        "cat": "technology",
+        "label": "Alexandrian mechanics and pneumatics",
+        "decade": "200s BC–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::g5",
+      "xlink_b": "egypt-332bc-30bc::g2"
     },
     {
       "confidence": "low",
@@ -97793,6 +99125,58 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Arabian Sea",
+        "Indian Ocean"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "g1",
+        "cat": "technology",
+        "label": "The monsoon sailing route",
+        "decade": "30s BC–200s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "xc1",
+        "cat": "exchange",
+        "label": "The Indian Ocean route opens",
+        "decade": "110s BC–120s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::g1",
+      "xlink_b": "egypt-332bc-30bc::xc1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Indian Ocean",
+        "Periplus of the Erythraean Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "g1",
+        "cat": "technology",
+        "label": "The monsoon sailing route",
+        "decade": "30s BC–200s"
+      },
+      "b": {
+        "folio": "south-arabia-300bc-628",
+        "id": "t1",
+        "cat": "thought",
+        "label": "The Periplus of the Erythraean Sea",
+        "decade": "40s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::g1",
+      "xlink_b": "south-arabia-300bc-628::t1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Indian Ocean",
         "Ming China"
       ],
@@ -107231,6 +108615,58 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Colossi of Memnon",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "x6",
+        "cat": "expression",
+        "label": "The colossus and the multiplied king",
+        "decade": "1250s BC–1360s"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k3",
+        "cat": "power",
+        "label": "Germanicus and the rule that the family stays out",
+        "decade": "10s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::x6",
+      "xlink_b": "egypt-30bc-300ad::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Colossi of Memnon",
+        "Thebes"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "l6",
+        "cat": "lives",
+        "label": "Amenhotep son of Hapu, the commoner made a god",
+        "decade": "1360s BC"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k3",
+        "cat": "power",
+        "label": "Germanicus and the rule that the family stays out",
+        "decade": "10s"
+      },
+      "date_flag": "1379yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1550bc-1200bc::l6",
+      "xlink_b": "egypt-30bc-300ad::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Mentuhotep II",
         "Thebes"
       ],
@@ -107321,6 +108757,32 @@
         "decade": "2050s BC–2150s"
       },
       "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Thebaid tax revolt",
+        "decade": "20s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c6",
+      "xlink_b": "egypt-30bc-300ad::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Thebes",
+        "Upper Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Herakleopolis versus Thebes — the First Intermediate civil war",
+        "decade": "2050s BC–2150s"
+      },
+      "b": {
         "folio": "egypt-332bc-30bc",
         "id": "k14",
         "cat": "power",
@@ -107355,6 +108817,58 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "egypt-3000bc-2100bc::c6",
+      "xlink_b": "egypt-332bc-30bc::c5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Thebes",
+        "Upper Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Thebaid tax revolt",
+        "decade": "20s BC"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k14",
+        "cat": "power",
+        "label": "Horwennefer and Ankhwennefer — the rebel kings of Thebes",
+        "decade": "180s BC–200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::c2",
+      "xlink_b": "egypt-332bc-30bc::k14"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Thebes",
+        "Upper Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-30bc-300ad",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Thebaid tax revolt",
+        "decade": "20s BC"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Great Revolt of the Thebaid",
+        "decade": "180s BC–200s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-30bc-300ad::c2",
       "xlink_b": "egypt-332bc-30bc::c5"
     },
     {
@@ -108089,6 +109603,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Faiyum",
+        "Hawara"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "k8",
+        "cat": "power",
+        "label": "Amenemhat III — the Faiyum at its height",
+        "decade": "1780s BC–1830s"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "x1",
+        "cat": "expression",
+        "label": "The Faiyum mummy portraits",
+        "decade": "250s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::k8",
+      "xlink_b": "egypt-30bc-300ad::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Hierakonpolis",
         "Narmer Palette"
       ],
@@ -108136,6 +109676,370 @@
       "date_flag": "100yr gap — verify same entity, not just shared theme",
       "xlink_a": "egypt-3000bc-2100bc::k1",
       "xlink_b": "egypt-6000bc-3000bc::x4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Augustus",
+        "Emerita Augusta Mérida"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hispania-27bc-409ad",
+        "id": "k1",
+        "cat": "power",
+        "label": "Augustus reorganises Hispania — three provinces",
+        "decade": "20s BC"
+      },
+      "b": {
+        "folio": "hispania-300bc-27bc",
+        "id": "k3",
+        "cat": "power",
+        "label": "Caesar and Augustus — Hispania in the Roman civil wars",
+        "decade": "20s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hispania-27bc-409ad::k1",
+      "xlink_b": "hispania-300bc-27bc::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Palmyrene"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "k1",
+        "cat": "power",
+        "label": "Palmyra as autonomous caravan city",
+        "decade": "100s BC–210s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Palmyrene merchants at Spasinou Charax",
+        "decade": "160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::k1",
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Palmyrene"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "o2",
+        "cat": "order",
+        "label": "Palmyrene city constitution — the boule and strategos",
+        "decade": "100s–260s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Palmyrene merchants at Spasinou Charax",
+        "decade": "160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::o2",
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Palmyrene"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "a1",
+        "cat": "expression",
+        "label": "Palmyrene tower tombs — the valley of the dead",
+        "decade": "100s BC–200s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Palmyrene merchants at Spasinou Charax",
+        "decade": "160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::a1",
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Palmyrene"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "a2",
+        "cat": "expression",
+        "label": "Palmyrene funerary busts — the portrait tradition",
+        "decade": "100s–270s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Palmyrene merchants at Spasinou Charax",
+        "decade": "160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::a2",
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Palmyrene"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "a5",
+        "cat": "expression",
+        "label": "Palmyrene banquet reliefs — music at the symposium",
+        "decade": "100s–250s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Palmyrene merchants at Spasinou Charax",
+        "decade": "160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::a5",
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Palmyrene"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Palmyrene trade network — Rome to Parthia",
+        "decade": "100s BC–260s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Palmyrene merchants at Spasinou Charax",
+        "decade": "160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::ex1",
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Palmyrene"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "ex2",
+        "cat": "exchange",
+        "label": "Palmyrene art — Greek, Parthian and Arabian fusion",
+        "decade": "100s BC–270s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Palmyrene merchants at Spasinou Charax",
+        "decade": "160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::ex2",
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Palmyra",
+        "Palmyrene"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "palmyrene-100bc-273ce",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "Palmyrene women in inscription evidence",
+        "decade": "100s–270s"
+      },
+      "b": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Palmyrene merchants at Spasinou Charax",
+        "decade": "160s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "palmyrene-100bc-273ce::lv2",
+      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Diocletian",
+        "Empire-wide"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "rome-200-300",
+        "id": "o5",
+        "cat": "order",
+        "label": "Diocletian's currency reform",
+        "decade": "290s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "o7",
+        "cat": "order",
+        "label": "Diocletian's army reforms (legacy)",
+        "decade": "300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "rome-200-300::o5",
+      "xlink_b": "rome-300-400::o7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Diocletian",
+        "Empire-wide"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "rome-200-300",
+        "id": "o5",
+        "cat": "order",
+        "label": "Diocletian's currency reform",
+        "decade": "290s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "s2",
+        "cat": "economy",
+        "label": "Diocletian's tax reform (iugatio-capitatio)",
+        "decade": "290s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "rome-200-300::o5",
+      "xlink_b": "rome-300-400::s2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Diocletian",
+        "Empire-wide"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "rome-200-300",
+        "id": "o6",
+        "cat": "order",
+        "label": "Diocletian's provincial reorganisation",
+        "decade": "290s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "o7",
+        "cat": "order",
+        "label": "Diocletian's army reforms (legacy)",
+        "decade": "300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "rome-200-300::o6",
+      "xlink_b": "rome-300-400::o7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Diocletian",
+        "Empire-wide"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "rome-200-300",
+        "id": "o6",
+        "cat": "order",
+        "label": "Diocletian's provincial reorganisation",
+        "decade": "290s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "s2",
+        "cat": "economy",
+        "label": "Diocletian's tax reform (iugatio-capitatio)",
+        "decade": "290s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "rome-200-300::o6",
+      "xlink_b": "rome-300-400::s2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Diocletian",
+        "Split"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "rome-200-300",
+        "id": "a6",
+        "cat": "expression",
+        "label": "Palace of Diocletian, Split",
+        "decade": "290s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "p1",
+        "cat": "power",
+        "label": "Diocletian (abdication)",
+        "decade": "300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "rome-200-300::a6",
+      "xlink_b": "rome-300-400::p1"
     },
     {
       "confidence": "low",
@@ -113809,32 +115713,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Augustus",
-        "Emerita Augusta Mérida"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hispania-27bc-409ad",
-        "id": "k1",
-        "cat": "power",
-        "label": "Augustus reorganises Hispania — three provinces",
-        "decade": "20s BC"
-      },
-      "b": {
-        "folio": "hispania-300bc-27bc",
-        "id": "k3",
-        "cat": "power",
-        "label": "Caesar and Augustus — Hispania in the Roman civil wars",
-        "decade": "20s BC"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "hispania-27bc-409ad::k1",
-      "xlink_b": "hispania-300bc-27bc::k3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Suebi",
         "Vandals"
       ],
@@ -114200,32 +116078,6 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Palmyra",
-        "Palmyrene"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "k1",
-        "cat": "power",
-        "label": "Palmyra as autonomous caravan city",
-        "decade": "100s BC–210s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-240ad",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Palmyrene merchants at Spasinou Charax",
-        "decade": "160s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::k1",
-      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
         "Shapur I"
       ],
       "sharedCount": 2,
@@ -114246,188 +116098,6 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::k3",
       "xlink_b": "rome-200-300::ex1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Palmyrene"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "o2",
-        "cat": "order",
-        "label": "Palmyrene city constitution — the boule and strategos",
-        "decade": "100s–260s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-240ad",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Palmyrene merchants at Spasinou Charax",
-        "decade": "160s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::o2",
-      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Palmyrene"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "a1",
-        "cat": "expression",
-        "label": "Palmyrene tower tombs — the valley of the dead",
-        "decade": "100s BC–200s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-240ad",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Palmyrene merchants at Spasinou Charax",
-        "decade": "160s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::a1",
-      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Palmyrene"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "a2",
-        "cat": "expression",
-        "label": "Palmyrene funerary busts — the portrait tradition",
-        "decade": "100s–270s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-240ad",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Palmyrene merchants at Spasinou Charax",
-        "decade": "160s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::a2",
-      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Palmyrene"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "a5",
-        "cat": "expression",
-        "label": "Palmyrene banquet reliefs — music at the symposium",
-        "decade": "100s–250s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-240ad",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Palmyrene merchants at Spasinou Charax",
-        "decade": "160s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::a5",
-      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Palmyrene"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "ex1",
-        "cat": "exchange",
-        "label": "Palmyrene trade network — Rome to Parthia",
-        "decade": "100s BC–260s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-240ad",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Palmyrene merchants at Spasinou Charax",
-        "decade": "160s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::ex1",
-      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Palmyrene"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "ex2",
-        "cat": "exchange",
-        "label": "Palmyrene art — Greek, Parthian and Arabian fusion",
-        "decade": "100s BC–270s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-240ad",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Palmyrene merchants at Spasinou Charax",
-        "decade": "160s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::ex2",
-      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Palmyra",
-        "Palmyrene"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "palmyrene-100bc-273ce",
-        "id": "lv2",
-        "cat": "lives",
-        "label": "Palmyrene women in inscription evidence",
-        "decade": "100s–270s"
-      },
-      "b": {
-        "folio": "tylos-mleiha-300bc-240ad",
-        "id": "x2",
-        "cat": "exchange",
-        "label": "Palmyrene merchants at Spasinou Charax",
-        "decade": "160s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "palmyrene-100bc-273ce::lv2",
-      "xlink_b": "tylos-mleiha-300bc-240ad::x2"
     },
     {
       "confidence": "low",
@@ -114870,136 +116540,6 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::c3",
       "xlink_b": "rome-200-300::c8"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Diocletian",
-        "Split"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "a6",
-        "cat": "expression",
-        "label": "Palace of Diocletian, Split",
-        "decade": "290s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "p1",
-        "cat": "power",
-        "label": "Diocletian (abdication)",
-        "decade": "300s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "rome-200-300::a6",
-      "xlink_b": "rome-300-400::p1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Diocletian",
-        "Empire-wide"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "o5",
-        "cat": "order",
-        "label": "Diocletian's currency reform",
-        "decade": "290s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "o7",
-        "cat": "order",
-        "label": "Diocletian's army reforms (legacy)",
-        "decade": "300s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "rome-200-300::o5",
-      "xlink_b": "rome-300-400::o7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Diocletian",
-        "Empire-wide"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "o5",
-        "cat": "order",
-        "label": "Diocletian's currency reform",
-        "decade": "290s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "s2",
-        "cat": "economy",
-        "label": "Diocletian's tax reform (iugatio-capitatio)",
-        "decade": "290s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "rome-200-300::o5",
-      "xlink_b": "rome-300-400::s2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Diocletian",
-        "Empire-wide"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "o6",
-        "cat": "order",
-        "label": "Diocletian's provincial reorganisation",
-        "decade": "290s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "o7",
-        "cat": "order",
-        "label": "Diocletian's army reforms (legacy)",
-        "decade": "300s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "rome-200-300::o6",
-      "xlink_b": "rome-300-400::o7"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Diocletian",
-        "Empire-wide"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-200-300",
-        "id": "o6",
-        "cat": "order",
-        "label": "Diocletian's provincial reorganisation",
-        "decade": "290s"
-      },
-      "b": {
-        "folio": "rome-300-400",
-        "id": "s2",
-        "cat": "economy",
-        "label": "Diocletian's tax reform (iugatio-capitatio)",
-        "decade": "290s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "rome-200-300::o6",
-      "xlink_b": "rome-300-400::s2"
     },
     {
       "confidence": "low",
