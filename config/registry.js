@@ -47,6 +47,7 @@ const MODULES = [
   { id:"caliphate-632-750",     file:"modules/caliphate-632-750.json",     label:"The Caliphate 632–750",       sub:"Conquest, the Fitnas and the Umayyad State",  region:"Near East", period:"Medieval" },
   { id:"caliphate-750-945",     file:"modules/caliphate-750-945.json",     label:"The Abbasid Caliphate 750–945", sub:"Baghdad, the Translation Movement and the House of Islam", region:"Near East", period:"Medieval" },
   { id:"caliphate-945-1258",    file:"modules/caliphate-945-1258.json",    label:"The Abbasid Caliphate 945–1258", sub:"The Age of Sultans, the Sunni Revival and the Mongol Sack", region:"Near East", period:"Medieval" },
+  { id:"egypt-641-969",         file:"modules/egypt-641-969.json",         label:"Early Islamic Egypt 641–969", sub:"Fustat, the Caliphal Province, and the Dynasties of Ibn Tulun and the Ikhshid", region:"Egypt", period:"Medieval" },
   { id:"fatimids-909-1171",     file:"modules/fatimids-909-1171.json",     label:"The Fatimid Caliphate 909–1171", sub:"The Ismaili Counter-Caliphate, Cairo and the Red Sea World", region:"Egypt", period:"Medieval" },
   { id:"ayyubids-1171-1250",    file:"modules/ayyubids-1171-1250.json",    label:"The Ayyubid Sultanate 1171–1250", sub:"Saladin's Confederation, the Sunnisation of Egypt and the Crusades", region:"Egypt", period:"Medieval" },
   { id:"mamluks-1250-1517",     file:"modules/mamluks-1250-1517.json",     label:"The Mamluk Sultanate 1250–1517", sub:"The Slave-Soldier Empire, the Mongol Wall and the Cairo of the Sultans", region:"Egypt", period:"Medieval" },
