@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-07",
-    "figure_matches": 780,
-    "figure_matches_rejected_dynasty_mismatch": 924,
-    "figure_matches_rejected_date_implausible": 1101,
-    "dynasty_alignment_proposals_count": 71,
-    "keyword_matches": 3788,
-    "keyword_matches_rejected_geo_only": 8734,
-    "high_confidence": 807,
+    "figure_matches": 805,
+    "figure_matches_rejected_dynasty_mismatch": 938,
+    "figure_matches_rejected_date_implausible": 1126,
+    "dynasty_alignment_proposals_count": 73,
+    "keyword_matches": 3826,
+    "keyword_matches_rejected_geo_only": 8792,
+    "high_confidence": 832,
     "medium_confidence": 316,
-    "low_confidence": 3445
+    "low_confidence": 3483
   },
   "figure_name_matches": [
     {
@@ -2137,6 +2137,28 @@
         "decade": "670s"
       },
       "match": {
+        "folio": "egypt-300-641",
+        "id": "e1",
+        "cat": "economy",
+        "label": "The grain of Constantinople",
+        "decade": "330s–640s"
+      },
+      "xlink_a": "caliphate-632-750::c8",
+      "xlink_b": "egypt-300-641::e1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantinople",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The first siege of Constantinople",
+        "dynasty": "Umayyad",
+        "decade": "670s"
+      },
+      "match": {
         "folio": "sassanid-484-651",
         "id": "c4",
         "cat": "conflict",
@@ -2145,6 +2167,28 @@
       },
       "xlink_a": "caliphate-632-750::c8",
       "xlink_b": "sassanid-484-651::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantinople",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "c9",
+        "cat": "conflict",
+        "label": "The second siege of Constantinople",
+        "dynasty": "Umayyad",
+        "decade": "710s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "e1",
+        "cat": "economy",
+        "label": "The grain of Constantinople",
+        "decade": "330s–640s"
+      },
+      "xlink_a": "caliphate-632-750::c9",
+      "xlink_b": "egypt-300-641::e1"
     },
     {
       "confidence": "high",
@@ -2445,6 +2489,28 @@
         "decade": "640s–750s"
       },
       "match": {
+        "folio": "egypt-300-641",
+        "id": "e6",
+        "cat": "economy",
+        "label": "Papyrus, linen and glass",
+        "decade": "300s–700s"
+      },
+      "xlink_a": "caliphate-632-750::tc2",
+      "xlink_b": "egypt-300-641::e6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Papyrus",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "Papyrus, the chancery and the 'protocol'",
+        "dynasty": "Umayyad",
+        "decade": "640s–750s"
+      },
+      "match": {
         "folio": "egypt-664bc-332bc",
         "id": "e6",
         "cat": "economy",
@@ -2651,6 +2717,94 @@
       },
       "xlink_a": "caliphate-632-750::tc4",
       "xlink_b": "yemen-628-1517::tc2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "An inherited bureaucracy — Greek, Coptic and Persian officials",
+        "dynasty": "Umayyad",
+        "decade": "640s–700s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "o5",
+        "cat": "order",
+        "label": "Roman codes and Coptic contracts",
+        "decade": "430s–640s"
+      },
+      "xlink_a": "caliphate-632-750::x3",
+      "xlink_b": "egypt-300-641::o5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "An inherited bureaucracy — Greek, Coptic and Persian officials",
+        "dynasty": "Umayyad",
+        "decade": "640s–700s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "x1",
+        "cat": "expression",
+        "label": "Literary Coptic and the monastic library",
+        "decade": "350s–640s"
+      },
+      "xlink_a": "caliphate-632-750::x3",
+      "xlink_b": "egypt-300-641::x1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "An inherited bureaucracy — Greek, Coptic and Persian officials",
+        "dynasty": "Umayyad",
+        "decade": "640s–700s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "x2",
+        "cat": "expression",
+        "label": "Coptic art and the textiles",
+        "decade": "300s–640s"
+      },
+      "xlink_a": "caliphate-632-750::x3",
+      "xlink_b": "egypt-300-641::x2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Coptic",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "An inherited bureaucracy — Greek, Coptic and Persian officials",
+        "dynasty": "Umayyad",
+        "decade": "640s–700s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "x6",
+        "cat": "expression",
+        "label": "Coptic chant and the end of the theatre",
+        "decade": "350s–640s"
+      },
+      "xlink_a": "caliphate-632-750::x3",
+      "xlink_b": "egypt-300-641::x6"
     },
     {
       "confidence": "high",
@@ -4631,6 +4785,402 @@
       },
       "xlink_a": "eastern-arabia-750-1200::w2",
       "xlink_b": "fatimids-909-1171::b6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantine",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "dynasty": "Constantinian",
+        "decade": "300s–330s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "p4",
+        "cat": "power",
+        "label": "Constantine I ('the Great')",
+        "decade": "300s–330s"
+      },
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "rome-300-400::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantine",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "dynasty": "Constantinian",
+        "decade": "300s–330s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "o4",
+        "cat": "order",
+        "label": "Constantine's Sunday Law",
+        "decade": "320s"
+      },
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "rome-300-400::o4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantine",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "dynasty": "Constantinian",
+        "decade": "300s–330s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "a1",
+        "cat": "expression",
+        "label": "Arch of Constantine, Rome",
+        "decade": "310s"
+      },
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "rome-300-400::a1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantine",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "dynasty": "Constantinian",
+        "decade": "300s–330s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "a4",
+        "cat": "expression",
+        "label": "Colossal head of Constantine, Rome",
+        "decade": "310s"
+      },
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "rome-300-400::a4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantine",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "dynasty": "Constantinian",
+        "decade": "300s–330s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Constantine's diplomatic correspondence with Shapur II",
+        "decade": "320s"
+      },
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "rome-300-400::ex1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Julian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k3",
+        "cat": "power",
+        "label": "Julian and the pagan last stand",
+        "dynasty": "Constantinian",
+        "decade": "360s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "p7",
+        "cat": "power",
+        "label": "Julian ('the Apostate')",
+        "decade": "360s"
+      },
+      "xlink_a": "egypt-300-641::k3",
+      "xlink_b": "rome-300-400::p7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Julian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k3",
+        "cat": "power",
+        "label": "Julian and the pagan last stand",
+        "dynasty": "Constantinian",
+        "decade": "360s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Julian's Persian campaign",
+        "decade": "360s"
+      },
+      "xlink_a": "egypt-300-641::k3",
+      "xlink_b": "rome-300-400::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Julian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k3",
+        "cat": "power",
+        "label": "Julian and the pagan last stand",
+        "dynasty": "Constantinian",
+        "decade": "360s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "r4",
+        "cat": "belief",
+        "label": "Julian's pagan restoration",
+        "decade": "360s"
+      },
+      "xlink_a": "egypt-300-641::k3",
+      "xlink_b": "rome-300-400::r4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Julian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k3",
+        "cat": "power",
+        "label": "Julian and the pagan last stand",
+        "dynasty": "Constantinian",
+        "decade": "360s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "s4",
+        "cat": "economy",
+        "label": "Disruption of Eastern trade (Julian's war)",
+        "decade": "360s"
+      },
+      "xlink_a": "egypt-300-641::k3",
+      "xlink_b": "rome-300-400::s4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Julian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k3",
+        "cat": "power",
+        "label": "Julian and the pagan last stand",
+        "dynasty": "Constantinian",
+        "decade": "360s"
+      },
+      "match": {
+        "folio": "sassanid-224-484",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Defeat of Julian's invasion — death of Julian",
+        "decade": "360s"
+      },
+      "xlink_a": "egypt-300-641::k3",
+      "xlink_b": "sassanid-224-484::c5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Theodosius I",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "cat": "power",
+        "label": "Theodosius I outlaws the old gods",
+        "dynasty": "Theodosian",
+        "decade": "370s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "p12",
+        "cat": "power",
+        "label": "Theodosius I (East, then sole)",
+        "decade": "370s"
+      },
+      "xlink_a": "egypt-300-641::k4",
+      "xlink_b": "rome-300-400::p12"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Theodosius I",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "cat": "power",
+        "label": "Theodosius I outlaws the old gods",
+        "dynasty": "Theodosian",
+        "decade": "370s"
+      },
+      "match": {
+        "folio": "rome-400-500",
+        "id": "a1",
+        "cat": "expression",
+        "label": "Missorium of Theodosius I",
+        "decade": "380s"
+      },
+      "xlink_a": "egypt-300-641::k4",
+      "xlink_b": "rome-400-500::a1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Justinian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k6",
+        "cat": "power",
+        "label": "Justinian and Egypt",
+        "dynasty": "Justinianic",
+        "decade": "520s–560s"
+      },
+      "match": {
+        "folio": "ghassanid-420-638",
+        "id": "o1",
+        "cat": "order",
+        "label": "Justinian elevates al-Harith to 'Basileus' — unprecedented title",
+        "decade": "520s"
+      },
+      "xlink_a": "egypt-300-641::k6",
+      "xlink_b": "ghassanid-420-638::o1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Justinian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k6",
+        "cat": "power",
+        "label": "Justinian and Egypt",
+        "dynasty": "Justinianic",
+        "decade": "520s–560s"
+      },
+      "match": {
+        "folio": "rome-400-500",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "Justinian's Novel 77 — theology meets criminal law",
+        "decade": "530s"
+      },
+      "xlink_a": "egypt-300-641::k6",
+      "xlink_b": "rome-400-500::lv1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Justinian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k6",
+        "cat": "power",
+        "label": "Justinian and Egypt",
+        "dynasty": "Justinianic",
+        "decade": "520s–560s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "o3",
+        "cat": "order",
+        "label": "Perpetual Peace of 532 — Justinian pays Khosrow",
+        "decade": "530s"
+      },
+      "xlink_a": "egypt-300-641::k6",
+      "xlink_b": "sassanid-484-651::o3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Heraclius",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k7",
+        "cat": "power",
+        "label": "Heraclius — Egypt lost and lost again",
+        "dynasty": "Heraclian",
+        "decade": "610s–640s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Battle of Nineveh — Heraclius reverses the war",
+        "decade": "620s"
+      },
+      "xlink_a": "egypt-300-641::k7",
+      "xlink_b": "sassanid-484-651::c5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Athanasius",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k8",
+        "cat": "power",
+        "label": "Athanasius — bishop against the world",
+        "dynasty": "Patriarchs of Alexandria",
+        "decade": "320s–370s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "r3",
+        "cat": "belief",
+        "label": "Athanasius vs. Arianism (five exiles)",
+        "decade": "320s–370s"
+      },
+      "xlink_a": "egypt-300-641::k8",
+      "xlink_b": "rome-300-400::r3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Athanasius",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k8",
+        "cat": "power",
+        "label": "Athanasius — bishop against the world",
+        "dynasty": "Patriarchs of Alexandria",
+        "decade": "320s–370s"
+      },
+      "match": {
+        "folio": "rome-300-400",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Athanasius: De Incarnatione",
+        "decade": "310s"
+      },
+      "xlink_a": "egypt-300-641::k8",
+      "xlink_b": "rome-300-400::t2"
     },
     {
       "confidence": "high",
@@ -17294,6 +17844,23 @@
       }
     },
     {
+      "name": "Marcian",
+      "entry_a": {
+        "folio": "egypt-300-641",
+        "id": "k5",
+        "label": "Marcian, Chalcedon and the killing of Proterius",
+        "dynasty": "—",
+        "decade": "450s"
+      },
+      "entry_b": {
+        "folio": "rome-400-500",
+        "id": "e3",
+        "label": "Marcian",
+        "dynasty": "Theodosian",
+        "decade": "450s"
+      }
+    },
+    {
       "name": "Diocletian",
       "entry_a": {
         "folio": "egypt-30bc-300ad",
@@ -17699,6 +18266,23 @@
         "label": "Cairo, the greatest city west of China",
         "dynasty": "Bahri Mamluk",
         "decade": "1300s–1340s"
+      }
+    },
+    {
+      "name": "Theodosius",
+      "entry_a": {
+        "folio": "hispania-27bc-409ad",
+        "id": "k3",
+        "label": "Theodosius — the last great emperor, born in Hispania",
+        "dynasty": "Roman Imperial",
+        "decade": "370s"
+      },
+      "entry_b": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "label": "Theodosius I outlaws the old gods",
+        "dynasty": "Theodosian",
+        "decade": "370s"
       }
     },
     {
@@ -47515,6 +48099,84 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The conquest of Egypt",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "egypt-300-641",
+        "id": "k7",
+        "cat": "power",
+        "label": "Heraclius — Egypt lost and lost again",
+        "decade": "610s–640s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::c4",
+      "xlink_b": "egypt-300-641::k7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The conquest of Egypt",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "egypt-300-641",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Persian occupation of Egypt",
+        "decade": "610s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "caliphate-632-750::c4",
+      "xlink_b": "egypt-300-641::k14"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The conquest of Egypt",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "egypt-300-641",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "The Persian conquest of Egypt",
+        "decade": "610s"
+      },
+      "date_flag": "20yr gap",
+      "xlink_a": "caliphate-632-750::c4",
+      "xlink_b": "egypt-300-641::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Egypt",
         "Iraq"
       ],
@@ -48368,6 +49030,110 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-2100bc-1550bc::k1",
       "xlink_b": "egypt-3000bc-2100bc::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k2",
+        "cat": "power",
+        "label": "The Augustal Prefecture and the diocese of Egypt",
+        "decade": "300s–530s"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k14",
+        "cat": "power",
+        "label": "The prefecture of Egypt",
+        "decade": "30s BC–300s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k2",
+      "xlink_b": "egypt-30bc-300ad::k14"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k2",
+        "cat": "power",
+        "label": "The Augustal Prefecture and the diocese of Egypt",
+        "decade": "300s–530s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Alexander the Great takes Egypt",
+        "decade": "320s BC–330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k2",
+      "xlink_b": "egypt-332bc-30bc::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k2",
+        "cat": "power",
+        "label": "The Augustal Prefecture and the diocese of Egypt",
+        "decade": "300s–530s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Athanasius: De Incarnatione",
+        "decade": "310s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k2",
+      "xlink_b": "rome-300-400::t2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Khosrow II"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Persian occupation of Egypt",
+        "decade": "610s"
+      },
+      "b": {
+        "folio": "hejaz-300bc-632",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The letters to the kings",
+        "decade": "620s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k14",
+      "xlink_b": "hejaz-300bc-632::x4"
     },
     {
       "confidence": "low",
@@ -49382,6 +50148,292 @@
       "date_flag": "overlapping",
       "xlink_a": "najd-632-1517::ec3",
       "xlink_b": "nw-arabia-632-1517::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantinian",
+        "Constantinople"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "decade": "300s–330s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "p4",
+        "cat": "power",
+        "label": "Constantine I ('the Great')",
+        "decade": "300s–330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "rome-300-400::p4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantinian",
+        "Constantinople"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "decade": "300s–330s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "p6",
+        "cat": "power",
+        "label": "Constantius II",
+        "decade": "330s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "rome-300-400::p6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantinian",
+        "Constantinople"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "decade": "300s–330s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "p7",
+        "cat": "power",
+        "label": "Julian ('the Apostate')",
+        "decade": "360s"
+      },
+      "date_flag": "24yr gap",
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "rome-300-400::p7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantine",
+        "Constantinople"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "decade": "300s–330s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "ex1",
+        "cat": "exchange",
+        "label": "Constantine's diplomatic correspondence with Shapur II",
+        "decade": "320s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "rome-300-400::ex1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantinople",
+        "Theodosian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "cat": "power",
+        "label": "Theodosius I outlaws the old gods",
+        "decade": "370s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "p12",
+        "cat": "power",
+        "label": "Theodosius I (East, then sole)",
+        "decade": "370s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k4",
+      "xlink_b": "rome-300-400::p12"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantinople",
+        "Theodosian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "cat": "power",
+        "label": "Theodosius I outlaws the old gods",
+        "decade": "370s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "o6",
+        "cat": "order",
+        "label": "Theodosian edicts banning pagan cult",
+        "decade": "390s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k4",
+      "xlink_b": "rome-300-400::o6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantinople",
+        "Theodosian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "cat": "power",
+        "label": "Theodosius I outlaws the old gods",
+        "decade": "370s"
+      },
+      "b": {
+        "folio": "rome-400-500",
+        "id": "e1",
+        "cat": "power",
+        "label": "Arcadius",
+        "decade": "390s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k4",
+      "xlink_b": "rome-400-500::e1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantinople",
+        "Theodosian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "cat": "power",
+        "label": "Theodosius I outlaws the old gods",
+        "decade": "370s"
+      },
+      "b": {
+        "folio": "rome-400-500",
+        "id": "e3",
+        "cat": "power",
+        "label": "Marcian",
+        "decade": "450s"
+      },
+      "date_flag": "55yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-300-641::k4",
+      "xlink_b": "rome-400-500::e3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Constantinople"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "cat": "power",
+        "label": "Theodosius I outlaws the old gods",
+        "decade": "370s"
+      },
+      "b": {
+        "folio": "rome-400-500",
+        "id": "t4",
+        "cat": "technology",
+        "label": "Codex replaces scroll (transition)",
+        "decade": "400s–500s"
+      },
+      "date_flag": "5yr gap",
+      "xlink_a": "egypt-300-641::k4",
+      "xlink_b": "rome-400-500::t4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantinople",
+        "Justinian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k6",
+        "cat": "power",
+        "label": "Justinian and Egypt",
+        "decade": "520s–560s"
+      },
+      "b": {
+        "folio": "ghassanid-420-638",
+        "id": "o1",
+        "cat": "order",
+        "label": "Justinian elevates al-Harith to 'Basileus' — unprecedented title",
+        "decade": "520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k6",
+      "xlink_b": "ghassanid-420-638::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Constantinople",
+        "Justinian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k6",
+        "cat": "power",
+        "label": "Justinian and Egypt",
+        "decade": "520s–560s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "o3",
+        "cat": "order",
+        "label": "Perpetual Peace of 532 — Justinian pays Khosrow",
+        "decade": "530s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k6",
+      "xlink_b": "sassanid-484-651::o3"
     },
     {
       "confidence": "low",
@@ -67235,6 +68287,32 @@
         "decade": "500s–620s"
       },
       "b": {
+        "folio": "egypt-300-641",
+        "id": "t4",
+        "cat": "thought",
+        "label": "Cosmas and the Christian world-picture",
+        "decade": "540s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "beth-qatraye-240-632::w1",
+      "xlink_b": "egypt-300-641::t4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Indian Ocean",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "beth-qatraye-240-632",
+        "id": "w1",
+        "cat": "world",
+        "label": "Byzantium and Persia divide the Indian Ocean trade",
+        "decade": "500s–620s"
+      },
+      "b": {
         "folio": "nw-arabia-106-632",
         "id": "ec4",
         "cat": "economy",
@@ -67391,6 +68469,32 @@
         "decade": "1800s BC–1950s"
       },
       "b": {
+        "folio": "egypt-300-641",
+        "id": "l1",
+        "cat": "lives",
+        "label": "Antony of the Desert",
+        "decade": "250s–350s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-2100bc-1550bc::g5",
+      "xlink_b": "egypt-300-641::l1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "g5",
+        "cat": "technology",
+        "label": "Prefabricated seagoing ships at Mersa Gawasis",
+        "decade": "1800s BC–1950s"
+      },
+      "b": {
         "folio": "egypt-30bc-300ad",
         "id": "w3",
         "cat": "world",
@@ -67478,6 +68582,136 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-2100bc-1550bc::g5",
       "xlink_b": "mamluks-1250-1517::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Indian Ocean",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "t4",
+        "cat": "thought",
+        "label": "Cosmas and the Christian world-picture",
+        "decade": "540s"
+      },
+      "b": {
+        "folio": "nw-arabia-106-632",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "Aila and the Red Sea trade",
+        "decade": "300s–630s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::t4",
+      "xlink_b": "nw-arabia-106-632::ec4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Myos Hormos",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "xc1",
+        "cat": "exchange",
+        "label": "The Red Sea trade in the Christian era",
+        "decade": "300s–620s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Nile and the desert roads",
+        "decade": "30s BC–270s"
+      },
+      "date_flag": "30yr gap",
+      "xlink_a": "egypt-300-641::xc1",
+      "xlink_b": "egypt-332bc-30bc::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "l1",
+        "cat": "lives",
+        "label": "Antony of the Desert",
+        "decade": "250s–350s"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "w3",
+        "cat": "world",
+        "label": "The Eastern Desert put to work",
+        "decade": "260s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::l1",
+      "xlink_b": "egypt-30bc-300ad::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "l1",
+        "cat": "lives",
+        "label": "Antony of the Desert",
+        "decade": "250s–350s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Nile and the desert roads",
+        "decade": "30s BC–270s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::l1",
+      "xlink_b": "egypt-332bc-30bc::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Eastern Desert",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "l1",
+        "cat": "lives",
+        "label": "Antony of the Desert",
+        "decade": "250s–350s"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "th2",
+        "cat": "thought",
+        "label": "Wadi Hammamat rock art — mapping the desert route to the Red Sea",
+        "decade": "3200s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::l1",
+      "xlink_b": "egypt-6000bc-3000bc::th2"
     },
     {
       "confidence": "low",
@@ -70260,6 +71494,58 @@
       "date_flag": "316yr gap — verify same entity, not just shared theme",
       "xlink_a": "ayyubids-1171-1250::o1",
       "xlink_b": "caliphate-750-945::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fustat",
+        "Rashidun"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "o1",
+        "cat": "order",
+        "label": "The diwan and the garrison cities",
+        "decade": "630s"
+      },
+      "b": {
+        "folio": "egypt-300-641",
+        "id": "k16",
+        "cat": "power",
+        "label": "'Amr ibn al-'As and the founding of Fustat",
+        "decade": "640s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::o1",
+      "xlink_b": "egypt-300-641::k16"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Fustat",
+        "Rashidun"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Uthmanic recension of the Quran",
+        "decade": "650s"
+      },
+      "b": {
+        "folio": "egypt-300-641",
+        "id": "k16",
+        "cat": "power",
+        "label": "'Amr ibn al-'As and the founding of Fustat",
+        "decade": "640s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::b1",
+      "xlink_b": "egypt-300-641::k16"
     },
     {
       "confidence": "low",
@@ -73510,6 +74796,214 @@
       "date_flag": "31yr gap",
       "xlink_a": "egypt-1200bc-664bc::c1",
       "xlink_b": "egypt-1550bc-1200bc::c8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Nicene Christianity"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "cat": "power",
+        "label": "Theodosius I outlaws the old gods",
+        "decade": "370s"
+      },
+      "b": {
+        "folio": "rome-300-400",
+        "id": "r3",
+        "cat": "belief",
+        "label": "Athanasius vs. Arianism (five exiles)",
+        "decade": "320s–370s"
+      },
+      "date_flag": "6yr gap",
+      "xlink_a": "egypt-300-641::k4",
+      "xlink_b": "rome-300-400::r3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Coptic Church"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k13",
+        "cat": "power",
+        "label": "Benjamin I — the Coptic Church survives the conquest",
+        "decade": "620s–660s"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "b6",
+        "cat": "belief",
+        "label": "The persecutions and the Era of the Martyrs",
+        "decade": "200s–300s"
+      },
+      "date_flag": "321yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-300-641::k13",
+      "xlink_b": "egypt-30bc-300ad::b6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The Alexandrian computus and the date of Easter",
+        "decade": "320s–640s"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The Alexandrian pogrom of 38 AD",
+        "decade": "30s"
+      },
+      "date_flag": "282yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-300-641::t5",
+      "xlink_b": "egypt-30bc-300ad::c3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The Alexandrian computus and the date of Easter",
+        "decade": "320s–640s"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The Alexandrian roots of Neoplatonism",
+        "decade": "190s–240s"
+      },
+      "date_flag": "75yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-300-641::t5",
+      "xlink_b": "egypt-30bc-300ad::t5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The Alexandrian computus and the date of Easter",
+        "decade": "320s–640s"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "g4",
+        "cat": "technology",
+        "label": "Alexandrian instruments and machines in use",
+        "decade": "30s BC–200s"
+      },
+      "date_flag": "120yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-300-641::t5",
+      "xlink_b": "egypt-30bc-300ad::g4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The Alexandrian computus and the date of Easter",
+        "decade": "320s–640s"
+      },
+      "b": {
+        "folio": "egypt-30bc-300ad",
+        "id": "g5",
+        "cat": "technology",
+        "label": "Alexandrian glass and luxury craft",
+        "decade": "30s BC–200s"
+      },
+      "date_flag": "120yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-300-641::t5",
+      "xlink_b": "egypt-30bc-300ad::g5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The Alexandrian computus and the date of Easter",
+        "decade": "320s–640s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "Alexandrian poetry",
+        "decade": "240s BC–280s"
+      },
+      "date_flag": "40yr gap",
+      "xlink_a": "egypt-300-641::t5",
+      "xlink_b": "egypt-332bc-30bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Alexandria",
+        "Alexandrian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "t5",
+        "cat": "thought",
+        "label": "The Alexandrian computus and the date of Easter",
+        "decade": "320s–640s"
+      },
+      "b": {
+        "folio": "egypt-332bc-30bc",
+        "id": "g2",
+        "cat": "technology",
+        "label": "Alexandrian mechanics and pneumatics",
+        "decade": "200s BC–270s"
+      },
+      "date_flag": "50yr gap",
+      "xlink_a": "egypt-300-641::t5",
+      "xlink_b": "egypt-332bc-30bc::g2"
     },
     {
       "confidence": "low",
@@ -97149,6 +98643,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Khosrow II",
+        "Sasanian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k14",
+        "cat": "power",
+        "label": "The Persian occupation of Egypt",
+        "decade": "610s"
+      },
+      "b": {
+        "folio": "najd-300bc-632",
+        "id": "k3",
+        "cat": "power",
+        "label": "The end of the Lakhmid buffer, 602",
+        "decade": "600s"
+      },
+      "date_flag": "17yr gap",
+      "xlink_a": "egypt-300-641::k14",
+      "xlink_b": "najd-300bc-632::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Ibadi Imamate",
         "Nizwa"
       ],
@@ -109031,6 +110551,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Nile Delta",
+        "Wadi Natrun"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "e6",
+        "cat": "economy",
+        "label": "Papyrus, linen and glass",
+        "decade": "300s–700s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "e6",
+        "cat": "economy",
+        "label": "Grain, papyrus, natron and linen",
+        "decade": "330s BC–600s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::e6",
+      "xlink_b": "egypt-664bc-332bc::e6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Lower Egyptian",
         "Nile Delta"
       ],
@@ -109629,6 +111175,58 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Theodosian",
+        "Theodosius I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-300-641",
+        "id": "k4",
+        "cat": "power",
+        "label": "Theodosius I outlaws the old gods",
+        "decade": "370s"
+      },
+      "b": {
+        "folio": "rome-400-500",
+        "id": "w1",
+        "cat": "power",
+        "label": "Honorius",
+        "decade": "390s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-300-641::k4",
+      "xlink_b": "rome-400-500::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Milan",
+        "Theodosian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "rome-300-400",
+        "id": "o6",
+        "cat": "order",
+        "label": "Theodosian edicts banning pagan cult",
+        "decade": "390s"
+      },
+      "b": {
+        "folio": "rome-400-500",
+        "id": "w1",
+        "cat": "power",
+        "label": "Honorius",
+        "decade": "390s"
+      },
+      "date_flag": "3yr gap",
+      "xlink_a": "rome-300-400::o6",
+      "xlink_b": "rome-400-500::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Hierakonpolis",
         "Narmer Palette"
       ],
@@ -110222,32 +111820,6 @@
       "date_flag": "overlapping",
       "xlink_a": "hormuz-1200-1507::w5",
       "xlink_b": "mamluks-1250-1517::w5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Milan",
-        "Theodosian"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "rome-300-400",
-        "id": "o6",
-        "cat": "order",
-        "label": "Theodosian edicts banning pagan cult",
-        "decade": "390s"
-      },
-      "b": {
-        "folio": "rome-400-500",
-        "id": "w1",
-        "cat": "power",
-        "label": "Honorius",
-        "decade": "390s"
-      },
-      "date_flag": "3yr gap",
-      "xlink_a": "rome-300-400::o6",
-      "xlink_b": "rome-400-500::w1"
     },
     {
       "confidence": "low",

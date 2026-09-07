@@ -31,6 +31,19 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-300-641 (Byzantine and Christian Egypt): hand-off from Roman Egypt ──
+  ['egypt-300-641::k1', 'egypt-30bc-300ad::b6'],    // the persecutions and Era of the Martyrs → Constantine's Christian turn
+  ['egypt-300-641::e1', 'egypt-30bc-300ad::e1'],    // the grain of Rome → the grain of Constantinople
+  ['egypt-300-641::b1', 'egypt-30bc-300ad::b1'],    // the temples under Rome → the end of the temples
+  ['egypt-300-641::b2', 'egypt-30bc-300ad::b4'],    // the Catechetical School → the Arian and Christological wars
+  ['egypt-300-641::b4', 'egypt-30bc-300ad::l6'],    // Antony withdraws to the desert → the birth of the desert life
+  ['egypt-300-641::t1', 'egypt-30bc-300ad::t5'],    // Neoplatonism's Alexandrian roots → the last philosophers of Alexandria
+  ['egypt-300-641::t3', 'egypt-30bc-300ad::t2'],    // Alexandria the school of the doctors → the Alexandrian curriculum
+  ['egypt-300-641::x1', 'egypt-30bc-300ad::x5'],    // the making of Coptic → literary Coptic and the monastic library
+  ['egypt-300-641::o2', 'egypt-30bc-300ad::e2'],    // the surveyed land and imperial estates → the great estate
+  ['egypt-300-641::xc1', 'egypt-30bc-300ad::xc1'],  // the India trade at its height → the Red Sea trade in decline
+  ['egypt-300-641::xc2', 'egypt-30bc-300ad::xc4'],  // the peaceful frontier with Meroe → the conversion of Nubia
+  ['egypt-300-641::c1', 'egypt-30bc-300ad::b2'],    // Isis conquers the empire → the destruction of the Serapeum
   // ── egypt-30bc-300ad (Roman Egypt): hand-off from Ptolemaic Egypt ──
   ['egypt-30bc-300ad::k1', 'egypt-332bc-30bc::c9'],   // Actium and the annexation → the Augustan settlement
   ['egypt-30bc-300ad::c1', 'egypt-332bc-30bc::xc4'],  // Meroe and the shared frontier → the war with Meroe
