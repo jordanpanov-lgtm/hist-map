@@ -32,6 +32,7 @@ const MODULES = [
   { id:"egypt-1200bc-664bc",    file:"modules/egypt-1200bc-664bc.json",    label:"Priests, Libyans and Kushites 1200–664 BC", sub:"The End of the New Kingdom, the Divided Kingdom, and the Third Intermediate Period", region:"Egypt", period:"Ancient" },
   { id:"egypt-664bc-332bc",     file:"modules/egypt-664bc-332bc.json",     label:"The Late Period 664–332 BC", sub:"The Saite Renaissance, the Persian Conquests and the Last Pharaohs", region:"Egypt", period:"Ancient" },
   { id:"egypt-332bc-30bc",      file:"modules/egypt-332bc-30bc.json",      label:"Ptolemaic Egypt 332–30 BC", sub:"Alexander, the Greek Kingdom on the Nile, and the End with Cleopatra", region:"Egypt", period:"Late Antique" },
+  { id:"egypt-30bc-300ad",      file:"modules/egypt-30bc-300ad.json",      label:"Roman Egypt 30 BC–300 AD", sub:"The Emperor's Province, the Grain of Rome, and the Making of Christian Alexandria", region:"Egypt", period:"Late Antique" },
   { id:"nabataean-312bc-106ce", file:"modules/nabataean-312bc-106ce.json", label:"Nabataean Kingdom 312BC–106", sub:"The Incense Kingdom of Petra",                region:"NW Arabia",  period:"Late Antique"  },
   // placed here — after Nabataea — because it is the Roman-province aftermath of it;
   //   its Medieval sibling nw-arabia-632-1517 sits in the Northwest-oases block below.
