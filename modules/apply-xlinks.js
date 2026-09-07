@@ -31,6 +31,21 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-1517-1798 (Ottoman Egypt): hand-off from the Mamluk Sultanate ──
+  ['egypt-1517-1798::k1', 'mamluks-1250-1517::k14'],   // al-Ghawri, Tuman Bay and the Ottoman conquest → Selim conquers Egypt
+  ['egypt-1517-1798::c1', 'mamluks-1250-1517::c11'],   // Marj Dabiq
+  ['egypt-1517-1798::c1', 'mamluks-1250-1517::c12'],   // al-Raydaniyya and the fall of Cairo
+  ['egypt-1517-1798::k5', 'mamluks-1250-1517::k9'],    // Barquq's Circassian regime → the neo-Mamluk households return
+  ['egypt-1517-1798::g3', 'mamluks-1250-1517::tc1'],   // the Mamluk resistance to firearms → and again under the Ottomans
+  ['egypt-1517-1798::b1', 'mamluks-1250-1517::b1'],    // the twin capitals of Sunni learning → al-Azhar at its pre-eminence
+  ['egypt-1517-1798::b2', 'mamluks-1250-1517::b3'],    // the tariqas and the age of the saint → the Sufi orders and the mawlids
+  ['egypt-1517-1798::b4', 'mamluks-1250-1517::b6'],    // the Coptic church retreats to the monasteries → its Ottoman-era revival
+  ['egypt-1517-1798::b5', 'mamluks-1250-1517::b7'],    // the Jewish communities and the nagidate → its lapse around 1517
+  ['egypt-1517-1798::e2', 'mamluks-1250-1517::ec8'],   // the Portuguese and the collapse of the spice revenue → the transit trade after
+  ['egypt-1517-1798::x1', 'mamluks-1250-1517::ex1'],   // the stone city of the Mamluks → Ottoman-Cairene architecture
+  ['egypt-1517-1798::x4', 'mamluks-1250-1517::ex7'],   // shadow theatre and the coffee-house epic → carried into Ottoman Cairo
+  ['egypt-1517-1798::o2', 'mamluks-1250-1517::ec7'],   // the rural crisis — iqta, Bedouin, shrinking cultivation → the iltizam
+  ['egypt-1517-1798::w1', 'mamluks-1250-1517::w3'],    // Cairo, the greatest city west of China → still one of the largest
   // ── egypt-641-969 (Early Islamic Egypt): hand-offs both to Byzantine Egypt and to the Fatimids ──
   ['egypt-641-969::k1', 'egypt-300-641::k15'],    // the Arab conquest of Egypt → the conquest generation
   ['egypt-641-969::o1', 'egypt-300-641::k16'],    // 'Amr founds Fustat → the garrison city as capital

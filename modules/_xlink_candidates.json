@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-07",
-    "figure_matches": 854,
-    "figure_matches_rejected_dynasty_mismatch": 954,
-    "figure_matches_rejected_date_implausible": 1148,
-    "dynasty_alignment_proposals_count": 75,
-    "keyword_matches": 3867,
-    "keyword_matches_rejected_geo_only": 8818,
-    "high_confidence": 881,
-    "medium_confidence": 316,
-    "low_confidence": 3524
+    "figure_matches": 887,
+    "figure_matches_rejected_dynasty_mismatch": 981,
+    "figure_matches_rejected_date_implausible": 1218,
+    "dynasty_alignment_proposals_count": 80,
+    "keyword_matches": 3895,
+    "keyword_matches_rejected_geo_only": 8853,
+    "high_confidence": 914,
+    "medium_confidence": 319,
+    "low_confidence": 3549
   },
   "figure_name_matches": [
     {
@@ -7175,6 +7175,72 @@
         "decade": "1510s"
       },
       "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The Coptic Church in the Ottoman centuries",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "hejaz-1517-1900::k1",
+      "xlink_b": "egypt-1517-1798::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "hejaz-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman guardianship begins",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Jewish community of Ottoman Egypt",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "hejaz-1517-1900::k1",
+      "xlink_b": "egypt-1517-1798::b5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "hejaz-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman guardianship begins",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt in the Ottoman empire",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "hejaz-1517-1900::k1",
+      "xlink_b": "egypt-1517-1798::xc5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "hejaz-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman guardianship begins",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
         "folio": "hejaz-632-1517",
         "id": "w4",
         "cat": "world",
@@ -8375,6 +8441,116 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Cairo caliphate and the guardianship",
+        "dynasty": "Abbasid (Cairo)",
+        "decade": "1260s–1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "x5",
+        "cat": "expression",
+        "label": "Cairo as a city of manuscripts",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "hejaz-632-1517::k9",
+      "xlink_b": "egypt-1517-1798::x5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Cairo caliphate and the guardianship",
+        "dynasty": "Abbasid (Cairo)",
+        "decade": "1260s–1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "e3",
+        "cat": "economy",
+        "label": "The workshops of Cairo",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "hejaz-632-1517::k9",
+      "xlink_b": "egypt-1517-1798::e3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Cairo caliphate and the guardianship",
+        "dynasty": "Abbasid (Cairo)",
+        "decade": "1260s–1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "xc1",
+        "cat": "exchange",
+        "label": "Cairo, the crossroads of three trade worlds",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "hejaz-632-1517::k9",
+      "xlink_b": "egypt-1517-1798::xc1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Cairo caliphate and the guardianship",
+        "dynasty": "Abbasid (Cairo)",
+        "decade": "1260s–1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "w1",
+        "cat": "world",
+        "label": "Cairo among the world's great cities",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "hejaz-632-1517::k9",
+      "xlink_b": "egypt-1517-1798::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Cairo caliphate and the guardianship",
+        "dynasty": "Abbasid (Cairo)",
+        "decade": "1260s–1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "l3",
+        "cat": "lives",
+        "label": "The Cairo merchant",
+        "decade": "1580s–1620s"
+      },
+      "xlink_a": "hejaz-632-1517::k9",
+      "xlink_b": "egypt-1517-1798::l3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Herders",
       "pivot": {
         "folio": "hejaz-prehistory-8000bc-1200bc",
@@ -8661,6 +8837,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Marj Dabiq",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Marj Dabiq",
+        "dynasty": "Burji Mamluk",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Marj Dabiq and al-Raydaniyya",
+        "decade": "1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::c11",
+      "xlink_b": "egypt-1517-1798::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Al-Raydaniyya",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c12",
+        "cat": "conflict",
+        "label": "Al-Raydaniyya and the fall of Cairo",
+        "dynasty": "Burji Mamluk",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Marj Dabiq and al-Raydaniyya",
+        "decade": "1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::c12",
+      "xlink_b": "egypt-1517-1798::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Mamluk",
       "pivot": {
         "folio": "mamluks-1250-1517",
@@ -8679,6 +8899,28 @@
       },
       "xlink_a": "mamluks-1250-1517::o1",
       "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jewish",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b7",
+        "cat": "belief",
+        "label": "The Jewish communities and the office of nagid",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Jewish community of Ottoman Egypt",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::b7",
+      "xlink_b": "egypt-1517-1798::b5"
     },
     {
       "confidence": "high",
@@ -8745,6 +8987,28 @@
       },
       "xlink_a": "mamluks-1250-1517::b7",
       "xlink_b": "yemen-1517-1900::lv2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sunni",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The twin capitals of Sunni learning",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1260s–1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b1",
+        "cat": "belief",
+        "label": "al-Azhar, the centre of the Sunni world",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::b1",
+      "xlink_b": "egypt-1517-1798::b1"
     },
     {
       "confidence": "high",
@@ -8921,6 +9185,28 @@
       },
       "xlink_a": "mamluks-1250-1517::ex7",
       "xlink_b": "ayyubids-1171-1250::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Shadow",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex7",
+        "cat": "expression",
+        "label": "Shadow theatre, the coffee-house epic and the Nights",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1280s–1500s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "x4",
+        "cat": "expression",
+        "label": "The shadow play and the storytellers",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::ex7",
+      "xlink_b": "egypt-1517-1798::x4"
     },
     {
       "confidence": "high",
@@ -9265,6 +9551,28 @@
         "decade": "1300s–1500s"
       },
       "match": {
+        "folio": "egypt-1517-1798",
+        "id": "xc4",
+        "cat": "exchange",
+        "label": "The European merchants and the capitulations",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::x7",
+      "xlink_b": "egypt-1517-1798::xc4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "European",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x7",
+        "cat": "exchange",
+        "label": "European eyes on Egypt",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1500s"
+      },
+      "match": {
         "folio": "france-1494-1610",
         "id": "ex3",
         "cat": "exchange",
@@ -9427,6 +9735,72 @@
       },
       "xlink_a": "mamluks-1250-1517::w4",
       "xlink_b": "spain-1230-1492::s3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The Coptic Church in the Ottoman centuries",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "egypt-1517-1798::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Jewish community of Ottoman Egypt",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "egypt-1517-1798::b5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt in the Ottoman empire",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "egypt-1517-1798::xc5"
     },
     {
       "confidence": "high",
@@ -9881,6 +10255,72 @@
         "decade": "1340s–1510s"
       },
       "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The shrine city and the plague",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv6",
+      "xlink_b": "egypt-1517-1798::b3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Plague",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "Plague at eye level",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s–1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "t3",
+        "cat": "thought",
+        "label": "Medicine, the druggist and the plague",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv6",
+      "xlink_b": "egypt-1517-1798::t3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Plague",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "Plague at eye level",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s–1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Nile, the famines and the plague",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv6",
+      "xlink_b": "egypt-1517-1798::w2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Plague",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "Plague at eye level",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s–1510s"
+      },
+      "match": {
         "folio": "france-1494-1610",
         "id": "s2",
         "cat": "economy",
@@ -9933,6 +10373,72 @@
       },
       "xlink_a": "mamluks-1250-1517::lv6",
       "xlink_b": "spain-1516-1700::s5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "najd-1517-1744",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Ottoman and Sharifian fringe",
+        "dynasty": null,
+        "decade": "1510s–1740s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The Coptic Church in the Ottoman centuries",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "najd-1517-1744::k5",
+      "xlink_b": "egypt-1517-1798::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "najd-1517-1744",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Ottoman and Sharifian fringe",
+        "dynasty": null,
+        "decade": "1510s–1740s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Jewish community of Ottoman Egypt",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "najd-1517-1744::k5",
+      "xlink_b": "egypt-1517-1798::b5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "najd-1517-1744",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Ottoman and Sharifian fringe",
+        "dynasty": null,
+        "decade": "1510s–1740s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt in the Ottoman empire",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "najd-1517-1744::k5",
+      "xlink_b": "egypt-1517-1798::xc5"
     },
     {
       "confidence": "high",
@@ -11539,6 +12045,28 @@
       },
       "xlink_a": "nw-arabia-106-632::k8",
       "xlink_b": "sassanid-484-651::lv3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Hajj",
+      "pivot": {
+        "folio": "nw-arabia-632-1517",
+        "id": "k5",
+        "cat": "power",
+        "label": "The overlords of the Hajj roads",
+        "dynasty": "Mamluk",
+        "decade": "630s–1510s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "The hajj caravan and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "nw-arabia-632-1517::k5",
+      "xlink_b": "egypt-1517-1798::xc2"
     },
     {
       "confidence": "high",
@@ -13629,6 +14157,72 @@
       },
       "xlink_a": "portuguese-gulf-1507-1650::c6",
       "xlink_b": "oman-gulf-1650-1820::tc4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Ottoman defters of Lahsa",
+        "dynasty": "Ottoman",
+        "decade": "1550s–1600s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The Coptic Church in the Ottoman centuries",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "portuguese-gulf-1507-1650::o3",
+      "xlink_b": "egypt-1517-1798::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Ottoman defters of Lahsa",
+        "dynasty": "Ottoman",
+        "decade": "1550s–1600s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Jewish community of Ottoman Egypt",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "portuguese-gulf-1507-1650::o3",
+      "xlink_b": "egypt-1517-1798::b5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Ottoman defters of Lahsa",
+        "dynasty": "Ottoman",
+        "decade": "1550s–1600s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt in the Ottoman empire",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "portuguese-gulf-1507-1650::o3",
+      "xlink_b": "egypt-1517-1798::xc5"
     },
     {
       "confidence": "high",
@@ -18197,6 +18791,72 @@
         "decade": "1530s"
       },
       "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The Coptic Church in the Ottoman centuries",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "yemen-1517-1900::k1",
+      "xlink_b": "egypt-1517-1798::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman conquest of Yemen",
+        "dynasty": "Ottoman",
+        "decade": "1530s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Jewish community of Ottoman Egypt",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "yemen-1517-1900::k1",
+      "xlink_b": "egypt-1517-1798::b5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman conquest of Yemen",
+        "dynasty": "Ottoman",
+        "decade": "1530s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt in the Ottoman empire",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "yemen-1517-1900::k1",
+      "xlink_b": "egypt-1517-1798::xc5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman conquest of Yemen",
+        "dynasty": "Ottoman",
+        "decade": "1530s"
+      },
+      "match": {
         "folio": "hejaz-1517-1900",
         "id": "ex1",
         "cat": "expression",
@@ -18381,6 +19041,72 @@
       },
       "xlink_a": "yemen-1517-1900::k10",
       "xlink_b": "yemen-1900-today::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k11",
+        "cat": "power",
+        "label": "The Ottoman return",
+        "dynasty": "Ottoman",
+        "decade": "1840s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b4",
+        "cat": "belief",
+        "label": "The Coptic Church in the Ottoman centuries",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "yemen-1517-1900::k11",
+      "xlink_b": "egypt-1517-1798::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k11",
+        "cat": "power",
+        "label": "The Ottoman return",
+        "dynasty": "Ottoman",
+        "decade": "1840s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Jewish community of Ottoman Egypt",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "yemen-1517-1900::k11",
+      "xlink_b": "egypt-1517-1798::b5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k11",
+        "cat": "power",
+        "label": "The Ottoman return",
+        "dynasty": "Ottoman",
+        "decade": "1840s"
+      },
+      "match": {
+        "folio": "egypt-1517-1798",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt in the Ottoman empire",
+        "decade": "1510s–1790s"
+      },
+      "xlink_a": "yemen-1517-1900::k11",
+      "xlink_b": "egypt-1517-1798::xc5"
     },
     {
       "confidence": "high",
@@ -18956,6 +19682,23 @@
       }
     },
     {
+      "name": "Coptic",
+      "entry_a": {
+        "folio": "egypt-1517-1798",
+        "id": "k13",
+        "label": "The Coptic patriarch and the archons",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "1510s–1790s"
+      },
+      "entry_b": {
+        "folio": "mamluks-1250-1517",
+        "id": "b6",
+        "label": "The Coptic church retreats to the monasteries",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1510s"
+      }
+    },
+    {
       "name": "Marcian",
       "entry_a": {
         "folio": "egypt-300-641",
@@ -19305,6 +20048,23 @@
         "decade": "1250s–1510s"
       },
       "entry_b": {
+        "folio": "egypt-1517-1798",
+        "id": "g3",
+        "label": "The firearm and the Mamluk who would not use it",
+        "dynasty": "Neo-Mamluk",
+        "decade": "1510s–1790s"
+      }
+    },
+    {
+      "name": "Mamluk",
+      "entry_a": {
+        "folio": "hejaz-632-1517",
+        "id": "k8",
+        "label": "The Mamluk overlordship",
+        "dynasty": "Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "entry_b": {
         "folio": "mamluks-1250-1517",
         "id": "o1",
         "label": "The Mamluk system — a one-generation ruling caste",
@@ -19543,6 +20303,23 @@
         "decade": "1250s–1510s"
       },
       "entry_b": {
+        "folio": "egypt-1517-1798",
+        "id": "g3",
+        "label": "The firearm and the Mamluk who would not use it",
+        "dynasty": "Neo-Mamluk",
+        "decade": "1510s–1790s"
+      }
+    },
+    {
+      "name": "Mamluk",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "o1",
+        "label": "The Mamluk system — a one-generation ruling caste",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "entry_b": {
         "folio": "yemen-628-1517",
         "id": "k17",
         "label": "The Mamluk expedition and the Ottoman handoff",
@@ -19599,6 +20376,23 @@
         "label": "The Ayyubid and Mamluk connection",
         "dynasty": "Mamluk",
         "decade": "1170s–1450s"
+      }
+    },
+    {
+      "name": "Coptic",
+      "entry_a": {
+        "folio": "mamluks-1250-1517",
+        "id": "b6",
+        "label": "The Coptic church retreats to the monasteries",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1510s"
+      },
+      "entry_b": {
+        "folio": "egypt-1517-1798",
+        "id": "b4",
+        "label": "The Coptic Church in the Ottoman centuries",
+        "dynasty": "Coptic Patriarchs",
+        "decade": "1510s–1790s"
       }
     },
     {
@@ -20075,6 +20869,23 @@
         "label": "President Ali Abdullah Saleh, unified Yemen",
         "dynasty": "GPC",
         "decade": "1990s"
+      }
+    },
+    {
+      "name": "Mamluk",
+      "entry_a": {
+        "folio": "yemen-628-1517",
+        "id": "k17",
+        "label": "The Mamluk expedition and the Ottoman handoff",
+        "dynasty": "Mamluk",
+        "decade": "1510s"
+      },
+      "entry_b": {
+        "folio": "egypt-1517-1798",
+        "id": "g3",
+        "label": "The firearm and the Mamluk who would not use it",
+        "dynasty": "Neo-Mamluk",
+        "decade": "1510s–1790s"
       }
     }
   ],
@@ -23617,6 +24428,33 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-945-1258::lv4",
       "xlink_b": "hejaz-632-1517::ec1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Marj Dabiq",
+        "Selim I"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k1",
+        "cat": "power",
+        "label": "Selim I conquers Egypt",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::k1",
+      "xlink_b": "mamluks-1250-1517::w6"
     },
     {
       "confidence": "medium",
@@ -28882,6 +29720,60 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-2100bc-1550bc::c1",
       "xlink_b": "egypt-3000bc-2100bc::w3"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Ottoman",
+        "Tuman Bay"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k1",
+        "cat": "power",
+        "label": "Selim I conquers Egypt",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k14",
+        "cat": "power",
+        "label": "Al-Ghawri, Tuman Bay and the Ottoman conquest",
+        "decade": "1500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::k1",
+      "xlink_b": "mamluks-1250-1517::k14"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Qansuh al-Ghawri",
+        "Tuman Bay"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Marj Dabiq and al-Raydaniyya",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k14",
+        "cat": "power",
+        "label": "Al-Ghawri, Tuman Bay and the Ottoman conquest",
+        "decade": "1500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::c1",
+      "xlink_b": "mamluks-1250-1517::k14"
     },
     {
       "confidence": "medium",
@@ -36290,6 +37182,344 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Cairo",
+        "Mamluk"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Mamluk households return",
+        "decade": "1600s–1700s"
+      },
+      "b": {
+        "folio": "hejaz-632-1517",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Mamluk overlordship",
+        "decade": "1250s–1510s"
+      },
+      "date_flag": "83yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1517-1798::k5",
+      "xlink_b": "hejaz-632-1517::k8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mamluk"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Mamluk households return",
+        "decade": "1600s–1700s"
+      },
+      "b": {
+        "folio": "nw-arabia-632-1517",
+        "id": "k5",
+        "cat": "power",
+        "label": "The overlords of the Hajj roads",
+        "decade": "630s–1510s"
+      },
+      "date_flag": "83yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1517-1798::k5",
+      "xlink_b": "nw-arabia-632-1517::k5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mamluk"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Mamluk households return",
+        "decade": "1600s–1700s"
+      },
+      "b": {
+        "folio": "yemen-628-1517",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The Ayyubid and Mamluk connection",
+        "decade": "1170s–1450s"
+      },
+      "date_flag": "150yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1517-1798::k5",
+      "xlink_b": "yemen-628-1517::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "o3",
+        "cat": "order",
+        "label": "Feeding Istanbul and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "hejaz-632-1517",
+        "id": "o3",
+        "cat": "order",
+        "label": "The kiswa, the maḥmal and the sovereignty of the Hajj",
+        "decade": "960s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::o3",
+      "xlink_b": "hejaz-632-1517::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "o3",
+        "cat": "order",
+        "label": "Feeding Istanbul and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "hejaz-632-1517",
+        "id": "w2",
+        "cat": "world",
+        "label": "Whoever holds Egypt holds the Ḥaramayn",
+        "decade": "960s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::o3",
+      "xlink_b": "hejaz-632-1517::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "o3",
+        "cat": "order",
+        "label": "Feeding Istanbul and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The wider Muslim condemnation",
+        "decade": "1740s–1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::o3",
+      "xlink_b": "najd-1744-1900::b3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "o3",
+        "cat": "order",
+        "label": "Feeding Istanbul and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The counter-tradition",
+        "decade": "1740s–1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::o3",
+      "xlink_b": "najd-1744-1900::t3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Red Sea"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc1",
+        "cat": "exchange",
+        "label": "Cairo, the crossroads of three trade worlds",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Muḥammad ʿAlī and Arabia",
+        "decade": "1810s"
+      },
+      "date_flag": "13yr gap",
+      "xlink_a": "egypt-1517-1798::xc1",
+      "xlink_b": "najd-1744-1900::x2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "The hajj caravan and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "hejaz-632-1517",
+        "id": "o3",
+        "cat": "order",
+        "label": "The kiswa, the maḥmal and the sovereignty of the Hajj",
+        "decade": "960s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::xc2",
+      "xlink_b": "hejaz-632-1517::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "The hajj caravan and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "hejaz-632-1517",
+        "id": "w2",
+        "cat": "world",
+        "label": "Whoever holds Egypt holds the Ḥaramayn",
+        "decade": "960s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::xc2",
+      "xlink_b": "hejaz-632-1517::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "The hajj caravan and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The wider Muslim condemnation",
+        "decade": "1740s–1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::xc2",
+      "xlink_b": "najd-1744-1900::b3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "The hajj caravan and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The counter-tradition",
+        "decade": "1740s–1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::xc2",
+      "xlink_b": "najd-1744-1900::t3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
+        "Egypt"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "w4",
+        "cat": "world",
+        "label": "Egypt seen by the travellers",
+        "decade": "1730s–1790s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The Saudi captivity in Cairo",
+        "decade": "1810s"
+      },
+      "date_flag": "20yr gap",
+      "xlink_a": "egypt-1517-1798::w4",
+      "xlink_b": "najd-1744-1900::lv1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo",
         "Delta"
       ],
       "sharedCount": 2,
@@ -38546,6 +39776,110 @@
       "date_flag": "overlapping",
       "xlink_a": "eastern-arabia-750-1200::b3",
       "xlink_b": "najd-632-1517::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Cities",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "o3",
+        "cat": "order",
+        "label": "Feeding Istanbul and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The taking of the Holy Cities",
+        "decade": "1800s"
+      },
+      "date_flag": "5yr gap",
+      "xlink_a": "egypt-1517-1798::o3",
+      "xlink_b": "najd-1744-1900::c3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Cities",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "o3",
+        "cat": "order",
+        "label": "Feeding Istanbul and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "yemen-628-1517",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Rasulid–Mamluk contest over Mecca",
+        "decade": "1250s–1350s"
+      },
+      "date_flag": "167yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1517-1798::o3",
+      "xlink_b": "yemen-628-1517::c5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Cities",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "The hajj caravan and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The taking of the Holy Cities",
+        "decade": "1800s"
+      },
+      "date_flag": "5yr gap",
+      "xlink_a": "egypt-1517-1798::xc2",
+      "xlink_b": "najd-1744-1900::c3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Holy Cities",
+        "Mecca"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc2",
+        "cat": "exchange",
+        "label": "The hajj caravan and the Holy Cities",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "yemen-628-1517",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Rasulid–Mamluk contest over Mecca",
+        "decade": "1250s–1350s"
+      },
+      "date_flag": "167yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1517-1798::xc2",
+      "xlink_b": "yemen-628-1517::c5"
     },
     {
       "confidence": "low",
@@ -110467,6 +111801,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Mediterranean",
+        "Royal Navy"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "1798 and the Eastern Question",
+        "decade": "1790s"
+      },
+      "b": {
+        "folio": "france-1494-1610",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "French galley slavery — chained to the oars of the Mediterranean fleet",
+        "decade": "1530s–1610s"
+      },
+      "date_flag": "188yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1517-1798::xc6",
+      "xlink_b": "france-1494-1610::lv5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Palmyra",
         "Silk Road"
       ],
@@ -112989,6 +114349,344 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Ottoman",
+        "Selim I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k1",
+        "cat": "power",
+        "label": "Selim I conquers Egypt",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "hejaz-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman guardianship begins",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::k1",
+      "xlink_b": "hejaz-1517-1900::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Ottoman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k2",
+        "cat": "power",
+        "label": "Khayr Bey and the first governors",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k14",
+        "cat": "power",
+        "label": "Al-Ghawri, Tuman Bay and the Ottoman conquest",
+        "decade": "1500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::k2",
+      "xlink_b": "mamluks-1250-1517::k14"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Istanbul",
+        "Ottoman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt in the Ottoman empire",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "hejaz-1900-1925",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The Arab and Ottoman accounts",
+        "decade": "1930s"
+      },
+      "date_flag": "132yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-1517-1798::xc5",
+      "xlink_b": "hejaz-1900-1925::t3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Istanbul",
+        "Ottoman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt in the Ottoman empire",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Ottoman reaction",
+        "decade": "1800s"
+      },
+      "date_flag": "4yr gap",
+      "xlink_a": "egypt-1517-1798::xc5",
+      "xlink_b": "najd-1744-1900::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Istanbul",
+        "Ottoman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Egypt in the Ottoman empire",
+        "decade": "1510s–1790s"
+      },
+      "b": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "t3",
+        "cat": "thought",
+        "label": "Piri Reis and the Ottoman charting of the Gulf",
+        "decade": "1520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::xc5",
+      "xlink_b": "portuguese-gulf-1507-1650::t3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Istanbul",
+        "Ottoman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The Arab and Ottoman accounts",
+        "decade": "1930s"
+      },
+      "b": {
+        "folio": "najd-1744-1900",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Ottoman reaction",
+        "decade": "1800s"
+      },
+      "date_flag": "119yr gap — verify same entity, not just shared theme",
+      "xlink_a": "hejaz-1900-1925::t3",
+      "xlink_b": "najd-1744-1900::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Istanbul",
+        "Ottoman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "t3",
+        "cat": "thought",
+        "label": "The Arab and Ottoman accounts",
+        "decade": "1930s"
+      },
+      "b": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "t3",
+        "cat": "thought",
+        "label": "Piri Reis and the Ottoman charting of the Gulf",
+        "decade": "1520s"
+      },
+      "date_flag": "404yr gap — verify same entity, not just shared theme",
+      "xlink_a": "hejaz-1900-1925::t3",
+      "xlink_b": "portuguese-gulf-1507-1650::t3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Istanbul",
+        "Ottoman"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "najd-1744-1900",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Ottoman reaction",
+        "decade": "1800s"
+      },
+      "b": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "t3",
+        "cat": "thought",
+        "label": "Piri Reis and the Ottoman charting of the Gulf",
+        "decade": "1520s"
+      },
+      "date_flag": "276yr gap — verify same entity, not just shared theme",
+      "xlink_a": "najd-1744-1900::x1",
+      "xlink_b": "portuguese-gulf-1507-1650::t3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ottoman",
+        "Sanaa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "yemen-1517-1900",
+        "id": "k11",
+        "cat": "power",
+        "label": "The Ottoman return",
+        "decade": "1840s"
+      },
+      "b": {
+        "folio": "yemen-628-1517",
+        "id": "k17",
+        "cat": "power",
+        "label": "The Mamluk expedition and the Ottoman handoff",
+        "decade": "1510s"
+      },
+      "date_flag": "332yr gap — verify same entity, not just shared theme",
+      "xlink_a": "yemen-1517-1900::k11",
+      "xlink_b": "yemen-628-1517::k17"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ottoman",
+        "Sanaa"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "yemen-1517-1900",
+        "id": "k11",
+        "cat": "power",
+        "label": "The Ottoman return",
+        "decade": "1840s"
+      },
+      "b": {
+        "folio": "yemen-628-1517",
+        "id": "w3",
+        "cat": "world",
+        "label": "The thread continues — the Ottoman century",
+        "decade": "1510s"
+      },
+      "date_flag": "332yr gap — verify same entity, not just shared theme",
+      "xlink_a": "yemen-1517-1900::k11",
+      "xlink_b": "yemen-628-1517::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Selim I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k1",
+        "cat": "power",
+        "label": "Selim I conquers Egypt",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Marj Dabiq",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::k1",
+      "xlink_b": "mamluks-1250-1517::c11"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Selim I",
+        "Tuman Bay"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k1",
+        "cat": "power",
+        "label": "Selim I conquers Egypt",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "c12",
+        "cat": "conflict",
+        "label": "Al-Raydaniyya and the fall of Cairo",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::k1",
+      "xlink_b": "mamluks-1250-1517::c12"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abydos",
+        "Nile Valley"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Djer's Nubian campaign",
+        "decade": "2980s BC"
+      },
+      "b": {
+        "folio": "egypt-6000bc-3000bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "White Cross-lined ware — Naqada I's earliest figural pottery",
+        "decade": "3500s BC–4000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::c2",
+      "xlink_b": "egypt-6000bc-3000bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Avaris",
         "Hyksos"
       ],
@@ -113218,32 +114916,6 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-3000bc-2100bc::k17",
       "xlink_b": "egypt-6000bc-3000bc::tc5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Abydos",
-        "Nile Valley"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-3000bc-2100bc",
-        "id": "c2",
-        "cat": "conflict",
-        "label": "Djer's Nubian campaign",
-        "decade": "2980s BC"
-      },
-      "b": {
-        "folio": "egypt-6000bc-3000bc",
-        "id": "x1",
-        "cat": "expression",
-        "label": "White Cross-lined ware — Naqada I's earliest figural pottery",
-        "decade": "3500s BC–4000s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-3000bc-2100bc::c2",
-      "xlink_b": "egypt-6000bc-3000bc::x1"
     },
     {
       "confidence": "low",
@@ -119146,136 +120818,6 @@
       "date_flag": "148yr gap — verify same entity, not just shared theme",
       "xlink_a": "oman-gulf-1650-1820::x3",
       "xlink_b": "portuguese-gulf-1507-1650::ec4"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Istanbul",
-        "Ottoman"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hejaz-1900-1925",
-        "id": "t3",
-        "cat": "thought",
-        "label": "The Arab and Ottoman accounts",
-        "decade": "1930s"
-      },
-      "b": {
-        "folio": "najd-1744-1900",
-        "id": "x1",
-        "cat": "exchange",
-        "label": "The Ottoman reaction",
-        "decade": "1800s"
-      },
-      "date_flag": "119yr gap — verify same entity, not just shared theme",
-      "xlink_a": "hejaz-1900-1925::t3",
-      "xlink_b": "najd-1744-1900::x1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Istanbul",
-        "Ottoman"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hejaz-1900-1925",
-        "id": "t3",
-        "cat": "thought",
-        "label": "The Arab and Ottoman accounts",
-        "decade": "1930s"
-      },
-      "b": {
-        "folio": "portuguese-gulf-1507-1650",
-        "id": "t3",
-        "cat": "thought",
-        "label": "Piri Reis and the Ottoman charting of the Gulf",
-        "decade": "1520s"
-      },
-      "date_flag": "404yr gap — verify same entity, not just shared theme",
-      "xlink_a": "hejaz-1900-1925::t3",
-      "xlink_b": "portuguese-gulf-1507-1650::t3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Istanbul",
-        "Ottoman"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1744-1900",
-        "id": "x1",
-        "cat": "exchange",
-        "label": "The Ottoman reaction",
-        "decade": "1800s"
-      },
-      "b": {
-        "folio": "portuguese-gulf-1507-1650",
-        "id": "t3",
-        "cat": "thought",
-        "label": "Piri Reis and the Ottoman charting of the Gulf",
-        "decade": "1520s"
-      },
-      "date_flag": "276yr gap — verify same entity, not just shared theme",
-      "xlink_a": "najd-1744-1900::x1",
-      "xlink_b": "portuguese-gulf-1507-1650::t3"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ottoman",
-        "Sanaa"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "yemen-1517-1900",
-        "id": "k11",
-        "cat": "power",
-        "label": "The Ottoman return",
-        "decade": "1840s"
-      },
-      "b": {
-        "folio": "yemen-628-1517",
-        "id": "k17",
-        "cat": "power",
-        "label": "The Mamluk expedition and the Ottoman handoff",
-        "decade": "1510s"
-      },
-      "date_flag": "332yr gap — verify same entity, not just shared theme",
-      "xlink_a": "yemen-1517-1900::k11",
-      "xlink_b": "yemen-628-1517::k17"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Ottoman",
-        "Sanaa"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "yemen-1517-1900",
-        "id": "k11",
-        "cat": "power",
-        "label": "The Ottoman return",
-        "decade": "1840s"
-      },
-      "b": {
-        "folio": "yemen-628-1517",
-        "id": "w3",
-        "cat": "world",
-        "label": "The thread continues — the Ottoman century",
-        "decade": "1510s"
-      },
-      "date_flag": "332yr gap — verify same entity, not just shared theme",
-      "xlink_a": "yemen-1517-1900::k11",
-      "xlink_b": "yemen-628-1517::w3"
     },
     {
       "confidence": "low",
