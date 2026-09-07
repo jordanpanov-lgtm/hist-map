@@ -1093,7 +1093,64 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "Alexandria the cosmopolis, the Nile and the desert routes to the Red Sea, and Meroe on the southern frontier",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Urban Life",
+          "label": "Alexandria the cosmopolis",
+          "date": "c.280–30 BC",
+          "loc": "Alexandria",
+          "coords": [
+            31.2,
+            29.9
+          ],
+          "hint": "Within a century of its founding Alexandria was the largest city in the Greek-speaking world, with a population plausibly over 300,000: Greeks and Macedonians, native Egyptians, one of the biggest Jewish communities anywhere, Syrians, Anatolians, Nubians, and sailors from everywhere. It had a grid of paved streets, running water, twin harbours, a famously volatile crowd that made and unmade kings, and the wealth of a continent passing through it — the first true multiethnic megacity.",
+          "tag": "EVENT",
+          "note": "Strabo 17.1.6–13; Polybius 34.14 (the three populations). P.M. Fraser, Ptolemaic Alexandria (1972); Diana Delia, 'The Population of Roman Alexandria', TAPA 118 (1988) for the numbers debate."
+        },
+        {
+          "id": "w2",
+          "group": "Landscape & Routes",
+          "label": "The Nile and the desert roads",
+          "date": "c.270–30 BC",
+          "loc": "Coptos / the Eastern Desert",
+          "coords": [
+            26,
+            32.81
+          ],
+          "hint": "Ptolemaic Egypt faced three ways from one river. The Nile flood still set the year and the tax assessment; the re-cut canal linked it to the Red Sea; new guarded roads with wells crossed the Eastern Desert from Coptos to the ports of Myos Hormos and Berenike; and the Western oases — Kharga, Dakhla, Bahariya — were tied in by their own temples and garrisons. The desert was no longer just a wall but a set of managed corridors to Africa, Arabia and, eventually, India.",
+          "tag": "EVIDENCE",
+          "note": "Steven Sidebotham, Berenike and the Ancient Maritime Spice Route (2011); the Coptos tariff and the Eastern Desert praesidia. Oasis integration: Olaf Kaper on Dakhla; the 'Ayn Manawir archive."
+        },
+        {
+          "id": "w3",
+          "group": "Neighbouring Powers",
+          "label": "Meroe at its height",
+          "date": "c.270–30 BC",
+          "loc": "Meroe",
+          "coords": [
+            16.93,
+            33.72
+          ],
+          "hint": "South of the Ptolemaic frontier the kingdom of Meroe reached its peak: royal pyramids at Meroe and the earlier sites, temples to Amun and to the lion-god Apedemak, a large-scale iron industry whose slag heaps still ring the capital, and, from about 180 BC, its own alphabetic script for the Meroïtic language, replacing Egyptian in official use. Ruled often by powerful queens, the kandakes, it was a fully independent African civilisation trading and negotiating with Egypt as an equal.",
+          "tag": "EVENT",
+          "note": "Derek Welsby, The Kingdom of Kush: The Napatan and Meroitic Empires (1996); László Török, The Kingdom of Kush (1997). Meroïtic script: Claude Rilly, La langue du royaume de Méroé (2007). The iron industry: recent UCL work reassessing the 'Birmingham of Africa' claim."
+        },
+        {
+          "id": "w4",
+          "group": "Climate & Environment",
+          "label": "Volcanoes, low Niles and revolt",
+          "date": "c.245–30 BC",
+          "loc": "the Nile valley",
+          "coords": [
+            27,
+            31
+          ],
+          "hint": "For all the state's management, the country lived at the mercy of the flood. Recent work matching ice-core records of large volcanic eruptions to Nile gauge data and papyrus evidence finds that eruption years suppressed the summer monsoon over the Ethiopian highlands, weakened the flood, and were repeatedly followed by hardship and unrest — including at the outbreak of the Great Revolt of the Thebaid and in later crises. The Ptolemaic economy's weak point was the sky over East Africa.",
+          "tag": "EVIDENCE",
+          "note": "Joseph Manning, Francis Ludlow et al., 'Volcanic suppression of Nile summer flooding triggers revolt and constrains interstate conflict in ancient Egypt', Nature Communications 8 (2017)."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -1102,7 +1159,106 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Cleopatra VII, the scholars of the Museum, the cleruch soldier, and the villagers of the Zenon and Faiyum papyri",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Royalty",
+          "label": "Cleopatra VII, the last pharaoh",
+          "date": "69–30 BC",
+          "loc": "Alexandria",
+          "coords": [
+            31.2,
+            29.9
+          ],
+          "hint": "Cleopatra was the first Ptolemy in three centuries to learn Egyptian, and Plutarch says she could deal with envoys from nine nations in their own tongue. She was a working monarch — restoring finances, managing the priesthoods, presenting herself as the goddess Isis and as pharaoh in temple relief — who staked the kingdom's survival on partnership with the two most powerful Romans of her age. The victors wrote her up as a seductress and Rome's enemy; the documents show an able ruler out of options.",
+          "tag": "EVIDENCE",
+          "note": "Plutarch, Antony 27, 29. Duane Roller, Cleopatra: A Biography (2010); Joyce Tyldesley, Cleopatra: Last Queen of Egypt (2008); Prudence Jones, Cleopatra: A Sourcebook (2006)."
+        },
+        {
+          "id": "l2",
+          "group": "Royalty",
+          "label": "Arsinoe II, the deified queen",
+          "date": "c.316–268 BC",
+          "loc": "Alexandria",
+          "coords": [
+            31.2,
+            29.9
+          ],
+          "hint": "Arsinoe II lived three royal lives: married at sixteen to the aged Lysimachus of Thrace, then to her murderous half-brother Ptolemy Keraunos, then — back in Egypt — to her full brother Ptolemy II, with whom she was worshipped as one of the 'Sibling Gods'. Whether she governed or merely symbolised, her name is everywhere: a Faiyum nome, a Red Sea port, a festival, a priestess in her own cult, and a share of the offerings in every temple in Egypt after her death.",
+          "tag": "EVIDENCE",
+          "note": "Elizabeth Carney, Arsinoë of Egypt and Macedon: A Royal Life (2013). The Mendes Stela and the Pithom Stela on her cult; the Grand Procession featured her."
+        },
+        {
+          "id": "l3",
+          "group": "Scholars",
+          "label": "The scholars of the Museum",
+          "date": "c.280–200 BC",
+          "loc": "Alexandria",
+          "coords": [
+            31.2,
+            29.905
+          ],
+          "hint": "The Museum's members were court intellectuals living on royal patronage: Zenodotus and then Aristophanes of Byzantium and Aristarchus building the critical text of Homer; Callimachus compiling the 120-book catalogue of the Library while feuding in verse with Apollonius of Rhodes; Eratosthenes running the place while measuring the Earth. A hostile epigram called them 'well-fed bookworms squabbling endlessly in the Muses' birdcage' — but they invented the disciplines of textual criticism and scholarship.",
+          "tag": "EVIDENCE",
+          "note": "The 'birdcage of the Muses': Timon of Phlius via Athenaeus 1.22d. Rudolf Pfeiffer, History of Classical Scholarship (1968); P.M. Fraser, Ptolemaic Alexandria (1972) vol.1 pp.447–79."
+        },
+        {
+          "id": "l4",
+          "group": "Everyday Life",
+          "label": "Zenon, the estate manager",
+          "date": "c.261–240 BC",
+          "loc": "Philadelphia (Faiyum)",
+          "coords": [
+            29.44,
+            31.11
+          ],
+          "hint": "Zenon of Caunus came to Egypt as the business agent of the finance minister Apollonios and stayed to run his model estate at Philadelphia. His archive — over 1,700 papyri, kept because he hoarded everything — is the fullest window into any single life from the ancient world: crop accounts, building contracts, lawsuits, a pet-animal shipment, and letters from Egyptian workers on the estate protesting that they are cheated of pay 'because I am not a Greek'.",
+          "tag": "DOCUMENT",
+          "note": "Zenon archive: P.Cair.Zen. I–V (Edgar), P.Lond. VII, P.Mich. I. Pieter Pestman, A Guide to the Zenon Archive (1981); the complaint of the camel-herd Senchons and of a workman 'because I do not know how to Hellenize'."
+        },
+        {
+          "id": "l5",
+          "group": "Everyday Life",
+          "label": "The choachytes of Thebes",
+          "date": "c.260–100 BC",
+          "loc": "Thebes (west bank)",
+          "coords": [
+            25.735,
+            32.6
+          ],
+          "hint": "On the Theban west bank a guild of Egyptian mortuary priests, the choachytes or 'water-pourers', maintained the tombs and mummies of paying clients, performed the offerings, and traded the rights to particular burials among themselves like property. Their family archives, in Demotic and Greek, run for generations and show a self-governing native middle class — with its own association, arbitration rules and mixed-language contracts — carrying on an Egyptian profession under a Greek state.",
+          "tag": "DOCUMENT",
+          "note": "The Theban choachyte archives (e.g. the archive of Amenothes son of Horos; P. Survey / the 'archive of the Theban choachytes'): Pieter Pestman, L'archivio di Amenothes figlio di Horos (1981) and The Archive of the Theban Choachytes (1993)."
+        },
+        {
+          "id": "l6",
+          "group": "Everyday Life",
+          "label": "Ptolemaios, the recluse of the Serapeum",
+          "date": "c.172–152 BC",
+          "loc": "Memphis (the Serapeum)",
+          "coords": [
+            29.876,
+            31.216
+          ],
+          "hint": "Ptolemaios son of Glaukias, of Macedonian descent, spent more than twenty years shut up 'in confinement' (katoche) inside the temple of Serapis at Memphis, unable or unwilling to leave. His archive of about a hundred documents preserves his petitions about being assaulted and cheated, his careful records of his own dreams, and his sponsorship of two Egyptian twin girls, Thaues and Taous, who served the god — a strange, intimate case study of temple dependency and a life lived between Greek and Egyptian identities.",
+          "tag": "DOCUMENT",
+          "note": "UPZ I (Wilcken, 1927); the 'Serapeum archive'. Dorothy Thompson, Memphis under the Ptolemies (1988, 2nd ed. 2012) pp.212–65; Sandra Coussement and others on the twins and the katoche."
+        },
+        {
+          "id": "l7",
+          "group": "Scholars",
+          "label": "Manetho, Petosiris and the priest between two worlds",
+          "date": "c.300–250 BC",
+          "loc": "Hermopolis (Tuna el-Gebel)",
+          "coords": [
+            27.77,
+            30.75
+          ],
+          "hint": "A class of Egyptian priest-scholars translated their own tradition for the new rulers and for a Greek audience. Manetho of Sebennytos wrote Egypt's dynastic history in Greek; the high priest Petosiris at Hermopolis built a tomb-chapel whose reliefs put Egyptian ritual scenes into Greek-influenced style and drapery, its texts urging the reader toward the 'path of god'; and an astrological literature circulated under the names of the sage Petosiris and a legendary king Nechepso. These men held the two cultures in one head.",
+          "tag": "EVIDENCE",
+          "note": "Tomb of Petosiris: Gustave Lefebvre, Le tombeau de Petosiris (1923–24). Manetho: Waddell's Loeb (1940). The Nechepso–Petosiris astrological corpus: Ernst Riess's fragments; Kim Ryholt on the tradition."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -1111,105 +1267,536 @@
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "The Macedonian conquest (Argead)",
-      "events": []
+      "events": [
+        {
+          "y": -332,
+          "y2": -323,
+          "l": "Alexander the Great (332–323)",
+          "entryId": "k1"
+        },
+        {
+          "y": -323,
+          "y2": -309,
+          "l": "Philip Arrhidaeus & Alexander IV",
+          "entryId": "k2"
+        }
+      ]
     },
     {
       "id": "ptolemies-1-4",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Ptolemies I–IV",
-      "events": []
+      "events": [
+        {
+          "y": -323,
+          "y2": -282,
+          "l": "Ptolemy I Soter (satrap 323; king 305–282)",
+          "entryId": "k3"
+        },
+        {
+          "y": -285,
+          "y2": -246,
+          "l": "Ptolemy II Philadelphus (285–246)",
+          "entryId": "k4"
+        },
+        {
+          "y": -246,
+          "y2": -222,
+          "l": "Ptolemy III Euergetes (246–222)",
+          "entryId": "k5"
+        },
+        {
+          "y": -222,
+          "y2": -204,
+          "l": "Ptolemy IV Philopator (222–204)",
+          "entryId": "k6"
+        }
+      ]
     },
     {
       "id": "ptolemies-5-12",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Ptolemies V–XII",
-      "events": []
+      "events": [
+        {
+          "y": -204,
+          "y2": -180,
+          "l": "Ptolemy V Epiphanes (204–180)",
+          "entryId": "k7"
+        },
+        {
+          "y": -193,
+          "y2": -116,
+          "l": "The ruling Cleopatras (I–III)",
+          "entryId": "k16"
+        },
+        {
+          "y": -180,
+          "y2": -145,
+          "l": "Ptolemy VI Philometor (180–145)",
+          "entryId": "k8"
+        },
+        {
+          "y": -170,
+          "y2": -116,
+          "l": "Ptolemy VIII 'Physcon'",
+          "entryId": "k9"
+        },
+        {
+          "y": -116,
+          "y2": -80,
+          "l": "The later Ptolemies (IX–XI)",
+          "entryId": "k10"
+        },
+        {
+          "y": -80,
+          "y2": -51,
+          "l": "Ptolemy XII Auletes (80–51)",
+          "entryId": "k11"
+        }
+      ]
     },
     {
       "id": "cleopatra",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Cleopatra VII and the end",
-      "events": []
+      "events": [
+        {
+          "y": -51,
+          "y2": -30,
+          "l": "Cleopatra VII (51–30)",
+          "entryId": "k12"
+        },
+        {
+          "y": -44,
+          "y2": -30,
+          "l": "Caesarion (Ptolemy XV)",
+          "entryId": "k13"
+        }
+      ]
     },
     {
       "id": "theban-revolt",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "The native pharaohs of the Thebaid",
-      "events": []
+      "events": [
+        {
+          "y": -205,
+          "y2": -186,
+          "l": "Horwennefer & Ankhwennefer",
+          "entryId": "k14"
+        },
+        {
+          "y": -131,
+          "y2": -130,
+          "l": "Harsiese",
+          "entryId": "k15"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
       "label": "Conflict",
-      "events": []
+      "events": [
+        {
+          "y": -332,
+          "l": "Alexander takes Egypt",
+          "entryId": "c1"
+        },
+        {
+          "y": -320,
+          "l": "Ptolemy secures Egypt (Successor wars)",
+          "entryId": "c2"
+        },
+        {
+          "y": -270,
+          "l": "The Syrian Wars",
+          "entryId": "c3"
+        },
+        {
+          "y": -217,
+          "l": "The Battle of Raphia",
+          "entryId": "c4"
+        },
+        {
+          "y": -201,
+          "l": "The Great Revolt of the Thebaid",
+          "entryId": "c5"
+        },
+        {
+          "y": -200,
+          "l": "The Battle of Panium",
+          "entryId": "c6"
+        },
+        {
+          "y": -168,
+          "l": "The Day of Eleusis",
+          "entryId": "c7"
+        },
+        {
+          "y": -130,
+          "l": "The dynasty at war with itself",
+          "entryId": "c8"
+        },
+        {
+          "y": -31,
+          "l": "Actium and the annexation of Egypt",
+          "entryId": "c9"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
       "label": "Order",
-      "events": []
+      "events": [
+        {
+          "y": -300,
+          "l": "A Greek kingdom over an Egyptian country",
+          "entryId": "o1"
+        },
+        {
+          "y": -270,
+          "l": "The cleruchy",
+          "entryId": "o3"
+        },
+        {
+          "y": -258,
+          "l": "The dioiketes and the fiscal machine",
+          "entryId": "o2"
+        },
+        {
+          "y": -250,
+          "l": "The bilingual archive",
+          "entryId": "o4"
+        },
+        {
+          "y": -238,
+          "l": "The priestly synods and trilingual decrees",
+          "entryId": "o5"
+        },
+        {
+          "y": -200,
+          "l": "Greek courts, Egyptian courts, and the petition",
+          "entryId": "o6"
+        },
+        {
+          "y": -100,
+          "l": "Rome the overlord",
+          "entryId": "o7"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
       "label": "Belief",
-      "events": []
+      "events": [
+        {
+          "y": -300,
+          "l": "Serapis and the cult of the living king",
+          "entryId": "b1"
+        },
+        {
+          "y": -237,
+          "l": "The Egyptian temple rebuilt at its grandest",
+          "entryId": "b2"
+        },
+        {
+          "y": -200,
+          "l": "The meeting of Greek and Egyptian gods",
+          "entryId": "b3"
+        },
+        {
+          "y": -160,
+          "l": "The Jews of Egypt and the temple of Onias",
+          "entryId": "b5"
+        },
+        {
+          "y": -150,
+          "l": "The animal cults under royal patronage",
+          "entryId": "b4"
+        },
+        {
+          "y": -130,
+          "l": "The Oracle of the Potter and apocalyptic",
+          "entryId": "b6"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
       "label": "Expression",
-      "events": []
+      "events": [
+        {
+          "y": -320,
+          "l": "Alexandria, the model Hellenistic city",
+          "entryId": "x4"
+        },
+        {
+          "y": -270,
+          "l": "Alexandrian poetry",
+          "entryId": "x1"
+        },
+        {
+          "y": -260,
+          "l": "The theatre, the guild and the water-organ",
+          "entryId": "x6"
+        },
+        {
+          "y": -250,
+          "l": "Greco-Egyptian art",
+          "entryId": "x3"
+        },
+        {
+          "y": -200,
+          "l": "The temple as a written world",
+          "entryId": "x2"
+        },
+        {
+          "y": -150,
+          "l": "Demotic literature",
+          "entryId": "x5"
+        },
+        {
+          "y": -120,
+          "l": "The painted shroud and the bicultural dead",
+          "entryId": "x7"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
       "label": "Thought",
-      "events": []
+      "events": [
+        {
+          "y": -300,
+          "l": "Euclid and the axiomatic method",
+          "entryId": "t2"
+        },
+        {
+          "y": -290,
+          "l": "The Museum and the Library",
+          "entryId": "t1"
+        },
+        {
+          "y": -282,
+          "l": "Egyptian temple learning and Manetho",
+          "entryId": "t7"
+        },
+        {
+          "y": -280,
+          "l": "Herophilus, Erasistratus and human anatomy",
+          "entryId": "t4"
+        },
+        {
+          "y": -260,
+          "l": "The moving Earth and the mechanised sky",
+          "entryId": "t5"
+        },
+        {
+          "y": -240,
+          "l": "Eratosthenes measures the Earth",
+          "entryId": "t3"
+        },
+        {
+          "y": -180,
+          "l": "Exploring the Red Sea and Africa",
+          "entryId": "t6"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
       "label": "Economy",
-      "events": []
+      "events": [
+        {
+          "y": -280,
+          "l": "The closed currency and the banks",
+          "entryId": "e4"
+        },
+        {
+          "y": -262,
+          "l": "The royal monopoly economy",
+          "entryId": "e1"
+        },
+        {
+          "y": -260,
+          "l": "The Red Sea ports and the eastern trade",
+          "entryId": "e6"
+        },
+        {
+          "y": -258,
+          "l": "The temples in the Ptolemaic economy",
+          "entryId": "e5"
+        },
+        {
+          "y": -255,
+          "l": "The reclaimed Faiyum",
+          "entryId": "e2"
+        },
+        {
+          "y": -230,
+          "l": "Grain and the fleet",
+          "entryId": "e3"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
       "label": "Technology",
-      "events": []
+      "events": [
+        {
+          "y": -280,
+          "l": "The Pharos of Alexandria",
+          "entryId": "g1"
+        },
+        {
+          "y": -260,
+          "l": "Alexandrian mechanics and pneumatics",
+          "entryId": "g2"
+        },
+        {
+          "y": -240,
+          "l": "The waterwheel and the screw",
+          "entryId": "g3"
+        },
+        {
+          "y": -238,
+          "l": "War elephants and giant ships",
+          "entryId": "g4"
+        },
+        {
+          "y": -230,
+          "l": "Building the last Egyptian temples",
+          "entryId": "g5"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
       "label": "Exchange",
-      "events": []
+      "events": [
+        {
+          "y": -270,
+          "l": "Egypt in the Hellenistic system",
+          "entryId": "xc2"
+        },
+        {
+          "y": -250,
+          "l": "The Septuagint and Jewish-Greek culture",
+          "entryId": "xc3"
+        },
+        {
+          "y": -200,
+          "l": "Meroe and the shared frontier",
+          "entryId": "xc4"
+        },
+        {
+          "y": -170,
+          "l": "Egypt drawn into Rome's orbit",
+          "entryId": "xc5"
+        },
+        {
+          "y": -150,
+          "l": "Greeks and Egyptians blend in the chora",
+          "entryId": "xc6"
+        },
+        {
+          "y": -115,
+          "l": "The Indian Ocean route opens",
+          "entryId": "xc1"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
       "label": "World",
-      "events": []
+      "events": [
+        {
+          "y": -280,
+          "l": "Alexandria the cosmopolis",
+          "entryId": "w1"
+        },
+        {
+          "y": -260,
+          "l": "The Nile and the desert roads",
+          "entryId": "w2"
+        },
+        {
+          "y": -201,
+          "l": "Volcanoes, low Niles and revolt",
+          "entryId": "w4"
+        },
+        {
+          "y": -180,
+          "l": "Meroe at its height",
+          "entryId": "w3"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
       "label": "Lives",
-      "events": []
+      "events": [
+        {
+          "y": -280,
+          "l": "Manetho, Petosiris and the priest between two worlds",
+          "entryId": "l7"
+        },
+        {
+          "y": -275,
+          "l": "Arsinoe II, the deified queen",
+          "entryId": "l2"
+        },
+        {
+          "y": -255,
+          "l": "Zenon, the estate manager",
+          "entryId": "l4"
+        },
+        {
+          "y": -250,
+          "l": "The scholars of the Museum",
+          "entryId": "l3"
+        },
+        {
+          "y": -160,
+          "l": "Ptolemaios, the recluse of the Serapeum",
+          "entryId": "l6"
+        },
+        {
+          "y": -150,
+          "l": "The choachytes of Thebes",
+          "entryId": "l5"
+        },
+        {
+          "y": -40,
+          "l": "Cleopatra VII, the last pharaoh",
+          "entryId": "l1"
+        }
+      ]
     }
   ]
 }
