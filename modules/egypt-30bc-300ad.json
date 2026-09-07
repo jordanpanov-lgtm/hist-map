@@ -1035,7 +1035,64 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "Alexandria the second city of the empire, the Nile and the Eastern Desert, and Meroe beyond the cataract",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Urban Life",
+          "label": "Alexandria, the second city of the empire",
+          "date": "c.30 BC–300 AD",
+          "loc": "Alexandria",
+          "coords": [
+            31.2,
+            29.9
+          ],
+          "hint": "With perhaps half a million people, Alexandria was the largest city in the empire after Rome and, in commerce and learning, its rival. It held the tomb of Alexander, the Museum and the great library at the Serapeum, the busiest harbours in the Mediterranean, a mint, and a population — Greek, Egyptian, Jewish, Syrian, and everything the trade routes brought — famous for rioting over an insult, a tax or a bishop. The country of Egypt often seemed a hinterland to its own coastal capital.",
+          "tag": "EVENT",
+          "note": "Strabo 17.1.6–13; Dio Chrysostom, Oration 32 (the Alexandrian crowd). Christopher Haas, Alexandria in Late Antiquity (1997); P.M. Fraser, Ptolemaic Alexandria (1972) for the earlier city."
+        },
+        {
+          "id": "w2",
+          "group": "Climate & Environment",
+          "label": "The Nile, the flood and the Nilometer",
+          "date": "c.30 BC–300 AD",
+          "loc": "Elephantine (Aswan)",
+          "coords": [
+            24.086,
+            32.887
+          ],
+          "hint": "Everything still turned on the summer flood. Its height was read off graduated Nilometers — the best known cut into the rock at Elephantine — and reported to Alexandria, where it set the year's land-tax assessment; a 'good Nile' was announced on the coinage. When the flood failed, as in 99 AD, famine and unrest followed within the year, and the papyri fill with petitions for tax relief on land the water never reached.",
+          "tag": "EVIDENCE",
+          "note": "Danielle Bonneau, Le fisc et le Nil (1971) and La crue du Nil (1964). Nilometers: the Elephantine and Roda structures. Nile-flood coin types of Alexandria: the 'good Nile' issues."
+        },
+        {
+          "id": "w3",
+          "group": "Landscape & Frontiers",
+          "label": "The Eastern Desert put to work",
+          "date": "c.20–260 AD",
+          "loc": "the Eastern Desert",
+          "coords": [
+            26.5,
+            33.5
+          ],
+          "hint": "Between the Nile and the Red Sea, Rome built a working landscape where there had been only tracks: two great imperial quarries, gold mines, a lattice of guarded roads with dug wells and stone forts every day's march, and the two Red Sea ports at the eastern end. Camel caravans moved stone, grain, water and trade goods across it, and the nomads the Greeks called Trogodytes and Blemmyes were alternately employed, traded with and fought.",
+          "tag": "EVIDENCE",
+          "note": "Steven Sidebotham, Martin Hense & Hendrikje Nouwens, The Red Land: The Illustrated Archaeology of Egypt's Eastern Desert (2008); Hélène Cuvigny (ed.), Rome in Egypt's Eastern Desert (2018)."
+        },
+        {
+          "id": "w4",
+          "group": "Population",
+          "label": "Plague and the Roman-Egyptian demography",
+          "date": "c.165–270 AD",
+          "loc": "the Nile chora",
+          "coords": [
+            29.3,
+            30.9
+          ],
+          "hint": "Two great pandemics reached Egypt with the wider empire: the Antonine Plague from 165–166, and the 'Plague of Cyprian' from about 249. Tax registers record sudden gaps in village populations, remissions on the land of the dead, and rising wages for scarce labour. Against these shocks, the thousands of surviving census returns let historians reconstruct an ordinary Roman-Egyptian demography — life expectancy at birth around twenty-five, near-universal early marriage, and high fertility barely keeping ahead of death.",
+          "tag": "EVIDENCE",
+          "note": "Roger Bagnall & Bruce Frier, The Demography of Roman Egypt (1994). Plague in the papyri: Kyle Harper, The Fate of Rome (2017); R.P. Duncan-Jones, 'The Impact of the Antonine Plague', JRA 9 (1996)."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -1044,7 +1101,92 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "The village scribe, the soldier's family, the philosopher Plotinus, and the martyrs of the Great Persecution",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Everyday Life",
+          "label": "The village scribe",
+          "date": "c.180–190 AD",
+          "loc": "Ptolemais Hormou (Faiyum)",
+          "coords": [
+            29.28,
+            31
+          ],
+          "hint": "Petaus son of Petaus served as village scribe for a cluster of Faiyum villages in the 180s, and his working file survives. It includes a sheet on which he practised writing the opening words of his own certifying formula over and over — 'Petaus, village scribe, I have submitted' — getting the spelling wrong. He could sign and file, but not really read. He is a sharp reminder that the machinery of the best-documented ancient state was run, at the bottom, by the barely literate.",
+          "tag": "DOCUMENT",
+          "note": "The archive of Petaus: Ursula Hagedorn et al., Das Archiv des Petaus (P. Petaus) (1969). Herbert Youtie, 'ΒΡΑΔΕΩΣ ΓΡΑΦΩΝ: Between Literacy and Illiteracy', GRBS 12 (1971)."
+        },
+        {
+          "id": "l2",
+          "group": "Everyday Life",
+          "label": "The soldier and his family",
+          "date": "c.100–130 AD",
+          "loc": "Karanis (Faiyum)",
+          "coords": [
+            29.52,
+            30.9
+          ],
+          "hint": "An auxiliary or legionary posted to Egypt could not legally marry while serving, but in practice kept a household near his base, fathered children, and on discharge received Roman citizenship, a cash bounty or land, and legitimation of his family. Veterans clustered in villages like Karanis, and their archives — enlistment papers, pay records, wills, and letters home like the young recruit Apion's cheerful note from the fleet at Misenum — trace the army as a route out of Egyptian village life and into the Roman order.",
+          "tag": "DOCUMENT",
+          "note": "Apion's letter: BGU II 423. Soldiers' archives: the dossier of the veteran Lucius Bellienus Gemellus (P. Fay.); Sara Phang, The Marriage of Roman Soldiers (2001); Richard Alston, Soldier and Society in Roman Egypt (1995)."
+        },
+        {
+          "id": "l3",
+          "group": "Scholars",
+          "label": "Philo of Alexandria",
+          "date": "c.20 BC–50 AD",
+          "loc": "Alexandria",
+          "coords": [
+            31.2,
+            29.9
+          ],
+          "hint": "Philo was the leading intellectual of Alexandrian Jewry: a philosopher who read the Torah, in its Greek version, as an allegory of the soul's journey, harmonising Moses with Plato and the Stoics in a way that would shape Christian theology far more than later Jewish thought. He came from the city's Jewish aristocracy — his brother was the tax-farmer Alexander, his nephew Tiberius Julius Alexander became prefect of Egypt — and in old age he led the community's embassy to the emperor Gaius after the pogrom of 38.",
+          "tag": "EVIDENCE",
+          "note": "Philo's works, esp. On the Creation, Allegorical Interpretation, In Flaccum, Legatio. Maren Niehoff, Philo of Alexandria: An Intellectual Biography (2018)."
+        },
+        {
+          "id": "l4",
+          "group": "Scholars",
+          "label": "Plotinus of Lycopolis",
+          "date": "c.204–245 AD",
+          "loc": "Lycopolis (Asyut)",
+          "coords": [
+            27.18,
+            31.18
+          ],
+          "hint": "Plotinus was born at Lycopolis in Upper Egypt around 204. He found his teacher in the Alexandrian Ammonius Saccas and stayed eleven years, joined the emperor Gordian's Persian expedition hoping to learn Eastern philosophy (it failed; he barely escaped), and settled in Rome to teach. His pupil Porphyry says he seemed 'ashamed to be in a body' and would never sit for a portrait. The system he built there, of the One overflowing into Intellect and Soul, is the foundation of Neoplatonism.",
+          "tag": "EVIDENCE",
+          "note": "Porphyry, Life of Plotinus. Plotinus, Enneads (Armstrong's Loeb). Lloyd Gerson (ed.), The Cambridge Companion to Plotinus (1996)."
+        },
+        {
+          "id": "l5",
+          "group": "Everyday Life",
+          "label": "The women of the papyri",
+          "date": "c.30 BC–300 AD",
+          "loc": "Oxyrhynchus",
+          "coords": [
+            28.53,
+            30.66
+          ],
+          "hint": "Egyptian women of the Roman period appear constantly in the documents as economic and legal actors: owning and farming land, lending money at interest, running weaving businesses, going to court, dividing inheritances, and heading households. Roman law required a woman to act through a male guardian for formal transactions, but the papyri show the requirement often reduced to a signature, and a woman with three children could be exempted from it entirely under Augustus's law. Their marriages, dowries, divorces and disputes are documented in unusual detail.",
+          "tag": "EVIDENCE",
+          "note": "Jane Rowlandson (ed.), Women and Society in Greek and Roman Egypt: A Sourcebook (1998); Roger Bagnall & Raffaella Cribiore, Women's Letters from Ancient Egypt (2006)."
+        },
+        {
+          "id": "l6",
+          "group": "Christianity",
+          "label": "The martyrs and Bishop Dionysius",
+          "date": "202–260 AD",
+          "loc": "Alexandria",
+          "coords": [
+            31.2,
+            29.9
+          ],
+          "hint": "The persecutions produced Egypt's first Christian heroes and its first crisis of authority. Under Severus in 202 died Leonides, the father of Origen, and the young Potamiaena with the soldier Basilides who spared her. Half a century later, Bishop Dionysius of Alexandria wrote circulating letters describing the Decian terror of 250 — the queues to sacrifice, the tortured and the lapsed — and then the plague that followed, in which Christians who nursed the dying 'took the sickness on themselves'. Others, like Antony around 270, answered the age by walking into the desert.",
+          "tag": "EVIDENCE",
+          "note": "Eusebius, Historia Ecclesiastica 6.1–5, 6.40–42, 7.22 (Dionysius's letters). The Passion of Potamiaena. Athanasius, Life of Antony 1–3."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -1053,98 +1195,501 @@
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "The Augustan Settlement",
-      "events": []
+      "events": [
+        {
+          "y": -30,
+          "y2": 14,
+          "l": "The Augustan settlement",
+          "entryId": "k1"
+        },
+        {
+          "y": -30,
+          "y2": -26,
+          "l": "Cornelius Gallus, first prefect",
+          "entryId": "k2"
+        },
+        {
+          "y": -30,
+          "y2": 300,
+          "l": "The prefecture of Egypt (institution)",
+          "entryId": "k14"
+        }
+      ]
     },
     {
       "id": "principate",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Egypt under the Emperors",
-      "events": []
+      "events": [
+        {
+          "y": 14,
+          "y2": 37,
+          "l": "Tiberius; Germanicus's visit (19)",
+          "entryId": "k3"
+        },
+        {
+          "y": 37,
+          "y2": 41,
+          "l": "Gaius and the Alexandrian crisis",
+          "entryId": "k4"
+        },
+        {
+          "y": 69,
+          "y2": 79,
+          "l": "Vespasian proclaimed at Alexandria (69)",
+          "entryId": "k5"
+        },
+        {
+          "y": 98,
+          "y2": 117,
+          "l": "Trajan — canal, fort, Jewish war",
+          "entryId": "k6"
+        },
+        {
+          "y": 117,
+          "y2": 138,
+          "l": "Hadrian's Nile journey (130–131)",
+          "entryId": "k7"
+        },
+        {
+          "y": 161,
+          "y2": 180,
+          "l": "Marcus Aurelius; the Boukoloi (172)",
+          "entryId": "k8"
+        },
+        {
+          "y": 193,
+          "y2": 211,
+          "l": "Septimius Severus (visit 199–201)",
+          "entryId": "k9"
+        },
+        {
+          "y": 211,
+          "y2": 217,
+          "l": "Caracalla — citizenship and massacre",
+          "entryId": "k10"
+        }
+      ]
     },
     {
       "id": "crisis",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "The Third-Century Crisis and Diocletian",
-      "events": []
+      "events": [
+        {
+          "y": 249,
+          "y2": 284,
+          "l": "The third-century crisis",
+          "entryId": "k11"
+        },
+        {
+          "y": 284,
+          "y2": 305,
+          "l": "Diocletian — siege and reorganisation",
+          "entryId": "k13"
+        }
+      ]
     },
     {
       "id": "revolts",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Revolts, Usurpers and the Palmyrene Interlude",
-      "events": []
+      "events": [
+        {
+          "y": 270,
+          "y2": 272,
+          "l": "The Palmyrene occupation",
+          "entryId": "k12"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
       "label": "Conflict",
-      "events": []
+      "events": [
+        {
+          "y": -29,
+          "l": "The Thebaid tax revolt",
+          "entryId": "c2"
+        },
+        {
+          "y": -24,
+          "l": "The war with Meroe",
+          "entryId": "c1"
+        },
+        {
+          "y": 38,
+          "l": "The Alexandrian pogrom of 38 AD",
+          "entryId": "c3"
+        },
+        {
+          "y": 116,
+          "l": "The Diaspora Revolt",
+          "entryId": "c4"
+        },
+        {
+          "y": 172,
+          "l": "The revolt of the Boukoloi",
+          "entryId": "c5"
+        },
+        {
+          "y": 215,
+          "l": "Caracalla's massacre at Alexandria",
+          "entryId": "c6"
+        },
+        {
+          "y": 271,
+          "l": "The Palmyrene war and Aurelian's reconquest",
+          "entryId": "c7"
+        },
+        {
+          "y": 297,
+          "l": "The siege of Alexandria, 297–298",
+          "entryId": "c8"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
       "label": "Order",
-      "events": []
+      "events": [
+        {
+          "y": -20,
+          "l": "The closed province",
+          "entryId": "o1"
+        },
+        {
+          "y": 10,
+          "l": "The status hierarchy",
+          "entryId": "o3"
+        },
+        {
+          "y": 20,
+          "l": "The census, records and poll tax",
+          "entryId": "o2"
+        },
+        {
+          "y": 40,
+          "l": "The army of Egypt",
+          "entryId": "o7"
+        },
+        {
+          "y": 100,
+          "l": "Roman law and Egyptian custom",
+          "entryId": "o5"
+        },
+        {
+          "y": 150,
+          "l": "The liturgy system",
+          "entryId": "o4"
+        },
+        {
+          "y": 200,
+          "l": "The nome, the metropolis and the council",
+          "entryId": "o6"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
       "label": "Belief",
-      "events": []
+      "events": [
+        {
+          "y": 50,
+          "l": "The pharaoh who never came",
+          "entryId": "b1"
+        },
+        {
+          "y": 100,
+          "l": "Isis conquers the empire",
+          "entryId": "b2"
+        },
+        {
+          "y": 130,
+          "l": "Christianity comes to Alexandria and the villages",
+          "entryId": "b3"
+        },
+        {
+          "y": 150,
+          "l": "Gods, oracles, horoscopes and spells in daily life",
+          "entryId": "b7"
+        },
+        {
+          "y": 160,
+          "l": "Gnostics and Hermetists",
+          "entryId": "b5"
+        },
+        {
+          "y": 200,
+          "l": "The Catechetical School",
+          "entryId": "b4"
+        },
+        {
+          "y": 250,
+          "l": "The persecutions and the Era of the Martyrs",
+          "entryId": "b6"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
       "label": "Expression",
-      "events": []
+      "events": [
+        {
+          "y": 100,
+          "l": "The last Egyptian temples",
+          "entryId": "x2"
+        },
+        {
+          "y": 120,
+          "l": "The Faiyum mummy portraits",
+          "entryId": "x1"
+        },
+        {
+          "y": 130,
+          "l": "The games, the pantomime and the water-organ",
+          "entryId": "x6"
+        },
+        {
+          "y": 150,
+          "l": "Roman Alexandria",
+          "entryId": "x3"
+        },
+        {
+          "y": 155,
+          "l": "Lost Greek literature from the rubbish mounds",
+          "entryId": "x4"
+        },
+        {
+          "y": 200,
+          "l": "The making of Coptic",
+          "entryId": "x5"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
       "label": "Thought",
-      "events": []
+      "events": [
+        {
+          "y": 62,
+          "l": "Hero of Alexandria",
+          "entryId": "t6"
+        },
+        {
+          "y": 100,
+          "l": "The birth of alchemy",
+          "entryId": "t3"
+        },
+        {
+          "y": 150,
+          "l": "Ptolemy's synthesis",
+          "entryId": "t1"
+        },
+        {
+          "y": 155,
+          "l": "Alexandria, the school of the doctors",
+          "entryId": "t2"
+        },
+        {
+          "y": 200,
+          "l": "The Museum after its golden age",
+          "entryId": "t4"
+        },
+        {
+          "y": 232,
+          "l": "The Alexandrian roots of Neoplatonism",
+          "entryId": "t5"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
       "label": "Economy",
-      "events": []
+      "events": [
+        {
+          "y": 20,
+          "l": "The grain of Rome",
+          "entryId": "e1"
+        },
+        {
+          "y": 30,
+          "l": "The surveyed land and imperial estates",
+          "entryId": "e2"
+        },
+        {
+          "y": 100,
+          "l": "The Faiyum villages",
+          "entryId": "e3"
+        },
+        {
+          "y": 110,
+          "l": "The imperial quarries of the Eastern Desert",
+          "entryId": "e6"
+        },
+        {
+          "y": 150,
+          "l": "The town economy and the guilds",
+          "entryId": "e5"
+        },
+        {
+          "y": 260,
+          "l": "The closed coinage and the third-century collapse",
+          "entryId": "e4"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
       "label": "Technology",
-      "events": []
+      "events": [
+        {
+          "y": 50,
+          "l": "The monsoon sailing route",
+          "entryId": "g1"
+        },
+        {
+          "y": 80,
+          "l": "Alexandrian instruments and machines in use",
+          "entryId": "g4"
+        },
+        {
+          "y": 90,
+          "l": "Alexandrian glass and luxury craft",
+          "entryId": "g5"
+        },
+        {
+          "y": 100,
+          "l": "Perennial irrigation at village scale",
+          "entryId": "g3"
+        },
+        {
+          "y": 110,
+          "l": "Extracting and moving imperial stone",
+          "entryId": "g2"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
       "label": "Exchange",
-      "events": []
+      "events": [
+        {
+          "y": 20,
+          "l": "Meroe and the long peace at the cataract",
+          "entryId": "xc4"
+        },
+        {
+          "y": 60,
+          "l": "The India trade at its height",
+          "entryId": "xc1"
+        },
+        {
+          "y": 110,
+          "l": "Life in the desert forts",
+          "entryId": "xc3"
+        },
+        {
+          "y": 116,
+          "l": "The end of Egyptian Jewry",
+          "entryId": "xc6"
+        },
+        {
+          "y": 130,
+          "l": "Egypt as antiquity, wonder and the grotesque",
+          "entryId": "xc5"
+        },
+        {
+          "y": 150,
+          "l": "The Muziris papyrus",
+          "entryId": "xc2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
       "label": "World",
-      "events": []
+      "events": [
+        {
+          "y": 30,
+          "l": "The Nile, the flood and the Nilometer",
+          "entryId": "w2"
+        },
+        {
+          "y": 100,
+          "l": "Alexandria, the second city of the empire",
+          "entryId": "w1"
+        },
+        {
+          "y": 110,
+          "l": "The Eastern Desert put to work",
+          "entryId": "w3"
+        },
+        {
+          "y": 170,
+          "l": "Plague and the Roman-Egyptian demography",
+          "entryId": "w4"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
       "label": "Lives",
-      "events": []
+      "events": [
+        {
+          "y": 30,
+          "l": "Philo of Alexandria",
+          "entryId": "l3"
+        },
+        {
+          "y": 120,
+          "l": "The soldier and his family",
+          "entryId": "l2"
+        },
+        {
+          "y": 130,
+          "l": "The women of the papyri",
+          "entryId": "l5"
+        },
+        {
+          "y": 185,
+          "l": "The village scribe",
+          "entryId": "l1"
+        },
+        {
+          "y": 232,
+          "l": "Plotinus of Lycopolis",
+          "entryId": "l4"
+        },
+        {
+          "y": 250,
+          "l": "The martyrs and Bishop Dionysius",
+          "entryId": "l6"
+        }
+      ]
     }
   ]
 }
