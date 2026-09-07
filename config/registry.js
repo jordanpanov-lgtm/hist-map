@@ -51,6 +51,7 @@ const MODULES = [
   { id:"fatimids-909-1171",     file:"modules/fatimids-909-1171.json",     label:"The Fatimid Caliphate 909–1171", sub:"The Ismaili Counter-Caliphate, Cairo and the Red Sea World", region:"Egypt", period:"Medieval" },
   { id:"ayyubids-1171-1250",    file:"modules/ayyubids-1171-1250.json",    label:"The Ayyubid Sultanate 1171–1250", sub:"Saladin's Confederation, the Sunnisation of Egypt and the Crusades", region:"Egypt", period:"Medieval" },
   { id:"mamluks-1250-1517",     file:"modules/mamluks-1250-1517.json",     label:"The Mamluk Sultanate 1250–1517", sub:"The Slave-Soldier Empire, the Mongol Wall and the Cairo of the Sultans", region:"Egypt", period:"Medieval" },
+  { id:"egypt-1517-1798",       file:"modules/egypt-1517-1798.json",       label:"Ottoman Egypt 1517–1798", sub:"The Eyalet, the Return of the Mamluks, and the Eve of the Modern", region:"Egypt", period:"Early Modern" },
   // PLANNED — successor territorial empires: ottomans-* (region:"Near East"), and safavid-iran /
   //   mughals under their zones.
   // ── ARABIA is split into two zones (config/regions.js): "NW Arabia" (the Hejaz,
