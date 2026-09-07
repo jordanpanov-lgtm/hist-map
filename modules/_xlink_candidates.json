@@ -1,15 +1,15 @@
 {
   "_meta": {
-    "generated": "2026-09-06",
-    "figure_matches": 753,
-    "figure_matches_rejected_dynasty_mismatch": 908,
-    "figure_matches_rejected_date_implausible": 1063,
+    "generated": "2026-09-07",
+    "figure_matches": 756,
+    "figure_matches_rejected_dynasty_mismatch": 909,
+    "figure_matches_rejected_date_implausible": 1068,
     "dynasty_alignment_proposals_count": 62,
-    "keyword_matches": 3710,
-    "keyword_matches_rejected_geo_only": 8693,
-    "high_confidence": 780,
+    "keyword_matches": 3728,
+    "keyword_matches_rejected_geo_only": 8696,
+    "high_confidence": 783,
     "medium_confidence": 315,
-    "low_confidence": 3368
+    "low_confidence": 3386
   },
   "figure_name_matches": [
     {
@@ -2431,6 +2431,28 @@
       },
       "xlink_a": "caliphate-632-750::ec5",
       "xlink_b": "hejaz-632-1517::ec2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Papyrus",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "Papyrus, the chancery and the 'protocol'",
+        "dynasty": "Umayyad",
+        "decade": "640s–750s"
+      },
+      "match": {
+        "folio": "egypt-664bc-332bc",
+        "id": "e6",
+        "cat": "economy",
+        "label": "Grain, papyrus, natron and linen",
+        "decade": "330s BC–600s"
+      },
+      "xlink_a": "caliphate-632-750::tc2",
+      "xlink_b": "egypt-664bc-332bc::e6"
     },
     {
       "confidence": "high",
@@ -15587,6 +15609,50 @@
       },
       "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
       "xlink_b": "egypt-1550bc-1200bc::g2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iron",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Iron smelting at scale",
+        "dynasty": "Abiel",
+        "decade": "100s BC–200s"
+      },
+      "match": {
+        "folio": "egypt-664bc-332bc",
+        "id": "g1",
+        "cat": "technology",
+        "label": "Carving the hard stones without iron",
+        "decade": "340s BC–600s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
+      "xlink_b": "egypt-664bc-332bc::g1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iron",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Iron smelting at scale",
+        "dynasty": "Abiel",
+        "decade": "100s BC–200s"
+      },
+      "match": {
+        "folio": "egypt-664bc-332bc",
+        "id": "g4",
+        "cat": "technology",
+        "label": "Iron becomes common",
+        "decade": "400s BC–600s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-240ad::tc1",
+      "xlink_b": "egypt-664bc-332bc::g4"
     },
     {
       "confidence": "high",
@@ -47158,6 +47224,110 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "Cambyses II — Egypt becomes a Persian province",
+        "decade": "520s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-664bc-332bc::k7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "o3",
+        "cat": "order",
+        "label": "The law of Egypt codified",
+        "decade": "510s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-664bc-332bc::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "o4",
+        "cat": "order",
+        "label": "Egypt as a Persian satrapy",
+        "decade": "330s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-664bc-332bc::o4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k18",
+        "cat": "power",
+        "label": "Shabaka and Shebitku — one kingdom of Egypt and Kush",
+        "decade": "690s BC–710s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "e3",
+        "cat": "economy",
+        "label": "Coinage reaches Egypt",
+        "decade": "350s BC–500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k18",
+      "xlink_b": "egypt-664bc-332bc::e3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
         "Levant"
       ],
       "sharedCount": 2,
@@ -47236,6 +47406,110 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "Foreign gods and words in Egypt",
+        "decade": "1200s BC–1400s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "Cambyses II — Egypt becomes a Persian province",
+        "decade": "520s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::xc6",
+      "xlink_b": "egypt-664bc-332bc::k7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "Foreign gods and words in Egypt",
+        "decade": "1200s BC–1400s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "o3",
+        "cat": "order",
+        "label": "The law of Egypt codified",
+        "decade": "510s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::xc6",
+      "xlink_b": "egypt-664bc-332bc::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "Foreign gods and words in Egypt",
+        "decade": "1200s BC–1400s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "o4",
+        "cat": "order",
+        "label": "Egypt as a Persian satrapy",
+        "decade": "330s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::xc6",
+      "xlink_b": "egypt-664bc-332bc::o4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "xc6",
+        "cat": "exchange",
+        "label": "Foreign gods and words in Egypt",
+        "decade": "1200s BC–1400s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "e3",
+        "cat": "economy",
+        "label": "Coinage reaches Egypt",
+        "decade": "350s BC–500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1550bc-1200bc::xc6",
+      "xlink_b": "egypt-664bc-332bc::e3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
         "Middle Kingdom"
       ],
       "sharedCount": 2,
@@ -47256,6 +47530,110 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-2100bc-1550bc::k1",
       "xlink_b": "egypt-3000bc-2100bc::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The nome system — Egypt's provincial administration",
+        "decade": "2600s BC–2900s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "Cambyses II — Egypt becomes a Persian province",
+        "decade": "520s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::o1",
+      "xlink_b": "egypt-664bc-332bc::k7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The nome system — Egypt's provincial administration",
+        "decade": "2600s BC–2900s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "o3",
+        "cat": "order",
+        "label": "The law of Egypt codified",
+        "decade": "510s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::o1",
+      "xlink_b": "egypt-664bc-332bc::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The nome system — Egypt's provincial administration",
+        "decade": "2600s BC–2900s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "o4",
+        "cat": "order",
+        "label": "Egypt as a Persian satrapy",
+        "decade": "330s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::o1",
+      "xlink_b": "egypt-664bc-332bc::o4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "o1",
+        "cat": "order",
+        "label": "The nome system — Egypt's provincial administration",
+        "decade": "2600s BC–2900s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "e3",
+        "cat": "economy",
+        "label": "Coinage reaches Egypt",
+        "decade": "350s BC–500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-3000bc-2100bc::o1",
+      "xlink_b": "egypt-664bc-332bc::e3"
     },
     {
       "confidence": "low",
@@ -68394,6 +68772,32 @@
       "date_flag": "958yr gap — verify same entity, not just shared theme",
       "xlink_a": "caliphate-750-945::b1",
       "xlink_b": "hejaz-1517-1900::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iron",
+        "Near East"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "dilmun-1200bc-600bc",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "Iron reaches the Gulf",
+        "decade": "600s BC–1000s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "g4",
+        "cat": "technology",
+        "label": "Iron becomes common",
+        "decade": "400s BC–600s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "dilmun-1200bc-600bc::tc2",
+      "xlink_b": "egypt-664bc-332bc::g4"
     },
     {
       "confidence": "low",
@@ -106359,6 +106763,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "God Wife of Amun",
+        "Thebes Karnak"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k15",
+        "cat": "power",
+        "label": "The God's Wife of Amun as ruler of the south",
+        "decade": "660s BC–850s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The end of the Kushite claim",
+        "decade": "650s BC–660s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::k15",
+      "xlink_b": "egypt-664bc-332bc::c1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Amun",
         "Thebes Karnak"
       ],
@@ -106380,6 +106810,58 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-1200bc-664bc::b1",
       "xlink_b": "egypt-1550bc-1200bc::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Intermediate Period",
+        "Thebes Karnak"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "x4",
+        "cat": "expression",
+        "label": "The age of bronze statuary",
+        "decade": "700s BC–900s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "x7",
+        "cat": "expression",
+        "label": "Temple music and the arriving aulos",
+        "decade": "330s BC–600s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::x4",
+      "xlink_b": "egypt-664bc-332bc::x7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "God Wife of Amun",
+        "Thebes Karnak"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "x7",
+        "cat": "expression",
+        "label": "The chantress and the temple choir",
+        "decade": "660s BC–1000s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The end of the Kushite claim",
+        "decade": "650s BC–660s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::x7",
+      "xlink_b": "egypt-664bc-332bc::c1"
     },
     {
       "confidence": "low",
@@ -106458,6 +106940,58 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-1200bc-664bc::k14",
       "xlink_b": "egypt-1550bc-1200bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Lower Egypt",
+        "Memphis"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "k12",
+        "cat": "power",
+        "label": "Salitis — the founding of the Hyksos kingdom",
+        "decade": "1650s BC"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "k9",
+        "cat": "power",
+        "label": "Xerxes I to Artaxerxes I — revolt and reconquest",
+        "decade": "420s BC–480s"
+      },
+      "date_flag": "1226yr gap — verify same entity, not just shared theme",
+      "xlink_a": "egypt-2100bc-1550bc::k12",
+      "xlink_b": "egypt-664bc-332bc::k9"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Middle Kingdom",
+        "Thebes Asasif"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "x5",
+        "cat": "expression",
+        "label": "The archaising turn",
+        "decade": "660s BC–750s"
+      },
+      "b": {
+        "folio": "egypt-664bc-332bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "The Saite revival of Old Kingdom art",
+        "decade": "600s BC–660s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::x5",
+      "xlink_b": "egypt-664bc-332bc::x1"
     },
     {
       "confidence": "low",
@@ -106900,6 +107434,32 @@
       "date_flag": "100yr gap — verify same entity, not just shared theme",
       "xlink_a": "egypt-3000bc-2100bc::k1",
       "xlink_b": "egypt-6000bc-3000bc::x4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Africa",
+        "Cape"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hormuz-1200-1507",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Portuguese round Africa",
+        "decade": "1480s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "w5",
+        "cat": "world",
+        "label": "The spice route goes around Africa",
+        "decade": "1490s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hormuz-1200-1507::w5",
+      "xlink_b": "mamluks-1250-1517::w5"
     },
     {
       "confidence": "low",
@@ -108122,32 +108682,6 @@
       "date_flag": "254yr gap — verify same entity, not just shared theme",
       "xlink_a": "spain-1516-1700::lv1",
       "xlink_b": "spain-1900-1975::lv2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Africa",
-        "Cape"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "hormuz-1200-1507",
-        "id": "w5",
-        "cat": "world",
-        "label": "The Portuguese round Africa",
-        "decade": "1480s"
-      },
-      "b": {
-        "folio": "mamluks-1250-1517",
-        "id": "w5",
-        "cat": "world",
-        "label": "The spice route goes around Africa",
-        "decade": "1490s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "hormuz-1200-1507::w5",
-      "xlink_b": "mamluks-1250-1517::w5"
     },
     {
       "confidence": "low",

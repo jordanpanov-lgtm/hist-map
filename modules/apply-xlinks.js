@@ -31,6 +31,18 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-664bc-332bc (The Late Period): hand-off from Priests, Libyans and Kushites ──
+  ['egypt-664bc-332bc::k1', 'egypt-1200bc-664bc::k20'],   // Tantamani and the sack of Thebes → Psamtik I takes over
+  ['egypt-664bc-332bc::k1', 'egypt-1200bc-664bc::xc6'],   // the Ionians and Carians appear → the 'bronze men' who serve Psamtik I
+  ['egypt-664bc-332bc::c1', 'egypt-1200bc-664bc::k15'],   // the God's Wife rules the south → the Nitocris adoption secures Thebes
+  ['egypt-664bc-332bc::c1', 'egypt-1200bc-664bc::l4'],    // Montuemhat, lord of Thebes → the handover to the Saites
+  ['egypt-664bc-332bc::b1', 'egypt-1200bc-664bc::x5'],    // the archaising turn → the Saite renaissance of art and religion
+  ['egypt-664bc-332bc::b3', 'egypt-1200bc-664bc::b3'],    // the sacred animals move to centre stage → the Apis and the Serapeum
+  ['egypt-664bc-332bc::e1', 'egypt-1200bc-664bc::xc6'],   // Greeks and Carians on the coast → the trade port of Naukratis
+  ['egypt-664bc-332bc::t2', 'egypt-1200bc-664bc::t1'],    // the temple as archive and House of Life → the priestly sciences
+  ['egypt-664bc-332bc::w4', 'egypt-1200bc-664bc::w4'],    // the rise of Kush at Napata → Kush turns to Meroe
+  ['egypt-664bc-332bc::c4', 'egypt-1200bc-664bc::b4'],    // the Kushite revival of Amun → Psamtik II's raid pushes Kush south
+  ['egypt-664bc-332bc::c3', 'egypt-1200bc-664bc::xc3'],   // Egypt among the Levantine kingdoms → Carchemish ends that role
   // ── egypt-1200bc-664bc (Priests, Libyans and Kushites): hand-off from The New Kingdom folio ──
   ['egypt-1200bc-664bc::k1', 'egypt-1550bc-1200bc::k19'],   // the disputed end of Dyn 19 → Setnakhte restores order
   ['egypt-1200bc-664bc::c1', 'egypt-1550bc-1200bc::w4'],    // the Sea Peoples appear → Ramesses III repels them
