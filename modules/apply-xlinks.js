@@ -31,6 +31,21 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── babylon-2004bc-1595bc (Hammurabi and the Amorite Kingdoms) ──
+  // hand-off backward from Akkad and the Third Dynasty of Ur:
+  ['babylon-2004bc-1595bc::k1',  'mesopotamia-2334bc-2004bc::e6'],  // Ishbi-Erra, sent to buy grain, founds Isin on the wreck of Ur
+  ['babylon-2004bc-1595bc::x3',  'mesopotamia-2334bc-2004bc::x5'],  // the Sumerian literary Renaissance copied on in the OB schools
+  ['babylon-2004bc-1595bc::x3',  'mesopotamia-2334bc-2004bc::t2'],  // preserving a dying language -> Sumerian as the schoolroom classic
+  ['babylon-2004bc-1595bc::o1',  'mesopotamia-2334bc-2004bc::o5'],  // the Code of Hammurabi in the line of the Code of Ur-Namma
+  ['babylon-2004bc-1595bc::t1',  'mesopotamia-2334bc-2004bc::t3'],  // the sexagesimal system matures into the golden age of OB mathematics
+  ['babylon-2004bc-1595bc::e5',  'mesopotamia-2334bc-2004bc::w2'],  // the salt of the south -> the abandonment of the oldest farmland
+  ['babylon-2004bc-1595bc::w1',  'mesopotamia-2334bc-2004bc::w3'],  // the Amorite migration -> the completed Amorite settlement
+  ['babylon-2004bc-1595bc::w1',  'mesopotamia-2334bc-2004bc::xc4'], // the Amorites enter the record -> they now rule everywhere
+  ['babylon-2004bc-1595bc::xc5', 'mesopotamia-2334bc-2004bc::xc5'], // Elam — province, then destroyer, then great power of the Mari age
+  ['babylon-2004bc-1595bc::b3',  'sumer-2900bc-2334bc::l3'],        // the naditu businesswoman-priestess and the range of women's lives
+  // lateral to Dilmun (the Gulf trade):
+  ['babylon-2004bc-1595bc::xc4', 'dilmun-3000bc-1200bc::ec2'],      // Ea-nasir and the alik Tilmun merchants of Ur
+  ['babylon-2004bc-1595bc::xc4', 'dilmun-3000bc-1200bc::k1'],       // <-> Dilmun in the cuneiform record
   // ── mesopotamia-2334bc-2004bc (Akkad and the Third Dynasty of Ur) ──
   // hand-off backward from The Sumerian City-States:
   ['mesopotamia-2334bc-2004bc::k1',  'sumer-2900bc-2334bc::k12'],  // Sargon defeats Lugalzagesi and founds the first empire

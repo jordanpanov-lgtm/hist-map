@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 5075,
     "folio_count": 91,
-    "xlink_pairs": 540,
+    "xlink_pairs": 552,
     "keyword_terms": 8028,
     "folios": [
       {
@@ -5872,6 +5872,79 @@
       "mamluks-1250-1517::k1",
       "mamluks-1250-1517::lv2"
     ],
+    "babylon-2004bc-1595bc::k1": [
+      "mesopotamia-2334bc-2004bc::e6"
+    ],
+    "mesopotamia-2334bc-2004bc::e6": [
+      "babylon-2004bc-1595bc::k1"
+    ],
+    "babylon-2004bc-1595bc::o1": [
+      "mesopotamia-2334bc-2004bc::o5"
+    ],
+    "mesopotamia-2334bc-2004bc::o5": [
+      "babylon-2004bc-1595bc::o1",
+      "sumer-2900bc-2334bc::o5"
+    ],
+    "babylon-2004bc-1595bc::b3": [
+      "sumer-2900bc-2334bc::l3"
+    ],
+    "sumer-2900bc-2334bc::l3": [
+      "babylon-2004bc-1595bc::b3",
+      "mesopotamia-2334bc-2004bc::b3"
+    ],
+    "babylon-2004bc-1595bc::x3": [
+      "mesopotamia-2334bc-2004bc::t2",
+      "mesopotamia-2334bc-2004bc::x5"
+    ],
+    "mesopotamia-2334bc-2004bc::t2": [
+      "babylon-2004bc-1595bc::x3"
+    ],
+    "mesopotamia-2334bc-2004bc::x5": [
+      "babylon-2004bc-1595bc::x3"
+    ],
+    "babylon-2004bc-1595bc::t1": [
+      "mesopotamia-2334bc-2004bc::t3"
+    ],
+    "mesopotamia-2334bc-2004bc::t3": [
+      "babylon-2004bc-1595bc::t1",
+      "sumer-2900bc-2334bc::t4"
+    ],
+    "babylon-2004bc-1595bc::e5": [
+      "mesopotamia-2334bc-2004bc::w2"
+    ],
+    "mesopotamia-2334bc-2004bc::w2": [
+      "babylon-2004bc-1595bc::e5",
+      "sumer-2900bc-2334bc::w2"
+    ],
+    "babylon-2004bc-1595bc::xc4": [
+      "dilmun-3000bc-1200bc::ec2",
+      "dilmun-3000bc-1200bc::k1"
+    ],
+    "dilmun-3000bc-1200bc::ec2": [
+      "babylon-2004bc-1595bc::xc4",
+      "mesopotamia-2334bc-2004bc::e5"
+    ],
+    "dilmun-3000bc-1200bc::k1": [
+      "babylon-2004bc-1595bc::xc4",
+      "sumer-2900bc-2334bc::xc1"
+    ],
+    "babylon-2004bc-1595bc::xc5": [
+      "mesopotamia-2334bc-2004bc::xc5"
+    ],
+    "mesopotamia-2334bc-2004bc::xc5": [
+      "babylon-2004bc-1595bc::xc5",
+      "sumer-2900bc-2334bc::xc5"
+    ],
+    "babylon-2004bc-1595bc::w1": [
+      "mesopotamia-2334bc-2004bc::w3",
+      "mesopotamia-2334bc-2004bc::xc4"
+    ],
+    "mesopotamia-2334bc-2004bc::w3": [
+      "babylon-2004bc-1595bc::w1"
+    ],
+    "mesopotamia-2334bc-2004bc::xc4": [
+      "babylon-2004bc-1595bc::w1"
+    ],
     "beth-qatraye-240-632::k1": [
       "beth-qatraye-632-750::w3"
     ],
@@ -6231,9 +6304,6 @@
     "dilmun-3000bc-1200bc::ec6": [
       "dilmun-1200bc-600bc::ec1"
     ],
-    "dilmun-3000bc-1200bc::k1": [
-      "sumer-2900bc-2334bc::xc1"
-    ],
     "sumer-2900bc-2334bc::xc1": [
       "dilmun-3000bc-1200bc::k1",
       "dilmun-3000bc-1200bc::x1"
@@ -6256,9 +6326,6 @@
     ],
     "sumer-2900bc-2334bc::e5": [
       "dilmun-3000bc-1200bc::ec1"
-    ],
-    "dilmun-3000bc-1200bc::ec2": [
-      "mesopotamia-2334bc-2004bc::e5"
     ],
     "mesopotamia-2334bc-2004bc::e5": [
       "dilmun-3000bc-1200bc::ec2"
@@ -7589,17 +7656,11 @@
       "mesopotamia-2334bc-2004bc::c1",
       "mesopotamia-2334bc-2004bc::x6"
     ],
-    "mesopotamia-2334bc-2004bc::o5": [
-      "sumer-2900bc-2334bc::o5"
-    ],
     "sumer-2900bc-2334bc::o5": [
       "mesopotamia-2334bc-2004bc::o5"
     ],
     "mesopotamia-2334bc-2004bc::b3": [
       "sumer-2900bc-2334bc::l3"
-    ],
-    "sumer-2900bc-2334bc::l3": [
-      "mesopotamia-2334bc-2004bc::b3"
     ],
     "mesopotamia-2334bc-2004bc::b5": [
       "uruk-3800bc-2900bc::b4"
@@ -7611,9 +7672,6 @@
     "mesopotamia-2334bc-2004bc::x6": [
       "sumer-2900bc-2334bc::c5"
     ],
-    "mesopotamia-2334bc-2004bc::t3": [
-      "sumer-2900bc-2334bc::t4"
-    ],
     "sumer-2900bc-2334bc::t4": [
       "mesopotamia-2334bc-2004bc::t3"
     ],
@@ -7623,15 +7681,9 @@
     "sumer-2900bc-2334bc::k13": [
       "mesopotamia-2334bc-2004bc::t5"
     ],
-    "mesopotamia-2334bc-2004bc::xc5": [
-      "sumer-2900bc-2334bc::xc5"
-    ],
     "sumer-2900bc-2334bc::xc5": [
       "mesopotamia-2334bc-2004bc::xc5",
       "uruk-3800bc-2900bc::xc4"
-    ],
-    "mesopotamia-2334bc-2004bc::w2": [
-      "sumer-2900bc-2334bc::w2"
     ],
     "sumer-2900bc-2334bc::w2": [
       "mesopotamia-2334bc-2004bc::w2"
