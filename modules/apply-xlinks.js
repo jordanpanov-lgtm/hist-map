@@ -31,6 +31,13 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── mesopotamia-6500bc-3800bc (Ubaid Mesopotamia): the Ubaid expansion down the Gulf ──
+  ['mesopotamia-6500bc-3800bc::xc3', 'gulf-prehistory-8000bc-3000bc::e2'],   // the Ubaid on the Gulf coast <-> Ubaid painted pottery on the Arabian shore
+  ['mesopotamia-6500bc-3800bc::xc3', 'gulf-prehistory-8000bc-3000bc::x1'],   // <-> the Ubaid maritime network, Kuwait to Qatar to the UAE
+  ['mesopotamia-6500bc-3800bc::xc3', 'gulf-prehistory-8000bc-3000bc::x3'],   // <-> Gulf shell and pearl reach Mesopotamia (the return leg)
+  ['mesopotamia-6500bc-3800bc::xc3', 'gulf-prehistory-8000bc-3000bc::p4'],   // <-> As-Sabiyah, an Ubaid-linked settlement on Kuwait Bay
+  ['mesopotamia-6500bc-3800bc::g6',  'gulf-prehistory-8000bc-3000bc::tc1'],  // the bitumen boat and earliest sail <-> reed boats caulked with bitumen
+  ['mesopotamia-6500bc-3800bc::p6',  'gulf-prehistory-8000bc-3000bc::x1'],   // the Ubaid expansion (one culture, whole basin) reaches the Gulf
   // ── egypt-1952-today (The Egyptian Republic): hand-off from Colonial Egypt and the Monarchy ──
   ['egypt-1952-today::k7', 'egypt-1900-1952::k15'],  // the Free Officers and the 23 July 1952 coup — the same event
   ['egypt-1952-today::k1', 'egypt-1900-1952::l6'],   // the Free Officers → Naguib, their figurehead president
