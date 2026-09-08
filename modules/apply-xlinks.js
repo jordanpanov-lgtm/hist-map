@@ -31,6 +31,30 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── mesopotamia-539bc-331bc (Achaemenid Mesopotamia) ──
+  // hand-off backward from Babylon between Assyria and Persia:
+  ['mesopotamia-539bc-331bc::k1', 'babylon-1155bc-539bc::k11'],  // Cyrus takes Babylon
+  ['mesopotamia-539bc-331bc::c1', 'babylon-1155bc-539bc::c6'],   // Opis and the walk-in of 539
+  ['mesopotamia-539bc-331bc::k1', 'babylon-1155bc-539bc::xc5'],  // the Cyrus Cylinder and the propaganda of the light hand
+  ['mesopotamia-539bc-331bc::o2', 'babylon-1155bc-539bc::o2'],   // the temple survives, now under a royal overseer
+  ['mesopotamia-539bc-331bc::b3', 'babylon-1155bc-539bc::b3'],   // the exile -> the community that returned and the one that stayed
+  ['mesopotamia-539bc-331bc::o3', 'babylon-1155bc-539bc::e2'],   // the Egibi banking house -> the confiscation that ends the archives
+  ['mesopotamia-539bc-331bc::b2', 'babylon-1155bc-539bc::b5'],   // astrology becomes a science -> its great century
+  ['mesopotamia-539bc-331bc::b2', 'babylon-1155bc-539bc::t1'],   // mathematical predictive astronomy — one continuous tradition
+  ['mesopotamia-539bc-331bc::t1', 'babylon-1155bc-539bc::t5'],   // the seven-century Diaries -> the mature ephemeris
+  ['mesopotamia-539bc-331bc::b1', 'babylon-1155bc-539bc::b2'],   // the New Year that remakes the world -> the year with no king to lead it
+  ['mesopotamia-539bc-331bc::b4', 'babylon-1155bc-539bc::o3'],   // the Uruk Eanna archive -> the Uruk revival of Anu
+  ['mesopotamia-539bc-331bc::l4', 'babylon-1155bc-539bc::l2'],   // the Judean exile by the Nippur canal -> the Judean who stayed
+  ['mesopotamia-539bc-331bc::e4', 'babylon-1155bc-539bc::e4'],   // the date-and-canal economy of the south, at its peak
+  ['mesopotamia-539bc-331bc::x1', 'babylon-1155bc-539bc::t4'],   // the commentary and the sacred text — the scholarly tradition holds
+  // lateral to Egypt (the fellow Persian province, then Alexander):
+  ['mesopotamia-539bc-331bc::k1', 'egypt-664bc-332bc::c5'],      // Cambyses' conquest of Egypt at Pelusium
+  ['mesopotamia-539bc-331bc::k2', 'egypt-664bc-332bc::k8'],      // Darius I — the canal, the law code and Hibis, in both provinces
+  ['mesopotamia-539bc-331bc::o1', 'egypt-664bc-332bc::e5'],      // the tribute of a Persian province
+  ['mesopotamia-539bc-331bc::xc3', 'egypt-664bc-332bc::xc4'],    // the Judean diaspora <-> the Jews of Elephantine
+  ['mesopotamia-539bc-331bc::o5', 'egypt-664bc-332bc::l4'],      // the military colonist <-> the mercenaries and their names
+  ['mesopotamia-539bc-331bc::k6', 'egypt-332bc-30bc::c1'],       // Alexander takes Egypt / enters Babylon
+  ['mesopotamia-539bc-331bc::xc5', 'egypt-332bc-30bc::x4'],      // Alexander's Babylonian-capital plan / Alexandria the model Hellenistic city
   // ── assyria-911bc-609bc ∥ babylon-1155bc-539bc (the Ancient-bucket north/south parallel pair) ──
   // The Neo-Assyrian Empire — hand-off backward from the Middle Assyrian Kingdom:
   ['assyria-911bc-609bc::k1', 'assyria-1400bc-1050bc::w4'],   // the dark age that kept the memory -> the recovery
