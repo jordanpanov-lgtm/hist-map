@@ -31,6 +31,26 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── mesopotamia-2334bc-2004bc (Akkad and the Third Dynasty of Ur) ──
+  // hand-off backward from The Sumerian City-States:
+  ['mesopotamia-2334bc-2004bc::k1',  'sumer-2900bc-2334bc::k12'],  // Sargon defeats Lugalzagesi and founds the first empire
+  ['mesopotamia-2334bc-2004bc::c1',  'sumer-2900bc-2334bc::c5'],   // the conquest of Sumer completes the unification Lugalzagesi began
+  ['mesopotamia-2334bc-2004bc::x6',  'sumer-2900bc-2334bc::c5'],   // the city lament grows from the Lament for Lagash
+  ['mesopotamia-2334bc-2004bc::b3',  'sumer-2900bc-2334bc::l3'],   // Enheduanna and the en-priestess of the moon-god at Ur
+  ['mesopotamia-2334bc-2004bc::t5',  'sumer-2900bc-2334bc::k13'],  // the King List as a charter for the current dynasty
+  ['mesopotamia-2334bc-2004bc::o5',  'sumer-2900bc-2334bc::o5'],   // the Code of Ur-Namma -> law without a code before it
+  ['mesopotamia-2334bc-2004bc::w2',  'sumer-2900bc-2334bc::w2'],   // the salt still rising in the south
+  ['mesopotamia-2334bc-2004bc::xc5', 'sumer-2900bc-2334bc::xc5'],  // Elam — larder and threat, then destroyer
+  ['mesopotamia-2334bc-2004bc::t3',  'sumer-2900bc-2334bc::t4'],   // the mathematics of the field matures into sexagesimal place value
+  ['mesopotamia-2334bc-2004bc::b5',  'uruk-3800bc-2900bc::b4'],    // the ziggurat -> the White Temple on the terrace of Anu
+  // lateral to the Gulf (Dilmun and Magan):
+  ['mesopotamia-2334bc-2004bc::xc1', 'dilmun-3000bc-1200bc::k2'],  // 'ships of Dilmun, Magan and Meluhha' at the quay of Akkad
+  ['mesopotamia-2334bc-2004bc::xc1', 'dilmun-3000bc-1200bc::w1'],  // <-> the Akkadian Empire names the Gulf lands
+  ['mesopotamia-2334bc-2004bc::k3',  'magan-3000bc-1200bc::k3'],   // Naram-Sin captures Mannu-dannu, lord of Magan
+  ['mesopotamia-2334bc-2004bc::xc3', 'magan-3000bc-1200bc::c1'],   // Magan and the copper campaigns <-> Naram-Sin's campaign against Magan
+  ['mesopotamia-2334bc-2004bc::g3',  'magan-3000bc-1200bc::x3'],   // mastering imported hard stone <-> diorite for the statues of Gudea
+  ['mesopotamia-2334bc-2004bc::e5',  'dilmun-3000bc-1200bc::ec2'], // silver and the private operator <-> the alik Tilmun merchants of Ur
+  ['mesopotamia-2334bc-2004bc::xc2', 'magan-3000bc-1200bc::x2'],   // the Meluhha village <-> Indus material and people on the Magan coast
   // ── sumer-2900bc-2334bc (The Sumerian City-States) ──
   // hand-off backward from Uruk and the First Cities:
   ['sumer-2900bc-2334bc::k5',  'uruk-3800bc-2900bc::c2'],   // Gilgamesh of Uruk and the wall the epic credits to him
