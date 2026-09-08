@@ -109,10 +109,14 @@ function extractPhrases(text) {
     // directly onto the following name ("al-Mundhir", "al-Harith"), not as a separate
     // capitalized word — treat that as name-starting too, not just mid-phrase GLUE,
     // otherwise a label that begins with one ("al-Mundhir III ibn al-Numan") never
-    // starts a phrase at all and the whole name is lost.
-    const isCap = /^[A-ZÀ-Ý]/.test(clean) || /^al-[A-ZÀ-Ý]/.test(clean);
+    // starts a phrase at all and the whole name is lost. The same holds for the
+    // transliterated sun-letter assimilations of the article that pepper Near Eastern
+    // toponyms ("Tell es-Sawwan", "Tell el-Oueili", "Tell ed-Dur", "Tell ash-Sharqat") —
+    // without this, "Tell es-Sawwan" flushes as a bare "Tell" and the real name is lost.
+    const ARABIC_ARTICLE = /^(?:al|el|ed|es|ad|as|ash|adh|ar|an|at|az|ez|il|ol|ur)-[A-ZÀ-Ý]/;
+    const isCap = /^[A-ZÀ-Ý]/.test(clean) || ARABIC_ARTICLE.test(clean);
     if (isCap) current.push(clean);
-    else if (GLUE.has(clean.toLowerCase()) && current.length) current.push(clean);
+    else if ((GLUE.has(clean.toLowerCase()) || ARABIC_ARTICLE.test(clean)) && current.length) current.push(clean);
     else { flush(); continue; }
     if (hardBreakAfter) flush();
   }
