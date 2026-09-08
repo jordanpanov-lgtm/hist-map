@@ -54,6 +54,7 @@ const MODULES = [
   { id:"egypt-1517-1798",       file:"modules/egypt-1517-1798.json",       label:"Ottoman Egypt 1517–1798", sub:"The Eyalet, the Return of the Mamluks, and the Eve of the Modern", region:"Egypt", period:"Early Modern" },
   { id:"egypt-1798-1900",       file:"modules/egypt-1798-1900.json",       label:"Muhammad Ali and the Khedivate 1798–1900", sub:"The Founding of a Modern State, the Suez Canal, the Debt, and the British Occupation", region:"Egypt", period:"Early Modern" },
   { id:"egypt-1900-1952",       file:"modules/egypt-1900-1952.json",       label:"Colonial Egypt and the Monarchy 1900–1952", sub:"The Protectorate, the 1919 Revolution, the Liberal Experiment, and the Fall of the Monarchy", region:"Egypt", period:"Modern" },
+  { id:"egypt-1952-today",      file:"modules/egypt-1952-today.json",       label:"The Egyptian Republic 1952–today", sub:"The Free Officers, Nasser's Arab Socialism, Sadat's Realignment, Mubarak's Thirty Years, and the 2011 Revolution and the Sisi Era", region:"Egypt", period:"Modern" },
   // PLANNED — successor territorial empires: ottomans-* (region:"Near East"), and safavid-iran /
   //   mughals under their zones.
   // ── ARABIA is split into two zones (config/regions.js): "NW Arabia" (the Hejaz,
