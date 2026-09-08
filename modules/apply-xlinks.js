@@ -31,6 +31,51 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── iraq-1914-1958 (Mandate and the Hashemite Kingdom) ──
+  // hand-off backward from Late Ottoman Iraq:
+  ['iraq-1914-1958::k1', 'iraq-1831-1914::c6'],       // the British landing at Basra -> the conquest and the Mandate
+  ['iraq-1914-1958::w1', 'iraq-1831-1914::w2'],       // the three vilayets -> the invented state welded from them
+  ['iraq-1914-1958::o1', 'iraq-1831-1914::xc1'],      // the Anglo-Ottoman-German contest -> the Mandate and the RAF
+  ['iraq-1914-1958::o3', 'iraq-1831-1914::e5'],       // the oil that was coming -> the oil and the state's income
+  ['iraq-1914-1958::o4', 'iraq-1831-1914::o2'],       // the 1858 Land Code -> the land regime and the making of the sheikhs
+  ['iraq-1914-1958::e2', 'iraq-1831-1914::e4'],       // the land boom and the sarkal -> the land question and rural misery
+  ['iraq-1914-1958::e3', 'iraq-1831-1914::w3'],       // the tribal-agrarian country -> the shuruq and the sarifa slums
+  ['iraq-1914-1958::k8', 'iraq-1831-1914::k8'],       // the Arab officers of al-Ahd -> the Free Officers of 1958
+  ['iraq-1914-1958::k5', 'iraq-1831-1914::t2'],       // Ottoman modern learning and the officer class -> the coups
+  ['iraq-1914-1958::b1', 'iraq-1831-1914::b4'],       // the Jews of Baghdad at their height -> the exodus
+  ['iraq-1914-1958::b1', 'iraq-1831-1914::xc3'],      // the Baghdadi Jewish trading world -> its end
+  ['iraq-1914-1958::b2', 'iraq-1831-1914::b3'],       // the Najaf ulama and the Iranian revolution -> the clergy and the modern state
+  ['iraq-1914-1958::c2', 'iraq-1831-1914::c5'],       // the clergy in politics — the Constitutional Revolution, then the 1920 Revolt
+  ['iraq-1914-1958::e4', 'iraq-1831-1914::g3'],       // the Hindiyya Barrage -> the Development Board and the dams
+  ['iraq-1914-1958::x5', 'iraq-1831-1914::x3'],       // the Assyrian excavations -> the Iraq Museum and the national heritage
+  ['iraq-1914-1958::t1', 'iraq-1831-1914::t3'],       // the Nahda reaches Iraq -> making a nation from three vilayets
+  ['iraq-1914-1958::x1', 'iraq-1831-1914::x2'],       // al-Zahawi and al-Rusafi -> the free-verse revolution
+  ['iraq-1914-1958::c5', 'iraq-1831-1914::o6'],       // the end of the Kurdish emirates -> the Barzani revolts
+  ['iraq-1914-1958::xc1', 'iraq-1831-1914::w3'],      // Iraq caught in the powers' rivalries -> tied to Britain until 1958
+  ['iraq-1914-1958::x4', 'iraq-1831-1914::x1'],       // the press and the birth of public opinion -> the press, radio and effendiyya
+  ['iraq-1914-1958::l3', 'iraq-1831-1914::l5'],       // Hormuzd Rassam and the diggers -> Gertrude Bell and the Iraq Museum
+  // lateral to Egypt 1900–1952 (the parallel Arab monarchy and liberal experiment):
+  ['iraq-1914-1958::w3', 'egypt-1900-1952::o2'],      // the 1923/1925 constitutions and the failed liberal experiment
+  ['iraq-1914-1958::o1', 'egypt-1900-1952::o1'],      // the Protectorate / Mandate and the reserved points
+  ['iraq-1914-1958::xc1', 'egypt-1900-1952::o3'],     // the 1936 / 1930 Anglo-Egyptian and Anglo-Iraqi treaties
+  ['iraq-1914-1958::c2', 'egypt-1900-1952::c3'],      // the 1920 Revolt and the 1919 Revolution — the founding uprisings
+  ['iraq-1914-1958::k7', 'egypt-1900-1952::k12'],     // Sa'd Zaghlul and the Wafd — the mass nationalist party
+  ['iraq-1914-1958::k8', 'egypt-1900-1952::k15'],     // the Free Officers coups of 1958 and 1952
+  ['iraq-1914-1958::x4', 'egypt-1900-1952::o7'],      // the effendi state and the graduate glut
+  ['iraq-1914-1958::e2', 'egypt-1900-1952::e4'],      // the land question
+  ['iraq-1914-1958::e3', 'egypt-1900-1952::e5'],      // the condition of the fellah
+  ['iraq-1914-1958::xc2', 'egypt-1900-1952::c7'],     // the 1948 Palestine War and the humiliation of the old regimes
+  ['iraq-1914-1958::b1', 'egypt-1900-1952::xc4'],     // Egyptianisation and the turn against the foreign and Jewish communities
+  ['iraq-1914-1958::l2', 'egypt-1900-1952::l2'],      // Nuri al-Sa'id <-> Mustafa al-Nahhas — the perennial politician
+  ['iraq-1914-1958::t1', 'egypt-1900-1952::t2'],      // the identity debate — Arabism, territorial patriotism, the past
+  ['iraq-1914-1958::x5', 'egypt-1900-1952::t5'],      // the claim on the ancient past as national heritage
+  // lateral to the Sharifian Hejaz (the Hashemite origin):
+  ['iraq-1914-1958::k2', 'hejaz-1900-1925::x3'],      // the 'Sharifian solution' of 1921 — Faisal to the Iraqi throne
+  ['iraq-1914-1958::k1', 'hejaz-1900-1925::x2'],      // Paris, San Remo and the mandates
+  ['iraq-1914-1958::l1', 'hejaz-1900-1925::k3'],      // Faisal I, son of Sharif Hussein
+  // lateral to the Saudi state (the desert neighbour, the oil state):
+  ['iraq-1914-1958::k1', 'saudi-1902-today::o1'],     // the two states forming — the 1932 unification, the drawn borders
+  ['iraq-1914-1958::o3', 'saudi-1902-today::o2'],     // the oil concession and the company town
   // ── iraq-1831-1914 (Late Ottoman Iraq) ──
   // hand-off backward from Ottoman Iraq: the Three Provinces:
   ['iraq-1831-1914::k1', 'iraq-1534-1831::c6'],       // the fall of Dawud Pasha -> direct Ottoman rule and the first reformers
