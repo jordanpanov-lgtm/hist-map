@@ -31,6 +31,53 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── iraq-1958-1979 (The Iraqi Republic) ──
+  // hand-off backward from the Mandate and the Hashemite Kingdom:
+  ['iraq-1958-1979::k1', 'iraq-1914-1958::k8'],       // the 14 July Revolution -> Qasim and the sole leader
+  ['iraq-1958-1979::o1', 'iraq-1914-1958::o4'],       // the land regime and the making of the sheikhs -> the land reform that broke them
+  ['iraq-1958-1979::e3', 'iraq-1914-1958::e2'],       // the land question and rural misery -> the countryside emptied
+  ['iraq-1958-1979::o3', 'iraq-1914-1958::o5'],       // the army as the core of the state -> the security state
+  ['iraq-1958-1979::k5', 'iraq-1914-1958::k5'],       // the army and the coups -> Saddam's rise from the deputy's chair
+  ['iraq-1958-1979::o4', 'iraq-1914-1958::o3'],       // the oil and the state's income -> the nationalisation and the rentier state
+  ['iraq-1958-1979::e1', 'iraq-1914-1958::xc4'],      // the consortium and the world market -> the 1972 nationalisation and the 1973 boom
+  ['iraq-1958-1979::w2', 'iraq-1914-1958::w2'],       // the oil curse begins -> the one decade the money reached the people
+  ['iraq-1958-1979::b3', 'iraq-1914-1958::b3'],       // communism and Arab nationalism -> the destruction of the left
+  ['iraq-1958-1979::b2', 'iraq-1914-1958::t4'],       // the revival of religious thought at Najaf -> the Shia Islamic movement rises
+  ['iraq-1958-1979::t1', 'iraq-1914-1958::b2'],       // the Shia clergy and the modern state -> al-Sadr's political economy
+  ['iraq-1958-1979::k7', 'iraq-1914-1958::c5'],       // the Barzani revolts -> the Kurdish movement, the 1970 deal and Algiers
+  ['iraq-1958-1979::l4', 'iraq-1914-1958::xc5'],      // the Kurdish question across the borders -> Mustafa Barzani, everyone's proxy
+  ['iraq-1958-1979::b4', 'iraq-1914-1958::b1'],       // the exodus of the Jews -> the 1969 hangings and the end
+  ['iraq-1958-1979::b4', 'iraq-1914-1958::b4'],       // the Christians, Yazidis and minorities in the nationalist state
+  ['iraq-1958-1979::x3', 'iraq-1914-1958::x5'],       // the Iraq Museum and the national heritage -> the state claims the ancient past
+  ['iraq-1958-1979::t2', 'iraq-1914-1958::t1'],       // making a nation from three vilayets -> Ba'thist historiography
+  ['iraq-1958-1979::x1', 'iraq-1914-1958::x1'],       // the free-verse revolution -> the poets of the republic and exile
+  ['iraq-1958-1979::x2', 'iraq-1914-1958::x2'],       // Jewad Selim and modern Iraqi art, carried on under the state
+  ['iraq-1958-1979::t4', 'iraq-1914-1958::t3'],       // Ali al-Wardi's sociology -> his social history of modern Iraq
+  ['iraq-1958-1979::w1', 'iraq-1914-1958::w4'],       // the 14 July watershed -> the revolution devours itself
+  ['iraq-1958-1979::xc1', 'iraq-1914-1958::xc1'],     // Iraq in the British system -> the swing to the Soviet tie
+  ['iraq-1958-1979::xc2', 'iraq-1914-1958::o3'],      // OPEC founded in Baghdad, 1960 -> the oil weapon
+  ['iraq-1958-1979::o5', 'iraq-1914-1958::o6'],       // the Development Board -> the welfare state and the developmental Ba'th
+  ['iraq-1958-1979::g3', 'iraq-1914-1958::g1'],       // air control and the aeroplane -> the modern arsenal and the WMD ambition
+  ['iraq-1958-1979::l1', 'iraq-1914-1958::l2'],       // Nuri al-Sa'id -> Qasim, who overthrew the regime he ran
+  // lateral to Nasser's Egypt and the Arab republic:
+  ['iraq-1958-1979::k1', 'egypt-1952-today::k2'],     // Qasim and Nasser — the single-centre republic
+  ['iraq-1958-1979::k4', 'egypt-1952-today::k7'],     // the Free Officers and the Revolutionary Command Council
+  ['iraq-1958-1979::o1', 'egypt-1952-today::e1'],     // agrarian reform
+  ['iraq-1958-1979::o2', 'egypt-1952-today::k8'],     // the single party — the Ba'th and the ASU
+  ['iraq-1958-1979::o4', 'egypt-1952-today::e2'],     // nationalisation and the planned economy
+  ['iraq-1958-1979::o5', 'egypt-1952-today::o4'],     // the public sector and the graduate guarantee
+  ['iraq-1958-1979::o3', 'egypt-1952-today::k12'],    // the Mukhabarat and the Ministry of the Interior
+  ['iraq-1958-1979::b1', 'egypt-1952-today::t1'],     // Arab nationalism and the disillusion of 1967
+  ['iraq-1958-1979::b3', 'egypt-1952-today::t2'],     // the Marxist current and the student left
+  ['iraq-1958-1979::b2', 'egypt-1952-today::t3'],     // the Islamist thought forming under the secular regime — al-Sadr and Qutb
+  ['iraq-1958-1979::c5', 'egypt-1952-today::c3'],     // the Six-Day War and the loss of Sinai
+  ['iraq-1958-1979::xc1', 'egypt-1952-today::xc1'],   // non-alignment and the Soviet alliance
+  ['iraq-1958-1979::e4', 'egypt-1952-today::t5'],     // the critique of the state economy
+  ['iraq-1958-1979::x1', 'egypt-1952-today::x1'],     // Naguib Mahfouz and the Iraqi poets — Arabic letters under the republics
+  // lateral to the Saudi state (the Arab Cold War, OPEC, the 1979 hinge):
+  ['iraq-1958-1979::xc2', 'saudi-1902-today::ec3'],   // the oil weapon and the price shocks
+  ['iraq-1958-1979::xc4', 'saudi-1902-today::x3'],    // the Arab Cold War
+  ['iraq-1958-1979::xc5', 'saudi-1902-today::w3'],    // 1979 as the hinge
   // ── iraq-1914-1958 (Mandate and the Hashemite Kingdom) ──
   // hand-off backward from Late Ottoman Iraq:
   ['iraq-1914-1958::k1', 'iraq-1831-1914::c6'],       // the British landing at Basra -> the conquest and the Mandate
