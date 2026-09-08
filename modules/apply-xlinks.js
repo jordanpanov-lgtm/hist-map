@@ -31,6 +31,50 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── mesopotamia-224-637 (Sasanian Mesopotamia) ──
+  // hand-off backward from Parthian Mesopotamia:
+  ['mesopotamia-224-637::k1', 'mesopotamia-141bc-224::c6'],   // Ardashir destroys Artabanus IV -> the founding of Ērānšahr
+  ['mesopotamia-224-637::o2', 'mesopotamia-141bc-224::g1'],   // the palaces of Ctesiphon -> al-Madā'in the imperial capital
+  ['mesopotamia-224-637::x5', 'mesopotamia-141bc-224::g2'],   // the iwan -> the great pitched-brick vault of Ctesiphon
+  ['mesopotamia-224-637::x3', 'mesopotamia-141bc-224::x3'],   // Parthian frontality -> the Sasanian royal image in rock and silver
+  ['mesopotamia-224-637::b1', 'mesopotamia-141bc-224::b3'],   // the first churches at Edessa and Adiabene -> the Church of the East organised
+  ['mesopotamia-224-637::b2', 'mesopotamia-141bc-224::b2'],   // the exilarch and the first rabbis -> Sura, Pumbedita and the Talmud
+  ['mesopotamia-224-637::xc4', 'mesopotamia-141bc-224::t4'],  // the oral Torah moves east -> the Jewish world tilts decisively to Babylonia
+  ['mesopotamia-224-637::b5', 'mesopotamia-141bc-224::b6'],   // the baptising sects of the lower canals -> Mani and the religion of light
+  ['mesopotamia-224-637::b6', 'mesopotamia-141bc-224::t5'],   // the exorcist's craft outlives the script -> the Mandaeans and the incantation bowls
+  ['mesopotamia-224-637::x1', 'mesopotamia-141bc-224::x2'],   // Syriac becomes a written language -> the schools of Edessa and Nisibis
+  ['mesopotamia-224-637::t5', 'mesopotamia-141bc-224::t2'],   // Ptolemy's synthesis -> the royal astronomical tables at Ctesiphon
+  ['mesopotamia-224-637::e1', 'mesopotamia-141bc-224::g4'],   // the grand canal answer waits for the Sasanians -> the Nahrawan
+  ['mesopotamia-224-637::o3', 'mesopotamia-141bc-224::w4'],   // the Parthian template -> the Sasanians centralise the tax and the state
+  ['mesopotamia-224-637::w1', 'mesopotamia-141bc-224::w1'],   // the land between the empires -> Mesopotamia the heart of a great power
+  ['mesopotamia-224-637::e5', 'mesopotamia-141bc-224::e5'],   // the Arsacid drachm -> the Sasanian fire-altar drachm that becomes the dirham
+  ['mesopotamia-224-637::l1', 'mesopotamia-141bc-224::l4'],   // the Christian of Edessa -> the catholicos of the East at the royal city
+  ['mesopotamia-224-637::l3', 'mesopotamia-141bc-224::l5'],   // the Parthian nobleman -> the dihqan of the Sasanian village
+  ['mesopotamia-224-637::xc1', 'mesopotamia-141bc-224::xc1'], // the land between Rome and Parthia -> the three-century Byzantine frontier war
+  ['mesopotamia-224-637::xc3', 'mesopotamia-141bc-224::k8'],  // Hatra, Edessa, Adiabene -> al-Hira and the Lakhmid shield
+  // lateral to the Lakhmids of al-Hira (exact overlap):
+  ['mesopotamia-224-637::xc3', 'lakhmid-268-602::o1'],        // al-Hira as the Sasanian administrative hub facing Arabia
+  ['mesopotamia-224-637::c6', 'lakhmid-268-602::w3'],         // the abolition of al-Hira opens the vacuum for the Arab conquest
+  ['mesopotamia-224-637::b1', 'lakhmid-268-602::r1'],         // the Church of the East -> al-Hira a major Nestorian centre
+  ['mesopotamia-224-637::o5', 'lakhmid-268-602::o2'],         // the protected communities -> the Sasanian grant of autonomy to the Lakhmids
+  ['mesopotamia-224-637::t4', 'lakhmid-268-602::t3'],         // Syriac scholarship -> the Arabic script develops at al-Hira and al-Anbar
+  ['mesopotamia-224-637::l1', 'lakhmid-268-602::o3'],         // the catholicos -> the Church of the East synod held at al-Hira
+  // lateral to Late Roman / Byzantine Egypt — the other great eastern land:
+  ['mesopotamia-224-637::b1', 'egypt-300-641::b3'],           // two churches at the empire's edge going their own christological way
+  ['mesopotamia-224-637::c5', 'egypt-300-641::c7'],           // the same war — Khosrow II against Heraclius
+  ['mesopotamia-224-637::k7', 'egypt-300-641::k14'],          // Khosrow II's conquests -> the Persian occupation of Egypt
+  ['mesopotamia-224-637::c6', 'egypt-300-641::k15'],          // the Arab conquest — Ctesiphon and Alexandria in the same decade
+  ['mesopotamia-224-637::o6', 'egypt-300-641::o3'],           // the dihqan <-> the pagarch — the local landed men who ran the tax
+  ['mesopotamia-224-637::t1', 'egypt-300-641::t3'],           // Gondeshapur <-> the Alexandrian medical curriculum
+  ['mesopotamia-224-637::t2', 'egypt-300-641::t1'],           // the Athenian Neoplatonists at Ctesiphon <-> the last philosophers of Alexandria
+  ['mesopotamia-224-637::xc2', 'egypt-300-641::xc3'],         // the Church of the East to Asia <-> Egyptian monasticism to the world
+  // lateral / forward to the Caliphate (the conquest and the successor state):
+  ['mesopotamia-224-637::c6', 'caliphate-632-750::c3'],       // al-Qadisiyya, Jalula and Nihawand — the end of Sasanian Persia
+  ['mesopotamia-224-637::w4', 'caliphate-632-750::w1'],       // Sasanian Iraq becomes Islamic Iraq -> the Sassanid Empire falls
+  ['mesopotamia-224-637::o3', 'caliphate-632-750::o1'],       // Khosrow I's cadastral tax -> the diwan and the garrison cities
+  ['mesopotamia-224-637::xc5', 'caliphate-632-750::x3'],      // the apparatus passes to Islam -> the inherited Persian bureaucracy
+  ['mesopotamia-224-637::e5', 'caliphate-632-750::o3'],       // the Sasanian drachm -> the reformed dirham of 697, same weight
+  ['mesopotamia-224-637::e1', 'caliphate-632-750::ec4'],      // the Nahrawan -> al-Hajjaj and the reclamation of lower Iraq
   // ── mesopotamia-141bc-224 (Parthian Mesopotamia) ──
   // hand-off backward from Seleucid Mesopotamia:
   ['mesopotamia-141bc-224::k1', 'mesopotamia-331bc-141bc::c6'],   // Mithridates I takes Babylonia -> the Parthian settlement
