@@ -73,6 +73,8 @@ const MODULES = [
   // parallel folios — the Ancient bucket: the Neo-Assyrian Empire (north) ∥ Babylon between Assyria and Persia (south)
   { id:"assyria-911bc-609bc", file:"modules/assyria-911bc-609bc.json", label:"The Neo-Assyrian Empire 911–609 BC", sub:"The First World Empire — the Recovery, the Sargonid Century, the Library of Nineveh, and the Twenty-Year Collapse", region:"Iraq", period:"Ancient" },
   { id:"babylon-1155bc-539bc", file:"modules/babylon-1155bc-539bc.json", label:"Babylon between Assyria and Persia 1155–539 BC", sub:"The Revival under Nebuchadnezzar I, the Chaldean Centuries, the Assyrian Domination, and the Neo-Babylonian Empire", region:"Iraq", period:"Ancient" },
+  // after 539 BC the basin is one folio per era again (the north/south divide ends with the Persian conquest)
+  { id:"mesopotamia-539bc-331bc", file:"modules/mesopotamia-539bc-331bc.json", label:"Achaemenid Mesopotamia 539–331 BC", sub:"The Wealthiest Satrapy of Persia — the Light Hand of Cyrus, the Revolts, the Golden Age of Astronomy, and the Coming of Alexander", region:"Iraq", period:"Ancient" },
   // ── ARABIA is split into two zones (config/regions.js): "NW Arabia" (the Hejaz,
   //   Najd and the northwest oases — the overland caravan / Islamic-heartland
   //   bloc) and "SE Arabia" (the Gulf, Oman, Yemen and South Arabia — the
