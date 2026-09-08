@@ -593,7 +593,78 @@
       "accent": "#8B5E00",
       "color": "#4A3200",
       "subtitle": "The Nahrawan and the Sawad's agriculture at its historic peak, the richest tax base in the world, the silk trade and the Gulf ports, the cities peopled with Roman deportees, and the fire-altar drachm",
-      "entries": []
+      "entries": [
+        {
+          "id": "e1",
+          "group": "The Land at Its Peak",
+          "label": "The Nahrawan",
+          "date": "c.500–580 AD",
+          "loc": "the Diyala plains",
+          "coords": [
+            33.5,
+            44.9
+          ],
+          "hint": "The Sasanians dug — and Khosrow I finished — a trunk canal that ran some three hundred kilometres down the east side of the Tigris, fed from the Diyala, watering a swathe of country east of Ctesiphon that had never been farmed before. Archaeological survey shows the Sawad's cultivated area and its population reaching a peak in these centuries that it would not touch again until modern times.",
+          "tag": "EVIDENCE",
+          "note": "Robert McC. Adams, 'Land Behind Baghdad' (1965); Peter Verkinderen, 'Waterways of Iraq and Iran in the Early Islamic Period' (2015)."
+        },
+        {
+          "id": "e2",
+          "group": "The Land at Its Peak",
+          "label": "The richest tax base in the world",
+          "date": "c.224–636 AD",
+          "loc": "the Sawad",
+          "coords": [
+            33,
+            44.5
+          ],
+          "hint": "The Arab historians preserve the last Sasanian assessment of the Sawad — well over two hundred million silver drachms a year, more than any other land the conquerors knew. The fields grew wheat and barley, and also rice, dates, cotton, sesame, flax, wine and sugar cane newly brought from India. Every empire that could reach Iraq wanted it for this, and the ones that held it were rich.",
+          "tag": "EVIDENCE",
+          "note": "al-Tabari I and Ibn Khurradadhbih on the Sawad assessment; Michael Morony, 'Iraq after the Muslim Conquest' (1984)."
+        },
+        {
+          "id": "e3",
+          "group": "Trade",
+          "label": "The silk monopoly and the Gulf ports",
+          "date": "c.224–628 AD",
+          "loc": "the Persian Gulf",
+          "coords": [
+            30,
+            48.8
+          ],
+          "hint": "Persia stood between Byzantium and China and made both pay for it: raw silk came west only through Persian hands and at a Persian price, and two of the wars with Byzantium turned partly on the trade. Persian merchants ran the sea leg themselves — colonies on the Gulf coast, factors in Ceylon, ships to south China — while Byzantium tried and failed to route around them through Ethiopia.",
+          "tag": "EVIDENCE",
+          "note": "Procopius, 'Wars' I.20; Cosmas Indicopleustes, 'Christian Topography' XI; Étienne de la Vaissière, 'Sogdian Traders' (2005)."
+        },
+        {
+          "id": "e4",
+          "group": "Trade",
+          "label": "The deportee cities and their crafts",
+          "date": "c.260–540 AD",
+          "loc": "Gondeshapur",
+          "coords": [
+            32.29,
+            48.53
+          ],
+          "hint": "Deporting a captured city was, among other things, industrial policy. The tens of thousands moved from Antioch and Syria by Shapur I and again by Khosrow I were resettled in purpose-built towns near the capital and in Khuzestan, and they brought silk-weaving, glass, mosaic, and Roman hydraulic engineering with them. The skills stayed and spread; the crafts of early Islamic Iraq were partly Roman transplants.",
+          "tag": "EVIDENCE",
+          "note": "al-Tabari I; Erich Kettenhofen, 'Deportations' in Encyclopaedia Iranica."
+        },
+        {
+          "id": "e5",
+          "group": "Money",
+          "label": "The drachm that became the dirham",
+          "date": "c.224–697 AD",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The Sasanian silver drachm — thin, broad, the king's bust on one side and a fire altar with two attendants on the other — was struck in immense quantity at dozens of mints and circulated far beyond the empire. The Arab conquerors kept minting it, adding a word of Arabic, for fifty years; when they finally issued a purely Islamic dirham in 697 they kept its weight exactly.",
+          "tag": "EVIDENCE",
+          "note": "Rika Gyselen, 'Arab-Sasanian Coppers' and the Sasanian mint corpus; Stephen Album, 'Checklist of Islamic Coins' (2011)."
+        }
+      ]
     },
     {
       "id": "technology",
@@ -602,7 +673,64 @@
       "accent": "#B7770D",
       "color": "#5C2D00",
       "subtitle": "The pitched-brick vault of the Taq Kasra, the engineering of the three-hundred-kilometre Nahrawan, the norias of Hit and the piedmont qanats, and the pontoon bridges and the posting road",
-      "entries": []
+      "entries": [
+        {
+          "id": "g1",
+          "group": "Building",
+          "label": "The pitched-brick vault",
+          "date": "c.540 AD",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The builders of the great hall at Ctesiphon raised its vault without any timber centering: each ring of bricks was laid leaning back against the one before, set in fast gypsum mortar, so the arch grew slice by slice from the two ends. Thick brick haunches took the outward thrust. It was the old Mesopotamian answer to a treeless land, pushed to its structural limit.",
+          "tag": "EVIDENCE",
+          "note": "Oscar Reuther (1930); K. A. C. Creswell, 'Early Muslim Architecture' vol. I (1969), on the technique's afterlife."
+        },
+        {
+          "id": "g2",
+          "group": "Water",
+          "label": "The engineering of the Nahrawan",
+          "date": "c.500–580 AD",
+          "loc": "the Nahrawan head",
+          "coords": [
+            33.7,
+            44.8
+          ],
+          "hint": "The Nahrawan needed a masonry intake to draw and control the Diyala's flow, dozens of gated offtakes feeding the field canals, a tail escape back to the Tigris to shed floodwater, and a standing corvée to dredge it. It worked for four centuries. When the political order that organised the labour broke down in the tenth and eleventh centuries the canal silted, and the land it watered went back to desert.",
+          "tag": "EVIDENCE",
+          "note": "Robert McC. Adams, 'Land Behind Baghdad' (1965); Peter Verkinderen (2015)."
+        },
+        {
+          "id": "g3",
+          "group": "Water",
+          "label": "The norias of Hit and the lifting of water",
+          "date": "c.224–637 AD",
+          "loc": "Hit (Īt)",
+          "coords": [
+            33.64,
+            42.83
+          ],
+          "hint": "Where the river ran below its fields the Sawad lifted water mechanically: the giant undershot wheels at Hit on the Euphrates, turning in the current and tipping water into elevated channels; the ox-driven chain-of-pots elsewhere; and, along the piedmont, qanats — gently sloping tunnels that carried groundwater to the surface by gravity. The kit was ancient; the scale under the Sasanians was new.",
+          "tag": "EVIDENCE",
+          "note": "Thorkild Schiøler, 'Roman and Islamic Water-Lifting Wheels' (1973); the norias of Hit in the Arab geographers."
+        },
+        {
+          "id": "g4",
+          "group": "Movement",
+          "label": "The bridges and the royal road",
+          "date": "c.224–637 AD",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "Ctesiphon crossed the Tigris on bridges of boats that could be broken up when an enemy approached. From the capital the royal highway ran east over the passes to the Iranian plateau and west toward Syria, with posting stations and relays of horses for the king's messengers — the network the Arabs took over and called the barīd.",
+          "tag": "EVIDENCE",
+          "note": "Ammianus Marcellinus XXIV.6 (the bridge); Ibn Khurradadhbih, 'Kitāb al-Masālik wa-l-Mamālik', on the roads and the barid."
+        }
+      ]
     },
     {
       "id": "exchange",
@@ -611,7 +739,78 @@
       "accent": "#148080",
       "color": "#1A3A3A",
       "subtitle": "The three-century war with Byzantium over the same ground, the Church of the East reaching India and China, al-Hira and the Lakhmid buffer, the Jewish world centred on Babylonia, and the Sasanian apparatus passing whole to Islam",
-      "entries": []
+      "entries": [
+        {
+          "id": "xc1",
+          "group": "The Byzantine Frontier",
+          "label": "The war over the same ground",
+          "date": "c.230–591 AD",
+          "loc": "Dara",
+          "coords": [
+            37.18,
+            40.95
+          ],
+          "hint": "For three and a half centuries Rome and Persia fought over a narrow band of upper Mesopotamia — Nisibis, Dara, Amida, the Khabur line — in a rhythm of siege, treaty, subsidy and renewed war. Diplomats called the two courts the eyes of the world; each paid the other when it suited. The frontier moved a little each war and settled roughly where the modern Syria–Turkey–Iraq borders now run.",
+          "tag": "EVIDENCE",
+          "note": "Geoffrey Greatrex & Samuel Lieu, 'The Roman Eastern Frontier and the Persian Wars, Part II' (2002)."
+        },
+        {
+          "id": "xc2",
+          "group": "The Faith Networks",
+          "label": "The Church of the East reaches India and China",
+          "date": "c.410–635 AD",
+          "loc": "Seleucia-Ctesiphon",
+          "coords": [
+            33.09,
+            44.55
+          ],
+          "hint": "From its base in the Sawad the Church of the East spread along the trade routes: bishoprics across Iran to Merv and Herat, a metropolitan for the Christians of the Malabar coast of India, missions into the Turkic steppe, and — the year before the Arabs took Ctesiphon — a mission arriving in the Tang capital, later commemorated on the Xi'an stele. Syriac was its language from Iraq to China.",
+          "tag": "EVIDENCE",
+          "note": "the 'Xi'an stele' (781); Ian Gillman & Hans-Joachim Klimkeit, 'Christians in Asia before 1500' (1999)."
+        },
+        {
+          "id": "xc3",
+          "group": "The Faith Networks",
+          "label": "al-Hira and the Lakhmid shield",
+          "date": "c.224–609 AD",
+          "loc": "al-Hira",
+          "coords": [
+            31.9,
+            44.35
+          ],
+          "hint": "On the desert edge below Ctesiphon the Arab kings of al-Hira held a Christian, poetry-loving court and served Persia as a buffer and a listening-post facing Arabia and Byzantine Syria. Khosrow II abolished the kingdom around 602 and put a governor in its place — and a few years later an Arab tribal force beat a Persian army at Dhu Qar. The frontier the Lakhmids had watched now lay open.",
+          "tag": "EVIDENCE",
+          "note": "al-Tabari I; Isabel Toral-Niehoff, 'Al-Ḥīra: Eine arabische Kulturmetropole im spätantiken Kontext' (2014)."
+        },
+        {
+          "id": "xc4",
+          "group": "The Faith Networks",
+          "label": "The Jewish world tilts to Babylonia",
+          "date": "c.220–636 AD",
+          "loc": "Sura",
+          "coords": [
+            31.9,
+            44.8
+          ],
+          "hint": "Over these centuries the centre of gravity of Judaism moved decisively from a broken Roman Palestine to the large, prosperous, self-governing community of the Sawad. Students crossed to study at Sura and Pumbedita, the exilarch's authority ran across the diaspora, and the rulings of the Babylonian sages began going out as written answers to questions from communities as far west as North Africa and Spain.",
+          "tag": "EVIDENCE",
+          "note": "Isaiah Gafni, 'Land, Center and Diaspora' (1997); Robert Brody, 'The Geonim of Babylonia' (1998)."
+        },
+        {
+          "id": "xc5",
+          "group": "The Handover",
+          "label": "The apparatus passes to Islam",
+          "date": "c.637–762 AD",
+          "loc": "Ctesiphon",
+          "coords": [
+            33.09,
+            44.58
+          ],
+          "hint": "The Arab conquerors planted their garrison cities, Kufa and Basra, beside the old capital region and later built Baghdad thirty kilometres up the Tigris. They kept the Sasanian tax survey and the kharāg, employed the dihqāns to run it, adopted the drachm, the government departments, the postal road and much of the court ceremonial. Islamic Iraq was built on Sasanian foundations with the walls still standing.",
+          "tag": "EVIDENCE",
+          "note": "Michael Morony, 'Iraq after the Muslim Conquest' (1984); Hugh Kennedy, 'The Prophet and the Age of the Caliphates' (2004)."
+        }
+      ]
     },
     {
       "id": "world",
