@@ -31,6 +31,47 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── iraq-945-1258 (Iraq from the Buyids to the Mongols) ──
+  // hand-off backward from Early Islamic Iraq:
+  ['iraq-945-1258::k1', 'iraq-632-945::k8'],        // power passes to the amir al-umara -> the Buyids rule in the caliph's name
+  ['iraq-945-1258::o1', 'iraq-632-945::w4'],        // the caliphate emptied out -> al-Mawardi's theory of the powerless caliph
+  ['iraq-945-1258::b1', 'iraq-632-945::b3'],        // the shrines and the Occultation -> the Baghdad school of Twelver theology
+  ['iraq-945-1258::e1', 'iraq-632-945::e1'],        // the Sawad's peak -> the failure of the Nahrawan and the end of the Sawad
+  ['iraq-945-1258::o4', 'iraq-632-945::e4'],        // the coming of the iqta -> the iqta becomes the whole system
+  ['iraq-945-1258::g1', 'iraq-632-945::g2'],        // the canals that made Baghdad a river port -> the fragility of a hydraulic society
+  ['iraq-945-1258::e4', 'iraq-632-945::w1'],        // Baghdad the largest city outside China -> Baghdad contracts to a tenth
+  ['iraq-945-1258::b6', 'iraq-632-945::b5'],        // the geonim and the catholicos at their height -> the same, diminished
+  ['iraq-945-1258::l4', 'iraq-632-945::l2'],        // the gaon of Sura -> the exilarch of Benjamin of Tudela's Baghdad
+  ['iraq-945-1258::t2', 'iraq-632-945::x4'],        // paper and the booksellers -> the Buyid library culture and the Fihrist
+  ['iraq-945-1258::x1', 'iraq-632-945::x2'],        // adab and the prose of the salon -> al-Hariri and the Arabic silver age
+  ['iraq-945-1258::t4', 'iraq-632-945::t3'],        // al-Khwarizmi and the exact sciences -> the last great generation of Buyid science
+  ['iraq-945-1258::b4', 'iraq-632-945::b6'],        // the first Sufis -> Sufism becomes institutional orders
+  ['iraq-945-1258::c1', 'iraq-632-945::c2'],        // Karbala and the Kufan revolts -> the Sunni–Shia street wars of Baghdad
+  ['iraq-945-1258::e2', 'iraq-632-945::e3'],        // Basra and the sea road to China -> the trade axis shifts to the Red Sea
+  ['iraq-945-1258::xc1', 'iraq-632-945::k7'],       // al-Mu'tasim's Turkish guard -> the Turkmen migration as a whole people
+  ['iraq-945-1258::w2', 'iraq-632-945::w3'],        // the rebellious granary -> from the centre of the world to a march
+  // lateral to the Caliphate 945–1258 (the imperial backbone of the same centuries):
+  ['iraq-945-1258::k2', 'caliphate-945-1258::k9'],  // Tughril Beg — the Seljuks take Baghdad
+  ['iraq-945-1258::k8', 'caliphate-945-1258::k13'], // Hulagu and the Ilkhanate
+  ['iraq-945-1258::c2', 'caliphate-945-1258::c2'],  // the Basasiri revolt
+  ['iraq-945-1258::c6', 'caliphate-945-1258::c10'], // the sack of Baghdad and the check at Ayn Jalut
+  ['iraq-945-1258::o1', 'caliphate-945-1258::o1'],  // al-Mawardi writes the constitution of the caliphate
+  ['iraq-945-1258::o3', 'caliphate-945-1258::o3'],  // the madrasa as an instrument of state
+  ['iraq-945-1258::o4', 'caliphate-945-1258::o4'],  // the iqta becomes the military-fiscal system
+  ['iraq-945-1258::o5', 'caliphate-945-1258::o5'],  // the waqf — the endowment that built the Islamic city
+  ['iraq-945-1258::o6', 'caliphate-945-1258::o6'],  // al-Nasir's futuwwa order
+  ['iraq-945-1258::b1', 'caliphate-945-1258::w1'],  // the Shi'i century
+  ['iraq-945-1258::b2', 'caliphate-945-1258::b1'],  // the Sunni revival
+  ['iraq-945-1258::b3', 'caliphate-945-1258::b2'],  // al-Ghazali — law, theology and Sufism reconciled
+  ['iraq-945-1258::b5', 'caliphate-945-1258::b6'],  // the Nizari 'Resurrection' at Alamut
+  ['iraq-945-1258::e1', 'caliphate-945-1258::ec2'], // the end of the Sawad
+  ['iraq-945-1258::e2', 'caliphate-945-1258::ec1'], // the economic centre leaves Iraq
+  ['iraq-945-1258::g2', 'caliphate-945-1258::e2'],  // the tomb tower and the muqarnas vault
+  ['iraq-945-1258::g3', 'caliphate-945-1258::t5'],  // al-Jazari's Book of Ingenious Mechanical Devices
+  ['iraq-945-1258::x3', 'caliphate-945-1258::t6'],  // Ibn al-Athir and the historians of the catastrophe
+  ['iraq-945-1258::xc2', 'caliphate-945-1258::w3'], // the Crusades
+  ['iraq-945-1258::xc4', 'caliphate-945-1258::b8'], // the Church of the East reaches the Mongols
+  ['iraq-945-1258::w4', 'caliphate-945-1258::w6'],  // the end of the institutional caliphate
   // ── iraq-632-945 (Early Islamic Iraq — the place-view alongside the caliphate-* backbone) ──
   // hand-off backward from Sasanian Mesopotamia:
   ['iraq-632-945::k1', 'mesopotamia-224-637::c6'],   // al-Qadisiyya and the fall of Ctesiphon -> the garrison cities founded
