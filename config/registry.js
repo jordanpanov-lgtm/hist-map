@@ -69,6 +69,7 @@ const MODULES = [
   { id:"babylon-2004bc-1595bc", file:"modules/babylon-2004bc-1595bc.json", label:"Hammurabi and the Amorite Kingdoms 2004–1595 BC", sub:"Isin and Larsa, Shamshi-Adad and Mari, the Law Stele, and the Fall of the First Dynasty of Babylon", region:"Iraq", period:"Prehistoric" },
   // parallel folios — the north/south divide opens: Kassite Babylonia (south) ∥ the Middle Assyrian Kingdom (north)
   { id:"babylon-1595bc-1155bc", file:"modules/babylon-1595bc-1155bc.json", label:"Kassite Babylonia 1595–1155 BC", sub:"The Mountain Dynasty, the Reunification of the South, the Amarna Age, and the Elamite Sack", region:"Iraq", period:"Prehistoric" },
+  { id:"assyria-1400bc-1050bc", file:"modules/assyria-1400bc-1050bc.json", label:"The Middle Assyrian Kingdom 1400–1050 BC", sub:"Assur Throws Off Mitanni, the Empire and Murder of Tukulti-Ninurta, the Revival of Tiglath-Pileser I, and the Aramaean Flood", region:"Iraq", period:"Prehistoric" },
   // ── ARABIA is split into two zones (config/regions.js): "NW Arabia" (the Hejaz,
   //   Najd and the northwest oases — the overland caravan / Islamic-heartland
   //   bloc) and "SE Arabia" (the Gulf, Oman, Yemen and South Arabia — the
