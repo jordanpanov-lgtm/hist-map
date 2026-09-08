@@ -31,6 +31,24 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── sumer-2900bc-2334bc (The Sumerian City-States) ──
+  // hand-off backward from Uruk and the First Cities:
+  ['sumer-2900bc-2334bc::k5',  'uruk-3800bc-2900bc::c2'],   // Gilgamesh of Uruk and the wall the epic credits to him
+  ['sumer-2900bc-2334bc::c4',  'uruk-3800bc-2900bc::p7'],   // the southern cities take shape -> their contest for the leadership of the land
+  ['sumer-2900bc-2334bc::o6',  'uruk-3800bc-2900bc::p6'],   // the Jemdet Nasr city-seals -> the league of Sumer at Nippur
+  ['sumer-2900bc-2334bc::t1',  'uruk-3800bc-2900bc::o1'],   // the birth of writing -> Sumerian written in full
+  ['sumer-2900bc-2334bc::e1',  'uruk-3800bc-2900bc::e4'],   // cereal farming and the first salt -> barley, salt and falling yields
+  ['sumer-2900bc-2334bc::e4',  'uruk-3800bc-2900bc::o2'],   // the bevelled-rim bowl and the ration -> the ration and the standard of life
+  ['sumer-2900bc-2334bc::b2',  'uruk-3800bc-2900bc::b2'],   // the god's household -> the city and its god
+  ['sumer-2900bc-2334bc::x4',  'uruk-3800bc-2900bc::x6'],   // the lyre enters the record -> the lyres of the royal tombs
+  ['sumer-2900bc-2334bc::xc5', 'uruk-3800bc-2900bc::xc4'],  // Susa and the Proto-Elamite answer -> Elam, larder and threat
+  ['sumer-2900bc-2334bc::l2',  'uruk-3800bc-2900bc::l2'],   // the mountain captive and the work gang -> the captive and the debtor
+  // lateral to Dilmun (the Gulf trade):
+  ['sumer-2900bc-2334bc::xc1', 'dilmun-3000bc-1200bc::k1'],  // Dilmun, Magan and Meluhha <-> Dilmun enters the cuneiform record
+  ['sumer-2900bc-2334bc::xc1', 'dilmun-3000bc-1200bc::x1'],  // <-> the Dilmun–Magan–Meluhha triangle
+  ['sumer-2900bc-2334bc::e5',  'dilmun-3000bc-1200bc::ec1'], // the merchants of the Gulf <-> Dilmun the entrepôt
+  ['sumer-2900bc-2334bc::g4',  'dilmun-3000bc-1200bc::tc3'], // the seagoing boat <-> the magilum-boat
+  ['sumer-2900bc-2334bc::o4',  'dilmun-3000bc-1200bc::o1'],  // sealed standard weights <-> the Dilmun weight standard
   // ── uruk-3800bc-2900bc (Uruk and the First Cities) ──
   // hand-off backward from Ubaid Mesopotamia:
   ['uruk-3800bc-2900bc::p1',  'mesopotamia-6500bc-3800bc::p7'],   // the terminal-Ubaid temple towns grow into the first city

@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 4943,
     "folio_count": 89,
-    "xlink_pairs": 508,
+    "xlink_pairs": 523,
     "keyword_terms": 7919,
     "folios": [
       {
@@ -6089,14 +6089,40 @@
     "dilmun-3000bc-1200bc::ec6": [
       "dilmun-1200bc-600bc::ec1"
     ],
+    "dilmun-3000bc-1200bc::k1": [
+      "sumer-2900bc-2334bc::xc1"
+    ],
+    "sumer-2900bc-2334bc::xc1": [
+      "dilmun-3000bc-1200bc::k1",
+      "dilmun-3000bc-1200bc::x1"
+    ],
+    "dilmun-3000bc-1200bc::o1": [
+      "sumer-2900bc-2334bc::o4"
+    ],
+    "sumer-2900bc-2334bc::o4": [
+      "dilmun-3000bc-1200bc::o1"
+    ],
+    "dilmun-3000bc-1200bc::ec1": [
+      "sumer-2900bc-2334bc::e5"
+    ],
+    "sumer-2900bc-2334bc::e5": [
+      "dilmun-3000bc-1200bc::ec1"
+    ],
     "dilmun-3000bc-1200bc::ec3": [
       "magan-3000bc-1200bc::ec2"
     ],
     "magan-3000bc-1200bc::ec2": [
       "dilmun-3000bc-1200bc::ec3"
     ],
+    "dilmun-3000bc-1200bc::tc3": [
+      "sumer-2900bc-2334bc::g4"
+    ],
+    "sumer-2900bc-2334bc::g4": [
+      "dilmun-3000bc-1200bc::tc3"
+    ],
     "dilmun-3000bc-1200bc::x1": [
-      "magan-3000bc-1200bc::x1"
+      "magan-3000bc-1200bc::x1",
+      "sumer-2900bc-2334bc::xc1"
     ],
     "magan-3000bc-1200bc::x1": [
       "dilmun-3000bc-1200bc::x1"
@@ -7378,7 +7404,8 @@
       "uruk-3800bc-2900bc::o1"
     ],
     "uruk-3800bc-2900bc::o1": [
-      "mesopotamia-6500bc-3800bc::o1"
+      "mesopotamia-6500bc-3800bc::o1",
+      "sumer-2900bc-2334bc::t1"
     ],
     "mesopotamia-6500bc-3800bc::o2": [
       "uruk-3800bc-2900bc::o4"
@@ -7396,7 +7423,8 @@
       "uruk-3800bc-2900bc::o2"
     ],
     "uruk-3800bc-2900bc::o2": [
-      "mesopotamia-6500bc-3800bc::o4"
+      "mesopotamia-6500bc-3800bc::o4",
+      "sumer-2900bc-2334bc::e4"
     ],
     "mesopotamia-6500bc-3800bc::b1": [
       "uruk-3800bc-2900bc::b4"
@@ -7825,6 +7853,60 @@
     ],
     "spain-1230-1492::c1": [
       "spain-718-1230::k5"
+    ],
+    "sumer-2900bc-2334bc::k5": [
+      "uruk-3800bc-2900bc::c2"
+    ],
+    "uruk-3800bc-2900bc::c2": [
+      "sumer-2900bc-2334bc::k5"
+    ],
+    "sumer-2900bc-2334bc::c4": [
+      "uruk-3800bc-2900bc::p7"
+    ],
+    "uruk-3800bc-2900bc::p7": [
+      "sumer-2900bc-2334bc::c4"
+    ],
+    "sumer-2900bc-2334bc::o6": [
+      "uruk-3800bc-2900bc::p6"
+    ],
+    "uruk-3800bc-2900bc::p6": [
+      "sumer-2900bc-2334bc::o6"
+    ],
+    "sumer-2900bc-2334bc::b2": [
+      "uruk-3800bc-2900bc::b2"
+    ],
+    "uruk-3800bc-2900bc::b2": [
+      "sumer-2900bc-2334bc::b2"
+    ],
+    "sumer-2900bc-2334bc::x4": [
+      "uruk-3800bc-2900bc::x6"
+    ],
+    "uruk-3800bc-2900bc::x6": [
+      "sumer-2900bc-2334bc::x4"
+    ],
+    "sumer-2900bc-2334bc::t1": [
+      "uruk-3800bc-2900bc::o1"
+    ],
+    "sumer-2900bc-2334bc::e1": [
+      "uruk-3800bc-2900bc::e4"
+    ],
+    "uruk-3800bc-2900bc::e4": [
+      "sumer-2900bc-2334bc::e1"
+    ],
+    "sumer-2900bc-2334bc::e4": [
+      "uruk-3800bc-2900bc::o2"
+    ],
+    "sumer-2900bc-2334bc::xc5": [
+      "uruk-3800bc-2900bc::xc4"
+    ],
+    "uruk-3800bc-2900bc::xc4": [
+      "sumer-2900bc-2334bc::xc5"
+    ],
+    "sumer-2900bc-2334bc::l2": [
+      "uruk-3800bc-2900bc::l2"
+    ],
+    "uruk-3800bc-2900bc::l2": [
+      "sumer-2900bc-2334bc::l2"
     ],
     "trucial-gulf-1820-1900::k1": [
       "trucial-gulf-1900-1971::k1"
