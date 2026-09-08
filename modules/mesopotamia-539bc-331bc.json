@@ -537,7 +537,78 @@
       "accent": "#8B5E00",
       "color": "#4A3200",
       "subtitle": "The wealthiest satrapy and the imperial granary, the Murashu firm and the estate economy, the slow arrival of coinage, the date-and-canal economy at its peak, and the trade of an imperial hub",
-      "entries": []
+      "entries": [
+        {
+          "id": "e1",
+          "group": "The Imperial Economy",
+          "label": "The wealthiest satrapy",
+          "date": "c.500 BC",
+          "loc": "Babylon (Bābil)",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "Babylonia was the empire's treasury and its granary. It paid the highest tribute of any province, and Herodotus reckoned it supplied a third of the empire's total silver revenue and could feed the Great King's whole household and army for four months of the year. Its surplus grain was a strategic reserve, moved to wherever the empire was fighting. The province the Persians ruled most lightly was also the one they leaned on most heavily.",
+          "tag": "EVIDENCE",
+          "note": "Herodotus III.89–95, I.192; Pierre Briant, 'From Cyrus to Alexander' (2002); Michael Jursa, 'Aspects of the Economic History of Babylonia' (2010)."
+        },
+        {
+          "id": "e2",
+          "group": "Enterprise",
+          "label": "The Murashu firm and the estate economy",
+          "date": "454–404 BC",
+          "loc": "Nippur (Nuffar)",
+          "coords": [
+            32.13,
+            45.23
+          ],
+          "hint": "The archive of the Murashu of Nippur — some seven hundred tablets over fifty years — shows one firm running the middle of the Achaemenid rural economy: leasing the estates of Persian nobles and the plots of military colonists, advancing seed, plough-teams and cash, collecting rents, paying the colonists' taxes and equipping them for the muster, and keeping a steady margin on all of it. It is the clearest surviving picture of how the whole system was made to pay.",
+          "tag": "DOCUMENT",
+          "note": "Matthew Stolper, 'Entrepreneurs and Empire: The Murashu Archive, the Murashu Firm, and Persian Rule in Babylonia' (1985)."
+        },
+        {
+          "id": "e3",
+          "group": "Money",
+          "label": "Coinage comes slowly",
+          "date": "c.500–331 BC",
+          "loc": "Babylon (Bābil)",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "Darius's gold daric and silver siglos circulated in Babylonia, but the province kept weighing its silver by the shekel for most of the period, treating coins as bullion with a maker's guarantee. The prices in the Astronomical Diaries stay in weighed silver throughout. The real shift to a coined economy — struck mints, a money supply, coined wages — is a Hellenistic development, still a century off.",
+          "tag": "EVIDENCE",
+          "note": "Peter Vargyas, 'A History of Babylonian Prices in the First Millennium BC' (2001); Julien Monerie on the Hellenistic transition."
+        },
+        {
+          "id": "e4",
+          "group": "Agriculture",
+          "label": "The date-and-canal economy at its peak",
+          "date": "c.450 BC",
+          "loc": "the southern alluvium",
+          "coords": [
+            31.4,
+            45.9
+          ],
+          "hint": "The Achaemenid peace and the imperial interest in revenue brought southern Babylonian agriculture to a height not reached again until the Abbasid period — new canals, the maintenance of the old ones, a landscape of date orchards and irrigated barley, and a population and a cultivated area at their maximum. The date was food, wealth and money-crop at once, and the estate archives are thick with orchard leases.",
+          "tag": "EVIDENCE",
+          "note": "Robert McC. Adams, 'Heartland of Cities' (1981), on the Achaemenid–Seleucid settlement maximum; Jursa (2010)."
+        },
+        {
+          "id": "e5",
+          "group": "Trade",
+          "label": "The trade of an imperial hub",
+          "date": "c.480 BC",
+          "loc": "Babylon (Bābil)",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "Babylon sat on the empire's arteries — the royal road from Sardis to Susa passing close by, the Tigris and Euphrates carrying bulk goods, the Gulf route reaching Arabia and India. Herodotus describes the round hide boats of Armenia floating downriver to the city loaded with wine, breaking up on arrival, and the crews carrying the hides back by donkey. The commercial pivot role of Mesopotamia carried straight on under Persian rule.",
+          "tag": "EVIDENCE",
+          "note": "Herodotus I.194 (the Armenian boats), V.52–54 (the royal road); Briant (2002)."
+        }
+      ]
     },
     {
       "id": "technology",
@@ -546,7 +617,50 @@
       "accent": "#B7770D",
       "color": "#5C2D00",
       "subtitle": "The Achaemenid glazed brick carried to Susa and Persepolis, the upkeep of the Babylonian canals as a fiscal asset, and the ephemeris as an abstract scientific tool",
-      "entries": []
+      "entries": [
+        {
+          "id": "g1",
+          "group": "Building",
+          "label": "The glazed brick carried to Susa and Persepolis",
+          "date": "c.510 BC",
+          "loc": "Susa (Shush)",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "When Darius built his palaces at Susa and Persepolis, he brought Babylonian brickmakers and the Babylonian glazed-brick relief with him — the friezes of archers and lions at Susa are their work — and adapted the lamassu into the winged-bull column capital. The Persians also spread the underground water-channel, the qanat, across the empire by granting its builders a long tax exemption. Mesopotamian building technique became imperial technique.",
+          "tag": "CONSTRUCTION",
+          "note": "The Susa foundation charter (DSf); the qanat policy in Polybius X.28 and Briant (2002)."
+        },
+        {
+          "id": "g2",
+          "group": "Hydraulics",
+          "label": "The canals kept up as a fiscal asset",
+          "date": "c.450 BC",
+          "loc": "the Babylonian canal network",
+          "coords": [
+            32.5,
+            44.8
+          ],
+          "hint": "The Persian administration treated the Babylonian irrigation network as revenue infrastructure and kept it in repair — the great feeder canals, the 'King's Canal' linking the rivers, the marsh sluices — laying the dredging and embanking obligations on the temples and the military colonists. A canal system needs constant labour to survive; the Achaemenid century is one of the periods when it was maintained rather than allowed to silt.",
+          "tag": "CONSTRUCTION",
+          "note": "Robert McC. Adams, 'Heartland of Cities' (1981); the corvée obligations in the Murashu and temple archives."
+        },
+        {
+          "id": "g3",
+          "group": "Method",
+          "label": "The ephemeris as an abstract tool",
+          "date": "c.400 BC",
+          "loc": "Babylon (Bābil)",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "The pre-computed astronomical table — the ephemeris — and its instruction sheet, the procedure text, together made prediction portable: any trained scribe could generate the position of the moon or a planet for a future month by running the arithmetic, with no need to observe or to understand a physical model. It is a genuinely abstract scientific technology — a method detached from its maker and transmissible on a clay tablet.",
+          "tag": "DOCUMENT",
+          "note": "Mathieu Ossendrijver, 'Babylonian Mathematical Astronomy: Procedure Texts' (2012)."
+        }
+      ]
     },
     {
       "id": "exchange",
@@ -555,7 +669,78 @@
       "accent": "#148080",
       "color": "#1A3A3A",
       "subtitle": "Babylon as one of the four royal capitals, the channel of Babylonian science to the Greeks, the consolidation of the Judean diaspora, the Persian settlement and the Iranian tie, and Alexander's plan for a Babylonian capital",
-      "entries": []
+      "entries": [
+        {
+          "id": "xc1",
+          "group": "The Empire",
+          "label": "Babylon, a royal capital of the empire",
+          "date": "c.500 BC",
+          "loc": "Babylon (Bābil)",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "Babylon was one of the four cities the Great King used as a seat — with Persepolis, Susa and Ecbatana — and he commonly wintered there. The satrapal court, the Persian nobility's estates, and the constant traffic of the empire made it a cosmopolitan imperial city: Persians, Judeans, Egyptians, Anatolians, Arabs and, increasingly, Greeks, doing business in Aramaic in the largest city west of India.",
+          "tag": "EVIDENCE",
+          "note": "Xenophon, 'Cyropaedia' VIII.6.22; the winter residence in Briant, 'From Cyrus to Alexander' (2002)."
+        },
+        {
+          "id": "xc2",
+          "group": "Transmission",
+          "label": "The Chaldean channel to the Greek world",
+          "date": "c.430–280 BC",
+          "loc": "Babylon (Bābil)",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "The transmission of Babylonian science west ran through people as well as texts. Greek writers consulted 'the Chaldeans'; astronomical records physically travelled; and around 281 BC a Babylonian priest, Berossus, wrote a history of Babylonia in Greek for the Seleucid court — passing the flood story, the king-lists, the cosmology and the astronomy into the Greek stream. The pipeline that carried the zodiac to Europe was open by the Achaemenid period.",
+          "tag": "EVIDENCE",
+          "note": "Amélie Kuhrt, 'Berossus' Babyloniaka and Seleucid Rule in Babylonia' (1987); Geert De Breucker on Berossus."
+        },
+        {
+          "id": "xc3",
+          "group": "Peoples",
+          "label": "The Judean diaspora consolidates",
+          "date": "c.538–400 BC",
+          "loc": "Babylonia and Jerusalem",
+          "coords": [
+            32.4,
+            44.8
+          ],
+          "hint": "The return under Cyrus split the Judean people permanently into two centres — the smaller, poorer community that rebuilt Jerusalem, and the larger, wealthier one that stayed in Babylonia. The tension shows in Ezra-Nehemiah's suspicion of those who had not gone. Over the following centuries the Babylonian community became the demographic and, in time, the intellectual heartland of Judaism, a role it held until the coming of Islam.",
+          "tag": "EVENT",
+          "note": "Isaiah Gafni, 'Land, Center and Diaspora: Jewish Constructs in Late Antiquity' (1997); Rainer Albertz, 'Israel in Exile' (2003)."
+        },
+        {
+          "id": "xc4",
+          "group": "Peoples",
+          "label": "The Persian settlement and the Iranian tie",
+          "date": "c.500–331 BC",
+          "loc": "Babylonia",
+          "coords": [
+            32.6,
+            44.6
+          ],
+          "hint": "Persian nobles, soldiers, administrators and their households settled across Babylonia, and Iranian names spread through the Babylonian tablets. It is the beginning of a fusion of the Iranian and Mesopotamian worlds — political, religious and demographic — that deepens under the Parthians and Sasanians and never fully unwinds. Aramaic was the medium that let the two societies interlock.",
+          "tag": "EVIDENCE",
+          "note": "Ran Zadok on Iranian anthroponyms in the Babylonian corpus; Briant (2002)."
+        },
+        {
+          "id": "xc5",
+          "group": "The End",
+          "label": "Alexander's plan for a Babylonian capital",
+          "date": "331–323 BC",
+          "loc": "Babylon (Bābil)",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "Alexander meant Babylon to be the capital of his world empire. He ordered the Esagila and the ziggurat rebuilt, sailed a fleet down the Euphrates, planned a great harbour and an expedition to circumnavigate Arabia, and gathered his army there for it. He died in the Southern Palace in June 323 with the plans unexecuted. The Achaemenid idea of Babylon as an imperial node passed to the Hellenistic kingdoms, and the Seleucids built their own capital, Seleucia, a short way up the Tigris.",
+          "tag": "EVENT",
+          "note": "Arrian, 'Anabasis' VII.17–19; the 'last plans' in Diodorus XVIII.4; Strabo XVI.1.5."
+        }
+      ]
     },
     {
       "id": "world",
