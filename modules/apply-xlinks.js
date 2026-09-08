@@ -31,6 +31,47 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── iraq-1258-1534 (Iraq under the Ilkhans and the Turkmen) ──
+  // hand-off backward from Iraq from the Buyids to the Mongols:
+  ['iraq-1258-1534::k1', 'iraq-945-1258::k8'],        // Hulagu and the Ilkhanate -> Iraq a province governed from Tabriz
+  ['iraq-1258-1534::o1', 'iraq-945-1258::w2'],        // from the centre of the world to a march -> ruled from the north
+  ['iraq-1258-1534::e1', 'iraq-945-1258::e1'],        // the end of the Sawad -> its recorded nadir
+  ['iraq-1258-1534::e2', 'iraq-945-1258::e3'],        // the militarised land -> the pastoral takeover of the farmland
+  ['iraq-1258-1534::g4', 'iraq-945-1258::g1'],        // the fragility of a hydraulic society -> the losing fight with the rivers
+  ['iraq-1258-1534::b1', 'iraq-945-1258::b1'],        // the Baghdad school of Twelver theology -> Hilla, Najaf and the atabat
+  ['iraq-1258-1534::e4', 'iraq-945-1258::e5'],        // the pilgrimage and shrine economy -> the atabat as the mainstay
+  ['iraq-1258-1534::o3', 'iraq-945-1258::o5'],        // the waqf that built the city -> the shrine administrations that outlast every sack
+  ['iraq-1258-1534::b3', 'iraq-945-1258::b4'],        // Sufism becomes institutional orders -> the orders as the common faith
+  ['iraq-1258-1534::b5', 'iraq-945-1258::b6'],        // the Jews and Christians of Iraq, diminished, and further reduced
+  ['iraq-1258-1534::t4', 'iraq-945-1258::t5'],        // the rational sciences narrowed -> metaphysics moves from the madrasa to the lodge
+  ['iraq-1258-1534::w1', 'iraq-945-1258::w4'],        // the end of the Abbasid Caliphate -> the great undoing of Iraq
+  ['iraq-1258-1534::c1', 'iraq-945-1258::xc3'],       // the Ilkhanate and the Mongol world -> its dissolution after 1335
+  ['iraq-1258-1534::x3', 'iraq-945-1258::x1'],        // the Persianate turn -> Persian and Turkic poetry at the Turkmen courts
+  ['iraq-1258-1534::t1', 'iraq-945-1258::t4'],        // the last generation of Buyid science -> the Maragha observatory
+  ['iraq-1258-1534::o4', 'iraq-945-1258::xc1'],       // the Turkmen migration -> the tribal order at its widest
+  ['iraq-1258-1534::o6', 'iraq-945-1258::w3'],        // the plural society thins and hardens -> the Sunni–Shia state frontier
+  // lateral to the Caliphate 945–1258 (the tail overlap — the sack and its aftermath):
+  ['iraq-1258-1534::k1', 'caliphate-945-1258::k13'], // Hulagu and the Ilkhanate
+  ['iraq-1258-1534::xc1', 'caliphate-945-1258::x6'], // the Mongols and the wider world
+  ['iraq-1258-1534::b1', 'caliphate-945-1258::b5'],  // the Shia academy moves to Najaf
+  ['iraq-1258-1534::w1', 'caliphate-945-1258::ec2'], // the end of the Sawad
+  ['iraq-1258-1534::w4', 'caliphate-945-1258::w6'],  // the end of the institutional caliphate; the shrine cities carry on
+  // lateral to the Mamluk Sultanate (the other survivor of the Mongol shock, the rival, the Cairo caliphate):
+  ['iraq-1258-1534::k1', 'mamluks-1250-1517::c1'],   // the Mongols stopped at Ayn Jalut while Baghdad fell
+  ['iraq-1258-1534::k1', 'mamluks-1250-1517::c2'],   // Iraq the Ilkhanid base for the invasions of Mamluk Syria
+  ['iraq-1258-1534::k2', 'mamluks-1250-1517::k10'],  // Sultan Ahmad Jalayir sheltered in Mamluk Cairo from Timur
+  ['iraq-1258-1534::c2', 'mamluks-1250-1517::c7'],   // Timur's campaign — Baghdad, and Aleppo and Damascus
+  ['iraq-1258-1534::o1', 'mamluks-1250-1517::o2'],   // the Abbasid caliphate reinstalled in Cairo while Iraq had none
+  ['iraq-1258-1534::b3', 'mamluks-1250-1517::b3'],   // the tariqas and the age of the saint
+  ['iraq-1258-1534::t4', 'mamluks-1250-1517::b4'],   // the school of Ibn Arabi and the unity of being
+  ['iraq-1258-1534::x5', 'mamluks-1250-1517::b5'],   // Sunni hadith scholarship now centred on Cairo and Damascus
+  ['iraq-1258-1534::t1', 'mamluks-1250-1517::t4'],   // the Maragha planetary models reach Ibn al-Shatir at Damascus
+  ['iraq-1258-1534::g1', 'mamluks-1250-1517::tc1'],  // the cavalry states and the Mamluk and Turkmen resistance to firearms
+  ['iraq-1258-1534::e1', 'mamluks-1250-1517::ec7'],  // the rural crisis — iqta, Bedouin and shrinking cultivation
+  ['iraq-1258-1534::e3', 'mamluks-1250-1517::ec1'],  // the transit trade that ran through the Red Sea and the Karimi
+  ['iraq-1258-1534::xc1', 'mamluks-1250-1517::ec3'], // the Black Death, travelling the Mongol roads west
+  ['iraq-1258-1534::c6', 'mamluks-1250-1517::c12'],  // the Ottomans absorb the last independent Islamic states, 1517 and 1534
+  ['iraq-1258-1534::k7', 'mamluks-1250-1517::k14'],  // the Ottoman conquest — al-Ghawri and Tuman Bay, then Baghdad
   // ── iraq-945-1258 (Iraq from the Buyids to the Mongols) ──
   // hand-off backward from Early Islamic Iraq:
   ['iraq-945-1258::k1', 'iraq-632-945::k8'],        // power passes to the amir al-umara -> the Buyids rule in the caliph's name
