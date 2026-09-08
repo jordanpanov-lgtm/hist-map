@@ -31,6 +31,56 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── iraq-632-945 (Early Islamic Iraq — the place-view alongside the caliphate-* backbone) ──
+  // hand-off backward from Sasanian Mesopotamia:
+  ['iraq-632-945::k1', 'mesopotamia-224-637::c6'],   // al-Qadisiyya and the fall of Ctesiphon -> the garrison cities founded
+  ['iraq-632-945::k5', 'mesopotamia-224-637::o2'],   // al-Madā'in -> al-Mansur's Baghdad, 30 km upstream
+  ['iraq-632-945::o3', 'mesopotamia-224-637::xc5'],  // the Sasanian apparatus passes to Islam -> Baghdad the machine of empire
+  ['iraq-632-945::o2', 'mesopotamia-224-637::o3'],   // Khosrow I's cadastral tax -> the Sawad kept as a taxed common endowment
+  ['iraq-632-945::o1', 'mesopotamia-224-637::w4'],   // Sasanian Iraq becomes Islamic Iraq -> the amsar and the stipend state
+  ['iraq-632-945::o6', 'mesopotamia-224-637::o5'],   // the protected communities under their heads -> the dhimma continued
+  ['iraq-632-945::e1', 'mesopotamia-224-637::e1'],   // the Nahrawan -> the Sawad's agriculture still at its height
+  ['iraq-632-945::e4', 'mesopotamia-224-637::e2'],   // the richest tax base -> the base erodes and the iqta comes
+  ['iraq-632-945::g2', 'mesopotamia-224-637::g2'],   // the engineering of the Nahrawan -> the canals that make Baghdad a river port
+  ['iraq-632-945::b5', 'mesopotamia-224-637::b2'],   // Sura and Pumbedita and the Talmud -> the geonim now in Baghdad
+  ['iraq-632-945::l2', 'mesopotamia-224-637::l2'],   // the head of the academy -> the gaon of Sura at Baghdad
+  ['iraq-632-945::l3', 'mesopotamia-224-637::l5'],   // the court physician of Gondeshapur -> Hunayn ibn Ishaq the translator
+  ['iraq-632-945::t1', 'mesopotamia-224-637::t4'],   // Syriac, the bridge from Greek -> the Arabic translation movement
+  ['iraq-632-945::t4', 'mesopotamia-224-637::t1'],   // Gondeshapur -> the Baghdad hospital and its physicians
+  ['iraq-632-945::b6', 'mesopotamia-224-637::b6'],   // the Mandaean and gnostic ferment -> the first Muslim ascetics of Iraq
+  ['iraq-632-945::x5', 'mesopotamia-224-637::x5'],   // the great vault of Ctesiphon -> the Round City and Samarra
+  ['iraq-632-945::w1', 'mesopotamia-224-637::w1'],   // Mesopotamia the heart of a great power -> Baghdad the world city
+  ['iraq-632-945::w2', 'mesopotamia-224-637::w2'],   // the plural society and its heads -> the Arabising Iraq that grows from it
+  // lateral to the Caliphate 632–750:
+  ['iraq-632-945::k1', 'caliphate-632-750::o1'],     // the diwan and the garrison cities — Kufa and Basra the type
+  ['iraq-632-945::c1', 'caliphate-632-750::c5'],     // the Battle of the Camel and Siffin, fought from Iraq
+  ['iraq-632-945::c2', 'caliphate-632-750::c6'],     // Karbala
+  ['iraq-632-945::b1', 'caliphate-632-750::o5'],     // the qadi and the beginnings of Islamic law — Kufa and Basra
+  ['iraq-632-945::x1', 'caliphate-632-750::t2'],     // Arabic grammar and the two schools, Basra and Kufa
+  ['iraq-632-945::b6', 'caliphate-632-750::b6'],     // al-Hasan al-Basri and the beginnings of renunciation
+  // lateral to the Caliphate 750–945:
+  ['iraq-632-945::k5', 'caliphate-750-945::k1'],     // al-Saffah and al-Mansur — the founding of Baghdad
+  ['iraq-632-945::k7', 'caliphate-750-945::w3'],     // Samarra and the slave-soldier state
+  ['iraq-632-945::k8', 'caliphate-750-945::k12'],    // the amir al-umara and the Buyid entry
+  ['iraq-632-945::c4', 'caliphate-750-945::c2'],     // the siege of Baghdad in the war of the brothers
+  ['iraq-632-945::c5', 'caliphate-750-945::c6'],     // the Zanj Revolt
+  ['iraq-632-945::c6', 'caliphate-750-945::c8'],     // the Qarmatians and the humiliation of the Hajj
+  ['iraq-632-945::b4', 'caliphate-750-945::o2'],     // the mihna — the inquisition of the created Quran
+  ['iraq-632-945::b3', 'caliphate-750-945::b5'],     // the line of imams ends — the Occultation, at Samarra
+  ['iraq-632-945::b5', 'caliphate-750-945::b8'],     // the geonim, Saadia Gaon and the Karaite schism
+  ['iraq-632-945::t1', 'caliphate-750-945::t1'],     // the Translation Movement
+  ['iraq-632-945::e3', 'caliphate-750-945::ec2'],    // the Indian Ocean trade at its height — Basra and Siraf
+  ['iraq-632-945::e1', 'caliphate-750-945::ec3'],    // the Sawad — the granary and the beginning of its decline
+  ['iraq-632-945::xc2', 'caliphate-750-945::x6'],    // the Darb Zubayda — the pilgrim road
+  ['iraq-632-945::w4', 'caliphate-750-945::w5'],     // the Buyids take Baghdad
+  // lateral to Egypt under Islam (the parallel caliphal province):
+  ['iraq-632-945::k1', 'egypt-641-969::o1'],         // Fustat <-> Kufa and Basra — the garrison city as capital
+  ['iraq-632-945::o6', 'egypt-641-969::o5'],         // the dhimma in practice, in both provinces
+  ['iraq-632-945::b1', 'egypt-641-969::b2'],         // the Iraqi schools of law <-> al-Shafiʿi's Egypt
+  ['iraq-632-945::e4', 'egypt-641-969::e2'],         // from tribute to tax-farm to assignment
+  ['iraq-632-945::k7', 'egypt-641-969::k6'],         // the tax-farm and the Turkish generals
+  // lateral to the Lakhmids (Kufa rose next to al-Hira):
+  ['iraq-632-945::c2', 'lakhmid-268-602::w5'],       // al-Hira falls to the Islamic state, and Kufa is built beside it
   // ── mesopotamia-224-637 (Sasanian Mesopotamia) ──
   // hand-off backward from Parthian Mesopotamia:
   ['mesopotamia-224-637::k1', 'mesopotamia-141bc-224::c6'],   // Ardashir destroys Artabanus IV -> the founding of Ērānšahr
