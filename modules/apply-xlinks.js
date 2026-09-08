@@ -31,6 +31,34 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── egypt-1952-today (The Egyptian Republic): hand-off from Colonial Egypt and the Monarchy ──
+  ['egypt-1952-today::k7', 'egypt-1900-1952::k15'],  // the Free Officers and the 23 July 1952 coup — the same event
+  ['egypt-1952-today::k1', 'egypt-1900-1952::l6'],   // the Free Officers → Naguib, their figurehead president
+  ['egypt-1952-today::k2', 'egypt-1900-1952::l6'],   // the Free Officers → Nasser, their leader and the single centre
+  ['egypt-1952-today::k14', 'egypt-1900-1952::k13'], // Hasan al-Banna's Brotherhood → the Brotherhood as perennial opposition
+  ['egypt-1952-today::b2', 'egypt-1900-1952::b2'],   // al-Banna's comprehensive Islam → the movement after the gallows
+  ['egypt-1952-today::b1', 'egypt-1900-1952::b4'],   // al-Azhar between reform and the state → al-Azhar nationalised
+  ['egypt-1952-today::b5', 'egypt-1900-1952::b5'],   // the Sufi orders and the mawlid in the modern city — continuous
+  ['egypt-1952-today::b3', 'egypt-1900-1952::b3'],   // national unity and the Coptic question → the Church as a communal state
+  ['egypt-1952-today::b7', 'egypt-1900-1952::b3'],   // the national-unity ideal → sectarian violence and the reconciliation formula
+  ['egypt-1952-today::x1', 'egypt-1900-1952::x2'],   // Naguib Mahfouz and the realist novel → the Nobel Prize (same figure)
+  ['egypt-1952-today::x2', 'egypt-1900-1952::x3'],   // Studio Misr and the Hollywood on the Nile → the nationalised studio and golden age
+  ['egypt-1952-today::x3', 'egypt-1900-1952::x4'],   // Umm Kulthum and the radio → the era of the long song (same figure)
+  ['egypt-1952-today::x5', 'egypt-1900-1952::x5'],   // the press at its height → from al-Ahram to media consolidation
+  ['egypt-1952-today::t4', 'egypt-1900-1952::t3'],   // the feminist movement → feminism and the rights movement — continuous
+  ['egypt-1952-today::t1', 'egypt-1900-1952::t2'],   // the identity debate (Pharaonism to Arabism) → Arab nationalism and its disillusion
+  ['egypt-1952-today::o1', 'egypt-1900-1952::o2'],   // the 1923 constitution and the liberal experiment → the republic and its many constitutions
+  ['egypt-1952-today::k16', 'egypt-1900-1952::o6'],  // the parties and the rigged election → the licensed opposition parties
+  ['egypt-1952-today::e1', 'egypt-1900-1952::e4'],   // the land question → agrarian reform and its long undoing
+  ['egypt-1952-today::e2', 'egypt-1900-1952::o5'],   // the interventionist state → nationalisation and the planned economy
+  ['egypt-1952-today::g1', 'egypt-1900-1952::g1'],   // the Aswan Dam heightenings → building the High Dam
+  ['egypt-1952-today::c3', 'egypt-1900-1952::c7'],   // the 1948 Palestine War → the Six-Day War and the loss of Sinai
+  ['egypt-1952-today::xc2', 'egypt-1900-1952::xc3'], // the Palestine question → Camp David and the 1979 treaty
+  ['egypt-1952-today::xc6', 'egypt-1900-1952::xc1'], // Egypt in the League and the Arab League → the Arab League seat and regional diplomacy
+  ['egypt-1952-today::w1', 'egypt-1900-1952::w2'],   // the population problem → the population surge
+  ['egypt-1952-today::w2', 'egypt-1900-1952::w1'],   // Cairo and the urban explosion → Cairo the megacity and the informal quarter
+  ['egypt-1952-today::l2', 'egypt-1900-1952::l7'],   // the effendi and the fellah → the peasant after land reform
+  ['egypt-1952-today::b3', 'egypt-300-641::b3'],     // the Coptic Orthodox Church — the same institution, 1400 years on
   // ── egypt-1900-1952 (Colonial Egypt and the Monarchy): hand-off from Muhammad Ali and the Khedivate ──
   ['egypt-1900-1952::k1', 'egypt-1798-1900::k8'],    // Abbas II Hilmi acceding → deposed on the Protectorate
   ['egypt-1900-1952::k5', 'egypt-1798-1900::k10'],   // the occupation and Cromer → the man in the Residency
