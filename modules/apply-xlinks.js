@@ -31,6 +31,48 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── mesopotamia-141bc-224 (Parthian Mesopotamia) ──
+  // hand-off backward from Seleucid Mesopotamia:
+  ['mesopotamia-141bc-224::k1', 'mesopotamia-331bc-141bc::c6'],   // Mithridates I takes Babylonia -> the Parthian settlement
+  ['mesopotamia-141bc-224::o3', 'mesopotamia-331bc-141bc::o2'],   // the constitution of Seleucia, kept under Parthian suzerainty
+  ['mesopotamia-141bc-224::o2', 'mesopotamia-331bc-141bc::e1'],   // Seleucia draws off Babylon -> Ctesiphon rises across the river from Seleucia
+  ['mesopotamia-141bc-224::o4', 'mesopotamia-331bc-141bc::o4'],   // the temple assembly left to govern itself, still meeting
+  ['mesopotamia-141bc-224::o5', 'mesopotamia-331bc-141bc::o1'],   // the Seleucid Era -> now written beside the Arsacid era
+  ['mesopotamia-141bc-224::b1', 'mesopotamia-331bc-141bc::x2'],   // the last copying of the classics -> the last cuneiform tablet
+  ['mesopotamia-141bc-224::b1', 'mesopotamia-331bc-141bc::b2'],   // the Astronomical Diaries at their fullest -> the record finally stops
+  ['mesopotamia-141bc-224::t1', 'mesopotamia-331bc-141bc::t1'],   // Systems A and B -> the observatory winds down
+  ['mesopotamia-141bc-224::t2', 'mesopotamia-331bc-141bc::t5'],   // the parameters pass to Hipparchus -> Ptolemy builds the Almagest on them
+  ['mesopotamia-141bc-224::t3', 'mesopotamia-331bc-141bc::t4'],   // the horoscope comes of age -> astrology becomes a universal science
+  ['mesopotamia-141bc-224::b4', 'mesopotamia-331bc-141bc::b1'],   // Marduk and the New Year still kept -> Bel, Nabu and Nanaya carry on
+  ['mesopotamia-141bc-224::b2', 'mesopotamia-331bc-141bc::b4'],   // the Jewish community of Babylonia continues -> the exilarch and the first rabbis
+  ['mesopotamia-141bc-224::x1', 'mesopotamia-331bc-141bc::x3'],   // the Graeco-Babyloniaca tablets -> the last colophons in cuneiform
+  ['mesopotamia-141bc-224::x5', 'mesopotamia-331bc-141bc::xc3'],  // the Chaldeans as a profession abroad -> the Chaldean handbooks in Greek
+  ['mesopotamia-141bc-224::e1', 'mesopotamia-331bc-141bc::xc1'],  // Seleucia the great emporium of the East -> still the emporium under Parthia
+  ['mesopotamia-141bc-224::e5', 'mesopotamia-331bc-141bc::e2'],   // the coined-silver economy arrives -> the Arsacid drachm and the Seleucia tetradrachm
+  ['mesopotamia-141bc-224::e3', 'mesopotamia-331bc-141bc::e5'],   // the Gulf route and the desert road -> Characene and the Palmyrene sea trade
+  ['mesopotamia-141bc-224::l1', 'mesopotamia-331bc-141bc::l1'],   // the astronomer-scribe of the Esagila -> the last scribe of the Esagila
+  ['mesopotamia-141bc-224::w2', 'mesopotamia-331bc-141bc::w2'],   // a Greek layer over an Aramaic land -> the Aramaic renaissance as Greek recedes
+  ['mesopotamia-141bc-224::w4', 'mesopotamia-331bc-141bc::w4'],   // the Seleucid template -> the Parthian template, lighter still
+  // lateral to Roman Egypt — the rival empire's grain province in the same centuries:
+  ['mesopotamia-141bc-224::c4', 'egypt-30bc-300ad::k6'],          // Trajan on both fronts — Ctesiphon and the Egyptian canal and fort
+  ['mesopotamia-141bc-224::c4', 'egypt-30bc-300ad::c4'],          // the Jewish diaspora revolt of 115–117 spans Mesopotamia, Cyrene and Egypt
+  ['mesopotamia-141bc-224::b2', 'egypt-30bc-300ad::xc6'],         // Egyptian Jewry destroyed in the revolt while Babylonian Jewry rises
+  ['mesopotamia-141bc-224::b3', 'egypt-30bc-300ad::b3'],          // the first churches — Edessa and Adiabene / Alexandria and the villages
+  ['mesopotamia-141bc-224::t2', 'egypt-30bc-300ad::t1'],          // Ptolemy in Alexandria synthesises the Babylonian record
+  ['mesopotamia-141bc-224::t3', 'egypt-30bc-300ad::b7'],          // horoscopes and spells in daily life across the Roman world
+  ['mesopotamia-141bc-224::e2', 'egypt-30bc-300ad::xc1'],         // the two routes to India — overland through Parthia, sea through Egypt
+  ['mesopotamia-141bc-224::e3', 'egypt-30bc-300ad::xc2'],         // the Charax trade <-> the Muziris papyrus — the India commerce documented
+  ['mesopotamia-141bc-224::x3', 'egypt-30bc-300ad::x1'],          // Parthian frontality <-> the Faiyum portraits — two provincial idioms
+  ['mesopotamia-141bc-224::c5', 'egypt-30bc-300ad::w4'],          // the Antonine Plague, carried back from the sack of Seleucia
+  ['mesopotamia-141bc-224::xc2', 'egypt-30bc-300ad::k12'],        // Palmyra's reach — down the Euphrates, and briefly over Egypt
+  // lateral to Tylos–Mleiha (the Gulf, exact overlap):
+  ['mesopotamia-141bc-224::k7', 'tylos-mleiha-300bc-240ad::w2'],  // Characene emerges as an independent Gulf kingdom
+  ['mesopotamia-141bc-224::c6', 'tylos-mleiha-300bc-240ad::k5'],  // Ardashir ends the Parthian Gulf order
+  ['mesopotamia-141bc-224::l3', 'tylos-mleiha-300bc-240ad::ec5'], // the Palmyrene caravan chief on the Charax–India axis
+  // lateral to the Lakhmids of al-Hira (the Arab buffer kingdom, from 268):
+  ['mesopotamia-141bc-224::k8', 'lakhmid-268-602::k1'],           // Hatra, Edessa, Adiabene -> the Arab client kingdom pattern continued at al-Hira
+  ['mesopotamia-141bc-224::xc5', 'lakhmid-268-602::r1'],          // the Christian mission east -> al-Hira a major Nestorian centre
+  ['mesopotamia-141bc-224::w1', 'lakhmid-268-602::w1'],           // the land between the empires -> the Lakhmid–Ghassanid proxy war
   // ── mesopotamia-331bc-141bc (Seleucid Mesopotamia) ──
   // hand-off backward from Achaemenid Mesopotamia:
   ['mesopotamia-331bc-141bc::k1', 'mesopotamia-539bc-331bc::k6'],   // Alexander enters Babylon -> the successor who kept it
