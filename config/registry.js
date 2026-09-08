@@ -67,6 +67,8 @@ const MODULES = [
   { id:"sumer-2900bc-2334bc", file:"modules/sumer-2900bc-2334bc.json", label:"The Sumerian City-States 2900–2334 BC", sub:"Rival Cities on the King List, the Lagash–Umma War, the Tombs of Ur, and the First Unification", region:"Iraq", period:"Prehistoric" },
   { id:"mesopotamia-2334bc-2004bc", file:"modules/mesopotamia-2334bc-2004bc.json", label:"Akkad and the Third Dynasty of Ur 2334–2004 BC", sub:"The First Empire, the God-King Naram-Sin, the Gutian Interlude, and the Bureaucratic Renaissance of Ur", region:"Iraq", period:"Prehistoric" },
   { id:"babylon-2004bc-1595bc", file:"modules/babylon-2004bc-1595bc.json", label:"Hammurabi and the Amorite Kingdoms 2004–1595 BC", sub:"Isin and Larsa, Shamshi-Adad and Mari, the Law Stele, and the Fall of the First Dynasty of Babylon", region:"Iraq", period:"Prehistoric" },
+  // parallel folios — the north/south divide opens: Kassite Babylonia (south) ∥ the Middle Assyrian Kingdom (north)
+  { id:"babylon-1595bc-1155bc", file:"modules/babylon-1595bc-1155bc.json", label:"Kassite Babylonia 1595–1155 BC", sub:"The Mountain Dynasty, the Reunification of the South, the Amarna Age, and the Elamite Sack", region:"Iraq", period:"Prehistoric" },
   // ── ARABIA is split into two zones (config/regions.js): "NW Arabia" (the Hejaz,
   //   Najd and the northwest oases — the overland caravan / Islamic-heartland
   //   bloc) and "SE Arabia" (the Gulf, Oman, Yemen and South Arabia — the
