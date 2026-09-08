@@ -78,6 +78,7 @@ const MODULES = [
   // the Late Antique unified-basin folios — the Greek, Parthian and Persian centuries, one folio per era
   { id:"mesopotamia-331bc-141bc", file:"modules/mesopotamia-331bc-141bc.json", label:"Seleucid Mesopotamia 331–141 BC", sub:"The Greek Kings on the Tigris — the Wars of the Successors, Seleucia the New Royal City, the Cuneiform Twilight and the Coming of the Parthians", region:"Iraq", period:"Late Antique" },
   { id:"mesopotamia-141bc-224", file:"modules/mesopotamia-141bc-224.json", label:"Parthian Mesopotamia 141 BC – 224 AD", sub:"The Land Between the Empires — Ctesiphon the Arsacid Capital, the Wars with Rome, the End of Cuneiform, and the First Rabbis and the First Churches", region:"Iraq", period:"Late Antique" },
+  { id:"mesopotamia-224-637", file:"modules/mesopotamia-224-637.json", label:"Sasanian Mesopotamia 224–637 AD", sub:"The Heart of Ērānšahr — Ctesiphon the Imperial Capital, the Nahrawan and the Richest Land on Earth, the Church of the East and the Talmud, and the Arab Conquest", region:"Iraq", period:"Late Antique" },
   // ── ARABIA is split into two zones (config/regions.js): "NW Arabia" (the Hejaz,
   //   Najd and the northwest oases — the overland caravan / Islamic-heartland
   //   bloc) and "SE Arabia" (the Gulf, Oman, Yemen and South Arabia — the
