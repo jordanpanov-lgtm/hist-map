@@ -31,6 +31,41 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── babylon-1595bc-1155bc ∥ assyria-1400bc-1050bc (the north/south parallel pair) ──
+  // Kassite Babylonia — hand-off backward from Hammurabi and the Amorite Kingdoms:
+  ['babylon-1595bc-1155bc::k1', 'babylon-2004bc-1595bc::c6'],   // the Hittite raid leaves a throne the Kassites take
+  ['babylon-1595bc-1155bc::k2', 'babylon-2004bc-1595bc::c6'],   // Marduk carried off by the Hittites -> Agum II brings him home
+  ['babylon-1595bc-1155bc::k3', 'babylon-2004bc-1595bc::c5'],   // the abandonment of the south and the Sealand -> Ulamburiash reunites Babylonia
+  ['babylon-1595bc-1155bc::b1', 'babylon-2004bc-1595bc::b1'],   // Marduk's rise continues
+  ['babylon-1595bc-1155bc::x4', 'babylon-2004bc-1595bc::x2'],   // the Old Babylonian Gilgamesh -> the Standard Babylonian edition
+  ['babylon-1595bc-1155bc::b5', 'babylon-2004bc-1595bc::b2'],   // the righteous sufferer -> Ludlul bel nemeqi
+  ['babylon-1595bc-1155bc::t5', 'babylon-2004bc-1595bc::t5'],   // the wisdom-and-theodicy debate
+  ['babylon-1595bc-1155bc::e1', 'babylon-2004bc-1595bc::e5'],   // the emptying of the south -> its recovery under the Kassite peace
+  // Kassite Babylonia — lateral to the Gulf and to Egypt's Amarna age:
+  ['babylon-1595bc-1155bc::xc4', 'dilmun-3000bc-1200bc::o3'],   // Babylonia administers Dilmun <-> the Kassite governor's archive at Qal'at al-Bahrain
+  ['babylon-1595bc-1155bc::xc2', 'egypt-1550bc-1200bc::xc1'],   // the two halves of the Amarna correspondence
+  ['babylon-1595bc-1155bc::xc1', 'egypt-1550bc-1200bc::w3'],    // Karduniash in the club of great powers
+  ['babylon-1595bc-1155bc::l4',  'egypt-1550bc-1200bc::xc2'],   // the princess sent abroad <-> marrying into Egypt
+  ['babylon-1595bc-1155bc::xc3', 'egypt-1550bc-1200bc::e1'],    // lapis and horses for the Nubian gold of Egypt's tribute economy
+  ['babylon-1595bc-1155bc::g2',  'egypt-1550bc-1200bc::g3'],    // the glass industry, north and south of the sea
+  ['babylon-1595bc-1155bc::g4',  'egypt-1550bc-1200bc::g2'],    // iron still a curiosity, everywhere
+  // Kassite Babylonia ∥ Middle Assyria — the parallel folios cross-linked:
+  ['babylon-1595bc-1155bc::k6', 'assyria-1400bc-1050bc::k1'],   // Ashur-uballit makes a king of Babylon / founds the Assyrian state
+  ['babylon-1595bc-1155bc::c2', 'assyria-1400bc-1050bc::xc2'],  // the border war, told from each side
+  ['babylon-1595bc-1155bc::c3', 'assyria-1400bc-1050bc::c3'],   // Tukulti-Ninurta takes Babylon — Babylonian and Assyrian accounts
+  ['babylon-1595bc-1155bc::k8', 'assyria-1400bc-1050bc::k4'],   // Kashtiliash IV captured by Tukulti-Ninurta I
+  ['babylon-1595bc-1155bc::k9', 'assyria-1400bc-1050bc::k5'],   // the Babylonian reaction and the murder of Tukulti-Ninurta
+  ['babylon-1595bc-1155bc::o5', 'assyria-1400bc-1050bc::t1'],   // Babylon canonises the tradition, Assyria copies it
+  ['babylon-1595bc-1155bc::w4', 'assyria-1400bc-1050bc::w3'],   // both weather the Bronze Age collapse and barely survive
+  ['babylon-1595bc-1155bc::xc1', 'assyria-1400bc-1050bc::xc1'], // both in the Great Kings' club, in rivalry
+  // ── assyria-1400bc-1050bc (The Middle Assyrian Kingdom) — further links ──
+  ['assyria-1400bc-1050bc::k1', 'babylon-2004bc-1595bc::k6'],   // the merchant city-state of Assur becomes a kingdom
+  ['assyria-1400bc-1050bc::e4', 'babylon-2004bc-1595bc::e2'],   // the Assur–Kanesh caravan trade, now long gone
+  ['assyria-1400bc-1050bc::e4', 'babylon-2004bc-1595bc::xc1'],  // the karum system it once ran
+  ['assyria-1400bc-1050bc::xc5', 'babylon-2004bc-1595bc::w1'],  // the Amorite settlement -> the Aramaean flood, the pattern repeats
+  ['assyria-1400bc-1050bc::xc1', 'egypt-1550bc-1200bc::xc1'],   // Ashur-uballit writes to Egypt as a Great King
+  ['assyria-1400bc-1050bc::c1', 'egypt-1550bc-1200bc::c4'],     // Egypt broke Mitanni's coalition from the west, Assyria destroyed it from the east
+  ['assyria-1400bc-1050bc::g2', 'egypt-1550bc-1200bc::g2'],     // iron enters use, still a rarity
   // ── babylon-2004bc-1595bc (Hammurabi and the Amorite Kingdoms) ──
   // hand-off backward from Akkad and the Third Dynasty of Ur:
   ['babylon-2004bc-1595bc::k1',  'mesopotamia-2334bc-2004bc::e6'],  // Ishbi-Erra, sent to buy grain, founds Isin on the wreck of Ur
