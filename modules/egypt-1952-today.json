@@ -1107,7 +1107,64 @@
       "accent": "#2E6F8E",
       "color": "#0F2A3D",
       "subtitle": "The population surge and Cairo's mega-growth, the Nile and the Renaissance Dam, the informal city, and the diaspora",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Demography",
+          "label": "The population surge",
+          "date": "1952–present",
+          "loc": "Egypt",
+          "coords": [
+            30.05,
+            31.24
+          ],
+          "hint": "Egypt's population rose from about 22 million in 1952 to over 100 million by 2020 and past 105 million by the mid-2020s, despite falling fertility, because the base was so large and young. A brief dip in the birth rate in the 1990s reversed after 2006. The arable land, still a narrow strip, grew far more slowly, so density on the cultivated Nile valley became among the highest on earth.",
+          "tag": "—",
+          "note": "CAPMAS decennial censuses 1947–2017 and population clock; UN World Population Prospects 2024 revision."
+        },
+        {
+          "id": "w2",
+          "group": "Urbanisation",
+          "label": "Cairo the megacity and the informal quarter",
+          "date": "1952–present",
+          "loc": "Greater Cairo",
+          "coords": [
+            30.06,
+            31.25
+          ],
+          "hint": "Greater Cairo grew from roughly 2.5 million in 1952 to some 22 million, the largest city in Africa and the Arab world. Most of that growth housed itself: over half of Cairenes live in ʿashwaʾiyyat — dense, unplanned but solidly built brick-and-concrete quarters on former farmland, with self-organised services and little state presence. Government answered with desert satellite cities that the poor could not reach.",
+          "tag": "—",
+          "note": "D. Sims, 'Understanding Cairo: The Logic of a City Out of Control' (2010); UN-Habitat State of Arab Cities reports; CAPMAS Greater Cairo Region data."
+        },
+        {
+          "id": "w3",
+          "group": "Environment",
+          "label": "The Nile, upstream Africa and the Renaissance Dam",
+          "date": "1959–present",
+          "loc": "The Blue Nile, Ethiopia",
+          "coords": [
+            11.21,
+            35.09
+          ],
+          "hint": "A 1959 treaty split the Nile's measured flow between Egypt and Sudan and left the upstream states out; Egypt long treated its share as a red line. Ethiopia's Grand Renaissance Dam, begun in 2011 and filled through the early 2020s without an agreement, challenged that order. Egypt, importing much of its food and facing per-capita water 'scarcity', has alternated between negotiation, appeals to the UN, and threats.",
+          "tag": "—",
+          "note": "Agreement on the Full Utilization of the Nile Waters, 1959; Declaration of Principles on the GERD, Khartoum, 23 March 2015; UN Security Council briefings, 2020–2021."
+        },
+        {
+          "id": "w4",
+          "group": "Diaspora",
+          "label": "The Egyptian diaspora",
+          "date": "1960s–present",
+          "loc": "The Gulf and the West",
+          "coords": [
+            29.76,
+            -95.36
+          ],
+          "hint": "By the 2020s perhaps 10 million people of Egyptian origin lived abroad — a majority in Saudi Arabia, the UAE, Kuwait and Jordan on temporary contracts, and a settled professional emigration to the United States, Canada, Australia and Europe. The Coptic emigration built a network of dozens of dioceses and hundreds of churches overseas, and the diaspora became a political actor, lobbying and protesting around the 2011 and 2013 events.",
+          "tag": "—",
+          "note": "Ministry of State for Emigration and Egyptian Expatriate Affairs estimates; Coptic Orthodox Church diocese directories; migration-corridor data, World Bank."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -1116,7 +1173,92 @@
       "accent": "#7B4FA6",
       "color": "#2E1A4A",
       "subtitle": "The citizen of Nasser's republic, the peasant after land reform, the migrant worker, the urban poor and the squeezed middle class, and women's changing lives",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Acts and Conditions",
+          "label": "The citizen of the republic",
+          "date": "1952–1975",
+          "loc": "Cairo",
+          "coords": [
+            30.05,
+            31.24
+          ],
+          "hint": "The republic offered a bargain: free schooling to university, a guaranteed government or public-sector job, subsidised bread and housing, health care and a pension, in return for political silence and two years' conscription. For the first generation off the land it was real mobility — the village boy who became an engineer or an army officer. The bargain frayed from the 1970s but shaped what Egyptians expected of the state for good.",
+          "tag": "—",
+          "note": "Law 68/1968 on compulsory education; conscription law 505/1955; oral-history collections, American University in Cairo."
+        },
+        {
+          "id": "l2",
+          "group": "Acts and Conditions",
+          "label": "The peasant after land reform",
+          "date": "1952–present",
+          "loc": "The Nile Delta",
+          "coords": [
+            30.9,
+            31.1
+          ],
+          "hint": "Land reform gave a minority of tenant families title, but inheritance split the plots into ever-smaller strips — by the 2000s the average holding was under an acre — and the 1997 return of free-market rents evicted or squeezed the tenants again. The fellah's household survived by mixing tiny farming with wage work, migration and a son in the army or the Gulf, and the village emptied toward the city.",
+          "tag": "—",
+          "note": "CAPMAS Agricultural Census 1950–2010; R. Saad, 'Egyptian Politics and the Tenancy Law' (2002); N. Hopkins and K. Westergaard (eds.), 'Directions of Change in Rural Egypt' (1998)."
+        },
+        {
+          "id": "l3",
+          "group": "Acts and Conditions",
+          "label": "The migrant's family",
+          "date": "1974–present",
+          "loc": "Upper Egypt",
+          "coords": [
+            26.56,
+            31.7
+          ],
+          "hint": "In the villages of Upper Egypt and the Delta, a generation grew up with fathers, uncles and brothers working years at a stretch in Saudi Arabia, Libya or the Gulf. Remittances built the multi-storey brick house, paid the bride-price, and bought the appliances; wives ran the household and the land alone; and returnees brought back capital, a stricter piety, and sometimes the frustration of no ladder at home.",
+          "tag": "—",
+          "note": "A. Rugh, 'Family in Contemporary Egypt' (1984); ethnographic studies of migration in Egyptian villages, 1980s–2000s; IOM Egypt household surveys."
+        },
+        {
+          "id": "l4",
+          "group": "Acts and Conditions",
+          "label": "The informal city and the day-labourer",
+          "date": "1970s–present",
+          "loc": "Greater Cairo",
+          "coords": [
+            30.03,
+            31.28
+          ],
+          "hint": "Most new Cairenes made their lives in the unplanned quarters: renting or building a floor on a family plot, riding an informal microbus an hour or more to work, hustling a living as a day-labourer, mechanic, doorman, street vendor or garbage collector in the Zabbaleen settlements. The state was present as the police and absent as a provider, and the mosque, the family and the neighbourhood filled the gap.",
+          "tag": "—",
+          "note": "S. Ismail, 'Political Life in Cairo's New Quarters' (2006); WIEGO informal-economy studies; W. Fahmi and K. Sutton on the Zabbaleen, 2010."
+        },
+        {
+          "id": "l5",
+          "group": "Acts and Conditions",
+          "label": "The squeezed middle class",
+          "date": "1985–present",
+          "loc": "Cairo",
+          "coords": [
+            30.05,
+            31.2
+          ],
+          "hint": "The public-sector clerk and teacher who had been the model of respectability watched real incomes fall from the 1980s, moonlighting in a second job, taxi or private tutoring to stay afloat. Marriage was delayed for years while a couple assembled a flat and a dowry; private lessons and private universities became the middle-class survival strategy; and the gap between this stagnant salaried class and a visible new rich fed the anger of 2011.",
+          "tag": "—",
+          "note": "G. Amin, 'Whatever Happened to the Egyptians?' (1998) and 'Egypt in the Era of Hosni Mubarak' (2011); World Bank Egypt poverty and shared-prosperity assessments; Population Council 'Survey of Young People in Egypt' (2009, 2014)."
+        },
+        {
+          "id": "l6",
+          "group": "Acts and Conditions",
+          "label": "Women's changing lives",
+          "date": "1956–present",
+          "loc": "Cairo",
+          "coords": [
+            30.06,
+            31.25
+          ],
+          "hint": "Women gained the vote in 1956, near-parity in school enrolment by the 2000s, and a rising share of professional work, while the personal-status law — reformed in 1979, 1985 and by the 2000 khulʿ divorce right — changed more slowly. Veiling became near-universal from the 1980s revival; street harassment was epidemic and only criminalised clearly in 2014; and a 2020 wave of online testimony forced the first prosecutions of well-connected men.",
+          "tag": "—",
+          "note": "1956 constitution art. 31; decree-law 44/1979 and Law 1/2000 (khulʿ); Penal Code amendment 50/2014 and Law 141/2021 on harassment; National Council for Women reports."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -1125,98 +1267,528 @@
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Presidents",
-      "events": []
+      "events": [
+        {
+          "y": 1953,
+          "l": "Muhammad Naguib, figurehead president",
+          "entryId": "k1",
+          "y2": 1954
+        },
+        {
+          "y": 1954,
+          "l": "Gamal Abdel Nasser",
+          "entryId": "k2",
+          "y2": 1970
+        },
+        {
+          "y": 1970,
+          "l": "Anwar Sadat",
+          "entryId": "k3",
+          "y2": 1981
+        },
+        {
+          "y": 1981,
+          "l": "Hosni Mubarak's thirty years",
+          "entryId": "k4",
+          "y2": 2011
+        },
+        {
+          "y": 2012,
+          "l": "Mohamed Morsi, the elected year",
+          "entryId": "k5",
+          "y2": 2013
+        },
+        {
+          "y": 2014,
+          "l": "Abdel Fattah el-Sisi",
+          "entryId": "k6",
+          "y2": 2026
+        }
+      ]
     },
     {
       "id": "governments",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Governments (Prime Ministers)",
-      "events": []
+      "events": [
+        {
+          "y": 1952,
+          "l": "The Free Officers and the RCC",
+          "entryId": "k7",
+          "y2": 1956
+        },
+        {
+          "y": 1953,
+          "l": "The single party: Liberation Rally to ASU",
+          "entryId": "k8",
+          "y2": 1976
+        },
+        {
+          "y": 1971,
+          "l": "Sadat's Corrective Revolution",
+          "entryId": "k9",
+          "y2": 1972
+        },
+        {
+          "y": 1978,
+          "l": "The NDP and the succession question",
+          "entryId": "k10",
+          "y2": 2011
+        }
+      ]
     },
     {
       "id": "military",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "The Army and the Security State",
-      "events": []
+      "events": [
+        {
+          "y": 1952,
+          "l": "The officers' republic",
+          "entryId": "k11",
+          "y2": 2026
+        },
+        {
+          "y": 1954,
+          "l": "The Mukhabarat and the Interior Ministry",
+          "entryId": "k12",
+          "y2": 2026
+        },
+        {
+          "y": 2011,
+          "l": "SCAF governs the transition",
+          "entryId": "k13",
+          "y2": 2012
+        }
+      ]
     },
     {
       "id": "opposition",
       "icon": "⚜️",
       "accent": "#A0200A",
       "label": "Opposition and the Street",
-      "events": []
+      "events": [
+        {
+          "y": 1954,
+          "l": "The Brotherhood as perennial opposition",
+          "entryId": "k14",
+          "y2": 2013
+        },
+        {
+          "y": 1976,
+          "l": "The licensed opposition parties",
+          "entryId": "k16",
+          "y2": 2026
+        },
+        {
+          "y": 2004,
+          "l": "Kefaya, 6 April and the protest generation",
+          "entryId": "k15",
+          "y2": 2011
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
       "label": "Conflict",
-      "events": []
+      "events": [
+        {
+          "y": 1956,
+          "l": "The Suez Crisis and the Tripartite Aggression",
+          "entryId": "c1"
+        },
+        {
+          "y": 1962,
+          "l": "The Yemen intervention",
+          "entryId": "c2"
+        },
+        {
+          "y": 1967,
+          "l": "The Six-Day War and the loss of Sinai",
+          "entryId": "c3"
+        },
+        {
+          "y": 1969,
+          "l": "The War of Attrition",
+          "entryId": "c4"
+        },
+        {
+          "y": 1973,
+          "l": "The October War",
+          "entryId": "c5"
+        },
+        {
+          "y": 1977,
+          "l": "The Bread Intifada",
+          "entryId": "c6"
+        },
+        {
+          "y": 1994,
+          "l": "The Islamist insurgency of the 1990s",
+          "entryId": "c7"
+        },
+        {
+          "y": 2011,
+          "l": "The 25 January Revolution",
+          "entryId": "c8"
+        },
+        {
+          "y": 2013,
+          "l": "The 2013 removal and the Rabaa dispersal",
+          "entryId": "c9"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
       "label": "Order",
-      "events": []
+      "events": [
+        {
+          "y": 1961,
+          "l": "The July Decrees and sequestration",
+          "entryId": "o3"
+        },
+        {
+          "y": 1964,
+          "l": "The public sector and the graduate guarantee",
+          "entryId": "o4"
+        },
+        {
+          "y": 1969,
+          "l": "The judiciary and the executive",
+          "entryId": "o5"
+        },
+        {
+          "y": 1971,
+          "l": "The republic and its many constitutions",
+          "entryId": "o1"
+        },
+        {
+          "y": 1976,
+          "l": "The 'state of institutions' and the managed opening",
+          "entryId": "o6"
+        },
+        {
+          "y": 1981,
+          "l": "Emergency law as the normal condition",
+          "entryId": "o2"
+        },
+        {
+          "y": 1990,
+          "l": "The informal order of the neighbourhood",
+          "entryId": "o8"
+        },
+        {
+          "y": 2013,
+          "l": "The legal architecture of repression after 2013",
+          "entryId": "o7"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
       "label": "Belief",
-      "events": []
+      "events": [
+        {
+          "y": 1961,
+          "l": "Al-Azhar nationalised",
+          "entryId": "b1"
+        },
+        {
+          "y": 1966,
+          "l": "The Brotherhood: from the gallows to the daʿwa",
+          "entryId": "b2"
+        },
+        {
+          "y": 1971,
+          "l": "The Coptic Church as a communal state",
+          "entryId": "b3"
+        },
+        {
+          "y": 1975,
+          "l": "The Islamic revival",
+          "entryId": "b4"
+        },
+        {
+          "y": 1976,
+          "l": "Sufism and the moulids under the republic",
+          "entryId": "b5"
+        },
+        {
+          "y": 2011,
+          "l": "The Salafi current and the Nour Party",
+          "entryId": "b6"
+        },
+        {
+          "y": 2011,
+          "l": "Sectarian violence and 'national unity'",
+          "entryId": "b7"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
       "label": "Expression",
-      "events": []
+      "events": [
+        {
+          "y": 1960,
+          "l": "Television drama and the vernacular stage",
+          "entryId": "x4"
+        },
+        {
+          "y": 1960,
+          "l": "The press: from al-Ahram to media consolidation",
+          "entryId": "x5"
+        },
+        {
+          "y": 1963,
+          "l": "The studio, the golden age, and the private revival",
+          "entryId": "x2"
+        },
+        {
+          "y": 1975,
+          "l": "Umm Kulthum and the era of the long song",
+          "entryId": "x3"
+        },
+        {
+          "y": 1988,
+          "l": "Naguib Mahfouz and the Nobel Prize",
+          "entryId": "x1"
+        },
+        {
+          "y": 2011,
+          "l": "The 2011 generation: graffiti, mahraganat and satire",
+          "entryId": "x6"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
       "label": "Thought",
-      "events": []
+      "events": [
+        {
+          "y": 1964,
+          "l": "Sayyid Qutb's Milestones and its afterlife",
+          "entryId": "t3"
+        },
+        {
+          "y": 1965,
+          "l": "The Marxist current and the student left",
+          "entryId": "t2"
+        },
+        {
+          "y": 1968,
+          "l": "Arab nationalism and the disillusion of 1967",
+          "entryId": "t1"
+        },
+        {
+          "y": 1977,
+          "l": "Feminism and the rights movement",
+          "entryId": "t4"
+        },
+        {
+          "y": 1998,
+          "l": "The critique of the state economy",
+          "entryId": "t5"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
       "label": "Economy",
-      "events": []
+      "events": [
+        {
+          "y": 1960,
+          "l": "Nationalisation and the planned economy",
+          "entryId": "e2"
+        },
+        {
+          "y": 1961,
+          "l": "Agrarian reform and its long undoing",
+          "entryId": "e1"
+        },
+        {
+          "y": 1971,
+          "l": "The High Dam economy",
+          "entryId": "e3"
+        },
+        {
+          "y": 1974,
+          "l": "Sadat's infitah",
+          "entryId": "e4"
+        },
+        {
+          "y": 1977,
+          "l": "Bread, fuel and the ration card",
+          "entryId": "e8"
+        },
+        {
+          "y": 1980,
+          "l": "Remittances and the Gulf economy",
+          "entryId": "e5"
+        },
+        {
+          "y": 1991,
+          "l": "Structural adjustment and privatisation",
+          "entryId": "e6"
+        },
+        {
+          "y": 2016,
+          "l": "The Sisi economy: floats, debt and megaprojects",
+          "entryId": "e7"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
       "label": "Technology",
-      "events": []
+      "events": [
+        {
+          "y": 1965,
+          "l": "Building the Aswan High Dam",
+          "entryId": "g1"
+        },
+        {
+          "y": 1975,
+          "l": "The Suez Canal: closure, reopening and expansion",
+          "entryId": "g2"
+        },
+        {
+          "y": 1980,
+          "l": "Desert reclamation and the new cities",
+          "entryId": "g3"
+        },
+        {
+          "y": 2015,
+          "l": "Natural gas and the power grid",
+          "entryId": "g4"
+        },
+        {
+          "y": 2016,
+          "l": "The New Administrative Capital",
+          "entryId": "g5"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
       "label": "Exchange",
-      "events": []
+      "events": [
+        {
+          "y": 1955,
+          "l": "Non-alignment and the Soviet alliance",
+          "entryId": "xc1"
+        },
+        {
+          "y": 1979,
+          "l": "Camp David and the 1979 treaty",
+          "entryId": "xc2"
+        },
+        {
+          "y": 1987,
+          "l": "The alliance with the United States",
+          "entryId": "xc3"
+        },
+        {
+          "y": 1990,
+          "l": "Egyptians abroad: the Gulf, Libya and Iraq",
+          "entryId": "xc4"
+        },
+        {
+          "y": 1990,
+          "l": "The Arab League seat and regional diplomacy",
+          "entryId": "xc6"
+        },
+        {
+          "y": 1997,
+          "l": "The tourism economy and its shocks",
+          "entryId": "xc5"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
       "label": "World",
-      "events": []
+      "events": [
+        {
+          "y": 1976,
+          "l": "The population surge",
+          "entryId": "w1"
+        },
+        {
+          "y": 2000,
+          "l": "Cairo the megacity and the informal quarter",
+          "entryId": "w2"
+        },
+        {
+          "y": 2000,
+          "l": "The Egyptian diaspora",
+          "entryId": "w4"
+        },
+        {
+          "y": 2011,
+          "l": "The Nile, upstream Africa and the Renaissance Dam",
+          "entryId": "w3"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
       "label": "Lives",
-      "events": []
+      "events": [
+        {
+          "y": 1962,
+          "l": "The citizen of the republic",
+          "entryId": "l1"
+        },
+        {
+          "y": 1985,
+          "l": "The migrant's family",
+          "entryId": "l3"
+        },
+        {
+          "y": 1992,
+          "l": "The peasant after land reform",
+          "entryId": "l2"
+        },
+        {
+          "y": 1995,
+          "l": "The informal city and the day-labourer",
+          "entryId": "l4"
+        },
+        {
+          "y": 2005,
+          "l": "The squeezed middle class",
+          "entryId": "l5"
+        },
+        {
+          "y": 2020,
+          "l": "Women's changing lives",
+          "entryId": "l6"
+        }
+      ]
     }
   ]
 }
