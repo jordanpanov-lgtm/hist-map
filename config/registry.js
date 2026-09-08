@@ -83,6 +83,7 @@ const MODULES = [
   { id:"iraq-632-945", file:"modules/iraq-632-945.json", label:"Early Islamic Iraq 632–945", sub:"Kufa, Basra and the New City of Baghdad — the Garrison Towns, the Sawad at Its Height, the Making of Sunni and Shia Iraq, and the World Capital of the Abbasids", region:"Iraq", period:"Medieval" },
   { id:"iraq-945-1258", file:"modules/iraq-945-1258.json", label:"Iraq from the Buyids to the Mongols 945–1258", sub:"The Shia Century, the Seljuk Sultanate over a Powerless Caliph, the Sunni Revival and the Madrasa, the Ruin of the Sawad, and the Sack of Baghdad", region:"Iraq", period:"Medieval" },
   { id:"iraq-1258-1534", file:"modules/iraq-1258-1534.json", label:"Iraq under the Ilkhans and the Turkmen 1258–1534", sub:"A Ruined Province Ruled from Tabriz — the Mongol Peace, the Jalayirid Flicker, Timur's Skulls, the Black and White Sheep, and the Ottoman–Safavid Frontier Fixed on Iraq", region:"Iraq", period:"Medieval" },
+  { id:"iraq-1534-1831", file:"modules/iraq-1534-1831.json", label:"Ottoman Iraq: the Three Provinces 1534–1831", sub:"Baghdad, Basra and Mosul on the Persian Frontier — the Wars over Baghdad, the Mamluk Pashas, the Conversion of the Tribes to Shiism, and the Shrine Cities as a State Within a State", region:"Iraq", period:"Early Modern" },
   // ── ARABIA is split into two zones (config/regions.js): "NW Arabia" (the Hejaz,
   //   Najd and the northwest oases — the overland caravan / Islamic-heartland
   //   bloc) and "SE Arabia" (the Gulf, Oman, Yemen and South Arabia — the
