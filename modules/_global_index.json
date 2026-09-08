@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 5328,
     "folio_count": 95,
-    "xlink_pairs": 582,
+    "xlink_pairs": 621,
     "keyword_terms": 8217,
     "folios": [
       {
@@ -5938,11 +5938,47 @@
     "babylon-1595bc-1155bc::c3": [
       "assyria-1400bc-1050bc::c3"
     ],
+    "assyria-1400bc-1050bc::o3": [
+      "assyria-911bc-609bc::o1"
+    ],
+    "assyria-911bc-609bc::o1": [
+      "assyria-1400bc-1050bc::o3"
+    ],
+    "assyria-1400bc-1050bc::b2": [
+      "assyria-911bc-609bc::b1"
+    ],
+    "assyria-911bc-609bc::b1": [
+      "assyria-1400bc-1050bc::b2"
+    ],
+    "assyria-1400bc-1050bc::b4": [
+      "assyria-911bc-609bc::x4"
+    ],
+    "assyria-911bc-609bc::x4": [
+      "assyria-1400bc-1050bc::b4"
+    ],
+    "assyria-1400bc-1050bc::x1": [
+      "assyria-911bc-609bc::o4"
+    ],
+    "assyria-911bc-609bc::o4": [
+      "assyria-1400bc-1050bc::x1"
+    ],
+    "assyria-1400bc-1050bc::x4": [
+      "assyria-911bc-609bc::t4"
+    ],
+    "assyria-911bc-609bc::t4": [
+      "assyria-1400bc-1050bc::x4"
+    ],
     "assyria-1400bc-1050bc::t1": [
       "babylon-1595bc-1155bc::o5"
     ],
     "babylon-1595bc-1155bc::o5": [
       "assyria-1400bc-1050bc::t1"
+    ],
+    "assyria-1400bc-1050bc::e2": [
+      "assyria-911bc-609bc::o2"
+    ],
+    "assyria-911bc-609bc::o2": [
+      "assyria-1400bc-1050bc::e2"
     ],
     "assyria-1400bc-1050bc::e4": [
       "babylon-2004bc-1595bc::e2",
@@ -5955,11 +5991,21 @@
       "assyria-1400bc-1050bc::e4"
     ],
     "assyria-1400bc-1050bc::g2": [
+      "assyria-911bc-609bc::e6",
       "egypt-1550bc-1200bc::g2"
+    ],
+    "assyria-911bc-609bc::e6": [
+      "assyria-1400bc-1050bc::g2"
     ],
     "egypt-1550bc-1200bc::g2": [
       "assyria-1400bc-1050bc::g2",
       "babylon-1595bc-1155bc::g4"
+    ],
+    "assyria-1400bc-1050bc::g3": [
+      "assyria-911bc-609bc::o5"
+    ],
+    "assyria-911bc-609bc::o5": [
+      "assyria-1400bc-1050bc::g3"
     ],
     "assyria-1400bc-1050bc::xc1": [
       "babylon-1595bc-1155bc::xc1",
@@ -5992,6 +6038,97 @@
     ],
     "babylon-1595bc-1155bc::w4": [
       "assyria-1400bc-1050bc::w3"
+    ],
+    "assyria-1400bc-1050bc::w4": [
+      "assyria-911bc-609bc::k1"
+    ],
+    "assyria-911bc-609bc::k1": [
+      "assyria-1400bc-1050bc::w4"
+    ],
+    "assyria-911bc-609bc::k6": [
+      "babylon-1155bc-539bc::k4"
+    ],
+    "babylon-1155bc-539bc::k4": [
+      "assyria-911bc-609bc::k6"
+    ],
+    "assyria-911bc-609bc::k10": [
+      "babylon-1155bc-539bc::k7"
+    ],
+    "babylon-1155bc-539bc::k7": [
+      "assyria-911bc-609bc::k10"
+    ],
+    "assyria-911bc-609bc::c5": [
+      "babylon-1155bc-539bc::k5"
+    ],
+    "babylon-1155bc-539bc::k5": [
+      "assyria-911bc-609bc::c5"
+    ],
+    "assyria-911bc-609bc::c6": [
+      "egypt-1200bc-664bc::c8",
+      "egypt-1200bc-664bc::k19",
+      "egypt-1200bc-664bc::xc5"
+    ],
+    "egypt-1200bc-664bc::c8": [
+      "assyria-911bc-609bc::c6"
+    ],
+    "egypt-1200bc-664bc::k19": [
+      "assyria-911bc-609bc::c6"
+    ],
+    "egypt-1200bc-664bc::xc5": [
+      "assyria-911bc-609bc::c6"
+    ],
+    "assyria-911bc-609bc::c7": [
+      "babylon-1155bc-539bc::c4",
+      "babylon-1155bc-539bc::k6"
+    ],
+    "babylon-1155bc-539bc::c4": [
+      "assyria-911bc-609bc::c7"
+    ],
+    "babylon-1155bc-539bc::k6": [
+      "assyria-911bc-609bc::c7"
+    ],
+    "assyria-911bc-609bc::o7": [
+      "babylon-1155bc-539bc::c3"
+    ],
+    "babylon-1155bc-539bc::c3": [
+      "assyria-911bc-609bc::o7"
+    ],
+    "assyria-911bc-609bc::b6": [
+      "babylon-1155bc-539bc::b5",
+      "babylon-1155bc-539bc::t5"
+    ],
+    "babylon-1155bc-539bc::b5": [
+      "assyria-911bc-609bc::b6"
+    ],
+    "babylon-1155bc-539bc::t5": [
+      "assyria-911bc-609bc::b6",
+      "babylon-1595bc-1155bc::t3"
+    ],
+    "assyria-911bc-609bc::t2": [
+      "babylon-1155bc-539bc::t1"
+    ],
+    "babylon-1155bc-539bc::t1": [
+      "assyria-911bc-609bc::t2"
+    ],
+    "assyria-911bc-609bc::xc4": [
+      "dedan-tayma-1200bc-300bc::k2",
+      "qedar-853bc-330bc::k3",
+      "qedar-853bc-330bc::x1"
+    ],
+    "dedan-tayma-1200bc-300bc::k2": [
+      "assyria-911bc-609bc::xc4"
+    ],
+    "qedar-853bc-330bc::k3": [
+      "assyria-911bc-609bc::xc4"
+    ],
+    "qedar-853bc-330bc::x1": [
+      "assyria-911bc-609bc::xc4"
+    ],
+    "assyria-911bc-609bc::xc5": [
+      "babylon-1155bc-539bc::xc2"
+    ],
+    "babylon-1155bc-539bc::xc2": [
+      "assyria-911bc-609bc::xc5"
     ],
     "ayyubids-1171-1250::k1": [
       "caliphate-945-1258::c6",
@@ -6234,6 +6371,84 @@
       "mamluks-1250-1517::k1",
       "mamluks-1250-1517::lv2"
     ],
+    "babylon-1155bc-539bc::k1": [
+      "babylon-1595bc-1155bc::c5"
+    ],
+    "babylon-1595bc-1155bc::c5": [
+      "babylon-1155bc-539bc::k1"
+    ],
+    "babylon-1155bc-539bc::k2": [
+      "babylon-1595bc-1155bc::xc5"
+    ],
+    "babylon-1595bc-1155bc::xc5": [
+      "babylon-1155bc-539bc::k2"
+    ],
+    "babylon-1155bc-539bc::k10": [
+      "dedan-tayma-1200bc-300bc::k4"
+    ],
+    "dedan-tayma-1200bc-300bc::k4": [
+      "babylon-1155bc-539bc::k10"
+    ],
+    "babylon-1155bc-539bc::k11": [
+      "egypt-664bc-332bc::c5"
+    ],
+    "egypt-664bc-332bc::c5": [
+      "babylon-1155bc-539bc::k11"
+    ],
+    "babylon-1155bc-539bc::c5": [
+      "egypt-664bc-332bc::c2",
+      "egypt-664bc-332bc::k2"
+    ],
+    "egypt-664bc-332bc::c2": [
+      "babylon-1155bc-539bc::c5"
+    ],
+    "egypt-664bc-332bc::k2": [
+      "babylon-1155bc-539bc::c5"
+    ],
+    "babylon-1155bc-539bc::b1": [
+      "babylon-1595bc-1155bc::b1"
+    ],
+    "babylon-1595bc-1155bc::b1": [
+      "babylon-1155bc-539bc::b1",
+      "babylon-2004bc-1595bc::b1"
+    ],
+    "babylon-1155bc-539bc::b3": [
+      "dedan-tayma-1200bc-300bc::b4",
+      "egypt-664bc-332bc::xc4"
+    ],
+    "dedan-tayma-1200bc-300bc::b4": [
+      "babylon-1155bc-539bc::b3",
+      "nw-arabia-106-632::k7"
+    ],
+    "egypt-664bc-332bc::xc4": [
+      "babylon-1155bc-539bc::b3",
+      "egypt-332bc-30bc::xc3"
+    ],
+    "babylon-1155bc-539bc::x1": [
+      "babylon-1595bc-1155bc::x1"
+    ],
+    "babylon-1595bc-1155bc::x1": [
+      "babylon-1155bc-539bc::x1"
+    ],
+    "babylon-1155bc-539bc::t4": [
+      "babylon-1595bc-1155bc::t1"
+    ],
+    "babylon-1595bc-1155bc::t1": [
+      "babylon-1155bc-539bc::t4"
+    ],
+    "babylon-1595bc-1155bc::t3": [
+      "babylon-1155bc-539bc::t5"
+    ],
+    "babylon-1155bc-539bc::xc3": [
+      "dedan-tayma-1200bc-300bc::k3",
+      "dedan-tayma-1200bc-300bc::x1"
+    ],
+    "dedan-tayma-1200bc-300bc::k3": [
+      "babylon-1155bc-539bc::xc3"
+    ],
+    "dedan-tayma-1200bc-300bc::x1": [
+      "babylon-1155bc-539bc::xc3"
+    ],
     "babylon-1595bc-1155bc::k1": [
       "babylon-2004bc-1595bc::c6"
     ],
@@ -6249,9 +6464,6 @@
     ],
     "babylon-2004bc-1595bc::c5": [
       "babylon-1595bc-1155bc::k3"
-    ],
-    "babylon-1595bc-1155bc::b1": [
-      "babylon-2004bc-1595bc::b1"
     ],
     "babylon-2004bc-1595bc::b1": [
       "babylon-1595bc-1155bc::b1"
@@ -7687,9 +7899,6 @@
     "egypt-664bc-332bc::e2": [
       "egypt-332bc-30bc::e6"
     ],
-    "egypt-664bc-332bc::xc4": [
-      "egypt-332bc-30bc::xc3"
-    ],
     "egypt-664bc-332bc::xc1": [
       "egypt-332bc-30bc::xc6"
     ],
@@ -8284,9 +8493,6 @@
     ],
     "nw-arabia-106-632::k7": [
       "dedan-tayma-1200bc-300bc::b4"
-    ],
-    "dedan-tayma-1200bc-300bc::b4": [
-      "nw-arabia-106-632::k7"
     ],
     "nw-arabia-106-632::c2": [
       "hejaz-300bc-632::c6"

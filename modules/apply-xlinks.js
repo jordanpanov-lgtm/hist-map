@@ -31,6 +31,50 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── assyria-911bc-609bc ∥ babylon-1155bc-539bc (the Ancient-bucket north/south parallel pair) ──
+  // The Neo-Assyrian Empire — hand-off backward from the Middle Assyrian Kingdom:
+  ['assyria-911bc-609bc::k1', 'assyria-1400bc-1050bc::w4'],   // the dark age that kept the memory -> the recovery
+  ['assyria-911bc-609bc::o4', 'assyria-1400bc-1050bc::x1'],   // the painted palace -> the carved narrative wall
+  ['assyria-911bc-609bc::x4', 'assyria-1400bc-1050bc::b4'],   // the first Assyrian library -> the Library of Nineveh
+  ['assyria-911bc-609bc::b1', 'assyria-1400bc-1050bc::b2'],   // the campaign as holy war -> Ashur's war on the world
+  ['assyria-911bc-609bc::o5', 'assyria-1400bc-1050bc::g3'],   // the military machine takes form -> the standing professional army
+  ['assyria-911bc-609bc::o2', 'assyria-1400bc-1050bc::e2'],   // deportation as economic policy -> demographic engineering
+  ['assyria-911bc-609bc::o1', 'assyria-1400bc-1050bc::o3'],   // the dunnu and the provincial grid -> the provincial reform
+  ['assyria-911bc-609bc::e6', 'assyria-1400bc-1050bc::g2'],   // iron enters use -> the iron economy
+  ['assyria-911bc-609bc::t4', 'assyria-1400bc-1050bc::x4'],   // the annal -> the articulated ideology of centre and chaos
+  // The Neo-Assyrian Empire — lateral to Egypt and Arabia:
+  ['assyria-911bc-609bc::c6', 'egypt-1200bc-664bc::c8'],      // Assyria sacks Thebes — Assyrian and Egyptian accounts
+  ['assyria-911bc-609bc::c6', 'egypt-1200bc-664bc::k19'],     // <-> Taharqa, the peak and the Assyrian war
+  ['assyria-911bc-609bc::c6', 'egypt-1200bc-664bc::xc5'],     // <-> Assyria enters Egypt
+  ['assyria-911bc-609bc::xc4', 'qedar-853bc-330bc::x1'],      // Assyria and the Arabs — both sides
+  ['assyria-911bc-609bc::xc4', 'qedar-853bc-330bc::k3'],      // <-> the Arab queens
+  ['assyria-911bc-609bc::xc4', 'dedan-tayma-1200bc-300bc::k2'], // <-> Taymāʾ and the Assyrians
+  // The Neo-Assyrian Empire ∥ Babylon between Assyria and Persia — the parallel folios:
+  ['assyria-911bc-609bc::c5', 'babylon-1155bc-539bc::k5'],    // the destruction of Babylon — from each side
+  ['assyria-911bc-609bc::o7', 'babylon-1155bc-539bc::c3'],    // the unsolved Babylon problem -> the wars of resistance to Assyria
+  ['assyria-911bc-609bc::k6', 'babylon-1155bc-539bc::k4'],    // Sargon II drives out Merodach-Baladan
+  ['assyria-911bc-609bc::c7', 'babylon-1155bc-539bc::c4'],    // the fall of Nineveh — Assyrian and Babylonian accounts
+  ['assyria-911bc-609bc::c7', 'babylon-1155bc-539bc::k6'],    // Shamash-shum-ukin's revolt begins the collapse
+  ['assyria-911bc-609bc::k10', 'babylon-1155bc-539bc::k7'],   // the Assyrian collapse -> Nabopolassar founds the empire
+  ['assyria-911bc-609bc::b6', 'babylon-1155bc-539bc::b5'],    // the sky-watch network -> astrology as a mathematical science
+  ['assyria-911bc-609bc::t2', 'babylon-1155bc-539bc::t1'],    // predictive astronomy — one Babylonian tradition
+  ['assyria-911bc-609bc::b6', 'babylon-1155bc-539bc::t5'],    // the reporting network -> the Astronomical Diaries
+  ['assyria-911bc-609bc::xc5', 'babylon-1155bc-539bc::xc2'],  // the Median alliance — from each side
+  // ── babylon-1155bc-539bc (Babylon between Assyria and Persia) — further links ──
+  ['babylon-1155bc-539bc::k1', 'babylon-1595bc-1155bc::c5'],  // the Elamite sack -> Nebuchadnezzar I recovers Marduk from Elam
+  ['babylon-1155bc-539bc::b1', 'babylon-1595bc-1155bc::b1'],  // Marduk's rise -> Marduk becomes king of the gods
+  ['babylon-1155bc-539bc::k2', 'babylon-1595bc-1155bc::xc5'], // the Sutean and Aramaean pressure -> the Chaldean centuries
+  ['babylon-1155bc-539bc::t5', 'babylon-1595bc-1155bc::t3'],  // the star lists -> the seven-century Astronomical Diaries
+  ['babylon-1155bc-539bc::t4', 'babylon-1595bc-1155bc::t1'],  // the scholars as editors -> the text as sacred and the commentary
+  ['babylon-1155bc-539bc::x1', 'babylon-1595bc-1155bc::x1'],  // the glazed moulded-brick facade -> the Ishtar Gate at its peak
+  ['babylon-1155bc-539bc::b3', 'egypt-664bc-332bc::xc4'],     // the exile and Judaism <-> the Jews of Elephantine
+  ['babylon-1155bc-539bc::b3', 'dedan-tayma-1200bc-300bc::b4'], // <-> the first Jews of the northern oases
+  ['babylon-1155bc-539bc::xc3', 'dedan-tayma-1200bc-300bc::k3'], // Nabonidus at Taymāʾ — both
+  ['babylon-1155bc-539bc::xc3', 'dedan-tayma-1200bc-300bc::x1'], // <-> Babylon reaches the Hejaz
+  ['babylon-1155bc-539bc::k10', 'dedan-tayma-1200bc-300bc::k4'], // <-> Nabonidus's oasis campaign
+  ['babylon-1155bc-539bc::c5', 'egypt-664bc-332bc::k2'],      // Carchemish — Necho II and Nebuchadnezzar
+  ['babylon-1155bc-539bc::c5', 'egypt-664bc-332bc::c2'],      // <-> Megiddo and the death of Josiah on Necho's march north
+  ['babylon-1155bc-539bc::k11', 'egypt-664bc-332bc::c5'],     // the Persian conquest of Babylon and then of Egypt at Pelusium
   // ── babylon-1595bc-1155bc ∥ assyria-1400bc-1050bc (the north/south parallel pair) ──
   // Kassite Babylonia — hand-off backward from Hammurabi and the Amorite Kingdoms:
   ['babylon-1595bc-1155bc::k1', 'babylon-2004bc-1595bc::c6'],   // the Hittite raid leaves a throne the Kassites take
