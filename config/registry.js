@@ -29,7 +29,7 @@ const MODULES = [
   { id:"egypt-3000bc-2100bc",   file:"modules/egypt-3000bc-2100bc.json",   label:"Ancient Egypt 3000–2100 BC",  sub:"Unification, Pyramids and the First Collapse",region:"Egypt",   period:"Prehistoric"   },
   { id:"egypt-2100bc-1550bc",   file:"modules/egypt-2100bc-1550bc.json",   label:"Middle Kingdom and the Hyksos 2100–1550 BC", sub:"Reunification, the Classic State, and the Foreign Kings of the Delta", region:"Egypt", period:"Prehistoric" },
   { id:"egypt-1550bc-1200bc",   file:"modules/egypt-1550bc-1200bc.json",   label:"The New Kingdom 1550–1200 BC", sub:"Empire, the Amarna Rupture and the Ramesside Recovery", region:"Egypt", period:"Prehistoric" },
-  { id:"egypt-1200bc-664bc",    file:"modules/egypt-1200bc-664bc.json",    label:"Priests, Libyans and Kushites 1200–664 BC", sub:"The End of the New Kingdom, the Divided Kingdom, and the Third Intermediate Period", region:"Egypt", period:"Ancient" },
+  { id:"egypt-1200bc-664bc",    file:"modules/egypt-1200bc-664bc.json",    label:"The Third Intermediate Period 1200–664 BC", sub:"The End of the New Kingdom, the Libyan and Theban Divided Kingdom, and the Kushite 25th Dynasty", region:"Egypt", period:"Ancient" },
   { id:"egypt-664bc-332bc",     file:"modules/egypt-664bc-332bc.json",     label:"The Late Period 664–332 BC", sub:"The Saite Renaissance, the Persian Conquests and the Last Pharaohs", region:"Egypt", period:"Ancient" },
   { id:"egypt-332bc-30bc",      file:"modules/egypt-332bc-30bc.json",      label:"Ptolemaic Egypt 332–30 BC", sub:"Alexander, the Greek Kingdom on the Nile, and the End with Cleopatra", region:"Egypt", period:"Late Antique" },
   { id:"egypt-30bc-300ad",      file:"modules/egypt-30bc-300ad.json",      label:"Roman Egypt 30 BC–300 AD", sub:"The Emperor's Province, the Grain of Rome, and the Making of Christian Alexandria", region:"Egypt", period:"Late Antique" },
@@ -54,7 +54,7 @@ const MODULES = [
   { id:"egypt-1517-1798",       file:"modules/egypt-1517-1798.json",       label:"Ottoman Egypt 1517–1798", sub:"The Eyalet, the Return of the Mamluks, and the Eve of the Modern", region:"Egypt", period:"Early Modern" },
   { id:"egypt-1798-1900",       file:"modules/egypt-1798-1900.json",       label:"Muhammad Ali and the Khedivate 1798–1900", sub:"The Founding of a Modern State, the Suez Canal, the Debt, and the British Occupation", region:"Egypt", period:"Early Modern" },
   { id:"egypt-1900-1952",       file:"modules/egypt-1900-1952.json",       label:"Colonial Egypt and the Monarchy 1900–1952", sub:"The Protectorate, the 1919 Revolution, the Liberal Experiment, and the Fall of the Monarchy", region:"Egypt", period:"Modern" },
-  { id:"egypt-1952-today",      file:"modules/egypt-1952-today.json",       label:"The Egyptian Republic 1952–today", sub:"The Free Officers, Nasser's Arab Socialism, Sadat's Realignment, Mubarak's Thirty Years, and the 2011 Revolution and the Sisi Era", region:"Egypt", period:"Modern" },
+  { id:"egypt-1952-today",      file:"modules/egypt-1952-today.json",       label:"Egypt 1952–today", sub:"The Free Officers, Nasser's Arab Socialism, Sadat's Realignment, Mubarak's Thirty Years, and the 2011 Revolution and the Sisi Era", region:"Egypt", period:"Modern" },
   // PLANNED — successor territorial empires: ottomans-* (region:"Near East"), and safavid-iran /
   //   mughals under their zones.
   // ── ARABIA is split into two zones (config/regions.js): "NW Arabia" (the Hejaz,
