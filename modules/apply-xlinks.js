@@ -31,6 +31,46 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── mesopotamia-331bc-141bc (Seleucid Mesopotamia) ──
+  // hand-off backward from Achaemenid Mesopotamia:
+  ['mesopotamia-331bc-141bc::k1', 'mesopotamia-539bc-331bc::k6'],   // Alexander enters Babylon -> the successor who kept it
+  ['mesopotamia-331bc-141bc::k1', 'mesopotamia-539bc-331bc::xc5'],  // Alexander's Babylonian-capital plan -> Seleucia realises it 40 km north
+  ['mesopotamia-331bc-141bc::k7', 'mesopotamia-539bc-331bc::k7'],   // the satrapy of Babylonia, Persian then Greek
+  ['mesopotamia-331bc-141bc::o1', 'mesopotamia-539bc-331bc::o4'],   // the Aramaic chancery and the coming of the coin -> the era count and coined silver
+  ['mesopotamia-331bc-141bc::o4', 'mesopotamia-539bc-331bc::o2'],   // the temples kept under a royal eye -> left to govern themselves under an epistates
+  ['mesopotamia-331bc-141bc::b1', 'mesopotamia-539bc-331bc::b1'],   // the New Year without a king -> still kept, the king takes the hand of Bel when present
+  ['mesopotamia-331bc-141bc::b2', 'mesopotamia-539bc-331bc::b2'],   // the great century of astronomy -> the Diaries at their fullest
+  ['mesopotamia-331bc-141bc::b3', 'mesopotamia-539bc-331bc::b4'],   // the Uruk revival of Anu -> the colossal rebuilding of the Uruk temples
+  ['mesopotamia-331bc-141bc::b4', 'mesopotamia-539bc-331bc::b3'],   // the Judean community after the return -> continues through the Greek centuries
+  ['mesopotamia-331bc-141bc::t1', 'mesopotamia-539bc-331bc::t1'],   // mathematical astronomy in its mature form -> Systems A and B
+  ['mesopotamia-331bc-141bc::t5', 'mesopotamia-539bc-331bc::t2'],   // the channel to Greece -> the parameters pass to Hipparchus
+  ['mesopotamia-331bc-141bc::t4', 'mesopotamia-539bc-331bc::t3'],   // the astrological worldview -> the horoscope comes of age
+  ['mesopotamia-331bc-141bc::x2', 'mesopotamia-539bc-331bc::x1'],   // the scholarly tradition holds -> the last copying of the classics
+  ['mesopotamia-331bc-141bc::x4', 'mesopotamia-539bc-331bc::t4'],   // history written as prophecy -> the Hellenistic chronicles on clay
+  ['mesopotamia-331bc-141bc::e4', 'mesopotamia-539bc-331bc::e4'],   // the date-and-canal economy at its peak -> the four-century price record
+  ['mesopotamia-331bc-141bc::e1', 'mesopotamia-539bc-331bc::xc1'],  // Babylon a royal capital of the empire -> Seleucia draws off its people and trade
+  ['mesopotamia-331bc-141bc::l1', 'mesopotamia-539bc-331bc::l1'],   // the temple scholar as the last carrier -> the astronomer-scribe of the Esagila
+  ['mesopotamia-331bc-141bc::w4', 'mesopotamia-539bc-331bc::w4'],   // the Achaemenid model for a millennium -> the Seleucid template continues it
+  ['mesopotamia-331bc-141bc::l5', 'mesopotamia-539bc-331bc::x3'],   // the triumph of Aramaic and the alphabet -> the bilingual scribe of the changeover
+  // lateral to Ptolemaic Egypt — the parallel Hellenistic kingdom:
+  ['mesopotamia-331bc-141bc::k1', 'egypt-332bc-30bc::k3'],          // Seleucus I and Ptolemy I — the two founder-Diadochi
+  ['mesopotamia-331bc-141bc::c1', 'egypt-332bc-30bc::c2'],          // the Babylonian War / Ptolemy secures Egypt — the wars of the successors
+  ['mesopotamia-331bc-141bc::c2', 'egypt-332bc-30bc::c3'],          // Ipsus -> the Syrian Wars, the Seleucid–Ptolemaic contest
+  ['mesopotamia-331bc-141bc::c3', 'egypt-332bc-30bc::k5'],          // the Ptolemaic army in Babylon under Ptolemy III
+  ['mesopotamia-331bc-141bc::o5', 'egypt-332bc-30bc::o3'],          // the kleros on the Tigris <-> the cleruchy on the Nile
+  ['mesopotamia-331bc-141bc::b5', 'egypt-332bc-30bc::b1'],          // Greek gods and the cult of the king <-> Serapis and the living king
+  ['mesopotamia-331bc-141bc::b6', 'egypt-332bc-30bc::t7'],          // Berossus <-> Manetho — the priest who wrote his land's history in Greek
+  ['mesopotamia-331bc-141bc::b4', 'egypt-332bc-30bc::b5'],          // the Jews of Babylonia <-> the Jews of Egypt and the temple of Onias
+  ['mesopotamia-331bc-141bc::xc5', 'egypt-332bc-30bc::xc3'],        // the Judaean tie <-> the Septuagint and Jewish-Greek culture
+  ['mesopotamia-331bc-141bc::e1', 'egypt-332bc-30bc::w1'],          // Seleucia <-> Alexandria — the two Hellenistic megacities
+  ['mesopotamia-331bc-141bc::o2', 'egypt-332bc-30bc::x4'],          // the constitution of Seleucia <-> Alexandria the model Hellenistic city
+  ['mesopotamia-331bc-141bc::t3', 'egypt-332bc-30bc::t5'],          // Seleucus of Seleucia <-> the moving Earth and the mechanised sky
+  ['mesopotamia-331bc-141bc::xc1', 'egypt-332bc-30bc::xc1'],        // Seleucia the eastern emporium <-> the Indian Ocean route opens
+  // lateral to Tylos–Mleiha (the Gulf in the same centuries):
+  ['mesopotamia-331bc-141bc::xc4', 'tylos-mleiha-300bc-240ad::k1'], // the Ikaros garrison <-> Seleucid administration of Tylos and the islands
+  ['mesopotamia-331bc-141bc::e5', 'tylos-mleiha-300bc-240ad::ec1'], // the desert road <-> Gerrha, 'the richest of all tribes'
+  ['mesopotamia-331bc-141bc::c5', 'tylos-mleiha-300bc-240ad::c1'],  // Antiochus III's anabasis <-> his expedition against Gerrha
+  ['mesopotamia-331bc-141bc::xc2', 'tylos-mleiha-300bc-240ad::t1'], // Megasthenes east <-> Androsthenes surveys the Gulf for Alexander
   // ── mesopotamia-539bc-331bc (Achaemenid Mesopotamia) ──
   // hand-off backward from Babylon between Assyria and Persia:
   ['mesopotamia-539bc-331bc::k1', 'babylon-1155bc-539bc::k11'],  // Cyrus takes Babylon
