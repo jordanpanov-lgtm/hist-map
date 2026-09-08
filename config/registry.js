@@ -65,6 +65,7 @@ const MODULES = [
   { id:"mesopotamia-6500bc-3800bc", file:"modules/mesopotamia-6500bc-3800bc.json", label:"Ubaid Mesopotamia 6500–3800 BC", sub:"The Pottery Neolithic of the North and the Rise of the Ubaid Culture in the Southern Marshes", region:"Iraq", period:"Prehistoric" },
   { id:"uruk-3800bc-2900bc", file:"modules/uruk-3800bc-2900bc.json", label:"Uruk and the First Cities 3800–2900 BC", sub:"The Birth of the City, of Writing and of the Administered State on the Southern Alluvium", region:"Iraq", period:"Prehistoric" },
   { id:"sumer-2900bc-2334bc", file:"modules/sumer-2900bc-2334bc.json", label:"The Sumerian City-States 2900–2334 BC", sub:"Rival Cities on the King List, the Lagash–Umma War, the Tombs of Ur, and the First Unification", region:"Iraq", period:"Prehistoric" },
+  { id:"mesopotamia-2334bc-2004bc", file:"modules/mesopotamia-2334bc-2004bc.json", label:"Akkad and the Third Dynasty of Ur 2334–2004 BC", sub:"The First Empire, the God-King Naram-Sin, the Gutian Interlude, and the Bureaucratic Renaissance of Ur", region:"Iraq", period:"Prehistoric" },
   // ── ARABIA is split into two zones (config/regions.js): "NW Arabia" (the Hejaz,
   //   Najd and the northwest oases — the overland caravan / Islamic-heartland
   //   bloc) and "SE Arabia" (the Gulf, Oman, Yemen and South Arabia — the
