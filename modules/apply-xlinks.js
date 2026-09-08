@@ -31,6 +31,51 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── iraq-1979-2003 (Saddam's Iraq) ──
+  // hand-off backward from The Iraqi Republic:
+  ['iraq-1979-2003::k1', 'iraq-1958-1979::w3'],       // the making of Saddam's Iraq -> Saddam absolute
+  ['iraq-1979-2003::k1', 'iraq-1958-1979::k5'],       // Saddam's rise from the deputy's chair -> to total power
+  ['iraq-1979-2003::k2', 'iraq-1958-1979::xc5'],      // 1979 — the Iranian Revolution -> the invasion of 1980
+  ['iraq-1979-2003::c2', 'iraq-1958-1979::o6'],       // the Arabisation of the north -> the Anfal genocide
+  ['iraq-1979-2003::k7', 'iraq-1958-1979::k7'],       // the Kurdish movement, the 1970 deal and Algiers -> the safe haven and the KRG
+  ['iraq-1979-2003::c4', 'iraq-1958-1979::c6'],       // the 1977 Safar Intifada -> the crushed Sha'ban Intifada of 1991
+  ['iraq-1979-2003::o2', 'iraq-1958-1979::o3'],       // the security state -> the security state at war
+  ['iraq-1979-2003::o1', 'iraq-1958-1979::o2'],       // the Ba'th and the RCC -> total personal rule
+  ['iraq-1979-2003::e1', 'iraq-1958-1979::e5'],       // the arms economy and the militarisation -> the war economy and the debt
+  ['iraq-1979-2003::e3', 'iraq-1958-1979::w2'],       // the oil decade -> the sanctions collapse
+  ['iraq-1979-2003::g1', 'iraq-1958-1979::g3'],       // the start of the WMD ambition -> the programmes and their dismantlement
+  ['iraq-1979-2003::b2', 'iraq-1958-1979::b2'],       // the Shia Islamic movement rises -> the clergy under the regime
+  ['iraq-1979-2003::k6', 'iraq-1958-1979::l2'],       // Muhammad Baqir al-Sadr -> the movement in exile and at home
+  ['iraq-1979-2003::o4', 'iraq-1958-1979::b1'],       // Ba'thism as the state creed -> the Faith Campaign that replaced it
+  ['iraq-1979-2003::o5', 'iraq-1958-1979::o1'],       // the land reform broke the tribes -> the re-tribalisation restored them
+  ['iraq-1979-2003::b3', 'iraq-1958-1979::b4'],       // the minorities under the Ba'th -> sectarian consciousness sharpened
+  ['iraq-1979-2003::x2', 'iraq-1958-1979::x2'],       // modern Iraqi art under the state -> the monumental Baghdad of Saddam
+  ['iraq-1979-2003::x3', 'iraq-1958-1979::x3'],       // the state claims the ancient past -> the rebuilding of Babylon and the museum loot
+  ['iraq-1979-2003::x1', 'iraq-1958-1979::x1'],       // the poets of the republic and exile -> the literature of war and exile
+  ['iraq-1979-2003::b4', 'iraq-1958-1979::b3'],       // the suppression of the left -> the exile and the diaspora
+  ['iraq-1979-2003::w1', 'iraq-1958-1979::w1'],       // the revolution devours itself -> the self-inflicted catastrophe
+  ['iraq-1979-2003::o3', 'iraq-1958-1979::e4'],       // the state economy and its distortions -> the command economy of scarcity
+  ['iraq-1979-2003::xc1', 'iraq-1958-1979::xc1'],     // Iraq and the Soviet tie -> the Iran war and the world's tilt
+  ['iraq-1979-2003::xc3', 'iraq-1958-1979::xc2'],     // Iraq, OPEC and the oil weapon -> the oil leverage lost under sanctions
+  ['iraq-1979-2003::t3', 'iraq-1958-1979::t1'],       // al-Sadr's political economy -> the Shia thought worked out in exile
+  ['iraq-1979-2003::l1', 'iraq-1958-1979::l5'],       // Saddam Hussein to 1979 -> and after
+  ['iraq-1979-2003::c5', 'iraq-1958-1979::g2'],       // the dams and the water projects -> the marshes drained as a weapon
+  ['iraq-1979-2003::w2', 'iraq-1958-1979::w4'],       // on the edge of the abyss -> three wars and a genocide
+  // lateral to Egypt 1952–today (the parallel Arab republic that diverged):
+  ['iraq-1979-2003::o1', 'egypt-1952-today::k4'],     // the entrenched autocrat — Saddam and Mubarak
+  ['iraq-1979-2003::o2', 'egypt-1952-today::k12'],    // the Mukhabarat and the Ministry of the Interior
+  ['iraq-1979-2003::o4', 'egypt-1952-today::b4'],     // the state and the Islamic revival
+  ['iraq-1979-2003::k2', 'egypt-1952-today::xc2'],    // 1979 — Egypt makes peace at Camp David, Iraq starts a war
+  ['iraq-1979-2003::b4', 'egypt-1952-today::xc4'],    // Egyptians in Iraq — the labour migration of the war years
+  ['iraq-1979-2003::b3', 'egypt-1952-today::b7'],     // sectarian violence and the 'national unity' formula
+  ['iraq-1979-2003::l4', 'egypt-1952-today::l3'],     // the migrant's family
+  ['iraq-1979-2003::x1', 'egypt-1952-today::x1'],     // Arabic letters under the republics — Mahfouz and the Iraqi war-and-exile writers
+  ['iraq-1979-2003::xc1', 'egypt-1952-today::xc3'],   // the American embrace, then the rupture
+  // lateral to the Saudi state (the Gulf War, the Arab Cold War, the 1979 hinge):
+  ['iraq-1979-2003::k3', 'saudi-1902-today::x5'],     // the Gulf War and its blowback
+  ['iraq-1979-2003::e1', 'saudi-1902-today::ec3'],    // the Gulf oil money that funded the Iran war
+  ['iraq-1979-2003::xc1', 'saudi-1902-today::x4'],    // the duel with revolutionary Iran
+  ['iraq-1979-2003::o4', 'saudi-1902-today::b2'],     // 1979 and the Islamisation of the state
   // ── iraq-1958-1979 (The Iraqi Republic) ──
   // hand-off backward from the Mandate and the Hashemite Kingdom:
   ['iraq-1958-1979::k1', 'iraq-1914-1958::k8'],       // the 14 July Revolution -> Qasim and the sole leader
