@@ -31,6 +31,48 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── iraq-1534-1831 (Ottoman Iraq: the Three Provinces) ──
+  // hand-off backward from Iraq under the Ilkhans and the Turkmen:
+  ['iraq-1534-1831::k1', 'iraq-1258-1534::k7'],       // Suleiman takes Baghdad -> the three provinces organised
+  ['iraq-1534-1831::k2', 'iraq-1258-1534::xc4'],      // the Ottoman–Safavid confessional war -> the wars for Baghdad and Zuhab
+  ['iraq-1534-1831::o6', 'iraq-1258-1534::w4'],       // the shrine cities as the surviving Iraq -> a state within the state
+  ['iraq-1534-1831::b3', 'iraq-1258-1534::b1'],       // Hilla, Najaf and the atabat -> the atabat at their height
+  ['iraq-1534-1831::b2', 'iraq-1258-1534::t2'],       // al-Hilli and the systematising of Twelver law -> the triumph of Usulism
+  ['iraq-1534-1831::o3', 'iraq-1258-1534::e2'],       // the pastoral takeover -> the tax-farmer and the ruined land
+  ['iraq-1534-1831::e1', 'iraq-1258-1534::e1'],       // the nadir of the Sawad -> the long depression and a partial recovery
+  ['iraq-1534-1831::g2', 'iraq-1258-1534::g4'],       // the losing fight with the rivers -> the Hindiyya crisis
+  ['iraq-1534-1831::o4', 'iraq-1258-1534::o4'],       // the tribal order at its widest -> the hereditary Kurdish and Arab lordships
+  ['iraq-1534-1831::k8', 'iraq-1258-1534::k8'],       // the tribes, the Kurds and the Musha'sha' -> the Muntafiq, the Baban and the Bedouin
+  ['iraq-1534-1831::b6', 'iraq-1258-1534::b5'],       // the Jews and Christians of Iraq, reduced -> the Jews of Baghdad, an emerging golden age
+  ['iraq-1534-1831::b4', 'iraq-1258-1534::b3'],       // the Sufi orders as the common faith -> the Kaylanis and the Khalidi revival
+  ['iraq-1534-1831::e5', 'iraq-1258-1534::e4'],       // the pilgrimage economy of the atabat -> the pilgrimage and corpse traffic
+  ['iraq-1534-1831::w2', 'iraq-1258-1534::w2'],       // a land divided against its future -> a Shia country under Sunni rule
+  ['iraq-1534-1831::t3', 'iraq-1258-1534::t3'],       // the age of compilation -> transmission in the manuscript age
+  ['iraq-1534-1831::x3', 'iraq-1258-1534::e5'],       // the Safavid canal to Najaf -> the Mamluk pashas gild the shrines
+  // lateral to Ottoman Egypt (the parallel Ottoman Arab province with a Mamluk regime):
+  ['iraq-1534-1831::k1', 'egypt-1517-1798::k3'],      // the Qanunname and the ordered eyalet
+  ['iraq-1534-1831::o2', 'egypt-1517-1798::k5'],      // the Mamluk households return / rule in the Ottoman name
+  ['iraq-1534-1831::k6', 'egypt-1517-1798::k8'],      // Sulayman the Great <-> Ali Bey al-Kabir — the strong autonomous Mamluk
+  ['iraq-1534-1831::c3', 'egypt-1517-1798::c4'],      // the Mamluk civil wars <-> the Faqari–Qasimi wars
+  ['iraq-1534-1831::o3', 'egypt-1517-1798::o2'],      // the iltizam tax-farm and the village
+  ['iraq-1534-1831::b6', 'egypt-1517-1798::b5'],      // the Jewish communities of the two Ottoman Arab provinces
+  ['iraq-1534-1831::b3', 'egypt-1517-1798::b1'],      // Najaf and al-Azhar — the Shia and the Sunni centre of learning
+  ['iraq-1534-1831::x1', 'egypt-1517-1798::x3'],      // the local chronicle <-> al-Jabarti's chronicle of the age
+  ['iraq-1534-1831::e2', 'egypt-1517-1798::xc1'],     // the transit trade — Aleppo–Basra and the Cairo crossroads
+  ['iraq-1534-1831::e4', 'egypt-1517-1798::xc6'],     // the East India Company route <-> 1798 and the Eastern Question
+  ['iraq-1534-1831::w3', 'egypt-1517-1798::w3'],      // the Bedouin and the retreat of settled power
+  ['iraq-1534-1831::g1', 'egypt-1517-1798::g3'],      // the firearm and the Mamluk who would not use it
+  ['iraq-1534-1831::l1', 'egypt-1517-1798::l1'],      // Sulayman Pasha the Great <-> Ali Bey al-Kabir, the men
+  ['iraq-1534-1831::l4', 'egypt-1517-1798::t5'],      // Rich at Babylon <-> the French savants and the Description de l'Égypte
+  ['iraq-1534-1831::c1', 'egypt-1517-1798::c1'],      // Marj Dabiq and al-Raydaniyya — the Ottoman conquest of the Arab lands
+  // lateral to the first Saudi state (the Wahhabi shock):
+  ['iraq-1534-1831::c4', 'najd-1744-1900::c2'],       // the sack of Karbala
+  ['iraq-1534-1831::b5', 'najd-1744-1900::b2'],       // takfir and the war on the shrines
+  ['iraq-1534-1831::xc4', 'najd-1744-1900::x2'],      // Muhammad Ali and Arabia — the destruction of the first Saudi state
+  // lateral to Oman and the Gulf (Basra and the sea trade):
+  ['iraq-1534-1831::e3', 'oman-gulf-1650-1820::ec1'], // Basra and Muscat — the entrepots of the western Indian Ocean
+  ['iraq-1534-1831::c2', 'oman-gulf-1650-1820::c2'],  // Nader Shah in Iraq and in Oman
+  ['iraq-1534-1831::e4', 'oman-gulf-1650-1820::x3'],  // Britain enters Gulf diplomacy
   // ── iraq-1258-1534 (Iraq under the Ilkhans and the Turkmen) ──
   // hand-off backward from Iraq from the Buyids to the Mongols:
   ['iraq-1258-1534::k1', 'iraq-945-1258::k8'],        // Hulagu and the Ilkhanate -> Iraq a province governed from Tabriz
