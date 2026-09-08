@@ -31,6 +31,20 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── uruk-3800bc-2900bc (Uruk and the First Cities) ──
+  // hand-off backward from Ubaid Mesopotamia:
+  ['uruk-3800bc-2900bc::p1',  'mesopotamia-6500bc-3800bc::p7'],   // the terminal-Ubaid temple towns grow into the first city
+  ['uruk-3800bc-2900bc::o1',  'mesopotamia-6500bc-3800bc::o1'],   // the clay-token accounts become writing
+  ['uruk-3800bc-2900bc::o2',  'mesopotamia-6500bc-3800bc::o4'],   // the standardised Ubaid bowl hardens into the bevelled-rim ration bowl
+  ['uruk-3800bc-2900bc::o4',  'mesopotamia-6500bc-3800bc::o2'],   // the stamp seal and sealed store give way to the cylinder seal
+  ['uruk-3800bc-2900bc::b4',  'mesopotamia-6500bc-3800bc::b1'],   // the Eridu temple sequence -> the White Temple on the terrace of Anu
+  ['uruk-3800bc-2900bc::e1',  'mesopotamia-6500bc-3800bc::o3'],   // the redistributive temple -> the temple estate as a centralised enterprise
+  ['uruk-3800bc-2900bc::g1',  'mesopotamia-6500bc-3800bc::g2'],   // the slow potter's wheel -> the fast wheel and mass production
+  ['uruk-3800bc-2900bc::w2',  'mesopotamia-6500bc-3800bc::w5'],   // from hamlet to town -> the hyper-urban revolution
+  // lateral to Predynastic Egypt (the Naqada II–III contact):
+  ['uruk-3800bc-2900bc::xc2', 'egypt-6000bc-3000bc::ex1'],        // the Gebel el-Arak knife — a Mesopotamian 'Master of Animals'
+  ['uruk-3800bc-2900bc::xc2', 'egypt-6000bc-3000bc::ex2'],        // the cylinder seal as an Egyptian borrowing from Uruk
+  ['uruk-3800bc-2900bc::xc3', 'egypt-6000bc-3000bc::ex3'],        // the same lapis road reaching Badari and Naqada graves
   // ── mesopotamia-6500bc-3800bc (Ubaid Mesopotamia): the Ubaid expansion down the Gulf ──
   ['mesopotamia-6500bc-3800bc::xc3', 'gulf-prehistory-8000bc-3000bc::e2'],   // the Ubaid on the Gulf coast <-> Ubaid painted pottery on the Arabian shore
   ['mesopotamia-6500bc-3800bc::xc3', 'gulf-prehistory-8000bc-3000bc::x1'],   // <-> the Ubaid maritime network, Kuwait to Qatar to the UAE

@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 4876,
     "folio_count": 88,
-    "xlink_pairs": 497,
+    "xlink_pairs": 508,
     "keyword_terms": 7842,
     "folios": [
       {
@@ -6942,6 +6942,22 @@
     "egypt-332bc-30bc::w3": [
       "egypt-664bc-332bc::w4"
     ],
+    "egypt-6000bc-3000bc::ex1": [
+      "uruk-3800bc-2900bc::xc2"
+    ],
+    "uruk-3800bc-2900bc::xc2": [
+      "egypt-6000bc-3000bc::ex1",
+      "egypt-6000bc-3000bc::ex2"
+    ],
+    "egypt-6000bc-3000bc::ex2": [
+      "uruk-3800bc-2900bc::xc2"
+    ],
+    "egypt-6000bc-3000bc::ex3": [
+      "uruk-3800bc-2900bc::xc3"
+    ],
+    "uruk-3800bc-2900bc::xc3": [
+      "egypt-6000bc-3000bc::ex3"
+    ],
     "egypt-641-969::k12": [
       "fatimids-909-1171::c2"
     ],
@@ -7279,6 +7295,54 @@
     ],
     "spain-1230-1492::s2": [
       "mamluks-1250-1517::w4"
+    ],
+    "mesopotamia-6500bc-3800bc::p7": [
+      "uruk-3800bc-2900bc::p1"
+    ],
+    "uruk-3800bc-2900bc::p1": [
+      "mesopotamia-6500bc-3800bc::p7"
+    ],
+    "mesopotamia-6500bc-3800bc::o1": [
+      "uruk-3800bc-2900bc::o1"
+    ],
+    "uruk-3800bc-2900bc::o1": [
+      "mesopotamia-6500bc-3800bc::o1"
+    ],
+    "mesopotamia-6500bc-3800bc::o2": [
+      "uruk-3800bc-2900bc::o4"
+    ],
+    "uruk-3800bc-2900bc::o4": [
+      "mesopotamia-6500bc-3800bc::o2"
+    ],
+    "mesopotamia-6500bc-3800bc::o3": [
+      "uruk-3800bc-2900bc::e1"
+    ],
+    "uruk-3800bc-2900bc::e1": [
+      "mesopotamia-6500bc-3800bc::o3"
+    ],
+    "mesopotamia-6500bc-3800bc::o4": [
+      "uruk-3800bc-2900bc::o2"
+    ],
+    "uruk-3800bc-2900bc::o2": [
+      "mesopotamia-6500bc-3800bc::o4"
+    ],
+    "mesopotamia-6500bc-3800bc::b1": [
+      "uruk-3800bc-2900bc::b4"
+    ],
+    "uruk-3800bc-2900bc::b4": [
+      "mesopotamia-6500bc-3800bc::b1"
+    ],
+    "mesopotamia-6500bc-3800bc::g2": [
+      "uruk-3800bc-2900bc::g1"
+    ],
+    "uruk-3800bc-2900bc::g1": [
+      "mesopotamia-6500bc-3800bc::g2"
+    ],
+    "mesopotamia-6500bc-3800bc::w5": [
+      "uruk-3800bc-2900bc::w2"
+    ],
+    "uruk-3800bc-2900bc::w2": [
+      "mesopotamia-6500bc-3800bc::w5"
     ],
     "nabataean-312bc-106ce::o3": [
       "palmyrene-100bc-273ce::k1"
