@@ -70,6 +70,10 @@ const STOPWORDS = new Set([
   // dispersals...") leaked as bare "Seventeen", "One", a four-word "Neither the Nubian
   // Complex" clause fragment, and bare "Dead-end".
   'neither', 'one', 'seventeen', 'dead-end',
+  // Era/date markers — capitalized, so isCap() picks them up, but they are never a
+  // keyword ("BC Uruk", "AD Ctesiphon" leaked as phrase-leading junk from hint
+  // sentences like "By 3300 BC Uruk covered..."). Prehistoric folios hit this constantly.
+  'bc', 'ad', 'ce', 'bce', 'circa',
 ]);
 
 function escapeRegex(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
