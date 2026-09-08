@@ -31,6 +31,55 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── iraq-2003-today (Iraq after Saddam) ──
+  // hand-off backward from Saddam's Iraq:
+  ['iraq-2003-today::k1', 'iraq-1979-2003::c6'],      // the 2003 invasion -> the occupation and the CPA
+  ['iraq-2003-today::k1', 'iraq-1979-2003::w4'],      // 2003 — the fall as a beginning -> de-Ba'thification and the dissolved army
+  ['iraq-2003-today::k4', 'iraq-1979-2003::b3'],      // sectarian consciousness sharpened -> ISIS from the Sunni exclusion
+  ['iraq-2003-today::k7', 'iraq-1979-2003::k6'],      // SCIRI and Badr in Tehran -> the Iran-backed militias and the PMF
+  ['iraq-2003-today::k6', 'iraq-1979-2003::l3'],      // Muhammad Sadiq al-Sadr -> Muqtada inherits the movement
+  ['iraq-2003-today::k8', 'iraq-1979-2003::k7'],      // the Kurdish safe haven -> the Kurdistan Region
+  ['iraq-2003-today::c2', 'iraq-1979-2003::o5'],      // the re-tribalisation -> a militia-ready society and the civil war
+  ['iraq-2003-today::o5', 'iraq-1979-2003::b2'],      // the Shia clergy under the regime -> Sistani the decisive arbiter
+  ['iraq-2003-today::l2', 'iraq-1979-2003::b2'],      // the marjaʿiyya nearly extinguished -> Ali al-Sistani
+  ['iraq-2003-today::b4', 'iraq-1979-2003::b4'],      // the exile and the diaspora -> the minorities' catastrophe
+  ['iraq-2003-today::b1', 'iraq-1979-2003::b1'],      // religion from above and below -> the shrine cities revived
+  ['iraq-2003-today::o4', 'iraq-1979-2003::o3'],      // the command economy of scarcity -> the oil-rentier state at maximum
+  ['iraq-2003-today::e3', 'iraq-1979-2003::c5'],      // the draining of the marshes -> the water and climate emergency
+  ['iraq-2003-today::e3', 'iraq-1979-2003::e5'],      // the wrecked resource base -> the water catastrophe continued
+  ['iraq-2003-today::e4', 'iraq-1979-2003::e4'],      // Oil-for-Food -> the corruption economy institutionalised
+  ['iraq-2003-today::w1', 'iraq-1979-2003::w1'],      // the self-inflicted catastrophe -> the twenty-year war and its cost
+  ['iraq-2003-today::w2', 'iraq-1979-2003::w3'],      // the unmaking of Iraqi society -> the failed state that held
+  ['iraq-2003-today::w3', 'iraq-1979-2003::xc1'],     // the Iran war and the world's tilt -> the strategic reversal of 2003
+  ['iraq-2003-today::x2', 'iraq-1979-2003::x3'],      // the looting and rebuilding of heritage -> ISIS and the reconstruction
+  ['iraq-2003-today::x1', 'iraq-1979-2003::x1'],      // the literature of war and exile -> the Iraqi novel comes into its own
+  ['iraq-2003-today::t1', 'iraq-1979-2003::t1'],      // the making of the case against Iraq -> the debate over what went wrong
+  ['iraq-2003-today::t4', 'iraq-1979-2003::t4'],      // documenting the crimes -> documenting the atrocities
+  ['iraq-2003-today::c4', 'iraq-1979-2003::c2'],      // the Anfal -> the Yazidi genocide at Sinjar
+  ['iraq-2003-today::b3', 'iraq-1979-2003::b3'],      // sectarian consciousness sharpened -> the Sunni Arabs' predicament
+  ['iraq-2003-today::o3', 'iraq-1979-2003::o2'],      // the security state -> the fragmented monopoly of force
+  ['iraq-2003-today::l4', 'iraq-1979-2003::l5'],      // the child of the sanctions -> the Tishreen protester
+  ['iraq-2003-today::x5', 'iraq-1979-2003::x2'],      // the monumental Baghdad of Saddam -> the memory wars
+  // lateral to Egypt 1952–today (the parallel Arab upheaval and counter-revolution):
+  ['iraq-2003-today::k5', 'egypt-1952-today::k15'],   // the protest generation — Tishreen and Kefaya / 6 April
+  ['iraq-2003-today::c5', 'egypt-1952-today::c8'],    // the 25 January Revolution and the Tishreen uprising
+  ['iraq-2003-today::t2', 'egypt-1952-today::x6'],    // the 2011 generation — graffiti, satire and the demand for a civil state
+  ['iraq-2003-today::o4', 'egypt-1952-today::e7'],    // the state and the economy — the rentier and the debt-and-megaproject models
+  ['iraq-2003-today::x4', 'egypt-1952-today::x5'],    // the media explosion and its consolidation
+  ['iraq-2003-today::w2', 'egypt-1952-today::k6'],    // the state reasserting itself — el-Sisi's officers' state
+  ['iraq-2003-today::b1', 'egypt-1952-today::b4'],    // the Islamic revival
+  ['iraq-2003-today::xc4', 'egypt-1952-today::w4'],   // the diaspora
+  // lateral to the Saudi state (the regional order and the Iran contest):
+  ['iraq-2003-today::xc1', 'saudi-1902-today::x4'],   // the duel with revolutionary Iran
+  ['iraq-2003-today::xc2', 'saudi-1902-today::x6'],   // the MBS foreign policy and the Baghdad mediation
+  ['iraq-2003-today::k7', 'saudi-1902-today::x5'],    // the Gulf War and its blowback — the militias born of the wars
+  ['iraq-2003-today::e1', 'saudi-1902-today::ec4'],   // two oil states and the rentier social contract
+  ['iraq-2003-today::b2', 'saudi-1902-today::b3'],    // the sect question across the Gulf
+  // deep-time links — the shrine cities, the marjaiyya, the rivers:
+  ['iraq-2003-today::b1', 'iraq-1258-1534::w4'],      // Najaf and Karbala — the surviving Iraq, then and now
+  ['iraq-2003-today::o5', 'iraq-1831-1914::b2'],      // the marjaiyya's political power — the Tobacco Protest and the 2019 fatwa
+  ['iraq-2003-today::e3', 'iraq-945-1258::g1'],       // the fragility of a hydraulic society, the lesson repeated
+  ['iraq-2003-today::w4', 'iraq-1914-1958::w1'],      // the invented state — a century on, the same unresolved questions
   // ── iraq-1979-2003 (Saddam's Iraq) ──
   // hand-off backward from The Iraqi Republic:
   ['iraq-1979-2003::k1', 'iraq-1958-1979::w3'],       // the making of Saddam's Iraq -> Saddam absolute
