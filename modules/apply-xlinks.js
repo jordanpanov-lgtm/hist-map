@@ -31,6 +31,52 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── iraq-1831-1914 (Late Ottoman Iraq) ──
+  // hand-off backward from Ottoman Iraq: the Three Provinces:
+  ['iraq-1831-1914::k1', 'iraq-1534-1831::c6'],       // the fall of Dawud Pasha -> direct Ottoman rule and the first reformers
+  ['iraq-1831-1914::c1', 'iraq-1534-1831::c4'],       // Karbala sacked in 1802 by the Wahhabis, in 1843 by the state
+  ['iraq-1831-1914::o2', 'iraq-1534-1831::o3'],       // the tax-farmer and the ruined land -> the 1858 Land Code and the landlord class
+  ['iraq-1831-1914::o4', 'iraq-1534-1831::o6'],       // the shrine cities as a state within the state, under the clergy
+  ['iraq-1831-1914::b1', 'iraq-1534-1831::b2'],       // the triumph of Usulism -> the single source of emulation
+  ['iraq-1831-1914::b3', 'iraq-1534-1831::t1'],       // the rational defence of clerical authority -> the ulama and the Iranian revolution
+  ['iraq-1831-1914::b4', 'iraq-1534-1831::b6'],       // the Jews of Baghdad -> at their height
+  ['iraq-1831-1914::xc3', 'iraq-1534-1831::xc5'],     // the Baghdadi Jewish diaspora begins -> spans British Asia
+  ['iraq-1831-1914::e1', 'iraq-1534-1831::e1'],       // the long depression and Mamluk recovery -> Iraq joins the world economy
+  ['iraq-1831-1914::e2', 'iraq-1534-1831::g3'],       // the Residency surveys and the coming of steam -> the steamers and the telegraph
+  ['iraq-1831-1914::t4', 'iraq-1534-1831::t4'],       // science through the Residency -> Assyriology born from Iraqi soil
+  ['iraq-1831-1914::x3', 'iraq-1534-1831::l4'],       // Claudius James Rich -> the Assyrian excavations
+  ['iraq-1831-1914::k7', 'iraq-1534-1831::xc4'],      // the Wahhabi–Ottoman war -> the desert, al-Hasa and Kuwait
+  ['iraq-1831-1914::o6', 'iraq-1534-1831::o4'],       // the hereditary Kurdish lordships -> the end of the emirates
+  ['iraq-1831-1914::k5', 'iraq-1534-1831::k8'],       // the Muntafiq, the Baban and the Bedouin -> the tribal shaykhs made landlords
+  ['iraq-1831-1914::w1', 'iraq-1534-1831::w2'],       // a Shia country under Sunni rule -> the making of modern Iraqi society
+  ['iraq-1831-1914::w4', 'iraq-1534-1831::w4'],       // Iraq on the eve of the modern -> the Ottoman order at its end
+  ['iraq-1831-1914::x5', 'iraq-1534-1831::x2'],       // poetry between three languages and the Iraqi maqam
+  ['iraq-1831-1914::o1', 'iraq-1534-1831::g1'],       // the failure to modernise -> the Tanzimat state arrives
+  ['iraq-1831-1914::xc2', 'iraq-1534-1831::xc2'],     // the atabat and the Oudh Bequest -> the shrine cities and the Iranian revolution
+  ['iraq-1831-1914::xc4', 'iraq-1534-1831::e5'],      // the pilgrimage and corpse traffic -> the pilgrimage and the Hajj road
+  // lateral to Muhammad Ali's Egypt (the parallel reforming Ottoman Arab province):
+  ['iraq-1831-1914::k2', 'egypt-1798-1900::k2'],      // Midhat Pasha <-> Muhammad Ali — the reforming provincial ruler
+  ['iraq-1831-1914::o1', 'egypt-1798-1900::o2'],      // the monopoly state and the modern bureaucracy
+  ['iraq-1831-1914::o2', 'egypt-1798-1900::o3'],      // the cadastre and private property in land
+  ['iraq-1831-1914::e1', 'egypt-1798-1900::e4'],      // from monopoly to market
+  ['iraq-1831-1914::e4', 'egypt-1798-1900::e7'],      // the fellah and the agrarian crisis
+  ['iraq-1831-1914::g3', 'egypt-1798-1900::g1'],      // Willcocks and the barrages — the Hindiyya and the Nile
+  ['iraq-1831-1914::g1', 'egypt-1798-1900::g2'],      // the railway and the telegraph
+  ['iraq-1831-1914::t3', 'egypt-1798-1900::b2'],      // the Nahda — al-Afghani and Abduh and Islamic modernism
+  ['iraq-1831-1914::x1', 'egypt-1798-1900::x2'],      // the new journalism
+  ['iraq-1831-1914::x2', 'egypt-1798-1900::x5'],      // the reinvention of Arabic literature
+  ['iraq-1831-1914::e5', 'egypt-1798-1900::xc1'],     // the Suez Canal, the oil — the strategic asset drawing the powers
+  ['iraq-1831-1914::t2', 'egypt-1798-1900::t1'],      // the student missions, al-Tahtawi and the new schools
+  ['iraq-1831-1914::l1', 'egypt-1798-1900::l1'],      // Midhat Pasha <-> Muhammad Ali, the men
+  ['iraq-1831-1914::c4', 'egypt-1798-1900::c3'],      // the war against the Saudis in Arabia
+  // lateral to the Ottoman Hejaz and the desert:
+  ['iraq-1831-1914::xc4', 'hejaz-1517-1900::o2'],     // the organisation of the Hajj
+  ['iraq-1831-1914::x3', 'hejaz-1517-1900::t1'],      // the European explorer-scholars in the Ottoman Arab lands
+  ['iraq-1831-1914::k7', 'najd-1744-1900::k9'],       // Muhammad ibn Rashid of Ha'il
+  ['iraq-1831-1914::c4', 'najd-1744-1900::c6'],       // the Battle of Mulayda
+  // lateral to the Trucial Gulf:
+  ['iraq-1831-1914::k7', 'trucial-gulf-1820-1900::k7'], // Mubarak the Great and the 1899 Kuwait agreement
+  ['iraq-1831-1914::xc1', 'trucial-gulf-1820-1900::w2'], // the scramble touches the Gulf
   // ── iraq-1534-1831 (Ottoman Iraq: the Three Provinces) ──
   // hand-off backward from Iraq under the Ilkhans and the Turkmen:
   ['iraq-1534-1831::k1', 'iraq-1258-1534::k7'],       // Suleiman takes Baghdad -> the three provinces organised
