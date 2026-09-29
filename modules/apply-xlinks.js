@@ -1034,6 +1034,10 @@ const SELECTED_PAIRS = [
   ['elam-3200bc-1500bc::p4', 'babylon-2004bc-1595bc::xc5'],          // the Sukkalmah -> Elam of the Sukkalmah, Babylon's own view
   ['elam-3200bc-1500bc::c1', 'mesopotamia-2334bc-2004bc::k3'],       // the Naram-Sin treaty -> Naram-Sin, god of Akkad
   ['elam-3200bc-1500bc::ec1', 'magan-3000bc-1200bc::tc4'],           // tin and lapis lazuli through Elam -> tin bronze (the complementary copper leg via Magan)
+  // ── elam-1500bc-1100bc (Iran/Persia program, Step 3 continued) ──
+  // rejected: a generic "Rule" word match to an unrelated Gulf council-governance folio,
+  // 1,900 years and an unconnected region apart.
+  ['elam-1500bc-1100bc::c3', 'babylon-1155bc-539bc::k1'],            // Nebuchadnezzar I's counter-invasion -> the same event, Babylon's own view
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
