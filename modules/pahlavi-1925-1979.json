@@ -423,7 +423,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "A Cold War coup acknowledged decades later, and a monarchy's sudden fall",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1953",
+          "label": "A Cold War Coup Acknowledged Decades Later",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "For sixty years the American government's role in Mosaddegh's overthrow remained officially unacknowledged despite widespread historical consensus about it, until the CIA's own internal history was declassified and published in 2013 — a rare instance of a major Cold War covert operation eventually confirmed in official detail by the government that carried it out.",
+          "note": "CIA internal history of TPAJAX (declassified 2013)."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1979",
+          "label": "A Monarchy's Sudden Fall",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Western intelligence agencies and academic Iran specialists alike were broadly caught off guard by how quickly a state with one of the region's largest and best-equipped militaries, and deep American backing, collapsed before a mass civilian protest movement — a strategic surprise whose scale prompted extensive subsequent reassessment of how outside observers had read the shah's actual domestic position.",
+          "note": "Comparative retrospective assessment of Western intelligence and academic analysis of the shah's position before 1978–79."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -432,7 +461,36 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Women's suffrage and the forced veil, and SAVAK's documented repression",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Women's Agency",
+          "tag": "CATEGORICAL SHIFT",
+          "date": "1936–1963",
+          "label": "The Forced Veil and Women's Suffrage",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Reza Shah's 1936 unveiling decree and Mohammad Reza Shah's 1963 grant of women's suffrage both expanded women's formal legal and public presence, but both were also imposed from above by an authoritarian state rather than won through independent women's political organising — a genuine legal expansion of rights that coexisted, uncomfortably for many Iranian women at the time, with continued lack of choice over their own presentation and continued male guardianship in family law.",
+          "note": "1936 unveiling decree (Kashf-e hijab); 1963 White Revolution referendum granting women's suffrage; comparative contemporary accounts of the coercive enforcement of unveiling."
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "tag": "EVIDENCE",
+          "date": "1970s",
+          "label": "SAVAK's Political Prisoners",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Amnesty International's 1970s reporting on Iran documented specific, named cases of arbitrary detention and torture of political prisoners spanning the full ideological spectrum from Marxist guerrillas to religious activists — international human rights documentation that directly contradicted the Pahlavi government's own public presentation of Iran as a stable, modernising state.",
+          "note": "Amnesty International, Report on Torture (1975) and annual reports on Iran, 1970s."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -441,81 +499,228 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "Reza Shah (1925–1941)",
-      "events": []
+      "events": [
+        {
+          "y": 1925,
+          "y2": 1941,
+          "l": "Reza Shah — Founding and Forced Modernization",
+          "entryId": "p1"
+        }
+      ]
     },
     {
       "id": "mohammad-reza-shah",
       "icon": "⚜️",
       "accent": "#7A200A",
       "label": "Mohammad Reza Shah (1941–1979)",
-      "events": []
+      "events": [
+        {
+          "y": 1941,
+          "y2": 1953,
+          "l": "Mohammad Reza Shah — the Constrained Early Reign",
+          "entryId": "p2"
+        },
+        {
+          "y": 1953,
+          "y2": 1979,
+          "l": "Mohammad Reza Shah — Absolute Monarchy and Its Collapse",
+          "entryId": "p4"
+        }
+      ]
     },
     {
       "id": "governments",
       "icon": "⚜️",
       "accent": "#5C1806",
       "label": "The Mosaddegh Government (1951–1953)",
-      "events": []
+      "events": [
+        {
+          "y": 1951,
+          "y2": 1953,
+          "l": "Mohammad Mosaddegh — Nationalization and Overthrow",
+          "entryId": "p3"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": 1941,
+          "l": "The Anglo-Soviet Invasion of Iran",
+          "entryId": "c1"
+        },
+        {
+          "y": 1953,
+          "l": "Operation Ajax",
+          "entryId": "c2"
+        },
+        {
+          "y": 1968,
+          "l": "SAVAK's Campaign against Dissent",
+          "entryId": "c3"
+        },
+        {
+          "y": 1978,
+          "l": "The Islamic Revolution",
+          "entryId": "c4"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": 1932,
+          "l": "Reza Shah's Secularizing Legal Code",
+          "entryId": "o1"
+        },
+        {
+          "y": 1963,
+          "l": "The White Revolution's Land Reform",
+          "entryId": "o2"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": 1933,
+          "l": "Khomeini's Opposition and Exile",
+          "entryId": "b1"
+        },
+        {
+          "y": 1963,
+          "l": "Religious Institutions under Reza Shah's Secularization",
+          "entryId": "b2"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": 1969,
+          "l": "Iranian New Wave Cinema",
+          "entryId": "e1"
+        },
+        {
+          "y": 1971,
+          "l": "The Shahyad Monument",
+          "entryId": "e2"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": 1962,
+          "l": "Al-e Ahmad's Gharbzadegi",
+          "entryId": "t1"
+        },
+        {
+          "y": 1975,
+          "l": "Shariati's Revolutionary Islam",
+          "entryId": "t2"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": 1970,
+          "l": "The Oil Boom and Its Uneven Distribution",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1975,
+          "l": "Land Reform's Mixed Rural Impact",
+          "entryId": "ec2"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": 1932,
+          "l": "The Trans-Iranian Railway",
+          "entryId": "tc1"
+        },
+        {
+          "y": 1970,
+          "l": "State-Led Industrialization",
+          "entryId": "tc2"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": 1966,
+          "l": "Cold War Alignment with the United States",
+          "entryId": "x1"
+        },
+        {
+          "y": 1971,
+          "l": "Khomeini's Exile Network in Najaf and Paris",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": 1953,
+          "l": "A Cold War Coup Acknowledged Decades Later",
+          "entryId": "w1"
+        },
+        {
+          "y": 1979,
+          "l": "A Monarchy's Sudden Fall",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": 1963,
+          "l": "The Forced Veil and Women's Suffrage",
+          "entryId": "l1"
+        },
+        {
+          "y": 1975,
+          "l": "SAVAK's Political Prisoners",
+          "entryId": "l2"
+        }
+      ]
     }
   ]
 }
