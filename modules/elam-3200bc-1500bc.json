@@ -21,7 +21,68 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Awan, the Shimashki kings, and the Sukkalmah's shared kingship",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "The Awan Dynasty",
+          "dynasty": "Awan",
+          "label": "The Awan Dynasty and the Treaty with Akkad",
+          "date": "c.2400–2100 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Known chiefly from the Sumerian King List and a treaty with Naram-Sin of Akkad, the Awan kings ruled a Susa-centred Elamite state contemporary with Sargon's Akkadian empire — one of the earliest Elamite dynasties documented well enough to be dated and sequenced, even where most individual kings remain little more than names.",
+          "tag": "EVIDENCE",
+          "note": "Sumerian King List, Awan dynasty section; the Naram-Sin–Elam treaty tablet, Louvre."
+        },
+        {
+          "id": "p2",
+          "group": "The Awan Dynasty",
+          "dynasty": "Awan",
+          "label": "Puzur-Inshushinak — the Conqueror King",
+          "date": "c.2100 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "The last and most powerful Awan king, Puzur-Inshushinak briefly conquered large parts of southern Mesopotamia during Akkad's collapse, leaving royal inscriptions in both Akkadian and the newly invented Linear Elamite script — before Ur-Nammu of the rising Third Dynasty of Ur reversed his conquests entirely.",
+          "tag": "SUCCESSION",
+          "note": "Puzur-Inshushinak royal inscriptions, Louvre and National Museum of Iran."
+        },
+        {
+          "id": "p3",
+          "group": "The Shimashki Dynasty",
+          "dynasty": "Shimashki",
+          "label": "The Shimashki Dynasty and the Sack of Ur",
+          "date": "c.2100–1900 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Succeeding Awan, the Shimashki kings are known largely through their culminating achievement: Kindattu's army sacked Ur in 2004 BC, capturing King Ibbi-Sin and ending the Third Dynasty of Ur — the single most consequential Elamite military success against Mesopotamia in the entire Bronze Age.",
+          "tag": "EVIDENCE",
+          "note": "The Lament for Ur (Sumerian literary text); Elamite king list traditions preserved in later Mesopotamian sources."
+        },
+        {
+          "id": "p4",
+          "group": "The Sukkalmah Dynasty",
+          "dynasty": "Sukkalmah",
+          "label": "The Sukkalmah — Shared Kingship",
+          "date": "c.1900–1500 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "The long Sukkalmah (or Epartid) period governed Elam through a distinctive triarchic system — a sukkalmah ('grand regent') at Susa, a sukkal of Elam and Shimashki, and a sukkal of Susa itself, typically an uncle, nephew and brother — an institutionalised power-sharing arrangement with no real parallel in contemporary Mesopotamian kingship.",
+          "tag": "EVIDENCE",
+          "note": "Sukkalmah-period administrative and legal tablets from Susa; Walther Hinz, 'The Elamite Sukkalmah Period,' Cambridge Ancient History."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +91,64 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "The treaty with Akkad, the sack of Ur, and the wars with Babylon",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Akkadian Wars",
+          "tag": "EVENT",
+          "date": "c.2250 BC",
+          "label": "The Naram-Sin Treaty Ends a War",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "The treaty between Naram-Sin of Akkad and an Elamite king, sworn by both the Mesopotamian and Elamite pantheons, formally ended a period of conflict between the two powers and bound the Elamite ruler as a subordinate ally — the occasion for the oldest surviving connected text written in the Elamite language.",
+          "note": "Naram-Sin–Elam treaty tablet, Louvre Sb 8833."
+        },
+        {
+          "id": "c2",
+          "group": "Puzur-Inshushinak's Conquests",
+          "tag": "BATTLE",
+          "date": "c.2100 BC",
+          "label": "Puzur-Inshushinak's Mesopotamian Campaigns",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Exploiting the Akkadian Empire's collapse, Puzur-Inshushinak's inscriptions claim conquests reaching well into southern Mesopotamia — a high-water mark of Elamite military reach that proved as short-lived as the Akkadian power vacuum that had made it possible.",
+          "note": "Puzur-Inshushinak royal inscriptions, on his claimed conquests."
+        },
+        {
+          "id": "c3",
+          "group": "The Sack of Ur",
+          "tag": "BATTLE",
+          "date": "2004 BC",
+          "label": "Kindattu Sacks Ur",
+          "loc": "Ur",
+          "coords": [
+            30.96,
+            46.1
+          ],
+          "hint": "An Elamite army under Kindattu, joined by forces from Shimashki's allies, stormed Ur and carried King Ibbi-Sin into captivity in Elam — an event Sumerian scribes mourned for generations afterward in the 'Lament for the Destruction of Sumer and Ur,' ending the Third Dynasty of Ur and one of Mesopotamia's great imperial revivals.",
+          "note": "The Lament for Ur; Sumerian King List, on the end of the Ur III dynasty."
+        },
+        {
+          "id": "c4",
+          "group": "The Wars with Babylon",
+          "tag": "BATTLE",
+          "date": "c.1764 BC",
+          "label": "Hammurabi Defeats an Elamite-Led Coalition",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Hammurabi's own year-names record a decisive victory over an alliance including Elam, Assyria and other regional powers — a reversal of the earlier alliance in which an Elamite-backed coalition had helped Hammurabi's Babylon against Larsa, showing how quickly the era's shifting alignments could turn former allies into declared enemies.",
+          "note": "Hammurabi's year-name list, on the defeat of the Elamite coalition."
+        }
+      ]
     },
     {
       "id": "order",
