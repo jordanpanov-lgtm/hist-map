@@ -1128,6 +1128,15 @@ const SELECTED_PAIRS = [
   ['safavid-1501-1722::c3', 'portuguese-gulf-1507-1650::w3'],        // Shah Abbas's reconquest -> same
   ['safavid-1501-1722::o2', 'portuguese-gulf-1507-1650::w3'],        // crown land expansion -> same
   ['safavid-1501-1722::t2', 'portuguese-gulf-1507-1650::w3'],        // Iskandar Beg Munshi's chronicle -> same
+  // ── iran-1722-1789 (Iran/Persia program, Step 4 continued) ──
+  // rejected: two bare "Ottoman(s)" empire-name mismatches, and an "East India Company" match to
+  // an unrelated 1839 event (Aden) nearly a century after Karim Khan's 1763 agreement.
+  ['iran-1722-1789::p2', 'oman-gulf-1650-1820::c2'],                 // Nader Shah -> his forces occupy Oman
+  ['iran-1722-1789::p2', 'oman-gulf-1650-1820::w2'],                 // Nader Shah -> a Persian navy on the Gulf
+  ['iran-1722-1789::c4', 'oman-gulf-1650-1820::c2'],                 // the assassination of Nader Shah -> same figure
+  ['iran-1722-1789::t1', 'oman-gulf-1650-1820::c2'],                 // Marvi's chronicle of Nader Shah -> same figure
+  ['iran-1722-1789::c4', 'oman-gulf-1650-1820::w2'],                 // the assassination of Nader Shah -> same figure
+  ['iran-1722-1789::t1', 'oman-gulf-1650-1820::w2'],                 // Marvi's chronicle of Nader Shah -> same figure
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
