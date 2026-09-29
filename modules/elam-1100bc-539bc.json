@@ -377,7 +377,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "Assyria's deliberate erasure of a rival, and the rise of Persia in Elam's place",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "646 BC",
+          "label": "Assyria's Deliberate Erasure of a Rival",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Ashurbanipal's campaign against Elam went well beyond the usual ancient Near Eastern conquest of tribute and submission — the explicit aim, stated in his own inscriptions, was to end Elam's capacity to exist as an independent political actor at all, a rarer and more absolute war goal than most Assyrian campaigns against other rivals.",
+          "note": "Ashurbanipal's annals (Rassam Cylinder), on the stated aims of the Elam campaign."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "539 BC",
+          "label": "Persia Rises in Elam's Place",
+          "loc": "Anshan (Tal-e Malyan)",
+          "coords": [
+            29.98,
+            52.05
+          ],
+          "hint": "Within a century of Susa's destruction, the vacuum Assyria had created was filled not by a resurgent Elamite state but by an Iranian dynasty from Elam's own old highland partner-city Anshan — Elam did not so much end as transform into the founding core of a far larger empire under a different name.",
+          "note": "Cyrus Cylinder; the Achaemenid dynasty's own use of Elamite royal titulature and administrative practice."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -386,7 +415,22 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "The deportation of Susa's population under Ashurbanipal",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Marginalised Communities",
+          "tag": "EVIDENCE",
+          "date": "646 BC",
+          "label": "The Deportation of Susa's Population",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Ashurbanipal's inscriptions record deporting Elamites from Susa to Assyria and other imperial territories while resettling other conquered populations in the depopulated region — a two-directional population engineering project intended to permanently break Elamite ethnic and political cohesion in its own historic homeland.",
+          "note": "Ashurbanipal's annals, on the deportation and resettlement following the fall of Susa."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -395,67 +439,191 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "Neo-Elamite Kings (c.1100–539 BC)",
-      "events": []
+      "events": [
+        {
+          "y": -1100,
+          "l": "The Long Silence",
+          "entryId": "p1"
+        },
+        {
+          "y": -800,
+          "l": "The Neo-Elamite Revival",
+          "entryId": "p2",
+          "y2": -742
+        },
+        {
+          "y": -742,
+          "l": "Humban-nikash and the Anti-Assyrian Alliance",
+          "entryId": "p3",
+          "y2": -717
+        },
+        {
+          "y": -664,
+          "l": "Teumman and the Fratricidal Succession Crisis",
+          "entryId": "p4",
+          "y2": -653
+        },
+        {
+          "y": -646,
+          "l": "Fragments after the Destruction",
+          "entryId": "p5"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": -720,
+          "l": "The Battle of Der",
+          "entryId": "c1"
+        },
+        {
+          "y": -691,
+          "l": "The Battle of Halule",
+          "entryId": "c2"
+        },
+        {
+          "y": -653,
+          "l": "The Battle of the Ulai and Teumman's Death",
+          "entryId": "c3"
+        },
+        {
+          "y": -646,
+          "l": "Ashurbanipal's Destruction of Susa",
+          "entryId": "c4"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": -680,
+          "l": "A Kingdom Governed for War",
+          "entryId": "o1"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": -646,
+          "l": "Inshushinak's Temple Looted",
+          "entryId": "b1"
+        },
+        {
+          "y": -539,
+          "l": "Elamite Cult Continuity into Persian Rule",
+          "entryId": "b2"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": -653,
+          "l": "The Til Tuba Reliefs at Nineveh",
+          "entryId": "e1"
+        },
+        {
+          "y": -646,
+          "l": "The Sack of Susa Depicted at Nineveh",
+          "entryId": "e2"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": -800,
+          "l": "The Elamite Language's Terminal Decline",
+          "entryId": "t1"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": -700,
+          "l": "A Shrinking Resource Base",
+          "entryId": "ec1"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": -646,
+          "l": "The Ziggurat's Deliberate Levelling",
+          "entryId": "tc1"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": -680,
+          "l": "The Elamite-Babylonian Axis against Assyria",
+          "entryId": "x1"
+        },
+        {
+          "y": -545,
+          "l": "Elamite Structures Absorbed into Persia",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": -646,
+          "l": "Assyria's Deliberate Erasure of a Rival",
+          "entryId": "w1"
+        },
+        {
+          "y": -539,
+          "l": "Persia Rises in Elam's Place",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": -646,
+          "l": "The Deportation of Susa's Population",
+          "entryId": "l1"
+        }
+      ]
     }
   ]
 }
