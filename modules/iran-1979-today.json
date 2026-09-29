@@ -240,20 +240,6 @@
       "subtitle": "State Shiism's institutions, and the documented persecution of the Baha'i",
       "entries": [
         {
-          "id": "b1",
-          "group": "Twelver Shiism",
-          "tag": "EVIDENCE",
-          "date": "1979–2026",
-          "label": "State Shiism's Institutions",
-          "loc": "Qom",
-          "coords": [
-            34.64,
-            50.88
-          ],
-          "hint": "The Islamic Republic built an extensive state-clerical infrastructure around Qom's seminaries, though notably Khamenei's own religious scholarly credentials as a marja (source of emulation) were and remain contested by some senior ayatollahs — a tension between formal political authority and traditional religious scholarly hierarchy that predates, and has outlasted, his decades in office.",
-          "note": "Comparative accounts of clerical debate over Khamenei's marja status following his 1989 elevation."
-        },
-        {
           "id": "b2",
           "group": "Baha'i Faith",
           "tag": "EVIDENCE",
@@ -266,6 +252,20 @@
           ],
           "hint": "Iran's Baha'i minority, whose faith the constitution does not recognise as a protected religion, has faced systematic exclusion from higher education and government employment, arbitrary detention, and periodic destruction of cemeteries and holy sites — treatment the UN Special Rapporteur on Iran has documented in successive reports as sustained, state-organised religious persecution.",
           "note": "UN Special Rapporteur on the Situation of Human Rights in the Islamic Republic of Iran, successive annual reports; Baha'i International Community documentation."
+        },
+        {
+          "id": "b1",
+          "group": "Twelver Shiism",
+          "tag": "EVIDENCE",
+          "date": "1979–2026",
+          "label": "State Shiism's Institutions",
+          "loc": "Qom",
+          "coords": [
+            34.64,
+            50.88
+          ],
+          "hint": "The Islamic Republic built an extensive state-clerical infrastructure around Qom's seminaries, though notably Khamenei's own religious scholarly credentials as a marja (source of emulation) were and remain contested by some senior ayatollahs — a tension between formal political authority and traditional religious scholarly hierarchy that predates, and has outlasted, his decades in office.",
+          "note": "Comparative accounts of clerical debate over Khamenei's marja status following his 1989 elevation."
         }
       ]
     },
@@ -340,20 +340,6 @@
       "subtitle": "Decades of sanctions and a state still dependent on oil",
       "entries": [
         {
-          "id": "ec1",
-          "group": "Trade & Commerce",
-          "tag": "ECONOMIC",
-          "date": "1979–2026",
-          "label": "Decades of International Sanctions",
-          "loc": "Tehran",
-          "coords": [
-            35.6892,
-            51.389
-          ],
-          "hint": "US and later broader international sanctions, imposed and expanded in stages since the 1979 hostage crisis and intensified over the nuclear programme, have restricted Iran's oil exports, banking access and imported technology for most of the Islamic Republic's history — Iranian officials attribute much of the country's economic hardship to sanctions, while sanctioning governments and some independent economists point also to domestic mismanagement and corruption as contributing causes.",
-          "note": "US Treasury Office of Foreign Assets Control sanctions records; comparative economic analyses attributing varying weight to sanctions versus domestic factors."
-        },
-        {
           "id": "ec2",
           "group": "Fiscal & Monetary",
           "tag": "ECONOMIC",
@@ -366,6 +352,20 @@
           ],
           "hint": "Despite decades of stated government policy aiming to diversify the economy away from oil dependency, hydrocarbon exports have remained the dominant source of foreign currency earnings and a major share of government budget revenue throughout the Islamic Republic's history, leaving state finances persistently exposed to global oil price swings and sanctions-driven export restrictions alike.",
           "note": "Central Bank of Iran and OPEC statistical data on Iranian oil export revenue as a share of GDP and government budget, various years."
+        },
+        {
+          "id": "ec1",
+          "group": "Trade & Commerce",
+          "tag": "ECONOMIC",
+          "date": "1979–2026",
+          "label": "Decades of International Sanctions",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "US and later broader international sanctions, imposed and expanded in stages since the 1979 hostage crisis and intensified over the nuclear programme, have restricted Iran's oil exports, banking access and imported technology for most of the Islamic Republic's history — Iranian officials attribute much of the country's economic hardship to sanctions, while sanctioning governments and some independent economists point also to domestic mismanagement and corruption as contributing causes.",
+          "note": "US Treasury Office of Foreign Assets Control sanctions records; comparative economic analyses attributing varying weight to sanctions versus domestic factors."
         }
       ]
     },
@@ -452,7 +452,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "A regional network of allied and aligned armed groups",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1982–2026",
+          "label": "A Regional Network of Allied Armed Groups",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Since founding and funding Lebanon's Hezbollah in 1982, Iran has built relationships of varying closeness with armed groups and political movements across Iraq, Syria, Yemen and the Palestinian territories often described collectively as an 'axis of resistance' — a network Iranian officials describe as solidarity with allied causes and regional deterrence, while opposing governments describe it as regional destabilisation and proxy warfare.",
+          "note": "Comparative regional-security analysis of Iran's relationships with allied and aligned non-state armed groups, with the customary caution that Iranian and opposing-government framings of this network differ substantially."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1979–2026",
+          "label": "The Rivalry with Saudi Arabia",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Shia Iran and Sunni Saudi Arabia have competed for regional influence since 1979 along lines that are simultaneously sectarian, geopolitical and economic — a rivalry that has played out through proxy conflicts, oil-market competition and periodic direct diplomatic ruptures and, at other points, tentative rapprochement efforts.",
+          "note": "Comparative Iran-Saudi diplomatic relations history, 1979–2026."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -461,7 +490,36 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "The mandatory hijab, a death in custody, and documented minority persecution",
-      "entries": []
+      "entries": [
+        {
+          "id": "l2",
+          "group": "Same-Sex Practice & Law",
+          "tag": "EVIDENCE",
+          "date": "1991–2026",
+          "label": "Criminalization under the Islamic Penal Code",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Iran's Islamic Penal Code criminalises consensual same-sex sexual acts between adults, with penalties that include the death penalty for certain specified acts — among the most severe legal frameworks of its kind still in active use anywhere in the world, documented directly in the legal code itself rather than only in advocacy reporting about its enforcement.",
+          "note": "Islamic Penal Code of Iran (1991, revised 2013), Articles on same-sex sexual acts."
+        },
+        {
+          "id": "l1",
+          "group": "Women's Agency",
+          "tag": "CATEGORICAL SHIFT",
+          "date": "1983–2026",
+          "label": "The Mandatory Hijab and Mahsa Amini's Death",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Mandatory hijab in public, legally required since 1983, has been enforced with varying intensity by police and, since the 2000s, a dedicated 'morality police' unit — Mahsa Jina Amini's death in that unit's custody in September 2022 became the immediate catalyst for the largest women's-rights-centred protest movement in the Islamic Republic's history, discussed further under Conflict.",
+          "note": "Islamic Penal Code provisions on hijab enforcement; coroner and government statements on Mahsa Amini's death, disputed by her family and independent investigators."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -470,74 +528,232 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "Supreme Leaders (1979–2026)",
-      "events": []
+      "events": [
+        {
+          "y": 1979,
+          "y2": 1989,
+          "l": "Ayatollah Khomeini — Founding the Islamic Republic",
+          "entryId": "p1"
+        },
+        {
+          "y": 1989,
+          "y2": 2026,
+          "l": "Ali Khamenei — Supreme Leader",
+          "entryId": "p2"
+        }
+      ]
     },
     {
       "id": "presidents",
       "icon": "⚜️",
       "accent": "#7A200A",
       "label": "Presidents (1980–2026)",
-      "events": []
+      "events": [
+        {
+          "y": 1980,
+          "y2": 1997,
+          "l": "The Early Presidents — Bani-Sadr to Rafsanjani",
+          "entryId": "p3"
+        },
+        {
+          "y": 1997,
+          "y2": 2005,
+          "l": "Khatami's Reformist Era",
+          "entryId": "p4"
+        },
+        {
+          "y": 2005,
+          "y2": 2013,
+          "l": "Ahmadinejad and the Disputed 2009 Election",
+          "entryId": "p5"
+        },
+        {
+          "y": 2013,
+          "y2": 2026,
+          "l": "Rouhani, Raisi, and the Present",
+          "entryId": "p6"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": 1979,
+          "l": "The Iran Hostage Crisis",
+          "entryId": "c1"
+        },
+        {
+          "y": 1980,
+          "l": "The Iran-Iraq War",
+          "entryId": "c2"
+        },
+        {
+          "y": 2009,
+          "l": "The Green Movement",
+          "entryId": "c3"
+        },
+        {
+          "y": 2019,
+          "l": "The November 2019 Fuel Protests",
+          "entryId": "c4"
+        },
+        {
+          "y": 2022,
+          "l": "The Woman, Life, Freedom Protests",
+          "entryId": "c5"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": 1979,
+          "l": "The Constitution and Velayat-e Faqih",
+          "entryId": "o1"
+        },
+        {
+          "y": 1980,
+          "l": "The Guardian Council's Vetting Power",
+          "entryId": "o2"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": 1980,
+          "l": "The Persecution of the Baha'i",
+          "entryId": "b2"
+        },
+        {
+          "y": 2000,
+          "l": "State Shiism's Institutions",
+          "entryId": "b1"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": 2014,
+          "l": "Two Academy Awards for Iranian Cinema",
+          "entryId": "e1"
+        },
+        {
+          "y": 2022,
+          "l": "The Visual Culture of Woman, Life, Freedom",
+          "entryId": "e2"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": 2000,
+          "l": "Soroush's Reformist Religious Philosophy",
+          "entryId": "t1"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": 1985,
+          "l": "Continued Oil Revenue Dependency",
+          "entryId": "ec2"
+        },
+        {
+          "y": 2000,
+          "l": "Decades of International Sanctions",
+          "entryId": "ec1"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": 2010,
+          "l": "The Nuclear Programme and Natanz",
+          "entryId": "tc1"
+        },
+        {
+          "y": 2010,
+          "l": "The Stuxnet Cyberattack",
+          "entryId": "tc2"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": 2015,
+          "l": "The Joint Comprehensive Plan of Action",
+          "entryId": "x1"
+        },
+        {
+          "y": 2018,
+          "l": "The US Withdrawal from the Nuclear Deal",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": 2005,
+          "l": "A Regional Network of Allied Armed Groups",
+          "entryId": "w1"
+        },
+        {
+          "y": 2010,
+          "l": "The Rivalry with Saudi Arabia",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": 1991,
+          "l": "Criminalization under the Islamic Penal Code",
+          "entryId": "l2"
+        },
+        {
+          "y": 2022,
+          "l": "The Mandatory Hijab and Mahsa Amini's Death",
+          "entryId": "l1"
+        }
+      ]
     }
   ]
 }
