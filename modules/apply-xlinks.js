@@ -1257,6 +1257,38 @@ const SELECTED_PAIRS = [
   ['levant-750-1099::c2', 'eastern-arabia-750-1200::o2'],        // Qarmatian raids -> "the Qarmatian commonwealth of al-Ahsa," their home base
   ['levant-750-1099::c2', 'eastern-arabia-750-1200::o3'],        // Qarmatian raids -> "the Qarmatian toll system on Hajj and shipping"
   ['levant-750-1099::c2', 'eastern-arabia-750-1200::ec2'],       // Qarmatian raids -> "the Qarmatian estates and their thirty thousand slaves"
+  // ── crusader-states-1099-1291 (Levant program, Phase 6) — heavy overlap with the dedicated
+  // ayyubids-1171-1250 and mamluks-1250-1517 dynasty folios expected, since they narrate the same
+  // events from the Muslim side. Several pipeline "Jerusalem"/"Syria"/"Mamluk"/"Acre" matches were
+  // re-routed to the correct specific entry after checking content (e.g. ayyubids::c2 "the surrender
+  // of Jerusalem" is the 1187 event, matching my c3, not the 1229 or 1244 Jerusalem events the
+  // pipeline also proposed it against). Rejected: ayyubids::o4 (coinage), ex3 (decorative citadel
+  // facades), hejaz::k8 and mamluks::o1/ex3/lv1/lv5/x7 (Mamluk institutional/artistic/literary
+  // topics unrelated to Baibars's specific anti-Crusader campaigns), and a "Dynasty" collision
+  // 3000+ years off.
+  ['crusader-states-1099-1291::p4', 'ayyubids-1171-1250::k1'],      // Saladin's rise -> "Saladin welds Egypt and Syria into one bloc"
+  ['crusader-states-1099-1291::p4', 'ayyubids-1171-1250::k2'],      // Saladin's rise -> "Saladin — the reconquest and the last years"
+  ['crusader-states-1099-1291::p4', 'ayyubids-1171-1250::k3'],      // Saladin's rise -> the war of his heirs and al-Adil's rise
+  ['crusader-states-1099-1291::c2', 'ayyubids-1171-1250::c1'],      // the Battle of Hattin -> same battle, Ayyubid folio's own entry
+  ['crusader-states-1099-1291::c3', 'ayyubids-1171-1250::c2'],      // Jerusalem's 1187 recapture -> "the surrender of Jerusalem," same event
+  ['crusader-states-1099-1291::c4', 'ayyubids-1171-1250::c3'],      // the Third Crusade's siege of Acre -> "the siege of Acre," same event
+  ['crusader-states-1099-1291::p4', 'ayyubids-1171-1250::c5'],      // Saladin's rise -> "the wars of Saladin's house"
+  ['crusader-states-1099-1291::p6', 'ayyubids-1171-1250::c8'],      // Frederick II's 1229 recovery -> "the 1229 cession of Jerusalem," same event
+  ['crusader-states-1099-1291::c3', 'ayyubids-1171-1250::o6'],      // Jerusalem's 1187 recapture -> "the re-Islamisation of Jerusalem"
+  ['crusader-states-1099-1291::c5', 'ayyubids-1171-1250::c9'],      // the Khwarazmian sack -> same event, Ayyubid folio's own entry
+  ['crusader-states-1099-1291::tc1', 'ayyubids-1171-1250::tc1'],    // concentric castle design -> "the answer to the Crusader castle"
+  ['crusader-states-1099-1291::p4', 'ayyubids-1171-1250::w1'],      // Saladin's rise -> "Egypt and Syria under one hand"
+  ['crusader-states-1099-1291::p6', 'ayyubids-1171-1250::x2'],      // Frederick II's 1229 recovery -> "al-Kamil and Frederick II," the same treaty
+  ['crusader-states-1099-1291::p3', 'caliphate-945-1258::c6'],      // Nur al-Din unifies Muslim Syria -> "the unification of Syria under Nur al-Din"
+  ['crusader-states-1099-1291::c2', 'caliphate-945-1258::c7'],      // the Battle of Hattin -> "Hattin and the Third Crusade"
+  ['crusader-states-1099-1291::c4', 'caliphate-945-1258::c7'],      // the Third Crusade's siege of Acre -> same combined entry
+  ['crusader-states-1099-1291::p1', 'caliphate-945-1258::c4'],      // four states founded -> "the First Crusade and the fall of Jerusalem"
+  ['crusader-states-1099-1291::p4', 'fatimids-909-1171::v6'],       // Saladin's rise -> "Saladin ends the caliphate"
+  ['crusader-states-1099-1291::p8', 'mamluks-1250-1517::c4'],       // the Fall of Acre ends the Crusader states -> same event, Mamluk folio's own entry
+  ['crusader-states-1099-1291::p7', 'mamluks-1250-1517::c4'],       // Baibars and the Mamluk reconquest -> same Acre-siege culmination
+  ['crusader-states-1099-1291::x1', 'levant-634-750::x1'],          // cross-frontier knowledge transfer -> the same pattern under Umayyad rule
+  ['crusader-states-1099-1291::x1', 'levant-750-1099::x1'],         // cross-frontier knowledge transfer -> the same pattern, 750-1099 AD
+  ['crusader-states-1099-1291::p4', 'levant-750-1099::p4'],         // Saladin ends the Fatimid caliphate -> the same caliphate's 969 AD founding
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

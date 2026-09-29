@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1557,
+    "figure_matches": 1595,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 1985,
+    "figure_matches_rejected_date_implausible": 2000,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4823,
+    "keyword_matches": 4829,
     "keyword_matches_rejected_geo_only": 9262,
-    "high_confidence": 1590,
+    "high_confidence": 1628,
     "medium_confidence": 366,
-    "low_confidence": 4424
+    "low_confidence": 4430
   },
   "figure_name_matches": [
     {
@@ -267,6 +267,28 @@
         "decade": "1170s"
       },
       "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p4",
+        "cat": "power",
+        "label": "Saladin's Rise and the Ayyubid Dynasty",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k1",
+      "xlink_b": "crusader-states-1099-1291::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k1",
+        "cat": "power",
+        "label": "Saladin welds Egypt and Syria into one bloc",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
         "folio": "fatimids-909-1171",
         "id": "v6",
         "cat": "power",
@@ -289,6 +311,28 @@
         "decade": "1180s"
       },
       "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p4",
+        "cat": "power",
+        "label": "Saladin's Rise and the Ayyubid Dynasty",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k2",
+      "xlink_b": "crusader-states-1099-1291::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k2",
+        "cat": "power",
+        "label": "Saladin — the reconquest and the last years",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
         "folio": "fatimids-909-1171",
         "id": "v6",
         "cat": "power",
@@ -297,6 +341,28 @@
       },
       "xlink_a": "ayyubids-1171-1250::k2",
       "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k3",
+        "cat": "power",
+        "label": "The war of Saladin's heirs and the rise of al-Adil",
+        "dynasty": "Ayyubid",
+        "decade": "1190s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p4",
+        "cat": "power",
+        "label": "Saladin's Rise and the Ayyubid Dynasty",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k3",
+      "xlink_b": "crusader-states-1099-1291::p4"
     },
     {
       "confidence": "high",
@@ -377,6 +443,28 @@
         "decade": "1250s"
       },
       "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p3",
+        "cat": "power",
+        "label": "Nur al-Din Unifies Muslim Syria",
+        "decade": "1140s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k11",
+      "xlink_b": "crusader-states-1099-1291::p3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k11",
+        "cat": "power",
+        "label": "The end of the dynasty in Syria",
+        "dynasty": "Ayyubid",
+        "decade": "1250s"
+      },
+      "match": {
         "folio": "nw-arabia-632-1517",
         "id": "x1",
         "cat": "exchange",
@@ -433,6 +521,182 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Hattin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Hattin",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Battle of Hattin",
+        "decade": "1180s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c1",
+      "xlink_b": "crusader-states-1099-1291::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The surrender of Jerusalem",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p2",
+        "cat": "power",
+        "label": "Melisende, Queen of Jerusalem",
+        "decade": "1130s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c2",
+      "xlink_b": "crusader-states-1099-1291::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The surrender of Jerusalem",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p6",
+        "cat": "power",
+        "label": "Frederick II's Diplomatic Recovery of Jerusalem",
+        "decade": "1220s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c2",
+      "xlink_b": "crusader-states-1099-1291::p6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The surrender of Jerusalem",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Jerusalem's Recapture, without a Massacre",
+        "decade": "1180s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c2",
+      "xlink_b": "crusader-states-1099-1291::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The surrender of Jerusalem",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Khwarazmian Sack of Jerusalem",
+        "decade": "1240s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c2",
+      "xlink_b": "crusader-states-1099-1291::c5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Acre",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The siege of Acre",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p5",
+        "cat": "power",
+        "label": "The Kingdom Survives at Acre",
+        "decade": "1190s–1290s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c3",
+      "xlink_b": "crusader-states-1099-1291::p5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Acre",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The siege of Acre",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Third Crusade's Siege of Acre",
+        "decade": "1180s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c3",
+      "xlink_b": "crusader-states-1099-1291::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The wars of Saladin's house",
+        "dynasty": "Ayyubid",
+        "decade": "1190s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p4",
+        "cat": "power",
+        "label": "Saladin's Rise and the Ayyubid Dynasty",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c5",
+      "xlink_b": "crusader-states-1099-1291::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Saladin",
       "pivot": {
         "folio": "ayyubids-1171-1250",
@@ -451,6 +715,116 @@
       },
       "xlink_a": "ayyubids-1171-1250::c5",
       "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "dynasty": "Ayyubid",
+        "decade": "1220s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p2",
+        "cat": "power",
+        "label": "Melisende, Queen of Jerusalem",
+        "decade": "1130s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "crusader-states-1099-1291::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "dynasty": "Ayyubid",
+        "decade": "1220s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p6",
+        "cat": "power",
+        "label": "Frederick II's Diplomatic Recovery of Jerusalem",
+        "decade": "1220s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "crusader-states-1099-1291::p6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "dynasty": "Ayyubid",
+        "decade": "1220s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Jerusalem's Recapture, without a Massacre",
+        "decade": "1180s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "crusader-states-1099-1291::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "dynasty": "Ayyubid",
+        "decade": "1220s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Khwarazmian Sack of Jerusalem",
+        "decade": "1240s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "crusader-states-1099-1291::c5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Khwarazmian",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c9",
+        "cat": "conflict",
+        "label": "The Khwarazmian sack of Jerusalem and La Forbie",
+        "dynasty": "Ayyubid",
+        "decade": "1240s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Khwarazmian Sack of Jerusalem",
+        "decade": "1240s"
+      },
+      "xlink_a": "ayyubids-1171-1250::c9",
+      "xlink_b": "crusader-states-1099-1291::c5"
     },
     {
       "confidence": "high",
@@ -575,6 +949,28 @@
         "decade": "1180s–1250s"
       },
       "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p4",
+        "cat": "power",
+        "label": "Saladin's Rise and the Ayyubid Dynasty",
+        "decade": "1160s"
+      },
+      "xlink_a": "ayyubids-1171-1250::o4",
+      "xlink_b": "crusader-states-1099-1291::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ayyubid",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o4",
+        "cat": "order",
+        "label": "Ayyubid coinage and the last figural dirhams",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1250s"
+      },
+      "match": {
         "folio": "yemen-628-1517",
         "id": "x2",
         "cat": "exchange",
@@ -583,6 +979,94 @@
       },
       "xlink_a": "ayyubids-1171-1250::o4",
       "xlink_b": "yemen-628-1517::x2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o6",
+        "cat": "order",
+        "label": "The re-Islamisation of Jerusalem",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p2",
+        "cat": "power",
+        "label": "Melisende, Queen of Jerusalem",
+        "decade": "1130s"
+      },
+      "xlink_a": "ayyubids-1171-1250::o6",
+      "xlink_b": "crusader-states-1099-1291::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o6",
+        "cat": "order",
+        "label": "The re-Islamisation of Jerusalem",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p6",
+        "cat": "power",
+        "label": "Frederick II's Diplomatic Recovery of Jerusalem",
+        "decade": "1220s"
+      },
+      "xlink_a": "ayyubids-1171-1250::o6",
+      "xlink_b": "crusader-states-1099-1291::p6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o6",
+        "cat": "order",
+        "label": "The re-Islamisation of Jerusalem",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Jerusalem's Recapture, without a Massacre",
+        "decade": "1180s"
+      },
+      "xlink_a": "ayyubids-1171-1250::o6",
+      "xlink_b": "crusader-states-1099-1291::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Jerusalem",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "o6",
+        "cat": "order",
+        "label": "The re-Islamisation of Jerusalem",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Khwarazmian Sack of Jerusalem",
+        "decade": "1240s"
+      },
+      "xlink_a": "ayyubids-1171-1250::o6",
+      "xlink_b": "crusader-states-1099-1291::c5"
     },
     {
       "confidence": "high",
@@ -781,6 +1265,28 @@
       },
       "xlink_a": "ayyubids-1171-1250::b4",
       "xlink_b": "caliphate-945-1258::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "The citadels of Syria and the ablaq facade",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1230s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p3",
+        "cat": "power",
+        "label": "Nur al-Din Unifies Muslim Syria",
+        "decade": "1140s"
+      },
+      "xlink_a": "ayyubids-1171-1250::ex3",
+      "xlink_b": "crusader-states-1099-1291::p3"
     },
     {
       "confidence": "high",
@@ -1147,6 +1653,50 @@
         "decade": "1180s–1230s"
       },
       "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p1",
+        "cat": "power",
+        "label": "Four Crusader States Founded",
+        "decade": "1090s"
+      },
+      "xlink_a": "ayyubids-1171-1250::tc1",
+      "xlink_b": "crusader-states-1099-1291::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Crusader",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "The answer to the Crusader castle",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1230s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p8",
+        "cat": "power",
+        "label": "The Fall of Acre Ends the Crusader States",
+        "decade": "1290s"
+      },
+      "xlink_a": "ayyubids-1171-1250::tc1",
+      "xlink_b": "crusader-states-1099-1291::p8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Crusader",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "The answer to the Crusader castle",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1230s"
+      },
+      "match": {
         "folio": "fatimids-909-1171",
         "id": "c10",
         "cat": "conflict",
@@ -1309,6 +1859,28 @@
       },
       "xlink_a": "ayyubids-1171-1250::tc4",
       "xlink_b": "yemen-628-1517::tc2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "cat": "world",
+        "label": "Egypt and Syria under one hand",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p3",
+        "cat": "power",
+        "label": "Nur al-Din Unifies Muslim Syria",
+        "decade": "1140s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w1",
+      "xlink_b": "crusader-states-1099-1291::p3"
     },
     {
       "confidence": "high",
@@ -2321,6 +2893,28 @@
       },
       "xlink_a": "babylon-2004bc-1595bc::k7",
       "xlink_b": "bahrain-1971-today::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Dynasty",
+      "pivot": {
+        "folio": "babylon-2004bc-1595bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "The First Dynasty builds Babylon",
+        "dynasty": "First Dynasty of Babylon",
+        "decade": "1790s BC–1890s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p4",
+        "cat": "power",
+        "label": "Saladin's Rise and the Ayyubid Dynasty",
+        "decade": "1160s"
+      },
+      "xlink_a": "babylon-2004bc-1595bc::k7",
+      "xlink_b": "crusader-states-1099-1291::p4"
     },
     {
       "confidence": "high",
@@ -7109,6 +7703,28 @@
         "decade": "1140s–1170s"
       },
       "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p3",
+        "cat": "power",
+        "label": "Nur al-Din Unifies Muslim Syria",
+        "decade": "1140s"
+      },
+      "xlink_a": "caliphate-945-1258::c6",
+      "xlink_b": "crusader-states-1099-1291::p3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The unification of Syria under Nur al-Din",
+        "dynasty": "Zangid",
+        "decade": "1140s–1170s"
+      },
+      "match": {
         "folio": "fatimids-909-1171",
         "id": "c7",
         "cat": "conflict",
@@ -7161,6 +7777,28 @@
       },
       "xlink_a": "caliphate-945-1258::c6",
       "xlink_b": "sumer-2900bc-2334bc::xc3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Hattin",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Hattin and the Third Crusade",
+        "dynasty": "Ayyubid",
+        "decade": "1180s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Battle of Hattin",
+        "decade": "1180s"
+      },
+      "xlink_a": "caliphate-945-1258::c7",
+      "xlink_b": "crusader-states-1099-1291::c2"
     },
     {
       "confidence": "high",
@@ -12203,6 +12841,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Saladin",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "v6",
+        "cat": "power",
+        "label": "Saladin ends the caliphate",
+        "dynasty": "Ayyubid",
+        "decade": "1160s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p4",
+        "cat": "power",
+        "label": "Saladin's Rise and the Ayyubid Dynasty",
+        "decade": "1160s"
+      },
+      "xlink_a": "fatimids-909-1171::v6",
+      "xlink_b": "crusader-states-1099-1291::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Qarmatians",
       "pivot": {
         "folio": "fatimids-909-1171",
@@ -14905,6 +15565,28 @@
       },
       "xlink_a": "hejaz-632-1517::k8",
       "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Mamluk overlordship",
+        "dynasty": "Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p7",
+        "cat": "power",
+        "label": "Baibars and the Mamluk Reconquest",
+        "decade": "1260s"
+      },
+      "xlink_a": "hejaz-632-1517::k8",
+      "xlink_b": "crusader-states-1099-1291::p7"
     },
     {
       "confidence": "high",
@@ -17835,6 +18517,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Acre",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The fall of Acre",
+        "dynasty": "Qalawunid",
+        "decade": "1290s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p5",
+        "cat": "power",
+        "label": "The Kingdom Survives at Acre",
+        "decade": "1190s–1290s"
+      },
+      "xlink_a": "mamluks-1250-1517::c4",
+      "xlink_b": "crusader-states-1099-1291::p5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Acre",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The fall of Acre",
+        "dynasty": "Qalawunid",
+        "decade": "1290s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p8",
+        "cat": "power",
+        "label": "The Fall of Acre Ends the Crusader States",
+        "decade": "1290s"
+      },
+      "xlink_a": "mamluks-1250-1517::c4",
+      "xlink_b": "crusader-states-1099-1291::p8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Timur",
       "pivot": {
         "folio": "mamluks-1250-1517",
@@ -18007,6 +18733,28 @@
       },
       "xlink_a": "mamluks-1250-1517::o1",
       "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Mamluk system — a one-generation ruling caste",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p7",
+        "cat": "power",
+        "label": "Baibars and the Mamluk Reconquest",
+        "decade": "1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::o1",
+      "xlink_b": "crusader-states-1099-1291::p7"
     },
     {
       "confidence": "high",
@@ -18293,6 +19041,28 @@
       },
       "xlink_a": "mamluks-1250-1517::ex3",
       "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1350s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p7",
+        "cat": "power",
+        "label": "Baibars and the Mamluk Reconquest",
+        "decade": "1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::ex3",
+      "xlink_b": "crusader-states-1099-1291::p7"
     },
     {
       "confidence": "high",
@@ -18733,6 +19503,28 @@
       },
       "xlink_a": "mamluks-1250-1517::x7",
       "xlink_b": "ayyubids-1171-1250::x6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "European",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "x7",
+        "cat": "exchange",
+        "label": "European eyes on Egypt",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1500s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "w1",
+        "cat": "world",
+        "label": "A Sustained European Military Presence, Long Remembered",
+        "decade": "1090s–1290s"
+      },
+      "xlink_a": "mamluks-1250-1517::x7",
+      "xlink_b": "crusader-states-1099-1291::w1"
     },
     {
       "confidence": "high",
@@ -19419,6 +20211,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The making of a Mamluk",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p7",
+        "cat": "power",
+        "label": "Baibars and the Mamluk Reconquest",
+        "decade": "1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv1",
+      "xlink_b": "crusader-states-1099-1291::p7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Citadel",
       "pivot": {
         "folio": "mamluks-1250-1517",
@@ -19591,6 +20405,28 @@
       },
       "xlink_a": "mamluks-1250-1517::lv5",
       "xlink_b": "caliphate-945-1258::lv7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved in Mamluk letters",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1280s–1500s"
+      },
+      "match": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p7",
+        "cat": "power",
+        "label": "Baibars and the Mamluk Reconquest",
+        "decade": "1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv5",
+      "xlink_b": "crusader-states-1099-1291::p7"
     },
     {
       "confidence": "high",
@@ -56382,6 +57218,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Frederick II",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The 1229 cession of Jerusalem and the Muslim reaction",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "crusader-states-1099-1291",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Pilgrimage as Ideology and Practice",
+        "decade": "1090s–1290s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c8",
+      "xlink_b": "crusader-states-1099-1291::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Holy Sepulchre",
         "Jerusalem"
       ],
@@ -56512,6 +57374,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Frederick II",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Al-Kamil and Frederick II",
+        "decade": "1220s"
+      },
+      "b": {
+        "folio": "crusader-states-1099-1291",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Pilgrimage as Ideology and Practice",
+        "decade": "1090s–1290s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::x2",
+      "xlink_b": "crusader-states-1099-1291::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Hebrew Bible",
         "Jerusalem"
       ],
@@ -56533,6 +57421,32 @@
       "date_flag": "overlapping",
       "xlink_a": "babylon-1155bc-539bc::c5",
       "xlink_b": "hasmonean-332bc-63bc::e1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jerusalem",
+        "Latin Christian"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The First Crusade and the fall of Jerusalem",
+        "decade": "1090s"
+      },
+      "b": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p1",
+        "cat": "power",
+        "label": "Four Crusader States Founded",
+        "decade": "1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::c4",
+      "xlink_b": "crusader-states-1099-1291::p1"
     },
     {
       "confidence": "low",
@@ -103624,6 +104538,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Horns of Hattin",
+        "True Cross"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Hattin",
+        "decade": "1180s"
+      },
+      "b": {
+        "folio": "crusader-states-1099-1291",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Battle of Hattin",
+        "decade": "1180s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c1",
+      "xlink_b": "crusader-states-1099-1291::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Ctesiphon",
         "True Cross"
       ],
@@ -147565,6 +148505,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Antioch",
+        "Hostile Frontier"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "crusader-states-1099-1291",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Knowledge and Custom Crossing a Hostile Frontier",
+        "decade": "1090s–1290s"
+      },
+      "b": {
+        "folio": "levant-634-750",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Trade Persists across a Hostile Frontier",
+        "decade": "660s–750s"
+      },
+      "date_flag": "349yr gap — verify same entity, not just shared theme",
+      "xlink_a": "crusader-states-1099-1291::x1",
+      "xlink_b": "levant-634-750::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Antioch",
         "Rome"
       ],
       "sharedCount": 2,
@@ -147637,6 +148603,32 @@
       "date_flag": "37yr gap",
       "xlink_a": "iraq-632-945::x4",
       "xlink_b": "iraq-945-1258::t2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cairo Fustat",
+        "Sunni Abbasid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p4",
+        "cat": "power",
+        "label": "Saladin's Rise and the Ayyubid Dynasty",
+        "decade": "1160s"
+      },
+      "b": {
+        "folio": "levant-750-1099",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Fatimid Conquest and a Rival Caliphate",
+        "decade": "960s"
+      },
+      "date_flag": "200yr gap — verify same entity, not just shared theme",
+      "xlink_a": "crusader-states-1099-1291::p4",
+      "xlink_b": "levant-750-1099::p4"
     },
     {
       "confidence": "low",
