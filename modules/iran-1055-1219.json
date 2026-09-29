@@ -21,7 +21,98 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Tughril Beg's sultanate, Nizam al-Mulk's vizierate, fragmentation, and the Khwarazmian rise",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "The Seljuk Sultans",
+          "dynasty": "Seljuk",
+          "label": "Tughril Beg — Founding the Sultanate",
+          "date": "1037–1063",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.36
+          ],
+          "hint": "Tughril Beg led his Oghuz Turkic followers from Central Asia through Khorasan to Baghdad, where the Abbasid caliph invested him with the title Sultan in 1055 — the first time the caliphate formally recognised a single military ruler as supreme temporal authority over the whole Sunni Islamic world, ending the Buyid amirate in the same stroke.",
+          "tag": "SUCCESSION",
+          "note": "Ibn al-Athir, al-Kamil fi'l-Tarikh, on Tughril Beg's entry into Baghdad and investiture."
+        },
+        {
+          "id": "p2",
+          "group": "The Seljuk Sultans",
+          "dynasty": "Seljuk",
+          "label": "Alp Arslan — Manzikert",
+          "date": "1063–1072",
+          "loc": "Isfahan",
+          "coords": [
+            32.65,
+            51.68
+          ],
+          "hint": "Alp Arslan's decisive defeat and capture of the Byzantine emperor Romanos IV Diogenes at Manzikert in 1071 shattered Byzantine defensive capacity in eastern Anatolia — opening the region to Turkic migration and settlement on a scale that would permanently reshape Anatolia's demographic and political future.",
+          "tag": "SUCCESSION",
+          "note": "Michael Attaleiates, History (Byzantine eyewitness account); Ibn al-Athir, al-Kamil fi'l-Tarikh."
+        },
+        {
+          "id": "p3",
+          "group": "The Seljuk Sultans",
+          "dynasty": "Seljuk",
+          "label": "Malik-Shah I and Nizam al-Mulk",
+          "date": "1072–1092",
+          "loc": "Isfahan",
+          "coords": [
+            32.65,
+            51.68
+          ],
+          "hint": "Malik-Shah's reign, guided for three decades by his formidable Persian vizier Nizam al-Mulk, marked the Seljuk sultanate's territorial and administrative peak — a partnership so effective that its end, with vizier and sultan both dead within weeks of each other in 1092, precipitated the sultanate's rapid fragmentation.",
+          "tag": "SUCCESSION",
+          "note": "Nizam al-Mulk, Siyasatnama; Ibn al-Athir, al-Kamil fi'l-Tarikh, on the 1092 double death."
+        },
+        {
+          "id": "p4",
+          "group": "Fragmentation",
+          "dynasty": "Seljuk",
+          "label": "The Fragmentation after Malik-Shah",
+          "date": "1092–1118",
+          "loc": "Isfahan",
+          "coords": [
+            32.65,
+            51.68
+          ],
+          "hint": "Rival sons and regional atabegs (Turkic military guardians originally appointed to protect young Seljuk princes) carved the sultanate into competing power centres across Iran, Iraq and Syria — the atabegs increasingly ruling in their princely wards' names while accumulating genuinely independent authority of their own.",
+          "tag": "CIVIL WAR",
+          "note": "Ibn al-Athir, al-Kamil fi'l-Tarikh, on the succession wars following Malik-Shah's death."
+        },
+        {
+          "id": "p5",
+          "group": "The Seljuk Sultans",
+          "dynasty": "Seljuk",
+          "label": "Sanjar — the Last Great Seljuk",
+          "date": "1118–1157",
+          "loc": "Merv",
+          "coords": [
+            37.66,
+            62.19
+          ],
+          "hint": "Sanjar held the eastern Seljuk sultanate together from Merv for nearly four decades, the last ruler able to claim genuine authority over the dynasty's original Khorasan heartland, before Ghuzz Turkic tribesmen he had settled as frontier auxiliaries revolted, sacked Merv, and held him captive for several humiliating years until his death.",
+          "tag": "SUCCESSION",
+          "note": "Ibn al-Athir, al-Kamil fi'l-Tarikh, on Sanjar's reign and captivity."
+        },
+        {
+          "id": "p6",
+          "group": "The Khwarazmian Rise",
+          "dynasty": "Khwarazmian",
+          "label": "The Khwarazmian Rise",
+          "date": "1157–1219",
+          "loc": "Gurganj, Khwarazm",
+          "coords": [
+            42.32,
+            59.18
+          ],
+          "hint": "Originally Seljuk-appointed governors of Khwarazm, the Khwarazm-Shahs expanded rapidly into the power vacuum left by Sanjar's death, briefly building an empire stretching across most of Iran and Central Asia — a state whose sudden vast extent and shallow administrative roots would prove catastrophically unable to withstand the Mongol invasion beginning in 1219.",
+          "tag": "SUCCESSION",
+          "note": "al-Nasawi, Sirat al-Sultan Jalal al-Din Mankubirti, on the rise of the Khwarazmian state."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +121,78 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "Manzikert, the assassination of a great vizier, and Sanjar's captivity",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Founding of the Sultanate",
+          "tag": "BATTLE",
+          "date": "1055",
+          "label": "Tughril Beg Enters Baghdad",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.36
+          ],
+          "hint": "Tughril Beg's entry into Baghdad, ostensibly to rescue the caliph from a rebellious Turkic general, ended Buyid control of the city and installed the Seljuks as the new military power behind the Abbasid throne — a change of guard for the caliphate's protector-dynasty rather than any change in the caliph's own powerless status.",
+          "note": "Ibn al-Athir, al-Kamil fi'l-Tarikh, on the Seljuk entry into Baghdad."
+        },
+        {
+          "id": "c2",
+          "group": "Manzikert",
+          "tag": "BATTLE",
+          "date": "1071",
+          "label": "The Battle of Manzikert",
+          "loc": "Manzikert (Malazgirt), Anatolia",
+          "coords": [
+            38.98,
+            42.53
+          ],
+          "hint": "Alp Arslan's army defeated and captured the Byzantine emperor Romanos IV at Manzikert — treated with notable clemency by Alp Arslan himself — but the political chaos the defeat triggered at Constantinople did far more lasting damage to Byzantine Anatolia than the battle's own casualties, opening the region to unchecked Turkic migration for a generation afterward.",
+          "note": "Michael Attaleiates, History; Ibn al-Athir, al-Kamil fi'l-Tarikh."
+        },
+        {
+          "id": "c3",
+          "group": "The Death of Nizam al-Mulk",
+          "tag": "EVENT",
+          "date": "1092",
+          "label": "The Assassination of Nizam al-Mulk",
+          "loc": "near Nihavand",
+          "coords": [
+            34.19,
+            48.36
+          ],
+          "hint": "A member of the Nizari Ismaili movement, disguised as a Sufi petitioner, stabbed Nizam al-Mulk to death — the first prominent victim of what would become a sustained Nizari campaign of targeted political killing, and a loss from which the Seljuk administrative machine never fully recovered.",
+          "note": "Rashid al-Din Hamadani, Jami al-Tawarikh, on the assassination and its attribution to the Nizaris."
+        },
+        {
+          "id": "c4",
+          "group": "Fragmentation",
+          "tag": "CIVIL WAR",
+          "date": "1092–1105",
+          "label": "The Seljuk Succession Wars",
+          "loc": "Isfahan",
+          "coords": [
+            32.65,
+            51.68
+          ],
+          "hint": "Malik-Shah's sons and their atabeg guardians fought a prolonged, multi-sided civil war for control of the sultanate's core territories, permanently fracturing what had briefly been a unified Seljuk realm into the separate eastern (Khorasan) and western (Iraq-Iran) sultanates that would never again be reunited.",
+          "note": "Ibn al-Athir, al-Kamil fi'l-Tarikh, on the succession wars of the 1090s and 1100s."
+        },
+        {
+          "id": "c5",
+          "group": "Sanjar's Captivity",
+          "tag": "REVOLT",
+          "date": "1153",
+          "label": "The Ghuzz Revolt and Sanjar's Captivity",
+          "loc": "Merv",
+          "coords": [
+            37.66,
+            62.19
+          ],
+          "hint": "Ghuzz Turkic tribes Sanjar had settled as frontier guards in Khorasan revolted, defeated his army, and sacked Merv itself — one of the great cities of the Islamic world — before holding the aged sultan captive for roughly three years, a humiliating collapse of central authority from which the eastern Seljuk sultanate never recovered.",
+          "note": "Ibn al-Athir, al-Kamil fi'l-Tarikh, on the Ghuzz revolt and the sack of Merv."
+        }
+      ]
     },
     {
       "id": "order",
