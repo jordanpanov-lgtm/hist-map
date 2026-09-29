@@ -51,6 +51,7 @@ const MODULES = [
   // parallel folios — the Ancient bucket: Neo-Elamite Elam (south/lowland) ∥ the Median Kingdom (north/highland), both falling to Cyrus in the same window
   { id:"elam-1100bc-539bc", file:"modules/elam-1100bc-539bc.json", label:"Neo-Elamite Elam 1,100–539 BC", sub:"Revival, the Assyrian Wars, and the Destruction of Susa", region:"Iran", period:"Ancient" },
   { id:"media-728bc-550bc", file:"modules/media-728bc-550bc.json", label:"Median Kingdom 728–550 BC", sub:"Deioces to the Fall of Astyages", region:"Iran", period:"Ancient" },
+  { id:"iran-821-1055", file:"modules/iran-821-1055.json", label:"Iranian Intermezzo 821–1055", sub:"Samanids, Saffarids and the Persian Renaissance", region:"Iran", period:"Medieval" },
   { id:"achaemenid-550bc-330bc", file:"modules/achaemenid-550bc-330bc.json", label:"Achaemenid Empire 550–330 BC", sub:"Cyrus's Conquests to the Fall of Darius III", region:"Iran", period:"Ancient" },
   { id:"seleucid-iran-330bc-148bc", file:"modules/seleucid-iran-330bc-148bc.json", label:"Seleucid Iran 330–148 BC", sub:"Alexander's Successors and the Loss of the Upper Satrapies", region:"Iran", period:"Late Antique" },
   { id:"parthia-148bc-224",     file:"modules/parthia-148bc-224.json",     label:"Parthian Iran 148 BC – 224 AD", sub:"Nisa, Ecbatana and the Feudal Empire",        region:"Iran",    period:"Late Antique"  },
