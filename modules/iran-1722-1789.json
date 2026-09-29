@@ -248,20 +248,6 @@
       "subtitle": "Karim Khan's Shiraz and the looted Peacock Throne",
       "entries": [
         {
-          "id": "e1",
-          "group": "Architecture",
-          "tag": "MONUMENT",
-          "date": "1766–1779",
-          "label": "Karim Khan's Shiraz",
-          "loc": "Shiraz",
-          "coords": [
-            29.61,
-            52.54
-          ],
-          "hint": "Karim Khan rebuilt Shiraz as his capital with a citadel (the Arg), a congregational mosque, and the Vakil Bazaar — a covered market whose scale and vaulted brickwork construction made it one of the era's most substantial commercial building projects anywhere in Iran, reflecting the relative peace and modest prosperity of his reign.",
-          "note": "Arg of Karim Khan and Vakil Bazaar, Shiraz, extant structures."
-        },
-        {
           "id": "e2",
           "group": "Metalwork & Luxury Arts",
           "tag": "OBJECT",
@@ -274,6 +260,20 @@
           ],
           "hint": "Nader's seizure of the jewel-encrusted Mughal Peacock Throne, along with the Koh-i-Noor and Darya-ye Noor diamonds, transferred one of the most fabled royal treasures in the world from Delhi to Iran — the throne itself was later broken up, but the diamonds' subsequent journeys through Iranian, and eventually other, royal treasuries kept the legend of the 1739 sack alive for centuries.",
           "note": "Contemporary Mughal and Persian court accounts of the Delhi plunder's most celebrated items."
+        },
+        {
+          "id": "e1",
+          "group": "Architecture",
+          "tag": "MONUMENT",
+          "date": "1766–1779",
+          "label": "Karim Khan's Shiraz",
+          "loc": "Shiraz",
+          "coords": [
+            29.61,
+            52.54
+          ],
+          "hint": "Karim Khan rebuilt Shiraz as his capital with a citadel (the Arg), a congregational mosque, and the Vakil Bazaar — a covered market whose scale and vaulted brickwork construction made it one of the era's most substantial commercial building projects anywhere in Iran, reflecting the relative peace and modest prosperity of his reign.",
+          "note": "Arg of Karim Khan and Vakil Bazaar, Shiraz, extant structures."
         }
       ]
     },
@@ -348,20 +348,6 @@
       "subtitle": "Continuity beneath an interlude of war and reconstruction",
       "entries": [
         {
-          "id": "tc1",
-          "group": "Civil Engineering",
-          "tag": "CONSTRUCTION",
-          "date": "1766–1779",
-          "label": "The Vakil Bazaar's Vaulted Construction",
-          "loc": "Shiraz",
-          "coords": [
-            29.61,
-            52.54
-          ],
-          "hint": "The Vakil Bazaar's long vaulted brick corridors, built to a scale supporting a major revival of Shiraz's commercial life, represent a return to substantial civic construction after decades in which building activity across most of Iran had been a low priority for war-focused rulers.",
-          "note": "Vakil Bazaar, Shiraz, extant structure."
-        },
-        {
           "id": "tc2",
           "group": "Military Engineering",
           "tag": "OBJECT",
@@ -374,6 +360,20 @@
           ],
           "hint": "Nader invested significantly in modernising Persian artillery and firearms production, a direct response to the same gunpowder-technology gap that had hurt Safavid forces at Chaldiran two centuries earlier — military modernisation that contributed materially to his run of battlefield successes against both Ottoman and Mughal forces.",
           "note": "Comparative military-technological analysis of Afsharid-era Persian artillery development."
+        },
+        {
+          "id": "tc1",
+          "group": "Civil Engineering",
+          "tag": "CONSTRUCTION",
+          "date": "1766–1779",
+          "label": "The Vakil Bazaar's Vaulted Construction",
+          "loc": "Shiraz",
+          "coords": [
+            29.61,
+            52.54
+          ],
+          "hint": "The Vakil Bazaar's long vaulted brick corridors, built to a scale supporting a major revival of Shiraz's commercial life, represent a return to substantial civic construction after decades in which building activity across most of Iran had been a low priority for war-focused rulers.",
+          "note": "Vakil Bazaar, Shiraz, extant structure."
         }
       ]
     },
@@ -422,7 +422,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "A conqueror who helped hasten the Mughal Empire's own decline",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1739",
+          "label": "Nader's Campaigns Hasten Mughal Decline",
+          "loc": "Delhi",
+          "coords": [
+            28.65,
+            77.23
+          ],
+          "hint": "The Mughal Empire never recovered the prestige or central authority it lost when Nader's army sacked Delhi in 1739 — the invasion accelerated a fragmentation into effectively independent regional successor states that, decades later, the expanding British East India Company would exploit province by province.",
+          "note": "Comparative Mughal political history following the 1739 Persian invasion and sack of Delhi."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1736–1789",
+          "label": "A Brief Return to Great-Power Status, Then Relapse",
+          "loc": "Mashhad",
+          "coords": [
+            36.3,
+            59.61
+          ],
+          "hint": "For roughly a decade under Nader, Iran was arguably the most militarily formidable state between the Ottoman Empire and Mughal India — a position that evaporated almost as quickly as it had appeared, leaving a fragmented, comparatively modest Zand state that never attempted to reclaim Nader's conquests beyond Iran's own historic frontiers.",
+          "note": "Comparative regional power assessment of Afsharid Iran at its territorial peak versus the subsequent Zand period."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -431,7 +460,36 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "The human cost of Nader's wars, and Karim Khan's contrasting reputation",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Marginalised Communities",
+          "tag": "EVIDENCE",
+          "date": "1740–1747",
+          "label": "The Human Cost of Nader's Wars",
+          "loc": "Mashhad",
+          "coords": [
+            36.3,
+            59.61
+          ],
+          "hint": "Beyond the fiscal burden, Nader's later campaigns relied on increasingly coercive military conscription and forced labour drawn from a population already exhausted by decades of war — the human toll of his conquests fell overwhelmingly on ordinary villagers and townspeople who saw none of the plunder his armies brought home from Delhi.",
+          "note": "Muhammad Kazim Marvi, Alam-Ara-yi Naderi, on conscription and popular hardship under Nader's later reign."
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "tag": "EVIDENCE",
+          "date": "1751–1779",
+          "label": "Karim Khan's Reputation for Accessibility",
+          "loc": "Shiraz",
+          "coords": [
+            29.61,
+            52.54
+          ],
+          "hint": "Persian popular tradition remembers Karim Khan as personally accessible to ordinary petitioners and notably averse to the ceremonial remoteness other Iranian rulers cultivated — whether or not every anecdote is literally accurate, the consistency of this reputation across independent sources suggests a genuinely different relationship between ruler and ruled than either Nader's reign or the preceding Safavid court had offered.",
+          "note": "Comparative Zand-era popular and chronicle traditions regarding Karim Khan's personal conduct."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -440,81 +498,227 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "The Afghan Interregnum (1722–1729)",
-      "events": []
+      "events": [
+        {
+          "y": 1722,
+          "l": "Mahmud and Ashraf Hotak — the Afghan Occupation",
+          "entryId": "p1",
+          "y2": 1729
+        }
+      ]
     },
     {
       "id": "afsharid",
       "icon": "⚜️",
       "accent": "#7A200A",
       "label": "Nader Shah and the Afsharids (1729–1751)",
-      "events": []
+      "events": [
+        {
+          "y": 1729,
+          "l": "Nader Shah — the Napoleon of Persia",
+          "entryId": "p2",
+          "y2": 1747
+        }
+      ]
     },
     {
       "id": "zand",
       "icon": "⚜️",
       "accent": "#5C1806",
       "label": "The Zand Dynasty (1751–1789)",
-      "events": []
+      "events": [
+        {
+          "y": 1749,
+          "l": "Post-Nader Chaos",
+          "entryId": "p3"
+        },
+        {
+          "y": 1751,
+          "l": "Karim Khan Zand — the Vakil",
+          "entryId": "p4",
+          "y2": 1779
+        },
+        {
+          "y": 1784,
+          "l": "The Zand Succession Crisis",
+          "entryId": "p5"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": 1729,
+          "l": "The Battle of Damghan",
+          "entryId": "c1"
+        },
+        {
+          "y": 1738,
+          "l": "The Ottoman Wars",
+          "entryId": "c2"
+        },
+        {
+          "y": 1739,
+          "l": "Nader's Invasion of India and the Sack of Delhi",
+          "entryId": "c3"
+        },
+        {
+          "y": 1747,
+          "l": "The Assassination of Nader Shah",
+          "entryId": "c4"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": 1743,
+          "l": "Nader's Ruinous War Taxation",
+          "entryId": "o1"
+        },
+        {
+          "y": 1765,
+          "l": "Karim Khan's Lenient Administration",
+          "entryId": "o2"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": 1743,
+          "l": "Nader's Attempt at Sunni-Shia Reconciliation",
+          "entryId": "b1"
+        },
+        {
+          "y": 1765,
+          "l": "Shia Religious Life under the Zands",
+          "entryId": "b2"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": 1739,
+          "l": "The Peacock Throne as Plunder",
+          "entryId": "e2"
+        },
+        {
+          "y": 1772,
+          "l": "Karim Khan's Shiraz",
+          "entryId": "e1"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": 1745,
+          "l": "Marvi's Chronicle of Nader Shah",
+          "entryId": "t1"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": 1736,
+          "l": "Decades of War Impoverish the Population",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1765,
+          "l": "Modest Recovery under Karim Khan",
+          "entryId": "ec2"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": 1735,
+          "l": "Nader's Artillery Reforms",
+          "entryId": "tc2"
+        },
+        {
+          "y": 1772,
+          "l": "The Vakil Bazaar's Vaulted Construction",
+          "entryId": "tc1"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": 1735,
+          "l": "Nader's Diplomacy with Russia and the Ottomans",
+          "entryId": "x1"
+        },
+        {
+          "y": 1763,
+          "l": "Karim Khan's Trade Agreement with the East India Company",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": 1739,
+          "l": "Nader's Campaigns Hasten Mughal Decline",
+          "entryId": "w1"
+        },
+        {
+          "y": 1742,
+          "l": "A Brief Return to Great-Power Status, Then Relapse",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": 1740,
+          "l": "The Human Cost of Nader's Wars",
+          "entryId": "l1"
+        },
+        {
+          "y": 1765,
+          "l": "Karim Khan's Reputation for Accessibility",
+          "entryId": "l2"
+        }
+      ]
     }
   ]
 }
