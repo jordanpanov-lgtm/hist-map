@@ -255,20 +255,6 @@
       "subtitle": "The clergy divided — constitutionalist and royalist ulama",
       "entries": [
         {
-          "id": "b1",
-          "group": "Shia Islam",
-          "tag": "EVIDENCE",
-          "date": "1905–1911",
-          "label": "The Clergy Divided over the Constitution",
-          "loc": "Tehran",
-          "coords": [
-            35.6892,
-            51.389
-          ],
-          "hint": "Senior clerics split sharply over constitutionalism: figures like Akhund Khorasani in Najaf issued rulings supporting the constitutional movement as compatible with Islamic governance, while Sheikh Fazlollah Nouri argued a constitution subordinating religious law to a secular assembly was itself un-Islamic — a division within the ulama that ended when the constitutionalist restoration of 1909 had Nouri tried and publicly hanged.",
-          "note": "Comparative accounts of the clerical debate over constitutionalism; Abdul-Hadi Hairi, Shi'ism and Constitutionalism in Iran (1977)."
-        },
-        {
           "id": "b2",
           "group": "Shia Islam",
           "tag": "EVIDENCE",
@@ -281,6 +267,20 @@
           ],
           "hint": "Mirza Hasan Shirazi's tobacco fatwa, issued from his seminary in Samarra rather than from within Iran itself, showed that a single senior Shia jurist's religious ruling could override a shah's own economic policy nationwide — a demonstration of the ulama's independent political leverage that emboldened clerical involvement in the later Constitutional Revolution.",
           "note": "Mirza Hasan Shirazi's tobacco fatwa (1891)."
+        },
+        {
+          "id": "b1",
+          "group": "Shia Islam",
+          "tag": "EVIDENCE",
+          "date": "1905–1911",
+          "label": "The Clergy Divided over the Constitution",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Senior clerics split sharply over constitutionalism: figures like Akhund Khorasani in Najaf issued rulings supporting the constitutional movement as compatible with Islamic governance, while Sheikh Fazlollah Nouri argued a constitution subordinating religious law to a secular assembly was itself un-Islamic — a division within the ulama that ended when the constitutionalist restoration of 1909 had Nouri tried and publicly hanged.",
+          "note": "Comparative accounts of the clerical debate over constitutionalism; Abdul-Hadi Hairi, Shi'ism and Constitutionalism in Iran (1977)."
         }
       ]
     },
@@ -481,7 +481,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "A century of imperial rivalry, and the discovery that would define the next one",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1813–1921",
+          "label": "The Great Game Played Out across Iran",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "From the Russo-Persian Wars through the 1907 Anglo-Russian Convention to the failed 1919 Anglo-Persian Agreement, Iran spent most of the Qajar period as a strategic buffer and arena for British and Russian imperial rivalry rather than a fully sovereign actor in its own right — a geopolitical position that shaped nearly every major internal Iranian political development of the era.",
+          "note": "Firuz Kazemzadeh, Russia and Britain in Persia, 1864–1914 (1968)."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1908",
+          "label": "The Discovery That Would Define the Next Century",
+          "loc": "Masjed Soleyman",
+          "coords": [
+            31.95,
+            49.3
+          ],
+          "hint": "The 1908 Masjed Soleyman oil strike, made in the same turbulent year as the constitutional crisis's bombardment of the Majlis, set in motion the entire twentieth-century pattern of foreign-controlled Middle Eastern oil extraction, revenue disputes and great-power strategic interest that would shape Iranian — and regional — politics for the following hundred years.",
+          "note": "Anglo-Persian Oil Company founding records (1909); comparative twentieth-century Middle East oil-politics historiography."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -490,7 +519,36 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Women in the Constitutional Revolution, and the human cost of foreign rivalry",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Women's Agency",
+          "tag": "EVIDENCE",
+          "date": "1906–1911",
+          "label": "Women in the Constitutional Revolution",
+          "loc": "Tabriz",
+          "coords": [
+            38.08,
+            46.29
+          ],
+          "hint": "Women organised secret societies (anjomans) supporting the constitutional cause, ran fundraising and boycott campaigns, and in Tabriz some armed themselves to help defend the city during the 1908–09 civil war — documented political participation largely excluded from the formal citizenship rights the 1906 constitution itself granted only to men.",
+          "note": "Comparative accounts of women's anjomans and the defence of Tabriz during the Constitutional Revolution."
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "tag": "EVIDENCE",
+          "date": "1917–1919",
+          "label": "The Wartime Famine",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Wartime occupation, disrupted trade and requisitioned grain supplies combined with the global influenza pandemic to produce a severe famine across Iran in the final years of the First World War, with mortality estimates in the hundreds of thousands to low millions — a humanitarian catastrophe largely overshadowed in most accounts of the period by the war's political and military history.",
+          "note": "Comparative demographic and famine-history scholarship on Iran's 1917–1919 wartime famine, with the customary caution that period mortality estimates vary considerably by source."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -499,67 +557,234 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "The Qajar Shahs (1789–1925)",
-      "events": []
+      "events": [
+        {
+          "y": 1789,
+          "y2": 1797,
+          "l": "Agha Mohammad Khan — Founding through Terror",
+          "entryId": "p1"
+        },
+        {
+          "y": 1797,
+          "y2": 1848,
+          "l": "Fath-Ali Shah and Mohammad Shah — the Early Qajars and the Great Game",
+          "entryId": "p2"
+        },
+        {
+          "y": 1848,
+          "y2": 1896,
+          "l": "Naser al-Din Shah — Reform, Concession and Assassination",
+          "entryId": "p3"
+        },
+        {
+          "y": 1896,
+          "y2": 1907,
+          "l": "Mozaffar al-Din Shah and the Constitution",
+          "entryId": "p4"
+        },
+        {
+          "y": 1907,
+          "y2": 1909,
+          "l": "Mohammad Ali Shah's Coup and the Constitutionalist Restoration",
+          "entryId": "p5"
+        },
+        {
+          "y": 1909,
+          "y2": 1925,
+          "l": "Ahmad Shah — the Last Qajar",
+          "entryId": "p6"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": 1794,
+          "l": "The Massacre of Kerman",
+          "entryId": "c1"
+        },
+        {
+          "y": 1816,
+          "l": "The Russo-Persian Wars",
+          "entryId": "c2"
+        },
+        {
+          "y": 1891,
+          "l": "The Tobacco Protest",
+          "entryId": "c3"
+        },
+        {
+          "y": 1908,
+          "l": "The Bombardment of the Majlis and the Constitutionalist War",
+          "entryId": "c4"
+        },
+        {
+          "y": 1914,
+          "l": "The Occupation of Neutral Iran",
+          "entryId": "c5"
+        },
+        {
+          "y": 1921,
+          "l": "Reza Khan's Coup",
+          "entryId": "c6"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": 1849,
+          "l": "Amir Kabir's Reforms and the Dar al-Fonun",
+          "entryId": "o1"
+        },
+        {
+          "y": 1906,
+          "l": "Iran's First Constitution",
+          "entryId": "o2"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": 1891,
+          "l": "Clerical Authority Demonstrated in the Tobacco Protest",
+          "entryId": "b2"
+        },
+        {
+          "y": 1908,
+          "l": "The Clergy Divided over the Constitution",
+          "entryId": "b1"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": 1817,
+          "l": "Qajar Royal Portraiture",
+          "entryId": "e1"
+        },
+        {
+          "y": 1850,
+          "l": "The Golestan Palace",
+          "entryId": "e2"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": 1885,
+          "l": "Malkam Khan and the Constitutionalist Press",
+          "entryId": "t1"
+        },
+        {
+          "y": 1935,
+          "l": "Kasravi's History of the Constitutional Revolution",
+          "entryId": "t2"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": 1880,
+          "l": "The Reuter and Tobacco Concessions",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1904,
+          "l": "The D'Arcy Oil Concession",
+          "entryId": "ec2"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": 1867,
+          "l": "The Persian Telegraph Line",
+          "entryId": "tc1"
+        },
+        {
+          "y": 1908,
+          "l": "The First Middle Eastern Oil Well",
+          "entryId": "tc2"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": 1907,
+          "l": "The Anglo-Russian Convention",
+          "entryId": "x1"
+        },
+        {
+          "y": 1919,
+          "l": "The Anglo-Persian Agreement's Failure",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": 1850,
+          "l": "The Great Game Played Out across Iran",
+          "entryId": "w1"
+        },
+        {
+          "y": 1908,
+          "l": "The Discovery That Would Define the Next Century",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": 1908,
+          "l": "Women in the Constitutional Revolution",
+          "entryId": "l1"
+        },
+        {
+          "y": 1918,
+          "l": "The Wartime Famine",
+          "entryId": "l2"
+        }
+      ]
     }
   ]
 }
