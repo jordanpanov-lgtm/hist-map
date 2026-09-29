@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6691,
     "folio_count": 128,
-    "xlink_pairs": 1237,
+    "xlink_pairs": 1243,
     "keyword_terms": 9941,
     "folios": [
       {
@@ -7618,7 +7618,10 @@
     ],
     "egypt-1550bc-1200bc::xc1": [
       "assyria-1400bc-1050bc::xc1",
-      "babylon-1595bc-1155bc::xc2"
+      "babylon-1595bc-1155bc::xc2",
+      "canaan-2000bc-1200bc::c2",
+      "canaan-2000bc-1200bc::x1",
+      "canaan-2000bc-1200bc::l1"
     ],
     "assyria-1400bc-1050bc::xc2": [
       "babylon-1595bc-1155bc::c2"
@@ -8990,6 +8993,33 @@
     ],
     "spain-1230-1492::lv3": [
       "caliphate-945-1258::lv7"
+    ],
+    "canaan-2000bc-1200bc::p2": [
+      "egypt-1550bc-1200bc::o2"
+    ],
+    "egypt-1550bc-1200bc::o2": [
+      "canaan-2000bc-1200bc::p2"
+    ],
+    "canaan-2000bc-1200bc::c1": [
+      "egypt-1550bc-1200bc::c3"
+    ],
+    "egypt-1550bc-1200bc::c3": [
+      "canaan-2000bc-1200bc::c1"
+    ],
+    "canaan-2000bc-1200bc::c2": [
+      "egypt-1550bc-1200bc::xc1"
+    ],
+    "canaan-2000bc-1200bc::ec1": [
+      "egypt-1550bc-1200bc::xc5"
+    ],
+    "egypt-1550bc-1200bc::xc5": [
+      "canaan-2000bc-1200bc::ec1"
+    ],
+    "canaan-2000bc-1200bc::x1": [
+      "egypt-1550bc-1200bc::xc1"
+    ],
+    "canaan-2000bc-1200bc::l1": [
+      "egypt-1550bc-1200bc::xc1"
     ],
     "dedan-tayma-1200bc-300bc::k1": [
       "hejaz-prehistory-8000bc-1200bc::k5"

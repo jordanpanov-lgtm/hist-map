@@ -1128,6 +1128,17 @@ const SELECTED_PAIRS = [
   ['safavid-1501-1722::c3', 'portuguese-gulf-1507-1650::w3'],        // Shah Abbas's reconquest -> same
   ['safavid-1501-1722::o2', 'portuguese-gulf-1507-1650::w3'],        // crown land expansion -> same
   ['safavid-1501-1722::t2', 'portuguese-gulf-1507-1650::w3'],        // Iskandar Beg Munshi's chronicle -> same
+  // ── canaan-2000bc-1200bc (Levant program) — found by direct content verification, not the
+  // automated candidate pipeline (build-xlink-candidates.js surfaced nothing for this folio
+  // pair; keyword overlap was too weak despite the events being identical). Confirmed by reading
+  // both folios' entries side by side before adding, per the same review standard as the
+  // pipeline-sourced pairs above.
+  ['canaan-2000bc-1200bc::c1', 'egypt-1550bc-1200bc::c3'],           // the Battle of Megiddo -> the same battle, Egypt's own account
+  ['canaan-2000bc-1200bc::p2', 'egypt-1550bc-1200bc::o2'],           // Late Bronze Canaan under Egyptian rule -> ruling Canaan by vassalage
+  ['canaan-2000bc-1200bc::c2', 'egypt-1550bc-1200bc::xc1'],          // vassal rivalries in the Amarna Letters -> the Amarna letters and the great kings
+  ['canaan-2000bc-1200bc::x1', 'egypt-1550bc-1200bc::xc1'],          // cuneiform diplomacy -> same archive
+  ['canaan-2000bc-1200bc::l1', 'egypt-1550bc-1200bc::xc1'],          // the Habiru -> same archive (which itself names "the roving Habiru")
+  ['canaan-2000bc-1200bc::ec1', 'egypt-1550bc-1200bc::xc5'],         // the Uluburun shipwreck's cargo -> the same shipwreck, Egypt's own entry
   // ── iran-1722-1789 (Iran/Persia program, Step 4 continued) ──
   // rejected: two bare "Ottoman(s)" empire-name mismatches, and an "East India Company" match to
   // an unrelated 1839 event (Aden) nearly a century after Karim Khan's 1763 agreement.
