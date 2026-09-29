@@ -46,6 +46,7 @@ const MODULES = [
   { id:"canaan-2000bc-1200bc", file:"modules/canaan-2000bc-1200bc.json", label:"Bronze Age Canaan 2,000–1,200 BC", sub:"City-States, Egyptian Vassalage, and Ugarit", region:"Levant", period:"Prehistoric" },
   // parallel folios — the Iron Age Levant, FOUR threads not two: Phoenicia / Israel-Judah / Aram-Damascus / Philistia
   { id:"phoenicia-1200bc-539bc", file:"modules/phoenicia-1200bc-539bc.json", label:"Phoenicia 1,200–539 BC", sub:"Tyre, Sidon, and the Alphabet's Voyage", region:"Levant", period:"Ancient" },
+  { id:"israel-judah-1200bc-586bc", file:"modules/israel-judah-1200bc-586bc.json", label:"Israel and Judah 1,200–586 BC", sub:"From Merneptah's Stele to the Babylonian Exile", region:"Levant", period:"Ancient" },
   { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
   { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
   { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
