@@ -117,6 +117,20 @@
       "subtitle": "Evidence of violence and disruption across four prehistoric millennia",
       "entries": [
         {
+          "id": "c3",
+          "group": "Evidence of Violence",
+          "tag": "EVIDENCE",
+          "date": "7th–4th millennium BC",
+          "label": "Skeletal Trauma at Zagros Sites",
+          "loc": "Ganj Dareh, Kermanshah",
+          "coords": [
+            34.35,
+            47.15
+          ],
+          "hint": "Osteological analysis of burials from several Zagros Neolithic sites has identified a small but consistent proportion of healed and unhealed skeletal trauma consistent with interpersonal violence — evidence that even small, largely egalitarian farming communities were not free of conflict, though its scale and cause cannot be reconstructed in detail.",
+          "note": "Comparative bioarchaeological trauma studies of Zagros Neolithic skeletal populations."
+        },
+        {
           "id": "c1",
           "group": "Settlement Disruption",
           "tag": "EVIDENCE",
@@ -143,20 +157,6 @@
           ],
           "hint": "The intensive Uruk-style material culture at Susa declined sharply toward the end of this period, coinciding with the wider collapse of the Uruk expansion's network across the region — whether through local resistance, economic disruption or a negotiated withdrawal remains debated among specialists.",
           "note": "Guillermo Algaze, The Uruk World System (1993), on the Uruk network's collapse."
-        },
-        {
-          "id": "c3",
-          "group": "Evidence of Violence",
-          "tag": "EVIDENCE",
-          "date": "7th–4th millennium BC",
-          "label": "Skeletal Trauma at Zagros Sites",
-          "loc": "Ganj Dareh, Kermanshah",
-          "coords": [
-            34.35,
-            47.15
-          ],
-          "hint": "Osteological analysis of burials from several Zagros Neolithic sites has identified a small but consistent proportion of healed and unhealed skeletal trauma consistent with interpersonal violence — evidence that even small, largely egalitarian farming communities were not free of conflict, though its scale and cause cannot be reconstructed in detail.",
-          "note": "Comparative bioarchaeological trauma studies of Zagros Neolithic skeletal populations."
         }
       ]
     },
@@ -503,7 +503,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "Climate, settlement growth, and the Uruk expansion's edge",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Climate & Environment",
+          "tag": "EVENT",
+          "date": "c.9500 BC",
+          "label": "Holocene Warming and the Farming Transition",
+          "loc": "Ganj Dareh, Kermanshah",
+          "coords": [
+            34.35,
+            47.15
+          ],
+          "hint": "The warmer, wetter climate of the early Holocene, following the end of the last glacial period, created the ecological conditions across the Zagros and its foothills that made systematic plant cultivation and animal herding a viable, and eventually dominant, way of life for the first time.",
+          "note": "Paleoclimate proxy evidence for the Younger Dryas-to-Holocene transition in the Zagros region."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "c.3800–3400 BC",
+          "label": "The Uruk Expansion's Eastern Edge",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Susa marked the easternmost significant node of the Uruk expansion's network of trade colonies and cultural influence radiating from southern Mesopotamia — placing Khuzestan, and Susa specifically, within a genuinely interregional system centuries before any textual record could describe the relationship in its own words.",
+          "note": "Guillermo Algaze, The Uruk World System (1993)."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -512,7 +541,36 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Diet, health and the archaeology of daily life",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Health and Diet in the Farming Transition",
+          "tag": "EVIDENCE",
+          "date": "c.7500–6000 BC",
+          "label": "Skeletal Evidence of Dietary Change",
+          "loc": "Deh Luran plain, Khuzestan",
+          "coords": [
+            32.7,
+            47.3
+          ],
+          "hint": "Dental wear and pathology patterns in skeletal remains from early farming villages show measurable changes from earlier hunter-gatherer populations — increased caries and altered wear consistent with a diet now centred on cultivated grain — physical, bodily evidence of a transition usually described only in economic terms.",
+          "note": "Comparative bioarchaeological dental studies of Zagros and Khuzestan Neolithic populations."
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "tag": "CATEGORICAL SHIFT",
+          "date": "c.4200–3900 BC",
+          "label": "Emerging Social Differentiation at Susa",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Grave goods in the Susa I cemetery vary noticeably in quantity and quality between burials, evidence that meaningful social and economic differentiation between individuals or families had emerged alongside the settlement's rapid growth — the archaeological signature of inequality appearing as a new social category, not yet expressed in any surviving text.",
+          "note": "Roman Ghirshman, Susa excavations, on grave-good variability in the Susa I necropolis."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -521,67 +579,238 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "Culture Horizons (8,000–3,200 BC)",
-      "events": []
+      "events": [
+        {
+          "y": -8000,
+          "l": "Ganj Dareh and the First Herders",
+          "entryId": "p1"
+        },
+        {
+          "y": -7500,
+          "l": "Ali Kosh and Chogha Bonut — the First Farming Villages of Khuzestan",
+          "entryId": "p2"
+        },
+        {
+          "y": -6800,
+          "l": "Chogha Mish — the Rise of a Proto-Urban Centre",
+          "entryId": "p3"
+        },
+        {
+          "y": -4200,
+          "l": "The Founding of Susa",
+          "entryId": "p4"
+        },
+        {
+          "y": -3800,
+          "l": "Susa II and Contact with Uruk",
+          "entryId": "p5"
+        },
+        {
+          "y": -3200,
+          "l": "The Proto-Elamite Script",
+          "entryId": "p6"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": -6500,
+          "l": "Skeletal Trauma at Zagros Sites",
+          "entryId": "c3"
+        },
+        {
+          "y": -6000,
+          "l": "Abandonment at Ali Kosh",
+          "entryId": "c1"
+        },
+        {
+          "y": -3400,
+          "l": "The End of the Uruk Presence at Susa",
+          "entryId": "c2"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": -4200,
+          "l": "Centralised Storage at Susa's Platform",
+          "entryId": "o1"
+        },
+        {
+          "y": -4000,
+          "l": "Stamp Seals and the Control of Sealed Goods",
+          "entryId": "o2"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": -8000,
+          "l": "Plastered Figurines at Ganj Dareh",
+          "entryId": "b1"
+        },
+        {
+          "y": -6000,
+          "l": "Zagros Neolithic Burial Practice",
+          "entryId": "b2"
+        },
+        {
+          "y": -4200,
+          "l": "The Susa I Cemetery",
+          "entryId": "b3"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": -5500,
+          "l": "The Susiana Painted Pottery Tradition",
+          "entryId": "e1"
+        },
+        {
+          "y": -4200,
+          "l": "The Susa I Painted Beakers",
+          "entryId": "e2"
+        },
+        {
+          "y": -4200,
+          "l": "Susa's Monumental Terrace",
+          "entryId": "e3"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": -8000,
+          "l": "Clay Tokens and the Origins of Counting",
+          "entryId": "t1"
+        },
+        {
+          "y": -3800,
+          "l": "Cylinder Seals Introduced at Susa",
+          "entryId": "t2"
+        },
+        {
+          "y": -3200,
+          "l": "The Proto-Elamite Numerical System",
+          "entryId": "t3"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": -8000,
+          "l": "Goat and Sheep Domestication",
+          "entryId": "ec1"
+        },
+        {
+          "y": -7500,
+          "l": "Emmer Wheat and Barley in Khuzestan",
+          "entryId": "ec2"
+        },
+        {
+          "y": -4200,
+          "l": "Agricultural Surplus and Susa's Growth",
+          "entryId": "ec3"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": -6000,
+          "l": "The Spread of Fired Pottery",
+          "entryId": "tc1"
+        },
+        {
+          "y": -4500,
+          "l": "Early Irrigation in Khuzestan",
+          "entryId": "tc2"
+        },
+        {
+          "y": -3800,
+          "l": "The Slow Wheel and Mass-Produced Bowls",
+          "entryId": "tc3"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": -8000,
+          "l": "Anatolian Obsidian and Gulf Shell",
+          "entryId": "x1"
+        },
+        {
+          "y": -3800,
+          "l": "Uruk Settlers or Traders at Susa",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": -9500,
+          "l": "Holocene Warming and the Farming Transition",
+          "entryId": "w1"
+        },
+        {
+          "y": -3800,
+          "l": "The Uruk Expansion's Eastern Edge",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": -7000,
+          "l": "Skeletal Evidence of Dietary Change",
+          "entryId": "l1"
+        },
+        {
+          "y": -4200,
+          "l": "Emerging Social Differentiation at Susa",
+          "entryId": "l2"
+        }
+      ]
     }
   ]
 }
