@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6321,
     "folio_count": 114,
-    "xlink_pairs": 1160,
+    "xlink_pairs": 1163,
     "keyword_terms": 9273,
     "folios": [
       {
@@ -7818,7 +7818,11 @@
       "sumer-2900bc-2334bc::xc1"
     ],
     "babylon-2004bc-1595bc::xc5": [
+      "elam-3200bc-1500bc::p4",
       "mesopotamia-2334bc-2004bc::xc5"
+    ],
+    "elam-3200bc-1500bc::p4": [
+      "babylon-2004bc-1595bc::xc5"
     ],
     "mesopotamia-2334bc-2004bc::xc5": [
       "babylon-2004bc-1595bc::xc5",
@@ -10219,6 +10223,20 @@
     "mesopotamia-539bc-331bc::o5": [
       "egypt-664bc-332bc::l4"
     ],
+    "elam-3200bc-1500bc::c1": [
+      "mesopotamia-2334bc-2004bc::k3"
+    ],
+    "mesopotamia-2334bc-2004bc::k3": [
+      "elam-3200bc-1500bc::c1",
+      "magan-3000bc-1200bc::k3"
+    ],
+    "elam-3200bc-1500bc::ec1": [
+      "magan-3000bc-1200bc::tc4"
+    ],
+    "magan-3000bc-1200bc::tc4": [
+      "elam-3200bc-1500bc::ec1",
+      "magan-1200bc-300bc::tc1"
+    ],
     "fatimids-909-1171::lv1": [
       "spain-718-1230::lv1"
     ],
@@ -11439,14 +11457,8 @@
     "magan-1200bc-300bc::tc1": [
       "magan-3000bc-1200bc::tc4"
     ],
-    "magan-3000bc-1200bc::tc4": [
-      "magan-1200bc-300bc::tc1"
-    ],
     "magan-3000bc-1200bc::k3": [
       "mesopotamia-2334bc-2004bc::k3"
-    ],
-    "mesopotamia-2334bc-2004bc::k3": [
-      "magan-3000bc-1200bc::k3"
     ],
     "magan-3000bc-1200bc::c1": [
       "mesopotamia-2334bc-2004bc::xc3"

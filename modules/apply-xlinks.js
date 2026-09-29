@@ -1028,6 +1028,12 @@ const SELECTED_PAIRS = [
   ['zagros-elam-8000bc-3200bc::x2', 'uruk-3800bc-2900bc::p4'],       // Uruk settlers or traders at Susa -> the Uruk expansion
   ['zagros-elam-8000bc-3200bc::w2', 'uruk-3800bc-2900bc::p1'],       // the Uruk expansion's eastern edge -> the making of Uruk
   ['zagros-elam-8000bc-3200bc::w2', 'uruk-3800bc-2900bc::p4'],       // the Uruk expansion's eastern edge -> the Uruk expansion
+  // ── elam-3200bc-1500bc (Iran/Persia program, Step 3 continued) ──
+  // rejected: a bare "Zagros" geography coincidence with the much later Kassites, and a
+  // generic "Bronze Age" era-name match with no real content overlap.
+  ['elam-3200bc-1500bc::p4', 'babylon-2004bc-1595bc::xc5'],          // the Sukkalmah -> Elam of the Sukkalmah, Babylon's own view
+  ['elam-3200bc-1500bc::c1', 'mesopotamia-2334bc-2004bc::k3'],       // the Naram-Sin treaty -> Naram-Sin, god of Akkad
+  ['elam-3200bc-1500bc::ec1', 'magan-3000bc-1200bc::tc4'],           // tin and lapis lazuli through Elam -> tin bronze (the complementary copper leg via Magan)
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
