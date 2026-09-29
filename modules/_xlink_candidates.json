@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1480,
+    "figure_matches": 1481,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 1870,
+    "figure_matches_rejected_date_implausible": 1884,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4807,
+    "keyword_matches": 4813,
     "keyword_matches_rejected_geo_only": 9260,
-    "high_confidence": 1513,
+    "high_confidence": 1514,
     "medium_confidence": 365,
-    "low_confidence": 4409
+    "low_confidence": 4415
   },
   "figure_name_matches": [
     {
@@ -10373,6 +10373,28 @@
       },
       "xlink_a": "egypt-300-641::k8",
       "xlink_b": "rome-300-400::t2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Vespasian",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k5",
+        "cat": "power",
+        "label": "Vespasian proclaimed at Alexandria",
+        "dynasty": "Flavian",
+        "decade": "60s"
+      },
+      "match": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "p8",
+        "cat": "power",
+        "label": "Vespasian and Titus's Reconquest",
+        "decade": "60s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k5",
+      "xlink_b": "herod-judea-63bc-135ce::p8"
     },
     {
       "confidence": "high",
@@ -54916,6 +54938,162 @@
       "date_flag": "652yr gap — verify same entity, not just shared theme",
       "xlink_a": "fatimids-909-1171::x4",
       "xlink_b": "rome-300-400::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hyrcanus II",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "p8",
+        "cat": "power",
+        "label": "Salome Alexandra, Sole Queen",
+        "decade": "60s BC"
+      },
+      "b": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "p1",
+        "cat": "power",
+        "label": "Pompey's Settlement",
+        "decade": "60s BC"
+      },
+      "date_flag": "4yr gap",
+      "xlink_a": "hasmonean-332bc-63bc::p8",
+      "xlink_b": "herod-judea-63bc-135ce::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hyrcanus II",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "p8",
+        "cat": "power",
+        "label": "Salome Alexandra, Sole Queen",
+        "decade": "60s BC"
+      },
+      "b": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "p2",
+        "cat": "power",
+        "label": "Antipater's Rise",
+        "decade": "40s BC"
+      },
+      "date_flag": "27yr gap",
+      "xlink_a": "hasmonean-332bc-63bc::p8",
+      "xlink_b": "herod-judea-63bc-135ce::p2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hyrcanus II",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "p9",
+        "cat": "power",
+        "label": "Civil War and Pompey's Intervention",
+        "decade": "60s BC"
+      },
+      "b": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "p1",
+        "cat": "power",
+        "label": "Pompey's Settlement",
+        "decade": "60s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hasmonean-332bc-63bc::p9",
+      "xlink_b": "herod-judea-63bc-135ce::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hyrcanus II",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "p9",
+        "cat": "power",
+        "label": "Civil War and Pompey's Intervention",
+        "decade": "60s BC"
+      },
+      "b": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "p2",
+        "cat": "power",
+        "label": "Antipater's Rise",
+        "decade": "40s BC"
+      },
+      "date_flag": "23yr gap",
+      "xlink_a": "hasmonean-332bc-63bc::p9",
+      "xlink_b": "herod-judea-63bc-135ce::p2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hyrcanus II",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Pompey's Siege of the Temple Mount",
+        "decade": "60s BC"
+      },
+      "b": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "p1",
+        "cat": "power",
+        "label": "Pompey's Settlement",
+        "decade": "60s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hasmonean-332bc-63bc::c5",
+      "xlink_b": "herod-judea-63bc-135ce::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hyrcanus II",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Pompey's Siege of the Temple Mount",
+        "decade": "60s BC"
+      },
+      "b": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "p2",
+        "cat": "power",
+        "label": "Antipater's Rise",
+        "decade": "40s BC"
+      },
+      "date_flag": "23yr gap",
+      "xlink_a": "hasmonean-332bc-63bc::c5",
+      "xlink_b": "herod-judea-63bc-135ce::p2"
     },
     {
       "confidence": "low",

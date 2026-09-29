@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6876,
     "folio_count": 135,
-    "xlink_pairs": 1279,
+    "xlink_pairs": 1283,
     "keyword_terms": 10317,
     "folios": [
       {
@@ -10806,6 +10806,12 @@
     "egypt-332bc-30bc::c9": [
       "egypt-30bc-300ad::k1"
     ],
+    "egypt-30bc-300ad::k5": [
+      "herod-judea-63bc-135ce::p8"
+    ],
+    "herod-judea-63bc-135ce::p8": [
+      "egypt-30bc-300ad::k5"
+    ],
     "egypt-30bc-300ad::k6": [
       "mesopotamia-141bc-224::c4",
       "parthia-148bc-224::c4"
@@ -11231,6 +11237,20 @@
     ],
     "nabataean-312bc-106ce::c1": [
       "hasmonean-332bc-63bc::p7"
+    ],
+    "hasmonean-332bc-63bc::p9": [
+      "herod-judea-63bc-135ce::p1",
+      "herod-judea-63bc-135ce::p2"
+    ],
+    "herod-judea-63bc-135ce::p1": [
+      "hasmonean-332bc-63bc::p9",
+      "hasmonean-332bc-63bc::c5"
+    ],
+    "herod-judea-63bc-135ce::p2": [
+      "hasmonean-332bc-63bc::p9"
+    ],
+    "hasmonean-332bc-63bc::c5": [
+      "herod-judea-63bc-135ce::p1"
     ],
     "hejaz-1517-1900::k1": [
       "hejaz-632-1517::w4"

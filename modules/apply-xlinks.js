@@ -1205,6 +1205,11 @@ const SELECTED_PAIRS = [
   ['levant-539bc-332bc::p6', 'mesopotamia-539bc-331bc::k6'],  // Alexander's arrival -> "Alexander enters Babylon," 331 BC
   // ── hasmonean-332bc-63bc (Levant program, Phase 3 complete) ──
   ['hasmonean-332bc-63bc::p7', 'nabataean-312bc-106ce::c1'],  // Alexander Jannaeus's reign -> "Obodas I defeats Alexander Jannaeus" at Gadara
+  // ── herod-judea-63bc-135ce (Levant program, Phase 4) ──
+  ['herod-judea-63bc-135ce::p1', 'hasmonean-332bc-63bc::c5'],  // Pompey's Settlement -> Pompey's siege of the Temple Mount, the event it follows
+  ['herod-judea-63bc-135ce::p1', 'hasmonean-332bc-63bc::p9'],  // Pompey's Settlement -> the civil war and appeal to Pompey that caused it
+  ['herod-judea-63bc-135ce::p2', 'hasmonean-332bc-63bc::p9'],  // Antipater's rise -> same civil war, Antipater's patron Hyrcanus II's side of it
+  ['herod-judea-63bc-135ce::p8', 'egypt-30bc-300ad::k5'],      // Vespasian and Titus's reconquest -> "Vespasian proclaimed at Alexandria," same 69 AD departure
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
