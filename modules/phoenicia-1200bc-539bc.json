@@ -21,7 +21,51 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Sidon's early dominance, Hiram's Tyre, and Assyrian and Babylonian overlordship",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Sidon's Early Dominance",
+          "tag": "EVIDENCE",
+          "label": "Sidon's Early Dominance",
+          "date": "1200–1000 BC",
+          "loc": "Sidon",
+          "coords": [
+            33.56,
+            35.37
+          ],
+          "hint": "Sidon emerged as the leading Phoenician city in the centuries immediately after the Bronze Age Collapse, prosperous enough that Homer's epics use 'Sidonian' as a generic term for fine Phoenician craftsmanship generally — a dominance Tyre would only gradually eclipse over the following two centuries.",
+          "note": "Homer, Iliad and Odyssey, using 'Sidonian' generically for Phoenician luxury goods."
+        },
+        {
+          "id": "p2",
+          "group": "Tyre's Golden Age",
+          "dynasty": "Tyrian",
+          "label": "Hiram I and Tyre's Golden Age",
+          "date": "969–936 BC",
+          "loc": "Tyre",
+          "coords": [
+            33.27,
+            35.2
+          ],
+          "hint": "Hiram I expanded Tyre's harbours and territory, formed a documented alliance and trade partnership with Israel's kings David and Solomon supplying cedar timber and craftsmen for the Jerusalem Temple's construction, and established Tyre as the dominant Phoenician power for the following centuries.",
+          "tag": "SUCCESSION",
+          "note": "1 Kings 5:1–12 and 9:10–14, on Hiram's alliance with Solomon; Josephus, Against Apion 1.17–18, citing Tyrian royal annals."
+        },
+        {
+          "id": "p3",
+          "group": "Imperial Overlordship",
+          "tag": "EVIDENCE",
+          "label": "Assyrian and Babylonian Overlordship",
+          "date": "8th–6th c. BC",
+          "loc": "Tyre",
+          "coords": [
+            33.27,
+            35.2
+          ],
+          "hint": "Successive Assyrian and then Neo-Babylonian empires reduced the Phoenician cities to tribute-paying vassals, tolerating local kingship and considerable commercial autonomy so long as tribute was paid — Tyre's island location let it survive as a going concern through repeated sieges that mainland Sidon could not withstand in the same way.",
+          "note": "Assyrian royal annals (Shalmaneser III, Tiglath-Pileser III, Sennacherib, Esarhaddon) on Phoenician tribute and vassalage."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +74,50 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "Assyrian tribute, the destruction of Sidon, and Nebuchadnezzar's thirteen-year siege",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Assyrian Tribute",
+          "tag": "EVIDENCE",
+          "date": "c.858–824 BC",
+          "label": "Shalmaneser III Imposes Tribute",
+          "loc": "Tyre",
+          "coords": [
+            33.27,
+            35.2
+          ],
+          "hint": "The bronze relief bands from the gates of Balawat depict Tyrian and Sidonian tribute-bearers presenting goods to the Assyrian king Shalmaneser III — visual and textual confirmation that Phoenician cities were paying regular tribute to Assyria from at least the mid-9th century BC, decades before the more famous later Assyrian campaigns against the coast.",
+          "note": "Balawat Gates bronze bands, British Museum, depicting Shalmaneser III's Phoenician tribute."
+        },
+        {
+          "id": "c2",
+          "group": "The Destruction of Sidon",
+          "tag": "BATTLE",
+          "date": "677 BC",
+          "label": "Esarhaddon Destroys Sidon",
+          "loc": "Sidon",
+          "coords": [
+            33.56,
+            35.37
+          ],
+          "hint": "After Sidon's king Abdi-Milkutti rebelled and sought Egyptian support, the Assyrian king Esarhaddon besieged and razed the city, beheaded the king, deported much of the population, and built a new Assyrian administrative city on the site — a fate Tyre, protected by its island position, would avoid for another century.",
+          "note": "Esarhaddon's annals (the Sidon inscription), on the destruction of Sidon."
+        },
+        {
+          "id": "c3",
+          "group": "The Siege of Tyre",
+          "tag": "BATTLE",
+          "date": "585–572 BC",
+          "label": "Nebuchadnezzar II's Thirteen-Year Siege of Tyre",
+          "loc": "Tyre",
+          "coords": [
+            33.27,
+            35.2
+          ],
+          "hint": "The Babylonian king Nebuchadnezzar II besieged island Tyre for thirteen years without ever fully conquering it by force, eventually reaching a negotiated settlement that left Tyre's monarchy intact but firmly subordinate — a siege whose sheer length testifies to how effectively Tyre's island fortifications and naval resources could resist even a major imperial army.",
+          "note": "Ezekiel 29:18, referencing the siege's inconclusive outcome; Josephus, Against Apion 1.21, citing Tyrian records on the siege's length and settlement."
+        }
+      ]
     },
     {
       "id": "order",
