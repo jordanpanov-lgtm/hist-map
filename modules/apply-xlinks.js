@@ -969,6 +969,23 @@ const SELECTED_PAIRS = [
   ['trucial-gulf-1820-1900::t1', 'trucial-gulf-1900-1971::t1'],   // the Persian Gulf charted → Lorimer's Gazetteer
   ['trucial-gulf-1820-1900::t3', 'trucial-gulf-1900-1971::t1'],   // tribal genealogy and the oral chronicle → Lorimer's Gazetteer
   ['trucial-gulf-1820-1900::w1', 'trucial-gulf-1900-1971::w2'],   // keeping the rivals out → Persian oil and the Royal Navy's fuel
+  // ── achaemenid-550bc-330bc (the Iran/Persia program, first folio) ──
+  // reviewed out of build-xlink-candidates.js's figure_name_matches and keyword_matches;
+  // rejected: two "Babylon"/"Achaemenid" matches that were place-name/dynasty-name
+  // coincidences with no real date/content overlap, and a Xerxes I vs Xerxes II conflation
+  // (two different kings sharing a similar regnal name — exactly CLAUDE.md's warning case).
+  ['achaemenid-550bc-330bc::p1', 'mesopotamia-539bc-331bc::k1'],   // Cyrus II -> Cyrus and Cambyses, conquest and continuity
+  ['achaemenid-550bc-330bc::c1', 'mesopotamia-539bc-331bc::k1'],   // Cyrus's Conquests -> Cyrus and Cambyses
+  ['achaemenid-550bc-330bc::o5', 'mesopotamia-539bc-331bc::k1'],   // Cyrus's Edict for Jerusalem -> Cyrus and Cambyses
+  ['achaemenid-550bc-330bc::b5', 'mesopotamia-539bc-331bc::k1'],   // the Cyrus Cylinder -> Cyrus and Cambyses
+  ['achaemenid-550bc-330bc::e2', 'mesopotamia-539bc-331bc::k1'],   // the Tomb of Cyrus -> Cyrus and Cambyses
+  ['achaemenid-550bc-330bc::p4', 'mesopotamia-539bc-331bc::k2'],   // Darius I -> Darius I and the pretenders on the cliff
+  ['achaemenid-550bc-330bc::p5', 'mesopotamia-539bc-331bc::k3'],   // Xerxes I -> Xerxes and the end of 'King of Babylon'
+  ['achaemenid-550bc-330bc::p11', 'mesopotamia-539bc-331bc::k5'],  // Artaxerxes III -> Artaxerxes III, Darius III and the fall
+  ['achaemenid-550bc-330bc::p13', 'mesopotamia-539bc-331bc::k5'],  // Darius III -> Artaxerxes III, Darius III and the fall
+  ['achaemenid-550bc-330bc::c8', 'mesopotamia-539bc-331bc::k6'],   // Alexander's Conquest -> Alexander enters Babylon
+  ['achaemenid-550bc-330bc::c7', 'mesopotamia-539bc-331bc::c3'],   // Cunaxa and the March of the Ten Thousand -> Babylonia in the empire's wars
+  ['achaemenid-550bc-330bc::o6', 'egypt-664bc-332bc::o3'],         // Darius and the codification of Egyptian law -> the law of Egypt codified
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
