@@ -190,20 +190,6 @@
       "subtitle": "Exported ivories and the prestige of Tyrian purple",
       "entries": [
         {
-          "id": "e1",
-          "group": "Metalwork & Luxury Arts",
-          "tag": "OBJECT",
-          "date": "9th–7th c. BC",
-          "label": "Phoenician Ivory Carving",
-          "loc": "Found: Nimrud · Now: British Museum",
-          "coords": [
-            51.52,
-            -0.13
-          ],
-          "hint": "Carved ivory furniture inlays and decorative plaques produced by Phoenician workshops were exported and treasured as luxury goods as far as the Assyrian palaces at Nimrud, where excavators recovered enormous quantities of them, and later into Greek and Etruscan elite contexts — a Phoenician decorative style distinguishable from contemporary Egyptian and Syrian ivory carving by its own hybrid Egyptianising motifs.",
-          "note": "Nimrud ivories, British Museum; Max Mallowan excavations, Nimrud (1949–63 seasons)."
-        },
-        {
           "id": "e2",
           "group": "Metalwork & Luxury Arts",
           "tag": "OBJECT",
@@ -216,6 +202,20 @@
           ],
           "hint": "Dye extracted in minute, labour-intensive quantities from the glands of murex sea snails produced a colourfast purple so costly that it became associated exclusively with royalty and high status across the ancient Mediterranean world — the very word 'Phoenician' likely derives from a Greek term connected to this purple, making the dye industry central to the culture's own name in other languages.",
           "note": "Comparative ancient Mediterranean textual and archaeological evidence for Tyrian purple production and cost."
+        },
+        {
+          "id": "e1",
+          "group": "Metalwork & Luxury Arts",
+          "tag": "OBJECT",
+          "date": "9th–7th c. BC",
+          "label": "Phoenician Ivory Carving",
+          "loc": "Found: Nimrud · Now: British Museum",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "hint": "Carved ivory furniture inlays and decorative plaques produced by Phoenician workshops were exported and treasured as luxury goods as far as the Assyrian palaces at Nimrud, where excavators recovered enormous quantities of them, and later into Greek and Etruscan elite contexts — a Phoenician decorative style distinguishable from contemporary Egyptian and Syrian ivory carving by its own hybrid Egyptianising motifs.",
+          "note": "Nimrud ivories, British Museum; Max Mallowan excavations, Nimrud (1949–63 seasons)."
         }
       ]
     },
@@ -252,20 +252,6 @@
       "subtitle": "Purple dye and the cedar timber trade",
       "entries": [
         {
-          "id": "ec1",
-          "group": "Industry & Production",
-          "tag": "ECONOMIC",
-          "date": "1200–539 BC",
-          "label": "The Murex Purple Dye Industry",
-          "loc": "Tyre",
-          "coords": [
-            33.27,
-            35.2
-          ],
-          "hint": "Producing Tyrian purple required crushing tens of thousands of murex sea snails to yield even small quantities of dye, an industry whose enormous discarded shell middens still mark the ancient dye works along the Phoenician coast — one of the most labour-intensive luxury manufacturing processes documented anywhere in the ancient world.",
-          "note": "Murex shell midden archaeological surveys, Tyre and Sidon coastal sites."
-        },
-        {
           "id": "ec2",
           "group": "Trade & Commerce",
           "tag": "ECONOMIC",
@@ -278,6 +264,20 @@
           ],
           "hint": "Lebanon's cedar forests supplied timber to Egypt and Mesopotamia for millennia before this period and continued to do so throughout it — Solomon's Temple construction, financed partly by grain and oil in exchange for Hiram's cedar and craftsmen, is only the best-documented single instance of a trade relationship stretching back to the Old Kingdom Egyptian texts describing Byblos as a timber source.",
           "note": "1 Kings 5:6–11, on the cedar-for-provisions exchange with Hiram of Tyre; comparative ancient Egyptian and Mesopotamian textual references to Lebanese cedar imports."
+        },
+        {
+          "id": "ec1",
+          "group": "Industry & Production",
+          "tag": "ECONOMIC",
+          "date": "1200–539 BC",
+          "label": "The Murex Purple Dye Industry",
+          "loc": "Tyre",
+          "coords": [
+            33.27,
+            35.2
+          ],
+          "hint": "Producing Tyrian purple required crushing tens of thousands of murex sea snails to yield even small quantities of dye, an industry whose enormous discarded shell middens still mark the ancient dye works along the Phoenician coast — one of the most labour-intensive luxury manufacturing processes documented anywhere in the ancient world.",
+          "note": "Murex shell midden archaeological surveys, Tyre and Sidon coastal sites."
         }
       ]
     },
@@ -364,7 +364,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "A maritime network binding the Mediterranean, squeezed between empires",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1200–539 BC",
+          "label": "A Maritime Network Binding the Mediterranean",
+          "loc": "Carthage",
+          "coords": [
+            36.85,
+            10.32
+          ],
+          "hint": "Phoenician trading posts and colonies stretching from the Levantine coast through Cyprus, Sicily, Sardinia and North Africa to Cadiz on the Atlantic made Phoenicia's cities, individually militarily modest, collectively the organisers of the ancient Mediterranean's first genuinely basin-wide commercial network, centuries before Greek or Roman maritime power matched its reach.",
+          "note": "Comparative archaeological distribution mapping of Phoenician colonial and trading-post sites across the Mediterranean."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "9th–6th c. BC",
+          "label": "Squeezed between Empires",
+          "loc": "Tyre",
+          "coords": [
+            33.27,
+            35.2
+          ],
+          "hint": "Phoenicia's small, wealthy coastal city-states never developed a unified territorial state or standing army capable of matching Assyria, Babylon or Egypt, instead surviving for centuries through a combination of tribute payment, diplomatic flexibility and, in Tyre's case, defensible island geography — commercial wealth substituting for the military power its city-states individually and collectively lacked.",
+          "note": "Comparative political-geographic analysis of Phoenician city-state survival strategies under successive imperial overlordship."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -373,7 +402,36 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "The tophet question — disputed evidence, disputed meaning",
-      "entries": []
+      "entries": [
+        {
+          "id": "l2",
+          "group": "Enslaved Lives",
+          "tag": "EVIDENCE",
+          "date": "c.800–700 BC",
+          "label": "Phoenician Traders as Slavers",
+          "loc": "Tyre",
+          "coords": [
+            33.27,
+            35.2
+          ],
+          "hint": "Homer's Odyssey describes Phoenician traders as skilled merchants who were also opportunistic kidnappers, luring or seizing individuals to sell into slavery elsewhere in the Mediterranean — a documented reputation, whatever its degree of literary exaggeration, for a trading network whose commercial success rested in part on trafficking in human beings alongside legitimate goods.",
+          "note": "Homer, Odyssey 14.287–297, 15.415–484, on Phoenician traders and slave-taking."
+        },
+        {
+          "id": "l1",
+          "group": "Marginalised Communities",
+          "tag": "EVIDENCE",
+          "date": "8th–3rd c. BC",
+          "label": "The Tophet's Archaeological Evidence",
+          "loc": "Carthage",
+          "coords": [
+            36.85,
+            10.32
+          ],
+          "hint": "Osteological analysis of infant and child cremated remains from Punic tophet precincts shows a mixed age profile including some very young infants and some older children, evidence researchers read in sharply different ways — as consistent with a mix of natural infant mortality and possible sacrifice, or as supporting the ancient literary accusations more directly — a genuinely open question the skeletal evidence alone has not settled.",
+          "note": "Comparative osteological and demographic analysis of Punic tophet infant burial age profiles, various published studies with differing conclusions."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -382,81 +440,205 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "Sidon's Early Dominance (1200–1000 BC)",
-      "events": []
+      "events": [
+        {
+          "y": -1100,
+          "l": "Sidon's Early Dominance",
+          "entryId": "p1"
+        }
+      ]
     },
     {
       "id": "tyre-golden-age",
       "icon": "⚜️",
       "accent": "#7A200A",
       "label": "Tyre's Golden Age (969–936 BC)",
-      "events": []
+      "events": [
+        {
+          "y": -969,
+          "l": "Hiram I and Tyre's Golden Age",
+          "entryId": "p2",
+          "y2": -936
+        }
+      ]
     },
     {
       "id": "imperial-overlordship",
       "icon": "⚜️",
       "accent": "#5C1806",
       "label": "Assyrian and Babylonian Overlordship (8th–6th c. BC)",
-      "events": []
+      "events": [
+        {
+          "y": -650,
+          "l": "Assyrian and Babylonian Overlordship",
+          "entryId": "p3"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": -858,
+          "l": "Shalmaneser III Imposes Tribute",
+          "entryId": "c1"
+        },
+        {
+          "y": -677,
+          "l": "Esarhaddon Destroys Sidon",
+          "entryId": "c2"
+        },
+        {
+          "y": -585,
+          "l": "Nebuchadnezzar II's Thirteen-Year Siege of Tyre",
+          "entryId": "c3"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": -870,
+          "l": "King and Council in the Phoenician City-State",
+          "entryId": "o1"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": -870,
+          "l": "Melqart, Lord of Tyre",
+          "entryId": "b1"
+        },
+        {
+          "y": -550,
+          "l": "The Disputed Question of Child Sacrifice",
+          "entryId": "b2"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": -870,
+          "l": "The Prestige of Tyrian Purple",
+          "entryId": "e2"
+        },
+        {
+          "y": -800,
+          "l": "Phoenician Ivory Carving",
+          "entryId": "e1"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": -925,
+          "l": "The Alphabet Standardized, Then Carried to Greece",
+          "entryId": "t1"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": -875,
+          "l": "The Cedar Timber Trade",
+          "entryId": "ec2"
+        },
+        {
+          "y": -870,
+          "l": "The Murex Purple Dye Industry",
+          "entryId": "ec1"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": -870,
+          "l": "Phoenician Shipbuilding",
+          "entryId": "tc1"
+        },
+        {
+          "y": -865,
+          "l": "Glassmaking's Contested Phoenician Origin",
+          "entryId": "tc2"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": -814,
+          "l": "The Founding of Carthage",
+          "entryId": "x1"
+        },
+        {
+          "y": -750,
+          "l": "The Alphabet Reaches Greece",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": -870,
+          "l": "A Maritime Network Binding the Mediterranean",
+          "entryId": "w1"
+        },
+        {
+          "y": -700,
+          "l": "Squeezed between Empires",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": -800,
+          "l": "Phoenician Traders as Slavers",
+          "entryId": "l2"
+        },
+        {
+          "y": -500,
+          "l": "The Tophet's Archaeological Evidence",
+          "entryId": "l1"
+        }
+      ]
     }
   ]
 }
