@@ -1048,6 +1048,17 @@ const SELECTED_PAIRS = [
   ['media-728bc-550bc::l1', 'babylon-1155bc-539bc::k11'],            // Mandane and the infant Cyrus legend -> the fall of Babylon to Cyrus
   ['media-728bc-550bc::c5', 'mesopotamia-539bc-331bc::k1'],          // Cyrus's revolt against Astyages -> Cyrus and Cambyses, conquest and continuity
   ['media-728bc-550bc::l1', 'mesopotamia-539bc-331bc::k1'],          // Mandane and the infant Cyrus legend -> Cyrus and Cambyses
+  // ── iran-821-1055 (Iran/Persia program, Step 4 begins) ──
+  // rejected: a generic "Dynasty" word match 2,700 years apart, a "Baghdad" place match to an
+  // unrelated financial-history topic, and a bare "Caliphate" institution-name coincidence.
+  ['iran-821-1055::o2', 'caliphate-750-945::k12'],                   // the Buyid amirate as a model -> the amir al-umara and the Buyid entry
+  ['iran-821-1055::b1', 'caliphate-750-945::k12'],                   // Twelver Shiism under Buyid patronage -> the amir al-umara and the Buyid entry
+  ['iran-821-1055::p5', 'caliphate-750-945::w5'],                    // the Buyids, amirate over a powerless caliph -> the Buyids take Baghdad
+  ['iran-821-1055::o2', 'caliphate-945-1258::k8'],                   // the Buyid amirate as a model -> Buyid decline and the rise of Ghazna
+  ['iran-821-1055::b1', 'caliphate-945-1258::k8'],                   // Twelver Shiism under Buyid patronage -> Buyid decline and the rise of Ghazna
+  ['iran-821-1055::p5', 'eastern-arabia-750-1200::w3'],              // the Buyids -> the Buyids take Baghdad, Eastern Arabia's view
+  ['iran-821-1055::o2', 'iraq-945-1258::k1'],                        // the Buyid amirate as a model -> the Buyid amirs in the caliph's name, Iraq's own folio
+  ['iran-821-1055::b1', 'iraq-945-1258::k1'],                        // Twelver Shiism under Buyid patronage -> the Buyid amirs in the caliph's name
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
