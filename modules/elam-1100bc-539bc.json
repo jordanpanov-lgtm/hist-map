@@ -291,7 +291,22 @@
       "color": "#4A3200",
       "accent": "#8B5E00",
       "subtitle": "A shrinking kingdom's shrinking resource base",
-      "entries": []
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Fiscal & Monetary",
+          "tag": "ECONOMIC",
+          "date": "c.742–646 BC",
+          "label": "A Shrinking Resource Base",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Repeated warfare, tribute demands from shifting alliances, and the loss of the Middle Elamite kingdom's old wealth from Babylon meant Neo-Elamite Susa operated on a substantially reduced economic base compared to Shutruk-Nahhunte's era — a kingdom fighting for survival with steadily diminishing resources to fight with.",
+          "note": "Comparative economic scale inferred from the reduced Neo-Elamite building and administrative record."
+        }
+      ]
     },
     {
       "id": "technology",
@@ -300,7 +315,22 @@
       "color": "#5C2D00",
       "accent": "#B7770D",
       "subtitle": "Continuity and loss in a declining state",
-      "entries": []
+      "entries": [
+        {
+          "id": "tc1",
+          "group": "Civil Engineering",
+          "tag": "EVIDENCE",
+          "date": "646 BC",
+          "label": "The Ziggurat's Deliberate Levelling",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Ashurbanipal's forces did not simply loot Susa's ziggurat but deliberately dismantled it — a technical undertaking in its own right, requiring organised demolition labour, aimed at ensuring the structure's religious and political symbolism could not simply be repaired and reused by any future Elamite king.",
+          "note": "Ashurbanipal's annals, on the ziggurat's demolition; archaeological confirmation of the structure's near-total loss."
+        }
+      ]
     },
     {
       "id": "exchange",
@@ -309,7 +339,36 @@
       "color": "#1A3A3A",
       "accent": "#148080",
       "subtitle": "Alliances with Babylon against Assyria, and the fragments' absorption",
-      "entries": []
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Diplomatic Exchange",
+          "tag": "DIPLOMATIC",
+          "date": "c.720–650 BC",
+          "label": "The Elamite-Babylonian Axis against Assyria",
+          "loc": "Babylon",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "For roughly a century, successive Elamite kings maintained a diplomatic and military partnership with Chaldean Babylon against their shared Assyrian adversary — an alliance that repeatedly saved Babylon from Assyrian conquest but ultimately failed to save Elam itself, since Assyria could and did deal with each ally separately once it chose to.",
+          "note": "Assyrian royal annals and the Babylonian Chronicle, documenting the recurring Elamite-Babylonian alliance."
+        },
+        {
+          "id": "x2",
+          "group": "Migration & Settlement",
+          "tag": "EVIDENCE",
+          "date": "c.550–539 BC",
+          "label": "Elamite Structures Absorbed into Persia",
+          "loc": "Anshan (Tal-e Malyan)",
+          "coords": [
+            29.98,
+            52.05
+          ],
+          "hint": "Rather than being conquered outright, what remained of Elamite political and administrative structure at Anshan and Susa was progressively absorbed by the rising Persian dynasty, whose own kings had held the old Elamite royal title 'King of Anshan' for at least two generations before Cyrus's final unification.",
+          "note": "Cyrus Cylinder; Elamite-Achaemenid administrative continuity evidence, Persepolis Fortification Archive."
+        }
+      ]
     },
     {
       "id": "world",
