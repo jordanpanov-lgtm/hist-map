@@ -696,7 +696,78 @@
       "color": "#4A3200",
       "accent": "#8B5E00",
       "subtitle": "Tribute, coinage, and the agrarian base of the empire",
-      "entries": []
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Agriculture & Land",
+          "tag": "ECONOMIC",
+          "date": "c.509–494 BC",
+          "label": "Rations and Labour in the Persepolis Fortification Archive",
+          "loc": "Persepolis",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "Tens of thousands of Elamite tablets record grain, wine and livestock rations issued to work-gangs (kurtaš) of many nationalities building and provisioning Persepolis, including female supervisors paid at documented rates — a rare direct window onto the labour economy underpinning imperial construction.",
+          "note": "Persepolis Fortification Archive; Richard Hallock, Persepolis Fortification Tablets (1969); Wouter Henkelman on female labour rations."
+        },
+        {
+          "id": "ec2",
+          "group": "Trade & Commerce",
+          "tag": "ECONOMIC",
+          "date": "464–404 BC",
+          "label": "The Murašû Archive of Nippur",
+          "loc": "Nippur, Babylonia",
+          "coords": [
+            32.13,
+            45.24
+          ],
+          "hint": "The business archive of the Murašû banking family of Nippur records loans, land leases and tax-farming contracts with Persian officials and military fief-holders across three reigns — the fullest surviving picture of how Babylonian finance capital interlocked with imperial administration.",
+          "note": "Murašû archive tablets, University of Pennsylvania Museum and Istanbul Archaeological Museum; Matthew Stolper, Entrepreneurs and Empire (1985)."
+        },
+        {
+          "id": "ec3",
+          "group": "Fiscal & Monetary",
+          "tag": "ECONOMIC",
+          "date": "5th c. BC",
+          "label": "The Treasury Reserve at Persepolis",
+          "loc": "Persepolis",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "Herodotus describes provincial silver tribute being melted into storage ingots at the royal treasuries rather than recoined and recirculated — a fiscal practice modern economic historians have linked to periodic silver shortages in the Aegean world that depended on Persian-controlled mining regions.",
+          "note": "Herodotus, Histories 3.96; Persepolis Treasury tablets, Oriental Institute of Chicago."
+        },
+        {
+          "id": "ec4",
+          "group": "Nomadic & Subsistence",
+          "tag": "ECONOMIC",
+          "date": "6th–4th c. BC",
+          "label": "The Steppe Frontier Economy",
+          "loc": "Central Asian steppe (Amu Darya region)",
+          "coords": [
+            41,
+            60.6
+          ],
+          "hint": "Along the empire's northeastern satrapies, Saka and Massagetae pastoral-nomadic groups were managed through tribute in horses and livestock and negotiated frontier arrangements rather than direct conquest — Cyrus's own death campaigning against the Massagetae shows the limits Persian military and fiscal power met at this frontier.",
+          "note": "Herodotus, Histories 1.201–216; Achaemenid administrative texts on Saka tribute (Persepolis Fortification Archive)."
+        },
+        {
+          "id": "ec5",
+          "group": "Trade & Commerce",
+          "tag": "ECONOMIC",
+          "date": "5th c. BC",
+          "label": "The Arabian Aromatics Trade",
+          "loc": "Gaza",
+          "coords": [
+            31.5,
+            34.47
+          ],
+          "hint": "Herodotus records Arabia as the sole Achaemenid tribute-payer to give frankincense rather than silver, a thousand talents a year, moving north along the incense route through Gaza — evidence that the empire taxed the aromatics trade in kind rather than displacing the merchant networks that ran it.",
+          "note": "Herodotus, Histories 3.97, 3.107–113."
+        }
+      ]
     },
     {
       "id": "technology",
@@ -705,7 +776,64 @@
       "color": "#5C2D00",
       "accent": "#B7770D",
       "subtitle": "The Royal Road, the angarium post, and imperial engineering",
-      "entries": []
+      "entries": [
+        {
+          "id": "tc1",
+          "group": "Civil Engineering",
+          "tag": "CONSTRUCTION",
+          "date": "c.500 BC",
+          "label": "The Royal Road and the Angarium",
+          "loc": "Susa to Sardis",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "A maintained highway of some 2,400 km linked Susa to Sardis with staging posts at regular intervals, along which relay riders of the angarium postal system could carry a royal message the length of the road in under a week — Herodotus's description of couriers undeterred by 'snow, rain, heat, or dark of night' describes this system.",
+          "note": "Herodotus, Histories 5.52–53, 8.98."
+        },
+        {
+          "id": "tc2",
+          "group": "Civil Engineering",
+          "tag": "CONSTRUCTION",
+          "date": "c.500 BC",
+          "label": "Darius's Red Sea Canal",
+          "loc": "near modern Suez, Egypt",
+          "coords": [
+            29.97,
+            32.55
+          ],
+          "hint": "Darius I completed a canal linking the Nile to the Red Sea, commemorated by a series of trilingual stelae along its route recording that ships sailed from Egypt to Persia through it — reopening and extending a waterway earlier Egyptian pharaohs had begun and abandoned.",
+          "note": "Darius Suez Canal stelae (e.g. the Kabret/Chalouf stele, Egyptian Museum, Cairo and Louvre); Herodotus, Histories 2.158, 4.39."
+        },
+        {
+          "id": "tc3",
+          "group": "Information & Communication",
+          "tag": "DOCUMENT",
+          "date": "c.520 BC",
+          "label": "Old Persian Cuneiform, Invented for Behistun",
+          "loc": "Behistun",
+          "coords": [
+            34.39,
+            47.44
+          ],
+          "hint": "The Old Persian script used in Darius's Behistun inscription is a simplified, largely alphabetic cuneiform found nowhere before his reign — most specialists read it as a script created for this monument's ideological programme, distinct from the older syllabic Elamite and Babylonian cuneiforms carved alongside it.",
+          "note": "Behistun Inscription (DB), Old Persian column; Roland Kent, Old Persian: Grammar, Texts, Lexicon (1953)."
+        },
+        {
+          "id": "tc4",
+          "group": "Agriculture & Industry",
+          "tag": "CONSTRUCTION",
+          "date": "6th–4th c. BC",
+          "label": "Qanat Irrigation across the Plateau",
+          "loc": "Fars province",
+          "coords": [
+            29.6,
+            52.5
+          ],
+          "hint": "Underground gravity-fed qanat channels, tapping aquifers at the base of the Zagros and Alborz ranges and carrying water for kilometres without evaporation loss, expanded settled agriculture across the arid Iranian plateau and underwrote the tax base the satrapy system depended on.",
+          "note": "Polybius, Histories 10.28 (on qanats in Media, describing an established technology); archaeological qanat surveys, Fars and Khorasan provinces."
+        }
+      ]
     },
     {
       "id": "exchange",
@@ -714,7 +842,78 @@
       "color": "#1A3A3A",
       "accent": "#148080",
       "subtitle": "Diplomacy, deportation reversed, and routes east and west",
-      "entries": []
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Diplomatic Exchange",
+          "tag": "DIPLOMATIC",
+          "date": "c.449 BC",
+          "label": "The Peace of Callias",
+          "loc": "Athens",
+          "coords": [
+            37.98,
+            23.73
+          ],
+          "hint": "Greek tradition held that an Athenian embassy under Callias negotiated a settlement with Artaxerxes I ending large-scale hostilities between Persia and the Delian League — the treaty's exact terms and even its historicity are debated in the ancient sources themselves, a live problem for historians rather than a settled fact.",
+          "note": "Diodorus Siculus, Bibliotheca Historica 12.4; Plutarch, Life of Cimon 13 (recording ancient doubts about the treaty's authenticity)."
+        },
+        {
+          "id": "x2",
+          "group": "Migration & Settlement",
+          "tag": "EVIDENCE",
+          "date": "490 BC",
+          "label": "The Deportation of Eretria",
+          "loc": "Eretria, Euboea",
+          "coords": [
+            38.4,
+            23.78
+          ],
+          "hint": "After Eretria aided the Ionian Revolt, Darius's forces captured the city and deported its population to Ardericca, a settlement near Susa, where Herodotus reports their descendants still lived generations later — forced resettlement used as both punishment and a means of populating the imperial heartland.",
+          "note": "Herodotus, Histories 6.119."
+        },
+        {
+          "id": "x3",
+          "group": "Silk Road & Trade Routes",
+          "tag": "ECONOMIC",
+          "date": "6th–4th c. BC",
+          "label": "The Royal Road as Trade Corridor",
+          "loc": "Sardis",
+          "coords": [
+            38.49,
+            28.04
+          ],
+          "hint": "Beyond its administrative and military use, the Susa–Sardis highway and its connecting routes east to Bactria and India carried merchants, luxury goods and information across the length of the empire, prefiguring the corridor later trade networks would extend further into Central Asia.",
+          "note": "Herodotus, Histories 5.52–54; Xenophon, Cyropaedia 8.6.17–18 (on trade moving along maintained roads)."
+        },
+        {
+          "id": "x4",
+          "group": "Cultural Transmission",
+          "tag": "EVIDENCE",
+          "date": "5th c. BC",
+          "label": "Imperial Aramaic as Chancery Language",
+          "loc": "Elephantine, Egypt",
+          "coords": [
+            24.09,
+            32.89
+          ],
+          "hint": "Aramaic, spread earlier by the Assyrian empire, became the Achaemenid chancery's working language from Egypt to Bactria — the Jewish military colony's archive at Elephantine and the satrap Arshama's own letters were both written in the same standardised administrative Aramaic, evidence of a genuinely empire-wide scribal culture.",
+          "note": "Elephantine papyri (Brooklyn Museum, Berlin Museum); Bezalel Porten, Archives from Elephantine (1968)."
+        },
+        {
+          "id": "x5",
+          "group": "Intellectual Exchange",
+          "tag": "EVIDENCE",
+          "date": "c.522–518 BC",
+          "label": "Democedes of Croton at the Persian Court",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "A celebrated Greek physician from Croton, Democedes was brought to the Persian court as a captive, treated Darius's dislocated ankle and Queen Atossa's illness, and was retained at court with great honour before eventually escaping home — a documented individual case of Greek medical expertise crossing into Persian royal service.",
+          "note": "Herodotus, Histories 3.129–137."
+        }
+      ]
     },
     {
       "id": "world",
