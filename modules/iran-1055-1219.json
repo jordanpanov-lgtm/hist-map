@@ -431,20 +431,6 @@
       "subtitle": "Turkic settlement pouring into Anatolia after Manzikert",
       "entries": [
         {
-          "id": "x1",
-          "group": "Migration & Settlement",
-          "tag": "EVIDENCE",
-          "date": "1071–1150",
-          "label": "Turkic Settlement Pours into Anatolia",
-          "loc": "Manzikert (Malazgirt), Anatolia",
-          "coords": [
-            38.98,
-            42.53
-          ],
-          "hint": "In the decades following Manzikert, Turkic pastoralist tribes migrated into Anatolia in numbers far beyond what any single battle's aftermath could explain — a sustained demographic movement that would, over the following two centuries, transform Anatolia from a predominantly Greek Christian Byzantine province into the Turkish-speaking Muslim heartland from which the Ottoman Empire would eventually emerge.",
-          "note": "Speros Vryonis, The Decline of Medieval Hellenism in Asia Minor (1971), on the post-Manzikert Turkic settlement of Anatolia."
-        },
-        {
           "id": "x2",
           "group": "Intellectual Exchange",
           "tag": "EVIDENCE",
@@ -457,6 +443,20 @@
           ],
           "hint": "The Nizamiyya madrasas at Baghdad, Nishapur, Isfahan and elsewhere formed a connected network across which scholars, texts and legal opinions moved with unusual freedom for the era — the theologian al-Ghazali's own career, teaching at the Baghdad Nizamiyya before a celebrated spiritual crisis and retreat, exemplifies the intellectual mobility the system enabled.",
           "note": "al-Ghazali, al-Munqidh min al-Dalal (Deliverance from Error), on his own Nizamiyya teaching career."
+        },
+        {
+          "id": "x1",
+          "group": "Migration & Settlement",
+          "tag": "EVIDENCE",
+          "date": "1071–1150",
+          "label": "Turkic Settlement Pours into Anatolia",
+          "loc": "Manzikert (Malazgirt), Anatolia",
+          "coords": [
+            38.98,
+            42.53
+          ],
+          "hint": "In the decades following Manzikert, Turkic pastoralist tribes migrated into Anatolia in numbers far beyond what any single battle's aftermath could explain — a sustained demographic movement that would, over the following two centuries, transform Anatolia from a predominantly Greek Christian Byzantine province into the Turkish-speaking Muslim heartland from which the Ottoman Empire would eventually emerge.",
+          "note": "Speros Vryonis, The Decline of Medieval Hellenism in Asia Minor (1971), on the post-Manzikert Turkic settlement of Anatolia."
         }
       ]
     },
@@ -467,7 +467,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "Manzikert's opening of Anatolia, and a sultanate's fragmentation",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1071–1204",
+          "label": "Manzikert's Long Chain of Consequences",
+          "loc": "Manzikert (Malazgirt), Anatolia",
+          "coords": [
+            38.98,
+            42.53
+          ],
+          "hint": "Manzikert's political aftermath in Byzantium — a succession crisis that left the empire unable to defend Anatolia — is what later prompted Byzantine appeals to the West that helped trigger the First Crusade in 1095, and set in motion the centuries-long process by which Anatolia would become permanently Turkish, culminating eventually in the rise of the Ottoman state.",
+          "note": "Comparative Byzantine-Seljuk political history, on Manzikert's cascading long-term consequences."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1092–1219",
+          "label": "A Sultanate's Fragmentation into Atabeg States",
+          "loc": "Isfahan",
+          "coords": [
+            32.65,
+            51.68
+          ],
+          "hint": "By the early 13th century the once-unified Great Seljuk sultanate survived only as a patchwork of regional atabeg successor states and, finally, the briefly dominant but shallow-rooted Khwarazmian empire — a fragmentation pattern that would leave the whole region catastrophically unprepared for the single unified threat the Mongols were about to pose.",
+          "note": "Comparative political geography of the post-Seljuk Iranian plateau on the eve of the Mongol invasions."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -476,7 +505,22 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Targeted political killing as an instrument of the weak against the strong",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Marginalised Communities",
+          "tag": "EVIDENCE",
+          "date": "1090–1256",
+          "label": "Assassination as a Weapon of the Militarily Weak",
+          "loc": "Alamut",
+          "coords": [
+            36.45,
+            50.48
+          ],
+          "hint": "The Nizari Ismaili state at Alamut never fielded an army capable of meeting the Seljuk sultanate in open battle, and instead relied on the targeted killing of specific hostile officials and rulers — a documented case of a small, doctrinally marginalised religious community adopting an asymmetric political tactic precisely because conventional military and political power was closed to it.",
+          "note": "Marshall Hodgson, The Order of Assassins (1955), on the strategic logic of Nizari political violence."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -485,81 +529,240 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "The Seljuk Sultans (1037–1157)",
-      "events": []
+      "events": [
+        {
+          "y": 1037,
+          "y2": 1063,
+          "l": "Tughril Beg — Founding the Sultanate",
+          "entryId": "p1"
+        },
+        {
+          "y": 1063,
+          "y2": 1072,
+          "l": "Alp Arslan — Manzikert",
+          "entryId": "p2"
+        },
+        {
+          "y": 1072,
+          "y2": 1092,
+          "l": "Malik-Shah I and Nizam al-Mulk",
+          "entryId": "p3"
+        },
+        {
+          "y": 1118,
+          "y2": 1157,
+          "l": "Sanjar — the Last Great Seljuk",
+          "entryId": "p5"
+        }
+      ]
     },
     {
       "id": "fragmentation",
       "icon": "⚜️",
       "accent": "#7A200A",
       "label": "Fragmentation (1092–1118)",
-      "events": []
+      "events": [
+        {
+          "y": 1092,
+          "y2": 1118,
+          "l": "The Fragmentation after Malik-Shah",
+          "entryId": "p4"
+        }
+      ]
     },
     {
       "id": "khwarazmian-rise",
       "icon": "⚜️",
       "accent": "#5C1806",
       "label": "The Khwarazmian Rise (1157–1219)",
-      "events": []
+      "events": [
+        {
+          "y": 1157,
+          "y2": 1219,
+          "l": "The Khwarazmian Rise",
+          "entryId": "p6"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": 1055,
+          "l": "Tughril Beg Enters Baghdad",
+          "entryId": "c1"
+        },
+        {
+          "y": 1071,
+          "l": "The Battle of Manzikert",
+          "entryId": "c2"
+        },
+        {
+          "y": 1092,
+          "l": "The Assassination of Nizam al-Mulk",
+          "entryId": "c3"
+        },
+        {
+          "y": 1098,
+          "l": "The Seljuk Succession Wars",
+          "entryId": "c4"
+        },
+        {
+          "y": 1153,
+          "l": "The Ghuzz Revolt and Sanjar's Captivity",
+          "entryId": "c5"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": 1080,
+          "l": "The Nizamiyya Madrasas",
+          "entryId": "o1"
+        },
+        {
+          "y": 1150,
+          "l": "The Atabeg System",
+          "entryId": "o2"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": 1075,
+          "l": "The Nizari Ismaili State at Alamut",
+          "entryId": "b1"
+        },
+        {
+          "y": 1150,
+          "l": "The Sunni Revival under Seljuk Patronage",
+          "entryId": "b2"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": 1087,
+          "l": "The Great Mosque of Isfahan's Dome Chambers",
+          "entryId": "e1"
+        },
+        {
+          "y": 1200,
+          "l": "Seljuk Luster Ceramics",
+          "entryId": "e2"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": 1079,
+          "l": "Omar Khayyam and the Jalali Calendar",
+          "entryId": "t1"
+        },
+        {
+          "y": 1091,
+          "l": "Nizam al-Mulk's Siyasatnama",
+          "entryId": "t2"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": 1082,
+          "l": "A Unified Plateau's Commercial Peak",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1140,
+          "l": "The Iqta Land-Grant System",
+          "entryId": "ec2"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": 1140,
+          "l": "The Caravanserai Network",
+          "entryId": "tc1"
+        },
+        {
+          "y": 1200,
+          "l": "Kashan's Luster-Firing Technique",
+          "entryId": "tc2"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": 1080,
+          "l": "Scholars Circulating through the Nizamiyya Network",
+          "entryId": "x2"
+        },
+        {
+          "y": 1110,
+          "l": "Turkic Settlement Pours into Anatolia",
+          "entryId": "x1"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": 1080,
+          "l": "Manzikert's Long Chain of Consequences",
+          "entryId": "w1"
+        },
+        {
+          "y": 1150,
+          "l": "A Sultanate's Fragmentation into Atabeg States",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": 1100,
+          "l": "Assassination as a Weapon of the Militarily Weak",
+          "entryId": "l1"
+        }
+      ]
     }
   ]
 }
