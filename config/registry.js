@@ -60,6 +60,7 @@ const MODULES = [
   { id:"levant-750-1099", file:"modules/levant-750-1099.json", label:"The Levant between Empires 750–1099 AD", sub:"From Abbasid Periphery to the First Crusade", region:"Levant", period:"Medieval" },
   // Phase 6 — Crusades/Mamluks
   { id:"crusader-states-1099-1291", file:"modules/crusader-states-1099-1291.json", label:"The Crusader States 1099–1291 AD", sub:"Jerusalem, Antioch, Tripoli and Edessa", region:"Levant", period:"Medieval" },
+  { id:"mamluk-syria-1260-1516", file:"modules/mamluk-syria-1260-1516.json", label:"Mamluk Syria 1260–1516 AD", sub:"From Ain Jalut to the Ottoman Conquest", region:"Levant", period:"Medieval" },
   { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
   { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
   { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
