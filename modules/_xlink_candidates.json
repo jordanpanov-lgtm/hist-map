@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1476,
-    "figure_matches_rejected_dynasty_mismatch": 1299,
-    "figure_matches_rejected_date_implausible": 1856,
+    "figure_matches": 1480,
+    "figure_matches_rejected_dynasty_mismatch": 1302,
+    "figure_matches_rejected_date_implausible": 1870,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4806,
-    "keyword_matches_rejected_geo_only": 9259,
-    "high_confidence": 1509,
+    "keyword_matches": 4807,
+    "keyword_matches_rejected_geo_only": 9260,
+    "high_confidence": 1513,
     "medium_confidence": 365,
-    "low_confidence": 4408
+    "low_confidence": 4409
   },
   "figure_name_matches": [
     {
@@ -12463,6 +12463,94 @@
       },
       "xlink_a": "gulf-prehistory-8000bc-3000bc::p6",
       "xlink_b": "magan-3000bc-1200bc::k1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Alexander Jannaeus",
+      "pivot": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "p7",
+        "cat": "power",
+        "label": "Alexander Jannaeus, King and High Priest",
+        "dynasty": "Hasmonean",
+        "decade": "70s BC–100s"
+      },
+      "match": {
+        "folio": "nabataean-312bc-106ce",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Battle of Gadara — Obodas I defeats Alexander Jannaeus",
+        "decade": "90s BC"
+      },
+      "xlink_a": "hasmonean-332bc-63bc::p7",
+      "xlink_b": "nabataean-312bc-106ce::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Civil War",
+      "pivot": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "p9",
+        "cat": "power",
+        "label": "Civil War and Pompey's Intervention",
+        "dynasty": null,
+        "decade": "60s BC"
+      },
+      "match": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "k17",
+        "cat": "power",
+        "label": "Khasekhemwy — ending the Second Dynasty's civil war",
+        "decade": "2680s BC–2700s"
+      },
+      "xlink_a": "hasmonean-332bc-63bc::p9",
+      "xlink_b": "egypt-3000bc-2100bc::k17"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Civil War",
+      "pivot": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "p9",
+        "cat": "power",
+        "label": "Civil War and Pompey's Intervention",
+        "dynasty": null,
+        "decade": "60s BC"
+      },
+      "match": {
+        "folio": "egypt-3000bc-2100bc",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Herakleopolis versus Thebes — the First Intermediate civil war",
+        "decade": "2050s BC–2150s"
+      },
+      "xlink_a": "hasmonean-332bc-63bc::p9",
+      "xlink_b": "egypt-3000bc-2100bc::c6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Civil War",
+      "pivot": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "p9",
+        "cat": "power",
+        "label": "Civil War and Pompey's Intervention",
+        "dynasty": null,
+        "decade": "60s BC"
+      },
+      "match": {
+        "folio": "egypt-332bc-30bc",
+        "id": "k8",
+        "cat": "power",
+        "label": "Ptolemy VI Philometor — the reign of civil war and Rome",
+        "decade": "140s BC–180s"
+      },
+      "xlink_a": "hasmonean-332bc-63bc::p9",
+      "xlink_b": "egypt-332bc-30bc::k8"
     },
     {
       "confidence": "high",
@@ -54698,6 +54786,32 @@
       "date_flag": "34yr gap",
       "xlink_a": "ayyubids-1171-1250::x2",
       "xlink_b": "caliphate-945-1258::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hebrew Bible",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "babylon-1155bc-539bc",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Carchemish, Jerusalem and Tyre",
+        "decade": "570s BC–600s"
+      },
+      "b": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Maccabean Literature, Written but Not Canonized in Hebrew",
+        "decade": "0s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "babylon-1155bc-539bc::c5",
+      "xlink_b": "hasmonean-332bc-63bc::e1"
     },
     {
       "confidence": "low",
@@ -154413,6 +154527,110 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Civil War",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1900-1975",
+        "id": "r2",
+        "cat": "belief",
+        "label": "Anticlerical violence — burning of churches 1931 and 1936",
+        "decade": "1930s"
+      },
+      "b": {
+        "folio": "spain-1975-today",
+        "id": "t9",
+        "cat": "thought",
+        "label": "Javier Marías — literature as philosophy of memory and moral witness",
+        "decade": "1990s"
+      },
+      "date_flag": "56yr gap — verify same entity, not just shared theme",
+      "xlink_a": "spain-1900-1975::r2",
+      "xlink_b": "spain-1975-today::t9"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Civil War",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1900-1975",
+        "id": "r3",
+        "cat": "belief",
+        "label": "Vatican II and the Church's break with Franco",
+        "decade": "1960s"
+      },
+      "b": {
+        "folio": "spain-1975-today",
+        "id": "t9",
+        "cat": "thought",
+        "label": "Javier Marías — literature as philosophy of memory and moral witness",
+        "decade": "1990s"
+      },
+      "date_flag": "21yr gap",
+      "xlink_a": "spain-1900-1975::r3",
+      "xlink_b": "spain-1975-today::t9"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Civil War",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1900-1975",
+        "id": "a5",
+        "cat": "expression",
+        "label": "Flamenco and Republican culture — Carmen Amaya",
+        "decade": "1910s–1960s"
+      },
+      "b": {
+        "folio": "spain-1975-today",
+        "id": "t9",
+        "cat": "thought",
+        "label": "Javier Marías — literature as philosophy of memory and moral witness",
+        "decade": "1990s"
+      },
+      "date_flag": "29yr gap",
+      "xlink_a": "spain-1900-1975::a5",
+      "xlink_b": "spain-1975-today::t9"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Civil War",
+        "Madrid"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1900-1975",
+        "id": "lv3",
+        "cat": "lives",
+        "label": "Mujeres Libres — anarchist women's organisation 1936–1939",
+        "decade": "1930s"
+      },
+      "b": {
+        "folio": "spain-1975-today",
+        "id": "t9",
+        "cat": "thought",
+        "label": "Javier Marías — literature as philosophy of memory and moral witness",
+        "decade": "1990s"
+      },
+      "date_flag": "53yr gap — verify same entity, not just shared theme",
+      "xlink_a": "spain-1900-1975::lv3",
+      "xlink_b": "spain-1975-today::t9"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Dirʿiyya",
         "Āl Saʿūd"
       ],
@@ -154725,84 +154943,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Civil War",
-        "Madrid"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1900-1975",
-        "id": "r2",
-        "cat": "belief",
-        "label": "Anticlerical violence — burning of churches 1931 and 1936",
-        "decade": "1930s"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "t9",
-        "cat": "thought",
-        "label": "Javier Marías — literature as philosophy of memory and moral witness",
-        "decade": "1990s"
-      },
-      "date_flag": "56yr gap — verify same entity, not just shared theme",
-      "xlink_a": "spain-1900-1975::r2",
-      "xlink_b": "spain-1975-today::t9"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Civil War",
-        "Madrid"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1900-1975",
-        "id": "r3",
-        "cat": "belief",
-        "label": "Vatican II and the Church's break with Franco",
-        "decade": "1960s"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "t9",
-        "cat": "thought",
-        "label": "Javier Marías — literature as philosophy of memory and moral witness",
-        "decade": "1990s"
-      },
-      "date_flag": "21yr gap",
-      "xlink_a": "spain-1900-1975::r3",
-      "xlink_b": "spain-1975-today::t9"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Civil War",
-        "Madrid"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1900-1975",
-        "id": "a5",
-        "cat": "expression",
-        "label": "Flamenco and Republican culture — Carmen Amaya",
-        "decade": "1910s–1960s"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "t9",
-        "cat": "thought",
-        "label": "Javier Marías — literature as philosophy of memory and moral witness",
-        "decade": "1990s"
-      },
-      "date_flag": "29yr gap",
-      "xlink_a": "spain-1900-1975::a5",
-      "xlink_b": "spain-1975-today::t9"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "Latin America",
         "Madrid"
       ],
@@ -154850,32 +154990,6 @@
       "date_flag": "10yr gap",
       "xlink_a": "spain-1900-1975::s5",
       "xlink_b": "spain-1975-today::o5"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Civil War",
-        "Madrid"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1900-1975",
-        "id": "lv3",
-        "cat": "lives",
-        "label": "Mujeres Libres — anarchist women's organisation 1936–1939",
-        "decade": "1930s"
-      },
-      "b": {
-        "folio": "spain-1975-today",
-        "id": "t9",
-        "cat": "thought",
-        "label": "Javier Marías — literature as philosophy of memory and moral witness",
-        "decade": "1990s"
-      },
-      "date_flag": "53yr gap — verify same entity, not just shared theme",
-      "xlink_a": "spain-1900-1975::lv3",
-      "xlink_b": "spain-1975-today::t9"
     },
     {
       "confidence": "low",

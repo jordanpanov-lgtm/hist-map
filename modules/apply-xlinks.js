@@ -1203,6 +1203,8 @@ const SELECTED_PAIRS = [
   ['levant-539bc-332bc::p2', 'achaemenid-550bc-330bc::b3'],   // the Second Temple's completion -> same event, Persia's own entry
   ['levant-539bc-332bc::p3', 'achaemenid-550bc-330bc::b4'],   // Nehemiah's mission -> same event, Persia's own entry
   ['levant-539bc-332bc::p6', 'mesopotamia-539bc-331bc::k6'],  // Alexander's arrival -> "Alexander enters Babylon," 331 BC
+  // ── hasmonean-332bc-63bc (Levant program, Phase 3 complete) ──
+  ['hasmonean-332bc-63bc::p7', 'nabataean-312bc-106ce::c1'],  // Alexander Jannaeus's reign -> "Obodas I defeats Alexander Jannaeus" at Gadara
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
