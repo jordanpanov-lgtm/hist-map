@@ -45,6 +45,7 @@ const MODULES = [
   //   Iraq-as-satrapy folios of the same eras, e.g. mesopotamia-539bc-331bc). See
   //   memory iran-persia-program.md for the full planned arc, prehistory to today.
   { id:"achaemenid-550bc-330bc", file:"modules/achaemenid-550bc-330bc.json", label:"Achaemenid Empire 550–330 BC", sub:"Cyrus's Conquests to the Fall of Darius III", region:"Iran", period:"Ancient" },
+  { id:"seleucid-iran-330bc-148bc", file:"modules/seleucid-iran-330bc-148bc.json", label:"Seleucid Iran 330–148 BC", sub:"Alexander's Successors and the Loss of the Upper Satrapies", region:"Iran", period:"Late Antique" },
   { id:"sassanid-224-484",      file:"modules/sassanid-224-484.json",      label:"Sassanid Empire 224–484",     sub:"Foundation to Hephthalite Crisis",            region:"Iran",    period:"Late Antique"  },
   { id:"sassanid-484-651",      file:"modules/sassanid-484-651.json",      label:"Sassanid Empire 484–651",     sub:"Renewal, Apogee & Collapse",                  region:"Iran",    period:"Late Antique"  },
   // ── THE CALIPHATE (imperial backbone — Near East, cross-regional) ───────────
