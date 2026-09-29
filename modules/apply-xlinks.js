@@ -998,6 +998,22 @@ const SELECTED_PAIRS = [
   ['seleucid-iran-330bc-148bc::c6', 'mesopotamia-141bc-224::k1'],    // Mithridates I's conquest of Media -> the Parthian settlement
   ['seleucid-iran-330bc-148bc::t2', 'mesopotamia-539bc-331bc::k1'],  // the memory of Cyrus in Seleucid ideology -> Cyrus and Cambyses
   ['seleucid-iran-330bc-148bc::b2', 'mesopotamia-539bc-331bc::k6'],  // later memory of Alexander's damage -> Alexander enters Babylon
+  // ── parthia-148bc-224 (Iran/Persia program, third folio — completes Step 1) ──
+  // rejected: generic "Seleucid" dynasty-word matches, and three "Houses" matches that were
+  // a different sense of the word entirely (a banking family, a weaving workshop, merchant
+  // firms) versus this folio's noble-clan confederacy.
+  ['parthia-148bc-224::p1', 'mesopotamia-141bc-224::k1'],            // Mithridates I -> the Parthian settlement (same twin entry)
+  ['parthia-148bc-224::p2', 'mesopotamia-141bc-224::k2'],            // Mithridates II -> the height of the empire (same twin entry)
+  ['parthia-148bc-224::p3', 'mesopotamia-141bc-224::k3'],            // Orodes II -> Carrhae and the wars with Rome begin (same twin entry)
+  ['parthia-148bc-224::p4', 'mesopotamia-141bc-224::k4'],            // Phraates IV to Vologases I (same twin entry)
+  ['parthia-148bc-224::p5', 'mesopotamia-141bc-224::k5'],            // Osroes I and the Trajanic war (same twin entry)
+  ['parthia-148bc-224::p6', 'mesopotamia-141bc-224::k6'],            // Vologases IV to Artabanus IV (same twin entry)
+  ['parthia-148bc-224::p7', 'mesopotamia-141bc-224::o1'],            // the great houses -> the King of Kings and the great houses
+  ['parthia-148bc-224::p1', 'mesopotamia-331bc-141bc::c6'],          // Mithridates I's conquest -> Mithridates I takes Babylonia
+  ['parthia-148bc-224::p1', 'seleucid-iran-330bc-148bc::c6'],        // Mithridates I's conquest of Media -> same event, Seleucid side
+  ['parthia-148bc-224::c4', 'egypt-30bc-300ad::k6'],                 // Trajan's Parthian war -> Trajan, the canal and the Jewish war
+  ['parthia-148bc-224::c4', 'hispania-27bc-409ad::k2'],              // Trajan's Parthian war -> Trajan and Hadrian, born at Italica
+  ['parthia-148bc-224::c6', 'sassanid-224-484::c1'],                 // Ardashir's rebellion at Hormozdgan -> the Sassanid foundation battle
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
