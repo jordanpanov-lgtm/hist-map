@@ -269,20 +269,6 @@
       "subtitle": "The earliest evidence of counting, sealing, and symbolic notation",
       "entries": [
         {
-          "id": "t1",
-          "group": "Science & Geography",
-          "tag": "OBJECT",
-          "date": "9th–4th millennium BC",
-          "label": "Clay Tokens and Early Accounting",
-          "loc": "Jericho (Tell es-Sultan)",
-          "coords": [
-            31.87,
-            35.44
-          ],
-          "hint": "Small geometric clay tokens representing specific quantities of specific goods, part of the same broader Fertile Crescent counting tradition found from the Levant to Iran, appear at Jericho and other Levantine sites across the Neolithic and Chalcolithic — an accounting technology that let communities track agricultural surplus long before any script existed to record it in words.",
-          "note": "Denise Schmandt-Besserat, Before Writing: From Counting to Cuneiform (1992), on the Levantine token evidence."
-        },
-        {
           "id": "t2",
           "group": "Science & Geography",
           "tag": "OBJECT",
@@ -295,6 +281,20 @@
           ],
           "hint": "A dry cave in the Judean Desert preserved a cluster of carved stone masks, among the oldest ritual masks known anywhere, alongside organic material — basketry, textile fragments, skull fragments coated with a black bituminous substance — that almost never survives from sites with normal preservation conditions, giving an unusually rich glimpse of Neolithic ritual material culture.",
           "note": "Nahal Hemar cave excavations, Ofer Bar-Yosef and Tamar Alon (1983); Israel Museum, Jerusalem."
+        },
+        {
+          "id": "t1",
+          "group": "Science & Geography",
+          "tag": "OBJECT",
+          "date": "9th–4th millennium BC",
+          "label": "Clay Tokens and Early Accounting",
+          "loc": "Jericho (Tell es-Sultan)",
+          "coords": [
+            31.87,
+            35.44
+          ],
+          "hint": "Small geometric clay tokens representing specific quantities of specific goods, part of the same broader Fertile Crescent counting tradition found from the Levant to Iran, appear at Jericho and other Levantine sites across the Neolithic and Chalcolithic — an accounting technology that let communities track agricultural surplus long before any script existed to record it in words.",
+          "note": "Denise Schmandt-Besserat, Before Writing: From Counting to Cuneiform (1992), on the Levantine token evidence."
         }
       ]
     },
@@ -419,7 +419,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "Climate amelioration and the rise of the first Levantine towns",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Climate & Environment",
+          "tag": "EVENT",
+          "date": "c.12900–9500 BC",
+          "label": "The Younger Dryas and the Push toward Farming",
+          "loc": "Ain Mallaha (Eynan)",
+          "coords": [
+            33.05,
+            35.57
+          ],
+          "hint": "A sharp return to near-glacial cold and aridity across the Younger Dryas period put real pressure on the wild cereal stands Natufian foragers had come to depend on, a stress many archaeologists consider a direct contributing push toward deliberate cultivation once warmer, wetter Holocene conditions returned — climate as a plausible causal factor in the origins of farming, not merely its backdrop.",
+          "note": "Paleoclimate proxy evidence for the Younger Dryas in the southern Levant; comparative archaeobotanical evidence for Natufian dietary stress."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "c.3300–2000 BC",
+          "label": "The Rise of the First Levantine Towns",
+          "loc": "Megiddo",
+          "coords": [
+            32.59,
+            35.18
+          ],
+          "hint": "Early Bronze Age fortified towns at Megiddo, Ai and elsewhere established the settlement pattern — walled hilltop or tell sites controlling agricultural hinterlands — that would define Levantine political geography for the next two thousand years, directly anticipating the Canaanite city-state system of the following Bronze Age.",
+          "note": "Comparative Early Bronze Age Levantine urban settlement-pattern studies."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -428,7 +457,36 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Diet, health and burial practice across the transition to farming",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Health and Diet in the Farming Transition",
+          "tag": "EVIDENCE",
+          "date": "c.10000–8500 BC",
+          "label": "Skeletal Evidence of Dietary Change",
+          "loc": "Jericho (Tell es-Sultan)",
+          "coords": [
+            31.87,
+            35.44
+          ],
+          "hint": "Dental wear and pathology in skeletal remains from early Levantine farming communities show measurable change from the preceding Natufian foraging population's teeth — a physical, bodily record of the shift to a grain-centred diet that complements, and in some respects contradicts the assumed benefits of, the era's economic and settlement changes.",
+          "note": "Comparative bioarchaeological dental studies of Natufian versus early Neolithic Levantine populations."
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "tag": "CATEGORICAL SHIFT",
+          "date": "c.4500–3500 BC",
+          "label": "Emerging Status Differences in Burial",
+          "loc": "Teleilat Ghassul",
+          "coords": [
+            31.75,
+            35.58
+          ],
+          "hint": "Chalcolithic burials at Ghassulian-culture sites show growing variation in grave goods and burial treatment between individuals, evidence that meaningful social and economic differentiation was becoming a normal feature of Levantine village life well before any of the region's Bronze Age city-states had a recognisable king or court to formalise such distinctions.",
+          "note": "Comparative Chalcolithic Levantine mortuary-variability studies."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -437,67 +495,208 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "Culture Horizons (10,000–2,000 BC)",
-      "events": []
+      "events": [
+        {
+          "y": -11000,
+          "l": "Natufian Foragers and the Roots of Sedentism",
+          "entryId": "p1"
+        },
+        {
+          "y": -8750,
+          "l": "Jericho's Walled Town",
+          "entryId": "p2"
+        },
+        {
+          "y": -6625,
+          "l": "'Ain Ghazal and the PPNB Expansion",
+          "entryId": "p3"
+        },
+        {
+          "y": -4000,
+          "l": "The Ghassulian Chalcolithic",
+          "entryId": "p4"
+        },
+        {
+          "y": -2650,
+          "l": "Early Bronze Age Urbanization",
+          "entryId": "p5"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": -9500,
+          "l": "The Purpose of Jericho's Wall Debated",
+          "entryId": "c1"
+        },
+        {
+          "y": -6000,
+          "l": "The Abandonment of 'Ain Ghazal",
+          "entryId": "c2"
+        },
+        {
+          "y": -2300,
+          "l": "Early Bronze Age Destruction Layers",
+          "entryId": "c3"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": -8750,
+          "l": "Collective Labour at Jericho",
+          "entryId": "o1"
+        },
+        {
+          "y": -6625,
+          "l": "Storage and Surplus Control at 'Ain Ghazal",
+          "entryId": "o2"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": -6500,
+          "l": "The Plastered Skulls of Jericho",
+          "entryId": "b1"
+        },
+        {
+          "y": -4000,
+          "l": "The Nahal Mishmar Hoard",
+          "entryId": "b2"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": -7200,
+          "l": "The Lime-Plaster Statues of 'Ain Ghazal",
+          "entryId": "e1"
+        },
+        {
+          "y": -4000,
+          "l": "The Ghassulian Wall Paintings",
+          "entryId": "e2"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": -7000,
+          "l": "The Judean Desert Stone Masks",
+          "entryId": "t2"
+        },
+        {
+          "y": -6500,
+          "l": "Clay Tokens and Early Accounting",
+          "entryId": "t1"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": -9250,
+          "l": "From Wild Harvesting to Cereal Cultivation",
+          "entryId": "ec1"
+        },
+        {
+          "y": -4000,
+          "l": "Chalcolithic Copper Production",
+          "entryId": "ec2"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": -7500,
+          "l": "Lime Plaster Production",
+          "entryId": "tc1"
+        },
+        {
+          "y": -4000,
+          "l": "Lost-Wax Bronze Casting at Nahal Mishmar",
+          "entryId": "tc2"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": -6500,
+          "l": "Anatolian Obsidian in the Levant",
+          "entryId": "x1"
+        },
+        {
+          "y": -6400,
+          "l": "Marine Shell from Two Seas",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": -11500,
+          "l": "The Younger Dryas and the Push toward Farming",
+          "entryId": "w1"
+        },
+        {
+          "y": -2650,
+          "l": "The Rise of the First Levantine Towns",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": -8500,
+          "l": "Skeletal Evidence of Dietary Change",
+          "entryId": "l1"
+        },
+        {
+          "y": -7500,
+          "l": "Emerging Status Differences in Burial",
+          "entryId": "l2"
+        }
+      ]
     }
   ]
 }
