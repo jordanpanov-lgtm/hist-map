@@ -338,7 +338,36 @@
       "color": "#4A3200",
       "accent": "#8B5E00",
       "subtitle": "Decades of sanctions and a state still dependent on oil",
-      "entries": []
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Trade & Commerce",
+          "tag": "ECONOMIC",
+          "date": "1979–2026",
+          "label": "Decades of International Sanctions",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "US and later broader international sanctions, imposed and expanded in stages since the 1979 hostage crisis and intensified over the nuclear programme, have restricted Iran's oil exports, banking access and imported technology for most of the Islamic Republic's history — Iranian officials attribute much of the country's economic hardship to sanctions, while sanctioning governments and some independent economists point also to domestic mismanagement and corruption as contributing causes.",
+          "note": "US Treasury Office of Foreign Assets Control sanctions records; comparative economic analyses attributing varying weight to sanctions versus domestic factors."
+        },
+        {
+          "id": "ec2",
+          "group": "Fiscal & Monetary",
+          "tag": "ECONOMIC",
+          "date": "1979–2026",
+          "label": "Continued Oil Revenue Dependency",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Despite decades of stated government policy aiming to diversify the economy away from oil dependency, hydrocarbon exports have remained the dominant source of foreign currency earnings and a major share of government budget revenue throughout the Islamic Republic's history, leaving state finances persistently exposed to global oil price swings and sanctions-driven export restrictions alike.",
+          "note": "Central Bank of Iran and OPEC statistical data on Iranian oil export revenue as a share of GDP and government budget, various years."
+        }
+      ]
     },
     {
       "id": "technology",
@@ -347,7 +376,36 @@
       "color": "#5C2D00",
       "accent": "#B7770D",
       "subtitle": "The nuclear programme, Natanz, and the Stuxnet cyberattack",
-      "entries": []
+      "entries": [
+        {
+          "id": "tc1",
+          "group": "Information & Communication",
+          "tag": "CONSTRUCTION",
+          "date": "2000s–2020s",
+          "label": "The Nuclear Programme and Natanz",
+          "loc": "Natanz",
+          "coords": [
+            33.51,
+            51.9
+          ],
+          "hint": "Iran's uranium enrichment facility at Natanz became the focal point of a decades-long international dispute over whether the country's nuclear programme was purely civilian, as Iranian officials have consistently stated, or intended to develop weapons capability, as Western governments and the International Atomic Energy Agency have at various points expressed concern about based on inspection findings.",
+          "note": "International Atomic Energy Agency inspection reports on Natanz, various years; comparative Iranian and Western government statements on the programme's aims."
+        },
+        {
+          "id": "tc2",
+          "group": "Military Engineering",
+          "tag": "EVIDENCE",
+          "date": "2010",
+          "label": "The Stuxnet Cyberattack",
+          "loc": "Natanz",
+          "coords": [
+            33.51,
+            51.9
+          ],
+          "hint": "A sophisticated computer worm, later widely attributed by independent security researchers and, according to subsequent reporting, acknowledged informally by American and Israeli officials, physically damaged centrifuges at Natanz by manipulating their industrial control systems — one of the first publicly documented cyberattacks to cause deliberate physical infrastructure damage rather than only stealing or corrupting data.",
+          "note": "Symantec, 'W32.Stuxnet Dossier' (2011), the primary independent technical analysis of the worm."
+        }
+      ]
     },
     {
       "id": "exchange",
@@ -356,7 +414,36 @@
       "color": "#1A3A3A",
       "accent": "#148080",
       "subtitle": "The 2015 nuclear deal and its unilateral unwinding",
-      "entries": []
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Diplomatic Exchange",
+          "tag": "DIPLOMATIC",
+          "date": "2015",
+          "label": "The Joint Comprehensive Plan of Action",
+          "loc": "Vienna",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "hint": "Iran and six world powers (the US, UK, France, Russia, China and Germany) reached a 2015 agreement lifting most international sanctions in exchange for verified restrictions and enhanced inspection of Iran's nuclear programme — a landmark diplomatic settlement that the International Atomic Energy Agency subsequently certified Iran was complying with.",
+          "note": "Joint Comprehensive Plan of Action (2015), full text; IAEA compliance verification reports, 2016–2018."
+        },
+        {
+          "id": "x2",
+          "group": "Diplomatic Exchange",
+          "tag": "DIPLOMATIC",
+          "date": "2018",
+          "label": "The US Withdrawal from the Nuclear Deal",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "hint": "The United States unilaterally withdrew from the 2015 nuclear agreement in 2018 and reimposed sanctions despite the IAEA's certification of Iranian compliance and the objections of the other signatory powers — a decision after which Iran progressively reduced its own compliance with the agreement's technical restrictions in the years that followed.",
+          "note": "US State Department withdrawal announcement (2018); IAEA reports on Iranian compliance reductions following the US withdrawal."
+        }
+      ]
     },
     {
       "id": "world",
