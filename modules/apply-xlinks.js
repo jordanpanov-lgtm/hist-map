@@ -1115,6 +1115,19 @@ const SELECTED_PAIRS = [
   ['iran-1335-1501::o1', 'mamluks-1250-1517::c7'],                   // Timur's extractive conquest state -> same
   ['iran-1335-1501::e2', 'mamluks-1250-1517::c7'],                   // Timur's monuments at Samarkand -> same
   ['iran-1335-1501::l2', 'mamluks-1250-1517::c7'],                   // the demographic toll of Timur's campaigns -> same
+  // ── safavid-1501-1722 (Iran/Persia program, Step 4 continued) ──
+  // rejected: a bare "Ottomans" empire-name mismatch (unrelated Gulf annexation), and two
+  // "Forced" adjective coincidences between unrelated conversion/baptism events.
+  ['safavid-1501-1722::tc1', 'mamluks-1250-1517::tc1'],              // gunpowder adoption too slow -> the Mamluks' comparable resistance to firearms
+  ['safavid-1501-1722::w1', 'portuguese-gulf-1507-1650::k4'],        // the Sunni-Shia fault line with the Ottomans -> the Ottomans annex al-Hasa and Qatif
+  ['safavid-1501-1722::p4', 'portuguese-gulf-1507-1650::k5'],        // Shah Abbas's golden age -> Shah Abbas takes Hormuz
+  ['safavid-1501-1722::c3', 'portuguese-gulf-1507-1650::k5'],        // Shah Abbas's reconquest -> same
+  ['safavid-1501-1722::o2', 'portuguese-gulf-1507-1650::k5'],        // crown land expansion under Shah Abbas -> same
+  ['safavid-1501-1722::t2', 'portuguese-gulf-1507-1650::k5'],        // Iskandar Beg Munshi's chronicle -> same (covers this campaign)
+  ['safavid-1501-1722::p4', 'portuguese-gulf-1507-1650::w3'],        // Shah Abbas's golden age -> Shah Abbas rebuilds Persian power
+  ['safavid-1501-1722::c3', 'portuguese-gulf-1507-1650::w3'],        // Shah Abbas's reconquest -> same
+  ['safavid-1501-1722::o2', 'portuguese-gulf-1507-1650::w3'],        // crown land expansion -> same
+  ['safavid-1501-1722::t2', 'portuguese-gulf-1507-1650::w3'],        // Iskandar Beg Munshi's chronicle -> same
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
