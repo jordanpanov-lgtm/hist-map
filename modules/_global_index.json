@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6818,
     "folio_count": 133,
-    "xlink_pairs": 1270,
+    "xlink_pairs": 1278,
     "keyword_terms": 10196,
     "folios": [
       {
@@ -7505,6 +7505,7 @@
       "babylon-1155bc-539bc::k11",
       "babylon-1155bc-539bc::xc5",
       "egypt-664bc-332bc::c5",
+      "levant-539bc-332bc::p1",
       "media-728bc-550bc::c5",
       "media-728bc-550bc::l1",
       "seleucid-iran-330bc-148bc::t2"
@@ -7547,10 +7548,19 @@
     "mesopotamia-539bc-331bc::k6": [
       "achaemenid-550bc-330bc::c8",
       "egypt-332bc-30bc::c1",
+      "levant-539bc-332bc::p6",
       "mesopotamia-331bc-141bc::k1",
       "seleucid-iran-330bc-148bc::b2"
     ],
     "achaemenid-550bc-330bc::o5": [
+      "levant-539bc-332bc::p1",
+      "mesopotamia-539bc-331bc::k1"
+    ],
+    "levant-539bc-332bc::p1": [
+      "achaemenid-550bc-330bc::o5",
+      "achaemenid-550bc-330bc::b5",
+      "babylon-1155bc-539bc::k11",
+      "babylon-1155bc-539bc::xc5",
       "mesopotamia-539bc-331bc::k1"
     ],
     "achaemenid-550bc-330bc::o6": [
@@ -7560,7 +7570,20 @@
       "achaemenid-550bc-330bc::o6"
     ],
     "achaemenid-550bc-330bc::b5": [
+      "levant-539bc-332bc::p1",
       "mesopotamia-539bc-331bc::k1"
+    ],
+    "achaemenid-550bc-330bc::b3": [
+      "levant-539bc-332bc::p2"
+    ],
+    "levant-539bc-332bc::p2": [
+      "achaemenid-550bc-330bc::b3"
+    ],
+    "achaemenid-550bc-330bc::b4": [
+      "levant-539bc-332bc::p3"
+    ],
+    "levant-539bc-332bc::p3": [
+      "achaemenid-550bc-330bc::b4"
     ],
     "achaemenid-550bc-330bc::e2": [
       "mesopotamia-539bc-331bc::k1"
@@ -8239,6 +8262,7 @@
     ],
     "babylon-1155bc-539bc::k11": [
       "egypt-664bc-332bc::c5",
+      "levant-539bc-332bc::p1",
       "media-728bc-550bc::c5",
       "media-728bc-550bc::l1",
       "mesopotamia-539bc-331bc::k1"
@@ -8380,6 +8404,7 @@
       "babylon-1155bc-539bc::xc3"
     ],
     "babylon-1155bc-539bc::xc5": [
+      "levant-539bc-332bc::p1",
       "mesopotamia-539bc-331bc::k1"
     ],
     "babylon-1155bc-539bc::l2": [
@@ -12370,6 +12395,9 @@
       "lakhmid-268-602::lv2",
       "oman-gulf-1650-1820::lv5",
       "sassanid-484-651::lv2"
+    ],
+    "levant-539bc-332bc::p6": [
+      "mesopotamia-539bc-331bc::k6"
     ],
     "magan-1200bc-300bc::k5": [
       "magan-3000bc-1200bc::ec6",

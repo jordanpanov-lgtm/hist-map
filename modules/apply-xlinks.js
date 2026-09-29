@@ -1193,6 +1193,16 @@ const SELECTED_PAIRS = [
   ['philistia-1200bc-604bc::p4', 'assyria-911bc-609bc::k6'],         // the Ashdod revolt -> Sargon II's own reign entry
   ['philistia-1200bc-604bc::c2', 'israel-judah-1200bc-586bc::p3'],   // Saul's death at Gilboa -> Saul's own reign entry
   ['philistia-1200bc-604bc::p3', 'israel-judah-1200bc-586bc::p4'],   // Achish and a fugitive David -> David's own reign entry
+  // ── levant-539bc-332bc (Levant program, Phase 3) — Cyrus's Edict told from five folios' own
+  // angles (Persia's imperial policy, Babylon's conquest x2, Mesopotamia's succession, and here).
+  ['levant-539bc-332bc::p1', 'achaemenid-550bc-330bc::o5'],   // Cyrus's Edict -> "Cyrus's Edict for Jerusalem," Persia's own entry
+  ['levant-539bc-332bc::p1', 'achaemenid-550bc-330bc::b5'],   // Cyrus's Edict -> the Cyrus Cylinder and Marduk's restoration
+  ['levant-539bc-332bc::p1', 'babylon-1155bc-539bc::k11'],    // Cyrus's Edict -> "the fall to Cyrus," Babylon's own conquest entry
+  ['levant-539bc-332bc::p1', 'babylon-1155bc-539bc::xc5'],    // Cyrus's Edict -> the Cyrus Cylinder, Babylon's own reading
+  ['levant-539bc-332bc::p1', 'mesopotamia-539bc-331bc::k1'],  // Cyrus's Edict -> Cyrus and Cambyses, conquest and continuity
+  ['levant-539bc-332bc::p2', 'achaemenid-550bc-330bc::b3'],   // the Second Temple's completion -> same event, Persia's own entry
+  ['levant-539bc-332bc::p3', 'achaemenid-550bc-330bc::b4'],   // Nehemiah's mission -> same event, Persia's own entry
+  ['levant-539bc-332bc::p6', 'mesopotamia-539bc-331bc::k6'],  // Alexander's arrival -> "Alexander enters Babylon," 331 BC
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

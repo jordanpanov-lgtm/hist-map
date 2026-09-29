@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1471,
+    "figure_matches": 1476,
     "figure_matches_rejected_dynasty_mismatch": 1299,
-    "figure_matches_rejected_date_implausible": 1848,
+    "figure_matches_rejected_date_implausible": 1856,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4800,
+    "keyword_matches": 4806,
     "keyword_matches_rejected_geo_only": 9259,
-    "high_confidence": 1504,
+    "high_confidence": 1509,
     "medium_confidence": 365,
-    "low_confidence": 4402
+    "low_confidence": 4408
   },
   "figure_name_matches": [
     {
@@ -2049,6 +2049,28 @@
         "decade": "530s BC"
       },
       "match": {
+        "folio": "levant-539bc-332bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "Cyrus's Edict and the Return",
+        "decade": "530s BC–530s"
+      },
+      "xlink_a": "babylon-1155bc-539bc::k11",
+      "xlink_b": "levant-539bc-332bc::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cyrus",
+      "pivot": {
+        "folio": "babylon-1155bc-539bc",
+        "id": "k11",
+        "cat": "power",
+        "label": "The fall to Cyrus",
+        "dynasty": "—",
+        "decade": "530s BC"
+      },
+      "match": {
         "folio": "media-728bc-550bc",
         "id": "c5",
         "cat": "conflict",
@@ -2409,6 +2431,28 @@
       },
       "xlink_a": "babylon-2004bc-1595bc::k7",
       "xlink_b": "iran-821-1055::w2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Dynasty",
+      "pivot": {
+        "folio": "babylon-2004bc-1595bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "The First Dynasty builds Babylon",
+        "dynasty": "First Dynasty of Babylon",
+        "decade": "1790s BC–1890s"
+      },
+      "match": {
+        "folio": "levant-539bc-332bc",
+        "id": "p5",
+        "cat": "power",
+        "label": "The Sanballat Dynasty of Samaria",
+        "decade": "0s"
+      },
+      "xlink_a": "babylon-2004bc-1595bc::k7",
+      "xlink_b": "levant-539bc-332bc::p5"
     },
     {
       "confidence": "high",
@@ -16427,6 +16471,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Nehemiah",
+      "pivot": {
+        "folio": "levant-539bc-332bc",
+        "id": "p3",
+        "cat": "power",
+        "label": "Nehemiah, Governor of Yehud",
+        "dynasty": null,
+        "decade": "430s BC–440s"
+      },
+      "match": {
+        "folio": "achaemenid-550bc-330bc",
+        "id": "b4",
+        "cat": "belief",
+        "label": "Nehemiah's Mission and the Walls of Jerusalem",
+        "decade": "440s BC"
+      },
+      "xlink_a": "levant-539bc-332bc::p3",
+      "xlink_b": "achaemenid-550bc-330bc::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Iron Age",
       "pivot": {
         "folio": "magan-1200bc-300bc",
@@ -19297,6 +19363,28 @@
         "decade": "520s BC–530s"
       },
       "match": {
+        "folio": "levant-539bc-332bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "Cyrus's Edict and the Return",
+        "decade": "530s BC–530s"
+      },
+      "xlink_a": "mesopotamia-539bc-331bc::k1",
+      "xlink_b": "levant-539bc-332bc::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cyrus",
+      "pivot": {
+        "folio": "mesopotamia-539bc-331bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Cyrus and Cambyses — conquest and continuity",
+        "dynasty": "Achaemenid",
+        "decade": "520s BC–530s"
+      },
+      "match": {
         "folio": "media-728bc-550bc",
         "id": "c5",
         "cat": "conflict",
@@ -19591,6 +19679,28 @@
       },
       "xlink_a": "mesopotamia-539bc-331bc::k6",
       "xlink_b": "egypt-664bc-332bc::c8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Alexander",
+      "pivot": {
+        "folio": "mesopotamia-539bc-331bc",
+        "id": "k6",
+        "cat": "power",
+        "label": "Alexander enters Babylon",
+        "dynasty": "Argead",
+        "decade": "330s BC"
+      },
+      "match": {
+        "folio": "levant-539bc-332bc",
+        "id": "p6",
+        "cat": "power",
+        "label": "Tennes's Revolt and Alexander's Arrival",
+        "decade": "330s BC–350s"
+      },
+      "xlink_a": "mesopotamia-539bc-331bc::k6",
+      "xlink_b": "levant-539bc-332bc::p6"
     },
     {
       "confidence": "high",
@@ -47366,6 +47476,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Darius I",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "achaemenid-550bc-330bc",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Return from Exile and the Second Temple",
+        "decade": "510s BC–530s"
+      },
+      "b": {
+        "folio": "levant-539bc-332bc",
+        "id": "p2",
+        "cat": "power",
+        "label": "Zerubbabel and the Second Temple's Completion",
+        "decade": "510s BC–520s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "achaemenid-550bc-330bc::b3",
+      "xlink_b": "levant-539bc-332bc::p2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Darius I",
         "Nile–Red Sea"
       ],
       "sharedCount": 2,
@@ -48426,6 +48562,32 @@
       "date_flag": "overlapping",
       "xlink_a": "uruk-3800bc-2900bc::xc4",
       "xlink_b": "zagros-elam-8000bc-3200bc::tc2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Artaxerxes I",
+        "Artaxerxes II"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "levant-539bc-332bc",
+        "id": "p4",
+        "cat": "power",
+        "label": "Ezra and a Contested Chronology",
+        "decade": "0s"
+      },
+      "b": {
+        "folio": "mesopotamia-539bc-331bc",
+        "id": "k4",
+        "cat": "power",
+        "label": "The long Achaemenid peace",
+        "decade": "350s BC–460s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "levant-539bc-332bc::p4",
+      "xlink_b": "mesopotamia-539bc-331bc::k4"
     },
     {
       "confidence": "low",
@@ -51864,6 +52026,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Babylon",
+        "Cyrus Cylinder"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "achaemenid-550bc-330bc",
+        "id": "b5",
+        "cat": "belief",
+        "label": "The Cyrus Cylinder and the Restoration of Marduk",
+        "decade": "530s BC"
+      },
+      "b": {
+        "folio": "levant-539bc-332bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "Cyrus's Edict and the Return",
+        "decade": "530s BC–530s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "achaemenid-550bc-330bc::b5",
+      "xlink_b": "levant-539bc-332bc::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Babylon",
         "Hanging Gardens"
       ],
       "sharedCount": 2,
@@ -53242,6 +53430,32 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Babylon",
+        "Cyrus Cylinder"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "babylon-1155bc-539bc",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "The Cyrus Cylinder and the propaganda of liberation",
+        "decade": "530s BC"
+      },
+      "b": {
+        "folio": "levant-539bc-332bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "Cyrus's Edict and the Return",
+        "decade": "530s BC–530s"
+      },
+      "date_flag": "1yr gap",
+      "xlink_a": "babylon-1155bc-539bc::xc5",
+      "xlink_b": "levant-539bc-332bc::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Babylon",
         "Uruk"
       ],
       "sharedCount": 2,
@@ -54203,6 +54417,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Exile",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "achaemenid-550bc-330bc",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Return from Exile and the Second Temple",
+        "decade": "510s BC–530s"
+      },
+      "b": {
+        "folio": "levant-539bc-332bc",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "A Modest Province Rebuilding after Exile",
+        "decade": "400s BC–530s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "achaemenid-550bc-330bc::b3",
+      "xlink_b": "levant-539bc-332bc::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Jerusalem",
         "Judah"
       ],
@@ -54562,6 +54802,32 @@
       "date_flag": "652yr gap — verify same entity, not just shared theme",
       "xlink_a": "fatimids-909-1171::x4",
       "xlink_b": "rome-300-400::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Cyrus Cylinder",
+        "Cyrus Edict"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "achaemenid-550bc-330bc",
+        "id": "o5",
+        "cat": "order",
+        "label": "Cyrus's Edict for Jerusalem",
+        "decade": "530s BC"
+      },
+      "b": {
+        "folio": "levant-539bc-332bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "Cyrus's Edict and the Return",
+        "decade": "530s BC–530s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "achaemenid-550bc-330bc::o5",
+      "xlink_b": "levant-539bc-332bc::p1"
     },
     {
       "confidence": "low",
