@@ -278,20 +278,6 @@
       "subtitle": "Bihzad's painting and the monuments of Samarkand and Herat",
       "entries": [
         {
-          "id": "e1",
-          "group": "Manuscript & Book Arts",
-          "tag": "OBJECT",
-          "date": "c.1480–1506",
-          "label": "Bihzad's Manuscript Painting",
-          "loc": "Herat",
-          "coords": [
-            34.35,
-            62.2
-          ],
-          "hint": "Working at Sultan Husayn Bayqara's Herat court, Kamal ud-Din Bihzad brought Persian manuscript illustration to a level of psychological nuance, spatial complexity and individualised characterisation that later generations across the Persian, Ottoman and Mughal worlds treated as the standard against which all subsequent miniature painting was measured.",
-          "note": "Bihzad-attributed manuscript paintings, Topkapi Palace Museum, British Library and other collections."
-        },
-        {
           "id": "e2",
           "group": "Architecture",
           "tag": "MONUMENT",
@@ -318,6 +304,20 @@
           ],
           "hint": "Shah Rukh's wife Gawhar Shad personally commissioned a major mosque and madrasa complex at Herat and a companion complex at Mashhad, among the finest surviving examples of Timurid religious architecture — monumental building projects funded and directed by a royal woman in her own name, not merely attributed to her husband's reign.",
           "note": "Gawhar Shad Mosque, Herat and Mashhad, extant and partially surviving structures."
+        },
+        {
+          "id": "e1",
+          "group": "Manuscript & Book Arts",
+          "tag": "OBJECT",
+          "date": "c.1480–1506",
+          "label": "Bihzad's Manuscript Painting",
+          "loc": "Herat",
+          "coords": [
+            34.35,
+            62.2
+          ],
+          "hint": "Working at Sultan Husayn Bayqara's Herat court, Kamal ud-Din Bihzad brought Persian manuscript illustration to a level of psychological nuance, spatial complexity and individualised characterisation that later generations across the Persian, Ottoman and Mughal worlds treated as the standard against which all subsequent miniature painting was measured.",
+          "note": "Bihzad-attributed manuscript paintings, Topkapi Palace Museum, British Library and other collections."
         }
       ]
     },
@@ -368,20 +368,6 @@
       "subtitle": "Trade recovering under Timurid stability, and an embassy to Ming China",
       "entries": [
         {
-          "id": "ec1",
-          "group": "Trade & Commerce",
-          "tag": "ECONOMIC",
-          "date": "1405–1500",
-          "label": "Trade Recovers under Timurid Stability",
-          "loc": "Herat",
-          "coords": [
-            34.35,
-            62.2
-          ],
-          "hint": "After the destruction of Timur's own campaigns, the relative stability of Shah Rukh's and his successors' reigns allowed Silk Road commerce through Herat and Samarkand to recover substantially — the same cities that had suffered worst under Timur's conquest becoming, within a generation, major beneficiaries of the peace his heirs maintained.",
-          "note": "Comparative economic history of Timurid-era Central Asian and Iranian trade recovery."
-        },
-        {
           "id": "ec2",
           "group": "Agriculture & Land",
           "tag": "ECONOMIC",
@@ -394,6 +380,20 @@
           ],
           "hint": "Shah Rukh's administration invested in restoring irrigation infrastructure and resettling agricultural land depopulated by his father's campaigns — a direct policy response to the specific economic damage Timur's own conquests had inflicted on the very regions his son now needed to govern productively.",
           "note": "Hafiz-i Abru, Zubdat al-Tawarikh, on Shah Rukh's agricultural policy."
+        },
+        {
+          "id": "ec1",
+          "group": "Trade & Commerce",
+          "tag": "ECONOMIC",
+          "date": "1405–1500",
+          "label": "Trade Recovers under Timurid Stability",
+          "loc": "Herat",
+          "coords": [
+            34.35,
+            62.2
+          ],
+          "hint": "After the destruction of Timur's own campaigns, the relative stability of Shah Rukh's and his successors' reigns allowed Silk Road commerce through Herat and Samarkand to recover substantially — the same cities that had suffered worst under Timur's conquest becoming, within a generation, major beneficiaries of the peace his heirs maintained.",
+          "note": "Comparative economic history of Timurid-era Central Asian and Iranian trade recovery."
         }
       ]
     },
@@ -405,20 +405,6 @@
       "accent": "#B7770D",
       "subtitle": "Samarkand's observatory instruments and Herat's architecture",
       "entries": [
-        {
-          "id": "tc1",
-          "group": "Information & Communication",
-          "tag": "OBJECT",
-          "date": "1420–1437",
-          "label": "Samarkand's Observatory Instruments",
-          "loc": "Samarkand",
-          "coords": [
-            39.65,
-            66.96
-          ],
-          "hint": "Ulugh Beg's observatory housed a giant sextant partially cut into a hillside, among the largest astronomical measuring instruments ever constructed for naked-eye observation — an engineering solution to instrument-scale precision problems that pre-telescopic astronomy anywhere else in the world rarely attempted to match.",
-          "note": "Ulugh Beg Observatory remains, Samarkand, rediscovered by archaeological excavation in 1908."
-        },
         {
           "id": "tc2",
           "group": "Civil Engineering",
@@ -432,6 +418,20 @@
           ],
           "hint": "Gawhar Shad's mosque and madrasa complex employed sophisticated tile-mosaic (kashi) techniques and structural innovations in dome and minaret construction that Timurid builders had refined across successive projects at Samarkand, Herat and Mashhad, representing a mature and confident engineering tradition rather than experimental early efforts.",
           "note": "Gawhar Shad Mosque complex, Herat, extant and partially surviving structure."
+        },
+        {
+          "id": "tc1",
+          "group": "Information & Communication",
+          "tag": "OBJECT",
+          "date": "1420–1437",
+          "label": "Samarkand's Observatory Instruments",
+          "loc": "Samarkand",
+          "coords": [
+            39.65,
+            66.96
+          ],
+          "hint": "Ulugh Beg's observatory housed a giant sextant partially cut into a hillside, among the largest astronomical measuring instruments ever constructed for naked-eye observation — an engineering solution to instrument-scale precision problems that pre-telescopic astronomy anywhere else in the world rarely attempted to match.",
+          "note": "Ulugh Beg Observatory remains, Samarkand, rediscovered by archaeological excavation in 1908."
         }
       ]
     },
@@ -480,7 +480,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "A conqueror who reshaped Eurasia, and the vacuum his empire left behind",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1370–1405",
+          "label": "A Conqueror Reshapes Eurasia",
+          "loc": "Samarkand",
+          "coords": [
+            39.65,
+            66.96
+          ],
+          "hint": "Timur's campaigns touched territory from Delhi to Moscow to Damascus to Ankara within a single reign, delaying the Ottoman Empire's rise by a decade, devastating the Golden Horde's power in the Russian steppe, and redrawing the political map of Iran, Central Asia and northern India — a geographic range of consequence matched by very few individual military careers in world history.",
+          "note": "Comparative assessment of Timur's campaigns' geopolitical consequences across Eurasia."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1449–1501",
+          "label": "The Vacuum His Empire Left Behind",
+          "loc": "Tabriz",
+          "coords": [
+            38.08,
+            46.29
+          ],
+          "hint": "Timur's empire fractured within decades of his death into a settled but politically weakened Timurid remnant centred on Herat and a series of Turkmen and, eventually, a new Safavid power contesting western Iran — the conqueror's vast territorial reach proved far easier to seize than to institutionalise into a lasting unified state.",
+          "note": "Comparative political geography of the fragmenting post-Timurid Iranian world, 15th century."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -489,7 +518,36 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Gawhar Shad's patronage, and the demographic toll of Timur's campaigns",
-      "entries": []
+      "entries": [
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "tag": "EVIDENCE",
+          "date": "1387",
+          "label": "The Demographic Toll of Timur's Campaigns",
+          "loc": "Isfahan",
+          "coords": [
+            32.65,
+            51.68
+          ],
+          "hint": "As with the earlier Mongol conquest, court-commissioned chronicles' casualty figures for cities like Isfahan almost certainly exceed what the cities' actual populations could have supplied — but modern historians agree the underlying pattern of mass killing, forced deportation of skilled populations to Samarkand, and genuine demographic collapse across much of Iran was real, whatever the precise numbers.",
+          "note": "Sharaf al-Din Ali Yazdi, Zafarnama; modern demographic critique of medieval Timurid-era casualty figures."
+        },
+        {
+          "id": "l1",
+          "group": "Women's Agency",
+          "tag": "EVIDENCE",
+          "date": "1417–1438",
+          "label": "Gawhar Shad's Independent Patronage",
+          "loc": "Herat",
+          "coords": [
+            34.35,
+            62.2
+          ],
+          "hint": "Gawhar Shad commissioned, funded and directed major architectural projects at Herat and Mashhad in her own name and by her own initiative rather than merely as an extension of her husband Shah Rukh's rule — documented evidence of a royal woman exercising substantial independent authority over resources and public monuments in her own right.",
+          "note": "Gawhar Shad Mosque foundation inscriptions, Herat and Mashhad."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -498,88 +556,256 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "Regional Successors (1335–1387)",
-      "events": []
+      "events": [
+        {
+          "y": 1360,
+          "l": "The Jalayirids, Muzaffarids and Karts",
+          "entryId": "p1"
+        }
+      ]
     },
     {
       "id": "timurid-empire",
       "icon": "⚜️",
       "accent": "#8B3A00",
       "label": "Timur and the Empire (1370–1405)",
-      "events": []
+      "events": [
+        {
+          "y": 1370,
+          "l": "Timur — the Conqueror",
+          "entryId": "p2",
+          "y2": 1405
+        }
+      ]
     },
     {
       "id": "timurid-renaissance",
       "icon": "⚜️",
       "accent": "#7A200A",
       "label": "The Timurid Renaissance (1405–1506)",
-      "events": []
+      "events": [
+        {
+          "y": 1405,
+          "l": "Shah Rukh and the Timurid Renaissance",
+          "entryId": "p3",
+          "y2": 1447
+        },
+        {
+          "y": 1447,
+          "l": "Ulugh Beg — the Astronomer King",
+          "entryId": "p4",
+          "y2": 1449
+        },
+        {
+          "y": 1470,
+          "l": "Sultan Husayn Bayqara and Late Timurid Herat",
+          "entryId": "p5",
+          "y2": 1506
+        }
+      ]
     },
     {
       "id": "turkmen-confederations",
       "icon": "⚜️",
       "accent": "#5C1806",
       "label": "The Turkmen Confederations (1375–1501)",
-      "events": []
+      "events": [
+        {
+          "y": 1438,
+          "l": "The Qara Qoyunlu and Aq Qoyunlu",
+          "entryId": "p6"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": 1383,
+          "l": "Timur Subdues the Regional Successors",
+          "entryId": "c1"
+        },
+        {
+          "y": 1387,
+          "l": "The Sack of Isfahan",
+          "entryId": "c2"
+        },
+        {
+          "y": 1400,
+          "l": "Delhi and Ankara",
+          "entryId": "c3"
+        },
+        {
+          "y": 1467,
+          "l": "Uzun Hasan Defeats Jahan Shah",
+          "entryId": "c4"
+        },
+        {
+          "y": 1473,
+          "l": "The Battle of Otlukbeli",
+          "entryId": "c5"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": 1387,
+          "l": "Timur's Extractive Conquest State",
+          "entryId": "o1"
+        },
+        {
+          "y": 1426,
+          "l": "Shah Rukh's Settled Administration",
+          "entryId": "o2"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": 1400,
+          "l": "The Safavid Order's Quiet Beginnings",
+          "entryId": "b1"
+        },
+        {
+          "y": 1435,
+          "l": "Sunni Orthodoxy under Timurid and Turkmen Rule",
+          "entryId": "b2"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": 1402,
+          "l": "Timur's Monuments at Samarkand",
+          "entryId": "e2"
+        },
+        {
+          "y": 1427,
+          "l": "Gawhar Shad's Herat Complex",
+          "entryId": "e3"
+        },
+        {
+          "y": 1493,
+          "l": "Bihzad's Manuscript Painting",
+          "entryId": "e1"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": 1428,
+          "l": "Ulugh Beg's Star Catalogue",
+          "entryId": "t1"
+        },
+        {
+          "y": 1481,
+          "l": "Jami — the Last Great Classical Persian Poet",
+          "entryId": "t2"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": 1426,
+          "l": "Agricultural Restoration under Shah Rukh",
+          "entryId": "ec2"
+        },
+        {
+          "y": 1450,
+          "l": "Trade Recovers under Timurid Stability",
+          "entryId": "ec1"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": 1427,
+          "l": "Herat's Timurid-Era Architecture",
+          "entryId": "tc2"
+        },
+        {
+          "y": 1428,
+          "l": "Samarkand's Observatory Instruments",
+          "entryId": "tc1"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": 1420,
+          "l": "A Timurid Embassy to the Ming Court",
+          "entryId": "x1"
+        },
+        {
+          "y": 1475,
+          "l": "Chagatai Turkish Literature at the Herat Court",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": 1390,
+          "l": "A Conqueror Reshapes Eurasia",
+          "entryId": "w1"
+        },
+        {
+          "y": 1470,
+          "l": "The Vacuum His Empire Left Behind",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": 1387,
+          "l": "The Demographic Toll of Timur's Campaigns",
+          "entryId": "l2"
+        },
+        {
+          "y": 1427,
+          "l": "Gawhar Shad's Independent Patronage",
+          "entryId": "l1"
+        }
+      ]
     }
   ]
 }
