@@ -1210,6 +1210,16 @@ const SELECTED_PAIRS = [
   ['herod-judea-63bc-135ce::p1', 'hasmonean-332bc-63bc::p9'],  // Pompey's Settlement -> the civil war and appeal to Pompey that caused it
   ['herod-judea-63bc-135ce::p2', 'hasmonean-332bc-63bc::p9'],  // Antipater's rise -> same civil war, Antipater's patron Hyrcanus II's side of it
   ['herod-judea-63bc-135ce::p8', 'egypt-30bc-300ad::k5'],      // Vespasian and Titus's reconquest -> "Vespasian proclaimed at Alexandria," same 69 AD departure
+  // ── roman-byzantine-levant-135-638 (Levant program, Phase 4 complete) — rejected ~26 generic
+  // "Conquest" word-fan-out false positives spanning eras from 2004 BC to the 10th century AD.
+  ['roman-byzantine-levant-135-638::p1', 'herod-judea-63bc-135ce::c5'],  // Aelia Capitolina/Syria Palaestina -> the same renaming act
+  ['roman-byzantine-levant-135-638::p3', 'egypt-300-641::k1'],           // Constantine's conversion -> "Constantine and the Christian turn," Egypt's side
+  ['roman-byzantine-levant-135-638::p4', 'egypt-300-641::k3'],           // Julian's pagan restoration -> "Julian and the pagan last stand," Egypt's side
+  ['roman-byzantine-levant-135-638::p5', 'egypt-300-641::k6'],           // Justinian's building/legal legacy -> "Justinian and Egypt"
+  ['roman-byzantine-levant-135-638::c2', 'sassanid-484-651::c3'],        // the 614 sack -> "Khosrow II captures Jerusalem," same event, Persian side
+  ['roman-byzantine-levant-135-638::c2', 'sassanid-484-651::r4'],        // the 614 sack -> same capture, dual Zoroastrian/Christian framing
+  ['roman-byzantine-levant-135-638::p6', 'sassanid-484-651::r3'],        // Persian conquest/restoration -> Khosrow II and Shirin, the same reign's context
+  ['roman-byzantine-levant-135-638::c4', 'caliphate-632-750::k2'],       // Jerusalem's surrender to Umar -> Umar's own reign entry
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

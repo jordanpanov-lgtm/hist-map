@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1481,
+    "figure_matches": 1511,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 1884,
+    "figure_matches_rejected_date_implausible": 1948,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4813,
+    "keyword_matches": 4818,
     "keyword_matches_rejected_geo_only": 9260,
-    "high_confidence": 1514,
-    "medium_confidence": 365,
-    "low_confidence": 4415
+    "high_confidence": 1544,
+    "medium_confidence": 366,
+    "low_confidence": 4419
   },
   "figure_name_matches": [
     {
@@ -3817,6 +3817,28 @@
       },
       "xlink_a": "caliphate-632-750::k2",
       "xlink_b": "hejaz-632-1517::ex5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Umar",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "k2",
+        "cat": "power",
+        "label": "Umar — the conquest state",
+        "dynasty": "Rashidun",
+        "decade": "630s"
+      },
+      "match": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "Jerusalem's Surrender to Caliph Umar",
+        "decade": "630s"
+      },
+      "xlink_a": "caliphate-632-750::k2",
+      "xlink_b": "roman-byzantine-levant-135-638::c4"
     },
     {
       "confidence": "high",
@@ -9947,6 +9969,28 @@
         "decade": "300s–330s"
       },
       "match": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p3",
+        "cat": "power",
+        "label": "Constantine's Conversion and Christian Patronage",
+        "decade": "310s"
+      },
+      "xlink_a": "egypt-300-641::k1",
+      "xlink_b": "roman-byzantine-levant-135-638::p3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantine",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k1",
+        "cat": "power",
+        "label": "Constantine and the Christian turn",
+        "dynasty": "Constantinian",
+        "decade": "300s–330s"
+      },
+      "match": {
         "folio": "rome-300-400",
         "id": "p4",
         "cat": "power",
@@ -10065,6 +10109,28 @@
       },
       "xlink_a": "egypt-300-641::k3",
       "xlink_b": "mesopotamia-224-637::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Julian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k3",
+        "cat": "power",
+        "label": "Julian and the pagan last stand",
+        "dynasty": "Constantinian",
+        "decade": "360s"
+      },
+      "match": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p4",
+        "cat": "power",
+        "label": "Julian's Pagan Restoration",
+        "decade": "360s"
+      },
+      "xlink_a": "egypt-300-641::k3",
+      "xlink_b": "roman-byzantine-levant-135-638::p4"
     },
     {
       "confidence": "high",
@@ -10241,6 +10307,28 @@
       },
       "xlink_a": "egypt-300-641::k6",
       "xlink_b": "ghassanid-420-638::o1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Justinian",
+      "pivot": {
+        "folio": "egypt-300-641",
+        "id": "k6",
+        "cat": "power",
+        "label": "Justinian and Egypt",
+        "dynasty": "Justinianic",
+        "decade": "520s–560s"
+      },
+      "match": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p5",
+        "cat": "power",
+        "label": "Justinian's Building and Legal Legacy",
+        "decade": "520s–560s"
+      },
+      "xlink_a": "egypt-300-641::k6",
+      "xlink_b": "roman-byzantine-levant-135-638::p5"
     },
     {
       "confidence": "high",
@@ -27295,6 +27383,578 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "babylon-2004bc-1595bc",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The conquest of Mesopotamia, 1764–1755",
+        "decade": "1750s BC–1760s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "babylon-2004bc-1595bc::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "beth-qatraye-632-750",
+        "id": "w3",
+        "cat": "world",
+        "label": "The rise of Islam and the Arab conquest of Persia",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "beth-qatraye-632-750::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "caliphate-632-750",
+        "id": "k2",
+        "cat": "power",
+        "label": "Umar — the conquest state",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "caliphate-632-750::k2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "caliphate-632-750",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The conquest of Egypt",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "caliphate-632-750::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "caliphate-632-750",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The conquest economy — booty, the fifth and the fay'",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "caliphate-632-750::ec1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "caliphate-632-750",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The conquest slave supply and the umm walad",
+        "decade": "640s–750s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "caliphate-632-750::lv4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k17",
+        "cat": "power",
+        "label": "Piye — the conquest of Egypt",
+        "decade": "710s BC–740s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "egypt-1200bc-664bc::k17"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "egypt-1550bc-1200bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The conquest of Kush to the Fourth Cataract",
+        "decade": "1450s BC–1550s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "egypt-1550bc-1200bc::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "egypt-2100bc-1550bc",
+        "id": "k4",
+        "cat": "power",
+        "label": "Senwosret I — the conquest of Lower Nubia",
+        "decade": "1910s BC–1950s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "egypt-2100bc-1550bc::k4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "k13",
+        "cat": "power",
+        "label": "Benjamin I — the Coptic Church survives the conquest",
+        "decade": "620s–660s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "egypt-300-641::k13"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "k15",
+        "cat": "power",
+        "label": "The Arab conquest of Egypt",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "egypt-300-641::k15"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "egypt-300-641",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "The Persian conquest of Egypt",
+        "decade": "610s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "egypt-300-641::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "k1",
+        "cat": "power",
+        "label": "The conquest generation and the naval province",
+        "decade": "640s–680s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "egypt-641-969::k1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "ghassanid-420-638",
+        "id": "w3",
+        "cat": "world",
+        "label": "Muslim conquest of Syria and the Ghassanid end",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "ghassanid-420-638::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "hejaz-300bc-632",
+        "id": "k10",
+        "cat": "power",
+        "label": "The conquest of Mecca and the unification of the Hejaz",
+        "decade": "620s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "hejaz-300bc-632::k10"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "hejaz-300bc-632",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "The conquest of Mecca and Ḥunayn",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "hejaz-300bc-632::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "iran-651-821",
+        "id": "p2",
+        "cat": "power",
+        "label": "Qutayba ibn Muslim and the Conquest of Transoxiana",
+        "decade": "700s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "iran-651-821::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "iran-651-821",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Conquest of Khorasan",
+        "decade": "650s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "iran-651-821::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "iran-651-821",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "Qanat Maintenance under Conquest",
+        "decade": "650s–820s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "iran-651-821::tc2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "iraq-632-945",
+        "id": "k1",
+        "cat": "power",
+        "label": "The conquest and the founding of Kufa and Basra",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "iraq-632-945::k1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "lakhmid-268-602",
+        "id": "w3",
+        "cat": "world",
+        "label": "Abolition creates the vacuum for Islamic conquest",
+        "decade": "600s–630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "lakhmid-268-602::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "mesopotamia-539bc-331bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Cyrus and Cambyses — conquest and continuity",
+        "decade": "520s BC–530s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "mesopotamia-539bc-331bc::k1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "nw-arabia-106-632",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Islamic conquest of the north",
+        "decade": "620s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "nw-arabia-106-632::k8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Battle of al-Qadisiyya — Arab conquest of Iraq",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "sassanid-484-651::c6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "w1",
+        "cat": "world",
+        "label": "Sassanid conquest of Yemen — Arabia entered",
+        "decade": "570s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "sassanid-484-651::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Conquest",
+      "pivot": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "dynasty": null,
+        "decade": "610s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "w2",
+        "cat": "world",
+        "label": "Islamic conquest ends the Sassanid Empire",
+        "decade": "630s"
+      },
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "sassanid-484-651::w2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Caracalla",
       "pivot": {
         "folio": "rome-200-300",
@@ -36177,6 +36837,33 @@
       "date_flag": "overlapping",
       "xlink_a": "qedar-853bc-330bc::ec4",
       "xlink_b": "south-arabia-1200bc-300bc::ec6"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jerusalem",
+        "Khosrow II",
+        "True Cross"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "decade": "610s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Khosrow II captures Jerusalem — True Cross taken",
+        "decade": "610s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "sassanid-484-651::c3"
     },
     {
       "confidence": "medium",
@@ -55094,6 +55781,58 @@
       "date_flag": "23yr gap",
       "xlink_a": "hasmonean-332bc-63bc::c5",
       "xlink_b": "herod-judea-63bc-135ce::p2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Conquest",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Conquest as Economic Policy",
+        "decade": "70s BC–130s"
+      },
+      "b": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "decade": "610s"
+      },
+      "date_flag": "480yr gap — verify same entity, not just shared theme",
+      "xlink_a": "hasmonean-332bc-63bc::ec1",
+      "xlink_b": "roman-byzantine-levant-135-638::p6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jerusalem",
+        "True Cross"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "decade": "610s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "r4",
+        "cat": "belief",
+        "label": "Persian capture of Jerusalem and the True Cross",
+        "decade": "610s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
+      "xlink_b": "sassanid-484-651::r4"
     },
     {
       "confidence": "low",
@@ -101815,6 +102554,32 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "mesopotamia-224-637::k7",
+      "xlink_b": "sassanid-484-651::r3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Khosrow II",
+        "True Cross"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p6",
+        "cat": "power",
+        "label": "Persian Conquest and Byzantine Restoration",
+        "decade": "610s"
+      },
+      "b": {
+        "folio": "sassanid-484-651",
+        "id": "r3",
+        "cat": "belief",
+        "label": "Khosrow II and his Christian wife Shirin",
+        "decade": "590s–620s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "roman-byzantine-levant-135-638::p6",
       "xlink_b": "sassanid-484-651::r3"
     },
     {
@@ -155012,6 +155777,32 @@
       "date_flag": "overlapping",
       "xlink_a": "south-arabia-1200bc-300bc::x1",
       "xlink_b": "south-arabia-300bc-628::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aelia Capitolina",
+        "Syria Palaestina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Bar Kokhba Revolt Crushed",
+        "decade": "130s"
+      },
+      "b": {
+        "folio": "roman-byzantine-levant-135-638",
+        "id": "p1",
+        "cat": "power",
+        "label": "Aelia Capitolina and a Purged Name",
+        "decade": "130s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "herod-judea-63bc-135ce::c5",
+      "xlink_b": "roman-byzantine-levant-135-638::p1"
     },
     {
       "confidence": "low",
