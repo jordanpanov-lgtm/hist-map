@@ -21,7 +21,97 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Khomeini's founding, Khamenei's long tenure, and a rotating cast of presidents",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Supreme Leaders",
+          "dynasty": "Islamic Republic",
+          "label": "Ayatollah Khomeini — Founding the Islamic Republic",
+          "date": "1979–1989",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Returning from exile in February 1979 to a collapsing monarchy, Khomeini oversaw an April 1979 referendum establishing an Islamic Republic and a December 1979 constitution built around his own doctrine of velayat-e faqih (guardianship of the Islamic jurist) — creating a political system with an elected president and parliament operating under the ultimate authority of an unelected clerical Supreme Leader.",
+          "tag": "SUCCESSION",
+          "note": "Constitution of the Islamic Republic of Iran (1979), full text; 1979 referendum results as reported by the Iranian government."
+        },
+        {
+          "id": "p2",
+          "group": "Supreme Leaders",
+          "dynasty": "Islamic Republic",
+          "label": "Ali Khamenei — Supreme Leader",
+          "date": "1989–2026",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Selected by the Assembly of Experts to succeed Khomeini within a day of his death in 1989, Ali Khamenei has held the position of Supreme Leader for over three and a half decades, making him — as of 2026 — the second-longest-serving head of state in modern Iranian history after Mohammad Reza Shah.",
+          "tag": "SUCCESSION",
+          "note": "Assembly of Experts selection announcement (June 1989); Iranian state media reporting on Khamenei's tenure, current as of 2026."
+        },
+        {
+          "id": "p3",
+          "group": "Presidents",
+          "dynasty": "Islamic Republic",
+          "label": "The Early Presidents — Bani-Sadr to Rafsanjani",
+          "date": "1980–1997",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Abolhassan Bani-Sadr, Iran's first president, was impeached by parliament and fled the country in 1981 amid a power struggle with clerical authorities; Ali Khamenei then served as president himself from 1981 until his elevation to Supreme Leader in 1989, followed by Akbar Hashemi Rafsanjani's two terms overseeing postwar economic reconstruction.",
+          "tag": "SUCCESSION",
+          "note": "Iranian parliamentary impeachment records (1981); Iranian presidential election results, 1981–1993."
+        },
+        {
+          "id": "p4",
+          "group": "Presidents",
+          "dynasty": "Islamic Republic",
+          "label": "Khatami's Reformist Era",
+          "date": "1997–2005",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Mohammad Khatami won the presidency with a large majority on a platform of political and social liberalisation, expanding press freedom and civil society space for several years before conservative institutions — the judiciary, the Guardian Council, and security bodies outside his direct control — rolled back much of the reform agenda's practical scope by the end of his second term.",
+          "tag": "SUCCESSION",
+          "note": "Iranian presidential election results (1997, 2001); comparative assessment of press and civil-society space during the Khatami presidency."
+        },
+        {
+          "id": "p5",
+          "group": "Presidents",
+          "dynasty": "Islamic Republic",
+          "label": "Ahmadinejad and the Disputed 2009 Election",
+          "date": "2005–2013",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Mahmoud Ahmadinejad's combative foreign-policy rhetoric and disputed 2009 re-election — which opposition candidates and their supporters rejected as fraudulent, triggering the largest street protests since the revolution — marked a period of sharpened international confrontation over the nuclear programme alongside serious internal political contestation over the election result itself.",
+          "note": "Iranian Interior Ministry's official 2009 election results; comparative international and opposition assessments disputing those results."
+        },
+        {
+          "id": "p6",
+          "group": "Presidents",
+          "dynasty": "Islamic Republic",
+          "label": "Rouhani, Raisi, and the Present",
+          "date": "2013–2026",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Hassan Rouhani's presidency negotiated the 2015 nuclear agreement before its unilateral American withdrawal in 2018; Ebrahim Raisi, elected in 2021, died in a helicopter crash in May 2024; Masoud Pezeshkian was elected to succeed him in July 2024 and remains in office as of 2026.",
+          "tag": "SUCCESSION",
+          "note": "Iranian Interior Ministry election results, 2013–2024; Iranian government statements on Raisi's death and the 2024 election."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +120,78 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "The hostage crisis, the Iran-Iraq War, and three decades of street protest",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Hostage Crisis",
+          "tag": "EVENT",
+          "date": "1979–1981",
+          "label": "The Iran Hostage Crisis",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Iranian students seized the US embassy in Tehran in November 1979, holding 52 American diplomats and staff hostage for 444 days — the crisis dominated US-Iran relations for the following two years and severed formal diplomatic relations between the two countries that remain broken as of 2026.",
+          "note": "US State Department records on the hostage crisis; the hostages were released on 20 January 1981."
+        },
+        {
+          "id": "c2",
+          "group": "The Iran-Iraq War",
+          "tag": "BATTLE",
+          "date": "1980–1988",
+          "label": "The Iran-Iraq War",
+          "loc": "Khorramshahr",
+          "coords": [
+            30.44,
+            48.18
+          ],
+          "hint": "Saddam Hussein's 1980 invasion began eight years of war that included Iraqi chemical weapons use against Iranian forces and civilians and Iranian use of child and teenage volunteers in human-wave assaults — estimated total deaths on both sides range from roughly 500,000 to over a million depending on the source, a wide range reflecting the war's exceptionally poor casualty documentation.",
+          "note": "Comparative Iran-Iraq War casualty estimates from UN, academic and Iranian and Iraqi government sources, which vary substantially."
+        },
+        {
+          "id": "c3",
+          "group": "Street Protest",
+          "tag": "SOCIAL MOVEMENT",
+          "date": "2009",
+          "label": "The Green Movement",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Mass protests following the disputed 2009 presidential election, organised partly through then-novel social media use, represented the largest sustained popular challenge to the Islamic Republic's political system since 1979 — a government crackdown that included documented arrests, deaths and allegations of custodial abuse ended the movement's street presence within several months, though its political effects persisted longer.",
+          "note": "Human Rights Watch and Amnesty International reporting on the 2009 post-election crackdown."
+        },
+        {
+          "id": "c4",
+          "group": "Street Protest",
+          "tag": "SOCIAL MOVEMENT",
+          "date": "2019",
+          "label": "The November 2019 Fuel Protests",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "A sudden government fuel price increase triggered nationwide protests met with a severe security crackdown and a near-total, multi-day internet shutdown that made independent documentation of events unusually difficult — Amnesty International's investigation documented over 300 deaths, while Iranian officials disputed the scale and framing of international estimates.",
+          "note": "Amnesty International, 'Trampling Humanity' report (2020), on the November 2019 protests; Iranian government statements disputing the reported casualty figures."
+        },
+        {
+          "id": "c5",
+          "group": "Street Protest",
+          "tag": "SOCIAL MOVEMENT",
+          "date": "2022–2023",
+          "label": "The Woman, Life, Freedom Protests",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Mahsa Jina Amini's death in the custody of Iran's morality police in September 2022, after her arrest for allegedly improper hijab, triggered months of nationwide protests under the slogan 'Woman, Life, Freedom' — United Nations investigators documented hundreds of deaths and thousands of arrests in the subsequent crackdown, findings the Iranian government has disputed.",
+          "note": "UN Independent International Fact-Finding Mission on the Islamic Republic of Iran, report (2024); Iranian government statements disputing the Mission's findings and mandate."
+        }
+      ]
     },
     {
       "id": "order",
