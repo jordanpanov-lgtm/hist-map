@@ -21,7 +21,68 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Reza Shah's founding, Mosaddegh's nationalist government, and Mohammad Reza Shah's rise and fall",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Reza Shah",
+          "dynasty": "Pahlavi",
+          "label": "Reza Shah — Founding and Forced Modernization",
+          "date": "1925–1941",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Reza Khan, the Cossack Brigade commander whose 1921 coup opened this program's previous folio, had the Majlis depose the Qajars and crown him Reza Shah in 1925 — his sixteen-year reign then pursued rapid, often coercive secularizing modernization (a unified civil code, mandatory Western dress, the mandatory unveiling of women) before Britain and the Soviet Union forced his abdication in 1941 over his perceived wartime sympathy for Germany.",
+          "tag": "COUP",
+          "note": "Iranian and British diplomatic records on the 1925 coronation and the 1941 forced abdication."
+        },
+        {
+          "id": "p2",
+          "group": "Mohammad Reza Shah",
+          "dynasty": "Pahlavi",
+          "label": "Mohammad Reza Shah — the Constrained Early Reign",
+          "date": "1941–1953",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Inheriting the throne at twenty-one under Allied wartime occupation, the young shah spent his first twelve years as a genuinely constrained constitutional monarch, sharing real power with an assertive parliament and a series of prime ministers culminating in Mohammad Mosaddegh — a period his own later, more autocratic decades would look very different from.",
+          "tag": "SUCCESSION",
+          "note": "Comparative Iranian parliamentary records, 1941–1953."
+        },
+        {
+          "id": "p3",
+          "group": "Governments",
+          "dynasty": "National Front",
+          "label": "Mohammad Mosaddegh — Nationalization and Overthrow",
+          "date": "1951–1953",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Prime Minister Mohammad Mosaddegh nationalised the British-controlled Anglo-Iranian Oil Company in 1951 with near-unanimous parliamentary and popular support, defying British economic retaliation for two years before a coup organised by the American CIA and British MI6 — publicly acknowledged by the CIA only in 2013 — removed him from power and restored the shah's full authority.",
+          "tag": "DEPOSED",
+          "note": "CIA internal history of the 1953 coup (declassified and publicly acknowledged, 2013); Iranian parliamentary records on the 1951 nationalization vote."
+        },
+        {
+          "id": "p4",
+          "group": "Mohammad Reza Shah",
+          "dynasty": "Pahlavi",
+          "label": "Mohammad Reza Shah — Absolute Monarchy and Its Collapse",
+          "date": "1953–1979",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Restored to unchallenged power by the 1953 coup, the shah built an increasingly autocratic state around a secret police apparatus (SAVAK), a state-directed reform programme (the White Revolution), and rapid oil-funded modernization — a combination that generated real development alongside deep social dislocation and mounting repression, ending in the mass protests that forced him to leave the country in January 1979.",
+          "tag": "DEPOSED",
+          "note": "Comparative Pahlavi-era Iranian government records and Western diplomatic reporting, 1953–1979."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +91,64 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "Forced abdication, a CIA-backed coup, state repression, and revolution",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Anglo-Soviet Invasion",
+          "tag": "EVENT",
+          "date": "1941",
+          "label": "The Anglo-Soviet Invasion of Iran",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "British and Soviet forces jointly invaded and occupied officially neutral Iran to secure a supply corridor to the Soviet Union and remove Reza Shah, whom they judged too closely aligned with Germany — an invasion that ended with the shah's forced abdication in favour of his young son, a repeat of the foreign violations of Iranian sovereignty that had marked the previous world war as well.",
+          "note": "British and Soviet military and diplomatic records on the 1941 invasion and Reza Shah's abdication."
+        },
+        {
+          "id": "c2",
+          "group": "The 1953 Coup",
+          "tag": "COUP",
+          "date": "1953",
+          "label": "Operation Ajax",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "After an initial attempt to dismiss Mosaddegh by royal decree failed and briefly forced the shah to flee the country, a second, CIA-organised effort mobilised street crowds, bribed military officers and media manipulation to overthrow Mosaddegh within days — a covert operation the CIA's own declassified internal history now confirms in detail, ending Iran's most sustained experiment with constrained constitutional monarchy.",
+          "note": "CIA internal history of TPAJAX (declassified 2013); Ervand Abrahamian, The Coup: 1953, the CIA, and the Roots of Modern U.S.-Iranian Relations (2013)."
+        },
+        {
+          "id": "c3",
+          "group": "State Repression",
+          "tag": "EVIDENCE",
+          "date": "1957–1979",
+          "label": "SAVAK's Campaign against Dissent",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "The shah's secret police, SAVAK, founded in 1957 with American and Israeli intelligence assistance, conducted systematic surveillance, arbitrary detention and documented torture of political dissidents across the political spectrum — from communists to nationalists to religious opposition figures — practices that international human rights organisations, including Amnesty International, formally documented and condemned through the 1970s.",
+          "note": "Amnesty International reports on Iran, 1970s; comparative human rights documentation of SAVAK practices."
+        },
+        {
+          "id": "c4",
+          "group": "The Islamic Revolution",
+          "tag": "SOCIAL MOVEMENT",
+          "date": "1978–1979",
+          "label": "The Islamic Revolution",
+          "loc": "Tehran",
+          "coords": [
+            35.6892,
+            51.389
+          ],
+          "hint": "Mass demonstrations that began in early 1978 escalated after the September 1978 'Black Friday' killings of protesters in Tehran, drawing an unprecedented coalition of religious, nationalist and leftist opposition together — the shah left Iran in January 1979 and the exiled cleric Ruhollah Khomeini returned to Tehran in February to a monarchy that had, within a single year, entirely collapsed.",
+          "note": "Comparative contemporary journalism and later historical scholarship on the 1978–79 revolution's chronology."
+        }
+      ]
     },
     {
       "id": "order",
