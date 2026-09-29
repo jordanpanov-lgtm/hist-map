@@ -1038,6 +1038,16 @@ const SELECTED_PAIRS = [
   // rejected: a generic "Rule" word match to an unrelated Gulf council-governance folio,
   // 1,900 years and an unconnected region apart.
   ['elam-1500bc-1100bc::c3', 'babylon-1155bc-539bc::k1'],            // Nebuchadnezzar I's counter-invasion -> the same event, Babylon's own view
+  // ── elam-1100bc-539bc ∥ media-728bc-550bc (Iran/Persia program, Step 3 closes) ──
+  // rejected: three bare "Elamite" ethnonym coincidences 600 years apart (Middle Elamite
+  // Babylon sack vs. Neo-Elamite religious/linguistic decline), a generic "Babylon" place
+  // match, and three "Fragments" word-coincidences (political fragmentation vs. fragmentary
+  // surviving Roman historical texts — same word, unrelated meanings).
+  ['elam-1100bc-539bc::c4', 'assyria-911bc-609bc::k9'],              // Ashurbanipal's destruction of Susa -> the same king, scholar-king facet
+  ['media-728bc-550bc::c5', 'babylon-1155bc-539bc::k11'],            // Cyrus's revolt against Astyages -> the fall of Babylon to Cyrus
+  ['media-728bc-550bc::l1', 'babylon-1155bc-539bc::k11'],            // Mandane and the infant Cyrus legend -> the fall of Babylon to Cyrus
+  ['media-728bc-550bc::c5', 'mesopotamia-539bc-331bc::k1'],          // Cyrus's revolt against Astyages -> Cyrus and Cambyses, conquest and continuity
+  ['media-728bc-550bc::l1', 'mesopotamia-539bc-331bc::k1'],          // Mandane and the infant Cyrus legend -> Cyrus and Cambyses
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
