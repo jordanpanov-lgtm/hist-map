@@ -21,7 +21,83 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Tahirid twilight, the Saffarid coppersmith, the Samanid renaissance, and the Buyid amirate",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Tahirid Twilight",
+          "dynasty": "Tahirid",
+          "label": "The Tahirids' Twilight",
+          "date": "821–873",
+          "loc": "Nishapur",
+          "coords": [
+            36.21,
+            58.49
+          ],
+          "hint": "The Tahirid governors ruled Khorasan as loyal Abbasid vassals in name while exercising real hereditary autonomy in practice, a stable half-century that ended when the Saffarid Yaqub ibn al-Layth captured Nishapur in 873 and extinguished the dynasty outright — the first of several Iranian regional powers to eclipse Baghdad's direct control.",
+          "tag": "DEPOSED",
+          "note": "al-Tabari, History of Prophets and Kings, on the Tahirid governorship and its fall."
+        },
+        {
+          "id": "p2",
+          "group": "The Saffarids",
+          "dynasty": "Saffarid",
+          "label": "Yaqub ibn al-Layth — the Coppersmith King",
+          "date": "861–879",
+          "loc": "Zaranj, Sistan",
+          "coords": [
+            30.96,
+            61.86
+          ],
+          "hint": "Rising from a coppersmith's trade to lead a band of volunteer fighters against Kharijite rebels in Sistan, Yaqub carved out an independent military state stretching from Sistan through Khorasan, ruling almost entirely by conquest and personal military reputation rather than any dynastic or religious legitimacy claim.",
+          "tag": "SUCCESSION",
+          "note": "al-Tabari, History of Prophets and Kings; Tarikh-i Sistan, on Yaqub's origins and rise."
+        },
+        {
+          "id": "p3",
+          "group": "The Samanids",
+          "dynasty": "Samanid",
+          "label": "The Samanids and the Persian Renaissance",
+          "date": "875–999",
+          "loc": "Bukhara",
+          "coords": [
+            39.77,
+            64.42
+          ],
+          "hint": "Ruling from Bukhara as nominally loyal Abbasid governors, the Samanid amirs presided over the deliberate cultivation of New Persian as a language of high literature and administration for the first time since the conquest — a cultural patronage project whose court poets and scholars would shape Persian civilization for a thousand years afterward.",
+          "tag": "SUCCESSION",
+          "note": "Narshakhi, The History of Bukhara (completed 943), on Samanid rule and patronage."
+        },
+        {
+          "id": "p4",
+          "group": "The Ghaznavid Rise",
+          "dynasty": "Ghaznavid",
+          "label": "Mahmud of Ghazna Overthrows the Samanids",
+          "date": "977–1030",
+          "loc": "Ghazna",
+          "coords": [
+            33.55,
+            68.42
+          ],
+          "hint": "A former Samanid slave-soldier commander, Mahmud built an independent state from Ghazna, extinguished the last Samanid amir in 999, and launched repeated wealth-seeking campaigns into northern India — the first of the Turkic slave-soldier dynasties that would come to dominate much of the Islamic east for centuries afterward.",
+          "tag": "COUP",
+          "note": "al-Utbi, Tarikh-i Yamini, on Mahmud's conquests and the fall of the Samanids."
+        },
+        {
+          "id": "p5",
+          "group": "The Buyids",
+          "dynasty": "Buyid",
+          "label": "The Buyids — Amirate over a Powerless Caliph",
+          "date": "934–1055",
+          "loc": "Shiraz",
+          "coords": [
+            29.61,
+            52.54
+          ],
+          "hint": "Three Daylami brothers from the Caspian highlands built a confederation of amirates across Fars, Iraq and Jibal, and in 945 took physical control of Baghdad itself — ruling as the real military power behind an Abbasid caliph reduced to a purely ceremonial and religious figurehead, a working separation of temporal and spiritual authority that later Islamic states would repeat in various forms.",
+          "tag": "SUCCESSION",
+          "note": "Miskawayh, The Experiences of the Nations, on the Buyid seizure of Baghdad and the caliphate's reduced status."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +106,78 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "The wars that made and unmade the Intermezzo's dynasties",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Saffarid Conquest",
+          "tag": "BATTLE",
+          "date": "873",
+          "label": "Yaqub Captures Nishapur",
+          "loc": "Nishapur",
+          "coords": [
+            36.21,
+            58.49
+          ],
+          "hint": "Yaqub's army took Nishapur and captured the last Tahirid governor, ending the dynasty's half-century of rule over Khorasan in a single campaign — a striking demonstration that a self-made military leader with no dynastic claim at all could now topple an established Abbasid-recognised house.",
+          "note": "al-Tabari, History of Prophets and Kings, on the fall of Nishapur."
+        },
+        {
+          "id": "c2",
+          "group": "The Saffarid Conquest",
+          "tag": "BATTLE",
+          "date": "876",
+          "label": "The Battle of Dayr al-Aqul",
+          "loc": "Dayr al-Aqul, near Baghdad",
+          "coords": [
+            33.2,
+            44.7
+          ],
+          "hint": "Yaqub's march directly on Baghdad itself was stopped only narrowly by Abbasid forces at Dayr al-Aqul — a battle that, had it gone the other way, might have installed a coppersmith's dynasty on the caliphal throne's very doorstep two generations before the Buyids managed the feat by more patient means.",
+          "note": "al-Tabari, History of Prophets and Kings, on the Battle of Dayr al-Aqul."
+        },
+        {
+          "id": "c3",
+          "group": "The Samanid-Saffarid Wars",
+          "tag": "BATTLE",
+          "date": "900",
+          "label": "The Samanids Defeat the Saffarids",
+          "loc": "Balkh",
+          "coords": [
+            36.76,
+            66.9
+          ],
+          "hint": "Ismail Samani decisively defeated the Saffarid ruler Amr ibn al-Layth, capturing him and sending him to Baghdad in chains — securing Khorasan for Samanid rule and reducing the Saffarids to a much-diminished regional power confined to their Sistan heartland.",
+          "note": "Narshakhi, The History of Bukhara, on Ismail Samani's victory over Amr ibn al-Layth."
+        },
+        {
+          "id": "c4",
+          "group": "The Buyid Conquest of Baghdad",
+          "tag": "BATTLE",
+          "date": "945",
+          "label": "Ahmad ibn Buya Enters Baghdad",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.36
+          ],
+          "hint": "Ahmad ibn Buya occupied Baghdad and received the title Mu'izz al-Dawla from the caliph al-Mustakfi, who was blinded and deposed within the year on Buyid orders — the moment an Abbasid caliph's continued existence became entirely dependent on the military favour of a dynasty that did not even share his branch of Islam.",
+          "note": "Miskawayh, The Experiences of the Nations, on the Buyid occupation of Baghdad."
+        },
+        {
+          "id": "c5",
+          "group": "The Ghaznavid Rise",
+          "tag": "BATTLE",
+          "date": "999",
+          "label": "The Fall of the Samanids",
+          "loc": "Bukhara",
+          "coords": [
+            39.77,
+            64.42
+          ],
+          "hint": "A coordinated collapse — Qarakhanid Turks invading from the north while Mahmud of Ghazna's forces pressed from the south — extinguished Samanid rule within a single year, ending the dynasty whose court had incubated the Persian literary renaissance and dividing its territory between two rising Turkic powers.",
+          "note": "al-Utbi, Tarikh-i Yamini, on the joint Qarakhanid-Ghaznavid conquest."
+        }
+      ]
     },
     {
       "id": "order",
