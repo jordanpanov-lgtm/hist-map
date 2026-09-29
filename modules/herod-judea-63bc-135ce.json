@@ -1,0 +1,815 @@
+{
+  "id": "herod-judea-63bc-135ce",
+  "title": "Herodian and Roman Judea",
+  "subtitle": "63 BC–135 AD · From Pompey's Conquest to the Bar Kokhba Revolt",
+  "period": {
+    "start": -63,
+    "end": 135
+  },
+  "region": "Levant",
+  "period_label": "Late Antique",
+  "mapCenter": [
+    31.78,
+    35.22
+  ],
+  "mapZoom": 7,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "A client king, direct Roman rule, and two revolts against it",
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Roman Client Rule",
+          "tag": "EVENT",
+          "date": "63 BC",
+          "label": "Pompey's Settlement",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Following his capture of the Temple Mount, Pompey confirmed Hyrcanus II as high priest and ethnarch but stripped him of the royal title, detached the coastal cities and the Decapolis from Judean control, and made the reduced territory tributary to Rome — a settlement that ended Hasmonean independence without formally annexing the territory outright, the arrangement inherited and gradually reshaped by the following century of client and then direct Roman rule.",
+          "note": "Josephus, Antiquities 14.73–76; compare hasmonean-332bc-63bc::c5 for the siege itself.",
+          "keywords": ["Jerusalem","Pompey Settlement","Temple Mount","Hyrcanus II"]
+        },
+        {
+          "id": "p2",
+          "group": "Roman Client Rule",
+          "tag": "EVENT",
+          "date": "63–40 BC",
+          "label": "Antipater's Rise",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Antipater, an Idumean whose own family had been forcibly converted to Judaism a generation earlier under John Hyrcanus I, built a career as Hyrcanus II's indispensable advisor and became the real power behind the nominal high priest-ethnarch, securing formal Roman recognition and the office of procurator of Judea from Julius Caesar in 47 BC after providing decisive military support in Caesar's Egyptian campaign.",
+          "note": "Josephus, Antiquities 14.127–155; compare hasmonean-332bc-63bc::l2 on the earlier forced Idumean conversion behind Antipater's own family background.",
+          "keywords": ["Jerusalem","Antipater Rise","John Hyrcanus I","Hyrcanus II","Julius Caesar","Caesar Egyptian"]
+        },
+        {
+          "id": "p3",
+          "group": "Herod's Rise",
+          "tag": "EVENT",
+          "date": "40 BC",
+          "label": "The Parthian Invasion and Herod's Flight",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "A Parthian invasion installed the last Hasmonean prince, Antigonus II, as king in Jerusalem, forcing Antipater's son Herod to flee first to Masada and then to Rome — where, in an unusual move, the Senate declared him \"King of the Jews\" in absentia, leaving him to spend the next three years fighting his way back into a kingdom he had been granted only on paper.",
+          "note": "Josephus, Antiquities 14.370–389, on Herod's Senate appointment, 40 BC.",
+          "keywords": ["Jerusalem","Parthian Invasion","Herod Flight","Antigonus II"]
+        },
+        {
+          "id": "p4",
+          "group": "Herod's Reign",
+          "tag": "REIGN",
+          "date": "37–4 BC",
+          "label": "Herod, King of the Jews",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Herod finally captured Jerusalem with Roman military support in 37 BC, executed Antigonus — the first time Rome had a client king formally executed — and ruled for over three decades combining lavish building projects that transformed Judea's landscape with an increasingly paranoid domestic reign that saw him execute his beloved Hasmonean wife Mariamne I and three of his own sons on suspicion of conspiracy, prompting the Emperor Augustus's own reported remark that it was safer to be Herod's pig than his son.",
+          "note": "Josephus, Antiquities 15.202–236 (Mariamne's execution), 16.392–394 and 17.182–187 (his sons' executions); Macrobius, Saturnalia 2.4.11, preserves the (likely apocryphal but long-circulated) \"pig\" remark attributed to Augustus.",
+          "keywords": ["Jerusalem","Herod","Jews","Mariamne I"]
+        },
+        {
+          "id": "p5",
+          "group": "Herod's Reign",
+          "tag": "SUCCESSION",
+          "date": "4 BC",
+          "label": "Herod's Kingdom Divided",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Herod's will, confirmed with modifications by Augustus after his death, split the kingdom three ways among his surviving sons: Archelaus received Judea, Samaria and Idumea as ethnarch, Herod Antipas received Galilee and Perea as tetrarch, and Philip received the northeastern territories, also as tetrarch — none inheriting their father's royal title, a deliberate Roman diminishment of the dynasty's status.",
+          "note": "Josephus, Antiquities 17.188–323, on Herod's will and its confirmation.",
+          "keywords": ["Jerusalem","Herod Kingdom Divided","Herod Antipas"]
+        },
+        {
+          "id": "p6",
+          "group": "Direct Roman Rule",
+          "tag": "EVENT",
+          "date": "6 AD",
+          "label": "Direct Roman Rule Begins",
+          "loc": "Caesarea Maritima",
+          "coords": [
+            34.89,
+            32.5
+          ],
+          "hint": "Archelaus's misrule provoked a joint Jewish and Samaritan delegation to Rome demanding his removal, and Augustus responded by deposing him and annexing Judea, Samaria and Idumea directly as a Roman province governed by an equestrian prefect based at Caesarea Maritima — a status quo, punctuated by the brief restoration of a client kingdom under Herod Agrippa I (41–44 AD), that lasted until the province's full incorporation following the revolts covered below.",
+          "note": "Josephus, Antiquities 17.342–355; Pontius Pilate (prefect, 26–36 AD) is the best-attested holder of this office, confirmed independently by the Pilate Stone inscription found at Caesarea in 1961.",
+          "keywords": ["Caesarea Maritima","Direct Roman Rule Begins","Herod Agrippa I"]
+        },
+        {
+          "id": "p7",
+          "group": "The Great Revolt",
+          "tag": "EVENT",
+          "date": "66 AD",
+          "label": "The Great Revolt's Outbreak",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Escalating tension between the Jewish population and a provocative Roman administration under the procurator Gessius Florus — including his seizure of Temple treasury funds and the massacre of protesting residents — erupted into open revolt when Temple authorities halted the daily sacrifice offered on the Roman emperor's behalf, an act tantamount to a declaration of rebellion against Rome itself.",
+          "note": "Josephus, Jewish War 2.293–457.",
+          "keywords": ["Jerusalem","Revolt Outbreak","Gessius Florus"]
+        },
+        {
+          "id": "p8",
+          "group": "The Great Revolt",
+          "tag": "EVENT",
+          "date": "67–70 AD",
+          "label": "Vespasian and Titus's Reconquest",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Vespasian systematically reconquered Galilee before being proclaimed emperor during the Roman civil war of 69 AD, leaving his son Titus to complete the campaign against Jerusalem, which fell after a siege compounded by savage internal factional fighting among the city's own Jewish defenders that historians generally judge to have significantly weakened its resistance to the external Roman assault.",
+          "note": "Josephus, Jewish War 3–6, including his own detailed account of internal factional violence (Jewish War 5.1–38) among the besieged.",
+          "keywords": ["Jerusalem","Vespasian","Titus Reconquest"]
+        },
+        {
+          "id": "p9",
+          "group": "The Bar Kokhba Revolt",
+          "tag": "EVENT",
+          "date": "132–135 AD",
+          "label": "Bar Kokhba's Brief Kingdom",
+          "loc": "Betar",
+          "coords": [
+            31.7,
+            35.12
+          ],
+          "hint": "Simon bar Kokhba led a second major revolt against Rome, provoked by Hadrian's plans to found a pagan colony on Jerusalem's ruins and, in some reconstructions, a ban on circumcision, briefly establishing an independent Jewish state that minted its own coinage and dated documents to \"the freedom of Israel\" before Hadrian committed massive military reinforcements that crushed the revolt after three years, at enormous cost to Judea's Jewish population.",
+          "note": "Cassius Dio, Roman History 69.12–14; Bar Kokhba's own administrative letters, found in the Cave of Letters (Nahal Hever), independently confirm his title \"Prince of Israel\" and administrative reach.",
+          "keywords": ["Betar","Bar Kokhba Brief Kingdom","Judea Jewish"]
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "Herod takes Jerusalem, and Rome ends the Temple and two rebellions",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Herod Takes Power",
+          "tag": "EVENT",
+          "date": "37 BC",
+          "label": "Herod's Siege of Jerusalem",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Herod besieged his own capital for five months with Roman legionary support before finally storming it, capturing and executing the last Hasmonean king Antigonus and having to personally intervene, at considerable expense, to stop his Roman allies from indiscriminately sacking the city he intended to rule.",
+          "note": "Josephus, Antiquities 14.469–491.",
+          "keywords": ["Herod Siege of Jerusalem"]
+        },
+        {
+          "id": "c2",
+          "group": "The Great Revolt",
+          "tag": "EVENT",
+          "date": "66 AD",
+          "label": "Cestius Gallus's Defeat",
+          "loc": "Beth Horon",
+          "coords": [
+            31.9,
+            35.05
+          ],
+          "hint": "The Roman governor of Syria's initial attempt to suppress the revolt ended in a humiliating retreat from Jerusalem's outskirts and a devastating ambush in the pass at Beth Horon that destroyed a significant portion of his legionary force — an early rebel victory that convinced Rome the uprising required a full-scale military campaign rather than a punitive expedition.",
+          "note": "Josephus, Jewish War 2.499–555.",
+          "keywords": ["Beth Horon","Cestius Gallus Defeat"]
+        },
+        {
+          "id": "c3",
+          "group": "The Great Revolt",
+          "tag": "EVENT",
+          "date": "70 AD",
+          "label": "The Siege and Destruction of Jerusalem",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "After a siege lasting several months, compounded by famine and internal factional slaughter inside the walls, Titus's forces breached Jerusalem, burned the Second Temple, and destroyed most of the city — an event of such enduring significance for Jewish history and religious practice that its date, the ninth of Av, became a lasting day of mourning still observed as such today.",
+          "note": "Josephus, Jewish War 6.220–442.",
+          "keywords": ["Siege","Destruction of Jerusalem"]
+        },
+        {
+          "id": "c4",
+          "group": "The Great Revolt",
+          "tag": "EVENT",
+          "date": "73–74 AD",
+          "label": "Masada's Fall and a Debated Mass Suicide",
+          "loc": "Masada",
+          "coords": [
+            31.32,
+            35.35
+          ],
+          "hint": "The last rebel holdout at Masada fell after a Roman siege ramp finally breached its defences, and Josephus describes the defenders choosing mass suicide over capture or slaughter — a dramatic account modern archaeologists and historians treat with real caution, since the excavated remains (a small number of skeletons, far fewer than the roughly nine hundred Josephus describes) neither confirm nor clearly refute the story's scale, leaving the episode's precise historicity a genuinely open question rather than settled fact.",
+          "note": "Josephus, Jewish War 7.252–406; Yigael Yadin's Masada excavations (1963–65) found far fewer human remains than the narrative's casualty figures would suggest, a discrepancy noted and debated in subsequent scholarship.",
+          "keywords": ["Masada Fall","Debated Mass Suicide"]
+        },
+        {
+          "id": "c5",
+          "group": "The Bar Kokhba Revolt",
+          "tag": "EVENT",
+          "date": "135 AD",
+          "label": "The Bar Kokhba Revolt Crushed",
+          "loc": "Betar",
+          "coords": [
+            31.7,
+            35.12
+          ],
+          "hint": "Roman forces under Hadrian's personal direction besieged and destroyed Bar Kokhba's last stronghold at Betar, killing Bar Kokhba himself and, per ancient and modern estimates alike, causing catastrophic Jewish population losses and mass enslavement across Judea — after which Hadrian renamed the province Syria Palaestina and rebuilt Jerusalem as the pagan colony Aelia Capitolina, barring Jews from entering it, a deliberate erasure of the territory's Judean name and identity that outlasted the Roman Empire itself.",
+          "note": "Cassius Dio, Roman History 69.13–14, giving (likely exaggerated but indicative of contemporary perception) casualty figures in the hundreds of thousands.",
+          "keywords": ["Betar","Bar Kokhba Revolt Crushed","Syria Palaestina","Aelia Capitolina"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "From client kingdom to Roman province, and building as control",
+      "entries": [
+        {
+          "id": "o2",
+          "group": "Herod's Methods",
+          "tag": "EVIDENCE",
+          "date": "37–4 BC",
+          "label": "Building as Political Control",
+          "loc": "Caesarea Maritima",
+          "coords": [
+            34.89,
+            32.5
+          ],
+          "hint": "Herod's building programme was never merely decorative: fortress-palaces like Masada and the Herodium gave him refuges independent of any city's population, the new port city of Caesarea Maritima created a Roman-oriented administrative and military base outside Jerusalem's more restive Jewish population centre, and the vastly expanded Temple itself was calculated to buy the religious legitimacy his Idumean, non-Davidic, non-Hasmonean background could never otherwise supply.",
+          "note": "Josephus, Antiquities 15.267–425, on Herod's building programme and its political rationale.",
+          "keywords": ["Caesarea Maritima","Building","Political Control"]
+        },
+        {
+          "id": "o1",
+          "group": "Provincial Administration",
+          "tag": "EVIDENCE",
+          "date": "63 BC–135 AD",
+          "label": "From Client Kingdom to Roman Province",
+          "loc": "Caesarea Maritima",
+          "coords": [
+            34.89,
+            32.5
+          ],
+          "hint": "Judea's constitutional status shifted repeatedly across two centuries — tributary ethnarchy under Hyrcanus II, full client kingdom under Herod, divided ethnarchy and tetrarchies under his sons, direct equestrian-prefect provincial rule, a brief restored client kingdom under Agrippa I, and finally a more heavily garrisoned consular province after 70 AD — each shift reflecting Rome's steadily hardening judgement that indirect rule through local client authorities was no longer sufficient to keep the territory quiet.",
+          "note": "Comparative institutional timeline drawn from Josephus's continuous narrative across Antiquities and Jewish War, 63 BC–135 AD.",
+          "keywords": ["Caesarea Maritima","Client Kingdom","Province","Hyrcanus II","Agrippa I"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "An expanded Temple, its destruction, and Judaism remade without it",
+      "entries": [
+        {
+          "id": "b1",
+          "group": "The Second Temple's Peak",
+          "tag": "WORK",
+          "date": "20 BC–63 AD",
+          "label": "The Herodian Temple, Vastly Expanded",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Herod nearly doubled the Temple Mount's platform through massive retaining walls of precisely cut ashlar stone — a section of the western wall survives today as Judaism's holiest accessible site — and rebuilt the sanctuary itself on a scale contemporaries described as among the most magnificent structures in the entire Roman world, a project whose stonework construction continued for decades after Herod's own death and was completed barely six years before its total destruction.",
+          "note": "Josephus, Antiquities 15.380–425; the Temple's construction is described as ongoing until c.63 AD, shortly before the Great Revolt began in 66 AD.",
+          "keywords": ["Jerusalem","Herodian Temple","Vastly Expanded","Temple Mount"]
+        },
+        {
+          "id": "b2",
+          "group": "A Galilean Preacher",
+          "tag": "EVIDENCE",
+          "date": "c.30 AD",
+          "label": "Jesus of Nazareth, Executed under Pilate",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "A Galilean Jewish preacher named Jesus was crucified in Jerusalem during Pontius Pilate's prefecture, an execution attested not only in Christian sources but independently, if briefly, by the Roman historian Tacitus and in a passage of Josephus most scholars judge to be an authentic core later expanded by Christian editors — the core historical facts of his existence, teaching activity and execution are about as well attested as anything from this period, while the theological claims Christian tradition builds on them (his resurrection, messianic identity and divinity) are matters of religious belief rather than claims the historical record itself can adjudicate.",
+          "note": "Tacitus, Annals 15.44; Josephus, Antiquities 18.63–64 (the \"Testimonium Flavianum,\" with its core authenticity and later Christian interpolation both widely accepted by modern scholarship); the Gospels themselves are the primary but theologically shaped narrative sources.",
+          "keywords": ["Jerusalem","Jesus of Nazareth","Executed","Galilean Jewish","Pontius Pilate"]
+        },
+        {
+          "id": "b3",
+          "group": "After the Temple",
+          "tag": "EVENT",
+          "date": "70 AD",
+          "label": "The Temple's Destruction Ends Sacrificial Judaism",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "The Temple's burning in 70 AD permanently ended the sacrificial cult that had stood, with one interruption, at the centre of Judean religious practice since Solomon's reign — a rupture at least as consequential as the Babylonian exile itself, and one Judaism this time adapted to permanently rather than through eventual restoration, since no Third Temple has ever been built.",
+          "note": "Compare israel-judah-1200bc-586bc::w2 for the earlier, ultimately temporary loss of the First Temple.",
+          "keywords": ["Jerusalem","Temple Destruction Ends Sacrificial Judaism"]
+        },
+        {
+          "id": "b4",
+          "group": "After the Temple",
+          "tag": "EVENT",
+          "date": "c.70 AD",
+          "label": "Yohanan ben Zakkai and Rabbinic Judaism's Beginning",
+          "loc": "Yavneh",
+          "coords": [
+            34.74,
+            31.88
+          ],
+          "hint": "According to a much-later rabbinic tradition, the sage Yohanan ben Zakkai had himself smuggled out of besieged Jerusalem in a coffin to negotiate with Vespasian for permission to establish an academy at Yavneh — whatever the story's precise historicity, a real rabbinic study centre did emerge there in the Temple's immediate aftermath, beginning the long process of reconstituting Judaism around Torah study, prayer and rabbinic legal interpretation rather than Temple sacrifice.",
+          "note": "Babylonian Talmud, Gittin 56a-b, the primary but considerably later source for the coffin narrative; the historical emergence of a rabbinic centre at Yavneh in this period is independently plausible though less precisely documented than the legend's vivid details.",
+          "keywords": ["Yavneh","Yohanan","Zakkai","Rabbinic Judaism Beginning"]
+        },
+        {
+          "id": "b5",
+          "group": "A Messiah Who Failed",
+          "tag": "EVIDENCE",
+          "date": "132–135 AD",
+          "label": "Rabbi Akiva and a Messiah Who Failed",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "The prominent sage Rabbi Akiva reportedly endorsed Simon bar Kokhba as a possible messianic figure, even applying to him a biblical verse about a \"star\" arising from Jacob — an endorsement rabbinic tradition remembered with considerable ambivalence once the revolt collapsed catastrophically, illustrating how directly religious hope and political rebellion could intertwine, and how painfully later tradition had to reckon with a messianic claim that had failed.",
+          "note": "Jerusalem Talmud, Ta'anit 4:8, on Rabbi Akiva's reported endorsement, applying Numbers 24:17 (\"a star shall come out of Jacob\") to Bar Kokhba — whose own name may derive from this association (bar kokhba, \"son of a star\").",
+          "keywords": ["Jerusalem","Rabbi Akiva","Messiah Who Failed"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "Herodian architecture, and Masada preserved by its own end",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Herodian Architecture",
+          "tag": "WORK",
+          "date": "22–10 BC",
+          "label": "Caesarea Maritima's Harbor and Monuments",
+          "loc": "Caesarea Maritima",
+          "coords": [
+            34.89,
+            32.5
+          ],
+          "hint": "Herod built an entirely new Mediterranean port city on an unpromising stretch of coastline, complete with a temple to Roma and Augustus, a theatre, an amphitheatre, a palace built out on a promontory into the sea, and an artificial deep-water harbour among the largest engineering projects anywhere in the contemporary Roman world — a showcase city named, tellingly, not for any Jewish tradition but for the Roman emperor himself.",
+          "note": "Josephus, Antiquities 15.331–341, on Caesarea's construction, completed c.10 BC.",
+          "keywords": ["Caesarea Maritima Harbor","Monuments"]
+        },
+        {
+          "id": "e2",
+          "group": "Preserved by Destruction",
+          "tag": "EVIDENCE",
+          "date": "73–74 AD",
+          "label": "Masada, Preserved by Its Own Fall",
+          "loc": "Masada",
+          "coords": [
+            31.32,
+            35.35
+          ],
+          "hint": "The Roman siege that ended Masada's resistance also, paradoxically, preserved it — the site's subsequent abandonment left Herod's palace complexes, storerooms, ritual baths and the Roman circumvallation wall and siege ramp remarkably intact for two thousand years, making Masada one of the best-preserved and most completely excavated royal and military complexes to survive from the entire Herodian period.",
+          "note": "Yigael Yadin's Masada excavations (1963–1965); UNESCO World Heritage Site designation (2001) citing the exceptional preservation of both the Herodian palace complexes and the Roman siege works.",
+          "keywords": ["Masada","Preserved","Own Fall"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "A general who became his conquerors' historian",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "A Historian's Divided Loyalties",
+          "tag": "EVIDENCE",
+          "date": "67–100 AD",
+          "label": "Josephus, Soldier Turned Historian",
+          "loc": "Rome",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Josephus commanded Jewish forces in Galilee at the revolt's outset, surrendered to Vespasian's forces at Jotapata rather than join a suicide pact with his fellow defenders, was retained afterward as an interpreter and advisor to the Roman command, and spent the rest of his life in Rome writing under Flavian patronage — a genuinely unusual vantage point from which nearly everything modern historians know about the Great Revolt and much of the preceding Herodian period is filtered, shaped by an author who had personally switched sides and needed both Roman patrons and Jewish readers to find his account credible.",
+          "note": "Josephus, Jewish War 3.340–408, on his own surrender at Jotapata, 67 AD; his subsequent career under Flavian patronage in Rome, c.71–100 AD.",
+          "keywords": ["Rome","Josephus","Soldier Turned Historian"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "Monumental building as royal and imperial policy",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Building as Policy",
+          "tag": "EVIDENCE",
+          "date": "37–4 BC",
+          "label": "Monumental Building as Royal Policy",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Herod's simultaneous construction projects across his kingdom — the Temple, Caesarea, Masada, the Herodium, Jericho's winter palaces and more — required a tax burden his own subjects repeatedly complained about even as the work itself employed enormous numbers of labourers, including, according to Josephus, over ten thousand skilled workers on the Temple alone, a deliberate policy of converting royal revenue into permanent monuments and short-term employment alike.",
+          "note": "Josephus, Antiquities 15.390 (Temple workforce numbers); 17.204–205, on popular resentment of Herod's taxation to fund his building programme.",
+          "keywords": ["Jerusalem","Monumental Building","Royal Policy"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "Underwater concrete at Caesarea's engineered harbor",
+      "entries": [
+        {
+          "id": "tc1",
+          "group": "Roman Engineering",
+          "tag": "WORK",
+          "date": "22–10 BC",
+          "label": "Underwater Concrete at Caesarea's Harbor",
+          "loc": "Caesarea Maritima",
+          "coords": [
+            34.89,
+            32.5
+          ],
+          "hint": "Caesarea's engineered harbour used Roman hydraulic concrete (opus caementicium, mixed with volcanic ash imported specifically for the purpose) poured into wooden forms and sunk directly onto the seabed to create breakwaters in open water — a genuinely advanced application of Roman maritime engineering technology transplanted to the Judean coast, creating one of the ancient Mediterranean's largest artificial harbours where no natural one existed.",
+          "note": "Underwater archaeological survey of Caesarea's harbour installations (the Caesarea Ancient Harbour Excavation Project), confirming the use of imported pozzolanic concrete poured in situ underwater.",
+          "keywords": ["Caesarea Maritima","Underwater Concrete","Caesarea Harbor"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "A client king's careful balance with Rome",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Managing Rome",
+          "tag": "EVIDENCE",
+          "date": "40–4 BC",
+          "label": "A Client King's Careful Balance",
+          "loc": "Rome",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Herod's long survival in power depended on personally cultivating successive Roman patrons through the chaos of Rome's own civil wars — securing his Senate appointment through Mark Antony's favour, then, after backing the losing side at Actium, successfully convincing the victorious Octavian (soon Augustus) of his continued usefulness rather than being deposed as a defeated ally — a diplomatic survival skill his successors would prove far less able to replicate.",
+          "note": "Josephus, Antiquities 15.187–201, on Herod's successful post-Actium meeting with Octavian, 30 BC.",
+          "keywords": ["Rome","Client King Careful Balance","Mark Antony"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "Judea within Rome's client-kingdom system, then under direct rule",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Within Rome's System",
+          "tag": "EVENT",
+          "date": "63 BC–135 AD",
+          "label": "Judea within Rome's Client System, Then Direct Rule",
+          "loc": "Rome",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Judea's trajectory from tributary ethnarchy to client kingdom to directly administered province to a heavily garrisoned post-rebellion territory mirrors a pattern Rome applied across many of its eastern frontier territories — client rule as a low-cost first stage, replaced by direct annexation once local unrest, dynastic instability or strategic concerns made indirect governance seem too unreliable, a progression that here culminated in two of the most severe rebellion-suppression campaigns Rome conducted anywhere in its empire.",
+          "note": "Comparative framing of Rome's client-kingdom-to-province pattern across its eastern territories, of which Judea's trajectory is a particularly well-documented and consequential example.",
+          "keywords": ["Judea","Rome Client System","Direct Rule"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "A general's surrender, and famine inside a besieged city",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "A Personal Reckoning",
+          "tag": "EVIDENCE",
+          "date": "67 AD",
+          "label": "A General's Surrender at Jotapata",
+          "loc": "Jotapata (Yodfat)",
+          "coords": [
+            35.79,
+            32.33
+          ],
+          "hint": "Trapped in a cave with surviving companions who had agreed to a mutual suicide pact rather than surrender, the Jewish commander Josephus reportedly manipulated the order of a lot-drawing to ensure he was among the last two left alive, then persuaded his final companion to surrender alongside him rather than complete the pact — his own frank account of surviving through calculation rather than the heroic death his comrades chose is a rare instance of a contemporary figure narrating his own morally compromised survival in unusually candid terms.",
+          "note": "Josephus, Jewish War 3.340–391, in his own first-person account of the Jotapata cave episode.",
+          "keywords": ["Jotapata Yodfat","Surrender"]
+        },
+        {
+          "id": "l2",
+          "group": "Ordinary Suffering",
+          "tag": "EVIDENCE",
+          "date": "70 AD",
+          "label": "Famine within a Besieged City",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Josephus's account of Jerusalem's final siege describes ordinary residents searching sewers and dung heaps for scraps of food, armed factions torturing suspected hidden-food-hoarders, and, in the narrative's most harrowing episode, a starving mother killing and eating her own infant son — extreme claims impossible to verify in every particular but consistent with the severe, sustained famine conditions a months-long siege of an overcrowded, blockaded city would predictably produce.",
+          "note": "Josephus, Jewish War 5.424–438 (general famine conditions), 6.201–213 (the Mary of Bethezuba episode), the latter's specific historicity often treated with particular scholarly caution even where the broader famine conditions are considered plausible.",
+          "keywords": ["Jerusalem","Famine","Besieged City"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "power",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "events": [
+        {
+          "y": -63,
+          "l": "Pompey's Settlement",
+          "entryId": "p1"
+        },
+        {
+          "y": -63,
+          "l": "Antipater's Rise",
+          "entryId": "p2",
+          "y2": -40
+        },
+        {
+          "y": -40,
+          "l": "The Parthian Invasion and Herod's Flight",
+          "entryId": "p3"
+        },
+        {
+          "y": -37,
+          "l": "Herod, King of the Jews",
+          "entryId": "p4",
+          "y2": -4
+        },
+        {
+          "y": -4,
+          "l": "Herod's Kingdom Divided",
+          "entryId": "p5"
+        },
+        {
+          "y": 6,
+          "l": "Direct Roman Rule Begins",
+          "entryId": "p6"
+        },
+        {
+          "y": 66,
+          "l": "The Great Revolt's Outbreak",
+          "entryId": "p7"
+        },
+        {
+          "y": 67,
+          "l": "Vespasian and Titus's Reconquest",
+          "entryId": "p8",
+          "y2": 70
+        },
+        {
+          "y": 132,
+          "l": "Bar Kokhba's Brief Kingdom",
+          "entryId": "p9",
+          "y2": 135
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": -37,
+          "l": "Herod's Siege of Jerusalem",
+          "entryId": "c1"
+        },
+        {
+          "y": 66,
+          "l": "Cestius Gallus's Defeat",
+          "entryId": "c2"
+        },
+        {
+          "y": 70,
+          "l": "The Siege and Destruction of Jerusalem",
+          "entryId": "c3"
+        },
+        {
+          "y": 73,
+          "l": "Masada's Fall and a Debated Mass Suicide",
+          "entryId": "c4",
+          "y2": 74
+        },
+        {
+          "y": 135,
+          "l": "The Bar Kokhba Revolt Crushed",
+          "entryId": "c5"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": -20,
+          "l": "Building as Political Control",
+          "entryId": "o2"
+        },
+        {
+          "y": 0,
+          "l": "From Client Kingdom to Roman Province",
+          "entryId": "o1"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": -20,
+          "l": "The Herodian Temple, Vastly Expanded",
+          "entryId": "b1",
+          "y2": 63
+        },
+        {
+          "y": 30,
+          "l": "Jesus of Nazareth, Executed under Pilate",
+          "entryId": "b2"
+        },
+        {
+          "y": 70,
+          "l": "The Temple's Destruction Ends Sacrificial Judaism",
+          "entryId": "b3"
+        },
+        {
+          "y": 70,
+          "l": "Yohanan ben Zakkai and Rabbinic Judaism's Beginning",
+          "entryId": "b4"
+        },
+        {
+          "y": 132,
+          "l": "Rabbi Akiva and a Messiah Who Failed",
+          "entryId": "b5",
+          "y2": 135
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": -15,
+          "l": "Caesarea Maritima's Harbor and Monuments",
+          "entryId": "e1"
+        },
+        {
+          "y": 73,
+          "l": "Masada, Preserved by Its Own Fall",
+          "entryId": "e2",
+          "y2": 74
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 80,
+          "l": "Josephus, Soldier Turned Historian",
+          "entryId": "t1"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": -15,
+          "l": "Monumental Building as Royal Policy",
+          "entryId": "ec1"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "events": [
+        {
+          "y": -15,
+          "l": "Underwater Concrete at Caesarea's Harbor",
+          "entryId": "tc1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": -30,
+          "l": "A Client King's Careful Balance",
+          "entryId": "x1"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "events": [
+        {
+          "y": 0,
+          "l": "Judea within Rome's Client System, Then Direct Rule",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 67,
+          "l": "A General's Surrender at Jotapata",
+          "entryId": "l1"
+        },
+        {
+          "y": 70,
+          "l": "Famine within a Besieged City",
+          "entryId": "l2"
+        }
+      ]
+    }
+  ]
+}
