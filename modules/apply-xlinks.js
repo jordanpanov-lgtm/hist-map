@@ -1059,6 +1059,27 @@ const SELECTED_PAIRS = [
   ['iran-821-1055::p5', 'eastern-arabia-750-1200::w3'],              // the Buyids -> the Buyids take Baghdad, Eastern Arabia's view
   ['iran-821-1055::o2', 'iraq-945-1258::k1'],                        // the Buyid amirate as a model -> the Buyid amirs in the caliph's name, Iraq's own folio
   ['iran-821-1055::b1', 'iraq-945-1258::k1'],                        // Twelver Shiism under Buyid patronage -> the Buyid amirs in the caliph's name
+  // ── iran-1055-1219 (Iran/Persia program, Step 4 continued) ──
+  // rejected: two "Sunni" matches to Ayyubid Egypt's own separate, century-later Sunni
+  // restoration (a parallel trend, not the same movement), and a cluster of bare "Seljuk"
+  // dynasty-word mismatches that paired entries with unrelated topics (e.g. an architecture
+  // entry matched to a succession-war entry) rather than their real counterparts.
+  ['iran-1055-1219::p1', 'caliphate-945-1258::k9'],                  // Tughril Beg founds the sultanate -> the Seljuks take Baghdad
+  ['iran-1055-1219::c1', 'caliphate-945-1258::k9'],                  // Tughril Beg enters Baghdad -> the same event
+  ['iran-1055-1219::p2', 'caliphate-945-1258::k10'],                 // Alp Arslan -> Alp Arslan, Malik-Shah and Nizam al-Mulk
+  ['iran-1055-1219::p3', 'caliphate-945-1258::k10'],                 // Malik-Shah and Nizam al-Mulk -> the same trio
+  ['iran-1055-1219::p4', 'caliphate-945-1258::k10'],                 // the fragmentation after Malik-Shah -> the same trio's reign
+  ['iran-1055-1219::p2', 'caliphate-945-1258::c3'],                  // Alp Arslan, Manzikert -> Manzikert
+  ['iran-1055-1219::c2', 'caliphate-945-1258::c3'],                  // the Battle of Manzikert -> the same battle
+  ['iran-1055-1219::w1', 'caliphate-945-1258::c3'],                  // Manzikert's long consequences -> Manzikert
+  ['iran-1055-1219::p3', 'caliphate-945-1258::o2'],                  // Malik-Shah and Nizam al-Mulk -> Nizam al-Mulk's manual of rule
+  ['iran-1055-1219::c3', 'caliphate-945-1258::o2'],                  // the assassination of Nizam al-Mulk -> the same figure
+  ['iran-1055-1219::t2', 'caliphate-945-1258::o2'],                  // the Siyasatnama -> Nizam al-Mulk's manual of rule (the same work)
+  ['iran-1055-1219::b2', 'caliphate-945-1258::b1'],                  // the Sunni revival under Seljuk patronage -> the same Sunni revival
+  ['iran-1055-1219::b1', 'fatimids-909-1171::b5'],                   // the Nizari state at Alamut -> the da'wa split that produced the Nizaris
+  ['iran-1055-1219::p3', 'iraq-945-1258::k3'],                       // Malik-Shah and Nizam al-Mulk -> Nizam al-Mulk and the vizieral state
+  ['iran-1055-1219::c3', 'iraq-945-1258::k3'],                       // the assassination of Nizam al-Mulk -> the same figure
+  ['iran-1055-1219::t2', 'iraq-945-1258::k3'],                       // the Siyasatnama -> Nizam al-Mulk and the vizieral state
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
