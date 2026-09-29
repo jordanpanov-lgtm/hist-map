@@ -1,0 +1,592 @@
+{
+  "id": "levant-750-1099",
+  "title": "The Levant between Empires",
+  "subtitle": "750–1099 AD · From Abbasid Periphery to the First Crusade",
+  "period": {
+    "start": 750,
+    "end": 1099
+  },
+  "region": "Levant",
+  "period_label": "Medieval",
+  "mapCenter": [
+    33.51,
+    36.28
+  ],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "A periphery under Baghdad, then Egypt-based dynasties, then a rival caliphate",
+      "entries": [
+        {
+          "id": "p1",
+          "group": "A Distant Capital",
+          "tag": "EVENT",
+          "date": "750–878 AD",
+          "label": "A Periphery under Baghdad",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.36
+          ],
+          "hint": "The Abbasid Revolution's relocation of the caliphate's capital to Iraq reduced Syria and Palestine from the political center of the Islamic world to one province among many governed at a distance from Baghdad — a genuine demotion in status, if not in local prosperity, whose full consequences would only become apparent once Baghdad's own control over its distant western territories began loosening within little more than a century.",
+          "note": "Compare levant-634-750::p3 and w1 for Damascus's earlier, very different status as the caliphate's own capital.",
+          "keywords": ["Baghdad","Periphery","Abbasid Revolution"]
+        },
+        {
+          "id": "p2",
+          "group": "Egypt-Based Rule",
+          "tag": "REIGN",
+          "date": "878–905 AD",
+          "label": "Ahmad ibn Tulun's Autonomous Rule",
+          "loc": "Cairo (Fustat)",
+          "coords": [
+            30.01,
+            31.23
+          ],
+          "hint": "Ahmad ibn Tulun, an Abbasid governor sent to Egypt, extended his authority into Syria and Palestine and ruled both as a functionally independent state — paying nominal tribute and lip service to Baghdad's caliphal authority while retaining full practical control — establishing a pattern of Egypt-based rule over the Levant that would recur repeatedly over the following centuries under different dynasties.",
+          "note": "al-Kindi and other Egyptian chroniclers on Ibn Tulun's Syrian expansion, 878 AD onward; direct Abbasid control was briefly restored in 905 AD before the pattern resumed under the Ikhshidids.",
+          "keywords": ["Cairo Fustat","Ahmad ibn Tulun Autonomous Rule"]
+        },
+        {
+          "id": "p3",
+          "group": "Egypt-Based Rule",
+          "tag": "REIGN",
+          "date": "935–969 AD",
+          "label": "The Ikhshidids Restore Egypt-Based Rule",
+          "loc": "Cairo (Fustat)",
+          "coords": [
+            30.01,
+            31.23
+          ],
+          "hint": "Muhammad ibn Tughj, granted the Persian honorific title al-Ikhshid, re-established the same Egypt-based semi-autonomous rule over Syria and Palestine that Ibn Tulun's dynasty had earlier pioneered, governing effectively independently of Baghdad until his own dynasty was itself displaced by a far more consequential conqueror arriving from the west.",
+          "note": "al-Maqrizi's later Mamluk-era compilations remain a principal narrative source for the Ikhshidid period, 935–969 AD.",
+          "keywords": ["Cairo Fustat","Ikhshidids Restore Egypt-Based Rule","Muhammad ibn Tughj","Ibn Tulun"]
+        },
+        {
+          "id": "p4",
+          "group": "A Rival Caliphate",
+          "tag": "EVENT",
+          "date": "969 AD",
+          "label": "The Fatimid Conquest and a Rival Caliphate",
+          "loc": "Cairo (Fustat)",
+          "coords": [
+            30.01,
+            31.23
+          ],
+          "hint": "The Ismaili Shia Fatimid dynasty, having built its power base in North Africa, conquered Egypt and extended its authority into Syria and Palestine, openly proclaiming its own caliph as the sole legitimate leader of the Muslim community in direct religious and political rivalry with the Sunni Abbasid caliph still ruling in Baghdad — the Levant now found itself contested territory between two caliphates that each denied the other's fundamental legitimacy.",
+          "note": "Founding of Fatimid Cairo (al-Qahira) as the new dynasty's capital, 969 AD.",
+          "keywords": ["Cairo Fustat","Fatimid Conquest","Rival Caliphate","Ismaili Shia Fatimid","North Africa","Sunni Abbasid"]
+        },
+        {
+          "id": "p5",
+          "group": "New Conquerors Arrive",
+          "tag": "EVENT",
+          "date": "1073 AD",
+          "label": "The Seljuk Conquest of Jerusalem",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Atsiz ibn Uvaq, a Turkmen commander aligned with the rapidly expanding Seljuk sultanate, captured Jerusalem from Fatimid control — ending over a century of direct Fatimid rule over the city and introducing a new Turkish-Sunni political and military presence into a Levant that had, for the previous hundred years, been principally a Fatimid-Byzantine contest.",
+          "note": "Ibn al-Athir, al-Kamil fi al-Ta'rikh, on Atsiz's conquest of Jerusalem and southern Palestine, 1073 AD.",
+          "keywords": ["Seljuk Conquest of Jerusalem","Atsiz ibn Uvaq"]
+        },
+        {
+          "id": "p6",
+          "group": "New Conquerors Arrive",
+          "tag": "EVENT",
+          "date": "1098–1099 AD",
+          "label": "A Fatimid Reconquest, Then the Crusaders",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "Exploiting a succession crisis among the Seljuks' regional successors, the Fatimids recaptured Jerusalem in 1098 — meaning it was Fatimid, not Seljuk Turkish, forces the arriving First Crusade actually fought and defeated when it besieged and captured the city the following year, a historical irony given that reports of Seljuk mistreatment of Christian pilgrims had featured prominently in the Crusade's own original preaching.",
+          "note": "Ibn al-Athir and William of Tyre both confirm the Fatimid recapture immediately preceding the Crusader siege; compare crusader-states-1099-1291 for the Crusade's own full narrative.",
+          "keywords": ["Jerusalem","Fatimid Reconquest","Crusaders","Seljuk Turkish"]
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "A Byzantine reconquest, a Seljuk seizure, and the Crusaders' capture of Jerusalem",
+      "entries": [
+        {
+          "id": "c2",
+          "group": "Instability from Arabia",
+          "tag": "EVENT",
+          "date": "930 AD",
+          "label": "Qarmatian Raids Destabilise the Region",
+          "loc": "Mecca",
+          "coords": [
+            21.42,
+            39.83
+          ],
+          "hint": "The radical Ismaili Qarmatian movement, based in eastern Arabia, sacked Mecca during the pilgrimage season, massacred pilgrims and carried off the Kaaba's Black Stone as a trophy, holding it for roughly two decades before eventually returning it — a shocking episode whose broader pattern of periodic Qarmatian raiding also extended into Syria in this period, adding another source of chronic insecurity to a region already passing between competing dynasties.",
+          "note": "al-Tabari's continuators and other 10th-century Arabic chroniclers on the Qarmatian sack of Mecca, 930 AD, and the Black Stone's return, c.951 AD.",
+          "keywords": ["Mecca","Qarmatian Raids Destabilise the Region","Ismaili Qarmatian","Kaaba Black Stone"]
+        },
+        {
+          "id": "c1",
+          "group": "Byzantine Resurgence",
+          "tag": "EVENT",
+          "date": "969 AD",
+          "label": "Byzantine Reconquest of Antioch",
+          "loc": "Antioch",
+          "coords": [
+            36.2,
+            36.16
+          ],
+          "hint": "A Byzantine army recaptured Antioch after more than three centuries of Muslim rule, part of a broader mid-10th-century military resurgence under emperors Nikephoros II Phokas and John I Tzimiskes that pushed Byzantine control back into northern Syria for the first time since the original 7th-century conquest, even though it never extended so far south as to threaten Jerusalem itself.",
+          "note": "Leo the Deacon, History, on the 969 AD recapture of Antioch.",
+          "keywords": ["Reconquest of Antioch","Nikephoros II Phokas","John I Tzimiskes"]
+        },
+        {
+          "id": "c3",
+          "group": "The Crusaders Arrive",
+          "tag": "EVENT",
+          "date": "1099 AD",
+          "label": "The Crusader Capture of Jerusalem",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "After a five-week siege, the First Crusade's forces breached Jerusalem's walls and killed a large proportion of the city's Muslim and Jewish inhabitants in the days that followed — contemporary Christian chroniclers themselves describe the killing in graphic terms, and while some later retellings' most extreme casualty figures are treated with scholarly caution, the massacre's basic scale and severity are not seriously disputed, marking both the end of nearly a century and a half of Byzantine-Fatimid-Seljuk contest for the city and the opening event of the following folio's Crusader period.",
+          "note": "Gesta Francorum and Raymond of Aguilers (Christian eyewitness accounts) and Ibn al-Athir (writing later from Muslim sources) broadly corroborate the massacre's occurrence and severity, if not every specific figure; compare crusader-states-1099-1291 for the Crusader states this conquest established.",
+          "keywords": ["Crusader Capture of Jerusalem"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "Local institutions enduring under repeatedly changing overlords",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Continuity amid Change",
+          "tag": "EVIDENCE",
+          "date": "750–1099 AD",
+          "label": "Local Institutions Endure under Changing Overlords",
+          "loc": "Damascus",
+          "coords": [
+            33.51,
+            36.28
+          ],
+          "hint": "Despite passing through Abbasid, Tulunid, Ikhshidid, Fatimid, Byzantine and Seljuk control within three and a half centuries, Syria and Palestine's local administrative structures — the jund districts inherited from the Umayyads, urban tax-farming arrangements, and local qadi courts — persisted with far more continuity than the frequent changes of distant sovereign suggest, since each new ruler typically found it more practical to work through existing local elites and institutions than to rebuild administration from scratch.",
+          "note": "Comparative institutional-continuity framing across the repeated Abbasid/Tulunid/Ikhshidid/Fatimid/Byzantine/Seljuk transitions in Syria-Palestine, 750–1099 AD.",
+          "keywords": ["Damascus","Local Institutions Endure","Changing Overlords"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "A caliph destroys the Holy Sepulchre, and a faith is born from his memory",
+      "entries": [
+        {
+          "id": "b1",
+          "group": "A Caliph's Persecution",
+          "tag": "EVENT",
+          "date": "1009 AD",
+          "label": "Al-Hakim Destroys the Holy Sepulchre",
+          "loc": "Jerusalem",
+          "coords": [
+            31.7767,
+            35.2345
+          ],
+          "hint": "The Fatimid caliph al-Hakim ordered the complete destruction of the Church of the Holy Sepulchre, one of Christianity's most sacred sites, alongside broader persecuting measures against Christians and Jews across his territory — an act of severe religious violence that shocked contemporary Christendom, though historians remain genuinely divided over how directly, if at all, memory of it fed into the crusading preaching that began nearly a century later, generally regarding it as one grievance among several rather than a direct or sole cause.",
+          "note": "Yahya of Antioch (a contemporary Christian chronicler) provides the fullest near-contemporary account of the 1009 AD destruction; the church was rebuilt decades later with Byzantine assistance.",
+          "keywords": ["Jerusalem","Al-Hakim Destroys the Holy Sepulchre"]
+        },
+        {
+          "id": "b2",
+          "group": "A New Faith Emerges",
+          "tag": "EVIDENCE",
+          "date": "1017–1021 AD",
+          "label": "Al-Hakim and the Druze Faith's Origins",
+          "loc": "Cairo (Fustat)",
+          "coords": [
+            30.01,
+            31.23
+          ],
+          "hint": "A group of Ismaili missionaries began proclaiming al-Hakim a manifestation of the divine shortly before his own unexplained disappearance in 1021, a teaching mainstream Sunni and Shia Islam alike rejected as heretical but which took root as the founding belief of a distinct religious community, the Druze, who developed their own separate theology, practices and social structure across Syria, Lebanon and Palestine in the generations that followed and continue as a distinct faith community in the region today.",
+          "note": "The Druze faith's own theological tradition and its historical emergence from this specific Fatimid-era context is documented in both Druze religious literature and external contemporary Arabic chronicles; the faith's practices and full theology are traditionally kept confidential within an initiated inner circle of the community.",
+          "keywords": ["Cairo Fustat","Al-Hakim","Druze Faith Origins","Shia Islam"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "Fatimid-era building on a contested coast",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Fatimid-Era Building",
+          "tag": "WORK",
+          "date": "10th–11th c. AD",
+          "label": "Building on a Contested Coast",
+          "loc": "Ramla",
+          "coords": [
+            31.93,
+            34.87
+          ],
+          "hint": "Fatimid governors invested in fortifying and embellishing Palestine's coastal and inland cities against the era's chronic instability — Ramla's Great Mosque and its White Tower cistern among the more substantial surviving examples — architectural investment aimed as much at asserting Fatimid authority over a contested and frequently threatened province as at any purely civic or religious purpose.",
+          "note": "Ramla's White Mosque and Pool of Arches (Birkat al-'Anaziya) cistern, Fatimid-era construction, 10th–11th centuries AD.",
+          "keywords": ["Building","Contested Coast","Ramla Great Mosque","White Tower"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "The Cairo Geniza's window into Levantine Jewish life",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "A Documentary Treasury",
+          "tag": "EVIDENCE",
+          "date": "9th–13th c. AD (recovered)",
+          "label": "The Cairo Geniza's Window into Levantine Life",
+          "loc": "Cairo (Fustat)",
+          "coords": [
+            30.01,
+            31.23
+          ],
+          "hint": "A synagogue storeroom in Fustat, where Jewish tradition forbade discarding any document bearing God's name, accumulated several centuries' worth of ordinary papers — trade letters, marriage contracts, personal correspondence — rediscovered and studied only in the modern era, providing historians an unparalleled, unmediated documentary window into the everyday commercial and family life of Jewish communities across the Mediterranean world, Syria-Palestine prominently included, that no literary chronicle from the period comes close to matching in intimate detail.",
+          "note": "Cairo Geniza documents (Cambridge University Library and other collections), principally studied by S.D. Goitein in his multi-volume A Mediterranean Society; documents span roughly the 9th through 13th centuries AD.",
+          "keywords": ["Cairo Fustat","Cairo Geniza Window","Levantine Life"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "Trade disrupted and rerouted by repeated conquest",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Trade under Instability",
+          "tag": "EVIDENCE",
+          "date": "750–1099 AD",
+          "label": "Trade Disrupted and Rerouted",
+          "loc": "Tripoli",
+          "coords": [
+            34.44,
+            35.85
+          ],
+          "hint": "Repeated changes of political control, periodic warfare and the chronic insecurity of Qarmatian and other raiding meant Levantine merchants and caravan routes had to adapt continuously across this period — some trade rerouted away from contested inland roads toward coastal shipping, some Mediterranean commerce shifted toward whichever regional power's ports currently offered the safest and most favourably taxed passage, a pattern of resilient adaptation rather than simple decline.",
+          "note": "Comparative Geniza-document-based reconstruction (following Goitein) of shifting Mediterranean trade patterns and route preferences across political instability, 10th–11th centuries AD.",
+          "keywords": ["Tripoli","Trade Disrupted","Rerouted"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "Fortification adapted to an era of shifting overlords",
+      "entries": [
+        {
+          "id": "tc1",
+          "group": "Fortification",
+          "tag": "EVIDENCE",
+          "date": "9th–11th c. AD",
+          "label": "Fortification Adapted to an Unstable Era",
+          "loc": "Ashkelon",
+          "coords": [
+            31.67,
+            34.57
+          ],
+          "hint": "Successive rulers reinforced and rebuilt coastal fortifications at cities like Ashkelon, Acre and Tripoli against a combination of Byzantine naval raiding, Qarmatian land incursions and each other's rival claims — defensive investment driven less by any single external threat than by the sheer accumulated unpredictability of who might attack next in an era when the region's ultimate overlord changed multiple times within a single lifetime.",
+          "note": "Archaeological evidence for repeated Abbasid, Tulunid, Ikhshidid and Fatimid-era fortification and refortification at Levantine coastal cities, 9th–11th centuries AD.",
+          "keywords": ["Ashkelon","Fortification Adapted","Unstable Era"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "Truces and prisoner exchanges between rival powers",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Rival Powers, Occasional Deals",
+          "tag": "EVIDENCE",
+          "date": "10th–11th c. AD",
+          "label": "Truces and Prisoner Exchanges between Rival Powers",
+          "loc": "Antioch",
+          "coords": [
+            36.2,
+            36.16
+          ],
+          "hint": "Even amid sustained Byzantine-Fatimid rivalry over northern Syria, the two powers periodically negotiated truces, prisoner exchanges and limited trade agreements along their shifting frontier — pragmatic accommodations between officially hostile states that mirror the similar pattern of persistent low-level contact across the earlier Umayyad-Byzantine frontier, evidence that even prolonged geopolitical rivalry rarely meant total severance of practical contact.",
+          "note": "Comparative pattern of Byzantine-Fatimid diplomatic and prisoner-exchange agreements along the Syrian frontier, 10th–11th centuries AD; compare levant-634-750::x1 for the earlier Umayyad-Byzantine equivalent.",
+          "keywords": ["Antioch","Truces","Prisoner Exchanges","Rival Powers"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "A corridor contested by four powers at once",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "A Contested Corridor",
+          "tag": "EVENT",
+          "date": "969–1099 AD",
+          "label": "A Corridor Contested by Four Powers",
+          "loc": "Antioch",
+          "coords": [
+            36.2,
+            36.16
+          ],
+          "hint": "By the late 11th century the Levant sat at the intersection of four distinct power centres' ambitions simultaneously — the Sunni Abbasid caliphate in Baghdad, the Shia Fatimid caliphate in Cairo, a resurgent Byzantium pushing back from Anatolia, and the rapidly expanding Seljuk Turkish sultanate — a genuinely unusual four-way contest that fragmented the region's political authority more thoroughly than at almost any other point in its history, immediately before an entirely new fifth actor arrived from Western Europe.",
+          "note": "Comparative geopolitical framing of the Abbasid-Fatimid-Byzantine-Seljuk four-way contest for Levantine territory and influence, late 11th century AD, immediately preceding the First Crusade's arrival.",
+          "keywords": ["Antioch","Corridor Contested","Four Powers","Sunni Abbasid","Shia Fatimid","Seljuk Turkish"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "A merchant's own words, preserved in a synagogue storeroom",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "A Merchant's Own Words",
+          "tag": "EVIDENCE",
+          "date": "11th c. AD",
+          "label": "A Merchant's Letters, Preserved by Chance",
+          "loc": "Cairo (Fustat)",
+          "coords": [
+            30.01,
+            31.23
+          ],
+          "hint": "Among the Cairo Geniza's hundreds of thousands of fragments survive personal business letters from Jewish merchants trading between Egypt, Syria-Palestine and points further afield, describing shipwrecks, disputed partnerships, family worries and routine commercial haggling in exactly the unguarded, unliterary voice ordinary correspondence takes — individuals who never intended their private letters as historical testimony, preserved purely by a religious scruple against discarding paper bearing God's name.",
+          "note": "Cairo Geniza merchant correspondence, as catalogued and analysed in S.D. Goitein's A Mediterranean Society, 11th century AD examples.",
+          "keywords": ["Cairo Fustat","Merchant Letters","Preserved","Chance","Among the Cairo Geniza"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "power",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "events": [
+        {
+          "y": 750,
+          "l": "A Periphery under Baghdad",
+          "entryId": "p1",
+          "y2": 878
+        },
+        {
+          "y": 878,
+          "l": "Ahmad ibn Tulun's Autonomous Rule",
+          "entryId": "p2",
+          "y2": 905
+        },
+        {
+          "y": 935,
+          "l": "The Ikhshidids Restore Egypt-Based Rule",
+          "entryId": "p3",
+          "y2": 969
+        },
+        {
+          "y": 969,
+          "l": "The Fatimid Conquest and a Rival Caliphate",
+          "entryId": "p4"
+        },
+        {
+          "y": 1073,
+          "l": "The Seljuk Conquest of Jerusalem",
+          "entryId": "p5"
+        },
+        {
+          "y": 1098,
+          "l": "A Fatimid Reconquest, Then the Crusaders",
+          "entryId": "p6",
+          "y2": 1099
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 930,
+          "l": "Qarmatian Raids Destabilise the Region",
+          "entryId": "c2"
+        },
+        {
+          "y": 969,
+          "l": "Byzantine Reconquest of Antioch",
+          "entryId": "c1"
+        },
+        {
+          "y": 1099,
+          "l": "The Crusader Capture of Jerusalem",
+          "entryId": "c3"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 900,
+          "l": "Local Institutions Endure under Changing Overlords",
+          "entryId": "o1"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 1009,
+          "l": "Al-Hakim Destroys the Holy Sepulchre",
+          "entryId": "b1"
+        },
+        {
+          "y": 1017,
+          "l": "Al-Hakim and the Druze Faith's Origins",
+          "entryId": "b2",
+          "y2": 1021
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 1000,
+          "l": "Building on a Contested Coast",
+          "entryId": "e1"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 1000,
+          "l": "The Cairo Geniza's Window into Levantine Life",
+          "entryId": "t1"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 950,
+          "l": "Trade Disrupted and Rerouted",
+          "entryId": "ec1"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "events": [
+        {
+          "y": 950,
+          "l": "Fortification Adapted to an Unstable Era",
+          "entryId": "tc1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 1000,
+          "l": "Truces and Prisoner Exchanges between Rival Powers",
+          "entryId": "x1"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "events": [
+        {
+          "y": 1090,
+          "l": "A Corridor Contested by Four Powers",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 1050,
+          "l": "A Merchant's Letters, Preserved by Chance",
+          "entryId": "l1"
+        }
+      ]
+    }
+  ]
+}
