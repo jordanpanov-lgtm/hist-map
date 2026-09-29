@@ -21,7 +21,50 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Middle Bronze city-states, Egyptian vassalage, and the special case of Ugarit",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Canaanite City-States",
+          "tag": "EVIDENCE",
+          "label": "Middle Bronze Canaanite City-States",
+          "date": "2000–1550 BC",
+          "loc": "Hazor",
+          "coords": [
+            33.02,
+            35.57
+          ],
+          "hint": "Independent walled city-states — Hazor grew into the largest, ruling a substantial hinterland and named in the Mari archives as a major trading partner — each governed by their own local dynasty, with no single Canaanite state ever uniting the region even loosely before Egyptian conquest brought them under a shared, if distant, overlordship.",
+          "note": "Hazor excavations, Yigael Yadin (1955–58, 1968) and later expeditions; Mari letters referencing Hazor."
+        },
+        {
+          "id": "p2",
+          "group": "Egyptian Vassalage",
+          "tag": "EVIDENCE",
+          "label": "Late Bronze Canaan under Egyptian Rule",
+          "date": "1550–1200 BC",
+          "loc": "Megiddo",
+          "coords": [
+            32.59,
+            35.18
+          ],
+          "hint": "Egyptian New Kingdom pharaohs reduced Canaan's city-kings to tribute-paying vassals after Thutmose III's conquests, garrisoning key towns while leaving local dynasties nominally in place — a light-touch imperial administration that the Amarna Letters reveal as prone to constant low-level rivalry and appeals to Egypt for support against neighbouring vassal kings.",
+          "note": "Amarna Letters (EA 244–406, the Canaanite vassal correspondence); Egyptian New Kingdom topographical lists of conquered Canaanite towns."
+        },
+        {
+          "id": "p3",
+          "group": "Ugarit",
+          "tag": "EVIDENCE",
+          "label": "Ugarit's Golden Age",
+          "date": "1450–1200 BC",
+          "loc": "Ugarit (Ras Shamra)",
+          "coords": [
+            35.6,
+            35.78
+          ],
+          "hint": "The northern coastal city-state of Ugarit flourished as a genuinely cosmopolitan trading hub under nominal Hittite rather than Egyptian overlordship, its royal archive preserving an unusually rich body of administrative, diplomatic, legal and religious texts that make it one of the best-documented Bronze Age Levantine states by a wide margin.",
+          "note": "Ras Shamra (Ugarit) excavations, Claude Schaeffer (1929 onward)."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +73,50 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "Thutmose III at Megiddo, Amarna-era rivalries, and the Bronze Age Collapse",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Egyptian Conquest",
+          "tag": "BATTLE",
+          "date": "1457 BC",
+          "label": "The Battle of Megiddo",
+          "loc": "Megiddo",
+          "coords": [
+            32.59,
+            35.18
+          ],
+          "hint": "Thutmose III's decisive victory over a coalition of Canaanite and Syrian rulers at Megiddo, recorded in unusually precise tactical detail on the walls of the Karnak temple, is the earliest battle in world history for which a reasonably detailed eyewitness-derived account survives — the opening campaign of nearly a century of intermittent Egyptian military presence in Canaan.",
+          "note": "Annals of Thutmose III, Karnak Temple inscriptions."
+        },
+        {
+          "id": "c2",
+          "group": "Amarna-Era Rivalries",
+          "tag": "EVIDENCE",
+          "date": "c.1360–1330 BC",
+          "label": "Vassal Rivalries in the Amarna Letters",
+          "loc": "Jerusalem",
+          "coords": [
+            31.78,
+            35.22
+          ],
+          "hint": "Abdi-Heba, the Egyptian vassal ruler of Jerusalem, wrote repeatedly to Pharaoh Akhenaten complaining of attacks by neighbouring city-kings and by armed groups called Apiru, begging for Egyptian troops that mostly never came — correspondence that documents constant low-intensity warfare among Canaan's city-states even while all parties formally professed loyalty to the same Egyptian crown.",
+          "note": "Amarna Letters, Abdi-Heba of Jerusalem correspondence (EA 285–290)."
+        },
+        {
+          "id": "c3",
+          "group": "The Bronze Age Collapse",
+          "tag": "EVENT",
+          "date": "c.1200–1177 BC",
+          "label": "The Bronze Age Collapse in Canaan",
+          "loc": "Hazor",
+          "coords": [
+            33.02,
+            35.57
+          ],
+          "hint": "Hazor, Ugarit and numerous other Late Bronze Age Levantine cities were destroyed or abandoned within a few decades around 1200 BC, alongside the collapse of the Hittite Empire and severe disruption to Egypt itself — a civilisational rupture whose causes (the 'Sea Peoples,' climate-driven drought, internal systems failure, or some combination) remain genuinely debated among specialists.",
+          "note": "Destruction layers at Hazor and Ugarit; Ugarit's own final letters describing an approaching enemy fleet, likely its last surviving documents."
+        }
+      ]
     },
     {
       "id": "order",
