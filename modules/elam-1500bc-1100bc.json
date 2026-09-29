@@ -21,7 +21,68 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "The Igehalkid and Shutrukid dynasties, Chogha Zanbil, and the sack of Babylon",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "The Igehalkid Dynasty",
+          "dynasty": "Igehalkid",
+          "label": "The Igehalkid Dynasty",
+          "date": "c.1400–1275 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Founded by Igehalki, the dynasty consolidated Elam's highland-lowland dual kingship and cultivated marriage ties with the Kassite dynasty ruling Babylon — a period of relative peace and dynastic intermarriage that laid the economic and political foundation for the far more ambitious building and military programs of Igehalki's successors.",
+          "tag": "SUCCESSION",
+          "note": "Igehalkid royal inscriptions, Susa; Kassite-Elamite marriage evidence in Babylonian and Elamite royal titulature."
+        },
+        {
+          "id": "p2",
+          "group": "The Igehalkid Dynasty",
+          "dynasty": "Igehalkid",
+          "label": "Untash-Napirisha and Chogha Zanbil",
+          "date": "c.1275–1240 BC",
+          "loc": "Chogha Zanbil (Dur-Untash)",
+          "coords": [
+            32,
+            48.53
+          ],
+          "hint": "Untash-Napirisha founded an entirely new religious capital, Dur-Untash, built around a massive ziggurat dedicated jointly to Susa's god Inshushinak and the highland god Napirisha — a deliberate architectural statement of religious unification between Elam's lowland and highland halves, married to a Kassite Babylonian princess as part of his dynasty's diplomatic strategy.",
+          "tag": "SUCCESSION",
+          "note": "Untash-Napirisha's foundation inscriptions, Chogha Zanbil; Roman Ghirshman, Chogha Zanbil excavations (1951–62)."
+        },
+        {
+          "id": "p3",
+          "group": "The Shutrukid Dynasty",
+          "dynasty": "Shutrukid",
+          "label": "Shutruk-Nahhunte I — the Sack of Babylon",
+          "date": "c.1185–1155 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Shutruk-Nahhunte founded the dynasty that brought Elam to its greatest military power, campaigning repeatedly into Babylonia before his culminating 1158 BC conquest ended the four-century-old Kassite dynasty outright and carried its most celebrated monuments back to Susa as war trophies.",
+          "tag": "SUCCESSION",
+          "note": "Shutruk-Nahhunte's own inscriptions on the captured Hammurabi and Naram-Sin monuments, Louvre."
+        },
+        {
+          "id": "p4",
+          "group": "The Shutrukid Dynasty",
+          "dynasty": "Shutrukid",
+          "label": "Kutir-Nahhunte and Shilhak-Inshushinak — the Zenith",
+          "date": "c.1155–1110 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Kutir-Nahhunte briefly installed his own son on the Babylonian throne after his father's conquest, while his successor Shilhak-Inshushinak — the most prolific royal builder in Elamite history — left inscriptions recording the restoration or construction of well over a hundred temples across the kingdom during Elam's final and greatest flowering before its sudden collapse.",
+          "tag": "SUCCESSION",
+          "note": "Shilhak-Inshushinak's building inscriptions, Susa; the scale of the corpus is itself the primary evidence for his reign's building program."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +91,50 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "The fall of Kassite Babylon and Nebuchadnezzar I's revenge",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Sack of Babylon",
+          "tag": "BATTLE",
+          "date": "1158 BC",
+          "label": "The Sack of Babylon and the Fall of the Kassites",
+          "loc": "Babylon",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "Shutruk-Nahhunte's decisive campaign against the last Kassite king, Enlil-nadin-ahi, ended the Kassite dynasty's roughly four-century rule over Babylon outright — the Elamite king carried off the Code of Hammurabi stele and the Victory Stele of Naram-Sin among his trophies, both later excavated at Susa and now among the Louvre's most famous holdings.",
+          "note": "Elamite chronographic sources on the fall of the Kassite dynasty; the recovered monuments' own find-context at Susa."
+        },
+        {
+          "id": "c2",
+          "group": "The Sack of Babylon",
+          "tag": "BATTLE",
+          "date": "c.1155 BC",
+          "label": "Kutir-Nahhunte's Client King in Babylon",
+          "loc": "Babylon",
+          "coords": [
+            32.54,
+            44.42
+          ],
+          "hint": "Following the conquest, Kutir-Nahhunte briefly installed his own son as a client ruler over Babylon — an attempt at direct Elamite political control over Mesopotamia's most prestigious throne that native Babylonian resistance would not tolerate for long.",
+          "note": "Babylonian King List evidence for the brief Elamite-installed rulers of this interval."
+        },
+        {
+          "id": "c3",
+          "group": "Nebuchadnezzar I's Revenge",
+          "tag": "BATTLE",
+          "date": "c.1110 BC",
+          "label": "Nebuchadnezzar I's Counter-Invasion and the Recovery of Marduk",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "After an initial failed attempt, the Babylonian king Nebuchadnezzar I invaded Elam in a punishing midsummer campaign, decisively defeated the Elamite army, and recovered the cult statue of Marduk that had been carried off to Susa decades earlier — reversing Shutruk-Nahhunte's triumph and inaugurating a long period of Elamite political eclipse.",
+          "note": "The 'Marduk Prophecy' and Nebuchadnezzar I's own inscriptions on the Elamite campaign and Marduk's return."
+        }
+      ]
     },
     {
       "id": "order",
