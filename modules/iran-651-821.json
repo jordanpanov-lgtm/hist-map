@@ -21,7 +21,97 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "The governors of Khorasan, Abu Muslim's revolution, and the rise of the Tahirids",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "The Governors of Khorasan",
+          "dynasty": "Umayyad governors",
+          "label": "The Early Governors and the Fall of Yazdegerd III",
+          "date": "651–671",
+          "loc": "Merv",
+          "coords": [
+            37.66,
+            62.19
+          ],
+          "hint": "Abd Allah ibn Amir's forces pursued the fugitive last Sasanian king Yazdegerd III into Khorasan, where he was killed at Merv in 651 — nominally ending four centuries of Sasanian rule, though real Arab control over the plateau's interior remained thin and contested for decades afterward.",
+          "tag": "APPOINTED",
+          "note": "al-Tabari, History of Prophets and Kings, on the death of Yazdegerd III and the early Khorasan governorships."
+        },
+        {
+          "id": "p2",
+          "group": "The Governors of Khorasan",
+          "dynasty": "Umayyad governors",
+          "label": "Qutayba ibn Muslim and the Conquest of Transoxiana",
+          "date": "705–715",
+          "loc": "Merv",
+          "coords": [
+            37.66,
+            62.19
+          ],
+          "hint": "Governing Khorasan for a decade, Qutayba pushed the frontier of Muslim rule far beyond Iran itself into Transoxiana, taking Bukhara, Samarkand and Khwarazm — campaigns that used Khorasan's garrison as the launching point for the deepest Arab conquests into Central Asia.",
+          "tag": "APPOINTED",
+          "note": "al-Tabari, History of Prophets and Kings, on Qutayba's Transoxianan campaigns."
+        },
+        {
+          "id": "p3",
+          "group": "The Governors of Khorasan",
+          "dynasty": "Umayyad governors",
+          "label": "Nasr ibn Sayyar — the last Umayyad governor",
+          "date": "738–748",
+          "loc": "Merv",
+          "coords": [
+            37.66,
+            62.19
+          ],
+          "hint": "Nasr governed a Khorasan riven by Arab tribal factionalism and mounting Abbasid clandestine agitation among the mawali; his failure to suppress Abu Muslim's rising in time cost him the province, and he died a fugitive in 748 as the revolution he could not contain swept past him.",
+          "tag": "APPOINTED",
+          "note": "al-Tabari, History of Prophets and Kings, on Nasr ibn Sayyar's governorship and flight."
+        },
+        {
+          "id": "p4",
+          "group": "Abu Muslim and the Abbasid Revolution",
+          "label": "Abu Muslim and the Black Banners",
+          "date": "747–755",
+          "loc": "Merv",
+          "coords": [
+            37.66,
+            62.19
+          ],
+          "hint": "A figure of obscure origins organised the Abbasid movement's clandestine network among Khorasan's mawali and Arab settlers alike, raised the black banners at Merv in 747, and led the army that destroyed the Umayyad Caliphate within three years — before the Abbasid caliph al-Mansur, fearing his power, had him executed in 755.",
+          "tag": "COUP",
+          "note": "al-Tabari, History of Prophets and Kings, on Abu Muslim's rise, revolution and execution."
+        },
+        {
+          "id": "p5",
+          "group": "The Governors of Khorasan",
+          "dynasty": "Barmakid",
+          "label": "The Barmakid Governors of Khorasan",
+          "date": "c.770s–803",
+          "loc": "Balkh",
+          "coords": [
+            36.76,
+            66.9
+          ],
+          "hint": "Descended from a family of hereditary administrators of a Buddhist monastery at Balkh, the Barmakids rose to govern Khorasan and then to dominate the Abbasid vizierate at Baghdad itself for a generation, before Harun al-Rashid abruptly and violently purged the family from power in 803.",
+          "tag": "APPOINTED",
+          "note": "al-Tabari, History of Prophets and Kings; Ibn Khallikan, Wafayat al-A'yan, on the Barmakid family."
+        },
+        {
+          "id": "p6",
+          "group": "The Tahirid Founding",
+          "dynasty": "Tahirid",
+          "label": "Tahir ibn Husayn — the Founding of Autonomous Khorasan",
+          "date": "821",
+          "loc": "Nishapur",
+          "coords": [
+            36.21,
+            58.49
+          ],
+          "hint": "Tahir ibn Husayn, the general whose army had won the caliph al-Ma'mun's civil war against his brother al-Amin, was rewarded with the governorship of Khorasan in 821 — a post he and his heirs held in practice as hereditary rulers loyal to Baghdad only in name, the first quasi-independent Iranian dynasty since the Arab conquest.",
+          "tag": "APPOINTED",
+          "note": "al-Tabari, History of Prophets and Kings, on Tahir's appointment and the Fourth Fitna."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +120,92 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "The fall of Yazdegerd III, the slow conquest of the plateau, and the Abbasid revolution",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Fall of the Sasanian State",
+          "tag": "BATTLE",
+          "date": "651",
+          "label": "Yazdegerd III's Flight and Death at Merv",
+          "loc": "Merv",
+          "coords": [
+            37.66,
+            62.19
+          ],
+          "hint": "Defeated at Nihavand in 642 — a rout Arab tradition itself called 'the Victory of Victories' — the last Sasanian king spent his final years as a fugitive across the Iranian plateau before being killed near Merv in 651, an inglorious end that nonetheless marked the real close of four centuries of Sasanian rule.",
+          "note": "al-Tabari, History of Prophets and Kings, on the Battle of Nihavand and Yazdegerd's death."
+        },
+        {
+          "id": "c2",
+          "group": "The Conquest of Khorasan",
+          "tag": "BATTLE",
+          "date": "651–654",
+          "label": "The Conquest of Khorasan",
+          "loc": "Nishapur",
+          "coords": [
+            36.21,
+            58.49
+          ],
+          "hint": "Al-Ahnaf ibn Qays led the Arab armies that secured Nishapur, Herat and Merv in a rapid campaign following Yazdegerd's death — though much of the interior plateau accepted tribute-paying submission rather than direct occupation, leaving Arab control genuinely thin outside the garrison towns for a generation.",
+          "note": "al-Tabari, History of Prophets and Kings, on al-Ahnaf ibn Qays's Khorasan campaign."
+        },
+        {
+          "id": "c3",
+          "group": "The Conquest of Transoxiana",
+          "tag": "BATTLE",
+          "date": "705–715",
+          "label": "Qutayba's Campaigns beyond the Oxus",
+          "loc": "Bukhara",
+          "coords": [
+            39.77,
+            64.42
+          ],
+          "hint": "Qutayba ibn Muslim's decade of campaigning took Bukhara, Samarkand and Khwarazm, using Khorasan's Arab and mawali garrison troops as the spearhead for conquests that extended Muslim rule deep into Central Asia beyond Iran's own eastern frontier.",
+          "note": "al-Tabari, History of Prophets and Kings, on Qutayba's campaigns."
+        },
+        {
+          "id": "c4",
+          "group": "Religious Revolt",
+          "tag": "REVOLT",
+          "date": "747–749",
+          "label": "Bihafarid's Revolt",
+          "loc": "Nishapur region, Khorasan",
+          "coords": [
+            36,
+            59
+          ],
+          "hint": "Bihafarid preached a syncretic doctrine blending Zoroastrian and Islamic elements and gathered a substantial following in rural Khorasan before Abu Muslim — himself just beginning his own rising — had him suppressed and killed, an early sign of the religious ferment the conquest had unsettled rather than resolved.",
+          "note": "al-Biruni, The Chronology of Ancient Nations, on Bihafarid's movement."
+        },
+        {
+          "id": "c5",
+          "group": "The Abbasid Revolution",
+          "tag": "BATTLE",
+          "date": "747–750",
+          "label": "Abu Muslim's March and the Battle of the Zab",
+          "loc": "the Zab river, Mesopotamia",
+          "coords": [
+            35.5,
+            43.5
+          ],
+          "hint": "Abu Muslim's Khorasan-raised army swept west, defeating Umayyad forces repeatedly before the decisive Battle of the Great Zab in 750 destroyed the last Umayyad field army and opened the way to Damascus — a revolution launched from Khorasan that ended by installing an entirely new caliphal dynasty.",
+          "note": "al-Tabari, History of Prophets and Kings, on the Battle of the Zab."
+        },
+        {
+          "id": "c6",
+          "group": "The Khorasani Backlash",
+          "tag": "REVOLT",
+          "date": "755–756",
+          "label": "The Execution of Abu Muslim and Sunpadh's Revolt",
+          "loc": "Nishapur region, Khorasan",
+          "coords": [
+            36,
+            59
+          ],
+          "hint": "Abu Muslim's execution by the caliph he had made triggered Sunpadh's revolt in Khorasan, a rising that combined vengeance for Abu Muslim with an explicitly Zoroastrian-inflected, anti-Arab religious programme — proof that the conquest's political and religious settlement remained genuinely unstable a full century after Nihavand.",
+          "note": "al-Tabari, History of Prophets and Kings, on Sunpadh's revolt."
+        }
+      ]
     },
     {
       "id": "order",
