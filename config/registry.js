@@ -46,6 +46,7 @@ const MODULES = [
   //   memory iran-persia-program.md for the full planned arc, prehistory to today.
   //   Elam runs as its own prehistoric/ancient chain, separate from the Achaemenid/Media arc.
   { id:"zagros-elam-8000bc-3200bc", file:"modules/zagros-elam-8000bc-3200bc.json", label:"Neolithic Zagros and Proto-Elamite Susa", sub:"From the First Farmers to the Dawn of Writing", region:"Iran", period:"Prehistoric" },
+  { id:"elam-3200bc-1500bc", file:"modules/elam-3200bc-1500bc.json", label:"Old Elam 3,200–1,500 BC", sub:"Awan, Shimashki and the Sukkalmah", region:"Iran", period:"Prehistoric" },
   { id:"achaemenid-550bc-330bc", file:"modules/achaemenid-550bc-330bc.json", label:"Achaemenid Empire 550–330 BC", sub:"Cyrus's Conquests to the Fall of Darius III", region:"Iran", period:"Ancient" },
   { id:"seleucid-iran-330bc-148bc", file:"modules/seleucid-iran-330bc-148bc.json", label:"Seleucid Iran 330–148 BC", sub:"Alexander's Successors and the Loss of the Upper Satrapies", region:"Iran", period:"Late Antique" },
   { id:"parthia-148bc-224",     file:"modules/parthia-148bc-224.json",     label:"Parthian Iran 148 BC – 224 AD", sub:"Nisa, Ecbatana and the Feudal Empire",        region:"Iran",    period:"Late Antique"  },
