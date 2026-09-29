@@ -54,6 +54,7 @@ const MODULES = [
   { id:"iran-821-1055", file:"modules/iran-821-1055.json", label:"Iranian Intermezzo 821–1055", sub:"Samanids, Saffarids and the Persian Renaissance", region:"Iran", period:"Medieval" },
   { id:"iran-1055-1219", file:"modules/iran-1055-1219.json", label:"Great Seljuk Persia 1055–1219", sub:"Tughril Beg to the Khwarazmian Twilight", region:"Iran", period:"Medieval" },
   { id:"ilkhanate-1219-1335", file:"modules/ilkhanate-1219-1335.json", label:"Mongol Ilkhanate 1219–1335", sub:"Maragheh, Tabriz and the Mongol Peace", region:"Iran", period:"Medieval" },
+  { id:"iran-1335-1501", file:"modules/iran-1335-1501.json", label:"Timurid Age 1335–1501", sub:"Jalayirids, Timur, and the Turkmen Confederations", region:"Iran", period:"Medieval" },
   { id:"achaemenid-550bc-330bc", file:"modules/achaemenid-550bc-330bc.json", label:"Achaemenid Empire 550–330 BC", sub:"Cyrus's Conquests to the Fall of Darius III", region:"Iran", period:"Ancient" },
   { id:"seleucid-iran-330bc-148bc", file:"modules/seleucid-iran-330bc-148bc.json", label:"Seleucid Iran 330–148 BC", sub:"Alexander's Successors and the Loss of the Upper Satrapies", region:"Iran", period:"Late Antique" },
   { id:"parthia-148bc-224",     file:"modules/parthia-148bc-224.json",     label:"Parthian Iran 148 BC – 224 AD", sub:"Nisa, Ecbatana and the Feudal Empire",        region:"Iran",    period:"Late Antique"  },
