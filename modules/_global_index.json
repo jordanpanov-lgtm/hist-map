@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6749,
     "folio_count": 130,
-    "xlink_pairs": 1247,
+    "xlink_pairs": 1257,
     "keyword_terms": 10050,
     "folios": [
       {
@@ -7718,16 +7718,34 @@
       "assyria-1400bc-1050bc::w4"
     ],
     "assyria-911bc-609bc::k3": [
+      "israel-judah-1200bc-586bc::c1",
+      "israel-judah-1200bc-586bc::p8",
       "phoenicia-1200bc-539bc::c1"
+    ],
+    "israel-judah-1200bc-586bc::c1": [
+      "assyria-911bc-609bc::k3"
+    ],
+    "israel-judah-1200bc-586bc::p8": [
+      "assyria-911bc-609bc::k3"
     ],
     "phoenicia-1200bc-539bc::c1": [
       "assyria-911bc-609bc::k3"
     ],
     "assyria-911bc-609bc::k6": [
-      "babylon-1155bc-539bc::k4"
+      "babylon-1155bc-539bc::k4",
+      "israel-judah-1200bc-586bc::c2"
     ],
     "babylon-1155bc-539bc::k4": [
       "assyria-911bc-609bc::k6"
+    ],
+    "israel-judah-1200bc-586bc::c2": [
+      "assyria-911bc-609bc::k6"
+    ],
+    "assyria-911bc-609bc::k7": [
+      "israel-judah-1200bc-586bc::c3"
+    ],
+    "israel-judah-1200bc-586bc::c3": [
+      "assyria-911bc-609bc::k7"
     ],
     "assyria-911bc-609bc::k8": [
       "phoenicia-1200bc-539bc::c2"
@@ -8090,7 +8108,12 @@
       "babylon-1155bc-539bc::k2"
     ],
     "babylon-1155bc-539bc::k8": [
+      "israel-judah-1200bc-586bc::c5",
       "phoenicia-1200bc-539bc::c3"
+    ],
+    "israel-judah-1200bc-586bc::c5": [
+      "babylon-1155bc-539bc::k8",
+      "babylon-1155bc-539bc::c5"
     ],
     "phoenicia-1200bc-539bc::c3": [
       "babylon-1155bc-539bc::k8"
@@ -8121,12 +8144,17 @@
     ],
     "babylon-1155bc-539bc::c5": [
       "egypt-664bc-332bc::c2",
-      "egypt-664bc-332bc::k2"
+      "egypt-664bc-332bc::k2",
+      "israel-judah-1200bc-586bc::c4",
+      "israel-judah-1200bc-586bc::c5"
     ],
     "egypt-664bc-332bc::c2": [
       "babylon-1155bc-539bc::c5"
     ],
     "egypt-664bc-332bc::k2": [
+      "babylon-1155bc-539bc::c5"
+    ],
+    "israel-judah-1200bc-586bc::c4": [
       "babylon-1155bc-539bc::c5"
     ],
     "babylon-1155bc-539bc::c6": [
@@ -8166,6 +8194,7 @@
     "babylon-1155bc-539bc::b3": [
       "dedan-tayma-1200bc-300bc::b4",
       "egypt-664bc-332bc::xc4",
+      "israel-judah-1200bc-586bc::w2",
       "mesopotamia-539bc-331bc::b3"
     ],
     "dedan-tayma-1200bc-300bc::b4": [
@@ -8176,6 +8205,10 @@
       "babylon-1155bc-539bc::b3",
       "egypt-332bc-30bc::xc3",
       "mesopotamia-539bc-331bc::xc3"
+    ],
+    "israel-judah-1200bc-586bc::w2": [
+      "babylon-1155bc-539bc::b3",
+      "babylon-1155bc-539bc::l2"
     ],
     "mesopotamia-539bc-331bc::b3": [
       "babylon-1155bc-539bc::b3",
@@ -8237,6 +8270,7 @@
       "mesopotamia-539bc-331bc::k1"
     ],
     "babylon-1155bc-539bc::l2": [
+      "israel-judah-1200bc-586bc::w2",
       "mesopotamia-539bc-331bc::l4"
     ],
     "mesopotamia-539bc-331bc::l4": [
@@ -9665,6 +9699,12 @@
     ],
     "egypt-2100bc-1550bc::k18": [
       "egypt-1550bc-1200bc::k1"
+    ],
+    "egypt-1550bc-1200bc::k18": [
+      "israel-judah-1200bc-586bc::p1"
+    ],
+    "israel-judah-1200bc-586bc::p1": [
+      "egypt-1550bc-1200bc::k18"
     ],
     "egypt-1550bc-1200bc::c1": [
       "egypt-2100bc-1550bc::c6"

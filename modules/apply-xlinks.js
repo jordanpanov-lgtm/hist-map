@@ -1162,6 +1162,21 @@ const SELECTED_PAIRS = [
   // rejected: three bare "Iran" country-name matches to an unrelated 1971 event (Iran seizing
   // the Tunbs and Abu Musa), 46 years after this folio ends.
   ['qajar-1789-1925::p2', 'oman-gulf-1650-1820::w6'],                // the early Qajars -> the Qajars take Persia
+  // ── israel-judah-1200bc-586bc (Levant program, Phase 2) — several pairs found by direct
+  // content verification rather than the automated candidate pipeline, which surfaced the
+  // Merneptah, Sennacherib and Sargon II matches but missed the Qarqar/Black Obelisk double
+  // match within a single Assyrian entry and the whole Babylonian-exile cluster; confirmed by
+  // reading both folios' entries side by side before adding.
+  ['israel-judah-1200bc-586bc::p1', 'egypt-1550bc-1200bc::k18'],     // the Merneptah Stele naming Israel -> same stele, Egyptian side
+  ['israel-judah-1200bc-586bc::c1', 'assyria-911bc-609bc::k3'],      // Ahab's chariots at Qarqar -> Shalmaneser III names Ahab of Israel
+  ['israel-judah-1200bc-586bc::p8', 'assyria-911bc-609bc::k3'],      // Jehu's coup on the Black Obelisk -> same Shalmaneser III entry
+  ['israel-judah-1200bc-586bc::c2', 'assyria-911bc-609bc::k6'],      // the fall of Samaria -> Sargon II destroys and deports Israel
+  ['israel-judah-1200bc-586bc::c3', 'assyria-911bc-609bc::k7'],      // Sennacherib's siege of Jerusalem -> same king's own reign entry
+  ['israel-judah-1200bc-586bc::c4', 'babylon-1155bc-539bc::c5'],     // the 597 BC deportation -> Nebuchadnezzar's Carchemish/Jerusalem/Tyre entry
+  ['israel-judah-1200bc-586bc::c5', 'babylon-1155bc-539bc::c5'],     // the 586 BC destruction -> same Nebuchadnezzar campaign entry
+  ['israel-judah-1200bc-586bc::c5', 'babylon-1155bc-539bc::k8'],     // the 586 BC destruction -> Nebuchadnezzar II, builder and exiler
+  ['israel-judah-1200bc-586bc::w2', 'babylon-1155bc-539bc::b3'],     // exile and an open question -> the exile and the making of Judaism
+  ['israel-judah-1200bc-586bc::w2', 'babylon-1155bc-539bc::l2'],     // exile and an open question -> the al-Yahudu Judean exile community
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
