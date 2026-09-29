@@ -1080,6 +1080,18 @@ const SELECTED_PAIRS = [
   ['iran-1055-1219::p3', 'iraq-945-1258::k3'],                       // Malik-Shah and Nizam al-Mulk -> Nizam al-Mulk and the vizieral state
   ['iran-1055-1219::c3', 'iraq-945-1258::k3'],                       // the assassination of Nizam al-Mulk -> the same figure
   ['iran-1055-1219::t2', 'iraq-945-1258::k3'],                       // the Siyasatnama -> Nizam al-Mulk and the vizieral state
+  // ── ilkhanate-1219-1335 (Iran/Persia program, Step 4 continued) ──
+  // rejected: a generic "Dynasty" word match 3,300 years apart, a "Baghdad" match to an
+  // unrelated painting-school entry, and a generic "Mongol" match pairing a destruction-themed
+  // entry with an unrelated later cultural-product entry.
+  ['ilkhanate-1219-1335::p3', 'caliphate-945-1258::k13'],            // Hulagu founds the Ilkhanate -> the same, caliphate backbone's view
+  ['ilkhanate-1219-1335::c3', 'caliphate-945-1258::k13'],            // Hulagu destroys Alamut -> the same figure
+  ['ilkhanate-1219-1335::c4', 'caliphate-945-1258::c10'],            // the sack of Baghdad -> the sack of Baghdad and the check at Ayn Jalut
+  ['ilkhanate-1219-1335::p3', 'iraq-945-1258::k8'],                  // Hulagu founds the Ilkhanate -> Iraq's own Hulagu entry
+  ['ilkhanate-1219-1335::c3', 'iraq-945-1258::k8'],                  // Hulagu destroys Alamut -> the same figure
+  ['ilkhanate-1219-1335::c5', 'mamluks-1250-1517::c1'],              // the Battle of Ayn Jalut -> the same battle, the Mamluk victors' view
+  ['ilkhanate-1219-1335::p5', 'iraq-1258-1534::o2'],                 // Ghazan's conversion and reform -> the Ilkhanid reforms and their limits
+  ['ilkhanate-1219-1335::p5', 'iraq-1258-1534::g2'],                 // Ghazan's reign -> the Ilkhanid channel from China (Rashid al-Din's own project)
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
