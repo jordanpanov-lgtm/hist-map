@@ -1241,6 +1241,22 @@ const SELECTED_PAIRS = [
   ['levant-634-750::c2', 'caliphate-632-750::tc3'],          // the Battle of the Masts -> "the Arab fleet and the Battle of the Masts"
   ['levant-634-750::t1', 'caliphate-632-750::b7'],           // John of Damascus -> "John of Damascus answers Islam"
   ['levant-634-750::p6', 'beth-qatraye-632-750::w5'],        // the Abbasid Revolution -> its ripple effect on the Omani Ibadi imamate
+  // ── levant-750-1099 (Levant program, Phase 5 complete) — rejected generic "Baghdad"/"Rule"/
+  // "Periphery"/"Fatimid" (decorative-arts and ceremonial-calendar entries)/"Seljuk" (architectural
+  // style entry) word-fan-out matches with no specific shared event.
+  ['levant-750-1099::p2', 'egypt-641-969::k7'],                  // Ahmad ibn Tulun's autonomous rule -> Egypt's own entry on him
+  ['levant-750-1099::p3', 'egypt-641-969::k12'],                 // the Ikhshidids restore Egypt-based rule -> "the end of the Ikhshidids"
+  ['levant-750-1099::p4', 'egypt-641-969::c8'],                  // the Fatimid conquest -> "the Fatimid conquest and the Qarmatian aftermath"
+  ['levant-750-1099::b1', 'fatimids-909-1171::k5'],              // al-Hakim destroys the Holy Sepulchre -> his own reign entry
+  ['levant-750-1099::b2', 'fatimids-909-1171::k5'],              // the Druze faith's origins -> same al-Hakim reign entry
+  ['levant-750-1099::b1', 'fatimids-909-1171::lv6'],             // al-Hakim destroys the Holy Sepulchre -> "the caliph as an enigma"
+  ['levant-750-1099::b2', 'fatimids-909-1171::lv6'],             // the Druze faith's origins -> same "enigma" entry
+  ['levant-750-1099::b1', 'fatimids-909-1171::c5'],              // al-Hakim destroys the Holy Sepulchre -> same event, Fatimid folio's own entry
+  ['levant-750-1099::p6', 'fatimids-909-1171::c8'],              // Fatimid reconquest, then the Crusaders -> "the Crusaders take Jerusalem; the Battle of Ascalon"
+  ['levant-750-1099::c3', 'fatimids-909-1171::c8'],              // the Crusader capture of Jerusalem -> same event, Fatimid folio's own entry
+  ['levant-750-1099::c2', 'eastern-arabia-750-1200::o2'],        // Qarmatian raids -> "the Qarmatian commonwealth of al-Ahsa," their home base
+  ['levant-750-1099::c2', 'eastern-arabia-750-1200::o3'],        // Qarmatian raids -> "the Qarmatian toll system on Hajj and shipping"
+  ['levant-750-1099::c2', 'eastern-arabia-750-1200::ec2'],       // Qarmatian raids -> "the Qarmatian estates and their thirty thousand slaves"
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

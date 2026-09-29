@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1528,
+    "figure_matches": 1557,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 1965,
+    "figure_matches_rejected_date_implausible": 1985,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4822,
+    "keyword_matches": 4823,
     "keyword_matches_rejected_geo_only": 9262,
-    "high_confidence": 1561,
+    "high_confidence": 1590,
     "medium_confidence": 366,
-    "low_confidence": 4423
+    "low_confidence": 4424
   },
   "figure_name_matches": [
     {
@@ -5427,6 +5427,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Baghdad",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The siege of Baghdad",
+        "dynasty": "Abbasid",
+        "decade": "810s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p1",
+        "cat": "power",
+        "label": "A Periphery under Baghdad",
+        "decade": "750s–870s"
+      },
+      "xlink_a": "caliphate-750-945::c2",
+      "xlink_b": "levant-750-1099::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Zanj Revolt",
       "pivot": {
         "folio": "caliphate-750-945",
@@ -6171,6 +6193,28 @@
       },
       "xlink_a": "caliphate-750-945::ec1",
       "xlink_b": "iraq-945-1258::e4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Baghdad",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Baghdad and the instruments of finance",
+        "dynasty": "Abbasid",
+        "decade": "770s–930s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p1",
+        "cat": "power",
+        "label": "A Periphery under Baghdad",
+        "decade": "750s–870s"
+      },
+      "xlink_a": "caliphate-750-945::ec1",
+      "xlink_b": "levant-750-1099::p1"
     },
     {
       "confidence": "high",
@@ -7781,6 +7825,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Seljuk",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "e1",
+        "cat": "expression",
+        "label": "The four-iwan plan and the Seljuk dome",
+        "dynasty": "Seljuk",
+        "decade": "1080s–1160s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p5",
+        "cat": "power",
+        "label": "The Seljuk Conquest of Jerusalem",
+        "decade": "1070s"
+      },
+      "xlink_a": "caliphate-945-1258::e1",
+      "xlink_b": "levant-750-1099::p5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Baghdad",
       "pivot": {
         "folio": "caliphate-945-1258",
@@ -8261,6 +8327,28 @@
       },
       "xlink_a": "caliphate-945-1258::w2",
       "xlink_b": "iraq-945-1258::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Seljuk",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "w2",
+        "cat": "world",
+        "label": "The Seljuk restoration",
+        "dynasty": "Seljuk",
+        "decade": "1050s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p5",
+        "cat": "power",
+        "label": "The Seljuk Conquest of Jerusalem",
+        "decade": "1070s"
+      },
+      "xlink_a": "caliphate-945-1258::w2",
+      "xlink_b": "levant-750-1099::p5"
     },
     {
       "confidence": "high",
@@ -9375,6 +9463,50 @@
         "decade": "940s–1070s"
       },
       "match": {
+        "folio": "levant-750-1099",
+        "id": "p2",
+        "cat": "power",
+        "label": "Ahmad ibn Tulun's Autonomous Rule",
+        "decade": "870s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::k5",
+      "xlink_b": "levant-750-1099::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Rule",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k5",
+        "cat": "power",
+        "label": "Rule by council — the Iqdaniyya",
+        "dynasty": "Jannabid",
+        "decade": "940s–1070s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p3",
+        "cat": "power",
+        "label": "The Ikhshidids Restore Egypt-Based Rule",
+        "decade": "930s–960s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::k5",
+      "xlink_b": "levant-750-1099::p3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Rule",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k5",
+        "cat": "power",
+        "label": "Rule by council — the Iqdaniyya",
+        "dynasty": "Jannabid",
+        "decade": "940s–1070s"
+      },
+      "match": {
         "folio": "magan-1200bc-300bc",
         "id": "t2",
         "cat": "thought",
@@ -9529,6 +9661,28 @@
         "decade": "920s–1050s"
       },
       "match": {
+        "folio": "levant-750-1099",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Qarmatian Raids Destabilise the Region",
+        "decade": "930s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::o2",
+      "xlink_b": "levant-750-1099::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Qarmatian",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Qarmatian commonwealth of al-Ahsa",
+        "dynasty": "Jannabid",
+        "decade": "920s–1050s"
+      },
+      "match": {
         "folio": "najd-632-1517",
         "id": "x2",
         "cat": "exchange",
@@ -9559,6 +9713,28 @@
       },
       "xlink_a": "eastern-arabia-750-1200::o3",
       "xlink_b": "egypt-641-969::c8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Qarmatian",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Qarmatian toll system on Hajj and shipping",
+        "dynasty": "Jannabid",
+        "decade": "930s–1050s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Qarmatian Raids Destabilise the Region",
+        "decade": "930s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::o3",
+      "xlink_b": "levant-750-1099::c2"
     },
     {
       "confidence": "high",
@@ -9845,6 +10021,28 @@
       },
       "xlink_a": "eastern-arabia-750-1200::ec2",
       "xlink_b": "egypt-641-969::c8"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Qarmatian",
+      "pivot": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "The Qarmatian estates and their thirty thousand slaves",
+        "dynasty": "Jannabid",
+        "decade": "920s–1050s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Qarmatian Raids Destabilise the Region",
+        "decade": "930s"
+      },
+      "xlink_a": "eastern-arabia-750-1200::ec2",
+      "xlink_b": "levant-750-1099::c2"
     },
     {
       "confidence": "high",
@@ -11543,6 +11741,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Ahmad ibn Tulun",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k7",
+        "cat": "power",
+        "label": "Ahmad ibn Tulun",
+        "dynasty": "Tulunid",
+        "decade": "860s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p2",
+        "cat": "power",
+        "label": "Ahmad ibn Tulun's Autonomous Rule",
+        "decade": "870s"
+      },
+      "xlink_a": "egypt-641-969::k7",
+      "xlink_b": "levant-750-1099::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Abbasid",
       "pivot": {
         "folio": "egypt-641-969",
@@ -11627,6 +11847,28 @@
       },
       "xlink_a": "egypt-641-969::k9",
       "xlink_b": "hejaz-632-1517::k4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ikhshidids",
+      "pivot": {
+        "folio": "egypt-641-969",
+        "id": "k12",
+        "cat": "power",
+        "label": "The end of the Ikhshidids",
+        "dynasty": "Ikhshidid",
+        "decade": "960s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p3",
+        "cat": "power",
+        "label": "The Ikhshidids Restore Egypt-Based Rule",
+        "decade": "930s–960s"
+      },
+      "xlink_a": "egypt-641-969::k12",
+      "xlink_b": "levant-750-1099::p3"
     },
     {
       "confidence": "high",
@@ -11873,6 +12115,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Al-Hakim",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "k5",
+        "cat": "power",
+        "label": "Al-Hakim bi-Amr Allah",
+        "dynasty": "Fatimid",
+        "decade": "990s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Al-Hakim Destroys the Holy Sepulchre",
+        "decade": "1000s"
+      },
+      "xlink_a": "fatimids-909-1171::k5",
+      "xlink_b": "levant-750-1099::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Al-Hakim",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "k5",
+        "cat": "power",
+        "label": "Al-Hakim bi-Amr Allah",
+        "dynasty": "Fatimid",
+        "decade": "990s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Al-Hakim and the Druze Faith's Origins",
+        "decade": "1010s"
+      },
+      "xlink_a": "fatimids-909-1171::k5",
+      "xlink_b": "levant-750-1099::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Saladin",
       "pivot": {
         "folio": "fatimids-909-1171",
@@ -11935,6 +12221,50 @@
       },
       "xlink_a": "fatimids-909-1171::c3",
       "xlink_b": "najd-632-1517::k5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Holy Sepulchre",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The destruction of the Holy Sepulchre",
+        "dynasty": "Fatimid",
+        "decade": "1000s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Al-Hakim Destroys the Holy Sepulchre",
+        "decade": "1000s"
+      },
+      "xlink_a": "fatimids-909-1171::c5",
+      "xlink_b": "levant-750-1099::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Crusaders",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Crusaders take Jerusalem; the Battle of Ascalon",
+        "dynasty": "Fatimid",
+        "decade": "1090s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p6",
+        "cat": "power",
+        "label": "A Fatimid Reconquest, Then the Crusaders",
+        "decade": "1090s"
+      },
+      "xlink_a": "fatimids-909-1171::c8",
+      "xlink_b": "levant-750-1099::p6"
     },
     {
       "confidence": "high",
@@ -12103,6 +12433,50 @@
         "decade": "970s–1050s"
       },
       "match": {
+        "folio": "levant-750-1099",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Fatimid Conquest and a Rival Caliphate",
+        "decade": "960s"
+      },
+      "xlink_a": "fatimids-909-1171::e3",
+      "xlink_b": "levant-750-1099::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e3",
+        "cat": "expression",
+        "label": "Fatimid rock crystal",
+        "dynasty": "Fatimid",
+        "decade": "970s–1050s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p6",
+        "cat": "power",
+        "label": "A Fatimid Reconquest, Then the Crusaders",
+        "decade": "1090s"
+      },
+      "xlink_a": "fatimids-909-1171::e3",
+      "xlink_b": "levant-750-1099::p6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e3",
+        "cat": "expression",
+        "label": "Fatimid rock crystal",
+        "dynasty": "Fatimid",
+        "decade": "970s–1050s"
+      },
+      "match": {
         "folio": "yemen-628-1517",
         "id": "x1",
         "cat": "exchange",
@@ -12243,6 +12617,50 @@
       },
       "xlink_a": "fatimids-909-1171::e5",
       "xlink_b": "iraq-945-1258::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e5",
+        "cat": "expression",
+        "label": "The Fatimid ceremonial calendar",
+        "dynasty": "Fatimid",
+        "decade": "970s–1130s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Fatimid Conquest and a Rival Caliphate",
+        "decade": "960s"
+      },
+      "xlink_a": "fatimids-909-1171::e5",
+      "xlink_b": "levant-750-1099::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "e5",
+        "cat": "expression",
+        "label": "The Fatimid ceremonial calendar",
+        "dynasty": "Fatimid",
+        "decade": "970s–1130s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p6",
+        "cat": "power",
+        "label": "A Fatimid Reconquest, Then the Crusaders",
+        "decade": "1090s"
+      },
+      "xlink_a": "fatimids-909-1171::e5",
+      "xlink_b": "levant-750-1099::p6"
     },
     {
       "confidence": "high",
@@ -12507,6 +12925,50 @@
       },
       "xlink_a": "fatimids-909-1171::tc3",
       "xlink_b": "iraq-945-1258::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Fatimid war fleet",
+        "dynasty": "Fatimid",
+        "decade": "970s–1160s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Fatimid Conquest and a Rival Caliphate",
+        "decade": "960s"
+      },
+      "xlink_a": "fatimids-909-1171::tc3",
+      "xlink_b": "levant-750-1099::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Fatimid war fleet",
+        "dynasty": "Fatimid",
+        "decade": "970s–1160s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p6",
+        "cat": "power",
+        "label": "A Fatimid Reconquest, Then the Crusaders",
+        "decade": "1090s"
+      },
+      "xlink_a": "fatimids-909-1171::tc3",
+      "xlink_b": "levant-750-1099::p6"
     },
     {
       "confidence": "high",
@@ -12881,6 +13343,50 @@
       },
       "xlink_a": "fatimids-909-1171::lv1",
       "xlink_b": "yemen-628-1517::lv2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Al-Hakim",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "Al-Hakim — the caliph as an enigma",
+        "dynasty": "Fatimid",
+        "decade": "990s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Al-Hakim Destroys the Holy Sepulchre",
+        "decade": "1000s"
+      },
+      "xlink_a": "fatimids-909-1171::lv6",
+      "xlink_b": "levant-750-1099::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Al-Hakim",
+      "pivot": {
+        "folio": "fatimids-909-1171",
+        "id": "lv6",
+        "cat": "lives",
+        "label": "Al-Hakim — the caliph as an enigma",
+        "dynasty": "Fatimid",
+        "decade": "990s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Al-Hakim and the Druze Faith's Origins",
+        "decade": "1010s"
+      },
+      "xlink_a": "fatimids-909-1171::lv6",
+      "xlink_b": "levant-750-1099::b2"
     },
     {
       "confidence": "high",
@@ -16515,6 +17021,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Baghdad",
+      "pivot": {
+        "folio": "iraq-632-945",
+        "id": "k6",
+        "cat": "power",
+        "label": "The golden age and the war for Baghdad",
+        "dynasty": "Abbasid",
+        "decade": "780s–830s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p1",
+        "cat": "power",
+        "label": "A Periphery under Baghdad",
+        "decade": "750s–870s"
+      },
+      "xlink_a": "iraq-632-945::k6",
+      "xlink_b": "levant-750-1099::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Power",
       "pivot": {
         "folio": "iraq-632-945",
@@ -16753,6 +17281,28 @@
       },
       "xlink_a": "iraq-945-1258::k2",
       "xlink_b": "iran-1055-1219::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Seljuk",
+      "pivot": {
+        "folio": "iraq-945-1258",
+        "id": "k2",
+        "cat": "power",
+        "label": "The Seljuk sultans take Baghdad",
+        "dynasty": "Seljuk",
+        "decade": "1050s–1150s"
+      },
+      "match": {
+        "folio": "levant-750-1099",
+        "id": "p5",
+        "cat": "power",
+        "label": "The Seljuk Conquest of Jerusalem",
+        "decade": "1070s"
+      },
+      "xlink_a": "iraq-945-1258::k2",
+      "xlink_b": "levant-750-1099::p5"
     },
     {
       "confidence": "high",
@@ -17061,6 +17611,94 @@
       },
       "xlink_a": "levant-539bc-332bc::p3",
       "xlink_b": "achaemenid-550bc-330bc::b4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Periphery",
+      "pivot": {
+        "folio": "levant-750-1099",
+        "id": "p1",
+        "cat": "power",
+        "label": "A Periphery under Baghdad",
+        "dynasty": null,
+        "decade": "750s–870s"
+      },
+      "match": {
+        "folio": "eastern-arabia-750-1200",
+        "id": "k1",
+        "cat": "power",
+        "label": "Eastern Arabia as an Abbasid periphery",
+        "decade": "750s–890s"
+      },
+      "xlink_a": "levant-750-1099::p1",
+      "xlink_b": "eastern-arabia-750-1200::k1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Periphery",
+      "pivot": {
+        "folio": "levant-750-1099",
+        "id": "p1",
+        "cat": "power",
+        "label": "A Periphery under Baghdad",
+        "dynasty": null,
+        "decade": "750s–870s"
+      },
+      "match": {
+        "folio": "hejaz-632-1517",
+        "id": "w1",
+        "cat": "world",
+        "label": "The sacred centre and the political periphery",
+        "decade": "660s–750s"
+      },
+      "xlink_a": "levant-750-1099::p1",
+      "xlink_b": "hejaz-632-1517::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Periphery",
+      "pivot": {
+        "folio": "levant-750-1099",
+        "id": "p1",
+        "cat": "power",
+        "label": "A Periphery under Baghdad",
+        "dynasty": null,
+        "decade": "750s–870s"
+      },
+      "match": {
+        "folio": "uruk-3800bc-2900bc",
+        "id": "xc1",
+        "cat": "exchange",
+        "label": "A core and its periphery",
+        "decade": "3200s BC–3600s"
+      },
+      "xlink_a": "levant-750-1099::p1",
+      "xlink_b": "uruk-3800bc-2900bc::xc1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Fatimid Conquest",
+      "pivot": {
+        "folio": "levant-750-1099",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Fatimid Conquest and a Rival Caliphate",
+        "dynasty": null,
+        "decade": "960s"
+      },
+      "match": {
+        "folio": "egypt-641-969",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Fatimid conquest and the Qarmatian aftermath",
+        "decade": "960s"
+      },
+      "xlink_a": "levant-750-1099::p4",
+      "xlink_b": "egypt-641-969::c8"
     },
     {
       "confidence": "high",
@@ -55973,6 +56611,32 @@
       "date_flag": "674yr gap — verify same entity, not just shared theme",
       "xlink_a": "fatimids-909-1171::c5",
       "xlink_b": "rome-300-400::a3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Crusaders",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "fatimids-909-1171",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The Crusaders take Jerusalem; the Battle of Ascalon",
+        "decade": "1090s"
+      },
+      "b": {
+        "folio": "levant-750-1099",
+        "id": "p6",
+        "cat": "power",
+        "label": "A Fatimid Reconquest, Then the Crusaders",
+        "decade": "1090s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "fatimids-909-1171::c8",
+      "xlink_b": "levant-750-1099::p6"
     },
     {
       "confidence": "low",

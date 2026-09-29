@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6943,
     "folio_count": 138,
-    "xlink_pairs": 1306,
+    "xlink_pairs": 1319,
     "keyword_terms": 10456,
     "folios": [
       {
@@ -9653,11 +9653,25 @@
     "dilmun-3000bc-1200bc::w1": [
       "mesopotamia-2334bc-2004bc::xc1"
     ],
+    "eastern-arabia-750-1200::o2": [
+      "levant-750-1099::c2"
+    ],
+    "levant-750-1099::c2": [
+      "eastern-arabia-750-1200::o2",
+      "eastern-arabia-750-1200::o3",
+      "eastern-arabia-750-1200::ec2"
+    ],
+    "eastern-arabia-750-1200::o3": [
+      "levant-750-1099::c2"
+    ],
     "eastern-arabia-750-1200::b1": [
       "oman-1970-today::b1"
     ],
     "oman-1970-today::b1": [
       "eastern-arabia-750-1200::b1"
+    ],
+    "eastern-arabia-750-1200::ec2": [
+      "levant-750-1099::c2"
     ],
     "eastern-arabia-750-1200::tc4": [
       "fatimids-909-1171::e4"
@@ -11264,12 +11278,22 @@
     "egypt-641-969::k6": [
       "iraq-632-945::k7"
     ],
+    "egypt-641-969::k7": [
+      "levant-750-1099::p2"
+    ],
+    "levant-750-1099::p2": [
+      "egypt-641-969::k7"
+    ],
     "egypt-641-969::k12": [
-      "fatimids-909-1171::c2"
+      "fatimids-909-1171::c2",
+      "levant-750-1099::p3"
     ],
     "fatimids-909-1171::c2": [
       "egypt-641-969::k12",
       "egypt-641-969::k13"
+    ],
+    "levant-750-1099::p3": [
+      "egypt-641-969::k12"
     ],
     "egypt-641-969::k13": [
       "fatimids-909-1171::c2",
@@ -11280,7 +11304,11 @@
       "egypt-641-969::xc6"
     ],
     "egypt-641-969::c8": [
-      "fatimids-909-1171::c3"
+      "fatimids-909-1171::c3",
+      "levant-750-1099::p4"
+    ],
+    "levant-750-1099::p4": [
+      "egypt-641-969::c8"
     ],
     "egypt-641-969::o5": [
       "iraq-632-945::o6"
@@ -11347,6 +11375,32 @@
       "elam-3200bc-1500bc::ec1",
       "magan-1200bc-300bc::tc1"
     ],
+    "fatimids-909-1171::k5": [
+      "levant-750-1099::b1",
+      "levant-750-1099::b2"
+    ],
+    "levant-750-1099::b1": [
+      "fatimids-909-1171::k5",
+      "fatimids-909-1171::c5",
+      "fatimids-909-1171::lv6"
+    ],
+    "levant-750-1099::b2": [
+      "fatimids-909-1171::k5",
+      "fatimids-909-1171::lv6"
+    ],
+    "fatimids-909-1171::c5": [
+      "levant-750-1099::b1"
+    ],
+    "fatimids-909-1171::c8": [
+      "levant-750-1099::c3",
+      "levant-750-1099::p6"
+    ],
+    "levant-750-1099::c3": [
+      "fatimids-909-1171::c8"
+    ],
+    "levant-750-1099::p6": [
+      "fatimids-909-1171::c8"
+    ],
     "iran-1055-1219::b1": [
       "fatimids-909-1171::b5"
     ],
@@ -11355,6 +11409,10 @@
     ],
     "spain-718-1230::lv1": [
       "fatimids-909-1171::lv1"
+    ],
+    "fatimids-909-1171::lv6": [
+      "levant-750-1099::b1",
+      "levant-750-1099::b2"
     ],
     "france-1715-1789::k3": [
       "france-1789-1815::k1"
