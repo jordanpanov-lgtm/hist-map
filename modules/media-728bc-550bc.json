@@ -21,7 +21,68 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Deioces, Phraortes, Cyaxares and Astyages — a dynasty known almost entirely through Herodotus",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "The Median Kings",
+          "dynasty": "Median",
+          "label": "Deioces — the Semi-Legendary Founder",
+          "date": "c.728–675 BC",
+          "loc": "Ecbatana",
+          "coords": [
+            34.8,
+            48.51
+          ],
+          "hint": "Herodotus credits Deioces with uniting the Median tribes and founding Ecbatana as a fortified royal seat, elected by his own people for his reputation as a just arbiter of disputes — a foundation story that reads as much like a moral parable about the origins of kingship as a documented political event, and most modern historians treat its details with real caution.",
+          "tag": "SUCCESSION",
+          "note": "Herodotus, Histories 1.96–101 (the sole detailed source for Deioces)."
+        },
+        {
+          "id": "p2",
+          "group": "The Median Kings",
+          "dynasty": "Median",
+          "label": "Phraortes and the Scythian Interlude",
+          "date": "c.675–625 BC",
+          "loc": "Ecbatana",
+          "coords": [
+            34.8,
+            48.51
+          ],
+          "hint": "Phraortes extended Median rule over neighbouring Iranian peoples before dying in battle against Assyria; Herodotus's account of a subsequent 28-year period of Scythian overlordship, ended by a mass killing of drunken Scythian chieftains at a banquet, cannot be independently confirmed but would place Media under steppe domination for over a generation.",
+          "tag": "SUCCESSION",
+          "note": "Herodotus, Histories 1.102–106."
+        },
+        {
+          "id": "p3",
+          "group": "The Median Kings",
+          "dynasty": "Median",
+          "label": "Cyaxares — the Fall of Nineveh",
+          "date": "c.625–585 BC",
+          "loc": "Ecbatana",
+          "coords": [
+            34.8,
+            48.51
+          ],
+          "hint": "Cyaxares reorganised the Median army, threw off Scythian domination, and allied with Nabopolassar of Babylon to destroy the Assyrian Empire outright — the most consequential and best independently corroborated reign of the whole Median dynasty, its central act changing the political map of the entire Near East.",
+          "tag": "SUCCESSION",
+          "note": "Herodotus, Histories 1.103–106; the Babylonian Chronicle (Fall of Nineveh Chronicle), corroborating the Median-Babylonian alliance."
+        },
+        {
+          "id": "p4",
+          "group": "The Median Kings",
+          "dynasty": "Median",
+          "label": "Astyages — the Fall of Media",
+          "date": "585–550 BC",
+          "loc": "Ecbatana",
+          "coords": [
+            34.8,
+            48.51
+          ],
+          "hint": "Astyages ruled the Median kingdom at its greatest territorial extent before his own grandson Cyrus, king of the vassal Persians, rose in revolt and overthrew him in 550 BC — an ending Herodotus frames around a dream-omen and the infant Cyrus's legendary exposure, but whose basic outcome, the transfer of Iranian overlordship from Ecbatana to Persis, is not in doubt.",
+          "tag": "DEPOSED",
+          "note": "Herodotus, Histories 1.107–130; Nabonidus Chronicle, corroborating Cyrus's revolt against Astyages."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +91,78 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "The Scythian interlude, the fall of Nineveh, and Cyrus's revolt",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Assyrian Wars",
+          "tag": "BATTLE",
+          "date": "c.653 BC",
+          "label": "Phraortes's Death Fighting Assyria",
+          "loc": "Nineveh",
+          "coords": [
+            36.36,
+            43.15
+          ],
+          "hint": "Phraortes died campaigning against the Assyrian Empire at the height of its own power under Ashurbanipal — a defeat that nonetheless demonstrated Median ambitions had grown large enough to challenge Assyria directly, decades before Cyaxares would finish what Phraortes began.",
+          "note": "Herodotus, Histories 1.102."
+        },
+        {
+          "id": "c2",
+          "group": "The Scythian Interlude",
+          "tag": "EVENT",
+          "date": "c.653–625 BC",
+          "label": "Scythian Domination and Its Overthrow",
+          "loc": "Ecbatana",
+          "coords": [
+            34.8,
+            48.51
+          ],
+          "hint": "According to Herodotus, Scythian raiders who had originally been invited in to help fight Assyria instead imposed their own domination over Media for nearly three decades, ended only when Cyaxares had a large number of Scythian chieftains killed at a banquet after getting them deliberately drunk.",
+          "note": "Herodotus, Histories 1.106."
+        },
+        {
+          "id": "c3",
+          "group": "The Fall of Nineveh",
+          "tag": "BATTLE",
+          "date": "612 BC",
+          "label": "The Fall of Nineveh",
+          "loc": "Nineveh",
+          "coords": [
+            36.36,
+            43.15
+          ],
+          "hint": "A combined Median and Babylonian army stormed and utterly destroyed Nineveh, the Assyrian capital, ending an empire that had dominated the Near East for centuries — the Babylonian Chronicle's own account of the siege corroborates Herodotus in its broad outline, one of the rare points where Median history touches an independent contemporary record.",
+          "note": "The Fall of Nineveh Chronicle (Babylonian Chronicle series); Herodotus, Histories 1.106."
+        },
+        {
+          "id": "c4",
+          "group": "The War with Lydia",
+          "tag": "BATTLE",
+          "date": "585 BC",
+          "label": "The Battle of the Eclipse",
+          "loc": "the Halys river, Anatolia",
+          "coords": [
+            40.5,
+            35.5
+          ],
+          "hint": "A solar eclipse — reportedly predicted in advance by the philosopher Thales — interrupted a pitched battle between Median and Lydian armies on the Halys river so dramatically that both sides broke off fighting and negotiated an immediate peace, sealed by a royal marriage alliance between the two dynasties.",
+          "note": "Herodotus, Histories 1.74."
+        },
+        {
+          "id": "c5",
+          "group": "Cyrus's Revolt",
+          "tag": "BATTLE",
+          "date": "553–550 BC",
+          "label": "Cyrus's Revolt against Astyages",
+          "loc": "Pasargadae",
+          "coords": [
+            30.19,
+            53.17
+          ],
+          "hint": "Cyrus, king of the Persian vassal state, rose against his grandfather Astyages; part of the Median army defected to him under the general Harpagus, and Astyages's own capital Ecbatana fell to Cyrus in 550 BC — the event that ended Median supremacy and began the Achaemenid Persian Empire in the very same stroke.",
+          "note": "Nabonidus Chronicle, on Cyrus's victory over Astyages; Herodotus, Histories 1.123–130."
+        }
+      ]
     },
     {
       "id": "order",
