@@ -986,6 +986,18 @@ const SELECTED_PAIRS = [
   ['achaemenid-550bc-330bc::c8', 'mesopotamia-539bc-331bc::k6'],   // Alexander's Conquest -> Alexander enters Babylon
   ['achaemenid-550bc-330bc::c7', 'mesopotamia-539bc-331bc::c3'],   // Cunaxa and the March of the Ten Thousand -> Babylonia in the empire's wars
   ['achaemenid-550bc-330bc::o6', 'egypt-664bc-332bc::o3'],         // Darius and the codification of Egyptian law -> the law of Egypt codified
+  // ── seleucid-iran-330bc-148bc (Iran/Persia program, second folio) ──
+  // rejected: two bare "Seleucid" dynasty-word matches to t2 (Tylos administration and the
+  // final loss of Mesopotamia) with no real content overlap with Antiochus III's ideology.
+  ['seleucid-iran-330bc-148bc::p1', 'mesopotamia-331bc-141bc::k1'],  // Seleucus I -> Seleucus I, the satrap who won a kingdom
+  ['seleucid-iran-330bc-148bc::p2', 'mesopotamia-331bc-141bc::k2'],  // Antiochus I -> Antiochus I, the restorer of the temples
+  ['seleucid-iran-330bc-148bc::o4', 'mesopotamia-331bc-141bc::k2'],  // Antiochus I's model of temple patronage -> same Borsippa Cylinder
+  ['seleucid-iran-330bc-148bc::t3', 'mesopotamia-331bc-141bc::k2'],  // Berossus dedicated to Antiochus I -> Antiochus I, the restorer of the temples
+  ['seleucid-iran-330bc-148bc::p3', 'mesopotamia-331bc-141bc::k3'],  // Antiochus II and Seleucus II -> the same, Mesopotamia's middle reigns
+  ['seleucid-iran-330bc-148bc::p4', 'mesopotamia-331bc-141bc::k4'],  // Antiochus III's Anabasis -> the march east and the Roman check
+  ['seleucid-iran-330bc-148bc::c6', 'mesopotamia-141bc-224::k1'],    // Mithridates I's conquest of Media -> the Parthian settlement
+  ['seleucid-iran-330bc-148bc::t2', 'mesopotamia-539bc-331bc::k1'],  // the memory of Cyrus in Seleucid ideology -> Cyrus and Cambyses
+  ['seleucid-iran-330bc-148bc::b2', 'mesopotamia-539bc-331bc::k6'],  // later memory of Alexander's damage -> Alexander enters Babylon
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
