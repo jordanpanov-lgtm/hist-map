@@ -1018,6 +1018,16 @@ const SELECTED_PAIRS = [
   // rejected: four bare "Abbasid" dynasty-word matches to ec2 with no real content overlap.
   ['iran-651-821::c1', 'sassanid-484-651::k11'],                     // Yazdegerd III's death at Merv -> the same king, Sassanid side
   ['iran-651-821::x2', 'caliphate-750-945::e3'],                     // paper spreads from Samarkand -> paper, the warraqs and the book trade
+  // ── zagros-elam-8000bc-3200bc (Iran/Persia program, Step 3 — the Elam chain begins) ──
+  // rejected: two bare "Zagros" geography matches spanning a 5,000+ year gap (Neolithic
+  // farmers vs. the much later Kassites), and a generic "Herders" match to an unrelated
+  // pastoral phenomenon in Arabia with no actual connection to the Zagros.
+  ['zagros-elam-8000bc-3200bc::p5', 'uruk-3800bc-2900bc::p1'],       // Susa II and contact with Uruk -> the making of Uruk
+  ['zagros-elam-8000bc-3200bc::p5', 'uruk-3800bc-2900bc::p4'],       // Susa II and contact with Uruk -> the Uruk expansion
+  ['zagros-elam-8000bc-3200bc::x2', 'uruk-3800bc-2900bc::p1'],       // Uruk settlers or traders at Susa -> the making of Uruk
+  ['zagros-elam-8000bc-3200bc::x2', 'uruk-3800bc-2900bc::p4'],       // Uruk settlers or traders at Susa -> the Uruk expansion
+  ['zagros-elam-8000bc-3200bc::w2', 'uruk-3800bc-2900bc::p1'],       // the Uruk expansion's eastern edge -> the making of Uruk
+  ['zagros-elam-8000bc-3200bc::w2', 'uruk-3800bc-2900bc::p4'],       // the Uruk expansion's eastern edge -> the Uruk expansion
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
