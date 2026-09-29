@@ -59,6 +59,7 @@ const MODULES = [
   { id:"iran-1722-1789", file:"modules/iran-1722-1789.json", label:"Afsharid and Zand Iran 1722–1789", sub:"Nader Shah's Conquests to Karim Khan's Shiraz", region:"Iran", period:"Early Modern" },
   { id:"qajar-1789-1925", file:"modules/qajar-1789-1925.json", label:"Qajar Iran 1789–1925", sub:"The Great Game, the Constitutional Revolution and the Coming of Oil", region:"Iran", period:"Early Modern" },
   { id:"pahlavi-1925-1979", file:"modules/pahlavi-1925-1979.json", label:"Pahlavi Iran 1925–1979", sub:"Modernization, Oil, and the Islamic Revolution", region:"Iran", period:"Modern" },
+  { id:"iran-1979-today", file:"modules/iran-1979-today.json", label:"Islamic Republic 1979–today", sub:"Revolution, the Iran-Iraq War, and Decades of Confrontation", region:"Iran", period:"Modern" },
   { id:"achaemenid-550bc-330bc", file:"modules/achaemenid-550bc-330bc.json", label:"Achaemenid Empire 550–330 BC", sub:"Cyrus's Conquests to the Fall of Darius III", region:"Iran", period:"Ancient" },
   { id:"seleucid-iran-330bc-148bc", file:"modules/seleucid-iran-330bc-148bc.json", label:"Seleucid Iran 330–148 BC", sub:"Alexander's Successors and the Loss of the Upper Satrapies", region:"Iran", period:"Late Antique" },
   { id:"parthia-148bc-224",     file:"modules/parthia-148bc-224.json",     label:"Parthian Iran 148 BC – 224 AD", sub:"Nisa, Ecbatana and the Feudal Empire",        region:"Iran",    period:"Late Antique"  },
