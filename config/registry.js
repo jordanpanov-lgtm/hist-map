@@ -38,6 +38,11 @@ const MODULES = [
   // placed here — after Nabataea — because it is the Roman-province aftermath of it;
   //   its Medieval sibling nw-arabia-632-1517 sits in the Northwest-oases block below.
   { id:"nw-arabia-106-632", file:"modules/nw-arabia-106-632.json", label:"Rome and the Oases 106–632", sub:"The Roman Frontier, the Tribal and Jewish Oases, and the Conquest of the North", region:"NW Arabia", period:"Late Antique" },
+  // ── THE LEVANT (region:"Levant" — Syria, Lebanon, Palestine, Jordan, Israel). See memory
+  //   levant-program.md for the full planned arc, prehistory to today. Israel/Judah run as one
+  //   folio (not split like Iraq's Assyria/Babylonia); the Iron Age runs FOUR parallel threads
+  //   (Phoenicia / Israel-Judah / Aram-Damascus / Philistia), not two.
+  { id:"levant-neolithic-10000bc-2000bc", file:"modules/levant-neolithic-10000bc-2000bc.json", label:"Neolithic and Chalcolithic Levant", sub:"Jericho, 'Ain Ghazal, and the Nahal Mishmar Hoard", region:"Levant", period:"Prehistoric" },
   { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
   { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
   { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
