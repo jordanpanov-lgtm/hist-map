@@ -1092,6 +1092,29 @@ const SELECTED_PAIRS = [
   ['ilkhanate-1219-1335::c5', 'mamluks-1250-1517::c1'],              // the Battle of Ayn Jalut -> the same battle, the Mamluk victors' view
   ['ilkhanate-1219-1335::p5', 'iraq-1258-1534::o2'],                 // Ghazan's conversion and reform -> the Ilkhanid reforms and their limits
   ['ilkhanate-1219-1335::p5', 'iraq-1258-1534::g2'],                 // Ghazan's reign -> the Ilkhanid channel from China (Rashid al-Din's own project)
+  // ── iran-1335-1501 (Iran/Persia program, Step 4 continued) ──
+  // "Timur" names one specific person, not a dynasty label, so these fan out legitimately —
+  // his campaigns really did reach all these regions. Rejected: a generic "Sunni" match to an
+  // unrelated Mamluk learning-center entry.
+  ['iran-1335-1501::p2', 'hormuz-1200-1507::w2'],                    // Timur the conqueror -> Timur's empire and Timurid Persia
+  ['iran-1335-1501::c1', 'hormuz-1200-1507::w2'],                    // Timur subdues the regional successors -> same
+  ['iran-1335-1501::o1', 'hormuz-1200-1507::w2'],                    // Timur's extractive conquest state -> same
+  ['iran-1335-1501::e2', 'hormuz-1200-1507::w2'],                    // Timur's monuments at Samarkand -> same
+  ['iran-1335-1501::l2', 'hormuz-1200-1507::w2'],                    // the demographic toll of Timur's campaigns -> same
+  ['iran-1335-1501::p1', 'iraq-1258-1534::k2'],                      // the Jalayirids -> the Jalayirids make Baghdad a capital again
+  ['iran-1335-1501::p1', 'iraq-1258-1534::c3'],                      // the Jalayirids -> the Turkmen displace the Jalayirids
+  ['iran-1335-1501::p2', 'iraq-1258-1534::k3'],                      // Timur the conqueror -> Timur and the two sacks of Baghdad
+  ['iran-1335-1501::p2', 'iraq-1258-1534::c2'],                      // Timur the conqueror -> Timur's campaigns and the tower of skulls
+  ['iran-1335-1501::c1', 'iraq-1258-1534::k3'],                      // Timur subdues the regional successors -> same
+  ['iran-1335-1501::o1', 'iraq-1258-1534::k3'],                      // Timur's extractive conquest state -> same
+  ['iran-1335-1501::e2', 'iraq-1258-1534::k3'],                      // Timur's monuments at Samarkand -> same
+  ['iran-1335-1501::l2', 'iraq-1258-1534::k3'],                      // the demographic toll of Timur's campaigns -> same
+  ['iran-1335-1501::b1', 'iraq-1258-1534::k6'],                      // the Safavid order's quiet beginnings -> the Safavid conquest and the Shia turn
+  ['iran-1335-1501::p2', 'mamluks-1250-1517::c7'],                   // Timur the conqueror -> Timur sacks Aleppo and Damascus
+  ['iran-1335-1501::c1', 'mamluks-1250-1517::c7'],                   // Timur subdues the regional successors -> same
+  ['iran-1335-1501::o1', 'mamluks-1250-1517::c7'],                   // Timur's extractive conquest state -> same
+  ['iran-1335-1501::e2', 'mamluks-1250-1517::c7'],                   // Timur's monuments at Samarkand -> same
+  ['iran-1335-1501::l2', 'mamluks-1250-1517::c7'],                   // the demographic toll of Timur's campaigns -> same
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
