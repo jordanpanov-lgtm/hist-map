@@ -1177,6 +1177,15 @@ const SELECTED_PAIRS = [
   ['israel-judah-1200bc-586bc::c5', 'babylon-1155bc-539bc::k8'],     // the 586 BC destruction -> Nebuchadnezzar II, builder and exiler
   ['israel-judah-1200bc-586bc::w2', 'babylon-1155bc-539bc::b3'],     // exile and an open question -> the exile and the making of Judaism
   ['israel-judah-1200bc-586bc::w2', 'babylon-1155bc-539bc::l2'],     // exile and an open question -> the al-Yahudu Judean exile community
+  // ── aram-damascus-1200bc-732bc (Levant program, Phase 2) — the Qarqar coalition told from four
+  // sides (Aram, Israel, Assyria, Egypt) and the Tel Dan Stele read from the Damascene side.
+  ['aram-damascus-1200bc-732bc::c1', 'israel-judah-1200bc-586bc::c1'],   // Qarqar, Aram's side -> Qarqar, Israel's side
+  ['aram-damascus-1200bc-732bc::c1', 'assyria-911bc-609bc::k3'],         // Qarqar -> Shalmaneser III's own Qarqar entry
+  ['aram-damascus-1200bc-732bc::c1', 'egypt-1200bc-664bc::c5'],          // Qarqar -> Egypt's minor "Musri" contingent
+  ['aram-damascus-1200bc-732bc::p4', 'israel-judah-1200bc-586bc::c1'],   // Hadadezer leads the coalition -> Qarqar, Israel's side
+  ['aram-damascus-1200bc-732bc::p4', 'assyria-911bc-609bc::k3'],         // Hadadezer leads the coalition -> Shalmaneser III's own entry
+  ['aram-damascus-1200bc-732bc::p4', 'egypt-1200bc-664bc::c5'],          // Hadadezer leads the coalition -> Egypt's minor contingent
+  ['aram-damascus-1200bc-732bc::e1', 'israel-judah-1200bc-586bc::p4'],   // the Tel Dan Stele, Damascene reading -> same stele, Davidic reading
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

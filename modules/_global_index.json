@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6773,
     "folio_count": 131,
-    "xlink_pairs": 1257,
+    "xlink_pairs": 1264,
     "keyword_terms": 10104,
     "folios": [
       {
@@ -7602,6 +7602,38 @@
     "gulf-prehistory-8000bc-3000bc::w2": [
       "arabia-paleolithic-500000bc-8000bc::w4"
     ],
+    "aram-damascus-1200bc-732bc::p4": [
+      "assyria-911bc-609bc::k3",
+      "egypt-1200bc-664bc::c5",
+      "israel-judah-1200bc-586bc::c1"
+    ],
+    "assyria-911bc-609bc::k3": [
+      "aram-damascus-1200bc-732bc::p4",
+      "aram-damascus-1200bc-732bc::c1",
+      "israel-judah-1200bc-586bc::c1",
+      "israel-judah-1200bc-586bc::p8",
+      "phoenicia-1200bc-539bc::c1"
+    ],
+    "egypt-1200bc-664bc::c5": [
+      "aram-damascus-1200bc-732bc::p4",
+      "aram-damascus-1200bc-732bc::c1"
+    ],
+    "israel-judah-1200bc-586bc::c1": [
+      "aram-damascus-1200bc-732bc::p4",
+      "aram-damascus-1200bc-732bc::c1",
+      "assyria-911bc-609bc::k3"
+    ],
+    "aram-damascus-1200bc-732bc::c1": [
+      "assyria-911bc-609bc::k3",
+      "egypt-1200bc-664bc::c5",
+      "israel-judah-1200bc-586bc::c1"
+    ],
+    "aram-damascus-1200bc-732bc::e1": [
+      "israel-judah-1200bc-586bc::p4"
+    ],
+    "israel-judah-1200bc-586bc::p4": [
+      "aram-damascus-1200bc-732bc::e1"
+    ],
     "assyria-1400bc-1050bc::k1": [
       "babylon-1595bc-1155bc::k6",
       "babylon-2004bc-1595bc::k6"
@@ -7745,14 +7777,6 @@
     ],
     "assyria-911bc-609bc::k1": [
       "assyria-1400bc-1050bc::w4"
-    ],
-    "assyria-911bc-609bc::k3": [
-      "israel-judah-1200bc-586bc::c1",
-      "israel-judah-1200bc-586bc::p8",
-      "phoenicia-1200bc-539bc::c1"
-    ],
-    "israel-judah-1200bc-586bc::c1": [
-      "assyria-911bc-609bc::k3"
     ],
     "israel-judah-1200bc-586bc::p8": [
       "assyria-911bc-609bc::k3"

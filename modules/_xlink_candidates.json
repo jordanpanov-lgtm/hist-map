@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1465,
-    "figure_matches_rejected_dynasty_mismatch": 1297,
-    "figure_matches_rejected_date_implausible": 1844,
+    "figure_matches": 1467,
+    "figure_matches_rejected_dynasty_mismatch": 1299,
+    "figure_matches_rejected_date_implausible": 1847,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4794,
-    "keyword_matches_rejected_geo_only": 9257,
-    "high_confidence": 1498,
-    "medium_confidence": 363,
-    "low_confidence": 4398
+    "keyword_matches": 4797,
+    "keyword_matches_rejected_geo_only": 9259,
+    "high_confidence": 1500,
+    "medium_confidence": 364,
+    "low_confidence": 4400
   },
   "figure_name_matches": [
     {
@@ -297,6 +297,28 @@
       },
       "xlink_a": "ayyubids-1171-1250::k3",
       "xlink_b": "fatimids-909-1171::v6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Damascus",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Damascus line",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1260s"
+      },
+      "match": {
+        "folio": "aram-damascus-1200bc-732bc",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Damascus Oasis and Caravan Crossroads",
+        "decade": "730s BC–1200s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k9",
+      "xlink_b": "aram-damascus-1200bc-732bc::ec1"
     },
     {
       "confidence": "high",
@@ -24467,6 +24489,28 @@
         "decade": "0s"
       },
       "match": {
+        "folio": "aram-damascus-1200bc-732bc",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Rhythm of Assyrian Vassalage",
+        "decade": "0s"
+      },
+      "xlink_a": "phoenicia-1200bc-539bc::p3",
+      "xlink_b": "aram-damascus-1200bc-732bc::x1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Assyrian",
+      "pivot": {
+        "folio": "phoenicia-1200bc-539bc",
+        "id": "p3",
+        "cat": "power",
+        "label": "Assyrian and Babylonian Overlordship",
+        "dynasty": null,
+        "decade": "0s"
+      },
+      "match": {
         "folio": "assyria-1400bc-1050bc",
         "id": "k1",
         "cat": "power",
@@ -41500,6 +41544,60 @@
       "confidence": "medium",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Orontes",
+        "Qarqar",
+        "Shalmaneser III"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "assyria-911bc-609bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The reconquest of the west and Qarqar",
+        "decade": "840s BC–880s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Qarqar and the camel contingent",
+        "decade": "850s BC"
+      },
+      "date_flag": "12yr gap",
+      "xlink_a": "assyria-911bc-609bc::c1",
+      "xlink_b": "qedar-853bc-330bc::c1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ahab of Israel",
+        "Hadadezer of Damascus",
+        "Qarqar Orontes"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "aram-damascus-1200bc-732bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Qarqar Coalition's Senior Partner",
+        "decade": "850s BC"
+      },
+      "b": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Egypt at the Battle of Qarqar",
+        "decade": "850s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "aram-damascus-1200bc-732bc::c1",
+      "xlink_b": "egypt-1200bc-664bc::c5"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Babylon Bābil",
         "Enuma Elish",
         "Esagila"
@@ -41738,33 +41836,6 @@
       "date_flag": "13yr gap",
       "xlink_a": "nabataean-312bc-106ce::o3",
       "xlink_b": "rome-200-300::ex3"
-    },
-    {
-      "confidence": "medium",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Orontes",
-        "Qarqar",
-        "Shalmaneser III"
-      ],
-      "sharedCount": 3,
-      "a": {
-        "folio": "assyria-911bc-609bc",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "The reconquest of the west and Qarqar",
-        "decade": "840s BC–880s"
-      },
-      "b": {
-        "folio": "qedar-853bc-330bc",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "Qarqar and the camel contingent",
-        "decade": "850s BC"
-      },
-      "date_flag": "12yr gap",
-      "xlink_a": "assyria-911bc-609bc::c1",
-      "xlink_b": "qedar-853bc-330bc::c1"
     },
     {
       "confidence": "medium",
@@ -96631,6 +96702,188 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Arabs",
+        "Assyria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "assyria-911bc-609bc",
+        "id": "xc4",
+        "cat": "exchange",
+        "label": "Assyria and the Arabs",
+        "decade": "640s BC–730s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Assyria and the Arabs",
+        "decade": "630s BC–850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "assyria-911bc-609bc::xc4",
+      "xlink_b": "qedar-853bc-330bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Assyria",
+        "Nineveh"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "xc5",
+        "cat": "exchange",
+        "label": "Assyria enters Egypt",
+        "decade": "660s BC–670s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Assyria and the Arabs",
+        "decade": "630s BC–850s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1200bc-664bc::xc5",
+      "xlink_b": "qedar-853bc-330bc::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ahab of Israel",
+        "Shalmaneser III"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "aram-damascus-1200bc-732bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Qarqar Coalition's Senior Partner",
+        "decade": "850s BC"
+      },
+      "b": {
+        "folio": "assyria-911bc-609bc",
+        "id": "k3",
+        "cat": "power",
+        "label": "Shalmaneser III — the long reach and the first check",
+        "decade": "820s BC–850s"
+      },
+      "date_flag": "29yr gap",
+      "xlink_a": "aram-damascus-1200bc-732bc::c1",
+      "xlink_b": "assyria-911bc-609bc::k3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Qarqar Orontes",
+        "Shalmaneser III"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "aram-damascus-1200bc-732bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Qarqar Coalition's Senior Partner",
+        "decade": "850s BC"
+      },
+      "b": {
+        "folio": "israel-judah-1200bc-586bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Ahab's Chariots at Qarqar",
+        "decade": "850s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "aram-damascus-1200bc-732bc::c1",
+      "xlink_b": "israel-judah-1200bc-586bc::c1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Black Obelisk",
+        "Shalmaneser III"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "assyria-911bc-609bc",
+        "id": "k3",
+        "cat": "power",
+        "label": "Shalmaneser III — the long reach and the first check",
+        "decade": "820s BC–850s"
+      },
+      "b": {
+        "folio": "israel-judah-1200bc-586bc",
+        "id": "p8",
+        "cat": "power",
+        "label": "Jehu's Bloody Coup",
+        "decade": "810s BC–840s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "assyria-911bc-609bc::k3",
+      "xlink_b": "israel-judah-1200bc-586bc::p8"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Qarqar",
+        "Shalmaneser III"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "assyria-911bc-609bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The reconquest of the west and Qarqar",
+        "decade": "840s BC–880s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Gindibu the Arab, and the first 'Arabs'",
+        "decade": "850s BC"
+      },
+      "date_flag": "12yr gap",
+      "xlink_a": "assyria-911bc-609bc::c1",
+      "xlink_b": "qedar-853bc-330bc::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Assyrian",
+        "Tiglath-Pileser III"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "dedan-tayma-1200bc-300bc",
+        "id": "k2",
+        "cat": "power",
+        "label": "Taymāʾ and the Assyrians",
+        "decade": "640s BC–730s"
+      },
+      "b": {
+        "folio": "qedar-853bc-330bc",
+        "id": "k2",
+        "cat": "power",
+        "label": "The ʿAribi on the Assyrian tribute frontier",
+        "decade": "640s BC–730s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "dedan-tayma-1200bc-300bc::k2",
+      "xlink_b": "qedar-853bc-330bc::k2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Ashur",
         "Assur Qal'at Sherqat"
       ],
@@ -99076,32 +99329,6 @@
       "type": "keyword-overlap",
       "sharedTerms": [
         "Assyrian",
-        "Tiglath-Pileser III"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "dedan-tayma-1200bc-300bc",
-        "id": "k2",
-        "cat": "power",
-        "label": "Taymāʾ and the Assyrians",
-        "decade": "640s BC–730s"
-      },
-      "b": {
-        "folio": "qedar-853bc-330bc",
-        "id": "k2",
-        "cat": "power",
-        "label": "The ʿAribi on the Assyrian tribute frontier",
-        "decade": "640s BC–730s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "dedan-tayma-1200bc-300bc::k2",
-      "xlink_b": "qedar-853bc-330bc::k2"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Assyrian",
         "Nineveh"
       ],
       "sharedCount": 2,
@@ -99304,58 +99531,6 @@
       "date_flag": "overlapping",
       "xlink_a": "mesopotamia-6500bc-3800bc::x2",
       "xlink_b": "south-arabia-1200bc-300bc::ec6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Arabs",
-        "Assyria"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "assyria-911bc-609bc",
-        "id": "xc4",
-        "cat": "exchange",
-        "label": "Assyria and the Arabs",
-        "decade": "640s BC–730s"
-      },
-      "b": {
-        "folio": "qedar-853bc-330bc",
-        "id": "x1",
-        "cat": "exchange",
-        "label": "Assyria and the Arabs",
-        "decade": "630s BC–850s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "assyria-911bc-609bc::xc4",
-      "xlink_b": "qedar-853bc-330bc::x1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Assyria",
-        "Nineveh"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "egypt-1200bc-664bc",
-        "id": "xc5",
-        "cat": "exchange",
-        "label": "Assyria enters Egypt",
-        "decade": "660s BC–670s"
-      },
-      "b": {
-        "folio": "qedar-853bc-330bc",
-        "id": "x1",
-        "cat": "exchange",
-        "label": "Assyria and the Arabs",
-        "decade": "630s BC–850s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "egypt-1200bc-664bc::xc5",
-      "xlink_b": "qedar-853bc-330bc::x1"
     },
     {
       "confidence": "low",
@@ -99798,58 +99973,6 @@
       "date_flag": "overlapping",
       "xlink_a": "assyria-911bc-609bc::w1",
       "xlink_b": "babylon-2004bc-1595bc::xc6"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Black Obelisk",
-        "Shalmaneser III"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "assyria-911bc-609bc",
-        "id": "k3",
-        "cat": "power",
-        "label": "Shalmaneser III — the long reach and the first check",
-        "decade": "820s BC–850s"
-      },
-      "b": {
-        "folio": "israel-judah-1200bc-586bc",
-        "id": "p8",
-        "cat": "power",
-        "label": "Jehu's Bloody Coup",
-        "decade": "810s BC–840s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "assyria-911bc-609bc::k3",
-      "xlink_b": "israel-judah-1200bc-586bc::p8"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Qarqar",
-        "Shalmaneser III"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "assyria-911bc-609bc",
-        "id": "c1",
-        "cat": "conflict",
-        "label": "The reconquest of the west and Qarqar",
-        "decade": "840s BC–880s"
-      },
-      "b": {
-        "folio": "qedar-853bc-330bc",
-        "id": "k1",
-        "cat": "power",
-        "label": "Gindibu the Arab, and the first 'Arabs'",
-        "decade": "850s BC"
-      },
-      "date_flag": "12yr gap",
-      "xlink_a": "assyria-911bc-609bc::c1",
-      "xlink_b": "qedar-853bc-330bc::k1"
     },
     {
       "confidence": "low",
