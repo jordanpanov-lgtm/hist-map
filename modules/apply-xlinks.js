@@ -1137,6 +1137,10 @@ const SELECTED_PAIRS = [
   ['iran-1722-1789::t1', 'oman-gulf-1650-1820::c2'],                 // Marvi's chronicle of Nader Shah -> same figure
   ['iran-1722-1789::c4', 'oman-gulf-1650-1820::w2'],                 // the assassination of Nader Shah -> same figure
   ['iran-1722-1789::t1', 'oman-gulf-1650-1820::w2'],                 // Marvi's chronicle of Nader Shah -> same figure
+  // ── qajar-1789-1925 (Iran/Persia program, Step 4 continued) ──
+  // rejected: three bare "Iran" country-name matches to an unrelated 1971 event (Iran seizing
+  // the Tunbs and Abu Musa), 46 years after this folio ends.
+  ['qajar-1789-1925::p2', 'oman-gulf-1650-1820::w6'],                // the early Qajars -> the Qajars take Persia
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
