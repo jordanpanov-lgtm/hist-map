@@ -409,7 +409,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "Elam's zenith as a great power, and its sudden reversal",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "1158 BC",
+          "label": "Elam's Zenith as a Great Power",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "With the Kassite dynasty destroyed and Babylon's most prestigious monuments displayed at Susa, Shutruk-Nahhunte's Elam stood at the height of its power and prestige in the Bronze Age Near East — a peak the kingdom would never again reach in its long subsequent history.",
+          "note": "Comparative Bronze Age political history, on Elam's regional standing at its height."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "c.1110 BC",
+          "label": "The Sudden Reversal",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Nebuchadnezzar I's decisive victory and the recovery of Marduk's statue plunged Elam into a long political eclipse from which no strong central Elamite kingship is well attested for nearly four centuries — the abruptness of the fall, following so closely on the zenith, is itself one of the more striking reversals in the whole Bronze Age Near East.",
+          "note": "The 'Marduk Prophecy'; the near-total absence of Elamite royal inscriptions for the following centuries."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -418,7 +447,22 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Napirasu, a queen named and remembered",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Women's Agency",
+          "tag": "EVIDENCE",
+          "date": "c.1275–1240 BC",
+          "label": "Napirasu — a Queen Named and Remembered",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Very few royal women anywhere in the ancient Near East were commemorated with an individually named, monumental statue in their own right rather than as an anonymous figure in a king's own inscriptions — Napirasu's bronze likeness, inscribed with her own name and titles, is a rare and deliberate exception.",
+          "note": "Statue of Napirasu, Louvre Sb 2731, inscribed with her own dedicatory text."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -427,74 +471,210 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "The Igehalkid Dynasty (c.1400–1210 BC)",
-      "events": []
+      "events": [
+        {
+          "y": -1400,
+          "y2": -1275,
+          "l": "The Igehalkid Dynasty",
+          "entryId": "p1"
+        },
+        {
+          "y": -1275,
+          "y2": -1240,
+          "l": "Untash-Napirisha and Chogha Zanbil",
+          "entryId": "p2"
+        }
+      ]
     },
     {
       "id": "shutrukid",
       "icon": "⚜️",
       "accent": "#7A200A",
       "label": "The Shutrukid Dynasty (c.1210–1100 BC)",
-      "events": []
+      "events": [
+        {
+          "y": -1185,
+          "y2": -1155,
+          "l": "Shutruk-Nahhunte I — the Sack of Babylon",
+          "entryId": "p3"
+        },
+        {
+          "y": -1155,
+          "y2": -1110,
+          "l": "Kutir-Nahhunte and Shilhak-Inshushinak — the Zenith",
+          "entryId": "p4"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": -1158,
+          "l": "The Sack of Babylon and the Fall of the Kassites",
+          "entryId": "c1"
+        },
+        {
+          "y": -1155,
+          "l": "Kutir-Nahhunte's Client King in Babylon",
+          "entryId": "c2"
+        },
+        {
+          "y": -1110,
+          "l": "Nebuchadnezzar I's Counter-Invasion and the Recovery of Marduk",
+          "entryId": "c3"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": -1250,
+          "l": "'King of Anshan and Susa'",
+          "entryId": "o1"
+        },
+        {
+          "y": -1150,
+          "l": "Shilhak-Inshushinak's Inscribed Record of Rule",
+          "entryId": "o2"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": -1275,
+          "l": "The Ziggurat of Dur-Untash",
+          "entryId": "b1"
+        },
+        {
+          "y": -1150,
+          "l": "The Sit Shamshi Ritual Model",
+          "entryId": "b2"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": -1275,
+          "l": "The Statue of Napirasu",
+          "entryId": "e1"
+        },
+        {
+          "y": -1275,
+          "l": "Chogha Zanbil's Ziggurat Architecture",
+          "entryId": "e2"
+        },
+        {
+          "y": -1158,
+          "l": "The Trophies at Susa",
+          "entryId": "e3"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": -1150,
+          "l": "Shilhak-Inshushinak's Inscriptions as History",
+          "entryId": "t1"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": -1275,
+          "l": "The Wealth Behind Chogha Zanbil",
+          "entryId": "ec1"
+        },
+        {
+          "y": -1158,
+          "l": "War Booty as Royal Revenue",
+          "entryId": "ec2"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": -1275,
+          "l": "Monumental Bronze Casting",
+          "entryId": "tc1"
+        },
+        {
+          "y": -1275,
+          "l": "Ziggurat Construction at Dur-Untash",
+          "entryId": "tc2"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": -1158,
+          "l": "War Trophies from Babylon",
+          "entryId": "x1"
+        },
+        {
+          "y": -1158,
+          "l": "Deportations Following the Sack of Babylon",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": -1158,
+          "l": "Elam's Zenith as a Great Power",
+          "entryId": "w1"
+        },
+        {
+          "y": -1110,
+          "l": "The Sudden Reversal",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": -1275,
+          "l": "Napirasu — a Queen Named and Remembered",
+          "entryId": "l1"
+        }
+      ]
     }
   ]
 }
