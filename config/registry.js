@@ -49,6 +49,7 @@ const MODULES = [
   { id:"parthia-148bc-224",     file:"modules/parthia-148bc-224.json",     label:"Parthian Iran 148 BC – 224 AD", sub:"Nisa, Ecbatana and the Feudal Empire",        region:"Iran",    period:"Late Antique"  },
   { id:"sassanid-224-484",      file:"modules/sassanid-224-484.json",      label:"Sassanid Empire 224–484",     sub:"Foundation to Hephthalite Crisis",            region:"Iran",    period:"Late Antique"  },
   { id:"sassanid-484-651",      file:"modules/sassanid-484-651.json",      label:"Sassanid Empire 484–651",     sub:"Renewal, Apogee & Collapse",                  region:"Iran",    period:"Late Antique"  },
+  { id:"iran-651-821",          file:"modules/iran-651-821.json",          label:"Arab Conquest and Abbasid Iran 651–821", sub:"Nihavand to the Rise of the Tahirids", region:"Iran", period:"Medieval" },
   // ── THE CALIPHATE (imperial backbone — Near East, cross-regional) ───────────
   { id:"caliphate-632-750",     file:"modules/caliphate-632-750.json",     label:"The Caliphate 632–750",       sub:"Conquest, the Fitnas and the Umayyad State",  region:"Near East", period:"Medieval" },
   { id:"caliphate-750-945",     file:"modules/caliphate-750-945.json",     label:"The Abbasid Caliphate 750–945", sub:"Baghdad, the Translation Movement and the House of Islam", region:"Near East", period:"Medieval" },
