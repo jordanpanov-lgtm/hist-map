@@ -21,7 +21,97 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Regional successors, Timur's conquests, the Herat renaissance, and the Turkmen confederations",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Regional Successors",
+          "label": "The Jalayirids, Muzaffarids and Karts",
+          "date": "1335–1387",
+          "loc": "Tabriz",
+          "coords": [
+            38.08,
+            46.29
+          ],
+          "hint": "The Ilkhanate's collapse produced three durable regional successor dynasties — Jalayirids in Iraq and Azerbaijan, Muzaffarids in Fars and Kerman, and the long-established Karts in Herat — each ruling as effectively independent Persian-administered states until Timur's campaigns absorbed or destroyed them one after another in the 1380s.",
+          "tag": "EVIDENCE",
+          "note": "Hafiz-i Abru, continuation of Rashid al-Din's Jami al-Tawarikh, on the post-Ilkhanid successor states."
+        },
+        {
+          "id": "p2",
+          "group": "Timur and the Empire",
+          "dynasty": "Timurid",
+          "label": "Timur — the Conqueror",
+          "date": "1370–1405",
+          "loc": "Samarkand",
+          "coords": [
+            39.65,
+            66.96
+          ],
+          "hint": "Ruling from Samarkand as an emir rather than claiming the title of khan himself, Timur built an empire through nearly continuous campaigning across Iran, Central Asia, India, the Caucasus and Anatolia — a military career whose sheer geographic range and reported brutality made him, alongside Genghis Khan, one of the two conquerors most feared in the historical memory of the entire region he crossed.",
+          "tag": "SUCCESSION",
+          "note": "Nizam al-Din Shami and Sharaf al-Din Ali Yazdi, both court-commissioned Zafarnama ('Book of Victory') biographies of Timur."
+        },
+        {
+          "id": "p3",
+          "group": "The Timurid Renaissance",
+          "dynasty": "Timurid",
+          "label": "Shah Rukh and the Timurid Renaissance",
+          "date": "1405–1447",
+          "loc": "Herat",
+          "coords": [
+            34.35,
+            62.2
+          ],
+          "hint": "Timur's son Shah Rukh moved the dynastic capital to Herat and governed through consolidation and cultural patronage rather than further conquest, presiding over what art and literary historians now call the Timurid Renaissance — the era's most sustained flowering of Persian manuscript painting, architecture and poetry.",
+          "tag": "SUCCESSION",
+          "note": "Hafiz-i Abru, Zubdat al-Tawarikh, on Shah Rukh's reign."
+        },
+        {
+          "id": "p4",
+          "group": "The Timurid Renaissance",
+          "dynasty": "Timurid",
+          "label": "Ulugh Beg — the Astronomer King",
+          "date": "1447–1449",
+          "loc": "Samarkand",
+          "coords": [
+            39.65,
+            66.96
+          ],
+          "hint": "Timur's grandson Ulugh Beg governed Samarkand for decades as a scholar-prince before briefly holding the full imperial throne, more celebrated in his own lifetime and ever since for his astronomical observatory than for his short and troubled reign, which ended when his own son had him assassinated.",
+          "tag": "DEPOSED",
+          "note": "Abd al-Razzaq Samarqandi, Matla al-Sa'dayn, on Ulugh Beg's reign and death."
+        },
+        {
+          "id": "p5",
+          "group": "The Timurid Renaissance",
+          "dynasty": "Timurid",
+          "label": "Sultan Husayn Bayqara and Late Timurid Herat",
+          "date": "1470–1506",
+          "loc": "Herat",
+          "coords": [
+            34.35,
+            62.2
+          ],
+          "hint": "The last major Timurid ruler, Sultan Husayn Bayqara presided over Herat's final and most celebrated cultural flowering — the painter Bihzad, the poet Jami and the statesman-poet Ali-Shir Nava'i were all active at his court — even as the dynasty's political and military position across the wider region continued to erode toward the Uzbek conquest that would end Timurid rule in Herat within a few years of this folio's close.",
+          "tag": "SUCCESSION",
+          "note": "Khvandamir, Habib al-Siyar, on Sultan Husayn Bayqara's court and its cultural figures."
+        },
+        {
+          "id": "p6",
+          "group": "The Turkmen Confederations",
+          "dynasty": "Turkmen",
+          "label": "The Qara Qoyunlu and Aq Qoyunlu",
+          "date": "1375–1501",
+          "loc": "Tabriz",
+          "coords": [
+            38.08,
+            46.29
+          ],
+          "hint": "Two rival Turkmen tribal confederations, the Black Sheep (Qara Qoyunlu) and White Sheep (Aq Qoyunlu), fought each other and the Timurids for control of western Iran and Iraq across more than a century — Uzun Hasan's Aq Qoyunlu eventually dominated the region at its peak before its own decline opened the way for the rising Safavid movement to seize power in 1501.",
+          "tag": "EVIDENCE",
+          "note": "Fazlallah ibn Ruzbihan Khunji, Tarikh-i Alam-Ara-yi Amini, on the Aq Qoyunlu confederation."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +120,78 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "Timur's wars, the sack of Isfahan, and the Turkmen wars for western Iran",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Timur's Conquest of Iran",
+          "tag": "BATTLE",
+          "date": "1380–1387",
+          "label": "Timur Subdues the Regional Successors",
+          "loc": "Herat",
+          "coords": [
+            34.35,
+            62.2
+          ],
+          "hint": "Timur eliminated the Karts, Muzaffarids and Jalayirids as independent powers in successive campaigns through the 1380s, each conquest marked by the systematic destruction of any city that resisted and the incorporation of the survivors' skilled craftsmen and scholars into his own capital at Samarkand.",
+          "note": "Sharaf al-Din Ali Yazdi, Zafarnama, on Timur's Iranian campaigns."
+        },
+        {
+          "id": "c2",
+          "group": "Timur's Conquest of Iran",
+          "tag": "BATTLE",
+          "date": "1387",
+          "label": "The Sack of Isfahan",
+          "loc": "Isfahan",
+          "coords": [
+            32.65,
+            51.68
+          ],
+          "hint": "After Isfahan's population rose up and killed the tax officials Timur had installed, his army retook the city and reportedly built towers from the skulls of tens of thousands of its inhabitants — a calculated act of terror, whatever the precise casualty figures, meant to ensure no other city under his rule would consider similar resistance.",
+          "note": "Sharaf al-Din Ali Yazdi, Zafarnama, on the sack of Isfahan, with the same caution warranted for all medieval casualty figures."
+        },
+        {
+          "id": "c3",
+          "group": "Timur's Wars beyond Iran",
+          "tag": "BATTLE",
+          "date": "1398–1402",
+          "label": "Delhi and Ankara",
+          "loc": "Ankara",
+          "coords": [
+            39.93,
+            32.86
+          ],
+          "hint": "Timur's sack of Delhi in 1398 and his decisive defeat and capture of the Ottoman sultan Bayezid I at Ankara in 1402 demonstrated a genuinely intercontinental military reach — the Ankara victory in particular delayed the Ottoman Empire's own rise by a full decade of internal succession crisis, with consequences felt as far away as Constantinople and the courts of Christian Europe.",
+          "note": "Sharaf al-Din Ali Yazdi, Zafarnama; Ottoman chronicle traditions on the aftermath of Ankara."
+        },
+        {
+          "id": "c4",
+          "group": "The Turkmen Wars",
+          "tag": "BATTLE",
+          "date": "1467",
+          "label": "Uzun Hasan Defeats Jahan Shah",
+          "loc": "near Mush, Anatolia",
+          "coords": [
+            38.73,
+            41.49
+          ],
+          "hint": "Uzun Hasan's Aq Qoyunlu forces decisively defeated and killed the Qara Qoyunlu ruler Jahan Shah, ending the long Black Sheep–White Sheep rivalry in the White Sheep's favour and briefly making the Aq Qoyunlu confederation the dominant power across western Iran, Iraq and eastern Anatolia.",
+          "note": "Fazlallah ibn Ruzbihan Khunji, Tarikh-i Alam-Ara-yi Amini, on the defeat of Jahan Shah."
+        },
+        {
+          "id": "c5",
+          "group": "The Turkmen Wars",
+          "tag": "BATTLE",
+          "date": "1473",
+          "label": "The Battle of Otlukbeli",
+          "loc": "Otlukbeli, Anatolia",
+          "coords": [
+            39.6,
+            39.5
+          ],
+          "hint": "Ottoman sultan Mehmed II's army, equipped with far more extensive artillery than Uzun Hasan's forces, decisively defeated the Aq Qoyunlu at Otlukbeli — checking White Sheep expansion into Anatolia for good and confirming the Ottomans, rather than any Turkmen confederation, as the dominant power on Iran's northwestern frontier going forward.",
+          "note": "Ottoman chronicle traditions (e.g. Tursun Beg) on the Battle of Otlukbeli."
+        }
+      ]
     },
     {
       "id": "order",
