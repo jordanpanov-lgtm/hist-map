@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6989,
     "folio_count": 140,
-    "xlink_pairs": 1342,
+    "xlink_pairs": 1360,
     "keyword_terms": 10539,
     "folios": [
       {
@@ -7816,6 +7816,7 @@
     ],
     "mamluks-1250-1517::w4": [
       "al-andalus-1031-1492::s2",
+      "mamluk-syria-1260-1516::ec1",
       "spain-1230-1492::s2"
     ],
     "al-andalus-711-1031::k3": [
@@ -8225,6 +8226,14 @@
       "ayyubids-1171-1250::k7",
       "ayyubids-1171-1250::lv1"
     ],
+    "ayyubids-1171-1250::k11": [
+      "mamluk-syria-1260-1516::p1"
+    ],
+    "mamluk-syria-1260-1516::p1": [
+      "ayyubids-1171-1250::k11",
+      "ayyubids-1171-1250::w1",
+      "crusader-states-1099-1291::p7"
+    ],
     "ayyubids-1171-1250::c1": [
       "caliphate-945-1258::c7",
       "crusader-states-1099-1291::c2"
@@ -8314,7 +8323,9 @@
       "mamluks-1250-1517::b2"
     ],
     "mamluks-1250-1517::b2": [
-      "ayyubids-1171-1250::b7"
+      "ayyubids-1171-1250::b7",
+      "mamluk-syria-1260-1516::b1",
+      "mamluk-syria-1260-1516::l1"
     ],
     "ayyubids-1171-1250::b6": [
       "mamluks-1250-1517::b6"
@@ -8333,6 +8344,12 @@
     ],
     "mamluks-1250-1517::ex4": [
       "ayyubids-1171-1250::ex5"
+    ],
+    "ayyubids-1171-1250::ex3": [
+      "mamluk-syria-1260-1516::e1"
+    ],
+    "mamluk-syria-1260-1516::e1": [
+      "ayyubids-1171-1250::ex3"
     ],
     "ayyubids-1171-1250::ex2": [
       "mamluks-1250-1517::ex1"
@@ -8407,7 +8424,8 @@
       "crusader-states-1099-1291::p6"
     ],
     "ayyubids-1171-1250::w1": [
-      "crusader-states-1099-1291::p4"
+      "crusader-states-1099-1291::p4",
+      "mamluk-syria-1260-1516::p1"
     ],
     "ayyubids-1171-1250::w2": [
       "mamluks-1250-1517::w2"
@@ -9645,6 +9663,7 @@
       "egypt-641-969::c8"
     ],
     "crusader-states-1099-1291::p7": [
+      "mamluk-syria-1260-1516::p1",
       "mamluks-1250-1517::c4"
     ],
     "mamluks-1250-1517::c4": [
@@ -9995,11 +10014,19 @@
       "egypt-664bc-332bc::c1"
     ],
     "egypt-1517-1798::k1": [
+      "mamluk-syria-1260-1516::p4",
       "mamluks-1250-1517::k14"
+    ],
+    "mamluk-syria-1260-1516::p4": [
+      "egypt-1517-1798::k1",
+      "egypt-1517-1798::c1",
+      "mamluks-1250-1517::k14",
+      "mamluks-1250-1517::w6"
     ],
     "mamluks-1250-1517::k14": [
       "egypt-1517-1798::k1",
-      "iraq-1258-1534::k7"
+      "iraq-1258-1534::k7",
+      "mamluk-syria-1260-1516::p4"
     ],
     "egypt-1517-1798::k3": [
       "iraq-1534-1831::k1"
@@ -10040,14 +10067,21 @@
     ],
     "egypt-1517-1798::c1": [
       "iraq-1534-1831::c1",
+      "mamluk-syria-1260-1516::c4",
+      "mamluk-syria-1260-1516::p4",
       "mamluks-1250-1517::c11",
       "mamluks-1250-1517::c12"
     ],
     "iraq-1534-1831::c1": [
       "egypt-1517-1798::c1"
     ],
+    "mamluk-syria-1260-1516::c4": [
+      "egypt-1517-1798::c1",
+      "mamluks-1250-1517::c11"
+    ],
     "mamluks-1250-1517::c11": [
-      "egypt-1517-1798::c1"
+      "egypt-1517-1798::c1",
+      "mamluk-syria-1260-1516::c4"
     ],
     "egypt-1517-1798::c4": [
       "iraq-1534-1831::c3"
@@ -11887,6 +11921,7 @@
       "hormuz-1200-1507::w2",
       "iraq-1258-1534::c2",
       "iraq-1258-1534::k3",
+      "mamluk-syria-1260-1516::c3",
       "mamluks-1250-1517::c7"
     ],
     "mamluks-1250-1517::c7": [
@@ -11896,7 +11931,8 @@
       "iran-1335-1501::o1",
       "iran-1335-1501::e2",
       "iran-1335-1501::l2",
-      "iraq-1258-1534::c2"
+      "iraq-1258-1534::c2",
+      "mamluk-syria-1260-1516::c3"
     ],
     "hormuz-1200-1507::w3": [
       "mamluks-1250-1517::x6"
@@ -11947,6 +11983,10 @@
       "iran-1335-1501::e2",
       "iran-1335-1501::l2"
     ],
+    "mamluk-syria-1260-1516::c3": [
+      "iran-1335-1501::p2",
+      "mamluks-1250-1517::c7"
+    ],
     "iran-1335-1501::b1": [
       "iraq-1258-1534::k6"
     ],
@@ -11988,7 +12028,8 @@
       "iraq-632-945::k8"
     ],
     "mamluks-1250-1517::c2": [
-      "iraq-1258-1534::k1"
+      "iraq-1258-1534::k1",
+      "mamluk-syria-1260-1516::c2"
     ],
     "mamluks-1250-1517::k10": [
       "iraq-1258-1534::k2"
@@ -12158,7 +12199,8 @@
       "iraq-632-945::g2"
     ],
     "mamluks-1250-1517::ec3": [
-      "iraq-1258-1534::xc1"
+      "iraq-1258-1534::xc1",
+      "mamluk-syria-1260-1516::ec1"
     ],
     "iraq-1258-1534::xc4": [
       "iraq-1534-1831::k2"
@@ -12938,6 +12980,28 @@
     ],
     "mesopotamia-2334bc-2004bc::g3": [
       "magan-3000bc-1200bc::x3"
+    ],
+    "mamluk-syria-1260-1516::p2": [
+      "mamluks-1250-1517::ex2"
+    ],
+    "mamluks-1250-1517::ex2": [
+      "mamluk-syria-1260-1516::p2"
+    ],
+    "mamluks-1250-1517::w6": [
+      "mamluk-syria-1260-1516::p4"
+    ],
+    "mamluk-syria-1260-1516::c2": [
+      "mamluks-1250-1517::c2"
+    ],
+    "mamluk-syria-1260-1516::b1": [
+      "mamluks-1250-1517::b2"
+    ],
+    "mamluk-syria-1260-1516::ec1": [
+      "mamluks-1250-1517::ec3",
+      "mamluks-1250-1517::w4"
+    ],
+    "mamluk-syria-1260-1516::l1": [
+      "mamluks-1250-1517::b2"
     ],
     "mamluks-1250-1517::c10": [
       "portuguese-gulf-1507-1650::w2"

@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1595,
+    "figure_matches": 1639,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 2000,
+    "figure_matches_rejected_date_implausible": 2029,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4829,
-    "keyword_matches_rejected_geo_only": 9262,
-    "high_confidence": 1628,
-    "medium_confidence": 366,
-    "low_confidence": 4430
+    "keyword_matches": 4852,
+    "keyword_matches_rejected_geo_only": 9268,
+    "high_confidence": 1672,
+    "medium_confidence": 367,
+    "low_confidence": 4452
   },
   "figure_name_matches": [
     {
@@ -389,6 +389,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Aleppo",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Aleppo line",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1260s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k8",
+      "xlink_b": "mamluk-syria-1260-1516::o1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Aleppo",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Aleppo line",
+        "dynasty": "Ayyubid",
+        "decade": "1180s–1260s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Mamluk-Era Building in Damascus and Aleppo",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k8",
+      "xlink_b": "mamluk-syria-1260-1516::e1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Damascus",
       "pivot": {
         "folio": "ayyubids-1171-1250",
@@ -433,6 +477,72 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Damascus",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Damascus line",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1260s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k9",
+      "xlink_b": "mamluk-syria-1260-1516::o1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Damascus",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Damascus line",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1260s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Barid Postal Relay Connects Cairo to Damascus",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k9",
+      "xlink_b": "mamluk-syria-1260-1516::o2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Damascus",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Damascus line",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1260s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Mamluk-Era Building in Damascus and Aleppo",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k9",
+      "xlink_b": "mamluk-syria-1260-1516::e1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Syria",
       "pivot": {
         "folio": "ayyubids-1171-1250",
@@ -451,6 +561,50 @@
       },
       "xlink_a": "ayyubids-1171-1250::k11",
       "xlink_b": "crusader-states-1099-1291::p3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k11",
+        "cat": "power",
+        "label": "The end of the dynasty in Syria",
+        "dynasty": "Ayyubid",
+        "decade": "1250s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p1",
+        "cat": "power",
+        "label": "Baibars Consolidates Mamluk Syria",
+        "decade": "1260s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k11",
+      "xlink_b": "mamluk-syria-1260-1516::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "k11",
+        "cat": "power",
+        "label": "The end of the dynasty in Syria",
+        "dynasty": "Ayyubid",
+        "decade": "1250s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "w1",
+        "cat": "world",
+        "label": "Syria as the Sultanate's Exposed Northern Frontier",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "ayyubids-1171-1250::k11",
+      "xlink_b": "mamluk-syria-1260-1516::w1"
     },
     {
       "confidence": "high",
@@ -1301,6 +1455,50 @@
         "decade": "1190s–1230s"
       },
       "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p1",
+        "cat": "power",
+        "label": "Baibars Consolidates Mamluk Syria",
+        "decade": "1260s"
+      },
+      "xlink_a": "ayyubids-1171-1250::ex3",
+      "xlink_b": "mamluk-syria-1260-1516::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "The citadels of Syria and the ablaq facade",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1230s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "w1",
+        "cat": "world",
+        "label": "Syria as the Sultanate's Exposed Northern Frontier",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "ayyubids-1171-1250::ex3",
+      "xlink_b": "mamluk-syria-1260-1516::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "The citadels of Syria and the ablaq facade",
+        "dynasty": "Ayyubid",
+        "decade": "1190s–1230s"
+      },
+      "match": {
         "folio": "nw-arabia-632-1517",
         "id": "x1",
         "cat": "exchange",
@@ -1903,6 +2101,50 @@
       },
       "xlink_a": "ayyubids-1171-1250::w1",
       "xlink_b": "fatimids-909-1171::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "cat": "world",
+        "label": "Egypt and Syria under one hand",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p1",
+        "cat": "power",
+        "label": "Baibars Consolidates Mamluk Syria",
+        "decade": "1260s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w1",
+      "xlink_b": "mamluk-syria-1260-1516::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Syria",
+      "pivot": {
+        "folio": "ayyubids-1171-1250",
+        "id": "w1",
+        "cat": "world",
+        "label": "Egypt and Syria under one hand",
+        "dynasty": "Ayyubid",
+        "decade": "1170s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "w1",
+        "cat": "world",
+        "label": "Syria as the Sultanate's Exposed Northern Frontier",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "ayyubids-1171-1250::w1",
+      "xlink_b": "mamluk-syria-1260-1516::w1"
     },
     {
       "confidence": "high",
@@ -9145,6 +9387,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Mongol",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Mongol cataclysm",
+        "dynasty": "Mongol",
+        "decade": "1210s–1260s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Ain Jalut Stops the Mongol Advance",
+        "decade": "1260s"
+      },
+      "xlink_a": "caliphate-945-1258::w5",
+      "xlink_b": "mamluk-syria-1260-1516::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mongol",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Mongol cataclysm",
+        "dynasty": "Mongol",
+        "decade": "1210s–1260s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Long War with the Mongol Ilkhanate",
+        "decade": "1280s"
+      },
+      "xlink_a": "caliphate-945-1258::w5",
+      "xlink_b": "mamluk-syria-1260-1516::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Assassins",
       "pivot": {
         "folio": "caliphate-945-1258",
@@ -9163,6 +9449,28 @@
       },
       "xlink_a": "caliphate-945-1258::lv3",
       "xlink_b": "iraq-945-1258::c5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Baibars",
+      "pivot": {
+        "folio": "crusader-states-1099-1291",
+        "id": "p7",
+        "cat": "power",
+        "label": "Baibars and the Mamluk Reconquest",
+        "dynasty": null,
+        "decade": "1260s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p1",
+        "cat": "power",
+        "label": "Baibars Consolidates Mamluk Syria",
+        "decade": "1260s"
+      },
+      "xlink_a": "crusader-states-1099-1291::p7",
+      "xlink_b": "mamluk-syria-1260-1516::p1"
     },
     {
       "confidence": "high",
@@ -14325,6 +14633,28 @@
         "decade": "1510s"
       },
       "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "hejaz-1517-1900::k1",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "hejaz-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman guardianship begins",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
         "folio": "mamluks-1250-1517",
         "id": "w6",
         "cat": "world",
@@ -15601,6 +15931,50 @@
         "decade": "1250s–1510s"
       },
       "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p1",
+        "cat": "power",
+        "label": "Baibars Consolidates Mamluk Syria",
+        "decade": "1260s"
+      },
+      "xlink_a": "hejaz-632-1517::k8",
+      "xlink_b": "mamluk-syria-1260-1516::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Mamluk overlordship",
+        "dynasty": "Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "hejaz-632-1517::k8",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k8",
+        "cat": "power",
+        "label": "The Mamluk overlordship",
+        "dynasty": "Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "match": {
         "folio": "yemen-628-1517",
         "id": "k17",
         "cat": "power",
@@ -15785,6 +16159,50 @@
       },
       "xlink_a": "hejaz-632-1517::k9",
       "xlink_b": "egypt-1517-1798::l3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Cairo caliphate and the guardianship",
+        "dynasty": "Abbasid (Cairo)",
+        "decade": "1260s–1510s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "hejaz-632-1517::k9",
+      "xlink_b": "mamluk-syria-1260-1516::o1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k9",
+        "cat": "power",
+        "label": "The Cairo caliphate and the guardianship",
+        "dynasty": "Abbasid (Cairo)",
+        "decade": "1260s–1510s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Barid Postal Relay Connects Cairo to Damascus",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "hejaz-632-1517::k9",
+      "xlink_b": "mamluk-syria-1260-1516::o2"
     },
     {
       "confidence": "high",
@@ -16151,6 +16569,28 @@
         "decade": "1370s–1400s"
       },
       "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Timur's Sack of Aleppo and Damascus",
+        "decade": "1400s"
+      },
+      "xlink_a": "hormuz-1200-1507::w2",
+      "xlink_b": "mamluk-syria-1260-1516::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Timur",
+      "pivot": {
+        "folio": "hormuz-1200-1507",
+        "id": "w2",
+        "cat": "world",
+        "label": "Timur's empire and Timurid Persia",
+        "dynasty": "Timurid",
+        "decade": "1370s–1400s"
+      },
+      "match": {
         "folio": "mamluks-1250-1517",
         "id": "c7",
         "cat": "conflict",
@@ -16269,6 +16709,28 @@
       },
       "xlink_a": "iran-1335-1501::p2",
       "xlink_b": "iraq-1258-1534::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Timur",
+      "pivot": {
+        "folio": "iran-1335-1501",
+        "id": "p2",
+        "cat": "power",
+        "label": "Timur — the Conqueror",
+        "dynasty": "Timurid",
+        "decade": "1370s–1400s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Timur's Sack of Aleppo and Damascus",
+        "decade": "1400s"
+      },
+      "xlink_a": "iran-1335-1501::p2",
+      "xlink_b": "mamluk-syria-1260-1516::c3"
     },
     {
       "confidence": "high",
@@ -16423,6 +16885,28 @@
       },
       "xlink_a": "iraq-1258-1534::k3",
       "xlink_b": "iran-1335-1501::l2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Timur",
+      "pivot": {
+        "folio": "iraq-1258-1534",
+        "id": "k3",
+        "cat": "power",
+        "label": "Timur and the two sacks of Baghdad",
+        "dynasty": "Timurid",
+        "decade": "1390s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Timur's Sack of Aleppo and Damascus",
+        "decade": "1400s"
+      },
+      "xlink_a": "iraq-1258-1534::k3",
+      "xlink_b": "mamluk-syria-1260-1516::c3"
     },
     {
       "confidence": "high",
@@ -16665,6 +17149,28 @@
       },
       "xlink_a": "iraq-1534-1831::k1",
       "xlink_b": "iraq-1258-1534::xc4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "iraq-1534-1831",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman settlement of the three provinces",
+        "dynasty": "Ottoman",
+        "decade": "1530s–1620s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "iraq-1534-1831::k1",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
     },
     {
       "confidence": "high",
@@ -18671,6 +19177,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Timur",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Timur sacks Aleppo and Damascus",
+        "dynasty": "Timurid",
+        "decade": "1400s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Timur's Sack of Aleppo and Damascus",
+        "decade": "1400s"
+      },
+      "xlink_a": "mamluks-1250-1517::c7",
+      "xlink_b": "mamluk-syria-1260-1516::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Marj Dabiq",
       "pivot": {
         "folio": "mamluks-1250-1517",
@@ -18689,6 +19217,28 @@
       },
       "xlink_a": "mamluks-1250-1517::c11",
       "xlink_b": "egypt-1517-1798::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Marj Dabiq",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Marj Dabiq",
+        "dynasty": "Burji Mamluk",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The Battle of Marj Dabiq",
+        "decade": "1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::c11",
+      "xlink_b": "mamluk-syria-1260-1516::c4"
     },
     {
       "confidence": "high",
@@ -18755,6 +19305,50 @@
       },
       "xlink_a": "mamluks-1250-1517::o1",
       "xlink_b": "crusader-states-1099-1291::p7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Mamluk system — a one-generation ruling caste",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p1",
+        "cat": "power",
+        "label": "Baibars Consolidates Mamluk Syria",
+        "decade": "1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::o1",
+      "xlink_b": "mamluk-syria-1260-1516::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Mamluk system — a one-generation ruling caste",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1510s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::o1",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
     },
     {
       "confidence": "high",
@@ -18979,6 +19573,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Ibn Taymiyya",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Ibn Taymiyya",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1290s–1320s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Ibn Taymiyya's Theological and Legal Influence",
+        "decade": "1260s–1320s"
+      },
+      "xlink_a": "mamluks-1250-1517::b2",
+      "xlink_b": "mamluk-syria-1260-1516::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ibn Taymiyya",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Ibn Taymiyya",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1290s–1320s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "l1",
+        "cat": "lives",
+        "label": "Ibn Taymiyya's Repeated Imprisonment and Death",
+        "decade": "1300s"
+      },
+      "xlink_a": "mamluks-1250-1517::b2",
+      "xlink_b": "mamluk-syria-1260-1516::l1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Coptic",
       "pivot": {
         "folio": "mamluks-1250-1517",
@@ -19063,6 +19701,28 @@
       },
       "xlink_a": "mamluks-1250-1517::ex3",
       "xlink_b": "crusader-states-1099-1291::p7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex3",
+        "cat": "expression",
+        "label": "Mamluk inlaid metalwork and the blazon",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1350s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p1",
+        "cat": "power",
+        "label": "Baibars Consolidates Mamluk Syria",
+        "decade": "1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::ex3",
+      "xlink_b": "mamluk-syria-1260-1516::p1"
     },
     {
       "confidence": "high",
@@ -19155,6 +19815,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Circassian",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex2",
+        "cat": "expression",
+        "label": "The carved stone domes of the Circassian period",
+        "dynasty": "Burji Mamluk",
+        "decade": "1400s–1500s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p2",
+        "cat": "power",
+        "label": "The Circassian Transition",
+        "decade": "1380s"
+      },
+      "xlink_a": "mamluks-1250-1517::ex2",
+      "xlink_b": "mamluk-syria-1260-1516::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Karimi",
       "pivot": {
         "folio": "mamluks-1250-1517",
@@ -19217,6 +19899,28 @@
       },
       "xlink_a": "mamluks-1250-1517::ec3",
       "xlink_b": "al-andalus-1031-1492::s2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Black Death",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "ec3",
+        "cat": "economy",
+        "label": "The Black Death and the recurring plague",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s–1510s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Black Death Devastates the Province",
+        "decade": "1340s"
+      },
+      "xlink_a": "mamluks-1250-1517::ec3",
+      "xlink_b": "mamluk-syria-1260-1516::ec1"
     },
     {
       "confidence": "high",
@@ -19727,6 +20431,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w3",
+        "cat": "world",
+        "label": "Cairo, the greatest city west of China",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1340s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::w3",
+      "xlink_b": "mamluk-syria-1260-1516::o1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Cairo",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w3",
+        "cat": "world",
+        "label": "Cairo, the greatest city west of China",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1300s–1340s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o2",
+        "cat": "order",
+        "label": "The Barid Postal Relay Connects Cairo to Damascus",
+        "decade": "1260s–1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::w3",
+      "xlink_b": "mamluk-syria-1260-1516::o2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Black Death",
       "pivot": {
         "folio": "mamluks-1250-1517",
@@ -19745,6 +20493,28 @@
       },
       "xlink_a": "mamluks-1250-1517::w4",
       "xlink_b": "al-andalus-1031-1492::s2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Black Death",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Black Death on the western arm of the pandemic",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1340s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Black Death Devastates the Province",
+        "decade": "1340s"
+      },
+      "xlink_a": "mamluks-1250-1517::w4",
+      "xlink_b": "mamluk-syria-1260-1516::ec1"
     },
     {
       "confidence": "high",
@@ -19921,6 +20691,28 @@
       },
       "xlink_a": "mamluks-1250-1517::w6",
       "xlink_b": "iraq-1258-1534::xc4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
     },
     {
       "confidence": "high",
@@ -20233,6 +21025,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The making of a Mamluk",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p1",
+        "cat": "power",
+        "label": "Baibars Consolidates Mamluk Syria",
+        "decade": "1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv1",
+      "xlink_b": "mamluk-syria-1260-1516::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv1",
+        "cat": "lives",
+        "label": "The making of a Mamluk",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1250s–1500s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv1",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Citadel",
       "pivot": {
         "folio": "mamluks-1250-1517",
@@ -20427,6 +21263,50 @@
       },
       "xlink_a": "mamluks-1250-1517::lv5",
       "xlink_b": "crusader-states-1099-1291::p7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved in Mamluk letters",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1280s–1500s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p1",
+        "cat": "power",
+        "label": "Baibars Consolidates Mamluk Syria",
+        "decade": "1260s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv5",
+      "xlink_b": "mamluk-syria-1260-1516::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "lv5",
+        "cat": "lives",
+        "label": "The beloved in Mamluk letters",
+        "dynasty": "Bahri Mamluk",
+        "decade": "1280s–1500s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::lv5",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
     },
     {
       "confidence": "high",
@@ -22275,6 +23155,28 @@
       },
       "xlink_a": "najd-1517-1744::k5",
       "xlink_b": "iraq-1534-1831::xc4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "najd-1517-1744",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Ottoman and Sharifian fringe",
+        "dynasty": null,
+        "decade": "1510s–1740s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "najd-1517-1744::k5",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
     },
     {
       "confidence": "high",
@@ -27599,6 +28501,28 @@
       },
       "xlink_a": "portuguese-gulf-1507-1650::o3",
       "xlink_b": "iraq-1534-1831::xc1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Ottoman defters of Lahsa",
+        "dynasty": "Ottoman",
+        "decade": "1550s–1600s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "portuguese-gulf-1507-1650::o3",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
     },
     {
       "confidence": "high",
@@ -34125,6 +35049,28 @@
         "decade": "1530s"
       },
       "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "yemen-1517-1900::k1",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman conquest of Yemen",
+        "dynasty": "Ottoman",
+        "decade": "1530s"
+      },
+      "match": {
         "folio": "nw-arabia-632-1517",
         "id": "w3",
         "cat": "world",
@@ -35101,6 +36047,28 @@
       },
       "xlink_a": "yemen-628-1517::k15",
       "xlink_b": "hejaz-632-1517::x4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mamluk",
+      "pivot": {
+        "folio": "yemen-628-1517",
+        "id": "k17",
+        "cat": "power",
+        "label": "The Mamluk expedition and the Ottoman handoff",
+        "dynasty": "Mamluk",
+        "decade": "1510s"
+      },
+      "match": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "xlink_a": "yemen-628-1517::k17",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
     }
   ],
   "dynasty_alignment_proposals": [
@@ -44436,6 +45404,33 @@
       "date_flag": "overlapping",
       "xlink_a": "aram-damascus-1200bc-732bc::c1",
       "xlink_b": "egypt-1200bc-664bc::c5"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Marj Dabiq",
+        "Selim I"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluk-syria-1260-1516::p4",
+      "xlink_b": "mamluks-1250-1517::w6"
     },
     {
       "confidence": "medium",
@@ -59648,6 +60643,58 @@
         "decade": "1240s"
       },
       "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c11",
+      "xlink_b": "mamluk-syria-1260-1516::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Köse Dagh, the tributary Jazira and the fall of Syria",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Mamluk-Era Building in Damascus and Aleppo",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c11",
+      "xlink_b": "mamluk-syria-1260-1516::e1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Köse Dagh, the tributary Jazira and the fall of Syria",
+        "decade": "1240s"
+      },
+      "b": {
         "folio": "mamluks-1250-1517",
         "id": "ex4",
         "cat": "expression",
@@ -60208,6 +61255,58 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex5",
+        "cat": "expression",
+        "label": "Enamelled glass and Raqqa ware",
+        "decade": "1170s–1260s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ex5",
+      "xlink_b": "mamluk-syria-1260-1516::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex5",
+        "cat": "expression",
+        "label": "Enamelled glass and Raqqa ware",
+        "decade": "1170s–1260s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Mamluk-Era Building in Damascus and Aleppo",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::ex5",
+      "xlink_b": "mamluk-syria-1260-1516::e1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Cairo",
         "Damascus"
       ],
@@ -60437,6 +61536,58 @@
       "date_flag": "20yr gap",
       "xlink_a": "ayyubids-1171-1250::ex3",
       "xlink_b": "mamluks-1250-1517::ex4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Inlaid brass and the scattering of Mosul",
+        "decade": "1200s–1250s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::ex4",
+      "xlink_b": "mamluk-syria-1260-1516::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Inlaid brass and the scattering of Mosul",
+        "decade": "1200s–1250s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Mamluk-Era Building in Damascus and Aleppo",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "ayyubids-1171-1250::ex4",
+      "xlink_b": "mamluk-syria-1260-1516::e1"
     },
     {
       "confidence": "low",
@@ -60723,6 +61874,58 @@
       "date_flag": "overlapping",
       "xlink_a": "ayyubids-1171-1250::t2",
       "xlink_b": "nw-arabia-632-1517::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The scholars fleeing the Mongols",
+        "decade": "1220s–1260s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::x4",
+      "xlink_b": "mamluk-syria-1260-1516::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The scholars fleeing the Mongols",
+        "decade": "1220s–1260s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Mamluk-Era Building in Damascus and Aleppo",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::x4",
+      "xlink_b": "mamluk-syria-1260-1516::e1"
     },
     {
       "confidence": "low",
@@ -61035,6 +62238,58 @@
       "date_flag": "overlapping",
       "xlink_a": "ayyubids-1171-1250::lv5",
       "xlink_b": "nw-arabia-632-1517::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The princess-builders of Ayyubid Syria",
+        "decade": "1180s–1240s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "18yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv2",
+      "xlink_b": "mamluk-syria-1260-1516::o1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "lv2",
+        "cat": "lives",
+        "label": "The princess-builders of Ayyubid Syria",
+        "decade": "1180s–1240s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Mamluk-Era Building in Damascus and Aleppo",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "18yr gap",
+      "xlink_a": "ayyubids-1171-1250::lv2",
+      "xlink_b": "mamluk-syria-1260-1516::e1"
     },
     {
       "confidence": "low",
@@ -61555,6 +62810,136 @@
       "date_flag": "overlapping",
       "xlink_a": "hejaz-1517-1900::o2",
       "xlink_b": "nw-arabia-632-1517::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Timur sacks Aleppo and Damascus",
+        "decade": "1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluk-syria-1260-1516::o1",
+      "xlink_b": "mamluks-1250-1517::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "o1",
+        "cat": "order",
+        "label": "Damascus and Aleppo under Cairo's Viceroys",
+        "decade": "1260s–1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Enamelled glass and its extinction",
+        "decade": "1250s–1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluk-syria-1260-1516::o1",
+      "xlink_b": "mamluks-1250-1517::ex4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Damascus",
+        "Ibn Taymiyya"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Sufi Shrine Culture Flourishes alongside Legal Rigor",
+        "decade": "10s"
+      },
+      "b": {
+        "folio": "najd-632-1517",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "Study abroad and the return of a book",
+        "decade": "1350s–1510s"
+      },
+      "date_flag": "1337yr gap — verify same entity, not just shared theme",
+      "xlink_a": "mamluk-syria-1260-1516::b2",
+      "xlink_b": "najd-632-1517::x4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Mamluk-Era Building in Damascus and Aleppo",
+        "decade": "1260s–1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Timur sacks Aleppo and Damascus",
+        "decade": "1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluk-syria-1260-1516::e1",
+      "xlink_b": "mamluks-1250-1517::c7"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Aleppo",
+        "Damascus"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "e1",
+        "cat": "expression",
+        "label": "Mamluk-Era Building in Damascus and Aleppo",
+        "decade": "1260s–1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "ex4",
+        "cat": "expression",
+        "label": "Enamelled glass and its extinction",
+        "decade": "1250s–1400s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluk-syria-1260-1516::e1",
+      "xlink_b": "mamluks-1250-1517::ex4"
     },
     {
       "confidence": "low",
@@ -100300,6 +101685,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Aleppo",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "ayyubids-1171-1250",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Köse Dagh, the tributary Jazira and the fall of Syria",
+        "decade": "1240s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "w1",
+        "cat": "world",
+        "label": "Syria as the Sultanate's Exposed Northern Frontier",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "ayyubids-1171-1250::c11",
+      "xlink_b": "mamluk-syria-1260-1516::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Ashur",
         "Assur Qal'at Sherqat"
       ],
@@ -103316,6 +104727,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Mamluk Sultanate",
+        "Syria"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Ayyubids and the Mamluk coup",
+        "decade": "1170s–1250s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "w1",
+        "cat": "world",
+        "label": "Syria as the Sultanate's Exposed Northern Frontier",
+        "decade": "1260s–1510s"
+      },
+      "date_flag": "10yr gap",
+      "xlink_a": "caliphate-945-1258::w4",
+      "xlink_b": "mamluk-syria-1260-1516::w1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Seljuk",
         "Syria"
       ],
@@ -104507,6 +105944,32 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-945-1258::w4",
       "xlink_b": "yemen-628-1517::k11"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Homs",
+        "Wadi al-Khazandar"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Long War with the Mongol Ilkhanate",
+        "decade": "1280s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Ilkhanid invasions — Homs, Wadi al-Khazandar, Shaqhab",
+        "decade": "1280s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluk-syria-1260-1516::c2",
+      "xlink_b": "mamluks-1250-1517::c2"
     },
     {
       "confidence": "low",
@@ -150596,6 +152059,32 @@
         "decade": "1510s"
       },
       "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::k1",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Selim I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k1",
+        "cat": "power",
+        "label": "Selim I conquers Egypt",
+        "decade": "1510s"
+      },
+      "b": {
         "folio": "mamluks-1250-1517",
         "id": "c11",
         "cat": "conflict",
@@ -150631,6 +152120,84 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-1517-1798::k1",
       "xlink_b": "mamluks-1250-1517::c12"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Selim I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Marj Dabiq",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluk-syria-1260-1516::p4",
+      "xlink_b": "mamluks-1250-1517::c11"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Qansuh al-Ghawri"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Marj Dabiq and al-Raydaniyya",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::c1",
+      "xlink_b": "mamluk-syria-1260-1516::p4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Qansuh al-Ghawri"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "mamluks-1250-1517",
+        "id": "k14",
+        "cat": "power",
+        "label": "Al-Ghawri, Tuman Bay and the Ottoman conquest",
+        "decade": "1500s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluk-syria-1260-1516::p4",
+      "xlink_b": "mamluks-1250-1517::k14"
     },
     {
       "confidence": "low",

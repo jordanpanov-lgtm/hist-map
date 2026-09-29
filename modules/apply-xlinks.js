@@ -1289,6 +1289,28 @@ const SELECTED_PAIRS = [
   ['crusader-states-1099-1291::x1', 'levant-634-750::x1'],          // cross-frontier knowledge transfer -> the same pattern under Umayyad rule
   ['crusader-states-1099-1291::x1', 'levant-750-1099::x1'],         // cross-frontier knowledge transfer -> the same pattern, 750-1099 AD
   ['crusader-states-1099-1291::p4', 'levant-750-1099::p4'],         // Saladin ends the Fatimid caliphate -> the same caliphate's 969 AD founding
+  // ── mamluk-syria-1260-1516 (Levant program, Phase 6 complete) — rejected generic "Aleppo"/
+  // "Damascus"/"Syria"/"Cairo"/"Mamluk"/"Ottoman" word-fan-out matches to unrelated dynastic-branch,
+  // institutional, decorative-arts and other-region topics (Hejaz's own Mamluk overlordship, other
+  // Ottoman-era regional conquests entirely unconnected to Marj Dabiq).
+  ['mamluk-syria-1260-1516::p1', 'crusader-states-1099-1291::p7'],   // Baibars consolidates Syria -> same figure's Mamluk-reconquest entry
+  ['mamluk-syria-1260-1516::p1', 'ayyubids-1171-1250::k11'],         // Baibars consolidates Syria -> "the end of the dynasty in Syria," the direct bridge
+  ['mamluk-syria-1260-1516::p1', 'ayyubids-1171-1250::w1'],          // Baibars consolidates Syria -> "Egypt and Syria under one hand," continuity
+  ['mamluk-syria-1260-1516::e1', 'ayyubids-1171-1250::ex3'],         // Mamluk-era building -> "the citadels of Syria and the ablaq facade"
+  ['mamluk-syria-1260-1516::p2', 'mamluks-1250-1517::ex2'],          // the Circassian transition -> "the carved stone domes of the Circassian period"
+  ['mamluk-syria-1260-1516::c3', 'mamluks-1250-1517::c7'],           // Timur's sack -> same event, Mamluk folio's own entry
+  ['mamluk-syria-1260-1516::c4', 'mamluks-1250-1517::c11'],          // the Battle of Marj Dabiq -> same event, Mamluk folio's own entry
+  ['mamluk-syria-1260-1516::c2', 'mamluks-1250-1517::c2'],           // the Ilkhanid wars -> same three battles, Mamluk folio's own entry
+  ['mamluk-syria-1260-1516::b1', 'mamluks-1250-1517::b2'],           // Ibn Taymiyya's influence -> his own entry in the Mamluk backbone folio
+  ['mamluk-syria-1260-1516::l1', 'mamluks-1250-1517::b2'],           // Ibn Taymiyya's imprisonment -> same entry
+  ['mamluk-syria-1260-1516::ec1', 'mamluks-1250-1517::ec3'],         // the Black Death -> same event, Mamluk folio's own entry
+  ['mamluk-syria-1260-1516::ec1', 'mamluks-1250-1517::w4'],          // the Black Death -> its place on the pandemic's western arm
+  ['mamluk-syria-1260-1516::p4', 'mamluks-1250-1517::w6'],           // the Ottoman conquest -> "the Ottoman conquest and the end of medieval Egypt"
+  ['mamluk-syria-1260-1516::p4', 'mamluks-1250-1517::k14'],          // the Ottoman conquest -> "Al-Ghawri, Tuman Bay and the Ottoman conquest"
+  ['mamluk-syria-1260-1516::c3', 'iran-1335-1501::p2'],              // Timur's sack -> "Timur — the Conqueror," his own biography entry
+  ['mamluk-syria-1260-1516::p4', 'egypt-1517-1798::k1'],             // the Ottoman conquest -> "Selim I conquers Egypt," the same campaign's next stage
+  ['mamluk-syria-1260-1516::p4', 'egypt-1517-1798::c1'],             // the Ottoman conquest -> "Marj Dabiq and al-Raydaniyya"
+  ['mamluk-syria-1260-1516::c4', 'egypt-1517-1798::c1'],             // the Battle of Marj Dabiq -> same combined entry
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
