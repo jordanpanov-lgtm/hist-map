@@ -21,7 +21,203 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Achaemenid kings — from Cyrus's conquests to Darius III's fall",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Founders",
+          "dynasty": "Achaemenid",
+          "label": "Cyrus II (the Great) — founder of the empire",
+          "date": "559–530 BC",
+          "loc": "Pasargadae",
+          "coords": [
+            30.19,
+            53.17
+          ],
+          "hint": "Cyrus united the Persians and Medes, overthrew his grandfather Astyages of Media (c.550 BC), conquered Lydia under Croesus (c.547 BC), and took Babylon without a siege in 539 BC. He died in 530 BC campaigning against the Massagetae on the empire's eastern steppe frontier.",
+          "tag": "SUCCESSION",
+          "note": "Cyrus Cylinder (British Museum ME 90920); Nabonidus Chronicle (BM 35382); Herodotus, Histories 1.46–214."
+        },
+        {
+          "id": "p2",
+          "group": "Founders",
+          "dynasty": "Achaemenid",
+          "label": "Cambyses II — the conquest of Egypt",
+          "date": "530–522 BC",
+          "loc": "Memphis, Egypt",
+          "coords": [
+            29.84,
+            31.25
+          ],
+          "hint": "Cambyses defeated Pharaoh Psamtik III at Pelusium in 525 BC and was crowned Pharaoh at Memphis, founding Egypt's Twenty-Seventh (Persian) Dynasty. He died in 522 BC on the road home from Egypt, as news reached him of a usurpation at the heart of the empire.",
+          "tag": "SUCCESSION",
+          "note": "Udjahorresnet inscription (Vatican Museums, Naophorous statue); Behistun Inscription (DB) §11; Herodotus, Histories 3.1–38."
+        },
+        {
+          "id": "p3",
+          "group": "Darius I and the Imperial System",
+          "dynasty": "Achaemenid",
+          "label": "Bardiya (Gaumata) — the pretender king",
+          "date": "522 BC",
+          "loc": "Sikayauvatis, Media",
+          "coords": [
+            34.6,
+            47.6
+          ],
+          "hint": "For roughly seven months a man Darius's own inscription names as the magus Gaumata ruled as Bardiya, claiming to be Cyrus's surviving son. Darius's account — the only detailed source — calls him an impostor and the dead prince's murderer; modern historians note this is exactly the story a usurper would need to tell, and the truth beneath it cannot be fully recovered.",
+          "tag": "COUP",
+          "note": "Behistun Inscription (DB) §§10–13; Herodotus, Histories 3.61–79."
+        },
+        {
+          "id": "p4",
+          "group": "Darius I and the Imperial System",
+          "dynasty": "Achaemenid",
+          "label": "Darius I — the imperial system",
+          "date": "522–486 BC",
+          "loc": "Behistun",
+          "coords": [
+            34.39,
+            47.44
+          ],
+          "hint": "Darius killed Gaumata with six noble allies and then spent a year putting down revolts across the empire, a campaign he had carved into the cliff at Behistun in three languages. He reorganised the realm into satrapies with fixed tribute, standardised coinage and law, built the Royal Road, and founded Persepolis.",
+          "tag": "COUP",
+          "note": "Behistun Inscription (DB), trilingual Old Persian/Elamite/Babylonian; Herodotus, Histories 3.61–88, 3.89–97 (tribute list)."
+        },
+        {
+          "id": "p5",
+          "group": "Xerxes and the Wars with Greece",
+          "dynasty": "Achaemenid",
+          "label": "Xerxes I — the invasion of Greece",
+          "date": "486–465 BC",
+          "loc": "Persepolis",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "Xerxes suppressed revolts in Egypt and Babylon early in his reign, then led a massive invasion of Greece in 480 BC — forcing Thermopylae, burning Athens, and losing the fleet at Salamis before withdrawing. He completed Persepolis's Gate of All Nations and was assassinated in a palace conspiracy in 465 BC.",
+          "tag": "SUCCESSION",
+          "note": "Herodotus, Histories 7–9; Persepolis Gate of All Nations trilingual inscription (XPa)."
+        },
+        {
+          "id": "p6",
+          "group": "Xerxes and the Wars with Greece",
+          "dynasty": "Achaemenid",
+          "label": "Artaxerxes I — the reordering of the succession",
+          "date": "465–424 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "After the chiliarch Artabanus murdered Xerxes and moved to seize power, Xerxes's son Artaxerxes overthrew and killed him — also killing his own brother Darius, accused of the assassination, to secure the throne. His long reign saw the loss and reconquest of Egypt and, by tradition, a peace settlement with Athens.",
+          "tag": "COUP",
+          "note": "Ctesias, Persica (via Photius); Thucydides 1.104, 1.109–110 (the Egyptian revolt)."
+        },
+        {
+          "id": "p7",
+          "group": "Decline and Fall",
+          "dynasty": "Achaemenid",
+          "label": "Xerxes II — a forty-five day reign",
+          "date": "424 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "The only son of Artaxerxes I born to a legitimate queen, Xerxes II held the throne for barely six weeks before being murdered in his sleep by his half-brother Sogdianus — the opening act of a succession crisis that would burn through three kings in a single year.",
+          "tag": "SUCCESSION",
+          "note": "Ctesias, Persica (via Photius, Bibliotheca 72)."
+        },
+        {
+          "id": "p8",
+          "group": "Decline and Fall",
+          "dynasty": "Achaemenid",
+          "label": "Sogdianus — a half-year on the throne",
+          "date": "424 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Sogdianus, son of a royal concubine, seized the throne by murdering his half-brother Xerxes II, then held it for barely half a year before another half-brother, Ochus — satrap of Hyrcania — marched on Susa and overthrew him in turn.",
+          "tag": "COUP",
+          "note": "Ctesias, Persica (via Photius, Bibliotheca 72)."
+        },
+        {
+          "id": "p9",
+          "group": "Decline and Fall",
+          "dynasty": "Achaemenid",
+          "label": "Darius II — the Hyrcanian satrap's throne",
+          "date": "423–404 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Ochus took the throne name Darius II after defeating Sogdianus. His queen Parysatis exercised major influence at court, and in the closing years of the Peloponnesian War his satraps funnelled Persian gold to Sparta's fleet, tipping the balance against Athens.",
+          "tag": "COUP",
+          "note": "Xenophon, Hellenica 1–2; Thucydides 8 (Persian-Spartan negotiations)."
+        },
+        {
+          "id": "p10",
+          "group": "Decline and Fall",
+          "dynasty": "Achaemenid",
+          "label": "Artaxerxes II — the longest reign",
+          "date": "404–358 BC",
+          "loc": "Susa",
+          "coords": [
+            32.19,
+            48.26
+          ],
+          "hint": "Artaxerxes survived his younger brother Cyrus the Younger's rebellion in the first years of his reign, held the throne for 46 years — the longest of any Achaemenid king — and dictated the terms of Greek interstate politics through the King's Peace of 387 BC after losing Egypt to a successful native revolt.",
+          "tag": "SUCCESSION",
+          "note": "Xenophon, Anabasis 1; Xenophon, Hellenica 5.1.31 (the King's Peace)."
+        },
+        {
+          "id": "p11",
+          "group": "Decline and Fall",
+          "dynasty": "Achaemenid",
+          "label": "Artaxerxes III — the reconquest of Egypt",
+          "date": "358–338 BC",
+          "loc": "Persepolis",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "Later Greek tradition accuses Artaxerxes III of executing rival relatives to secure his succession. He reconquered Egypt in 343 BC, ending the last native Egyptian dynasty, before being poisoned by his own chiliarch, the eunuch Bagoas.",
+          "tag": "SUCCESSION",
+          "note": "Diodorus Siculus, Bibliotheca Historica 16.40–51 (the Egyptian campaign), 17.5 (the poisoning)."
+        },
+        {
+          "id": "p12",
+          "group": "Decline and Fall",
+          "dynasty": "Achaemenid",
+          "label": "Artaxerxes IV (Arses) — Bagoas's puppet",
+          "date": "338–336 BC",
+          "loc": "Persepolis",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "Bagoas installed the young Arses after poisoning Artaxerxes III and most other claimants to the throne. When Arses tried to act against him, Bagoas poisoned him too, after barely two years on the throne.",
+          "tag": "APPOINTED",
+          "note": "Diodorus Siculus, Bibliotheca Historica 17.5."
+        },
+        {
+          "id": "p13",
+          "group": "Decline and Fall",
+          "dynasty": "Achaemenid",
+          "label": "Darius III — the fall of the empire",
+          "date": "336–330 BC",
+          "loc": "Persepolis",
+          "coords": [
+            29.94,
+            52.89
+          ],
+          "hint": "A collateral descendant of the royal line, Darius III was raised to the throne by Bagoas and promptly forced the kingmaker to drink his own poison. He lost the empire to Alexander's invasion across three pitched battles and was murdered by his own satrap Bessus in Bactria in 330 BC.",
+          "tag": "APPOINTED",
+          "note": "Diodorus Siculus, Bibliotheca Historica 17.5–6, 17.73 (the murder by Bessus); Arrian, Anabasis of Alexander 3.21."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +226,120 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "Conquest, revolt, and the wars with Greece and Macedon",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Cyrus's Conquests",
+          "tag": "BATTLE",
+          "date": "550–539 BC",
+          "label": "Cyrus's Conquests — Media, Lydia and Babylon",
+          "loc": "Ecbatana, Sardis and Babylon",
+          "coords": [
+            34.8,
+            48.51
+          ],
+          "hint": "In a single decade Cyrus overturned the political map of the Near East: he took Ecbatana from his grandfather Astyages (c.550 BC), captured Sardis from Croesus of Lydia (c.547 BC), and entered Babylon without a fight after Nabonidus's army collapsed at Opis (539 BC).",
+          "note": "Nabonidus Chronicle (BM 35382); Cyrus Cylinder (BM 90920); Herodotus, Histories 1.75–91, 1.153–214."
+        },
+        {
+          "id": "c2",
+          "group": "Cambyses's Conquest of Egypt",
+          "tag": "BATTLE",
+          "date": "525 BC",
+          "label": "Battle of Pelusium",
+          "loc": "Pelusium, Egypt",
+          "coords": [
+            31.05,
+            32.55
+          ],
+          "hint": "Cambyses defeated Pharaoh Psamtik III's army at Pelusium on the eastern Delta frontier, opening the road to Memphis and ending Egypt's Twenty-Sixth (Saite) Dynasty as an independent power.",
+          "note": "Herodotus, Histories 3.10–13; Polyaenus, Strategemata 7.9 (the cats-as-shields tradition, treated with source-critical caution)."
+        },
+        {
+          "id": "c3",
+          "group": "The Ionian Revolt",
+          "tag": "REVOLT",
+          "date": "499–493 BC",
+          "label": "The Ionian Revolt",
+          "loc": "Miletus",
+          "coords": [
+            37.53,
+            27.28
+          ],
+          "hint": "The Greek cities of Ionia, led by Miletus's Aristagoras and briefly aided by Athens and Eretria, rose against Persian-appointed tyrants and satrapal rule. Darius crushed the revolt at the naval Battle of Lade (494 BC) and the sack of Miletus, but Athens's involvement gave him his pretext for invading Greece.",
+          "note": "Herodotus, Histories 5.28–6.32."
+        },
+        {
+          "id": "c4",
+          "group": "The Greco-Persian Wars",
+          "tag": "BATTLE",
+          "date": "490–479 BC",
+          "label": "The Greco-Persian Wars",
+          "loc": "Marathon, Thermopylae, Salamis and Plataea",
+          "coords": [
+            37.97,
+            23.48
+          ],
+          "hint": "Darius's punitive expedition was stopped at Marathon in 490 BC; Xerxes's far larger invasion a decade later forced the pass at Thermopylae and burned Athens, but lost its fleet at Salamis (480 BC) and its army at Plataea (479 BC), ending Persia's attempts to conquer the Greek mainland.",
+          "note": "Herodotus, Histories 6.102–117, 7.201–239, 8.40–96, 9.19–89."
+        },
+        {
+          "id": "c5",
+          "group": "Egyptian Revolts",
+          "tag": "REVOLT",
+          "date": "460–454 BC",
+          "label": "Inaros's Revolt in Egypt",
+          "loc": "Memphis / Papremis, Egypt",
+          "coords": [
+            29.84,
+            31.25
+          ],
+          "hint": "The Libyan prince Inaros led Egypt in revolt against Artaxerxes I with a large Athenian naval expeditionary force in support, defeating a Persian army at Papremis before the revolt was finally crushed and Inaros executed at Susa.",
+          "note": "Thucydides, History of the Peloponnesian War 1.104, 1.109–110; Ctesias, Persica (via Photius)."
+        },
+        {
+          "id": "c6",
+          "group": "The Peloponnesian War",
+          "tag": "POLITICAL",
+          "date": "412–404 BC",
+          "label": "Persian Subsidy of Sparta's Fleet",
+          "loc": "Sparta",
+          "coords": [
+            37.08,
+            22.42
+          ],
+          "hint": "Darius II's satraps Tissaphernes and, later, the crown prince Cyrus the Younger financed the Spartan war effort against Athens in exchange for a free hand over the Greek cities of Asia Minor — Persian gold that proved decisive in Athens's final naval defeat.",
+          "note": "Thucydides, History of the Peloponnesian War 8.5–6, 8.18 (the treaties with Sparta); Xenophon, Hellenica 1–2."
+        },
+        {
+          "id": "c7",
+          "group": "The March of the Ten Thousand",
+          "tag": "BATTLE",
+          "date": "401–400 BC",
+          "label": "Battle of Cunaxa and the March of the Ten Thousand",
+          "loc": "Cunaxa, near Babylon",
+          "coords": [
+            33.15,
+            44.15
+          ],
+          "hint": "Cyrus the Younger marched a Persian and Greek mercenary army against his brother Artaxerxes II, dying in the moment of near-victory at Cunaxa. The stranded Greek mercenaries' fighting retreat north to the Black Sea, chronicled by Xenophon, exposed the empire's western vulnerability a generation before Alexander.",
+          "note": "Xenophon, Anabasis, books 1–4."
+        },
+        {
+          "id": "c8",
+          "group": "Alexander's Conquest",
+          "tag": "BATTLE",
+          "date": "334–330 BC",
+          "label": "Alexander's Conquest of the Empire",
+          "loc": "Gaugamela",
+          "coords": [
+            36.36,
+            43.25
+          ],
+          "hint": "Alexander defeated Darius III in three pitched battles — the Granicus (334 BC), Issus (333 BC), and the decisive Gaugamela (331 BC) — before occupying Babylon, Susa and Persepolis and pursuing the fleeing king into Bactria, where Darius was murdered by his own satrap Bessus.",
+          "note": "Arrian, Anabasis of Alexander 1–3; Diodorus Siculus, Bibliotheca Historica 17."
+        }
+      ]
     },
     {
       "id": "order",
