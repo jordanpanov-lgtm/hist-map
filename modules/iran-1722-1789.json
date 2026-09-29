@@ -21,7 +21,81 @@
       "color": "#5C0A00",
       "accent": "#A0200A",
       "subtitle": "Afghan occupation, Nader Shah's meteoric rise and fall, and Karim Khan's gentler rule",
-      "entries": []
+      "entries": [
+        {
+          "id": "p1",
+          "group": "The Afghan Interregnum",
+          "dynasty": "Hotaki",
+          "label": "Mahmud and Ashraf Hotak — the Afghan Occupation",
+          "date": "1722–1729",
+          "loc": "Isfahan",
+          "coords": [
+            32.65,
+            51.68
+          ],
+          "hint": "The Ghilzai Afghan chief Mahmud Hotak, who had toppled the Safavids at Isfahan, and his cousin and successor Ashraf ruled Iran's former capital as foreign occupiers for seven brutal years, never securing genuine control beyond a few core provinces before Nader's rapidly assembled army expelled them entirely.",
+          "tag": "COUP",
+          "note": "Muhammad Kazim Marvi, Alam-Ara-yi Naderi, on the Afghan occupation of Isfahan."
+        },
+        {
+          "id": "p2",
+          "group": "Nader Shah and the Afsharids",
+          "dynasty": "Afsharid",
+          "label": "Nader Shah — the Napoleon of Persia",
+          "date": "1729–1747",
+          "loc": "Mashhad",
+          "coords": [
+            36.3,
+            59.61
+          ],
+          "hint": "Rising from minor Khorasani tribal origins through sheer military talent, Nader expelled the Afghans, deposed the last nominal Safavid claimant to crown himself shah in 1736, then conquered as far as Delhi before his later reign collapsed into ruinous taxation, paranoid violence against his own family and officers, and his eventual assassination by the men who had once followed him to those victories.",
+          "tag": "COUP",
+          "note": "Muhammad Kazim Marvi, Alam-Ara-yi Naderi, the principal contemporary chronicle of Nader Shah's reign."
+        },
+        {
+          "id": "p3",
+          "group": "The Zand Dynasty",
+          "label": "Post-Nader Chaos",
+          "date": "1747–1751",
+          "loc": "Isfahan",
+          "coords": [
+            32.65,
+            51.68
+          ],
+          "hint": "Nader's assassination triggered four years of rapid, violent succession disputes among rival claimants and regional strongmen before Karim Khan Zand emerged as the dominant figure in the country's western and central provinces — a brief chaotic interval typical of how quickly a personalist military empire could unravel once its founder was gone.",
+          "tag": "CIVIL WAR",
+          "note": "Comparative Iranian chronicle sources on the succession crisis following Nader Shah's death."
+        },
+        {
+          "id": "p4",
+          "group": "The Zand Dynasty",
+          "dynasty": "Zand",
+          "label": "Karim Khan Zand — the Vakil",
+          "date": "1751–1779",
+          "loc": "Shiraz",
+          "coords": [
+            29.61,
+            52.54
+          ],
+          "hint": "Karim Khan governed from Shiraz for nearly three decades under the deliberately modest title Vakil (regent or representative) rather than shah, out of respect for the by-then entirely symbolic Safavid line — a comparatively benevolent and stable reign later Iranian memory would contrast favourably with both Nader's violence before him and the succession chaos that followed his death.",
+          "tag": "SUCCESSION",
+          "note": "Comparative Zand-era chronicle sources; John Perry, Karim Khan Zand (1979)."
+        },
+        {
+          "id": "p5",
+          "group": "The Zand Dynasty",
+          "label": "The Zand Succession Crisis",
+          "date": "1779–1789",
+          "loc": "Shiraz",
+          "coords": [
+            29.61,
+            52.54
+          ],
+          "hint": "Karim Khan's death set off a decade of fratricidal Zand succession disputes that steadily weakened the dynasty's hold on the country, opening the way for Agha Mohammad Khan of the rival Qajar tribe to begin the brutal reunification campaign that would, within a few years of this folio's close, found Iran's next ruling dynasty.",
+          "tag": "CIVIL WAR",
+          "note": "Comparative late Zand-era chronicle sources on the succession disputes of the 1780s."
+        }
+      ]
     },
     {
       "id": "conflict",
@@ -30,7 +104,64 @@
       "color": "#4A235A",
       "accent": "#7D3C98",
       "subtitle": "Expelling the Afghans, the sack of Delhi, and a shah's assassination",
-      "entries": []
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Expelling the Afghans",
+          "tag": "BATTLE",
+          "date": "1729",
+          "label": "The Battle of Damghan",
+          "loc": "Damghan",
+          "coords": [
+            36.17,
+            54.35
+          ],
+          "hint": "Nader's newly assembled army decisively defeated Ashraf Hotak's Afghan forces at Damghan, opening the road to Isfahan and effectively ending seven years of Afghan occupation of the former Safavid capital within a single campaigning season.",
+          "note": "Muhammad Kazim Marvi, Alam-Ara-yi Naderi, on the Battle of Damghan."
+        },
+        {
+          "id": "c2",
+          "group": "Nader's Wars",
+          "tag": "BATTLE",
+          "date": "1730–1746",
+          "label": "The Ottoman Wars",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.36
+          ],
+          "hint": "Nader fought recurring campaigns against the Ottoman Empire over the contested Iraqi and Caucasus frontier throughout his reign, including his unsuccessful attempt to have Twelver Shiism recognised as a legitimate fifth school of Sunni jurisprudence as part of a broader peace settlement.",
+          "note": "Ottoman and Persian chronicle traditions on the recurring Ottoman-Afsharid wars."
+        },
+        {
+          "id": "c3",
+          "group": "The Sack of Delhi",
+          "tag": "BATTLE",
+          "date": "1739",
+          "label": "Nader's Invasion of India and the Sack of Delhi",
+          "loc": "Delhi",
+          "coords": [
+            28.65,
+            77.23
+          ],
+          "hint": "Nader's army crushed Mughal forces at Karnal and occupied Delhi, where a massacre of the city's population following a riot was followed by the systematic looting of the Mughal treasury — including the Peacock Throne and the Koh-i-Noor diamond — plunder so vast that Nader reportedly suspended Iranian taxation for three years upon his return.",
+          "note": "Muhammad Kazim Marvi, Alam-Ara-yi Naderi; Mughal court chronicle accounts of the Delhi massacre and sack."
+        },
+        {
+          "id": "c4",
+          "group": "Nader's Assassination",
+          "tag": "COUP",
+          "date": "1747",
+          "label": "The Assassination of Nader Shah",
+          "loc": "Quchan, Khorasan",
+          "coords": [
+            37.1,
+            58.51
+          ],
+          "hint": "A group of his own officers, no longer willing to tolerate his escalating paranoia, brutal taxation and violence against his own family and retinue, assassinated Nader in his camp — the abrupt end of a reign that had briefly made Iran one of the most militarily formidable states in Asia.",
+          "note": "Muhammad Kazim Marvi, Alam-Ara-yi Naderi, on the circumstances of Nader Shah's assassination."
+        }
+      ]
     },
     {
       "id": "order",
