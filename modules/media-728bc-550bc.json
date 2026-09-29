@@ -248,7 +248,7 @@
           "id": "t1",
           "group": "History & Chronicle",
           "tag": "TEXT",
-          "date": "5th c. BC",
+          "date": "728–550 BC (as later written by Herodotus)",
           "label": "Writing Median History from Herodotus Alone",
           "loc": "Ecbatana",
           "coords": [
@@ -353,7 +353,36 @@
       "color": "#0F2A3D",
       "accent": "#2E6F8E",
       "subtitle": "The fall of Assyria reshapes the whole Near East",
-      "entries": []
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "612 BC",
+          "label": "The Fall of Assyria Reshapes the Near East",
+          "loc": "Nineveh",
+          "coords": [
+            36.36,
+            43.15
+          ],
+          "hint": "Assyria's destruction left a power vacuum the victors and their neighbours divided among themselves into a new system of four major kingdoms — Media in the north and east, a revived Babylon in the south, Lydia in Anatolia, and Egypt to the west — a geopolitical arrangement that would last only a couple of generations before Cyrus began absorbing it piece by piece.",
+          "note": "Comparative Near Eastern political history following the fall of Nineveh."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "tag": "EVENT",
+          "date": "c.560 BC",
+          "label": "Median Territory at Its Height",
+          "loc": "Ecbatana",
+          "coords": [
+            34.8,
+            48.51
+          ],
+          "hint": "Under Astyages, Median overlordship extended from the Halys river in Anatolia across the Iranian plateau, making it — on paper — one of the largest and most powerful states in the Near East on the very eve of its sudden collapse to a vassal king's revolt.",
+          "note": "Herodotus, Histories 1.103, 1.130, on the extent of Median rule before Cyrus's revolt."
+        }
+      ]
     },
     {
       "id": "lives",
@@ -362,7 +391,22 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "Mandane and the legend of the infant Cyrus",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Marginalised Communities",
+          "tag": "EVIDENCE",
+          "date": "c.560 BC",
+          "label": "Mandane and the Legend of the Infant Cyrus",
+          "loc": "Ecbatana",
+          "coords": [
+            34.8,
+            48.51
+          ],
+          "hint": "Herodotus frames Astyages's fall around a dream that his daughter Mandane's son would overthrow him, the infant Cyrus's ordered exposure, and his survival and secret upbringing by a herdsman — a foundation legend following a pattern common to many cultures' origin stories for a future conqueror, which historians read as testifying to later Persian mythmaking about Cyrus more than to verifiable events at the Median court.",
+          "note": "Herodotus, Histories 1.107–122, explicitly flagged by Herodotus himself as one of several competing versions he had heard."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -371,67 +415,182 @@
       "icon": "⚜️",
       "accent": "#A0300A",
       "label": "The Median Kings (728–550 BC)",
-      "events": []
+      "events": [
+        {
+          "y": -728,
+          "y2": -675,
+          "l": "Deioces — the Semi-Legendary Founder",
+          "entryId": "p1"
+        },
+        {
+          "y": -675,
+          "y2": -625,
+          "l": "Phraortes and the Scythian Interlude",
+          "entryId": "p2"
+        },
+        {
+          "y": -625,
+          "y2": -585,
+          "l": "Cyaxares — the Fall of Nineveh",
+          "entryId": "p3"
+        },
+        {
+          "y": -585,
+          "y2": -550,
+          "l": "Astyages — the Fall of Media",
+          "entryId": "p4"
+        }
+      ]
     },
     {
       "id": "conflict",
       "icon": "⚔️",
       "accent": "#7D3C98",
-      "events": []
+      "events": [
+        {
+          "y": -653,
+          "l": "Phraortes's Death Fighting Assyria",
+          "entryId": "c1"
+        },
+        {
+          "y": -640,
+          "l": "Scythian Domination and Its Overthrow",
+          "entryId": "c2"
+        },
+        {
+          "y": -612,
+          "l": "The Fall of Nineveh",
+          "entryId": "c3"
+        },
+        {
+          "y": -585,
+          "l": "The Battle of the Eclipse",
+          "entryId": "c4"
+        },
+        {
+          "y": -553,
+          "l": "Cyrus's Revolt against Astyages",
+          "entryId": "c5"
+        }
+      ]
     },
     {
       "id": "order",
       "icon": "⚖️",
       "accent": "#2471A3",
-      "events": []
+      "events": [
+        {
+          "y": -625,
+          "l": "Cyaxares Reorganises the Army",
+          "entryId": "o1"
+        }
+      ]
     },
     {
       "id": "belief",
       "icon": "🙏",
       "accent": "#1E8449",
-      "events": []
+      "events": [
+        {
+          "y": -700,
+          "l": "The Magi as a Median Tribe",
+          "entryId": "b1"
+        }
+      ]
     },
     {
       "id": "expression",
       "icon": "✨",
       "accent": "#8D6E63",
-      "events": []
+      "events": [
+        {
+          "y": -650,
+          "l": "Ecbatana's Seven Walls",
+          "entryId": "e1"
+        }
+      ]
     },
     {
       "id": "thought",
       "icon": "💡",
       "accent": "#566573",
-      "events": []
+      "events": [
+        {
+          "y": -640,
+          "l": "Writing Median History from Herodotus Alone",
+          "entryId": "t1"
+        }
+      ]
     },
     {
       "id": "economy",
       "icon": "💰",
       "accent": "#8B5E00",
-      "events": []
+      "events": [
+        {
+          "y": -640,
+          "l": "The Highland Economy behind an Army",
+          "entryId": "ec1"
+        }
+      ]
     },
     {
       "id": "technology",
       "icon": "⚙️",
       "accent": "#B7770D",
-      "events": []
+      "events": [
+        {
+          "y": -650,
+          "l": "Road Connections from Ecbatana",
+          "entryId": "tc1"
+        }
+      ]
     },
     {
       "id": "exchange",
       "icon": "🌐",
       "accent": "#148080",
-      "events": []
+      "events": [
+        {
+          "y": -610,
+          "l": "The Marriage Alliance with Babylon",
+          "entryId": "x1"
+        },
+        {
+          "y": -585,
+          "l": "The Marriage Alliance with Lydia",
+          "entryId": "x2"
+        }
+      ]
     },
     {
       "id": "world",
       "icon": "🌍",
       "accent": "#2E6F8E",
-      "events": []
+      "events": [
+        {
+          "y": -612,
+          "l": "The Fall of Assyria Reshapes the Near East",
+          "entryId": "w1"
+        },
+        {
+          "y": -560,
+          "l": "Median Territory at Its Height",
+          "entryId": "w2"
+        }
+      ]
     },
     {
       "id": "lives",
       "icon": "🪞",
       "accent": "#7B4FA6",
-      "events": []
+      "events": [
+        {
+          "y": -560,
+          "l": "Mandane and the Legend of the Infant Cyrus",
+          "entryId": "l1"
+        }
+      ]
     }
   ]
 }
