@@ -1014,6 +1014,10 @@ const SELECTED_PAIRS = [
   ['parthia-148bc-224::c4', 'egypt-30bc-300ad::k6'],                 // Trajan's Parthian war -> Trajan, the canal and the Jewish war
   ['parthia-148bc-224::c4', 'hispania-27bc-409ad::k2'],              // Trajan's Parthian war -> Trajan and Hadrian, born at Italica
   ['parthia-148bc-224::c6', 'sassanid-224-484::c1'],                 // Ardashir's rebellion at Hormozdgan -> the Sassanid foundation battle
+  // ── iran-651-821 (Iran/Persia program, Step 2) ──
+  // rejected: four bare "Abbasid" dynasty-word matches to ec2 with no real content overlap.
+  ['iran-651-821::c1', 'sassanid-484-651::k11'],                     // Yazdegerd III's death at Merv -> the same king, Sassanid side
+  ['iran-651-821::x2', 'caliphate-750-945::e3'],                     // paper spreads from Samarkand -> paper, the warraqs and the book trade
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
