@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6796,
     "folio_count": 132,
-    "xlink_pairs": 1264,
+    "xlink_pairs": 1270,
     "keyword_terms": 10154,
     "folios": [
       {
@@ -7660,7 +7660,8 @@
       "israel-judah-1200bc-586bc::p4"
     ],
     "israel-judah-1200bc-586bc::p4": [
-      "aram-damascus-1200bc-732bc::e1"
+      "aram-damascus-1200bc-732bc::e1",
+      "philistia-1200bc-604bc::p3"
     ],
     "assyria-1400bc-1050bc::k1": [
       "babylon-1595bc-1155bc::k6",
@@ -7814,12 +7815,16 @@
     ],
     "assyria-911bc-609bc::k6": [
       "babylon-1155bc-539bc::k4",
-      "israel-judah-1200bc-586bc::c2"
+      "israel-judah-1200bc-586bc::c2",
+      "philistia-1200bc-604bc::p4"
     ],
     "babylon-1155bc-539bc::k4": [
       "assyria-911bc-609bc::k6"
     ],
     "israel-judah-1200bc-586bc::c2": [
+      "assyria-911bc-609bc::k6"
+    ],
+    "philistia-1200bc-604bc::p4": [
       "assyria-911bc-609bc::k6"
     ],
     "assyria-911bc-609bc::k7": [
@@ -9405,6 +9410,14 @@
     "egypt-1550bc-1200bc::k19": [
       "egypt-1200bc-664bc::k1"
     ],
+    "egypt-1200bc-664bc::k2": [
+      "philistia-1200bc-604bc::p1"
+    ],
+    "philistia-1200bc-604bc::p1": [
+      "egypt-1200bc-664bc::k2",
+      "egypt-1200bc-664bc::c1",
+      "egypt-1200bc-664bc::x1"
+    ],
     "egypt-1200bc-664bc::k15": [
       "egypt-664bc-332bc::c1"
     ],
@@ -9420,7 +9433,8 @@
       "egypt-1200bc-664bc::xc6"
     ],
     "egypt-1200bc-664bc::c1": [
-      "egypt-1550bc-1200bc::w4"
+      "egypt-1550bc-1200bc::w4",
+      "philistia-1200bc-604bc::p1"
     ],
     "egypt-1550bc-1200bc::w4": [
       "egypt-1200bc-664bc::c1"
@@ -9471,7 +9485,8 @@
       "egypt-1200bc-664bc::b4"
     ],
     "egypt-1200bc-664bc::x1": [
-      "egypt-1550bc-1200bc::x1"
+      "egypt-1550bc-1200bc::x1",
+      "philistia-1200bc-604bc::p1"
     ],
     "egypt-1550bc-1200bc::x1": [
       "egypt-1200bc-664bc::x1"
@@ -12267,6 +12282,15 @@
     ],
     "mesopotamia-224-637::l5": [
       "iraq-632-945::l3"
+    ],
+    "israel-judah-1200bc-586bc::p3": [
+      "philistia-1200bc-604bc::c2"
+    ],
+    "philistia-1200bc-604bc::c2": [
+      "israel-judah-1200bc-586bc::p3"
+    ],
+    "philistia-1200bc-604bc::p3": [
+      "israel-judah-1200bc-586bc::p4"
     ],
     "lakhmid-268-602::k1": [
       "mesopotamia-141bc-224::k8"

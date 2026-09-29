@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1467,
+    "figure_matches": 1471,
     "figure_matches_rejected_dynasty_mismatch": 1299,
-    "figure_matches_rejected_date_implausible": 1847,
+    "figure_matches_rejected_date_implausible": 1848,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4797,
+    "keyword_matches": 4800,
     "keyword_matches_rejected_geo_only": 9259,
-    "high_confidence": 1500,
-    "medium_confidence": 364,
-    "low_confidence": 4400
+    "high_confidence": 1504,
+    "medium_confidence": 365,
+    "low_confidence": 4402
   },
   "figure_name_matches": [
     {
@@ -121,6 +121,28 @@
       },
       "xlink_a": "assyria-911bc-609bc::k3",
       "xlink_b": "phoenicia-1200bc-539bc::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sargon II",
+      "pivot": {
+        "folio": "assyria-911bc-609bc",
+        "id": "k6",
+        "cat": "power",
+        "label": "Sargon II — the usurper who named himself for Akkad",
+        "dynasty": "Neo-Assyrian Kingdom",
+        "decade": "700s BC–720s"
+      },
+      "match": {
+        "folio": "philistia-1200bc-604bc",
+        "id": "p4",
+        "cat": "power",
+        "label": "Sargon II Crushes the Ashdod Revolt",
+        "decade": "710s BC"
+      },
+      "xlink_a": "assyria-911bc-609bc::k6",
+      "xlink_b": "philistia-1200bc-604bc::p4"
     },
     {
       "confidence": "high",
@@ -16273,6 +16295,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Saul",
+      "pivot": {
+        "folio": "israel-judah-1200bc-586bc",
+        "id": "p3",
+        "cat": "power",
+        "label": "Saul, a First King",
+        "dynasty": "House of Saul",
+        "decade": "1010s BC–1040s"
+      },
+      "match": {
+        "folio": "philistia-1200bc-604bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Saul's Death at Gilboa",
+        "decade": "1010s BC"
+      },
+      "xlink_a": "israel-judah-1200bc-586bc::p3",
+      "xlink_b": "philistia-1200bc-604bc::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "David",
+      "pivot": {
+        "folio": "israel-judah-1200bc-586bc",
+        "id": "p4",
+        "cat": "power",
+        "label": "David and a Disputed \"House of David\"",
+        "dynasty": "House of David",
+        "decade": "970s BC–1010s"
+      },
+      "match": {
+        "folio": "philistia-1200bc-604bc",
+        "id": "p3",
+        "cat": "power",
+        "label": "Achish of Gath and a Fugitive Named David",
+        "decade": "1000s BC–1010s"
+      },
+      "xlink_a": "israel-judah-1200bc-586bc::p4",
+      "xlink_b": "philistia-1200bc-604bc::p3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Final",
       "pivot": {
         "folio": "israel-judah-1200bc-586bc",
@@ -18799,6 +18865,28 @@
       },
       "xlink_a": "mesopotamia-2334bc-2004bc::k1",
       "xlink_b": "dilmun-3000bc-1200bc::k2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sargon",
+      "pivot": {
+        "folio": "mesopotamia-2334bc-2004bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Sargon founds the first empire",
+        "dynasty": "Dynasty of Akkad",
+        "decade": "2270s BC–2330s"
+      },
+      "match": {
+        "folio": "philistia-1200bc-604bc",
+        "id": "p4",
+        "cat": "power",
+        "label": "Sargon II Crushes the Ashdod Revolt",
+        "decade": "710s BC"
+      },
+      "xlink_a": "mesopotamia-2334bc-2004bc::k1",
+      "xlink_b": "philistia-1200bc-604bc::p4"
     },
     {
       "confidence": "high",
@@ -43186,6 +43274,33 @@
       "date_flag": "overlapping",
       "xlink_a": "mesopotamia-2334bc-2004bc::xc1",
       "xlink_b": "sumer-2900bc-2334bc::xc1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Medinet Habu",
+        "Ramesses III",
+        "Sea Peoples"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "x1",
+        "cat": "expression",
+        "label": "Medinet Habu",
+        "decade": "1170s BC"
+      },
+      "b": {
+        "folio": "philistia-1200bc-604bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Peleset Settle the Coastal Plain",
+        "decade": "1170s BC"
+      },
+      "date_flag": "5yr gap",
+      "xlink_a": "egypt-1200bc-664bc::x1",
+      "xlink_b": "philistia-1200bc-604bc::p1"
     },
     {
       "confidence": "medium",
@@ -125323,6 +125438,58 @@
       "date_flag": "overlapping",
       "xlink_a": "dilmun-3000bc-1200bc::ec3",
       "xlink_b": "sumer-2900bc-2334bc::xc1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ramesses III",
+        "Sea Peoples"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "k2",
+        "cat": "power",
+        "label": "Ramesses III — the last great pharaoh",
+        "decade": "1150s BC–1180s"
+      },
+      "b": {
+        "folio": "philistia-1200bc-604bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Peleset Settle the Coastal Plain",
+        "decade": "1170s BC"
+      },
+      "date_flag": "20yr gap",
+      "xlink_a": "egypt-1200bc-664bc::k2",
+      "xlink_b": "philistia-1200bc-604bc::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Ramesses III",
+        "Sea Peoples"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1200bc-664bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Sea Peoples repelled",
+        "decade": "1170s BC"
+      },
+      "b": {
+        "folio": "philistia-1200bc-604bc",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Peleset Settle the Coastal Plain",
+        "decade": "1170s BC"
+      },
+      "date_flag": "2yr gap",
+      "xlink_a": "egypt-1200bc-664bc::c1",
+      "xlink_b": "philistia-1200bc-604bc::p1"
     },
     {
       "confidence": "low",

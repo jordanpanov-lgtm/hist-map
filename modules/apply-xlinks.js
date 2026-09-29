@@ -1186,6 +1186,13 @@ const SELECTED_PAIRS = [
   ['aram-damascus-1200bc-732bc::p4', 'assyria-911bc-609bc::k3'],         // Hadadezer leads the coalition -> Shalmaneser III's own entry
   ['aram-damascus-1200bc-732bc::p4', 'egypt-1200bc-664bc::c5'],          // Hadadezer leads the coalition -> Egypt's minor contingent
   ['aram-damascus-1200bc-732bc::e1', 'israel-judah-1200bc-586bc::p4'],   // the Tel Dan Stele, Damascene reading -> same stele, Davidic reading
+  // ── philistia-1200bc-604bc (Levant program, Phase 2 complete) ──
+  ['philistia-1200bc-604bc::p1', 'egypt-1200bc-664bc::x1'],          // the Peleset settle the coast -> the Medinet Habu reliefs themselves
+  ['philistia-1200bc-604bc::p1', 'egypt-1200bc-664bc::c1'],          // the Peleset settle the coast -> "the Sea Peoples repelled," Egyptian side
+  ['philistia-1200bc-604bc::p1', 'egypt-1200bc-664bc::k2'],          // the Peleset settle the coast -> Ramesses III's own reign entry
+  ['philistia-1200bc-604bc::p4', 'assyria-911bc-609bc::k6'],         // the Ashdod revolt -> Sargon II's own reign entry
+  ['philistia-1200bc-604bc::c2', 'israel-judah-1200bc-586bc::p3'],   // Saul's death at Gilboa -> Saul's own reign entry
+  ['philistia-1200bc-604bc::p3', 'israel-judah-1200bc-586bc::p4'],   // Achish and a fugitive David -> David's own reign entry
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
