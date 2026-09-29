@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1511,
+    "figure_matches": 1528,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 1948,
+    "figure_matches_rejected_date_implausible": 1965,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4818,
-    "keyword_matches_rejected_geo_only": 9260,
-    "high_confidence": 1544,
+    "keyword_matches": 4822,
+    "keyword_matches_rejected_geo_only": 9262,
+    "high_confidence": 1561,
     "medium_confidence": 366,
-    "low_confidence": 4419
+    "low_confidence": 4423
   },
   "figure_name_matches": [
     {
@@ -3799,6 +3799,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "beth-qatraye-632-750",
+        "id": "w5",
+        "cat": "world",
+        "label": "The Abbasid revolution",
+        "dynasty": "Abbasid",
+        "decade": "740s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p6",
+        "cat": "power",
+        "label": "The Abbasid Revolution Ends Umayyad Damascus",
+        "decade": "740s"
+      },
+      "xlink_a": "beth-qatraye-632-750::w5",
+      "xlink_b": "levant-634-750::p6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Umar",
       "pivot": {
         "folio": "caliphate-632-750",
@@ -3839,6 +3861,72 @@
       },
       "xlink_a": "caliphate-632-750::k2",
       "xlink_b": "roman-byzantine-levant-135-638::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abd al-Malik",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "k8",
+        "cat": "power",
+        "label": "Abd al-Malik refounds the state",
+        "dynasty": "Umayyad",
+        "decade": "690s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p4",
+        "cat": "power",
+        "label": "Abd al-Malik's Dome of the Rock",
+        "decade": "690s"
+      },
+      "xlink_a": "caliphate-632-750::k8",
+      "xlink_b": "levant-634-750::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abd al-Malik",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "k8",
+        "cat": "power",
+        "label": "Abd al-Malik refounds the state",
+        "dynasty": "Umayyad",
+        "decade": "690s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "o2",
+        "cat": "order",
+        "label": "Abd al-Malik's Currency and Language Reform",
+        "decade": "690s"
+      },
+      "xlink_a": "caliphate-632-750::k8",
+      "xlink_b": "levant-634-750::o2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Al-Walid I",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "k9",
+        "cat": "power",
+        "label": "Al-Walid I — the conquests at their limit",
+        "dynasty": "Umayyad",
+        "decade": "700s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p5",
+        "cat": "power",
+        "label": "Al-Walid I's Great Mosque of Damascus",
+        "decade": "700s"
+      },
+      "xlink_a": "caliphate-632-750::k9",
+      "xlink_b": "levant-634-750::p5"
     },
     {
       "confidence": "high",
@@ -3897,6 +3985,28 @@
         "decade": "670s"
       },
       "match": {
+        "folio": "levant-634-750",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The Sieges of Constantinople",
+        "decade": "670s–710s"
+      },
+      "xlink_a": "caliphate-632-750::c8",
+      "xlink_b": "levant-634-750::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantinople",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "c8",
+        "cat": "conflict",
+        "label": "The first siege of Constantinople",
+        "dynasty": "Umayyad",
+        "decade": "670s"
+      },
+      "match": {
         "folio": "sassanid-484-651",
         "id": "c4",
         "cat": "conflict",
@@ -3927,6 +4037,28 @@
       },
       "xlink_a": "caliphate-632-750::c9",
       "xlink_b": "egypt-300-641::e1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Constantinople",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "c9",
+        "cat": "conflict",
+        "label": "The second siege of Constantinople",
+        "dynasty": "Umayyad",
+        "decade": "710s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The Sieges of Constantinople",
+        "decade": "670s–710s"
+      },
+      "xlink_a": "caliphate-632-750::c9",
+      "xlink_b": "levant-634-750::c3"
     },
     {
       "confidence": "high",
@@ -4217,6 +4349,50 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Dome of the Rock",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Dome of the Rock and the caliph as God's deputy",
+        "dynasty": "Umayyad",
+        "decade": "690s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p4",
+        "cat": "power",
+        "label": "Abd al-Malik's Dome of the Rock",
+        "decade": "690s"
+      },
+      "xlink_a": "caliphate-632-750::b3",
+      "xlink_b": "levant-634-750::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Dome of the Rock",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "b3",
+        "cat": "belief",
+        "label": "The Dome of the Rock and the caliph as God's deputy",
+        "dynasty": "Umayyad",
+        "decade": "690s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Dome of the Rock's Contested Purpose",
+        "decade": "690s"
+      },
+      "xlink_a": "caliphate-632-750::b3",
+      "xlink_b": "levant-634-750::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Al-Hasan al-Basri",
       "pivot": {
         "folio": "caliphate-632-750",
@@ -4235,6 +4411,72 @@
       },
       "xlink_a": "caliphate-632-750::b6",
       "xlink_b": "iraq-632-945::l1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Dome of the Rock",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "e1",
+        "cat": "expression",
+        "label": "The Dome of the Rock — the first monument of Islamic art",
+        "dynasty": "Umayyad",
+        "decade": "690s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p4",
+        "cat": "power",
+        "label": "Abd al-Malik's Dome of the Rock",
+        "decade": "690s"
+      },
+      "xlink_a": "caliphate-632-750::e1",
+      "xlink_b": "levant-634-750::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Dome of the Rock",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "e1",
+        "cat": "expression",
+        "label": "The Dome of the Rock — the first monument of Islamic art",
+        "dynasty": "Umayyad",
+        "decade": "690s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Dome of the Rock's Contested Purpose",
+        "decade": "690s"
+      },
+      "xlink_a": "caliphate-632-750::e1",
+      "xlink_b": "levant-634-750::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mosque of Damascus",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "e2",
+        "cat": "expression",
+        "label": "The Great Mosque of Damascus",
+        "dynasty": "Umayyad",
+        "decade": "700s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p5",
+        "cat": "power",
+        "label": "Al-Walid I's Great Mosque of Damascus",
+        "decade": "700s"
+      },
+      "xlink_a": "caliphate-632-750::e2",
+      "xlink_b": "levant-634-750::p5"
     },
     {
       "confidence": "high",
@@ -4301,6 +4543,50 @@
       },
       "xlink_a": "caliphate-632-750::e3",
       "xlink_b": "iraq-632-945::k3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Umayyad",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Umayyad desert palaces",
+        "dynasty": "Umayyad",
+        "decade": "710s–740s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p6",
+        "cat": "power",
+        "label": "The Abbasid Revolution Ends Umayyad Damascus",
+        "decade": "740s"
+      },
+      "xlink_a": "caliphate-632-750::e3",
+      "xlink_b": "levant-634-750::p6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Umayyad",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "e3",
+        "cat": "expression",
+        "label": "The Umayyad desert palaces",
+        "dynasty": "Umayyad",
+        "decade": "710s–740s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Christian Life Continues under Early Umayyad Rule",
+        "decade": "660s–750s"
+      },
+      "xlink_a": "caliphate-632-750::e3",
+      "xlink_b": "levant-634-750::b2"
     },
     {
       "confidence": "high",
@@ -4411,6 +4697,28 @@
       },
       "xlink_a": "caliphate-632-750::tc2",
       "xlink_b": "egypt-664bc-332bc::e6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Masts",
+      "pivot": {
+        "folio": "caliphate-632-750",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Arab fleet and the Battle of the Masts",
+        "dynasty": "Rashidun",
+        "decade": "640s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Battle of the Masts",
+        "decade": "650s"
+      },
+      "xlink_a": "caliphate-632-750::tc3",
+      "xlink_b": "levant-634-750::c2"
     },
     {
       "confidence": "high",
@@ -6303,6 +6611,28 @@
       },
       "xlink_a": "caliphate-750-945::lv4",
       "xlink_b": "iran-651-821::ec2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "caliphate-750-945",
+        "id": "lv4",
+        "cat": "lives",
+        "label": "The many slaveries of the Abbasid world",
+        "dynasty": "Abbasid",
+        "decade": "750s–940s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p6",
+        "cat": "power",
+        "label": "The Abbasid Revolution Ends Umayyad Damascus",
+        "decade": "740s"
+      },
+      "xlink_a": "caliphate-750-945::lv4",
+      "xlink_b": "levant-634-750::p6"
     },
     {
       "confidence": "high",
@@ -11194,6 +11524,28 @@
       "name": "Abbasid",
       "pivot": {
         "folio": "egypt-641-969",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Abbasid governors and al-Askar",
+        "dynasty": "Abbasid",
+        "decade": "750s–850s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p6",
+        "cat": "power",
+        "label": "The Abbasid Revolution Ends Umayyad Damascus",
+        "decade": "740s"
+      },
+      "xlink_a": "egypt-641-969::k5",
+      "xlink_b": "levant-634-750::p6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "egypt-641-969",
         "id": "k9",
         "cat": "power",
         "label": "The Abbasid reconquest of 905",
@@ -14003,6 +14355,28 @@
       },
       "xlink_a": "hejaz-632-1517::k4",
       "xlink_b": "iran-651-821::ec2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Abbasid",
+      "pivot": {
+        "folio": "hejaz-632-1517",
+        "id": "k4",
+        "cat": "power",
+        "label": "The Abbasid Ḥaramayn",
+        "dynasty": "Abbasid",
+        "decade": "750s–960s"
+      },
+      "match": {
+        "folio": "levant-634-750",
+        "id": "p6",
+        "cat": "power",
+        "label": "The Abbasid Revolution Ends Umayyad Damascus",
+        "decade": "740s"
+      },
+      "xlink_a": "hejaz-632-1517::k4",
+      "xlink_b": "levant-634-750::p6"
     },
     {
       "confidence": "high",
@@ -55807,6 +56181,58 @@
       "date_flag": "480yr gap — verify same entity, not just shared theme",
       "xlink_a": "hasmonean-332bc-63bc::ec1",
       "xlink_b": "roman-byzantine-levant-135-638::p6"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jerusalem",
+        "Temple Mount"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "p1",
+        "cat": "power",
+        "label": "Pompey's Settlement",
+        "decade": "60s BC"
+      },
+      "b": {
+        "folio": "levant-634-750",
+        "id": "p4",
+        "cat": "power",
+        "label": "Abd al-Malik's Dome of the Rock",
+        "decade": "690s"
+      },
+      "date_flag": "754yr gap — verify same entity, not just shared theme",
+      "xlink_a": "herod-judea-63bc-135ce::p1",
+      "xlink_b": "levant-634-750::p4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jerusalem",
+        "Temple Mount"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "herod-judea-63bc-135ce",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Herodian Temple, Vastly Expanded",
+        "decade": "20s BC"
+      },
+      "b": {
+        "folio": "levant-634-750",
+        "id": "p4",
+        "cat": "power",
+        "label": "Abd al-Malik's Dome of the Rock",
+        "decade": "690s"
+      },
+      "date_flag": "711yr gap — verify same entity, not just shared theme",
+      "xlink_a": "herod-judea-63bc-135ce::b1",
+      "xlink_b": "levant-634-750::p4"
     },
     {
       "confidence": "low",
@@ -143796,6 +144222,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Abd al-Malik",
+        "Ibn al-Zubayr"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "k8",
+        "cat": "power",
+        "label": "Abd al-Malik refounds the state",
+        "decade": "690s"
+      },
+      "b": {
+        "folio": "levant-634-750",
+        "id": "b1",
+        "cat": "belief",
+        "label": "The Dome of the Rock's Contested Purpose",
+        "decade": "690s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::k8",
+      "xlink_b": "levant-634-750::b1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Bukhara",
         "Qutayba ibn Muslim"
       ],
@@ -144467,6 +144919,32 @@
       "date_flag": "858yr gap — verify same entity, not just shared theme",
       "xlink_a": "najd-300bc-632::k6",
       "xlink_b": "qedar-853bc-330bc::w3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "John of Damascus",
+        "Mar Saba"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-632-750",
+        "id": "b7",
+        "cat": "belief",
+        "label": "John of Damascus answers Islam",
+        "decade": "730s"
+      },
+      "b": {
+        "folio": "levant-634-750",
+        "id": "t1",
+        "cat": "thought",
+        "label": "John of Damascus, Courtier Turned Theologian",
+        "decade": "700s–740s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-632-750::b7",
+      "xlink_b": "levant-634-750::t1"
     },
     {
       "confidence": "low",

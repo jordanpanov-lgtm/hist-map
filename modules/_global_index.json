@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6924,
     "folio_count": 137,
-    "xlink_pairs": 1291,
+    "xlink_pairs": 1306,
     "keyword_terms": 10417,
     "folios": [
       {
@@ -8803,17 +8803,46 @@
       "eastern-arabia-750-1200::k2"
     ],
     "beth-qatraye-632-750::w5": [
-      "caliphate-632-750::w5"
+      "caliphate-632-750::w5",
+      "levant-634-750::p6"
     ],
     "caliphate-632-750::w5": [
       "beth-qatraye-632-750::w5",
       "caliphate-750-945::k1"
+    ],
+    "levant-634-750::p6": [
+      "beth-qatraye-632-750::w5"
     ],
     "caliphate-632-750::k2": [
       "roman-byzantine-levant-135-638::c4"
     ],
     "roman-byzantine-levant-135-638::c4": [
       "caliphate-632-750::k2"
+    ],
+    "caliphate-632-750::k8": [
+      "levant-634-750::b1",
+      "levant-634-750::o2",
+      "levant-634-750::p4"
+    ],
+    "levant-634-750::b1": [
+      "caliphate-632-750::k8",
+      "caliphate-632-750::b3",
+      "caliphate-632-750::e1"
+    ],
+    "levant-634-750::o2": [
+      "caliphate-632-750::k8"
+    ],
+    "levant-634-750::p4": [
+      "caliphate-632-750::k8",
+      "caliphate-632-750::b3",
+      "caliphate-632-750::e1"
+    ],
+    "caliphate-632-750::k9": [
+      "levant-634-750::p5"
+    ],
+    "levant-634-750::p5": [
+      "caliphate-632-750::k9",
+      "caliphate-632-750::e2"
     ],
     "caliphate-632-750::c3": [
       "lakhmid-268-602::w5",
@@ -8843,8 +8872,16 @@
       "iraq-945-1258::c1",
       "lakhmid-268-602::w5"
     ],
+    "caliphate-632-750::c8": [
+      "levant-634-750::c3"
+    ],
+    "levant-634-750::c3": [
+      "caliphate-632-750::c8",
+      "caliphate-632-750::c9"
+    ],
     "caliphate-632-750::c9": [
-      "caliphate-750-945::c4"
+      "caliphate-750-945::c4",
+      "levant-634-750::c3"
     ],
     "caliphate-750-945::c4": [
       "caliphate-632-750::c9"
@@ -8877,6 +8914,10 @@
       "caliphate-632-750::o5",
       "egypt-641-969::b2"
     ],
+    "caliphate-632-750::b3": [
+      "levant-634-750::b1",
+      "levant-634-750::p4"
+    ],
     "caliphate-632-750::b6": [
       "iraq-632-945::b6"
     ],
@@ -8884,6 +8925,25 @@
       "caliphate-632-750::b6",
       "iraq-945-1258::b4",
       "mesopotamia-224-637::b6"
+    ],
+    "caliphate-632-750::b7": [
+      "levant-634-750::t1"
+    ],
+    "levant-634-750::t1": [
+      "caliphate-632-750::b7"
+    ],
+    "caliphate-632-750::e1": [
+      "levant-634-750::b1",
+      "levant-634-750::p4"
+    ],
+    "caliphate-632-750::e2": [
+      "levant-634-750::p5"
+    ],
+    "caliphate-632-750::e3": [
+      "levant-634-750::e2"
+    ],
+    "levant-634-750::e2": [
+      "caliphate-632-750::e3"
     ],
     "caliphate-632-750::t2": [
       "iraq-632-945::x1"
@@ -8902,6 +8962,12 @@
       "caliphate-632-750::ec4",
       "iraq-632-945::e1",
       "mesopotamia-141bc-224::g4"
+    ],
+    "caliphate-632-750::tc3": [
+      "levant-634-750::c2"
+    ],
+    "levant-634-750::c2": [
+      "caliphate-632-750::tc3"
     ],
     "caliphate-632-750::x3": [
       "mesopotamia-224-637::xc5",

@@ -1220,6 +1220,27 @@ const SELECTED_PAIRS = [
   ['roman-byzantine-levant-135-638::c2', 'sassanid-484-651::r4'],        // the 614 sack -> same capture, dual Zoroastrian/Christian framing
   ['roman-byzantine-levant-135-638::p6', 'sassanid-484-651::r3'],        // Persian conquest/restoration -> Khosrow II and Shirin, the same reign's context
   ['roman-byzantine-levant-135-638::c4', 'caliphate-632-750::k2'],       // Jerusalem's surrender to Umar -> Umar's own reign entry
+  // ── levant-634-750 (Levant program, Phase 5) — heavy overlap with caliphate-632-750 expected,
+  // since this folio is the deliberate "Levant as place" companion to that empire-wide backbone.
+  // Rejected: 3 generic "Abbasid" dynasty-name matches to unrelated later-Abbasid-era topics
+  // (Egypt's al-Askar governors, Abbasid slavery practices, Abbasid Ḥaramayn patronage), and 2
+  // "Jerusalem"/"Temple Mount" matches to herod-judea entries 750+ years earlier — same physical
+  // site, no connecting event.
+  ['levant-634-750::p4', 'caliphate-632-750::k8'],           // Dome of the Rock -> "Abd al-Malik refounds the state"
+  ['levant-634-750::o2', 'caliphate-632-750::k8'],           // currency/language reform -> same Abd al-Malik entry
+  ['levant-634-750::b1', 'caliphate-632-750::k8'],           // the Dome's contested purpose -> same Abd al-Malik entry
+  ['levant-634-750::p5', 'caliphate-632-750::k9'],           // the Great Mosque of Damascus -> "Al-Walid I — the conquests at their limit"
+  ['levant-634-750::c3', 'caliphate-632-750::c8'],           // the sieges of Constantinople -> the first siege, caliphate's own entry
+  ['levant-634-750::c3', 'caliphate-632-750::c9'],           // the sieges of Constantinople -> the second siege, caliphate's own entry
+  ['levant-634-750::p4', 'caliphate-632-750::b3'],           // the Dome of the Rock -> "the caliph as God's deputy"
+  ['levant-634-750::b1', 'caliphate-632-750::b3'],           // the Dome's contested purpose -> same ideological-angle entry
+  ['levant-634-750::p4', 'caliphate-632-750::e1'],           // the Dome of the Rock -> "the first monument of Islamic art"
+  ['levant-634-750::b1', 'caliphate-632-750::e1'],           // the Dome's contested purpose -> same art-historical entry
+  ['levant-634-750::p5', 'caliphate-632-750::e2'],           // the Great Mosque of Damascus -> same building, caliphate's own entry
+  ['levant-634-750::e2', 'caliphate-632-750::e3'],           // the desert palaces' figurative art -> "the Umayyad desert palaces"
+  ['levant-634-750::c2', 'caliphate-632-750::tc3'],          // the Battle of the Masts -> "the Arab fleet and the Battle of the Masts"
+  ['levant-634-750::t1', 'caliphate-632-750::b7'],           // John of Damascus -> "John of Damascus answers Islam"
+  ['levant-634-750::p6', 'beth-qatraye-632-750::w5'],        // the Abbasid Revolution -> its ripple effect on the Omani Ibadi imamate
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
