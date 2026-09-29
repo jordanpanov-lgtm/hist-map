@@ -57,6 +57,7 @@ const MODULES = [
   { id:"iran-1335-1501", file:"modules/iran-1335-1501.json", label:"Timurid Age 1335–1501", sub:"Jalayirids, Timur, and the Turkmen Confederations", region:"Iran", period:"Medieval" },
   { id:"safavid-1501-1722", file:"modules/safavid-1501-1722.json", label:"Safavid Empire 1501–1722", sub:"Ismail I to the Fall of Isfahan", region:"Iran", period:"Early Modern" },
   { id:"iran-1722-1789", file:"modules/iran-1722-1789.json", label:"Afsharid and Zand Iran 1722–1789", sub:"Nader Shah's Conquests to Karim Khan's Shiraz", region:"Iran", period:"Early Modern" },
+  { id:"qajar-1789-1925", file:"modules/qajar-1789-1925.json", label:"Qajar Iran 1789–1925", sub:"The Great Game, the Constitutional Revolution and the Coming of Oil", region:"Iran", period:"Early Modern" },
   { id:"achaemenid-550bc-330bc", file:"modules/achaemenid-550bc-330bc.json", label:"Achaemenid Empire 550–330 BC", sub:"Cyrus's Conquests to the Fall of Darius III", region:"Iran", period:"Ancient" },
   { id:"seleucid-iran-330bc-148bc", file:"modules/seleucid-iran-330bc-148bc.json", label:"Seleucid Iran 330–148 BC", sub:"Alexander's Successors and the Loss of the Upper Satrapies", region:"Iran", period:"Late Antique" },
   { id:"parthia-148bc-224",     file:"modules/parthia-148bc-224.json",     label:"Parthian Iran 148 BC – 224 AD", sub:"Nisa, Ecbatana and the Feudal Empire",        region:"Iran",    period:"Late Antique"  },
