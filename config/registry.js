@@ -49,6 +49,8 @@ const MODULES = [
   { id:"israel-judah-1200bc-586bc", file:"modules/israel-judah-1200bc-586bc.json", label:"Israel and Judah 1,200–586 BC", sub:"From Merneptah's Stele to the Babylonian Exile", region:"Levant", period:"Ancient" },
   { id:"aram-damascus-1200bc-732bc", file:"modules/aram-damascus-1200bc-732bc.json", label:"Aram-Damascus 1,200–732 BC", sub:"An Aramaean Kingdom between Israel and Assyria", region:"Levant", period:"Ancient" },
   { id:"philistia-1200bc-604bc", file:"modules/philistia-1200bc-604bc.json", label:"Philistia 1,200–604 BC", sub:"The Pentapolis of Ashkelon, Ashdod, Ekron, Gath and Gaza", region:"Levant", period:"Ancient" },
+  // Phase 3 — Persian/Hellenistic
+  { id:"levant-539bc-332bc", file:"modules/levant-539bc-332bc.json", label:"The Levant under Persia 539–332 BC", sub:"Eber-Nari, the Return from Exile, and Second Temple Judaism's Formation", region:"Levant", period:"Ancient" },
   { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
   { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
   { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
