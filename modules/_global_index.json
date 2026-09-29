@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 6713,
     "folio_count": 129,
-    "xlink_pairs": 1243,
+    "xlink_pairs": 1247,
     "keyword_terms": 9977,
     "folios": [
       {
@@ -7676,11 +7676,23 @@
     "assyria-911bc-609bc::k1": [
       "assyria-1400bc-1050bc::w4"
     ],
+    "assyria-911bc-609bc::k3": [
+      "phoenicia-1200bc-539bc::c1"
+    ],
+    "phoenicia-1200bc-539bc::c1": [
+      "assyria-911bc-609bc::k3"
+    ],
     "assyria-911bc-609bc::k6": [
       "babylon-1155bc-539bc::k4"
     ],
     "babylon-1155bc-539bc::k4": [
       "assyria-911bc-609bc::k6"
+    ],
+    "assyria-911bc-609bc::k8": [
+      "phoenicia-1200bc-539bc::c2"
+    ],
+    "phoenicia-1200bc-539bc::c2": [
+      "assyria-911bc-609bc::k8"
     ],
     "assyria-911bc-609bc::k9": [
       "elam-1100bc-539bc::c4"
@@ -7749,6 +7761,12 @@
     "babylon-1155bc-539bc::t1": [
       "assyria-911bc-609bc::t2",
       "mesopotamia-539bc-331bc::b2"
+    ],
+    "assyria-911bc-609bc::e5": [
+      "phoenicia-1200bc-539bc::p3"
+    ],
+    "phoenicia-1200bc-539bc::p3": [
+      "assyria-911bc-609bc::e5"
     ],
     "assyria-911bc-609bc::xc4": [
       "dedan-tayma-1200bc-300bc::k2",
@@ -8029,6 +8047,12 @@
     ],
     "babylon-1595bc-1155bc::xc5": [
       "babylon-1155bc-539bc::k2"
+    ],
+    "babylon-1155bc-539bc::k8": [
+      "phoenicia-1200bc-539bc::c3"
+    ],
+    "phoenicia-1200bc-539bc::c3": [
+      "babylon-1155bc-539bc::k8"
     ],
     "babylon-1155bc-539bc::k10": [
       "dedan-tayma-1200bc-300bc::k4"

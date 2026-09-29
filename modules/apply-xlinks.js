@@ -1139,6 +1139,16 @@ const SELECTED_PAIRS = [
   ['canaan-2000bc-1200bc::x1', 'egypt-1550bc-1200bc::xc1'],          // cuneiform diplomacy -> same archive
   ['canaan-2000bc-1200bc::l1', 'egypt-1550bc-1200bc::xc1'],          // the Habiru -> same archive (which itself names "the roving Habiru")
   ['canaan-2000bc-1200bc::ec1', 'egypt-1550bc-1200bc::xc5'],         // the Uluburun shipwreck's cargo -> the same shipwreck, Egypt's own entry
+  // ── phoenicia-1200bc-539bc (Levant program, Phase 2) ──
+  // rejected: a generic "Mediterranean" match to an unrelated 12th-13th century Ayyubid Egypt
+  // entry, and nine bare "Assyrian" dynasty-word matches (my own entry is broadly titled
+  // "Assyrian and Babylonian Overlordship", so it shares that one word with dozens of unrelated
+  // Assyria-adjacent entries across the corpus) — only one of the ten actually discusses
+  // Phoenicia specifically.
+  ['phoenicia-1200bc-539bc::c1', 'assyria-911bc-609bc::k3'],         // Shalmaneser III imposes tribute -> the same king
+  ['phoenicia-1200bc-539bc::c2', 'assyria-911bc-609bc::k8'],         // Esarhaddon destroys Sidon -> the same king
+  ['phoenicia-1200bc-539bc::c3', 'babylon-1155bc-539bc::k8'],        // Nebuchadnezzar II's siege of Tyre -> the same king, Babylon's own view
+  ['phoenicia-1200bc-539bc::p3', 'assyria-911bc-609bc::e5'],         // Assyrian and Babylonian overlordship -> the Phoenicians and Arabs under the Assyrian peace
   // ── iran-1722-1789 (Iran/Persia program, Step 4 continued) ──
   // rejected: two bare "Ottoman(s)" empire-name mismatches, and an "East India Company" match to
   // an unrelated 1839 event (Aden) nearly a century after Karim Khan's 1763 agreement.
