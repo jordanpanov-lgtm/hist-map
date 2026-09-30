@@ -1311,6 +1311,17 @@ const SELECTED_PAIRS = [
   ['mamluk-syria-1260-1516::p4', 'egypt-1517-1798::k1'],             // the Ottoman conquest -> "Selim I conquers Egypt," the same campaign's next stage
   ['mamluk-syria-1260-1516::p4', 'egypt-1517-1798::c1'],             // the Ottoman conquest -> "Marj Dabiq and al-Raydaniyya"
   ['mamluk-syria-1260-1516::c4', 'egypt-1517-1798::c1'],             // the Battle of Marj Dabiq -> same combined entry
+  // ── ottoman-syria-1516-1800 (Levant program, Phase 7) — rejected generic "Ottoman" dynasty-name
+  // fan-out to other regions' own, unrelated Ottoman-era conquest narratives (Hejaz, Iraq, Najd,
+  // the Portuguese Gulf, Yemen), and a 3000-year-off "Dynasty" collision.
+  ['ottoman-syria-1516-1800::p1', 'egypt-1517-1798::k1'],           // the Ottoman conquest completes -> "Selim I conquers Egypt," same campaign continuum
+  ['ottoman-syria-1516-1800::p1', 'mamluk-syria-1260-1516::p4'],    // the Ottoman conquest completes -> Baibars/Marj Dabiq entry, same campaign
+  ['ottoman-syria-1516-1800::p1', 'mamluks-1250-1517::c11'],        // the Ottoman conquest completes -> "Marj Dabiq," Mamluk folio's own entry
+  ['ottoman-syria-1516-1800::p1', 'mamluks-1250-1517::w6'],         // the Ottoman conquest completes -> "the end of medieval Egypt," same campaign
+  ['ottoman-syria-1516-1800::p4', 'egypt-1517-1798::c5'],           // Zahir al-Umar's power base -> "Ali Bey's Syrian campaign," which allied with him
+  ['ottoman-syria-1516-1800::p4', 'egypt-1517-1798::k9'],           // Zahir al-Umar's power base -> "Abu al-Dhahab's betrayal," which named him too
+  ['ottoman-syria-1516-1800::ec1', 'nw-arabia-632-1517::k5'],       // the Damascus Hajj caravan -> "the overlords of the Hajj roads," the same roads' earlier overlords
+  ['ottoman-syria-1516-1800::w1', 'iraq-1534-1831::k3'],            // empire-wide decentralisation -> "the localised garrison and the drift from Istanbul," the same pattern in Iraq
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

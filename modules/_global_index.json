@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 7008,
     "folio_count": 141,
-    "xlink_pairs": 1360,
+    "xlink_pairs": 1368,
     "keyword_terms": 10581,
     "folios": [
       {
@@ -10039,18 +10039,26 @@
     ],
     "egypt-1517-1798::k1": [
       "mamluk-syria-1260-1516::p4",
-      "mamluks-1250-1517::k14"
+      "mamluks-1250-1517::k14",
+      "ottoman-syria-1516-1800::p1"
     ],
     "mamluk-syria-1260-1516::p4": [
       "egypt-1517-1798::k1",
       "egypt-1517-1798::c1",
       "mamluks-1250-1517::k14",
-      "mamluks-1250-1517::w6"
+      "mamluks-1250-1517::w6",
+      "ottoman-syria-1516-1800::p1"
     ],
     "mamluks-1250-1517::k14": [
       "egypt-1517-1798::k1",
       "iraq-1258-1534::k7",
       "mamluk-syria-1260-1516::p4"
+    ],
+    "ottoman-syria-1516-1800::p1": [
+      "egypt-1517-1798::k1",
+      "mamluk-syria-1260-1516::p4",
+      "mamluks-1250-1517::c11",
+      "mamluks-1250-1517::w6"
     ],
     "egypt-1517-1798::k3": [
       "iraq-1534-1831::k1"
@@ -10079,6 +10087,13 @@
     "iraq-1534-1831::k6": [
       "egypt-1517-1798::k8"
     ],
+    "egypt-1517-1798::k9": [
+      "ottoman-syria-1516-1800::p4"
+    ],
+    "ottoman-syria-1516-1800::p4": [
+      "egypt-1517-1798::k9",
+      "egypt-1517-1798::c5"
+    ],
     "egypt-1517-1798::k10": [
       "egypt-1798-1900::k1"
     ],
@@ -10105,13 +10120,17 @@
     ],
     "mamluks-1250-1517::c11": [
       "egypt-1517-1798::c1",
-      "mamluk-syria-1260-1516::c4"
+      "mamluk-syria-1260-1516::c4",
+      "ottoman-syria-1516-1800::p1"
     ],
     "egypt-1517-1798::c4": [
       "iraq-1534-1831::c3"
     ],
     "iraq-1534-1831::c3": [
       "egypt-1517-1798::c4"
+    ],
+    "egypt-1517-1798::c5": [
+      "ottoman-syria-1516-1800::p4"
     ],
     "egypt-1517-1798::c8": [
       "egypt-1798-1900::c1"
@@ -12243,6 +12262,12 @@
       "iraq-1258-1534::w4",
       "iraq-1831-1914::o4"
     ],
+    "iraq-1534-1831::k3": [
+      "ottoman-syria-1516-1800::w1"
+    ],
+    "ottoman-syria-1516-1800::w1": [
+      "iraq-1534-1831::k3"
+    ],
     "iraq-1831-1914::k5": [
       "iraq-1534-1831::k8"
     ],
@@ -13012,7 +13037,8 @@
       "mamluk-syria-1260-1516::p2"
     ],
     "mamluks-1250-1517::w6": [
-      "mamluk-syria-1260-1516::p4"
+      "mamluk-syria-1260-1516::p4",
+      "ottoman-syria-1516-1800::p1"
     ],
     "mamluk-syria-1260-1516::c2": [
       "mamluks-1250-1517::c2"
@@ -13587,6 +13613,12 @@
     ],
     "nw-arabia-106-632::w3": [
       "nw-arabia-632-1517::k1"
+    ],
+    "nw-arabia-632-1517::k5": [
+      "ottoman-syria-1516-1800::ec1"
+    ],
+    "ottoman-syria-1516-1800::ec1": [
+      "nw-arabia-632-1517::k5"
     ],
     "nw-arabia-632-1517::c1": [
       "nw-arabia-106-632::lv1"

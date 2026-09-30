@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-29",
-    "figure_matches": 1639,
+    "figure_matches": 1648,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 2029,
+    "figure_matches_rejected_date_implausible": 2049,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4852,
+    "keyword_matches": 4858,
     "keyword_matches_rejected_geo_only": 9268,
-    "high_confidence": 1672,
+    "high_confidence": 1681,
     "medium_confidence": 367,
-    "low_confidence": 4452
+    "low_confidence": 4458
   },
   "figure_name_matches": [
     {
@@ -3311,6 +3311,28 @@
       },
       "xlink_a": "babylon-2004bc-1595bc::k7",
       "xlink_b": "mesopotamia-2334bc-2004bc::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Dynasty",
+      "pivot": {
+        "folio": "babylon-2004bc-1595bc",
+        "id": "k7",
+        "cat": "power",
+        "label": "The First Dynasty builds Babylon",
+        "dynasty": "First Dynasty of Babylon",
+        "decade": "1790s BC–1890s"
+      },
+      "match": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p3",
+        "cat": "power",
+        "label": "The Shihabi Dynasty Succeeds the Ma'nids",
+        "decade": "1690s"
+      },
+      "xlink_a": "babylon-2004bc-1595bc::k7",
+      "xlink_b": "ottoman-syria-1516-1800::p3"
     },
     {
       "confidence": "high",
@@ -14721,6 +14743,28 @@
         "decade": "1510s"
       },
       "match": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "xlink_a": "hejaz-1517-1900::k1",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "hejaz-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman guardianship begins",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
         "folio": "portuguese-gulf-1507-1650",
         "id": "o3",
         "cat": "order",
@@ -17251,6 +17295,28 @@
         "decade": "1530s–1620s"
       },
       "match": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "xlink_a": "iraq-1534-1831::k1",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "iraq-1534-1831",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman settlement of the three provinces",
+        "dynasty": "Ottoman",
+        "decade": "1530s–1620s"
+      },
+      "match": {
         "folio": "portuguese-gulf-1507-1650",
         "id": "o3",
         "cat": "order",
@@ -17501,6 +17567,28 @@
       },
       "xlink_a": "iraq-1534-1831::k3",
       "xlink_b": "hejaz-1517-1900::x1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Istanbul",
+      "pivot": {
+        "folio": "iraq-1534-1831",
+        "id": "k3",
+        "cat": "power",
+        "label": "The localised garrison and the drift from Istanbul",
+        "dynasty": "Ottoman",
+        "decade": "1630s–1700s"
+      },
+      "match": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "o1",
+        "cat": "order",
+        "label": "Provinces Governed from Istanbul",
+        "decade": "1510s–1800s"
+      },
+      "xlink_a": "iraq-1534-1831::k3",
+      "xlink_b": "ottoman-syria-1516-1800::o1"
     },
     {
       "confidence": "high",
@@ -20771,6 +20859,28 @@
         "decade": "1510s"
       },
       "match": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "dynasty": "Ottoman",
+        "decade": "1510s"
+      },
+      "match": {
         "folio": "portuguese-gulf-1507-1650",
         "id": "o3",
         "cat": "order",
@@ -23279,6 +23389,28 @@
         "decade": "1510s–1740s"
       },
       "match": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "xlink_a": "najd-1517-1744::k5",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "najd-1517-1744",
+        "id": "k5",
+        "cat": "power",
+        "label": "The Ottoman and Sharifian fringe",
+        "dynasty": null,
+        "decade": "1510s–1740s"
+      },
+      "match": {
         "folio": "portuguese-gulf-1507-1650",
         "id": "o3",
         "cat": "order",
@@ -25179,6 +25311,28 @@
       },
       "xlink_a": "nw-arabia-632-1517::k5",
       "xlink_b": "najd-632-1517::tc2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Hajj",
+      "pivot": {
+        "folio": "nw-arabia-632-1517",
+        "id": "k5",
+        "cat": "power",
+        "label": "The overlords of the Hajj roads",
+        "dynasty": "Mamluk",
+        "decade": "630s–1510s"
+      },
+      "match": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "The Damascus Hajj Caravan",
+        "decade": "1510s–1800s"
+      },
+      "xlink_a": "nw-arabia-632-1517::k5",
+      "xlink_b": "ottoman-syria-1516-1800::ec1"
     },
     {
       "confidence": "high",
@@ -28545,6 +28699,28 @@
       },
       "xlink_a": "portuguese-gulf-1507-1650::o3",
       "xlink_b": "nw-arabia-632-1517::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Ottoman defters of Lahsa",
+        "dynasty": "Ottoman",
+        "decade": "1550s–1600s"
+      },
+      "match": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "xlink_a": "portuguese-gulf-1507-1650::o3",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
     },
     {
       "confidence": "high",
@@ -35079,6 +35255,28 @@
       },
       "xlink_a": "yemen-1517-1900::k1",
       "xlink_b": "nw-arabia-632-1517::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Ottoman conquest of Yemen",
+        "dynasty": "Ottoman",
+        "decade": "1530s"
+      },
+      "match": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "xlink_a": "yemen-1517-1900::k1",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
     },
     {
       "confidence": "high",
@@ -62550,6 +62748,32 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-945-1258::lv2",
       "xlink_b": "najd-632-1517::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Damascus",
+        "Zahir al-Umar"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Ali Bey's Syrian campaign",
+        "decade": "1770s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "o1",
+        "cat": "order",
+        "label": "Provinces Governed from Istanbul",
+        "decade": "1510s–1800s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::c5",
+      "xlink_b": "ottoman-syria-1516-1800::o1"
     },
     {
       "confidence": "low",
@@ -106100,6 +106324,32 @@
       "date_flag": "overlapping",
       "xlink_a": "caliphate-945-1258::w3",
       "xlink_b": "iraq-945-1258::xc2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Acre",
+        "Zahir al-Umar"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k9",
+        "cat": "power",
+        "label": "Abu al-Dhahab's betrayal",
+        "decade": "1770s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Coastal Fortifications Tested by Modern Artillery",
+        "decade": "1790s"
+      },
+      "date_flag": "24yr gap",
+      "xlink_a": "egypt-1517-1798::k9",
+      "xlink_b": "ottoman-syria-1516-1800::tc1"
     },
     {
       "confidence": "low",
@@ -152130,6 +152380,32 @@
       ],
       "sharedCount": 2,
       "a": {
+        "folio": "egypt-1517-1798",
+        "id": "k1",
+        "cat": "power",
+        "label": "Selim I conquers Egypt",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1517-1798::k1",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Selim I"
+      ],
+      "sharedCount": 2,
+      "a": {
         "folio": "mamluk-syria-1260-1516",
         "id": "p4",
         "cat": "power",
@@ -152146,6 +152422,84 @@
       "date_flag": "overlapping",
       "xlink_a": "mamluk-syria-1260-1516::p4",
       "xlink_b": "mamluks-1250-1517::c11"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Selim I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluk-syria-1260-1516",
+        "id": "p4",
+        "cat": "power",
+        "label": "The Ottoman Conquest Ends Mamluk Syria",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluk-syria-1260-1516::p4",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Selim I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluks-1250-1517",
+        "id": "c11",
+        "cat": "conflict",
+        "label": "Marj Dabiq",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluks-1250-1517::c11",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Marj Dabiq",
+        "Selim I"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "mamluks-1250-1517",
+        "id": "w6",
+        "cat": "world",
+        "label": "The Ottoman conquest and the end of medieval Egypt",
+        "decade": "1510s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1516-1800",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Ottoman Conquest Completes",
+        "decade": "1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "mamluks-1250-1517::w6",
+      "xlink_b": "ottoman-syria-1516-1800::p1"
     },
     {
       "confidence": "low",
