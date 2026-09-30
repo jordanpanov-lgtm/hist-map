@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-30",
-    "figure_matches": 1668,
-    "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 2102,
+    "figure_matches": 1669,
+    "figure_matches_rejected_dynasty_mismatch": 1309,
+    "figure_matches_rejected_date_implausible": 2111,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4870,
+    "keyword_matches": 4871,
     "keyword_matches_rejected_geo_only": 9276,
-    "high_confidence": 1701,
+    "high_confidence": 1702,
     "medium_confidence": 369,
-    "low_confidence": 4468
+    "low_confidence": 4469
   },
   "figure_name_matches": [
     {
@@ -25861,6 +25861,28 @@
       },
       "xlink_a": "oman-1970-today::b2",
       "xlink_b": "pahlavi-1925-1979::b2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Religious",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
+        "folio": "syria-1946-today",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Religious and Ethnic Pluralism under Strain",
+        "decade": "1940s–2020s"
+      },
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "syria-1946-today::b1"
     },
     {
       "confidence": "high",
@@ -135964,6 +135986,32 @@
       "date_flag": "409yr gap — verify same entity, not just shared theme",
       "xlink_a": "sassanid-224-484::w1",
       "xlink_b": "sassanid-484-651::w2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Beirut",
+        "National Pact"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "lebanon-1943-today",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Civil War's Outbreak",
+        "decade": "1970s"
+      },
+      "b": {
+        "folio": "mandate-syria-lebanon-1920-1946",
+        "id": "p5",
+        "cat": "power",
+        "label": "Lebanon's Independence and the National Pact",
+        "decade": "1940s"
+      },
+      "date_flag": "32yr gap",
+      "xlink_a": "lebanon-1943-today::c1",
+      "xlink_b": "mandate-syria-lebanon-1920-1946::p5"
     },
     {
       "confidence": "low",

@@ -1354,6 +1354,10 @@ const SELECTED_PAIRS = [
   ['mandate-palestine-transjordan-1920-1948::o1', 'iraq-1914-1958::k1'],      // the Mandate's structural tension -> same San Remo Conference entry
   ['mandate-palestine-transjordan-1920-1948::p1', 'hejaz-1900-1925::t2'],     // the Mandate incorporates Balfour's language -> "Sykes-Picot and the Balfour Declaration"
   ['mandate-palestine-transjordan-1920-1948::p1', 'levant-1908-1920::o3'],    // the Mandate incorporates Balfour's language -> the Balfour Declaration's own earlier entry
+  // ── lebanon-1943-today (Levant program, Phase 9) — the pipeline proposed c1 (1975 war outbreak)
+  // against the same target on a weak "National Pact" keyword match, but the precise match is my
+  // own p1, which explicitly discusses continuity from the same 1943 National Pact founding.
+  ['lebanon-1943-today::p1', 'mandate-syria-lebanon-1920-1946::p5'],   // the National Pact's system in practice -> the same Pact's 1943 founding entry
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
