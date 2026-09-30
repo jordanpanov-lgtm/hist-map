@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-30",
-    "figure_matches": 1669,
-    "figure_matches_rejected_dynasty_mismatch": 1309,
-    "figure_matches_rejected_date_implausible": 2111,
-    "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4871,
-    "keyword_matches_rejected_geo_only": 9276,
-    "high_confidence": 1702,
+    "figure_matches": 1673,
+    "figure_matches_rejected_dynasty_mismatch": 1312,
+    "figure_matches_rejected_date_implausible": 2116,
+    "dynasty_alignment_proposals_count": 139,
+    "keyword_matches": 4882,
+    "keyword_matches_rejected_geo_only": 9277,
+    "high_confidence": 1706,
     "medium_confidence": 369,
-    "low_confidence": 4469
+    "low_confidence": 4480
   },
   "figure_name_matches": [
     {
@@ -15393,6 +15393,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Hussein",
+      "pivot": {
+        "folio": "hejaz-1900-1925",
+        "id": "k4",
+        "cat": "power",
+        "label": "King Hussein isolated",
+        "dynasty": "Hashemite",
+        "decade": "1910s"
+      },
+      "match": {
+        "folio": "jordan-1946-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "King Hussein's Long Reign",
+        "decade": "1950s–1990s"
+      },
+      "xlink_a": "hejaz-1900-1925::k4",
+      "xlink_b": "jordan-1946-today::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Saudi",
       "pivot": {
         "folio": "hejaz-1900-1925",
@@ -18447,6 +18469,28 @@
       },
       "xlink_a": "iraq-1979-2003::k7",
       "xlink_b": "iraq-2003-today::xc5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Washington",
+      "pivot": {
+        "folio": "iraq-1979-2003",
+        "id": "k8",
+        "cat": "power",
+        "label": "The exiles and the road to Washington",
+        "dynasty": "—",
+        "decade": "1990s"
+      },
+      "match": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "xlink_a": "iraq-1979-2003::k8",
+      "xlink_b": "jordan-1946-today::x1"
     },
     {
       "confidence": "high",
@@ -26015,6 +26059,50 @@
       },
       "xlink_a": "oman-1970-today::ec4",
       "xlink_b": "mandate-syria-lebanon-1920-1946::tc1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "West",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "The quiet partnership with the West",
+        "dynasty": "Al Bu Said",
+        "decade": "1980s–2020s"
+      },
+      "match": {
+        "folio": "jordan-1946-today",
+        "id": "p1",
+        "cat": "power",
+        "label": "The West Bank Annexation and Abdullah I's Assassination",
+        "decade": "1950s"
+      },
+      "xlink_a": "oman-1970-today::x3",
+      "xlink_b": "jordan-1946-today::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "West",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "The quiet partnership with the West",
+        "dynasty": "Al Bu Said",
+        "decade": "1980s–2020s"
+      },
+      "match": {
+        "folio": "jordan-1946-today",
+        "id": "p3",
+        "cat": "power",
+        "label": "The 1988 Disengagement from the West Bank",
+        "decade": "1980s"
+      },
+      "xlink_a": "oman-1970-today::x3",
+      "xlink_b": "jordan-1946-today::p3"
     },
     {
       "confidence": "high",
@@ -39037,10 +39125,44 @@
         "decade": "1990s"
       },
       "entry_b": {
+        "folio": "jordan-1946-today",
+        "id": "p5",
+        "label": "King Abdullah II's Succession and Reforms",
+        "dynasty": "Hashemite",
+        "decade": "1990s"
+      }
+    },
+    {
+      "name": "Abdullah",
+      "entry_a": {
+        "folio": "saudi-1902-today",
+        "id": "k6",
+        "label": "King Abdullah",
+        "dynasty": "Āl Saʿūd",
+        "decade": "1990s"
+      },
+      "entry_b": {
         "folio": "yemen-1900-today",
         "id": "k8",
         "label": "President Ali Abdullah Saleh, unified Yemen",
         "dynasty": "GPC",
+        "decade": "1990s"
+      }
+    },
+    {
+      "name": "Succession",
+      "entry_a": {
+        "folio": "uae-1971-today",
+        "id": "k8",
+        "label": "Succession disputes within the emirates",
+        "dynasty": "Al Qasimi",
+        "decade": "1980s"
+      },
+      "entry_b": {
+        "folio": "jordan-1946-today",
+        "id": "p5",
+        "label": "King Abdullah II's Succession and Reforms",
+        "dynasty": "Hashemite",
         "decade": "1990s"
       }
     },
@@ -84939,6 +85061,32 @@
         "decade": "2020s"
       },
       "b": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "bahrain-1971-today::x4",
+      "xlink_b": "jordan-1946-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Saudi Arabia",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "bahrain-1971-today",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The Abraham Accords",
+        "decade": "2020s"
+      },
+      "b": {
         "folio": "saudi-1902-today",
         "id": "x5",
         "cat": "exchange",
@@ -88536,6 +88684,32 @@
       "date_flag": "overlapping",
       "xlink_a": "egypt-1952-today::xc4",
       "xlink_b": "yemen-1900-today::ec1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Saudi Arabia",
+        "United States"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1952-today",
+        "id": "w4",
+        "cat": "world",
+        "label": "The Egyptian diaspora",
+        "decade": "1960s"
+      },
+      "b": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1952-today::w4",
+      "xlink_b": "jordan-1946-today::x1"
     },
     {
       "confidence": "low",
@@ -94386,6 +94560,58 @@
       "date_flag": "overlapping",
       "xlink_a": "hejaz-prehistory-8000bc-1200bc::k6",
       "xlink_b": "nw-arabia-632-1517::tc2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Saudi Arabia",
+        "United States"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "b": {
+        "folio": "pahlavi-1925-1979",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Cold War Alignment with the United States",
+        "decade": "1950s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "jordan-1946-today::x1",
+      "xlink_b": "pahlavi-1925-1979::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Saudi Arabia",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "b": {
+        "folio": "saudi-1902-today",
+        "id": "x5",
+        "cat": "exchange",
+        "label": "The Gulf War and its blowback",
+        "decade": "1990s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "jordan-1946-today::x1",
+      "xlink_b": "saudi-1902-today::x5"
     },
     {
       "confidence": "low",
@@ -134703,6 +134929,32 @@
         "decade": "1970s"
       },
       "b": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "bahrain-1971-today::x2",
+      "xlink_b": "jordan-1946-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "bahrain-1971-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Bahrain and the United States",
+        "decade": "1970s"
+      },
+      "b": {
         "folio": "kuwait-1961-today",
         "id": "x1",
         "cat": "exchange",
@@ -134781,6 +135033,32 @@
         "decade": "2010s"
       },
       "b": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "iran-1979-today::x2",
+      "xlink_b": "jordan-1946-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "iran-1979-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The US Withdrawal from the Nuclear Deal",
+        "decade": "2010s"
+      },
+      "b": {
         "folio": "qatar-1971-today",
         "id": "x1",
         "cat": "exchange",
@@ -134790,6 +135068,32 @@
       "date_flag": "15yr gap",
       "xlink_a": "iran-1979-today::x2",
       "xlink_b": "qatar-1971-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "iraq-1979-2003",
+        "id": "k8",
+        "cat": "power",
+        "label": "The exiles and the road to Washington",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "iraq-1979-2003::k8",
+      "xlink_b": "jordan-1946-today::x1"
     },
     {
       "confidence": "low",
@@ -134841,6 +135145,58 @@
       },
       "date_flag": "overlapping",
       "xlink_a": "iraq-1979-2003::k8",
+      "xlink_b": "qatar-1971-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "b": {
+        "folio": "kuwait-1961-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Kuwait and the United States",
+        "decade": "1980s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "jordan-1946-today::x1",
+      "xlink_b": "kuwait-1961-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "b": {
+        "folio": "qatar-1971-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Qatar and the United States",
+        "decade": "2000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "jordan-1946-today::x1",
       "xlink_b": "qatar-1971-today::x1"
     },
     {
@@ -160483,6 +160839,58 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Amman",
+        "Hashemite"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "k6",
+        "cat": "power",
+        "label": "The Hashemite thrones abroad",
+        "decade": "1920s"
+      },
+      "b": {
+        "folio": "jordan-1946-today",
+        "id": "p2",
+        "cat": "power",
+        "label": "King Hussein's Long Reign",
+        "decade": "1950s–1990s"
+      },
+      "date_flag": "28yr gap",
+      "xlink_a": "hejaz-1900-1925::k6",
+      "xlink_b": "jordan-1946-today::p2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Amman",
+        "Hashemite"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "k6",
+        "cat": "power",
+        "label": "The Hashemite thrones abroad",
+        "decade": "1920s"
+      },
+      "b": {
+        "folio": "jordan-1946-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "King Abdullah II's Succession and Reforms",
+        "decade": "1990s"
+      },
+      "date_flag": "74yr gap — verify same entity, not just shared theme",
+      "xlink_a": "hejaz-1900-1925::k6",
+      "xlink_b": "jordan-1946-today::p5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Abikarib Asʿad",
         "Zafar"
       ],
@@ -164253,6 +164661,58 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Najdi",
+        "Well"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "najd-1517-1744",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Well irrigation at its limit",
+        "decade": "1510s–1740s"
+      },
+      "b": {
+        "folio": "najd-632-1517",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Well and saniya irrigation",
+        "decade": "700s–1510s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "najd-1517-1744::tc1",
+      "xlink_b": "najd-632-1517::tc1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Generation",
+        "Salamanca Unamuno"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "spain-1808-1900",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Generation of '98 — the intellectual response to disaster",
+        "decade": "1890s"
+      },
+      "b": {
+        "folio": "spain-1900-1975",
+        "id": "a2",
+        "cat": "expression",
+        "label": "Unamuno, Machado, Valle-Inclán — the Generation of '98 in full flower",
+        "decade": "1900s–1930s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "spain-1808-1900::t2",
+      "xlink_b": "spain-1900-1975::a2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Seleucia-Ctesiphon",
         "Synod of Isaac"
       ],
@@ -165371,32 +165831,6 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
-        "Najdi",
-        "Well"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "najd-1517-1744",
-        "id": "tc1",
-        "cat": "technology",
-        "label": "Well irrigation at its limit",
-        "decade": "1510s–1740s"
-      },
-      "b": {
-        "folio": "najd-632-1517",
-        "id": "tc1",
-        "cat": "technology",
-        "label": "Well and saniya irrigation",
-        "decade": "700s–1510s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "najd-1517-1744::tc1",
-      "xlink_b": "najd-632-1517::tc1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
         "al-Aflaj",
         "al-Kharj"
       ],
@@ -165938,32 +166372,6 @@
       "date_flag": "overlapping",
       "xlink_a": "spain-1808-1900::w3",
       "xlink_b": "spain-1900-1975::s1"
-    },
-    {
-      "confidence": "low",
-      "type": "keyword-overlap",
-      "sharedTerms": [
-        "Generation",
-        "Salamanca Unamuno"
-      ],
-      "sharedCount": 2,
-      "a": {
-        "folio": "spain-1808-1900",
-        "id": "t2",
-        "cat": "thought",
-        "label": "Generation of '98 — the intellectual response to disaster",
-        "decade": "1890s"
-      },
-      "b": {
-        "folio": "spain-1900-1975",
-        "id": "a2",
-        "cat": "expression",
-        "label": "Unamuno, Machado, Valle-Inclán — the Generation of '98 in full flower",
-        "decade": "1900s–1930s"
-      },
-      "date_flag": "overlapping",
-      "xlink_a": "spain-1808-1900::t2",
-      "xlink_b": "spain-1900-1975::a2"
     },
     {
       "confidence": "low",

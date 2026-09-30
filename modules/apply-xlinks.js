@@ -1358,6 +1358,12 @@ const SELECTED_PAIRS = [
   // against the same target on a weak "National Pact" keyword match, but the precise match is my
   // own p1, which explicitly discusses continuity from the same 1943 National Pact founding.
   ['lebanon-1943-today::p1', 'mandate-syria-lebanon-1920-1946::p5'],   // the National Pact's system in practice -> the same Pact's 1943 founding entry
+  // ── jordan-1946-today (Levant program, Phase 9) — rejected a "Hussein" namesake collision
+  // (Sharif Hussein bin Ali of the Hejaz, an earlier generation, not King Hussein of Jordan), a
+  // generic "West" collision, and 9 generic "United States"/"Washington"/"Saudi Arabia" matches to
+  // unrelated Gulf states' own separate US-relationship entries. The one genuine find was better
+  // matched to an earlier folio than to this one directly:
+  ['mandate-palestine-transjordan-1920-1948::p2', 'hejaz-1900-1925::k6'],   // Transjordan separated under Abdullah I -> "the Hashemite thrones abroad," the same 1921 founding
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
