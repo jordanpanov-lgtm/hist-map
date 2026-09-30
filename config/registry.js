@@ -67,6 +67,7 @@ const MODULES = [
   { id:"levant-1908-1920", file:"modules/levant-1908-1920.json", label:"The Levant's Ottoman Collapse 1908–1920 AD", sub:"The Young Turk Era, the Arab Revolt, and Contradictory Wartime Promises", region:"Levant", period:"Modern" },
   // Phase 8 — Mandate
   { id:"mandate-syria-lebanon-1920-1946", file:"modules/mandate-syria-lebanon-1920-1946.json", label:"The French Mandate 1920–1946 AD", sub:"Syria and Lebanon under French Rule", region:"Levant", period:"Modern" },
+  { id:"mandate-palestine-transjordan-1920-1948", file:"modules/mandate-palestine-transjordan-1920-1948.json", label:"The British Mandate 1920–1948 AD", sub:"Palestine and Transjordan under British Rule", region:"Levant", period:"Modern" },
   { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
   { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
   { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
