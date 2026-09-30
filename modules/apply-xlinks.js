@@ -1332,6 +1332,15 @@ const SELECTED_PAIRS = [
   ['ottoman-syria-1800-1908::tc1', 'hejaz-1900-1925::o1'],          // the Hejaz Railway -> "the Hejaz Railway administration"
   ['ottoman-syria-1800-1908::tc1', 'hejaz-1900-1925::ex1'],         // the Hejaz Railway -> "the Hejaz Railway as monument"
   ['ottoman-syria-1800-1908::p5', 'hejaz-1517-1900::tc3'],          // Abdul Hamid's centralisation and the railway -> the same construction start
+  // ── levant-1908-1920 (Levant program, Phase 7 complete) — rejected a "Faisal" namesake collision
+  // (King Faisal of Saudi Arabia, 1964-1975, an entirely different person from Sharif Hussein's son
+  // Faisal I) and generic "Ottoman"/"Istanbul" word-fan-out to Yemen's own, unrelated Ottoman-era
+  // reoccupation narrative.
+  ['levant-1908-1920::p3', 'hejaz-1900-1925::k3'],   // the Arab Revolt begins -> "the Revolt and Hussein's sons," same figures
+  ['levant-1908-1920::c1', 'hejaz-1900-1925::k3'],   // the Battle of Aqaba -> same entry, which names this campaign directly
+  ['levant-1908-1920::c3', 'hejaz-1900-1925::k3'],   // the capture of Damascus -> same entry's northern campaign
+  ['levant-1908-1920::o2', 'hejaz-1900-1925::t2'],   // the Sykes-Picot Agreement -> "Sykes-Picot and the Balfour Declaration," combined entry
+  ['levant-1908-1920::o3', 'hejaz-1900-1925::t2'],   // the Balfour Declaration -> same combined entry
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

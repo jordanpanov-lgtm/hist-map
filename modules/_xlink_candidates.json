@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-30",
-    "figure_matches": 1652,
+    "figure_matches": 1656,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 2059,
+    "figure_matches_rejected_date_implausible": 2083,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4866,
+    "keyword_matches": 4868,
     "keyword_matches_rejected_geo_only": 9276,
-    "high_confidence": 1685,
+    "high_confidence": 1689,
     "medium_confidence": 369,
-    "low_confidence": 4464
+    "low_confidence": 4466
   },
   "figure_name_matches": [
     {
@@ -15191,6 +15191,28 @@
       },
       "xlink_a": "hejaz-1900-1925::k3",
       "xlink_b": "iraq-1914-1958::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Revolt",
+      "pivot": {
+        "folio": "hejaz-1900-1925",
+        "id": "k3",
+        "cat": "power",
+        "label": "The Revolt and Hussein's sons",
+        "dynasty": "Hashemite",
+        "decade": "1910s"
+      },
+      "match": {
+        "folio": "levant-1908-1920",
+        "id": "p3",
+        "cat": "power",
+        "label": "The Arab Revolt Begins",
+        "decade": "1910s"
+      },
+      "xlink_a": "hejaz-1900-1925::k3",
+      "xlink_b": "levant-1908-1920::p3"
     },
     {
       "confidence": "high",
@@ -31365,6 +31387,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Faisal",
+      "pivot": {
+        "folio": "saudi-1902-today",
+        "id": "k3",
+        "cat": "power",
+        "label": "King Faisal",
+        "dynasty": "Āl Saʿūd",
+        "decade": "1960s"
+      },
+      "match": {
+        "folio": "levant-1908-1920",
+        "id": "p5",
+        "cat": "power",
+        "label": "Faisal's Arab Kingdom of Syria",
+        "decade": "1910s"
+      },
+      "xlink_a": "saudi-1902-today::k3",
+      "xlink_b": "levant-1908-1920::p5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Saba",
       "pivot": {
         "folio": "south-arabia-1200bc-300bc",
@@ -35871,6 +35915,50 @@
       },
       "xlink_a": "yemen-1517-1900::k11",
       "xlink_b": "iraq-1831-1914::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k11",
+        "cat": "power",
+        "label": "The Ottoman return",
+        "dynasty": "Ottoman",
+        "decade": "1840s"
+      },
+      "match": {
+        "folio": "levant-1908-1920",
+        "id": "p2",
+        "cat": "power",
+        "label": "Ottoman Entry into World War I",
+        "decade": "1910s"
+      },
+      "xlink_a": "yemen-1517-1900::k11",
+      "xlink_b": "levant-1908-1920::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ottoman",
+      "pivot": {
+        "folio": "yemen-1517-1900",
+        "id": "k11",
+        "cat": "power",
+        "label": "The Ottoman return",
+        "dynasty": "Ottoman",
+        "decade": "1840s"
+      },
+      "match": {
+        "folio": "levant-1908-1920",
+        "id": "w1",
+        "cat": "world",
+        "label": "One Ottoman Territory Becomes Contested Ground",
+        "decade": "1910s"
+      },
+      "xlink_a": "yemen-1517-1900::k11",
+      "xlink_b": "levant-1908-1920::w1"
     },
     {
       "confidence": "high",
@@ -59411,6 +59499,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Balfour Declaration",
+        "London"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Sykes–Picot and the Balfour Declaration",
+        "decade": "1910s"
+      },
+      "b": {
+        "folio": "levant-1908-1920",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Balfour Declaration",
+        "decade": "1910s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-1900-1925::t2",
+      "xlink_b": "levant-1908-1920::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "European",
         "London"
       ],
@@ -80674,6 +80788,32 @@
       "date_flag": "overlapping",
       "xlink_a": "al-andalus-1031-1492::s3",
       "xlink_b": "spain-718-1230::e_s2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Istanbul",
+        "Ottoman Empire"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "levant-1908-1920",
+        "id": "p2",
+        "cat": "power",
+        "label": "Ottoman Entry into World War I",
+        "decade": "1910s"
+      },
+      "b": {
+        "folio": "yemen-1517-1900",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Yemen and the Ottoman Empire",
+        "decade": "1530s–1900s"
+      },
+      "date_flag": "14yr gap",
+      "xlink_a": "levant-1908-1920::p2",
+      "xlink_b": "yemen-1517-1900::x1"
     },
     {
       "confidence": "low",
