@@ -1322,6 +1322,16 @@ const SELECTED_PAIRS = [
   ['ottoman-syria-1516-1800::p4', 'egypt-1517-1798::k9'],           // Zahir al-Umar's power base -> "Abu al-Dhahab's betrayal," which named him too
   ['ottoman-syria-1516-1800::ec1', 'nw-arabia-632-1517::k5'],       // the Damascus Hajj caravan -> "the overlords of the Hajj roads," the same roads' earlier overlords
   ['ottoman-syria-1516-1800::w1', 'iraq-1534-1831::k3'],            // empire-wide decentralisation -> "the localised garrison and the drift from Istanbul," the same pattern in Iraq
+  // ── ottoman-syria-1800-1908 (Levant program, Phase 7 complete) — rejected a "Hejaz" match to a
+  // later, different-era Kingdom-of-Hejaz governance entry, a "war of the railway" WWI-era conflict
+  // entry outside this folio's 1908 cutoff, and a "Local" generic-word collision 2000+ years off.
+  ['ottoman-syria-1800-1908::p1', 'egypt-1798-1900::k3'],           // Ibrahim Pasha's occupation -> Egypt's own entry on him
+  ['ottoman-syria-1800-1908::p4', 'iraq-1831-1914::k2'],            // Midhat Pasha's governorship -> Iraq's own entry on him (he also governed Baghdad)
+  ['ottoman-syria-1800-1908::tc1', 'hejaz-1517-1900::tc3'],         // the Hejaz Railway -> "the Hejaz Railway begins," the same construction start
+  ['ottoman-syria-1800-1908::tc1', 'hejaz-1900-1925::tc1'],         // the Hejaz Railway -> the Hejaz folio's own dedicated railway entry
+  ['ottoman-syria-1800-1908::tc1', 'hejaz-1900-1925::o1'],          // the Hejaz Railway -> "the Hejaz Railway administration"
+  ['ottoman-syria-1800-1908::tc1', 'hejaz-1900-1925::ex1'],         // the Hejaz Railway -> "the Hejaz Railway as monument"
+  ['ottoman-syria-1800-1908::p5', 'hejaz-1517-1900::tc3'],          // Abdul Hamid's centralisation and the railway -> the same construction start
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

@@ -1,15 +1,15 @@
 {
   "_meta": {
-    "generated": "2026-09-29",
-    "figure_matches": 1648,
+    "generated": "2026-09-30",
+    "figure_matches": 1652,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 2049,
+    "figure_matches_rejected_date_implausible": 2059,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4858,
-    "keyword_matches_rejected_geo_only": 9268,
-    "high_confidence": 1681,
-    "medium_confidence": 367,
-    "low_confidence": 4458
+    "keyword_matches": 4866,
+    "keyword_matches_rejected_geo_only": 9276,
+    "high_confidence": 1685,
+    "medium_confidence": 369,
+    "low_confidence": 4464
   },
   "figure_name_matches": [
     {
@@ -11213,6 +11213,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Ibrahim Pasha",
+      "pivot": {
+        "folio": "egypt-1798-1900",
+        "id": "k3",
+        "cat": "power",
+        "label": "Ibrahim Pasha, the general",
+        "dynasty": "Muhammad Ali dynasty",
+        "decade": "1810s–1840s"
+      },
+      "match": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "p1",
+        "cat": "power",
+        "label": "Ibrahim Pasha's Egyptian Occupation",
+        "decade": "1830s"
+      },
+      "xlink_a": "egypt-1798-1900::k3",
+      "xlink_b": "ottoman-syria-1800-1908::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Abbas II Hilmi",
       "pivot": {
         "folio": "egypt-1798-1900",
@@ -15505,6 +15527,28 @@
       "type": "figure-name",
       "name": "Hejaz",
       "pivot": {
+        "folio": "hejaz-1900-1925",
+        "id": "k7",
+        "cat": "power",
+        "label": "The government of the Kingdom of the Hejaz",
+        "dynasty": "government",
+        "decade": "1910s"
+      },
+      "match": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "p5",
+        "cat": "power",
+        "label": "Abdul Hamid II's Centralisation and the Hejaz Railway",
+        "decade": "1870s–1900s"
+      },
+      "xlink_a": "hejaz-1900-1925::k7",
+      "xlink_b": "ottoman-syria-1800-1908::p5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Hejaz",
+      "pivot": {
         "folio": "hejaz-300bc-632",
         "id": "k1",
         "cat": "power",
@@ -17655,6 +17699,28 @@
       },
       "xlink_a": "iraq-1831-1914::k1",
       "xlink_b": "magan-3000bc-1200bc::ec2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Midhat Pasha",
+      "pivot": {
+        "folio": "iraq-1831-1914",
+        "id": "k2",
+        "cat": "power",
+        "label": "Midhat Pasha and the Tanzimat in full",
+        "dynasty": "Ottoman",
+        "decade": "1860s"
+      },
+      "match": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "p4",
+        "cat": "power",
+        "label": "Midhat Pasha's Reforming Governorship",
+        "decade": "1870s"
+      },
+      "xlink_a": "iraq-1831-1914::k2",
+      "xlink_b": "ottoman-syria-1800-1908::p4"
     },
     {
       "confidence": "high",
@@ -34049,6 +34115,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Local",
+      "pivot": {
+        "folio": "tylos-mleiha-300bc-240ad",
+        "id": "o2",
+        "cat": "order",
+        "label": "Local minting at Mleiha",
+        "dynasty": "Abiel",
+        "decade": "200s BC–150s"
+      },
+      "match": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Eastern Question's Local, Competing Patrons",
+        "decade": "10s"
+      },
+      "xlink_a": "tylos-mleiha-300bc-240ad::o2",
+      "xlink_b": "ottoman-syria-1800-1908::x1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Camel",
       "pivot": {
         "folio": "tylos-mleiha-300bc-240ad",
@@ -40337,6 +40425,60 @@
       "date_flag": "overlapping",
       "xlink_a": "hejaz-1517-1900::tc3",
       "xlink_b": "hejaz-1900-1925::tc1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Damascus",
+        "Hejaz Railway",
+        "Medina"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "hejaz-1517-1900",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Hejaz Railway begins",
+        "decade": "1900s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "A Pan-Islamic Railway toward Medina",
+        "decade": "1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-1517-1900::tc3",
+      "xlink_b": "ottoman-syria-1800-1908::tc1"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Damascus",
+        "Hejaz Railway",
+        "Medina"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "The Hejaz Railway",
+        "decade": "1900s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "A Pan-Islamic Railway toward Medina",
+        "decade": "1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-1900-1925::tc1",
+      "xlink_b": "ottoman-syria-1800-1908::tc1"
     },
     {
       "confidence": "medium",
@@ -63034,6 +63176,58 @@
       "date_flag": "overlapping",
       "xlink_a": "hejaz-1517-1900::o2",
       "xlink_b": "nw-arabia-632-1517::x3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Damascus",
+        "Hejaz Railway"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1517-1900",
+        "id": "tc3",
+        "cat": "technology",
+        "label": "The Hejaz Railway begins",
+        "decade": "1900s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "p5",
+        "cat": "power",
+        "label": "Abdul Hamid II's Centralisation and the Hejaz Railway",
+        "decade": "1870s–1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-1517-1900::tc3",
+      "xlink_b": "ottoman-syria-1800-1908::p5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Damascus",
+        "Hejaz Railway"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "The Hejaz Railway",
+        "decade": "1900s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "p5",
+        "cat": "power",
+        "label": "Abdul Hamid II's Centralisation and the Hejaz Railway",
+        "decade": "1870s–1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-1900-1925::tc1",
+      "xlink_b": "ottoman-syria-1800-1908::p5"
     },
     {
       "confidence": "low",
@@ -145454,6 +145648,110 @@
       "date_flag": "16yr gap",
       "xlink_a": "hejaz-1517-1900::tc3",
       "xlink_b": "hejaz-1900-1925::tc2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hejaz Railway",
+        "Medina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "k1",
+        "cat": "power",
+        "label": "The railway and the Young Turks",
+        "decade": "1900s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "A Pan-Islamic Railway toward Medina",
+        "decade": "1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-1900-1925::k1",
+      "xlink_b": "ottoman-syria-1800-1908::tc1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hejaz Railway",
+        "Medina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "o1",
+        "cat": "order",
+        "label": "The Hejaz Railway administration",
+        "decade": "1900s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "A Pan-Islamic Railway toward Medina",
+        "decade": "1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-1900-1925::o1",
+      "xlink_b": "ottoman-syria-1800-1908::tc1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hejaz Railway",
+        "Medina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "ex1",
+        "cat": "expression",
+        "label": "The Hejaz Railway as monument",
+        "decade": "1900s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "A Pan-Islamic Railway toward Medina",
+        "decade": "1900s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "hejaz-1900-1925::ex1",
+      "xlink_b": "ottoman-syria-1800-1908::tc1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Hejaz Railway",
+        "Medina"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "tc2",
+        "cat": "technology",
+        "label": "The war of the railway",
+        "decade": "1910s"
+      },
+      "b": {
+        "folio": "ottoman-syria-1800-1908",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "A Pan-Islamic Railway toward Medina",
+        "decade": "1900s"
+      },
+      "date_flag": "8yr gap",
+      "xlink_a": "hejaz-1900-1925::tc2",
+      "xlink_b": "ottoman-syria-1800-1908::tc1"
     },
     {
       "confidence": "low",

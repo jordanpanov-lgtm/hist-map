@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 7027,
     "folio_count": 142,
-    "xlink_pairs": 1368,
+    "xlink_pairs": 1375,
     "keyword_terms": 10615,
     "folios": [
       {
@@ -10399,7 +10399,14 @@
       "iraq-1831-1914::k2"
     ],
     "iraq-1831-1914::k2": [
-      "egypt-1798-1900::k2"
+      "egypt-1798-1900::k2",
+      "ottoman-syria-1800-1908::p4"
+    ],
+    "egypt-1798-1900::k3": [
+      "ottoman-syria-1800-1908::p1"
+    ],
+    "ottoman-syria-1800-1908::p1": [
+      "egypt-1798-1900::k3"
     ],
     "egypt-1798-1900::k8": [
       "egypt-1900-1952::k1"
@@ -11784,6 +11791,19 @@
       "najd-632-1517::ec1",
       "nw-arabia-632-1517::x1"
     ],
+    "hejaz-1517-1900::tc3": [
+      "ottoman-syria-1800-1908::p5",
+      "ottoman-syria-1800-1908::tc1"
+    ],
+    "ottoman-syria-1800-1908::p5": [
+      "hejaz-1517-1900::tc3"
+    ],
+    "ottoman-syria-1800-1908::tc1": [
+      "hejaz-1517-1900::tc3",
+      "hejaz-1900-1925::o1",
+      "hejaz-1900-1925::ex1",
+      "hejaz-1900-1925::tc1"
+    ],
     "hejaz-1517-1900::x1": [
       "hejaz-632-1517::x3"
     ],
@@ -11815,6 +11835,9 @@
     "saudi-1902-today::c2": [
       "hejaz-1900-1925::c6"
     ],
+    "hejaz-1900-1925::o1": [
+      "ottoman-syria-1800-1908::tc1"
+    ],
     "hejaz-1900-1925::b3": [
       "najd-1744-1900::b1"
     ],
@@ -11822,6 +11845,12 @@
       "hejaz-1900-1925::b3",
       "najd-1517-1744::b3",
       "saudi-1902-today::b1"
+    ],
+    "hejaz-1900-1925::ex1": [
+      "ottoman-syria-1800-1908::tc1"
+    ],
+    "hejaz-1900-1925::tc1": [
+      "ottoman-syria-1800-1908::tc1"
     ],
     "hejaz-1900-1925::x2": [
       "iraq-1914-1958::k1"
@@ -12404,6 +12433,9 @@
     ],
     "iraq-1831-1914::w4": [
       "iraq-1534-1831::w4"
+    ],
+    "ottoman-syria-1800-1908::p4": [
+      "iraq-1831-1914::k2"
     ],
     "najd-1744-1900::k9": [
       "iraq-1831-1914::k7"
