@@ -1346,6 +1346,14 @@ const SELECTED_PAIRS = [
   // the 1925-1927 Great Syrian Revolt against France) and two wildly mismatched "Religious"/"Ports"
   // word collisions with modern Oman.
   ['mandate-syria-lebanon-1920-1946::p1', 'iraq-1914-1958::k1'],   // the French Mandate established -> "the conquest and the Mandate," the same 1920 San Remo Conference's parallel British outcome
+  // ── mandate-palestine-transjordan-1920-1948 (Levant program, Phase 8 complete) — rejected another
+  // "Revolt" collision with hejaz-1900-1925's different, earlier Arab Revolt, an "Abdullah" namesake
+  // collision (Saudi Arabia's King Abdullah, 2005-2015, an entirely different person from Transjordan's
+  // Abdullah I), and three generic "Britain" word-fan-out matches to unrelated Trucial Gulf topics.
+  ['mandate-palestine-transjordan-1920-1948::p1', 'iraq-1914-1958::k1'],       // the Palestine Mandate established -> the same 1920 San Remo Conference's parallel Iraq outcome
+  ['mandate-palestine-transjordan-1920-1948::o1', 'iraq-1914-1958::k1'],      // the Mandate's structural tension -> same San Remo Conference entry
+  ['mandate-palestine-transjordan-1920-1948::p1', 'hejaz-1900-1925::t2'],     // the Mandate incorporates Balfour's language -> "Sykes-Picot and the Balfour Declaration"
+  ['mandate-palestine-transjordan-1920-1948::p1', 'levant-1908-1920::o3'],    // the Mandate incorporates Balfour's language -> the Balfour Declaration's own earlier entry
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

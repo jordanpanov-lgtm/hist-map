@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-30",
-    "figure_matches": 1661,
+    "figure_matches": 1668,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 2094,
+    "figure_matches_rejected_date_implausible": 2102,
     "dynasty_alignment_proposals_count": 137,
-    "keyword_matches": 4868,
+    "keyword_matches": 4870,
     "keyword_matches_rejected_geo_only": 9276,
-    "high_confidence": 1694,
+    "high_confidence": 1701,
     "medium_confidence": 369,
-    "low_confidence": 4466
+    "low_confidence": 4468
   },
   "figure_name_matches": [
     {
@@ -15227,6 +15227,28 @@
         "decade": "1910s"
       },
       "match": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Arab Revolt",
+        "decade": "1930s"
+      },
+      "xlink_a": "hejaz-1900-1925::k3",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Revolt",
+      "pivot": {
+        "folio": "hejaz-1900-1925",
+        "id": "k3",
+        "cat": "power",
+        "label": "The Revolt and Hussein's sons",
+        "dynasty": "Hashemite",
+        "decade": "1910s"
+      },
+      "match": {
         "folio": "mandate-syria-lebanon-1920-1946",
         "id": "c1",
         "cat": "conflict",
@@ -17809,6 +17831,50 @@
       },
       "xlink_a": "iraq-1831-1914::k7",
       "xlink_b": "trucial-gulf-1820-1900::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mandate",
+      "pivot": {
+        "folio": "iraq-1914-1958",
+        "id": "k1",
+        "cat": "power",
+        "label": "The conquest and the Mandate",
+        "dynasty": "—",
+        "decade": "1910s"
+      },
+      "match": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "p1",
+        "cat": "power",
+        "label": "The British Mandate for Palestine Established",
+        "decade": "1920s"
+      },
+      "xlink_a": "iraq-1914-1958::k1",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::p1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mandate",
+      "pivot": {
+        "folio": "iraq-1914-1958",
+        "id": "k1",
+        "cat": "power",
+        "label": "The conquest and the Mandate",
+        "dynasty": "—",
+        "decade": "1910s"
+      },
+      "match": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "o1",
+        "cat": "order",
+        "label": "A Mandate Obligated to Two Contradictory Aims",
+        "decade": "1920s"
+      },
+      "xlink_a": "iraq-1914-1958::k1",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::o1"
     },
     {
       "confidence": "high",
@@ -31519,6 +31585,28 @@
     {
       "confidence": "high",
       "type": "figure-name",
+      "name": "Abdullah",
+      "pivot": {
+        "folio": "saudi-1902-today",
+        "id": "k6",
+        "cat": "power",
+        "label": "King Abdullah",
+        "dynasty": "Āl Saʿūd",
+        "decade": "1990s"
+      },
+      "match": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "p2",
+        "cat": "power",
+        "label": "Transjordan Separated under Abdullah I",
+        "decade": "1920s"
+      },
+      "xlink_a": "saudi-1902-today::k6",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::p2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
       "name": "Saba",
       "pivot": {
         "folio": "south-arabia-1200bc-300bc",
@@ -32167,6 +32255,28 @@
         "decade": "1860s"
       },
       "match": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "p6",
+        "cat": "power",
+        "label": "Britain Refers Palestine to the United Nations",
+        "decade": "1940s"
+      },
+      "xlink_a": "trucial-gulf-1820-1900::k5",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::p6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Britain",
+      "pivot": {
+        "folio": "trucial-gulf-1820-1900",
+        "id": "k5",
+        "cat": "power",
+        "label": "Britain deposes the ruler of Bahrain",
+        "dynasty": "Al Khalifa",
+        "decade": "1860s"
+      },
+      "match": {
         "folio": "najd-1744-1900",
         "id": "x3",
         "cat": "exchange",
@@ -32241,6 +32351,28 @@
       },
       "xlink_a": "trucial-gulf-1820-1900::k8",
       "xlink_b": "hejaz-1900-1925::x4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Britain",
+      "pivot": {
+        "folio": "trucial-gulf-1820-1900",
+        "id": "k8",
+        "cat": "power",
+        "label": "The shaykhdoms Britain recognised",
+        "dynasty": "Al Qasimi",
+        "decade": "1820s–1900s"
+      },
+      "match": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "p6",
+        "cat": "power",
+        "label": "Britain Refers Palestine to the United Nations",
+        "decade": "1940s"
+      },
+      "xlink_a": "trucial-gulf-1820-1900::k8",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::p6"
     },
     {
       "confidence": "high",
@@ -34133,6 +34265,28 @@
       },
       "xlink_a": "trucial-gulf-1900-1971::w4",
       "xlink_b": "hejaz-1900-1925::x4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Britain",
+      "pivot": {
+        "folio": "trucial-gulf-1900-1971",
+        "id": "w4",
+        "cat": "world",
+        "label": "Britain announces the retreat from East of Suez",
+        "dynasty": "British Raj",
+        "decade": "1960s"
+      },
+      "match": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "p6",
+        "cat": "power",
+        "label": "Britain Refers Palestine to the United Nations",
+        "decade": "1940s"
+      },
+      "xlink_a": "trucial-gulf-1900-1971::w4",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::p6"
     },
     {
       "confidence": "high",
@@ -59630,6 +59784,58 @@
       "date_flag": "overlapping",
       "xlink_a": "hejaz-1900-1925::t2",
       "xlink_b": "levant-1908-1920::o3"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Balfour Declaration",
+        "London"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "hejaz-1900-1925",
+        "id": "t2",
+        "cat": "thought",
+        "label": "Sykes–Picot and the Balfour Declaration",
+        "decade": "1910s"
+      },
+      "b": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "p4",
+        "cat": "power",
+        "label": "The White Paper of 1939",
+        "decade": "1930s"
+      },
+      "date_flag": "22yr gap",
+      "xlink_a": "hejaz-1900-1925::t2",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::p4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Balfour Declaration",
+        "London"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "levant-1908-1920",
+        "id": "o3",
+        "cat": "order",
+        "label": "The Balfour Declaration",
+        "decade": "1910s"
+      },
+      "b": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "p4",
+        "cat": "power",
+        "label": "The White Paper of 1939",
+        "decade": "1930s"
+      },
+      "date_flag": "22yr gap",
+      "xlink_a": "levant-1908-1920::o3",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::p4"
     },
     {
       "confidence": "low",

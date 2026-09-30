@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 7086,
     "folio_count": 145,
-    "xlink_pairs": 1381,
+    "xlink_pairs": 1385,
     "keyword_terms": 10752,
     "folios": [
       {
@@ -11937,13 +11937,20 @@
     ],
     "hejaz-1900-1925::t2": [
       "levant-1908-1920::o2",
-      "levant-1908-1920::o3"
+      "levant-1908-1920::o3",
+      "mandate-palestine-transjordan-1920-1948::p1"
     ],
     "levant-1908-1920::o2": [
       "hejaz-1900-1925::t2"
     ],
     "levant-1908-1920::o3": [
-      "hejaz-1900-1925::t2"
+      "hejaz-1900-1925::t2",
+      "mandate-palestine-transjordan-1920-1948::p1"
+    ],
+    "mandate-palestine-transjordan-1920-1948::p1": [
+      "hejaz-1900-1925::t2",
+      "iraq-1914-1958::k1",
+      "levant-1908-1920::o3"
     ],
     "hejaz-1900-1925::tc1": [
       "ottoman-syria-1800-1908::tc1"
@@ -11954,6 +11961,8 @@
     "iraq-1914-1958::k1": [
       "hejaz-1900-1925::x2",
       "iraq-1831-1914::c6",
+      "mandate-palestine-transjordan-1920-1948::o1",
+      "mandate-palestine-transjordan-1920-1948::p1",
       "mandate-syria-lebanon-1920-1946::p1",
       "saudi-1902-today::o1"
     ],
@@ -12611,6 +12620,9 @@
     ],
     "iraq-1914-1958::l3": [
       "iraq-1831-1914::l5"
+    ],
+    "mandate-palestine-transjordan-1920-1948::o1": [
+      "iraq-1914-1958::k1"
     ],
     "mandate-syria-lebanon-1920-1946::p1": [
       "iraq-1914-1958::k1"
