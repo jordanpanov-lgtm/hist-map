@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 7194,
     "folio_count": 150,
-    "xlink_pairs": 1387,
+    "xlink_pairs": 1404,
     "keyword_terms": 11012,
     "folios": [
       {
@@ -9113,6 +9113,13 @@
     "mesopotamia-2334bc-2004bc::xc4": [
       "babylon-2004bc-1595bc::w1"
     ],
+    "bahrain-1971-today::x4": [
+      "israel-1948-today::w1"
+    ],
+    "israel-1948-today::w1": [
+      "bahrain-1971-today::x4",
+      "uae-1971-today::x1"
+    ],
     "beth-qatraye-240-632::k1": [
       "beth-qatraye-632-750::w3"
     ],
@@ -10826,7 +10833,8 @@
     ],
     "egypt-1952-today::c3": [
       "egypt-1900-1952::c7",
-      "iraq-1958-1979::c5"
+      "iraq-1958-1979::c5",
+      "israel-1948-today::c2"
     ],
     "iraq-1914-1958::xc2": [
       "egypt-1900-1952::c7"
@@ -11070,6 +11078,9 @@
       "egypt-1952-today::k15"
     ],
     "iraq-1958-1979::c5": [
+      "egypt-1952-today::c3"
+    ],
+    "israel-1948-today::c2": [
       "egypt-1952-today::c3"
     ],
     "egypt-1952-today::c8": [
@@ -13215,6 +13226,71 @@
     "mesopotamia-224-637::l5": [
       "iraq-632-945::l3"
     ],
+    "israel-1948-today::p1": [
+      "mandate-palestine-transjordan-1920-1948::p6"
+    ],
+    "mandate-palestine-transjordan-1920-1948::p6": [
+      "israel-1948-today::p1"
+    ],
+    "israel-1948-today::p4": [
+      "jordan-1946-today::p4"
+    ],
+    "jordan-1946-today::p4": [
+      "israel-1948-today::p4"
+    ],
+    "israel-1948-today::p5": [
+      "palestine-1948-today::p5"
+    ],
+    "palestine-1948-today::p5": [
+      "israel-1948-today::p5"
+    ],
+    "israel-1948-today::c1": [
+      "mandate-palestine-transjordan-1920-1948::c4",
+      "palestine-1948-today::c1"
+    ],
+    "mandate-palestine-transjordan-1920-1948::c4": [
+      "israel-1948-today::c1"
+    ],
+    "palestine-1948-today::c1": [
+      "israel-1948-today::c1"
+    ],
+    "israel-1948-today::c4": [
+      "palestine-1948-today::c2"
+    ],
+    "palestine-1948-today::c2": [
+      "israel-1948-today::c4"
+    ],
+    "israel-1948-today::c5": [
+      "palestine-1948-today::c3"
+    ],
+    "palestine-1948-today::c3": [
+      "israel-1948-today::c5"
+    ],
+    "israel-1948-today::c6": [
+      "palestine-1948-today::c5"
+    ],
+    "palestine-1948-today::c5": [
+      "israel-1948-today::c6"
+    ],
+    "israel-1948-today::c7": [
+      "palestine-1948-today::c6"
+    ],
+    "palestine-1948-today::c6": [
+      "israel-1948-today::c7",
+      "israel-1948-today::c8"
+    ],
+    "israel-1948-today::c8": [
+      "palestine-1948-today::c6"
+    ],
+    "israel-1948-today::e1": [
+      "mandate-palestine-transjordan-1920-1948::t1"
+    ],
+    "mandate-palestine-transjordan-1920-1948::t1": [
+      "israel-1948-today::e1"
+    ],
+    "uae-1971-today::x1": [
+      "israel-1948-today::w1"
+    ],
     "israel-judah-1200bc-586bc::p3": [
       "philistia-1200bc-604bc::c2"
     ],
@@ -13223,6 +13299,18 @@
     ],
     "philistia-1200bc-604bc::p3": [
       "israel-judah-1200bc-586bc::p4"
+    ],
+    "jordan-1946-today::p3": [
+      "palestine-1948-today::p4"
+    ],
+    "palestine-1948-today::p4": [
+      "jordan-1946-today::p3"
+    ],
+    "jordan-1946-today::l1": [
+      "palestine-1948-today::l1"
+    ],
+    "palestine-1948-today::l1": [
+      "jordan-1946-today::l1"
     ],
     "lakhmid-268-602::k1": [
       "mesopotamia-141bc-224::k8"
@@ -13377,6 +13465,12 @@
     ],
     "spain-1230-1492::s2": [
       "mamluks-1250-1517::w4"
+    ],
+    "mandate-palestine-transjordan-1920-1948::t2": [
+      "palestine-1948-today::p1"
+    ],
+    "palestine-1948-today::p1": [
+      "mandate-palestine-transjordan-1920-1948::t2"
     ],
     "mesopotamia-141bc-224::k1": [
       "mesopotamia-331bc-141bc::c6",

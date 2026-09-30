@@ -1,15 +1,15 @@
 {
   "_meta": {
     "generated": "2026-09-30",
-    "figure_matches": 1673,
+    "figure_matches": 1678,
     "figure_matches_rejected_dynasty_mismatch": 1312,
-    "figure_matches_rejected_date_implausible": 2116,
+    "figure_matches_rejected_date_implausible": 2142,
     "dynasty_alignment_proposals_count": 139,
-    "keyword_matches": 4882,
-    "keyword_matches_rejected_geo_only": 9277,
-    "high_confidence": 1706,
-    "medium_confidence": 369,
-    "low_confidence": 4480
+    "keyword_matches": 4896,
+    "keyword_matches_rejected_geo_only": 9278,
+    "high_confidence": 1711,
+    "medium_confidence": 370,
+    "low_confidence": 4493
   },
   "figure_name_matches": [
     {
@@ -18483,6 +18483,28 @@
         "decade": "1990s"
       },
       "match": {
+        "folio": "israel-1948-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Defining Strategic and Military Partnership with Washington",
+        "decade": "1940s–2020s"
+      },
+      "xlink_a": "iraq-1979-2003::k8",
+      "xlink_b": "israel-1948-today::x1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Washington",
+      "pivot": {
+        "folio": "iraq-1979-2003",
+        "id": "k8",
+        "cat": "power",
+        "label": "The exiles and the road to Washington",
+        "dynasty": "—",
+        "decade": "1990s"
+      },
+      "match": {
         "folio": "jordan-1946-today",
         "id": "x1",
         "cat": "exchange",
@@ -18997,6 +19019,50 @@
       },
       "xlink_a": "iraq-945-1258::k8",
       "xlink_b": "ilkhanate-1219-1335::c3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Peace",
+      "pivot": {
+        "folio": "israel-1948-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "Peace with Egypt",
+        "dynasty": null,
+        "decade": "1970s"
+      },
+      "match": {
+        "folio": "jordan-1946-today",
+        "id": "p4",
+        "cat": "power",
+        "label": "The 1994 Israel-Jordan Peace Treaty",
+        "decade": "1990s"
+      },
+      "xlink_a": "israel-1948-today::p4",
+      "xlink_b": "jordan-1946-today::p4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Oslo Accords",
+      "pivot": {
+        "folio": "israel-1948-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The Oslo Accords and Rabin's Assassination",
+        "dynasty": null,
+        "decade": "1990s"
+      },
+      "match": {
+        "folio": "palestine-1948-today",
+        "id": "p5",
+        "cat": "power",
+        "label": "The Oslo Accords and the Palestinian Authority",
+        "decade": "1990s"
+      },
+      "xlink_a": "israel-1948-today::p5",
+      "xlink_b": "palestine-1948-today::p5"
     },
     {
       "confidence": "high",
@@ -25875,6 +25941,28 @@
         "decade": "1990s–2020s"
       },
       "match": {
+        "folio": "israel-1948-today",
+        "id": "t1",
+        "cat": "thought",
+        "label": "Zionism's Internal Diversity, from Labor to Revisionist to Religious",
+        "decade": "1940s–2020s"
+      },
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "israel-1948-today::t1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Religious",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
         "folio": "mandate-syria-lebanon-1920-1946",
         "id": "b1",
         "cat": "belief",
@@ -26103,6 +26191,28 @@
       },
       "xlink_a": "oman-1970-today::x3",
       "xlink_b": "jordan-1946-today::p3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "West",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "The quiet partnership with the West",
+        "dynasty": "Al Bu Said",
+        "decade": "1980s–2020s"
+      },
+      "match": {
+        "folio": "palestine-1948-today",
+        "id": "ec2",
+        "cat": "economy",
+        "label": "West Bank Movement Restrictions and Settlement Expansion",
+        "decade": "1990s–2020s"
+      },
+      "xlink_a": "oman-1970-today::x3",
+      "xlink_b": "palestine-1948-today::ec2"
     },
     {
       "confidence": "high",
@@ -40597,6 +40707,33 @@
       "date_flag": "overlapping",
       "xlink_a": "mesopotamia-224-637::xc4",
       "xlink_b": "sassanid-224-484::r6"
+    },
+    {
+      "confidence": "medium",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Gaza",
+        "Intifada",
+        "Iron Fist"
+      ],
+      "sharedCount": 3,
+      "a": {
+        "folio": "israel-1948-today",
+        "id": "c4",
+        "cat": "conflict",
+        "label": "The First Intifada",
+        "decade": "1980s"
+      },
+      "b": {
+        "folio": "palestine-1948-today",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The First Intifada",
+        "decade": "1980s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "israel-1948-today::c4",
+      "xlink_b": "palestine-1948-today::c2"
     },
     {
       "confidence": "medium",
@@ -59642,6 +59779,58 @@
       "date_flag": "711yr gap — verify same entity, not just shared theme",
       "xlink_a": "herod-judea-63bc-135ce::b1",
       "xlink_b": "levant-634-750::p4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Jerusalem",
+        "Palestinian Arab"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "israel-1948-today",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The 1948 War",
+        "decade": "1940s"
+      },
+      "b": {
+        "folio": "mandate-palestine-transjordan-1920-1948",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Arab Revolt",
+        "decade": "1930s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "israel-1948-today::c1",
+      "xlink_b": "mandate-palestine-transjordan-1920-1948::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Intifada",
+        "Jerusalem"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "israel-1948-today",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Second Intifada",
+        "decade": "2000s"
+      },
+      "b": {
+        "folio": "palestine-1948-today",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The Second Intifada",
+        "decade": "2000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "israel-1948-today::c5",
+      "xlink_b": "palestine-1948-today::c3"
     },
     {
       "confidence": "low",
@@ -102547,6 +102736,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Sinai",
+        "Six-Day War"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "egypt-1952-today",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "The Six-Day War and the loss of Sinai",
+        "decade": "1960s"
+      },
+      "b": {
+        "folio": "israel-1948-today",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "The Six-Day War",
+        "decade": "1960s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "egypt-1952-today::c3",
+      "xlink_b": "israel-1948-today::c2"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Serabit",
         "Sinai"
       ],
@@ -134929,6 +135144,32 @@
         "decade": "1970s"
       },
       "b": {
+        "folio": "israel-1948-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Defining Strategic and Military Partnership with Washington",
+        "decade": "1940s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "bahrain-1971-today::x2",
+      "xlink_b": "israel-1948-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "bahrain-1971-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "Bahrain and the United States",
+        "decade": "1970s"
+      },
+      "b": {
         "folio": "jordan-1946-today",
         "id": "x1",
         "cat": "exchange",
@@ -134964,6 +135205,32 @@
       "date_flag": "16yr gap",
       "xlink_a": "bahrain-1971-today::x2",
       "xlink_b": "kuwait-1961-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abraham Accords",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "bahrain-1971-today",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "The Abraham Accords",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "israel-1948-today",
+        "id": "w1",
+        "cat": "world",
+        "label": "Shifting Regional Relations toward Normalization",
+        "decade": "2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "bahrain-1971-today::x4",
+      "xlink_b": "israel-1948-today::w1"
     },
     {
       "confidence": "low",
@@ -135033,6 +135300,32 @@
         "decade": "2010s"
       },
       "b": {
+        "folio": "israel-1948-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Defining Strategic and Military Partnership with Washington",
+        "decade": "1940s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "iran-1979-today::x2",
+      "xlink_b": "israel-1948-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "iran-1979-today",
+        "id": "x2",
+        "cat": "exchange",
+        "label": "The US Withdrawal from the Nuclear Deal",
+        "decade": "2010s"
+      },
+      "b": {
         "folio": "jordan-1946-today",
         "id": "x1",
         "cat": "exchange",
@@ -135068,6 +135361,32 @@
       "date_flag": "15yr gap",
       "xlink_a": "iran-1979-today::x2",
       "xlink_b": "qatar-1971-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "iraq-1979-2003",
+        "id": "k8",
+        "cat": "power",
+        "label": "The exiles and the road to Washington",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "israel-1948-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Defining Strategic and Military Partnership with Washington",
+        "decade": "1940s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "iraq-1979-2003::k8",
+      "xlink_b": "israel-1948-today::x1"
     },
     {
       "confidence": "low",
@@ -135146,6 +135465,110 @@
       "date_flag": "overlapping",
       "xlink_a": "iraq-1979-2003::k8",
       "xlink_b": "qatar-1971-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "israel-1948-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Defining Strategic and Military Partnership with Washington",
+        "decade": "1940s–2020s"
+      },
+      "b": {
+        "folio": "jordan-1946-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Strategic Partnership with Washington",
+        "decade": "1950s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "israel-1948-today::x1",
+      "xlink_b": "jordan-1946-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "israel-1948-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Defining Strategic and Military Partnership with Washington",
+        "decade": "1940s–2020s"
+      },
+      "b": {
+        "folio": "kuwait-1961-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Kuwait and the United States",
+        "decade": "1980s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "israel-1948-today::x1",
+      "xlink_b": "kuwait-1961-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "israel-1948-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "A Defining Strategic and Military Partnership with Washington",
+        "decade": "1940s–2020s"
+      },
+      "b": {
+        "folio": "qatar-1971-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "Qatar and the United States",
+        "decade": "2000s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "israel-1948-today::x1",
+      "xlink_b": "qatar-1971-today::x1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Abraham Accords",
+        "Washington"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "israel-1948-today",
+        "id": "w1",
+        "cat": "world",
+        "label": "Shifting Regional Relations toward Normalization",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "uae-1971-today",
+        "id": "x1",
+        "cat": "exchange",
+        "label": "The Abraham Accords",
+        "decade": "2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "israel-1948-today::w1",
+      "xlink_b": "uae-1971-today::x1"
     },
     {
       "confidence": "low",
@@ -135302,6 +135725,32 @@
       "date_flag": "28yr gap",
       "xlink_a": "iraq-1958-1979::xc3",
       "xlink_b": "iraq-2003-today::xc5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "United States",
+        "York"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "iraq-1979-2003",
+        "id": "xc3",
+        "cat": "exchange",
+        "label": "The sanctions regime and the fracturing consensus",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "palestine-1948-today",
+        "id": "w1",
+        "cat": "world",
+        "label": "A Stalled Two-State Framework and Enduring International Attention",
+        "decade": "1940s–2020s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "iraq-1979-2003::xc3",
+      "xlink_b": "palestine-1948-today::w1"
     },
     {
       "confidence": "low",
@@ -160886,6 +161335,32 @@
       "date_flag": "74yr gap — verify same entity, not just shared theme",
       "xlink_a": "hejaz-1900-1925::k6",
       "xlink_b": "jordan-1946-today::p5"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Security Council",
+        "York"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "iraq-1979-2003",
+        "id": "xc3",
+        "cat": "exchange",
+        "label": "The sanctions regime and the fracturing consensus",
+        "decade": "1990s"
+      },
+      "b": {
+        "folio": "palestine-1948-today",
+        "id": "p7",
+        "cat": "power",
+        "label": "United Nations Non-Member Observer State Status",
+        "decade": "2010s"
+      },
+      "date_flag": "9yr gap",
+      "xlink_a": "iraq-1979-2003::xc3",
+      "xlink_b": "palestine-1948-today::p7"
     },
     {
       "confidence": "low",

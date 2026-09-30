@@ -1364,6 +1364,30 @@ const SELECTED_PAIRS = [
   // unrelated Gulf states' own separate US-relationship entries. The one genuine find was better
   // matched to an earlier folio than to this one directly:
   ['mandate-palestine-transjordan-1920-1948::p2', 'hejaz-1900-1925::k6'],   // Transjordan separated under Abdullah I -> "the Hashemite thrones abroad," the same 1921 founding
+  // ── israel-1948-today / palestine-1948-today (Levant program, Phase 9 — the program's final pair)
+  // — the core parallel-folio cross-linking at shared events, per the user's approved structure
+  // decision that these two folios narrate the same conflict from each side without either
+  // narrating the other's own history. Rejected generic "Washington"/"United States"/"Peace"(one
+  // partial exception below)/"Religious"/"West"/"Security Council" word-fan-out matches to unrelated
+  // entries in Bahrain, Iran, Iraq, Kuwait, Oman, Qatar and mandate-palestine-transjordan's own 1929
+  // riots entry (19 years off from israel::c1's 1948 war).
+  ['israel-1948-today::c1', 'palestine-1948-today::c1'],      // the 1948 War -> the Nakba, same war, each side's own framing
+  ['israel-1948-today::c4', 'palestine-1948-today::c2'],      // the First Intifada, both sides
+  ['israel-1948-today::c5', 'palestine-1948-today::c3'],      // the Second Intifada, both sides
+  ['israel-1948-today::c6', 'palestine-1948-today::c5'],      // recurring Gaza conflicts 2008-2021, both sides
+  ['israel-1948-today::c7', 'palestine-1948-today::c6'],      // October 7 -> the Gaza War's catastrophe
+  ['israel-1948-today::c8', 'palestine-1948-today::c6'],      // the Gaza War, both sides
+  ['israel-1948-today::p5', 'palestine-1948-today::p5'],      // the Oslo Accords, both sides
+  ['israel-1948-today::p4', 'jordan-1946-today::p4'],         // peace with Egypt -> peace with Israel, the same diplomatic pattern Jordan's treaty followed
+  ['israel-1948-today::c2', 'egypt-1952-today::c3'],          // the Six-Day War -> "the Six-Day War and the loss of Sinai," Egypt's own entry
+  ['israel-1948-today::w1', 'bahrain-1971-today::x4'],        // the Abraham Accords -> Bahrain's own entry on the same agreements
+  ['israel-1948-today::w1', 'uae-1971-today::x1'],            // the Abraham Accords -> the UAE's own entry on the same agreements
+  ['jordan-1946-today::p3', 'palestine-1948-today::p4'],      // Jordan's 1988 West Bank disengagement -> the PLO's 1988 declaration of independence it directly enabled
+  ['jordan-1946-today::l1', 'palestine-1948-today::l1'],      // a refugee family's story in Jordan -> the same multi-generational refugee experience, region-wide
+  ['israel-1948-today::p1', 'mandate-palestine-transjordan-1920-1948::p6'],  // independence declared -> Britain's UN referral this directly followed
+  ['israel-1948-today::c1', 'mandate-palestine-transjordan-1920-1948::c4'],  // the 1948 War -> the civil-war phase immediately preceding it
+  ['palestine-1948-today::p1', 'mandate-palestine-transjordan-1920-1948::t2'], // Palestinian leadership fragments -> the earlier Mandate-era political organising it interrupted
+  ['israel-1948-today::e1', 'mandate-palestine-transjordan-1920-1948::t1'], // Hebrew's cultural maturation -> its earlier Mandate-era revival as a spoken vernacular
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
