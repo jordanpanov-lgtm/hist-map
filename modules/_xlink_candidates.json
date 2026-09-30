@@ -1,13 +1,13 @@
 {
   "_meta": {
     "generated": "2026-09-30",
-    "figure_matches": 1656,
+    "figure_matches": 1661,
     "figure_matches_rejected_dynasty_mismatch": 1302,
-    "figure_matches_rejected_date_implausible": 2083,
+    "figure_matches_rejected_date_implausible": 2094,
     "dynasty_alignment_proposals_count": 137,
     "keyword_matches": 4868,
     "keyword_matches_rejected_geo_only": 9276,
-    "high_confidence": 1689,
+    "high_confidence": 1694,
     "medium_confidence": 369,
     "low_confidence": 4466
   },
@@ -15227,6 +15227,50 @@
         "decade": "1910s"
       },
       "match": {
+        "folio": "mandate-syria-lebanon-1920-1946",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Great Syrian Revolt and the Bombardment of Damascus",
+        "decade": "1920s"
+      },
+      "xlink_a": "hejaz-1900-1925::k3",
+      "xlink_b": "mandate-syria-lebanon-1920-1946::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Revolt",
+      "pivot": {
+        "folio": "hejaz-1900-1925",
+        "id": "k3",
+        "cat": "power",
+        "label": "The Revolt and Hussein's sons",
+        "dynasty": "Hashemite",
+        "decade": "1910s"
+      },
+      "match": {
+        "folio": "mandate-syria-lebanon-1920-1946",
+        "id": "ec1",
+        "cat": "economy",
+        "label": "Economic Grievance Feeds the Great Revolt",
+        "decade": "1920s"
+      },
+      "xlink_a": "hejaz-1900-1925::k3",
+      "xlink_b": "mandate-syria-lebanon-1920-1946::ec1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Revolt",
+      "pivot": {
+        "folio": "hejaz-1900-1925",
+        "id": "k3",
+        "cat": "power",
+        "label": "The Revolt and Hussein's sons",
+        "dynasty": "Hashemite",
+        "decade": "1910s"
+      },
+      "match": {
         "folio": "saudi-1902-today",
         "id": "c4",
         "cat": "conflict",
@@ -17765,6 +17809,28 @@
       },
       "xlink_a": "iraq-1831-1914::k7",
       "xlink_b": "trucial-gulf-1820-1900::c4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Mandate",
+      "pivot": {
+        "folio": "iraq-1914-1958",
+        "id": "k1",
+        "cat": "power",
+        "label": "The conquest and the Mandate",
+        "dynasty": "—",
+        "decade": "1910s"
+      },
+      "match": {
+        "folio": "mandate-syria-lebanon-1920-1946",
+        "id": "p1",
+        "cat": "power",
+        "label": "The French Mandate Established and Syria Divided",
+        "decade": "1920s"
+      },
+      "xlink_a": "iraq-1914-1958::k1",
+      "xlink_b": "mandate-syria-lebanon-1920-1946::p1"
     },
     {
       "confidence": "high",
@@ -25699,6 +25765,28 @@
         "decade": "1990s–2020s"
       },
       "match": {
+        "folio": "mandate-syria-lebanon-1920-1946",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Statelets Built around Religious Community",
+        "decade": "1920s"
+      },
+      "xlink_a": "oman-1970-today::b2",
+      "xlink_b": "mandate-syria-lebanon-1920-1946::b1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Religious",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "b2",
+        "cat": "belief",
+        "label": "Religious tolerance as statecraft",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s–2020s"
+      },
+      "match": {
         "folio": "pahlavi-1925-1979",
         "id": "b2",
         "cat": "belief",
@@ -25817,6 +25905,28 @@
       },
       "xlink_a": "oman-1970-today::ec2",
       "xlink_b": "mesopotamia-2334bc-2004bc::x5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Ports",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "ec4",
+        "cat": "economy",
+        "label": "Ports and the Duqm bet",
+        "dynasty": "Al Bu Said",
+        "decade": "1990s"
+      },
+      "match": {
+        "folio": "mandate-syria-lebanon-1920-1946",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Roads, Rail and Ports Built for Administration, Not Just Development",
+        "decade": "1920s"
+      },
+      "xlink_a": "oman-1970-today::ec4",
+      "xlink_b": "mandate-syria-lebanon-1920-1946::tc1"
     },
     {
       "confidence": "high",

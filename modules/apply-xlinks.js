@@ -1341,6 +1341,11 @@ const SELECTED_PAIRS = [
   ['levant-1908-1920::c3', 'hejaz-1900-1925::k3'],   // the capture of Damascus -> same entry's northern campaign
   ['levant-1908-1920::o2', 'hejaz-1900-1925::t2'],   // the Sykes-Picot Agreement -> "Sykes-Picot and the Balfour Declaration," combined entry
   ['levant-1908-1920::o3', 'hejaz-1900-1925::t2'],   // the Balfour Declaration -> same combined entry
+  // ── mandate-syria-lebanon-1920-1946 (Levant program, Phase 8) — rejected two "Revolt" matches to
+  // hejaz-1900-1925's 1916-1918 Arab Revolt (a different, earlier revolt against the Ottomans, not
+  // the 1925-1927 Great Syrian Revolt against France) and two wildly mismatched "Religious"/"Ports"
+  // word collisions with modern Oman.
+  ['mandate-syria-lebanon-1920-1946::p1', 'iraq-1914-1958::k1'],   // the French Mandate established -> "the conquest and the Mandate," the same 1920 San Remo Conference's parallel British outcome
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
