@@ -71,6 +71,7 @@ const MODULES = [
   // Phase 9 — Modern nation-states
   { id:"syria-1946-today", file:"modules/syria-1946-today.json", label:"Independent Syria 1946–Today", sub:"Coups, Ba'thist Rule, Civil War, and the Fall of the Assads", region:"Levant", period:"Modern" },
   { id:"lebanon-1943-today", file:"modules/lebanon-1943-today.json", label:"Independent Lebanon 1943–Today", sub:"Confessional Power-Sharing, Civil War, and Recurring Crisis", region:"Levant", period:"Modern" },
+  { id:"jordan-1946-today", file:"modules/jordan-1946-today.json", label:"Independent Jordan 1946–Today", sub:"Monarchy, Black September, Peace with Israel, and Refugee Hosting", region:"Levant", period:"Modern" },
   { id:"palmyrene-100bc-273ce", file:"modules/palmyrene-100bc-273ce.json", label:"Palmyrene Empire 100BC–273",  sub:"Caravan City to Queen of the East",           region:"Levant",  period:"Late Antique"  },
   { id:"ghassanid-420-638",     file:"modules/ghassanid-420-638.json",     label:"Ghassanid Kingdom 420–638",   sub:"The Jafnid Kings of the Syrian Steppe",       region:"Levant",  period:"Late Antique"  },
   { id:"lakhmid-268-602",       file:"modules/lakhmid-268-602.json",       label:"Lakhmid Kingdom 268–638",     sub:"The Nasrid Kings of al-Hira",                 region:"Iraq",    period:"Late Antique"  },
