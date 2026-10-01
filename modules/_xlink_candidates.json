@@ -1,15 +1,15 @@
 {
   "_meta": {
-    "generated": "2026-09-30",
-    "figure_matches": 1678,
+    "generated": "2026-10-01",
+    "figure_matches": 1681,
     "figure_matches_rejected_dynasty_mismatch": 1312,
-    "figure_matches_rejected_date_implausible": 2142,
+    "figure_matches_rejected_date_implausible": 2145,
     "dynasty_alignment_proposals_count": 139,
-    "keyword_matches": 4896,
+    "keyword_matches": 4898,
     "keyword_matches_rejected_geo_only": 9278,
-    "high_confidence": 1711,
+    "high_confidence": 1714,
     "medium_confidence": 370,
-    "low_confidence": 4493
+    "low_confidence": 4495
   },
   "figure_name_matches": [
     {
@@ -113,6 +113,28 @@
         "decade": "820s BC–850s"
       },
       "match": {
+        "folio": "north-syria-1200bc-717bc",
+        "id": "c2",
+        "cat": "conflict",
+        "label": "Shalmaneser III's Campaigns against Bit-Adini and Unqi",
+        "decade": "0s"
+      },
+      "xlink_a": "assyria-911bc-609bc::k3",
+      "xlink_b": "north-syria-1200bc-717bc::c2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Shalmaneser III",
+      "pivot": {
+        "folio": "assyria-911bc-609bc",
+        "id": "k3",
+        "cat": "power",
+        "label": "Shalmaneser III — the long reach and the first check",
+        "dynasty": "Neo-Assyrian Kingdom",
+        "decade": "820s BC–850s"
+      },
+      "match": {
         "folio": "phoenicia-1200bc-539bc",
         "id": "c1",
         "cat": "conflict",
@@ -121,6 +143,28 @@
       },
       "xlink_a": "assyria-911bc-609bc::k3",
       "xlink_b": "phoenicia-1200bc-539bc::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sargon II",
+      "pivot": {
+        "folio": "assyria-911bc-609bc",
+        "id": "k6",
+        "cat": "power",
+        "label": "Sargon II — the usurper who named himself for Akkad",
+        "dynasty": "Neo-Assyrian Kingdom",
+        "decade": "700s BC–720s"
+      },
+      "match": {
+        "folio": "north-syria-1200bc-717bc",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Sargon II Crushes Hamath's Revolt",
+        "decade": "720s BC"
+      },
+      "xlink_a": "assyria-911bc-609bc::k6",
+      "xlink_b": "north-syria-1200bc-717bc::c3"
     },
     {
       "confidence": "high",
@@ -22297,6 +22341,28 @@
       },
       "xlink_a": "mesopotamia-2334bc-2004bc::k1",
       "xlink_b": "dilmun-3000bc-1200bc::k2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sargon",
+      "pivot": {
+        "folio": "mesopotamia-2334bc-2004bc",
+        "id": "k1",
+        "cat": "power",
+        "label": "Sargon founds the first empire",
+        "dynasty": "Dynasty of Akkad",
+        "decade": "2270s BC–2330s"
+      },
+      "match": {
+        "folio": "north-syria-1200bc-717bc",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Sargon II Crushes Hamath's Revolt",
+        "decade": "720s BC"
+      },
+      "xlink_a": "mesopotamia-2334bc-2004bc::k1",
+      "xlink_b": "north-syria-1200bc-717bc::c3"
     },
     {
       "confidence": "high",
@@ -102944,6 +103010,32 @@
       "confidence": "low",
       "type": "keyword-overlap",
       "sharedTerms": [
+        "Qarqar Orontes",
+        "Shalmaneser III"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "aram-damascus-1200bc-732bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "The Qarqar Coalition's Senior Partner",
+        "decade": "850s BC"
+      },
+      "b": {
+        "folio": "north-syria-1200bc-717bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Hamath's Contribution to the Qarqar Coalition",
+        "decade": "850s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "aram-damascus-1200bc-732bc::c1",
+      "xlink_b": "north-syria-1200bc-717bc::c1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
         "Black Obelisk",
         "Shalmaneser III"
       ],
@@ -102991,6 +103083,32 @@
       "date_flag": "12yr gap",
       "xlink_a": "assyria-911bc-609bc::c1",
       "xlink_b": "qedar-853bc-330bc::k1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Qarqar Orontes",
+        "Shalmaneser III"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "israel-judah-1200bc-586bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Ahab's Chariots at Qarqar",
+        "decade": "850s BC"
+      },
+      "b": {
+        "folio": "north-syria-1200bc-717bc",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Hamath's Contribution to the Qarqar Coalition",
+        "decade": "850s BC"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "israel-judah-1200bc-586bc::c1",
+      "xlink_b": "north-syria-1200bc-717bc::c1"
     },
     {
       "confidence": "low",

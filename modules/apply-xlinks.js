@@ -1388,6 +1388,18 @@ const SELECTED_PAIRS = [
   ['israel-1948-today::c1', 'mandate-palestine-transjordan-1920-1948::c4'],  // the 1948 War -> the civil-war phase immediately preceding it
   ['palestine-1948-today::p1', 'mandate-palestine-transjordan-1920-1948::t2'], // Palestinian leadership fragments -> the earlier Mandate-era political organising it interrupted
   ['israel-1948-today::e1', 'mandate-palestine-transjordan-1920-1948::t1'], // Hebrew's cultural maturation -> its earlier Mandate-era revival as a spoken vernacular
+  // ── north-syria-1200bc-717bc (Levant program addendum, new 5th Iron Age parallel thread) —
+  // extends the Qarqar coalition's cross-link web (already Aram-Damascus/Israel-Judah/Assyria/Egypt)
+  // to Hamath's own contribution, the third-largest after Damascus and Israel. Rejected a "Sargon"
+  // namesake collision (Sargon of Akkad, 3rd millennium BC, unrelated to Sargon II of Assyria).
+  ['north-syria-1200bc-717bc::c1', 'aram-damascus-1200bc-732bc::c1'],      // Hamath at Qarqar -> Aram's own Qarqar entry
+  ['north-syria-1200bc-717bc::c1', 'israel-judah-1200bc-586bc::c1'],       // Hamath at Qarqar -> Israel's own Qarqar entry
+  ['north-syria-1200bc-717bc::c1', 'egypt-1200bc-664bc::c5'],              // Hamath at Qarqar -> Egypt's minor "Musri" contingent
+  ['north-syria-1200bc-717bc::c1', 'assyria-911bc-609bc::k3'],             // Hamath at Qarqar -> Shalmaneser III's own entry, which names Hamath directly
+  ['north-syria-1200bc-717bc::p3', 'assyria-911bc-609bc::k3'],             // Irhuleni's reign -> same Shalmaneser III entry
+  ['north-syria-1200bc-717bc::c2', 'assyria-911bc-609bc::k3'],             // Shalmaneser III's campaigns against Bit-Adini/Unqi -> same king's own entry
+  ['north-syria-1200bc-717bc::c3', 'assyria-911bc-609bc::k6'],             // Sargon II crushes Hamath's revolt -> Sargon II's own reign entry
+  ['north-syria-1200bc-717bc::p6', 'assyria-911bc-609bc::k6'],             // Yau-bidi's revolt -> same Sargon II entry
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
