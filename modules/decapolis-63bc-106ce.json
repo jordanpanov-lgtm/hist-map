@@ -1,0 +1,569 @@
+{
+  "id": "decapolis-63bc-106ce",
+  "title": "The Decapolis",
+  "subtitle": "63 BC–106 AD · Hellenized Cities between Nabataea and Judea",
+  "period": {
+    "start": -63,
+    "end": 106
+  },
+  "region": "Levant",
+  "period_label": "Late Antique",
+  "mapCenter": [
+    35.8,
+    32.3
+  ],
+  "mapZoom": 7,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "Pompey's liberation, self-governing poleis, and Trajan's absorption",
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Before Liberation",
+          "tag": "EVIDENCE",
+          "date": "103–76 BC",
+          "label": "Hasmonean Conquest and Pressure",
+          "loc": "Pella",
+          "coords": [
+            35.61,
+            32.45
+          ],
+          "hint": "Alexander Jannaeus's expansionist campaigns conquered and in several cases devastated the region's Hellenised cities — Josephus specifically records Pella's destruction for its inhabitants' refusal to adopt Jewish customs — subjecting Gadara, Pella, Dium and others to Hasmonean rule or outright ruin for a generation before Pompey's intervention described below restored their independence.",
+          "note": "Josephus, Antiquities 13.395–397, on Alexander Jannaeus's destruction of Pella; compare hasmonean-332bc-63bc::p7 for Jannaeus's reign more broadly.",
+          "keywords": ["Pella","Hasmonean Conquest","Pressure","Alexander Jannaeus"]
+        },
+        {
+          "id": "p2",
+          "group": "Pompey's Settlement",
+          "tag": "EVENT",
+          "date": "63 BC",
+          "label": "Pompey's Liberation of the Cities",
+          "loc": "Damascus",
+          "coords": [
+            33.51,
+            36.28
+          ],
+          "hint": "Following his capture of Jerusalem, Pompey detached the Hellenised cities Hasmonean rulers had conquered from Jewish political control, restored their civic autonomy, and attached them to the newly organised Roman province of Syria — an act of liberation many of these cities commemorated afterward by dating official documents from this year, the start of a shared \"Pompeian era\" marking their renewed independence.",
+          "note": "Josephus, Antiquities 14.74–76; compare hasmonean-332bc-63bc::c3 and p9 for Pompey's capture of Jerusalem in the same campaign season.",
+          "keywords": ["Damascus","Pompey Liberation of the Cities"]
+        },
+        {
+          "id": "p3",
+          "group": "Self-Governance",
+          "tag": "EVIDENCE",
+          "date": "63 BC–106 AD",
+          "label": "Self-Governing Poleis under Roman Oversight",
+          "loc": "Gerasa (Jerash)",
+          "coords": [
+            35.89,
+            32.28
+          ],
+          "hint": "Each city retained its own Greek-style civic institutions — councils, annually elected magistrates, civic assemblies — minting its own bronze coinage and managing local affairs with only general oversight from the Roman governor of Syria, a genuine, if bounded, local self-government unusual for the degree of autonomy Rome permitted a loosely affiliated group of cities rather than a single formally constituted province.",
+          "note": "Comparative numismatic and epigraphic evidence for Decapolis civic institutions and coinage, 63 BC–106 AD.",
+          "keywords": ["Gerasa Jerash","Self-Governing Poleis","Oversight"]
+        },
+        {
+          "id": "p4",
+          "group": "Self-Governance",
+          "tag": "EVENT",
+          "date": "4 BC",
+          "label": "Gadara's Petition to Avoid Herodian Rule",
+          "loc": "Gadara",
+          "coords": [
+            35.68,
+            32.65
+          ],
+          "hint": "When Herod's kingdom was divided among his sons after his death, Gadara and Hippos successfully petitioned Augustus to be detached from any association with Herod's heir Archelaus and reattached directly to the province of Syria instead — a clear preference for direct Roman provincial administration over renewed subjection to a Jewish-ruled kingdom, however loosely that subjection might otherwise have applied.",
+          "note": "Josephus, Antiquities 17.320, on Gadara and Hippos's successful petition to Augustus, 4 BC.",
+          "keywords": ["Gadara Petition","Avoid Herodian Rule"]
+        },
+        {
+          "id": "p5",
+          "group": "Dissolution",
+          "tag": "EVENT",
+          "date": "106 AD",
+          "label": "Trajan's Annexation Ends the Decapolis's Distinct Status",
+          "loc": "Petra",
+          "coords": [
+            30.33,
+            35.44
+          ],
+          "hint": "Trajan's annexation of the Nabataean kingdom and its reorganisation as the Roman province of Arabia absorbed several Decapolis cities directly into the new province while others remained attached to Syria, dissolving the loose shared identity and autonomous status the cities had maintained since Pompey's 63 BC settlement into ordinary provincial administration — ending, after a century and a half, the Decapolis as any kind of distinct political or administrative grouping.",
+          "note": "Trajan's annexation of Nabataea and creation of the province of Arabia, 106 AD; compare nabataean-312bc-106ce for the Nabataean kingdom's own history ending at the same date.",
+          "keywords": ["Petra","Trajan Annexation Ends the Decapolis Distinct Status"]
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "Hasmonean conquest before 63 BC, and 66 AD's inter-communal violence",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Before Liberation",
+          "tag": "EVENT",
+          "date": "103–76 BC",
+          "label": "Alexander Jannaeus's Campaigns against the Cities",
+          "loc": "Gadara",
+          "coords": [
+            35.68,
+            32.65
+          ],
+          "hint": "Jannaeus besieged and captured Gadara after a lengthy siege and subjected several other Hellenised cities to similar treatment across his reign, military campaigns that left lasting local memory of Hasmonean rule as foreign conquest rather than legitimate regional authority — context that explains the genuine enthusiasm with which these same cities later welcomed Pompey's 63 BC restoration of their independence.",
+          "note": "Josephus, Antiquities 13.356, on the siege and capture of Gadara.",
+          "keywords": ["Gadara","Alexander Jannaeus Campaigns","Cities"]
+        },
+        {
+          "id": "c2",
+          "group": "The Jewish Revolt",
+          "tag": "EVENT",
+          "date": "66 AD",
+          "label": "Inter-Communal Violence at the Revolt's Outbreak",
+          "loc": "Scythopolis (Beit Shean)",
+          "coords": [
+            35.5,
+            32.5
+          ],
+          "hint": "The Great Revolt's outbreak triggered a wave of inter-communal massacres in mixed cities across the region — Josephus records the particularly bitter case of Scythopolis, where resident Jews who had initially sided with their city against Jewish rebels were nonetheless massacred by their own non-Jewish neighbours shortly afterward, while Jewish rebel forces elsewhere attacked and destroyed non-Jewish settlements in turn, a cycle of communal violence this folio documents without attributing greater initial blame to either side than Josephus's own account supports.",
+          "note": "Josephus, Jewish War 2.457–480, on inter-communal violence at multiple mixed cities including Scythopolis, 66 AD.",
+          "keywords": ["Scythopolis Beit Shean","Inter-Communal Violence","Revolt Outbreak"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "A shared civic era, and Greek city institutions on a Semitic frontier",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Civic Identity",
+          "tag": "EVIDENCE",
+          "date": "63 BC–106 AD",
+          "label": "A Shared Civic Era and a Disputed Membership List",
+          "loc": "Gerasa (Jerash)",
+          "coords": [
+            35.89,
+            32.28
+          ],
+          "hint": "Many of the cities dated official inscriptions and coinage from 63 BC, Pompey's year of liberation, giving them a shared civic calendar even without any formal political federation — yet ancient sources themselves disagreed on precisely which cities belonged to \"the Decapolis\": Pliny the Elder's list of ten includes some cities later sources omit, and Ptolemy's 2nd-century Geography expands the grouping to eighteen cities, confirming that \"Decapolis\" functioned as a loose, somewhat fluid cultural-geographic label rather than a fixed or formally constituted political entity throughout its own historical existence.",
+          "note": "Pliny the Elder, Natural History 5.74, listing ten cities while noting \"not all writers agree\"; Ptolemy, Geography 5.14.18, listing eighteen cities under an expanded grouping a century later.",
+          "keywords": ["Gerasa Jerash","Shared Civic Era","Disputed Membership List","Pliny the Elder"]
+        },
+        {
+          "id": "o2",
+          "group": "Civic Identity",
+          "tag": "EVIDENCE",
+          "date": "63 BC–106 AD",
+          "label": "Civic Coinage and Greek Urban Institutions",
+          "loc": "Philadelphia (Amman)",
+          "coords": [
+            35.93,
+            31.95
+          ],
+          "hint": "Each city minted its own bronze civic coinage bearing Greek legends, local deities and civic symbols, governed through councils and annually elected magistrates modelled directly on mainland Greek polis institutions — a thoroughly Hellenic urban administrative culture functioning in daily practice alongside, rather than displacing, the Aramaic- and Nabataean-influenced populations and customs of the surrounding countryside.",
+          "note": "Comparative numismatic survey of Decapolis civic coinage, 63 BC–106 AD.",
+          "keywords": ["Philadelphia Amman","Civic Coinage","Urban Institutions"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "Zeus merges with Hadad, a Greek name for a Syrian storm god",
+      "entries": [
+        {
+          "id": "b1",
+          "group": "Syncretism",
+          "tag": "EVIDENCE",
+          "date": "63 BC–106 AD",
+          "label": "Zeus Merges with Hadad, a Greek Name for a Syrian Storm God",
+          "loc": "Gerasa (Jerash)",
+          "coords": [
+            35.89,
+            32.28
+          ],
+          "hint": "Religious practice across the Decapolis cities routinely identified Zeus with the regional Semitic storm god Hadad and venerated the Syrian goddess Atargatis alongside conventional Greek deities, a thorough theological fusion paralleling the Zeus-equivalent Tarhunzas-Hadad syncretism already documented centuries earlier and further north in north-syria-1200bc-717bc::b1 — evidence of a long-standing regional pattern in which Greek religious vocabulary consistently absorbed, rather than replaced, pre-existing Semitic storm-god worship across the wider Levant.",
+          "note": "Comparative religious-historical framing of Zeus-Hadad syncretism and Atargatis worship across the Decapolis cities, 63 BC–106 AD; compare north-syria-1200bc-717bc::b1 for the directly analogous earlier Tarhunzas-Hadad fusion.",
+          "keywords": ["Gerasa Jerash","Zeus Merges","Hadad","Name","Syrian Storm God","Zeus-equivalent Tarhunzas-Hadad"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "Jerash's oval forum, and Scythopolis's theater west of the Jordan",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Monumental Architecture",
+          "tag": "WORK",
+          "date": "1st–2nd c. AD",
+          "label": "Jerash's Oval Forum and Colonnaded Streets",
+          "loc": "Gerasa (Jerash)",
+          "coords": [
+            35.89,
+            32.28
+          ],
+          "hint": "Gerasa's Roman-era urban plan — an unusually shaped oval forum, a long colonnaded cardo maximus running the length of the city, two separate theatres, and a Temple of Artemis dedicated to the city's patron deity — survives today as one of the best-preserved Roman provincial city plans anywhere outside Italy, an exceptional state of preservation that has made it a primary archaeological source for understanding everyday Decapolis urban life.",
+          "note": "Jerash archaeological site; its Roman-era urban plan is widely regarded by archaeologists as exceptionally well preserved relative to comparable Roman provincial cities.",
+          "keywords": ["Gerasa Jerash","Jerash Oval Forum","Colonnaded Streets","Gerasa Roman-era","Temple of Artemis"]
+        },
+        {
+          "id": "e2",
+          "group": "Monumental Architecture",
+          "tag": "WORK",
+          "date": "1st–2nd c. AD",
+          "label": "Scythopolis's Theater, West of the Jordan",
+          "loc": "Scythopolis (Beit Shean)",
+          "coords": [
+            35.5,
+            32.5
+          ],
+          "hint": "Scythopolis, the only Decapolis city west of the Jordan river, developed its own substantial Roman theatre, bathhouse complex and colonnaded streets on a site with far older Bronze and Iron Age occupation layers beneath it — a continuously significant urban centre whose Decapolis-era Roman architecture represents only the latest of many successive layers of settlement at the same strategic Jordan Valley location.",
+          "note": "Beit Shean (Scythopolis) archaeological site, Roman-era theatre and bathhouse complex, 1st–2nd centuries AD.",
+          "keywords": ["Scythopolis Beit Shean","Scythopolis Theater","West of the Jordan","Iron Age","Decapolis-era Roman","Jordan Valley"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "Gadara's satirists, poets and an Epicurean philosopher",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "Intellectual Culture",
+          "tag": "EVIDENCE",
+          "date": "63 BC–1st c. AD (building on earlier generations)",
+          "label": "Gadara's Satirists, Poets and an Epicurean Philosopher",
+          "loc": "Gadara",
+          "coords": [
+            35.68,
+            32.65
+          ],
+          "hint": "Gadara's reputation as a genuine centre of Hellenistic literary and philosophical culture, carried into and sustained through the Decapolis period itself, rested on a remarkable concentration of earlier native sons — Menippus, whose biting prose-verse satire gave its name to the whole later literary genre of \"Menippean satire\"; Meleager, compiler of the first known anthology of Greek epigram poetry; and Philodemus, an Epicurean philosopher whose own writings survived substantially intact only by chance, buried in volcanic ash at Herculaneum — evidence that this \"minor\" provincial city participated fully and originally in Hellenistic high culture rather than merely receiving it passively from the wider Greek world.",
+          "note": "Menippus of Gadara (3rd century BC) and Meleager of Gadara (c. 100 BC) both lived before this folio's own 63 BC starting point and are included here for the enduring cultural reputation their native city carried into the Decapolis period itself; Philodemus of Gadara (1st century BC), whose works survive substantially through the Herculaneum papyri, was active within this folio's own timeframe.",
+          "keywords": ["Gadara Satirists","Poets","Epicurean Philosopher"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "A crossroads between Nabataean incense and Mediterranean ports",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Trade Position",
+          "tag": "EVIDENCE",
+          "date": "63 BC–106 AD",
+          "label": "A Crossroads between Nabataean Incense and Mediterranean Ports",
+          "loc": "Philadelphia (Amman)",
+          "coords": [
+            35.93,
+            31.95
+          ],
+          "hint": "The Decapolis cities occupied a strategic position between Nabataea's own lucrative incense and spice caravan routes and the Mediterranean coastal ports those goods were ultimately shipped from, alongside substantial agricultural wealth drawn from the fertile Transjordan plateau's grain, olive and wine production — a genuinely productive commercial crossroads whose cities' considerable monumental building investment reflects real sustained prosperity rather than merely imperial subsidy.",
+          "note": "Comparative economic-geographic framing of the Decapolis cities' position relative to Nabataean trade routes and Transjordan agricultural production, 63 BC–106 AD.",
+          "keywords": ["Philadelphia Amman","Crossroads","Nabataean Incense","Mediterranean Ports"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "An underground aqueduct tunnel built mountain to city",
+      "entries": [
+        {
+          "id": "tc1",
+          "group": "Water Engineering",
+          "tag": "WORK",
+          "date": "1st c. AD",
+          "label": "An Underground Aqueduct Tunnel Built Mountain to City",
+          "loc": "Gadara",
+          "coords": [
+            35.68,
+            32.65
+          ],
+          "hint": "Gadara's water supply depended on an extraordinary underground tunnel system, parts of it qanat-style gravity channels bored directly through rock, stretching over a hundred kilometres in total length to draw water from distant mountain springs — one of the longest ancient tunnel systems anywhere in the ancient world, its full extent and engineering sophistication only fully mapped by modern archaeological survey rather than being apparent from surface remains alone.",
+          "note": "The Gadara Aqueduct, studied extensively through a dedicated German archaeological survey project; total tunnel length estimated in excess of 100 kilometres, with construction phases dated across a range from the 2nd century BC to the 2nd century AD by different scholarly assessments, here placed in the period of the system's major expansion.",
+          "keywords": ["Gadara","Underground Aqueduct Tunnel Built Mountain"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "Coexistence and commerce with Nabataea and Judea",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Regional Coexistence",
+          "tag": "EVIDENCE",
+          "date": "63 BC–106 AD",
+          "label": "Coexistence and Commerce with Nabataea and Judea",
+          "loc": "Gerasa (Jerash)",
+          "coords": [
+            35.89,
+            32.28
+          ],
+          "hint": "The Decapolis cities maintained active commercial and cultural contact with both the Nabataean kingdom to their south and east and Hasmonean, then Herodian and Roman-administered Judea to their west, three genuinely distinct political and cultural zones occupying closely adjacent and at points directly overlapping territory — a lived regional coexistence of Greek urban culture, Nabataean Arab kingdom, and Jewish political authority that this folio's own existence alongside nabataean-312bc-106ce and herod-judea-63bc-135ce is specifically intended to document as a genuine contemporary mosaic rather than three separate, unconnected histories.",
+          "note": "Compare nabataean-312bc-106ce and herod-judea-63bc-135ce for the two neighbouring political entities this folio's own cities coexisted and traded with throughout the same 63 BC–106 AD period.",
+          "keywords": ["Gerasa Jerash","Coexistence","Commerce","Nabataea","Roman-administered Judea","Nabataean Arab"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "An island chain of Greco-Roman cities on a Semitic frontier",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "A Cultural Island Chain",
+          "tag": "EVENT",
+          "date": "63 BC–106 AD",
+          "label": "An Island Chain of Greco-Roman Cities on a Semitic Frontier",
+          "loc": "Gerasa (Jerash)",
+          "coords": [
+            35.89,
+            32.28
+          ],
+          "hint": "The Decapolis cities formed a loose chain of thoroughly Hellenised urban islands embedded within a surrounding countryside whose population, language and customs remained predominantly Aramaic- and Nabataean-influenced Semitic rather than Greek — a genuine cultural frontier condition, neither fully assimilated into nor entirely separate from its immediate regional context, that distinguishes the Decapolis from more uniformly Hellenised territories elsewhere in the Roman East.",
+          "note": "Comparative framing of the Decapolis cities' Hellenic urban culture as a genuine minority-culture frontier phenomenon relative to the surrounding Semitic-speaking countryside, 63 BC–106 AD.",
+          "keywords": ["Gerasa Jerash","Island Chain of Greco-Roman Cities","Semitic Frontier","Nabataean-influenced Semitic"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "\"The region of the Decapolis\" names itself in the Gospels",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "A Region Named in Text",
+          "tag": "EVIDENCE",
+          "date": "1st c. AD (narrated)",
+          "label": "\"The Region of the Decapolis\" Names Itself in the Gospels",
+          "loc": "Gadara",
+          "coords": [
+            35.68,
+            32.65
+          ],
+          "hint": "The Gospel of Mark twice refers by name to \"the region of the Decapolis\" in describing episodes of Jesus's ministry — a healing across the Sea of Galilee after which the healed man proclaimed what had happened throughout the Decapolis, and a separate journey specifically through the region — genuine, independent textual attestation of the area's contemporary name and recognisability as a distinct region to a 1st-century audience, cited here for this naming attestation specifically rather than as a claim about the narrated events' own historicity.",
+          "note": "Mark 5:1–20 and Mark 7:31, both naming \"the Decapolis\" directly; compare herod-judea-63bc-135ce::b2 for this folio's established approach to presenting Gospel-narrated events as matters of textual attestation and religious tradition rather than asserted historical fact.",
+          "keywords": ["Gadara","Region of the Decapolis Names Itself","Gospels","Gospel of Mark","Sea of Galilee"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "power",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "events": [
+        {
+          "y": -103,
+          "l": "Hasmonean Conquest and Pressure",
+          "entryId": "p1",
+          "y2": -76
+        },
+        {
+          "y": -63,
+          "l": "Pompey's Liberation of the Cities",
+          "entryId": "p2"
+        },
+        {
+          "y": -63,
+          "l": "Self-Governing Poleis under Roman Oversight",
+          "entryId": "p3",
+          "y2": 106
+        },
+        {
+          "y": -4,
+          "l": "Gadara's Petition to Avoid Herodian Rule",
+          "entryId": "p4"
+        },
+        {
+          "y": 106,
+          "l": "Trajan's Annexation Ends the Decapolis's Distinct Status",
+          "entryId": "p5"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": -100,
+          "l": "Alexander Jannaeus's Campaigns against the Cities",
+          "entryId": "c1"
+        },
+        {
+          "y": 66,
+          "l": "Inter-Communal Violence at the Revolt's Outbreak",
+          "entryId": "c2"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 0,
+          "l": "A Shared Civic Era and a Disputed Membership List",
+          "entryId": "o1"
+        },
+        {
+          "y": 0,
+          "l": "Civic Coinage and Greek Urban Institutions",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 0,
+          "l": "Zeus Merges with Hadad, a Greek Name for a Syrian Storm God",
+          "entryId": "b1"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 50,
+          "l": "Jerash's Oval Forum and Colonnaded Streets",
+          "entryId": "e1"
+        },
+        {
+          "y": 50,
+          "l": "Scythopolis's Theater, West of the Jordan",
+          "entryId": "e2"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": -50,
+          "l": "Gadara's Satirists, Poets and an Epicurean Philosopher",
+          "entryId": "t1"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 0,
+          "l": "A Crossroads between Nabataean Incense and Mediterranean Ports",
+          "entryId": "ec1"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "events": [
+        {
+          "y": 50,
+          "l": "An Underground Aqueduct Tunnel Built Mountain to City",
+          "entryId": "tc1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 0,
+          "l": "Coexistence and Commerce with Nabataea and Judea",
+          "entryId": "x1"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "events": [
+        {
+          "y": 0,
+          "l": "An Island Chain of Greco-Roman Cities on a Semitic Frontier",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 30,
+          "l": "\"The Region of the Decapolis\" Names Itself in the Gospels",
+          "entryId": "l1"
+        }
+      ]
+    }
+  ]
+}

@@ -55,6 +55,7 @@ const MODULES = [
   { id:"hasmonean-332bc-63bc", file:"modules/hasmonean-332bc-63bc.json", label:"Hasmonean Judea 332–63 BC", sub:"Alexander's Conquest, the Maccabean Revolt, and an Independent Kingdom", region:"Levant", period:"Late Antique" },
   // Phase 4 — Roman/Byzantine
   { id:"herod-judea-63bc-135ce", file:"modules/herod-judea-63bc-135ce.json", label:"Herodian and Roman Judea 63 BC–135 AD", sub:"From Pompey's Conquest to the Bar Kokhba Revolt", region:"Levant", period:"Late Antique" },
+  { id:"decapolis-63bc-106ce", file:"modules/decapolis-63bc-106ce.json", label:"The Decapolis 63 BC–106 AD", sub:"Hellenized Cities between Nabataea and Judea", region:"Levant", period:"Late Antique" },
   { id:"roman-byzantine-levant-135-638", file:"modules/roman-byzantine-levant-135-638.json", label:"Roman and Byzantine Palestine 135–638 AD", sub:"From Aelia Capitolina to the Muslim Conquest", region:"Levant", period:"Late Antique" },
   // Phase 5 — Caliphate era
   { id:"levant-634-750", file:"modules/levant-634-750.json", label:"Umayyad Syria 634–750 AD", sub:"Damascus as the Capital of a World Empire", region:"Levant", period:"Medieval" },
