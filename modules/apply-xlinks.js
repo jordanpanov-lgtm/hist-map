@@ -1408,6 +1408,10 @@ const SELECTED_PAIRS = [
   // a 65-year gap identified in a continuity audit (Philistia's own folio ends at the destruction
   // itself; babylon-1155bc-539bc's own campaign entry never mentions Ashkelon at all).
   ['levant-539bc-332bc::p0', 'philistia-1200bc-604bc::c3'],   // Ashkelon's king captured -> the destruction itself, this folio's own direct continuation
+  // continuity-audit fix #2 (2026-10-01): jordan-1946-today had no link back to the Mandate
+  // folio's own independence entry, despite jordan-1946-today::p1 being Abdullah I's reign
+  // directly continuing from it (no new content added, per the user's chosen fix option).
+  ['jordan-1946-today::p1', 'mandate-palestine-transjordan-1920-1948::p5'],   // Abdullah I's reign continues -> Transjordan's 1946 independence itself
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
