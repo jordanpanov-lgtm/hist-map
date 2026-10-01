@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 7234,
+    "total_entries": 7235,
     "folio_count": 152,
-    "xlink_pairs": 1413,
-    "keyword_terms": 11107,
+    "xlink_pairs": 1414,
+    "keyword_terms": 11109,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -418,7 +418,7 @@
       {
         "id": "levant-539bc-332bc",
         "title": "The Levant under Persia",
-        "entries": 22
+        "entries": 23
       },
       {
         "id": "levant-634-750",
@@ -4816,6 +4816,7 @@
     "levant-1908-1920::x1": "A Chemist's Diplomatic Campaign in Wartime London",
     "levant-1908-1920::w1": "One Ottoman Territory Becomes Contested Ground",
     "levant-1908-1920::l1": "A Survivor's Voice from the Mountain Famine",
+    "levant-539bc-332bc::p0": "Ashkelon's King Captured, the City Left in Ruins",
     "levant-539bc-332bc::p1": "Cyrus's Edict and the Return",
     "levant-539bc-332bc::p2": "Zerubbabel and the Second Temple's Completion",
     "levant-539bc-332bc::p4": "Ezra and a Contested Chronology",
@@ -13449,6 +13450,12 @@
     ],
     "mandate-syria-lebanon-1920-1946::p5": [
       "lebanon-1943-today::p1"
+    ],
+    "levant-539bc-332bc::p0": [
+      "philistia-1200bc-604bc::c3"
+    ],
+    "philistia-1200bc-604bc::c3": [
+      "levant-539bc-332bc::p0"
     ],
     "levant-539bc-332bc::p6": [
       "mesopotamia-539bc-331bc::k6"
@@ -37478,6 +37485,13 @@
       "Mount Lebanon",
       "Survivor Voice",
       "Mountain Famine"
+    ],
+    "levant-539bc-332bc::p0": [
+      "Ashkelon",
+      "Babylonian Chronicle",
+      "Nebuchadnezzar",
+      "Jehoiachin",
+      "Philistine Coast"
     ],
     "levant-539bc-332bc::p1": [
       "Babylon",
@@ -64185,7 +64199,8 @@
       "mesopotamia-539bc-331bc::e2"
     ],
     "Nebuchadnezzar": [
-      "babylon-1155bc-539bc::e3"
+      "babylon-1155bc-539bc::e3",
+      "levant-539bc-332bc::p0"
     ],
     "Silver": [
       "babylon-1155bc-539bc::e5",
@@ -77551,6 +77566,7 @@
     ],
     "Babylonian Chronicle": [
       "egypt-664bc-332bc::c3",
+      "levant-539bc-332bc::p0",
       "media-728bc-550bc::c3",
       "philistia-1200bc-604bc::c3"
     ],
@@ -88796,6 +88812,19 @@
     "Mountain Famine": [
       "levant-1908-1920::l1"
     ],
+    "Ashkelon": [
+      "levant-539bc-332bc::p0",
+      "levant-750-1099::tc1",
+      "philistia-1200bc-604bc::p1",
+      "philistia-1200bc-604bc::e1",
+      "philistia-1200bc-604bc::w1"
+    ],
+    "Jehoiachin": [
+      "levant-539bc-332bc::p0"
+    ],
+    "Philistine Coast": [
+      "levant-539bc-332bc::p0"
+    ],
     "Zerubbabel": [
       "levant-539bc-332bc::p2"
     ],
@@ -89140,12 +89169,6 @@
     ],
     "Rerouted": [
       "levant-750-1099::ec1"
-    ],
-    "Ashkelon": [
-      "levant-750-1099::tc1",
-      "philistia-1200bc-604bc::p1",
-      "philistia-1200bc-604bc::e1",
-      "philistia-1200bc-604bc::w1"
     ],
     "Fortification Adapted": [
       "levant-750-1099::tc1"

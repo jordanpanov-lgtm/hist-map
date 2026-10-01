@@ -1403,6 +1403,11 @@ const SELECTED_PAIRS = [
   // ── decapolis-63bc-106ce (Levant program addendum) — rejected two generic "Trajan" matches to
   // unrelated topics (Egypt's own canal/fortress works, Hispania's imperial-birthplace entry).
   ['decapolis-63bc-106ce::c1', 'hasmonean-332bc-63bc::p7'],   // Alexander Jannaeus's campaigns against the cities -> his own reign entry
+  // ── gap-filling addendum (2026-10-01): levant-539bc-332bc's period.start widened from -539 to
+  // -604 to add a bridging entry for Philistia's previously uncovered 604-539 BC aftermath, closing
+  // a 65-year gap identified in a continuity audit (Philistia's own folio ends at the destruction
+  // itself; babylon-1155bc-539bc's own campaign entry never mentions Ashkelon at all).
+  ['levant-539bc-332bc::p0', 'philistia-1200bc-604bc::c3'],   // Ashkelon's king captured -> the destruction itself, this folio's own direct continuation
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

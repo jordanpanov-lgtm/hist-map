@@ -51,7 +51,7 @@ const MODULES = [
   { id:"philistia-1200bc-604bc", file:"modules/philistia-1200bc-604bc.json", label:"Philistia 1,200–604 BC", sub:"The Pentapolis of Ashkelon, Ashdod, Ekron, Gath and Gaza", region:"Levant", period:"Ancient" },
   { id:"north-syria-1200bc-717bc", file:"modules/north-syria-1200bc-717bc.json", label:"Northern Syria's City-States 1,200–717 BC", sub:"Carchemish, Hamath, Sam'al and the Neo-Hittite-Aramaean Successor Kingdoms", region:"Levant", period:"Ancient" },
   // Phase 3 — Persian/Hellenistic
-  { id:"levant-539bc-332bc", file:"modules/levant-539bc-332bc.json", label:"The Levant under Persia 539–332 BC", sub:"Eber-Nari, the Return from Exile, and Second Temple Judaism's Formation", region:"Levant", period:"Ancient" },
+  { id:"levant-539bc-332bc", file:"modules/levant-539bc-332bc.json", label:"The Levant under Persia 604–332 BC", sub:"Babylonian Conquest, Eber-Nari, the Return from Exile, and Second Temple Judaism's Formation", region:"Levant", period:"Ancient" },
   { id:"hasmonean-332bc-63bc", file:"modules/hasmonean-332bc-63bc.json", label:"Hasmonean Judea 332–63 BC", sub:"Alexander's Conquest, the Maccabean Revolt, and an Independent Kingdom", region:"Levant", period:"Late Antique" },
   // Phase 4 — Roman/Byzantine
   { id:"herod-judea-63bc-135ce", file:"modules/herod-judea-63bc-135ce.json", label:"Herodian and Roman Judea 63 BC–135 AD", sub:"From Pompey's Conquest to the Bar Kokhba Revolt", region:"Levant", period:"Late Antique" },

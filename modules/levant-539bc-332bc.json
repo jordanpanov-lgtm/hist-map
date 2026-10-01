@@ -1,9 +1,9 @@
 {
   "id": "levant-539bc-332bc",
   "title": "The Levant under Persia",
-  "subtitle": "539–332 BC · Eber-Nari, the Return from Exile, and Second Temple Judaism's Formation",
+  "subtitle": "604–332 BC · Babylonian Conquest, Eber-Nari, the Return from Exile, and Second Temple Judaism's Formation",
   "period": {
-    "start": -539,
+    "start": -604,
     "end": -332
   },
   "region": "Levant",
@@ -20,8 +20,24 @@
       "icon": "⚜️",
       "color": "#5C0A00",
       "accent": "#A0200A",
-      "subtitle": "Return from exile, a rebuilt Temple, and Persian-appointed governors",
+      "subtitle": "A conquered coast, return from exile, a rebuilt Temple, and Persian-appointed governors",
       "entries": [
+        {
+          "id": "p0",
+          "group": "The Babylonian Interlude",
+          "tag": "EVENT",
+          "date": "604 BC",
+          "label": "Ashkelon's King Captured, the City Left in Ruins",
+          "loc": "Ashkelon",
+          "coords": [
+            31.67,
+            34.57
+          ],
+          "hint": "The Babylonian Chronicle records that after storming and burning Ashkelon in 604 BC, Nebuchadnezzar's forces captured its king and carried him off to Babylon — the same fate of royal captivity Judah's own king Jehoiachin would suffer within a decade, independently documented in the same empire's administrative ration tablets — while archaeological excavation confirms the city itself remained substantially unoccupied for a significant period afterward, part of a broader demographic collapse across the former Philistine coast that the historical record, in sharp contrast to Judah's own well-documented exile, leaves largely undescribed.",
+          "note": "Babylonian Chronicle (BM 21946), on Ashkelon's capture and the seizure of its king, 604 BC; compare the Weidner ration tablets' independent documentation of King Jehoiachin of Judah's own later Babylonian captivity, and philistia-1200bc-604bc::c3 for Ashkelon's destruction itself, this folio's own direct continuation of that event.",
+          "keywords": ["Ashkelon","Babylonian Chronicle","Nebuchadnezzar","Jehoiachin","Philistine Coast"],
+          "xlinks": ["philistia-1200bc-604bc::c3"]
+        },
         {
           "id": "p1",
           "group": "Return from Exile",
@@ -465,6 +481,11 @@
       "icon": "⚜️",
       "accent": "#A0200A",
       "events": [
+        {
+          "y": -604,
+          "l": "Ashkelon's King Captured, the City Left in Ruins",
+          "entryId": "p0"
+        },
         {
           "y": -539,
           "l": "Cyrus's Edict and the Return",
