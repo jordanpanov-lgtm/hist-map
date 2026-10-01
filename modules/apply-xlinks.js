@@ -1400,6 +1400,9 @@ const SELECTED_PAIRS = [
   ['north-syria-1200bc-717bc::c2', 'assyria-911bc-609bc::k3'],             // Shalmaneser III's campaigns against Bit-Adini/Unqi -> same king's own entry
   ['north-syria-1200bc-717bc::c3', 'assyria-911bc-609bc::k6'],             // Sargon II crushes Hamath's revolt -> Sargon II's own reign entry
   ['north-syria-1200bc-717bc::p6', 'assyria-911bc-609bc::k6'],             // Yau-bidi's revolt -> same Sargon II entry
+  // ── decapolis-63bc-106ce (Levant program addendum) — rejected two generic "Trajan" matches to
+  // unrelated topics (Egypt's own canal/fortress works, Hispania's imperial-birthplace entry).
+  ['decapolis-63bc-106ce::c1', 'hasmonean-332bc-63bc::p7'],   // Alexander Jannaeus's campaigns against the cities -> his own reign entry
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

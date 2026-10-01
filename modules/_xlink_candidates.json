@@ -1,13 +1,13 @@
 {
   "_meta": {
     "generated": "2026-10-01",
-    "figure_matches": 1681,
+    "figure_matches": 1684,
     "figure_matches_rejected_dynasty_mismatch": 1312,
-    "figure_matches_rejected_date_implausible": 2145,
+    "figure_matches_rejected_date_implausible": 2152,
     "dynasty_alignment_proposals_count": 139,
     "keyword_matches": 4898,
     "keyword_matches_rejected_geo_only": 9278,
-    "high_confidence": 1714,
+    "high_confidence": 1717,
     "medium_confidence": 370,
     "low_confidence": 4495
   },
@@ -12059,6 +12059,28 @@
         "decade": "110s"
       },
       "match": {
+        "folio": "decapolis-63bc-106ce",
+        "id": "p5",
+        "cat": "power",
+        "label": "Trajan's Annexation Ends the Decapolis's Distinct Status",
+        "decade": "100s"
+      },
+      "xlink_a": "egypt-30bc-300ad::k6",
+      "xlink_b": "decapolis-63bc-106ce::p5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Trajan",
+      "pivot": {
+        "folio": "egypt-30bc-300ad",
+        "id": "k6",
+        "cat": "power",
+        "label": "Trajan — the canal, the fort and the Jewish war",
+        "dynasty": "Nerva-Antonine",
+        "decade": "110s"
+      },
+      "match": {
         "folio": "mesopotamia-141bc-224",
         "id": "c4",
         "cat": "conflict",
@@ -14501,6 +14523,28 @@
         "decade": "70s BC–100s"
       },
       "match": {
+        "folio": "decapolis-63bc-106ce",
+        "id": "c1",
+        "cat": "conflict",
+        "label": "Alexander Jannaeus's Campaigns against the Cities",
+        "decade": "70s BC–100s"
+      },
+      "xlink_a": "hasmonean-332bc-63bc::p7",
+      "xlink_b": "decapolis-63bc-106ce::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Alexander Jannaeus",
+      "pivot": {
+        "folio": "hasmonean-332bc-63bc",
+        "id": "p7",
+        "cat": "power",
+        "label": "Alexander Jannaeus, King and High Priest",
+        "dynasty": "Hasmonean",
+        "decade": "70s BC–100s"
+      },
+      "match": {
         "folio": "nabataean-312bc-106ce",
         "id": "c1",
         "cat": "conflict",
@@ -16511,6 +16555,28 @@
       },
       "xlink_a": "hejaz-prehistory-8000bc-1200bc::k5",
       "xlink_b": "babylon-1155bc-539bc::xc3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Trajan",
+      "pivot": {
+        "folio": "hispania-27bc-409ad",
+        "id": "k2",
+        "cat": "power",
+        "label": "Trajan and Hadrian — emperors born at Italica",
+        "dynasty": "Roman Imperial",
+        "decade": "130s"
+      },
+      "match": {
+        "folio": "decapolis-63bc-106ce",
+        "id": "p5",
+        "cat": "power",
+        "label": "Trajan's Annexation Ends the Decapolis's Distinct Status",
+        "decade": "100s"
+      },
+      "xlink_a": "hispania-27bc-409ad::k2",
+      "xlink_b": "decapolis-63bc-106ce::p5"
     },
     {
       "confidence": "high",
