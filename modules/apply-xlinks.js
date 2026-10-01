@@ -1412,6 +1412,13 @@ const SELECTED_PAIRS = [
   // folio's own independence entry, despite jordan-1946-today::p1 being Abdullah I's reign
   // directly continuing from it (no new content added, per the user's chosen fix option).
   ['jordan-1946-today::p1', 'mandate-palestine-transjordan-1920-1948::p5'],   // Abdullah I's reign continues -> Transjordan's 1946 independence itself
+  // continuity-audit fix #3 (2026-10-01): roman-byzantine-levant-135-638 was previously silent on
+  // what became of the former Decapolis cities after Trajan's 106 AD annexation; added e3
+  // acknowledging their continued, in several cases accelerated, building and prosperity under
+  // direct provincial rule, cross-linked back to the Decapolis folio's own closing entries.
+  ['roman-byzantine-levant-135-638::e3', 'decapolis-63bc-106ce::p5'],   // the building boom that followed -> the 106 AD annexation itself
+  ['roman-byzantine-levant-135-638::e3', 'decapolis-63bc-106ce::e1'],   // Gerasa's provincial-period architecture -> its own earlier Decapolis-period forum and streets
+  ['roman-byzantine-levant-135-638::e3', 'decapolis-63bc-106ce::e2'],   // Scythopolis's Byzantine-era growth -> its own earlier Decapolis-period theater
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

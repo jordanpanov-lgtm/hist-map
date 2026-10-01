@@ -307,8 +307,24 @@
       "icon": "✨",
       "color": "#5D4037",
       "accent": "#8D6E63",
-      "subtitle": "A mosaic map of the Holy Land, and monumental church architecture",
+      "subtitle": "A mosaic map of the Holy Land, monumental church architecture, and the former Decapolis cities' own continued building boom",
       "entries": [
+        {
+          "id": "e3",
+          "group": "Civic Architecture",
+          "tag": "WORK",
+          "date": "2nd–6th c. AD",
+          "label": "The Former Decapolis Cities' Continued Building Boom",
+          "loc": "Gerasa (Jerash)",
+          "coords": [
+            35.89,
+            32.28
+          ],
+          "hint": "Trajan's 106 AD annexation ended the Decapolis's distinct political status, but several of its constituent cities entered their greatest period of prosperity directly afterward rather than declining: Gerasa's monumental colonnaded streets and triumphal arch — raised for the emperor Hadrian's own visit of 129–130 AD — belong substantially to this provincial rather than the earlier Decapolis period, while Scythopolis, later elevated to capital of the subdivided province of Palaestina Secunda, grew into one of Byzantine Palestine's largest and wealthiest cities before either city's eventual decline.",
+          "note": "The Arch of Hadrian at Gerasa commemorates the emperor's visit of 129–130 AD; compare decapolis-63bc-106ce::p5 for the 106 AD annexation this building boom followed, and ::e1/::e2 for the cities' own earlier Decapolis-period urban cores.",
+          "xlinks": ["decapolis-63bc-106ce::p5", "decapolis-63bc-106ce::e1", "decapolis-63bc-106ce::e2"],
+          "keywords": ["Gerasa Jerash","Former Decapolis Cities Continued Building Boom","Palaestina Secunda"]
+        },
         {
           "id": "e2",
           "group": "Monumental Architecture",
@@ -642,6 +658,11 @@
       "icon": "✨",
       "accent": "#8D6E63",
       "events": [
+        {
+          "y": 200,
+          "l": "The Former Decapolis Cities' Continued Building Boom",
+          "entryId": "e3"
+        },
         {
           "y": 400,
           "l": "Byzantine Church Architecture at Its Height",

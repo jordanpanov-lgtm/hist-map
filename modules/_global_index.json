@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 7235,
+    "total_entries": 7236,
     "folio_count": 152,
-    "xlink_pairs": 1415,
-    "keyword_terms": 11109,
+    "xlink_pairs": 1418,
+    "keyword_terms": 11111,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -613,7 +613,7 @@
       {
         "id": "roman-byzantine-levant-135-638",
         "title": "Roman and Byzantine Palestine",
-        "entries": 26
+        "entries": 27
       },
       {
         "id": "rome-200-300",
@@ -6322,6 +6322,7 @@
     "roman-byzantine-levant-135-638::b4": "Legal Restrictions on a Shrinking Minority",
     "roman-byzantine-levant-135-638::b3": "Chalcedon and a Doctrinal Split",
     "roman-byzantine-levant-135-638::b2": "Sabbas and the Judean Desert Monasteries",
+    "roman-byzantine-levant-135-638::e3": "The Former Decapolis Cities' Continued Building Boom",
     "roman-byzantine-levant-135-638::e2": "Byzantine Church Architecture at Its Height",
     "roman-byzantine-levant-135-638::e1": "The Madaba Map",
     "roman-byzantine-levant-135-638::t1": "Origen's Biblical Scholarship at Caesarea",
@@ -10022,12 +10023,26 @@
     "levant-750-1099::x1": [
       "crusader-states-1099-1291::x1"
     ],
+    "decapolis-63bc-106ce::p5": [
+      "roman-byzantine-levant-135-638::e3"
+    ],
+    "roman-byzantine-levant-135-638::e3": [
+      "decapolis-63bc-106ce::p5",
+      "decapolis-63bc-106ce::e1",
+      "decapolis-63bc-106ce::e2"
+    ],
     "decapolis-63bc-106ce::c1": [
       "hasmonean-332bc-63bc::p7"
     ],
     "hasmonean-332bc-63bc::p7": [
       "decapolis-63bc-106ce::c1",
       "nabataean-312bc-106ce::c1"
+    ],
+    "decapolis-63bc-106ce::e1": [
+      "roman-byzantine-levant-135-638::e3"
+    ],
+    "decapolis-63bc-106ce::e2": [
+      "roman-byzantine-levant-135-638::e3"
     ],
     "dedan-tayma-1200bc-300bc::k1": [
       "hejaz-prehistory-8000bc-1200bc::k5"
@@ -45599,6 +45614,11 @@
       "Judean Desert Monasteries",
       "Sabbas the Sanctified"
     ],
+    "roman-byzantine-levant-135-638::e3": [
+      "Gerasa Jerash",
+      "Former Decapolis Cities Continued Building Boom",
+      "Palaestina Secunda"
+    ],
     "roman-byzantine-levant-135-638::e2": [
       "Jerusalem",
       "Architecture",
@@ -69664,7 +69684,8 @@
       "decapolis-63bc-106ce::b1",
       "decapolis-63bc-106ce::e1",
       "decapolis-63bc-106ce::x1",
-      "decapolis-63bc-106ce::w1"
+      "decapolis-63bc-106ce::w1",
+      "roman-byzantine-levant-135-638::e3"
     ],
     "Self-Governing Poleis": [
       "decapolis-63bc-106ce::p3"
@@ -95248,6 +95269,12 @@
     ],
     "Sabbas the Sanctified": [
       "roman-byzantine-levant-135-638::b2"
+    ],
+    "Former Decapolis Cities Continued Building Boom": [
+      "roman-byzantine-levant-135-638::e3"
+    ],
+    "Palaestina Secunda": [
+      "roman-byzantine-levant-135-638::e3"
     ],
     "Architecture": [
       "roman-byzantine-levant-135-638::e2"
