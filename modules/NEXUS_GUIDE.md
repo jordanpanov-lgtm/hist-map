@@ -8,11 +8,12 @@ schema truth and GROUPING_GUIDE.md is the taxonomy truth for folios generally. R
 full before building a Nexus for any folio — do not infer the format from `mamluks-1250-1517.nexus.json`
 alone; a few of its choices are explained only here.
 
-A Nexus is **not** part of the required folio-creation workflow (see `.claude/commands/new-folio.md`
-step 9) — most folios will never get one. Build one only when asked, or when a folio's own entries
-turn out to have unusually dense, explicitly-stated causal chains worth surfacing (a long-running
-dynasty's chain of successions and shocks is a good candidate; a folio that's mostly independent
-parallel developments with little cross-causation is not).
+A Nexus is a **standard part of the folio-creation workflow** (see `.claude/commands/new-folio.md`
+step 9) — every folio gets one. How dense it comes out depends on the folio: a long-running dynasty's
+chain of successions and shocks yields a richly connected graph, while a folio of mostly independent
+parallel developments yields a sparse one with more `loose` edges and honest orphans. That is the
+correct result, not a reason to skip it — and not a reason to add edges the folio's own text doesn't
+support.
 
 ---
 

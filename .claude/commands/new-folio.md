@@ -4,7 +4,7 @@ authoritative references:
 ```
 modules/FIELD_GUIDE.md       ← schema: entry/folio fields, dynasty, keywords, xlinks, validation
 modules/GROUPING_GUIDE.md    ← taxonomy: what group per category, terminology, historiographic rules
-modules/NEXUS_GUIDE.md       ← optional: building a causal-web "Nexus" view for a folio (Step 9 below)
+modules/NEXUS_GUIDE.md       ← building the folio's causal-web "Nexus" view — a standard step (Step 9 below)
 ```
 
 Do not infer the schema or taxonomy from existing JSON files — some are older than the current
@@ -297,14 +297,14 @@ If no confident xlinks are found, skip this step. Xlinks can always be added lat
 
 ---
 
-### Step 9 — Nexus (causal web), optional — not part of every folio
+### Step 9 — Nexus (causal web) — a standard step for every folio
 
-The folio is **complete without this step** — most folios never get a Nexus. Consider it only when
-asked, or when this folio's own entries turned out to have unusually dense, explicitly-stated causal
-chains (a single continuous dynasty/state with clear succession-and-shock causation is a good
-candidate; a folio of mostly-independent parallel developments is not).
+Every folio gets a Nexus; the folio is **not complete without this step**. A folio whose entries are
+mostly independent parallel developments still gets one — it will simply be sparser, with fewer
+edges, more `loose` tiers and honest orphans. Do not skip the step because causation is thin, and do
+not invent edges to make it denser: the sourcing and honesty rules in `NEXUS_GUIDE.md` apply in full.
 
-If building one, read `modules/NEXUS_GUIDE.md` in full first — it is the schema and methodology
+Read `modules/NEXUS_GUIDE.md` in full first — it is the schema and methodology
 reference, with `modules/mamluks-1250-1517.nexus.json` as the worked example. In short: a
 `modules/<id>.nexus.json` sidecar (never inside the folio's own JSON) listing `nodes` (folio entries
 by their real `id`, plus named external forces) and `edges` (directed, sourced causal links tiered
@@ -313,7 +313,7 @@ nodes gold/silver/bronze automatically; nothing else needs to be authored for th
 No `config/registry.js` entry and no `validate.js` changes are needed — `index.html` auto-detects the
 sidecar file by name and shows a 🕸 Nexus tab only when it exists.
 
-Commit if built:
+Commit:
 ```
 git add modules/<id>.nexus.json
 git commit -m "<id> folio: Nexus — causal-web view"
@@ -349,4 +349,4 @@ git push
 | Step 6 | Keywords generated | Every entry has a `keywords` array |
 | Step 7 | Registered + global index rebuilt | Folio listed in `config/registry.js` MODULES and in `_global_index.json` |
 | Step 8 | Xlink wiring done (or explicitly skipped) | Reviewed matches applied via `apply-xlinks.js`, or none found |
-| Step 9 | Nexus built (or skipped — the default) | `modules/<id>.nexus.json` exists and committed, or intentionally not built |
+| Step 9 | Nexus built | `modules/<id>.nexus.json` exists, `validate.js` shows 0 errors, committed |
