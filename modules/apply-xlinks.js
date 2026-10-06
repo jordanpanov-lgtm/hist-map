@@ -1419,6 +1419,14 @@ const SELECTED_PAIRS = [
   ['roman-byzantine-levant-135-638::e3', 'decapolis-63bc-106ce::p5'],   // the building boom that followed -> the 106 AD annexation itself
   ['roman-byzantine-levant-135-638::e3', 'decapolis-63bc-106ce::e1'],   // Gerasa's provincial-period architecture -> its own earlier Decapolis-period forum and streets
   ['roman-byzantine-levant-135-638::e3', 'decapolis-63bc-106ce::e2'],   // Scythopolis's Byzantine-era growth -> its own earlier Decapolis-period theater
+  // ── eastern-Iran coverage addition (2026-10-06): reviewed candidates only. Rejected the pipeline's
+  // word-fan-out matches: 'Sasanian' (Gulf folios), 'Revolt' (Hejaz Arab Revolt), 'Iran'/'Iranian' (Trucial/Oman),
+  // 'Alexander' (Babylon entry for a different event), and 'Shah Abbas' (Hormuz 1622 vs the Khorasan entries).
+  ['caliphate-945-1258::c5', 'iran-1055-1219::c6'],                     // Qatwan from the caliphal side -> the same 1141 battle in the Seljuk-era folio
+  ['ilkhanate-1219-1335::p7', 'iran-1335-1501::p1'],                    // the Karts of Herat as Mongol vassals -> the Karts among the post-Ilkhanid successors
+  ['qajar-1789-1925::x3', 'pahlavi-1925-1979::x3'],                     // the Goldsmid and McMahon Sistan awards -> the 1973 Helmand treaty built on them
+  ['pahlavi-1925-1979::x3', 'iran-1979-today::ec3'],                    // the 1973 treaty -> the unratified treaty behind the Hamoun and Helmand dispute
+  ['achaemenid-550bc-330bc::w4', 'seleucid-iran-330bc-148bc::c7'],      // Darius murdered by Bessus in Bactria -> Alexander's pursuit and the Spitamenes revolt
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

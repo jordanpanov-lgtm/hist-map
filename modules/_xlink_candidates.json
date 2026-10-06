@@ -1,15 +1,15 @@
 {
   "_meta": {
-    "generated": "2026-10-01",
-    "figure_matches": 1684,
-    "figure_matches_rejected_dynasty_mismatch": 1312,
-    "figure_matches_rejected_date_implausible": 2152,
-    "dynasty_alignment_proposals_count": 139,
-    "keyword_matches": 4898,
-    "keyword_matches_rejected_geo_only": 9278,
-    "high_confidence": 1717,
+    "generated": "2026-10-06",
+    "figure_matches": 1700,
+    "figure_matches_rejected_dynasty_mismatch": 1314,
+    "figure_matches_rejected_date_implausible": 2165,
+    "dynasty_alignment_proposals_count": 140,
+    "keyword_matches": 4900,
+    "keyword_matches_rejected_geo_only": 9283,
+    "high_confidence": 1733,
     "medium_confidence": 370,
-    "low_confidence": 4495
+    "low_confidence": 4497
   },
   "figure_name_matches": [
     {
@@ -3560,6 +3560,28 @@
       "name": "Sasanian",
       "pivot": {
         "folio": "beth-qatraye-240-632",
+        "id": "k1",
+        "cat": "power",
+        "label": "The Sasanian province system on the Arabian shore",
+        "dynasty": "Sasanian",
+        "decade": "240s–620s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "o5",
+        "cat": "order",
+        "label": "The Sasanian Northeast: Merv’s Marzban and Abarshahr’s Kanarang",
+        "decade": "480s–650s"
+      },
+      "xlink_a": "beth-qatraye-240-632::k1",
+      "xlink_b": "sassanid-484-651::o5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sasanian",
+      "pivot": {
+        "folio": "beth-qatraye-240-632",
         "id": "o1",
         "cat": "order",
         "label": "Sasanian military colonisation of the Gulf coast",
@@ -3707,6 +3729,28 @@
       },
       "xlink_a": "beth-qatraye-240-632::o1",
       "xlink_b": "mesopotamia-224-637::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sasanian",
+      "pivot": {
+        "folio": "beth-qatraye-240-632",
+        "id": "o1",
+        "cat": "order",
+        "label": "Sasanian military colonisation of the Gulf coast",
+        "dynasty": "Sasanian",
+        "decade": "320s–570s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "o5",
+        "cat": "order",
+        "label": "The Sasanian Northeast: Merv’s Marzban and Abarshahr’s Kanarang",
+        "decade": "480s–650s"
+      },
+      "xlink_a": "beth-qatraye-240-632::o1",
+      "xlink_b": "sassanid-484-651::o5"
     },
     {
       "confidence": "high",
@@ -3883,6 +3927,28 @@
       },
       "xlink_a": "beth-qatraye-240-632::b1",
       "xlink_b": "mesopotamia-224-637::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sasanian",
+      "pivot": {
+        "folio": "beth-qatraye-240-632",
+        "id": "b1",
+        "cat": "belief",
+        "label": "Sasanian fire worship on the Arabian shore",
+        "dynasty": "Sasanian",
+        "decade": "240s–620s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "o5",
+        "cat": "order",
+        "label": "The Sasanian Northeast: Merv’s Marzban and Abarshahr’s Kanarang",
+        "decade": "480s–650s"
+      },
+      "xlink_a": "beth-qatraye-240-632::b1",
+      "xlink_b": "sassanid-484-651::o5"
     },
     {
       "confidence": "high",
@@ -4433,6 +4499,28 @@
       },
       "xlink_a": "beth-qatraye-240-632::tc1",
       "xlink_b": "mesopotamia-224-637::w4"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Sasanian",
+      "pivot": {
+        "folio": "beth-qatraye-240-632",
+        "id": "tc1",
+        "cat": "technology",
+        "label": "Sasanian deep-water shipping",
+        "dynasty": "Sasanian",
+        "decade": "240s–630s"
+      },
+      "match": {
+        "folio": "sassanid-484-651",
+        "id": "o5",
+        "cat": "order",
+        "label": "The Sasanian Northeast: Merv’s Marzban and Abarshahr’s Kanarang",
+        "decade": "480s–650s"
+      },
+      "xlink_a": "beth-qatraye-240-632::tc1",
+      "xlink_b": "sassanid-484-651::o5"
     },
     {
       "confidence": "high",
@@ -7997,6 +8085,28 @@
       },
       "xlink_a": "caliphate-945-1258::c3",
       "xlink_b": "iran-1055-1219::w1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Qatwan",
+      "pivot": {
+        "folio": "caliphate-945-1258",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Qatwan — the eastern collapse",
+        "dynasty": "Seljuk",
+        "decade": "1140s"
+      },
+      "match": {
+        "folio": "iran-1055-1219",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The Battle of Qatwan",
+        "decade": "1140s"
+      },
+      "xlink_a": "caliphate-945-1258::c5",
+      "xlink_b": "iran-1055-1219::c6"
     },
     {
       "confidence": "high",
@@ -15381,6 +15491,28 @@
         "decade": "1910s"
       },
       "match": {
+        "folio": "pahlavi-1925-1979",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "The Goharshad Mosque Revolt at Mashhad",
+        "decade": "1930s"
+      },
+      "xlink_a": "hejaz-1900-1925::k3",
+      "xlink_b": "pahlavi-1925-1979::c5"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Revolt",
+      "pivot": {
+        "folio": "hejaz-1900-1925",
+        "id": "k3",
+        "cat": "power",
+        "label": "The Revolt and Hussein's sons",
+        "dynasty": "Hashemite",
+        "decade": "1910s"
+      },
+      "match": {
         "folio": "saudi-1902-today",
         "id": "c4",
         "cat": "conflict",
@@ -16929,6 +17061,28 @@
       },
       "xlink_a": "hormuz-1200-1507::w3",
       "xlink_b": "yemen-628-1517::x3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Karts",
+      "pivot": {
+        "folio": "ilkhanate-1219-1335",
+        "id": "p7",
+        "cat": "power",
+        "label": "The Karts — Herat’s Mongol Vassals",
+        "dynasty": "Kart",
+        "decade": "1240s–1330s"
+      },
+      "match": {
+        "folio": "iran-1335-1501",
+        "id": "p1",
+        "cat": "power",
+        "label": "The Jalayirids, Muzaffarids and Karts",
+        "decade": "1330s–1380s"
+      },
+      "xlink_a": "ilkhanate-1219-1335::p7",
+      "xlink_b": "iran-1335-1501::p1"
     },
     {
       "confidence": "high",
@@ -23214,6 +23368,28 @@
       },
       "match": {
         "folio": "seleucid-iran-330bc-148bc",
+        "id": "c7",
+        "cat": "conflict",
+        "label": "Alexander in Bactria and Sogdiana: the Spitamenes Revolt",
+        "decade": "320s BC–320s"
+      },
+      "xlink_a": "mesopotamia-539bc-331bc::k6",
+      "xlink_b": "seleucid-iran-330bc-148bc::c7"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Alexander",
+      "pivot": {
+        "folio": "mesopotamia-539bc-331bc",
+        "id": "k6",
+        "cat": "power",
+        "label": "Alexander enters Babylon",
+        "dynasty": "Argead",
+        "decade": "330s BC"
+      },
+      "match": {
+        "folio": "seleucid-iran-330bc-148bc",
         "id": "b2",
         "cat": "belief",
         "label": "The Later Memory of 'Alexander's' Religious Damage",
@@ -25795,6 +25971,28 @@
       },
       "xlink_a": "nw-arabia-632-1517::k5",
       "xlink_b": "ottoman-syria-1516-1800::ec1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iranian",
+      "pivot": {
+        "folio": "oman-1970-today",
+        "id": "c3",
+        "cat": "conflict",
+        "label": "Iranian, Jordanian and British intervention",
+        "dynasty": "Pahlavi",
+        "decade": "1970s"
+      },
+      "match": {
+        "folio": "iran-1979-today",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The Killing of Iranian Diplomats at Mazar-i-Sharif",
+        "decade": "1990s"
+      },
+      "xlink_a": "oman-1970-today::c3",
+      "xlink_b": "iran-1979-today::c6"
     },
     {
       "confidence": "high",
@@ -28824,6 +29022,28 @@
       },
       "match": {
         "folio": "safavid-1501-1722",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Shah Abbas Retakes Mashhad and Herat",
+        "decade": "1590s"
+      },
+      "xlink_a": "portuguese-gulf-1507-1650::k5",
+      "xlink_b": "safavid-1501-1722::c6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Shah Abbas",
+      "pivot": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "k5",
+        "cat": "power",
+        "label": "Shah Abbas takes Hormuz; Bandar Abbas founded",
+        "dynasty": "Safavid",
+        "decade": "1620s"
+      },
+      "match": {
+        "folio": "safavid-1501-1722",
         "id": "c3",
         "cat": "conflict",
         "label": "Shah Abbas's Reconquest from the Ottomans",
@@ -28853,6 +29073,28 @@
       },
       "xlink_a": "portuguese-gulf-1507-1650::k5",
       "xlink_b": "safavid-1501-1722::o2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Shah Abbas",
+      "pivot": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "k5",
+        "cat": "power",
+        "label": "Shah Abbas takes Hormuz; Bandar Abbas founded",
+        "dynasty": "Safavid",
+        "decade": "1620s"
+      },
+      "match": {
+        "folio": "safavid-1501-1722",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Shah Abbas Walks to Mashhad",
+        "decade": "1590s"
+      },
+      "xlink_a": "portuguese-gulf-1507-1650::k5",
+      "xlink_b": "safavid-1501-1722::b3"
     },
     {
       "confidence": "high",
@@ -30562,6 +30804,28 @@
       },
       "match": {
         "folio": "safavid-1501-1722",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Shah Abbas Retakes Mashhad and Herat",
+        "decade": "1590s"
+      },
+      "xlink_a": "portuguese-gulf-1507-1650::w3",
+      "xlink_b": "safavid-1501-1722::c6"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Shah Abbas",
+      "pivot": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "w3",
+        "cat": "world",
+        "label": "Shah Abbas rebuilds Persian power",
+        "dynasty": "Safavid",
+        "decade": "1580s–1620s"
+      },
+      "match": {
+        "folio": "safavid-1501-1722",
         "id": "c3",
         "cat": "conflict",
         "label": "Shah Abbas's Reconquest from the Ottomans",
@@ -30591,6 +30855,28 @@
       },
       "xlink_a": "portuguese-gulf-1507-1650::w3",
       "xlink_b": "safavid-1501-1722::o2"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Shah Abbas",
+      "pivot": {
+        "folio": "portuguese-gulf-1507-1650",
+        "id": "w3",
+        "cat": "world",
+        "label": "Shah Abbas rebuilds Persian power",
+        "dynasty": "Safavid",
+        "decade": "1580s–1620s"
+      },
+      "match": {
+        "folio": "safavid-1501-1722",
+        "id": "b3",
+        "cat": "belief",
+        "label": "Shah Abbas Walks to Mashhad",
+        "decade": "1590s"
+      },
+      "xlink_a": "portuguese-gulf-1507-1650::w3",
+      "xlink_b": "safavid-1501-1722::b3"
     },
     {
       "confidence": "high",
@@ -33891,6 +34177,72 @@
       },
       "xlink_a": "trucial-gulf-1900-1971::c6",
       "xlink_b": "iran-1979-today::c1"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iran",
+      "pivot": {
+        "folio": "trucial-gulf-1900-1971",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Iran seizes the Tunbs and Abu Musa",
+        "dynasty": "Pahlavi",
+        "decade": "1970s"
+      },
+      "match": {
+        "folio": "iran-1979-today",
+        "id": "x3",
+        "cat": "exchange",
+        "label": "Afghan Refugees and Migrants in Iran",
+        "decade": "1970s–2020s"
+      },
+      "xlink_a": "trucial-gulf-1900-1971::c6",
+      "xlink_b": "iran-1979-today::x3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iran",
+      "pivot": {
+        "folio": "trucial-gulf-1900-1971",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Iran seizes the Tunbs and Abu Musa",
+        "dynasty": "Pahlavi",
+        "decade": "1970s"
+      },
+      "match": {
+        "folio": "iran-1979-today",
+        "id": "w3",
+        "cat": "world",
+        "label": "Iran and the Taliban’s Afghanistan",
+        "decade": "2020s"
+      },
+      "xlink_a": "trucial-gulf-1900-1971::c6",
+      "xlink_b": "iran-1979-today::w3"
+    },
+    {
+      "confidence": "high",
+      "type": "figure-name",
+      "name": "Iran",
+      "pivot": {
+        "folio": "trucial-gulf-1900-1971",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "Iran seizes the Tunbs and Abu Musa",
+        "dynasty": "Pahlavi",
+        "decade": "1970s"
+      },
+      "match": {
+        "folio": "iran-1979-today",
+        "id": "l3",
+        "cat": "lives",
+        "label": "The Baluch in Iran’s Poorest Province",
+        "decade": "1990s"
+      },
+      "xlink_a": "trucial-gulf-1900-1971::c6",
+      "xlink_b": "iran-1979-today::l3"
     },
     {
       "confidence": "high",
@@ -38828,6 +39180,23 @@
         "label": "Shapur I",
         "dynasty": "House of Sasan",
         "decade": "240s–270s"
+      }
+    },
+    {
+      "name": "Shapur I",
+      "entry_a": {
+        "folio": "mesopotamia-224-637",
+        "id": "k2",
+        "label": "Shapur I and the captured emperors",
+        "dynasty": "Sasanian",
+        "decade": "240s–270s"
+      },
+      "entry_b": {
+        "folio": "sassanid-224-484",
+        "id": "c9",
+        "label": "Ardashir and Shapur I Take Kushanshahr",
+        "dynasty": "House of Sasan",
+        "decade": "230s–260s"
       }
     },
     {
@@ -136179,6 +136548,32 @@
       ],
       "sharedCount": 2,
       "a": {
+        "folio": "iran-1979-today",
+        "id": "w3",
+        "cat": "world",
+        "label": "Iran and the Taliban’s Afghanistan",
+        "decade": "2020s"
+      },
+      "b": {
+        "folio": "yemen-1900-today",
+        "id": "x4",
+        "cat": "exchange",
+        "label": "Iran and the Houthis",
+        "decade": "2000s"
+      },
+      "date_flag": "12yr gap",
+      "xlink_a": "iran-1979-today::w3",
+      "xlink_b": "yemen-1900-today::x4"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Iran",
+        "Tehran"
+      ],
+      "sharedCount": 2,
+      "a": {
         "folio": "kuwait-1961-today",
         "id": "x3",
         "cat": "exchange",
@@ -152055,6 +152450,32 @@
       "date_flag": "overlapping",
       "xlink_a": "palmyrene-100bc-273ce::lv1",
       "xlink_b": "rome-200-300::s1"
+    },
+    {
+      "confidence": "low",
+      "type": "keyword-overlap",
+      "sharedTerms": [
+        "Qara Khitai",
+        "Qatwan"
+      ],
+      "sharedCount": 2,
+      "a": {
+        "folio": "caliphate-945-1258",
+        "id": "c5",
+        "cat": "conflict",
+        "label": "Qatwan — the eastern collapse",
+        "decade": "1140s"
+      },
+      "b": {
+        "folio": "iran-1055-1219",
+        "id": "c6",
+        "cat": "conflict",
+        "label": "The Battle of Qatwan",
+        "decade": "1140s"
+      },
+      "date_flag": "overlapping",
+      "xlink_a": "caliphate-945-1258::c5",
+      "xlink_b": "iran-1055-1219::c6"
     },
     {
       "confidence": "low",
