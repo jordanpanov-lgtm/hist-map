@@ -335,6 +335,31 @@
    "label": "Ecbatana mint",
    "full": "Ecbatana operated as one of the Seleucid empire's major mints, striking silver tetradrachms on the Attic weight standard alongside the western mints — a concrete sign that Media remained financially integrated into the wider Seleucid monetary system until the very end of the kingdom's hold on Iran.",
    "src": "Arthur Houghton and Catharine Lorber, Seleucid Coins: A Comprehensive Catalogue (2002)."
+  },
+  {
+   "id": "c7",
+   "lane": "conflict",
+   "year": -329,
+   "label": "Alexander in Bactria and Sogdiana",
+   "full": "After Bessus was betrayed and executed in 329 BC, the Sogdian chief Spitamenes raised Sogdiana against Alexander with the help of Massagetae allies, besieged the Macedonian garrison at Maracanda and destroyed a relief force under Pharnuches. The revolt ended in late 328 when Spitamenes’s own allies killed him, and in 327 Alexander took the Sogdian Rock stronghold of Oxyartes and married his daughter Roxane — the hardest campaign of his career, and the origin of the Greek and Macedonian settlement of Bactria.",
+   "src": "Arrian, Anabasis 3.30–4.18, and Curtius Rufus, Histories 7–8; the Greek sources’ casualty figures for Pharnuches’s force (over 2,000 infantry and some 300 cavalry) are given by Arrian and are not independently confirmed."
+  },
+  {
+   "id": "e5",
+   "lane": "expression",
+   "year": -280,
+   "label": "Ai Khanoum",
+   "full": "Ai Khanoum, at the confluence of the Oxus and the Kokcha in northern Afghanistan, was a Greek city of the early Seleucid and then Greco-Bactrian kingdoms, with a gymnasium, a theatre of about 5,000 seats, an administrative palace and temples. An inscription found near its heroon records Delphic maxims copied at Delphi by Clearchus of Soli; the city was abandoned around 145 BC, probably under nomad attack. Excavated by a French team from 1964 until the Soviet invasion ended the work.",
+   "src": "Excavation reports of the Délégation archéologique française en Afghanistan (DAFA), directed by Paul Bernard; the founding date of c.280 BC and the identification of the founder are inferred and debated, and the circumstances of the city’s end are reconstructed from the archaeology."
+  },
+  {
+   "id": "ext1",
+   "lane": "external",
+   "year": -330,
+   "label": "Darius III murdered by Bessus",
+   "full": "The satrap Bessus kills the fleeing Darius III in Bactria and claims the throne, leaving Alexander to pursue him into Sogdiana.",
+   "src": "background — see the Achaemenid Iran 550–330 BC folio",
+   "external": true
   }
  ],
  "edges": [
@@ -631,6 +656,24 @@
    "o3",
    "loose",
    "the loss of Media was a direct loss to the royal treasury"
+  ],
+  [
+   "ext1",
+   "c7",
+   "strong",
+   "Alexander pursued Bessus into Bactria and Sogdiana, where the Spitamenes revolt followed his betrayal and execution"
+  ],
+  [
+   "c7",
+   "e5",
+   "loose",
+   "Alexander Bactrian campaigns began the Greek and Macedonian settlement from which Ai Khanoum grew"
+  ],
+  [
+   "c2",
+   "e5",
+   "loose",
+   "Ai Khanoum passed from the Seleucid to the Greco-Bactrian kingdom after the secession"
   ]
  ]
 }
