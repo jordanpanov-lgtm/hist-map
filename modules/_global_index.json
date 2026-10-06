@@ -3,7 +3,7 @@
     "total_entries": 7283,
     "folio_count": 152,
     "xlink_pairs": 1418,
-    "keyword_terms": 11263,
+    "keyword_terms": 11266,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -800,9 +800,9 @@
     "achaemenid-550bc-330bc::b3": "The Return from Exile and the Second Temple",
     "achaemenid-550bc-330bc::b6": "The Apis Bulls of Memphis",
     "achaemenid-550bc-330bc::b1": "Ahura Mazda in Royal Ideology",
+    "achaemenid-550bc-330bc::b7": "Zoroastrian Texts and an Eastern Iranian Setting",
     "achaemenid-550bc-330bc::b2": "The Magi as Ritual Specialists",
     "achaemenid-550bc-330bc::b4": "Nehemiah's Mission and the Walls of Jerusalem",
-    "achaemenid-550bc-330bc::b7": "Zoroastrian Texts and an Eastern Iranian Setting",
     "achaemenid-550bc-330bc::e2": "The Tomb of Cyrus at Pasargadae",
     "achaemenid-550bc-330bc::e4": "The Behistun Relief",
     "achaemenid-550bc-330bc::e1": "Persepolis — the Apadana and the Gate of All Nations",
@@ -6695,7 +6695,7 @@
     "sassanid-484-651::k11": "Yazdegerd III",
     "sassanid-484-651::c1": "Khosrow I sacks Antioch",
     "sassanid-484-651::c2": "Khosrow I destroys the Hephthalite Empire",
-    "sassanid-484-651::c9": "Bahram Chobin’s Eastern Victories and Revolt",
+    "sassanid-484-651::c9": "The Perso-Turkic War of 588–589 and the Recovery of Balkh",
     "sassanid-484-651::c3": "Khosrow II captures Jerusalem — True Cross taken",
     "sassanid-484-651::c4": "Persian siege of Constantinople",
     "sassanid-484-651::c5": "Battle of Nineveh — Heraclius reverses the war",
@@ -14973,6 +14973,14 @@
       "Ahura Mazda",
       "Royal Ideology"
     ],
+    "achaemenid-550bc-330bc::b7": [
+      "Bactra",
+      "Bactria",
+      "Zoroastrian Texts",
+      "Eastern Iranian Setting",
+      "Greater Iran",
+      "Ahura Mazda"
+    ],
     "achaemenid-550bc-330bc::b2": [
       "Ecbatana",
       "Magi",
@@ -14982,14 +14990,6 @@
       "Nehemiah Mission",
       "Walls of Jerusalem",
       "Artaxerxes I"
-    ],
-    "achaemenid-550bc-330bc::b7": [
-      "Bactra",
-      "Bactria",
-      "Zoroastrian Texts",
-      "Eastern Iranian Setting",
-      "Greater Iran",
-      "Ahura Mazda"
     ],
     "achaemenid-550bc-330bc::e2": [
       "Pasargadae",
@@ -47958,12 +47958,12 @@
       "Peroz I"
     ],
     "sassanid-484-651::c9": [
-      "Balkh",
-      "Bahram Chobin Eastern Victories",
-      "Revolt",
-      "Hyrcanian Rock",
-      "Hormizd IV",
-      "Khosrow II"
+      "Perso-Turkic War",
+      "Recovery of Balkh",
+      "Western Turkic",
+      "Sasanian Khorasan",
+      "Bahram Chobin",
+      "Hyrcanian Rock"
     ],
     "sassanid-484-651::c3": [
       "Jerusalem",
@@ -57235,6 +57235,15 @@
     "Royal Ideology": [
       "achaemenid-550bc-330bc::b1"
     ],
+    "Zoroastrian Texts": [
+      "achaemenid-550bc-330bc::b7"
+    ],
+    "Eastern Iranian Setting": [
+      "achaemenid-550bc-330bc::b7"
+    ],
+    "Greater Iran": [
+      "achaemenid-550bc-330bc::b7"
+    ],
     "Magi": [
       "achaemenid-550bc-330bc::b2",
       "media-728bc-550bc::b1"
@@ -57247,15 +57256,6 @@
     ],
     "Walls of Jerusalem": [
       "achaemenid-550bc-330bc::b4"
-    ],
-    "Zoroastrian Texts": [
-      "achaemenid-550bc-330bc::b7"
-    ],
-    "Eastern Iranian Setting": [
-      "achaemenid-550bc-330bc::b7"
-    ],
-    "Greater Iran": [
-      "achaemenid-550bc-330bc::b7"
     ],
     "Tomb of Cyrus": [
       "achaemenid-550bc-330bc::e2"
@@ -66526,7 +66526,6 @@
       "najd-300bc-632::k3",
       "roman-byzantine-levant-135-638::p6",
       "sassanid-484-651::k9",
-      "sassanid-484-651::c9",
       "sassanid-484-651::c3",
       "sassanid-484-651::c5",
       "sassanid-484-651::c8",
@@ -82310,8 +82309,7 @@
       "hejaz-1900-1925::lv1",
       "iraq-1914-1958::c2",
       "mandate-palestine-transjordan-1920-1948::c2",
-      "mesopotamia-2334bc-2004bc::c2",
-      "sassanid-484-651::c9"
+      "mesopotamia-2334bc-2004bc::c2"
     ],
     "Indian": [
       "hejaz-1517-1900::lv2",
@@ -85540,8 +85538,7 @@
     "Balkh": [
       "iran-651-821::p5",
       "iran-651-821::b3",
-      "iran-821-1055::c3",
-      "sassanid-484-651::c9"
+      "iran-821-1055::c3"
     ],
     "Barmakid Governors of Khorasan": [
       "iran-651-821::p5"
@@ -97932,7 +97929,6 @@
     ],
     "Hormizd IV": [
       "sassanid-484-651::k6",
-      "sassanid-484-651::c9",
       "sassanid-484-651::c8"
     ],
     "Son of Khosrow I": [
@@ -97941,6 +97937,7 @@
     "Bahram Chobin": [
       "sassanid-484-651::k6",
       "sassanid-484-651::k7",
+      "sassanid-484-651::c9",
       "sassanid-484-651::c8"
     ],
     "Dastagird": [
@@ -97968,7 +97965,16 @@
     "Hephthalite Empire": [
       "sassanid-484-651::c2"
     ],
-    "Bahram Chobin Eastern Victories": [
+    "Perso-Turkic War": [
+      "sassanid-484-651::c9"
+    ],
+    "Recovery of Balkh": [
+      "sassanid-484-651::c9"
+    ],
+    "Western Turkic": [
+      "sassanid-484-651::c9"
+    ],
+    "Sasanian Khorasan": [
       "sassanid-484-651::c9"
     ],
     "Hyrcanian Rock": [
