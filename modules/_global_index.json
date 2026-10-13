@@ -1,14 +1,19 @@
 {
   "_meta": {
-    "total_entries": 8564,
-    "folio_count": 177,
-    "xlink_pairs": 1752,
-    "keyword_terms": 13121,
+    "total_entries": 8602,
+    "folio_count": 178,
+    "xlink_pairs": 1769,
+    "keyword_terms": 13162,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
         "title": "Achaemenid Empire",
         "entries": 68
+      },
+      {
+        "id": "achaemenid-caucasus-585bc-330bc",
+        "title": "Achaemenid and Orontid Caucasus",
+        "entries": 38
       },
       {
         "id": "al-andalus-1031-1492",
@@ -961,6 +966,44 @@
     "achaemenid-550bc-330bc::l2": "Atossa and Parysatis — Royal Women in Politics",
     "achaemenid-550bc-330bc::l5": "Babylon's Demotion after the Revolts",
     "achaemenid-550bc-330bc::l4": "The Eunuchs of the Achaemenid Court",
+    "achaemenid-caucasus-585bc-330bc::p1": "The Median overlordship of the highlands",
+    "achaemenid-caucasus-585bc-330bc::p2": "Cyrus and the Persian takeover",
+    "achaemenid-caucasus-585bc-330bc::p3": "Darius I and the reconquest of Armina",
+    "achaemenid-caucasus-585bc-330bc::p4": "The Armenian satrapy",
+    "achaemenid-caucasus-585bc-330bc::p5": "Orontes and the Orontid satraps",
+    "achaemenid-caucasus-585bc-330bc::p6": "Mithrenes and the end of Persian Armenia",
+    "achaemenid-caucasus-585bc-330bc::p7": "Colchis and its gift to the Great King",
+    "achaemenid-caucasus-585bc-330bc::p8": "The Moschi, Tibareni and the mountain peoples",
+    "achaemenid-caucasus-585bc-330bc::p9": "Taochi and the strongholds of the north-west",
+    "achaemenid-caucasus-585bc-330bc::p10": "The Albanians, Caspians and Sacesinae",
+    "achaemenid-caucasus-585bc-330bc::p11": "Atropates and the satrapy of Media",
+    "achaemenid-caucasus-585bc-330bc::c1": "The Armenian rebellions against Darius",
+    "achaemenid-caucasus-585bc-330bc::c4": "Armenians, Colchians and Saspires in Xerxes's army",
+    "achaemenid-caucasus-585bc-330bc::c2": "The Ten Thousand cross Armenia",
+    "achaemenid-caucasus-585bc-330bc::c3": "The fortress of the Taochoi",
+    "achaemenid-caucasus-585bc-330bc::c5": "Gaugamela",
+    "achaemenid-caucasus-585bc-330bc::o2": "The Behistun inscription",
+    "achaemenid-caucasus-585bc-330bc::o1": "The tribute list",
+    "achaemenid-caucasus-585bc-330bc::b2": "The sanctuary of Vani",
+    "achaemenid-caucasus-585bc-330bc::b1": "The Iranian gods of Armenia",
+    "achaemenid-caucasus-585bc-330bc::e3": "Colchian gold and the Greek imports",
+    "achaemenid-caucasus-585bc-330bc::e1": "The Armenians at the Apadana",
+    "achaemenid-caucasus-585bc-330bc::e2": "Xerxes's inscription at Van",
+    "achaemenid-caucasus-585bc-330bc::t3": "Iranian words in Armenian",
+    "achaemenid-caucasus-585bc-330bc::t2": "Herodotus and Hecataeus map the Caucasus",
+    "achaemenid-caucasus-585bc-330bc::t1": "Xenophon's Armenia",
+    "achaemenid-caucasus-585bc-330bc::t4": "Armenos of Thessaly",
+    "achaemenid-caucasus-585bc-330bc::ec2": "Wine, barley and the highland farm",
+    "achaemenid-caucasus-585bc-330bc::ec3": "The trade of the Phasis",
+    "achaemenid-caucasus-585bc-330bc::ec1": "Twenty thousand foals",
+    "achaemenid-caucasus-585bc-330bc::g1": "The Colchian silver coins",
+    "achaemenid-caucasus-585bc-330bc::g2": "Colchian iron and bronze",
+    "achaemenid-caucasus-585bc-330bc::x2": "Greek goods at Pichvnari",
+    "achaemenid-caucasus-585bc-330bc::x1": "The Royal Road through Armenia",
+    "achaemenid-caucasus-585bc-330bc::w1": "The Persian frontier and Alexander",
+    "achaemenid-caucasus-585bc-330bc::l2": "The children sent as gifts",
+    "achaemenid-caucasus-585bc-330bc::l1": "The villagers in underground houses",
+    "achaemenid-caucasus-585bc-330bc::l3": "Rhodogune, a king's daughter",
     "al-andalus-1031-1492::k1": "The taifa kingdoms — fragmentation and patronage",
     "al-andalus-1031-1492::k2": "Almoravid dynasty — Berber reform and reversal",
     "al-andalus-1031-1492::k3": "Almohad Caliphate — the last North African empire in Iberia",
@@ -9477,7 +9520,11 @@
       "seleucid-iran-330bc-148bc::t2"
     ],
     "achaemenid-550bc-330bc::p4": [
+      "achaemenid-caucasus-585bc-330bc::p3",
       "mesopotamia-539bc-331bc::k2"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p3": [
+      "achaemenid-550bc-330bc::p4"
     ],
     "mesopotamia-539bc-331bc::k2": [
       "achaemenid-550bc-330bc::p4",
@@ -9497,7 +9544,12 @@
       "achaemenid-550bc-330bc::p13"
     ],
     "achaemenid-550bc-330bc::p13": [
+      "achaemenid-caucasus-585bc-330bc::c5",
       "mesopotamia-539bc-331bc::k5"
+    ],
+    "achaemenid-caucasus-585bc-330bc::c5": [
+      "achaemenid-550bc-330bc::p13",
+      "achaemenid-550bc-330bc::c8"
     ],
     "achaemenid-550bc-330bc::c1": [
       "ionia-1050bc-494bc::c4",
@@ -9543,16 +9595,24 @@
       "achaemenid-550bc-330bc::c6"
     ],
     "achaemenid-550bc-330bc::c7": [
+      "achaemenid-caucasus-585bc-330bc::c2",
       "mesopotamia-539bc-331bc::c3",
       "persian-anatolia-546bc-334bc::c5"
+    ],
+    "achaemenid-caucasus-585bc-330bc::c2": [
+      "achaemenid-550bc-330bc::c7",
+      "persian-anatolia-546bc-334bc::c5",
+      "persian-anatolia-546bc-334bc::t5"
     ],
     "mesopotamia-539bc-331bc::c3": [
       "achaemenid-550bc-330bc::c7"
     ],
     "persian-anatolia-546bc-334bc::c5": [
-      "achaemenid-550bc-330bc::c7"
+      "achaemenid-550bc-330bc::c7",
+      "achaemenid-caucasus-585bc-330bc::c2"
     ],
     "achaemenid-550bc-330bc::c8": [
+      "achaemenid-caucasus-585bc-330bc::c5",
       "hellenistic-anatolia-334bc-133bc::p1",
       "mesopotamia-539bc-331bc::k6",
       "persian-anatolia-546bc-334bc::c8"
@@ -9584,15 +9644,23 @@
       "mesopotamia-539bc-331bc::k1"
     ],
     "achaemenid-550bc-330bc::o1": [
+      "achaemenid-caucasus-585bc-330bc::p4",
       "persian-anatolia-546bc-334bc::p1"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p4": [
+      "achaemenid-550bc-330bc::o1"
     ],
     "persian-anatolia-546bc-334bc::p1": [
       "achaemenid-550bc-330bc::o1",
       "lydia-685bc-546bc::w3"
     ],
     "achaemenid-550bc-330bc::o2": [
+      "achaemenid-caucasus-585bc-330bc::o1",
       "ionia-1050bc-494bc::o4",
       "persian-anatolia-546bc-334bc::o1"
+    ],
+    "achaemenid-caucasus-585bc-330bc::o1": [
+      "achaemenid-550bc-330bc::o2"
     ],
     "ionia-1050bc-494bc::o4": [
       "achaemenid-550bc-330bc::o2",
@@ -9607,6 +9675,12 @@
     ],
     "egypt-664bc-332bc::o3": [
       "achaemenid-550bc-330bc::o6"
+    ],
+    "achaemenid-550bc-330bc::o3": [
+      "achaemenid-caucasus-585bc-330bc::g1"
+    ],
+    "achaemenid-caucasus-585bc-330bc::g1": [
+      "achaemenid-550bc-330bc::o3"
     ],
     "achaemenid-550bc-330bc::b5": [
       "levant-539bc-332bc::p1",
@@ -9627,6 +9701,22 @@
     "achaemenid-550bc-330bc::e2": [
       "mesopotamia-539bc-331bc::k1"
     ],
+    "achaemenid-550bc-330bc::e4": [
+      "achaemenid-caucasus-585bc-330bc::o2"
+    ],
+    "achaemenid-caucasus-585bc-330bc::o2": [
+      "achaemenid-550bc-330bc::e4",
+      "achaemenid-550bc-330bc::t1"
+    ],
+    "achaemenid-550bc-330bc::e1": [
+      "achaemenid-caucasus-585bc-330bc::e1"
+    ],
+    "achaemenid-caucasus-585bc-330bc::e1": [
+      "achaemenid-550bc-330bc::e1"
+    ],
+    "achaemenid-550bc-330bc::t1": [
+      "achaemenid-caucasus-585bc-330bc::o2"
+    ],
     "achaemenid-550bc-330bc::t2": [
       "persian-anatolia-546bc-334bc::t1"
     ],
@@ -9634,8 +9724,13 @@
       "achaemenid-550bc-330bc::t2"
     ],
     "achaemenid-550bc-330bc::tc1": [
+      "achaemenid-caucasus-585bc-330bc::x1",
       "ionia-1050bc-494bc::p6",
       "persian-anatolia-546bc-334bc::o2"
+    ],
+    "achaemenid-caucasus-585bc-330bc::x1": [
+      "achaemenid-550bc-330bc::tc1",
+      "achaemenid-550bc-330bc::x3"
     ],
     "ionia-1050bc-494bc::p6": [
       "achaemenid-550bc-330bc::tc1"
@@ -9643,11 +9738,32 @@
     "persian-anatolia-546bc-334bc::o2": [
       "achaemenid-550bc-330bc::tc1"
     ],
+    "achaemenid-550bc-330bc::x3": [
+      "achaemenid-caucasus-585bc-330bc::x1"
+    ],
     "achaemenid-550bc-330bc::w4": [
+      "achaemenid-caucasus-585bc-330bc::w1",
       "seleucid-iran-330bc-148bc::c7"
+    ],
+    "achaemenid-caucasus-585bc-330bc::w1": [
+      "achaemenid-550bc-330bc::w4"
     ],
     "seleucid-iran-330bc-148bc::c7": [
       "achaemenid-550bc-330bc::w4"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p1": [
+      "media-728bc-550bc::p3",
+      "media-728bc-550bc::w2"
+    ],
+    "media-728bc-550bc::p3": [
+      "achaemenid-caucasus-585bc-330bc::p1",
+      "urartu-colchis-1200bc-585bc::w1"
+    ],
+    "media-728bc-550bc::w2": [
+      "achaemenid-caucasus-585bc-330bc::p1"
+    ],
+    "persian-anatolia-546bc-334bc::t5": [
+      "achaemenid-caucasus-585bc-330bc::c2"
     ],
     "al-andalus-1031-1492::r1": [
       "ayyubids-1171-1250::b4",
@@ -16385,9 +16501,6 @@
     "palestine-1948-today::p1": [
       "mandate-palestine-transjordan-1920-1948::t2"
     ],
-    "media-728bc-550bc::p3": [
-      "urartu-colchis-1200bc-585bc::w1"
-    ],
     "media-728bc-550bc::c2": [
       "urartu-colchis-1200bc-585bc::c5"
     ],
@@ -18155,6 +18268,201 @@
     "achaemenid-550bc-330bc::l4": [
       "Persepolis",
       "Eunuchs of the Achaemenid Court"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p1": [
+      "Armenian",
+      "Xenophon Cyropaedia",
+      "Median Cyaxares"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p2": [
+      "Achaemenid",
+      "Ecbatana",
+      "Armenia",
+      "Cyrus the Great"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p3": [
+      "Achaemenid",
+      "Behistun",
+      "Armenia",
+      "Darius I",
+      "Armina"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p4": [
+      "Achaemenid",
+      "Armina",
+      "Armenian",
+      "Black Sea",
+      "Alarodians the Urartians"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p5": [
+      "Orontid",
+      "Armenia",
+      "Orontes",
+      "Artaxerxes II",
+      "Orontids Yervanduni"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p6": [
+      "Orontid",
+      "Armenia",
+      "Mithrenes",
+      "Gaugamela the Armenians"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p7": [
+      "Colchis"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p8": [
+      "Meskheti",
+      "Pontic",
+      "Moschi",
+      "Tibareni",
+      "Black Sea"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p9": [
+      "Upper Çoruh",
+      "Taochi"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p10": [
+      "Kura–Araxes",
+      "Caspian",
+      "Albanians",
+      "Sacesinae",
+      "Caspians Herodotus"
+    ],
+    "achaemenid-caucasus-585bc-330bc::p11": [
+      "Achaemenid",
+      "Media Atropatene",
+      "Atropates",
+      "Iranian Azerbaijan"
+    ],
+    "achaemenid-caucasus-585bc-330bc::c1": [
+      "Zuzza",
+      "Tigra",
+      "Uhyama",
+      "Armenian",
+      "Darius"
+    ],
+    "achaemenid-caucasus-585bc-330bc::c4": [
+      "Sardis",
+      "Thermopylae",
+      "Armenians",
+      "Colchians",
+      "Saspires",
+      "Xerxes"
+    ],
+    "achaemenid-caucasus-585bc-330bc::c2": [
+      "Upper Tigris",
+      "Euphrates",
+      "Ten Thousand",
+      "Armenia",
+      "Cyrus the Younger",
+      "Black Sea"
+    ],
+    "achaemenid-caucasus-585bc-330bc::c3": [
+      "Upper Çoruh",
+      "Taochoi the Greeks"
+    ],
+    "achaemenid-caucasus-585bc-330bc::c5": [
+      "Gaugamela Darius III"
+    ],
+    "achaemenid-caucasus-585bc-330bc::o2": [
+      "Behistun",
+      "Darius I"
+    ],
+    "achaemenid-caucasus-585bc-330bc::b2": [
+      "Vani",
+      "Imereti",
+      "Otar Lordkipanidze"
+    ],
+    "achaemenid-caucasus-585bc-330bc::b1": [
+      "Armenia",
+      "Iranian",
+      "Aramazd Ahura Mazda",
+      "Mihr Mithra",
+      "Anahit Anahita",
+      "Vahagn Verethragna"
+    ],
+    "achaemenid-caucasus-585bc-330bc::e3": [
+      "Vani",
+      "Pichvnari",
+      "Colchian",
+      "East Greek"
+    ],
+    "achaemenid-caucasus-585bc-330bc::e1": [
+      "Persepolis",
+      "Armenians",
+      "Apadana"
+    ],
+    "achaemenid-caucasus-585bc-330bc::e2": [
+      "Van Fortress",
+      "Xerxes",
+      "Argishti I of Urartu"
+    ],
+    "achaemenid-caucasus-585bc-330bc::t3": [
+      "Armenian",
+      "Iranian",
+      "Heinrich Hübschmann"
+    ],
+    "achaemenid-caucasus-585bc-330bc::t2": [
+      "Halicarnassus",
+      "Herodotus",
+      "Hecataeus",
+      "Caucasus",
+      "Hecataeus of Miletus",
+      "Black Sea"
+    ],
+    "achaemenid-caucasus-585bc-330bc::t1": [
+      "Armenian",
+      "Xenophon Armenia"
+    ],
+    "achaemenid-caucasus-585bc-330bc::t4": [
+      "Armenos of Thessaly",
+      "Armenos of Armenion"
+    ],
+    "achaemenid-caucasus-585bc-330bc::ec2": [
+      "Armenian",
+      "Wine"
+    ],
+    "achaemenid-caucasus-585bc-330bc::ec3": [
+      "Phasis",
+      "Colchian"
+    ],
+    "achaemenid-caucasus-585bc-330bc::ec1": [
+      "Armenia",
+      "Twenty"
+    ],
+    "achaemenid-caucasus-585bc-330bc::g1": [
+      "Colchis",
+      "Colchian"
+    ],
+    "achaemenid-caucasus-585bc-330bc::g2": [
+      "Colchis",
+      "Colchian",
+      "Iron Age"
+    ],
+    "achaemenid-caucasus-585bc-330bc::x2": [
+      "Pichvnari",
+      "Colchis",
+      "Black Sea"
+    ],
+    "achaemenid-caucasus-585bc-330bc::x1": [
+      "Armenia",
+      "Royal Road"
+    ],
+    "achaemenid-caucasus-585bc-330bc::w1": [
+      "Mesopotamia",
+      "Persis",
+      "Gaugamela Alexander"
+    ],
+    "achaemenid-caucasus-585bc-330bc::l2": [
+      "Colchis"
+    ],
+    "achaemenid-caucasus-585bc-330bc::l1": [
+      "Armenian"
+    ],
+    "achaemenid-caucasus-585bc-330bc::l3": [
+      "Armenia",
+      "Rhodogune",
+      "Artaxerxes II"
     ],
     "al-andalus-1031-1492::k1": [
       "Various",
@@ -65954,6 +66262,10 @@
       "achaemenid-550bc-330bc::p11",
       "achaemenid-550bc-330bc::p12",
       "achaemenid-550bc-330bc::p13",
+      "achaemenid-caucasus-585bc-330bc::p2",
+      "achaemenid-caucasus-585bc-330bc::p3",
+      "achaemenid-caucasus-585bc-330bc::p4",
+      "achaemenid-caucasus-585bc-330bc::p11",
       "ionia-1050bc-494bc::p6",
       "magan-1200bc-300bc::o4",
       "mesopotamia-539bc-331bc::k1",
@@ -66072,6 +66384,8 @@
     ],
     "Behistun": [
       "achaemenid-550bc-330bc::p4",
+      "achaemenid-caucasus-585bc-330bc::p3",
+      "achaemenid-caucasus-585bc-330bc::o2",
       "iraq-1831-1914::t4"
     ],
     "Darius I": [
@@ -66085,6 +66399,8 @@
       "achaemenid-550bc-330bc::tc2",
       "achaemenid-550bc-330bc::w1",
       "achaemenid-550bc-330bc::l1",
+      "achaemenid-caucasus-585bc-330bc::p3",
+      "achaemenid-caucasus-585bc-330bc::o2",
       "egypt-664bc-332bc::k8",
       "egypt-664bc-332bc::o3",
       "egypt-664bc-332bc::l2",
@@ -66098,6 +66414,7 @@
       "achaemenid-550bc-330bc::tc1",
       "achaemenid-550bc-330bc::x3",
       "achaemenid-550bc-330bc::w4",
+      "achaemenid-caucasus-585bc-330bc::x1",
       "egypt-664bc-332bc::xc6",
       "lydia-685bc-546bc::w3",
       "persian-anatolia-546bc-334bc::o2",
@@ -66234,6 +66551,8 @@
     "Artaxerxes II": [
       "achaemenid-550bc-330bc::p10",
       "achaemenid-550bc-330bc::c7",
+      "achaemenid-caucasus-585bc-330bc::p5",
+      "achaemenid-caucasus-585bc-330bc::l3",
       "levant-539bc-332bc::p4",
       "mesopotamia-539bc-331bc::k4",
       "mesopotamia-539bc-331bc::b5",
@@ -66247,6 +66566,7 @@
       "achaemenid-550bc-330bc::c6",
       "achaemenid-550bc-330bc::c7",
       "achaemenid-550bc-330bc::l2",
+      "achaemenid-caucasus-585bc-330bc::c2",
       "mesopotamia-539bc-331bc::c3",
       "persian-anatolia-546bc-334bc::p1",
       "persian-anatolia-546bc-334bc::p3",
@@ -66267,6 +66587,7 @@
       "achaemenid-550bc-330bc::l1",
       "achaemenid-550bc-330bc::l3",
       "achaemenid-550bc-330bc::l4",
+      "achaemenid-caucasus-585bc-330bc::e1",
       "egypt-664bc-332bc::xc6",
       "levant-539bc-332bc::w1",
       "magan-1200bc-300bc::k6",
@@ -66461,6 +66782,7 @@
     "Ecbatana": [
       "achaemenid-550bc-330bc::c1",
       "achaemenid-550bc-330bc::b2",
+      "achaemenid-caucasus-585bc-330bc::p2",
       "media-728bc-550bc::p1",
       "media-728bc-550bc::p2",
       "media-728bc-550bc::p3",
@@ -66510,6 +66832,7 @@
       "achaemenid-550bc-330bc::o3",
       "achaemenid-550bc-330bc::tc1",
       "achaemenid-550bc-330bc::x3",
+      "achaemenid-caucasus-585bc-330bc::c4",
       "byzantine-anatolia-632-867::ec1",
       "hellenistic-anatolia-334bc-133bc::p4",
       "hellenistic-anatolia-334bc-133bc::p5",
@@ -66715,7 +67038,8 @@
       "achaemenid-550bc-330bc::c4"
     ],
     "Thermopylae": [
-      "achaemenid-550bc-330bc::c4"
+      "achaemenid-550bc-330bc::c4",
+      "achaemenid-caucasus-585bc-330bc::c4"
     ],
     "Salamis": [
       "achaemenid-550bc-330bc::c4",
@@ -66760,6 +67084,11 @@
     ],
     "Black Sea": [
       "achaemenid-550bc-330bc::c7",
+      "achaemenid-caucasus-585bc-330bc::p4",
+      "achaemenid-caucasus-585bc-330bc::p8",
+      "achaemenid-caucasus-585bc-330bc::c2",
+      "achaemenid-caucasus-585bc-330bc::t2",
+      "achaemenid-caucasus-585bc-330bc::x2",
       "anatolia-1908-1923::x1",
       "anatolian-beyliks-1308-1500::p7",
       "anatolian-beyliks-1308-1500::w2",
@@ -67102,7 +67431,8 @@
       "achaemenid-550bc-330bc::e4"
     ],
     "Apadana": [
-      "achaemenid-550bc-330bc::e1"
+      "achaemenid-550bc-330bc::e1",
+      "achaemenid-caucasus-585bc-330bc::e1"
     ],
     "Gate of All Nations": [
       "achaemenid-550bc-330bc::e1"
@@ -67543,6 +67873,453 @@
     ],
     "Eunuchs of the Achaemenid Court": [
       "achaemenid-550bc-330bc::l4"
+    ],
+    "Armenian": [
+      "achaemenid-caucasus-585bc-330bc::p1",
+      "achaemenid-caucasus-585bc-330bc::p4",
+      "achaemenid-caucasus-585bc-330bc::c1",
+      "achaemenid-caucasus-585bc-330bc::t3",
+      "achaemenid-caucasus-585bc-330bc::t1",
+      "achaemenid-caucasus-585bc-330bc::ec2",
+      "achaemenid-caucasus-585bc-330bc::l1",
+      "anatolia-1908-1923::o2",
+      "assyria-911bc-609bc::c2",
+      "caucasus-3500bc-1200bc::p8",
+      "caucasus-3500bc-1200bc::c2",
+      "caucasus-3500bc-1200bc::t1",
+      "cilician-armenia-1080-1375::w1",
+      "ottoman-anatolia-1500-1800::x2",
+      "ottoman-anatolia-1800-1908::c4",
+      "ottoman-anatolia-1800-1908::x4",
+      "roman-anatolia-133bc-330::c9",
+      "sassanid-224-484::ex4",
+      "turkey-1980-today::t2",
+      "turkey-1980-today::l3",
+      "urartu-colchis-1200bc-585bc::c7",
+      "urartu-colchis-1200bc-585bc::ec2",
+      "urartu-colchis-1200bc-585bc::g3"
+    ],
+    "Xenophon Cyropaedia": [
+      "achaemenid-caucasus-585bc-330bc::p1"
+    ],
+    "Median Cyaxares": [
+      "achaemenid-caucasus-585bc-330bc::p1"
+    ],
+    "Armenia": [
+      "achaemenid-caucasus-585bc-330bc::p2",
+      "achaemenid-caucasus-585bc-330bc::p3",
+      "achaemenid-caucasus-585bc-330bc::p5",
+      "achaemenid-caucasus-585bc-330bc::p6",
+      "achaemenid-caucasus-585bc-330bc::c2",
+      "achaemenid-caucasus-585bc-330bc::b1",
+      "achaemenid-caucasus-585bc-330bc::ec1",
+      "achaemenid-caucasus-585bc-330bc::x1",
+      "achaemenid-caucasus-585bc-330bc::l3",
+      "anatolia-1908-1923::c17",
+      "byzantine-anatolia-632-867::c6",
+      "byzantine-anatolia-632-867::b4",
+      "byzantine-anatolia-867-1071::w3",
+      "byzantine-anatolia-867-1071::w4",
+      "caucasus-1850000bc-3500bc::p4",
+      "cilician-armenia-1080-1375::p6",
+      "late-roman-anatolia-330-632::x3",
+      "parthia-148bc-224::w2",
+      "roman-anatolia-133bc-330::c9",
+      "sassanid-224-484::k8",
+      "sassanid-224-484::k14",
+      "sassanid-224-484::c6",
+      "sassanid-224-484::ex4",
+      "sassanid-484-651::t4"
+    ],
+    "Cyrus the Great": [
+      "achaemenid-caucasus-585bc-330bc::p2",
+      "pahlavi-1925-1979::e2",
+      "seleucid-iran-330bc-148bc::t2"
+    ],
+    "Armina": [
+      "achaemenid-caucasus-585bc-330bc::p3",
+      "achaemenid-caucasus-585bc-330bc::p4"
+    ],
+    "Alarodians the Urartians": [
+      "achaemenid-caucasus-585bc-330bc::p4"
+    ],
+    "Orontid": [
+      "achaemenid-caucasus-585bc-330bc::p5",
+      "achaemenid-caucasus-585bc-330bc::p6"
+    ],
+    "Orontes": [
+      "achaemenid-caucasus-585bc-330bc::p5",
+      "assyria-911bc-609bc::c1",
+      "qedar-853bc-330bc::c1"
+    ],
+    "Orontids Yervanduni": [
+      "achaemenid-caucasus-585bc-330bc::p5"
+    ],
+    "Mithrenes": [
+      "achaemenid-caucasus-585bc-330bc::p6"
+    ],
+    "Gaugamela the Armenians": [
+      "achaemenid-caucasus-585bc-330bc::p6"
+    ],
+    "Colchis": [
+      "achaemenid-caucasus-585bc-330bc::p7",
+      "achaemenid-caucasus-585bc-330bc::g1",
+      "achaemenid-caucasus-585bc-330bc::g2",
+      "achaemenid-caucasus-585bc-330bc::x2",
+      "achaemenid-caucasus-585bc-330bc::l2",
+      "caucasus-3500bc-1200bc::p7",
+      "urartu-colchis-1200bc-585bc::p9",
+      "urartu-colchis-1200bc-585bc::t3",
+      "urartu-colchis-1200bc-585bc::ec3",
+      "urartu-colchis-1200bc-585bc::g3"
+    ],
+    "Meskheti": [
+      "achaemenid-caucasus-585bc-330bc::p8"
+    ],
+    "Pontic": [
+      "achaemenid-caucasus-585bc-330bc::p8",
+      "anatolia-3000bc-2000bc::p7",
+      "hittite-1650bc-1180bc::w5",
+      "rome-200-300::w3",
+      "rome-300-400::w2",
+      "rome-400-500::s1",
+      "trebizond-1204-1461::c5"
+    ],
+    "Moschi": [
+      "achaemenid-caucasus-585bc-330bc::p8"
+    ],
+    "Tibareni": [
+      "achaemenid-caucasus-585bc-330bc::p8"
+    ],
+    "Upper Çoruh": [
+      "achaemenid-caucasus-585bc-330bc::p9",
+      "achaemenid-caucasus-585bc-330bc::c3",
+      "urartu-colchis-1200bc-585bc::p8"
+    ],
+    "Taochi": [
+      "achaemenid-caucasus-585bc-330bc::p9"
+    ],
+    "Kura–Araxes": [
+      "achaemenid-caucasus-585bc-330bc::p10",
+      "caucasus-3500bc-1200bc::p1",
+      "caucasus-3500bc-1200bc::o1",
+      "caucasus-3500bc-1200bc::e1",
+      "caucasus-3500bc-1200bc::x1"
+    ],
+    "Caspian": [
+      "achaemenid-caucasus-585bc-330bc::p10"
+    ],
+    "Albanians": [
+      "achaemenid-caucasus-585bc-330bc::p10"
+    ],
+    "Sacesinae": [
+      "achaemenid-caucasus-585bc-330bc::p10"
+    ],
+    "Caspians Herodotus": [
+      "achaemenid-caucasus-585bc-330bc::p10"
+    ],
+    "Media Atropatene": [
+      "achaemenid-caucasus-585bc-330bc::p11",
+      "parthia-148bc-224::c3",
+      "parthia-148bc-224::w2"
+    ],
+    "Atropates": [
+      "achaemenid-caucasus-585bc-330bc::p11"
+    ],
+    "Iranian Azerbaijan": [
+      "achaemenid-caucasus-585bc-330bc::p11",
+      "caucasus-3500bc-1200bc::x1"
+    ],
+    "Zuzza": [
+      "achaemenid-caucasus-585bc-330bc::c1"
+    ],
+    "Tigra": [
+      "achaemenid-caucasus-585bc-330bc::c1"
+    ],
+    "Uhyama": [
+      "achaemenid-caucasus-585bc-330bc::c1"
+    ],
+    "Darius": [
+      "achaemenid-caucasus-585bc-330bc::c1",
+      "persian-anatolia-546bc-334bc::o1"
+    ],
+    "Armenians": [
+      "achaemenid-caucasus-585bc-330bc::c4",
+      "achaemenid-caucasus-585bc-330bc::e1",
+      "byzantine-anatolia-632-867::w4",
+      "caucasus-3500bc-1200bc::t1",
+      "fatimids-909-1171::x2"
+    ],
+    "Colchians": [
+      "achaemenid-caucasus-585bc-330bc::c4",
+      "urartu-colchis-1200bc-585bc::t2"
+    ],
+    "Saspires": [
+      "achaemenid-caucasus-585bc-330bc::c4"
+    ],
+    "Xerxes": [
+      "achaemenid-caucasus-585bc-330bc::c4",
+      "achaemenid-caucasus-585bc-330bc::e2",
+      "magan-1200bc-300bc::c4",
+      "mesopotamia-539bc-331bc::k3"
+    ],
+    "Upper Tigris": [
+      "achaemenid-caucasus-585bc-330bc::c2"
+    ],
+    "Euphrates": [
+      "achaemenid-caucasus-585bc-330bc::c2",
+      "anatolia-3000bc-2000bc::x2",
+      "assyria-1400bc-1050bc::c5",
+      "assyria-1400bc-1050bc::xc5",
+      "babylon-1595bc-1155bc::xc5",
+      "babylon-2004bc-1595bc::c2",
+      "babylon-2004bc-1595bc::w4",
+      "byzantine-anatolia-867-1071::o3",
+      "byzantine-anatolia-867-1071::e3",
+      "byzantine-anatolia-867-1071::w1",
+      "byzantine-anatolia-867-1071::l3",
+      "caliphate-632-750::k11",
+      "caliphate-632-750::c5",
+      "dilmun-1200bc-600bc::w5",
+      "egypt-1550bc-1200bc::k3",
+      "egypt-1550bc-1200bc::w2",
+      "egypt-664bc-332bc::c3",
+      "ghassanid-420-638::c3",
+      "ghassanid-420-638::c4",
+      "ghassanid-420-638::w1",
+      "iraq-1258-1534::k8",
+      "iraq-1258-1534::e2",
+      "iraq-1534-1831::k8",
+      "iraq-1534-1831::b1",
+      "iraq-1534-1831::w2",
+      "iraq-1534-1831::l5",
+      "iraq-1831-1914::k5",
+      "iraq-1831-1914::c3",
+      "iraq-1831-1914::l2",
+      "lakhmid-268-602::c4",
+      "mamluks-1250-1517::tc3",
+      "mamluks-1250-1517::w1",
+      "mesopotamia-141bc-224::b6",
+      "mesopotamia-141bc-224::xc2",
+      "mesopotamia-224-637::b6",
+      "mesopotamia-2334bc-2004bc::w3",
+      "mesopotamia-331bc-141bc::g4",
+      "mesopotamia-6500bc-3800bc::xc4",
+      "mesopotamia-6500bc-3800bc::xc5",
+      "najd-300bc-632::c4",
+      "palmyrene-100bc-273ce::c1",
+      "roman-anatolia-133bc-330::x1",
+      "sassanid-484-651::w2",
+      "sumer-2900bc-2334bc::w4",
+      "uruk-3800bc-2900bc::p5",
+      "uruk-3800bc-2900bc::xc5",
+      "uruk-3800bc-2900bc::w3"
+    ],
+    "Ten Thousand": [
+      "achaemenid-caucasus-585bc-330bc::c2"
+    ],
+    "Taochoi the Greeks": [
+      "achaemenid-caucasus-585bc-330bc::c3"
+    ],
+    "Gaugamela Darius III": [
+      "achaemenid-caucasus-585bc-330bc::c5"
+    ],
+    "Vani": [
+      "achaemenid-caucasus-585bc-330bc::b2",
+      "achaemenid-caucasus-585bc-330bc::e3",
+      "urartu-colchis-1200bc-585bc::p10",
+      "urartu-colchis-1200bc-585bc::e4"
+    ],
+    "Imereti": [
+      "achaemenid-caucasus-585bc-330bc::b2",
+      "caucasus-1850000bc-3500bc::p5",
+      "caucasus-1850000bc-3500bc::p4",
+      "caucasus-1850000bc-3500bc::p6"
+    ],
+    "Otar Lordkipanidze": [
+      "achaemenid-caucasus-585bc-330bc::b2"
+    ],
+    "Iranian": [
+      "achaemenid-caucasus-585bc-330bc::b1",
+      "achaemenid-caucasus-585bc-330bc::t3",
+      "babylon-2004bc-1595bc::xc2",
+      "iraq-1831-1914::b3",
+      "mesopotamia-539bc-331bc::xc4",
+      "parthia-148bc-224::c5",
+      "seleucid-iran-330bc-148bc::t1"
+    ],
+    "Aramazd Ahura Mazda": [
+      "achaemenid-caucasus-585bc-330bc::b1"
+    ],
+    "Mihr Mithra": [
+      "achaemenid-caucasus-585bc-330bc::b1"
+    ],
+    "Anahit Anahita": [
+      "achaemenid-caucasus-585bc-330bc::b1"
+    ],
+    "Vahagn Verethragna": [
+      "achaemenid-caucasus-585bc-330bc::b1"
+    ],
+    "Pichvnari": [
+      "achaemenid-caucasus-585bc-330bc::e3",
+      "achaemenid-caucasus-585bc-330bc::x2"
+    ],
+    "Colchian": [
+      "achaemenid-caucasus-585bc-330bc::e3",
+      "achaemenid-caucasus-585bc-330bc::ec3",
+      "achaemenid-caucasus-585bc-330bc::g1",
+      "achaemenid-caucasus-585bc-330bc::g2",
+      "urartu-colchis-1200bc-585bc::e4",
+      "urartu-colchis-1200bc-585bc::x3"
+    ],
+    "East Greek": [
+      "achaemenid-caucasus-585bc-330bc::e3",
+      "ionia-1050bc-494bc::g4"
+    ],
+    "Van Fortress": [
+      "achaemenid-caucasus-585bc-330bc::e2",
+      "urartu-colchis-1200bc-585bc::p1",
+      "urartu-colchis-1200bc-585bc::p3",
+      "urartu-colchis-1200bc-585bc::e3"
+    ],
+    "Argishti I of Urartu": [
+      "achaemenid-caucasus-585bc-330bc::e2"
+    ],
+    "Heinrich Hübschmann": [
+      "achaemenid-caucasus-585bc-330bc::t3"
+    ],
+    "Halicarnassus": [
+      "achaemenid-caucasus-585bc-330bc::t2",
+      "hellenistic-anatolia-334bc-133bc::c1",
+      "persian-anatolia-546bc-334bc::p5",
+      "persian-anatolia-546bc-334bc::p6",
+      "persian-anatolia-546bc-334bc::o4",
+      "persian-anatolia-546bc-334bc::w3",
+      "persian-anatolia-546bc-334bc::l1",
+      "persian-anatolia-546bc-334bc::l3",
+      "urartu-colchis-1200bc-585bc::t2"
+    ],
+    "Herodotus": [
+      "achaemenid-caucasus-585bc-330bc::t2",
+      "urartu-colchis-1200bc-585bc::t2"
+    ],
+    "Hecataeus": [
+      "achaemenid-caucasus-585bc-330bc::t2"
+    ],
+    "Caucasus": [
+      "achaemenid-caucasus-585bc-330bc::t2",
+      "beth-qatraye-240-632::c3",
+      "caucasus-1850000bc-3500bc::p6",
+      "caucasus-1850000bc-3500bc::x2",
+      "caucasus-3500bc-1200bc::x2",
+      "mamluks-1250-1517::ec5",
+      "phrygia-1200bc-675bc::w3",
+      "rome-300-400::ex2",
+      "sassanid-484-651::k4",
+      "urartu-colchis-1200bc-585bc::c5"
+    ],
+    "Hecataeus of Miletus": [
+      "achaemenid-caucasus-585bc-330bc::t2",
+      "ionia-1050bc-494bc::t4"
+    ],
+    "Xenophon Armenia": [
+      "achaemenid-caucasus-585bc-330bc::t1"
+    ],
+    "Armenos of Thessaly": [
+      "achaemenid-caucasus-585bc-330bc::t4"
+    ],
+    "Armenos of Armenion": [
+      "achaemenid-caucasus-585bc-330bc::t4"
+    ],
+    "Wine": [
+      "achaemenid-caucasus-585bc-330bc::ec2",
+      "canaan-2000bc-1200bc::ec2",
+      "egypt-300-641::e5",
+      "israel-judah-1200bc-586bc::ec1"
+    ],
+    "Phasis": [
+      "achaemenid-caucasus-585bc-330bc::ec3"
+    ],
+    "Twenty": [
+      "achaemenid-caucasus-585bc-330bc::ec1"
+    ],
+    "Iron Age": [
+      "achaemenid-caucasus-585bc-330bc::g2",
+      "assyria-911bc-609bc::xc1",
+      "babylon-1595bc-1155bc::w4",
+      "beth-qatraye-240-632::tc3",
+      "canaan-2000bc-1200bc::w2",
+      "decapolis-63bc-106ce::e2",
+      "hittite-1650bc-1180bc::g5",
+      "kanesh-2000bc-1650bc::g2",
+      "magan-1200bc-300bc::k5",
+      "magan-1200bc-300bc::c3",
+      "magan-1200bc-300bc::o1",
+      "magan-1200bc-300bc::o3",
+      "magan-1200bc-300bc::b3",
+      "magan-1200bc-300bc::b1",
+      "magan-1200bc-300bc::b2",
+      "magan-1200bc-300bc::e4",
+      "magan-1200bc-300bc::e5",
+      "magan-1200bc-300bc::t1",
+      "magan-1200bc-300bc::ec4",
+      "magan-1200bc-300bc::tc1",
+      "magan-1200bc-300bc::lv4",
+      "magan-1200bc-300bc::lv1",
+      "magan-3000bc-1200bc::tc1",
+      "phrygia-1200bc-675bc::g1",
+      "urartu-colchis-1200bc-585bc::p12"
+    ],
+    "Mesopotamia": [
+      "achaemenid-caucasus-585bc-330bc::w1",
+      "babylon-2004bc-1595bc::c3",
+      "canaan-2000bc-1200bc::x1",
+      "caucasus-1850000bc-3500bc::p9",
+      "caucasus-1850000bc-3500bc::x3",
+      "dilmun-1200bc-600bc::c1",
+      "dilmun-1200bc-600bc::w1",
+      "dilmun-3000bc-1200bc::k2",
+      "dilmun-3000bc-1200bc::w1",
+      "gulf-prehistory-8000bc-3000bc::x2",
+      "gulf-prehistory-8000bc-3000bc::x3",
+      "iran-651-821::c5",
+      "lakhmid-268-602::c6",
+      "lakhmid-268-602::o1",
+      "lakhmid-268-602::a1",
+      "lakhmid-268-602::w3",
+      "magan-3000bc-1200bc::ec2",
+      "mesopotamia-141bc-224::o6",
+      "mesopotamia-141bc-224::g3",
+      "mesopotamia-141bc-224::w1",
+      "mesopotamia-2334bc-2004bc::c5",
+      "mesopotamia-6500bc-3800bc::o1",
+      "mesopotamia-6500bc-3800bc::x6",
+      "mesopotamia-6500bc-3800bc::e3",
+      "mesopotamia-6500bc-3800bc::xc2",
+      "mesopotamia-6500bc-3800bc::l5",
+      "rome-200-300::p1",
+      "rome-200-300::c2",
+      "rome-300-400::s4",
+      "sassanid-224-484::k8",
+      "sassanid-224-484::r3",
+      "sassanid-224-484::s1",
+      "sassanid-224-484::lv4",
+      "sassanid-484-651::r1",
+      "sassanid-484-651::s3",
+      "sassanid-484-651::lv3",
+      "south-arabia-prehistory-8000bc-1200bc::x5",
+      "tylos-mleiha-300bc-240ad::w3"
+    ],
+    "Persis": [
+      "achaemenid-caucasus-585bc-330bc::w1",
+      "parthia-148bc-224::p1",
+      "seleucid-iran-330bc-148bc::p8"
+    ],
+    "Gaugamela Alexander": [
+      "achaemenid-caucasus-585bc-330bc::w1"
+    ],
+    "Rhodogune": [
+      "achaemenid-caucasus-585bc-330bc::l3"
     ],
     "Various": [
       "al-andalus-1031-1492::k1",
@@ -71493,23 +72270,6 @@
     "Gümrü": [
       "anatolia-1908-1923::c17"
     ],
-    "Armenia": [
-      "anatolia-1908-1923::c17",
-      "byzantine-anatolia-632-867::c6",
-      "byzantine-anatolia-632-867::b4",
-      "byzantine-anatolia-867-1071::w3",
-      "byzantine-anatolia-867-1071::w4",
-      "caucasus-1850000bc-3500bc::p4",
-      "cilician-armenia-1080-1375::p6",
-      "late-roman-anatolia-330-632::x3",
-      "parthia-148bc-224::w2",
-      "roman-anatolia-133bc-330::c9",
-      "sassanid-224-484::k8",
-      "sassanid-224-484::k14",
-      "sassanid-224-484::c6",
-      "sassanid-224-484::ex4",
-      "sassanid-484-651::t4"
-    ],
     "Kâzım Karabekir": [
       "anatolia-1908-1923::c17"
     ],
@@ -71544,24 +72304,6 @@
     ],
     "Offensive": [
       "anatolia-1908-1923::c14"
-    ],
-    "Armenian": [
-      "anatolia-1908-1923::o2",
-      "assyria-911bc-609bc::c2",
-      "caucasus-3500bc-1200bc::p8",
-      "caucasus-3500bc-1200bc::c2",
-      "caucasus-3500bc-1200bc::t1",
-      "cilician-armenia-1080-1375::w1",
-      "ottoman-anatolia-1500-1800::x2",
-      "ottoman-anatolia-1800-1908::c4",
-      "ottoman-anatolia-1800-1908::x4",
-      "roman-anatolia-133bc-330::c9",
-      "sassanid-224-484::ex4",
-      "turkey-1980-today::t2",
-      "turkey-1980-today::l3",
-      "urartu-colchis-1200bc-585bc::c7",
-      "urartu-colchis-1200bc-585bc::ec2",
-      "urartu-colchis-1200bc-585bc::g3"
     ],
     "Dutchman Louis Westenenk": [
       "anatolia-1908-1923::o2"
@@ -72066,14 +72808,6 @@
     "Mahmatlar": [
       "anatolia-3000bc-2000bc::p7"
     ],
-    "Pontic": [
-      "anatolia-3000bc-2000bc::p7",
-      "hittite-1650bc-1180bc::w5",
-      "rome-200-300::w3",
-      "rome-300-400::w2",
-      "rome-400-500::s1",
-      "trebizond-1204-1461::c5"
-    ],
     "Royal Tomb": [
       "anatolia-3000bc-2000bc::p9"
     ],
@@ -72265,54 +72999,6 @@
     ],
     "Poliochni": [
       "anatolia-3000bc-2000bc::x1"
-    ],
-    "Euphrates": [
-      "anatolia-3000bc-2000bc::x2",
-      "assyria-1400bc-1050bc::c5",
-      "assyria-1400bc-1050bc::xc5",
-      "babylon-1595bc-1155bc::xc5",
-      "babylon-2004bc-1595bc::c2",
-      "babylon-2004bc-1595bc::w4",
-      "byzantine-anatolia-867-1071::o3",
-      "byzantine-anatolia-867-1071::e3",
-      "byzantine-anatolia-867-1071::w1",
-      "byzantine-anatolia-867-1071::l3",
-      "caliphate-632-750::k11",
-      "caliphate-632-750::c5",
-      "dilmun-1200bc-600bc::w5",
-      "egypt-1550bc-1200bc::k3",
-      "egypt-1550bc-1200bc::w2",
-      "egypt-664bc-332bc::c3",
-      "ghassanid-420-638::c3",
-      "ghassanid-420-638::c4",
-      "ghassanid-420-638::w1",
-      "iraq-1258-1534::k8",
-      "iraq-1258-1534::e2",
-      "iraq-1534-1831::k8",
-      "iraq-1534-1831::b1",
-      "iraq-1534-1831::w2",
-      "iraq-1534-1831::l5",
-      "iraq-1831-1914::k5",
-      "iraq-1831-1914::c3",
-      "iraq-1831-1914::l2",
-      "lakhmid-268-602::c4",
-      "mamluks-1250-1517::tc3",
-      "mamluks-1250-1517::w1",
-      "mesopotamia-141bc-224::b6",
-      "mesopotamia-141bc-224::xc2",
-      "mesopotamia-224-637::b6",
-      "mesopotamia-2334bc-2004bc::w3",
-      "mesopotamia-331bc-141bc::g4",
-      "mesopotamia-6500bc-3800bc::xc4",
-      "mesopotamia-6500bc-3800bc::xc5",
-      "najd-300bc-632::c4",
-      "palmyrene-100bc-273ce::c1",
-      "roman-anatolia-133bc-330::x1",
-      "sassanid-484-651::w2",
-      "sumer-2900bc-2334bc::w4",
-      "uruk-3800bc-2900bc::p5",
-      "uruk-3800bc-2900bc::xc5",
-      "uruk-3800bc-2900bc::w3"
     ],
     "Lapis": [
       "anatolia-3000bc-2000bc::x3",
@@ -74826,10 +75512,6 @@
     "Ashur-uballit II": [
       "assyria-911bc-609bc::k10"
     ],
-    "Orontes": [
-      "assyria-911bc-609bc::c1",
-      "qedar-853bc-330bc::c1"
-    ],
     "Qarqar": [
       "assyria-911bc-609bc::c1",
       "qedar-853bc-330bc::k1",
@@ -75266,32 +75948,6 @@
     ],
     "Moving": [
       "assyria-911bc-609bc::g4"
-    ],
-    "Iron Age": [
-      "assyria-911bc-609bc::xc1",
-      "babylon-1595bc-1155bc::w4",
-      "beth-qatraye-240-632::tc3",
-      "canaan-2000bc-1200bc::w2",
-      "decapolis-63bc-106ce::e2",
-      "hittite-1650bc-1180bc::g5",
-      "kanesh-2000bc-1650bc::g2",
-      "magan-1200bc-300bc::k5",
-      "magan-1200bc-300bc::c3",
-      "magan-1200bc-300bc::o1",
-      "magan-1200bc-300bc::o3",
-      "magan-1200bc-300bc::b3",
-      "magan-1200bc-300bc::b1",
-      "magan-1200bc-300bc::b2",
-      "magan-1200bc-300bc::e4",
-      "magan-1200bc-300bc::e5",
-      "magan-1200bc-300bc::t1",
-      "magan-1200bc-300bc::ec4",
-      "magan-1200bc-300bc::tc1",
-      "magan-1200bc-300bc::lv4",
-      "magan-1200bc-300bc::lv1",
-      "magan-3000bc-1200bc::tc1",
-      "phrygia-1200bc-675bc::g1",
-      "urartu-colchis-1200bc-585bc::p12"
     ],
     "Ionian Greeks of the Cilician": [
       "assyria-911bc-609bc::xc1"
@@ -77568,45 +78224,6 @@
       "mesopotamia-2334bc-2004bc::t5",
       "sumer-2900bc-2334bc::k13"
     ],
-    "Mesopotamia": [
-      "babylon-2004bc-1595bc::c3",
-      "canaan-2000bc-1200bc::x1",
-      "caucasus-1850000bc-3500bc::p9",
-      "caucasus-1850000bc-3500bc::x3",
-      "dilmun-1200bc-600bc::c1",
-      "dilmun-1200bc-600bc::w1",
-      "dilmun-3000bc-1200bc::k2",
-      "dilmun-3000bc-1200bc::w1",
-      "gulf-prehistory-8000bc-3000bc::x2",
-      "gulf-prehistory-8000bc-3000bc::x3",
-      "iran-651-821::c5",
-      "lakhmid-268-602::c6",
-      "lakhmid-268-602::o1",
-      "lakhmid-268-602::a1",
-      "lakhmid-268-602::w3",
-      "magan-3000bc-1200bc::ec2",
-      "mesopotamia-141bc-224::o6",
-      "mesopotamia-141bc-224::g3",
-      "mesopotamia-141bc-224::w1",
-      "mesopotamia-2334bc-2004bc::c5",
-      "mesopotamia-6500bc-3800bc::o1",
-      "mesopotamia-6500bc-3800bc::x6",
-      "mesopotamia-6500bc-3800bc::e3",
-      "mesopotamia-6500bc-3800bc::xc2",
-      "mesopotamia-6500bc-3800bc::l5",
-      "rome-200-300::p1",
-      "rome-200-300::c2",
-      "rome-300-400::s4",
-      "sassanid-224-484::k8",
-      "sassanid-224-484::r3",
-      "sassanid-224-484::s1",
-      "sassanid-224-484::lv4",
-      "sassanid-484-651::r1",
-      "sassanid-484-651::s3",
-      "sassanid-484-651::lv3",
-      "south-arabia-prehistory-8000bc-1200bc::x5",
-      "tylos-mleiha-300bc-240ad::w3"
-    ],
     "Rim-Sin Larsa": [
       "babylon-2004bc-1595bc::c3"
     ],
@@ -77743,13 +78360,6 @@
       "roman-anatolia-133bc-330::c9",
       "roman-anatolia-133bc-330::c11",
       "seljuks-of-rum-1071-1308::b4"
-    ],
-    "Iranian": [
-      "babylon-2004bc-1595bc::xc2",
-      "iraq-1831-1914::b3",
-      "mesopotamia-539bc-331bc::xc4",
-      "parthia-148bc-224::c5",
-      "seleucid-iran-330bc-148bc::t1"
     ],
     "Ur Tell al-Muqayyar": [
       "babylon-2004bc-1595bc::xc4",
@@ -78938,17 +79548,6 @@
       "sassanid-484-651::a4",
       "sassanid-484-651::ex4",
       "sassanid-484-651::lv1"
-    ],
-    "Caucasus": [
-      "beth-qatraye-240-632::c3",
-      "caucasus-1850000bc-3500bc::p6",
-      "caucasus-1850000bc-3500bc::x2",
-      "caucasus-3500bc-1200bc::x2",
-      "mamluks-1250-1517::ec5",
-      "phrygia-1200bc-675bc::w3",
-      "rome-300-400::ex2",
-      "sassanid-484-651::k4",
-      "urartu-colchis-1200bc-585bc::c5"
     ],
     "Byzantine–Sasanian": [
       "beth-qatraye-240-632::c3"
@@ -80336,11 +80935,6 @@
     ],
     "Armeniakon": [
       "byzantine-anatolia-632-867::w4"
-    ],
-    "Armenians": [
-      "byzantine-anatolia-632-867::w4",
-      "caucasus-3500bc-1200bc::t1",
-      "fatimids-909-1171::x2"
     ],
     "Leo V the Armenian": [
       "byzantine-anatolia-632-867::w4"
@@ -82864,11 +83458,6 @@
     "Bronze Age Levant": [
       "canaan-2000bc-1200bc::t2"
     ],
-    "Wine": [
-      "canaan-2000bc-1200bc::ec2",
-      "egypt-300-641::e5",
-      "israel-judah-1200bc-586bc::ec1"
-    ],
     "Olive Oil Production": [
       "canaan-2000bc-1200bc::ec2"
     ],
@@ -82988,11 +83577,6 @@
     ],
     "Lower-to-Middle Palaeolithic": [
       "caucasus-1850000bc-3500bc::p3"
-    ],
-    "Imereti": [
-      "caucasus-1850000bc-3500bc::p5",
-      "caucasus-1850000bc-3500bc::p4",
-      "caucasus-1850000bc-3500bc::p6"
     ],
     "Dzudzuana Cave": [
       "caucasus-1850000bc-3500bc::p5"
@@ -83175,12 +83759,6 @@
     "Hacı Elamxanlı Tepe": [
       "caucasus-1850000bc-3500bc::l2"
     ],
-    "Kura–Araxes": [
-      "caucasus-3500bc-1200bc::p1",
-      "caucasus-3500bc-1200bc::o1",
-      "caucasus-3500bc-1200bc::e1",
-      "caucasus-3500bc-1200bc::x1"
-    ],
     "Lesser Caucasus": [
       "caucasus-3500bc-1200bc::p1",
       "caucasus-3500bc-1200bc::ec1"
@@ -83240,13 +83818,6 @@
     ],
     "Lchashen–Metsamor": [
       "caucasus-3500bc-1200bc::p6"
-    ],
-    "Colchis": [
-      "caucasus-3500bc-1200bc::p7",
-      "urartu-colchis-1200bc-585bc::p9",
-      "urartu-colchis-1200bc-585bc::t3",
-      "urartu-colchis-1200bc-585bc::ec3",
-      "urartu-colchis-1200bc-585bc::g3"
     ],
     "Iron Age Colchian": [
       "caucasus-3500bc-1200bc::p7"
@@ -83397,9 +83968,6 @@
       "egypt-2100bc-1550bc::e2"
     ],
     "Yanik Tepe": [
-      "caucasus-3500bc-1200bc::x1"
-    ],
-    "Iranian Azerbaijan": [
       "caucasus-3500bc-1200bc::x1"
     ],
     "Figurines": [
@@ -97038,16 +97606,6 @@
     "Patara": [
       "hellenistic-anatolia-334bc-133bc::p14"
     ],
-    "Halicarnassus": [
-      "hellenistic-anatolia-334bc-133bc::c1",
-      "persian-anatolia-546bc-334bc::p5",
-      "persian-anatolia-546bc-334bc::p6",
-      "persian-anatolia-546bc-334bc::o4",
-      "persian-anatolia-546bc-334bc::w3",
-      "persian-anatolia-546bc-334bc::l1",
-      "persian-anatolia-546bc-334bc::l3",
-      "urartu-colchis-1200bc-585bc::t2"
-    ],
     "Memnon of Rhodes": [
       "hellenistic-anatolia-334bc-133bc::c1"
     ],
@@ -99333,9 +99891,6 @@
     "Pythagoras of Samos": [
       "ionia-1050bc-494bc::t7"
     ],
-    "Hecataeus of Miletus": [
-      "ionia-1050bc-494bc::t4"
-    ],
     "Circuit of the Earth": [
       "ionia-1050bc-494bc::t4"
     ],
@@ -99351,9 +99906,6 @@
     "Milesian": [
       "ionia-1050bc-494bc::ec3",
       "ionia-1050bc-494bc::l1"
-    ],
-    "East Greek": [
-      "ionia-1050bc-494bc::g4"
     ],
     "Hollow-cast": [
       "ionia-1050bc-494bc::g3"
@@ -105307,10 +105859,6 @@
     "Served": [
       "magan-1200bc-300bc::c4"
     ],
-    "Xerxes": [
-      "magan-1200bc-300bc::c4",
-      "mesopotamia-539bc-331bc::k3"
-    ],
     "Magan Iron Age": [
       "magan-1200bc-300bc::c4"
     ],
@@ -109840,10 +110388,6 @@
     "Shahyad Monument": [
       "pahlavi-1925-1979::e2"
     ],
-    "Cyrus the Great": [
-      "pahlavi-1925-1979::e2",
-      "seleucid-iran-330bc-148bc::t2"
-    ],
     "Al-e Ahmad Gharbzadegi": [
       "pahlavi-1925-1979::t1"
     ],
@@ -110244,10 +110788,6 @@
     "Grand Colonnade": [
       "palmyrene-100bc-273ce::lv2"
     ],
-    "Persis": [
-      "parthia-148bc-224::p1",
-      "seleucid-iran-330bc-148bc::p8"
-    ],
     "Parthian nobility": [
       "parthia-148bc-224::p7"
     ],
@@ -110304,10 +110844,6 @@
     ],
     "Mark Antony Median Campaign": [
       "parthia-148bc-224::c3"
-    ],
-    "Media Atropatene": [
-      "parthia-148bc-224::c3",
-      "parthia-148bc-224::w2"
     ],
     "Eastern Frontier": [
       "parthia-148bc-224::c5"
@@ -110614,9 +111150,6 @@
     ],
     "Ariobarzanes of Hellespontine Phrygia": [
       "persian-anatolia-546bc-334bc::c7"
-    ],
-    "Darius": [
-      "persian-anatolia-546bc-334bc::o1"
     ],
     "Letoon": [
       "persian-anatolia-546bc-334bc::o3"
@@ -121910,11 +122443,6 @@
     "Arame Aramu of Urartu": [
       "urartu-colchis-1200bc-585bc::p1"
     ],
-    "Van Fortress": [
-      "urartu-colchis-1200bc-585bc::p1",
-      "urartu-colchis-1200bc-585bc::p3",
-      "urartu-colchis-1200bc-585bc::e3"
-    ],
     "Biainili Urartu": [
       "urartu-colchis-1200bc-585bc::p1"
     ],
@@ -121999,9 +122527,6 @@
     "Diauehi Daiaeni": [
       "urartu-colchis-1200bc-585bc::p8"
     ],
-    "Upper Çoruh": [
-      "urartu-colchis-1200bc-585bc::p8"
-    ],
     "Tiglath-Pileser I of Assyria": [
       "urartu-colchis-1200bc-585bc::p8"
     ],
@@ -122010,10 +122535,6 @@
     ],
     "Qulha": [
       "urartu-colchis-1200bc-585bc::p9"
-    ],
-    "Vani": [
-      "urartu-colchis-1200bc-585bc::p10",
-      "urartu-colchis-1200bc-585bc::e4"
     ],
     "Rioni": [
       "urartu-colchis-1200bc-585bc::p10"
@@ -122090,10 +122611,6 @@
     "Sairkhe": [
       "urartu-colchis-1200bc-585bc::e4"
     ],
-    "Colchian": [
-      "urartu-colchis-1200bc-585bc::e4",
-      "urartu-colchis-1200bc-585bc::x3"
-    ],
     "Hurro-Urartian": [
       "urartu-colchis-1200bc-585bc::t1"
     ],
@@ -122108,12 +122625,6 @@
     ],
     "Ararat Genesis": [
       "urartu-colchis-1200bc-585bc::t4"
-    ],
-    "Herodotus": [
-      "urartu-colchis-1200bc-585bc::t2"
-    ],
-    "Colchians": [
-      "urartu-colchis-1200bc-585bc::t2"
     ],
     "Canals": [
       "urartu-colchis-1200bc-585bc::ec1"

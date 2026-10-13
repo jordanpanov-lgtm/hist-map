@@ -1756,6 +1756,23 @@ const SELECTED_PAIRS = [
   ['urartu-colchis-1200bc-585bc::w1', 'media-728bc-550bc::p3'],      // Cyaxares and the fall of Nineveh
   ['urartu-colchis-1200bc-585bc::w1', 'assyria-911bc-609bc::xc5'],      // the Median alliance and the fall of Assyria
   ['urartu-colchis-1200bc-585bc::p4', 'phrygia-1200bc-675bc::c6'],      // Urartu against Melid and Kummuh
+  ['achaemenid-caucasus-585bc-330bc::p3', 'achaemenid-550bc-330bc::p4'],      // Darius I and the satrapies
+  ['achaemenid-caucasus-585bc-330bc::o2', 'achaemenid-550bc-330bc::e4'],      // the Behistun relief and inscription
+  ['achaemenid-caucasus-585bc-330bc::o2', 'achaemenid-550bc-330bc::t1'],      // the ideology of Behistun
+  ['achaemenid-caucasus-585bc-330bc::p4', 'achaemenid-550bc-330bc::o1'],      // the satrapy system
+  ['achaemenid-caucasus-585bc-330bc::o1', 'achaemenid-550bc-330bc::o2'],      // the fixed tribute assessment
+  ['achaemenid-caucasus-585bc-330bc::c2', 'achaemenid-550bc-330bc::c7'],      // Cunaxa and the march of the Ten Thousand
+  ['achaemenid-caucasus-585bc-330bc::c2', 'persian-anatolia-546bc-334bc::t5'],      // Xenophon's Anabasis
+  ['achaemenid-caucasus-585bc-330bc::c2', 'persian-anatolia-546bc-334bc::c5'],      // Cyrus the Younger and Cunaxa
+  ['achaemenid-caucasus-585bc-330bc::c5', 'achaemenid-550bc-330bc::c8'],      // Alexander's conquest of the empire
+  ['achaemenid-caucasus-585bc-330bc::c5', 'achaemenid-550bc-330bc::p13'],      // Darius III
+  ['achaemenid-caucasus-585bc-330bc::x1', 'achaemenid-550bc-330bc::tc1'],      // the Royal Road and its stations
+  ['achaemenid-caucasus-585bc-330bc::x1', 'achaemenid-550bc-330bc::x3'],      // the Royal Road as trade corridor
+  ['achaemenid-caucasus-585bc-330bc::e1', 'achaemenid-550bc-330bc::e1'],      // the Apadana reliefs
+  ['achaemenid-caucasus-585bc-330bc::g1', 'achaemenid-550bc-330bc::o3'],      // the daric and imperial coinage
+  ['achaemenid-caucasus-585bc-330bc::w1', 'achaemenid-550bc-330bc::w4'],      // the fall of the Achaemenid empire
+  ['achaemenid-caucasus-585bc-330bc::p1', 'media-728bc-550bc::p3'],      // Cyaxares and the Median reach to the Halys
+  ['achaemenid-caucasus-585bc-330bc::p1', 'media-728bc-550bc::w2'],      // Median territory at its height
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
