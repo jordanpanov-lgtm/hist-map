@@ -1539,6 +1539,20 @@ const SELECTED_PAIRS = [
   ['hellenistic-anatolia-334bc-133bc::w1', 'seleucid-iran-330bc-148bc::w1'],      // the Wars of the Successors
   ['hellenistic-anatolia-334bc-133bc::x3', 'egypt-332bc-30bc::c4'],      // Galatian mercenaries at Raphia
   ['hellenistic-anatolia-334bc-133bc::t2', 'mesopotamia-331bc-141bc::t5'],      // Hipparchus and the Babylonian parameters
+  ['roman-anatolia-133bc-330::o7', 'rome-200-300::o3'],      // Diocletian's Edict of Maximum Prices
+  ['roman-anatolia-133bc-330::p11', 'rome-200-300::p17'],      // Diocletian
+  ['roman-anatolia-133bc-330::b7', 'rome-200-300::r6'],      // the Great Persecution begins
+  ['roman-anatolia-133bc-330::p12', 'rome-300-400::p4'],      // Constantine I
+  ['roman-anatolia-133bc-330::b8', 'rome-300-400::r1'],      // the Council of Nicaea
+  ['roman-anatolia-133bc-330::o5', 'egypt-30bc-300ad::k10'],      // Caracalla's citizenship edict
+  ['roman-anatolia-133bc-330::c11', 'rome-200-300::c5'],      // Valerian captured at Edessa
+  ['roman-anatolia-133bc-330::c11', 'mesopotamia-224-637::k2'],      // Shapur I and the captured emperors
+  ['roman-anatolia-133bc-330::p10', 'palmyrene-100bc-273ce::c3'],      // Zenobia conquers Asia Minor
+  ['roman-anatolia-133bc-330::w3', 'rome-200-300::s4'],      // the Antonine plague
+  ['roman-anatolia-133bc-330::p3', 'herod-judea-63bc-135ce::p1'],      // Pompey's settlement of the East
+  ['roman-anatolia-133bc-330::p3', 'decapolis-63bc-106ce::p2'],      // Pompey liberates the cities
+  ['roman-anatolia-133bc-330::p1', 'hellenistic-anatolia-334bc-133bc::w5'],      // the king's will and the province of Asia
+  ['roman-anatolia-133bc-330::p10', 'rome-200-300::p13'],      // Valerian
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

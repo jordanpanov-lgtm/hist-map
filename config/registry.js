@@ -217,5 +217,6 @@ const MODULES = [
   { id:"lydia-685bc-546bc", file:"modules/lydia-685bc-546bc.json", label:"Lydia 685–546 BC", sub:"Sardis, the Mermnad Kings, the First Coins and the Fall of Croesus", region:"Turkey", period:"Ancient" },
   { id:"persian-anatolia-546bc-334bc", file:"modules/persian-anatolia-546bc-334bc.json", label:"Persian Anatolia 546–334 BC", sub:"Satrapies, the Greek Cities, the Hecatomnids and the Lycian Dynasts", region:"Turkey", period:"Ancient" },
   { id:"hellenistic-anatolia-334bc-133bc", file:"modules/hellenistic-anatolia-334bc-133bc.json", label:"Hellenistic Anatolia 334–133 BC", sub:"Alexander, the Successors, Galatians, Pergamon, Pontus and the Attalid Bequest", region:"Turkey", period:"Late Antique" },
+  { id:"roman-anatolia-133bc-330", file:"modules/roman-anatolia-133bc-330.json", label:"Roman Anatolia 133 BC–330 AD", sub:"The Province of Asia, Mithridates, Paul's Churches and the Cities of the Empire", region:"Turkey", period:"Late Antique" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
