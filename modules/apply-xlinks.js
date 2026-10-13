@@ -1553,6 +1553,26 @@ const SELECTED_PAIRS = [
   ['roman-anatolia-133bc-330::p3', 'decapolis-63bc-106ce::p2'],      // Pompey liberates the cities
   ['roman-anatolia-133bc-330::p1', 'hellenistic-anatolia-334bc-133bc::w5'],      // the king's will and the province of Asia
   ['roman-anatolia-133bc-330::p10', 'rome-200-300::p13'],      // Valerian
+  ['late-roman-anatolia-330-632::p1', 'rome-300-400::p7'],      // Julian
+  ['late-roman-anatolia-330-632::b5', 'rome-300-400::r4'],      // Julian's pagan restoration
+  ['late-roman-anatolia-330-632::b5', 'roman-byzantine-levant-135-638::p4'],      // Julian's pagan restoration
+  ['late-roman-anatolia-330-632::o6', 'rome-300-400::r2'],      // the Council of Constantinople
+  ['late-roman-anatolia-330-632::b3', 'rome-400-500::r1'],      // the Council of Ephesus
+  ['late-roman-anatolia-330-632::b4', 'rome-400-500::r3'],      // the Council of Chalcedon
+  ['late-roman-anatolia-330-632::b4', 'egypt-300-641::b3'],      // Chalcedon and the Coptic split
+  ['late-roman-anatolia-330-632::p3', 'rome-300-400::p12'],      // Theodosius I
+  ['late-roman-anatolia-330-632::w1', 'rome-300-400::o3'],      // the foundation of Constantinople
+  ['late-roman-anatolia-330-632::g3', 'rome-300-400::te1'],      // Constantinople's water infrastructure
+  ['late-roman-anatolia-330-632::g1', 'rome-400-500::s2'],      // earthquakes at Constantinople
+  ['late-roman-anatolia-330-632::l5', 'rome-400-500::lv1'],      // Justinian's Novel 77
+  ['late-roman-anatolia-330-632::x2', 'sassanid-484-651::o3'],      // the Perpetual Peace of 532
+  ['late-roman-anatolia-330-632::c5', 'sassanid-484-651::c1'],      // Chosroes I's wars in the Roman East
+  ['late-roman-anatolia-330-632::c8', 'sassanid-484-651::c4'],      // the Persian siege of Constantinople
+  ['late-roman-anatolia-330-632::c7', 'sassanid-484-651::c5'],      // Heraclius reverses the war
+  ['late-roman-anatolia-330-632::c6', 'mesopotamia-224-637::k7'],      // Khosrow II and the last great war
+  ['late-roman-anatolia-330-632::p6', 'roman-byzantine-levant-135-638::p5'],      // Justinian's building and legal legacy
+  ['late-roman-anatolia-330-632::t5', 'ghassanid-420-638::t2'],      // John of Ephesus
+  ['late-roman-anatolia-330-632::x1', 'sassanid-484-651::k5'],      // Khosrow I and the silk trade
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
