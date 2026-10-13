@@ -1830,6 +1830,21 @@ const SELECTED_PAIRS = [
   ['caucasus-884-1064::c7', 'caliphate-945-1258::c1'],      // the Seljuk takeover and the Turkmen raids
   ['caucasus-884-1064::x1', 'seljuks-of-rum-1071-1308::p9'],      // Turkmen dynasties and Armenian settlements in the west
   ['caucasus-884-1064::p2', 'byzantine-anatolia-867-1071::p4'],      // Byzantine power in the east under the Phokas emperors
+  ['caucasus-1064-1243::c1', 'caliphate-945-1258::k10'],      // Malik-Shah and the Great Turkish Invasion
+  ['caucasus-1064-1243::c2', 'caliphate-945-1258::c4'],      // crusaders and the Muslim states in the same years
+  ['caucasus-1064-1243::c4', 'seljuks-of-rum-1071-1308::c8'],      // Basiani and the Seljuks of Rum
+  ['caucasus-1064-1243::c7', 'seljuks-of-rum-1071-1308::c8'],      // Köse Dağ and the Mongol conquest
+  ['caucasus-1064-1243::c7', 'seljuks-of-rum-1071-1308::w3'],      // the Mongol conquest of Anatolia
+  ['caucasus-1064-1243::c6', 'caliphate-945-1258::c9'],      // the Khwarazmians driven west by the Mongols
+  ['caucasus-1064-1243::c5', 'ilkhanate-1219-1335::p1'],      // the Mongol invasion of Khwarazmia and its pursuit into the Caucasus
+  ['caucasus-1064-1243::c5', 'caliphate-945-1258::w5'],      // the Mongol cataclysm
+  ['caucasus-1064-1243::c6', 'ilkhanate-1219-1335::p2'],      // Jalal al-Din and the interregnum
+  ['caucasus-1064-1243::x2', 'trebizond-1204-1461::c2'],      // the Mongol overlordship of Trebizond
+  ['caucasus-1064-1243::x2', 'seljuks-of-rum-1071-1308::x4'],      // the treaty with Trebizond
+  ['caucasus-1064-1243::b3', 'caliphate-945-1258::c7'],      // Hattin and the Georgians in Jerusalem
+  ['caucasus-1064-1243::p8', 'iran-1055-1219::p5'],      // Sanjar and the atabegs
+  ['caucasus-1064-1243::t2', 'iran-1055-1219::t1'],      // Persian learning of the Seljuk age
+  ['caucasus-1064-1243::w2', 'caliphate-945-1258::w5'],      // the Mongol cataclysm
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 8865,
     "folio_count": 184,
-    "xlink_pairs": 1826,
+    "xlink_pairs": 1841,
     "keyword_terms": 13594,
     "folios": [
       {
@@ -11016,6 +11016,7 @@
     ],
     "caliphate-945-1258::c7": [
       "ayyubids-1171-1250::c1",
+      "caucasus-1064-1243::b3",
       "crusader-states-1099-1291::c2",
       "crusader-states-1099-1291::c4",
       "seljuks-of-rum-1071-1308::c6"
@@ -11227,6 +11228,8 @@
     ],
     "caliphate-945-1258::w5": [
       "ayyubids-1171-1250::w4",
+      "caucasus-1064-1243::c5",
+      "caucasus-1064-1243::w2",
       "hormuz-1200-1507::w1",
       "seljuks-of-rum-1071-1308::w3"
     ],
@@ -12021,6 +12024,7 @@
     ],
     "caliphate-945-1258::k10": [
       "byzantine-anatolia-867-1071::c7",
+      "caucasus-1064-1243::c1",
       "caucasus-884-1064::c6",
       "iran-1055-1219::p2",
       "iran-1055-1219::p3",
@@ -12424,6 +12428,9 @@
     "iraq-945-1258::k2": [
       "caliphate-945-1258::k9"
     ],
+    "caucasus-1064-1243::c1": [
+      "caliphate-945-1258::k10"
+    ],
     "caucasus-884-1064::c6": [
       "caliphate-945-1258::k10",
       "iran-1055-1219::p2"
@@ -12480,9 +12487,13 @@
       "caliphate-945-1258::c3"
     ],
     "caliphate-945-1258::c4": [
+      "caucasus-1064-1243::c2",
       "crusader-states-1099-1291::p1",
       "fatimids-909-1171::w4",
       "seljuks-of-rum-1071-1308::c2"
+    ],
+    "caucasus-1064-1243::c2": [
+      "caliphate-945-1258::c4"
     ],
     "crusader-states-1099-1291::p1": [
       "caliphate-945-1258::c4"
@@ -12505,6 +12516,9 @@
     "fatimids-909-1171::c10": [
       "caliphate-945-1258::c6"
     ],
+    "caucasus-1064-1243::b3": [
+      "caliphate-945-1258::c7"
+    ],
     "seljuks-of-rum-1071-1308::c6": [
       "caliphate-945-1258::c7"
     ],
@@ -12515,6 +12529,13 @@
       "caliphate-945-1258::c8",
       "caliphate-945-1258::b6",
       "iran-1055-1219::b1"
+    ],
+    "caliphate-945-1258::c9": [
+      "caucasus-1064-1243::c6"
+    ],
+    "caucasus-1064-1243::c6": [
+      "caliphate-945-1258::c9",
+      "ilkhanate-1219-1335::p2"
     ],
     "ilkhanate-1219-1335::c4": [
       "caliphate-945-1258::c10"
@@ -12672,11 +12693,19 @@
     "iraq-945-1258::xc2": [
       "caliphate-945-1258::w3"
     ],
+    "caucasus-1064-1243::c5": [
+      "caliphate-945-1258::w5",
+      "ilkhanate-1219-1335::p1"
+    ],
+    "caucasus-1064-1243::w2": [
+      "caliphate-945-1258::w5"
+    ],
     "hormuz-1200-1507::w1": [
       "caliphate-945-1258::w5"
     ],
     "seljuks-of-rum-1071-1308::w3": [
-      "caliphate-945-1258::w5"
+      "caliphate-945-1258::w5",
+      "caucasus-1064-1243::c7"
     ],
     "caliphate-945-1258::w6": [
       "iraq-1258-1534::w4",
@@ -12827,6 +12856,49 @@
     ],
     "caucasus-1-428::x2": [
       "sassanid-224-484::k2"
+    ],
+    "caucasus-1064-1243::p8": [
+      "iran-1055-1219::p5"
+    ],
+    "iran-1055-1219::p5": [
+      "caucasus-1064-1243::p8"
+    ],
+    "caucasus-1064-1243::c4": [
+      "seljuks-of-rum-1071-1308::c8"
+    ],
+    "seljuks-of-rum-1071-1308::c8": [
+      "caucasus-1064-1243::c4",
+      "caucasus-1064-1243::c7",
+      "ilkhanate-1219-1335::p3",
+      "trebizond-1204-1461::c2"
+    ],
+    "ilkhanate-1219-1335::p1": [
+      "caucasus-1064-1243::c5"
+    ],
+    "ilkhanate-1219-1335::p2": [
+      "caucasus-1064-1243::c6"
+    ],
+    "caucasus-1064-1243::c7": [
+      "seljuks-of-rum-1071-1308::c8",
+      "seljuks-of-rum-1071-1308::w3"
+    ],
+    "caucasus-1064-1243::t2": [
+      "iran-1055-1219::t1"
+    ],
+    "iran-1055-1219::t1": [
+      "caucasus-1064-1243::t2"
+    ],
+    "caucasus-1064-1243::x2": [
+      "seljuks-of-rum-1071-1308::x4",
+      "trebizond-1204-1461::c2"
+    ],
+    "seljuks-of-rum-1071-1308::x4": [
+      "caucasus-1064-1243::x2",
+      "trebizond-1204-1461::c1"
+    ],
+    "trebizond-1204-1461::c2": [
+      "caucasus-1064-1243::x2",
+      "seljuks-of-rum-1071-1308::c8"
     ],
     "caucasus-1850000bc-3500bc::b3": [
       "mesopotamia-6500bc-3800bc::b5"
@@ -15612,10 +15684,6 @@
     "hormuz-1200-1507::w5": [
       "mamluks-1250-1517::w5"
     ],
-    "seljuks-of-rum-1071-1308::c8": [
-      "ilkhanate-1219-1335::p3",
-      "trebizond-1204-1461::c2"
-    ],
     "ilkhanate-1219-1335::p5": [
       "iraq-1258-1534::g2",
       "iraq-1258-1534::o2"
@@ -18024,12 +18092,6 @@
     "trebizond-1204-1461::c1": [
       "seljuks-of-rum-1071-1308::c7",
       "seljuks-of-rum-1071-1308::x4"
-    ],
-    "trebizond-1204-1461::c2": [
-      "seljuks-of-rum-1071-1308::c8"
-    ],
-    "seljuks-of-rum-1071-1308::x4": [
-      "trebizond-1204-1461::c1"
     ],
     "south-arabia-1200bc-300bc::k2": [
       "south-arabia-prehistory-8000bc-1200bc::w4"
