@@ -1700,6 +1700,18 @@ const SELECTED_PAIRS = [
   ['anatolia-1908-1923::x2', 'ottoman-anatolia-1800-1908::x1'],      // the Muslim refugees settled in Anatolia
   ['anatolia-1908-1923::g2', 'ottoman-anatolia-1800-1908::x3'],      // the Anatolian and Baghdad railways
   ['anatolia-1908-1923::l3', 'ottoman-anatolia-1800-1908::l3'],      // American missionary and relief work among the Armenians
+  ['turkey-1923-1980::p1', 'anatolia-1908-1923::p5'],      // Mustafa Kemal elected first president of the Republic
+  ['turkey-1923-1980::o1', 'anatolia-1908-1923::o9'],      // the abolition of the sultanate and then the caliphate
+  ['turkey-1923-1980::o1', 'hejaz-1900-1925::b2'],      // the caliphate question after its abolition
+  ['turkey-1923-1980::o2', 'anatolia-1908-1923::o8'],      // from the law of 1921 to the constitution of 1924
+  ['turkey-1923-1980::x1', 'anatolia-1908-1923::o10'],      // the Straits regime of Lausanne revised at Montreux
+  ['turkey-1923-1980::t1', 'anatolia-1908-1923::t1'],      // Turkism from Gökalp to the History Thesis
+  ['turkey-1923-1980::c1', 'anatolia-1908-1923::c18'],      // Kurdish risings against the Ankara government
+  ['turkey-1923-1980::c1', 'iraq-1914-1958::xc5'],      // the Kurdish question across the borders
+  ['turkey-1923-1980::l2', 'iraq-1914-1958::xc5'],      // the Kurdish question across the borders
+  ['turkey-1923-1980::x4', 'iraq-1914-1958::xc3'],      // Turkey's Western alignment: NATO and the Baghdad Pact
+  ['turkey-1923-1980::w3', 'anatolia-1908-1923::w3'],      // the exchange of 1923 and the later decline of the minorities
+  ['turkey-1923-1980::b5', 'anatolia-1908-1923::b3'],      // the Alevi and Bektashi communities
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
