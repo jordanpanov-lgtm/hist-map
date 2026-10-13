@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 7486,
-    "folio_count": 156,
-    "xlink_pairs": 1472,
-    "keyword_terms": 11524,
+    "total_entries": 7529,
+    "folio_count": 157,
+    "xlink_pairs": 1482,
+    "keyword_terms": 11583,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -609,6 +609,11 @@
         "id": "phoenicia-1200bc-539bc",
         "title": "Phoenicia",
         "entries": 22
+      },
+      {
+        "id": "phrygia-1200bc-675bc",
+        "title": "Phrygia and Iron Age Anatolia",
+        "entries": 43
       },
       {
         "id": "portuguese-gulf-1507-1650",
@@ -6393,6 +6398,49 @@
     "phoenicia-1200bc-539bc::w2": "Squeezed between Empires",
     "phoenicia-1200bc-539bc::l2": "Phoenician Traders as Slavers",
     "phoenicia-1200bc-539bc::l1": "The Tophet's Archaeological Evidence",
+    "phrygia-1200bc-675bc::p1": "The Mushki and the first Phrygians",
+    "phrygia-1200bc-675bc::p2": "Early Phrygian Gordion",
+    "phrygia-1200bc-675bc::p3": "Midas of Phrygia — Mita of the Mushki",
+    "phrygia-1200bc-675bc::p4": "Tabal and its princes",
+    "phrygia-1200bc-675bc::p5": "Hartapu, Great King",
+    "phrygia-1200bc-675bc::p6": "Warpalawa of Tuwana",
+    "phrygia-1200bc-675bc::p7": "Awariku of Hiyawa and Que",
+    "phrygia-1200bc-675bc::p8": "Azatiwada and Karatepe",
+    "phrygia-1200bc-675bc::c1": "Tiglath-Pileser I and the Mushki",
+    "phrygia-1200bc-675bc::c2": "The burning of Early Phrygian Gordion",
+    "phrygia-1200bc-675bc::c6": "Urartu against Melid and Kummuh",
+    "phrygia-1200bc-675bc::c3": "Sargon II and Ambaris of Tabal",
+    "phrygia-1200bc-675bc::c4": "Sargon II dies in Tabal",
+    "phrygia-1200bc-675bc::c5": "The Cimmerians and the sack of Gordion",
+    "phrygia-1200bc-675bc::o1": "The citadel as a store",
+    "phrygia-1200bc-675bc::o2": "The tribute lists of 738 BC",
+    "phrygia-1200bc-675bc::o3": "The province of Que",
+    "phrygia-1200bc-675bc::b1": "The Mother of the mountain — Matar",
+    "phrygia-1200bc-675bc::b2": "The funeral feast beneath the Midas Mound",
+    "phrygia-1200bc-675bc::b3": "The storm god at Ivriz",
+    "phrygia-1200bc-675bc::e2": "Gordion painted and gray ware",
+    "phrygia-1200bc-675bc::e1": "The inlaid tables of the Midas Mound",
+    "phrygia-1200bc-675bc::e3": "The gate reliefs of Karatepe",
+    "phrygia-1200bc-675bc::e4": "The lyres of the Gordion cellar",
+    "phrygia-1200bc-675bc::t1": "The Phrygian alphabet",
+    "phrygia-1200bc-675bc::t2": "The Karatepe bilingual",
+    "phrygia-1200bc-675bc::t3": "Midas in Greek memory",
+    "phrygia-1200bc-675bc::ec3": "The horses of Que",
+    "phrygia-1200bc-675bc::ec1": "Horses and mules of the plateau",
+    "phrygia-1200bc-675bc::ec2": "The feast as redistribution",
+    "phrygia-1200bc-675bc::g1": "The gate of Gordion",
+    "phrygia-1200bc-675bc::g2": "The Phrygian fibula and the bronze belt",
+    "phrygia-1200bc-675bc::g3": "Joinery of the first cabinet-makers",
+    "phrygia-1200bc-675bc::x3": "Phoenician letters in Cilicia",
+    "phrygia-1200bc-675bc::x4": "Urartian bronzes at Gordion",
+    "phrygia-1200bc-675bc::x1": "Mita and Sargon",
+    "phrygia-1200bc-675bc::x2": "Midas's throne at Delphi",
+    "phrygia-1200bc-675bc::w1": "The long silence after the Hittites",
+    "phrygia-1200bc-675bc::w2": "A map of small kingdoms",
+    "phrygia-1200bc-675bc::w3": "The Cimmerians cross the Caucasus",
+    "phrygia-1200bc-675bc::l1": "The man in the Midas Mound",
+    "phrygia-1200bc-675bc::l2": "The bride of Ambaris",
+    "phrygia-1200bc-675bc::l3": "The deported of Tabal",
     "portuguese-gulf-1507-1650::k1": "Albuquerque makes Hormuz a Portuguese protectorate",
     "portuguese-gulf-1507-1650::k2": "The Captains of Hormuz",
     "portuguese-gulf-1507-1650::k3": "Portuguese Bahrain",
@@ -8659,6 +8707,13 @@
     "babylon-1595bc-1155bc::k9": [
       "assyria-1400bc-1050bc::k5"
     ],
+    "assyria-1400bc-1050bc::k8": [
+      "phrygia-1200bc-675bc::c1"
+    ],
+    "phrygia-1200bc-675bc::c1": [
+      "assyria-1400bc-1050bc::k8",
+      "assyria-1400bc-1050bc::c4"
+    ],
     "assyria-1400bc-1050bc::c1": [
       "egypt-1550bc-1200bc::c4",
       "hittite-1650bc-1180bc::c5"
@@ -8680,6 +8735,9 @@
     ],
     "babylon-1595bc-1155bc::c3": [
       "assyria-1400bc-1050bc::c3"
+    ],
+    "assyria-1400bc-1050bc::c4": [
+      "phrygia-1200bc-675bc::c1"
     ],
     "assyria-1400bc-1050bc::o3": [
       "assyria-911bc-609bc::o1"
@@ -8818,7 +8876,9 @@
       "israel-judah-1200bc-586bc::c2",
       "north-syria-1200bc-717bc::c3",
       "north-syria-1200bc-717bc::p6",
-      "philistia-1200bc-604bc::p4"
+      "philistia-1200bc-604bc::p4",
+      "phrygia-1200bc-675bc::c3",
+      "phrygia-1200bc-675bc::c4"
     ],
     "babylon-1155bc-539bc::k4": [
       "assyria-911bc-609bc::k6"
@@ -8833,6 +8893,12 @@
       "assyria-911bc-609bc::k6"
     ],
     "philistia-1200bc-604bc::p4": [
+      "assyria-911bc-609bc::k6"
+    ],
+    "phrygia-1200bc-675bc::c3": [
+      "assyria-911bc-609bc::k6"
+    ],
+    "phrygia-1200bc-675bc::c4": [
       "assyria-911bc-609bc::k6"
     ],
     "assyria-911bc-609bc::k7": [
@@ -8858,6 +8924,12 @@
     ],
     "babylon-1155bc-539bc::k7": [
       "assyria-911bc-609bc::k10"
+    ],
+    "assyria-911bc-609bc::c2": [
+      "phrygia-1200bc-675bc::c6"
+    ],
+    "phrygia-1200bc-675bc::c6": [
+      "assyria-911bc-609bc::c2"
     ],
     "assyria-911bc-609bc::c5": [
       "babylon-1155bc-539bc::k5"
@@ -12836,9 +12908,13 @@
       "hittite-1650bc-1180bc::p13"
     ],
     "hittite-1650bc-1180bc::g5": [
-      "north-syria-1200bc-717bc::tc1"
+      "north-syria-1200bc-717bc::tc1",
+      "phrygia-1200bc-675bc::g2"
     ],
     "north-syria-1200bc-717bc::tc1": [
+      "hittite-1650bc-1180bc::g5"
+    ],
+    "phrygia-1200bc-675bc::g2": [
       "hittite-1650bc-1180bc::g5"
     ],
     "hormuz-1200-1507::k1": [
@@ -14633,6 +14709,30 @@
     ],
     "najd-300bc-632::ec3": [
       "najd-632-1517::ec2"
+    ],
+    "north-syria-1200bc-717bc::p7": [
+      "phrygia-1200bc-675bc::p7"
+    ],
+    "phrygia-1200bc-675bc::p7": [
+      "north-syria-1200bc-717bc::p7"
+    ],
+    "north-syria-1200bc-717bc::o1": [
+      "phrygia-1200bc-675bc::t2"
+    ],
+    "phrygia-1200bc-675bc::t2": [
+      "north-syria-1200bc-717bc::o1"
+    ],
+    "north-syria-1200bc-717bc::b1": [
+      "phrygia-1200bc-675bc::p6"
+    ],
+    "phrygia-1200bc-675bc::p6": [
+      "north-syria-1200bc-717bc::b1"
+    ],
+    "north-syria-1200bc-717bc::e1": [
+      "phrygia-1200bc-675bc::e3"
+    ],
+    "phrygia-1200bc-675bc::e3": [
+      "north-syria-1200bc-717bc::e1"
     ],
     "nw-arabia-106-632::k1": [
       "nabataean-312bc-106ce::c3",
@@ -46351,6 +46451,229 @@
       "Carthage",
       "Tophet Archaeological Evidence"
     ],
+    "phrygia-1200bc-675bc::p1": [
+      "Central Anatolia",
+      "Mushki",
+      "Tiglath-Pileser I",
+      "Phrygians of Greek"
+    ],
+    "phrygia-1200bc-675bc::p2": [
+      "Early Phrygian Gordion"
+    ],
+    "phrygia-1200bc-675bc::p3": [
+      "Phrygian",
+      "Gordion",
+      "Midas of Phrygia",
+      "Mita of the Mushki",
+      "Mita of Mushki",
+      "Sargon II"
+    ],
+    "phrygia-1200bc-675bc::p4": [
+      "Tabal",
+      "Kululu",
+      "Kayseri",
+      "Southeast of Gordion"
+    ],
+    "phrygia-1200bc-675bc::p5": [
+      "Hartapu",
+      "Kızıldağ",
+      "Konya"
+    ],
+    "phrygia-1200bc-675bc::p6": [
+      "Tuwana Tyana",
+      "Warpalawa of Tuwana",
+      "Tiglath-Pileser III",
+      "Sargon II"
+    ],
+    "phrygia-1200bc-675bc::p7": [
+      "Çineköy",
+      "Adana",
+      "Awariku of Hiyawa",
+      "Que",
+      "Urikki of the Assyrian",
+      "Hieroglyphic Luwian"
+    ],
+    "phrygia-1200bc-675bc::p8": [
+      "Hiyawa",
+      "Karatepe-Aslantaş",
+      "Azatiwada",
+      "Karatepe",
+      "Storm God",
+      "Iron Age Cilicia"
+    ],
+    "phrygia-1200bc-675bc::c1": [
+      "Kadmuhu",
+      "Tigris",
+      "Tiglath-Pileser I",
+      "Mushki"
+    ],
+    "phrygia-1200bc-675bc::c2": [
+      "Early Phrygian Gordion"
+    ],
+    "phrygia-1200bc-675bc::c6": [
+      "Malatya",
+      "Urartu",
+      "Melid",
+      "Kummuh",
+      "Argishti I",
+      "Sarduri II"
+    ],
+    "phrygia-1200bc-675bc::c3": [
+      "Sargon II",
+      "Ambaris of Tabal",
+      "Mita of Mushki"
+    ],
+    "phrygia-1200bc-675bc::c4": [
+      "Tabal",
+      "Sargon II",
+      "Gurdi of Kulummu"
+    ],
+    "phrygia-1200bc-675bc::c5": [
+      "Gordion",
+      "Cimmerians",
+      "Late Greek"
+    ],
+    "phrygia-1200bc-675bc::o1": [
+      "Gordion",
+      "Terrace Building"
+    ],
+    "phrygia-1200bc-675bc::o2": [
+      "Arpad",
+      "Tiglath-Pileser III",
+      "Kushtashpi of Kummuh",
+      "Tarhulara of Gurgum",
+      "Wassurme of Tabal",
+      "Urikki of Que"
+    ],
+    "phrygia-1200bc-675bc::o3": [
+      "Tarsus",
+      "Que"
+    ],
+    "phrygia-1200bc-675bc::b1": [
+      "Gordion",
+      "Midas City",
+      "Mother",
+      "Matar",
+      "Cybele Kubileya"
+    ],
+    "phrygia-1200bc-675bc::b2": [
+      "Tumulus MM",
+      "Gordion",
+      "Midas Mound"
+    ],
+    "phrygia-1200bc-675bc::b3": [
+      "Konya",
+      "Ivriz",
+      "Iron Age Luwian"
+    ],
+    "phrygia-1200bc-675bc::e2": [
+      "Gordion"
+    ],
+    "phrygia-1200bc-675bc::e1": [
+      "Tumulus MM",
+      "Gordion",
+      "Midas Mound"
+    ],
+    "phrygia-1200bc-675bc::e3": [
+      "Karatepe-Aslantaş",
+      "Karatepe"
+    ],
+    "phrygia-1200bc-675bc::e4": [
+      "Northeast Ridge",
+      "Gordion"
+    ],
+    "phrygia-1200bc-675bc::t1": [
+      "Gordion",
+      "Phrygian"
+    ],
+    "phrygia-1200bc-675bc::t2": [
+      "Karatepe-Aslantaş",
+      "Karatepe",
+      "Helmuth Bossert",
+      "Halet Çambel"
+    ],
+    "phrygia-1200bc-675bc::t3": [
+      "Phrygia",
+      "Midas",
+      "Delphi Herodotus"
+    ],
+    "phrygia-1200bc-675bc::ec3": [
+      "Cilicia",
+      "Que",
+      "Hebrew Bible"
+    ],
+    "phrygia-1200bc-675bc::ec1": [
+      "Tabal",
+      "Phrygia",
+      "Horses"
+    ],
+    "phrygia-1200bc-675bc::ec2": [
+      "Gordion"
+    ],
+    "phrygia-1200bc-675bc::g1": [
+      "Gordion",
+      "Iron Age"
+    ],
+    "phrygia-1200bc-675bc::g2": [
+      "Gordion",
+      "Phrygian"
+    ],
+    "phrygia-1200bc-675bc::g3": [
+      "Tumulus MM",
+      "Gordion",
+      "Joinery",
+      "Elizabeth Simpson",
+      "Iron Age Phrygian"
+    ],
+    "phrygia-1200bc-675bc::x3": [
+      "Çineköy",
+      "Karatepe",
+      "Phoenician",
+      "Cilicia"
+    ],
+    "phrygia-1200bc-675bc::x4": [
+      "Tumulus MM",
+      "Gordion",
+      "Urartian"
+    ],
+    "phrygia-1200bc-675bc::x1": [
+      "Que",
+      "Phrygia",
+      "Mita",
+      "Sargon"
+    ],
+    "phrygia-1200bc-675bc::x2": [
+      "Delphi",
+      "Midas"
+    ],
+    "phrygia-1200bc-675bc::w1": [
+      "Central Anatolia",
+      "Hittites"
+    ],
+    "phrygia-1200bc-675bc::w2": [
+      "Anatolia"
+    ],
+    "phrygia-1200bc-675bc::w3": [
+      "Anatolia",
+      "Cimmerians",
+      "Caucasus",
+      "Near East",
+      "Rusa I of Urartu"
+    ],
+    "phrygia-1200bc-675bc::l1": [
+      "Tumulus MM",
+      "Gordion",
+      "Midas Mound"
+    ],
+    "phrygia-1200bc-675bc::l2": [
+      "Tabal",
+      "Sargon II",
+      "Ambaris of Bit-Burutash"
+    ],
+    "phrygia-1200bc-675bc::l3": [
+      "Tabal",
+      "Assyria"
+    ],
     "portuguese-gulf-1507-1650::k1": [
       "Hormuz",
       "Afonso de Albuquerque",
@@ -58384,6 +58707,7 @@
       "nabataean-312bc-106ce::lv2",
       "north-syria-1200bc-717bc::t1",
       "philistia-1200bc-604bc::ec1",
+      "phrygia-1200bc-675bc::w3",
       "roman-byzantine-levant-135-638::w1",
       "south-arabia-300bc-628::t4",
       "south-arabia-prehistory-8000bc-1200bc::tc1",
@@ -61829,7 +62153,8 @@
       "anatolia-10000bc-3000bc::p2"
     ],
     "Halet Çambel": [
-      "anatolia-10000bc-3000bc::p2"
+      "anatolia-10000bc-3000bc::p2",
+      "phrygia-1200bc-675bc::t2"
     ],
     "Nevalı Çori": [
       "anatolia-10000bc-3000bc::p3"
@@ -61859,7 +62184,9 @@
       "anatolia-10000bc-3000bc::p5",
       "anatolia-10000bc-3000bc::w3",
       "egypt-1798-1900::c6",
-      "mamluks-1250-1517::b4"
+      "mamluks-1250-1517::b4",
+      "phrygia-1200bc-675bc::p5",
+      "phrygia-1200bc-675bc::b3"
     ],
     "Çatalhöyük East": [
       "anatolia-10000bc-3000bc::p5",
@@ -61943,7 +62270,8 @@
       "anatolia-10000bc-3000bc::e6",
       "anatolia-10000bc-3000bc::g5",
       "anatolia-3000bc-2000bc::p9",
-      "anatolia-3000bc-2000bc::x2"
+      "anatolia-3000bc-2000bc::x2",
+      "phrygia-1200bc-675bc::c6"
     ],
     "Upper Euphrates": [
       "anatolia-10000bc-3000bc::p9",
@@ -62121,6 +62449,8 @@
       "najd-300bc-632::k6",
       "najd-300bc-632::x3",
       "palmyrene-100bc-273ce::c3",
+      "phrygia-1200bc-675bc::w2",
+      "phrygia-1200bc-675bc::w3",
       "sassanid-484-651::k4",
       "sassanid-484-651::k8",
       "seleucid-iran-330bc-148bc::c5"
@@ -62150,6 +62480,7 @@
       "mesopotamia-6500bc-3800bc::p2",
       "mesopotamia-6500bc-3800bc::c1",
       "mesopotamia-6500bc-3800bc::b5",
+      "phrygia-1200bc-675bc::c1",
       "tylos-mleiha-300bc-240ad::c2"
     ],
     "Pre-Pottery Neolithic": [
@@ -62178,7 +62509,9 @@
     "Cilicia": [
       "anatolia-10000bc-3000bc::x4",
       "anatolia-3000bc-2000bc::p11",
-      "mamluks-1250-1517::c9"
+      "mamluks-1250-1517::c9",
+      "phrygia-1200bc-675bc::ec3",
+      "phrygia-1200bc-675bc::x3"
     ],
     "Mesopotamian Ubaid": [
       "anatolia-10000bc-3000bc::x4"
@@ -62376,7 +62709,8 @@
     "Tarsus": [
       "anatolia-3000bc-2000bc::p11",
       "caliphate-750-945::o2",
-      "egypt-641-969::c5"
+      "egypt-641-969::c5",
+      "phrygia-1200bc-675bc::o3"
     ],
     "Tarsus-Gözlükule": [
       "anatolia-3000bc-2000bc::p11"
@@ -62410,7 +62744,8 @@
     "Sargon": [
       "anatolia-3000bc-2000bc::c4",
       "mesopotamia-2334bc-2004bc::k1",
-      "mesopotamia-2334bc-2004bc::c1"
+      "mesopotamia-2334bc-2004bc::c1",
+      "phrygia-1200bc-675bc::x1"
     ],
     "Seals": [
       "anatolia-3000bc-2000bc::o1"
@@ -62441,7 +62776,8 @@
     "Hittites": [
       "anatolia-3000bc-2000bc::b4",
       "anatolia-3000bc-2000bc::t1",
-      "assyria-1400bc-1050bc::c2"
+      "assyria-1400bc-1050bc::c2",
+      "phrygia-1200bc-675bc::w1"
     ],
     "Wurusemu of Arinna": [
       "anatolia-3000bc-2000bc::b4"
@@ -63510,6 +63846,7 @@
       "egypt-1200bc-664bc::xc5",
       "elam-1100bc-539bc::x1",
       "israel-judah-1200bc-586bc::w1",
+      "phrygia-1200bc-675bc::l3",
       "qedar-853bc-330bc::k2",
       "qedar-853bc-330bc::x1",
       "qedar-853bc-330bc::lv3",
@@ -63627,6 +63964,8 @@
       "assyria-911bc-609bc::o7",
       "assyria-911bc-609bc::e2",
       "dedan-tayma-1200bc-300bc::k2",
+      "phrygia-1200bc-675bc::p6",
+      "phrygia-1200bc-675bc::o2",
       "qedar-853bc-330bc::k2"
     ],
     "Governed": [
@@ -63895,7 +64234,9 @@
       "assyria-1400bc-1050bc::o1",
       "assyria-1400bc-1050bc::o2",
       "assyria-1400bc-1050bc::b4",
-      "assyria-1400bc-1050bc::xc4"
+      "assyria-1400bc-1050bc::xc4",
+      "phrygia-1200bc-675bc::p1",
+      "phrygia-1200bc-675bc::c1"
     ],
     "Ashur-bel-kala": [
       "assyria-1400bc-1050bc::k9"
@@ -64610,6 +64951,11 @@
       "north-syria-1200bc-717bc::p6",
       "north-syria-1200bc-717bc::p7",
       "north-syria-1200bc-717bc::c4",
+      "phrygia-1200bc-675bc::p3",
+      "phrygia-1200bc-675bc::p6",
+      "phrygia-1200bc-675bc::c3",
+      "phrygia-1200bc-675bc::c4",
+      "phrygia-1200bc-675bc::l2",
       "south-arabia-1200bc-300bc::x4"
     ],
     "Shalmaneser V": [
@@ -64669,7 +65015,8 @@
       "sassanid-224-484::ex4"
     ],
     "Urartu": [
-      "assyria-911bc-609bc::c2"
+      "assyria-911bc-609bc::c2",
+      "phrygia-1200bc-675bc::c6"
     ],
     "Samaria Sebastia": [
       "assyria-911bc-609bc::c3"
@@ -64689,6 +65036,7 @@
       "israel-judah-1200bc-586bc::b1",
       "philistia-1200bc-604bc::p2",
       "philistia-1200bc-604bc::t2",
+      "phrygia-1200bc-675bc::ec3",
       "roman-byzantine-levant-135-638::t1",
       "south-arabia-1200bc-300bc::x5"
     ],
@@ -65116,7 +65464,8 @@
       "magan-1200bc-300bc::tc1",
       "magan-1200bc-300bc::lv4",
       "magan-1200bc-300bc::lv1",
-      "magan-3000bc-1200bc::tc1"
+      "magan-3000bc-1200bc::tc1",
+      "phrygia-1200bc-675bc::g1"
     ],
     "Ionian Greeks of the Cilician": [
       "assyria-911bc-609bc::xc1"
@@ -68769,6 +69118,7 @@
     "Caucasus": [
       "beth-qatraye-240-632::c3",
       "mamluks-1250-1517::ec5",
+      "phrygia-1200bc-675bc::w3",
       "rome-300-400::ex2",
       "sassanid-484-651::k4"
     ],
@@ -80388,7 +80738,8 @@
       "egypt-664bc-332bc::xc3"
     ],
     "Phoenician": [
-      "egypt-664bc-332bc::xc3"
+      "egypt-664bc-332bc::xc3",
+      "phrygia-1200bc-675bc::x3"
     ],
     "Jews of Elephantine": [
       "egypt-664bc-332bc::xc4"
@@ -84267,7 +84618,8 @@
       "hasmonean-332bc-63bc::w1"
     ],
     "Mother": [
-      "hasmonean-332bc-63bc::l1"
+      "hasmonean-332bc-63bc::l1",
+      "phrygia-1200bc-675bc::b1"
     ],
     "Seven Sons": [
       "hasmonean-332bc-63bc::l1"
@@ -86360,7 +86712,8 @@
       "hittite-1650bc-1180bc::b4"
     ],
     "Storm God": [
-      "hittite-1650bc-1180bc::b3"
+      "hittite-1650bc-1180bc::b3",
+      "phrygia-1200bc-675bc::p8"
     ],
     "Inandık": [
       "hittite-1650bc-1180bc::e5"
@@ -86417,7 +86770,9 @@
       "kanesh-2000bc-1650bc::p2",
       "kanesh-2000bc-1650bc::ec4",
       "kanesh-2000bc-1650bc::w1",
-      "kanesh-2000bc-1650bc::w2"
+      "kanesh-2000bc-1650bc::w2",
+      "phrygia-1200bc-675bc::p1",
+      "phrygia-1200bc-675bc::w1"
     ],
     "Rain-fed": [
       "hittite-1650bc-1180bc::ec1"
@@ -86441,7 +86796,8 @@
       "hittite-1650bc-1180bc::g3"
     ],
     "Hieroglyphic Luwian": [
-      "hittite-1650bc-1180bc::g4"
+      "hittite-1650bc-1180bc::g4",
+      "phrygia-1200bc-675bc::p7"
     ],
     "Kizzuwatna": [
       "hittite-1650bc-1180bc::g5"
@@ -86744,7 +87100,8 @@
       "hormuz-1200-1507::x3"
     ],
     "Horses": [
-      "hormuz-1200-1507::x3"
+      "hormuz-1200-1507::x3",
+      "phrygia-1200bc-675bc::ec1"
     ],
     "Gulf–India": [
       "hormuz-1200-1507::x3",
@@ -93198,7 +93555,8 @@
       "mamluks-1250-1517::t4"
     ],
     "Adana": [
-      "mamluks-1250-1517::c9"
+      "mamluks-1250-1517::c9",
+      "phrygia-1200bc-675bc::p7"
     ],
     "Chaul": [
       "mamluks-1250-1517::c10"
@@ -94587,7 +94945,10 @@
       "mesopotamia-331bc-141bc::c2"
     ],
     "Phrygia": [
-      "mesopotamia-331bc-141bc::c2"
+      "mesopotamia-331bc-141bc::c2",
+      "phrygia-1200bc-675bc::t3",
+      "phrygia-1200bc-675bc::ec1",
+      "phrygia-1200bc-675bc::x1"
     ],
     "Seleucus Indian": [
       "mesopotamia-331bc-141bc::c2"
@@ -97863,6 +98224,223 @@
     ],
     "Tophet Archaeological Evidence": [
       "phoenicia-1200bc-539bc::l1"
+    ],
+    "Mushki": [
+      "phrygia-1200bc-675bc::p1",
+      "phrygia-1200bc-675bc::c1"
+    ],
+    "Phrygians of Greek": [
+      "phrygia-1200bc-675bc::p1"
+    ],
+    "Early Phrygian Gordion": [
+      "phrygia-1200bc-675bc::p2",
+      "phrygia-1200bc-675bc::c2"
+    ],
+    "Phrygian": [
+      "phrygia-1200bc-675bc::p3",
+      "phrygia-1200bc-675bc::t1",
+      "phrygia-1200bc-675bc::g2"
+    ],
+    "Gordion": [
+      "phrygia-1200bc-675bc::p3",
+      "phrygia-1200bc-675bc::c5",
+      "phrygia-1200bc-675bc::o1",
+      "phrygia-1200bc-675bc::b1",
+      "phrygia-1200bc-675bc::b2",
+      "phrygia-1200bc-675bc::e2",
+      "phrygia-1200bc-675bc::e1",
+      "phrygia-1200bc-675bc::e4",
+      "phrygia-1200bc-675bc::t1",
+      "phrygia-1200bc-675bc::ec2",
+      "phrygia-1200bc-675bc::g1",
+      "phrygia-1200bc-675bc::g2",
+      "phrygia-1200bc-675bc::g3",
+      "phrygia-1200bc-675bc::x4",
+      "phrygia-1200bc-675bc::l1"
+    ],
+    "Midas of Phrygia": [
+      "phrygia-1200bc-675bc::p3"
+    ],
+    "Mita of the Mushki": [
+      "phrygia-1200bc-675bc::p3"
+    ],
+    "Mita of Mushki": [
+      "phrygia-1200bc-675bc::p3",
+      "phrygia-1200bc-675bc::c3"
+    ],
+    "Tabal": [
+      "phrygia-1200bc-675bc::p4",
+      "phrygia-1200bc-675bc::c4",
+      "phrygia-1200bc-675bc::ec1",
+      "phrygia-1200bc-675bc::l2",
+      "phrygia-1200bc-675bc::l3"
+    ],
+    "Kululu": [
+      "phrygia-1200bc-675bc::p4"
+    ],
+    "Kayseri": [
+      "phrygia-1200bc-675bc::p4"
+    ],
+    "Southeast of Gordion": [
+      "phrygia-1200bc-675bc::p4"
+    ],
+    "Hartapu": [
+      "phrygia-1200bc-675bc::p5"
+    ],
+    "Kızıldağ": [
+      "phrygia-1200bc-675bc::p5"
+    ],
+    "Tuwana Tyana": [
+      "phrygia-1200bc-675bc::p6"
+    ],
+    "Warpalawa of Tuwana": [
+      "phrygia-1200bc-675bc::p6"
+    ],
+    "Çineköy": [
+      "phrygia-1200bc-675bc::p7",
+      "phrygia-1200bc-675bc::x3"
+    ],
+    "Awariku of Hiyawa": [
+      "phrygia-1200bc-675bc::p7"
+    ],
+    "Que": [
+      "phrygia-1200bc-675bc::p7",
+      "phrygia-1200bc-675bc::o3",
+      "phrygia-1200bc-675bc::ec3",
+      "phrygia-1200bc-675bc::x1"
+    ],
+    "Urikki of the Assyrian": [
+      "phrygia-1200bc-675bc::p7"
+    ],
+    "Hiyawa": [
+      "phrygia-1200bc-675bc::p8"
+    ],
+    "Karatepe-Aslantaş": [
+      "phrygia-1200bc-675bc::p8",
+      "phrygia-1200bc-675bc::e3",
+      "phrygia-1200bc-675bc::t2"
+    ],
+    "Azatiwada": [
+      "phrygia-1200bc-675bc::p8"
+    ],
+    "Karatepe": [
+      "phrygia-1200bc-675bc::p8",
+      "phrygia-1200bc-675bc::e3",
+      "phrygia-1200bc-675bc::t2",
+      "phrygia-1200bc-675bc::x3"
+    ],
+    "Iron Age Cilicia": [
+      "phrygia-1200bc-675bc::p8"
+    ],
+    "Kadmuhu": [
+      "phrygia-1200bc-675bc::c1"
+    ],
+    "Melid": [
+      "phrygia-1200bc-675bc::c6"
+    ],
+    "Kummuh": [
+      "phrygia-1200bc-675bc::c6"
+    ],
+    "Argishti I": [
+      "phrygia-1200bc-675bc::c6"
+    ],
+    "Sarduri II": [
+      "phrygia-1200bc-675bc::c6"
+    ],
+    "Ambaris of Tabal": [
+      "phrygia-1200bc-675bc::c3"
+    ],
+    "Gurdi of Kulummu": [
+      "phrygia-1200bc-675bc::c4"
+    ],
+    "Cimmerians": [
+      "phrygia-1200bc-675bc::c5",
+      "phrygia-1200bc-675bc::w3"
+    ],
+    "Late Greek": [
+      "phrygia-1200bc-675bc::c5"
+    ],
+    "Terrace Building": [
+      "phrygia-1200bc-675bc::o1"
+    ],
+    "Arpad": [
+      "phrygia-1200bc-675bc::o2"
+    ],
+    "Kushtashpi of Kummuh": [
+      "phrygia-1200bc-675bc::o2"
+    ],
+    "Tarhulara of Gurgum": [
+      "phrygia-1200bc-675bc::o2"
+    ],
+    "Wassurme of Tabal": [
+      "phrygia-1200bc-675bc::o2"
+    ],
+    "Urikki of Que": [
+      "phrygia-1200bc-675bc::o2"
+    ],
+    "Midas City": [
+      "phrygia-1200bc-675bc::b1"
+    ],
+    "Matar": [
+      "phrygia-1200bc-675bc::b1"
+    ],
+    "Cybele Kubileya": [
+      "phrygia-1200bc-675bc::b1"
+    ],
+    "Tumulus MM": [
+      "phrygia-1200bc-675bc::b2",
+      "phrygia-1200bc-675bc::e1",
+      "phrygia-1200bc-675bc::g3",
+      "phrygia-1200bc-675bc::x4",
+      "phrygia-1200bc-675bc::l1"
+    ],
+    "Midas Mound": [
+      "phrygia-1200bc-675bc::b2",
+      "phrygia-1200bc-675bc::e1",
+      "phrygia-1200bc-675bc::l1"
+    ],
+    "Ivriz": [
+      "phrygia-1200bc-675bc::b3"
+    ],
+    "Iron Age Luwian": [
+      "phrygia-1200bc-675bc::b3"
+    ],
+    "Northeast Ridge": [
+      "phrygia-1200bc-675bc::e4"
+    ],
+    "Helmuth Bossert": [
+      "phrygia-1200bc-675bc::t2"
+    ],
+    "Midas": [
+      "phrygia-1200bc-675bc::t3",
+      "phrygia-1200bc-675bc::x2"
+    ],
+    "Delphi Herodotus": [
+      "phrygia-1200bc-675bc::t3"
+    ],
+    "Joinery": [
+      "phrygia-1200bc-675bc::g3"
+    ],
+    "Elizabeth Simpson": [
+      "phrygia-1200bc-675bc::g3"
+    ],
+    "Iron Age Phrygian": [
+      "phrygia-1200bc-675bc::g3"
+    ],
+    "Urartian": [
+      "phrygia-1200bc-675bc::x4"
+    ],
+    "Mita": [
+      "phrygia-1200bc-675bc::x1"
+    ],
+    "Delphi": [
+      "phrygia-1200bc-675bc::x2"
+    ],
+    "Rusa I of Urartu": [
+      "phrygia-1200bc-675bc::w3"
+    ],
+    "Ambaris of Bit-Burutash": [
+      "phrygia-1200bc-675bc::l2"
     ],
     "Fort of Our Lady of the Conception": [
       "portuguese-gulf-1507-1650::k1",

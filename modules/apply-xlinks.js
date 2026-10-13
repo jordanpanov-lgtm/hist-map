@@ -1476,6 +1476,16 @@ const SELECTED_PAIRS = [
   ['hittite-1650bc-1180bc::p13', 'north-syria-1200bc-717bc::p1'],      // the Carchemish line after Hattusa
   ['hittite-1650bc-1180bc::g5', 'north-syria-1200bc-717bc::tc1'],      // iron: not a guarded Hittite secret
   ['hittite-1650bc-1180bc::p1', 'kanesh-2000bc-1650bc::p6'],      // Hattusili as heir of the Kussaran kings and the curse on Hattusa
+  ['phrygia-1200bc-675bc::c1', 'assyria-1400bc-1050bc::k8'],      // Tiglath-Pileser I and the Mushki
+  ['phrygia-1200bc-675bc::c1', 'assyria-1400bc-1050bc::c4'],      // the campaigns of Tiglath-Pileser I
+  ['phrygia-1200bc-675bc::c3', 'assyria-911bc-609bc::k6'],      // Sargon II in Tabal and Que
+  ['phrygia-1200bc-675bc::c4', 'assyria-911bc-609bc::k6'],      // the death of Sargon II
+  ['phrygia-1200bc-675bc::c6', 'assyria-911bc-609bc::c2'],      // the long war with Urartu
+  ['phrygia-1200bc-675bc::p7', 'north-syria-1200bc-717bc::p7'],      // Carchemish and Phrygia in Sargon II's reign
+  ['phrygia-1200bc-675bc::t2', 'north-syria-1200bc-717bc::o1'],      // Two scripts, two languages: Luwian and Phoenician at court
+  ['phrygia-1200bc-675bc::e3', 'north-syria-1200bc-717bc::e1'],      // Neo-Hittite orthostat reliefs
+  ['phrygia-1200bc-675bc::p6', 'north-syria-1200bc-717bc::b1'],      // storm god in Neo-Hittite religion
+  ['phrygia-1200bc-675bc::g2', 'hittite-1650bc-1180bc::g5'],      // iron and bronze after the Hittites
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

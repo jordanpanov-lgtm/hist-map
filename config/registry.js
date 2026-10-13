@@ -212,5 +212,6 @@ const MODULES = [
   { id:"anatolia-3000bc-2000bc", file:"modules/anatolia-3000bc-2000bc.json", label:"Early Bronze Age Anatolia 3000–2000 BC", sub:"Troy, the Alaca Höyük Tombs and the Tin of the Taurus", region:"Turkey", period:"Prehistoric" },
   { id:"kanesh-2000bc-1650bc", file:"modules/kanesh-2000bc-1650bc.json", label:"Kanesh and the Assyrian Colonies 2000–1650 BC", sub:"Merchants from Assur, the Princes of the Plateau and the First Archives of Anatolia", region:"Turkey", period:"Prehistoric" },
   { id:"hittite-1650bc-1180bc", file:"modules/hittite-1650bc-1180bc.json", label:"The Hittite Empire 1650–1180 BC", sub:"Hattusa, the Great Kings, Kadesh and the Fall of the Land of Hatti", region:"Turkey", period:"Prehistoric" },
+  { id:"phrygia-1200bc-675bc", file:"modules/phrygia-1200bc-675bc.json", label:"Phrygia and Iron Age Anatolia 1200–675 BC", sub:"Gordion, Midas and the Kingdoms between the Hittites and Lydia", region:"Turkey", period:"Ancient" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
