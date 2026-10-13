@@ -1886,6 +1886,14 @@ const SELECTED_PAIRS = [
   ['caucasus-1747-1828::o4', 'qajar-1789-1925::p2'],      // the treaty of Turkmenchay
   ['caucasus-1747-1828::p1', 'iran-1722-1789::p2'],      // Nader Shah and the Georgian kings
   ['caucasus-1747-1828::ec2', 'ottoman-anatolia-1800-1908::x4'],      // Armenian migration and emigration in the nineteenth century
+  ['caucasus-1828-1878::c4', 'ottoman-anatolia-1800-1908::c2'],      // Kars and the war of 1877–1878
+  ['caucasus-1828-1878::c3', 'ottoman-anatolia-1800-1908::c2'],      // Kars in the Crimean and Russo-Turkish wars
+  ['caucasus-1828-1878::x2', 'ottoman-anatolia-1800-1908::w1'],      // the treaty of Berlin and Article 61
+  ['caucasus-1828-1878::x1', 'ottoman-anatolia-1800-1908::x1'],      // the Muslim refugees (muhajir) settled in Anatolia
+  ['caucasus-1828-1878::b2', 'caucasus-1747-1828::b2'],      // the Armenian Church under Russia
+  ['caucasus-1828-1878::o2', 'caucasus-1747-1828::o5'],      // the administration of the Armenian lands
+  ['caucasus-1828-1878::b1', 'caucasus-1747-1828::b1'],      // the abolition of Georgian autocephaly
+  ['caucasus-1828-1878::p1', 'caucasus-1747-1828::p8'],      // the Russian governors of the conquest
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

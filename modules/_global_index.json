@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 8993,
-    "folio_count": 187,
-    "xlink_pairs": 1882,
-    "keyword_terms": 13786,
+    "total_entries": 9029,
+    "folio_count": 188,
+    "xlink_pairs": 1890,
+    "keyword_terms": 13855,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -154,6 +154,11 @@
         "id": "caucasus-1747-1828",
         "title": "Khanates and the Russian Conquest",
         "entries": 38
+      },
+      {
+        "id": "caucasus-1828-1878",
+        "title": "Russian Caucasus",
+        "entries": 36
       },
       {
         "id": "caucasus-1850000bc-3500bc",
@@ -2493,6 +2498,42 @@
     "caucasus-1747-1828::l1": "Darejan Dadiani",
     "caucasus-1747-1828::l3": "Sayat-Nova's Tbilisi",
     "caucasus-1747-1828::l2": "The captives of 1795",
+    "caucasus-1828-1878::p1": "Paskevich and the early governors",
+    "caucasus-1828-1878::p2": "Prince Mikhail Vorontsov",
+    "caucasus-1828-1878::p3": "Baryatinsky and Grand Duke Mikhail",
+    "caucasus-1828-1878::p4": "Georgian princes in the Russian service",
+    "caucasus-1828-1878::p5": "The Muslim beks and khans' families",
+    "caucasus-1828-1878::p6": "The Armenian merchant and noble families",
+    "caucasus-1828-1878::c1": "The conspiracy of 1832",
+    "caucasus-1828-1878::c6": "The Mingrelian and Imeretian risings",
+    "caucasus-1828-1878::c3": "The Crimean War in the Caucasus",
+    "caucasus-1828-1878::c2": "Shamil's raid on Tsinandali",
+    "caucasus-1828-1878::c5": "The Abkhaz rising of 1866",
+    "caucasus-1828-1878::c4": "The Russo-Turkish war of 1877–1878",
+    "caucasus-1828-1878::o1": "The provinces of 1846",
+    "caucasus-1828-1878::o2": "The emancipation of the serfs",
+    "caucasus-1828-1878::o3": "The Muslim spiritual boards",
+    "caucasus-1828-1878::b1": "The Georgian exarchate",
+    "caucasus-1828-1878::b3": "The Molokans and Dukhobors",
+    "caucasus-1828-1878::b2": "The Armenian Church under the Polozhenie",
+    "caucasus-1828-1878::e1": "Nikoloz Baratashvili",
+    "caucasus-1828-1878::e3": "Natavan and Azerbaijani poetry",
+    "caucasus-1828-1878::e2": "Abovian and Raffi",
+    "caucasus-1828-1878::e4": "The theatre of Tbilisi and Baku",
+    "caucasus-1828-1878::t4": "Brosset and the orientalists",
+    "caucasus-1828-1878::t2": "Nalbandian and the Armenian press",
+    "caucasus-1828-1878::t3": "Akhundov and Zardabi",
+    "caucasus-1828-1878::t1": "The Tergdaleulebi",
+    "caucasus-1828-1878::ec3": "The Tbilisi economy",
+    "caucasus-1828-1878::ec1": "The first Baku oil boom",
+    "caucasus-1828-1878::ec2": "The Poti–Tbilisi railway",
+    "caucasus-1828-1878::g1": "The Caucasian steamships and telegraph",
+    "caucasus-1828-1878::x1": "Muhajirism from Abkhazia and the Black Sea coast",
+    "caucasus-1828-1878::x2": "The Treaty of Berlin and the new borders",
+    "caucasus-1828-1878::w1": "Cholera and the new population",
+    "caucasus-1828-1878::l2": "Natavan",
+    "caucasus-1828-1878::l3": "The Tbilisi artisan and the serf",
+    "caucasus-1828-1878::l1": "The princesses of Tsinandali",
     "caucasus-1850000bc-3500bc::p2": "Azokh and Azykh — a cave with a mandible",
     "caucasus-1850000bc-3500bc::p1": "Dmanisi — the earliest humans outside Africa",
     "caucasus-1850000bc-3500bc::p3": "Nor Geghi 1 — early Levallois technology",
@@ -10410,7 +10451,8 @@
       "ottoman-anatolia-1800-1908::w1"
     ],
     "ottoman-anatolia-1800-1908::w1": [
-      "anatolia-1908-1923::o2"
+      "anatolia-1908-1923::o2",
+      "caucasus-1828-1878::x2"
     ],
     "anatolia-1908-1923::o6": [
       "iraq-1914-1958::xc5"
@@ -10476,7 +10518,8 @@
       "ottoman-anatolia-1800-1908::x1"
     ],
     "ottoman-anatolia-1800-1908::x1": [
-      "anatolia-1908-1923::x2"
+      "anatolia-1908-1923::x2",
+      "caucasus-1828-1878::x1"
     ],
     "anatolia-1908-1923::x1": [
       "levant-1908-1920::p2"
@@ -13245,6 +13288,12 @@
     "caucasus-1747-1828::p1": [
       "iran-1722-1789::p2"
     ],
+    "caucasus-1747-1828::p8": [
+      "caucasus-1828-1878::p1"
+    ],
+    "caucasus-1828-1878::p1": [
+      "caucasus-1747-1828::p8"
+    ],
     "caucasus-1747-1828::c2": [
       "qajar-1789-1925::p1"
     ],
@@ -13276,11 +13325,45 @@
     "caucasus-1747-1828::o4": [
       "qajar-1789-1925::p2"
     ],
+    "caucasus-1747-1828::o5": [
+      "caucasus-1828-1878::o2"
+    ],
+    "caucasus-1828-1878::o2": [
+      "caucasus-1747-1828::o5"
+    ],
+    "caucasus-1747-1828::b1": [
+      "caucasus-1828-1878::b1"
+    ],
+    "caucasus-1828-1878::b1": [
+      "caucasus-1747-1828::b1"
+    ],
+    "caucasus-1747-1828::b2": [
+      "caucasus-1828-1878::b2"
+    ],
+    "caucasus-1828-1878::b2": [
+      "caucasus-1747-1828::b2"
+    ],
     "caucasus-1747-1828::ec2": [
       "ottoman-anatolia-1800-1908::x4"
     ],
     "ottoman-anatolia-1800-1908::x4": [
       "caucasus-1747-1828::ec2"
+    ],
+    "caucasus-1828-1878::c3": [
+      "ottoman-anatolia-1800-1908::c2"
+    ],
+    "ottoman-anatolia-1800-1908::c2": [
+      "caucasus-1828-1878::c3",
+      "caucasus-1828-1878::c4"
+    ],
+    "caucasus-1828-1878::c4": [
+      "ottoman-anatolia-1800-1908::c2"
+    ],
+    "caucasus-1828-1878::x1": [
+      "ottoman-anatolia-1800-1908::x1"
+    ],
+    "caucasus-1828-1878::x2": [
+      "ottoman-anatolia-1800-1908::w1"
     ],
     "caucasus-1850000bc-3500bc::b3": [
       "mesopotamia-6500bc-3800bc::b5"
@@ -27689,6 +27772,213 @@
       "Tbilisi",
       "Persia",
       "Agha Mohammad Khan"
+    ],
+    "caucasus-1828-1878::p1": [
+      "Russian",
+      "Tbilisi",
+      "Ivan Paskevich",
+      "Baron Rosen",
+      "Caucasus Corps"
+    ],
+    "caucasus-1828-1878::p2": [
+      "Russian",
+      "Tbilisi",
+      "Mikhail Vorontsov",
+      "Viceroy of the Caucasus"
+    ],
+    "caucasus-1828-1878::p3": [
+      "Russian",
+      "Tbilisi",
+      "Alexander Baryatinsky",
+      "North Caucasus",
+      "Grand Duke Mikhail Nikolaevich Viceroy"
+    ],
+    "caucasus-1828-1878::p4": [
+      "Nobility",
+      "Tbilisi",
+      "Georgian",
+      "Russian",
+      "Grigol Orbeliani"
+    ],
+    "caucasus-1828-1878::p5": [
+      "Beks",
+      "Karabakh",
+      "Shirvan",
+      "Muslim"
+    ],
+    "caucasus-1828-1878::p6": [
+      "Armenian",
+      "Tbilisi",
+      "Shusha"
+    ],
+    "caucasus-1828-1878::c1": [
+      "Tbilisi",
+      "Okropir Okropir Bagration",
+      "Solomon Dodashvili",
+      "Alexander Orbeliani"
+    ],
+    "caucasus-1828-1878::c6": [
+      "Imereti",
+      "Mingrelian",
+      "Imeretian",
+      "Peasants of Guria"
+    ],
+    "caucasus-1828-1878::c3": [
+      "Kars",
+      "Bashgedikler",
+      "Caucasus",
+      "Crimean War the Russian Caucasus"
+    ],
+    "caucasus-1828-1878::c2": [
+      "Tsinandali",
+      "Kakheti",
+      "Shamil",
+      "Caucasian War",
+      "Anna Chavchavadze",
+      "Varvara Orbeliani"
+    ],
+    "caucasus-1828-1878::c5": [
+      "Lykhny",
+      "Abkhazia",
+      "Abkhaz of Sukhum"
+    ],
+    "caucasus-1828-1878::c4": [
+      "Kars",
+      "Ardahan",
+      "Batum",
+      "Russo-Turkish"
+    ],
+    "caucasus-1828-1878::o1": [
+      "Tbilisi",
+      "Kutaisi Georgia",
+      "Black Sea"
+    ],
+    "caucasus-1828-1878::o2": [
+      "Georgia",
+      "Transcaucasia"
+    ],
+    "caucasus-1828-1878::o3": [
+      "Tbilisi",
+      "Transcaucasian Muslim Spiritual Boards"
+    ],
+    "caucasus-1828-1878::b1": [
+      "Mtskheta",
+      "Tbilisi",
+      "Georgian",
+      "Holy Synod"
+    ],
+    "caucasus-1828-1878::b3": [
+      "Akhalkalaki",
+      "Elisavetpol",
+      "Molokans",
+      "Dukhobors",
+      "Nicholas I"
+    ],
+    "caucasus-1828-1878::b2": [
+      "Etchmiadzin",
+      "Armenian Church",
+      "Statute Polozhenie"
+    ],
+    "caucasus-1828-1878::e1": [
+      "Tbilisi",
+      "Ganja",
+      "Nikoloz Baratashvili",
+      "Steed Merani",
+      "Banks of the Mtkvari",
+      "Grigol Orbeliani"
+    ],
+    "caucasus-1828-1878::e3": [
+      "Shusha",
+      "Azerbaijani",
+      "Khurshidbanu Natavan"
+    ],
+    "caucasus-1828-1878::e2": [
+      "Tbilisi",
+      "Etchmiadzin",
+      "Khachatur Abovian",
+      "Wounds of Armenia",
+      "Raffi Hakob Melik-Hakobian"
+    ],
+    "caucasus-1828-1878::e4": [
+      "Tbilisi",
+      "Baku"
+    ],
+    "caucasus-1828-1878::t4": [
+      "St Petersburg",
+      "Marie-Félicité Brosset",
+      "Academy of Sciences"
+    ],
+    "caucasus-1828-1878::t2": [
+      "Tbilisi",
+      "Moscow",
+      "Armenian",
+      "Mikael Nalbandian",
+      "Freedom Azatutyun"
+    ],
+    "caucasus-1828-1878::t3": [
+      "Tbilisi",
+      "Baku",
+      "Zardabi",
+      "Mirza Fatali Akhundov",
+      "Akinchi The Ploughman"
+    ],
+    "caucasus-1828-1878::t1": [
+      "Tbilisi",
+      "St Petersburg",
+      "Terek Tergdaleulebi",
+      "Ilia Chavchavadze",
+      "Akaki Tsereteli",
+      "Niko Nikoladze"
+    ],
+    "caucasus-1828-1878::ec3": [
+      "Tbilisi"
+    ],
+    "caucasus-1828-1878::ec1": [
+      "Baku",
+      "Balakhani",
+      "Ludwig Nobel"
+    ],
+    "caucasus-1828-1878::ec2": [
+      "Poti",
+      "Tbilisi",
+      "Poti–Tbilisi",
+      "Black Sea"
+    ],
+    "caucasus-1828-1878::g1": [
+      "Baku",
+      "Tbilisi",
+      "Caucasian"
+    ],
+    "caucasus-1828-1878::x1": [
+      "Black Sea",
+      "Muhajirism",
+      "Caucasian War",
+      "Muslim Circassians",
+      "Abkhazia Muslim"
+    ],
+    "caucasus-1828-1878::x2": [
+      "Congress of Berlin",
+      "San Stefano"
+    ],
+    "caucasus-1828-1878::w1": [
+      "Transcaucasia",
+      "Cholera"
+    ],
+    "caucasus-1828-1878::l2": [
+      "Shusha",
+      "Khurshidbanu Natavan",
+      "Azerbaijani Enlightenment"
+    ],
+    "caucasus-1828-1878::l3": [
+      "Tbilisi",
+      "Georgia"
+    ],
+    "caucasus-1828-1878::l1": [
+      "Tsinandali",
+      "Dagestan",
+      "Princess Anna Chavchavadze",
+      "Varvara Orbeliani",
+      "Madame Drancey"
     ],
     "caucasus-1850000bc-3500bc::p2": [
       "Azokh Azykh Cave",
@@ -70317,6 +70607,9 @@
       "caucasus-1243-1501::w1",
       "caucasus-1243-1501::w2",
       "caucasus-1501-1747::ec3",
+      "caucasus-1828-1878::o1",
+      "caucasus-1828-1878::ec2",
+      "caucasus-1828-1878::x1",
       "caucasus-3500bc-1200bc::p7",
       "caucasus-428-645::p10",
       "caucasus-428-645::ec2",
@@ -71118,6 +71411,8 @@
       "caucasus-1243-1501::x3",
       "caucasus-1501-1747::t3",
       "caucasus-1747-1828::p5",
+      "caucasus-1828-1878::p6",
+      "caucasus-1828-1878::t2",
       "caucasus-3500bc-1200bc::p8",
       "caucasus-3500bc-1200bc::c2",
       "caucasus-3500bc-1200bc::t1",
@@ -71434,6 +71729,7 @@
     "Imereti": [
       "achaemenid-caucasus-585bc-330bc::b2",
       "caucasus-1501-1747::e1",
+      "caucasus-1828-1878::c6",
       "caucasus-1850000bc-3500bc::p5",
       "caucasus-1850000bc-3500bc::p4",
       "caucasus-1850000bc-3500bc::p6",
@@ -71519,6 +71815,7 @@
       "caucasus-1501-1747::p3",
       "caucasus-1501-1747::b1",
       "caucasus-1501-1747::w2",
+      "caucasus-1828-1878::c3",
       "caucasus-1850000bc-3500bc::p6",
       "caucasus-1850000bc-3500bc::x2",
       "caucasus-3500bc-1200bc::x2",
@@ -73807,6 +74104,7 @@
       "ayyubids-1171-1250::c8",
       "caliphate-750-945::b2",
       "caucasus-1501-1747::p5",
+      "caucasus-1828-1878::p5",
       "caucasus-645-884::p2",
       "ghassanid-420-638::c5",
       "ghassanid-420-638::w3",
@@ -75583,7 +75881,11 @@
     "Russian": [
       "anatolia-1908-1923::c6",
       "caucasus-1747-1828::p8",
-      "caucasus-1747-1828::x2"
+      "caucasus-1747-1828::x2",
+      "caucasus-1828-1878::p1",
+      "caucasus-1828-1878::p2",
+      "caucasus-1828-1878::p3",
+      "caucasus-1828-1878::p4"
     ],
     "Ottoman Third Army": [
       "anatolia-1908-1923::c6"
@@ -75622,6 +75924,8 @@
     "Kars": [
       "anatolia-1908-1923::c17",
       "anatolia-1908-1923::x3",
+      "caucasus-1828-1878::c3",
+      "caucasus-1828-1878::c4",
       "caucasus-884-1064::p2",
       "caucasus-884-1064::p6",
       "ottoman-anatolia-1800-1908::c2"
@@ -75916,6 +76220,7 @@
       "anatolia-1908-1923::x3",
       "anatolia-3000bc-2000bc::e1",
       "caucasus-1501-1747::x1",
+      "caucasus-1828-1878::t2",
       "france-1789-1815::w1",
       "spain-1900-1975::k9"
     ],
@@ -84567,6 +84872,8 @@
       "caucasus-1501-1747::ec3",
       "caucasus-1501-1747::x1",
       "caucasus-1747-1828::x1",
+      "caucasus-1828-1878::o2",
+      "caucasus-1828-1878::l3",
       "caucasus-3500bc-1200bc::p7",
       "caucasus-3500bc-1200bc::t2",
       "caucasus-428-645::g3",
@@ -87319,6 +87626,7 @@
       "caucasus-1-428::e3",
       "caucasus-1-428::l2",
       "caucasus-1747-1828::b1",
+      "caucasus-1828-1878::b1",
       "caucasus-428-645::p6",
       "caucasus-428-645::p7",
       "caucasus-428-645::b4",
@@ -87586,7 +87894,9 @@
       "caucasus-1501-1747::p8",
       "caucasus-1501-1747::t2",
       "caucasus-1501-1747::t3",
-      "caucasus-1747-1828::p5"
+      "caucasus-1747-1828::p5",
+      "caucasus-1828-1878::b2",
+      "caucasus-1828-1878::e2"
     ],
     "Armenian Church": [
       "caucasus-1-428::e2",
@@ -87595,6 +87905,7 @@
       "caucasus-1243-1501::b3",
       "caucasus-1501-1747::b2",
       "caucasus-1747-1828::b2",
+      "caucasus-1828-1878::b2",
       "caucasus-428-645::c1",
       "caucasus-428-645::b1",
       "caucasus-645-884::b2",
@@ -87746,6 +88057,25 @@
       "caucasus-1747-1828::x1",
       "caucasus-1747-1828::l1",
       "caucasus-1747-1828::l2",
+      "caucasus-1828-1878::p1",
+      "caucasus-1828-1878::p2",
+      "caucasus-1828-1878::p3",
+      "caucasus-1828-1878::p4",
+      "caucasus-1828-1878::p6",
+      "caucasus-1828-1878::c1",
+      "caucasus-1828-1878::o1",
+      "caucasus-1828-1878::o3",
+      "caucasus-1828-1878::b1",
+      "caucasus-1828-1878::e1",
+      "caucasus-1828-1878::e2",
+      "caucasus-1828-1878::e4",
+      "caucasus-1828-1878::t2",
+      "caucasus-1828-1878::t3",
+      "caucasus-1828-1878::t1",
+      "caucasus-1828-1878::ec3",
+      "caucasus-1828-1878::ec2",
+      "caucasus-1828-1878::g1",
+      "caucasus-1828-1878::l3",
       "caucasus-1850000bc-3500bc::t1",
       "caucasus-428-645::p6",
       "caucasus-428-645::p7",
@@ -87798,6 +88128,8 @@
       "caucasus-1501-1747::p4",
       "caucasus-1501-1747::ec3",
       "caucasus-1747-1828::b1",
+      "caucasus-1828-1878::p4",
+      "caucasus-1828-1878::b1",
       "caucasus-428-645::t1",
       "caucasus-884-1064::b3",
       "caucasus-884-1064::t4"
@@ -87830,7 +88162,11 @@
       "caucasus-1747-1828::p7",
       "caucasus-1747-1828::c4",
       "caucasus-1747-1828::c7",
-      "caucasus-1747-1828::t2"
+      "caucasus-1747-1828::t2",
+      "caucasus-1828-1878::e4",
+      "caucasus-1828-1878::t3",
+      "caucasus-1828-1878::ec1",
+      "caucasus-1828-1878::g1"
     ],
     "Shirvanshahs of Shamakhi": [
       "caucasus-1064-1243::p9"
@@ -87934,6 +88270,7 @@
       "caucasus-1747-1828::c4",
       "caucasus-1747-1828::c7",
       "caucasus-1747-1828::b3",
+      "caucasus-1828-1878::e1",
       "caucasus-884-1064::p11"
     ],
     "Demetre I of Georgia": [
@@ -88289,6 +88626,7 @@
       "caucasus-1501-1747::c9",
       "caucasus-1747-1828::p7",
       "caucasus-1747-1828::ec1",
+      "caucasus-1828-1878::p5",
       "caucasus-645-884::p10"
     ],
     "Terek": [
@@ -88667,6 +89005,7 @@
       "caucasus-1747-1828::p4",
       "caucasus-1747-1828::o3",
       "caucasus-1747-1828::e2",
+      "caucasus-1828-1878::p5",
       "caucasus-1850000bc-3500bc::p2",
       "caucasus-1850000bc-3500bc::p9",
       "caucasus-884-1064::b4",
@@ -88731,6 +89070,7 @@
     ],
     "Kakheti": [
       "caucasus-1501-1747::c5",
+      "caucasus-1828-1878::c2",
       "caucasus-884-1064::ec3"
     ],
     "Teimuraz I": [
@@ -88899,6 +89239,8 @@
       "caucasus-1501-1747::x2",
       "caucasus-1747-1828::o2",
       "caucasus-1747-1828::x1",
+      "caucasus-1828-1878::t4",
+      "caucasus-1828-1878::t1",
       "france-1715-1789::w2",
       "france-1815-1900::w3",
       "nabataean-312bc-106ce::o3",
@@ -88936,7 +89278,10 @@
     "Shusha": [
       "caucasus-1747-1828::p4",
       "caucasus-1747-1828::c3",
-      "caucasus-1747-1828::t2"
+      "caucasus-1747-1828::t2",
+      "caucasus-1828-1878::p6",
+      "caucasus-1828-1878::e3",
+      "caucasus-1828-1878::l2"
     ],
     "Panah Ali Khan": [
       "caucasus-1747-1828::p4"
@@ -88983,7 +89328,8 @@
       "caucasus-1747-1828::p8"
     ],
     "Ivan Paskevich": [
-      "caucasus-1747-1828::p8"
+      "caucasus-1747-1828::p8",
+      "caucasus-1828-1878::p1"
     ],
     "Aspindza": [
       "caucasus-1747-1828::c1"
@@ -89136,7 +89482,9 @@
     ],
     "Transcaucasia": [
       "caucasus-1747-1828::x2",
-      "caucasus-1747-1828::w1"
+      "caucasus-1747-1828::w1",
+      "caucasus-1828-1878::o2",
+      "caucasus-1828-1878::w1"
     ],
     "Württembergers Katharinenfeld": [
       "caucasus-1747-1828::x2"
@@ -89153,6 +89501,230 @@
     ],
     "Sayat-Nova Tbilisi": [
       "caucasus-1747-1828::l3"
+    ],
+    "Baron Rosen": [
+      "caucasus-1828-1878::p1"
+    ],
+    "Caucasus Corps": [
+      "caucasus-1828-1878::p1"
+    ],
+    "Mikhail Vorontsov": [
+      "caucasus-1828-1878::p2"
+    ],
+    "Viceroy of the Caucasus": [
+      "caucasus-1828-1878::p2"
+    ],
+    "Alexander Baryatinsky": [
+      "caucasus-1828-1878::p3"
+    ],
+    "North Caucasus": [
+      "caucasus-1828-1878::p3",
+      "urartu-colchis-1200bc-585bc::w2"
+    ],
+    "Grand Duke Mikhail Nikolaevich Viceroy": [
+      "caucasus-1828-1878::p3"
+    ],
+    "Nobility": [
+      "caucasus-1828-1878::p4"
+    ],
+    "Grigol Orbeliani": [
+      "caucasus-1828-1878::p4",
+      "caucasus-1828-1878::e1"
+    ],
+    "Beks": [
+      "caucasus-1828-1878::p5"
+    ],
+    "Okropir Okropir Bagration": [
+      "caucasus-1828-1878::c1"
+    ],
+    "Solomon Dodashvili": [
+      "caucasus-1828-1878::c1"
+    ],
+    "Alexander Orbeliani": [
+      "caucasus-1828-1878::c1"
+    ],
+    "Mingrelian": [
+      "caucasus-1828-1878::c6"
+    ],
+    "Imeretian": [
+      "caucasus-1828-1878::c6"
+    ],
+    "Peasants of Guria": [
+      "caucasus-1828-1878::c6"
+    ],
+    "Bashgedikler": [
+      "caucasus-1828-1878::c3"
+    ],
+    "Crimean War the Russian Caucasus": [
+      "caucasus-1828-1878::c3"
+    ],
+    "Tsinandali": [
+      "caucasus-1828-1878::c2",
+      "caucasus-1828-1878::l1"
+    ],
+    "Shamil": [
+      "caucasus-1828-1878::c2"
+    ],
+    "Caucasian War": [
+      "caucasus-1828-1878::c2",
+      "caucasus-1828-1878::x1"
+    ],
+    "Anna Chavchavadze": [
+      "caucasus-1828-1878::c2"
+    ],
+    "Varvara Orbeliani": [
+      "caucasus-1828-1878::c2",
+      "caucasus-1828-1878::l1"
+    ],
+    "Lykhny": [
+      "caucasus-1828-1878::c5"
+    ],
+    "Abkhazia": [
+      "caucasus-1828-1878::c5",
+      "caucasus-645-884::p8"
+    ],
+    "Abkhaz of Sukhum": [
+      "caucasus-1828-1878::c5"
+    ],
+    "Ardahan": [
+      "caucasus-1828-1878::c4"
+    ],
+    "Batum": [
+      "caucasus-1828-1878::c4"
+    ],
+    "Russo-Turkish": [
+      "caucasus-1828-1878::c4"
+    ],
+    "Kutaisi Georgia": [
+      "caucasus-1828-1878::o1"
+    ],
+    "Transcaucasian Muslim Spiritual Boards": [
+      "caucasus-1828-1878::o3"
+    ],
+    "Holy Synod": [
+      "caucasus-1828-1878::b1"
+    ],
+    "Akhalkalaki": [
+      "caucasus-1828-1878::b3"
+    ],
+    "Elisavetpol": [
+      "caucasus-1828-1878::b3"
+    ],
+    "Molokans": [
+      "caucasus-1828-1878::b3"
+    ],
+    "Dukhobors": [
+      "caucasus-1828-1878::b3"
+    ],
+    "Nicholas I": [
+      "caucasus-1828-1878::b3"
+    ],
+    "Statute Polozhenie": [
+      "caucasus-1828-1878::b2"
+    ],
+    "Nikoloz Baratashvili": [
+      "caucasus-1828-1878::e1"
+    ],
+    "Steed Merani": [
+      "caucasus-1828-1878::e1"
+    ],
+    "Banks of the Mtkvari": [
+      "caucasus-1828-1878::e1"
+    ],
+    "Azerbaijani": [
+      "caucasus-1828-1878::e3"
+    ],
+    "Khurshidbanu Natavan": [
+      "caucasus-1828-1878::e3",
+      "caucasus-1828-1878::l2"
+    ],
+    "Khachatur Abovian": [
+      "caucasus-1828-1878::e2"
+    ],
+    "Wounds of Armenia": [
+      "caucasus-1828-1878::e2"
+    ],
+    "Raffi Hakob Melik-Hakobian": [
+      "caucasus-1828-1878::e2"
+    ],
+    "Marie-Félicité Brosset": [
+      "caucasus-1828-1878::t4"
+    ],
+    "Academy of Sciences": [
+      "caucasus-1828-1878::t4"
+    ],
+    "Mikael Nalbandian": [
+      "caucasus-1828-1878::t2"
+    ],
+    "Freedom Azatutyun": [
+      "caucasus-1828-1878::t2"
+    ],
+    "Zardabi": [
+      "caucasus-1828-1878::t3"
+    ],
+    "Mirza Fatali Akhundov": [
+      "caucasus-1828-1878::t3"
+    ],
+    "Akinchi The Ploughman": [
+      "caucasus-1828-1878::t3"
+    ],
+    "Terek Tergdaleulebi": [
+      "caucasus-1828-1878::t1"
+    ],
+    "Ilia Chavchavadze": [
+      "caucasus-1828-1878::t1"
+    ],
+    "Akaki Tsereteli": [
+      "caucasus-1828-1878::t1"
+    ],
+    "Niko Nikoladze": [
+      "caucasus-1828-1878::t1"
+    ],
+    "Balakhani": [
+      "caucasus-1828-1878::ec1"
+    ],
+    "Ludwig Nobel": [
+      "caucasus-1828-1878::ec1"
+    ],
+    "Poti": [
+      "caucasus-1828-1878::ec2"
+    ],
+    "Poti–Tbilisi": [
+      "caucasus-1828-1878::ec2"
+    ],
+    "Caucasian": [
+      "caucasus-1828-1878::g1"
+    ],
+    "Muhajirism": [
+      "caucasus-1828-1878::x1"
+    ],
+    "Muslim Circassians": [
+      "caucasus-1828-1878::x1"
+    ],
+    "Abkhazia Muslim": [
+      "caucasus-1828-1878::x1"
+    ],
+    "Congress of Berlin": [
+      "caucasus-1828-1878::x2",
+      "ottoman-anatolia-1800-1908::w1"
+    ],
+    "San Stefano": [
+      "caucasus-1828-1878::x2"
+    ],
+    "Cholera": [
+      "caucasus-1828-1878::w1"
+    ],
+    "Azerbaijani Enlightenment": [
+      "caucasus-1828-1878::l2"
+    ],
+    "Dagestan": [
+      "caucasus-1828-1878::l1"
+    ],
+    "Princess Anna Chavchavadze": [
+      "caucasus-1828-1878::l1"
+    ],
+    "Madame Drancey": [
+      "caucasus-1828-1878::l1"
     ],
     "Azokh Azykh Cave": [
       "caucasus-1850000bc-3500bc::p2"
@@ -89928,9 +90500,6 @@
       "levant-634-750::p6"
     ],
     "Anchabadze": [
-      "caucasus-645-884::p8"
-    ],
-    "Abkhazia": [
       "caucasus-645-884::p8"
     ],
     "Leon II": [
@@ -116031,9 +116600,6 @@
     "Article": [
       "ottoman-anatolia-1800-1908::w1"
     ],
-    "Congress of Berlin": [
-      "ottoman-anatolia-1800-1908::w1"
-    ],
     "Ottoman Anatolia": [
       "ottoman-anatolia-1800-1908::w2"
     ],
@@ -128586,9 +129152,6 @@
     ],
     "Dioscurias Sukhumi": [
       "urartu-colchis-1200bc-585bc::x3"
-    ],
-    "North Caucasus": [
-      "urartu-colchis-1200bc-585bc::w2"
     ],
     "Kullaba": [
       "uruk-3800bc-2900bc::p2",

@@ -1,0 +1,966 @@
+{
+  "id": "caucasus-1828-1878",
+  "title": "Russian Caucasus",
+  "subtitle": "1828–1878 · The Viceroyalty, the Conspiracy of 1832, the National Awakenings, the First Oil and the War of 1877–1878",
+  "period": {
+    "start": 1828,
+    "end": 1878
+  },
+  "region": "Caucasus",
+  "period_label": "Early Modern",
+  "mapCenter": [
+    41,
+    45
+  ],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "The Russian governors and viceroys from Paskevich to Grand Duke Mikhail, the provincial system and the old noble houses",
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Viceroys and Governors",
+          "dynasty": "Russian",
+          "label": "Paskevich and the early governors",
+          "date": "1828–1844",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Ivan Paskevich (1827–1831) and his successors Baron Rosen (1831–1837), Golovin and Neidhardt governed the Caucasus as commanders of a separate Caucasus Corps, with military governors of the new provinces and the Georgian, Armenian and Muslim elites incorporated into the imperial nobility. The administration was military, centralised and arbitrary.",
+          "tag": "APPOINTED",
+          "note": "Ronald Suny, The Making of the Georgian Nation (1994); Moshe Gammer, Muslim Resistance to the Tsar (1994).",
+          "keywords": ["Russian","Tbilisi","Ivan Paskevich","Baron Rosen","Caucasus Corps"],
+          "xlinks": ["caucasus-1747-1828::p8"]
+        },
+        {
+          "id": "p2",
+          "group": "Viceroys and Governors",
+          "dynasty": "Russian",
+          "label": "Prince Mikhail Vorontsov",
+          "date": "1844–1854",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Prince Mikhail Vorontsov, the first Viceroy of the Caucasus from 1844, a liberal-minded aristocrat who had governed New Russia, won Georgian and Armenian nobles by respect for their rank, opened schools, a theatre and newspapers, encouraged trade and cities, and put Tbilisi on the cultural map; his rule is remembered as a good time for the region.",
+          "tag": "APPOINTED",
+          "note": "Suny 1994; Firuz Kazemzadeh, Russia and the Caucasus (in Pipes); Gammer 1994.",
+          "keywords": ["Russian","Tbilisi","Mikhail Vorontsov","Viceroy of the Caucasus"]
+        },
+        {
+          "id": "p3",
+          "group": "Viceroys and Governors",
+          "dynasty": "Russian",
+          "label": "Baryatinsky and Grand Duke Mikhail",
+          "date": "1856–1878",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Prince Alexander Baryatinsky (1856–1862), who completed the conquest of the North Caucasus, and Grand Duke Mikhail Nikolaevich (Viceroy 1862–1881), who introduced the Great Reforms to Transcaucasia, led an administration which enlisted the nobility and townspeople and which, with the dismantling of the khanates, put the Caucasus on a Russian provincial footing.",
+          "tag": "APPOINTED",
+          "note": "Suny 1994; Audrey Altstadt, The Azerbaijani Turks (1992).",
+          "keywords": ["Russian","Tbilisi","Alexander Baryatinsky","North Caucasus","Grand Duke Mikhail Nikolaevich Viceroy"]
+        },
+        {
+          "id": "p4",
+          "group": "The Old Elites",
+          "dynasty": "Nobility",
+          "label": "Georgian princes in the Russian service",
+          "date": "1828–1878",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "The Georgian nobility, with some 5 per cent of the population, was admitted to the Russian nobility in 1830s lists with its titles of prince (knyaz) and noble (aznauri), keeping its estates and serfs, and its sons served as officers and officials, with a few, such as Grigol Orbeliani, rising to the highest rank; at the same time the old kingdom's elite lost its political role.",
+          "tag": "EVIDENCE",
+          "note": "Suny 1994; Rapp, Georgian Christian Identity (2003).",
+          "keywords": ["Nobility","Tbilisi","Georgian","Russian","Grigol Orbeliani"]
+        },
+        {
+          "id": "p5",
+          "group": "The Old Elites",
+          "dynasty": "Beks",
+          "label": "The Muslim beks and khans' families",
+          "date": "1828–1878",
+          "loc": "Karabakh and Shirvan",
+          "coords": [
+            39.76,
+            46.75
+          ],
+          "hint": "The families of the former khans and the beks of Azerbaijan were recognised as nobles in 1840s and 1850s, kept their lands and their legal privileges, and supplied officers and officials to the Russian administration; some became generals and writers, and the tsarist state used them as its local partners among the Muslims.",
+          "tag": "EVIDENCE",
+          "note": "Altstadt 1992; Tadeusz Swietochowski, Russian Azerbaijan (1985).",
+          "keywords": ["Beks","Karabakh","Shirvan","Muslim"]
+        },
+        {
+          "id": "p6",
+          "group": "The Old Elites",
+          "dynasty": "Armenian",
+          "label": "The Armenian merchant and noble families",
+          "date": "1828–1878",
+          "loc": "Tbilisi and Shusha",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "The Armenian meliks' families, enrolled as nobles in Russia, and the rich Armenian merchant houses of Tbilisi were by the 1860s the main commercial class of the city and the largest group in its municipal electorate, giving Armenians a leading role in its commerce and municipal government.",
+          "tag": "EVIDENCE",
+          "note": "Suny 1994; Ronald Suny, Looking toward Ararat (1993).",
+          "keywords": ["Armenian","Tbilisi","Shusha"]
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "The Georgian conspiracy of 1832, Shamil's raid into Kakheti, Kars in two wars and the Abkhaz rising of 1866",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Risings",
+          "label": "The conspiracy of 1832",
+          "date": "1832",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "A group of young Georgian nobles, Prince Okropir (Okropir) Bagration, Solomon Dodashvili, Alexander Orbeliani and others, plotted in 1830–1832 to restore the monarchy with the tsarevich, opposed the new Russian administration and sought to rise in Tbilisi; the plot was betrayed in December 1832, and the conspirators exiled to Siberia and Russia. It became the Georgian national legend of resistance.",
+          "tag": "COUP",
+          "note": "Court of inquiry records; Suny 1994; Rapp 2003.",
+          "keywords": ["Tbilisi","Okropir Okropir Bagration","Solomon Dodashvili","Alexander Orbeliani"]
+        },
+        {
+          "id": "c6",
+          "group": "Risings",
+          "label": "The Mingrelian and Imeretian risings",
+          "date": "1840–1857",
+          "loc": "Guria and Imereti",
+          "coords": [
+            42,
+            42.2
+          ],
+          "hint": "Peasants of Guria rose in 1841 against the imposition of Russian taxes and conscription, as did Imereti in 1857 when the nobles' labour dues were being revised and abolished, and a number of these risings were put down with troops; they were a sign of the rural discontent which the later emancipation tried to meet.",
+          "tag": "REVOLT",
+          "note": "Imperial reports; Suny 1994.",
+          "keywords": ["Imereti","Mingrelian","Imeretian","Peasants of Guria"]
+        },
+        {
+          "id": "c3",
+          "group": "The Wars with the Ottomans",
+          "label": "The Crimean War in the Caucasus",
+          "date": "1853–1856",
+          "loc": "Kars and Bashgedikler",
+          "coords": [
+            40.6,
+            43.1
+          ],
+          "hint": "In the Crimean War the Russian Caucasus army under Bebutov defeated the Ottomans at Bashgedikler in 1853, and after Muravyov's siege General Williams surrendered the fortress of Kars on 28 November 1855 to Muravyov-Karsky; the capture strengthened Russia's bargaining position, but Kars was returned at the peace of Paris in 1856.",
+          "tag": "WAR",
+          "note": "Treaty of Paris (1856); Suny 1994.",
+          "keywords": ["Kars","Bashgedikler","Caucasus","Crimean War the Russian Caucasus"],
+          "xlinks": ["ottoman-anatolia-1800-1908::c2"]
+        },
+        {
+          "id": "c2",
+          "group": "Risings",
+          "label": "Shamil's raid on Tsinandali",
+          "date": "1854 (July)",
+          "loc": "Tsinandali, Kakheti",
+          "coords": [
+            41.9,
+            45.57
+          ],
+          "hint": "In July 1854 the imam Shamil's cavalry from Dagestan, in the Caucasian War, rode into Kakheti and captured the estate of Tsinandali, taking two princesses, Anna Chavchavadze and Varvara Orbeliani, and their families as hostages; they were held for eight months and then exchanged for Shamil's son Jamal al-Din in 1855. The raid was the last great action on Georgian soil.",
+          "tag": "INVASION",
+          "note": "Anna Chavchavadze's recollections; Gammer 1994; Lesley Blanch, The Sabres of Paradise (1960).",
+          "keywords": ["Tsinandali","Kakheti","Shamil","Caucasian War","Anna Chavchavadze","Varvara Orbeliani"]
+        },
+        {
+          "id": "c5",
+          "group": "Risings",
+          "label": "The Abkhaz rising of 1866",
+          "date": "1866",
+          "loc": "Lykhny, Abkhazia",
+          "coords": [
+            43,
+            41
+          ],
+          "hint": "In 1866 the Abkhaz of Sukhum district, resentful at the abolition of their princedom in 1864, at Russian rule and at Orthodox conversion, rose at Lykhny and killed Russian officers; the revolt was put down with force and its aftermath saw the exile of large numbers of Abkhaz to the Ottoman empire. Abkhaz and Georgian accounts of the cause and of the exile differ.",
+          "tag": "REVOLT",
+          "note": "Imperial reports; Stephen Jones in Cambridge History; Suny 1994.",
+          "keywords": ["Lykhny","Abkhazia","Abkhaz of Sukhum"]
+        },
+        {
+          "id": "c4",
+          "group": "The Wars with the Ottomans",
+          "label": "The Russo-Turkish war of 1877–1878",
+          "date": "1877–1878",
+          "loc": "Kars, Ardahan and Batum",
+          "coords": [
+            40.6,
+            43.1
+          ],
+          "hint": "In 1877 two Russian columns took Ardahan in May and, after setbacks at Zivin, Kars on 18 November, helped by Armenian and Georgian officers, among them Loris-Melikov; the eastern front pinned the Ottoman field armies. Batum was handed over after the armistice in 1878; the Berlin settlement confirmed Russia's possession of Kars, Ardahan and Batum.",
+          "tag": "WAR",
+          "note": "Treaty of Berlin (13 July 1878), arts. 58–60; William Allen and Paul Muratoff, Caucasian Battlefields (1953).",
+          "keywords": ["Kars","Ardahan","Batum","Russo-Turkish"],
+          "xlinks": ["ottoman-anatolia-1800-1908::c2"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "The provinces of 1846, the emancipation of the serfs and the Muslim spiritual boards",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Provincial Government",
+          "label": "The provinces of 1846",
+          "date": "1846",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "In 1846 the government divided the Caucasus into the provinces of Tbilisi and Kutaisi (Georgia and Imereti), Shemakha (from 1859, Baku), Derbent and the Black Sea district, with the Armenian oblast later turned into the Erivan province in 1849; later the Elisavetpol province was made in 1868. The structure remained until 1917.",
+          "tag": "REFORM",
+          "note": "Imperial decrees (1846, 1849, 1868); Suny 1994.",
+          "keywords": ["Tbilisi","Kutaisi Georgia","Black Sea"]
+        },
+        {
+          "id": "o2",
+          "group": "Social Reform",
+          "label": "The emancipation of the serfs",
+          "date": "1864–1871",
+          "loc": "Georgia and Transcaucasia",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "The Russian emancipation law of 1861 was applied in the Caucasus on the nobility's terms in successive decrees from 1864 to 1871, beginning with the province of Tbilisi and then Imereti, Guria, Mingrelia and Abkhazia, and from 1870 for Armenian and Muslim peasants; the serfs gained personal freedom but had to pay redemption for land and the nobles kept much of the best of it, so much discontent remained.",
+          "tag": "LAW",
+          "note": "Emancipation decrees (1864, 1866, 1870, 1871); Suny 1994.",
+          "keywords": ["Georgia","Transcaucasia"],
+          "xlinks": ["caucasus-1747-1828::o5"]
+        },
+        {
+          "id": "o3",
+          "group": "Provincial Government",
+          "label": "The Muslim spiritual boards",
+          "date": "1872",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Under the statute of 1872 the Russian government created two Transcaucasian Muslim Spiritual Boards, one for Shias at Tbilisi under a sheikh-ul-Islam and one for the Sunnis under a mufti, to regulate the mosques, clergy and personal law of the Muslims and thereby to incorporate them into the imperial system.",
+          "tag": "LAW",
+          "note": "Statute of 1872; Altstadt 1992.",
+          "keywords": ["Tbilisi","Transcaucasian Muslim Spiritual Boards"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "The Armenian Statute, the exarchate, the sectarian exiles and the Muslim boards",
+      "entries": [
+        {
+          "id": "b1",
+          "group": "Churches",
+          "label": "The Georgian exarchate",
+          "date": "1828–1878",
+          "loc": "Mtskheta and Tbilisi",
+          "coords": [
+            41.85,
+            44.72
+          ],
+          "hint": "Under the Russian exarchs the Georgian church was kept in subordination to the Holy Synod, with Russian bishops on the Georgian sees and the Georgian liturgy replaced by Church Slavonic in many parishes, and the use of the Georgian language in schools and church was restricted, a policy that was a main grievance of Georgian national movement.",
+          "tag": "EVIDENCE",
+          "note": "Holy Synod decrees; Suny 1994; Rapp 2003.",
+          "keywords": ["Mtskheta","Tbilisi","Georgian","Holy Synod"],
+          "xlinks": ["caucasus-1747-1828::b1"]
+        },
+        {
+          "id": "b3",
+          "group": "Islam and Sects",
+          "label": "The Molokans and Dukhobors",
+          "date": "1830–1860",
+          "loc": "Akhalkalaki and Elisavetpol",
+          "coords": [
+            41.4,
+            43.49
+          ],
+          "hint": "Russian dissenting Christians, the Molokans ('milk-drinkers') and the Dukhobors ('spirit-wrestlers'), exiled by Nicholas I in 1830s–1840s from central Russia, were settled in Transcaucasia in the Akhalkalaki district and Karabakh as frontier colonists, and in the 1890s the Dukhobor pacifists would be a cause of dispute with the state.",
+          "tag": "MIGRATION",
+          "note": "Imperial resettlement decrees (1830s–1840s); Altstadt 1992.",
+          "keywords": ["Akhalkalaki","Elisavetpol","Molokans","Dukhobors","Nicholas I"]
+        },
+        {
+          "id": "b2",
+          "group": "Churches",
+          "label": "The Armenian Church under the Polozhenie",
+          "date": "1836–1878",
+          "loc": "Etchmiadzin",
+          "coords": [
+            40.16,
+            44.29
+          ],
+          "hint": "The Statute (Polozhenie) of 1836 defined the Catholicos as head of the Armenian Church in Russia, with an elected synod under the oversight of a Russian procurator and with control over parish schools and property; it remained the Armenian church's constitution until 1917 and was a means of its integration and the preservation of its influence.",
+          "tag": "LAW",
+          "note": "Polozhenie (1836); George Bournoutian, A Concise History of the Armenian People (2002).",
+          "keywords": ["Etchmiadzin","Armenian Church","Statute Polozhenie"],
+          "xlinks": ["caucasus-1747-1828::b2"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "Baratashvili, Abovian, Akhundov, Natavan and the theatre of Tbilisi and Baku",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Literature",
+          "label": "Nikoloz Baratashvili",
+          "date": "1828–1845",
+          "loc": "Tbilisi and Ganja",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Nikoloz Baratashvili, a young Georgian poet of the nobility who died at 27, wrote some forty lyrics, among them 'The Steed' (Merani) and 'Meditation on the Banks of the Mtkvari', that gave the national literature a Romantic voice of personal feeling and love of country, and, together with Grigol Orbeliani, mark its turn from tradition.",
+          "tag": "TEXT",
+          "note": "Baratashvili, Poems (1861); Suny 1994.",
+          "keywords": ["Tbilisi","Ganja","Nikoloz Baratashvili","Steed Merani","Banks of the Mtkvari","Grigol Orbeliani"]
+        },
+        {
+          "id": "e3",
+          "group": "Literature",
+          "label": "Natavan and Azerbaijani poetry",
+          "date": "1832–1897",
+          "loc": "Shusha",
+          "coords": [
+            39.76,
+            46.75
+          ],
+          "hint": "Khurshidbanu Natavan, daughter of the last khan of Karabakh and the most important woman poet of Azerbaijan, held a literary society, 'Majlis-i-uns', at Shusha and wrote ghazals in Azerbaijani on love and grief; she is the best known of the poets of the Karabakh school of the 1860s.",
+          "tag": "TEXT",
+          "note": "Natavan, Divan; Altstadt 1992.",
+          "keywords": ["Shusha","Azerbaijani","Khurshidbanu Natavan"]
+        },
+        {
+          "id": "e2",
+          "group": "Literature",
+          "label": "Abovian and Raffi",
+          "date": "1841–1878",
+          "loc": "Tbilisi and Etchmiadzin",
+          "coords": [
+            40.18,
+            44.51
+          ],
+          "hint": "Khachatur Abovian (1809–1848), the founder of modern Armenian literature, wrote the novel 'Wounds of Armenia' about the Russo-Persian war in 1841 (printed 1858), in the vernacular of Ararat's plain; Raffi (Hakob Melik-Hakobian, 1835–1888) published his first novels in the 1860s and 1870s, such as 'Jalaleddin' (1878), and the national revival in Armenian poured out in fiction and verse.",
+          "tag": "TEXT",
+          "note": "Abovian, Verk Hayastani (Wounds of Armenia); Raffi, Jalaleddin; Suny 1993.",
+          "keywords": ["Tbilisi","Etchmiadzin","Khachatur Abovian","Wounds of Armenia","Raffi Hakob Melik-Hakobian"]
+        },
+        {
+          "id": "e4",
+          "group": "Theatre and Press",
+          "label": "The theatre of Tbilisi and Baku",
+          "date": "1851–1873",
+          "loc": "Tbilisi and Baku",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "Under Vorontsov, Tbilisi's theatre (the opera house of 1851) staged Russian, Italian and then Georgian and Armenian plays; in Baku the first Azerbaijani-language performance took place in 1873 under the direction of Hasan bey Zardabi, and Akhundov's comedies, written in the 1850s, were acted by amateurs.",
+          "tag": "MONUMENT",
+          "note": "Theatre histories; Altstadt 1992; Suny 1994.",
+          "keywords": ["Tbilisi","Baku"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "The Tergdaleulebi, Nalbandian, Akhundov and Zardabi, and the orientalists",
+      "entries": [
+        {
+          "id": "t4",
+          "group": "Scholars",
+          "label": "Brosset and the orientalists",
+          "date": "1828–1878",
+          "loc": "St Petersburg",
+          "coords": [
+            59.93,
+            30.31
+          ],
+          "hint": "The French orientalist Marie-Félicité Brosset (1802–1880), a member of the Academy of Sciences at St Petersburg, published from 1849 translations of the Georgian chronicles, Armenian historians and Georgian inscriptions, and with Russian officials and scholars made the sources of Caucasian history available in Europe.",
+          "tag": "WORK",
+          "note": "Brosset, Histoire de la Géorgie (1849–1858); Collection d'historiens arméniens (1874–1876).",
+          "keywords": ["St Petersburg","Marie-Félicité Brosset","Academy of Sciences"]
+        },
+        {
+          "id": "t2",
+          "group": "The National Awakenings",
+          "label": "Nalbandian and the Armenian press",
+          "date": "1850s–1860s",
+          "loc": "Tbilisi and Moscow",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Mikael Nalbandian (1829–1866), a poet, essayist and radical, who was imprisoned in 1862–1866 for contacts with the Russian revolutionary Herzen, wrote 'Freedom' (Azatutyun) and political pamphlets and argued for a secular, popular education; the journals 'Ararat', 'Hyusisapayl' and 'Mshak' (1872) set the course of the Armenian press.",
+          "tag": "TEXT",
+          "note": "Nalbandian, Works; Suny 1993.",
+          "keywords": ["Tbilisi","Moscow","Armenian","Mikael Nalbandian","Freedom Azatutyun"]
+        },
+        {
+          "id": "t3",
+          "group": "The National Awakenings",
+          "label": "Akhundov and Zardabi",
+          "date": "1850s–1875",
+          "loc": "Tbilisi and Baku",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Mirza Fatali Akhundov (1812–1878), a teacher of Persian and Azerbaijani at Tbilisi, wrote six comedies in Azerbaijani in the 1850s attacking superstition, and proposed reform of the Arabic script; Hasan bey Zardabi (1842–1907) founded 'Akinchi' (The Ploughman) in 1875, the first newspaper in Azerbaijani, in Baku.",
+          "tag": "TEXT",
+          "note": "Akhundov, Comedies (1850s); Zardabi, Akinchi (1875–1877); Swietochowski 1985.",
+          "keywords": ["Tbilisi","Baku","Zardabi","Mirza Fatali Akhundov","Akinchi The Ploughman"]
+        },
+        {
+          "id": "t1",
+          "group": "The National Awakenings",
+          "label": "The Tergdaleulebi",
+          "date": "1860s–1870s",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "The Georgian students who had studied at St Petersburg in the 1850s and 1860s and returned, 'those who drank the water of the Terek' (Tergdaleulebi), among them Ilia Chavchavadze, Akaki Tsereteli, Niko Nikoladze and Giorgi Tsereteli, edited journals and wrote in favour of the Georgian language, the peasants' emancipation and national consciousness, creating the modern Georgian national movement.",
+          "tag": "MOVEMENT",
+          "note": "Ilia Chavchavadze, Is a Man a Man? (1863); Suny 1994.",
+          "keywords": ["Tbilisi","St Petersburg","Terek Tergdaleulebi","Ilia Chavchavadze","Akaki Tsereteli","Niko Nikoladze"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "The first oil wells, the Poti–Tbilisi railway, the silk and wine trades and the emancipation",
+      "entries": [
+        {
+          "id": "ec3",
+          "group": "Land and Trade",
+          "label": "The Tbilisi economy",
+          "date": "1830–1878",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Tbilisi, a free-trade centre in the 1830s with the benefit of its transit trade with Persia and Turkey, grew from some 30,000 to 100,000 people by 1870s; its craftsmen's guilds (amkari) were replaced by factories and merchant houses, many of them Armenian, and its wine, silk and leather were exported.",
+          "tag": "ECONOMIC",
+          "note": "Suny 1994; imperial statistics.",
+          "keywords": ["Tbilisi"]
+        },
+        {
+          "id": "ec1",
+          "group": "Oil and Railways",
+          "label": "The first Baku oil boom",
+          "date": "1846–1878",
+          "loc": "Baku and Balakhani",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "The first drilled oil well in the world on an industrial scale was bored at Bibi-Heybat near Baku in 1846; the abolition of the state monopoly in 1872 and the open auction of oil lands led to a boom, in which Ludwig Nobel arrived in 1873 and built a refinery in 1876. Baku's output rose from a few thousand tonnes to hundreds of thousands in the 1870s.",
+          "tag": "ECONOMIC",
+          "note": "Altstadt 1992; Suny 1994; Swietochowski, Russian Azerbaijan (1985).",
+          "keywords": ["Baku","Balakhani","Ludwig Nobel"]
+        },
+        {
+          "id": "ec2",
+          "group": "Oil and Railways",
+          "label": "The Poti–Tbilisi railway",
+          "date": "1865–1872",
+          "loc": "Poti and Tbilisi",
+          "coords": [
+            42.15,
+            41.67
+          ],
+          "hint": "The first railway of Transcaucasia, from the Black Sea port of Poti to Tbilisi, was opened in stages from 1872 to carry the cargoes of the Black Sea trade, and the line later was extended to Baku in 1883; the railway connected Georgia's farmland to markets and made Tbilisi a commercial centre.",
+          "tag": "CONSTRUCTION",
+          "note": "Railway statutes (1865–1872); Suny 1994.",
+          "keywords": ["Poti","Tbilisi","Poti–Tbilisi","Black Sea"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "The first drilled well, the railway, the telegraph and the steamers",
+      "entries": [
+        {
+          "id": "g1",
+          "group": "Industry and Roads",
+          "label": "The Caucasian steamships and telegraph",
+          "date": "1858–1878",
+          "loc": "Baku and Tbilisi",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "The Caucasus and Mercury steamship company, founded in 1858, ran steamers on the Caspian and the Volga, and the telegraph connected Tbilisi with Russia (1850s) and Baku (1860s); with the military road and the Poti railway, these changed communications in the province.",
+          "tag": "INVENTION",
+          "note": "Imperial company statutes; Altstadt 1992.",
+          "keywords": ["Baku","Tbilisi","Caucasian"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "Muhajirism from Abkhazia, the Dukhobors and the wars of 1853–1856 and 1877–1878",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Migration & Settlement",
+          "label": "Muhajirism from Abkhazia and the Black Sea coast",
+          "date": "1864–1878",
+          "loc": "Abkhazia and the Black Sea coast",
+          "coords": [
+            43,
+            41
+          ],
+          "hint": "After the end of the Caucasian War in 1864 the Russian authorities pushed or allowed several hundred thousand Muslim Circassians and Abkhaz to emigrate to the Ottoman empire, and after the rising of 1866 and the war of 1877–1878 a large share of Abkhazia's Muslim population left. Abkhaz historians and some scholars call the expulsions genocide; the Russian state and others call them emigration under war conditions; the numbers are disputed.",
+          "tag": "MIGRATION",
+          "note": "Imperial reports; Stephen Shenfield, 'The Circassians: A Forgotten Genocide?' (1999); Walter Richmond, The Circassian Genocide (2013); Suny 1994.",
+          "keywords": ["Black Sea","Muhajirism","Caucasian War","Muslim Circassians","Abkhazia Muslim"],
+          "xlinks": ["ottoman-anatolia-1800-1908::x1"]
+        },
+        {
+          "id": "x2",
+          "group": "War and Diplomacy",
+          "label": "The Treaty of Berlin and the new borders",
+          "date": "1878 (13 July)",
+          "loc": "Berlin",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "hint": "At the Congress of Berlin in 1878, which revised the treaty of San Stefano, the Ottomans ceded Kars, Ardahan and Batum to Russia, which organised Kars as an oblast and Batum as a free port, making Russia the neighbour of Erzurum and setting the Caucasian border for forty years.",
+          "tag": "TREATY",
+          "note": "Treaty of Berlin (13 July 1878), arts. 58–60.",
+          "keywords": ["Congress of Berlin","San Stefano"],
+          "xlinks": ["ottoman-anatolia-1800-1908::w1"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "Cholera, famine and the demography of a new province",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Epidemic & Demographic",
+          "label": "Cholera and the new population",
+          "date": "1830–1878",
+          "loc": "Transcaucasia",
+          "coords": [
+            41,
+            44.5
+          ],
+          "hint": "Cholera swept the Caucasus in 1830, 1847–1848 and 1865, killing tens of thousands, and plague broke out in the 1830s; in spite of this and the wars the population grew, by roughly a doubling between 1830 and the 1880s, with the Armenian and Georgian numbers growing and the proportion of Muslims falling.",
+          "tag": "EVIDENCE",
+          "note": "Imperial statistics and censuses; Suny 1994.",
+          "keywords": ["Transcaucasia","Cholera"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "The princesses of Tsinandali, a poet-princess of Karabakh and the Tbilisi artisan",
+      "entries": [
+        {
+          "id": "l2",
+          "group": "Women's Agency",
+          "label": "Natavan",
+          "date": "1832–1897",
+          "loc": "Shusha",
+          "coords": [
+            39.76,
+            46.75
+          ],
+          "hint": "Khurshidbanu Natavan, the khan's daughter, who had lost her family's rule and her children, held a salon and gave money to schools and for the poor of Shusha, and had a spring (the 'Khan gizi bulagi') named after her. She is the best known woman of the Azerbaijani Enlightenment.",
+          "tag": "EVIDENCE",
+          "note": "Natavan, Divan; Altstadt 1992.",
+          "keywords": ["Shusha","Khurshidbanu Natavan","Azerbaijani Enlightenment"]
+        },
+        {
+          "id": "l3",
+          "group": "Marginalised Communities",
+          "label": "The Tbilisi artisan and the serf",
+          "date": "1840–1870",
+          "loc": "Tbilisi and Georgia",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Tbilisi's artisans of the amkari, among them Armenian and Georgian craftsmen, lived in the old town of Avlabari, Sololaki and Kala, with a rigid hierarchy, and Georgia's serfs, some two-fifths of the rural population, worked the estates and owed labour and dues; the emancipation of the 1860s tried to ease the rural poor but left debts.",
+          "tag": "EVIDENCE",
+          "note": "Suny 1994; imperial statistics.",
+          "keywords": ["Tbilisi","Georgia"]
+        },
+        {
+          "id": "l1",
+          "group": "Women's Agency",
+          "label": "The princesses of Tsinandali",
+          "date": "1854–1855",
+          "loc": "Tsinandali and Dagestan",
+          "coords": [
+            41.9,
+            45.57
+          ],
+          "hint": "Princess Anna Chavchavadze, her sister Varvara Orbeliani, their families and servants, among them children and the French governess Madame Drancey, were held in Dagestan by Shamil for eight months; Anna's recollections tell of their treatment and the ransom. The Chavchavadze family was among the leaders of Georgian culture.",
+          "tag": "EVIDENCE",
+          "note": "Anna Chavchavadze's account of the captivity; Gammer 1994.",
+          "keywords": ["Tsinandali","Dagestan","Princess Anna Chavchavadze","Varvara Orbeliani","Madame Drancey"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "viceroys-and-governors",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Viceroys and Governors",
+      "events": [
+        {
+          "y": 1828,
+          "l": "Paskevich and the early governors",
+          "entryId": "p1",
+          "y2": 1844
+        },
+        {
+          "y": 1844,
+          "l": "Prince Mikhail Vorontsov",
+          "entryId": "p2",
+          "y2": 1854
+        },
+        {
+          "y": 1856,
+          "l": "Baryatinsky and Grand Duke Mikhail",
+          "entryId": "p3",
+          "y2": 1878
+        }
+      ]
+    },
+    {
+      "id": "the-old-elites",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "The Old Elites",
+      "events": [
+        {
+          "y": 1828,
+          "l": "Georgian princes in the Russian service",
+          "entryId": "p4",
+          "y2": 1878
+        },
+        {
+          "y": 1828,
+          "l": "The Muslim beks and khans' families",
+          "entryId": "p5",
+          "y2": 1878
+        },
+        {
+          "y": 1828,
+          "l": "The Armenian merchant and noble families",
+          "entryId": "p6",
+          "y2": 1878
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 1832,
+          "l": "The conspiracy of 1832",
+          "entryId": "c1"
+        },
+        {
+          "y": 1840,
+          "l": "The Mingrelian and Imeretian risings",
+          "entryId": "c6"
+        },
+        {
+          "y": 1853,
+          "l": "The Crimean War in the Caucasus",
+          "entryId": "c3"
+        },
+        {
+          "y": 1854,
+          "l": "Shamil's raid on Tsinandali",
+          "entryId": "c2"
+        },
+        {
+          "y": 1866,
+          "l": "The Abkhaz rising of 1866",
+          "entryId": "c5"
+        },
+        {
+          "y": 1877,
+          "l": "The Russo-Turkish war of 1877–1878",
+          "entryId": "c4"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 1846,
+          "l": "The provinces of 1846",
+          "entryId": "o1"
+        },
+        {
+          "y": 1864,
+          "l": "The emancipation of the serfs",
+          "entryId": "o2"
+        },
+        {
+          "y": 1872,
+          "l": "The Muslim spiritual boards",
+          "entryId": "o3"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 1828,
+          "l": "The Georgian exarchate",
+          "entryId": "b1"
+        },
+        {
+          "y": 1830,
+          "l": "The Molokans and Dukhobors",
+          "entryId": "b3"
+        },
+        {
+          "y": 1836,
+          "l": "The Armenian Church under the Polozhenie",
+          "entryId": "b2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 1828,
+          "l": "Nikoloz Baratashvili",
+          "entryId": "e1"
+        },
+        {
+          "y": 1832,
+          "l": "Natavan and Azerbaijani poetry",
+          "entryId": "e3"
+        },
+        {
+          "y": 1841,
+          "l": "Abovian and Raffi",
+          "entryId": "e2"
+        },
+        {
+          "y": 1851,
+          "l": "The theatre of Tbilisi and Baku",
+          "entryId": "e4"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 1828,
+          "l": "Brosset and the orientalists",
+          "entryId": "t4"
+        },
+        {
+          "y": 1850,
+          "l": "Nalbandian and the Armenian press",
+          "entryId": "t2"
+        },
+        {
+          "y": 1850,
+          "l": "Akhundov and Zardabi",
+          "entryId": "t3"
+        },
+        {
+          "y": 1860,
+          "l": "The Tergdaleulebi",
+          "entryId": "t1"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 1830,
+          "l": "The Tbilisi economy",
+          "entryId": "ec3"
+        },
+        {
+          "y": 1846,
+          "l": "The first Baku oil boom",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1865,
+          "l": "The Poti–Tbilisi railway",
+          "entryId": "ec2"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 1858,
+          "l": "The Caucasian steamships and telegraph",
+          "entryId": "g1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 1864,
+          "l": "Muhajirism from Abkhazia and the Black Sea coast",
+          "entryId": "x1"
+        },
+        {
+          "y": 1878,
+          "l": "The Treaty of Berlin and the new borders",
+          "entryId": "x2"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 1830,
+          "l": "Cholera and the new population",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 1832,
+          "l": "Natavan",
+          "entryId": "l2"
+        },
+        {
+          "y": 1840,
+          "l": "The Tbilisi artisan and the serf",
+          "entryId": "l3"
+        },
+        {
+          "y": 1854,
+          "l": "The princesses of Tsinandali",
+          "entryId": "l1"
+        }
+      ]
+    }
+  ]
+}
