@@ -1735,6 +1735,14 @@ const SELECTED_PAIRS = [
   ['caucasus-1850000bc-3500bc::ec3', 'anatolia-10000bc-3000bc::x1'],      // obsidian circulation among the early farming villages
   ['caucasus-1850000bc-3500bc::x3', 'mesopotamia-6500bc-3800bc::p6'],      // the Ubaid horizon and its northern reach
   ['caucasus-1850000bc-3500bc::b3', 'mesopotamia-6500bc-3800bc::b5'],      // burial of infants beneath house floors
+  ['caucasus-3500bc-1200bc::p8', 'hittite-1650bc-1180bc::p6'],      // Suppiluliuma I and the treaty with Hayasa
+  ['caucasus-3500bc-1200bc::c3', 'hittite-1650bc-1180bc::p7'],      // the Hittite campaigns against Hayasa and Azzi
+  ['caucasus-3500bc-1200bc::o3', 'hittite-1650bc-1180bc::o3'],      // the Hittite treaty form
+  ['caucasus-3500bc-1200bc::p9', 'assyria-1400bc-1050bc::k3'],      // Shalmaneser I and the land of Uruatri
+  ['caucasus-3500bc-1200bc::p1', 'anatolia-3000bc-2000bc::p10'],      // the Kura–Araxes in Anatolia
+  ['caucasus-3500bc-1200bc::x1', 'anatolia-3000bc-2000bc::x2'],      // the Caucasus road to the Euphrates
+  ['caucasus-3500bc-1200bc::x1', 'anatolia-10000bc-3000bc::w4'],      // the Kura–Araxes reach the Upper Euphrates
+  ['caucasus-3500bc-1200bc::ec2', 'anatolia-3000bc-2000bc::ec3'],      // mobile herding and the Kura–Araxes
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

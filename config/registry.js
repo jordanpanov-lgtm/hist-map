@@ -232,5 +232,6 @@ const MODULES = [
   { id:"turkey-1980-today", file:"modules/turkey-1980-today.json", label:"Turkey 1980–today", sub:"The Generals, Özal's Opening, the Kurdish War, the Justice and Development Decades, and the Presidential System", region:"Turkey", period:"Modern" },
   // ── CAUCASUS (South Caucasus — Armenia · Georgia · Azerbaijan) ──
   { id:"caucasus-1850000bc-3500bc", file:"modules/caucasus-1850000bc-3500bc.json", label:"Prehistoric Caucasus 1,850,000–3,500 BC", sub:"Dmanisi, the Caucasus Hunter-Gatherers and the First Winemakers", region:"Caucasus", period:"Prehistoric" },
+  { id:"caucasus-3500bc-1200bc", file:"modules/caucasus-3500bc-1200bc.json", label:"Kura–Araxes and the Bronze Age Caucasus 3,500–1,200 BC", sub:"Shengavit, the Trialeti Kurgans and the Wagons of Lchashen", region:"Caucasus", period:"Prehistoric" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

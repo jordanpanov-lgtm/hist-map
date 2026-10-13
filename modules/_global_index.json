@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 8482,
-    "folio_count": 175,
-    "xlink_pairs": 1731,
-    "keyword_terms": 13001,
+    "total_entries": 8516,
+    "folio_count": 176,
+    "xlink_pairs": 1739,
+    "keyword_terms": 13048,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -129,6 +129,11 @@
         "id": "caucasus-1850000bc-3500bc",
         "title": "Prehistoric Caucasus",
         "entries": 33
+      },
+      {
+        "id": "caucasus-3500bc-1200bc",
+        "title": "Kura–Araxes and the Bronze Age Caucasus",
+        "entries": 34
       },
       {
         "id": "cilician-armenia-1080-1375",
@@ -2211,6 +2216,40 @@
     "caucasus-1850000bc-3500bc::w2": "The Holocene warming and the wetter plains",
     "caucasus-1850000bc-3500bc::l1": "The hominin without teeth",
     "caucasus-1850000bc-3500bc::l2": "Children of the village",
+    "caucasus-3500bc-1200bc::p1": "The Kura–Araxes horizon",
+    "caucasus-3500bc-1200bc::p3": "Nakhchivan — Ovçular Tepesi and Kültepe",
+    "caucasus-3500bc-1200bc::p2": "Shengavit — a walled town on the Hrazdan",
+    "caucasus-3500bc-1200bc::p4": "The Bedeni and Martkopi cultures",
+    "caucasus-3500bc-1200bc::p5": "The Trialeti–Vanadzor culture",
+    "caucasus-3500bc-1200bc::p6": "Lchashen–Metsamor",
+    "caucasus-3500bc-1200bc::p7": "The Colchian culture",
+    "caucasus-3500bc-1200bc::p8": "Hayasa-Azzi in the Hittite texts",
+    "caucasus-3500bc-1200bc::p9": "Uruatri and the Nairi lands",
+    "caucasus-3500bc-1200bc::c1": "The first walls",
+    "caucasus-3500bc-1200bc::c2": "The cyclopean fortresses",
+    "caucasus-3500bc-1200bc::c3": "The Hittite wars against Hayasa and Azzi",
+    "caucasus-3500bc-1200bc::o1": "The village and the household",
+    "caucasus-3500bc-1200bc::o2": "The kurgan elite",
+    "caucasus-3500bc-1200bc::o3": "The treaty with Hukkana",
+    "caucasus-3500bc-1200bc::b1": "The Shengavit sanctuary",
+    "caucasus-3500bc-1200bc::b2": "The wagon and the ox in the kurgan",
+    "caucasus-3500bc-1200bc::b3": "The vishap stones",
+    "caucasus-3500bc-1200bc::e1": "Red-black burnished ware",
+    "caucasus-3500bc-1200bc::e2": "The silver cup of Trialeti",
+    "caucasus-3500bc-1200bc::e3": "The wagons and boats of Lchashen",
+    "caucasus-3500bc-1200bc::t1": "The question of the first Armenians",
+    "caucasus-3500bc-1200bc::t2": "The Kartvelian languages",
+    "caucasus-3500bc-1200bc::t3": "Karahunj and the observatory claim",
+    "caucasus-3500bc-1200bc::ec1": "Arsenical bronze and the copper of the Lesser Caucasus",
+    "caucasus-3500bc-1200bc::ec2": "Mobile herding",
+    "caucasus-3500bc-1200bc::g1": "The wheel and the wagon",
+    "caucasus-3500bc-1200bc::g2": "Bronze casting and cyclopean masonry",
+    "caucasus-3500bc-1200bc::x2": "Maykop and the north",
+    "caucasus-3500bc-1200bc::x1": "The Kura–Araxes diaspora",
+    "caucasus-3500bc-1200bc::x3": "The goods of the Near Eastern courts",
+    "caucasus-3500bc-1200bc::w1": "The dry centuries around 2200 BC",
+    "caucasus-3500bc-1200bc::w2": "The end of the Late Bronze Age order",
+    "caucasus-3500bc-1200bc::l1": "Figurines and the household",
     "cilician-armenia-1080-1375::p1": "Ruben and the lords of the Taurus",
     "cilician-armenia-1080-1375::p2": "Leo I and Thoros II",
     "cilician-armenia-1080-1375::p3": "Leo the Magnificent",
@@ -9680,13 +9719,20 @@
     ],
     "anatolia-10000bc-3000bc::w4": [
       "anatolia-3000bc-2000bc::p10",
-      "anatolia-3000bc-2000bc::x2"
+      "anatolia-3000bc-2000bc::x2",
+      "caucasus-3500bc-1200bc::x1"
     ],
     "anatolia-3000bc-2000bc::p10": [
-      "anatolia-10000bc-3000bc::w4"
+      "anatolia-10000bc-3000bc::w4",
+      "caucasus-3500bc-1200bc::p1"
     ],
     "anatolia-3000bc-2000bc::x2": [
-      "anatolia-10000bc-3000bc::w4"
+      "anatolia-10000bc-3000bc::w4",
+      "caucasus-3500bc-1200bc::x1"
+    ],
+    "caucasus-3500bc-1200bc::x1": [
+      "anatolia-10000bc-3000bc::w4",
+      "anatolia-3000bc-2000bc::x2"
     ],
     "anatolia-1908-1923::p1": [
       "ottoman-anatolia-1800-1908::p5"
@@ -9865,6 +9911,9 @@
     "ottoman-anatolia-1800-1908::l3": [
       "anatolia-1908-1923::l3"
     ],
+    "caucasus-3500bc-1200bc::p1": [
+      "anatolia-3000bc-2000bc::p10"
+    ],
     "anatolia-3000bc-2000bc::c4": [
       "mesopotamia-2334bc-2004bc::k1"
     ],
@@ -9894,6 +9943,12 @@
     ],
     "sumer-2900bc-2334bc::g2": [
       "anatolia-3000bc-2000bc::ec1"
+    ],
+    "anatolia-3000bc-2000bc::ec3": [
+      "caucasus-3500bc-1200bc::ec2"
+    ],
+    "caucasus-3500bc-1200bc::ec2": [
+      "anatolia-3000bc-2000bc::ec3"
     ],
     "anatolia-3000bc-2000bc::x3": [
       "sumer-2900bc-2334bc::xc2",
@@ -10099,7 +10154,11 @@
       "kanesh-2000bc-1650bc::p4"
     ],
     "assyria-1400bc-1050bc::k3": [
+      "caucasus-3500bc-1200bc::p9",
       "hittite-1650bc-1180bc::w1"
+    ],
+    "caucasus-3500bc-1200bc::p9": [
+      "assyria-1400bc-1050bc::k3"
     ],
     "hittite-1650bc-1180bc::w1": [
       "assyria-1400bc-1050bc::k3"
@@ -12128,6 +12187,24 @@
     "mesopotamia-6500bc-3800bc::p6": [
       "caucasus-1850000bc-3500bc::x3",
       "gulf-prehistory-8000bc-3000bc::x1"
+    ],
+    "caucasus-3500bc-1200bc::p8": [
+      "hittite-1650bc-1180bc::p6"
+    ],
+    "hittite-1650bc-1180bc::p6": [
+      "caucasus-3500bc-1200bc::p8"
+    ],
+    "caucasus-3500bc-1200bc::c3": [
+      "hittite-1650bc-1180bc::p7"
+    ],
+    "hittite-1650bc-1180bc::p7": [
+      "caucasus-3500bc-1200bc::c3"
+    ],
+    "caucasus-3500bc-1200bc::o3": [
+      "hittite-1650bc-1180bc::o3"
+    ],
+    "hittite-1650bc-1180bc::o3": [
+      "caucasus-3500bc-1200bc::o3"
     ],
     "cilician-armenia-1080-1375::c2": [
       "seljuks-of-rum-1071-1308::p3"
@@ -25136,6 +25213,179 @@
       "Hacı Elamxanlı Tepe",
       "Children",
       "Near East"
+    ],
+    "caucasus-3500bc-1200bc::p1": [
+      "Kura",
+      "Araxes",
+      "Kura–Araxes",
+      "Lesser Caucasus"
+    ],
+    "caucasus-3500bc-1200bc::p3": [
+      "Nakhchivan",
+      "Ovçular Tepesi",
+      "Kültepe",
+      "Bronze Age"
+    ],
+    "caucasus-3500bc-1200bc::p2": [
+      "Shengavit",
+      "Yerevan",
+      "Hrazdan"
+    ],
+    "caucasus-3500bc-1200bc::p4": [
+      "Bedeni",
+      "Kvemo Kartli",
+      "Martkopi"
+    ],
+    "caucasus-3500bc-1200bc::p5": [
+      "Trialeti",
+      "Trialeti–Vanadzor",
+      "Boris Kuftin",
+      "Middle Bronze Age",
+      "Armenia Vanadzor"
+    ],
+    "caucasus-3500bc-1200bc::p6": [
+      "Lake Sevan",
+      "Ararat",
+      "Lchashen–Metsamor"
+    ],
+    "caucasus-3500bc-1200bc::p7": [
+      "Colchis",
+      "Georgia",
+      "Black Sea",
+      "Bronze Age",
+      "Iron Age Colchian"
+    ],
+    "caucasus-3500bc-1200bc::p8": [
+      "Upper Euphrates",
+      "Armenian",
+      "Hayasa-Azzi",
+      "Hittite",
+      "Suppiluliuma I the Hittites"
+    ],
+    "caucasus-3500bc-1200bc::p9": [
+      "Highlands",
+      "Uruatri",
+      "Nairi",
+      "Shalmaneser I of Assyria"
+    ],
+    "caucasus-3500bc-1200bc::c1": [
+      "Shengavit",
+      "Gegharkunik"
+    ],
+    "caucasus-3500bc-1200bc::c2": [
+      "Armenian",
+      "Late Bronze Age"
+    ],
+    "caucasus-3500bc-1200bc::c3": [
+      "Upper Euphrates",
+      "Hittite",
+      "Hayasa",
+      "Azzi",
+      "Suppiluliuma I",
+      "Mursili II"
+    ],
+    "caucasus-3500bc-1200bc::o1": [
+      "Kura–Araxes"
+    ],
+    "caucasus-3500bc-1200bc::o2": [
+      "Tsalka"
+    ],
+    "caucasus-3500bc-1200bc::o3": [
+      "Hattusa",
+      "Hukkana of Hayasa"
+    ],
+    "caucasus-3500bc-1200bc::b1": [
+      "Shengavit"
+    ],
+    "caucasus-3500bc-1200bc::b2": [
+      "Trialeti",
+      "Bedeni"
+    ],
+    "caucasus-3500bc-1200bc::b3": [
+      "Geghama"
+    ],
+    "caucasus-3500bc-1200bc::e1": [
+      "Kura–Araxes",
+      "Red-black"
+    ],
+    "caucasus-3500bc-1200bc::e2": [
+      "Trialeti",
+      "Tsalka",
+      "Georgian National Museum",
+      "Near Eastern"
+    ],
+    "caucasus-3500bc-1200bc::e3": [
+      "Lchashen",
+      "Lake Sevan",
+      "Late Bronze Age",
+      "Near East",
+      "History Museum of Armenia"
+    ],
+    "caucasus-3500bc-1200bc::t1": [
+      "Armenian",
+      "Armenians"
+    ],
+    "caucasus-3500bc-1200bc::t2": [
+      "Georgia",
+      "Kartvelian"
+    ],
+    "caucasus-3500bc-1200bc::t3": [
+      "Sisian",
+      "Karahunj Zorats Karer",
+      "Early Iron Age",
+      "Paris Herouni",
+      "Armenian Stonehenge",
+      "Iron Ages"
+    ],
+    "caucasus-3500bc-1200bc::ec1": [
+      "Kedabek",
+      "Syunik",
+      "Arsenical",
+      "Lesser Caucasus",
+      "Kvemo Kartli",
+      "West Asia"
+    ],
+    "caucasus-3500bc-1200bc::ec2": [
+      "Highland",
+      "Mobile"
+    ],
+    "caucasus-3500bc-1200bc::g1": [
+      "Trialeti",
+      "Lchashen",
+      "Late Bronze Age"
+    ],
+    "caucasus-3500bc-1200bc::g2": [
+      "Metsamor",
+      "Smiths of the Late Bronze Age"
+    ],
+    "caucasus-3500bc-1200bc::x2": [
+      "Kuban",
+      "Caucasus",
+      "Maykop"
+    ],
+    "caucasus-3500bc-1200bc::x1": [
+      "Anatolia",
+      "Iran",
+      "Levant",
+      "Kura–Araxes",
+      "Yanik Tepe",
+      "Iranian Azerbaijan"
+    ],
+    "caucasus-3500bc-1200bc::x3": [
+      "Trialeti",
+      "Near Eastern"
+    ],
+    "caucasus-3500bc-1200bc::w1": [
+      "Southern Caucasus"
+    ],
+    "caucasus-3500bc-1200bc::w2": [
+      "Anatolia",
+      "Near East",
+      "Late Bronze Age"
+    ],
+    "caucasus-3500bc-1200bc::l1": [
+      "Shengavit",
+      "Figurines"
     ],
     "cilician-armenia-1080-1375::p1": [
       "Rubenid",
@@ -66022,6 +66272,8 @@
       "caliphate-945-1258::b4",
       "canaan-2000bc-1200bc::w2",
       "caucasus-1850000bc-3500bc::l2",
+      "caucasus-3500bc-1200bc::e3",
+      "caucasus-3500bc-1200bc::w2",
       "cilician-armenia-1080-1375::w2",
       "dedan-tayma-1200bc-300bc::lv1",
       "dilmun-1200bc-600bc::tc2",
@@ -66140,6 +66392,7 @@
       "byzantine-anatolia-632-867::ec3",
       "byzantine-anatolia-632-867::x4",
       "caliphate-945-1258::lv7",
+      "caucasus-3500bc-1200bc::p7",
       "hellenistic-anatolia-334bc-133bc::t5",
       "hellenistic-anatolia-334bc-133bc::ec3",
       "ilkhanate-1219-1335::ec1",
@@ -69868,7 +70121,9 @@
       "anatolia-10000bc-3000bc::x2",
       "anatolia-10000bc-3000bc::w4",
       "anatolia-3000bc-2000bc::p10",
-      "anatolia-3000bc-2000bc::ec3"
+      "anatolia-3000bc-2000bc::ec3",
+      "caucasus-3500bc-1200bc::p8",
+      "caucasus-3500bc-1200bc::c3"
     ],
     "Arslantepe VII": [
       "anatolia-10000bc-3000bc::p10"
@@ -70057,6 +70312,8 @@
       "caliphate-945-1258::c3",
       "caliphate-945-1258::b4",
       "caliphate-945-1258::x1",
+      "caucasus-3500bc-1200bc::x1",
+      "caucasus-3500bc-1200bc::w2",
       "hellenistic-anatolia-334bc-133bc::p1",
       "hellenistic-anatolia-334bc-133bc::c6",
       "hellenistic-anatolia-334bc-133bc::w1",
@@ -70115,7 +70372,8 @@
       "turkey-1923-1980::l2"
     ],
     "Arsenical": [
-      "anatolia-10000bc-3000bc::g5"
+      "anatolia-10000bc-3000bc::g5",
+      "caucasus-3500bc-1200bc::ec1"
     ],
     "Eastern Anatolian": [
       "anatolia-10000bc-3000bc::g5"
@@ -70910,6 +71168,9 @@
     "Armenian": [
       "anatolia-1908-1923::o2",
       "assyria-911bc-609bc::c2",
+      "caucasus-3500bc-1200bc::p8",
+      "caucasus-3500bc-1200bc::c2",
+      "caucasus-3500bc-1200bc::t1",
       "cilician-armenia-1080-1375::w1",
       "ottoman-anatolia-1500-1800::x2",
       "ottoman-anatolia-1800-1908::c4",
@@ -71597,7 +71858,8 @@
       "anatolia-3000bc-2000bc::ec1"
     ],
     "Mobile": [
-      "anatolia-3000bc-2000bc::ec3"
+      "anatolia-3000bc-2000bc::ec3",
+      "caucasus-3500bc-1200bc::ec2"
     ],
     "Wool": [
       "anatolia-3000bc-2000bc::ec2",
@@ -72991,6 +73253,7 @@
       "babylon-2004bc-1595bc::xc6",
       "caliphate-945-1258::x2",
       "caliphate-945-1258::w3",
+      "caucasus-3500bc-1200bc::x1",
       "egypt-1200bc-664bc::c4",
       "egypt-1200bc-664bc::xc3",
       "egypt-2100bc-1550bc::c4",
@@ -73847,6 +74110,8 @@
       "babylon-2004bc-1595bc::b4",
       "canaan-2000bc-1200bc::ec1",
       "canaan-2000bc-1200bc::x1",
+      "caucasus-3500bc-1200bc::e2",
+      "caucasus-3500bc-1200bc::x3",
       "dedan-tayma-1200bc-300bc::ex3",
       "dilmun-3000bc-1200bc::e3",
       "egypt-1550bc-1200bc::e1",
@@ -73914,6 +74179,8 @@
       "babylon-2004bc-1595bc::o1",
       "canaan-2000bc-1200bc::tc2",
       "caucasus-1850000bc-3500bc::e1",
+      "caucasus-3500bc-1200bc::p3",
+      "caucasus-3500bc-1200bc::p7",
       "dilmun-1200bc-600bc::b1",
       "dilmun-3000bc-1200bc::w3",
       "egypt-1550bc-1200bc::c8",
@@ -74014,6 +74281,8 @@
       "assyria-1400bc-1050bc::xc3",
       "babylon-2004bc-1595bc::k11",
       "babylon-2004bc-1595bc::c6",
+      "caucasus-3500bc-1200bc::p8",
+      "caucasus-3500bc-1200bc::c3",
       "egypt-1550bc-1200bc::k17"
     ],
     "Lebanese": [
@@ -76722,6 +76991,10 @@
       "canaan-2000bc-1200bc::e2",
       "canaan-2000bc-1200bc::ec1",
       "canaan-2000bc-1200bc::x2",
+      "caucasus-3500bc-1200bc::c2",
+      "caucasus-3500bc-1200bc::e3",
+      "caucasus-3500bc-1200bc::g1",
+      "caucasus-3500bc-1200bc::w2",
       "egypt-1200bc-664bc::w1",
       "egypt-1550bc-1200bc::xc1",
       "hejaz-prehistory-8000bc-1200bc::c2",
@@ -77842,6 +78115,7 @@
       "caliphate-945-1258::x1",
       "caliphate-945-1258::x5",
       "caliphate-945-1258::lv4",
+      "caucasus-3500bc-1200bc::x1",
       "fatimids-909-1171::x1",
       "hormuz-1200-1507::w1",
       "iran-1979-today::x3",
@@ -78272,6 +78546,7 @@
       "beth-qatraye-240-632::c3",
       "caucasus-1850000bc-3500bc::p6",
       "caucasus-1850000bc-3500bc::x2",
+      "caucasus-3500bc-1200bc::x2",
       "mamluks-1250-1517::ec5",
       "phrygia-1200bc-675bc::w3",
       "rome-300-400::ex2",
@@ -79666,6 +79941,7 @@
     ],
     "Armenians": [
       "byzantine-anatolia-632-867::w4",
+      "caucasus-3500bc-1200bc::t1",
       "fatimids-909-1171::x2"
     ],
     "Leo V the Armenian": [
@@ -79860,7 +80136,9 @@
       "byzantine-anatolia-867-1071::c5"
     ],
     "Georgia": [
-      "byzantine-anatolia-867-1071::c5"
+      "byzantine-anatolia-867-1071::c5",
+      "caucasus-3500bc-1200bc::p7",
+      "caucasus-3500bc-1200bc::t2"
     ],
     "David of Tao": [
       "byzantine-anatolia-867-1071::c5"
@@ -82228,6 +82506,7 @@
     ],
     "Middle Bronze Age": [
       "canaan-2000bc-1200bc::tc1",
+      "caucasus-3500bc-1200bc::p5",
       "kanesh-2000bc-1650bc::e2"
     ],
     "Tin Exchange Networks": [
@@ -82285,7 +82564,9 @@
       "caucasus-1850000bc-3500bc::p1",
       "caucasus-1850000bc-3500bc::p7",
       "caucasus-1850000bc-3500bc::p10",
-      "caucasus-1850000bc-3500bc::g2"
+      "caucasus-1850000bc-3500bc::g2",
+      "caucasus-3500bc-1200bc::p4",
+      "caucasus-3500bc-1200bc::ec1"
     ],
     "Africa": [
       "caucasus-1850000bc-3500bc::p1",
@@ -82302,7 +82583,8 @@
       "caucasus-1850000bc-3500bc::p3"
     ],
     "Hrazdan": [
-      "caucasus-1850000bc-3500bc::p3"
+      "caucasus-1850000bc-3500bc::p3",
+      "caucasus-3500bc-1200bc::p2"
     ],
     "Lower-to-Middle Palaeolithic": [
       "caucasus-1850000bc-3500bc::p3"
@@ -82321,6 +82603,7 @@
     ],
     "West Asia": [
       "caucasus-1850000bc-3500bc::p5",
+      "caucasus-3500bc-1200bc::ec1",
       "uruk-3800bc-2900bc::w4"
     ],
     "Ortvale Klde": [
@@ -82391,7 +82674,8 @@
     ],
     "Southern Caucasus": [
       "caucasus-1850000bc-3500bc::c1",
-      "caucasus-1850000bc-3500bc::w1"
+      "caucasus-1850000bc-3500bc::w1",
+      "caucasus-3500bc-1200bc::w1"
     ],
     "Neanderthals": [
       "caucasus-1850000bc-3500bc::c1"
@@ -82400,12 +82684,14 @@
       "caucasus-1850000bc-3500bc::c2",
       "caucasus-1850000bc-3500bc::e2",
       "caucasus-1850000bc-3500bc::ec1",
-      "caucasus-1850000bc-3500bc::w2"
+      "caucasus-1850000bc-3500bc::w2",
+      "caucasus-3500bc-1200bc::p1"
     ],
     "Araxes": [
       "caucasus-1850000bc-3500bc::c2",
       "caucasus-1850000bc-3500bc::ec1",
-      "caucasus-1850000bc-3500bc::w2"
+      "caucasus-1850000bc-3500bc::w2",
+      "caucasus-3500bc-1200bc::p1"
     ],
     "Violence": [
       "caucasus-1850000bc-3500bc::c2"
@@ -82425,7 +82711,8 @@
       "caucasus-1850000bc-3500bc::e1"
     ],
     "Syunik": [
-      "caucasus-1850000bc-3500bc::e1"
+      "caucasus-1850000bc-3500bc::e1",
+      "caucasus-3500bc-1200bc::ec1"
     ],
     "Tbilisi": [
       "caucasus-1850000bc-3500bc::t1"
@@ -82470,7 +82757,8 @@
       "caucasus-1850000bc-3500bc::x2"
     ],
     "Maykop": [
-      "caucasus-1850000bc-3500bc::x3"
+      "caucasus-1850000bc-3500bc::x3",
+      "caucasus-3500bc-1200bc::x2"
     ],
     "Contact": [
       "caucasus-1850000bc-3500bc::x3",
@@ -82486,6 +82774,227 @@
     ],
     "Hacı Elamxanlı Tepe": [
       "caucasus-1850000bc-3500bc::l2"
+    ],
+    "Kura–Araxes": [
+      "caucasus-3500bc-1200bc::p1",
+      "caucasus-3500bc-1200bc::o1",
+      "caucasus-3500bc-1200bc::e1",
+      "caucasus-3500bc-1200bc::x1"
+    ],
+    "Lesser Caucasus": [
+      "caucasus-3500bc-1200bc::p1",
+      "caucasus-3500bc-1200bc::ec1"
+    ],
+    "Nakhchivan": [
+      "caucasus-3500bc-1200bc::p3"
+    ],
+    "Ovçular Tepesi": [
+      "caucasus-3500bc-1200bc::p3"
+    ],
+    "Kültepe": [
+      "caucasus-3500bc-1200bc::p3"
+    ],
+    "Shengavit": [
+      "caucasus-3500bc-1200bc::p2",
+      "caucasus-3500bc-1200bc::c1",
+      "caucasus-3500bc-1200bc::b1",
+      "caucasus-3500bc-1200bc::l1"
+    ],
+    "Yerevan": [
+      "caucasus-3500bc-1200bc::p2"
+    ],
+    "Bedeni": [
+      "caucasus-3500bc-1200bc::p4",
+      "caucasus-3500bc-1200bc::b2"
+    ],
+    "Martkopi": [
+      "caucasus-3500bc-1200bc::p4"
+    ],
+    "Trialeti": [
+      "caucasus-3500bc-1200bc::p5",
+      "caucasus-3500bc-1200bc::b2",
+      "caucasus-3500bc-1200bc::e2",
+      "caucasus-3500bc-1200bc::g1",
+      "caucasus-3500bc-1200bc::x3"
+    ],
+    "Trialeti–Vanadzor": [
+      "caucasus-3500bc-1200bc::p5"
+    ],
+    "Boris Kuftin": [
+      "caucasus-3500bc-1200bc::p5"
+    ],
+    "Armenia Vanadzor": [
+      "caucasus-3500bc-1200bc::p5"
+    ],
+    "Lake Sevan": [
+      "caucasus-3500bc-1200bc::p6",
+      "caucasus-3500bc-1200bc::e3"
+    ],
+    "Ararat": [
+      "caucasus-3500bc-1200bc::p6"
+    ],
+    "Lchashen–Metsamor": [
+      "caucasus-3500bc-1200bc::p6"
+    ],
+    "Colchis": [
+      "caucasus-3500bc-1200bc::p7"
+    ],
+    "Iron Age Colchian": [
+      "caucasus-3500bc-1200bc::p7"
+    ],
+    "Hayasa-Azzi": [
+      "caucasus-3500bc-1200bc::p8"
+    ],
+    "Suppiluliuma I the Hittites": [
+      "caucasus-3500bc-1200bc::p8"
+    ],
+    "Highlands": [
+      "caucasus-3500bc-1200bc::p9"
+    ],
+    "Uruatri": [
+      "caucasus-3500bc-1200bc::p9"
+    ],
+    "Nairi": [
+      "caucasus-3500bc-1200bc::p9"
+    ],
+    "Shalmaneser I of Assyria": [
+      "caucasus-3500bc-1200bc::p9"
+    ],
+    "Gegharkunik": [
+      "caucasus-3500bc-1200bc::c1"
+    ],
+    "Hayasa": [
+      "caucasus-3500bc-1200bc::c3"
+    ],
+    "Azzi": [
+      "caucasus-3500bc-1200bc::c3"
+    ],
+    "Suppiluliuma I": [
+      "caucasus-3500bc-1200bc::c3",
+      "hittite-1650bc-1180bc::p6"
+    ],
+    "Mursili II": [
+      "caucasus-3500bc-1200bc::c3",
+      "hittite-1650bc-1180bc::p7",
+      "hittite-1650bc-1180bc::c6",
+      "hittite-1650bc-1180bc::b3",
+      "hittite-1650bc-1180bc::t1",
+      "hittite-1650bc-1180bc::l2"
+    ],
+    "Tsalka": [
+      "caucasus-3500bc-1200bc::o2",
+      "caucasus-3500bc-1200bc::e2"
+    ],
+    "Hattusa": [
+      "caucasus-3500bc-1200bc::o3",
+      "egypt-1550bc-1200bc::c7",
+      "hittite-1650bc-1180bc::p1",
+      "hittite-1650bc-1180bc::p2",
+      "hittite-1650bc-1180bc::p3",
+      "hittite-1650bc-1180bc::p4",
+      "hittite-1650bc-1180bc::p5",
+      "hittite-1650bc-1180bc::p6",
+      "hittite-1650bc-1180bc::p7",
+      "hittite-1650bc-1180bc::p8",
+      "hittite-1650bc-1180bc::p9",
+      "hittite-1650bc-1180bc::p10",
+      "hittite-1650bc-1180bc::p11",
+      "hittite-1650bc-1180bc::p12",
+      "hittite-1650bc-1180bc::c9",
+      "hittite-1650bc-1180bc::o2",
+      "hittite-1650bc-1180bc::o1",
+      "hittite-1650bc-1180bc::o4",
+      "hittite-1650bc-1180bc::o3",
+      "hittite-1650bc-1180bc::b1",
+      "hittite-1650bc-1180bc::b2",
+      "hittite-1650bc-1180bc::b4",
+      "hittite-1650bc-1180bc::b6",
+      "hittite-1650bc-1180bc::b3",
+      "hittite-1650bc-1180bc::b5",
+      "hittite-1650bc-1180bc::e6",
+      "hittite-1650bc-1180bc::e2",
+      "hittite-1650bc-1180bc::t1",
+      "hittite-1650bc-1180bc::t3",
+      "hittite-1650bc-1180bc::t4",
+      "hittite-1650bc-1180bc::t2",
+      "hittite-1650bc-1180bc::ec2",
+      "hittite-1650bc-1180bc::g4",
+      "hittite-1650bc-1180bc::g5",
+      "hittite-1650bc-1180bc::g1",
+      "hittite-1650bc-1180bc::x3",
+      "hittite-1650bc-1180bc::x2",
+      "hittite-1650bc-1180bc::x1",
+      "hittite-1650bc-1180bc::l2",
+      "hittite-1650bc-1180bc::l1",
+      "hittite-1650bc-1180bc::l4",
+      "kanesh-2000bc-1650bc::c4",
+      "kanesh-2000bc-1650bc::t3"
+    ],
+    "Hukkana of Hayasa": [
+      "caucasus-3500bc-1200bc::o3"
+    ],
+    "Geghama": [
+      "caucasus-3500bc-1200bc::b3"
+    ],
+    "Red-black": [
+      "caucasus-3500bc-1200bc::e1"
+    ],
+    "Georgian National Museum": [
+      "caucasus-3500bc-1200bc::e2"
+    ],
+    "Lchashen": [
+      "caucasus-3500bc-1200bc::e3",
+      "caucasus-3500bc-1200bc::g1"
+    ],
+    "History Museum of Armenia": [
+      "caucasus-3500bc-1200bc::e3"
+    ],
+    "Kartvelian": [
+      "caucasus-3500bc-1200bc::t2"
+    ],
+    "Sisian": [
+      "caucasus-3500bc-1200bc::t3"
+    ],
+    "Karahunj Zorats Karer": [
+      "caucasus-3500bc-1200bc::t3"
+    ],
+    "Early Iron Age": [
+      "caucasus-3500bc-1200bc::t3"
+    ],
+    "Paris Herouni": [
+      "caucasus-3500bc-1200bc::t3"
+    ],
+    "Armenian Stonehenge": [
+      "caucasus-3500bc-1200bc::t3"
+    ],
+    "Iron Ages": [
+      "caucasus-3500bc-1200bc::t3"
+    ],
+    "Kedabek": [
+      "caucasus-3500bc-1200bc::ec1"
+    ],
+    "Highland": [
+      "caucasus-3500bc-1200bc::ec2",
+      "south-arabia-prehistory-8000bc-1200bc::ec2"
+    ],
+    "Metsamor": [
+      "caucasus-3500bc-1200bc::g2"
+    ],
+    "Smiths of the Late Bronze Age": [
+      "caucasus-3500bc-1200bc::g2"
+    ],
+    "Kuban": [
+      "caucasus-3500bc-1200bc::x2",
+      "egypt-2100bc-1550bc::e2"
+    ],
+    "Yanik Tepe": [
+      "caucasus-3500bc-1200bc::x1"
+    ],
+    "Iranian Azerbaijan": [
+      "caucasus-3500bc-1200bc::x1"
+    ],
+    "Figurines": [
+      "caucasus-3500bc-1200bc::l1"
     ],
     "Rubenid": [
       "cilician-armenia-1080-1375::p1",
@@ -85607,50 +86116,6 @@
       "hittite-1650bc-1180bc::c7",
       "hittite-1650bc-1180bc::x5"
     ],
-    "Hattusa": [
-      "egypt-1550bc-1200bc::c7",
-      "hittite-1650bc-1180bc::p1",
-      "hittite-1650bc-1180bc::p2",
-      "hittite-1650bc-1180bc::p3",
-      "hittite-1650bc-1180bc::p4",
-      "hittite-1650bc-1180bc::p5",
-      "hittite-1650bc-1180bc::p6",
-      "hittite-1650bc-1180bc::p7",
-      "hittite-1650bc-1180bc::p8",
-      "hittite-1650bc-1180bc::p9",
-      "hittite-1650bc-1180bc::p10",
-      "hittite-1650bc-1180bc::p11",
-      "hittite-1650bc-1180bc::p12",
-      "hittite-1650bc-1180bc::c9",
-      "hittite-1650bc-1180bc::o2",
-      "hittite-1650bc-1180bc::o1",
-      "hittite-1650bc-1180bc::o4",
-      "hittite-1650bc-1180bc::o3",
-      "hittite-1650bc-1180bc::b1",
-      "hittite-1650bc-1180bc::b2",
-      "hittite-1650bc-1180bc::b4",
-      "hittite-1650bc-1180bc::b6",
-      "hittite-1650bc-1180bc::b3",
-      "hittite-1650bc-1180bc::b5",
-      "hittite-1650bc-1180bc::e6",
-      "hittite-1650bc-1180bc::e2",
-      "hittite-1650bc-1180bc::t1",
-      "hittite-1650bc-1180bc::t3",
-      "hittite-1650bc-1180bc::t4",
-      "hittite-1650bc-1180bc::t2",
-      "hittite-1650bc-1180bc::ec2",
-      "hittite-1650bc-1180bc::g4",
-      "hittite-1650bc-1180bc::g5",
-      "hittite-1650bc-1180bc::g1",
-      "hittite-1650bc-1180bc::x3",
-      "hittite-1650bc-1180bc::x2",
-      "hittite-1650bc-1180bc::x1",
-      "hittite-1650bc-1180bc::l2",
-      "hittite-1650bc-1180bc::l1",
-      "hittite-1650bc-1180bc::l4",
-      "kanesh-2000bc-1650bc::c4",
-      "kanesh-2000bc-1650bc::t3"
-    ],
     "Egyptian–Hittite": [
       "egypt-1550bc-1200bc::c7"
     ],
@@ -87853,9 +88318,6 @@
     ],
     "Senwosret II": [
       "egypt-2100bc-1550bc::e1"
-    ],
-    "Kuban": [
-      "egypt-2100bc-1550bc::e2"
     ],
     "Wadi Gabgaba": [
       "egypt-2100bc-1550bc::e2"
@@ -97409,9 +97871,6 @@
     "Tudhaliya the I/II": [
       "hittite-1650bc-1180bc::p5"
     ],
-    "Suppiluliuma I": [
-      "hittite-1650bc-1180bc::p6"
-    ],
     "Tudhaliya III": [
       "hittite-1650bc-1180bc::p6"
     ],
@@ -97421,13 +97880,6 @@
     ],
     "Amarna Age": [
       "hittite-1650bc-1180bc::p6"
-    ],
-    "Mursili II": [
-      "hittite-1650bc-1180bc::p7",
-      "hittite-1650bc-1180bc::c6",
-      "hittite-1650bc-1180bc::b3",
-      "hittite-1650bc-1180bc::t1",
-      "hittite-1650bc-1180bc::l2"
     ],
     "Tarhuntassa": [
       "hittite-1650bc-1180bc::p8",
@@ -114881,9 +115333,6 @@
     ],
     "Vogt Sabir": [
       "south-arabia-prehistory-8000bc-1200bc::t3"
-    ],
-    "Highland": [
-      "south-arabia-prehistory-8000bc-1200bc::ec2"
     ],
     "Sorghum": [
       "south-arabia-prehistory-8000bc-1200bc::ec3"
