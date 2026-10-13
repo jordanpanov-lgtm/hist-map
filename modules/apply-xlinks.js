@@ -1731,6 +1731,10 @@ const SELECTED_PAIRS = [
   ['turkey-1980-today::x4', 'syria-1946-today::x1'],      // the Syrian refugee crisis
   ['turkey-1980-today::x4', 'syria-1946-today::c2'],      // the Syrian civil war
   ['turkey-1980-today::c13', 'syria-1946-today::c2'],      // the Turkish operations in northern Syria
+  ['caucasus-1850000bc-3500bc::x1', 'arabia-paleolithic-500000bc-8000bc::x2'],      // the dispersal of early humans out of Africa along the northern route
+  ['caucasus-1850000bc-3500bc::ec3', 'anatolia-10000bc-3000bc::x1'],      // obsidian circulation among the early farming villages
+  ['caucasus-1850000bc-3500bc::x3', 'mesopotamia-6500bc-3800bc::p6'],      // the Ubaid horizon and its northern reach
+  ['caucasus-1850000bc-3500bc::b3', 'mesopotamia-6500bc-3800bc::b5'],      // burial of infants beneath house floors
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

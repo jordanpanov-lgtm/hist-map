@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 8449,
-    "folio_count": 174,
-    "xlink_pairs": 1727,
-    "keyword_terms": 12946,
+    "total_entries": 8482,
+    "folio_count": 175,
+    "xlink_pairs": 1731,
+    "keyword_terms": 13001,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -124,6 +124,11 @@
         "id": "canaan-2000bc-1200bc",
         "title": "Bronze Age Canaan",
         "entries": 24
+      },
+      {
+        "id": "caucasus-1850000bc-3500bc",
+        "title": "Prehistoric Caucasus",
+        "entries": 33
       },
       {
         "id": "cilician-armenia-1080-1375",
@@ -2173,6 +2178,39 @@
     "canaan-2000bc-1200bc::w2": "The Collapse That Ended an Age",
     "canaan-2000bc-1200bc::l1": "The Habiru — A Stateless Class",
     "canaan-2000bc-1200bc::l2": "Women's Property Rights at Ugarit",
+    "caucasus-1850000bc-3500bc::p2": "Azokh and Azykh — a cave with a mandible",
+    "caucasus-1850000bc-3500bc::p1": "Dmanisi — the earliest humans outside Africa",
+    "caucasus-1850000bc-3500bc::p3": "Nor Geghi 1 — early Levallois technology",
+    "caucasus-1850000bc-3500bc::p5": "Dzudzuana Cave — the cave hunters of the Upper Palaeolithic",
+    "caucasus-1850000bc-3500bc::p4": "The Mousterian caves of Imereti and Armenia",
+    "caucasus-1850000bc-3500bc::p6": "The Caucasus hunter-gatherers at Satsurblia and Kotias Klde",
+    "caucasus-1850000bc-3500bc::p7": "The Shulaveri-Shomu culture",
+    "caucasus-1850000bc-3500bc::p8": "Aratashen and Aknashen — the villages of the Ararat plain",
+    "caucasus-1850000bc-3500bc::p10": "The Sioni culture and the Chalcolithic of Kartli",
+    "caucasus-1850000bc-3500bc::p9": "Leyla Tepe — a Karabakh settlement in contact with Mesopotamia",
+    "caucasus-1850000bc-3500bc::c1": "The last Neanderthals and the first modern humans",
+    "caucasus-1850000bc-3500bc::c2": "Violence in the archaeological record",
+    "caucasus-1850000bc-3500bc::o1": "The round-house villages",
+    "caucasus-1850000bc-3500bc::b1": "Gobustan",
+    "caucasus-1850000bc-3500bc::b3": "The dead beneath the floors",
+    "caucasus-1850000bc-3500bc::b2": "Areni-1 — a ritual cave",
+    "caucasus-1850000bc-3500bc::e1": "Ughtasar",
+    "caucasus-1850000bc-3500bc::e2": "The pottery of the Kura villages",
+    "caucasus-1850000bc-3500bc::t1": "Dmanisi and the single-species hypothesis",
+    "caucasus-1850000bc-3500bc::ec1": "Wheat, barley and the first herds",
+    "caucasus-1850000bc-3500bc::ec2": "The earliest winemaking",
+    "caucasus-1850000bc-3500bc::ec3": "The obsidian trade",
+    "caucasus-1850000bc-3500bc::g1": "The Oldowan tools of Dmanisi",
+    "caucasus-1850000bc-3500bc::g2": "The mine at Sakdrisi",
+    "caucasus-1850000bc-3500bc::g3": "The winepress and vats of Areni-1",
+    "caucasus-1850000bc-3500bc::g4": "The Areni shoe",
+    "caucasus-1850000bc-3500bc::x1": "Dmanisi and the dispersal from Africa",
+    "caucasus-1850000bc-3500bc::x2": "The Caucasus ancestry in Eurasia",
+    "caucasus-1850000bc-3500bc::x3": "Contact with Mesopotamia and the north",
+    "caucasus-1850000bc-3500bc::w1": "The Caucasus as an Ice Age refuge",
+    "caucasus-1850000bc-3500bc::w2": "The Holocene warming and the wetter plains",
+    "caucasus-1850000bc-3500bc::l1": "The hominin without teeth",
+    "caucasus-1850000bc-3500bc::l2": "Children of the village",
     "cilician-armenia-1080-1375::p1": "Ruben and the lords of the Taurus",
     "cilician-armenia-1080-1375::p2": "Leo I and Thoros II",
     "cilician-armenia-1080-1375::p3": "Leo the Magnificent",
@@ -9604,9 +9642,13 @@
       "anatolia-10000bc-3000bc::b6"
     ],
     "anatolia-10000bc-3000bc::x1": [
+      "caucasus-1850000bc-3500bc::ec3",
       "levant-neolithic-10000bc-2000bc::x1",
       "mesopotamia-6500bc-3800bc::xc1",
       "zagros-elam-8000bc-3200bc::x1"
+    ],
+    "caucasus-1850000bc-3500bc::ec3": [
+      "anatolia-10000bc-3000bc::x1"
     ],
     "levant-neolithic-10000bc-2000bc::x1": [
       "anatolia-10000bc-3000bc::x1"
@@ -9983,6 +10025,12 @@
       "arabia-paleolithic-500000bc-8000bc::x3",
       "gulf-prehistory-8000bc-3000bc::ec1",
       "qedar-853bc-330bc::x4"
+    ],
+    "arabia-paleolithic-500000bc-8000bc::x2": [
+      "caucasus-1850000bc-3500bc::x1"
+    ],
+    "caucasus-1850000bc-3500bc::x1": [
+      "arabia-paleolithic-500000bc-8000bc::x2"
     ],
     "arabia-paleolithic-500000bc-8000bc::x1": [
       "gulf-prehistory-8000bc-3000bc::w1"
@@ -12067,6 +12115,19 @@
     ],
     "canaan-2000bc-1200bc::l1": [
       "egypt-1550bc-1200bc::xc1"
+    ],
+    "caucasus-1850000bc-3500bc::b3": [
+      "mesopotamia-6500bc-3800bc::b5"
+    ],
+    "mesopotamia-6500bc-3800bc::b5": [
+      "caucasus-1850000bc-3500bc::b3"
+    ],
+    "caucasus-1850000bc-3500bc::x3": [
+      "mesopotamia-6500bc-3800bc::p6"
+    ],
+    "mesopotamia-6500bc-3800bc::p6": [
+      "caucasus-1850000bc-3500bc::x3",
+      "gulf-prehistory-8000bc-3000bc::x1"
     ],
     "cilician-armenia-1080-1375::c2": [
       "seljuks-of-rum-1071-1308::p3"
@@ -14271,9 +14332,6 @@
     ],
     "mesopotamia-6500bc-3800bc::g6": [
       "gulf-prehistory-8000bc-3000bc::tc1"
-    ],
-    "mesopotamia-6500bc-3800bc::p6": [
-      "gulf-prehistory-8000bc-3000bc::x1"
     ],
     "gulf-prehistory-8000bc-3000bc::x3": [
       "mesopotamia-6500bc-3800bc::xc3"
@@ -24904,6 +24962,180 @@
       "Ugarit Ras Shamra",
       "Women Property Rights",
       "Late Bronze Age Canaanite"
+    ],
+    "caucasus-1850000bc-3500bc::p2": [
+      "Azokh Azykh Cave",
+      "Karabakh",
+      "Lower Palaeolithic"
+    ],
+    "caucasus-1850000bc-3500bc::p1": [
+      "Dmanisi",
+      "Kvemo Kartli",
+      "Africa"
+    ],
+    "caucasus-1850000bc-3500bc::p3": [
+      "Nor Geghi",
+      "Hrazdan",
+      "Levallois",
+      "Middle Pleistocene",
+      "Lower-to-Middle Palaeolithic"
+    ],
+    "caucasus-1850000bc-3500bc::p5": [
+      "Imereti",
+      "Dzudzuana Cave",
+      "Upper Palaeolithic",
+      "West Asia"
+    ],
+    "caucasus-1850000bc-3500bc::p4": [
+      "Ortvale Klde",
+      "Kudaro",
+      "Hovk-1",
+      "Mousterian",
+      "Imereti",
+      "Armenia"
+    ],
+    "caucasus-1850000bc-3500bc::p6": [
+      "Kotias Klde",
+      "Imereti",
+      "Caucasus",
+      "Satsurblia Cave",
+      "Last Glacial Maximum"
+    ],
+    "caucasus-1850000bc-3500bc::p7": [
+      "Shulaveris Gora",
+      "Aruchlo",
+      "Kvemo Kartli",
+      "Shulaveri-Shomu",
+      "Imiris Gora",
+      "Gadachrili Gora"
+    ],
+    "caucasus-1850000bc-3500bc::p8": [
+      "Aratashen",
+      "Aknashen",
+      "Mount Ararat"
+    ],
+    "caucasus-1850000bc-3500bc::p10": [
+      "Sioni",
+      "Kvemo Kartli",
+      "Chalcolithic of Kartli",
+      "Chalcolithic of the Kura"
+    ],
+    "caucasus-1850000bc-3500bc::p9": [
+      "Leyla Tepe",
+      "Agdam",
+      "Karabakh",
+      "Mesopotamia",
+      "Mesopotamian Ubaid"
+    ],
+    "caucasus-1850000bc-3500bc::c1": [
+      "Southern Caucasus",
+      "Neanderthals",
+      "Upper Palaeolithic",
+      "Ortvale Klde"
+    ],
+    "caucasus-1850000bc-3500bc::c2": [
+      "Kura",
+      "Araxes",
+      "Violence"
+    ],
+    "caucasus-1850000bc-3500bc::o1": [
+      "Shulaveri-Shomu"
+    ],
+    "caucasus-1850000bc-3500bc::b1": [
+      "Gobustan",
+      "Azerbaijan",
+      "Middle Ages"
+    ],
+    "caucasus-1850000bc-3500bc::b3": [
+      "Aknashen",
+      "Aruchlo"
+    ],
+    "caucasus-1850000bc-3500bc::b2": [
+      "Areni-1 Cave",
+      "Vayots Dzor"
+    ],
+    "caucasus-1850000bc-3500bc::e1": [
+      "Ughtasar",
+      "Syunik",
+      "Bronze Age"
+    ],
+    "caucasus-1850000bc-3500bc::e2": [
+      "Kura",
+      "Leyla Tepe"
+    ],
+    "caucasus-1850000bc-3500bc::t1": [
+      "Tbilisi",
+      "Dmanisi"
+    ],
+    "caucasus-1850000bc-3500bc::ec1": [
+      "Kura",
+      "Araxes",
+      "Wheat",
+      "South Caucasus"
+    ],
+    "caucasus-1850000bc-3500bc::ec2": [
+      "Gadachrili Gora",
+      "Areni-1",
+      "Khramis Didi Gora"
+    ],
+    "caucasus-1850000bc-3500bc::ec3": [
+      "Gegham",
+      "Aragats",
+      "Chikiani"
+    ],
+    "caucasus-1850000bc-3500bc::g1": [
+      "Dmanisi",
+      "Oldowan",
+      "East Africa"
+    ],
+    "caucasus-1850000bc-3500bc::g2": [
+      "Sakdrisi",
+      "Bolnisi",
+      "Kvemo Kartli"
+    ],
+    "caucasus-1850000bc-3500bc::g3": [
+      "Areni-1 Cave"
+    ],
+    "caucasus-1850000bc-3500bc::g4": [
+      "Areni-1 Cave",
+      "Areni",
+      "Ötzi the Iceman"
+    ],
+    "caucasus-1850000bc-3500bc::x1": [
+      "Dmanisi",
+      "Africa"
+    ],
+    "caucasus-1850000bc-3500bc::x2": [
+      "Caucasus",
+      "Eurasia",
+      "West Asians"
+    ],
+    "caucasus-1850000bc-3500bc::x3": [
+      "Leyla Tepe",
+      "Maykop",
+      "Contact",
+      "Mesopotamia",
+      "Late Uruk"
+    ],
+    "caucasus-1850000bc-3500bc::w1": [
+      "Southern Caucasus",
+      "Ice Age",
+      "Last Glacial Maximum"
+    ],
+    "caucasus-1850000bc-3500bc::w2": [
+      "Kura",
+      "Araxes",
+      "Holocene",
+      "Younger Dryas"
+    ],
+    "caucasus-1850000bc-3500bc::l1": [
+      "Dmanisi"
+    ],
+    "caucasus-1850000bc-3500bc::l2": [
+      "Aknashen",
+      "Hacı Elamxanlı Tepe",
+      "Children",
+      "Near East"
     ],
     "cilician-armenia-1080-1375::p1": [
       "Rubenid",
@@ -65789,6 +66021,7 @@
       "caliphate-945-1258::o5",
       "caliphate-945-1258::b4",
       "canaan-2000bc-1200bc::w2",
+      "caucasus-1850000bc-3500bc::l2",
       "cilician-armenia-1080-1375::w2",
       "dedan-tayma-1200bc-300bc::lv1",
       "dilmun-1200bc-600bc::tc2",
@@ -69960,7 +70193,8 @@
       "roman-anatolia-133bc-330::c11"
     ],
     "Mesopotamian Ubaid": [
-      "anatolia-10000bc-3000bc::x4"
+      "anatolia-10000bc-3000bc::x4",
+      "caucasus-1850000bc-3500bc::p9"
     ],
     "Hacınebi Tepe": [
       "anatolia-10000bc-3000bc::x5",
@@ -69981,6 +70215,7 @@
     ],
     "Younger Dryas": [
       "anatolia-10000bc-3000bc::w1",
+      "caucasus-1850000bc-3500bc::w2",
       "levant-neolithic-10000bc-2000bc::w1"
     ],
     "East Mound of Çatalhöyük": [
@@ -69997,6 +70232,7 @@
     "South Caucasus": [
       "anatolia-10000bc-3000bc::w4",
       "anatolia-3000bc-2000bc::x2",
+      "caucasus-1850000bc-3500bc::ec1",
       "qajar-1789-1925::c2"
     ],
     "Late Chalcolithic of the Malatya": [
@@ -70625,6 +70861,7 @@
       "byzantine-anatolia-632-867::b4",
       "byzantine-anatolia-867-1071::w3",
       "byzantine-anatolia-867-1071::w4",
+      "caucasus-1850000bc-3500bc::p4",
       "cilician-armenia-1080-1375::p6",
       "late-roman-anatolia-330-632::x3",
       "parthia-148bc-224::w2",
@@ -71437,7 +71674,8 @@
       "egypt-6000bc-3000bc::ex3"
     ],
     "Children": [
-      "anatolia-3000bc-2000bc::l1"
+      "anatolia-3000bc-2000bc::l1",
+      "caucasus-1850000bc-3500bc::l2"
     ],
     "Rich": [
       "anatolia-3000bc-2000bc::l2",
@@ -72338,7 +72576,8 @@
     ],
     "Middle Pleistocene": [
       "arabia-paleolithic-500000bc-8000bc::k1",
-      "arabia-paleolithic-500000bc-8000bc::tc1"
+      "arabia-paleolithic-500000bc-8000bc::tc1",
+      "caucasus-1850000bc-3500bc::p3"
     ],
     "Nasim": [
       "arabia-paleolithic-500000bc-8000bc::k2",
@@ -72665,7 +72904,9 @@
     ],
     "Last Glacial Maximum": [
       "arabia-paleolithic-500000bc-8000bc::ec3",
-      "arabia-paleolithic-500000bc-8000bc::ec4"
+      "arabia-paleolithic-500000bc-8000bc::ec4",
+      "caucasus-1850000bc-3500bc::p6",
+      "caucasus-1850000bc-3500bc::w1"
     ],
     "Arabia": [
       "arabia-paleolithic-500000bc-8000bc::ec3",
@@ -72718,7 +72959,8 @@
       "tylos-mleiha-300bc-240ad::c1"
     ],
     "Levallois": [
-      "arabia-paleolithic-500000bc-8000bc::tc2"
+      "arabia-paleolithic-500000bc-8000bc::tc2",
+      "caucasus-1850000bc-3500bc::p3"
     ],
     "Africa–Eurasia": [
       "arabia-paleolithic-500000bc-8000bc::x3"
@@ -72786,6 +73028,7 @@
     ],
     "Holocene": [
       "arabia-paleolithic-500000bc-8000bc::w4",
+      "caucasus-1850000bc-3500bc::w2",
       "south-arabia-prehistory-8000bc-1200bc::k1"
     ],
     "Rub al-Khali": [
@@ -73670,6 +73913,7 @@
       "babylon-2004bc-1595bc::k10",
       "babylon-2004bc-1595bc::o1",
       "canaan-2000bc-1200bc::tc2",
+      "caucasus-1850000bc-3500bc::e1",
       "dilmun-1200bc-600bc::b1",
       "dilmun-3000bc-1200bc::w3",
       "egypt-1550bc-1200bc::c8",
@@ -76657,6 +76901,8 @@
     "Mesopotamia": [
       "babylon-2004bc-1595bc::c3",
       "canaan-2000bc-1200bc::x1",
+      "caucasus-1850000bc-3500bc::p9",
+      "caucasus-1850000bc-3500bc::x3",
       "dilmun-1200bc-600bc::c1",
       "dilmun-1200bc-600bc::w1",
       "dilmun-3000bc-1200bc::k2",
@@ -78024,6 +78270,8 @@
     ],
     "Caucasus": [
       "beth-qatraye-240-632::c3",
+      "caucasus-1850000bc-3500bc::p6",
+      "caucasus-1850000bc-3500bc::x2",
       "mamluks-1250-1517::ec5",
       "phrygia-1200bc-675bc::w3",
       "rome-300-400::ex2",
@@ -79802,7 +80050,8 @@
       "byzantine-anatolia-867-1071::w2"
     ],
     "Azerbaijan": [
-      "byzantine-anatolia-867-1071::w3"
+      "byzantine-anatolia-867-1071::w3",
+      "caucasus-1850000bc-3500bc::b1"
     ],
     "Oghuz Turkmen": [
       "byzantine-anatolia-867-1071::w3",
@@ -80654,6 +80903,7 @@
     ],
     "East Africa": [
       "caliphate-632-750::lv4",
+      "caucasus-1850000bc-3500bc::g1",
       "eastern-arabia-750-1200::t4",
       "egypt-300-641::xc1",
       "egypt-332bc-30bc::w4",
@@ -81560,6 +81810,7 @@
     ],
     "Middle Ages": [
       "caliphate-945-1258::b6",
+      "caucasus-1850000bc-3500bc::b1",
       "egypt-1517-1798::g2",
       "fatimids-909-1171::w1",
       "hispania-27bc-409ad::a5",
@@ -82012,6 +82263,229 @@
     ],
     "Late Bronze Age Canaanite": [
       "canaan-2000bc-1200bc::l2"
+    ],
+    "Azokh Azykh Cave": [
+      "caucasus-1850000bc-3500bc::p2"
+    ],
+    "Karabakh": [
+      "caucasus-1850000bc-3500bc::p2",
+      "caucasus-1850000bc-3500bc::p9"
+    ],
+    "Lower Palaeolithic": [
+      "caucasus-1850000bc-3500bc::p2"
+    ],
+    "Dmanisi": [
+      "caucasus-1850000bc-3500bc::p1",
+      "caucasus-1850000bc-3500bc::t1",
+      "caucasus-1850000bc-3500bc::g1",
+      "caucasus-1850000bc-3500bc::x1",
+      "caucasus-1850000bc-3500bc::l1"
+    ],
+    "Kvemo Kartli": [
+      "caucasus-1850000bc-3500bc::p1",
+      "caucasus-1850000bc-3500bc::p7",
+      "caucasus-1850000bc-3500bc::p10",
+      "caucasus-1850000bc-3500bc::g2"
+    ],
+    "Africa": [
+      "caucasus-1850000bc-3500bc::p1",
+      "caucasus-1850000bc-3500bc::x1",
+      "egypt-1952-today::w3",
+      "egypt-332bc-30bc::t6",
+      "egypt-664bc-332bc::xc5",
+      "france-1815-1900::ex2",
+      "hejaz-1517-1900::x4",
+      "hormuz-1200-1507::w5",
+      "mamluks-1250-1517::w5"
+    ],
+    "Nor Geghi": [
+      "caucasus-1850000bc-3500bc::p3"
+    ],
+    "Hrazdan": [
+      "caucasus-1850000bc-3500bc::p3"
+    ],
+    "Lower-to-Middle Palaeolithic": [
+      "caucasus-1850000bc-3500bc::p3"
+    ],
+    "Imereti": [
+      "caucasus-1850000bc-3500bc::p5",
+      "caucasus-1850000bc-3500bc::p4",
+      "caucasus-1850000bc-3500bc::p6"
+    ],
+    "Dzudzuana Cave": [
+      "caucasus-1850000bc-3500bc::p5"
+    ],
+    "Upper Palaeolithic": [
+      "caucasus-1850000bc-3500bc::p5",
+      "caucasus-1850000bc-3500bc::c1"
+    ],
+    "West Asia": [
+      "caucasus-1850000bc-3500bc::p5",
+      "uruk-3800bc-2900bc::w4"
+    ],
+    "Ortvale Klde": [
+      "caucasus-1850000bc-3500bc::p4",
+      "caucasus-1850000bc-3500bc::c1"
+    ],
+    "Kudaro": [
+      "caucasus-1850000bc-3500bc::p4"
+    ],
+    "Hovk-1": [
+      "caucasus-1850000bc-3500bc::p4"
+    ],
+    "Mousterian": [
+      "caucasus-1850000bc-3500bc::p4"
+    ],
+    "Kotias Klde": [
+      "caucasus-1850000bc-3500bc::p6"
+    ],
+    "Satsurblia Cave": [
+      "caucasus-1850000bc-3500bc::p6"
+    ],
+    "Shulaveris Gora": [
+      "caucasus-1850000bc-3500bc::p7"
+    ],
+    "Aruchlo": [
+      "caucasus-1850000bc-3500bc::p7",
+      "caucasus-1850000bc-3500bc::b3"
+    ],
+    "Shulaveri-Shomu": [
+      "caucasus-1850000bc-3500bc::p7",
+      "caucasus-1850000bc-3500bc::o1"
+    ],
+    "Imiris Gora": [
+      "caucasus-1850000bc-3500bc::p7"
+    ],
+    "Gadachrili Gora": [
+      "caucasus-1850000bc-3500bc::p7",
+      "caucasus-1850000bc-3500bc::ec2"
+    ],
+    "Aratashen": [
+      "caucasus-1850000bc-3500bc::p8"
+    ],
+    "Aknashen": [
+      "caucasus-1850000bc-3500bc::p8",
+      "caucasus-1850000bc-3500bc::b3",
+      "caucasus-1850000bc-3500bc::l2"
+    ],
+    "Mount Ararat": [
+      "caucasus-1850000bc-3500bc::p8",
+      "ottoman-anatolia-1500-1800::e5"
+    ],
+    "Sioni": [
+      "caucasus-1850000bc-3500bc::p10"
+    ],
+    "Chalcolithic of Kartli": [
+      "caucasus-1850000bc-3500bc::p10"
+    ],
+    "Chalcolithic of the Kura": [
+      "caucasus-1850000bc-3500bc::p10"
+    ],
+    "Leyla Tepe": [
+      "caucasus-1850000bc-3500bc::p9",
+      "caucasus-1850000bc-3500bc::e2",
+      "caucasus-1850000bc-3500bc::x3"
+    ],
+    "Agdam": [
+      "caucasus-1850000bc-3500bc::p9"
+    ],
+    "Southern Caucasus": [
+      "caucasus-1850000bc-3500bc::c1",
+      "caucasus-1850000bc-3500bc::w1"
+    ],
+    "Neanderthals": [
+      "caucasus-1850000bc-3500bc::c1"
+    ],
+    "Kura": [
+      "caucasus-1850000bc-3500bc::c2",
+      "caucasus-1850000bc-3500bc::e2",
+      "caucasus-1850000bc-3500bc::ec1",
+      "caucasus-1850000bc-3500bc::w2"
+    ],
+    "Araxes": [
+      "caucasus-1850000bc-3500bc::c2",
+      "caucasus-1850000bc-3500bc::ec1",
+      "caucasus-1850000bc-3500bc::w2"
+    ],
+    "Violence": [
+      "caucasus-1850000bc-3500bc::c2"
+    ],
+    "Gobustan": [
+      "caucasus-1850000bc-3500bc::b1"
+    ],
+    "Areni-1 Cave": [
+      "caucasus-1850000bc-3500bc::b2",
+      "caucasus-1850000bc-3500bc::g3",
+      "caucasus-1850000bc-3500bc::g4"
+    ],
+    "Vayots Dzor": [
+      "caucasus-1850000bc-3500bc::b2"
+    ],
+    "Ughtasar": [
+      "caucasus-1850000bc-3500bc::e1"
+    ],
+    "Syunik": [
+      "caucasus-1850000bc-3500bc::e1"
+    ],
+    "Tbilisi": [
+      "caucasus-1850000bc-3500bc::t1"
+    ],
+    "Wheat": [
+      "caucasus-1850000bc-3500bc::ec1"
+    ],
+    "Areni-1": [
+      "caucasus-1850000bc-3500bc::ec2"
+    ],
+    "Khramis Didi Gora": [
+      "caucasus-1850000bc-3500bc::ec2"
+    ],
+    "Gegham": [
+      "caucasus-1850000bc-3500bc::ec3"
+    ],
+    "Aragats": [
+      "caucasus-1850000bc-3500bc::ec3"
+    ],
+    "Chikiani": [
+      "caucasus-1850000bc-3500bc::ec3"
+    ],
+    "Oldowan": [
+      "caucasus-1850000bc-3500bc::g1"
+    ],
+    "Sakdrisi": [
+      "caucasus-1850000bc-3500bc::g2"
+    ],
+    "Bolnisi": [
+      "caucasus-1850000bc-3500bc::g2"
+    ],
+    "Areni": [
+      "caucasus-1850000bc-3500bc::g4"
+    ],
+    "Ötzi the Iceman": [
+      "caucasus-1850000bc-3500bc::g4"
+    ],
+    "Eurasia": [
+      "caucasus-1850000bc-3500bc::x2"
+    ],
+    "West Asians": [
+      "caucasus-1850000bc-3500bc::x2"
+    ],
+    "Maykop": [
+      "caucasus-1850000bc-3500bc::x3"
+    ],
+    "Contact": [
+      "caucasus-1850000bc-3500bc::x3",
+      "zagros-elam-8000bc-3200bc::p5"
+    ],
+    "Late Uruk": [
+      "caucasus-1850000bc-3500bc::x3",
+      "uruk-3800bc-2900bc::c1"
+    ],
+    "Ice Age": [
+      "caucasus-1850000bc-3500bc::w1",
+      "spain-1516-1700::ex2"
+    ],
+    "Hacı Elamxanlı Tepe": [
+      "caucasus-1850000bc-3500bc::l2"
     ],
     "Rubenid": [
       "cilician-armenia-1080-1375::p1",
@@ -86938,15 +87412,6 @@
     ],
     "Blue Nile": [
       "egypt-1952-today::w3"
-    ],
-    "Africa": [
-      "egypt-1952-today::w3",
-      "egypt-332bc-30bc::t6",
-      "egypt-664bc-332bc::xc5",
-      "france-1815-1900::ex2",
-      "hejaz-1517-1900::x4",
-      "hormuz-1200-1507::w5",
-      "mamluks-1250-1517::w5"
     ],
     "Renaissance Dam": [
       "egypt-1952-today::w3"
@@ -107931,9 +108396,6 @@
     "Çolak Abdi Pasha": [
       "ottoman-anatolia-1500-1800::e5"
     ],
-    "Mount Ararat": [
-      "ottoman-anatolia-1500-1800::e5"
-    ],
     "Evliya Çelebi": [
       "ottoman-anatolia-1500-1800::t1"
     ],
@@ -115770,9 +116232,6 @@
     "Columbian Exchange": [
       "spain-1516-1700::ex2"
     ],
-    "Ice Age": [
-      "spain-1516-1700::ex2"
-    ],
     "Tordesillas": [
       "spain-1516-1700::ex3"
     ],
@@ -120595,9 +121054,6 @@
       "uruk-3800bc-2900bc::b3",
       "uruk-3800bc-2900bc::l2"
     ],
-    "Late Uruk": [
-      "uruk-3800bc-2900bc::c1"
-    ],
     "Epic of Gilgamesh": [
       "uruk-3800bc-2900bc::c2"
     ],
@@ -120673,9 +121129,6 @@
     ],
     "Survey of the Uruk": [
       "uruk-3800bc-2900bc::w2"
-    ],
-    "West Asia": [
-      "uruk-3800bc-2900bc::w4"
     ],
     "Early Dynastic Ur": [
       "uruk-3800bc-2900bc::l5"
@@ -121604,9 +122057,6 @@
       "zagros-elam-8000bc-3200bc::p4"
     ],
     "Susa II": [
-      "zagros-elam-8000bc-3200bc::p5"
-    ],
-    "Contact": [
       "zagros-elam-8000bc-3200bc::p5"
     ],
     "Proto-Elamite Script": [

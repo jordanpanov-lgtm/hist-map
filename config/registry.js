@@ -230,5 +230,7 @@ const MODULES = [
   { id:"anatolia-1908-1923", file:"modules/anatolia-1908-1923.json", label:"Anatolia 1908–1923", sub:"Revolution, the Great War, the Destruction of the Christian Communities and the National Struggle", region:"Turkey", period:"Modern" },
   { id:"turkey-1923-1980", file:"modules/turkey-1923-1980.json", label:"Turkey 1923–1980", sub:"The Single-Party Republic, the Democrat Decade, Coups and Coalitions, and the Years of Violence", region:"Turkey", period:"Modern" },
   { id:"turkey-1980-today", file:"modules/turkey-1980-today.json", label:"Turkey 1980–today", sub:"The Generals, Özal's Opening, the Kurdish War, the Justice and Development Decades, and the Presidential System", region:"Turkey", period:"Modern" },
+  // ── CAUCASUS (South Caucasus — Armenia · Georgia · Azerbaijan) ──
+  { id:"caucasus-1850000bc-3500bc", file:"modules/caucasus-1850000bc-3500bc.json", label:"Prehistoric Caucasus 1,850,000–3,500 BC", sub:"Dmanisi, the Caucasus Hunter-Gatherers and the First Winemakers", region:"Caucasus", period:"Prehistoric" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
