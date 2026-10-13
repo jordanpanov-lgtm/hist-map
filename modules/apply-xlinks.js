@@ -1636,6 +1636,18 @@ const SELECTED_PAIRS = [
   ['trebizond-1204-1461::c3', 'mamluks-1250-1517::ec6'],      // the Venetian and Genoese factories
   ['trebizond-1204-1461::ec1', 'ilkhanate-1219-1335::ec1'],      // the Pax Mongolica's revived trade
   ['trebizond-1204-1461::ec1', 'cilician-armenia-1080-1375::ec1'],      // Ayas and Trebizond as termini of the eastern trade
+  ['anatolian-beyliks-1308-1500::c4', 'iran-1335-1501::p2'],      // Timur
+  ['anatolian-beyliks-1308-1500::c4', 'iran-1335-1501::c1'],      // Timur subdues the regional successors
+  ['anatolian-beyliks-1308-1500::c6', 'iran-1335-1501::p6'],      // the Aq Qoyunlu
+  ['anatolian-beyliks-1308-1500::c7', 'mamluks-1250-1517::c9'],      // the Taurus frontier war with the Ottomans
+  ['anatolian-beyliks-1308-1500::p8', 'mamluks-1250-1517::c9'],      // the Dulkadirids between Mamluks and Ottomans
+  ['anatolian-beyliks-1308-1500::w1', 'seljuks-of-rum-1071-1308::p8'],      // the end of the Seljuk line
+  ['anatolian-beyliks-1308-1500::p11', 'trebizond-1204-1461::c6'],      // the fall of Trebizond
+  ['anatolian-beyliks-1308-1500::o3', 'seljuks-of-rum-1071-1308::o3'],      // the akhi brotherhoods
+  ['anatolian-beyliks-1308-1500::ec3', 'iran-1335-1501::ec1'],      // the silk trade under Timurid stability
+  ['anatolian-beyliks-1308-1500::p7', 'trebizond-1204-1461::c5'],      // Turkmen raids and the Black Sea beyliks
+  ['anatolian-beyliks-1308-1500::c2', 'crusader-states-1099-1291::p8'],      // the last crusading enterprises
+  ['anatolian-beyliks-1308-1500::x2', 'mamluks-1250-1517::ec6'],      // the Venetian and Genoese factories
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
