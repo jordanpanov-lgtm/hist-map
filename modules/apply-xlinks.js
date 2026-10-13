@@ -1863,6 +1863,21 @@ const SELECTED_PAIRS = [
   ['caucasus-1243-1501::l3', 'iran-1335-1501::l2'],      // the demographic toll of Timur's campaigns
   ['caucasus-1243-1501::x1', 'cilician-armenia-1080-1375::c5'],      // Armenians with the Mongol armies
   ['caucasus-1243-1501::x3', 'safavid-1501-1722::l1'],      // the later forced relocation of the Armenians
+  ['caucasus-1501-1747::p1', 'safavid-1501-1722::p1'],      // Ismail I and the founding of the Safavid state
+  ['caucasus-1501-1747::p3', 'safavid-1501-1722::p4'],      // Shah Abbas I
+  ['caucasus-1501-1747::c1', 'safavid-1501-1722::c1'],      // the battle of Chaldiran
+  ['caucasus-1501-1747::c3', 'safavid-1501-1722::c3'],      // Shah Abbas's reconquest from the Ottomans
+  ['caucasus-1501-1747::c6', 'safavid-1501-1722::l1'],      // the forced relocation of the Armenians
+  ['caucasus-1501-1747::c6', 'ottoman-anatolia-1500-1800::x2'],      // the Armenian caravans and merchants
+  ['caucasus-1501-1747::ec1', 'safavid-1501-1722::ec2'],      // the Armenian merchants of New Julfa
+  ['caucasus-1501-1747::b1', 'safavid-1501-1722::b1'],      // the conversion to Shiism
+  ['caucasus-1501-1747::o1', 'ottoman-anatolia-1500-1800::c5'],      // the treaty of Amasya and the later wars
+  ['caucasus-1501-1747::o2', 'iraq-1534-1831::c1'],      // four changes of hands and the treaty of Zuhab
+  ['caucasus-1501-1747::o2', 'iraq-1534-1831::xc1'],      // the Ottoman–Persian border
+  ['caucasus-1501-1747::c9', 'iran-1722-1789::p2'],      // Nader Shah
+  ['caucasus-1501-1747::c9', 'iran-1722-1789::c2'],      // the Ottoman wars of Nader
+  ['caucasus-1501-1747::x2', 'iran-1722-1789::x1'],      // Nader's diplomacy with Russia
+  ['caucasus-1501-1747::t2', 'safavid-1501-1722::t2'],      // Iskandar Beg Munshi and the historians of Abbas
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

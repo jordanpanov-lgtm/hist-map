@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 8912,
-    "folio_count": 185,
-    "xlink_pairs": 1859,
-    "keyword_terms": 13670,
+    "total_entries": 8955,
+    "folio_count": 186,
+    "xlink_pairs": 1874,
+    "keyword_terms": 13724,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -144,6 +144,11 @@
         "id": "caucasus-1243-1501",
         "title": "Mongol, Turkmen and Timurid Caucasus",
         "entries": 47
+      },
+      {
+        "id": "caucasus-1501-1747",
+        "title": "Safavid–Ottoman Caucasus",
+        "entries": 43
       },
       {
         "id": "caucasus-1850000bc-3500bc",
@@ -2402,6 +2407,49 @@
     "caucasus-1243-1501::l1": "Doquz Khatun and the Christians",
     "caucasus-1243-1501::l2": "The slaves of Caffa",
     "caucasus-1243-1501::l3": "The craftsmen of Samarkand",
+    "caucasus-1501-1747::p1": "Ismail I and the Safavid conquest",
+    "caucasus-1501-1747::p2": "The Ottoman Caucasus",
+    "caucasus-1501-1747::p3": "Shah Abbas I",
+    "caucasus-1501-1747::p4": "The Georgian kings under two empires",
+    "caucasus-1501-1747::p5": "Rostom Khan and the Muslim kings of Kartli",
+    "caucasus-1501-1747::p6": "Vakhtang VI",
+    "caucasus-1501-1747::p8": "Etchmiadzin and the catholicosate",
+    "caucasus-1501-1747::p7": "The meliks of Karabakh",
+    "caucasus-1501-1747::p9": "The Safavid khans of Shirvan, Ganja and Karabakh",
+    "caucasus-1501-1747::c1": "Chaldiran",
+    "caucasus-1501-1747::c2": "The war of 1578–1590",
+    "caucasus-1501-1747::c3": "Abbas's reconquest",
+    "caucasus-1501-1747::c6": "The Great Surgun of the Armenians",
+    "caucasus-1501-1747::c5": "Kakheti devastated",
+    "caucasus-1501-1747::c4": "Murad IV and Erivan",
+    "caucasus-1501-1747::c7": "David Bek's rising",
+    "caucasus-1501-1747::c8": "The Ottoman invasion of 1723",
+    "caucasus-1501-1747::c9": "Nader Shah's reconquest",
+    "caucasus-1501-1747::o1": "The treaty of Amasya",
+    "caucasus-1501-1747::o2": "The treaty of Zuhab",
+    "caucasus-1501-1747::o3": "The law code of Vakhtang VI",
+    "caucasus-1501-1747::o4": "The assembly of Mughan",
+    "caucasus-1501-1747::b1": "Safavid Shiism in the Caucasus",
+    "caucasus-1501-1747::b4": "The Catholic missions",
+    "caucasus-1501-1747::b3": "Queen Ketevan",
+    "caucasus-1501-1747::b2": "The Armenian Church and the New Julfa cathedral",
+    "caucasus-1501-1747::e3": "The Erivan fortress and the Sardar's palace",
+    "caucasus-1501-1747::e1": "Teimuraz I of Kakheti",
+    "caucasus-1501-1747::e2": "The painters of New Julfa",
+    "caucasus-1501-1747::t2": "Arakel of Tabriz",
+    "caucasus-1501-1747::t1": "Sulkhan-Saba Orbeliani",
+    "caucasus-1501-1747::t3": "The Armenian liberation movement",
+    "caucasus-1501-1747::ec2": "Baku's oil and salt",
+    "caucasus-1501-1747::ec3": "Georgian ghulams and the slave trade",
+    "caucasus-1501-1747::ec1": "The silk monopoly and the Julfa network",
+    "caucasus-1501-1747::g1": "The presses of Julfa and Tbilisi",
+    "caucasus-1501-1747::x1": "Georgia turns to Russia",
+    "caucasus-1501-1747::x2": "Peter I's Persian campaign",
+    "caucasus-1501-1747::w2": "The population loss of the Caucasus",
+    "caucasus-1501-1747::w1": "The Shamakhi earthquake",
+    "caucasus-1501-1747::l2": "The Julfa deportees",
+    "caucasus-1501-1747::l3": "Ketevan of Kakheti",
+    "caucasus-1501-1747::l1": "The Georgians of Fereydan",
     "caucasus-1850000bc-3500bc::p2": "Azokh and Azykh — a cave with a mandible",
     "caucasus-1850000bc-3500bc::p1": "Dmanisi — the earliest humans outside Africa",
     "caucasus-1850000bc-3500bc::p3": "Nor Geghi 1 — early Levallois technology",
@@ -12996,6 +13044,7 @@
     ],
     "safavid-1501-1722::p1": [
       "caucasus-1243-1501::c6",
+      "caucasus-1501-1747::p1",
       "ottoman-anatolia-1500-1800::p1",
       "ottoman-anatolia-1500-1800::b1"
     ],
@@ -13023,7 +13072,8 @@
       "safavid-1501-1722::l1"
     ],
     "safavid-1501-1722::l1": [
-      "caucasus-1243-1501::x3"
+      "caucasus-1243-1501::x3",
+      "caucasus-1501-1747::c6"
     ],
     "caucasus-1243-1501::x1": [
       "cilician-armenia-1080-1375::c5"
@@ -13053,6 +13103,100 @@
       "hormuz-1200-1507::w2",
       "iraq-1258-1534::k3",
       "mamluks-1250-1517::c7"
+    ],
+    "caucasus-1501-1747::p1": [
+      "safavid-1501-1722::p1"
+    ],
+    "caucasus-1501-1747::p3": [
+      "safavid-1501-1722::p4"
+    ],
+    "safavid-1501-1722::p4": [
+      "caucasus-1501-1747::p3",
+      "portuguese-gulf-1507-1650::k5",
+      "portuguese-gulf-1507-1650::w3"
+    ],
+    "caucasus-1501-1747::c1": [
+      "safavid-1501-1722::c1"
+    ],
+    "safavid-1501-1722::c1": [
+      "caucasus-1501-1747::c1",
+      "ottoman-anatolia-1500-1800::c2"
+    ],
+    "caucasus-1501-1747::c3": [
+      "safavid-1501-1722::c3"
+    ],
+    "safavid-1501-1722::c3": [
+      "caucasus-1501-1747::c3",
+      "ottoman-anatolia-1500-1800::c5",
+      "portuguese-gulf-1507-1650::k5",
+      "portuguese-gulf-1507-1650::w3"
+    ],
+    "caucasus-1501-1747::c6": [
+      "ottoman-anatolia-1500-1800::x2",
+      "safavid-1501-1722::l1"
+    ],
+    "ottoman-anatolia-1500-1800::x2": [
+      "caucasus-1501-1747::c6",
+      "portuguese-gulf-1507-1650::x3"
+    ],
+    "caucasus-1501-1747::c9": [
+      "iran-1722-1789::c2",
+      "iran-1722-1789::p2"
+    ],
+    "iran-1722-1789::c2": [
+      "caucasus-1501-1747::c9"
+    ],
+    "iran-1722-1789::p2": [
+      "caucasus-1501-1747::c9",
+      "oman-gulf-1650-1820::c2",
+      "oman-gulf-1650-1820::w2"
+    ],
+    "caucasus-1501-1747::o1": [
+      "ottoman-anatolia-1500-1800::c5"
+    ],
+    "ottoman-anatolia-1500-1800::c5": [
+      "caucasus-1501-1747::o1",
+      "iraq-1534-1831::c1",
+      "safavid-1501-1722::c3"
+    ],
+    "caucasus-1501-1747::o2": [
+      "iraq-1534-1831::c1",
+      "iraq-1534-1831::xc1"
+    ],
+    "iraq-1534-1831::c1": [
+      "caucasus-1501-1747::o2",
+      "egypt-1517-1798::c1",
+      "ottoman-anatolia-1500-1800::c5"
+    ],
+    "iraq-1534-1831::xc1": [
+      "caucasus-1501-1747::o2",
+      "ottoman-anatolia-1500-1800::x3"
+    ],
+    "caucasus-1501-1747::b1": [
+      "safavid-1501-1722::b1"
+    ],
+    "safavid-1501-1722::b1": [
+      "caucasus-1501-1747::b1"
+    ],
+    "caucasus-1501-1747::t2": [
+      "safavid-1501-1722::t2"
+    ],
+    "safavid-1501-1722::t2": [
+      "caucasus-1501-1747::t2",
+      "portuguese-gulf-1507-1650::k5",
+      "portuguese-gulf-1507-1650::w3"
+    ],
+    "caucasus-1501-1747::ec1": [
+      "safavid-1501-1722::ec2"
+    ],
+    "safavid-1501-1722::ec2": [
+      "caucasus-1501-1747::ec1"
+    ],
+    "caucasus-1501-1747::x2": [
+      "iran-1722-1789::x1"
+    ],
+    "iran-1722-1789::x1": [
+      "caucasus-1501-1747::x2"
     ],
     "caucasus-1850000bc-3500bc::b3": [
       "mesopotamia-6500bc-3800bc::b5"
@@ -13672,10 +13816,6 @@
       "mamluk-syria-1260-1516::p4",
       "mamluks-1250-1517::c11",
       "mamluks-1250-1517::c12"
-    ],
-    "iraq-1534-1831::c1": [
-      "egypt-1517-1798::c1",
-      "ottoman-anatolia-1500-1800::c5"
     ],
     "mamluk-syria-1260-1516::c4": [
       "egypt-1517-1798::c1",
@@ -15956,10 +16096,6 @@
     "ottoman-anatolia-1500-1800::c1": [
       "iran-1335-1501::b1"
     ],
-    "iran-1722-1789::p2": [
-      "oman-gulf-1650-1820::c2",
-      "oman-gulf-1650-1820::w2"
-    ],
     "oman-gulf-1650-1820::c2": [
       "iran-1722-1789::p2",
       "iran-1722-1789::c4",
@@ -16212,10 +16348,6 @@
     "iraq-1831-1914::k5": [
       "iraq-1534-1831::k8"
     ],
-    "ottoman-anatolia-1500-1800::c5": [
-      "iraq-1534-1831::c1",
-      "safavid-1501-1722::c3"
-    ],
     "iraq-1534-1831::c2": [
       "oman-gulf-1650-1820::c2"
     ],
@@ -16294,9 +16426,6 @@
     ],
     "iraq-1831-1914::e2": [
       "iraq-1534-1831::g3"
-    ],
-    "iraq-1534-1831::xc1": [
-      "ottoman-anatolia-1500-1800::x3"
     ],
     "iraq-1534-1831::xc2": [
       "iraq-1831-1914::xc2"
@@ -17953,14 +18082,6 @@
     "ottoman-anatolia-1500-1800::c2": [
       "safavid-1501-1722::c1"
     ],
-    "safavid-1501-1722::c1": [
-      "ottoman-anatolia-1500-1800::c2"
-    ],
-    "safavid-1501-1722::c3": [
-      "ottoman-anatolia-1500-1800::c5",
-      "portuguese-gulf-1507-1650::k5",
-      "portuguese-gulf-1507-1650::w3"
-    ],
     "ottoman-anatolia-1500-1800::b1": [
       "safavid-1501-1722::p1"
     ],
@@ -17972,9 +18093,6 @@
     ],
     "ottoman-syria-1516-1800::x1": [
       "ottoman-anatolia-1500-1800::x1"
-    ],
-    "ottoman-anatolia-1500-1800::x2": [
-      "portuguese-gulf-1507-1650::x3"
     ],
     "portuguese-gulf-1507-1650::x3": [
       "ottoman-anatolia-1500-1800::x2"
@@ -18070,14 +18188,6 @@
       "safavid-1501-1722::t2"
     ],
     "safavid-1501-1722::o2": [
-      "portuguese-gulf-1507-1650::k5",
-      "portuguese-gulf-1507-1650::w3"
-    ],
-    "safavid-1501-1722::p4": [
-      "portuguese-gulf-1507-1650::k5",
-      "portuguese-gulf-1507-1650::w3"
-    ],
-    "safavid-1501-1722::t2": [
       "portuguese-gulf-1507-1650::k5",
       "portuguese-gulf-1507-1650::w3"
     ],
@@ -27020,6 +27130,263 @@
     ],
     "caucasus-1243-1501::l3": [
       "Samarkand"
+    ],
+    "caucasus-1501-1747::p1": [
+      "Safavid",
+      "Tabriz",
+      "Shirvan",
+      "Ismail I",
+      "Azerbaijani Turkic",
+      "Twelver Shiism"
+    ],
+    "caucasus-1501-1747::p2": [
+      "Shamakhi",
+      "Erivan",
+      "Ottoman Caucasus",
+      "Lala Mustafa Pasha",
+      "Osman Pasha",
+      "Georgia Tbilisi"
+    ],
+    "caucasus-1501-1747::p3": [
+      "Safavid",
+      "Isfahan",
+      "Caucasus",
+      "Shah Abbas I",
+      "Allahverdi Khan",
+      "Imam Quli Khan"
+    ],
+    "caucasus-1501-1747::p4": [
+      "Bagrationi",
+      "Georgian",
+      "Kartli Tbilisi",
+      "Kakheti Telavi",
+      "Simon I of Kartli",
+      "Luarsab II"
+    ],
+    "caucasus-1501-1747::p5": [
+      "Tbilisi",
+      "Rostom Khan",
+      "Muslim",
+      "Kartli",
+      "Georgian Bagrationi",
+      "Shah Safi"
+    ],
+    "caucasus-1501-1747::p6": [
+      "Bagrationi",
+      "Tbilisi",
+      "Vakhtang VI"
+    ],
+    "caucasus-1501-1747::p8": [
+      "Vagharshapat",
+      "Etchmiadzin",
+      "Hakob IV"
+    ],
+    "caucasus-1501-1747::p7": [
+      "Meliks",
+      "Artsakh Karabakh",
+      "Syunik",
+      "Five Armenian"
+    ],
+    "caucasus-1501-1747::p9": [
+      "Safavid",
+      "Shamakhi",
+      "Ganja",
+      "Barda",
+      "Shirvan",
+      "Karabakh"
+    ],
+    "caucasus-1501-1747::c1": [
+      "Chaldiran",
+      "Selim I Ottoman",
+      "Ismail Qizilbash"
+    ],
+    "caucasus-1501-1747::c2": [
+      "Shirvan",
+      "Georgia",
+      "Azerbaijan"
+    ],
+    "caucasus-1501-1747::c3": [
+      "Erivan",
+      "Ganja",
+      "Tabriz",
+      "Shah Abbas"
+    ],
+    "caucasus-1501-1747::c6": [
+      "Julfa",
+      "Nakhchivan",
+      "Ararat",
+      "Surgun of the Armenians",
+      "Arakel of Tabriz"
+    ],
+    "caucasus-1501-1747::c5": [
+      "Kakheti",
+      "Teimuraz I",
+      "Shah Abbas"
+    ],
+    "caucasus-1501-1747::c4": [
+      "Erivan",
+      "Baghdad",
+      "Murad IV"
+    ],
+    "caucasus-1501-1747::c7": [
+      "Syunik",
+      "Kapan",
+      "David Bek",
+      "Mkhitar Sparapet"
+    ],
+    "caucasus-1501-1747::c8": [
+      "Tbilisi",
+      "Ganja",
+      "Ottoman",
+      "Ibrahim Pasha",
+      "Nader Shah"
+    ],
+    "caucasus-1501-1747::c9": [
+      "Armenia",
+      "Georgia",
+      "Shirvan",
+      "Nader Shah"
+    ],
+    "caucasus-1501-1747::o1": [
+      "Amasya",
+      "Georgia Imereti",
+      "Georgia Kartli"
+    ],
+    "caucasus-1501-1747::o2": [
+      "Qasr-i Shirin",
+      "Zuhab",
+      "Murad IV"
+    ],
+    "caucasus-1501-1747::o3": [
+      "Tbilisi",
+      "Vakhtang VI",
+      "Dasturlamali of Vakhtang",
+      "Giorgi V",
+      "Mkhitar Gosh"
+    ],
+    "caucasus-1501-1747::o4": [
+      "Mughan",
+      "Abraham of Crete"
+    ],
+    "caucasus-1501-1747::b1": [
+      "Azerbaijan",
+      "Karabakh",
+      "Safavid Shiism",
+      "Caucasus",
+      "Twelver Shiism",
+      "Sunnis of Shirvan"
+    ],
+    "caucasus-1501-1747::b4": [
+      "Tbilisi",
+      "Isfahan",
+      "Catholic",
+      "Sulkhan-Saba Orbeliani"
+    ],
+    "caucasus-1501-1747::b3": [
+      "Shiraz",
+      "Ketevan",
+      "Teimuraz I of Kakheti",
+      "Georgian Church"
+    ],
+    "caucasus-1501-1747::b2": [
+      "Julfa",
+      "Isfahan",
+      "Armenian Church",
+      "Cathedral of the Holy Saviour"
+    ],
+    "caucasus-1501-1747::e3": [
+      "Erivan",
+      "Sardar",
+      "Farhad Pasha",
+      "Blue Mosque"
+    ],
+    "caucasus-1501-1747::e1": [
+      "Imereti",
+      "Teimuraz I of Kakheti",
+      "Martyrdom of Queen Ketevan"
+    ],
+    "caucasus-1501-1747::e2": [
+      "Julfa",
+      "Hovhannes Mrkuz"
+    ],
+    "caucasus-1501-1747::t2": [
+      "Etchmiadzin",
+      "Isfahan",
+      "Arakel of Tabriz",
+      "Book of Histories"
+    ],
+    "caucasus-1501-1747::t1": [
+      "Tbilisi",
+      "Paris",
+      "Sulkhan-Saba Orbeliani",
+      "Wisdom of Lies Sibrdzne Sitsruisa",
+      "Louis XIV"
+    ],
+    "caucasus-1501-1747::t3": [
+      "Etchmiadzin",
+      "Syunik",
+      "Europe",
+      "Armenian",
+      "Hakob IV",
+      "Israel Ori"
+    ],
+    "caucasus-1501-1747::ec2": [
+      "Baku",
+      "Absheron",
+      "Engelbert Kaempfer"
+    ],
+    "caucasus-1501-1747::ec3": [
+      "Georgia",
+      "Isfahan",
+      "Istanbul",
+      "Georgian",
+      "Black Sea"
+    ],
+    "caucasus-1501-1747::ec1": [
+      "Julfa",
+      "Shah Abbas"
+    ],
+    "caucasus-1501-1747::g1": [
+      "Julfa",
+      "Tbilisi",
+      "Khachatur Kesaratsi",
+      "Vakhtang VI"
+    ],
+    "caucasus-1501-1747::x1": [
+      "Moscow",
+      "Georgia",
+      "Russia",
+      "Alexander II of Kakheti",
+      "Tsar Fyodor",
+      "Teimuraz I"
+    ],
+    "caucasus-1501-1747::x2": [
+      "Derbent",
+      "Baku",
+      "Peter I Persian",
+      "Peter the Great",
+      "Vakhtang VI",
+      "St Petersburg"
+    ],
+    "caucasus-1501-1747::w2": [
+      "Caucasus"
+    ],
+    "caucasus-1501-1747::w1": [
+      "Shamakhi"
+    ],
+    "caucasus-1501-1747::l2": [
+      "Isfahan",
+      "Arakel of Tabriz",
+      "Julfa Armenians"
+    ],
+    "caucasus-1501-1747::l3": [
+      "Shiraz",
+      "Ketevan of Kakheti"
+    ],
+    "caucasus-1501-1747::l1": [
+      "Iran",
+      "Georgians of Fereydan",
+      "Fereydani Georgians"
     ],
     "caucasus-1850000bc-3500bc::p2": [
       "Azokh Azykh Cave",
@@ -69647,6 +70014,7 @@
       "caucasus-1243-1501::x2",
       "caucasus-1243-1501::w1",
       "caucasus-1243-1501::w2",
+      "caucasus-1501-1747::ec3",
       "caucasus-3500bc-1200bc::p7",
       "caucasus-428-645::p10",
       "caucasus-428-645::ec2",
@@ -70446,6 +70814,7 @@
       "caucasus-1064-1243::e2",
       "caucasus-1243-1501::b4",
       "caucasus-1243-1501::x3",
+      "caucasus-1501-1747::t3",
       "caucasus-3500bc-1200bc::p8",
       "caucasus-3500bc-1200bc::c2",
       "caucasus-3500bc-1200bc::t1",
@@ -70510,6 +70879,7 @@
       "caucasus-1243-1501::o2",
       "caucasus-1243-1501::o1",
       "caucasus-1243-1501::t4",
+      "caucasus-1501-1747::c9",
       "caucasus-1850000bc-3500bc::p4",
       "caucasus-428-645::p1",
       "caucasus-428-645::p5",
@@ -70760,6 +71130,7 @@
     ],
     "Imereti": [
       "achaemenid-caucasus-585bc-330bc::b2",
+      "caucasus-1501-1747::e1",
       "caucasus-1850000bc-3500bc::p5",
       "caucasus-1850000bc-3500bc::p4",
       "caucasus-1850000bc-3500bc::p6",
@@ -70842,6 +71213,9 @@
       "caucasus-1-428::x2",
       "caucasus-1064-1243::c5",
       "caucasus-1243-1501::w1",
+      "caucasus-1501-1747::p3",
+      "caucasus-1501-1747::b1",
+      "caucasus-1501-1747::w2",
       "caucasus-1850000bc-3500bc::p6",
       "caucasus-1850000bc-3500bc::x2",
       "caucasus-3500bc-1200bc::x2",
@@ -71221,6 +71595,7 @@
     ],
     "Ismail I": [
       "al-andalus-1031-1492::k8",
+      "caucasus-1501-1747::p1",
       "iran-1335-1501::b1",
       "safavid-1501-1722::p1",
       "safavid-1501-1722::b1"
@@ -71895,6 +72270,7 @@
       "al-andalus-1031-1492::ex1",
       "anatolia-10000bc-3000bc::x3",
       "caliphate-945-1258::x6",
+      "caucasus-1501-1747::t3",
       "france-1610-1715::ex1",
       "france-1610-1715::w1",
       "france-1715-1789::c1",
@@ -73127,6 +73503,7 @@
       "al-andalus-711-1031::r3",
       "ayyubids-1171-1250::c8",
       "caliphate-750-945::b2",
+      "caucasus-1501-1747::p5",
       "caucasus-645-884::p2",
       "ghassanid-420-638::c5",
       "ghassanid-420-638::w3",
@@ -73261,6 +73638,7 @@
     "Paris": [
       "al-andalus-711-1031::a4",
       "anatolia-1908-1923::w1",
+      "caucasus-1501-1747::t1",
       "cilician-armenia-1080-1375::l3",
       "dedan-tayma-1200bc-300bc::ex3",
       "egypt-1798-1900::t1",
@@ -73494,6 +73872,7 @@
       "caliphate-945-1258::lv5",
       "caliphate-945-1258::lv6",
       "caucasus-1243-1501::p9",
+      "caucasus-1501-1747::c4",
       "eastern-arabia-750-1200::t3",
       "eastern-arabia-750-1200::x4",
       "eastern-arabia-750-1200::w1",
@@ -74374,6 +74753,7 @@
       "anatolian-beyliks-1308-1500::p11",
       "anatolian-beyliks-1308-1500::o2",
       "anatolian-beyliks-1308-1500::t1",
+      "caucasus-1501-1747::c8",
       "egypt-1517-1798::k1",
       "egypt-1517-1798::k2",
       "egypt-1517-1798::k4",
@@ -74453,6 +74833,7 @@
       "anatolia-1908-1923::w4",
       "anatolia-1908-1923::l1",
       "anatolia-1908-1923::l3",
+      "caucasus-1501-1747::ec3",
       "egypt-1517-1798::xc5",
       "hejaz-1517-1900::b4",
       "hejaz-1517-1900::x1",
@@ -75229,6 +75610,7 @@
     "Moscow": [
       "anatolia-1908-1923::x3",
       "anatolia-3000bc-2000bc::e1",
+      "caucasus-1501-1747::x1",
       "france-1789-1815::w1",
       "spain-1900-1975::k9"
     ],
@@ -76049,6 +76431,7 @@
     ],
     "Amasya": [
       "anatolian-beyliks-1308-1500::t3",
+      "caucasus-1501-1747::o1",
       "hellenistic-caucasus-330bc-1bc::t3",
       "ottoman-anatolia-1500-1800::p3",
       "ottoman-anatolia-1500-1800::p1",
@@ -81814,6 +82197,7 @@
       "caliphate-945-1258::x1",
       "caliphate-945-1258::x5",
       "caliphate-945-1258::lv4",
+      "caucasus-1501-1747::l1",
       "caucasus-3500bc-1200bc::x1",
       "fatimids-909-1171::x1",
       "hormuz-1200-1507::w1",
@@ -83870,6 +84254,10 @@
       "caucasus-1243-1501::o2",
       "caucasus-1243-1501::o1",
       "caucasus-1243-1501::t6",
+      "caucasus-1501-1747::c2",
+      "caucasus-1501-1747::c9",
+      "caucasus-1501-1747::ec3",
+      "caucasus-1501-1747::x1",
       "caucasus-3500bc-1200bc::p7",
       "caucasus-3500bc-1200bc::t2",
       "caucasus-428-645::g3",
@@ -84093,6 +84481,8 @@
       "caucasus-1064-1243::p8",
       "caucasus-1243-1501::p8",
       "caucasus-1243-1501::ec3",
+      "caucasus-1501-1747::c2",
+      "caucasus-1501-1747::b1",
       "caucasus-1850000bc-3500bc::b1",
       "caucasus-645-884::c5"
     ],
@@ -85249,6 +85639,8 @@
     ],
     "Twelver Shiism": [
       "caliphate-750-945::b5",
+      "caucasus-1501-1747::p1",
+      "caucasus-1501-1747::b1",
       "iran-1722-1789::c2",
       "iran-1722-1789::b1",
       "iran-821-1055::b1",
@@ -85597,6 +85989,8 @@
     "Shiraz": [
       "caliphate-945-1258::k7",
       "caliphate-945-1258::lv5",
+      "caucasus-1501-1747::b3",
+      "caucasus-1501-1747::l3",
       "hormuz-1200-1507::t3",
       "iran-1722-1789::p4",
       "iran-1722-1789::p5",
@@ -85650,6 +86044,12 @@
       "caliphate-945-1258::t4",
       "caliphate-945-1258::ec1",
       "caliphate-945-1258::lv5",
+      "caucasus-1501-1747::p3",
+      "caucasus-1501-1747::b4",
+      "caucasus-1501-1747::b2",
+      "caucasus-1501-1747::t2",
+      "caucasus-1501-1747::ec3",
+      "caucasus-1501-1747::l2",
       "iran-1055-1219::p2",
       "iran-1055-1219::p3",
       "iran-1055-1219::p4",
@@ -86520,6 +86920,7 @@
       "caucasus-1-428::e2",
       "caucasus-1-428::t1",
       "caucasus-1243-1501::b3",
+      "caucasus-1501-1747::p8",
       "caucasus-645-884::e1"
     ],
     "Sanatruk": [
@@ -86870,13 +87271,17 @@
     ],
     "Etchmiadzin": [
       "caucasus-1-428::e2",
-      "caucasus-1243-1501::b3"
+      "caucasus-1243-1501::b3",
+      "caucasus-1501-1747::p8",
+      "caucasus-1501-1747::t2",
+      "caucasus-1501-1747::t3"
     ],
     "Armenian Church": [
       "caucasus-1-428::e2",
       "caucasus-1-428::t2",
       "caucasus-1243-1501::o2",
       "caucasus-1243-1501::b3",
+      "caucasus-1501-1747::b2",
       "caucasus-428-645::c1",
       "caucasus-428-645::b1",
       "caucasus-645-884::b2",
@@ -86953,6 +87358,8 @@
       "caucasus-1243-1501::p4",
       "caucasus-1243-1501::p5",
       "caucasus-1243-1501::p6",
+      "caucasus-1501-1747::p4",
+      "caucasus-1501-1747::p6",
       "caucasus-884-1064::p7",
       "caucasus-884-1064::p8",
       "caucasus-884-1064::p9"
@@ -87003,6 +87410,13 @@
       "caucasus-1243-1501::p6",
       "caucasus-1243-1501::c2",
       "caucasus-1243-1501::o3",
+      "caucasus-1501-1747::p5",
+      "caucasus-1501-1747::p6",
+      "caucasus-1501-1747::c8",
+      "caucasus-1501-1747::o3",
+      "caucasus-1501-1747::b4",
+      "caucasus-1501-1747::t1",
+      "caucasus-1501-1747::g1",
       "caucasus-1850000bc-3500bc::t1",
       "caucasus-428-645::p6",
       "caucasus-428-645::p7",
@@ -87052,6 +87466,8 @@
       "caucasus-1064-1243::b3",
       "caucasus-1064-1243::ec2",
       "caucasus-1064-1243::ec1",
+      "caucasus-1501-1747::p4",
+      "caucasus-1501-1747::ec3",
       "caucasus-428-645::t1",
       "caucasus-884-1064::b3",
       "caucasus-884-1064::t4"
@@ -87065,7 +87481,8 @@
       "caucasus-1064-1243::e2"
     ],
     "Artsakh Karabakh": [
-      "caucasus-1064-1243::p7"
+      "caucasus-1064-1243::p7",
+      "caucasus-1501-1747::p7"
     ],
     "Armenian-speaking Christian": [
       "caucasus-1064-1243::p7"
@@ -87077,7 +87494,9 @@
       "caucasus-1064-1243::p9",
       "caucasus-1243-1501::p11",
       "caucasus-1243-1501::c6",
-      "caucasus-1243-1501::e3"
+      "caucasus-1243-1501::e3",
+      "caucasus-1501-1747::ec2",
+      "caucasus-1501-1747::x2"
     ],
     "Shirvanshahs of Shamakhi": [
       "caucasus-1064-1243::p9"
@@ -87098,6 +87517,7 @@
     ],
     "Nakhchivan": [
       "caucasus-1064-1243::p8",
+      "caucasus-1501-1747::c6",
       "caucasus-3500bc-1200bc::p3",
       "caucasus-645-884::c1"
     ],
@@ -87108,6 +87528,8 @@
       "caucasus-1243-1501::b1",
       "caucasus-1243-1501::ec1",
       "caucasus-1243-1501::x2",
+      "caucasus-1501-1747::p1",
+      "caucasus-1501-1747::c3",
       "hormuz-1200-1507::w4",
       "ilkhanate-1219-1335::p4",
       "ilkhanate-1219-1335::p5",
@@ -87168,6 +87590,9 @@
       "caucasus-1064-1243::c8",
       "caucasus-1064-1243::w1",
       "caucasus-1064-1243::l2",
+      "caucasus-1501-1747::p9",
+      "caucasus-1501-1747::c3",
+      "caucasus-1501-1747::c8",
       "caucasus-884-1064::p11"
     ],
     "Demetre I of Georgia": [
@@ -87188,6 +87613,7 @@
     ],
     "Derbent": [
       "caucasus-1064-1243::c5",
+      "caucasus-1501-1747::x2",
       "caucasus-428-645::g1",
       "caucasus-645-884::c4"
     ],
@@ -87224,7 +87650,8 @@
     "Mkhitar Gosh": [
       "caucasus-1064-1243::o3",
       "caucasus-1064-1243::e2",
-      "caucasus-1064-1243::t4"
+      "caucasus-1064-1243::t4",
+      "caucasus-1501-1747::o3"
     ],
     "Monastery of the Cross": [
       "caucasus-1064-1243::b3"
@@ -87254,6 +87681,7 @@
     "Georgian Church": [
       "caucasus-1064-1243::b2",
       "caucasus-1243-1501::p2",
+      "caucasus-1501-1747::b3",
       "caucasus-428-645::p6"
     ],
     "Chalcedonian Armenian": [
@@ -87294,7 +87722,10 @@
     "Shamakhi": [
       "caucasus-1064-1243::t3",
       "caucasus-1243-1501::p11",
-      "caucasus-1243-1501::t5"
+      "caucasus-1243-1501::t5",
+      "caucasus-1501-1747::p2",
+      "caucasus-1501-1747::p9",
+      "caucasus-1501-1747::w1"
     ],
     "Khaqani of Shirvan": [
       "caucasus-1064-1243::t3"
@@ -87334,6 +87765,7 @@
     ],
     "Kartli": [
       "caucasus-1064-1243::x1",
+      "caucasus-1501-1747::p5",
       "hellenistic-caucasus-330bc-1bc::o4"
     ],
     "Kipchaks": [
@@ -87434,6 +87866,9 @@
     "Syunik": [
       "caucasus-1243-1501::p7",
       "caucasus-1243-1501::b2",
+      "caucasus-1501-1747::p7",
+      "caucasus-1501-1747::c7",
+      "caucasus-1501-1747::t3",
       "caucasus-1850000bc-3500bc::e1",
       "caucasus-3500bc-1200bc::ec1",
       "caucasus-884-1064::p6"
@@ -87443,7 +87878,8 @@
     ],
     "Mughan": [
       "caucasus-1243-1501::p8",
-      "caucasus-1243-1501::g1"
+      "caucasus-1243-1501::g1",
+      "caucasus-1501-1747::o4"
     ],
     "Ilkhanids": [
       "caucasus-1243-1501::p8"
@@ -87504,6 +87940,10 @@
     "Shirvan": [
       "caucasus-1243-1501::c1",
       "caucasus-1243-1501::c6",
+      "caucasus-1501-1747::p1",
+      "caucasus-1501-1747::p9",
+      "caucasus-1501-1747::c2",
+      "caucasus-1501-1747::c9",
       "caucasus-645-884::p10"
     ],
     "Terek": [
@@ -87676,7 +88116,8 @@
       "caucasus-1243-1501::t5"
     ],
     "Azerbaijani Turkic": [
-      "caucasus-1243-1501::t5"
+      "caucasus-1243-1501::t5",
+      "caucasus-1501-1747::p1"
     ],
     "Arabic the Hurufi": [
       "caucasus-1243-1501::t5"
@@ -87747,7 +88188,8 @@
       "caucasus-1243-1501::x2"
     ],
     "Giorgi V": [
-      "caucasus-1243-1501::w1"
+      "caucasus-1243-1501::w1",
+      "caucasus-1501-1747::o3"
     ],
     "Doquz Khatun": [
       "caucasus-1243-1501::l1",
@@ -87769,14 +88211,350 @@
     "Genoese Caffa": [
       "caucasus-1243-1501::l2"
     ],
-    "Azokh Azykh Cave": [
-      "caucasus-1850000bc-3500bc::p2"
+    "Safavid": [
+      "caucasus-1501-1747::p1",
+      "caucasus-1501-1747::p3",
+      "caucasus-1501-1747::p9",
+      "hormuz-1200-1507::w4",
+      "iraq-1258-1534::k6",
+      "iraq-1258-1534::c5",
+      "iraq-1258-1534::e5",
+      "iraq-1534-1831::k2",
+      "ottoman-anatolia-1500-1800::x3",
+      "portuguese-gulf-1507-1650::k5",
+      "portuguese-gulf-1507-1650::c4",
+      "portuguese-gulf-1507-1650::c5",
+      "portuguese-gulf-1507-1650::e4",
+      "portuguese-gulf-1507-1650::ec1",
+      "portuguese-gulf-1507-1650::w3",
+      "safavid-1501-1722::p1",
+      "safavid-1501-1722::p2",
+      "safavid-1501-1722::p4",
+      "safavid-1501-1722::p5"
+    ],
+    "Erivan": [
+      "caucasus-1501-1747::p2",
+      "caucasus-1501-1747::c3",
+      "caucasus-1501-1747::c4",
+      "caucasus-1501-1747::e3"
+    ],
+    "Ottoman Caucasus": [
+      "caucasus-1501-1747::p2"
+    ],
+    "Lala Mustafa Pasha": [
+      "caucasus-1501-1747::p2"
+    ],
+    "Osman Pasha": [
+      "caucasus-1501-1747::p2"
+    ],
+    "Georgia Tbilisi": [
+      "caucasus-1501-1747::p2"
+    ],
+    "Shah Abbas I": [
+      "caucasus-1501-1747::p3",
+      "portuguese-gulf-1507-1650::k5",
+      "portuguese-gulf-1507-1650::w3",
+      "safavid-1501-1722::p4",
+      "safavid-1501-1722::c6",
+      "safavid-1501-1722::c7",
+      "safavid-1501-1722::b3"
+    ],
+    "Allahverdi Khan": [
+      "caucasus-1501-1747::p3",
+      "safavid-1501-1722::e3"
+    ],
+    "Imam Quli Khan": [
+      "caucasus-1501-1747::p3"
+    ],
+    "Kartli Tbilisi": [
+      "caucasus-1501-1747::p4"
+    ],
+    "Kakheti Telavi": [
+      "caucasus-1501-1747::p4"
+    ],
+    "Simon I of Kartli": [
+      "caucasus-1501-1747::p4"
+    ],
+    "Luarsab II": [
+      "caucasus-1501-1747::p4"
+    ],
+    "Rostom Khan": [
+      "caucasus-1501-1747::p5"
+    ],
+    "Georgian Bagrationi": [
+      "caucasus-1501-1747::p5",
+      "caucasus-645-884::p7"
+    ],
+    "Shah Safi": [
+      "caucasus-1501-1747::p5"
+    ],
+    "Vakhtang VI": [
+      "caucasus-1501-1747::p6",
+      "caucasus-1501-1747::o3",
+      "caucasus-1501-1747::g1",
+      "caucasus-1501-1747::x2"
+    ],
+    "Hakob IV": [
+      "caucasus-1501-1747::p8",
+      "caucasus-1501-1747::t3"
+    ],
+    "Meliks": [
+      "caucasus-1501-1747::p7"
+    ],
+    "Five Armenian": [
+      "caucasus-1501-1747::p7"
+    ],
+    "Barda": [
+      "caucasus-1501-1747::p9",
+      "caucasus-884-1064::ec2",
+      "sassanid-224-484::lv4"
     ],
     "Karabakh": [
+      "caucasus-1501-1747::p9",
+      "caucasus-1501-1747::b1",
       "caucasus-1850000bc-3500bc::p2",
       "caucasus-1850000bc-3500bc::p9",
       "caucasus-884-1064::b4",
       "urartu-colchis-1200bc-585bc::p11"
+    ],
+    "Chaldiran": [
+      "caucasus-1501-1747::c1",
+      "safavid-1501-1722::p2",
+      "safavid-1501-1722::c1",
+      "safavid-1501-1722::tc1",
+      "safavid-1501-1722::w1"
+    ],
+    "Selim I Ottoman": [
+      "caucasus-1501-1747::c1"
+    ],
+    "Ismail Qizilbash": [
+      "caucasus-1501-1747::c1",
+      "safavid-1501-1722::c1"
+    ],
+    "Shah Abbas": [
+      "caucasus-1501-1747::c3",
+      "caucasus-1501-1747::c5",
+      "caucasus-1501-1747::ec1",
+      "iraq-1534-1831::k2",
+      "portuguese-gulf-1507-1650::c4",
+      "portuguese-gulf-1507-1650::e4",
+      "portuguese-gulf-1507-1650::ec1",
+      "portuguese-gulf-1507-1650::x1",
+      "safavid-1501-1722::p3",
+      "safavid-1501-1722::o2",
+      "safavid-1501-1722::o1",
+      "safavid-1501-1722::e3",
+      "safavid-1501-1722::e1",
+      "safavid-1501-1722::ec1",
+      "safavid-1501-1722::ec2",
+      "safavid-1501-1722::tc1",
+      "safavid-1501-1722::tc2",
+      "safavid-1501-1722::x1",
+      "safavid-1501-1722::l1"
+    ],
+    "Julfa": [
+      "caucasus-1501-1747::c6",
+      "caucasus-1501-1747::b2",
+      "caucasus-1501-1747::e2",
+      "caucasus-1501-1747::ec1",
+      "caucasus-1501-1747::g1"
+    ],
+    "Ararat": [
+      "caucasus-1501-1747::c6",
+      "caucasus-3500bc-1200bc::p6",
+      "urartu-colchis-1200bc-585bc::o3",
+      "urartu-colchis-1200bc-585bc::ec1"
+    ],
+    "Surgun of the Armenians": [
+      "caucasus-1501-1747::c6"
+    ],
+    "Arakel of Tabriz": [
+      "caucasus-1501-1747::c6",
+      "caucasus-1501-1747::t2",
+      "caucasus-1501-1747::l2"
+    ],
+    "Kakheti": [
+      "caucasus-1501-1747::c5",
+      "caucasus-884-1064::ec3"
+    ],
+    "Teimuraz I": [
+      "caucasus-1501-1747::c5",
+      "caucasus-1501-1747::x1"
+    ],
+    "Murad IV": [
+      "caucasus-1501-1747::c4",
+      "caucasus-1501-1747::o2",
+      "hejaz-1517-1900::ex1",
+      "iraq-1534-1831::c1",
+      "ottoman-anatolia-1500-1800::c5"
+    ],
+    "Kapan": [
+      "caucasus-1501-1747::c7"
+    ],
+    "David Bek": [
+      "caucasus-1501-1747::c7"
+    ],
+    "Mkhitar Sparapet": [
+      "caucasus-1501-1747::c7"
+    ],
+    "Ibrahim Pasha": [
+      "caucasus-1501-1747::c8",
+      "egypt-1517-1798::k3",
+      "egypt-1517-1798::c2",
+      "egypt-1798-1900::k3",
+      "ottoman-anatolia-1800-1908::c1",
+      "ottoman-syria-1800-1908::c1"
+    ],
+    "Nader Shah": [
+      "caucasus-1501-1747::c8",
+      "caucasus-1501-1747::c9",
+      "iran-1722-1789::p2",
+      "oman-gulf-1650-1820::c2",
+      "oman-gulf-1650-1820::w2"
+    ],
+    "Georgia Imereti": [
+      "caucasus-1501-1747::o1"
+    ],
+    "Georgia Kartli": [
+      "caucasus-1501-1747::o1"
+    ],
+    "Qasr-i Shirin": [
+      "caucasus-1501-1747::o2"
+    ],
+    "Zuhab": [
+      "caucasus-1501-1747::o2",
+      "iraq-1534-1831::c1",
+      "ottoman-anatolia-1500-1800::c5"
+    ],
+    "Dasturlamali of Vakhtang": [
+      "caucasus-1501-1747::o3"
+    ],
+    "Abraham of Crete": [
+      "caucasus-1501-1747::o4"
+    ],
+    "Safavid Shiism": [
+      "caucasus-1501-1747::b1"
+    ],
+    "Sunnis of Shirvan": [
+      "caucasus-1501-1747::b1"
+    ],
+    "Catholic": [
+      "caucasus-1501-1747::b4",
+      "france-1494-1610::r3",
+      "france-1815-1900::r2",
+      "ottoman-anatolia-1800-1908::b2",
+      "spain-1808-1900::t4",
+      "spain-1900-1975::lv5"
+    ],
+    "Sulkhan-Saba Orbeliani": [
+      "caucasus-1501-1747::b4",
+      "caucasus-1501-1747::t1"
+    ],
+    "Ketevan": [
+      "caucasus-1501-1747::b3"
+    ],
+    "Teimuraz I of Kakheti": [
+      "caucasus-1501-1747::b3",
+      "caucasus-1501-1747::e1"
+    ],
+    "Cathedral of the Holy Saviour": [
+      "caucasus-1501-1747::b2"
+    ],
+    "Sardar": [
+      "caucasus-1501-1747::e3"
+    ],
+    "Farhad Pasha": [
+      "caucasus-1501-1747::e3"
+    ],
+    "Blue Mosque": [
+      "caucasus-1501-1747::e3"
+    ],
+    "Martyrdom of Queen Ketevan": [
+      "caucasus-1501-1747::e1"
+    ],
+    "Hovhannes Mrkuz": [
+      "caucasus-1501-1747::e2"
+    ],
+    "Book of Histories": [
+      "caucasus-1501-1747::t2"
+    ],
+    "Wisdom of Lies Sibrdzne Sitsruisa": [
+      "caucasus-1501-1747::t1"
+    ],
+    "Louis XIV": [
+      "caucasus-1501-1747::t1",
+      "france-1610-1715::k3",
+      "france-1610-1715::k4",
+      "france-1610-1715::k6",
+      "france-1610-1715::c2",
+      "france-1610-1715::c5",
+      "france-1610-1715::c4",
+      "france-1610-1715::o2",
+      "france-1610-1715::r1",
+      "france-1610-1715::r2",
+      "france-1610-1715::a2",
+      "france-1610-1715::a1",
+      "france-1610-1715::a4",
+      "france-1610-1715::a3",
+      "france-1610-1715::t5",
+      "france-1610-1715::t3",
+      "france-1610-1715::s2",
+      "france-1610-1715::ex2",
+      "france-1610-1715::ex1",
+      "france-1610-1715::w2",
+      "spain-1516-1700::c14",
+      "spain-1700-1808::k1"
+    ],
+    "Israel Ori": [
+      "caucasus-1501-1747::t3"
+    ],
+    "Absheron": [
+      "caucasus-1501-1747::ec2"
+    ],
+    "Engelbert Kaempfer": [
+      "caucasus-1501-1747::ec2"
+    ],
+    "Khachatur Kesaratsi": [
+      "caucasus-1501-1747::g1"
+    ],
+    "Russia": [
+      "caucasus-1501-1747::x1",
+      "iran-1722-1789::x1",
+      "uae-1971-today::x4"
+    ],
+    "Alexander II of Kakheti": [
+      "caucasus-1501-1747::x1"
+    ],
+    "Tsar Fyodor": [
+      "caucasus-1501-1747::x1"
+    ],
+    "Peter I Persian": [
+      "caucasus-1501-1747::x2"
+    ],
+    "Peter the Great": [
+      "caucasus-1501-1747::x2"
+    ],
+    "St Petersburg": [
+      "caucasus-1501-1747::x2",
+      "france-1715-1789::w2",
+      "france-1815-1900::w3",
+      "nabataean-312bc-106ce::o3",
+      "palmyrene-100bc-273ce::o1"
+    ],
+    "Julfa Armenians": [
+      "caucasus-1501-1747::l2"
+    ],
+    "Ketevan of Kakheti": [
+      "caucasus-1501-1747::l3"
+    ],
+    "Georgians of Fereydan": [
+      "caucasus-1501-1747::l1"
+    ],
+    "Fereydani Georgians": [
+      "caucasus-1501-1747::l1"
+    ],
+    "Azokh Azykh Cave": [
+      "caucasus-1850000bc-3500bc::p2"
     ],
     "Lower Palaeolithic": [
       "caucasus-1850000bc-3500bc::p2"
@@ -88021,11 +88799,6 @@
       "caucasus-3500bc-1200bc::e3",
       "hellenistic-caucasus-330bc-1bc::o1",
       "urartu-colchis-1200bc-585bc::p5"
-    ],
-    "Ararat": [
-      "caucasus-3500bc-1200bc::p6",
-      "urartu-colchis-1200bc-585bc::o3",
-      "urartu-colchis-1200bc-585bc::ec1"
     ],
     "Lchashen–Metsamor": [
       "caucasus-3500bc-1200bc::p6"
@@ -88572,9 +89345,6 @@
     "Ashot I Kuropalates": [
       "caucasus-645-884::p7"
     ],
-    "Georgian Bagrationi": [
-      "caucasus-645-884::p7"
-    ],
     "Mihranid": [
       "caucasus-645-884::p9"
     ],
@@ -88959,15 +89729,8 @@
     "Giorgi the Athonite": [
       "caucasus-884-1064::t3"
     ],
-    "Barda": [
-      "caucasus-884-1064::ec2",
-      "sassanid-224-484::lv4"
-    ],
     "Ibn Hawqal": [
       "caucasus-884-1064::ec2"
-    ],
-    "Kakheti": [
-      "caucasus-884-1064::ec3"
     ],
     "Trdat": [
       "caucasus-884-1064::g2"
@@ -91384,13 +92147,6 @@
     "Ahmad Pasha": [
       "egypt-1517-1798::k3",
       "iraq-1534-1831::k4"
-    ],
-    "Ibrahim Pasha": [
-      "egypt-1517-1798::k3",
-      "egypt-1517-1798::c2",
-      "egypt-1798-1900::k3",
-      "ottoman-anatolia-1800-1908::c1",
-      "ottoman-syria-1800-1908::c1"
     ],
     "Qanunname-i Misir": [
       "egypt-1517-1798::k3"
@@ -98457,13 +99213,6 @@
       "france-1494-1610::r3",
       "spain-1516-1700::r1"
     ],
-    "Catholic": [
-      "france-1494-1610::r3",
-      "france-1815-1900::r2",
-      "ottoman-anatolia-1800-1908::b2",
-      "spain-1808-1900::t4",
-      "spain-1900-1975::lv5"
-    ],
     "Visconti": [
       "france-1494-1610::r2"
     ],
@@ -98934,29 +99683,6 @@
     "Fronde": [
       "france-1610-1715::k3",
       "france-1610-1715::c2"
-    ],
-    "Louis XIV": [
-      "france-1610-1715::k3",
-      "france-1610-1715::k4",
-      "france-1610-1715::k6",
-      "france-1610-1715::c2",
-      "france-1610-1715::c5",
-      "france-1610-1715::c4",
-      "france-1610-1715::o2",
-      "france-1610-1715::r1",
-      "france-1610-1715::r2",
-      "france-1610-1715::a2",
-      "france-1610-1715::a1",
-      "france-1610-1715::a4",
-      "france-1610-1715::a3",
-      "france-1610-1715::t5",
-      "france-1610-1715::t3",
-      "france-1610-1715::s2",
-      "france-1610-1715::ex2",
-      "france-1610-1715::ex1",
-      "france-1610-1715::w2",
-      "spain-1516-1700::c14",
-      "spain-1700-1808::k1"
     ],
     "Versailles": [
       "france-1610-1715::k4",
@@ -99585,12 +100311,6 @@
     ],
     "Austria Treaty of Versailles": [
       "france-1715-1789::w1"
-    ],
-    "St Petersburg": [
-      "france-1715-1789::w2",
-      "france-1815-1900::w3",
-      "nabataean-312bc-106ce::o3",
-      "palmyrene-100bc-273ce::o1"
     ],
     "Vienna": [
       "france-1715-1789::w2",
@@ -101428,11 +102148,6 @@
     ],
     "Ottoman Kaʿba": [
       "hejaz-1517-1900::ex1"
-    ],
-    "Murad IV": [
-      "hejaz-1517-1900::ex1",
-      "iraq-1534-1831::c1",
-      "ottoman-anatolia-1500-1800::c5"
     ],
     "Jeddah al-Balad": [
       "hejaz-1517-1900::ex2"
@@ -104390,24 +105105,6 @@
       "iran-1335-1501::x1",
       "mamluks-1250-1517::x6"
     ],
-    "Safavid": [
-      "hormuz-1200-1507::w4",
-      "iraq-1258-1534::k6",
-      "iraq-1258-1534::c5",
-      "iraq-1258-1534::e5",
-      "iraq-1534-1831::k2",
-      "ottoman-anatolia-1500-1800::x3",
-      "portuguese-gulf-1507-1650::k5",
-      "portuguese-gulf-1507-1650::c4",
-      "portuguese-gulf-1507-1650::c5",
-      "portuguese-gulf-1507-1650::e4",
-      "portuguese-gulf-1507-1650::ec1",
-      "portuguese-gulf-1507-1650::w3",
-      "safavid-1501-1722::p1",
-      "safavid-1501-1722::p2",
-      "safavid-1501-1722::p4",
-      "safavid-1501-1722::p5"
-    ],
     "Safavids": [
       "hormuz-1200-1507::w4",
       "safavid-1501-1722::p5",
@@ -105301,11 +105998,6 @@
       "oman-gulf-1650-1820::c2",
       "oman-gulf-1650-1820::w2"
     ],
-    "Nader Shah": [
-      "iran-1722-1789::p2",
-      "oman-gulf-1650-1820::c2",
-      "oman-gulf-1650-1820::w2"
-    ],
     "Napoleon of Persia": [
       "iran-1722-1789::p2"
     ],
@@ -105448,10 +106140,6 @@
     ],
     "Nader Diplomacy": [
       "iran-1722-1789::x1"
-    ],
-    "Russia": [
-      "iran-1722-1789::x1",
-      "uae-1971-today::x4"
     ],
     "Bushehr": [
       "iran-1722-1789::x2",
@@ -106752,24 +107440,6 @@
     "Mehmed bin Süleyman": [
       "iraq-1258-1534::l4"
     ],
-    "Shah Abbas": [
-      "iraq-1534-1831::k2",
-      "portuguese-gulf-1507-1650::c4",
-      "portuguese-gulf-1507-1650::e4",
-      "portuguese-gulf-1507-1650::ec1",
-      "portuguese-gulf-1507-1650::x1",
-      "safavid-1501-1722::p3",
-      "safavid-1501-1722::o2",
-      "safavid-1501-1722::o1",
-      "safavid-1501-1722::e3",
-      "safavid-1501-1722::e1",
-      "safavid-1501-1722::ec1",
-      "safavid-1501-1722::ec2",
-      "safavid-1501-1722::tc1",
-      "safavid-1501-1722::tc2",
-      "safavid-1501-1722::x1",
-      "safavid-1501-1722::l1"
-    ],
     "Sultan Murad IV": [
       "iraq-1534-1831::k2"
     ],
@@ -106831,10 +107501,6 @@
     ],
     "Most of Iraq": [
       "iraq-1534-1831::k8"
-    ],
-    "Zuhab": [
-      "iraq-1534-1831::c1",
-      "ottoman-anatolia-1500-1800::c5"
     ],
     "Samarra Sāmarrā": [
       "iraq-1534-1831::c2",
@@ -116534,14 +117200,6 @@
       "portuguese-gulf-1507-1650::lv4",
       "safavid-1501-1722::x2"
     ],
-    "Shah Abbas I": [
-      "portuguese-gulf-1507-1650::k5",
-      "portuguese-gulf-1507-1650::w3",
-      "safavid-1501-1722::p4",
-      "safavid-1501-1722::c6",
-      "safavid-1501-1722::c7",
-      "safavid-1501-1722::b3"
-    ],
     "Nasir bin Murshid al-Ya'rubi": [
       "portuguese-gulf-1507-1650::k6"
     ],
@@ -118870,12 +119528,6 @@
     "Consolidation": [
       "safavid-1501-1722::p2"
     ],
-    "Chaldiran": [
-      "safavid-1501-1722::p2",
-      "safavid-1501-1722::c1",
-      "safavid-1501-1722::tc1",
-      "safavid-1501-1722::w1"
-    ],
     "Interregnum Crisis": [
       "safavid-1501-1722::p3"
     ],
@@ -118903,9 +119555,6 @@
     ],
     "Shaybanid Uzbeks of Transoxiana": [
       "safavid-1501-1722::c5"
-    ],
-    "Ismail Qizilbash": [
-      "safavid-1501-1722::c1"
     ],
     "Recurring Wars": [
       "safavid-1501-1722::c2"
@@ -118971,9 +119620,6 @@
       "safavid-1501-1722::e2"
     ],
     "Si-o-se-pol Bridge": [
-      "safavid-1501-1722::e3"
-    ],
-    "Allahverdi Khan": [
       "safavid-1501-1722::e3"
     ],
     "Safavid-era Isfahan": [
