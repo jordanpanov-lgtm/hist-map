@@ -1573,6 +1573,20 @@ const SELECTED_PAIRS = [
   ['late-roman-anatolia-330-632::p6', 'roman-byzantine-levant-135-638::p5'],      // Justinian's building and legal legacy
   ['late-roman-anatolia-330-632::t5', 'ghassanid-420-638::t2'],      // John of Ephesus
   ['late-roman-anatolia-330-632::x1', 'sassanid-484-651::k5'],      // Khosrow I and the silk trade
+  ['byzantine-anatolia-632-867::c2', 'caliphate-632-750::c8'],      // the first siege of Constantinople
+  ['byzantine-anatolia-632-867::c2', 'levant-634-750::c3'],      // the sieges of Constantinople
+  ['byzantine-anatolia-632-867::c4', 'caliphate-632-750::c9'],      // the second siege of Constantinople
+  ['byzantine-anatolia-632-867::c4', 'levant-634-750::c3'],      // the sieges of Constantinople
+  ['byzantine-anatolia-632-867::c4', 'caliphate-632-750::w3'],      // the limits fixed at Constantinople
+  ['byzantine-anatolia-632-867::c8', 'caliphate-750-945::c4'],      // Harun's raids and the sack of Amorion
+  ['byzantine-anatolia-632-867::c8', 'caliphate-750-945::k6'],      // al-Mu'tasim
+  ['byzantine-anatolia-632-867::c7', 'caliphate-750-945::k3'],      // Harun al-Rashid
+  ['byzantine-anatolia-632-867::x2', 'caliphate-750-945::t1'],      // the Translation Movement
+  ['byzantine-anatolia-632-867::x2', 'caliphate-750-945::k5'],      // al-Ma'mun
+  ['byzantine-anatolia-632-867::x4', 'caliphate-750-945::ec5'],      // the Rus trade
+  ['byzantine-anatolia-632-867::p6', 'iraq-632-945::k7'],      // al-Mu'tasim, the Turks and Samarra
+  ['byzantine-anatolia-632-867::g1', 'sassanid-484-651::c4'],      // the siege of Constantinople and the defences of the city
+  ['byzantine-anatolia-632-867::x5', 'late-roman-anatolia-330-632::b7'],      // holy men and monasteries of Bithynia
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
