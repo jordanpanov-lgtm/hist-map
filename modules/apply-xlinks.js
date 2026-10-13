@@ -1930,6 +1930,26 @@ const SELECTED_PAIRS = [
   ['caucasus-1953-1991::p1', 'caucasus-1921-1953::p2'],      // Beria and his successors in Georgia
   ['caucasus-1953-1991::p2', 'caucasus-1921-1953::p3'],      // Baghirov and Aliyev
   ['caucasus-1953-1991::ec1', 'caucasus-1921-1953::ec1'],      // Baku oil from the war to the offshore fields
+  ['armenia-1991-today::o1', 'caucasus-1953-1991::o3'],      // the independence acts of 1991 and the referendum
+  ['armenia-1991-today::o1', 'caucasus-1917-1921::p3'],      // the first republic of 1918 and the independence of 1991
+  ['armenia-1991-today::p1', 'caucasus-1953-1991::p5'],      // the presidents elected in 1991
+  ['armenia-1991-today::c1', 'caucasus-1953-1991::o4'],      // the Karabakh republic of 1991 and the war that followed
+  ['armenia-1991-today::c1', 'caucasus-1917-1921::c7'],      // the conflict over Karabakh and Zangezur in 1918–1920 and the war of the 1990s
+  ['armenia-1991-today::w3', 'caucasus-1953-1991::w2'],      // the refugees of 1988–1991 and the later displacement
+  ['armenia-1991-today::te1', 'caucasus-1953-1991::ec3'],      // the Metsamor plant closed in 1989 and restarted in 1995
+  ['armenia-1991-today::w1', 'caucasus-1953-1991::g1'],      // the Arpa–Sevan tunnel and the lake restoration
+  ['armenia-1991-today::ec1', 'caucasus-1953-1991::w1'],      // the destruction of the earthquake and the blockade years
+  ['armenia-1991-today::ec2', 'caucasus-1953-1991::ec2'],      // the second economy of the Soviet years and the privatisation
+  ['armenia-1991-today::b1', 'caucasus-1953-1991::b1'],      // the church of Vazgen I and the anniversary of 2001
+  ['armenia-1991-today::x6', 'caucasus-1953-1991::x1'],      // the diaspora’s aid of 1988 and the later fund and citizenship
+  ['armenia-1991-today::x4', 'caucasus-1917-1921::o4'],      // the border drawn at Kars in 1921 and closed in 1993
+  ['armenia-1991-today::x4', 'turkey-1980-today::l3'],      // the Armenian community in Turkey and the closed border
+  ['armenia-1991-today::x4', 'turkey-1980-today::w2'],      // the earthquake aid across the border in 2023
+  ['armenia-1991-today::t1', 'anatolia-1908-1923::c7'],      // the killings of 1915 and the campaign for recognition
+  ['armenia-1991-today::t1', 'turkey-1980-today::t2'],      // the debate on the Armenian question in Turkey and in Armenia
+  ['armenia-1991-today::b2', 'anatolia-1908-1923::c8'],      // the arrests of 24 April 1915 and the canonisation of 2015
+  ['armenia-1991-today::c8', 'turkey-1980-today::g2'],      // Turkish drones in the war of 2020
+  ['armenia-1991-today::x7', 'caucasus-1917-1921::c7'],      // Zangezur in 1920 and the transit route through Syunik
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

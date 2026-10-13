@@ -249,5 +249,6 @@ const MODULES = [
   { id:"caucasus-1917-1921", file:"modules/caucasus-1917-1921.json", label:"The Three Republics 1917–1921", sub:"The Transcaucasian Federation, Three Independences, the Wars between Neighbours and Sovietisation", region:"Caucasus", period:"Modern" },
   { id:"caucasus-1921-1953", file:"modules/caucasus-1921-1953.json", label:"Soviet Caucasus 1921–1953", sub:"The Transcaucasian Federation, Autonomies and Borders, the Terror, the War and the Deportations", region:"Caucasus", period:"Modern" },
   { id:"caucasus-1953-1991", file:"modules/caucasus-1953-1991.json", label:"Soviet Caucasus 1953–1991", sub:"The Thaw, Stagnation and the Republics' National Movements, Karabakh, the Earthquake and Independence", region:"Caucasus", period:"Modern" },
+  { id:"armenia-1991-today", file:"modules/armenia-1991-today.json", label:"Armenia 1991–today", sub:"Independence, the Karabakh War, the Blockade Years, the Velvet Revolution, the Wars of 2020 and 2023, and the Peace Process", region:"Caucasus", period:"Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
