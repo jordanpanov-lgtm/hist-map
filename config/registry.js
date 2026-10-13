@@ -215,5 +215,6 @@ const MODULES = [
   { id:"phrygia-1200bc-675bc", file:"modules/phrygia-1200bc-675bc.json", label:"Phrygia and Iron Age Anatolia 1200–675 BC", sub:"Gordion, Midas and the Kingdoms between the Hittites and Lydia", region:"Turkey", period:"Ancient" },
   { id:"ionia-1050bc-494bc", file:"modules/ionia-1050bc-494bc.json", label:"Greek Ionia 1050–494 BC", sub:"Miletus, Ephesus and the First Philosophers, from the Ionian Migration to the Revolt", region:"Turkey", period:"Ancient" },
   { id:"lydia-685bc-546bc", file:"modules/lydia-685bc-546bc.json", label:"Lydia 685–546 BC", sub:"Sardis, the Mermnad Kings, the First Coins and the Fall of Croesus", region:"Turkey", period:"Ancient" },
+  { id:"persian-anatolia-546bc-334bc", file:"modules/persian-anatolia-546bc-334bc.json", label:"Persian Anatolia 546–334 BC", sub:"Satrapies, the Greek Cities, the Hecatomnids and the Lycian Dynasts", region:"Turkey", period:"Ancient" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

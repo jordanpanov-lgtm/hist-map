@@ -1514,6 +1514,20 @@ const SELECTED_PAIRS = [
   ['lydia-685bc-546bc::x3', 'egypt-664bc-332bc::k5'],      // Amasis and the Lydian alliance
   ['lydia-685bc-546bc::x1', 'assyria-911bc-609bc::k9'],      // Ashurbanipal receives the envoys of Gyges
   ['lydia-685bc-546bc::x1', 'egypt-664bc-332bc::k1'],      // Gyges's troops to Psamtik I
+  ['persian-anatolia-546bc-334bc::c2', 'achaemenid-550bc-330bc::c3'],      // the Ionian Revolt in Caria
+  ['persian-anatolia-546bc-334bc::c3', 'achaemenid-550bc-330bc::c4'],      // the Greco-Persian wars: Salamis and Artemisia
+  ['persian-anatolia-546bc-334bc::x2', 'achaemenid-550bc-330bc::c6'],      // the subsidy of Sparta
+  ['persian-anatolia-546bc-334bc::c5', 'achaemenid-550bc-330bc::c7'],      // Cunaxa and the Ten Thousand
+  ['persian-anatolia-546bc-334bc::p1', 'achaemenid-550bc-330bc::o1'],      // the satrapy system
+  ['persian-anatolia-546bc-334bc::o1', 'achaemenid-550bc-330bc::o2'],      // the fixed tribute assessment
+  ['persian-anatolia-546bc-334bc::o2', 'achaemenid-550bc-330bc::tc1'],      // the Royal Road
+  ['persian-anatolia-546bc-334bc::t1', 'achaemenid-550bc-330bc::t2'],      // Herodotus of Halicarnassus
+  ['persian-anatolia-546bc-334bc::c8', 'achaemenid-550bc-330bc::c8'],      // Alexander's conquest of the empire: the Granicus
+  ['persian-anatolia-546bc-334bc::c1', 'ionia-1050bc-494bc::c4'],      // Harpagus conquers the Ionian cities and Lycia
+  ['persian-anatolia-546bc-334bc::o1', 'ionia-1050bc-494bc::o4'],      // the first tribute district
+  ['persian-anatolia-546bc-334bc::p1', 'lydia-685bc-546bc::w3'],      // Sardis after the Mermnads
+  ['persian-anatolia-546bc-334bc::t4', 'ionia-1050bc-494bc::c6'],      // Hippodamus replans Miletus after its sack
+  ['persian-anatolia-546bc-334bc::l1', 'ionia-1050bc-494bc::c5'],      // Ionian and Carian forces in the Persian wars
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
