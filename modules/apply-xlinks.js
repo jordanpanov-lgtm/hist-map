@@ -1878,6 +1878,14 @@ const SELECTED_PAIRS = [
   ['caucasus-1501-1747::c9', 'iran-1722-1789::c2'],      // the Ottoman wars of Nader
   ['caucasus-1501-1747::x2', 'iran-1722-1789::x1'],      // Nader's diplomacy with Russia
   ['caucasus-1501-1747::t2', 'safavid-1501-1722::t2'],      // Iskandar Beg Munshi and the historians of Abbas
+  ['caucasus-1747-1828::c2', 'qajar-1789-1925::p1'],      // Agha Mohammad Khan and the sack of Tbilisi
+  ['caucasus-1747-1828::c3', 'qajar-1789-1925::p1'],      // Agha Mohammad Khan at Shusha
+  ['caucasus-1747-1828::c4', 'qajar-1789-1925::c2'],      // the Russo-Persian wars
+  ['caucasus-1747-1828::c5', 'qajar-1789-1925::c2'],      // the Russo-Persian wars
+  ['caucasus-1747-1828::o3', 'qajar-1789-1925::p2'],      // Fath-Ali Shah and the loss of the Caucasus
+  ['caucasus-1747-1828::o4', 'qajar-1789-1925::p2'],      // the treaty of Turkmenchay
+  ['caucasus-1747-1828::p1', 'iran-1722-1789::p2'],      // Nader Shah and the Georgian kings
+  ['caucasus-1747-1828::ec2', 'ottoman-anatolia-1800-1908::x4'],      // Armenian migration and emigration in the nineteenth century
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

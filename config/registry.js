@@ -243,5 +243,6 @@ const MODULES = [
   { id:"caucasus-1064-1243", file:"modules/caucasus-1064-1243.json", label:"Seljuks and the Georgian Golden Age AD 1064–1243", sub:"The Great Turkish Invasion, David the Builder, Queen Tamar, Zakarid Armenia, Nizami and the Mongol Arrival", region:"Caucasus", period:"Medieval" },
   { id:"caucasus-1243-1501", file:"modules/caucasus-1243-1501.json", label:"Mongol, Turkmen and Timurid Caucasus AD 1243–1501", sub:"Tumens and Census, Timur's Campaigns, the Break-up of Georgia and the Eve of the Safavids", region:"Caucasus", period:"Medieval" },
   { id:"caucasus-1501-1747", file:"modules/caucasus-1501-1747.json", label:"Safavid–Ottoman Caucasus 1501–1747", sub:"Amasya and Zuhab, Shah Abbas's Deportations, Kartli and Kakheti, the Meliks of Karabakh and the Armenian Merchants", region:"Caucasus", period:"Early Modern" },
+  { id:"caucasus-1747-1828", file:"modules/caucasus-1747-1828.json", label:"Khanates and the Russian Conquest 1747–1828", sub:"Erekle II and Georgievsk, the Khanates of the Kura and Araxes, Gulistan and Turkmenchay", region:"Caucasus", period:"Early Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
