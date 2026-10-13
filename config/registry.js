@@ -238,5 +238,6 @@ const MODULES = [
   { id:"hellenistic-caucasus-330bc-1bc", file:"modules/hellenistic-caucasus-330bc-1bc.json", label:"Hellenistic Caucasus 330–1 BC", sub:"Orontids and Artaxiads, Tigranes the Great, Pharnavazid Iberia and the Roman Arrival", region:"Caucasus", period:"Late Antique" },
   { id:"caucasus-1-428", file:"modules/caucasus-1-428.json", label:"Arsacid Armenia, Iberia and Albania AD 1–428", sub:"The Contested Throne of Armenia, the Conversions, Mesrop's Alphabet and the Partition of 387", region:"Caucasus", period:"Late Antique" },
   { id:"caucasus-428-645", file:"modules/caucasus-428-645.json", label:"The Caucasus between Byzantium and Persia AD 428–645", sub:"The Marzbans, Avarayr, the Lazic War, the Georgian Alphabet and the First Arab Raids", region:"Caucasus", period:"Late Antique" },
+  { id:"caucasus-645-884", file:"modules/caucasus-645-884.json", label:"Arab Caucasus AD 645–884", sub:"Arminiya, the Princes of Armenia, the Emirate of Tbilisi, Abkhazia and the Return of the Bagratids", region:"Caucasus", period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

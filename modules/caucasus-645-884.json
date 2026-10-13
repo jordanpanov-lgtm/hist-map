@@ -1,0 +1,949 @@
+{
+  "id": "caucasus-645-884",
+  "title": "Arab Caucasus",
+  "subtitle": "AD 645–884 · Arminiya, the Princes of Armenia, the Emirate of Tbilisi, Abkhazia and the Return of the Bagratids",
+  "period": {
+    "start": 645,
+    "end": 884
+  },
+  "region": "Caucasus",
+  "period_label": "Medieval",
+  "mapCenter": [
+    41,
+    44.5
+  ],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "The caliphal province of Arminiya and its governors, the princes of Armenia, the emirate at Tbilisi, the Abkhaz kings and the Bagratid ascent in Tao",
+      "entries": [
+        {
+          "id": "p1",
+          "group": "Arab Arminiya",
+          "dynasty": "Caliphate",
+          "label": "The province of Arminiya",
+          "date": "c. 652–884",
+          "loc": "Dvin",
+          "coords": [
+            40.1,
+            44.52
+          ],
+          "hint": "After the treaty of 652 the Arab caliphate organised Armenia, Iberia and Albania as a single province, Arminiya, with its seat at Dvin and later at Partaw (Barda'a) and the Armenian lands under an ostikan, a governor appointed from Damascus and then Baghdad and Samarra. The Arab rulers collected tribute and left the princes in place.",
+          "tag": "OCCUPATION",
+          "note": "Sebeos, History 52–56; Ghewond, History; Hugh Kennedy, The Early Abbasid Caliphate (1981); Robert Hewsen, Armenia: A Historical Atlas (2001).",
+          "keywords": ["Caliphate","Dvin","Arminiya","Partaw Barda'a"]
+        },
+        {
+          "id": "p2",
+          "group": "Arab Arminiya",
+          "dynasty": "Abbasid",
+          "label": "The Abbasid governors and Muslim emirs",
+          "date": "750–884",
+          "loc": "Dvin and Partaw",
+          "coords": [
+            40.1,
+            44.52
+          ],
+          "hint": "Under the Abbasids Arminiya was held by governors from the caliph's circle, among them Yazid ibn Mazyad and the Turkish general Bugha the Elder, and by Arab families established in the east: the Qaysites in Manzikert and Khlat, the Shaybanids in Shirvan and, from about 890, the Sajids in Azerbaijan. Their power receded when the caliphate weakened in the ninth century.",
+          "tag": "APPOINTED",
+          "note": "Al-Baladhuri, Futuh al-buldan; Al-Tabari, Annals; Ghewond; Hewsen 2001.",
+          "keywords": ["Abbasid","Dvin","Partaw","Muslim","Abbasids Arminiya","Yazid ibn Mazyad"],
+          "xlinks": ["caliphate-750-945::k6"]
+        },
+        {
+          "id": "p3",
+          "group": "The Princes of Armenia",
+          "dynasty": "Rshtuni",
+          "label": "Theodoros Rshtuni and Hamazasp Mamikonian",
+          "date": "c. 645–c. 685",
+          "loc": "Vaspurakan and Dvin",
+          "coords": [
+            38.5,
+            43.4
+          ],
+          "hint": "Theodoros Rshtuni, prince of Vaspurakan, became commander of the Armenian forces and in 652 treated with the Arab governor Habib ibn Maslama, while Hamazasp Mamikonian looked to Byzantium; the Armenians were divided between Arab and Byzantine alliances, a division which lasted for centuries. The Rshtuni, Mamikonian and Bagratuni were the great princely houses.",
+          "tag": "APPOINTED",
+          "note": "Sebeos 49–56; Ghewond 1–4; Nina Garsoïan in R. Hovannisian (ed.), The Armenian People, vol. 1 (1997).",
+          "keywords": ["Vaspurakan","Dvin","Theodoros Rshtuni","Hamazasp Mamikonian","Habib ibn Maslama"]
+        },
+        {
+          "id": "p4",
+          "group": "The Princes of Armenia",
+          "dynasty": "Bagratuni",
+          "label": "Ashot Msaker and the Bagratunis",
+          "date": "c. 780–826",
+          "loc": "Shirak and Taron",
+          "coords": [
+            40.8,
+            43.8
+          ],
+          "hint": "Ashot the Carnivorous (Msaker), prince of princes from about 806, was the first of the Bagratuni house to rise to dominance: with estates in Shirak and Taron and the support of the Abbasid governor he restored the house's fortunes after the revolts of the 770s, and handed on his office to his descendants. His grandson Ashot I would take the crown.",
+          "tag": "SUCCESSION",
+          "note": "Ghewond; Thomas Artsruni, History of the House of Artsrunik; Hewsen 2001.",
+          "keywords": ["Bagratuni","Shirak","Taron","Ashot Msaker","Bagratunis","Ashot the Carnivorous Msaker"]
+        },
+        {
+          "id": "p5",
+          "group": "The Princes of Armenia",
+          "dynasty": "Bagratuni",
+          "label": "Ashot I, prince of princes",
+          "date": "c. 861–884",
+          "loc": "Bagaran and Shirak",
+          "coords": [
+            40.6,
+            43.9
+          ],
+          "hint": "Ashot Bagratuni, son of Smbat the Confessor, was confirmed as prince of princes by the caliph in 862 after a revolt against his rivals and the decline of Abbasid power under the Turkish guards. He was acknowledged by the caliph as 'king of Armenia' in 884, a title also recognised by the Byzantines, and founded the Bagratid kingdom.",
+          "tag": "SUCCESSION",
+          "note": "Thomas Artsruni 3.1; John Draskhanakertsi, History of Armenia 16–17; Garsoïan 1997.",
+          "keywords": ["Bagaran","Shirak","Ashot I","Ashot Bagratuni","Smbat the Confessor"]
+        },
+        {
+          "id": "p6",
+          "group": "Iberia and Abkhazia",
+          "dynasty": "Arab",
+          "label": "The emirate of Tbilisi",
+          "date": "737–1122",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "After Marwan II devastated Kartli in 735–737 the Arab governors established an emirate at Tbilisi, a small Muslim city-state on the Kura which dominated the plain of eastern Georgia and paid tribute to the caliph. Georgian princes ruled the country around it from the uplands.",
+          "tag": "OCCUPATION",
+          "note": "Kartlis Tskhovreba (Life of the Kings, The Martyrdom of Abo); Toumanoff, Studies in Christian Caucasian History (1963).",
+          "keywords": ["Tbilisi","Marwan II"]
+        },
+        {
+          "id": "p8",
+          "group": "Iberia and Abkhazia",
+          "dynasty": "Anchabadze",
+          "label": "The kingdom of Abkhazia",
+          "date": "c. 780–950",
+          "loc": "Kutaisi",
+          "coords": [
+            42.27,
+            42.7
+          ],
+          "hint": "In the west the Byzantine-appointed prince of Abkhazia, Leon II, threw off Byzantine control in the 780s, took the title of king and, from his capital at Kutaisi, brought the Egrisi (Lazic) and western Georgian lands under his sceptre. The kingdom's rulers, Leon II and his successors, spread Georgian as a church language and held the coast until the tenth century.",
+          "tag": "SUCCESSION",
+          "note": "Kartlis Tskhovreba, 'Life of Leon II'; Rapp 2003; Toumanoff 1963.",
+          "keywords": ["Anchabadze","Kutaisi","Abkhazia","Leon II","Egrisi Lazic"]
+        },
+        {
+          "id": "p7",
+          "group": "Iberia and Abkhazia",
+          "dynasty": "Bagrationi",
+          "label": "Ashot I Kuropalates",
+          "date": "c. 786–826",
+          "loc": "Tao-Klarjeti",
+          "coords": [
+            41,
+            42.5
+          ],
+          "hint": "Ashot, of the Georgian Bagrationi house, driven out of Kartli by the Arabs, was given the title of kouropalates by Byzantium and became ruler of the south-western uplands of Tao-Klarjeti; he established the Bagrationi dynasty as rulers of Iberia, took Artanuji as his seat in 813, and Georgian churches and monasteries sprang up in his lands.",
+          "tag": "SUCCESSION",
+          "note": "Kartlis Tskhovreba, 'Life of Ashot Kuropalates'; Rapp, Georgian Christian Identity (2003).",
+          "keywords": ["Tao-Klarjeti","Ashot I Kuropalates","Georgian Bagrationi"]
+        },
+        {
+          "id": "p9",
+          "group": "Albania and Shirvan",
+          "dynasty": "Mihranid",
+          "label": "Javanshir and the Mihranids",
+          "date": "c. 645–680",
+          "loc": "Partaw",
+          "coords": [
+            40.7,
+            47
+          ],
+          "hint": "Javanshir, prince of Albania from the Mihranid line, ruled for forty years as a dexterous client of Byzantium, the Khazars and the caliphs, travelling to Damascus and to Constantinople, until he was assassinated in 680; after him the Albanian principality was split and Arab governors took over its plain.",
+          "tag": "SUCCESSION",
+          "note": "Movses Kaghankatvatsi, History of the Albanians 2.18–3.23; Hewsen 2001.",
+          "keywords": ["Mihranid","Partaw","Javanshir","Mihranids"]
+        },
+        {
+          "id": "p10",
+          "group": "Albania and Shirvan",
+          "dynasty": "Mazyadid",
+          "label": "The Shirvanshahs",
+          "date": "c. 861–884",
+          "loc": "Shamakhi and Shirvan",
+          "coords": [
+            40.63,
+            48.64
+          ],
+          "hint": "The title Shirvanshah is held by Haytham ibn Khalid of the Arab family of Yazid ibn Mazyad from 861, ruling between the Kura and the Caspian from Yazidiya (Shamakhi), a line which in various forms lasted until the sixteenth century. The new dynasty was one of the local kingdoms that appeared with the Abbasid weakening.",
+          "tag": "SUCCESSION",
+          "note": "Al-Baladhuri; Al-Masudi, Murudj al-dhahab; Vladimir Minorsky, A History of Sharvan and Darband (1958).",
+          "keywords": ["Mazyadid","Shirvan","Shirvanshahs","Haytham ibn Khalid of the Arab","Yazid ibn Mazyad","Yazidiya Shamakhi"]
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "The Armenian risings of 703–705, 774–775 and 850–855, the Khazar wars and the revolt of Babak",
+      "entries": [
+        {
+          "id": "c4",
+          "group": "Khazars and Khurramites",
+          "label": "The Arab–Khazar wars",
+          "date": "650–737",
+          "loc": "Derbent and Ardabil",
+          "coords": [
+            41,
+            47.5
+          ],
+          "hint": "For a century the caliphate and the Khazar khaganate fought along the Caspian gates: the Arabs took Derbent in 642, the Khazars raided Armenia and Azerbaijan, and in 730 defeated the Arab army at Ardabil and killed its commander al-Jarrah al-Hakami; Marwan II's campaign of 737, in which he reached the Khazar capital, broke their power for a generation. The campaigns passed through the territories of Albania and Iberia.",
+          "tag": "WAR",
+          "note": "Al-Tabari; Al-Baladhuri; Douglas Dunlop, The History of the Jewish Khazars (1954); Peter Golden, Khazar Studies (1980).",
+          "keywords": ["Derbent","Ardabil","Arab–Khazar","al-Jarrah al-Hakami","Marwan II"]
+        },
+        {
+          "id": "c1",
+          "group": "Armenian Risings",
+          "label": "The rebellion of 703–705",
+          "date": "703–705",
+          "loc": "Nakhchivan and Khram",
+          "coords": [
+            39.2,
+            45.4
+          ],
+          "hint": "Armenian nobles refused to pay the heavy tax of 'Abd al-Malik's governors and rose in 703; the caliphate's general Muhammad ibn Marwan put the revolt down and, according to Ghewond, had the nobles who had taken refuge in the churches of Nakhchivan and Khram burnt in 705. The event passed into memory as a massacre of the Armenian aristocracy.",
+          "tag": "REVOLT",
+          "note": "Ghewond, History 14; Hewsen 2001.",
+          "keywords": ["Nakhchivan","Khram","Abd al-Malik","Muhammad ibn Marwan"]
+        },
+        {
+          "id": "c2",
+          "group": "Armenian Risings",
+          "label": "The revolt of 774–775",
+          "date": "774–775",
+          "loc": "Armenia",
+          "coords": [
+            40,
+            43.8
+          ],
+          "hint": "Under the caliph al-Mahdi, a rising of the Armenian princes, led by the Mamikonians with the Kamsarakans, against the tax and the settlement of Arab colonists, ended at the battle of Bagrevand in 775 with the destruction of the Mamikonian and other houses; many families fled to Byzantium. The Mamikonian dynasty never recovered.",
+          "tag": "REVOLT",
+          "note": "Ghewond 36–37; Hewsen 2001.",
+          "keywords": ["Armenia"]
+        },
+        {
+          "id": "c5",
+          "group": "Khazars and Khurramites",
+          "label": "Babak's revolt",
+          "date": "816–837",
+          "loc": "Bazz, Azerbaijan",
+          "coords": [
+            38.8,
+            47
+          ],
+          "hint": "Babak Khorramdin, leader of a Khurramite movement, held the mountains of Azerbaijan (in Iran, beyond the zone of this folio) against the Abbasid armies for two decades and raided the plain of Arran, until the caliph's general Afshin took his fortress of Bazz in 837 and he was executed at Samarra in 838. The revolt was one of the great rebellions of the caliphate.",
+          "tag": "REVOLT",
+          "note": "Al-Tabari 3.1224–1236; Minorsky, 'Babak' in Encyclopaedia of Islam.",
+          "keywords": ["Bazz","Azerbaijan","Babak Khorramdin"],
+          "xlinks": ["caliphate-750-945::c3"]
+        },
+        {
+          "id": "c3",
+          "group": "Armenian Risings",
+          "label": "Bugha and the princes of Armenia",
+          "date": "850–855",
+          "loc": "Armenia",
+          "coords": [
+            40,
+            43.8
+          ],
+          "hint": "When the Armenian princes of Taron (Bagrat Bagratuni) and others killed the Arab governor, the Abbasid commander Bugha al-Kabir marched into Armenia in 851 with a Turkish army, defeated the rebels, took Bagrat to Samarra and carried a great number of nobles into captivity in 852–855. Thomas Artsruni gives a detailed record.",
+          "tag": "CRACKDOWN",
+          "note": "Thomas Artsruni 2.3–4; Al-Tabari 3.1424–1457; Hewsen 2001.",
+          "keywords": ["Armenia","Taron Bagrat Bagratuni","Bugha al-Kabir","Thomas Artsruni"],
+          "xlinks": ["caliphate-750-945::e1"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "The treaty of Theodoros Rshtuni, the Arab census and tax, and the role of the ostikan",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Settlement and Taxation",
+          "label": "The treaty of Rshtuni",
+          "date": "c. 652",
+          "loc": "Dvin",
+          "coords": [
+            40.1,
+            44.52
+          ],
+          "hint": "Theodoros Rshtuni concluded with Habib ibn Maslama, the caliph's general, a pact by which Armenia accepted Arab suzerainty and was exempted from tribute for three years and then to pay a fixed sum, while Arab troops would not be quartered in the country and Armenia would supply 15,000 horsemen on request. The Armenians took it as the founding contract of the period.",
+          "tag": "TREATY",
+          "note": "Sebeos 52–56; Ghewond; Al-Baladhuri, Futuh 199–205.",
+          "keywords": ["Dvin","Theodoros Rshtuni","Habib ibn Maslama"]
+        },
+        {
+          "id": "o2",
+          "group": "Settlement and Taxation",
+          "label": "The census and the tax",
+          "date": "c. 700–750",
+          "loc": "Armenia",
+          "coords": [
+            40.1,
+            44.52
+          ],
+          "hint": "In the early eighth century the Arab governors made a survey of men and land to fix the poll and land taxes; Ghewond relates that people were marked or sealed with lead tags to show payment, and that the nobles were required to submit rolls of their retainers. The census made Armenian peasants and nobles pay directly.",
+          "tag": "LAW",
+          "note": "Ghewond 14–16; Hewsen 2001.",
+          "keywords": ["Armenia"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "The Council of Manazkert, the Tondrakians, the martyrs of Tbilisi and the Georgian monastic revival",
+      "entries": [
+        {
+          "id": "b2",
+          "group": "Church and Heresy",
+          "label": "The Paulicians and the Tondrakians",
+          "date": "c. 650–870",
+          "loc": "Armenian highlands and Pontus",
+          "coords": [
+            39.9,
+            41.3
+          ],
+          "hint": "A dualist movement of the Paulicians, with a base in Armenia and later on the Byzantine frontier, rejected the sacraments, church hierarchy and images; its leaders suffered persecution by the Armenian Church, and in the ninth century the Tondrakians of Smbat of Zarehavan took up similar beliefs. Our sources are hostile accounts by their opponents.",
+          "tag": "MOVEMENT",
+          "note": "John of Odzun, Against the Paulicians; Nina Garsoïan, The Paulician Heresy (1967).",
+          "keywords": ["Pontus","Paulicians","Armenian Church","Tondrakians of Smbat of Zarehavan"]
+        },
+        {
+          "id": "b1",
+          "group": "Church and Heresy",
+          "label": "The council of Manazkert",
+          "date": "726",
+          "loc": "Manazkert",
+          "coords": [
+            39.15,
+            42.54
+          ],
+          "hint": "The Catholicos John of Odzun held in 726 a council at Manazkert which confirmed the Armenian Church's rejection of Chalcedon, condemned the Julianists of Syria and the Syriac Church's practices, and regulated the clergy; the council was attended by delegates of the Syrian miaphysites. It became a model of Armenian canon law.",
+          "tag": "COUNCIL",
+          "note": "Book of Letters; John of Odzun, Canons; Garsoïan 1997.",
+          "keywords": ["Manazkert","Catholicos John of Odzun","Armenian Church","Julianists of Syria","Syriac Church"]
+        },
+        {
+          "id": "b3",
+          "group": "Martyrs and Monks",
+          "label": "Abo of Tbilisi",
+          "date": "786",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Abo, a perfumer born into a Muslim family at Baghdad who had come to the Georgian lands in the entourage of a prince and converted to Christianity, was put to death in Tbilisi in 786 by the emir for apostasy; his life, written by Ioane Sabanisdze soon after, is the first work of original Georgian hagiography and is the first martyrdom under Arab rule.",
+          "tag": "PERSECUTION",
+          "note": "Ioane Sabanisdze, The Martyrdom of Abo of Tbilisi (786); Rapp 2003.",
+          "keywords": ["Abo of Tbilisi","Ioane Sabanisdze"]
+        },
+        {
+          "id": "b4",
+          "group": "Martyrs and Monks",
+          "label": "Grigol Khandzteli and the monasteries of Tao-Klarjeti",
+          "date": "c. 830–861",
+          "loc": "Khandzta, Tao-Klarjeti",
+          "coords": [
+            41,
+            42.5
+          ],
+          "hint": "Grigol (Gregory) of Khandzta, born about 759 and a monk in the Georgian highlands, founded with his disciples a group of monasteries, among them Khandzta, Shatberdi and Opiza, which became centres of Georgian literary and religious life, copying and translating books in the safety of Bagratid lands. His Life was written in 951 by Giorgi Merchule.",
+          "tag": "MOVEMENT",
+          "note": "Giorgi Merchule, The Life of Grigol Khandzteli (951); Rapp 2003.",
+          "keywords": ["Tao-Klarjeti","Grigol Khandzteli","Grigol Gregory of Khandzta","Giorgi Merchule"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "Zvartnots, the Gospels of Queen Mlke and Adish, and the churches of Armenia under the caliphs",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Architecture",
+          "label": "Zvartnots",
+          "date": "645–661",
+          "loc": "Vagharshapat",
+          "coords": [
+            40.16,
+            44.35
+          ],
+          "hint": "The Catholicos Nerses III 'the Builder' began in 641 at Vagharshapat the cathedral of Zvartnots, 'of the vigilant angels', a round three-storey church with a quatrefoil plan and tall central dome, which was ruined by an earthquake in the tenth century and rediscovered in 1900; UNESCO lists its ruins with Etchmiadzin. It is the most original church of early Armenian architecture.",
+          "tag": "MONUMENT",
+          "note": "Sebeos; Stepanos Asoghik; UNESCO World Heritage no. 1011 (2000); Sirarpie Der Nersessian, Armenian Art (1977).",
+          "keywords": ["Vagharshapat","Zvartnots","Catholicos Nerses III the Builder"]
+        },
+        {
+          "id": "e2",
+          "group": "Architecture",
+          "label": "The churches of Armenia under the caliphs",
+          "date": "c. 650–880",
+          "loc": "Armenia",
+          "coords": [
+            40.5,
+            44
+          ],
+          "hint": "Church building continued under the princes: the cathedral of Talin, Aruch, Odzun, Aghitu and the small churches of Bagratid Shirak; the Arab period is marked by a plain hall-church and cruciform style with fine masonry, and in the ninth century by a revival under Ashot I.",
+          "tag": "MONUMENT",
+          "note": "Der Nersessian 1977; Garsoïan 1997.",
+          "keywords": ["Armenia","Bagratid Shirak","Ashot I"]
+        },
+        {
+          "id": "e3",
+          "group": "Manuscripts",
+          "label": "The Gospel of Queen Mlke",
+          "date": "862",
+          "loc": "Vaspurakan",
+          "coords": [
+            38.5,
+            43.4
+          ],
+          "hint": "The Gospel copied for Queen Mlke of Vaspurakan in 862 and now held in Venice is the oldest dated illuminated Armenian manuscript, with portraits of the evangelists and canon tables; the Lazarian Gospel of 887 and the Adish Gospels of 897, a Georgian codex from Svaneti, show comparable work in the same decades.",
+          "tag": "OBJECT",
+          "note": "Mlke Gospel, Mekhitarist Library, San Lazzaro, Venice; Adish Gospels (897), Mestia museum.",
+          "keywords": ["Gospel of Queen Mlke","Mlke of Vaspurakan","Lazarian Gospel","Adish Gospels"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "Anania Shirakatsi, Sebeos and Ghewond, and Georgian hagiography",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "Science and Learning",
+          "label": "Anania Shirakatsi",
+          "date": "c. 645–685",
+          "loc": "Shirak and Dvin",
+          "coords": [
+            40.8,
+            43.8
+          ],
+          "hint": "Anania of Shirak, trained at Trebizond under Tychikos, was a mathematician, astronomer and geographer who wrote the oldest surviving Armenian arithmetic with its tables, a cosmography, a work on the calendar and the 'Ashkharhatsuyts' or Geography of Armenia, in the manner of Ptolemy; some assign the geography to a later author.",
+          "tag": "TEXT",
+          "note": "Anania Shirakatsi, Aritmetica; Ashkharhatsuyts (ed. Hewsen, The Geography of Ananias of Širak, 1992).",
+          "keywords": ["Dvin","Anania Shirakatsi","Anania of Shirak","Geography of Armenia"]
+        },
+        {
+          "id": "t2",
+          "group": "History and Hagiography",
+          "label": "Sebeos and Ghewond",
+          "date": "c. 661–790",
+          "loc": "Armenia",
+          "coords": [
+            40.1,
+            44.52
+          ],
+          "hint": "The bishop Sebeos wrote about 661 a History of Heraclius to the early years of Arab rule, with a record of the Sasanian and Arab conquests, and the priest Ghewond about 790 wrote of the caliphate's wars and its rule over Armenia, giving the text of an exchange of letters between the caliph Umar II and the emperor Leo III. They are the main sources for Arab Armenia.",
+          "tag": "TEXT",
+          "note": "Sebeos, History (trans. R. Thomson, 1999); Ghewond, History (trans. Z. Arzoumanian, 1982).",
+          "keywords": ["Armenia","Sebeos","Ghewond","History of Heraclius","Umar II","Leo III"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "The tax of Arminiya, the cochineal red and the markets of Dvin and Tbilisi",
+      "entries": [
+        {
+          "id": "ec2",
+          "group": "Trade & Commerce",
+          "label": "The Armenian red and the markets of Dvin",
+          "date": "c. 700–880",
+          "loc": "Dvin",
+          "coords": [
+            40.1,
+            44.52
+          ],
+          "hint": "Dvin was a trade and handicraft town with workshops of glass and ceramics, textiles and the 'vordan karmir', a dye from the insects of the Araxes plain, which was widely traded; Arab writers praise Armenian carpets, embroidered cloth and dyed fabrics. Tbilisi was the Georgian counterpart on the Kura.",
+          "tag": "ECONOMIC",
+          "note": "Al-Maqdisi, Ahsan al-taqasim; Ibn Hawqal; Dvin excavations (Ghafadaryan).",
+          "keywords": ["Dvin","Armenian"]
+        },
+        {
+          "id": "ec1",
+          "group": "Tax and Land",
+          "label": "The revenue of Arminiya",
+          "date": "c. 846",
+          "loc": "Arminiya",
+          "coords": [
+            40.1,
+            44.52
+          ],
+          "hint": "Arab geographers record that the province's revenue in the ninth century was about thirteen million dirhams, with part paid in kind as carpets, cloth, horses, mules and dyes. Local princes shared the collection with the governors, and the sums gave the caliphate an interest in preserving the existing nobility.",
+          "tag": "ECONOMIC",
+          "note": "Ibn Khurdadhbih, Kitab al-masalik wa'l-mamalik (c. 846); Qudama ibn Ja'far; Hewsen 2001.",
+          "keywords": ["Arminiya"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "The calendar and the astronomers of Shirak, and Armenian masonry",
+      "entries": [
+        {
+          "id": "g1",
+          "group": "Calendar and Building",
+          "label": "The calendar and the observers of Shirak",
+          "date": "c. 650–700",
+          "loc": "Shirak",
+          "coords": [
+            40.8,
+            43.8
+          ],
+          "hint": "Anania of Shirak criticised the Armenian reckoning of the year and proposed a reform of the calendar based on the sun's movement and the Alexandrian system, writing on the date of Easter, the length of the year and the phases of the moon; the work shows contact with the astronomical learning of Byzantium and Syria.",
+          "tag": "TEXT",
+          "note": "Anania Shirakatsi, On the Calendar (Tomar); Hewsen 1992.",
+          "keywords": ["Anania of Shirak"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "The Khazars, the Abbasid court and Byzantium",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Diplomacy",
+          "label": "The Khazar alliance with the Caucasus princes",
+          "date": "c. 650–770",
+          "loc": "Albania and Iberia",
+          "coords": [
+            41,
+            47
+          ],
+          "hint": "The princes of Albania and Iberia and the Byzantine emperors turned to the Khazar khagans against the caliphate, as in Javanshir's alliance with the Khazar army and the marriage of the khagan's daughter Çiçek to Constantine, heir of Leo III, in 732; the Khazar khagan, whose domains reached the Derbent gates, was a power in the Caucasus.",
+          "tag": "DIPLOMACY",
+          "note": "Movses Kaghankatvatsi 2.17–19; Theophanes AM 6224; Golden 1980.",
+          "keywords": ["Albania","Iberia","Khazar","Caucasus","Leo III"],
+          "xlinks": ["byzantine-anatolia-632-867::x3"]
+        },
+        {
+          "id": "x2",
+          "group": "Diplomacy",
+          "label": "Byzantium and the Armenians",
+          "date": "c. 650–880",
+          "loc": "Armenia and Anatolia",
+          "coords": [
+            39.9,
+            41.3
+          ],
+          "hint": "The emperors kept contact with the Armenian princes by titles and gifts, patrician, kouropalates and archon, and by sheltering fugitives from the revolts, so that large numbers of Armenian nobles served the empire's armies, and the emperor Basil I, born of Armenian parentage in Macedonia, founded the dynasty in 867.",
+          "tag": "DIPLOMACY",
+          "note": "Constantine Porphyrogenitus, De administrando imperio; Garsoïan 1997.",
+          "keywords": ["Armenia","Anatolia","Byzantium","Armenians","Basil I"],
+          "xlinks": ["byzantine-anatolia-632-867::w4"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "From Umayyad province to Abbasid decay and the local dynasties",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "From a caliph's province to local dynasties",
+          "date": "645–884",
+          "loc": "Caucasus",
+          "coords": [
+            40.5,
+            44.5
+          ],
+          "hint": "In two and a quarter centuries the Caucasus passed from a conquered frontier of the caliphate to a patchwork of local dynasties: the Bagratids in Armenia and Georgia, the Shirvanshahs, the Sajids and the Abkhaz kings, as the power of Baghdad ebbed after the 860s. The Arab rulers had left local princes, churches and languages largely in place.",
+          "tag": "GEOPOLITICAL",
+          "note": "Hewsen 2001; Garsoïan 1997; Kennedy 1981.",
+          "keywords": ["Caucasus"],
+          "xlinks": ["caliphate-750-945::k6"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "The Persian martyr of Tbilisi, nobles at Samarra and the branded peasant",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Marginalised Communities",
+          "label": "Lead seals on the necks",
+          "date": "c. 700–720",
+          "loc": "Armenia",
+          "coords": [
+            40.1,
+            44.52
+          ],
+          "hint": "Ghewond tells that when the governor's census was made the people were hung with lead seals bearing their name and tax, and a man found without one was punished. It is one of the few glimpses of the peasant's experience of Arab taxation in the sources.",
+          "tag": "EVIDENCE",
+          "note": "Ghewond 14.",
+          "keywords": ["Armenia","Lead"]
+        },
+        {
+          "id": "l2",
+          "group": "Nobles in Exile",
+          "label": "The nobles at Samarra",
+          "date": "852–855",
+          "loc": "Samarra",
+          "coords": [
+            34.2,
+            43.87
+          ],
+          "hint": "After Bugha's campaign in 852 the Armenian princes Bagrat Bagratuni, Ashot Artsruni and others were taken to Samarra, the Abbasid capital, and some, like Bagrat, died as martyrs for refusing to renounce their faith. Their fate and that of their families shaped the Armenian memory of the period.",
+          "tag": "EVIDENCE",
+          "note": "Thomas Artsruni 2.7–9; Al-Tabari.",
+          "keywords": ["Samarra","Bagrat Bagratuni","Ashot Artsruni"],
+          "xlinks": ["caliphate-750-945::e1"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "arab-arminiya",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Arab Arminiya",
+      "events": [
+        {
+          "y": 652,
+          "l": "The province of Arminiya",
+          "entryId": "p1",
+          "y2": 884
+        },
+        {
+          "y": 750,
+          "l": "The Abbasid governors and Muslim emirs",
+          "entryId": "p2",
+          "y2": 884
+        }
+      ]
+    },
+    {
+      "id": "the-princes-of-armenia",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "The Princes of Armenia",
+      "events": [
+        {
+          "y": 645,
+          "l": "Theodoros Rshtuni and Hamazasp Mamikonian",
+          "entryId": "p3",
+          "y2": 685
+        },
+        {
+          "y": 780,
+          "l": "Ashot Msaker and the Bagratunis",
+          "entryId": "p4",
+          "y2": 826
+        },
+        {
+          "y": 861,
+          "l": "Ashot I, prince of princes",
+          "entryId": "p5",
+          "y2": 884
+        }
+      ]
+    },
+    {
+      "id": "iberia-and-abkhazia",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Iberia and Abkhazia",
+      "events": [
+        {
+          "y": 737,
+          "l": "The emirate of Tbilisi",
+          "entryId": "p6",
+          "y2": 1122
+        },
+        {
+          "y": 780,
+          "l": "The kingdom of Abkhazia",
+          "entryId": "p8",
+          "y2": 950
+        },
+        {
+          "y": 786,
+          "l": "Ashot I Kuropalates",
+          "entryId": "p7",
+          "y2": 826
+        }
+      ]
+    },
+    {
+      "id": "albania-and-shirvan",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Albania and Shirvan",
+      "events": [
+        {
+          "y": 645,
+          "l": "Javanshir and the Mihranids",
+          "entryId": "p9",
+          "y2": 680
+        },
+        {
+          "y": 861,
+          "l": "The Shirvanshahs",
+          "entryId": "p10",
+          "y2": 884
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 650,
+          "l": "The Arab–Khazar wars",
+          "entryId": "c4"
+        },
+        {
+          "y": 703,
+          "l": "The rebellion of 703–705",
+          "entryId": "c1"
+        },
+        {
+          "y": 774,
+          "l": "The revolt of 774–775",
+          "entryId": "c2"
+        },
+        {
+          "y": 816,
+          "l": "Babak's revolt",
+          "entryId": "c5"
+        },
+        {
+          "y": 850,
+          "l": "Bugha and the princes of Armenia",
+          "entryId": "c3"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 652,
+          "l": "The treaty of Rshtuni",
+          "entryId": "o1"
+        },
+        {
+          "y": 700,
+          "l": "The census and the tax",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 650,
+          "l": "The Paulicians and the Tondrakians",
+          "entryId": "b2"
+        },
+        {
+          "y": 726,
+          "l": "The council of Manazkert",
+          "entryId": "b1"
+        },
+        {
+          "y": 786,
+          "l": "Abo of Tbilisi",
+          "entryId": "b3"
+        },
+        {
+          "y": 830,
+          "l": "Grigol Khandzteli and the monasteries of Tao-Klarjeti",
+          "entryId": "b4"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 645,
+          "l": "Zvartnots",
+          "entryId": "e1"
+        },
+        {
+          "y": 650,
+          "l": "The churches of Armenia under the caliphs",
+          "entryId": "e2"
+        },
+        {
+          "y": 862,
+          "l": "The Gospel of Queen Mlke",
+          "entryId": "e3"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 645,
+          "l": "Anania Shirakatsi",
+          "entryId": "t1"
+        },
+        {
+          "y": 661,
+          "l": "Sebeos and Ghewond",
+          "entryId": "t2"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 700,
+          "l": "The Armenian red and the markets of Dvin",
+          "entryId": "ec2"
+        },
+        {
+          "y": 846,
+          "l": "The revenue of Arminiya",
+          "entryId": "ec1"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 650,
+          "l": "The calendar and the observers of Shirak",
+          "entryId": "g1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 650,
+          "l": "The Khazar alliance with the Caucasus princes",
+          "entryId": "x1"
+        },
+        {
+          "y": 650,
+          "l": "Byzantium and the Armenians",
+          "entryId": "x2"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 645,
+          "l": "From a caliph's province to local dynasties",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 700,
+          "l": "Lead seals on the necks",
+          "entryId": "l1"
+        },
+        {
+          "y": 852,
+          "l": "The nobles at Samarra",
+          "entryId": "l2"
+        }
+      ]
+    }
+  ]
+}

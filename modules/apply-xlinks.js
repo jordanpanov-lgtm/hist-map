@@ -1812,6 +1812,13 @@ const SELECTED_PAIRS = [
   ['caucasus-428-645::x1', 'sassanid-484-651::ex4'],      // Khosrow II and Maurice
   ['caucasus-428-645::p5', 'sassanid-484-651::ex4'],      // Maurice's aid to Khosrow II and the peace of 591
   ['caucasus-428-645::x2', 'byzantine-anatolia-632-867::x3'],      // the Khazar alliance and marriage
+  ['caucasus-645-884::c5', 'caliphate-750-945::c3'],      // Babak and the Khurramiyya
+  ['caucasus-645-884::c3', 'caliphate-750-945::e1'],      // Samarra, where the Armenian princes were taken
+  ['caucasus-645-884::l2', 'caliphate-750-945::e1'],      // the nobles at Samarra
+  ['caucasus-645-884::x1', 'byzantine-anatolia-632-867::x3'],      // the Khazar marriage of 732
+  ['caucasus-645-884::x2', 'byzantine-anatolia-632-867::w4'],      // Armenians in Byzantium
+  ['caucasus-645-884::w1', 'caliphate-750-945::k6'],      // the Abbasid caliphs of the Samarra period
+  ['caucasus-645-884::p2', 'caliphate-750-945::k6'],      // al-Mu'tasim and the commander Afshin
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
