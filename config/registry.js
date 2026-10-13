@@ -237,5 +237,6 @@ const MODULES = [
   { id:"achaemenid-caucasus-585bc-330bc", file:"modules/achaemenid-caucasus-585bc-330bc.json", label:"Achaemenid and Orontid Caucasus 585–330 BC", sub:"Armina and Behistun, the Satraps of Armenia, Xenophon's March and the Colchian Coast", region:"Caucasus", period:"Ancient" },
   { id:"hellenistic-caucasus-330bc-1bc", file:"modules/hellenistic-caucasus-330bc-1bc.json", label:"Hellenistic Caucasus 330–1 BC", sub:"Orontids and Artaxiads, Tigranes the Great, Pharnavazid Iberia and the Roman Arrival", region:"Caucasus", period:"Late Antique" },
   { id:"caucasus-1-428", file:"modules/caucasus-1-428.json", label:"Arsacid Armenia, Iberia and Albania AD 1–428", sub:"The Contested Throne of Armenia, the Conversions, Mesrop's Alphabet and the Partition of 387", region:"Caucasus", period:"Late Antique" },
+  { id:"caucasus-428-645", file:"modules/caucasus-428-645.json", label:"The Caucasus between Byzantium and Persia AD 428–645", sub:"The Marzbans, Avarayr, the Lazic War, the Georgian Alphabet and the First Arab Raids", region:"Caucasus", period:"Late Antique" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

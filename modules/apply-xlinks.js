@@ -1799,6 +1799,19 @@ const SELECTED_PAIRS = [
   ['caucasus-1-428::p6', 'late-roman-anatolia-330-632::x3'],      // the partition of 387
   ['caucasus-1-428::b1', 'sassanid-224-484::r3'],      // Shapur II's persecution of Christians
   ['caucasus-1-428::x1', 'sassanid-224-484::ex4'],      // Armenian cultural transmission between Rome and Persia
+  ['caucasus-428-645::c1', 'sassanid-224-484::c6'],      // the battle of Avarayr
+  ['caucasus-428-645::o4', 'sassanid-484-651::o1'],      // Khosrow I's tax reform
+  ['caucasus-428-645::p1', 'sassanid-484-651::k5'],      // Khosrow I and the marzbanate
+  ['caucasus-428-645::p3', 'sassanid-484-651::k8'],      // Khosrow II and the Bagratuni general
+  ['caucasus-428-645::c6', 'sassanid-484-651::c5'],      // Heraclius's campaign and the battle of Nineveh
+  ['caucasus-428-645::c6', 'late-roman-anatolia-330-632::p7'],      // Heraclius
+  ['caucasus-428-645::o3', 'late-roman-anatolia-330-632::x2'],      // the Fifty Years' Peace
+  ['caucasus-428-645::b1', 'late-roman-anatolia-330-632::b4'],      // the council of Chalcedon and its rejection
+  ['caucasus-428-645::t5', 'sassanid-484-651::t4'],      // Sebeos and the Armenian histories
+  ['caucasus-428-645::w1', 'sassanid-484-651::s3'],      // the Justinianic plague reaches Persia
+  ['caucasus-428-645::x1', 'sassanid-484-651::ex4'],      // Khosrow II and Maurice
+  ['caucasus-428-645::p5', 'sassanid-484-651::ex4'],      // Maurice's aid to Khosrow II and the peace of 591
+  ['caucasus-428-645::x2', 'byzantine-anatolia-632-867::x3'],      // the Khazar alliance and marriage
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

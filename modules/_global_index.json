@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 8695,
-    "folio_count": 180,
-    "xlink_pairs": 1795,
-    "keyword_terms": 13299,
+    "total_entries": 8741,
+    "folio_count": 181,
+    "xlink_pairs": 1808,
+    "keyword_terms": 13365,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -144,6 +144,11 @@
         "id": "caucasus-3500bc-1200bc",
         "title": "Kura–Araxes and the Bronze Age Caucasus",
         "entries": 34
+      },
+      {
+        "id": "caucasus-428-645",
+        "title": "The Caucasus between Byzantium and Persia",
+        "entries": 46
       },
       {
         "id": "cilician-armenia-1080-1375",
@@ -2355,6 +2360,52 @@
     "caucasus-3500bc-1200bc::w1": "The dry centuries around 2200 BC",
     "caucasus-3500bc-1200bc::w2": "The end of the Late Bronze Age order",
     "caucasus-3500bc-1200bc::l1": "Figurines and the household",
+    "caucasus-428-645::p1": "The Persian marzbans of Armenia",
+    "caucasus-428-645::p2": "Vardan and Vahan Mamikonian",
+    "caucasus-428-645::p3": "Smbat Bagratuni, 'Khosrow Shum'",
+    "caucasus-428-645::p4": "Justinian's Armenia",
+    "caucasus-428-645::p5": "Maurice and the partition of 591",
+    "caucasus-428-645::p6": "Vakhtang Gorgasali",
+    "caucasus-428-645::p7": "The end of the monarchy and the erismtavari",
+    "caucasus-428-645::p8": "Vachagan the Pious and the Albanian kings",
+    "caucasus-428-645::p10": "Lazica (Egrisi)",
+    "caucasus-428-645::p9": "The Mihranids of Albania",
+    "caucasus-428-645::c1": "Avarayr",
+    "caucasus-428-645::c2": "Vahan Mamikonian's war",
+    "caucasus-428-645::c4": "The Lazic War",
+    "caucasus-428-645::c5": "The murder of Gubazes",
+    "caucasus-428-645::c3": "The rising of 571",
+    "caucasus-428-645::c6": "Heraclius and the Khazars at Tiflis",
+    "caucasus-428-645::c7": "The first Arab raids and the fall of Dvin",
+    "caucasus-428-645::o1": "The treaty of Nvarsak",
+    "caucasus-428-645::o4": "The Persian tax survey and the marzban's court",
+    "caucasus-428-645::o2": "Justinian's laws for Armenia",
+    "caucasus-428-645::o3": "The Fifty Years' Peace",
+    "caucasus-428-645::b3": "Yazdegerd II's edict and the martyrs",
+    "caucasus-428-645::b4": "The Iberian church and Peter the Iberian",
+    "caucasus-428-645::b5": "The council of Aghuen",
+    "caucasus-428-645::b1": "The rejection of Chalcedon at Dvin",
+    "caucasus-428-645::b2": "The break of 607",
+    "caucasus-428-645::e4": "The mosaic of Bir el Qutt",
+    "caucasus-428-645::e1": "The early Armenian churches",
+    "caucasus-428-645::e2": "Bolnisi Sioni",
+    "caucasus-428-645::e3": "Jvari",
+    "caucasus-428-645::t1": "The Georgian alphabet",
+    "caucasus-428-645::t3": "The historians of Vardan",
+    "caucasus-428-645::t2": "The Martyrdom of Shushanik",
+    "caucasus-428-645::t4": "Procopius on Lazica",
+    "caucasus-428-645::t5": "The Armenian era and Movses Khorenatsi",
+    "caucasus-428-645::ec2": "Dvin, the market of the highlands",
+    "caucasus-428-645::ec1": "Lazica's hides, slaves and honey",
+    "caucasus-428-645::g1": "The Sasanian walls of the Caucasus",
+    "caucasus-428-645::g3": "The Armenian dome on squinches",
+    "caucasus-428-645::g2": "Petra and Archaeopolis",
+    "caucasus-428-645::x1": "Armenians in the Byzantine army",
+    "caucasus-428-645::x2": "The Khazar alliance",
+    "caucasus-428-645::w1": "The plague and the wars of exhaustion",
+    "caucasus-428-645::l1": "Shushanik",
+    "caucasus-428-645::l3": "The Armenian cavalryman",
+    "caucasus-428-645::l2": "The captives of Dvin",
     "cilician-armenia-1080-1375::p1": "Ruben and the lords of the Taurus",
     "cilician-armenia-1080-1375::p2": "Leo I and Thoros II",
     "cilician-armenia-1080-1375::p3": "Leo the Magnificent",
@@ -11719,6 +11770,12 @@
       "byzantine-anatolia-632-867::g1",
       "late-roman-anatolia-330-632::c8"
     ],
+    "byzantine-anatolia-632-867::x3": [
+      "caucasus-428-645::x2"
+    ],
+    "caucasus-428-645::x2": [
+      "byzantine-anatolia-632-867::x3"
+    ],
     "byzantine-anatolia-632-867::x2": [
       "caliphate-750-945::k5",
       "caliphate-750-945::t1"
@@ -12580,6 +12637,79 @@
     ],
     "hittite-1650bc-1180bc::o3": [
       "caucasus-3500bc-1200bc::o3"
+    ],
+    "caucasus-428-645::p1": [
+      "sassanid-484-651::k5"
+    ],
+    "sassanid-484-651::k5": [
+      "caucasus-428-645::p1",
+      "late-roman-anatolia-330-632::x1"
+    ],
+    "caucasus-428-645::p3": [
+      "sassanid-484-651::k8"
+    ],
+    "sassanid-484-651::k8": [
+      "caucasus-428-645::p3"
+    ],
+    "caucasus-428-645::p5": [
+      "sassanid-484-651::ex4"
+    ],
+    "sassanid-484-651::ex4": [
+      "caucasus-428-645::p5",
+      "caucasus-428-645::x1"
+    ],
+    "caucasus-428-645::c1": [
+      "sassanid-224-484::c6"
+    ],
+    "sassanid-224-484::c6": [
+      "caucasus-428-645::c1"
+    ],
+    "caucasus-428-645::c6": [
+      "late-roman-anatolia-330-632::p7",
+      "sassanid-484-651::c5"
+    ],
+    "late-roman-anatolia-330-632::p7": [
+      "caucasus-428-645::c6"
+    ],
+    "sassanid-484-651::c5": [
+      "caucasus-428-645::c6",
+      "late-roman-anatolia-330-632::c7"
+    ],
+    "caucasus-428-645::o4": [
+      "sassanid-484-651::o1"
+    ],
+    "sassanid-484-651::o1": [
+      "caucasus-428-645::o4"
+    ],
+    "caucasus-428-645::o3": [
+      "late-roman-anatolia-330-632::x2"
+    ],
+    "late-roman-anatolia-330-632::x2": [
+      "caucasus-428-645::o3",
+      "sassanid-484-651::o3"
+    ],
+    "caucasus-428-645::b1": [
+      "late-roman-anatolia-330-632::b4"
+    ],
+    "late-roman-anatolia-330-632::b4": [
+      "caucasus-428-645::b1",
+      "egypt-300-641::b3",
+      "rome-400-500::r3"
+    ],
+    "caucasus-428-645::t5": [
+      "sassanid-484-651::t4"
+    ],
+    "sassanid-484-651::t4": [
+      "caucasus-428-645::t5"
+    ],
+    "caucasus-428-645::x1": [
+      "sassanid-484-651::ex4"
+    ],
+    "caucasus-428-645::w1": [
+      "sassanid-484-651::s3"
+    ],
+    "sassanid-484-651::s3": [
+      "caucasus-428-645::w1"
     ],
     "cilician-armenia-1080-1375::c2": [
       "seljuks-of-rum-1071-1308::p3"
@@ -14175,10 +14305,6 @@
     ],
     "egypt-641-969::b1": [
       "egypt-300-641::b3"
-    ],
-    "late-roman-anatolia-330-632::b4": [
-      "egypt-300-641::b3",
-      "rome-400-500::r3"
     ],
     "mesopotamia-224-637::b1": [
       "egypt-300-641::b3",
@@ -16525,9 +16651,6 @@
     "late-roman-anatolia-330-632::c7": [
       "sassanid-484-651::c5"
     ],
-    "sassanid-484-651::c5": [
-      "late-roman-anatolia-330-632::c7"
-    ],
     "late-roman-anatolia-330-632::c8": [
       "sassanid-484-651::c4"
     ],
@@ -16565,17 +16688,11 @@
     "rome-400-500::s2": [
       "late-roman-anatolia-330-632::g1"
     ],
-    "late-roman-anatolia-330-632::x2": [
-      "sassanid-484-651::o3"
-    ],
     "sassanid-484-651::o3": [
       "late-roman-anatolia-330-632::x2"
     ],
     "late-roman-anatolia-330-632::x1": [
       "sassanid-484-651::k5"
-    ],
-    "sassanid-484-651::k5": [
-      "late-roman-anatolia-330-632::x1"
     ],
     "late-roman-anatolia-330-632::w1": [
       "rome-300-400::o3"
@@ -26298,6 +26415,255 @@
     "caucasus-3500bc-1200bc::l1": [
       "Shengavit",
       "Figurines"
+    ],
+    "caucasus-428-645::p1": [
+      "Sasanian",
+      "Dvin",
+      "Armenia"
+    ],
+    "caucasus-428-645::p2": [
+      "Avarayr",
+      "Dvin",
+      "Vahan Mamikonian",
+      "Vardan Mamikonian",
+      "Yazdegerd II"
+    ],
+    "caucasus-428-645::p3": [
+      "Dvin",
+      "Smbat Bagratuni",
+      "Khosrow Shum",
+      "Smbat IV Bagratuni",
+      "Khosrow II",
+      "Vrkan Hyrcania"
+    ],
+    "caucasus-428-645::p4": [
+      "Melitene",
+      "Justinian Armenia",
+      "Theodosiopolis Erzurum",
+      "Armenia I–IV"
+    ],
+    "caucasus-428-645::p5": [
+      "Armenia",
+      "Maurice",
+      "Khosrow II"
+    ],
+    "caucasus-428-645::p6": [
+      "Chosroid",
+      "Mtskheta",
+      "Tbilisi",
+      "Vakhtang Gorgasali",
+      "Vakhtang I",
+      "Georgian Church"
+    ],
+    "caucasus-428-645::p7": [
+      "Chosroid",
+      "Tbilisi",
+      "Mtskheta",
+      "Vakhtang the Iberian",
+      "Hormizd IV",
+      "Guaram I"
+    ],
+    "caucasus-428-645::p8": [
+      "Arsacid",
+      "Partaw",
+      "Kabala",
+      "Vachagan the Pious",
+      "Albanian",
+      "Vachagan III"
+    ],
+    "caucasus-428-645::p10": [
+      "Archaeopolis",
+      "Phasis",
+      "Lazica Egrisi",
+      "Tzath Tzath",
+      "Black Sea",
+      "Lazic War"
+    ],
+    "caucasus-428-645::p9": [
+      "Gardman",
+      "Partaw",
+      "Mihranids of Albania",
+      "Varaz-Grigor of the Persian Mihranid"
+    ],
+    "caucasus-428-645::c1": [
+      "Avarayr",
+      "Vaspurakan",
+      "Yazdegerd II",
+      "Vardan Mamikonian",
+      "Armenian Church"
+    ],
+    "caucasus-428-645::c2": [
+      "Armenia",
+      "Iberia",
+      "Vahan Mamikonian"
+    ],
+    "caucasus-428-645::c4": [
+      "Lazica",
+      "Lazic War",
+      "Khosrow I"
+    ],
+    "caucasus-428-645::c5": [
+      "Lazica",
+      "Gubazes II"
+    ],
+    "caucasus-428-645::c3": [
+      "Vardan Mamikonian",
+      "Justin II",
+      "Armenians of Dvin"
+    ],
+    "caucasus-428-645::c6": [
+      "Tbilisi",
+      "Heraclius",
+      "Khazars",
+      "Tiflis",
+      "Khosrow II",
+      "Turkic Khazar"
+    ],
+    "caucasus-428-645::c7": [
+      "Dvin",
+      "Theodoros Rshtuni"
+    ],
+    "caucasus-428-645::o1": [
+      "Nvarsak",
+      "Vahan Mamikonian",
+      "Armenians Christian"
+    ],
+    "caucasus-428-645::o4": [
+      "Persarmenia",
+      "Khosrow I"
+    ],
+    "caucasus-428-645::o2": [
+      "Constantinople",
+      "Armenia",
+      "Justinian Novel"
+    ],
+    "caucasus-428-645::o3": [
+      "Dara",
+      "Fifty Years Peace",
+      "Khosrow I",
+      "Menander the Guardsman"
+    ],
+    "caucasus-428-645::b3": [
+      "Armenia",
+      "Albania",
+      "Yazdegerd II"
+    ],
+    "caucasus-428-645::b4": [
+      "Mtskheta",
+      "Peter the Iberian",
+      "John Rufus"
+    ],
+    "caucasus-428-645::b5": [
+      "Aghuen",
+      "Albania",
+      "Vachagan III"
+    ],
+    "caucasus-428-645::b1": [
+      "Dvin",
+      "Chalcedon",
+      "Catholicos Babken",
+      "Henotikon of Zeno",
+      "Armenian Church"
+    ],
+    "caucasus-428-645::b2": [
+      "Dvin",
+      "Catholicos Abraham of Armenia"
+    ],
+    "caucasus-428-645::e4": [
+      "Bir",
+      "Qutt",
+      "Bethlehem"
+    ],
+    "caucasus-428-645::e1": [
+      "Tekor",
+      "Ereruyk",
+      "Ptghni",
+      "Armenian"
+    ],
+    "caucasus-428-645::e2": [
+      "Kvemo Kartli",
+      "Bolnisi Sioni"
+    ],
+    "caucasus-428-645::e3": [
+      "Mtskheta",
+      "Jvari",
+      "Stephen I"
+    ],
+    "caucasus-428-645::t1": [
+      "Mtskheta",
+      "Palestine",
+      "Georgian"
+    ],
+    "caucasus-428-645::t3": [
+      "Armenia",
+      "History of Vardan",
+      "Armenian War",
+      "Lazar of Parpi",
+      "Mamikonian Vahan"
+    ],
+    "caucasus-428-645::t2": [
+      "Tsurtavi",
+      "Martyrdom of Shushanik",
+      "Iakob Tsurtaveli",
+      "Armenian Vardan Mamikonian"
+    ],
+    "caucasus-428-645::t4": [
+      "Constantinople",
+      "Procopius",
+      "Lazica"
+    ],
+    "caucasus-428-645::t5": [
+      "Dvin",
+      "Armenian",
+      "Movses Khorenatsi",
+      "History of Armenia"
+    ],
+    "caucasus-428-645::ec2": [
+      "Dvin",
+      "Black Sea"
+    ],
+    "caucasus-428-645::ec1": [
+      "Lazica"
+    ],
+    "caucasus-428-645::g1": [
+      "Gilgilchay",
+      "Derbent",
+      "Sasanian",
+      "Caucasus",
+      "Kavadh I",
+      "Khosrow I"
+    ],
+    "caucasus-428-645::g3": [
+      "Armenia",
+      "Georgia",
+      "Armenian"
+    ],
+    "caucasus-428-645::g2": [
+      "Petra",
+      "Nokalakevi",
+      "Archaeopolis",
+      "Black Sea",
+      "John Tzibus"
+    ],
+    "caucasus-428-645::x1": [
+      "Armenians"
+    ],
+    "caucasus-428-645::x2": [
+      "Tbilisi",
+      "Khazar"
+    ],
+    "caucasus-428-645::w1": [
+      "Caucasus"
+    ],
+    "caucasus-428-645::l1": [
+      "Tsurtavi",
+      "Shushanik"
+    ],
+    "caucasus-428-645::l3": [
+      "Armenian"
+    ],
+    "caucasus-428-645::l2": [
+      "Dvin"
     ],
     "cilician-armenia-1080-1375::p1": [
       "Rubenid",
@@ -67839,6 +68205,9 @@
       "caucasus-1-428::o5",
       "caucasus-1-428::ec1",
       "caucasus-3500bc-1200bc::p7",
+      "caucasus-428-645::p10",
+      "caucasus-428-645::ec2",
+      "caucasus-428-645::g2",
       "hellenistic-anatolia-334bc-133bc::t5",
       "hellenistic-anatolia-334bc-133bc::ec3",
       "hellenistic-caucasus-330bc-1bc::ec1",
@@ -68630,6 +68999,10 @@
       "caucasus-3500bc-1200bc::p8",
       "caucasus-3500bc-1200bc::c2",
       "caucasus-3500bc-1200bc::t1",
+      "caucasus-428-645::e1",
+      "caucasus-428-645::t5",
+      "caucasus-428-645::g3",
+      "caucasus-428-645::l3",
       "cilician-armenia-1080-1375::w1",
       "hellenistic-caucasus-330bc-1bc::c2",
       "hellenistic-caucasus-330bc-1bc::o2",
@@ -68682,6 +69055,13 @@
       "caucasus-1-428::x2",
       "caucasus-1-428::w1",
       "caucasus-1850000bc-3500bc::p4",
+      "caucasus-428-645::p1",
+      "caucasus-428-645::p5",
+      "caucasus-428-645::c2",
+      "caucasus-428-645::o2",
+      "caucasus-428-645::b3",
+      "caucasus-428-645::t3",
+      "caucasus-428-645::g3",
       "cilician-armenia-1080-1375::p6",
       "hellenistic-caucasus-330bc-1bc::p1",
       "hellenistic-caucasus-330bc-1bc::p2",
@@ -68826,6 +69206,7 @@
       "achaemenid-caucasus-585bc-330bc::e1",
       "byzantine-anatolia-632-867::w4",
       "caucasus-3500bc-1200bc::t1",
+      "caucasus-428-645::x1",
       "fatimids-909-1171::x2"
     ],
     "Colchians": [
@@ -68995,6 +69376,8 @@
       "caucasus-1850000bc-3500bc::p6",
       "caucasus-1850000bc-3500bc::x2",
       "caucasus-3500bc-1200bc::x2",
+      "caucasus-428-645::g1",
+      "caucasus-428-645::w1",
       "hellenistic-caucasus-330bc-1bc::c5",
       "hellenistic-caucasus-330bc-1bc::t3",
       "mamluks-1250-1517::ec5",
@@ -69025,6 +69408,7 @@
     "Phasis": [
       "achaemenid-caucasus-585bc-330bc::ec3",
       "caucasus-1-428::o5",
+      "caucasus-428-645::p10",
       "hellenistic-caucasus-330bc-1bc::c5"
     ],
     "Twenty": [
@@ -69307,6 +69691,7 @@
       "caucasus-1-428::ec2",
       "caucasus-1-428::x1",
       "caucasus-1-428::x2",
+      "caucasus-428-645::c2",
       "hellenistic-caucasus-330bc-1bc::o3",
       "hellenistic-caucasus-330bc-1bc::ec2",
       "hispania-300bc-27bc::c2",
@@ -70867,6 +71252,8 @@
       "caliphate-632-750::w2",
       "caliphate-632-750::w3",
       "caliphate-750-945::x4",
+      "caucasus-428-645::o2",
+      "caucasus-428-645::t4",
       "egypt-300-641::k1",
       "egypt-300-641::k4",
       "egypt-300-641::k6",
@@ -80021,6 +80408,8 @@
       "beth-qatraye-240-632::tc1",
       "caliphate-750-945::w1",
       "caucasus-1-428::x2",
+      "caucasus-428-645::p1",
+      "caucasus-428-645::g1",
       "egypt-300-641::k14",
       "lakhmid-268-602::a5",
       "lakhmid-268-602::s2",
@@ -80335,6 +80724,9 @@
     "Khosrow II": [
       "beth-qatraye-240-632::c2",
       "beth-qatraye-240-632::c3",
+      "caucasus-428-645::p3",
+      "caucasus-428-645::p5",
+      "caucasus-428-645::c6",
       "egypt-300-641::k14",
       "hejaz-300bc-632::x4",
       "lakhmid-268-602::k12",
@@ -80896,6 +81288,10 @@
     ],
     "Khosrow I": [
       "beth-qatraye-240-632::w2",
+      "caucasus-428-645::c4",
+      "caucasus-428-645::o4",
+      "caucasus-428-645::o3",
+      "caucasus-428-645::g1",
       "ghassanid-420-638::c4",
       "mesopotamia-224-637::c4",
       "mesopotamia-224-637::o3",
@@ -81489,10 +81885,12 @@
     "Melitene": [
       "byzantine-anatolia-632-867::c6",
       "byzantine-anatolia-867-1071::c2",
+      "caucasus-428-645::p4",
       "seljuks-of-rum-1071-1308::p2"
     ],
     "Theodosiopolis Erzurum": [
-      "byzantine-anatolia-632-867::c6"
+      "byzantine-anatolia-632-867::c6",
+      "caucasus-428-645::p4"
     ],
     "Chrysopolis": [
       "byzantine-anatolia-632-867::c7",
@@ -81705,7 +82103,8 @@
       "byzantine-anatolia-632-867::g4"
     ],
     "Khazar": [
-      "byzantine-anatolia-632-867::x3"
+      "byzantine-anatolia-632-867::x3",
+      "caucasus-428-645::x2"
     ],
     "Leo IV": [
       "byzantine-anatolia-632-867::x3"
@@ -81935,6 +82334,7 @@
       "byzantine-anatolia-867-1071::c5",
       "caucasus-3500bc-1200bc::p7",
       "caucasus-3500bc-1200bc::t2",
+      "caucasus-428-645::g3",
       "urartu-colchis-1200bc-585bc::p9"
     ],
     "David of Tao": [
@@ -82116,7 +82516,8 @@
       "late-roman-anatolia-330-632::c5"
     ],
     "Vaspurakan": [
-      "byzantine-anatolia-867-1071::x3"
+      "byzantine-anatolia-867-1071::x3",
+      "caucasus-428-645::c1"
     ],
     "Senekerim Artsruni of Vaspurakan": [
       "byzantine-anatolia-867-1071::x3"
@@ -84383,6 +84784,7 @@
       "caucasus-1-428::p6",
       "caucasus-1-428::p7",
       "caucasus-1-428::p10",
+      "caucasus-428-645::p8",
       "mesopotamia-141bc-224::k1",
       "mesopotamia-141bc-224::k2",
       "mesopotamia-141bc-224::k3",
@@ -84561,7 +84963,16 @@
     "Dvin": [
       "caucasus-1-428::p5",
       "caucasus-1-428::p7",
-      "caucasus-1-428::g2"
+      "caucasus-1-428::g2",
+      "caucasus-428-645::p1",
+      "caucasus-428-645::p2",
+      "caucasus-428-645::p3",
+      "caucasus-428-645::c7",
+      "caucasus-428-645::b1",
+      "caucasus-428-645::b2",
+      "caucasus-428-645::t5",
+      "caucasus-428-645::ec2",
+      "caucasus-428-645::l2"
     ],
     "Artagers": [
       "caucasus-1-428::p5",
@@ -84605,6 +85016,11 @@
       "caucasus-1-428::b2",
       "caucasus-1-428::e3",
       "caucasus-1-428::l2",
+      "caucasus-428-645::p6",
+      "caucasus-428-645::p7",
+      "caucasus-428-645::b4",
+      "caucasus-428-645::e3",
+      "caucasus-428-645::t1",
       "hellenistic-caucasus-330bc-1bc::p9",
       "hellenistic-caucasus-330bc-1bc::p10",
       "hellenistic-caucasus-330bc-1bc::b3",
@@ -84638,10 +85054,13 @@
       "spain-1516-1700::te4"
     ],
     "Kabala": [
-      "caucasus-1-428::p10"
+      "caucasus-1-428::p10",
+      "caucasus-428-645::p8"
     ],
     "Partaw": [
-      "caucasus-1-428::p10"
+      "caucasus-1-428::p10",
+      "caucasus-428-645::p8",
+      "caucasus-428-645::p9"
     ],
     "Caucasian Albania": [
       "caucasus-1-428::p10"
@@ -84792,12 +85211,15 @@
       "caucasus-1-428::b5",
       "caucasus-1-428::t4",
       "caucasus-1-428::x2",
+      "caucasus-428-645::b3",
+      "caucasus-428-645::b5",
       "hellenistic-caucasus-330bc-1bc::p13",
       "hellenistic-caucasus-330bc-1bc::b2",
       "hellenistic-caucasus-330bc-1bc::l1"
     ],
     "Albanian": [
       "caucasus-1-428::b5",
+      "caucasus-428-645::p8",
       "hellenistic-caucasus-330bc-1bc::b2"
     ],
     "Movses Kaghankatvatsi": [
@@ -84852,6 +85274,8 @@
     "Armenian Church": [
       "caucasus-1-428::e2",
       "caucasus-1-428::t2",
+      "caucasus-428-645::c1",
+      "caucasus-428-645::b1",
       "cilician-armenia-1080-1375::b1"
     ],
     "Tacitus": [
@@ -84936,7 +85360,8 @@
       "caucasus-1850000bc-3500bc::p10",
       "caucasus-1850000bc-3500bc::g2",
       "caucasus-3500bc-1200bc::p4",
-      "caucasus-3500bc-1200bc::ec1"
+      "caucasus-3500bc-1200bc::ec1",
+      "caucasus-428-645::e2"
     ],
     "Africa": [
       "caucasus-1850000bc-3500bc::p1",
@@ -85073,7 +85498,11 @@
       "caucasus-3500bc-1200bc::ec1"
     ],
     "Tbilisi": [
-      "caucasus-1850000bc-3500bc::t1"
+      "caucasus-1850000bc-3500bc::t1",
+      "caucasus-428-645::p6",
+      "caucasus-428-645::p7",
+      "caucasus-428-645::c6",
+      "caucasus-428-645::x2"
     ],
     "Wheat": [
       "caucasus-1850000bc-3500bc::ec1"
@@ -85347,6 +85776,319 @@
     ],
     "Figurines": [
       "caucasus-3500bc-1200bc::l1"
+    ],
+    "Avarayr": [
+      "caucasus-428-645::p2",
+      "caucasus-428-645::c1",
+      "sassanid-224-484::c6"
+    ],
+    "Vahan Mamikonian": [
+      "caucasus-428-645::p2",
+      "caucasus-428-645::c2",
+      "caucasus-428-645::o1"
+    ],
+    "Vardan Mamikonian": [
+      "caucasus-428-645::p2",
+      "caucasus-428-645::c1",
+      "caucasus-428-645::c3"
+    ],
+    "Yazdegerd II": [
+      "caucasus-428-645::p2",
+      "caucasus-428-645::c1",
+      "caucasus-428-645::b3",
+      "sassanid-224-484::k14",
+      "sassanid-224-484::c6"
+    ],
+    "Smbat Bagratuni": [
+      "caucasus-428-645::p3"
+    ],
+    "Khosrow Shum": [
+      "caucasus-428-645::p3"
+    ],
+    "Smbat IV Bagratuni": [
+      "caucasus-428-645::p3"
+    ],
+    "Vrkan Hyrcania": [
+      "caucasus-428-645::p3"
+    ],
+    "Justinian Armenia": [
+      "caucasus-428-645::p4"
+    ],
+    "Armenia I–IV": [
+      "caucasus-428-645::p4"
+    ],
+    "Maurice": [
+      "caucasus-428-645::p5",
+      "sassanid-484-651::ex4"
+    ],
+    "Chosroid": [
+      "caucasus-428-645::p6",
+      "caucasus-428-645::p7"
+    ],
+    "Vakhtang Gorgasali": [
+      "caucasus-428-645::p6"
+    ],
+    "Vakhtang I": [
+      "caucasus-428-645::p6"
+    ],
+    "Georgian Church": [
+      "caucasus-428-645::p6"
+    ],
+    "Vakhtang the Iberian": [
+      "caucasus-428-645::p7"
+    ],
+    "Hormizd IV": [
+      "caucasus-428-645::p7",
+      "sassanid-484-651::k6",
+      "sassanid-484-651::c8"
+    ],
+    "Guaram I": [
+      "caucasus-428-645::p7"
+    ],
+    "Vachagan the Pious": [
+      "caucasus-428-645::p8"
+    ],
+    "Vachagan III": [
+      "caucasus-428-645::p8",
+      "caucasus-428-645::b5"
+    ],
+    "Archaeopolis": [
+      "caucasus-428-645::p10",
+      "caucasus-428-645::g2"
+    ],
+    "Lazica Egrisi": [
+      "caucasus-428-645::p10"
+    ],
+    "Tzath Tzath": [
+      "caucasus-428-645::p10"
+    ],
+    "Lazic War": [
+      "caucasus-428-645::p10",
+      "caucasus-428-645::c4"
+    ],
+    "Gardman": [
+      "caucasus-428-645::p9"
+    ],
+    "Mihranids of Albania": [
+      "caucasus-428-645::p9"
+    ],
+    "Varaz-Grigor of the Persian Mihranid": [
+      "caucasus-428-645::p9"
+    ],
+    "Lazica": [
+      "caucasus-428-645::c4",
+      "caucasus-428-645::c5",
+      "caucasus-428-645::t4",
+      "caucasus-428-645::ec1"
+    ],
+    "Gubazes II": [
+      "caucasus-428-645::c5"
+    ],
+    "Justin II": [
+      "caucasus-428-645::c3"
+    ],
+    "Armenians of Dvin": [
+      "caucasus-428-645::c3"
+    ],
+    "Heraclius": [
+      "caucasus-428-645::c6",
+      "egypt-300-641::k7",
+      "late-roman-anatolia-330-632::p7",
+      "mesopotamia-224-637::c5",
+      "sassanid-484-651::c5"
+    ],
+    "Khazars": [
+      "caucasus-428-645::c6"
+    ],
+    "Tiflis": [
+      "caucasus-428-645::c6"
+    ],
+    "Turkic Khazar": [
+      "caucasus-428-645::c6"
+    ],
+    "Theodoros Rshtuni": [
+      "caucasus-428-645::c7"
+    ],
+    "Nvarsak": [
+      "caucasus-428-645::o1"
+    ],
+    "Armenians Christian": [
+      "caucasus-428-645::o1"
+    ],
+    "Persarmenia": [
+      "caucasus-428-645::o4"
+    ],
+    "Justinian Novel": [
+      "caucasus-428-645::o2",
+      "late-roman-anatolia-330-632::l5",
+      "rome-400-500::lv1"
+    ],
+    "Dara": [
+      "caucasus-428-645::o3",
+      "late-roman-anatolia-330-632::x2",
+      "mesopotamia-224-637::xc1"
+    ],
+    "Fifty Years Peace": [
+      "caucasus-428-645::o3",
+      "late-roman-anatolia-330-632::x2"
+    ],
+    "Menander the Guardsman": [
+      "caucasus-428-645::o3"
+    ],
+    "Peter the Iberian": [
+      "caucasus-428-645::b4"
+    ],
+    "John Rufus": [
+      "caucasus-428-645::b4"
+    ],
+    "Aghuen": [
+      "caucasus-428-645::b5"
+    ],
+    "Chalcedon": [
+      "caucasus-428-645::b1",
+      "egypt-300-641::k5",
+      "egypt-300-641::k11",
+      "egypt-300-641::b3",
+      "late-roman-anatolia-330-632::c6",
+      "late-roman-anatolia-330-632::x4",
+      "roman-byzantine-levant-135-638::b3",
+      "rome-400-500::r3"
+    ],
+    "Catholicos Babken": [
+      "caucasus-428-645::b1"
+    ],
+    "Henotikon of Zeno": [
+      "caucasus-428-645::b1"
+    ],
+    "Catholicos Abraham of Armenia": [
+      "caucasus-428-645::b2"
+    ],
+    "Bir": [
+      "caucasus-428-645::e4"
+    ],
+    "Qutt": [
+      "caucasus-428-645::e4"
+    ],
+    "Bethlehem": [
+      "caucasus-428-645::e4",
+      "hispania-27bc-409ad::t5",
+      "roman-byzantine-levant-135-638::b1",
+      "rome-300-400::t7",
+      "rome-400-500::r5",
+      "rome-400-500::tx2"
+    ],
+    "Tekor": [
+      "caucasus-428-645::e1"
+    ],
+    "Ereruyk": [
+      "caucasus-428-645::e1"
+    ],
+    "Ptghni": [
+      "caucasus-428-645::e1"
+    ],
+    "Bolnisi Sioni": [
+      "caucasus-428-645::e2"
+    ],
+    "Jvari": [
+      "caucasus-428-645::e3"
+    ],
+    "Stephen I": [
+      "caucasus-428-645::e3"
+    ],
+    "Palestine": [
+      "caucasus-428-645::t1",
+      "egypt-1200bc-664bc::c4",
+      "egypt-1900-1952::xc3",
+      "fatimids-909-1171::c7",
+      "fatimids-909-1171::w3",
+      "ghassanid-420-638::o2",
+      "ghassanid-420-638::w2",
+      "hejaz-1900-1925::o3",
+      "ilkhanate-1219-1335::c5",
+      "iraq-1914-1958::xc2",
+      "mesopotamia-141bc-224::xc4",
+      "nw-arabia-106-632::x3",
+      "rome-400-500::lv3"
+    ],
+    "Georgian": [
+      "caucasus-428-645::t1"
+    ],
+    "History of Vardan": [
+      "caucasus-428-645::t3"
+    ],
+    "Armenian War": [
+      "caucasus-428-645::t3"
+    ],
+    "Lazar of Parpi": [
+      "caucasus-428-645::t3"
+    ],
+    "Mamikonian Vahan": [
+      "caucasus-428-645::t3"
+    ],
+    "Tsurtavi": [
+      "caucasus-428-645::t2",
+      "caucasus-428-645::l1"
+    ],
+    "Martyrdom of Shushanik": [
+      "caucasus-428-645::t2"
+    ],
+    "Iakob Tsurtaveli": [
+      "caucasus-428-645::t2"
+    ],
+    "Armenian Vardan Mamikonian": [
+      "caucasus-428-645::t2"
+    ],
+    "Procopius": [
+      "caucasus-428-645::t4",
+      "late-roman-anatolia-330-632::c1"
+    ],
+    "Movses Khorenatsi": [
+      "caucasus-428-645::t5"
+    ],
+    "History of Armenia": [
+      "caucasus-428-645::t5"
+    ],
+    "Gilgilchay": [
+      "caucasus-428-645::g1"
+    ],
+    "Derbent": [
+      "caucasus-428-645::g1"
+    ],
+    "Kavadh I": [
+      "caucasus-428-645::g1"
+    ],
+    "Petra": [
+      "caucasus-428-645::g2",
+      "decapolis-63bc-106ce::p5",
+      "nabataean-312bc-106ce::k3",
+      "nabataean-312bc-106ce::k4",
+      "nabataean-312bc-106ce::k5",
+      "nabataean-312bc-106ce::k6",
+      "nabataean-312bc-106ce::c3",
+      "nabataean-312bc-106ce::o2",
+      "nabataean-312bc-106ce::r3",
+      "nabataean-312bc-106ce::a1",
+      "nabataean-312bc-106ce::a3",
+      "nabataean-312bc-106ce::a4",
+      "nabataean-312bc-106ce::a5",
+      "nabataean-312bc-106ce::a6",
+      "nabataean-312bc-106ce::s1",
+      "nabataean-312bc-106ce::s3",
+      "nabataean-312bc-106ce::ex2",
+      "nabataean-312bc-106ce::ex3",
+      "nabataean-312bc-106ce::w1",
+      "nabataean-312bc-106ce::w2",
+      "nabataean-312bc-106ce::lv1",
+      "nabataean-312bc-106ce::lv3"
+    ],
+    "Nokalakevi": [
+      "caucasus-428-645::g2"
+    ],
+    "John Tzibus": [
+      "caucasus-428-645::g2"
+    ],
+    "Shushanik": [
+      "caucasus-428-645::l1"
     ],
     "Rubenid": [
       "cilician-armenia-1080-1375::p1",
@@ -85892,29 +86634,6 @@
     ],
     "Avoid Herodian Rule": [
       "decapolis-63bc-106ce::p4"
-    ],
-    "Petra": [
-      "decapolis-63bc-106ce::p5",
-      "nabataean-312bc-106ce::k3",
-      "nabataean-312bc-106ce::k4",
-      "nabataean-312bc-106ce::k5",
-      "nabataean-312bc-106ce::k6",
-      "nabataean-312bc-106ce::c3",
-      "nabataean-312bc-106ce::o2",
-      "nabataean-312bc-106ce::r3",
-      "nabataean-312bc-106ce::a1",
-      "nabataean-312bc-106ce::a3",
-      "nabataean-312bc-106ce::a4",
-      "nabataean-312bc-106ce::a5",
-      "nabataean-312bc-106ce::a6",
-      "nabataean-312bc-106ce::s1",
-      "nabataean-312bc-106ce::s3",
-      "nabataean-312bc-106ce::ex2",
-      "nabataean-312bc-106ce::ex3",
-      "nabataean-312bc-106ce::w1",
-      "nabataean-312bc-106ce::w2",
-      "nabataean-312bc-106ce::lv1",
-      "nabataean-312bc-106ce::lv3"
     ],
     "Trajan Annexation Ends the Decapolis Distinct Status": [
       "decapolis-63bc-106ce::p5"
@@ -87357,20 +88076,6 @@
       "egypt-1200bc-664bc::c4",
       "egypt-1550bc-1200bc::o5",
       "egypt-1550bc-1200bc::w2"
-    ],
-    "Palestine": [
-      "egypt-1200bc-664bc::c4",
-      "egypt-1900-1952::xc3",
-      "fatimids-909-1171::c7",
-      "fatimids-909-1171::w3",
-      "ghassanid-420-638::o2",
-      "ghassanid-420-638::w2",
-      "hejaz-1900-1925::o3",
-      "ilkhanate-1219-1335::c5",
-      "iraq-1914-1958::xc2",
-      "mesopotamia-141bc-224::xc4",
-      "nw-arabia-106-632::x3",
-      "rome-400-500::lv3"
     ],
     "Bubastite Portal": [
       "egypt-1200bc-664bc::c4"
@@ -90857,15 +91562,6 @@
       "egypt-300-641::k5",
       "rome-400-500::e3"
     ],
-    "Chalcedon": [
-      "egypt-300-641::k5",
-      "egypt-300-641::k11",
-      "egypt-300-641::b3",
-      "late-roman-anatolia-330-632::c6",
-      "late-roman-anatolia-330-632::x4",
-      "roman-byzantine-levant-135-638::b3",
-      "rome-400-500::r3"
-    ],
     "Proterius": [
       "egypt-300-641::k5"
     ],
@@ -90880,12 +91576,6 @@
       "late-roman-anatolia-330-632::p6",
       "late-roman-anatolia-330-632::w2",
       "sassanid-484-651::o3"
-    ],
-    "Heraclius": [
-      "egypt-300-641::k7",
-      "late-roman-anatolia-330-632::p7",
-      "mesopotamia-224-637::c5",
-      "sassanid-484-651::c5"
     ],
     "Cyrus the Caucasian": [
       "egypt-300-641::k7",
@@ -99784,13 +100474,6 @@
     "Braga": [
       "hispania-27bc-409ad::t5"
     ],
-    "Bethlehem": [
-      "hispania-27bc-409ad::t5",
-      "roman-byzantine-levant-135-638::b1",
-      "rome-300-400::t7",
-      "rome-400-500::r5",
-      "rome-400-500::tx2"
-    ],
     "Paulus Orosius": [
       "hispania-27bc-409ad::t5"
     ],
@@ -106084,9 +106767,6 @@
     "Nacolia": [
       "late-roman-anatolia-330-632::c1"
     ],
-    "Procopius": [
-      "late-roman-anatolia-330-632::c1"
-    ],
     "Tribigild": [
       "late-roman-anatolia-330-632::c2"
     ],
@@ -106266,14 +106946,7 @@
       "late-roman-anatolia-330-632::x3",
       "sassanid-224-484::k10"
     ],
-    "Dara": [
-      "late-roman-anatolia-330-632::x2",
-      "mesopotamia-224-637::xc1"
-    ],
     "Eternal Peace": [
-      "late-roman-anatolia-330-632::x2"
-    ],
-    "Fifty Years Peace": [
       "late-roman-anatolia-330-632::x2"
     ],
     "Sagalassos": [
@@ -106298,10 +106971,6 @@
     "Justin I": [
       "late-roman-anatolia-330-632::l2",
       "south-arabia-300bc-628::x3"
-    ],
-    "Justinian Novel": [
-      "late-roman-anatolia-330-632::l5",
-      "rome-400-500::lv1"
     ],
     "National Pact System": [
       "lebanon-1943-today::p1"
@@ -115739,10 +116408,6 @@
     "Ferdowsi Shahnameh": [
       "sassanid-224-484::k13"
     ],
-    "Yazdegerd II": [
-      "sassanid-224-484::k14",
-      "sassanid-224-484::c6"
-    ],
     "Hormizd III": [
       "sassanid-224-484::k15"
     ],
@@ -115778,9 +116443,6 @@
     ],
     "Defeat of Julian": [
       "sassanid-224-484::c5"
-    ],
-    "Avarayr": [
-      "sassanid-224-484::c6"
     ],
     "Bactria/Khorasan": [
       "sassanid-224-484::c7"
@@ -115961,10 +116623,6 @@
     "Immortal Soul": [
       "sassanid-484-651::k5"
     ],
-    "Hormizd IV": [
-      "sassanid-484-651::k6",
-      "sassanid-484-651::c8"
-    ],
     "Son of Khosrow I": [
       "sassanid-484-651::k6"
     ],
@@ -116136,9 +116794,6 @@
     ],
     "Panchatantra": [
       "sassanid-484-651::ex3"
-    ],
-    "Maurice": [
-      "sassanid-484-651::ex4"
     ],
     "Ethiopian Aksumites": [
       "sassanid-484-651::w1"
