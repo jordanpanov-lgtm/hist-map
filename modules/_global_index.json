@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 9097,
-    "folio_count": 190,
-    "xlink_pairs": 1912,
-    "keyword_terms": 13976,
+    "total_entries": 9134,
+    "folio_count": 191,
+    "xlink_pairs": 1918,
+    "keyword_terms": 14038,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -174,6 +174,11 @@
         "id": "caucasus-1917-1921",
         "title": "The Three Republics",
         "entries": 35
+      },
+      {
+        "id": "caucasus-1921-1953",
+        "title": "Soviet Caucasus",
+        "entries": 37
       },
       {
         "id": "caucasus-3500bc-1200bc",
@@ -2645,6 +2650,43 @@
     "caucasus-1917-1921::l1": "Women's suffrage",
     "caucasus-1917-1921::l3": "The Muslim and Armenian villagers",
     "caucasus-1917-1921::l2": "The orphans of Alexandropol",
+    "caucasus-1921-1953::p4": "The Armenian party secretaries",
+    "caucasus-1921-1953::p5": "Ordzhonikidze and Kirov",
+    "caucasus-1921-1953::p2": "Lavrenti Beria",
+    "caucasus-1921-1953::p3": "Mir Jafar Baghirov",
+    "caucasus-1921-1953::p1": "The Transcaucasian Federation",
+    "caucasus-1921-1953::c1": "The August rising in Georgia",
+    "caucasus-1921-1953::c2": "The Great Terror",
+    "caucasus-1921-1953::c4": "The war effort of the republics",
+    "caucasus-1921-1953::c3": "The Battle of the Caucasus",
+    "caucasus-1921-1953::c6": "Pishevari and the claims on Kars and Ardahan",
+    "caucasus-1921-1953::c5": "The Mingrelian affair and the arrests of 1949–1951",
+    "caucasus-1921-1953::o2": "The autonomous territories",
+    "caucasus-1921-1953::o1": "The Georgian affair",
+    "caucasus-1921-1953::o5": "Korenizatsiia, the policy of rooting",
+    "caucasus-1921-1953::o4": "The change of scripts",
+    "caucasus-1921-1953::o3": "The constitutions of 1936",
+    "caucasus-1921-1953::o6": "The end of Mingrelian and Svan literacy",
+    "caucasus-1921-1953::b1": "The Terror against the churches",
+    "caucasus-1921-1953::b3": "Islam under the anti-religious campaign",
+    "caucasus-1921-1953::b2": "The wartime concordat",
+    "caucasus-1921-1953::e3": "Georgian cinema and the writers",
+    "caucasus-1921-1953::e1": "Tamanian's Yerevan",
+    "caucasus-1921-1953::e2": "Khachaturian and Hajibeyov",
+    "caucasus-1921-1953::e4": "The jubilees of Rustaveli and Nizami",
+    "caucasus-1921-1953::t2": "Marr, Javakhishvili and Soviet historiography",
+    "caucasus-1921-1953::t1": "The academies and Byurakan",
+    "caucasus-1921-1953::ec1": "Baku's oil in the Soviet economy and the war",
+    "caucasus-1921-1953::ec4": "Tea, citrus and subtropical farming",
+    "caucasus-1921-1953::ec2": "Collectivisation and the villages",
+    "caucasus-1921-1953::ec3": "Rustavi and the Sevan–Hrazdan cascade",
+    "caucasus-1921-1953::g1": "Hydropower and the Sevan scheme",
+    "caucasus-1921-1953::x2": "The Persian corridor and Lend-Lease",
+    "caucasus-1921-1953::x1": "The Armenian repatriation",
+    "caucasus-1921-1953::w1": "Famine and war losses",
+    "caucasus-1921-1953::l1": "The unveiling campaign",
+    "caucasus-1921-1953::l3": "The families of the Terror",
+    "caucasus-1921-1953::l2": "The Meskhetian deportation",
     "caucasus-3500bc-1200bc::p1": "The Kura–Araxes horizon",
     "caucasus-3500bc-1200bc::p3": "Nakhchivan — Ovçular Tepesi and Kültepe",
     "caucasus-3500bc-1200bc::p2": "Shengavit — a walled town on the Hrazdan",
@@ -13558,6 +13600,39 @@
     "qajar-1789-1925::ec2": [
       "caucasus-1878-1917::ec1"
     ],
+    "caucasus-1917-1921::p6": [
+      "caucasus-1921-1953::p1"
+    ],
+    "caucasus-1921-1953::p1": [
+      "caucasus-1917-1921::p6"
+    ],
+    "caucasus-1917-1921::o3": [
+      "caucasus-1921-1953::o3"
+    ],
+    "caucasus-1921-1953::o3": [
+      "caucasus-1917-1921::o3"
+    ],
+    "caucasus-1917-1921::o5": [
+      "caucasus-1921-1953::o2"
+    ],
+    "caucasus-1921-1953::o2": [
+      "caucasus-1917-1921::o5"
+    ],
+    "caucasus-1921-1953::c6": [
+      "pahlavi-1925-1979::c1",
+      "turkey-1923-1980::x4"
+    ],
+    "pahlavi-1925-1979::c1": [
+      "caucasus-1921-1953::c6",
+      "caucasus-1921-1953::x2"
+    ],
+    "turkey-1923-1980::x4": [
+      "caucasus-1921-1953::c6",
+      "iraq-1914-1958::xc3"
+    ],
+    "caucasus-1921-1953::x2": [
+      "pahlavi-1925-1979::c1"
+    ],
     "caucasus-3500bc-1200bc::p8": [
       "hittite-1650bc-1180bc::p6"
     ],
@@ -16997,9 +17072,6 @@
     ],
     "iraq-1914-1958::xc3": [
       "turkey-1923-1980::x4"
-    ],
-    "turkey-1923-1980::x4": [
-      "iraq-1914-1958::xc3"
     ],
     "iraq-1914-1958::xc4": [
       "iraq-1958-1979::e1"
@@ -28746,6 +28818,229 @@
     "caucasus-1917-1921::l2": [
       "Alexandropol Gyumri",
       "Near East Relief"
+    ],
+    "caucasus-1921-1953::p4": [
+      "Soviet",
+      "Yerevan",
+      "Armenian",
+      "Aghasi Khanjian",
+      "Grigory Arutinov"
+    ],
+    "caucasus-1921-1953::p5": [
+      "Soviet",
+      "Tbilisi",
+      "Baku",
+      "Sergo Ordzhonikidze",
+      "Georgian Bolshevik",
+      "Caucasian Bureau"
+    ],
+    "caucasus-1921-1953::p2": [
+      "Soviet",
+      "Tbilisi",
+      "Lavrenti Beria",
+      "Georgian Communist"
+    ],
+    "caucasus-1921-1953::p3": [
+      "Soviet",
+      "Baku",
+      "Mir Jafar Baghirov",
+      "Azerbaijan Communist"
+    ],
+    "caucasus-1921-1953::p1": [
+      "Soviet",
+      "Tbilisi",
+      "Transcaucasian Federation",
+      "Moscow Caucasian Bureau"
+    ],
+    "caucasus-1921-1953::c1": [
+      "Chiatura",
+      "Guria",
+      "Mingrelia",
+      "August",
+      "Georgia",
+      "Red Army"
+    ],
+    "caucasus-1921-1953::c2": [
+      "Tbilisi",
+      "Yerevan",
+      "Baku",
+      "Terror",
+      "Mikheil Javakhishvili",
+      "Titsian Tabidze"
+    ],
+    "caucasus-1921-1953::c4": [
+      "Transcaucasia",
+      "Red Army",
+      "Admiral Isakov"
+    ],
+    "caucasus-1921-1953::c3": [
+      "Mozdok",
+      "Terek",
+      "Operation Edelweiss",
+      "North Caucasus",
+      "Mount Elbrus"
+    ],
+    "caucasus-1921-1953::c6": [
+      "Soviet Azerbaijan",
+      "Iranian Azerbaijan",
+      "Kars",
+      "Ardahan",
+      "Azerbaijan People Government",
+      "Jafar Pishevari"
+    ],
+    "caucasus-1921-1953::c5": [
+      "Georgia",
+      "Armenia",
+      "Mingrelian"
+    ],
+    "caucasus-1921-1953::o2": [
+      "Karabakh",
+      "Abkhazia",
+      "South Ossetia",
+      "Adjara ASSR",
+      "Abkhaz SSR",
+      "South Ossetian"
+    ],
+    "caucasus-1921-1953::o1": [
+      "Tbilisi",
+      "Moscow",
+      "Georgian",
+      "Sergo Ordzhonikidze",
+      "Georgia Communist",
+      "Budu Mdivani"
+    ],
+    "caucasus-1921-1953::o5": [
+      "Transcaucasia",
+      "Korenizatsiia"
+    ],
+    "caucasus-1921-1953::o4": [
+      "Baku"
+    ],
+    "caucasus-1921-1953::o3": [
+      "Moscow",
+      "Transcaucasian Federation"
+    ],
+    "caucasus-1921-1953::o6": [
+      "Mingrelia",
+      "Svaneti",
+      "Mingrelian",
+      "Svan"
+    ],
+    "caucasus-1921-1953::b1": [
+      "Terror",
+      "Georgia the Catholicos Ambrosi",
+      "Genoa Conference",
+      "Armenia the Catholicos Khoren I"
+    ],
+    "caucasus-1921-1953::b3": [
+      "Azerbaijan",
+      "Islam"
+    ],
+    "caucasus-1921-1953::b2": [
+      "Tbilisi",
+      "Etchmiadzin",
+      "Moscow Patriarchate",
+      "Armenia Gevorg VI"
+    ],
+    "caucasus-1921-1953::e3": [
+      "Tbilisi",
+      "Georgian",
+      "Kote Marjanishvili",
+      "Nikoloz Shengelaia",
+      "Mikheil Kalatozishvili Kalatozov",
+      "Mikheil Chiaureli"
+    ],
+    "caucasus-1921-1953::e1": [
+      "Tamanian Yerevan",
+      "Alexander Tamanian"
+    ],
+    "caucasus-1921-1953::e2": [
+      "Yerevan",
+      "Baku",
+      "Moscow",
+      "Aram Khachaturian",
+      "Piano Concerto",
+      "Sabre Dance"
+    ],
+    "caucasus-1921-1953::e4": [
+      "Tbilisi",
+      "Baku",
+      "Rustaveli",
+      "Nizami"
+    ],
+    "caucasus-1921-1953::t2": [
+      "Leningrad",
+      "Soviet",
+      "Nikolai Marr",
+      "Ivane Javakhishvili",
+      "Tbilisi University"
+    ],
+    "caucasus-1921-1953::t1": [
+      "Tbilisi",
+      "Yerevan",
+      "Baku",
+      "Georgian Academy of Sciences",
+      "Hovsep Orbeli",
+      "Azerbaijan Academy"
+    ],
+    "caucasus-1921-1953::ec1": [
+      "Baku",
+      "Soviet",
+      "Red Army"
+    ],
+    "caucasus-1921-1953::ec4": [
+      "Adjara",
+      "Abkhazia",
+      "Tea",
+      "Soviet Union"
+    ],
+    "caucasus-1921-1953::ec2": [
+      "Georgia",
+      "Armenia",
+      "Azerbaijan",
+      "Collectivisation"
+    ],
+    "caucasus-1921-1953::ec3": [
+      "Rustavi",
+      "Lake Sevan",
+      "Sevan–Hrazdan"
+    ],
+    "caucasus-1921-1953::g1": [
+      "Hrazdan",
+      "Rioni",
+      "Hydropower",
+      "Sevan",
+      "Zemo Avchala"
+    ],
+    "caucasus-1921-1953::x2": [
+      "Baku",
+      "Iran",
+      "Lend-Lease"
+    ],
+    "caucasus-1921-1953::x1": [
+      "Soviet Armenia",
+      "Armenian",
+      "United States"
+    ],
+    "caucasus-1921-1953::w1": [
+      "Transcaucasia",
+      "Famine"
+    ],
+    "caucasus-1921-1953::l1": [
+      "Baku",
+      "Azerbaijan",
+      "Soviet Hujum"
+    ],
+    "caucasus-1921-1953::l3": [
+      "Tbilisi",
+      "Yerevan",
+      "Terror"
+    ],
+    "caucasus-1921-1953::l2": [
+      "Meskheti-Javakheti",
+      "Central Asia",
+      "Meskhetian Turks",
+      "Hemshin Armenians"
     ],
     "caucasus-3500bc-1200bc::p1": [
       "Kura",
@@ -71868,6 +72163,7 @@
       "caliphate-750-945::e2",
       "caliphate-945-1258::b8",
       "canaan-2000bc-1200bc::tc2",
+      "caucasus-1921-1953::l2",
       "caucasus-884-1064::w2",
       "elam-3200bc-1500bc::ec1",
       "elam-3200bc-1500bc::x2",
@@ -72011,6 +72307,8 @@
       "caucasus-1828-1878::t2",
       "caucasus-1878-1917::o1",
       "caucasus-1917-1921::l3",
+      "caucasus-1921-1953::p4",
+      "caucasus-1921-1953::x1",
       "caucasus-3500bc-1200bc::p8",
       "caucasus-3500bc-1200bc::c2",
       "caucasus-3500bc-1200bc::t1",
@@ -72080,6 +72378,8 @@
       "caucasus-1917-1921::p3",
       "caucasus-1917-1921::c9",
       "caucasus-1917-1921::ec2",
+      "caucasus-1921-1953::c5",
+      "caucasus-1921-1953::ec2",
       "caucasus-428-645::p1",
       "caucasus-428-645::p5",
       "caucasus-428-645::c2",
@@ -72220,6 +72520,7 @@
     ],
     "Iranian Azerbaijan": [
       "achaemenid-caucasus-585bc-330bc::p11",
+      "caucasus-1921-1953::c6",
       "caucasus-3500bc-1200bc::x1"
     ],
     "Zuzza": [
@@ -73251,6 +73552,7 @@
       "beth-qatraye-240-632::k3",
       "beth-qatraye-632-750::w3",
       "caliphate-632-750::b7",
+      "caucasus-1921-1953::b3",
       "egypt-1900-1952::b2",
       "egypt-641-969::k14",
       "ghassanid-420-638::r4",
@@ -76545,6 +76847,7 @@
       "caucasus-1917-1921::c1",
       "caucasus-1917-1921::c8",
       "caucasus-1917-1921::o4",
+      "caucasus-1921-1953::c6",
       "caucasus-884-1064::p2",
       "caucasus-884-1064::p6",
       "ottoman-anatolia-1800-1908::c2"
@@ -76843,6 +77146,9 @@
       "caucasus-1501-1747::x1",
       "caucasus-1828-1878::t2",
       "caucasus-1917-1921::o4",
+      "caucasus-1921-1953::o1",
+      "caucasus-1921-1953::o3",
+      "caucasus-1921-1953::e2",
       "france-1789-1815::w1",
       "spain-1900-1975::k9"
     ],
@@ -83296,6 +83602,7 @@
     ],
     "United States": [
       "bahrain-1971-today::x2",
+      "caucasus-1921-1953::x1",
       "egypt-1952-today::k3",
       "egypt-1952-today::g1",
       "egypt-1952-today::xc3",
@@ -83438,6 +83745,7 @@
       "caliphate-945-1258::x5",
       "caliphate-945-1258::lv4",
       "caucasus-1501-1747::l1",
+      "caucasus-1921-1953::x2",
       "caucasus-3500bc-1200bc::x1",
       "fatimids-909-1171::x1",
       "hormuz-1200-1507::w1",
@@ -85506,6 +85814,9 @@
       "caucasus-1917-1921::c9",
       "caucasus-1917-1921::o3",
       "caucasus-1917-1921::ec3",
+      "caucasus-1921-1953::c1",
+      "caucasus-1921-1953::c5",
+      "caucasus-1921-1953::ec2",
       "caucasus-3500bc-1200bc::p7",
       "caucasus-3500bc-1200bc::t2",
       "caucasus-428-645::g3",
@@ -85733,6 +86044,9 @@
       "caucasus-1501-1747::b1",
       "caucasus-1850000bc-3500bc::b1",
       "caucasus-1878-1917::ec3",
+      "caucasus-1921-1953::b3",
+      "caucasus-1921-1953::ec2",
+      "caucasus-1921-1953::l1",
       "caucasus-645-884::c5"
     ],
     "Oghuz Turkmen": [
@@ -88536,7 +88850,8 @@
       "caucasus-1878-1917::e2",
       "caucasus-1878-1917::x2",
       "caucasus-1878-1917::l3",
-      "caucasus-1917-1921::b1"
+      "caucasus-1917-1921::b1",
+      "caucasus-1921-1953::b2"
     ],
     "Armenian Church": [
       "caucasus-1-428::e2",
@@ -88739,6 +89054,16 @@
       "caucasus-1917-1921::e2",
       "caucasus-1917-1921::t1",
       "caucasus-1917-1921::l1",
+      "caucasus-1921-1953::p5",
+      "caucasus-1921-1953::p2",
+      "caucasus-1921-1953::p1",
+      "caucasus-1921-1953::c2",
+      "caucasus-1921-1953::o1",
+      "caucasus-1921-1953::b2",
+      "caucasus-1921-1953::e3",
+      "caucasus-1921-1953::e4",
+      "caucasus-1921-1953::t1",
+      "caucasus-1921-1953::l3",
       "caucasus-428-645::p6",
       "caucasus-428-645::p7",
       "caucasus-428-645::c6",
@@ -88794,6 +89119,8 @@
       "caucasus-1828-1878::p4",
       "caucasus-1828-1878::b1",
       "caucasus-1878-1917::b1",
+      "caucasus-1921-1953::o1",
+      "caucasus-1921-1953::e3",
       "caucasus-428-645::t1",
       "caucasus-884-1064::b3",
       "caucasus-884-1064::t4"
@@ -88850,7 +89177,17 @@
       "caucasus-1917-1921::b2",
       "caucasus-1917-1921::e2",
       "caucasus-1917-1921::t1",
-      "caucasus-1917-1921::l1"
+      "caucasus-1917-1921::l1",
+      "caucasus-1921-1953::p5",
+      "caucasus-1921-1953::p3",
+      "caucasus-1921-1953::c2",
+      "caucasus-1921-1953::o4",
+      "caucasus-1921-1953::e2",
+      "caucasus-1921-1953::e4",
+      "caucasus-1921-1953::t1",
+      "caucasus-1921-1953::ec1",
+      "caucasus-1921-1953::x2",
+      "caucasus-1921-1953::l1"
     ],
     "Shirvanshahs of Shamakhi": [
       "caucasus-1064-1243::p9"
@@ -89320,7 +89657,8 @@
     ],
     "Terek": [
       "caucasus-1243-1501::c1",
-      "caucasus-1243-1501::c3"
+      "caucasus-1243-1501::c3",
+      "caucasus-1921-1953::c3"
     ],
     "Ilkhanate of Hulagu": [
       "caucasus-1243-1501::c1"
@@ -89439,7 +89777,8 @@
       "caucasus-1243-1501::e2"
     ],
     "Svaneti": [
-      "caucasus-1243-1501::e4"
+      "caucasus-1243-1501::e4",
+      "caucasus-1921-1953::o6"
     ],
     "Shirvanshah": [
       "caucasus-1243-1501::e3"
@@ -89700,6 +90039,7 @@
       "caucasus-1850000bc-3500bc::p9",
       "caucasus-1917-1921::o5",
       "caucasus-1917-1921::l3",
+      "caucasus-1921-1953::o2",
       "caucasus-884-1064::b4",
       "urartu-colchis-1200bc-585bc::p11"
     ],
@@ -90183,7 +90523,10 @@
       "caucasus-1828-1878::w1",
       "caucasus-1878-1917::o3",
       "caucasus-1917-1921::g1",
-      "caucasus-1917-1921::w1"
+      "caucasus-1917-1921::w1",
+      "caucasus-1921-1953::c4",
+      "caucasus-1921-1953::o5",
+      "caucasus-1921-1953::w1"
     ],
     "Württembergers Katharinenfeld": [
       "caucasus-1747-1828::x2"
@@ -90218,6 +90561,7 @@
     ],
     "North Caucasus": [
       "caucasus-1828-1878::p3",
+      "caucasus-1921-1953::c3",
       "urartu-colchis-1200bc-585bc::w2"
     ],
     "Grand Duke Mikhail Nikolaevich Viceroy": [
@@ -90243,7 +90587,9 @@
       "caucasus-1828-1878::c1"
     ],
     "Mingrelian": [
-      "caucasus-1828-1878::c6"
+      "caucasus-1828-1878::c6",
+      "caucasus-1921-1953::c5",
+      "caucasus-1921-1953::o6"
     ],
     "Imeretian": [
       "caucasus-1828-1878::c6"
@@ -90280,13 +90626,16 @@
     ],
     "Abkhazia": [
       "caucasus-1828-1878::c5",
+      "caucasus-1921-1953::o2",
+      "caucasus-1921-1953::ec4",
       "caucasus-645-884::p8"
     ],
     "Abkhaz of Sukhum": [
       "caucasus-1828-1878::c5"
     ],
     "Ardahan": [
-      "caucasus-1828-1878::c4"
+      "caucasus-1828-1878::c4",
+      "caucasus-1921-1953::c6"
     ],
     "Batum": [
       "caucasus-1828-1878::c4",
@@ -90471,6 +90820,7 @@
     ],
     "Hrazdan": [
       "caucasus-1850000bc-3500bc::p3",
+      "caucasus-1921-1953::g1",
       "caucasus-3500bc-1200bc::p2"
     ],
     "Lower-to-Middle Palaeolithic": [
@@ -90653,7 +91003,8 @@
       "caucasus-1878-1917::p3"
     ],
     "Guria": [
-      "caucasus-1878-1917::c2"
+      "caucasus-1878-1917::c2",
+      "caucasus-1921-1953::c1"
     ],
     "Gurian": [
       "caucasus-1878-1917::c2"
@@ -90751,6 +91102,11 @@
       "caucasus-1917-1921::e2",
       "caucasus-1917-1921::t1",
       "caucasus-1917-1921::ec2",
+      "caucasus-1921-1953::p4",
+      "caucasus-1921-1953::c2",
+      "caucasus-1921-1953::e2",
+      "caucasus-1921-1953::t1",
+      "caucasus-1921-1953::l3",
       "caucasus-3500bc-1200bc::p2",
       "urartu-colchis-1200bc-585bc::c6",
       "urartu-colchis-1200bc-585bc::e2"
@@ -90822,7 +91178,8 @@
       "caucasus-1878-1917::ec1"
     ],
     "Chiatura": [
-      "caucasus-1878-1917::ec2"
+      "caucasus-1878-1917::ec2",
+      "caucasus-1921-1953::c1"
     ],
     "Alaverdi": [
       "caucasus-1878-1917::ec2"
@@ -90877,6 +91234,7 @@
     ],
     "Lake Sevan": [
       "caucasus-1917-1921::p3",
+      "caucasus-1921-1953::ec3",
       "caucasus-3500bc-1200bc::p6",
       "caucasus-3500bc-1200bc::e3",
       "hellenistic-caucasus-330bc-1bc::o1",
@@ -90927,7 +91285,10 @@
     "Red Army": [
       "caucasus-1917-1921::p6",
       "caucasus-1917-1921::c9",
-      "caucasus-1917-1921::ec1"
+      "caucasus-1917-1921::ec1",
+      "caucasus-1921-1953::c1",
+      "caucasus-1921-1953::c4",
+      "caucasus-1921-1953::ec1"
     ],
     "Alexandropol": [
       "caucasus-1917-1921::c1",
@@ -91003,16 +91364,20 @@
       "turkey-1923-1980::c7"
     ],
     "Transcaucasian Federation": [
-      "caucasus-1917-1921::o2"
+      "caucasus-1917-1921::o2",
+      "caucasus-1921-1953::p1",
+      "caucasus-1921-1953::o3"
     ],
     "Caucasian Bureau of the Russian Communist Party": [
       "caucasus-1917-1921::o5"
     ],
     "Soviet Armenia": [
-      "caucasus-1917-1921::o5"
+      "caucasus-1917-1921::o5",
+      "caucasus-1921-1953::x1"
     ],
     "Soviet Azerbaijan": [
-      "caucasus-1917-1921::o5"
+      "caucasus-1917-1921::o5",
+      "caucasus-1921-1953::c6"
     ],
     "Sunni–Shia": [
       "caucasus-1917-1921::b2",
@@ -91038,13 +91403,15 @@
       "caucasus-1917-1921::e2"
     ],
     "Titsian Tabidze": [
-      "caucasus-1917-1921::e2"
+      "caucasus-1917-1921::e2",
+      "caucasus-1921-1953::c2"
     ],
     "Tbilisi State University": [
       "caucasus-1917-1921::e1"
     ],
     "Ivane Javakhishvili": [
-      "caucasus-1917-1921::e1"
+      "caucasus-1917-1921::e1",
+      "caucasus-1921-1953::t2"
     ],
     "Yerevan State University": [
       "caucasus-1917-1921::e1"
@@ -91102,6 +91469,237 @@
     ],
     "Alexandropol Gyumri": [
       "caucasus-1917-1921::l2"
+    ],
+    "Soviet": [
+      "caucasus-1921-1953::p4",
+      "caucasus-1921-1953::p5",
+      "caucasus-1921-1953::p2",
+      "caucasus-1921-1953::p3",
+      "caucasus-1921-1953::p1",
+      "caucasus-1921-1953::t2",
+      "caucasus-1921-1953::ec1"
+    ],
+    "Aghasi Khanjian": [
+      "caucasus-1921-1953::p4"
+    ],
+    "Grigory Arutinov": [
+      "caucasus-1921-1953::p4"
+    ],
+    "Sergo Ordzhonikidze": [
+      "caucasus-1921-1953::p5",
+      "caucasus-1921-1953::o1"
+    ],
+    "Georgian Bolshevik": [
+      "caucasus-1921-1953::p5"
+    ],
+    "Caucasian Bureau": [
+      "caucasus-1921-1953::p5"
+    ],
+    "Lavrenti Beria": [
+      "caucasus-1921-1953::p2"
+    ],
+    "Georgian Communist": [
+      "caucasus-1921-1953::p2"
+    ],
+    "Mir Jafar Baghirov": [
+      "caucasus-1921-1953::p3"
+    ],
+    "Azerbaijan Communist": [
+      "caucasus-1921-1953::p3"
+    ],
+    "Moscow Caucasian Bureau": [
+      "caucasus-1921-1953::p1"
+    ],
+    "Mingrelia": [
+      "caucasus-1921-1953::c1",
+      "caucasus-1921-1953::o6"
+    ],
+    "August": [
+      "caucasus-1921-1953::c1",
+      "france-1789-1815::o1",
+      "spain-1900-1975::lv7"
+    ],
+    "Terror": [
+      "caucasus-1921-1953::c2",
+      "caucasus-1921-1953::b1",
+      "caucasus-1921-1953::l3",
+      "france-1789-1815::c2",
+      "qajar-1789-1925::p1"
+    ],
+    "Mikheil Javakhishvili": [
+      "caucasus-1921-1953::c2"
+    ],
+    "Admiral Isakov": [
+      "caucasus-1921-1953::c4"
+    ],
+    "Mozdok": [
+      "caucasus-1921-1953::c3"
+    ],
+    "Operation Edelweiss": [
+      "caucasus-1921-1953::c3"
+    ],
+    "Mount Elbrus": [
+      "caucasus-1921-1953::c3"
+    ],
+    "Azerbaijan People Government": [
+      "caucasus-1921-1953::c6"
+    ],
+    "Jafar Pishevari": [
+      "caucasus-1921-1953::c6"
+    ],
+    "South Ossetia": [
+      "caucasus-1921-1953::o2"
+    ],
+    "Adjara ASSR": [
+      "caucasus-1921-1953::o2"
+    ],
+    "Abkhaz SSR": [
+      "caucasus-1921-1953::o2"
+    ],
+    "South Ossetian": [
+      "caucasus-1921-1953::o2"
+    ],
+    "Georgia Communist": [
+      "caucasus-1921-1953::o1"
+    ],
+    "Budu Mdivani": [
+      "caucasus-1921-1953::o1"
+    ],
+    "Korenizatsiia": [
+      "caucasus-1921-1953::o5"
+    ],
+    "Svan": [
+      "caucasus-1921-1953::o6"
+    ],
+    "Georgia the Catholicos Ambrosi": [
+      "caucasus-1921-1953::b1"
+    ],
+    "Genoa Conference": [
+      "caucasus-1921-1953::b1"
+    ],
+    "Armenia the Catholicos Khoren I": [
+      "caucasus-1921-1953::b1"
+    ],
+    "Moscow Patriarchate": [
+      "caucasus-1921-1953::b2"
+    ],
+    "Armenia Gevorg VI": [
+      "caucasus-1921-1953::b2"
+    ],
+    "Kote Marjanishvili": [
+      "caucasus-1921-1953::e3"
+    ],
+    "Nikoloz Shengelaia": [
+      "caucasus-1921-1953::e3"
+    ],
+    "Mikheil Kalatozishvili Kalatozov": [
+      "caucasus-1921-1953::e3"
+    ],
+    "Mikheil Chiaureli": [
+      "caucasus-1921-1953::e3"
+    ],
+    "Tamanian Yerevan": [
+      "caucasus-1921-1953::e1"
+    ],
+    "Alexander Tamanian": [
+      "caucasus-1921-1953::e1"
+    ],
+    "Aram Khachaturian": [
+      "caucasus-1921-1953::e2"
+    ],
+    "Piano Concerto": [
+      "caucasus-1921-1953::e2"
+    ],
+    "Sabre Dance": [
+      "caucasus-1921-1953::e2"
+    ],
+    "Rustaveli": [
+      "caucasus-1921-1953::e4"
+    ],
+    "Nizami": [
+      "caucasus-1921-1953::e4"
+    ],
+    "Leningrad": [
+      "caucasus-1921-1953::t2"
+    ],
+    "Nikolai Marr": [
+      "caucasus-1921-1953::t2"
+    ],
+    "Tbilisi University": [
+      "caucasus-1921-1953::t2"
+    ],
+    "Georgian Academy of Sciences": [
+      "caucasus-1921-1953::t1"
+    ],
+    "Hovsep Orbeli": [
+      "caucasus-1921-1953::t1"
+    ],
+    "Azerbaijan Academy": [
+      "caucasus-1921-1953::t1"
+    ],
+    "Adjara": [
+      "caucasus-1921-1953::ec4"
+    ],
+    "Tea": [
+      "caucasus-1921-1953::ec4"
+    ],
+    "Soviet Union": [
+      "caucasus-1921-1953::ec4",
+      "egypt-1952-today::g1",
+      "iraq-1914-1958::c5",
+      "iraq-1914-1958::xc3",
+      "iraq-1914-1958::xc5",
+      "iraq-1958-1979::xc1",
+      "iraq-1979-2003::xc2",
+      "israel-1948-today::l1",
+      "kuwait-1961-today::c2",
+      "pahlavi-1925-1979::c1",
+      "trucial-gulf-1900-1971::w3",
+      "turkey-1923-1980::e2",
+      "turkey-1923-1980::x5"
+    ],
+    "Collectivisation": [
+      "caucasus-1921-1953::ec2"
+    ],
+    "Rustavi": [
+      "caucasus-1921-1953::ec3"
+    ],
+    "Sevan–Hrazdan": [
+      "caucasus-1921-1953::ec3"
+    ],
+    "Rioni": [
+      "caucasus-1921-1953::g1",
+      "urartu-colchis-1200bc-585bc::p10"
+    ],
+    "Hydropower": [
+      "caucasus-1921-1953::g1"
+    ],
+    "Sevan": [
+      "caucasus-1921-1953::g1"
+    ],
+    "Zemo Avchala": [
+      "caucasus-1921-1953::g1"
+    ],
+    "Lend-Lease": [
+      "caucasus-1921-1953::x2"
+    ],
+    "Famine": [
+      "caucasus-1921-1953::w1",
+      "hejaz-632-1517::ec4",
+      "herod-judea-63bc-135ce::l2",
+      "hittite-1650bc-1180bc::ec4"
+    ],
+    "Soviet Hujum": [
+      "caucasus-1921-1953::l1"
+    ],
+    "Meskheti-Javakheti": [
+      "caucasus-1921-1953::l2"
+    ],
+    "Meskhetian Turks": [
+      "caucasus-1921-1953::l2"
+    ],
+    "Hemshin Armenians": [
+      "caucasus-1921-1953::l2"
     ],
     "Lesser Caucasus": [
       "caucasus-3500bc-1200bc::p1",
@@ -96817,20 +97415,6 @@
     ],
     "Building the Aswan High Dam": [
       "egypt-1952-today::g1"
-    ],
-    "Soviet Union": [
-      "egypt-1952-today::g1",
-      "iraq-1914-1958::c5",
-      "iraq-1914-1958::xc3",
-      "iraq-1914-1958::xc5",
-      "iraq-1958-1979::xc1",
-      "iraq-1979-2003::xc2",
-      "israel-1948-today::l1",
-      "kuwait-1961-today::c2",
-      "pahlavi-1925-1979::c1",
-      "trucial-gulf-1900-1971::w3",
-      "turkey-1923-1980::e2",
-      "turkey-1923-1980::x5"
     ],
     "Lake Nasser": [
       "egypt-1952-today::g1"
@@ -102689,10 +103273,6 @@
     "Place de la Révolution": [
       "france-1789-1815::c2"
     ],
-    "Terror": [
-      "france-1789-1815::c2",
-      "qajar-1789-1925::p1"
-    ],
     "Committee of Public Safety": [
       "france-1789-1815::c2"
     ],
@@ -102777,10 +103357,6 @@
     ],
     "Declaration of the Rights of Man": [
       "france-1789-1815::o1"
-    ],
-    "August": [
-      "france-1789-1815::o1",
-      "spain-1900-1975::lv7"
     ],
     "Universal Declaration of Human Rights": [
       "france-1789-1815::o1"
@@ -105008,11 +105584,6 @@
     ],
     "Andalusian Ibn Jubayr Riḥla": [
       "hejaz-632-1517::t2"
-    ],
-    "Famine": [
-      "hejaz-632-1517::ec4",
-      "herod-judea-63bc-135ce::l2",
-      "hittite-1650bc-1180bc::ec4"
     ],
     "Zubayda": [
       "hejaz-632-1517::tc1"
@@ -130147,9 +130718,6 @@
     ],
     "Qulha": [
       "urartu-colchis-1200bc-585bc::p9"
-    ],
-    "Rioni": [
-      "urartu-colchis-1200bc-585bc::p10"
     ],
     "Early Iron Age the Colchian": [
       "urartu-colchis-1200bc-585bc::p10"

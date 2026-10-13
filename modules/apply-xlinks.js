@@ -1916,6 +1916,12 @@ const SELECTED_PAIRS = [
   ['caucasus-1917-1921::t1', 'caucasus-1878-1917::t2'],      // the Mensheviks and Mesame Dasi
   ['caucasus-1917-1921::t1', 'caucasus-1878-1917::t1'],      // the Dashnaks
   ['caucasus-1917-1921::t1', 'caucasus-1878-1917::t3'],      // Musavat and Hummet
+  ['caucasus-1921-1953::x2', 'pahlavi-1925-1979::c1'],      // the Anglo-Soviet invasion of Iran and the supply route
+  ['caucasus-1921-1953::c6', 'pahlavi-1925-1979::c1'],      // the Soviet occupation of northern Iran
+  ['caucasus-1921-1953::c6', 'turkey-1923-1980::x4'],      // Soviet demands on Turkey and the Truman Doctrine
+  ['caucasus-1921-1953::o2', 'caucasus-1917-1921::o5'],      // the Karabakh decision and the autonomous oblast
+  ['caucasus-1921-1953::p1', 'caucasus-1917-1921::p6'],      // Sovietisation and the Transcaucasian Federation
+  ['caucasus-1921-1953::o3', 'caucasus-1917-1921::o3'],      // the constitutions of Georgia in 1921 and the USSR in 1936
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
