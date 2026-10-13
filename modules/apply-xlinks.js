@@ -1950,6 +1950,24 @@ const SELECTED_PAIRS = [
   ['armenia-1991-today::b2', 'anatolia-1908-1923::c8'],      // the arrests of 24 April 1915 and the canonisation of 2015
   ['armenia-1991-today::c8', 'turkey-1980-today::g2'],      // Turkish drones in the war of 2020
   ['armenia-1991-today::x7', 'caucasus-1917-1921::c7'],      // Zangezur in 1920 and the transit route through Syunik
+  ['georgia-1991-today::o1', 'caucasus-1953-1991::o3'],      // the independence acts of 1991 and the restoration
+  ['georgia-1991-today::o1', 'caucasus-1917-1921::p2'],      // the republic of 1918–1921 and its restoration in 1991
+  ['georgia-1991-today::o1', 'armenia-1991-today::o1'],      // the independence referendums of the two republics
+  ['georgia-1991-today::o2', 'caucasus-1917-1921::o3'],      // the constitution of 1921 and that of 1995
+  ['georgia-1991-today::p1', 'caucasus-1953-1991::p5'],      // the presidents elected in 1990–1991
+  ['georgia-1991-today::p1', 'caucasus-1953-1991::t1'],      // the dissident who became president
+  ['georgia-1991-today::p2', 'caucasus-1953-1991::p1'],      // Shevardnadze as party secretary and as president
+  ['georgia-1991-today::c3', 'caucasus-1953-1991::c9'],      // the abolition of the oblast and the war that followed
+  ['georgia-1991-today::c2', 'caucasus-1953-1991::c8'],      // Sukhumi in 1989 and the war of 1992–1993
+  ['georgia-1991-today::w1', 'caucasus-1953-1991::w2'],      // the refugees of 1988–1991 and the displaced of the wars
+  ['georgia-1991-today::b1', 'caucasus-1953-1991::b1'],      // Ilia II as patriarch in the Soviet and independent years
+  ['georgia-1991-today::c12', 'caucasus-1953-1991::c6'],      // Rustaveli Avenue in 1989 and in 2024
+  ['georgia-1991-today::l1', 'caucasus-1917-1921::l1'],      // women’s suffrage of 1918 and women in politics
+  ['georgia-1991-today::l3', 'caucasus-1921-1953::l2'],      // the Meskhetian deportation of 1944 and the repatriation law of 2007
+  ['georgia-1991-today::t3', 'caucasus-1953-1991::c1'],      // the Stalin demonstrations of 1956 and the memory of Stalin
+  ['georgia-1991-today::t3', 'caucasus-1917-1921::c9'],      // the Red Army’s entry of 1921 and the museum of occupation
+  ['georgia-1991-today::x2', 'armenia-1991-today::x3'],      // the EU paths of Georgia and Armenia
+  ['georgia-1991-today::x3', 'armenia-1991-today::x2'],      // the relations of Georgia and Armenia with Russia
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
