@@ -1598,6 +1598,22 @@ const SELECTED_PAIRS = [
   ['byzantine-anatolia-867-1071::b4', 'byzantine-anatolia-632-867::b4'],      // the Paulicians
   ['byzantine-anatolia-867-1071::c1', 'byzantine-anatolia-632-867::c10'],      // Tephrike and the Paulicians
   ['byzantine-anatolia-867-1071::p1', 'byzantine-anatolia-632-867::p6'],      // Basil I took power from Michael III and Bardas
+  ['seljuks-of-rum-1071-1308::x3', 'ilkhanate-1219-1335::x3'],      // Rumi's family leaves Balkh
+  ['seljuks-of-rum-1071-1308::c10', 'mamluks-1250-1517::k3'],      // Baybars
+  ['seljuks-of-rum-1071-1308::c10', 'mamluks-1250-1517::c2'],      // the Ilkhanid invasions and Baybars in Anatolia
+  ['seljuks-of-rum-1071-1308::c10', 'mamluk-syria-1260-1516::c2'],      // the long war with the Mongol Ilkhanate
+  ['seljuks-of-rum-1071-1308::c2', 'caliphate-945-1258::c4'],      // the First Crusade
+  ['seljuks-of-rum-1071-1308::c6', 'caliphate-945-1258::c7'],      // the Third Crusade
+  ['seljuks-of-rum-1071-1308::g1', 'iran-1055-1219::tc1'],      // the caravanserai network
+  ['seljuks-of-rum-1071-1308::w1', 'iran-1055-1219::x1'],      // Turkic settlement in Anatolia
+  ['seljuks-of-rum-1071-1308::c1', 'iran-1055-1219::x1'],      // the Turkmen conquest and settlement
+  ['seljuks-of-rum-1071-1308::b3', 'al-andalus-1031-1492::r1'],      // Ibn Arabi
+  ['seljuks-of-rum-1071-1308::b3', 'ayyubids-1171-1250::b3'],      // Sufism becomes institutional
+  ['seljuks-of-rum-1071-1308::x3', 'ayyubids-1171-1250::x4'],      // scholars fleeing the Mongols
+  ['seljuks-of-rum-1071-1308::c8', 'ilkhanate-1219-1335::p3'],      // Mongol power in Anatolia: Hulagu and the Ilkhanate
+  ['seljuks-of-rum-1071-1308::w3', 'caliphate-945-1258::w5'],      // the Mongol cataclysm
+  ['seljuks-of-rum-1071-1308::ec1', 'ilkhanate-1219-1335::ec1'],      // the Pax Mongolica's revived trade
+  ['seljuks-of-rum-1071-1308::c9', 'byzantine-anatolia-867-1071::p9'],      // the Anatolian frontier society
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
