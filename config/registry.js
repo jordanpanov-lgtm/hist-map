@@ -227,5 +227,6 @@ const MODULES = [
   { id:"anatolian-beyliks-1308-1500", file:"modules/anatolian-beyliks-1308-1500.json", label:"Anatolian Beyliks 1308–1500", sub:"Karamanids, Germiyan, Aydın and the Rise of the Ottomans", region:"Turkey", period:"Medieval" },
   { id:"ottoman-anatolia-1500-1800", file:"modules/ottoman-anatolia-1500-1800.json", label:"Ottoman Anatolia 1500–1800", sub:"The Kızılbaş, the Celali Revolts, the Provincial Notables and the Ports of the Levant", region:"Turkey", period:"Early Modern" },
   { id:"ottoman-anatolia-1800-1908", file:"modules/ottoman-anatolia-1800-1908.json", label:"Late Ottoman Anatolia 1800–1908", sub:"The End of the Notables, the Tanzimat, the Hamidian Age and the Railway", region:"Turkey", period:"Early Modern" },
+  { id:"anatolia-1908-1923", file:"modules/anatolia-1908-1923.json", label:"Anatolia 1908–1923", sub:"Revolution, the Great War, the Destruction of the Christian Communities and the National Struggle", region:"Turkey", period:"Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

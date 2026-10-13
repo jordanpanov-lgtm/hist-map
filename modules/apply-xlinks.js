@@ -1681,6 +1681,25 @@ const SELECTED_PAIRS = [
   ['ottoman-anatolia-1800-1908::g1', 'iraq-1831-1914::g1'],      // the telegraph and the steamer
   ['ottoman-anatolia-1800-1908::l4', 'egypt-1798-1900::xc6'],      // slavery and the suppression of the slave trade
   ['ottoman-anatolia-1800-1908::o5', 'egypt-1798-1900::o5'],      // European debt commissions over Ottoman and Egyptian finances
+  ['anatolia-1908-1923::c1', 'levant-1908-1920::p1'],      // the Young Turk Revolution of 1908
+  ['anatolia-1908-1923::x1', 'levant-1908-1920::p2'],      // the Ottoman entry into the First World War
+  ['anatolia-1908-1923::w1', 'levant-1908-1920::o2'],      // the Sykes–Picot agreement
+  ['anatolia-1908-1923::w1', 'hejaz-1900-1925::t2'],      // Sykes–Picot and the wartime partition of Ottoman lands
+  ['anatolia-1908-1923::ec3', 'levant-1908-1920::ec1'],      // the wartime famine, in Anatolia and on Mount Lebanon
+  ['anatolia-1908-1923::p4', 'hejaz-1900-1925::b2'],      // the caliphate question after the sultanate
+  ['anatolia-1908-1923::x4', 'hejaz-1900-1925::b4'],      // the Khilafat movement and the global reaction
+  ['anatolia-1908-1923::o6', 'iraq-1914-1958::xc5'],      // the Kurdish provisions of Sèvres and the Kurdish question across the borders
+  ['anatolia-1908-1923::c10', 'iraq-1914-1958::c3'],      // the Assyrians of Hakkâri and the later Assyrian refugees in Iraq
+  ['anatolia-1908-1923::c1', 'qajar-1789-1925::o2'],      // the constitutional revolutions of Iran and the Ottoman Empire
+  ['anatolia-1908-1923::p1', 'ottoman-anatolia-1800-1908::p5'],      // Abdülhamid II
+  ['anatolia-1908-1923::o1', 'ottoman-anatolia-1800-1908::o4'],      // the constitution of 1876 and its restoration
+  ['anatolia-1908-1923::o2', 'ottoman-anatolia-1800-1908::w1'],      // Article 61 of Berlin and the 1914 reform agreement
+  ['anatolia-1908-1923::c2', 'ottoman-anatolia-1800-1908::c3'],      // the massacres of the 1890s and of 1909
+  ['anatolia-1908-1923::c7', 'ottoman-anatolia-1800-1908::c3'],      // the massacres of 1894–1896 as the background of 1915
+  ['anatolia-1908-1923::e2', 'ottoman-anatolia-1800-1908::e4'],      // Komitas and the Armenian musical and literary world
+  ['anatolia-1908-1923::x2', 'ottoman-anatolia-1800-1908::x1'],      // the Muslim refugees settled in Anatolia
+  ['anatolia-1908-1923::g2', 'ottoman-anatolia-1800-1908::x3'],      // the Anatolian and Baghdad railways
+  ['anatolia-1908-1923::l3', 'ottoman-anatolia-1800-1908::l3'],      // American missionary and relief work among the Armenians
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
