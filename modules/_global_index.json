@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 7529,
-    "folio_count": 157,
-    "xlink_pairs": 1482,
-    "keyword_terms": 11583,
+    "total_entries": 7581,
+    "folio_count": 158,
+    "xlink_pairs": 1495,
+    "keyword_terms": 11656,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -319,6 +319,11 @@
         "id": "ilkhanate-1219-1335",
         "title": "The Mongol Ilkhanate",
         "entries": 31
+      },
+      {
+        "id": "ionia-1050bc-494bc",
+        "title": "Greek Ionia",
+        "entries": 52
       },
       {
         "id": "iran-1055-1219",
@@ -4102,6 +4107,58 @@
     "ilkhanate-1219-1335::w1": "The Pax Mongolica Connects Eurasia",
     "ilkhanate-1219-1335::w2": "A Dynasty Ends without an Heir",
     "ilkhanate-1219-1335::l1": "The Demographic Scale of Conquest, Remembered and Disputed",
+    "ionia-1050bc-494bc::p1": "The Ionian migration",
+    "ionia-1050bc-494bc::p2": "The Panionion and the twelve cities",
+    "ionia-1050bc-494bc::p3": "Thrasybulus of Miletus",
+    "ionia-1050bc-494bc::p4": "Polycrates of Samos",
+    "ionia-1050bc-494bc::p5": "Croesus and the Ionian cities",
+    "ionia-1050bc-494bc::p6": "The Persian governors and the tyrants",
+    "ionia-1050bc-494bc::p7": "Histiaios and Aristagoras of Miletus",
+    "ionia-1050bc-494bc::c1": "The Cimmerian raids",
+    "ionia-1050bc-494bc::c3": "Alyattes' war on Miletus",
+    "ionia-1050bc-494bc::c2": "Alyattes takes Smyrna",
+    "ionia-1050bc-494bc::c4": "Harpagus conquers the Ionian cities",
+    "ionia-1050bc-494bc::c5": "The burning of Sardis",
+    "ionia-1050bc-494bc::c6": "Lade and the fall of Miletus",
+    "ionia-1050bc-494bc::o3": "The people's council of Chios",
+    "ionia-1050bc-494bc::o1": "Thales's federal proposal",
+    "ionia-1050bc-494bc::o4": "The first satrapy and its tribute",
+    "ionia-1050bc-494bc::o2": "The Parians settle Miletus",
+    "ionia-1050bc-494bc::o5": "Artaphernes' land survey",
+    "ionia-1050bc-494bc::b1": "The Panionia — a festival for all Ionians",
+    "ionia-1050bc-494bc::b2": "Artemis of Ephesus",
+    "ionia-1050bc-494bc::b3": "The oracle of Apollo at Didyma",
+    "ionia-1050bc-494bc::e1": "Homer's Ionia",
+    "ionia-1050bc-494bc::e5": "The Ionians' festival at Delos",
+    "ionia-1050bc-494bc::e2": "Mimnermus, Hipponax and Anacreon",
+    "ionia-1050bc-494bc::e3": "The Ionic temple",
+    "ionia-1050bc-494bc::e4": "The Samian korai and kouroi",
+    "ionia-1050bc-494bc::e6": "The Capture of Miletus",
+    "ionia-1050bc-494bc::t1": "Thales of Miletus",
+    "ionia-1050bc-494bc::t2": "Anaximander and the boundless",
+    "ionia-1050bc-494bc::t3": "Anaximenes and air",
+    "ionia-1050bc-494bc::t6": "Xenophanes of Colophon",
+    "ionia-1050bc-494bc::t7": "Pythagoras of Samos",
+    "ionia-1050bc-494bc::t4": "Hecataeus of Miletus",
+    "ionia-1050bc-494bc::t5": "Heraclitus of Ephesus",
+    "ionia-1050bc-494bc::ec4": "The silting of the gulf",
+    "ionia-1050bc-494bc::ec1": "The first coins",
+    "ionia-1050bc-494bc::ec2": "Chian wine",
+    "ionia-1050bc-494bc::ec3": "Milesian wool",
+    "ionia-1050bc-494bc::g4": "The Ionic alphabet",
+    "ionia-1050bc-494bc::g3": "Hollow-cast bronze",
+    "ionia-1050bc-494bc::g2": "A temple on a marsh",
+    "ionia-1050bc-494bc::g1": "The tunnel of Eupalinos",
+    "ionia-1050bc-494bc::x1": "Miletus and the Black Sea",
+    "ionia-1050bc-494bc::x4": "Greek and Carian mercenaries in Egypt",
+    "ionia-1050bc-494bc::x2": "The Greek port in Egypt",
+    "ionia-1050bc-494bc::x3": "Phocaea's voyages to the west",
+    "ionia-1050bc-494bc::w1": "A mixed foundation",
+    "ionia-1050bc-494bc::w2": "From Lydian to Persian overlords",
+    "ionia-1050bc-494bc::w3": "The end of Ionian independence",
+    "ionia-1050bc-494bc::l1": "The oath of the Milesian wives",
+    "ionia-1050bc-494bc::l2": "The eunuch-dealer of Chios",
+    "ionia-1050bc-494bc::l3": "The Milesians on the Tigris",
     "iran-1055-1219::p1": "Tughril Beg — Founding the Sultanate",
     "iran-1055-1219::p2": "Alp Arslan — Manzikert",
     "iran-1055-1219::p3": "Malik-Shah I and Nizam al-Mulk",
@@ -8365,7 +8422,22 @@
       "mesopotamia-539bc-331bc::k5"
     ],
     "achaemenid-550bc-330bc::c1": [
+      "ionia-1050bc-494bc::c4",
       "mesopotamia-539bc-331bc::k1"
+    ],
+    "ionia-1050bc-494bc::c4": [
+      "achaemenid-550bc-330bc::c1",
+      "babylon-1155bc-539bc::xc4"
+    ],
+    "achaemenid-550bc-330bc::c3": [
+      "ionia-1050bc-494bc::c5",
+      "ionia-1050bc-494bc::c6"
+    ],
+    "ionia-1050bc-494bc::c5": [
+      "achaemenid-550bc-330bc::c3"
+    ],
+    "ionia-1050bc-494bc::c6": [
+      "achaemenid-550bc-330bc::c3"
     ],
     "achaemenid-550bc-330bc::c7": [
       "mesopotamia-539bc-331bc::c3"
@@ -8394,6 +8466,12 @@
       "babylon-1155bc-539bc::xc5",
       "mesopotamia-539bc-331bc::k1"
     ],
+    "achaemenid-550bc-330bc::o2": [
+      "ionia-1050bc-494bc::o4"
+    ],
+    "ionia-1050bc-494bc::o4": [
+      "achaemenid-550bc-330bc::o2"
+    ],
     "achaemenid-550bc-330bc::o6": [
       "egypt-664bc-332bc::o3"
     ],
@@ -8418,6 +8496,12 @@
     ],
     "achaemenid-550bc-330bc::e2": [
       "mesopotamia-539bc-331bc::k1"
+    ],
+    "achaemenid-550bc-330bc::tc1": [
+      "ionia-1050bc-494bc::p6"
+    ],
+    "ionia-1050bc-494bc::p6": [
+      "achaemenid-550bc-330bc::tc1"
     ],
     "achaemenid-550bc-330bc::w4": [
       "seleucid-iran-330bc-148bc::c7"
@@ -9519,6 +9603,9 @@
     ],
     "dedan-tayma-1200bc-300bc::x1": [
       "babylon-1155bc-539bc::xc3"
+    ],
+    "babylon-1155bc-539bc::xc4": [
+      "ionia-1050bc-494bc::c4"
     ],
     "babylon-1155bc-539bc::xc5": [
       "levant-539bc-332bc::p1",
@@ -10809,7 +10896,8 @@
     ],
     "egypt-664bc-332bc::k1": [
       "egypt-1200bc-664bc::k20",
-      "egypt-1200bc-664bc::xc6"
+      "egypt-1200bc-664bc::xc6",
+      "ionia-1050bc-494bc::x4"
     ],
     "egypt-1200bc-664bc::c1": [
       "egypt-1550bc-1200bc::w4",
@@ -10909,7 +10997,8 @@
       "egypt-664bc-332bc::k1"
     ],
     "egypt-664bc-332bc::e1": [
-      "egypt-1200bc-664bc::xc6"
+      "egypt-1200bc-664bc::xc6",
+      "ionia-1050bc-494bc::x2"
     ],
     "egypt-1200bc-664bc::w1": [
       "egypt-1550bc-1200bc::w3",
@@ -12416,7 +12505,8 @@
       "egypt-332bc-30bc::xc3"
     ],
     "egypt-664bc-332bc::xc1": [
-      "egypt-332bc-30bc::xc6"
+      "egypt-332bc-30bc::xc6",
+      "ionia-1050bc-494bc::x2"
     ],
     "egypt-332bc-30bc::w1": [
       "mesopotamia-331bc-141bc::e1"
@@ -12507,8 +12597,20 @@
     "egypt-641-969::xc6": [
       "fatimids-909-1171::k3"
     ],
+    "ionia-1050bc-494bc::x4": [
+      "egypt-664bc-332bc::k1",
+      "egypt-664bc-332bc::k3",
+      "egypt-664bc-332bc::l4"
+    ],
+    "egypt-664bc-332bc::k3": [
+      "ionia-1050bc-494bc::x4"
+    ],
     "egypt-664bc-332bc::k8": [
       "mesopotamia-539bc-331bc::k2"
+    ],
+    "ionia-1050bc-494bc::x2": [
+      "egypt-664bc-332bc::e1",
+      "egypt-664bc-332bc::xc1"
     ],
     "egypt-664bc-332bc::e5": [
       "mesopotamia-539bc-331bc::o1"
@@ -12520,6 +12622,7 @@
       "egypt-664bc-332bc::xc4"
     ],
     "egypt-664bc-332bc::l4": [
+      "ionia-1050bc-494bc::x4",
       "mesopotamia-539bc-331bc::o5"
     ],
     "mesopotamia-539bc-331bc::o5": [
@@ -12917,6 +13020,12 @@
     "phrygia-1200bc-675bc::g2": [
       "hittite-1650bc-1180bc::g5"
     ],
+    "hittite-1650bc-1180bc::x4": [
+      "ionia-1050bc-494bc::p1"
+    ],
+    "ionia-1050bc-494bc::p1": [
+      "hittite-1650bc-1180bc::x4"
+    ],
     "hormuz-1200-1507::k1": [
       "oman-1970-today::c5"
     ],
@@ -13015,6 +13124,12 @@
     ],
     "ilkhanate-1219-1335::c5": [
       "mamluks-1250-1517::c1"
+    ],
+    "ionia-1050bc-494bc::t1": [
+      "media-728bc-550bc::c4"
+    ],
+    "media-728bc-550bc::c4": [
+      "ionia-1050bc-494bc::t1"
     ],
     "iraq-945-1258::k3": [
       "iran-1055-1219::p3",
@@ -34306,6 +34421,243 @@
       "Demographic Scale of Conquest",
       "Remembered",
       "Disputed"
+    ],
+    "ionia-1050bc-494bc::p1": [
+      "Miletus",
+      "Ephesus",
+      "Ionian",
+      "Asia Minor",
+      "Late Bronze Age"
+    ],
+    "ionia-1050bc-494bc::p2": [
+      "Mount Mykale",
+      "Panionion",
+      "Poseidon Helikonios"
+    ],
+    "ionia-1050bc-494bc::p3": [
+      "Milesian tyrants",
+      "Thrasybulus of Miletus",
+      "Alyattes of Lydia"
+    ],
+    "ionia-1050bc-494bc::p4": [
+      "Samian tyrants",
+      "Polycrates of Samos"
+    ],
+    "ionia-1050bc-494bc::p5": [
+      "Mermnad",
+      "Ephesus",
+      "Sardis",
+      "Croesus",
+      "Ionian"
+    ],
+    "ionia-1050bc-494bc::p6": [
+      "Achaemenid",
+      "Sardis"
+    ],
+    "ionia-1050bc-494bc::p7": [
+      "Milesian tyrants",
+      "Histiaios",
+      "Aristagoras of Miletus"
+    ],
+    "ionia-1050bc-494bc::c1": [
+      "Magnesia",
+      "Ephesus",
+      "Cimmerian"
+    ],
+    "ionia-1050bc-494bc::c3": [
+      "Miletus",
+      "Alyattes"
+    ],
+    "ionia-1050bc-494bc::c2": [
+      "Smyrna",
+      "Alyattes of Lydia"
+    ],
+    "ionia-1050bc-494bc::c4": [
+      "Ionian",
+      "Harpagus"
+    ],
+    "ionia-1050bc-494bc::c5": [
+      "Sardis"
+    ],
+    "ionia-1050bc-494bc::c6": [
+      "Lade",
+      "Miletus",
+      "Ionian Revolt"
+    ],
+    "ionia-1050bc-494bc::o3": [
+      "Chios"
+    ],
+    "ionia-1050bc-494bc::o1": [
+      "Teos",
+      "Thales"
+    ],
+    "ionia-1050bc-494bc::o4": [
+      "Sardis"
+    ],
+    "ionia-1050bc-494bc::o2": [
+      "Miletus",
+      "Parians"
+    ],
+    "ionia-1050bc-494bc::o5": [
+      "Sardis",
+      "Artaphernes"
+    ],
+    "ionia-1050bc-494bc::b1": [
+      "Mount Mykale",
+      "Panionia",
+      "Poseidon Helikonios",
+      "Ionians of Asia"
+    ],
+    "ionia-1050bc-494bc::b2": [
+      "Artemis of Ephesus"
+    ],
+    "ionia-1050bc-494bc::b3": [
+      "Didyma",
+      "Apollo",
+      "South of Miletus",
+      "Pharaoh Necho"
+    ],
+    "ionia-1050bc-494bc::e1": [
+      "Chios",
+      "Homer Ionia",
+      "Homer of Smyrna"
+    ],
+    "ionia-1050bc-494bc::e5": [
+      "Delos",
+      "Ionians",
+      "Homeric Hymn"
+    ],
+    "ionia-1050bc-494bc::e2": [
+      "Mimnermus",
+      "Hipponax",
+      "Anacreon",
+      "Mimnermus of Colophon",
+      "Hipponax of Ephesus",
+      "Anacreon of Teos"
+    ],
+    "ionia-1050bc-494bc::e3": [
+      "Samos",
+      "Ephesus",
+      "Ionic"
+    ],
+    "ionia-1050bc-494bc::e4": [
+      "Heraion",
+      "Samos",
+      "Samian"
+    ],
+    "ionia-1050bc-494bc::e6": [
+      "Athens",
+      "Capture of Miletus"
+    ],
+    "ionia-1050bc-494bc::t1": [
+      "Thales of Miletus"
+    ],
+    "ionia-1050bc-494bc::t2": [
+      "Anaximander",
+      "Anaximander of Miletus"
+    ],
+    "ionia-1050bc-494bc::t3": [
+      "Miletus",
+      "Anaximenes"
+    ],
+    "ionia-1050bc-494bc::t6": [
+      "Xenophanes of Colophon"
+    ],
+    "ionia-1050bc-494bc::t7": [
+      "Croton",
+      "Pythagoras of Samos"
+    ],
+    "ionia-1050bc-494bc::t4": [
+      "Hecataeus of Miletus",
+      "Circuit of the Earth"
+    ],
+    "ionia-1050bc-494bc::t5": [
+      "Heraclitus of Ephesus"
+    ],
+    "ionia-1050bc-494bc::ec4": [
+      "Miletus",
+      "Latmian Gulf"
+    ],
+    "ionia-1050bc-494bc::ec1": [
+      "Ephesus"
+    ],
+    "ionia-1050bc-494bc::ec2": [
+      "Chios",
+      "Chian",
+      "Black Sea"
+    ],
+    "ionia-1050bc-494bc::ec3": [
+      "Miletus",
+      "Milesian",
+      "Black Sea"
+    ],
+    "ionia-1050bc-494bc::g4": [
+      "Miletus",
+      "Ionic",
+      "East Greek"
+    ],
+    "ionia-1050bc-494bc::g3": [
+      "Hollow-cast",
+      "Theodoros of Samos"
+    ],
+    "ionia-1050bc-494bc::g2": [
+      "Ephesus",
+      "Seven Wonders"
+    ],
+    "ionia-1050bc-494bc::g1": [
+      "Samos",
+      "Eupalinos of Megara",
+      "Mount Kastro",
+      "UNESCO World Heritage Site"
+    ],
+    "ionia-1050bc-494bc::x1": [
+      "Sinope",
+      "Olbia",
+      "Cyzicus",
+      "Miletus",
+      "Black Sea"
+    ],
+    "ionia-1050bc-494bc::x4": [
+      "Abu Simbel",
+      "Carian",
+      "Egypt",
+      "Psamtik I",
+      "Psamtik II"
+    ],
+    "ionia-1050bc-494bc::x2": [
+      "Naukratis",
+      "Egypt",
+      "Nile Delta"
+    ],
+    "ionia-1050bc-494bc::x3": [
+      "Alalia",
+      "Phocaea",
+      "Massalia Marseille"
+    ],
+    "ionia-1050bc-494bc::w1": [
+      "Ionian",
+      "Late Bronze Age Millawanda Miletus"
+    ],
+    "ionia-1050bc-494bc::w2": [
+      "Sardis",
+      "Lydian",
+      "Croesus the Persian Empire"
+    ],
+    "ionia-1050bc-494bc::w3": [
+      "Miletus",
+      "Ionian"
+    ],
+    "ionia-1050bc-494bc::l1": [
+      "Miletus",
+      "Milesian"
+    ],
+    "ionia-1050bc-494bc::l2": [
+      "Panionius of Chios"
+    ],
+    "ionia-1050bc-494bc::l3": [
+      "Ampe",
+      "Tigris",
+      "Milesians"
     ],
     "iran-1055-1219::p1": [
       "Seljuk",
@@ -58048,6 +58400,7 @@
       "achaemenid-550bc-330bc::p11",
       "achaemenid-550bc-330bc::p12",
       "achaemenid-550bc-330bc::p13",
+      "ionia-1050bc-494bc::p6",
       "magan-1200bc-300bc::o4",
       "mesopotamia-539bc-331bc::k1",
       "mesopotamia-539bc-331bc::k2",
@@ -58486,6 +58839,8 @@
       "hejaz-632-1517::w2",
       "hejaz-prehistory-8000bc-1200bc::x2",
       "hittite-1650bc-1180bc::x1",
+      "ionia-1050bc-494bc::x4",
+      "ionia-1050bc-494bc::x2",
       "israel-1948-today::p4",
       "mamluks-1250-1517::o4",
       "mamluks-1250-1517::ec3",
@@ -58584,6 +58939,12 @@
       "achaemenid-550bc-330bc::o3",
       "achaemenid-550bc-330bc::tc1",
       "achaemenid-550bc-330bc::x3",
+      "ionia-1050bc-494bc::p5",
+      "ionia-1050bc-494bc::p6",
+      "ionia-1050bc-494bc::c5",
+      "ionia-1050bc-494bc::o4",
+      "ionia-1050bc-494bc::o5",
+      "ionia-1050bc-494bc::w2",
       "media-728bc-550bc::x2"
     ],
     "Babylon": [
@@ -58727,7 +59088,8 @@
     ],
     "Ionian Revolt": [
       "achaemenid-550bc-330bc::c3",
-      "achaemenid-550bc-330bc::x2"
+      "achaemenid-550bc-330bc::x2",
+      "ionia-1050bc-494bc::c6"
     ],
     "Miletus Aristagoras": [
       "achaemenid-550bc-330bc::c3"
@@ -58759,6 +59121,7 @@
     ],
     "Asia Minor": [
       "achaemenid-550bc-330bc::c6",
+      "ionia-1050bc-494bc::p1",
       "palmyrene-100bc-273ce::c3",
       "rome-200-300::c6",
       "rome-200-300::c8",
@@ -58778,6 +59141,9 @@
       "caliphate-945-1258::lv7",
       "ilkhanate-1219-1335::ec1",
       "ilkhanate-1219-1335::w1",
+      "ionia-1050bc-494bc::ec2",
+      "ionia-1050bc-494bc::ec3",
+      "ionia-1050bc-494bc::x1",
       "mamluks-1250-1517::ec5",
       "roman-byzantine-levant-135-638::ec1",
       "rome-400-500::tx7",
@@ -59443,6 +59809,7 @@
     ],
     "Athens": [
       "achaemenid-550bc-330bc::x1",
+      "ionia-1050bc-494bc::e6",
       "palmyrene-100bc-273ce::t1",
       "rome-200-300::c6",
       "rome-200-300::t4",
@@ -62212,7 +62579,8 @@
     "UNESCO World Heritage Site": [
       "anatolia-10000bc-3000bc::p5",
       "babylon-1155bc-539bc::w4",
-      "hittite-1650bc-1180bc::e1"
+      "hittite-1650bc-1180bc::e1",
+      "ionia-1050bc-494bc::g1"
     ],
     "Çatalhöyük West Mound": [
       "anatolia-10000bc-3000bc::p6"
@@ -62225,6 +62593,12 @@
     ],
     "Ephesus": [
       "anatolia-10000bc-3000bc::p7",
+      "ionia-1050bc-494bc::p1",
+      "ionia-1050bc-494bc::p5",
+      "ionia-1050bc-494bc::c1",
+      "ionia-1050bc-494bc::e3",
+      "ionia-1050bc-494bc::ec1",
+      "ionia-1050bc-494bc::g2",
       "rome-200-300::c6"
     ],
     "Neolithic": [
@@ -62474,6 +62848,7 @@
       "caliphate-750-945::c7",
       "egypt-2100bc-1550bc::k13",
       "elam-1100bc-539bc::c2",
+      "ionia-1050bc-494bc::l3",
       "iraq-1831-1914::e2",
       "mesopotamia-2334bc-2004bc::w4",
       "mesopotamia-331bc-141bc::l2",
@@ -67589,6 +67964,7 @@
       "hejaz-prehistory-8000bc-1200bc::ex6",
       "hejaz-prehistory-8000bc-1200bc::w4",
       "hittite-1650bc-1180bc::w1",
+      "ionia-1050bc-494bc::p1",
       "philistia-1200bc-604bc::w1"
     ],
     "Amarna": [
@@ -70437,7 +70813,8 @@
       "caliphate-632-750::c7"
     ],
     "Cyzicus": [
-      "caliphate-632-750::c8"
+      "caliphate-632-750::c8",
+      "ionia-1050bc-494bc::x1"
     ],
     "Maslama ibn Abd al-Malik": [
       "caliphate-632-750::c9"
@@ -73950,6 +74327,7 @@
       "egypt-664bc-332bc::o2",
       "egypt-664bc-332bc::e6",
       "fatimids-909-1171::c3",
+      "ionia-1050bc-494bc::x2",
       "mamluks-1250-1517::c8",
       "qedar-853bc-330bc::k6"
     ],
@@ -74412,7 +74790,8 @@
       "egypt-1550bc-1200bc::c2"
     ],
     "Ionians": [
-      "egypt-1200bc-664bc::xc6"
+      "egypt-1200bc-664bc::xc6",
+      "ionia-1050bc-494bc::e5"
     ],
     "Carians": [
       "egypt-1200bc-664bc::xc6"
@@ -75267,7 +75646,8 @@
       "egypt-1952-today::g1",
       "egypt-664bc-332bc::k3",
       "egypt-664bc-332bc::c4",
-      "egypt-664bc-332bc::l4"
+      "egypt-664bc-332bc::l4",
+      "ionia-1050bc-494bc::x4"
     ],
     "Merneptah": [
       "egypt-1550bc-1200bc::k18"
@@ -79637,7 +80017,8 @@
       "egypt-332bc-30bc::g1"
     ],
     "Seven Wonders": [
-      "egypt-332bc-30bc::g1"
+      "egypt-332bc-30bc::g1",
+      "ionia-1050bc-494bc::g2"
     ],
     "Philo of Byzantium": [
       "egypt-332bc-30bc::g2"
@@ -80447,7 +80828,8 @@
     "Psamtik I": [
       "egypt-664bc-332bc::k1",
       "egypt-664bc-332bc::c1",
-      "egypt-664bc-332bc::o1"
+      "egypt-664bc-332bc::o1",
+      "ionia-1050bc-494bc::x4"
     ],
     "Sais": [
       "egypt-664bc-332bc::k2",
@@ -80467,7 +80849,8 @@
     "Psamtik II": [
       "egypt-664bc-332bc::k3",
       "egypt-664bc-332bc::c4",
-      "egypt-664bc-332bc::w4"
+      "egypt-664bc-332bc::w4",
+      "ionia-1050bc-494bc::x4"
     ],
     "Apries": [
       "egypt-664bc-332bc::k4"
@@ -80479,7 +80862,8 @@
       "egypt-664bc-332bc::k5"
     ],
     "Polycrates of Samos": [
-      "egypt-664bc-332bc::k5"
+      "egypt-664bc-332bc::k5",
+      "ionia-1050bc-494bc::p4"
     ],
     "Psamtik III": [
       "egypt-664bc-332bc::k6",
@@ -80562,7 +80946,8 @@
       "egypt-664bc-332bc::c7"
     ],
     "Teos": [
-      "egypt-664bc-332bc::k14"
+      "egypt-664bc-332bc::k14",
+      "ionia-1050bc-494bc::o1"
     ],
     "Athenian Chabrias": [
       "egypt-664bc-332bc::k14"
@@ -80623,7 +81008,8 @@
     "Naukratis": [
       "egypt-664bc-332bc::o7",
       "egypt-664bc-332bc::b5",
-      "egypt-664bc-332bc::g4"
+      "egypt-664bc-332bc::g4",
+      "ionia-1050bc-494bc::x2"
     ],
     "Thonis-Heracleion": [
       "egypt-664bc-332bc::o7"
@@ -82613,7 +82999,8 @@
       "france-1610-1715::ex3"
     ],
     "Smyrna": [
-      "france-1610-1715::ex3"
+      "france-1610-1715::ex3",
+      "ionia-1050bc-494bc::c2"
     ],
     "Compagnie": [
       "france-1610-1715::ex3"
@@ -87467,6 +87854,253 @@
     "Disputed": [
       "ilkhanate-1219-1335::l1",
       "iran-1979-today::p5"
+    ],
+    "Miletus": [
+      "ionia-1050bc-494bc::p1",
+      "ionia-1050bc-494bc::c3",
+      "ionia-1050bc-494bc::c6",
+      "ionia-1050bc-494bc::o2",
+      "ionia-1050bc-494bc::t3",
+      "ionia-1050bc-494bc::ec4",
+      "ionia-1050bc-494bc::ec3",
+      "ionia-1050bc-494bc::g4",
+      "ionia-1050bc-494bc::x1",
+      "ionia-1050bc-494bc::w3",
+      "ionia-1050bc-494bc::l1"
+    ],
+    "Ionian": [
+      "ionia-1050bc-494bc::p1",
+      "ionia-1050bc-494bc::p5",
+      "ionia-1050bc-494bc::c4",
+      "ionia-1050bc-494bc::w1",
+      "ionia-1050bc-494bc::w3"
+    ],
+    "Mount Mykale": [
+      "ionia-1050bc-494bc::p2",
+      "ionia-1050bc-494bc::b1"
+    ],
+    "Panionion": [
+      "ionia-1050bc-494bc::p2"
+    ],
+    "Poseidon Helikonios": [
+      "ionia-1050bc-494bc::p2",
+      "ionia-1050bc-494bc::b1"
+    ],
+    "Milesian tyrants": [
+      "ionia-1050bc-494bc::p3",
+      "ionia-1050bc-494bc::p7"
+    ],
+    "Thrasybulus of Miletus": [
+      "ionia-1050bc-494bc::p3"
+    ],
+    "Alyattes of Lydia": [
+      "ionia-1050bc-494bc::p3",
+      "ionia-1050bc-494bc::c2"
+    ],
+    "Samian tyrants": [
+      "ionia-1050bc-494bc::p4"
+    ],
+    "Mermnad": [
+      "ionia-1050bc-494bc::p5"
+    ],
+    "Croesus": [
+      "ionia-1050bc-494bc::p5"
+    ],
+    "Histiaios": [
+      "ionia-1050bc-494bc::p7"
+    ],
+    "Aristagoras of Miletus": [
+      "ionia-1050bc-494bc::p7"
+    ],
+    "Magnesia": [
+      "ionia-1050bc-494bc::c1",
+      "seleucid-iran-330bc-148bc::c5"
+    ],
+    "Cimmerian": [
+      "ionia-1050bc-494bc::c1"
+    ],
+    "Alyattes": [
+      "ionia-1050bc-494bc::c3"
+    ],
+    "Harpagus": [
+      "ionia-1050bc-494bc::c4"
+    ],
+    "Lade": [
+      "ionia-1050bc-494bc::c6"
+    ],
+    "Chios": [
+      "ionia-1050bc-494bc::o3",
+      "ionia-1050bc-494bc::e1",
+      "ionia-1050bc-494bc::ec2"
+    ],
+    "Thales": [
+      "ionia-1050bc-494bc::o1"
+    ],
+    "Parians": [
+      "ionia-1050bc-494bc::o2"
+    ],
+    "Artaphernes": [
+      "ionia-1050bc-494bc::o5"
+    ],
+    "Panionia": [
+      "ionia-1050bc-494bc::b1"
+    ],
+    "Ionians of Asia": [
+      "ionia-1050bc-494bc::b1"
+    ],
+    "Artemis of Ephesus": [
+      "ionia-1050bc-494bc::b2"
+    ],
+    "Didyma": [
+      "ionia-1050bc-494bc::b3"
+    ],
+    "Apollo": [
+      "ionia-1050bc-494bc::b3"
+    ],
+    "South of Miletus": [
+      "ionia-1050bc-494bc::b3"
+    ],
+    "Pharaoh Necho": [
+      "ionia-1050bc-494bc::b3"
+    ],
+    "Homer Ionia": [
+      "ionia-1050bc-494bc::e1"
+    ],
+    "Homer of Smyrna": [
+      "ionia-1050bc-494bc::e1"
+    ],
+    "Delos": [
+      "ionia-1050bc-494bc::e5"
+    ],
+    "Homeric Hymn": [
+      "ionia-1050bc-494bc::e5"
+    ],
+    "Mimnermus": [
+      "ionia-1050bc-494bc::e2"
+    ],
+    "Hipponax": [
+      "ionia-1050bc-494bc::e2"
+    ],
+    "Anacreon": [
+      "ionia-1050bc-494bc::e2"
+    ],
+    "Mimnermus of Colophon": [
+      "ionia-1050bc-494bc::e2"
+    ],
+    "Hipponax of Ephesus": [
+      "ionia-1050bc-494bc::e2"
+    ],
+    "Anacreon of Teos": [
+      "ionia-1050bc-494bc::e2"
+    ],
+    "Samos": [
+      "ionia-1050bc-494bc::e3",
+      "ionia-1050bc-494bc::e4",
+      "ionia-1050bc-494bc::g1"
+    ],
+    "Ionic": [
+      "ionia-1050bc-494bc::e3",
+      "ionia-1050bc-494bc::g4"
+    ],
+    "Heraion": [
+      "ionia-1050bc-494bc::e4"
+    ],
+    "Samian": [
+      "ionia-1050bc-494bc::e4"
+    ],
+    "Capture of Miletus": [
+      "ionia-1050bc-494bc::e6"
+    ],
+    "Thales of Miletus": [
+      "ionia-1050bc-494bc::t1"
+    ],
+    "Anaximander": [
+      "ionia-1050bc-494bc::t2"
+    ],
+    "Anaximander of Miletus": [
+      "ionia-1050bc-494bc::t2"
+    ],
+    "Anaximenes": [
+      "ionia-1050bc-494bc::t3"
+    ],
+    "Xenophanes of Colophon": [
+      "ionia-1050bc-494bc::t6"
+    ],
+    "Croton": [
+      "ionia-1050bc-494bc::t7"
+    ],
+    "Pythagoras of Samos": [
+      "ionia-1050bc-494bc::t7"
+    ],
+    "Hecataeus of Miletus": [
+      "ionia-1050bc-494bc::t4"
+    ],
+    "Circuit of the Earth": [
+      "ionia-1050bc-494bc::t4"
+    ],
+    "Heraclitus of Ephesus": [
+      "ionia-1050bc-494bc::t5"
+    ],
+    "Latmian Gulf": [
+      "ionia-1050bc-494bc::ec4"
+    ],
+    "Chian": [
+      "ionia-1050bc-494bc::ec2"
+    ],
+    "Milesian": [
+      "ionia-1050bc-494bc::ec3",
+      "ionia-1050bc-494bc::l1"
+    ],
+    "East Greek": [
+      "ionia-1050bc-494bc::g4"
+    ],
+    "Hollow-cast": [
+      "ionia-1050bc-494bc::g3"
+    ],
+    "Theodoros of Samos": [
+      "ionia-1050bc-494bc::g3"
+    ],
+    "Eupalinos of Megara": [
+      "ionia-1050bc-494bc::g1"
+    ],
+    "Mount Kastro": [
+      "ionia-1050bc-494bc::g1"
+    ],
+    "Sinope": [
+      "ionia-1050bc-494bc::x1"
+    ],
+    "Olbia": [
+      "ionia-1050bc-494bc::x1"
+    ],
+    "Carian": [
+      "ionia-1050bc-494bc::x4"
+    ],
+    "Alalia": [
+      "ionia-1050bc-494bc::x3"
+    ],
+    "Phocaea": [
+      "ionia-1050bc-494bc::x3"
+    ],
+    "Massalia Marseille": [
+      "ionia-1050bc-494bc::x3"
+    ],
+    "Late Bronze Age Millawanda Miletus": [
+      "ionia-1050bc-494bc::w1"
+    ],
+    "Lydian": [
+      "ionia-1050bc-494bc::w2"
+    ],
+    "Croesus the Persian Empire": [
+      "ionia-1050bc-494bc::w2"
+    ],
+    "Panionius of Chios": [
+      "ionia-1050bc-494bc::l2"
+    ],
+    "Ampe": [
+      "ionia-1050bc-494bc::l3"
+    ],
+    "Milesians": [
+      "ionia-1050bc-494bc::l3"
     ],
     "Founding the Sultanate": [
       "iran-1055-1219::p1"
@@ -101609,9 +102243,6 @@
     ],
     "Euthydemus I of Bactria": [
       "seleucid-iran-330bc-148bc::c4"
-    ],
-    "Magnesia": [
-      "seleucid-iran-330bc-148bc::c5"
     ],
     "Sipylum": [
       "seleucid-iran-330bc-148bc::c5"

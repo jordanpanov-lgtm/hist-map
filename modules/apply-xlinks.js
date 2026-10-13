@@ -1486,6 +1486,19 @@ const SELECTED_PAIRS = [
   ['phrygia-1200bc-675bc::e3', 'north-syria-1200bc-717bc::e1'],      // Neo-Hittite orthostat reliefs
   ['phrygia-1200bc-675bc::p6', 'north-syria-1200bc-717bc::b1'],      // storm god in Neo-Hittite religion
   ['phrygia-1200bc-675bc::g2', 'hittite-1650bc-1180bc::g5'],      // iron and bronze after the Hittites
+  ['ionia-1050bc-494bc::c5', 'achaemenid-550bc-330bc::c3'],      // the Ionian Revolt from both sides
+  ['ionia-1050bc-494bc::c6', 'achaemenid-550bc-330bc::c3'],      // the Ionian Revolt: Lade and the fall of Miletus
+  ['ionia-1050bc-494bc::c4', 'achaemenid-550bc-330bc::c1'],      // the Persian conquest of Lydia and the Ionian coast
+  ['ionia-1050bc-494bc::o4', 'achaemenid-550bc-330bc::o2'],      // the fixed tribute assessment
+  ['ionia-1050bc-494bc::p6', 'achaemenid-550bc-330bc::tc1'],      // Sardis and the Royal Road
+  ['ionia-1050bc-494bc::x2', 'egypt-664bc-332bc::e1'],      // Naukratis and regulated Greek trade
+  ['ionia-1050bc-494bc::x2', 'egypt-664bc-332bc::xc1'],      // the Greeks settle in Egypt
+  ['ionia-1050bc-494bc::x4', 'egypt-664bc-332bc::k1'],      // Psamtik I and the Ionian mercenaries
+  ['ionia-1050bc-494bc::x4', 'egypt-664bc-332bc::k3'],      // Psamtik II and the Abu Simbel graffiti
+  ['ionia-1050bc-494bc::x4', 'egypt-664bc-332bc::l4'],      // the mercenaries and their names
+  ['ionia-1050bc-494bc::t1', 'media-728bc-550bc::c4'],      // the battle of the eclipse
+  ['ionia-1050bc-494bc::c4', 'babylon-1155bc-539bc::xc4'],      // the gathering of Persia and Croesus
+  ['ionia-1050bc-494bc::p1', 'hittite-1650bc-1180bc::x4'],      // Millawanda and Ahhiyawa before the Ionians
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
