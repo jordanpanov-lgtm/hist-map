@@ -1785,6 +1785,20 @@ const SELECTED_PAIRS = [
   ['hellenistic-caucasus-330bc-1bc::p7', 'parthia-148bc-224::p3'],      // Orodes II and Artavasdes
   ['hellenistic-caucasus-330bc-1bc::x3', 'parthia-148bc-224::p2'],      // Mithridates II of Parthia
   ['hellenistic-caucasus-330bc-1bc::p12', 'seleucid-iran-330bc-148bc::c6'],      // Mithridates I's conquest of Media
+  ['caucasus-1-428::c1', 'roman-anatolia-133bc-330::c9'],      // Corbulo and the Armenian war
+  ['caucasus-1-428::c3', 'parthia-148bc-224::c4'],      // Trajan's conquest and withdrawal
+  ['caucasus-1-428::c7', 'parthia-148bc-224::w2'],      // the Alan raid on the Caucasus frontier
+  ['caucasus-1-428::p2', 'parthia-148bc-224::p4'],      // Vologases I and the Arsacid Armenian throne
+  ['caucasus-1-428::c5', 'sassanid-224-484::k2'],      // Shapur I
+  ['caucasus-1-428::x2', 'sassanid-224-484::k2'],      // Shapur I's lands in the Caucasus
+  ['caucasus-1-428::c6', 'sassanid-224-484::c4'],      // Shapur II's campaigns
+  ['caucasus-1-428::p5', 'sassanid-224-484::k8'],      // Shapur II and the Armenian kings
+  ['caucasus-1-428::o2', 'sassanid-224-484::k6'],      // Narseh's war and the peace of Nisibis
+  ['caucasus-1-428::o3', 'rome-300-400::c4'],      // the peace of 363 and its cession
+  ['caucasus-1-428::p6', 'sassanid-224-484::c8'],      // the partition of Armenia between Rome and Persia
+  ['caucasus-1-428::p6', 'late-roman-anatolia-330-632::x3'],      // the partition of 387
+  ['caucasus-1-428::b1', 'sassanid-224-484::r3'],      // Shapur II's persecution of Christians
+  ['caucasus-1-428::x1', 'sassanid-224-484::ex4'],      // Armenian cultural transmission between Rome and Persia
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
