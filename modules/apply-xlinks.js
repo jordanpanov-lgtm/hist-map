@@ -1894,6 +1894,14 @@ const SELECTED_PAIRS = [
   ['caucasus-1828-1878::o2', 'caucasus-1747-1828::o5'],      // the administration of the Armenian lands
   ['caucasus-1828-1878::b1', 'caucasus-1747-1828::b1'],      // the abolition of Georgian autocephaly
   ['caucasus-1828-1878::p1', 'caucasus-1747-1828::p8'],      // the Russian governors of the conquest
+  ['caucasus-1878-1917::c4', 'anatolia-1908-1923::c6'],      // the Russian occupation of eastern Anatolia
+  ['caucasus-1878-1917::c4', 'anatolia-1908-1923::c4'],      // Sarıkamış
+  ['caucasus-1878-1917::x2', 'anatolia-1908-1923::c7'],      // the Armenian Genocide and the flight of refugees to the Caucasus
+  ['caucasus-1878-1917::t1', 'ottoman-anatolia-1800-1908::c4'],      // the Armenian revolutionary movement
+  ['caucasus-1878-1917::o1', 'ottoman-anatolia-1800-1908::w1'],      // the Armenian question after Berlin
+  ['caucasus-1878-1917::ec1', 'qajar-1789-1925::ec2'],      // the oil of the Caucasus and Persia
+  ['caucasus-1878-1917::o2', 'caucasus-1828-1878::o2'],      // the administration of Transcaucasia
+  ['caucasus-1878-1917::p1', 'caucasus-1828-1878::p3'],      // the viceroys of the Caucasus
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

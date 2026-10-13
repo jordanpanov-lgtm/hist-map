@@ -245,5 +245,6 @@ const MODULES = [
   { id:"caucasus-1501-1747", file:"modules/caucasus-1501-1747.json", label:"Safavid–Ottoman Caucasus 1501–1747", sub:"Amasya and Zuhab, Shah Abbas's Deportations, Kartli and Kakheti, the Meliks of Karabakh and the Armenian Merchants", region:"Caucasus", period:"Early Modern" },
   { id:"caucasus-1747-1828", file:"modules/caucasus-1747-1828.json", label:"Khanates and the Russian Conquest 1747–1828", sub:"Erekle II and Georgievsk, the Khanates of the Kura and Araxes, Gulistan and Turkmenchay", region:"Caucasus", period:"Early Modern" },
   { id:"caucasus-1828-1878", file:"modules/caucasus-1828-1878.json", label:"Russian Caucasus 1828–1878", sub:"The Viceroyalty, the Conspiracy of 1832, the National Awakenings, the First Oil and the War of 1877–1878", region:"Caucasus", period:"Early Modern" },
+  { id:"caucasus-1878-1917", file:"modules/caucasus-1878-1917.json", label:"Russian Caucasus 1878–1917", sub:"Baku's Oil and the Working Class, Three National Movements, 1905 and the Great War on the Caucasus Front", region:"Caucasus", period:"Early Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
