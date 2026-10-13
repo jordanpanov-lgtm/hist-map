@@ -1968,6 +1968,28 @@ const SELECTED_PAIRS = [
   ['georgia-1991-today::t3', 'caucasus-1917-1921::c9'],      // the Red Army’s entry of 1921 and the museum of occupation
   ['georgia-1991-today::x2', 'armenia-1991-today::x3'],      // the EU paths of Georgia and Armenia
   ['georgia-1991-today::x3', 'armenia-1991-today::x2'],      // the relations of Georgia and Armenia with Russia
+  ['azerbaijan-1991-today::p3', 'caucasus-1953-1991::p2'],      // Heydar Aliyev as Soviet leader and as president
+  ['azerbaijan-1991-today::p1', 'caucasus-1953-1991::p5'],      // the presidents of 1990–1991
+  ['azerbaijan-1991-today::p1', 'caucasus-1953-1991::c7'],      // Mutalibov and Black January
+  ['azerbaijan-1991-today::o1', 'caucasus-1953-1991::o3'],      // the independence acts of 1991
+  ['azerbaijan-1991-today::o1', 'caucasus-1917-1921::p4'],      // the republic of 1918–1920 and the restoration of 1991
+  ['azerbaijan-1991-today::c1', 'armenia-1991-today::c2'],      // Khojaly and Maragha as remembered on the two sides
+  ['azerbaijan-1991-today::c2', 'armenia-1991-today::c1'],      // the first Karabakh war from both sides
+  ['azerbaijan-1991-today::c6', 'armenia-1991-today::c7'],      // the April war of 2016 from both sides
+  ['azerbaijan-1991-today::c7', 'armenia-1991-today::c8'],      // the war of 2020 from both sides
+  ['azerbaijan-1991-today::c8', 'armenia-1991-today::c8'],      // the strikes on Gyanja and Barda in the war of 2020
+  ['azerbaijan-1991-today::c9', 'armenia-1991-today::c11'],      // the operation of September 2023 and the exodus
+  ['azerbaijan-1991-today::c7', 'turkey-1980-today::g2'],      // Turkish drones in the war of 2020
+  ['azerbaijan-1991-today::o7', 'armenia-1991-today::o7'],      // the treaty and the constitution from both sides
+  ['azerbaijan-1991-today::l1', 'armenia-1991-today::l3'],      // the missing and the prisoners on both sides
+  ['azerbaijan-1991-today::x2', 'armenia-1991-today::x2'],      // Russia’s relations with Azerbaijan and with Armenia
+  ['azerbaijan-1991-today::ec1', 'caucasus-1953-1991::ec1'],      // the oil rocks of the Soviet years and the Contract of the Century
+  ['azerbaijan-1991-today::ec1', 'caucasus-1917-1921::ec1'],      // the oil of 1918–1920 and the contract of 1994
+  ['azerbaijan-1991-today::te1', 'georgia-1991-today::te1'],      // the Baku–Tbilisi–Ceyhan pipeline in Georgia
+  ['azerbaijan-1991-today::x1', 'georgia-1991-today::x4'],      // the strategic triangle with Turkey and Georgia
+  ['azerbaijan-1991-today::w1', 'caucasus-1953-1991::w2'],      // the refugees of 1988–1991 and the displaced of the wars
+  ['azerbaijan-1991-today::b1', 'caucasus-1953-1991::b2'],      // the Spiritual Board of the Soviet years and the Caucasus Muslims Office
+  ['azerbaijan-1991-today::e1', 'caucasus-1953-1991::e3'],      // mugham in the Soviet years and after
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

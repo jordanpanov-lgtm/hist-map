@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 9287,
-    "folio_count": 194,
-    "xlink_pairs": 1964,
-    "keyword_terms": 14264,
+    "total_entries": 9344,
+    "folio_count": 195,
+    "xlink_pairs": 1986,
+    "keyword_terms": 14375,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -74,6 +74,11 @@
         "id": "ayyubids-1171-1250",
         "title": "The Ayyubid Sultanate",
         "entries": 75
+      },
+      {
+        "id": "azerbaijan-1991-today",
+        "title": "Azerbaijan",
+        "entries": 57
       },
       {
         "id": "babylon-1155bc-539bc",
@@ -1716,6 +1721,63 @@
     "ayyubids-1171-1250::lv2": "The princess-builders of Ayyubid Syria",
     "ayyubids-1171-1250::lv3": "The mamluk regiments before the coup",
     "ayyubids-1171-1250::lv1": "Shajar al-Durr",
+    "azerbaijan-1991-today::p1": "Ayaz Mutalibov",
+    "azerbaijan-1991-today::p2": "Abulfaz Elchibey",
+    "azerbaijan-1991-today::p3": "Heydar Aliyev",
+    "azerbaijan-1991-today::p4": "Ilham Aliyev",
+    "azerbaijan-1991-today::p5": "Mehriban Aliyeva",
+    "azerbaijan-1991-today::p6": "The governments of the first years",
+    "azerbaijan-1991-today::p7": "Artur Rasizade",
+    "azerbaijan-1991-today::p8": "The governments of Novruz Mammadov and Ali Asadov",
+    "azerbaijan-1991-today::c2": "The war and the loss of the districts",
+    "azerbaijan-1991-today::c1": "Khojaly",
+    "azerbaijan-1991-today::c3": "The rebellions of 1993–1995",
+    "azerbaijan-1991-today::c4": "The Baku metro bombings",
+    "azerbaijan-1991-today::c5": "The Nardaran events",
+    "azerbaijan-1991-today::c6": "The April war of 2016",
+    "azerbaijan-1991-today::c7": "The 44-day war",
+    "azerbaijan-1991-today::c8": "The missile attacks on Gyanja and Barda",
+    "azerbaijan-1991-today::c9": "The operation of September 2023",
+    "azerbaijan-1991-today::o1": "The restoration of independence",
+    "azerbaijan-1991-today::o4": "The language and the alphabet",
+    "azerbaijan-1991-today::o3": "Elections and the observers",
+    "azerbaijan-1991-today::o2": "The constitution of 1995 and the referendums",
+    "azerbaijan-1991-today::o5": "The NGO laws and the arrests of 2014",
+    "azerbaijan-1991-today::o6": "The media law and the Abzas Media case",
+    "azerbaijan-1991-today::o7": "The treaty and the Armenian constitution",
+    "azerbaijan-1991-today::b1": "The Caucasus Muslims Office and the state",
+    "azerbaijan-1991-today::b2": "The Jews, Udis and Orthodox of Azerbaijan",
+    "azerbaijan-1991-today::b3": "Religious heritage in Karabakh",
+    "azerbaijan-1991-today::e1": "Mugham",
+    "azerbaijan-1991-today::e2": "Eurovision 2011 and the Heydar Aliyev Center",
+    "azerbaijan-1991-today::e3": "Chess and the Baku games",
+    "azerbaijan-1991-today::t1": "Azerbaijanism and the Turkic idea",
+    "azerbaijan-1991-today::t2": "The Victory Day and the Trophy Park",
+    "azerbaijan-1991-today::t3": "The Western Azerbaijan idea",
+    "azerbaijan-1991-today::ec1": "The Contract of the Century",
+    "azerbaijan-1991-today::ec2": "The oil fund and the boom",
+    "azerbaijan-1991-today::ec4": "The Azerbaijani Laundromat",
+    "azerbaijan-1991-today::ec3": "The devaluations of 2015",
+    "azerbaijan-1991-today::ec5": "The gas for Europe",
+    "azerbaijan-1991-today::ec6": "The Great Return and the reconstruction",
+    "azerbaijan-1991-today::te1": "The Baku–Tbilisi–Ceyhan and Southern Gas Corridor pipelines",
+    "azerbaijan-1991-today::te3": "Azerspace-1 and the airports",
+    "azerbaijan-1991-today::te2": "The Alat port and the Middle Corridor",
+    "azerbaijan-1991-today::x1": "Turkey and the Shusha Declaration",
+    "azerbaijan-1991-today::x3": "Israel and Iran",
+    "azerbaijan-1991-today::x4": "Section 907 and the American relationship",
+    "azerbaijan-1991-today::x2": "Russia and the CIS",
+    "azerbaijan-1991-today::x5": "The European Union and the Council of Europe",
+    "azerbaijan-1991-today::x6": "The chair of the Non-Aligned Movement",
+    "azerbaijan-1991-today::w1": "The internally displaced",
+    "azerbaijan-1991-today::w3": "The Caspian Sea and COP29",
+    "azerbaijan-1991-today::w2": "The mines",
+    "azerbaijan-1991-today::w4": "Covid-19",
+    "azerbaijan-1991-today::l3": "The Talysh, Lezgins and other peoples",
+    "azerbaijan-1991-today::l1": "The families of the missing and the displaced of Karabakh",
+    "azerbaijan-1991-today::l5": "The migrants in Russia and the diaspora",
+    "azerbaijan-1991-today::l2": "Women and the law on domestic violence",
+    "azerbaijan-1991-today::l4": "The political prisoners",
     "babylon-1155bc-539bc::k1": "Nebuchadnezzar I recovers Marduk from Elam",
     "babylon-1155bc-539bc::k2": "The Aramaean and Chaldean centuries",
     "babylon-1155bc-539bc::k3": "Nabu-nasir and the start of the reliable record",
@@ -11167,11 +11229,16 @@
     ],
     "caucasus-1953-1991::p5": [
       "armenia-1991-today::p1",
+      "azerbaijan-1991-today::p1",
       "georgia-1991-today::p1"
     ],
     "armenia-1991-today::c1": [
+      "azerbaijan-1991-today::c2",
       "caucasus-1917-1921::c7",
       "caucasus-1953-1991::o4"
+    ],
+    "azerbaijan-1991-today::c2": [
+      "armenia-1991-today::c1"
     ],
     "caucasus-1917-1921::c7": [
       "armenia-1991-today::c1",
@@ -11180,11 +11247,39 @@
     "caucasus-1953-1991::o4": [
       "armenia-1991-today::c1"
     ],
+    "armenia-1991-today::c2": [
+      "azerbaijan-1991-today::c1"
+    ],
+    "azerbaijan-1991-today::c1": [
+      "armenia-1991-today::c2"
+    ],
+    "armenia-1991-today::c7": [
+      "azerbaijan-1991-today::c6"
+    ],
+    "azerbaijan-1991-today::c6": [
+      "armenia-1991-today::c7"
+    ],
     "armenia-1991-today::c8": [
+      "azerbaijan-1991-today::c7",
+      "azerbaijan-1991-today::c8",
       "turkey-1980-today::g2"
     ],
-    "turkey-1980-today::g2": [
+    "azerbaijan-1991-today::c7": [
+      "armenia-1991-today::c8",
+      "turkey-1980-today::g2"
+    ],
+    "azerbaijan-1991-today::c8": [
       "armenia-1991-today::c8"
+    ],
+    "turkey-1980-today::g2": [
+      "armenia-1991-today::c8",
+      "azerbaijan-1991-today::c7"
+    ],
+    "armenia-1991-today::c11": [
+      "azerbaijan-1991-today::c9"
+    ],
+    "azerbaijan-1991-today::c9": [
+      "armenia-1991-today::c11"
     ],
     "armenia-1991-today::o1": [
       "caucasus-1917-1921::p3",
@@ -11196,12 +11291,19 @@
     ],
     "caucasus-1953-1991::o3": [
       "armenia-1991-today::o1",
+      "azerbaijan-1991-today::o1",
       "georgia-1991-today::o1"
     ],
     "georgia-1991-today::o1": [
       "armenia-1991-today::o1",
       "caucasus-1917-1921::p2",
       "caucasus-1953-1991::o3"
+    ],
+    "armenia-1991-today::o7": [
+      "azerbaijan-1991-today::o7"
+    ],
+    "azerbaijan-1991-today::o7": [
+      "armenia-1991-today::o7"
     ],
     "armenia-1991-today::b1": [
       "caucasus-1953-1991::b1"
@@ -11230,7 +11332,11 @@
       "armenia-1991-today::te1"
     ],
     "armenia-1991-today::x2": [
+      "azerbaijan-1991-today::x2",
       "georgia-1991-today::x3"
+    ],
+    "azerbaijan-1991-today::x2": [
+      "armenia-1991-today::x2"
     ],
     "georgia-1991-today::x3": [
       "armenia-1991-today::x2"
@@ -11265,6 +11371,7 @@
     ],
     "caucasus-1953-1991::w2": [
       "armenia-1991-today::w3",
+      "azerbaijan-1991-today::w1",
       "georgia-1991-today::w1"
     ],
     "armenia-1991-today::w1": [
@@ -11272,6 +11379,12 @@
     ],
     "caucasus-1953-1991::g1": [
       "armenia-1991-today::w1"
+    ],
+    "armenia-1991-today::l3": [
+      "azerbaijan-1991-today::l1"
+    ],
+    "azerbaijan-1991-today::l1": [
+      "armenia-1991-today::l3"
     ],
     "assyria-1400bc-1050bc::k1": [
       "babylon-1595bc-1155bc::k6",
@@ -11976,6 +12089,66 @@
     "ayyubids-1171-1250::lv1": [
       "mamluks-1250-1517::k1",
       "mamluks-1250-1517::lv2"
+    ],
+    "azerbaijan-1991-today::p1": [
+      "caucasus-1953-1991::c7",
+      "caucasus-1953-1991::p5"
+    ],
+    "caucasus-1953-1991::c7": [
+      "azerbaijan-1991-today::p1"
+    ],
+    "azerbaijan-1991-today::p3": [
+      "caucasus-1953-1991::p2"
+    ],
+    "caucasus-1953-1991::p2": [
+      "azerbaijan-1991-today::p3",
+      "caucasus-1921-1953::p3"
+    ],
+    "azerbaijan-1991-today::o1": [
+      "caucasus-1917-1921::p4",
+      "caucasus-1953-1991::o3"
+    ],
+    "caucasus-1917-1921::p4": [
+      "azerbaijan-1991-today::o1"
+    ],
+    "azerbaijan-1991-today::b1": [
+      "caucasus-1953-1991::b2"
+    ],
+    "caucasus-1953-1991::b2": [
+      "azerbaijan-1991-today::b1"
+    ],
+    "azerbaijan-1991-today::e1": [
+      "caucasus-1953-1991::e3"
+    ],
+    "caucasus-1953-1991::e3": [
+      "azerbaijan-1991-today::e1"
+    ],
+    "azerbaijan-1991-today::ec1": [
+      "caucasus-1917-1921::ec1",
+      "caucasus-1953-1991::ec1"
+    ],
+    "caucasus-1917-1921::ec1": [
+      "azerbaijan-1991-today::ec1",
+      "caucasus-1878-1917::ec1"
+    ],
+    "caucasus-1953-1991::ec1": [
+      "azerbaijan-1991-today::ec1",
+      "caucasus-1921-1953::ec1"
+    ],
+    "azerbaijan-1991-today::te1": [
+      "georgia-1991-today::te1"
+    ],
+    "georgia-1991-today::te1": [
+      "azerbaijan-1991-today::te1"
+    ],
+    "azerbaijan-1991-today::x1": [
+      "georgia-1991-today::x4"
+    ],
+    "georgia-1991-today::x4": [
+      "azerbaijan-1991-today::x1"
+    ],
+    "azerbaijan-1991-today::w1": [
+      "caucasus-1953-1991::w2"
     ],
     "babylon-1155bc-539bc::k1": [
       "babylon-1595bc-1155bc::c5",
@@ -13892,9 +14065,6 @@
       "caucasus-1917-1921::ec1",
       "qajar-1789-1925::ec2"
     ],
-    "caucasus-1917-1921::ec1": [
-      "caucasus-1878-1917::ec1"
-    ],
     "qajar-1789-1925::ec2": [
       "caucasus-1878-1917::ec1"
     ],
@@ -13951,9 +14121,6 @@
     "caucasus-1921-1953::p3": [
       "caucasus-1953-1991::p2"
     ],
-    "caucasus-1953-1991::p2": [
-      "caucasus-1921-1953::p3"
-    ],
     "caucasus-1921-1953::c6": [
       "pahlavi-1925-1979::c1",
       "turkey-1923-1980::x4"
@@ -13971,9 +14138,6 @@
     ],
     "caucasus-1921-1953::ec1": [
       "caucasus-1953-1991::ec1"
-    ],
-    "caucasus-1953-1991::ec1": [
-      "caucasus-1921-1953::ec1"
     ],
     "caucasus-1921-1953::x2": [
       "pahlavi-1925-1979::c1"
@@ -23743,6 +23907,340 @@
       "al-Salih Ayyub",
       "Louis IX",
       "Mamluk Aybak"
+    ],
+    "azerbaijan-1991-today::p1": [
+      "Communist",
+      "Baku",
+      "Ayaz Mutalibov",
+      "Popular Front"
+    ],
+    "azerbaijan-1991-today::p2": [
+      "Popular Front",
+      "Baku",
+      "Abulfaz Elchibey",
+      "Colonel Surat Huseynov"
+    ],
+    "azerbaijan-1991-today::p3": [
+      "New Azerbaijan",
+      "Baku",
+      "Heydar Aliyev",
+      "Soviet Politburo",
+      "Contract of the Century",
+      "United States"
+    ],
+    "azerbaijan-1991-today::p4": [
+      "New Azerbaijan",
+      "Baku",
+      "Ilham Aliyev"
+    ],
+    "azerbaijan-1991-today::p5": [
+      "New Azerbaijan",
+      "Baku",
+      "Mehriban Aliyeva",
+      "Heydar Aliyev Foundation"
+    ],
+    "azerbaijan-1991-today::p6": [
+      "Various",
+      "Baku",
+      "Panah Huseynov",
+      "Surat Huseynov",
+      "Fuad Guliyev"
+    ],
+    "azerbaijan-1991-today::p7": [
+      "New Azerbaijan",
+      "Baku",
+      "Artur Rasizade"
+    ],
+    "azerbaijan-1991-today::p8": [
+      "New Azerbaijan",
+      "Baku",
+      "Novruz Mammadov",
+      "Ali Asadov"
+    ],
+    "azerbaijan-1991-today::c2": [
+      "Karabakh",
+      "UN Security Council"
+    ],
+    "azerbaijan-1991-today::c1": [
+      "Khojaly",
+      "Human Rights Watch"
+    ],
+    "azerbaijan-1991-today::c3": [
+      "Gyanja",
+      "Baku",
+      "Surat Huseynov",
+      "Rovshan Javadov"
+    ],
+    "azerbaijan-1991-today::c4": [
+      "Baku"
+    ],
+    "azerbaijan-1991-today::c5": [
+      "Nardaran",
+      "Baku",
+      "Muslim Unity Movement",
+      "Taleh Bagirzade"
+    ],
+    "azerbaijan-1991-today::c6": [
+      "April"
+    ],
+    "azerbaijan-1991-today::c7": [
+      "Karabakh",
+      "Aghdam",
+      "Polad Hashimov",
+      "Patriotic War"
+    ],
+    "azerbaijan-1991-today::c8": [
+      "Gyanja",
+      "Barda",
+      "Amnesty International"
+    ],
+    "azerbaijan-1991-today::c9": [
+      "September",
+      "Karabakh Armenians",
+      "Armenians of Karabakh"
+    ],
+    "azerbaijan-1991-today::o1": [
+      "Baku",
+      "Moscow the Supreme Soviet",
+      "Constitutional Act",
+      "Independence of the Republic of Azerbaijan",
+      "Karabakh Armenians"
+    ],
+    "azerbaijan-1991-today::o4": [
+      "Baku",
+      "Heydar Aliyev"
+    ],
+    "azerbaijan-1991-today::o3": [
+      "Baku",
+      "Elections"
+    ],
+    "azerbaijan-1991-today::o2": [
+      "Baku",
+      "Venice Commission"
+    ],
+    "azerbaijan-1991-today::o5": [
+      "Baku",
+      "NGO",
+      "Leyla Yunus",
+      "Rasul Jafarov",
+      "Arif Yunus",
+      "Khadija Ismayilova"
+    ],
+    "azerbaijan-1991-today::o6": [
+      "Baku",
+      "Abzas Media",
+      "Meydan TV",
+      "Toplum TV",
+      "Ulvi Hasanli",
+      "Protect Journalists"
+    ],
+    "azerbaijan-1991-today::o7": [
+      "Baku",
+      "Yerevan",
+      "Armenian",
+      "Declaration of Independence",
+      "Munich Security Conference"
+    ],
+    "azerbaijan-1991-today::b1": [
+      "Baku",
+      "Caucasus Muslims Office",
+      "Sheikh-ul-Islam Allahshukur Pashazade",
+      "Religious Associations",
+      "Heydar Mosque",
+      "Juma Mosque"
+    ],
+    "azerbaijan-1991-today::b2": [
+      "Quba",
+      "Udis",
+      "Orthodox of Azerbaijan",
+      "Mountain Jews of Krasnaya Sloboda",
+      "Udi Christians of Nij",
+      "Russian Orthodox"
+    ],
+    "azerbaijan-1991-today::b3": [
+      "Shusha",
+      "Aghdam",
+      "Religious",
+      "Karabakh",
+      "Armenian Ghazanchetsots Cathedral",
+      "Caucasian Albanians"
+    ],
+    "azerbaijan-1991-today::e1": [
+      "Baku",
+      "Alim Qasimov",
+      "Masterpiece of the Oral",
+      "Intangible Heritage of Humanity",
+      "Representative List",
+      "International Mugham Centre"
+    ],
+    "azerbaijan-1991-today::e2": [
+      "Baku",
+      "Heydar Aliyev Center",
+      "Eurovision Song Contest",
+      "Running Scared",
+      "Crystal Hall",
+      "Zaha Hadid"
+    ],
+    "azerbaijan-1991-today::e3": [
+      "Baku",
+      "Garry Kasparov",
+      "Teimour Radjabov",
+      "Shakhriyar Mamedyarov",
+      "European Games",
+      "Grand Prix"
+    ],
+    "azerbaijan-1991-today::t1": [
+      "Baku",
+      "Azerbaijanism",
+      "Turkic",
+      "Popular Front",
+      "Heydar Aliyev",
+      "Caucasian Albanian"
+    ],
+    "azerbaijan-1991-today::t2": [
+      "Baku",
+      "Victory Day",
+      "Military Trophy Park"
+    ],
+    "azerbaijan-1991-today::t3": [
+      "Baku",
+      "Western Azerbaijan",
+      "Western Azerbaijanis"
+    ],
+    "azerbaijan-1991-today::ec1": [
+      "Baku",
+      "Contract of the Century",
+      "Oil Company of Azerbaijan",
+      "United States",
+      "Gulistan Palace",
+      "Shah Deniz"
+    ],
+    "azerbaijan-1991-today::ec2": [
+      "Baku",
+      "Oil Fund SOFAZ"
+    ],
+    "azerbaijan-1991-today::ec4": [
+      "Baku",
+      "Tallinn",
+      "Azerbaijani Laundromat",
+      "Organized Crime",
+      "Corruption Reporting Project",
+      "Danske Bank"
+    ],
+    "azerbaijan-1991-today::ec3": [
+      "Baku"
+    ],
+    "azerbaijan-1991-today::ec5": [
+      "Baku",
+      "Brussels",
+      "Europe",
+      "Southern Gas Corridor of the Shah Deniz",
+      "South Caucasus Pipeline",
+      "Ukraine the European Commission"
+    ],
+    "azerbaijan-1991-today::ec6": [
+      "Karabakh",
+      "East Zangezur",
+      "Return"
+    ],
+    "azerbaijan-1991-today::te1": [
+      "Sangachal",
+      "Ceyhan",
+      "Baku–Tbilisi–Ceyhan",
+      "Southern Gas Corridor"
+    ],
+    "azerbaijan-1991-today::te3": [
+      "Baku",
+      "Fuzuli",
+      "Azerspace-1"
+    ],
+    "azerbaijan-1991-today::te2": [
+      "Alat",
+      "Middle Corridor",
+      "Baku International Sea Trade Port",
+      "Free Economic Zone",
+      "Central Asia"
+    ],
+    "azerbaijan-1991-today::x1": [
+      "Ankara",
+      "Turkey",
+      "Shusha Declaration",
+      "Organization of Turkic States"
+    ],
+    "azerbaijan-1991-today::x3": [
+      "Tel Aviv",
+      "Tehran",
+      "Israel",
+      "Iran",
+      "Aras River"
+    ],
+    "azerbaijan-1991-today::x4": [
+      "Washington",
+      "Section",
+      "American",
+      "Freedom Support Act"
+    ],
+    "azerbaijan-1991-today::x2": [
+      "Moscow",
+      "Baku",
+      "Russia",
+      "CIS",
+      "Azerbaijan Airlines",
+      "Sputnik Azerbaijan"
+    ],
+    "azerbaijan-1991-today::x5": [
+      "Strasbourg",
+      "Brussels",
+      "European Union",
+      "Europe",
+      "Parliamentary Assembly"
+    ],
+    "azerbaijan-1991-today::x6": [
+      "Baku",
+      "Non-Aligned Movement",
+      "Organisation of Islamic Cooperation",
+      "Organization of Turkic States"
+    ],
+    "azerbaijan-1991-today::w1": [
+      "Azerbaijan"
+    ],
+    "azerbaijan-1991-today::w3": [
+      "Baku",
+      "Caspian Sea",
+      "UN Climate Change Conference COP29"
+    ],
+    "azerbaijan-1991-today::w2": [
+      "Karabakh"
+    ],
+    "azerbaijan-1991-today::w4": [
+      "Azerbaijan",
+      "Covid-19"
+    ],
+    "azerbaijan-1991-today::l3": [
+      "Lankaran",
+      "Quba",
+      "Talysh",
+      "Lezgins",
+      "Novruzali Mammadov"
+    ],
+    "azerbaijan-1991-today::l1": [
+      "Baku",
+      "Karabakh"
+    ],
+    "azerbaijan-1991-today::l5": [
+      "Moscow",
+      "Yekaterinburg",
+      "Russia"
+    ],
+    "azerbaijan-1991-today::l2": [
+      "Baku",
+      "Women",
+      "Children Affairs"
+    ],
+    "azerbaijan-1991-today::l4": [
+      "Baku",
+      "European Court of Human Rights",
+      "Ilgar Mammadov"
     ],
     "babylon-1155bc-539bc::k1": [
       "Second Dynasty of Isin",
@@ -73026,6 +73524,7 @@
     ],
     "Return": [
       "achaemenid-550bc-330bc::b3",
+      "azerbaijan-1991-today::ec6",
       "levant-539bc-332bc::p1"
     ],
     "Exile": [
@@ -73424,6 +73923,7 @@
     ],
     "Central Asia": [
       "achaemenid-550bc-330bc::x3",
+      "azerbaijan-1991-today::te2",
       "caliphate-632-750::x4",
       "caliphate-632-750::lv4",
       "caliphate-750-945::e2",
@@ -73561,6 +74061,7 @@
       "achaemenid-caucasus-585bc-330bc::l1",
       "anatolia-1908-1923::o2",
       "assyria-911bc-609bc::c2",
+      "azerbaijan-1991-today::o7",
       "caucasus-1-428::t1",
       "caucasus-1064-1243::p6",
       "caucasus-1064-1243::o3",
@@ -74126,6 +74627,7 @@
     "Various": [
       "al-andalus-1031-1492::k1",
       "armenia-1991-today::p6",
+      "azerbaijan-1991-today::p6",
       "hispania-300bc-27bc::a3"
     ],
     "Seville": [
@@ -75058,6 +75560,8 @@
       "anatolia-10000bc-3000bc::x3",
       "armenia-1991-today::o5",
       "armenia-1991-today::t3",
+      "azerbaijan-1991-today::ec5",
+      "azerbaijan-1991-today::x5",
       "caliphate-945-1258::x6",
       "caucasus-1501-1747::t3",
       "france-1610-1715::ex1",
@@ -77506,6 +78010,7 @@
     "Women": [
       "anatolia-10000bc-3000bc::l1",
       "anatolia-1908-1923::l2",
+      "azerbaijan-1991-today::l2",
       "bahrain-1971-today::lv3",
       "caucasus-1917-1921::l1",
       "dedan-tayma-1200bc-300bc::lv1",
@@ -77742,6 +78247,7 @@
       "anatolian-beyliks-1308-1500::c4",
       "anatolian-beyliks-1308-1500::o3",
       "anatolian-beyliks-1308-1500::b1",
+      "azerbaijan-1991-today::x1",
       "georgia-1991-today::x4",
       "iran-1335-1501::c3",
       "ottoman-anatolia-1500-1800::ec2",
@@ -78068,6 +78574,7 @@
     ],
     "April": [
       "anatolia-1908-1923::c8",
+      "azerbaijan-1991-today::c6",
       "caucasus-1953-1991::c6",
       "caucasus-1953-1991::l1",
       "spain-1900-1975::c2"
@@ -78336,6 +78843,7 @@
       "anatolia-1908-1923::w2",
       "armenia-1991-today::t1",
       "armenia-1991-today::x7",
+      "azerbaijan-1991-today::x4",
       "bahrain-1971-today::x2",
       "bahrain-1971-today::x4",
       "caucasus-1917-1921::x2",
@@ -78446,6 +78954,8 @@
       "anatolia-3000bc-2000bc::e1",
       "armenia-1991-today::t3",
       "armenia-1991-today::x2",
+      "azerbaijan-1991-today::x2",
+      "azerbaijan-1991-today::l5",
       "caucasus-1501-1747::x1",
       "caucasus-1828-1878::t2",
       "caucasus-1917-1921::o4",
@@ -78472,6 +78982,7 @@
     ],
     "American": [
       "anatolia-1908-1923::w2",
+      "azerbaijan-1991-today::x4",
       "saudi-1902-today::x2",
       "spain-1700-1808::w2",
       "spain-1808-1900::ex1"
@@ -80429,6 +80940,7 @@
     "Israel": [
       "aram-damascus-1200bc-732bc::c3",
       "assyria-911bc-609bc::c3",
+      "azerbaijan-1991-today::x3",
       "israel-1948-today::c7",
       "nabataean-312bc-106ce::o1",
       "nabataean-312bc-106ce::r2"
@@ -80639,6 +81151,7 @@
       "armenia-1991-today::l5",
       "armenia-1991-today::l1",
       "armenia-1991-today::l2",
+      "azerbaijan-1991-today::o7",
       "caucasus-1878-1917::e2",
       "caucasus-1878-1917::ec2",
       "caucasus-1878-1917::x2",
@@ -80781,13 +81294,16 @@
       "turkey-1923-1980::x5"
     ],
     "Karabakh Armenians": [
-      "armenia-1991-today::c1"
+      "armenia-1991-today::c1",
+      "azerbaijan-1991-today::c9",
+      "azerbaijan-1991-today::o1"
     ],
     "Karabakh Defence Army": [
       "armenia-1991-today::c1"
     ],
     "UN Security Council": [
       "armenia-1991-today::c1",
+      "azerbaijan-1991-today::c2",
       "lebanon-1943-today::c4",
       "turkey-1980-today::x2"
     ],
@@ -80846,6 +81362,12 @@
       "armenia-1991-today::c7",
       "armenia-1991-today::c8",
       "armenia-1991-today::l2",
+      "azerbaijan-1991-today::c2",
+      "azerbaijan-1991-today::c7",
+      "azerbaijan-1991-today::b3",
+      "azerbaijan-1991-today::ec6",
+      "azerbaijan-1991-today::w2",
+      "azerbaijan-1991-today::l1",
       "caucasus-1501-1747::p9",
       "caucasus-1501-1747::b1",
       "caucasus-1747-1828::p4",
@@ -80926,6 +81448,7 @@
     "Declaration of Independence": [
       "armenia-1991-today::o1",
       "armenia-1991-today::o7",
+      "azerbaijan-1991-today::o7",
       "caucasus-1953-1991::o2",
       "france-1789-1815::lv3"
     ],
@@ -80938,6 +81461,7 @@
     ],
     "Strasbourg": [
       "armenia-1991-today::o5",
+      "azerbaijan-1991-today::x5",
       "france-1494-1610::r7",
       "france-1789-1815::a4",
       "georgia-1991-today::t1",
@@ -81028,6 +81552,43 @@
     ],
     "Baku": [
       "armenia-1991-today::e3",
+      "azerbaijan-1991-today::p1",
+      "azerbaijan-1991-today::p2",
+      "azerbaijan-1991-today::p3",
+      "azerbaijan-1991-today::p4",
+      "azerbaijan-1991-today::p5",
+      "azerbaijan-1991-today::p6",
+      "azerbaijan-1991-today::p7",
+      "azerbaijan-1991-today::p8",
+      "azerbaijan-1991-today::c3",
+      "azerbaijan-1991-today::c4",
+      "azerbaijan-1991-today::c5",
+      "azerbaijan-1991-today::o1",
+      "azerbaijan-1991-today::o4",
+      "azerbaijan-1991-today::o3",
+      "azerbaijan-1991-today::o2",
+      "azerbaijan-1991-today::o5",
+      "azerbaijan-1991-today::o6",
+      "azerbaijan-1991-today::o7",
+      "azerbaijan-1991-today::b1",
+      "azerbaijan-1991-today::e1",
+      "azerbaijan-1991-today::e2",
+      "azerbaijan-1991-today::e3",
+      "azerbaijan-1991-today::t1",
+      "azerbaijan-1991-today::t2",
+      "azerbaijan-1991-today::t3",
+      "azerbaijan-1991-today::ec1",
+      "azerbaijan-1991-today::ec2",
+      "azerbaijan-1991-today::ec4",
+      "azerbaijan-1991-today::ec3",
+      "azerbaijan-1991-today::ec5",
+      "azerbaijan-1991-today::te3",
+      "azerbaijan-1991-today::x2",
+      "azerbaijan-1991-today::x6",
+      "azerbaijan-1991-today::w3",
+      "azerbaijan-1991-today::l1",
+      "azerbaijan-1991-today::l2",
+      "azerbaijan-1991-today::l4",
       "caucasus-1064-1243::p9",
       "caucasus-1243-1501::p11",
       "caucasus-1243-1501::c6",
@@ -81086,6 +81647,7 @@
     ],
     "Eurovision Song Contest": [
       "armenia-1991-today::e3",
+      "azerbaijan-1991-today::e2",
       "turkey-1980-today::e3"
     ],
     "Chess Olympiad": [
@@ -81115,6 +81677,8 @@
     "Brussels": [
       "armenia-1991-today::t3",
       "armenia-1991-today::x3",
+      "azerbaijan-1991-today::ec5",
+      "azerbaijan-1991-today::x5",
       "france-1815-1900::lv2",
       "georgia-1991-today::x2",
       "spain-1516-1700::k1",
@@ -81128,6 +81692,8 @@
     "Russia": [
       "armenia-1991-today::t3",
       "armenia-1991-today::l5",
+      "azerbaijan-1991-today::x2",
+      "azerbaijan-1991-today::l5",
       "caucasus-1501-1747::x1",
       "caucasus-1747-1828::b2",
       "caucasus-1747-1828::x1",
@@ -81172,6 +81738,7 @@
     "European Union": [
       "armenia-1991-today::te1",
       "armenia-1991-today::x3",
+      "azerbaijan-1991-today::x5",
       "palestine-1948-today::w1"
     ],
     "Areni-1": [
@@ -81217,6 +81784,8 @@
     ],
     "United States": [
       "armenia-1991-today::x1",
+      "azerbaijan-1991-today::p3",
+      "azerbaijan-1991-today::ec1",
       "bahrain-1971-today::x2",
       "caucasus-1921-1953::x1",
       "egypt-1952-today::k3",
@@ -81280,6 +81849,7 @@
     ],
     "Iran": [
       "armenia-1991-today::x5",
+      "azerbaijan-1991-today::x3",
       "bahrain-1971-today::x3",
       "beth-qatraye-632-750::w3",
       "caliphate-632-750::c3",
@@ -81347,6 +81917,7 @@
     ],
     "Turkey": [
       "armenia-1991-today::x4",
+      "azerbaijan-1991-today::x1",
       "canaan-2000bc-1200bc::ec1",
       "egypt-1550bc-1200bc::xc5",
       "georgia-1991-today::x4",
@@ -81399,6 +81970,7 @@
     ],
     "Covid-19": [
       "armenia-1991-today::w4",
+      "azerbaijan-1991-today::w4",
       "georgia-1991-today::w3"
     ],
     "Aknalich": [
@@ -81417,6 +81989,8 @@
     ],
     "Azerbaijan": [
       "armenia-1991-today::l3",
+      "azerbaijan-1991-today::w1",
+      "azerbaijan-1991-today::w4",
       "byzantine-anatolia-867-1071::w3",
       "caucasus-1064-1243::p8",
       "caucasus-1243-1501::p8",
@@ -84096,6 +84670,539 @@
     "Mamluk Aybak": [
       "ayyubids-1171-1250::lv1"
     ],
+    "Communist": [
+      "azerbaijan-1991-today::p1"
+    ],
+    "Ayaz Mutalibov": [
+      "azerbaijan-1991-today::p1"
+    ],
+    "Popular Front": [
+      "azerbaijan-1991-today::p1",
+      "azerbaijan-1991-today::p2",
+      "azerbaijan-1991-today::t1",
+      "caucasus-1953-1991::c7",
+      "caucasus-1953-1991::x2"
+    ],
+    "Abulfaz Elchibey": [
+      "azerbaijan-1991-today::p2"
+    ],
+    "Colonel Surat Huseynov": [
+      "azerbaijan-1991-today::p2"
+    ],
+    "New Azerbaijan": [
+      "azerbaijan-1991-today::p3",
+      "azerbaijan-1991-today::p4",
+      "azerbaijan-1991-today::p5",
+      "azerbaijan-1991-today::p7",
+      "azerbaijan-1991-today::p8"
+    ],
+    "Heydar Aliyev": [
+      "azerbaijan-1991-today::p3",
+      "azerbaijan-1991-today::o4",
+      "azerbaijan-1991-today::t1",
+      "caucasus-1953-1991::p2"
+    ],
+    "Soviet Politburo": [
+      "azerbaijan-1991-today::p3"
+    ],
+    "Contract of the Century": [
+      "azerbaijan-1991-today::p3",
+      "azerbaijan-1991-today::ec1"
+    ],
+    "Ilham Aliyev": [
+      "azerbaijan-1991-today::p4"
+    ],
+    "Mehriban Aliyeva": [
+      "azerbaijan-1991-today::p5"
+    ],
+    "Heydar Aliyev Foundation": [
+      "azerbaijan-1991-today::p5"
+    ],
+    "Panah Huseynov": [
+      "azerbaijan-1991-today::p6"
+    ],
+    "Surat Huseynov": [
+      "azerbaijan-1991-today::p6",
+      "azerbaijan-1991-today::c3"
+    ],
+    "Fuad Guliyev": [
+      "azerbaijan-1991-today::p6"
+    ],
+    "Artur Rasizade": [
+      "azerbaijan-1991-today::p7"
+    ],
+    "Novruz Mammadov": [
+      "azerbaijan-1991-today::p8"
+    ],
+    "Ali Asadov": [
+      "azerbaijan-1991-today::p8"
+    ],
+    "Khojaly": [
+      "azerbaijan-1991-today::c1"
+    ],
+    "Human Rights Watch": [
+      "azerbaijan-1991-today::c1",
+      "qatar-1971-today::lv4"
+    ],
+    "Gyanja": [
+      "azerbaijan-1991-today::c3",
+      "azerbaijan-1991-today::c8"
+    ],
+    "Rovshan Javadov": [
+      "azerbaijan-1991-today::c3"
+    ],
+    "Nardaran": [
+      "azerbaijan-1991-today::c5"
+    ],
+    "Muslim Unity Movement": [
+      "azerbaijan-1991-today::c5"
+    ],
+    "Taleh Bagirzade": [
+      "azerbaijan-1991-today::c5"
+    ],
+    "Aghdam": [
+      "azerbaijan-1991-today::c7",
+      "azerbaijan-1991-today::b3"
+    ],
+    "Polad Hashimov": [
+      "azerbaijan-1991-today::c7"
+    ],
+    "Patriotic War": [
+      "azerbaijan-1991-today::c7",
+      "georgia-1991-today::c2"
+    ],
+    "Barda": [
+      "azerbaijan-1991-today::c8",
+      "caucasus-1501-1747::p9",
+      "caucasus-884-1064::ec2",
+      "sassanid-224-484::lv4"
+    ],
+    "Amnesty International": [
+      "azerbaijan-1991-today::c8",
+      "iran-1979-today::c4",
+      "iran-1979-today::c8",
+      "pahlavi-1925-1979::c3",
+      "pahlavi-1925-1979::l2",
+      "qatar-1971-today::t3"
+    ],
+    "September": [
+      "azerbaijan-1991-today::c9",
+      "caucasus-1917-1921::c4",
+      "turkey-1923-1980::c5",
+      "turkey-1980-today::c1"
+    ],
+    "Armenians of Karabakh": [
+      "azerbaijan-1991-today::c9"
+    ],
+    "Moscow the Supreme Soviet": [
+      "azerbaijan-1991-today::o1"
+    ],
+    "Constitutional Act": [
+      "azerbaijan-1991-today::o1",
+      "caucasus-1953-1991::o3"
+    ],
+    "Independence of the Republic of Azerbaijan": [
+      "azerbaijan-1991-today::o1"
+    ],
+    "Elections": [
+      "azerbaijan-1991-today::o3"
+    ],
+    "Venice Commission": [
+      "azerbaijan-1991-today::o2"
+    ],
+    "NGO": [
+      "azerbaijan-1991-today::o5"
+    ],
+    "Leyla Yunus": [
+      "azerbaijan-1991-today::o5"
+    ],
+    "Rasul Jafarov": [
+      "azerbaijan-1991-today::o5"
+    ],
+    "Arif Yunus": [
+      "azerbaijan-1991-today::o5"
+    ],
+    "Khadija Ismayilova": [
+      "azerbaijan-1991-today::o5"
+    ],
+    "Abzas Media": [
+      "azerbaijan-1991-today::o6"
+    ],
+    "Meydan TV": [
+      "azerbaijan-1991-today::o6"
+    ],
+    "Toplum TV": [
+      "azerbaijan-1991-today::o6"
+    ],
+    "Ulvi Hasanli": [
+      "azerbaijan-1991-today::o6"
+    ],
+    "Protect Journalists": [
+      "azerbaijan-1991-today::o6"
+    ],
+    "Munich Security Conference": [
+      "azerbaijan-1991-today::o7"
+    ],
+    "Caucasus Muslims Office": [
+      "azerbaijan-1991-today::b1"
+    ],
+    "Sheikh-ul-Islam Allahshukur Pashazade": [
+      "azerbaijan-1991-today::b1"
+    ],
+    "Religious Associations": [
+      "azerbaijan-1991-today::b1"
+    ],
+    "Heydar Mosque": [
+      "azerbaijan-1991-today::b1"
+    ],
+    "Juma Mosque": [
+      "azerbaijan-1991-today::b1"
+    ],
+    "Quba": [
+      "azerbaijan-1991-today::b2",
+      "azerbaijan-1991-today::l3"
+    ],
+    "Udis": [
+      "azerbaijan-1991-today::b2"
+    ],
+    "Orthodox of Azerbaijan": [
+      "azerbaijan-1991-today::b2"
+    ],
+    "Mountain Jews of Krasnaya Sloboda": [
+      "azerbaijan-1991-today::b2"
+    ],
+    "Udi Christians of Nij": [
+      "azerbaijan-1991-today::b2"
+    ],
+    "Russian Orthodox": [
+      "azerbaijan-1991-today::b2"
+    ],
+    "Shusha": [
+      "azerbaijan-1991-today::b3",
+      "caucasus-1747-1828::p4",
+      "caucasus-1747-1828::c3",
+      "caucasus-1747-1828::t2",
+      "caucasus-1828-1878::p6",
+      "caucasus-1828-1878::e3",
+      "caucasus-1828-1878::l2",
+      "caucasus-1878-1917::c1",
+      "caucasus-1917-1921::c7"
+    ],
+    "Religious": [
+      "azerbaijan-1991-today::b3",
+      "israel-1948-today::t1",
+      "oman-1970-today::b2",
+      "spain-1808-1900::r3",
+      "syria-1946-today::b1"
+    ],
+    "Armenian Ghazanchetsots Cathedral": [
+      "azerbaijan-1991-today::b3"
+    ],
+    "Caucasian Albanians": [
+      "azerbaijan-1991-today::b3"
+    ],
+    "Alim Qasimov": [
+      "azerbaijan-1991-today::e1"
+    ],
+    "Masterpiece of the Oral": [
+      "azerbaijan-1991-today::e1",
+      "georgia-1991-today::e1"
+    ],
+    "Intangible Heritage of Humanity": [
+      "azerbaijan-1991-today::e1"
+    ],
+    "Representative List": [
+      "azerbaijan-1991-today::e1"
+    ],
+    "International Mugham Centre": [
+      "azerbaijan-1991-today::e1"
+    ],
+    "Heydar Aliyev Center": [
+      "azerbaijan-1991-today::e2"
+    ],
+    "Running Scared": [
+      "azerbaijan-1991-today::e2"
+    ],
+    "Crystal Hall": [
+      "azerbaijan-1991-today::e2"
+    ],
+    "Zaha Hadid": [
+      "azerbaijan-1991-today::e2"
+    ],
+    "Garry Kasparov": [
+      "azerbaijan-1991-today::e3"
+    ],
+    "Teimour Radjabov": [
+      "azerbaijan-1991-today::e3"
+    ],
+    "Shakhriyar Mamedyarov": [
+      "azerbaijan-1991-today::e3"
+    ],
+    "European Games": [
+      "azerbaijan-1991-today::e3"
+    ],
+    "Grand Prix": [
+      "azerbaijan-1991-today::e3",
+      "bahrain-1971-today::t2",
+      "bahrain-1971-today::ec4",
+      "bahrain-1971-today::w3"
+    ],
+    "Azerbaijanism": [
+      "azerbaijan-1991-today::t1"
+    ],
+    "Turkic": [
+      "azerbaijan-1991-today::t1"
+    ],
+    "Caucasian Albanian": [
+      "azerbaijan-1991-today::t1",
+      "caucasus-1-428::t4"
+    ],
+    "Victory Day": [
+      "azerbaijan-1991-today::t2"
+    ],
+    "Military Trophy Park": [
+      "azerbaijan-1991-today::t2"
+    ],
+    "Western Azerbaijan": [
+      "azerbaijan-1991-today::t3"
+    ],
+    "Western Azerbaijanis": [
+      "azerbaijan-1991-today::t3"
+    ],
+    "Oil Company of Azerbaijan": [
+      "azerbaijan-1991-today::ec1"
+    ],
+    "Gulistan Palace": [
+      "azerbaijan-1991-today::ec1"
+    ],
+    "Shah Deniz": [
+      "azerbaijan-1991-today::ec1"
+    ],
+    "Oil Fund SOFAZ": [
+      "azerbaijan-1991-today::ec2"
+    ],
+    "Tallinn": [
+      "azerbaijan-1991-today::ec4"
+    ],
+    "Azerbaijani Laundromat": [
+      "azerbaijan-1991-today::ec4"
+    ],
+    "Organized Crime": [
+      "azerbaijan-1991-today::ec4"
+    ],
+    "Corruption Reporting Project": [
+      "azerbaijan-1991-today::ec4"
+    ],
+    "Danske Bank": [
+      "azerbaijan-1991-today::ec4"
+    ],
+    "Southern Gas Corridor of the Shah Deniz": [
+      "azerbaijan-1991-today::ec5"
+    ],
+    "South Caucasus Pipeline": [
+      "azerbaijan-1991-today::ec5"
+    ],
+    "Ukraine the European Commission": [
+      "azerbaijan-1991-today::ec5"
+    ],
+    "East Zangezur": [
+      "azerbaijan-1991-today::ec6"
+    ],
+    "Sangachal": [
+      "azerbaijan-1991-today::te1"
+    ],
+    "Ceyhan": [
+      "azerbaijan-1991-today::te1"
+    ],
+    "Baku–Tbilisi–Ceyhan": [
+      "azerbaijan-1991-today::te1",
+      "georgia-1991-today::te1"
+    ],
+    "Southern Gas Corridor": [
+      "azerbaijan-1991-today::te1"
+    ],
+    "Fuzuli": [
+      "azerbaijan-1991-today::te3",
+      "iraq-1258-1534::x3",
+      "iraq-1258-1534::l4"
+    ],
+    "Azerspace-1": [
+      "azerbaijan-1991-today::te3"
+    ],
+    "Alat": [
+      "azerbaijan-1991-today::te2"
+    ],
+    "Middle Corridor": [
+      "azerbaijan-1991-today::te2"
+    ],
+    "Baku International Sea Trade Port": [
+      "azerbaijan-1991-today::te2"
+    ],
+    "Free Economic Zone": [
+      "azerbaijan-1991-today::te2"
+    ],
+    "Shusha Declaration": [
+      "azerbaijan-1991-today::x1"
+    ],
+    "Organization of Turkic States": [
+      "azerbaijan-1991-today::x1",
+      "azerbaijan-1991-today::x6"
+    ],
+    "Tel Aviv": [
+      "azerbaijan-1991-today::x3",
+      "israel-1948-today::p1",
+      "israel-1948-today::p5",
+      "israel-1948-today::p7",
+      "israel-1948-today::b2",
+      "israel-1948-today::e1",
+      "israel-1948-today::ec1",
+      "israel-1948-today::tc1",
+      "uae-1971-today::x1"
+    ],
+    "Tehran": [
+      "azerbaijan-1991-today::x3",
+      "bahrain-1971-today::x3",
+      "bahrain-1971-today::x5",
+      "iran-1979-today::p1",
+      "iran-1979-today::p2",
+      "iran-1979-today::p3",
+      "iran-1979-today::p4",
+      "iran-1979-today::p5",
+      "iran-1979-today::p6",
+      "iran-1979-today::c1",
+      "iran-1979-today::c3",
+      "iran-1979-today::c4",
+      "iran-1979-today::c5",
+      "iran-1979-today::o1",
+      "iran-1979-today::o2",
+      "iran-1979-today::b2",
+      "iran-1979-today::e1",
+      "iran-1979-today::e2",
+      "iran-1979-today::t1",
+      "iran-1979-today::ec2",
+      "iran-1979-today::ec1",
+      "iran-1979-today::w1",
+      "iran-1979-today::w2",
+      "iran-1979-today::w3",
+      "iran-1979-today::l2",
+      "iran-1979-today::l1",
+      "iraq-1979-2003::t3",
+      "kuwait-1961-today::x3",
+      "oman-gulf-1650-1820::w6",
+      "pahlavi-1925-1979::p1",
+      "pahlavi-1925-1979::p2",
+      "pahlavi-1925-1979::p3",
+      "pahlavi-1925-1979::p4",
+      "pahlavi-1925-1979::c1",
+      "pahlavi-1925-1979::c2",
+      "pahlavi-1925-1979::c3",
+      "pahlavi-1925-1979::c4",
+      "pahlavi-1925-1979::o1",
+      "pahlavi-1925-1979::o2",
+      "pahlavi-1925-1979::e1",
+      "pahlavi-1925-1979::e2",
+      "pahlavi-1925-1979::t1",
+      "pahlavi-1925-1979::t2",
+      "pahlavi-1925-1979::ec1",
+      "pahlavi-1925-1979::ec2",
+      "pahlavi-1925-1979::tc1",
+      "pahlavi-1925-1979::tc2",
+      "pahlavi-1925-1979::x1",
+      "pahlavi-1925-1979::w1",
+      "pahlavi-1925-1979::w2",
+      "pahlavi-1925-1979::l1",
+      "pahlavi-1925-1979::l2",
+      "qajar-1789-1925::p1",
+      "qajar-1789-1925::p2",
+      "qajar-1789-1925::p3",
+      "qajar-1789-1925::p4",
+      "qajar-1789-1925::p5",
+      "qajar-1789-1925::p6",
+      "qajar-1789-1925::c3",
+      "qajar-1789-1925::c4",
+      "qajar-1789-1925::c5",
+      "qajar-1789-1925::c6",
+      "qajar-1789-1925::o1",
+      "qajar-1789-1925::o2",
+      "qajar-1789-1925::b1",
+      "qajar-1789-1925::e1",
+      "qajar-1789-1925::e2",
+      "qajar-1789-1925::t2",
+      "qajar-1789-1925::ec1",
+      "qajar-1789-1925::tc1",
+      "qajar-1789-1925::x1",
+      "qajar-1789-1925::x2",
+      "qajar-1789-1925::w1",
+      "qajar-1789-1925::l2",
+      "qatar-1971-today::x3",
+      "saudi-1902-today::x4",
+      "saudi-1902-today::w3",
+      "yemen-1900-today::x4"
+    ],
+    "Aras River": [
+      "azerbaijan-1991-today::x3"
+    ],
+    "Section": [
+      "azerbaijan-1991-today::x4"
+    ],
+    "Freedom Support Act": [
+      "azerbaijan-1991-today::x4"
+    ],
+    "CIS": [
+      "azerbaijan-1991-today::x2"
+    ],
+    "Azerbaijan Airlines": [
+      "azerbaijan-1991-today::x2"
+    ],
+    "Sputnik Azerbaijan": [
+      "azerbaijan-1991-today::x2"
+    ],
+    "Parliamentary Assembly": [
+      "azerbaijan-1991-today::x5"
+    ],
+    "Non-Aligned Movement": [
+      "azerbaijan-1991-today::x6"
+    ],
+    "Organisation of Islamic Cooperation": [
+      "azerbaijan-1991-today::x6"
+    ],
+    "Caspian Sea": [
+      "azerbaijan-1991-today::w3",
+      "pahlavi-1925-1979::tc1",
+      "seleucid-iran-330bc-148bc::t1"
+    ],
+    "UN Climate Change Conference COP29": [
+      "azerbaijan-1991-today::w3"
+    ],
+    "Lankaran": [
+      "azerbaijan-1991-today::l3"
+    ],
+    "Talysh": [
+      "azerbaijan-1991-today::l3"
+    ],
+    "Lezgins": [
+      "azerbaijan-1991-today::l3"
+    ],
+    "Novruzali Mammadov": [
+      "azerbaijan-1991-today::l3"
+    ],
+    "Yekaterinburg": [
+      "azerbaijan-1991-today::l5"
+    ],
+    "Children Affairs": [
+      "azerbaijan-1991-today::l2"
+    ],
+    "European Court of Human Rights": [
+      "azerbaijan-1991-today::l4",
+      "georgia-1991-today::b2",
+      "turkey-1980-today::c8",
+      "turkey-1980-today::c9",
+      "turkey-1980-today::b1",
+      "turkey-1980-today::b4"
+    ],
+    "Ilgar Mammadov": [
+      "azerbaijan-1991-today::l4"
+    ],
     "Second Dynasty of Isin": [
       "babylon-1155bc-539bc::k1"
     ],
@@ -85632,11 +86739,6 @@
       "bahrain-1971-today::t2",
       "bahrain-1971-today::x5"
     ],
-    "Grand Prix": [
-      "bahrain-1971-today::t2",
-      "bahrain-1971-today::ec4",
-      "bahrain-1971-today::w3"
-    ],
     "Jabal al-Dukhān": [
       "bahrain-1971-today::ec1"
     ],
@@ -85738,85 +86840,6 @@
     "Peninsula Shield": [
       "bahrain-1971-today::x1",
       "bahrain-1971-today::w2"
-    ],
-    "Tehran": [
-      "bahrain-1971-today::x3",
-      "bahrain-1971-today::x5",
-      "iran-1979-today::p1",
-      "iran-1979-today::p2",
-      "iran-1979-today::p3",
-      "iran-1979-today::p4",
-      "iran-1979-today::p5",
-      "iran-1979-today::p6",
-      "iran-1979-today::c1",
-      "iran-1979-today::c3",
-      "iran-1979-today::c4",
-      "iran-1979-today::c5",
-      "iran-1979-today::o1",
-      "iran-1979-today::o2",
-      "iran-1979-today::b2",
-      "iran-1979-today::e1",
-      "iran-1979-today::e2",
-      "iran-1979-today::t1",
-      "iran-1979-today::ec2",
-      "iran-1979-today::ec1",
-      "iran-1979-today::w1",
-      "iran-1979-today::w2",
-      "iran-1979-today::w3",
-      "iran-1979-today::l2",
-      "iran-1979-today::l1",
-      "iraq-1979-2003::t3",
-      "kuwait-1961-today::x3",
-      "oman-gulf-1650-1820::w6",
-      "pahlavi-1925-1979::p1",
-      "pahlavi-1925-1979::p2",
-      "pahlavi-1925-1979::p3",
-      "pahlavi-1925-1979::p4",
-      "pahlavi-1925-1979::c1",
-      "pahlavi-1925-1979::c2",
-      "pahlavi-1925-1979::c3",
-      "pahlavi-1925-1979::c4",
-      "pahlavi-1925-1979::o1",
-      "pahlavi-1925-1979::o2",
-      "pahlavi-1925-1979::e1",
-      "pahlavi-1925-1979::e2",
-      "pahlavi-1925-1979::t1",
-      "pahlavi-1925-1979::t2",
-      "pahlavi-1925-1979::ec1",
-      "pahlavi-1925-1979::ec2",
-      "pahlavi-1925-1979::tc1",
-      "pahlavi-1925-1979::tc2",
-      "pahlavi-1925-1979::x1",
-      "pahlavi-1925-1979::w1",
-      "pahlavi-1925-1979::w2",
-      "pahlavi-1925-1979::l1",
-      "pahlavi-1925-1979::l2",
-      "qajar-1789-1925::p1",
-      "qajar-1789-1925::p2",
-      "qajar-1789-1925::p3",
-      "qajar-1789-1925::p4",
-      "qajar-1789-1925::p5",
-      "qajar-1789-1925::p6",
-      "qajar-1789-1925::c3",
-      "qajar-1789-1925::c4",
-      "qajar-1789-1925::c5",
-      "qajar-1789-1925::c6",
-      "qajar-1789-1925::o1",
-      "qajar-1789-1925::o2",
-      "qajar-1789-1925::b1",
-      "qajar-1789-1925::e1",
-      "qajar-1789-1925::e2",
-      "qajar-1789-1925::t2",
-      "qajar-1789-1925::ec1",
-      "qajar-1789-1925::tc1",
-      "qajar-1789-1925::x1",
-      "qajar-1789-1925::x2",
-      "qajar-1789-1925::w1",
-      "qajar-1789-1925::l2",
-      "qatar-1971-today::x3",
-      "saudi-1902-today::x4",
-      "saudi-1902-today::w3",
-      "yemen-1900-today::x4"
     ],
     "Abraham Accords": [
       "bahrain-1971-today::x4",
@@ -90860,9 +91883,6 @@
     "Catholicos Sahak": [
       "caucasus-1-428::t1"
     ],
-    "Caucasian Albanian": [
-      "caucasus-1-428::t4"
-    ],
     "St Catherine": [
       "caucasus-1-428::t4"
     ],
@@ -91990,11 +93010,6 @@
     "Five Armenian": [
       "caucasus-1501-1747::p7"
     ],
-    "Barda": [
-      "caucasus-1501-1747::p9",
-      "caucasus-884-1064::ec2",
-      "sassanid-224-484::lv4"
-    ],
     "Chaldiran": [
       "caucasus-1501-1747::c1",
       "safavid-1501-1722::p2",
@@ -92254,16 +93269,6 @@
     ],
     "Giorgi XII": [
       "caucasus-1747-1828::p3"
-    ],
-    "Shusha": [
-      "caucasus-1747-1828::p4",
-      "caucasus-1747-1828::c3",
-      "caucasus-1747-1828::t2",
-      "caucasus-1828-1878::p6",
-      "caucasus-1828-1878::e3",
-      "caucasus-1828-1878::l2",
-      "caucasus-1878-1917::c1",
-      "caucasus-1917-1921::c7"
     ],
     "Panah Ali Khan": [
       "caucasus-1747-1828::p4"
@@ -93222,11 +94227,6 @@
     "Muslim Musavat": [
       "caucasus-1917-1921::c3"
     ],
-    "September": [
-      "caucasus-1917-1921::c4",
-      "turkey-1923-1980::c5",
-      "turkey-1980-today::c1"
-    ],
     "Ottoman–Azerbaijani Army of Islam": [
       "caucasus-1917-1921::c4"
     ],
@@ -93623,9 +94623,6 @@
       "caucasus-1953-1991::p1",
       "georgia-1991-today::p2"
     ],
-    "Heydar Aliyev": [
-      "caucasus-1953-1991::p2"
-    ],
     "Karen Demirchyan": [
       "caucasus-1953-1991::p3"
     ],
@@ -93680,10 +94677,6 @@
     "Black January": [
       "caucasus-1953-1991::c7"
     ],
-    "Popular Front": [
-      "caucasus-1953-1991::c7",
-      "caucasus-1953-1991::x2"
-    ],
     "Supreme Council of Armenia": [
       "caucasus-1953-1991::o1"
     ],
@@ -93695,9 +94688,6 @@
     ],
     "Armenia Supreme Council": [
       "caucasus-1953-1991::o2"
-    ],
-    "Constitutional Act": [
-      "caucasus-1953-1991::o3"
     ],
     "Nagorno-Karabakh Republic": [
       "caucasus-1953-1991::o4"
@@ -106069,9 +107059,6 @@
     "Gagra": [
       "georgia-1991-today::c2"
     ],
-    "Patriotic War": [
-      "georgia-1991-today::c2"
-    ],
     "Shevardnadze": [
       "georgia-1991-today::c4"
     ],
@@ -106164,13 +107151,6 @@
     "Jehovah Witnesses": [
       "georgia-1991-today::b2"
     ],
-    "European Court of Human Rights": [
-      "georgia-1991-today::b2",
-      "turkey-1980-today::c8",
-      "turkey-1980-today::c9",
-      "turkey-1980-today::b1",
-      "turkey-1980-today::b4"
-    ],
     "Ilia II": [
       "georgia-1991-today::b3"
     ],
@@ -106191,9 +107171,6 @@
     ],
     "Lasha Talakhadze": [
       "georgia-1991-today::e3"
-    ],
-    "Masterpiece of the Oral": [
-      "georgia-1991-today::e1"
     ],
     "Intangible Heritage": [
       "georgia-1991-today::e1"
@@ -106220,9 +107197,6 @@
     ],
     "Museum of the Soviet Occupation": [
       "georgia-1991-today::t3"
-    ],
-    "Baku–Tbilisi–Ceyhan": [
-      "georgia-1991-today::te1"
     ],
     "Baku–Tbilisi–Kars": [
       "georgia-1991-today::te1"
@@ -111489,13 +112463,6 @@
     "Fuel Protests": [
       "iran-1979-today::c4"
     ],
-    "Amnesty International": [
-      "iran-1979-today::c4",
-      "iran-1979-today::c8",
-      "pahlavi-1925-1979::c3",
-      "pahlavi-1925-1979::l2",
-      "qatar-1971-today::t3"
-    ],
     "Woman": [
       "iran-1979-today::c5"
     ],
@@ -112555,10 +113522,6 @@
       "iraq-1258-1534::x3",
       "iraq-1534-1831::x2",
       "najd-300bc-632::ex5"
-    ],
-    "Fuzuli": [
-      "iraq-1258-1534::x3",
-      "iraq-1258-1534::l4"
     ],
     "Khwaju Kirmani": [
       "iraq-1258-1534::x3"
@@ -114272,16 +115235,6 @@
     "Mapai": [
       "israel-1948-today::p1"
     ],
-    "Tel Aviv": [
-      "israel-1948-today::p1",
-      "israel-1948-today::p5",
-      "israel-1948-today::p7",
-      "israel-1948-today::b2",
-      "israel-1948-today::e1",
-      "israel-1948-today::ec1",
-      "israel-1948-today::tc1",
-      "uae-1971-today::x1"
-    ],
     "Independence Declared": [
       "israel-1948-today::p1"
     ],
@@ -114429,12 +115382,6 @@
     ],
     "Zionism Internal Diversity": [
       "israel-1948-today::t1"
-    ],
-    "Religious": [
-      "israel-1948-today::t1",
-      "oman-1970-today::b2",
-      "spain-1808-1900::r3",
-      "syria-1946-today::b1"
     ],
     "Labor Zionism": [
       "israel-1948-today::t1"
@@ -121032,10 +121979,6 @@
     "Trans-Iranian Railway": [
       "pahlavi-1925-1979::tc1"
     ],
-    "Caspian Sea": [
-      "pahlavi-1925-1979::tc1",
-      "seleucid-iran-330bc-148bc::t1"
-    ],
     "State-Led Industrialization": [
       "pahlavi-1925-1979::tc2"
     ],
@@ -122891,9 +123834,6 @@
     ],
     "Citizens": [
       "qatar-1971-today::lv3"
-    ],
-    "Human Rights Watch": [
-      "qatar-1971-today::lv4"
     ],
     "Gindibu of the Najd": [
       "qedar-853bc-330bc::k1"
