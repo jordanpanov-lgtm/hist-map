@@ -1587,6 +1587,17 @@ const SELECTED_PAIRS = [
   ['byzantine-anatolia-632-867::p6', 'iraq-632-945::k7'],      // al-Mu'tasim, the Turks and Samarra
   ['byzantine-anatolia-632-867::g1', 'sassanid-484-651::c4'],      // the siege of Constantinople and the defences of the city
   ['byzantine-anatolia-632-867::x5', 'late-roman-anatolia-330-632::b7'],      // holy men and monasteries of Bithynia
+  ['byzantine-anatolia-867-1071::c9', 'caliphate-945-1258::c3'],      // Manzikert
+  ['byzantine-anatolia-867-1071::c9', 'iran-1055-1219::c2'],      // the battle of Manzikert
+  ['byzantine-anatolia-867-1071::c9', 'iran-1055-1219::p2'],      // Alp Arslan at Manzikert
+  ['byzantine-anatolia-867-1071::c7', 'caliphate-945-1258::k10'],      // Alp Arslan and the Seljuk expansion westward
+  ['byzantine-anatolia-867-1071::c3', 'levant-750-1099::c1'],      // the Byzantine reconquest of Antioch
+  ['byzantine-anatolia-867-1071::x2', 'fatimids-909-1171::w3'],      // the Fatimid–Byzantine truce and the Seljuk squeeze
+  ['byzantine-anatolia-867-1071::x1', 'caliphate-750-945::ec5'],      // the Rus trade and the Rus in Constantinople
+  ['byzantine-anatolia-867-1071::c2', 'byzantine-anatolia-632-867::c11'],      // the war with Melitene and the frontier emirs
+  ['byzantine-anatolia-867-1071::b4', 'byzantine-anatolia-632-867::b4'],      // the Paulicians
+  ['byzantine-anatolia-867-1071::c1', 'byzantine-anatolia-632-867::c10'],      // Tephrike and the Paulicians
+  ['byzantine-anatolia-867-1071::p1', 'byzantine-anatolia-632-867::p6'],      // Basil I took power from Michael III and Bardas
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

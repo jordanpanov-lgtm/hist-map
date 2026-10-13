@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 7918,
-    "folio_count": 164,
-    "xlink_pairs": 1583,
-    "keyword_terms": 12089,
+    "total_entries": 7968,
+    "folio_count": 165,
+    "xlink_pairs": 1594,
+    "keyword_terms": 12171,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -89,6 +89,11 @@
         "id": "byzantine-anatolia-632-867",
         "title": "Byzantine Anatolia",
         "entries": 56
+      },
+      {
+        "id": "byzantine-anatolia-867-1071",
+        "title": "Byzantine Anatolia",
+        "entries": 50
       },
       {
         "id": "caliphate-632-750",
@@ -1705,6 +1710,56 @@
     "byzantine-anatolia-632-867::l4": "The people moved to Thrace",
     "byzantine-anatolia-632-867::l1": "Irene — the empress who ruled as emperor",
     "byzantine-anatolia-632-867::l2": "Theodora the regent",
+    "byzantine-anatolia-867-1071::p1": "Basil I",
+    "byzantine-anatolia-867-1071::p2": "Leo VI the Wise",
+    "byzantine-anatolia-867-1071::p3": "Romanos I Lekapenos",
+    "byzantine-anatolia-867-1071::p4": "Nikephoros II Phokas",
+    "byzantine-anatolia-867-1071::p5": "John I Tzimiskes",
+    "byzantine-anatolia-867-1071::p6": "Basil II",
+    "byzantine-anatolia-867-1071::p7": "The heirs of Basil II",
+    "byzantine-anatolia-867-1071::p8": "Isaac Komnenos to Romanos Diogenes",
+    "byzantine-anatolia-867-1071::p9": "The Anatolian military aristocracy",
+    "byzantine-anatolia-867-1071::c9": "Manzikert",
+    "byzantine-anatolia-867-1071::c1": "The end of Tephrike",
+    "byzantine-anatolia-867-1071::c2": "The conquests of John Kourkouas",
+    "byzantine-anatolia-867-1071::c3": "Nikephoros Phokas in Cilicia and Syria",
+    "byzantine-anatolia-867-1071::c4": "Skleros, Phokas and the revolts of the generals",
+    "byzantine-anatolia-867-1071::c5": "Basil II's wars in Georgia",
+    "byzantine-anatolia-867-1071::c6": "Ani annexed",
+    "byzantine-anatolia-867-1071::c7": "Kapetron and the Turkmen raids",
+    "byzantine-anatolia-867-1071::c8": "The Turkish raids into the heartland",
+    "byzantine-anatolia-867-1071::o3": "The new border themes",
+    "byzantine-anatolia-867-1071::o1": "The Book of the Eparch",
+    "byzantine-anatolia-867-1071::o2": "The laws against the powerful",
+    "byzantine-anatolia-867-1071::o4": "The debasement of the nomisma",
+    "byzantine-anatolia-867-1071::b3": "The Mandylion comes to Constantinople",
+    "byzantine-anatolia-867-1071::b2": "Lazaros of Galesion and the holy mountains",
+    "byzantine-anatolia-867-1071::b4": "The Paulicians moved to Thrace",
+    "byzantine-anatolia-867-1071::b1": "The Schism of 1054",
+    "byzantine-anatolia-867-1071::e1": "The painted churches of Cappadocia",
+    "byzantine-anatolia-867-1071::e4": "The first Byzantine neumes",
+    "byzantine-anatolia-867-1071::e2": "The Paris Psalter and the Joshua Roll",
+    "byzantine-anatolia-867-1071::e3": "Digenes Akrites",
+    "byzantine-anatolia-867-1071::t2": "Arethas of Caesarea",
+    "byzantine-anatolia-867-1071::t1": "Constantine Porphyrogennetos",
+    "byzantine-anatolia-867-1071::t5": "The Suda",
+    "byzantine-anatolia-867-1071::t3": "Leo the Deacon",
+    "byzantine-anatolia-867-1071::t4": "Michael Psellos",
+    "byzantine-anatolia-867-1071::ec2": "The recovery of the countryside",
+    "byzantine-anatolia-867-1071::ec1": "Eustathios Maleinos and the great estates",
+    "byzantine-anatolia-867-1071::g1": "The cross-in-square church",
+    "byzantine-anatolia-867-1071::g2": "The manuals of frontier war",
+    "byzantine-anatolia-867-1071::x1": "The marriage of Anna and the baptism of Vladimir",
+    "byzantine-anatolia-867-1071::x4": "The chrysobull of 992 for Venice",
+    "byzantine-anatolia-867-1071::x2": "The truce with the Fatimids",
+    "byzantine-anatolia-867-1071::x3": "Senekerim and Vaspurakan",
+    "byzantine-anatolia-867-1071::w1": "The frontier moved to the Euphrates",
+    "byzantine-anatolia-867-1071::w2": "The earthquake of 989",
+    "byzantine-anatolia-867-1071::w3": "The Turkmen arrive",
+    "byzantine-anatolia-867-1071::w4": "The army that was dismissed",
+    "byzantine-anatolia-867-1071::l3": "The frontier of the Akritai",
+    "byzantine-anatolia-867-1071::l2": "Basil the Parakoimomenos",
+    "byzantine-anatolia-867-1071::l1": "Zoe and Theodora",
     "caliphate-632-750::k1": "Abu Bakr and the Ridda",
     "caliphate-632-750::k2": "Umar — the conquest state",
     "caliphate-632-750::k3": "Uthman — the recension and the revolt",
@@ -10384,7 +10439,11 @@
       "beth-qatraye-632-750::w5"
     ],
     "byzantine-anatolia-632-867::p6": [
+      "byzantine-anatolia-867-1071::p1",
       "iraq-632-945::k7"
+    ],
+    "byzantine-anatolia-867-1071::p1": [
+      "byzantine-anatolia-632-867::p6"
     ],
     "iraq-632-945::k7": [
       "byzantine-anatolia-632-867::p6",
@@ -10436,6 +10495,24 @@
     "caliphate-750-945::k6": [
       "byzantine-anatolia-632-867::c8"
     ],
+    "byzantine-anatolia-632-867::c10": [
+      "byzantine-anatolia-867-1071::c1"
+    ],
+    "byzantine-anatolia-867-1071::c1": [
+      "byzantine-anatolia-632-867::c10"
+    ],
+    "byzantine-anatolia-632-867::c11": [
+      "byzantine-anatolia-867-1071::c2"
+    ],
+    "byzantine-anatolia-867-1071::c2": [
+      "byzantine-anatolia-632-867::c11"
+    ],
+    "byzantine-anatolia-632-867::b4": [
+      "byzantine-anatolia-867-1071::b4"
+    ],
+    "byzantine-anatolia-867-1071::b4": [
+      "byzantine-anatolia-632-867::b4"
+    ],
     "byzantine-anatolia-632-867::g1": [
       "sassanid-484-651::c4"
     ],
@@ -10458,13 +10535,59 @@
       "caliphate-750-945::ec5"
     ],
     "caliphate-750-945::ec5": [
-      "byzantine-anatolia-632-867::x4"
+      "byzantine-anatolia-632-867::x4",
+      "byzantine-anatolia-867-1071::x1"
     ],
     "byzantine-anatolia-632-867::x5": [
       "late-roman-anatolia-330-632::b7"
     ],
     "late-roman-anatolia-330-632::b7": [
       "byzantine-anatolia-632-867::x5"
+    ],
+    "byzantine-anatolia-867-1071::c9": [
+      "caliphate-945-1258::c3",
+      "iran-1055-1219::c2",
+      "iran-1055-1219::p2"
+    ],
+    "caliphate-945-1258::c3": [
+      "byzantine-anatolia-867-1071::c9",
+      "iran-1055-1219::c2",
+      "iran-1055-1219::p2",
+      "iran-1055-1219::w1"
+    ],
+    "iran-1055-1219::c2": [
+      "byzantine-anatolia-867-1071::c9",
+      "caliphate-945-1258::c3"
+    ],
+    "iran-1055-1219::p2": [
+      "byzantine-anatolia-867-1071::c9",
+      "caliphate-945-1258::k10",
+      "caliphate-945-1258::c3"
+    ],
+    "byzantine-anatolia-867-1071::c3": [
+      "levant-750-1099::c1"
+    ],
+    "levant-750-1099::c1": [
+      "byzantine-anatolia-867-1071::c3"
+    ],
+    "byzantine-anatolia-867-1071::c7": [
+      "caliphate-945-1258::k10"
+    ],
+    "caliphate-945-1258::k10": [
+      "byzantine-anatolia-867-1071::c7",
+      "iran-1055-1219::p2",
+      "iran-1055-1219::p3",
+      "iran-1055-1219::p4"
+    ],
+    "byzantine-anatolia-867-1071::x1": [
+      "caliphate-750-945::ec5"
+    ],
+    "byzantine-anatolia-867-1071::x2": [
+      "fatimids-909-1171::w3"
+    ],
+    "fatimids-909-1171::w3": [
+      "byzantine-anatolia-867-1071::x2",
+      "caliphate-945-1258::w2"
     ],
     "caliphate-632-750::k2": [
       "roman-byzantine-levant-135-638::c4"
@@ -10821,15 +10944,6 @@
     "iraq-945-1258::k2": [
       "caliphate-945-1258::k9"
     ],
-    "caliphate-945-1258::k10": [
-      "iran-1055-1219::p2",
-      "iran-1055-1219::p3",
-      "iran-1055-1219::p4"
-    ],
-    "iran-1055-1219::p2": [
-      "caliphate-945-1258::k10",
-      "caliphate-945-1258::c3"
-    ],
     "iran-1055-1219::p3": [
       "caliphate-945-1258::k10",
       "caliphate-945-1258::o2",
@@ -10869,14 +10983,6 @@
     ],
     "iraq-945-1258::c2": [
       "caliphate-945-1258::c2"
-    ],
-    "caliphate-945-1258::c3": [
-      "iran-1055-1219::c2",
-      "iran-1055-1219::p2",
-      "iran-1055-1219::w1"
-    ],
-    "iran-1055-1219::c2": [
-      "caliphate-945-1258::c3"
     ],
     "iran-1055-1219::w1": [
       "caliphate-945-1258::c3"
@@ -11059,9 +11165,6 @@
       "fatimids-909-1171::w3"
     ],
     "eastern-arabia-750-1200::w4": [
-      "caliphate-945-1258::w2"
-    ],
-    "fatimids-909-1171::w3": [
       "caliphate-945-1258::w2"
     ],
     "caliphate-945-1258::w3": [
@@ -21097,6 +21200,295 @@
       "Constantinople",
       "Theodora",
       "Michael III"
+    ],
+    "byzantine-anatolia-867-1071::p1": [
+      "Macedonian",
+      "Constantinople",
+      "Basil I",
+      "Michael III"
+    ],
+    "byzantine-anatolia-867-1071::p2": [
+      "Macedonian",
+      "Constantinople",
+      "Leo VI the Wise"
+    ],
+    "byzantine-anatolia-867-1071::p3": [
+      "Constantinople",
+      "Romanos I Lekapenos",
+      "Constantine VII",
+      "John Kourkouas",
+      "Mandylion of Edessa"
+    ],
+    "byzantine-anatolia-867-1071::p4": [
+      "Constantinople",
+      "Nikephoros II Phokas",
+      "Nikephoros Phokas",
+      "Romanos II",
+      "John Tzimiskes"
+    ],
+    "byzantine-anatolia-867-1071::p5": [
+      "Constantinople",
+      "John I Tzimiskes",
+      "John Tzimiskes"
+    ],
+    "byzantine-anatolia-867-1071::p6": [
+      "Macedonian",
+      "Constantinople",
+      "Basil II",
+      "Russian Varangian"
+    ],
+    "byzantine-anatolia-867-1071::p7": [
+      "Macedonian",
+      "Constantinople",
+      "Basil II",
+      "Constantine VIII",
+      "Romanos III",
+      "Michael IV"
+    ],
+    "byzantine-anatolia-867-1071::p8": [
+      "Constantinople",
+      "Isaac Komnenos",
+      "Romanos Diogenes",
+      "Isaac I Komnenos",
+      "Constantine X Doukas"
+    ],
+    "byzantine-anatolia-867-1071::p9": [
+      "Anatolian aristocracy",
+      "Cappadocia",
+      "Charsianon"
+    ],
+    "byzantine-anatolia-867-1071::c9": [
+      "Manzikert",
+      "Romanos Diogenes",
+      "Alp Arslan",
+      "Andronikos Doukas"
+    ],
+    "byzantine-anatolia-867-1071::c1": [
+      "Tephrike Divriği",
+      "Basil I",
+      "Bathys Ryax"
+    ],
+    "byzantine-anatolia-867-1071::c2": [
+      "Melitene",
+      "Edessa",
+      "John Kourkouas",
+      "Romanos I"
+    ],
+    "byzantine-anatolia-867-1071::c3": [
+      "Tarsus",
+      "Antioch",
+      "Nikephoros Phokas",
+      "Cilicia",
+      "Syria",
+      "Leo Phokas"
+    ],
+    "byzantine-anatolia-867-1071::c4": [
+      "Anatolia",
+      "Bardas Skleros",
+      "Bardas Phokas",
+      "Basil II"
+    ],
+    "byzantine-anatolia-867-1071::c5": [
+      "Svindax",
+      "Basil II",
+      "Georgia",
+      "David of Tao",
+      "Giorgi I"
+    ],
+    "byzantine-anatolia-867-1071::c6": [
+      "Ani",
+      "Gagik II",
+      "Constantine IX Monomachos"
+    ],
+    "byzantine-anatolia-867-1071::c7": [
+      "Kapetron Pasinler",
+      "Turkmen",
+      "Ibrahim Inal",
+      "Alp Arslan"
+    ],
+    "byzantine-anatolia-867-1071::c8": [
+      "Caesarea",
+      "Amorion",
+      "Iconium",
+      "Archangel Michael"
+    ],
+    "byzantine-anatolia-867-1071::o3": [
+      "Cappadocia",
+      "Euphrates",
+      "Recovering the East"
+    ],
+    "byzantine-anatolia-867-1071::o1": [
+      "Constantinople",
+      "Book of the Eparch",
+      "Eparch Book",
+      "Leo VI"
+    ],
+    "byzantine-anatolia-867-1071::o2": [
+      "Constantinople",
+      "Romanos I",
+      "Constantine VII",
+      "Basil II"
+    ],
+    "byzantine-anatolia-867-1071::o4": [
+      "Constantinople",
+      "Constantine IX"
+    ],
+    "byzantine-anatolia-867-1071::b3": [
+      "Edessa",
+      "Constantinople",
+      "Mandylion",
+      "John Kourkouas"
+    ],
+    "byzantine-anatolia-867-1071::b2": [
+      "Mount Galesion",
+      "Ephesus",
+      "Lazaros of Galesion"
+    ],
+    "byzantine-anatolia-867-1071::b4": [
+      "Philippopolis",
+      "Paulicians",
+      "Thrace",
+      "John Tzimiskes",
+      "Syrian Monophysite Christians"
+    ],
+    "byzantine-anatolia-867-1071::b1": [
+      "Hagia Sophia",
+      "Schism",
+      "Cardinal Humbert",
+      "Michael Cerularius"
+    ],
+    "byzantine-anatolia-867-1071::e1": [
+      "Göreme",
+      "Çavuşin",
+      "Cappadocia",
+      "Tokalı Kilise",
+      "Nikephoros Phokas"
+    ],
+    "byzantine-anatolia-867-1071::e4": [
+      "Constantinople",
+      "Middle Byzantine"
+    ],
+    "byzantine-anatolia-867-1071::e2": [
+      "Constantinople",
+      "Paris Psalter",
+      "Joshua Roll",
+      "Constantine VII",
+      "Macedonian Renaissance"
+    ],
+    "byzantine-anatolia-867-1071::e3": [
+      "Euphrates",
+      "Basil Digenes Akrites"
+    ],
+    "byzantine-anatolia-867-1071::t2": [
+      "Arethas of Caesarea",
+      "Aelius Aristides",
+      "Clarke Plato"
+    ],
+    "byzantine-anatolia-867-1071::t1": [
+      "Constantinople",
+      "Constantine Porphyrogennetos",
+      "Constantine VII",
+      "Book of Ceremonies"
+    ],
+    "byzantine-anatolia-867-1071::t5": [
+      "Constantinople",
+      "Suda"
+    ],
+    "byzantine-anatolia-867-1071::t3": [
+      "Kaloe",
+      "Leo the Deacon",
+      "Asia Minor",
+      "Nikephoros Phokas",
+      "John Tzimiskes",
+      "Basil II"
+    ],
+    "byzantine-anatolia-867-1071::t4": [
+      "Constantinople",
+      "Michael Psellos",
+      "Basil II",
+      "Michael VII"
+    ],
+    "byzantine-anatolia-867-1071::ec2": [
+      "Anatolia"
+    ],
+    "byzantine-anatolia-867-1071::ec1": [
+      "Charsianon",
+      "Cappadocia",
+      "Eustathios Maleinos",
+      "Basil II"
+    ],
+    "byzantine-anatolia-867-1071::g1": [
+      "Constantinople",
+      "Basil I Nea Ekklesia"
+    ],
+    "byzantine-anatolia-867-1071::g2": [
+      "Constantinople",
+      "Leo VI Taktika",
+      "Nikephoros Phokas"
+    ],
+    "byzantine-anatolia-867-1071::x1": [
+      "Constantinople",
+      "Cherson",
+      "Anna",
+      "Basil II",
+      "Vladimir of Kiev",
+      "Varangian Guard"
+    ],
+    "byzantine-anatolia-867-1071::x4": [
+      "Constantinople",
+      "Venice",
+      "Basil II"
+    ],
+    "byzantine-anatolia-867-1071::x2": [
+      "Antioch",
+      "Cairo",
+      "Fatimids",
+      "Basil II"
+    ],
+    "byzantine-anatolia-867-1071::x3": [
+      "Sebasteia",
+      "Vaspurakan",
+      "Senekerim Artsruni of Vaspurakan",
+      "Basil II"
+    ],
+    "byzantine-anatolia-867-1071::w1": [
+      "Euphrates",
+      "Syria"
+    ],
+    "byzantine-anatolia-867-1071::w2": [
+      "Constantinople",
+      "Hagia Sophia",
+      "Basil II",
+      "Trdat of Ani"
+    ],
+    "byzantine-anatolia-867-1071::w3": [
+      "Armenia",
+      "Azerbaijan",
+      "Oghuz Turkmen"
+    ],
+    "byzantine-anatolia-867-1071::w4": [
+      "Armenia",
+      "Iberia",
+      "Constantine IX",
+      "Turks the Armenian"
+    ],
+    "byzantine-anatolia-867-1071::l3": [
+      "Cappadocia",
+      "Euphrates",
+      "Akritai"
+    ],
+    "byzantine-anatolia-867-1071::l2": [
+      "Constantinople",
+      "Basil the Parakoimomenos",
+      "Basil Lekapenos",
+      "Romanos I",
+      "Basil II"
+    ],
+    "byzantine-anatolia-867-1071::l1": [
+      "Constantinople",
+      "Zoe",
+      "Theodora",
+      "Constantine VIII"
     ],
     "caliphate-632-750::k1": [
       "Rashidun",
@@ -61671,6 +62063,7 @@
       "achaemenid-550bc-330bc::c6",
       "byzantine-anatolia-632-867::c10",
       "byzantine-anatolia-632-867::w3",
+      "byzantine-anatolia-867-1071::t3",
       "ionia-1050bc-494bc::p1",
       "palmyrene-100bc-273ce::c3",
       "persian-anatolia-546bc-334bc::c6",
@@ -62636,6 +63029,7 @@
     "Iberia": [
       "al-andalus-1031-1492::k3",
       "al-andalus-711-1031::s1",
+      "byzantine-anatolia-867-1071::w4",
       "caliphate-632-750::x5",
       "hispania-300bc-27bc::c2",
       "hispania-300bc-27bc::t1",
@@ -63417,6 +63811,7 @@
       "ayyubids-1171-1250::lv3",
       "ayyubids-1171-1250::lv1",
       "babylon-1595bc-1155bc::xc2",
+      "byzantine-anatolia-867-1071::x2",
       "caliphate-945-1258::c6",
       "caliphate-945-1258::x6",
       "caliphate-945-1258::w1",
@@ -64155,6 +64550,30 @@
       "byzantine-anatolia-632-867::l3",
       "byzantine-anatolia-632-867::l1",
       "byzantine-anatolia-632-867::l2",
+      "byzantine-anatolia-867-1071::p1",
+      "byzantine-anatolia-867-1071::p2",
+      "byzantine-anatolia-867-1071::p3",
+      "byzantine-anatolia-867-1071::p4",
+      "byzantine-anatolia-867-1071::p5",
+      "byzantine-anatolia-867-1071::p6",
+      "byzantine-anatolia-867-1071::p7",
+      "byzantine-anatolia-867-1071::p8",
+      "byzantine-anatolia-867-1071::o1",
+      "byzantine-anatolia-867-1071::o2",
+      "byzantine-anatolia-867-1071::o4",
+      "byzantine-anatolia-867-1071::b3",
+      "byzantine-anatolia-867-1071::e4",
+      "byzantine-anatolia-867-1071::e2",
+      "byzantine-anatolia-867-1071::t1",
+      "byzantine-anatolia-867-1071::t5",
+      "byzantine-anatolia-867-1071::t4",
+      "byzantine-anatolia-867-1071::g1",
+      "byzantine-anatolia-867-1071::g2",
+      "byzantine-anatolia-867-1071::x1",
+      "byzantine-anatolia-867-1071::x4",
+      "byzantine-anatolia-867-1071::w2",
+      "byzantine-anatolia-867-1071::l2",
+      "byzantine-anatolia-867-1071::l1",
       "caliphate-632-750::c8",
       "caliphate-632-750::c9",
       "caliphate-632-750::x1",
@@ -65062,7 +65481,11 @@
       "visigoths-589-711::ex3"
     ],
     "Constantine VII": [
-      "al-andalus-711-1031::ex1"
+      "al-andalus-711-1031::ex1",
+      "byzantine-anatolia-867-1071::p3",
+      "byzantine-anatolia-867-1071::o2",
+      "byzantine-anatolia-867-1071::e2",
+      "byzantine-anatolia-867-1071::t1"
     ],
     "Otto I": [
       "al-andalus-711-1031::ex1"
@@ -65230,6 +65653,7 @@
     "Ephesus": [
       "anatolia-10000bc-3000bc::p7",
       "byzantine-anatolia-632-867::ec1",
+      "byzantine-anatolia-867-1071::b2",
       "hellenistic-anatolia-334bc-133bc::p3",
       "hellenistic-anatolia-334bc-133bc::o1",
       "ionia-1050bc-494bc::p1",
@@ -65471,6 +65895,8 @@
       "byzantine-anatolia-632-867::o1",
       "byzantine-anatolia-632-867::o2",
       "byzantine-anatolia-632-867::ec2",
+      "byzantine-anatolia-867-1071::c4",
+      "byzantine-anatolia-867-1071::ec2",
       "caliphate-632-750::w2",
       "caliphate-945-1258::c3",
       "caliphate-945-1258::b4",
@@ -65563,6 +65989,7 @@
       "anatolia-10000bc-3000bc::x4",
       "anatolia-3000bc-2000bc::p11",
       "byzantine-anatolia-632-867::x1",
+      "byzantine-anatolia-867-1071::c3",
       "late-roman-anatolia-330-632::ec1",
       "mamluks-1250-1517::c9",
       "persian-anatolia-546bc-334bc::p3",
@@ -65768,6 +66195,7 @@
     ],
     "Tarsus": [
       "anatolia-3000bc-2000bc::p11",
+      "byzantine-anatolia-867-1071::c3",
       "caliphate-750-945::o2",
       "egypt-641-969::c5",
       "persian-anatolia-546bc-334bc::p3",
@@ -65959,6 +66387,10 @@
       "babylon-1595bc-1155bc::xc5",
       "babylon-2004bc-1595bc::c2",
       "babylon-2004bc-1595bc::w4",
+      "byzantine-anatolia-867-1071::o3",
+      "byzantine-anatolia-867-1071::e3",
+      "byzantine-anatolia-867-1071::w1",
+      "byzantine-anatolia-867-1071::l3",
       "caliphate-632-750::k11",
       "caliphate-632-750::c5",
       "dilmun-1200bc-600bc::w5",
@@ -67858,6 +68290,8 @@
       "ayyubids-1171-1250::ex3",
       "ayyubids-1171-1250::ec5",
       "byzantine-anatolia-632-867::c6",
+      "byzantine-anatolia-867-1071::c3",
+      "byzantine-anatolia-867-1071::w1",
       "caliphate-632-750::k12",
       "caliphate-632-750::c2",
       "caliphate-632-750::b2",
@@ -70990,6 +71424,11 @@
     "Cappadocia": [
       "babylon-2004bc-1595bc::xc1",
       "byzantine-anatolia-632-867::g2",
+      "byzantine-anatolia-867-1071::p9",
+      "byzantine-anatolia-867-1071::o3",
+      "byzantine-anatolia-867-1071::e1",
+      "byzantine-anatolia-867-1071::ec1",
+      "byzantine-anatolia-867-1071::l3",
       "hellenistic-anatolia-334bc-133bc::p12",
       "late-roman-anatolia-330-632::c5",
       "late-roman-anatolia-330-632::c7",
@@ -73298,11 +73737,13 @@
     ],
     "Michael III": [
       "byzantine-anatolia-632-867::p6",
-      "byzantine-anatolia-632-867::l2"
+      "byzantine-anatolia-632-867::l2",
+      "byzantine-anatolia-867-1071::p1"
     ],
     "Theodora": [
       "byzantine-anatolia-632-867::p6",
       "byzantine-anatolia-632-867::l2",
+      "byzantine-anatolia-867-1071::l1",
       "late-roman-anatolia-330-632::p6",
       "late-roman-anatolia-330-632::l2"
     ],
@@ -73340,11 +73781,14 @@
       "byzantine-anatolia-632-867::c5"
     ],
     "Melitene": [
-      "byzantine-anatolia-632-867::c6"
+      "byzantine-anatolia-632-867::c6",
+      "byzantine-anatolia-867-1071::c2"
     ],
     "Armenia": [
       "byzantine-anatolia-632-867::c6",
       "byzantine-anatolia-632-867::b4",
+      "byzantine-anatolia-867-1071::w3",
+      "byzantine-anatolia-867-1071::w4",
       "late-roman-anatolia-330-632::x3",
       "parthia-148bc-224::w2",
       "roman-anatolia-133bc-330::c9",
@@ -73384,6 +73828,7 @@
     "Amorion": [
       "byzantine-anatolia-632-867::c8",
       "byzantine-anatolia-632-867::w5",
+      "byzantine-anatolia-867-1071::c8",
       "caliphate-750-945::c4"
     ],
     "Abu Tammam": [
@@ -73392,14 +73837,17 @@
       "iraq-632-945::x3"
     ],
     "Tephrike Divriği": [
-      "byzantine-anatolia-632-867::c10"
+      "byzantine-anatolia-632-867::c10",
+      "byzantine-anatolia-867-1071::c1"
     ],
     "Karbeas": [
       "byzantine-anatolia-632-867::c10"
     ],
     "Basil I": [
       "byzantine-anatolia-632-867::c10",
-      "byzantine-anatolia-632-867::w4"
+      "byzantine-anatolia-632-867::w4",
+      "byzantine-anatolia-867-1071::p1",
+      "byzantine-anatolia-867-1071::c1"
     ],
     "Lalakaon": [
       "byzantine-anatolia-632-867::c11",
@@ -73431,7 +73879,8 @@
       "rome-300-400::lv5"
     ],
     "Paulicians": [
-      "byzantine-anatolia-632-867::b4"
+      "byzantine-anatolia-632-867::b4",
+      "byzantine-anatolia-867-1071::b4"
     ],
     "Constantine-Silvanus of Mananali": [
       "byzantine-anatolia-632-867::b4"
@@ -73587,7 +74036,8 @@
       "byzantine-anatolia-632-867::w4"
     ],
     "Thrace": [
-      "byzantine-anatolia-632-867::w4"
+      "byzantine-anatolia-632-867::w4",
+      "byzantine-anatolia-867-1071::b4"
     ],
     "Armenians": [
       "byzantine-anatolia-632-867::w4",
@@ -73608,6 +74058,405 @@
     ],
     "Paulicians of Thrace": [
       "byzantine-anatolia-632-867::l4"
+    ],
+    "Macedonian": [
+      "byzantine-anatolia-867-1071::p1",
+      "byzantine-anatolia-867-1071::p2",
+      "byzantine-anatolia-867-1071::p6",
+      "byzantine-anatolia-867-1071::p7"
+    ],
+    "Leo VI the Wise": [
+      "byzantine-anatolia-867-1071::p2"
+    ],
+    "Romanos I Lekapenos": [
+      "byzantine-anatolia-867-1071::p3"
+    ],
+    "John Kourkouas": [
+      "byzantine-anatolia-867-1071::p3",
+      "byzantine-anatolia-867-1071::c2",
+      "byzantine-anatolia-867-1071::b3"
+    ],
+    "Mandylion of Edessa": [
+      "byzantine-anatolia-867-1071::p3"
+    ],
+    "Nikephoros II Phokas": [
+      "byzantine-anatolia-867-1071::p4",
+      "levant-750-1099::c1"
+    ],
+    "Nikephoros Phokas": [
+      "byzantine-anatolia-867-1071::p4",
+      "byzantine-anatolia-867-1071::c3",
+      "byzantine-anatolia-867-1071::e1",
+      "byzantine-anatolia-867-1071::t3",
+      "byzantine-anatolia-867-1071::g2"
+    ],
+    "Romanos II": [
+      "byzantine-anatolia-867-1071::p4"
+    ],
+    "John Tzimiskes": [
+      "byzantine-anatolia-867-1071::p4",
+      "byzantine-anatolia-867-1071::p5",
+      "byzantine-anatolia-867-1071::b4",
+      "byzantine-anatolia-867-1071::t3"
+    ],
+    "John I Tzimiskes": [
+      "byzantine-anatolia-867-1071::p5",
+      "levant-750-1099::c1"
+    ],
+    "Basil II": [
+      "byzantine-anatolia-867-1071::p6",
+      "byzantine-anatolia-867-1071::p7",
+      "byzantine-anatolia-867-1071::c4",
+      "byzantine-anatolia-867-1071::c5",
+      "byzantine-anatolia-867-1071::o2",
+      "byzantine-anatolia-867-1071::t3",
+      "byzantine-anatolia-867-1071::t4",
+      "byzantine-anatolia-867-1071::ec1",
+      "byzantine-anatolia-867-1071::x1",
+      "byzantine-anatolia-867-1071::x4",
+      "byzantine-anatolia-867-1071::x2",
+      "byzantine-anatolia-867-1071::x3",
+      "byzantine-anatolia-867-1071::w2",
+      "byzantine-anatolia-867-1071::l2"
+    ],
+    "Russian Varangian": [
+      "byzantine-anatolia-867-1071::p6"
+    ],
+    "Constantine VIII": [
+      "byzantine-anatolia-867-1071::p7",
+      "byzantine-anatolia-867-1071::l1"
+    ],
+    "Romanos III": [
+      "byzantine-anatolia-867-1071::p7"
+    ],
+    "Michael IV": [
+      "byzantine-anatolia-867-1071::p7"
+    ],
+    "Isaac Komnenos": [
+      "byzantine-anatolia-867-1071::p8"
+    ],
+    "Romanos Diogenes": [
+      "byzantine-anatolia-867-1071::p8",
+      "byzantine-anatolia-867-1071::c9"
+    ],
+    "Isaac I Komnenos": [
+      "byzantine-anatolia-867-1071::p8"
+    ],
+    "Constantine X Doukas": [
+      "byzantine-anatolia-867-1071::p8"
+    ],
+    "Anatolian aristocracy": [
+      "byzantine-anatolia-867-1071::p9"
+    ],
+    "Charsianon": [
+      "byzantine-anatolia-867-1071::p9",
+      "byzantine-anatolia-867-1071::ec1"
+    ],
+    "Manzikert": [
+      "byzantine-anatolia-867-1071::c9",
+      "iran-1055-1219::p2"
+    ],
+    "Alp Arslan": [
+      "byzantine-anatolia-867-1071::c9",
+      "byzantine-anatolia-867-1071::c7",
+      "caliphate-945-1258::k10",
+      "caliphate-945-1258::c3",
+      "iran-1055-1219::p2",
+      "iran-1055-1219::c2"
+    ],
+    "Andronikos Doukas": [
+      "byzantine-anatolia-867-1071::c9"
+    ],
+    "Bathys Ryax": [
+      "byzantine-anatolia-867-1071::c1"
+    ],
+    "Edessa": [
+      "byzantine-anatolia-867-1071::c2",
+      "byzantine-anatolia-867-1071::b3",
+      "caliphate-945-1258::c6",
+      "mesopotamia-141bc-224::k8",
+      "rome-200-300::c5",
+      "sassanid-224-484::c2"
+    ],
+    "Romanos I": [
+      "byzantine-anatolia-867-1071::c2",
+      "byzantine-anatolia-867-1071::o2",
+      "byzantine-anatolia-867-1071::l2"
+    ],
+    "Antioch": [
+      "byzantine-anatolia-867-1071::c3",
+      "byzantine-anatolia-867-1071::x2",
+      "caliphate-945-1258::c4",
+      "crusader-states-1099-1291::b2",
+      "crusader-states-1099-1291::x1",
+      "ghassanid-420-638::c4",
+      "hasmonean-332bc-63bc::w1",
+      "lakhmid-268-602::c2",
+      "late-roman-anatolia-330-632::p2",
+      "levant-634-750::x1",
+      "levant-750-1099::x1",
+      "levant-750-1099::w1",
+      "mamluks-1250-1517::c3",
+      "mesopotamia-224-637::c4",
+      "palmyrene-100bc-273ce::k3",
+      "palmyrene-100bc-273ce::k4",
+      "palmyrene-100bc-273ce::c4",
+      "palmyrene-100bc-273ce::o3",
+      "palmyrene-100bc-273ce::r3",
+      "palmyrene-100bc-273ce::a4",
+      "palmyrene-100bc-273ce::lv1",
+      "roman-anatolia-133bc-330::g1",
+      "roman-anatolia-133bc-330::x4",
+      "roman-byzantine-levant-135-638::b3",
+      "roman-byzantine-levant-135-638::w1",
+      "rome-200-300::p13",
+      "rome-200-300::s1",
+      "rome-200-300::lv4",
+      "rome-300-400::p6",
+      "rome-300-400::p7",
+      "rome-300-400::p8",
+      "rome-300-400::p10",
+      "rome-300-400::r4",
+      "rome-300-400::te4",
+      "sassanid-484-651::k5",
+      "sassanid-484-651::c1"
+    ],
+    "Leo Phokas": [
+      "byzantine-anatolia-867-1071::c3"
+    ],
+    "Bardas Skleros": [
+      "byzantine-anatolia-867-1071::c4"
+    ],
+    "Bardas Phokas": [
+      "byzantine-anatolia-867-1071::c4"
+    ],
+    "Svindax": [
+      "byzantine-anatolia-867-1071::c5"
+    ],
+    "Georgia": [
+      "byzantine-anatolia-867-1071::c5"
+    ],
+    "David of Tao": [
+      "byzantine-anatolia-867-1071::c5"
+    ],
+    "Giorgi I": [
+      "byzantine-anatolia-867-1071::c5"
+    ],
+    "Ani": [
+      "byzantine-anatolia-867-1071::c6"
+    ],
+    "Gagik II": [
+      "byzantine-anatolia-867-1071::c6"
+    ],
+    "Constantine IX Monomachos": [
+      "byzantine-anatolia-867-1071::c6"
+    ],
+    "Kapetron Pasinler": [
+      "byzantine-anatolia-867-1071::c7"
+    ],
+    "Turkmen": [
+      "byzantine-anatolia-867-1071::c7",
+      "iran-1335-1501::p6",
+      "iraq-1258-1534::c3",
+      "iraq-1258-1534::o5",
+      "iraq-1258-1534::x3",
+      "iraq-1258-1534::g1"
+    ],
+    "Ibrahim Inal": [
+      "byzantine-anatolia-867-1071::c7"
+    ],
+    "Caesarea": [
+      "byzantine-anatolia-867-1071::c8",
+      "late-roman-anatolia-330-632::c5",
+      "late-roman-anatolia-330-632::c6",
+      "late-roman-anatolia-330-632::b2",
+      "mamluks-1250-1517::c3",
+      "rome-200-300::r4"
+    ],
+    "Iconium": [
+      "byzantine-anatolia-867-1071::c8"
+    ],
+    "Archangel Michael": [
+      "byzantine-anatolia-867-1071::c8"
+    ],
+    "Recovering the East": [
+      "byzantine-anatolia-867-1071::o3"
+    ],
+    "Book of the Eparch": [
+      "byzantine-anatolia-867-1071::o1"
+    ],
+    "Eparch Book": [
+      "byzantine-anatolia-867-1071::o1"
+    ],
+    "Leo VI": [
+      "byzantine-anatolia-867-1071::o1"
+    ],
+    "Constantine IX": [
+      "byzantine-anatolia-867-1071::o4",
+      "byzantine-anatolia-867-1071::w4"
+    ],
+    "Mandylion": [
+      "byzantine-anatolia-867-1071::b3"
+    ],
+    "Mount Galesion": [
+      "byzantine-anatolia-867-1071::b2"
+    ],
+    "Lazaros of Galesion": [
+      "byzantine-anatolia-867-1071::b2"
+    ],
+    "Philippopolis": [
+      "byzantine-anatolia-867-1071::b4"
+    ],
+    "Syrian Monophysite Christians": [
+      "byzantine-anatolia-867-1071::b4"
+    ],
+    "Hagia Sophia": [
+      "byzantine-anatolia-867-1071::b1",
+      "byzantine-anatolia-867-1071::w2",
+      "late-roman-anatolia-330-632::p6",
+      "late-roman-anatolia-330-632::e2",
+      "late-roman-anatolia-330-632::e1",
+      "late-roman-anatolia-330-632::t4",
+      "late-roman-anatolia-330-632::g1",
+      "late-roman-anatolia-330-632::l4",
+      "late-roman-anatolia-330-632::l3"
+    ],
+    "Schism": [
+      "byzantine-anatolia-867-1071::b1"
+    ],
+    "Cardinal Humbert": [
+      "byzantine-anatolia-867-1071::b1"
+    ],
+    "Michael Cerularius": [
+      "byzantine-anatolia-867-1071::b1"
+    ],
+    "Göreme": [
+      "byzantine-anatolia-867-1071::e1"
+    ],
+    "Çavuşin": [
+      "byzantine-anatolia-867-1071::e1"
+    ],
+    "Tokalı Kilise": [
+      "byzantine-anatolia-867-1071::e1"
+    ],
+    "Middle Byzantine": [
+      "byzantine-anatolia-867-1071::e4"
+    ],
+    "Paris Psalter": [
+      "byzantine-anatolia-867-1071::e2"
+    ],
+    "Joshua Roll": [
+      "byzantine-anatolia-867-1071::e2"
+    ],
+    "Macedonian Renaissance": [
+      "byzantine-anatolia-867-1071::e2"
+    ],
+    "Basil Digenes Akrites": [
+      "byzantine-anatolia-867-1071::e3"
+    ],
+    "Arethas of Caesarea": [
+      "byzantine-anatolia-867-1071::t2"
+    ],
+    "Aelius Aristides": [
+      "byzantine-anatolia-867-1071::t2",
+      "roman-anatolia-133bc-330::t4",
+      "roman-anatolia-133bc-330::w3",
+      "roman-anatolia-133bc-330::l4"
+    ],
+    "Clarke Plato": [
+      "byzantine-anatolia-867-1071::t2"
+    ],
+    "Constantine Porphyrogennetos": [
+      "byzantine-anatolia-867-1071::t1"
+    ],
+    "Book of Ceremonies": [
+      "byzantine-anatolia-867-1071::t1"
+    ],
+    "Suda": [
+      "byzantine-anatolia-867-1071::t5"
+    ],
+    "Kaloe": [
+      "byzantine-anatolia-867-1071::t3"
+    ],
+    "Leo the Deacon": [
+      "byzantine-anatolia-867-1071::t3"
+    ],
+    "Michael Psellos": [
+      "byzantine-anatolia-867-1071::t4"
+    ],
+    "Michael VII": [
+      "byzantine-anatolia-867-1071::t4"
+    ],
+    "Eustathios Maleinos": [
+      "byzantine-anatolia-867-1071::ec1"
+    ],
+    "Basil I Nea Ekklesia": [
+      "byzantine-anatolia-867-1071::g1"
+    ],
+    "Leo VI Taktika": [
+      "byzantine-anatolia-867-1071::g2"
+    ],
+    "Cherson": [
+      "byzantine-anatolia-867-1071::x1"
+    ],
+    "Anna": [
+      "byzantine-anatolia-867-1071::x1"
+    ],
+    "Vladimir of Kiev": [
+      "byzantine-anatolia-867-1071::x1"
+    ],
+    "Varangian Guard": [
+      "byzantine-anatolia-867-1071::x1"
+    ],
+    "Venice": [
+      "byzantine-anatolia-867-1071::x4",
+      "iraq-1258-1534::xc3",
+      "mamluk-syria-1260-1516::x1",
+      "mamluks-1250-1517::x3",
+      "mamluks-1250-1517::x7",
+      "rome-200-300::a5"
+    ],
+    "Fatimids": [
+      "byzantine-anatolia-867-1071::x2",
+      "fatimids-909-1171::o5",
+      "fatimids-909-1171::b6",
+      "fatimids-909-1171::x5",
+      "yemen-628-1517::k7"
+    ],
+    "Sebasteia": [
+      "byzantine-anatolia-867-1071::x3",
+      "late-roman-anatolia-330-632::c5"
+    ],
+    "Vaspurakan": [
+      "byzantine-anatolia-867-1071::x3"
+    ],
+    "Senekerim Artsruni of Vaspurakan": [
+      "byzantine-anatolia-867-1071::x3"
+    ],
+    "Trdat of Ani": [
+      "byzantine-anatolia-867-1071::w2"
+    ],
+    "Azerbaijan": [
+      "byzantine-anatolia-867-1071::w3"
+    ],
+    "Oghuz Turkmen": [
+      "byzantine-anatolia-867-1071::w3",
+      "iraq-945-1258::xc1"
+    ],
+    "Turks the Armenian": [
+      "byzantine-anatolia-867-1071::w4"
+    ],
+    "Akritai": [
+      "byzantine-anatolia-867-1071::l3"
+    ],
+    "Basil the Parakoimomenos": [
+      "byzantine-anatolia-867-1071::l2"
+    ],
+    "Basil Lekapenos": [
+      "byzantine-anatolia-867-1071::l2"
+    ],
+    "Zoe": [
+      "byzantine-anatolia-867-1071::l1"
     ],
     "Abu Bakr": [
       "caliphate-632-750::k1"
@@ -75193,12 +76042,6 @@
       "safavid-1501-1722::w2",
       "safavid-1501-1722::l1"
     ],
-    "Alp Arslan": [
-      "caliphate-945-1258::k10",
-      "caliphate-945-1258::c3",
-      "iran-1055-1219::p2",
-      "iran-1055-1219::c2"
-    ],
     "Malik-Shah": [
       "caliphate-945-1258::k10",
       "iran-1055-1219::p4"
@@ -75284,42 +76127,6 @@
       "caliphate-945-1258::c3",
       "iran-1055-1219::c2"
     ],
-    "Antioch": [
-      "caliphate-945-1258::c4",
-      "crusader-states-1099-1291::b2",
-      "crusader-states-1099-1291::x1",
-      "ghassanid-420-638::c4",
-      "hasmonean-332bc-63bc::w1",
-      "lakhmid-268-602::c2",
-      "late-roman-anatolia-330-632::p2",
-      "levant-634-750::x1",
-      "levant-750-1099::x1",
-      "levant-750-1099::w1",
-      "mamluks-1250-1517::c3",
-      "mesopotamia-224-637::c4",
-      "palmyrene-100bc-273ce::k3",
-      "palmyrene-100bc-273ce::k4",
-      "palmyrene-100bc-273ce::c4",
-      "palmyrene-100bc-273ce::o3",
-      "palmyrene-100bc-273ce::r3",
-      "palmyrene-100bc-273ce::a4",
-      "palmyrene-100bc-273ce::lv1",
-      "roman-anatolia-133bc-330::g1",
-      "roman-anatolia-133bc-330::x4",
-      "roman-byzantine-levant-135-638::b3",
-      "roman-byzantine-levant-135-638::w1",
-      "rome-200-300::p13",
-      "rome-200-300::s1",
-      "rome-200-300::lv4",
-      "rome-300-400::p6",
-      "rome-300-400::p7",
-      "rome-300-400::p8",
-      "rome-300-400::p10",
-      "rome-300-400::r4",
-      "rome-300-400::te4",
-      "sassanid-484-651::k5",
-      "sassanid-484-651::c1"
-    ],
     "Crusade": [
       "caliphate-945-1258::c4",
       "caliphate-945-1258::c7"
@@ -75353,12 +76160,6 @@
     ],
     "Zangid": [
       "caliphate-945-1258::c6"
-    ],
-    "Edessa": [
-      "caliphate-945-1258::c6",
-      "mesopotamia-141bc-224::k8",
-      "rome-200-300::c5",
-      "sassanid-224-484::c2"
     ],
     "Galilee": [
       "caliphate-945-1258::c7",
@@ -84847,12 +85648,6 @@
     "Musta'li Ismaili": [
       "fatimids-909-1171::o1"
     ],
-    "Fatimids": [
-      "fatimids-909-1171::o5",
-      "fatimids-909-1171::b6",
-      "fatimids-909-1171::x5",
-      "yemen-628-1517::k7"
-    ],
     "al-Hakim": [
       "fatimids-909-1171::o5",
       "fatimids-909-1171::b4",
@@ -91737,9 +92532,6 @@
     "Oghuz Turkic": [
       "iran-1055-1219::p1"
     ],
-    "Manzikert": [
-      "iran-1055-1219::p2"
-    ],
     "Romanos IV Diogenes": [
       "iran-1055-1219::p2"
     ],
@@ -91980,13 +92772,6 @@
     "Ali-Shir Nava'i": [
       "iran-1335-1501::p5",
       "iran-1335-1501::x2"
-    ],
-    "Turkmen": [
-      "iran-1335-1501::p6",
-      "iraq-1258-1534::c3",
-      "iraq-1258-1534::o5",
-      "iraq-1258-1534::x3",
-      "iraq-1258-1534::g1"
     ],
     "Black Sheep Qara Qoyunlu": [
       "iran-1335-1501::p6"
@@ -93627,13 +94412,6 @@
     ],
     "Rashid al-Din Tabriz": [
       "iraq-1258-1534::xc1"
-    ],
-    "Venice": [
-      "iraq-1258-1534::xc3",
-      "mamluk-syria-1260-1516::x1",
-      "mamluks-1250-1517::x3",
-      "mamluks-1250-1517::x7",
-      "rome-200-300::a5"
     ],
     "Caterino Zeno": [
       "iraq-1258-1534::xc3"
@@ -95293,9 +96071,6 @@
     "Behind the Seljuk": [
       "iraq-945-1258::xc1"
     ],
-    "Oghuz Turkmen": [
-      "iraq-945-1258::xc1"
-    ],
     "Northern Iraq": [
       "iraq-945-1258::xc1"
     ],
@@ -96438,15 +97213,6 @@
     "Corpus Iuris": [
       "late-roman-anatolia-330-632::p6"
     ],
-    "Hagia Sophia": [
-      "late-roman-anatolia-330-632::p6",
-      "late-roman-anatolia-330-632::e2",
-      "late-roman-anatolia-330-632::e1",
-      "late-roman-anatolia-330-632::t4",
-      "late-roman-anatolia-330-632::g1",
-      "late-roman-anatolia-330-632::l4",
-      "late-roman-anatolia-330-632::l3"
-    ],
     "Thyatira": [
       "late-roman-anatolia-330-632::c1"
     ],
@@ -96473,16 +97239,6 @@
     ],
     "Nika": [
       "late-roman-anatolia-330-632::c4"
-    ],
-    "Sebasteia": [
-      "late-roman-anatolia-330-632::c5"
-    ],
-    "Caesarea": [
-      "late-roman-anatolia-330-632::c5",
-      "late-roman-anatolia-330-632::c6",
-      "late-roman-anatolia-330-632::b2",
-      "mamluks-1250-1517::c3",
-      "rome-200-300::r4"
     ],
     "Chosroes I": [
       "late-roman-anatolia-330-632::c5"
@@ -97281,12 +98037,6 @@
       "levant-750-1099::c2"
     ],
     "Reconquest of Antioch": [
-      "levant-750-1099::c1"
-    ],
-    "Nikephoros II Phokas": [
-      "levant-750-1099::c1"
-    ],
-    "John I Tzimiskes": [
       "levant-750-1099::c1"
     ],
     "Crusader Capture of Jerusalem": [
@@ -104112,11 +104862,6 @@
     ],
     "Dio of Prusa": [
       "roman-anatolia-133bc-330::t4"
-    ],
-    "Aelius Aristides": [
-      "roman-anatolia-133bc-330::t4",
-      "roman-anatolia-133bc-330::w3",
-      "roman-anatolia-133bc-330::l4"
     ],
     "Dio Chrysostom of Prusa": [
       "roman-anatolia-133bc-330::t4"

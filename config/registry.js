@@ -220,5 +220,6 @@ const MODULES = [
   { id:"roman-anatolia-133bc-330", file:"modules/roman-anatolia-133bc-330.json", label:"Roman Anatolia 133 BC–330 AD", sub:"The Province of Asia, Mithridates, Paul's Churches and the Cities of the Empire", region:"Turkey", period:"Late Antique" },
   { id:"late-roman-anatolia-330-632", file:"modules/late-roman-anatolia-330-632.json", label:"Late Roman Anatolia 330–632 AD", sub:"Constantinople's Hinterland, the Cappadocian Fathers, Justinian and the Persian War", region:"Turkey", period:"Late Antique" },
   { id:"byzantine-anatolia-632-867", file:"modules/byzantine-anatolia-632-867.json", label:"Byzantine Anatolia 632–867", sub:"The Arab Frontier, the Themes, Iconoclasm and the Paulicians", region:"Turkey", period:"Medieval" },
+  { id:"byzantine-anatolia-867-1071", file:"modules/byzantine-anatolia-867-1071.json", label:"Byzantine Anatolia 867–1071", sub:"The Macedonian Recovery, the Great Estates, the Cappadocian Churches and Manzikert", region:"Turkey", period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
