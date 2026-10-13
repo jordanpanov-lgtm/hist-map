@@ -241,5 +241,6 @@ const MODULES = [
   { id:"caucasus-645-884", file:"modules/caucasus-645-884.json", label:"Arab Caucasus AD 645–884", sub:"Arminiya, the Princes of Armenia, the Emirate of Tbilisi, Abkhazia and the Return of the Bagratids", region:"Caucasus", period:"Medieval" },
   { id:"caucasus-884-1064", file:"modules/caucasus-884-1064.json", label:"Bagratid Armenia and Georgia AD 884–1064", sub:"Ani and the Kingdom of Armenia, Aghtamar, the Unification of Georgia and the Fall to Byzantium and the Seljuks", region:"Caucasus", period:"Medieval" },
   { id:"caucasus-1064-1243", file:"modules/caucasus-1064-1243.json", label:"Seljuks and the Georgian Golden Age AD 1064–1243", sub:"The Great Turkish Invasion, David the Builder, Queen Tamar, Zakarid Armenia, Nizami and the Mongol Arrival", region:"Caucasus", period:"Medieval" },
+  { id:"caucasus-1243-1501", file:"modules/caucasus-1243-1501.json", label:"Mongol, Turkmen and Timurid Caucasus AD 1243–1501", sub:"Tumens and Census, Timur's Campaigns, the Break-up of Georgia and the Eve of the Safavids", region:"Caucasus", period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

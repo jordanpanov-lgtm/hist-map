@@ -1845,6 +1845,24 @@ const SELECTED_PAIRS = [
   ['caucasus-1064-1243::p8', 'iran-1055-1219::p5'],      // Sanjar and the atabegs
   ['caucasus-1064-1243::t2', 'iran-1055-1219::t1'],      // Persian learning of the Seljuk age
   ['caucasus-1064-1243::w2', 'caliphate-945-1258::w5'],      // the Mongol cataclysm
+  ['caucasus-1243-1501::p8', 'ilkhanate-1219-1335::p3'],      // Hulagu and the founding of the Ilkhanate
+  ['caucasus-1243-1501::b1', 'ilkhanate-1219-1335::b1'],      // Ghazan's conversion to Islam
+  ['caucasus-1243-1501::ec3', 'ilkhanate-1219-1335::o1'],      // Ghazan's fiscal and land reforms
+  ['caucasus-1243-1501::p9', 'iran-1335-1501::p1'],      // the Jalayirids
+  ['caucasus-1243-1501::p10', 'iran-1335-1501::p6'],      // the Qara Qoyunlu and Aq Qoyunlu
+  ['caucasus-1243-1501::c2', 'iran-1335-1501::c1'],      // Timur subdues the regional successors
+  ['caucasus-1243-1501::c2', 'iran-1335-1501::p2'],      // Timur the conqueror
+  ['caucasus-1243-1501::c5', 'iran-1335-1501::c5'],      // the battle of Otlukbeli
+  ['caucasus-1243-1501::c5', 'anatolian-beyliks-1308-1500::c6'],      // Otlukbeli
+  ['caucasus-1243-1501::c6', 'safavid-1501-1722::p1'],      // Ismail I and the founding of the Safavid state
+  ['caucasus-1243-1501::b5', 'iran-1335-1501::b1'],      // the Safavid order and the Hurufi and Sufi movements
+  ['caucasus-1243-1501::x2', 'trebizond-1204-1461::x2'],      // Clavijo in Trebizond
+  ['caucasus-1243-1501::w1', 'trebizond-1204-1461::w2'],      // the Black Death at Trebizond
+  ['caucasus-1243-1501::w1', 'anatolian-beyliks-1308-1500::w2'],      // the Black Death in Anatolia
+  ['caucasus-1243-1501::w2', 'trebizond-1204-1461::c6'],      // the fall of Trebizond
+  ['caucasus-1243-1501::l3', 'iran-1335-1501::l2'],      // the demographic toll of Timur's campaigns
+  ['caucasus-1243-1501::x1', 'cilician-armenia-1080-1375::c5'],      // Armenians with the Mongol armies
+  ['caucasus-1243-1501::x3', 'safavid-1501-1722::l1'],      // the later forced relocation of the Armenians
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
