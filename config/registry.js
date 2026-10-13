@@ -229,5 +229,6 @@ const MODULES = [
   { id:"ottoman-anatolia-1800-1908", file:"modules/ottoman-anatolia-1800-1908.json", label:"Late Ottoman Anatolia 1800–1908", sub:"The End of the Notables, the Tanzimat, the Hamidian Age and the Railway", region:"Turkey", period:"Early Modern" },
   { id:"anatolia-1908-1923", file:"modules/anatolia-1908-1923.json", label:"Anatolia 1908–1923", sub:"Revolution, the Great War, the Destruction of the Christian Communities and the National Struggle", region:"Turkey", period:"Modern" },
   { id:"turkey-1923-1980", file:"modules/turkey-1923-1980.json", label:"Turkey 1923–1980", sub:"The Single-Party Republic, the Democrat Decade, Coups and Coalitions, and the Years of Violence", region:"Turkey", period:"Modern" },
+  { id:"turkey-1980-today", file:"modules/turkey-1980-today.json", label:"Turkey 1980–today", sub:"The Generals, Özal's Opening, the Kurdish War, the Justice and Development Decades, and the Presidential System", region:"Turkey", period:"Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

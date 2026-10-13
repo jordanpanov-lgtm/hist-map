@@ -1712,6 +1712,25 @@ const SELECTED_PAIRS = [
   ['turkey-1923-1980::x4', 'iraq-1914-1958::xc3'],      // Turkey's Western alignment: NATO and the Baghdad Pact
   ['turkey-1923-1980::w3', 'anatolia-1908-1923::w3'],      // the exchange of 1923 and the later decline of the minorities
   ['turkey-1923-1980::b5', 'anatolia-1908-1923::b3'],      // the Alevi and Bektashi communities
+  ['turkey-1980-today::c1', 'turkey-1923-1980::c15'],      // the violence of 1976–1980 and the coup that ended it
+  ['turkey-1980-today::ec1', 'turkey-1923-1980::ec7'],      // the decisions of 24 January 1980 and the export model
+  ['turkey-1980-today::o1', 'turkey-1923-1980::o11'],      // the constitutions of 1961 and 1982
+  ['turkey-1980-today::c14', 'turkey-1923-1980::c9'],      // the army's memoranda of 1971 and 1997
+  ['turkey-1980-today::c2', 'turkey-1923-1980::l2'],      // the Kurdish villagers and the state from the 1920s to the war of the 1980s
+  ['turkey-1980-today::c6', 'turkey-1923-1980::c14'],      // the violence against Alevis at Maraş, Çorum and Sivas
+  ['turkey-1980-today::b4', 'turkey-1923-1980::b5'],      // the Alevi communities
+  ['turkey-1980-today::b3', 'turkey-1923-1980::b4'],      // Erbakan and political Islam
+  ['turkey-1980-today::b5', 'turkey-1923-1980::e1'],      // Hagia Sophia as museum and as mosque
+  ['turkey-1980-today::x2', 'turkey-1923-1980::c12'],      // the Cyprus operation of 1974 and the later division
+  ['turkey-1980-today::x1', 'turkey-1923-1980::x6'],      // the Ankara Agreement and the customs union
+  ['turkey-1980-today::w3', 'turkey-1923-1980::w2'],      // the growth of the population and the cities
+  ['turkey-1980-today::l4', 'turkey-1923-1980::ec6'],      // the migrants in Germany
+  ['turkey-1980-today::t2', 'anatolia-1908-1923::c7'],      // the Armenian Genocide and its place in Turkish public debate
+  ['turkey-1980-today::l3', 'anatolia-1908-1923::c7'],      // the Armenian community and the memory of 1915
+  ['turkey-1980-today::c2', 'iraq-1979-2003::xc4'],      // the Kurdish region and its patrons
+  ['turkey-1980-today::x4', 'syria-1946-today::x1'],      // the Syrian refugee crisis
+  ['turkey-1980-today::x4', 'syria-1946-today::c2'],      // the Syrian civil war
+  ['turkey-1980-today::c13', 'syria-1946-today::c2'],      // the Turkish operations in northern Syria
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
