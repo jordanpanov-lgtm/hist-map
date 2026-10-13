@@ -1743,6 +1743,19 @@ const SELECTED_PAIRS = [
   ['caucasus-3500bc-1200bc::x1', 'anatolia-3000bc-2000bc::x2'],      // the Caucasus road to the Euphrates
   ['caucasus-3500bc-1200bc::x1', 'anatolia-10000bc-3000bc::w4'],      // the Kura–Araxes reach the Upper Euphrates
   ['caucasus-3500bc-1200bc::ec2', 'anatolia-3000bc-2000bc::ec3'],      // mobile herding and the Kura–Araxes
+  ['urartu-colchis-1200bc-585bc::c1', 'assyria-911bc-609bc::c2'],      // the long war between Assyria and Urartu
+  ['urartu-colchis-1200bc-585bc::c3', 'assyria-911bc-609bc::c2'],      // Sargon II's campaign of 714 BC
+  ['urartu-colchis-1200bc-585bc::p5', 'assyria-911bc-609bc::k6'],      // Sargon II and Rusa I
+  ['urartu-colchis-1200bc-585bc::x2', 'phrygia-1200bc-675bc::x1'],      // Mita of Mushki and Sargon
+  ['urartu-colchis-1200bc-585bc::x2', 'phrygia-1200bc-675bc::p3'],      // Midas of Phrygia
+  ['urartu-colchis-1200bc-585bc::e1', 'phrygia-1200bc-675bc::x4'],      // Urartian bronzes at Gordion
+  ['urartu-colchis-1200bc-585bc::c4', 'phrygia-1200bc-675bc::c5'],      // the Cimmerians and the sack of Gordion
+  ['urartu-colchis-1200bc-585bc::w2', 'phrygia-1200bc-675bc::w3'],      // the Cimmerians cross the Caucasus
+  ['urartu-colchis-1200bc-585bc::c4', 'lydia-685bc-546bc::c1'],      // the Cimmerians in Anatolia
+  ['urartu-colchis-1200bc-585bc::c5', 'media-728bc-550bc::c2'],      // Scythian domination in the Median lands
+  ['urartu-colchis-1200bc-585bc::w1', 'media-728bc-550bc::p3'],      // Cyaxares and the fall of Nineveh
+  ['urartu-colchis-1200bc-585bc::w1', 'assyria-911bc-609bc::xc5'],      // the Median alliance and the fall of Assyria
+  ['urartu-colchis-1200bc-585bc::p4', 'phrygia-1200bc-675bc::c6'],      // Urartu against Melid and Kummuh
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
