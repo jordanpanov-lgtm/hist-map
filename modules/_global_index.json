@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 7379,
-    "folio_count": 154,
-    "xlink_pairs": 1442,
-    "keyword_terms": 11411,
+    "total_entries": 7419,
+    "folio_count": 155,
+    "xlink_pairs": 1449,
+    "keyword_terms": 11440,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -404,6 +404,11 @@
         "id": "jordan-1946-today",
         "title": "Independent Jordan",
         "entries": 17
+      },
+      {
+        "id": "kanesh-2000bc-1650bc",
+        "title": "Kanesh and the Assyrian Colonies",
+        "entries": 40
       },
       {
         "id": "kuwait-1961-today",
@@ -4808,6 +4813,46 @@
     "jordan-1946-today::x1": "A Strategic Partnership with Washington",
     "jordan-1946-today::w1": "A Comparatively Stable Buffer in a Volatile Region",
     "jordan-1946-today::l1": "A Refugee Family's Story across Three Generations",
+    "kanesh-2000bc-1650bc::p1": "The princes of Kanesh — Inar and Warshama",
+    "kanesh-2000bc-1650bc::p2": "A land of rival princes",
+    "kanesh-2000bc-1650bc::p3": "Burushattum and the Sarıkaya palace",
+    "kanesh-2000bc-1650bc::p4": "Erishum I and the City of Assur",
+    "kanesh-2000bc-1650bc::p5": "Shamshi-Adad I and the end of Assur's independence",
+    "kanesh-2000bc-1650bc::p6": "Pithana and Anitta of Kussara",
+    "kanesh-2000bc-1650bc::c1": "The burning of the Level II karum",
+    "kanesh-2000bc-1650bc::c2": "Shamshi-Adad takes Assur",
+    "kanesh-2000bc-1650bc::c3": "Pithana takes Nesa",
+    "kanesh-2000bc-1650bc::c4": "Anitta destroys Hattusa",
+    "kanesh-2000bc-1650bc::c5": "The last fire at Kanesh",
+    "kanesh-2000bc-1650bc::o2": "The self-governing karum",
+    "kanesh-2000bc-1650bc::o3": "The year-eponym and the eponym list",
+    "kanesh-2000bc-1650bc::o4": "Loans, witnesses and the written contract",
+    "kanesh-2000bc-1650bc::o1": "The treaties between Assur and the princes",
+    "kanesh-2000bc-1650bc::b1": "The dagger of Assur",
+    "kanesh-2000bc-1650bc::b3": "The dead beneath the merchants' floors",
+    "kanesh-2000bc-1650bc::b2": "The weather god and the goddess on Anatolian seals",
+    "kanesh-2000bc-1650bc::e1": "Anatolian and Assyrian seal styles",
+    "kanesh-2000bc-1650bc::e2": "Cappadocian painted ware and animal vessels",
+    "kanesh-2000bc-1650bc::e3": "The palaces of Kanesh and Acemhöyük",
+    "kanesh-2000bc-1650bc::e4": "A harp on a seal from Konya-Karahöyük",
+    "kanesh-2000bc-1650bc::t1": "The merchants' letters",
+    "kanesh-2000bc-1650bc::t2": "The first Indo-European names",
+    "kanesh-2000bc-1650bc::t3": "The Anitta text",
+    "kanesh-2000bc-1650bc::ec1": "Tin and cloth for silver and gold",
+    "kanesh-2000bc-1650bc::ec2": "The household cloth of Assur",
+    "kanesh-2000bc-1650bc::ec3": "Silver, loans and interest",
+    "kanesh-2000bc-1650bc::ec4": "Anatolian copper",
+    "kanesh-2000bc-1650bc::g1": "The sealed envelope and the business script",
+    "kanesh-2000bc-1650bc::g2": "Iron as a precious metal",
+    "kanesh-2000bc-1650bc::g3": "The caravan road and its stations",
+    "kanesh-2000bc-1650bc::x1": "The donkey road from Assur to Kanesh",
+    "kanesh-2000bc-1650bc::x2": "The tin route from the east",
+    "kanesh-2000bc-1650bc::x3": "The foreign kings' seals at Acemhöyük",
+    "kanesh-2000bc-1650bc::w1": "A land of city-states",
+    "kanesh-2000bc-1650bc::w2": "The end of the Karum age",
+    "kanesh-2000bc-1650bc::l1": "Taram-Kubi and the wives of Assur",
+    "kanesh-2000bc-1650bc::l2": "An Anatolian wife in the Assyrian archives",
+    "kanesh-2000bc-1650bc::l3": "Slaves and the people in pledge",
     "kuwait-1961-today::k1": "Sheikh ʿAbdullāh III al-Sālim",
     "kuwait-1961-today::k2": "Sheikh Ṣabāḥ III al-Sālim",
     "kuwait-1961-today::k3": "Sheikh Jābir al-Aḥmad",
@@ -8398,11 +8443,16 @@
     ],
     "anatolia-3000bc-2000bc::ec1": [
       "elam-3200bc-1500bc::ec1",
+      "kanesh-2000bc-1650bc::x2",
       "sumer-2900bc-2334bc::g2"
     ],
     "elam-3200bc-1500bc::ec1": [
       "anatolia-3000bc-2000bc::ec1",
       "magan-3000bc-1200bc::tc4"
+    ],
+    "kanesh-2000bc-1650bc::x2": [
+      "anatolia-3000bc-2000bc::ec1",
+      "babylon-2004bc-1595bc::xc2"
     ],
     "sumer-2900bc-2334bc::g2": [
       "anatolia-3000bc-2000bc::ec1"
@@ -8516,7 +8566,8 @@
       "assyria-1400bc-1050bc::k1"
     ],
     "babylon-2004bc-1595bc::k6": [
-      "assyria-1400bc-1050bc::k1"
+      "assyria-1400bc-1050bc::k1",
+      "kanesh-2000bc-1650bc::p4"
     ],
     "assyria-1400bc-1050bc::k4": [
       "babylon-1595bc-1155bc::k8"
@@ -8589,10 +8640,12 @@
       "babylon-2004bc-1595bc::xc1"
     ],
     "babylon-2004bc-1595bc::e2": [
-      "assyria-1400bc-1050bc::e4"
+      "assyria-1400bc-1050bc::e4",
+      "kanesh-2000bc-1650bc::x1"
     ],
     "babylon-2004bc-1595bc::xc1": [
-      "assyria-1400bc-1050bc::e4"
+      "assyria-1400bc-1050bc::e4",
+      "kanesh-2000bc-1650bc::o2"
     ],
     "assyria-1400bc-1050bc::g2": [
       "assyria-911bc-609bc::e6",
@@ -9396,6 +9449,15 @@
     "mesopotamia-2334bc-2004bc::e6": [
       "babylon-2004bc-1595bc::k1"
     ],
+    "babylon-2004bc-1595bc::k4": [
+      "kanesh-2000bc-1650bc::p5"
+    ],
+    "kanesh-2000bc-1650bc::p5": [
+      "babylon-2004bc-1595bc::k4"
+    ],
+    "kanesh-2000bc-1650bc::p4": [
+      "babylon-2004bc-1595bc::k6"
+    ],
     "babylon-2004bc-1595bc::o1": [
       "mesopotamia-2334bc-2004bc::o5"
     ],
@@ -9427,9 +9489,18 @@
       "babylon-2004bc-1595bc::t1",
       "sumer-2900bc-2334bc::t4"
     ],
+    "kanesh-2000bc-1650bc::x1": [
+      "babylon-2004bc-1595bc::e2"
+    ],
     "mesopotamia-2334bc-2004bc::w2": [
       "babylon-2004bc-1595bc::e5",
       "sumer-2900bc-2334bc::w2"
+    ],
+    "kanesh-2000bc-1650bc::o2": [
+      "babylon-2004bc-1595bc::xc1"
+    ],
+    "babylon-2004bc-1595bc::xc2": [
+      "kanesh-2000bc-1650bc::x2"
     ],
     "babylon-2004bc-1595bc::xc4": [
       "dilmun-3000bc-1200bc::ec2",
@@ -9459,6 +9530,12 @@
     ],
     "mesopotamia-2334bc-2004bc::xc4": [
       "babylon-2004bc-1595bc::w1"
+    ],
+    "babylon-2004bc-1595bc::l3": [
+      "kanesh-2000bc-1650bc::l1"
+    ],
+    "kanesh-2000bc-1650bc::l1": [
+      "babylon-2004bc-1595bc::l3"
     ],
     "bahrain-1971-today::x4": [
       "israel-1948-today::w1"
@@ -37638,6 +37715,182 @@
       "Refugee Family Story",
       "Generations"
     ],
+    "kanesh-2000bc-1650bc::p1": [
+      "Kanesh Kültepe",
+      "Inar",
+      "Warshama",
+      "Level II"
+    ],
+    "kanesh-2000bc-1650bc::p2": [
+      "Central Anatolia"
+    ],
+    "kanesh-2000bc-1650bc::p3": [
+      "Acemhöyük",
+      "Aksaray",
+      "Burushattum",
+      "Sarıkaya"
+    ],
+    "kanesh-2000bc-1650bc::p4": [
+      "Old Assyrian Assur",
+      "Erishum I",
+      "Level II"
+    ],
+    "kanesh-2000bc-1650bc::p5": [
+      "House of Shamshi-Adad",
+      "Assur",
+      "Shamshi-Adad I"
+    ],
+    "kanesh-2000bc-1650bc::p6": [
+      "Pithana",
+      "Anitta of Kussara",
+      "Nesa Kanesh"
+    ],
+    "kanesh-2000bc-1650bc::c1": [
+      "Kanesh Kültepe",
+      "Level II",
+      "Level Ib"
+    ],
+    "kanesh-2000bc-1650bc::c2": [
+      "Assur",
+      "Shamshi-Adad"
+    ],
+    "kanesh-2000bc-1650bc::c3": [
+      "Kanesh Nesa",
+      "Pithana"
+    ],
+    "kanesh-2000bc-1650bc::c4": [
+      "Hattusa",
+      "Anitta",
+      "Huzziya of Zalpa",
+      "Piyusti of Hatti",
+      "Storm God of Heaven"
+    ],
+    "kanesh-2000bc-1650bc::c5": [
+      "Kanesh Kültepe",
+      "Level Ib",
+      "Level II"
+    ],
+    "kanesh-2000bc-1650bc::o2": [
+      "Kanesh Kültepe",
+      "Hall of Assur"
+    ],
+    "kanesh-2000bc-1650bc::o3": [
+      "Assur",
+      "Kanesh",
+      "Kültepe the KEL",
+      "Bronze Age",
+      "Near East"
+    ],
+    "kanesh-2000bc-1650bc::o4": [
+      "Kanesh",
+      "Loans"
+    ],
+    "kanesh-2000bc-1650bc::o1": [
+      "Kanesh",
+      "Assur"
+    ],
+    "kanesh-2000bc-1650bc::b1": [
+      "Kanesh",
+      "Assur"
+    ],
+    "kanesh-2000bc-1650bc::b3": [
+      "Kanesh Kültepe"
+    ],
+    "kanesh-2000bc-1650bc::b2": [
+      "Kanesh",
+      "Anatolian"
+    ],
+    "kanesh-2000bc-1650bc::e1": [
+      "Kanesh Kültepe",
+      "Anatolian",
+      "Assyrian",
+      "Bronze Age"
+    ],
+    "kanesh-2000bc-1650bc::e2": [
+      "Kanesh Kültepe",
+      "Cappadocian",
+      "Middle Bronze Age"
+    ],
+    "kanesh-2000bc-1650bc::e3": [
+      "Kanesh",
+      "Acemhöyük"
+    ],
+    "kanesh-2000bc-1650bc::e4": [
+      "Konya-Karahöyük"
+    ],
+    "kanesh-2000bc-1650bc::t1": [
+      "Kanesh Kültepe"
+    ],
+    "kanesh-2000bc-1650bc::t2": [
+      "Kanesh Kültepe",
+      "Indo-European Anatolian"
+    ],
+    "kanesh-2000bc-1650bc::t3": [
+      "Hattusa",
+      "Anitta of Kussara"
+    ],
+    "kanesh-2000bc-1650bc::ec1": [
+      "Assur",
+      "Kanesh",
+      "Tin"
+    ],
+    "kanesh-2000bc-1650bc::ec2": [
+      "Assur"
+    ],
+    "kanesh-2000bc-1650bc::ec3": [
+      "Kanesh",
+      "Silver"
+    ],
+    "kanesh-2000bc-1650bc::ec4": [
+      "Central Anatolia",
+      "Anatolian"
+    ],
+    "kanesh-2000bc-1650bc::g1": [
+      "Kanesh"
+    ],
+    "kanesh-2000bc-1650bc::g2": [
+      "Kanesh",
+      "Purushanda",
+      "Iron Age"
+    ],
+    "kanesh-2000bc-1650bc::g3": [
+      "Southeastern Anatolia"
+    ],
+    "kanesh-2000bc-1650bc::x1": [
+      "Assur",
+      "Kanesh"
+    ],
+    "kanesh-2000bc-1650bc::x2": [
+      "Assur",
+      "Central Asian"
+    ],
+    "kanesh-2000bc-1650bc::x3": [
+      "Acemhöyük",
+      "Shamshi-Adad I",
+      "Aplahanda of Carchemish",
+      "Yahdun-Lim of Mari"
+    ],
+    "kanesh-2000bc-1650bc::w1": [
+      "Central Anatolia"
+    ],
+    "kanesh-2000bc-1650bc::w2": [
+      "Central Anatolia",
+      "Karum",
+      "Level Ib the Assyrian"
+    ],
+    "kanesh-2000bc-1650bc::l1": [
+      "Assur",
+      "Taram-Kubi"
+    ],
+    "kanesh-2000bc-1650bc::l2": [
+      "Kanesh",
+      "Anatolian",
+      "Assyrian"
+    ],
+    "kanesh-2000bc-1650bc::l3": [
+      "Kanesh",
+      "Slaves"
+    ],
     "kuwait-1961-today::k1": [
       "Āl Ṣabāḥ",
       "Kuwait City",
@@ -57580,6 +57833,7 @@
       "elam-1500bc-1100bc::b1",
       "elam-1500bc-1100bc::e1",
       "elam-1500bc-1100bc::l1",
+      "kanesh-2000bc-1650bc::o3",
       "levant-neolithic-10000bc-2000bc::p3",
       "levant-neolithic-10000bc-2000bc::tc2",
       "magan-1200bc-300bc::tc1",
@@ -58141,6 +58395,7 @@
       "egypt-641-969::k10",
       "ilkhanate-1219-1335::w1",
       "iraq-632-945::k7",
+      "kanesh-2000bc-1650bc::x2",
       "seleucid-iran-330bc-148bc::tc2"
     ],
     "Amu Darya": [
@@ -61056,7 +61311,8 @@
       "anatolia-10000bc-3000bc::ec2"
     ],
     "Aksaray": [
-      "anatolia-10000bc-3000bc::p4"
+      "anatolia-10000bc-3000bc::p4",
+      "kanesh-2000bc-1650bc::p3"
     ],
     "Beside the Melendiz": [
       "anatolia-10000bc-3000bc::p4"
@@ -61368,7 +61624,8 @@
       "anatolia-10000bc-3000bc::x2"
     ],
     "Cappadocian": [
-      "anatolia-10000bc-3000bc::x1"
+      "anatolia-10000bc-3000bc::x1",
+      "kanesh-2000bc-1650bc::e2"
     ],
     "Barcın": [
       "anatolia-10000bc-3000bc::x3"
@@ -61405,7 +61662,8 @@
       "anatolia-10000bc-3000bc::x5"
     ],
     "Southeastern Anatolia": [
-      "anatolia-10000bc-3000bc::w1"
+      "anatolia-10000bc-3000bc::w1",
+      "kanesh-2000bc-1650bc::g3"
     ],
     "Younger Dryas": [
       "anatolia-10000bc-3000bc::w1",
@@ -61602,10 +61860,14 @@
       "anatolia-3000bc-2000bc::c2"
     ],
     "Purushanda": [
-      "anatolia-3000bc-2000bc::c4"
+      "anatolia-3000bc-2000bc::c4",
+      "kanesh-2000bc-1650bc::g2"
     ],
     "Acemhöyük": [
-      "anatolia-3000bc-2000bc::c4"
+      "anatolia-3000bc-2000bc::c4",
+      "kanesh-2000bc-1650bc::p3",
+      "kanesh-2000bc-1650bc::e3",
+      "kanesh-2000bc-1650bc::x3"
     ],
     "Sargon": [
       "anatolia-3000bc-2000bc::c4",
@@ -61685,6 +61947,10 @@
       "anatolia-3000bc-2000bc::t1",
       "caliphate-750-945::c4",
       "caliphate-750-945::w4",
+      "kanesh-2000bc-1650bc::b2",
+      "kanesh-2000bc-1650bc::e1",
+      "kanesh-2000bc-1650bc::ec4",
+      "kanesh-2000bc-1650bc::l2",
       "mesopotamia-6500bc-3800bc::xc1"
     ],
     "Bronze Age Anatolia": [
@@ -61729,6 +61995,7 @@
     "Tin": [
       "anatolia-3000bc-2000bc::g1",
       "elam-3200bc-1500bc::ec1",
+      "kanesh-2000bc-1650bc::ec1",
       "magan-3000bc-1200bc::tc4"
     ],
     "Cast": [
@@ -63337,6 +63604,8 @@
       "dilmun-1200bc-600bc::x4",
       "egypt-1200bc-664bc::k19",
       "iraq-1831-1914::x3",
+      "kanesh-2000bc-1650bc::e1",
+      "kanesh-2000bc-1650bc::l2",
       "mesopotamia-539bc-331bc::w3",
       "qedar-853bc-330bc::k2",
       "qedar-853bc-330bc::o1",
@@ -63422,6 +63691,16 @@
       "assyria-911bc-609bc::b6",
       "babylon-2004bc-1595bc::c3",
       "babylon-2004bc-1595bc::e2",
+      "kanesh-2000bc-1650bc::p5",
+      "kanesh-2000bc-1650bc::c2",
+      "kanesh-2000bc-1650bc::o3",
+      "kanesh-2000bc-1650bc::o1",
+      "kanesh-2000bc-1650bc::b1",
+      "kanesh-2000bc-1650bc::ec1",
+      "kanesh-2000bc-1650bc::ec2",
+      "kanesh-2000bc-1650bc::x1",
+      "kanesh-2000bc-1650bc::x2",
+      "kanesh-2000bc-1650bc::l1",
       "mesopotamia-2334bc-2004bc::w4"
     ],
     "Vorderasiatisches Museum": [
@@ -63530,6 +63809,8 @@
       "hejaz-prehistory-8000bc-1200bc::ec3",
       "hejaz-prehistory-8000bc-1200bc::w2",
       "hejaz-prehistory-8000bc-1200bc::w3",
+      "kanesh-2000bc-1650bc::o3",
+      "kanesh-2000bc-1650bc::e1",
       "levant-neolithic-10000bc-2000bc::p4",
       "levant-neolithic-10000bc-2000bc::l2",
       "magan-3000bc-1200bc::k2",
@@ -63578,7 +63859,20 @@
       "assyria-1400bc-1050bc::e4"
     ],
     "Kanesh": [
-      "assyria-1400bc-1050bc::e4"
+      "assyria-1400bc-1050bc::e4",
+      "kanesh-2000bc-1650bc::o3",
+      "kanesh-2000bc-1650bc::o4",
+      "kanesh-2000bc-1650bc::o1",
+      "kanesh-2000bc-1650bc::b1",
+      "kanesh-2000bc-1650bc::b2",
+      "kanesh-2000bc-1650bc::e3",
+      "kanesh-2000bc-1650bc::ec1",
+      "kanesh-2000bc-1650bc::ec3",
+      "kanesh-2000bc-1650bc::g1",
+      "kanesh-2000bc-1650bc::g2",
+      "kanesh-2000bc-1650bc::x1",
+      "kanesh-2000bc-1650bc::l2",
+      "kanesh-2000bc-1650bc::l3"
     ],
     "Assyrian Anatolian": [
       "assyria-1400bc-1050bc::e4"
@@ -64251,6 +64545,7 @@
       "beth-qatraye-240-632::tc3",
       "canaan-2000bc-1200bc::w2",
       "decapolis-63bc-106ce::e2",
+      "kanesh-2000bc-1650bc::g2",
       "magan-1200bc-300bc::k5",
       "magan-1200bc-300bc::c3",
       "magan-1200bc-300bc::o1",
@@ -66000,6 +66295,7 @@
     "Silver": [
       "babylon-1155bc-539bc::e5",
       "babylon-2004bc-1595bc::e6",
+      "kanesh-2000bc-1650bc::ec3",
       "mesopotamia-2334bc-2004bc::e5",
       "spain-1516-1700::s1",
       "yemen-1517-1900::ex4"
@@ -66476,7 +66772,8 @@
       "babylon-2004bc-1595bc::k3"
     ],
     "House of Shamshi-Adad": [
-      "babylon-2004bc-1595bc::k4"
+      "babylon-2004bc-1595bc::k4",
+      "kanesh-2000bc-1650bc::p5"
     ],
     "Shubat-Enlil Tell Leilan": [
       "babylon-2004bc-1595bc::k4"
@@ -66502,7 +66799,8 @@
       "babylon-2004bc-1595bc::k5"
     ],
     "Old Assyrian Assur": [
-      "babylon-2004bc-1595bc::k6"
+      "babylon-2004bc-1595bc::k6",
+      "kanesh-2000bc-1650bc::p4"
     ],
     "First Dynasty of Babylon": [
       "babylon-2004bc-1595bc::k7",
@@ -66679,7 +66977,16 @@
     ],
     "Kanesh Kültepe": [
       "babylon-2004bc-1595bc::e2",
-      "babylon-2004bc-1595bc::xc1"
+      "babylon-2004bc-1595bc::xc1",
+      "kanesh-2000bc-1650bc::p1",
+      "kanesh-2000bc-1650bc::c1",
+      "kanesh-2000bc-1650bc::c5",
+      "kanesh-2000bc-1650bc::o2",
+      "kanesh-2000bc-1650bc::b3",
+      "kanesh-2000bc-1650bc::e1",
+      "kanesh-2000bc-1650bc::e2",
+      "kanesh-2000bc-1650bc::t1",
+      "kanesh-2000bc-1650bc::t2"
     ],
     "Assur–Kanesh": [
       "babylon-2004bc-1595bc::e2"
@@ -71149,7 +71456,8 @@
       "canaan-2000bc-1200bc::tc1"
     ],
     "Middle Bronze Age": [
-      "canaan-2000bc-1200bc::tc1"
+      "canaan-2000bc-1200bc::tc1",
+      "kanesh-2000bc-1650bc::e2"
     ],
     "Tin Exchange Networks": [
       "canaan-2000bc-1200bc::tc2"
@@ -74058,7 +74366,9 @@
       "egypt-1550bc-1200bc::c6"
     ],
     "Hattusa": [
-      "egypt-1550bc-1200bc::c7"
+      "egypt-1550bc-1200bc::c7",
+      "kanesh-2000bc-1650bc::c4",
+      "kanesh-2000bc-1650bc::t3"
     ],
     "Egyptian–Hittite": [
       "egypt-1550bc-1200bc::c7"
@@ -90061,6 +90371,103 @@
     ],
     "Generations": [
       "jordan-1946-today::l1"
+    ],
+    "Inar": [
+      "kanesh-2000bc-1650bc::p1"
+    ],
+    "Warshama": [
+      "kanesh-2000bc-1650bc::p1"
+    ],
+    "Level II": [
+      "kanesh-2000bc-1650bc::p1",
+      "kanesh-2000bc-1650bc::p4",
+      "kanesh-2000bc-1650bc::c1",
+      "kanesh-2000bc-1650bc::c5"
+    ],
+    "Central Anatolia": [
+      "kanesh-2000bc-1650bc::p2",
+      "kanesh-2000bc-1650bc::ec4",
+      "kanesh-2000bc-1650bc::w1",
+      "kanesh-2000bc-1650bc::w2"
+    ],
+    "Burushattum": [
+      "kanesh-2000bc-1650bc::p3"
+    ],
+    "Sarıkaya": [
+      "kanesh-2000bc-1650bc::p3"
+    ],
+    "Erishum I": [
+      "kanesh-2000bc-1650bc::p4"
+    ],
+    "Shamshi-Adad I": [
+      "kanesh-2000bc-1650bc::p5",
+      "kanesh-2000bc-1650bc::x3"
+    ],
+    "Pithana": [
+      "kanesh-2000bc-1650bc::p6",
+      "kanesh-2000bc-1650bc::c3"
+    ],
+    "Anitta of Kussara": [
+      "kanesh-2000bc-1650bc::p6",
+      "kanesh-2000bc-1650bc::t3"
+    ],
+    "Nesa Kanesh": [
+      "kanesh-2000bc-1650bc::p6"
+    ],
+    "Level Ib": [
+      "kanesh-2000bc-1650bc::c1",
+      "kanesh-2000bc-1650bc::c5"
+    ],
+    "Shamshi-Adad": [
+      "kanesh-2000bc-1650bc::c2"
+    ],
+    "Kanesh Nesa": [
+      "kanesh-2000bc-1650bc::c3"
+    ],
+    "Anitta": [
+      "kanesh-2000bc-1650bc::c4"
+    ],
+    "Huzziya of Zalpa": [
+      "kanesh-2000bc-1650bc::c4"
+    ],
+    "Piyusti of Hatti": [
+      "kanesh-2000bc-1650bc::c4"
+    ],
+    "Storm God of Heaven": [
+      "kanesh-2000bc-1650bc::c4"
+    ],
+    "Hall of Assur": [
+      "kanesh-2000bc-1650bc::o2"
+    ],
+    "Kültepe the KEL": [
+      "kanesh-2000bc-1650bc::o3"
+    ],
+    "Loans": [
+      "kanesh-2000bc-1650bc::o4"
+    ],
+    "Konya-Karahöyük": [
+      "kanesh-2000bc-1650bc::e4"
+    ],
+    "Indo-European Anatolian": [
+      "kanesh-2000bc-1650bc::t2"
+    ],
+    "Aplahanda of Carchemish": [
+      "kanesh-2000bc-1650bc::x3"
+    ],
+    "Yahdun-Lim of Mari": [
+      "kanesh-2000bc-1650bc::x3"
+    ],
+    "Karum": [
+      "kanesh-2000bc-1650bc::w2"
+    ],
+    "Level Ib the Assyrian": [
+      "kanesh-2000bc-1650bc::w2"
+    ],
+    "Taram-Kubi": [
+      "kanesh-2000bc-1650bc::l1"
+    ],
+    "Slaves": [
+      "kanesh-2000bc-1650bc::l3"
     ],
     "Āl Ṣabāḥ": [
       "kuwait-1961-today::k1",

@@ -1446,6 +1446,13 @@ const SELECTED_PAIRS = [
   ['anatolia-3000bc-2000bc::p9', 'anatolia-10000bc-3000bc::c3'],      // the burnt palace and what followed on the mound
   ['anatolia-3000bc-2000bc::p10', 'anatolia-10000bc-3000bc::w4'],      // Kura-Araxes in eastern Anatolia
   ['anatolia-3000bc-2000bc::x2', 'anatolia-10000bc-3000bc::w4'],      // Kura-Araxes network
+  ['kanesh-2000bc-1650bc::x1', 'babylon-2004bc-1595bc::e2'],      // the Assur–Kanesh donkey caravans
+  ['kanesh-2000bc-1650bc::o2', 'babylon-2004bc-1595bc::xc1'],      // the karum as extraterritorial colony
+  ['kanesh-2000bc-1650bc::x2', 'babylon-2004bc-1595bc::xc2'],      // the tin route
+  ['kanesh-2000bc-1650bc::p4', 'babylon-2004bc-1595bc::k6'],      // Old Assyrian Assur as merchant city-state
+  ['kanesh-2000bc-1650bc::p5', 'babylon-2004bc-1595bc::k4'],      // Shamshi-Adad and his Upper Mesopotamian kingdom
+  ['kanesh-2000bc-1650bc::l1', 'babylon-2004bc-1595bc::l3'],      // merchant wives in Assur
+  ['kanesh-2000bc-1650bc::x2', 'anatolia-3000bc-2000bc::ec1'],      // the tin question: Taurus workings and the tin route from the east
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

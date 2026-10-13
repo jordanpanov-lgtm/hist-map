@@ -210,5 +210,6 @@ const MODULES = [
   // ── ANATOLIA (Turkey zone — Anatolia · Thrace) ──
   { id:"anatolia-10000bc-3000bc", file:"modules/anatolia-10000bc-3000bc.json", label:"Neolithic and Chalcolithic Anatolia 10,000–3,000 BC", sub:"Göbekli Tepe, Çatalhöyük and the First Palace at Arslantepe", region:"Turkey", period:"Prehistoric" },
   { id:"anatolia-3000bc-2000bc", file:"modules/anatolia-3000bc-2000bc.json", label:"Early Bronze Age Anatolia 3000–2000 BC", sub:"Troy, the Alaca Höyük Tombs and the Tin of the Taurus", region:"Turkey", period:"Prehistoric" },
+  { id:"kanesh-2000bc-1650bc", file:"modules/kanesh-2000bc-1650bc.json", label:"Kanesh and the Assyrian Colonies 2000–1650 BC", sub:"Merchants from Assur, the Princes of the Plateau and the First Archives of Anatolia", region:"Turkey", period:"Prehistoric" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
