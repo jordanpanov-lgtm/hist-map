@@ -1528,6 +1528,17 @@ const SELECTED_PAIRS = [
   ['persian-anatolia-546bc-334bc::p1', 'lydia-685bc-546bc::w3'],      // Sardis after the Mermnads
   ['persian-anatolia-546bc-334bc::t4', 'ionia-1050bc-494bc::c6'],      // Hippodamus replans Miletus after its sack
   ['persian-anatolia-546bc-334bc::l1', 'ionia-1050bc-494bc::c5'],      // Ionian and Carian forces in the Persian wars
+  ['hellenistic-anatolia-334bc-133bc::p1', 'persian-anatolia-546bc-334bc::c8'],      // Alexander at the Granicus and the Persian west
+  ['hellenistic-anatolia-334bc-133bc::p1', 'achaemenid-550bc-330bc::c8'],      // Alexander's conquest of the empire
+  ['hellenistic-anatolia-334bc-133bc::c2', 'mesopotamia-331bc-141bc::c2'],      // Ipsus and the ownership of the east
+  ['hellenistic-anatolia-334bc-133bc::p4', 'mesopotamia-331bc-141bc::k1'],      // Seleucus I
+  ['hellenistic-anatolia-334bc-133bc::p4', 'seleucid-iran-330bc-148bc::p1'],      // Seleucus I
+  ['hellenistic-anatolia-334bc-133bc::c8', 'seleucid-iran-330bc-148bc::c5'],      // the battle of Magnesia
+  ['hellenistic-anatolia-334bc-133bc::p5', 'mesopotamia-331bc-141bc::k4'],      // Antiochus III the Great
+  ['hellenistic-anatolia-334bc-133bc::p5', 'seleucid-iran-330bc-148bc::p4'],      // Antiochus III the Great
+  ['hellenistic-anatolia-334bc-133bc::w1', 'seleucid-iran-330bc-148bc::w1'],      // the Wars of the Successors
+  ['hellenistic-anatolia-334bc-133bc::x3', 'egypt-332bc-30bc::c4'],      // Galatian mercenaries at Raphia
+  ['hellenistic-anatolia-334bc-133bc::t2', 'mesopotamia-331bc-141bc::t5'],      // Hipparchus and the Babylonian parameters
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
