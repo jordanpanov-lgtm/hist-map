@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 7581,
-    "folio_count": 158,
-    "xlink_pairs": 1495,
-    "keyword_terms": 11656,
+    "total_entries": 7618,
+    "folio_count": 159,
+    "xlink_pairs": 1510,
+    "keyword_terms": 11691,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -459,6 +459,11 @@
         "id": "levant-neolithic-10000bc-2000bc",
         "title": "The Neolithic and Chalcolithic Levant",
         "entries": 26
+      },
+      {
+        "id": "lydia-685bc-546bc",
+        "title": "Lydia",
+        "entries": 37
       },
       {
         "id": "magan-1200bc-300bc",
@@ -5211,6 +5216,43 @@
     "levant-neolithic-10000bc-2000bc::w2": "The Rise of the First Levantine Towns",
     "levant-neolithic-10000bc-2000bc::l1": "Skeletal Evidence of Dietary Change",
     "levant-neolithic-10000bc-2000bc::l2": "Emerging Status Differences in Burial",
+    "lydia-685bc-546bc::p1": "The Heraclid kings of Sardis",
+    "lydia-685bc-546bc::p2": "Gyges — the usurper king",
+    "lydia-685bc-546bc::p3": "Ardys and Sadyattes",
+    "lydia-685bc-546bc::p4": "Alyattes — the consolidator",
+    "lydia-685bc-546bc::p5": "Croesus — the last Mermnad",
+    "lydia-685bc-546bc::c1": "The Cimmerians take Sardis",
+    "lydia-685bc-546bc::c2": "The battle of the Eclipse",
+    "lydia-685bc-546bc::c3": "Pteria and Thymbra",
+    "lydia-685bc-546bc::c4": "The fall of Sardis",
+    "lydia-685bc-546bc::c5": "The revolt of Pactyes",
+    "lydia-685bc-546bc::o1": "Delphi blesses a usurper",
+    "lydia-685bc-546bc::o2": "The Croesus gold and silver standard",
+    "lydia-685bc-546bc::b1": "Kybebe on the Pactolus",
+    "lydia-685bc-546bc::b2": "Croesus's gifts to Delphi",
+    "lydia-685bc-546bc::e4": "Marching to pipes and lyres",
+    "lydia-685bc-546bc::e2": "The Lydian Hoard",
+    "lydia-685bc-546bc::e3": "The lydion and marbled ware",
+    "lydia-685bc-546bc::e1": "The mound of Alyattes",
+    "lydia-685bc-546bc::e5": "Croesus on the pyre",
+    "lydia-685bc-546bc::t1": "The Lydian language and alphabet",
+    "lydia-685bc-546bc::t2": "Solon and Croesus",
+    "lydia-685bc-546bc::ec2": "The gold of the Pactolus",
+    "lydia-685bc-546bc::ec1": "The first coins",
+    "lydia-685bc-546bc::ec3": "The first retailers",
+    "lydia-685bc-546bc::ec4": "The wealth of Croesus",
+    "lydia-685bc-546bc::g2": "The acropolis that was thought impregnable",
+    "lydia-685bc-546bc::g1": "The gold refinery of Sardis",
+    "lydia-685bc-546bc::x1": "Gyges and Ashurbanipal",
+    "lydia-685bc-546bc::x2": "The oath of the Halys",
+    "lydia-685bc-546bc::x4": "Guest-friendship with Athens",
+    "lydia-685bc-546bc::x3": "Alliances against Cyrus",
+    "lydia-685bc-546bc::w1": "The Cimmerian shock",
+    "lydia-685bc-546bc::w2": "A four-power balance",
+    "lydia-685bc-546bc::w3": "The end of the Mermnads",
+    "lydia-685bc-546bc::l1": "Candaules's queen",
+    "lydia-685bc-546bc::l2": "Daughters who earned their dowries",
+    "lydia-685bc-546bc::l3": "The Lydians made soft",
     "magan-1200bc-300bc::k5": "The Iron Age settlement boom",
     "magan-1200bc-300bc::k6": "The peninsula as the satrapy of Maka",
     "magan-1200bc-300bc::c3": "The burning of the columned hall at Muweilah",
@@ -8423,11 +8465,17 @@
     ],
     "achaemenid-550bc-330bc::c1": [
       "ionia-1050bc-494bc::c4",
+      "lydia-685bc-546bc::c4",
       "mesopotamia-539bc-331bc::k1"
     ],
     "ionia-1050bc-494bc::c4": [
       "achaemenid-550bc-330bc::c1",
-      "babylon-1155bc-539bc::xc4"
+      "babylon-1155bc-539bc::xc4",
+      "lydia-685bc-546bc::c4"
+    ],
+    "lydia-685bc-546bc::c4": [
+      "achaemenid-550bc-330bc::c1",
+      "ionia-1050bc-494bc::c4"
     ],
     "achaemenid-550bc-330bc::c3": [
       "ionia-1050bc-494bc::c5",
@@ -8998,10 +9046,15 @@
       "assyria-911bc-609bc::k8"
     ],
     "assyria-911bc-609bc::k9": [
-      "elam-1100bc-539bc::c4"
+      "elam-1100bc-539bc::c4",
+      "lydia-685bc-546bc::x1"
     ],
     "elam-1100bc-539bc::c4": [
       "assyria-911bc-609bc::k9"
+    ],
+    "lydia-685bc-546bc::x1": [
+      "assyria-911bc-609bc::k9",
+      "egypt-664bc-332bc::k1"
     ],
     "assyria-911bc-609bc::k10": [
       "babylon-1155bc-539bc::k7"
@@ -9605,7 +9658,12 @@
       "babylon-1155bc-539bc::xc3"
     ],
     "babylon-1155bc-539bc::xc4": [
-      "ionia-1050bc-494bc::c4"
+      "ionia-1050bc-494bc::c4",
+      "lydia-685bc-546bc::x3"
+    ],
+    "lydia-685bc-546bc::x3": [
+      "babylon-1155bc-539bc::xc4",
+      "egypt-664bc-332bc::k5"
     ],
     "babylon-1155bc-539bc::xc5": [
       "levant-539bc-332bc::p1",
@@ -10897,7 +10955,8 @@
     "egypt-664bc-332bc::k1": [
       "egypt-1200bc-664bc::k20",
       "egypt-1200bc-664bc::xc6",
-      "ionia-1050bc-494bc::x4"
+      "ionia-1050bc-494bc::x4",
+      "lydia-685bc-546bc::x1"
     ],
     "egypt-1200bc-664bc::c1": [
       "egypt-1550bc-1200bc::w4",
@@ -12605,6 +12664,9 @@
     "egypt-664bc-332bc::k3": [
       "ionia-1050bc-494bc::x4"
     ],
+    "egypt-664bc-332bc::k5": [
+      "lydia-685bc-546bc::x3"
+    ],
     "egypt-664bc-332bc::k8": [
       "mesopotamia-539bc-331bc::k2"
     ],
@@ -13125,11 +13187,38 @@
     "ilkhanate-1219-1335::c5": [
       "mamluks-1250-1517::c1"
     ],
+    "ionia-1050bc-494bc::p3": [
+      "lydia-685bc-546bc::p4"
+    ],
+    "lydia-685bc-546bc::p4": [
+      "ionia-1050bc-494bc::p3",
+      "ionia-1050bc-494bc::c3",
+      "ionia-1050bc-494bc::c2"
+    ],
+    "ionia-1050bc-494bc::p5": [
+      "lydia-685bc-546bc::p5"
+    ],
+    "lydia-685bc-546bc::p5": [
+      "ionia-1050bc-494bc::p5"
+    ],
+    "ionia-1050bc-494bc::c3": [
+      "lydia-685bc-546bc::p4"
+    ],
+    "ionia-1050bc-494bc::c2": [
+      "lydia-685bc-546bc::p4"
+    ],
     "ionia-1050bc-494bc::t1": [
       "media-728bc-550bc::c4"
     ],
     "media-728bc-550bc::c4": [
-      "ionia-1050bc-494bc::t1"
+      "ionia-1050bc-494bc::t1",
+      "lydia-685bc-546bc::c2"
+    ],
+    "ionia-1050bc-494bc::ec1": [
+      "lydia-685bc-546bc::ec1"
+    ],
+    "lydia-685bc-546bc::ec1": [
+      "ionia-1050bc-494bc::ec1"
     ],
     "iraq-945-1258::k3": [
       "iran-1055-1219::p3",
@@ -14310,6 +14399,15 @@
     "palestine-1948-today::p1": [
       "mandate-palestine-transjordan-1920-1948::t2"
     ],
+    "lydia-685bc-546bc::c2": [
+      "media-728bc-550bc::c4"
+    ],
+    "media-728bc-550bc::x2": [
+      "lydia-685bc-546bc::x2"
+    ],
+    "lydia-685bc-546bc::x2": [
+      "media-728bc-550bc::x2"
+    ],
     "mesopotamia-141bc-224::k1": [
       "mesopotamia-331bc-141bc::c6",
       "parthia-148bc-224::p1",
@@ -15014,6 +15112,18 @@
     ],
     "sassanid-224-484::c1": [
       "parthia-148bc-224::c6"
+    ],
+    "phrygia-1200bc-675bc::c5": [
+      "lydia-685bc-546bc::c1"
+    ],
+    "lydia-685bc-546bc::c1": [
+      "phrygia-1200bc-675bc::c5"
+    ],
+    "phrygia-1200bc-675bc::w3": [
+      "lydia-685bc-546bc::w1"
+    ],
+    "lydia-685bc-546bc::w1": [
+      "phrygia-1200bc-675bc::w3"
     ],
     "portuguese-gulf-1507-1650::k4": [
       "safavid-1501-1722::w1"
@@ -40108,6 +40218,175 @@
       "Burial",
       "Bronze Age"
     ],
+    "lydia-685bc-546bc::p1": [
+      "Heraclid",
+      "Sardis"
+    ],
+    "lydia-685bc-546bc::p2": [
+      "Mermnad",
+      "Sardis",
+      "Gyges",
+      "Gugu of Luddi"
+    ],
+    "lydia-685bc-546bc::p3": [
+      "Mermnad",
+      "Sardis",
+      "Ardys",
+      "Sadyattes"
+    ],
+    "lydia-685bc-546bc::p4": [
+      "Mermnad",
+      "Sardis",
+      "Alyattes",
+      "Cyaxares of Media",
+      "Astyages of Media",
+      "Bin Tepe"
+    ],
+    "lydia-685bc-546bc::p5": [
+      "Mermnad",
+      "Sardis",
+      "Croesus"
+    ],
+    "lydia-685bc-546bc::c1": [
+      "Sardis",
+      "Cimmerians"
+    ],
+    "lydia-685bc-546bc::c2": [
+      "Halys",
+      "Eclipse",
+      "Near Eastern"
+    ],
+    "lydia-685bc-546bc::c3": [
+      "Pteria",
+      "Thymbra",
+      "There the Lydian"
+    ],
+    "lydia-685bc-546bc::c4": [
+      "Sardis"
+    ],
+    "lydia-685bc-546bc::c5": [
+      "Sardis",
+      "Pactyes"
+    ],
+    "lydia-685bc-546bc::o1": [
+      "Delphi"
+    ],
+    "lydia-685bc-546bc::o2": [
+      "Sardis",
+      "Croesus"
+    ],
+    "lydia-685bc-546bc::b1": [
+      "Kybebe",
+      "Pactolus",
+      "Artemis of Sardis"
+    ],
+    "lydia-685bc-546bc::b2": [
+      "Delphi",
+      "Croesus"
+    ],
+    "lydia-685bc-546bc::e4": [
+      "Miletus",
+      "Marching"
+    ],
+    "lydia-685bc-546bc::e2": [
+      "Uşak Güre",
+      "Lydian Hoard",
+      "Metropolitan Museum of Art"
+    ],
+    "lydia-685bc-546bc::e3": [
+      "Sardis"
+    ],
+    "lydia-685bc-546bc::e1": [
+      "Bin Tepe",
+      "Alyattes",
+      "North of Sardis"
+    ],
+    "lydia-685bc-546bc::e5": [
+      "Louvre",
+      "Croesus"
+    ],
+    "lydia-685bc-546bc::t1": [
+      "Sardis",
+      "Lydian",
+      "Anatolian Indo-European"
+    ],
+    "lydia-685bc-546bc::t2": [
+      "Sardis",
+      "Solon",
+      "Croesus"
+    ],
+    "lydia-685bc-546bc::ec2": [
+      "Pactolus",
+      "Mount Tmolus"
+    ],
+    "lydia-685bc-546bc::ec1": [
+      "Sardis",
+      "Ephesian Artemision"
+    ],
+    "lydia-685bc-546bc::ec3": [
+      "Sardis"
+    ],
+    "lydia-685bc-546bc::ec4": [
+      "Sardis",
+      "Croesus"
+    ],
+    "lydia-685bc-546bc::g2": [
+      "Sardis"
+    ],
+    "lydia-685bc-546bc::g1": [
+      "Sardis",
+      "Pactolus North"
+    ],
+    "lydia-685bc-546bc::x1": [
+      "Nineveh",
+      "Gyges",
+      "Ashurbanipal",
+      "Gugu of Luddi",
+      "Psamtik I"
+    ],
+    "lydia-685bc-546bc::x2": [
+      "Halys",
+      "Syennesis of Cilicia",
+      "Labynetus of Babylon"
+    ],
+    "lydia-685bc-546bc::x4": [
+      "Sardis",
+      "Delphi",
+      "Guest-friendship",
+      "Athens"
+    ],
+    "lydia-685bc-546bc::x3": [
+      "Sardis",
+      "Alliances",
+      "Cyrus",
+      "Halys Croesus",
+      "Amasis of Egypt",
+      "Labynetus of Babylon Nabonidus"
+    ],
+    "lydia-685bc-546bc::w1": [
+      "Anatolia",
+      "Cimmerian"
+    ],
+    "lydia-685bc-546bc::w2": [
+      "Near East"
+    ],
+    "lydia-685bc-546bc::w3": [
+      "Sardis",
+      "Mermnads",
+      "Royal Road"
+    ],
+    "lydia-685bc-546bc::l1": [
+      "Sardis",
+      "Candaules"
+    ],
+    "lydia-685bc-546bc::l2": [
+      "Sardis",
+      "Daughters"
+    ],
+    "lydia-685bc-546bc::l3": [
+      "Sardis",
+      "Lydians"
+    ],
     "magan-1200bc-300bc::k5": [
       "Rumeilah",
       "Muweilah",
@@ -58418,7 +58697,8 @@
       "achaemenid-550bc-330bc::p1"
     ],
     "Astyages of Media": [
-      "achaemenid-550bc-330bc::p1"
+      "achaemenid-550bc-330bc::p1",
+      "lydia-685bc-546bc::p4"
     ],
     "Memphis": [
       "achaemenid-550bc-330bc::p2",
@@ -58542,6 +58822,7 @@
       "achaemenid-550bc-330bc::x3",
       "achaemenid-550bc-330bc::w4",
       "egypt-664bc-332bc::xc6",
+      "lydia-685bc-546bc::w3",
       "seleucid-iran-330bc-148bc::ec1"
     ],
     "Xerxes I": [
@@ -58945,6 +59226,29 @@
       "ionia-1050bc-494bc::o4",
       "ionia-1050bc-494bc::o5",
       "ionia-1050bc-494bc::w2",
+      "lydia-685bc-546bc::p1",
+      "lydia-685bc-546bc::p2",
+      "lydia-685bc-546bc::p3",
+      "lydia-685bc-546bc::p4",
+      "lydia-685bc-546bc::p5",
+      "lydia-685bc-546bc::c1",
+      "lydia-685bc-546bc::c4",
+      "lydia-685bc-546bc::c5",
+      "lydia-685bc-546bc::o2",
+      "lydia-685bc-546bc::e3",
+      "lydia-685bc-546bc::t1",
+      "lydia-685bc-546bc::t2",
+      "lydia-685bc-546bc::ec1",
+      "lydia-685bc-546bc::ec3",
+      "lydia-685bc-546bc::ec4",
+      "lydia-685bc-546bc::g2",
+      "lydia-685bc-546bc::g1",
+      "lydia-685bc-546bc::x4",
+      "lydia-685bc-546bc::x3",
+      "lydia-685bc-546bc::w3",
+      "lydia-685bc-546bc::l1",
+      "lydia-685bc-546bc::l2",
+      "lydia-685bc-546bc::l3",
       "media-728bc-550bc::x2"
     ],
     "Babylon": [
@@ -59053,6 +59357,7 @@
       "kanesh-2000bc-1650bc::o3",
       "levant-neolithic-10000bc-2000bc::p3",
       "levant-neolithic-10000bc-2000bc::tc2",
+      "lydia-685bc-546bc::w2",
       "magan-1200bc-300bc::tc1",
       "magan-3000bc-1200bc::ec6",
       "magan-3000bc-1200bc::w2",
@@ -59810,6 +60115,7 @@
     "Athens": [
       "achaemenid-550bc-330bc::x1",
       "ionia-1050bc-494bc::e6",
+      "lydia-685bc-546bc::x4",
       "palmyrene-100bc-273ce::t1",
       "rome-200-300::c6",
       "rome-200-300::t4",
@@ -62048,6 +62354,7 @@
       "france-1715-1789::a4",
       "lakhmid-268-602::w4",
       "levant-neolithic-10000bc-2000bc::e1",
+      "lydia-685bc-546bc::e5",
       "palmyrene-100bc-273ce::a2"
     ],
     "Paris": [
@@ -62818,6 +63125,7 @@
       "iran-1055-1219::w1",
       "iran-1335-1501::c4",
       "iran-1335-1501::c5",
+      "lydia-685bc-546bc::w1",
       "media-728bc-550bc::c4",
       "mesopotamia-6500bc-3800bc::xc1",
       "najd-300bc-632::k6",
@@ -65002,6 +65310,7 @@
       "gulf-prehistory-8000bc-3000bc::x2",
       "hejaz-prehistory-8000bc-1200bc::ex1",
       "levant-539bc-332bc::l2",
+      "lydia-685bc-546bc::c2",
       "mesopotamia-6500bc-3800bc::x2",
       "mesopotamia-6500bc-3800bc::w2",
       "palmyrene-100bc-273ce::lv1",
@@ -65371,7 +65680,8 @@
     ],
     "Ashurbanipal": [
       "assyria-911bc-609bc::k9",
-      "dilmun-1200bc-600bc::k6"
+      "dilmun-1200bc-600bc::k6",
+      "lydia-685bc-546bc::x1"
     ],
     "Ashur-uballit II": [
       "assyria-911bc-609bc::k10"
@@ -65589,6 +65899,7 @@
       "elam-1100bc-539bc::e1",
       "elam-1100bc-539bc::e2",
       "israel-judah-1200bc-586bc::e1",
+      "lydia-685bc-546bc::x1",
       "media-728bc-550bc::c1",
       "media-728bc-550bc::w1",
       "mesopotamia-2334bc-2004bc::x1",
@@ -67402,6 +67713,7 @@
     ],
     "Cyrus": [
       "babylon-1155bc-539bc::c6",
+      "lydia-685bc-546bc::x3",
       "mesopotamia-539bc-331bc::k1"
     ],
     "Borsippa": [
@@ -80829,7 +81141,8 @@
       "egypt-664bc-332bc::k1",
       "egypt-664bc-332bc::c1",
       "egypt-664bc-332bc::o1",
-      "ionia-1050bc-494bc::x4"
+      "ionia-1050bc-494bc::x4",
+      "lydia-685bc-546bc::x1"
     ],
     "Sais": [
       "egypt-664bc-332bc::k2",
@@ -87866,7 +88179,8 @@
       "ionia-1050bc-494bc::g4",
       "ionia-1050bc-494bc::x1",
       "ionia-1050bc-494bc::w3",
-      "ionia-1050bc-494bc::l1"
+      "ionia-1050bc-494bc::l1",
+      "lydia-685bc-546bc::e4"
     ],
     "Ionian": [
       "ionia-1050bc-494bc::p1",
@@ -87901,10 +88215,20 @@
       "ionia-1050bc-494bc::p4"
     ],
     "Mermnad": [
-      "ionia-1050bc-494bc::p5"
+      "ionia-1050bc-494bc::p5",
+      "lydia-685bc-546bc::p2",
+      "lydia-685bc-546bc::p3",
+      "lydia-685bc-546bc::p4",
+      "lydia-685bc-546bc::p5"
     ],
     "Croesus": [
-      "ionia-1050bc-494bc::p5"
+      "ionia-1050bc-494bc::p5",
+      "lydia-685bc-546bc::p5",
+      "lydia-685bc-546bc::o2",
+      "lydia-685bc-546bc::b2",
+      "lydia-685bc-546bc::e5",
+      "lydia-685bc-546bc::t2",
+      "lydia-685bc-546bc::ec4"
     ],
     "Histiaios": [
       "ionia-1050bc-494bc::p7"
@@ -87917,10 +88241,13 @@
       "seleucid-iran-330bc-148bc::c5"
     ],
     "Cimmerian": [
-      "ionia-1050bc-494bc::c1"
+      "ionia-1050bc-494bc::c1",
+      "lydia-685bc-546bc::w1"
     ],
     "Alyattes": [
-      "ionia-1050bc-494bc::c3"
+      "ionia-1050bc-494bc::c3",
+      "lydia-685bc-546bc::p4",
+      "lydia-685bc-546bc::e1"
     ],
     "Harpagus": [
       "ionia-1050bc-494bc::c4"
@@ -88088,7 +88415,8 @@
       "ionia-1050bc-494bc::w1"
     ],
     "Lydian": [
-      "ionia-1050bc-494bc::w2"
+      "ionia-1050bc-494bc::w2",
+      "lydia-685bc-546bc::t1"
     ],
     "Croesus the Persian Empire": [
       "ionia-1050bc-494bc::w2"
@@ -93614,6 +93942,135 @@
     "Burial": [
       "levant-neolithic-10000bc-2000bc::l2"
     ],
+    "Heraclid": [
+      "lydia-685bc-546bc::p1"
+    ],
+    "Gyges": [
+      "lydia-685bc-546bc::p2",
+      "lydia-685bc-546bc::x1"
+    ],
+    "Gugu of Luddi": [
+      "lydia-685bc-546bc::p2",
+      "lydia-685bc-546bc::x1"
+    ],
+    "Ardys": [
+      "lydia-685bc-546bc::p3"
+    ],
+    "Sadyattes": [
+      "lydia-685bc-546bc::p3"
+    ],
+    "Cyaxares of Media": [
+      "lydia-685bc-546bc::p4"
+    ],
+    "Bin Tepe": [
+      "lydia-685bc-546bc::p4",
+      "lydia-685bc-546bc::e1"
+    ],
+    "Cimmerians": [
+      "lydia-685bc-546bc::c1",
+      "phrygia-1200bc-675bc::c5",
+      "phrygia-1200bc-675bc::w3"
+    ],
+    "Halys": [
+      "lydia-685bc-546bc::c2",
+      "lydia-685bc-546bc::x2",
+      "media-728bc-550bc::c4"
+    ],
+    "Eclipse": [
+      "lydia-685bc-546bc::c2",
+      "media-728bc-550bc::c4"
+    ],
+    "Pteria": [
+      "lydia-685bc-546bc::c3"
+    ],
+    "Thymbra": [
+      "lydia-685bc-546bc::c3"
+    ],
+    "There the Lydian": [
+      "lydia-685bc-546bc::c3"
+    ],
+    "Pactyes": [
+      "lydia-685bc-546bc::c5"
+    ],
+    "Delphi": [
+      "lydia-685bc-546bc::o1",
+      "lydia-685bc-546bc::b2",
+      "lydia-685bc-546bc::x4",
+      "phrygia-1200bc-675bc::x2"
+    ],
+    "Kybebe": [
+      "lydia-685bc-546bc::b1"
+    ],
+    "Pactolus": [
+      "lydia-685bc-546bc::b1",
+      "lydia-685bc-546bc::ec2"
+    ],
+    "Artemis of Sardis": [
+      "lydia-685bc-546bc::b1"
+    ],
+    "Marching": [
+      "lydia-685bc-546bc::e4"
+    ],
+    "Uşak Güre": [
+      "lydia-685bc-546bc::e2"
+    ],
+    "Lydian Hoard": [
+      "lydia-685bc-546bc::e2"
+    ],
+    "Metropolitan Museum of Art": [
+      "lydia-685bc-546bc::e2"
+    ],
+    "North of Sardis": [
+      "lydia-685bc-546bc::e1"
+    ],
+    "Anatolian Indo-European": [
+      "lydia-685bc-546bc::t1"
+    ],
+    "Solon": [
+      "lydia-685bc-546bc::t2"
+    ],
+    "Mount Tmolus": [
+      "lydia-685bc-546bc::ec2"
+    ],
+    "Ephesian Artemision": [
+      "lydia-685bc-546bc::ec1"
+    ],
+    "Pactolus North": [
+      "lydia-685bc-546bc::g1"
+    ],
+    "Syennesis of Cilicia": [
+      "lydia-685bc-546bc::x2"
+    ],
+    "Labynetus of Babylon": [
+      "lydia-685bc-546bc::x2"
+    ],
+    "Guest-friendship": [
+      "lydia-685bc-546bc::x4"
+    ],
+    "Alliances": [
+      "lydia-685bc-546bc::x3"
+    ],
+    "Halys Croesus": [
+      "lydia-685bc-546bc::x3"
+    ],
+    "Amasis of Egypt": [
+      "lydia-685bc-546bc::x3"
+    ],
+    "Labynetus of Babylon Nabonidus": [
+      "lydia-685bc-546bc::x3"
+    ],
+    "Mermnads": [
+      "lydia-685bc-546bc::w3"
+    ],
+    "Candaules": [
+      "lydia-685bc-546bc::l1"
+    ],
+    "Daughters": [
+      "lydia-685bc-546bc::l2"
+    ],
+    "Lydians": [
+      "lydia-685bc-546bc::l3"
+    ],
     "Rumeilah": [
       "magan-1200bc-300bc::k5",
       "magan-1200bc-300bc::o3",
@@ -94735,12 +95192,6 @@
     "Overthrow": [
       "media-728bc-550bc::c2",
       "pahlavi-1925-1979::p3"
-    ],
-    "Halys": [
-      "media-728bc-550bc::c4"
-    ],
-    "Eclipse": [
-      "media-728bc-550bc::c4"
     ],
     "Cyrus Revolt": [
       "media-728bc-550bc::c5"
@@ -98987,10 +99438,6 @@
     "Gurdi of Kulummu": [
       "phrygia-1200bc-675bc::c4"
     ],
-    "Cimmerians": [
-      "phrygia-1200bc-675bc::c5",
-      "phrygia-1200bc-675bc::w3"
-    ],
     "Late Greek": [
       "phrygia-1200bc-675bc::c5"
     ],
@@ -99066,9 +99513,6 @@
     ],
     "Mita": [
       "phrygia-1200bc-675bc::x1"
-    ],
-    "Delphi": [
-      "phrygia-1200bc-675bc::x2"
     ],
     "Rusa I of Urartu": [
       "phrygia-1200bc-675bc::w3"

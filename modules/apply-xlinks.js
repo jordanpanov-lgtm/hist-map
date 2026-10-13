@@ -1499,6 +1499,21 @@ const SELECTED_PAIRS = [
   ['ionia-1050bc-494bc::t1', 'media-728bc-550bc::c4'],      // the battle of the eclipse
   ['ionia-1050bc-494bc::c4', 'babylon-1155bc-539bc::xc4'],      // the gathering of Persia and Croesus
   ['ionia-1050bc-494bc::p1', 'hittite-1650bc-1180bc::x4'],      // Millawanda and Ahhiyawa before the Ionians
+  ['lydia-685bc-546bc::p5', 'ionia-1050bc-494bc::p5'],      // Croesus and the Ionian cities
+  ['lydia-685bc-546bc::p4', 'ionia-1050bc-494bc::p3'],      // Alyattes and Thrasybulus of Miletus
+  ['lydia-685bc-546bc::p4', 'ionia-1050bc-494bc::c3'],      // Alyattes' war on Miletus
+  ['lydia-685bc-546bc::p4', 'ionia-1050bc-494bc::c2'],      // Alyattes takes Smyrna
+  ['lydia-685bc-546bc::ec1', 'ionia-1050bc-494bc::ec1'],      // the first coins
+  ['lydia-685bc-546bc::c4', 'ionia-1050bc-494bc::c4'],      // Sardis and the conquest of the Ionian cities
+  ['lydia-685bc-546bc::c1', 'phrygia-1200bc-675bc::c5'],      // the Cimmerians at Gordion and Sardis
+  ['lydia-685bc-546bc::w1', 'phrygia-1200bc-675bc::w3'],      // the Cimmerian shock
+  ['lydia-685bc-546bc::c2', 'media-728bc-550bc::c4'],      // the battle of the Eclipse
+  ['lydia-685bc-546bc::x2', 'media-728bc-550bc::x2'],      // the marriage alliance with Lydia
+  ['lydia-685bc-546bc::c4', 'achaemenid-550bc-330bc::c1'],      // Cyrus conquers Lydia
+  ['lydia-685bc-546bc::x3', 'babylon-1155bc-539bc::xc4'],      // Croesus's alliances and the gathering of Persia
+  ['lydia-685bc-546bc::x3', 'egypt-664bc-332bc::k5'],      // Amasis and the Lydian alliance
+  ['lydia-685bc-546bc::x1', 'assyria-911bc-609bc::k9'],      // Ashurbanipal receives the envoys of Gyges
+  ['lydia-685bc-546bc::x1', 'egypt-664bc-332bc::k1'],      // Gyges's troops to Psamtik I
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
