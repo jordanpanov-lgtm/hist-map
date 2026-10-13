@@ -225,5 +225,6 @@ const MODULES = [
   { id:"cilician-armenia-1080-1375", file:"modules/cilician-armenia-1080-1375.json", label:"Cilician Armenia 1080–1375", sub:"The Rubenids, the Hethumids and the Lusignans between Crusaders, Mongols and Mamluks", region:"Turkey", period:"Medieval" },
   { id:"trebizond-1204-1461", file:"modules/trebizond-1204-1461.json", label:"Empire of Trebizond 1204–1461", sub:"The Grand Komnenoi, the Black Sea Trade and the Last Greek Empire", region:"Turkey", period:"Medieval" },
   { id:"anatolian-beyliks-1308-1500", file:"modules/anatolian-beyliks-1308-1500.json", label:"Anatolian Beyliks 1308–1500", sub:"Karamanids, Germiyan, Aydın and the Rise of the Ottomans", region:"Turkey", period:"Medieval" },
+  { id:"ottoman-anatolia-1500-1800", file:"modules/ottoman-anatolia-1500-1800.json", label:"Ottoman Anatolia 1500–1800", sub:"The Kızılbaş, the Celali Revolts, the Provincial Notables and the Ports of the Levant", region:"Turkey", period:"Early Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

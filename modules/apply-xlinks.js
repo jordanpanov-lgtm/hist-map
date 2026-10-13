@@ -1648,6 +1648,23 @@ const SELECTED_PAIRS = [
   ['anatolian-beyliks-1308-1500::p7', 'trebizond-1204-1461::c5'],      // Turkmen raids and the Black Sea beyliks
   ['anatolian-beyliks-1308-1500::c2', 'crusader-states-1099-1291::p8'],      // the last crusading enterprises
   ['anatolian-beyliks-1308-1500::x2', 'mamluks-1250-1517::ec6'],      // the Venetian and Genoese factories
+  ['ottoman-anatolia-1500-1800::c2', 'safavid-1501-1722::c1'],      // the battle of Chaldiran
+  ['ottoman-anatolia-1500-1800::p1', 'safavid-1501-1722::p1'],      // Ismail I and Selim I
+  ['ottoman-anatolia-1500-1800::p1', 'egypt-1517-1798::k1'],      // Selim I conquers Egypt
+  ['ottoman-anatolia-1500-1800::c5', 'safavid-1501-1722::c3'],      // Shah Abbas's reconquest and the later wars
+  ['ottoman-anatolia-1500-1800::c5', 'iraq-1534-1831::c1'],      // four changes of hands and the Treaty of Zuhab
+  ['ottoman-anatolia-1500-1800::x3', 'iraq-1534-1831::xc1'],      // the Ottoman–Persian border, fixed and disputed
+  ['ottoman-anatolia-1500-1800::x3', 'iraq-1258-1534::xc4'],      // the making of the Ottoman–Safavid frontier
+  ['ottoman-anatolia-1500-1800::b1', 'safavid-1501-1722::p1'],      // the Safavid order and the Kizilbash of Anatolia
+  ['ottoman-anatolia-1500-1800::c1', 'iran-1335-1501::b1'],      // the Safavid order's beginnings and its Anatolian following
+  ['ottoman-anatolia-1500-1800::x1', 'ottoman-syria-1516-1800::x1'],      // French capitulations and consular trade
+  ['ottoman-anatolia-1500-1800::x1', 'egypt-1517-1798::xc4'],      // the European merchants and the capitulations
+  ['ottoman-anatolia-1500-1800::x1', 'france-1610-1715::ex3'],      // Compagnie du Levant and the Ottoman trade
+  ['ottoman-anatolia-1500-1800::x2', 'portuguese-gulf-1507-1650::x3'],      // the Armenians of New Julfa
+  ['ottoman-anatolia-1500-1800::ec1', 'portuguese-gulf-1507-1650::ec1'],      // the battle over the Persian silk route
+  ['ottoman-anatolia-1500-1800::p5', 'ottoman-syria-1516-1800::p1'],      // the Ottoman provincial notables
+  ['ottoman-anatolia-1500-1800::p5', 'iraq-1534-1831::k5'],      // the Mamluk pashas of Baghdad and the ayans
+  ['ottoman-anatolia-1500-1800::l3', 'iraq-1534-1831::b6'],      // Jews of the Ottoman cities
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
