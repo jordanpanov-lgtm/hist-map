@@ -1453,6 +1453,29 @@ const SELECTED_PAIRS = [
   ['kanesh-2000bc-1650bc::p5', 'babylon-2004bc-1595bc::k4'],      // Shamshi-Adad and his Upper Mesopotamian kingdom
   ['kanesh-2000bc-1650bc::l1', 'babylon-2004bc-1595bc::l3'],      // merchant wives in Assur
   ['kanesh-2000bc-1650bc::x2', 'anatolia-3000bc-2000bc::ec1'],      // the tin question: Taurus workings and the tin route from the east
+  ['hittite-1650bc-1180bc::c2', 'babylon-2004bc-1595bc::c6'],      // Mursili I sacks Babylon
+  ['hittite-1650bc-1180bc::c2', 'babylon-2004bc-1595bc::k11'],      // Samsu-ditana and the Hittite sack
+  ['hittite-1650bc-1180bc::c7', 'egypt-1550bc-1200bc::c6'],      // the battle of Kadesh from both sides
+  ['hittite-1650bc-1180bc::x1', 'egypt-1550bc-1200bc::c7'],      // the Egyptian–Hittite treaty
+  ['hittite-1650bc-1180bc::p10', 'egypt-1550bc-1200bc::k17'],      // Hattusili III and Ramesses II: the peace
+  ['hittite-1650bc-1180bc::x2', 'egypt-1550bc-1200bc::k13'],      // the widow of Tutankhamun writes to Suppiluliuma
+  ['hittite-1650bc-1180bc::x3', 'egypt-1550bc-1200bc::xc1'],      // the Amarna letters and the great kings
+  ['hittite-1650bc-1180bc::x3', 'canaan-2000bc-1200bc::w1'],      // the Great Powers club
+  ['hittite-1650bc-1180bc::x3', 'babylon-1595bc-1155bc::o4'],      // rules of the Great Kings club
+  ['hittite-1650bc-1180bc::l1', 'egypt-1550bc-1200bc::xc2'],      // marriage diplomacy with Egypt
+  ['hittite-1650bc-1180bc::x6', 'canaan-2000bc-1200bc::ec1'],      // the Uluburun ship cargo
+  ['hittite-1650bc-1180bc::x6', 'egypt-1550bc-1200bc::xc5'],      // the Uluburun ship
+  ['hittite-1650bc-1180bc::c8', 'assyria-1400bc-1050bc::c2'],      // Nihriya from the Hittite side
+  ['hittite-1650bc-1180bc::c5', 'assyria-1400bc-1050bc::c1'],      // the fall of Mitanni
+  ['hittite-1650bc-1180bc::w1', 'assyria-1400bc-1050bc::k3'],      // Assyria absorbs Mitanni
+  ['hittite-1650bc-1180bc::c9', 'assyria-1400bc-1050bc::xc3'],      // the Hittite frontier and the fall of Hatti
+  ['hittite-1650bc-1180bc::w4', 'egypt-1550bc-1200bc::w1'],      // the end of the Bronze Age
+  ['hittite-1650bc-1180bc::w4', 'canaan-2000bc-1200bc::w2'],      // the collapse that ended an age
+  ['hittite-1650bc-1180bc::w4', 'babylon-1595bc-1155bc::w4'],      // the Bronze Age crisis
+  ['hittite-1650bc-1180bc::w3', 'egypt-1550bc-1200bc::w5'],      // the drying of the eastern Mediterranean
+  ['hittite-1650bc-1180bc::p13', 'north-syria-1200bc-717bc::p1'],      // the Carchemish line after Hattusa
+  ['hittite-1650bc-1180bc::g5', 'north-syria-1200bc-717bc::tc1'],      // iron: not a guarded Hittite secret
+  ['hittite-1650bc-1180bc::p1', 'kanesh-2000bc-1650bc::p6'],      // Hattusili as heir of the Kussaran kings and the curse on Hattusa
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
