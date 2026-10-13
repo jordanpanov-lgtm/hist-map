@@ -1614,6 +1614,16 @@ const SELECTED_PAIRS = [
   ['seljuks-of-rum-1071-1308::w3', 'caliphate-945-1258::w5'],      // the Mongol cataclysm
   ['seljuks-of-rum-1071-1308::ec1', 'ilkhanate-1219-1335::ec1'],      // the Pax Mongolica's revived trade
   ['seljuks-of-rum-1071-1308::c9', 'byzantine-anatolia-867-1071::p9'],      // the Anatolian frontier society
+  ['cilician-armenia-1080-1375::c8', 'mamluks-1250-1517::c5'],      // the Mamluk conquest of Cilician Armenia
+  ['cilician-armenia-1080-1375::c6', 'mamluks-1250-1517::c5'],      // Baybars in Cilicia
+  ['cilician-armenia-1080-1375::x1', 'mamluks-1250-1517::ec6'],      // the Venetian and Genoese factories
+  ['cilician-armenia-1080-1375::w1', 'fatimids-909-1171::x2'],      // the Armenians come to Egypt
+  ['cilician-armenia-1080-1375::w1', 'byzantine-anatolia-867-1071::x3'],      // Senekerim and the cession of Vaspurakan
+  ['cilician-armenia-1080-1375::c5', 'ilkhanate-1219-1335::c5'],      // Ain Jalut and the Mongol alliance
+  ['cilician-armenia-1080-1375::x2', 'ilkhanate-1219-1335::p3'],      // Hulagu and the Ilkhanate
+  ['cilician-armenia-1080-1375::w2', 'crusader-states-1099-1291::p8'],      // the fall of Acre
+  ['cilician-armenia-1080-1375::ec1', 'seljuks-of-rum-1071-1308::ec1'],      // ports and the caravan trade
+  ['cilician-armenia-1080-1375::c2', 'seljuks-of-rum-1071-1308::p3'],      // Manuel I and Kilij Arslan II
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
