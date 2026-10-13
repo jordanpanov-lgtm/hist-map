@@ -1427,6 +1427,15 @@ const SELECTED_PAIRS = [
   ['qajar-1789-1925::x3', 'pahlavi-1925-1979::x3'],                     // the Goldsmid and McMahon Sistan awards -> the 1973 Helmand treaty built on them
   ['pahlavi-1925-1979::x3', 'iran-1979-today::ec3'],                    // the 1973 treaty -> the unratified treaty behind the Hamoun and Helmand dispute
   ['achaemenid-550bc-330bc::w4', 'seleucid-iran-330bc-148bc::c7'],      // Darius murdered by Bessus in Bactria -> Alexander's pursuit and the Spitamenes revolt
+  ['anatolia-10000bc-3000bc::x1', 'levant-neolithic-10000bc-2000bc::x1'],      // Cappadocian obsidian in the Levant
+  ['anatolia-10000bc-3000bc::x1', 'mesopotamia-6500bc-3800bc::xc1'],      // Anatolian obsidian reaching Mesopotamia
+  ['anatolia-10000bc-3000bc::x1', 'zagros-elam-8000bc-3200bc::x1'],      // Anatolian obsidian reaching Susiana
+  ['anatolia-10000bc-3000bc::b5', 'levant-neolithic-10000bc-2000bc::b1'],      // plastered skulls: Çatalhöyük and Jericho
+  ['anatolia-10000bc-3000bc::x5', 'uruk-3800bc-2900bc::p4'],      // Hacinebi enclave -> the Uruk expansion
+  ['anatolia-10000bc-3000bc::x5', 'uruk-3800bc-2900bc::c3'],      // Hacinebi enclave beside Habuba Kabira
+  ['anatolia-10000bc-3000bc::x4', 'mesopotamia-6500bc-3800bc::xc4'],      // Ubaid goods up the Euphrates to Cilicia
+  ['anatolia-10000bc-3000bc::o2', 'mesopotamia-6500bc-3800bc::o2'],      // stamp seals in Anatolia and the Mesopotamian north
+  ['anatolia-10000bc-3000bc::b6', 'mesopotamia-6500bc-3800bc::p3'],      // Halaf of Domuztepe -> the Halaf painted-pottery north
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

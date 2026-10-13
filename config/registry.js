@@ -207,5 +207,7 @@ const MODULES = [
   { id:"kuwait-1961-today",      file:"modules/kuwait-1961-today.json",      label:"Kuwait 1961–today", sub:"Independence, the Gulf's Parliament, the Iraqi Invasion, and the Frozen Rentier State", region:"SE Arabia", period:"Modern" },
   { id:"bahrain-1971-today",     file:"modules/bahrain-1971-today.json",     label:"Bahrain 1971–today", sub:"A Shiʿi-Majority Island under the Āl Khalīfa, the 2011 Uprising, and a Repression Stabilised", region:"SE Arabia", period:"Modern" },
   { id:"qatar-1971-today",       file:"modules/qatar-1971-today.json",       label:"Qatar 1971–today", sub:"Gas, Al Jazeera, the Blockade, the World Cup and the Mediator's Chair", region:"SE Arabia", period:"Modern" },
+  // ── ANATOLIA (Turkey zone — Anatolia · Thrace) ──
+  { id:"anatolia-10000bc-3000bc", file:"modules/anatolia-10000bc-3000bc.json", label:"Neolithic and Chalcolithic Anatolia 10,000–3,000 BC", sub:"Göbekli Tepe, Çatalhöyük and the First Palace at Arslantepe", region:"Turkey", period:"Prehistoric" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
