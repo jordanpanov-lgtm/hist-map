@@ -235,5 +235,6 @@ const MODULES = [
   { id:"caucasus-3500bc-1200bc", file:"modules/caucasus-3500bc-1200bc.json", label:"Kura–Araxes and the Bronze Age Caucasus 3,500–1,200 BC", sub:"Shengavit, the Trialeti Kurgans and the Wagons of Lchashen", region:"Caucasus", period:"Prehistoric" },
   { id:"urartu-colchis-1200bc-585bc", file:"modules/urartu-colchis-1200bc-585bc.json", label:"Urartu and Colchis 1,200–585 BC", sub:"Biainili, the Fortress Kings of Lake Van, Diauehi and the Land of the Golden Fleece", region:"Caucasus", period:"Ancient" },
   { id:"achaemenid-caucasus-585bc-330bc", file:"modules/achaemenid-caucasus-585bc-330bc.json", label:"Achaemenid and Orontid Caucasus 585–330 BC", sub:"Armina and Behistun, the Satraps of Armenia, Xenophon's March and the Colchian Coast", region:"Caucasus", period:"Ancient" },
+  { id:"hellenistic-caucasus-330bc-1bc", file:"modules/hellenistic-caucasus-330bc-1bc.json", label:"Hellenistic Caucasus 330–1 BC", sub:"Orontids and Artaxiads, Tigranes the Great, Pharnavazid Iberia and the Roman Arrival", region:"Caucasus", period:"Late Antique" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

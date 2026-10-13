@@ -1773,6 +1773,18 @@ const SELECTED_PAIRS = [
   ['achaemenid-caucasus-585bc-330bc::w1', 'achaemenid-550bc-330bc::w4'],      // the fall of the Achaemenid empire
   ['achaemenid-caucasus-585bc-330bc::p1', 'media-728bc-550bc::p3'],      // Cyaxares and the Median reach to the Halys
   ['achaemenid-caucasus-585bc-330bc::p1', 'media-728bc-550bc::w2'],      // Median territory at its height
+  ['hellenistic-caucasus-330bc-1bc::c1', 'seleucid-iran-330bc-148bc::p4'],      // Antiochus III and the reconquest of the East
+  ['hellenistic-caucasus-330bc-1bc::c2', 'seleucid-iran-330bc-148bc::c5'],      // the defeat of Antiochus III at Magnesia
+  ['hellenistic-caucasus-330bc-1bc::c2', 'hellenistic-anatolia-334bc-133bc::c8'],      // Magnesia
+  ['hellenistic-caucasus-330bc-1bc::p11', 'hellenistic-anatolia-334bc-133bc::p11'],      // the kingdom of Pontus
+  ['hellenistic-caucasus-330bc-1bc::p11', 'roman-anatolia-133bc-330::p2'],      // Mithridates VI Eupator
+  ['hellenistic-caucasus-330bc-1bc::c4', 'roman-anatolia-133bc-330::c4'],      // Lucullus and Pompey against Mithridates
+  ['hellenistic-caucasus-330bc-1bc::c5', 'roman-anatolia-133bc-330::p3'],      // Pompey's settlement of the East
+  ['hellenistic-caucasus-330bc-1bc::c6', 'parthia-148bc-224::c2'],      // the battle of Carrhae
+  ['hellenistic-caucasus-330bc-1bc::c7', 'parthia-148bc-224::c3'],      // Antony's Median campaign
+  ['hellenistic-caucasus-330bc-1bc::p7', 'parthia-148bc-224::p3'],      // Orodes II and Artavasdes
+  ['hellenistic-caucasus-330bc-1bc::x3', 'parthia-148bc-224::p2'],      // Mithridates II of Parthia
+  ['hellenistic-caucasus-330bc-1bc::p12', 'seleucid-iran-330bc-148bc::c6'],      // Mithridates I's conquest of Media
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
