@@ -1624,6 +1624,18 @@ const SELECTED_PAIRS = [
   ['cilician-armenia-1080-1375::w2', 'crusader-states-1099-1291::p8'],      // the fall of Acre
   ['cilician-armenia-1080-1375::ec1', 'seljuks-of-rum-1071-1308::ec1'],      // ports and the caravan trade
   ['cilician-armenia-1080-1375::c2', 'seljuks-of-rum-1071-1308::p3'],      // Manuel I and Kilij Arslan II
+  ['trebizond-1204-1461::c1', 'seljuks-of-rum-1071-1308::x4'],      // the treaty with Trebizond after Sinop
+  ['trebizond-1204-1461::c1', 'seljuks-of-rum-1071-1308::c7'],      // the ports taken on both seas
+  ['trebizond-1204-1461::c2', 'seljuks-of-rum-1071-1308::c8'],      // Köse Dağ and the Mongol overlordship
+  ['trebizond-1204-1461::c5', 'iran-1335-1501::p6'],      // the Qara Qoyunlu and Aq Qoyunlu
+  ['trebizond-1204-1461::x1', 'iran-1335-1501::p6'],      // the Aq Qoyunlu and marriages
+  ['trebizond-1204-1461::l2', 'iran-1335-1501::c4'],      // Uzun Hasan
+  ['trebizond-1204-1461::x2', 'iran-1335-1501::p2'],      // Timur
+  ['trebizond-1204-1461::t2', 'ilkhanate-1219-1335::t1'],      // the Maragheh observatory and Persian astronomy
+  ['trebizond-1204-1461::x3', 'mamluks-1250-1517::ec5'],      // the slave trade: the Black Sea, the Caucasus and Cairo
+  ['trebizond-1204-1461::c3', 'mamluks-1250-1517::ec6'],      // the Venetian and Genoese factories
+  ['trebizond-1204-1461::ec1', 'ilkhanate-1219-1335::ec1'],      // the Pax Mongolica's revived trade
+  ['trebizond-1204-1461::ec1', 'cilician-armenia-1080-1375::ec1'],      // Ayas and Trebizond as termini of the eastern trade
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
