@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 8185,
-    "folio_count": 170,
-    "xlink_pairs": 1661,
-    "keyword_terms": 12525,
+    "total_entries": 8227,
+    "folio_count": 171,
+    "xlink_pairs": 1677,
+    "keyword_terms": 12585,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -614,6 +614,11 @@
         "id": "ottoman-anatolia-1500-1800",
         "title": "Ottoman Anatolia",
         "entries": 45
+      },
+      {
+        "id": "ottoman-anatolia-1800-1908",
+        "title": "Late Ottoman Anatolia",
+        "entries": 42
       },
       {
         "id": "ottoman-syria-1516-1800",
@@ -6691,6 +6696,48 @@
     "ottoman-anatolia-1500-1800::l2": "The slaves of the Black Sea road",
     "ottoman-anatolia-1500-1800::l3": "The Jews of Izmir",
     "ottoman-anatolia-1500-1800::l1": "Women in the kadi's court",
+    "ottoman-anatolia-1800-1908::p1": "Mahmud II and the end of the ayans",
+    "ottoman-anatolia-1800-1908::p4": "The end of the Kurdish emirates",
+    "ottoman-anatolia-1800-1908::p2": "Reşid, Âli and Fuad Pasha",
+    "ottoman-anatolia-1800-1908::p3": "Ahmed Cevdet and the Fırka-i Islahiye",
+    "ottoman-anatolia-1800-1908::p5": "Abdülhamid II",
+    "ottoman-anatolia-1800-1908::c1": "Ibrahim Pasha in Anatolia",
+    "ottoman-anatolia-1800-1908::c2": "Kars and the war of 1877–1878",
+    "ottoman-anatolia-1800-1908::c5": "Sheikh Ubeydullah's rising",
+    "ottoman-anatolia-1800-1908::c4": "The Armenian revolutionary movement",
+    "ottoman-anatolia-1800-1908::c3": "The massacres of 1894–1896",
+    "ottoman-anatolia-1800-1908::o1": "The Gülhane edict",
+    "ottoman-anatolia-1800-1908::o2": "The Land Code of 1858",
+    "ottoman-anatolia-1800-1908::o6": "The Armenian National Constitution",
+    "ottoman-anatolia-1800-1908::o3": "The vilayet law",
+    "ottoman-anatolia-1800-1908::o4": "The constitution of 1876",
+    "ottoman-anatolia-1800-1908::o5": "The Public Debt and the tobacco Régie",
+    "ottoman-anatolia-1800-1908::b2": "The Catholic and Protestant millets",
+    "ottoman-anatolia-1800-1908::b1": "The American colleges in Anatolia",
+    "ottoman-anatolia-1800-1908::b3": "The Hamidian campaign among the Alevis",
+    "ottoman-anatolia-1800-1908::e1": "The houses of Safranbolu",
+    "ottoman-anatolia-1800-1908::e3": "Dadaloğlu",
+    "ottoman-anatolia-1800-1908::e4": "Komitas and the folk song",
+    "ottoman-anatolia-1800-1908::e2": "The sultan's photograph albums",
+    "ottoman-anatolia-1800-1908::t3": "The rediscovery of ancient Anatolia",
+    "ottoman-anatolia-1800-1908::t2": "The Young Ottomans",
+    "ottoman-anatolia-1800-1908::t1": "The Mecelle",
+    "ottoman-anatolia-1800-1908::ec1": "The Aydın and Anatolian railways",
+    "ottoman-anatolia-1800-1908::ec2": "Cotton and tobacco",
+    "ottoman-anatolia-1800-1908::ec4": "The famine of 1873–1875",
+    "ottoman-anatolia-1800-1908::ec3": "The carpet export boom",
+    "ottoman-anatolia-1800-1908::g1": "The telegraph and the steamer",
+    "ottoman-anatolia-1800-1908::x2": "The Anglo-Ottoman free trade convention",
+    "ottoman-anatolia-1800-1908::x1": "The muhacir",
+    "ottoman-anatolia-1800-1908::x3": "German capital and the Anatolian Railway",
+    "ottoman-anatolia-1800-1908::x4": "The Armenian emigration",
+    "ottoman-anatolia-1800-1908::w3": "The eastern question in Anatolia",
+    "ottoman-anatolia-1800-1908::w1": "Article 61 of the Treaty of Berlin",
+    "ottoman-anatolia-1800-1908::w2": "The census of 1881–1893",
+    "ottoman-anatolia-1800-1908::l4": "The Circassian slave trade and its abolition",
+    "ottoman-anatolia-1800-1908::l1": "The first schools for girls",
+    "ottoman-anatolia-1800-1908::l2": "The carpet weavers",
+    "ottoman-anatolia-1800-1908::l3": "Grace Kimball at Van",
     "ottoman-syria-1516-1800::p1": "The Ottoman Conquest Completes",
     "ottoman-syria-1516-1800::p2": "Fakhr al-Din II's Autonomous Druze Emirate",
     "ottoman-syria-1516-1800::p3": "The Shihabi Dynasty Succeeds the Ma'nids",
@@ -12432,7 +12479,8 @@
       "ottoman-syria-1800-1908::p1"
     ],
     "ottoman-syria-1800-1908::p1": [
-      "egypt-1798-1900::k3"
+      "egypt-1798-1900::k3",
+      "ottoman-anatolia-1800-1908::c1"
     ],
     "egypt-1798-1900::k8": [
       "egypt-1900-1952::k1"
@@ -12453,12 +12501,20 @@
       "egypt-1798-1900::c3",
       "najd-1744-1900::c6"
     ],
+    "egypt-1798-1900::c6": [
+      "ottoman-anatolia-1800-1908::c1"
+    ],
+    "ottoman-anatolia-1800-1908::c1": [
+      "egypt-1798-1900::c6",
+      "ottoman-syria-1800-1908::p1"
+    ],
     "egypt-1798-1900::o2": [
       "iraq-1831-1914::o1"
     ],
     "iraq-1831-1914::o1": [
       "egypt-1798-1900::o2",
-      "iraq-1534-1831::g1"
+      "iraq-1534-1831::g1",
+      "ottoman-anatolia-1800-1908::o3"
     ],
     "egypt-1900-1952::e4": [
       "egypt-1798-1900::o3",
@@ -12468,7 +12524,14 @@
     "iraq-1831-1914::o2": [
       "egypt-1798-1900::o3",
       "iraq-1534-1831::o3",
-      "iraq-1914-1958::o4"
+      "iraq-1914-1958::o4",
+      "ottoman-anatolia-1800-1908::o2"
+    ],
+    "egypt-1798-1900::o5": [
+      "ottoman-anatolia-1800-1908::o5"
+    ],
+    "ottoman-anatolia-1800-1908::o5": [
+      "egypt-1798-1900::o5"
     ],
     "egypt-1798-1900::o6": [
       "egypt-1900-1952::o1"
@@ -12577,7 +12640,8 @@
       "iraq-1831-1914::g1"
     ],
     "iraq-1831-1914::g1": [
-      "egypt-1798-1900::g2"
+      "egypt-1798-1900::g2",
+      "ottoman-anatolia-1800-1908::g1"
     ],
     "iraq-1831-1914::e5": [
       "egypt-1798-1900::xc1",
@@ -12594,6 +12658,12 @@
     ],
     "egypt-1900-1952::xc5": [
       "egypt-1798-1900::xc5"
+    ],
+    "egypt-1798-1900::xc6": [
+      "ottoman-anatolia-1800-1908::l4"
+    ],
+    "ottoman-anatolia-1800-1908::l4": [
+      "egypt-1798-1900::xc6"
     ],
     "egypt-1798-1900::l1": [
       "iraq-1831-1914::l1"
@@ -13866,7 +13936,8 @@
       "ottoman-syria-1800-1908::tc1"
     ],
     "ottoman-syria-1800-1908::p5": [
-      "hejaz-1517-1900::tc3"
+      "hejaz-1517-1900::tc3",
+      "ottoman-anatolia-1800-1908::p5"
     ],
     "ottoman-syria-1800-1908::tc1": [
       "hejaz-1517-1900::tc3",
@@ -14604,6 +14675,7 @@
     ],
     "ottoman-anatolia-1500-1800::p5": [
       "iraq-1534-1831::k5",
+      "ottoman-anatolia-1800-1908::p1",
       "ottoman-syria-1516-1800::p1"
     ],
     "iraq-1831-1914::k5": [
@@ -14634,7 +14706,8 @@
     ],
     "iraq-1831-1914::o6": [
       "iraq-1534-1831::o4",
-      "iraq-1914-1958::c5"
+      "iraq-1914-1958::c5",
+      "ottoman-anatolia-1800-1908::p4"
     ],
     "iraq-1831-1914::o4": [
       "iraq-1534-1831::o6"
@@ -14750,13 +14823,22 @@
     "iraq-1831-1914::c6": [
       "iraq-1914-1958::k1"
     ],
+    "ottoman-anatolia-1800-1908::o3": [
+      "iraq-1831-1914::o1"
+    ],
     "iraq-1914-1958::o4": [
       "iraq-1831-1914::o2",
       "iraq-1958-1979::o1"
     ],
+    "ottoman-anatolia-1800-1908::o2": [
+      "iraq-1831-1914::o2"
+    ],
     "iraq-1914-1958::c5": [
       "iraq-1831-1914::o6",
       "iraq-1958-1979::k7"
+    ],
+    "ottoman-anatolia-1800-1908::p4": [
+      "iraq-1831-1914::o6"
     ],
     "iraq-1831-1914::b2": [
       "iraq-2003-today::o5"
@@ -14768,6 +14850,13 @@
     "iraq-1914-1958::b2": [
       "iraq-1831-1914::b3",
       "iraq-1958-1979::t1"
+    ],
+    "iraq-1831-1914::b5": [
+      "ottoman-anatolia-1800-1908::b1"
+    ],
+    "ottoman-anatolia-1800-1908::b1": [
+      "iraq-1831-1914::b5",
+      "ottoman-syria-1800-1908::b1"
     ],
     "iraq-1914-1958::x1": [
       "iraq-1831-1914::x2",
@@ -14783,12 +14872,25 @@
       "iraq-1958-1979::xc2",
       "saudi-1902-today::o2"
     ],
+    "ottoman-anatolia-1800-1908::g1": [
+      "iraq-1831-1914::g1"
+    ],
+    "iraq-1831-1914::g2": [
+      "ottoman-anatolia-1800-1908::ec1"
+    ],
+    "ottoman-anatolia-1800-1908::ec1": [
+      "iraq-1831-1914::g2"
+    ],
     "iraq-1914-1958::e4": [
       "iraq-1831-1914::g3"
     ],
     "iraq-1831-1914::xc1": [
       "iraq-1914-1958::o1",
+      "ottoman-anatolia-1800-1908::x3",
       "trucial-gulf-1820-1900::w2"
+    ],
+    "ottoman-anatolia-1800-1908::x3": [
+      "iraq-1831-1914::xc1"
     ],
     "trucial-gulf-1820-1900::w2": [
       "iraq-1831-1914::xc1"
@@ -16316,6 +16418,9 @@
       "ottoman-anatolia-1500-1800::p1",
       "ottoman-anatolia-1500-1800::b1"
     ],
+    "ottoman-anatolia-1800-1908::p1": [
+      "ottoman-anatolia-1500-1800::p5"
+    ],
     "ottoman-anatolia-1500-1800::c2": [
       "safavid-1501-1722::c1"
     ],
@@ -16344,6 +16449,24 @@
     ],
     "portuguese-gulf-1507-1650::x3": [
       "ottoman-anatolia-1500-1800::x2"
+    ],
+    "ottoman-anatolia-1800-1908::p2": [
+      "ottoman-syria-1800-1908::p2"
+    ],
+    "ottoman-syria-1800-1908::p2": [
+      "ottoman-anatolia-1800-1908::p2"
+    ],
+    "ottoman-anatolia-1800-1908::p5": [
+      "ottoman-syria-1800-1908::p5"
+    ],
+    "ottoman-anatolia-1800-1908::o1": [
+      "ottoman-syria-1800-1908::o2"
+    ],
+    "ottoman-syria-1800-1908::o2": [
+      "ottoman-anatolia-1800-1908::o1"
+    ],
+    "ottoman-syria-1800-1908::b1": [
+      "ottoman-anatolia-1800-1908::b1"
     ],
     "qajar-1789-1925::x3": [
       "pahlavi-1925-1979::x3"
@@ -49061,6 +49184,232 @@
       "Bursa",
       "Women"
     ],
+    "ottoman-anatolia-1800-1908::p1": [
+      "Ottoman",
+      "Istanbul",
+      "Mahmud II",
+      "Çapanoğlu of Yozgat",
+      "Karaosmanoğlu of Manisa"
+    ],
+    "ottoman-anatolia-1800-1908::p4": [
+      "Kurdish emirs",
+      "Hakkâri",
+      "Bedirhan Bey of Botan",
+      "Assyrian Christians"
+    ],
+    "ottoman-anatolia-1800-1908::p2": [
+      "Ottoman",
+      "Istanbul",
+      "Fuad Pasha",
+      "Mustafa Reşid Pasha",
+      "Âli Pasha"
+    ],
+    "ottoman-anatolia-1800-1908::p3": [
+      "Ottoman",
+      "Cilicia",
+      "Maraş",
+      "Fırka-i Islahiye",
+      "Ahmed Cevdet Pasha"
+    ],
+    "ottoman-anatolia-1800-1908::p5": [
+      "Ottoman",
+      "Yıldız Palace",
+      "Istanbul",
+      "Abdülhamid II"
+    ],
+    "ottoman-anatolia-1800-1908::c1": [
+      "Konya",
+      "Ibrahim Pasha",
+      "Anatolia",
+      "Muhammad Ali of Egypt",
+      "Mahmud II"
+    ],
+    "ottoman-anatolia-1800-1908::c2": [
+      "Kars",
+      "Erzurum"
+    ],
+    "ottoman-anatolia-1800-1908::c5": [
+      "Hakkâri",
+      "Urmia",
+      "Sheikh Ubeydullah of Nehri"
+    ],
+    "ottoman-anatolia-1800-1908::c4": [
+      "Zeytun",
+      "Constantinople",
+      "Armenian",
+      "Ottoman Bank"
+    ],
+    "ottoman-anatolia-1800-1908::c3": [
+      "Sasun",
+      "Trabzon",
+      "Erzurum",
+      "Urfa"
+    ],
+    "ottoman-anatolia-1800-1908::o1": [
+      "Gülhane",
+      "Istanbul",
+      "Mustafa Reşid Pasha"
+    ],
+    "ottoman-anatolia-1800-1908::o2": [
+      "Istanbul",
+      "Land Code"
+    ],
+    "ottoman-anatolia-1800-1908::o6": [
+      "Istanbul",
+      "Armenian National Constitution",
+      "Anatolian Armenians"
+    ],
+    "ottoman-anatolia-1800-1908::o3": [
+      "Anatolia",
+      "Provincial Law"
+    ],
+    "ottoman-anatolia-1800-1908::o4": [
+      "Istanbul",
+      "Kanun-ı Esasi"
+    ],
+    "ottoman-anatolia-1800-1908::o5": [
+      "Istanbul",
+      "Anatolia",
+      "Régie",
+      "Ottoman Public Debt Administration",
+      "Black Sea"
+    ],
+    "ottoman-anatolia-1800-1908::b2": [
+      "Istanbul",
+      "Anatolia",
+      "Catholic",
+      "Protestant",
+      "Armenian Catholics",
+      "Armenian Protestants"
+    ],
+    "ottoman-anatolia-1800-1908::b1": [
+      "Merzifon",
+      "Harput",
+      "American Protestant",
+      "Robert College",
+      "Anatolia College",
+      "Euphrates College"
+    ],
+    "ottoman-anatolia-1800-1908::b3": [
+      "Sivas",
+      "Tunceli",
+      "Hamidian",
+      "Alevis"
+    ],
+    "ottoman-anatolia-1800-1908::e1": [
+      "Safranbolu",
+      "Black Sea"
+    ],
+    "ottoman-anatolia-1800-1908::e3": [
+      "Çukurova",
+      "Taurus",
+      "Dadaloğlu"
+    ],
+    "ottoman-anatolia-1800-1908::e4": [
+      "Kütahya",
+      "Komitas Soghomon Soghomonian"
+    ],
+    "ottoman-anatolia-1800-1908::e2": [
+      "Yıldız Palace",
+      "Abdülhamid II",
+      "Library of Congress",
+      "British Museum"
+    ],
+    "ottoman-anatolia-1800-1908::t3": [
+      "Boğazköy",
+      "Troy",
+      "Ephesus",
+      "Anatolia",
+      "Charles Texier",
+      "John Turtle Wood"
+    ],
+    "ottoman-anatolia-1800-1908::t2": [
+      "Istanbul",
+      "Young Ottomans",
+      "Namık Kemal",
+      "Ziya Pasha",
+      "Ali Suavi"
+    ],
+    "ottoman-anatolia-1800-1908::t1": [
+      "Istanbul",
+      "Mecelle",
+      "Ahmed Cevdet Pasha",
+      "Mecelle-i Ahkâm-ı Adliye"
+    ],
+    "ottoman-anatolia-1800-1908::ec1": [
+      "Izmir",
+      "Ankara",
+      "Aydın",
+      "Anatolian Railway Company",
+      "Deutsche Bank"
+    ],
+    "ottoman-anatolia-1800-1908::ec2": [
+      "Çukurova",
+      "Black Sea",
+      "Cotton",
+      "American Civil War"
+    ],
+    "ottoman-anatolia-1800-1908::ec4": [
+      "Central Anatolia"
+    ],
+    "ottoman-anatolia-1800-1908::ec3": [
+      "Uşak",
+      "Isparta"
+    ],
+    "ottoman-anatolia-1800-1908::g1": [
+      "Anatolia",
+      "Crimean War",
+      "Black Sea"
+    ],
+    "ottoman-anatolia-1800-1908::x2": [
+      "Balta Limanı",
+      "Anglo-Ottoman",
+      "Ottoman Empire",
+      "Other European"
+    ],
+    "ottoman-anatolia-1800-1908::x1": [
+      "Anatolia",
+      "Crimean Tatars",
+      "Balkan Turks"
+    ],
+    "ottoman-anatolia-1800-1908::x3": [
+      "Konya",
+      "Ankara",
+      "Deutsche Bank",
+      "Anatolian Railway Company",
+      "Baghdad Railway"
+    ],
+    "ottoman-anatolia-1800-1908::x4": [
+      "Eastern Anatolia",
+      "United States",
+      "Armenian"
+    ],
+    "ottoman-anatolia-1800-1908::w3": [
+      "Eastern Anatolia",
+      "Eastern Question"
+    ],
+    "ottoman-anatolia-1800-1908::w1": [
+      "Article",
+      "Congress of Berlin"
+    ],
+    "ottoman-anatolia-1800-1908::w2": [
+      "Ottoman Anatolia"
+    ],
+    "ottoman-anatolia-1800-1908::l4": [
+      "Black Sea",
+      "Circassian"
+    ],
+    "ottoman-anatolia-1800-1908::l1": [
+      "Istanbul",
+      "Kız Rüşdiyesi"
+    ],
+    "ottoman-anatolia-1800-1908::l2": [
+      "Uşak",
+      "Aegean"
+    ],
+    "ottoman-anatolia-1800-1908::l3": [
+      "Grace Kimball"
+    ],
     "ottoman-syria-1516-1800::p1": [
       "Damascus",
       "Ottoman Conquest Completes",
@@ -63870,6 +64219,11 @@
       "mamluks-1250-1517::ec5",
       "ottoman-anatolia-1500-1800::ec4",
       "ottoman-anatolia-1500-1800::l2",
+      "ottoman-anatolia-1800-1908::o5",
+      "ottoman-anatolia-1800-1908::e1",
+      "ottoman-anatolia-1800-1908::ec2",
+      "ottoman-anatolia-1800-1908::g1",
+      "ottoman-anatolia-1800-1908::l4",
       "persian-anatolia-546bc-334bc::t5",
       "roman-anatolia-133bc-330::p2",
       "roman-anatolia-133bc-330::p10",
@@ -64228,6 +64582,7 @@
       "levant-neolithic-10000bc-2000bc::b1",
       "levant-neolithic-10000bc-2000bc::e1",
       "mesopotamia-6500bc-3800bc::b2",
+      "ottoman-anatolia-1800-1908::e2",
       "palmyrene-100bc-273ce::a2",
       "phoenicia-1200bc-539bc::e1",
       "rome-300-400::a5",
@@ -66252,6 +66607,7 @@
       "iran-1722-1789::c2",
       "iran-1722-1789::w2",
       "levant-1908-1920::p2",
+      "ottoman-anatolia-1800-1908::x2",
       "ottoman-syria-1800-1908::x1",
       "safavid-1501-1722::w1",
       "spain-1516-1700::w6",
@@ -66422,6 +66778,7 @@
       "late-roman-anatolia-330-632::l5",
       "mamluks-1250-1517::x1",
       "najd-300bc-632::x3",
+      "ottoman-anatolia-1800-1908::c4",
       "palmyrene-100bc-273ce::t2",
       "rome-200-300::a5",
       "rome-300-400::p4",
@@ -67412,6 +67769,8 @@
       "egypt-1798-1900::c6",
       "mamluks-1250-1517::b4",
       "ottoman-anatolia-1500-1800::p3",
+      "ottoman-anatolia-1800-1908::c1",
+      "ottoman-anatolia-1800-1908::x3",
       "phrygia-1200bc-675bc::p5",
       "phrygia-1200bc-675bc::b3",
       "seljuks-of-rum-1071-1308::p3",
@@ -67485,6 +67844,7 @@
       "ionia-1050bc-494bc::ec1",
       "ionia-1050bc-494bc::g2",
       "late-roman-anatolia-330-632::b3",
+      "ottoman-anatolia-1800-1908::t3",
       "persian-anatolia-546bc-334bc::b3",
       "roman-anatolia-133bc-330::p5",
       "roman-anatolia-133bc-330::p8",
@@ -67519,6 +67879,7 @@
       "egypt-1550bc-1200bc::xc3",
       "egypt-332bc-30bc::xc2",
       "ottoman-anatolia-1500-1800::ec4",
+      "ottoman-anatolia-1800-1908::l2",
       "persian-anatolia-546bc-334bc::w2",
       "south-arabia-1200bc-300bc::ec5"
     ],
@@ -67758,6 +68119,13 @@
       "ottoman-anatolia-1500-1800::w2",
       "ottoman-anatolia-1500-1800::w1",
       "ottoman-anatolia-1500-1800::w3",
+      "ottoman-anatolia-1800-1908::c1",
+      "ottoman-anatolia-1800-1908::o3",
+      "ottoman-anatolia-1800-1908::o5",
+      "ottoman-anatolia-1800-1908::b2",
+      "ottoman-anatolia-1800-1908::t3",
+      "ottoman-anatolia-1800-1908::g1",
+      "ottoman-anatolia-1800-1908::x1",
       "palmyrene-100bc-273ce::c3",
       "persian-anatolia-546bc-334bc::o2",
       "persian-anatolia-546bc-334bc::b1",
@@ -67846,6 +68214,7 @@
       "cilician-armenia-1080-1375::w2",
       "late-roman-anatolia-330-632::ec1",
       "mamluks-1250-1517::c9",
+      "ottoman-anatolia-1800-1908::p3",
       "persian-anatolia-546bc-334bc::p3",
       "persian-anatolia-546bc-334bc::x4",
       "phrygia-1200bc-675bc::ec3",
@@ -68050,6 +68419,8 @@
       "ottoman-anatolia-1500-1800::c6",
       "ottoman-anatolia-1500-1800::x3",
       "ottoman-anatolia-1500-1800::x2",
+      "ottoman-anatolia-1800-1908::c2",
+      "ottoman-anatolia-1800-1908::c3",
       "seljuks-of-rum-1071-1308::p9"
     ],
     "Pulur": [
@@ -68157,7 +68528,8 @@
     "Troy": [
       "anatolia-3000bc-2000bc::e4",
       "anatolia-3000bc-2000bc::ec2",
-      "anatolia-3000bc-2000bc::g3"
+      "anatolia-3000bc-2000bc::g3",
+      "ottoman-anatolia-1800-1908::t3"
     ],
     "Pushkin Museum": [
       "anatolia-3000bc-2000bc::e1"
@@ -68206,7 +68578,8 @@
       "anatolia-3000bc-2000bc::t3"
     ],
     "Boğazköy": [
-      "anatolia-3000bc-2000bc::t2"
+      "anatolia-3000bc-2000bc::t2",
+      "ottoman-anatolia-1800-1908::t3"
     ],
     "Kestel": [
       "anatolia-3000bc-2000bc::ec1"
@@ -68225,6 +68598,7 @@
       "cilician-armenia-1080-1375::p1",
       "cilician-armenia-1080-1375::w1",
       "mamluks-1250-1517::c9",
+      "ottoman-anatolia-1800-1908::e3",
       "roman-anatolia-133bc-330::c8"
     ],
     "Aslıhan Yener": [
@@ -68391,7 +68765,8 @@
     ],
     "Kütahya": [
       "anatolian-beyliks-1308-1500::p2",
-      "ottoman-anatolia-1500-1800::e1"
+      "ottoman-anatolia-1500-1800::e1",
+      "ottoman-anatolia-1800-1908::e4"
     ],
     "Yakub II": [
       "anatolian-beyliks-1308-1500::p2"
@@ -68420,6 +68795,7 @@
       "ayyubids-1171-1250::c11",
       "ottoman-anatolia-1500-1800::c3",
       "ottoman-anatolia-1500-1800::b2",
+      "ottoman-anatolia-1800-1908::b3",
       "seljuks-of-rum-1071-1308::p9",
       "seljuks-of-rum-1071-1308::c9",
       "seljuks-of-rum-1071-1308::t2",
@@ -68501,6 +68877,10 @@
       "ottoman-anatolia-1500-1800::p3",
       "ottoman-anatolia-1500-1800::p1",
       "ottoman-anatolia-1500-1800::p2",
+      "ottoman-anatolia-1800-1908::p1",
+      "ottoman-anatolia-1800-1908::p2",
+      "ottoman-anatolia-1800-1908::p3",
+      "ottoman-anatolia-1800-1908::p5",
       "portuguese-gulf-1507-1650::c2",
       "portuguese-gulf-1507-1650::c3",
       "portuguese-gulf-1507-1650::o3",
@@ -68628,6 +69008,8 @@
       "anatolian-beyliks-1308-1500::b1",
       "iran-1335-1501::c3",
       "ottoman-anatolia-1500-1800::ec2",
+      "ottoman-anatolia-1800-1908::ec1",
+      "ottoman-anatolia-1800-1908::x3",
       "qatar-1971-today::x4"
     ],
     "Karaburun": [
@@ -68742,7 +69124,9 @@
     ],
     "Eastern Anatolia": [
       "anatolian-beyliks-1308-1500::e5",
-      "ottoman-anatolia-1500-1800::b1"
+      "ottoman-anatolia-1500-1800::b1",
+      "ottoman-anatolia-1800-1908::x4",
+      "ottoman-anatolia-1800-1908::w3"
     ],
     "Book of Dede Korkut": [
       "anatolian-beyliks-1308-1500::e5"
@@ -70977,6 +71361,8 @@
       "assyria-911bc-609bc::c2",
       "cilician-armenia-1080-1375::w1",
       "ottoman-anatolia-1500-1800::x2",
+      "ottoman-anatolia-1800-1908::c4",
+      "ottoman-anatolia-1800-1908::x4",
       "roman-anatolia-133bc-330::c9",
       "sassanid-224-484::ex4"
     ],
@@ -74577,6 +74963,7 @@
       "kuwait-1961-today::x1",
       "lebanon-1943-today::x1",
       "oman-1970-today::x2",
+      "ottoman-anatolia-1800-1908::x4",
       "pahlavi-1925-1979::b1",
       "pahlavi-1925-1979::x1",
       "palestine-1948-today::w1",
@@ -81554,6 +81941,7 @@
       "egypt-1517-1798::k3",
       "egypt-1517-1798::c2",
       "egypt-1798-1900::k3",
+      "ottoman-anatolia-1800-1908::c1",
       "ottoman-syria-1800-1908::c1"
     ],
     "Qanunname-i Misir": [
@@ -81945,6 +82333,18 @@
       "najd-1744-1900::x4",
       "ottoman-anatolia-1500-1800::o3",
       "ottoman-anatolia-1500-1800::t2",
+      "ottoman-anatolia-1800-1908::p1",
+      "ottoman-anatolia-1800-1908::p2",
+      "ottoman-anatolia-1800-1908::p5",
+      "ottoman-anatolia-1800-1908::o1",
+      "ottoman-anatolia-1800-1908::o2",
+      "ottoman-anatolia-1800-1908::o6",
+      "ottoman-anatolia-1800-1908::o4",
+      "ottoman-anatolia-1800-1908::o5",
+      "ottoman-anatolia-1800-1908::b2",
+      "ottoman-anatolia-1800-1908::t2",
+      "ottoman-anatolia-1800-1908::t1",
+      "ottoman-anatolia-1800-1908::l1",
       "ottoman-syria-1516-1800::c1",
       "ottoman-syria-1516-1800::o1",
       "ottoman-syria-1516-1800::w1",
@@ -81959,7 +82359,8 @@
       "yemen-1517-1900::x1"
     ],
     "Eastern Question": [
-      "egypt-1517-1798::xc6"
+      "egypt-1517-1798::xc6",
+      "ottoman-anatolia-1800-1908::w3"
     ],
     "Royal Navy": [
       "egypt-1517-1798::xc6",
@@ -82592,7 +82993,8 @@
     ],
     "American Civil War": [
       "egypt-1798-1900::k6",
-      "egypt-1798-1900::e1"
+      "egypt-1798-1900::e1",
+      "ottoman-anatolia-1800-1908::ec2"
     ],
     "Dual Control": [
       "egypt-1798-1900::k6"
@@ -88846,6 +89248,7 @@
     "Catholic": [
       "france-1494-1610::r3",
       "france-1815-1900::r2",
+      "ottoman-anatolia-1800-1908::b2",
       "spain-1808-1900::t4",
       "spain-1900-1975::lv5"
     ],
@@ -89034,6 +89437,7 @@
     "Protestant": [
       "france-1494-1610::t4",
       "france-1494-1610::te1",
+      "ottoman-anatolia-1800-1908::b2",
       "spain-1808-1900::r3"
     ],
     "Calvin": [
@@ -90444,7 +90848,8 @@
       "france-1815-1900::c4"
     ],
     "Crimean War": [
-      "france-1815-1900::c4"
+      "france-1815-1900::c4",
+      "ottoman-anatolia-1800-1908::g1"
     ],
     "Congress of Vienna": [
       "france-1815-1900::c4",
@@ -91801,7 +92206,9 @@
     ],
     "Abdülhamid II": [
       "hejaz-1517-1900::b4",
-      "hejaz-1517-1900::tc3"
+      "hejaz-1517-1900::tc3",
+      "ottoman-anatolia-1800-1908::p5",
+      "ottoman-anatolia-1800-1908::e2"
     ],
     "Muslims of the British": [
       "hejaz-1517-1900::b4"
@@ -94255,6 +94662,7 @@
       "kanesh-2000bc-1650bc::w1",
       "kanesh-2000bc-1650bc::w2",
       "ottoman-anatolia-1500-1800::p4",
+      "ottoman-anatolia-1800-1908::ec4",
       "phrygia-1200bc-675bc::p1",
       "phrygia-1200bc-675bc::w1",
       "seljuks-of-rum-1071-1308::e5"
@@ -97160,7 +97568,9 @@
     "Mahmud II": [
       "iraq-1534-1831::k7",
       "iraq-1534-1831::c6",
-      "ottoman-anatolia-1500-1800::w3"
+      "ottoman-anatolia-1500-1800::w3",
+      "ottoman-anatolia-1800-1908::p1",
+      "ottoman-anatolia-1800-1908::c1"
     ],
     "Ali Riza Pasha": [
       "iraq-1534-1831::k7",
@@ -97386,6 +97796,7 @@
     "Muhammad Ali of Egypt": [
       "iraq-1534-1831::xc4",
       "oman-gulf-1650-1820::w5",
+      "ottoman-anatolia-1800-1908::c1",
       "ottoman-syria-1800-1908::p1"
     ],
     "David Sassoon": [
@@ -97447,7 +97858,8 @@
       "iraq-1831-1914::k2",
       "iraq-1831-1914::k3",
       "iraq-1831-1914::k5",
-      "iraq-1831-1914::o3"
+      "iraq-1831-1914::o3",
+      "ottoman-anatolia-1800-1908::o2"
     ],
     "Committee of Union": [
       "iraq-1831-1914::k4",
@@ -97613,13 +98025,16 @@
       "iraq-1831-1914::e5"
     ],
     "Deutsche Bank": [
-      "iraq-1831-1914::e5"
+      "iraq-1831-1914::e5",
+      "ottoman-anatolia-1800-1908::ec1",
+      "ottoman-anatolia-1800-1908::x3"
     ],
     "Petroleum Company": [
       "iraq-1831-1914::e5"
     ],
     "Baghdad Railway": [
-      "iraq-1831-1914::g2"
+      "iraq-1831-1914::g2",
+      "ottoman-anatolia-1800-1908::x3"
     ],
     "Irrigation": [
       "iraq-1831-1914::g3"
@@ -101716,7 +102131,8 @@
       "mamluks-1250-1517::ex2"
     ],
     "Circassian": [
-      "mamluks-1250-1517::ex2"
+      "mamluks-1250-1517::ex2",
+      "ottoman-anatolia-1800-1908::l4"
     ],
     "Qaytbay Northern Cemetery": [
       "mamluks-1250-1517::ex2"
@@ -104951,10 +105367,12 @@
       "ottoman-anatolia-1500-1800::p5"
     ],
     "Karaosmanoğlu of Manisa": [
-      "ottoman-anatolia-1500-1800::p5"
+      "ottoman-anatolia-1500-1800::p5",
+      "ottoman-anatolia-1800-1908::p1"
     ],
     "Çapanoğlu of Yozgat": [
-      "ottoman-anatolia-1500-1800::p5"
+      "ottoman-anatolia-1500-1800::p5",
+      "ottoman-anatolia-1800-1908::p1"
     ],
     "Cebbarzade of Adana": [
       "ottoman-anatolia-1500-1800::p5"
@@ -105034,7 +105452,9 @@
       "ottoman-anatolia-1500-1800::b5"
     ],
     "Uşak": [
-      "ottoman-anatolia-1500-1800::e2"
+      "ottoman-anatolia-1500-1800::e2",
+      "ottoman-anatolia-1800-1908::ec3",
+      "ottoman-anatolia-1800-1908::l2"
     ],
     "Bergama": [
       "ottoman-anatolia-1500-1800::e2"
@@ -105043,7 +105463,9 @@
       "ottoman-anatolia-1500-1800::e4"
     ],
     "Çukurova": [
-      "ottoman-anatolia-1500-1800::e3"
+      "ottoman-anatolia-1500-1800::e3",
+      "ottoman-anatolia-1800-1908::e3",
+      "ottoman-anatolia-1800-1908::ec2"
     ],
     "Karacaoğlan": [
       "ottoman-anatolia-1500-1800::e3"
@@ -105089,7 +105511,8 @@
     ],
     "Izmir": [
       "ottoman-anatolia-1500-1800::x1",
-      "ottoman-anatolia-1500-1800::l2"
+      "ottoman-anatolia-1500-1800::l2",
+      "ottoman-anatolia-1800-1908::ec1"
     ],
     "Levant Company": [
       "ottoman-anatolia-1500-1800::x1"
@@ -105098,13 +105521,207 @@
       "ottoman-anatolia-1500-1800::w2"
     ],
     "Trabzon": [
-      "ottoman-anatolia-1500-1800::l2"
+      "ottoman-anatolia-1500-1800::l2",
+      "ottoman-anatolia-1800-1908::c3"
     ],
     "Jews of Izmir": [
       "ottoman-anatolia-1500-1800::l3"
     ],
     "Izmir Jewish": [
       "ottoman-anatolia-1500-1800::l3"
+    ],
+    "Kurdish emirs": [
+      "ottoman-anatolia-1800-1908::p4"
+    ],
+    "Hakkâri": [
+      "ottoman-anatolia-1800-1908::p4",
+      "ottoman-anatolia-1800-1908::c5"
+    ],
+    "Bedirhan Bey of Botan": [
+      "ottoman-anatolia-1800-1908::p4"
+    ],
+    "Assyrian Christians": [
+      "ottoman-anatolia-1800-1908::p4"
+    ],
+    "Fuad Pasha": [
+      "ottoman-anatolia-1800-1908::p2"
+    ],
+    "Mustafa Reşid Pasha": [
+      "ottoman-anatolia-1800-1908::p2",
+      "ottoman-anatolia-1800-1908::o1"
+    ],
+    "Âli Pasha": [
+      "ottoman-anatolia-1800-1908::p2"
+    ],
+    "Maraş": [
+      "ottoman-anatolia-1800-1908::p3"
+    ],
+    "Fırka-i Islahiye": [
+      "ottoman-anatolia-1800-1908::p3"
+    ],
+    "Ahmed Cevdet Pasha": [
+      "ottoman-anatolia-1800-1908::p3",
+      "ottoman-anatolia-1800-1908::t1"
+    ],
+    "Yıldız Palace": [
+      "ottoman-anatolia-1800-1908::p5",
+      "ottoman-anatolia-1800-1908::e2"
+    ],
+    "Kars": [
+      "ottoman-anatolia-1800-1908::c2"
+    ],
+    "Urmia": [
+      "ottoman-anatolia-1800-1908::c5"
+    ],
+    "Sheikh Ubeydullah of Nehri": [
+      "ottoman-anatolia-1800-1908::c5"
+    ],
+    "Zeytun": [
+      "ottoman-anatolia-1800-1908::c4"
+    ],
+    "Ottoman Bank": [
+      "ottoman-anatolia-1800-1908::c4"
+    ],
+    "Sasun": [
+      "ottoman-anatolia-1800-1908::c3"
+    ],
+    "Urfa": [
+      "ottoman-anatolia-1800-1908::c3"
+    ],
+    "Gülhane": [
+      "ottoman-anatolia-1800-1908::o1"
+    ],
+    "Armenian National Constitution": [
+      "ottoman-anatolia-1800-1908::o6"
+    ],
+    "Anatolian Armenians": [
+      "ottoman-anatolia-1800-1908::o6"
+    ],
+    "Provincial Law": [
+      "ottoman-anatolia-1800-1908::o3"
+    ],
+    "Kanun-ı Esasi": [
+      "ottoman-anatolia-1800-1908::o4"
+    ],
+    "Régie": [
+      "ottoman-anatolia-1800-1908::o5"
+    ],
+    "Ottoman Public Debt Administration": [
+      "ottoman-anatolia-1800-1908::o5"
+    ],
+    "Armenian Catholics": [
+      "ottoman-anatolia-1800-1908::b2"
+    ],
+    "Armenian Protestants": [
+      "ottoman-anatolia-1800-1908::b2"
+    ],
+    "Merzifon": [
+      "ottoman-anatolia-1800-1908::b1"
+    ],
+    "Harput": [
+      "ottoman-anatolia-1800-1908::b1"
+    ],
+    "American Protestant": [
+      "ottoman-anatolia-1800-1908::b1"
+    ],
+    "Robert College": [
+      "ottoman-anatolia-1800-1908::b1"
+    ],
+    "Anatolia College": [
+      "ottoman-anatolia-1800-1908::b1"
+    ],
+    "Euphrates College": [
+      "ottoman-anatolia-1800-1908::b1"
+    ],
+    "Tunceli": [
+      "ottoman-anatolia-1800-1908::b3"
+    ],
+    "Hamidian": [
+      "ottoman-anatolia-1800-1908::b3"
+    ],
+    "Alevis": [
+      "ottoman-anatolia-1800-1908::b3"
+    ],
+    "Safranbolu": [
+      "ottoman-anatolia-1800-1908::e1"
+    ],
+    "Dadaloğlu": [
+      "ottoman-anatolia-1800-1908::e3"
+    ],
+    "Komitas Soghomon Soghomonian": [
+      "ottoman-anatolia-1800-1908::e4"
+    ],
+    "Library of Congress": [
+      "ottoman-anatolia-1800-1908::e2"
+    ],
+    "Charles Texier": [
+      "ottoman-anatolia-1800-1908::t3"
+    ],
+    "John Turtle Wood": [
+      "ottoman-anatolia-1800-1908::t3"
+    ],
+    "Young Ottomans": [
+      "ottoman-anatolia-1800-1908::t2"
+    ],
+    "Namık Kemal": [
+      "ottoman-anatolia-1800-1908::t2"
+    ],
+    "Ziya Pasha": [
+      "ottoman-anatolia-1800-1908::t2"
+    ],
+    "Ali Suavi": [
+      "ottoman-anatolia-1800-1908::t2"
+    ],
+    "Mecelle": [
+      "ottoman-anatolia-1800-1908::t1"
+    ],
+    "Mecelle-i Ahkâm-ı Adliye": [
+      "ottoman-anatolia-1800-1908::t1"
+    ],
+    "Aydın": [
+      "ottoman-anatolia-1800-1908::ec1"
+    ],
+    "Anatolian Railway Company": [
+      "ottoman-anatolia-1800-1908::ec1",
+      "ottoman-anatolia-1800-1908::x3"
+    ],
+    "Cotton": [
+      "ottoman-anatolia-1800-1908::ec2",
+      "tylos-mleiha-300bc-240ad::t2"
+    ],
+    "Isparta": [
+      "ottoman-anatolia-1800-1908::ec3"
+    ],
+    "Balta Limanı": [
+      "ottoman-anatolia-1800-1908::x2"
+    ],
+    "Anglo-Ottoman": [
+      "ottoman-anatolia-1800-1908::x2",
+      "yemen-1517-1900::x5"
+    ],
+    "Other European": [
+      "ottoman-anatolia-1800-1908::x2"
+    ],
+    "Crimean Tatars": [
+      "ottoman-anatolia-1800-1908::x1"
+    ],
+    "Balkan Turks": [
+      "ottoman-anatolia-1800-1908::x1"
+    ],
+    "Article": [
+      "ottoman-anatolia-1800-1908::w1"
+    ],
+    "Congress of Berlin": [
+      "ottoman-anatolia-1800-1908::w1"
+    ],
+    "Ottoman Anatolia": [
+      "ottoman-anatolia-1800-1908::w2"
+    ],
+    "Kız Rüşdiyesi": [
+      "ottoman-anatolia-1800-1908::l1"
+    ],
+    "Grace Kimball": [
+      "ottoman-anatolia-1800-1908::l3"
     ],
     "Ottoman Conquest Completes": [
       "ottoman-syria-1516-1800::p1"
@@ -116423,9 +117040,6 @@
     "Indian Coast": [
       "tylos-mleiha-300bc-240ad::t1"
     ],
-    "Cotton": [
-      "tylos-mleiha-300bc-240ad::t2"
-    ],
     "Theophrastus": [
       "tylos-mleiha-300bc-240ad::t2"
     ],
@@ -117257,9 +117871,6 @@
       "yemen-628-1517::x4"
     ],
     "Ottoman Yemen": [
-      "yemen-1517-1900::x5"
-    ],
-    "Anglo-Ottoman": [
       "yemen-1517-1900::x5"
     ],
     "Zaydi Yemen": [

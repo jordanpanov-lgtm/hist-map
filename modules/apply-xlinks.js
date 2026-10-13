@@ -1665,6 +1665,22 @@ const SELECTED_PAIRS = [
   ['ottoman-anatolia-1500-1800::p5', 'ottoman-syria-1516-1800::p1'],      // the Ottoman provincial notables
   ['ottoman-anatolia-1500-1800::p5', 'iraq-1534-1831::k5'],      // the Mamluk pashas of Baghdad and the ayans
   ['ottoman-anatolia-1500-1800::l3', 'iraq-1534-1831::b6'],      // Jews of the Ottoman cities
+  ['ottoman-anatolia-1800-1908::p1', 'ottoman-anatolia-1500-1800::p5'],      // the ayan houses Mahmud II destroyed
+  ['ottoman-anatolia-1800-1908::c1', 'ottoman-syria-1800-1908::p1'],      // Ibrahim Pasha's Egyptian armies in Syria and Anatolia
+  ['ottoman-anatolia-1800-1908::c1', 'egypt-1798-1900::c6'],      // the Syrian wars: Konya and the convention of Kütahya
+  ['ottoman-anatolia-1800-1908::p4', 'iraq-1831-1914::o6'],      // the end of the Kurdish emirates
+  ['ottoman-anatolia-1800-1908::p5', 'ottoman-syria-1800-1908::p5'],      // Abdülhamid II's centralisation
+  ['ottoman-anatolia-1800-1908::p2', 'ottoman-syria-1800-1908::p2'],      // the Tanzimat reaching the provinces
+  ['ottoman-anatolia-1800-1908::o1', 'ottoman-syria-1800-1908::o2'],      // equality of subjects on paper
+  ['ottoman-anatolia-1800-1908::o2', 'iraq-1831-1914::o2'],      // the Land Code of 1858
+  ['ottoman-anatolia-1800-1908::o3', 'iraq-1831-1914::o1'],      // the vilayet system in the provinces
+  ['ottoman-anatolia-1800-1908::ec1', 'iraq-1831-1914::g2'],      // the Anatolian Railway and its extension to Baghdad
+  ['ottoman-anatolia-1800-1908::x3', 'iraq-1831-1914::xc1'],      // German capital and the contest for the road to the Gulf
+  ['ottoman-anatolia-1800-1908::b1', 'ottoman-syria-1800-1908::b1'],      // American Protestant missions and their colleges
+  ['ottoman-anatolia-1800-1908::b1', 'iraq-1831-1914::b5'],      // missions, schools and churches
+  ['ottoman-anatolia-1800-1908::g1', 'iraq-1831-1914::g1'],      // the telegraph and the steamer
+  ['ottoman-anatolia-1800-1908::l4', 'egypt-1798-1900::xc6'],      // slavery and the suppression of the slave trade
+  ['ottoman-anatolia-1800-1908::o5', 'egypt-1798-1900::o5'],      // European debt commissions over Ottoman and Egyptian finances
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
