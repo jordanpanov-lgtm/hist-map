@@ -209,5 +209,6 @@ const MODULES = [
   { id:"qatar-1971-today",       file:"modules/qatar-1971-today.json",       label:"Qatar 1971–today", sub:"Gas, Al Jazeera, the Blockade, the World Cup and the Mediator's Chair", region:"SE Arabia", period:"Modern" },
   // ── ANATOLIA (Turkey zone — Anatolia · Thrace) ──
   { id:"anatolia-10000bc-3000bc", file:"modules/anatolia-10000bc-3000bc.json", label:"Neolithic and Chalcolithic Anatolia 10,000–3,000 BC", sub:"Göbekli Tepe, Çatalhöyük and the First Palace at Arslantepe", region:"Turkey", period:"Prehistoric" },
+  { id:"anatolia-3000bc-2000bc", file:"modules/anatolia-3000bc-2000bc.json", label:"Early Bronze Age Anatolia 3000–2000 BC", sub:"Troy, the Alaca Höyük Tombs and the Tin of the Taurus", region:"Turkey", period:"Prehistoric" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

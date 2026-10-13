@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 7336,
-    "folio_count": 153,
-    "xlink_pairs": 1432,
-    "keyword_terms": 11351,
+    "total_entries": 7379,
+    "folio_count": 154,
+    "xlink_pairs": 1442,
+    "keyword_terms": 11411,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -24,6 +24,11 @@
         "id": "anatolia-10000bc-3000bc",
         "title": "Neolithic and Chalcolithic Anatolia",
         "entries": 53
+      },
+      {
+        "id": "anatolia-3000bc-2000bc",
+        "title": "Early Bronze Age Anatolia",
+        "entries": 43
       },
       {
         "id": "arabia-paleolithic-500000bc-8000bc",
@@ -992,6 +997,49 @@
     "anatolia-10000bc-3000bc::l1": "Women and men at Çatalhöyük",
     "anatolia-10000bc-3000bc::l2": "The health cost of farming",
     "anatolia-10000bc-3000bc::l3": "Migrants beside locals at Hacınebi",
+    "anatolia-3000bc-2000bc::p1": "Troy I — a walled village at the Dardanelles",
+    "anatolia-3000bc-2000bc::p4": "Demircihöyük and Küllüoba — planned towns of the northwest",
+    "anatolia-3000bc-2000bc::p5": "Karataş-Semayük — a Lycian town and its cemeteries",
+    "anatolia-3000bc-2000bc::p2": "Troy II — the planned citadel",
+    "anatolia-3000bc-2000bc::p3": "Troy III–V — continuity in a poorer town",
+    "anatolia-3000bc-2000bc::p8": "The Hattians and the name of the land",
+    "anatolia-3000bc-2000bc::p6": "The royal tombs of Alaca Höyük",
+    "anatolia-3000bc-2000bc::p7": "Horoztepe and Mahmatlar — elite graves of the Pontic hinterland",
+    "anatolia-3000bc-2000bc::p9": "Arslantepe after the palace — herders and the Royal Tomb",
+    "anatolia-3000bc-2000bc::p10": "The Karaz and Pulur villages — the Kura-Araxes in Anatolia",
+    "anatolia-3000bc-2000bc::p11": "Tarsus-Gözlükule — a walled town of Cilicia",
+    "anatolia-3000bc-2000bc::c2": "Fortified towns of the west and north",
+    "anatolia-3000bc-2000bc::c1": "The burning of Troy II",
+    "anatolia-3000bc-2000bc::c3": "The burnt towns of the late Early Bronze Age",
+    "anatolia-3000bc-2000bc::c4": "Sargon at Purushanda",
+    "anatolia-3000bc-2000bc::o1": "Seals on storeroom closures",
+    "anatolia-3000bc-2000bc::o2": "The royal words of Hatti",
+    "anatolia-3000bc-2000bc::b2": "Owl-faced vessels and idols at Troy",
+    "anatolia-3000bc-2000bc::b3": "The jar cemeteries of the west",
+    "anatolia-3000bc-2000bc::b4": "Hattic gods preserved by the Hittites",
+    "anatolia-3000bc-2000bc::b1": "Sun discs and animal standards",
+    "anatolia-3000bc-2000bc::e5": "Lyres on the seals",
+    "anatolia-3000bc-2000bc::e4": "The two-handled cup — the depas",
+    "anatolia-3000bc-2000bc::e1": "Priam's Treasure",
+    "anatolia-3000bc-2000bc::e3": "The megaron of Troy II",
+    "anatolia-3000bc-2000bc::e2": "The gold and electrum of the Hattian tombs",
+    "anatolia-3000bc-2000bc::t1": "Who spoke Anatolian before the Hittites?",
+    "anatolia-3000bc-2000bc::t3": "The 'International Spirit'",
+    "anatolia-3000bc-2000bc::t2": "Hattic — a language preserved by its conquerors",
+    "anatolia-3000bc-2000bc::ec1": "The tin workings of the Taurus",
+    "anatolia-3000bc-2000bc::ec3": "Mobile herding and the Kura-Araxes",
+    "anatolia-3000bc-2000bc::ec2": "Wool, whorls and the cloth economy",
+    "anatolia-3000bc-2000bc::g2": "The walls and ramps of Troy",
+    "anatolia-3000bc-2000bc::g1": "Tin bronze at Troy",
+    "anatolia-3000bc-2000bc::g3": "The potter's wheel reaches the west",
+    "anatolia-3000bc-2000bc::g4": "Cast standards of the Hattian smiths",
+    "anatolia-3000bc-2000bc::x1": "Troy and the Aegean islands",
+    "anatolia-3000bc-2000bc::x2": "The Caucasus road to the Euphrates",
+    "anatolia-3000bc-2000bc::x3": "Lapis and carnelian at Troy",
+    "anatolia-3000bc-2000bc::w1": "A short drought and its uneven reach",
+    "anatolia-3000bc-2000bc::w2": "The end of the Early Bronze Age",
+    "anatolia-3000bc-2000bc::l1": "Children in jars",
+    "anatolia-3000bc-2000bc::l2": "Rich and poor in one cemetery",
     "arabia-paleolithic-500000bc-8000bc::k1": "Archaic hominins at Ti's al-Ghadah",
     "arabia-paleolithic-500000bc-8000bc::k2": "An Nasim — the oldest dated Acheulean industry in Arabia",
     "arabia-paleolithic-500000bc-8000bc::k3": "Homo sapiens crosses the Nefud — the Alathar footprints",
@@ -8266,6 +8314,12 @@
       "oman-gulf-1650-1820::lv5",
       "sassanid-484-651::lv3"
     ],
+    "anatolia-10000bc-3000bc::c3": [
+      "anatolia-3000bc-2000bc::p9"
+    ],
+    "anatolia-3000bc-2000bc::p9": [
+      "anatolia-10000bc-3000bc::c3"
+    ],
     "anatolia-10000bc-3000bc::o2": [
       "mesopotamia-6500bc-3800bc::o2"
     ],
@@ -8317,6 +8371,58 @@
       "zagros-elam-8000bc-3200bc::p5",
       "zagros-elam-8000bc-3200bc::w2",
       "zagros-elam-8000bc-3200bc::x2"
+    ],
+    "anatolia-10000bc-3000bc::w4": [
+      "anatolia-3000bc-2000bc::p10",
+      "anatolia-3000bc-2000bc::x2"
+    ],
+    "anatolia-3000bc-2000bc::p10": [
+      "anatolia-10000bc-3000bc::w4"
+    ],
+    "anatolia-3000bc-2000bc::x2": [
+      "anatolia-10000bc-3000bc::w4"
+    ],
+    "anatolia-3000bc-2000bc::c4": [
+      "mesopotamia-2334bc-2004bc::k1"
+    ],
+    "mesopotamia-2334bc-2004bc::k1": [
+      "anatolia-3000bc-2000bc::c4",
+      "sumer-2900bc-2334bc::k12"
+    ],
+    "anatolia-3000bc-2000bc::e5": [
+      "sumer-2900bc-2334bc::x4"
+    ],
+    "sumer-2900bc-2334bc::x4": [
+      "anatolia-3000bc-2000bc::e5",
+      "uruk-3800bc-2900bc::x6"
+    ],
+    "anatolia-3000bc-2000bc::ec1": [
+      "elam-3200bc-1500bc::ec1",
+      "sumer-2900bc-2334bc::g2"
+    ],
+    "elam-3200bc-1500bc::ec1": [
+      "anatolia-3000bc-2000bc::ec1",
+      "magan-3000bc-1200bc::tc4"
+    ],
+    "sumer-2900bc-2334bc::g2": [
+      "anatolia-3000bc-2000bc::ec1"
+    ],
+    "anatolia-3000bc-2000bc::x3": [
+      "sumer-2900bc-2334bc::xc2",
+      "uruk-3800bc-2900bc::xc3"
+    ],
+    "sumer-2900bc-2334bc::xc2": [
+      "anatolia-3000bc-2000bc::x3"
+    ],
+    "uruk-3800bc-2900bc::xc3": [
+      "anatolia-3000bc-2000bc::x3",
+      "egypt-6000bc-3000bc::ex3"
+    ],
+    "anatolia-3000bc-2000bc::w1": [
+      "mesopotamia-2334bc-2004bc::w1"
+    ],
+    "mesopotamia-2334bc-2004bc::w1": [
+      "anatolia-3000bc-2000bc::w1"
     ],
     "arabia-paleolithic-500000bc-8000bc::k4": [
       "gulf-prehistory-8000bc-3000bc::w1"
@@ -12023,9 +12129,6 @@
     "egypt-6000bc-3000bc::ex3": [
       "uruk-3800bc-2900bc::xc3"
     ],
-    "uruk-3800bc-2900bc::xc3": [
-      "egypt-6000bc-3000bc::ex3"
-    ],
     "egypt-641-969::k6": [
       "iraq-632-945::k7"
     ],
@@ -12115,9 +12218,6 @@
     "mesopotamia-2334bc-2004bc::k3": [
       "elam-3200bc-1500bc::c1",
       "magan-3000bc-1200bc::k3"
-    ],
-    "elam-3200bc-1500bc::ec1": [
-      "magan-3000bc-1200bc::tc4"
     ],
     "magan-3000bc-1200bc::tc4": [
       "elam-3200bc-1500bc::ec1",
@@ -13989,9 +14089,6 @@
     "mesopotamia-224-637::l3": [
       "mesopotamia-141bc-224::l5"
     ],
-    "mesopotamia-2334bc-2004bc::k1": [
-      "sumer-2900bc-2334bc::k12"
-    ],
     "sumer-2900bc-2334bc::k12": [
       "mesopotamia-2334bc-2004bc::k1"
     ],
@@ -14667,9 +14764,6 @@
     ],
     "uruk-3800bc-2900bc::b2": [
       "sumer-2900bc-2334bc::b2"
-    ],
-    "sumer-2900bc-2334bc::x4": [
-      "uruk-3800bc-2900bc::x6"
     ],
     "uruk-3800bc-2900bc::x6": [
       "sumer-2900bc-2334bc::x4"
@@ -16226,6 +16320,222 @@
       "Hacınebi Tepe",
       "Migrants",
       "Hacınebi the Mesopotamian"
+    ],
+    "anatolia-3000bc-2000bc::p1": [
+      "Troy Hisarlık",
+      "Troy I",
+      "Dardanelles"
+    ],
+    "anatolia-3000bc-2000bc::p4": [
+      "Eskişehir",
+      "Demircihöyük",
+      "Küllüoba"
+    ],
+    "anatolia-3000bc-2000bc::p5": [
+      "Karataş-Semayük",
+      "Elmalı",
+      "Lycian",
+      "Machteld Mellink",
+      "Early Bronze Age"
+    ],
+    "anatolia-3000bc-2000bc::p2": [
+      "Troy Hisarlık",
+      "Troy II"
+    ],
+    "anatolia-3000bc-2000bc::p3": [
+      "Troy Hisarlık",
+      "Troy III–V",
+      "Troy II",
+      "Troy IV"
+    ],
+    "anatolia-3000bc-2000bc::p8": [
+      "Kızılırmak",
+      "Hattians"
+    ],
+    "anatolia-3000bc-2000bc::p6": [
+      "Alaca Höyük",
+      "Çorum",
+      "Hamit Koşay",
+      "Remzi Oğuz Arık"
+    ],
+    "anatolia-3000bc-2000bc::p7": [
+      "Horoztepe",
+      "Tokat",
+      "Mahmatlar",
+      "Pontic"
+    ],
+    "anatolia-3000bc-2000bc::p9": [
+      "Arslantepe",
+      "Malatya",
+      "Royal Tomb"
+    ],
+    "anatolia-3000bc-2000bc::p10": [
+      "Karaz",
+      "Erzurum",
+      "Pulur",
+      "Kura-Araxes",
+      "Anatolia",
+      "Upper Euphrates"
+    ],
+    "anatolia-3000bc-2000bc::p11": [
+      "Tarsus",
+      "Tarsus-Gözlükule",
+      "Cilicia",
+      "Hetty Goldman",
+      "Gözlü Kule",
+      "Early Bronze Age"
+    ],
+    "anatolia-3000bc-2000bc::c2": [
+      "Western Anatolia",
+      "Fortified",
+      "Early Bronze Age II"
+    ],
+    "anatolia-3000bc-2000bc::c1": [
+      "Troy Hisarlık",
+      "Troy II"
+    ],
+    "anatolia-3000bc-2000bc::c3": [
+      "Anatolia",
+      "Early Bronze Age",
+      "James Mellaart"
+    ],
+    "anatolia-3000bc-2000bc::c4": [
+      "Purushanda",
+      "Acemhöyük",
+      "Sargon"
+    ],
+    "anatolia-3000bc-2000bc::o1": [
+      "Seals",
+      "Troy II"
+    ],
+    "anatolia-3000bc-2000bc::o2": [
+      "Central",
+      "Hatti"
+    ],
+    "anatolia-3000bc-2000bc::b2": [
+      "Owl-faced",
+      "Troy I"
+    ],
+    "anatolia-3000bc-2000bc::b3": [
+      "Yortan",
+      "Karataş-Semayük"
+    ],
+    "anatolia-3000bc-2000bc::b4": [
+      "Hatti",
+      "Hattic",
+      "Hittites",
+      "Wurusemu of Arinna"
+    ],
+    "anatolia-3000bc-2000bc::b1": [
+      "Alaca Höyük",
+      "Sun"
+    ],
+    "anatolia-3000bc-2000bc::e5": [
+      "Oylum Höyük",
+      "Kilis",
+      "Lyres"
+    ],
+    "anatolia-3000bc-2000bc::e4": [
+      "Troy",
+      "Early Bronze Age"
+    ],
+    "anatolia-3000bc-2000bc::e1": [
+      "Troy II",
+      "Pushkin Museum",
+      "Moscow",
+      "Priam Treasure",
+      "Heinrich Schliemann",
+      "Ottoman Empire"
+    ],
+    "anatolia-3000bc-2000bc::e3": [
+      "Troy II"
+    ],
+    "anatolia-3000bc-2000bc::e2": [
+      "Alaca Höyük",
+      "Hattian"
+    ],
+    "anatolia-3000bc-2000bc::t1": [
+      "Who",
+      "Anatolian",
+      "Hittites",
+      "Ancient DNA",
+      "Bronze Age Anatolia"
+    ],
+    "anatolia-3000bc-2000bc::t3": [
+      "Aegean",
+      "Anatolia",
+      "International Spirit",
+      "Colin Renfrew",
+      "Near East",
+      "Early Bronze Age"
+    ],
+    "anatolia-3000bc-2000bc::t2": [
+      "Boğazköy",
+      "Hattic"
+    ],
+    "anatolia-3000bc-2000bc::ec1": [
+      "Kestel",
+      "Göltepe",
+      "Niğde",
+      "Taurus",
+      "Aslıhan Yener",
+      "Near East"
+    ],
+    "anatolia-3000bc-2000bc::ec3": [
+      "Upper Euphrates",
+      "Mobile",
+      "Kura-Araxes"
+    ],
+    "anatolia-3000bc-2000bc::ec2": [
+      "Troy",
+      "Wool",
+      "Early Bronze Age",
+      "Andrew Sherratt"
+    ],
+    "anatolia-3000bc-2000bc::g2": [
+      "Troy II"
+    ],
+    "anatolia-3000bc-2000bc::g1": [
+      "Tin",
+      "Troy II"
+    ],
+    "anatolia-3000bc-2000bc::g3": [
+      "Troy"
+    ],
+    "anatolia-3000bc-2000bc::g4": [
+      "Alaca Höyük",
+      "Cast",
+      "Hattian"
+    ],
+    "anatolia-3000bc-2000bc::x1": [
+      "Poliochni",
+      "Aegean",
+      "Troy I"
+    ],
+    "anatolia-3000bc-2000bc::x2": [
+      "Malatya",
+      "Euphrates",
+      "South Caucasus"
+    ],
+    "anatolia-3000bc-2000bc::x3": [
+      "Lapis",
+      "Troy II"
+    ],
+    "anatolia-3000bc-2000bc::w1": [
+      "Anatolia"
+    ],
+    "anatolia-3000bc-2000bc::w2": [
+      "Anatolia",
+      "Early Bronze Age"
+    ],
+    "anatolia-3000bc-2000bc::l1": [
+      "Yortan",
+      "Children"
+    ],
+    "anatolia-3000bc-2000bc::l2": [
+      "Karataş-Semayük",
+      "Rich",
+      "Machteld Mellink"
     ],
     "arabia-paleolithic-500000bc-8000bc::k1": [
       "Nefud Desert",
@@ -57238,6 +57548,8 @@
       "anatolia-10000bc-3000bc::ec4",
       "anatolia-10000bc-3000bc::g5",
       "anatolia-10000bc-3000bc::x1",
+      "anatolia-3000bc-2000bc::t3",
+      "anatolia-3000bc-2000bc::ec1",
       "aram-damascus-1200bc-732bc::t1",
       "assyria-1400bc-1050bc::x3",
       "assyria-1400bc-1050bc::t3",
@@ -59701,6 +60013,7 @@
     ],
     "Ottoman Empire": [
       "al-andalus-1031-1492::ex2",
+      "anatolia-3000bc-2000bc::e1",
       "egypt-1900-1952::k1",
       "iran-1055-1219::x1",
       "iran-1335-1501::c3",
@@ -60773,7 +61086,8 @@
       "anatolia-10000bc-3000bc::l2"
     ],
     "James Mellaart": [
-      "anatolia-10000bc-3000bc::p5"
+      "anatolia-10000bc-3000bc::p5",
+      "anatolia-3000bc-2000bc::c3"
     ],
     "Ian Hodder": [
       "anatolia-10000bc-3000bc::p5"
@@ -60805,6 +61119,8 @@
     ],
     "Aegean": [
       "anatolia-10000bc-3000bc::p7",
+      "anatolia-3000bc-2000bc::t3",
+      "anatolia-3000bc-2000bc::x1",
       "egypt-1550bc-1200bc::xc3",
       "egypt-332bc-30bc::xc2",
       "south-arabia-1200bc-300bc::ec5"
@@ -60834,12 +61150,16 @@
       "anatolia-10000bc-3000bc::c3",
       "anatolia-10000bc-3000bc::o3",
       "anatolia-10000bc-3000bc::e6",
-      "anatolia-10000bc-3000bc::g5"
+      "anatolia-10000bc-3000bc::g5",
+      "anatolia-3000bc-2000bc::p9",
+      "anatolia-3000bc-2000bc::x2"
     ],
     "Upper Euphrates": [
       "anatolia-10000bc-3000bc::p9",
       "anatolia-10000bc-3000bc::x2",
-      "anatolia-10000bc-3000bc::w4"
+      "anatolia-10000bc-3000bc::w4",
+      "anatolia-3000bc-2000bc::p10",
+      "anatolia-3000bc-2000bc::ec3"
     ],
     "Arslantepe VII": [
       "anatolia-10000bc-3000bc::p10"
@@ -60870,7 +61190,8 @@
       "anatolia-10000bc-3000bc::c3",
       "anatolia-10000bc-3000bc::o3",
       "anatolia-10000bc-3000bc::e6",
-      "anatolia-10000bc-3000bc::g5"
+      "anatolia-10000bc-3000bc::g5",
+      "anatolia-3000bc-2000bc::p9"
     ],
     "Çatalhöyük": [
       "anatolia-10000bc-3000bc::o2"
@@ -60989,6 +61310,11 @@
     "Anatolia": [
       "anatolia-10000bc-3000bc::g3",
       "anatolia-10000bc-3000bc::w2",
+      "anatolia-3000bc-2000bc::p10",
+      "anatolia-3000bc-2000bc::c3",
+      "anatolia-3000bc-2000bc::t3",
+      "anatolia-3000bc-2000bc::w1",
+      "anatolia-3000bc-2000bc::w2",
       "ayyubids-1171-1250::w4",
       "caliphate-632-750::w2",
       "caliphate-945-1258::c3",
@@ -61051,13 +61377,15 @@
       "anatolia-10000bc-3000bc::x3"
     ],
     "Ancient DNA": [
-      "anatolia-10000bc-3000bc::x3"
+      "anatolia-10000bc-3000bc::x3",
+      "anatolia-3000bc-2000bc::t1"
     ],
     "Anatolian Neolithic": [
       "anatolia-10000bc-3000bc::x3"
     ],
     "Cilicia": [
       "anatolia-10000bc-3000bc::x4",
+      "anatolia-3000bc-2000bc::p11",
       "mamluks-1250-1517::c9"
     ],
     "Mesopotamian Ubaid": [
@@ -61090,10 +61418,13 @@
       "anatolia-10000bc-3000bc::w3"
     ],
     "Kura-Araxes": [
-      "anatolia-10000bc-3000bc::w4"
+      "anatolia-10000bc-3000bc::w4",
+      "anatolia-3000bc-2000bc::p10",
+      "anatolia-3000bc-2000bc::ec3"
     ],
     "South Caucasus": [
       "anatolia-10000bc-3000bc::w4",
+      "anatolia-3000bc-2000bc::x2",
       "qajar-1789-1925::c2"
     ],
     "Late Chalcolithic of the Malatya": [
@@ -61132,6 +61463,335 @@
     ],
     "Hacınebi the Mesopotamian": [
       "anatolia-10000bc-3000bc::l3"
+    ],
+    "Troy Hisarlık": [
+      "anatolia-3000bc-2000bc::p1",
+      "anatolia-3000bc-2000bc::p2",
+      "anatolia-3000bc-2000bc::p3",
+      "anatolia-3000bc-2000bc::c1"
+    ],
+    "Troy I": [
+      "anatolia-3000bc-2000bc::p1",
+      "anatolia-3000bc-2000bc::b2",
+      "anatolia-3000bc-2000bc::x1"
+    ],
+    "Dardanelles": [
+      "anatolia-3000bc-2000bc::p1"
+    ],
+    "Eskişehir": [
+      "anatolia-3000bc-2000bc::p4"
+    ],
+    "Demircihöyük": [
+      "anatolia-3000bc-2000bc::p4"
+    ],
+    "Küllüoba": [
+      "anatolia-3000bc-2000bc::p4"
+    ],
+    "Karataş-Semayük": [
+      "anatolia-3000bc-2000bc::p5",
+      "anatolia-3000bc-2000bc::b3",
+      "anatolia-3000bc-2000bc::l2"
+    ],
+    "Elmalı": [
+      "anatolia-3000bc-2000bc::p5"
+    ],
+    "Lycian": [
+      "anatolia-3000bc-2000bc::p5",
+      "caliphate-632-750::tc3"
+    ],
+    "Machteld Mellink": [
+      "anatolia-3000bc-2000bc::p5",
+      "anatolia-3000bc-2000bc::l2"
+    ],
+    "Early Bronze Age": [
+      "anatolia-3000bc-2000bc::p5",
+      "anatolia-3000bc-2000bc::p11",
+      "anatolia-3000bc-2000bc::c3",
+      "anatolia-3000bc-2000bc::e4",
+      "anatolia-3000bc-2000bc::t3",
+      "anatolia-3000bc-2000bc::ec2",
+      "anatolia-3000bc-2000bc::w2",
+      "levant-neolithic-10000bc-2000bc::w2"
+    ],
+    "Troy II": [
+      "anatolia-3000bc-2000bc::p2",
+      "anatolia-3000bc-2000bc::p3",
+      "anatolia-3000bc-2000bc::c1",
+      "anatolia-3000bc-2000bc::o1",
+      "anatolia-3000bc-2000bc::e1",
+      "anatolia-3000bc-2000bc::e3",
+      "anatolia-3000bc-2000bc::g2",
+      "anatolia-3000bc-2000bc::g1",
+      "anatolia-3000bc-2000bc::x3"
+    ],
+    "Troy III–V": [
+      "anatolia-3000bc-2000bc::p3"
+    ],
+    "Troy IV": [
+      "anatolia-3000bc-2000bc::p3"
+    ],
+    "Kızılırmak": [
+      "anatolia-3000bc-2000bc::p8"
+    ],
+    "Hattians": [
+      "anatolia-3000bc-2000bc::p8"
+    ],
+    "Alaca Höyük": [
+      "anatolia-3000bc-2000bc::p6",
+      "anatolia-3000bc-2000bc::b1",
+      "anatolia-3000bc-2000bc::e2",
+      "anatolia-3000bc-2000bc::g4"
+    ],
+    "Çorum": [
+      "anatolia-3000bc-2000bc::p6"
+    ],
+    "Hamit Koşay": [
+      "anatolia-3000bc-2000bc::p6"
+    ],
+    "Remzi Oğuz Arık": [
+      "anatolia-3000bc-2000bc::p6"
+    ],
+    "Horoztepe": [
+      "anatolia-3000bc-2000bc::p7"
+    ],
+    "Tokat": [
+      "anatolia-3000bc-2000bc::p7"
+    ],
+    "Mahmatlar": [
+      "anatolia-3000bc-2000bc::p7"
+    ],
+    "Pontic": [
+      "anatolia-3000bc-2000bc::p7",
+      "rome-200-300::w3",
+      "rome-300-400::w2",
+      "rome-400-500::s1"
+    ],
+    "Royal Tomb": [
+      "anatolia-3000bc-2000bc::p9"
+    ],
+    "Karaz": [
+      "anatolia-3000bc-2000bc::p10"
+    ],
+    "Erzurum": [
+      "anatolia-3000bc-2000bc::p10"
+    ],
+    "Pulur": [
+      "anatolia-3000bc-2000bc::p10"
+    ],
+    "Tarsus": [
+      "anatolia-3000bc-2000bc::p11",
+      "caliphate-750-945::o2",
+      "egypt-641-969::c5"
+    ],
+    "Tarsus-Gözlükule": [
+      "anatolia-3000bc-2000bc::p11"
+    ],
+    "Hetty Goldman": [
+      "anatolia-3000bc-2000bc::p11"
+    ],
+    "Gözlü Kule": [
+      "anatolia-3000bc-2000bc::p11"
+    ],
+    "Western Anatolia": [
+      "anatolia-3000bc-2000bc::c2"
+    ],
+    "Fortified": [
+      "anatolia-3000bc-2000bc::c2"
+    ],
+    "Early Bronze Age II": [
+      "anatolia-3000bc-2000bc::c2"
+    ],
+    "Purushanda": [
+      "anatolia-3000bc-2000bc::c4"
+    ],
+    "Acemhöyük": [
+      "anatolia-3000bc-2000bc::c4"
+    ],
+    "Sargon": [
+      "anatolia-3000bc-2000bc::c4",
+      "mesopotamia-2334bc-2004bc::k1",
+      "mesopotamia-2334bc-2004bc::c1"
+    ],
+    "Seals": [
+      "anatolia-3000bc-2000bc::o1"
+    ],
+    "Central": [
+      "anatolia-3000bc-2000bc::o2"
+    ],
+    "Hatti": [
+      "anatolia-3000bc-2000bc::o2",
+      "anatolia-3000bc-2000bc::b4",
+      "assyria-1400bc-1050bc::xc3"
+    ],
+    "Owl-faced": [
+      "anatolia-3000bc-2000bc::b2"
+    ],
+    "Yortan": [
+      "anatolia-3000bc-2000bc::b3",
+      "anatolia-3000bc-2000bc::l1"
+    ],
+    "Hattic": [
+      "anatolia-3000bc-2000bc::b4",
+      "anatolia-3000bc-2000bc::t2"
+    ],
+    "Hittites": [
+      "anatolia-3000bc-2000bc::b4",
+      "anatolia-3000bc-2000bc::t1",
+      "assyria-1400bc-1050bc::c2"
+    ],
+    "Wurusemu of Arinna": [
+      "anatolia-3000bc-2000bc::b4"
+    ],
+    "Sun": [
+      "anatolia-3000bc-2000bc::b1"
+    ],
+    "Oylum Höyük": [
+      "anatolia-3000bc-2000bc::e5"
+    ],
+    "Kilis": [
+      "anatolia-3000bc-2000bc::e5"
+    ],
+    "Lyres": [
+      "anatolia-3000bc-2000bc::e5",
+      "south-arabia-1200bc-300bc::ex6"
+    ],
+    "Troy": [
+      "anatolia-3000bc-2000bc::e4",
+      "anatolia-3000bc-2000bc::ec2",
+      "anatolia-3000bc-2000bc::g3"
+    ],
+    "Pushkin Museum": [
+      "anatolia-3000bc-2000bc::e1"
+    ],
+    "Moscow": [
+      "anatolia-3000bc-2000bc::e1",
+      "france-1789-1815::w1",
+      "spain-1900-1975::k9"
+    ],
+    "Priam Treasure": [
+      "anatolia-3000bc-2000bc::e1"
+    ],
+    "Heinrich Schliemann": [
+      "anatolia-3000bc-2000bc::e1"
+    ],
+    "Hattian": [
+      "anatolia-3000bc-2000bc::e2",
+      "anatolia-3000bc-2000bc::g4"
+    ],
+    "Who": [
+      "anatolia-3000bc-2000bc::t1"
+    ],
+    "Anatolian": [
+      "anatolia-3000bc-2000bc::t1",
+      "caliphate-750-945::c4",
+      "caliphate-750-945::w4",
+      "mesopotamia-6500bc-3800bc::xc1"
+    ],
+    "Bronze Age Anatolia": [
+      "anatolia-3000bc-2000bc::t1"
+    ],
+    "International Spirit": [
+      "anatolia-3000bc-2000bc::t3"
+    ],
+    "Colin Renfrew": [
+      "anatolia-3000bc-2000bc::t3"
+    ],
+    "Boğazköy": [
+      "anatolia-3000bc-2000bc::t2"
+    ],
+    "Kestel": [
+      "anatolia-3000bc-2000bc::ec1"
+    ],
+    "Göltepe": [
+      "anatolia-3000bc-2000bc::ec1"
+    ],
+    "Niğde": [
+      "anatolia-3000bc-2000bc::ec1"
+    ],
+    "Taurus": [
+      "anatolia-3000bc-2000bc::ec1",
+      "mamluks-1250-1517::c9"
+    ],
+    "Aslıhan Yener": [
+      "anatolia-3000bc-2000bc::ec1"
+    ],
+    "Mobile": [
+      "anatolia-3000bc-2000bc::ec3"
+    ],
+    "Wool": [
+      "anatolia-3000bc-2000bc::ec2",
+      "mesopotamia-6500bc-3800bc::e3",
+      "uruk-3800bc-2900bc::e3"
+    ],
+    "Andrew Sherratt": [
+      "anatolia-3000bc-2000bc::ec2"
+    ],
+    "Tin": [
+      "anatolia-3000bc-2000bc::g1",
+      "elam-3200bc-1500bc::ec1",
+      "magan-3000bc-1200bc::tc4"
+    ],
+    "Cast": [
+      "anatolia-3000bc-2000bc::g4",
+      "south-arabia-prehistory-8000bc-1200bc::ex4"
+    ],
+    "Poliochni": [
+      "anatolia-3000bc-2000bc::x1"
+    ],
+    "Euphrates": [
+      "anatolia-3000bc-2000bc::x2",
+      "assyria-1400bc-1050bc::c5",
+      "assyria-1400bc-1050bc::xc5",
+      "babylon-1595bc-1155bc::xc5",
+      "babylon-2004bc-1595bc::c2",
+      "babylon-2004bc-1595bc::w4",
+      "caliphate-632-750::k11",
+      "caliphate-632-750::c5",
+      "dilmun-1200bc-600bc::w5",
+      "egypt-1550bc-1200bc::k3",
+      "egypt-1550bc-1200bc::w2",
+      "egypt-664bc-332bc::c3",
+      "ghassanid-420-638::c3",
+      "ghassanid-420-638::c4",
+      "ghassanid-420-638::w1",
+      "iraq-1258-1534::k8",
+      "iraq-1258-1534::e2",
+      "iraq-1534-1831::k8",
+      "iraq-1534-1831::b1",
+      "iraq-1534-1831::w2",
+      "iraq-1534-1831::l5",
+      "iraq-1831-1914::k5",
+      "iraq-1831-1914::c3",
+      "iraq-1831-1914::l2",
+      "lakhmid-268-602::c4",
+      "mamluks-1250-1517::tc3",
+      "mamluks-1250-1517::w1",
+      "mesopotamia-141bc-224::b6",
+      "mesopotamia-141bc-224::xc2",
+      "mesopotamia-224-637::b6",
+      "mesopotamia-2334bc-2004bc::w3",
+      "mesopotamia-331bc-141bc::g4",
+      "mesopotamia-6500bc-3800bc::xc4",
+      "mesopotamia-6500bc-3800bc::xc5",
+      "najd-300bc-632::c4",
+      "palmyrene-100bc-273ce::c1",
+      "sassanid-484-651::w2",
+      "sumer-2900bc-2334bc::w4",
+      "uruk-3800bc-2900bc::p5",
+      "uruk-3800bc-2900bc::xc5",
+      "uruk-3800bc-2900bc::w3"
+    ],
+    "Lapis": [
+      "anatolia-3000bc-2000bc::x3",
+      "babylon-1595bc-1155bc::xc3",
+      "egypt-6000bc-3000bc::ex3"
+    ],
+    "Children": [
+      "anatolia-3000bc-2000bc::l1"
+    ],
+    "Rich": [
+      "anatolia-3000bc-2000bc::l2",
+      "mesopotamia-539bc-331bc::w1"
     ],
     "Nefud Desert": [
       "arabia-paleolithic-500000bc-8000bc::k1",
@@ -62461,9 +63121,6 @@
     "Nihriya": [
       "assyria-1400bc-1050bc::c2"
     ],
-    "Hittites": [
-      "assyria-1400bc-1050bc::c2"
-    ],
     "Tudhaliya IV": [
       "assyria-1400bc-1050bc::c2"
     ],
@@ -62636,48 +63293,6 @@
       "assyria-1400bc-1050bc::c4",
       "assyria-911bc-609bc::c2",
       "mesopotamia-6500bc-3800bc::xc1"
-    ],
-    "Euphrates": [
-      "assyria-1400bc-1050bc::c5",
-      "assyria-1400bc-1050bc::xc5",
-      "babylon-1595bc-1155bc::xc5",
-      "babylon-2004bc-1595bc::c2",
-      "babylon-2004bc-1595bc::w4",
-      "caliphate-632-750::k11",
-      "caliphate-632-750::c5",
-      "dilmun-1200bc-600bc::w5",
-      "egypt-1550bc-1200bc::k3",
-      "egypt-1550bc-1200bc::w2",
-      "egypt-664bc-332bc::c3",
-      "ghassanid-420-638::c3",
-      "ghassanid-420-638::c4",
-      "ghassanid-420-638::w1",
-      "iraq-1258-1534::k8",
-      "iraq-1258-1534::e2",
-      "iraq-1534-1831::k8",
-      "iraq-1534-1831::b1",
-      "iraq-1534-1831::w2",
-      "iraq-1534-1831::l5",
-      "iraq-1831-1914::k5",
-      "iraq-1831-1914::c3",
-      "iraq-1831-1914::l2",
-      "lakhmid-268-602::c4",
-      "mamluks-1250-1517::tc3",
-      "mamluks-1250-1517::w1",
-      "mesopotamia-141bc-224::b6",
-      "mesopotamia-141bc-224::xc2",
-      "mesopotamia-224-637::b6",
-      "mesopotamia-2334bc-2004bc::w3",
-      "mesopotamia-331bc-141bc::g4",
-      "mesopotamia-6500bc-3800bc::xc4",
-      "mesopotamia-6500bc-3800bc::xc5",
-      "najd-300bc-632::c4",
-      "palmyrene-100bc-273ce::c1",
-      "sassanid-484-651::w2",
-      "sumer-2900bc-2334bc::w4",
-      "uruk-3800bc-2900bc::p5",
-      "uruk-3800bc-2900bc::xc5",
-      "uruk-3800bc-2900bc::w3"
     ],
     "Aramaeans": [
       "assyria-1400bc-1050bc::c5",
@@ -63049,9 +63664,6 @@
       "babylon-2004bc-1595bc::k11",
       "babylon-2004bc-1595bc::c6",
       "egypt-1550bc-1200bc::k17"
-    ],
-    "Hatti": [
-      "assyria-1400bc-1050bc::xc3"
     ],
     "Lebanese": [
       "assyria-1400bc-1050bc::xc4"
@@ -65777,10 +66389,6 @@
       "canaan-2000bc-1200bc::x1",
       "canaan-2000bc-1200bc::w1",
       "egypt-1550bc-1200bc::b3"
-    ],
-    "Lapis": [
-      "babylon-1595bc-1155bc::xc3",
-      "egypt-6000bc-3000bc::ex3"
     ],
     "Qal'at al-Bahrain": [
       "babylon-1595bc-1155bc::xc4",
@@ -68885,9 +69493,6 @@
       "mamluks-1250-1517::c8",
       "phoenicia-1200bc-539bc::x2"
     ],
-    "Lycian": [
-      "caliphate-632-750::tc3"
-    ],
     "Masts": [
       "caliphate-632-750::tc3",
       "levant-634-750::c2"
@@ -69290,11 +69895,6 @@
     "Khurramiyya": [
       "caliphate-750-945::c3"
     ],
-    "Anatolian": [
-      "caliphate-750-945::c4",
-      "caliphate-750-945::w4",
-      "mesopotamia-6500bc-3800bc::xc1"
-    ],
     "Amorion": [
       "caliphate-750-945::c4"
     ],
@@ -69396,10 +69996,6 @@
     ],
     "Hamdanids of Mosul": [
       "caliphate-750-945::c9"
-    ],
-    "Tarsus": [
-      "caliphate-750-945::o2",
-      "egypt-641-969::c5"
     ],
     "Ahmad ibn Hanbal": [
       "caliphate-750-945::o2",
@@ -79272,10 +79868,6 @@
     "Susa Wealth": [
       "elam-3200bc-1500bc::ec2"
     ],
-    "Tin": [
-      "elam-3200bc-1500bc::ec1",
-      "magan-3000bc-1200bc::tc4"
-    ],
     "Lapis Lazuli": [
       "elam-3200bc-1500bc::ec1"
     ],
@@ -81458,10 +82050,6 @@
       "portuguese-gulf-1507-1650::tc4",
       "portuguese-gulf-1507-1650::x2",
       "spain-1516-1700::c12"
-    ],
-    "Moscow": [
-      "france-1789-1815::w1",
-      "spain-1900-1975::k9"
     ],
     "Confederation of the Rhine": [
       "france-1789-1815::w1"
@@ -90707,9 +91295,6 @@
     "Rise of the First Levantine Towns": [
       "levant-neolithic-10000bc-2000bc::w2"
     ],
-    "Early Bronze Age": [
-      "levant-neolithic-10000bc-2000bc::w2"
-    ],
     "Skeletal Evidence of Dietary Change": [
       "levant-neolithic-10000bc-2000bc::l1",
       "zagros-elam-8000bc-3200bc::l1"
@@ -91295,9 +91880,6 @@
       "mamluks-1250-1517::t4"
     ],
     "Adana": [
-      "mamluks-1250-1517::c9"
-    ],
-    "Taurus": [
       "mamluks-1250-1517::c9"
     ],
     "Chaul": [
@@ -92424,10 +93006,6 @@
       "mesopotamia-2334bc-2004bc::k3",
       "mesopotamia-2334bc-2004bc::k4"
     ],
-    "Sargon": [
-      "mesopotamia-2334bc-2004bc::k1",
-      "mesopotamia-2334bc-2004bc::c1"
-    ],
     "Kish Tell al-Uhaymir": [
       "mesopotamia-2334bc-2004bc::k2",
       "sumer-2900bc-2334bc::k1",
@@ -92808,9 +93386,6 @@
     "Susa Shush": [
       "mesopotamia-539bc-331bc::g1"
     ],
-    "Rich": [
-      "mesopotamia-539bc-331bc::w1"
-    ],
     "Achaemenid Babylonia": [
       "mesopotamia-539bc-331bc::w1"
     ],
@@ -92935,10 +93510,6 @@
       "mesopotamia-6500bc-3800bc::e2",
       "sumer-2900bc-2334bc::e1",
       "zagros-elam-8000bc-3200bc::ec2"
-    ],
-    "Wool": [
-      "mesopotamia-6500bc-3800bc::e3",
-      "uruk-3800bc-2900bc::e3"
     ],
     "Craft": [
       "mesopotamia-6500bc-3800bc::e4"
@@ -97230,11 +97801,6 @@
     "Empire-wide Africa": [
       "rome-200-300::w2"
     ],
-    "Pontic": [
-      "rome-200-300::w3",
-      "rome-300-400::w2",
-      "rome-400-500::s1"
-    ],
     "Ukraine/Romania": [
       "rome-200-300::w3"
     ],
@@ -99508,9 +100074,6 @@
     "Alabaster": [
       "south-arabia-1200bc-300bc::ex3"
     ],
-    "Lyres": [
-      "south-arabia-1200bc-300bc::ex6"
-    ],
     "Dating the Sabaean": [
       "south-arabia-1200bc-300bc::t1"
     ],
@@ -100023,9 +100586,6 @@
     ],
     "Sabir Ware": [
       "south-arabia-prehistory-8000bc-1200bc::ex2"
-    ],
-    "Cast": [
-      "south-arabia-prehistory-8000bc-1200bc::ex4"
     ],
     "Shell": [
       "south-arabia-prehistory-8000bc-1200bc::ex5"

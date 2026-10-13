@@ -1436,6 +1436,16 @@ const SELECTED_PAIRS = [
   ['anatolia-10000bc-3000bc::x4', 'mesopotamia-6500bc-3800bc::xc4'],      // Ubaid goods up the Euphrates to Cilicia
   ['anatolia-10000bc-3000bc::o2', 'mesopotamia-6500bc-3800bc::o2'],      // stamp seals in Anatolia and the Mesopotamian north
   ['anatolia-10000bc-3000bc::b6', 'mesopotamia-6500bc-3800bc::p3'],      // Halaf of Domuztepe -> the Halaf painted-pottery north
+  ['anatolia-3000bc-2000bc::c4', 'mesopotamia-2334bc-2004bc::k1'],      // Sargon of Akkad: the legend of his march to Purushanda
+  ['anatolia-3000bc-2000bc::w1', 'mesopotamia-2334bc-2004bc::w1'],      // the 4.2 ka drought and Anatolia
+  ['anatolia-3000bc-2000bc::ec1', 'sumer-2900bc-2334bc::g2'],      // the question of where early bronze got its tin
+  ['anatolia-3000bc-2000bc::ec1', 'elam-3200bc-1500bc::ec1'],      // tin and lapis routes
+  ['anatolia-3000bc-2000bc::x3', 'sumer-2900bc-2334bc::xc2'],      // lapis roads reaching Troy
+  ['anatolia-3000bc-2000bc::x3', 'uruk-3800bc-2900bc::xc3'],      // lapis road
+  ['anatolia-3000bc-2000bc::e5', 'sumer-2900bc-2334bc::x4'],      // lyres of the Ur tombs and the lyres on Anatolian seals
+  ['anatolia-3000bc-2000bc::p9', 'anatolia-10000bc-3000bc::c3'],      // the burnt palace and what followed on the mound
+  ['anatolia-3000bc-2000bc::p10', 'anatolia-10000bc-3000bc::w4'],      // Kura-Araxes in eastern Anatolia
+  ['anatolia-3000bc-2000bc::x2', 'anatolia-10000bc-3000bc::w4'],      // Kura-Araxes network
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
