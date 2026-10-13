@@ -1819,6 +1819,17 @@ const SELECTED_PAIRS = [
   ['caucasus-645-884::x2', 'byzantine-anatolia-632-867::w4'],      // Armenians in Byzantium
   ['caucasus-645-884::w1', 'caliphate-750-945::k6'],      // the Abbasid caliphs of the Samarra period
   ['caucasus-645-884::p2', 'caliphate-750-945::k6'],      // al-Mu'tasim and the commander Afshin
+  ['caucasus-884-1064::c3', 'byzantine-anatolia-867-1071::c5'],      // Basil II's wars in Georgia
+  ['caucasus-884-1064::p7', 'byzantine-anatolia-867-1071::p6'],      // Basil II and David of Tao
+  ['caucasus-884-1064::c5', 'byzantine-anatolia-867-1071::c6'],      // the annexation of Ani
+  ['caucasus-884-1064::c4', 'byzantine-anatolia-867-1071::p6'],      // Basil II and Vaspurakan
+  ['caucasus-884-1064::o4', 'byzantine-anatolia-867-1071::p6'],      // the Byzantine eastern themes
+  ['caucasus-884-1064::c6', 'iran-1055-1219::p2'],      // Alp Arslan and the fall of Ani
+  ['caucasus-884-1064::c6', 'caliphate-945-1258::k10'],      // Alp Arslan and Malik-Shah
+  ['caucasus-884-1064::w2', 'caliphate-945-1258::k9'],      // the Seljuks take Baghdad and the highlands
+  ['caucasus-884-1064::c7', 'caliphate-945-1258::c1'],      // the Seljuk takeover and the Turkmen raids
+  ['caucasus-884-1064::x1', 'seljuks-of-rum-1071-1308::p9'],      // Turkmen dynasties and Armenian settlements in the west
+  ['caucasus-884-1064::p2', 'byzantine-anatolia-867-1071::p4'],      // Byzantine power in the east under the Phokas emperors
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
