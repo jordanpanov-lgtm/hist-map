@@ -1,0 +1,972 @@
+{
+  "id": "caucasus-1917-1921",
+  "title": "The Three Republics",
+  "subtitle": "1917–1921 · The Transcaucasian Federation, Three Independences, the Wars between Neighbours and Sovietisation",
+  "period": {
+    "start": 1917,
+    "end": 1921
+  },
+  "region": "Caucasus",
+  "period_label": "Modern",
+  "mapCenter": [
+    41,
+    45.5
+  ],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "The Transcaucasian Commissariat and Seim, then the Georgian, Armenian and Azerbaijani governments and the Baku Commune",
+      "entries": [
+        {
+          "id": "p1",
+          "group": "The Transcaucasian Federation",
+          "dynasty": "Federation",
+          "label": "The Commissariat and the Seim",
+          "date": "1917 (November)–1918 (May)",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "After the Bolshevik coup in Petrograd the Transcaucasian Commissariat was formed in Tbilisi in November 1917 by Georgian, Armenian and Muslim parties; in February 1918 a legislature, the Seim, made up of deputies elected to the Russian Constituent Assembly, met under Nikolai Chkheidze, and on 22 April 1918 it declared the Transcaucasian Democratic Federative Republic, which lasted until 26 May.",
+          "tag": "APPOINTED",
+          "note": "Richard Hovannisian, The Republic of Armenia, vol. 1 (1971); Ronald Suny, The Making of the Georgian Nation (1994); Tadeusz Swietochowski, Russian Azerbaijan (1985).",
+          "keywords": ["Federation","Tbilisi","Seim","Petrograd the Transcaucasian Commissariat","Russian Constituent Assembly","Nikolai Chkheidze"],
+          "xlinks": ["caucasus-1878-1917::p3"]
+        },
+        {
+          "id": "p2",
+          "group": "Georgia",
+          "dynasty": "Mensheviks",
+          "label": "The Democratic Republic of Georgia",
+          "date": "1918–1921",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Georgia declared independence on 26 May 1918, under Noe Ramishvili at first and then as a government of the Menshevik Social Democrats under Noe Zhordania (June 1918–February 1921); the republic had a constituent assembly elected in February 1919, carried out a land reform, and was recognised by the Allied powers de jure on 27 January 1921, just before it fell.",
+          "tag": "SUCCESSION",
+          "note": "Suny 1994; Noe Zhordania, My Life (1968).",
+          "keywords": ["Mensheviks","Tbilisi","Democratic Republic of Georgia","Noe Ramishvili","Menshevik Social Democrats","Noe Zhordania June"]
+        },
+        {
+          "id": "p3",
+          "group": "Armenia",
+          "dynasty": "Dashnaks",
+          "label": "The Republic of Armenia",
+          "date": "1918–1920",
+          "loc": "Yerevan",
+          "coords": [
+            40.18,
+            44.51
+          ],
+          "hint": "Armenia declared independence on 28 May 1918 in a small territory around Yerevan, Ejmiatsin and Lake Sevan, under the Armenian National Council led by the Dashnaks, with prime ministers Hovhannes Kajaznuni (1918–1919), Alexander Khatisian (1919–1920), Hamo Ohanjanyan and Simon Vratsian (1920); crowded with some 400,000 refugees, in famine and blockade, it was crushed between the Turkish and Soviet armies in late 1920.",
+          "tag": "SUCCESSION",
+          "note": "Hovannisian 1971–1996; Simon Vratsian, The Republic of Armenia (1928).",
+          "keywords": ["Dashnaks","Yerevan","Armenia","Lake Sevan","Armenian National Council","Hovhannes Kajaznuni"]
+        },
+        {
+          "id": "p4",
+          "group": "Azerbaijan",
+          "dynasty": "Musavat",
+          "label": "The Azerbaijan Democratic Republic",
+          "date": "1918–1920",
+          "loc": "Ganja and Baku",
+          "coords": [
+            40.68,
+            46.36
+          ],
+          "hint": "The Azerbaijani National Council led by Mammad Amin Rasulzade proclaimed the republic on 28 May 1918 in Tbilisi, with Fatali Khan Khoyski as prime minister; the government moved to Ganja and, after the Ottoman–Azerbaijani army took Baku in September 1918, to Baku, and ran a parliament (opened December 1919) until Soviet power on 28 April 1920. It was the first republic in the Muslim world.",
+          "tag": "SUCCESSION",
+          "note": "Swietochowski 1985; Audrey Altstadt, The Azerbaijani Turks (1992); Mammad Amin Rasulzade, Azerbaijan Republic.",
+          "keywords": ["Musavat","Ganja","Baku","Azerbaijan Democratic Republic","Azerbaijani National Council","Mammad Amin Rasulzade"]
+        },
+        {
+          "id": "p5",
+          "group": "Soviet Power",
+          "dynasty": "Bolsheviks",
+          "label": "The Baku Commune",
+          "date": "1918 (April–July)",
+          "loc": "Baku",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "In Baku, where the Bolsheviks and their allies controlled the soviet, Stepan Shaumian led the Baku Commune from April 1918, with Armenian Dashnak and Socialist Revolutionary support and a Red Guard; it nationalised the oil industry, fought the Muslim forces and in July 1918 resigned when a vote called in British help, being replaced by the Centro-Caspian Dictatorship.",
+          "tag": "COUP",
+          "note": "Ronald Suny, The Baku Commune 1917–1918 (1972).",
+          "keywords": ["Bolsheviks","Baku Commune","Stepan Shaumian","Armenian Dashnak","Socialist Revolutionary","Red Guard"]
+        },
+        {
+          "id": "p6",
+          "group": "Soviet Power",
+          "dynasty": "Bolsheviks",
+          "label": "Sovietisation",
+          "date": "1920–1921",
+          "loc": "Baku, Yerevan and Tbilisi",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "Soviet power came to Azerbaijan on 28 April 1920 with the Red Army's entry into Baku, to Armenia on 2 December 1920 by agreement between the Dashnaks and the Soviet envoy after Turkish victory, and to Georgia on 25 February 1921 by invasion; in March 1922 the three were joined in the Transcaucasian Federation.",
+          "tag": "COUP",
+          "note": "Suny 1994; Hovannisian 1971–1996.",
+          "keywords": ["Bolsheviks","Baku","Yerevan","Tbilisi","Sovietisation","Red Army"]
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "The Ottoman advance, Sardarabad, the March Days and September 1918 in Baku, the Georgian–Armenian war, Karabakh and Zangezur, and the Red Army",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Ottoman Advance",
+          "label": "The Ottoman offensive and the Treaty of Batum",
+          "date": "1918 (April–June)",
+          "loc": "Batum, Kars and Alexandropol",
+          "coords": [
+            41.65,
+            41.64
+          ],
+          "hint": "When the Transcaucasian delegates at the Trebizond talks refused to accept Brest-Litovsk's cession of Kars, Ardahan and Batum, the Ottoman army advanced in April 1918, took Batum, Kars and Alexandropol and in May moved on Erivan and Tbilisi; the republic dissolved, and on 4 June the three new states signed the treaties of Batum under duress.",
+          "tag": "WAR",
+          "note": "Hovannisian 1971; Swietochowski 1985.",
+          "keywords": ["Batum","Kars","Alexandropol","Ottoman"],
+          "xlinks": ["anatolia-1908-1923::c6"]
+        },
+        {
+          "id": "c2",
+          "group": "The Ottoman Advance",
+          "label": "Sardarabad",
+          "date": "1918 (21–29 May)",
+          "loc": "Sardarabad, Bash Abaran and Karakilisa",
+          "coords": [
+            40.1,
+            43.9
+          ],
+          "hint": "In the last days of May 1918 Armenian forces, supported by the population, stopped the Ottoman Third Army's advance at three battles, Sardarabad, Bash Abaran and Karakilisa, which preserved Armenia's survival and allowed the proclamation of a republic on 28 May; the date is celebrated in Armenia as the day of the republic.",
+          "tag": "BATTLE",
+          "note": "Hovannisian 1971; Christopher Walker, Armenia: The Survival of a Nation (1980).",
+          "keywords": ["Sardarabad","Bash Abaran","Karakilisa","Ottoman Third Army"]
+        },
+        {
+          "id": "c3",
+          "group": "Baku",
+          "label": "The March Days",
+          "date": "1918 (30 March–2 April)",
+          "loc": "Baku",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "In four days of March 1918 the forces of the Baku soviet, with Armenian Dashnak units, fought the Muslim Musavat and the Azerbaijani population of Baku after a Muslim–Bolshevik dispute over the disarming of a Muslim unit; many thousands of Azerbaijani civilians were killed in the city, with estimates ranging from some 3,000 to over 12,000, and in the following weeks fighting and massacres took place in Shamakhi, Quba and other districts, where Armenian villagers also suffered; the events remain deeply contested.",
+          "tag": "CIVIL WAR",
+          "note": "Suny 1972; Swietochowski 1985; Altstadt 1992.",
+          "keywords": ["Baku","March Days","Armenian Dashnak","Muslim Musavat"]
+        },
+        {
+          "id": "c4",
+          "group": "Baku",
+          "label": "Baku in September 1918",
+          "date": "1918 (15 September)",
+          "loc": "Baku",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "When the Ottoman–Azerbaijani Army of Islam under Nuri Pasha took Baku on 15 September 1918 after the British had withdrawn the Dunsterforce, a massacre of Armenians followed in the city, in which, by estimates ranging from some 9,000 to 30,000, many were killed; Armenian sources describe it as a deliberate massacre, while Azerbaijani accounts stress the earlier killings of Muslims.",
+          "tag": "SACK",
+          "note": "Swietochowski 1985; Suny 1972; Hovannisian 1971.",
+          "keywords": ["Baku","September","Ottoman–Azerbaijani Army of Islam","Nuri Pasha"]
+        },
+        {
+          "id": "c5",
+          "group": "Baku",
+          "label": "The execution of the twenty-six commissars",
+          "date": "1918 (20 September)",
+          "loc": "Transcaspia",
+          "coords": [
+            39,
+            56
+          ],
+          "hint": "Twenty-six leaders of the Baku Commune, among them Shaumian, Dzhaparidze and Fioletov, who had fled by sea, were taken by the Transcaspian Social Revolutionary government and shot on 20 September 1918 near Krasnovodsk, an event which Soviet history made into a founding martyrdom and for which blame was laid on the British.",
+          "tag": "EVENT",
+          "note": "Suny 1972; Soviet and British documents.",
+          "keywords": ["Transcaspia","Baku Commune","Transcaspian Social Revolutionary"]
+        },
+        {
+          "id": "c6",
+          "group": "Wars between the Republics",
+          "label": "The Georgian–Armenian war",
+          "date": "1918 (December)",
+          "loc": "Lori and Akhalkalaki",
+          "coords": [
+            41,
+            44.5
+          ],
+          "hint": "In December 1918 war broke out over the districts of Lori and Akhalkalaki, which were claimed by both republics, with fighting for three weeks until a British-brokered armistice of 31 December; a conference at Tbilisi in January 1919 left Lori as a neutral zone under British mediation. It left a legacy of distrust.",
+          "tag": "WAR",
+          "note": "Hovannisian 1971; Suny 1994.",
+          "keywords": ["Lori","Akhalkalaki","Georgian–Armenian"]
+        },
+        {
+          "id": "c7",
+          "group": "Karabakh, Zangezur and Nakhchivan",
+          "label": "Karabakh and Zangezur",
+          "date": "1918–1920",
+          "loc": "Shusha, Zangezur and Nakhchivan",
+          "coords": [
+            39.76,
+            46.75
+          ],
+          "hint": "Armenians and Azerbaijanis fought over Karabakh, Zangezur and Nakhchivan in 1918–1920, with irregular troops and, in Zangezur, the forces of Andranik Ozanian and later Garegin Nzhdeh; the Armenian National Council of Karabakh refused Azerbaijani rule while the ADR named Khosrov bey Sultanov as governor-general in 1919, and the British command attempted provisional settlements. The attacks on Muslims in Zangezur and on Armenians in Shusha in March 1920, in which the Armenian quarter of Shusha was burnt and large numbers killed, are recounted in different ways by the two sides.",
+          "tag": "WAR",
+          "note": "Hovannisian 1971–1996; Swietochowski 1985; Altstadt 1992.",
+          "keywords": ["Shusha","Zangezur","Nakhchivan","Andranik Ozanian","Garegin Nzhdeh","Armenian National Council of Karabakh"]
+        },
+        {
+          "id": "c8",
+          "group": "Sovietisation",
+          "label": "The Turkish–Armenian war",
+          "date": "1920 (September–December)",
+          "loc": "Kars and Alexandropol",
+          "coords": [
+            40.6,
+            43.1
+          ],
+          "hint": "In September 1920 Kâzım Karabekir's Turkish army, in the national struggle, attacked Armenia, took Kars in October and Alexandropol in November, and the treaty of Alexandropol (2–3 December) forced Armenia to give up the Treaty of Sèvres and its territories; the Dashnak government then handed over power to the Bolsheviks on 2 December.",
+          "tag": "WAR",
+          "note": "Treaty of Alexandropol (2–3 December 1920); Hovannisian 1971–1996.",
+          "keywords": ["Kars","Alexandropol","Turkish–Armenian","Kâzım Karabekir Turkish"],
+          "xlinks": ["anatolia-1908-1923::o6","anatolia-1908-1923::p9"]
+        },
+        {
+          "id": "c9",
+          "group": "Sovietisation",
+          "label": "The Red Army enters Georgia and the February rising in Armenia",
+          "date": "1921 (February–April)",
+          "loc": "Tbilisi and Yerevan",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "On 11–12 February 1921 Georgian Bolsheviks, with Red Army forces, began an invasion from Azerbaijan and Armenia, and the Menshevik government was forced to withdraw from Tbilisi on 25 February and to evacuate with the troops to Batum and then to France; in Armenia, an anti-Soviet revolt of 18 February led by Dashnaks held Yerevan until early April before being put down.",
+          "tag": "INVASION",
+          "note": "Suny 1994; Hovannisian 1971–1996.",
+          "keywords": ["Tbilisi","Yerevan","Red Army","Georgia","February","Armenia"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "Brest-Litovsk, the declarations of 26 and 28 May 1918, Batum, the constitution of Georgia and the Karabakh decision of 1921",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Treaties and Declarations",
+          "label": "The treaty of Brest-Litovsk",
+          "date": "1918 (3 March)",
+          "loc": "Brest-Litovsk",
+          "coords": [
+            52.1,
+            23.7
+          ],
+          "hint": "By the treaty of Brest-Litovsk, Soviet Russia ceded to the Ottoman Empire the districts of Kars, Ardahan and Batum, taken in 1878, which the people of the Caucasus had not been consulted on; the Transcaucasian government rejected it and went to war on that ground.",
+          "tag": "TREATY",
+          "note": "Treaty of Brest-Litovsk, art. 4 (3 March 1918); Hovannisian 1971.",
+          "keywords": ["Brest-Litovsk","Soviet Russia","Ottoman Empire"]
+        },
+        {
+          "id": "o2",
+          "group": "Treaties and Declarations",
+          "label": "The declarations of 26 and 28 May 1918",
+          "date": "1918 (26–28 May)",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "After Georgia's leaders, with German support, declared independence on 26 May 1918, the Azerbaijani National Council did so on 27–28 May and the Armenian National Council on 28 May, ending the Transcaucasian Federation; the three states had borders drawn by the war and by the treaties of Batum.",
+          "tag": "DOCUMENT",
+          "note": "Declarations of independence (26, 27–28 May 1918); Suny 1994.",
+          "keywords": ["Tbilisi","May","Azerbaijani National Council","Armenian National Council","Transcaucasian Federation"]
+        },
+        {
+          "id": "o3",
+          "group": "Constitutions and Law",
+          "label": "The constitution of Georgia",
+          "date": "1921 (21 February)",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "The constituent assembly of Georgia adopted on 21 February 1921, as Soviet troops advanced on the capital, a constitution of democratic type with a unicameral parliament, a government responsible to it, local self-government, autonomy for Abkhazia, Adjara and Zakatala and equal rights for women; it was in force for four days.",
+          "tag": "CONSTITUTION",
+          "note": "Constitution of the Democratic Republic of Georgia (21 February 1921); Suny 1994.",
+          "keywords": ["Tbilisi","Georgia"]
+        },
+        {
+          "id": "o4",
+          "group": "Treaties and Declarations",
+          "label": "The treaties of Moscow and Kars",
+          "date": "1921 (16 March–13 October)",
+          "loc": "Moscow and Kars",
+          "coords": [
+            55.75,
+            37.62
+          ],
+          "hint": "The treaty of Moscow of 16 March 1921 between Soviet Russia and the Ankara government, and the treaty of Kars of 13 October 1921 between Turkey and the Soviet republics of Armenia, Azerbaijan and Georgia, fixed the frontier of Turkey in the northeast, leaving Kars and Ardahan to Turkey, Batum to Georgia and Nakhchivan under Azerbaijan; the line is the modern boundary.",
+          "tag": "TREATY",
+          "note": "Treaties of Moscow and Kars (1921); Hovannisian 1971–1996.",
+          "keywords": ["Moscow","Kars","Soviet Russia"],
+          "xlinks": ["anatolia-1908-1923::x3"]
+        },
+        {
+          "id": "o5",
+          "group": "Treaties and Declarations",
+          "label": "The Caucasian Bureau and the decision on Karabakh",
+          "date": "1921 (4–5 July)",
+          "loc": "Tbilisi",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "On 4 July 1921 the Caucasian Bureau of the Russian Communist Party voted to attach Nagorno-Karabakh to Soviet Armenia, and the next day, under the pressure of Stalin and Azerbaijani leaders, reversed the decision and left it within Soviet Azerbaijan with wide autonomy. The origin of the dispute is cited by both sides.",
+          "tag": "DECREE",
+          "note": "Protocols of the Kavbiuro (4–5 July 1921); Suny 1994; Altstadt 1992.",
+          "keywords": ["Tbilisi","Karabakh","Caucasian Bureau of the Russian Communist Party","Soviet Armenia","Soviet Azerbaijan"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "The churches under the republics and the Islamic congresses",
+      "entries": [
+        {
+          "id": "b2",
+          "group": "Islam",
+          "label": "The Islamic congresses and Sunni–Shia unity",
+          "date": "1917–1920",
+          "loc": "Baku",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "The Muslim Spiritual Board of Transcaucasia, with its Sunni and Shia heads, took part in the Azerbaijani national movement; the republic's parliament set out religious freedom and the separation of religion and education, and the Azerbaijani state sought to hold the Islamic institutions within a secular national framework.",
+          "tag": "EVIDENCE",
+          "note": "Altstadt 1992; Swietochowski 1985.",
+          "keywords": ["Baku","Islamic","Sunni–Shia","Muslim Spiritual Board of Transcaucasia"]
+        },
+        {
+          "id": "b1",
+          "group": "Churches",
+          "label": "The churches under the republics",
+          "date": "1918–1921",
+          "loc": "Etchmiadzin and Mtskheta",
+          "coords": [
+            40.16,
+            44.29
+          ],
+          "hint": "The Armenian Church at Etchmiadzin under the Catholicos Gevorg V and the Georgian church, under Kirion II until his murder in 1918 and then under its locum tenens, now free of the Russian Synod, ran refugee relief, orphanages and schools in the republics, and the Georgian Menshevik government kept the church separate from the state; the church's land was seized by the Georgian land reform.",
+          "tag": "EVIDENCE",
+          "note": "Suny 1994; Hovannisian 1971.",
+          "keywords": ["Etchmiadzin","Mtskheta","Armenian Church","Catholicos Gevorg V","Kirion II","Russian Synod"],
+          "xlinks": ["caucasus-1878-1917::b1"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "The universities and national museums, the poets of independence and the Armenian and Georgian press",
+      "entries": [
+        {
+          "id": "e2",
+          "group": "Culture and Education",
+          "label": "The poets and artists of independence",
+          "date": "1917–1921",
+          "loc": "Tbilisi, Yerevan and Baku",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "In the republics Georgian symbolist poets of the Blue Horns (Galaktion Tabidze, Paolo Iashvili, Titsian Tabidze), Armenian writers such as Avetik Isahakyan, Yeghishe Charents and Vahan Terian, and Azerbaijani poets such as Hadi, Jabbarli and Hussein Javid, produced work in the new national states, and Martiros Saryan and Gigo Gabashvili painted.",
+          "tag": "TEXT",
+          "note": "Literary histories; Suny 1994; Swietochowski 1985.",
+          "keywords": ["Tbilisi","Yerevan","Baku","Blue Horns Galaktion Tabidze","Paolo Iashvili","Titsian Tabidze"]
+        },
+        {
+          "id": "e1",
+          "group": "Culture and Education",
+          "label": "The universities of the republics",
+          "date": "1918–1920",
+          "loc": "Tbilisi, Yerevan and Baku",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "Tbilisi State University was opened in February 1918 under Ivane Javakhishvili, the first Georgian university; Yerevan State University opened in 1919, and Baku State University in September 1919 under the Azerbaijani government, together with new national libraries, museums and academies, which for the first time gave each nation its own high education.",
+          "tag": "MONUMENT",
+          "note": "University charters (1918, 1919); Suny 1994; Altstadt 1992.",
+          "keywords": ["Tbilisi State University","Ivane Javakhishvili","Yerevan State University","Baku State University"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "The Mensheviks, the Dashnaks and Musavat in power",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "The Governing Parties",
+          "label": "The Mensheviks, the Dashnaks and Musavat in power",
+          "date": "1918–1920",
+          "loc": "Tbilisi, Yerevan and Baku",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "The three states were governed by the parties that had led their national movements: the Georgian Social Democrats under Zhordania (a Menshevik government with a socialist programme), the Armenian Revolutionary Federation (a nationalist-socialist party) and Musavat in Azerbaijan, with socialist and liberal allies, in an experiment in democratic socialism or national democracy cut short after three years.",
+          "tag": "IDEA",
+          "note": "Suny 1994; Hovannisian 1971–1996; Swietochowski 1985.",
+          "keywords": ["Tbilisi","Yerevan","Baku","Mensheviks","Dashnaks","Musavat"],
+          "xlinks": ["caucasus-1878-1917::t1","caucasus-1878-1917::t2","caucasus-1878-1917::t3"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "The oil under three occupations, the blockade and famine of Armenia, and the Georgian land reform",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Oil and Transit",
+          "label": "The oil under the Commune, the Turks and the British",
+          "date": "1918–1920",
+          "loc": "Baku and Batum",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "Baku's oil was nationalised by the Commune in 1918, taken by the Ottomans and Germans in the autumn, controlled by the British who ran the Baku–Batum pipeline and railway in 1919–1920, and finally taken by the Red Army in April 1920; for the Allies Baku's oil and the Batum export route were the chief reasons for staying in the Caucasus.",
+          "tag": "ECONOMIC",
+          "note": "Altstadt 1992; Swietochowski 1985.",
+          "keywords": ["Batum","Commune","Turks","British","Red Army","Allies Baku"],
+          "xlinks": ["caucasus-1878-1917::ec1"]
+        },
+        {
+          "id": "ec2",
+          "group": "Hunger and Reform",
+          "label": "The blockade and famine in Armenia",
+          "date": "1919–1920",
+          "loc": "Yerevan and Alexandropol",
+          "coords": [
+            40.18,
+            44.51
+          ],
+          "hint": "Cut off by the closing of its borders by Turkey, Georgia and Azerbaijan, and crowded with refugees, Armenia suffered famine and typhus in the winters of 1918–1919 and 1919–1920, in which, by estimates, 150,000 to 200,000 people died; American relief, Herbert Hoover's relief administration and the Near East Relief, sent flour and clothing.",
+          "tag": "EVIDENCE",
+          "note": "Hovannisian 1971–1996; Near East Relief reports.",
+          "keywords": ["Yerevan","Alexandropol","Armenia","Herbert Hoover","Near East Relief"],
+          "xlinks": ["anatolia-1908-1923::c7"]
+        },
+        {
+          "id": "ec3",
+          "group": "Hunger and Reform",
+          "label": "The Georgian land reform",
+          "date": "1919",
+          "loc": "Georgia",
+          "coords": [
+            41.72,
+            44.79
+          ],
+          "hint": "The Georgian Menshevik government, by the land laws of 1919, took the lands of the nobles, church and state, left each landowner a small holding and distributed them to the peasants, ending feudal landholding; the peasants largely supported the republic.",
+          "tag": "LAW",
+          "note": "Land reform laws (1919); Suny 1994.",
+          "keywords": ["Georgia","Georgian Menshevik"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "The railways as strategy, the Baku pipeline and the telegraph",
+      "entries": [
+        {
+          "id": "g1",
+          "group": "Communications",
+          "label": "The railways and the telegraph in the wars",
+          "date": "1918–1921",
+          "loc": "Transcaucasia",
+          "coords": [
+            41,
+            44.5
+          ],
+          "hint": "The Transcaucasian railways and the telegraph, built under Russian rule, became strategic tools of the new states; their lines were fought over in the Ottoman advance, the Georgian–Armenian war and the Soviet invasion, and the closing of the lines was the chief weapon in the blockades.",
+          "tag": "EVIDENCE",
+          "note": "Hovannisian 1971–1996; Suny 1994.",
+          "keywords": ["Transcaucasia"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "The German, Ottoman and British presences, the Paris Peace Conference and relief",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Great Powers and Relief",
+          "label": "The Germans, the British and the Allies",
+          "date": "1918–1921",
+          "loc": "Poti, Batum and Paris",
+          "coords": [
+            41.65,
+            41.64
+          ],
+          "hint": "German troops under Kress von Kressenstein held Georgia under the treaty of Poti of 28 May 1918; the British occupied Baku and the oilfields and Batum from late 1918, and withdrew in 1919–1920; at the Paris Peace Conference the delegations of the republics, Boghos Nubar for Armenia, Alimardan Topchubashov for Azerbaijan and Akaki Chkhenkeli for Georgia, were heard, and the Allies recognised them de facto (January 1920).",
+          "tag": "DIPLOMACY",
+          "note": "Treaty of Poti (28 May 1918); Hovannisian 1971–1996; Suny 1994.",
+          "keywords": ["Poti","Batum","Germans","British","Allies","Kress von Kressenstein"]
+        },
+        {
+          "id": "x2",
+          "group": "Great Powers and Relief",
+          "label": "The Wilsonian arbitration",
+          "date": "1920 (22 November)",
+          "loc": "Washington",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "hint": "In the treaty of Sèvres (August 1920) Turkey agreed to leave the boundary with Armenia to the arbitration of President Wilson, who gave on 22 November 1920 an award which allotted to Armenia the Ottoman provinces of Van, Bitlis, Erzurum and Trebizond with a Black Sea outlet; the award, issued when Armenia was falling, could not be enforced.",
+          "tag": "DOCUMENT",
+          "note": "Treaty of Sèvres, arts. 88–93; Wilson's arbitral award (22 November 1920); Hovannisian 1971–1996.",
+          "keywords": ["Washington","Wilsonian","Sèvres August","Armenia the Ottoman","Black Sea"],
+          "xlinks": ["anatolia-1908-1923::o6"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "The refugees, the typhus and the famine winters",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Epidemic & Demographic",
+          "label": "The refugees and the famine winters",
+          "date": "1917–1921",
+          "loc": "Transcaucasia",
+          "coords": [
+            41,
+            44.5
+          ],
+          "hint": "Armenia and Georgia received hundreds of thousands of refugees from the Ottoman Empire and from the front, Azerbaijan and Armenia exchanged and displaced others in the wars, and famine and typhus killed many in the three republics; the population of the territories was altered by war, migration and death.",
+          "tag": "EVIDENCE",
+          "note": "Hovannisian 1971–1996; Altstadt 1992; Suny 1994.",
+          "keywords": ["Transcaucasia","Ottoman Empire"],
+          "xlinks": ["anatolia-1908-1923::c7"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "Women's suffrage, orphans in Alexandropol and the twenty-six commissars",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Women's Agency",
+          "label": "Women's suffrage",
+          "date": "1918–1919",
+          "loc": "Baku and Tbilisi",
+          "coords": [
+            40.37,
+            49.83
+          ],
+          "hint": "Azerbaijan granted women the vote in 1918, and Armenia and Georgia did so in the electoral laws of 1919; the Georgian constituent assembly elected in February 1919 had five women deputies and the Armenian parliament had a woman member, and the Azerbaijani republic was the first in the Muslim world to give women the vote.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Electoral laws of the republics (1918–1919); Altstadt 1992; Suny 1994.",
+          "keywords": ["Baku","Tbilisi","Women"]
+        },
+        {
+          "id": "l3",
+          "group": "Marginalised Communities",
+          "label": "The Muslim and Armenian villagers",
+          "date": "1918–1920",
+          "loc": "Karabakh and Zangezur",
+          "coords": [
+            39.76,
+            46.75
+          ],
+          "hint": "In the mountains of Karabakh and Zangezur, whole villages of Armenians and of Azerbaijanis and Kurds were burnt in the wars, and tens of thousands of villagers were displaced, taking to the hills or to refugee camps, so that the demographic map of the districts changed; the numbers were counted differently by each side.",
+          "tag": "EVIDENCE",
+          "note": "Hovannisian 1971–1996; Altstadt 1992.",
+          "keywords": ["Karabakh","Zangezur","Muslim","Armenian"]
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "label": "The orphans of Alexandropol",
+          "date": "1919–1921",
+          "loc": "Alexandropol (Gyumri)",
+          "coords": [
+            40.79,
+            43.84
+          ],
+          "hint": "In the barracks and camps of Alexandropol, Near East Relief and Armenian committees looked after tens of thousands of orphans and refugees from the Ottoman provinces in 1919–1920, in cold, hunger and typhus, with the orphanage's staff and American relief workers; many were later evacuated to Greece, Syria and Lebanon.",
+          "tag": "EVIDENCE",
+          "note": "Near East Relief reports; Hovannisian 1971–1996.",
+          "keywords": ["Alexandropol Gyumri","Near East Relief"],
+          "xlinks": ["anatolia-1908-1923::c7"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "the-transcaucasian-federation",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "The Transcaucasian Federation",
+      "events": [
+        {
+          "y": 1917,
+          "l": "The Commissariat and the Seim",
+          "entryId": "p1",
+          "y2": 1918
+        }
+      ]
+    },
+    {
+      "id": "georgia",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Georgia",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The Democratic Republic of Georgia",
+          "entryId": "p2",
+          "y2": 1921
+        }
+      ]
+    },
+    {
+      "id": "armenia",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Armenia",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The Republic of Armenia",
+          "entryId": "p3",
+          "y2": 1920
+        }
+      ]
+    },
+    {
+      "id": "azerbaijan",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Azerbaijan",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The Azerbaijan Democratic Republic",
+          "entryId": "p4",
+          "y2": 1920
+        }
+      ]
+    },
+    {
+      "id": "soviet-power",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Soviet Power",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The Baku Commune",
+          "entryId": "p5"
+        },
+        {
+          "y": 1920,
+          "l": "Sovietisation",
+          "entryId": "p6",
+          "y2": 1921
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The Ottoman offensive and the Treaty of Batum",
+          "entryId": "c1"
+        },
+        {
+          "y": 1918,
+          "l": "Sardarabad",
+          "entryId": "c2"
+        },
+        {
+          "y": 1918,
+          "l": "The March Days",
+          "entryId": "c3"
+        },
+        {
+          "y": 1918,
+          "l": "Baku in September 1918",
+          "entryId": "c4"
+        },
+        {
+          "y": 1918,
+          "l": "The execution of the twenty-six commissars",
+          "entryId": "c5"
+        },
+        {
+          "y": 1918,
+          "l": "The Georgian–Armenian war",
+          "entryId": "c6"
+        },
+        {
+          "y": 1918,
+          "l": "Karabakh and Zangezur",
+          "entryId": "c7"
+        },
+        {
+          "y": 1920,
+          "l": "The Turkish–Armenian war",
+          "entryId": "c8"
+        },
+        {
+          "y": 1921,
+          "l": "The Red Army enters Georgia and the February rising in Armenia",
+          "entryId": "c9"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The treaty of Brest-Litovsk",
+          "entryId": "o1"
+        },
+        {
+          "y": 1918,
+          "l": "The declarations of 26 and 28 May 1918",
+          "entryId": "o2"
+        },
+        {
+          "y": 1921,
+          "l": "The constitution of Georgia",
+          "entryId": "o3"
+        },
+        {
+          "y": 1921,
+          "l": "The treaties of Moscow and Kars",
+          "entryId": "o4"
+        },
+        {
+          "y": 1921,
+          "l": "The Caucasian Bureau and the decision on Karabakh",
+          "entryId": "o5"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 1917,
+          "l": "The Islamic congresses and Sunni–Shia unity",
+          "entryId": "b2"
+        },
+        {
+          "y": 1918,
+          "l": "The churches under the republics",
+          "entryId": "b1"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 1917,
+          "l": "The poets and artists of independence",
+          "entryId": "e2"
+        },
+        {
+          "y": 1918,
+          "l": "The universities of the republics",
+          "entryId": "e1"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The Mensheviks, the Dashnaks and Musavat in power",
+          "entryId": "t1"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The oil under the Commune, the Turks and the British",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1919,
+          "l": "The blockade and famine in Armenia",
+          "entryId": "ec2"
+        },
+        {
+          "y": 1919,
+          "l": "The Georgian land reform",
+          "entryId": "ec3"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The railways and the telegraph in the wars",
+          "entryId": "g1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 1918,
+          "l": "The Germans, the British and the Allies",
+          "entryId": "x1"
+        },
+        {
+          "y": 1920,
+          "l": "The Wilsonian arbitration",
+          "entryId": "x2"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 1917,
+          "l": "The refugees and the famine winters",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 1918,
+          "l": "Women's suffrage",
+          "entryId": "l1"
+        },
+        {
+          "y": 1918,
+          "l": "The Muslim and Armenian villagers",
+          "entryId": "l3"
+        },
+        {
+          "y": 1919,
+          "l": "The orphans of Alexandropol",
+          "entryId": "l2"
+        }
+      ]
+    }
+  ]
+}

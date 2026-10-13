@@ -1902,6 +1902,20 @@ const SELECTED_PAIRS = [
   ['caucasus-1878-1917::ec1', 'qajar-1789-1925::ec2'],      // the oil of the Caucasus and Persia
   ['caucasus-1878-1917::o2', 'caucasus-1828-1878::o2'],      // the administration of Transcaucasia
   ['caucasus-1878-1917::p1', 'caucasus-1828-1878::p3'],      // the viceroys of the Caucasus
+  ['caucasus-1917-1921::c8', 'anatolia-1908-1923::p9'],      // Mustafa Kemal and the national movement against Armenia
+  ['caucasus-1917-1921::c8', 'anatolia-1908-1923::o6'],      // the Treaty of Sèvres and its revision at Alexandropol
+  ['caucasus-1917-1921::x2', 'anatolia-1908-1923::o6'],      // the Wilsonian arbitration under Sèvres
+  ['caucasus-1917-1921::o4', 'anatolia-1908-1923::x3'],      // the treaties of Moscow and Kars
+  ['caucasus-1917-1921::w1', 'anatolia-1908-1923::c7'],      // the Armenian refugees from the genocide
+  ['caucasus-1917-1921::ec2', 'anatolia-1908-1923::c7'],      // the famine and relief for survivors
+  ['caucasus-1917-1921::l2', 'anatolia-1908-1923::c7'],      // orphans of the Armenian Genocide
+  ['caucasus-1917-1921::c1', 'anatolia-1908-1923::c6'],      // the Ottoman advance of 1918 and the Russian occupation of eastern Anatolia
+  ['caucasus-1917-1921::p1', 'caucasus-1878-1917::p3'],      // the end of the viceroyalty and the Special Transcaucasian Committee
+  ['caucasus-1917-1921::b1', 'caucasus-1878-1917::b1'],      // the restoration of Georgian autocephaly
+  ['caucasus-1917-1921::ec1', 'caucasus-1878-1917::ec1'],      // Baku oil in the years of war
+  ['caucasus-1917-1921::t1', 'caucasus-1878-1917::t2'],      // the Mensheviks and Mesame Dasi
+  ['caucasus-1917-1921::t1', 'caucasus-1878-1917::t1'],      // the Dashnaks
+  ['caucasus-1917-1921::t1', 'caucasus-1878-1917::t3'],      // Musavat and Hummet
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
