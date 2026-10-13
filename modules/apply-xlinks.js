@@ -1922,6 +1922,14 @@ const SELECTED_PAIRS = [
   ['caucasus-1921-1953::o2', 'caucasus-1917-1921::o5'],      // the Karabakh decision and the autonomous oblast
   ['caucasus-1921-1953::p1', 'caucasus-1917-1921::p6'],      // Sovietisation and the Transcaucasian Federation
   ['caucasus-1921-1953::o3', 'caucasus-1917-1921::o3'],      // the constitutions of Georgia in 1921 and the USSR in 1936
+  ['caucasus-1953-1991::e2', 'anatolia-1908-1923::c7'],      // the memory of the Armenian Genocide and the Yerevan memorial
+  ['caucasus-1953-1991::c3', 'caucasus-1917-1921::o5'],      // the Karabakh decision of 1921 and the movement of 1988
+  ['caucasus-1953-1991::o1', 'caucasus-1921-1953::o2'],      // the autonomous oblast of 1923 and the resolutions of 1988–1989
+  ['caucasus-1953-1991::w1', 'turkey-1980-today::w2'],      // the earthquakes of 1988 and 2023 compared
+  ['caucasus-1953-1991::x1', 'turkey-1980-today::l3'],      // Turkish aid and the Armenian question
+  ['caucasus-1953-1991::p1', 'caucasus-1921-1953::p2'],      // Beria and his successors in Georgia
+  ['caucasus-1953-1991::p2', 'caucasus-1921-1953::p3'],      // Baghirov and Aliyev
+  ['caucasus-1953-1991::ec1', 'caucasus-1921-1953::ec1'],      // Baku oil from the war to the offshore fields
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

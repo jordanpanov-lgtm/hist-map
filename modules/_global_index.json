@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 9134,
-    "folio_count": 191,
-    "xlink_pairs": 1918,
-    "keyword_terms": 14038,
+    "total_entries": 9169,
+    "folio_count": 192,
+    "xlink_pairs": 1926,
+    "keyword_terms": 14092,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -179,6 +179,11 @@
         "id": "caucasus-1921-1953",
         "title": "Soviet Caucasus",
         "entries": 37
+      },
+      {
+        "id": "caucasus-1953-1991",
+        "title": "Soviet Caucasus",
+        "entries": 35
       },
       {
         "id": "caucasus-3500bc-1200bc",
@@ -2687,6 +2692,41 @@
     "caucasus-1921-1953::l1": "The unveiling campaign",
     "caucasus-1921-1953::l3": "The families of the Terror",
     "caucasus-1921-1953::l2": "The Meskhetian deportation",
+    "caucasus-1953-1991::p1": "Mzhavanadze and Shevardnadze in Georgia",
+    "caucasus-1953-1991::p2": "Heydar Aliyev in Azerbaijan",
+    "caucasus-1953-1991::p3": "Demirchyan in Armenia",
+    "caucasus-1953-1991::p4": "Gorbachev's reforms in the republics",
+    "caucasus-1953-1991::p5": "Gamsakhurdia, Ter-Petrosyan and Mutalibov",
+    "caucasus-1953-1991::c1": "The Tbilisi demonstrations of March 1956",
+    "caucasus-1953-1991::c2": "The language protest of 1978",
+    "caucasus-1953-1991::c3": "The Karabakh movement",
+    "caucasus-1953-1991::c4": "Sumgait",
+    "caucasus-1953-1991::c5": "Kirovabad, Baku and Armenian villages",
+    "caucasus-1953-1991::c6": "Tbilisi, 9 April 1989",
+    "caucasus-1953-1991::c8": "Sukhumi, July 1989 and the first conflict in Abkhazia",
+    "caucasus-1953-1991::c9": "South Ossetia and the abolition of the oblast",
+    "caucasus-1953-1991::c7": "Black January",
+    "caucasus-1953-1991::o1": "The Karabakh resolutions",
+    "caucasus-1953-1991::o2": "The acts of sovereignty",
+    "caucasus-1953-1991::o3": "The independence acts of 1991",
+    "caucasus-1953-1991::o4": "The Nagorno-Karabakh Republic",
+    "caucasus-1953-1991::b1": "Vazgen I and Ilia II",
+    "caucasus-1953-1991::b2": "The Spiritual Board of Transcaucasian Muslims",
+    "caucasus-1953-1991::e3": "Mugham, Georgian song and sport",
+    "caucasus-1953-1991::e2": "The Genocide memorial and the Matenadaran",
+    "caucasus-1953-1991::e1": "Parajanov and Abuladze",
+    "caucasus-1953-1991::t1": "The dissidents and the national fronts",
+    "caucasus-1953-1991::ec1": "Oil Rocks and the Caspian",
+    "caucasus-1953-1991::ec2": "The second economy",
+    "caucasus-1953-1991::ec3": "Metsamor and the nuclear plant",
+    "caucasus-1953-1991::g1": "The Arpa–Sevan tunnel",
+    "caucasus-1953-1991::x1": "The diaspora's earthquake aid",
+    "caucasus-1953-1991::x2": "The Nakhchivan border fence",
+    "caucasus-1953-1991::w1": "The Spitak earthquake",
+    "caucasus-1953-1991::w2": "The refugees of the conflicts",
+    "caucasus-1953-1991::l3": "The dissident prisoners",
+    "caucasus-1953-1991::l2": "The refugees of Sumgait and Baku",
+    "caucasus-1953-1991::l1": "The women of 9 April",
     "caucasus-3500bc-1200bc::p1": "The Kura–Araxes horizon",
     "caucasus-3500bc-1200bc::p3": "Nakhchivan — Ovçular Tepesi and Kültepe",
     "caucasus-3500bc-1200bc::p2": "Shengavit — a walled town on the Hrazdan",
@@ -10562,6 +10602,7 @@
       "caucasus-1917-1921::ec2",
       "caucasus-1917-1921::l2",
       "caucasus-1917-1921::w1",
+      "caucasus-1953-1991::e2",
       "ottoman-anatolia-1800-1908::c3",
       "turkey-1980-today::l3",
       "turkey-1980-today::t2"
@@ -10578,8 +10619,12 @@
     "caucasus-1917-1921::w1": [
       "anatolia-1908-1923::c7"
     ],
-    "turkey-1980-today::l3": [
+    "caucasus-1953-1991::e2": [
       "anatolia-1908-1923::c7"
+    ],
+    "turkey-1980-today::l3": [
+      "anatolia-1908-1923::c7",
+      "caucasus-1953-1991::x1"
     ],
     "turkey-1980-today::t2": [
       "anatolia-1908-1923::c7"
@@ -13613,10 +13658,27 @@
       "caucasus-1917-1921::o3"
     ],
     "caucasus-1917-1921::o5": [
-      "caucasus-1921-1953::o2"
+      "caucasus-1921-1953::o2",
+      "caucasus-1953-1991::c3"
     ],
     "caucasus-1921-1953::o2": [
+      "caucasus-1917-1921::o5",
+      "caucasus-1953-1991::o1"
+    ],
+    "caucasus-1953-1991::c3": [
       "caucasus-1917-1921::o5"
+    ],
+    "caucasus-1921-1953::p2": [
+      "caucasus-1953-1991::p1"
+    ],
+    "caucasus-1953-1991::p1": [
+      "caucasus-1921-1953::p2"
+    ],
+    "caucasus-1921-1953::p3": [
+      "caucasus-1953-1991::p2"
+    ],
+    "caucasus-1953-1991::p2": [
+      "caucasus-1921-1953::p3"
     ],
     "caucasus-1921-1953::c6": [
       "pahlavi-1925-1979::c1",
@@ -13630,8 +13692,26 @@
       "caucasus-1921-1953::c6",
       "iraq-1914-1958::xc3"
     ],
+    "caucasus-1953-1991::o1": [
+      "caucasus-1921-1953::o2"
+    ],
+    "caucasus-1921-1953::ec1": [
+      "caucasus-1953-1991::ec1"
+    ],
+    "caucasus-1953-1991::ec1": [
+      "caucasus-1921-1953::ec1"
+    ],
     "caucasus-1921-1953::x2": [
       "pahlavi-1925-1979::c1"
+    ],
+    "caucasus-1953-1991::x1": [
+      "turkey-1980-today::l3"
+    ],
+    "caucasus-1953-1991::w1": [
+      "turkey-1980-today::w2"
+    ],
+    "turkey-1980-today::w2": [
+      "caucasus-1953-1991::w1"
     ],
     "caucasus-3500bc-1200bc::p8": [
       "hittite-1650bc-1180bc::p6"
@@ -29041,6 +29121,208 @@
       "Central Asia",
       "Meskhetian Turks",
       "Hemshin Armenians"
+    ],
+    "caucasus-1953-1991::p1": [
+      "Soviet",
+      "Tbilisi",
+      "Georgia",
+      "Vasil Mzhavanadze",
+      "Eduard Shevardnadze"
+    ],
+    "caucasus-1953-1991::p2": [
+      "Soviet",
+      "Baku",
+      "Heydar Aliyev",
+      "Azerbaijan"
+    ],
+    "caucasus-1953-1991::p3": [
+      "Soviet",
+      "Yerevan",
+      "Armenia",
+      "Karen Demirchyan"
+    ],
+    "caucasus-1953-1991::p4": [
+      "Soviet",
+      "Moscow",
+      "Transcaucasia",
+      "Gorbachev",
+      "Armenian National Movement",
+      "Levon Ter-Petrosyan"
+    ],
+    "caucasus-1953-1991::p5": [
+      "Tbilisi",
+      "Yerevan",
+      "Baku",
+      "Zviad Gamsakhurdia",
+      "Armenian National Movement",
+      "Levon Ter-Petrosyan"
+    ],
+    "caucasus-1953-1991::c1": [
+      "Tbilisi",
+      "March"
+    ],
+    "caucasus-1953-1991::c2": [
+      "Tbilisi"
+    ],
+    "caucasus-1953-1991::c3": [
+      "Stepanakert",
+      "Yerevan",
+      "Karabakh",
+      "Theatre Square"
+    ],
+    "caucasus-1953-1991::c4": [
+      "Sumgait"
+    ],
+    "caucasus-1953-1991::c5": [
+      "Baku",
+      "Armenia",
+      "Armenian",
+      "Kirovabad Ganja"
+    ],
+    "caucasus-1953-1991::c6": [
+      "House",
+      "Tbilisi",
+      "April",
+      "Rustaveli Avenue"
+    ],
+    "caucasus-1953-1991::c8": [
+      "Sukhumi",
+      "July",
+      "Abkhazia",
+      "Tbilisi University"
+    ],
+    "caucasus-1953-1991::c9": [
+      "Tskhinvali",
+      "South Ossetia",
+      "South Ossetian",
+      "North Ossetia"
+    ],
+    "caucasus-1953-1991::c7": [
+      "Baku",
+      "Black January",
+      "Popular Front"
+    ],
+    "caucasus-1953-1991::o1": [
+      "Stepanakert",
+      "Yerevan",
+      "Karabakh",
+      "Supreme Council of Armenia",
+      "Arkady Volsky"
+    ],
+    "caucasus-1953-1991::o2": [
+      "Baku",
+      "Tbilisi",
+      "Yerevan",
+      "Azerbaijan Supreme Soviet",
+      "Armenia Supreme Council",
+      "Declaration of Independence"
+    ],
+    "caucasus-1953-1991::o3": [
+      "Tbilisi",
+      "Yerevan",
+      "Baku",
+      "Constitutional Act",
+      "Soviet Union"
+    ],
+    "caucasus-1953-1991::o4": [
+      "Stepanakert",
+      "Nagorno-Karabakh Republic"
+    ],
+    "caucasus-1953-1991::b1": [
+      "Etchmiadzin",
+      "Tbilisi",
+      "Armenian Catholicos Vazgen I",
+      "Georgian Catholicos-Patriarch Ilia II"
+    ],
+    "caucasus-1953-1991::b2": [
+      "Baku",
+      "Spiritual Board of Transcaucasian Muslims",
+      "Muslim Spiritual Board of Transcaucasia",
+      "Allahshukur Pashazade",
+      "Sunni Muslims of the Caucasus"
+    ],
+    "caucasus-1953-1991::e3": [
+      "Baku",
+      "Mugham",
+      "Georgian",
+      "Kara Karayev",
+      "Fikret Amirov",
+      "Rashid Behbudov"
+    ],
+    "caucasus-1953-1991::e2": [
+      "Yerevan",
+      "Genocide",
+      "Matenadaran",
+      "Arthur Tarkhanyan",
+      "Sashur Kalashyan"
+    ],
+    "caucasus-1953-1991::e1": [
+      "Tbilisi",
+      "Yerevan",
+      "Sergei Parajanov",
+      "Colour of Pomegranates",
+      "Tengiz Abuladze Repentance",
+      "Otar Iosseliani"
+    ],
+    "caucasus-1953-1991::t1": [
+      "Tbilisi",
+      "Baku",
+      "Zviad Gamsakhurdia",
+      "Merab Kostava",
+      "Armenian National United Party of Paruyr Hayrikyan",
+      "Karabakh Committee of Yerevan"
+    ],
+    "caucasus-1953-1991::ec1": [
+      "Oil Rocks",
+      "Caspian",
+      "Neft Daşları Oil Rocks"
+    ],
+    "caucasus-1953-1991::ec2": [
+      "Georgia",
+      "Armenia",
+      "Azerbaijan"
+    ],
+    "caucasus-1953-1991::ec3": [
+      "Metsamor"
+    ],
+    "caucasus-1953-1991::g1": [
+      "Lake Sevan",
+      "Arpa–Sevan"
+    ],
+    "caucasus-1953-1991::x1": [
+      "Spitak",
+      "Leninakan",
+      "Armenian General Benevolent Union",
+      "Soviet Armenia"
+    ],
+    "caucasus-1953-1991::x2": [
+      "Julfa",
+      "Nakhchivan",
+      "Popular Front",
+      "Iranian Azerbaijan",
+      "Day of Solidarity of Azerbaijanis of the World"
+    ],
+    "caucasus-1953-1991::w1": [
+      "Spitak",
+      "Leninakan Gyumri"
+    ],
+    "caucasus-1953-1991::w2": [
+      "Transcaucasia",
+      "Meskhetian Turks"
+    ],
+    "caucasus-1953-1991::l3": [
+      "Georgia",
+      "Armenia",
+      "Armenian Hayrikyan"
+    ],
+    "caucasus-1953-1991::l2": [
+      "Baku",
+      "Sumgait",
+      "Yerevan"
+    ],
+    "caucasus-1953-1991::l1": [
+      "Tbilisi",
+      "April"
     ],
     "caucasus-3500bc-1200bc::p1": [
       "Kura",
@@ -72309,6 +72591,7 @@
       "caucasus-1917-1921::l3",
       "caucasus-1921-1953::p4",
       "caucasus-1921-1953::x1",
+      "caucasus-1953-1991::c5",
       "caucasus-3500bc-1200bc::p8",
       "caucasus-3500bc-1200bc::c2",
       "caucasus-3500bc-1200bc::t1",
@@ -72380,6 +72663,10 @@
       "caucasus-1917-1921::ec2",
       "caucasus-1921-1953::c5",
       "caucasus-1921-1953::ec2",
+      "caucasus-1953-1991::p3",
+      "caucasus-1953-1991::c5",
+      "caucasus-1953-1991::ec2",
+      "caucasus-1953-1991::l3",
       "caucasus-428-645::p1",
       "caucasus-428-645::p5",
       "caucasus-428-645::c2",
@@ -72499,6 +72786,7 @@
     ],
     "Caspian": [
       "achaemenid-caucasus-585bc-330bc::p10",
+      "caucasus-1953-1991::ec1",
       "hellenistic-caucasus-330bc-1bc::p13"
     ],
     "Albanians": [
@@ -72521,6 +72809,7 @@
     "Iranian Azerbaijan": [
       "achaemenid-caucasus-585bc-330bc::p11",
       "caucasus-1921-1953::c6",
+      "caucasus-1953-1991::x2",
       "caucasus-3500bc-1200bc::x1"
     ],
     "Zuzza": [
@@ -76777,6 +77066,8 @@
     ],
     "April": [
       "anatolia-1908-1923::c8",
+      "caucasus-1953-1991::c6",
+      "caucasus-1953-1991::l1",
       "spain-1900-1975::c2"
     ],
     "Cevdet Bey": [
@@ -77149,6 +77440,7 @@
       "caucasus-1921-1953::o1",
       "caucasus-1921-1953::o3",
       "caucasus-1921-1953::e2",
+      "caucasus-1953-1991::p4",
       "france-1789-1815::w1",
       "spain-1900-1975::k9"
     ],
@@ -85817,6 +86109,9 @@
       "caucasus-1921-1953::c1",
       "caucasus-1921-1953::c5",
       "caucasus-1921-1953::ec2",
+      "caucasus-1953-1991::p1",
+      "caucasus-1953-1991::ec2",
+      "caucasus-1953-1991::l3",
       "caucasus-3500bc-1200bc::p7",
       "caucasus-3500bc-1200bc::t2",
       "caucasus-428-645::g3",
@@ -86047,6 +86342,8 @@
       "caucasus-1921-1953::b3",
       "caucasus-1921-1953::ec2",
       "caucasus-1921-1953::l1",
+      "caucasus-1953-1991::p2",
+      "caucasus-1953-1991::ec2",
       "caucasus-645-884::c5"
     ],
     "Oghuz Turkmen": [
@@ -88851,7 +89148,8 @@
       "caucasus-1878-1917::x2",
       "caucasus-1878-1917::l3",
       "caucasus-1917-1921::b1",
-      "caucasus-1921-1953::b2"
+      "caucasus-1921-1953::b2",
+      "caucasus-1953-1991::b1"
     ],
     "Armenian Church": [
       "caucasus-1-428::e2",
@@ -89064,6 +89362,17 @@
       "caucasus-1921-1953::e4",
       "caucasus-1921-1953::t1",
       "caucasus-1921-1953::l3",
+      "caucasus-1953-1991::p1",
+      "caucasus-1953-1991::p5",
+      "caucasus-1953-1991::c1",
+      "caucasus-1953-1991::c2",
+      "caucasus-1953-1991::c6",
+      "caucasus-1953-1991::o2",
+      "caucasus-1953-1991::o3",
+      "caucasus-1953-1991::b1",
+      "caucasus-1953-1991::e1",
+      "caucasus-1953-1991::t1",
+      "caucasus-1953-1991::l1",
       "caucasus-428-645::p6",
       "caucasus-428-645::p7",
       "caucasus-428-645::c6",
@@ -89121,6 +89430,7 @@
       "caucasus-1878-1917::b1",
       "caucasus-1921-1953::o1",
       "caucasus-1921-1953::e3",
+      "caucasus-1953-1991::e3",
       "caucasus-428-645::t1",
       "caucasus-884-1064::b3",
       "caucasus-884-1064::t4"
@@ -89187,7 +89497,17 @@
       "caucasus-1921-1953::t1",
       "caucasus-1921-1953::ec1",
       "caucasus-1921-1953::x2",
-      "caucasus-1921-1953::l1"
+      "caucasus-1921-1953::l1",
+      "caucasus-1953-1991::p2",
+      "caucasus-1953-1991::p5",
+      "caucasus-1953-1991::c5",
+      "caucasus-1953-1991::c7",
+      "caucasus-1953-1991::o2",
+      "caucasus-1953-1991::o3",
+      "caucasus-1953-1991::b2",
+      "caucasus-1953-1991::e3",
+      "caucasus-1953-1991::t1",
+      "caucasus-1953-1991::l2"
     ],
     "Shirvanshahs of Shamakhi": [
       "caucasus-1064-1243::p9"
@@ -89213,6 +89533,7 @@
       "caucasus-1747-1828::b3",
       "caucasus-1878-1917::c1",
       "caucasus-1917-1921::c7",
+      "caucasus-1953-1991::x2",
       "caucasus-3500bc-1200bc::p3",
       "caucasus-645-884::c1"
     ],
@@ -90040,6 +90361,8 @@
       "caucasus-1917-1921::o5",
       "caucasus-1917-1921::l3",
       "caucasus-1921-1953::o2",
+      "caucasus-1953-1991::c3",
+      "caucasus-1953-1991::o1",
       "caucasus-884-1064::b4",
       "urartu-colchis-1200bc-585bc::p11"
     ],
@@ -90083,7 +90406,8 @@
       "caucasus-1501-1747::b2",
       "caucasus-1501-1747::e2",
       "caucasus-1501-1747::ec1",
-      "caucasus-1501-1747::g1"
+      "caucasus-1501-1747::g1",
+      "caucasus-1953-1991::x2"
     ],
     "Ararat": [
       "caucasus-1501-1747::c6",
@@ -90526,7 +90850,9 @@
       "caucasus-1917-1921::w1",
       "caucasus-1921-1953::c4",
       "caucasus-1921-1953::o5",
-      "caucasus-1921-1953::w1"
+      "caucasus-1921-1953::w1",
+      "caucasus-1953-1991::p4",
+      "caucasus-1953-1991::w2"
     ],
     "Württembergers Katharinenfeld": [
       "caucasus-1747-1828::x2"
@@ -90628,6 +90954,7 @@
       "caucasus-1828-1878::c5",
       "caucasus-1921-1953::o2",
       "caucasus-1921-1953::ec4",
+      "caucasus-1953-1991::c8",
       "caucasus-645-884::p8"
     ],
     "Abkhaz of Sukhum": [
@@ -91107,6 +91434,15 @@
       "caucasus-1921-1953::e2",
       "caucasus-1921-1953::t1",
       "caucasus-1921-1953::l3",
+      "caucasus-1953-1991::p3",
+      "caucasus-1953-1991::p5",
+      "caucasus-1953-1991::c3",
+      "caucasus-1953-1991::o1",
+      "caucasus-1953-1991::o2",
+      "caucasus-1953-1991::o3",
+      "caucasus-1953-1991::e2",
+      "caucasus-1953-1991::e1",
+      "caucasus-1953-1991::l2",
       "caucasus-3500bc-1200bc::p2",
       "urartu-colchis-1200bc-585bc::c6",
       "urartu-colchis-1200bc-585bc::e2"
@@ -91235,6 +91571,7 @@
     "Lake Sevan": [
       "caucasus-1917-1921::p3",
       "caucasus-1921-1953::ec3",
+      "caucasus-1953-1991::g1",
       "caucasus-3500bc-1200bc::p6",
       "caucasus-3500bc-1200bc::e3",
       "hellenistic-caucasus-330bc-1bc::o1",
@@ -91373,7 +91710,8 @@
     ],
     "Soviet Armenia": [
       "caucasus-1917-1921::o5",
-      "caucasus-1921-1953::x1"
+      "caucasus-1921-1953::x1",
+      "caucasus-1953-1991::x1"
     ],
     "Soviet Azerbaijan": [
       "caucasus-1917-1921::o5",
@@ -91385,7 +91723,8 @@
       "iraq-945-1258::c1"
     ],
     "Muslim Spiritual Board of Transcaucasia": [
-      "caucasus-1917-1921::b2"
+      "caucasus-1917-1921::b2",
+      "caucasus-1953-1991::b2"
     ],
     "Catholicos Gevorg V": [
       "caucasus-1917-1921::b1"
@@ -91477,7 +91816,11 @@
       "caucasus-1921-1953::p3",
       "caucasus-1921-1953::p1",
       "caucasus-1921-1953::t2",
-      "caucasus-1921-1953::ec1"
+      "caucasus-1921-1953::ec1",
+      "caucasus-1953-1991::p1",
+      "caucasus-1953-1991::p2",
+      "caucasus-1953-1991::p3",
+      "caucasus-1953-1991::p4"
     ],
     "Aghasi Khanjian": [
       "caucasus-1921-1953::p4"
@@ -91548,7 +91891,8 @@
       "caucasus-1921-1953::c6"
     ],
     "South Ossetia": [
-      "caucasus-1921-1953::o2"
+      "caucasus-1921-1953::o2",
+      "caucasus-1953-1991::c9"
     ],
     "Adjara ASSR": [
       "caucasus-1921-1953::o2"
@@ -91557,7 +91901,8 @@
       "caucasus-1921-1953::o2"
     ],
     "South Ossetian": [
-      "caucasus-1921-1953::o2"
+      "caucasus-1921-1953::o2",
+      "caucasus-1953-1991::c9"
     ],
     "Georgia Communist": [
       "caucasus-1921-1953::o1"
@@ -91626,7 +91971,8 @@
       "caucasus-1921-1953::t2"
     ],
     "Tbilisi University": [
-      "caucasus-1921-1953::t2"
+      "caucasus-1921-1953::t2",
+      "caucasus-1953-1991::c8"
     ],
     "Georgian Academy of Sciences": [
       "caucasus-1921-1953::t1"
@@ -91645,6 +91991,7 @@
     ],
     "Soviet Union": [
       "caucasus-1921-1953::ec4",
+      "caucasus-1953-1991::o3",
       "egypt-1952-today::g1",
       "iraq-1914-1958::c5",
       "iraq-1914-1958::xc3",
@@ -91696,10 +92043,200 @@
       "caucasus-1921-1953::l2"
     ],
     "Meskhetian Turks": [
-      "caucasus-1921-1953::l2"
+      "caucasus-1921-1953::l2",
+      "caucasus-1953-1991::w2"
     ],
     "Hemshin Armenians": [
       "caucasus-1921-1953::l2"
+    ],
+    "Vasil Mzhavanadze": [
+      "caucasus-1953-1991::p1"
+    ],
+    "Eduard Shevardnadze": [
+      "caucasus-1953-1991::p1"
+    ],
+    "Heydar Aliyev": [
+      "caucasus-1953-1991::p2"
+    ],
+    "Karen Demirchyan": [
+      "caucasus-1953-1991::p3"
+    ],
+    "Gorbachev": [
+      "caucasus-1953-1991::p4"
+    ],
+    "Armenian National Movement": [
+      "caucasus-1953-1991::p4",
+      "caucasus-1953-1991::p5"
+    ],
+    "Levon Ter-Petrosyan": [
+      "caucasus-1953-1991::p4",
+      "caucasus-1953-1991::p5"
+    ],
+    "Zviad Gamsakhurdia": [
+      "caucasus-1953-1991::p5",
+      "caucasus-1953-1991::t1"
+    ],
+    "March": [
+      "caucasus-1953-1991::c1",
+      "turkey-1923-1980::c9"
+    ],
+    "Stepanakert": [
+      "caucasus-1953-1991::c3",
+      "caucasus-1953-1991::o1",
+      "caucasus-1953-1991::o4"
+    ],
+    "Theatre Square": [
+      "caucasus-1953-1991::c3"
+    ],
+    "Sumgait": [
+      "caucasus-1953-1991::c4",
+      "caucasus-1953-1991::l2"
+    ],
+    "Kirovabad Ganja": [
+      "caucasus-1953-1991::c5"
+    ],
+    "House": [
+      "caucasus-1953-1991::c6"
+    ],
+    "Rustaveli Avenue": [
+      "caucasus-1953-1991::c6"
+    ],
+    "Sukhumi": [
+      "caucasus-1953-1991::c8"
+    ],
+    "July": [
+      "caucasus-1953-1991::c8",
+      "egypt-1900-1952::k15",
+      "iraq-1914-1958::w4",
+      "spain-1900-1975::c1",
+      "turkey-1980-today::c11"
+    ],
+    "Tskhinvali": [
+      "caucasus-1953-1991::c9"
+    ],
+    "North Ossetia": [
+      "caucasus-1953-1991::c9"
+    ],
+    "Black January": [
+      "caucasus-1953-1991::c7"
+    ],
+    "Popular Front": [
+      "caucasus-1953-1991::c7",
+      "caucasus-1953-1991::x2"
+    ],
+    "Supreme Council of Armenia": [
+      "caucasus-1953-1991::o1"
+    ],
+    "Arkady Volsky": [
+      "caucasus-1953-1991::o1"
+    ],
+    "Azerbaijan Supreme Soviet": [
+      "caucasus-1953-1991::o2"
+    ],
+    "Armenia Supreme Council": [
+      "caucasus-1953-1991::o2"
+    ],
+    "Declaration of Independence": [
+      "caucasus-1953-1991::o2",
+      "france-1789-1815::lv3"
+    ],
+    "Constitutional Act": [
+      "caucasus-1953-1991::o3"
+    ],
+    "Nagorno-Karabakh Republic": [
+      "caucasus-1953-1991::o4"
+    ],
+    "Armenian Catholicos Vazgen I": [
+      "caucasus-1953-1991::b1"
+    ],
+    "Georgian Catholicos-Patriarch Ilia II": [
+      "caucasus-1953-1991::b1"
+    ],
+    "Spiritual Board of Transcaucasian Muslims": [
+      "caucasus-1953-1991::b2"
+    ],
+    "Allahshukur Pashazade": [
+      "caucasus-1953-1991::b2"
+    ],
+    "Sunni Muslims of the Caucasus": [
+      "caucasus-1953-1991::b2"
+    ],
+    "Mugham": [
+      "caucasus-1953-1991::e3"
+    ],
+    "Kara Karayev": [
+      "caucasus-1953-1991::e3"
+    ],
+    "Fikret Amirov": [
+      "caucasus-1953-1991::e3"
+    ],
+    "Rashid Behbudov": [
+      "caucasus-1953-1991::e3"
+    ],
+    "Genocide": [
+      "caucasus-1953-1991::e2"
+    ],
+    "Matenadaran": [
+      "caucasus-1953-1991::e2"
+    ],
+    "Arthur Tarkhanyan": [
+      "caucasus-1953-1991::e2"
+    ],
+    "Sashur Kalashyan": [
+      "caucasus-1953-1991::e2"
+    ],
+    "Sergei Parajanov": [
+      "caucasus-1953-1991::e1"
+    ],
+    "Colour of Pomegranates": [
+      "caucasus-1953-1991::e1"
+    ],
+    "Tengiz Abuladze Repentance": [
+      "caucasus-1953-1991::e1"
+    ],
+    "Otar Iosseliani": [
+      "caucasus-1953-1991::e1"
+    ],
+    "Merab Kostava": [
+      "caucasus-1953-1991::t1"
+    ],
+    "Armenian National United Party of Paruyr Hayrikyan": [
+      "caucasus-1953-1991::t1"
+    ],
+    "Karabakh Committee of Yerevan": [
+      "caucasus-1953-1991::t1"
+    ],
+    "Oil Rocks": [
+      "caucasus-1953-1991::ec1"
+    ],
+    "Neft Daşları Oil Rocks": [
+      "caucasus-1953-1991::ec1"
+    ],
+    "Metsamor": [
+      "caucasus-1953-1991::ec3",
+      "caucasus-3500bc-1200bc::g2"
+    ],
+    "Arpa–Sevan": [
+      "caucasus-1953-1991::g1"
+    ],
+    "Spitak": [
+      "caucasus-1953-1991::x1",
+      "caucasus-1953-1991::w1"
+    ],
+    "Leninakan": [
+      "caucasus-1953-1991::x1"
+    ],
+    "Armenian General Benevolent Union": [
+      "caucasus-1953-1991::x1"
+    ],
+    "Day of Solidarity of Azerbaijanis of the World": [
+      "caucasus-1953-1991::x2"
+    ],
+    "Leninakan Gyumri": [
+      "caucasus-1953-1991::w1"
+    ],
+    "Armenian Hayrikyan": [
+      "caucasus-1953-1991::l3"
     ],
     "Lesser Caucasus": [
       "caucasus-3500bc-1200bc::p1",
@@ -91873,9 +92410,6 @@
     "Highland": [
       "caucasus-3500bc-1200bc::ec2",
       "south-arabia-prehistory-8000bc-1200bc::ec2"
-    ],
-    "Metsamor": [
-      "caucasus-3500bc-1200bc::g2"
     ],
     "Smiths of the Late Bronze Age": [
       "caucasus-3500bc-1200bc::g2"
@@ -96669,12 +97203,6 @@
     ],
     "Cairo Army": [
       "egypt-1900-1952::k15"
-    ],
-    "July": [
-      "egypt-1900-1952::k15",
-      "iraq-1914-1958::w4",
-      "spain-1900-1975::c1",
-      "turkey-1980-today::c11"
     ],
     "Gamal Abdel Nasser": [
       "egypt-1900-1952::k15",
@@ -103576,9 +104104,6 @@
       "france-1789-1815::lv5"
     ],
     "Haitian Independence": [
-      "france-1789-1815::lv3"
-    ],
-    "Declaration of Independence": [
       "france-1789-1815::lv3"
     ],
     "Louis XVIII": [
@@ -129595,9 +130120,6 @@
     "Archbishop Makarios": [
       "turkey-1923-1980::c11",
       "turkey-1923-1980::c12"
-    ],
-    "March": [
-      "turkey-1923-1980::c9"
     ],
     "Kızıldere": [
       "turkey-1923-1980::c10"
