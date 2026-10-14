@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 9812,
-    "folio_count": 203,
-    "xlink_pairs": 2321,
-    "keyword_terms": 14949,
+    "total_entries": 9864,
+    "folio_count": 204,
+    "xlink_pairs": 2349,
+    "keyword_terms": 15038,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -119,6 +119,11 @@
         "id": "byzantine-anatolia-867-1071",
         "title": "Byzantine Anatolia",
         "entries": 50
+      },
+      {
+        "id": "byzantine-empire-1204-1453",
+        "title": "The Byzantine Empire",
+        "entries": 52
       },
       {
         "id": "byzantine-empire-632-867",
@@ -2223,6 +2228,58 @@
     "byzantine-anatolia-867-1071::l3": "The frontier of the Akritai",
     "byzantine-anatolia-867-1071::l2": "Basil the Parakoimomenos",
     "byzantine-anatolia-867-1071::l1": "Zoe and Theodora",
+    "byzantine-empire-1204-1453::p1": "Theodore I Laskaris and the Empire of Nicaea",
+    "byzantine-empire-1204-1453::p2": "John III Doukas Vatatzes",
+    "byzantine-empire-1204-1453::p3": "Michael VIII Palaiologos",
+    "byzantine-empire-1204-1453::p4": "Andronikos II Palaiologos",
+    "byzantine-empire-1204-1453::p6": "John V and Manuel II",
+    "byzantine-empire-1204-1453::p5": "John VI Kantakouzenos",
+    "byzantine-empire-1204-1453::p7": "John VIII and Constantine XI",
+    "byzantine-empire-1204-1453::p8": "The despotate of Epirus and Theodore Doukas",
+    "byzantine-empire-1204-1453::p9": "The empire of Trebizond",
+    "byzantine-empire-1204-1453::p10": "The Latin Empire of Constantinople",
+    "byzantine-empire-1204-1453::p11": "The principality of Achaea and the duchy of Athens",
+    "byzantine-empire-1204-1453::c1": "Adrianople and the fall of Baldwin",
+    "byzantine-empire-1204-1453::c3": "Pelagonia and the war with the Angevins",
+    "byzantine-empire-1204-1453::c2": "The recovery of Constantinople",
+    "byzantine-empire-1204-1453::c4": "The Catalan Company",
+    "byzantine-empire-1204-1453::c5": "The Palaiologan civil wars",
+    "byzantine-empire-1204-1453::c6": "The Zealots of Thessalonica",
+    "byzantine-empire-1204-1453::c7": "The Ottoman crossing and the Maritsa",
+    "byzantine-empire-1204-1453::c8": "The siege of Constantinople by Bayezid",
+    "byzantine-empire-1204-1453::c10": "The crusade of Varna and the last Morea",
+    "byzantine-empire-1204-1453::c9": "The siege and fall of Constantinople",
+    "byzantine-empire-1204-1453::o1": "The Partitio Romaniae",
+    "byzantine-empire-1204-1453::o2": "The pronoia and the fiscal state of the Palaiologoi",
+    "byzantine-empire-1204-1453::o3": "The Second Council of Lyons",
+    "byzantine-empire-1204-1453::o5": "The Despotate of the Morea",
+    "byzantine-empire-1204-1453::o4": "The Council of Ferrara–Florence",
+    "byzantine-empire-1204-1453::b4": "The Latin church in Constantinople",
+    "byzantine-empire-1204-1453::b3": "Mistra and the monasteries",
+    "byzantine-empire-1204-1453::b1": "The Arsenite schism",
+    "byzantine-empire-1204-1453::b2": "Gregory Palamas and the hesychast controversy",
+    "byzantine-empire-1204-1453::e3": "The Palaiologan Renaissance",
+    "byzantine-empire-1204-1453::e2": "The painting of Mistra and the Serbian courts",
+    "byzantine-empire-1204-1453::e1": "The mosaics and frescoes of the Chora",
+    "byzantine-empire-1204-1453::t1": "Maximos Planudes and Nikephoros Gregoras",
+    "byzantine-empire-1204-1453::t3": "Theodore Metochites and the learned court",
+    "byzantine-empire-1204-1453::t2": "Chioniades and the Persian astronomy",
+    "byzantine-empire-1204-1453::t4": "Plethon and Bessarion",
+    "byzantine-empire-1204-1453::ec1": "Venice and Genoa",
+    "byzantine-empire-1204-1453::ec3": "The ruin of the capital",
+    "byzantine-empire-1204-1453::ec2": "The debasement of the hyperpyron",
+    "byzantine-empire-1204-1453::te1": "The land walls and the Ottoman guns",
+    "byzantine-empire-1204-1453::x1": "The treaty of Nymphaeum",
+    "byzantine-empire-1204-1453::x2": "The Mongols and the Mamluks",
+    "byzantine-empire-1204-1453::x3": "John V in Rome and Manuel II's journey",
+    "byzantine-empire-1204-1453::x4": "The Ottoman vassalage",
+    "byzantine-empire-1204-1453::w2": "The Turkish settlement and the loss of Anatolia",
+    "byzantine-empire-1204-1453::w1": "The Black Death",
+    "byzantine-empire-1204-1453::w3": "The Albanians and the settlement of the Morea",
+    "byzantine-empire-1204-1453::l1": "The empresses and learned women",
+    "byzantine-empire-1204-1453::l4": "The Jews of the Palaiologan empire",
+    "byzantine-empire-1204-1453::l2": "The Genoese of Galata",
+    "byzantine-empire-1204-1453::l3": "The Zealots and the poor of Thessalonica",
     "byzantine-empire-632-867::p1": "Heraclius after the victory",
     "byzantine-empire-632-867::p2": "Constans II",
     "byzantine-empire-632-867::p3": "Constantine IV",
@@ -11770,13 +11827,24 @@
       "ottoman-empire-1299-1517::c11"
     ],
     "anatolian-beyliks-1308-1500::p9": [
+      "byzantine-empire-1204-1453::w2",
       "ottoman-empire-1299-1517::p1"
+    ],
+    "byzantine-empire-1204-1453::w2": [
+      "anatolian-beyliks-1308-1500::p9",
+      "anatolian-beyliks-1308-1500::w1"
     ],
     "ottoman-empire-1299-1517::p1": [
       "anatolian-beyliks-1308-1500::p9"
     ],
     "anatolian-beyliks-1308-1500::p10": [
+      "byzantine-empire-1204-1453::c7",
       "ottoman-empire-1299-1517::p3"
+    ],
+    "byzantine-empire-1204-1453::c7": [
+      "anatolian-beyliks-1308-1500::p10",
+      "anatolian-beyliks-1308-1500::x3",
+      "ottoman-empire-1299-1517::p2"
     ],
     "ottoman-empire-1299-1517::p3": [
       "anatolian-beyliks-1308-1500::p10"
@@ -11808,9 +11876,14 @@
       "anatolian-beyliks-1308-1500::c5"
     ],
     "anatolian-beyliks-1308-1500::c4": [
+      "byzantine-empire-1204-1453::c8",
       "iran-1335-1501::c1",
       "iran-1335-1501::p2",
       "ottoman-empire-1299-1517::c3"
+    ],
+    "byzantine-empire-1204-1453::c8": [
+      "anatolian-beyliks-1308-1500::c4",
+      "ottoman-empire-1299-1517::p4"
     ],
     "iran-1335-1501::c1": [
       "anatolian-beyliks-1308-1500::c4",
@@ -11880,7 +11953,11 @@
       "anatolian-beyliks-1308-1500::e4"
     ],
     "anatolian-beyliks-1308-1500::e1": [
+      "byzantine-empire-1204-1453::e1",
       "ottoman-empire-1299-1517::e1"
+    ],
+    "byzantine-empire-1204-1453::e1": [
+      "anatolian-beyliks-1308-1500::e1"
     ],
     "ottoman-empire-1299-1517::e1": [
       "anatolian-beyliks-1308-1500::e1"
@@ -11903,7 +11980,11 @@
       "ottoman-empire-1517-1683::ec3"
     ],
     "anatolian-beyliks-1308-1500::x2": [
+      "byzantine-empire-1204-1453::x4",
       "mamluks-1250-1517::ec6"
+    ],
+    "byzantine-empire-1204-1453::x4": [
+      "anatolian-beyliks-1308-1500::x2"
     ],
     "mamluks-1250-1517::ec6": [
       "anatolian-beyliks-1308-1500::x2",
@@ -11911,7 +11992,17 @@
       "cilician-armenia-1080-1375::x1",
       "trebizond-1204-1461::c3"
     ],
+    "anatolian-beyliks-1308-1500::x1": [
+      "byzantine-empire-1204-1453::c5"
+    ],
+    "byzantine-empire-1204-1453::c5": [
+      "anatolian-beyliks-1308-1500::x1"
+    ],
+    "anatolian-beyliks-1308-1500::x3": [
+      "byzantine-empire-1204-1453::c7"
+    ],
     "anatolian-beyliks-1308-1500::w1": [
+      "byzantine-empire-1204-1453::w2",
       "ottoman-empire-1299-1517::w3",
       "seljuks-of-rum-1071-1308::p8"
     ],
@@ -11922,8 +12013,13 @@
       "anatolian-beyliks-1308-1500::w1"
     ],
     "anatolian-beyliks-1308-1500::w2": [
+      "byzantine-empire-1204-1453::w1",
       "caucasus-1243-1501::w1",
       "ottoman-empire-1299-1517::w1"
+    ],
+    "byzantine-empire-1204-1453::w1": [
+      "anatolian-beyliks-1308-1500::w2",
+      "trebizond-1204-1461::w2"
     ],
     "caucasus-1243-1501::w1": [
       "anatolian-beyliks-1308-1500::w2",
@@ -14000,6 +14096,110 @@
     "byzantine-anatolia-867-1071::l1": [
       "byzantine-empire-867-1204::p8"
     ],
+    "byzantine-empire-1204-1453::p3": [
+      "byzantine-empire-867-1204::c13"
+    ],
+    "byzantine-empire-867-1204::c13": [
+      "byzantine-empire-1204-1453::p3",
+      "byzantine-empire-1204-1453::p10",
+      "seljuks-of-rum-1071-1308::w2",
+      "trebizond-1204-1461::p1"
+    ],
+    "byzantine-empire-1204-1453::p6": [
+      "ottoman-empire-1299-1517::p4"
+    ],
+    "ottoman-empire-1299-1517::p4": [
+      "byzantine-empire-1204-1453::p6",
+      "byzantine-empire-1204-1453::c8"
+    ],
+    "byzantine-empire-1204-1453::p9": [
+      "trebizond-1204-1461::o1",
+      "trebizond-1204-1461::p1"
+    ],
+    "trebizond-1204-1461::o1": [
+      "byzantine-empire-1204-1453::p9"
+    ],
+    "trebizond-1204-1461::p1": [
+      "byzantine-empire-1204-1453::p9",
+      "byzantine-empire-867-1204::c13"
+    ],
+    "byzantine-empire-1204-1453::p10": [
+      "byzantine-empire-867-1204::c13"
+    ],
+    "byzantine-empire-1204-1453::c1": [
+      "byzantine-empire-867-1204::c12"
+    ],
+    "byzantine-empire-867-1204::c12": [
+      "byzantine-empire-1204-1453::c1"
+    ],
+    "byzantine-empire-1204-1453::c2": [
+      "seljuks-of-rum-1071-1308::w2"
+    ],
+    "seljuks-of-rum-1071-1308::w2": [
+      "byzantine-empire-1204-1453::c2",
+      "byzantine-empire-867-1204::c13"
+    ],
+    "ottoman-empire-1299-1517::p2": [
+      "byzantine-empire-1204-1453::c7"
+    ],
+    "byzantine-empire-1204-1453::c10": [
+      "ottoman-empire-1299-1517::c4"
+    ],
+    "ottoman-empire-1299-1517::c4": [
+      "byzantine-empire-1204-1453::c10"
+    ],
+    "byzantine-empire-1204-1453::c9": [
+      "ottoman-empire-1299-1517::c5",
+      "trebizond-1204-1461::w4"
+    ],
+    "ottoman-empire-1299-1517::c5": [
+      "byzantine-empire-1204-1453::c9",
+      "trebizond-1204-1461::w4"
+    ],
+    "trebizond-1204-1461::w4": [
+      "byzantine-empire-1204-1453::c9",
+      "ottoman-empire-1299-1517::c5"
+    ],
+    "byzantine-empire-1204-1453::t2": [
+      "ilkhanate-1219-1335::tc1",
+      "trebizond-1204-1461::t2"
+    ],
+    "ilkhanate-1219-1335::tc1": [
+      "byzantine-empire-1204-1453::t2"
+    ],
+    "trebizond-1204-1461::t2": [
+      "byzantine-empire-1204-1453::t2",
+      "ilkhanate-1219-1335::t1"
+    ],
+    "byzantine-empire-1204-1453::t4": [
+      "trebizond-1204-1461::b2"
+    ],
+    "trebizond-1204-1461::b2": [
+      "byzantine-empire-1204-1453::t4"
+    ],
+    "byzantine-empire-1204-1453::ec1": [
+      "ottoman-empire-1299-1517::x1"
+    ],
+    "ottoman-empire-1299-1517::x1": [
+      "byzantine-empire-1204-1453::ec1"
+    ],
+    "byzantine-empire-1204-1453::x2": [
+      "mamluks-1250-1517::k3"
+    ],
+    "mamluks-1250-1517::k3": [
+      "byzantine-empire-1204-1453::x2",
+      "seljuks-of-rum-1071-1308::c10"
+    ],
+    "trebizond-1204-1461::w2": [
+      "byzantine-empire-1204-1453::w1",
+      "caucasus-1243-1501::w1"
+    ],
+    "byzantine-empire-1204-1453::l3": [
+      "trebizond-1204-1461::c4"
+    ],
+    "trebizond-1204-1461::c4": [
+      "byzantine-empire-1204-1453::l3"
+    ],
     "byzantine-empire-632-867::p1": [
       "egypt-300-641::k7",
       "late-roman-anatolia-330-632::p7",
@@ -14089,16 +14289,6 @@
     "seljuks-of-rum-1071-1308::p3": [
       "byzantine-empire-867-1204::c9",
       "cilician-armenia-1080-1375::c2"
-    ],
-    "byzantine-empire-867-1204::c13": [
-      "seljuks-of-rum-1071-1308::w2",
-      "trebizond-1204-1461::p1"
-    ],
-    "seljuks-of-rum-1071-1308::w2": [
-      "byzantine-empire-867-1204::c13"
-    ],
-    "trebizond-1204-1461::p1": [
-      "byzantine-empire-867-1204::c13"
     ],
     "byzantine-empire-867-1204::b5": [
       "levant-750-1099::b1"
@@ -15036,9 +15226,6 @@
     "trebizond-1204-1461::x2": [
       "caucasus-1243-1501::x2",
       "iran-1335-1501::p2"
-    ],
-    "trebizond-1204-1461::w2": [
-      "caucasus-1243-1501::w1"
     ],
     "caucasus-1243-1501::w2": [
       "trebizond-1204-1461::c6"
@@ -18581,9 +18768,6 @@
     "ilkhanate-1219-1335::t1": [
       "trebizond-1204-1461::t2"
     ],
-    "trebizond-1204-1461::t2": [
-      "ilkhanate-1219-1335::t1"
-    ],
     "ilkhanate-1219-1335::ec1": [
       "seljuks-of-rum-1071-1308::ec1",
       "trebizond-1204-1461::ec1"
@@ -20065,9 +20249,6 @@
     "mamluk-syria-1260-1516::l1": [
       "mamluks-1250-1517::b2"
     ],
-    "mamluks-1250-1517::k3": [
-      "seljuks-of-rum-1071-1308::c10"
-    ],
     "ottoman-empire-1299-1517::c10": [
       "mamluks-1250-1517::k14",
       "mamluks-1250-1517::c11",
@@ -20985,12 +21166,6 @@
     ],
     "ottoman-empire-1517-1683::p1": [
       "ottoman-empire-1299-1517::p9"
-    ],
-    "ottoman-empire-1299-1517::c5": [
-      "trebizond-1204-1461::w4"
-    ],
-    "trebizond-1204-1461::w4": [
-      "ottoman-empire-1299-1517::c5"
     ],
     "ottoman-empire-1299-1517::o1": [
       "ottoman-empire-1517-1683::l4"
@@ -28418,6 +28593,341 @@
       "Zoe",
       "Theodora",
       "Constantine VIII"
+    ],
+    "byzantine-empire-1204-1453::p1": [
+      "Nicaea",
+      "Theodore I Laskaris",
+      "Theodore Laskaris",
+      "Alexios III",
+      "Asia Minor",
+      "Michael Autoreianos"
+    ],
+    "byzantine-empire-1204-1453::p2": [
+      "Nymphaion",
+      "John III Doukas Vatatzes",
+      "John Vatatzes",
+      "Theodore I"
+    ],
+    "byzantine-empire-1204-1453::p3": [
+      "Constantinople",
+      "Michael VIII Palaiologos",
+      "Michael Palaiologos",
+      "John IV Laskaris",
+      "Alexios Strategopoulos",
+      "Patriarch Arsenios"
+    ],
+    "byzantine-empire-1204-1453::p4": [
+      "Constantinople",
+      "Andronikos II Palaiologos",
+      "Catalan Company",
+      "Andronikos III"
+    ],
+    "byzantine-empire-1204-1453::p6": [
+      "Palaiologos",
+      "Constantinople",
+      "Thessalonica",
+      "John V",
+      "Manuel II"
+    ],
+    "byzantine-empire-1204-1453::p5": [
+      "Constantinople",
+      "Didymoteichon",
+      "John VI Kantakouzenos",
+      "John Kantakouzenos",
+      "Andronikos III",
+      "John V"
+    ],
+    "byzantine-empire-1204-1453::p7": [
+      "Constantinople",
+      "Mistra",
+      "John VIII",
+      "Constantine XI",
+      "John VIII Palaiologos"
+    ],
+    "byzantine-empire-1204-1453::p8": [
+      "Doukas of Epirus",
+      "Arta",
+      "Thessalonica",
+      "Theodore Doukas",
+      "Michael I Komnenos Doukas",
+      "Ivan Asen II"
+    ],
+    "byzantine-empire-1204-1453::p9": [
+      "Trebizond",
+      "David Komnenos",
+      "Andronikos I",
+      "Black Sea"
+    ],
+    "byzantine-empire-1204-1453::p10": [
+      "Latin Empire of Constantinople",
+      "Count Baldwin of Flanders",
+      "Hagia Sophia",
+      "Robert of Courtenay",
+      "John of Brienne",
+      "Baldwin II"
+    ],
+    "byzantine-empire-1204-1453::p11": [
+      "Andravida",
+      "Athens",
+      "Achaea",
+      "Geoffrey of Villehardouin",
+      "William of Champlitte",
+      "Chronicle of the Morea"
+    ],
+    "byzantine-empire-1204-1453::c1": [
+      "Adrianople",
+      "Baldwin",
+      "Count Louis of Blois",
+      "Latin Empire"
+    ],
+    "byzantine-empire-1204-1453::c3": [
+      "Pelagonia",
+      "Berat",
+      "Angevins",
+      "Michael Palaiologos",
+      "William of Villehardouin",
+      "Charles of Anjou"
+    ],
+    "byzantine-empire-1204-1453::c2": [
+      "Constantinople",
+      "Alexios Strategopoulos",
+      "Michael VIII",
+      "Golden Gate",
+      "Hagia Sophia"
+    ],
+    "byzantine-empire-1204-1453::c4": [
+      "Gallipoli",
+      "Thebes",
+      "Catalan Company",
+      "Andronikos II",
+      "Roger de Flor",
+      "Michael IX"
+    ],
+    "byzantine-empire-1204-1453::c5": [
+      "Thrace",
+      "Constantinople",
+      "Palaiologan",
+      "Andronikos II",
+      "Andronikos III",
+      "John V"
+    ],
+    "byzantine-empire-1204-1453::c6": [
+      "Zealots of Thessalonica",
+      "Zealots Michael Palaiologos",
+      "Andreas Palaiologos"
+    ],
+    "byzantine-empire-1204-1453::c7": [
+      "Gallipoli",
+      "Maritsa",
+      "Ottoman",
+      "Süleyman Pasha",
+      "Murad I"
+    ],
+    "byzantine-empire-1204-1453::c8": [
+      "Constantinople",
+      "Bayezid I",
+      "Manuel II"
+    ],
+    "byzantine-empire-1204-1453::c10": [
+      "Varna",
+      "Władysław III of Poland-Hungary",
+      "János Hunyadi",
+      "Despotate of the Morea",
+      "Murad II",
+      "Mehmed II"
+    ],
+    "byzantine-empire-1204-1453::c9": [
+      "Constantinople",
+      "Mehmed II",
+      "Giovanni Giustiniani",
+      "Constantine XI"
+    ],
+    "byzantine-empire-1204-1453::o1": [
+      "Venice",
+      "Constantinople",
+      "Partitio Romaniae",
+      "Thomas Morosini"
+    ],
+    "byzantine-empire-1204-1453::o2": [
+      "Constantinople",
+      "Palaiologoi",
+      "Michael VIII",
+      "Andronikos II"
+    ],
+    "byzantine-empire-1204-1453::o3": [
+      "Lyons",
+      "Charles of Anjou",
+      "Michael VIII",
+      "Andronikos II",
+      "Pope Martin IV"
+    ],
+    "byzantine-empire-1204-1453::o5": [
+      "Mistra",
+      "Despotate of the Morea"
+    ],
+    "byzantine-empire-1204-1453::o4": [
+      "Ferrara",
+      "Florence",
+      "Ferrara–Florence",
+      "John VIII",
+      "Joseph II",
+      "Bessarion of Nicaea"
+    ],
+    "byzantine-empire-1204-1453::b4": [
+      "Constantinople",
+      "Latin",
+      "Thomas Morosini",
+      "Hagia Sophia",
+      "True Cross",
+      "Baldwin II"
+    ],
+    "byzantine-empire-1204-1453::b3": [
+      "Mistra"
+    ],
+    "byzantine-empire-1204-1453::b1": [
+      "Constantinople",
+      "Arsenite",
+      "Patriarch Arsenios",
+      "Michael VIII"
+    ],
+    "byzantine-empire-1204-1453::b2": [
+      "Mount Athos",
+      "Constantinople",
+      "Gregory Palamas",
+      "Barlaam of Calabria",
+      "Orthodox Church"
+    ],
+    "byzantine-empire-1204-1453::e3": [
+      "Constantinople",
+      "Thessalonica",
+      "Palaiologan Renaissance",
+      "Andronikos II",
+      "Manuel Philes"
+    ],
+    "byzantine-empire-1204-1453::e2": [
+      "Mistra",
+      "Studenica",
+      "Serbian",
+      "Theophanes the Greek"
+    ],
+    "byzantine-empire-1204-1453::e1": [
+      "Constantinople",
+      "Theodore Metochites",
+      "Andronikos II",
+      "Chora Kariye",
+      "Palaiologan Renaissance"
+    ],
+    "byzantine-empire-1204-1453::t1": [
+      "Constantinople",
+      "Maximos Planudes",
+      "Nikephoros Gregoras",
+      "Ptolemy Geography"
+    ],
+    "byzantine-empire-1204-1453::t3": [
+      "Constantinople",
+      "Theodore Metochites"
+    ],
+    "byzantine-empire-1204-1453::t2": [
+      "Trebizond",
+      "Gregory Chioniades",
+      "Constantinople the Zij of Persian",
+      "Nasir al-Din al-Tusi"
+    ],
+    "byzantine-empire-1204-1453::t4": [
+      "Mistra",
+      "Florence",
+      "Bessarion",
+      "George Gemistos Plethon",
+      "George Scholarios",
+      "Cosimo de Medici"
+    ],
+    "byzantine-empire-1204-1453::ec1": [
+      "Galata",
+      "Golden Horn",
+      "Venice",
+      "Genoa",
+      "Michael VIII",
+      "Black Sea"
+    ],
+    "byzantine-empire-1204-1453::ec3": [
+      "Constantinople",
+      "Bertrandon de la Broquière",
+      "Pero Tafur"
+    ],
+    "byzantine-empire-1204-1453::ec2": [
+      "Constantinople",
+      "Michael VIII"
+    ],
+    "byzantine-empire-1204-1453::te1": [
+      "Constantinople",
+      "Ottoman",
+      "Manuel II",
+      "John VIII",
+      "Charisian Gate"
+    ],
+    "byzantine-empire-1204-1453::x1": [
+      "Nymphaion",
+      "Nymphaeum",
+      "Michael VIII"
+    ],
+    "byzantine-empire-1204-1453::x2": [
+      "Cairo",
+      "Sarai",
+      "Mongols",
+      "Mamluks",
+      "Michael VIII",
+      "Mongol Golden Horde of Berke"
+    ],
+    "byzantine-empire-1204-1453::x3": [
+      "Rome",
+      "Paris",
+      "London",
+      "John V",
+      "Manuel II",
+      "Urban V"
+    ],
+    "byzantine-empire-1204-1453::x4": [
+      "Edirne",
+      "Ottoman",
+      "John V",
+      "Murad I",
+      "Manuel II",
+      "John VIII"
+    ],
+    "byzantine-empire-1204-1453::w2": [
+      "Western Anatolia"
+    ],
+    "byzantine-empire-1204-1453::w1": [
+      "Constantinople",
+      "Black Death"
+    ],
+    "byzantine-empire-1204-1453::w3": [
+      "Peloponnese",
+      "Albanians",
+      "Morea",
+      "Asia Minor"
+    ],
+    "byzantine-empire-1204-1453::l1": [
+      "Constantinople",
+      "Theodora Raoulaina",
+      "Michael VIII",
+      "Irene Choumnaina Palaiologina",
+      "Nikephoros Choumnos",
+      "Theoleptos of Philadelphia"
+    ],
+    "byzantine-empire-1204-1453::l4": [
+      "Constantinople",
+      "Thessalonica",
+      "Jews of the Palaiologan",
+      "Sephardic Jews"
+    ],
+    "byzantine-empire-1204-1453::l2": [
+      "Genoese of Galata",
+      "Golden Horn"
+    ],
+    "byzantine-empire-1204-1453::l3": [
+      "Thessalonica",
+      "Zealots"
     ],
     "byzantine-empire-632-867::p1": [
       "Heraclian",
@@ -78075,6 +78585,8 @@
       "byzantine-anatolia-632-867::c10",
       "byzantine-anatolia-632-867::w3",
       "byzantine-anatolia-867-1071::t3",
+      "byzantine-empire-1204-1453::p1",
+      "byzantine-empire-1204-1453::w3",
       "byzantine-empire-632-867::te2",
       "hellenistic-age-323bc-30bc::p3",
       "hellenistic-age-323bc-30bc::p7",
@@ -78113,6 +78625,8 @@
       "byzantine-anatolia-632-867::c11",
       "byzantine-anatolia-632-867::ec3",
       "byzantine-anatolia-632-867::x4",
+      "byzantine-empire-1204-1453::p9",
+      "byzantine-empire-1204-1453::ec1",
       "byzantine-empire-632-867::ec2",
       "byzantine-empire-867-1204::ec2",
       "caliphate-945-1258::lv7",
@@ -78559,6 +79073,7 @@
       "anatolia-1908-1923::t3",
       "anatolia-1908-1923::w1",
       "bahrain-1971-today::x5",
+      "byzantine-empire-1204-1453::x3",
       "egypt-1900-1952::o3",
       "elam-1100bc-539bc::e1",
       "elam-1100bc-539bc::e2",
@@ -78874,6 +79389,7 @@
     ],
     "Athens": [
       "achaemenid-550bc-330bc::x1",
+      "byzantine-empire-1204-1453::p11",
       "hellenistic-age-323bc-30bc::t1",
       "hellenistic-anatolia-334bc-133bc::x2",
       "ionia-1050bc-494bc::e6",
@@ -79183,7 +79699,8 @@
       "hellenistic-caucasus-330bc-1bc::p13"
     ],
     "Albanians": [
-      "achaemenid-caucasus-585bc-330bc::p10"
+      "achaemenid-caucasus-585bc-330bc::p10",
+      "byzantine-empire-1204-1453::w3"
     ],
     "Sacesinae": [
       "achaemenid-caucasus-585bc-330bc::p10"
@@ -80534,6 +81051,7 @@
       "ayyubids-1171-1250::lv1",
       "babylon-1595bc-1155bc::xc2",
       "byzantine-anatolia-867-1071::x2",
+      "byzantine-empire-1204-1453::x2",
       "byzantine-empire-867-1204::x5",
       "caliphate-945-1258::c6",
       "caliphate-945-1258::x6",
@@ -81117,6 +81635,7 @@
     ],
     "Genoa": [
       "al-andalus-1031-1492::s5",
+      "byzantine-empire-1204-1453::ec1",
       "caliphate-945-1258::lv7",
       "cilician-armenia-1080-1375::x1"
     ],
@@ -81133,6 +81652,7 @@
     "Black Death": [
       "al-andalus-1031-1492::s2",
       "anatolian-beyliks-1308-1500::w2",
+      "byzantine-empire-1204-1453::w1",
       "caucasus-1243-1501::w1",
       "iraq-1258-1534::e1",
       "iraq-1258-1534::xc1",
@@ -81323,6 +81843,30 @@
       "byzantine-anatolia-867-1071::w2",
       "byzantine-anatolia-867-1071::l2",
       "byzantine-anatolia-867-1071::l1",
+      "byzantine-empire-1204-1453::p3",
+      "byzantine-empire-1204-1453::p4",
+      "byzantine-empire-1204-1453::p6",
+      "byzantine-empire-1204-1453::p5",
+      "byzantine-empire-1204-1453::p7",
+      "byzantine-empire-1204-1453::c2",
+      "byzantine-empire-1204-1453::c5",
+      "byzantine-empire-1204-1453::c8",
+      "byzantine-empire-1204-1453::c9",
+      "byzantine-empire-1204-1453::o1",
+      "byzantine-empire-1204-1453::o2",
+      "byzantine-empire-1204-1453::b4",
+      "byzantine-empire-1204-1453::b1",
+      "byzantine-empire-1204-1453::b2",
+      "byzantine-empire-1204-1453::e3",
+      "byzantine-empire-1204-1453::e1",
+      "byzantine-empire-1204-1453::t1",
+      "byzantine-empire-1204-1453::t3",
+      "byzantine-empire-1204-1453::ec3",
+      "byzantine-empire-1204-1453::ec2",
+      "byzantine-empire-1204-1453::te1",
+      "byzantine-empire-1204-1453::w1",
+      "byzantine-empire-1204-1453::l1",
+      "byzantine-empire-1204-1453::l4",
       "byzantine-empire-632-867::p1",
       "byzantine-empire-632-867::p2",
       "byzantine-empire-632-867::p3",
@@ -81957,6 +82501,7 @@
       "al-andalus-711-1031::a4",
       "anatolia-1908-1923::w1",
       "armenia-1991-today::e2",
+      "byzantine-empire-1204-1453::x3",
       "caucasus-1501-1747::t1",
       "cilician-armenia-1080-1375::l3",
       "dedan-tayma-1200bc-300bc::ex3",
@@ -83141,6 +83686,9 @@
       "anatolian-beyliks-1308-1500::p11",
       "anatolian-beyliks-1308-1500::o2",
       "anatolian-beyliks-1308-1500::t1",
+      "byzantine-empire-1204-1453::c7",
+      "byzantine-empire-1204-1453::te1",
+      "byzantine-empire-1204-1453::x4",
       "caucasus-1501-1747::c8",
       "caucasus-1917-1921::c1",
       "egypt-1517-1798::k1",
@@ -83753,6 +84301,7 @@
       "anatolian-beyliks-1308-1500::p11",
       "anatolian-beyliks-1308-1500::b2",
       "anatolian-beyliks-1308-1500::l3",
+      "byzantine-empire-1204-1453::x4",
       "ottoman-empire-1299-1517::p4",
       "ottoman-empire-1299-1517::p5",
       "ottoman-empire-1299-1517::p6",
@@ -83836,6 +84385,8 @@
     "Gallipoli": [
       "anatolia-1908-1923::c5",
       "anatolian-beyliks-1308-1500::x3",
+      "byzantine-empire-1204-1453::c4",
+      "byzantine-empire-1204-1453::c7",
       "ottoman-empire-1299-1517::te3",
       "ottoman-empire-1517-1683::t3",
       "ottoman-empire-1908-1922::c8",
@@ -84279,6 +84830,7 @@
       "anatolian-beyliks-1308-1500::x1",
       "byzantine-anatolia-632-867::w4",
       "byzantine-anatolia-867-1071::b4",
+      "byzantine-empire-1204-1453::c5",
       "byzantine-empire-632-867::x4",
       "byzantine-empire-632-867::w3",
       "byzantine-empire-867-1204::c3",
@@ -84488,6 +85040,7 @@
       "anatolia-1908-1923::l2",
       "anatolia-3000bc-2000bc::c2",
       "anatolian-beyliks-1308-1500::c3",
+      "byzantine-empire-1204-1453::w2",
       "hittite-1650bc-1180bc::c4",
       "ottoman-empire-1908-1922::l4"
     ],
@@ -84847,7 +85400,8 @@
     ],
     "John Kantakouzenos": [
       "anatolian-beyliks-1308-1500::p3",
-      "anatolian-beyliks-1308-1500::x1"
+      "anatolian-beyliks-1308-1500::x1",
+      "byzantine-empire-1204-1453::p5"
     ],
     "Saruhan": [
       "anatolian-beyliks-1308-1500::p5"
@@ -84879,6 +85433,8 @@
       "anatolian-beyliks-1308-1500::c5",
       "anatolian-beyliks-1308-1500::c6",
       "anatolian-beyliks-1308-1500::l3",
+      "byzantine-empire-1204-1453::c10",
+      "byzantine-empire-1204-1453::c9",
       "caucasus-1243-1501::c5",
       "iran-1335-1501::c5",
       "ottoman-empire-1299-1517::p6",
@@ -85016,6 +85572,8 @@
       "anatolian-beyliks-1308-1500::c5",
       "anatolian-beyliks-1308-1500::o2",
       "anatolian-beyliks-1308-1500::l1",
+      "byzantine-empire-1204-1453::c7",
+      "byzantine-empire-1204-1453::x4",
       "ottoman-empire-1299-1517::p3",
       "ottoman-empire-1299-1517::p10",
       "ottoman-empire-1299-1517::o1"
@@ -85026,6 +85584,7 @@
       "anatolian-beyliks-1308-1500::c4",
       "anatolian-beyliks-1308-1500::e4",
       "anatolian-beyliks-1308-1500::e1",
+      "byzantine-empire-1204-1453::c8",
       "iran-1335-1501::c3",
       "ottoman-empire-1299-1517::c2",
       "ottoman-empire-1299-1517::e1"
@@ -85038,6 +85597,7 @@
       "anatolian-beyliks-1308-1500::p11",
       "anatolian-beyliks-1308-1500::b1",
       "anatolian-beyliks-1308-1500::l3",
+      "byzantine-empire-1204-1453::c10",
       "ottoman-empire-1299-1517::p6",
       "ottoman-empire-1299-1517::c4",
       "ottoman-empire-1299-1517::o1",
@@ -85267,6 +85827,8 @@
     "Venice": [
       "anatolian-beyliks-1308-1500::x2",
       "byzantine-anatolia-867-1071::x4",
+      "byzantine-empire-1204-1453::o1",
+      "byzantine-empire-1204-1453::ec1",
       "byzantine-empire-867-1204::o4",
       "cilician-armenia-1080-1375::x1",
       "iraq-1258-1534::xc3",
@@ -85281,7 +85843,8 @@
       "anatolian-beyliks-1308-1500::x3"
     ],
     "Süleyman Pasha": [
-      "anatolian-beyliks-1308-1500::x3"
+      "anatolian-beyliks-1308-1500::x3",
+      "byzantine-empire-1204-1453::c7"
     ],
     "Bithynia": [
       "anatolian-beyliks-1308-1500::w3",
@@ -85374,6 +85937,7 @@
     ],
     "Mount Athos": [
       "anatolian-beyliks-1308-1500::l3",
+      "byzantine-empire-1204-1453::b2",
       "byzantine-empire-867-1204::b3",
       "caucasus-1064-1243::b3",
       "caucasus-884-1064::b3",
@@ -88358,6 +88922,7 @@
     ],
     "Thebes": [
       "assyria-911bc-609bc::c6",
+      "byzantine-empire-1204-1453::c4",
       "egypt-1200bc-664bc::k1",
       "egypt-1200bc-664bc::k3",
       "egypt-1200bc-664bc::k4",
@@ -89059,6 +89624,7 @@
     "True Cross": [
       "ayyubids-1171-1250::c1",
       "ayyubids-1171-1250::c7",
+      "byzantine-empire-1204-1453::b4",
       "byzantine-empire-632-867::p1",
       "crusader-states-1099-1291::c2",
       "mesopotamia-224-637::k7",
@@ -90074,6 +90640,7 @@
     ],
     "Mongols": [
       "ayyubids-1171-1250::x4",
+      "byzantine-empire-1204-1453::x2",
       "caliphate-945-1258::b8",
       "caliphate-945-1258::x5",
       "caliphate-945-1258::x6",
@@ -90155,6 +90722,7 @@
     ],
     "Mamluks": [
       "ayyubids-1171-1250::w5",
+      "byzantine-empire-1204-1453::x2",
       "egypt-1798-1900::c2",
       "mamluks-1250-1517::ex1"
     ],
@@ -94055,6 +94623,7 @@
     ],
     "Nicaea": [
       "byzantine-anatolia-632-867::b2",
+      "byzantine-empire-1204-1453::p1",
       "byzantine-empire-632-867::b3",
       "byzantine-empire-867-1204::c8",
       "byzantine-empire-867-1204::w2",
@@ -94134,6 +94703,8 @@
     ],
     "Trebizond": [
       "byzantine-anatolia-632-867::ec3",
+      "byzantine-empire-1204-1453::p9",
+      "byzantine-empire-1204-1453::t2",
       "caucasus-1064-1243::x2",
       "caucasus-1243-1501::ec1",
       "caucasus-1243-1501::x2",
@@ -94632,6 +95203,9 @@
     "Hagia Sophia": [
       "byzantine-anatolia-867-1071::b1",
       "byzantine-anatolia-867-1071::w2",
+      "byzantine-empire-1204-1453::p10",
+      "byzantine-empire-1204-1453::c2",
+      "byzantine-empire-1204-1453::b4",
       "byzantine-empire-632-867::e4",
       "byzantine-empire-867-1204::b2",
       "byzantine-empire-867-1204::w2",
@@ -94797,144 +95371,430 @@
       "byzantine-empire-867-1204::p8",
       "byzantine-empire-867-1204::l1"
     ],
-    "Heraclius": [
-      "byzantine-empire-632-867::p1",
-      "caucasus-428-645::c6",
-      "egypt-300-641::k7",
-      "late-roman-anatolia-330-632::p7",
-      "mesopotamia-224-637::c5",
-      "sassanid-484-651::c5"
+    "Theodore I Laskaris": [
+      "byzantine-empire-1204-1453::p1"
     ],
-    "Syracuse": [
-      "byzantine-empire-632-867::p2"
+    "Theodore Laskaris": [
+      "byzantine-empire-1204-1453::p1",
+      "seljuks-of-rum-1071-1308::p4",
+      "seljuks-of-rum-1071-1308::w2"
     ],
-    "Sixth Ecumenical Council": [
-      "byzantine-empire-632-867::p3"
+    "Alexios III": [
+      "byzantine-empire-1204-1453::p1",
+      "byzantine-empire-867-1204::p12",
+      "trebizond-1204-1461::p5",
+      "trebizond-1204-1461::c4",
+      "trebizond-1204-1461::o2",
+      "trebizond-1204-1461::b1"
     ],
-    "Justinian II Rhinotmetos": [
-      "byzantine-empire-632-867::p4"
+    "Michael Autoreianos": [
+      "byzantine-empire-1204-1453::p1"
     ],
-    "Abd al-Malik": [
-      "byzantine-empire-632-867::p4",
-      "caliphate-632-750::k8",
-      "caliphate-632-750::o3",
-      "caliphate-632-750::b3",
-      "caliphate-632-750::ec4",
-      "caliphate-632-750::tc1",
-      "caliphate-632-750::tc2",
-      "caucasus-645-884::c1",
-      "egypt-641-969::k2",
-      "egypt-641-969::o4",
-      "iran-651-821::ec2",
-      "levant-634-750::b1"
+    "Nymphaion": [
+      "byzantine-empire-1204-1453::p2",
+      "byzantine-empire-1204-1453::x1"
     ],
-    "Quinisext Council": [
-      "byzantine-empire-632-867::p4"
+    "John III Doukas Vatatzes": [
+      "byzantine-empire-1204-1453::p2"
     ],
-    "Leo III the Isaurian": [
-      "byzantine-empire-632-867::p5"
+    "John Vatatzes": [
+      "byzantine-empire-1204-1453::p2"
     ],
-    "Constantine V Kopronymos": [
-      "byzantine-empire-632-867::p6"
+    "Theodore I": [
+      "byzantine-empire-1204-1453::p2"
     ],
-    "Irene the Athenian": [
-      "byzantine-empire-632-867::p7"
+    "Michael VIII Palaiologos": [
+      "byzantine-empire-1204-1453::p3",
+      "trebizond-1204-1461::p3"
     ],
-    "Nikephorian": [
-      "byzantine-empire-632-867::p8"
+    "Michael Palaiologos": [
+      "byzantine-empire-1204-1453::p3",
+      "byzantine-empire-1204-1453::c3"
     ],
-    "Theophilos": [
-      "byzantine-empire-632-867::p9"
+    "John IV Laskaris": [
+      "byzantine-empire-1204-1453::p3"
     ],
-    "Sea Walls": [
-      "byzantine-empire-632-867::p9"
+    "Alexios Strategopoulos": [
+      "byzantine-empire-1204-1453::p3",
+      "byzantine-empire-1204-1453::c2"
     ],
-    "Basil the Macedonian": [
-      "byzantine-empire-632-867::p10"
+    "Patriarch Arsenios": [
+      "byzantine-empire-1204-1453::p3",
+      "byzantine-empire-1204-1453::b1"
     ],
-    "Yarmuk": [
-      "byzantine-empire-632-867::c1",
-      "caliphate-632-750::c2",
-      "ghassanid-420-638::w3"
+    "Andronikos II Palaiologos": [
+      "byzantine-empire-1204-1453::p4"
     ],
-    "Theodore Trithyrios": [
-      "byzantine-empire-632-867::c1"
+    "Catalan Company": [
+      "byzantine-empire-1204-1453::p4",
+      "byzantine-empire-1204-1453::c4",
+      "spain-1230-1492::w2"
     ],
-    "Khalid ibn al-Walid Arab": [
-      "byzantine-empire-632-867::c1"
+    "Andronikos III": [
+      "byzantine-empire-1204-1453::p4",
+      "byzantine-empire-1204-1453::p5",
+      "byzantine-empire-1204-1453::c5"
     ],
-    "Amr ibn al-As": [
-      "byzantine-empire-632-867::c2",
-      "caliphate-632-750::c4"
+    "Palaiologos": [
+      "byzantine-empire-1204-1453::p6"
+    ],
+    "Thessalonica": [
+      "byzantine-empire-1204-1453::p6",
+      "byzantine-empire-1204-1453::p8",
+      "byzantine-empire-1204-1453::e3",
+      "byzantine-empire-1204-1453::l4",
+      "byzantine-empire-1204-1453::l3",
+      "byzantine-empire-867-1204::c11",
+      "byzantine-empire-867-1204::l2",
+      "rome-200-300::c6",
+      "rome-300-400::p2",
+      "rome-300-400::p12"
+    ],
+    "John V": [
+      "byzantine-empire-1204-1453::p6",
+      "byzantine-empire-1204-1453::p5",
+      "byzantine-empire-1204-1453::c5",
+      "byzantine-empire-1204-1453::x3",
+      "byzantine-empire-1204-1453::x4"
+    ],
+    "Manuel II": [
+      "byzantine-empire-1204-1453::p6",
+      "byzantine-empire-1204-1453::c8",
+      "byzantine-empire-1204-1453::te1",
+      "byzantine-empire-1204-1453::x3",
+      "byzantine-empire-1204-1453::x4"
+    ],
+    "Didymoteichon": [
+      "byzantine-empire-1204-1453::p5"
+    ],
+    "John VI Kantakouzenos": [
+      "byzantine-empire-1204-1453::p5",
+      "ottoman-empire-1299-1517::p2"
+    ],
+    "Mistra": [
+      "byzantine-empire-1204-1453::p7",
+      "byzantine-empire-1204-1453::o5",
+      "byzantine-empire-1204-1453::b3",
+      "byzantine-empire-1204-1453::e2",
+      "byzantine-empire-1204-1453::t4"
+    ],
+    "John VIII": [
+      "byzantine-empire-1204-1453::p7",
+      "byzantine-empire-1204-1453::o4",
+      "byzantine-empire-1204-1453::te1",
+      "byzantine-empire-1204-1453::x4"
+    ],
+    "Constantine XI": [
+      "byzantine-empire-1204-1453::p7",
+      "byzantine-empire-1204-1453::c9"
+    ],
+    "John VIII Palaiologos": [
+      "byzantine-empire-1204-1453::p7"
+    ],
+    "Doukas of Epirus": [
+      "byzantine-empire-1204-1453::p8"
+    ],
+    "Arta": [
+      "byzantine-empire-1204-1453::p8"
+    ],
+    "Theodore Doukas": [
+      "byzantine-empire-1204-1453::p8"
+    ],
+    "Michael I Komnenos Doukas": [
+      "byzantine-empire-1204-1453::p8"
+    ],
+    "Ivan Asen II": [
+      "byzantine-empire-1204-1453::p8"
+    ],
+    "David Komnenos": [
+      "byzantine-empire-1204-1453::p9",
+      "caucasus-1064-1243::x2",
+      "trebizond-1204-1461::p1"
+    ],
+    "Andronikos I": [
+      "byzantine-empire-1204-1453::p9",
+      "trebizond-1204-1461::p1"
+    ],
+    "Latin Empire of Constantinople": [
+      "byzantine-empire-1204-1453::p10"
+    ],
+    "Count Baldwin of Flanders": [
+      "byzantine-empire-1204-1453::p10"
+    ],
+    "Robert of Courtenay": [
+      "byzantine-empire-1204-1453::p10"
+    ],
+    "John of Brienne": [
+      "byzantine-empire-1204-1453::p10"
+    ],
+    "Baldwin II": [
+      "byzantine-empire-1204-1453::p10",
+      "byzantine-empire-1204-1453::b4",
+      "crusader-states-1099-1291::p2"
+    ],
+    "Andravida": [
+      "byzantine-empire-1204-1453::p11"
+    ],
+    "Achaea": [
+      "byzantine-empire-1204-1453::p11"
+    ],
+    "Geoffrey of Villehardouin": [
+      "byzantine-empire-1204-1453::p11"
+    ],
+    "William of Champlitte": [
+      "byzantine-empire-1204-1453::p11"
+    ],
+    "Chronicle of the Morea": [
+      "byzantine-empire-1204-1453::p11"
     ],
     "Adrianople": [
+      "byzantine-empire-1204-1453::c1",
       "byzantine-empire-632-867::c6",
       "ottoman-empire-1683-1839::c9",
       "rome-300-400::p10",
       "rome-300-400::c6"
     ],
-    "Bulgars of Asparuh": [
-      "byzantine-empire-632-867::c6"
+    "Baldwin": [
+      "byzantine-empire-1204-1453::c1"
     ],
-    "Krum": [
-      "byzantine-empire-632-867::c6"
+    "Count Louis of Blois": [
+      "byzantine-empire-1204-1453::c1"
     ],
-    "Michael I": [
-      "byzantine-empire-632-867::c6",
-      "byzantine-empire-632-867::b7"
+    "Latin Empire": [
+      "byzantine-empire-1204-1453::c1"
     ],
-    "Maslama ibn Abd al-Malik": [
-      "byzantine-empire-632-867::c4",
-      "caliphate-632-750::c9"
+    "Pelagonia": [
+      "byzantine-empire-1204-1453::c3"
     ],
-    "Akroinon": [
-      "byzantine-empire-632-867::c5"
+    "Berat": [
+      "byzantine-empire-1204-1453::c3"
     ],
-    "Ravenna": [
-      "byzantine-empire-632-867::c11",
-      "rome-400-500::w1",
-      "rome-400-500::w2",
-      "rome-400-500::w3",
-      "rome-400-500::w6",
-      "rome-400-500::w7",
-      "rome-400-500::w11",
-      "rome-400-500::w12",
-      "rome-400-500::m9",
-      "rome-400-500::l3",
-      "rome-400-500::l4",
-      "rome-400-500::a3",
-      "rome-400-500::a4",
-      "rome-400-500::s7",
-      "rome-400-500::t3",
-      "rome-400-500::ex2",
-      "rome-400-500::lv2"
+    "Angevins": [
+      "byzantine-empire-1204-1453::c3"
     ],
-    "Lombards": [
-      "byzantine-empire-632-867::c11"
+    "William of Villehardouin": [
+      "byzantine-empire-1204-1453::c3"
     ],
-    "Papal State": [
-      "byzantine-empire-632-867::c11"
+    "Charles of Anjou": [
+      "byzantine-empire-1204-1453::c3",
+      "byzantine-empire-1204-1453::o3"
     ],
-    "Crete": [
-      "byzantine-empire-632-867::c8",
-      "byzantine-empire-867-1204::c1",
-      "egypt-2100bc-1550bc::k13",
-      "ottoman-empire-1517-1683::c10",
-      "ottoman-empire-1839-1908::c7"
+    "Michael VIII": [
+      "byzantine-empire-1204-1453::c2",
+      "byzantine-empire-1204-1453::o2",
+      "byzantine-empire-1204-1453::o3",
+      "byzantine-empire-1204-1453::b1",
+      "byzantine-empire-1204-1453::ec1",
+      "byzantine-empire-1204-1453::ec2",
+      "byzantine-empire-1204-1453::x1",
+      "byzantine-empire-1204-1453::x2",
+      "byzantine-empire-1204-1453::l1"
     ],
-    "Andalusi Muslim": [
-      "byzantine-empire-632-867::c8"
+    "Golden Gate": [
+      "byzantine-empire-1204-1453::c2"
     ],
-    "Patriarch Photios": [
-      "byzantine-empire-632-867::c9",
-      "byzantine-empire-632-867::e4",
-      "byzantine-empire-632-867::t4",
-      "caucasus-884-1064::b1"
+    "Andronikos II": [
+      "byzantine-empire-1204-1453::c4",
+      "byzantine-empire-1204-1453::c5",
+      "byzantine-empire-1204-1453::o2",
+      "byzantine-empire-1204-1453::o3",
+      "byzantine-empire-1204-1453::e3",
+      "byzantine-empire-1204-1453::e1"
     ],
-    "Ecloga Selection": [
-      "byzantine-empire-632-867::o2"
+    "Roger de Flor": [
+      "byzantine-empire-1204-1453::c4"
+    ],
+    "Michael IX": [
+      "byzantine-empire-1204-1453::c4"
+    ],
+    "Palaiologan": [
+      "byzantine-empire-1204-1453::c5"
+    ],
+    "Zealots of Thessalonica": [
+      "byzantine-empire-1204-1453::c6"
+    ],
+    "Zealots Michael Palaiologos": [
+      "byzantine-empire-1204-1453::c6"
+    ],
+    "Andreas Palaiologos": [
+      "byzantine-empire-1204-1453::c6"
+    ],
+    "Maritsa": [
+      "byzantine-empire-1204-1453::c7"
+    ],
+    "Varna": [
+      "byzantine-empire-1204-1453::c10",
+      "ottoman-empire-1299-1517::c4"
+    ],
+    "Władysław III of Poland-Hungary": [
+      "byzantine-empire-1204-1453::c10",
+      "ottoman-empire-1299-1517::c4"
+    ],
+    "János Hunyadi": [
+      "byzantine-empire-1204-1453::c10",
+      "ottoman-empire-1299-1517::c4",
+      "ottoman-empire-1299-1517::c6"
+    ],
+    "Despotate of the Morea": [
+      "byzantine-empire-1204-1453::c10",
+      "byzantine-empire-1204-1453::o5"
+    ],
+    "Giovanni Giustiniani": [
+      "byzantine-empire-1204-1453::c9",
+      "ottoman-empire-1299-1517::c5"
+    ],
+    "Partitio Romaniae": [
+      "byzantine-empire-1204-1453::o1"
+    ],
+    "Thomas Morosini": [
+      "byzantine-empire-1204-1453::o1",
+      "byzantine-empire-1204-1453::b4"
+    ],
+    "Palaiologoi": [
+      "byzantine-empire-1204-1453::o2"
+    ],
+    "Lyons": [
+      "byzantine-empire-1204-1453::o3"
+    ],
+    "Pope Martin IV": [
+      "byzantine-empire-1204-1453::o3"
+    ],
+    "Ferrara": [
+      "byzantine-empire-1204-1453::o4",
+      "france-1494-1610::a7",
+      "trebizond-1204-1461::b2"
+    ],
+    "Florence": [
+      "byzantine-empire-1204-1453::o4",
+      "byzantine-empire-1204-1453::t4",
+      "ottoman-syria-1516-1800::l1",
+      "trebizond-1204-1461::b2"
+    ],
+    "Ferrara–Florence": [
+      "byzantine-empire-1204-1453::o4"
+    ],
+    "Joseph II": [
+      "byzantine-empire-1204-1453::o4"
+    ],
+    "Bessarion of Nicaea": [
+      "byzantine-empire-1204-1453::o4"
+    ],
+    "Latin": [
+      "byzantine-empire-1204-1453::b4",
+      "spain-1230-1492::t4"
+    ],
+    "Arsenite": [
+      "byzantine-empire-1204-1453::b1"
+    ],
+    "Gregory Palamas": [
+      "byzantine-empire-1204-1453::b2"
+    ],
+    "Barlaam of Calabria": [
+      "byzantine-empire-1204-1453::b2"
+    ],
+    "Orthodox Church": [
+      "byzantine-empire-1204-1453::b2",
+      "byzantine-empire-632-867::e3"
+    ],
+    "Palaiologan Renaissance": [
+      "byzantine-empire-1204-1453::e3",
+      "byzantine-empire-1204-1453::e1"
+    ],
+    "Manuel Philes": [
+      "byzantine-empire-1204-1453::e3"
+    ],
+    "Studenica": [
+      "byzantine-empire-1204-1453::e2"
+    ],
+    "Serbian": [
+      "byzantine-empire-1204-1453::e2",
+      "ottoman-empire-1683-1839::c7"
+    ],
+    "Theophanes the Greek": [
+      "byzantine-empire-1204-1453::e2"
+    ],
+    "Theodore Metochites": [
+      "byzantine-empire-1204-1453::e1",
+      "byzantine-empire-1204-1453::t3"
+    ],
+    "Chora Kariye": [
+      "byzantine-empire-1204-1453::e1"
+    ],
+    "Maximos Planudes": [
+      "byzantine-empire-1204-1453::t1"
+    ],
+    "Nikephoros Gregoras": [
+      "byzantine-empire-1204-1453::t1"
+    ],
+    "Ptolemy Geography": [
+      "byzantine-empire-1204-1453::t1",
+      "ottoman-empire-1299-1517::t1"
+    ],
+    "Gregory Chioniades": [
+      "byzantine-empire-1204-1453::t2",
+      "trebizond-1204-1461::t2"
+    ],
+    "Constantinople the Zij of Persian": [
+      "byzantine-empire-1204-1453::t2"
+    ],
+    "Nasir al-Din al-Tusi": [
+      "byzantine-empire-1204-1453::t2",
+      "caliphate-945-1258::tc4",
+      "ilkhanate-1219-1335::t1",
+      "iraq-1258-1534::t1"
+    ],
+    "Bessarion": [
+      "byzantine-empire-1204-1453::t4",
+      "trebizond-1204-1461::t3"
+    ],
+    "George Gemistos Plethon": [
+      "byzantine-empire-1204-1453::t4"
+    ],
+    "George Scholarios": [
+      "byzantine-empire-1204-1453::t4",
+      "ottoman-empire-1299-1517::o4"
+    ],
+    "Cosimo de Medici": [
+      "byzantine-empire-1204-1453::t4"
+    ],
+    "Galata": [
+      "byzantine-empire-1204-1453::ec1",
+      "ottoman-empire-1299-1517::x1",
+      "ottoman-empire-1517-1683::t2"
+    ],
+    "Golden Horn": [
+      "byzantine-empire-1204-1453::ec1",
+      "byzantine-empire-1204-1453::l2",
+      "byzantine-empire-867-1204::o4",
+      "byzantine-empire-867-1204::x3",
+      "byzantine-empire-867-1204::l2",
+      "ottoman-empire-1299-1517::c5",
+      "ottoman-empire-1299-1517::e3",
+      "ottoman-empire-1517-1683::e1",
+      "ottoman-empire-1683-1839::e1",
+      "ottoman-empire-1683-1839::te3"
+    ],
+    "Bertrandon de la Broquière": [
+      "byzantine-empire-1204-1453::ec3"
+    ],
+    "Pero Tafur": [
+      "byzantine-empire-1204-1453::ec3"
+    ],
+    "Charisian Gate": [
+      "byzantine-empire-1204-1453::te1"
+    ],
+    "Nymphaeum": [
+      "byzantine-empire-1204-1453::x1"
+    ],
+    "Sarai": [
+      "byzantine-empire-1204-1453::x2",
+      "mamluks-1250-1517::x1"
+    ],
+    "Mongol Golden Horde of Berke": [
+      "byzantine-empire-1204-1453::x2"
     ],
     "Rome": [
+      "byzantine-empire-1204-1453::x3",
       "byzantine-empire-632-867::o5",
       "byzantine-empire-632-867::b1",
       "byzantine-empire-632-867::b5",
@@ -95067,6 +95927,172 @@
       "tylos-mleiha-300bc-240ad::x1",
       "tylos-mleiha-300bc-240ad::w3"
     ],
+    "Urban V": [
+      "byzantine-empire-1204-1453::x3"
+    ],
+    "Peloponnese": [
+      "byzantine-empire-1204-1453::w3",
+      "byzantine-empire-632-867::w2"
+    ],
+    "Morea": [
+      "byzantine-empire-1204-1453::w3",
+      "ottoman-empire-1683-1839::c8"
+    ],
+    "Theodora Raoulaina": [
+      "byzantine-empire-1204-1453::l1"
+    ],
+    "Irene Choumnaina Palaiologina": [
+      "byzantine-empire-1204-1453::l1"
+    ],
+    "Nikephoros Choumnos": [
+      "byzantine-empire-1204-1453::l1"
+    ],
+    "Theoleptos of Philadelphia": [
+      "byzantine-empire-1204-1453::l1"
+    ],
+    "Jews of the Palaiologan": [
+      "byzantine-empire-1204-1453::l4"
+    ],
+    "Sephardic Jews": [
+      "byzantine-empire-1204-1453::l4"
+    ],
+    "Genoese of Galata": [
+      "byzantine-empire-1204-1453::l2"
+    ],
+    "Zealots": [
+      "byzantine-empire-1204-1453::l3"
+    ],
+    "Heraclius": [
+      "byzantine-empire-632-867::p1",
+      "caucasus-428-645::c6",
+      "egypt-300-641::k7",
+      "late-roman-anatolia-330-632::p7",
+      "mesopotamia-224-637::c5",
+      "sassanid-484-651::c5"
+    ],
+    "Syracuse": [
+      "byzantine-empire-632-867::p2"
+    ],
+    "Sixth Ecumenical Council": [
+      "byzantine-empire-632-867::p3"
+    ],
+    "Justinian II Rhinotmetos": [
+      "byzantine-empire-632-867::p4"
+    ],
+    "Abd al-Malik": [
+      "byzantine-empire-632-867::p4",
+      "caliphate-632-750::k8",
+      "caliphate-632-750::o3",
+      "caliphate-632-750::b3",
+      "caliphate-632-750::ec4",
+      "caliphate-632-750::tc1",
+      "caliphate-632-750::tc2",
+      "caucasus-645-884::c1",
+      "egypt-641-969::k2",
+      "egypt-641-969::o4",
+      "iran-651-821::ec2",
+      "levant-634-750::b1"
+    ],
+    "Quinisext Council": [
+      "byzantine-empire-632-867::p4"
+    ],
+    "Leo III the Isaurian": [
+      "byzantine-empire-632-867::p5"
+    ],
+    "Constantine V Kopronymos": [
+      "byzantine-empire-632-867::p6"
+    ],
+    "Irene the Athenian": [
+      "byzantine-empire-632-867::p7"
+    ],
+    "Nikephorian": [
+      "byzantine-empire-632-867::p8"
+    ],
+    "Theophilos": [
+      "byzantine-empire-632-867::p9"
+    ],
+    "Sea Walls": [
+      "byzantine-empire-632-867::p9"
+    ],
+    "Basil the Macedonian": [
+      "byzantine-empire-632-867::p10"
+    ],
+    "Yarmuk": [
+      "byzantine-empire-632-867::c1",
+      "caliphate-632-750::c2",
+      "ghassanid-420-638::w3"
+    ],
+    "Theodore Trithyrios": [
+      "byzantine-empire-632-867::c1"
+    ],
+    "Khalid ibn al-Walid Arab": [
+      "byzantine-empire-632-867::c1"
+    ],
+    "Amr ibn al-As": [
+      "byzantine-empire-632-867::c2",
+      "caliphate-632-750::c4"
+    ],
+    "Bulgars of Asparuh": [
+      "byzantine-empire-632-867::c6"
+    ],
+    "Krum": [
+      "byzantine-empire-632-867::c6"
+    ],
+    "Michael I": [
+      "byzantine-empire-632-867::c6",
+      "byzantine-empire-632-867::b7"
+    ],
+    "Maslama ibn Abd al-Malik": [
+      "byzantine-empire-632-867::c4",
+      "caliphate-632-750::c9"
+    ],
+    "Akroinon": [
+      "byzantine-empire-632-867::c5"
+    ],
+    "Ravenna": [
+      "byzantine-empire-632-867::c11",
+      "rome-400-500::w1",
+      "rome-400-500::w2",
+      "rome-400-500::w3",
+      "rome-400-500::w6",
+      "rome-400-500::w7",
+      "rome-400-500::w11",
+      "rome-400-500::w12",
+      "rome-400-500::m9",
+      "rome-400-500::l3",
+      "rome-400-500::l4",
+      "rome-400-500::a3",
+      "rome-400-500::a4",
+      "rome-400-500::s7",
+      "rome-400-500::t3",
+      "rome-400-500::ex2",
+      "rome-400-500::lv2"
+    ],
+    "Lombards": [
+      "byzantine-empire-632-867::c11"
+    ],
+    "Papal State": [
+      "byzantine-empire-632-867::c11"
+    ],
+    "Crete": [
+      "byzantine-empire-632-867::c8",
+      "byzantine-empire-867-1204::c1",
+      "egypt-2100bc-1550bc::k13",
+      "ottoman-empire-1517-1683::c10",
+      "ottoman-empire-1839-1908::c7"
+    ],
+    "Andalusi Muslim": [
+      "byzantine-empire-632-867::c8"
+    ],
+    "Patriarch Photios": [
+      "byzantine-empire-632-867::c9",
+      "byzantine-empire-632-867::e4",
+      "byzantine-empire-632-867::t4",
+      "caucasus-884-1064::b1"
+    ],
+    "Ecloga Selection": [
+      "byzantine-empire-632-867::o2"
+    ],
     "Charlemagne": [
       "byzantine-empire-632-867::o5",
       "caliphate-750-945::x2"
@@ -95130,9 +96156,6 @@
     "Kassia Kassiani": [
       "byzantine-empire-632-867::e3"
     ],
-    "Orthodox Church": [
-      "byzantine-empire-632-867::e3"
-    ],
     "Sigriane": [
       "byzantine-empire-632-867::e5"
     ],
@@ -95193,9 +96216,6 @@
     ],
     "Annals of St Bertin": [
       "byzantine-empire-632-867::x5"
-    ],
-    "Peloponnese": [
-      "byzantine-empire-632-867::w2"
     ],
     "Chronicle of Monemvasia": [
       "byzantine-empire-632-867::w2"
@@ -95307,13 +96327,6 @@
     "Isaac II Angelos": [
       "byzantine-empire-867-1204::p12"
     ],
-    "Alexios III": [
-      "byzantine-empire-867-1204::p12",
-      "trebizond-1204-1461::p5",
-      "trebizond-1204-1461::c4",
-      "trebizond-1204-1461::o2",
-      "trebizond-1204-1461::b1"
-    ],
     "Symeon of Bulgaria": [
       "byzantine-empire-867-1204::c3"
     ],
@@ -95383,13 +96396,6 @@
     "Maria of Antioch": [
       "byzantine-empire-867-1204::c10"
     ],
-    "Thessalonica": [
-      "byzantine-empire-867-1204::c11",
-      "byzantine-empire-867-1204::l2",
-      "rome-200-300::c6",
-      "rome-300-400::p2",
-      "rome-300-400::p12"
-    ],
     "Sicilian Norman": [
       "byzantine-empire-867-1204::c11"
     ],
@@ -95448,16 +96454,6 @@
       "seljuks-of-rum-1071-1308::x4",
       "trebizond-1204-1461::p1",
       "trebizond-1204-1461::c1"
-    ],
-    "Golden Horn": [
-      "byzantine-empire-867-1204::o4",
-      "byzantine-empire-867-1204::x3",
-      "byzantine-empire-867-1204::l2",
-      "ottoman-empire-1299-1517::c5",
-      "ottoman-empire-1299-1517::e3",
-      "ottoman-empire-1517-1683::e1",
-      "ottoman-empire-1683-1839::e1",
-      "ottoman-empire-1683-1839::te3"
     ],
     "Bulgaria": [
       "byzantine-empire-867-1204::b4",
@@ -97447,11 +98443,6 @@
     "Azerbaijan Ilkhanid": [
       "caliphate-945-1258::tc4"
     ],
-    "Nasir al-Din al-Tusi": [
-      "caliphate-945-1258::tc4",
-      "ilkhanate-1219-1335::t1",
-      "iraq-1258-1534::t1"
-    ],
     "Distillation": [
       "caliphate-945-1258::tc5"
     ],
@@ -98801,10 +99792,6 @@
     ],
     "Kipchaks": [
       "caucasus-1064-1243::x1"
-    ],
-    "David Komnenos": [
-      "caucasus-1064-1243::x2",
-      "trebizond-1204-1461::p1"
     ],
     "Latin Church": [
       "caucasus-1064-1243::x2",
@@ -102383,9 +103370,6 @@
       "crusader-states-1099-1291::p1"
     ],
     "Melisende": [
-      "crusader-states-1099-1291::p2"
-    ],
-    "Baldwin II": [
       "crusader-states-1099-1291::p2"
     ],
     "Baldwin III": [
@@ -111598,10 +112582,6 @@
     ],
     "Basilica of Saint-Denis": [
       "france-1494-1610::r8"
-    ],
-    "Ferrara": [
-      "france-1494-1610::a7",
-      "trebizond-1204-1461::b2"
     ],
     "Condé-sur-l'Escaut": [
       "france-1494-1610::a7"
@@ -124876,9 +125856,6 @@
     "Gunpowder": [
       "mamluks-1250-1517::tc1"
     ],
-    "Sarai": [
-      "mamluks-1250-1517::x1"
-    ],
     "Barcelona": [
       "mamluks-1250-1517::x3",
       "spain-1230-1492::k8",
@@ -128310,9 +129287,6 @@
     "Osman I": [
       "ottoman-empire-1299-1517::p1"
     ],
-    "John VI Kantakouzenos": [
-      "ottoman-empire-1299-1517::p2"
-    ],
     "Bayezid I Yıldırım": [
       "ottoman-empire-1299-1517::p4"
     ],
@@ -128358,16 +129332,6 @@
     "Ankara the Tatar": [
       "ottoman-empire-1299-1517::c3"
     ],
-    "Varna": [
-      "ottoman-empire-1299-1517::c4"
-    ],
-    "Władysław III of Poland-Hungary": [
-      "ottoman-empire-1299-1517::c4"
-    ],
-    "János Hunyadi": [
-      "ottoman-empire-1299-1517::c4",
-      "ottoman-empire-1299-1517::c6"
-    ],
     "Peace of Szeged": [
       "ottoman-empire-1299-1517::c4"
     ],
@@ -128375,9 +129339,6 @@
       "ottoman-empire-1299-1517::c5"
     ],
     "Constantine XI Palaiologos": [
-      "ottoman-empire-1299-1517::c5"
-    ],
-    "Giovanni Giustiniani": [
       "ottoman-empire-1299-1517::c5"
     ],
     "Belgrade": [
@@ -128412,9 +129373,6 @@
     "Janissaries": [
       "ottoman-empire-1299-1517::o1",
       "ottoman-empire-1683-1839::o6"
-    ],
-    "George Scholarios": [
-      "ottoman-empire-1299-1517::o4"
     ],
     "Patriarch Gennadios II": [
       "ottoman-empire-1299-1517::o4"
@@ -128480,9 +129438,6 @@
     "George Amiroutzes": [
       "ottoman-empire-1299-1517::t1"
     ],
-    "Ptolemy Geography": [
-      "ottoman-empire-1299-1517::t1"
-    ],
     "Kritovoulos History of Mehmed the Conqueror": [
       "ottoman-empire-1299-1517::t1"
     ],
@@ -128523,10 +129478,6 @@
     ],
     "Orban": [
       "ottoman-empire-1299-1517::te2"
-    ],
-    "Galata": [
-      "ottoman-empire-1299-1517::x1",
-      "ottoman-empire-1517-1683::t2"
     ],
     "Otluk Beli": [
       "ottoman-empire-1299-1517::x4"
@@ -128970,14 +129921,8 @@
     "Jazzar Ahmed Pasha": [
       "ottoman-empire-1683-1839::c6"
     ],
-    "Serbian": [
-      "ottoman-empire-1683-1839::c7"
-    ],
     "Miloš Obrenović": [
       "ottoman-empire-1683-1839::c7"
-    ],
-    "Morea": [
-      "ottoman-empire-1683-1839::c8"
     ],
     "Filiki Eteria": [
       "ottoman-empire-1683-1839::c8"
@@ -129737,10 +130682,6 @@
     ],
     "Fakhr al-Din II": [
       "ottoman-syria-1516-1800::w1"
-    ],
-    "Florence": [
-      "ottoman-syria-1516-1800::l1",
-      "trebizond-1204-1461::b2"
     ],
     "Fakhr al-Din II Years": [
       "ottoman-syria-1516-1800::l1"
@@ -134719,10 +135660,6 @@
       "seljuks-of-rum-1071-1308::p4",
       "seljuks-of-rum-1071-1308::c7"
     ],
-    "Theodore Laskaris": [
-      "seljuks-of-rum-1071-1308::p4",
-      "seljuks-of-rum-1071-1308::w2"
-    ],
     "Alanya": [
       "seljuks-of-rum-1071-1308::p5",
       "seljuks-of-rum-1071-1308::c7",
@@ -136278,9 +137215,6 @@
     "Toledo Translation School": [
       "spain-1230-1492::t4"
     ],
-    "Latin": [
-      "spain-1230-1492::t4"
-    ],
     "European Scholasticism": [
       "spain-1230-1492::t4"
     ],
@@ -136383,9 +137317,6 @@
       "spain-1230-1492::w2"
     ],
     "Almogavars": [
-      "spain-1230-1492::w2"
-    ],
-    "Catalan Company": [
       "spain-1230-1492::w2"
     ],
     "Duchy of Athens": [
@@ -140033,9 +140964,6 @@
       "trebizond-1204-1461::p7",
       "trebizond-1204-1461::o1"
     ],
-    "Andronikos I": [
-      "trebizond-1204-1461::p1"
-    ],
     "Andronikos Gidos": [
       "trebizond-1204-1461::p2"
     ],
@@ -140051,9 +140979,6 @@
     "John II": [
       "trebizond-1204-1461::p3",
       "trebizond-1204-1461::p4"
-    ],
-    "Michael VIII Palaiologos": [
-      "trebizond-1204-1461::p3"
     ],
     "Autocrat of All the East": [
       "trebizond-1204-1461::p3"
@@ -140125,17 +141050,11 @@
     "Hagia Sophia of Trebizond": [
       "trebizond-1204-1461::e1"
     ],
-    "Gregory Chioniades": [
-      "trebizond-1204-1461::t2"
-    ],
     "George Chrysokokkes": [
       "trebizond-1204-1461::t2"
     ],
     "Michael Panaretos": [
       "trebizond-1204-1461::t1"
-    ],
-    "Bessarion": [
-      "trebizond-1204-1461::t3"
     ],
     "Encomium of Trebizond": [
       "trebizond-1204-1461::t3"

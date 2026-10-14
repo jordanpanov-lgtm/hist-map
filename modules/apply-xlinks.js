@@ -2325,6 +2325,34 @@ const SELECTED_PAIRS = [
   ['byzantine-empire-867-1204::w2', 'byzantine-anatolia-867-1071::w2'],      // the earthquake of 989
   ['byzantine-empire-867-1204::l3', 'byzantine-anatolia-867-1071::l3'],      // the frontier of the Akritai
   ['byzantine-empire-867-1204::b4', 'byzantine-anatolia-867-1071::b4'],      // the Paulicians moved to Thrace
+  ['byzantine-empire-1204-1453::p9', 'trebizond-1204-1461::p1'],      // Alexios I and David — the foundation
+  ['byzantine-empire-1204-1453::p9', 'trebizond-1204-1461::o1'],      // the court of the Grand Komnenoi
+  ['byzantine-empire-1204-1453::c9', 'trebizond-1204-1461::w4'],      // the last Greek state after 1453
+  ['byzantine-empire-1204-1453::c10', 'ottoman-empire-1299-1517::c4'],      // the battle of Varna
+  ['byzantine-empire-1204-1453::c9', 'ottoman-empire-1299-1517::c5'],      // the conquest of Constantinople
+  ['byzantine-empire-1204-1453::c7', 'ottoman-empire-1299-1517::p2'],      // Orhan and the crossing to Europe
+  ['byzantine-empire-1204-1453::c7', 'anatolian-beyliks-1308-1500::x3'],      // the crossing at Çimpe
+  ['byzantine-empire-1204-1453::c5', 'anatolian-beyliks-1308-1500::x1'],      // Umur Bey and John Kantakouzenos
+  ['byzantine-empire-1204-1453::c8', 'ottoman-empire-1299-1517::p4'],      // Bayezid I and the siege
+  ['byzantine-empire-1204-1453::c8', 'anatolian-beyliks-1308-1500::c4'],      // the battle of Ankara
+  ['byzantine-empire-1204-1453::c7', 'anatolian-beyliks-1308-1500::p10'],      // Murad I and Bayezid I
+  ['byzantine-empire-1204-1453::w1', 'anatolian-beyliks-1308-1500::w2'],      // the Black Death in Anatolia
+  ['byzantine-empire-1204-1453::w1', 'trebizond-1204-1461::w2'],      // the Black Death at Trebizond
+  ['byzantine-empire-1204-1453::w2', 'anatolian-beyliks-1308-1500::w1'],      // the fragments of the Seljuk and Ilkhanid state
+  ['byzantine-empire-1204-1453::w2', 'anatolian-beyliks-1308-1500::p9'],      // Osman and Orhan
+  ['byzantine-empire-1204-1453::c2', 'seljuks-of-rum-1071-1308::w2'],      // the Fourth Crusade and the Greek exiles
+  ['byzantine-empire-1204-1453::p3', 'byzantine-empire-867-1204::c13'],      // the Fourth Crusade and the sack of Constantinople
+  ['byzantine-empire-1204-1453::p10', 'byzantine-empire-867-1204::c13'],      // the Latin empire from the sack
+  ['byzantine-empire-1204-1453::t2', 'trebizond-1204-1461::t2'],      // Chioniades and Persian astronomy
+  ['byzantine-empire-1204-1453::t2', 'ilkhanate-1219-1335::tc1'],      // Maragheh’s astronomical instruments
+  ['byzantine-empire-1204-1453::t4', 'trebizond-1204-1461::b2'],      // Bessarion and the Council of Florence
+  ['byzantine-empire-1204-1453::x2', 'mamluks-1250-1517::k3'],      // Baybars and the empire
+  ['byzantine-empire-1204-1453::x4', 'anatolian-beyliks-1308-1500::x2'],      // the treaties with Venice
+  ['byzantine-empire-1204-1453::l3', 'trebizond-1204-1461::c4'],      // the anarchy of the 1340s
+  ['byzantine-empire-1204-1453::e1', 'anatolian-beyliks-1308-1500::e1'],      // the mosques of Bursa and the churches of the capital
+  ['byzantine-empire-1204-1453::c1', 'byzantine-empire-867-1204::c12'],      // the revolt of Asen and Peter and the second Bulgarian empire
+  ['byzantine-empire-1204-1453::ec1', 'ottoman-empire-1299-1517::x1'],      // the Venetian treaty and Galata
+  ['byzantine-empire-1204-1453::p6', 'ottoman-empire-1299-1517::p4'],      // Manuel II and Bayezid I
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
