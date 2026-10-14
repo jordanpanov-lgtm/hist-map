@@ -2655,6 +2655,100 @@ const SELECTED_PAIRS = [
   ['eastern-question-1774-1900::e2', 'egypt-1798-1900::x4'],      // the theatre and Aida
   ['eastern-question-1774-1900::p5', 'ottoman-empire-1839-1908::x2'],      // Egypt and Cyprus
   ['eastern-question-1774-1900::p3', 'ottoman-empire-1839-1908::p2'],      // Reşid, Âli and Fuad Pasha
+  ['modern-near-east-1900-1945::p1', 'turkey-1923-1980::p1'],      // Mustafa Kemal Atatürk, first president
+  ['modern-near-east-1900-1945::p1', 'anatolia-1908-1923::p5'],      // Mustafa Kemal elected first president
+  ['modern-near-east-1900-1945::p2', 'pahlavi-1925-1979::p1'],      // Reza Shah, founder of the Pahlavi state
+  ['modern-near-east-1900-1945::p2', 'qajar-1789-1925::c6'],      // the coup of 1921
+  ['modern-near-east-1900-1945::p3', 'iraq-1914-1958::k2'],      // Faisal I and the founding of the Kingdom
+  ['modern-near-east-1900-1945::p3', 'levant-1908-1920::p5'],      // Faisal’s Arab Kingdom of Syria
+  ['modern-near-east-1900-1945::p3', 'mandate-palestine-transjordan-1920-1948::p2'],      // Abdullah and the emirate of Transjordan
+  ['modern-near-east-1900-1945::p3', 'hejaz-1900-1925::k6'],      // the Hashemite thrones abroad
+  ['modern-near-east-1900-1945::p4', 'saudi-1902-today::k1'],      // Abdulaziz Ibn Saud
+  ['modern-near-east-1900-1945::p4', 'hejaz-1900-1925::k5'],      // the Saudi conquest of the Hejaz
+  ['modern-near-east-1900-1945::p4', 'saudi-1902-today::c4'],      // the Ikhwan revolt and Sabilla
+  ['modern-near-east-1900-1945::p5', 'egypt-1900-1952::k3'],      // Fuad I
+  ['modern-near-east-1900-1945::p5', 'egypt-1900-1952::k4'],      // Farouk I
+  ['modern-near-east-1900-1945::p5', 'egypt-1900-1952::k9'],      // the Wafd in office
+  ['modern-near-east-1900-1945::p6', 'mandate-syria-lebanon-1920-1946::p1'],      // the French mandate
+  ['modern-near-east-1900-1945::p6', 'mandate-palestine-transjordan-1920-1948::p1'],      // the British mandate for Palestine
+  ['modern-near-east-1900-1945::p6', 'iraq-1914-1958::k1'],      // the conquest and the mandate
+  ['modern-near-east-1900-1945::c1', 'ottoman-empire-1908-1922::c5'],      // the entry into the Great War
+  ['modern-near-east-1900-1945::c1', 'ottoman-empire-1908-1922::c9'],      // Kut and the Mesopotamian campaign
+  ['modern-near-east-1900-1945::c2', 'anatolia-1908-1923::c14'],      // the Great Offensive and Dumlupınar
+  ['modern-near-east-1900-1945::c2', 'ottoman-empire-1908-1922::c15'],      // the national struggle
+  ['modern-near-east-1900-1945::c3', 'iraq-1914-1958::c2'],      // the 1920 revolt
+  ['modern-near-east-1900-1945::c4', 'mandate-syria-lebanon-1920-1946::c1'],      // the Great Syrian Revolt
+  ['modern-near-east-1900-1945::c5', 'mandate-palestine-transjordan-1920-1948::c2'],      // the Arab Revolt
+  ['modern-near-east-1900-1945::c5', 'mandate-palestine-transjordan-1920-1948::c1'],      // the riots of 1929
+  ['modern-near-east-1900-1945::c6', 'turkey-1923-1980::c1'],      // Sheikh Said’s rebellion
+  ['modern-near-east-1900-1945::c6', 'turkey-1923-1980::c2'],      // Ararat and Zilan
+  ['modern-near-east-1900-1945::c6', 'turkey-1923-1980::c3'],      // Dersim
+  ['modern-near-east-1900-1945::c7', 'iraq-1914-1958::c4'],      // the Anglo-Iraqi War and the Farhud
+  ['modern-near-east-1900-1945::c7', 'iraq-1914-1958::k6'],      // the Rashid Ali affair
+  ['modern-near-east-1900-1945::c8', 'pahlavi-1925-1979::c1'],      // the Anglo-Soviet invasion of Iran
+  ['modern-near-east-1900-1945::c9', 'mandate-syria-lebanon-1920-1946::p4'],      // Vichy control and the Free French invasion
+  ['modern-near-east-1900-1945::c9', 'mandate-syria-lebanon-1920-1946::c2'],      // the 1945 Levant crisis
+  ['modern-near-east-1900-1945::o1', 'mandate-palestine-transjordan-1920-1948::p2'],      // Transjordan separated under Abdullah
+  ['modern-near-east-1900-1945::o1', 'hejaz-1900-1925::x3'],      // the Sharifian solution of 1921
+  ['modern-near-east-1900-1945::o2', 'anatolia-1908-1923::o10'],      // the Treaty of Lausanne
+  ['modern-near-east-1900-1945::o3', 'egypt-1900-1952::o3'],      // the 1936 Anglo-Egyptian treaty
+  ['modern-near-east-1900-1945::o3', 'egypt-1900-1952::o4'],      // Montreux and the end of the capitulations
+  ['modern-near-east-1900-1945::o3', 'turkey-1923-1980::x1'],      // the Montreux Convention on the Straits
+  ['modern-near-east-1900-1945::o4', 'qajar-1789-1925::o2'],      // Iran’s first constitution
+  ['modern-near-east-1900-1945::o4', 'qajar-1789-1925::c4'],      // the bombardment of the Majlis
+  ['modern-near-east-1900-1945::o5', 'egypt-1900-1952::o2'],      // the 1923 constitution
+  ['modern-near-east-1900-1945::o5', 'iraq-1914-1958::o2'],      // the Organic Law
+  ['modern-near-east-1900-1945::o6', 'turkey-1923-1980::o1'],      // the abolition of the caliphate
+  ['modern-near-east-1900-1945::o6', 'turkey-1923-1980::o4'],      // the Civil Code
+  ['modern-near-east-1900-1945::o6', 'turkey-1923-1980::o5'],      // the alphabet reform
+  ['modern-near-east-1900-1945::b1', 'turkey-1923-1980::o1'],      // the abolition of the caliphate
+  ['modern-near-east-1900-1945::b1', 'egypt-1900-1952::k13'],      // Hasan al-Banna and the Muslim Brotherhood
+  ['modern-near-east-1900-1945::b1', 'hejaz-1900-1925::b2'],      // the caliphate question
+  ['modern-near-east-1900-1945::b2', 'mandate-palestine-transjordan-1920-1948::ec1'],      // immigration waves and the land market
+  ['modern-near-east-1900-1945::b2', 'mandate-palestine-transjordan-1920-1948::o2'],      // immigration quotas and land law
+  ['modern-near-east-1900-1945::b3', 'iraq-1914-1958::c3'],      // the Simele massacre
+  ['modern-near-east-1900-1945::b4', 'anatolia-1908-1923::w3'],      // the exchange of populations
+  ['modern-near-east-1900-1945::e1', 'egypt-1900-1952::x4'],      // Umm Kulthum and the radio
+  ['modern-near-east-1900-1945::e2', 'egypt-1900-1952::x1'],      // the golden age of Arabic letters
+  ['modern-near-east-1900-1945::e2', 'egypt-1900-1952::l4'],      // Taha Husayn
+  ['modern-near-east-1900-1945::e2', 'turkey-1923-1980::e2'],      // Nâzım Hikmet in prison
+  ['modern-near-east-1900-1945::e3', 'egypt-1900-1952::x3'],      // Studio Misr
+  ['modern-near-east-1900-1945::t1', 'levant-1908-1920::t1'],      // secret Arab nationalist societies
+  ['modern-near-east-1900-1945::t1', 'iraq-1914-1958::t1'],      // making a nation from three vilayets
+  ['modern-near-east-1900-1945::t2', 'anatolia-1908-1923::t1'],      // Ziya Gökalp and Turkism
+  ['modern-near-east-1900-1945::t3', 'mandate-palestine-transjordan-1920-1948::t2'],      // Palestinian Arab political organising
+  ['modern-near-east-1900-1945::t3', 'levant-1908-1920::o3'],      // the Balfour Declaration
+  ['modern-near-east-1900-1945::t4', 'pahlavi-1925-1979::o1'],      // Reza Shah’s secularising legal code
+  ['modern-near-east-1900-1945::t4', 'pahlavi-1925-1979::l1'],      // the forced veil
+  ['modern-near-east-1900-1945::ec1', 'iraq-1914-1958::o3'],      // oil and the state’s income
+  ['modern-near-east-1900-1945::ec1', 'saudi-1902-today::o2'],      // the oil concession and Aramco
+  ['modern-near-east-1900-1945::ec1', 'qajar-1789-1925::ec2'],      // the D’Arcy oil concession
+  ['modern-near-east-1900-1945::ec2', 'egypt-1900-1952::e1'],      // the cotton cycle and the Depression
+  ['modern-near-east-1900-1945::ec2', 'turkey-1923-1980::ec2'],      // etatism and the first Five-Year Plan
+  ['modern-near-east-1900-1945::ec3', 'egypt-1900-1952::e6'],      // the wartime boom and the sterling balances
+  ['modern-near-east-1900-1945::ec3', 'egypt-1900-1952::xc2'],      // Cairo, the Allied capital
+  ['modern-near-east-1900-1945::te1', 'pahlavi-1925-1979::tc1'],      // the Trans-Iranian Railway
+  ['modern-near-east-1900-1945::te2', 'iraq-1914-1958::g1'],      // air control and the aeroplane
+  ['modern-near-east-1900-1945::te3', 'turkey-1923-1980::g4'],      // radio and television
+  ['modern-near-east-1900-1945::te3', 'egypt-1900-1952::g2'],      // radio, the telephone and the film studio
+  ['modern-near-east-1900-1945::x1', 'levant-1908-1920::o1'],      // the Hussein–McMahon correspondence
+  ['modern-near-east-1900-1945::x1', 'levant-1908-1920::o2'],      // the Sykes–Picot Agreement
+  ['modern-near-east-1900-1945::x1', 'levant-1908-1920::o3'],      // the Balfour Declaration
+  ['modern-near-east-1900-1945::x1', 'hejaz-1900-1925::t1'],      // the McMahon–Hussein correspondence
+  ['modern-near-east-1900-1945::x2', 'egypt-1900-1952::xc1'],      // Egypt and the Arab League
+  ['modern-near-east-1900-1945::x3', 'anatolia-1908-1923::x3'],      // the treaties of Moscow and Kars
+  ['modern-near-east-1900-1945::w1', 'levant-1908-1920::ec1'],      // the great famine of Mount Lebanon
+  ['modern-near-east-1900-1945::w1', 'qajar-1789-1925::l2'],      // the wartime famine
+  ['modern-near-east-1900-1945::w1', 'ottoman-empire-1908-1922::w2'],      // the epidemics and the war dead
+  ['modern-near-east-1900-1945::w2', 'turkey-1923-1980::w1'],      // the Erzincan earthquake
+  ['modern-near-east-1900-1945::w3', 'anatolia-1908-1923::c7'],      // the Armenian Genocide
+  ['modern-near-east-1900-1945::w3', 'ottoman-empire-1908-1922::c10'],      // the deportations and massacres of the Armenians
+  ['modern-near-east-1900-1945::l1', 'egypt-1900-1952::l3'],      // Huda Shaʿrawi
+  ['modern-near-east-1900-1945::l1', 'egypt-1900-1952::t3'],      // the feminist movement
+  ['modern-near-east-1900-1945::l1', 'turkey-1923-1980::l1'],      // women in the new republic
+  ['modern-near-east-1900-1945::l2', 'iraq-1914-1958::b1'],      // the exodus of the Jews
+  ['modern-near-east-1900-1945::l2', 'iraq-1914-1958::c4'],      // the Farhud
+  ['modern-near-east-1900-1945::l2', 'egypt-1900-1952::b6'],      // the Jewish and foreign communities
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

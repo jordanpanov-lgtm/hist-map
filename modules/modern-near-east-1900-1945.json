@@ -1,0 +1,1240 @@
+{
+  "id": "modern-near-east-1900-1945",
+  "title": "The Modern Near East",
+  "subtitle": "1900–1945 · Revolutions and the Great War, the Mandate Order, Nationalism and Reform, Oil, and the Second World War",
+  "period": {
+    "start": 1900,
+    "end": 1945
+  },
+  "region": "Near East",
+  "period_label": "Modern",
+  "mapCenter": [
+    32,
+    40
+  ],
+  "mapZoom": 4,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "The Young Turks, Atatürk, Reza Shah, Faisal, Abdulaziz Ibn Saud, Fuad and Farouk, the mandatory powers and the new states",
+      "entries": [
+        {
+          "id": "p2",
+          "group": "Turkey and Iran",
+          "dynasty": "Pahlavi",
+          "label": "Reza Shah",
+          "date": "1921–1941",
+          "loc": "Tehran",
+          "coords": [
+            35.69,
+            51.39
+          ],
+          "hint": "Reza Khan, a Cossack officer who led the coup of February 1921 with Zia al-Din Tabatabai, became war minister and prime minister, had the Majlis depose the last Qajar in 1925 and was crowned shah as Reza Pahlavi in April 1926; he built a centralised state with a conscript army, secular schools, the Trans-Iranian Railway (1938) and the unveiling decree of 1936, and was forced by the British and Soviets to abdicate in September 1941.",
+          "tag": "COUP",
+          "note": "Nikki Keddie, Modern Iran (2006); Ervand Abrahamian, A History of Modern Iran (2008); Stephanie Cronin, The Making of Modern Iran (2003).",
+          "keywords": ["Tehran","Reza Shah","Reza Khan","Zia al-Din Tabatabai","Reza Pahlavi","Trans-Iranian Railway"],
+          "xlinks": ["pahlavi-1925-1979::p1","qajar-1789-1925::c6"]
+        },
+        {
+          "id": "p1",
+          "group": "Turkey and Iran",
+          "dynasty": "Republican",
+          "label": "Mustafa Kemal Atatürk",
+          "date": "1923–1938",
+          "loc": "Ankara",
+          "coords": [
+            39.93,
+            32.86
+          ],
+          "hint": "Mustafa Kemal, the victorious general of the National Struggle, proclaimed the Republic on 29 October 1923, was its president until his death on 10 November 1938 and carried through, under a single-party regime of the Republican People's Party, a programme of secularising and Westernising reforms: the abolition of the caliphate (1924), the Swiss civil code (1926), the Latin alphabet (1928) and the Surname Law (1934), in which he was given the name Atatürk, father of the Turks.",
+          "tag": "SUCCESSION",
+          "note": "Erik Zürcher, Turkey: A Modern History (1993); Andrew Mango, Atatürk (1999); Şükrü Hanioğlu, Atatürk: An Intellectual Biography (2011).",
+          "keywords": ["Ankara","Mustafa Kemal Atatürk","National Struggle","Republican People Party","Surname Law"],
+          "xlinks": ["anatolia-1908-1923::p5","turkey-1923-1980::p1"]
+        },
+        {
+          "id": "p3",
+          "group": "The Arab Mandate States",
+          "dynasty": "Hashemite",
+          "label": "Faisal I and the Hashemite kings",
+          "date": "1918–1951",
+          "loc": "Damascus, Baghdad and Amman",
+          "coords": [
+            33.31,
+            44.37
+          ],
+          "hint": "Faisal ibn Hussein, who had led the Arab Revolt's northern armies, was king of Syria from March to July 1920, was driven out by the French after Maysalun and was installed by the British as king of Iraq in August 1921 by a plebiscite of doubtful value; he died in 1933, and his brother Abdullah, made emir of Transjordan in 1921 and king in 1946, was killed in 1951 in Jerusalem.",
+          "tag": "SUCCESSION",
+          "note": "Ali Allawi, Faisal I of Iraq (2014); Eugene Rogan, The Arabs (2009); Mary Wilson, King Abdullah, Britain and the Making of Jordan (1987).",
+          "keywords": ["Hashemite","Damascus","Baghdad","Amman","Faisal I","Faisal ibn Hussein"],
+          "xlinks": ["hejaz-1900-1925::k6","iraq-1914-1958::k2","levant-1908-1920::p5","mandate-palestine-transjordan-1920-1948::p2"]
+        },
+        {
+          "id": "p4",
+          "group": "Egypt and Arabia",
+          "dynasty": "Saudi",
+          "label": "Abdulaziz Ibn Saud",
+          "date": "1902–1953",
+          "loc": "Riyadh and Mecca",
+          "coords": [
+            24.71,
+            46.68
+          ],
+          "hint": "Abdulaziz ibn Abd al-Rahman Al Saud took Riyadh in 1902 with a small band, took al-Hasa in 1913 from the Ottomans, destroyed the Rashidi emirate of Ha'il in 1921, took Mecca in 1924 and Jeddah in 1925 from the Hashemite king Ali and proclaimed the Kingdom of Saudi Arabia in 1932; the Ikhwan, the Bedouin warriors who had been his shock troops, rebelled in 1927–1930 and were destroyed at Sibilla in 1929.",
+          "tag": "SUCCESSION",
+          "note": "Madawi al-Rasheed, A History of Saudi Arabia (2002); Joseph Kostiner, The Making of Saudi Arabia 1916–1936 (1993); Rogan 2009.",
+          "keywords": ["Riyadh","Mecca","Abdulaziz Ibn Saud","Abdulaziz ibn Abd al-Rahman Al Saud","Saudi Arabia"],
+          "xlinks": ["hejaz-1900-1925::k5","saudi-1902-today::c4","saudi-1902-today::k1"]
+        },
+        {
+          "id": "p5",
+          "group": "Egypt and Arabia",
+          "dynasty": "Alawiyya",
+          "label": "Fuad, Farouk and the Wafd",
+          "date": "1917–1945",
+          "loc": "Cairo",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "hint": "Fuad, sultan from 1917 and king from 1922, ruled Egypt as a constitutional monarch under limited British independence, in a struggle with the Wafd party of Saad Zaghlul and Mustafa al-Nahhas, which won every free election; his son Farouk, who came to the throne in 1936 at sixteen, saw the British ambassador force him in February 1942 to appoint a Wafd government with tanks around Abdin Palace.",
+          "tag": "SUCCESSION",
+          "note": "Afaf Lutfi al-Sayyid Marsot, Egypt's Liberal Experiment 1922–1936 (1977); Selma Botman, Egypt from Independence to Revolution (1991).",
+          "keywords": ["Alawiyya","Cairo","Fuad","Farouk","Wafd","Saad Zaghlul"],
+          "xlinks": ["egypt-1900-1952::k3","egypt-1900-1952::k4","egypt-1900-1952::k9"]
+        },
+        {
+          "id": "p6",
+          "group": "The Mandatory Powers",
+          "dynasty": "British and French",
+          "label": "Britain and France as mandatory powers",
+          "date": "1920–1946",
+          "loc": "London and Paris",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "The San Remo conference of April 1920 allotted the mandates, confirmed by the League of Nations in 1922: Britain received Iraq, Palestine and Transjordan, France Syria and Lebanon; the mandates, in the League's language, were a sacred trust of civilisation for peoples not yet able to stand alone, though the Arabs saw them as imperial rule by another name, and each mandate ended with independence between 1932 (Iraq) and 1948.",
+          "tag": "APPOINTED",
+          "note": "League of Nations Covenant, article 22; Susan Pedersen, The Guardians (2015); Rogan 2009.",
+          "keywords": ["British and French","London","Paris","Britain","San Remo","League of Nations"],
+          "xlinks": ["iraq-1914-1958::k1","mandate-palestine-transjordan-1920-1948::p1","mandate-syria-lebanon-1920-1946::p1"]
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "The Great War's Near East, the revolts against the mandates, the Palestine disturbances and the Second World War campaigns",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "The Great War and After",
+          "label": "The Ottoman fronts of the First World War",
+          "date": "1914–1918",
+          "loc": "Gallipoli, Mesopotamia and Palestine",
+          "coords": [
+            40.2,
+            26.4
+          ],
+          "hint": "The Ottoman Empire entered the war in November 1914 on the German side and fought on the Caucasus (Sarıkamış), the Suez Canal, Gallipoli, Mesopotamia (Kut), Palestine and the Hejaz; the war cost the empire some 2.5 to 3 million dead, including civilians of every community, perhaps a fifth of its pre-war population, and ended with the armistice of Mudros on 30 October 1918.",
+          "tag": "WAR",
+          "note": "Edward Erickson, Ordered to Die (2001); Eugene Rogan, The Fall of the Ottomans (2015); Hikmet Özdemir, The Ottoman Army 1914–1918 (2008).",
+          "keywords": ["Gallipoli","Palestine","World War","Ottoman Empire","Caucasus Sarıkamış","Suez Canal"],
+          "xlinks": ["ottoman-empire-1908-1922::c5","ottoman-empire-1908-1922::c9"]
+        },
+        {
+          "id": "c2",
+          "group": "The Great War and After",
+          "label": "The Turkish War of Independence",
+          "date": "1919–1922",
+          "loc": "Anatolia",
+          "coords": [
+            39,
+            35
+          ],
+          "hint": "The Greek landing at Smyrna in May 1919, the Armenian and French fronts and the occupation of Istanbul in 1920 led Mustafa Kemal and the Grand National Assembly in Ankara to a war that destroyed the Greek army at Sakarya (1921) and Dumlupınar (1922) and made Sèvres a dead letter; the Treaty of Lausanne of July 1923 recognised the new Turkey.",
+          "tag": "WAR",
+          "note": "Zürcher 1993; Mango 1999; Treaty of Lausanne (24 July 1923).",
+          "keywords": ["Anatolia","Independence","Mustafa Kemal","Grand National Assembly","Lausanne of July"],
+          "xlinks": ["anatolia-1908-1923::c14","ottoman-empire-1908-1922::c15"]
+        },
+        {
+          "id": "c3",
+          "group": "Revolts against the Mandates",
+          "label": "The Iraqi revolt of 1920",
+          "date": "1920 (June–October)",
+          "loc": "Iraq",
+          "coords": [
+            32,
+            44
+          ],
+          "hint": "A revolt that began at Rumaitha in June 1920 against British administration, rooted in resentment of the taxes, of the British officials and of the mandate that had been promised not to be one, spread among the Shia tribes of the Middle Euphrates, with Sunni and Kurdish participation, and was put down by October at a cost of some 450 British and Indian troops and an Iraqi toll estimated at 6,000–10,000; it led Churchill and the Cairo Conference of 1921 to the Hashemite solution.",
+          "tag": "REVOLT",
+          "note": "Charles Tripp, A History of Iraq (2000); Toby Dodge, Inventing Iraq (2003); Peter Sluglett, Britain in Iraq (1976).",
+          "keywords": ["Iraq","Iraqi","Middle Euphrates","Cairo Conference"],
+          "xlinks": ["iraq-1914-1958::c2"]
+        },
+        {
+          "id": "c5",
+          "group": "Palestine",
+          "label": "The Palestine riots and the Great Revolt",
+          "date": "1920–1939",
+          "loc": "Jerusalem, Hebron and Jaffa",
+          "coords": [
+            31.78,
+            35.23
+          ],
+          "hint": "Communal violence in Jerusalem in April 1920 (the Nebi Musa riots), at Jaffa in May 1921 and in August 1929, when some 67 Jews were killed at Hebron and in all about 133 Jews and 116 Arabs died across the country, was followed by the Arab Revolt of 1936–1939, a general strike and a rural insurgency against British rule and Zionism, put down by 1939 at a cost of some 5,000 Arabs killed, about 300 Jews and some 260 British; its leadership was destroyed or exiled.",
+          "tag": "REVOLT",
+          "note": "Peel Commission Report (1937); Tom Segev, One Palestine, Complete (1999); Rashid Khalidi, The Hundred Years' War on Palestine (2020); Hillel Cohen, Year Zero of the Arab–Israeli Conflict 1929 (2015).",
+          "keywords": ["Jerusalem","Hebron","Jaffa","Palestine","Revolt","Nebi Musa"],
+          "xlinks": ["mandate-palestine-transjordan-1920-1948::c1","mandate-palestine-transjordan-1920-1948::c2"]
+        },
+        {
+          "id": "c4",
+          "group": "Revolts against the Mandates",
+          "label": "The Great Syrian Revolt",
+          "date": "1925–1927",
+          "loc": "Jabal Druze and Damascus",
+          "coords": [
+            33.51,
+            36.29
+          ],
+          "hint": "A rising that began in the Druze mountain in July 1925 under Sultan al-Atrash against the French governor's policy, with its call for Syrian unity and independence, spread to the Ghouta and Hama and into Damascus, which the French bombarded in October 1925 and May 1926; the revolt was put down by 1927 with some 6,000 Syrian deaths, but it drove France to negotiate and to a constitution in 1930.",
+          "tag": "REVOLT",
+          "note": "Michael Provence, The Great Syrian Revolt and the Rise of Arab Nationalism (2005); Philip Khoury, Syria and the French Mandate (1987).",
+          "keywords": ["Jabal Druze","Damascus","Syrian Revolt","Sultan al-Atrash"],
+          "xlinks": ["mandate-syria-lebanon-1920-1946::c1"]
+        },
+        {
+          "id": "c6",
+          "group": "Revolts against the Mandates",
+          "label": "The Kurdish revolts and Dersim",
+          "date": "1925–1938",
+          "loc": "Eastern Anatolia",
+          "coords": [
+            39.1,
+            39.5
+          ],
+          "hint": "The revolt of Sheikh Said in February 1925, the Ararat revolt of 1927–1930 and the Dersim rising of 1937–1938 against the new republic's policies of centralisation and Turkification were put down by large forces; in Dersim the military operations of 1937–1938 and the deportations killed, by Turkish official counts about 13,800 and by Alevi and Kurdish accounts tens of thousands, and the events were given an official apology by Prime Minister Erdoğan in 2011.",
+          "tag": "REVOLT",
+          "note": "Martin van Bruinessen, Agha, Shaikh and State (1992); Hans-Lukas Kieser (ed.), Turkey Beyond Nationalism (2006); Erdoğan's statement (23 November 2011).",
+          "keywords": ["Eastern Anatolia","Kurdish","Dersim","Sheikh Said","Prime Minister Erdoğan"],
+          "xlinks": ["turkey-1923-1980::c1","turkey-1923-1980::c2","turkey-1923-1980::c3"]
+        },
+        {
+          "id": "c7",
+          "group": "The Second World War",
+          "label": "The Rashid Ali coup and the Anglo-Iraqi War",
+          "date": "1941 (April–June)",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.37
+          ],
+          "hint": "In April 1941 Rashid Ali al-Gaylani and the four colonels of the Golden Square seized power in Baghdad, appealing to Germany, and after a month of fighting at Habbaniya the British defeated the Iraqi army and reinstated the regent Abd al-Ilah; on 1–2 June, in a power vacuum, a pogrom of the Jews of Baghdad, the Farhud, killed some 180 by official count and as many as several hundred by others.",
+          "tag": "COUP",
+          "note": "Majid Khadduri, Independent Iraq (1960); Tripp 2000; Orit Bashkin, The Other Iraq (2008); Nissim Kazzaz, The Jews of Iraq (1991).",
+          "keywords": ["Anglo-Iraqi War","Rashid Ali al-Gaylani","Golden Square","Habbaniya the British","Abd al-Ilah","Jews of Baghdad"],
+          "xlinks": ["iraq-1914-1958::c4","iraq-1914-1958::k6"]
+        },
+        {
+          "id": "c8",
+          "group": "The Second World War",
+          "label": "The Anglo-Soviet invasion of Iran",
+          "date": "1941 (25 August)",
+          "loc": "Iran",
+          "coords": [
+            35.69,
+            51.39
+          ],
+          "hint": "Because Reza Shah had not expelled the Germans in the country and in order to secure the supply of oil and the route to the Soviet Union, British and Soviet forces invaded Iran from the south and north on 25 August 1941; the Iranian army collapsed within days, Reza Shah abdicated on 16 September in favour of his son Mohammad Reza and was exiled to Mauritius and Johannesburg; the Tehran Conference of 1943 recognised Iran's independence.",
+          "tag": "INVASION",
+          "note": "Abrahamian 2008; Keddie 2006; Tehran Declaration (1 December 1943).",
+          "keywords": ["Iran","Anglo-Soviet","Because Reza Shah","Soviet Union","Mohammad Reza","Tehran Conference"],
+          "xlinks": ["pahlavi-1925-1979::c1"]
+        },
+        {
+          "id": "c9",
+          "group": "The Second World War",
+          "label": "Syria, Lebanon and the Free French",
+          "date": "1941 (8 June–14 July)",
+          "loc": "Syria and Lebanon",
+          "coords": [
+            33.89,
+            35.5
+          ],
+          "hint": "British, Australian and Free French forces invaded Vichy-held Syria and Lebanon in June 1941 and, after a campaign of five weeks and the armistice of Acre on 14 July, took over; General Catroux, in the name of de Gaulle, proclaimed the independence of Syria and Lebanon, and after the crisis of Beirut in November 1943 and the shelling of Damascus on 29 May 1945, the French left in 1946.",
+          "tag": "WAR",
+          "note": "Rogan 2009; Khoury 1987; Meir Zamir, The Struggle for Lebanon (1985).",
+          "keywords": ["Lebanon","Free French","Vichy-held Syria"],
+          "xlinks": ["mandate-syria-lebanon-1920-1946::c2","mandate-syria-lebanon-1920-1946::p4"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "The mandates, the League of Nations, the treaties of 1922–1936 and the constitutions of the new states",
+      "entries": [
+        {
+          "id": "o4",
+          "group": "Constitutions and Reforms",
+          "label": "The Persian Constitutional Revolution",
+          "date": "1905–1911",
+          "loc": "Tehran and Tabriz",
+          "coords": [
+            35.69,
+            51.39
+          ],
+          "hint": "The protests of merchants and clergy in Tehran, the bast (sanctuary) in the British legation in August 1906 and the Shah Muzaffar al-Din's signing of a constitution in December 1906, with a Majlis, were followed by the bombardment of the Majlis by Mohammad Ali Shah and the Russian Cossack Brigade in June 1908, the siege of Tabriz and the restoration in 1909, and the Russian ultimatum of 1911 that ended the experiment, which remained a reference for Iranian politics.",
+          "tag": "CONSTITUTION",
+          "note": "Janet Afary, The Iranian Constitutional Revolution (1996); Mangol Bayat, Iran's First Revolution (1991); Edward Browne, The Persian Revolution (1910).",
+          "keywords": ["Tehran","Tabriz","Constitutional Revolution","Shah Muzaffar al-Din","Mohammad Ali Shah","Russian Cossack Brigade"],
+          "xlinks": ["qajar-1789-1925::c4","qajar-1789-1925::o2"]
+        },
+        {
+          "id": "o1",
+          "group": "Mandates and Treaties",
+          "label": "The Cairo Conference and the settlement of 1921",
+          "date": "1921 (March)",
+          "loc": "Cairo",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "hint": "Winston Churchill as colonial secretary assembled in Cairo in March 1921 the main British officials of the region, including Gertrude Bell, T. E. Lawrence and Percy Cox, and decided to install Faisal as king of Iraq, to make Abdullah emir of Transjordan and to try to hold the mandate in Iraq by air power; the so-called forty thieves' settlement set the new states' form.",
+          "tag": "DOCUMENT",
+          "note": "Churchill, Cairo Conference minutes (CO 935/1); David Fromkin, A Peace to End All Peace (1989); Rogan 2009.",
+          "keywords": ["Cairo Conference","Winston Churchill","Gertrude Bell","Percy Cox"],
+          "xlinks": ["hejaz-1900-1925::x3","mandate-palestine-transjordan-1920-1948::p2"]
+        },
+        {
+          "id": "o5",
+          "group": "Constitutions and Reforms",
+          "label": "The Iraqi and Egyptian constitutions",
+          "date": "1922–1925",
+          "loc": "Cairo and Baghdad",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "hint": "Britain's unilateral declaration of 28 February 1922 ended the protectorate over Egypt and its constitution of 1923 gave a parliament and a monarchy, with four reserved points of British control; the Iraqi organic law of 1925 set up a bicameral parliament under the king and the Anglo-Iraqi treaty of 1930 prepared independence in 1932, with British air bases kept.",
+          "tag": "CONSTITUTION",
+          "note": "Marsot 1977; Tripp 2000; Anglo-Iraqi Treaty (30 June 1930).",
+          "keywords": ["Cairo","Baghdad","Iraqi"],
+          "xlinks": ["egypt-1900-1952::o2","iraq-1914-1958::o2"]
+        },
+        {
+          "id": "o2",
+          "group": "Mandates and Treaties",
+          "label": "The Treaty of Lausanne",
+          "date": "1923 (24 July)",
+          "loc": "Lausanne",
+          "coords": [
+            46.52,
+            6.63
+          ],
+          "hint": "The Treaty of Lausanne, signed by Turkey, Britain, France, Italy, Japan, Greece, Romania and Yugoslavia, replaced Sèvres, fixed the borders of Turkey in Thrace and Anatolia (the Mosul question to be settled later), abolished the Capitulations, set the demilitarised Straits regime and provided for the exchange of the Greek Orthodox and Muslim populations; it was silent on the Armenians and the Kurds.",
+          "tag": "TREATY",
+          "note": "Treaty of Lausanne (1923); Zürcher 1993; Pedersen 2015.",
+          "keywords": ["Lausanne","Anatolia the Mosul"],
+          "xlinks": ["anatolia-1908-1923::o10"]
+        },
+        {
+          "id": "o6",
+          "group": "Constitutions and Reforms",
+          "label": "The Kemalist reforms",
+          "date": "1924–1934",
+          "loc": "Ankara",
+          "coords": [
+            39.93,
+            32.86
+          ],
+          "hint": "The abolition of the caliphate on 3 March 1924, the closing of the sharia courts and religious orders, the hat law (1925), the Swiss-based civil code (1926), the adoption of the Latin script in 1928, the removal of Islam as state religion from the constitution in 1928 and the grant of women's suffrage in 1930 (municipal) and 1934 (national) made the revolution from above that its supporters called the civilising of the nation and critics a harsh imposition.",
+          "tag": "REFORM",
+          "note": "Zürcher 1993; Mango 1999; Şerif Mardin, Religion and Social Change in Modern Turkey (1989).",
+          "keywords": ["Ankara","Kemalist"],
+          "xlinks": ["turkey-1923-1980::o1","turkey-1923-1980::o4","turkey-1923-1980::o5"]
+        },
+        {
+          "id": "o3",
+          "group": "Mandates and Treaties",
+          "label": "The Anglo-Egyptian treaty and the Montreux Convention",
+          "date": "1936–1937",
+          "loc": "London and Montreux",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "The Anglo-Egyptian Treaty of August 1936 provided for the withdrawal of British forces to the Canal Zone, with 10,000 troops, for twenty years; the Montreux Convention of the Straits of July 1936 restored Turkish control over the Straits and, in 1937, the Convention of Montreux ended the Capitulations in Egypt, with the Mixed Courts to last until 1949.",
+          "tag": "TREATY",
+          "note": "Anglo-Egyptian Treaty (26 August 1936); Montreux Convention (20 July 1936); Marsot 1977.",
+          "keywords": ["London","Anglo-Egyptian Treaty of August","Canal Zone","Montreux Convention of the Straits of July","Convention of Montreux","Mixed Courts"],
+          "xlinks": ["egypt-1900-1952::o3","egypt-1900-1952::o4","turkey-1923-1980::x1"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "The abolition of the caliphate, the Brotherhood and Salafi revival, Zionism and the Yishuv, and the churches under the new regimes",
+      "entries": [
+        {
+          "id": "b2",
+          "group": "Zionism and Jewish Communities",
+          "label": "The Yishuv and Jewish immigration",
+          "date": "1919–1945",
+          "loc": "Tel Aviv and Jerusalem",
+          "coords": [
+            32.09,
+            34.78
+          ],
+          "hint": "The Jewish population of Palestine rose from about 56,000 in 1918 (8 per cent) to some 84,000 in 1922, 175,000 in 1931 and some 550,000 (about 30 per cent) by 1945 through the Third, Fourth and Fifth Aliyot and refugees from Nazi Europe, with its own institutions: the Jewish Agency, the Histadrut, the Haganah and the Hebrew University (1925); Arab leaders saw the immigration as a threat to their majority and land.",
+          "tag": "MIGRATION",
+          "note": "Census of Palestine (1931); Palestine Royal Commission (1937); Segev 1999; Khalidi 2020.",
+          "keywords": ["Tel Aviv","Jerusalem","Yishuv","Fifth Aliyot","Nazi Europe","Jewish Agency"],
+          "xlinks": ["mandate-palestine-transjordan-1920-1948::ec1","mandate-palestine-transjordan-1920-1948::o2"]
+        },
+        {
+          "id": "b4",
+          "group": "Churches and Minorities",
+          "label": "The Greek–Turkish exchange of populations",
+          "date": "1923 (30 January)",
+          "loc": "Aegean",
+          "coords": [
+            38.42,
+            27.14
+          ],
+          "hint": "The convention of 30 January 1923, the first compulsory international population exchange, forced some 1.2 million Orthodox Christians of Anatolia to Greece and some 400,000 Muslims from Greece to Turkey, with the exemption of the Greeks of Istanbul and the Muslims of western Thrace; the measure, in Lord Curzon's phrase at the conference, was an unmixing of populations.",
+          "tag": "MIGRATION",
+          "note": "Convention of Lausanne (30 January 1923); Bruce Clark, Twice a Stranger (2006); Renée Hirschon (ed.), Crossing the Aegean (2003).",
+          "keywords": ["Aegean","Greek–Turkish","Orthodox Christians of Anatolia","Greeks of Istanbul","Lord Curzon"],
+          "xlinks": ["anatolia-1908-1923::w3"]
+        },
+        {
+          "id": "b1",
+          "group": "Caliphate and Islam",
+          "label": "The end of the caliphate and the Muslim Brotherhood",
+          "date": "1924–1928",
+          "loc": "Ankara and Ismailia",
+          "coords": [
+            30.59,
+            32.27
+          ],
+          "hint": "The Turkish Assembly's abolition of the caliphate on 3 March 1924 prompted conferences in Cairo and Mecca without result; in March 1928 Hasan al-Banna, a schoolteacher in Ismailia, founded the Society of the Muslim Brothers among Suez Canal workers, which by the late 1930s had several hundred branches and a mass base, with a programme of Islamic reform of society and anti-colonial politics, and by 1948 perhaps half a million members.",
+          "tag": "EVENT",
+          "note": "Richard Mitchell, The Society of the Muslim Brothers (1969); Hasan al-Banna, Memoirs; Rogan 2009.",
+          "keywords": ["Ankara","Ismailia","Muslim Brotherhood","Hasan al-Banna","Society of the Muslim Brothers","Suez Canal"],
+          "xlinks": ["egypt-1900-1952::k13","hejaz-1900-1925::b2","turkey-1923-1980::o1"]
+        },
+        {
+          "id": "b3",
+          "group": "Churches and Minorities",
+          "label": "The Assyrians and Simele",
+          "date": "1933 (August)",
+          "loc": "Simele, northern Iraq",
+          "coords": [
+            37,
+            43
+          ],
+          "hint": "After the Assyrian levies of the British, and the dispute over the settlement of the Assyrians of the Church of the East in Iraq in 1932–1933, the Iraqi army under Bakr Sidqi killed in August 1933 several hundred unarmed Assyrians (some estimates are more than 3,000) at Simele and in the Dohuk district; the massacre is said to have influenced Raphael Lemkin's thinking about the crime he named genocide, and it drove many Assyrians to Syria and the diaspora.",
+          "tag": "CRACKDOWN",
+          "note": "Khadduri 1960; Tripp 2000; Lemkin, Axis Rule (1944); Sarah Shields, Mosul before Iraq (2000).",
+          "keywords": ["Simele","Iraq","Assyrians of the Church of the East","Bakr Sidqi","Raphael Lemkin"],
+          "xlinks": ["iraq-1914-1958::c3"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "The new press and radio, Umm Kulthum, Taha Hussein, Hedayat, Nazim Hikmet and the cinema",
+      "entries": [
+        {
+          "id": "e2",
+          "group": "Literature",
+          "label": "Taha Hussein, Hedayat and Nazim Hikmet",
+          "date": "1926–1937",
+          "loc": "Cairo, Tehran and Istanbul",
+          "coords": [
+            35.69,
+            51.39
+          ],
+          "hint": "Taha Hussein's On Pre-Islamic Poetry (1926), which doubted the authenticity of the early poems and was attacked by the Azhar, his autobiography The Days (1929); Sadegh Hedayat's The Blind Owl (1937) and the poems of Nazim Hikmet in free verse, which led to his imprisonment from 1938 to 1950, show a literature of doubt, introspection and political commitment in the modern vernacular.",
+          "tag": "WORK",
+          "note": "Taha Hussein, Fi al-shi'r al-jahili (1926); Hedayat, Buf-e kur (1937); Nazim Hikmet, Poems; Hourani, Arabic Thought in the Liberal Age (1962).",
+          "keywords": ["Cairo","Tehran","Istanbul","Nazim Hikmet","Taha Hussein On Pre-Islamic Poetry","Sadegh Hedayat The Blind Owl"],
+          "xlinks": ["egypt-1900-1952::l4","egypt-1900-1952::x1","turkey-1923-1980::e2"]
+        },
+        {
+          "id": "e3",
+          "group": "Press and Performance",
+          "label": "The Egyptian film industry and Studio Misr",
+          "date": "1927–1945",
+          "loc": "Cairo",
+          "coords": [
+            30.01,
+            31.2
+          ],
+          "hint": "Talaat Harb's Bank Misr founded Studio Misr in 1935, and the production of Egyptian features, the first, Laila (1927), by Aziza Amir, grew to dozens of films a year by the end of the war, with the singers Umm Kulthum, Asmahan and Farid al-Atrash and the Cairo studios; Egyptian cinema and its Arabic became the common entertainment of the region.",
+          "tag": "WORK",
+          "note": "Viola Shafik, Arab Cinema (1998); Armbrust 1996; Studio Misr records.",
+          "keywords": ["Cairo","Studio Misr","Talaat Harb Bank Misr","Aziza Amir","Umm Kulthum","Farid al-Atrash"],
+          "xlinks": ["egypt-1900-1952::x3"]
+        },
+        {
+          "id": "e1",
+          "group": "Press and Performance",
+          "label": "Umm Kulthum and the radio",
+          "date": "1934–1945",
+          "loc": "Cairo",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "hint": "Umm Kulthum, a village preacher's daughter who rose to be the best-known singer of the Arab world, was broadcast from the early 1930s and from 1937 gave monthly Thursday radio concerts, with songs of an hour or more for an audience that gathered round receivers from Marrakesh to Baghdad, and she and Muhammad Abd al-Wahhab became with the cinema the voices of a pan-Arab popular culture.",
+          "tag": "WORK",
+          "note": "Virginia Danielson, The Voice of Egypt (1997); Rogan 2009; Walter Armbrust, Mass Culture and Modernism in Egypt (1996).",
+          "keywords": ["Cairo","Umm Kulthum","Muhammad Abd al-Wahhab"],
+          "xlinks": ["egypt-1900-1952::x4"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "Nationalism, secularism, modernism in Turkey and Iran, Arab nationalism and the Zionist idea",
+      "entries": [
+        {
+          "id": "t3",
+          "group": "Nationalisms",
+          "label": "The Zionist idea and the Arab response",
+          "date": "1917–1939",
+          "loc": "Jerusalem",
+          "coords": [
+            31.78,
+            35.23
+          ],
+          "hint": "The Zionist movement, which claimed in the Balfour Declaration of November 1917 the British promise of a national home for the Jewish people in Palestine, argued that the Jews, a nation without a state, had a historic right to the land and a need of refuge; the Arab leaders of Palestine, including the Palestine Arab Congress of 1919–1923 and the Higher Arab Committee of 1936, argued that the land belonged to its resident population and that the promise had been made by a foreign power over their heads, a conflict of two national claims that the mandate could not resolve.",
+          "tag": "DEBATE",
+          "note": "Balfour Declaration (2 November 1917); Peel Commission 1937; Khalidi 2020; Anita Shapira, Land and Power (1992).",
+          "keywords": ["Jerusalem","Zionist","Balfour Declaration of November","Palestine Arab Congress","Higher Arab Committee"],
+          "xlinks": ["levant-1908-1920::o3","mandate-palestine-transjordan-1920-1948::t2"]
+        },
+        {
+          "id": "t1",
+          "group": "Nationalisms",
+          "label": "Arab nationalism and Sati' al-Husri",
+          "date": "1920–1945",
+          "loc": "Damascus and Baghdad",
+          "coords": [
+            33.31,
+            44.37
+          ],
+          "hint": "Arab nationalism, which in the Young Arab societies of 1911–1914 had asked for autonomy within the empire, became with the mandates an ideology of independence and unity: the Istiqlal party, the Syrian Arab Congress and, as theorist, Sati' al-Husri (1880–1968), a former Ottoman official who held that language and history, not religion, made the nation, and who from 1921, in Iraq's education service, taught it to a generation.",
+          "tag": "IDEA",
+          "note": "Sati' al-Husri, Abhath mukhtara; William Cleveland, The Making of an Arab Nationalist (1971); Albert Hourani 1962.",
+          "keywords": ["Damascus","Baghdad","Sati al-Husri","Young Arab","Syrian Arab Congress"],
+          "xlinks": ["iraq-1914-1958::t1","levant-1908-1920::t1"]
+        },
+        {
+          "id": "t2",
+          "group": "Reform and Secularism",
+          "label": "Kemalism and Ziya Gökalp's legacy",
+          "date": "1923–1938",
+          "loc": "Ankara",
+          "coords": [
+            39.93,
+            32.86
+          ],
+          "hint": "The six arrows of the Republican People's Party, adopted in the programme of 1931 and the constitution in 1937, were republicanism, nationalism, populism, statism, secularism and reformism, the theoretical basis of the Kemalist state, which drew on the ideas of Ziya Gökalp (d. 1924) of a Turkish nation with its own culture and civilisation and the positivist belief in progress through science.",
+          "tag": "IDEA",
+          "note": "Zürcher 1993; Mardin 1989; Hanioğlu 2011.",
+          "keywords": ["Ankara","Kemalism","Ziya Gökalp","Republican People Party"],
+          "xlinks": ["anatolia-1908-1923::t1"]
+        },
+        {
+          "id": "t4",
+          "group": "Reform and Secularism",
+          "label": "Iranian modernism and the Pahlavi ideology",
+          "date": "1925–1941",
+          "loc": "Tehran",
+          "coords": [
+            35.69,
+            51.39
+          ],
+          "hint": "Under Reza Shah the state promoted a nationalism that looked to the pre-Islamic past, with the name of Iran for Persia (1935), the Academy of the Persian language and the monuments of Persepolis, and a Western-style modernity, with the University of Tehran (1934), the compulsory unveiling in 1936 and the clerical class's loss of power in the courts and education; the ideas came from intellectuals like Hasan Taqizadeh, Ahmad Kasravi and Mohammad Ali Foroughi.",
+          "tag": "IDEA",
+          "note": "Abrahamian 2008; Keddie 2006; Afshin Marashi, Nationalizing Iran (2008).",
+          "keywords": ["Iranian","Pahlavi","Reza Shah","Academy of the Persian","University of Tehran","Hasan Taqizadeh"],
+          "xlinks": ["pahlavi-1925-1979::l1","pahlavi-1925-1979::o1"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "The oil concessions, the depression, land and cotton, and the wartime economy",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Oil",
+          "label": "The oil concessions and the first discoveries",
+          "date": "1901–1938",
+          "loc": "Masjed Soleyman, Kirkuk and Dammam",
+          "coords": [
+            31.99,
+            49.3
+          ],
+          "hint": "William Knox D'Arcy's concession of 1901 in Iran led to the discovery of oil at Masjed Soleyman in May 1908 and the Anglo-Persian Oil Company; the Turkish Petroleum Company's well at Baba Gurgur, Kirkuk, came in on 14 October 1927, the Red Line agreement of 1928 divided the former Ottoman lands among the major oil companies, and the American company of Standard Oil of California found oil in Bahrain in 1932 and at Dammam in Saudi Arabia in March 1938.",
+          "tag": "ECONOMIC",
+          "note": "Daniel Yergin, The Prize (1991); Red Line Agreement (31 July 1928); Rasheed 2002; Keddie 2006.",
+          "keywords": ["Masjed Soleyman","Kirkuk","Dammam","William Knox D'Arcy","Anglo-Persian Oil Company","Petroleum Company"],
+          "xlinks": ["iraq-1914-1958::o3","qajar-1789-1925::ec2","saudi-1902-today::o2"]
+        },
+        {
+          "id": "ec2",
+          "group": "Land and Trade",
+          "label": "The Great Depression and the cotton economy",
+          "date": "1929–1939",
+          "loc": "Egypt and Turkey",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "hint": "The collapse of cotton prices in 1929–1930 hurt Egypt, where the crop was most of exports and the tax base, and led to the Egyptianisation of banking and industry (Bank Misr) and tariff protection; in Turkey, the depression of 1929 led to the statist policy of the first five-year plan of 1934 and state factories, and in Iran to state monopolies and the Trans-Iranian Railway.",
+          "tag": "ECONOMIC",
+          "note": "Roger Owen and Şevket Pamuk, A History of Middle East Economies in the Twentieth Century (1998); Charles Issawi, An Economic History of the Middle East (1966).",
+          "keywords": ["Egypt","Turkey","Depression","Bank Misr","Trans-Iranian Railway"],
+          "xlinks": ["egypt-1900-1952::e1","turkey-1923-1980::ec2"]
+        },
+        {
+          "id": "ec3",
+          "group": "Land and Trade",
+          "label": "The wartime economy and the Middle East Supply Centre",
+          "date": "1941–1945",
+          "loc": "Cairo",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "hint": "The Middle East Supply Centre, a British-American body set up in 1941 in Cairo, controlled shipping and imports and encouraged local food production and industry for the allied armies of up to a million men, raising the output of Egyptian and Palestinian factories and causing inflation and shortages and, in places such as Iran, serious food shortages and famine in 1942–1943.",
+          "tag": "ECONOMIC",
+          "note": "Martin Wilmington, The Middle East Supply Centre (1971); Owen and Pamuk 1998; Abrahamian 2008.",
+          "keywords": ["Cairo","Middle East Supply Centre"],
+          "xlinks": ["egypt-1900-1952::e6","egypt-1900-1952::xc2"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "Oil technology, aviation, the car and railways, radio and the Hijaz Railway's end",
+      "entries": [
+        {
+          "id": "te2",
+          "group": "Industry and Transport",
+          "label": "Air power and imperial policing",
+          "date": "1920–1940",
+          "loc": "Iraq and Transjordan",
+          "coords": [
+            33.31,
+            44.37
+          ],
+          "hint": "The British government, to cut the cost of garrisons in Iraq, transferred the control of the country in 1922 to the Royal Air Force, which used bombing of villages and tribal areas to put down unrest by air control, with the aircraft of Habbaniya and Shaibah and, for the first time in a colonial theatre, delayed-action bombs and gas considered as an option by Churchill.",
+          "tag": "INVENTION",
+          "note": "David Omissi, Air Power and Colonial Control (1990); Dodge 2003; Tripp 2000.",
+          "keywords": ["Iraq","Transjordan","Royal Air Force"],
+          "xlinks": ["iraq-1914-1958::g1"]
+        },
+        {
+          "id": "te3",
+          "group": "Communication",
+          "label": "The radio and the printing press",
+          "date": "1925–1945",
+          "loc": "Cairo and Tehran",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "hint": "Radio stations, the Egyptian State Broadcasting (1934), Radio Baghdad, Radio Palestine in Jerusalem (1936), Radio Tehran (1940) and the German Zeesen station's Arabic broadcast from 1939, with the BBC Arabic Service of 1938, created a new public sphere of politics and entertainment, at a time of rising literacy and the cheap daily press.",
+          "tag": "INVENTION",
+          "note": "Douglas Boyd, Broadcasting in the Arab World (1982); Rogan 2009; Armbrust 1996.",
+          "keywords": ["Cairo","Radio Baghdad","Radio Palestine","Radio Tehran","BBC Arabic Service"],
+          "xlinks": ["egypt-1900-1952::g2","turkey-1923-1980::g4"]
+        },
+        {
+          "id": "te1",
+          "group": "Industry and Transport",
+          "label": "The Trans-Iranian Railway and the Hejaz Railway's end",
+          "date": "1927–1938",
+          "loc": "Bandar Shah and Tehran",
+          "coords": [
+            36.8,
+            54.1
+          ],
+          "hint": "The Trans-Iranian Railway, built on state funds from taxes on tea and sugar between 1927 and 1938 under Danish, German and Austrian engineers, joined the Caspian to the Gulf for 1,394 kilometres, a symbol of Reza Shah's modernisation, while the Hijaz Railway, wrecked in the war, was not restored, and from 1920 cars and lorries took over the desert routes, with Nairn Transport's route from Damascus to Baghdad in 1923.",
+          "tag": "CONSTRUCTION",
+          "note": "Keddie 2006; Owen and Pamuk 1998; Abrahamian 2008.",
+          "keywords": ["Bandar Shah","Tehran","Trans-Iranian Railway","Hejaz Railway","Reza Shah","Hijaz Railway"],
+          "xlinks": ["pahlavi-1925-1979::tc1"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "The Anglo-French settlement, the exchange of populations, the Soviet-Turkish and Anglo-Iranian relations and the Arab League",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Great-Power Settlement",
+          "label": "Sykes–Picot, Balfour and McMahon",
+          "date": "1915–1917",
+          "loc": "London and Paris",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "The Hussein–McMahon correspondence of 1915–1916, the Sykes–Picot Agreement of May 1916 between Britain and France and the Balfour Declaration of November 1917 each made promises about the same territories, among the Arabs, the powers and the Zionists, and have been argued over since: some historians see a deliberate duplicity and others a series of wartime expedients; the Paris peace conference and San Remo settled the matter in the powers' favour.",
+          "tag": "TREATY",
+          "note": "Fromkin 1989; Rogan 2015; Elie Kedourie, In the Anglo-Arab Labyrinth (1976).",
+          "keywords": ["London","Paris","McMahon","Sykes–Picot Agreement of May","Balfour Declaration of November","San Remo"],
+          "xlinks": ["hejaz-1900-1925::t1","levant-1908-1920::o1","levant-1908-1920::o2","levant-1908-1920::o3"]
+        },
+        {
+          "id": "x3",
+          "group": "Population Movements",
+          "label": "The Soviet–Turkish and British–Iranian relations",
+          "date": "1921–1945",
+          "loc": "Moscow and Tehran",
+          "coords": [
+            55.75,
+            37.62
+          ],
+          "hint": "The treaties of Moscow (1921) and Kars with Soviet Russia, the friendship treaty of 1925 and the Montreux Straits convention set Turkish–Soviet relations; Iran's Treaty of Friendship with Soviet Russia of 1921 gave the Soviets the right to enter in case of foreign threat, which they used in 1941, and the oil concession of the Anglo-Persian Company, renegotiated in 1933 to a 60-year term, was the main grievance against Britain.",
+          "tag": "DIPLOMACY",
+          "note": "Treaty of Moscow (16 March 1921); Treaty of 26 February 1921; Keddie 2006; Abrahamian 2008.",
+          "keywords": ["Moscow","Tehran","Soviet–Turkish","British–Iranian","Soviet Russia","Montreux Straits"],
+          "xlinks": ["anatolia-1908-1923::x3"]
+        },
+        {
+          "id": "x2",
+          "group": "Great-Power Settlement",
+          "label": "The Arab League",
+          "date": "1945 (22 March)",
+          "loc": "Cairo",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "hint": "The Alexandria Protocol of October 1944 and the Pact of the Arab League of 22 March 1945 created, on British encouragement and Egyptian initiative, an association of Egypt, Iraq, Syria, Lebanon, Transjordan, Saudi Arabia and Yemen, with a council of equals and a secretary-general (Abd al-Rahman Azzam), which supported Palestine's claims but did not unify the states.",
+          "tag": "TREATY",
+          "note": "Pact of the Arab League (22 March 1945); Rogan 2009; Hourani 1962.",
+          "keywords": ["Cairo","Alexandria Protocol of October","Pact of the Arab League","Saudi Arabia","Abd al-Rahman Azzam"],
+          "xlinks": ["egypt-1900-1952::xc1"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "The refugees of the Great War, the epidemics, the earthquakes of 1939 and the famine of 1943",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Epidemic & Demographic",
+          "label": "The influenza of 1918 and the great hunger of the war",
+          "date": "1915–1919",
+          "loc": "The Near East",
+          "coords": [
+            33,
+            38
+          ],
+          "hint": "The war's famines in Syria and Lebanon (1915–1918), in Iran (1917–1919; estimates range from several hundred thousand to over two million deaths) and Iraq, and the influenza pandemic of autumn 1918, killed millions in the region; estimates for Iran, where the British-Russian occupation and requisitions worsened the famine, are among the most contested of the century.",
+          "tag": "EPIDEMIC",
+          "note": "Mohammad Gholi Majd, The Great Famine and Genocide in Persia (2003), whose high figures are disputed; Rogan 2015; Keddie 2006.",
+          "keywords": ["Near East"],
+          "xlinks": ["levant-1908-1920::ec1","ottoman-empire-1908-1922::w2","qajar-1789-1925::l2"]
+        },
+        {
+          "id": "w3",
+          "group": "Migration & Invasion",
+          "label": "The Armenian refugees and the new centres",
+          "date": "1918–1930",
+          "loc": "Beirut and Aleppo",
+          "coords": [
+            33.89,
+            35.5
+          ],
+          "hint": "Survivors of the Armenian genocide of 1915–1916 and refugees of the Cilician evacuation in 1921 settled in Syria, Lebanon, Iraq and Egypt, in camps at Aleppo and Beirut's Karantina and later in quarters such as Bourj Hammoud, with schools, churches and parties; the League of Nations' Nansen passports of 1924 gave stateless people papers; the community changed the cities where it settled.",
+          "tag": "MIGRATION",
+          "note": "Keith David Watenpaugh, Bread from Stones (2015); Rogan 2009.",
+          "keywords": ["Aleppo","Survivors of the Armenian","Beirut Karantina","Bourj Hammoud","League of Nations Nansen"],
+          "xlinks": ["anatolia-1908-1923::c7","ottoman-empire-1908-1922::c10"]
+        },
+        {
+          "id": "w2",
+          "group": "Climate & Environment",
+          "label": "The Erzincan earthquake",
+          "date": "1939 (27 December)",
+          "loc": "Erzincan",
+          "coords": [
+            39.75,
+            39.5
+          ],
+          "hint": "A magnitude 7.8 earthquake in the early hours of 27 December 1939 destroyed the city of Erzincan in eastern Turkey and killed some 33,000 people, the largest earthquake disaster of the republic, which led to the first earthquake regulations and the beginning of a systematic study of the North Anatolian fault.",
+          "tag": "EARTHQUAKE",
+          "note": "Nicholas Ambraseys, Earthquakes in the Mediterranean and Middle East (2009); Turkish government reports (1940).",
+          "keywords": ["Erzincan","North Anatolian"],
+          "xlinks": ["turkey-1923-1980::w1"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "Women and the vote, the Jews of Iraq and the Yishuv, the Armenians and Assyrians and the migrants",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Women's Agency",
+          "label": "Women's movements and the vote",
+          "date": "1919–1945",
+          "loc": "Cairo and Istanbul",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "hint": "In Egypt Huda Sha'rawi led the women's demonstration of 1919 and in 1923 founded the Egyptian Feminist Union, whose president, Sha'rawi, removed her face veil in public at Cairo station in 1923 on returning from a congress in Rome; in Turkey women got the municipal vote in 1930 and the national vote and seats in the assembly in 1934, earlier than France and Italy; Iran's unveiling decree of 1936, which was enforced by police, was resented by many women and by the clergy; the Arab women's conference of 1944 in Cairo met in the same context.",
+          "tag": "EVIDENCE",
+          "note": "Huda Shaarawi, Harem Years (1986); Margot Badran, Feminists, Islam and Nation (1995); Deniz Kandiyoti; Abrahamian 2008.",
+          "keywords": ["Cairo","Istanbul","Women","Egypt Huda Sha'rawi","Feminist Union"],
+          "xlinks": ["egypt-1900-1952::l3","egypt-1900-1952::t3","turkey-1923-1980::l1"]
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "label": "The Jews of Iraq and the Middle East",
+          "date": "1920–1945",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.37
+          ],
+          "hint": "The Jewish community of Iraq, about 90,000 in the 1920s and 100,000–130,000 by the 1940s, had been one of the oldest and wealthiest in the region, with Sassoon Eskell as finance minister of the first cabinet in 1921, its own press and schools and many in the civil service; the rise of German propaganda, the Palestine conflict and the Farhud of June 1941 began the community's separation from the Arab nationalist state.",
+          "tag": "EVIDENCE",
+          "note": "Nissim Rejwan, The Jews of Iraq (1985); Bashkin 2008; Kazzaz 1991; Sassoon Eskell, Memoirs.",
+          "keywords": ["Baghdad","Jews of Iraq","Middle East","Sassoon Eskell","Farhud of June"],
+          "xlinks": ["egypt-1900-1952::b6","iraq-1914-1958::b1","iraq-1914-1958::c4"]
+        },
+        {
+          "id": "l3",
+          "group": "Work and Movement",
+          "label": "The oil workers and the Abadan strikes",
+          "date": "1929–1946",
+          "loc": "Abadan",
+          "coords": [
+            30.34,
+            48.3
+          ],
+          "hint": "The refinery town of Abadan, with some 30,000 Iranian workers of the Anglo-Persian Oil Company in the 1920s and about 50,000 by 1940, saw a strike in 1929 and the general strike of July 1946, led by the Tudeh-aligned unions, which was put down with dozens of workers killed; the workers' housing, wages and conditions, compared with those of the British staff, were the main grievance for oil nationalisation.",
+          "tag": "EVIDENCE",
+          "note": "Abrahamian 2008; Keddie 2006.",
+          "keywords": ["Abadan","Anglo-Persian Oil Company"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "turkey-and-iran",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Turkey and Iran",
+      "events": [
+        {
+          "y": 1921,
+          "l": "Reza Shah",
+          "entryId": "p2",
+          "y2": 1941
+        },
+        {
+          "y": 1923,
+          "l": "Mustafa Kemal Atatürk",
+          "entryId": "p1",
+          "y2": 1938
+        }
+      ]
+    },
+    {
+      "id": "the-arab-mandate-states",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "The Arab Mandate States",
+      "events": [
+        {
+          "y": 1918,
+          "l": "Faisal I and the Hashemite kings",
+          "entryId": "p3",
+          "y2": 1951
+        }
+      ]
+    },
+    {
+      "id": "egypt-and-arabia",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Egypt and Arabia",
+      "events": [
+        {
+          "y": 1902,
+          "l": "Abdulaziz Ibn Saud",
+          "entryId": "p4",
+          "y2": 1953
+        },
+        {
+          "y": 1917,
+          "l": "Fuad, Farouk and the Wafd",
+          "entryId": "p5",
+          "y2": 1945
+        }
+      ]
+    },
+    {
+      "id": "the-mandatory-powers",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "The Mandatory Powers",
+      "events": [
+        {
+          "y": 1920,
+          "l": "Britain and France as mandatory powers",
+          "entryId": "p6",
+          "y2": 1946
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 1914,
+          "l": "The Ottoman fronts of the First World War",
+          "entryId": "c1"
+        },
+        {
+          "y": 1919,
+          "l": "The Turkish War of Independence",
+          "entryId": "c2"
+        },
+        {
+          "y": 1920,
+          "l": "The Iraqi revolt of 1920",
+          "entryId": "c3"
+        },
+        {
+          "y": 1920,
+          "l": "The Palestine riots and the Great Revolt",
+          "entryId": "c5"
+        },
+        {
+          "y": 1925,
+          "l": "The Great Syrian Revolt",
+          "entryId": "c4"
+        },
+        {
+          "y": 1925,
+          "l": "The Kurdish revolts and Dersim",
+          "entryId": "c6"
+        },
+        {
+          "y": 1941,
+          "l": "The Rashid Ali coup and the Anglo-Iraqi War",
+          "entryId": "c7"
+        },
+        {
+          "y": 1941,
+          "l": "The Anglo-Soviet invasion of Iran",
+          "entryId": "c8"
+        },
+        {
+          "y": 1941,
+          "l": "Syria, Lebanon and the Free French",
+          "entryId": "c9"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 1905,
+          "l": "The Persian Constitutional Revolution",
+          "entryId": "o4"
+        },
+        {
+          "y": 1921,
+          "l": "The Cairo Conference and the settlement of 1921",
+          "entryId": "o1"
+        },
+        {
+          "y": 1922,
+          "l": "The Iraqi and Egyptian constitutions",
+          "entryId": "o5"
+        },
+        {
+          "y": 1923,
+          "l": "The Treaty of Lausanne",
+          "entryId": "o2"
+        },
+        {
+          "y": 1924,
+          "l": "The Kemalist reforms",
+          "entryId": "o6"
+        },
+        {
+          "y": 1936,
+          "l": "The Anglo-Egyptian treaty and the Montreux Convention",
+          "entryId": "o3"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 1919,
+          "l": "The Yishuv and Jewish immigration",
+          "entryId": "b2"
+        },
+        {
+          "y": 1923,
+          "l": "The Greek–Turkish exchange of populations",
+          "entryId": "b4"
+        },
+        {
+          "y": 1924,
+          "l": "The end of the caliphate and the Muslim Brotherhood",
+          "entryId": "b1"
+        },
+        {
+          "y": 1933,
+          "l": "The Assyrians and Simele",
+          "entryId": "b3"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 1926,
+          "l": "Taha Hussein, Hedayat and Nazim Hikmet",
+          "entryId": "e2"
+        },
+        {
+          "y": 1927,
+          "l": "The Egyptian film industry and Studio Misr",
+          "entryId": "e3"
+        },
+        {
+          "y": 1934,
+          "l": "Umm Kulthum and the radio",
+          "entryId": "e1"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 1917,
+          "l": "The Zionist idea and the Arab response",
+          "entryId": "t3"
+        },
+        {
+          "y": 1920,
+          "l": "Arab nationalism and Sati' al-Husri",
+          "entryId": "t1"
+        },
+        {
+          "y": 1923,
+          "l": "Kemalism and Ziya Gökalp's legacy",
+          "entryId": "t2"
+        },
+        {
+          "y": 1925,
+          "l": "Iranian modernism and the Pahlavi ideology",
+          "entryId": "t4"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 1901,
+          "l": "The oil concessions and the first discoveries",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1929,
+          "l": "The Great Depression and the cotton economy",
+          "entryId": "ec2"
+        },
+        {
+          "y": 1941,
+          "l": "The wartime economy and the Middle East Supply Centre",
+          "entryId": "ec3"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 1920,
+          "l": "Air power and imperial policing",
+          "entryId": "te2"
+        },
+        {
+          "y": 1925,
+          "l": "The radio and the printing press",
+          "entryId": "te3"
+        },
+        {
+          "y": 1927,
+          "l": "The Trans-Iranian Railway and the Hejaz Railway's end",
+          "entryId": "te1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 1915,
+          "l": "Sykes–Picot, Balfour and McMahon",
+          "entryId": "x1"
+        },
+        {
+          "y": 1921,
+          "l": "The Soviet–Turkish and British–Iranian relations",
+          "entryId": "x3"
+        },
+        {
+          "y": 1945,
+          "l": "The Arab League",
+          "entryId": "x2"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 1915,
+          "l": "The influenza of 1918 and the great hunger of the war",
+          "entryId": "w1"
+        },
+        {
+          "y": 1918,
+          "l": "The Armenian refugees and the new centres",
+          "entryId": "w3"
+        },
+        {
+          "y": 1939,
+          "l": "The Erzincan earthquake",
+          "entryId": "w2"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 1919,
+          "l": "Women's movements and the vote",
+          "entryId": "l1"
+        },
+        {
+          "y": 1920,
+          "l": "The Jews of Iraq and the Middle East",
+          "entryId": "l2"
+        },
+        {
+          "y": 1929,
+          "l": "The oil workers and the Abadan strikes",
+          "entryId": "l3"
+        }
+      ]
+    }
+  ]
+}
