@@ -2247,6 +2247,47 @@ const SELECTED_PAIRS = [
   ['ottoman-empire-1908-1922::p2', 'ottoman-empire-1839-1908::t4'],      // the Committee of Union and Progress in opposition
   ['ottoman-empire-1908-1922::o4', 'ottoman-empire-1839-1908::x4'],      // the capitulations in the age of the Tanzimat
   ['ottoman-empire-1908-1922::c1', 'ottoman-empire-1839-1908::p5'],      // Abdülhamid II and the revolution
+  ['byzantine-empire-632-867::p1', 'late-roman-anatolia-330-632::p7'],      // Heraclius
+  ['byzantine-empire-632-867::p1', 'roman-byzantine-levant-135-638::p6'],      // Persian conquest and Byzantine restoration
+  ['byzantine-empire-632-867::p1', 'egypt-300-641::k7'],      // Heraclius — Egypt lost and lost again
+  ['byzantine-empire-632-867::p2', 'byzantine-anatolia-632-867::p1'],      // Constans II and the first themes
+  ['byzantine-empire-632-867::p3', 'byzantine-anatolia-632-867::p2'],      // Constantine IV and Justinian II
+  ['byzantine-empire-632-867::p4', 'byzantine-anatolia-632-867::p2'],      // Justinian II
+  ['byzantine-empire-632-867::p5', 'byzantine-anatolia-632-867::p3'],      // Leo III and Constantine V
+  ['byzantine-empire-632-867::p6', 'byzantine-anatolia-632-867::p3'],      // Constantine V
+  ['byzantine-empire-632-867::p7', 'byzantine-anatolia-632-867::l1'],      // Irene — the empress who ruled as emperor
+  ['byzantine-empire-632-867::p7', 'byzantine-anatolia-632-867::p4'],      // Irene and Nikephoros I
+  ['byzantine-empire-632-867::p8', 'byzantine-anatolia-632-867::c12'],      // Nikephoros at Pliska
+  ['byzantine-empire-632-867::p9', 'byzantine-anatolia-632-867::p5'],      // Michael II and Theophilus
+  ['byzantine-empire-632-867::c1', 'caliphate-632-750::c2'],      // Ajnadayn and Yarmuk — Byzantine Syria falls
+  ['byzantine-empire-632-867::c2', 'caliphate-632-750::c4'],      // the conquest of Egypt
+  ['byzantine-empire-632-867::c2', 'egypt-300-641::k15'],      // the Arab conquest of Egypt
+  ['byzantine-empire-632-867::c2', 'egypt-300-641::c8'],      // Heliopolis and the siege of Babylon
+  ['byzantine-empire-632-867::c2', 'levant-634-750::c1'],      // the fall of Caesarea
+  ['byzantine-empire-632-867::c3', 'byzantine-anatolia-632-867::c2'],      // the first siege of Constantinople
+  ['byzantine-empire-632-867::c3', 'levant-634-750::c3'],      // the sieges of Constantinople
+  ['byzantine-empire-632-867::c4', 'byzantine-anatolia-632-867::c4'],      // the second siege of Constantinople
+  ['byzantine-empire-632-867::c5', 'byzantine-anatolia-632-867::c5'],      // Akroinon
+  ['byzantine-empire-632-867::c7', 'byzantine-anatolia-632-867::c8'],      // the sack of Amorion
+  ['byzantine-empire-632-867::c9', 'byzantine-anatolia-632-867::x4'],      // the Rus attack of 860
+  ['byzantine-empire-632-867::c10', 'byzantine-anatolia-632-867::c9'],      // Thomas the Slav’s revolt
+  ['byzantine-empire-632-867::o1', 'byzantine-anatolia-632-867::o1'],      // the theme system
+  ['byzantine-empire-632-867::o2', 'byzantine-anatolia-632-867::o3'],      // the Ecloga of Leo III
+  ['byzantine-empire-632-867::o3', 'byzantine-anatolia-632-867::o2'],      // the Farmer’s Law
+  ['byzantine-empire-632-867::b2', 'byzantine-anatolia-632-867::b1'],      // the ban on icons
+  ['byzantine-empire-632-867::b3', 'byzantine-anatolia-632-867::b2'],      // the Second Council of Nicaea
+  ['byzantine-empire-632-867::e1', 'byzantine-anatolia-632-867::e1'],      // the cross of Hagia Eirene
+  ['byzantine-empire-632-867::e2', 'byzantine-anatolia-632-867::e2'],      // the Chludov Psalter
+  ['byzantine-empire-632-867::te1', 'byzantine-anatolia-632-867::g1'],      // Greek fire
+  ['byzantine-empire-632-867::te3', 'byzantine-anatolia-632-867::g3'],      // the beacon line
+  ['byzantine-empire-632-867::x1', 'byzantine-anatolia-632-867::x3'],      // the Khazar marriage
+  ['byzantine-empire-632-867::x3', 'byzantine-anatolia-632-867::x1'],      // the exchanges of prisoners on the Lamos
+  ['byzantine-empire-632-867::w1', 'byzantine-anatolia-632-867::w2'],      // the plague of 747
+  ['byzantine-empire-632-867::w3', 'byzantine-anatolia-632-867::l4'],      // the people moved to Thrace
+  ['byzantine-empire-632-867::ec1', 'byzantine-anatolia-632-867::ec1'],      // the shrinking cities
+  ['byzantine-empire-632-867::ec2', 'byzantine-anatolia-632-867::ec2'],      // peasants of the Farmer’s Law
+  ['byzantine-empire-632-867::l1', 'byzantine-anatolia-632-867::l1'],      // Irene and the empresses
+  ['byzantine-empire-632-867::o5', 'caliphate-632-750::k8'],      // Abd al-Malik and the two empires’ rivalry
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

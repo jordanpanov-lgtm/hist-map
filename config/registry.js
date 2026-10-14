@@ -259,5 +259,7 @@ const MODULES = [
   { id:"ottoman-empire-1683-1839", file:"modules/ottoman-empire-1683-1839.json", label:"The Ottoman Empire 1683–1839", sub:"Retreat from Central Europe, the Tulip Age, the Notables, the Russian Wars, the Nizam-ı Cedid and the Reforms of Mahmud II", region:"Near East", also:["Europe"], period:"Early Modern" },
   { id:"ottoman-empire-1839-1908", file:"modules/ottoman-empire-1839-1908.json", label:"The Ottoman Empire 1839–1908", sub:"The Tanzimat, the Crimean War and the Debt, the Constitution of 1876, the War of 1877–1878 and the Hamidian Regime", region:"Near East", also:["Europe"], period:"Early Modern" },
   { id:"ottoman-empire-1908-1922", file:"modules/ottoman-empire-1908-1922.json", label:"The Ottoman Empire 1908–1922", sub:"The Young Turk Revolution, the Lost Wars, the Great War on Seven Fronts, the Destruction of the Armenians and the End of the Sultanate", region:"Near East", also:["Europe"], period:"Modern" },
+  // ── THE BYZANTINE EMPIRE (system-level; home Europe, also Near East) ──
+  { id:"byzantine-empire-632-867", file:"modules/byzantine-empire-632-867.json", label:"The Byzantine Empire 632–867", sub:"The Loss of the East, the Siege Emperors, Iconoclasm and the Recovery under the Amorians", region:"Europe", also:["Near East"], period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
