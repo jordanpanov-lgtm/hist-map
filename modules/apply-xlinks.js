@@ -2187,6 +2187,66 @@ const SELECTED_PAIRS = [
   ['ottoman-empire-1839-1908::x2', 'egypt-1798-1900::k10'],      // the occupation and Lord Cromer
   ['ottoman-empire-1839-1908::ec1', 'egypt-1798-1900::o5'],      // the debt and the Caisse de la Dette
   ['ottoman-empire-1839-1908::x1', 'ottoman-empire-1683-1839::x4'],      // the Eastern Question
+  ['ottoman-empire-1908-1922::p1', 'anatolia-1908-1923::p1'],      // Abdülhamid II restored to a constitution
+  ['ottoman-empire-1908-1922::p1', 'anatolia-1908-1923::p2'],      // Mehmed V Reşad
+  ['ottoman-empire-1908-1922::p2', 'anatolia-1908-1923::p7'],      // the triumvirate: Talat, Enver and Cemal
+  ['ottoman-empire-1908-1922::p3', 'anatolia-1908-1923::p3'],      // Mehmed VI Vahdeddin
+  ['ottoman-empire-1908-1922::p5', 'anatolia-1908-1923::p9'],      // Mustafa Kemal and the Representative Committee
+  ['ottoman-empire-1908-1922::p5', 'anatolia-1908-1923::p10'],      // the Grand National Assembly
+  ['ottoman-empire-1908-1922::p6', 'hejaz-1900-1925::k2'],      // Sharif Hussein bin Ali
+  ['ottoman-empire-1908-1922::c1', 'anatolia-1908-1923::c1'],      // the Young Turk revolution
+  ['ottoman-empire-1908-1922::c3', 'anatolia-1908-1923::c3'],      // the Balkan Wars
+  ['ottoman-empire-1908-1922::c6', 'anatolia-1908-1923::c4'],      // Sarıkamış
+  ['ottoman-empire-1908-1922::c8', 'anatolia-1908-1923::c5'],      // Gallipoli
+  ['ottoman-empire-1908-1922::c9', 'iraq-1914-1958::c1'],      // the Mesopotamian campaign and the siege of Kut
+  ['ottoman-empire-1908-1922::c10', 'anatolia-1908-1923::c7'],      // the Armenian genocide in Anatolia
+  ['ottoman-empire-1908-1922::c10', 'anatolia-1908-1923::c8'],      // the arrests of 24 April 1915
+  ['ottoman-empire-1908-1922::c11', 'anatolia-1908-1923::c10'],      // the Sayfo
+  ['ottoman-empire-1908-1922::c12', 'hejaz-1900-1925::c2'],      // the revolt in the Hejaz
+  ['ottoman-empire-1908-1922::c12', 'levant-1908-1920::p3'],      // the Arab Revolt begins
+  ['ottoman-empire-1908-1922::c13', 'levant-1908-1920::p4'],      // Allenby’s Sinai and Palestine campaign
+  ['ottoman-empire-1908-1922::c13', 'levant-1908-1920::c2'],      // the capture of Jerusalem
+  ['ottoman-empire-1908-1922::c12', 'levant-1908-1920::c1'],      // the battle of Aqaba
+  ['ottoman-empire-1908-1922::c7', 'egypt-1900-1952::c2'],      // the First World War in Egypt
+  ['ottoman-empire-1908-1922::c14', 'anatolia-1908-1923::o5'],      // the armistice of Mudros
+  ['ottoman-empire-1908-1922::c15', 'anatolia-1908-1923::c12'],      // the Greek landing at Smyrna
+  ['ottoman-empire-1908-1922::c15', 'anatolia-1908-1923::c13'],      // Sakarya
+  ['ottoman-empire-1908-1922::c15', 'anatolia-1908-1923::c14'],      // the Great Offensive and Dumlupınar
+  ['ottoman-empire-1908-1922::c5', 'caucasus-1917-1921::c1'],      // the Ottoman offensive and the Treaty of Batum
+  ['ottoman-empire-1908-1922::o1', 'anatolia-1908-1923::o1'],      // the restored constitution and its amendment
+  ['ottoman-empire-1908-1922::o2', 'levant-1908-1920::o2'],      // the Sykes–Picot Agreement
+  ['ottoman-empire-1908-1922::o2', 'levant-1908-1920::o3'],      // the Balfour Declaration
+  ['ottoman-empire-1908-1922::o2', 'hejaz-1900-1925::c1'],      // the McMahon–Hussein bargain
+  ['ottoman-empire-1908-1922::x2', 'levant-1908-1920::o1'],      // the Hussein–McMahon correspondence
+  ['ottoman-empire-1908-1922::o3', 'anatolia-1908-1923::o3'],      // the deportation law and the abandoned property laws
+  ['ottoman-empire-1908-1922::o5', 'anatolia-1908-1923::o6'],      // the Treaty of Sèvres
+  ['ottoman-empire-1908-1922::o6', 'anatolia-1908-1923::o9'],      // the abolition of the sultanate
+  ['ottoman-empire-1908-1922::b1', 'anatolia-1908-1923::b1'],      // the jihad declaration
+  ['ottoman-empire-1908-1922::b2', 'anatolia-1908-1923::b4'],      // the Christian churches of Anatolia after 1915
+  ['ottoman-empire-1908-1922::b3', 'anatolia-1908-1923::p4'],      // Abdülmecid II as caliph
+  ['ottoman-empire-1908-1922::e1', 'anatolia-1908-1923::e3'],      // the first Ottoman film
+  ['ottoman-empire-1908-1922::e2', 'anatolia-1908-1923::e1'],      // the Independence March
+  ['ottoman-empire-1908-1922::e4', 'anatolia-1908-1923::e2'],      // the Armenian writers of 1915
+  ['ottoman-empire-1908-1922::t1', 'anatolia-1908-1923::t1'],      // Ziya Gökalp and Turkism
+  ['ottoman-empire-1908-1922::t2', 'levant-1908-1920::t1'],      // Arab nationalist societies organise
+  ['ottoman-empire-1908-1922::t3', 'anatolia-1908-1923::w2'],      // the American mandate question
+  ['ottoman-empire-1908-1922::ec1', 'anatolia-1908-1923::ec1'],      // the national economy policy
+  ['ottoman-empire-1908-1922::ec3', 'levant-1908-1920::ec1'],      // the great famine of Mount Lebanon
+  ['ottoman-empire-1908-1922::ec3', 'anatolia-1908-1923::ec3'],      // the wartime famine
+  ['ottoman-empire-1908-1922::te1', 'anatolia-1908-1923::g2'],      // the Taurus and Amanus tunnels
+  ['ottoman-empire-1908-1922::x1', 'anatolia-1908-1923::x1'],      // the German alliance
+  ['ottoman-empire-1908-1922::x4', 'anatolia-1908-1923::x3'],      // the treaties of Moscow and Kars
+  ['ottoman-empire-1908-1922::w1', 'anatolia-1908-1923::x2'],      // the refugees from the Balkans
+  ['ottoman-empire-1908-1922::w1', 'anatolia-1908-1923::w6'],      // the new demography of Anatolia
+  ['ottoman-empire-1908-1922::w2', 'anatolia-1908-1923::w5'],      // the influenza and typhus epidemics
+  ['ottoman-empire-1908-1922::l1', 'anatolia-1908-1923::l1'],      // the women’s organisations and press
+  ['ottoman-empire-1908-1922::l2', 'anatolia-1908-1923::l3'],      // the orphans and the converted
+  ['ottoman-empire-1908-1922::l3', 'anatolia-1908-1923::l4'],      // the conscripts and deserters
+  ['ottoman-empire-1908-1922::l4', 'anatolia-1908-1923::c11'],      // the persecution of the Ottoman Greeks
+  ['ottoman-empire-1908-1922::l4', 'anatolia-1908-1923::c15'],      // the burning of Smyrna
+  ['ottoman-empire-1908-1922::p2', 'ottoman-empire-1839-1908::t4'],      // the Committee of Union and Progress in opposition
+  ['ottoman-empire-1908-1922::o4', 'ottoman-empire-1839-1908::x4'],      // the capitulations in the age of the Tanzimat
+  ['ottoman-empire-1908-1922::c1', 'ottoman-empire-1839-1908::p5'],      // Abdülhamid II and the revolution
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
