@@ -2449,6 +2449,58 @@ const SELECTED_PAIRS = [
   ['late-bronze-age-system-1550bc-1200bc::ec3', 'canaan-2000bc-1200bc::l2'],      // women’s property rights at Ugarit
   ['late-bronze-age-system-1550bc-1200bc::p11', 'egypt-1200bc-664bc::c1'],      // the end of Ugarit and the Sea Peoples
   ['late-bronze-age-system-1550bc-1200bc::w2', 'philistia-1200bc-604bc::p1'],      // the Peleset settle the coastal plain
+  ['roman-parthian-world-63bc-224ad::p1', 'herod-judea-63bc-135ce::p1'],      // Pompey’s settlement
+  ['roman-parthian-world-63bc-224ad::p1', 'decapolis-63bc-106ce::p2'],      // Pompey’s liberation of the cities
+  ['roman-parthian-world-63bc-224ad::p1', 'roman-anatolia-133bc-330::p3'],      // Pompey’s settlement of the East
+  ['roman-parthian-world-63bc-224ad::p1', 'hellenistic-age-323bc-30bc::c9'],      // Pompey and the end of the Seleucid state
+  ['roman-parthian-world-63bc-224ad::p2', 'parthia-148bc-224::p3'],      // Orodes II — Carrhae and the wars with Rome begin
+  ['roman-parthian-world-63bc-224ad::p2', 'mesopotamia-141bc-224::k3'],      // Orodes II
+  ['roman-parthian-world-63bc-224ad::p3', 'parthia-148bc-224::x1'],      // the return of the Roman standards
+  ['roman-parthian-world-63bc-224ad::p4', 'parthia-148bc-224::p4'],      // Phraates IV to Vologases I — the long stand-off
+  ['roman-parthian-world-63bc-224ad::p4', 'parthia-148bc-224::b1'],      // Vologases I and the gathering of the Avesta
+  ['roman-parthian-world-63bc-224ad::p5', 'parthia-148bc-224::p5'],      // Osroes I and the Trajanic war
+  ['roman-parthian-world-63bc-224ad::p5', 'roman-anatolia-133bc-330::p8'],      // Trajan, Hadrian and the Antonines
+  ['roman-parthian-world-63bc-224ad::p6', 'parthia-148bc-224::p6'],      // Vologases IV to Artabanus IV — the sacks and the fall
+  ['roman-parthian-world-63bc-224ad::c1', 'parthia-148bc-224::c2'],      // the battle of Carrhae
+  ['roman-parthian-world-63bc-224ad::c1', 'mesopotamia-141bc-224::c1'],      // Carrhae — the destruction of Crassus
+  ['roman-parthian-world-63bc-224ad::c2', 'parthia-148bc-224::c3'],      // Mark Antony’s Median campaign
+  ['roman-parthian-world-63bc-224ad::c2', 'mesopotamia-141bc-224::c2'],      // the Parthian thrust into Syria and the recoil
+  ['roman-parthian-world-63bc-224ad::c2', 'roman-anatolia-133bc-330::c7'],      // the Parthian invasion of Anatolia
+  ['roman-parthian-world-63bc-224ad::c2', 'herod-judea-63bc-135ce::p3'],      // the Parthian invasion and Herod’s flight
+  ['roman-parthian-world-63bc-224ad::c3', 'roman-anatolia-133bc-330::c9'],      // Corbulo and the Armenian war
+  ['roman-parthian-world-63bc-224ad::c4', 'herod-judea-63bc-135ce::p7'],      // the Great Revolt’s outbreak
+  ['roman-parthian-world-63bc-224ad::c4', 'herod-judea-63bc-135ce::p8'],      // Vespasian and Titus’s reconquest
+  ['roman-parthian-world-63bc-224ad::c4', 'herod-judea-63bc-135ce::c4'],      // Masada’s fall
+  ['roman-parthian-world-63bc-224ad::c5', 'parthia-148bc-224::c4'],      // Trajan’s conquest and withdrawal
+  ['roman-parthian-world-63bc-224ad::c5', 'mesopotamia-141bc-224::c4'],      // Trajan takes Ctesiphon
+  ['roman-parthian-world-63bc-224ad::c6', 'herod-judea-63bc-135ce::p9'],      // Bar Kokhba’s brief kingdom
+  ['roman-parthian-world-63bc-224ad::c6', 'herod-judea-63bc-135ce::c5'],      // the Bar Kokhba revolt crushed
+  ['roman-parthian-world-63bc-224ad::c7', 'mesopotamia-141bc-224::c5'],      // the burning of Seleucia in the war of Verus
+  ['roman-parthian-world-63bc-224ad::c8', 'mesopotamia-141bc-224::c6'],      // the Severan sacks and the Sasanian revolt
+  ['roman-parthian-world-63bc-224ad::c10', 'parthia-148bc-224::c6'],      // Ardashir’s rebellion and the battle of Hormozdgan
+  ['roman-parthian-world-63bc-224ad::o2', 'parthia-148bc-224::o1'],      // the satrapal-feudal system
+  ['roman-parthian-world-63bc-224ad::b1', 'parthia-148bc-224::b4'],      // fire-altar continuity in Persis
+  ['roman-parthian-world-63bc-224ad::b2', 'parthia-148bc-224::b3'],      // the emergence of the exilarchate
+  ['roman-parthian-world-63bc-224ad::b2', 'mesopotamia-141bc-224::b2'],      // the exilarch and the first Babylonian rabbis
+  ['roman-parthian-world-63bc-224ad::b3', 'mesopotamia-141bc-224::b3'],      // the first churches at Edessa and Adiabene
+  ['roman-parthian-world-63bc-224ad::e1', 'parthia-148bc-224::e1'],      // the ivory rhytons of Nisa
+  ['roman-parthian-world-63bc-224ad::e2', 'palmyrene-100bc-273ce::a1'],      // Palmyrene tower tombs
+  ['roman-parthian-world-63bc-224ad::e2', 'palmyrene-100bc-273ce::a2'],      // Palmyrene funerary busts
+  ['roman-parthian-world-63bc-224ad::ec1', 'parthia-148bc-224::ec1'],      // the middleman profits of the overland silk trade
+  ['roman-parthian-world-63bc-224ad::ec1', 'mesopotamia-141bc-224::e2'],      // Parthia the Silk Road middleman
+  ['roman-parthian-world-63bc-224ad::ec2', 'palmyrene-100bc-273ce::o1'],      // the Palmyrene Tariff inscription
+  ['roman-parthian-world-63bc-224ad::ec2', 'palmyrene-100bc-273ce::s1'],      // Palmyra as the key node of the Silk Road
+  ['roman-parthian-world-63bc-224ad::p9', 'palmyrene-100bc-273ce::k1'],      // Palmyra as autonomous caravan city
+  ['roman-parthian-world-63bc-224ad::p10', 'mesopotamia-141bc-224::k8'],      // Hatra, Edessa and Adiabene — the buffer principalities
+  ['roman-parthian-world-63bc-224ad::p11', 'mesopotamia-141bc-224::k7'],      // Characene at the head of the Gulf
+  ['roman-parthian-world-63bc-224ad::l1', 'parthia-148bc-224::l1'],      // Queen Musa — from slave to co-ruler
+  ['roman-parthian-world-63bc-224ad::te1', 'parthia-148bc-224::tc1'],      // the Parthian shot
+  ['roman-parthian-world-63bc-224ad::x1', 'parthia-148bc-224::x2'],      // Gan Ying’s aborted mission to Rome
+  ['roman-parthian-world-63bc-224ad::t1', 'parthia-148bc-224::t1'],      // Isidore of Charax’s Parthian stations
+  ['roman-parthian-world-63bc-224ad::t2', 'herod-judea-63bc-135ce::t1'],      // Josephus, soldier turned historian
+  ['roman-parthian-world-63bc-224ad::t2', 'parthia-148bc-224::t3'],      // Josephus on the Parthian Jewish community
+  ['roman-parthian-world-63bc-224ad::p8', 'herod-judea-63bc-135ce::p4'],      // Herod, King of the Jews
+  ['roman-parthian-world-63bc-224ad::w1', 'mesopotamia-141bc-224::xc1'],      // the land between Rome and Parthia
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
