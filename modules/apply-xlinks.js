@@ -2117,6 +2117,39 @@ const SELECTED_PAIRS = [
   ['ottoman-empire-1517-1683::l1', 'ottoman-anatolia-1500-1800::l1'],      // women in the kadi’s court
   ['ottoman-empire-1517-1683::l4', 'ottoman-empire-1299-1517::o1'],      // the Janissaries and the devshirme
   ['ottoman-empire-1517-1683::p8', 'egypt-1517-1798::k5'],      // the Mamluk households return
+  ['ottoman-empire-1683-1839::c1', 'ottoman-empire-1517-1683::c12'],      // the second siege of Vienna and the league war
+  ['ottoman-empire-1683-1839::p1', 'ottoman-empire-1517-1683::p9'],      // the deposition of Mehmed IV
+  ['ottoman-empire-1683-1839::o3', 'ottoman-empire-1517-1683::o4'],      // tax farming and the avarız
+  ['ottoman-empire-1683-1839::o3', 'ottoman-anatolia-1500-1800::o3'],      // the malikâne and tax farming
+  ['ottoman-empire-1683-1839::p6', 'ottoman-anatolia-1500-1800::p5'],      // the ayan houses
+  ['ottoman-empire-1683-1839::p6', 'ottoman-anatolia-1500-1800::w3'],      // the age of the notables
+  ['ottoman-empire-1683-1839::p5', 'ottoman-anatolia-1800-1908::p1'],      // Mahmud II and the end of the ayans
+  ['ottoman-empire-1683-1839::c11', 'ottoman-anatolia-1800-1908::c1'],      // Ibrahim Pasha in Anatolia
+  ['ottoman-empire-1683-1839::p7', 'egypt-1798-1900::k2'],      // Muhammad Ali, the founder
+  ['ottoman-empire-1683-1839::p7', 'egypt-1798-1900::c2'],      // the massacre of the Mamluks
+  ['ottoman-empire-1683-1839::c11', 'egypt-1798-1900::c6'],      // the Syrian wars and the crisis of 1840
+  ['ottoman-empire-1683-1839::c8', 'egypt-1798-1900::c5'],      // the Greek war and Navarino
+  ['ottoman-empire-1683-1839::c9', 'egypt-1798-1900::c5'],      // Navarino from the Egyptian side
+  ['ottoman-empire-1683-1839::b1', 'hejaz-1517-1900::k4'],      // the First Saudi State takes the Hejaz
+  ['ottoman-empire-1683-1839::b1', 'hejaz-1517-1900::k5'],      // the Egyptian reconquest and administration
+  ['ottoman-empire-1683-1839::b1', 'egypt-1798-1900::c3'],      // the war against the Saudis in Arabia
+  ['ottoman-empire-1683-1839::c6', 'egypt-1517-1798::c8'],      // the Pyramids, Aboukir and the Cairo revolt
+  ['ottoman-empire-1683-1839::c6', 'egypt-1517-1798::xc6'],      // 1798 and the Eastern Question
+  ['ottoman-empire-1683-1839::c6', 'ottoman-syria-1516-1800::c2'],      // Napoleon’s siege of Acre
+  ['ottoman-empire-1683-1839::p7', 'egypt-1517-1798::k10'],      // Ibrahim Bey and Murad Bey before Muhammad Ali
+  ['ottoman-empire-1683-1839::x2', 'iraq-1534-1831::c2'],      // Nadir Shah’s invasions
+  ['ottoman-empire-1683-1839::x2', 'iraq-1534-1831::xc1'],      // the Ottoman–Persian border, fixed and disputed
+  ['ottoman-empire-1683-1839::c5', 'iraq-1534-1831::k7'],      // the reform of the provinces and the end of the Mamluk regime in Baghdad
+  ['ottoman-empire-1683-1839::t1', 'egypt-1798-1900::x1'],      // the Bulaq press and the coming of print
+  ['ottoman-empire-1683-1839::te1', 'egypt-1798-1900::t2'],      // the new schools
+  ['ottoman-empire-1683-1839::l3', 'ottoman-anatolia-1800-1908::p4'],      // the provincial elites of the nineteenth century
+  ['ottoman-empire-1683-1839::ec4', 'egypt-1798-1900::o2'],      // the monopoly state and free trade
+  ['ottoman-empire-1683-1839::w2', 'ottoman-anatolia-1800-1908::w2'],      // the census and the population
+  ['ottoman-empire-1683-1839::b3', 'ottoman-empire-1517-1683::b5'],      // the Orthodox patriarchate and the Christians
+  ['ottoman-empire-1683-1839::o6', 'ottoman-empire-1517-1683::l4'],      // the Janissary and the villager
+  ['ottoman-empire-1683-1839::o1', 'ottoman-empire-1517-1683::c10'],      // the Cretan war and the Treaties of the later century
+  ['ottoman-empire-1683-1839::e3', 'ottoman-empire-1517-1683::e1'],      // Sinan’s classical mosques and the Baroque
+  ['ottoman-empire-1683-1839::o7', 'ottoman-empire-1517-1683::l3'],      // the Greek, Armenian and Jewish subjects
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
