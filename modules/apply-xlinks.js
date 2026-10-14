@@ -2610,6 +2610,51 @@ const SELECTED_PAIRS = [
   ['near-east-mongols-to-gunpowder-1335-1517::ec3', 'portuguese-gulf-1507-1650::k1'],      // Albuquerque makes Hormuz a Portuguese protectorate
   ['near-east-mongols-to-gunpowder-1335-1517::ec4', 'iran-1335-1501::ec1'],      // trade recovers under Timurid stability
   ['near-east-mongols-to-gunpowder-1335-1517::w3', 'iran-1335-1501::l2'],      // the demographic toll of Timur’s campaigns
+  ['eastern-question-1774-1900::c1', 'ottoman-empire-1683-1839::c4'],      // the Russo-Ottoman war of 1768–1774
+  ['eastern-question-1774-1900::c1', 'ottoman-empire-1683-1839::c5'],      // the annexation of Crimea and the war of 1787–1792
+  ['eastern-question-1774-1900::o1', 'ottoman-empire-1683-1839::o2'],      // the Treaty of Küçük Kaynarca
+  ['eastern-question-1774-1900::o1', 'ottoman-empire-1683-1839::x3'],      // Hünkâr İskelesi
+  ['eastern-question-1774-1900::t1', 'ottoman-empire-1683-1839::x4'],      // the Eastern Question
+  ['eastern-question-1774-1900::p2', 'ottoman-empire-1683-1839::c6'],      // Napoleon in Egypt and Syria
+  ['eastern-question-1774-1900::c2', 'egypt-1517-1798::c8'],      // the Pyramids, Aboukir and the Cairo revolt
+  ['eastern-question-1774-1900::c3', 'ottoman-empire-1683-1839::c8'],      // the Greek revolution
+  ['eastern-question-1774-1900::c3', 'ottoman-empire-1683-1839::c9'],      // Navarino and the Russian war of 1828–1829
+  ['eastern-question-1774-1900::p7', 'ottoman-empire-1683-1839::p7'],      // Muhammad Ali Pasha of Egypt
+  ['eastern-question-1774-1900::p7', 'egypt-1798-1900::k2'],      // Muhammad Ali, the founder
+  ['eastern-question-1774-1900::c4', 'egypt-1798-1900::c6'],      // the Syrian wars and the crisis of 1840
+  ['eastern-question-1774-1900::c4', 'ottoman-empire-1683-1839::c11'],      // the Egyptian–Ottoman wars
+  ['eastern-question-1774-1900::c5', 'ottoman-empire-1839-1908::c1'],      // the Crimean War
+  ['eastern-question-1774-1900::c6', 'ottoman-empire-1839-1908::c8'],      // the Congress of Berlin and the loss of territory
+  ['eastern-question-1774-1900::c6', 'ottoman-empire-1839-1908::c5'],      // the Russo-Turkish war of 1877–1878
+  ['eastern-question-1774-1900::c7', 'egypt-1798-1900::c7'],      // Alexandria and Tel el-Kebir
+  ['eastern-question-1774-1900::c7', 'egypt-1798-1900::k9'],      // the Urabi movement
+  ['eastern-question-1774-1900::c7', 'egypt-1798-1900::k10'],      // the occupation and Lord Cromer
+  ['eastern-question-1774-1900::c8', 'qajar-1789-1925::c7'],      // Muhammad Shah’s siege of Herat
+  ['eastern-question-1774-1900::c8', 'qajar-1789-1925::c8'],      // Persia retakes Herat and the Anglo-Persian war
+  ['eastern-question-1774-1900::c8', 'qajar-1789-1925::w1'],      // the Great Game played out across Iran
+  ['eastern-question-1774-1900::x2', 'qajar-1789-1925::ec1'],      // the Reuter and tobacco concessions
+  ['eastern-question-1774-1900::x2', 'qajar-1789-1925::c3'],      // the Tobacco Protest
+  ['eastern-question-1774-1900::ec1', 'egypt-1798-1900::o5'],      // the debt and the Caisse de la Dette
+  ['eastern-question-1774-1900::ec1', 'ottoman-empire-1839-1908::ec1'],      // the first loans and the default of 1875
+  ['eastern-question-1774-1900::ec2', 'ottoman-empire-1839-1908::o6'],      // the Ottoman Public Debt Administration
+  ['eastern-question-1774-1900::ec2', 'ottoman-empire-1839-1908::ec2'],      // the Ottoman Bank and the Régie
+  ['eastern-question-1774-1900::te3', 'egypt-1798-1900::xc1'],      // the Suez Canal and world trade
+  ['eastern-question-1774-1900::te4', 'ottoman-empire-1839-1908::ec4'],      // the railways of Anatolia and the Baghdad concession
+  ['eastern-question-1774-1900::te2', 'ottoman-empire-1839-1908::te1'],      // the telegraph
+  ['eastern-question-1774-1900::o3', 'ottoman-empire-1839-1908::c8'],      // the Treaty of Berlin
+  ['eastern-question-1774-1900::o5', 'ottoman-empire-1683-1839::ec4'],      // the Anglo-Ottoman convention of Balta Limanı
+  ['eastern-question-1774-1900::o4', 'ottoman-empire-1839-1908::x4'],      // the Capitulations in the age of the Tanzimat
+  ['eastern-question-1774-1900::b3', 'ottoman-empire-1839-1908::b5'],      // Robert College and the American missions
+  ['eastern-question-1774-1900::b3', 'ottoman-syria-1800-1908::b1'],      // the Syrian Protestant College opens
+  ['eastern-question-1774-1900::x3', 'ottoman-syria-1800-1908::o1'],      // a governor guaranteed by foreign powers
+  ['eastern-question-1774-1900::x3', 'ottoman-empire-1839-1908::c2'],      // Mount Lebanon and Damascus 1860
+  ['eastern-question-1774-1900::w2', 'ottoman-empire-1839-1908::w1'],      // the muhacir movements
+  ['eastern-question-1774-1900::p6', 'ottoman-empire-1839-1908::x3'],      // German friendship
+  ['eastern-question-1774-1900::t2', 'iraq-1831-1914::x3'],      // the Assyrian excavations
+  ['eastern-question-1774-1900::l3', 'ottoman-empire-1839-1908::c2'],      // the strife of Syria in 1840–1860
+  ['eastern-question-1774-1900::e2', 'egypt-1798-1900::x4'],      // the theatre and Aida
+  ['eastern-question-1774-1900::p5', 'ottoman-empire-1839-1908::x2'],      // Egypt and Cyprus
+  ['eastern-question-1774-1900::p3', 'ottoman-empire-1839-1908::p2'],      // Reşid, Âli and Fuad Pasha
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
