@@ -2749,6 +2749,94 @@ const SELECTED_PAIRS = [
   ['modern-near-east-1900-1945::l2', 'iraq-1914-1958::b1'],      // the exodus of the Jews
   ['modern-near-east-1900-1945::l2', 'iraq-1914-1958::c4'],      // the Farhud
   ['modern-near-east-1900-1945::l2', 'egypt-1900-1952::b6'],      // the Jewish and foreign communities
+  ['modern-near-east-1945-1990::p1', 'egypt-1952-today::k2'],      // Gamal Abdel Nasser
+  ['modern-near-east-1945-1990::p1', 'egypt-1952-today::xc1'],      // non-alignment and the Soviet alliance
+  ['modern-near-east-1945-1990::p2', 'egypt-1952-today::k3'],      // Anwar Sadat
+  ['modern-near-east-1945-1990::p2', 'israel-1948-today::p4'],      // peace with Egypt
+  ['modern-near-east-1945-1990::p3', 'syria-1946-today::p2'],      // Hafez al-Assad’s long rule
+  ['modern-near-east-1945-1990::p3', 'syria-1946-today::pb2'],      // the Corrective Movement
+  ['modern-near-east-1945-1990::p4', 'iraq-1958-1979::k5'],      // Saddam Hussein’s rise
+  ['modern-near-east-1945-1990::p4', 'iraq-1979-2003::k1'],      // Saddam absolute
+  ['modern-near-east-1945-1990::p5', 'pahlavi-1925-1979::p2'],      // Mohammad Reza Shah
+  ['modern-near-east-1945-1990::p5', 'pahlavi-1925-1979::p4'],      // absolute monarchy and its collapse
+  ['modern-near-east-1945-1990::p6', 'iran-1979-today::p1'],      // Khomeini and the founding of the Islamic Republic
+  ['modern-near-east-1945-1990::p6', 'pahlavi-1925-1979::b1'],      // Khomeini’s opposition and exile
+  ['modern-near-east-1945-1990::p7', 'saudi-1902-today::k3'],      // King Faisal
+  ['modern-near-east-1945-1990::p8', 'israel-1948-today::p1'],      // independence declared
+  ['modern-near-east-1945-1990::p8', 'israel-1948-today::p3'],      // the realignment of 1977
+  ['modern-near-east-1945-1990::p9', 'palestine-1948-today::p2'],      // the PLO’s founding and Arafat’s leadership
+  ['modern-near-east-1945-1990::p9', 'palestine-1948-today::p3'],      // recognition at Rabat
+  ['modern-near-east-1945-1990::c1', 'israel-1948-today::c1'],      // the 1948 war
+  ['modern-near-east-1945-1990::c1', 'palestine-1948-today::c1'],      // the Nakba
+  ['modern-near-east-1945-1990::c2', 'egypt-1952-today::c1'],      // the Suez crisis
+  ['modern-near-east-1945-1990::c3', 'israel-1948-today::c2'],      // the Six-Day War
+  ['modern-near-east-1945-1990::c3', 'egypt-1952-today::c3'],      // the Six-Day War and the loss of Sinai
+  ['modern-near-east-1945-1990::c3', 'israel-1948-today::p2'],      // the territorial consequences of the war
+  ['modern-near-east-1945-1990::c4', 'israel-1948-today::c3'],      // the Yom Kippur War
+  ['modern-near-east-1945-1990::c4', 'egypt-1952-today::c5'],      // the October War
+  ['modern-near-east-1945-1990::c5', 'lebanon-1943-today::c1'],      // the civil war’s outbreak
+  ['modern-near-east-1945-1990::c5', 'lebanon-1943-today::o1'],      // the sectarian system
+  ['modern-near-east-1945-1990::c6', 'iraq-1979-2003::k2'],      // the Iran–Iraq War
+  ['modern-near-east-1945-1990::c6', 'iran-1979-today::c2'],      // the Iran–Iraq War
+  ['modern-near-east-1945-1990::c7', 'yemen-1900-today::c3'],      // the civil war and Egypt’s intervention
+  ['modern-near-east-1945-1990::c7', 'egypt-1952-today::c2'],      // the Yemen intervention
+  ['modern-near-east-1945-1990::c8', 'lebanon-1943-today::c2'],      // the Israeli invasion and Sabra and Shatila
+  ['modern-near-east-1945-1990::c9', 'palestine-1948-today::c2'],      // the First Intifada
+  ['modern-near-east-1945-1990::c9', 'israel-1948-today::c4'],      // the First Intifada
+  ['modern-near-east-1945-1990::c10', 'pahlavi-1925-1979::c4'],      // the Islamic Revolution
+  ['modern-near-east-1945-1990::c11', 'iraq-1914-1958::k8'],      // the 14 July revolution
+  ['modern-near-east-1945-1990::c11', 'iraq-1958-1979::k1'],      // Qasim and the sole leader
+  ['modern-near-east-1945-1990::c11', 'iraq-1958-1979::k4'],      // the 1968 coup and the Ba’th
+  ['modern-near-east-1945-1990::c12', 'turkey-1923-1980::c7'],      // the coup of 27 May 1960
+  ['modern-near-east-1945-1990::c12', 'turkey-1923-1980::c9'],      // the memorandum of 12 March 1971
+  ['modern-near-east-1945-1990::c12', 'turkey-1980-today::c1'],      // the coup of 12 September 1980
+  ['modern-near-east-1945-1990::c13', 'syria-1946-today::c1'],      // the Hama massacre
+  ['modern-near-east-1945-1990::c13', 'iraq-1979-2003::c2'],      // the Anfal and Halabja
+  ['modern-near-east-1945-1990::o2', 'israel-1948-today::c2'],      // the war that produced the resolution
+  ['modern-near-east-1945-1990::o3', 'egypt-1952-today::xc2'],      // Camp David and the 1979 treaty
+  ['modern-near-east-1945-1990::o3', 'israel-1948-today::p4'],      // peace with Egypt
+  ['modern-near-east-1945-1990::o4', 'lebanon-1943-today::p3'],      // the Taif Agreement revises the system
+  ['modern-near-east-1945-1990::o5', 'iran-1979-today::o1'],      // the constitution and the guardianship of the jurist
+  ['modern-near-east-1945-1990::o6', 'turkey-1923-1980::o11'],      // the constitution of 1961
+  ['modern-near-east-1945-1990::o6', 'turkey-1980-today::o1'],      // the constitution of 1982
+  ['modern-near-east-1945-1990::b1', 'egypt-1952-today::b2'],      // the Brotherhood from the gallows to the dock
+  ['modern-near-east-1945-1990::b1', 'egypt-1952-today::t3'],      // Sayyid Qutb’s Milestones
+  ['modern-near-east-1945-1990::b2', 'pahlavi-1925-1979::x2'],      // Khomeini’s exile network in Najaf and Paris
+  ['modern-near-east-1945-1990::b4', 'saudi-1902-today::c6'],      // the seizure of the Grand Mosque
+  ['modern-near-east-1945-1990::b5', 'lebanon-1943-today::c3'],      // the rise of Hezbollah from the Shia movement
+  ['modern-near-east-1945-1990::e1', 'egypt-1952-today::x3'],      // Umm Kulthum
+  ['modern-near-east-1945-1990::e2', 'egypt-1952-today::x1'],      // Naguib Mahfouz and the Nobel Prize
+  ['modern-near-east-1945-1990::e3', 'pahlavi-1925-1979::e1'],      // Iranian New Wave cinema
+  ['modern-near-east-1945-1990::e4', 'palestine-1948-today::e1'],      // Mahmoud Darwish
+  ['modern-near-east-1945-1990::t1', 'egypt-1952-today::t1'],      // Arab nationalism and the disillusion of 1967
+  ['modern-near-east-1945-1990::t2', 'pahlavi-1925-1979::t1'],      // Al-e Ahmad’s Gharbzadegi
+  ['modern-near-east-1945-1990::t2', 'pahlavi-1925-1979::t2'],      // Shariati’s revolutionary Islam
+  ['modern-near-east-1945-1990::ec1', 'saudi-1902-today::ec3'],      // the oil weapon and the price shocks
+  ['modern-near-east-1945-1990::ec1', 'iraq-1958-1979::xc2'],      // Iraq, OPEC and the oil weapon
+  ['modern-near-east-1945-1990::ec2', 'egypt-1952-today::e1'],      // agrarian reform
+  ['modern-near-east-1945-1990::ec2', 'pahlavi-1925-1979::o2'],      // the White Revolution’s land reform
+  ['modern-near-east-1945-1990::ec3', 'egypt-1952-today::e4'],      // Sadat’s infitah
+  ['modern-near-east-1945-1990::ec3', 'egypt-1952-today::c6'],      // the Bread Intifada
+  ['modern-near-east-1945-1990::ec4', 'pahlavi-1925-1979::p3'],      // Mosaddegh and nationalisation
+  ['modern-near-east-1945-1990::ec4', 'pahlavi-1925-1979::c2'],      // Operation Ajax
+  ['modern-near-east-1945-1990::te1', 'egypt-1952-today::g1'],      // building the Aswan High Dam
+  ['modern-near-east-1945-1990::te2', 'iran-1979-today::tc1'],      // the nuclear programme
+  ['modern-near-east-1945-1990::x1', 'egypt-1952-today::xc3'],      // the alliance with the United States
+  ['modern-near-east-1945-1990::x3', 'egypt-1952-today::xc2'],      // Camp David and the 1979 treaty
+  ['modern-near-east-1945-1990::x4', 'palestine-1948-today::x1'],      // UNRWA and refugee registration
+  ['modern-near-east-1945-1990::w1', 'egypt-1952-today::w1'],      // the population surge
+  ['modern-near-east-1945-1990::w1', 'egypt-1952-today::w2'],      // Cairo the megacity
+  ['modern-near-east-1945-1990::l1', 'pahlavi-1925-1979::l1'],      // the forced veil and women’s suffrage
+  ['modern-near-east-1945-1990::l1', 'iran-1979-today::l1'],      // the mandatory hijab
+  ['modern-near-east-1945-1990::l2', 'israel-1948-today::l1'],      // a society built through successive waves of immigration
+  ['modern-near-east-1945-1990::l3', 'palestine-1948-today::l1'],      // refugee camp life
+  ['modern-near-east-1945-1990::l4', 'iraq-1979-2003::k7'],      // the Kurdish safe haven
+  ['modern-near-east-1945-1990::l4', 'iraq-1958-1979::k7'],      // the Kurdish movement
+  ['modern-near-east-1945-1990::p1', 'modern-near-east-1900-1945::p5'],      // Egypt before the revolution of 1952
+  ['modern-near-east-1945-1990::c10', 'modern-near-east-1900-1945::p2'],      // Reza Shah and the Pahlavi state
+  ['modern-near-east-1945-1990::c1', 'modern-near-east-1900-1945::c5'],      // the Palestine mandate’s disturbances
+  ['modern-near-east-1945-1990::b3', 'modern-near-east-1900-1945::l2'],      // the Jews of Iraq
+  ['modern-near-east-1945-1990::c5', 'modern-near-east-1900-1945::p6'],      // the French mandate and the Lebanese system
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
