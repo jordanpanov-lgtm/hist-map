@@ -263,5 +263,6 @@ const MODULES = [
   { id:"byzantine-empire-632-867", file:"modules/byzantine-empire-632-867.json", label:"The Byzantine Empire 632–867", sub:"The Loss of the East, the Siege Emperors, Iconoclasm and the Recovery under the Amorians", region:"Europe", also:["Near East"], period:"Medieval" },
   { id:"byzantine-empire-867-1204", file:"modules/byzantine-empire-867-1204.json", label:"The Byzantine Empire 867–1204", sub:"The Macedonian Recovery, Basil the Bulgar-Slayer, Manzikert and the Komnenian Restoration, to the Fourth Crusade", region:"Europe", also:["Near East"], period:"Medieval" },
   { id:"byzantine-empire-1204-1453", file:"modules/byzantine-empire-1204-1453.json", label:"The Byzantine Empire 1204–1453", sub:"The Latin Conquest and the Successor States, the Palaiologan Restoration, Hesychasm and the Last Civil Wars, to the Fall of Constantinople", region:"Europe", also:["Near East"], period:"Medieval" },
+  { id:"great-seljuk-empire-1037-1194", file:"modules/great-seljuk-empire-1037-1194.json", label:"The Great Seljuk Empire 1037–1194", sub:"Tughril to Sanjar: Turkmen Conquest, the Sunni Sultanate at Baghdad, the Nizamiyya, the Assassins and the Collapse after Qatwan", region:"Near East", period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

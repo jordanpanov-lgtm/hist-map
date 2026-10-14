@@ -2353,6 +2353,50 @@ const SELECTED_PAIRS = [
   ['byzantine-empire-1204-1453::c1', 'byzantine-empire-867-1204::c12'],      // the revolt of Asen and Peter and the second Bulgarian empire
   ['byzantine-empire-1204-1453::ec1', 'ottoman-empire-1299-1517::x1'],      // the Venetian treaty and Galata
   ['byzantine-empire-1204-1453::p6', 'ottoman-empire-1299-1517::p4'],      // Manuel II and Bayezid I
+  ['great-seljuk-empire-1037-1194::p1', 'iran-1055-1219::p1'],      // Tughril Beg — founding the sultanate
+  ['great-seljuk-empire-1037-1194::p2', 'iran-1055-1219::p2'],      // Alp Arslan — Manzikert
+  ['great-seljuk-empire-1037-1194::p3', 'iran-1055-1219::p3'],      // Malik-Shah I and Nizam al-Mulk
+  ['great-seljuk-empire-1037-1194::p4', 'iran-1055-1219::p3'],      // Nizam al-Mulk and Malik-Shah
+  ['great-seljuk-empire-1037-1194::p5', 'iran-1055-1219::p4'],      // the fragmentation after Malik-Shah
+  ['great-seljuk-empire-1037-1194::p5', 'iran-1055-1219::c4'],      // the Seljuk succession wars
+  ['great-seljuk-empire-1037-1194::p6', 'iran-1055-1219::p5'],      // Sanjar — the last great Seljuk
+  ['great-seljuk-empire-1037-1194::p7', 'iran-1055-1219::p6'],      // the Khwarazmian rise
+  ['great-seljuk-empire-1037-1194::c1', 'iran-821-1055::p4'],      // Mahmud of Ghazna and the Ghaznavids
+  ['great-seljuk-empire-1037-1194::c2', 'iran-1055-1219::c1'],      // Tughril Beg enters Baghdad
+  ['great-seljuk-empire-1037-1194::c2', 'caliphate-945-1258::k9'],      // Tughril Beg — the Seljuks take Baghdad
+  ['great-seljuk-empire-1037-1194::c2', 'iraq-945-1258::k2'],      // the Seljuk sultans take Baghdad
+  ['great-seljuk-empire-1037-1194::c2', 'iran-821-1055::p5'],      // the Buyid amirate
+  ['great-seljuk-empire-1037-1194::c3', 'iran-1055-1219::c2'],      // the battle of Manzikert
+  ['great-seljuk-empire-1037-1194::c3', 'byzantine-anatolia-867-1071::c9'],      // Manzikert
+  ['great-seljuk-empire-1037-1194::c3', 'byzantine-empire-867-1204::c6'],      // Manzikert from the Byzantine side
+  ['great-seljuk-empire-1037-1194::c8', 'iran-1055-1219::c3'],      // the assassination of Nizam al-Mulk
+  ['great-seljuk-empire-1037-1194::c6', 'iran-1055-1219::c6'],      // the battle of Qatwan
+  ['great-seljuk-empire-1037-1194::c7', 'iran-1055-1219::c5'],      // the Ghuzz revolt and Sanjar’s captivity
+  ['great-seljuk-empire-1037-1194::c5', 'iran-1055-1219::b1'],      // the Nizari Ismaili state at Alamut
+  ['great-seljuk-empire-1037-1194::c9', 'crusader-states-1099-1291::c1'],      // the First Crusade and the crusader states
+  ['great-seljuk-empire-1037-1194::c4', 'levant-750-1099::p6'],      // the Fatimid reconquest and then the crusaders
+  ['great-seljuk-empire-1037-1194::o1', 'caliphate-945-1258::o2'],      // the sultanate and Nizam al-Mulk’s manual of rule
+  ['great-seljuk-empire-1037-1194::o2', 'iran-1055-1219::ec2'],      // the iqta land-grant system
+  ['great-seljuk-empire-1037-1194::o3', 'iran-1055-1219::o1'],      // the Nizamiyya madrasas
+  ['great-seljuk-empire-1037-1194::o3', 'iraq-945-1258::b3'],      // al-Ghazali at the Nizamiyya
+  ['great-seljuk-empire-1037-1194::o4', 'iran-1055-1219::t2'],      // Nizam al-Mulk’s Siyasatnama
+  ['great-seljuk-empire-1037-1194::o5', 'iran-1055-1219::o2'],      // the atabeg system
+  ['great-seljuk-empire-1037-1194::b1', 'iran-1055-1219::b2'],      // the Sunni revival under Seljuk patronage
+  ['great-seljuk-empire-1037-1194::b1', 'iraq-945-1258::b2'],      // the Seljuk restoration of Sunnism
+  ['great-seljuk-empire-1037-1194::b3', 'caliphate-945-1258::b2'],      // al-Ghazali — law, theology and Sufism reconciled
+  ['great-seljuk-empire-1037-1194::b3', 'caliphate-945-1258::t3'],      // al-Ghazali against the philosophers
+  ['great-seljuk-empire-1037-1194::b4', 'iran-1055-1219::b3'],      // Abdullah Ansari of Herat
+  ['great-seljuk-empire-1037-1194::e1', 'iran-1055-1219::e1'],      // the Great Mosque of Isfahan’s dome chambers
+  ['great-seljuk-empire-1037-1194::e1', 'caliphate-945-1258::e1'],      // the four-iwan plan and the Seljuk dome
+  ['great-seljuk-empire-1037-1194::e2', 'iran-1055-1219::e3'],      // Sanjar’s mausoleum at Merv
+  ['great-seljuk-empire-1037-1194::e3', 'iran-1055-1219::e5'],      // Sana’i and Attar: Persian Sufi poetry
+  ['great-seljuk-empire-1037-1194::t1', 'iran-1055-1219::t1'],      // Omar Khayyam and the Jalali calendar
+  ['great-seljuk-empire-1037-1194::te1', 'iran-1055-1219::tc1'],      // the caravanserai network
+  ['great-seljuk-empire-1037-1194::ec2', 'iran-1055-1219::ec1'],      // a unified plateau’s commercial peak
+  ['great-seljuk-empire-1037-1194::x1', 'seljuks-of-rum-1071-1308::p1'],      // Suleyman ibn Qutalmish at Nicaea
+  ['great-seljuk-empire-1037-1194::w1', 'iran-1055-1219::x1'],      // Turkic settlement pours into Anatolia
+  ['great-seljuk-empire-1037-1194::x3', 'caucasus-1064-1243::c2'],      // Georgia and the battle of Didgori
+  ['great-seljuk-empire-1037-1194::l1', 'iran-821-1055::l1'],      // royal women at the Samanid and Buyid courts
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
