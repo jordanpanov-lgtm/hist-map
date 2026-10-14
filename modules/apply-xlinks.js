@@ -2501,6 +2501,63 @@ const SELECTED_PAIRS = [
   ['roman-parthian-world-63bc-224ad::t2', 'parthia-148bc-224::t3'],      // Josephus on the Parthian Jewish community
   ['roman-parthian-world-63bc-224ad::p8', 'herod-judea-63bc-135ce::p4'],      // Herod, King of the Jews
   ['roman-parthian-world-63bc-224ad::w1', 'mesopotamia-141bc-224::xc1'],      // the land between Rome and Parthia
+  ['roman-sasanian-world-224-632::p1', 'sassanid-224-484::k1'],      // Ardashir I
+  ['roman-sasanian-world-224-632::p1', 'mesopotamia-224-637::k1'],      // Ardashir I and the making of the Sawad
+  ['roman-sasanian-world-224-632::p2', 'sassanid-224-484::k2'],      // Shapur I
+  ['roman-sasanian-world-224-632::p2', 'mesopotamia-224-637::k2'],      // Shapur I and the captured emperors
+  ['roman-sasanian-world-224-632::p3', 'sassanid-224-484::k6'],      // Narseh
+  ['roman-sasanian-world-224-632::p4', 'sassanid-224-484::k8'],      // Shapur II
+  ['roman-sasanian-world-224-632::p4', 'mesopotamia-224-637::k3'],      // Shapur II — the long war and the first persecution
+  ['roman-sasanian-world-224-632::c1', 'sassanid-224-484::c2'],      // Shapur I captures emperor Valerian
+  ['roman-sasanian-world-224-632::e1', 'sassanid-224-484::a2'],      // Shapur I’s victory relief — Valerian captured
+  ['roman-sasanian-world-224-632::c2', 'palmyrene-100bc-273ce::k3'],      // Odaenathus II — defeats Shapur I
+  ['roman-sasanian-world-224-632::c2', 'palmyrene-100bc-273ce::k4'],      // Zenobia — regent, conqueror, queen of the East
+  ['roman-sasanian-world-224-632::c2', 'palmyrene-100bc-273ce::c4'],      // the battle of Immae
+  ['roman-sasanian-world-224-632::c3', 'mesopotamia-224-637::c2'],      // the Roman counterstroke and the peace of 298
+  ['roman-sasanian-world-224-632::c4', 'sassanid-224-484::c5'],      // the defeat of Julian’s invasion
+  ['roman-sasanian-world-224-632::c4', 'mesopotamia-224-637::c3'],      // Julian dies before Ctesiphon
+  ['roman-sasanian-world-224-632::p11', 'sassanid-224-484::c8'],      // the partition of Armenia between Rome and Persia
+  ['roman-sasanian-world-224-632::p11', 'sassanid-224-484::c6'],      // the battle of Avarayr
+  ['roman-sasanian-world-224-632::p11', 'caucasus-428-645::p1'],      // Armenia between the empires
+  ['roman-sasanian-world-224-632::c6', 'sassanid-484-651::c1'],      // Khosrow I sacks Antioch
+  ['roman-sasanian-world-224-632::c6', 'mesopotamia-224-637::c4'],      // the sack of Antioch and the deportation
+  ['roman-sasanian-world-224-632::c9', 'sassanid-484-651::c4'],      // the Persian siege of Constantinople
+  ['roman-sasanian-world-224-632::c10', 'sassanid-484-651::c5'],      // the battle of Nineveh
+  ['roman-sasanian-world-224-632::c10', 'mesopotamia-224-637::c5'],      // Heraclius in the Sawad
+  ['roman-sasanian-world-224-632::o3', 'sassanid-484-651::o3'],      // the Perpetual Peace of 532
+  ['roman-sasanian-world-224-632::p6', 'sassanid-484-651::k4'],      // Kavad I (second reign)
+  ['roman-sasanian-world-224-632::p8', 'sassanid-484-651::k9'],      // Kavad II (Sheroe)
+  ['roman-sasanian-world-224-632::p8', 'mesopotamia-224-637::k7'],      // Khosrow II Parviz and the last great war
+  ['roman-sasanian-world-224-632::p6', 'mesopotamia-224-637::k6'],      // Khosrow I Anushirvan — the great reforms
+  ['roman-sasanian-world-224-632::b1', 'sassanid-224-484::o2'],      // Kartir establishes the Zoroastrian state church
+  ['roman-sasanian-world-224-632::b1', 'sassanid-224-484::r1'],      // Kartir’s inscriptions
+  ['roman-sasanian-world-224-632::b2', 'sassanid-224-484::r2'],      // the execution of Mani
+  ['roman-sasanian-world-224-632::b2', 'mesopotamia-224-637::b5'],      // Mani and the religion of light
+  ['roman-sasanian-world-224-632::b3', 'sassanid-224-484::r3'],      // Shapur II’s persecution of Christians
+  ['roman-sasanian-world-224-632::b3', 'mesopotamia-224-637::b1'],      // a church organised under the King of Kings
+  ['roman-sasanian-world-224-632::b4', 'mesopotamia-224-637::b2'],      // Sura and Pumbedita and the making of the Talmud
+  ['roman-sasanian-world-224-632::b5', 'sassanid-484-651::r1'],      // the Mazdakite movement and its suppression
+  ['roman-sasanian-world-224-632::b5', 'mesopotamia-224-637::b4'],      // Mazdak and the sharing of wealth
+  ['roman-sasanian-world-224-632::e2', 'sassanid-484-651::a5'],      // Taq Kasra
+  ['roman-sasanian-world-224-632::e2', 'mesopotamia-224-637::x5'],      // the great vault of Ctesiphon
+  ['roman-sasanian-world-224-632::t1', 'sassanid-224-484::t3'],      // Gundeshapur — the foundation of the first hospital
+  ['roman-sasanian-world-224-632::t1', 'sassanid-484-651::t2'],      // Academy of Gundeshapur
+  ['roman-sasanian-world-224-632::t1', 'mesopotamia-224-637::t1'],      // Gondeshapur
+  ['roman-sasanian-world-224-632::t2', 'mesopotamia-224-637::x1'],      // the schools of Edessa and Nisibis
+  ['roman-sasanian-world-224-632::t4', 'mesopotamia-224-637::x4'],      // the Book of Kings
+  ['roman-sasanian-world-224-632::ec1', 'sassanid-484-651::ex2'],      // the silk monopoly broken
+  ['roman-sasanian-world-224-632::ec1', 'late-roman-anatolia-330-632::x1'],      // the silkworm eggs
+  ['roman-sasanian-world-224-632::w1', 'sassanid-484-651::s3'],      // the Justinianic plague reaches Persia
+  ['roman-sasanian-world-224-632::x3', 'sassanid-484-651::w1'],      // the Sasanian conquest of Yemen
+  ['roman-sasanian-world-224-632::p10', 'lakhmid-268-602::k10'],      // al-Mundhir III
+  ['roman-sasanian-world-224-632::p10', 'lakhmid-268-602::c5'],      // the abolition of the Lakhmid kingdom
+  ['roman-sasanian-world-224-632::l1', 'sassanid-484-651::lv1'],      // Purandokht and Azarmidokht
+  ['roman-sasanian-world-224-632::l2', 'sassanid-224-484::o4'],      // Shapur I founds cities with Roman prisoner labour
+  ['roman-sasanian-world-224-632::w3', 'mesopotamia-224-637::l4'],      // the deported Antiochene
+  ['roman-sasanian-world-224-632::c8', 'roman-byzantine-levant-135-638::p6'],      // Persian conquest and Byzantine restoration
+  ['roman-sasanian-world-224-632::c8', 'egypt-300-641::k14'],      // the Persian occupation of Egypt
+  ['roman-sasanian-world-224-632::p9', 'late-roman-anatolia-330-632::p7'],      // Heraclius
+  ['roman-sasanian-world-224-632::p9', 'caliphate-632-750::k1'],      // Abu Bakr and the Ridda
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
