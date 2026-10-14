@@ -2047,6 +2047,38 @@ const SELECTED_PAIRS = [
   ['hellenistic-age-323bc-30bc::c9', 'roman-anatolia-133bc-330::c4'],      // Lucullus and Pompey against Mithridates
   ['hellenistic-age-323bc-30bc::p7', 'hellenistic-caucasus-330bc-1bc::c1'],      // Antiochus III in Armenia
   ['hellenistic-age-323bc-30bc::c9', 'hellenistic-caucasus-330bc-1bc::c4'],      // Lucullus at Tigranocerta
+  ['ottoman-empire-1299-1517::p1', 'anatolian-beyliks-1308-1500::p9'],      // Osman and Orhan in the age of the beyliks
+  ['ottoman-empire-1299-1517::p3', 'anatolian-beyliks-1308-1500::p10'],      // Murad I and Bayezid I and the absorption of the emirates
+  ['ottoman-empire-1299-1517::p5', 'anatolian-beyliks-1308-1500::p11'],      // the interregnum and Murad II
+  ['ottoman-empire-1299-1517::c3', 'anatolian-beyliks-1308-1500::c4'],      // the battle of Ankara
+  ['ottoman-empire-1299-1517::c3', 'iran-1335-1501::c3'],      // Timur at Ankara and Delhi
+  ['ottoman-empire-1299-1517::b2', 'anatolian-beyliks-1308-1500::c8'],      // the revolt of Sheikh Bedreddin
+  ['ottoman-empire-1299-1517::b2', 'anatolian-beyliks-1308-1500::b2'],      // Bedreddin’s Varidat
+  ['ottoman-empire-1299-1517::e1', 'anatolian-beyliks-1308-1500::e1'],      // the mosques of Bursa
+  ['ottoman-empire-1299-1517::e5', 'anatolian-beyliks-1308-1500::e4'],      // Ahmedi’s Iskendername
+  ['ottoman-empire-1299-1517::ec1', 'anatolian-beyliks-1308-1500::ec3'],      // Bursa and the silk road
+  ['ottoman-empire-1299-1517::w1', 'anatolian-beyliks-1308-1500::w2'],      // the Black Death in Anatolia
+  ['ottoman-empire-1299-1517::w3', 'anatolian-beyliks-1308-1500::w1'],      // the fragments of the Seljuk and Ilkhanid state
+  ['ottoman-empire-1299-1517::l2', 'anatolian-beyliks-1308-1500::l3'],      // Mara Branković
+  ['ottoman-empire-1299-1517::t3', 'anatolian-beyliks-1308-1500::t1'],      // the Ottoman origin legend
+  ['ottoman-empire-1299-1517::o5', 'anatolian-beyliks-1308-1500::c5'],      // the wars with Karaman
+  ['ottoman-empire-1299-1517::x4', 'iran-1335-1501::c5'],      // Otluk Beli
+  ['ottoman-empire-1299-1517::x4', 'iran-1335-1501::p6'],      // Uzun Hasan and the Aq Qoyunlu
+  ['ottoman-empire-1299-1517::c9', 'safavid-1501-1722::c1'],      // the battle of Chaldiran
+  ['ottoman-empire-1299-1517::c9', 'ottoman-anatolia-1500-1800::c2'],      // Çaldıran and the eastern frontier
+  ['ottoman-empire-1299-1517::b5', 'ottoman-anatolia-1500-1800::c1'],      // Şahkulu’s rebellion
+  ['ottoman-empire-1299-1517::b5', 'ottoman-anatolia-1500-1800::c3'],      // Selim’s suppression of the Kızılbaş
+  ['ottoman-empire-1299-1517::p9', 'ottoman-anatolia-1500-1800::p1'],      // Selim I and the conquest of the East
+  ['ottoman-empire-1299-1517::c10', 'mamluks-1250-1517::c11'],      // Marj Dabiq
+  ['ottoman-empire-1299-1517::c10', 'mamluks-1250-1517::c12'],      // al-Raydaniyya and the fall of Cairo
+  ['ottoman-empire-1299-1517::c10', 'mamluks-1250-1517::k14'],      // al-Ghawri, Tuman Bay and the Ottoman conquest
+  ['ottoman-empire-1299-1517::c11', 'mamluks-1250-1517::c9'],      // the Taurus frontier war
+  ['ottoman-empire-1299-1517::c11', 'anatolian-beyliks-1308-1500::c7'],      // the Ottoman–Mamluk war over Cilicia
+  ['ottoman-empire-1299-1517::c11', 'cilician-armenia-1080-1375::c8'],      // the Mamluk conquest of Cilicia
+  ['ottoman-empire-1299-1517::te4', 'mamluks-1250-1517::tc1'],      // gunpowder and the Mamluk resistance to firearms
+  ['ottoman-empire-1299-1517::c5', 'trebizond-1204-1461::w4'],      // the last Greek state after 1453
+  ['ottoman-empire-1299-1517::p7', 'trebizond-1204-1461::c6'],      // the fall of Trebizond
+  ['ottoman-empire-1299-1517::c10', 'mamluks-1250-1517::w6'],      // the end of medieval Egypt
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

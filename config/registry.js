@@ -254,5 +254,6 @@ const MODULES = [
   { id:"azerbaijan-1991-today", file:"modules/azerbaijan-1991-today.json", label:"Azerbaijan 1991–today", sub:"Independence and the First War, the Aliyev Presidencies, the Oil and Gas State, the Victory of 2020 and the Peace Process", region:"Caucasus", period:"Modern" },
   // ── NEAR EAST SYSTEM FOLIOS (region-wide, cross-regional; `also` cross-lists a second region) ──
   { id:"hellenistic-age-323bc-30bc", file:"modules/hellenistic-age-323bc-30bc.json", label:"The Hellenistic Age 323–30 BC", sub:"The Successors, the Five-Power System, Greek Cities from the Nile to the Oxus, and the Roman Absorption", region:"Near East", also:["Europe"], period:"Late Antique" },
+  { id:"ottoman-empire-1299-1517", file:"modules/ottoman-empire-1299-1517.json", label:"The Ottoman Empire 1299–1517", sub:"From Frontier Principality to Imperial Capital: Bursa, Edirne, Constantinople and the Conquest of the Arab Lands", region:"Near East", also:["Europe"], period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
