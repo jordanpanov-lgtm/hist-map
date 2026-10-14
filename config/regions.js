@@ -8,6 +8,8 @@
 //   - Spans a sub-region   → sub-region ID e.g. region:"West Asia"
 //   - Spans a full region  → region ID     e.g. region:"Near East"
 //   - Cross-regional       → core region ID (Roman Empire → "Europe")
+//   - Optional registry field  also:["Near East"]  cross-lists a folio in a second region's row
+//     (any tier). Display is symmetric; the home `region` only decides where it is filed.
 
 const TAXONOMY = [
   { id:'Europe', label:'Europe', subs:[

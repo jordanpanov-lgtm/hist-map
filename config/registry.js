@@ -252,5 +252,7 @@ const MODULES = [
   { id:"armenia-1991-today", file:"modules/armenia-1991-today.json", label:"Armenia 1991–today", sub:"Independence, the Karabakh War, the Blockade Years, the Velvet Revolution, the Wars of 2020 and 2023, and the Peace Process", region:"Caucasus", period:"Modern" },
   { id:"georgia-1991-today", file:"modules/georgia-1991-today.json", label:"Georgia 1991–today", sub:"Gamsakhurdia and the Civil War, Shevardnadze, the Rose Revolution, the War of 2008, the Georgian Dream and the European Question", region:"Caucasus", period:"Modern" },
   { id:"azerbaijan-1991-today", file:"modules/azerbaijan-1991-today.json", label:"Azerbaijan 1991–today", sub:"Independence and the First War, the Aliyev Presidencies, the Oil and Gas State, the Victory of 2020 and the Peace Process", region:"Caucasus", period:"Modern" },
+  // ── NEAR EAST SYSTEM FOLIOS (region-wide, cross-regional; `also` cross-lists a second region) ──
+  { id:"hellenistic-age-323bc-30bc", file:"modules/hellenistic-age-323bc-30bc.json", label:"The Hellenistic Age 323–30 BC", sub:"The Successors, the Five-Power System, Greek Cities from the Nile to the Oxus, and the Roman Absorption", region:"Near East", also:["Europe"], period:"Late Antique" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

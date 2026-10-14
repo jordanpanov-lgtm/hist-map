@@ -278,6 +278,11 @@ Use the **top-level region ID** (e.g. `"Europe"`, `"Near East"`) when the entity
 - Mongol Empire → `"Far East"` (Mongolia is the origin)
 - Islamic Caliphate → `"Near East"` (Arabia/Iraq is the core)
 
+**Cross-listing.** When an entity genuinely belongs to two top-level regions, keep one home `region` and add the
+registry field `also:["<region id>"]` (any tier). The picker then shows the folio in both regions' rows, with a
+neutral "A ↔ B" tag, and counts it in both; the home `region` only decides where it is filed. `also` lives in
+`config/registry.js` only (not in the folio JSON); `validate.js` checks the ids.
+
 ### Sub-region IDs and their coverage
 
 **Europe** (`"Europe"`)

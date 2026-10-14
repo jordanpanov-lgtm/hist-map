@@ -1990,6 +1990,63 @@ const SELECTED_PAIRS = [
   ['azerbaijan-1991-today::w1', 'caucasus-1953-1991::w2'],      // the refugees of 1988–1991 and the displaced of the wars
   ['azerbaijan-1991-today::b1', 'caucasus-1953-1991::b2'],      // the Spiritual Board of the Soviet years and the Caucasus Muslims Office
   ['azerbaijan-1991-today::e1', 'caucasus-1953-1991::e3'],      // mugham in the Soviet years and after
+  ['hellenistic-age-323bc-30bc::p2', 'egypt-332bc-30bc::k3'],      // Ptolemy I, founder of the Egyptian kingdom
+  ['hellenistic-age-323bc-30bc::p3', 'egypt-332bc-30bc::k4'],      // Ptolemy II and the golden age of Egypt
+  ['hellenistic-age-323bc-30bc::p12', 'egypt-332bc-30bc::k12'],      // Cleopatra VII and the end of the dynasty
+  ['hellenistic-age-323bc-30bc::c4', 'egypt-332bc-30bc::c3'],      // the Syrian wars from the Egyptian side
+  ['hellenistic-age-323bc-30bc::c5', 'egypt-332bc-30bc::c4'],      // the battle of Raphia
+  ['hellenistic-age-323bc-30bc::c10', 'egypt-332bc-30bc::c5'],      // the great revolt of the Thebaid
+  ['hellenistic-age-323bc-30bc::c7', 'egypt-332bc-30bc::c7'],      // the Day of Eleusis
+  ['hellenistic-age-323bc-30bc::c11', 'egypt-332bc-30bc::c9'],      // Actium and the annexation of Egypt
+  ['hellenistic-age-323bc-30bc::c11', 'egypt-30bc-300ad::k1'],      // Augustus annexes Egypt
+  ['hellenistic-age-323bc-30bc::o2', 'egypt-332bc-30bc::o2'],      // the Ptolemaic fiscal machine
+  ['hellenistic-age-323bc-30bc::o4', 'egypt-332bc-30bc::o5'],      // the priestly synods and the Rosetta decree
+  ['hellenistic-age-323bc-30bc::l4', 'egypt-332bc-30bc::o3'],      // the cleruchy and the military settlers
+  ['hellenistic-age-323bc-30bc::l3', 'egypt-332bc-30bc::xc6'],      // Greeks and Egyptians in the chora
+  ['hellenistic-age-323bc-30bc::l1', 'egypt-332bc-30bc::l2'],      // Arsinoe II the deified queen
+  ['hellenistic-age-323bc-30bc::l5', 'egypt-332bc-30bc::b5'],      // the Jews of Egypt and the temple of Onias
+  ['hellenistic-age-323bc-30bc::b4', 'egypt-332bc-30bc::xc3'],      // the Septuagint and Jewish-Greek culture
+  ['hellenistic-age-323bc-30bc::b2', 'egypt-332bc-30bc::b1'],      // Serapis and the cult of the living king
+  ['hellenistic-age-323bc-30bc::e1', 'egypt-332bc-30bc::t1'],      // the Museum and the Library
+  ['hellenistic-age-323bc-30bc::e2', 'egypt-332bc-30bc::x1'],      // Alexandrian poetry
+  ['hellenistic-age-323bc-30bc::te1', 'egypt-332bc-30bc::g1'],      // the Pharos of Alexandria
+  ['hellenistic-age-323bc-30bc::ec1', 'egypt-332bc-30bc::e1'],      // the royal monopoly economy
+  ['hellenistic-age-323bc-30bc::ec4', 'egypt-332bc-30bc::xc1'],      // the opening of the Indian Ocean route
+  ['hellenistic-age-323bc-30bc::x2', 'egypt-332bc-30bc::xc5'],      // Egypt drawn into Rome’s orbit
+  ['hellenistic-age-323bc-30bc::t4', 'egypt-332bc-30bc::t7'],      // Manetho and Egyptian temple learning
+  ['hellenistic-age-323bc-30bc::t2', 'egypt-332bc-30bc::t3'],      // Eratosthenes measures the earth
+  ['hellenistic-age-323bc-30bc::p4', 'seleucid-iran-330bc-148bc::p1'],      // Seleucus I and the eastern satrapies
+  ['hellenistic-age-323bc-30bc::p7', 'seleucid-iran-330bc-148bc::p4'],      // the anabasis of Antiochus III
+  ['hellenistic-age-323bc-30bc::p9', 'seleucid-iran-330bc-148bc::c2'],      // the secession of Bactria
+  ['hellenistic-age-323bc-30bc::p10', 'seleucid-iran-330bc-148bc::c3'],      // Arsaces and the Parthian conquest of Parthia
+  ['hellenistic-age-323bc-30bc::p10', 'parthia-148bc-224::p1'],      // Mithridates I and the Parthian empire
+  ['hellenistic-age-323bc-30bc::e4', 'seleucid-iran-330bc-148bc::e5'],      // Ai Khanoum, a Greek city on the Oxus
+  ['hellenistic-age-323bc-30bc::x1', 'seleucid-iran-330bc-148bc::x1'],      // the treaty of Seleucus and Chandragupta
+  ['hellenistic-age-323bc-30bc::w2', 'seleucid-iran-330bc-148bc::w2'],      // the piecemeal loss of the upper satrapies
+  ['hellenistic-age-323bc-30bc::b1', 'seleucid-iran-330bc-148bc::b1'],      // the cult of Queen Laodice and the Seleucid ruler cult
+  ['hellenistic-age-323bc-30bc::o3', 'mesopotamia-331bc-141bc::o1'],      // the Seleucid era and the Seleucid cities
+  ['hellenistic-age-323bc-30bc::o3', 'seleucid-iran-330bc-148bc::o1'],      // the refoundation policy of Seleucus
+  ['hellenistic-age-323bc-30bc::b3', 'mesopotamia-331bc-141bc::x1'],      // the Cylinder of Antiochus I
+  ['hellenistic-age-323bc-30bc::t4', 'mesopotamia-331bc-141bc::b6'],      // Berossus explains Babylon to the Greeks
+  ['hellenistic-age-323bc-30bc::t3', 'mesopotamia-331bc-141bc::t5'],      // the Babylonian parameters pass to Hipparchus
+  ['hellenistic-age-323bc-30bc::te4', 'mesopotamia-331bc-141bc::g1'],      // the grid plan of Seleucia
+  ['hellenistic-age-323bc-30bc::c8', 'hasmonean-332bc-63bc::p4'],      // Antiochus IV’s persecution
+  ['hellenistic-age-323bc-30bc::c8', 'hasmonean-332bc-63bc::c2'],      // the campaigns of Judah Maccabee
+  ['hellenistic-age-323bc-30bc::p8', 'hellenistic-anatolia-334bc-133bc::p7'],      // Attalus I and the first Attalid kingdom
+  ['hellenistic-age-323bc-30bc::e3', 'hellenistic-anatolia-334bc-133bc::e1'],      // the Great Altar of Pergamon
+  ['hellenistic-age-323bc-30bc::c2', 'hellenistic-anatolia-334bc-133bc::c2'],      // Ipsus
+  ['hellenistic-age-323bc-30bc::c3', 'hellenistic-anatolia-334bc-133bc::c4'],      // the Elephant Victory over the Gauls
+  ['hellenistic-age-323bc-30bc::w1', 'hellenistic-anatolia-334bc-133bc::w2'],      // the Celtic settlement
+  ['hellenistic-age-323bc-30bc::c6', 'hellenistic-anatolia-334bc-133bc::c8'],      // the battle of Magnesia
+  ['hellenistic-age-323bc-30bc::w3', 'hellenistic-anatolia-334bc-133bc::w5'],      // the king’s will and the province of Asia
+  ['hellenistic-age-323bc-30bc::x5', 'hellenistic-anatolia-334bc-133bc::x1'],      // Attalus and Rome
+  ['hellenistic-age-323bc-30bc::ec2', 'hellenistic-anatolia-334bc-133bc::x4'],      // Rhodes as arbiter of the sea
+  ['hellenistic-age-323bc-30bc::c1', 'hellenistic-anatolia-334bc-133bc::w1'],      // the carve-up of Alexander’s empire
+  ['hellenistic-age-323bc-30bc::t3', 'hellenistic-anatolia-334bc-133bc::t2'],      // Hipparchus of Nicaea
+  ['hellenistic-age-323bc-30bc::p11', 'roman-anatolia-133bc-330::p2'],      // Mithridates VI Eupator
+  ['hellenistic-age-323bc-30bc::c9', 'roman-anatolia-133bc-330::c4'],      // Lucullus and Pompey against Mithridates
+  ['hellenistic-age-323bc-30bc::p7', 'hellenistic-caucasus-330bc-1bc::c1'],      // Antiochus III in Armenia
+  ['hellenistic-age-323bc-30bc::c9', 'hellenistic-caucasus-330bc-1bc::c4'],      // Lucullus at Tigranocerta
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

@@ -119,6 +119,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .mc-card:hover{border-color:#2a6a3a;background:#f0f8f0;box-shadow:0 2px 5px rgba(42,106,58,.15)}
 .mc-card.active{border-color:#0e4a22;background:#e0f0e4;box-shadow:inset 0 0 0 1px #0e4a22}
 .mc-title{font-family:'IM Fell English',serif;font-size:11px;color:#0e2a18;line-height:1.3}
+.mc-also{font-size:8px;color:#7a6a3a;font-family:'Courier New',monospace;line-height:1.3;margin-top:1px}
 .mc-sub-hover{font-size:8px;color:#4a7a55;font-family:'Courier New',monospace;line-height:1.4;max-height:0;overflow:hidden;opacity:0;transition:max-height .18s ease,opacity .18s ease;margin-top:0}
 .mc-card:hover .mc-sub-hover{max-height:36px;opacity:1;margin-top:2px}
 .mc-empty{font-size:8px;color:#c0d8c0;font-family:'Courier New',monospace;padding:2px 0;text-align:center}
@@ -784,6 +785,18 @@ function _allZoneIds(region) {
   return ids;
 }
 
+// A folio sits in its home `region` and, optionally, in the rows of its `also` regions (registry field,
+// array of region ids at any tier). Cross-listing is symmetric: every row shows it the same way.
+function _inRegions(m, ids) {
+  return ids.includes(m.region) || (m.also || []).some(r => ids.includes(r));
+}
+function _topLabel(id) {
+  for (const r of TAXONOMY) {
+    if (_allZoneIds(r).includes(id)) return r.label;
+  }
+  return id;
+}
+
 function _subZoneIds(sub) {
   return [sub.id, ...sub.zones.map(z => z.id)];
 }
@@ -795,7 +808,7 @@ function buildMatrix() {
   TAXONOMY.forEach(region => {
     const t1Collapsed = _t1Collapsed[region.id];
     const allIds = _allZoneIds(region);
-    const folioCount = MODULES.filter(m => allIds.includes(m.region)).length;
+    const folioCount = MODULES.filter(m => _inRegions(m, allIds)).length;
 
     // ── Tier 1: Region header ──────────────────────────────────────────────
     const t1tr = document.createElement('tr');
@@ -823,13 +836,13 @@ function buildMatrix() {
     if (t1Collapsed) return;
 
     // Folios assigned directly to the region (cross-regional)
-    _appendFolioRow(tbody, region.label, 'cross', MODULES.filter(m => m.region === region.id));
+    _appendFolioRow(tbody, region.label, 'cross', MODULES.filter(m => _inRegions(m, [region.id])));
 
     // ── Tier 2: Sub-region rows ────────────────────────────────────────────
     region.subs.forEach(sub => {
       const t2Collapsed = _t2Collapsed[sub.id];
       const subIds = _subZoneIds(sub);
-      const subCount = MODULES.filter(m => subIds.includes(m.region)).length;
+      const subCount = MODULES.filter(m => _inRegions(m, subIds)).length;
 
       const t2tr = document.createElement('tr');
       t2tr.className = 'matrix-t2-row';
@@ -847,11 +860,11 @@ function buildMatrix() {
       if (t2Collapsed) return;
 
       // Folios assigned to the sub-region level (span sub-region)
-      _appendFolioRow(tbody, sub.label, 'sub', MODULES.filter(m => m.region === sub.id));
+      _appendFolioRow(tbody, sub.label, 'sub', MODULES.filter(m => _inRegions(m, [sub.id])));
 
       // ── Tier 3: Zone rows ────────────────────────────────────────────────
       sub.zones.forEach(zone => {
-        _appendFolioRow(tbody, zone.label, 'zone', MODULES.filter(m => m.region === zone.id));
+        _appendFolioRow(tbody, zone.label, 'zone', MODULES.filter(m => _inRegions(m, [zone.id])));
       });
     });
   });
@@ -882,7 +895,8 @@ function _appendFolioRow(tbody, label, tier, mods) {
       periodMods.forEach(m => {
         const card = document.createElement('div');
         card.className = 'mc-card' + (MOD && MOD.id === m.id ? ' active' : '');
-        card.innerHTML = `<div class="mc-title">${m.label}</div><div class="mc-sub-hover">${m.sub}</div>`;
+        const alsoTag = m.also && m.also.length ? `<div class="mc-also">${[...new Set([m.region, ...m.also].map(_topLabel))].join(' ↔ ')}</div>` : '';
+        card.innerHTML = `<div class="mc-title">${m.label}</div>${alsoTag}<div class="mc-sub-hover">${m.sub}</div>`;
         card.onclick = () => { closePicker(true); loadModule(m.file); };
         cell.appendChild(card);
       });

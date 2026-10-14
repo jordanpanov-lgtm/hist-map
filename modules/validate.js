@@ -79,6 +79,13 @@ for (const m of MODULES) {
   if (!folios[m.id]) err(m.file, `registered in config/registry.js MODULES but folio not found/parseable`);
   if (!REGION_IDS.has(m.region)) err(m.file, `MODULES registry region "${m.region}" not found at any tier of TAXONOMY`);
   if (!PERIOD_IDS.has(m.period)) err(m.file, `MODULES registry period "${m.period}" not in PERIODS`);
+  if (m.also !== undefined) {
+    if (!Array.isArray(m.also) || m.also.length === 0) err(m.file, 'MODULES registry `also` must be a non-empty array of region ids');
+    else for (const r of m.also) {
+      if (!REGION_IDS.has(r)) err(m.file, `MODULES registry also "${r}" not found at any tier of TAXONOMY`);
+      if (r === m.region) err(m.file, 'MODULES registry also repeats the home region');
+    }
+  }
 }
 for (const folioId of Object.keys(folios)) {
   if (!registeredIds.has(folioId)) warn(folios[folioId].file, `folio id "${folioId}" not registered in config/registry.js MODULES`);
