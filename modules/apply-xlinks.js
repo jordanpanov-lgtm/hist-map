@@ -2558,6 +2558,58 @@ const SELECTED_PAIRS = [
   ['roman-sasanian-world-224-632::c8', 'egypt-300-641::k14'],      // the Persian occupation of Egypt
   ['roman-sasanian-world-224-632::p9', 'late-roman-anatolia-330-632::p7'],      // Heraclius
   ['roman-sasanian-world-224-632::p9', 'caliphate-632-750::k1'],      // Abu Bakr and the Ridda
+  ['near-east-mongols-to-gunpowder-1335-1517::p1', 'iran-1335-1501::p1'],      // the Jalayirids, Muzaffarids and Karts
+  ['near-east-mongols-to-gunpowder-1335-1517::p2', 'iraq-1258-1534::k2'],      // the Jalayirids make Baghdad a capital again
+  ['near-east-mongols-to-gunpowder-1335-1517::p2', 'iraq-1258-1534::x2'],      // the Jalayirid school of painting
+  ['near-east-mongols-to-gunpowder-1335-1517::p2', 'iraq-1258-1534::l3'],      // Sultan Ahmad Jalayir
+  ['near-east-mongols-to-gunpowder-1335-1517::p4', 'iran-1335-1501::p2'],      // Timur — the conqueror
+  ['near-east-mongols-to-gunpowder-1335-1517::p4', 'iran-1335-1501::o1'],      // Timur’s extractive conquest state
+  ['near-east-mongols-to-gunpowder-1335-1517::c2', 'iran-1335-1501::c1'],      // Timur subdues the regional successors
+  ['near-east-mongols-to-gunpowder-1335-1517::c2', 'iran-1335-1501::c2'],      // the sack of Isfahan
+  ['near-east-mongols-to-gunpowder-1335-1517::c3', 'iran-1335-1501::c3'],      // Delhi and Ankara
+  ['near-east-mongols-to-gunpowder-1335-1517::c3', 'mamluks-1250-1517::c7'],      // Timur sacks Aleppo and Damascus
+  ['near-east-mongols-to-gunpowder-1335-1517::p9', 'mamluks-1250-1517::k9'],      // Barquq founds the Circassian regime
+  ['near-east-mongols-to-gunpowder-1335-1517::p9', 'mamluks-1250-1517::k10'],      // Faraj and the storm of Timur
+  ['near-east-mongols-to-gunpowder-1335-1517::p9', 'mamluks-1250-1517::k13'],      // Qaytbay — the last strong sultan
+  ['near-east-mongols-to-gunpowder-1335-1517::c4', 'anatolian-beyliks-1308-1500::c4'],      // the battle of Ankara
+  ['near-east-mongols-to-gunpowder-1335-1517::c4', 'ottoman-empire-1299-1517::c3'],      // the battle of Ankara
+  ['near-east-mongols-to-gunpowder-1335-1517::w3', 'iraq-1258-1534::k3'],      // Timur and the two sacks of Baghdad
+  ['near-east-mongols-to-gunpowder-1335-1517::w3', 'iraq-1258-1534::c2'],      // Timur’s campaigns and the tower of skulls
+  ['near-east-mongols-to-gunpowder-1335-1517::p5', 'iran-1335-1501::p3'],      // Shah Rukh and the Timurid Renaissance
+  ['near-east-mongols-to-gunpowder-1335-1517::p5', 'iran-1335-1501::p4'],      // Ulugh Beg — the astronomer king
+  ['near-east-mongols-to-gunpowder-1335-1517::p6', 'iran-1335-1501::p5'],      // Sultan Husayn Bayqara and late Timurid Herat
+  ['near-east-mongols-to-gunpowder-1335-1517::p7', 'iraq-1258-1534::k4'],      // the Black Sheep Turkmen
+  ['near-east-mongols-to-gunpowder-1335-1517::p7', 'iran-1335-1501::p6'],      // the Qara Qoyunlu and Aq Qoyunlu
+  ['near-east-mongols-to-gunpowder-1335-1517::p8', 'iran-1335-1501::c4'],      // Uzun Hasan defeats Jahan Shah
+  ['near-east-mongols-to-gunpowder-1335-1517::c5', 'iran-1335-1501::c5'],      // the battle of Otlukbeli
+  ['near-east-mongols-to-gunpowder-1335-1517::c5', 'ottoman-empire-1299-1517::x4'],      // the Aq Qoyunlu and Venice
+  ['near-east-mongols-to-gunpowder-1335-1517::c6', 'anatolian-beyliks-1308-1500::c7'],      // the Ottoman–Mamluk war over Cilicia
+  ['near-east-mongols-to-gunpowder-1335-1517::c6', 'ottoman-empire-1299-1517::c11'],      // the Ottoman–Mamluk war of 1485–1491
+  ['near-east-mongols-to-gunpowder-1335-1517::c7', 'safavid-1501-1722::c1'],      // the battle of Chaldiran
+  ['near-east-mongols-to-gunpowder-1335-1517::c7', 'ottoman-empire-1299-1517::c9'],      // Chaldiran
+  ['near-east-mongols-to-gunpowder-1335-1517::c8', 'mamluks-1250-1517::k14'],      // al-Ghawri, Tuman Bay and the Ottoman conquest
+  ['near-east-mongols-to-gunpowder-1335-1517::c8', 'ottoman-empire-1299-1517::c10'],      // Marj Dabiq and Ridaniya
+  ['near-east-mongols-to-gunpowder-1335-1517::p10', 'safavid-1501-1722::p1'],      // Ismail I — founding and the Shia conversion
+  ['near-east-mongols-to-gunpowder-1335-1517::p10', 'iran-1335-1501::b1'],      // the Safavid order’s quiet beginnings
+  ['near-east-mongols-to-gunpowder-1335-1517::e1', 'iran-1335-1501::b2'],      // Sunni orthodoxy under Timurid and Turkmen rule
+  ['near-east-mongols-to-gunpowder-1335-1517::e2', 'iran-1335-1501::e1'],      // Bihzad’s manuscript painting
+  ['near-east-mongols-to-gunpowder-1335-1517::e2', 'iran-1335-1501::t2'],      // Jami — the last great classical Persian poet
+  ['near-east-mongols-to-gunpowder-1335-1517::e3', 'iran-1335-1501::e2'],      // Timur’s monuments at Samarkand
+  ['near-east-mongols-to-gunpowder-1335-1517::l1', 'iran-1335-1501::e3'],      // Gawhar Shad’s Herat complex
+  ['near-east-mongols-to-gunpowder-1335-1517::l1', 'iran-1335-1501::l1'],      // Gawhar Shad’s independent patronage
+  ['near-east-mongols-to-gunpowder-1335-1517::t2', 'iran-1335-1501::t1'],      // Ulugh Beg’s star catalogue
+  ['near-east-mongols-to-gunpowder-1335-1517::te2', 'iran-1335-1501::tc1'],      // Samarkand’s observatory instruments
+  ['near-east-mongols-to-gunpowder-1335-1517::x1', 'iran-1335-1501::x1'],      // a Timurid embassy to the Ming court
+  ['near-east-mongols-to-gunpowder-1335-1517::e2', 'iran-1335-1501::x2'],      // Chagatai Turkish literature at the Herat court
+  ['near-east-mongols-to-gunpowder-1335-1517::ec1', 'mamluks-1250-1517::ec3'],      // the Black Death and the recurring plague
+  ['near-east-mongols-to-gunpowder-1335-1517::ec1', 'mamluks-1250-1517::w4'],      // the Black Death on the western arm of the pandemic
+  ['near-east-mongols-to-gunpowder-1335-1517::ec2', 'mamluks-1250-1517::ec2'],      // Barsbay’s monopolies and the ruin of the Karimi
+  ['near-east-mongols-to-gunpowder-1335-1517::ec3', 'mamluks-1250-1517::ec8'],      // the Portuguese and the collapse of the spice revenue
+  ['near-east-mongols-to-gunpowder-1335-1517::ec3', 'mamluks-1250-1517::c10'],      // Chaul and Diu
+  ['near-east-mongols-to-gunpowder-1335-1517::ec3', 'hormuz-1200-1507::c5'],      // Albuquerque storms the Omani coast and besieges Hormuz
+  ['near-east-mongols-to-gunpowder-1335-1517::ec3', 'portuguese-gulf-1507-1650::k1'],      // Albuquerque makes Hormuz a Portuguese protectorate
+  ['near-east-mongols-to-gunpowder-1335-1517::ec4', 'iran-1335-1501::ec1'],      // trade recovers under Timurid stability
+  ['near-east-mongols-to-gunpowder-1335-1517::w3', 'iran-1335-1501::l2'],      // the demographic toll of Timur’s campaigns
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
