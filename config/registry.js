@@ -271,5 +271,6 @@ const MODULES = [
   { id:"eastern-question-1774-1900", file:"modules/eastern-question-1774-1900.json", label:"The Eastern Question 1774–1900", sub:"Russia, Britain and France on the Straits, the Nile and the Gulf: Capitulations, Protectorates, the Suez Canal, the Debt and the Great Game", region:"Near East", also:["Europe"], period:"Early Modern" },
   { id:"modern-near-east-1900-1945", file:"modules/modern-near-east-1900-1945.json", label:"The Modern Near East 1900–1945", sub:"Revolutions and the Great War, the Mandate Order, Nationalism and Reform, Oil, and the Second World War", region:"Near East", period:"Modern" },
   { id:"modern-near-east-1945-1990", file:"modules/modern-near-east-1945-1990.json", label:"The Modern Near East 1945–1990", sub:"Decolonisation and the Cold War, the Arab–Israeli Wars, Revolutionary Republics, Oil and the Revolution in Iran", region:"Near East", period:"Modern" },
+  { id:"modern-near-east-1990-today", file:"modules/modern-near-east-1990-today.json", label:"The Modern Near East 1990–today", sub:"The Gulf War and the Peace Process, the Iraq War, the Arab Uprisings and the Syrian Catastrophe, Gaza, and the Iran Wars (as of October 2026)", region:"Near East", period:"Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

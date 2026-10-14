@@ -2837,6 +2837,109 @@ const SELECTED_PAIRS = [
   ['modern-near-east-1945-1990::c1', 'modern-near-east-1900-1945::c5'],      // the Palestine mandate’s disturbances
   ['modern-near-east-1945-1990::b3', 'modern-near-east-1900-1945::l2'],      // the Jews of Iraq
   ['modern-near-east-1945-1990::c5', 'modern-near-east-1900-1945::p6'],      // the French mandate and the Lebanese system
+  ['modern-near-east-1990-today::p1', 'egypt-1952-today::k4'],      // Hosni Mubarak’s thirty years
+  ['modern-near-east-1990-today::p2', 'egypt-1952-today::k6'],      // Abdel Fattah el-Sisi and the restored officers’ republic
+  ['modern-near-east-1990-today::p3', 'syria-1946-today::p3'],      // Bashar al-Assad’s rule
+  ['modern-near-east-1990-today::p4', 'syria-1946-today::p4'],      // a transitional government forms
+  ['modern-near-east-1990-today::p4', 'syria-1946-today::c4'],      // the HTS offensive ends Assad family rule
+  ['modern-near-east-1990-today::p5', 'turkey-1980-today::p6'],      // Recep Tayyip Erdoğan as president
+  ['modern-near-east-1990-today::p5', 'turkey-1980-today::p10'],      // the AKP governments
+  ['modern-near-east-1990-today::p6', 'iran-1979-today::p2'],      // Ali Khamenei, Supreme Leader
+  ['modern-near-east-1990-today::p7', 'saudi-1902-today::k10'],      // Mohammed bin Salman
+  ['modern-near-east-1990-today::p8', 'israel-1948-today::p6'],      // Netanyahu’s long tenure
+  ['modern-near-east-1990-today::p9', 'palestine-1948-today::p6'],      // the Hamas–Fatah split
+  ['modern-near-east-1990-today::p9', 'palestine-1948-today::p5'],      // the Oslo Accords and the Palestinian Authority
+  ['modern-near-east-1990-today::p10', 'iraq-2003-today::k3'],      // the Maliki years
+  ['modern-near-east-1990-today::p10', 'iraq-2003-today::k5'],      // the post-ISIS governments
+  ['modern-near-east-1990-today::c1', 'iraq-1979-2003::k3'],      // Kuwait and the Gulf War
+  ['modern-near-east-1990-today::c1', 'kuwait-1961-today::c3'],      // the Iraqi invasion and occupation of Kuwait
+  ['modern-near-east-1990-today::c1', 'kuwait-1961-today::c4'],      // the liberation and the oil fires
+  ['modern-near-east-1990-today::c2', 'israel-1948-today::c5'],      // the Second Intifada
+  ['modern-near-east-1990-today::c2', 'palestine-1948-today::c3'],      // the Second Intifada
+  ['modern-near-east-1990-today::c3', 'lebanon-1943-today::c4'],      // the 2006 Lebanon War
+  ['modern-near-east-1990-today::c4', 'iraq-2003-today::k1'],      // the occupation and the CPA
+  ['modern-near-east-1990-today::c4', 'iraq-1979-2003::c6'],      // the 2003 invasion
+  ['modern-near-east-1990-today::c5', 'iraq-2003-today::k4'],      // ISIS and the war for the cities
+  ['modern-near-east-1990-today::c5', 'iraq-2003-today::c3'],      // the war against ISIS
+  ['modern-near-east-1990-today::c6', 'syria-1946-today::c2'],      // the Syrian civil war’s outbreak
+  ['modern-near-east-1990-today::c6', 'syria-1946-today::c3'],      // chemical weapons attacks
+  ['modern-near-east-1990-today::c7', 'egypt-1952-today::c8'],      // the 25 January revolution
+  ['modern-near-east-1990-today::c7', 'egypt-1952-today::c9'],      // the 2013 removal and the Rabaa dispersal
+  ['modern-near-east-1990-today::c8', 'yemen-1900-today::c9'],      // the war since 2014
+  ['modern-near-east-1990-today::c9', 'israel-1948-today::c7'],      // the October 7 attack
+  ['modern-near-east-1990-today::c9', 'israel-1948-today::c8'],      // the Gaza War
+  ['modern-near-east-1990-today::c9', 'palestine-1948-today::c6'],      // the Gaza War’s catastrophe
+  ['modern-near-east-1990-today::c10', 'lebanon-1943-today::c5'],      // the 2023–2024 Israel–Hezbollah conflict
+  ['modern-near-east-1990-today::c13', 'turkey-1980-today::c2'],      // the PKK’s war
+  ['modern-near-east-1990-today::c13', 'turkey-1980-today::c5'],      // the peace process of 2025–2026
+  ['modern-near-east-1990-today::o1', 'israel-1948-today::p5'],      // the Oslo Accords and Rabin’s assassination
+  ['modern-near-east-1990-today::o1', 'palestine-1948-today::o1'],      // the Oslo-era territorial patchwork
+  ['modern-near-east-1990-today::o2', 'iraq-2003-today::o2'],      // the 2005 constitution
+  ['modern-near-east-1990-today::o3', 'egypt-1952-today::o1'],      // the republic and its constitutions
+  ['modern-near-east-1990-today::o4', 'turkey-1980-today::o7'],      // the referendums of 2010 and 2017
+  ['modern-near-east-1990-today::o4', 'turkey-1980-today::p11'],      // the presidential system
+  ['modern-near-east-1990-today::o6', 'palestine-1948-today::c7'],      // the ICJ genocide case
+  ['modern-near-east-1990-today::b1', 'egypt-1952-today::b2'],      // the Brotherhood in opposition and in power
+  ['modern-near-east-1990-today::b1', 'turkey-1980-today::b3'],      // from the Welfare Party to the AKP
+  ['modern-near-east-1990-today::b3', 'iraq-2003-today::c2'],      // the sectarian civil war
+  ['modern-near-east-1990-today::b3', 'iraq-2003-today::b2'],      // sectarianism institutionalised
+  ['modern-near-east-1990-today::b4', 'israel-1948-today::b2'],      // a contested claim to Jerusalem
+  ['modern-near-east-1990-today::b4', 'palestine-1948-today::b1'],      // al-Aqsa access
+  ['modern-near-east-1990-today::b4', 'jordan-1946-today::b1'],      // custodianship of Jerusalem’s holy sites
+  ['modern-near-east-1990-today::b5', 'iraq-2003-today::b4'],      // the minorities’ catastrophe
+  ['modern-near-east-1990-today::e1', 'qatar-1971-today::t1'],      // Al Jazeera and the Arab public sphere
+  ['modern-near-east-1990-today::e2', 'iran-1979-today::e1'],      // two Academy Awards for Iranian cinema
+  ['modern-near-east-1990-today::e3', 'turkey-1980-today::e2'],      // Orhan Pamuk and the Nobel Prize
+  ['modern-near-east-1990-today::e4', 'egypt-1952-today::x6'],      // the 2011 generation
+  ['modern-near-east-1990-today::t3', 'iran-1979-today::t1'],      // Soroush’s reformist religious philosophy
+  ['modern-near-east-1990-today::t3', 'iran-1979-today::p4'],      // Khatami’s reformist era
+  ['modern-near-east-1990-today::ec2', 'saudi-1902-today::ec6'],      // the Aramco listing and the PIF
+  ['modern-near-east-1990-today::ec2', 'saudi-1902-today::o6'],      // Vision 2030 and the fiscal turn
+  ['modern-near-east-1990-today::ec3', 'iran-1979-today::ec1'],      // decades of international sanctions
+  ['modern-near-east-1990-today::ec4', 'lebanon-1943-today::ec1'],      // one of the modern world’s worst financial crises
+  ['modern-near-east-1990-today::ec4', 'turkey-1980-today::ec4'],      // the currency crisis of 2018
+  ['modern-near-east-1990-today::te1', 'syria-1946-today::tc1'],      // a war documented in real time
+  ['modern-near-east-1990-today::te2', 'iran-1979-today::tc1'],      // the nuclear programme and Natanz
+  ['modern-near-east-1990-today::te2', 'iran-1979-today::tc2'],      // the Stuxnet cyberattack
+  ['modern-near-east-1990-today::te3', 'turkey-1980-today::g2'],      // the armed drone and the defence industry
+  ['modern-near-east-1990-today::te3', 'israel-1948-today::tc1'],      // Iron Dome
+  ['modern-near-east-1990-today::x2', 'iran-1979-today::x1'],      // the Joint Comprehensive Plan of Action
+  ['modern-near-east-1990-today::x2', 'iran-1979-today::x2'],      // the US withdrawal from the nuclear deal
+  ['modern-near-east-1990-today::x3', 'israel-1948-today::w1'],      // shifting regional relations toward normalisation
+  ['modern-near-east-1990-today::x3', 'bahrain-1971-today::x4'],      // the Abraham Accords
+  ['modern-near-east-1990-today::x4', 'iran-1979-today::w2'],      // the rivalry with Saudi Arabia
+  ['modern-near-east-1990-today::x4', 'saudi-1902-today::x6'],      // Saudi foreign policy
+  ['modern-near-east-1990-today::x5', 'syria-1946-today::w1'],      // a civil war as a regional and global proxy war
+  ['modern-near-east-1990-today::x5', 'turkey-1980-today::x4'],      // the Syrian war and the refugees
+  ['modern-near-east-1990-today::w1', 'syria-1946-today::x1'],      // a refugee crisis reshapes the region
+  ['modern-near-east-1990-today::w1', 'jordan-1946-today::ec1'],      // hosting the world’s refugees
+  ['modern-near-east-1990-today::w2', 'iraq-2003-today::e3'],      // the water and climate emergency
+  ['modern-near-east-1990-today::w2', 'iran-1979-today::ec3'],      // the Hamoun wetlands and the Helmand water dispute
+  ['modern-near-east-1990-today::w3', 'turkey-1980-today::w2'],      // the Kahramanmaraş earthquakes
+  ['modern-near-east-1990-today::w4', 'lebanon-1943-today::p6'],      // the Beirut port explosion
+  ['modern-near-east-1990-today::w4', 'lebanon-1943-today::tc1'],      // six years of improperly stored ammonium nitrate
+  ['modern-near-east-1990-today::l1', 'iran-1979-today::l1'],      // the mandatory hijab and Mahsa Amini’s death
+  ['modern-near-east-1990-today::l1', 'saudi-1902-today::lv1'],      // women, from seclusion to the driving reform
+  ['modern-near-east-1990-today::l1', 'kuwait-1961-today::lv1'],      // women in the resistance and the vote
+  ['modern-near-east-1990-today::l2', 'iraq-2003-today::c4'],      // the Yazidi genocide at Sinjar
+  ['modern-near-east-1990-today::l3', 'palestine-1948-today::c6'],      // the Gaza War’s catastrophe
+  ['modern-near-east-1990-today::l3', 'israel-1948-today::c7'],      // the October 7 attack
+  ['modern-near-east-1990-today::l4', 'qatar-1971-today::lv1'],      // the migrant workforce and the kafala reforms
+  ['modern-near-east-1990-today::l4', 'kuwait-1961-today::lv3'],      // the migrant workforce and kafala
+  ['modern-near-east-1990-today::l5', 'iraq-2003-today::c5'],      // the Tishreen uprising
+  ['modern-near-east-1990-today::l6', 'iraq-2003-today::k8'],      // the Kurdistan Region
+  ['modern-near-east-1990-today::l6', 'turkey-1980-today::l2'],      // the Kurdish language
+  ['modern-near-east-1990-today::c1', 'modern-near-east-1945-1990::c6'],      // the Iran–Iraq War
+  ['modern-near-east-1990-today::p6', 'modern-near-east-1945-1990::p6'],      // Ruhollah Khomeini
+  ['modern-near-east-1990-today::p3', 'modern-near-east-1945-1990::p3'],      // Hafez al-Assad
+  ['modern-near-east-1990-today::c9', 'modern-near-east-1945-1990::c9'],      // the First Intifada
+  ['modern-near-east-1990-today::c10', 'modern-near-east-1945-1990::c8'],      // the invasion of Lebanon and Sabra and Shatila
+  ['modern-near-east-1990-today::p9', 'modern-near-east-1945-1990::p9'],      // Yasser Arafat and the PLO
+  ['modern-near-east-1990-today::o1', 'modern-near-east-1945-1990::o2'],      // Resolutions 242 and 338
+  ['modern-near-east-1990-today::l6', 'modern-near-east-1945-1990::l4'],      // the Kurds in four states
+  ['modern-near-east-1990-today::c13', 'modern-near-east-1945-1990::l4'],      // the Kurds in four states
+  ['modern-near-east-1990-today::ec1', 'modern-near-east-1945-1990::ec1'],      // OPEC, the embargo and the oil shocks
+  ['modern-near-east-1990-today::l4', 'modern-near-east-1945-1990::l5'],      // the migrant workers of the Gulf boom
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
