@@ -2397,6 +2397,58 @@ const SELECTED_PAIRS = [
   ['great-seljuk-empire-1037-1194::w1', 'iran-1055-1219::x1'],      // Turkic settlement pours into Anatolia
   ['great-seljuk-empire-1037-1194::x3', 'caucasus-1064-1243::c2'],      // Georgia and the battle of Didgori
   ['great-seljuk-empire-1037-1194::l1', 'iran-821-1055::l1'],      // royal women at the Samanid and Buyid courts
+  ['late-bronze-age-system-1550bc-1200bc::p1', 'egypt-1550bc-1200bc::k6'],      // Thutmose III — the empire at its greatest extent
+  ['late-bronze-age-system-1550bc-1200bc::c1', 'egypt-1550bc-1200bc::c3'],      // the Battle of Megiddo
+  ['late-bronze-age-system-1550bc-1200bc::c1', 'canaan-2000bc-1200bc::c1'],      // the Battle of Megiddo and Canaan
+  ['late-bronze-age-system-1550bc-1200bc::p2', 'egypt-1550bc-1200bc::k9'],      // Amenhotep III — the reign of magnificence
+  ['late-bronze-age-system-1550bc-1200bc::p3', 'egypt-1550bc-1200bc::k10'],      // Akhenaten — the Aten and the abandoned capital
+  ['late-bronze-age-system-1550bc-1200bc::b1', 'egypt-1550bc-1200bc::b2'],      // Akhenaten’s one god
+  ['late-bronze-age-system-1550bc-1200bc::e1', 'egypt-1550bc-1200bc::x3'],      // the Amarna style
+  ['late-bronze-age-system-1550bc-1200bc::p4', 'egypt-1550bc-1200bc::k17'],      // Ramesses II — sixty-six years and the Hittite peace
+  ['late-bronze-age-system-1550bc-1200bc::c3', 'egypt-1550bc-1200bc::c6'],      // the Battle of Kadesh
+  ['late-bronze-age-system-1550bc-1200bc::c3', 'hittite-1650bc-1180bc::c7'],      // the battle of Kadesh from the Hittite side
+  ['late-bronze-age-system-1550bc-1200bc::o1', 'egypt-1550bc-1200bc::c7'],      // the Egyptian–Hittite peace treaty
+  ['late-bronze-age-system-1550bc-1200bc::o1', 'hittite-1650bc-1180bc::x1'],      // the silver treaty with Egypt
+  ['late-bronze-age-system-1550bc-1200bc::p6', 'hittite-1650bc-1180bc::p6'],      // Suppiluliuma I — the founder of the empire
+  ['late-bronze-age-system-1550bc-1200bc::c2', 'hittite-1650bc-1180bc::c5'],      // the fall of Mitanni
+  ['late-bronze-age-system-1550bc-1200bc::w1', 'hittite-1650bc-1180bc::w2'],      // the plague that came with the prisoners
+  ['late-bronze-age-system-1550bc-1200bc::p7', 'hittite-1650bc-1180bc::p8'],      // Muwatalli II — Kadesh and the move south
+  ['late-bronze-age-system-1550bc-1200bc::p7', 'hittite-1650bc-1180bc::p10'],      // Hattusili III and Puduhepa — the joint reign
+  ['late-bronze-age-system-1550bc-1200bc::l1', 'hittite-1650bc-1180bc::l1'],      // Puduhepa — queen and priestess
+  ['late-bronze-age-system-1550bc-1200bc::t3', 'hittite-1650bc-1180bc::t4'],      // the tablet houses of Hattusa
+  ['late-bronze-age-system-1550bc-1200bc::te1', 'hittite-1650bc-1180bc::t3'],      // Kikkuli’s horse-training manual
+  ['late-bronze-age-system-1550bc-1200bc::te1', 'hittite-1650bc-1180bc::g2'],      // the three-man chariot
+  ['late-bronze-age-system-1550bc-1200bc::e2', 'hittite-1650bc-1180bc::e1'],      // the walls and gates of Hattusa
+  ['late-bronze-age-system-1550bc-1200bc::b2', 'hittite-1650bc-1180bc::b1'],      // the thousand gods of Hatti
+  ['late-bronze-age-system-1550bc-1200bc::o3', 'hittite-1650bc-1180bc::o2'],      // the Hittite Laws
+  ['late-bronze-age-system-1550bc-1200bc::c4', 'hittite-1650bc-1180bc::c8'],      // Nihriya and the Assyrian threat
+  ['late-bronze-age-system-1550bc-1200bc::c4', 'assyria-1400bc-1050bc::c2'],      // the battle of Nihriya against the Hittites
+  ['late-bronze-age-system-1550bc-1200bc::c5', 'babylon-1595bc-1155bc::c3'],      // Tukulti-Ninurta takes Babylon
+  ['late-bronze-age-system-1550bc-1200bc::c5', 'assyria-1400bc-1050bc::c3'],      // the conquest of Babylon
+  ['late-bronze-age-system-1550bc-1200bc::p8', 'babylon-1595bc-1155bc::k4'],      // Kurigalzu I, the builder-king
+  ['late-bronze-age-system-1550bc-1200bc::p8', 'babylon-1595bc-1155bc::k5'],      // Burna-Buriash II and the brotherhood of kings
+  ['late-bronze-age-system-1550bc-1200bc::p9', 'assyria-1400bc-1050bc::k1'],      // Ashur-uballit I founds the Assyrian state
+  ['late-bronze-age-system-1550bc-1200bc::o5', 'babylon-1595bc-1155bc::o1'],      // the kudurru — the boundary stone
+  ['late-bronze-age-system-1550bc-1200bc::o2', 'egypt-1550bc-1200bc::xc1'],      // the Amarna letters and the great kings
+  ['late-bronze-age-system-1550bc-1200bc::o2', 'babylon-1595bc-1155bc::xc2'],      // the Amarna letters of the Babylonian kings
+  ['late-bronze-age-system-1550bc-1200bc::x1', 'egypt-1550bc-1200bc::xc2'],      // marrying into Egypt
+  ['late-bronze-age-system-1550bc-1200bc::ec2', 'egypt-1550bc-1200bc::xc5'],      // the Uluburun ship
+  ['late-bronze-age-system-1550bc-1200bc::ec2', 'hittite-1650bc-1180bc::x6'],      // the Uluburun ship from the Hittite side
+  ['late-bronze-age-system-1550bc-1200bc::x2', 'hittite-1650bc-1180bc::x4'],      // Ahhiyawa, Millawanda and Piyamaradu
+  ['late-bronze-age-system-1550bc-1200bc::w2', 'hittite-1650bc-1180bc::w3'],      // drought at the end
+  ['late-bronze-age-system-1550bc-1200bc::w2', 'egypt-1550bc-1200bc::w5'],      // the drying of the eastern Mediterranean
+  ['late-bronze-age-system-1550bc-1200bc::l2', 'egypt-1550bc-1200bc::l2'],      // Nefertiti and the family as icon
+  ['late-bronze-age-system-1550bc-1200bc::l2', 'egypt-1550bc-1200bc::l3'],      // Queen Tiye
+  ['late-bronze-age-system-1550bc-1200bc::p10', 'canaan-2000bc-1200bc::p2'],      // Late Bronze Canaan under Egyptian rule
+  ['late-bronze-age-system-1550bc-1200bc::p10', 'canaan-2000bc-1200bc::c2'],      // vassal rivalries in the Amarna letters
+  ['late-bronze-age-system-1550bc-1200bc::o4', 'canaan-2000bc-1200bc::o1'],      // Egyptian garrison administration
+  ['late-bronze-age-system-1550bc-1200bc::l3', 'canaan-2000bc-1200bc::l1'],      // the Habiru — a stateless class
+  ['late-bronze-age-system-1550bc-1200bc::p11', 'canaan-2000bc-1200bc::p3'],      // Ugarit’s golden age
+  ['late-bronze-age-system-1550bc-1200bc::b3', 'canaan-2000bc-1200bc::b1'],      // the Baal Cycle and Ugaritic religion
+  ['late-bronze-age-system-1550bc-1200bc::t2', 'canaan-2000bc-1200bc::t2'],      // the Ugaritic alphabetic cuneiform
+  ['late-bronze-age-system-1550bc-1200bc::ec3', 'canaan-2000bc-1200bc::l2'],      // women’s property rights at Ugarit
+  ['late-bronze-age-system-1550bc-1200bc::p11', 'egypt-1200bc-664bc::c1'],      // the end of Ugarit and the Sea Peoples
+  ['late-bronze-age-system-1550bc-1200bc::w2', 'philistia-1200bc-604bc::p1'],      // the Peleset settle the coastal plain
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
