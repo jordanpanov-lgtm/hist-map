@@ -2288,6 +2288,43 @@ const SELECTED_PAIRS = [
   ['byzantine-empire-632-867::ec2', 'byzantine-anatolia-632-867::ec2'],      // peasants of the Farmer’s Law
   ['byzantine-empire-632-867::l1', 'byzantine-anatolia-632-867::l1'],      // Irene and the empresses
   ['byzantine-empire-632-867::o5', 'caliphate-632-750::k8'],      // Abd al-Malik and the two empires’ rivalry
+  ['byzantine-empire-867-1204::p1', 'byzantine-anatolia-867-1071::p1'],      // Basil I
+  ['byzantine-empire-867-1204::p2', 'byzantine-anatolia-867-1071::p2'],      // Leo VI the Wise
+  ['byzantine-empire-867-1204::p4', 'byzantine-anatolia-867-1071::p3'],      // Romanos I Lekapenos
+  ['byzantine-empire-867-1204::p5', 'byzantine-anatolia-867-1071::p4'],      // Nikephoros II Phokas
+  ['byzantine-empire-867-1204::p6', 'byzantine-anatolia-867-1071::p5'],      // John I Tzimiskes
+  ['byzantine-empire-867-1204::p7', 'byzantine-anatolia-867-1071::p6'],      // Basil II
+  ['byzantine-empire-867-1204::p8', 'byzantine-anatolia-867-1071::p7'],      // the heirs of Basil II
+  ['byzantine-empire-867-1204::p8', 'byzantine-anatolia-867-1071::l1'],      // Zoe and Theodora
+  ['byzantine-empire-867-1204::p9', 'byzantine-anatolia-867-1071::p8'],      // Isaac Komnenos to Romanos Diogenes
+  ['byzantine-empire-867-1204::c6', 'byzantine-anatolia-867-1071::c9'],      // Manzikert
+  ['byzantine-empire-867-1204::c6', 'seljuks-of-rum-1071-1308::p1'],      // Suleyman ibn Qutalmish at Nicaea
+  ['byzantine-empire-867-1204::c8', 'seljuks-of-rum-1071-1308::c2'],      // Nicaea and Dorylaeum
+  ['byzantine-empire-867-1204::c9', 'seljuks-of-rum-1071-1308::c5'],      // Myriokephalon
+  ['byzantine-empire-867-1204::c9', 'seljuks-of-rum-1071-1308::p3'],      // Masud I and Kilij Arslan II
+  ['byzantine-empire-867-1204::p11', 'cilician-armenia-1080-1375::c1'],      // John II Komnenos’s campaign
+  ['byzantine-empire-867-1204::p11', 'cilician-armenia-1080-1375::c2'],      // Manuel I and Thoros II
+  ['byzantine-empire-867-1204::c13', 'seljuks-of-rum-1071-1308::w2'],      // the Fourth Crusade and the Greek exiles
+  ['byzantine-empire-867-1204::c13', 'trebizond-1204-1461::p1'],      // Alexios I and David — the foundation of Trebizond
+  ['byzantine-empire-867-1204::c2', 'levant-750-1099::c1'],      // the Byzantine reconquest of Antioch
+  ['byzantine-empire-867-1204::b5', 'levant-750-1099::b1'],      // al-Hakim destroys the Holy Sepulchre
+  ['byzantine-empire-867-1204::x5', 'levant-750-1099::p4'],      // the Fatimid conquest and a rival caliphate
+  ['byzantine-empire-867-1204::c8', 'crusader-states-1099-1291::c6'],      // the crusader states and Antioch
+  ['byzantine-empire-867-1204::o2', 'byzantine-anatolia-867-1071::o2'],      // the laws against the powerful
+  ['byzantine-empire-867-1204::o1', 'byzantine-anatolia-867-1071::o1'],      // the Book of the Eparch
+  ['byzantine-empire-867-1204::ec1', 'byzantine-anatolia-867-1071::ec1'],      // Eustathios Maleinos and the great estates
+  ['byzantine-empire-867-1204::ec3', 'byzantine-anatolia-867-1071::o4'],      // the debasement of the nomisma
+  ['byzantine-empire-867-1204::b1', 'byzantine-anatolia-867-1071::x1'],      // the marriage of Anna and the baptism of Vladimir
+  ['byzantine-empire-867-1204::b2', 'byzantine-anatolia-867-1071::b1'],      // the schism of 1054
+  ['byzantine-empire-867-1204::b3', 'byzantine-anatolia-867-1071::b2'],      // Lazaros of Galesion and the holy mountains
+  ['byzantine-empire-867-1204::e1', 'byzantine-anatolia-867-1071::e2'],      // the Paris Psalter and the Joshua Roll
+  ['byzantine-empire-867-1204::e3', 'byzantine-anatolia-867-1071::e3'],      // Digenes Akrites
+  ['byzantine-empire-867-1204::e5', 'byzantine-anatolia-867-1071::t4'],      // Michael Psellos
+  ['byzantine-empire-867-1204::t1', 'byzantine-anatolia-867-1071::t1'],      // Constantine Porphyrogennetos
+  ['byzantine-empire-867-1204::w1', 'byzantine-anatolia-867-1071::w3'],      // the Turkmen arrive
+  ['byzantine-empire-867-1204::w2', 'byzantine-anatolia-867-1071::w2'],      // the earthquake of 989
+  ['byzantine-empire-867-1204::l3', 'byzantine-anatolia-867-1071::l3'],      // the frontier of the Akritai
+  ['byzantine-empire-867-1204::b4', 'byzantine-anatolia-867-1071::b4'],      // the Paulicians moved to Thrace
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

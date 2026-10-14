@@ -261,5 +261,6 @@ const MODULES = [
   { id:"ottoman-empire-1908-1922", file:"modules/ottoman-empire-1908-1922.json", label:"The Ottoman Empire 1908–1922", sub:"The Young Turk Revolution, the Lost Wars, the Great War on Seven Fronts, the Destruction of the Armenians and the End of the Sultanate", region:"Near East", also:["Europe"], period:"Modern" },
   // ── THE BYZANTINE EMPIRE (system-level; home Europe, also Near East) ──
   { id:"byzantine-empire-632-867", file:"modules/byzantine-empire-632-867.json", label:"The Byzantine Empire 632–867", sub:"The Loss of the East, the Siege Emperors, Iconoclasm and the Recovery under the Amorians", region:"Europe", also:["Near East"], period:"Medieval" },
+  { id:"byzantine-empire-867-1204", file:"modules/byzantine-empire-867-1204.json", label:"The Byzantine Empire 867–1204", sub:"The Macedonian Recovery, Basil the Bulgar-Slayer, Manzikert and the Komnenian Restoration, to the Fourth Crusade", region:"Europe", also:["Near East"], period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
