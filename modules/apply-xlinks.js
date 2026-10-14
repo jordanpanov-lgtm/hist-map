@@ -2150,6 +2150,43 @@ const SELECTED_PAIRS = [
   ['ottoman-empire-1683-1839::o1', 'ottoman-empire-1517-1683::c10'],      // the Cretan war and the Treaties of the later century
   ['ottoman-empire-1683-1839::e3', 'ottoman-empire-1517-1683::e1'],      // Sinan’s classical mosques and the Baroque
   ['ottoman-empire-1683-1839::o7', 'ottoman-empire-1517-1683::l3'],      // the Greek, Armenian and Jewish subjects
+  ['ottoman-empire-1839-1908::p1', 'ottoman-empire-1683-1839::p5'],      // Mahmud II and the origins of the Tanzimat
+  ['ottoman-empire-1839-1908::p2', 'ottoman-anatolia-1800-1908::p2'],      // Reşid, Âli and Fuad Pasha
+  ['ottoman-empire-1839-1908::p5', 'ottoman-anatolia-1800-1908::p5'],      // Abdülhamid II
+  ['ottoman-empire-1839-1908::p4', 'iraq-1831-1914::k2'],      // Midhat Pasha and the Tanzimat in full
+  ['ottoman-empire-1839-1908::p4', 'iraq-1831-1914::l1'],      // Midhat Pasha
+  ['ottoman-empire-1839-1908::o1', 'ottoman-anatolia-1800-1908::o1'],      // the Gülhane edict
+  ['ottoman-empire-1839-1908::o3', 'ottoman-anatolia-1800-1908::o2'],      // the Land Code of 1858
+  ['ottoman-empire-1839-1908::o3', 'ottoman-anatolia-1800-1908::o3'],      // the vilayet law of 1864
+  ['ottoman-empire-1839-1908::o4', 'ottoman-anatolia-1800-1908::t1'],      // the Mecelle
+  ['ottoman-empire-1839-1908::o5', 'ottoman-anatolia-1800-1908::o4'],      // the constitution of 1876
+  ['ottoman-empire-1839-1908::o6', 'ottoman-anatolia-1800-1908::o5'],      // the Public Debt and the tobacco Régie
+  ['ottoman-empire-1839-1908::b2', 'ottoman-anatolia-1800-1908::o6'],      // the Armenian National Constitution
+  ['ottoman-empire-1839-1908::b5', 'ottoman-anatolia-1800-1908::b1'],      // the American colleges in Anatolia
+  ['ottoman-empire-1839-1908::b5', 'ottoman-syria-1800-1908::b1'],      // the Syrian Protestant College opens
+  ['ottoman-empire-1839-1908::c2', 'ottoman-syria-1800-1908::c2'],      // Mount Lebanon’s civil war and the Damascus massacre
+  ['ottoman-empire-1839-1908::c6', 'ottoman-anatolia-1800-1908::c3'],      // the massacres of 1894–1896
+  ['ottoman-empire-1839-1908::c5', 'ottoman-anatolia-1800-1908::c2'],      // Kars and the war of 1877–1878
+  ['ottoman-empire-1839-1908::w1', 'ottoman-anatolia-1800-1908::x1'],      // the muhacir
+  ['ottoman-empire-1839-1908::c3', 'ottoman-anatolia-1800-1908::x1'],      // the Circassian refugees
+  ['ottoman-empire-1839-1908::w2', 'ottoman-anatolia-1800-1908::ec4'],      // the famine of 1873–1875
+  ['ottoman-empire-1839-1908::w3', 'ottoman-anatolia-1800-1908::w2'],      // the census of 1881–1893
+  ['ottoman-empire-1839-1908::t2', 'ottoman-anatolia-1800-1908::t2'],      // the Young Ottomans
+  ['ottoman-empire-1839-1908::t3', 'egypt-1798-1900::b2'],      // al-Afghani, Abduh and Islamic modernism
+  ['ottoman-empire-1839-1908::t4', 'levant-1908-1920::p1'],      // the Young Turk revolution of 1908
+  ['ottoman-empire-1839-1908::ec4', 'ottoman-anatolia-1800-1908::ec1'],      // the Aydın and Anatolian railways
+  ['ottoman-empire-1839-1908::x3', 'ottoman-anatolia-1800-1908::x3'],      // German capital and the Anatolian Railway
+  ['ottoman-empire-1839-1908::x3', 'iraq-1831-1914::g2'],      // the Baghdad Railway
+  ['ottoman-empire-1839-1908::x3', 'iraq-1831-1914::xc1'],      // the Anglo-Ottoman-German contest for Iraq
+  ['ottoman-empire-1839-1908::te1', 'ottoman-anatolia-1800-1908::g1'],      // the telegraph and the steamer
+  ['ottoman-empire-1839-1908::te2', 'ottoman-syria-1800-1908::tc1'],      // a pan-Islamic railway toward Medina
+  ['ottoman-empire-1839-1908::e5', 'ottoman-anatolia-1800-1908::e2'],      // the sultan’s photograph albums
+  ['ottoman-empire-1839-1908::l2', 'ottoman-anatolia-1800-1908::l4'],      // the Circassian slave trade and its abolition
+  ['ottoman-empire-1839-1908::l1', 'ottoman-anatolia-1800-1908::l1'],      // the first schools for girls
+  ['ottoman-empire-1839-1908::x2', 'egypt-1798-1900::c7'],      // Alexandria and Tel el-Kebir
+  ['ottoman-empire-1839-1908::x2', 'egypt-1798-1900::k10'],      // the occupation and Lord Cromer
+  ['ottoman-empire-1839-1908::ec1', 'egypt-1798-1900::o5'],      // the debt and the Caisse de la Dette
+  ['ottoman-empire-1839-1908::x1', 'ottoman-empire-1683-1839::x4'],      // the Eastern Question
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
