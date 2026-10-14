@@ -2079,6 +2079,44 @@ const SELECTED_PAIRS = [
   ['ottoman-empire-1299-1517::c5', 'trebizond-1204-1461::w4'],      // the last Greek state after 1453
   ['ottoman-empire-1299-1517::p7', 'trebizond-1204-1461::c6'],      // the fall of Trebizond
   ['ottoman-empire-1299-1517::c10', 'mamluks-1250-1517::w6'],      // the end of medieval Egypt
+  ['ottoman-empire-1517-1683::p1', 'ottoman-empire-1299-1517::p9'],      // Selim I and the inheritance of Süleyman
+  ['ottoman-empire-1517-1683::b1', 'ottoman-empire-1299-1517::c10'],      // Marj Dabiq and Ridaniya and the claim to the caliphate
+  ['ottoman-empire-1517-1683::b1', 'hejaz-1517-1900::k1'],      // the Ottoman guardianship of the holy cities begins
+  ['ottoman-empire-1517-1683::b1', 'egypt-1517-1798::k1'],      // Selim I conquers Egypt
+  ['ottoman-empire-1517-1683::c6', 'ottoman-empire-1299-1517::c9'],      // Chaldiran and the later Safavid wars
+  ['ottoman-empire-1517-1683::c6', 'safavid-1501-1722::p2'],      // Tahmasp I and the war with Süleyman
+  ['ottoman-empire-1517-1683::c6', 'ottoman-anatolia-1500-1800::c5'],      // the Treaty of Amasya and the later wars
+  ['ottoman-empire-1517-1683::c9', 'safavid-1501-1722::c3'],      // Shah Abbas’s reconquest from the Ottomans
+  ['ottoman-empire-1517-1683::c9', 'iraq-1534-1831::k2'],      // the Persian interlude and Murad IV’s reconquest
+  ['ottoman-empire-1517-1683::c9', 'iraq-1534-1831::c1'],      // four changes of hands and the Treaty of Zuhab
+  ['ottoman-empire-1517-1683::c8', 'ottoman-anatolia-1500-1800::c4'],      // the Celali rebellions
+  ['ottoman-empire-1517-1683::w1', 'ottoman-anatolia-1500-1800::w1'],      // the Little Ice Age and the famine
+  ['ottoman-empire-1517-1683::w2', 'ottoman-anatolia-1500-1800::w2'],      // population pressure and the suhte
+  ['ottoman-empire-1517-1683::o3', 'ottoman-anatolia-1500-1800::o1'],      // the cadastral surveys
+  ['ottoman-empire-1517-1683::o4', 'ottoman-anatolia-1500-1800::o3'],      // the malikâne and tax farming
+  ['ottoman-empire-1517-1683::o3', 'ottoman-empire-1299-1517::o2'],      // the timar system and its registers
+  ['ottoman-empire-1517-1683::o1', 'ottoman-empire-1299-1517::o3'],      // Mehmed II’s kanunname and Süleyman’s
+  ['ottoman-empire-1517-1683::o2', 'ottoman-empire-1299-1517::o3'],      // the fratricide clause and the cage
+  ['ottoman-empire-1517-1683::o5', 'egypt-1517-1798::o1'],      // the eyalet of Egypt and its offices
+  ['ottoman-empire-1517-1683::o5', 'ottoman-syria-1516-1800::o1'],      // provinces governed from Istanbul
+  ['ottoman-empire-1517-1683::b3', 'ottoman-anatolia-1500-1800::b5'],      // Sabbatai Zevi at Smyrna
+  ['ottoman-empire-1517-1683::b5', 'ottoman-empire-1299-1517::o4'],      // the patriarchate and the millet
+  ['ottoman-empire-1517-1683::e1', 'ottoman-empire-1299-1517::e2'],      // the Üç Şerefeli and the Selimiye
+  ['ottoman-empire-1517-1683::e2', 'ottoman-anatolia-1500-1800::e1'],      // the tiles of Iznik
+  ['ottoman-empire-1517-1683::e4', 'ottoman-anatolia-1500-1800::t1'],      // Evliya Çelebi’s travel book
+  ['ottoman-empire-1517-1683::t4', 'ottoman-anatolia-1500-1800::t2'],      // Katib Çelebi’s Cihannüma
+  ['ottoman-empire-1517-1683::te2', 'ottoman-empire-1299-1517::te2'],      // Orban’s cannon and the imperial foundry
+  ['ottoman-empire-1517-1683::ec1', 'ottoman-empire-1299-1517::ec4'],      // the akçe and its debasement
+  ['ottoman-empire-1517-1683::ec3', 'ottoman-empire-1299-1517::ec1'],      // the silk of Bursa
+  ['ottoman-empire-1517-1683::ec3', 'egypt-1517-1798::e1'],      // the Yemeni coffee boom
+  ['ottoman-empire-1517-1683::ec3', 'yemen-1517-1900::o1'],      // the coffee monopoly and the Mocha customs
+  ['ottoman-empire-1517-1683::x2', 'yemen-1517-1900::k1'],      // the Ottoman conquest of Yemen
+  ['ottoman-empire-1517-1683::x3', 'ottoman-anatolia-1500-1800::x1'],      // the Levant Company and the consuls
+  ['ottoman-empire-1517-1683::x1', 'ottoman-syria-1516-1800::x1'],      // French capitulations and consular trade
+  ['ottoman-empire-1517-1683::p2', 'ottoman-empire-1299-1517::l2'],      // the sultans’ mothers and wives
+  ['ottoman-empire-1517-1683::l1', 'ottoman-anatolia-1500-1800::l1'],      // women in the kadi’s court
+  ['ottoman-empire-1517-1683::l4', 'ottoman-empire-1299-1517::o1'],      // the Janissaries and the devshirme
+  ['ottoman-empire-1517-1683::p8', 'egypt-1517-1798::k5'],      // the Mamluk households return
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
