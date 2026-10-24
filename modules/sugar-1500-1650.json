@@ -302,6 +302,22 @@
           "keywords": ["London","Gerard Herbal","John Gerard"]
         },
         {
+          "id": "t4",
+          "group": "Science & Geography",
+          "label": "Olivier de Serres reports that beet juice is like sugar syrup",
+          "date": "1600",
+          "loc": "France",
+          "coords": [
+            44.5,
+            4.4
+          ],
+          "hint": "The French agronomist Olivier de Serres, in his Théâtre d’agriculture (1600), is the first observer to report that the beet root ‘is counted among the choice foods and the juice which it yields on cooking is like a sugar syrup’; beets became a common crop in seventeenth-century Europe, and the extraction of crystals waited for Marggraf in 1747.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Smith, Sugar: A Global History (2015) p.44 (the quotation; the original not read). See sugar-1650-1800::t2.",
+          "keywords": ["France","Olivier de Serres"],
+          "xlinks": ["sugar-1650-1800::t2"]
+        },
+        {
           "id": "t3",
           "group": "Science & Geography",
           "label": "Song Yingxing: ‘tastes that are sweet are generally desired by all’",
@@ -355,7 +371,8 @@
           "hint": "The Portuguese land on the empty island in 1471 and, with settlers who knew sugar and Italian finance, make it a thriving sugar economy: by the mid-sixteenth century it yields 150,000 arrobas, with 200 mills at its peak and a population of 100,000, and in 1519 more than 4,000 Africans are delivered to its fields. Brazil’s plantations undercut it, and Smith says it turned itself into an entrepôt for slaves bound for Brazil; Walvin says its industry had virtually disappeared by 1700.",
           "tag": "EVIDENCE",
           "note": "SECONDARY: Walvin (2017) ch.3 (the landing of 1471, 150,000 arrobas, 200 mills, 100,000 people, the 1519 delivery and the 1700 collapse; his notes 2–4); Smith (2015) p.24 (the shift to slave-trading). A web summary gives two mills in 1517 and 60 by 1550, which conflicts with Walvin’s 200 at the peak (the peak may fall later than 1550) — the counts are unresolved. Smith’s figure of 560,000 Africans shipped in the seventeenth century is not used (not checked against the Slave Voyages totals).",
-          "keywords": ["São Tomé"]
+          "keywords": ["São Tomé"],
+          "xlinks": ["sugar-1000-1500::l7"]
         },
         {
           "id": "ec3",
@@ -386,7 +403,7 @@
           "tag": "EVIDENCE",
           "note": "SECONDARY: Mintz (1985) pp.34–35 (the counts and quotations are Mintz’s, from a study he cites in his note 37). The first sugar shipped from the island to Europe was about 1516 (p.32).",
           "keywords": ["Santo Domingo","Hispaniola"],
-          "xlinks": ["sugar-1000-1500::x8"]
+          "xlinks": ["sugar-1000-1500::x10","sugar-1000-1500::x8"]
         },
         {
           "id": "ec5",
@@ -417,7 +434,7 @@
           "tag": "TEXT",
           "note": "SECONDARY: Mazumdar (1998) p.41 (quoting Wang Shimao; the work and the exact year of the passage are not given — the range is Wang’s adult life to his death).",
           "keywords": ["Quanzhou","Zhangzhou","Fujian","Wang Shimao"],
-          "xlinks": ["sugar-1000-1500::x4"]
+          "xlinks": ["sugar-1000-1500::x4","sugar-1000-1500::x9"]
         },
         {
           "id": "ec7",
@@ -536,7 +553,7 @@
           ],
           "hint": "In the early seventeenth century the engenhos of Brazil adopt a mill of three upright rollers, which was much faster than the old press; they also ladle the juice through a series of three smaller cauldrons. Who invented the upright roller mill is disputed: Deerr, following Lippmann, gave it to Pietro Speciale of Sicily in 1449, but Soares Pereira argues that it was invented in Peru and reached Brazil between 1608 and 1612.",
           "tag": "CONTESTED",
-          "note": "CONTESTED (secondary): Smith (2015) pp.23–24 (the three-roller mill and the three-cauldron train, ‘credited’ to the Portuguese growers); Mintz (1985) p.28 (Deerr and Soares Pereira); Mazumdar (1998) pp.168 and 482 n.100 (Daniels and Daniels hypothesise that the horizontal two-roller design evolved around the Mediterranean and Atlantic colonies, or came from Asia to the Canaries, after 1510). Deerr was not read.",
+          "note": "CONTESTED (secondary): Smith (2015) pp.23–24 (the three-roller mill and the three-cauldron train, ‘credited’ to the Portuguese growers); Mintz (1985) p.28 (Deerr and Soares Pereira); Mazumdar (1998) pp.168 and 482 n.100 (Daniels and Daniels hypothesise that the horizontal two-roller design evolved around the Mediterranean and Atlantic colonies, or came from Asia to the Canaries, after 1510); Kiple, Cambridge World History of Food, p.444 (‘strong evidence of the contribution of Chinese technology to this design (Daniels and Daniels 1988)’). Deerr was not read.",
           "keywords": ["Brazil","Peru","Pietro Speciale of Sicily","Soares Pereira"],
           "xlinks": ["sugar-1800-1900::te2"]
         },
@@ -857,6 +874,11 @@
           "y": 1597,
           "l": "Gerard’s Herbal describes an Indian sugar crusher",
           "entryId": "t2"
+        },
+        {
+          "y": 1600,
+          "l": "Olivier de Serres reports that beet juice is like sugar syrup",
+          "entryId": "t4"
         },
         {
           "y": 1637,

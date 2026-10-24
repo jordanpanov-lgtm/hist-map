@@ -90,6 +90,22 @@
           "keywords": ["Serra da Barriga","Alagoas","Palmares","Brazil"]
         },
         {
+          "id": "c8",
+          "group": "Seven Years’ War",
+          "label": "The English hold Havana for ten months and flood Cuba with slaves",
+          "date": "1762–1763",
+          "loc": "Havana",
+          "coords": [
+            23.13,
+            -82.38
+          ],
+          "hint": "Spain’s policies — a ban on Cubans trading with foreign ships, limits on importing slaves — had kept Cuban sugar from maturing; it gets off the ground in 1762, when the English control Havana for ten months in the Seven Years’ War and bring tens of thousands of slaves. After they leave, Cuban producers demand a freer regime and Spain relaxes its laws; yet Cuba still made only 15,000 tons in 1790.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith (2015) pp.39–40 (the ‘tens of thousands’, the 18,000 slaves of the 1780s and the 125,000 of the 1790s and the following decade); Walvin (2017) ch.11 puts Cuba’s output at 19,000 tons in the last years of the century. See france-1715-1789::c1 and sugar-1800-1900::ec3.",
+          "keywords": ["Havana","Cuba","Seven Years War"],
+          "xlinks": ["france-1715-1789::c1","sugar-1800-1900::ec3"]
+        },
+        {
           "id": "c5",
           "group": "Seven Years’ War",
           "label": "The Peace of Paris reshapes the sugar islands’ trade",
@@ -249,20 +265,36 @@
           "keywords": ["Barbados","George Fox"]
         },
         {
+          "id": "b3",
+          "group": "Quakerism",
+          "label": "Quakers urge Americans to eat maple sugar instead",
+          "date": "1789",
+          "loc": "Philadelphia",
+          "coords": [
+            39.95,
+            -75.17
+          ],
+          "hint": "American Quakers back the maple-sugar industry as an alternative to cane — small amounts have been made from the 1780s, and in 1789 Philadelphians agree to buy a given amount at fixed prices to help it start; Quakers urge its use to ‘reduce by that much the lashings the Negroes have to endure’, and almanacs call cane sugar ‘mingled with the groans and tears of slavery’.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith (2015) pp.37–38 (the quotations are from sources Smith does not name).",
+          "keywords": ["Philadelphia","Quakers","Americans"],
+          "xlinks": ["sugar-1800-1900::b1"]
+        },
+        {
           "id": "b2",
           "group": "Quakerism",
-          "label": "A Quaker reckons a pound of West Indian sugar at two ounces of human flesh",
+          "label": "Abolitionists boycott slave-grown sugar",
           "date": "1791",
-          "loc": "England",
+          "loc": "Britain",
           "coords": [
             51.5,
             -0.12
           ],
-          "hint": "The Quaker William Fox, in a pamphlet urging Britons to give up West Indian sugar, reckoned that a pound of it cost two ounces of human flesh; Buttery says women, with no vote, became influential by boycotting slave-grown sugar and forcing grocers to find sugar grown by free people, such as East Indian, which put the West Indian trade into crisis.",
-          "tag": "TEXT",
-          "note": "SECONDARY (popular history): Buttery, ch.8 (William Fox’s calculation, ‘without showing his workings’; the boycott). Buttery gives no year in the passage read: the year 1791 (Fox’s pamphlet on abstaining from West India sugar) is from general knowledge. Compare Walvin (2017) on the sugar boycott in his abolition passages, not read here.",
-          "keywords": ["England","Quaker William Fox","East Indian"],
-          "xlinks": ["sugar-1800-1900::o2"]
+          "hint": "When the slave-trade abolition bill fails in 1791, British abolitionists join in a boycott of slave-grown sugar — the tea table being the obvious place — and women take an active part; the abstention movement draws as many as 400,000 supporters, Quaker Free Produce Societies sell Asian sugar, and a Quaker, William Fox, reckons a pound of West Indian sugar at two ounces of human flesh. Grocers are forced to find sugar grown by free people, such as East Indian, and the West Indian trade is put into crisis.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith, Sugar: A Global History (2015) pp.36–37 (the 1791 failure of the bill, the 400,000 and the Free Produce Societies); Buttery, A Dark History of Sugar, ch.8 (William Fox’s calculation, and the effect on grocers — Buttery gives no year in the passage read). Smith says some Indian sugar reached England by the early nineteenth century.",
+          "keywords": ["Britain","Abolitionists","Quaker Free Produce Societies","William Fox","East Indian"],
+          "xlinks": ["sugar-1800-1900::b1","sugar-1800-1900::o2"]
         }
       ]
     },
@@ -359,7 +391,7 @@
           "tag": "TEXT",
           "note": "SECONDARY: Smith (2015) pp.44–45; Walvin (2017) ch.11 (Marggraf 1747; beet syrup was known earlier). See t5 and the next folio.",
           "keywords": ["Andreas Marggraf","Berlin Academy"],
-          "xlinks": ["sugar-1800-1900::ec1"]
+          "xlinks": ["sugar-1500-1650::t4","sugar-1800-1900::ec1"]
         },
         {
           "id": "t3",
@@ -892,6 +924,11 @@
           "entryId": "c4"
         },
         {
+          "y": 1762,
+          "l": "The English hold Havana for ten months and flood Cuba with slaves",
+          "entryId": "c8"
+        },
+        {
           "y": 1763,
           "l": "The Peace of Paris reshapes the sugar islands’ trade",
           "entryId": "c5"
@@ -953,8 +990,13 @@
           "entryId": "b1"
         },
         {
+          "y": 1789,
+          "l": "Quakers urge Americans to eat maple sugar instead",
+          "entryId": "b3"
+        },
+        {
           "y": 1791,
-          "l": "A Quaker reckons a pound of West Indian sugar at two ounces of human f",
+          "l": "Abolitionists boycott slave-grown sugar",
           "entryId": "b2"
         }
       ]

@@ -837,6 +837,22 @@
           "keywords": ["Kyoto","Heian Japan","Song China"]
         },
         {
+          "id": "x9",
+          "group": "Silk Road & Trade Routes",
+          "label": "Zhao Rugua lists sugar among the goods Chinese traders sell in Southeast Asia",
+          "date": "1225",
+          "loc": "Quanzhou, Fujian",
+          "coords": [
+            24.87,
+            118.68
+          ],
+          "hint": "Zhao Rugua, Inspector of Foreign Trade in Fujian, writes in 1225 that sugar is sold abroad: ‘foreign traders’ sell it in Annam, Palembang and the Malay peninsula, listed with silk, brocades, porcelain and iron wares. Mazumdar takes these to be exports from China; Song merchants had also brought small amounts to Japan, which did not yet have the cane.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Mazumdar, Sugar and Society in China (1998) p.66 (Zhao Rugua, Zhufan zhi, 1225; she adds that the traders carrying them may not have been Chinese). See x2 for the Japanese gift of 1091.",
+          "keywords": ["Quanzhou","Fujian","Zhao Rugua","Southeast Asia","Inspector of Foreign Trade"],
+          "xlinks": ["sugar-1500-1650::ec6"]
+        },
+        {
           "id": "x3",
           "group": "Cultural Transmission",
           "label": "Frederick II sends to Jerusalem for two sugar-makers",
@@ -928,6 +944,22 @@
           "tag": "CONTEXT",
           "note": "SECONDARY: Smith, Sugar: A Global History (2015) pp.19–21 (the 1478 purchase for a Genoese firm; his conviction about cane in the Caribbean). Smith’s further account of Columbus’s marriages was left out because it could not be reconciled with the usual accounts. Carries the Mediterranean-to-Atlantic story forward to sugar-1500-1650.",
           "keywords": ["Madeira","Genoese","Christopher Columbus"],
+          "xlinks": ["sugar-1500-1650::ec4"]
+        },
+        {
+          "id": "x10",
+          "group": "Cultural Transmission",
+          "label": "Columbus carries cane from the Canaries to Hispaniola",
+          "date": "1493",
+          "loc": "The Canary Islands and Hispaniola",
+          "coords": [
+            18.47,
+            -69.9
+          ],
+          "hint": "Sugar cane is first carried to the New World by Columbus on his second voyage, in 1493, from the Spanish Canary Islands; Mazumdar adds that the Crown apparently ordered him to take twenty field experts and a supply of seeds and plants. Cane was first grown in Santo Domingo, from which sugar was shipped to Europe from about 1516.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mintz, Sweetness and Power (1985) p.32; Walvin, Sugar: The World Corrupted (2017) ch.3; Mazumdar (1998) p.63 (‘apparently ordered’). See x8 and sugar-1500-1650::ec4.",
+          "keywords": ["Canary Islands","Hispaniola","Columbus","Canaries","New World","Santo Domingo"],
           "xlinks": ["sugar-1500-1650::ec4"]
         }
       ]
@@ -1072,6 +1104,22 @@
           "tag": "EVENT",
           "note": "ANCHOR (as quoted): al-Maqrizi, Kitab al-Suluk II, 478–486, in Sato (2015) pp.119–120 (the property seized included 15,000 dinars, wine and pork; Sato sets the episode within the tension between Muslims and Coptic officials). Compare o4, o5.",
           "keywords": ["Cairo","Fustat","al-Nashw"]
+        },
+        {
+          "id": "l7",
+          "group": "Marginalised Communities",
+          "label": "Two thousand Jewish children are sent to work on São Tomé",
+          "date": "1493",
+          "loc": "São Tomé",
+          "coords": [
+            0.34,
+            6.73
+          ],
+          "hint": "Buttery says that in 1493 some 2,000 Portuguese Jewish children aged between two and ten were shipped to São Tomé to work in the sugar mills, and that only 600 survived the first year. The usual account of the transport of Jewish children, taken from refugees from Spain, differs from Buttery’s on the parents’ fate.",
+          "tag": "UNVERIFIED",
+          "note": "UNVERIFIED (popular history, thin): Buttery, A Dark History of Sugar, ch.3, who says the children were orphaned because their parents ‘had been executed by the Inquisition’ — the Portuguese Inquisition began only in 1536, so that part cannot be right as stated. The transport itself is also reported elsewhere; the figures need a scholarly source.",
+          "keywords": ["São Tomé","Two","Jewish"],
+          "xlinks": ["sugar-1500-1650::ec2"]
         }
       ]
     }
@@ -1380,6 +1428,11 @@
           "entryId": "x2"
         },
         {
+          "y": 1225,
+          "l": "Zhao Rugua lists sugar among the goods Chinese traders sell in Southea",
+          "entryId": "x9"
+        },
+        {
           "y": 1239,
           "l": "Frederick II sends to Jerusalem for two sugar-makers",
           "entryId": "x3"
@@ -1408,6 +1461,11 @@
           "y": 1478,
           "l": "Columbus buys sugar at Madeira for a Genoese house",
           "entryId": "x8"
+        },
+        {
+          "y": 1493,
+          "l": "Columbus carries cane from the Canaries to Hispaniola",
+          "entryId": "x10"
         }
       ]
     },
@@ -1464,6 +1522,11 @@
           "y": 1339,
           "l": "Cairo’s crowds celebrate al-Nashw’s arrest",
           "entryId": "l6"
+        },
+        {
+          "y": 1493,
+          "l": "Two thousand Jewish children are sent to work on São Tomé",
+          "entryId": "l7"
         }
       ]
     }

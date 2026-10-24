@@ -3159,6 +3159,17 @@ const SELECTED_PAIRS = [
   ['sugar-1970-today::ec10', 'sugar-1900-1970::ec5'],                 // C&H / Hawaii
   ['sugar-1970-today::te2', 'sugar-1900-1970::te2'],                  // saccharin -> new sweeteners
   ['sugar-1970-today::o11', 'egypt-1952-today::e8'],                  // Egypt's subsidised sugar
+
+  // ── amendments ──
+  ['sugar-300bc-600ad::th16', 'sugar-1200bc-300bc::th3'],              // Eratosthenes and Nearchus in Strabo 15.1.20
+  ['sugar-1000-1500::x10', 'sugar-1500-1650::ec4'],                   // Columbus's cane -> Santo Domingo's mills
+  ['sugar-1000-1500::x9', 'sugar-1500-1650::ec6'],                    // Zhao Rugua 1225 / Fujian sugar goes north
+  ['sugar-1000-1500::l7', 'sugar-1500-1650::ec2'],                    // children sent to Sao Tome / its sugar boom
+  ['sugar-1500-1650::t4', 'sugar-1650-1800::t2'],                     // Olivier de Serres -> Marggraf
+  ['sugar-1650-1800::c8', 'france-1715-1789::c1'],                    // Havana 1762 / Seven Years War
+  ['sugar-1650-1800::c8', 'sugar-1800-1900::ec3'],                    // Cuba's takeoff
+  ['sugar-1650-1800::b2', 'sugar-1800-1900::b1'],                     // abstention movement -> Quaker support for beet
+  ['sugar-1650-1800::b3', 'sugar-1800-1900::b1'],                     // maple sugar -> Quaker support for beet
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
