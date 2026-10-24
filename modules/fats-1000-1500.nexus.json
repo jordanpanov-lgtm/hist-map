@@ -184,6 +184,30 @@
       "label": "Tunisian oil in Palermo",
       "full": "Five thousand dinars of oil in partnerships with Muslims and Jews.",
       "src": "Goitein II"
+    },
+    {
+      "id": "ec8",
+      "lane": "economy",
+      "year": 1300,
+      "label": "Su becomes shortening",
+      "full": "In China su turns from butter into animal-fat shortening.",
+      "src": "Needham; Chang"
+    },
+    {
+      "id": "e2",
+      "lane": "expression",
+      "year": 1330,
+      "label": "Yuan dietetics of 1330",
+      "full": "Heavy use of sheep’s tail fat in the court physician’s recipes.",
+      "src": "Anderson p.86"
+    },
+    {
+      "id": "ec12",
+      "lane": "economy",
+      "year": 940,
+      "label": "Polynesian settlement",
+      "full": "Hawai‘i and New Zealand settled with Polynesian tree crops.",
+      "src": "Kirch ch.7"
     }
   ],
   "edges": [
@@ -300,6 +324,24 @@
       "ec4",
       "loose",
       "The Borneo coconut-oil jars and Hangzhou’s oil among the seven necessities are two oil markets of the same century range."
+    ],
+    [
+      "e2",
+      "e1",
+      "strong",
+      "The Yuan dietetics text and the Arab dishes in Latin cookbooks both carry the tail-fat cooking of the Muslim and Turkic worlds into a new court."
+    ],
+    [
+      "e2",
+      "ec8",
+      "loose",
+      "The tail fat of the Mongol court and the shift of su from butter to animal-fat shortening are two sides of Yuan China’s fat."
+    ],
+    [
+      "ec12",
+      "ec10",
+      "loose",
+      "The Polynesian settlers and the Borneo coconut-oil jars are two Pacific coconut-and-nut economies of the same medieval centuries."
     ]
   ]
 }

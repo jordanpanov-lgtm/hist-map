@@ -511,6 +511,21 @@
       "subtitle": "Olive oil and olive trees to the Americas",
       "entries": [
         {
+          "id": "x2",
+          "group": "Oilseeds",
+          "label": "The peanut crosses from America to China, grown for export by 1700",
+          "date": "c.1500–1700",
+          "loc": "Fukien and south-east China",
+          "coords": [
+            26,
+            119.3
+          ],
+          "hint": "Bray states that there can be no doubt the peanut was introduced to China from America after Columbus, probably imported by the Portuguese to Fukien early in the sixteenth century. Peanuts were at first a delicacy; by 1700 they were grown for export in a number of south-eastern districts, and in the next two centuries they spread across underdeveloped land in the south and south-west, transforming parts of Kwangsi and Yunnan. Anderson adds that the peanut gave China a new source of protein and oil on lands that had been almost worthless, and that peanut oil is now more important than any other vegetable oil on the central and south coasts.",
+          "tag": "EVIDENCE",
+          "note": "ANCHOR (books read): Bray, Agriculture, SCC 6.2 (1984), PDF p.275; Anderson, The Food of China (1988), PDF p.136. Compare fats-8000bc-1200bc::th5 for the doubted Neolithic peanuts and ec12 of that folio for the Peruvian crop.",
+          "keywords": ["Fukien","China","America"]
+        },
+        {
           "id": "x1",
           "group": "Olive Oil",
           "label": "Olive oil to the Americas, then the olive itself",
@@ -777,6 +792,11 @@
       "accent": "#148080",
       "label": "Exchange",
       "events": [
+        {
+          "y": 1500,
+          "l": "The peanut crosses from America to China, grown for export by 1700",
+          "entryId": "x2"
+        },
         {
           "y": 1550,
           "l": "Olive oil to the Americas, then the olive itself",

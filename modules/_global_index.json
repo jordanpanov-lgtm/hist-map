@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 11047,
+    "total_entries": 11052,
     "folio_count": 234,
     "xlink_pairs": 3206,
-    "keyword_terms": 16642,
+    "keyword_terms": 16656,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -363,12 +363,12 @@
       {
         "id": "fats-1000-1500",
         "title": "Fats & Oils",
-        "entries": 25
+        "entries": 27
       },
       {
         "id": "fats-1200bc-300bc",
         "title": "Fats & Oils",
-        "entries": 32
+        "entries": 33
       },
       {
         "id": "fats-130000bc-8000bc",
@@ -378,7 +378,7 @@
       {
         "id": "fats-1500-1750",
         "title": "Fats & Oils",
-        "entries": 30
+        "entries": 31
       },
       {
         "id": "fats-1750-1850",
@@ -413,7 +413,7 @@
       {
         "id": "fats-8000bc-1200bc",
         "title": "Fats & Oils",
-        "entries": 38
+        "entries": 39
       },
       {
         "id": "france-1494-1610",
@@ -4903,7 +4903,9 @@
     "fats-1000-1500::b1": "Half the year without butter: Lent and the oil line",
     "fats-1000-1500::b2": "The Butter Tower of Rouen",
     "fats-1000-1500::e1": "Arab dishes reach Latin cookbooks, with bacon fat for tail fat",
+    "fats-1000-1500::e2": "The court physician’s dietetics of 1330: sheep’s tail fat in the recipes",
     "fats-1000-1500::th1": "The Chi le pien: sesame best, and a dozen other oils",
+    "fats-1000-1500::ec12": "Polynesians settle Hawai‘i and New Zealand with their tree crops, AD 940–1280",
     "fats-1000-1500::ec1": "The Basques hunt the right whale and sell its fat on fast days",
     "fats-1000-1500::ec3": "Egypt’s flax, linseed oil and sesame",
     "fats-1000-1500::ec9": "Thule hunters, bowhead whales and the oil lamp across the Arctic",
@@ -4935,6 +4937,7 @@
     "fats-1200bc-300bc::e2": "The Zhou court’s “eight delicacies”: pig fried in melted fat, dog liver wrapped in its own fat",
     "fats-1200bc-300bc::th1": "Herodotus: the Babylonians use only sesame oil",
     "fats-1200bc-300bc::th2": "The Zhou Keeper of Victuals: each meat in its own fat",
+    "fats-1200bc-300bc::ec13": "Lapita cooks crack Canarium almonds and grate coconut for cream at Talepakemalai",
     "fats-1200bc-300bc::ec11": "Oil-palm pollen surges in the Niger Delta about 850 BC",
     "fats-1200bc-300bc::ec3": "Mustard and safflower become oil sources in India",
     "fats-1200bc-300bc::ec1": "Ekron’s olive-oil complex: a hundred presses",
@@ -4996,6 +4999,7 @@
     "fats-1500-1750::ec3": "Soap-boilers of Leith put money into a whaling voyage",
     "fats-1500-1750::ec8": "London’s tallow chandlers cannot make enough candles",
     "fats-1500-1750::te1": "The Ming wedge press: roast, roll, steam, press twice",
+    "fats-1500-1750::x2": "The peanut crosses from America to China, grown for export by 1700",
     "fats-1500-1750::x1": "Olive oil to the Americas, then the olive itself",
     "fats-1500-1750::w1": "A warm decade moves the whales offshore",
     "fats-1500-1750::l1": "Palm oil in the slave ship’s pot",
@@ -5166,6 +5170,7 @@
     "fats-8000bc-1200bc::ec10": "Dairy fat in Saharan pots: Takarkori, Libya",
     "fats-8000bc-1200bc::ec22": "China’s pigs and dogs: meat and fat from Yangshao to Shang, and no milk",
     "fats-8000bc-1200bc::ec2": "The olive is domesticated in the Chalcolithic Levant",
+    "fats-8000bc-1200bc::ec24": "Brassica seeds at Banpo: oil, or only greens?",
     "fats-8000bc-1200bc::ec15": "Baltic pots go on cooking marine and freshwater food after farming arrives",
     "fats-8000bc-1200bc::ec20": "Ben, balanos and castor: the oils Egypt grew",
     "fats-8000bc-1200bc::ec18": "Canarium almond, coconut and candlenut in the waterlogged sites of Near Oceania",
@@ -48113,10 +48118,23 @@
       "Christian Europe",
       "Latin Liber"
     ],
+    "fats-1000-1500::e2": [
+      "Dadu",
+      "Beijing",
+      "Yuan China",
+      "Essentials of Dietetics",
+      "Central Asia"
+    ],
     "fats-1000-1500::th1": [
       "Song China",
       "Chi",
       "Zu Ting"
+    ],
+    "fats-1000-1500::ec12": [
+      "Hawai‘i",
+      "New Zealand",
+      "Polynesians",
+      "Hawaiian Islands"
     ],
     "fats-1000-1500::ec1": [
       "Bay of Biscay",
@@ -48279,6 +48297,14 @@
     "fats-1200bc-300bc::th2": [
       "Zhou China",
       "Zhou Keeper of Victuals"
+    ],
+    "fats-1200bc-300bc::ec13": [
+      "Talepakemalai",
+      "Mussau Islands",
+      "Teouma",
+      "Vanuatu",
+      "Lapita",
+      "Canarium"
     ],
     "fats-1200bc-300bc::ec11": [
       "Niger Delta",
@@ -48614,6 +48640,11 @@
     "fats-1500-1750::te1": [
       "Ming China",
       "Wang Zhen"
+    ],
+    "fats-1500-1750::x2": [
+      "Fukien",
+      "China",
+      "America"
     ],
     "fats-1500-1750::x1": [
       "Spain",
@@ -49283,9 +49314,11 @@
       "Chhi"
     ],
     "fats-300bc-600ad::ec7": [
+      "Tonga",
+      "Samoa",
       "Pacific",
-      "Southeast Asia",
-      "Polynesians"
+      "Polynesians",
+      "Ancestral Polynesian"
     ],
     "fats-300bc-600ad::ec6": [
       "Delos",
@@ -49553,6 +49586,12 @@
       "Dead Sea",
       "Chalcolithic Levant",
       "Tuleilat Ghassul"
+    ],
+    "fats-8000bc-1200bc::ec24": [
+      "Banpo",
+      "Shaanxi",
+      "China",
+      "Brassica"
     ],
     "fats-8000bc-1200bc::ec15": [
       "Baltic",
@@ -91143,6 +91182,7 @@
       "eastern-question-1774-1900::c8",
       "elam-3200bc-1500bc::ec1",
       "elam-3200bc-1500bc::x2",
+      "fats-1000-1500::e2",
       "fats-300bc-600ad::x2",
       "ilkhanate-1219-1335::c6",
       "iran-1055-1219::p1",
@@ -94908,10 +94948,12 @@
       "eastern-arabia-750-1200::w5",
       "fats-1000-1500::te2",
       "fats-130000bc-8000bc::te3",
+      "fats-1500-1750::x2",
       "fats-300bc-600ad::te4",
       "fats-300bc-600ad::x2",
       "fats-8000bc-1200bc::th5",
       "fats-8000bc-1200bc::ec22",
+      "fats-8000bc-1200bc::ec24",
       "georgia-1991-today::x5",
       "iraq-1258-1534::g2",
       "iraq-632-945::e3",
@@ -126000,6 +126042,26 @@
     "Latin Liber": [
       "fats-1000-1500::e1"
     ],
+    "Dadu": [
+      "fats-1000-1500::e2",
+      "sugar-1000-1500::e6"
+    ],
+    "Beijing": [
+      "fats-1000-1500::e2",
+      "georgia-1991-today::x5",
+      "iran-1335-1501::x1",
+      "modern-near-east-1990-today::x4",
+      "sugar-1000-1500::e6"
+    ],
+    "Yuan China": [
+      "fats-1000-1500::e2",
+      "fats-1000-1500::ec8",
+      "fats-1000-1500::te1",
+      "sugar-1000-1500::t6"
+    ],
+    "Essentials of Dietetics": [
+      "fats-1000-1500::e2"
+    ],
     "Song China": [
       "fats-1000-1500::th1",
       "sugar-1000-1500::x2"
@@ -126009,6 +126071,20 @@
     ],
     "Zu Ting": [
       "fats-1000-1500::th1"
+    ],
+    "Hawai‘i": [
+      "fats-1000-1500::ec12"
+    ],
+    "New Zealand": [
+      "fats-1000-1500::ec12",
+      "fats-1750-1850::ec10"
+    ],
+    "Polynesians": [
+      "fats-1000-1500::ec12",
+      "fats-300bc-600ad::ec7"
+    ],
+    "Hawaiian Islands": [
+      "fats-1000-1500::ec12"
     ],
     "Bay of Biscay": [
       "fats-1000-1500::ec1"
@@ -126097,11 +126173,6 @@
     "Song": [
       "fats-1000-1500::ec4",
       "sugar-1000-1500::e4"
-    ],
-    "Yuan China": [
-      "fats-1000-1500::ec8",
-      "fats-1000-1500::te1",
-      "sugar-1000-1500::t6"
     ],
     "Surabaya": [
       "fats-1000-1500::ec10"
@@ -126255,6 +126326,26 @@
     ],
     "Zhou Keeper of Victuals": [
       "fats-1200bc-300bc::th2"
+    ],
+    "Talepakemalai": [
+      "fats-1200bc-300bc::ec13"
+    ],
+    "Mussau Islands": [
+      "fats-1200bc-300bc::ec13"
+    ],
+    "Teouma": [
+      "fats-1200bc-300bc::ec13"
+    ],
+    "Vanuatu": [
+      "fats-1200bc-300bc::ec13",
+      "sugar-1800-1900::x4"
+    ],
+    "Lapita": [
+      "fats-1200bc-300bc::ec13"
+    ],
+    "Canarium": [
+      "fats-1200bc-300bc::ec13",
+      "fats-8000bc-1200bc::ec18"
     ],
     "Niger Delta": [
       "fats-1200bc-300bc::ec11",
@@ -126731,7 +126822,6 @@
       "fats-1500-1750::ec13",
       "fats-1900-1960::ec6",
       "fats-1900-1960::ec7",
-      "fats-300bc-600ad::ec7",
       "sugar-1000-1500::x9",
       "yemen-628-1517::x4"
     ],
@@ -126840,6 +126930,20 @@
     ],
     "Wang Zhen": [
       "fats-1500-1750::te1"
+    ],
+    "Fukien": [
+      "fats-1500-1750::x2"
+    ],
+    "America": [
+      "fats-1500-1750::x2",
+      "fats-1900-1960::ec5",
+      "fats-1960-today::ec1",
+      "france-1815-1900::t4",
+      "spain-1700-1808::w2",
+      "sugar-1900-1970::o4",
+      "sugar-1900-1970::te2",
+      "sugar-1970-today::ec5",
+      "sugar-1970-today::l1"
     ],
     "Chile": [
       "fats-1500-1750::x1",
@@ -126999,9 +127103,6 @@
       "fats-1750-1850::ec10"
     ],
     "Bay of Islands": [
-      "fats-1750-1850::ec10"
-    ],
-    "New Zealand": [
       "fats-1750-1850::ec10"
     ],
     "Foveaux Strait": [
@@ -127496,16 +127597,6 @@
     "Soy": [
       "fats-1900-1960::ec5"
     ],
-    "America": [
-      "fats-1900-1960::ec5",
-      "fats-1960-today::ec1",
-      "france-1815-1900::t4",
-      "spain-1700-1808::w2",
-      "sugar-1900-1970::o4",
-      "sugar-1900-1970::te2",
-      "sugar-1970-today::ec5",
-      "sugar-1970-today::l1"
-    ],
     "Wesson Oil": [
       "fats-1900-1960::ec5"
     ],
@@ -127932,7 +128023,13 @@
       "fats-300bc-600ad::th4",
       "fats-300bc-600ad::te4"
     ],
-    "Polynesians": [
+    "Tonga": [
+      "fats-300bc-600ad::ec7"
+    ],
+    "Samoa": [
+      "fats-300bc-600ad::ec7"
+    ],
+    "Ancestral Polynesian": [
       "fats-300bc-600ad::ec7"
     ],
     "Delos": [
@@ -128210,6 +128307,15 @@
     "Tuleilat Ghassul": [
       "fats-8000bc-1200bc::ec2"
     ],
+    "Banpo": [
+      "fats-8000bc-1200bc::ec24"
+    ],
+    "Shaanxi": [
+      "fats-8000bc-1200bc::ec24"
+    ],
+    "Brassica": [
+      "fats-8000bc-1200bc::ec24"
+    ],
     "Ben": [
       "fats-8000bc-1200bc::ec20"
     ],
@@ -128220,9 +128326,6 @@
       "fats-8000bc-1200bc::ec18"
     ],
     "Papua New Guinea": [
-      "fats-8000bc-1200bc::ec18"
-    ],
-    "Canarium": [
       "fats-8000bc-1200bc::ec18"
     ],
     "Near Oceania": [
@@ -130626,12 +130729,6 @@
     ],
     "Association Agreement": [
       "georgia-1991-today::x2"
-    ],
-    "Beijing": [
-      "georgia-1991-today::x5",
-      "iran-1335-1501::x1",
-      "modern-near-east-1990-today::x4",
-      "sugar-1000-1500::e6"
     ],
     "Shovi": [
       "georgia-1991-today::w2"
@@ -158341,9 +158438,6 @@
     "Muhammad al-Baghdadi": [
       "sugar-1000-1500::e5"
     ],
-    "Dadu": [
-      "sugar-1000-1500::e6"
-    ],
     "Yuan": [
       "sugar-1000-1500::e6"
     ],
@@ -159130,9 +159224,6 @@
     ],
     "Steamers": [
       "sugar-1800-1900::te7"
-    ],
-    "Vanuatu": [
-      "sugar-1800-1900::x4"
     ],
     "Blackbirders": [
       "sugar-1800-1900::x4"

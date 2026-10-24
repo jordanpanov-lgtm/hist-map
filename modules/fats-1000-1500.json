@@ -149,6 +149,21 @@
           "tag": "TEXT",
           "note": "SECONDARY (scholarly introduction): Nasrallah, Annals of the Caliphs’ Kitchens (2007), Introduction (PDF p.41), citing Maxime Rodinson’s articles on Liber de coquina; the date is Nasrallah’s ‘towards the end of the thirteenth century’ as I read it, and was not checked against Rodinson.",
           "keywords": ["Christian Europe","Latin Liber"]
+        },
+        {
+          "id": "e2",
+          "group": "Cookery & Food Writing",
+          "label": "The court physician’s dietetics of 1330: sheep’s tail fat in the recipes",
+          "date": "1330",
+          "loc": "Dadu, Beijing, Yuan China",
+          "coords": [
+            39.9,
+            116.4
+          ],
+          "hint": "The Yinshan zhengyao, “Essentials of Dietetics”, presented to the Emperor by the court physician in 1330, makes heavy use of the tail fat of the fat-tailed sheep, both the mass itself and the rendered fat. Anderson notes that this fat has a flavour stronger but pleasanter than lard and is probably the most beloved food item throughout Central Asia, that nothing could be further from Chinese taste, and that the emphasis shows the book’s Mongol origin and audience; other recipes are Arabo-Persian or Turkic. Boiled mutton was probably the most important food after grains.",
+          "tag": "TEXT",
+          "note": "ANCHOR (book read): Anderson, The Food of China (1988), the Yuan section, PDF p.86 (citing Sukhov’s and Inalcık’s works there). Compare fats-600-1000::e1 for the same tail fat in the Baghdad cookbook and e1 here for the Arab dishes that reach Latin cookbooks.",
+          "keywords": ["Dadu","Beijing","Yuan China","Essentials of Dietetics","Central Asia"]
         }
       ]
     },
@@ -185,6 +200,21 @@
       "accent": "#8B5E00",
       "subtitle": "Basque whaling, Tunisian oil in Egypt, Egyptian linseed, Hangzhou’s oil trade, palm oil on sale",
       "entries": [
+        {
+          "id": "ec12",
+          "group": "Palm & Coconut",
+          "label": "Polynesians settle Hawai‘i and New Zealand with their tree crops, AD 940–1280",
+          "date": "c.940–1280",
+          "loc": "Hawai‘i and New Zealand",
+          "coords": [
+            21,
+            -157.8
+          ],
+          "hint": "Kirch dates the settlement of the Hawaiian Islands to between AD 940 and 1130, from the bones of the Pacific rat and from Polynesian-introduced plants such as candlenut, and the settlement of New Zealand, the last of the large islands to be colonised, to about AD 1280, from rat bones, with rat-gnawed seeds dated to AD 1140–1340. Candlenut is among the Polynesian-introduced plants carried by the voyagers; the passages say nothing about oil from it.",
+          "tag": "CONTEXT",
+          "note": "CONTEXT (book read): Kirch, On the Road of the Winds (rev. ed.), ch.7, PDF p.222, citing Athens, Reith & Dye 2014 and Wilmshurst et al. 2008. The candlenut appears there as dating evidence, not as a fat; the fat reading is the folio’s, from Kirch’s coconut and nut-crop passages.",
+          "keywords": ["Hawai‘i","New Zealand","Polynesians","Hawaiian Islands"]
+        },
         {
           "id": "ec1",
           "group": "Whale & Marine Oils",
@@ -554,6 +584,11 @@
           "y": 1280,
           "l": "Arab dishes reach Latin cookbooks, with bacon fat for tail fat",
           "entryId": "e1"
+        },
+        {
+          "y": 1330,
+          "l": "The court physician’s dietetics of 1330: sheep’s tail fat in the recip",
+          "entryId": "e2"
         }
       ]
     },
@@ -576,6 +611,11 @@
       "accent": "#8B5E00",
       "label": "Economy",
       "events": [
+        {
+          "y": 940,
+          "l": "Polynesians settle Hawai‘i and New Zealand with their tree crops, AD 9",
+          "entryId": "ec12"
+        },
         {
           "y": 1000,
           "l": "The Basques hunt the right whale and sell its fat on fast days",
