@@ -1,0 +1,1469 @@
+{
+  "id": "sugar-1000-1500",
+  "title": "Sugar",
+  "subtitle": "1000–1500 · From the Nile Refineries to Madeira: Egypt, Cyprus, Sicily, Granada and Song–Yuan China",
+  "period": {
+    "start": 1000,
+    "end": 1500
+  },
+  "mapCenter": [
+    35,
+    40
+  ],
+  "mapZoom": 3,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "",
+      "entries": []
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "The Mongols, the loss of Acre, Frederick II’s deportations and the raids on Upper Egypt",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Frederick II’s Sicilian Wars",
+          "label": "The wars of Frederick II empty Sicily’s cane lands",
+          "date": "1220–1240",
+          "loc": "Western Sicily and Lucera",
+          "coords": [
+            41.5,
+            15.33
+          ],
+          "hint": "Frederick II’s campaigns against the island’s Muslim population and their deportation to Lucera in Apulia between 1220 and 1240 leave the countryside deserted, and Sicilian sugar, short of skilled hands, falls away; Ouerfelli adds that the art of refining was nearly forgotten. Frederick’s answer in 1239 was to send abroad for two sugar-makers (x3).",
+          "tag": "EVENT",
+          "note": "SECONDARY: Ouerfelli, Le sucre (2008) pp.153–154 (‘la production de sucre, faute de trouver une main d’œuvre spécialisée, chute considérablement et l’art de le raffiner est oublié’); the claim is Ouerfelli’s, drawn from Trasselli. See x3 and ec3.",
+          "keywords": ["Western Sicily","Lucera","Frederick II"]
+        },
+        {
+          "id": "c2",
+          "group": "Mongol Wars",
+          "label": "The Mongols plunder 600 loads of Egyptian sugar",
+          "date": "1252",
+          "loc": "Harran road, Upper Mesopotamia",
+          "coords": [
+            36.87,
+            39.02
+          ],
+          "hint": "In 1252 the Mongol army falls on a caravan bound from Harran for Baghdad and seizes, among much else, 600 loads of Egyptian sugar — about 150,000 kg by Sato’s reckoning. Al-Maqrizi values the sugar at 600,000 dinars; Sato, using al-Umari’s price of 0.4 dinar a kilogram, gets 60,000. Either way, a caravan of Egyptian sugar in northern Mesopotamia shows how widely it was exported in the thirteenth century.",
+          "tag": "EVENT",
+          "note": "ANCHOR (as quoted): al-Maqrizi, Kitab al-Suluk I, 383–384, quoted in Sato, Sugar in the Social Life of Medieval Islam (2015) pp.62–63, who corrects the value by his own calculation (al-Umari, Masalik al-absar, Dawlat al-Mamalik al-Ula p.84). The size of the load (about 250 kg) is Sato’s assumption.",
+          "keywords": ["Harran","Upper Mesopotamia","Mongols"]
+        },
+        {
+          "id": "c3",
+          "group": "Crusades",
+          "label": "The fall of Acre ends the sugar lands of the Syrian coast",
+          "date": "1291",
+          "loc": "Acre",
+          "coords": [
+            32.93,
+            35.08
+          ],
+          "hint": "The fall of Acre in 1291 ends the Latin states, and with them the sugar estates that Latin lords, the military orders and the Italian merchants had held on the Syrian coast. Ouerfelli argues that, robbed of this ‘appreciable resource’, the Latins and their Genoese and Venetian partners set about rebuilding it in Cyprus.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Ouerfelli (2008) pp.105–106 (the Latins ‘privés de cette appréciable ressource’ go to Cyprus; the argument that the move was a deliberate compensation is Ouerfelli’s inference). See crusader-states-1099-1291::ec1 and ec5 below.",
+          "keywords": ["Acre","Syrian"],
+          "xlinks": ["crusader-states-1099-1291::p8","mamluks-1250-1517::c4"]
+        },
+        {
+          "id": "c4",
+          "group": "Bedouin Raids",
+          "label": "Bedouin raiders strip Upper Egypt’s presses and refineries",
+          "date": "c.1350–1400",
+          "loc": "Upper Egypt",
+          "coords": [
+            26.2,
+            32.7
+          ],
+          "hint": "From the second half of the fourteenth century the Bedouin repeatedly attack the sugar presses and refineries of Upper Egypt, stealing raw sugar, white sugar and oxen. Sato counts the raids, with plague, among the causes of the decline of Egyptian sugar; in the fifteenth century sugar is no longer one of the main goods that the Venetians buy.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Sato (2015) p.66 (Ibn Taghribirdi, al-Maqrizi), citing Horii (2003) on the Venetian purchases; Ashtor, ‘Levantine Sugar Industry’, pp.101–123 for the wider argument. ‘Second half of the fourteenth century’ is Sato’s phrase.",
+          "keywords": ["Upper Egypt","Bedouin"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "Taxes on the Dar al-Qand, iqta rules, the al-Nashw confiscations and Palermo’s cane gabelle and water decree",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Fiscal & Monetary Policy",
+          "label": "Salah al-Din repeals the taxes on the raw-sugar store and refineries",
+          "date": "1171–1172",
+          "loc": "Cairo and Fustat",
+          "coords": [
+            30,
+            31.23
+          ],
+          "hint": "At the end of the cadastral survey of 567/1171–72 Salah al-Din abolishes about 100,000 dinars a year of ‘miscellaneous’ taxes, among them 3,108 dinars on the Dar al-Qand (the raw-sugar store at Fustat), 50 dinars on the sugar-merchants’ market and 135 dinars on refineries at half a ratl per qintar. Sato reasons that the refinery tax implies a taxed output of 200,000 kg or more of sugar a year from the Fatimid to the Ayyubid period.",
+          "tag": "EDICT",
+          "note": "ANCHOR (as quoted): al-Maqrizi, al-Khitat I, 104–105, in Sato (2015) pp.114–116. The 1/200 rate and the 200,000 kg output are Sato’s inferences (with a 2.5-dirham ratl price); Sato infers that the Dar al-Qand already existed under the Fatimids because the tax was abolished early in Ayyubid rule. See ayyubids-1171-1250::ec4 and fatimids-909-1171::ec5.",
+          "keywords": ["Cairo","Fustat","Salah al-Din","Dar al-Qand"],
+          "xlinks": ["ayyubids-1171-1250::ec4","fatimids-909-1171::ec5"]
+        },
+        {
+          "id": "o2",
+          "group": "Administrative Reform",
+          "label": "Ibn Mammati’s rules for cane when an iqta changes hands",
+          "date": "1192–1193",
+          "loc": "Egypt",
+          "coords": [
+            30,
+            31.23
+          ],
+          "hint": "The Ayyubid administrator Ibn Mammati sets out what happens to standing cane when a district is given to a new iqta-holder in 1192: the first holder may press the crop; second-year cane must be vacated on 5 January 1193 and first-year cane on 6 May 1193; a late holder must pay a levy of about 2.6 dinars per faddan to use the state press and its oxen; and whoever leaves must hand the iqta back in the state he found it.",
+          "tag": "LAW",
+          "note": "ANCHOR (as quoted): Ibn Mammati (an Ayyubid administrator, work not named in the pages read), in Sato (2015) pp.61–62 (five rules, with the dates converted by Sato; the levy is 2 15/24 dinars per faddan in Sato’s text). Sato reads them as protecting stable production and the periodic reassignment of iqtas.",
+          "keywords": ["Egypt","Ibn Mammati"]
+        },
+        {
+          "id": "o3",
+          "group": "Fiscal & Monetary Policy",
+          "label": "Amir Sunqur’s sugar village is confiscated by the sultan",
+          "date": "1326",
+          "loc": "Al-Gharbiyya province, Nile Delta",
+          "coords": [
+            30.8,
+            31
+          ],
+          "hint": "In 1326 the Mamluk amir Sunqur al-Sa‘di builds a mosque, a mill, a caravanserai and a sugarcane press in a village on his iqta; peasants flock to it and its kharaj tax reaches 15,000 dirhams. When the sultan hears of this, he sends a representative to confiscate the iqta, and the village becomes part of the sultan’s domain.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Ibn Iyas, Bada’i‘ al-zuhur I-1, 458, and Ibn Hajar, al-Durar al-kamina II, 273, in Sato (2015) p.64; the interpretation that it shows rulers and amirs treating sugar as profitable is Sato’s. Ibn Hajar says Sunqur died at Tripoli, Ibn Iyas that he stayed in the village — the sources disagree.",
+          "keywords": ["Al-Gharbiyya","Nile Delta","Amir Sunqur","Sunqur al-Sa‘di"]
+        },
+        {
+          "id": "o4",
+          "group": "Fiscal & Monetary Policy",
+          "label": "Al-Nashw ends the amirs’ tax exemption on raw sugar",
+          "date": "1333",
+          "loc": "Dar al-Qand, Fustat",
+          "coords": [
+            30,
+            31.23
+          ],
+          "hint": "In February 1333 the sultan’s treasurer al-Nashw rides to the Dar al-Qand, sees how much raw sugar the amirs bring in from their own presses, and cancels the exemption the sultan had given them. He tells the sultan that the tax on raw sugar at the store has risen to 6,000 dinars in a single day.",
+          "tag": "EVENT",
+          "note": "ANCHOR (as quoted): al-Maqrizi, Kitab al-Suluk II, 360, in Sato (2015) p.117 (Jumada II 733); Sato notes that the same account is in al-Yusufi, Nuzhat al-nazir, 127. Sato reads it as showing that the amirs’ raw sugar was taxed at the Dar al-Qand and then refined in their own refineries.",
+          "keywords": ["Dar al-Qand","Fustat","Al-Nashw"]
+        },
+        {
+          "id": "o5",
+          "group": "Fiscal & Monetary Policy",
+          "label": "Al-Nashw seizes the Fuwayl family’s cane at Mallawi",
+          "date": "1338",
+          "loc": "Mallawi, Upper Egypt",
+          "coords": [
+            27.73,
+            30.84
+          ],
+          "hint": "In 1338 al-Nashw’s inspector finds that the Fuwayl family of Mallawi has made 14,000 qintars of raw sugar on 1,500 faddans, though their deal with the officials was to pay a tax on only 1,000. He seals the crop, takes 8,000 qintars for the sultan, and misses a further 10,000 qintars that the family still holds.",
+          "tag": "EVENT",
+          "note": "ANCHOR (as quoted): al-Maqrizi, Kitab al-Suluk II, 431 and al-Khitat I, 204, in Sato (2015) pp.118–119, who converts 14,000 qintars to 1,260,000 kg. The numbers are as al-Maqrizi gives them; Sato’s hectare conversions for the same 1,500 faddans differ between pages. See ec6.",
+          "keywords": ["Mallawi","Upper Egypt","Al-Nashw","Fuwayl"]
+        },
+        {
+          "id": "o6",
+          "group": "Fiscal & Monetary Policy",
+          "label": "King Martin’s tax privileges drive Palermo’s cane boom",
+          "date": "1393–1416",
+          "loc": "Palermo",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "In 1393 the tax on Palermo’s sugar cane yields only 100 ounces. King Martin the Humane, wanting the profit and wanting foreign merchants, then grants tax advantages to producers; the effect is ‘immediate’, and the gabelle rises to 853 ounces in 1408–09 and 1,000 ounces in 1416. The change brings nobles, officials and merchants into the business (ec7).",
+          "tag": "EDICT",
+          "note": "SECONDARY: Ouerfelli (2008) pp.159–160, from Trasselli and Bresc (gabelle figures); the privileges are not dated more closely there.",
+          "keywords": ["Palermo","Martin the Humane"]
+        },
+        {
+          "id": "o7",
+          "group": "Administrative Reform",
+          "label": "Palermo’s decree regulates water for the cane fields",
+          "date": "1419",
+          "loc": "Palermo",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "On 12 June 1419 the University of Palermo issues a decree on the use and passage of irrigation water for the cane plantations, offering to arbitrate between cane planters and the owners of vines and gardens whose land the new aqueducts crossed. Ouerfelli calls it the high point of the tension between them.",
+          "tag": "LAW",
+          "note": "SECONDARY: Ouerfelli (2008) p.160, citing Trasselli, Storia dello zucchero siciliano, p.121; the ‘University’ is the city commune of Palermo. A parallel Trapani inquiry on water use and tariffs is mentioned in the same source.",
+          "keywords": ["University of Palermo"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "Ramadan sugar, the waqf of the Prophet’s tomb and the sultan’s grant",
+      "entries": [
+        {
+          "id": "b1",
+          "group": "Islam",
+          "label": "The Fatimid caliph gives 50,000 mans of sugar for Ramadan",
+          "date": "1047",
+          "loc": "Cairo",
+          "coords": [
+            30.05,
+            31.25
+          ],
+          "hint": "The Persian traveller Nasir-i Khusraw, in Cairo in 1047, writes that the Fatimid caliph’s gift in Ramadan was 50,000 mans of sugar (Sato: 41,650 kg), and that he saw a citron tree with 1,000 branches, leaves and fruit all made of sugar. The month of fasting had become the occasion for royal sugar.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Nasir-i Khusraw, Safarnama p.79, in Sato (2015) p.123 (the caliph is al-Mustansir; the conversion to kilograms is Sato’s). Compare the sugar parade of 1024 (e1) and Mamluk Ramadan rations (b3).",
+          "keywords": ["Cairo","Fatimid","Ramadan","Nasir-i Khusraw"]
+        },
+        {
+          "id": "b2",
+          "group": "Islam",
+          "label": "Salah al-Din endows the Prophet’s tomb with a sugar press",
+          "date": "1171–1193",
+          "loc": "Naqqada, Qus province",
+          "coords": [
+            25.9,
+            32.7
+          ],
+          "hint": "Salah al-Din makes the village of Naqqada in the Qus province, and a third of Sandabis, a waqf for the 24 servants of the Prophet’s tomb at Medina; the servants set up a waterwheel and a sugarcane press there and put a manager in the village. Sugar income is thus part of the support of one of Islam’s holiest shrines.",
+          "tag": "DOCUMENT",
+          "note": "SECONDARY: Ibn Duqmaq, al-Intisar II, 33, in Sato (2015) p.60; the endowment is undated beyond Salah al-Din’s reign (1171–1193).",
+          "keywords": ["Naqqada","Qus","Salah al-Din","Prophet"]
+        },
+        {
+          "id": "b3",
+          "group": "Islam",
+          "label": "The sultan’s Ramadan sugar grant triples to 3,000 qintars",
+          "date": "1344–1345",
+          "loc": "Cairo",
+          "coords": [
+            30.05,
+            31.25
+          ],
+          "hint": "Under al-Nasir Muhammad the sultan’s sugar allowance in Ramadan was 1,000 qintars; in 745/1344–45, under al-Salih Isma‘il, it rose to over 3,000 qintars (about 290,000 kg, 30,000 dinars). That year the treasury could not pay it, the cane harvest had been hurt, and sugar went only to the women of the court.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): al-Maqrizi, al-Khitat II, 231 and Kitab al-Suluk II, 671, in Sato (2015) pp.123–124; the kilogram and dinar equivalents are Sato’s. The ratib is a stipend in kind paid to the royal mamluks and officials.",
+          "keywords": ["Cairo","Ramadan","al-Nasir Muhammad","al-Salih Isma‘il"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "The sugar parade of 1024, Song street sweets, al-Baghdadi’s cookbook and the Mamluk banquet",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Cookery & Food Writing",
+          "label": "A sugar banquet with 152 figures parades through Cairo",
+          "date": "1024",
+          "loc": "Cairo",
+          "coords": [
+            30.05,
+            31.25
+          ],
+          "hint": "On the Friday that ended Ramadan in 415/1024 a diorama of a banquet in sugar candy, with 152 figures and seven castles, was paraded through the streets of Cairo under the Fatimid caliph al-Zahir. Sato places it among the caliphs’ uses of sugar to show their authority.",
+          "tag": "EVENT",
+          "note": "SECONDARY: al-Musabbihi, as reported in Sato (2015) ch.3 (pp.53–60) and p.123 (the paraded diorama, 415/1024; the page read for the figures is p.123). See fatimids-909-1171::ec5.",
+          "keywords": ["Cairo"]
+        },
+        {
+          "id": "e2",
+          "group": "Cookery & Food Writing",
+          "label": "Kaifeng sells lion-shaped sugar and Sichuan milk sugar",
+          "date": "c.1100–1127",
+          "loc": "Kaifeng, Northern Song",
+          "coords": [
+            34.8,
+            114.3
+          ],
+          "hint": "The Dongjing menghua lu, a memoir of the Northern Song capital Kaifeng before its fall in 1127, lists Sichuan milk sugar, lion-shaped sugar and ‘chicken-head’ sand sugar among the street sweets. Needham reads this as sugar confectionery reaching merchants and the well-off, where under the Tang it had been a preserve of the court.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Needham, SCC 6.3 (1996) pp.77 and 89 (Tung-ching meng-hua lu p.7, ‘early +12th century’; the book itself was compiled later). The list of sweets is Needham’s citation; the rise from court to market is his inference. Dated by the city it describes.",
+          "keywords": ["Kaifeng","Northern Song","Sichuan"]
+        },
+        {
+          "id": "e3",
+          "group": "Cookery & Food Writing",
+          "label": "Caliph al-Amir’s sweets for the faithful",
+          "date": "1123",
+          "loc": "Cairo",
+          "coords": [
+            30.05,
+            31.25
+          ],
+          "hint": "On the caliph’s birthday in the Fatimid court, sweets made of sugar were handed out to the faithful, and from Rajab to Ramadan 517/1123 al-Amir had sweets distributed in turn at al-Azhar, the mosque of ‘Amr and other mosques. The vizier’s own banquet for the feast of sacrifice in 1122 cost 1,326 dinars.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Ibn al-Ma’mun, quoted in Sato (2015) ch.3 (about p.59; 517/1123 distribution and the banquet of 516/1122, 1,326 and 5/12 dinars). The vizier is al-Ma’mun, the author’s father.",
+          "keywords": ["Cairo","Caliph al-Amir"]
+        },
+        {
+          "id": "e4",
+          "group": "Cookery & Food Writing",
+          "label": "Hangzhou has a government ‘honey-boiling office’",
+          "date": "c.1200–1235",
+          "loc": "Lin’an, Hangzhou, Southern Song",
+          "coords": [
+            30.27,
+            120.16
+          ],
+          "hint": "The Du cheng ji sheng, a description of the Southern Song capital Lin’an in the early thirteenth century, records street sellers of sugar and candied fruit, and a government office, the mi jian ju (‘honey-boiling department’), that supplied fruit boiled in sugar and honey to officials and the high-ranking.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Needham, SCC 6.3 p.89 (Du cheng ji sheng pp.91, 94; the book’s preface is dated 1235, and Needham dates the scene to the early +13th century); also Tai (1) pp.31–34. Dated by what it describes.",
+          "keywords": ["Lin’an","Hangzhou","Song"]
+        },
+        {
+          "id": "e5",
+          "group": "Cookery & Food Writing",
+          "label": "Al-Baghdadi’s cookbook gives sweets a chapter of their own",
+          "date": "1226",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.36
+          ],
+          "hint": "Muhammad al-Baghdadi, a scribe, finishes his Kitab al-tabikh in 1226, writing for himself as one who prefers the pleasure of food above all others. Of its ten chapters, the ninth is on sweets (halwa) and the tenth on qata’if pancakes and khushkananaj cookies; the book has 160 recipes in all.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): al-Baghdadi, Kitab al-tabikh (623/1226), in Sato (2015) pp.147–148, using Perry’s English translation, A Baghdad Cookery Book; Sato’s chapter and recipe counts. Compare sugar-600-1000::e2 (Ibn Sayyar).",
+          "keywords": ["Baghdad","Muhammad al-Baghdadi"],
+          "xlinks": ["sugar-600-1000::e2"]
+        },
+        {
+          "id": "e6",
+          "group": "Cookery & Food Writing",
+          "label": "The Mongol court’s dietary manual puts sugar in its recipes",
+          "date": "1330",
+          "loc": "Dadu, Beijing, Yuan court",
+          "coords": [
+            39.9,
+            116.4
+          ],
+          "hint": "Hu Sihui, the Yuan court dietitian, presents the Yinshan zhengyao to the emperor in 1330; a book of mostly therapeutic recipes with Chinese and Central Asian influences, it uses cane sugar in many sweet-and-sour sauces and in remedies for drunkenness. Mazumdar concludes that sugar ‘was no longer a novelty’ for the Mongols.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Mazumdar (1998) pp.36–37 (Yinshan zhengyao; the quotation ‘no longer a novelty’ is her conclusion, from the recipes). She also notes that Karakorum’s markets and palace show no cane sugar (honey, mead and mare’s milk instead).",
+          "keywords": ["Dadu","Beijing","Yuan","Mongol","Hu Sihui","Central Asian"]
+        },
+        {
+          "id": "e7",
+          "group": "Cookery & Food Writing",
+          "label": "A polo-match banquet in Cairo uses 50 qintars of sugar",
+          "date": "1398",
+          "loc": "Cairo, below the Citadel",
+          "coords": [
+            30.03,
+            31.26
+          ],
+          "hint": "After beating the amir Aytamish at polo on 27 July 1398, Sultan Barquq gives him 200,000 dirhams for a feast under the Citadel: 20,000 ratl of meat, 1,000 birds, 20 horses, 70 ardabbs of flour for sweets and 50 qintars (about 4,800 kg) of sugar. A Sufi beggar nearby cries out against the extravagance.",
+          "tag": "EVENT",
+          "note": "ANCHOR (as quoted): Ibn Hajar, Inba’ al-ghumr II, 15, in Sato (2015) pp.129–130; the kilogram conversions are Sato’s. Sato adds that al-Maqrizi distinguishes ‘banquets of food’ from ‘banquets of sweets’.",
+          "keywords": ["Cairo","Citadel","Sultan Barquq"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "Ibn Ridwan, Ibn Butlan, Symeon Seth, Falcandus, Ibn al-Baytar, Ibn al-Nafis and the Yuan farm manual",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "Science & Geography",
+          "label": "Ibn Ridwan: Upper Egypt’s poor eat sweets of cheap raw sugar",
+          "date": "c.1000–1050",
+          "loc": "Cairo and Upper Egypt",
+          "coords": [
+            30.05,
+            31.25
+          ],
+          "hint": "The Egyptian physician Ibn Ridwan (998–1068), in his treatise on preventing bodily ills, shows that by the early eleventh century the common people of Upper Egypt were buying sweets made from cheap raw sugar (qand) and molasses (‘asal). It is a rare glimpse of sugar below the court.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Sato (2015) p.14, summarising Ibn Ridwan, Kitab daf madarr al-abdan, ed. Gamal and tr. Dols (1984); the page of the primary text was not checked here. Dated by the period Sato says it describes.",
+          "keywords": ["Cairo","Upper Egypt","Ibn Ridwan"]
+        },
+        {
+          "id": "t2",
+          "group": "Science & Geography",
+          "label": "Ibn Butlan’s health tables list sugar among 280 items",
+          "date": "by 1066",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.36
+          ],
+          "hint": "The Christian physician Ibn Butlan (d. 1066) compiles in Baghdad a manual of health, the Taqwim al-sihha, indexing 280 items — foods, dishes, drinks, spices, lifestyles and climates — in the form later known in Latin as the Tacuinum sanitatis. Sugar is one of the foods that it classes by its qualities.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Sato (2015) p.14 (Elkhadem’s edition and French translation, Leuven 1990); the date is Ibn Butlan’s death, not the composition. The ‘Tacuinum’ link is general knowledge, not from Sato. Compare t3 on Byzantium.",
+          "keywords": ["Baghdad","Ibn Butlan"]
+        },
+        {
+          "id": "t3",
+          "group": "Science & Geography",
+          "label": "Sugar reaches Byzantine medicine through Antioch",
+          "date": "c.1070–1120",
+          "loc": "Antioch and Constantinople",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "Symeon Seth, a Byzantine physician of the later eleventh century, trained at Antioch around 1060 with Ibn Butlan and brought Arabic dietetics into Greek; Bouras-Vallianatos argues that sugar-based potions followed, entering regular Byzantine medical practice from the late eleventh or early twelfth century. The earliest source for sugar trade in Constantinople itself is from the early fourteenth century (x5).",
+          "tag": "TEXT",
+          "note": "SECONDARY, from abstracts only: Bouras-Vallianatos, ‘Cross-cultural Transfer of Medical Knowledge in the Medieval Mediterranean’, Speculum 96 (2021) 963–1008, doi 10.1086/715838 (abstract read; full text not); Pietrobelli et al., ‘Arabic Galenism from Antioch to Byzantium’ (2022) on Seth’s training with Ibn Butlan c.1060 and his Handbook of Health as a partial translation of the Taqwim. Check the articles before relying on this entry.",
+          "keywords": ["Antioch","Constantinople","Symeon Seth","Ibn Butlan"],
+          "xlinks": ["sugar-600-1000::th2"]
+        },
+        {
+          "id": "t4",
+          "group": "Science & Geography",
+          "label": "Hugo Falcandus describes Palermo’s ‘honey canes’",
+          "date": "c.1190",
+          "loc": "Palermo",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "Hugo Falcandus, writing to the treasurer of Palermo near the end of the twelfth century, describes marvellous reeds that the people call honey canes, from the sweetness of their juice: cooked with care it becomes a kind of honey, and cooked to the end it thickens into sugar. It is the clearest Latin account of Norman Sicily’s cane.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Ouerfelli (2008) p.153 (‘vers la fin du XIIe siècle’, quoting the letter to Pietro Andulso; the date c.1190 is an approximation and the French rendering is Ouerfelli’s). Trasselli doubted the continuity of Sicilian cane under the Normans; Ouerfelli answers with this text, the Monreale mill and the Teutonic Order’s 1206 mill (ec3).",
+          "keywords": ["Palermo","Hugo Falcandus","Norman Sicily"]
+        },
+        {
+          "id": "t5",
+          "group": "Science & Geography",
+          "label": "Ibn al-Baytar writes sugar into the Egyptian pharmacopoeia",
+          "date": "c.1220–1248",
+          "loc": "Cairo",
+          "coords": [
+            30.05,
+            31.25
+          ],
+          "hint": "Ibn al-Baytar of Málaga, who reaches Cairo about 1220 and is made head of Egypt’s herbalists by Sultan al-Kamil, includes an entry for sukkar in his Jami‘ li-mufradat al-adwiya, collecting what the authorities of earlier centuries had said of its medical effects. He dies in 1248.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Sato (2015) p.13 (Ibn al-Baytar, al-Jami‘ li-mufradat al-adwiya wa-l-aghdhiya, Bulaq 1874; Sato’s dates 617/1220 and 646/1248).",
+          "keywords": ["Cairo","Ibn al-Baytar of Málaga","Sultan al-Kamil"],
+          "xlinks": ["ayyubids-1171-1250::t6"]
+        },
+        {
+          "id": "t6",
+          "group": "Science & Geography",
+          "label": "The Nongsang jiyao brings sugar into the Yuan state’s farm manual",
+          "date": "1286",
+          "loc": "Yuan China",
+          "coords": [
+            39.9,
+            116.4
+          ],
+          "hint": "The Nongsang jiyao (1286), an agricultural manual issued by the Mongol government for the whole empire, includes advice on growing cane and making sugar; Mazumdar sees this as an effort to rebuild sugar after the devastation of Sichuan. The later Yuan treatises of 1313 and 1314 do not discuss cane sugar.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Mazumdar (1998) p.36 (Nongsang jiyao, 1286; Wang Zhen’s Nongshu, 1313, and Lu Mingshan’s Nongsang yishi cuoyao, 1314, silent on cane sugar); the interpretation of the government’s motive is hers. See w1.",
+          "keywords": ["Yuan China","Nongsang"]
+        },
+        {
+          "id": "t7",
+          "group": "Science & Geography",
+          "label": "Ibn al-Quff gives over 250 recipes, many with sugar",
+          "date": "by 1286",
+          "loc": "Karak and Damascus",
+          "coords": [
+            31.18,
+            35.7
+          ],
+          "hint": "Ibn al-Quff of Karak (1233–1286), a surgeon and physician, writes a handbook of health and disease prevention with more than 250 recipes, many for sweets and for meat dishes sweetened with sugar.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Sato (2015) p.14 (Ibn al-Quff, Jami‘ al-gharad fi hifz al-sihha wa-daf‘ al-marad, ed. Hamarneh, Amman 1989); the date is his death, not the composition.",
+          "keywords": ["Damascus","Ibn al-Quff","Ibn al-Quff of Karak"]
+        },
+        {
+          "id": "t8",
+          "group": "Science & Geography",
+          "label": "Ibn al-Nafis, ‘a second Ibn Sina’, explains how each sugar is made",
+          "date": "by 1288",
+          "loc": "Cairo and Damascus",
+          "coords": [
+            30.05,
+            31.25
+          ],
+          "hint": "Ibn al-Nafis (died 1288), personal physician of Sultan Baybars, writes in his Shamil a systematic account of sugar as medicine and describes the production of each kind of sugar more precisely than any earlier Arab author; he calls the cone-moulded abarzad sugar the commonest in Egypt and Syria.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Sato (2015) pp.13 and 47 (Ibn al-Nafis, al-Shamil fi l-sina‘a al-tibbiyya, 30 vols.; the ‘second Ibn Sina’ epithet and the claim of greater precision are Sato’s). The date is his death.",
+          "keywords": ["Cairo","Damascus","Ibn al-Nafis","Ibn Sina","Sultan Baybars"],
+          "xlinks": ["mamluks-1250-1517::t3"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "Egypt’s cane belt and 65 Fustat refineries, Cyprus’s three estates, Palermo’s boom, Granada, Valencia and Madeira",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Agriculture & Land",
+          "label": "The ruler of Almería plants cane in his garden",
+          "date": "1039–1091",
+          "loc": "Almería",
+          "coords": [
+            36.84,
+            -2.46
+          ],
+          "hint": "An eleventh-century text says that al-Mu‘tasim ibn Sumadih, king of Almería (1039–1091), planted sugarcane among other rare plants in his garden. Cane in al-Andalus began in princely gardens under the eyes of agronomists, and until the fourteenth century stayed small and for medicine and the court.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Ouerfelli (2008) p.180 (an eleventh-century text, not named in the page read, on al-Mu‘tasim); Ouerfelli adds that al-Razi, the Calendar of Cordoba (961) and later geographers show cane at Salobreña, Almuñécar and the Guadalquivir lowlands. See al-andalus-1031-1492::s5.",
+          "keywords": ["Almería","al-Mu‘tasim ibn Sumadih"],
+          "xlinks": ["al-andalus-711-1031::s1"]
+        },
+        {
+          "id": "ec2",
+          "group": "Industry & Production",
+          "label": "Suining: forty per cent of the land in cane, a third of households making candy",
+          "date": "c.1142–1154",
+          "loc": "Umbrella Mountain, Suining, Sichuan",
+          "coords": [
+            30.53,
+            105.59
+          ],
+          "hint": "Wang Zhuo says only five counties in China — in Fujian, Zhejiang, Guangdong and Sichuan — can make sugar candy, and Suining’s is best: around Umbrella Mountain 40 per cent of the farmland is in cane and 30 per cent of the households make candy, some 300 families of the finest and another 100 of lower grades. Needham attributes this concentration to monopolised know-how and good rainfall.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Wang Zhuo, Tangshuang pu pp.1a, 3a–3b, in Needham, SCC 6.3 pp.89–91; the explanation (monopoly of technique plus rainfall) is Needham’s. The date follows te1; Mazumdar gives 1142 and Needham c.1154.",
+          "keywords": ["Umbrella Mountain","Suining","Sichuan","Wang Zhuo"]
+        },
+        {
+          "id": "ec3",
+          "group": "Agriculture & Land",
+          "label": "Norman Palermo has a cane estate and a Monreale cane mill",
+          "date": "1161–1176",
+          "loc": "Conca d’Oro, Palermo",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "In 1161 the royal court confiscates a Conca d’Oro estate of Ya‘qub ibn Fadlun, a Jew, that includes a tower, a spring, fields, fruit trees, a vineyard and sugarcane; in 1176 William II gives the abbey of Monreale an animal-driven mill for pressing ‘honey canes’, known in Arabic as masara. Ouerfelli argues that this and the Teutonic Order’s 1206 mill answer Trasselli’s doubt about continuity.",
+          "tag": "DOCUMENT",
+          "note": "SECONDARY: Ouerfelli (2008) pp.152–153 (Cusa, I diplomi greci ed arabi di Sicilia p.622; Borgnino 1910 p.13 for the 1176 grant). Trasselli argued from al-Idrisi’s silence that Norman Sicily had little or no sugar; Ouerfelli prefers continuity. Compare t4.",
+          "keywords": ["Conca","Norman Palermo","Monreale","Ya‘qub ibn Fadlun","William II","Teutonic Order"],
+          "xlinks": ["sugar-600-1000::ec4"]
+        },
+        {
+          "id": "ec4",
+          "group": "Agriculture & Land",
+          "label": "Cane takes 1,468 faddans of al-Fayyum against 29,000 of wheat",
+          "date": "1243",
+          "loc": "Al-Fayyum, Egypt",
+          "coords": [
+            29.31,
+            30.84
+          ],
+          "hint": "A survey of 1243 puts the land under cane in the province of al-Fayyum at 1,468 faddans, against 29,000 faddans of wheat. It is a rare measure of how small a share of a whole Egyptian province went to cane even in the heart of the sugar industry. In 1222 the sultan had given the whole province, with its cane, oxen and tools, to the amir Fakhr al-Din.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): Sato (2015) p.28 (survey of 1243; Sato’s conversion to about 881 hectares is not consistent with his 955 ha for 1,500 faddans, so the faddan figures are used), and p.61 (the 1222 grant, from Ibn al-Amid). The source of the 1243 survey is in Sato’s note 68.",
+          "keywords": ["Al-Fayyum","Egypt","Fakhr al-Din"],
+          "xlinks": ["ayyubids-1171-1250::ec4"]
+        },
+        {
+          "id": "ec5",
+          "group": "Industry & Production",
+          "label": "Cyprus builds its first sugar works after the Syrian refugees arrive",
+          "date": "c.1291–1306",
+          "loc": "Cyprus",
+          "coords": [
+            34.7,
+            32.57
+          ],
+          "hint": "Syrians who flee to Cyprus from Antioch, Tripoli and Acre bring cane know-how in the early thirteenth century; after Acre falls in 1291 the first buildings for crushing and refining are put up, as ceramics and carbon-14 dating show. About 1306 Marino Sanudo claims that Cyprus produces so much sugar that Christians could be supplied from it.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Ouerfelli (2008) pp.105–106 (carbon-14 and ceramic dating cited from the excavations; Sanudo c.1306 is crusade propaganda and Ouerfelli says so; the earlier thirteenth-century Cypriot attempts are from Dawud al-Antaki’s early sixteenth-century report). See c3.",
+          "keywords": ["Cyprus","Syrian","Marino Sanudo"]
+        },
+        {
+          "id": "ec6",
+          "group": "Agriculture & Land",
+          "label": "Kolossi, a Hospitaller estate: 800 cantars a year to 1464",
+          "date": "c.1291–1464",
+          "loc": "Kolossi, near Limassol",
+          "coords": [
+            34.67,
+            32.93
+          ],
+          "hint": "The Knights of St John begin making sugar at Kolossi about 1291, with Syrian workers and canals from the Kouris river; Kolossi is the largest of their three Cyprus commanderies and the harvest is estimated at about 800 cantars (Rhodes weight) a year until 1464. A seven-metre stone aqueduct still stands near the castle. The German pilgrim Gumppenberg saw the cane in 1449.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Ouerfelli (2008) pp.112–116 (‘il semble néanmoins’ that sugar began about 1291; Gumppenberg 1449; Sanudo’s 1329 revenue figures for the Order are said by Ouerfelli to be exaggerated). Phinika was their other sugar village.",
+          "keywords": ["Kolossi","Limassol","Hospitaller","Knights of St John"]
+        },
+        {
+          "id": "ec7",
+          "group": "Agriculture & Land",
+          "label": "Egyptian amir Mankutamur holds 27 sugar presses in Upper Egypt",
+          "date": "1298",
+          "loc": "Upper Egypt, Qus, Edfu and Samhud",
+          "coords": [
+            25,
+            32.8
+          ],
+          "hint": "After the Husami cadastral survey of 1298, the deputy of the sultanate, Mankutamur, is granted iqtas in Upper Egypt worth over 110,000 ardabbs in crops, raw sugar, molasses, dates, sheep and firewood, with 27 sugarcane presses. A few decades later al-Udfuwi (d. 1347) finds 40 sugar refineries and six presses at Qift.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): al-Maqrizi, Kitab al-Suluk, 697/1298, in Sato (2015) p.28; al-Udfuwi, al-Tali‘ al-sa‘id pp.78, 9, 18, as reported by Sato p.29. the 40 refineries are al-Udfuwi’s figure for Qift, which Sato calls a particularly important sugar centre.",
+          "keywords": ["Upper Egypt","Qus","Edfu","Samhud","Mankutamur"]
+        },
+        {
+          "id": "ec8",
+          "group": "Industry & Production",
+          "label": "Fustat has 65 sugar refineries; the sultan owns seven",
+          "date": "1325",
+          "loc": "Fustat",
+          "coords": [
+            30,
+            31.23
+          ],
+          "hint": "Ibn Duqmaq counts 65 sugar refineries at Fustat: seven the sultan’s, 21 the amirs’, 13 the merchants’ (three managed by Jewish merchants, four by Karimi merchants) and 27 of unknown ownership. Al-Maqrizi, citing Ibn al-Mutawwaj, says 66 were working in 725/1325. Sato reads the amirs’ refineries as taking in the raw sugar of their provincial iqtas.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): Ibn Duqmaq, al-Intisar I, 41–46, in Sato (2015) pp.63–64 and 84; al-Maqrizi, al-Khitat I, 343 (725/1325), in Sato p.63 n.42 — Sato’s own total of 68 counts three refineries twice. See ayyubids-1171-1250::ec4 and mamluks-1250-1517::tc5.",
+          "keywords": ["Fustat","Ibn Duqmaq","Ibn al-Mutawwaj"],
+          "xlinks": ["mamluks-1250-1517::ec1","mamluks-1250-1517::tc5","sugar-600-1000::ec2"]
+        },
+        {
+          "id": "ec9",
+          "group": "Agriculture & Land",
+          "label": "Granada’s coast exports sugar through the Genoese",
+          "date": "c.1340–1370",
+          "loc": "Almuñécar and Motril",
+          "coords": [
+            36.73,
+            -3.69
+          ],
+          "hint": "Al-Umari (1301–1349) places the main centre of Granadan sugar on the coast between Almería and Marbella and says of Almuñécar ‘sugar is exported’; Ibn al-Khatib speaks of its extensive plantations and is the first to name Motril, a sultan’s estate. The Nasrid sultan’s family held the great coastal plains, and Genoese merchants ran the export.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Ouerfelli (2008) pp.184–186 (al-Umari, Masalik al-absar; Ibn al-Khatib, al-Ihata I, 380; the Genoese ‘Regno de la fructa’); the date range follows both authors’ lives and is approximate. See al-andalus-1031-1492::s5.",
+          "keywords": ["Almuñécar","Motril","Granada","Genoese","Ibn al-Khatib"],
+          "xlinks": ["al-andalus-1031-1492::s5","sugar-600-1000::ec7"]
+        },
+        {
+          "id": "ec10",
+          "group": "Industry & Production",
+          "label": "The Corner of Venice build a sugar works at Piskopi",
+          "date": "1366–1378",
+          "loc": "Piskopi, Episkopi, Cyprus",
+          "coords": [
+            34.66,
+            32.9
+          ],
+          "hint": "In 1366 Federico Corner of Venice lends Peter I of Cyprus 60,000 ducats and receives the village of Piskopi in the Kouris valley, where he builds a sugar complex for export, ordering two copper cauldrons of 1,600 lb worth 100 gold ducats. In 1378, at Federico’s request, the Senate of Venice sends a merchant ship to take the young queen Valentina Visconti to Cyprus and to load the sugar powder made at Piskopi.",
+          "tag": "DOCUMENT",
+          "note": "SECONDARY: Ouerfelli (2008) pp.117–120 (the loan and grant of 1366, the cauldrons, the Senate’s order of 1378 on Federico’s request, when the king had charged him with completing her marriage; ‘sugar powder’ is Ouerfelli’s ‘poudres de sucre’).",
+          "keywords": ["Piskopi","Episkopi","Federico Corner of Venice","Peter I of Cyprus","Senate of Venice","Valentina Visconti"]
+        },
+        {
+          "id": "ec11",
+          "group": "Agriculture & Land",
+          "label": "Palermo’s cane grows from 16 to 162 hectares",
+          "date": "1393–1416",
+          "loc": "Palermo and Carini",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "Palermo’s cane lands grow from 16.2 hectares in 1393 to 140 in 1407 and 162 in 1416, and in 1403–09 cane covers 52 of the 80 salme of the irrigated land that the tax register counts — about 65 per cent. Nobles, officials and merchants replace gardeners as owners, and a French visitor in 1417–18 writes that ‘a great quantity of sugars’ is made at Palermo. Cane first appears near Aci about 1409 and near Augusta about 1420.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Ouerfelli (2008) pp.160–162 (hectare and tax-register figures from Bresc and Trasselli; the traveller is the Sire de Caumont, Voyaige d’Oultremer p.117). See o6, o7.",
+          "keywords": ["Palermo","Carini"]
+        },
+        {
+          "id": "ec12",
+          "group": "Industry & Production",
+          "label": "The first trapig at Real de Gandia, Valencia",
+          "date": "1430",
+          "loc": "Real de Gandia, Valencia",
+          "coords": [
+            38.97,
+            -0.18
+          ],
+          "hint": "In 1430 the merchant Guillem Rana builds the first sugar mill (trapig) at the village of Real and, on 23 October, signs a two-year partnership with its lord, Hug de Cardona, Duke of Gandia; potters at Paterna make the clay moulds. By 1470 a tenant is growing 230 fanecades of cane for the mill.",
+          "tag": "DOCUMENT",
+          "note": "SECONDARY: Ouerfelli (2008) pp.212–219 (Real de Gandia; ‘le premier trapig in loco del Real’ is the first at Real, not necessarily in Valencia).",
+          "keywords": ["Real de Gandia","Valencia","Guillem Rana","Hug de Cardona","Duke of Gandia"]
+        },
+        {
+          "id": "ec13",
+          "group": "Agriculture & Land",
+          "label": "Madeira becomes the leading Portuguese sugar supplier",
+          "date": "c.1450–1455",
+          "loc": "Madeira",
+          "coords": [
+            32.65,
+            -16.91
+          ],
+          "hint": "Madeira is shipping sugar to Portugal by the middle of the fifteenth century, and after about 1450 it is the leading supplier of the Portuguese. Web summaries add that Sicilian advisers and Genoese capital started the industry, that a water-driven mill raised output in 1455, that Antwerp had about seventy ships in the Madeira trade by 1480, and that Madeira passed Cyprus in the 1490s — none of which has yet been checked in a scholarly source.",
+          "tag": "UNVERIFIED",
+          "note": "SECONDARY for ‘by the mid-fifteenth century’: Smith (2015) pp.19–21 and Mintz, Sweetness and Power (1985) pp.31–32 (‘after about 1450, Madeira was the leading supplier’). UNVERIFIED for the 1455 mill, the Sicilian/Genoese roles, the seventy ships and the 1490s overtaking of Cyprus: from web summaries (worldhistory.org on the Portuguese colonisation of Madeira; the-low-countries.com on Flemish traders there) — no scholarly source was read. A 1452 mill date and the name of Diogo de Teive could not be confirmed.",
+          "keywords": ["Madeira"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "Wang Zhuo’s Sichuan mill, the Maredolce moulds, al-Nuwayri’s process and the first Palermo mills",
+      "entries": [
+        {
+          "id": "te1",
+          "group": "Agriculture & Industry",
+          "label": "Wang Zhuo’s ox-driven stone mill and the making of sugar candy",
+          "date": "c.1142–1154",
+          "loc": "Suining, Sichuan",
+          "coords": [
+            30.53,
+            105.59
+          ],
+          "hint": "Wang Zhuo’s treatise on sugar candy describes the Sichuan mill: a hard stone drum five to six feet high and over 1,000 jin in weight, drawn by oxen round a mortarium of a little over ten feet. Mazumdar compares it with a Chinese oil mill, not with the grain mill; Wang also warns that a warm winter can ruin whole jars of candy, because its crystals form by weather.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Mazumdar (1998) pp.126–129 and Needham, SCC 6.3 pp.89–92 (Wang Zhuo’s dates differ: Mazumdar says 1142, Needham c.1154; the treatise has no illustrations). Mazumdar’s likening of the mill to an oil mill is her own inference, not Wang’s.",
+          "keywords": ["Suining","Sichuan","Wang Zhuo"],
+          "xlinks": ["sugar-600-1000::b2","sugar-600-1000::te1"]
+        },
+        {
+          "id": "te2",
+          "group": "Agriculture & Industry",
+          "label": "A Sicilian workshop at Maredolce fires clay sugar moulds",
+          "date": "c.1250",
+          "loc": "Maredolce, Palermo",
+          "coords": [
+            38.09,
+            13.4
+          ],
+          "hint": "Excavations in 1992–93 at Maredolce near Palermo turned up the remains of a small sugar refinery: clay moulds, cantarelli, amphorae and vessels that show refining in the later first half of the thirteenth century. The moulds are small and the finds few, so Ouerfelli judges the sugar to have been of middling quality.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Ouerfelli (2008) p.155 (excavations published in Archeologia e territorio, Palermo 1 (1997) 471–479; dating ‘vers la fin de la première moitié du XIIIe siècle’).",
+          "keywords": ["Maredolce","Palermo","Sicilian"]
+        },
+        {
+          "id": "te3",
+          "group": "Agriculture & Industry",
+          "label": "Al-Nuwayri’s account of the stone mill and the three-holed cone",
+          "date": "by 1333",
+          "loc": "Egypt",
+          "coords": [
+            30,
+            31.23
+          ],
+          "hint": "Al-Nuwayri’s encyclopedia describes the Egyptian process: cane cut small and crushed under an ox-turned edge-mill, the juice strained three times and boiled in a 3,000-ratl cauldron, then poured into cone-shaped clay ublij with three holes plugged by cane stalks, drained in a drip house and ‘buried’ to purify. A good faddan of cane makes 15–25 qintars of raw sugar; refining with milk adds white sugar and fine molasses.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): al-Nuwayri, Nihayat al-arab VIII, 268–271, in Sato (2015) pp.41–46, who notes (p.45) that al-Nuwayri’s mould size of over a qintar jarwi is probably too large against al-Maqrizi’s 1/9 qintar and an ublij in Ajlun, and that the ‘burial’ resembles the Chinese earth-covering method. The date is al-Nuwayri’s death in 1333; the text was written earlier.",
+          "keywords": ["Egypt","Al-Nuwayri"],
+          "xlinks": ["mamluks-1250-1517::tc5"]
+        },
+        {
+          "id": "te4",
+          "group": "Agriculture & Industry",
+          "label": "A master sugar-maker, a merchant and a financier found a Palermo mill",
+          "date": "1356",
+          "loc": "Palermo",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "On 9 November 1356 the master sugar-maker Pietro de Ruckisio forms a company with the merchant Niccolò de Matteo, who brings cane from the Saint-Jean-des-Lépreux lands, and with Fariugio de Medico, a Jew, who puts up eight ounces; Ouerfelli sees the contract as the first record of master sugar-makers inaugurating mills in Palermo.",
+          "tag": "DOCUMENT",
+          "note": "SECONDARY: Ouerfelli (2008) p.157, citing the notarial registers of Palermo (the contract is described, not edited, in the source). ‘The first’ is Ouerfelli’s judgement from the documents surviving.",
+          "keywords": ["Palermo","Pietro de Ruckisio","Niccolò de Matteo","Fariugio de Medico"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "The Geniza shipments, Frederick II’s call for sugar-makers, Marco Polo’s Fujian and Venice’s Cypriot sugar",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Silk Road & Trade Routes",
+          "label": "A Fustat merchant ships sugar to Qayrawan in a warship",
+          "date": "1038",
+          "loc": "Fustat and Qayrawan",
+          "coords": [
+            35.68,
+            10.1
+          ],
+          "hint": "In 1038 the Jewish merchant Ya‘qub in Fustat sends his partner Majjan in Qayrawan sugar, sal ammoniac, nutmeg and rose marmalade among other goods, aboard a warship because of a Byzantine naval attack on Sicily that year. The Geniza letter is one of the oldest records of Egyptian sugar crossing the Mediterranean.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): Goitein, Letters of Medieval Jewish Traders (1973) pp.98–99, in Sato (2015) pp.76–77; the warship detail is Goitein’s note 8. ‘One of the oldest’ is mine, from the sources read. See fatimids-909-1171::ec6.",
+          "keywords": ["Fustat","Qayrawan"],
+          "xlinks": ["fatimids-909-1171::ec2"]
+        },
+        {
+          "id": "x2",
+          "group": "Silk Road & Trade Routes",
+          "label": "Song sugar is given as gifts at the Heian court",
+          "date": "1091",
+          "loc": "Kyoto, Heian Japan",
+          "coords": [
+            35.01,
+            135.77
+          ],
+          "hint": "A Japanese source, as cited by Needham, records that sugar imported from Song China was given as a gift to officials at the Heian court in Kyoto in 1091 — a first sign of the Song export of sugar and sugar candy to Japan, if the citation holds.",
+          "tag": "EVIDENCE",
+          "note": "UNVERIFIED (thin): Needham, SCC 6.3 p.92, citing a Japanese source which he gives as ‘Gonijoshi Tsuuki’ for 1091; the identification of the book and its date were not checked. The note on sugar candy from Fu-thang, Ssu-ming and Phan-yu is also Needham’s.",
+          "keywords": ["Kyoto","Heian Japan","Song China"]
+        },
+        {
+          "id": "x3",
+          "group": "Cultural Transmission",
+          "label": "Frederick II sends to Jerusalem for two sugar-makers",
+          "date": "1239",
+          "loc": "Palermo and Jerusalem",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "On 15 December 1239 Frederick II writes to his secretary at Palermo that he has told Riccardo Filangieri, his bailli at Jerusalem, to find two men who know how to make sugar and send them to Palermo, where they are to make it and teach others, ‘so that this art may not easily be lost’. Whether the men arrived is unknown.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): Ouerfelli (2008) pp.154–155 (the Latin letter is quoted in his note 65, from the register of Frederick’s letters; Ouerfelli says it is ‘difficile de savoir’ whether the men came). See c1.",
+          "keywords": ["Palermo","Jerusalem","Frederick II","Riccardo Filangieri"],
+          "xlinks": ["ayyubids-1171-1250::x2","crusader-states-1099-1291::p6"]
+        },
+        {
+          "id": "x4",
+          "group": "Cultural Transmission",
+          "label": "Marco Polo: Egyptian refiners teach Fujian to whiten sugar with ashes",
+          "date": "c.1290",
+          "loc": "Fujian",
+          "coords": [
+            26.07,
+            119.3
+          ],
+          "hint": "Marco Polo says that before the Great Khan conquered Fujian the people there boiled the juice and skimmed it into a black paste, and that men from ‘Babylon’ at his court taught them to refine it with the ashes of certain trees. Daniels accepts this as a transfer of Egyptian technique; Mazumdar is more cautious, and Polo wrote as an admirer of the Mongols. Ibn Battuta, a generation later, thought Fujian’s sugar as good as Egypt’s.",
+          "tag": "TEXT",
+          "note": "CONTESTED (secondary): Sato (2015) pp.47–50 (Polo’s ‘Unken’ passage; Daniels accepts, Mazumdar sceptical; Sato notes ash is not in al-Nuwayri’s account) and Mazumdar (1998) pp.35–36 (Polo, ‘Vugen’; Ibn Battuta: ‘better in fact’). The identification of ‘Unken/Vugen’ with Fuzhou-area towns and the date are not settled in the sources read.",
+          "keywords": ["Fujian","Marco Polo","Ibn Battuta"],
+          "xlinks": ["sugar-600-1000::x1"]
+        },
+        {
+          "id": "x5",
+          "group": "Silk Road & Trade Routes",
+          "label": "Constantinople’s first recorded sugar trade",
+          "date": "c.1300–1350",
+          "loc": "Constantinople",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "The earliest source for a sugar trade in Constantinople itself dates from the first half of the fourteenth century — long after sugar had come into Byzantine medical use (t3). The Genoese of Galata and the Venetians were the merchants who could have carried it.",
+          "tag": "UNVERIFIED",
+          "note": "SECONDARY, from the abstract only: Bouras-Vallianatos, Speculum 96 (2021) (‘the earliest source for sugar trade in Constantinople dates to the first half of the fourteenth century’). The suggestion about Genoese and Venetian carriers is mine. See byzantine-empire-1204-1453::ec1.",
+          "keywords": ["Constantinople","Genoese of Galata"],
+          "xlinks": ["byzantine-empire-1204-1453::ec1","byzantine-empire-1204-1453::l2"]
+        },
+        {
+          "id": "x6",
+          "group": "Diplomatic Exchange",
+          "label": "Cyprus offers Venice its whole sugar crop as a pledge",
+          "date": "1429",
+          "loc": "Venice and Cyprus",
+          "coords": [
+            45.44,
+            12.32
+          ],
+          "hint": "On 26 May 1429 two ambassadors of the king of Cyprus tell Venice of their king’s plight and ask for a loan, offering the entire sugar harvest of the royal estates as security. Venice refuses.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted, from a footnote): Ouerfelli (2008) p.110 n.379 (Iorga, Revue de l’Orient latin 6 (1898) p.53; Thiriet’s Régestes des délibérations du Sénat). Janus was king; Ouerfelli says Venice did not seem inclined to help him recover his finances.",
+          "keywords": ["Venice","Cyprus"]
+        },
+        {
+          "id": "x7",
+          "group": "Diplomatic Exchange",
+          "label": "The Hospitallers farm out Kolossi’s sugar to the Martini of Venice",
+          "date": "1445–1464",
+          "loc": "Rhodes, Kolossi and Venice",
+          "coords": [
+            34.67,
+            32.93
+          ],
+          "hint": "Without means to sell its sugar, the Order of St John in 1445 farms the Kolossi harvest for four years to the Venetian Martini family at 28 Rhodes ducats and 16 aspers per cantar of clean white powder, and renews the contract in 1449, 1450 and 1464. In 1488 Venice gives Giorgio Corner the fourteen villages of the Order’s Cyprus commandery as a reward.",
+          "tag": "DOCUMENT",
+          "note": "SECONDARY: Ouerfelli (2008) p.116 (the contract is described in his notes 405–407; the cantar of Rhodes was 98 rotoli, that of Cyprus 100). The 1488 grant is as Ouerfelli gives it.",
+          "keywords": ["Rhodes","Kolossi","Hospitallers","Martini of Venice","Order of St John","Venetian Martini"]
+        },
+        {
+          "id": "x8",
+          "group": "Silk Road & Trade Routes",
+          "label": "Columbus buys sugar at Madeira for a Genoese house",
+          "date": "1478",
+          "loc": "Madeira",
+          "coords": [
+            32.65,
+            -16.91
+          ],
+          "hint": "In 1478 Christopher Columbus, then an agent for a Genoese trading firm, visits Madeira to buy sugar. Smith adds that after his first voyage he was convinced that cane would grow on the islands he had found — which leads to the next folio.",
+          "tag": "CONTEXT",
+          "note": "SECONDARY: Smith, Sugar: A Global History (2015) pp.19–21 (the 1478 purchase for a Genoese firm; his conviction about cane in the Caribbean). Smith’s further account of Columbus’s marriages was left out because it could not be reconciled with the usual accounts. Carries the Mediterranean-to-Atlantic story forward to sugar-1500-1650.",
+          "keywords": ["Madeira","Genoese","Christopher Columbus"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "The Mongol conquest of Sichuan and the Black Death",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Migration & Invasion",
+          "label": "The Mongol invasion destroys Sichuan’s cane lands",
+          "date": "c.1236–1279",
+          "loc": "Sichuan",
+          "coords": [
+            30.6,
+            104.1
+          ],
+          "hint": "The wholesale devastation of Sichuan’s economy in the Mongol invasion destroyed a major source of China’s cane sugar, the home of the Suining candy that Wang Zhuo praised, and the Yuan state then tried to rebuild production by sponsoring a farm manual and importing artisans (t6, x4). Fujian and Guangdong were less hurt, but Mazumdar thinks their output too may have fallen.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mazumdar (1998) p.36 (‘the wholesale devastation of the economy of Sichuan that accompanied the Mongol invasion had destroyed a major source of cane sugar’). The years are my approximation of the conquest of Sichuan (the 1230s to the fall of the Southern Song in 1279); Mazumdar does not give them.",
+          "keywords": ["Sichuan","Mongol","Wang Zhuo"]
+        },
+        {
+          "id": "w2",
+          "group": "Epidemic",
+          "label": "The Black Death drives Cairo’s medicinal sugar to 27 dinars a qintar",
+          "date": "1347–1349",
+          "loc": "Cairo and Alexandria",
+          "coords": [
+            31.2,
+            29.92
+          ],
+          "hint": "The plague reaches Egypt in autumn 1347 and in 1348 Cairo’s daily death toll climbs from 300 to 2,000. Medicinal sugar sells in transactions with Italian merchants at Alexandria for 23–27 dinars a qintar (4.6–5.4 dirhams a ratl), and Sato notes that the apothecaries (‘attars) had a chance of big profit from the demand for sugar as a remedy.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Sato (2015) pp.112–113 (al-Maqrizi, Kitab al-Suluk II, 772–782 and III, 1125; Dols, The Black Death in the Middle East p.258 for the price; the Cairo mortality figures are al-Maqrizi’s as reported by Sato). Sato also gives price spikes for sugar in the plague of 1403, not used here.",
+          "keywords": ["Cairo","Alexandria","Black Death"],
+          "xlinks": ["mamluks-1250-1517::ec3","mamluks-1250-1517::ec6"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "Geniza sugar-sellers, the plundered merchant of Acre, the Mallawi beggars and al-Nashw’s fall",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Marginalised Communities",
+          "label": "A Fustat sugar-seller’s deathbed accounts",
+          "date": "1142",
+          "loc": "Fustat",
+          "coords": [
+            30,
+            31.23
+          ],
+          "hint": "A Geniza document of 1142 records the deathbed declaration of a sugar-seller (sukkari) who fell ill suddenly and died the next day: he had taken sugar worth 6 dinars from one dealer, paying a third in cash, and 3 dinars’ worth from another. Sato reckons 3 dinars bought about 15 kg of white sugar — so these were small shopkeepers.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): Goitein, A Mediterranean Society I, 152, in Sato (2015) p.76 (‘sukkar’ is one of the commonest trades and family names in the Geniza from the eleventh to the thirteenth century; the price of about 9 dinars a qintar of white sugar is from Ashtor).",
+          "keywords": ["Fustat"],
+          "xlinks": ["fatimids-909-1171::lv2"]
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "label": "Sichuan’s villagers stop making big sugar figures for fear of officials",
+          "date": "c.1142–1154",
+          "loc": "Sichuan",
+          "coords": [
+            30.6,
+            104.1
+          ],
+          "hint": "Wang Zhuo reports that some villages gave up making the large sugar confections, such as animal figures, because the powerful in the prefectures and counties would have demanded all the sugar, leaving the villagers nothing to answer with. Mazumdar uses this as evidence that sugar was valuable but not yet casual.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Wang Zhuo, Tangshuang pu, as translated in Mazumdar (1998) p.33 (her inference about price follows). Same dating note as te1.",
+          "keywords": ["Sichuan","Wang Zhuo"]
+        },
+        {
+          "id": "l3",
+          "group": "Marginalised Communities",
+          "label": "A Damascus merchant is robbed of 20 loads of sugar at Acre",
+          "date": "1192",
+          "loc": "Acre",
+          "coords": [
+            32.93,
+            35.08
+          ],
+          "hint": "A merchant of Damascus, a Jew, tells Salah al-Din in 1192 that, coming by sea from Alexandria with 20 loads of sugar, he was plundered at Acre by the sultan’s men, who said ‘thou art an infidel, and thy goods belong to the Sultan’. Salah al-Din checks the story and orders the merchant repaid; Sato puts the loss at 5,000 kg, about 1,135 dinars.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): Bar Hebraeus, Chronography II, 342 (Budge), in Sato (2015) p.60; the kilogram and dinar conversions (250 kg a load; 0.227 dinar a kg) are Sato’s, from Ashtor’s prices.",
+          "keywords": ["Acre","Damascus","Salah al-Din"]
+        },
+        {
+          "id": "l4",
+          "group": "Marginalised Communities",
+          "label": "Fustat doctors take a third partner in a sugar factory",
+          "date": "1229",
+          "loc": "Fustat",
+          "coords": [
+            30,
+            31.23
+          ],
+          "hint": "In a Geniza contract thought to date from 1229, the physicians Joseph and his son Abu al-‘Ala take the scholar Mufaddal as a third partner in a sugar factory, each sharing a third of the profit and loss; Mufaddal pays 50 dinars to his grandfather and 50 to the two partners. Goitein counts such partnerships (shirka) as typical of the many factories around Fustat.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): Goitein, A Mediterranean Society I, 366 (doc. 23), in Sato (2015) pp.75–76; the date 1229 is as ‘believed’ by Sato. Compare ec8.",
+          "keywords": ["Fustat"],
+          "xlinks": ["fatimids-909-1171::ec2"]
+        },
+        {
+          "id": "l5",
+          "group": "Marginalised Communities",
+          "label": "At Mallawi the poor take their bread to the boiling cane juice",
+          "date": "c.1326",
+          "loc": "Mallawi, Upper Egypt",
+          "coords": [
+            27.73,
+            30.84
+          ],
+          "hint": "Ibn Battuta writes that the town of Mallawi has 11 sugar factories where even beggars and Sufi mendicants may walk in with warm bread, dip it in the pots of boiling juice, and leave with bread soaked in sugar. The date is from his first Egyptian journey; Sato says only ‘the beginning of the fourteenth century’.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Ibn Battuta, Tuhfat al-nuzzar I, 100–101, in Sato (2015) p.29 and p.119; the year 1326 is my attribution to Ibn Battuta’s first visit to Egypt, not Sato’s statement. Compare o5 (the same district).",
+          "keywords": ["Mallawi","Upper Egypt","Ibn Battuta"]
+        },
+        {
+          "id": "l6",
+          "group": "Marginalised Communities",
+          "label": "Cairo’s crowds celebrate al-Nashw’s arrest",
+          "date": "1339",
+          "loc": "Cairo and Fustat",
+          "coords": [
+            30.05,
+            31.25
+          ],
+          "hint": "When the sultan has al-Nashw — the Coptic convert who had confiscated the sugar of the amirs and the Fuwayl family — arrested in 1339, the markets of Cairo and Fustat close and crowds gather beneath the Citadel with candles, Qurans and flags. The amirs find in his household 200 leather bags of grapes, much raw sugar and grape juice, and his family is buried in a Jewish cemetery after execution.",
+          "tag": "EVENT",
+          "note": "ANCHOR (as quoted): al-Maqrizi, Kitab al-Suluk II, 478–486, in Sato (2015) pp.119–120 (the property seized included 15,000 dinars, wine and pork; Sato sets the episode within the tension between Muslims and Coptic officials). Compare o4, o5.",
+          "keywords": ["Cairo","Fustat","al-Nashw"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 1220,
+          "l": "The wars of Frederick II empty Sicily’s cane lands",
+          "entryId": "c1"
+        },
+        {
+          "y": 1252,
+          "l": "The Mongols plunder 600 loads of Egyptian sugar",
+          "entryId": "c2"
+        },
+        {
+          "y": 1291,
+          "l": "The fall of Acre ends the sugar lands of the Syrian coast",
+          "entryId": "c3"
+        },
+        {
+          "y": 1350,
+          "l": "Bedouin raiders strip Upper Egypt’s presses and refineries",
+          "entryId": "c4"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 1171,
+          "l": "Salah al-Din repeals the taxes on the raw-sugar store and refineries",
+          "entryId": "o1"
+        },
+        {
+          "y": 1192,
+          "l": "Ibn Mammati’s rules for cane when an iqta changes hands",
+          "entryId": "o2"
+        },
+        {
+          "y": 1326,
+          "l": "Amir Sunqur’s sugar village is confiscated by the sultan",
+          "entryId": "o3"
+        },
+        {
+          "y": 1333,
+          "l": "Al-Nashw ends the amirs’ tax exemption on raw sugar",
+          "entryId": "o4"
+        },
+        {
+          "y": 1338,
+          "l": "Al-Nashw seizes the Fuwayl family’s cane at Mallawi",
+          "entryId": "o5"
+        },
+        {
+          "y": 1393,
+          "l": "King Martin’s tax privileges drive Palermo’s cane boom",
+          "entryId": "o6"
+        },
+        {
+          "y": 1419,
+          "l": "Palermo’s decree regulates water for the cane fields",
+          "entryId": "o7"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 1047,
+          "l": "The Fatimid caliph gives 50,000 mans of sugar for Ramadan",
+          "entryId": "b1"
+        },
+        {
+          "y": 1171,
+          "l": "Salah al-Din endows the Prophet’s tomb with a sugar press",
+          "entryId": "b2"
+        },
+        {
+          "y": 1344,
+          "l": "The sultan’s Ramadan sugar grant triples to 3,000 qintars",
+          "entryId": "b3"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 1024,
+          "l": "A sugar banquet with 152 figures parades through Cairo",
+          "entryId": "e1"
+        },
+        {
+          "y": 1100,
+          "l": "Kaifeng sells lion-shaped sugar and Sichuan milk sugar",
+          "entryId": "e2"
+        },
+        {
+          "y": 1123,
+          "l": "Caliph al-Amir’s sweets for the faithful",
+          "entryId": "e3"
+        },
+        {
+          "y": 1200,
+          "l": "Hangzhou has a government ‘honey-boiling office’",
+          "entryId": "e4"
+        },
+        {
+          "y": 1226,
+          "l": "Al-Baghdadi’s cookbook gives sweets a chapter of their own",
+          "entryId": "e5"
+        },
+        {
+          "y": 1330,
+          "l": "The Mongol court’s dietary manual puts sugar in its recipes",
+          "entryId": "e6"
+        },
+        {
+          "y": 1398,
+          "l": "A polo-match banquet in Cairo uses 50 qintars of sugar",
+          "entryId": "e7"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 1000,
+          "l": "Ibn Ridwan: Upper Egypt’s poor eat sweets of cheap raw sugar",
+          "entryId": "t1"
+        },
+        {
+          "y": 1066,
+          "l": "Ibn Butlan’s health tables list sugar among 280 items",
+          "entryId": "t2"
+        },
+        {
+          "y": 1070,
+          "l": "Sugar reaches Byzantine medicine through Antioch",
+          "entryId": "t3"
+        },
+        {
+          "y": 1190,
+          "l": "Hugo Falcandus describes Palermo’s ‘honey canes’",
+          "entryId": "t4"
+        },
+        {
+          "y": 1220,
+          "l": "Ibn al-Baytar writes sugar into the Egyptian pharmacopoeia",
+          "entryId": "t5"
+        },
+        {
+          "y": 1286,
+          "l": "The Nongsang jiyao brings sugar into the Yuan state’s farm manual",
+          "entryId": "t6"
+        },
+        {
+          "y": 1286,
+          "l": "Ibn al-Quff gives over 250 recipes, many with sugar",
+          "entryId": "t7"
+        },
+        {
+          "y": 1288,
+          "l": "Ibn al-Nafis, ‘a second Ibn Sina’, explains how each sugar is made",
+          "entryId": "t8"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 1039,
+          "l": "The ruler of Almería plants cane in his garden",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1142,
+          "l": "Suining: forty per cent of the land in cane, a third of households mak",
+          "entryId": "ec2"
+        },
+        {
+          "y": 1161,
+          "l": "Norman Palermo has a cane estate and a Monreale cane mill",
+          "entryId": "ec3"
+        },
+        {
+          "y": 1243,
+          "l": "Cane takes 1,468 faddans of al-Fayyum against 29,000 of wheat",
+          "entryId": "ec4"
+        },
+        {
+          "y": 1291,
+          "l": "Cyprus builds its first sugar works after the Syrian refugees arrive",
+          "entryId": "ec5"
+        },
+        {
+          "y": 1291,
+          "l": "Kolossi, a Hospitaller estate: 800 cantars a year to 1464",
+          "entryId": "ec6"
+        },
+        {
+          "y": 1298,
+          "l": "Egyptian amir Mankutamur holds 27 sugar presses in Upper Egypt",
+          "entryId": "ec7"
+        },
+        {
+          "y": 1325,
+          "l": "Fustat has 65 sugar refineries; the sultan owns seven",
+          "entryId": "ec8"
+        },
+        {
+          "y": 1340,
+          "l": "Granada’s coast exports sugar through the Genoese",
+          "entryId": "ec9"
+        },
+        {
+          "y": 1366,
+          "l": "The Corner of Venice build a sugar works at Piskopi",
+          "entryId": "ec10"
+        },
+        {
+          "y": 1393,
+          "l": "Palermo’s cane grows from 16 to 162 hectares",
+          "entryId": "ec11"
+        },
+        {
+          "y": 1430,
+          "l": "The first trapig at Real de Gandia, Valencia",
+          "entryId": "ec12"
+        },
+        {
+          "y": 1450,
+          "l": "Madeira becomes the leading Portuguese sugar supplier",
+          "entryId": "ec13"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 1142,
+          "l": "Wang Zhuo’s ox-driven stone mill and the making of sugar candy",
+          "entryId": "te1"
+        },
+        {
+          "y": 1250,
+          "l": "A Sicilian workshop at Maredolce fires clay sugar moulds",
+          "entryId": "te2"
+        },
+        {
+          "y": 1333,
+          "l": "Al-Nuwayri’s account of the stone mill and the three-holed cone",
+          "entryId": "te3"
+        },
+        {
+          "y": 1356,
+          "l": "A master sugar-maker, a merchant and a financier found a Palermo mill",
+          "entryId": "te4"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 1038,
+          "l": "A Fustat merchant ships sugar to Qayrawan in a warship",
+          "entryId": "x1"
+        },
+        {
+          "y": 1091,
+          "l": "Song sugar is given as gifts at the Heian court",
+          "entryId": "x2"
+        },
+        {
+          "y": 1239,
+          "l": "Frederick II sends to Jerusalem for two sugar-makers",
+          "entryId": "x3"
+        },
+        {
+          "y": 1290,
+          "l": "Marco Polo: Egyptian refiners teach Fujian to whiten sugar with ashes",
+          "entryId": "x4"
+        },
+        {
+          "y": 1300,
+          "l": "Constantinople’s first recorded sugar trade",
+          "entryId": "x5"
+        },
+        {
+          "y": 1429,
+          "l": "Cyprus offers Venice its whole sugar crop as a pledge",
+          "entryId": "x6"
+        },
+        {
+          "y": 1445,
+          "l": "The Hospitallers farm out Kolossi’s sugar to the Martini of Venice",
+          "entryId": "x7"
+        },
+        {
+          "y": 1478,
+          "l": "Columbus buys sugar at Madeira for a Genoese house",
+          "entryId": "x8"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 1236,
+          "l": "The Mongol invasion destroys Sichuan’s cane lands",
+          "entryId": "w1"
+        },
+        {
+          "y": 1347,
+          "l": "The Black Death drives Cairo’s medicinal sugar to 27 dinars a qintar",
+          "entryId": "w2"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 1142,
+          "l": "A Fustat sugar-seller’s deathbed accounts",
+          "entryId": "l1"
+        },
+        {
+          "y": 1142,
+          "l": "Sichuan’s villagers stop making big sugar figures for fear of official",
+          "entryId": "l2"
+        },
+        {
+          "y": 1192,
+          "l": "A Damascus merchant is robbed of 20 loads of sugar at Acre",
+          "entryId": "l3"
+        },
+        {
+          "y": 1229,
+          "l": "Fustat doctors take a third partner in a sugar factory",
+          "entryId": "l4"
+        },
+        {
+          "y": 1326,
+          "l": "At Mallawi the poor take their bread to the boiling cane juice",
+          "entryId": "l5"
+        },
+        {
+          "y": 1339,
+          "l": "Cairo’s crowds celebrate al-Nashw’s arrest",
+          "entryId": "l6"
+        }
+      ]
+    }
+  ],
+  "region": "Sugar",
+  "period_label": "Medieval"
+}

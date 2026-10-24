@@ -3028,6 +3028,37 @@ const SELECTED_PAIRS = [
   ['sugar-600-1000::x2', 'sugar-300bc-600ad::th15'],                  // Sui shu: stone honey from Persia
   ['sugar-600-1000::te1', 'sugar-300bc-600ad::te2'],                  // sun-dried shi mi
   ['sugar-600-1000::b1', 'sugar-300bc-600ad::b5'],                    // Buddhist monks and sugar
+
+  // ── sugar-1000-1500 (hand-reviewed) ──
+  ['sugar-1000-1500::e5', 'sugar-600-1000::e2'],                      // Ibn Sayyar -> al-Baghdadi cookbooks
+  ['sugar-1000-1500::ec3', 'sugar-600-1000::ec4'],                    // Sicily's cane: Palermo marshes -> Norman Palermo
+  ['sugar-1000-1500::ec8', 'sugar-600-1000::ec2'],                    // Egypt's cane -> Fustat's 65 refineries
+  ['sugar-1000-1500::ec9', 'sugar-600-1000::ec7'],                    // Córdoba/Maghrib cane -> Granada's coast
+  ['sugar-1000-1500::te1', 'sugar-600-1000::te1'],                    // Dunhuang method -> Wang Zhuo's Sichuan mill
+  ['sugar-1000-1500::te1', 'sugar-600-1000::b2'],                     // Wang Zhuo records the monk Zou legend
+  ['sugar-1000-1500::t3', 'sugar-600-1000::th2'],                     // Paul of Aegina -> sugar in Byzantine medicine
+  ['sugar-1000-1500::x4', 'sugar-600-1000::x1'],                      // Marco Polo's refiners -> Magadha artisans
+  ['sugar-1000-1500::o1', 'ayyubids-1171-1250::ec4'],                 // Salah al-Din's tax repeal / Ayyubid sugar
+  ['sugar-1000-1500::o1', 'fatimids-909-1171::ec5'],                  // Dar al-Qand and Fustat's refineries
+  ['sugar-1000-1500::ec4', 'ayyubids-1171-1250::ec4'],                // al-Fayyum survey 1243
+  ['sugar-1000-1500::ec8', 'mamluks-1250-1517::tc5'],                 // Fustat refineries / Mamluk sugar works
+  ['sugar-1000-1500::ec8', 'mamluks-1250-1517::ec1'],                 // Karimi merchants owned four refineries
+  ['sugar-1000-1500::te3', 'mamluks-1250-1517::tc5'],                 // al-Nuwayri's process / Mamluk presses
+  ['sugar-1000-1500::w2', 'mamluks-1250-1517::ec3'],                  // Black Death and sugar prices
+  ['sugar-1000-1500::w2', 'mamluks-1250-1517::ec6'],                  // Italian buyers at Alexandria
+  ['sugar-1000-1500::t8', 'mamluks-1250-1517::t3'],                   // Ibn al-Nafis
+  ['sugar-1000-1500::t5', 'ayyubids-1171-1250::t6'],                  // Ibn al-Baytar in al-Kamil's Cairo
+  ['sugar-1000-1500::x3', 'ayyubids-1171-1250::x2'],                  // Frederick II's Jerusalem bailli after the 1229 treaty
+  ['sugar-1000-1500::x3', 'crusader-states-1099-1291::p6'],           // Frederick II and Jerusalem
+  ['sugar-1000-1500::c3', 'mamluks-1250-1517::c4'],                   // the fall of Acre
+  ['sugar-1000-1500::c3', 'crusader-states-1099-1291::p8'],           // the fall of Acre ends the crusader states
+  ['sugar-1000-1500::ec9', 'al-andalus-1031-1492::s5'],               // Genoese-Granada sugar export
+  ['sugar-1000-1500::ec1', 'al-andalus-711-1031::s1'],                // new crops in al-Andalus
+  ['sugar-1000-1500::x5', 'byzantine-empire-1204-1453::ec1'],         // Venice and Genoa at Constantinople
+  ['sugar-1000-1500::x5', 'byzantine-empire-1204-1453::l2'],          // the Genoese of Galata
+  ['sugar-1000-1500::x1', 'fatimids-909-1171::ec2'],                  // Geniza commercial letters
+  ['sugar-1000-1500::l1', 'fatimids-909-1171::lv2'],                  // Geniza people
+  ['sugar-1000-1500::l4', 'fatimids-909-1171::ec2'],                  // Geniza partnership contract
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
