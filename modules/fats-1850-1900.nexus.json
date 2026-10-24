@@ -144,6 +144,54 @@
       "label": "St Lawrence Island famine",
       "full": "Arctic villages starve as whalers kill the walrus.",
       "src": "Bockstoce"
+    },
+    {
+      "id": "e3",
+      "lane": "expression",
+      "year": 1868,
+      "label": "Meiji meat eating",
+      "full": "The emperor eats meat, 1872; the public is urged to eat meat and milk.",
+      "src": "Ishige"
+    },
+    {
+      "id": "e4",
+      "lane": "expression",
+      "year": 1872,
+      "label": "Yoshokuya and the cutlet",
+      "full": "Western restaurants bring frying fat to Japan: cutlets in lard or sesame oil.",
+      "src": "Ishige"
+    },
+    {
+      "id": "ec10",
+      "lane": "economy",
+      "year": 1888,
+      "label": "Lever in Sydney",
+      "full": "Pacific copra and Australian tallow; the Balmain mill and soap works.",
+      "src": "Fieldhouse"
+    },
+    {
+      "id": "w2",
+      "lane": "world",
+      "year": 1845,
+      "label": "Japan Grounds and Perry",
+      "full": "The whaling fleet and the opening of Japan, 1845–54.",
+      "src": "Dolin"
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": 1834,
+      "label": "Senegambian groundnuts",
+      "full": "The groundnut coasts of the Gambia and Senegal, 1834–1900.",
+      "src": "Hopkins; Lynn"
+    },
+    {
+      "id": "ec11",
+      "lane": "economy",
+      "year": 1850,
+      "label": "India’s groundnut",
+      "full": "1,000 hectares in 1850; seventy times that by 1895.",
+      "src": "Achaya; Kiple"
     }
   ],
   "edges": [
@@ -242,6 +290,36 @@
       "ec4",
       "strong",
       "The island famine is the cost to Arctic hunters of the same whaling that the bowhead fishery reports as a bonanza."
+    ],
+    [
+      "e3",
+      "e4",
+      "strong",
+      "The Western restaurants of the Meiji years serve the meat and fat that the campaign of 1872 made fashionable."
+    ],
+    [
+      "ec10",
+      "ec7",
+      "strong",
+      "The Sydney office is an arm of Lever Brothers, whose Port Sunlight works need the copra and tallow it sends home."
+    ],
+    [
+      "ec10",
+      "ec5",
+      "loose",
+      "Pacific copra in Sydney and the palm-kernel trade of West Africa feed the same soap kettles."
+    ],
+    [
+      "w2",
+      "ec4",
+      "loose",
+      "The Japan Grounds and the Arctic were fished by the same American whaling fleet."
+    ],
+    [
+      "ec11",
+      "ec6",
+      "strong",
+      "Kiple has Europe’s peanut-oil mills drawing first on West Africa and then, after the Suez Canal, on India."
     ]
   ]
 }
