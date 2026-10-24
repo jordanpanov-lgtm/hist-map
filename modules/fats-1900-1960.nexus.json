@@ -264,6 +264,14 @@
       "label": "Turkey 1939",
       "full": "Atatürk’s fat duties and a Unilever survey of the market.",
       "src": "Fieldhouse ch.7"
+    },
+    {
+      "id": "ec17",
+      "lane": "economy",
+      "year": 1918,
+      "label": "Fish oil",
+      "full": "Skimmed boilings to meal-and-oil plants; the Pacific sardine fishery rises and collapses, 1918–60.",
+      "src": "Kiple (O’Keefe)"
     }
   ],
   "edges": [
@@ -452,6 +460,18 @@
       "ec3",
       "loose",
       "Turkey’s tariff and the Unilever survey show the company reading a market from Rotterdam."
+    ],
+    [
+      "ec17",
+      "ec2",
+      "loose",
+      "Fish oil and whale oil are the two marine fats of the 1900s, and both fisheries run past their stocks."
+    ],
+    [
+      "ec17",
+      "te1",
+      "loose",
+      "Kiple notes that fish oil for food is often partially hydrogenated, the same hardening that Normann patented for whale oil."
     ]
   ]
 }

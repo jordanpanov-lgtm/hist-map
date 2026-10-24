@@ -71,6 +71,10 @@ const SELECTED_PAIRS = [
   ['fats-1960-today::ec11', 'fats-8000bc-1200bc::ec10'],               // herders' milk fat today -> dairy fat in Saharan pots
   ['fats-1960-today::ec12', 'fats-600-1000::b2'],                       // Tibetan butter lamps -> the ever-burning lamp in Tang monasteries
   ['fats-130000bc-8000bc::th3', 'fats-8000bc-1200bc::th6'],              // fat from insects -> where the herds were missing and tree fats filled the gap
+  ['fats-1200bc-300bc::th3', 'fats-600-1000::e1'],                      // Herodotus' fat-tailed sheep -> tail fat in the Baghdad cookbook
+  ['fats-1750-1850::b1', 'fats-1500-1750::b1'],                         // Russia's Lenten sunflower loophole -> Luther on the Lenten oil
+  ['fats-1750-1850::b1', 'fats-1500-1750::th2'],                        // Russia's Lenten sunflower loophole -> the sunflower reaches Europe
+  ['fats-1900-1960::ec17', 'fats-1850-1900::ec4'],                      // fish oil and the sardine fishery -> Arctic whaling
   ['fats-1500-1750::ec17', 'fats-1000-1500::ec1'],                      // Taiji's net whalers -> the Basques
   ['fats-1850-1900::l1', 'fats-1000-1500::ec9'],                        // the St Lawrence Island famine -> the Thule marine-fat economy
   ['fats-8000bc-1200bc::th4', 'fats-1200bc-300bc::ec10'],               // Sherratt on milking -> frying in ghee in the Dharma Sutras

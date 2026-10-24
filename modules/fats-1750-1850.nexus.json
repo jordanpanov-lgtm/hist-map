@@ -184,6 +184,22 @@
       "label": "Low’s Malayan estates",
       "full": "Coconut and nutmeg estates at Province Wellesley.",
       "src": "Lees ch.1"
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": 1800,
+      "label": "Lenten sunflower",
+      "full": "Sunflower seed escapes Russia’s Lenten ban on oils; Russia leads production by mid-century.",
+      "src": "Kiple (Heiser)"
+    },
+    {
+      "id": "th2",
+      "lane": "thought",
+      "year": 1750,
+      "label": "Cod liver oil",
+      "full": "A medicine before vitamins: iodine, trimethylamine and the hunt for the active principle.",
+      "src": "Kiple (O’Keefe)"
     }
   ],
   "edges": [
@@ -318,6 +334,18 @@
       "ec7",
       "loose",
       "The coconut estates of Penang and the palm-oil boom on the Bight of Biafra are two tropical oil frontiers of the same decades."
+    ],
+    [
+      "b1",
+      "ec5",
+      "loose",
+      "Russian sunflower oil and Marseille’s imported oilseeds are two oilseed economies that grow beside the old fats in the first half of the century."
+    ],
+    [
+      "th2",
+      "th1",
+      "loose",
+      "Chevreul’s chemistry of fats and the nineteenth-century hunt for cod liver oil’s active ingredient are two attempts to say what a fat does."
     ]
   ]
 }
