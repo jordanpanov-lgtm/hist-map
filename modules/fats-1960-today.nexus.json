@@ -1,0 +1,297 @@
+{
+  "nodes": [
+    {
+      "id": "xf1",
+      "lane": "external",
+      "year": 1960,
+      "label": "The diet–heart hypothesis",
+      "full": "From the 1950s, Keys’s diet–heart hypothesis and the AHA’s 1961 advice made saturated fat the dietary villain and set vegetable oils and margarine on the healthy side; the fights of this folio unfold inside that frame.",
+      "src": "Teicholz ch.2; fats-1900-1960::th1",
+      "external": true
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 1977,
+      "label": "Dietary Goals",
+      "full": "The McGovern committee’s 1977 advice to eat less fat.",
+      "src": "Teicholz ch.2, 6"
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": 1986,
+      "label": "Tropical oils war",
+      "full": "Soybean growers and CSPI against palm and coconut oil.",
+      "src": "Zuckerman; Teicholz ch.8"
+    },
+    {
+      "id": "e2",
+      "lane": "expression",
+      "year": 1988,
+      "label": "Anti-tropical-oil ads",
+      "full": "Sokolof and Ong advertisements.",
+      "src": "Teicholz ch.8"
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 1960,
+      "label": "Soybean oil",
+      "full": "The most used oil; 18 billion pounds, mostly hydrogenated.",
+      "src": "Kiple; Teicholz"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": 1990,
+      "label": "Mensink and Willett",
+      "full": "Trans fats named as a danger, 1990–94.",
+      "src": "Teicholz ch.8"
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 2003,
+      "label": "Danish ban and FDA label",
+      "full": "Denmark 2003; FDA labelling from 2006.",
+      "src": "Teicholz ch.8"
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 2013,
+      "label": "FDA and WHO on trans fats",
+      "full": "FDA proposal 2013; WHO 2018 initiative.",
+      "src": "Teicholz; Zuckerman"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 2006,
+      "label": "Trans ban to palm",
+      "full": "US palm imports up 263 per cent.",
+      "src": "Zuckerman; Teicholz"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 1964,
+      "label": "Malaysia’s boom",
+      "full": "Production up 25-fold, 1964–84.",
+      "src": "Zuckerman"
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 1992,
+      "label": "India’s imports",
+      "full": "From 30,000 tonnes to 9.2 million.",
+      "src": "Zuckerman"
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": 2013,
+      "label": "The supply chain",
+      "full": "Wilmar, Golden Agri-Resources and the buyers.",
+      "src": "Zuckerman"
+    },
+    {
+      "id": "o7",
+      "lane": "order",
+      "year": 2007,
+      "label": "Biofuel mandates",
+      "full": "EISA 2007; EU; Indonesia’s blending rules.",
+      "src": "Zuckerman"
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 2015,
+      "label": "2015 fires",
+      "full": "Six million acres burn in Sumatra and Borneo.",
+      "src": "Zuckerman"
+    },
+    {
+      "id": "l1",
+      "lane": "lives",
+      "year": 2011,
+      "label": "Plantation communities",
+      "full": "Socfin, Honduras, Liberia.",
+      "src": "Zuckerman"
+    },
+    {
+      "id": "th2",
+      "lane": "thought",
+      "year": 1993,
+      "label": "Women’s Health Initiative",
+      "full": "No benefit seen from a low-fat diet.",
+      "src": "Teicholz"
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": 1968,
+      "label": "Olestra",
+      "full": "P&G’s indigestible fat.",
+      "src": "Nestle"
+    },
+    {
+      "id": "o4",
+      "lane": "order",
+      "year": 1996,
+      "label": "FDA approves olestra",
+      "full": "January 1996.",
+      "src": "Nestle"
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": 1990,
+      "label": "New olive oil",
+      "full": "California, Australia, the US market.",
+      "src": "Mueller"
+    },
+    {
+      "id": "o5",
+      "lane": "order",
+      "year": 2010,
+      "label": "USDA olive standard",
+      "full": "A voluntary standard in 2010.",
+      "src": "Mueller"
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": 1960,
+      "label": "End of whale oil",
+      "full": "The last whaling for profit.",
+      "src": "Ellis"
+    },
+    {
+      "id": "o6",
+      "lane": "order",
+      "year": 1982,
+      "label": "Whaling moratorium",
+      "full": "The 1982 IWC moratorium.",
+      "src": "Ellis"
+    }
+  ],
+  "edges": [
+    [
+      "xf1",
+      "o1",
+      "strong",
+      "Teicholz traces the 1977 Dietary Goals to the diet–heart hypothesis and the AHA’s earlier advice."
+    ],
+    [
+      "o1",
+      "ec1",
+      "loose",
+      "Teicholz argues that the advice to cut animal fat pushed Americans to vegetable oils, soybean above all."
+    ],
+    [
+      "ec1",
+      "c1",
+      "strong",
+      "The American Soybean Association’s campaign against tropical oils protected the soybean oil market, as Teicholz and Zuckerman tell it."
+    ],
+    [
+      "c1",
+      "e2",
+      "strong",
+      "Sokolof’s advertisements and the Malaysian counter-ads were the fight’s public face."
+    ],
+    [
+      "c1",
+      "ec2",
+      "loose",
+      "The campaign of the 1980s met a Malaysian industry that had grown 25-fold in the previous two decades."
+    ],
+    [
+      "th1",
+      "o2",
+      "strong",
+      "Teicholz ties the Danish ban and the FDA label to Willett’s 1993 paper and CSPI’s 1994 petition."
+    ],
+    [
+      "o2",
+      "ec4",
+      "strong",
+      "Zuckerman says the FDA’s trans-fat rules are part of why US palm imports rose 263 per cent."
+    ],
+    [
+      "ec1",
+      "o2",
+      "loose",
+      "Most American soybean oil of 2001 was partially hydrogenated, so the labelling rule hit it directly."
+    ],
+    [
+      "ec4",
+      "ec2",
+      "loose",
+      "Palm oil’s American market is one outlet of the Malaysian and Indonesian industry."
+    ],
+    [
+      "ec2",
+      "ec3",
+      "loose",
+      "Malaysia’s production growth supplied the Indian market that grew from 30,000 tonnes to 9.2 million."
+    ],
+    [
+      "ec3",
+      "x1",
+      "loose",
+      "The traders and refiners of the supply chain carry the oil to India and the West."
+    ],
+    [
+      "x1",
+      "w1",
+      "loose",
+      "Greenpeace and others tie suppliers of the large trading firms to the deforestation of which the 2015 fires are an example."
+    ],
+    [
+      "o7",
+      "ec2",
+      "loose",
+      "Zuckerman presents the biofuel mandates as a further source of demand for palm oil."
+    ],
+    [
+      "w1",
+      "l1",
+      "loose",
+      "Plantation expansion, fires and the labour conditions are three parts of Zuckerman’s indictment."
+    ],
+    [
+      "o1",
+      "th2",
+      "loose",
+      "Teicholz presents the Women’s Health Initiative as the first large trial of the low-fat advice that the 1977 goals and the AHA had put into policy."
+    ],
+    [
+      "o3",
+      "ec4",
+      "loose",
+      "The FDA’s 2013 proposal and WHO’s 2018 initiative extended the move away from partially hydrogenated oils."
+    ],
+    [
+      "te1",
+      "o4",
+      "strong",
+      "The FDA’s approval of olestra on 24 January 1996 followed P&G’s decades of research and a patent extension."
+    ],
+    [
+      "ec5",
+      "o5",
+      "loose",
+      "The growth of the US olive-oil market is the setting of the USDA’s belated standard."
+    ],
+    [
+      "ec6",
+      "o6",
+      "loose",
+      "Ellis describes the 1982 moratorium as the end of a whaling industry already in decline."
+    ]
+  ]
+}

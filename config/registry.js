@@ -292,5 +292,7 @@ const MODULES = [
   { id:"fats-1500-1750", file:"modules/fats-1500-1750.json", label:"Fats & Oils 1500–1750", sub:"Whale Oil Goes Industrial: Basques at Red Bay, the Dutch at Spitsbergen, Luther’s Butter, Palm Oil in the Slave Ship and the Ming Oil Press", region:"Fats & Oils", period:"Early Modern" },
   { id:"fats-1750-1850", file:"modules/fats-1750-1850.json", label:"Fats & Oils 1750–1850", sub:"Candles, Lamps and Soap: Spermaceti and the Golden Age of American Whaling, Argand and Gas, Chevreul’s Chemistry and the Palm Oil of “Legitimate Commerce”", region:"Fats & Oils", period:"Early Modern" },
   { id:"fats-1850-1900", file:"modules/fats-1850-1900.json", label:"Fats & Oils 1850–1900", sub:"Light Goes to Oil Wells, Butter Goes to the Factory: Kerosene, Margarine, Cottonseed, Lever’s Soap and the Palm Kernel", region:"Fats & Oils", period:"Early Modern" },
+  { id:"fats-1900-1960", file:"modules/fats-1900-1960.json", label:"Fats & Oils 1900–1960", sub:"Hardened Oil: Normann’s Hydrogenation, Crisco and Unilever, Factory-Ship Whaling, the Palm Plantation, Manchurian Soy and Keys’s Hypothesis", region:"Fats & Oils", period:"Modern" },
+  { id:"fats-1960-today", file:"modules/fats-1960-today.json", label:"Fats & Oils 1960–today", sub:"Soy, Palm and the Fat Wars: The Tropical Oils War, Trans Fats, Olestra, the Whaling Moratorium, Olive-Oil Fraud and the Palm Frontier", region:"Fats & Oils", period:"Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
