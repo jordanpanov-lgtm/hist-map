@@ -75,6 +75,13 @@ const SELECTED_PAIRS = [
   ['fats-1750-1850::b1', 'fats-1500-1750::b1'],                         // Russia's Lenten sunflower loophole -> Luther on the Lenten oil
   ['fats-1750-1850::b1', 'fats-1500-1750::th2'],                        // Russia's Lenten sunflower loophole -> the sunflower reaches Europe
   ['fats-1900-1960::ec17', 'fats-1850-1900::ec4'],                      // fish oil and the sardine fishery -> Arctic whaling
+  ['fats-1200bc-300bc::ec14', 'fats-300bc-600ad::x2'],                  // sesame in Zhejiang tombs of 770-480 BC -> sesame reaches China by the Silk Road
+  ['fats-1200bc-300bc::ec14', 'fats-8000bc-1200bc::th5'],               // Zhejiang tomb sesame -> the doubted Neolithic Chekiang sesame
+  ['fats-1200bc-300bc::ec15', 'fats-8000bc-1200bc::x1'],                // Darius's sesame exports -> sesame travels from the Indus to Mesopotamia
+  ['fats-600-1000::ec11', 'fats-1000-1500::ec13'],                      // Abu Mansur on Iran's sesame -> Marco Polo on Persian and Indian sesame
+  ['fats-1960-today::ec15', 'fats-1200bc-300bc::ec14'],                 // China first in sesame -> Zhejiang tombs of 770-480 BC
+  ['fats-1960-today::ec14', 'fats-1200bc-300bc::ec15'],                 // Turkey's tahin -> Achaemenid sesame exports
+  ['fats-1960-today::ec13', 'fats-1500-1750::ec6'],                     // Ethiopian sesame -> sesame as colonial hope and African benne
   ['fats-1500-1750::ec17', 'fats-1000-1500::ec1'],                      // Taiji's net whalers -> the Basques
   ['fats-1850-1900::l1', 'fats-1000-1500::ec9'],                        // the St Lawrence Island famine -> the Thule marine-fat economy
   ['fats-8000bc-1200bc::th4', 'fats-1200bc-300bc::ec10'],               // Sherratt on milking -> frying in ghee in the Dharma Sutras

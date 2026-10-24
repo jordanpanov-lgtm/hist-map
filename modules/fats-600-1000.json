@@ -283,6 +283,21 @@
       "subtitle": "Anglo-Saxon and Irish butter, the Tamil press, Italian soap, northern whaling, Japan’s so and Africa’s shea",
       "entries": [
         {
+          "id": "ec11",
+          "group": "Oilseeds",
+          "label": "Abu Mansur lists sesame as a crop of Iran",
+          "date": "late 10th century",
+          "loc": "Iran",
+          "coords": [
+            32,
+            53
+          ],
+          "hint": "In their account of sesame in Iran, Mortazavian and Kohpayegani note that Abu Mansur, writing in the late tenth century in his Al-abnieh an Haghaegh-ol-Advieh, mentions sesame as a crop plant in Iran. They add that Ershad-o-Zerat describes sesame cultivation in ancient Iran, without dating it.",
+          "tag": "CONTEXT",
+          "note": "CONTEXT (book read, second hand): Mortazavian & Kohpayegani, ‘Sesame Cultivation and Use in Iran’, in Bedigian, ed., Sesame: The Genus Sesamum (2011), PDF p.346 (printed p.321). Only the mention is reported, with no passage or place; the book’s title is given in the chapter’s own transliteration. Compare e1 and e2 for the Baghdad cookbook’s sesame oil.",
+          "xlinks": ["fats-1000-1500::ec13"]
+        },
+        {
           "id": "ec1",
           "group": "Butter & Ghee",
           "label": "Butter is a luxury in Anglo-Saxon England",
@@ -596,6 +611,11 @@
       "accent": "#8B5E00",
       "label": "Economy",
       "events": [
+        {
+          "y": 10,
+          "l": "Abu Mansur lists sesame as a crop of Iran",
+          "entryId": "ec11"
+        },
         {
           "y": 600,
           "l": "Butter is a luxury in Anglo-Saxon England",

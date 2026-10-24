@@ -208,6 +208,14 @@
       "label": "Pannage",
       "full": "Pigs fed on acorns and beechnuts in the autumn forest of the early Middle Ages.",
       "src": "Kiple (Gade)"
+    },
+    {
+      "id": "ec11",
+      "lane": "economy",
+      "year": 10,
+      "label": "Sesame in Iran",
+      "full": "Abu Mansur names sesame as a crop of Iran, late tenth century.",
+      "src": "Mortazavian (Bedigian)"
     }
   ],
   "edges": [
@@ -354,6 +362,12 @@
       "o1",
       "loose",
       "The Frankish stewards’ accounts of bacon and fat and the autumn mast feeding of the estates’ pigs are two ends of the same pork economy."
+    ],
+    [
+      "ec11",
+      "e2",
+      "loose",
+      "Iran’s sesame crop and Baghdad’s sesame-oil bread are the same region’s sesame in the same century."
     ]
   ]
 }

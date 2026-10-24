@@ -264,6 +264,30 @@
       "label": "Yak butter",
       "full": "Tsocha and the butter lamps of Tibet and the Himalaya.",
       "src": "Kiple (yak chapter)"
+    },
+    {
+      "id": "ec13",
+      "lane": "economy",
+      "year": 2005,
+      "label": "Ethiopian sesame",
+      "full": "Camel-powered ashara, fasting stews, and 60–70 per cent of the crop exported.",
+      "src": "Teklewold (Bedigian)"
+    },
+    {
+      "id": "ec14",
+      "lane": "economy",
+      "year": 2005,
+      "label": "Turkish tahin",
+      "full": "Sesame ground into tahin and simit; no sesame-oil presses left.",
+      "src": "Uzun (Bedigian)"
+    },
+    {
+      "id": "ec15",
+      "lane": "economy",
+      "year": 2005,
+      "label": "China and Thailand sesame",
+      "full": "China first in the world, pressing two-thirds of its crop; Thai massage oil.",
+      "src": "Zhao; Wongyai (Bedigian)"
     }
   ],
   "edges": [
@@ -464,6 +488,24 @@
       "ec9",
       "loose",
       "Vanaspati replaces ghee in India’s kitchens; in the Himalaya the staple fat is yak or cow butter."
+    ],
+    [
+      "ec13",
+      "ec11",
+      "loose",
+      "Ethiopia’s sesame stew in the fasts and the East African herders’ milk are two ways of getting fat where the supply is uneven."
+    ],
+    [
+      "ec14",
+      "ec13",
+      "loose",
+      "Turkey grinds its sesame into paste and Ethiopia stirs it into a stew: the seed eaten whole where the oil is not pressed."
+    ],
+    [
+      "ec15",
+      "ec13",
+      "loose",
+      "China, the world’s first producer, presses two-thirds of its sesame for oil while Ethiopia exports most of its crop as seed."
     ]
   ]
 }
