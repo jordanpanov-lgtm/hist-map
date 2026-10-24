@@ -1,0 +1,253 @@
+{
+  "nodes": [
+    {
+      "id": "xf1",
+      "lane": "external",
+      "year": 1791,
+      "label": "Industrial chemistry and steam",
+      "full": "Steam power, the Leblanc soda process and the new chemistry of Lavoisier and Chevreul remake both the soap and lighting industries in the decades around 1800.",
+      "src": "Ward; Schivelbusch",
+      "external": true
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 1750,
+      "label": "Spermaceti candles",
+      "full": "Candles of sperm-whale head matter; the 1761 Trust.",
+      "src": "Dolin pp.125, 146, 152"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 1815,
+      "label": "Whaling golden age",
+      "full": "American whaling peaks at 735 ships.",
+      "src": "Dolin; Davis et al."
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 1795,
+      "label": "Dutch whaling ends",
+      "full": "Revolutionary wars end Dutch whaling.",
+      "src": "Ellis p.66"
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": 1783,
+      "label": "Argand lamp",
+      "full": "A smokeless oil lamp, 1783.",
+      "src": "Schivelbusch pp.10–14"
+    },
+    {
+      "id": "te2",
+      "lane": "technology",
+      "year": 1810,
+      "label": "Gaslight",
+      "full": "A light without a wick, 1810.",
+      "src": "Schivelbusch p.14"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": 1813,
+      "label": "Chevreul",
+      "full": "The chemistry of fats and soap.",
+      "src": "Ward; Lowengard"
+    },
+    {
+      "id": "te3",
+      "lane": "technology",
+      "year": 1791,
+      "label": "Industrial soap",
+      "full": "Steam, Leblanc and Chevreul.",
+      "src": "Ward"
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": 1791,
+      "label": "More soap",
+      "full": "Consumption more than doubles.",
+      "src": "Ward"
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 1711,
+      "label": "Soap excise",
+      "full": "The English duty on soap.",
+      "src": "Ward; Lowengard"
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": 1800,
+      "label": "Marseille’s kettles",
+      "full": "Imported oilseeds challenge olive oil.",
+      "src": "Ward"
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 1807,
+      "label": "Abolition",
+      "full": "Slave-trade abolition and the oil trade.",
+      "src": "Law; Lynn"
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 1815,
+      "label": "Palm oil tonnage",
+      "full": "British imports leap from under 2,000 to over 22,000 tons.",
+      "src": "Law p.47"
+    },
+    {
+      "id": "ec7",
+      "lane": "economy",
+      "year": 1830,
+      "label": "Palm oil for machines and candles",
+      "full": "Lubricant, soap, candles, glycerine and tinplate.",
+      "src": "Lynn p.3; Hopkins"
+    },
+    {
+      "id": "ec8",
+      "lane": "economy",
+      "year": 1834,
+      "label": "Bristol soap and oil",
+      "full": "Bristol’s soap makers and palm-oil port.",
+      "src": "Lynn p.28"
+    },
+    {
+      "id": "l1",
+      "lane": "lives",
+      "year": 1820,
+      "label": "Slavery within Africa",
+      "full": "The oil boom and the use of slave labour.",
+      "src": "Law p.51"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 1807,
+      "label": "Liverpool oil merchants",
+      "full": "Slave traders become oil importers.",
+      "src": "Law ch.3"
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": 1807,
+      "label": "Oil coast",
+      "full": "Old Calabar and Bonny export oil.",
+      "src": "Lynn pp.18–21"
+    }
+  ],
+  "edges": [
+    [
+      "ec1",
+      "ec2",
+      "strong",
+      "Dolin describes spermaceti candles as the foundation of the colonial whale trade that grew into the golden age."
+    ],
+    [
+      "w1",
+      "ec2",
+      "loose",
+      "The collapse of Dutch whaling left the northern and Atlantic fishery to the Americans, as the folio reads Ellis and Dolin together."
+    ],
+    [
+      "te1",
+      "te2",
+      "loose",
+      "Schivelbusch presents gaslight as the next step beyond the oil lamp that Argand had perfected."
+    ],
+    [
+      "ec2",
+      "te1",
+      "loose",
+      "Sperm and whale oils fed the lamps of the period, of which the Argand burner was the best."
+    ],
+    [
+      "xf1",
+      "th1",
+      "strong",
+      "Ward lists Chevreul’s chemistry among the three developments that made soap manufacture industrial."
+    ],
+    [
+      "xf1",
+      "te3",
+      "strong",
+      "Steam, Leblanc soda and Chevreul together make soap an industrial product, as Ward says."
+    ],
+    [
+      "th1",
+      "te3",
+      "strong",
+      "Chevreul’s chemistry is one of the three components of industrial soap in Ward’s account."
+    ],
+    [
+      "te3",
+      "ec6",
+      "strong",
+      "Ward reads the doubling of consumption as the result of the industrial capacity to make soap cheaply."
+    ],
+    [
+      "o2",
+      "ec6",
+      "loose",
+      "The excise duty gives the record from which Ward counts consumption."
+    ],
+    [
+      "te3",
+      "ec5",
+      "loose",
+      "Industrial chemistry lets makers use a wider range of oils than the olive."
+    ],
+    [
+      "o1",
+      "ec3",
+      "strong",
+      "Law argues that the end of the slave trade turned the Biafran ports to palm oil, whose British imports rose tenfold."
+    ],
+    [
+      "ec3",
+      "x1",
+      "strong",
+      "The tonnages shipped from Old Calabar and Bonny make up the British imports of Law’s table."
+    ],
+    [
+      "ec3",
+      "ec4",
+      "loose",
+      "Liverpool’s former slavers are among the importers of this oil."
+    ],
+    [
+      "ec7",
+      "ec3",
+      "strong",
+      "Lynn and Hopkins explain the tenfold rise in British palm-oil imports by industrial demand for lubricants, soap and candles."
+    ],
+    [
+      "ec8",
+      "ec7",
+      "loose",
+      "Bristol’s role as a soap-making centre is the soap side of the palm-oil demand."
+    ],
+    [
+      "o1",
+      "l1",
+      "loose",
+      "Law argues that after 1807 the oil trade increased slavery within West Africa."
+    ],
+    [
+      "ec5",
+      "ec7",
+      "loose",
+      "Imported oils entering the soap kettles of Marseille and Bristol belong to the same industrial demand for oils."
+    ]
+  ]
+}

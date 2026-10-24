@@ -1,0 +1,233 @@
+{
+  "nodes": [
+    {
+      "id": "xf1",
+      "lane": "external",
+      "year": 1850,
+      "label": "Industrial cities and railways",
+      "full": "Growing industrial towns, railways and the working-class market create the demand for cheap light, cheap fat and cheap soap that the folio’s changes answer.",
+      "src": "Lynn p.3; Hopkins; Cronon",
+      "external": true
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": 1846,
+      "label": "Kerosene and Drake",
+      "full": "Kerosene and the 1859 oil well end whale-oil lighting.",
+      "src": "Dolin pp.365–369"
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": 1861,
+      "label": "Civil War",
+      "full": "Whalers sunk, idled or burned; kerosene wins the North.",
+      "src": "Dolin; Bockstoce"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 1848,
+      "label": "Arctic whaling",
+      "full": "Roys 1848, whalebone prices, the 1871 disaster.",
+      "src": "Bockstoce"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": 1869,
+      "label": "Mège’s idea",
+      "full": "Butterfat from beef suet.",
+      "src": "van Stuyvenberg pp.6–7"
+    },
+    {
+      "id": "te2",
+      "lane": "technology",
+      "year": 1869,
+      "label": "Margarine process",
+      "full": "Oleo-margarine churned with milk; butter-like names banned.",
+      "src": "van Stuyvenberg p.7"
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 1871,
+      "label": "Jurgens and Van den Bergh",
+      "full": "Dutch butter houses buy the patent in 1871.",
+      "src": "van Stuyvenberg ch.1"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 1860,
+      "label": "Cottonseed oil",
+      "full": "From garbage in 1860 to table oil in 1890.",
+      "src": "Mueller"
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 1840,
+      "label": "Packers’ by-products",
+      "full": "Lard, stearin and oleomargarine from the packinghouses.",
+      "src": "Cronon"
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 1881,
+      "label": "Missouri 1881",
+      "full": "Missouri outlaws margarine.",
+      "src": "Mueller; van Stuyvenberg"
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 1886,
+      "label": "Federal 1886 law",
+      "full": "Licences and a 2-cent tax on oleomargarine.",
+      "src": "van Stuyvenberg pp.285–286"
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 1887,
+      "label": "German Act 1887",
+      "full": "Germany’s first Margarine Act.",
+      "src": "van Stuyvenberg pp.290–291"
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 1879,
+      "label": "German tariff 1879",
+      "full": "Protection for the margarine industry.",
+      "src": "van Stuyvenberg p.290"
+    },
+    {
+      "id": "e2",
+      "lane": "expression",
+      "year": 1883,
+      "label": "Twain’s beaters",
+      "full": "Fake butter and bogus olive oil.",
+      "src": "Mueller"
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": 1855,
+      "label": "Palm kernels",
+      "full": "Kernel imports 592 tons to 34,186; Lever’s soap.",
+      "src": "Lynn p.3; Law"
+    },
+    {
+      "id": "ec7",
+      "lane": "economy",
+      "year": 1884,
+      "label": "Lever Brothers",
+      "full": "Sunlight Soap and Warrington.",
+      "src": "Fieldhouse"
+    },
+    {
+      "id": "e1",
+      "lane": "expression",
+      "year": 1879,
+      "label": "Ivory",
+      "full": "P&G’s floating white soap and brand.",
+      "src": "Dyer et al."
+    }
+  ],
+  "edges": [
+    [
+      "te1",
+      "c1",
+      "loose",
+      "Dolin says the Civil War’s collapse of northern demand came as kerosene became the illuminant of choice."
+    ],
+    [
+      "te1",
+      "ec4",
+      "strong",
+      "Bockstoce reads the decline of sperm oil’s price under substitute illuminants as what pushed whalers toward the Arctic baleen."
+    ],
+    [
+      "ec4",
+      "c1",
+      "loose",
+      "The Shenandoah’s Arctic cruise and the 1871 disaster both fall in the same decline of the American fleet."
+    ],
+    [
+      "th1",
+      "te2",
+      "strong",
+      "Mège’s suet process is the margarine process of the patent."
+    ],
+    [
+      "te2",
+      "ec1",
+      "strong",
+      "Jurgens bought the process and patent in 1871 and made margarine at scale."
+    ],
+    [
+      "ec1",
+      "o3",
+      "strong",
+      "Van Stuyvenberg ties Germany’s Margarine Act to the anti-margarine campaign provoked by margarine’s growth."
+    ],
+    [
+      "ec1",
+      "o2",
+      "strong",
+      "Van Stuyvenberg ties the 1886 federal law to the dairy lobby’s campaign against the new fat."
+    ],
+    [
+      "ec2",
+      "ec1",
+      "loose",
+      "Much cottonseed oil went into oleomargarine, as Mueller says."
+    ],
+    [
+      "ec3",
+      "ec1",
+      "loose",
+      "Cronon’s packers made oleomargarine and stearin in their laboratories from the 1880s."
+    ],
+    [
+      "o1",
+      "o2",
+      "strong",
+      "The federal act followed the state bans and their failure, as van Stuyvenberg relates."
+    ],
+    [
+      "w1",
+      "o3",
+      "loose",
+      "German protection and the margarine boom set up the dairy backlash that led to the 1887 Act."
+    ],
+    [
+      "e2",
+      "ec2",
+      "loose",
+      "Twain’s fake butter and bogus oil are the cottonseed and margarine economy seen by a contemporary."
+    ],
+    [
+      "xf1",
+      "ec5",
+      "loose",
+      "Industrial demand for soap, candles and cheap margarine drove the palm-kernel trade."
+    ],
+    [
+      "ec5",
+      "ec7",
+      "strong",
+      "Law ties Old Calabar’s kernel exports to Lever’s kernel-and-coconut soap."
+    ],
+    [
+      "ec7",
+      "e1",
+      "loose",
+      "Lever’s Sunlight and P&G’s Ivory are the two great branded soaps of the 1880s, as Ward and Dyer tell."
+    ]
+  ]
+}

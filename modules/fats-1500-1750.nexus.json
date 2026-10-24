@@ -1,0 +1,292 @@
+{
+  "nodes": [
+    {
+      "id": "xf1",
+      "lane": "external",
+      "year": 1520,
+      "label": "Reformation",
+      "full": "The Protestant break with Rome in northern Europe, in which Luther’s attack on the Lenten butter ban and the Italian oil is one thread, changes the fat rules of northern Europe.",
+      "src": "Khosrova p.56; Flandrin",
+      "external": true
+    },
+    {
+      "id": "xf2",
+      "lane": "external",
+      "year": 1500,
+      "label": "Atlantic expansion",
+      "full": "The Iberian and then northern European voyages carry whalers, slave traders and missionaries across the Atlantic, opening the whaling grounds of Labrador and the palm-oil coast.",
+      "src": "Ellis; Zuckerman",
+      "external": true
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": 1520,
+      "label": "Luther on butter",
+      "full": "Luther’s 1520 attack on Lenten oil and butter indulgences.",
+      "src": "Khosrova p.56"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": 1517,
+      "label": "Butter and leprosy",
+      "full": "The Cardinal of Aragon’s 1517 remark on butter countries.",
+      "src": "Mueller"
+    },
+    {
+      "id": "e1",
+      "lane": "expression",
+      "year": 1500,
+      "label": "Carnival and Lent",
+      "full": "Butter and oil as armies in art and street drama.",
+      "src": "Mueller"
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": 1600,
+      "label": "Dutch butterboxes",
+      "full": "Dutch Golden Age dairy.",
+      "src": "Khosrova p.21"
+    },
+    {
+      "id": "ec8",
+      "lane": "economy",
+      "year": 1694,
+      "label": "London tallow",
+      "full": "Houghton’s estimate of London tallow, chandlers and soap.",
+      "src": "Lowengard"
+    },
+    {
+      "id": "ec7",
+      "lane": "economy",
+      "year": 1500,
+      "label": "Butter in Italy",
+      "full": "Butter spreads south and becomes a status symbol.",
+      "src": "Khosrova p.57"
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 1536,
+      "label": "Red Bay",
+      "full": "The Basque whaling station in Labrador.",
+      "src": "Ellis pp.46–53"
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 1576,
+      "label": "Whaling monopoly",
+      "full": "Elizabeth I’s monopoly for the Muscovy Company.",
+      "src": "Ellis pp.50–51"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 1611,
+      "label": "Spitsbergen",
+      "full": "The Dutch and English whale fishery.",
+      "src": "Ellis pp.47–65"
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": 1613,
+      "label": "Spitsbergen war",
+      "full": "English and Dutch whalers fight for the grounds.",
+      "src": "Ellis pp.47, 57, 60"
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 1651,
+      "label": "Whale-oil duties",
+      "full": "The Navigation Act and the 1672 Act.",
+      "src": "Ellis pp.60, 68"
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 1625,
+      "label": "Warm decade",
+      "full": "Whales move offshore in 1625–35.",
+      "src": "Ellis p.64"
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 1682,
+      "label": "Leith soap-boilers",
+      "full": "Soap-boilers finance a whaling voyage.",
+      "src": "Ellis p.61"
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 1618,
+      "label": "Soap oil fines",
+      "full": "London fines soap-makers for impure oil.",
+      "src": "Mueller"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 1642,
+      "label": "Mortamer ledger",
+      "full": "Palm oil and kernels from Angola to Brazil.",
+      "src": "Zuckerman"
+    },
+    {
+      "id": "l1",
+      "lane": "lives",
+      "year": 1600,
+      "label": "Palm oil on slave ships",
+      "full": "Women boil palm oil for the gruel.",
+      "src": "Zuckerman"
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": 1550,
+      "label": "Olive to the Americas",
+      "full": "Spanish oil exports, then missions plant olives.",
+      "src": "Kiple; Mueller"
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": 1650,
+      "label": "Colonial sesame",
+      "full": "British hope sesame will replace olive oil; benne.",
+      "src": "Kiple II.E.4"
+    },
+    {
+      "id": "th3",
+      "lane": "thought",
+      "year": 1637,
+      "label": "Tiangong kaiwu oils",
+      "full": "Song Yingxing’s ranking of oils.",
+      "src": "Needham 6.5"
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": 1637,
+      "label": "Ming press",
+      "full": "The wedge press, mill and double pressing.",
+      "src": "Needham 6.5"
+    }
+  ],
+  "edges": [
+    [
+      "xf1",
+      "b1",
+      "strong",
+      "Luther’s attack on the Lenten oil is a thread in the Reformation’s break with Rome."
+    ],
+    [
+      "th1",
+      "e1",
+      "loose",
+      "The belief that butter caused leprosy and the carnival–Lent allegory are two expressions of the north–south fat divide in the same centuries."
+    ],
+    [
+      "b1",
+      "ec5",
+      "loose",
+      "Khosrova notes that the dairy-rich butter-eating nations were largely those that broke from Rome, the Dutch among them."
+    ],
+    [
+      "b1",
+      "ec7",
+      "loose",
+      "Khosrova links the Lenten allowance of butter in the north to its spread south and its rise as a status symbol in Italy."
+    ],
+    [
+      "xf2",
+      "ec1",
+      "strong",
+      "The Basque voyages to Labrador are part of the Atlantic expansion that Ellis describes."
+    ],
+    [
+      "ec1",
+      "ec2",
+      "loose",
+      "Basque harpooners were hired on the first English and Dutch voyages to Spitsbergen."
+    ],
+    [
+      "o1",
+      "ec2",
+      "loose",
+      "The Muscovy Company’s monopoly and charter set up the English side of the Spitsbergen fishery."
+    ],
+    [
+      "ec2",
+      "c1",
+      "strong",
+      "Ellis shows the English and Dutch arming their whalers over Spitsbergen from 1613."
+    ],
+    [
+      "c1",
+      "o3",
+      "strong",
+      "The Navigation Act of 1651 was meant to restrict Dutch whale oil, in the war’s background."
+    ],
+    [
+      "w1",
+      "ec2",
+      "loose",
+      "The warm decade of 1625–35 made shore whaling harder, as Ellis relates."
+    ],
+    [
+      "ec2",
+      "ec3",
+      "loose",
+      "Merchants and soap-boilers financing a whaling voyage are the English market that Spitsbergen oil served."
+    ],
+    [
+      "o2",
+      "ec3",
+      "loose",
+      "Soap-boilers are the trade London’s 1618 order regulated and the one that invested in whale oil at Leith."
+    ],
+    [
+      "ec8",
+      "o2",
+      "loose",
+      "Houghton’s account of tallow, candles and soap describes the London trades that the 1618 order regulated."
+    ],
+    [
+      "xf2",
+      "ec4",
+      "loose",
+      "The Atlantic trade of the 1600s is the setting in which palm oil moves from Angola to Brazil."
+    ],
+    [
+      "ec4",
+      "l1",
+      "strong",
+      "Zuckerman ties the palm-oil exchange to the slave ships’ provisions and the boiling of the fruit by women captives."
+    ],
+    [
+      "xf2",
+      "x1",
+      "loose",
+      "Missionaries and settlers carry olive oil and then olive trees across the Atlantic."
+    ],
+    [
+      "x1",
+      "ec6",
+      "loose",
+      "Britain’s hope for sesame oil as a substitute for olive oil answers the colonial oil trade of the Spanish."
+    ],
+    [
+      "th3",
+      "te1",
+      "strong",
+      "Song Yingxing’s ranking of oils and his description of the press come from the same chapter of the Tiangong kaiwu."
+    ]
+  ]
+}
