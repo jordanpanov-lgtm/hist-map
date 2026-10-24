@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "xf1",
+      "lane": "external",
+      "year": -125000,
+      "label": "Interglacial Europe",
+      "full": "The Neumark-Nord site lies in a lake landscape of the last interglacial, with temperatures like today’s; the Ice Age that follows is the setting for the lamps and pots of the later entries.",
+      "src": "Press coverage of Kindler et al. 2025",
+      "external": true
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": -125000,
+      "label": "Bone-grease rendering",
+      "full": "Neanderthals boil crushed bones for grease at Neumark-Nord.",
+      "src": "Kindler 2025 (press)"
+    },
+    {
+      "id": "te2",
+      "lane": "technology",
+      "year": -40000,
+      "label": "Fat lamps",
+      "full": "Lascaux and other caves: animal fat burned in stone lamps.",
+      "src": "Lascaux page; de Beaune"
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": -13000,
+      "label": "Jōmon pots",
+      "full": "Aquatic foods cooked in the earliest pots.",
+      "src": "Craig 2013"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": -10000,
+      "label": "Marrow and bone juice",
+      "full": "The recorded northern practice of cracking bones and boiling grease.",
+      "src": "Kiple PDF p.521"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": -10000,
+      "label": "The fattest animal",
+      "full": "Aleut sea lions and bison: hunters select for fat.",
+      "src": "Kiple PDF pp.93–95"
+    }
+  ],
+  "edges": [
+    [
+      "xf1",
+      "te1",
+      "loose",
+      "The interglacial lake landscape is the setting of the Neumark-Nord grease site."
+    ],
+    [
+      "te1",
+      "ec2",
+      "strong",
+      "Crushing bones and boiling out the grease is the same method as the recorded bone-juice practice, though the sources are unrelated."
+    ],
+    [
+      "ec2",
+      "th1",
+      "loose",
+      "Marrow and back-fat are what hunters who choose the fattest animals are after."
+    ],
+    [
+      "te2",
+      "ec1",
+      "loose",
+      "Fat burned for light and fish cooked in pots are two other uses of animal and aquatic fat in the same Ice Age world."
+    ],
+    [
+      "th1",
+      "ec1",
+      "loose",
+      "The pull of fat-rich aquatic and sea-mammal foods is a thread from the Aleut sea lion to the Jōmon pot."
+    ]
+  ]
+}

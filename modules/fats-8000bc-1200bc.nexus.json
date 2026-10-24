@@ -154,12 +154,20 @@
       "src": "Abstract; Lynn"
     },
     {
-      "id": "x3",
-      "lane": "exchange",
+      "id": "ec13",
+      "lane": "economy",
+      "year": -2300,
+      "label": "The sunflower",
+      "full": "Domesticated in eastern North America before 1500 BC.",
+      "src": "Kiple II.E.6"
+    },
+    {
+      "id": "ec14",
+      "lane": "economy",
       "year": -2700,
-      "label": "Sunflower and soybean",
-      "full": "Two oil crops domesticated on different continents.",
-      "src": "Kiple II.E"
+      "label": "The soybean",
+      "full": "Domesticated in north-east China, 2700 or 1000 BC.",
+      "src": "Kiple II.E.5; Needham"
     },
     {
       "id": "ec12",
@@ -176,6 +184,22 @@
       "label": "Egypt’s nhh",
       "full": "The identity of the pharaohs’ best oil.",
       "src": "Kiple; Zohary"
+    },
+    {
+      "id": "ec15",
+      "lane": "economy",
+      "year": -4000,
+      "label": "Baltic marine fat in pots",
+      "full": "Marine and freshwater foods still cooked as farming arrives.",
+      "src": "Craig 2011 (abstract)"
+    },
+    {
+      "id": "te4",
+      "lane": "technology",
+      "year": -5400,
+      "label": "Blubber lamps",
+      "full": "Late Mesolithic lamps of the Ertebølle north.",
+      "src": "Antiquity (title)"
     }
   ],
   "edges": [
@@ -253,9 +277,15 @@
     ],
     [
       "ec12",
-      "x3",
+      "ec13",
       "loose",
       "Peanut in Peru and sunflower in eastern North America are the New World’s two earliest oil crops in this folio."
+    ],
+    [
+      "ec13",
+      "ec14",
+      "loose",
+      "The sunflower and the soybean, two of today’s great oils, were domesticated on different continents with no contact."
     ],
     [
       "ec10",
@@ -274,6 +304,18 @@
       "th1",
       "loose",
       "Akkadian šamaššammū and Egyptian nhh are two oil names whose identity scholars cannot settle."
+    ],
+    [
+      "ec15",
+      "te4",
+      "strong",
+      "Cooking pots and lamps of the same Baltic hunter-gatherers both ran on marine and freshwater fat."
+    ],
+    [
+      "ec15",
+      "w1",
+      "loose",
+      "The north’s fish and sea-mammal fat is the other side of the climate baseline that sets animal fat in the cool north."
     ]
   ]
 }

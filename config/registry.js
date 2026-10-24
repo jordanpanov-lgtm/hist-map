@@ -284,6 +284,7 @@ const MODULES = [
   { id:"sugar-1900-1970", file:"modules/sugar-1900-1970.json", label:"Sugar 1900–1970", sub:"Glut, War and Quota: The Sugar Trust, Colonial Taiwan, Rationing, Cuba and the First Doubts", region:"Sugar", period:"Modern" },
   { id:"sugar-1970-today", file:"modules/sugar-1970-today.json", label:"Sugar 1970–today", sub:"Corn Syrup, Obesity and the Sugar Tax: From Yudkin’s Warning to the Soft Drinks Levy", region:"Sugar", period:"Modern" },
   // ── Fats & Oils (subject folios) ──
+  { id:"fats-130000bc-8000bc", file:"modules/fats-130000bc-8000bc.json", label:"Fats & Oils before 8000 BC", sub:"Bone Grease, Fat Lamps, the First Pots and the Hunter’s Fat", region:"Fats & Oils", period:"Prehistoric" },
   { id:"fats-8000bc-1200bc", file:"modules/fats-8000bc-1200bc.json", label:"Fats & Oils 8000–1200 BC", sub:"Fat Before Oil: Rendered Fat, the First Butter, the Olive of the Levant and the Sesame of the Indus", region:"Fats & Oils", period:"Prehistoric" },
   { id:"fats-1200bc-300bc", file:"modules/fats-1200bc-300bc.json", label:"Fats & Oils 1200–300 BC", sub:"Oil, Ghee and Tallow: The Olive in Greece and Palestine, the Vedic Ghee, Sesame from the Indus to Urartu and the Fats of the Zhou", region:"Fats & Oils", period:"Ancient" },
   { id:"fats-300bc-600ad", file:"modules/fats-300bc-600ad.json", label:"Fats & Oils 300 BC–600 AD", sub:"Oil Empire and Butter Frontier: Rome’s Oil Jars, the Tripolitanian Boom, Ghee and Sesame in India and the First Pressed Oils of China", region:"Fats & Oils", period:"Late Antique" },
