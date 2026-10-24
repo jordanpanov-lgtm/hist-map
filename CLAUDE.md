@@ -35,6 +35,8 @@ modules/FIELD_GUIDE.md          ← entry/folio SCHEMA reference (fields, keywor
 .claude/commands/new-folio.md   ← full creation workflow incl. batch checkpointing
 modules/NEXUS_GUIDE.md          ← building a folio's "Nexus" causal-web view — a STANDARD step of
                                    every folio (new-folio.md Step 9), not optional
+modules/OVERVIEW_GUIDE.md       ← the optional "Overview" tab (editorial executive summary, default view);
+                                   standard for subject-folio programs (Sugar, Fats & Oils, …)
 ```
 
 Do **not** infer the schema from existing JSON files — a few predate the current conventions.

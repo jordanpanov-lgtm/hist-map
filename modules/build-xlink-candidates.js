@@ -26,7 +26,7 @@ const OUTPUT       = path.join(DIR, '_xlink_candidates.json');
 // folios instead of trying to squeeze that into the simplified index format.
 
 const files = fs.readdirSync(DIR)
-  .filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json')
+  .filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json' && !f.endsWith('.overview.json'))
   .sort();
 
 const entries = [];

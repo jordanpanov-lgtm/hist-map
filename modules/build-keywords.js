@@ -253,7 +253,7 @@ main();
 }
 
 function main() {
-const files = fs.readdirSync(DIR).filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json').sort();
+const files = fs.readdirSync(DIR).filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json' && !f.endsWith('.overview.json')).sort();
 let totalAdded = 0, totalSkippedExisting = 0, totalSkippedEmpty = 0, totalErrors = 0;
 
 for (const file of files) {

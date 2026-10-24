@@ -51,7 +51,8 @@ const warn = (folio, msg) => warns.push(`${folio}: ${msg}`);
 
 const allJson = fs.readdirSync(DIR).filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json').sort();
 const nexusFiles = allJson.filter(f => f.endsWith('.nexus.json'));
-const files = allJson.filter(f => !f.endsWith('.nexus.json'));
+const overviewFiles = allJson.filter(f => f.endsWith('.overview.json'));
+const files = allJson.filter(f => !f.endsWith('.nexus.json') && !f.endsWith('.overview.json'));
 
 // ── Pass 1: parse every folio, collect all global keys for xlink resolution ──
 const folios = {};
@@ -158,6 +159,58 @@ for (const folioId of Object.keys(folios)) {
       if (ev.entryId && !ids.has(ev.entryId)) err(file, `timeline references missing entry "${ev.entryId}"`);
     }
   }
+}
+
+// ── Pass 3b: validate each Overview sidecar (<folioId>.overview.json) ──
+// Contract: OVERVIEW_GUIDE.md. An editorial companion: { question, summary[], themes[], turning_points[],
+// how_to_read, sources{}, reviewed }. Every [[entryId]] marker and every "entries"/"entry" reference
+// must name a real entry of the same folio, so the overview cannot silently drift from the entries.
+for (const file of overviewFiles) {
+  const folioId = file.replace(/\.overview\.json$/, '');
+  let ov;
+  try {
+    ov = JSON.parse(fs.readFileSync(path.join(DIR, file), 'utf8'));
+  } catch (e) {
+    err(file, `JSON parse failed — ${e.message}`);
+    continue;
+  }
+  const folio = folios[folioId];
+  if (!folio) { err(file, `no folio "${folioId}" for this Overview sidecar`); continue; }
+  const ids = new Set();
+  for (const cat of (folio.data.categories || [])) for (const e of (cat.entries || [])) ids.add(e.id);
+  if (typeof ov.question !== 'string' || !ov.question.trim()) err(file, 'missing "question" (one sentence: what is this folio for?)');
+  const textOf = x => (Array.isArray(x) ? x : (x == null ? [] : [x]));
+  if (!Array.isArray(ov.summary) || !ov.summary.length) err(file, '"summary" must be a non-empty array of paragraphs');
+  const checkRefs = (where, text) => {
+    for (const t of textOf(text)) {
+      if (typeof t !== 'string') { err(file, `${where}: text must be a string`); continue; }
+      for (const m of t.matchAll(/\[\[([A-Za-z0-9_]+)\]\]/g)) {
+        if (!ids.has(m[1])) err(file, `${where}: [[${m[1]}]] is not an entry of "${folioId}"`);
+      }
+    }
+  };
+  const checkIds = (where, list) => {
+    for (const id of textOf(list)) if (!ids.has(id)) err(file, `${where}: entry "${id}" is not an entry of "${folioId}"`);
+  };
+  checkRefs('summary', ov.summary);
+  if (!Array.isArray(ov.themes) || ov.themes.length < 2) warn(file, 'fewer than 2 "themes" — an overview should name the main threads');
+  for (const [i, t] of (ov.themes || []).entries()) {
+    if (!t.title || t.text === undefined) err(file, `themes[${i}]: needs "title" and "text"`);
+    checkRefs(`themes[${i}].text`, t.text);
+    checkIds(`themes[${i}].entries`, t.entries);
+  }
+  for (const [i, t] of (ov.turning_points || []).entries()) {
+    if (!t.date || !t.text) err(file, `turning_points[${i}]: needs "date" and "text"`);
+    checkRefs(`turning_points[${i}].text`, t.text);
+    if (t.entry) checkIds(`turning_points[${i}].entry`, t.entry);
+  }
+  checkRefs('how_to_read', ov.how_to_read);
+  if (!ov.sources || typeof ov.sources !== 'object') warn(file, 'no "sources" section — the overview should comment on the evidence');
+  else {
+    checkRefs('sources.intro', ov.sources.intro);
+    for (const k of ['main', 'contested', 'gaps']) checkRefs(`sources.${k}`, ov.sources[k]);
+  }
+  if (!ov.reviewed) warn(file, 'no "reviewed" date');
 }
 
 // ── Pass 3: validate each Nexus sidecar (<folioId>.nexus.json → { nodes, edges }) ──

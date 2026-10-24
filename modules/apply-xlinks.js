@@ -3200,7 +3200,7 @@ function findEntryClose(text, fromIndex) {
   return -1;
 }
 
-const files = fs.readdirSync(DIR).filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json').sort();
+const files = fs.readdirSync(DIR).filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json' && !f.endsWith('.overview.json')).sort();
 
 let entriesUpdated = 0, alreadyPresent = 0, errors = 0;
 

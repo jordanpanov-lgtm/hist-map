@@ -22,7 +22,7 @@ const DIR    = path.join(__dirname);
 const OUTPUT = path.join(DIR, '_global_index.json');
 
 const files = fs.readdirSync(DIR)
-  .filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json')
+  .filter(f => f.endsWith('.json') && !f.startsWith('_') && f !== 'schema.json' && !f.endsWith('.overview.json'))
   .sort();
 
 const index         = {};   // "folioId::entryId" → label

@@ -181,6 +181,36 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .leg-label{font-size:10px;color:#888;font-style:italic}
 #map-note{margin-top:6px;font-size:10px;color:#bbb;font-family:'Courier New',monospace}
 
+
+/* ── OVERVIEW (editorial companion) ── */
+#overview-view{display:none}
+#ov-area{max-width:860px;margin:0 auto;padding:22px 24px 60px;font-family:'IM Fell English',serif;color:#2a2a2a;line-height:1.62}
+.ov-kicker{font-size:10px;font-family:'Courier New',monospace;letter-spacing:.14em;color:#999;text-transform:uppercase;margin-bottom:8px}
+.ov-question{font-size:25px;font-weight:normal;line-height:1.3;margin:0 0 16px;color:#1a1a1a}
+.ov-summary p{font-size:15px;margin:0 0 12px}
+.ov-h{font-size:11px;font-family:'Courier New',monospace;letter-spacing:.14em;text-transform:uppercase;color:#8a7a5a;margin:30px 0 10px;padding-bottom:5px;border-bottom:1px solid #e0d8cc}
+.ov-theme{border-left:3px solid #c9bd9f;padding:6px 0 6px 14px;margin:0 0 16px}
+.ov-theme h4{font-size:16px;font-weight:normal;margin:0 0 3px;color:#1a1a1a}
+.ov-theme p{font-size:14px;margin:0 0 6px;color:#333}
+.ov-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
+.ov-chip{display:inline-block;font-size:11px;font-family:'IM Fell English',serif;font-style:italic;padding:2px 8px;border:1px solid #d6cdb8;border-radius:11px;background:#faf7ef;color:#5a4a2a;cursor:pointer;line-height:1.35;vertical-align:baseline}
+.ov-chip:hover{background:#f0e9d6;border-color:#a89a70}
+.ov-chip-in{font-size:10px;padding:0 6px;margin:0 1px;white-space:nowrap}
+.ov-chip .ov-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px}
+.ov-turn{display:grid;grid-template-columns:104px 1fr;gap:12px;padding:6px 0;border-bottom:1px dotted #e6dfce;font-size:14px}
+.ov-turn .ov-date{font-family:'Courier New',monospace;font-size:11px;color:#8a7a5a;padding-top:3px}
+.ov-read p,.ov-src p{font-size:14px;margin:0 0 10px;color:#333}
+.ov-src ul{margin:0 0 10px 0;padding-left:18px;font-size:13.5px;color:#333}
+.ov-src li{margin-bottom:5px}
+.ov-src h5{font-size:12px;font-family:'Courier New',monospace;letter-spacing:.08em;text-transform:uppercase;color:#a0522d;margin:14px 0 5px;font-weight:normal}
+.ov-nav{display:flex;justify-content:space-between;gap:14px;margin-top:8px}
+.ov-nav a{flex:1;border:1px solid #e0d8cc;border-radius:6px;padding:9px 12px;font-size:13px;color:#4a3a1a;cursor:pointer;text-decoration:none;background:#fff}
+.ov-nav a:hover{background:#f6f1e3}
+.ov-nav small{display:block;font-size:10px;font-family:'Courier New',monospace;letter-spacing:.1em;color:#999;text-transform:uppercase}
+.ov-nav .ov-next{text-align:right}
+.ov-foot{margin-top:26px;font-size:10px;color:#bbb;font-family:'Courier New',monospace;line-height:1.8}
+@media(max-width:640px){#ov-area{padding:16px 14px 50px}.ov-question{font-size:21px}.ov-turn{grid-template-columns:1fr;gap:2px}}
+
 /* ── NEXUS (causal web) ── */
 #nexus-view{display:none}
 #nexus-area{padding:14px 20px 40px}
@@ -288,6 +318,7 @@ body.nx-show-all .nx-edge-loose:not(.nx-edge-hub1):not(.nx-edge-hub2):not(.nx-ed
   </div>
   <div id="module-cats"></div>
   <div id="tabs">
+    <button class="tab-btn"        id="btn-overview" onclick="setView('overview')" style="display:none">◈ Overview</button>
     <button class="tab-btn active" id="btn-list"     onclick="setView('list')">☰ List</button>
     <button class="tab-btn"        id="btn-timeline" onclick="setView('timeline')">◫ Timeline</button>
     <button class="tab-btn"        id="btn-map"      onclick="setView('map')">◎ Map</button>
@@ -358,6 +389,10 @@ body.nx-show-all .nx-edge-loose:not(.nx-edge-hub1):not(.nx-edge-hub2):not(.nx-ed
   </div>
 </div>
 
+<div id="overview-view">
+  <div id="ov-area"></div>
+</div>
+
 <div id="nexus-view">
   <div id="nexus-area">
     <div id="nx-legend">
@@ -411,9 +446,11 @@ let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
 let currentView = 'list';
+let OVERVIEW_DATA = null;   // from modules/<id>.overview.json, if one exists (editorial companion tab, default view when present)
+let OVERVIEW_BUILT_FOR = null;
 let NEXUS_DATA = null;      // {nodes, edges} from modules/<id>.nexus.json, if one exists
 let NEXUS_BUILT_FOR = null; // MOD.id the #nx-svg was last rendered for, so switching back doesn't rebuild
-const _HASH_VIEWS = new Set(['list', 'timeline', 'map', 'nexus']); // reserved 2nd hash segments
+const _HASH_VIEWS = new Set(['list', 'timeline', 'map', 'nexus', 'overview']); // reserved 2nd hash segments
 let _selfHash = false;   // set immediately before we assign location.hash ourselves
 let _replaying = false;  // set while route() is applying a hash to the page
 let _pickerOpen = false; // folio picker overlay open — reflected in the hash as #browse[/<region>,…]
@@ -432,10 +469,15 @@ function loadModule(file) {
   const loadEl = document.getElementById('loading');
   loadEl.textContent = 'LOADING MODULE…';
   loadEl.style.display = 'flex';
-  ['list-view','timeline-view','map-view','nexus-view'].forEach(id => document.getElementById(id).style.display = 'none');
+  ['list-view','timeline-view','map-view','nexus-view','overview-view'].forEach(id => document.getElementById(id).style.display = 'none');
 
   return fetch(file)
     .then(r => r.json())
+    // The editorial overview is optional and hand-written per folio; a 404 is expected.
+    // Probed BEFORE the folio is applied so the default view can be decided without a flash of the list.
+    .then(data => fetch(file.replace(/\.json$/, '.overview.json'))
+      .then(r => r.ok ? r.json() : null).catch(() => null)
+      .then(ov => { OVERVIEW_DATA = ov; return data; }))
     .then(data => {
       MOD = data;
       activeCatIds = new Set(data.categories.map(c => c.id));
@@ -450,6 +492,11 @@ function loadModule(file) {
       NEXUS_DATA = null;
       document.getElementById('btn-nexus').style.display = 'none';
       if (currentView === 'nexus') currentView = 'list';
+      document.getElementById('btn-overview').style.display = OVERVIEW_DATA ? '' : 'none';
+      // A folio with an overview opens on it (unless a hash is replaying an explicit view — route() sets that);
+      // a folio without one never lands on a missing tab.
+      if (OVERVIEW_DATA && !_replaying) currentView = 'overview';
+      else if (!OVERVIEW_DATA && currentView === 'overview') currentView = 'list';
       fetch(file.replace(/\.json$/, '.nexus.json'))
         .then(r => r.ok ? r.json() : Promise.reject())
         .then(nx => {
@@ -480,7 +527,7 @@ function loadCorpus(c) {
   currentCorpus = c;
   closePicker(true);
 
-  ['list-view','timeline-view','map-view','nexus-view'].forEach(id => document.getElementById(id).style.display = 'none');
+  ['list-view','timeline-view','map-view','nexus-view','overview-view'].forEach(id => document.getElementById(id).style.display = 'none');
   document.getElementById('loading').style.display = 'none';
   document.getElementById('header').style.display = 'none';
   if (leafMap) { leafMap.remove(); leafMap = null; markerLayer = null; }
@@ -518,6 +565,67 @@ function renderHeader() {
   document.getElementById('module-name-top').textContent = MOD.title + ' · ' + MOD.subtitle;
   // Reveal the close button now that a module is loaded
   document.getElementById('picker-close').style.visibility = 'visible';
+}
+
+
+// ── OVERVIEW (editorial companion) ───────────────────────────────────────────
+// Renders OVERVIEW_DATA from modules/<id>.overview.json — a hand-written, big-picture reading of the
+// folio: the question it answers, the shift in a few paragraphs, themes, turning points, how to read
+// it, and a frank note on the sources. It is editorial, not evidence: claims point to entries with
+// [[entryId]] markers, which render as clickable chips that open the entry. See OVERVIEW_GUIDE.md.
+function _ovEsc(t) {
+  return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function _ovChip(id, inline) { // inline chips (inside running text) show the date only; the label is the tooltip
+  const e = entryById(id);
+  if (!e) return '';
+  const lab = e.label.length > 64 ? e.label.slice(0, 62) + '…' : e.label;
+  if (inline) return `<span class="ov-chip ov-chip-in" data-ov-entry="${_ovEsc(id)}" title="${_ovEsc(e.label)}"><span class="ov-dot" style="background:${e.accent}"></span>${_ovEsc(e.date || e.label)}</span>`;
+  return `<span class="ov-chip" data-ov-entry="${_ovEsc(id)}" title="${_ovEsc(e.date || '')}"><span class="ov-dot" style="background:${e.accent}"></span>${_ovEsc(lab)}</span>`;
+}
+function _ovText(t) { // escape, then turn [[id]] into entry chips and *x* into emphasis
+  return _ovEsc(t).replace(/\[\[([A-Za-z0-9_]+)\]\]/g, (m, id) => _ovChip(id, true) || '').replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}
+function buildOverview() {
+  const o = OVERVIEW_DATA, area = document.getElementById('ov-area');
+  const paras = x => (Array.isArray(x) ? x : (x ? [x] : [])).map(p => `<p>${_ovText(p)}</p>`).join('');
+  let h = `<div class="ov-kicker">Overview · ${_ovEsc(MOD.title)} ${_ovEsc(MOD.period.start < 0 ? Math.abs(MOD.period.start) + ' BC' : MOD.period.start)}–${_ovEsc(MOD.period.end < 0 ? Math.abs(MOD.period.end) + ' BC' : (MOD.period.end >= 2025 ? 'today' : MOD.period.end))}</div>`;
+  h += `<h2 class="ov-question">${_ovText(o.question || MOD.subtitle)}</h2>`;
+  h += `<div class="ov-summary">${paras(o.summary)}</div>`;
+  if ((o.themes || []).length) {
+    h += `<div class="ov-h">The main threads</div>`;
+    o.themes.forEach(t => {
+      h += `<div class="ov-theme"><h4>${_ovText(t.title)}</h4>${paras(t.text)}`;
+      if ((t.entries || []).length) h += `<div class="ov-chips">${t.entries.map(id => _ovChip(id)).join('')}</div>`;
+      h += `</div>`;
+    });
+  }
+  if ((o.turning_points || []).length) {
+    h += `<div class="ov-h">Turning points</div>`;
+    o.turning_points.forEach(t => { h += `<div class="ov-turn"><div class="ov-date">${_ovEsc(t.date)}</div><div>${_ovText(t.text)}${t.entry ? ' ' + _ovChip(t.entry) : ''}</div></div>`; });
+  }
+  if (o.how_to_read) h += `<div class="ov-h">How to read this folio</div><div class="ov-read">${paras(o.how_to_read)}</div>`;
+  const src = o.sources;
+  if (src) {
+    h += `<div class="ov-h">On the sources</div><div class="ov-src">${paras(src.intro)}`;
+    if ((src.main || []).length) h += `<h5>What carries the folio</h5><ul>${src.main.map(m => `<li>${_ovText(m)}</li>`).join('')}</ul>`;
+    if ((src.contested || []).length) h += `<h5>Contested or thin</h5><ul>${src.contested.map(m => `<li>${_ovText(m)}</li>`).join('')}</ul>`;
+    if ((src.gaps || []).length) h += `<h5>Gaps and what would help</h5><ul>${src.gaps.map(m => `<li>${_ovText(m)}</li>`).join('')}</ul>`;
+    h += `</div>`;
+  }
+  // previous / next folio of the same zone, in registry order
+  const sibs = MODULES.filter(m => m.region === MOD.region && m.period !== undefined);
+  const i = sibs.findIndex(m => m.id === MOD.id);
+  if (i !== -1 && sibs.length > 1) {
+    const nav = (m, cls, lab) => m ? `<a class="${cls}" href="#${m.id}"><small>${lab}</small>${_ovEsc(m.label)}</a>` : '<span style="flex:1"></span>';
+    h += `<div class="ov-h">Continue</div><div class="ov-nav">${nav(sibs[i-1], 'ov-prev', '← Earlier')}${nav(sibs[i+1], 'ov-next', 'Later →')}</div>`;
+  }
+  h += `<div class="ov-foot">An editorial reading of this folio, not a source: every claim points to entries (click the chips), and each entry's note gives its own evidence tier.${o.reviewed ? ' Last reviewed ' + _ovEsc(o.reviewed) + '.' : ''}</div>`;
+  area.innerHTML = h;
+  area.querySelectorAll('[data-ov-entry]').forEach(el => el.addEventListener('click', () => {
+    const e = entryById(el.getAttribute('data-ov-entry'));
+    if (e) { openModal(e, e.accent); writeHash(true); }
+  }));
 }
 
 // ── NEXUS (causal web) ──────────────────────────────────────────────────────
@@ -750,7 +858,10 @@ function showNexusNode(id){
 // ── VIEW SWITCHING ────────────────────────────────────────────────────────────
 function setView(v) {
   if (v === 'nexus' && !NEXUS_DATA) v = 'list'; // no causal web for this folio — fall back quietly
+  if (v === 'overview' && !OVERVIEW_DATA) v = 'list'; // no overview for this folio
   currentView = v;
+  document.getElementById('overview-view').style.display  = v==='overview' ? 'block' : 'none';
+  document.getElementById('btn-overview').classList.toggle('active', v==='overview');
   document.getElementById('list-view').style.display      = v==='list'     ? 'block' : 'none';
   document.getElementById('timeline-view').style.display  = v==='timeline' ? 'block' : 'none';
   document.getElementById('map-view').style.display       = v==='map'      ? 'block' : 'none';
@@ -759,6 +870,7 @@ function setView(v) {
   document.getElementById('btn-timeline').classList.toggle('active', v==='timeline');
   document.getElementById('btn-map').classList.toggle('active',      v==='map');
   document.getElementById('btn-nexus').classList.toggle('active',    v==='nexus');
+  if (v==='overview' && OVERVIEW_BUILT_FOR !== MOD.id) { buildOverview(); OVERVIEW_BUILT_FOR = MOD.id; }
   if (v==='map' && !leafMap) initMap();
   if (v==='timeline') setTimeout(buildTimeline, 40);
   if (v==='nexus' && NEXUS_BUILT_FOR !== MOD.id) { buildNexus(); NEXUS_BUILT_FOR = MOD.id; }
@@ -1679,7 +1791,7 @@ function computeHash() {
   if (!MOD) return '';
   const modalOpen = document.getElementById('modal-overlay').classList.contains('open');
   if (modalOpen && MODAL_ENTRY) return MOD.id + '/' + MODAL_ENTRY.id;
-  if (currentView && currentView !== 'list') return MOD.id + '/' + currentView;
+  if (currentView && (currentView !== 'list' || OVERVIEW_DATA)) return MOD.id + '/' + currentView;
   return MOD.id;
 }
 
@@ -1713,8 +1825,8 @@ function route() {
     _replaying = true;
     try {
       const entry = seg && !_HASH_VIEWS.has(seg) ? entryById(seg) : null;
-      if (entry) { setView('list'); openModal(entry, entry.accent); }
-      else { closeModal(); setView(_HASH_VIEWS.has(seg) ? seg : 'list'); }
+      if (entry) { setView(OVERVIEW_DATA ? 'overview' : 'list'); openModal(entry, entry.accent); }
+      else { closeModal(); setView(_HASH_VIEWS.has(seg) ? seg : (OVERVIEW_DATA ? 'overview' : 'list')); }
     } finally { _replaying = false; }
   };
 
