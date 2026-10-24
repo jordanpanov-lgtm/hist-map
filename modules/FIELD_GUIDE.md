@@ -48,6 +48,12 @@ deliberately not ported (schema_version would require retrofitting 26 existing f
 benefit; domain doesn't apply to a region×time atlas; methodology's boilerplate role is served by
 this file instead).
 
+### Subject folios — `region` is a commodity zone
+
+For a subject (commodity) folio such as `sugar-300bc-600ad`, `region` is the commodity's zone id from the
+`History of Food` block in `config/regions.js` (`"Sugar"`), and `mapZoom` is 3 or lower. Nothing else in the
+schema changes. See GROUPING_GUIDE.md's "Subject folios" section for placement, group, dating and evidence rules.
+
 ### `mapCenter` for `region`, at any TAXONOMY tier
 
 Unlike sci-map's flat `domain` enum, `region` can legitimately be a zone, sub-region, or top-level

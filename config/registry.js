@@ -272,5 +272,7 @@ const MODULES = [
   { id:"modern-near-east-1900-1945", file:"modules/modern-near-east-1900-1945.json", label:"The Modern Near East 1900–1945", sub:"Revolutions and the Great War, the Mandate Order, Nationalism and Reform, Oil, and the Second World War", region:"Near East", period:"Modern" },
   { id:"modern-near-east-1945-1990", file:"modules/modern-near-east-1945-1990.json", label:"The Modern Near East 1945–1990", sub:"Decolonisation and the Cold War, the Arab–Israeli Wars, Revolutionary Republics, Oil and the Revolution in Iran", region:"Near East", period:"Modern" },
   { id:"modern-near-east-1990-today", file:"modules/modern-near-east-1990-today.json", label:"The Modern Near East 1990–today", sub:"The Gulf War and the Peace Process, the Iraq War, the Arab Uprisings and the Syrian Catastrophe, Gaza, and the Iran Wars (as of October 2026)", region:"Near East", period:"Modern" },
+  // ── HISTORY OF FOOD (subject folios — one commodity across the world; region = the commodity's zone id) ──
+  { id:"sugar-300bc-600ad", file:"modules/sugar-300bc-600ad.json", label:"Sugar 300 BC–600 AD", sub:"Reed Honey, the Boiling Ladder and the First Roads from India to Rome, Persia and China", region:"Sugar", period:"Late Antique" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

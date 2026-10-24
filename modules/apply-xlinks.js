@@ -2940,6 +2940,45 @@ const SELECTED_PAIRS = [
   ['modern-near-east-1990-today::c13', 'modern-near-east-1945-1990::l4'],      // the Kurds in four states
   ['modern-near-east-1990-today::ec1', 'modern-near-east-1945-1990::ec1'],      // OPEC, the embargo and the oil shocks
   ['modern-near-east-1990-today::l4', 'modern-near-east-1945-1990::l5'],      // the migrant workers of the Gulf boom
+  // ── sugar-300bc-600ad (first subject folio) — hand-reviewed 2026-10; the automated candidates were mostly
+  //    homonym noise ("Armenian" satrapy vs the Armenian Geography; Alexander of Tralles vs Alexander the Great)
+  //    and were rejected; only same-person / same-text / same-place links below were accepted.
+  // Shapur I (same king, same reign; the dynasty strings differ across folios — see dynasty_alignment_proposals):
+  ['sugar-300bc-600ad::p1', 'sassanid-224-484::k2'],                  // Shapur I — the same reign
+  ['sugar-300bc-600ad::p1', 'roman-sasanian-world-224-632::p2'],      // Shapur I — the same reign
+  ['sugar-300bc-600ad::p1', 'mesopotamia-224-637::k2'],               // Shapur I and the captured emperors
+  // Shapur's resettled captives and the Shushtar weir:
+  ['sugar-300bc-600ad::l2', 'roman-sasanian-world-224-632::l2'],      // the prisoners of Valerian
+  ['sugar-300bc-600ad::l2', 'sassanid-224-484::o4'],                  // cities founded with Roman prisoner labour
+  ['sugar-300bc-600ad::l2', 'sassanid-224-484::te1'],                 // Band-e Kaisar built by prisoners
+  ['sugar-300bc-600ad::l2', 'roman-sasanian-world-224-632::te2'],     // the dams and weirs of Shushtar
+  ['sugar-300bc-600ad::l2', 'roman-sasanian-world-224-632::w3'],      // the deportations and the new cities
+  // the Indian physician at Gundeshapur:
+  ['sugar-300bc-600ad::x4', 'sassanid-224-484::t3'],                  // Gundeshapur — first hospital
+  ['sugar-300bc-600ad::x4', 'sassanid-224-484::ex3'],                 // Gundeshapur — multi-tradition medical exchange
+  ['sugar-300bc-600ad::x4', 'roman-sasanian-world-224-632::t1'],      // the Academy of Gundeshapur
+  // Khusrau I:
+  ['sugar-300bc-600ad::p2', 'sassanid-484-651::k5'],                  // Khosrow I (Anushirvan)
+  ['sugar-300bc-600ad::p2', 'roman-sasanian-world-224-632::p6'],      // Kavad I and Khusrau I
+  ['sugar-300bc-600ad::p2', 'mesopotamia-224-637::k6'],               // Khosrow I — the great reforms
+  ['sugar-300bc-600ad::p2', 'sassanid-484-651::ex3'],                 // Borzuya's mission to India
+  // Persian cane -> the Islamic crop transfers:
+  ['sugar-300bc-600ad::p2', 'caliphate-632-750::ec3'],                // cane spreads west out of India and Iran
+  ['sugar-300bc-600ad::th14', 'caliphate-632-750::ec3'],              // cane at Gundeshapur -> the crop transfers
+  // Diocletian's Edict of Maximum Prices (same document):
+  ['sugar-300bc-600ad::o2', 'rome-200-300::o3'],                      // Edict of Maximum Prices
+  ['sugar-300bc-600ad::o2', 'roman-anatolia-133bc-330::o7'],          // The Edict of Maximum Prices
+  // the Indian Ocean trade (same text / same route):
+  ['sugar-300bc-600ad::x1', 'south-arabia-300bc-628::t1'],            // the Periplus of the Erythraean Sea
+  ['sugar-300bc-600ad::x1', 'nabataean-312bc-106ce::t3'],             // Periplus — Nabataean trade documented
+  ['sugar-300bc-600ad::x1', 'egypt-30bc-300ad::xc1'],                 // the India trade at its height
+  ['sugar-300bc-600ad::w2', 'egypt-30bc-300ad::g1'],                  // the monsoon sailing route
+  ['sugar-300bc-600ad::w2', 'egypt-332bc-30bc::xc1'],                 // the Indian Ocean route opens
+  ['sugar-300bc-600ad::w2', 'tylos-mleiha-300bc-240ad::tc3'],         // monsoon sailing on the Gulf–India route
+  ['sugar-300bc-600ad::o1', 'egypt-30bc-300ad::xc2'],                 // the Muziris papyrus — the 25% duty at Alexandria
+  // Galen and the Alexandrian medical tradition:
+  ['sugar-300bc-600ad::th11', 'egypt-30bc-300ad::t2'],                // Alexandria, the school of the doctors (Galen studied there)
+  ['sugar-300bc-600ad::th13', 'egypt-300-641::t3'],                   // the Alexandrian medical curriculum
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

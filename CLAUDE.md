@@ -2,8 +2,10 @@
 
 ## This project
 
-- **Repo:** `C:\Users\josol\Downloads\04. social\hist-map` (GitHub: `jordanpanov-lgtm/hist-map`)
-- **Dev server:** `npx http-server -p 8134 -c-1 .` from the `hist-map/` root
+- **Repo:** `C:\Users\josol\Downloads\[]AI Projects\Claude - hist-map` (GitHub: `jordanpanov-lgtm/hist-map`) —
+  moved from `04. social\hist-map` in 2026; the old path and the `C:\histmap_preview` junction are dead
+- **Dev server:** `npx http-server -p 8134 -c-1 .` from the repo root (preview config `hist-map`, port 8134,
+  in `.claude/launch.json` — serves the repo path directly, no junction needed)
 - **Do NOT confuse with** `sci-map` (a sibling project in `04. social/` — same architecture family,
   organised by scientific field instead of region×time) or `mydceo`/`knowledge-library` — separate
   repos, separate servers.
@@ -13,6 +15,12 @@ one kingdom/state/era (e.g. "Visigothic Spain 589–711", "Spain 1975–today").
 **datable primary source** (chronicle, inscription, coin, treaty text, official gazette) — the
 history-folio equivalent of sci-map's landmark-study anchor. Facts are events, not scientific
 findings; the two projects share tooling, not content methodology.
+
+**Subject folios.** A second folio type follows one *thing* (a commodity) across the world instead of
+one place — the first is `sugar-300bc-600ad`, filed under `History of Food › Sweeteners › Sugar` in
+`config/regions.js`. It uses the same 11 categories, `PERIODS`, schema, Nexus and xlink pipeline as a
+region folio; only placement differs (`region` is the commodity's zone id, `mapZoom` ≤ 3). See
+GROUPING_GUIDE.md's "Subject folios" section.
 
 ---
 

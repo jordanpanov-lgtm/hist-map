@@ -58,6 +58,12 @@ const STOPWORDS = new Set([
   // entries and produce false cross-folio links on pure co-occurrence.
   'french', 'spanish', 'roman', 'english', 'german', 'italian', 'portuguese', 'arab',
   'byzantine', 'persian', 'greek', 'turkish', 'moorish', 'egyptian', 'nubian',
+  // Same reasoning, found in the first subject (commodity) folio, Sugar 300 BC–600 AD: further
+  // demonyms and capitalised commodity/generic nouns that open hint sentences ("Cane is
+  // fermented…", "Honey was costly…", "Indian monks…") and would link every Sugar folio to
+  // every other on the commodity's own name alone.
+  'indian', 'chinese', 'buddhist', 'southern', 'monastic', 'cane', 'sugarcane', 'sugar',
+  'honey', 'sand',
   // Sentence-initial common words/quantifiers/adjectives that happen to be capitalized
   // only because they open a label or hint sentence ("Invention of...", "Around 3300
   // BC...", "Bound captives...", "Three rival..."), not because they're part of a

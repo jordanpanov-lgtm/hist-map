@@ -132,6 +132,7 @@ Order covers **all government-driven acts** — laws, decrees, administrative re
 | `Manuscript & Book Arts` | illuminated manuscripts, decorated codices |
 | `Music & Performance` | documented musical instruments, performance records, music theory texts, court musicians, named composers — include even when evidence is indirect (instrument depictions on reliefs, descriptions in literary sources) |
 | `Literature & Poetry` | verse, epic, drama (as artistic works, not scholarship) |
+| `Cookery & Food Writing` | recipe collections, cookbooks, dining and banquet texts — and evidence that a food is *absent* from them (the natural home of a subject folio's food texts) |
 
 ---
 
@@ -144,6 +145,7 @@ Order covers **all government-driven acts** — laws, decrees, administrative re
 | `Science & Geography` | natural history, medicine, astronomy, cartography |
 | `Political Theory` | works on governance, law theory, political philosophy |
 | `Letters & Correspondence` | letter collections as intellectual sources |
+| `Grammar & Lexicography` | grammars, dictionaries, glossaries and etymologies — the fixing of a language's vocabulary, and the evidence for when a thing first has a name |
 
 ---
 
@@ -573,6 +575,42 @@ The Spain folios oscillate between peninsular and global imperial scope. Colonia
 
 ### Primary source discipline — modern anchors
 Entries anchoring to **modern legislation** (e.g. Historical Memory Law 2007) or **modern academic debates** (e.g. convivencia historiography) as their PRIMARY source violate the methodology. These may be referenced as **secondary interpretive frameworks** but the primary anchor must be a medieval/contemporary source: a court record, treaty text, council act, or dated chronicle. Flag this explicitly in the note field.
+
+---
+
+## Subject folios (commodity folios — e.g. Sugar)
+
+A subject folio follows one *thing* across the world instead of one place. It is a different **placement**,
+not a different folio: same 11 categories, same `PERIODS`, same schema, Nexus and xlink pipeline. First
+instance: `sugar-300bc-600ad`.
+
+- **Placement.** `region` is the commodity's zone id (`"Sugar"`), defined in the `History of Food` block at
+  the end of `config/regions.js` (tier 1 subject area › tier 2 family › tier 3 commodity). One folio per
+  `PERIODS` cell by default; a thin cell stays a folio of its own — never merged across periods.
+- **Map.** Subject folios are global: `mapCenter` on the commodity's core of that phase, `mapZoom` 3 or lower.
+- **Groups.** The `group` field works exactly as for region folios — the tables above are the inventory of
+  *reusable* groups, and a subject folio draws on them (Science & Geography, Trade & Commerce, Silk Road &
+  Trade Routes, Enslaved Lives …). A group used by only one folio does not need an entry here: Power
+  subdivisions (`Sasanian Iran`), named wars (`Northern Wei–Liu Song War`) and named traditions
+  (`Han Funerary Offerings`) are folio-specific by design. Add a row to a table above only when a group
+  is plausibly reusable across folios (`Cookery & Food Writing` and `Grammar & Lexicography` were added this way).
+- **Category rules carry over unchanged.** Taxation, tariffs and price edicts are **Order**, not Economy;
+  health stories go under **Lives** as stories of groups of people (history, not biology); pandemic-scale
+  disease is **World**.
+- **Power** appears only when a ruler's reign matters to the thing; it keeps the reign-span rule (dated to the
+  reign, `SUCCESSION` tag, `dynasty` using the *same* string the existing folios use for that person).
+- **Dating.** Date a source by what it **describes**, not by when it was compiled (the *Sui shu* on late-6th-century
+  Persia is a late-6th-century entry); the compilation date goes in `note`. A report preserved in a later
+  author belongs to the period of the report (Strabo preserving Nearchus's 325 BC report belongs to the
+  Ancient folio).
+- **Evidence tiers.** Begin every `note` with its tier — `ANCHOR` (edition read or cited), `SECONDARY`
+  (primary not read), `CONTESTED`, `UNVERIFIED` (thin lead) — followed by the exact pages used. Thin leads are
+  welcome in a young research field, but only labelled as such.
+- **Contested identity.** Where the thing itself is in doubt (ancient *saccharon*: cane sugar or bamboo
+  tabasheer), use the tag `IDENTITY CONTESTED` and state the dispute in `note`.
+- **Absence.** An absence may be an entry only when it is a *document*: a price edict or tariff list that omits
+  the commodity is an Order entry. Do not add placeholder lines to categories that have no evidence — leave
+  `entries: []`; new research may fill them.
 
 ---
 

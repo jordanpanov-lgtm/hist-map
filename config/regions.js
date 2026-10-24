@@ -126,6 +126,17 @@ const TAXONOMY = [
       { id:'Micronesia',   label:'Micronesia',   detail:'Guam · Palau · Marshall Islands · Federated States of Micronesia' },
     ]},
   ]},
+  // ── SUBJECT BLOCKS ────────────────────────────────────────────────────────────
+  // A "subject" folio follows one thing (a commodity) across the world instead of one place.
+  // It uses the SAME 11 categories, PERIODS and picker as a region folio; only the placement
+  // differs — `region` is the subject's zone id (e.g. region:"Sugar"). Tier 1 = the subject area,
+  // Tier 2 = a family of things, Tier 3 = the single commodity. Subject folios are global, so
+  // mapCenter/mapZoom should frame the commodity's core and zoom 3 or lower.
+  { id:'History of Food', label:'History of Food', subs:[
+    { id:'Sweeteners', label:'Sweeteners', zones:[
+      { id:'Sugar', label:'Sugar', detail:'cane · reed honey · syrups · beet · honey as rival' },
+    ]},
+  ]},
 ];
 
 const PERIODS = [
