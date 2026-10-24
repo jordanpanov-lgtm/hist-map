@@ -1,0 +1,1185 @@
+{
+  "id": "sugar-1650-1800",
+  "title": "Sugar",
+  "subtitle": "1650–1800 · The Sugar Revolution: Barbados, Jamaica, Saint-Domingue, the Atlantic Slave Trade, Rum and Tea",
+  "period": {
+    "start": 1650,
+    "end": 1800
+  },
+  "mapCenter": [
+    15,
+    -45
+  ],
+  "mapZoom": 2,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "",
+      "entries": []
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "Slave revolts from Barbados to Palmares, the seizure of Jamaica, the Peace of Paris and the revolution in Saint-Domingue",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Slave Revolts",
+          "label": "Barbados counts seven mutinies of the enslaved in seventy years",
+          "date": "1640–1713",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "Richard Dunn’s study of the English West Indies records seven mutinies on Barbados between 1640 and 1713 — Buttery thinks there were many more, nipped in the bud — and points out that rebels could not simply seize a few guns and burn a plantation: a successful rising needed planning and secrecy. Rebels were put to death by burning and other tortures.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY (popular history, thin): Buttery, A Dark History of Sugar (Pen & Sword), ch.6 ‘Fear of Freedom’, citing Dunn, Sugar and Slaves (1972); the quotation of the punishments is from a contemporary account Buttery gives in note 33. Not checked against Dunn.",
+          "keywords": ["Barbados","Richard Dunn","West Indies"]
+        },
+        {
+          "id": "c2",
+          "group": "Anglo-Spanish War",
+          "label": "England seizes Jamaica in the Western Design",
+          "date": "1655",
+          "loc": "Jamaica",
+          "coords": [
+            17.99,
+            -76.79
+          ],
+          "hint": "In 1655 an English expedition, part of the Western Design, takes Jamaica from Spain, adding the island that was to overtake Barbados as the leading British sugar colony by about 1712. Mintz notes that from about 1655 Barbadian sugar began to affect the home market.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mintz, Sweetness and Power (1985) p.37 (the invasion ‘launched as part of the Western Design’); Smith (2015) p.27 (‘after its conquest by the British in 1655’); Walvin, Sugar: The World Corrupted (2017) ch.4 (Jamaica overtakes Barbados by 1712). See ec5.",
+          "keywords": ["Jamaica","England","Western Design"]
+        },
+        {
+          "id": "c3",
+          "group": "Anglo-French Wars",
+          "label": "French and English burn each other out of St Kitts",
+          "date": "1666–1667",
+          "loc": "St Kitts",
+          "coords": [
+            17.36,
+            -62.78
+          ],
+          "hint": "In 1666–67 the French burn the English out of St Kitts and burn off the local vegetation as well; by 1672 the forests of the lowlands of St Kitts, Nevis and Montserrat have gone up in smoke, a sign of how sugar planting and war together stripped the islands.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.4 (environmental impact of sugar); the war is not detailed there. See w1.",
+          "keywords": ["St Kitts"]
+        },
+        {
+          "id": "c4",
+          "group": "Slave Revolts",
+          "label": "Palmares, Brazil’s runaway kingdom, is destroyed",
+          "date": "1694–1695",
+          "loc": "Serra da Barriga, Alagoas",
+          "coords": [
+            -9.18,
+            -36
+          ],
+          "hint": "Palmares, a large community of escaped slaves in the hills behind the Pernambuco sugar coast, is crushed by colonial forces in 1694 and its leader Zumbi killed in 1695; its people had survived on farming manioc and trading with the colonists. Smith says runaways in Brazil and Jamaica formed their own communities in the interior.",
+          "tag": "UNVERIFIED",
+          "note": "UNVERIFIED (dates from general knowledge, not from the sources read): Kiple, Cambridge World History of Food, p.220 mentions the Palmares settlement only in passing — runaways who ‘raised manioc and marketed it’ and its documents ‘Relação das guerras feitas aos Palmares’ (1675–78) in the bibliography; Smith (2015) p.34 for the general point. Check Schwartz (1985) and Kiple’s cited sources.",
+          "keywords": ["Serra da Barriga","Alagoas","Palmares","Brazil"]
+        },
+        {
+          "id": "c5",
+          "group": "Seven Years’ War",
+          "label": "The Peace of Paris reshapes the sugar islands’ trade",
+          "date": "1763",
+          "loc": "Paris",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "hint": "Walvin says the Peace of Paris of 1763 hurt France: it lost Canada, and its Caribbean islands were henceforth allowed to export only molasses and rum — which New England merchants took up, shipping more of it to the northern colonies and drawing closer scrutiny from Britain. The fighting for the sugar islands in the war is not detailed here.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.8 (his statement that the islands could export ‘only molasses and rum’ looks overstated — the treaty’s terms were not checked). See france-1715-1789::c1.",
+          "keywords": ["Peace of Paris","New England"],
+          "xlinks": ["france-1715-1789::c1"]
+        },
+        {
+          "id": "c6",
+          "group": "American Revolution",
+          "label": "American independence cuts the island planters’ supplies",
+          "date": "1776–1783",
+          "loc": "The Caribbean and North America",
+          "coords": [
+            18.2,
+            -66.5
+          ],
+          "hint": "Independence in 1776 threatens the Caribbean planters, who depend on North America for supplies and sell much of their rum there; Walvin says smugglers kept trade going, with rum heading north and American supplies south through the Danish islands.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.8. The war’s end date follows convention (1783), not Walvin. Compare o3.",
+          "keywords": ["Caribbean","North America","American"]
+        },
+        {
+          "id": "c7",
+          "group": "Slave Revolts",
+          "label": "The slaves of Saint-Domingue rise and destroy the world’s greatest sugar colony",
+          "date": "1791–1804",
+          "loc": "Saint-Domingue, Haiti",
+          "coords": [
+            18.54,
+            -72.34
+          ],
+          "hint": "The rising that begins in 1791 destroys hundreds of sugar and coffee plantations; some 10,000 slaveholders and refugees flee, mainly to Jamaica and the USA. Saint-Domingue, which made 80,000 tons of sugar in 1791 and was the biggest producer in the world, was making 10,000 within a decade, and Haiti became independent on 1 January 1804.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.11 (the tonnages); Smith (2015) pp.34–35 (the revolt began in 1791, France’s armies lost to yellow fever and guerrillas; independence 1 January 1804; planters fled to Louisiana and Cuba). See france-1789-1815::c3 and lv3, and t5, x6.",
+          "keywords": ["Saint-Domingue","Haiti"],
+          "xlinks": ["france-1789-1815::c3","france-1789-1815::lv3"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "The Navigation Acts, the Barbados slave code, the Molasses, Sugar and Tea Acts and the first legal tests of slavery",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Trade Legislation",
+          "label": "The Navigation Acts keep the sugar trade in English hands",
+          "date": "1651–1663",
+          "loc": "England",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "English laws passed from 1651 shut out foreign shipping from the trade of the English colonies; Walvin says they excluded the Dutch from North America, and Mintz that imperial laws were passed from the first sugar colonies to control the flow of their goods and of the goods exchanged for them. A smuggling trade in rum and molasses followed.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.8 (Navigation Acts ‘designed to keep trade firmly in British hands’; gives no years); Mintz (1985) p.37 (imperial laws to control the flow of goods). The years 1651–1663 (the Acts of 1651, 1660 and 1663) are from general knowledge and were not checked in the sources read.",
+          "keywords": ["England","Navigation Acts","North America"]
+        },
+        {
+          "id": "o2",
+          "group": "Colonial Law",
+          "label": "Barbados passes its slave code",
+          "date": "1661",
+          "loc": "Bridgetown, Barbados",
+          "coords": [
+            13.1,
+            -59.61
+          ],
+          "hint": "The Barbados Assembly passes a slave code in 1661, the ‘Act for the Governing of Negroes’ (updated in 1688), taking away almost all the rights of enslaved Africans on the ground that they were ‘of barbarous, wild and savage natures’; it became the model for other English slave codes.",
+          "tag": "LAW",
+          "note": "SECONDARY (popular history): Buttery, ch.6, quoting the Act; ‘model for other English slave codes’ is general knowledge (compare france-1610-1715::o3, the Code Noir of 1685). The text of the Act was not read.",
+          "keywords": ["Bridgetown","Barbados Assembly","Governing of Negroes"],
+          "xlinks": ["france-1610-1715::o3"]
+        },
+        {
+          "id": "o3",
+          "group": "Trade Legislation",
+          "label": "The Molasses Act, the Sugar Act and the Tea Act feed American resentment",
+          "date": "1733–1773",
+          "loc": "Britain and North America",
+          "coords": [
+            42.36,
+            -71.06
+          ],
+          "hint": "A string of parliamentary acts — the Molasses Act of 1733, a Sugar Act (dated 1760 by Walvin) and the Tea Act of 1773 — taxed sugar, molasses and tea; they roused deep American resentment that helped push the colonies towards independence. New England’s distillers had been using cheap smuggled French molasses.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.7 and ch.8. The Sugar Act is usually dated 1764; Walvin’s ‘1760’ looks like a slip and is not used. Compare c6.",
+          "keywords": ["Britain","North America","Molasses Act","Tea Act","American","New England"]
+        },
+        {
+          "id": "o4",
+          "group": "Human Rights",
+          "label": "English and Scottish courts begin to test slavery",
+          "date": "1770s",
+          "loc": "England and Scotland",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "In the 1770s a series of cases in England and Scotland asks whether slavery is legal there, whether a person can be made to return to the slave colonies, and whether slave traders can claim insurance for Africans thrown overboard; Walvin says these small points of law exposed the reality of slavery and the slave trade just as the trade boomed.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.3 (the cases are not named there; the Somerset case of 1772 and the Zong insurance case are the best known — see l3). Dates from general knowledge for the cases themselves.",
+          "keywords": ["England","Scotland","Scottish"]
+        },
+        {
+          "id": "o5",
+          "group": "Fiscal & Monetary Policy",
+          "label": "Britain slashes the duty on tea",
+          "date": "1784",
+          "loc": "Britain",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "In 1784 the duties on tea are finally slashed, ending a smuggling industry that had thrived on the high rates; Walvin says the sheer volume of tea and sugar had been driving their prices down, and a drink once confined to the rich was now sold in village shops.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.6 (‘until the duties on tea were finally slashed in 1784’); the Commutation Act is not named there.",
+          "keywords": ["Britain"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "George Fox on Barbados and the Quaker case against sugar",
+      "entries": [
+        {
+          "id": "b1",
+          "group": "Quakerism",
+          "label": "George Fox preaches to the enslaved on Barbados",
+          "date": "1671",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "The Quaker leader George Fox, arriving on Barbados in 1671, concludes that slaves are men in the eyes of God and should have their souls saved; he invites them to Quaker meetings and urges kinder treatment, and he and his followers are harassed until they leave. A few Quaker owners freed a few slaves, but no one yet suggested abolishing slavery itself.",
+          "tag": "EVENT",
+          "note": "SECONDARY (popular history): Buttery, ch.8 ‘Abolition and Aftermath’; the planters’ accusation of inciting rebellion is as Buttery reports it. Compare o2.",
+          "keywords": ["Barbados","George Fox"]
+        },
+        {
+          "id": "b2",
+          "group": "Quakerism",
+          "label": "A Quaker reckons a pound of West Indian sugar at two ounces of human flesh",
+          "date": "1791",
+          "loc": "England",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "The Quaker William Fox, in a pamphlet urging Britons to give up West Indian sugar, reckoned that a pound of it cost two ounces of human flesh; Buttery says women, with no vote, became influential by boycotting slave-grown sugar and forcing grocers to find sugar grown by free people, such as East Indian, which put the West Indian trade into crisis.",
+          "tag": "TEXT",
+          "note": "SECONDARY (popular history): Buttery, ch.8 (William Fox’s calculation, ‘without showing his workings’; the boycott). Buttery gives no year in the passage read: the year 1791 (Fox’s pamphlet on abstaining from West India sugar) is from general knowledge. Compare Walvin (2017) on the sugar boycott in his abolition passages, not read here.",
+          "keywords": ["England","West Indian","Quaker William Fox","East Indian"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "The sugar cookbooks and Wedgwood’s anti-slavery medallion",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Cookery & Food Writing",
+          "label": "The Complete Confectioner calls for sugar in almost every recipe",
+          "date": "1760",
+          "loc": "London",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "The first English book on confectionery, the Complete Confectioner, attributed to Hannah Glasse, appears in 1760 and calls for sugar in almost every recipe — ice creams, creams, conserves, marmalades, syrups, jams, cakes, icings, biscuits. Smith says that once sugar cost less than honey it became a cooking ingredient, not just a sweetener for drinks.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Smith (2015) p.81 (Glasse and the 1760 date as Smith gives them; the book’s attribution to her is doubtful — it was a posthumous-style compilation). See e2.",
+          "keywords": ["London","Complete Confectioner","Hannah Glasse"],
+          "xlinks": ["sugar-1500-1650::e2"]
+        },
+        {
+          "id": "e2",
+          "group": "Cookery & Food Writing",
+          "label": "Raffald’s housekeeper’s book has over a hundred sugar recipes",
+          "date": "1769",
+          "loc": "Manchester",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "hint": "Elizabeth Raffald’s Experienced English Housekeeper (1769) contains more than 100 recipes containing sugar — sauces, pastes, pies, fritters, puddings, custards, spun sugar, floating islands and drinks — to show how far sugar had passed from the rich man’s table into the ordinary cook’s hands.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Smith (2015) p.81 (the count is Smith’s; the title is given in his text as Experienced Housekeeper). Compare e1.",
+          "keywords": ["Manchester","Elizabeth Raffald Experienced English Housekeeper"]
+        },
+        {
+          "id": "e3",
+          "group": "Sculpture & Relief",
+          "label": "Wedgwood’s anti-slavery medallion",
+          "date": "1786–1787",
+          "loc": "Staffordshire, England",
+          "coords": [
+            52.99,
+            -2.19
+          ],
+          "hint": "Josiah Wedgwood’s stoneware medallion for the anti-slavery cause shows a kneeling slave in chains asking whether he is not a man and a brother, and became the symbol of the campaign that taught Britons to see sugar and slavery as one trade.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY (popular history): Buttery, ch.8 (caption dating the medallion to 1786; general knowledge says it was designed for the Society for the Abolition of the Slave Trade of 1787). The phrase is adapted by women abolitionists later.",
+          "keywords": ["Staffordshire","England","Josiah Wedgwood"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "Ligon, Marggraf’s and Achard’s beet sugar, Hanway and Walpole on tea and sugar",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "History & Chronicle",
+          "label": "Ligon describes Barbados at the start of the sugar boom",
+          "date": "1647–1650",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "Richard Ligon, who left England’s civil war in 1647 and stayed on Barbados for three years, wrote A True and Exact History of the Island of Barbados (1657), the key primary source for the first plantations — conditions, planter and servant, African and Indian. Walvin quotes him on the plantations rising ‘one above another’ and the forest already being destroyed.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Buttery, ch.4 (Ligon’s dates on the island, 1647–1650, and the book’s date 1657); Walvin (2017) ch.4 (the quotation). Dated by what it describes.",
+          "keywords": ["Richard Ligon","Exact History of the Island of Barbados"]
+        },
+        {
+          "id": "t2",
+          "group": "Science & Geography",
+          "label": "Marggraf finds sugar in beetroot",
+          "date": "1747",
+          "loc": "Berlin",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "hint": "The Prussian chemist Andreas Marggraf reports to the Berlin Academy in 1747 that he has obtained small amounts of sucrose from beetroot; the yield was tiny and the process impractical, though he repeated it in 1761 and made a few loaves. Only after his student Achard did it become a possible source of sugar for countries without tropical colonies.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Smith (2015) pp.44–45; Walvin (2017) ch.11 (Marggraf 1747; beet syrup was known earlier). See t5 and the next folio.",
+          "keywords": ["Andreas Marggraf","Berlin Academy"]
+        },
+        {
+          "id": "t3",
+          "group": "Political Theory",
+          "label": "Hanway rails against the poor’s tea and sugar",
+          "date": "c.1756",
+          "loc": "London",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "The social reformer Jonas Hanway attacked the labouring poor for wanting tea, writing that ‘those will have tea who have not bread’ and that ‘misery itself has no power to banish tea’; Mintz sets him against sugar brokers and refiners such as George Porter, who won the argument because they saw sugar as a benefit for all Englishmen.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Mintz (1985) pp.122–123 (quoting Hanway; Burnett’s reply that the poor’s tea and white bread were a rational choice); the year of Hanway’s Essay on Tea (1756, with a 1757 edition) is from general knowledge, not Mintz.",
+          "keywords": ["London","Jonas Hanway","George Porter"]
+        },
+        {
+          "id": "t4",
+          "group": "Letters & Correspondence",
+          "label": "Walpole: ‘how we did before tea and sugar were known’",
+          "date": "1779",
+          "loc": "London",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "Horace Walpole, writing to Sir Horace Mann on 15 November 1779, jokes that he is ‘heartily glad’ Britain will keep Jamaica and the East Indies another year so he can lay in a stock of tea and sugar for the rest of his days; asked how we did before tea and sugar, he answers that it was ‘better, no doubt’ — with diluted acorns and barley bread and honey.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Mintz (1985) p.125 (the letter of 15 November 1779, from Walpole’s correspondence).",
+          "keywords": ["London","Horace Walpole","Sir Horace Mann","East Indies"]
+        },
+        {
+          "id": "t5",
+          "group": "Science & Geography",
+          "label": "Achard gives the king of Prussia a few pounds of beet sugar",
+          "date": "1799",
+          "loc": "Berlin",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "hint": "Marggraf’s student Franz Carl Achard perfects the process and in 1799 gives King Frederick William III a few pounds of sugar crystallised from beetroot; two years later the king pays for a factory in Silesia. Achard found that white beetroots hold the most sucrose.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith (2015) pp.45–47 (Achard 1799 and 1801). See t2; the factory belongs to the next folio.",
+          "keywords": ["Berlin","Prussia","Franz Carl Achard","Frederick William III"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "Barbados, Jamaica and Saint-Domingue, Dutch Java, the refineries and the rise of grocery imports",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Agriculture & Land",
+          "label": "Barbados exports 7,000 tons of sugar by 1650",
+          "date": "1650–1655",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "The island that began sugar in the 1640s exports 7,000 tons by 1650; Mintz’s figure for 1655 is 283 tons of ‘clayed’ and 6,667 tons of ‘muscovado’ sugar, the year when Barbadian sugar began to affect the home market. Much of the central forest had gone by 1650.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.3 (7,000 tons by 1650) and ch.4 (the forest); Mintz (1985) p.37 (1655 figures, from his note 41). The two figures differ in kind (exports vs production) and should not be added.",
+          "keywords": ["Barbados"]
+        },
+        {
+          "id": "ec2",
+          "group": "Industry & Production",
+          "label": "Amsterdam’s refineries grow from 40 to 110, London’s reach 80",
+          "date": "1650–1770",
+          "loc": "Amsterdam and London",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "hint": "Amsterdam’s sugar refineries increase from 40 to 110 between 1650 and 1770, and London has 80 by 1753; New York has a refinery as early as 1689 and by about 1790 seven American cities do, most of the sugar passing through Philadelphia. Refining stayed in the northern ports, close to the market.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.3 (Amsterdam and London) and ch.8 (New York 1689; seven cities ‘a century later’). Compare sugar-1500-1650::ec7.",
+          "keywords": ["Amsterdam","London","New York"],
+          "xlinks": ["sugar-1500-1650::ec7"]
+        },
+        {
+          "id": "ec3",
+          "group": "Industry & Production",
+          "label": "Dutch Java makes 8.8 million pounds from 131 mills",
+          "date": "1652–1711",
+          "loc": "Java",
+          "coords": [
+            -6.2,
+            106.85
+          ],
+          "hint": "Under the Dutch East India Company, sugar-making on Java grows from 1.65 million pounds in 1652 to over 8.8 million pounds from 131 mills in 1710–11; by the 1690s Javanese sugar undercuts Bengali on the Indian market, and Surat becomes its largest buyer.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar, Sugar and Society in China (1998) pp.88–89 (from Dutch company records as she cites them; her figures for 1710–11 are cut off in the page read). See x4.",
+          "keywords": ["Dutch Java","Dutch East India Company"],
+          "xlinks": ["sugar-1500-1650::ec9"]
+        },
+        {
+          "id": "ec4",
+          "group": "Industry & Production",
+          "label": "Barbados ships over half a million gallons of rum",
+          "date": "1664–1700",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "Barbados shipped 102,744 gallons of rum in 1664–65 and more than half a million thirty years later, about 600,000 gallons a year by 1700, nearly all to North America. Walvin says rum distilling probably began on Barbados and Martinique, perhaps with Dutch refugees from Brazil. Planters across the Caribbean got upwards of a quarter of their income from rum, and the French islands sent ‘tafia’ to Spanish colonies.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.8 (figures from his notes 6 and 16; the quarter of income is for later in the century).",
+          "keywords": ["Barbados","North America"]
+        },
+        {
+          "id": "ec5",
+          "group": "Agriculture & Land",
+          "label": "Jamaica’s mills multiply from 57 in 1670 to 1,061 in 1786",
+          "date": "1670–1786",
+          "loc": "Jamaica",
+          "coords": [
+            17.99,
+            -76.79
+          ],
+          "hint": "Jamaica overtakes Barbados by 1712; the number of its sugar mills grows from 57 in 1670 to 419 in 1739 and 1,061 in 1786, and the average planter’s holding from 261 acres (724 planters, 1670) to 1,045 acres by 1754, 4 per cent owning over 5,000 acres.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.4 (from his note 7). Compare c2.",
+          "keywords": ["Jamaica"]
+        },
+        {
+          "id": "ec6",
+          "group": "Trade & Commerce",
+          "label": "The Caribbean overtakes Brazil, and world exports reach 200,000 tons",
+          "date": "1700–1770",
+          "loc": "The Caribbean and Brazil",
+          "coords": [
+            18,
+            -72
+          ],
+          "hint": "By 1700 the sugar colonies of the British islands make 25,000 tons, more than Brazil’s 22,000; ten American colonies export 60,000 tons in all. The total is 150,000 tons by 1750 and over 200,000 by 1770, 90 per cent of it Caribbean, with Saint-Domingue at 60,000 and Jamaica at 36,000 tons — half the Caribbean’s output.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.3 and ch.6 (his note 9; the 1776 figure of 200,000 tons is given in ch.6). Not checked against Deerr.",
+          "keywords": ["Caribbean","Brazil"],
+          "xlinks": ["sugar-1500-1650::ec8"]
+        },
+        {
+          "id": "ec7",
+          "group": "Trade & Commerce",
+          "label": "Britain’s grocery imports double their share",
+          "date": "1700–1800",
+          "loc": "Britain",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "Imports of groceries — tea, coffee, sugar, rice, pepper — grow from 16.9 per cent of the value of Britain’s imports in 1700 to 34.9 per cent in 1800, brown sugar and molasses the leaders. English and Welsh consumption of sugar rose some twenty-fold between 1663 and 1775 while the population only went from four to seven million.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mintz (1985) p.67 (from Schumpeter’s trade tables as Sheridan interprets them; the twenty-fold figure assumes half of 1663’s imports were retained).",
+          "keywords": ["Britain"]
+        },
+        {
+          "id": "ec8",
+          "group": "Industry & Production",
+          "label": "Massachusetts distils 2.7 million gallons of rum",
+          "date": "c.1750",
+          "loc": "New England",
+          "coords": [
+            42.36,
+            -71.06
+          ],
+          "hint": "About the middle of the eighteenth century Massachusetts distilleries make 2.7 million gallons of rum, from molasses that is often smuggled from the French islands; Boston alone had 177 taverns in 1737, and rum served for trade with the frontier and the fur trade.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.8 (his notes 14 and 15).",
+          "keywords": ["New England","Massachusetts"]
+        },
+        {
+          "id": "ec9",
+          "group": "Agriculture & Land",
+          "label": "Saint-Domingue becomes the world’s largest sugar producer",
+          "date": "1770–1791",
+          "loc": "Saint-Domingue",
+          "coords": [
+            18.54,
+            -72.34
+          ],
+          "hint": "By 1770 France’s colony is the largest sugar exporter in the world; 790,000 Africans had been brought to it by the time the revolt began in 1791, and France re-exported about 70 per cent of its Caribbean sugar, mainly to Holland and Germany. Rochefoucauld reckoned in 1791 that 700,000 French families lived off sugar.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.2 (770 and the 790,000 figure) and ch.11 (the 70 per cent and Rochefoucauld’s calculation). See france-1715-1789::ex2 and lv2.",
+          "keywords": ["Saint-Domingue"],
+          "xlinks": ["france-1715-1789::ex2"]
+        },
+        {
+          "id": "ec10",
+          "group": "Trade & Commerce",
+          "label": "The sugar islands are worth £4.5 million to Britain and £8.25 million to France",
+          "date": "1789",
+          "loc": "Britain and France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "hint": "Just before the French Revolution, the British islands export £4.5 million of produce to Britain, whose own exports are £14 million; those of France export £8.25 million of goods against a national £11.5 million. Sugar dominates both in bulk and value, which is why the powers fought over the islands.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (no sources for the figures in the page read).",
+          "keywords": ["Britain","France"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "Barbados’s copper stills",
+      "entries": [
+        {
+          "id": "te1",
+          "group": "Agriculture & Industry",
+          "label": "Barbados distilleries take their modern form with copper stills",
+          "date": "c.1700",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "By about 1700 the rum distilleries of Barbados have a recognisably modern form, with custom-made copper stills (hence ‘coppers’), large metal vats and piping; the lead in local distillery pipes was later found to cause the ‘dry belly-ache’ of the island’s drinkers (l2).",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.8 (the form of the distilleries by c.1700); see l2 for the lead.",
+          "keywords": ["Barbados"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "The Brazil–Barbados link, the slave trade’s volume, rum for slaves, Dutch Surat and tea",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Cultural Transmission",
+          "label": "From Brazil to Barbados: whose knowledge?",
+          "date": "1640–1655",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "Smith says Dutch and Jewish refugees from Brazil introduced cane to Barbados and taught the planters to make sugar; Walvin says sugar took hold there by 1640 with cane and experience from Brazil, and Mintz that the English learned sugar-making from the Dutch. The Brazil–Barbados link is clear; the date and the refugees’ share are disputed — the Dutch left Recife in 1654, after sugar had already started.",
+          "tag": "CONTESTED",
+          "note": "CONTESTED (secondary): Smith (2015) pp.27–28 (Dutch and Jewish refugees); Walvin (2017) ch.4 (‘with sugar cane, and experience from Brazil, sugar took hold in Barbados by 1640’) and ch.3 (the drift to sugar from the 1640s); Mintz (1985) p.38 (the English learned from the Dutch). See sugar-1500-1650::b1.",
+          "keywords": ["Barbados","Brazil"],
+          "xlinks": ["sugar-1500-1650::b1","sugar-1500-1650::c4"]
+        },
+        {
+          "id": "x2",
+          "group": "Migration & Settlement",
+          "label": "Eighty thousand Africans a year by the 1790s",
+          "date": "1660–1790s",
+          "loc": "The Atlantic",
+          "coords": [
+            10,
+            -30
+          ],
+          "hint": "Walvin reckons that the Atlantic trade took about 2,000 Africans a year in the 1570s, 7,000 in the early 1600s, 18,000 by the 1660s and 80,000 by the 1790s; some 180,000 had landed on Barbados by 1700 and 95,000 on Jamaica, and Saint-Domingue took 790,000. Smith counts 1.2 million into the West Indies in the first 75 years of the eighteenth century.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.3 and ch.4; Smith (2015) pp.34–35 (252,000 to Barbados and 662,400 to Jamaica 1700–1810). Whole-Atlantic totals from the Slave Voyages database (about 12.5 million embarked between 1501 and 1867) were not retrieved here; compare sugar-1500-1650::x1.",
+          "keywords": ["Atlantic","West Indies"],
+          "xlinks": ["spain-1700-1808::ex7","sugar-1500-1650::x1"]
+        },
+        {
+          "id": "x3",
+          "group": "Silk Road & Trade Routes",
+          "label": "Barbados rum buys slaves on the Gold Coast",
+          "date": "1680–1700",
+          "loc": "Gold Coast and Barbados",
+          "coords": [
+            5.1,
+            -1.25
+          ],
+          "hint": "In 1680 a Barbados merchant finds that rum sells better than brandy on parts of the African coast; by about 1700 the Gold Coast imports 48,000 gallons a year, and rum has entered African societies that had their own drinks — one of the legs of the triangle in which sugar, rum, manufactures and slaves moved.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.8 (his note 19). Smith (2015) p.34 describes the ‘Triangle Trade’ in general terms.",
+          "keywords": ["Gold Coast","Barbados"]
+        },
+        {
+          "id": "x4",
+          "group": "Silk Road & Trade Routes",
+          "label": "Dutch Batavia’s sugar wins Surat from Bengal",
+          "date": "1682–1711",
+          "loc": "Surat, Batavia and Bengal",
+          "coords": [
+            21.17,
+            72.83
+          ],
+          "hint": "After defeating Banten in 1682, the Dutch bring Batavian sugar, Japanese copper, tin, spices and Chinese silk to Surat; by the 1690s Javanese sugar is cheaper than Bengali on the Surat market, which becomes its largest buyer. The Dutch never supplanted the Chinese as Japan’s sugar suppliers, and when the Chinese coast reopened in the 1680s they went back to Bengali silk and sugar.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) pp.87–89 (Dutch company records, as she cites them; Indian price detail in her notes 145–146). See ec3.",
+          "keywords": ["Surat","Bengal","Dutch Batavia"]
+        },
+        {
+          "id": "x5",
+          "group": "Silk Road & Trade Routes",
+          "label": "Britain’s tea imports leap from 20,000 pounds to 5 million",
+          "date": "1704–1784",
+          "loc": "London and Canton",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "After the East India Company opens direct trade with China in 1704, tea imports leap: the Company shipped about 20,000 lb in 1700 and 5 million lb sixty years later, and the government thought as much again was smuggled in. Sugar sweetened it: Walvin says the sheer volume of tea and sugar drove the price of both down, and a drink for the rich in 1700 was sold for pence in village shops a century later.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.6 (his notes 4, 8). Mintz (1985) p.115 on tea, coffee and chocolate as bitter substances that became widely known in Britain at about the same time, and on tea being drunk without sugar in China.",
+          "keywords": ["London","Canton","Britain","East India Company"]
+        },
+        {
+          "id": "x6",
+          "group": "Migration & Settlement",
+          "label": "Louisiana sugar takes off in the wake of Haiti",
+          "date": "1790s",
+          "loc": "Louisiana",
+          "coords": [
+            29.95,
+            -90.07
+          ],
+          "hint": "Experiments with Caribbean cane in Louisiana in the mid-eighteenth century had failed commercially, but Walvin says sugar began to flourish there in the 1790s in the wake of the Haitian Revolution — planters fleeing Saint-Domingue brought with them know-how — and then expanded after the Louisiana Purchase of 1803.",
+          "tag": "CONTEXT",
+          "note": "SECONDARY: Walvin (2017) ch.11 (the dating; the planter-refugee link is Smith’s, 2015 p.35: ‘some to Louisiana, others to Cuba’). See france-1789-1815::w2.",
+          "keywords": ["Haiti","Haitian Revolution","Louisiana Purchase"],
+          "xlinks": ["france-1789-1815::w2"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "Deforestation, the Qing coast, the 1675 hurricane and the Treaty of Ryswick",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Climate & Environment",
+          "label": "The sugar islands lose their forests",
+          "date": "1650–1750",
+          "loc": "Barbados, St Kitts, Antigua and Jamaica",
+          "coords": [
+            17.1,
+            -61.8
+          ],
+          "hint": "By 1650 much of the forest in central Barbados has been destroyed, by 1672 the lowland forests of St Kitts, Nevis and Montserrat are gone, Antigua is covered by cane in every district by 1750 with little forest left, and Jamaica too succumbs; Barbados is importing timber by the 1680s. Walvin calls the ‘sugar revolution’ a human and ecological one.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.3 and ch.4; Buttery, ch.4 (timber imports from the 1680s). The pattern recurs in Guadeloupe and Saint-Domingue in the eighteenth century (ch.4).",
+          "keywords": ["Barbados","St Kitts","Antigua","Jamaica"],
+          "xlinks": ["sugar-1500-1650::ec1"]
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "The Qing clear the coast and take Taiwan",
+          "date": "1661–1683",
+          "loc": "Fujian and Taiwan",
+          "coords": [
+            23,
+            120.17
+          ],
+          "hint": "Zheng Chenggong’s forces take Fort Zeelandia from the Dutch in 1661–62, and the Qing, to starve the Zhengs out, evacuate China’s coastal regions in the 1660s; Taiwan is finally conquered in 1683. The Dutch lose their chief Chinese sugar source, and Chinese trade recovers in the 1680s.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mazumdar (1998) p.6 and pp.87–88 and 208–209 (Zheng Chenggong’s siege of 1661, nine months, with Dutch withdrawal complete in 1668; the Qing conquest of Taiwan in 1683). See sugar-1500-1650::ec10.",
+          "keywords": ["Fujian","Taiwan","Qing","Zheng Chenggong","Fort Zeelandia"],
+          "xlinks": ["sugar-1500-1650::ec10"]
+        },
+        {
+          "id": "w3",
+          "group": "Climate & Environment",
+          "label": "The hurricane of 1675 destroys nearly all Barbados’s mills",
+          "date": "1675",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "The worst hurricane of the seventeenth century on Barbados, in 1675, killed 200 people in three hours, destroyed 1,000 houses, three churches and almost all of the mills.",
+          "tag": "EVENT",
+          "note": "SECONDARY (popular history): Buttery, ch.4 (no source in the page read).",
+          "keywords": ["Barbados"]
+        },
+        {
+          "id": "w4",
+          "group": "Geopolitical Shift",
+          "label": "The Treaty of Ryswick splits Hispaniola",
+          "date": "1697",
+          "loc": "Hispaniola",
+          "coords": [
+            19,
+            -71
+          ],
+          "hint": "In 1697 Spain and France sign the Treaty of Ryswick, dividing Hispaniola into French and Spanish territories; over the next hundred years the French colony of Saint-Domingue becomes the most productive sugar island in the Caribbean.",
+          "tag": "DIPLOMACY",
+          "note": "SECONDARY: Smith (2015) p.27. See ec9 and france-1610-1715::ex2.",
+          "keywords": ["Hispaniola","Ryswick"],
+          "xlinks": ["france-1610-1715::ex2"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "Barbados’s first slaves, lead in rum, the Zong, a labourer’s sugar and Saint-Domingue’s ledgers",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Enslaved Lives",
+          "label": "Barbados goes from ten slaves to thousands",
+          "date": "1627–1660",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "Buttery says that Barbados had ten slaves in 1627, 500 by 1642 and about 1,000 three years later, with 20,000 on the English sugar colonies by 1660 — enslaved workers replacing the indentured Europeans who had come first; Walvin says indentured labour simply faded away in the Caribbean by the middle of the eighteenth century.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY (thin; figures disagree with the other sources): Buttery, ch.5 (his note 69, source not read); Walvin (2017) ch.3 (180,000 Africans landed on Barbados by 1700; indentured labour gone by the mid-1700s).",
+          "keywords": ["Barbados"],
+          "xlinks": ["sugar-1500-1650::l2"]
+        },
+        {
+          "id": "l2",
+          "group": "Health & Body",
+          "label": "Barbados’s ‘dry belly-ache’ is traced to lead pipes",
+          "date": "1745",
+          "loc": "Barbados",
+          "coords": [
+            13.19,
+            -59.54
+          ],
+          "hint": "Heavy rum-drinking on Barbados was often followed by ‘dry belly-ache’, which was blamed on the rum itself until the culprit is located in 1745 — lead poisoning from the pipes in the island’s distilleries — by which time a thriving rum export trade had grown up to Britain and especially New England.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.8 (his note 3; ‘the culprit was only finally located in 1745’).",
+          "keywords": ["Barbados","New England"]
+        },
+        {
+          "id": "l3",
+          "group": "Enslaved Lives",
+          "label": "The slave ship Zong throws Africans overboard and claims the insurance",
+          "date": "1781",
+          "loc": "Atlantic Ocean",
+          "coords": [
+            10,
+            -30
+          ],
+          "hint": "In 1781 the Zong, built for 200 slaves and carrying 400, runs into trouble on the way to the West Indies — the crew lost, the ship leaking, disease spreading — and the captain has some of the Africans thrown overboard; the owners then try to claim insurance for them as lost cargo, and the case helps to turn British opinion.",
+          "tag": "EVENT",
+          "note": "SECONDARY (popular history): Buttery, ch.8 (the numbers are his, not checked; Walvin has written a book on the Zong, not read here). See o4.",
+          "keywords": ["Atlantic Ocean","Zong","West Indies"]
+        },
+        {
+          "id": "l4",
+          "group": "Enslaved Lives",
+          "label": "Saint-Domingue has 32,000 whites and 500,000 enslaved people",
+          "date": "1789",
+          "loc": "Saint-Domingue",
+          "coords": [
+            18.54,
+            -72.34
+          ],
+          "hint": "In 1789 the French colony’s white minority, about 32,000, controls an estimated 500,000 slaves; on the plantations they work in gangs from childhood to old age, their names and values listed in the planter’s ledger beside the livestock, and in Jamaica late in the century sugar slaves were being seen by a doctor and vaccinated against smallpox — not from kindness, Walvin says, but because they were costly property.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Smith (2015) p.34 (the 1789 figures); Walvin (2017) ch.3 (ledgers, gangs and the Jamaican vaccination). See france-1715-1789::lv2 and lv3.",
+          "keywords": ["Saint-Domingue"],
+          "xlinks": ["france-1715-1789::lv2","france-1715-1789::lv3"]
+        },
+        {
+          "id": "l5",
+          "group": "Marginalised Communities",
+          "label": "A farm labourer’s family eats seventeen pounds of sugar each",
+          "date": "1797",
+          "loc": "Southern England",
+          "coords": [
+            51,
+            -1
+          ],
+          "hint": "Sir Frederick Eden’s 1797 budgets show a southern labouring family of six buying two pounds of sugar a week — about 17 lb a head a year, a high figure for the time — and a northern family of five spending a tenth of its food money on tea, sugar and treacle. Mintz sees tea and sugar becoming ‘new necessities’ of working people’s diet.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mintz (1985) p.122 (Eden’s budgets); p.143 for the 1890s figure of about 90 lb a head.",
+          "keywords": ["England","Sir Frederick Eden"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 1640,
+          "l": "Barbados counts seven mutinies of the enslaved in seventy years",
+          "entryId": "c1"
+        },
+        {
+          "y": 1655,
+          "l": "England seizes Jamaica in the Western Design",
+          "entryId": "c2"
+        },
+        {
+          "y": 1666,
+          "l": "French and English burn each other out of St Kitts",
+          "entryId": "c3"
+        },
+        {
+          "y": 1694,
+          "l": "Palmares, Brazil’s runaway kingdom, is destroyed",
+          "entryId": "c4"
+        },
+        {
+          "y": 1763,
+          "l": "The Peace of Paris reshapes the sugar islands’ trade",
+          "entryId": "c5"
+        },
+        {
+          "y": 1776,
+          "l": "American independence cuts the island planters’ supplies",
+          "entryId": "c6"
+        },
+        {
+          "y": 1791,
+          "l": "The slaves of Saint-Domingue rise and destroy the world’s greatest sug",
+          "entryId": "c7"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 1651,
+          "l": "The Navigation Acts keep the sugar trade in English hands",
+          "entryId": "o1"
+        },
+        {
+          "y": 1661,
+          "l": "Barbados passes its slave code",
+          "entryId": "o2"
+        },
+        {
+          "y": 1733,
+          "l": "The Molasses Act, the Sugar Act and the Tea Act feed American resentme",
+          "entryId": "o3"
+        },
+        {
+          "y": 1770,
+          "l": "English and Scottish courts begin to test slavery",
+          "entryId": "o4"
+        },
+        {
+          "y": 1784,
+          "l": "Britain slashes the duty on tea",
+          "entryId": "o5"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 1671,
+          "l": "George Fox preaches to the enslaved on Barbados",
+          "entryId": "b1"
+        },
+        {
+          "y": 1791,
+          "l": "A Quaker reckons a pound of West Indian sugar at two ounces of human f",
+          "entryId": "b2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 1760,
+          "l": "The Complete Confectioner calls for sugar in almost every recipe",
+          "entryId": "e1"
+        },
+        {
+          "y": 1769,
+          "l": "Raffald’s housekeeper’s book has over a hundred sugar recipes",
+          "entryId": "e2"
+        },
+        {
+          "y": 1786,
+          "l": "Wedgwood’s anti-slavery medallion",
+          "entryId": "e3"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 1647,
+          "l": "Ligon describes Barbados at the start of the sugar boom",
+          "entryId": "t1"
+        },
+        {
+          "y": 1747,
+          "l": "Marggraf finds sugar in beetroot",
+          "entryId": "t2"
+        },
+        {
+          "y": 1756,
+          "l": "Hanway rails against the poor’s tea and sugar",
+          "entryId": "t3"
+        },
+        {
+          "y": 1779,
+          "l": "Walpole: ‘how we did before tea and sugar were known’",
+          "entryId": "t4"
+        },
+        {
+          "y": 1799,
+          "l": "Achard gives the king of Prussia a few pounds of beet sugar",
+          "entryId": "t5"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 1650,
+          "l": "Barbados exports 7,000 tons of sugar by 1650",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1650,
+          "l": "Amsterdam’s refineries grow from 40 to 110, London’s reach 80",
+          "entryId": "ec2"
+        },
+        {
+          "y": 1652,
+          "l": "Dutch Java makes 8.8 million pounds from 131 mills",
+          "entryId": "ec3"
+        },
+        {
+          "y": 1664,
+          "l": "Barbados ships over half a million gallons of rum",
+          "entryId": "ec4"
+        },
+        {
+          "y": 1670,
+          "l": "Jamaica’s mills multiply from 57 in 1670 to 1,061 in 1786",
+          "entryId": "ec5"
+        },
+        {
+          "y": 1700,
+          "l": "The Caribbean overtakes Brazil, and world exports reach 200,000 tons",
+          "entryId": "ec6"
+        },
+        {
+          "y": 1700,
+          "l": "Britain’s grocery imports double their share",
+          "entryId": "ec7"
+        },
+        {
+          "y": 1750,
+          "l": "Massachusetts distils 2.7 million gallons of rum",
+          "entryId": "ec8"
+        },
+        {
+          "y": 1770,
+          "l": "Saint-Domingue becomes the world’s largest sugar producer",
+          "entryId": "ec9"
+        },
+        {
+          "y": 1789,
+          "l": "The sugar islands are worth £4.5 million to Britain and £8.25 million ",
+          "entryId": "ec10"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 1700,
+          "l": "Barbados distilleries take their modern form with copper stills",
+          "entryId": "te1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 1640,
+          "l": "From Brazil to Barbados: whose knowledge?",
+          "entryId": "x1"
+        },
+        {
+          "y": 1660,
+          "l": "Eighty thousand Africans a year by the 1790s",
+          "entryId": "x2"
+        },
+        {
+          "y": 1680,
+          "l": "Barbados rum buys slaves on the Gold Coast",
+          "entryId": "x3"
+        },
+        {
+          "y": 1682,
+          "l": "Dutch Batavia’s sugar wins Surat from Bengal",
+          "entryId": "x4"
+        },
+        {
+          "y": 1704,
+          "l": "Britain’s tea imports leap from 20,000 pounds to 5 million",
+          "entryId": "x5"
+        },
+        {
+          "y": 1790,
+          "l": "Louisiana sugar takes off in the wake of Haiti",
+          "entryId": "x6"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 1650,
+          "l": "The sugar islands lose their forests",
+          "entryId": "w1"
+        },
+        {
+          "y": 1661,
+          "l": "The Qing clear the coast and take Taiwan",
+          "entryId": "w2"
+        },
+        {
+          "y": 1675,
+          "l": "The hurricane of 1675 destroys nearly all Barbados’s mills",
+          "entryId": "w3"
+        },
+        {
+          "y": 1697,
+          "l": "The Treaty of Ryswick splits Hispaniola",
+          "entryId": "w4"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 1627,
+          "l": "Barbados goes from ten slaves to thousands",
+          "entryId": "l1"
+        },
+        {
+          "y": 1745,
+          "l": "Barbados’s ‘dry belly-ache’ is traced to lead pipes",
+          "entryId": "l2"
+        },
+        {
+          "y": 1781,
+          "l": "The slave ship Zong throws Africans overboard and claims the insurance",
+          "entryId": "l3"
+        },
+        {
+          "y": 1789,
+          "l": "Saint-Domingue has 32,000 whites and 500,000 enslaved people",
+          "entryId": "l4"
+        },
+        {
+          "y": 1797,
+          "l": "A farm labourer’s family eats seventeen pounds of sugar each",
+          "entryId": "l5"
+        }
+      ]
+    }
+  ],
+  "region": "Sugar",
+  "period_label": "Early Modern"
+}

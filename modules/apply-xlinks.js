@@ -3077,6 +3077,28 @@ const SELECTED_PAIRS = [
   ['sugar-1500-1650::w1', 'spain-1516-1700::o1'],                     // Taino collapse / Laws of Burgos
   ['sugar-1500-1650::w1', 'spain-1516-1700::o2'],                     // Taino collapse / New Laws
   ['sugar-1500-1650::c2', 'spain-1516-1700::te3'],                    // English privateers / Caribbean fortifications
+
+  // ── sugar-1650-1800 (hand-reviewed) ──
+  ['sugar-1650-1800::x1', 'sugar-1500-1650::b1'],                     // Sephardim in Recife -> Barbados
+  ['sugar-1650-1800::x1', 'sugar-1500-1650::c4'],                     // Dutch war in Brazil -> Barbados
+  ['sugar-1650-1800::ec6', 'sugar-1500-1650::ec8'],                   // Brazil supplies Europe -> Caribbean overtakes Brazil
+  ['sugar-1650-1800::x2', 'sugar-1500-1650::x1'],                     // slave-trade volumes
+  ['sugar-1650-1800::l1', 'sugar-1500-1650::l2'],                     // first Africans in Santo Domingo -> Barbados
+  ['sugar-1650-1800::ec2', 'sugar-1500-1650::ec7'],                   // Dutch refineries
+  ['sugar-1650-1800::ec3', 'sugar-1500-1650::ec9'],                   // VOC sugar: China -> Java
+  ['sugar-1650-1800::w2', 'sugar-1500-1650::ec10'],                   // Taiwan sugar under Dutch / Qing
+  ['sugar-1650-1800::w1', 'sugar-1500-1650::ec1'],                    // deforestation: Madeira -> the Caribbean
+  ['sugar-1650-1800::e1', 'sugar-1500-1650::e2'],                     // sugarwork banquet -> confectioner's book
+  ['sugar-1650-1800::c7', 'france-1789-1815::c3'],                    // Haitian Revolution
+  ['sugar-1650-1800::c7', 'france-1789-1815::lv3'],                   // Haitian independence
+  ['sugar-1650-1800::l4', 'france-1715-1789::lv2'],                   // Saint-Domingue's enslaved population
+  ['sugar-1650-1800::l4', 'france-1715-1789::lv3'],                   // marronage in Saint-Domingue
+  ['sugar-1650-1800::ec9', 'france-1715-1789::ex2'],                  // Saint-Domingue's profitability
+  ['sugar-1650-1800::w4', 'france-1610-1715::ex2'],                   // Ryswick / French colonial expansion
+  ['sugar-1650-1800::o2', 'france-1610-1715::o3'],                    // Barbados slave code / Code Noir
+  ['sugar-1650-1800::x6', 'france-1789-1815::w2'],                    // Louisiana
+  ['sugar-1650-1800::c5', 'france-1715-1789::c1'],                    // Peace of Paris / Seven Years War
+  ['sugar-1650-1800::x2', 'spain-1700-1808::ex7'],                    // slave trade / the British asiento
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────
