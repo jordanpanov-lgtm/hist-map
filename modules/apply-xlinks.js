@@ -66,6 +66,8 @@ const SELECTED_PAIRS = [
   ['fats-1850-1900::w2', 'fats-1750-1850::ec12'],                       // Japan Grounds and Perry -> Honolulu and Lahaina as whalers' ports
   ['fats-1850-1900::ec10', 'fats-1900-1960::ec13'],                     // Lever's Sydney copra -> the Solomon Islands lease
   ['fats-1850-1900::ec11', 'fats-1500-1750::x2'],                      // India's groundnut area -> the peanut crosses from America to China
+  ['fats-1850-1900::ec12', 'fats-300bc-600ad::th3'],                    // Syrian sesame oil of c.1892 -> Caraka and Susruta on sesame oil for frying
+  ['fats-1960-today::ec10', 'fats-1900-1960::ec12'],                    // the Middle East's palm-oil imports -> India's vanaspati rise
   ['fats-1500-1750::ec17', 'fats-1000-1500::ec1'],                      // Taiji's net whalers -> the Basques
   ['fats-1850-1900::l1', 'fats-1000-1500::ec9'],                        // the St Lawrence Island famine -> the Thule marine-fat economy
   ['fats-8000bc-1200bc::th4', 'fats-1200bc-300bc::ec10'],               // Sherratt on milking -> frying in ghee in the Dharma Sutras

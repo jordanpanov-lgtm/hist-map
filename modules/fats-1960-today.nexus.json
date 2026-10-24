@@ -240,6 +240,14 @@
       "label": "The Olive Wars",
       "full": "West Bank groves burned, uprooted and cut off.",
       "src": "Mueller"
+    },
+    {
+      "id": "ec10",
+      "lane": "economy",
+      "year": 1980,
+      "label": "Middle East palm imports",
+      "full": "Egypt, Iraq, Turkey and Saudi Arabia import palm oil by the 1980s.",
+      "src": "Kiple (Berger)"
     }
   ],
   "edges": [
@@ -416,6 +424,18 @@
       "ec5",
       "loose",
       "The groves of the West Bank and the new olive-oil world of California and Australia show the olive as land claim and as crop."
+    ],
+    [
+      "ec10",
+      "ec9",
+      "loose",
+      "Kiple pairs the Middle East’s traditional shortenings with India’s vanaspati as ghee substitutes fed by imported palm oil."
+    ],
+    [
+      "ec10",
+      "ec2",
+      "strong",
+      "Malaysia’s tax concessions and export-tax remission for processed palm oil are what Kiple says drew the Middle East’s ready-to-eat imports."
     ]
   ]
 }
