@@ -2979,6 +2979,10 @@ const SELECTED_PAIRS = [
   // Galen and the Alexandrian medical tradition:
   ['sugar-300bc-600ad::th11', 'egypt-30bc-300ad::t2'],                // Alexandria, the school of the doctors (Galen studied there)
   ['sugar-300bc-600ad::th13', 'egypt-300-641::t3'],                   // the Alexandrian medical curriculum
+  // ── sugar-8000bc-1200bc (Sugar program folio 1) — hand-reviewed
+  ['sugar-8000bc-1200bc::e2', 'egypt-3000bc-2100bc::b3'],             // Niuserre's sun temple at Abu Ghurab (the beekeeping relief)
+  ['sugar-8000bc-1200bc::ec3', 'gulf-prehistory-8000bc-3000bc::ec4'], // early date-palm use on Dalma
+  ['sugar-8000bc-1200bc::ec3', 'mesopotamia-6500bc-3800bc::e2'],      // barley, the date palm, the flock and the marsh
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

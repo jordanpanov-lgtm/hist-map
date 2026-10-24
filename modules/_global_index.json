@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 10387,
-    "folio_count": 214,
-    "xlink_pairs": 2964,
-    "keyword_terms": 15697,
+    "total_entries": 10399,
+    "folio_count": 215,
+    "xlink_pairs": 2967,
+    "keyword_terms": 15717,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -994,6 +994,11 @@
         "id": "sugar-300bc-600ad",
         "title": "Sugar",
         "entries": 49
+      },
+      {
+        "id": "sugar-8000bc-1200bc",
+        "title": "Sugar",
+        "entries": 12
       },
       {
         "id": "sumer-2900bc-2334bc",
@@ -10660,6 +10665,18 @@
     "sugar-300bc-600ad::w2": "The monsoon route to India",
     "sugar-300bc-600ad::l1": "The southern Yue and their cane",
     "sugar-300bc-600ad::l2": "Deportees and Roman prisoners remake Khuzestan",
+    "sugar-8000bc-1200bc::e1": "The honey gatherer of Bicorp",
+    "sugar-8000bc-1200bc::e2": "Niuserre’s sun temple shows the first beekeeper",
+    "sugar-8000bc-1200bc::th1": "A reconstructed word for sugarcane in Proto-Austronesian",
+    "sugar-8000bc-1200bc::ec1": "Kuk Swamp: the early agriculture of New Guinea",
+    "sugar-8000bc-1200bc::ec2": "Beeswax in Neolithic cooking pots",
+    "sugar-8000bc-1200bc::ec3": "The date palm, sweet crop of the Gulf and the Mesopotamian south",
+    "sugar-8000bc-1200bc::ec4": "The first sugarcane in the archaeological record",
+    "sugar-8000bc-1200bc::te1": "Sugarcane is domesticated from wild robustum cane",
+    "sugar-8000bc-1200bc::x1": "Brandes’s three diffusions: an older model",
+    "sugar-8000bc-1200bc::x2": "The voyagers carry cane through the island Pacific",
+    "sugar-8000bc-1200bc::w1": "The wild canes: robustum, spontaneum and edule",
+    "sugar-8000bc-1200bc::w2": "The honeybee’s northern limit at the 57th parallel",
     "sumer-2900bc-2334bc::k1": "Etana and the kings before history",
     "sumer-2900bc-2334bc::k2": "En-mebaragesi and Aga — the record begins",
     "sumer-2900bc-2334bc::k3": "'King of Kish' — the title of overlordship",
@@ -18885,6 +18902,12 @@
     "egypt-3000bc-2100bc::c1": [
       "egypt-6000bc-3000bc::c2"
     ],
+    "egypt-3000bc-2100bc::b3": [
+      "sugar-8000bc-1200bc::e2"
+    ],
+    "sugar-8000bc-1200bc::e2": [
+      "egypt-3000bc-2100bc::b3"
+    ],
     "egypt-30bc-300ad::k1": [
       "egypt-332bc-30bc::c9",
       "hellenistic-age-323bc-30bc::c11"
@@ -19651,6 +19674,13 @@
     "gulf-prehistory-8000bc-3000bc::ec1": [
       "hejaz-prehistory-8000bc-1200bc::x3",
       "south-arabia-prehistory-8000bc-1200bc::w1"
+    ],
+    "gulf-prehistory-8000bc-3000bc::ec4": [
+      "sugar-8000bc-1200bc::ec3"
+    ],
+    "sugar-8000bc-1200bc::ec3": [
+      "gulf-prehistory-8000bc-3000bc::ec4",
+      "mesopotamia-6500bc-3800bc::e2"
     ],
     "gulf-prehistory-8000bc-3000bc::tc1": [
       "mesopotamia-6500bc-3800bc::g6"
@@ -23153,6 +23183,9 @@
     ],
     "mesopotamia-6500bc-3800bc::b1": [
       "uruk-3800bc-2900bc::b4"
+    ],
+    "mesopotamia-6500bc-3800bc::e2": [
+      "sugar-8000bc-1200bc::ec3"
     ],
     "mesopotamia-6500bc-3800bc::g2": [
       "uruk-3800bc-2900bc::g1"
@@ -79629,6 +79662,66 @@
       "Khuzestan",
       "Shapur I"
     ],
+    "sugar-8000bc-1200bc::e1": [
+      "Coves",
+      "Bicorp",
+      "Valencia"
+    ],
+    "sugar-8000bc-1200bc::e2": [
+      "Abu Ghurab",
+      "Room of the Seasons of Niuserre"
+    ],
+    "sugar-8000bc-1200bc::th1": [
+      "Taiwan",
+      "Austronesian",
+      "Proto-Austronesian"
+    ],
+    "sugar-8000bc-1200bc::ec1": [
+      "Kuk Swamp",
+      "Wahgi",
+      "Western Highlands",
+      "New Guinea Highlands"
+    ],
+    "sugar-8000bc-1200bc::ec2": [
+      "Anatolia",
+      "Turkey",
+      "Neolithic Europe",
+      "Beeswax"
+    ],
+    "sugar-8000bc-1200bc::ec3": [
+      "Dalma",
+      "Mesopotamia",
+      "Gulf",
+      "Mesopotamian",
+      "Near East"
+    ],
+    "sugar-8000bc-1200bc::ec4": [
+      "New Guinea"
+    ],
+    "sugar-8000bc-1200bc::te1": [
+      "New Guinea",
+      "Wallace"
+    ],
+    "sugar-8000bc-1200bc::x1": [
+      "New Guinea",
+      "Philippines",
+      "India",
+      "Brandes"
+    ],
+    "sugar-8000bc-1200bc::x2": [
+      "Melanesia",
+      "Polynesia",
+      "Pacific"
+    ],
+    "sugar-8000bc-1200bc::w1": [
+      "New Guinea",
+      "Asia"
+    ],
+    "sugar-8000bc-1200bc::w2": [
+      "Northern Europe",
+      "Scotland",
+      "Fennoscandia"
+    ],
     "sumer-2900bc-2334bc::k1": [
       "First Dynasty of Kish",
       "Kish Tell al-Uhaymir",
@@ -84920,6 +85013,7 @@
       "roman-sasanian-world-224-632::w2",
       "south-arabia-300bc-628::t4",
       "south-arabia-prehistory-8000bc-1200bc::tc1",
+      "sugar-8000bc-1200bc::ec3",
       "sumer-2900bc-2334bc::xc4",
       "urartu-colchis-1200bc-585bc::e4",
       "uruk-3800bc-2900bc::w3"
@@ -86495,6 +86589,7 @@
       "sassanid-484-651::s3",
       "sassanid-484-651::lv3",
       "south-arabia-prehistory-8000bc-1200bc::x5",
+      "sugar-8000bc-1200bc::ec3",
       "tylos-mleiha-300bc-240ad::w3"
     ],
     "Persis": [
@@ -86631,7 +86726,8 @@
       "spain-1900-1975::lv3",
       "spain-1975-today::c2",
       "spain-1975-today::s3",
-      "spain-718-1230::c2"
+      "spain-718-1230::c2",
+      "sugar-8000bc-1200bc::e1"
     ],
     "Granada": [
       "al-andalus-1031-1492::k1",
@@ -89410,6 +89506,7 @@
       "sugar-300bc-600ad::ec2",
       "sugar-300bc-600ad::x2",
       "sugar-300bc-600ad::w2",
+      "sugar-8000bc-1200bc::x1",
       "trucial-gulf-1820-1900::x1",
       "trucial-gulf-1820-1900::x2",
       "tylos-mleiha-300bc-240ad::ec2",
@@ -90100,6 +90197,7 @@
       "seljuks-of-rum-1071-1308::o4",
       "seljuks-of-rum-1071-1308::b3",
       "seljuks-of-rum-1071-1308::w3",
+      "sugar-8000bc-1200bc::ec2",
       "turkey-1923-1980::b5",
       "turkey-1923-1980::t2",
       "turkey-1923-1980::g1",
@@ -94748,6 +94846,7 @@
       "rome-400-500::r2",
       "sassanid-224-484::c2",
       "sassanid-484-651::c1",
+      "sugar-8000bc-1200bc::ec2",
       "turkey-1923-1980::ec5",
       "turkey-1923-1980::w2",
       "turkey-1980-today::c12",
@@ -98597,7 +98696,8 @@
       "mesopotamia-2334bc-2004bc::b6",
       "mesopotamia-2334bc-2004bc::t1",
       "ottoman-empire-1908-1922::c9",
-      "south-arabia-1200bc-300bc::x4"
+      "south-arabia-1200bc-300bc::x4",
+      "sugar-8000bc-1200bc::ec3"
     ],
     "Saddam Hussein": [
       "babylon-1155bc-539bc::w4",
@@ -99688,6 +99788,7 @@
       "roman-sasanian-world-224-632::ec3",
       "saudi-1902-today::ex3",
       "south-arabia-prehistory-8000bc-1200bc::x5",
+      "sugar-8000bc-1200bc::ec3",
       "sumer-2900bc-2334bc::e5",
       "sumer-2900bc-2334bc::g4",
       "sumer-2900bc-2334bc::w4",
@@ -117143,7 +117244,8 @@
       "egypt-3000bc-2100bc::b1"
     ],
     "Abu Ghurab": [
-      "egypt-3000bc-2100bc::b3"
+      "egypt-3000bc-2100bc::b3",
+      "sugar-8000bc-1200bc::e2"
     ],
     "Niuserre": [
       "egypt-3000bc-2100bc::b3"
@@ -123082,7 +123184,8 @@
       "gulf-prehistory-8000bc-3000bc::p2",
       "gulf-prehistory-8000bc-3000bc::e2",
       "gulf-prehistory-8000bc-3000bc::ec4",
-      "gulf-prehistory-8000bc-3000bc::tc1"
+      "gulf-prehistory-8000bc-3000bc::tc1",
+      "sugar-8000bc-1200bc::ec3"
     ],
     "Neolithic Gulf": [
       "gulf-prehistory-8000bc-3000bc::p2",
@@ -124944,7 +125047,8 @@
       "roman-anatolia-133bc-330::ec1",
       "spain-1516-1700::ex2",
       "spain-1516-1700::w6",
-      "spain-1700-1808::ex9"
+      "spain-1700-1808::ex9",
+      "sugar-8000bc-1200bc::w1"
     ],
     "Mithridatic": [
       "hellenistic-age-323bc-30bc::c9"
@@ -147773,14 +147877,16 @@
     "Pacific": [
       "spain-1516-1700::ex1",
       "spain-1700-1808::te1",
-      "spain-1700-1808::ex9"
+      "spain-1700-1808::ex9",
+      "sugar-8000bc-1200bc::x2"
     ],
     "Philippines": [
       "spain-1516-1700::w1",
       "spain-1700-1808::te2",
       "spain-1808-1900::c4",
       "spain-1808-1900::w3",
-      "spain-1900-1975::s1"
+      "spain-1900-1975::s1",
+      "sugar-8000bc-1200bc::x1"
     ],
     "Lisbon Portuguese": [
       "spain-1516-1700::w5"
@@ -150639,6 +150745,69 @@
     ],
     "Lingnan": [
       "sugar-300bc-600ad::l1"
+    ],
+    "Coves": [
+      "sugar-8000bc-1200bc::e1"
+    ],
+    "Bicorp": [
+      "sugar-8000bc-1200bc::e1"
+    ],
+    "Room of the Seasons of Niuserre": [
+      "sugar-8000bc-1200bc::e2"
+    ],
+    "Taiwan": [
+      "sugar-8000bc-1200bc::th1"
+    ],
+    "Austronesian": [
+      "sugar-8000bc-1200bc::th1"
+    ],
+    "Proto-Austronesian": [
+      "sugar-8000bc-1200bc::th1"
+    ],
+    "Kuk Swamp": [
+      "sugar-8000bc-1200bc::ec1"
+    ],
+    "Wahgi": [
+      "sugar-8000bc-1200bc::ec1"
+    ],
+    "Western Highlands": [
+      "sugar-8000bc-1200bc::ec1"
+    ],
+    "New Guinea Highlands": [
+      "sugar-8000bc-1200bc::ec1"
+    ],
+    "Neolithic Europe": [
+      "sugar-8000bc-1200bc::ec2"
+    ],
+    "Beeswax": [
+      "sugar-8000bc-1200bc::ec2"
+    ],
+    "New Guinea": [
+      "sugar-8000bc-1200bc::ec4",
+      "sugar-8000bc-1200bc::te1",
+      "sugar-8000bc-1200bc::x1",
+      "sugar-8000bc-1200bc::w1"
+    ],
+    "Wallace": [
+      "sugar-8000bc-1200bc::te1"
+    ],
+    "Brandes": [
+      "sugar-8000bc-1200bc::x1"
+    ],
+    "Melanesia": [
+      "sugar-8000bc-1200bc::x2"
+    ],
+    "Polynesia": [
+      "sugar-8000bc-1200bc::x2"
+    ],
+    "Northern Europe": [
+      "sugar-8000bc-1200bc::w2"
+    ],
+    "Scotland": [
+      "sugar-8000bc-1200bc::w2"
+    ],
+    "Fennoscandia": [
+      "sugar-8000bc-1200bc::w2"
     ],
     "First Dynasty of Kish": [
       "sumer-2900bc-2334bc::k1",

@@ -104,7 +104,11 @@ function extractPhrases(text) {
     // happen to also be common words on their own — e.g. "Third Republic": "Third" and
     // "Republic" are both in STOPWORDS individually, but together they're a specific
     // historical term, and unconditional cascading used to collapse it to nothing.
-    while (current.length > 1 && STOPWORDS.has(current[0].toLowerCase())) current.shift();
+    // A leading "New" is kept when a capitalised word follows ("New Guinea", "New Kingdom",
+    // "New Spain", "New World"): trimming it left a bare "Guinea" that would falsely link New Guinea
+    // to the Gulf of Guinea and Equatorial Guinea. A lone sentence-initial "New" is still dropped
+    // by isUsefulSingleWord().
+    while (current.length > 1 && STOPWORDS.has(current[0].toLowerCase()) && current[0].toLowerCase() !== 'new') current.shift();
     if (current.length) phrases.push(current.join(' '));
     current = [];
   };

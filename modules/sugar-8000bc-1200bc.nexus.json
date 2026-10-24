@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": -8000,
+      "label": "Wild canes",
+      "full": "S. robustum on New Guinea and the islands east of the Wallace line is the wild ancestor of the sweet cane; S. spontaneum ranges across Asia and later supplies the hybrid partner.",
+      "src": "Needham SCC 6.3 p.129 n.g"
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": -8000,
+      "label": "Kuk Swamp",
+      "full": "Wetland cultivation in the New Guinea Highlands, dated from about 10,000 years ago (Golson and Hughes) or about 7,000 (Denham): the agricultural landscape in which cane was domesticated. Cane itself is not attested at Kuk in the chapter read.",
+      "src": "Denham, Golson & Hughes (2017) ch.11"
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": -8000,
+      "label": "Domestication",
+      "full": "Sugarcane is domesticated from wild robustum cane in New Guinea and nearby islands by selecting plants with sugar-rich pith, about 8,000 years ago on the genomic dating.",
+      "src": "Garsmeur et al. (2025) via CIRAD; Denham (2025)"
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": -8000,
+      "label": "Brandes model",
+      "full": "The older account: three diffusions from New Guinea, the first c.8000 BC and the second, perhaps two thousand years later, to the Philippines and India.",
+      "src": "Mintz (1985) p.19"
+    },
+    {
+      "id": "x2",
+      "lane": "exchange",
+      "year": -1500,
+      "label": "Island voyagers",
+      "full": "Migrating peoples carry cane through Melanesia and Polynesia between about 3,500 and 500 years ago, where it hybridises with a previously unknown ancestor and with Miscanthus.",
+      "src": "CIRAD press release (2025)"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": -3500,
+      "label": "Austronesian word",
+      "full": "Sugarcane has a reconstructed Proto-Austronesian name, continued in Proto-Malayo-Polynesian and Proto-Oceanic: a named crop of the speakers who spread from Taiwan.",
+      "src": "Blust via Wikipedia ‘Sugarcane’; Ross, Pawley & Osmond"
+    },
+    {
+      "id": "w2",
+      "lane": "world",
+      "year": -6500,
+      "label": "Bee limit",
+      "full": "No Neolithic beeswax is found north of the 57th parallel, the authors’ reading of the honeybee’s northern limit.",
+      "src": "Roffet-Salque et al. (2015)"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": -7000,
+      "label": "Beeswax pots",
+      "full": "Beeswax residues in Neolithic cooking pots, the oldest from seventh-millennium BC Turkey, show early farmers exploiting honeybee products.",
+      "src": "Roffet-Salque et al. (2015) via press summaries"
+    },
+    {
+      "id": "e2",
+      "lane": "expression",
+      "year": -2445,
+      "label": "Abu Ghurab bees",
+      "full": "A relief in Niuserre’s sun temple shows hive beekeeping — smoke, combs, strained honey sealed in jars.",
+      "src": "Secondary summaries; Kritsky (2015) to check"
+    }
+  ],
+  "edges": [
+    [
+      "w1",
+      "te1",
+      "strong",
+      "Sugarcane was domesticated from the wild cane S. robustum, which grows on New Guinea and the islands east of the Wallace line."
+    ],
+    [
+      "ec1",
+      "te1",
+      "loose",
+      "Domestication happened inside the New Guinea agricultural landscape that Kuk documents, though the Kuk chapter does not itself mention cane."
+    ],
+    [
+      "te1",
+      "x1",
+      "loose",
+      "Brandes’s model sends the first diffusions out of the New Guinea centre of domestication, a reading the genomic work revises."
+    ],
+    [
+      "te1",
+      "x2",
+      "strong",
+      "The press release places the island centre of diversification where S. officinarum was introduced during Melanesian migrations."
+    ],
+    [
+      "th1",
+      "x2",
+      "loose",
+      "The reconstructed Austronesian words show cane as a named crop of the island-voyaging peoples who carried it."
+    ],
+    [
+      "w2",
+      "ec2",
+      "loose",
+      "The authors read the absence of beeswax north of 57°N as the honeybee’s ecological limit, which bounds where the wax can appear in the pots."
+    ],
+    [
+      "ec2",
+      "e2",
+      "loose",
+      "Neolithic exploitation of honeybee products precedes the managed hive shown at Abu Ghurab by some four thousand years."
+    ]
+  ]
+}
