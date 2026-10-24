@@ -233,6 +233,30 @@
       "label": "The peanut reaches China",
       "full": "Portuguese bring the peanut to Fukien; export crop by 1700.",
       "src": "Bray; Anderson"
+    },
+    {
+      "id": "ec15",
+      "lane": "economy",
+      "year": 1520,
+      "label": "Vijayanagara’s sesame oil",
+      "full": "Paes: the king drinks and anoints with sesame oil.",
+      "src": "Achaya p.153"
+    },
+    {
+      "id": "ec16",
+      "lane": "economy",
+      "year": 1672,
+      "label": "Bengal’s butter exports",
+      "full": "Fryer: butter shipped by sea from Bengal.",
+      "src": "Achaya p.176"
+    },
+    {
+      "id": "ec17",
+      "lane": "economy",
+      "year": 1606,
+      "label": "Taiji’s net whalers",
+      "full": "Japan’s organised whaling from 1606; nets about 1677.",
+      "src": "Ellis pp.81–85"
     }
   ],
   "edges": [
@@ -385,6 +409,24 @@
       "th3",
       "loose",
       "The peanut’s arrival and Song Yingxing’s ranking of the oils belong to the same Ming-Qing oil economy."
+    ],
+    [
+      "ec15",
+      "ec6",
+      "loose",
+      "Vijayanagara’s sesame oil and the American South’s benne are the same Indian oilseed on two continents."
+    ],
+    [
+      "ec16",
+      "ec7",
+      "loose",
+      "Bengal’s ghee exports and Italy’s butter fashion are two stories of a dairy fat entering trade."
+    ],
+    [
+      "ec17",
+      "ec2",
+      "loose",
+      "Taiji’s five crews and the Dutch Spitsbergen fleet began within years of each other, a world apart."
     ]
   ]
 }

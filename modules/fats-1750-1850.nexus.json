@@ -168,6 +168,22 @@
       "label": "Walvis Bay",
       "full": "Yankee right-whalers on the south-west African coast.",
       "src": "Ellis p.126"
+    },
+    {
+      "id": "ec12",
+      "lane": "economy",
+      "year": 1819,
+      "label": "Honolulu and Lahaina",
+      "full": "Hawai‘i becomes the whaleships’ Pacific base; 600 arrivals in 1846.",
+      "src": "Dolin ch."
+    },
+    {
+      "id": "ec13",
+      "lane": "economy",
+      "year": 1832,
+      "label": "Low’s Malayan estates",
+      "full": "Coconut and nutmeg estates at Province Wellesley.",
+      "src": "Lees ch.1"
     }
   ],
   "edges": [
@@ -290,6 +306,18 @@
       "ec2",
       "loose",
       "Yankee ships at Walvis Bay are the south-east Atlantic end of the Nantucket and New Bedford fishery."
+    ],
+    [
+      "ec12",
+      "ec2",
+      "strong",
+      "Honolulu and Lahaina were the Pacific stopping-off points for the Nantucket and New Bedford fleet at its peak."
+    ],
+    [
+      "ec13",
+      "ec7",
+      "loose",
+      "The coconut estates of Penang and the palm-oil boom on the Bight of Biafra are two tropical oil frontiers of the same decades."
     ]
   ]
 }

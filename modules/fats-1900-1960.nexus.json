@@ -224,6 +224,46 @@
       "label": "Copra as war material",
       "full": "Pacific coconut plantations and the glycerine trade, 1914–1942.",
       "src": "Kiple p.394"
+    },
+    {
+      "id": "ec12",
+      "lane": "economy",
+      "year": 1931,
+      "label": "India’s vanaspati",
+      "full": "Ghee additive to 43,000 tons a year by 1941.",
+      "src": "Fieldhouse ch.4"
+    },
+    {
+      "id": "ec13",
+      "lane": "economy",
+      "year": 1901,
+      "label": "Lever’s Solomon Islands",
+      "full": "A 999-year lease for coconut plantations, 1907.",
+      "src": "Fieldhouse ch.8"
+    },
+    {
+      "id": "ec14",
+      "lane": "economy",
+      "year": 1923,
+      "label": "Lever’s Apapa soap works",
+      "full": "Nigeria’s soap factory, 1924–1940.",
+      "src": "Fieldhouse ch.6"
+    },
+    {
+      "id": "ec15",
+      "lane": "economy",
+      "year": 1911,
+      "label": "Kano groundnuts",
+      "full": "Railway and Hausa traders drive northern Nigeria’s groundnut exports.",
+      "src": "Hopkins"
+    },
+    {
+      "id": "ec16",
+      "lane": "economy",
+      "year": 1923,
+      "label": "Turkey 1939",
+      "full": "Atatürk’s fat duties and a Unilever survey of the market.",
+      "src": "Fieldhouse ch.7"
     }
   ],
   "edges": [
@@ -376,6 +416,42 @@
       "ec8",
       "loose",
       "Lever’s Congo palm plantations and the Pacific coconut estates were the two tropical oil frontiers of the interwar years."
+    ],
+    [
+      "ec12",
+      "ec3",
+      "strong",
+      "Unilever’s Indian vanaspati business and the 1929 merger of Lever and the Margarine Union are one company’s two ends."
+    ],
+    [
+      "ec13",
+      "ec11",
+      "strong",
+      "Lever’s Solomon plantations are the best-documented case of the Pacific copra economy that the war for glycerine made strategic."
+    ],
+    [
+      "ec13",
+      "ec8",
+      "loose",
+      "The Solomon Islands and the Congo are the only two Lever plantation companies before the 1920s."
+    ],
+    [
+      "ec14",
+      "ec9",
+      "loose",
+      "Lever’s Nigerian soap works and its refusal of West African concessions are two sides of the company’s West African policy."
+    ],
+    [
+      "ec15",
+      "ec7",
+      "loose",
+      "Nigeria’s groundnut exports and Southeast Asia’s overtaking of Nigeria in palm oil belong to the same interwar vegetable-oil market."
+    ],
+    [
+      "ec16",
+      "ec3",
+      "loose",
+      "Turkey’s tariff and the Unilever survey show the company reading a market from Rotterdam."
     ]
   ]
 }

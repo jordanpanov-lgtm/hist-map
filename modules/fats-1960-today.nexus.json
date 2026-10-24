@@ -216,6 +216,30 @@
       "label": "Japan’s fat revolution",
       "full": "Meat, dairy products, fats and oils join a rice diet from the 1960s.",
       "src": "Ishige"
+    },
+    {
+      "id": "ec9",
+      "lane": "economy",
+      "year": 1960,
+      "label": "India’s vanaspati under control",
+      "full": "Price controls squeeze the ghee substitute.",
+      "src": "Jones; Kiple"
+    },
+    {
+      "id": "x3",
+      "lane": "exchange",
+      "year": 1991,
+      "label": "Hazelnut oil as olive oil",
+      "full": "Turkish hazelnut oil relabelled Greek olive oil, 1991.",
+      "src": "Mueller"
+    },
+    {
+      "id": "c2",
+      "lane": "conflict",
+      "year": 2000,
+      "label": "The Olive Wars",
+      "full": "West Bank groves burned, uprooted and cut off.",
+      "src": "Mueller"
     }
   ],
   "edges": [
@@ -368,6 +392,30 @@
       "ec1",
       "loose",
       "Japan’s rising fat intake and America’s soybean surge belong to the same postwar shift towards vegetable fat."
+    ],
+    [
+      "ec9",
+      "ec3",
+      "strong",
+      "India’s vanaspati controls and its position as the biggest buyer of palm oil are the same market seen as shortening and as raw oil."
+    ],
+    [
+      "x3",
+      "x2",
+      "strong",
+      "Turkish hazelnut oil and Tunisian oil relabelled are two cases of cheap oil passed off as olive oil in the same investigations."
+    ],
+    [
+      "x3",
+      "o8",
+      "loose",
+      "The Barletta cargo and the New Jersey seizure are the Italian and American ends of the same fraud."
+    ],
+    [
+      "c2",
+      "ec5",
+      "loose",
+      "The groves of the West Bank and the new olive-oil world of California and Australia show the olive as land claim and as crop."
     ]
   ]
 }

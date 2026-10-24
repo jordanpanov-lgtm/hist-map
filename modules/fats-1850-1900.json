@@ -424,7 +424,23 @@
       "color": "#2E1A4A",
       "accent": "#7B4FA6",
       "subtitle": "",
-      "entries": []
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Marginalised Communities",
+          "label": "St Lawrence Island starves, 1878–79: the whalers’ walrus slaughter",
+          "date": "1878–1879",
+          "loc": "St Lawrence Island and Bering Strait",
+          "coords": [
+            63.4,
+            -170.3
+          ],
+          "hint": "Hunting in Bering Strait had been poor after the winter of 1877–78, and the disaster came in 1878–79. A trading schooner arrived in Honolulu with the report that many natives of the Arctic had died ‘as the result of the killing off of the walrus by whalers’; another trader found all the people dead at three settlements on St Lawrence Island, who had died of starvation because they could not get seal, walrus or whale. A whaler wrote that almost everyone said the walrus slaughter was starving the natives, who had eaten their walrus-skin houses and boats. Bockstoce is cautious about the cause: the revenue cutter’s reports stressed alcohol, which may have been exaggerated to win funds, while the traders stressed the lack of food but disagreed on why.",
+          "tag": "EVIDENCE",
+          "note": "ANCHOR (book read): Bockstoce, Whales, Ice, and Men: The History of Whaling in the Western Arctic (1986), PDF pp.141–143. The cause of the famine is disputed there; the whalers’ walrus slaughter is the traders’ and whalers’ own explanation. Compare fats-1000-1500::ec9 for the Thule hunters’ marine-fat economy.",
+          "keywords": ["St Lawrence Island","Bering Strait"]
+        }
+      ]
     }
   ],
   "timeline": [
@@ -589,6 +605,19 @@
           "y": 1879,
           "l": "Germany turns protectionist: the margarine boom behind a tariff",
           "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 1878,
+          "l": "St Lawrence Island starves, 1878–79: the whalers’ walrus slaughter",
+          "entryId": "l1"
         }
       ]
     }
