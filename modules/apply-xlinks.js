@@ -32,6 +32,40 @@ const DIR = __dirname;
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
   // ── Fats & Oils subject folios (fats-*) — hand-reviewed 2026-10; keyword candidates were mostly place-name noise ──
+  // new-source entries (Lucas, Chang, Anderson, Ishige, Reid, Kirch, Achaya, Fieldhouse, Ellis ...) — hand-reviewed 2026-10-25, subject-for-subject
+  ['fats-130000bc-8000bc::te1', 'fats-8000bc-1200bc::te1'],             // bone-grease rendering -> Kiple's undated 'first method'
+  ['fats-130000bc-8000bc::ec3', 'fats-8000bc-1200bc::ec2'],             // wild olive stones -> the domesticated olive
+  ['fats-130000bc-8000bc::ec5', 'fats-8000bc-1200bc::ec2'],             // Ohalo II wild olives -> the domesticated olive
+  ['fats-130000bc-8000bc::ec10', 'fats-8000bc-1200bc::ec23'],           // early avocado stones -> El Gigante selection
+  ['fats-130000bc-8000bc::ec1', 'fats-8000bc-1200bc::ec15'],            // Jomon aquatic pots -> Baltic marine-fat pots
+  ['fats-8000bc-1200bc::ec21', 'fats-1200bc-300bc::b6'],                // olive in Egypt's records -> Ra's olive groves
+  ['fats-8000bc-1200bc::ec20', 'fats-300bc-600ad::ec8'],                // Egypt's oils -> oils in the Greek papyri
+  ['fats-1200bc-300bc::ec12', 'fats-300bc-600ad::o1'],                  // Egyptian castor-oil lamps -> Ptolemy II's oil tax
+  ['fats-1200bc-300bc::ec12', 'fats-300bc-600ad::ec8'],                 // Egyptian castor oil -> oils in the Fayum papyri
+  ['fats-1200bc-300bc::te6', 'fats-1000-1500::ec9'],                    // Arctic soapstone lamp -> Thule hunters' oil lamps
+  ['fats-8000bc-1200bc::ec11', 'fats-1200bc-300bc::ec11'],              // African oil-palm shells -> Niger Delta pollen
+  ['fats-1200bc-300bc::ec11', 'fats-1000-1500::ec7'],                   // Niger Delta palm pollen -> palm oil on sale in the 1400s
+  ['fats-8000bc-1200bc::ec18', 'fats-1200bc-300bc::ec13'],              // New Guinea tree crops -> Lapita coconut and almonds
+  ['fats-1200bc-300bc::ec13', 'fats-300bc-600ad::ec7'],                 // Lapita coconut -> the Polynesian coconut
+  ['fats-300bc-600ad::ec7', 'fats-1000-1500::ec12'],                    // Polynesian coconut -> settlement of Hawai'i and New Zealand
+  ['fats-600-1000::e1', 'fats-1000-1500::e2'],                          // Baghdad tail fat -> Yuan court tail fat
+  ['fats-600-1000::e1', 'sugar-600-1000::e2'],                          // the Baghdad cookbook as fat text and as sugar text
+  ['fats-600-1000::ec9', 'fats-300bc-600ad::te4'],                      // Tang kaymak and ti-hu -> the sixth-century recipe for su
+  ['fats-600-1000::ec9', 'fats-1000-1500::ec8'],                        // Tang dairy peak -> su turning into animal-fat shortening
+  ['fats-8000bc-1200bc::ec22', 'fats-1200bc-300bc::e2'],                // China's pigs and dogs -> the Zhou eight delicacies
+  ['fats-8000bc-1200bc::ec22', 'fats-1200bc-300bc::th2'],               // China's pigs and dogs -> the Zhou fats
+  ['fats-8000bc-1200bc::ec24', 'fats-300bc-600ad::th4'],                // Banpo brassica seeds -> the sixth-century colza oil mills
+  ['fats-8000bc-1200bc::th5', 'fats-1500-1750::x2'],                    // doubted Neolithic Chinese peanut -> the peanut's sixteenth-century arrival
+  ['fats-8000bc-1200bc::ec12', 'fats-1500-1750::x2'],                   // Peruvian peanut -> the peanut in China
+  ['fats-600-1000::e3', 'fats-1960-today::ec8'],                        // Japan cooking without oil -> Japan's fat revolution of the 1960s
+  ['fats-600-1000::o2', 'fats-1960-today::ec8'],                        // the meat ban and the absence of herds -> the 1960s rise in fat intake
+  ['fats-1900-1960::ec12', 'fats-1960-today::ec9'],                     // India's vanaspati rise -> vanaspati under price control
+  ['fats-1200bc-300bc::b5', 'fats-1960-today::c2'],                     // Tekoa's oil for the Temple -> the Olive Wars
+  ['fats-1500-1750::ec17', 'fats-1000-1500::ec1'],                      // Taiji's net whalers -> the Basques
+  ['fats-1850-1900::l1', 'fats-1000-1500::ec9'],                        // the St Lawrence Island famine -> the Thule marine-fat economy
+  ['fats-8000bc-1200bc::th4', 'fats-1200bc-300bc::ec10'],               // Sherratt on milking -> frying in ghee in the Dharma Sutras
+  ['fats-1500-1750::ec15', 'fats-1200bc-300bc::te5'],                   // Vijayanagara's sesame oil -> the Indian ghani
+  ['fats-1500-1750::ec16', 'fats-600-1000::b5'],                        // Bengal's ghee exports -> ghee endowments of Chola lamps
   // within the program: the olive, sesame, ghee and su threads
   ['fats-8000bc-1200bc::ec2', 'fats-1200bc-300bc::x1'],                 // the olive's origins -> who brought it west
   ['fats-8000bc-1200bc::te2', 'fats-1200bc-300bc::te1'],                // Bronze Age presses -> the Greek beam press
