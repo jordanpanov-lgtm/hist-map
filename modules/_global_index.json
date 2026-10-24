@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 10411,
-    "folio_count": 216,
-    "xlink_pairs": 2978,
-    "keyword_terms": 15730,
+    "total_entries": 10439,
+    "folio_count": 217,
+    "xlink_pairs": 3009,
+    "keyword_terms": 15771,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -999,6 +999,11 @@
         "id": "sugar-300bc-600ad",
         "title": "Sugar",
         "entries": 49
+      },
+      {
+        "id": "sugar-600-1000",
+        "title": "Sugar",
+        "entries": 28
       },
       {
         "id": "sugar-8000bc-1200bc",
@@ -10682,6 +10687,34 @@
     "sugar-300bc-600ad::w2": "The monsoon route to India",
     "sugar-300bc-600ad::l1": "The southern Yue and their cane",
     "sugar-300bc-600ad::l2": "Deportees and Roman prisoners remake Khuzestan",
+    "sugar-600-1000::c1": "Heraclius sacks Dastagird: sugar among Khusrau II’s luxuries",
+    "sugar-600-1000::c2": "The Arab conquest of the Sawad and Khuzestan",
+    "sugar-600-1000::o1": "Umar’s tax on cane in the Sawad",
+    "sugar-600-1000::o2": "Harun al-Rashid’s provinces pay sugar in kind",
+    "sugar-600-1000::b1": "Yijing advises monks to carry syrup and sugar",
+    "sugar-600-1000::b2": "The monk Zou teaches Sichuan to crystallise sugar",
+    "sugar-600-1000::e1": "Al-Mutanabbi praises the sugar crystal of Ahwaz",
+    "sugar-600-1000::e2": "Ibn Sayyar al-Warraq’s Baghdad cookbook",
+    "sugar-600-1000::th1": "Xuanzang finds Gandhara abounding in cane and shi mi",
+    "sugar-600-1000::th2": "Paul of Aegina repeats Galen on sakchar",
+    "sugar-600-1000::th3": "Ibn Masawayh puts sugar in the humoral scheme",
+    "sugar-600-1000::th4": "Hunayn translates Dioscorides into Arabic — with a changed place-name",
+    "sugar-600-1000::th5": "Al-Jahiz’s trade handbook lists the sugar of Ahwaz",
+    "sugar-600-1000::th6": "Al-Razi on sugar’s qualities and the kinds of white sugar",
+    "sugar-600-1000::th7": "The tenth-century geographers chart the cane belt",
+    "sugar-600-1000::ec1": "Tang China: tribute cane and sugar from the monasteries",
+    "sugar-600-1000::ec2": "Egypt: cane in the papyri and the Delta",
+    "sugar-600-1000::ec3": "Khuzestan, Sijistan and Fars: Persia’s sugar provinces",
+    "sugar-600-1000::ec4": "Sicily: Persian cane in the marshes near Palermo",
+    "sugar-600-1000::ec5": "Iraq: no village without cane",
+    "sugar-600-1000::ec6": "Syria: cane on the coast and in the Jordan valley",
+    "sugar-600-1000::ec7": "The far west: Sus al-Aqsa and Córdoba",
+    "sugar-600-1000::te1": "The Dunhuang manuscript: the earliest account of sugar-making",
+    "sugar-600-1000::x1": "Wang Xuance’s mission and the Magadha sugar artisans",
+    "sugar-600-1000::x2": "Persian sugar is prized in Tang Sichuan",
+    "sugar-600-1000::x3": "Jianzhen sails for Japan with cane and shi mi",
+    "sugar-600-1000::w1": "Islam takes Crete and Sicily",
+    "sugar-600-1000::l1": "The Zanj: slaves of the salt flats, not of the cane",
     "sugar-8000bc-1200bc::e1": "The honey gatherer of Bicorp",
     "sugar-8000bc-1200bc::e2": "Niuserre’s sun temple shows the first beekeeper",
     "sugar-8000bc-1200bc::th1": "A reconstructed word for sugarcane in Proto-Austronesian",
@@ -11824,6 +11857,12 @@
     ],
     "caliphate-632-750::c11": [
       "al-andalus-711-1031::c4"
+    ],
+    "al-andalus-711-1031::s1": [
+      "sugar-600-1000::ec7"
+    ],
+    "sugar-600-1000::ec7": [
+      "al-andalus-711-1031::s1"
     ],
     "al-andalus-711-1031::lv3": [
       "eastern-arabia-750-1200::lv5"
@@ -14185,7 +14224,8 @@
     ],
     "beth-qatraye-632-750::w3": [
       "beth-qatraye-240-632::k1",
-      "beth-qatraye-240-632::c3"
+      "beth-qatraye-240-632::c3",
+      "sugar-600-1000::c2"
     ],
     "beth-qatraye-240-632::k3": [
       "beth-qatraye-632-750::c2"
@@ -14293,6 +14333,10 @@
     ],
     "beth-qatraye-632-750::b1": [
       "eastern-arabia-750-1200::k2"
+    ],
+    "sugar-600-1000::c2": [
+      "beth-qatraye-632-750::w3",
+      "caliphate-632-750::c3"
     ],
     "beth-qatraye-632-750::w5": [
       "caliphate-632-750::w5",
@@ -14405,7 +14449,8 @@
       "caliphate-750-945::k3"
     ],
     "caliphate-750-945::k3": [
-      "byzantine-anatolia-632-867::c7"
+      "byzantine-anatolia-632-867::c7",
+      "sugar-600-1000::o2"
     ],
     "byzantine-anatolia-632-867::c12": [
       "byzantine-empire-632-867::p8"
@@ -14556,7 +14601,8 @@
     ],
     "caliphate-750-945::t1": [
       "byzantine-anatolia-632-867::x2",
-      "iraq-632-945::t1"
+      "iraq-632-945::t1",
+      "sugar-600-1000::th4"
     ],
     "byzantine-anatolia-632-867::x4": [
       "byzantine-empire-632-867::c9",
@@ -14986,6 +15032,16 @@
     "levant-634-750::c1": [
       "byzantine-empire-632-867::c2"
     ],
+    "byzantine-empire-632-867::c8": [
+      "sugar-600-1000::ec4",
+      "sugar-600-1000::w1"
+    ],
+    "sugar-600-1000::ec4": [
+      "byzantine-empire-632-867::c8"
+    ],
+    "sugar-600-1000::w1": [
+      "byzantine-empire-632-867::c8"
+    ],
     "byzantine-empire-632-867::o5": [
       "caliphate-632-750::k8"
     ],
@@ -15087,7 +15143,8 @@
     ],
     "caliphate-632-750::c3": [
       "lakhmid-268-602::w5",
-      "mesopotamia-224-637::c6"
+      "mesopotamia-224-637::c6",
+      "sugar-600-1000::c2"
     ],
     "lakhmid-268-602::w5": [
       "caliphate-632-750::c3",
@@ -15187,17 +15244,20 @@
       "mesopotamia-224-637::k6",
       "roman-sasanian-world-224-632::p6",
       "sassanid-484-651::k5",
-      "sassanid-484-651::ex3"
+      "sassanid-484-651::ex3",
+      "sugar-600-1000::ec3"
     ],
     "sugar-300bc-600ad::th14": [
-      "caliphate-632-750::ec3"
+      "caliphate-632-750::ec3",
+      "sugar-600-1000::ec3"
     ],
     "caliphate-632-750::ec4": [
       "eastern-arabia-750-1200::tc2",
       "mesopotamia-224-637::e1"
     ],
     "eastern-arabia-750-1200::tc2": [
-      "caliphate-632-750::ec4"
+      "caliphate-632-750::ec4",
+      "sugar-600-1000::l1"
     ],
     "mesopotamia-224-637::e1": [
       "caliphate-632-750::ec4",
@@ -15240,6 +15300,10 @@
       "caliphate-750-945::k1",
       "mesopotamia-224-637::o2"
     ],
+    "sugar-600-1000::o2": [
+      "caliphate-750-945::k3",
+      "caliphate-750-945::ec6"
+    ],
     "caucasus-645-884::p2": [
       "caliphate-750-945::k6"
     ],
@@ -15279,13 +15343,21 @@
     ],
     "caliphate-750-945::c6": [
       "eastern-arabia-750-1200::c2",
-      "iraq-632-945::c5"
+      "iraq-632-945::c5",
+      "sugar-600-1000::l1"
     ],
     "eastern-arabia-750-1200::c2": [
-      "caliphate-750-945::c6"
+      "caliphate-750-945::c6",
+      "sugar-600-1000::l1"
     ],
     "iraq-632-945::c5": [
       "caliphate-750-945::c6"
+    ],
+    "sugar-600-1000::l1": [
+      "caliphate-750-945::c6",
+      "eastern-arabia-750-1200::c2",
+      "eastern-arabia-750-1200::tc2",
+      "eastern-arabia-750-1200::lv1"
     ],
     "caliphate-750-945::c8": [
       "eastern-arabia-750-1200::x4",
@@ -15340,14 +15412,29 @@
       "caliphate-750-945::e1"
     ],
     "caliphate-750-945::e3": [
-      "iran-651-821::x2"
+      "iran-651-821::x2",
+      "sugar-600-1000::e2"
     ],
     "iran-651-821::x2": [
+      "caliphate-750-945::e3"
+    ],
+    "sugar-600-1000::e2": [
       "caliphate-750-945::e3"
     ],
     "iraq-632-945::t1": [
       "caliphate-750-945::t1",
       "mesopotamia-224-637::t4"
+    ],
+    "sugar-600-1000::th4": [
+      "caliphate-750-945::t1",
+      "caliphate-750-945::x1",
+      "sugar-300bc-600ad::th3"
+    ],
+    "caliphate-750-945::t6": [
+      "sugar-600-1000::th7"
+    ],
+    "sugar-600-1000::th7": [
+      "caliphate-750-945::t6"
     ],
     "caliphate-750-945::t7": [
       "fatimids-909-1171::t5"
@@ -15368,7 +15455,9 @@
     ],
     "caliphate-750-945::ec3": [
       "caliphate-945-1258::ec2",
-      "iraq-632-945::e1"
+      "iraq-632-945::e1",
+      "sugar-600-1000::ec5",
+      "sugar-600-1000::o1"
     ],
     "caliphate-945-1258::ec2": [
       "caliphate-750-945::ec3",
@@ -15379,6 +15468,24 @@
       "caliphate-750-945::ec3",
       "iraq-945-1258::e1",
       "mesopotamia-224-637::e1"
+    ],
+    "sugar-600-1000::ec5": [
+      "caliphate-750-945::ec3"
+    ],
+    "sugar-600-1000::o1": [
+      "caliphate-750-945::ec3"
+    ],
+    "caliphate-750-945::ec6": [
+      "sugar-600-1000::ec3",
+      "sugar-600-1000::o2"
+    ],
+    "sugar-600-1000::ec3": [
+      "caliphate-750-945::ec6",
+      "sugar-300bc-600ad::p2",
+      "sugar-300bc-600ad::th14"
+    ],
+    "caliphate-750-945::x1": [
+      "sugar-600-1000::th4"
     ],
     "caliphate-750-945::x5": [
       "eastern-arabia-750-1200::w2",
@@ -16864,6 +16971,9 @@
     "fatimids-909-1171::c3": [
       "eastern-arabia-750-1200::x2",
       "egypt-641-969::c8"
+    ],
+    "eastern-arabia-750-1200::lv1": [
+      "sugar-600-1000::l1"
     ],
     "oman-gulf-1650-1820::lv5": [
       "eastern-arabia-750-1200::lv5",
@@ -18794,7 +18904,8 @@
     ],
     "mesopotamia-224-637::c5": [
       "egypt-300-641::c7",
-      "roman-sasanian-world-224-632::c10"
+      "roman-sasanian-world-224-632::c10",
+      "sugar-600-1000::c1"
     ],
     "egypt-300-641::o2": [
       "egypt-30bc-300ad::e2"
@@ -18873,7 +18984,8 @@
       "roman-sasanian-world-224-632::t1"
     ],
     "sugar-300bc-600ad::th13": [
-      "egypt-300-641::t3"
+      "egypt-300-641::t3",
+      "sugar-600-1000::th2"
     ],
     "egypt-300-641::e1": [
       "egypt-30bc-300ad::e1"
@@ -19453,6 +19565,12 @@
     ],
     "egypt-641-969::xc6": [
       "fatimids-909-1171::k3"
+    ],
+    "egypt-641-969::l6": [
+      "sugar-600-1000::ec2"
+    ],
+    "sugar-600-1000::ec2": [
+      "egypt-641-969::l6"
     ],
     "ionia-1050bc-494bc::x4": [
       "egypt-664bc-332bc::k1",
@@ -23007,7 +23125,13 @@
     ],
     "roman-sasanian-world-224-632::c10": [
       "mesopotamia-224-637::c5",
-      "sassanid-484-651::c5"
+      "sassanid-484-651::c5",
+      "sugar-600-1000::c1"
+    ],
+    "sugar-600-1000::c1": [
+      "mesopotamia-224-637::c5",
+      "roman-sasanian-world-224-632::c10",
+      "sugar-300bc-600ad::th15"
     ],
     "roman-sasanian-world-224-632::b3": [
       "mesopotamia-224-637::b1",
@@ -24777,6 +24901,39 @@
     ],
     "sugar-300bc-600ad::te1": [
       "sugar-1200bc-300bc::te2"
+    ],
+    "sugar-300bc-600ad::b5": [
+      "sugar-600-1000::b1",
+      "sugar-600-1000::x1"
+    ],
+    "sugar-600-1000::b1": [
+      "sugar-300bc-600ad::b5"
+    ],
+    "sugar-600-1000::x1": [
+      "sugar-300bc-600ad::b5",
+      "sugar-300bc-600ad::te4"
+    ],
+    "sugar-300bc-600ad::th3": [
+      "sugar-600-1000::th4"
+    ],
+    "sugar-600-1000::th2": [
+      "sugar-300bc-600ad::th13"
+    ],
+    "sugar-300bc-600ad::th15": [
+      "sugar-600-1000::c1",
+      "sugar-600-1000::x2"
+    ],
+    "sugar-600-1000::x2": [
+      "sugar-300bc-600ad::th15"
+    ],
+    "sugar-300bc-600ad::te2": [
+      "sugar-600-1000::te1"
+    ],
+    "sugar-600-1000::te1": [
+      "sugar-300bc-600ad::te2"
+    ],
+    "sugar-300bc-600ad::te4": [
+      "sugar-600-1000::x1"
     ],
     "tylos-mleiha-300bc-240ad::tc3": [
       "sugar-300bc-600ad::w2"
@@ -79795,6 +79952,168 @@
       "Khuzestan",
       "Shapur I"
     ],
+    "sugar-600-1000::c1": [
+      "Dastagird",
+      "Khusrau II",
+      "Ctesiphon",
+      "Heraclius"
+    ],
+    "sugar-600-1000::c2": [
+      "Al-Qadisiyya",
+      "Ctesiphon",
+      "Khuzestan",
+      "Sawad"
+    ],
+    "sugar-600-1000::o1": [
+      "Al-Sawad",
+      "Lower Iraq",
+      "Umar",
+      "Sawad"
+    ],
+    "sugar-600-1000::o2": [
+      "Ahwaz",
+      "Sijistan",
+      "Harun al-Rashid"
+    ],
+    "sugar-600-1000::b1": [
+      "Nalanda",
+      "Yijing"
+    ],
+    "sugar-600-1000::b2": [
+      "Sichuan",
+      "San Shan",
+      "Zou"
+    ],
+    "sugar-600-1000::e1": [
+      "Ahwaz",
+      "Khuzestan",
+      "Al-Mutanabbi"
+    ],
+    "sugar-600-1000::e2": [
+      "Ibn Sayyar al-Warraq Baghdad",
+      "Ibn Sayyar al-Warraq Kitab al-Tabikh",
+      "Ibrahim ibn al-Mahdi"
+    ],
+    "sugar-600-1000::th1": [
+      "Gandhara",
+      "Xuanzang"
+    ],
+    "sugar-600-1000::th2": [
+      "Alexandria",
+      "Egypt",
+      "Paul of Aegina",
+      "Galen",
+      "Alexander of Tralles"
+    ],
+    "sugar-600-1000::th3": [
+      "Baghdad",
+      "House of Wisdom",
+      "Yuhanna ibn Masawayh",
+      "Harun al-Rashid"
+    ],
+    "sugar-600-1000::th4": [
+      "Baghdad",
+      "Arabic",
+      "Hunayn ibn Ishaq",
+      "Dioscorides Materia Medica",
+      "Ibn al-Baytar",
+      "Arabia Felix"
+    ],
+    "sugar-600-1000::th5": [
+      "Basra",
+      "Ahwaz",
+      "al-Jahiz Concerning Clarity",
+      "Commercial Matters"
+    ],
+    "sugar-600-1000::th6": [
+      "Rayy",
+      "Al-Razi"
+    ],
+    "sugar-600-1000::th7": [
+      "Baghdad",
+      "Islamic",
+      "Ibn Hawqal"
+    ],
+    "sugar-600-1000::ec1": [
+      "Yuezhou",
+      "Yangzhou",
+      "Luzhou",
+      "Sichuan",
+      "Tang China",
+      "Fa Bao Yuan"
+    ],
+    "sugar-600-1000::ec2": [
+      "Lower Egypt",
+      "Delta",
+      "Fustat",
+      "Dumyat Juml"
+    ],
+    "sugar-600-1000::ec3": [
+      "Ahwaz",
+      "Askar Mukram",
+      "Jubba",
+      "Sus",
+      "Khuzestan",
+      "Sijistan"
+    ],
+    "sugar-600-1000::ec4": [
+      "Palermo",
+      "Sicily",
+      "Ibn Hawqal",
+      "North Africa"
+    ],
+    "sugar-600-1000::ec5": [
+      "Al-Sawad",
+      "Sinjar",
+      "Iraq",
+      "Ibn Hawqal",
+      "Ibn Wahshiyya Nabataean Agriculture"
+    ],
+    "sugar-600-1000::ec6": [
+      "Tripoli",
+      "Syrian",
+      "Syria",
+      "Jordan"
+    ],
+    "sugar-600-1000::ec7": [
+      "Sus al-Aqsa",
+      "Morocco",
+      "Ibn Hawqal",
+      "Calendar of Córdoba"
+    ],
+    "sugar-600-1000::te1": [
+      "Dunhuang Pelliot"
+    ],
+    "sugar-600-1000::x1": [
+      "Magadha",
+      "Chang’an",
+      "Yuezhou",
+      "Wang Xuance"
+    ],
+    "sugar-600-1000::x2": [
+      "Persia",
+      "Tang Sichuan",
+      "Su Jing",
+      "Materia Medica",
+      "Mo Shen"
+    ],
+    "sugar-600-1000::x3": [
+      "Yangzhou",
+      "Jianzhen",
+      "Japan"
+    ],
+    "sugar-600-1000::w1": [
+      "Crete",
+      "Sicily",
+      "Islam",
+      "Andalusian Arabs",
+      "Aghlabids of Tunisia"
+    ],
+    "sugar-600-1000::l1": [
+      "Iraq",
+      "Basra",
+      "East African Zanj"
+    ],
     "sugar-8000bc-1200bc::e1": [
       "Coves",
       "Bicorp",
@@ -84885,6 +85204,7 @@
       "south-arabia-300bc-628::t1",
       "sugar-300bc-600ad::o1",
       "sugar-300bc-600ad::w2",
+      "sugar-600-1000::th2",
       "uae-1971-today::w4",
       "yemen-1900-today::c3"
     ],
@@ -87494,6 +87814,7 @@
       "saudi-1902-today::w2",
       "south-arabia-300bc-628::w3",
       "spain-718-1230::a5",
+      "sugar-600-1000::w1",
       "uae-1971-today::b2",
       "yemen-628-1517::k1"
     ],
@@ -87580,7 +87901,8 @@
       "rome-400-500::s5",
       "spain-1230-1492::t2",
       "spain-1900-1975::ex4",
-      "spain-718-1230::w1"
+      "spain-718-1230::w1",
+      "sugar-600-1000::ec4"
     ],
     "Andalusian": [
       "al-andalus-1031-1492::a3",
@@ -87618,7 +87940,8 @@
       "spain-1808-1900::lv3",
       "spain-1900-1975::c9",
       "spain-1900-1975::w3",
-      "spain-718-1230::w1"
+      "spain-718-1230::w1",
+      "sugar-600-1000::ec7"
     ],
     "Al-Mu'tamid of Seville": [
       "al-andalus-1031-1492::a2"
@@ -89603,6 +89926,9 @@
       "ottoman-empire-1839-1908::p4",
       "ottoman-empire-1908-1922::c9",
       "south-arabia-300bc-628::t3",
+      "sugar-600-1000::th3",
+      "sugar-600-1000::th4",
+      "sugar-600-1000::th7",
       "uruk-3800bc-2900bc::b3",
       "uruk-3800bc-2900bc::x1",
       "uruk-3800bc-2900bc::x3"
@@ -89720,6 +90046,7 @@
       "nw-arabia-106-632::t3",
       "south-arabia-300bc-628::t3",
       "spain-718-1230::t1",
+      "sugar-600-1000::th4",
       "turkey-1923-1980::b1"
     ],
     "Byzantium": [
@@ -91322,6 +91649,7 @@
       "nw-arabia-632-1517::ex3",
       "nw-arabia-632-1517::tc1",
       "ottoman-empire-1908-1922::c10",
+      "sugar-600-1000::ec6",
       "turkey-1980-today::x4",
       "tylos-mleiha-300bc-240ad::w3"
     ],
@@ -91959,6 +92287,7 @@
       "rome-300-400::s2",
       "rome-400-500::lv3",
       "south-arabia-300bc-628::t2",
+      "sugar-600-1000::ec6",
       "sumer-2900bc-2334bc::xc3",
       "turkey-1980-today::c13",
       "urartu-colchis-1200bc-585bc::c2"
@@ -96541,7 +96870,8 @@
       "modern-near-east-1990-today::w1",
       "nabataean-312bc-106ce::r3",
       "nabataean-312bc-106ce::a1",
-      "ottoman-empire-1839-1908::l3"
+      "ottoman-empire-1839-1908::l3",
+      "sugar-600-1000::ec6"
     ],
     "al-Adil": [
       "ayyubids-1171-1250::k3"
@@ -96856,7 +97186,8 @@
       "fatimids-909-1171::ec1",
       "fatimids-909-1171::tc2",
       "fatimids-909-1171::lv2",
-      "mamluks-1250-1517::b7"
+      "mamluks-1250-1517::b7",
+      "sugar-600-1000::ec2"
     ],
     "Sunni": [
       "ayyubids-1171-1250::o1",
@@ -97202,7 +97533,8 @@
       "egypt-664bc-332bc::g2",
       "fatimids-909-1171::c6",
       "mamluks-1250-1517::ec7",
-      "mamluks-1250-1517::tc5"
+      "mamluks-1250-1517::tc5",
+      "sugar-600-1000::ec2"
     ],
     "Sugar": [
       "ayyubids-1171-1250::ec4",
@@ -97370,6 +97702,7 @@
       "south-arabia-1200bc-300bc::t3",
       "sugar-300bc-600ad::o1",
       "sugar-300bc-600ad::x2",
+      "sugar-600-1000::th2",
       "visigoths-589-711::ex4"
     ],
     "Yemen": [
@@ -97766,7 +98099,9 @@
       "nabataean-312bc-106ce::t1",
       "spain-1230-1492::k16",
       "spain-1230-1492::w3",
-      "spain-1230-1492::w2"
+      "spain-1230-1492::w2",
+      "sugar-600-1000::ec4",
+      "sugar-600-1000::w1"
     ],
     "Mongol": [
       "ayyubids-1171-1250::x5",
@@ -98537,6 +98872,9 @@
       "sugar-300bc-600ad::p2",
       "sugar-300bc-600ad::x4",
       "sugar-300bc-600ad::l2",
+      "sugar-600-1000::c2",
+      "sugar-600-1000::e1",
+      "sugar-600-1000::ec3",
       "sumer-2900bc-2334bc::xc5",
       "uruk-3800bc-2900bc::xc4",
       "zagros-elam-8000bc-3200bc::p3",
@@ -98815,6 +99153,7 @@
       "sassanid-484-651::s3",
       "south-arabia-1200bc-300bc::x4",
       "south-arabia-300bc-628::x4",
+      "sugar-600-1000::x2",
       "trucial-gulf-1820-1900::x2",
       "trucial-gulf-1900-1971::w2"
     ],
@@ -100500,6 +100839,8 @@
       "sassanid-484-651::te1",
       "sassanid-484-651::w2",
       "sassanid-484-651::w3",
+      "sugar-600-1000::ec5",
+      "sugar-600-1000::l1",
       "turkey-1980-today::c13"
     ],
     "Lakhmids": [
@@ -100975,7 +101316,9 @@
       "sassanid-484-651::lv1",
       "sassanid-484-651::lv4",
       "south-arabia-300bc-628::x4",
-      "sugar-300bc-600ad::p2"
+      "sugar-300bc-600ad::p2",
+      "sugar-600-1000::c1",
+      "sugar-600-1000::c2"
     ],
     "Socotra": [
       "beth-qatraye-240-632::x1",
@@ -101202,6 +101545,8 @@
       "portuguese-gulf-1507-1650::t4",
       "portuguese-gulf-1507-1650::ec4",
       "qedar-853bc-330bc::t3",
+      "sugar-600-1000::th5",
+      "sugar-600-1000::l1",
       "trucial-gulf-1820-1900::ec2",
       "trucial-gulf-1900-1971::w3"
     ],
@@ -101797,7 +102142,9 @@
       "iraq-632-945::k6",
       "iraq-632-945::o4",
       "iraq-632-945::xc2",
-      "iraq-632-945::xc3"
+      "iraq-632-945::xc3",
+      "sugar-600-1000::o2",
+      "sugar-600-1000::th3"
     ],
     "Pliska": [
       "byzantine-anatolia-632-867::c12",
@@ -102056,7 +102403,8 @@
       "caliphate-750-945::t1",
       "caliphate-750-945::x1",
       "iraq-632-945::t1",
-      "iraq-632-945::l3"
+      "iraq-632-945::l3",
+      "sugar-600-1000::th4"
     ],
     "Rus": [
       "byzantine-anatolia-632-867::x4",
@@ -103267,7 +103615,8 @@
       "mesopotamia-224-637::c5",
       "roman-sasanian-world-224-632::p9",
       "roman-sasanian-world-224-632::c10",
-      "sassanid-484-651::c5"
+      "sassanid-484-651::c5",
+      "sugar-600-1000::c1"
     ],
     "Syracuse": [
       "byzantine-empire-632-867::p2"
@@ -103378,7 +103727,8 @@
       "byzantine-empire-867-1204::c1",
       "egypt-2100bc-1550bc::k13",
       "ottoman-empire-1517-1683::c10",
-      "ottoman-empire-1839-1908::c7"
+      "ottoman-empire-1839-1908::c7",
+      "sugar-600-1000::w1"
     ],
     "Andalusi Muslim": [
       "byzantine-empire-632-867::c8"
@@ -103946,7 +104296,8 @@
       "caliphate-632-750::k1"
     ],
     "Umar": [
-      "caliphate-632-750::k2"
+      "caliphate-632-750::k2",
+      "sugar-600-1000::o1"
     ],
     "Commander of the Faithful": [
       "caliphate-632-750::k2"
@@ -104332,7 +104683,8 @@
       "ottoman-empire-1839-1908::t3",
       "sassanid-484-651::w2",
       "sassanid-484-651::w3",
-      "sassanid-484-651::lv2"
+      "sassanid-484-651::lv2",
+      "sugar-600-1000::th7"
     ],
     "Jerusalem the Haram al-Sharif": [
       "caliphate-632-750::b3"
@@ -104492,7 +104844,9 @@
       "mesopotamia-224-637::o3",
       "mesopotamia-224-637::o6",
       "mesopotamia-224-637::e2",
-      "mesopotamia-224-637::l3"
+      "mesopotamia-224-637::l3",
+      "sugar-600-1000::c2",
+      "sugar-600-1000::o1"
     ],
     "Wasit": [
       "caliphate-632-750::ec4",
@@ -104657,7 +105011,8 @@
     "Tang China": [
       "caliphate-632-750::x4",
       "caliphate-632-750::w3",
-      "mesopotamia-224-637::x3"
+      "mesopotamia-224-637::x3",
+      "sugar-600-1000::ec1"
     ],
     "Dashi the Arabs": [
       "caliphate-632-750::x4"
@@ -105156,7 +105511,8 @@
       "caliphate-750-945::e6"
     ],
     "Ibrahim ibn al-Mahdi": [
-      "caliphate-750-945::e6"
+      "caliphate-750-945::e6",
+      "sugar-600-1000::e2"
     ],
     "Translation Movement": [
       "caliphate-750-945::t1"
@@ -105174,7 +105530,8 @@
       "caliphate-945-1258::t1",
       "great-seljuk-empire-1037-1194::p2",
       "great-seljuk-empire-1037-1194::p7",
-      "great-seljuk-empire-1037-1194::ec2"
+      "great-seljuk-empire-1037-1194::ec2",
+      "sugar-600-1000::th6"
     ],
     "Al-Razi Rhazes": [
       "caliphate-750-945::t4"
@@ -105192,6 +105549,7 @@
       "mesopotamia-6500bc-3800bc::g3",
       "mesopotamia-6500bc-3800bc::g5",
       "sassanid-224-484::c4",
+      "sugar-600-1000::ec5",
       "turkey-1980-today::c13"
     ],
     "History": [
@@ -105296,7 +105654,8 @@
       "caliphate-750-945::w5"
     ],
     "East African Zanj": [
-      "caliphate-750-945::lv4"
+      "caliphate-750-945::lv4",
+      "sugar-600-1000::l1"
     ],
     "Sufi al-Hallaj": [
       "caliphate-750-945::lv6"
@@ -105816,7 +106175,8 @@
     "Tripoli": [
       "caliphate-945-1258::ec5",
       "levant-750-1099::ec1",
-      "ottoman-empire-1908-1922::c2"
+      "ottoman-empire-1908-1922::c2",
+      "sugar-600-1000::ec6"
     ],
     "Commerce": [
       "caliphate-945-1258::ec5",
@@ -105860,7 +106220,8 @@
     ],
     "Palermo": [
       "caliphate-945-1258::x3",
-      "spain-1230-1492::c7"
+      "spain-1230-1492::c7",
+      "sugar-600-1000::ec4"
     ],
     "Ebro": [
       "caliphate-945-1258::x3",
@@ -110585,7 +110946,11 @@
       "caucasus-884-1064::t3"
     ],
     "Ibn Hawqal": [
-      "caucasus-884-1064::ec2"
+      "caucasus-884-1064::ec2",
+      "sugar-600-1000::th7",
+      "sugar-600-1000::ec4",
+      "sugar-600-1000::ec5",
+      "sugar-600-1000::ec7"
     ],
     "Trdat": [
       "caucasus-884-1064::g2"
@@ -116187,7 +116552,8 @@
       "egypt-3000bc-2100bc::o7",
       "egypt-3000bc-2100bc::l2",
       "egypt-664bc-332bc::k9",
-      "egypt-664bc-332bc::c6"
+      "egypt-664bc-332bc::c6",
+      "sugar-600-1000::ec2"
     ],
     "Seuserenre Khyan": [
       "egypt-2100bc-1550bc::k13"
@@ -135320,7 +135686,8 @@
       "mesopotamia-224-637::l5"
     ],
     "House of Wisdom": [
-      "mesopotamia-224-637::t1"
+      "mesopotamia-224-637::t1",
+      "sugar-600-1000::th3"
     ],
     "Academy of Athens": [
       "mesopotamia-224-637::t2",
@@ -143394,7 +143761,8 @@
       "roman-sasanian-world-224-632::c8",
       "roman-sasanian-world-224-632::e2",
       "roman-sasanian-world-224-632::t4",
-      "roman-sasanian-world-224-632::l1"
+      "roman-sasanian-world-224-632::l1",
+      "sugar-600-1000::c1"
     ],
     "Lakhmid and Ghassanid": [
       "roman-sasanian-world-224-632::p10"
@@ -145241,7 +145609,8 @@
       "sassanid-484-651::k6"
     ],
     "Dastagird": [
-      "sassanid-484-651::k8"
+      "sassanid-484-651::k8",
+      "sugar-600-1000::c1"
     ],
     "Kavad II Sheroe": [
       "sassanid-484-651::k9"
@@ -145287,7 +145656,8 @@
       "sassanid-484-651::c5"
     ],
     "Al-Qadisiyya": [
-      "sassanid-484-651::c6"
+      "sassanid-484-651::c6",
+      "sugar-600-1000::c2"
     ],
     "Sa'd ibn Abi Waqqas": [
       "sassanid-484-651::c6"
@@ -146236,7 +146606,8 @@
       "south-arabia-1200bc-300bc::t3",
       "south-arabia-300bc-628::c1",
       "sugar-300bc-600ad::th3",
-      "sugar-300bc-600ad::th11"
+      "sugar-300bc-600ad::th11",
+      "sugar-600-1000::th4"
     ],
     "Frankincense": [
       "south-arabia-1200bc-300bc::ec3"
@@ -150620,7 +150991,8 @@
       "sugar-1200bc-300bc::te2",
       "sugar-300bc-600ad::b1",
       "sugar-300bc-600ad::th2",
-      "sugar-300bc-600ad::te1"
+      "sugar-300bc-600ad::te1",
+      "sugar-600-1000::x1"
     ],
     "Pātimokkha": [
       "sugar-1200bc-300bc::b3"
@@ -150719,7 +151091,8 @@
     ],
     "Chang’an": [
       "sugar-300bc-600ad::b5",
-      "sugar-300bc-600ad::e2"
+      "sugar-300bc-600ad::e2",
+      "sugar-600-1000::x1"
     ],
     "Jiankang": [
       "sugar-300bc-600ad::b5",
@@ -150844,7 +151217,8 @@
     ],
     "Galen": [
       "sugar-300bc-600ad::th11",
-      "sugar-300bc-600ad::th13"
+      "sugar-300bc-600ad::th13",
+      "sugar-600-1000::th2"
     ],
     "Nanfang": [
       "sugar-300bc-600ad::th12"
@@ -150853,13 +151227,15 @@
       "sugar-300bc-600ad::th13"
     ],
     "Alexander of Tralles": [
-      "sugar-300bc-600ad::th13"
+      "sugar-300bc-600ad::th13",
+      "sugar-600-1000::th2"
     ],
     "Medical Collections": [
       "sugar-300bc-600ad::th13"
     ],
     "Paul of Aegina": [
-      "sugar-300bc-600ad::th13"
+      "sugar-300bc-600ad::th13",
+      "sugar-600-1000::th2"
     ],
     "Elymais": [
       "sugar-300bc-600ad::th14"
@@ -150942,6 +151318,137 @@
     ],
     "Lingnan": [
       "sugar-300bc-600ad::l1"
+    ],
+    "Al-Sawad": [
+      "sugar-600-1000::o1",
+      "sugar-600-1000::ec5"
+    ],
+    "Lower Iraq": [
+      "sugar-600-1000::o1"
+    ],
+    "Ahwaz": [
+      "sugar-600-1000::o2",
+      "sugar-600-1000::e1",
+      "sugar-600-1000::th5",
+      "sugar-600-1000::ec3"
+    ],
+    "Sijistan": [
+      "sugar-600-1000::o2",
+      "sugar-600-1000::ec3"
+    ],
+    "Nalanda": [
+      "sugar-600-1000::b1"
+    ],
+    "Yijing": [
+      "sugar-600-1000::b1"
+    ],
+    "Sichuan": [
+      "sugar-600-1000::b2",
+      "sugar-600-1000::ec1"
+    ],
+    "San Shan": [
+      "sugar-600-1000::b2"
+    ],
+    "Zou": [
+      "sugar-600-1000::b2"
+    ],
+    "Al-Mutanabbi": [
+      "sugar-600-1000::e1"
+    ],
+    "Ibn Sayyar al-Warraq Baghdad": [
+      "sugar-600-1000::e2"
+    ],
+    "Ibn Sayyar al-Warraq Kitab al-Tabikh": [
+      "sugar-600-1000::e2"
+    ],
+    "Gandhara": [
+      "sugar-600-1000::th1"
+    ],
+    "Xuanzang": [
+      "sugar-600-1000::th1"
+    ],
+    "Yuhanna ibn Masawayh": [
+      "sugar-600-1000::th3"
+    ],
+    "Dioscorides Materia Medica": [
+      "sugar-600-1000::th4"
+    ],
+    "Ibn al-Baytar": [
+      "sugar-600-1000::th4"
+    ],
+    "al-Jahiz Concerning Clarity": [
+      "sugar-600-1000::th5"
+    ],
+    "Commercial Matters": [
+      "sugar-600-1000::th5"
+    ],
+    "Al-Razi": [
+      "sugar-600-1000::th6"
+    ],
+    "Yuezhou": [
+      "sugar-600-1000::ec1",
+      "sugar-600-1000::x1"
+    ],
+    "Yangzhou": [
+      "sugar-600-1000::ec1",
+      "sugar-600-1000::x3"
+    ],
+    "Luzhou": [
+      "sugar-600-1000::ec1"
+    ],
+    "Fa Bao Yuan": [
+      "sugar-600-1000::ec1"
+    ],
+    "Dumyat Juml": [
+      "sugar-600-1000::ec2"
+    ],
+    "Askar Mukram": [
+      "sugar-600-1000::ec3"
+    ],
+    "Jubba": [
+      "sugar-600-1000::ec3"
+    ],
+    "Sus": [
+      "sugar-600-1000::ec3"
+    ],
+    "Ibn Wahshiyya Nabataean Agriculture": [
+      "sugar-600-1000::ec5"
+    ],
+    "Sus al-Aqsa": [
+      "sugar-600-1000::ec7"
+    ],
+    "Calendar of Córdoba": [
+      "sugar-600-1000::ec7"
+    ],
+    "Dunhuang Pelliot": [
+      "sugar-600-1000::te1"
+    ],
+    "Wang Xuance": [
+      "sugar-600-1000::x1"
+    ],
+    "Tang Sichuan": [
+      "sugar-600-1000::x2"
+    ],
+    "Su Jing": [
+      "sugar-600-1000::x2"
+    ],
+    "Materia Medica": [
+      "sugar-600-1000::x2"
+    ],
+    "Mo Shen": [
+      "sugar-600-1000::x2"
+    ],
+    "Jianzhen": [
+      "sugar-600-1000::x3"
+    ],
+    "Japan": [
+      "sugar-600-1000::x3"
+    ],
+    "Andalusian Arabs": [
+      "sugar-600-1000::w1"
+    ],
+    "Aghlabids of Tunisia": [
+      "sugar-600-1000::w1"
     ],
     "Coves": [
       "sugar-8000bc-1200bc::e1"

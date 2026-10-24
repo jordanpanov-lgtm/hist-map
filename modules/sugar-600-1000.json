@@ -1,0 +1,788 @@
+{
+  "id": "sugar-600-1000",
+  "title": "Sugar",
+  "subtitle": "600–1000 · From Persian Cane to the Caliphate’s Sugar: Khuzestan, the Nile Delta and the Tang Mission to Magadha",
+  "period": {
+    "start": 600,
+    "end": 1000
+  },
+  "mapCenter": [
+    32,
+    62
+  ],
+  "mapZoom": 3,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "",
+      "entries": []
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "The sack of Dastagird and the Arab conquest of Persia’s cane lands",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Parthian / Persian Wars",
+          "label": "Heraclius sacks Dastagird: sugar among Khusrau II’s luxuries",
+          "date": "628",
+          "loc": "Dastagird, Khusrau II’s palace, near Ctesiphon",
+          "coords": [
+            33.9,
+            45
+          ],
+          "hint": "In early 628 the army of the emperor Heraclius reached Khusrau II’s palace at Dastagird and found its treasure; the Byzantine chronicler lists sugar (sachar) beside silk, aloe, pepper and ginger among the luxuries — an early Greek record of sugar as a Persian court good, though it cannot be told whether it was grown locally or imported.",
+          "tag": "EVENT",
+          "note": "ANCHOR (edition cited): Theophanes Confessor, Chronicle, ed. De Boor I p.322 lines 1–6, and Kaegi, Heraclius (2003) pp.172–173, as cited by Bouras-Vallianatos, Speculum 96 (2021) n.29; Ouerfelli (2008) p.20 nn.30–31 (c.627; ‘faute de documents’ local production or import); Mintz (1985) p.23 (the report of 627 calls sugar an ‘Indian’ luxury); Smith (2015) p.16 gives 622, which looks wrong. The site of Dastagird is placed approximately. See mesopotamia-224-637::c5 and roman-sasanian-world-224-632::c10 for the campaign.",
+          "keywords": ["Dastagird","Khusrau II","Ctesiphon","Heraclius"],
+          "xlinks": ["mesopotamia-224-637::c5","roman-sasanian-world-224-632::c10","sugar-300bc-600ad::th15"]
+        },
+        {
+          "id": "c2",
+          "group": "Arab Conquests",
+          "label": "The Arab conquest of the Sawad and Khuzestan",
+          "date": "636–642",
+          "loc": "Al-Qadisiyya, Ctesiphon and Khuzestan",
+          "coords": [
+            31.87,
+            44.68
+          ],
+          "hint": "The Arab victories at al-Qadisiyya (636) and Nihawand (642) bring the Sasanian cane lands of the Sawad and Khuzestan under Muslim rule. A long legend says the conquerors carried cane west into every land they took; Watson allows it may be true, but none of it rests on established facts, and the first Arabic accounts of Persian sugar come two centuries later.",
+          "tag": "BATTLE",
+          "note": "SECONDARY: Sato, Sugar in the Social Life of Medieval Islam (2015) pp.19–20 (Watson, Agricultural Innovation (1983) p.160 on the legend); Smith (2015) p.16 (cane in Mesopotamia by 600; Arabs hold Mesopotamia by 641). See caliphate-632-750::c3 and sugar-300bc-600ad::th14.",
+          "keywords": ["Al-Qadisiyya","Ctesiphon","Khuzestan","Sawad"],
+          "xlinks": ["beth-qatraye-632-750::w3","caliphate-632-750::c3"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "Umar’s cane tax in the Sawad and the sugar paid in kind under Harun al-Rashid",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Fiscal & Monetary Policy",
+          "label": "Umar’s tax on cane in the Sawad",
+          "date": "637",
+          "loc": "Al-Sawad, Lower Iraq",
+          "coords": [
+            32,
+            44.4
+          ],
+          "hint": "When the caliph Umar’s governor surveyed the conquered Sawad in 637 he fixed land taxes per jarib: 10 dirhams on date palms and on vines, 6 on sugarcane, 4 on wheat and 2 on barley. A rate higher than wheat’s implies that the cane was grown for sugar rather than for chewing, and that sugar-making cane existed in Lower Iraq before the conquest.",
+          "tag": "LAW",
+          "note": "SECONDARY (the inference is Sato’s): al-Baladhuri, Futuh al-Buldan, ed. al-Tabba‘ (Beirut 1957) p.376, as quoted in Sato (2015) p.19; Sato reads the higher rate as evidence of cane grown for sugar before the conquest. Compare Ibn Hawqal on Iraq in the 10th century (ec5).",
+          "keywords": ["Al-Sawad","Lower Iraq","Umar","Sawad"],
+          "xlinks": ["caliphate-750-945::ec3"]
+        },
+        {
+          "id": "o2",
+          "group": "Fiscal & Monetary Policy",
+          "label": "Harun al-Rashid’s provinces pay sugar in kind",
+          "date": "786–809",
+          "loc": "Ahwaz and Sijistan",
+          "coords": [
+            31.32,
+            48.67
+          ],
+          "hint": "The vizierial handbook of provincial revenue under Harun al-Rashid records two Persian provinces paying part of their dues in sugar: 30,000 ratl (about 68 tonnes) of sugar from Ahwaz and 20,000 ratl (about 45 tonnes) of white sugar (fanidh) from Sijistan — an early official figure for the Islamic sugar trade.",
+          "tag": "DOCUMENT",
+          "note": "SECONDARY: al-Jahshiyari (d. 942), Kitab al-wuzara’ wa-l-kuttab, ed. al-Saqqa et al. (Cairo 1938) pp.282–283, as given in Sato (2015) p.20 nn.30–31, who converts 30,000 ratl to 68,250 kg and 20,000 ratl to 45,500 kg; the book was compiled in the 10th century but gives the revenues of Harun’s reign (786–809), the date used here. See caliphate-750-945::k3.",
+          "keywords": ["Ahwaz","Sijistan","Harun al-Rashid"],
+          "xlinks": ["caliphate-750-945::ec6","caliphate-750-945::k3"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "Yijing’s advice to monks and the legend of the monk Zou",
+      "entries": [
+        {
+          "id": "b1",
+          "group": "Buddhism",
+          "label": "Yijing advises monks to carry syrup and sugar",
+          "date": "c.691",
+          "loc": "Nalanda and the southern seas, Yijing",
+          "coords": [
+            25.14,
+            85.44
+          ],
+          "hint": "The Chinese pilgrim Yijing, writing from India and the southern seas, recommends syrup (shimi) and dry sugar (shatang) to monks in his account of Buddhist practice — advice that would be meaningless if sugar were not available to Chinese monasteries by the end of the seventh century.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Kieschnick, The Impact of Buddhism on Chinese Material Culture (2003) p.256 n.146 (Yijing, Nanhai jigui neifa zhuan, p.225b; Takakusu, A Record of the Buddhist Religion p.140); the recommendation is Kieschnick’s evidence that sugar was available to Chinese monasteries. The year follows the usual date of the Nanhai jigui, 691.",
+          "keywords": ["Nalanda","Yijing"],
+          "xlinks": ["sugar-300bc-600ad::b5"]
+        },
+        {
+          "id": "b2",
+          "group": "Buddhism",
+          "label": "The monk Zou teaches Sichuan to crystallise sugar",
+          "date": "763–779",
+          "loc": "Sichuan, San Shan",
+          "coords": [
+            30.6,
+            104.1
+          ],
+          "hint": "A Chinese legend told of the reign of Daizong has a Buddhist monk named Zou, who lived on a hill in Sichuan, repay a farmer whose cane his donkey had trampled by teaching him to make cane sugar into crystallised sugar, which could return ten times the profit. The people later decided that Zou was the bodhisattva Manjusri. It is legend, but monasteries did routinely use sugar in medicine, diet and ritual.",
+          "tag": "LEGEND",
+          "note": "LEGEND (secondary): Mazumdar, Sugar and Society in China (1998) pp.21–22 and n.44, quoting the story; the Chinese text she cites was not identified here; Mazumdar notes that a monk in Sichuan may indeed have known how to make refined sugar. Daizong reigned 763–779. Compare Needham SCC 6.3 p.372 on the monks as the carriers of the technology.",
+          "keywords": ["Sichuan","San Shan","Zou"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "Al-Mutanabbi’s verse on Ahwaz crystal and the oldest Arabic cookbook",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Literature & Poetry",
+          "label": "Al-Mutanabbi praises the sugar crystal of Ahwaz",
+          "date": "c.915–965",
+          "loc": "Ahwaz, Khuzestan",
+          "coords": [
+            31.32,
+            48.67
+          ],
+          "hint": "The Abbasid-era poet al-Mutanabbi, born in Kufa, praises the hard sugar crystal made at Ahwaz in a line that says his enemies could crush coal and iron but never crush it — the first verse on sugar in this record, and a sign that Ahwaz crystal was a famous luxury in his lifetime.",
+          "tag": "LITERATURE",
+          "note": "SECONDARY (verse not read): Sato (2015) p.20 n.29 (al-Mutanabbi, Diwan, ed. Azzam, Cairo 1944, p.189; he lived 303–354/915–965; the poem’s date is not given). Sato glosses the crystal as ‘hard’.",
+          "keywords": ["Ahwaz","Khuzestan","Al-Mutanabbi"]
+        },
+        {
+          "id": "e2",
+          "group": "Cookery & Food Writing",
+          "label": "Ibn Sayyar al-Warraq’s Baghdad cookbook",
+          "date": "c.950–1000",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.37
+          ],
+          "hint": "Ibn Sayyar al-Warraq’s Kitab al-Tabikh, the oldest surviving Arabic cookbook, compiled in Baghdad in the later tenth century for caliphs and the court, runs to 132 chapters and over 200 recipes; sugar and honey sweeten meats and fish (a stuffed fish takes ‘a little sugar or honey’), and a bread-and-chicken dish takes honey and two ratl of pounded rock sugar. It follows a lost cookbook by Ibrahim ibn al-Mahdi.",
+          "tag": "TEXT",
+          "note": "SECONDARY (via Sato’s translations): Sato (2015) pp.141–145 (Ibn Sayyar, Kitab al-tabikh; Nasrallah trans., Annals of the Caliphs’ Kitchens, 2007; Ibn al-Nadim, Fihrist, on Ibrahim ibn al-Mahdi’s lost book); Smith, Sugar: A Global History (2015) p.68 (‘more than 80 references to sugar’ — not counted). Contrast sugar-300bc-600ad::e5 (no attested sugar cookery in the Roman world).",
+          "keywords": ["Ibn Sayyar al-Warraq Baghdad","Ibn Sayyar al-Warraq Kitab al-Tabikh","Ibrahim ibn al-Mahdi"],
+          "xlinks": ["caliphate-750-945::e3"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "Xuanzang, Paul of Aegina, Ibn Masawayh, Hunayn, al-Jahiz, al-Razi and the tenth-century geographers",
+      "entries": [
+        {
+          "id": "th1",
+          "group": "History & Chronicle",
+          "label": "Xuanzang finds Gandhara abounding in cane and shi mi",
+          "date": "c.630–645",
+          "loc": "Gandhara",
+          "coords": [
+            34,
+            71.5
+          ],
+          "hint": "The pilgrim Xuanzang, travelling in India in the 630s and 640s, singles out Gandhara as rich in cereals, flowers and fruits and abounding in sugarcane, from which they prepare shi mi (amorphous sugar) — a Chinese eyewitness to cane as a regional specialty of north-west India.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Kieschnick (2003) p.250 n.105 (Da Tang xiyu ji 2, p.879b; Beal, Buddhist Records p.98; Watters pp.200–201). Dated by what it describes (his journey, 629–645), not by the Records’ completion in 646.",
+          "keywords": ["Gandhara","Xuanzang"]
+        },
+        {
+          "id": "th2",
+          "group": "Science & Geography",
+          "label": "Paul of Aegina repeats Galen on sakchar",
+          "date": "c.640",
+          "loc": "Alexandria and Byzantine Egypt",
+          "coords": [
+            31.2,
+            29.92
+          ],
+          "hint": "The Byzantine physician Paul of Aegina copies Galen’s remarks on sakchar into his Epitome, as Oribasius had done three centuries earlier: Greek medicine still knows sugar only as a bookish honey from India, and Alexander of Tralles has already omitted it.",
+          "tag": "IDENTITY CONTESTED",
+          "note": "ANCHOR (edition cited): Paul of Aegina, Epitome 7.3 (and cf. 2.53), ed. Heiberg, CMG 9.1–2 (1921–24) II p.241 lines 3–6 and I p.122 lines 1–4, as cited by Bouras-Vallianatos, Speculum 96 (2021) n.23, who says Galen’s references were ‘uncritically reproduced’ by Oribasios and Paul. The article dates Paul to the late 6th century, d. after 642; the usual floruit is the mid-7th century. See sugar-300bc-600ad::th13.",
+          "keywords": ["Alexandria","Egypt","Paul of Aegina","Galen","Alexander of Tralles"],
+          "xlinks": ["sugar-300bc-600ad::th13"]
+        },
+        {
+          "id": "th3",
+          "group": "Science & Geography",
+          "label": "Ibn Masawayh puts sugar in the humoral scheme",
+          "date": "c.830–857",
+          "loc": "Baghdad, the House of Wisdom",
+          "coords": [
+            33.31,
+            44.37
+          ],
+          "hint": "The physician Yuhanna ibn Masawayh, who served Harun al-Rashid and al-Ma’mun and translated Greek medical books at the House of Wisdom, calls sugar hot to the first or second degree and moist to the middle of the first — an early Arabic pharmacological entry placing sugar inside the Greek humoral system.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Sato (2015) pp.95–96 (the book is probably Kitab al-Adwiya al-munaqqiya, a title supplied by Sato; Ibn Masawayh d. c.857; Pormann & Savage-Smith, Medieval Islamic Medicine p.51). Sato notes that Arabic quotations of Galen and Dioscorides were altered, e.g. ‘Arabia Felix’ became ‘Maghrib’ (see th4).",
+          "keywords": ["Baghdad","House of Wisdom","Yuhanna ibn Masawayh","Harun al-Rashid"]
+        },
+        {
+          "id": "th4",
+          "group": "Science & Geography",
+          "label": "Hunayn translates Dioscorides into Arabic — with a changed place-name",
+          "date": "c.850–870",
+          "loc": "Baghdad",
+          "coords": [
+            33.31,
+            44.37
+          ],
+          "hint": "Hunayn ibn Ishaq’s school translates Dioscorides’s Materia Medica into Arabic in ninth-century Baghdad, carrying the saccharon passage into Arabic pharmacology. In the version later quoted by Ibn al-Baytar the reeds of ‘India and Arabia Felix’ have become ‘India and the Maghrib’, an adjustment that shows Arab editors fitting the Greek text to the sugar of their own world.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Sato (2015) pp.94–95 and n.12–15 (Dioscorides completely translated into Arabic by Hunayn ibn Ishaq in the 3rd/9th century, annotated by Ibn al-Baytar; the ‘Maghrib’ reading cited from Ibn al-Baytar, al-Jami‘ III pp.22–23; Gunther, Greek Herbal of Dioscorides p.125). Sato does not say who changed the text. See caliphate-750-945::t1 and sugar-300bc-600ad::th3.",
+          "keywords": ["Baghdad","Arabic","Hunayn ibn Ishaq","Dioscorides Materia Medica","Ibn al-Baytar","Arabia Felix"],
+          "xlinks": ["caliphate-750-945::t1","caliphate-750-945::x1","sugar-300bc-600ad::th3"]
+        },
+        {
+          "id": "th5",
+          "group": "Science & Geography",
+          "label": "Al-Jahiz’s trade handbook lists the sugar of Ahwaz",
+          "date": "c.850",
+          "loc": "Basra",
+          "coords": [
+            30.5,
+            47.8
+          ],
+          "hint": "The Iraqi writer al-Jahiz’s Concerning Clarity in Commercial Matters, a ninth-century manual of trade goods, gives the first Arabic account of sugar production in Persia: it lists sugar, dates, fruit syrup (dibs) and raw sugar (qand) as specialities of Ahwaz, sugar candy from Ahwaz, and cane from Khiva, with fruit syrups and rosewater from Fars and Isfahan.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Sato (2015) p.20 n.27 (al-Jahiz, al-Tabassur bi-l-tijara, pp.32–33; he lived c.160–255/c.776–869); Mintz (1985) p.97 and n.55 (the same ninth-century manuscript ‘documents the production of sugar from cane in Persia and Turkestan’). The attribution of the book to al-Jahiz is as Sato gives it; the text itself was not read.",
+          "keywords": ["Basra","Ahwaz","al-Jahiz Concerning Clarity","Commercial Matters"]
+        },
+        {
+          "id": "th6",
+          "group": "Science & Geography",
+          "label": "Al-Razi on sugar’s qualities and the kinds of white sugar",
+          "date": "c.900–925",
+          "loc": "Rayy",
+          "coords": [
+            35.6,
+            51.4
+          ],
+          "hint": "Al-Razi, the great physician of Rayy, writes in his book on preventing the harm of foods that sugar is a balanced hot drug which rinses impurities from chest and lungs and relieves the bladder, to be avoided in diarrhoea or consumption, and distinguishes kinds of white sugar (fanidh), the gentle ‘shajar’ type easing gas and warming the body.",
+          "tag": "TEXT",
+          "note": "SECONDARY (via Ibn al-Baytar): Sato (2015) p.94 (al-Razi, Kitab Daf madarr al-aghdhiya, quoted in Ibn al-Baytar, al-Jami‘ III pp.22–23; al-Razi c.854–925 or 935). The kinds of white sugar are Sato’s transliteration; the original wording was not checked.",
+          "keywords": ["Rayy","Al-Razi"]
+        },
+        {
+          "id": "th7",
+          "group": "Science & Geography",
+          "label": "The tenth-century geographers chart the cane belt",
+          "date": "c.950–985",
+          "loc": "Baghdad and the Islamic world",
+          "coords": [
+            33.31,
+            44.37
+          ],
+          "hint": "The geographers of the tenth century — al-Istakhri, Ibn Hawqal, al-Muqaddasi and the anonymous Hudud al-‘Alam — locate sugarcane from Sus in the far Maghrib and Palermo to Egypt, Tripoli, Iraq, Khuzestan and Fars. They call it qasab al-sukkar, ‘sugar reed’, and also ‘the Persian reed’ (al-qasab al-farisi), showing that the Arabs thought of cane as a plant inherited from Persia.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Sato (2015) pp.19–23, 30–31 (al-Muqaddasi, Ahsan al-taqasim, p.188 for ‘al-qasab al-farisi’; Ibn Hawqal, Surat al-ard; Hudud al-‘alam, compiled 372/982, p.138 and Minorsky’s translation p.130; al-Istakhri, Kitab masalik al-mamalik, p.46). Minorsky mistranslates qand as ‘refined sugar’, per Sato.",
+          "keywords": ["Baghdad","Islamic","Ibn Hawqal"],
+          "xlinks": ["caliphate-750-945::t6"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "The cane belt from Tang China through Khuzestan, Iraq, Syria and Egypt to Sicily and the far west",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Agriculture & Land",
+          "label": "Tang China: tribute cane and sugar from the monasteries",
+          "date": "c.650–900",
+          "loc": "Yuezhou, Yangzhou, Luzhou and Sichuan",
+          "coords": [
+            30,
+            120.6
+          ],
+          "hint": "Under the Tang, areas across the empire send cane or cane-sugar products to the court as tribute, some from noted Buddhist monasteries — at Yuezhou, Yangzhou and the Fa Bao Yuan in Sichuan — and cane sugar is made as far north-west as Dunhuang, though the Dunhuang sugar may have been for the monastery’s own use.",
+          "tag": "ECONOMIC",
+          "note": "SECONDARY: Mazumdar (1998) p.27 and nn.77–78; Needham SCC 6.3 p.372 (sugar making at Yuezhou conducted with imperial approval). The Tang list of tribute areas is Mazumdar’s; the primary tribute registers were not read.",
+          "keywords": ["Yuezhou","Yangzhou","Luzhou","Sichuan","Tang China","Fa Bao Yuan"]
+        },
+        {
+          "id": "ec2",
+          "group": "Agriculture & Land",
+          "label": "Egypt: cane in the papyri and the Delta",
+          "date": "c.750–975",
+          "loc": "Lower Egypt, the Delta and Fustat",
+          "coords": [
+            30.8,
+            31
+          ],
+          "hint": "Papyri show sugarcane in Egypt in the middle of the eighth century, but on a small scale, confined to Lower Egypt; in the tenth century the geographers name the cane districts Alexandria, Sanhur, al-Sufiyya and Dumyat Juml, all in the Delta, while in the Fayyum the main crops are rice and flax. Cane spreads up the Nile only in the eleventh and twelfth centuries.",
+          "tag": "ECONOMIC",
+          "note": "SECONDARY: Sato (2015) pp.25–26 (Müller-Wodarg, Der Islam 32 (1956) pp.47–48; Watson (1983) p.28; Abu Sadira pp.354–355; al-Mas‘udi, al-Tanbih, p.20; Ibn Hawqal, pp.131, 134; al-Muqaddasi, pp.201, 208). The papyri themselves were not read. See egypt-641-969::l6.",
+          "keywords": ["Lower Egypt","Delta","Fustat","Dumyat Juml"],
+          "xlinks": ["egypt-641-969::l6"]
+        },
+        {
+          "id": "ec3",
+          "group": "Agriculture & Land",
+          "label": "Khuzestan, Sijistan and Fars: Persia’s sugar provinces",
+          "date": "c.850–982",
+          "loc": "Ahwaz, Askar Mukram, Jubba and Sus",
+          "coords": [
+            31.6,
+            49
+          ],
+          "hint": "From the ninth to the twelfth century Persian sugar comes from the south-west and south: Ahwaz, watered by the Dujayl river, is the heart, with Jubba and Sus in Khuzestan, then Fars and Sijistan; the Hudud al-‘Alam of 982 says Askar Mukram produces enough red and white sugar and raw sugar to meet the demands of the whole world.",
+          "tag": "ECONOMIC",
+          "note": "SECONDARY: Sato (2015) pp.20–21 (al-Jahiz; al-Jahshiyari; Ibn Hawqal, pp.254, 257; al-Muqaddasi, pp.402, 405, 424; Hudud al-‘Alam, Tehran 1962, p.138, Minorsky p.130; Yaqut on Maskan white sugar is 13th-century and outside this folio). Mintz (1985) p.23 says that between the 4th and 8th centuries the head of the Persian Gulf and the Indus coast ‘seem’ to have been the major centres. See sugar-300bc-600ad::p2 and ::th14 for the Sasanian background.",
+          "keywords": ["Ahwaz","Askar Mukram","Jubba","Sus","Khuzestan","Sijistan"],
+          "xlinks": ["caliphate-750-945::ec6","sugar-300bc-600ad::p2","sugar-300bc-600ad::th14"]
+        },
+        {
+          "id": "ec4",
+          "group": "Agriculture & Land",
+          "label": "Sicily: Persian cane in the marshes near Palermo",
+          "date": "c.890–975",
+          "loc": "Palermo and Sicily",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "Ibn Hawqal in the tenth century says sugarcane, the ‘Persian reed’, grows in the marshes near Palermo; according to Deerr and Watson, Sicily exported sugar to North Africa by the end of the ninth or in the tenth century. How far the industry flourished is disputed: Ouerfelli holds that it did not truly prosper until the end of the thirteenth century.",
+          "tag": "ECONOMIC",
+          "note": "CONTESTED (secondary): Sato (2015) pp.30–31 (Ibn Hawqal, Surat al-ard; Deerr (1949) I, not available; Watson (1983); Ouerfelli (2008)). Deerr’s ninth-century export claim could not be checked. See byzantine-empire-632-867::c8.",
+          "keywords": ["Palermo","Sicily","Ibn Hawqal","North Africa"],
+          "xlinks": ["byzantine-empire-632-867::c8"]
+        },
+        {
+          "id": "ec5",
+          "group": "Agriculture & Land",
+          "label": "Iraq: no village without cane",
+          "date": "c.900–977",
+          "loc": "Al-Sawad and Sinjar",
+          "coords": [
+            31.5,
+            46
+          ],
+          "hint": "In the tenth century Ibn Hawqal says there is no village in Iraq without its sugarcane, and al-Muqaddasi lists cane among Sinjar’s products — probably the northern limit — while Ibn Wahshiyya’s Nabataean Agriculture lists many uses of sugar in cooking and medicine; cane in the irrigated plains of the Tigris and Euphrates centres on the Sawad.",
+          "tag": "ECONOMIC",
+          "note": "SECONDARY: Sato (2015) p.21 (Ibn Hawqal, p.254; al-Muqaddasi, p.145; Ibn Wahshiyya, al-Filaha al-nabatiyya I p.162). Compare the 637 rate in o1. See caliphate-750-945::ec3.",
+          "keywords": ["Al-Sawad","Sinjar","Iraq","Ibn Hawqal","Ibn Wahshiyya Nabataean Agriculture"],
+          "xlinks": ["caliphate-750-945::ec3"]
+        },
+        {
+          "id": "ec6",
+          "group": "Agriculture & Land",
+          "label": "Syria: cane on the coast and in the Jordan valley",
+          "date": "c.950",
+          "loc": "Tripoli and the Syrian coast",
+          "coords": [
+            34.43,
+            35.84
+          ],
+          "hint": "Cane in Syria cannot be traced before the tenth century: al-Istakhri, writing about 950, describes Tripoli as a prosperous town with date palms and sugarcane around it, the oldest account of cane in its district. Later geographers list a coastal belt from Acre, Tyre and Beirut to Tripoli and Banias and a Jordan-valley belt, grown on a smaller scale than in Iran, Iraq or Egypt.",
+          "tag": "ECONOMIC",
+          "note": "SECONDARY: Sato (2015) pp.23–24 (al-Istakhri, Kitab masalik al-mamalik, p.46; the longer list of towns is drawn from al-Muqaddasi, Ibn Hawqal and later authors up to the 14th century, so only Tripoli is securely 10th-century); Sato’s suggestion that cane came from Iraq to southern Syria before the 10th century is speculation.",
+          "keywords": ["Tripoli","Syrian","Syria","Jordan"]
+        },
+        {
+          "id": "ec7",
+          "group": "Agriculture & Land",
+          "label": "The far west: Sus al-Aqsa and Córdoba",
+          "date": "c.961–977",
+          "loc": "Sus al-Aqsa, Morocco and Córdoba",
+          "coords": [
+            30.42,
+            -9.6
+          ],
+          "hint": "Ibn Hawqal says cane was already grown in the tenth century at Sus al-Aqsa, near Agadir, among citrons, almonds and dates, and the Calendar of Córdoba of 961 notes the cane harvest in late January — but its entry may be copied from eastern almanacs, and reliable accounts of Maghrib and Andalusi cane begin only in the mid-eleventh century.",
+          "tag": "ECONOMIC",
+          "note": "CONTESTED (secondary): Sato (2015) pp.31–32 (Ibn Hawqal, p.91; Le calendrier de Cordoue, ed. Pellat 1961, pp.36–37; Sato doubts that the calendar reflects local cane since it was compiled from eastern anwa books; Ouerfelli (2008) p.181 takes it as evidence for limited cane in 10th-century Andalusia). See al-andalus-711-1031::s1.",
+          "keywords": ["Sus al-Aqsa","Morocco","Ibn Hawqal","Calendar of Córdoba"],
+          "xlinks": ["al-andalus-711-1031::s1"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "The Dunhuang manuscript on the Indian method",
+      "entries": [
+        {
+          "id": "te1",
+          "group": "Agriculture & Industry",
+          "label": "The Dunhuang manuscript: the earliest account of sugar-making",
+          "date": "c.850–950",
+          "loc": "Dunhuang",
+          "coords": [
+            40.14,
+            94.66
+          ],
+          "hint": "A fragment of a few hundred characters on the back of a sutra manuscript from Dunhuang (Pelliot 3303) describes the Indian process: stalks stripped of leaves and cut into five-inch lengths, crushed in a large wooden mortar dragged by an ox, the juice boiled in fifteen pans, then cooled and beaten into sandy sugar (shatang), and re-melted and clarified for hard shi mi. It is the earliest substantial account of sugar-making in China and possibly the world, and it points to the Indian kolhu press.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (translation read): Needham SCC 6.3 (Daniels & Menzies 1996) p.373 (provisionally dated to the 9th–10th century; edited by Ji Xianlin; the translation and the points on the kolhu are Daniels’s); Mazumdar (1998) pp.123–132 (the annular mill may have come to Dunhuang with the Indian artisans of the Tang; the beating of supersaturated syrup). The date is the manuscript’s, not the sugar-making’s.",
+          "keywords": ["Dunhuang Pelliot"],
+          "xlinks": ["sugar-300bc-600ad::te2"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "The Tang mission to Magadha, Persian sugar in Sichuan and Jianzhen’s voyage",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Cultural Transmission",
+          "label": "Wang Xuance’s mission and the Magadha sugar artisans",
+          "date": "647–648",
+          "loc": "Magadha, Chang’an and Yuezhou",
+          "coords": [
+            25.1,
+            85.4
+          ],
+          "hint": "In 647 an envoy of Magadha brings a bodhi tree to the Tang court, and Taizong sends Wang Xuance to India; the Chinese chronicles say the emperor wanted the method of boiling sugar and ordered cane from Yangzhou. The only independent source, the biography of Xuanzang, says Magadha’s monks sent two shi mi artisans and eight monks to China, who made shi mi from cane at Yuezhou — a transfer carried by Buddhist monks rather than by the state alone.",
+          "tag": "EVENT",
+          "note": "ANCHOR (sources read in Daniels’s translation): Needham SCC 6.3 pp.368–372 (Xin Tang shu compiled 1061; Taiping yulan 857, 983; Cefu yuangui 970, 1013, dating the Magadha embassy to the third lunar month of 647; Xu gaoseng zhuan, 660, biography of Xuanzang; Wang Xuance returned in May 648 after raising troops in Tibet and Nepal); Kieschnick (2003) p.257 and nn.147–149 (the same passage; the mission’s technical content is not stated); Sato (2015) p.17. The Chinese had already boiled low-grade amorphous sugar by about 400 (Needham p.369). See sugar-300bc-600ad::te4 and ::b5.",
+          "keywords": ["Magadha","Chang’an","Yuezhou","Wang Xuance"],
+          "xlinks": ["sugar-300bc-600ad::b5","sugar-300bc-600ad::te4"]
+        },
+        {
+          "id": "x2",
+          "group": "Cultural Transmission",
+          "label": "Persian sugar is prized in Tang Sichuan",
+          "date": "c.650–700",
+          "loc": "Sichuan and Persia",
+          "coords": [
+            30.6,
+            104.1
+          ],
+          "hint": "Tang pharmacologists rank sugar from the West highest: Su Jing’s revised Materia Medica of about 650–659 extols sugar from the western regions, and Mo Shen, writing in the second half of the seventh century, says the sugar that comes from Persia to Sichuan is excellent — so Persian sugar was an imported luxury in China, as the Sui shu had already hinted decades before.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Laufer, Sino-Iranica (1919) p.376 (Mo Shen, Shiliao bencao; Su Kun/Su Gong, Tang bencao of about 650, whose ‘Si Zun’ may allude to Iranian regions); Kieschnick (2003) p.256 n.141 (Xinxiu bencao by Su Jing, quoted in Bencao gangmu 33 p.15b); Mazumdar (1998) pp.23–24 (Xinxiu bencao compiled in 659). See sugar-300bc-600ad::th15.",
+          "keywords": ["Persia","Tang Sichuan","Su Jing","Materia Medica","Mo Shen"],
+          "xlinks": ["sugar-300bc-600ad::th15"]
+        },
+        {
+          "id": "x3",
+          "group": "Cultural Transmission",
+          "label": "Jianzhen sails for Japan with cane and shi mi",
+          "date": "743",
+          "loc": "Yangzhou",
+          "coords": [
+            32.39,
+            119.43
+          ],
+          "hint": "On his second attempt to sail to Japan in 743 the Chinese monk Jianzhen is recorded as taking eighty bundles of sugarcane, shi mi, cane sugar and honey aboard — which Needham reads as sugar being an essential for a Buddhist mission. Jianzhen’s part in bringing sugar to Japan is not established.",
+          "tag": "EVENT",
+          "note": "CONTESTED (secondary): Needham SCC 6.3 p.62 and n.b (Hanawa (1) ch.69 p.5a); Sato (2015) p.17 (‘said’ that Jianzhen first introduced sugar to Japan, ‘we lack the exact source materials’).",
+          "keywords": ["Yangzhou","Jianzhen","Japan"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "Islam takes Crete and Sicily",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Islam takes Crete and Sicily",
+          "date": "c.824–902",
+          "loc": "Crete and Sicily",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "Andalusian Arabs take Crete early in the ninth century and the Aghlabids of Tunisia take Sicily, where Syracuse falls in 878. Arab-Muslim culture gradually permeates the islands, with sugar production an important example — though the Arabic sources say little about island cane.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Sato (2015) p.30 (Crete early in the 9th century, Sicily to the Norman conquest; the 878 fall of Syracuse). See byzantine-empire-632-867::c8. Cyprus, raided from 647, is not documented for cane in this period.",
+          "keywords": ["Crete","Sicily","Islam","Andalusian Arabs","Aghlabids of Tunisia"],
+          "xlinks": ["byzantine-empire-632-867::c8"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "The Zanj, slaves of the salt flats",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Enslaved Lives",
+          "label": "The Zanj: slaves of the salt flats, not of the cane",
+          "date": "869–883",
+          "loc": "Southern Iraq, Basra and the salt flats",
+          "coords": [
+            30.5,
+            47.8
+          ],
+          "hint": "The enslaved East African Zanj who rose against the caliphate in 869–883 had been put to work reclaiming the salt-damaged flats of southern Iraq, and no account in al-Tabari says they were forced to cultivate sugarcane. The neat picture of an early Muslim slave-sugar economy, parallel to the Atlantic plantations, is not supported: in the later Egyptian and Syrian sources Sato finds free tenants, not slaves, growing the cane.",
+          "tag": "CONTESTED",
+          "note": "CONTESTED (secondary): Sato (2015) p.38 and nn.23–24 (al-Tabari, Ta’rikh; Sato argues against Mintz’s remark, Sweetness and Power p.27, that ‘slavery played a part in the Moroccan sugar industry and probably elsewhere’, and against Kawakita’s inference); the free tenants are documented for Mamluk Egypt, so for this period the point is the absence of evidence for slave cane labour. See caliphate-750-945::c6, eastern-arabia-750-1200::c2 and ::lv1.",
+          "keywords": ["Iraq","Basra","East African Zanj"],
+          "xlinks": ["caliphate-750-945::c6","eastern-arabia-750-1200::c2","eastern-arabia-750-1200::lv1","eastern-arabia-750-1200::tc2"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 628,
+          "l": "Heraclius sacks Dastagird: sugar among Khusrau II’s luxuries",
+          "entryId": "c1"
+        },
+        {
+          "y": 636,
+          "l": "The Arab conquest of the Sawad and Khuzestan",
+          "entryId": "c2"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 637,
+          "l": "Umar’s tax on cane in the Sawad",
+          "entryId": "o1"
+        },
+        {
+          "y": 786,
+          "l": "Harun al-Rashid’s provinces pay sugar in kind",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 691,
+          "l": "Yijing advises monks to carry syrup and sugar",
+          "entryId": "b1"
+        },
+        {
+          "y": 763,
+          "l": "The monk Zou teaches Sichuan to crystallise sugar",
+          "entryId": "b2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 915,
+          "l": "Al-Mutanabbi praises the sugar crystal of Ahwaz",
+          "entryId": "e1"
+        },
+        {
+          "y": 950,
+          "l": "Ibn Sayyar al-Warraq’s Baghdad cookbook",
+          "entryId": "e2"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 630,
+          "l": "Xuanzang finds Gandhara abounding in cane and shi mi",
+          "entryId": "th1"
+        },
+        {
+          "y": 640,
+          "l": "Paul of Aegina repeats Galen on sakchar",
+          "entryId": "th2"
+        },
+        {
+          "y": 830,
+          "l": "Ibn Masawayh puts sugar in the humoral scheme",
+          "entryId": "th3"
+        },
+        {
+          "y": 850,
+          "l": "Hunayn translates Dioscorides into Arabic — with a changed place-name",
+          "entryId": "th4"
+        },
+        {
+          "y": 850,
+          "l": "Al-Jahiz’s trade handbook lists the sugar of Ahwaz",
+          "entryId": "th5"
+        },
+        {
+          "y": 900,
+          "l": "Al-Razi on sugar’s qualities and the kinds of white sugar",
+          "entryId": "th6"
+        },
+        {
+          "y": 950,
+          "l": "The tenth-century geographers chart the cane belt",
+          "entryId": "th7"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 650,
+          "l": "Tang China: tribute cane and sugar from the monasteries",
+          "entryId": "ec1"
+        },
+        {
+          "y": 750,
+          "l": "Egypt: cane in the papyri and the Delta",
+          "entryId": "ec2"
+        },
+        {
+          "y": 850,
+          "l": "Khuzestan, Sijistan and Fars: Persia’s sugar provinces",
+          "entryId": "ec3"
+        },
+        {
+          "y": 890,
+          "l": "Sicily: Persian cane in the marshes near Palermo",
+          "entryId": "ec4"
+        },
+        {
+          "y": 900,
+          "l": "Iraq: no village without cane",
+          "entryId": "ec5"
+        },
+        {
+          "y": 950,
+          "l": "Syria: cane on the coast and in the Jordan valley",
+          "entryId": "ec6"
+        },
+        {
+          "y": 961,
+          "l": "The far west: Sus al-Aqsa and Córdoba",
+          "entryId": "ec7"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 850,
+          "l": "The Dunhuang manuscript: the earliest account of sugar-making",
+          "entryId": "te1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 647,
+          "l": "Wang Xuance’s mission and the Magadha sugar artisans",
+          "entryId": "x1"
+        },
+        {
+          "y": 650,
+          "l": "Persian sugar is prized in Tang Sichuan",
+          "entryId": "x2"
+        },
+        {
+          "y": 743,
+          "l": "Jianzhen sails for Japan with cane and shi mi",
+          "entryId": "x3"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 824,
+          "l": "Islam takes Crete and Sicily",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 869,
+          "l": "The Zanj: slaves of the salt flats, not of the cane",
+          "entryId": "l1"
+        }
+      ]
+    }
+  ],
+  "region": "Sugar",
+  "period_label": "Medieval"
+}

@@ -2996,6 +2996,38 @@ const SELECTED_PAIRS = [
   ['sugar-1200bc-300bc::th2', 'sugar-300bc-600ad::x2'],               // śarkarā -> the word travels
   ['sugar-1200bc-300bc::te1', 'sugar-8000bc-1200bc::x1'],             // the hybrid canes <-> the older diffusion model
   ['sugar-1200bc-300bc::th1', 'sugar-8000bc-1200bc::th1'],            // Yue cane words <-> the Proto-Austronesian word
+  // ── sugar-600-1000 (Sugar program folio 4) — hand-reviewed
+  ['sugar-600-1000::c2', 'caliphate-632-750::c3'],                    // al-Qadisiyya, Jalula and Nihawand
+  ['sugar-600-1000::c2', 'beth-qatraye-632-750::w3'],                 // the Arab conquest of Persia
+  ['sugar-600-1000::c1', 'mesopotamia-224-637::c5'],                  // Heraclius in the Sawad (Dastagird)
+  ['sugar-600-1000::c1', 'roman-sasanian-world-224-632::c10'],        // Heraclius' campaigns
+  ['sugar-600-1000::c1', 'sugar-300bc-600ad::th15'],                  // Persian stone honey -> sugar among Khusrau II's luxuries
+  ['sugar-600-1000::o1', 'caliphate-750-945::ec3'],                   // the Sawad, the granary of the caliphate
+  ['sugar-600-1000::o2', 'caliphate-750-945::k3'],                    // Harun al-Rashid
+  ['sugar-600-1000::o2', 'caliphate-750-945::ec6'],                   // the paper and sugar industries
+  ['sugar-600-1000::ec3', 'caliphate-750-945::ec6'],                  // the paper and sugar industries (Khuzistan)
+  ['sugar-600-1000::ec3', 'sugar-300bc-600ad::p2'],                   // Khusrau I and the Khuzestan cane
+  ['sugar-600-1000::ec3', 'sugar-300bc-600ad::th14'],                 // cane at Gundeshapur
+  ['sugar-600-1000::ec5', 'caliphate-750-945::ec3'],                  // the Sawad
+  ['sugar-600-1000::ec2', 'egypt-641-969::l6'],                       // the villagers and traders of the papyri
+  ['sugar-600-1000::ec4', 'byzantine-empire-632-867::c8'],            // Crete and Sicily
+  ['sugar-600-1000::w1', 'byzantine-empire-632-867::c8'],             // Crete and Sicily
+  ['sugar-600-1000::ec7', 'al-andalus-711-1031::s1'],                 // the Arab agricultural revolution
+  ['sugar-600-1000::th4', 'caliphate-750-945::t1'],                   // the Translation Movement
+  ['sugar-600-1000::th4', 'caliphate-750-945::x1'],                   // the Christian and Sabian translators
+  ['sugar-600-1000::th4', 'sugar-300bc-600ad::th3'],                  // Dioscorides' sakcharon
+  ['sugar-600-1000::th2', 'sugar-300bc-600ad::th13'],                 // Oribasius reproduces Galen
+  ['sugar-600-1000::th7', 'caliphate-750-945::t6'],                   // history and geography become disciplines
+  ['sugar-600-1000::e2', 'caliphate-750-945::e3'],                    // paper, the warraqs and the book trade
+  ['sugar-600-1000::l1', 'caliphate-750-945::c6'],                    // the Zanj Revolt
+  ['sugar-600-1000::l1', 'eastern-arabia-750-1200::c2'],              // the Zanj Revolt at the head of the Gulf
+  ['sugar-600-1000::l1', 'eastern-arabia-750-1200::lv1'],             // the Zanj make themselves a state
+  ['sugar-600-1000::l1', 'eastern-arabia-750-1200::tc2'],             // reclaiming the salt flats of lower Iraq
+  ['sugar-600-1000::x1', 'sugar-300bc-600ad::te4'],                   // the three boilings
+  ['sugar-600-1000::x1', 'sugar-300bc-600ad::b5'],                    // monastic rules for cane juice, syrup and crystals
+  ['sugar-600-1000::x2', 'sugar-300bc-600ad::th15'],                  // Sui shu: stone honey from Persia
+  ['sugar-600-1000::te1', 'sugar-300bc-600ad::te2'],                  // sun-dried shi mi
+  ['sugar-600-1000::b1', 'sugar-300bc-600ad::b5'],                    // Buddhist monks and sugar
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

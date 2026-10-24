@@ -276,5 +276,6 @@ const MODULES = [
   { id:"sugar-8000bc-1200bc", file:"modules/sugar-8000bc-1200bc.json", label:"Sugar 8000–1200 BC", sub:"Sweetness Before Sugar: Honey and Dates, and the Reed Domesticated in New Guinea", region:"Sugar", period:"Prehistoric" },
   { id:"sugar-1200bc-300bc", file:"modules/sugar-1200bc-300bc.json", label:"Sugar 1200–300 BC", sub:"The Reed Reaches the Mainland: Hybrid Canes, the Vedic Cane, the Buddha’s Syrup and Honey Without Bees", region:"Sugar", period:"Ancient" },
   { id:"sugar-300bc-600ad", file:"modules/sugar-300bc-600ad.json", label:"Sugar 300 BC–600 AD", sub:"Reed Honey, the Boiling Ladder and the First Roads from India to Rome, Persia and China", region:"Sugar", period:"Late Antique" },
+  { id:"sugar-600-1000", file:"modules/sugar-600-1000.json", label:"Sugar 600–1000", sub:"From Persian Cane to the Caliphate’s Sugar: Khuzestan, the Nile Delta and the Tang Mission to Magadha", region:"Sugar", period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
