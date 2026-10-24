@@ -3099,6 +3099,30 @@ const SELECTED_PAIRS = [
   ['sugar-1650-1800::x6', 'france-1789-1815::w2'],                    // Louisiana
   ['sugar-1650-1800::c5', 'france-1715-1789::c1'],                    // Peace of Paris / Seven Years War
   ['sugar-1650-1800::x2', 'spain-1700-1808::ex7'],                    // slave trade / the British asiento
+
+  // ── sugar-1800-1900 (hand-reviewed) ──
+  ['sugar-1800-1900::c1', 'sugar-1650-1800::t5'],                     // Achard / Napoleon's beet drive
+  ['sugar-1800-1900::ec1', 'sugar-1650-1800::t2'],                    // Marggraf / the first beet factories
+  ['sugar-1800-1900::o2', 'sugar-1650-1800::b2'],                     // abolition campaign / emancipation
+  ['sugar-1800-1900::o1', 'sugar-1650-1800::o4'],                     // legal tests / the slave-trade ban
+  ['sugar-1800-1900::ec2', 'sugar-1650-1800::x6'],                    // Louisiana sugar after Haiti
+  ['sugar-1800-1900::ec13', 'sugar-1650-1800::ec7'],                  // British groceries / consumption
+  ['sugar-1800-1900::l4', 'sugar-1650-1800::l5'],                     // labourers' sugar: Eden -> Rowntree
+  ['sugar-1800-1900::ec12', 'sugar-1650-1800::ec2'],                  // British refineries
+  ['sugar-1800-1900::te2', 'sugar-1500-1650::te3'],                   // mills: three rollers -> steam
+  ['sugar-1800-1900::c1', 'france-1789-1815::s2'],                    // Continental System
+  ['sugar-1800-1900::c1', 'france-1789-1815::c3'],                    // Saint-Domingue's loss drives beet
+  ['sugar-1800-1900::w1', 'france-1789-1815::w2'],                    // Louisiana Purchase
+  ['sugar-1800-1900::o6', 'france-1815-1900::o3'],                    // French abolition 1848
+  ['sugar-1800-1900::te7', 'eastern-question-1774-1900::te3'],        // Suez Canal
+  ['sugar-1800-1900::te7', 'france-1815-1900::ex1'],                  // Suez Canal / de Lesseps
+  ['sugar-1800-1900::te7', 'egypt-1798-1900::xc1'],                   // Suez Canal and world trade
+  ['sugar-1800-1900::te1', 'egypt-1798-1900::g5'],                    // vacuum pans in Upper Egypt
+  ['sugar-1000-1500::te3', 'egypt-1798-1900::g5'],                    // clay-cone boiling-houses replaced
+  ['sugar-1000-1500::te3', 'egypt-1517-1798::g2'],                    // Ottoman Egypt's sugar boiling-houses
+  ['sugar-1800-1900::c3', 'spain-1808-1900::ex3'],                    // Cuba's wars / Spain's colony
+  ['sugar-1800-1900::ec3', 'spain-1808-1900::ex3'],                   // Cuban sugar's rise
+  ['sugar-1800-1900::ec16', 'spain-1808-1900::ex3'],                  // Cuba's output
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

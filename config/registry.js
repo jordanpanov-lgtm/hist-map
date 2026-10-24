@@ -280,5 +280,6 @@ const MODULES = [
   { id:"sugar-1000-1500", file:"modules/sugar-1000-1500.json", label:"Sugar 1000–1500", sub:"From the Nile Refineries to Madeira: Egypt, Cyprus, Sicily, Granada and Song–Yuan China", region:"Sugar", period:"Medieval" },
   { id:"sugar-1500-1650", file:"modules/sugar-1500-1650.json", label:"Sugar 1500–1650", sub:"From the Atlantic Islands to the Engenhos: Madeira, São Tomé, Santo Domingo, Brazil, Antwerp, Amsterdam and Ming China", region:"Sugar", period:"Early Modern" },
   { id:"sugar-1650-1800", file:"modules/sugar-1650-1800.json", label:"Sugar 1650–1800", sub:"The Sugar Revolution: Barbados, Jamaica, Saint-Domingue, the Atlantic Slave Trade, Rum and Tea", region:"Sugar", period:"Early Modern" },
+  { id:"sugar-1800-1900", file:"modules/sugar-1800-1900.json", label:"Sugar 1800–1900", sub:"Beet, Steam, Emancipation and Contract Labour: From Napoleon’s Beet to the Sugar Trust", region:"Sugar", period:"Early Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

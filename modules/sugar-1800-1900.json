@@ -1,0 +1,1405 @@
+{
+  "id": "sugar-1800-1900",
+  "title": "Sugar",
+  "subtitle": "1800–1900 · Beet, Steam, Emancipation and Contract Labour: From Napoleon’s Beet to the Sugar Trust",
+  "period": {
+    "start": 1800,
+    "end": 1900
+  },
+  "mapCenter": [
+    20,
+    -30
+  ],
+  "mapZoom": 2,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "",
+      "entries": []
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "The Continental System, the Civil War in Louisiana, Cuba’s Ten Years’ War, the overthrow of Hawaii’s queen and the war of 1898",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Napoleonic Wars",
+          "label": "The Continental System cuts Europe off from cane sugar",
+          "date": "1806–1814",
+          "loc": "France and the Continent",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "hint": "Napoleon’s blockade of British goods, the slave revolt in Saint-Domingue and the British blockade of French ports together choke off Europe’s cane sugar. France offers a bounty for sugar from beet, over 100 beet-sugar factories open, mainly in northern France, and Napoleon is ridiculed for his support; the industry collapses in 1815 when peace brings cheap Caribbean sugar back.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith, Sugar: A Global History (2015) pp.46–48 (Continental System, bounty, more than 100 factories, the collapse in 1815); Mazumdar, Sugar and Society in China (1998) p.343 (the Continental System ‘1806–1814’); Walvin, Sugar: The World Corrupted (2017) ch.11 (80,000 acres, 1 million francs, 100 students; by 1812 forty French factories turned 98,813 tons of beet into 3.3 million lb of sugar). The factory counts of Smith and Walvin differ (over 100 vs forty).",
+          "keywords": ["France","Continent","Continental System","Europe"],
+          "xlinks": ["france-1789-1815::c3","france-1789-1815::s2","sugar-1650-1800::t5"]
+        },
+        {
+          "id": "c2",
+          "group": "American Civil War",
+          "label": "The Civil War cuts Louisiana’s plantations from 1,200 to 231",
+          "date": "1861–1865",
+          "loc": "Louisiana",
+          "coords": [
+            29.95,
+            -90.07
+          ],
+          "hint": "The war lays waste Louisiana’s sugar industry: by 1864 the number of plantations has fallen from 1,200 to 231, and the peak output of 264,000 tons has collapsed to 6,000. Freed slaves, like others elsewhere in the Americas, mostly did not want to go back to cane. Within a decade, Northern money moved in and nine-tenths of the sugar land changed hands.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.11 (his note 11). The last crop harvested entirely by slaves, in 1861, is given as 460,000 hogsheads (about 230,000 tons) in the same chapter; the 264,000-ton ‘peak’ is Walvin’s figure and is not reconciled with it. See ec8.",
+          "keywords": ["Louisiana","Civil War"]
+        },
+        {
+          "id": "c3",
+          "group": "Cuban Wars of Independence",
+          "label": "Cuba’s Ten Years’ War: slaves walk off the plantations",
+          "date": "1868–1878",
+          "loc": "Eastern Cuba",
+          "coords": [
+            20,
+            -76
+          ],
+          "hint": "During the destructive decade of war from 1868 to 1878 growing numbers of enslaved people simply walk away from the sugar plantations, and fighting, especially by ex-slaves, damages the island’s sugar regions. The war undermines Cuban slavery and Spain reluctantly concedes; abolition follows in 1886.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.11 (‘huge numbers of slaves escaped to freedom in the confusion of warfare’). See o7.",
+          "keywords": ["Eastern Cuba","Cuba Ten Years War"],
+          "xlinks": ["spain-1808-1900::ex3"]
+        },
+        {
+          "id": "c4",
+          "group": "Overthrow of the Hawaiian Kingdom",
+          "label": "Planters, with US Marines, overthrow Hawaii’s queen",
+          "date": "1893",
+          "loc": "Honolulu",
+          "coords": [
+            21.31,
+            -157.86
+          ],
+          "hint": "In 1893, with the help of US Marines, Euro-American business interests overthrow the Hawaiian monarchy; they press Congress for annexation, which comes in 1898 during the Spanish–American War. Hawaii’s sugar planters, with American owners and backers, had held most economic and political power since the constitution they imposed in 1887.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith (2015) p.53 (the 1887 constitution, the Marines, 1893, annexation in 1898); Walvin (2017) ch.11 (the queen ‘overthrown by American Marines — acting in the interests of the islands’ sugar planters’; Hawaii became US territory in 1900). See o8, ec9.",
+          "keywords": ["Honolulu","Planters","US Marines","Hawaii","Spanish–American War"]
+        },
+        {
+          "id": "c5",
+          "group": "Spanish–American War",
+          "label": "Sugar is ‘a decisive element’ in the road to the war of 1898",
+          "date": "1898",
+          "loc": "Cuba and the Philippines",
+          "coords": [
+            23.13,
+            -82.38
+          ],
+          "hint": "The war of 1898 against Spain, in Cuba and the Philippines, followed a diplomatic and economic turbulence in which, Walvin says, sugar was ‘a decisive element’: the US had large investments in Cuban sugar, its American Sugar Refining Company owned refineries there, and Cuba became in effect a client state. After the war the US held Puerto Rico, the Philippines, Hawaii and Cuba.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.11 (the characterisation of sugar as ‘a decisive element’ is his judgement); Smith (2015) p.53. See ec6.",
+          "keywords": ["Cuba","Philippines","American Sugar Refining Company","Puerto Rico"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "Abolition of the slave trade and of slavery, Palmerston’s 1841 speech, the free-trade and US tariff laws and Hawaii’s planters’ constitution",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Human Rights",
+          "label": "Britain and the United States end the slave trade, but not slavery",
+          "date": "1807–1808",
+          "loc": "London and Washington",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "Britain and the USA outlaw the Atlantic slave trade in 1807–08, yet Africans keep being landed in Cuba and Brazil in unprecedented numbers: more than 500,000 in Cuba in the fifty years after British abolition, a flow helped by American ships and finance and winked at by Spain.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.11 (‘despite the British and American abolition of the slave trade between 1807 and 1808’; the 500,000 for Cuba is from his note 13; he gives 300,000 for the thirty years before 1867). See x6.",
+          "keywords": ["London","Washington","Britain","United States"],
+          "xlinks": ["sugar-1650-1800::o4"]
+        },
+        {
+          "id": "o2",
+          "group": "Human Rights",
+          "label": "Britain ends slavery in the colonies, with compensation and ‘apprenticeship’",
+          "date": "1833–1838",
+          "loc": "British West Indies",
+          "coords": [
+            17.99,
+            -76.79
+          ],
+          "hint": "The British end slavery in 1833, with effect from 1 August 1834; but only children under six are freed at once, the rest serving an ‘apprenticeship’ of four years (non-field) or six (field workers) — to 1838 in practice — and the planters are compensated with some £20 million, forty per cent of the annual budget. Freed people quit the plantations when they could; planters turned to indentured labour.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.9 (‘when the British ended slavery in 1833’); Buttery, A Dark History of Sugar, ch.8 (the apprenticeship, the 800,000 people, £20 million); Mintz, Sweetness and Power (1985) p.54 (‘1838 for the English, 1848 for the French’) and p.62 (‘1834–38’). Buttery’s phrase ‘passed on 1 August 1834’ confuses the Act’s date with its start.",
+          "keywords": ["British West Indies","Britain"],
+          "xlinks": ["sugar-1650-1800::b2"]
+        },
+        {
+          "id": "o3",
+          "group": "Trade Legislation",
+          "label": "Palmerston mocks Britain’s ‘conscience’ about slave-grown sugar",
+          "date": "1841",
+          "loc": "London",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "In the Commons debate of 1841 on lowering the duties on foreign sugar, Viscount Palmerston ironically recounts how Britain, too principled to eat Brazilian slave-grown sugar, would carry it, refine it and sell it to the Germans — and eat it itself if its own price rose. Mintz calls the free-trade debates a high-water mark of disingenuousness.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Mintz (1985) pp.62–63 (the speech as reprinted; Mintz’s note 76). The debates on the transition from protection under the Navigation Acts to free trade were not finished for sugar until the 1870s (p.61).",
+          "keywords": ["London","Britain","Viscount Palmerston"]
+        },
+        {
+          "id": "o4",
+          "group": "Trade Legislation",
+          "label": "The United States protects its sugar industry",
+          "date": "1842",
+          "loc": "Washington",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "hint": "Walvin says that, although the first tariffs on sugar were in place in the early republic, protection for the domestic sugar industry only came fully into force in 1842; sugar duties made up a fifth of all import duties in the nineteenth century, higher on refined than raw sugar to protect refiners.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.10 and ch.11 (the 1842 date and the shares: duties as two-thirds of federal income, sugar 20 per cent of those). See o9 for the McKinley Act.",
+          "keywords": ["Washington","United States"]
+        },
+        {
+          "id": "o5",
+          "group": "Trade Legislation",
+          "label": "Britain abolishes its sugar duties",
+          "date": "1846",
+          "loc": "London",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "In the spirit of free trade the British abolish their sugar duties in 1846, and sugar from other regions floods in, helping British consumers while ruining the old West Indian privileges; Cuba, already selling half its sugar to Britain, expands to meet the new demand. Mintz argues that the transition was not complete for sugar until the 1870s.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.11 (‘the British had abolished their sugar duties in 1846’); Mintz (1985) pp.61–62. The Sugar Duties Act of 1846 is not named in either.",
+          "keywords": ["London","Britain","West Indian"]
+        },
+        {
+          "id": "o6",
+          "group": "Human Rights",
+          "label": "France abolishes slavery",
+          "date": "1848",
+          "loc": "Paris and the French Antilles",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "hint": "Slavery in the French colonies ends in 1848, fifteen years after the British and long after the collapse of Saint-Domingue; Walvin says cane sugar kept its edge over beet until the French ended slavery that year. The French planters, too, then turn to imported labour.",
+          "tag": "LAW",
+          "note": "SECONDARY: Mintz (1985) p.54 (‘1848 for the French’); Walvin (2017) ch.11 (‘not ended by the French until 1848’). See france-1815-1900::o3.",
+          "keywords": ["Paris","Antilles","France"],
+          "xlinks": ["france-1815-1900::o3"]
+        },
+        {
+          "id": "o7",
+          "group": "Human Rights",
+          "label": "Cuba abolishes slavery in 1886, Brazil in 1888",
+          "date": "1886–1888",
+          "loc": "Havana and Rio de Janeiro",
+          "coords": [
+            23.13,
+            -82.38
+          ],
+          "hint": "Spain reluctantly abolishes Cuban slavery in 1886, after the war of 1868–78 and many escapes; Brazil, the last, abolishes in 1888. Cuban planters then look for labour elsewhere — 150,000 indentured Chinese had already arrived by 1873.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.11. See c3, x2.",
+          "keywords": ["Havana","Rio de Janeiro","Cuba","Brazil"]
+        },
+        {
+          "id": "o8",
+          "group": "Constitutional Law",
+          "label": "Hawaii’s planters impose the ‘Bayonet Constitution’",
+          "date": "1887",
+          "loc": "Honolulu",
+          "coords": [
+            21.31,
+            -157.86
+          ],
+          "hint": "In 1887 a clique of sugar planters imposes a new constitution on the Hawaiian king, securing the planters’ control of the government through a gerrymandered system that effectively gave power to Americans and excluded Hawaiians.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.11; Smith (2015) p.53 (‘American sugar interests forced the king of Hawaii to agree to a constitution giving them most of the power’). The nickname ‘Bayonet Constitution’ is general knowledge, not used in either source.",
+          "keywords": ["Honolulu","Hawaii","Bayonet Constitution"]
+        },
+        {
+          "id": "o9",
+          "group": "Trade Legislation",
+          "label": "The McKinley Act changes the US sugar tariff",
+          "date": "1890",
+          "loc": "Washington",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "hint": "The McKinley Act of 1890 changes the tariffs on sugar, prices fall and consumption rises still further; Walvin says new tariffs after 1890 stimulated the US domestic sugar industry while Cuban raw sugar poured into the refineries on the east coast.",
+          "tag": "LAW",
+          "note": "SECONDARY: Walvin (2017) ch.10 and ch.11 (the duties on raw sugar protected cane growers and on refined sugar protected refiners; the effect on beet is as Walvin states).",
+          "keywords": ["Washington","McKinley Act"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "Quakers on beet sugar and the missionaries of Kauai",
+      "entries": [
+        {
+          "id": "b1",
+          "group": "Quakerism",
+          "label": "Quakers and abolitionists back beet sugar",
+          "date": "1800–1840",
+          "loc": "Britain and France",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "Smith says early support for beet-sugar production came from Quakers and abolitionists who refused to buy cane sugar made by slave labour; the support died down in England and France when the Caribbean slaves were emancipated in the mid-nineteenth century.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY (thin; the dates are a loose bracket of mine): Smith (2015) p.48. Compare sugar-1650-1800::b2 (William Fox).",
+          "keywords": ["Britain","France","Quakers"]
+        },
+        {
+          "id": "b2",
+          "group": "Missions & New Churches",
+          "label": "Missionaries help the first Hawaiian sugar company",
+          "date": "1835",
+          "loc": "Kauai, Hawaii",
+          "coords": [
+            22.1,
+            -159.5
+          ],
+          "hint": "An American company starts cane cultivation on Kauai in 1835 (Ladd & Co. leased land there), helped by missionaries who saw the sugar plantation as a means of converting the local people.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.11 (the missionaries’ view); Smith (2015) p.52 (Ladd & Co. leasing land on Kauai in 1835). See ec9.",
+          "keywords": ["Kauai","Hawaii","Missionaries","Hawaiian"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "Quaker chocolate, Twain on Hawaii and Keiller’s marmalade",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Cookery & Food Writing",
+          "label": "Quaker chocolate makers turn cocoa into sweets",
+          "date": "1831–1897",
+          "loc": "Bristol and Birmingham",
+          "coords": [
+            52.48,
+            -1.9
+          ],
+          "hint": "John Cadbury, a Quaker and temperance advocate, begins making drinking cocoa in 1831 as an alternative to alcohol, and by 1866 also eating chocolate and bonbons; Joseph Storrs Fry invents a way of combining cocoa powder, sugar and cocoa butter into a paste for moulding bars, and J. S. Fry and Sons becomes the largest chocolate maker in the world. Richard Cadbury introduces the first Valentine’s Day box in 1860, and Cadbury makes milk chocolate from 1897.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith (2015) pp.99–101 (the dates 1831, 1860, 1866 and 1897 are Smith’s; the Fry invention is undated there; the Fry–Cadbury merger of 1919 and later history omitted).",
+          "keywords": ["Bristol","Birmingham","Quaker","John Cadbury","Joseph Storrs Fry","Richard Cadbury"]
+        },
+        {
+          "id": "e3",
+          "group": "Cookery & Food Writing",
+          "label": "Keiller turns unsold Seville oranges into marmalade",
+          "date": "1864",
+          "loc": "Dundee",
+          "coords": [
+            56.46,
+            -2.97
+          ],
+          "hint": "Keiller’s of Dundee, the most famous marmalade maker, grew almost by accident from a decision in 1864 to convert unsellable Seville oranges; marmalade, jam and tinned fruit used the new canning and bottling, and by the end of the century jam, highly sweetened tea and bread made up much of working-class diets, especially for women and children.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.12 (the 1864 date and the Keiller story; Lipton’s jam factory at Bermondsey in 1892 and its first Glasgow shop in 1871). See ec13 and l4.",
+          "keywords": ["Keiller","Seville","Keiller of Dundee"]
+        },
+        {
+          "id": "e2",
+          "group": "Literature & Poetry",
+          "label": "Mark Twain calls Hawaii ‘the king of the sugar world’",
+          "date": "1866",
+          "loc": "Hawaii",
+          "coords": [
+            21.31,
+            -157.86
+          ],
+          "hint": "When Mark Twain visits the Hawaiian islands in 1866 he is so impressed by the cane that he declares them ‘the king of the sugar world’ for astonishing productiveness; by 1860 Hawaii had 29 sugar plantations, most exporting to the United States.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Smith (2015) p.52 (the quotation as Smith gives it; the original is in Twain’s Hawaii letters, not read). See ec9.",
+          "keywords": ["Hawaii","Mark Twain","United States"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "Vilmorin’s sugar beet and Graham’s warning",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "Science & Geography",
+          "label": "Vilmorin breeds the high-sucrose sugar beet",
+          "date": "1837",
+          "loc": "Paris",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "hint": "The French seed company Vilmorin, a pioneer of selective breeding, begins breeding experiments to raise the sugar content of beets and in 1837 introduces the sugar beet (Beta vulgaris var. altissima); new extraction techniques bring beet sugar back in Germany, France, Belgium, Austria–Hungary, Russia and Scandinavia, and breeders eventually produce roots that are 20 per cent sucrose.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith (2015) pp.47–48. Even so, Smith says, it was still cheaper to import cane sugar than to extract beet sugar for most of the century.",
+          "keywords": ["Paris","Vilmorin"]
+        },
+        {
+          "id": "t2",
+          "group": "Science & Geography",
+          "label": "Graham would ban refined sugar",
+          "date": "1839",
+          "loc": "United States",
+          "coords": [
+            40.71,
+            -74
+          ],
+          "hint": "The health reformer Sylvester Graham, in the last work of his life, Lectures on the Science of Human Life (1839), advocates banning refined sugar because it is stimulating: ‘no purely stimulating substances’ should be taken. Smith counts him among the first American authorities to voice concern about refined sugar.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Smith (2015) p.126 (the book and its date as Smith gives them; the quotation is incomplete in the passage read). Compare sugar-1500-1650::l3.",
+          "keywords": ["United States","Sylvester Graham","Science of Human Life"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "Beet’s rise to half the world’s sugar, falling prices, Cuba, Louisiana, Hawaii, Mauritius, Natal and Queensland, the Sugar Trust and consumption",
+      "entries": [
+        {
+          "id": "ec14",
+          "group": "Trade & Commerce",
+          "label": "American consumption: 5 lb in 1788, 80 lb in the 1890s",
+          "date": "1788–1890s",
+          "loc": "United States",
+          "coords": [
+            40.71,
+            -74
+          ],
+          "hint": "The average American ate only about 5 lb of sugar a year in 1788 and 8 lb in the early years of the republic; by the 1890s it was about 80 lb, as the price fell, the West opened, jam and canned food took hold and the tariffs and the Louisiana, Hawaiian and Cuban supplies expanded.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Smith (2015) p.82 (5 lb in 1788); Walvin (2017) ch.8 (8 lb early republic; 80 lb in the 1890s). Walvin’s figure of 90 lb during the First World War is later.",
+          "keywords": ["United States","American"]
+        },
+        {
+          "id": "ec3",
+          "group": "Agriculture & Land",
+          "label": "Cuba grows from 19,000 tons to 446,000, a quarter of world output",
+          "date": "1800–1850",
+          "loc": "Cuba",
+          "coords": [
+            22,
+            -80
+          ],
+          "hint": "Cuba produced only 19,000 tons of sugar in the last years of the eighteenth century; fifty years later it makes 446,000 tons from 1,439 plantations — about a quarter of the world’s sugar — with steam power, railways and American finance, and an African labour force that British abolition did nothing to stop arriving.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (the 1850 comparison is from his note 14; the quarter-of-world share is his phrase for mid-century; spain-1808-1900::ex3 in this corpus says one-third by 1850, so the share is uncertain).",
+          "keywords": ["Cuba"],
+          "xlinks": ["spain-1808-1900::ex3"]
+        },
+        {
+          "id": "ec6",
+          "group": "Epidemic & Demographic",
+          "label": "The world’s population almost doubles",
+          "date": "1800–1900",
+          "loc": "The world",
+          "coords": [
+            30,
+            10
+          ],
+          "hint": "The world’s population almost doubles from 978 million to 1.65 billion between 1800 and 1900, Europe’s grows by 76 million in the first half of the century and doubles by 1900, and North America’s rises from over 5 million to 76 million; Walvin treats this as the main driver of the rising demand for sugar.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.9 (his note 3; his figures for North America in 1900 differ between chapters, 76 and 82 million).",
+          "keywords": ["North America"]
+        },
+        {
+          "id": "ec13",
+          "group": "Trade & Commerce",
+          "label": "British consumption rises from 18 lb a head in 1810 to 91 lb in 1914",
+          "date": "1810–1914",
+          "loc": "Britain",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "Annual consumption in the UK was about 4 lb a head in 1700, 8 lb in 1729, 12 lb in 1789 and 18 lb in 1810; it doubled to about 30 lb by 1850 and reached 68 lb in the 1880s, 85 lb in 1900–09 and 91 lb on the eve of 1914, almost half as much again as the German average. Mintz has almost 90 lb a head by the 1890s.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.7 and ch.12 (his note 8); Mintz (1985) p.143 (‘just below ninety pounds per person per year by the 1890s’). The figures are consistent between Walvin and Mintz within a few pounds.",
+          "keywords": ["Britain","British"],
+          "xlinks": ["sugar-1650-1800::ec7"]
+        },
+        {
+          "id": "ec1",
+          "group": "Trade & Commerce",
+          "label": "The first beet-sugar factories collapse with peace",
+          "date": "1812–1815",
+          "loc": "France",
+          "coords": [
+            49.4,
+            2.1
+          ],
+          "hint": "By 1812 forty French factories turn 98,813 tons of beet into 3.3 million lb of sugar; but when peace comes in 1815 and cheap colonial cane sugar returns, the beet industry collapses. Walvin says Napoleon’s experiment still showed that sweetness might be had without tropical cane.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (the 1812 figures); Smith (2015) p.47. See c1.",
+          "keywords": ["France"],
+          "xlinks": ["sugar-1650-1800::t2"]
+        },
+        {
+          "id": "ec2",
+          "group": "Agriculture & Land",
+          "label": "Louisiana has 75 mills in 1812 and 1,536 estates within sixty years",
+          "date": "1812–1861",
+          "loc": "Louisiana",
+          "coords": [
+            29.95,
+            -90.07
+          ],
+          "hint": "Louisiana has 75 sugar mills in 1812; the Purchase of 1803 and new cane varieties, Northern and European capital and steam power make it a unique mix of old and new, with an estimated 1,536 estates making about 125,000 tons within sixty years of its start, 160,000 tons at mid-century and about 230,000 tons in the last all-slave crop of 1861. The enslaved working its sugar rise from 27,000 in 1827 to 125,000 in 1850, and the average gang from 52 in 1830 to over 110.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (his notes 8–10; the hogshead-to-ton conversions are his; he does not date the 1,536 estates more closely than ‘within a mere sixty years’ of sugar taking root in the 1790s).",
+          "keywords": ["Louisiana"],
+          "xlinks": ["sugar-1650-1800::x6"]
+        },
+        {
+          "id": "ec7",
+          "group": "Agriculture & Land",
+          "label": "Mauritius makes nearly a tenth of the world’s sugar",
+          "date": "1829–1850",
+          "loc": "Mauritius",
+          "coords": [
+            -20.2,
+            57.5
+          ],
+          "hint": "The British, who took Mauritius in 1810, introduce cane in 1829; by the mid-nineteenth century the island is producing 9.4 per cent of the world’s sugar and is one of Britain’s major suppliers as West Indian output falls. The labour shortage is met by contract workers from India — 455,187 Indians replaced former slaves, and their descendants became the island’s majority.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Smith (2015) p.51; Walvin (2017) ch.9 (the 455,187). See x1.",
+          "keywords": ["Mauritius","West Indian"]
+        },
+        {
+          "id": "ec9",
+          "group": "Industry & Production",
+          "label": "Hawaii’s sugar: four tons in 1836, 105,000 in 1886",
+          "date": "1835–1886",
+          "loc": "Hawaii",
+          "coords": [
+            21.31,
+            -157.86
+          ],
+          "hint": "After the first plantation of 1835, Hawaii made 4 tons of sugar in 1836, 13,000 in 1876 and, once the Reciprocity Treaty of 1875–76 gave duty-free entry to the US market and Claus Spreckels bought half the year’s 14,000 tons, 105,000 tons in 1886. By 1860 Hawaii had 29 plantations; Hawaiian sugar was 1 per cent of the US market in 1875 and 10 per cent by 1900.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (his note 19); Smith (2015) pp.52–54 (the treaty is dated 1875 by Smith and 1876 by Walvin).",
+          "keywords": ["Hawaii","Reciprocity Treaty","Claus Spreckels"]
+        },
+        {
+          "id": "ec4",
+          "group": "Agriculture & Land",
+          "label": "Beet grows to half the world’s sugar by 1880",
+          "date": "1836–1906",
+          "loc": "Germany, France and Austria–Hungary",
+          "coords": [
+            52.5,
+            13.4
+          ],
+          "hint": "Germany has 122 beet-sugar factories in 1836 and, with no tropical colonies, produces 1 million tons by 1886, double that by 1906; across Western Europe beet sugar’s share of world production reaches almost 50 per cent by 1880 and 59 per cent by 1890. Governments subsidised the growers and manufacturers, and beet farmers displaced wheat as grain imports from America fell in price.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (German factories and tonnages); Mazumdar (1998) p.343 (the shares, her note 18) and pp.345–346. Smith (2015) p.48 on state support.",
+          "keywords": ["Germany","France","Austria–Hungary","Beet","Western Europe"]
+        },
+        {
+          "id": "ec5",
+          "group": "Fiscal & Monetary",
+          "label": "Sugar prices fall to a quarter of their 1840 level",
+          "date": "1840–1900",
+          "loc": "London and the world market",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "In England, one of the largest markets, sugar prices fall by 30 per cent between 1840 and 1850 and by another 25 per cent in the next two decades; by 1900 Caribbean and Brazilian producers of crude sugar get less than a quarter of the price paid sixty years before. Smith notes that prices fell throughout the century although slavery had ended.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) p.346 (her note 30); Smith (2015) p.48.",
+          "keywords": ["London"]
+        },
+        {
+          "id": "ec10",
+          "group": "Agriculture & Land",
+          "label": "Natal’s cane grows with Indian workers",
+          "date": "1860–1897",
+          "loc": "Natal and Zululand",
+          "coords": [
+            -29.86,
+            31.02
+          ],
+          "hint": "British settlers plant commercial cane on plantations in Natal; Africans will not work for the wages and conditions offered, so from 1860 Indian indentured workers are brought in, and then migrants from other parts of southern Africa, including children. Vast tracts in Zululand are granted to sugar planters after its annexation — in 1887 on Smith’s account, 1897 on Walvin’s.",
+          "tag": "EVIDENCE",
+          "note": "CONTESTED on the date: Smith (2015) p.51 (Zululand annexed 1887); Walvin (2017) ch.9 (‘after the annexation of Zululand in 1897’; the 1897 date is likely the incorporation into Natal, but this was not checked).",
+          "keywords": ["Natal","Zululand"]
+        },
+        {
+          "id": "ec11",
+          "group": "Agriculture & Land",
+          "label": "Queensland starts sugar with Pacific labour",
+          "date": "1860s–1904",
+          "loc": "Mackay, Queensland",
+          "coords": [
+            -21.14,
+            149.19
+          ],
+          "hint": "Sugar relaunches in the 1860s in Queensland, first on smallholdings and, from the 1880s, as plantations using Chinese, Japanese, Javanese and above all Melanesian workers from Vanuatu and the Solomon Islands — the ‘blackbirding’ that ranged from kidnapping to indenture and was only ended in 1904–06. Output was 68,924 tons in the 1890s.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.9; Smith (2015) p.52. See x4.",
+          "keywords": ["Mackay","Queensland","Pacific","Solomon Islands"]
+        },
+        {
+          "id": "ec18",
+          "group": "Agriculture & Land",
+          "label": "The Pearl River Delta gives up cane; only Taiwan modernises",
+          "date": "1860–1900",
+          "loc": "Guangdong and Taiwan",
+          "coords": [
+            23,
+            113.5
+          ],
+          "hint": "Guangdong remained one of Asia’s largest sugar producers in the mid-nineteenth century, with a chance to sell more to Japan; but by about 1900 parts of the Pearl River Delta that had grown cane for nearly two thousand years had abandoned it, and only Taiwan went on to produce industrial refined sugar. Tens of thousands of Guangdong workers went to Cuba, Jamaica, Trinidad and Mauritius and over 30,000 to Hawaii.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) pp.338–339 (the argument of her chapter 7 on the divergence, not worked through here).",
+          "keywords": ["Guangdong","Taiwan","Pearl River Delta"]
+        },
+        {
+          "id": "ec12",
+          "group": "Industry & Production",
+          "label": "British refining shrinks from 72 refineries in 1864 to 13 in 1913",
+          "date": "1864–1913",
+          "loc": "Britain",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "In 1864 seventy-two British refineries process 500,000 tons of sugar; by 1913 only thirteen remain, but they make more than a million tons — the refining of cheap granulated sugar by machines, as Henry Weatherley, a machine maker, described in 1865. Sweets and jam factories follow, and Lipton’s opens its first shop in Glasgow in 1871, with 500 shops by 1914.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.12 (his note 6 for the refinery counts; the Weatherley quotation).",
+          "keywords": ["Britain","British","Henry Weatherley"],
+          "xlinks": ["sugar-1650-1800::ec2"]
+        },
+        {
+          "id": "ec8",
+          "group": "Agriculture & Land",
+          "label": "Louisiana recovers: 302,778 tons by 1900",
+          "date": "1865–1900",
+          "loc": "Louisiana",
+          "coords": [
+            29.95,
+            -90.07
+          ],
+          "hint": "After the Civil War Louisiana’s industry recovers within a decade as Northern money moves in and nine-tenths of the sugar land changes hands; central factories, planters’ organisations and research schools transform it, and it produces 302,778 tons in 1900.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (his notes 11–12). See c2.",
+          "keywords": ["Civil War Louisiana"]
+        },
+        {
+          "id": "ec17",
+          "group": "Industry & Production",
+          "label": "Soda-fountain pharmacists launch Dr Pepper, Coca-Cola and Pepsi",
+          "date": "1885–1898",
+          "loc": "The American South",
+          "coords": [
+            33.75,
+            -84.39
+          ],
+          "hint": "Dr Pepper (1885), Coca-Cola (1886) and Pepsi-Cola (1898) all begin in Southern pharmacies, where ‘soda jerks’ experiment with sweet fizzy drinks launched with medicinal claims that were soon forgotten; Coca-Cola uses 44,000 lb of sugar in 1890.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.15 (his chapter on soft drinks, continued in the last folio).",
+          "keywords": ["American South","Soda-fountain","Dr Pepper","Coca-Cola","Pepsi"]
+        },
+        {
+          "id": "ec16",
+          "group": "Trade & Commerce",
+          "label": "Cuba makes 750,000 tons in 1886 and a million by 1900",
+          "date": "1886–1900",
+          "loc": "Cuba",
+          "coords": [
+            22,
+            -80
+          ],
+          "hint": "When slavery ends in 1886 Cuba makes 750,000 tons, about 40 per cent of the world’s exports, with finance from Spain, the USA and Britain; by 1900 it exports over a million tons, mostly to the US, whose investment in the island is put at $950 million in 1896 and whose Sugar Trust owns nineteen refineries there. Cuban sugar to Europe had been hit by beet.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (his notes 16–18, 22). See c5.",
+          "keywords": ["Cuba"],
+          "xlinks": ["spain-1808-1900::ex3"]
+        },
+        {
+          "id": "ec15",
+          "group": "Industry & Production",
+          "label": "Havemeyer’s Sugar Trust controls 98 per cent of US refining",
+          "date": "1887–1907",
+          "loc": "New York",
+          "coords": [
+            40.71,
+            -74
+          ],
+          "hint": "In 1887 Henry Havemeyer amalgamates seventeen of America’s twenty-three refineries into the Sugar Trust, which controls 98 per cent of the industry and, reformed in 1891 as the American Sugar Refining Company, leaves only four of the original refineries working; by 1907 Smith says it controls 97 per cent of refined sugar. It owns refineries in Cuba and lobbies for cheap raw sugar.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.10 and ch.11 (the 98 per cent and nineteen Cuban refineries); Smith (2015) pp.34 and 52 (97 per cent in 1907; the Havemeyer partnership). The two sources’ percentages differ by a point, perhaps by date.",
+          "keywords": ["New York","Havemeyer Sugar Trust","Henry Havemeyer","American Sugar Refining Company"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "The vacuum pan, steam mills, centrifuges, acid and charcoal refining, the Mason jar and the Suez Canal",
+      "entries": [
+        {
+          "id": "te1",
+          "group": "Agriculture & Industry",
+          "label": "Howard’s vacuum pan boils sugar at a lower heat",
+          "date": "1813–1818",
+          "loc": "England and France",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "Edward Howard patents the vacuum pan in 1813; vacuum pans for evaporating sucrose solutions are used in the beet-sugar industry from 1818 and become standard in the highly mechanised cane industries of Cuba, Louisiana and Mexico. Unlike the open pan, which burns and caramelises sugar by boiling off water at 248°F, the vacuum pan boils it off at 140°F and leaves white crystals.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mazumdar (1998) pp.343–345 (the 1813 patent, from Moreno Fraginals; the 1818 date and the temperatures as she gives them; the beet industry’s 9–10 lb of water evaporated per lb of coal around 1828).",
+          "keywords": ["England","France","Edward Howard"],
+          "xlinks": ["egypt-1798-1900::g5"]
+        },
+        {
+          "id": "te2",
+          "group": "Agriculture & Industry",
+          "label": "A steam engine drives the cane mill",
+          "date": "1816",
+          "loc": "England",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "In 1816 the English firm of Fawcett, Preston and Company builds the new horizontal mill driven by an 8–12 horsepower steam engine, firmly crossing the line between pre-industrial technology and industrial manufacture. Iron mills with the rollers set in a triangle and a spring-and-weight device were being made commercially in England from the 1790s and were soon sold to Cuba and Mauritius; a moving belt to feed cane to the mill came about 1840.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mazumdar (1998) pp.340–342 (her notes 6–15; the 1721 iron-mill patent, Stewart’s 1767 steam patent and Smeaton’s mill are earlier and belong to the previous folio’s period). Mazumdar’s attribution of the triangular mill to Smeaton ‘in Jamaica’ looks doubtful and is not repeated.",
+          "keywords": ["England"],
+          "xlinks": ["sugar-1500-1650::te3"]
+        },
+        {
+          "id": "te3",
+          "group": "Agriculture & Industry",
+          "label": "Refiners adopt acid, bone charcoal and a 95-degree standard",
+          "date": "c.1830–1880",
+          "loc": "Sugar refineries",
+          "coords": [
+            51.5,
+            -0.12
+          ],
+          "hint": "By the 1830s sulphuric or oxalic acid is common for clarifying cane juice by neutralising excess lime and bone-charcoal filters for decolourising it; whereas there had been as many as 21 grades of sugar by colour, by the 1880s only a purity of 95 degrees Pol or more is accepted as ‘refined sugar’ in world trade — a standard that let the sugar be stored indefinitely and shaped prices.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) p.344 (her notes 23–25). Dates are hers and loose.",
+          "keywords": ["Refiners"]
+        },
+        {
+          "id": "te4",
+          "group": "Agriculture & Industry",
+          "label": "The centrifuge replaces the clay and the drip house",
+          "date": "c.1837–1850",
+          "loc": "France and the cane colonies",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "hint": "The centrifuge, invented in France in 1837 to dry textiles, is adapted to separate crystals from molasses; with the vacuum pan it cuts the ten to fourteen days that natural crystallisation and claying needed to about twenty minutes for thirty pounds of sugar.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mazumdar (1998) p.344 (her note 23). The dates for sugar use are not given; the bracket 1850 is mine. Compare sugar-1500-1650::te2 (claying).",
+          "keywords": ["France"]
+        },
+        {
+          "id": "te5",
+          "group": "Agriculture & Industry",
+          "label": "Three steam mills in Cuba make six times what three ox mills do",
+          "date": "c.1850",
+          "loc": "Cuba",
+          "coords": [
+            22,
+            -80
+          ],
+          "hint": "By the mid-nineteenth century three mechanised mills in Cuba make 9,299 tons of sugar a year against 1,539 tons for three animal-driven mills working the same hours, and with steam vacuum evaporators they yield 70 per cent more sugar from the same weight of cane; the steam engine had ‘sealed its triumph over the water-wheel’ by the 1870s.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) p.343 (her notes 15–17, from Moreno Fraginals as she cites him).",
+          "keywords": ["Cuba"]
+        },
+        {
+          "id": "te6",
+          "group": "Agriculture & Industry",
+          "label": "The Mason jar lets sugar preserve fruit for the winter",
+          "date": "1858",
+          "loc": "United States",
+          "coords": [
+            40.71,
+            -74
+          ],
+          "hint": "The Mason jar of 1858, a glass jar sealed by a screw lid and rubber ring, joins canning (5 million cans of food in 1860) in making preservation by sugar convenient; one cookbook of 1844 had said fruit must have enough sugar to keep, and 60 per cent was advised for jam and conserves.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.10 (his notes 8–9).",
+          "keywords": ["United States","Mason"]
+        },
+        {
+          "id": "te7",
+          "group": "Civil Engineering",
+          "label": "Steamers and the Suez Canal cut freight on Asian sugar by up to 63 per cent",
+          "date": "1869",
+          "loc": "Suez",
+          "coords": [
+            30,
+            32.55
+          ],
+          "hint": "Between 1860 and 1880 the steamship and the opening of the Suez Canal in 1869 cut freight rates from Asian sugar regions such as Java and the Philippines to Europe by as much as 63 per cent, and those from America by about 25 per cent. The clipper’s tea run of 90–105 days had been cut to 68 days by steamer by the late 1860s.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mazumdar (1998) pp.345–346 (her notes 26–27).",
+          "keywords": ["Steamers","Suez Canal","Asian"],
+          "xlinks": ["eastern-question-1774-1900::te3","egypt-1798-1900::xc1","france-1815-1900::ex1"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "Indian and Chinese indentured labour, blackbirding, Japanese workers, the Cuban slave trade after abolition and the Hawaiian treaty",
+      "entries": [
+        {
+          "id": "x6",
+          "group": "Migration & Settlement",
+          "label": "Africans keep arriving in Cuba after Britain’s ban",
+          "date": "1808–1867",
+          "loc": "Cuba",
+          "coords": [
+            22,
+            -80
+          ],
+          "hint": "More than 500,000 Africans were landed in Cuba in the fifty years after British abolition, and over 300,000 in the thirty years before the last landed in 1867; in some years upwards of 30,000 arrived. Spain turned a blind eye, American ships and finance carried and paid for the traffic, and Cuba received twice as many enslaved Africans over the whole history of the Atlantic trade as North America.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (his notes 13–15; the two figures are for overlapping periods).",
+          "keywords": ["Cuba","Britain","North America"]
+        },
+        {
+          "id": "x1",
+          "group": "Migration & Settlement",
+          "label": "Indian indentured workers number nearly 1.5 million",
+          "date": "1834–1924",
+          "loc": "India, the Caribbean and the Indian Ocean",
+          "coords": [
+            22.57,
+            88.36
+          ],
+          "hint": "In the ninety years to 1924 the European powers, led by Britain, ship almost 1.5 million Indian indentured labourers to the old sugar colonies and new ones — over 250,000 to British Guiana, almost 150,000 to Trinidad, 455,187 to Mauritius, to Natal from 1860 and to Fiji from 1879 — creating the ethnic mixes and enmities of today’s Guyana, Mauritius and Fiji.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.9 (his note 6). See ec7, ec10.",
+          "keywords": ["India","Caribbean","Ocean","British Guiana"]
+        },
+        {
+          "id": "x2",
+          "group": "Migration & Settlement",
+          "label": "Chinese indentured workers go to Cuba, Hawaii and the Caribbean",
+          "date": "1850s–1873",
+          "loc": "Guangdong, Cuba and Hawaii",
+          "coords": [
+            23,
+            113.5
+          ],
+          "hint": "More than 150,000 indentured Chinese had been shipped to Cuba by 1873; tens of thousands from the Pearl River Delta went to Jamaica, Trinidad and Mauritius to replace emancipated Afro-Caribbean slaves, and over 30,000 to Hawaii. Chinese made up 49 per cent of the Hawaiian sugar workforce in 1882, and Hawaii stopped accepting them the next year.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11; Mazumdar (1998) p.339; Smith (2015) p.53 (the 49 per cent in 1882). Start date of the Chinese contract labour system is my bracket, not the sources’.",
+          "keywords": ["Guangdong","Cuba","Hawaii","Caribbean","Pearl River Delta"]
+        },
+        {
+          "id": "x4",
+          "group": "Migration & Settlement",
+          "label": "Blackbirders take Pacific islanders to Queensland’s cane",
+          "date": "1860s–1906",
+          "loc": "Vanuatu, the Solomon Islands and Queensland",
+          "coords": [
+            -15.4,
+            167.2
+          ],
+          "hint": "Labour for Queensland’s cane fields comes from the Melanesian islands by the practice called ‘blackbirding’, from violent seizure to indenture on the Indian model; the later indenture fell away in the face of local white opposition, and the traffic was only ended in 1904–06, laying the foundations for what became a highly mechanised industry.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.9. See ec11.",
+          "keywords": ["Vanuatu","Solomon Islands","Queensland","Blackbirders","Pacific"]
+        },
+        {
+          "id": "x5",
+          "group": "Migration & Settlement",
+          "label": "Japanese workers arrive in Hawaii’s cane fields",
+          "date": "1865–1890",
+          "loc": "Hawaii",
+          "coords": [
+            21.31,
+            -157.86
+          ],
+          "hint": "Japanese contract workers have been coming to Hawaii since 1865, and by 1890 some 55,000 Chinese and Japanese indentured labourers have been brought to the plantations; when their contracts end many stay, and they and their children become the islands’ largest single ethnic group. Other groups came from Okinawa, Korea, Puerto Rico, Portugal and the Philippines.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Smith (2015) p.54; Walvin (2017) ch.11.",
+          "keywords": ["Hawaii","Japanese","Puerto Rico"]
+        },
+        {
+          "id": "x3",
+          "group": "Diplomatic Exchange",
+          "label": "The Reciprocity Treaty hands Hawaii’s sugar to the US market",
+          "date": "1875–1876",
+          "loc": "Honolulu and Washington",
+          "coords": [
+            21.31,
+            -157.86
+          ],
+          "hint": "The treaty permitting duty-free import of Hawaiian sugar into the US is signed in 1875 (1876, says Walvin); the San Francisco refiner Claus Spreckels, who arrived on the same ship that brought news of it, buys half of Hawaii’s 14,000 tons of that year and goes on to control most of the islands’ and California’s sugar until the 1880s.",
+          "tag": "DOCUMENT",
+          "note": "SECONDARY: Smith (2015) pp.52–53 (1875); Walvin (2017) ch.11 (24 August 1876, the ship City of San Francisco). The two sources disagree on the year, probably because the treaty was signed in 1875 and its news and effect came in 1876.",
+          "keywords": ["Honolulu","Washington","Reciprocity Treaty","Hawaii","San Francisco","Claus Spreckels"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "The Louisiana Purchase, Mauritius and Zululand",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "The Louisiana Purchase opens the Mississippi to sugar",
+          "date": "1803",
+          "loc": "Louisiana",
+          "coords": [
+            29.95,
+            -90.07
+          ],
+          "hint": "The purchase from France in 1803, for $15 million, doubles the size of the United States and opens the fertile Mississippi delta to cane; with no need to import Africans, because the Old South had a growing enslaved population that could be sold south and west.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.11. See france-1789-1815::w2.",
+          "keywords": ["Louisiana Purchase","Mississippi","United States"],
+          "xlinks": ["france-1789-1815::w2"]
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Britain takes Mauritius",
+          "date": "1810",
+          "loc": "Mauritius",
+          "coords": [
+            -20.2,
+            57.5
+          ],
+          "hint": "Mauritius becomes British in 1810, acquired during the Napoleonic Wars, and a cane colony after 1829; Smith notes that the majority of its people were of Indian descent by independence in 1975.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Walvin (2017) ch.9 (‘British after 1810’); Smith (2015) p.51. See ec7.",
+          "keywords": ["Mauritius","Britain","Napoleonic Wars"]
+        },
+        {
+          "id": "w3",
+          "group": "Geopolitical Shift",
+          "label": "Zululand is annexed and handed to sugar planters",
+          "date": "1887–1897",
+          "loc": "Zululand",
+          "coords": [
+            -28.5,
+            31.5
+          ],
+          "hint": "British annexation of Zululand — dated 1887 by Smith and 1897 by Walvin — extends British power over southern Africa and puts vast tracts of land in the hands of sugar planters on favourable terms, beginning a segregation of Indian, African and white peoples that Walvin says was encouraged by sugar interests and the imperial government.",
+          "tag": "CONTESTED",
+          "note": "CONTESTED on the date (see ec10): Smith (2015) p.51; Walvin (2017) ch.9. The interpretation of sugar’s role is Walvin’s.",
+          "keywords": ["Zululand"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "Freed people leaving the plantations, Hawaii’s depopulation, Gandhi in Natal and Britain’s sugar-fed poor",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Enslaved Lives",
+          "label": "Former slaves leave the plantations",
+          "date": "1834–1838",
+          "loc": "British West Indies",
+          "coords": [
+            17.99,
+            -76.79
+          ],
+          "hint": "When emancipation came, large numbers of former slaves simply quit the sugar plantations, hoping to farm small plots as free peasants, often growing cane for the nearest factory; the work in the cane fields was as hard and punitive as ever, and labourers generally stayed on only when there were few alternatives.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.9 (generalising across the Caribbean, the US and Brazil); Mintz (1985) p.55 on the planters’ answer, the ‘contract’ form of labour. Compare o2.",
+          "keywords": ["British West Indies","Former"]
+        },
+        {
+          "id": "l2",
+          "group": "Marginalised Communities",
+          "label": "The Hawaiian population falls below 60,000",
+          "date": "1870s",
+          "loc": "Hawaii",
+          "coords": [
+            21.31,
+            -157.86
+          ],
+          "hint": "The Hawaiian population, estimated at between 300,000 and 600,000 when Captain Cook arrived, has fallen to less than 60,000 by the 1870s; the plantations therefore import workers, until by the turn of the century native Hawaiians are a minority in their homeland and Japanese the largest ethnic group.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.11 (the pre-contact estimate is a range from other scholarship, not examined here).",
+          "keywords": ["Hawaii","Hawaiian","Captain Cook"]
+        },
+        {
+          "id": "l4",
+          "group": "Marginalised Communities",
+          "label": "Britain’s urban poor live on jam, bread and sweet tea",
+          "date": "1870–1900",
+          "loc": "Urban Britain",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "hint": "By the late nineteenth century working-class diets in Britain, especially those of women and children, seemed to rely on sugar — highly sweetened tea, jam and bread; Mintz notes that by the 1860s a pudding or currant cake appears in poor families’ budgets and jam made from windfalls, and by the 1890s tea and sugar were ‘new necessities’.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Walvin (2017) ch.12; Mintz (1985) pp.135 and 143 (Rowntree’s study of rural labourers; the 90 lb a head). Compare sugar-1650-1800::l5.",
+          "keywords": ["Urban Britain"],
+          "xlinks": ["sugar-1650-1800::l5"]
+        },
+        {
+          "id": "l3",
+          "group": "Marginalised Communities",
+          "label": "The young Gandhi is radicalised in Natal’s sugar country",
+          "date": "1893",
+          "loc": "Natal",
+          "coords": [
+            -29.86,
+            31.02
+          ],
+          "hint": "Walvin says the young Gandhi, moving to South Africa, was radicalised by the toxic cultural and economic mix produced by sugar — the ill-treatment of Indian indentured labourers, the segregation encouraged by sugar interests and the imperial government.",
+          "tag": "CONTEXT",
+          "note": "SECONDARY (an interpretive claim of Walvin’s): Walvin (2017) ch.9. The year 1893 (Gandhi’s arrival in Natal) is from general knowledge, not Walvin.",
+          "keywords": ["Natal","Gandhi","South Africa"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 1806,
+          "l": "The Continental System cuts Europe off from cane sugar",
+          "entryId": "c1"
+        },
+        {
+          "y": 1861,
+          "l": "The Civil War cuts Louisiana’s plantations from 1,200 to 231",
+          "entryId": "c2"
+        },
+        {
+          "y": 1868,
+          "l": "Cuba’s Ten Years’ War: slaves walk off the plantations",
+          "entryId": "c3"
+        },
+        {
+          "y": 1893,
+          "l": "Planters, with US Marines, overthrow Hawaii’s queen",
+          "entryId": "c4"
+        },
+        {
+          "y": 1898,
+          "l": "Sugar is ‘a decisive element’ in the road to the war of 1898",
+          "entryId": "c5"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 1807,
+          "l": "Britain and the United States end the slave trade, but not slavery",
+          "entryId": "o1"
+        },
+        {
+          "y": 1833,
+          "l": "Britain ends slavery in the colonies, with compensation and ‘apprentic",
+          "entryId": "o2"
+        },
+        {
+          "y": 1841,
+          "l": "Palmerston mocks Britain’s ‘conscience’ about slave-grown sugar",
+          "entryId": "o3"
+        },
+        {
+          "y": 1842,
+          "l": "The United States protects its sugar industry",
+          "entryId": "o4"
+        },
+        {
+          "y": 1846,
+          "l": "Britain abolishes its sugar duties",
+          "entryId": "o5"
+        },
+        {
+          "y": 1848,
+          "l": "France abolishes slavery",
+          "entryId": "o6"
+        },
+        {
+          "y": 1886,
+          "l": "Cuba abolishes slavery in 1886, Brazil in 1888",
+          "entryId": "o7"
+        },
+        {
+          "y": 1887,
+          "l": "Hawaii’s planters impose the ‘Bayonet Constitution’",
+          "entryId": "o8"
+        },
+        {
+          "y": 1890,
+          "l": "The McKinley Act changes the US sugar tariff",
+          "entryId": "o9"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 1800,
+          "l": "Quakers and abolitionists back beet sugar",
+          "entryId": "b1"
+        },
+        {
+          "y": 1835,
+          "l": "Missionaries help the first Hawaiian sugar company",
+          "entryId": "b2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 1831,
+          "l": "Quaker chocolate makers turn cocoa into sweets",
+          "entryId": "e1"
+        },
+        {
+          "y": 1864,
+          "l": "Keiller turns unsold Seville oranges into marmalade",
+          "entryId": "e3"
+        },
+        {
+          "y": 1866,
+          "l": "Mark Twain calls Hawaii ‘the king of the sugar world’",
+          "entryId": "e2"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 1837,
+          "l": "Vilmorin breeds the high-sucrose sugar beet",
+          "entryId": "t1"
+        },
+        {
+          "y": 1839,
+          "l": "Graham would ban refined sugar",
+          "entryId": "t2"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 1788,
+          "l": "American consumption: 5 lb in 1788, 80 lb in the 1890s",
+          "entryId": "ec14"
+        },
+        {
+          "y": 1800,
+          "l": "Cuba grows from 19,000 tons to 446,000, a quarter of world output",
+          "entryId": "ec3"
+        },
+        {
+          "y": 1800,
+          "l": "The world’s population almost doubles",
+          "entryId": "ec6"
+        },
+        {
+          "y": 1810,
+          "l": "British consumption rises from 18 lb a head in 1810 to 91 lb in 1914",
+          "entryId": "ec13"
+        },
+        {
+          "y": 1812,
+          "l": "The first beet-sugar factories collapse with peace",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1812,
+          "l": "Louisiana has 75 mills in 1812 and 1,536 estates within sixty years",
+          "entryId": "ec2"
+        },
+        {
+          "y": 1829,
+          "l": "Mauritius makes nearly a tenth of the world’s sugar",
+          "entryId": "ec7"
+        },
+        {
+          "y": 1835,
+          "l": "Hawaii’s sugar: four tons in 1836, 105,000 in 1886",
+          "entryId": "ec9"
+        },
+        {
+          "y": 1836,
+          "l": "Beet grows to half the world’s sugar by 1880",
+          "entryId": "ec4"
+        },
+        {
+          "y": 1840,
+          "l": "Sugar prices fall to a quarter of their 1840 level",
+          "entryId": "ec5"
+        },
+        {
+          "y": 1860,
+          "l": "Natal’s cane grows with Indian workers",
+          "entryId": "ec10"
+        },
+        {
+          "y": 1860,
+          "l": "Queensland starts sugar with Pacific labour",
+          "entryId": "ec11"
+        },
+        {
+          "y": 1860,
+          "l": "The Pearl River Delta gives up cane; only Taiwan modernises",
+          "entryId": "ec18"
+        },
+        {
+          "y": 1864,
+          "l": "British refining shrinks from 72 refineries in 1864 to 13 in 1913",
+          "entryId": "ec12"
+        },
+        {
+          "y": 1865,
+          "l": "Louisiana recovers: 302,778 tons by 1900",
+          "entryId": "ec8"
+        },
+        {
+          "y": 1885,
+          "l": "Soda-fountain pharmacists launch Dr Pepper, Coca-Cola and Pepsi",
+          "entryId": "ec17"
+        },
+        {
+          "y": 1886,
+          "l": "Cuba makes 750,000 tons in 1886 and a million by 1900",
+          "entryId": "ec16"
+        },
+        {
+          "y": 1887,
+          "l": "Havemeyer’s Sugar Trust controls 98 per cent of US refining",
+          "entryId": "ec15"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 1813,
+          "l": "Howard’s vacuum pan boils sugar at a lower heat",
+          "entryId": "te1"
+        },
+        {
+          "y": 1816,
+          "l": "A steam engine drives the cane mill",
+          "entryId": "te2"
+        },
+        {
+          "y": 1830,
+          "l": "Refiners adopt acid, bone charcoal and a 95-degree standard",
+          "entryId": "te3"
+        },
+        {
+          "y": 1837,
+          "l": "The centrifuge replaces the clay and the drip house",
+          "entryId": "te4"
+        },
+        {
+          "y": 1850,
+          "l": "Three steam mills in Cuba make six times what three ox mills do",
+          "entryId": "te5"
+        },
+        {
+          "y": 1858,
+          "l": "The Mason jar lets sugar preserve fruit for the winter",
+          "entryId": "te6"
+        },
+        {
+          "y": 1869,
+          "l": "Steamers and the Suez Canal cut freight on Asian sugar by up to 63 per",
+          "entryId": "te7"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 1808,
+          "l": "Africans keep arriving in Cuba after Britain’s ban",
+          "entryId": "x6"
+        },
+        {
+          "y": 1834,
+          "l": "Indian indentured workers number nearly 1.5 million",
+          "entryId": "x1"
+        },
+        {
+          "y": 1850,
+          "l": "Chinese indentured workers go to Cuba, Hawaii and the Caribbean",
+          "entryId": "x2"
+        },
+        {
+          "y": 1860,
+          "l": "Blackbirders take Pacific islanders to Queensland’s cane",
+          "entryId": "x4"
+        },
+        {
+          "y": 1865,
+          "l": "Japanese workers arrive in Hawaii’s cane fields",
+          "entryId": "x5"
+        },
+        {
+          "y": 1875,
+          "l": "The Reciprocity Treaty hands Hawaii’s sugar to the US market",
+          "entryId": "x3"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 1803,
+          "l": "The Louisiana Purchase opens the Mississippi to sugar",
+          "entryId": "w1"
+        },
+        {
+          "y": 1810,
+          "l": "Britain takes Mauritius",
+          "entryId": "w2"
+        },
+        {
+          "y": 1887,
+          "l": "Zululand is annexed and handed to sugar planters",
+          "entryId": "w3"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 1834,
+          "l": "Former slaves leave the plantations",
+          "entryId": "l1"
+        },
+        {
+          "y": 1870,
+          "l": "The Hawaiian population falls below 60,000",
+          "entryId": "l2"
+        },
+        {
+          "y": 1870,
+          "l": "Britain’s urban poor live on jam, bread and sweet tea",
+          "entryId": "l4"
+        },
+        {
+          "y": 1893,
+          "l": "The young Gandhi is radicalised in Natal’s sugar country",
+          "entryId": "l3"
+        }
+      ]
+    }
+  ],
+  "region": "Sugar",
+  "period_label": "Early Modern"
+}
