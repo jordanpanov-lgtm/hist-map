@@ -304,6 +304,30 @@
       "label": "Herds and tree fats",
       "full": "Few herds in the tsetse belt and the Americas; avocado, palm and coconut fill the gap.",
       "src": "Kiple (editors)"
+    },
+    {
+      "id": "ec25",
+      "lane": "economy",
+      "year": -3000,
+      "label": "Camelina",
+      "full": "False flax: a weed of flax that became central Europe’s oil crop; Auvernier to the Baltic.",
+      "src": "Zohary (Camelina)"
+    },
+    {
+      "id": "ec26",
+      "lane": "economy",
+      "year": -5800,
+      "label": "The poppy",
+      "full": "A west Mediterranean domesticate, eaten and pressed for oil; La Marmotta to the lake villages.",
+      "src": "Zohary (poppy)"
+    },
+    {
+      "id": "ec27",
+      "lane": "economy",
+      "year": -8000,
+      "label": "Brassica and mustard seed",
+      "full": "Crushed seed cakes at Jerf el Ahmar and wild crucifers collected for oil in Swiss lake villages.",
+      "src": "Zohary (crucifers)"
     }
   ],
   "edges": [
@@ -516,6 +540,30 @@
       "ec10",
       "loose",
       "The Saharan dairy fat is the herding side of Africa’s fat story, north of the tsetse belt."
+    ],
+    [
+      "ec25",
+      "w1",
+      "loose",
+      "Camelina and poppy are plant oils of the cool north, a qualification of the baseline that sets animal fat in the north and plant oil in the south."
+    ],
+    [
+      "ec26",
+      "ec25",
+      "loose",
+      "Poppy and Camelina are Europe’s two northern oil seeds in the Neolithic and Bronze Age record."
+    ],
+    [
+      "ec27",
+      "ec24",
+      "loose",
+      "Crushed brassica seed in Syria and brassica seeds at Banpo are the Near Eastern and Chinese ends of the same uncertain oil story."
+    ],
+    [
+      "ec27",
+      "ec25",
+      "loose",
+      "The Swiss lake villages hold both the wild crucifers and Camelina that Zohary reads as oil seeds."
     ]
   ]
 }
