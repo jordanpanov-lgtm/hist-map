@@ -2983,6 +2983,19 @@ const SELECTED_PAIRS = [
   ['sugar-8000bc-1200bc::e2', 'egypt-3000bc-2100bc::b3'],             // Niuserre's sun temple at Abu Ghurab (the beekeeping relief)
   ['sugar-8000bc-1200bc::ec3', 'gulf-prehistory-8000bc-3000bc::ec4'], // early date-palm use on Dalma
   ['sugar-8000bc-1200bc::ec3', 'mesopotamia-6500bc-3800bc::e2'],      // barley, the date palm, the flock and the marsh
+  // ── sugar-1200bc-300bc (Sugar program folio 2) — hand-reviewed
+  ['sugar-1200bc-300bc::x1', 'achaemenid-550bc-330bc::t3'],           // Scylax's voyage down the Indus (the Indus satrapy)
+  ['sugar-1200bc-300bc::w1', 'achaemenid-550bc-330bc::c8'],           // Alexander's conquest of the empire
+  ['sugar-1200bc-300bc::ec1', 'babylon-1155bc-539bc::e4'],            // the date economy of the south
+  ['sugar-1200bc-300bc::ec1', 'dilmun-3000bc-1200bc::ec5'],           // the date gardens of Bahrain
+  // hand-offs inside the Sugar program:
+  ['sugar-1200bc-300bc::b3', 'sugar-300bc-600ad::b1'],                // the Pātimokkha's syrup -> the Vinaya's five tonics
+  ['sugar-1200bc-300bc::te2', 'sugar-300bc-600ad::te1'],              // guḍa -> the Arthaśāstra ladder
+  ['sugar-1200bc-300bc::th3', 'sugar-300bc-600ad::th1'],              // Nearchus's reeds -> Theophrastus's reed honey
+  ['sugar-1200bc-300bc::b4', 'sugar-300bc-600ad::b3'],                // the Ikṣvāku descent -> cane as symbol in Buddhist texts
+  ['sugar-1200bc-300bc::th2', 'sugar-300bc-600ad::x2'],               // śarkarā -> the word travels
+  ['sugar-1200bc-300bc::te1', 'sugar-8000bc-1200bc::x1'],             // the hybrid canes <-> the older diffusion model
+  ['sugar-1200bc-300bc::th1', 'sugar-8000bc-1200bc::th1'],            // Yue cane words <-> the Proto-Austronesian word
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

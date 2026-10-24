@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": -1000,
+      "label": "Hybrid canes",
+      "full": "On the mainland New Guinea cane meets wild S. spontaneum and hybrids arise — S. barberi in north India and S. sinense in south China — that suit cooler lands and push commercial cane from about 25°N to 35°N.",
+      "src": "Needham SCC 6.3 pp.130–134; CIRAD (2025)"
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": -1000,
+      "label": "Atharvaveda",
+      "full": "Sugarcane is absent from the Rigveda and first recorded about 1000 BC in the Atharvaveda, possibly recognising a cultigen already present in pre-Aryan Bengal.",
+      "src": "Needham SCC 6.3 p.134 n.b"
+    },
+    {
+      "id": "b3",
+      "lane": "belief",
+      "year": -500,
+      "label": "Pātimokkha",
+      "full": "The monks’ rule codified in the Buddha’s lifetime allows syrup (phāṇita) to the sick as one of the five medicines.",
+      "src": "Needham SCC 6.3 p.367 (Daniels)"
+    },
+    {
+      "id": "b4",
+      "lane": "belief",
+      "year": -500,
+      "label": "Ikṣvāku",
+      "full": "The Buddha is later called ‘born of sugarcane’ because the Śākya clan traced its descent to Ikṣvāku; Buddhist literature mentions cane widely from about 500 BC.",
+      "src": "Needham SCC 6.3 pp.61, 134"
+    },
+    {
+      "id": "te2",
+      "lane": "technology",
+      "year": -300,
+      "label": "Guḍa",
+      "full": "About 300 BC the expanded Vinaya and the Baudhāyana Dharmasūtra name guḍa, lump sugar, after syrup — the second rung of the Indian ladder.",
+      "src": "Needham SCC 6.3 pp.367–368"
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": -518,
+      "label": "Indus satrapy",
+      "full": "Darius I makes the Indus valley a Persian satrapy and sends Scylax down the river to Egypt.",
+      "src": "Achaemenid folio; Buttery (2022) p.8 for the sugar claim"
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": -326,
+      "label": "Alexander at Indus",
+      "full": "Alexander’s army reaches the Punjab and sends Nearchus down the Indus: the Greeks’ first direct contact with India.",
+      "src": "Strabo 15.1.20; Bouras-Vallianatos (2021) n.20"
+    },
+    {
+      "id": "th3",
+      "lane": "thought",
+      "year": -325,
+      "label": "Nearchus",
+      "full": "Nearchus reports reeds that yield honey though there are no bees, preserved in Strabo.",
+      "src": "Strabo 15.1.20 (Hamilton & Falconer; Radt)"
+    }
+  ],
+  "edges": [
+    [
+      "te1",
+      "b1",
+      "loose",
+      "On the Brandes model S. officinarum had reached India and hybridised by the time the Atharvaveda names the cane about 1000 BC, though the verse may record an older Bengal cultigen."
+    ],
+    [
+      "b3",
+      "te2",
+      "strong",
+      "Daniels sets the sequence directly: syrup (phāṇita) in the Pātimokkha about 500 BC, then amorphous lump sugar (guḍa) about 300 BC in the expanded Vinaya."
+    ],
+    [
+      "b3",
+      "b4",
+      "loose",
+      "Both are early Buddhist uses of cane — the monks’ syrup and the founder’s ‘sugarcane’ lineage — in the literature Daniels dates from about 500 BC."
+    ],
+    [
+      "x1",
+      "w1",
+      "loose",
+      "Alexander marches into Indus lands that Darius I had already made a Persian satrapy."
+    ],
+    [
+      "w1",
+      "th3",
+      "strong",
+      "Nearchus’s report comes from the fleet that Alexander sent down the Indus; Bouras-Vallianatos says the Greeks first met cane juice on that campaign."
+    ]
+  ]
+}

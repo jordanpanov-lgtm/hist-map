@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 10399,
-    "folio_count": 215,
-    "xlink_pairs": 2967,
-    "keyword_terms": 15717,
+    "total_entries": 10411,
+    "folio_count": 216,
+    "xlink_pairs": 2978,
+    "keyword_terms": 15730,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -989,6 +989,11 @@
         "id": "spain-718-1230",
         "title": "Christian Kingdoms",
         "entries": 36
+      },
+      {
+        "id": "sugar-1200bc-300bc",
+        "title": "Sugar",
+        "entries": 12
       },
       {
         "id": "sugar-300bc-600ad",
@@ -10616,6 +10621,18 @@
     "spain-718-1230::lv3": "Cautivos — frontier captives and the alfaqueques who ransomed them",
     "spain-718-1230::lv1": "Queens regent and 'reinas propietarias' — ruling women of medieval Iberia",
     "spain-718-1230::lv2": "Jews under Christian rule — fueros and protection",
+    "sugar-1200bc-300bc::b1": "The Atharvaveda names the cane (ikṣu)",
+    "sugar-1200bc-300bc::b2": "The prophets’ ‘sweet cane from a far country’",
+    "sugar-1200bc-300bc::b3": "The Pātimokkha allows syrup to sick monks",
+    "sugar-1200bc-300bc::b4": "The Buddha ‘born of sugarcane’: the Ikṣvāku descent",
+    "sugar-1200bc-300bc::th1": "Cane words in the Yue languages and archaic Chinese",
+    "sugar-1200bc-300bc::th2": "Śarkarā: from ‘gravel’ to sugar",
+    "sugar-1200bc-300bc::th3": "Nearchus: reeds that yield honey though there are no bees",
+    "sugar-1200bc-300bc::ec1": "The date palm, store of wealth in Chaldean Babylonia",
+    "sugar-1200bc-300bc::te1": "The Indian and Chinese hybrid canes arise",
+    "sugar-1200bc-300bc::te2": "Guḍa: the first lump sugar",
+    "sugar-1200bc-300bc::x1": "Darius I annexes the Indus valley",
+    "sugar-1200bc-300bc::w1": "Alexander’s army reaches the Indus",
     "sugar-300bc-600ad::p1": "Shapur I — builder of Khuzestan",
     "sugar-300bc-600ad::p2": "Khusrau I Anushirvan",
     "sugar-300bc-600ad::c1": "Taiwu asks for sugarcane at Pengcheng",
@@ -11597,7 +11614,8 @@
       "achaemenid-caucasus-585bc-330bc::c5",
       "hellenistic-anatolia-334bc-133bc::p1",
       "mesopotamia-539bc-331bc::k6",
-      "persian-anatolia-546bc-334bc::c8"
+      "persian-anatolia-546bc-334bc::c8",
+      "sugar-1200bc-300bc::w1"
     ],
     "hellenistic-anatolia-334bc-133bc::p1": [
       "achaemenid-550bc-330bc::c8",
@@ -11613,6 +11631,9 @@
     "persian-anatolia-546bc-334bc::c8": [
       "achaemenid-550bc-330bc::c8",
       "hellenistic-anatolia-334bc-133bc::p1"
+    ],
+    "sugar-1200bc-300bc::w1": [
+      "achaemenid-550bc-330bc::c8"
     ],
     "achaemenid-550bc-330bc::o5": [
       "levant-539bc-332bc::p1",
@@ -11698,6 +11719,12 @@
     ],
     "achaemenid-550bc-330bc::t1": [
       "achaemenid-caucasus-585bc-330bc::o2"
+    ],
+    "achaemenid-550bc-330bc::t3": [
+      "sugar-1200bc-300bc::x1"
+    ],
+    "sugar-1200bc-300bc::x1": [
+      "achaemenid-550bc-330bc::t3"
     ],
     "achaemenid-550bc-330bc::t2": [
       "persian-anatolia-546bc-334bc::t1"
@@ -13882,11 +13909,16 @@
       "babylon-1155bc-539bc::e2"
     ],
     "babylon-1155bc-539bc::e4": [
-      "mesopotamia-539bc-331bc::e4"
+      "mesopotamia-539bc-331bc::e4",
+      "sugar-1200bc-300bc::ec1"
     ],
     "mesopotamia-539bc-331bc::e4": [
       "babylon-1155bc-539bc::e4",
       "mesopotamia-331bc-141bc::e4"
+    ],
+    "sugar-1200bc-300bc::ec1": [
+      "babylon-1155bc-539bc::e4",
+      "dilmun-3000bc-1200bc::ec5"
     ],
     "babylon-1155bc-539bc::xc3": [
       "dedan-tayma-1200bc-300bc::k3",
@@ -16774,6 +16806,9 @@
     ],
     "magan-3000bc-1200bc::ec2": [
       "dilmun-3000bc-1200bc::ec3"
+    ],
+    "dilmun-3000bc-1200bc::ec5": [
+      "sugar-1200bc-300bc::ec1"
     ],
     "dilmun-3000bc-1200bc::tc3": [
       "sumer-2900bc-2334bc::g4"
@@ -24700,6 +24735,48 @@
     ],
     "spain-1230-1492::c1": [
       "spain-718-1230::k5"
+    ],
+    "sugar-1200bc-300bc::b3": [
+      "sugar-300bc-600ad::b1"
+    ],
+    "sugar-300bc-600ad::b1": [
+      "sugar-1200bc-300bc::b3"
+    ],
+    "sugar-1200bc-300bc::b4": [
+      "sugar-300bc-600ad::b3"
+    ],
+    "sugar-300bc-600ad::b3": [
+      "sugar-1200bc-300bc::b4"
+    ],
+    "sugar-1200bc-300bc::th1": [
+      "sugar-8000bc-1200bc::th1"
+    ],
+    "sugar-8000bc-1200bc::th1": [
+      "sugar-1200bc-300bc::th1"
+    ],
+    "sugar-1200bc-300bc::th2": [
+      "sugar-300bc-600ad::x2"
+    ],
+    "sugar-300bc-600ad::x2": [
+      "sugar-1200bc-300bc::th2"
+    ],
+    "sugar-1200bc-300bc::th3": [
+      "sugar-300bc-600ad::th1"
+    ],
+    "sugar-300bc-600ad::th1": [
+      "sugar-1200bc-300bc::th3"
+    ],
+    "sugar-1200bc-300bc::te1": [
+      "sugar-8000bc-1200bc::x1"
+    ],
+    "sugar-8000bc-1200bc::x1": [
+      "sugar-1200bc-300bc::te1"
+    ],
+    "sugar-1200bc-300bc::te2": [
+      "sugar-300bc-600ad::te1"
+    ],
+    "sugar-300bc-600ad::te1": [
+      "sugar-1200bc-300bc::te2"
     ],
     "tylos-mleiha-300bc-240ad::tc3": [
       "sugar-300bc-600ad::w2"
@@ -79397,6 +79474,62 @@
       "Jews",
       "Christian Iberia"
     ],
+    "sugar-1200bc-300bc::b1": [
+      "Bengal",
+      "Gangetic",
+      "Atharvaveda"
+    ],
+    "sugar-1200bc-300bc::b2": [
+      "Jerusalem"
+    ],
+    "sugar-1200bc-300bc::b3": [
+      "Rajagaha",
+      "Magadha",
+      "Pātimokkha"
+    ],
+    "sugar-1200bc-300bc::b4": [
+      "Kapilavastu",
+      "Buddha",
+      "Ikṣvāku"
+    ],
+    "sugar-1200bc-300bc::th1": [
+      "China",
+      "Yue",
+      "Paul Benedict"
+    ],
+    "sugar-1200bc-300bc::th2": [
+      "Magadha"
+    ],
+    "sugar-1200bc-300bc::th3": [
+      "Indus",
+      "Nearchus"
+    ],
+    "sugar-1200bc-300bc::ec1": [
+      "Chaldean Babylonia",
+      "Near East"
+    ],
+    "sugar-1200bc-300bc::te1": [
+      "Bihar–Bengal",
+      "China",
+      "New Guinea"
+    ],
+    "sugar-1200bc-300bc::te2": [
+      "Magadha",
+      "Guḍa",
+      "Baudhāyana Dharmasūtra"
+    ],
+    "sugar-1200bc-300bc::x1": [
+      "Indus",
+      "Achaemenid",
+      "Darius I",
+      "Scylax of Caryanda",
+      "Near East"
+    ],
+    "sugar-1200bc-300bc::w1": [
+      "Punjab",
+      "Indus",
+      "Alexander"
+    ],
     "sugar-300bc-600ad::p1": [
       "House of Sasan",
       "Gundeshapur",
@@ -84237,7 +84370,8 @@
       "mesopotamia-539bc-331bc::k3",
       "mesopotamia-539bc-331bc::k4",
       "mesopotamia-539bc-331bc::w4",
-      "persian-anatolia-546bc-334bc::p1"
+      "persian-anatolia-546bc-334bc::p1",
+      "sugar-1200bc-300bc::x1"
     ],
     "Pasargadae": [
       "achaemenid-550bc-330bc::p1",
@@ -84373,7 +84507,8 @@
       "levant-539bc-332bc::p2",
       "media-728bc-550bc::tc1",
       "mesopotamia-539bc-331bc::k2",
-      "seleucid-iran-330bc-148bc::e2"
+      "seleucid-iran-330bc-148bc::e2",
+      "sugar-1200bc-300bc::x1"
     ],
     "Royal Road": [
       "achaemenid-550bc-330bc::p4",
@@ -85013,6 +85148,8 @@
       "roman-sasanian-world-224-632::w2",
       "south-arabia-300bc-628::t4",
       "south-arabia-prehistory-8000bc-1200bc::tc1",
+      "sugar-1200bc-300bc::ec1",
+      "sugar-1200bc-300bc::x1",
       "sugar-8000bc-1200bc::ec3",
       "sumer-2900bc-2334bc::xc4",
       "urartu-colchis-1200bc-585bc::e4",
@@ -85345,7 +85482,8 @@
       "rome-300-400::a3",
       "rome-300-400::te4",
       "sassanid-484-651::c3",
-      "sassanid-484-651::r4"
+      "sassanid-484-651::r4",
+      "sugar-1200bc-300bc::b2"
     ],
     "Cyrus Edict": [
       "achaemenid-550bc-330bc::o5",
@@ -85639,7 +85777,8 @@
       "achaemenid-550bc-330bc::t3"
     ],
     "Scylax of Caryanda": [
-      "achaemenid-550bc-330bc::t3"
+      "achaemenid-550bc-330bc::t3",
+      "sugar-1200bc-300bc::x1"
     ],
     "Arabian Peninsula": [
       "achaemenid-550bc-330bc::t3",
@@ -89533,6 +89672,8 @@
       "roman-parthian-world-63bc-224ad::x2",
       "sassanid-224-484::ex1",
       "sassanid-484-651::a3",
+      "sugar-1200bc-300bc::th1",
+      "sugar-1200bc-300bc::te1",
       "sugar-300bc-600ad::ec3",
       "sugar-300bc-600ad::te2",
       "uae-1971-today::x4",
@@ -104472,7 +104613,10 @@
       "magan-3000bc-1200bc::x2",
       "mesopotamia-331bc-141bc::xc2",
       "seleucid-iran-330bc-148bc::c1",
-      "seleucid-iran-330bc-148bc::x1"
+      "seleucid-iran-330bc-148bc::x1",
+      "sugar-1200bc-300bc::th3",
+      "sugar-1200bc-300bc::x1",
+      "sugar-1200bc-300bc::w1"
     ],
     "Samarkand": [
       "caliphate-632-750::x2",
@@ -118131,6 +118275,7 @@
       "mesopotamia-539bc-331bc::xc5",
       "persian-anatolia-546bc-334bc::l2",
       "seleucid-iran-330bc-148bc::c7",
+      "sugar-1200bc-300bc::w1",
       "tylos-mleiha-300bc-240ad::t1"
     ],
     "Ptolemy": [
@@ -127188,7 +127333,8 @@
     ],
     "Bengal": [
       "hormuz-1200-1507::ec1",
-      "oman-gulf-1650-1820::w3"
+      "oman-gulf-1650-1820::w3",
+      "sugar-1200bc-300bc::b1"
     ],
     "Far Eastern": [
       "hormuz-1200-1507::ec3"
@@ -150458,6 +150604,69 @@
     "Christian Iberia": [
       "spain-718-1230::lv2"
     ],
+    "Gangetic": [
+      "sugar-1200bc-300bc::b1"
+    ],
+    "Atharvaveda": [
+      "sugar-1200bc-300bc::b1"
+    ],
+    "Rajagaha": [
+      "sugar-1200bc-300bc::b3",
+      "sugar-300bc-600ad::b1"
+    ],
+    "Magadha": [
+      "sugar-1200bc-300bc::b3",
+      "sugar-1200bc-300bc::th2",
+      "sugar-1200bc-300bc::te2",
+      "sugar-300bc-600ad::b1",
+      "sugar-300bc-600ad::th2",
+      "sugar-300bc-600ad::te1"
+    ],
+    "Pātimokkha": [
+      "sugar-1200bc-300bc::b3"
+    ],
+    "Kapilavastu": [
+      "sugar-1200bc-300bc::b4"
+    ],
+    "Buddha": [
+      "sugar-1200bc-300bc::b4"
+    ],
+    "Ikṣvāku": [
+      "sugar-1200bc-300bc::b4"
+    ],
+    "Yue": [
+      "sugar-1200bc-300bc::th1",
+      "sugar-300bc-600ad::te2",
+      "sugar-300bc-600ad::l1"
+    ],
+    "Paul Benedict": [
+      "sugar-1200bc-300bc::th1"
+    ],
+    "Nearchus": [
+      "sugar-1200bc-300bc::th3"
+    ],
+    "Chaldean Babylonia": [
+      "sugar-1200bc-300bc::ec1"
+    ],
+    "Bihar–Bengal": [
+      "sugar-1200bc-300bc::te1"
+    ],
+    "New Guinea": [
+      "sugar-1200bc-300bc::te1",
+      "sugar-8000bc-1200bc::ec4",
+      "sugar-8000bc-1200bc::te1",
+      "sugar-8000bc-1200bc::x1",
+      "sugar-8000bc-1200bc::w1"
+    ],
+    "Guḍa": [
+      "sugar-1200bc-300bc::te2"
+    ],
+    "Baudhāyana Dharmasūtra": [
+      "sugar-1200bc-300bc::te2"
+    ],
+    "Punjab": [
+      "sugar-1200bc-300bc::w1"
+    ],
     "Tustar": [
       "sugar-300bc-600ad::p1"
     ],
@@ -150485,14 +150694,6 @@
     ],
     "Maximum Prices": [
       "sugar-300bc-600ad::o2"
-    ],
-    "Rajagaha": [
-      "sugar-300bc-600ad::b1"
-    ],
-    "Magadha": [
-      "sugar-300bc-600ad::b1",
-      "sugar-300bc-600ad::th2",
-      "sugar-300bc-600ad::te1"
     ],
     "Pali Vinaya": [
       "sugar-300bc-600ad::b1"
@@ -150706,10 +150907,6 @@
     "Arthashastra": [
       "sugar-300bc-600ad::te1"
     ],
-    "Yue": [
-      "sugar-300bc-600ad::te2",
-      "sugar-300bc-600ad::l1"
-    ],
     "Yang Fu": [
       "sugar-300bc-600ad::te2"
     ],
@@ -150781,12 +150978,6 @@
     ],
     "Beeswax": [
       "sugar-8000bc-1200bc::ec2"
-    ],
-    "New Guinea": [
-      "sugar-8000bc-1200bc::ec4",
-      "sugar-8000bc-1200bc::te1",
-      "sugar-8000bc-1200bc::x1",
-      "sugar-8000bc-1200bc::w1"
     ],
     "Wallace": [
       "sugar-8000bc-1200bc::te1"

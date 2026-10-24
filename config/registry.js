@@ -274,6 +274,7 @@ const MODULES = [
   { id:"modern-near-east-1990-today", file:"modules/modern-near-east-1990-today.json", label:"The Modern Near East 1990–today", sub:"The Gulf War and the Peace Process, the Iraq War, the Arab Uprisings and the Syrian Catastrophe, Gaza, and the Iran Wars (as of October 2026)", region:"Near East", period:"Modern" },
   // ── HISTORY OF FOOD (subject folios — one commodity across the world; region = the commodity's zone id) ──
   { id:"sugar-8000bc-1200bc", file:"modules/sugar-8000bc-1200bc.json", label:"Sugar 8000–1200 BC", sub:"Sweetness Before Sugar: Honey and Dates, and the Reed Domesticated in New Guinea", region:"Sugar", period:"Prehistoric" },
+  { id:"sugar-1200bc-300bc", file:"modules/sugar-1200bc-300bc.json", label:"Sugar 1200–300 BC", sub:"The Reed Reaches the Mainland: Hybrid Canes, the Vedic Cane, the Buddha’s Syrup and Honey Without Bees", region:"Sugar", period:"Ancient" },
   { id:"sugar-300bc-600ad", file:"modules/sugar-300bc-600ad.json", label:"Sugar 300 BC–600 AD", sub:"Reed Honey, the Boiling Ladder and the First Roads from India to Rome, Persia and China", region:"Sugar", period:"Late Antique" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];
