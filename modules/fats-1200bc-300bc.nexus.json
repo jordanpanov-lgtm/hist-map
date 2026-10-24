@@ -232,6 +232,30 @@
       "label": "Arctic soapstone lamp",
       "full": "Seal and whale oil in the qulliq of the Norton and Dorset peoples.",
       "src": "Wikipedia; museum pages"
+    },
+    {
+      "id": "ec12",
+      "lane": "economy",
+      "year": -440,
+      "label": "Egyptian castor-oil lamps",
+      "full": "Four classical writers on castor oil in Egyptian lamps.",
+      "src": "Lucas ch.XIII"
+    },
+    {
+      "id": "th2",
+      "lane": "thought",
+      "year": -300,
+      "label": "Zhou Keeper of Victuals",
+      "full": "Each meat cooked in its own animal fat at the Zhou court.",
+      "src": "Needham 6.5"
+    },
+    {
+      "id": "e2",
+      "lane": "expression",
+      "year": -300,
+      "label": "Zhou eight delicacies",
+      "full": "Pig fried in melted fat; dog liver wrapped in its own fat.",
+      "src": "Chang p.52"
     }
   ],
   "edges": [
@@ -390,6 +414,18 @@
       "te2",
       "loose",
       "The Greek olive-oil lamp and the Arctic seal-oil lamp are two fuels for the same domestic light."
+    ],
+    [
+      "ec12",
+      "te2",
+      "loose",
+      "Egypt’s castor-oil lamps and the Greek olive-oil lamp are two fuels for the same evening light."
+    ],
+    [
+      "e2",
+      "th2",
+      "strong",
+      "The Record of Rites’ eight delicacies and the Zhou Keeper of Victuals show the same court practice, animal fat as the cooking fat."
     ]
   ]
 }

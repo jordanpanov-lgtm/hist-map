@@ -160,6 +160,30 @@
       "label": "A Fustat shop of 1104",
       "full": "Linseed oil and soap among a retailer’s stock.",
       "src": "Goitein I p.150"
+    },
+    {
+      "id": "ec10",
+      "lane": "economy",
+      "year": 1300,
+      "label": "Coconut oil of Borneo",
+      "full": "Four Shanghai jars of coconut oil in a Banjarmasin chronicle.",
+      "src": "Reid p.31"
+    },
+    {
+      "id": "ec11",
+      "lane": "economy",
+      "year": 1075,
+      "label": "Synagogue lamp oil",
+      "full": "Monthly Fustat accounts of olive and linseed oil.",
+      "src": "Goitein II p.172"
+    },
+    {
+      "id": "x3",
+      "lane": "exchange",
+      "year": 1064,
+      "label": "Tunisian oil in Palermo",
+      "full": "Five thousand dinars of oil in partnerships with Muslims and Jews.",
+      "src": "Goitein II"
     }
   ],
   "edges": [
@@ -258,6 +282,24 @@
       "ec3",
       "strong",
       "The Fustat shop and the Egyptian flax and sesame economy are the retail end of the same oil trade."
+    ],
+    [
+      "ec11",
+      "ec3",
+      "loose",
+      "The synagogue accounts of linseed oil are the consumer end of the Egyptian linseed economy."
+    ],
+    [
+      "x3",
+      "ec2",
+      "strong",
+      "The Tunisian merchant in Palermo and the skins of Tunisian oil reaching Egypt are the same Mediterranean oil trade."
+    ],
+    [
+      "ec10",
+      "ec4",
+      "loose",
+      "The Borneo coconut-oil jars and Hangzhou’s oil among the seven necessities are two oil markets of the same century range."
     ]
   ]
 }

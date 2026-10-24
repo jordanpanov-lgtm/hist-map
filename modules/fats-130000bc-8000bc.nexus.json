@@ -48,6 +48,86 @@
       "label": "The fattest animal",
       "full": "Aleut sea lions and bison: hunters select for fat.",
       "src": "Kiple PDF pp.93–95"
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": -40000,
+      "label": "Wild olive stones",
+      "full": "Heaps of gathered oleaster stones in Palaeolithic and Neolithic sites.",
+      "src": "Mueller ch.1"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": -20000,
+      "label": "Gazelle bone fat",
+      "full": "Intensive marrow and grease extraction in the Levant.",
+      "src": "Munro & Bar-Oz; Bar-Oz & Munro"
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": -21000,
+      "label": "Ohalo II",
+      "full": "Wild olives, almonds and pistachios gathered at the Sea of Galilee.",
+      "src": "PNAS 2004 (abstract)"
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": -162000,
+      "label": "Pinnacle Point",
+      "full": "Shellfish and perhaps scavenged whale blubber, 164,000 years ago.",
+      "src": "Marean 2007 (press)"
+    },
+    {
+      "id": "ec7",
+      "lane": "economy",
+      "year": -17000,
+      "label": "Nile fishers",
+      "full": "Fish processed at Wadi Kubbaniya.",
+      "src": "Excavation summaries"
+    },
+    {
+      "id": "te3",
+      "lane": "technology",
+      "year": -18000,
+      "label": "Xianrendong pots",
+      "full": "The first pots, in China, about 20,000 years ago.",
+      "src": "Wu 2012 (press)"
+    },
+    {
+      "id": "ec8",
+      "lane": "economy",
+      "year": -14000,
+      "label": "Amur pots",
+      "full": "Aquatic oils on the lower Amur, ruminant fat on the middle.",
+      "src": "Shoda 2020"
+    },
+    {
+      "id": "ec9",
+      "lane": "economy",
+      "year": -10000,
+      "label": "Kalahari San fats",
+      "full": "Mongongo nuts and eland fat among the !Kung.",
+      "src": "Lee & DeVore"
+    },
+    {
+      "id": "th2",
+      "lane": "thought",
+      "year": -10000,
+      "label": "Protein poisoning",
+      "full": "Explorers’ accounts of the need for fat.",
+      "src": "Speth ch.4"
+    },
+    {
+      "id": "ec10",
+      "lane": "economy",
+      "year": -9000,
+      "label": "Early avocado stones",
+      "full": "Avocado stones at four sites from Peru to Mexico by 9000 BC.",
+      "src": "VanDerwarker 2025; Kiple"
     }
   ],
   "edges": [
@@ -80,6 +160,72 @@
       "ec1",
       "loose",
       "The pull of fat-rich aquatic and sea-mammal foods is a thread from the Aleut sea lion to the Jōmon pot."
+    ],
+    [
+      "ec4",
+      "te1",
+      "strong",
+      "Gazelle bones broken for grease in the Levant and bones boiled at Neumark-Nord are the same method, found in two regions and two ages."
+    ],
+    [
+      "ec4",
+      "ec2",
+      "loose",
+      "The gazelle assemblages show in bone what the recorded marrow practice shows in ethnography."
+    ],
+    [
+      "ec5",
+      "ec3",
+      "strong",
+      "Wild olives at Ohalo II and heaped oleaster stones across the Mediterranean are two finds of gathered olives."
+    ],
+    [
+      "ec6",
+      "ec1",
+      "loose",
+      "Marine food at Pinnacle Point and in the Jōmon pots are the oldest and a younger case of sea foods in the human diet."
+    ],
+    [
+      "ec7",
+      "ec1",
+      "loose",
+      "Nile fish and Jōmon aquatic foods are two Ice Age fisheries."
+    ],
+    [
+      "te3",
+      "ec1",
+      "strong",
+      "Xianrendong’s soot-marked pots are the older pottery; the Jōmon pots are those whose contents the lipids reveal."
+    ],
+    [
+      "ec8",
+      "ec1",
+      "strong",
+      "Shoda finds the Amur’s lower-river pots used for aquatic oils exactly as Craig found for Jōmon Japan."
+    ],
+    [
+      "ec9",
+      "th2",
+      "loose",
+      "The San’s craving for animal fat and the explorers’ craving for grease are the same observation from two sides."
+    ],
+    [
+      "th2",
+      "th1",
+      "strong",
+      "Speth’s case that lean meat cannot sustain people is the reason hunters pick the fattest animals."
+    ],
+    [
+      "ec9",
+      "ec6",
+      "loose",
+      "The Kalahari San’s fats and Pinnacle Point’s marine food are the two African entries of the folio, a hundred thousand years apart."
+    ],
+    [
+      "ec10",
+      "th1",
+      "loose",
+      "Hunters who prized the fattest animals and gatherers who tended avocado groves were after the same energy-dense food."
     ]
   ]
 }

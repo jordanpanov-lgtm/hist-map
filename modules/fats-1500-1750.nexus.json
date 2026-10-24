@@ -193,6 +193,38 @@
       "label": "Table Bay whales",
       "full": "Van Riebeeck’s thousands of whales and no way to store oil.",
       "src": "Ellis p.125"
+    },
+    {
+      "id": "ec12",
+      "lane": "economy",
+      "year": 1650,
+      "label": "Java fries in oil",
+      "full": "A Dutch observer: oil in place of butter.",
+      "src": "Reid p.33"
+    },
+    {
+      "id": "ec13",
+      "lane": "economy",
+      "year": 1500,
+      "label": "Southeast Asian lamp oils",
+      "full": "Kemiri-nut oil and damar resin for lamps.",
+      "src": "Reid p.74"
+    },
+    {
+      "id": "ec14",
+      "lane": "economy",
+      "year": 1603,
+      "label": "Edo lamp oil",
+      "full": "Rapeseed and vegetable-oil lamps in ordinary homes.",
+      "src": "Ishige ch.5"
+    },
+    {
+      "id": "e3",
+      "lane": "expression",
+      "year": 1590,
+      "label": "Tempura arrives",
+      "full": "Deep-frying from Portuguese cooking.",
+      "src": "Ishige"
     }
   ],
   "edges": [
@@ -315,6 +347,30 @@
       "ec2",
       "loose",
       "The Cape’s whales went unhunted because the Dutch company already had oil and baleen from Spitsbergen."
+    ],
+    [
+      "ec12",
+      "e1",
+      "loose",
+      "Java’s oil in place of butter is the Far Eastern side of the butter-against-oil quarrel that Europe fights in the Lenten fat line."
+    ],
+    [
+      "ec13",
+      "ec8",
+      "loose",
+      "Southeast Asia’s lamp oils and London’s tallow candles are two answers to the same demand for evening light."
+    ],
+    [
+      "ec14",
+      "ec13",
+      "loose",
+      "Edo Japan’s rapeseed lamps and Southeast Asia’s kemiri-nut lamps are the same lamp-oil move on two coasts of Asia."
+    ],
+    [
+      "e3",
+      "ec14",
+      "loose",
+      "Tempura’s frying oil and the rapeseed lamp are two uses of the oil that Edo Japan began to produce."
     ]
   ]
 }

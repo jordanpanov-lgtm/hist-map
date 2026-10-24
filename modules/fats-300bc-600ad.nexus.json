@@ -199,6 +199,22 @@
       "label": "Hanukkah",
       "full": "The lamp oil that lasted eight days.",
       "src": "Mueller"
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": -259,
+      "label": "Ptolemy II’s oil tax",
+      "full": "Ptolemy II taxes five oils in Egypt, castor among them.",
+      "src": "Dalby"
+    },
+    {
+      "id": "ec8",
+      "lane": "economy",
+      "year": -250,
+      "label": "Egypt’s oils in the papyri",
+      "full": "Castor, radish, safflower, linseed, sesame and olive oils in Fayum papyri.",
+      "src": "Lucas ch.XIII"
     }
   ],
   "edges": [
@@ -339,6 +355,12 @@
       "b1",
       "loose",
       "Hanukkah’s lamp oil and the Buddha’s five medicines are two religions making a fat a sacred ration."
+    ],
+    [
+      "ec8",
+      "o1",
+      "strong",
+      "The oils named in the Fayum papyri are the oils Ptolemy II’s tax in the same century singled out."
     ]
   ]
 }

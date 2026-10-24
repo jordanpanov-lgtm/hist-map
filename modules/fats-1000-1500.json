@@ -248,6 +248,21 @@
           "xlinks": ["sugar-1000-1500::l1"]
         },
         {
+          "id": "ec11",
+          "group": "Olive Oil",
+          "label": "Synagogue lamp oil in Fustat: monthly accounts of olive and linseed oil",
+          "date": "c.1075–1080",
+          "loc": "Fustat, Old Cairo",
+          "coords": [
+            30,
+            31.23
+          ],
+          "hint": "Goitein notes that the monthly accounts of the Fustat synagogues’ expenditure on olive and linseed oil are extremely common in the Geniza and could be used with profit by anyone studying the history of lighting. Detailed lists of the lighting appliances survive from 1075 and 1080, soon after the great sack of the Egyptian capital by Turkish mercenaries, when even the caliph’s palaces were plundered.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (book read): Goitein, A Mediterranean Society vol. II: The Community (1971), the section on synagogue furnishings, PDF p.172. The accounts themselves are not read; this is Goitein’s description of them.",
+          "keywords": ["Fustat","Cairo","Synagogue"]
+        },
+        {
           "id": "ec5",
           "group": "Butter & Ghee",
           "label": "Butter turns from a sheep’s luxury into an everyday cattle fat",
@@ -305,9 +320,24 @@
           ],
           "hint": "The Yuan household encyclopaedia Ju jia bi yong includes sheep tallow or lard among the ingredients of its recipe for su, the butter-like fat of earlier centuries, which suggests that after the Yuan the word su no longer meant pure butter but simply a shortening based on animal fat; a reader of later recipes cannot assume that su is butter.",
           "tag": "EVIDENCE",
-          "note": "SECONDARY (scholarly note): Needham, SCC 6.5 (2000) p.254 (PDF p.282, n.90, citing Chü chia pi yung). Date of the Yuan work is given as ‘of the Yuan’; c.1300 is a placeholder for the dynasty.",
+          "note": "SECONDARY (scholarly note): Needham, SCC 6.5 (2000) p.254 (PDF p.282, n.90, citing Chü chia pi yung). Date of the Yuan work is given as ‘of the Yuan’; c.1300 is a placeholder for the dynasty. Chang (ed.), Food in Chinese Culture (1977), the Yüan and Ming chapter, PDF p.262 note 6, warns that su yu has long meant any animal fat, particularly mutton and beef tallow, so that it should not be read as butter wherever it appears in Ming texts (against Wada 1957), though imperial dairy herds still supplied butter for pastries at the end of the dynasty.",
           "keywords": ["Yuan China"],
           "xlinks": ["fats-300bc-600ad::te4"]
+        },
+        {
+          "id": "ec10",
+          "group": "Palm & Coconut",
+          "label": "Four Shanghai jars of coconut oil from Surabaya: a Banjarmasin chronicle",
+          "date": "c.1300–1500",
+          "loc": "Surabaya and Banjarmasin, Java and Borneo",
+          "coords": [
+            -7.25,
+            112.75
+          ],
+          "hint": "Reid cites the Banjarmasin chronicle, in which a hero of the fourteenth or fifteenth century comes back to Borneo from Surabaya with a thousand cakes of sugar, a hundred coconuts and four Shanghai jars of coconut oil, with tamarind, garlic, onions and rice: coconut oil is a good in the island trade in foodstuffs, and travels in Chinese jars.",
+          "tag": "TEXT",
+          "note": "SECONDARY (book read; a chronicle episode, not a customs record): Reid, Southeast Asia in the Age of Commerce 1450–1680, vol.1 (1988) p.31 (PDF p.50), citing Hikayat Banjar pp.362–63. The date is the chronicle’s ‘fourteenth- or fifteenth-century’ hero.",
+          "keywords": ["Surabaya","Banjarmasin","Java","Borneo","Four Shanghai"]
         },
         {
           "id": "ec7",
@@ -389,6 +419,21 @@
           "tag": "EVIDENCE",
           "note": "ANCHOR (documents read): Goitein (1967) vol.1 pp.120 and 154 (PDF pp.156, 190). Span as for ec3.",
           "keywords": ["Egypt","Syria","Aden","Linseed"]
+        },
+        {
+          "id": "x3",
+          "group": "Olive Oil",
+          "label": "A Tunisian merchant in Palermo: five thousand dinars of oil, with Muslim and Jewish partners",
+          "date": "c.1064",
+          "loc": "Palermo, Sicily",
+          "coords": [
+            38.12,
+            13.36
+          ],
+          "hint": "In a Geniza letter of about 1064 a Tunisian merchant staying in Sicily writes that all his dealings in olive oil, which amounted to the enormous sum of five thousand dinars, were made not on his own account but in partnership with Muslims and Jews, inhabitants of Palermo; he refers twice more to his Muslim partners. Goitein takes it as one of the straight partnerships of the eleventh century, lasting years and not merely ephemeral.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (book read): Goitein, A Mediterranean Society vol. II (1971), the section on partnerships, PDF p.316. Compare ec2 for Tunisian oil shipped to Egypt.",
+          "keywords": ["Palermo","Sicily","Tunisian","Muslim","Jewish"]
         },
         {
           "id": "x1",
@@ -552,6 +597,11 @@
           "entryId": "ec2"
         },
         {
+          "y": 1075,
+          "l": "Synagogue lamp oil in Fustat: monthly accounts of olive and linseed oi",
+          "entryId": "ec11"
+        },
+        {
           "y": 1100,
           "l": "Butter turns from a sheep’s luxury into an everyday cattle fat",
           "entryId": "ec5"
@@ -570,6 +620,11 @@
           "y": 1300,
           "l": "China’s su turns from butter into animal-fat shortening",
           "entryId": "ec8"
+        },
+        {
+          "y": 1300,
+          "l": "Four Shanghai jars of coconut oil from Surabaya: a Banjarmasin chronic",
+          "entryId": "ec10"
         },
         {
           "y": 1460,
@@ -606,6 +661,11 @@
           "y": 1000,
           "l": "Linseed oil from Egypt to Syria and Aden",
           "entryId": "x2"
+        },
+        {
+          "y": 1064,
+          "l": "A Tunisian merchant in Palermo: five thousand dinars of oil, with Musl",
+          "entryId": "x3"
         },
         {
           "y": 1300,

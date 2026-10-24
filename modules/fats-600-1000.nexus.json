@@ -160,6 +160,46 @@
       "label": "Shea at Kirikongo",
       "full": "A 1,400-year shea record in Burkina Faso.",
       "src": "Gallagher 2016"
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 675,
+      "label": "Temmu’s meat ban",
+      "full": "Japan’s first prohibition of meat eating; the whale counts as fish.",
+      "src": "Ishige §3.2"
+    },
+    {
+      "id": "e3",
+      "lane": "expression",
+      "year": 800,
+      "label": "Japan without oil",
+      "full": "Cooking without oil or fat; sesame oil for the nobility’s cakes.",
+      "src": "Ishige §3.6"
+    },
+    {
+      "id": "ec8",
+      "lane": "economy",
+      "year": 618,
+      "label": "Tang dairy",
+      "full": "Cream, yogurt, cheese and butter popular under the part-Turkic Tang.",
+      "src": "Anderson p.66"
+    },
+    {
+      "id": "ec9",
+      "lane": "economy",
+      "year": 618,
+      "label": "Tang kaymak and ti-hu",
+      "full": "Cream and clarified butter at the Tang banquet.",
+      "src": "Chang p.107"
+    },
+    {
+      "id": "e4",
+      "lane": "expression",
+      "year": 618,
+      "label": "Tang foreign cakes",
+      "full": "Fried and sesame cakes sold by Iranians on street corners.",
+      "src": "Chang p.118"
     }
   ],
   "edges": [
@@ -258,6 +298,48 @@
       "ec3",
       "loose",
       "Shea in the Sahel and sesame in south India are two tropical seed and nut fats pressed for local use in the same centuries."
+    ],
+    [
+      "o2",
+      "e3",
+      "strong",
+      "The meat ban and the absence of herds are why Japanese cooking did without animal fat, in Ishige’s account."
+    ],
+    [
+      "ec8",
+      "b3",
+      "loose",
+      "Tang dairy fashion and the Buddhist ladder from milk to ghee belong to the same dairy moment."
+    ],
+    [
+      "ec8",
+      "ec6",
+      "loose",
+      "Tang China’s dairy peak and Japan’s milk-skin tribute are the two Buddhist-age dairy worlds of East Asia."
+    ],
+    [
+      "e3",
+      "ec6",
+      "loose",
+      "Japan’s court kept a dairy tribute while its banquets did without oil."
+    ],
+    [
+      "ec9",
+      "ec8",
+      "strong",
+      "The banquet dairy fats of Chang and the peak of Tang dairy consumption are the same observation from two historians."
+    ],
+    [
+      "ec9",
+      "b3",
+      "strong",
+      "Ti-hu is the summit of the Buddhist ladder from milk and of the pharmacopoeias that Needham cites."
+    ],
+    [
+      "e4",
+      "te1",
+      "loose",
+      "Fried sesame cakes and the Tang calendar’s fourth-month seed pressing are the street and farm ends of the same oil trade."
     ]
   ]
 }

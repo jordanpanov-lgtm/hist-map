@@ -200,6 +200,94 @@
       "label": "Blubber lamps",
       "full": "Late Mesolithic lamps of the Ertebølle north.",
       "src": "Antiquity (title)"
+    },
+    {
+      "id": "ec16",
+      "lane": "economy",
+      "year": -7000,
+      "label": "Neolithic beeswax",
+      "full": "Beeswax in early Turkish pots from about 7000 BC.",
+      "src": "Roffet-Salque 2015"
+    },
+    {
+      "id": "ec17",
+      "lane": "economy",
+      "year": -2600,
+      "label": "Indus pot lipids",
+      "full": "Mostly animal fat in Harappan pots; little dairy.",
+      "src": "Suryanarayan 2021"
+    },
+    {
+      "id": "th3",
+      "lane": "thought",
+      "year": -2600,
+      "label": "The Indus cow",
+      "full": "Fuller on the assumption that cattle meant milk.",
+      "src": "Fuller 2006"
+    },
+    {
+      "id": "th4",
+      "lane": "thought",
+      "year": -4000,
+      "label": "Secondary products",
+      "full": "Sherratt on when people began to milk.",
+      "src": "Sherratt 1983"
+    },
+    {
+      "id": "ec18",
+      "lane": "economy",
+      "year": -3800,
+      "label": "Near Oceania tree crops",
+      "full": "Almond, coconut and candlenut at New Guinea sites.",
+      "src": "Kirch ch.3"
+    },
+    {
+      "id": "ec19",
+      "lane": "economy",
+      "year": -3000,
+      "label": "Egypt’s butter fat",
+      "full": "Butter fat, ox fat and goose fat in Egyptian records; cheese at Saqqara.",
+      "src": "Lucas ch.XIII"
+    },
+    {
+      "id": "ec20",
+      "lane": "economy",
+      "year": -4000,
+      "label": "Egypt’s ben, balanos and castor",
+      "full": "Oils Egypt grew: moringa, balanites, castor, lettuce.",
+      "src": "Lucas ch.XIII"
+    },
+    {
+      "id": "ec21",
+      "lane": "economy",
+      "year": -2600,
+      "label": "The olive in Egypt",
+      "full": "A sacred tree at Heliopolis, oil imported from Syria.",
+      "src": "Lucas ch.XIII"
+    },
+    {
+      "id": "ec22",
+      "lane": "economy",
+      "year": -5000,
+      "label": "China’s pigs and dogs",
+      "full": "Meat and fat from pigs and dogs from Yangshao to Shang; no milk.",
+      "src": "Chang p.29"
+    },
+    {
+      "id": "th5",
+      "lane": "thought",
+      "year": -3000,
+      "label": "Chekiang sesame and peanuts",
+      "full": "Third-millennium seeds that most scholars reject.",
+      "src": "Chang p.27; Anderson"
+    },
+    {
+      "id": "ec23",
+      "lane": "economy",
+      "year": -5600,
+      "label": "El Gigante avocados",
+      "full": "A tree managed for larger, thicker-skinned fruit from about 5600 BC.",
+      "src": "VanDerwarker 2025"
     }
   ],
   "edges": [
@@ -316,6 +404,78 @@
       "w1",
       "loose",
       "The north’s fish and sea-mammal fat is the other side of the climate baseline that sets animal fat in the cool north."
+    ],
+    [
+      "ec16",
+      "ec1",
+      "loose",
+      "Beeswax and butter are the two Neolithic lipids found in the pots of the earliest farmers."
+    ],
+    [
+      "ec17",
+      "ec4",
+      "loose",
+      "The Harappan sesame crop and the fat in Harappan pots are two parts of the same food economy."
+    ],
+    [
+      "th3",
+      "ec17",
+      "strong",
+      "Fuller’s caution about assuming milk is the context for the Indus lipid result, which finds little dairy."
+    ],
+    [
+      "th4",
+      "ec1",
+      "loose",
+      "Sherratt’s milking argument and the first butter are the two ends of the same question, when herds began to give fat."
+    ],
+    [
+      "ec18",
+      "ec7",
+      "loose",
+      "Coconut and almond in New Guinea and oil-palm fat in an Egyptian tomb are two tropical tree-fat records of the folio."
+    ],
+    [
+      "ec7",
+      "ec19",
+      "loose",
+      "Lucas rejects the palm-oil reading of Abydos and finds mainly animal fats in Egyptian tombs."
+    ],
+    [
+      "ec19",
+      "ec6",
+      "strong",
+      "Egypt’s butter fat and Mesopotamia’s clarified butter are the same hot-country fat."
+    ],
+    [
+      "ec20",
+      "th2",
+      "loose",
+      "Lucas’s list of Egyptian oils is the setting for the argument over nhh."
+    ],
+    [
+      "ec21",
+      "x4",
+      "strong",
+      "Lucas’s Syrian oil and Reisner’s Fourth Dynasty imports are the Egyptian side of the Canaanite oil trade."
+    ],
+    [
+      "ec22",
+      "ec1",
+      "loose",
+      "China’s pig fat and the Near East’s first butter are two ways the world’s early farmers got animal fat, one without milk and one with it."
+    ],
+    [
+      "th5",
+      "ec12",
+      "strong",
+      "Both entries concern a South American peanut turning up where it should not be, in Peru’s case in the right place and in Chekiang’s the wrong one."
+    ],
+    [
+      "ec23",
+      "ec12",
+      "loose",
+      "The Honduran avocado and the Peruvian peanut are the New World’s fat from trees and from a groundnut, in the absence of dairy herds."
     ]
   ]
 }
