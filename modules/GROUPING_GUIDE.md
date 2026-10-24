@@ -231,6 +231,7 @@ When asked to generate a new histomap folio, always:
 | `Gender Variance` | documented gender non-conforming persons, roles or categories |
 | `Enslaved Lives` | legal status, resistance, manumission, and the humanity of enslaved persons |
 | `Marginalised Communities` | evidence for the lived experience of any systematically excluded group |
+| `Health & Body` | illness, diet and remedies in ordinary life — including what a food was said to do to the body (teeth, fevers, cures) |
 
 **Two tags specific to this category:**
 - `CATEGORICAL SHIFT` — entries documenting when a *new way of classifying* a phenomenon emerges: a new legal category, a new theological framework, a new social role. The Foucauldian layer.

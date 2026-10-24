@@ -1,0 +1,1022 @@
+{
+  "id": "sugar-1500-1650",
+  "title": "Sugar",
+  "subtitle": "1500–1650 · From the Atlantic Islands to the Engenhos: Madeira, São Tomé, Santo Domingo, Brazil, Antwerp, Amsterdam and Ming China",
+  "period": {
+    "start": 1500,
+    "end": 1650
+  },
+  "mapCenter": [
+    20,
+    -20
+  ],
+  "mapZoom": 2,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "subtitle": "",
+      "entries": []
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "subtitle": "The sack of Antwerp, English privateering, the revolt on São Tomé and the Dutch war for Brazil’s sugar",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Dutch Revolt",
+          "label": "Spanish troops sack Antwerp and its sugar trade collapses",
+          "date": "1576",
+          "loc": "Antwerp",
+          "coords": [
+            51.22,
+            4.4
+          ],
+          "hint": "In 1576 Spanish soldiers sack Antwerp, until then Europe’s great sugar-refining city, and its sugar trade collapses; the Dutch Revolt and the division of the Netherlands in 1572–1585 end its pre-eminence, and London, Bristol, Bordeaux and Amsterdam take up refining.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith, Sugar: A Global History (2015) p.25 (‘until 1576, when Spanish armies sacked it’); Mazumdar, Sugar and Society in China (1998) p.64 (‘destroyed by war and the division of the Netherlands between 1572 and 1585’). Whether the sack alone caused the collapse is Smith’s phrasing; Mazumdar blames the longer war. See spain-1516-1700::c7.",
+          "keywords": ["Antwerp","Dutch Revolt"],
+          "xlinks": ["spain-1516-1700::c7"]
+        },
+        {
+          "id": "c2",
+          "group": "Anglo-Spanish War",
+          "label": "English privateers make sugar cheaper in London than in Lisbon",
+          "date": "1591",
+          "loc": "London and the Caribbean",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "hint": "In 1591 a Spanish spy reports that English booty from the West Indies is so great that sugar is cheaper in London than in Lisbon or in the Indies themselves. Mintz uses it to show that England wanted sugar and its colonies long before it had them.",
+          "tag": "EVENT",
+          "note": "ANCHOR (as quoted): Mintz, Sweetness and Power (1985) p.37 (the report of a Spanish spy, 1591; the source of the quotation is in Mintz’s note 40 and was not traced). Compare spain-1516-1700::te3 on the defence of the Caribbean against privateers.",
+          "keywords": ["London","Caribbean","Lisbon","West Indies"],
+          "xlinks": ["spain-1516-1700::te3"]
+        },
+        {
+          "id": "c3",
+          "group": "Slave Revolts",
+          "label": "Amador’s revolt on São Tomé",
+          "date": "1595",
+          "loc": "São Tomé",
+          "coords": [
+            0.34,
+            6.73
+          ],
+          "hint": "In July 1595 a revolt of enslaved people led by Amador sweeps São Tomé; popular accounts say it destroyed so many sugar mills that the industry never recovered. Scholars have disputed the evidence: the only records are Portuguese archives written to glorify the occupation, and a 1961 geographer denied that the revolt happened at all.",
+          "tag": "CONTESTED",
+          "note": "CONTESTED (secondary, from web summaries only): the revolt of 9 July–14 August 1595, its leader’s name and the number of mills destroyed (figures of 60 of 85 are repeated on popular sites) are not confirmed in a scholarly source read here; the historiography is discussed by Seibert, ‘Tenreiro, Amador e os Angolares’ (Realis 2011, abstract read) — Seibert says Tenreiro’s 1961 monograph A Ilha de São Tomé denied the flight and the revolt, in line with lusotropicalism. Treat as a lead; check Seibert and the Portuguese archives before relying on it.",
+          "keywords": ["São Tomé","Amador"]
+        },
+        {
+          "id": "c4",
+          "group": "Dutch–Portuguese War",
+          "label": "The Dutch seize Recife and the sugar Nordeste of Brazil",
+          "date": "1624–1654",
+          "loc": "Recife and Pernambuco",
+          "coords": [
+            -8.05,
+            -34.88
+          ],
+          "hint": "Open war between the Dutch and the Portuguese starts in Brazil in 1624. In 1630 the Dutch take Recife and hold much of the sugar Nordeste for 24 years; when they reach Paraíba in 1635 they find that the Portuguese commanders have wrecked the cane-processing machinery rather than give it to ‘heretics’. Braudel notes the paradox that the occupation cut the flow of Brazilian sugar to Amsterdam and raised its price.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith (2015) p.26 (Recife 1630, 24 years); Mazumdar (1998) pp.65–66 (hostilities from 1624, Paraíba 1635, Braudel’s remark, and the Dutch turning to Chinese sugar — see ec9). See spain-1516-1700::c7 and portuguese-gulf-1507-1650::w5.",
+          "keywords": ["Recife","Pernambuco","Dutch","Nordeste of Brazil"],
+          "xlinks": ["portuguese-gulf-1507-1650::w5","spain-1516-1700::c7"]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "subtitle": "Manuel’s charter, Spanish aid to Santo Domingo’s planters, Brazil’s duties and Japan’s exclusion of the Portuguese",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Colonial Law",
+          "label": "King Manuel’s charter asks for a sugar master in Brazil",
+          "date": "1516",
+          "loc": "Lisbon and Brazil",
+          "coords": [
+            38.72,
+            -9.14
+          ],
+          "hint": "A charter granted by King Manuel I in 1516 recommends that the people sent to Brazil should include ‘a man practised and capable as chief of a sugar factory’ — a first sign that the Portuguese Crown meant Brazil to make sugar.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): Mazumdar (1998) p.63 (quoting the charter; her note 16 gives the source, not checked here).",
+          "keywords": ["Lisbon","Brazil","Manuel I"]
+        },
+        {
+          "id": "o2",
+          "group": "Colonial Law",
+          "label": "The Spanish Crown props up Santo Domingo’s planters",
+          "date": "c.1516–1520",
+          "loc": "Santo Domingo, Hispaniola",
+          "coords": [
+            18.47,
+            -69.9
+          ],
+          "hint": "When the planters of Santo Domingo lack the capital to build their mills, the Hieronymite fathers sent to govern the colony lend them state revenues, and Charles I’s replacement, the judge Rodrigo de Figueroa, extends the policy; royal officials own and trade plantations, and there is no separate planter class at first.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mintz (1985) pp.33–34 (the sequence, from Charles I’s accession in 1516; Mintz gives no exact years, so the bracket 1516–1520 is mine). Compare spain-1516-1700::o6 and o1 (the Council of the Indies and the Laws of Burgos).",
+          "keywords": ["Santo Domingo","Hispaniola","Charles I","Rodrigo de Figueroa"],
+          "xlinks": ["spain-1516-1700::o6"]
+        },
+        {
+          "id": "o3",
+          "group": "Fiscal & Monetary Policy",
+          "label": "Brazilian sugar pays duty at the Lisbon custom house",
+          "date": "1526",
+          "loc": "Lisbon",
+          "coords": [
+            38.71,
+            -9.14
+          ],
+          "hint": "By 1526 Brazilian sugar is paying duties at the Lisbon Custom House and shipping in commercial quantities; Mintz calls the sixteenth century ‘the Brazilian century for sugar’. Mazumdar ties the rise of Brazil to the decline of Venice as Europe’s sugar entrepôt.",
+          "tag": "DOCUMENT",
+          "note": "SECONDARY: Mazumdar (1998) p.63; Mintz (1985) p.33 (‘by 1526, Brazil was shipping sugar to Lisbon in commercial quantities’). The duty books themselves were not read.",
+          "keywords": ["Lisbon Custom House"]
+        },
+        {
+          "id": "o4",
+          "group": "Trade Legislation",
+          "label": "The shogun shuts out the Portuguese and their China sugar",
+          "date": "1639",
+          "loc": "Nagasaki and Macao",
+          "coords": [
+            32.75,
+            129.88
+          ],
+          "hint": "In 1639 the Tokugawa shogun excludes the Portuguese from Japan, ending the Macao–Nagasaki trade in which Chinese silk and sugar had been carried for silver; an attempt to reopen it ends in 1640 with the execution of the Portuguese envoy and his party and the burning of their ship. Fujian traders and the Dutch now supply Japan’s sugar.",
+          "tag": "EDICT",
+          "note": "SECONDARY: Mazumdar (1998) p.83 (the Portuguese owed 1.25 million taels at Nagasaki and over 700,000 to Chinese merchants when the trade collapsed). See x2.",
+          "keywords": ["Nagasaki","Macao","China"]
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "subtitle": "Sephardic Jews in Dutch Recife",
+      "entries": [
+        {
+          "id": "b1",
+          "group": "Judaism",
+          "label": "Sephardic Jews worship openly in Dutch Recife",
+          "date": "1630–1654",
+          "loc": "Recife",
+          "coords": [
+            -8.05,
+            -34.88
+          ],
+          "hint": "The Dutch allow Sephardic Jews to practise their religion openly in the settlements they hold in Brazil, and the Dutch and the Jews become familiar with growing and making sugar; when the Portuguese retake the territory in 1654 both leave, and Smith says some settled in Barbados. The next folio takes up the claim that they taught Barbados to make sugar.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith (2015) p.26 (the account of the Dutch, the Jews and their departure to Barbados is Smith’s and is disputed by other scholars; see the next folio). The Recife synagogue and its founders are not in the sources read.",
+          "keywords": ["Sephardic Jews","Dutch Recife"]
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "subtitle": "Sugar sculpture at Fuzhou and at Elizabeth’s court, Del Turco’s complaint and the Tiangong kaiwu recipe",
+      "entries": [
+        {
+          "id": "e1",
+          "group": "Cookery & Food Writing",
+          "label": "Spanish friars see sugar sculptures at the governor of Fuzhou’s banquet",
+          "date": "1575",
+          "loc": "Fuzhou, Fujian",
+          "coords": [
+            26.07,
+            119.3
+          ],
+          "hint": "The Augustinian friars received at Fuzhou in 1575 are served sweets in baskets of gold and silver wire — marchpanes, castles, pitchers, dogs, bulls and elephants all made of sugar. Mazumdar compares these with the contemporary sugar subtleties of Europe, which came from Persian and Arab confectionery, and notes that only in Fujian does marzipan seem to have been used in China.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Mazumdar (1998) pp.41–42 (the friars’ report, quoted from a sixteenth-century English translation — her notes 142–145). Mazumdar names the friars as Martín de Rada and Miguel López de Legazpi — but Legazpi, the Manila conquistador, died in 1572, so the second name is probably an error for another companion of Rada’s; the 1575 date is Mazumdar’s.",
+          "keywords": ["Fuzhou","Fujian"],
+          "xlinks": ["sugar-1000-1500::e2"]
+        },
+        {
+          "id": "e2",
+          "group": "Cookery & Food Writing",
+          "label": "The Earl of Hertford’s sugar menagerie for Elizabeth I",
+          "date": "1590s",
+          "loc": "England",
+          "coords": [
+            51.5,
+            -0.9
+          ],
+          "hint": "By the 1590s sugar is the main means of showing rank in England: an Earl of Hertford’s banquet for Elizabeth I is said to have offered marchpanes, grapes, oysters, crabs, castles, drummers and trumpeters, lions, unicorns, elephants, birds and mermaids, all in sugar-work. The price of sugar had fallen steadily since the early 1500s.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Smith (2015) pp.72–73 (the list is quoted from a contemporary account whose title and date Smith does not give; the banquet is not dated to a year). Mintz (1985) pp.95–98 gives English ‘subtleties’ from the fourteenth century. See e3.",
+          "keywords": ["England","Earl of Hertford","Elizabeth I"]
+        },
+        {
+          "id": "e3",
+          "group": "Cookery & Food Writing",
+          "label": "Del Turco says cookbooks lean too heavily on spices and sugar",
+          "date": "1602",
+          "loc": "Florence",
+          "coords": [
+            43.77,
+            11.26
+          ],
+          "hint": "Giovanni Del Turco of Florence, in his Epulario e segreti vari of 1602, complains that earlier cookbook writers relied too heavily on spices and sugar, which did not appeal to many people; Smith says the number of published recipes needing sugar began to fall and that sophisticated cooks used less as sugar spread to ordinary tables.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Smith (2015) p.71 (Del Turco’s complaint and Smith’s account of the decline in sugar recipes; no primary text read).",
+          "keywords": ["Del Turco","Giovanni Del Turco of Florence"]
+        },
+        {
+          "id": "e4",
+          "group": "Cookery & Food Writing",
+          "label": "The Tiangong kaiwu gives the recipe for animal-shaped candy",
+          "date": "1637",
+          "loc": "Jiangxi, Ming China",
+          "coords": [
+            27.9,
+            115
+          ],
+          "hint": "In his Tiangong kaiwu, Song Yingxing tells how to make animal-shaped candy: for each large cauldron put in 50 jin (about 66 lb) of sugar, heat it on a slow simmer, and cast it. Mazumdar notes that Chinese sugar sculptures were small and delicate, unlike the towering ones of Europe.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Mazumdar (1998) p.42 (Tiangong kaiwu, 1637, translating the recipe; the rest of the passage is not quoted by her). The locality is that of the author, not of the recipe. See t3.",
+          "keywords": ["Jiangxi","Ming China","Tiangong","Song Yingxing"]
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "subtitle": "Hernández’s hen, Gerard’s Indian crusher and Song Yingxing",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "Science & Geography",
+          "label": "Hernández tells how a hen taught Mexico to whiten sugar",
+          "date": "1577",
+          "loc": "Mexico",
+          "coords": [
+            19.43,
+            -99.13
+          ],
+          "hint": "Francisco Hernández’s natural history of Mexico, written in 1577, tells of a hen that walked through damp earth over drying sugar and turned it white, so that people learned to ‘clay’ sugar. Mazumdar notes that a Chinese report of the Jiajing years tells an equally fanciful story of a roof tile — nobody knows how claying was discovered.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Mazumdar (1998) p.164 (Hernández’s story, her note 160, and the Chinese roof-tile story in te2). The legend is no evidence for where claying began.",
+          "keywords": ["Mexico","Francisco Hernández"]
+        },
+        {
+          "id": "t2",
+          "group": "Science & Geography",
+          "label": "Gerard’s Herbal describes an Indian sugar crusher",
+          "date": "1597",
+          "loc": "London",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "hint": "In his Herbal of 1597 John Gerard sets down how an Indian servant told him that cane was cut in small pieces and ground in a trough by a stone like a millstone, drawn round by a horse or buffalo, as bark is ground for tanners or apples for cider. Mazumdar notes that it resembles the process in the Dunhuang fragment, and the Indian mill.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Mazumdar (1998) p.124 (Gerard’s text as she quotes it). Compare sugar-600-1000::te1 (Dunhuang P3303).",
+          "keywords": ["London","Gerard Herbal","John Gerard"]
+        },
+        {
+          "id": "t3",
+          "group": "Science & Geography",
+          "label": "Song Yingxing: ‘tastes that are sweet are generally desired by all’",
+          "date": "1637",
+          "loc": "Ming China",
+          "coords": [
+            27.9,
+            115
+          ],
+          "hint": "The Tiangong kaiwu (‘The Development of Commodities by Nature and Human Skill’, 1637) of Song Yingxing opens its sugar section with the remark that humans like sweet tastes, and gives the first Chinese illustrations of a vertical two-roller cane crusher and of claying (te3, te4).",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Mazumdar (1998) pp.13, 124 and 164 (the epigraph to her chapter 1 and the figures). The work’s date is 1637 as she gives it.",
+          "keywords": ["Ming China","Song Yingxing","Development of Commodities","Human Skill"]
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "subtitle": "Madeira, São Tomé, Santo Domingo and Brazil, then Antwerp’s and Amsterdam’s refineries and the Dutch company’s Chinese and Taiwanese sugar",
+      "entries": [
+        {
+          "id": "ec1",
+          "group": "Agriculture & Land",
+          "label": "Madeira makes over 2,000 tons a year, and strips its own forests",
+          "date": "1505–1509",
+          "loc": "Madeira",
+          "coords": [
+            32.65,
+            -16.91
+          ],
+          "hint": "Madeira is said to have made more than 2,000 tons of sugar a year between 1505 and 1509, but it had no timber left, relied on imported food, and its output began to fall; the Portuguese lost the Canaries to Castile but kept Madeira.",
+          "tag": "UNVERIFIED",
+          "note": "UNVERIFIED (popular history): Buttery, A Dark History of Sugar (Pen & Sword) ch.3 (the 2,000 tons for 1505–09, deforestation, erosion and food imports), whose own source was not read. Mintz (1985) pp.31–32 says only that Madeira led supply from about 1450 and that the Canaries followed by the 1500s. See sugar-1000-1500::ec13.",
+          "keywords": ["Madeira"],
+          "xlinks": ["sugar-1000-1500::ec13"]
+        },
+        {
+          "id": "ec2",
+          "group": "Industry & Production",
+          "label": "São Tomé’s sugar boom and its turn to slave-trading",
+          "date": "1517–1550",
+          "loc": "São Tomé",
+          "coords": [
+            0.34,
+            6.73
+          ],
+          "hint": "Web summaries say São Tomé had two sugar mills in 1517 and 60 by 1550, making around 150,000 arrobas a year, before Brazil’s larger plantations undercut it from the 1580s. Smith adds that the island then turned itself into an entrepôt for slaves bound for Brazil, many of the first being skilled sugar workers.",
+          "tag": "UNVERIFIED",
+          "note": "SECONDARY for the shift to slave-trading: Smith (2015) p.24 (São Tomé’s sugar ‘could not compete with the Brazilian’ and became the holding area and point of departure for slave ships). UNVERIFIED for the mill counts and output (1517, 1550, 150,000 arrobas): web summaries of encyclopedia type; no scholarly source read. Smith’s figure of 560,000 Africans shipped in the seventeenth century is not used (not checked against the Slave Voyages totals).",
+          "keywords": ["São Tomé"]
+        },
+        {
+          "id": "ec3",
+          "group": "Agriculture & Land",
+          "label": "Brazil’s engenhos: from the coast in 1520 to 102 in two captaincies",
+          "date": "1520–1583",
+          "loc": "Pernambuco and Bahia",
+          "coords": [
+            -8.05,
+            -34.88
+          ],
+          "hint": "Small plantations called engenhos — the word meant ‘mills’ but was applied to the whole plantation, with its fields and works — are on the Brazilian coast by 1520; there are six in Pernambuco in 1548 and, by 1583, 66 there and 36 in nearby Bahia. By the late sixteenth century sugar was Brazil’s main export, bigger than the rest of the Atlantic world’s output together.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Smith (2015) pp.23–24 (the counts and the claim that Brazil outproduced the rest of the Atlantic; sources not given by Smith). A web summary of Wikipedia’s Pernambuco article gives conflicting 1580s counts (50 to 70 mills) and a count of 23 for 1576, so the 1583 figure should be treated as indicative.",
+          "keywords": ["Pernambuco","Bahia","Brazil"]
+        },
+        {
+          "id": "ec4",
+          "group": "Agriculture & Land",
+          "label": "Santo Domingo has 34 mills by the 1530s, run by officials",
+          "date": "1530s–1568",
+          "loc": "Santo Domingo, Hispaniola",
+          "coords": [
+            18.47,
+            -69.9
+          ],
+          "hint": "The island has a ‘fairly stable total’ of 34 mills by the 1530s, and by 1568 estates of 150 to 200 enslaved people are common and a few have up to 500. Mintz notes that civil servants own and trade plantations, with no planter class and none of the commission merchants who appear in other powers’ Caribbean colonies; the industry, despite royal help, ‘came to almost nothing’.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mintz (1985) pp.34–35 (the counts and quotations are Mintz’s, from a study he cites in his note 37). The first sugar shipped from the island to Europe was about 1516 (p.32).",
+          "keywords": ["Santo Domingo","Hispaniola"],
+          "xlinks": ["sugar-1000-1500::x8"]
+        },
+        {
+          "id": "ec5",
+          "group": "Industry & Production",
+          "label": "Antwerp has 19 sugar refineries, more than any other city",
+          "date": "c.1550",
+          "loc": "Antwerp",
+          "coords": [
+            51.22,
+            4.4
+          ],
+          "hint": "By the mid-sixteenth century the commercial and manufacturing centre of Europe is in the Low Countries, and nineteen sugar refineries have been set up at Antwerp, more than in any other city; the Portuguese sell their Madeira and Brazil sugar there. Smith calls it Europe’s richest and second-largest city until 1576.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) p.64 (nineteen refineries by 1550; her note 20); Smith (2015) p.25. A web source gives ‘at least twenty-five refineries by 1560’ without a scholarly citation; not used.",
+          "keywords": ["Antwerp","Low Countries"]
+        },
+        {
+          "id": "ec6",
+          "group": "Trade & Commerce",
+          "label": "Fujian sugar goes north ‘like running water’",
+          "date": "c.1550–1587",
+          "loc": "Quanzhou and Zhangzhou, Fujian",
+          "coords": [
+            24.9,
+            118.6
+          ],
+          "hint": "The literatus Wang Shimao (1532–1587) lists cane sugar from Quanzhou and Zhangzhou among the Fujian goods that go down the watershed to Jiangsu and Zhejiang every day ‘like running water’, as well as by sea in junks. Mazumdar uses this to show how the Ming’s regional trade carried southern sugar north.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Mazumdar (1998) p.41 (quoting Wang Shimao; the work and the exact year of the passage are not given — the range is Wang’s adult life to his death).",
+          "keywords": ["Quanzhou","Zhangzhou","Fujian","Wang Shimao"],
+          "xlinks": ["sugar-1000-1500::x4"]
+        },
+        {
+          "id": "ec7",
+          "group": "Industry & Production",
+          "label": "Dutch refineries grow from three or four in 1595 to over sixty",
+          "date": "1595–1661",
+          "loc": "Amsterdam",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "hint": "In 1595 there are only three or four sugar refineries in the northern Netherlands; in 1622 there are 29, 25 of them in Amsterdam; in 1640, 40; and by 1661 over 60. Their raw sugar, about 45 million pounds, comes from Portuguese-controlled Brazil, a trade worth at least 4.8 million guilders a year in profit by the 1620s.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) pp.64–65 (refinery counts from Reesse’s history of the Amsterdam refineries and Boxer, The Dutch in Brazil, p.3, as she cites them; the profit figure is Willem Usselincx’s estimate). Not checked against the originals.",
+          "keywords": ["Amsterdam","Dutch","Portuguese-controlled Brazil"]
+        },
+        {
+          "id": "ec8",
+          "group": "Trade & Commerce",
+          "label": "Portugal supplies nearly all Europe with Brazilian sugar",
+          "date": "1620s",
+          "loc": "Brazil and Lisbon",
+          "coords": [
+            -12.97,
+            -38.51
+          ],
+          "hint": "By 1625 (the passage’s date) Portugal is supplying nearly all of Europe with sugar from Brazil. The English, learning plantation methods from the Dutch (whose Guiana experiments the Portuguese had thwarted), are about to build their own sugar islands.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mintz (1985) p.38 (the 1625 statement, no source given). See also ec7 for the Dutch refinery side.",
+          "keywords": ["Brazil","Lisbon","Portugal","Europe"]
+        },
+        {
+          "id": "ec9",
+          "group": "Trade & Commerce",
+          "label": "The Dutch company buys four million pounds of Chinese sugar",
+          "date": "1622–1649",
+          "loc": "Batavia and Amsterdam",
+          "coords": [
+            -6.2,
+            106.85
+          ],
+          "hint": "The first Dutch cargo of Chinese powdered sugar reaches Amsterdam in 1622: 106,000 lb, nearly half the year’s 242,000. As war in Brazil drives up prices, the directors order 440,000 lb in 1631, over 650,000 in 1633, 1.1 million in 1636 and an ‘unlimited quantity’ in 1637, receiving 4.1 million lb; in 1642 over 2 million lb of powdered sugar come from China, and 2.5–3.0 million lb are requested in 1649.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) pp.84–85 (the VOC directors’ orders from Dutch archives as she cites them; only Chinese white, candied and powdered sugar were fit for Amsterdam’s refineries). Dutch profits were not calculated; the directors estimated 75% on an investment in 1636 (p.85).",
+          "keywords": ["Batavia","Amsterdam","Dutch"]
+        },
+        {
+          "id": "ec10",
+          "group": "Agriculture & Land",
+          "label": "Dutch Taiwan grows sugar for Japan and Persia",
+          "date": "1636–1660",
+          "loc": "Tayouan and Sakam, Tainan, Taiwan",
+          "coords": [
+            23,
+            120.17
+          ],
+          "hint": "The Dutch, who have a base at Tayouan from 1624, bring Chinese settlers to grow rice and sugarcane; in 1636 Taiwan exports some sugar to Europe and to Japan, in 1645 about 1.5 million jin, and in 1658 2.2 million pounds — 780,000 of them sold to Japan and the rest to Persia.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) pp.84–86 and 206–209 (Su Minggang’s help in encouraging migrants; the export figures from Dutch company records as she cites them; jin and pound conversions are hers).",
+          "keywords": ["Tayouan","Sakam","Tainan","Dutch Taiwan","Japan","Persia"]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#5C2D00",
+      "accent": "#B7770D",
+      "subtitle": "The Canary-built mill, claying in China, the three-roller mill dispute and the Tiangong kaiwu",
+      "entries": [
+        {
+          "id": "te1",
+          "group": "Agriculture & Industry",
+          "label": "Canary engineers build Santo Domingo’s two-roller mill",
+          "date": "c.1515",
+          "loc": "Santo Domingo, Hispaniola",
+          "coords": [
+            18.47,
+            -69.9
+          ],
+          "hint": "In 1515 the surgeon Gonzalo de Vellosa brings skilled sugar-masters from the Canary Islands to Santo Domingo, who build a mill with two vertical rollers, usable by animal or water power and said to be ‘patterned on that developed in 1449 by Pietro Speciale’. One estimate is that, water-powered, it could grind enough cane for 125 tons of sugar a year. The earlier mills on the island had probably been edge-roller designs from the Mediterranean.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mintz (1985) pp.33–34 (the 125-ton estimate is another scholar’s, cited in his note 35; Mintz suggests the earlier attempts of Aguilón, 1505–06, and Ballester, 1512, used edge-roller olive-press designs). Compare te3 for the dispute over who invented the roller mill.",
+          "keywords": ["Santo Domingo","Hispaniola","Gonzalo de Vellosa","Canary Islands","Pietro Speciale"]
+        },
+        {
+          "id": "te2",
+          "group": "Agriculture & Industry",
+          "label": "Claying whitens sugar in Ming China",
+          "date": "c.1522–1566",
+          "loc": "Fujian and Guangdong",
+          "coords": [
+            24.9,
+            118.6
+          ],
+          "hint": "A Chinese report of the Jiajing years says that a roof tile accidentally fell into a sugar-maker’s draining jar and the sugar beneath came out white as snow, so that ‘clay has been pressed onto sugar hundreds of times without failure’ since. Mazumdar says claying — washing the sugar in cone-shaped jars with muddy water — was introduced in the sixteenth century and could make white sugar in far larger quantities than repeated reboiling.",
+          "tag": "LEGEND",
+          "note": "SECONDARY / LEGEND: Mazumdar (1998) pp.163–165 (the roof-tile anecdote and her view that how claying began is unclear; her note 159 gives the source, not checked here). The Jiajing reign is 1522–1566. Compare t1 (the hen) and the standardised method of 1637 in te4.",
+          "keywords": ["Fujian","Guangdong","Claying","Ming China"],
+          "xlinks": ["sugar-1000-1500::te1"]
+        },
+        {
+          "id": "te3",
+          "group": "Agriculture & Industry",
+          "label": "The three-roller mill and the Brazilian cauldron train",
+          "date": "c.1608–1612",
+          "loc": "Brazil and Peru",
+          "coords": [
+            -12.97,
+            -38.51
+          ],
+          "hint": "In the early seventeenth century the engenhos of Brazil adopt a mill of three upright rollers, which was much faster than the old press; they also ladle the juice through a series of three smaller cauldrons. Who invented the upright roller mill is disputed: Deerr, following Lippmann, gave it to Pietro Speciale of Sicily in 1449, but Soares Pereira argues that it was invented in Peru and reached Brazil between 1608 and 1612.",
+          "tag": "CONTESTED",
+          "note": "CONTESTED (secondary): Smith (2015) pp.23–24 (the three-roller mill and the three-cauldron train, ‘credited’ to the Portuguese growers); Mintz (1985) p.28 (Deerr and Soares Pereira); Mazumdar (1998) pp.168 and 482 n.100 (Daniels and Daniels hypothesise that the horizontal two-roller design evolved around the Mediterranean and Atlantic colonies, or came from Asia to the Canaries, after 1510). Deerr was not read.",
+          "keywords": ["Brazil","Peru","Pietro Speciale of Sicily","Soares Pereira"]
+        },
+        {
+          "id": "te4",
+          "group": "Agriculture & Industry",
+          "label": "The Tiangong kaiwu shows a two-roller crusher and claying with yellow mud water",
+          "date": "1637",
+          "loc": "Ming China",
+          "coords": [
+            27.9,
+            115
+          ],
+          "hint": "The Tiangong kaiwu carries the first Chinese illustration and mention of a vertical two-roller cane crusher, and describes claying: sugar is poured into cone-shaped jars with a straw-plugged hole, the plug is pulled and ‘yellow mud water’ is dripped through, and the top five inches is pure white, called ‘foreign sugar’. Mazumdar thinks the two-roller crusher may have come to China from the Philippines.",
+          "tag": "TEXT",
+          "note": "ANCHOR (as quoted): Mazumdar (1998) pp.124 and 164–165 (the passage quoted in her translation; her note 99 (p.482) suggests the Philippine origin of the crusher as a possibility, not a finding). The three-roller wooden mill of the Americas recovered 30–35% of the cane’s weight as juice against 20–30% for China’s stone crusher (p.168).",
+          "keywords": ["Ming China","Tiangong"]
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "subtitle": "The Portuguese slave trade from São Tomé, Macao’s sugar to Nagasaki and Dutch ballast sugar",
+      "entries": [
+        {
+          "id": "x1",
+          "group": "Silk Road & Trade Routes",
+          "label": "Portuguese ships carry some 264,000 enslaved people between 1519 and 1600",
+          "date": "1519–1600",
+          "loc": "São Tomé, Cape Verde and Lisbon",
+          "coords": [
+            0.34,
+            6.73
+          ],
+          "hint": "On Eltis’s tables of the Portuguese share of the Atlantic slave trade, about 264,100 Africans embarked on Portuguese vessels between 1519 and 1600 and about 200,000 arrived in the Americas. São Tomé was a holding area and departure point for ships carrying slaves to Brazil and elsewhere, and carrying sugar home.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY, from a web summary of the table only: Eltis, ‘The Volume and Structure of the Transatlantic Slave Trade: A Reassessment’, William and Mary Quarterly 58 (2001), Table V (Portuguese vessels only; the 1519–1600 row; the table was not opened here). The full 1501–1600 total for all carriers is in the Slave Voyages estimates database and was not retrieved; Smith (2015) p.24 for São Tomé’s role. See ec2.",
+          "keywords": ["São Tomé","Cape Verde","Lisbon"]
+        },
+        {
+          "id": "x2",
+          "group": "Silk Road & Trade Routes",
+          "label": "Macao’s ships carry Chinese silk and sugar to Nagasaki",
+          "date": "1600–1639",
+          "loc": "Macao and Nagasaki",
+          "coords": [
+            22.2,
+            113.55
+          ],
+          "hint": "In 1600 the Portuguese are the only regular suppliers of Chinese silk and sugar to Japan and call sugar ‘a very profitable commodity’; by the 1630s Fujian traders, with sugar shipped from Quanzhou, Xiamen, Guangzhou, Taiwan, Ningbo and Nanjing, have pushed them out of the sugar trade. The Dutch lure Chinese traders to Taiwan with better prices.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mazumdar (1998) pp.82–83 (the Macao–Nagasaki sugar trade, from sources she cites in her notes 111–113). See o4 for the 1639 exclusion.",
+          "keywords": ["Macao","Nagasaki"]
+        },
+        {
+          "id": "x3",
+          "group": "Silk Road & Trade Routes",
+          "label": "Dutch ships take Chinese sugar home as ballast",
+          "date": "1606–1607",
+          "loc": "Banten, Java",
+          "coords": [
+            -6.04,
+            106.15
+          ],
+          "hint": "The Dutch first see the possibilities of Chinese sugar at Banten: the admiral Cornelis Matelief leaves for Holland in 1607 with 12,000 sacks of pepper, 400 of nutmeg, sugar, ebony and raw silk, and an English observer notes that the ‘Carracke of the Flemmings’ sailed in October 1606 with 15,000 sacks of pepper and ‘great store of China sugar’. The Company’s directors recommended regular sugar cargoes, as ballast, in 1616.",
+          "tag": "DOCUMENT",
+          "note": "ANCHOR (as quoted): Mazumdar (1998) p.84 (quoting Matelief’s voyage as printed in Purchas, and John Saris’s journal; the year 1606 for the Flemish carrack is as she gives it). Compare ec9.",
+          "keywords": ["Banten","Java","Dutch","Cornelis Matelief","Carracke of the Flemmings"]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#0F2A3D",
+      "accent": "#2E6F8E",
+      "subtitle": "The Taíno’s death, Mediterranean sugar’s decline, the United Provinces and the Iberian Union",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Epidemic",
+          "label": "The islands’ Taíno and Carib die within a century",
+          "date": "c.1500–1600",
+          "loc": "Hispaniola and the Greater Antilles",
+          "coords": [
+            18.47,
+            -69.9
+          ],
+          "hint": "Smith estimates that 80 to 90 per cent of the indigenous people of the islands died in the century after the first European encounter, from constant wars and the diseases the Europeans brought; the loss left Santo Domingo’s gold mines and first mills short of labour and drew in enslaved Africans.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Smith (2015) pp.22–23 (‘an estimated 80 to 90 per cent’); Mintz (1985) p.33 on the Taíno’s ‘rapid destruction’. Estimates of Taíno numbers and deaths are debated; Smith gives no source. See spain-1516-1700::o1, o2 and t1.",
+          "keywords": ["Hispaniola","Greater Antilles","Taíno","Carib","Santo Domingo"],
+          "xlinks": ["spain-1516-1700::o1","spain-1516-1700::o2"]
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Brazilian sugar and the eclipse of the Mediterranean trade",
+          "date": "c.1550–1650",
+          "loc": "The Mediterranean and Atlantic",
+          "coords": [
+            38,
+            -9
+          ],
+          "hint": "With Brazil’s rise, Venice loses its place as Europe’s sugar entrepôt, and Smith says the Mediterranean sugar industry ‘disappeared altogether’ and fell rapidly on the Atlantic islands. A few Valencian plantations, on Buttery’s account, carried on until the 1750s, so ‘disappeared’ is too strong.",
+          "tag": "CONTESTED",
+          "note": "CONTESTED (secondary): Smith (2015) p.24 (‘disappeared altogether’); Mazumdar (1998) p.63 (Brazil’s rise ‘heightened’ the eclipse of Venice); Buttery, ch.3 (a few Valencian plantations surviving to the 1750s, source not read). Compare sugar-1000-1500::ec12.",
+          "keywords": ["Mediterranean","Atlantic"],
+          "xlinks": ["sugar-1000-1500::ec12"]
+        },
+        {
+          "id": "w3",
+          "group": "Geopolitical Shift",
+          "label": "The United Provinces replace Antwerp with Amsterdam",
+          "date": "1572–1585",
+          "loc": "The Low Countries",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "hint": "The war and the division of the Netherlands between 1572 and 1585 create the independent United Provinces; Amsterdam, with its great warehouses and exchange banks, becomes Europe’s commercial and financial centre and takes over sugar refining, alongside cocoa, brewing, distilling and tobacco.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mazumdar (1998) p.64. See c1 and spain-1516-1700::c7, c15.",
+          "keywords": ["Low Countries","United Provinces","Antwerp","Amsterdam"],
+          "xlinks": ["spain-1516-1700::c7"]
+        },
+        {
+          "id": "w4",
+          "group": "Geopolitical Shift",
+          "label": "Philip II takes the Portuguese crown, and Portugal’s sugar becomes a Spanish prize",
+          "date": "1580",
+          "loc": "Lisbon and Madrid",
+          "coords": [
+            38.72,
+            -9.14
+          ],
+          "hint": "In 1580 Philip II of Spain enforces his claim to the Portuguese crown and Portugal becomes a province of Spain, which turns the Dutch revolt against Spain into a war against Portuguese shipping in the Atlantic and Indian oceans — and so against Brazil’s sugar.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mazumdar (1998) p.65 (‘as Dutch-Iberian political and religious conflicts intensified’). See spain-1516-1700::w5 and portuguese-gulf-1507-1650::w5, and c4.",
+          "keywords": ["Lisbon","Madrid","Portugal","Philip II of Spain"],
+          "xlinks": ["portuguese-gulf-1507-1650::w5","spain-1516-1700::w5"]
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "subtitle": "Free and enslaved workers in the Canaries, the first Africans in Santo Domingo and sugar and teeth",
+      "entries": [
+        {
+          "id": "l1",
+          "group": "Enslaved Lives",
+          "label": "The Canary mills use paid and enslaved workers together",
+          "date": "c.1500–1550",
+          "loc": "Canary Islands",
+          "coords": [
+            28.1,
+            -15.4
+          ],
+          "hint": "Fernández-Armesto says the Canarian sugar industry used both free and enslaved labour, paid partly in kind, with some workers sharing the produce equally with the owners, as in Italian mezzadria; Mintz says free wage earners then hardly figure in sugar’s history until the age of revolution and emancipation.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY: Mintz (1985) p.32 (quoting Fernández-Armesto; the dates ‘fifteenth and early sixteenth century’ are loose in the source, so the bracket is mine). Compare the next entry.",
+          "keywords": ["Canary Islands"]
+        },
+        {
+          "id": "l2",
+          "group": "Enslaved Lives",
+          "label": "The first Africans arrive in Santo Domingo before 1503",
+          "date": "1503–1509",
+          "loc": "Santo Domingo, Hispaniola",
+          "coords": [
+            18.47,
+            -69.9
+          ],
+          "hint": "The first enslaved Africans are imported into Santo Domingo before 1503, despite local fear that they would run away as cimarrones; by 1509 they are being brought in to work the royal mines, and others soon follow to power the sugar industry. Spain, says Mintz, pioneered cane, sugar-making, African slave labour and the plantation form in the Americas.",
+          "tag": "EVENT",
+          "note": "SECONDARY: Mintz (1985) pp.32–33 (first slaves ‘before 1503’; ‘by 1509’). See spain-1516-1700::o1 (Laws of Burgos, 1512), o2 (New Laws, 1542) and t1 (Valladolid).",
+          "keywords": ["Santo Domingo","Hispaniola"]
+        },
+        {
+          "id": "l3",
+          "group": "Health & Body",
+          "label": "Elizabeth I’s black teeth and the ‘too great use of sugar’",
+          "date": "1598–1633",
+          "loc": "England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "hint": "The German visitor Paul Hentzner, meeting the 66-year-old Elizabeth I in 1598, found her teeth black, ‘a defect the English seem subject to from their too great use of sugar’. The doctor William Vaughan (1612) says sugar blackens and corrupts the teeth; James Hart (1633) adds that sweet confections and sugar-plums cause constipation, consumption, blockages and rotten teeth, and warns the young.",
+          "tag": "TEXT",
+          "note": "SECONDARY: Smith (2015) p.125 (Hentzner, Vaughan’s Approved Directions for Health (1612), Hart’s Klinike (1633) — read in Smith, not in the originals). Compare Mintz (1985) on the earlier use of sugar as medicine, and sugar-1000-1500::w2.",
+          "keywords": ["England","Elizabeth I","Paul Hentzner","William Vaughan","James Hart"]
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "label": "Conflict",
+      "events": [
+        {
+          "y": 1576,
+          "l": "Spanish troops sack Antwerp and its sugar trade collapses",
+          "entryId": "c1"
+        },
+        {
+          "y": 1591,
+          "l": "English privateers make sugar cheaper in London than in Lisbon",
+          "entryId": "c2"
+        },
+        {
+          "y": 1595,
+          "l": "Amador’s revolt on São Tomé",
+          "entryId": "c3"
+        },
+        {
+          "y": 1624,
+          "l": "The Dutch seize Recife and the sugar Nordeste of Brazil",
+          "entryId": "c4"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "label": "Order",
+      "events": [
+        {
+          "y": 1516,
+          "l": "King Manuel’s charter asks for a sugar master in Brazil",
+          "entryId": "o1"
+        },
+        {
+          "y": 1516,
+          "l": "The Spanish Crown props up Santo Domingo’s planters",
+          "entryId": "o2"
+        },
+        {
+          "y": 1526,
+          "l": "Brazilian sugar pays duty at the Lisbon custom house",
+          "entryId": "o3"
+        },
+        {
+          "y": 1639,
+          "l": "The shogun shuts out the Portuguese and their China sugar",
+          "entryId": "o4"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "label": "Belief",
+      "events": [
+        {
+          "y": 1630,
+          "l": "Sephardic Jews worship openly in Dutch Recife",
+          "entryId": "b1"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "label": "Expression",
+      "events": [
+        {
+          "y": 1575,
+          "l": "Spanish friars see sugar sculptures at the governor of Fuzhou’s banque",
+          "entryId": "e1"
+        },
+        {
+          "y": 1590,
+          "l": "The Earl of Hertford’s sugar menagerie for Elizabeth I",
+          "entryId": "e2"
+        },
+        {
+          "y": 1602,
+          "l": "Del Turco says cookbooks lean too heavily on spices and sugar",
+          "entryId": "e3"
+        },
+        {
+          "y": 1637,
+          "l": "The Tiangong kaiwu gives the recipe for animal-shaped candy",
+          "entryId": "e4"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "label": "Thought",
+      "events": [
+        {
+          "y": 1577,
+          "l": "Hernández tells how a hen taught Mexico to whiten sugar",
+          "entryId": "t1"
+        },
+        {
+          "y": 1597,
+          "l": "Gerard’s Herbal describes an Indian sugar crusher",
+          "entryId": "t2"
+        },
+        {
+          "y": 1637,
+          "l": "Song Yingxing: ‘tastes that are sweet are generally desired by all’",
+          "entryId": "t3"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "icon": "💰",
+      "accent": "#8B5E00",
+      "label": "Economy",
+      "events": [
+        {
+          "y": 1505,
+          "l": "Madeira makes over 2,000 tons a year, and strips its own forests",
+          "entryId": "ec1"
+        },
+        {
+          "y": 1517,
+          "l": "São Tomé’s sugar boom and its turn to slave-trading",
+          "entryId": "ec2"
+        },
+        {
+          "y": 1520,
+          "l": "Brazil’s engenhos: from the coast in 1520 to 102 in two captaincies",
+          "entryId": "ec3"
+        },
+        {
+          "y": 1530,
+          "l": "Santo Domingo has 34 mills by the 1530s, run by officials",
+          "entryId": "ec4"
+        },
+        {
+          "y": 1550,
+          "l": "Antwerp has 19 sugar refineries, more than any other city",
+          "entryId": "ec5"
+        },
+        {
+          "y": 1550,
+          "l": "Fujian sugar goes north ‘like running water’",
+          "entryId": "ec6"
+        },
+        {
+          "y": 1595,
+          "l": "Dutch refineries grow from three or four in 1595 to over sixty",
+          "entryId": "ec7"
+        },
+        {
+          "y": 1620,
+          "l": "Portugal supplies nearly all Europe with Brazilian sugar",
+          "entryId": "ec8"
+        },
+        {
+          "y": 1622,
+          "l": "The Dutch company buys four million pounds of Chinese sugar",
+          "entryId": "ec9"
+        },
+        {
+          "y": 1636,
+          "l": "Dutch Taiwan grows sugar for Japan and Persia",
+          "entryId": "ec10"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#B7770D",
+      "label": "Technology",
+      "events": [
+        {
+          "y": 1515,
+          "l": "Canary engineers build Santo Domingo’s two-roller mill",
+          "entryId": "te1"
+        },
+        {
+          "y": 1522,
+          "l": "Claying whitens sugar in Ming China",
+          "entryId": "te2"
+        },
+        {
+          "y": 1608,
+          "l": "The three-roller mill and the Brazilian cauldron train",
+          "entryId": "te3"
+        },
+        {
+          "y": 1637,
+          "l": "The Tiangong kaiwu shows a two-roller crusher and claying with yellow ",
+          "entryId": "te4"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "label": "Exchange",
+      "events": [
+        {
+          "y": 1519,
+          "l": "Portuguese ships carry some 264,000 enslaved people between 1519 and 1",
+          "entryId": "x1"
+        },
+        {
+          "y": 1600,
+          "l": "Macao’s ships carry Chinese silk and sugar to Nagasaki",
+          "entryId": "x2"
+        },
+        {
+          "y": 1606,
+          "l": "Dutch ships take Chinese sugar home as ballast",
+          "entryId": "x3"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2E6F8E",
+      "label": "World",
+      "events": [
+        {
+          "y": 1500,
+          "l": "The islands’ Taíno and Carib die within a century",
+          "entryId": "w1"
+        },
+        {
+          "y": 1550,
+          "l": "Brazilian sugar and the eclipse of the Mediterranean trade",
+          "entryId": "w2"
+        },
+        {
+          "y": 1572,
+          "l": "The United Provinces replace Antwerp with Amsterdam",
+          "entryId": "w3"
+        },
+        {
+          "y": 1580,
+          "l": "Philip II takes the Portuguese crown, and Portugal’s sugar becomes a S",
+          "entryId": "w4"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "label": "Lives",
+      "events": [
+        {
+          "y": 1500,
+          "l": "The Canary mills use paid and enslaved workers together",
+          "entryId": "l1"
+        },
+        {
+          "y": 1503,
+          "l": "The first Africans arrive in Santo Domingo before 1503",
+          "entryId": "l2"
+        },
+        {
+          "y": 1598,
+          "l": "Elizabeth I’s black teeth and the ‘too great use of sugar’",
+          "entryId": "l3"
+        }
+      ]
+    }
+  ],
+  "region": "Sugar",
+  "period_label": "Early Modern"
+}

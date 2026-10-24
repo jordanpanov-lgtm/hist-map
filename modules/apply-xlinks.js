@@ -3059,6 +3059,24 @@ const SELECTED_PAIRS = [
   ['sugar-1000-1500::x1', 'fatimids-909-1171::ec2'],                  // Geniza commercial letters
   ['sugar-1000-1500::l1', 'fatimids-909-1171::lv2'],                  // Geniza people
   ['sugar-1000-1500::l4', 'fatimids-909-1171::ec2'],                  // Geniza partnership contract
+
+  // ── sugar-1500-1650 (hand-reviewed) ──
+  ['sugar-1500-1650::ec1', 'sugar-1000-1500::ec13'],                  // Madeira's rise -> Madeira's output
+  ['sugar-1500-1650::ec4', 'sugar-1000-1500::x8'],                    // Columbus's cane -> Santo Domingo
+  ['sugar-1500-1650::w2', 'sugar-1000-1500::ec12'],                   // Mediterranean decline / Valencia's trapigs
+  ['sugar-1500-1650::te2', 'sugar-1000-1500::te1'],                   // Wang Zhuo's candy method -> claying
+  ['sugar-1500-1650::e1', 'sugar-1000-1500::e2'],                     // Fuzhou sculptures resemble Kaifeng's sweets
+  ['sugar-1500-1650::ec6', 'sugar-1000-1500::x4'],                    // Fujian sugar trade / Polo's Fujian
+  ['sugar-1500-1650::c1', 'spain-1516-1700::c7'],                     // Sack of Antwerp / Eighty Years' War
+  ['sugar-1500-1650::w3', 'spain-1516-1700::c7'],                     // United Provinces / Eighty Years' War
+  ['sugar-1500-1650::c4', 'spain-1516-1700::c7'],                     // Dutch war in Brazil / Eighty Years' War
+  ['sugar-1500-1650::c4', 'portuguese-gulf-1507-1650::w5'],           // Dutch war in Brazil / Iberian Union
+  ['sugar-1500-1650::w4', 'portuguese-gulf-1507-1650::w5'],           // Iberian Union
+  ['sugar-1500-1650::w4', 'spain-1516-1700::w5'],                     // Iberian Union
+  ['sugar-1500-1650::o2', 'spain-1516-1700::o6'],                     // Aid to Santo Domingo / Council of the Indies
+  ['sugar-1500-1650::w1', 'spain-1516-1700::o1'],                     // Taino collapse / Laws of Burgos
+  ['sugar-1500-1650::w1', 'spain-1516-1700::o2'],                     // Taino collapse / New Laws
+  ['sugar-1500-1650::c2', 'spain-1516-1700::te3'],                    // English privateers / Caribbean fortifications
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

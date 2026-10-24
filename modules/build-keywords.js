@@ -63,7 +63,7 @@ const STOPWORDS = new Set([
   // fermented…", "Honey was costly…", "Indian monks…") and would link every Sugar folio to
   // every other on the commodity's own name alone.
   'indian', 'chinese', 'buddhist', 'southern', 'monastic', 'cane', 'sugarcane', 'sugar',
-  'honey', 'sand',
+  'honey', 'sand', 'brazilian', 'africans', 'free', 'black', 'eighty',
   // Sentence-initial common words/quantifiers/adjectives that happen to be capitalized
   // only because they open a label or hint sentence ("Invention of...", "Around 3300
   // BC...", "Bound captives...", "Three rival..."), not because they're part of a

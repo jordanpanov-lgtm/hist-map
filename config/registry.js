@@ -278,5 +278,6 @@ const MODULES = [
   { id:"sugar-300bc-600ad", file:"modules/sugar-300bc-600ad.json", label:"Sugar 300 BC–600 AD", sub:"Reed Honey, the Boiling Ladder and the First Roads from India to Rome, Persia and China", region:"Sugar", period:"Late Antique" },
   { id:"sugar-600-1000", file:"modules/sugar-600-1000.json", label:"Sugar 600–1000", sub:"From Persian Cane to the Caliphate’s Sugar: Khuzestan, the Nile Delta and the Tang Mission to Magadha", region:"Sugar", period:"Medieval" },
   { id:"sugar-1000-1500", file:"modules/sugar-1000-1500.json", label:"Sugar 1000–1500", sub:"From the Nile Refineries to Madeira: Egypt, Cyprus, Sicily, Granada and Song–Yuan China", region:"Sugar", period:"Medieval" },
+  { id:"sugar-1500-1650", file:"modules/sugar-1500-1650.json", label:"Sugar 1500–1650", sub:"From the Atlantic Islands to the Engenhos: Madeira, São Tomé, Santo Domingo, Brazil, Antwerp, Amsterdam and Ming China", region:"Sugar", period:"Early Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

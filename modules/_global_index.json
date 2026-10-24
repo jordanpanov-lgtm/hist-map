@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 10501,
-    "folio_count": 218,
-    "xlink_pairs": 3038,
-    "keyword_terms": 15856,
+    "total_entries": 10541,
+    "folio_count": 219,
+    "xlink_pairs": 3054,
+    "keyword_terms": 15910,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -999,6 +999,11 @@
         "id": "sugar-1200bc-300bc",
         "title": "Sugar",
         "entries": 12
+      },
+      {
+        "id": "sugar-1500-1650",
+        "title": "Sugar",
+        "entries": 40
       },
       {
         "id": "sugar-300bc-600ad",
@@ -10705,6 +10710,46 @@
     "sugar-1200bc-300bc::te2": "Guḍa: the first lump sugar",
     "sugar-1200bc-300bc::x1": "Darius I annexes the Indus valley",
     "sugar-1200bc-300bc::w1": "Alexander’s army reaches the Indus",
+    "sugar-1500-1650::c1": "Spanish troops sack Antwerp and its sugar trade collapses",
+    "sugar-1500-1650::c2": "English privateers make sugar cheaper in London than in Lisbon",
+    "sugar-1500-1650::c3": "Amador’s revolt on São Tomé",
+    "sugar-1500-1650::c4": "The Dutch seize Recife and the sugar Nordeste of Brazil",
+    "sugar-1500-1650::o1": "King Manuel’s charter asks for a sugar master in Brazil",
+    "sugar-1500-1650::o2": "The Spanish Crown props up Santo Domingo’s planters",
+    "sugar-1500-1650::o3": "Brazilian sugar pays duty at the Lisbon custom house",
+    "sugar-1500-1650::o4": "The shogun shuts out the Portuguese and their China sugar",
+    "sugar-1500-1650::b1": "Sephardic Jews worship openly in Dutch Recife",
+    "sugar-1500-1650::e1": "Spanish friars see sugar sculptures at the governor of Fuzhou’s banquet",
+    "sugar-1500-1650::e2": "The Earl of Hertford’s sugar menagerie for Elizabeth I",
+    "sugar-1500-1650::e3": "Del Turco says cookbooks lean too heavily on spices and sugar",
+    "sugar-1500-1650::e4": "The Tiangong kaiwu gives the recipe for animal-shaped candy",
+    "sugar-1500-1650::t1": "Hernández tells how a hen taught Mexico to whiten sugar",
+    "sugar-1500-1650::t2": "Gerard’s Herbal describes an Indian sugar crusher",
+    "sugar-1500-1650::t3": "Song Yingxing: ‘tastes that are sweet are generally desired by all’",
+    "sugar-1500-1650::ec1": "Madeira makes over 2,000 tons a year, and strips its own forests",
+    "sugar-1500-1650::ec2": "São Tomé’s sugar boom and its turn to slave-trading",
+    "sugar-1500-1650::ec3": "Brazil’s engenhos: from the coast in 1520 to 102 in two captaincies",
+    "sugar-1500-1650::ec4": "Santo Domingo has 34 mills by the 1530s, run by officials",
+    "sugar-1500-1650::ec5": "Antwerp has 19 sugar refineries, more than any other city",
+    "sugar-1500-1650::ec6": "Fujian sugar goes north ‘like running water’",
+    "sugar-1500-1650::ec7": "Dutch refineries grow from three or four in 1595 to over sixty",
+    "sugar-1500-1650::ec8": "Portugal supplies nearly all Europe with Brazilian sugar",
+    "sugar-1500-1650::ec9": "The Dutch company buys four million pounds of Chinese sugar",
+    "sugar-1500-1650::ec10": "Dutch Taiwan grows sugar for Japan and Persia",
+    "sugar-1500-1650::te1": "Canary engineers build Santo Domingo’s two-roller mill",
+    "sugar-1500-1650::te2": "Claying whitens sugar in Ming China",
+    "sugar-1500-1650::te3": "The three-roller mill and the Brazilian cauldron train",
+    "sugar-1500-1650::te4": "The Tiangong kaiwu shows a two-roller crusher and claying with yellow mud water",
+    "sugar-1500-1650::x1": "Portuguese ships carry some 264,000 enslaved people between 1519 and 1600",
+    "sugar-1500-1650::x2": "Macao’s ships carry Chinese silk and sugar to Nagasaki",
+    "sugar-1500-1650::x3": "Dutch ships take Chinese sugar home as ballast",
+    "sugar-1500-1650::w1": "The islands’ Taíno and Carib die within a century",
+    "sugar-1500-1650::w2": "Brazilian sugar and the eclipse of the Mediterranean trade",
+    "sugar-1500-1650::w3": "The United Provinces replace Antwerp with Amsterdam",
+    "sugar-1500-1650::w4": "Philip II takes the Portuguese crown, and Portugal’s sugar becomes a Spanish prize",
+    "sugar-1500-1650::l1": "The Canary mills use paid and enslaved workers together",
+    "sugar-1500-1650::l2": "The first Africans arrive in Santo Domingo before 1503",
+    "sugar-1500-1650::l3": "Elizabeth I’s black teeth and the ‘too great use of sugar’",
     "sugar-300bc-600ad::p1": "Shapur I — builder of Khuzestan",
     "sugar-300bc-600ad::p2": "Khusrau I Anushirvan",
     "sugar-300bc-600ad::c1": "Taiwu asks for sugarcane at Pengcheng",
@@ -24690,6 +24735,18 @@
       "safavid-1501-1722::p4",
       "safavid-1501-1722::t2"
     ],
+    "portuguese-gulf-1507-1650::w5": [
+      "sugar-1500-1650::c4",
+      "sugar-1500-1650::w4"
+    ],
+    "sugar-1500-1650::c4": [
+      "portuguese-gulf-1507-1650::w5",
+      "spain-1516-1700::c7"
+    ],
+    "sugar-1500-1650::w4": [
+      "portuguese-gulf-1507-1650::w5",
+      "spain-1516-1700::w5"
+    ],
     "qatar-1971-today::c3": [
       "saudi-1902-today::x6"
     ],
@@ -25015,6 +25072,48 @@
     "spain-1230-1492::c1": [
       "spain-718-1230::k5"
     ],
+    "spain-1516-1700::c7": [
+      "sugar-1500-1650::c1",
+      "sugar-1500-1650::c4",
+      "sugar-1500-1650::w3"
+    ],
+    "sugar-1500-1650::c1": [
+      "spain-1516-1700::c7"
+    ],
+    "sugar-1500-1650::w3": [
+      "spain-1516-1700::c7"
+    ],
+    "spain-1516-1700::o1": [
+      "sugar-1500-1650::w1"
+    ],
+    "sugar-1500-1650::w1": [
+      "spain-1516-1700::o1",
+      "spain-1516-1700::o2"
+    ],
+    "spain-1516-1700::o6": [
+      "sugar-1500-1650::o2"
+    ],
+    "sugar-1500-1650::o2": [
+      "spain-1516-1700::o6"
+    ],
+    "spain-1516-1700::o2": [
+      "sugar-1500-1650::w1"
+    ],
+    "spain-1516-1700::te3": [
+      "sugar-1500-1650::c2"
+    ],
+    "sugar-1500-1650::c2": [
+      "spain-1516-1700::te3"
+    ],
+    "spain-1516-1700::w5": [
+      "sugar-1500-1650::w4"
+    ],
+    "sugar-1000-1500::e2": [
+      "sugar-1500-1650::e1"
+    ],
+    "sugar-1500-1650::e1": [
+      "sugar-1000-1500::e2"
+    ],
     "sugar-1000-1500::e5": [
       "sugar-600-1000::e2"
     ],
@@ -25028,9 +25127,25 @@
     "sugar-1000-1500::ec3": [
       "sugar-600-1000::ec4"
     ],
+    "sugar-1000-1500::ec12": [
+      "sugar-1500-1650::w2"
+    ],
+    "sugar-1500-1650::w2": [
+      "sugar-1000-1500::ec12"
+    ],
+    "sugar-1000-1500::ec13": [
+      "sugar-1500-1650::ec1"
+    ],
+    "sugar-1500-1650::ec1": [
+      "sugar-1000-1500::ec13"
+    ],
     "sugar-1000-1500::te1": [
+      "sugar-1500-1650::te2",
       "sugar-600-1000::b2",
       "sugar-600-1000::te1"
+    ],
+    "sugar-1500-1650::te2": [
+      "sugar-1000-1500::te1"
     ],
     "sugar-600-1000::b2": [
       "sugar-1000-1500::te1"
@@ -25040,12 +25155,22 @@
       "sugar-300bc-600ad::te2"
     ],
     "sugar-1000-1500::x4": [
+      "sugar-1500-1650::ec6",
       "sugar-600-1000::x1"
+    ],
+    "sugar-1500-1650::ec6": [
+      "sugar-1000-1500::x4"
     ],
     "sugar-600-1000::x1": [
       "sugar-1000-1500::x4",
       "sugar-300bc-600ad::b5",
       "sugar-300bc-600ad::te4"
+    ],
+    "sugar-1000-1500::x8": [
+      "sugar-1500-1650::ec4"
+    ],
+    "sugar-1500-1650::ec4": [
+      "sugar-1000-1500::x8"
     ],
     "sugar-1200bc-300bc::b3": [
       "sugar-300bc-600ad::b1"
@@ -80180,6 +80305,208 @@
       "Indus",
       "Alexander"
     ],
+    "sugar-1500-1650::c1": [
+      "Antwerp",
+      "Dutch Revolt"
+    ],
+    "sugar-1500-1650::c2": [
+      "London",
+      "Caribbean",
+      "Lisbon",
+      "West Indies"
+    ],
+    "sugar-1500-1650::c3": [
+      "São Tomé",
+      "Amador"
+    ],
+    "sugar-1500-1650::c4": [
+      "Recife",
+      "Pernambuco",
+      "Dutch",
+      "Nordeste of Brazil"
+    ],
+    "sugar-1500-1650::o1": [
+      "Lisbon",
+      "Brazil",
+      "Manuel I"
+    ],
+    "sugar-1500-1650::o2": [
+      "Santo Domingo",
+      "Hispaniola",
+      "Charles I",
+      "Rodrigo de Figueroa"
+    ],
+    "sugar-1500-1650::o3": [
+      "Lisbon Custom House"
+    ],
+    "sugar-1500-1650::o4": [
+      "Nagasaki",
+      "Macao",
+      "China"
+    ],
+    "sugar-1500-1650::b1": [
+      "Sephardic Jews",
+      "Dutch Recife"
+    ],
+    "sugar-1500-1650::e1": [
+      "Fuzhou",
+      "Fujian"
+    ],
+    "sugar-1500-1650::e2": [
+      "England",
+      "Earl of Hertford",
+      "Elizabeth I"
+    ],
+    "sugar-1500-1650::e3": [
+      "Del Turco",
+      "Giovanni Del Turco of Florence"
+    ],
+    "sugar-1500-1650::e4": [
+      "Jiangxi",
+      "Ming China",
+      "Tiangong",
+      "Song Yingxing"
+    ],
+    "sugar-1500-1650::t1": [
+      "Mexico",
+      "Francisco Hernández"
+    ],
+    "sugar-1500-1650::t2": [
+      "London",
+      "Gerard Herbal",
+      "John Gerard"
+    ],
+    "sugar-1500-1650::t3": [
+      "Ming China",
+      "Song Yingxing",
+      "Development of Commodities",
+      "Human Skill"
+    ],
+    "sugar-1500-1650::ec1": [
+      "Madeira"
+    ],
+    "sugar-1500-1650::ec2": [
+      "São Tomé"
+    ],
+    "sugar-1500-1650::ec3": [
+      "Pernambuco",
+      "Bahia",
+      "Brazil"
+    ],
+    "sugar-1500-1650::ec4": [
+      "Santo Domingo",
+      "Hispaniola"
+    ],
+    "sugar-1500-1650::ec5": [
+      "Antwerp",
+      "Low Countries"
+    ],
+    "sugar-1500-1650::ec6": [
+      "Quanzhou",
+      "Zhangzhou",
+      "Fujian",
+      "Wang Shimao"
+    ],
+    "sugar-1500-1650::ec7": [
+      "Amsterdam",
+      "Dutch",
+      "Portuguese-controlled Brazil"
+    ],
+    "sugar-1500-1650::ec8": [
+      "Brazil",
+      "Lisbon",
+      "Portugal",
+      "Europe"
+    ],
+    "sugar-1500-1650::ec9": [
+      "Batavia",
+      "Amsterdam",
+      "Dutch"
+    ],
+    "sugar-1500-1650::ec10": [
+      "Tayouan",
+      "Sakam",
+      "Tainan",
+      "Dutch Taiwan",
+      "Japan",
+      "Persia"
+    ],
+    "sugar-1500-1650::te1": [
+      "Santo Domingo",
+      "Hispaniola",
+      "Gonzalo de Vellosa",
+      "Canary Islands",
+      "Pietro Speciale"
+    ],
+    "sugar-1500-1650::te2": [
+      "Fujian",
+      "Guangdong",
+      "Claying",
+      "Ming China"
+    ],
+    "sugar-1500-1650::te3": [
+      "Brazil",
+      "Peru",
+      "Pietro Speciale of Sicily",
+      "Soares Pereira"
+    ],
+    "sugar-1500-1650::te4": [
+      "Ming China",
+      "Tiangong"
+    ],
+    "sugar-1500-1650::x1": [
+      "São Tomé",
+      "Cape Verde",
+      "Lisbon"
+    ],
+    "sugar-1500-1650::x2": [
+      "Macao",
+      "Nagasaki"
+    ],
+    "sugar-1500-1650::x3": [
+      "Banten",
+      "Java",
+      "Dutch",
+      "Cornelis Matelief",
+      "Carracke of the Flemmings"
+    ],
+    "sugar-1500-1650::w1": [
+      "Hispaniola",
+      "Greater Antilles",
+      "Taíno",
+      "Carib",
+      "Santo Domingo"
+    ],
+    "sugar-1500-1650::w2": [
+      "Mediterranean",
+      "Atlantic"
+    ],
+    "sugar-1500-1650::w3": [
+      "Low Countries",
+      "United Provinces",
+      "Antwerp",
+      "Amsterdam"
+    ],
+    "sugar-1500-1650::w4": [
+      "Lisbon",
+      "Madrid",
+      "Portugal",
+      "Philip II of Spain"
+    ],
+    "sugar-1500-1650::l1": [
+      "Canary Islands"
+    ],
+    "sugar-1500-1650::l2": [
+      "Santo Domingo",
+      "Hispaniola"
+    ],
+    "sugar-1500-1650::l3": [
+      "England",
+      "Elizabeth I",
+      "Paul Hentzner",
+      "William Vaughan",
+      "James Hart"
+    ],
     "sugar-300bc-600ad::p1": [
       "House of Sasan",
       "Gundeshapur",
@@ -86571,6 +86898,8 @@
       "safavid-1501-1722::e2",
       "saudi-1902-today::x1",
       "spain-1900-1975::t2",
+      "sugar-1500-1650::c2",
+      "sugar-1500-1650::t2",
       "trucial-gulf-1820-1900::t2",
       "trucial-gulf-1900-1971::x1",
       "trucial-gulf-1900-1971::w4"
@@ -88560,6 +88889,7 @@
       "spain-1975-today::s4",
       "spain-718-1230::t1",
       "spain-718-1230::ex3",
+      "sugar-1500-1650::ec8",
       "turkey-1980-today::l4"
     ],
     "Cairo": [
@@ -90522,6 +90852,7 @@
       "sassanid-484-651::a3",
       "sugar-1200bc-300bc::th1",
       "sugar-1200bc-300bc::te1",
+      "sugar-1500-1650::o4",
       "sugar-300bc-600ad::ec3",
       "sugar-300bc-600ad::te2",
       "uae-1971-today::x4",
@@ -96295,6 +96626,7 @@
       "spain-1230-1492::c2",
       "spain-1230-1492::s2",
       "spain-1230-1492::ex4",
+      "sugar-1500-1650::w2",
       "tylos-mleiha-300bc-240ad::x5"
     ],
     "Lake": [
@@ -99700,6 +100032,7 @@
       "sassanid-484-651::s3",
       "south-arabia-1200bc-300bc::x4",
       "south-arabia-300bc-628::x4",
+      "sugar-1500-1650::ec10",
       "sugar-600-1000::x2",
       "trucial-gulf-1820-1900::x2",
       "trucial-gulf-1900-1971::w2"
@@ -104148,7 +104481,8 @@
       "byzantine-empire-1204-1453::l4"
     ],
     "Sephardic Jews": [
-      "byzantine-empire-1204-1453::l4"
+      "byzantine-empire-1204-1453::l4",
+      "sugar-1500-1650::b1"
     ],
     "Genoese of Galata": [
       "byzantine-empire-1204-1453::l2",
@@ -104585,6 +104919,7 @@
       "byzantine-empire-867-1204::x3",
       "byzantine-empire-867-1204::x4",
       "seljuks-of-rum-1071-1308::x1",
+      "sugar-1500-1650::o1",
       "trebizond-1204-1461::p2",
       "trebizond-1204-1461::o2",
       "trebizond-1204-1461::e1"
@@ -121944,7 +122279,9 @@
       "france-1494-1610::w1",
       "france-1610-1715::c3",
       "france-1610-1715::c4",
-      "spain-1516-1700::c10"
+      "spain-1516-1700::c10",
+      "sugar-1500-1650::ec5",
+      "sugar-1500-1650::w3"
     ],
     "Holy Roman Empire": [
       "france-1494-1610::w1",
@@ -121978,7 +122315,10 @@
     ],
     "Amsterdam": [
       "france-1494-1610::w4",
-      "france-1715-1789::t2"
+      "france-1715-1789::t2",
+      "sugar-1500-1650::ec7",
+      "sugar-1500-1650::ec9",
+      "sugar-1500-1650::w3"
     ],
     "Frankfurt": [
       "france-1494-1610::w4"
@@ -122047,6 +122387,10 @@
     ],
     "Brazil": [
       "france-1494-1610::lv8",
+      "sugar-1500-1650::o1",
+      "sugar-1500-1650::ec3",
+      "sugar-1500-1650::ec8",
+      "sugar-1500-1650::te3",
       "yemen-1517-1900::ec2"
     ],
     "Des Cannibales": [
@@ -122215,7 +122559,8 @@
       "france-1715-1789::c2",
       "france-1715-1789::lv2",
       "spain-1516-1700::te3",
-      "spain-1700-1808::lv7"
+      "spain-1700-1808::lv7",
+      "sugar-1500-1650::c2"
     ],
     "Port-Royal-des-Champs": [
       "france-1610-1715::r1"
@@ -122521,7 +122866,8 @@
     "Atlantic": [
       "france-1715-1789::c2",
       "spain-1230-1492::te4",
-      "spain-1975-today::w5"
+      "spain-1975-today::w5",
+      "sugar-1500-1650::w2"
     ],
     "American War of Independence": [
       "france-1715-1789::c2"
@@ -122820,7 +123166,9 @@
       "spain-1700-1808::ex4",
       "spain-1700-1808::w3",
       "spain-718-1230::r2",
-      "spain-718-1230::lv1"
+      "spain-718-1230::lv1",
+      "sugar-1500-1650::ec8",
+      "sugar-1500-1650::w4"
     ],
     "Peninsular War": [
       "france-1789-1815::c7",
@@ -123034,7 +123382,12 @@
       "portuguese-gulf-1507-1650::t1",
       "portuguese-gulf-1507-1650::tc4",
       "portuguese-gulf-1507-1650::x2",
-      "spain-1516-1700::c12"
+      "spain-1516-1700::c12",
+      "sugar-1500-1650::c2",
+      "sugar-1500-1650::o1",
+      "sugar-1500-1650::ec8",
+      "sugar-1500-1650::x1",
+      "sugar-1500-1650::w4"
     ],
     "Confederation of the Rhine": [
       "france-1789-1815::w1"
@@ -127663,6 +128016,7 @@
       "spain-1975-today::lv2",
       "spain-1975-today::lv3",
       "spain-1975-today::lv8",
+      "sugar-1500-1650::w4",
       "visigoths-589-711::a1"
     ],
     "Dama de Elche": [
@@ -128353,7 +128707,11 @@
     "Ming China": [
       "hormuz-1200-1507::w3",
       "iran-1335-1501::x1",
-      "mamluks-1250-1517::x6"
+      "mamluks-1250-1517::x6",
+      "sugar-1500-1650::e4",
+      "sugar-1500-1650::t3",
+      "sugar-1500-1650::te2",
+      "sugar-1500-1650::te4"
     ],
     "Safavids": [
       "hormuz-1200-1507::w4",
@@ -139789,6 +140147,10 @@
       "oman-gulf-1650-1820::x4",
       "ottoman-empire-1517-1683::x3",
       "portuguese-gulf-1507-1650::w4",
+      "sugar-1500-1650::c4",
+      "sugar-1500-1650::ec7",
+      "sugar-1500-1650::ec9",
+      "sugar-1500-1650::x3",
       "yemen-1517-1900::t4"
     ],
     "Other Europeans": [
@@ -143152,7 +143514,10 @@
     ],
     "Antwerp": [
       "portuguese-gulf-1507-1650::t2",
-      "spain-1516-1700::c15"
+      "spain-1516-1700::c15",
+      "sugar-1500-1650::c1",
+      "sugar-1500-1650::ec5",
+      "sugar-1500-1650::w3"
     ],
     "Pedro Teixeira": [
       "portuguese-gulf-1507-1650::t2"
@@ -145168,7 +145533,9 @@
     ],
     "England": [
       "rome-300-400::a5",
-      "spain-1230-1492::c6"
+      "spain-1230-1492::c6",
+      "sugar-1500-1650::e2",
+      "sugar-1500-1650::l3"
     ],
     "Chi-Rho": [
       "rome-300-400::a5"
@@ -148481,7 +148848,8 @@
       "spain-1516-1700::c8"
     ],
     "Charles I": [
-      "spain-1516-1700::c8"
+      "spain-1516-1700::c8",
+      "sugar-1500-1650::o2"
     ],
     "Castile Toledo": [
       "spain-1516-1700::c6"
@@ -148642,7 +149010,8 @@
     ],
     "Peru": [
       "spain-1516-1700::o6",
-      "spain-1516-1700::lv6"
+      "spain-1516-1700::lv6",
+      "sugar-1500-1650::te3"
     ],
     "Laws of the Indies": [
       "spain-1516-1700::o6"
@@ -149037,7 +149406,8 @@
       "spain-1516-1700::lv9"
     ],
     "Mexico": [
-      "spain-1516-1700::lv3"
+      "spain-1516-1700::lv3",
+      "sugar-1500-1650::t1"
     ],
     "Nahuatl": [
       "spain-1516-1700::lv3"
@@ -150138,7 +150508,9 @@
     ],
     "Canary Islands": [
       "spain-1900-1975::c1",
-      "spain-1975-today::s6"
+      "spain-1975-today::s6",
+      "sugar-1500-1650::te1",
+      "sugar-1500-1650::l1"
     ],
     "Jarama": [
       "spain-1900-1975::c4"
@@ -151784,7 +152156,8 @@
     ],
     "Madeira": [
       "sugar-1000-1500::ec13",
-      "sugar-1000-1500::x8"
+      "sugar-1000-1500::x8",
+      "sugar-1500-1650::ec1"
     ],
     "Maredolce": [
       "sugar-1000-1500::te2"
@@ -151817,7 +152190,10 @@
       "sugar-1000-1500::x3"
     ],
     "Fujian": [
-      "sugar-1000-1500::x4"
+      "sugar-1000-1500::x4",
+      "sugar-1500-1650::e1",
+      "sugar-1500-1650::ec6",
+      "sugar-1500-1650::te2"
     ],
     "Hospitallers": [
       "sugar-1000-1500::x7"
@@ -151897,6 +152273,199 @@
     ],
     "Punjab": [
       "sugar-1200bc-300bc::w1"
+    ],
+    "Dutch Revolt": [
+      "sugar-1500-1650::c1"
+    ],
+    "West Indies": [
+      "sugar-1500-1650::c2"
+    ],
+    "São Tomé": [
+      "sugar-1500-1650::c3",
+      "sugar-1500-1650::ec2",
+      "sugar-1500-1650::x1"
+    ],
+    "Amador": [
+      "sugar-1500-1650::c3"
+    ],
+    "Recife": [
+      "sugar-1500-1650::c4"
+    ],
+    "Pernambuco": [
+      "sugar-1500-1650::c4",
+      "sugar-1500-1650::ec3"
+    ],
+    "Nordeste of Brazil": [
+      "sugar-1500-1650::c4"
+    ],
+    "Santo Domingo": [
+      "sugar-1500-1650::o2",
+      "sugar-1500-1650::ec4",
+      "sugar-1500-1650::te1",
+      "sugar-1500-1650::w1",
+      "sugar-1500-1650::l2"
+    ],
+    "Hispaniola": [
+      "sugar-1500-1650::o2",
+      "sugar-1500-1650::ec4",
+      "sugar-1500-1650::te1",
+      "sugar-1500-1650::w1",
+      "sugar-1500-1650::l2"
+    ],
+    "Rodrigo de Figueroa": [
+      "sugar-1500-1650::o2"
+    ],
+    "Lisbon Custom House": [
+      "sugar-1500-1650::o3"
+    ],
+    "Nagasaki": [
+      "sugar-1500-1650::o4",
+      "sugar-1500-1650::x2"
+    ],
+    "Macao": [
+      "sugar-1500-1650::o4",
+      "sugar-1500-1650::x2"
+    ],
+    "Dutch Recife": [
+      "sugar-1500-1650::b1"
+    ],
+    "Fuzhou": [
+      "sugar-1500-1650::e1"
+    ],
+    "Earl of Hertford": [
+      "sugar-1500-1650::e2"
+    ],
+    "Elizabeth I": [
+      "sugar-1500-1650::e2",
+      "sugar-1500-1650::l3"
+    ],
+    "Del Turco": [
+      "sugar-1500-1650::e3"
+    ],
+    "Giovanni Del Turco of Florence": [
+      "sugar-1500-1650::e3"
+    ],
+    "Jiangxi": [
+      "sugar-1500-1650::e4"
+    ],
+    "Tiangong": [
+      "sugar-1500-1650::e4",
+      "sugar-1500-1650::te4"
+    ],
+    "Song Yingxing": [
+      "sugar-1500-1650::e4",
+      "sugar-1500-1650::t3"
+    ],
+    "Francisco Hernández": [
+      "sugar-1500-1650::t1"
+    ],
+    "Gerard Herbal": [
+      "sugar-1500-1650::t2"
+    ],
+    "John Gerard": [
+      "sugar-1500-1650::t2"
+    ],
+    "Development of Commodities": [
+      "sugar-1500-1650::t3"
+    ],
+    "Human Skill": [
+      "sugar-1500-1650::t3"
+    ],
+    "Bahia": [
+      "sugar-1500-1650::ec3"
+    ],
+    "Quanzhou": [
+      "sugar-1500-1650::ec6"
+    ],
+    "Zhangzhou": [
+      "sugar-1500-1650::ec6"
+    ],
+    "Wang Shimao": [
+      "sugar-1500-1650::ec6"
+    ],
+    "Portuguese-controlled Brazil": [
+      "sugar-1500-1650::ec7"
+    ],
+    "Batavia": [
+      "sugar-1500-1650::ec9"
+    ],
+    "Tayouan": [
+      "sugar-1500-1650::ec10"
+    ],
+    "Sakam": [
+      "sugar-1500-1650::ec10"
+    ],
+    "Tainan": [
+      "sugar-1500-1650::ec10"
+    ],
+    "Dutch Taiwan": [
+      "sugar-1500-1650::ec10"
+    ],
+    "Japan": [
+      "sugar-1500-1650::ec10",
+      "sugar-600-1000::x3"
+    ],
+    "Gonzalo de Vellosa": [
+      "sugar-1500-1650::te1"
+    ],
+    "Pietro Speciale": [
+      "sugar-1500-1650::te1"
+    ],
+    "Guangdong": [
+      "sugar-1500-1650::te2",
+      "sugar-300bc-600ad::th6",
+      "sugar-300bc-600ad::te2",
+      "sugar-300bc-600ad::l1"
+    ],
+    "Claying": [
+      "sugar-1500-1650::te2"
+    ],
+    "Pietro Speciale of Sicily": [
+      "sugar-1500-1650::te3"
+    ],
+    "Soares Pereira": [
+      "sugar-1500-1650::te3"
+    ],
+    "Cape Verde": [
+      "sugar-1500-1650::x1"
+    ],
+    "Banten": [
+      "sugar-1500-1650::x3"
+    ],
+    "Java": [
+      "sugar-1500-1650::x3",
+      "yemen-1517-1900::ec2",
+      "yemen-1517-1900::x4"
+    ],
+    "Cornelis Matelief": [
+      "sugar-1500-1650::x3"
+    ],
+    "Carracke of the Flemmings": [
+      "sugar-1500-1650::x3"
+    ],
+    "Greater Antilles": [
+      "sugar-1500-1650::w1"
+    ],
+    "Taíno": [
+      "sugar-1500-1650::w1"
+    ],
+    "Carib": [
+      "sugar-1500-1650::w1"
+    ],
+    "United Provinces": [
+      "sugar-1500-1650::w3"
+    ],
+    "Philip II of Spain": [
+      "sugar-1500-1650::w4"
+    ],
+    "Paul Hentzner": [
+      "sugar-1500-1650::l3"
+    ],
+    "William Vaughan": [
+      "sugar-1500-1650::l3"
+    ],
+    "James Hart": [
+      "sugar-1500-1650::l3"
     ],
     "Tustar": [
       "sugar-300bc-600ad::p1"
@@ -152032,11 +152601,6 @@
     "Tonkin": [
       "sugar-300bc-600ad::th6",
       "sugar-300bc-600ad::th12",
-      "sugar-300bc-600ad::l1"
-    ],
-    "Guangdong": [
-      "sugar-300bc-600ad::th6",
-      "sugar-300bc-600ad::te2",
       "sugar-300bc-600ad::l1"
     ],
     "Yang Fu Yiwu": [
@@ -152294,9 +152858,6 @@
       "sugar-600-1000::x2"
     ],
     "Jianzhen": [
-      "sugar-600-1000::x3"
-    ],
-    "Japan": [
       "sugar-600-1000::x3"
     ],
     "Andalusian Arabs": [
@@ -154997,10 +155558,6 @@
     ],
     "al-Mukha": [
       "yemen-1517-1900::ec2"
-    ],
-    "Java": [
-      "yemen-1517-1900::ec2",
-      "yemen-1517-1900::x4"
     ],
     "Réunion": [
       "yemen-1517-1900::ec2"
