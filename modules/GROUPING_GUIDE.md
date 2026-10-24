@@ -90,6 +90,7 @@ Order covers **all government-driven acts** — laws, decrees, administrative re
 | `Colonial Law` | colonial charters, governance acts, indigenous rights legislation |
 | `Social Reform` | state-driven changes to social structure, education, welfare |
 | `Human Rights` | legal recognition or denial of rights; judicial landmark cases |
+| `Health & Consumer Law` | food-safety, additive, labelling and liability law and official dietary guidance — the home of a subject folio’s regulation of what is in the food (as distinct from taxes, which are `Fiscal & Monetary Policy`) |
 
 **Examples of what belongs in Order (not Economy):**
 - Philip II's bankruptcies → `Fiscal & Monetary Policy` (Crown decision)

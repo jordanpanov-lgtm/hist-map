@@ -282,5 +282,6 @@ const MODULES = [
   { id:"sugar-1650-1800", file:"modules/sugar-1650-1800.json", label:"Sugar 1650–1800", sub:"The Sugar Revolution: Barbados, Jamaica, Saint-Domingue, the Atlantic Slave Trade, Rum and Tea", region:"Sugar", period:"Early Modern" },
   { id:"sugar-1800-1900", file:"modules/sugar-1800-1900.json", label:"Sugar 1800–1900", sub:"Beet, Steam, Emancipation and Contract Labour: From Napoleon’s Beet to the Sugar Trust", region:"Sugar", period:"Early Modern" },
   { id:"sugar-1900-1970", file:"modules/sugar-1900-1970.json", label:"Sugar 1900–1970", sub:"Glut, War and Quota: The Sugar Trust, Colonial Taiwan, Rationing, Cuba and the First Doubts", region:"Sugar", period:"Modern" },
+  { id:"sugar-1970-today", file:"modules/sugar-1970-today.json", label:"Sugar 1970–today", sub:"Corn Syrup, Obesity and the Sugar Tax: From Yudkin’s Warning to the Soft Drinks Levy", region:"Sugar", period:"Modern" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

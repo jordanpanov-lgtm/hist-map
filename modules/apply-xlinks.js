@@ -3142,6 +3142,23 @@ const SELECTED_PAIRS = [
   ['sugar-1900-1970::ec14', 'turkey-1923-1980::ec2'],                 // Turkey's Etatism
   ['sugar-1900-1970::ec15', 'egypt-1900-1952::e3'],                   // Egypt's tariff autonomy
   ['sugar-1900-1970::ec15', 'egypt-1798-1900::g5'],                   // Egypt's sugar mills
+
+  // ── sugar-1970-today (hand-reviewed) ──
+  ['sugar-1970-today::o3', 'sugar-1900-1970::o7'],                    // the 1937 Sugar Act ends in 1974
+  ['sugar-1970-today::te1', 'sugar-1900-1970::te5'],                  // HFCS discovered 1957 -> adopted 1980-85
+  ['sugar-1970-today::t1', 'sugar-1900-1970::t3'],                    // Yudkin 1957 -> 1972
+  ['sugar-1970-today::t8', 'sugar-1900-1970::t4'],                    // the 1967 review exposed in 2016
+  ['sugar-1970-today::ec1', 'sugar-1900-1970::ec7'],                  // soft-drink consumption
+  ['sugar-1970-today::x1', 'sugar-1900-1970::x5'],                    // Coca-Cola abroad
+  ['sugar-1970-today::l2', 'sugar-1900-1970::l1'],                    // children's teeth
+  ['sugar-1970-today::ec3', 'sugar-1900-1970::e2'],                   // sweetened cereal
+  ['sugar-1970-today::ec5', 'sugar-1900-1970::ec10'],                 // fast food and supermarkets
+  ['sugar-1970-today::w2', 'sugar-1900-1970::x4'],                    // Cuba and the Soviet Union
+  ['sugar-1970-today::ec7', 'sugar-1900-1970::c4'],                   // Cuba's revolution -> decline
+  ['sugar-1970-today::l3', 'sugar-1900-1970::x3'],                    // Florida's cane workers
+  ['sugar-1970-today::ec10', 'sugar-1900-1970::ec5'],                 // C&H / Hawaii
+  ['sugar-1970-today::te2', 'sugar-1900-1970::te2'],                  // saccharin -> new sweeteners
+  ['sugar-1970-today::o11', 'egypt-1952-today::e8'],                  // Egypt's subsidised sugar
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

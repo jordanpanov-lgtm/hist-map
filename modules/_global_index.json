@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 10702,
-    "folio_count": 222,
-    "xlink_pairs": 3113,
-    "keyword_terms": 16099,
+    "total_entries": 10747,
+    "folio_count": 223,
+    "xlink_pairs": 3128,
+    "keyword_terms": 16143,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -1019,6 +1019,11 @@
         "id": "sugar-1900-1970",
         "title": "Sugar",
         "entries": 54
+      },
+      {
+        "id": "sugar-1970-today",
+        "title": "Sugar",
+        "entries": 45
       },
       {
         "id": "sugar-300bc-600ad",
@@ -10926,6 +10931,51 @@
     "sugar-1900-1970::l1": "School dentists find the nation’s teeth corroded by sugar",
     "sugar-1900-1970::l2": "Taiwan’s cane farmers under company contract",
     "sugar-1900-1970::l3": "A Dewsbury shop assistant records the sugar ration cut",
+    "sugar-1970-today::o11": "Egypt’s republic subsidises sugar with bread and fuel",
+    "sugar-1970-today::o1": "The FDA bans cyclamates",
+    "sugar-1970-today::o2": "The 1973 Farm Bill lets corn farmers grow as much as they like",
+    "sugar-1970-today::o3": "Congress ends the US sugar quota system",
+    "sugar-1970-today::o4": "Saccharin is put under a moratorium, then cleared",
+    "sugar-1970-today::o5": "The WTO is launched to end farm subsidies, but rich countries keep theirs",
+    "sugar-1970-today::o6": "The House votes a Personal Responsibility in Food Consumption Act",
+    "sugar-1970-today::o7": "Mexico taxes sugary drinks",
+    "sugar-1970-today::o8": "The WHO recommends free sugars below 10 per cent of energy",
+    "sugar-1970-today::o9": "Britain announces a soft-drinks levy",
+    "sugar-1970-today::o10": "The EU’s sugar quotas end",
+    "sugar-1970-today::e2": "McDonald’s ‘large’ and ‘supersize’",
+    "sugar-1970-today::e1": "Lucozade and Red Bull sell sugar as energy",
+    "sugar-1970-today::e3": "Three-quarters of advertisements aimed at children are for foods of ‘low nutritional quality’",
+    "sugar-1970-today::e5": "Jamie Oliver calls sugar ‘the next tobacco’",
+    "sugar-1970-today::e4": "Coca-Cola advertises ‘Zero Sugar’",
+    "sugar-1970-today::t1": "Yudkin’s Pure, White and Deadly",
+    "sugar-1970-today::t2": "Duffy’s Sugar Blues",
+    "sugar-1970-today::t3": "Taste scientists look for the ‘bliss point’",
+    "sugar-1970-today::t4": "‘Liquid Candy’ names soda as a health problem",
+    "sugar-1970-today::t5": "The American Heart Association sets sugar limits",
+    "sugar-1970-today::t6": "The Lancet: obesity has almost doubled since 1980",
+    "sugar-1970-today::t7": "Public Health England’s Sugar Reduction report names sugar",
+    "sugar-1970-today::t8": "Papers reveal the sugar industry’s 1960s research strategy",
+    "sugar-1970-today::ec1": "American soft-drink consumption: 23 gallons in 1969, 54 in 1997",
+    "sugar-1970-today::ec3": "Cereal sales rise from $660 million in 1970 to $4.4 billion in the 1980s",
+    "sugar-1970-today::ec5": "America has 13,000 McDonald’s by 2001",
+    "sugar-1970-today::ec2": "American sweetener use grows from 125 lb to 153 lb a head",
+    "sugar-1970-today::ec4": "An estimated 2 billion people are overweight in 2015",
+    "sugar-1970-today::ec7": "Cuba’s sugar falls apart without the Soviet market",
+    "sugar-1970-today::ec8": "British soft-drink volumes double in twelve years",
+    "sugar-1970-today::ec9": "Coca-Cola launches bottled water, and the market passes $150 billion",
+    "sugar-1970-today::ec6": "Nestlé’s revenue exceeds the GDP of all but seventy nations",
+    "sugar-1970-today::ec10": "Hawaii has one cane grower left",
+    "sugar-1970-today::te2": "Aspartame, sucralose and stevia reach the supermarket",
+    "sugar-1970-today::te4": "The microwave comes to dominate the Western kitchen",
+    "sugar-1970-today::te3": "Brazil’s Proálcool turns cane into fuel",
+    "sugar-1970-today::te1": "Coca-Cola switches to corn syrup",
+    "sugar-1970-today::x1": "Coca-Cola is sold in over 200 countries",
+    "sugar-1970-today::x2": "Sugar taxes spread from Hungary to Mexico and US cities",
+    "sugar-1970-today::w1": "The oil shocks turn Brazil’s cane into fuel",
+    "sugar-1970-today::w2": "The Soviet Union’s collapse ends Cuba’s sugar market",
+    "sugar-1970-today::l3": "Florida’s cane workers are beaten back to work",
+    "sugar-1970-today::l1": "Britain’s and America’s children grow heavier",
+    "sugar-1970-today::l2": "Dental surgeons are ‘seriously concerned’ about English children’s teeth",
     "sugar-300bc-600ad::p1": "Shapur I — builder of Khuzestan",
     "sugar-300bc-600ad::p2": "Khusrau I Anushirvan",
     "sugar-300bc-600ad::c1": "Taiwu asks for sugarcane at Pengcheng",
@@ -19099,6 +19149,12 @@
       "egypt-1952-today::e7",
       "iraq-1979-2003::o3"
     ],
+    "egypt-1952-today::e8": [
+      "sugar-1970-today::o11"
+    ],
+    "sugar-1970-today::o11": [
+      "egypt-1952-today::e8"
+    ],
     "modern-near-east-1945-1990::te1": [
       "egypt-1952-today::g1"
     ],
@@ -25632,7 +25688,8 @@
     ],
     "sugar-1900-1970::ec5": [
       "sugar-1800-1900::ec9",
-      "sugar-1800-1900::ec15"
+      "sugar-1800-1900::ec15",
+      "sugar-1970-today::ec10"
     ],
     "sugar-1800-1900::ec4": [
       "sugar-1900-1970::c1"
@@ -25658,7 +25715,8 @@
       "sugar-1900-1970::ec7"
     ],
     "sugar-1900-1970::ec7": [
-      "sugar-1800-1900::ec17"
+      "sugar-1800-1900::ec17",
+      "sugar-1970-today::ec1"
     ],
     "sugar-1900-1970::ec4": [
       "sugar-1800-1900::ec16"
@@ -25670,13 +25728,87 @@
       "sugar-1900-1970::x3"
     ],
     "sugar-1900-1970::x3": [
-      "sugar-1800-1900::x1"
+      "sugar-1800-1900::x1",
+      "sugar-1970-today::l3"
     ],
     "sugar-1900-1970::l1": [
-      "sugar-1800-1900::l4"
+      "sugar-1800-1900::l4",
+      "sugar-1970-today::l2"
+    ],
+    "sugar-1900-1970::c4": [
+      "sugar-1970-today::ec7"
+    ],
+    "sugar-1970-today::ec7": [
+      "sugar-1900-1970::c4"
+    ],
+    "sugar-1900-1970::o7": [
+      "sugar-1970-today::o3"
+    ],
+    "sugar-1970-today::o3": [
+      "sugar-1900-1970::o7"
+    ],
+    "sugar-1900-1970::e2": [
+      "sugar-1970-today::ec3"
+    ],
+    "sugar-1970-today::ec3": [
+      "sugar-1900-1970::e2"
+    ],
+    "sugar-1900-1970::t3": [
+      "sugar-1970-today::t1"
+    ],
+    "sugar-1970-today::t1": [
+      "sugar-1900-1970::t3"
+    ],
+    "sugar-1900-1970::t4": [
+      "sugar-1970-today::t8"
+    ],
+    "sugar-1970-today::t8": [
+      "sugar-1900-1970::t4"
+    ],
+    "sugar-1970-today::ec1": [
+      "sugar-1900-1970::ec7"
+    ],
+    "sugar-1970-today::ec10": [
+      "sugar-1900-1970::ec5"
     ],
     "sugar-1900-1970::ec14": [
       "turkey-1923-1980::ec2"
+    ],
+    "sugar-1900-1970::ec10": [
+      "sugar-1970-today::ec5"
+    ],
+    "sugar-1970-today::ec5": [
+      "sugar-1900-1970::ec10"
+    ],
+    "sugar-1900-1970::te2": [
+      "sugar-1970-today::te2"
+    ],
+    "sugar-1970-today::te2": [
+      "sugar-1900-1970::te2"
+    ],
+    "sugar-1900-1970::te5": [
+      "sugar-1970-today::te1"
+    ],
+    "sugar-1970-today::te1": [
+      "sugar-1900-1970::te5"
+    ],
+    "sugar-1970-today::l3": [
+      "sugar-1900-1970::x3"
+    ],
+    "sugar-1900-1970::x4": [
+      "sugar-1970-today::w2"
+    ],
+    "sugar-1970-today::w2": [
+      "sugar-1900-1970::x4"
+    ],
+    "sugar-1900-1970::x5": [
+      "sugar-1970-today::x1"
+    ],
+    "sugar-1970-today::x1": [
+      "sugar-1900-1970::x5"
+    ],
+    "sugar-1970-today::l2": [
+      "sugar-1900-1970::l1"
     ],
     "sugar-300bc-600ad::b5": [
       "sugar-600-1000::b1",
@@ -80398,7 +80530,7 @@
       "Christian Iberia"
     ],
     "sugar-1000-1500::c1": [
-      "Western Sicily",
+      "Sicily",
       "Lucera",
       "Frederick II"
     ],
@@ -80686,7 +80818,7 @@
     "sugar-1000-1500::w2": [
       "Cairo",
       "Alexandria",
-      "Black Death"
+      "Death"
     ],
     "sugar-1000-1500::l1": [
       "Fustat"
@@ -80776,8 +80908,7 @@
     "sugar-1500-1650::c2": [
       "London",
       "Caribbean",
-      "Lisbon",
-      "West Indies"
+      "Lisbon"
     ],
     "sugar-1500-1650::c3": [
       "São Tomé",
@@ -80973,13 +81104,12 @@
     ],
     "sugar-1650-1800::c1": [
       "Barbados",
-      "Richard Dunn",
-      "West Indies"
+      "Richard Dunn"
     ],
     "sugar-1650-1800::c2": [
       "Jamaica",
       "England",
-      "Western Design"
+      "Design"
     ],
     "sugar-1650-1800::c3": [
       "St Kitts"
@@ -80996,8 +81126,7 @@
     ],
     "sugar-1650-1800::c6": [
       "Caribbean",
-      "North America",
-      "American"
+      "North America"
     ],
     "sugar-1650-1800::c7": [
       "Saint-Domingue",
@@ -81018,7 +81147,6 @@
       "North America",
       "Molasses Act",
       "Tea Act",
-      "American",
       "New England"
     ],
     "sugar-1650-1800::o4": [
@@ -81035,7 +81163,6 @@
     ],
     "sugar-1650-1800::b2": [
       "England",
-      "West Indian",
       "Quaker William Fox",
       "East Indian"
     ],
@@ -81123,8 +81250,7 @@
       "Brazil"
     ],
     "sugar-1650-1800::x2": [
-      "Atlantic",
-      "West Indies"
+      "Atlantic"
     ],
     "sugar-1650-1800::x3": [
       "Gold Coast",
@@ -81175,8 +81301,7 @@
     ],
     "sugar-1650-1800::l3": [
       "Atlantic Ocean",
-      "Zong",
-      "West Indies"
+      "Zong"
     ],
     "sugar-1650-1800::l4": [
       "Saint-Domingue"
@@ -81209,7 +81334,7 @@
     "sugar-1800-1900::c5": [
       "Cuba",
       "Philippines",
-      "American Sugar Refining Company",
+      "Refining Company",
       "Puerto Rico"
     ],
     "sugar-1800-1900::o1": [
@@ -81219,7 +81344,7 @@
       "United States"
     ],
     "sugar-1800-1900::o2": [
-      "British West Indies",
+      "Indies",
       "Britain"
     ],
     "sugar-1800-1900::o3": [
@@ -81233,8 +81358,7 @@
     ],
     "sugar-1800-1900::o5": [
       "London",
-      "Britain",
-      "West Indian"
+      "Britain"
     ],
     "sugar-1800-1900::o6": [
       "Paris",
@@ -81295,8 +81419,7 @@
       "Science of Human Life"
     ],
     "sugar-1800-1900::ec14": [
-      "United States",
-      "American"
+      "United States"
     ],
     "sugar-1800-1900::ec3": [
       "Cuba"
@@ -81305,8 +81428,7 @@
       "North America"
     ],
     "sugar-1800-1900::ec13": [
-      "Britain",
-      "British"
+      "Britain"
     ],
     "sugar-1800-1900::ec1": [
       "France"
@@ -81315,8 +81437,7 @@
       "Louisiana"
     ],
     "sugar-1800-1900::ec7": [
-      "Mauritius",
-      "West Indian"
+      "Mauritius"
     ],
     "sugar-1800-1900::ec9": [
       "Hawaii",
@@ -81326,9 +81447,7 @@
     "sugar-1800-1900::ec4": [
       "Germany",
       "France",
-      "Austria–Hungary",
-      "Beet",
-      "Western Europe"
+      "Austria–Hungary"
     ],
     "sugar-1800-1900::ec5": [
       "London"
@@ -81350,14 +81469,13 @@
     ],
     "sugar-1800-1900::ec12": [
       "Britain",
-      "British",
       "Henry Weatherley"
     ],
     "sugar-1800-1900::ec8": [
       "Civil War Louisiana"
     ],
     "sugar-1800-1900::ec17": [
-      "American South",
+      "South",
       "Soda-fountain",
       "Dr Pepper",
       "Coca-Cola",
@@ -81370,7 +81488,7 @@
       "New York",
       "Havemeyer Sugar Trust",
       "Henry Havemeyer",
-      "American Sugar Refining Company"
+      "Refining Company"
     ],
     "sugar-1800-1900::te1": [
       "England",
@@ -81406,8 +81524,7 @@
     "sugar-1800-1900::x1": [
       "India",
       "Caribbean",
-      "Ocean",
-      "British Guiana"
+      "Ocean"
     ],
     "sugar-1800-1900::x2": [
       "Guangdong",
@@ -81450,7 +81567,7 @@
       "Zululand"
     ],
     "sugar-1800-1900::l1": [
-      "British West Indies",
+      "Indies",
       "Former"
     ],
     "sugar-1800-1900::l2": [
@@ -81468,7 +81585,7 @@
     ],
     "sugar-1900-1970::c1": [
       "Britain",
-      "Western Front",
+      "Front",
       "Robert Graves"
     ],
     "sugar-1900-1970::c2": [
@@ -81478,8 +81595,7 @@
     "sugar-1900-1970::c3": [
       "Atlantic",
       "Britain",
-      "U-boats",
-      "British"
+      "U-boats"
     ],
     "sugar-1900-1970::c4": [
       "Cuba",
@@ -81502,14 +81618,12 @@
       "London",
       "Britain",
       "Royal Commission",
-      "Supplies",
-      "British Government"
+      "Supplies"
     ],
     "sugar-1900-1970::o4": [
       "Washington",
       "America",
       "Americans",
-      "Food Administration",
       "US Government"
     ],
     "sugar-1900-1970::o5": [
@@ -81549,7 +81663,7 @@
       "US Congress"
     ],
     "sugar-1900-1970::e1": [
-      "Western Front",
+      "Front",
       "Robert Graves"
     ],
     "sugar-1900-1970::e2": [
@@ -81615,20 +81729,17 @@
     "sugar-1900-1970::ec5": [
       "California",
       "Hawaii C&H",
-      "American Sugar Refining Company",
+      "Refining Company",
       "Domino Sugar"
     ],
     "sugar-1900-1970::ec8": [
-      "Britain",
-      "British"
+      "Britain"
     ],
     "sugar-1900-1970::ec15": [
       "Upper Egypt"
     ],
     "sugar-1900-1970::ec9": [
-      "United States",
-      "American",
-      "West Germany"
+      "United States"
     ],
     "sugar-1900-1970::ec11": [
       "Clewiston",
@@ -81650,8 +81761,7 @@
       "Supermarkets"
     ],
     "sugar-1900-1970::ec13": [
-      "Britain",
-      "British"
+      "Britain"
     ],
     "sugar-1900-1970::te1": [
       "Taiwan Rose Bamboo",
@@ -81691,9 +81801,7 @@
     "sugar-1900-1970::x3": [
       "Florida",
       "Mexican",
-      "West Indian",
-      "US Government",
-      "West Indians"
+      "US Government"
     ],
     "sugar-1900-1970::x4": [
       "Havana",
@@ -81711,8 +81819,7 @@
     ],
     "sugar-1900-1970::w2": [
       "Marshall Plan",
-      "Europe American",
-      "Western European"
+      "Europe American"
     ],
     "sugar-1900-1970::w3": [
       "Florida",
@@ -81730,6 +81837,221 @@
       "Dewsbury",
       "Yorkshire",
       "Kathleen Hey"
+    ],
+    "sugar-1970-today::o11": [
+      "Egypt"
+    ],
+    "sugar-1970-today::o1": [
+      "Washington",
+      "FDA"
+    ],
+    "sugar-1970-today::o2": [
+      "Washington",
+      "Farm Bill"
+    ],
+    "sugar-1970-today::o3": [
+      "Washington",
+      "Congress"
+    ],
+    "sugar-1970-today::o4": [
+      "Washington",
+      "Saccharin"
+    ],
+    "sugar-1970-today::o5": [
+      "Geneva",
+      "WTO",
+      "World Trade Organisation",
+      "World Bank",
+      "Wall Street Journal"
+    ],
+    "sugar-1970-today::o6": [
+      "Washington",
+      "Personal Responsibility",
+      "Consumption Act",
+      "US House of Representatives",
+      "United States"
+    ],
+    "sugar-1970-today::o7": [
+      "Mexico City"
+    ],
+    "sugar-1970-today::o8": [
+      "Geneva",
+      "WHO",
+      "World Health Organization"
+    ],
+    "sugar-1970-today::o9": [
+      "London",
+      "Britain",
+      "Public Health England Sugar Reduction",
+      "Soft Drinks Industry Levy"
+    ],
+    "sugar-1970-today::o10": [
+      "Brussels",
+      "European Union",
+      "Common Agricultural Policy"
+    ],
+    "sugar-1970-today::e2": [
+      "United States",
+      "McDonald",
+      "Supersize It"
+    ],
+    "sugar-1970-today::e1": [
+      "Britain",
+      "Europe",
+      "Lucozade",
+      "Red Bull",
+      "University of Florida"
+    ],
+    "sugar-1970-today::e3": [
+      "Britain",
+      "Three-quarters",
+      "Walkers Crisps"
+    ],
+    "sugar-1970-today::e5": [
+      "Britain",
+      "Jamie Oliver",
+      "Public Health England"
+    ],
+    "sugar-1970-today::e4": [
+      "Britain",
+      "Coca-Cola",
+      "Zero Sugar"
+    ],
+    "sugar-1970-today::t1": [
+      "London",
+      "Yudkin Pure",
+      "White",
+      "Deadly",
+      "John Yudkin",
+      "Elizabeth College"
+    ],
+    "sugar-1970-today::t2": [
+      "United States",
+      "Duffy Sugar Blues",
+      "William Duffy",
+      "Coronary Thrombosis",
+      "Saccharine Diseases"
+    ],
+    "sugar-1970-today::t3": [
+      "White Plains",
+      "New York",
+      "Taste",
+      "Howard Moskowitz"
+    ],
+    "sugar-1970-today::t4": [
+      "Washington",
+      "Liquid Candy",
+      "Public Interest",
+      "Royal College of Surgeons"
+    ],
+    "sugar-1970-today::t5": [
+      "United States",
+      "Heart Association"
+    ],
+    "sugar-1970-today::t6": [
+      "London",
+      "Lancet",
+      "Credit Suisse"
+    ],
+    "sugar-1970-today::t7": [
+      "London",
+      "Public Health England Sugar Reduction",
+      "Action October"
+    ],
+    "sugar-1970-today::t8": [
+      "San Francisco"
+    ],
+    "sugar-1970-today::ec1": [
+      "United States"
+    ],
+    "sugar-1970-today::ec3": [
+      "United States",
+      "Cereal"
+    ],
+    "sugar-1970-today::ec5": [
+      "United States",
+      "Britain",
+      "Europe",
+      "India",
+      "China",
+      "America"
+    ],
+    "sugar-1970-today::ec2": [
+      "United States"
+    ],
+    "sugar-1970-today::ec4": [
+      "World Health Organization"
+    ],
+    "sugar-1970-today::ec7": [
+      "Cuba",
+      "Soviet Union",
+      "Al Jazeera"
+    ],
+    "sugar-1970-today::ec8": [
+      "Britain"
+    ],
+    "sugar-1970-today::ec9": [
+      "Coca-Cola"
+    ],
+    "sugar-1970-today::ec6": [
+      "Nestlé",
+      "GDP"
+    ],
+    "sugar-1970-today::ec10": [
+      "Hawaii Sugar Company",
+      "Refining Company Domino Sugar",
+      "Florida Crystals",
+      "Growers Cooperative of Florida"
+    ],
+    "sugar-1970-today::te2": [
+      "United States",
+      "Aspartame NutraSweet",
+      "Truvia Cargill",
+      "PureVia PepsiCo",
+      "Generally Recognized"
+    ],
+    "sugar-1970-today::te4": [
+      "Big Food"
+    ],
+    "sugar-1970-today::te3": [
+      "São Paulo",
+      "Brazil Proálcool"
+    ],
+    "sugar-1970-today::te1": [
+      "Atlanta",
+      "Coca-Cola"
+    ],
+    "sugar-1970-today::x1": [
+      "Coca-Cola"
+    ],
+    "sugar-1970-today::x2": [
+      "Norway",
+      "Finland",
+      "Hungary",
+      "France",
+      "Mexico",
+      "United States"
+    ],
+    "sugar-1970-today::w1": [
+      "Brazil"
+    ],
+    "sugar-1970-today::w2": [
+      "Moscow",
+      "Havana",
+      "Soviet Union",
+      "Cuba GDP"
+    ],
+    "sugar-1970-today::l3": [
+      "Florida"
+    ],
+    "sugar-1970-today::l1": [
+      "Britain",
+      "United States",
+      "America"
+    ],
+    "sugar-1970-today::l2": [
+      "England",
+      "Royal College of Surgeons"
     ],
     "sugar-300bc-600ad::p1": [
       "House of Sasan",
@@ -87249,6 +87571,7 @@
       "sugar-1000-1500::o2",
       "sugar-1000-1500::ec4",
       "sugar-1000-1500::te3",
+      "sugar-1970-today::o11",
       "sugar-300bc-600ad::o1",
       "sugar-300bc-600ad::w2",
       "sugar-600-1000::th2",
@@ -88135,6 +88458,10 @@
       "sugar-1800-1900::ec5",
       "sugar-1900-1970::o3",
       "sugar-1900-1970::t3",
+      "sugar-1970-today::o9",
+      "sugar-1970-today::t1",
+      "sugar-1970-today::t6",
+      "sugar-1970-today::t7",
       "trucial-gulf-1820-1900::t2",
       "trucial-gulf-1900-1971::x1",
       "trucial-gulf-1900-1971::w4"
@@ -90128,6 +90455,8 @@
       "sugar-1500-1650::ec8",
       "sugar-1800-1900::c1",
       "sugar-1900-1970::te2",
+      "sugar-1970-today::e1",
+      "sugar-1970-today::ec5",
       "turkey-1980-today::l4"
     ],
     "Cairo": [
@@ -90838,7 +91167,6 @@
       "spain-1230-1492::a3",
       "spain-1230-1492::s2",
       "spain-1230-1492::s3",
-      "sugar-1000-1500::w2",
       "trebizond-1204-1461::w2"
     ],
     "Ibn Khatima": [
@@ -91508,7 +91836,8 @@
       "sugar-1800-1900::ec1",
       "sugar-1800-1900::ec4",
       "sugar-1800-1900::te1",
-      "sugar-1800-1900::te4"
+      "sugar-1800-1900::te4",
+      "sugar-1970-today::x2"
     ],
     "Tours/Poitiers": [
       "al-andalus-711-1031::c1"
@@ -91870,7 +92199,6 @@
       "spain-1900-1975::lv9",
       "spain-1975-today::ex5",
       "spain-1975-today::lv4",
-      "sugar-1800-1900::ec4",
       "visigoths-589-711::k3"
     ],
     "Baghdad": [
@@ -92068,6 +92396,7 @@
       "sassanid-484-651::ex3",
       "south-arabia-300bc-628::ec3",
       "sugar-1800-1900::x1",
+      "sugar-1970-today::ec5",
       "sugar-300bc-600ad::th5",
       "sugar-300bc-600ad::th8",
       "sugar-300bc-600ad::ec2",
@@ -92103,6 +92432,7 @@
       "sugar-1200bc-300bc::th1",
       "sugar-1200bc-300bc::te1",
       "sugar-1500-1650::o4",
+      "sugar-1970-today::ec5",
       "sugar-300bc-600ad::ec3",
       "sugar-300bc-600ad::te2",
       "uae-1971-today::x4",
@@ -94098,6 +94428,12 @@
       "sugar-1900-1970::o4",
       "sugar-1900-1970::o7",
       "sugar-1900-1970::o10",
+      "sugar-1970-today::o1",
+      "sugar-1970-today::o2",
+      "sugar-1970-today::o3",
+      "sugar-1970-today::o4",
+      "sugar-1970-today::o6",
+      "sugar-1970-today::t4",
       "turkey-1923-1980::x4",
       "turkey-1923-1980::x5",
       "turkey-1980-today::x3",
@@ -94236,7 +94572,8 @@
       "modern-near-east-1945-1990::x1",
       "ottoman-empire-1908-1922::x4",
       "spain-1900-1975::k9",
-      "sugar-1900-1970::x4"
+      "sugar-1900-1970::x4",
+      "sugar-1970-today::w2"
     ],
     "Soviet Russia": [
       "anatolia-1908-1923::x3",
@@ -94257,11 +94594,7 @@
       "azerbaijan-1991-today::x4",
       "saudi-1902-today::x2",
       "spain-1700-1808::w2",
-      "spain-1808-1900::ex1",
-      "sugar-1650-1800::c6",
-      "sugar-1650-1800::o3",
-      "sugar-1800-1900::ec14",
-      "sugar-1900-1970::ec9"
+      "spain-1808-1900::ex1"
     ],
     "King–Crane Commission": [
       "anatolia-1908-1923::w2",
@@ -94271,7 +94604,8 @@
       "anatolia-1908-1923::w2"
     ],
     "White": [
-      "anatolia-1908-1923::w4"
+      "anatolia-1908-1923::w4",
+      "sugar-1970-today::t1"
     ],
     "Orthodox of Turkey": [
       "anatolia-1908-1923::w3"
@@ -96760,6 +97094,8 @@
       "pahlavi-1925-1979::c1",
       "sugar-1900-1970::c4",
       "sugar-1900-1970::x4",
+      "sugar-1970-today::ec7",
+      "sugar-1970-today::w2",
       "trucial-gulf-1900-1971::w3",
       "turkey-1923-1980::e2",
       "turkey-1923-1980::x5"
@@ -97159,6 +97495,7 @@
       "spain-1975-today::s1",
       "spain-1975-today::ex1",
       "sugar-1900-1970::o6",
+      "sugar-1970-today::o10",
       "turkey-1980-today::x1"
     ],
     "Complementarity": [
@@ -97217,7 +97554,8 @@
       "armenia-1991-today::te1",
       "armenia-1991-today::x3",
       "azerbaijan-1991-today::x5",
-      "palestine-1948-today::w1"
+      "palestine-1948-today::w1",
+      "sugar-1970-today::o10"
     ],
     "Areni-1": [
       "armenia-1991-today::te3",
@@ -97335,6 +97673,17 @@
       "sugar-1900-1970::ec10",
       "sugar-1900-1970::te5",
       "sugar-1900-1970::x4",
+      "sugar-1970-today::o6",
+      "sugar-1970-today::e2",
+      "sugar-1970-today::t2",
+      "sugar-1970-today::t5",
+      "sugar-1970-today::ec1",
+      "sugar-1970-today::ec3",
+      "sugar-1970-today::ec5",
+      "sugar-1970-today::ec2",
+      "sugar-1970-today::te2",
+      "sugar-1970-today::x2",
+      "sugar-1970-today::l1",
       "turkey-1923-1980::x4",
       "turkey-1923-1980::x5",
       "turkey-1980-today::ec4",
@@ -100261,6 +100610,7 @@
       "spain-1230-1492::k16",
       "spain-1230-1492::w3",
       "spain-1230-1492::w2",
+      "sugar-1000-1500::c1",
       "sugar-600-1000::ec4",
       "sugar-600-1000::w1"
     ],
@@ -102482,7 +102832,9 @@
       "mandate-syria-lebanon-1920-1946::o1",
       "mandate-syria-lebanon-1920-1946::w1",
       "ottoman-empire-1839-1908::t4",
-      "spain-1900-1975::t4"
+      "spain-1900-1975::t4",
+      "sugar-1970-today::o5",
+      "sugar-1970-today::o8"
     ],
     "Bahrain Institute": [
       "bahrain-1971-today::t2",
@@ -106391,7 +106743,8 @@
       "ottoman-empire-1517-1683::c7",
       "rome-400-500::tx5",
       "rome-400-500::ex1",
-      "rome-400-500::s6"
+      "rome-400-500::s6",
+      "sugar-1970-today::x2"
     ],
     "West": [
       "byzantine-empire-867-1204::x4",
@@ -111726,11 +112079,6 @@
       "oman-1970-today::c3",
       "oman-gulf-1650-1820::c6",
       "spain-1700-1808::ex7",
-      "sugar-1800-1900::ec13",
-      "sugar-1800-1900::ec12",
-      "sugar-1900-1970::c3",
-      "sugar-1900-1970::ec8",
-      "sugar-1900-1970::ec13",
       "trucial-gulf-1820-1900::c2",
       "trucial-gulf-1900-1971::k5",
       "yemen-1517-1900::k9",
@@ -113611,8 +113959,7 @@
     ],
     "Western European": [
       "crusader-states-1099-1291::e2",
-      "spain-1975-today::t4",
-      "sugar-1900-1970::w2"
+      "spain-1975-today::t4"
     ],
     "William of Tyre History of the Kingdom": [
       "crusader-states-1099-1291::t1"
@@ -118471,6 +118818,7 @@
       "modern-near-east-1990-today::ec4",
       "palestine-1948-today::ec2",
       "palestine-1948-today::ec1",
+      "sugar-1970-today::o5",
       "yemen-1900-today::o5",
       "yemen-1900-today::ec5"
     ],
@@ -123693,6 +124041,7 @@
       "sugar-1650-1800::ec6",
       "sugar-1650-1800::x1",
       "sugar-1800-1900::o7",
+      "sugar-1970-today::w1",
       "yemen-1517-1900::ec2"
     ],
     "Des Cannibales": [
@@ -124710,6 +125059,14 @@
       "sugar-1900-1970::ec10",
       "sugar-1900-1970::ec13",
       "sugar-1900-1970::l1",
+      "sugar-1970-today::o9",
+      "sugar-1970-today::e1",
+      "sugar-1970-today::e3",
+      "sugar-1970-today::e5",
+      "sugar-1970-today::e4",
+      "sugar-1970-today::ec5",
+      "sugar-1970-today::ec8",
+      "sugar-1970-today::l1",
       "trucial-gulf-1820-1900::k5",
       "trucial-gulf-1900-1971::w4"
     ],
@@ -124995,7 +125352,9 @@
       "france-1815-1900::t4",
       "spain-1700-1808::w2",
       "sugar-1900-1970::o4",
-      "sugar-1900-1970::te2"
+      "sugar-1900-1970::te2",
+      "sugar-1970-today::ec5",
+      "sugar-1970-today::l1"
     ],
     "Democracy": [
       "france-1815-1900::t4"
@@ -131445,7 +131804,8 @@
     ],
     "Death": [
       "iran-651-821::c1",
-      "mamluk-syria-1260-1516::l1"
+      "mamluk-syria-1260-1516::l1",
+      "sugar-1000-1500::w2"
     ],
     "Conquest of Khorasan": [
       "iran-651-821::c2",
@@ -133505,7 +133865,8 @@
       "qatar-1971-today::k2",
       "qatar-1971-today::c3",
       "qatar-1971-today::b2",
-      "qatar-1971-today::t1"
+      "qatar-1971-today::t1",
+      "sugar-1970-today::ec7"
     ],
     "Documenting": [
       "iraq-1979-2003::t4",
@@ -134835,7 +135196,8 @@
       "kuwait-1961-today::x2"
     ],
     "South": [
-      "kuwait-1961-today::x5"
+      "kuwait-1961-today::x5",
+      "sugar-1800-1900::ec17"
     ],
     "Kuwait Fund": [
       "kuwait-1961-today::x5"
@@ -135580,7 +135942,8 @@
       "lebanon-1943-today::tc1"
     ],
     "São Paulo": [
-      "lebanon-1943-today::x1"
+      "lebanon-1943-today::x1",
+      "sugar-1970-today::te3"
     ],
     "Diaspora Many Times Larger Than the Resident Population": [
       "lebanon-1943-today::x1"
@@ -139607,7 +139970,9 @@
       "spain-1975-today::w3"
     ],
     "World Health Organization": [
-      "modern-near-east-1990-today::w5"
+      "modern-near-east-1990-today::w5",
+      "sugar-1970-today::o8",
+      "sugar-1970-today::ec4"
     ],
     "Turkey–Syria": [
       "modern-near-east-1990-today::w3",
@@ -143106,7 +143471,8 @@
       "ottoman-empire-1908-1922::t1"
     ],
     "Congress": [
-      "ottoman-empire-1908-1922::t2"
+      "ottoman-empire-1908-1922::t2",
+      "sugar-1970-today::o3"
     ],
     "Ottoman Decentralisation Party": [
       "ottoman-empire-1908-1922::t2"
@@ -146907,7 +147273,8 @@
       "sugar-1650-1800::e3",
       "sugar-1650-1800::l5",
       "sugar-1800-1900::te1",
-      "sugar-1800-1900::te2"
+      "sugar-1800-1900::te2",
+      "sugar-1970-today::l2"
     ],
     "Chi-Rho": [
       "rome-300-400::a5"
@@ -150205,7 +150572,8 @@
     "Mexico City": [
       "spain-1516-1700::c3",
       "spain-1900-1975::a7",
-      "spain-1900-1975::ex5"
+      "spain-1900-1975::ex5",
+      "sugar-1970-today::o7"
     ],
     "Conquest of Mexico": [
       "spain-1516-1700::c3"
@@ -150786,7 +151154,8 @@
     ],
     "Mexico": [
       "spain-1516-1700::lv3",
-      "sugar-1500-1650::t1"
+      "sugar-1500-1650::t1",
+      "sugar-1970-today::x2"
     ],
     "Nahuatl": [
       "spain-1516-1700::lv3"
@@ -151211,7 +151580,8 @@
       "spain-1900-1975::t4",
       "spain-1900-1975::ex5",
       "sugar-1800-1900::o7",
-      "sugar-1900-1970::x4"
+      "sugar-1900-1970::x4",
+      "sugar-1970-today::w2"
     ],
     "Santisima Trinidad": [
       "spain-1700-1808::te3"
@@ -151526,7 +151896,8 @@
       "sugar-1900-1970::c4",
       "sugar-1900-1970::o10",
       "sugar-1900-1970::ec4",
-      "sugar-1900-1970::x4"
+      "sugar-1900-1970::x4",
+      "sugar-1970-today::ec7"
     ],
     "Manila Bay": [
       "spain-1808-1900::c4",
@@ -153328,9 +153699,6 @@
     "Christian Iberia": [
       "spain-718-1230::lv2"
     ],
-    "Western Sicily": [
-      "sugar-1000-1500::c1"
-    ],
     "Lucera": [
       "sugar-1000-1500::c1"
     ],
@@ -153676,12 +154044,6 @@
     "Dutch Revolt": [
       "sugar-1500-1650::c1"
     ],
-    "West Indies": [
-      "sugar-1500-1650::c2",
-      "sugar-1650-1800::c1",
-      "sugar-1650-1800::x2",
-      "sugar-1650-1800::l3"
-    ],
     "São Tomé": [
       "sugar-1500-1650::c3",
       "sugar-1500-1650::ec2",
@@ -153898,7 +154260,7 @@
       "sugar-1650-1800::ec5",
       "sugar-1650-1800::w1"
     ],
-    "Western Design": [
+    "Design": [
       "sugar-1650-1800::c2"
     ],
     "St Kitts": [
@@ -153950,12 +154312,6 @@
     ],
     "George Fox": [
       "sugar-1650-1800::b1"
-    ],
-    "West Indian": [
-      "sugar-1650-1800::b2",
-      "sugar-1800-1900::o5",
-      "sugar-1800-1900::ec7",
-      "sugar-1900-1970::x3"
     ],
     "Quaker William Fox": [
       "sugar-1650-1800::b2"
@@ -154019,7 +154375,8 @@
     ],
     "New York": [
       "sugar-1650-1800::ec2",
-      "sugar-1800-1900::ec15"
+      "sugar-1800-1900::ec15",
+      "sugar-1970-today::t3"
     ],
     "Dutch Java": [
       "sugar-1650-1800::ec3"
@@ -154104,12 +154461,12 @@
     "Spanish–American War": [
       "sugar-1800-1900::c4"
     ],
-    "American Sugar Refining Company": [
+    "Refining Company": [
       "sugar-1800-1900::c5",
       "sugar-1800-1900::ec15",
       "sugar-1900-1970::ec5"
     ],
-    "British West Indies": [
+    "Indies": [
       "sugar-1800-1900::o2",
       "sugar-1800-1900::l1"
     ],
@@ -154189,9 +154546,6 @@
     "Austria–Hungary": [
       "sugar-1800-1900::ec4"
     ],
-    "Beet": [
-      "sugar-1800-1900::ec4"
-    ],
     "Natal": [
       "sugar-1800-1900::ec10",
       "sugar-1800-1900::l3"
@@ -154222,9 +154576,6 @@
     "Civil War Louisiana": [
       "sugar-1800-1900::ec8"
     ],
-    "American South": [
-      "sugar-1800-1900::ec17"
-    ],
     "Soda-fountain": [
       "sugar-1800-1900::ec17"
     ],
@@ -154235,7 +154586,11 @@
       "sugar-1800-1900::ec17",
       "sugar-1900-1970::ec7",
       "sugar-1900-1970::ec12",
-      "sugar-1900-1970::x5"
+      "sugar-1900-1970::x5",
+      "sugar-1970-today::e4",
+      "sugar-1970-today::ec9",
+      "sugar-1970-today::te1",
+      "sugar-1970-today::x1"
     ],
     "Pepsi": [
       "sugar-1800-1900::ec17"
@@ -154261,9 +154616,6 @@
     "Ocean": [
       "sugar-1800-1900::x1"
     ],
-    "British Guiana": [
-      "sugar-1800-1900::x1"
-    ],
     "Vanuatu": [
       "sugar-1800-1900::x4"
     ],
@@ -154274,7 +154626,8 @@
       "sugar-1800-1900::x5"
     ],
     "San Francisco": [
-      "sugar-1800-1900::x3"
+      "sugar-1800-1900::x3",
+      "sugar-1970-today::t8"
     ],
     "Mississippi": [
       "sugar-1800-1900::w1"
@@ -154294,7 +154647,7 @@
     "Gandhi": [
       "sugar-1800-1900::l3"
     ],
-    "Western Front": [
+    "Front": [
       "sugar-1900-1970::c1",
       "sugar-1900-1970::e1"
     ],
@@ -154323,13 +154676,7 @@
     "Supplies": [
       "sugar-1900-1970::o3"
     ],
-    "British Government": [
-      "sugar-1900-1970::o3"
-    ],
     "Americans": [
-      "sugar-1900-1970::o4"
-    ],
-    "Food Administration": [
       "sugar-1900-1970::o4"
     ],
     "US Government": [
@@ -154395,10 +154742,12 @@
       "sugar-1900-1970::t2"
     ],
     "John Yudkin": [
-      "sugar-1900-1970::t3"
+      "sugar-1900-1970::t3",
+      "sugar-1970-today::t1"
     ],
     "Elizabeth College": [
-      "sugar-1900-1970::t3"
+      "sugar-1900-1970::t3",
+      "sugar-1970-today::t1"
     ],
     "Harvard University": [
       "sugar-1900-1970::t4"
@@ -154430,10 +154779,6 @@
     "Domino Sugar": [
       "sugar-1900-1970::ec5"
     ],
-    "West Germany": [
-      "sugar-1900-1970::ec9",
-      "turkey-1923-1980::ec6"
-    ],
     "Clewiston": [
       "sugar-1900-1970::ec11"
     ],
@@ -154443,7 +154788,8 @@
     "Florida": [
       "sugar-1900-1970::ec11",
       "sugar-1900-1970::x3",
-      "sugar-1900-1970::w3"
+      "sugar-1900-1970::w3",
+      "sugar-1970-today::l3"
     ],
     "US Sugar Corporation": [
       "sugar-1900-1970::ec11"
@@ -154465,7 +154811,8 @@
       "sugar-1900-1970::te1"
     ],
     "Saccharin": [
-      "sugar-1900-1970::te2"
+      "sugar-1900-1970::te2",
+      "sugar-1970-today::o4"
     ],
     "US Senate Delaney Clause": [
       "sugar-1900-1970::te2"
@@ -154483,7 +154830,8 @@
       "sugar-1900-1970::te5"
     ],
     "Farm Bill": [
-      "sugar-1900-1970::te5"
+      "sugar-1900-1970::te5",
+      "sugar-1970-today::o2"
     ],
     "East Asian": [
       "sugar-1900-1970::x2"
@@ -154492,9 +154840,6 @@
       "sugar-1900-1970::x1"
     ],
     "Mexican": [
-      "sugar-1900-1970::x3"
-    ],
-    "West Indians": [
       "sugar-1900-1970::x3"
     ],
     "Marshall Plan": [
@@ -154521,6 +154866,171 @@
     ],
     "Kathleen Hey": [
       "sugar-1900-1970::l3"
+    ],
+    "FDA": [
+      "sugar-1970-today::o1"
+    ],
+    "WTO": [
+      "sugar-1970-today::o5"
+    ],
+    "World Trade Organisation": [
+      "sugar-1970-today::o5"
+    ],
+    "Wall Street Journal": [
+      "sugar-1970-today::o5"
+    ],
+    "Personal Responsibility": [
+      "sugar-1970-today::o6"
+    ],
+    "Consumption Act": [
+      "sugar-1970-today::o6"
+    ],
+    "US House of Representatives": [
+      "sugar-1970-today::o6"
+    ],
+    "WHO": [
+      "sugar-1970-today::o8"
+    ],
+    "Public Health England Sugar Reduction": [
+      "sugar-1970-today::o9",
+      "sugar-1970-today::t7"
+    ],
+    "Soft Drinks Industry Levy": [
+      "sugar-1970-today::o9"
+    ],
+    "Common Agricultural Policy": [
+      "sugar-1970-today::o10"
+    ],
+    "McDonald": [
+      "sugar-1970-today::e2"
+    ],
+    "Supersize It": [
+      "sugar-1970-today::e2"
+    ],
+    "Lucozade": [
+      "sugar-1970-today::e1"
+    ],
+    "Red Bull": [
+      "sugar-1970-today::e1"
+    ],
+    "University of Florida": [
+      "sugar-1970-today::e1"
+    ],
+    "Three-quarters": [
+      "sugar-1970-today::e3"
+    ],
+    "Walkers Crisps": [
+      "sugar-1970-today::e3"
+    ],
+    "Jamie Oliver": [
+      "sugar-1970-today::e5"
+    ],
+    "Public Health England": [
+      "sugar-1970-today::e5"
+    ],
+    "Zero Sugar": [
+      "sugar-1970-today::e4"
+    ],
+    "Yudkin Pure": [
+      "sugar-1970-today::t1"
+    ],
+    "Deadly": [
+      "sugar-1970-today::t1"
+    ],
+    "Duffy Sugar Blues": [
+      "sugar-1970-today::t2"
+    ],
+    "William Duffy": [
+      "sugar-1970-today::t2"
+    ],
+    "Coronary Thrombosis": [
+      "sugar-1970-today::t2"
+    ],
+    "Saccharine Diseases": [
+      "sugar-1970-today::t2"
+    ],
+    "White Plains": [
+      "sugar-1970-today::t3"
+    ],
+    "Taste": [
+      "sugar-1970-today::t3"
+    ],
+    "Howard Moskowitz": [
+      "sugar-1970-today::t3"
+    ],
+    "Liquid Candy": [
+      "sugar-1970-today::t4"
+    ],
+    "Public Interest": [
+      "sugar-1970-today::t4"
+    ],
+    "Royal College of Surgeons": [
+      "sugar-1970-today::t4",
+      "sugar-1970-today::l2"
+    ],
+    "Heart Association": [
+      "sugar-1970-today::t5"
+    ],
+    "Lancet": [
+      "sugar-1970-today::t6"
+    ],
+    "Credit Suisse": [
+      "sugar-1970-today::t6"
+    ],
+    "Action October": [
+      "sugar-1970-today::t7"
+    ],
+    "Cereal": [
+      "sugar-1970-today::ec3",
+      "uruk-3800bc-2900bc::e4"
+    ],
+    "Nestlé": [
+      "sugar-1970-today::ec6"
+    ],
+    "GDP": [
+      "sugar-1970-today::ec6"
+    ],
+    "Hawaii Sugar Company": [
+      "sugar-1970-today::ec10"
+    ],
+    "Refining Company Domino Sugar": [
+      "sugar-1970-today::ec10"
+    ],
+    "Florida Crystals": [
+      "sugar-1970-today::ec10"
+    ],
+    "Growers Cooperative of Florida": [
+      "sugar-1970-today::ec10"
+    ],
+    "Aspartame NutraSweet": [
+      "sugar-1970-today::te2"
+    ],
+    "Truvia Cargill": [
+      "sugar-1970-today::te2"
+    ],
+    "PureVia PepsiCo": [
+      "sugar-1970-today::te2"
+    ],
+    "Generally Recognized": [
+      "sugar-1970-today::te2"
+    ],
+    "Big Food": [
+      "sugar-1970-today::te4"
+    ],
+    "Brazil Proálcool": [
+      "sugar-1970-today::te3"
+    ],
+    "Atlanta": [
+      "sugar-1970-today::te1"
+    ],
+    "Norway": [
+      "sugar-1970-today::x2"
+    ],
+    "Finland": [
+      "sugar-1970-today::x2"
+    ],
+    "Cuba GDP": [
+      "sugar-1970-today::w2"
     ],
     "Tustar": [
       "sugar-300bc-600ad::p1"
@@ -156172,6 +156682,9 @@
     "Korean War": [
       "turkey-1923-1980::ec3"
     ],
+    "West Germany": [
+      "turkey-1923-1980::ec6"
+    ],
     "Planned": [
       "turkey-1923-1980::ec5"
     ],
@@ -157212,9 +157725,6 @@
     ],
     "Rationed": [
       "uruk-3800bc-2900bc::e2"
-    ],
-    "Cereal": [
-      "uruk-3800bc-2900bc::e4"
     ],
     "Full-time": [
       "uruk-3800bc-2900bc::e5"

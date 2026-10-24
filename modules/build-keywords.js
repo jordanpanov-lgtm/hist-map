@@ -64,6 +64,8 @@ const STOPWORDS = new Set([
   // every other on the commodity's own name alone.
   'indian', 'chinese', 'buddhist', 'southern', 'monastic', 'cane', 'sugarcane', 'sugar',
   'honey', 'sand', 'brazilian', 'africans', 'free', 'black', 'eighty',
+  // Generic nouns/adjectives that open sentences in the later Sugar folios (food, fast, children…)
+  'food', 'fast', 'breakfast', 'children', 'documents', 'papers', 'west', 'western', 'american', 'british', 'scientists', 'dental', 'jam', 'acid', 'beet',
   // Sentence-initial common words/quantifiers/adjectives that happen to be capitalized
   // only because they open a label or hint sentence ("Invention of...", "Around 3300
   // BC...", "Bound captives...", "Three rival..."), not because they're part of a
