@@ -216,6 +216,14 @@
       "label": "Kummerow",
       "full": "Trans fats in rat tissues, 1957–58.",
       "src": "Teicholz"
+    },
+    {
+      "id": "ec11",
+      "lane": "economy",
+      "year": 1914,
+      "label": "Copra as war material",
+      "full": "Pacific coconut plantations and the glycerine trade, 1914–1942.",
+      "src": "Kiple p.394"
     }
   ],
   "edges": [
@@ -356,6 +364,18 @@
       "th2",
       "loose",
       "Kummerow’s trans-fat studies concern the hydrogenated fats Crisco had introduced."
+    ],
+    [
+      "ec11",
+      "c1",
+      "strong",
+      "The coconut plantations supplied the glycerine whose wartime value made whale oil contraband in the same war."
+    ],
+    [
+      "ec11",
+      "ec8",
+      "loose",
+      "Lever’s Congo palm plantations and the Pacific coconut estates were the two tropical oil frontiers of the interwar years."
     ]
   ]
 }

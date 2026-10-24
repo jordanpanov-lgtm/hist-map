@@ -1,57 +1,201 @@
 {
-  "question": "After Rome, which fats survive where — and what do cooks, monks and herders keep going?",
+  "question": "After Rome, which fats survive where — and what do cooks, monks, stewards and herders keep going?",
   "summary": [
-    "This is the thinnest folio in the program because the evidence thins. In Baghdad's tenth-century cookbook, meat is fried in rendered sheep's tail fat and cold dishes are dressed with olive oil ([[e1]]); in western Europe the monasteries and cathedrals keep an oil culture alive for rites and diet in a world of butter and lard ([[b1]]); in Anglo-Saxon England butter is a lord's luxury from sheep's milk, and in Ireland butter is buried in bogs ([[ec1]], [[ec2]]).",
-    "The east moves on. Tamil texts of the 600s–700s describe the sesame press, the *chekku* ([[ec3]]); late-Tang farm calendars list pressing seeds for oil as a fourth-month task ([[te1]]); monasteries keep an ever-burning oil lamp ([[b2]]); and the Tang pharmacopoeias rank milk, soured milk, su and ghee-like ti hu as the stages of the soul ([[b3]]). Soap is already a craft in Italy ([[ec4]]), and Norsemen hunt whales and walrus ([[ec5]])."
+    "This is still a thin folio because the evidence thins, and because the library is stronger on later centuries; it now has nineteen entries and says what each rests on. In the Latin north the Frankish estate rules tell stewards to account for fat, tallow, butter and soap ([[o1]]), monasteries and cathedrals keep an oil culture alive ([[b1]]), Anglo-Saxon butter is a lord’s luxury and Irish butter is buried in bogs ([[ec1]], [[ec2]]), and in Iceland families fight over stranded whales ([[c1]]). Soap is already a craft in Italy and Norsemen hunt whales and walrus ([[ec4]], [[ec5]]). Spain’s oil words come from Arabic ([[th1]]).",
+    "The Islamic world is the second centre. The Prophet is said to anoint himself with olive oil ([[b4]]); Baghdad’s tenth-century cookbook fries meat in sheep’s tail fat, rubs oven breads with sesame or unripe-olive oil and dresses cold dishes with olive oil, and its dietetic chapters weigh butter against clarified butter for the body ([[e1]], [[e2]], [[th2]]).",
+    "The east presses on. Tamil texts of the 600s–700s describe the sesame press, the *chekku*; Chola temples endow perpetual lamps with flocks of sheep to supply ghee ([[ec3]], [[b5]]); late-Tang calendars list pressing seeds for oil as a farm task, a monastery lamp is never allowed to go out, and the Tang pharmacopoeias rank milk, soured milk, su and ti hu as the stages of the soul ([[te1]], [[b2]], [[b3]]); and Japan’s court takes a milk-skin dairy product, *so*, as tribute ([[ec6]]). In Africa a village in Burkina Faso leaves a continuous record of shea-nut use from about 100 to 1500 AD ([[ec7]])."
   ],
   "themes": [
     {
       "title": "Oil in the northern fat world",
-      "text": ["Olive oil is carried across the break by the church, by cooks of the Near East, and by Italian soap-makers."],
-      "entries": ["b1", "e1", "ec4"]
+      "text": [
+        "Olive oil is carried across the break by the church, by Italian soap-makers and by Arabic, which gives Spain its words for oil; the Frankish estates show the animal-fat economy they sit in."
+      ],
+      "entries": [
+        "b1",
+        "th1",
+        "ec4",
+        "o1"
+      ]
     },
     {
-      "title": "Butter at the Atlantic edge",
-      "text": ["Sheep's butter as a thane's luxury; bog butter hidden against raiders or kept cool."],
-      "entries": ["ec1", "ec2"]
+      "title": "Butter and whales at the Atlantic edge",
+      "text": [
+        "Sheep’s butter as a thane’s luxury, bog butter, and the carcass disputes and whale hunts that precede the Basque industry."
+      ],
+      "entries": [
+        "ec1",
+        "ec2",
+        "c1",
+        "ec5"
+      ]
     },
     {
-      "title": "Asia presses on",
-      "text": ["The Tamil press, the Tang pressing calendar, the lamp offering and the Buddhist ladder from milk to ghee show fat as both commodity and symbol."],
-      "entries": ["ec3", "te1", "b2", "b3"]
+      "title": "Baghdad’s kitchen and body",
+      "text": [
+        "The tenth-century cookbook’s fats in the pot, on the oven wall and in the humoral chapters, and the Prophet’s oil."
+      ],
+      "entries": [
+        "e1",
+        "e2",
+        "th2",
+        "b4"
+      ]
     },
     {
-      "title": "First whalers",
-      "text": ["Ohthere's voyage and North Sea whaling are the prelude to the Basque industry of the next folio."],
-      "entries": ["ec5"]
+      "title": "Asia presses and lights",
+      "text": [
+        "The Tamil press, the Tang calendar, the Buddhist ladder and the lamps of Tang monasteries and Chola temples show fat as commodity and as offering; Japan’s court takes dairy tribute."
+      ],
+      "entries": [
+        "ec3",
+        "te1",
+        "b2",
+        "b3",
+        "b5",
+        "ec6"
+      ]
+    },
+    {
+      "title": "Africa’s own fat: shea",
+      "text": [
+        "The only African entry of the folio, and a reminder that the continent had a tree butter of its own long before the palm-oil trade."
+      ],
+      "entries": [
+        "ec7"
+      ]
     }
   ],
   "turning_points": [
-    {"date": "c.600–1000", "text": "Monasteries keep an oil culture alive in the north.", "entry": "b1"},
-    {"date": "c.600–800", "text": "The Tamil chekku presses sesame oil.", "entry": "ec3"},
-    {"date": "659–670", "text": "The Tang pharmacopoeia ranks milk, lo, su and ti hu as the stages of the soul.", "entry": "b3"},
-    {"date": "c.890", "text": "Ohthere describes whale- and walrus-hunting.", "entry": "ec5"},
-    {"date": "c.950–1000", "text": "The Baghdad cookbook: tail fat in the pot, olive oil on the cold dishes.", "entry": "e1"}
+    {
+      "date": "c.600–1000",
+      "text": "Monasteries keep an oil culture alive in the north.",
+      "entry": "b1"
+    },
+    {
+      "date": "c.600–800",
+      "text": "The Tamil chekku presses sesame oil.",
+      "entry": "ec3"
+    },
+    {
+      "date": "659–670",
+      "text": "The Tang pharmacopoeia ranks milk, lo, su and ti hu as the stages of the soul.",
+      "entry": "b3"
+    },
+    {
+      "date": "c.800",
+      "text": "Frankish estate stewards must account for fat, tallow and soap.",
+      "entry": "o1"
+    },
+    {
+      "date": "c.890",
+      "text": "Ohthere describes whale- and walrus-hunting.",
+      "entry": "ec5"
+    },
+    {
+      "date": "919–944",
+      "text": "Sheep are given to feed perpetual temple lamps in the Chola country.",
+      "entry": "b5"
+    },
+    {
+      "date": "c.950–1000",
+      "text": "The Baghdad cookbook: tail fat in the pot, olive oil on the cold dishes.",
+      "entry": "e1"
+    }
   ],
   "how_to_read": [
-    "With only ten entries the folio reads best straight through. Several dates are ranges for ‘the early Middle Ages’ because the sources do not narrow them.",
+    "Read the *picture by region* first: the folio has eight European entries, six Far Eastern, four Near Eastern and one African, and none from the Americas or Oceania. Several dates are ranges for ‘the early Middle Ages’ because the sources do not narrow them.",
     "The next folio is where documents (customs, Lent rules, Geniza ledgers, whale taxes) make fats countable."
   ],
   "sources": {
-    "intro": "A thin and uneven record: a translated Baghdad cookbook, a popular history of butter, Achaya and Needham for Asia, and Mueller, Ward and Ellis for Europe.",
+    "intro": "A thin and uneven record: a translated Baghdad cookbook, a translated Frankish extract, South Indian inscriptions, a popular history of butter, Achaya and Needham for Asia, and Mueller, Ward and Ellis for Europe; four entries (Japan’s *so*, Spanish oil words, Kirikongo shea, the Prophet’s oil) rest on web summaries or an unsourced anecdote.",
     "main": [
-      "Nasrallah's translation of Ibn Sayyar for Baghdad ([[e1]]); Needham and Kieschnick for the Tang entries ([[te1]], [[b2]], [[b3]]).",
-      "Achaya for the Tamil press ([[ec3]]); Khosrova for butter ([[ec1]], [[ec2]]); Ward for soap ([[ec4]]); Ellis for whaling ([[ec5]])."
+      "Nasrallah’s translation of Ibn Sayyar for Baghdad ([[e1]], [[e2]], [[th2]]); the Fordham extract of the Capitulary De Villis ([[o1]]); South Indian Inscriptions vol. 23 ([[b5]]).",
+      "Needham and Kieschnick for the Tang entries ([[te1]], [[b2]], [[b3]]); Achaya for the Tamil press ([[ec3]]); Khosrova for butter ([[ec1]], [[ec2]]); Ward for soap ([[ec4]]); Ellis for whales ([[ec5]], [[c1]])."
     ],
     "contested": [
-      "Mueller's monastic ‘islands of oil’ cite no councils ([[b1]]).",
-      "The thousand-year-old Irish butter is a museum label as reported ([[ec2]]).",
-      "Italian soap-making is dated only as ‘the early Middle Ages’ ([[ec4]])."
+      "Mueller’s monastic ‘islands of oil’ cite no councils ([[b1]]); his anecdote of the Prophet’s oil names no source ([[b4]]).",
+      "The thousand-year-old Irish butter is a museum label as reported ([[ec2]]); the Icelandic sagas postdate the events ([[c1]]).",
+      "Spanish oil words show language, not the introduction of the crop ([[th1]]); the Kirikongo and *so* entries rest on abstracts and encyclopedia pages, not the papers ([[ec7]], [[ec6]])."
     ],
     "gaps": [
-      "The Islamic agricultural writers and Watson's thesis (now much criticised) are not covered; Andalusian and Sicilian olive oil are missing.",
-      "No source for Carolingian fats, or for African and American oil crops."
+      "The Islamic agricultural writers are not covered: Watson’s *Agricultural Innovation in the Early Islamic World* (or an alternative) is not held, and Andalusian, Sicilian and Maghrebi (Ifriqiyan) olive oil are missing.",
+      "Africa has one entry; nothing on Aksum and Ethiopia’s butter and oilseeds, Nubia, the Sahel’s pastoral fats or the Swahili coast. Central Asia and the steppe, Tibet, Southeast Asia, the Americas (Maya, Andes) and the Pacific have no entry; the search for them found no source in the library."
     ]
   },
-  "reviewed": "2026-10-25"
+  "reviewed": "2026-10-25",
+  "regions": [
+    {
+      "region": "Europe",
+      "text": [
+        "Eight entries, from the Frankish estates to the Irish bogs: the north’s fat is butter, tallow and soap, kept by stewards, hidden against raiders, fought over when a whale strands ([[o1]], [[ec1]], [[ec2]], [[c1]], [[ec5]]); the church and Arabic keep the Mediterranean’s oil in the picture ([[b1]], [[th1]], [[ec4]])."
+      ],
+      "entries": [
+        "c1",
+        "o1",
+        "b1",
+        "th1",
+        "ec1",
+        "ec2",
+        "ec4",
+        "ec5"
+      ]
+    },
+    {
+      "region": "Near East",
+      "text": [
+        "Baghdad and the Prophet: cooking, dietetics and an oil anecdote ([[e1]], [[e2]], [[th2]], [[b4]]). The library holds the cookbook but not the Islamic agricultural writers."
+      ],
+      "entries": [
+        "b4",
+        "e1",
+        "e2",
+        "th2"
+      ]
+    },
+    {
+      "region": "Far East",
+      "text": [
+        "The densest non-European record: the Tamil press and the Chola lamp-endowments, the Tang calendar, the monastery lamp and the Buddhist ladder, and Japan’s milk-skin tribute ([[ec3]], [[b5]], [[te1]], [[b2]], [[b3]], [[ec6]])."
+      ],
+      "entries": [
+        "b2",
+        "b3",
+        "b5",
+        "ec3",
+        "ec6",
+        "te1"
+      ]
+    },
+    {
+      "region": "Africa",
+      "text": [
+        "One entry: the shea record at Kirikongo, Burkina Faso ([[ec7]]). Africa’s fat history in these centuries is far larger than one entry; the library holds no source on Ethiopia, the Sahel’s herders, the Maghreb’s oil or the Swahili coast."
+      ],
+      "entries": [
+        "ec7"
+      ]
+    },
+    {
+      "region": "Americas",
+      "text": [
+        "No entry. The search found nothing in the library on Maya, Andean or Arctic fats in 600–1000."
+      ],
+      "entries": []
+    },
+    {
+      "region": "Oceania",
+      "text": [
+        "No entry. Pacific coconut voyages are in an earlier folio, with a placeholder date."
+      ],
+      "entries": []
+    },
+    {
+      "region": "Worldwide",
+      "text": [
+        "No entry."
+      ],
+      "entries": []
+    }
+  ]
 }

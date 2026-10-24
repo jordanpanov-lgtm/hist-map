@@ -197,6 +197,16 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .ov-chip:hover{background:#f0e9d6;border-color:#a89a70}
 .ov-chip-in{font-size:10px;padding:0 6px;margin:0 1px;white-space:nowrap}
 .ov-chip .ov-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px}
+.ov-regbar{display:flex;height:9px;border-radius:5px;overflow:hidden;margin:0 0 12px;background:#eee}
+.ov-regbar span{display:block;height:100%}
+.ov-reg-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ov-reg{border:1px solid #e0d8cc;border-left:4px solid #8a8060;border-radius:6px;padding:9px 12px 10px;background:#fff}
+.ov-reg h4{font-size:14px;font-weight:normal;margin:0 0 4px;display:flex;justify-content:space-between;align-items:baseline;color:#1a1a1a}
+.ov-reg h4 .ov-n{font-family:'Courier New',monospace;font-size:11px;color:#8a7a5a}
+.ov-reg p{font-size:13.5px;margin:0 0 6px;color:#333}
+.ov-reg.ov-empty{background:#faf7ef;border-style:dashed;border-left-style:dashed}
+.ov-reg.ov-empty p{color:#7a6a4a;font-style:italic}
+.ov-reg.ov-wide{grid-column:1 / -1}
 .ov-turn{display:grid;grid-template-columns:104px 1fr;gap:12px;padding:6px 0;border-bottom:1px dotted #e6dfce;font-size:14px}
 .ov-turn .ov-date{font-family:'Courier New',monospace;font-size:11px;color:#8a7a5a;padding-top:3px}
 .ov-read p,.ov-src p{font-size:14px;margin:0 0 10px;color:#333}
@@ -209,7 +219,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .ov-nav small{display:block;font-size:10px;font-family:'Courier New',monospace;letter-spacing:.1em;color:#999;text-transform:uppercase}
 .ov-nav .ov-next{text-align:right}
 .ov-foot{margin-top:26px;font-size:10px;color:#bbb;font-family:'Courier New',monospace;line-height:1.8}
-@media(max-width:640px){#ov-area{padding:16px 14px 50px}.ov-question{font-size:21px}.ov-turn{grid-template-columns:1fr;gap:2px}}
+@media(max-width:640px){#ov-area{padding:16px 14px 50px}.ov-question{font-size:21px}.ov-turn{grid-template-columns:1fr;gap:2px}.ov-reg-grid{grid-template-columns:1fr}}
 
 /* ── NEXUS (causal web) ── */
 #nexus-view{display:none}
@@ -599,6 +609,18 @@ function buildOverview() {
       if ((t.entries || []).length) h += `<div class="ov-chips">${t.entries.map(id => _ovChip(id)).join('')}</div>`;
       h += `</div>`;
     });
+  }
+  if ((o.regions || []).length) { // the same six regions as the atlas taxonomy, plus 'Worldwide' for entries with no single place
+    const REGCOL = {'Europe':'#2E6F8E','Near East':'#B7770D','Far East':'#A0200A','Africa':'#1E8449','Americas':'#7B4FA6','Oceania':'#148080','Worldwide':'#8a8060'};
+    const col = r => REGCOL[r] || '#8a8060';
+    h += `<div class="ov-h">The picture by region</div><div class="ov-regbar">${o.regions.map(r => { const n = (r.entries || []).length; return n ? `<span style="flex:${n};background:${col(r.region)}" title="${_ovEsc(r.region)}: ${n}"></span>` : ''; }).join('')}</div><div class="ov-reg-grid">`;
+    o.regions.forEach(r => {
+      const n = (r.entries || []).length;
+      h += `<div class="ov-reg${n ? '' : ' ov-empty'}${r.region === 'Worldwide' ? ' ov-wide' : ''}" style="border-left-color:${col(r.region)}"><h4><span>${_ovEsc(r.region)}</span><span class="ov-n">${n ? n + (n === 1 ? ' entry' : ' entries') : 'no entry'}</span></h4>${paras(r.text)}`;
+      if (n) h += `<div class="ov-chips">${r.entries.map(id => _ovChip(id)).join('')}</div>`;
+      h += `</div>`;
+    });
+    h += `</div>`;
   }
   if ((o.turning_points || []).length) {
     h += `<div class="ov-h">Turning points</div>`;

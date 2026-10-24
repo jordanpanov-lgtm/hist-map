@@ -58,6 +58,22 @@
       "src": "Foxhall ch.1 §1.3"
     },
     {
+      "id": "x4",
+      "lane": "exchange",
+      "year": -1800,
+      "label": "Canaanite oil to Egypt",
+      "full": "Levantine oil imported to Egypt; olive stones at Uluburun.",
+      "src": "Zohary pp.137–138"
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": -2400,
+      "label": "Ebla’s inspectors",
+      "full": "Fraud checks on growers and millers at Ebla.",
+      "src": "Mueller ch.1"
+    },
+    {
       "id": "ec9",
       "lane": "economy",
       "year": -2400,
@@ -112,6 +128,54 @@
       "label": "Yale tablets",
       "full": "The oldest recipes put fat in every pot.",
       "src": "Bottéro pp.67–71"
+    },
+    {
+      "id": "ec7",
+      "lane": "economy",
+      "year": -3000,
+      "label": "Palm fat at Abydos",
+      "full": "A tomb fat of about 3000 BC identified as palm oil.",
+      "src": "Kiple; Zuckerman"
+    },
+    {
+      "id": "ec10",
+      "lane": "economy",
+      "year": -5000,
+      "label": "Saharan dairy fat",
+      "full": "Milk fat in pots at Takarkori, fifth millennium BC.",
+      "src": "Dunne 2012; Kiple"
+    },
+    {
+      "id": "ec11",
+      "lane": "economy",
+      "year": -3000,
+      "label": "Oil-palm shells",
+      "full": "Palm endocarps at African sites from about 3000 BC.",
+      "src": "Abstract; Lynn"
+    },
+    {
+      "id": "x3",
+      "lane": "exchange",
+      "year": -2700,
+      "label": "Sunflower and soybean",
+      "full": "Two oil crops domesticated on different continents.",
+      "src": "Kiple II.E"
+    },
+    {
+      "id": "ec12",
+      "lane": "economy",
+      "year": -2000,
+      "label": "Peruvian peanuts",
+      "full": "Peanuts grown in Peru by 2000 BC.",
+      "src": "Kiple"
+    },
+    {
+      "id": "th2",
+      "lane": "thought",
+      "year": -1320,
+      "label": "Egypt’s nhh",
+      "full": "The identity of the pharaohs’ best oil.",
+      "src": "Kiple; Zohary"
     }
   ],
   "edges": [
@@ -138,6 +202,18 @@
       "te2",
       "loose",
       "The domesticated olive is what the Late Bronze Age presses of Cyprus and Crete process."
+    ],
+    [
+      "x4",
+      "ec8",
+      "loose",
+      "Zohary and Mueller both place Cretan and Levantine oil on the sea routes to Egypt."
+    ],
+    [
+      "o1",
+      "ec9",
+      "loose",
+      "Mueller ties the Ebla inspectors to the same palace oil economy."
     ],
     [
       "ec9",
@@ -174,6 +250,30 @@
       "x1",
       "loose",
       "The long-distance trade of the Bronze Age states carried sesame and its names between the Indus and Mesopotamia."
+    ],
+    [
+      "ec12",
+      "x3",
+      "loose",
+      "Peanut in Peru and sunflower in eastern North America are the New World’s two earliest oil crops in this folio."
+    ],
+    [
+      "ec10",
+      "ec7",
+      "loose",
+      "Dairy fat in the Sahara and palm fat in an Egyptian tomb are Africa’s two oldest fat records in this folio."
+    ],
+    [
+      "ec11",
+      "ec7",
+      "strong",
+      "The palm-oil jar at Abydos and the palm shells of West and Central Africa are the same story seen from the Egyptian and the African end."
+    ],
+    [
+      "th2",
+      "th1",
+      "loose",
+      "Akkadian šamaššammū and Egyptian nhh are two oil names whose identity scholars cannot settle."
     ]
   ]
 }

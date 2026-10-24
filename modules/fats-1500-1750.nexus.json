@@ -177,6 +177,22 @@
       "label": "Ming press",
       "full": "The wedge press, mill and double pressing.",
       "src": "Needham 6.5"
+    },
+    {
+      "id": "ec10",
+      "lane": "economy",
+      "year": 1600,
+      "label": "Palm oil in Guinea",
+      "full": "Barbot on palm oil as seasoning, lamp fuel and ointment.",
+      "src": "Lynn p.1"
+    },
+    {
+      "id": "ec11",
+      "lane": "economy",
+      "year": 1652,
+      "label": "Table Bay whales",
+      "full": "Van Riebeeck’s thousands of whales and no way to store oil.",
+      "src": "Ellis p.125"
     }
   ],
   "edges": [
@@ -287,6 +303,18 @@
       "te1",
       "strong",
       "Song Yingxing’s ranking of oils and his description of the press come from the same chapter of the Tiangong kaiwu."
+    ],
+    [
+      "ec10",
+      "ec4",
+      "loose",
+      "The Guinea coast’s own uses of palm oil are the market that Portuguese and Atlantic traders entered."
+    ],
+    [
+      "ec11",
+      "ec2",
+      "loose",
+      "The Cape’s whales went unhunted because the Dutch company already had oil and baleen from Spitsbergen."
     ]
   ]
 }

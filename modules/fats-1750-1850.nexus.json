@@ -144,6 +144,30 @@
       "label": "Oil coast",
       "full": "Old Calabar and Bonny export oil.",
       "src": "Lynn pp.18–21"
+    },
+    {
+      "id": "ec9",
+      "lane": "economy",
+      "year": 1804,
+      "label": "Tasmanian bay whaling",
+      "full": "Whaling as Australia’s first industry, on the Derwent.",
+      "src": "Ellis pp.101–104"
+    },
+    {
+      "id": "ec10",
+      "lane": "economy",
+      "year": 1830,
+      "label": "New Zealand shore whaling",
+      "full": "A hundred stations on Cook Strait; Maori toungers.",
+      "src": "Ellis pp.114–116"
+    },
+    {
+      "id": "ec11",
+      "lane": "economy",
+      "year": 1795,
+      "label": "Walvis Bay",
+      "full": "Yankee right-whalers on the south-west African coast.",
+      "src": "Ellis p.126"
     }
   ],
   "edges": [
@@ -248,6 +272,24 @@
       "ec7",
       "loose",
       "Imported oils entering the soap kettles of Marseille and Bristol belong to the same industrial demand for oils."
+    ],
+    [
+      "ec9",
+      "ec2",
+      "loose",
+      "Tasmania’s bay whalers and Nantucket’s deep-sea fleet worked the same decades with different methods."
+    ],
+    [
+      "ec10",
+      "ec9",
+      "strong",
+      "New Zealand’s shore stations copied the bay-whaling methods that the Derwent crews had developed."
+    ],
+    [
+      "ec11",
+      "ec2",
+      "loose",
+      "Yankee ships at Walvis Bay are the south-east Atlantic end of the Nantucket and New Bedford fishery."
     ]
   ]
 }

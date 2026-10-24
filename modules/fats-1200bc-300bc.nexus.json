@@ -58,6 +58,94 @@
       "src": "Foxhall ch.4 §4.3"
     },
     {
+      "id": "ec6",
+      "lane": "economy",
+      "year": -400,
+      "label": "Prize oil",
+      "full": "1,113 amphorae of oil for the Great Panathenaia.",
+      "src": "Foxhall ch.5 p.117"
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": -395,
+      "label": "Law of the sacred olives",
+      "full": "The archon’s levy and the Lysias 7 trial.",
+      "src": "Foxhall ch.5 §5.9"
+    },
+    {
+      "id": "b4",
+      "lane": "belief",
+      "year": -480,
+      "label": "The burned olive",
+      "full": "The Acropolis olive burned in 480 BC and sprouting again.",
+      "src": "Mueller"
+    },
+    {
+      "id": "ec8",
+      "lane": "economy",
+      "year": -400,
+      "label": "The unpredictable olive",
+      "full": "Why Attica did not specialise in oil.",
+      "src": "Foxhall ch.3"
+    },
+    {
+      "id": "ec9",
+      "lane": "economy",
+      "year": -350,
+      "label": "Hagnias’ trees",
+      "full": "A thousand trees as a noteworthy orchard.",
+      "src": "Foxhall ch.5–6"
+    },
+    {
+      "id": "te4",
+      "lane": "technology",
+      "year": -500,
+      "label": "Rotary crusher",
+      "full": "Klazomenai, Greece and Israel.",
+      "src": "Foxhall ch.6"
+    },
+    {
+      "id": "b5",
+      "lane": "belief",
+      "year": -800,
+      "label": "Tekoa’s oil",
+      "full": "Oil for the Temple and the Menorah.",
+      "src": "Mueller"
+    },
+    {
+      "id": "b6",
+      "lane": "belief",
+      "year": -1150,
+      "label": "Ra’s olive groves",
+      "full": "Olive groves for the lamps of Heliopolis.",
+      "src": "Mueller; Zohary"
+    },
+    {
+      "id": "b7",
+      "lane": "belief",
+      "year": -500,
+      "label": "Animal fats as medicine",
+      "full": "The Buddha allows a sick monk several animal fats.",
+      "src": "Achaya p.37"
+    },
+    {
+      "id": "ec10",
+      "lane": "economy",
+      "year": -600,
+      "label": "Frying in ghee",
+      "full": "The Dharma Sūtras’ fried vaṭakas.",
+      "src": "Achaya p.37"
+    },
+    {
+      "id": "te5",
+      "lane": "technology",
+      "year": -700,
+      "label": "The ghani",
+      "full": "India’s traditional oil mill.",
+      "src": "Needham 6.5 p.452"
+    },
+    {
       "id": "b3",
       "lane": "belief",
       "year": -500,
@@ -128,6 +216,14 @@
       "label": "Krania sesame",
       "full": "Sesame reaches Greek Macedonia.",
       "src": "Bedigian p.5"
+    },
+    {
+      "id": "ec11",
+      "lane": "economy",
+      "year": -850,
+      "label": "Niger Delta palm pollen",
+      "full": "A pollen surge read as forest clearance for oil palm and yams.",
+      "src": "Kiple p.214"
     }
   ],
   "edges": [
@@ -142,6 +238,66 @@
       "ec2",
       "loose",
       "The presses that supply Greek households with oil are the beam presses of Klazomenai and Attica."
+    ],
+    [
+      "ec6",
+      "b3",
+      "strong",
+      "Foxhall uses the prize-oil inscription to estimate how many sacred trees Athena’s oil required."
+    ],
+    [
+      "o2",
+      "b3",
+      "strong",
+      "The archon’s levy on the sacred olives is how the prize oil of the Panathenaic games was gathered."
+    ],
+    [
+      "b4",
+      "b3",
+      "loose",
+      "The burned and regrown Acropolis olive is the best-known of the Athenian olive myths."
+    ],
+    [
+      "ec8",
+      "ec2",
+      "loose",
+      "The unpredictability of the crop is why Foxhall sees household consumption, not export, as the Athenian oil economy."
+    ],
+    [
+      "ec9",
+      "ec2",
+      "loose",
+      "Hagnias’ thousand trees are a large estate against the few hundred a household’s oil needed."
+    ],
+    [
+      "te4",
+      "te1",
+      "loose",
+      "Both are Greek olive-processing machines, the crusher breaking the fruit and the beam press extracting the oil."
+    ],
+    [
+      "b5",
+      "b3",
+      "loose",
+      "Jerusalem’s Temple and Athens’s Acropolis both ran on sacred oil, in the folio’s comparison."
+    ],
+    [
+      "b7",
+      "b1",
+      "loose",
+      "Early Indian fat rules cover ghee for the sacrifice and animal fats for the sick monk."
+    ],
+    [
+      "ec10",
+      "b1",
+      "loose",
+      "Achaya places ghee in both the sacrifice and the frying pan."
+    ],
+    [
+      "te5",
+      "ec3",
+      "loose",
+      "The ghani is the press for the mustard and sesame that the Sutra literature records."
     ],
     [
       "ec2",
@@ -208,6 +364,18 @@
       "ec5",
       "loose",
       "Sesame’s westward spread continues from Urartu to Greek Macedonia."
+    ],
+    [
+      "b6",
+      "b5",
+      "loose",
+      "Heliopolis’s olive groves for Ra’s lamps and Tekoa’s oil for the Menorah are the same sacred-lamp economy in two kingdoms."
+    ],
+    [
+      "ec11",
+      "xf1",
+      "loose",
+      "The Delta’s palm farming grows out of the same long record of African oil-palm use that the folio before this one traces to the third millennium BC."
     ]
   ]
 }

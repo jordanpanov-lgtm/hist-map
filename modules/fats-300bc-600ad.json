@@ -109,6 +109,21 @@
           "note": "SECONDARY (Pali not read): the same Vinaya passage is sourced in sugar-300bc-600ad::b1 (Mahāvagga VI, Pācittiya 39, as summarised on SuttaCentral-derived pages; Needham SCC 6.3 p.68 on the five medicines). The Vinaya’s redaction is placed 4th–1st century BC, so the date is a span. Compare the Pātimokkha syrup in sugar-1200bc-300bc::b3.",
           "keywords": ["Magadha","Buddha","Pali Vinaya"],
           "xlinks": ["fats-1200bc-300bc::b1","sugar-1200bc-300bc::b3","sugar-300bc-600ad::b1"]
+        },
+        {
+          "id": "b2",
+          "group": "Judaism",
+          "label": "Hanukkah: one day’s lamp oil lasts eight days",
+          "date": "168 BC",
+          "loc": "Jerusalem",
+          "coords": [
+            31.78,
+            35.23
+          ],
+          "hint": "In the tradition, the meagre ration of lamp oil in the sacred Menorah was enough for one day only, yet it lit the Temple for the eight days of its dedication until more oil could be obtained, a miracle that Jews still celebrate at Hanukkah. Mueller adds that the warm glow conceals a bloody civil war between two Jewish factions for control of the Temple and of Hebrew religious practice, and gives 168 BC for the year of the miracle.",
+          "tag": "LEGEND",
+          "note": "LEGEND (as told in a popular history): Mueller, Extra Virginity (2011), the opening chapter on oil in religion. The date is Mueller’s; the rededication of the Temple is more usually put at 164 BC (a general-knowledge point not checked in the library), so the year is flagged.",
+          "keywords": ["Jerusalem","Hanukkah"]
         }
       ]
     },
@@ -146,6 +161,21 @@
       "accent": "#566573",
       "subtitle": "Galen and Anthimus on butter; Caraka on ghee and sesame; the Chinese farm manual",
       "entries": [
+        {
+          "id": "th5",
+          "group": "Science & Geography",
+          "label": "Mago of Carthage writes the farmers’ manual that Rome translates",
+          "date": "c.250 BC",
+          "loc": "Carthage",
+          "coords": [
+            36.85,
+            10.32
+          ],
+          "hint": "Mago, a Carthaginian, wrote a farming manual in Punic in 28 books, reportedly covering olive trees, fruit trees, vines, bees and farm management; after Rome destroyed Carthage in 146 BC the Senate had it translated into Latin, and a Greek version was made too. Columella later called him the father of agriculture. The Punic text is lost and only fragments survive in the Greek and Latin of other writers, so what Carthaginian farmers knew of oil reaches us through Rome.",
+          "tag": "TEXT",
+          "note": "SECONDARY (encyclopedia and lecture notes found by web search; the fragments not read): Wikipedia ‘Mago (agricultural writer)’ and a Purdue horticulture lecture. The sources date Mago differently (c.350 BC, c.300 BC, or the third–second century BC), so c.250 BC is a midpoint, not an attestation. Compare fats-1200bc-300bc::x1 on Phoenician and Carthaginian roles in spreading the olive.",
+          "keywords": ["Mago of Carthage","Rome"]
+        },
         {
           "id": "th3",
           "group": "Science & Geography",
@@ -218,6 +248,36 @@
       "accent": "#8B5E00",
       "subtitle": "Monte Testaccio, the Tripolitanian boom, hemp oil, the Arthaśāstra",
       "entries": [
+        {
+          "id": "ec7",
+          "group": "Palm & Coconut",
+          "label": "Polynesians carry the domesticated coconut across the Pacific",
+          "date": "c.300 BC–600 AD",
+          "loc": "The Pacific and Southeast Asia",
+          "coords": [
+            -10,
+            -170
+          ],
+          "hint": "Coconut was probably domesticated in the Malaysian region, in Southeast Asia and the western Pacific; the wild nut floated to the shores it could reach, and the Polynesians took domesticated forms to the islands they settled. Before the copra trade the coconut was a multipurpose plant on small islands: water, food, oil, rigging fibre and drink on board ship. It supplied the only fat on many atolls.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY (encyclopedia chapter): Kiple (2000) the coconut chapter p.394 (PDF p.431), citing Harries 1990 and Lepofsky, Harries & Kellum 1992. The date is a placeholder for the Polynesian settlement of the islands, which Kiple does not date; the last clause is the folio’s inference from Kiple’s account of the island economy.",
+          "keywords": ["Pacific","Southeast Asia","Polynesians"]
+        },
+        {
+          "id": "ec6",
+          "group": "Olive Oil",
+          "label": "Delos: the sanctuary’s rents rise and fall with the price of oil",
+          "date": "c.270 BC",
+          "loc": "Delos, Greece",
+          "coords": [
+            37.4,
+            25.27
+          ],
+          "hint": "The farms that the sanctuary of Apollo leased out on Delos and Rheneia seem to have had no olives, yet Reger found that their rents rose and fell with the price of oil in the sanctuary accounts after 270 BC. Foxhall’s conjecture: when oil was dear the sanctuary needed more revenue to buy it, and raising the rents of tenants who may have sold it the oil from their own private land stopped landowners from gaining twice. Excavated presses in the town of Delos show that olives were not so rare on private land.",
+          "tag": "EVIDENCE",
+          "note": "SECONDARY (scholarly argument, partly conjecture): Foxhall, Olive Cultivation in Ancient Greece (2007) ch.6 §6.7 (pp.210–211) and ch.2, summarising Reger 1994 pp.201–6 and Brun 1997; Foxhall herself writes ‘it is perfectly possible’ for the explanation.",
+          "keywords": ["Delos","Greece"]
+        },
         {
           "id": "ec1",
           "group": "Olive Oil",
@@ -495,6 +555,11 @@
           "y": -300,
           "l": "The Buddha’s five medicines: ghee, butter, oil, honey and syrup",
           "entryId": "b1"
+        },
+        {
+          "y": -168,
+          "l": "Hanukkah: one day’s lamp oil lasts eight days",
+          "entryId": "b2"
         }
       ]
     },
@@ -517,6 +582,11 @@
       "accent": "#566573",
       "label": "Thought",
       "events": [
+        {
+          "y": -250,
+          "l": "Mago of Carthage writes the farmers’ manual that Rome translates",
+          "entryId": "th5"
+        },
         {
           "y": 100,
           "l": "Caraka and Suśruta: ghee in autumn, sesame oil for frying, sixty oilse",
@@ -545,6 +615,16 @@
       "accent": "#8B5E00",
       "label": "Economy",
       "events": [
+        {
+          "y": -300,
+          "l": "Polynesians carry the domesticated coconut across the Pacific",
+          "entryId": "ec7"
+        },
+        {
+          "y": -270,
+          "l": "Delos: the sanctuary’s rents rise and fall with the price of oil",
+          "entryId": "ec6"
+        },
         {
           "y": 100,
           "l": "Monte Testaccio: fifty million oil jars",

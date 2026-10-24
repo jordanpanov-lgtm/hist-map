@@ -31,6 +31,11 @@ overwhelming; skip it for ordinary one-polity folios.
   "turning_points": [
     { "date": "1493", "text": "One sentence, what changed and why it matters.", "entry": "x10" }
   ],
+  "regions": [
+    { "region": "Africa",
+      "text": ["What the folio holds for this region, or — if nothing — why (no source in the library, not that nothing happened)."],
+      "entries": ["ec4", "x2"] }
+  ],
   "how_to_read": "Which categories/groups to start from, what the folio deliberately leaves out, what the Nexus shows.",
   "sources": {
     "intro": "One paragraph: what kind of evidence this period allows.",
@@ -41,6 +46,15 @@ overwhelming; skip it for ordinary one-polity folios.
   "reviewed": "2026-10-24"
 }
 ```
+
+`regions` (optional, **required for the Fats & Oils program**) is the geographic reading: one block per atlas
+region, in this order — `Europe`, `Near East`, `Far East`, `Africa`, `Americas`, `Oceania`, then `Worldwide` for
+entries with no single place (a convention, an international body, a climate baseline). Egypt is filed under the
+Near East, as in the atlas taxonomy (`config/regions.js`); say so in the Africa block when the Nile matters. Every
+entry sits in exactly one region; `validate.js` errors on duplicates and warns on entries left out. A region with
+no entries stays in the list with `"entries": []` and a `text` that says plainly **why it is empty** — the sources
+held, or a named work that would fill it — so a gap on the map is never mistaken for an absence in history.
+Rendered as a coloured proportion bar plus one card per region.
 
 Markup in any text field: `[[id]]` → clickable chip that opens the entry; `*x*` → emphasis. No HTML.
 
@@ -61,10 +75,13 @@ Markup in any text field: `[[id]]` → clickable chip that opens the entry; `*x*
    entries lean on them); `contested`: the entries that should be read with suspicion and why; `gaps`: what
    was not read or not available, and what would help (a named work where possible). Do not list works that
    were not actually used.
-8. **How to read:** practical orientation — which view to open first, what the colours/groups give, what the
+8. **Regions:** state the real balance, not a flattering one. If one region carries most of the entries, say so
+   in its block and name what the others lack. Never write a region's text so as to imply that an empty region
+   had no fats history.
+9. **How to read:** practical orientation — which view to open first, what the colours/groups give, what the
    folio omits on purpose, and the neighbouring folios (the Continue links are automatic).
-9. **No pronoun guessing, no ordinals, no gap labels** — same editorial rules as the folio.
-10. Set `reviewed` to the date of the last full read-through against the entries.
+10. **No pronoun guessing, no ordinals, no gap labels** — same editorial rules as the folio.
+11. Set `reviewed` to the date of the last full read-through against the entries.
 
 ## Workflow
 

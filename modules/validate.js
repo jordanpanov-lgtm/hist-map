@@ -204,6 +204,26 @@ for (const file of overviewFiles) {
     checkRefs(`turning_points[${i}].text`, t.text);
     if (t.entry) checkIds(`turning_points[${i}].entry`, t.entry);
   }
+  // Optional "regions": the picture by atlas region. Each entry may sit in one region only; entries left out are reported.
+  if (ov.regions !== undefined) {
+    const REGIONS = new Set(['Europe', 'Near East', 'Far East', 'Africa', 'Americas', 'Oceania', 'Worldwide']);
+    if (!Array.isArray(ov.regions)) err(file, '"regions" must be an array');
+    else {
+      const seen = new Map();
+      for (const [i, r] of ov.regions.entries()) {
+        if (!r || !REGIONS.has(r.region)) { err(file, `regions[${i}].region must be one of ${[...REGIONS].join(', ')}`); continue; }
+        if (r.text === undefined) err(file, `regions[${i}] (${r.region}): needs "text" (say what is there, or why nothing is)`);
+        checkRefs(`regions[${i}].text`, r.text);
+        checkIds(`regions[${i}].entries`, r.entries);
+        for (const id of textOf(r.entries)) {
+          if (seen.has(id)) err(file, `regions[${i}]: entry "${id}" is already in region "${seen.get(id)}"`);
+          else seen.set(id, r.region);
+        }
+      }
+      const missing = [...ids].filter(id => !seen.has(id));
+      if (missing.length) warn(file, `regions: ${missing.length} entr${missing.length === 1 ? 'y is' : 'ies are'} in no region (${missing.slice(0, 8).join(', ')}${missing.length > 8 ? ', …' : ''})`);
+    }
+  }
   checkRefs('how_to_read', ov.how_to_read);
   if (!ov.sources || typeof ov.sources !== 'object') warn(file, 'no "sources" section — the overview should comment on the evidence');
   else {

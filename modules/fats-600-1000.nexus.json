@@ -72,6 +72,94 @@
       "label": "Italian soap",
       "full": "Soap making as a craft, above all in Italy.",
       "src": "Ward"
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 600,
+      "label": "Tamil chekku",
+      "full": "Sesame oil pressed and exported in the Tamil country.",
+      "src": "Achaya p.47"
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": 890,
+      "label": "Ohthere and the whales",
+      "full": "Whale and walrus hunting in the White Sea and North Sea.",
+      "src": "Ellis pp.38–40"
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 800,
+      "label": "Capitulary De Villis",
+      "full": "Frankish stewards account for fat, tallow, butter and soap.",
+      "src": "Fordham extract"
+    },
+    {
+      "id": "c1",
+      "lane": "conflict",
+      "year": 930,
+      "label": "Whale carcass disputes",
+      "full": "Icelandic families fight over stranded whales.",
+      "src": "Ellis pp.39–41"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": 711,
+      "label": "Arabic oil words",
+      "full": "Spanish aceite and aceituna from Andalusi Arabic.",
+      "src": "Web; Squatriti"
+    },
+    {
+      "id": "th2",
+      "lane": "thought",
+      "year": 950,
+      "label": "Fat and the humours",
+      "full": "Baghdad’s dietetics of butter, ghee and olive oil.",
+      "src": "Nasrallah"
+    },
+    {
+      "id": "e2",
+      "lane": "expression",
+      "year": 950,
+      "label": "Oil on the oven wall",
+      "full": "Sesame and unripe-olive oil in the bread recipes.",
+      "src": "Nasrallah"
+    },
+    {
+      "id": "b4",
+      "lane": "belief",
+      "year": 610,
+      "label": "The Prophet’s oil",
+      "full": "Olive oil on the skin of the Prophet.",
+      "src": "Mueller"
+    },
+    {
+      "id": "b5",
+      "lane": "belief",
+      "year": 919,
+      "label": "Ghee for the Chola lamp",
+      "full": "Sheep given to feed a temple’s perpetual lamp.",
+      "src": "SII vol.23"
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": 700,
+      "label": "Japanese so",
+      "full": "A milk-skin dairy tribute at the Japanese court.",
+      "src": "Wikipedia"
+    },
+    {
+      "id": "ec7",
+      "lane": "economy",
+      "year": 600,
+      "label": "Shea at Kirikongo",
+      "full": "A 1,400-year shea record in Burkina Faso.",
+      "src": "Gallagher 2016"
     }
   ],
   "edges": [
@@ -110,6 +198,66 @@
       "b2",
       "loose",
       "Tang oil production and the monastery’s oil for its lamp belong to the same expansion of vegetable oil in China."
+    ],
+    [
+      "o1",
+      "ec1",
+      "strong",
+      "The Frankish estate rules and the Anglo-Saxon thane’s butter show the same northern fat economy from the stewards’ and the eaters’ sides."
+    ],
+    [
+      "o1",
+      "ec4",
+      "loose",
+      "The capitulary’s soap makers and the Italian soap craft are two early signs of soap as a workshop product."
+    ],
+    [
+      "c1",
+      "ec5",
+      "loose",
+      "The whale hunted by Ohthere and the carcass fought over in Iceland are the two earliest northern whale stories in this folio."
+    ],
+    [
+      "th1",
+      "b1",
+      "loose",
+      "The Arabic oil words and the monks’ oil expertise are two routes by which Mediterranean oil culture survived into the north-west."
+    ],
+    [
+      "th2",
+      "e1",
+      "strong",
+      "The cookbook’s dietetic chapters explain why its recipes use tail fat, olive oil and clarified butter as they do."
+    ],
+    [
+      "e2",
+      "e1",
+      "strong",
+      "The bread and sweets recipes and the tail-fat frying come from the same Baghdad cookbook."
+    ],
+    [
+      "b4",
+      "b1",
+      "loose",
+      "The Prophet’s oil and the monks’ lamp oil are two religions’ uses of the same Mediterranean substance."
+    ],
+    [
+      "b5",
+      "b2",
+      "strong",
+      "A Tang monastery’s ever-burning lamp and a Chola temple’s perpetual lamp are the same offering fed by different fats."
+    ],
+    [
+      "ec6",
+      "b3",
+      "loose",
+      "Japan’s so and China’s ladder from milk to su show the Buddhist-age dairy world of East Asia."
+    ],
+    [
+      "ec7",
+      "ec3",
+      "loose",
+      "Shea in the Sahel and sesame in south India are two tropical seed and nut fats pressed for local use in the same centuries."
     ]
   ]
 }

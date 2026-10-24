@@ -8,36 +8,90 @@
   "themes": [
     {
       "title": "The end of whale-oil light",
-      "text": ["Kerosene, the Civil War and the Arctic: the American whaling fleet is already shrinking when it hunts the bowhead for baleen."],
-      "entries": ["te1", "c1", "ec4"]
+      "text": [
+        "Kerosene, the Civil War and the Arctic: the American whaling fleet is already shrinking when it hunts the bowhead for baleen."
+      ],
+      "entries": [
+        "te1",
+        "c1",
+        "ec4"
+      ]
     },
     {
       "title": "Margarine: an idea, a patent and a firm",
-      "text": ["Mège's suet process, the Dutch purchase and the margarine factories."],
-      "entries": ["th1", "te2", "ec1", "w1"]
+      "text": [
+        "Mège's suet process, the Dutch purchase and the margarine factories."
+      ],
+      "entries": [
+        "th1",
+        "te2",
+        "ec1",
+        "w1"
+      ]
     },
     {
       "title": "The war against the new fat",
-      "text": ["State bans, a federal tax and Germany's Act show dairy interests turning to law."],
-      "entries": ["o1", "o2", "o3"]
+      "text": [
+        "State bans, a federal tax and Germany's Act show dairy interests turning to law."
+      ],
+      "entries": [
+        "o1",
+        "o2",
+        "o3"
+      ]
     },
     {
       "title": "The fats that feed the new fats",
-      "text": ["Cottonseed, the packers' by-products, palm kernels and coconut oil, with Lever and Procter & Gamble as the branded soapmakers."],
-      "entries": ["ec2", "ec3", "ec5", "ec8", "ec7", "e1", "ec9"]
+      "text": [
+        "Cottonseed, the packers' by-products, palm kernels and coconut oil, with Lever and Procter & Gamble as the branded soapmakers."
+      ],
+      "entries": [
+        "ec2",
+        "ec3",
+        "ec5",
+        "ec8",
+        "ec7",
+        "e1",
+        "ec9"
+      ]
     }
   ],
   "turning_points": [
-    {"date": "1848", "text": "Captain Roys takes the first whaleship through Bering Strait.", "entry": "ec4"},
-    {"date": "1859", "text": "Drake's well and kerosene finish whale-oil lighting.", "entry": "te1"},
-    {"date": "1869–1871", "text": "Mège's margarine process; Jurgens buys the patent.", "entry": "ec1"},
-    {"date": "1879", "text": "Procter & Gamble trademarks Ivory.", "entry": "e1"},
-    {"date": "1881–1887", "text": "Margarine is banned, taxed and regulated.", "entry": "o2"},
-    {"date": "1884", "text": "Lever registers the Sunlight Soap trademark.", "entry": "ec7"}
+    {
+      "date": "1848",
+      "text": "Captain Roys takes the first whaleship through Bering Strait.",
+      "entry": "ec4"
+    },
+    {
+      "date": "1859",
+      "text": "Drake's well and kerosene finish whale-oil lighting.",
+      "entry": "te1"
+    },
+    {
+      "date": "1869–1871",
+      "text": "Mège's margarine process; Jurgens buys the patent.",
+      "entry": "ec1"
+    },
+    {
+      "date": "1879",
+      "text": "Procter & Gamble trademarks Ivory.",
+      "entry": "e1"
+    },
+    {
+      "date": "1881–1887",
+      "text": "Margarine is banned, taxed and regulated.",
+      "entry": "o2"
+    },
+    {
+      "date": "1884",
+      "text": "Lever registers the Sunlight Soap trademark.",
+      "entry": "ec7"
+    }
   ],
   "how_to_read": [
     "*Order* is the margarine war; *Economy* the new fats; *Technology* and *Thought* the two inventions. The Nexus links the whale's decline with the margarine boom through the oil markets.",
-    "The decade of the folio's centre, 1879–1887, is when the branded soap, the margarine laws and the cottonseed trade all meet."
+    "The decade of the folio's centre, 1879–1887, is when the branded soap, the margarine laws and the cottonseed trade all meet.",
+    "The *picture by region* shows the new fats made in America and Europe, and Africa as a supplier; the Near and Far East are missing."
   ],
   "sources": {
     "intro": "Strong sources for margarine (van Stuyvenberg), whaling (Dolin and Bockstoce), the packers (Cronon) and brands (Dyer, Fieldhouse); thin ones for the African plantations and groundnuts.",
@@ -53,8 +107,83 @@
     ],
     "gaps": [
       "The groundnut chapter is thin ([[ec6]]); no source for the olive-oil trade of Marseille and Bari in the 1880s.",
-      "Port Sunlight and Lever's early supply chains, and the Russian sunflower, are missing."
+      "Port Sunlight and Lever's early supply chains, and the Russian sunflower, are missing.",
+      "The Near East (the Ottoman soap and olive trade), India and the Far East, Oceania and Latin America beyond Brazil have no entry; Pacific copra enters only through Britain’s coconut-oil mills ([[ec8]])."
     ]
   },
-  "reviewed": "2026-10-25"
+  "reviewed": "2026-10-25",
+  "regions": [
+    {
+      "region": "Europe",
+      "text": [
+        "Where the new fats are invented and sold: Mège-Mouriès in Paris, the Dutch butter houses, Berlin’s Margarine Act, Warrington’s soap, Britain’s coconut oil and the German tariff wall ([[th1]], [[te2]], [[ec1]], [[o3]], [[ec7]], [[ec8]], [[w1]])."
+      ],
+      "entries": [
+        "o3",
+        "th1",
+        "ec8",
+        "ec1",
+        "ec7",
+        "te2",
+        "w1"
+      ]
+    },
+    {
+      "region": "Near East",
+      "text": [
+        "No entry. The Ottoman Levant’s olive and soap trades and Egypt’s fats are missing; the Geniza ends in the Middle Ages and no source for the region is held."
+      ],
+      "entries": []
+    },
+    {
+      "region": "Far East",
+      "text": [
+        "No entry. Indian oilseed crushing, Chinese soy and Japanese rapeseed in these decades are missing; soy appears from 1900 in the next folio."
+      ],
+      "entries": []
+    },
+    {
+      "region": "Africa",
+      "text": [
+        "Africa as raw-material frontier: groundnuts from Senegambia, palm kernels for margarine and Lever’s soap, and failed European oil-palm plantations in Gabon ([[ec6]], [[ec5]], [[ec9]])."
+      ],
+      "entries": [
+        "ec6",
+        "ec5",
+        "ec9"
+      ]
+    },
+    {
+      "region": "Americas",
+      "text": [
+        "Half the folio: kerosene in Pennsylvania, the Civil War and Arctic whaling, the Chicago and Cincinnati packers, cottonseed in the South, state bans and the federal tax on margarine, Ivory soap, Twain’s ‘beaters’ and Italian oil in the Americas ([[te1]], [[c1]], [[ec4]], [[ec3]], [[ec2]], [[o1]], [[o2]], [[e1]], [[e2]], [[x1]])."
+      ],
+      "entries": [
+        "c1",
+        "o1",
+        "o2",
+        "e1",
+        "e2",
+        "ec3",
+        "ec4",
+        "ec2",
+        "te1",
+        "x1"
+      ]
+    },
+    {
+      "region": "Oceania",
+      "text": [
+        "No entry placed here: the Pacific appears only as the source of copra for Britain’s mills ([[ec8]], filed under Europe)."
+      ],
+      "entries": []
+    },
+    {
+      "region": "Worldwide",
+      "text": [
+        "No entry."
+      ],
+      "entries": []
+    }
+  ]
 }

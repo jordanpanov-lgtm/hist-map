@@ -167,6 +167,38 @@
       "label": "Chhi min yao shu",
       "full": "Colza oil mills; lard still preferred.",
       "src": "Needham 6.5 pp.439–440"
+    },
+    {
+      "id": "th5",
+      "lane": "thought",
+      "year": -250,
+      "label": "Mago of Carthage",
+      "full": "The Punic farmers’ manual, translated by order of the Roman Senate.",
+      "src": "Wikipedia; Purdue"
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": -270,
+      "label": "Delos rents",
+      "full": "Sanctuary rents track the price of oil after 270 BC.",
+      "src": "Foxhall ch.6"
+    },
+    {
+      "id": "ec7",
+      "lane": "economy",
+      "year": -300,
+      "label": "The Pacific coconut",
+      "full": "Polynesians take the domesticated coconut to new islands.",
+      "src": "Kiple"
+    },
+    {
+      "id": "b2",
+      "lane": "belief",
+      "year": -168,
+      "label": "Hanukkah",
+      "full": "The lamp oil that lasted eight days.",
+      "src": "Mueller"
     }
   ],
   "edges": [
@@ -283,6 +315,30 @@
       "th4",
       "loose",
       "The warehouse of c.290 and the colza mills of 544 are successive stages of the Chinese oil trade in Needham’s account."
+    ],
+    [
+      "ec7",
+      "x3",
+      "loose",
+      "The Indian Ocean trade in ghee and sesame oil and the Pacific island coconut are the two tropical fat economies outside the Roman world."
+    ],
+    [
+      "th5",
+      "o2",
+      "loose",
+      "Mago’s manual and the Lepcis oil fine both come from the Carthaginian lands that Rome took in 146 BC and 46 BC."
+    ],
+    [
+      "ec6",
+      "ec3",
+      "loose",
+      "Delos’s oil prices and the Roman world’s per-head oil use are two ways of asking how a city fed itself with oil."
+    ],
+    [
+      "b2",
+      "b1",
+      "loose",
+      "Hanukkah’s lamp oil and the Buddha’s five medicines are two religions making a fat a sacred ration."
     ]
   ]
 }

@@ -144,6 +144,22 @@
       "label": "Liber de coquina",
       "full": "Arab dishes with bacon fat.",
       "src": "Nasrallah Introduction"
+    },
+    {
+      "id": "ec9",
+      "lane": "economy",
+      "year": 1000,
+      "label": "Thule whaling and lamps",
+      "full": "Bowhead hunters and soapstone oil lamps across the Arctic.",
+      "src": "Web sources"
+    },
+    {
+      "id": "l2",
+      "lane": "lives",
+      "year": 1104,
+      "label": "A Fustat shop of 1104",
+      "full": "Linseed oil and soap among a retailer’s stock.",
+      "src": "Goitein I p.150"
     }
   ],
   "edges": [
@@ -230,6 +246,18 @@
       "xf1",
       "loose",
       "Bacon fat for tail fat in the Latin cookbook shows the northern fat world remaking an Arab dish."
+    ],
+    [
+      "ec9",
+      "ec1",
+      "loose",
+      "The Thule hunters of the Arctic and the Basque whalers of Biscay are the two whale economies of the period, one for the household and one for the market."
+    ],
+    [
+      "l2",
+      "ec3",
+      "strong",
+      "The Fustat shop and the Egyptian flax and sesame economy are the retail end of the same oil trade."
     ]
   ]
 }
