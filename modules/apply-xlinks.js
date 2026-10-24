@@ -31,6 +31,79 @@ const DIR = __dirname;
 // (dilmun, magan, beth-qatraye, trucial-gulf), each checked entry-by-entry.
 JSON.parse(fs.readFileSync(path.join(DIR, '_xlink_candidates.json'), 'utf8')); // keep the file fresh; not consumed here
 const SELECTED_PAIRS = [
+  // ── Fats & Oils subject folios (fats-*) — hand-reviewed 2026-10; keyword candidates were mostly place-name noise ──
+  // within the program: the olive, sesame, ghee and su threads
+  ['fats-8000bc-1200bc::ec2', 'fats-1200bc-300bc::x1'],                 // the olive's origins -> who brought it west
+  ['fats-8000bc-1200bc::te2', 'fats-1200bc-300bc::te1'],                // Bronze Age presses -> the Greek beam press
+  ['fats-8000bc-1200bc::x1', 'fats-1200bc-300bc::th1'],                 // sesame to Mesopotamia -> Herodotus on Babylon's oil
+  ['fats-8000bc-1200bc::x1', 'fats-1200bc-300bc::ec4'],                 // sesame to Mesopotamia -> the Karmir Blur workshop
+  ['fats-8000bc-1200bc::ec4', 'fats-1200bc-300bc::b2'],                 // Harappan sesame -> sacred sesame (tila)
+  ['fats-1200bc-300bc::b1', 'fats-300bc-600ad::b1'],                    // Vedic ghee -> the Buddha's five medicines
+  ['fats-1200bc-300bc::b1', 'fats-600-1000::b3'],                       // ghee's prestige -> the Buddhist ladder in China
+  ['fats-1200bc-300bc::ec1', 'fats-300bc-600ad::ec2'],                  // Ekron's presses -> the Tripolitanian olive boom
+  ['fats-1200bc-300bc::th2', 'fats-300bc-600ad::te2'],                  // Zhou animal fats -> China learns to press oil
+  ['fats-300bc-600ad::te4', 'fats-600-1000::b3'],                       // churning su -> milk, lo, su, ti hu
+  ['fats-300bc-600ad::te4', 'fats-1000-1500::ec8'],                     // churning su -> su becomes shortening
+  ['fats-300bc-600ad::th4', 'fats-600-1000::te1'],                      // colza mills of 544 -> Tang oil pressing
+  ['fats-600-1000::te1', 'fats-1000-1500::te1'],                        // Tang pressing -> Wang Zhen's press
+  ['fats-300bc-600ad::w1', 'fats-600-1000::b1'],                        // the Germanic animal fat -> monastic oil islands
+  ['fats-600-1000::b1', 'fats-1000-1500::b1'],                          // monastic oil -> the Lenten oil line
+  ['fats-1000-1500::b1', 'fats-1500-1750::b1'],                         // Lent and butter -> Luther
+  ['fats-1000-1500::o2', 'fats-1500-1750::b1'],                         // butter dispensations -> Luther's attack
+  ['fats-1000-1500::ec1', 'fats-1500-1750::ec1'],                       // Basque whaling -> Red Bay
+  ['fats-600-1000::ec5', 'fats-1000-1500::ec1'],                        // Norse whaling -> the Basques
+  ['fats-1500-1750::ec2', 'fats-1750-1850::w1'],                        // the Dutch at Spitsbergen -> the end of Dutch whaling
+  ['fats-1750-1850::ec2', 'fats-1850-1900::te1'],                       // the golden age of whaling -> kerosene
+  ['fats-1750-1850::ec2', 'fats-1850-1900::c1'],                        // the golden age -> the Civil War
+  ['fats-1750-1850::ec3', 'fats-1850-1900::ec5'],                       // palm oil tonnages -> the kernel trade
+  ['fats-1750-1850::ec7', 'fats-1850-1900::ec7'],                       // palm oil for soap and candles -> Lever
+  ['fats-1750-1850::th1', 'fats-1850-1900::th1'],                       // Chevreul -> Mège-Mouriès
+  ['fats-1750-1850::te3', 'fats-1900-1960::te1'],                       // industrial soap chemistry -> hydrogenation
+  ['fats-1850-1900::th1', 'fats-1900-1960::te1'],                       // margarine's chemistry -> Normann's patents
+  ['fats-1850-1900::ec7', 'fats-1900-1960::ec3'],                       // Sunlight soap -> Unilever
+  ['fats-1850-1900::ec5', 'fats-1900-1960::ec8'],                       // palm kernels -> Lever's Congo
+  ['fats-1850-1900::o2', 'fats-1900-1960::o1'],                         // the 1886 oleomargarine act -> the 1902 amendment
+  ['fats-1900-1960::o1', 'fats-1900-1960::o4'],                         // the 1902 tax -> its repeal
+  ['fats-1850-1900::ec2', 'fats-1960-today::ec1'],                      // cottonseed oil -> soybean oil's century
+  ['fats-1900-1960::te2', 'fats-1960-today::o2'],                       // Crisco -> the trans-fat rules
+  ['fats-1900-1960::th2', 'fats-1960-today::l2'],                       // Kummerow in the 1950s -> Kummerow in 2013
+  ['fats-1900-1960::th1', 'fats-1960-today::o1'],                       // Keys's hypothesis -> the 1977 Dietary Goals
+  ['fats-1900-1960::th3', 'fats-1960-today::th2'],                      // the AHA's 1961 advice -> the Women's Health Initiative
+  ['fats-1900-1960::ec6', 'fats-1960-today::ec2'],                      // the first plantations -> Malaysia's boom
+  ['fats-1900-1960::te4', 'fats-1960-today::ec7'],                      // the Tenera palm -> FELDA's replanting
+  ['fats-1900-1960::ec2', 'fats-1960-today::o6'],                       // pelagic whaling -> the 1982 moratorium
+  // to the older atlas folios
+  ['fats-8000bc-1200bc::ec9', 'late-bronze-age-system-1550bc-1200bc::ec3'],  // palace oil stores -> the palace economies
+  ['fats-8000bc-1200bc::ec2', 'canaan-2000bc-1200bc::ec2'],             // the olive -> Canaanite wine and oil
+  ['fats-8000bc-1200bc::x2', 'egypt-1550bc-1200bc::k12'],               // sesame in Tutankhamun's tomb -> Tutankhamun
+  ['fats-1200bc-300bc::ec1', 'philistia-1200bc-604bc::ec1'],            // Ekron's presses -> Ekron's industrial oil
+  ['fats-1200bc-300bc::ec4', 'urartu-colchis-1200bc-585bc::ec1'],       // Karmir Blur oil -> Urartu's economy
+  ['fats-300bc-600ad::o3', 'rome-200-300::p1'],                         // Lepcis's oil gift -> Septimius Severus
+  ['fats-300bc-600ad::o3', 'rome-200-300::p5'],                         // the oil procurator -> Severus Alexander
+  ['fats-300bc-600ad::ec1', 'hispania-300bc-27bc::s2'],                 // Monte Testaccio -> Baetican oil and Dressel 20
+  ['fats-300bc-600ad::e1', 'rome-400-500::tx6'],                        // Sidonius's buttered Burgundian -> Sidonius's letters
+  ['fats-300bc-600ad::x3', 'nabataean-312bc-106ce::ex1'],               // the Periplus's ghee and sesame oil -> Indian Ocean trade
+  // to the Sugar program (same sources, same questions)
+  ['fats-300bc-600ad::x3', 'sugar-300bc-600ad::x1'],                    // the Periplus export list
+  ['fats-300bc-600ad::b1', 'sugar-300bc-600ad::b1'],                    // the five medicines
+  ['fats-300bc-600ad::b1', 'sugar-1200bc-300bc::b3'],                   // syrup and ghee in the monks' rule
+  ['fats-300bc-600ad::th1', 'sugar-300bc-600ad::th11'],                 // Galen on butter and on sakchar
+  ['fats-1000-1500::ec4', 'sugar-1000-1500::e4'],                       // Hangzhou's oil and its honey-boiling office
+  ['fats-1000-1500::ec2', 'sugar-1000-1500::l1'],                       // Geniza oil importers and the sukkari's deathbed
+  ['fats-1500-1750::th3', 'sugar-1500-1650::t3'],                       // Song Yingxing on oils and on sweets
+  ['fats-1500-1750::te1', 'sugar-1500-1650::te4'],                      // the Ming oil press and the Ming cane crusher
+  ['fats-1500-1750::l1', 'sugar-1650-1800::x2'],                        // palm oil in the slave ship -> the slave trade's scale
+  ['fats-1500-1750::ec4', 'sugar-1500-1650::x1'],                       // the Mortamer ledger -> the Portuguese slave trade
+  ['fats-1750-1850::o1', 'sugar-1800-1900::o1'],                        // abolition and the oil trade -> abolition and sugar
+  ['fats-1900-1960::c1', 'sugar-1900-1970::c1'],                        // the first war for glycerine and fat -> the war cuts Britain off from beet
+  ['fats-1900-1960::c2', 'sugar-1900-1970::c3'],                        // the second war for fats -> sugar scarcity
+  ['fats-1900-1960::c2', 'sugar-1900-1970::o8'],                        // rationing of fats -> rationing of sugar
+  ['fats-1900-1960::th1', 'sugar-1900-1970::t2'],                       // Keys's hypothesis (same story)
+  ['fats-1900-1960::th1', 'sugar-1900-1970::t3'],                       // Keys against Yudkin
+  ['fats-1900-1960::th3', 'sugar-1900-1970::t4'],                       // the AHA's 1961 advice -> the sugar-funded Harvard review
+  ['fats-1960-today::o1', 'sugar-1970-today::t8'],                      // Dietary Goals -> the sugar industry's research strategy
+  ['fats-1960-today::o3', 'sugar-1970-today::o8'],                      // WHO on trans fats -> WHO on free sugars
+  ['fats-1960-today::o4', 'sugar-1970-today::o1'],                      // olestra's approval -> the cyclamate ban
   // ── iraq-2003-today (Iraq after Saddam) ──
   // hand-off backward from Saddam's Iraq:
   ['iraq-2003-today::k1', 'iraq-1979-2003::c6'],      // the 2003 invasion -> the occupation and the CPA

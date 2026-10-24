@@ -597,6 +597,12 @@ instance: `sugar-300bc-600ad`.
   subdivisions (`Sasanian Iran`), named wars (`Northern Wei–Liu Song War`) and named traditions
   (`Han Funerary Offerings`) are folio-specific by design. Add a row to a table above only when a group
   is plausibly reusable across folios (`Cookery & Food Writing` and `Grammar & Lexicography` were added this way).
+- **Substance groups (Fats & Oils).** In a commodity family whose point is *substitution* — one fat displacing another across time —
+  the `group` of an **Economy**, **Technology** or **Exchange** entry names the substance, so that a reader scanning a lane sees
+  the shift: `Olive Oil` · `Butter & Ghee` · `Lard & Tallow` · `Oilseeds` (sesame, flax, rapeseed, cottonseed, soy, sunflower,
+  groundnut) · `Palm & Coconut` · `Whale & Marine Oils` · `Margarine & Shortening` · `Soap, Candles & Lubricants` (the non-food
+  uses, kept visible on purpose). Every other category keeps the ordinary groups above; folio-specific named conflicts
+  (`The Tropical Oils War`, `Anglo-Dutch Whaling Rivalry`) are fine.
 - **Category rules carry over unchanged.** Taxation, tariffs and price edicts are **Order**, not Economy;
   health stories go under **Lives** as stories of groups of people (history, not biology); pandemic-scale
   disease is **World**.
