@@ -136,6 +136,9 @@ const TAXONOMY = [
     { id:'Sweeteners', label:'Sweeteners', zones:[
       { id:'Sugar', label:'Sugar', detail:'cane · reed honey · syrups · beet · honey as rival' },
     ]},
+    { id:'Fats', label:'Fats', zones:[
+      { id:'Fats & Oils', label:'Fats & Oils', detail:'olive · butter & ghee · lard & tallow · oilseeds · palm & coconut · whale oil · margarine · soap & light' },
+    ]},
   ]},
 ];
 

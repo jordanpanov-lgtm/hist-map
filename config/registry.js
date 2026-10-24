@@ -283,5 +283,11 @@ const MODULES = [
   { id:"sugar-1800-1900", file:"modules/sugar-1800-1900.json", label:"Sugar 1800–1900", sub:"Beet, Steam, Emancipation and Contract Labour: From Napoleon’s Beet to the Sugar Trust", region:"Sugar", period:"Early Modern" },
   { id:"sugar-1900-1970", file:"modules/sugar-1900-1970.json", label:"Sugar 1900–1970", sub:"Glut, War and Quota: The Sugar Trust, Colonial Taiwan, Rationing, Cuba and the First Doubts", region:"Sugar", period:"Modern" },
   { id:"sugar-1970-today", file:"modules/sugar-1970-today.json", label:"Sugar 1970–today", sub:"Corn Syrup, Obesity and the Sugar Tax: From Yudkin’s Warning to the Soft Drinks Levy", region:"Sugar", period:"Modern" },
+  // ── Fats & Oils (subject folios) ──
+  { id:"fats-8000bc-1200bc", file:"modules/fats-8000bc-1200bc.json", label:"Fats & Oils 8000–1200 BC", sub:"Fat Before Oil: Rendered Fat, the First Butter, the Olive of the Levant and the Sesame of the Indus", region:"Fats & Oils", period:"Prehistoric" },
+  { id:"fats-1200bc-300bc", file:"modules/fats-1200bc-300bc.json", label:"Fats & Oils 1200–300 BC", sub:"Oil, Ghee and Tallow: The Olive in Greece and Palestine, the Vedic Ghee, Sesame from the Indus to Urartu and the Fats of the Zhou", region:"Fats & Oils", period:"Ancient" },
+  { id:"fats-300bc-600ad", file:"modules/fats-300bc-600ad.json", label:"Fats & Oils 300 BC–600 AD", sub:"Oil Empire and Butter Frontier: Rome’s Oil Jars, the Tripolitanian Boom, Ghee and Sesame in India and the First Pressed Oils of China", region:"Fats & Oils", period:"Late Antique" },
+  { id:"fats-600-1000", file:"modules/fats-600-1000.json", label:"Fats & Oils 600–1000", sub:"Oil Retreats North, Tail Fat in Baghdad, the Tamil Chekku, the Tang Lamp and the First Northern Whalers", region:"Fats & Oils", period:"Medieval" },
+  { id:"fats-1000-1500", file:"modules/fats-1000-1500.json", label:"Fats & Oils 1000–1500", sub:"Lent, Butter and the Oil Line: Basque Whalers, Tunisian Oil in the Geniza, the Song Oil Press and the Butter Tower of Rouen", region:"Fats & Oils", period:"Medieval" },
   // To add a folio: { id, file, label:"[Name] [years]", sub:"[short description — no years]", region:"[zone id]", period:"[period id]" }
 ];

@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "xf1",
+      "lane": "external",
+      "year": 600,
+      "label": "The old fat map",
+      "full": "The folio opens on the two fat worlds that fats-300bc-600ad ends with: oil and ghee in the south and east, animal fat and butter in the north, with the church and the Islamic caliphate carrying the older oil culture across the break.",
+      "src": "Folio 3; Mueller",
+      "external": true
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": 600,
+      "label": "Monastic oil",
+      "full": "Christian houses keep olive oil for rites and diet in a northern fat world.",
+      "src": "Mueller"
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 600,
+      "label": "Anglo-Saxon butter",
+      "full": "Sheep’s butter as a thane’s luxury.",
+      "src": "Khosrova ch.1"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 800,
+      "label": "Bog butter",
+      "full": "Butter buried in Irish bogs.",
+      "src": "Khosrova"
+    },
+    {
+      "id": "e1",
+      "lane": "expression",
+      "year": 950,
+      "label": "Baghdad tail fat",
+      "full": "Rendered sheep’s tail fat and olive oil in the tenth-century cookbook.",
+      "src": "Nasrallah Introduction"
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": 850,
+      "label": "Tang oil pressing",
+      "full": "Pressing seeds for oil as a fourth-month task.",
+      "src": "Needham 6.5 p.440"
+    },
+    {
+      "id": "b2",
+      "lane": "belief",
+      "year": 650,
+      "label": "Ever-burning lamp",
+      "full": "Oil lamp offerings in Tang monasteries.",
+      "src": "Kieschnick"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 800,
+      "label": "Italian soap",
+      "full": "Soap making as a craft, above all in Italy.",
+      "src": "Ward"
+    }
+  ],
+  "edges": [
+    [
+      "xf1",
+      "b1",
+      "loose",
+      "The church’s retention of oil expertise is the continuation across the break of the Mediterranean oil culture."
+    ],
+    [
+      "b1",
+      "ec4",
+      "loose",
+      "Soap making in Italy rests on olive oil in the Mediterranean, as Ward says, alongside the monastic oil that Mueller describes."
+    ],
+    [
+      "ec1",
+      "ec2",
+      "loose",
+      "Both are dairy fats of the Atlantic fringe in the same centuries, one a luxury and one a stored surplus."
+    ],
+    [
+      "e1",
+      "xf1",
+      "loose",
+      "The Baghdad cookbook keeps the Near Eastern fat habit (tail fat, olive oil) that the Babylonian tablets show."
+    ],
+    [
+      "te1",
+      "b2",
+      "loose",
+      "Tang oil production and the monastery’s oil for its lamp belong to the same expansion of vegetable oil in China."
+    ]
+  ]
+}

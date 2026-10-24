@@ -1,0 +1,213 @@
+{
+  "nodes": [
+    {
+      "id": "xf1",
+      "lane": "external",
+      "year": -1200,
+      "label": "Bronze Age collapse",
+      "full": "The collapse of the Late Bronze Age palace economies about 1200 BC ends the oil-store palace system of the Aegean and the Levant; the folio opens in its wake.",
+      "src": "Background — Foxhall ch.1 (Bronze Age olive); see the earlier folio",
+      "external": true
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": -800,
+      "label": "Ekron oil works",
+      "full": "A hundred presses at Ekron, about 500,000 litres a year.",
+      "src": "Mueller ch.1"
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": -600,
+      "label": "Beam press",
+      "full": "The lever-and-weights press of classical Greece, at Klazomenai and in Attica.",
+      "src": "Foxhall ch.6"
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": -594,
+      "label": "Solon’s oil law",
+      "full": "Attica may export only olive oil.",
+      "src": "Plutarch Solon 24 via Foxhall ch.1"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": -400,
+      "label": "Athenian household oil",
+      "full": "A wealthy household uses 200–330 kg of oil a year.",
+      "src": "Foxhall ch.4 Table 4.1"
+    },
+    {
+      "id": "te2",
+      "lane": "technology",
+      "year": -400,
+      "label": "Oil lamps",
+      "full": "Olive oil for light: a privilege of the wealthy.",
+      "src": "Foxhall ch.4"
+    },
+    {
+      "id": "te3",
+      "lane": "technology",
+      "year": -500,
+      "label": "Oil and strigil",
+      "full": "Greek men cleanse with olive oil after exercise.",
+      "src": "Foxhall ch.4 §4.3"
+    },
+    {
+      "id": "b3",
+      "lane": "belief",
+      "year": -500,
+      "label": "Athena’s olives",
+      "full": "Sacred olive trees and the Panathenaic prize oil.",
+      "src": "Foxhall ch.4–5"
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": -800,
+      "label": "The olive west",
+      "full": "Greeks, Phoenicians and the debate over the olive in Italy.",
+      "src": "Foxhall ch.1"
+    },
+    {
+      "id": "e1",
+      "lane": "expression",
+      "year": -350,
+      "label": "Butter eaters",
+      "full": "Greek comedy mocks the butter-eating Thracians.",
+      "src": "Khosrova ch.3"
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": -1000,
+      "label": "Vedic ghee",
+      "full": "Ghee as a sacrificial and prestige fat.",
+      "src": "Achaya pp.28, 35"
+    },
+    {
+      "id": "b2",
+      "lane": "belief",
+      "year": -1000,
+      "label": "Sacred sesame",
+      "full": "Sesame and taila in the Vedic texts.",
+      "src": "Achaya p.36"
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": -800,
+      "label": "Indian mustard oil",
+      "full": "Mustard and safflower as oil sources.",
+      "src": "Achaya p.36"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": -440,
+      "label": "Herodotus on Babylon",
+      "full": "Babylonians use only sesame oil.",
+      "src": "Bedigian p.5"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": -700,
+      "label": "Karmir Blur",
+      "full": "A sesame-oil workshop in Urartu.",
+      "src": "Bedigian p.5"
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": -325,
+      "label": "Krania sesame",
+      "full": "Sesame reaches Greek Macedonia.",
+      "src": "Bedigian p.5"
+    }
+  ],
+  "edges": [
+    [
+      "xf1",
+      "ec1",
+      "loose",
+      "The Iron Age oil works of Ekron arise after the palace economies of the Late Bronze Age fall."
+    ],
+    [
+      "te1",
+      "ec2",
+      "loose",
+      "The presses that supply Greek households with oil are the beam presses of Klazomenai and Attica."
+    ],
+    [
+      "ec2",
+      "te2",
+      "strong",
+      "Foxhall counts lighting as the largest non-food share of the household oil bill."
+    ],
+    [
+      "ec2",
+      "te3",
+      "strong",
+      "Gymnasium and bath oil is the second non-food use in her accounting."
+    ],
+    [
+      "b3",
+      "ec2",
+      "loose",
+      "Foxhall argues the sacred value of oil, in Athena’s olives and prizes, is bound up with its status consumption."
+    ],
+    [
+      "o1",
+      "ec2",
+      "loose",
+      "Solon’s law is the state measure that makes Attic oil an export staple, though its authenticity is disputed."
+    ],
+    [
+      "x1",
+      "te1",
+      "loose",
+      "The presses of Greece and the spread of the olive westward belong to one expansion of oil farming."
+    ],
+    [
+      "e1",
+      "ec2",
+      "loose",
+      "Greek mockery of butter eaters reflects the south’s oil habit that the household oil figures show."
+    ],
+    [
+      "b1",
+      "ec3",
+      "loose",
+      "Ghee’s prestige and the early attestations of mustard and sesame oil are the two sides of India’s fat culture in the same texts."
+    ],
+    [
+      "b2",
+      "ec3",
+      "loose",
+      "Sesame and mustard are the oil sources the Sutra literature records."
+    ],
+    [
+      "b2",
+      "th1",
+      "loose",
+      "Sesame oil is the oil of both India and Babylon; the two traditions share the crop, as the earlier folio shows."
+    ],
+    [
+      "th1",
+      "ec4",
+      "strong",
+      "Herodotus’s Babylon uses sesame oil; Karmir Blur in Urartu pressed it for export."
+    ],
+    [
+      "ec4",
+      "ec5",
+      "loose",
+      "Sesame’s westward spread continues from Urartu to Greek Macedonia."
+    ]
+  ]
+}

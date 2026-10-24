@@ -1,0 +1,274 @@
+{
+  "nodes": [
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": -46,
+      "label": "Caesar’s oil fine",
+      "full": "Leptis fined three million pounds of oil in 46 BC.",
+      "src": "Bellum Africum 97.3 via Mattingly 1988"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 100,
+      "label": "Tripolitanian boom",
+      "full": "Hundreds of presses at Lepcis; wealth into the Senate.",
+      "src": "Mattingly 1988; Tripolitania"
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 200,
+      "label": "Oil annona",
+      "full": "Lepcis’s oil gift to Rome and the new oil procurator.",
+      "src": "Mattingly, Tripolitania pp.92–93"
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": 150,
+      "label": "Oil to Rome",
+      "full": "Tripolitanian oil in Rome and Ostia.",
+      "src": "Mattingly 1988; Panella"
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 100,
+      "label": "Monte Testaccio",
+      "full": "Fifty million oil jars dumped in Rome.",
+      "src": "Mattingly, Tripolitania"
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 100,
+      "label": "Twenty litres a head",
+      "full": "An estimated 500–1,000 million litres a year.",
+      "src": "Mattingly 1988; Amouretti"
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": -160,
+      "label": "Roman presses",
+      "full": "Beam, lever and screw presses and the olive mill.",
+      "src": "Needham 6.5 pp.437–439"
+    },
+    {
+      "id": "te3",
+      "lane": "technology",
+      "year": 100,
+      "label": "Soap as drug",
+      "full": "Soap known as a cosmetic and medicine.",
+      "src": "Ward; Dalby"
+    },
+    {
+      "id": "e1",
+      "lane": "expression",
+      "year": 470,
+      "label": "Sidonius’s butter",
+      "full": "A Burgundian perfumed with rancid butter.",
+      "src": "Khosrova ch.3"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": 170,
+      "label": "Galen on butter",
+      "full": "Butter for baths and poultices in cold lands.",
+      "src": "Khosrova ch.3"
+    },
+    {
+      "id": "th2",
+      "lane": "thought",
+      "year": 511,
+      "label": "Anthimus on butter",
+      "full": "Fresh butter for consumption.",
+      "src": "Khosrova ch.3"
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": -300,
+      "label": "Five medicines",
+      "full": "Ghee, butter, oil, honey and syrup for sick monks.",
+      "src": "Vinaya via sugar folio"
+    },
+    {
+      "id": "th3",
+      "lane": "thought",
+      "year": 100,
+      "label": "Caraka and Suśruta",
+      "full": "Ghee only in autumn; sesame oil; sixty oilseeds.",
+      "src": "Achaya p.83"
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": 300,
+      "label": "Arthaśāstra oil",
+      "full": "Oil proportions in the meat shop.",
+      "src": "Achaya p.55"
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": 400,
+      "label": "Germanic animal fat",
+      "full": "The Germanic peoples bring meat, beer and animal fat to the western Empire.",
+      "src": "Mueller (section on Germanic cuisine)"
+    },
+    {
+      "id": "x3",
+      "lane": "exchange",
+      "year": 40,
+      "label": "Periplus oils",
+      "full": "Ghee and sesame oil exported from India.",
+      "src": "Sugar folio x1; Achaya p.47"
+    },
+    {
+      "id": "x2",
+      "lane": "exchange",
+      "year": -130,
+      "label": "Sesame to China",
+      "full": "Zhang Qian tradition; hu ma.",
+      "src": "Bedigian p.6"
+    },
+    {
+      "id": "te2",
+      "lane": "technology",
+      "year": 100,
+      "label": "Oil pressing in China",
+      "full": "Late Han: the first pressing of seeds for oil.",
+      "src": "Needham 6.5 p.437"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 290,
+      "label": "Hemp-oil warehouse",
+      "full": "Ten thousand piculs of oil in one warehouse, c.290.",
+      "src": "Needham 6.5 p.437"
+    },
+    {
+      "id": "th4",
+      "lane": "thought",
+      "year": 544,
+      "label": "Chhi min yao shu",
+      "full": "Colza oil mills; lard still preferred.",
+      "src": "Needham 6.5 pp.439–440"
+    }
+  ],
+  "edges": [
+    [
+      "o2",
+      "ec2",
+      "loose",
+      "Caesar’s fine is the first sign in the sources of the scale of Leptis’s oil, which Mattingly takes to be Lepcis Magna’s."
+    ],
+    [
+      "ec2",
+      "x1",
+      "strong",
+      "Mattingly links the surplus oil of the Tripolitanian estates to the stamped amphorae that reached Rome and Ostia."
+    ],
+    [
+      "ec2",
+      "o3",
+      "strong",
+      "Mattingly reads the oil donation and the oil procurator as consequences of the elite’s oil wealth and of Severus’s favour."
+    ],
+    [
+      "x1",
+      "ec1",
+      "strong",
+      "Monte Testaccio is where the emptied jars from Spain and Africa were dumped; Tripolitanian stamps appear there too."
+    ],
+    [
+      "ec1",
+      "ec3",
+      "loose",
+      "Rodríguez Almeida’s figure for Rome’s imports and the per-head rule of thumb are two attempts to size the same oil economy."
+    ],
+    [
+      "te1",
+      "ec2",
+      "loose",
+      "The beam and screw presses of the sources are the machines that the Tripolitanian press sites housed, though Mattingly’s survey does not name their type."
+    ],
+    [
+      "te1",
+      "te2",
+      "loose",
+      "Needham sets the Roman presses against China’s late adoption of pressing as the contrast the folio reads across."
+    ],
+    [
+      "te3",
+      "ec3",
+      "loose",
+      "Mattingly counts soaps, perfumes and medicaments among the uses that make oil’s importance underestimated."
+    ],
+    [
+      "e1",
+      "th1",
+      "loose",
+      "Both are Roman-world remarks on northern butter use, Sidonius as insult and Galen as medicine."
+    ],
+    [
+      "w1",
+      "e1",
+      "loose",
+      "Mueller’s northern animal-fat culture is the one Sidonius mocks, in Gaul, in the 470s."
+    ],
+    [
+      "w1",
+      "th2",
+      "loose",
+      "Anthimus, at the Ostrogothic court, writes of butter and lard as the northerners use them."
+    ],
+    [
+      "x3",
+      "th3",
+      "loose",
+      "The ghee and sesame oil of the Periplus are the fats that Caraka’s medicine prescribes by season."
+    ],
+    [
+      "th1",
+      "th2",
+      "loose",
+      "Anthimus’s butter cure continues the medical use of butter that Galen records."
+    ],
+    [
+      "b1",
+      "th3",
+      "loose",
+      "The Vinaya’s five medicines and the Caraka’s seasonal rule for ghee are two early Indian prescriptions of fats as medicine."
+    ],
+    [
+      "th3",
+      "ec5",
+      "loose",
+      "The Charaka and Arthaśāstra describe the same shift from ghee to oil as cooking medium in the early centuries AD."
+    ],
+    [
+      "x2",
+      "te2",
+      "loose",
+      "Sesame’s arrival and the late-Han pressing of seeds fall in the same period, though Needham says sesame pressing is not mentioned before the Song."
+    ],
+    [
+      "te2",
+      "ec4",
+      "strong",
+      "Needham reads the Po wu chi’s oil stored by the ten thousand piculs as the next trace of oil as a commodity after the Han pressing."
+    ],
+    [
+      "ec4",
+      "th4",
+      "loose",
+      "The warehouse of c.290 and the colza mills of 544 are successive stages of the Chinese oil trade in Needham’s account."
+    ]
+  ]
+}

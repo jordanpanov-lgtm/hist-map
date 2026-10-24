@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "id": "xf1",
+      "lane": "external",
+      "year": -3000,
+      "label": "Irrigated Bronze Age states",
+      "full": "The Bronze Age states of Mesopotamia, the Indus and Egypt, linked by long-distance trade, are the setting that moves oil crops and fats between regions (Bedigian 2011 ch.1 p.3).",
+      "src": "Bedigian (2011) ch.1 p.3",
+      "external": true
+    },
+    {
+      "id": "w1",
+      "lane": "world",
+      "year": -4000,
+      "label": "Climate sets the fat",
+      "full": "Animal fat in the cool north, plant oil in the warm south and east: the environment decides which fat a region will use for thousands of years.",
+      "src": "Kiple II.E.1 pp.375–376; Foxhall ch.1"
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": -8000,
+      "label": "Rendering",
+      "full": "The first way humans extracted fat from animals: heating the tissue until the fat separates.",
+      "src": "Kiple II.E.1 p.376"
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": -9000,
+      "label": "First butter",
+      "full": "Neolithic herders milking sheep and goats make butter, the first dairy fat.",
+      "src": "Khosrova pp.25–27"
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": -2000,
+      "label": "Clarified butter",
+      "full": "In hot Mesopotamia butter is clarified so it will keep — the ancestor of ghee.",
+      "src": "Bottéro pp.69–70"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": -4800,
+      "label": "Olive domesticated",
+      "full": "Chalcolithic Levant: olive stones and wood show the tree under cultivation.",
+      "src": "Zohary et al. PDF p.137"
+    },
+    {
+      "id": "te2",
+      "lane": "technology",
+      "year": -1600,
+      "label": "Olive presses",
+      "full": "Late Bronze Age Cyprus and Crete press olives at scale.",
+      "src": "Foxhall ch.1 §1.3"
+    },
+    {
+      "id": "ec9",
+      "lane": "economy",
+      "year": -2400,
+      "label": "Palace oil stores",
+      "full": "Oil kept in the royal cellars of Ebla, Mari, Ugarit and Minoan Crete.",
+      "src": "Mueller ch.1"
+    },
+    {
+      "id": "ec8",
+      "lane": "economy",
+      "year": -1600,
+      "label": "Crete’s oil export",
+      "full": "Crete grows rich on exporting olive oil at the end of the Bronze Age.",
+      "src": "Kiple II.E.1 p.377"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": -2600,
+      "label": "Harappan sesame",
+      "full": "Sesame is grown in the Indus valley by 2600–2000 BC.",
+      "src": "Bedigian ch.1 pp.3–4; Achaya p.17"
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": -2500,
+      "label": "Sesame to Mesopotamia",
+      "full": "Sesame and its names move from the Indus to Mesopotamia by 2000 BC.",
+      "src": "Bedigian ch.1 pp.4–5"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": -2400,
+      "label": "The oil-plant",
+      "full": "Cuneiform texts from 2400 BC name an oil plant, argued to be sesame.",
+      "src": "Bedigian ch.1 p.4"
+    },
+    {
+      "id": "x2",
+      "lane": "exchange",
+      "year": -1330,
+      "label": "Sesame in Egypt",
+      "full": "Sesame seeds among Tutankhamun’s grave goods.",
+      "src": "Bedigian ch.1 p.5"
+    },
+    {
+      "id": "e1",
+      "lane": "expression",
+      "year": -1600,
+      "label": "Yale tablets",
+      "full": "The oldest recipes put fat in every pot.",
+      "src": "Bottéro pp.67–71"
+    }
+  ],
+  "edges": [
+    [
+      "w1",
+      "ec1",
+      "loose",
+      "Herding regions supply animal fat and dairy, as Kiple’s environmental account of fat consumption explains."
+    ],
+    [
+      "te1",
+      "e1",
+      "loose",
+      "Rendered sheep fat is the cooking fat of the Babylonian recipes."
+    ],
+    [
+      "ec1",
+      "ec6",
+      "loose",
+      "Butter’s Mesopotamian form is clarified, which is what lets it keep in a hot climate."
+    ],
+    [
+      "ec2",
+      "te2",
+      "loose",
+      "The domesticated olive is what the Late Bronze Age presses of Cyprus and Crete process."
+    ],
+    [
+      "ec9",
+      "ec8",
+      "loose",
+      "Mueller’s palace oil stores and Kiple’s Cretan export are two accounts of the same Bronze Age oil economy."
+    ],
+    [
+      "te2",
+      "ec8",
+      "loose",
+      "Large-scale processing and Crete’s oil export belong to the same Late Bronze Age olive economy, though the two sources are independent."
+    ],
+    [
+      "ec4",
+      "x1",
+      "strong",
+      "Bedigian and Fuller date sesame to the Indus before it reaches Mesopotamia by 2000 BC."
+    ],
+    [
+      "x1",
+      "th1",
+      "strong",
+      "The Mesopotamian oil-plant texts of about 2400 BC are the written trace of the imported crop, as Bedigian reads them."
+    ],
+    [
+      "x1",
+      "x2",
+      "loose",
+      "Sesame’s spread westward continues to Egypt by about 1500 BC."
+    ],
+    [
+      "xf1",
+      "x1",
+      "loose",
+      "The long-distance trade of the Bronze Age states carried sesame and its names between the Indus and Mesopotamia."
+    ]
+  ]
+}

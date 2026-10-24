@@ -1,0 +1,235 @@
+{
+  "nodes": [
+    {
+      "id": "xf1",
+      "lane": "external",
+      "year": 1000,
+      "label": "Two fat worlds",
+      "full": "The north–south divide of fats (oil and ghee in the south and east, butter and lard in the north) sets up the medieval Church’s fasting rules and the trade in oil to the north.",
+      "src": "Kiple II.E.1; Khosrova",
+      "external": true
+    },
+    {
+      "id": "b1",
+      "lane": "belief",
+      "year": 1000,
+      "label": "Fasting year",
+      "full": "Roughly half the year without meat, butter or eggs for Christians.",
+      "src": "Khosrova pp.54–55"
+    },
+    {
+      "id": "o1",
+      "lane": "order",
+      "year": 1365,
+      "label": "Angers ban",
+      "full": "Council of Angers and the 1365 ban on butter in Lent.",
+      "src": "Khosrova pp.54–55"
+    },
+    {
+      "id": "o2",
+      "lane": "order",
+      "year": 1491,
+      "label": "Brittany’s dispensation",
+      "full": "Anne of Brittany wins butter leave in 1491; spread by 1495.",
+      "src": "Khosrova pp.55–56"
+    },
+    {
+      "id": "b2",
+      "lane": "belief",
+      "year": 1485,
+      "label": "Butter Tower",
+      "full": "Rouen’s tower paid, by tradition, from butter dispensations.",
+      "src": "Khosrova p.56"
+    },
+    {
+      "id": "ec5",
+      "lane": "economy",
+      "year": 1100,
+      "label": "Cattle butter",
+      "full": "Dairying shifts from sheep to cattle in the High Middle Ages.",
+      "src": "Khosrova p.36"
+    },
+    {
+      "id": "x1",
+      "lane": "exchange",
+      "year": 1300,
+      "label": "Oil north, wool south",
+      "full": "Spain’s olive oil exported north.",
+      "src": "Kiple II.E.1 p.378"
+    },
+    {
+      "id": "ec6",
+      "lane": "economy",
+      "year": 1100,
+      "label": "Oil as money",
+      "full": "Three to five litres of oil for a hog.",
+      "src": "Mueller"
+    },
+    {
+      "id": "ec1",
+      "lane": "economy",
+      "year": 1000,
+      "label": "Basque whaling",
+      "full": "Whale blubber as Lenten fat; oil for light and soap.",
+      "src": "Ellis pp.41–45"
+    },
+    {
+      "id": "o3",
+      "lane": "order",
+      "year": 1197,
+      "label": "Taxes on whales",
+      "full": "Biarritz 1197, Bayonne 1261, De Praerogativa Regis 1324.",
+      "src": "Ellis p.45"
+    },
+    {
+      "id": "ec2",
+      "lane": "economy",
+      "year": 1065,
+      "label": "Tunisian oil to Egypt",
+      "full": "Thousands of skins to Alexandria.",
+      "src": "Goitein vol.1 p.215"
+    },
+    {
+      "id": "ec3",
+      "lane": "economy",
+      "year": 1000,
+      "label": "Egyptian linseed",
+      "full": "Linseed and sesame oils of Fatimid Egypt.",
+      "src": "Goitein vol.1 p.120"
+    },
+    {
+      "id": "x2",
+      "lane": "exchange",
+      "year": 1000,
+      "label": "Linseed east",
+      "full": "Linseed oil to Syria and Aden.",
+      "src": "Goitein vol.1 p.120"
+    },
+    {
+      "id": "ec4",
+      "lane": "economy",
+      "year": 1250,
+      "label": "Hangzhou oil",
+      "full": "Oil among the seven necessities.",
+      "src": "Needham 6.5 p.436"
+    },
+    {
+      "id": "th1",
+      "lane": "thought",
+      "year": 1190,
+      "label": "Chi le pien",
+      "full": "A dozen Song oils, sesame the best.",
+      "src": "Needham 6.5 pp.440–441"
+    },
+    {
+      "id": "te1",
+      "lane": "technology",
+      "year": 1313,
+      "label": "Wang Zhen’s press",
+      "full": "The first Chinese description of an oil press.",
+      "src": "Needham 6.5 pp.441–443"
+    },
+    {
+      "id": "te2",
+      "lane": "technology",
+      "year": 1190,
+      "label": "Tallow-tree candles",
+      "full": "Hard oil poured into candles in Guangnan.",
+      "src": "Needham 6.5 p.441"
+    },
+    {
+      "id": "e1",
+      "lane": "expression",
+      "year": 1280,
+      "label": "Liber de coquina",
+      "full": "Arab dishes with bacon fat.",
+      "src": "Nasrallah Introduction"
+    }
+  ],
+  "edges": [
+    [
+      "xf1",
+      "b1",
+      "strong",
+      "Khosrova explains that the Church’s fasting rules fell very differently on south and north because of which fats each had."
+    ],
+    [
+      "b1",
+      "o1",
+      "strong",
+      "The Council of Angers’s ban on butter is a Lenten fasting rule."
+    ],
+    [
+      "b1",
+      "o2",
+      "strong",
+      "Brittany’s petition of 1491 was for exemption from the Lenten ban because it had no oil."
+    ],
+    [
+      "o2",
+      "b2",
+      "loose",
+      "Tradition says the Butter Tower was paid for from butter dispensations, though no accounts survive."
+    ],
+    [
+      "b1",
+      "ec1",
+      "loose",
+      "Whale blubber, ‘Lenten fat’, was eaten on fast days, an outlet for the same fasting rules."
+    ],
+    [
+      "ec1",
+      "o3",
+      "strong",
+      "The whale taxes of 1197, 1261 and 1324 fall on the Basque and English whale fisheries."
+    ],
+    [
+      "x1",
+      "ec6",
+      "loose",
+      "Spanish oil sent north and oil as a currency are two faces of the oil trade of the high Middle Ages in the south."
+    ],
+    [
+      "ec5",
+      "b2",
+      "loose",
+      "The shift to cattle butter made butter common enough to pay for dispensations."
+    ],
+    [
+      "ec2",
+      "x2",
+      "loose",
+      "Tunisian oil imports into Egypt and Egypt’s linseed exports to Syria and Aden are the two directions of the same Mediterranean oil exchange in the Geniza."
+    ],
+    [
+      "ec3",
+      "ec2",
+      "loose",
+      "Egypt’s own linseed and sesame oils filled out the olive oil imported from Tunisia."
+    ],
+    [
+      "ec4",
+      "th1",
+      "strong",
+      "The Chi le pien’s list of oils is Needham’s evidence for the Song oil trade that the seven-necessities passage describes."
+    ],
+    [
+      "th1",
+      "te2",
+      "strong",
+      "The tallow-tree candles are one of the oils the Chi le pien lists."
+    ],
+    [
+      "ec4",
+      "te1",
+      "loose",
+      "Oil pressing establishments of Hangzhou and Wang Zhen’s press describe the same trade, though Needham says no Song text describes the press itself."
+    ],
+    [
+      "e1",
+      "xf1",
+      "loose",
+      "Bacon fat for tail fat in the Latin cookbook shows the northern fat world remaking an Arab dish."
+    ]
+  ]
+}
