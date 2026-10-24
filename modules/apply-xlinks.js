@@ -3123,6 +3123,25 @@ const SELECTED_PAIRS = [
   ['sugar-1800-1900::c3', 'spain-1808-1900::ex3'],                    // Cuba's wars / Spain's colony
   ['sugar-1800-1900::ec3', 'spain-1808-1900::ex3'],                   // Cuban sugar's rise
   ['sugar-1800-1900::ec16', 'spain-1808-1900::ex3'],                  // Cuba's output
+
+  // ── sugar-1900-1970 (hand-reviewed) ──
+  ['sugar-1900-1970::ec3', 'sugar-1800-1900::ec18'],                  // Taiwan / Guangdong divergence
+  ['sugar-1900-1970::ec2', 'sugar-1800-1900::ec18'],                  // Hong Kong refineries / Pearl River Delta
+  ['sugar-1900-1970::ec4', 'sugar-1800-1900::ec16'],                  // Cuba's growth
+  ['sugar-1900-1970::c1', 'sugar-1800-1900::ec4'],                    // German beet before 1914
+  ['sugar-1900-1970::ec7', 'sugar-1800-1900::ec17'],                  // Coca-Cola's origins
+  ['sugar-1900-1970::ec5', 'sugar-1800-1900::ec15'],                  // Sugar Trust
+  ['sugar-1900-1970::ec5', 'sugar-1800-1900::ec9'],                   // Hawaii's sugar
+  ['sugar-1900-1970::ec6', 'sugar-1800-1900::e1'],                    // Quaker chocolate makers
+  ['sugar-1900-1970::l1', 'sugar-1800-1900::l4'],                     // sugar-fed urban poor / teeth
+  ['sugar-1900-1970::ec8', 'sugar-1800-1900::ec12'],                  // British refining
+  ['sugar-1900-1970::ec8', 'sugar-1800-1900::ec13'],                  // British consumption
+  ['sugar-1900-1970::o2', 'sugar-1800-1900::ec18'],                   // Taiwan's modernisation
+  ['sugar-1900-1970::x3', 'sugar-1800-1900::x1'],                     // guest workers after indenture
+  ['sugar-1900-1970::o11', 'modern-near-east-1900-1945::te1'],        // Iran's tea-and-sugar tax
+  ['sugar-1900-1970::ec14', 'turkey-1923-1980::ec2'],                 // Turkey's Etatism
+  ['sugar-1900-1970::ec15', 'egypt-1900-1952::e3'],                   // Egypt's tariff autonomy
+  ['sugar-1900-1970::ec15', 'egypt-1798-1900::g5'],                   // Egypt's sugar mills
 ];
 
 // ── Aggregate into per-entry target sets (bidirectional, deduped) ────────────

@@ -133,6 +133,7 @@ Order covers **all government-driven acts** — laws, decrees, administrative re
 | `Music & Performance` | documented musical instruments, performance records, music theory texts, court musicians, named composers — include even when evidence is indirect (instrument depictions on reliefs, descriptions in literary sources) |
 | `Literature & Poetry` | verse, epic, drama (as artistic works, not scholarship) |
 | `Cookery & Food Writing` | recipe collections, cookbooks, dining and banquet texts — and evidence that a food is *absent* from them (the natural home of a subject folio's food texts) |
+| `Advertising & Popular Culture` | commercial imagery, brand icons, slogans and mass-market products shaping taste — the home of a subject folio’s advertising and packaging evidence |
 
 ---
 
