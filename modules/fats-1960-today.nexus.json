@@ -248,6 +248,22 @@
       "label": "Middle East palm imports",
       "full": "Egypt, Iraq, Turkey and Saudi Arabia import palm oil by the 1980s.",
       "src": "Kiple (Berger)"
+    },
+    {
+      "id": "ec11",
+      "lane": "economy",
+      "year": 1980,
+      "label": "Herders’ milk fat",
+      "full": "Camel, cattle and sheep milk as the staple fat, from Kenya to Kazakhstan.",
+      "src": "Kiple (Stephens)"
+    },
+    {
+      "id": "ec12",
+      "lane": "economy",
+      "year": 1960,
+      "label": "Yak butter",
+      "full": "Tsocha and the butter lamps of Tibet and the Himalaya.",
+      "src": "Kiple (yak chapter)"
     }
   ],
   "edges": [
@@ -436,6 +452,18 @@
       "ec2",
       "strong",
       "Malaysia’s tax concessions and export-tax remission for processed palm oil are what Kiple says drew the Middle East’s ready-to-eat imports."
+    ],
+    [
+      "ec11",
+      "ec12",
+      "loose",
+      "Milk fat is the staple fat of herding peoples from East Africa to Tibet in Kiple’s two chapters."
+    ],
+    [
+      "ec12",
+      "ec9",
+      "loose",
+      "Vanaspati replaces ghee in India’s kitchens; in the Himalaya the staple fat is yak or cow butter."
     ]
   ]
 }
