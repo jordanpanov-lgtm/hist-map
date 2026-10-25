@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 11113,
+    "total_entries": 11114,
     "folio_count": 234,
-    "xlink_pairs": 3271,
-    "keyword_terms": 16870,
+    "xlink_pairs": 3272,
+    "keyword_terms": 16877,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -383,7 +383,7 @@
       {
         "id": "fats-1750-1850",
         "title": "Fats & Oils",
-        "entries": 26
+        "entries": 27
       },
       {
         "id": "fats-1850-1900",
@@ -5029,6 +5029,7 @@
     "fats-1750-1850::ec6": "Soap consumption doubles",
     "fats-1750-1850::ec11": "Walvis Bay: twenty to thirty Yankee whaleships a season by 1795",
     "fats-1750-1850::ec5": "Imported oilseeds challenge olive oil in the soap kettle",
+    "fats-1750-1850::ec14": "Highlands versus lowlands: Cameroon’s Grassfields chiefdoms raid their own palm-oil producers",
     "fats-1750-1850::ec9": "Whaling is Tasmania’s first industry: the Derwent, 1804–1838",
     "fats-1750-1850::ec4": "Liverpool slave traders become palm-oil importers",
     "fats-1750-1850::ec2": "The golden age of American whaling: 735 ships",
@@ -20897,62 +20898,19 @@
       "spain-1700-1808::ex7",
       "sugar-1500-1650::x1"
     ],
-    "fats-1750-1850::o1": [
-      "sugar-1800-1900::o1"
-    ],
-    "sugar-1800-1900::o1": [
-      "fats-1750-1850::o1",
-      "sugar-1650-1800::o4"
-    ],
-    "fats-1750-1850::th1": [
-      "fats-1850-1900::th1"
-    ],
-    "fats-1850-1900::th1": [
-      "fats-1750-1850::th1",
-      "fats-1900-1960::te1"
+    "fats-1850-1900::c1": [
+      "fats-1750-1850::ec2"
     ],
     "fats-1750-1850::ec2": [
       "fats-1850-1900::c1",
       "fats-1850-1900::te1"
     ],
-    "fats-1850-1900::c1": [
-      "fats-1750-1850::ec2"
-    ],
-    "fats-1850-1900::te1": [
-      "fats-1750-1850::ec2"
-    ],
-    "fats-1750-1850::ec3": [
-      "fats-1850-1900::ec5"
-    ],
-    "fats-1850-1900::ec5": [
-      "fats-1750-1850::ec3",
-      "fats-1900-1960::ec8"
-    ],
-    "fats-1750-1850::ec12": [
-      "fats-1850-1900::w2"
-    ],
-    "fats-1850-1900::w2": [
-      "fats-1750-1850::ec12"
-    ],
-    "fats-1750-1850::ec7": [
-      "fats-1850-1900::ec7"
-    ],
-    "fats-1850-1900::ec7": [
-      "fats-1750-1850::ec7",
-      "fats-1900-1960::ec3"
-    ],
-    "fats-1750-1850::te3": [
-      "fats-1900-1960::te1"
-    ],
-    "fats-1900-1960::te1": [
-      "fats-1750-1850::te3",
-      "fats-1850-1900::th1"
-    ],
     "fats-1850-1900::o2": [
       "fats-1900-1960::o1"
     ],
     "fats-1900-1960::o1": [
-      "fats-1850-1900::o2"
+      "fats-1850-1900::o2",
+      "fats-1900-1960::o4"
     ],
     "fats-1850-1900::e3": [
       "fats-600-1000::o2"
@@ -20961,11 +20919,29 @@
       "fats-1850-1900::e3",
       "fats-1960-today::ec8"
     ],
+    "fats-1850-1900::th1": [
+      "fats-1750-1850::th1",
+      "fats-1900-1960::te1"
+    ],
+    "fats-1750-1850::th1": [
+      "fats-1850-1900::th1"
+    ],
+    "fats-1900-1960::te1": [
+      "fats-1850-1900::th1",
+      "fats-1750-1850::te3"
+    ],
     "fats-1850-1900::ec4": [
       "fats-1900-1960::ec17"
     ],
     "fats-1900-1960::ec17": [
       "fats-1850-1900::ec4"
+    ],
+    "fats-1850-1900::ec5": [
+      "fats-1750-1850::ec3",
+      "fats-1900-1960::ec8"
+    ],
+    "fats-1750-1850::ec3": [
+      "fats-1850-1900::ec5"
     ],
     "fats-1900-1960::ec8": [
       "fats-1850-1900::ec5"
@@ -20975,6 +20951,13 @@
     ],
     "fats-1960-today::ec1": [
       "fats-1850-1900::ec2"
+    ],
+    "fats-1850-1900::ec7": [
+      "fats-1750-1850::ec7",
+      "fats-1900-1960::ec3"
+    ],
+    "fats-1750-1850::ec7": [
+      "fats-1850-1900::ec7"
     ],
     "fats-1900-1960::ec3": [
       "fats-1850-1900::ec7"
@@ -20991,24 +20974,108 @@
     "fats-300bc-600ad::th3": [
       "fats-1850-1900::ec12"
     ],
-    "fats-1960-today::o1": [
-      "fats-1900-1960::th1",
-      "sugar-1970-today::t8"
+    "fats-1850-1900::te1": [
+      "fats-1750-1850::ec2"
+    ],
+    "fats-1850-1900::w2": [
+      "fats-1750-1850::ec12"
+    ],
+    "fats-1750-1850::ec12": [
+      "fats-1850-1900::w2"
+    ],
+    "fats-1900-1960::c1": [
+      "sugar-1900-1970::c1"
+    ],
+    "sugar-1900-1970::c1": [
+      "fats-1900-1960::c1",
+      "sugar-1800-1900::ec4"
+    ],
+    "fats-1900-1960::c2": [
+      "sugar-1900-1970::c3",
+      "sugar-1900-1970::o8"
+    ],
+    "sugar-1900-1970::c3": [
+      "fats-1900-1960::c2"
+    ],
+    "sugar-1900-1970::o8": [
+      "fats-1900-1960::c2"
+    ],
+    "fats-1900-1960::o4": [
+      "fats-1900-1960::o1"
     ],
     "fats-1900-1960::th1": [
       "fats-1960-today::o1",
       "sugar-1900-1970::t2",
       "sugar-1900-1970::t3"
     ],
-    "sugar-1970-today::t8": [
-      "fats-1960-today::o1",
+    "fats-1960-today::o1": [
+      "fats-1900-1960::th1",
+      "sugar-1970-today::t8"
+    ],
+    "sugar-1900-1970::t2": [
+      "fats-1900-1960::th1"
+    ],
+    "sugar-1900-1970::t3": [
+      "fats-1900-1960::th1",
+      "sugar-1970-today::t1"
+    ],
+    "fats-1900-1960::th2": [
+      "fats-1960-today::l2"
+    ],
+    "fats-1960-today::l2": [
+      "fats-1900-1960::th2"
+    ],
+    "fats-1900-1960::th3": [
+      "fats-1960-today::th2",
       "sugar-1900-1970::t4"
+    ],
+    "fats-1960-today::th2": [
+      "fats-1900-1960::th3"
+    ],
+    "sugar-1900-1970::t4": [
+      "fats-1900-1960::th3",
+      "sugar-1970-today::t8"
+    ],
+    "fats-1900-1960::ec6": [
+      "fats-1960-today::ec2"
+    ],
+    "fats-1960-today::ec2": [
+      "fats-1900-1960::ec6"
+    ],
+    "fats-1900-1960::ec2": [
+      "fats-1960-today::o6"
     ],
     "fats-1960-today::o6": [
       "fats-1900-1960::ec2"
     ],
-    "fats-1900-1960::ec2": [
-      "fats-1960-today::o6"
+    "fats-1900-1960::ec12": [
+      "fats-1960-today::ec10",
+      "fats-1960-today::ec9"
+    ],
+    "fats-1960-today::ec10": [
+      "fats-1900-1960::ec12"
+    ],
+    "fats-1960-today::ec9": [
+      "fats-1900-1960::ec12"
+    ],
+    "fats-1750-1850::te3": [
+      "fats-1900-1960::te1"
+    ],
+    "fats-1900-1960::te4": [
+      "fats-1960-today::ec7"
+    ],
+    "fats-1960-today::ec7": [
+      "fats-1900-1960::te4"
+    ],
+    "fats-1900-1960::te2": [
+      "fats-1960-today::o2"
+    ],
+    "fats-1960-today::o2": [
+      "fats-1900-1960::te2"
+    ],
+    "sugar-1970-today::t8": [
+      "fats-1960-today::o1",
+      "sugar-1900-1970::t4"
     ],
     "fats-1960-today::o4": [
       "sugar-1970-today::o1"
@@ -21016,34 +21083,15 @@
     "sugar-1970-today::o1": [
       "fats-1960-today::o4"
     ],
-    "fats-1960-today::o2": [
-      "fats-1900-1960::te2"
-    ],
-    "fats-1900-1960::te2": [
-      "fats-1960-today::o2"
-    ],
     "fats-1960-today::o3": [
       "sugar-1970-today::o8"
     ],
     "sugar-1970-today::o8": [
       "fats-1960-today::o3"
     ],
-    "fats-1960-today::th2": [
-      "fats-1900-1960::th3"
-    ],
-    "fats-1900-1960::th3": [
-      "fats-1960-today::th2",
-      "sugar-1900-1970::t4"
-    ],
     "fats-1960-today::ec16": [
       "fats-1000-1500::ec9",
       "fats-8000bc-1200bc::ec30"
-    ],
-    "fats-1960-today::ec7": [
-      "fats-1900-1960::te4"
-    ],
-    "fats-1900-1960::te4": [
-      "fats-1960-today::ec7"
     ],
     "fats-1960-today::ec8": [
       "fats-600-1000::e3",
@@ -21052,39 +21100,17 @@
     "fats-600-1000::e3": [
       "fats-1960-today::ec8"
     ],
-    "fats-1960-today::ec9": [
-      "fats-1900-1960::ec12"
-    ],
-    "fats-1900-1960::ec12": [
-      "fats-1960-today::ec9",
-      "fats-1960-today::ec10"
-    ],
     "fats-1960-today::ec12": [
       "fats-600-1000::b2"
     ],
     "fats-600-1000::b2": [
       "fats-1960-today::ec12"
     ],
-    "fats-1960-today::ec2": [
-      "fats-1900-1960::ec6"
-    ],
-    "fats-1900-1960::ec6": [
-      "fats-1960-today::ec2"
-    ],
-    "fats-1960-today::ec10": [
-      "fats-1900-1960::ec12"
-    ],
     "fats-1960-today::ec11": [
       "fats-8000bc-1200bc::ec10"
     ],
     "fats-8000bc-1200bc::ec10": [
       "fats-1960-today::ec11"
-    ],
-    "fats-1960-today::l2": [
-      "fats-1900-1960::th2"
-    ],
-    "fats-1900-1960::th2": [
-      "fats-1960-today::l2"
     ],
     "fats-300bc-600ad::o3": [
       "rome-200-300::p1",
@@ -26721,6 +26747,10 @@
     "sugar-1650-1800::o4": [
       "sugar-1800-1900::o1"
     ],
+    "sugar-1800-1900::o1": [
+      "sugar-1650-1800::o4",
+      "fats-1750-1850::o1"
+    ],
     "sugar-1650-1800::b3": [
       "sugar-1800-1900::b1"
     ],
@@ -26762,6 +26792,9 @@
       "sugar-1650-1800::l5",
       "sugar-1900-1970::l1"
     ],
+    "fats-1750-1850::o1": [
+      "sugar-1800-1900::o1"
+    ],
     "sugar-1800-1900::e1": [
       "sugar-1900-1970::ec6"
     ],
@@ -26782,10 +26815,6 @@
     ],
     "sugar-1800-1900::ec4": [
       "sugar-1900-1970::c1"
-    ],
-    "sugar-1900-1970::c1": [
-      "sugar-1800-1900::ec4",
-      "fats-1900-1960::c1"
     ],
     "sugar-1800-1900::ec18": [
       "sugar-1900-1970::ec2",
@@ -26825,16 +26854,6 @@
       "sugar-1800-1900::l4",
       "sugar-1970-today::l2"
     ],
-    "fats-1900-1960::c1": [
-      "sugar-1900-1970::c1"
-    ],
-    "sugar-1900-1970::c3": [
-      "fats-1900-1960::c2"
-    ],
-    "fats-1900-1960::c2": [
-      "sugar-1900-1970::c3",
-      "sugar-1900-1970::o8"
-    ],
     "sugar-1900-1970::c4": [
       "sugar-1970-today::ec7"
     ],
@@ -26847,28 +26866,14 @@
     "sugar-1970-today::o3": [
       "sugar-1900-1970::o7"
     ],
-    "sugar-1900-1970::o8": [
-      "fats-1900-1960::c2"
-    ],
     "sugar-1900-1970::e2": [
       "sugar-1970-today::ec3"
     ],
     "sugar-1970-today::ec3": [
       "sugar-1900-1970::e2"
     ],
-    "sugar-1900-1970::t2": [
-      "fats-1900-1960::th1"
-    ],
-    "sugar-1900-1970::t3": [
-      "fats-1900-1960::th1",
-      "sugar-1970-today::t1"
-    ],
     "sugar-1970-today::t1": [
       "sugar-1900-1970::t3"
-    ],
-    "sugar-1900-1970::t4": [
-      "fats-1900-1960::th3",
-      "sugar-1970-today::t8"
     ],
     "sugar-1970-today::ec1": [
       "sugar-1900-1970::ec7"
@@ -49224,6 +49229,17 @@
     "fats-1750-1850::ec5": [
       "Marseille",
       "Imported"
+    ],
+    "fats-1750-1850::ec14": [
+      "Cameroon",
+      "Grassfields",
+      "palm oil",
+      "Rowlands",
+      "Warnier",
+      "Metchum",
+      "iron",
+      "Niger-Congo",
+      "Bamenda"
     ],
     "fats-1750-1850::ec9": [
       "Derwent",
@@ -128288,6 +128304,35 @@
     "Angra Pequena": [
       "fats-1750-1850::ec11"
     ],
+    "Cameroon": [
+      "fats-1750-1850::ec14",
+      "fats-1960-today::l1"
+    ],
+    "Grassfields": [
+      "fats-1750-1850::ec14"
+    ],
+    "palm oil": [
+      "fats-1750-1850::ec14",
+      "fats-600-1000::ec13"
+    ],
+    "Rowlands": [
+      "fats-1750-1850::ec14"
+    ],
+    "Warnier": [
+      "fats-1750-1850::ec14"
+    ],
+    "Metchum": [
+      "fats-1750-1850::ec14"
+    ],
+    "iron": [
+      "fats-1750-1850::ec14"
+    ],
+    "Niger-Congo": [
+      "fats-1750-1850::ec14"
+    ],
+    "Bamenda": [
+      "fats-1750-1850::ec14"
+    ],
     "Derwent": [
       "fats-1750-1850::ec9"
     ],
@@ -129387,9 +129432,6 @@
     "Sustainable Palm Oil": [
       "fats-1960-today::w1"
     ],
-    "Cameroon": [
-      "fats-1960-today::l1"
-    ],
     "Liberia": [
       "fats-1960-today::l1"
     ],
@@ -129682,9 +129724,6 @@
       "fats-600-1000::ec13"
     ],
     "huiscoyol": [
-      "fats-600-1000::ec13"
-    ],
-    "palm oil": [
       "fats-600-1000::ec13"
     ],
     "Copán": [
