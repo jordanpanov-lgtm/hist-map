@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 11114,
+    "total_entries": 11115,
     "folio_count": 234,
     "xlink_pairs": 3272,
-    "keyword_terms": 16877,
+    "keyword_terms": 16884,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -378,7 +378,7 @@
       {
         "id": "fats-1500-1750",
         "title": "Fats & Oils",
-        "entries": 39
+        "entries": 40
       },
       {
         "id": "fats-1750-1850",
@@ -5015,6 +5015,7 @@
     "fats-1500-1750::ec16": "Bengal’s butter, shipped by sea to “numberless places”: John Fryer",
     "fats-1500-1750::ec3": "Soap-boilers of Leith put money into a whaling voyage",
     "fats-1500-1750::ec8": "London’s tallow chandlers cannot make enough candles",
+    "fats-1500-1750::ec22": "Caravans of a thousand: the Agaw feed Gondar on cattle, honey and butter preserved with moqmoqo root",
     "fats-1500-1750::te1": "The Ming wedge press: roast, roll, steam, press twice",
     "fats-1500-1750::x2": "The peanut crosses from America to China, grown for export by 1700",
     "fats-1500-1750::x1": "Olive oil to the Americas, then the olive itself",
@@ -20819,25 +20820,6 @@
     "fats-8000bc-1200bc::te1": [
       "fats-130000bc-8000bc::te1"
     ],
-    "fats-1750-1850::b1": [
-      "fats-1500-1750::b1",
-      "fats-1500-1750::th2"
-    ],
-    "fats-1500-1750::e3": [
-      "fats-1850-1900::e4"
-    ],
-    "fats-1850-1900::e4": [
-      "fats-1500-1750::e3"
-    ],
-    "fats-1500-1750::th2": [
-      "fats-1750-1850::b1"
-    ],
-    "fats-1500-1750::th3": [
-      "sugar-1500-1650::t3"
-    ],
-    "sugar-1500-1650::t3": [
-      "fats-1500-1750::th3"
-    ],
     "fats-1500-1750::ec20": [
       "fats-8000bc-1200bc::ec23"
     ],
@@ -20847,63 +20829,69 @@
     "fats-8000bc-1200bc::te5": [
       "fats-1500-1750::ec19"
     ],
-    "fats-1500-1750::ec2": [
-      "fats-1750-1850::w1"
+    "fats-1750-1850::o1": [
+      "sugar-1800-1900::o1"
     ],
-    "fats-1750-1850::w1": [
-      "fats-1500-1750::ec2"
+    "sugar-1800-1900::o1": [
+      "fats-1750-1850::o1",
+      "sugar-1650-1800::o4"
     ],
-    "fats-1500-1750::ec4": [
-      "sugar-1500-1650::x1"
+    "fats-1750-1850::b1": [
+      "fats-1500-1750::b1",
+      "fats-1500-1750::th2"
     ],
-    "sugar-1500-1650::x1": [
-      "fats-1500-1750::ec4",
-      "sugar-1650-1800::x2"
+    "fats-1500-1750::th2": [
+      "fats-1750-1850::b1"
     ],
-    "fats-1500-1750::ec6": [
-      "fats-1960-today::ec13"
+    "fats-1750-1850::th1": [
+      "fats-1850-1900::th1"
     ],
-    "fats-1960-today::ec13": [
-      "fats-1500-1750::ec6"
-    ],
-    "fats-1500-1750::ec16": [
-      "fats-600-1000::b5"
-    ],
-    "fats-600-1000::b5": [
-      "fats-1500-1750::ec16"
-    ],
-    "fats-1500-1750::te1": [
-      "sugar-1500-1650::te4"
-    ],
-    "sugar-1500-1650::te4": [
-      "fats-1500-1750::te1"
-    ],
-    "fats-1500-1750::x2": [
-      "fats-1850-1900::ec11",
-      "fats-8000bc-1200bc::ec12",
-      "fats-8000bc-1200bc::th5"
-    ],
-    "fats-1850-1900::ec11": [
-      "fats-1500-1750::x2"
-    ],
-    "fats-8000bc-1200bc::ec12": [
-      "fats-1500-1750::x2",
-      "fats-8000bc-1200bc::ec28"
-    ],
-    "fats-1500-1750::l1": [
-      "sugar-1650-1800::x2"
-    ],
-    "sugar-1650-1800::x2": [
-      "fats-1500-1750::l1",
-      "spain-1700-1808::ex7",
-      "sugar-1500-1650::x1"
-    ],
-    "fats-1850-1900::c1": [
-      "fats-1750-1850::ec2"
+    "fats-1850-1900::th1": [
+      "fats-1750-1850::th1",
+      "fats-1900-1960::te1"
     ],
     "fats-1750-1850::ec2": [
       "fats-1850-1900::c1",
       "fats-1850-1900::te1"
+    ],
+    "fats-1850-1900::c1": [
+      "fats-1750-1850::ec2"
+    ],
+    "fats-1850-1900::te1": [
+      "fats-1750-1850::ec2"
+    ],
+    "fats-1750-1850::ec3": [
+      "fats-1850-1900::ec5"
+    ],
+    "fats-1850-1900::ec5": [
+      "fats-1750-1850::ec3",
+      "fats-1900-1960::ec8"
+    ],
+    "fats-1750-1850::ec12": [
+      "fats-1850-1900::w2"
+    ],
+    "fats-1850-1900::w2": [
+      "fats-1750-1850::ec12"
+    ],
+    "fats-1750-1850::ec7": [
+      "fats-1850-1900::ec7"
+    ],
+    "fats-1850-1900::ec7": [
+      "fats-1750-1850::ec7",
+      "fats-1900-1960::ec3"
+    ],
+    "fats-1750-1850::te3": [
+      "fats-1900-1960::te1"
+    ],
+    "fats-1900-1960::te1": [
+      "fats-1750-1850::te3",
+      "fats-1850-1900::th1"
+    ],
+    "fats-1750-1850::w1": [
+      "fats-1500-1750::ec2"
+    ],
+    "fats-1500-1750::ec2": [
+      "fats-1750-1850::w1"
     ],
     "fats-1850-1900::o2": [
       "fats-1900-1960::o1"
@@ -20919,16 +20907,11 @@
       "fats-1850-1900::e3",
       "fats-1960-today::ec8"
     ],
-    "fats-1850-1900::th1": [
-      "fats-1750-1850::th1",
-      "fats-1900-1960::te1"
+    "fats-1850-1900::e4": [
+      "fats-1500-1750::e3"
     ],
-    "fats-1750-1850::th1": [
-      "fats-1850-1900::th1"
-    ],
-    "fats-1900-1960::te1": [
-      "fats-1850-1900::th1",
-      "fats-1750-1850::te3"
+    "fats-1500-1750::e3": [
+      "fats-1850-1900::e4"
     ],
     "fats-1850-1900::ec4": [
       "fats-1900-1960::ec17"
@@ -20936,12 +20919,13 @@
     "fats-1900-1960::ec17": [
       "fats-1850-1900::ec4"
     ],
-    "fats-1850-1900::ec5": [
-      "fats-1750-1850::ec3",
-      "fats-1900-1960::ec8"
+    "fats-1850-1900::ec11": [
+      "fats-1500-1750::x2"
     ],
-    "fats-1750-1850::ec3": [
-      "fats-1850-1900::ec5"
+    "fats-1500-1750::x2": [
+      "fats-1850-1900::ec11",
+      "fats-8000bc-1200bc::th5",
+      "fats-8000bc-1200bc::ec12"
     ],
     "fats-1900-1960::ec8": [
       "fats-1850-1900::ec5"
@@ -20951,13 +20935,6 @@
     ],
     "fats-1960-today::ec1": [
       "fats-1850-1900::ec2"
-    ],
-    "fats-1850-1900::ec7": [
-      "fats-1750-1850::ec7",
-      "fats-1900-1960::ec3"
-    ],
-    "fats-1750-1850::ec7": [
-      "fats-1850-1900::ec7"
     ],
     "fats-1900-1960::ec3": [
       "fats-1850-1900::ec7"
@@ -20973,15 +20950,6 @@
     ],
     "fats-300bc-600ad::th3": [
       "fats-1850-1900::ec12"
-    ],
-    "fats-1850-1900::te1": [
-      "fats-1750-1850::ec2"
-    ],
-    "fats-1850-1900::w2": [
-      "fats-1750-1850::ec12"
-    ],
-    "fats-1750-1850::ec12": [
-      "fats-1850-1900::w2"
     ],
     "fats-1900-1960::c1": [
       "sugar-1900-1970::c1"
@@ -21058,9 +21026,6 @@
     "fats-1960-today::ec9": [
       "fats-1900-1960::ec12"
     ],
-    "fats-1750-1850::te3": [
-      "fats-1900-1960::te1"
-    ],
     "fats-1900-1960::te4": [
       "fats-1960-today::ec7"
     ],
@@ -21111,6 +21076,12 @@
     ],
     "fats-8000bc-1200bc::ec10": [
       "fats-1960-today::ec11"
+    ],
+    "fats-1960-today::ec13": [
+      "fats-1500-1750::ec6"
+    ],
+    "fats-1500-1750::ec6": [
+      "fats-1960-today::ec13"
     ],
     "fats-300bc-600ad::o3": [
       "rome-200-300::p1",
@@ -21175,6 +21146,12 @@
     "fats-300bc-600ad::w1": [
       "fats-600-1000::b1"
     ],
+    "fats-600-1000::b5": [
+      "fats-1500-1750::ec16"
+    ],
+    "fats-1500-1750::ec16": [
+      "fats-600-1000::b5"
+    ],
     "fats-600-1000::ec13": [
       "fats-1500-1750::ec18"
     ],
@@ -21187,6 +21164,10 @@
     ],
     "fats-8000bc-1200bc::ec28": [
       "fats-8000bc-1200bc::ec12"
+    ],
+    "fats-8000bc-1200bc::ec12": [
+      "fats-8000bc-1200bc::ec28",
+      "fats-1500-1750::x2"
     ],
     "fats-8000bc-1200bc::ec30": [
       "fats-1960-today::ec16"
@@ -26549,6 +26530,11 @@
     "spain-1700-1808::ex7": [
       "sugar-1650-1800::x2"
     ],
+    "sugar-1650-1800::x2": [
+      "spain-1700-1808::ex7",
+      "sugar-1500-1650::x1",
+      "fats-1500-1750::l1"
+    ],
     "spain-1808-1900::ex3": [
       "sugar-1800-1900::c3",
       "sugar-1800-1900::ec16",
@@ -26704,6 +26690,12 @@
       "sugar-1500-1650::t4",
       "sugar-1800-1900::ec1"
     ],
+    "sugar-1500-1650::t3": [
+      "fats-1500-1750::th3"
+    ],
+    "fats-1500-1750::th3": [
+      "sugar-1500-1650::t3"
+    ],
     "sugar-1650-1800::w1": [
       "sugar-1500-1650::ec1"
     ],
@@ -26738,6 +26730,19 @@
     "sugar-1800-1900::te2": [
       "sugar-1500-1650::te3"
     ],
+    "sugar-1500-1650::te4": [
+      "fats-1500-1750::te1"
+    ],
+    "fats-1500-1750::te1": [
+      "sugar-1500-1650::te4"
+    ],
+    "sugar-1500-1650::x1": [
+      "fats-1500-1750::ec4",
+      "sugar-1650-1800::x2"
+    ],
+    "fats-1500-1750::ec4": [
+      "sugar-1500-1650::x1"
+    ],
     "sugar-1500-1650::l2": [
       "sugar-1650-1800::l1"
     ],
@@ -26746,10 +26751,6 @@
     ],
     "sugar-1650-1800::o4": [
       "sugar-1800-1900::o1"
-    ],
-    "sugar-1800-1900::o1": [
-      "sugar-1650-1800::o4",
-      "fats-1750-1850::o1"
     ],
     "sugar-1650-1800::b3": [
       "sugar-1800-1900::b1"
@@ -26782,6 +26783,9 @@
       "sugar-1650-1800::ec7",
       "sugar-1900-1970::ec8"
     ],
+    "fats-1500-1750::l1": [
+      "sugar-1650-1800::x2"
+    ],
     "sugar-1800-1900::ec2": [
       "sugar-1650-1800::x6"
     ],
@@ -26791,9 +26795,6 @@
     "sugar-1800-1900::l4": [
       "sugar-1650-1800::l5",
       "sugar-1900-1970::l1"
-    ],
-    "fats-1750-1850::o1": [
-      "sugar-1800-1900::o1"
     ],
     "sugar-1800-1900::e1": [
       "sugar-1900-1970::ec6"
@@ -49160,6 +49161,17 @@
     "fats-1500-1750::ec8": [
       "London",
       "John Houghton"
+    ],
+    "fats-1500-1750::ec22": [
+      "Bruce",
+      "Agaw",
+      "Agaos",
+      "Gondar",
+      "butter",
+      "moqmoqo",
+      "Lake Tana",
+      "Ethiopia",
+      "tribute"
     ],
     "fats-1500-1750::te1": [
       "Ming China",
@@ -125676,6 +125688,7 @@
       "egypt-641-969::b7",
       "fats-1000-1500::ec16",
       "fats-1500-1750::b2",
+      "fats-1500-1750::ec22",
       "fats-1960-today::ec13",
       "fats-300bc-600ad::ec10",
       "south-arabia-1200bc-300bc::x2",
@@ -127788,7 +127801,8 @@
       "fats-1500-1750::b1"
     ],
     "butter": [
-      "fats-1500-1750::b2"
+      "fats-1500-1750::b2",
+      "fats-1500-1750::ec22"
     ],
     "Alvares": [
       "fats-1500-1750::b2"
@@ -128162,6 +128176,27 @@
     ],
     "John Houghton": [
       "fats-1500-1750::ec8"
+    ],
+    "Bruce": [
+      "fats-1500-1750::ec22"
+    ],
+    "Agaw": [
+      "fats-1500-1750::ec22"
+    ],
+    "Agaos": [
+      "fats-1500-1750::ec22"
+    ],
+    "Gondar": [
+      "fats-1500-1750::ec22"
+    ],
+    "moqmoqo": [
+      "fats-1500-1750::ec22"
+    ],
+    "Lake Tana": [
+      "fats-1500-1750::ec22"
+    ],
+    "tribute": [
+      "fats-1500-1750::ec22"
     ],
     "Wang Zhen": [
       "fats-1500-1750::te1"
