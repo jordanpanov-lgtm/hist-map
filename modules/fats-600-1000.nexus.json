@@ -216,6 +216,14 @@
       "label": "Sesame in Iran",
       "full": "Abu Mansur names sesame as a crop of Iran, late tenth century.",
       "src": "Mortazavian (Bedigian)"
+    },
+    {
+      "id": "ec12",
+      "lane": "economy",
+      "year": 600,
+      "label": "Birnirk hunters",
+      "full": "Seals and lamps on the Bering Strait; a disputed, maybe limited whale hunt.",
+      "src": "Wikipedia (Gibbon & Ames; Raghavan et al.)"
     }
   ],
   "edges": [
@@ -368,6 +376,12 @@
       "e2",
       "loose",
       "Iran’s sesame crop and Baghdad’s sesame-oil bread are the same region’s sesame in the same century."
+    ],
+    [
+      "ec12",
+      "ec5",
+      "loose",
+      "Birnirk’s Bering Strait hunters and Ohthere’s White Sea whaling are two marine-fat economies of the same centuries, at opposite ends of the Arctic."
     ]
   ]
 }

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 11095,
+    "total_entries": 11096,
     "folio_count": 234,
-    "xlink_pairs": 3260,
-    "keyword_terms": 16747,
+    "xlink_pairs": 3264,
+    "keyword_terms": 16754,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -408,7 +408,7 @@
       {
         "id": "fats-600-1000",
         "title": "Fats & Oils",
-        "entries": 26
+        "entries": 27
       },
       {
         "id": "fats-8000bc-1200bc",
@@ -5188,6 +5188,7 @@
     "fats-600-1000::ec3": "The Tamil chekku: sesame oil pressed and exported",
     "fats-600-1000::ec7": "Shea butter at Kirikongo: a 1,400-year record from Burkina Faso",
     "fats-600-1000::ec10": "Pannage: pigs fed on the autumn mast of the forest",
+    "fats-600-1000::ec12": "Birnirk hunters on the Bering Strait: seals, lamps and a disputed whale hunt",
     "fats-600-1000::ec8": "Dairy fats reach their peak in China under the part-Turkic Tang",
     "fats-600-1000::ec9": "Tang kaymak and ti-hu: the dairy fats of the banquet",
     "fats-600-1000::ec6": "Japan’s court makes so, a milk-skin dairy product, and takes it as tribute",
@@ -16207,8 +16208,8 @@
     ],
     "sugar-600-1000::e2": [
       "caliphate-750-945::e3",
-      "fats-600-1000::e1",
-      "sugar-1000-1500::e5"
+      "sugar-1000-1500::e5",
+      "fats-600-1000::e1"
     ],
     "iraq-632-945::t1": [
       "caliphate-750-945::t1",
@@ -20050,9 +20051,9 @@
     ],
     "sugar-300bc-600ad::x1": [
       "egypt-30bc-300ad::xc1",
+      "fats-300bc-600ad::x3",
       "nabataean-312bc-106ce::t3",
-      "south-arabia-300bc-628::t1",
-      "fats-300bc-600ad::x3"
+      "south-arabia-300bc-628::t1"
     ],
     "egypt-30bc-300ad::xc2": [
       "mesopotamia-141bc-224::e3",
@@ -20522,6 +20523,105 @@
       "levant-750-1099::b1",
       "levant-750-1099::b2"
     ],
+    "fats-1000-1500::o2": [
+      "fats-1500-1750::b1"
+    ],
+    "fats-1500-1750::b1": [
+      "fats-1000-1500::o2",
+      "fats-1000-1500::b1",
+      "fats-1750-1850::b1"
+    ],
+    "fats-1000-1500::b1": [
+      "fats-1500-1750::b1",
+      "fats-600-1000::b1"
+    ],
+    "fats-600-1000::b1": [
+      "fats-1000-1500::b1",
+      "fats-300bc-600ad::w1"
+    ],
+    "fats-1000-1500::e2": [
+      "fats-600-1000::e1"
+    ],
+    "fats-600-1000::e1": [
+      "fats-1000-1500::e2",
+      "fats-1200bc-300bc::th3",
+      "sugar-600-1000::e2"
+    ],
+    "fats-1000-1500::ec12": [
+      "fats-300bc-600ad::ec7"
+    ],
+    "fats-300bc-600ad::ec7": [
+      "fats-1000-1500::ec12",
+      "fats-1200bc-300bc::ec13"
+    ],
+    "fats-1000-1500::ec1": [
+      "fats-1500-1750::ec1",
+      "fats-1500-1750::ec17",
+      "fats-600-1000::ec5"
+    ],
+    "fats-1500-1750::ec1": [
+      "fats-1000-1500::ec1"
+    ],
+    "fats-1500-1750::ec17": [
+      "fats-1000-1500::ec1"
+    ],
+    "fats-600-1000::ec5": [
+      "fats-1000-1500::ec1"
+    ],
+    "fats-1000-1500::ec9": [
+      "fats-1200bc-300bc::te6",
+      "fats-1850-1900::l1",
+      "fats-600-1000::ec12"
+    ],
+    "fats-1200bc-300bc::te6": [
+      "fats-1000-1500::ec9",
+      "fats-600-1000::ec12"
+    ],
+    "fats-1850-1900::l1": [
+      "fats-1000-1500::ec9"
+    ],
+    "fats-1000-1500::ec2": [
+      "sugar-1000-1500::l1"
+    ],
+    "fats-1000-1500::ec4": [
+      "sugar-1000-1500::e4"
+    ],
+    "sugar-1000-1500::e4": [
+      "fats-1000-1500::ec4"
+    ],
+    "fats-1000-1500::ec13": [
+      "fats-600-1000::ec11"
+    ],
+    "fats-600-1000::ec11": [
+      "fats-1000-1500::ec13"
+    ],
+    "fats-1000-1500::ec8": [
+      "fats-300bc-600ad::te4",
+      "fats-600-1000::ec9"
+    ],
+    "fats-300bc-600ad::te4": [
+      "fats-1000-1500::ec8",
+      "fats-600-1000::b3",
+      "fats-600-1000::ec9"
+    ],
+    "fats-600-1000::ec9": [
+      "fats-1000-1500::ec8",
+      "fats-300bc-600ad::te4"
+    ],
+    "fats-1000-1500::ec7": [
+      "fats-1200bc-300bc::ec11"
+    ],
+    "fats-1200bc-300bc::ec11": [
+      "fats-1000-1500::ec7",
+      "fats-8000bc-1200bc::ec11"
+    ],
+    "fats-1000-1500::te1": [
+      "fats-600-1000::te1"
+    ],
+    "fats-600-1000::te1": [
+      "fats-1000-1500::te1",
+      "fats-300bc-600ad::th4"
+    ],
     "fats-1200bc-300bc::b6": [
       "fats-8000bc-1200bc::ec21"
     ],
@@ -20571,11 +20671,6 @@
     "fats-1200bc-300bc::th3": [
       "fats-600-1000::e1"
     ],
-    "fats-600-1000::e1": [
-      "fats-1200bc-300bc::th3",
-      "fats-1000-1500::e2",
-      "sugar-600-1000::e2"
-    ],
     "fats-1200bc-300bc::th2": [
       "fats-300bc-600ad::te2",
       "fats-8000bc-1200bc::ec22"
@@ -20587,18 +20682,8 @@
       "fats-300bc-600ad::ec7",
       "fats-8000bc-1200bc::ec18"
     ],
-    "fats-300bc-600ad::ec7": [
-      "fats-1200bc-300bc::ec13"
-    ],
     "fats-8000bc-1200bc::ec18": [
       "fats-1200bc-300bc::ec13"
-    ],
-    "fats-1200bc-300bc::ec11": [
-      "fats-1000-1500::ec7",
-      "fats-8000bc-1200bc::ec11"
-    ],
-    "fats-1000-1500::ec7": [
-      "fats-1200bc-300bc::ec11"
     ],
     "fats-8000bc-1200bc::ec11": [
       "fats-1200bc-300bc::ec11"
@@ -20659,13 +20744,6 @@
     "fats-300bc-600ad::o1": [
       "fats-1200bc-300bc::ec12"
     ],
-    "fats-1200bc-300bc::te6": [
-      "fats-1000-1500::ec9"
-    ],
-    "fats-1000-1500::ec9": [
-      "fats-1200bc-300bc::te6",
-      "fats-1850-1900::l1"
-    ],
     "fats-1200bc-300bc::te5": [
       "fats-1500-1750::ec15"
     ],
@@ -20715,18 +20793,6 @@
     "fats-8000bc-1200bc::te1": [
       "fats-130000bc-8000bc::te1"
     ],
-    "fats-1500-1750::b1": [
-      "fats-1000-1500::b1",
-      "fats-1000-1500::o2",
-      "fats-1750-1850::b1"
-    ],
-    "fats-1000-1500::b1": [
-      "fats-1500-1750::b1",
-      "fats-600-1000::b1"
-    ],
-    "fats-1000-1500::o2": [
-      "fats-1500-1750::b1"
-    ],
     "fats-1750-1850::b1": [
       "fats-1500-1750::b1",
       "fats-1500-1750::th2"
@@ -20745,17 +20811,6 @@
     ],
     "sugar-1500-1650::t3": [
       "fats-1500-1750::th3"
-    ],
-    "fats-1500-1750::ec1": [
-      "fats-1000-1500::ec1"
-    ],
-    "fats-1000-1500::ec1": [
-      "fats-1500-1750::ec1",
-      "fats-1500-1750::ec17",
-      "fats-600-1000::ec5"
-    ],
-    "fats-1500-1750::ec17": [
-      "fats-1000-1500::ec1"
     ],
     "fats-1500-1750::ec2": [
       "fats-1750-1850::w1"
@@ -20902,9 +20957,6 @@
     "fats-300bc-600ad::th3": [
       "fats-1850-1900::ec12"
     ],
-    "fats-1850-1900::l1": [
-      "fats-1000-1500::ec9"
-    ],
     "fats-1900-1960::c1": [
       "sugar-1900-1970::c1"
     ],
@@ -21027,48 +21079,32 @@
     "fats-8000bc-1200bc::ec10": [
       "fats-1960-today::ec11"
     ],
-    "fats-300bc-600ad::ec9": [
-      "fats-8000bc-1200bc::ec13"
+    "fats-300bc-600ad::o3": [
+      "rome-200-300::p1",
+      "rome-200-300::p5"
     ],
-    "fats-8000bc-1200bc::ec13": [
-      "fats-300bc-600ad::ec9"
+    "rome-200-300::p1": [
+      "fats-300bc-600ad::o3"
     ],
-    "fats-600-1000::b1": [
-      "fats-1000-1500::b1",
-      "fats-300bc-600ad::w1"
+    "rome-200-300::p5": [
+      "fats-300bc-600ad::o3"
     ],
-    "fats-300bc-600ad::w1": [
-      "fats-600-1000::b1"
+    "sugar-1200bc-300bc::b3": [
+      "fats-300bc-600ad::b1",
+      "sugar-300bc-600ad::b1"
     ],
-    "fats-300bc-600ad::te4": [
-      "fats-600-1000::b3",
-      "fats-600-1000::ec9"
+    "sugar-300bc-600ad::b1": [
+      "fats-300bc-600ad::b1",
+      "sugar-1200bc-300bc::b3"
     ],
-    "fats-1000-1500::e2": [
-      "fats-600-1000::e1"
+    "fats-300bc-600ad::e1": [
+      "rome-400-500::tx6"
     ],
-    "fats-600-1000::ec11": [
-      "fats-1000-1500::ec13"
+    "rome-400-500::tx6": [
+      "fats-300bc-600ad::e1"
     ],
-    "fats-1000-1500::ec13": [
-      "fats-600-1000::ec11"
-    ],
-    "fats-600-1000::ec9": [
-      "fats-1000-1500::ec8",
-      "fats-300bc-600ad::te4"
-    ],
-    "fats-1000-1500::ec8": [
-      "fats-600-1000::ec9"
-    ],
-    "fats-600-1000::ec5": [
-      "fats-1000-1500::ec1"
-    ],
-    "fats-600-1000::te1": [
-      "fats-1000-1500::te1",
-      "fats-300bc-600ad::th4"
-    ],
-    "fats-1000-1500::te1": [
-      "fats-600-1000::te1"
+    "fats-300bc-600ad::th1": [
+      "sugar-300bc-600ad::th11"
     ],
     "fats-300bc-600ad::th4": [
       "fats-600-1000::te1",
@@ -21079,6 +21115,32 @@
     ],
     "fats-8000bc-1200bc::ec20": [
       "fats-300bc-600ad::ec8"
+    ],
+    "fats-300bc-600ad::ec9": [
+      "fats-8000bc-1200bc::ec13"
+    ],
+    "fats-8000bc-1200bc::ec13": [
+      "fats-300bc-600ad::ec9"
+    ],
+    "fats-300bc-600ad::ec1": [
+      "hispania-300bc-27bc::s2"
+    ],
+    "hispania-300bc-27bc::s2": [
+      "fats-300bc-600ad::ec1"
+    ],
+    "fats-300bc-600ad::x3": [
+      "nabataean-312bc-106ce::ex1",
+      "sugar-300bc-600ad::x1"
+    ],
+    "nabataean-312bc-106ce::ex1": [
+      "fats-300bc-600ad::x3"
+    ],
+    "fats-300bc-600ad::w1": [
+      "fats-600-1000::b1"
+    ],
+    "fats-600-1000::ec12": [
+      "fats-1200bc-300bc::te6",
+      "fats-1000-1500::ec9"
     ],
     "fats-8000bc-1200bc::ec9": [
       "late-bronze-age-system-1550bc-1200bc::ec3"
@@ -21992,12 +22054,6 @@
     "nabataean-312bc-106ce::c3": [
       "hispania-27bc-409ad::k2",
       "nw-arabia-106-632::k1"
-    ],
-    "hispania-300bc-27bc::s2": [
-      "fats-300bc-600ad::ec1"
-    ],
-    "fats-300bc-600ad::ec1": [
-      "hispania-300bc-27bc::s2"
     ],
     "hittite-1650bc-1180bc::p1": [
       "kanesh-2000bc-1650bc::p6"
@@ -25294,13 +25350,6 @@
     "nabataean-312bc-106ce::t3": [
       "sugar-300bc-600ad::x1"
     ],
-    "nabataean-312bc-106ce::ex1": [
-      "fats-300bc-600ad::x3"
-    ],
-    "fats-300bc-600ad::x3": [
-      "nabataean-312bc-106ce::ex1",
-      "sugar-300bc-600ad::x1"
-    ],
     "najd-1517-1744::k1": [
       "najd-632-1517::o3"
     ],
@@ -26280,16 +26329,6 @@
     "sassanid-484-651::lv1": [
       "roman-sasanian-world-224-632::l1"
     ],
-    "rome-200-300::p1": [
-      "fats-300bc-600ad::o3"
-    ],
-    "fats-300bc-600ad::o3": [
-      "rome-200-300::p1",
-      "rome-200-300::p5"
-    ],
-    "rome-200-300::p5": [
-      "fats-300bc-600ad::o3"
-    ],
     "rome-200-300::t5": [
       "sassanid-224-484::k2"
     ],
@@ -26304,12 +26343,6 @@
     ],
     "rome-300-400::w1": [
       "sassanid-224-484::k8"
-    ],
-    "rome-400-500::tx6": [
-      "fats-300bc-600ad::e1"
-    ],
-    "fats-300bc-600ad::e1": [
-      "rome-400-500::tx6"
     ],
     "sassanid-224-484::te1": [
       "sugar-300bc-600ad::l2"
@@ -26489,12 +26522,6 @@
     "sugar-1500-1650::e1": [
       "sugar-1000-1500::e2"
     ],
-    "sugar-1000-1500::e4": [
-      "fats-1000-1500::ec4"
-    ],
-    "fats-1000-1500::ec4": [
-      "sugar-1000-1500::e4"
-    ],
     "sugar-1000-1500::e5": [
       "sugar-600-1000::e2"
     ],
@@ -26562,22 +26589,11 @@
     "sugar-1000-1500::x10": [
       "sugar-1500-1650::ec4"
     ],
-    "fats-1000-1500::ec2": [
-      "sugar-1000-1500::l1"
-    ],
     "sugar-1000-1500::l7": [
       "sugar-1500-1650::ec2"
     ],
     "sugar-1500-1650::ec2": [
       "sugar-1000-1500::l7"
-    ],
-    "sugar-1200bc-300bc::b3": [
-      "fats-300bc-600ad::b1",
-      "sugar-300bc-600ad::b1"
-    ],
-    "sugar-300bc-600ad::b1": [
-      "sugar-1200bc-300bc::b3",
-      "fats-300bc-600ad::b1"
     ],
     "sugar-1200bc-300bc::b4": [
       "sugar-300bc-600ad::b3"
@@ -26857,9 +26873,6 @@
     ],
     "sugar-300bc-600ad::th3": [
       "sugar-600-1000::th4"
-    ],
-    "fats-300bc-600ad::th1": [
-      "sugar-300bc-600ad::th11"
     ],
     "sugar-300bc-600ad::th15": [
       "sugar-600-1000::c1",
@@ -50028,6 +50041,17 @@
       "Pannage",
       "Middle Ages",
       "Saint Michael"
+    ],
+    "fats-600-1000::ec12": [
+      "Birnirk",
+      "Bering Strait",
+      "Chukchi Peninsula",
+      "Alaska North Slope",
+      "Utqiagvik",
+      "seals",
+      "whaling",
+      "Old Bering Sea",
+      "Thule"
     ],
     "fats-600-1000::ec8": [
       "Tang China",
@@ -126745,7 +126769,8 @@
       "fats-1750-1850::w1"
     ],
     "Thule": [
-      "fats-1000-1500::ec9"
+      "fats-1000-1500::ec9",
+      "fats-600-1000::ec12"
     ],
     "North American Arctic": [
       "fats-1000-1500::ec9"
@@ -127981,7 +128006,8 @@
     "Bering Strait": [
       "fats-1850-1900::c1",
       "fats-1850-1900::ec4",
-      "fats-1850-1900::l1"
+      "fats-1850-1900::l1",
+      "fats-600-1000::ec12"
     ],
     "Civil War": [
       "fats-1850-1900::c1",
@@ -129164,6 +129190,27 @@
     ],
     "Saint Michael": [
       "fats-600-1000::ec10"
+    ],
+    "Birnirk": [
+      "fats-600-1000::ec12"
+    ],
+    "Chukchi Peninsula": [
+      "fats-600-1000::ec12"
+    ],
+    "Alaska North Slope": [
+      "fats-600-1000::ec12"
+    ],
+    "Utqiagvik": [
+      "fats-600-1000::ec12"
+    ],
+    "seals": [
+      "fats-600-1000::ec12"
+    ],
+    "whaling": [
+      "fats-600-1000::ec12"
+    ],
+    "Old Bering Sea": [
+      "fats-600-1000::ec12"
     ],
     "Dairy": [
       "fats-600-1000::ec8",
