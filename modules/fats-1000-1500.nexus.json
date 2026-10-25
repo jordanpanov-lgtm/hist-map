@@ -232,6 +232,14 @@
       "label": "Cerro la Virgen’s camelid meat",
       "full": "A Chimú fishing town whose middens say most of its meat was camelid, not fish.",
       "src": "Prieto & Sandweiss (eds.); Pozorski"
+    },
+    {
+      "id": "ec16",
+      "lane": "expression",
+      "year": 1333,
+      "label": "Ibn Battuta’s Abyssinian ghee-drinker",
+      "full": "An Abyssinian governor in India drinks a pound and a half of ghee after a meal, reportedly a custom from home.",
+      "src": "Ibn Battuta, via Pankhurst"
     }
   ],
   "edges": [
@@ -384,6 +392,12 @@
       "ec9",
       "loose",
       "Cerro la Virgen’s camelid-meat economy and the Arctic’s whale-and-lamp economy are two unconnected fat worlds of the same centuries."
+    ],
+    [
+      "ec16",
+      "ec9",
+      "loose",
+      "Ibn Battuta’s secondhand report of an Abyssinian ghee custom and the Thule whale-oil economy are two very differently evidenced fat stories of the same centuries."
     ]
   ]
 }
