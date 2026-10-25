@@ -8,7 +8,7 @@ Titles are ones I am confident exist. Where I am not sure a book covers the poin
 
 | Item | What happened | What to do |
 |---|---|---|
-| Moseley, *The Maritime Foundations of Andean Civilization* (1975) | The file in the folder is `.djvu`; I have no DjVu tool, so it is unread. It would fill the Andean marine-fat gap in `fats-130000bc-8000bc` and `fats-8000bc-1200bc`. | **GET** a PDF or EPUB copy, or convert the `.djvu` (Calibre's `ebook-convert`, or `ddjvu -format=pdf`). If neither is easy, **LIVE WITHOUT**: Peru already has avocado and peanut entries. |
+| Moseley, *The Maritime Foundations of Andean Civilization* (1975) | DONE 2026-10-25. User converted the `.djvu` to PDF; read with PyMuPDF and added as `fats-8000bc-1200bc::ec28` (Peru's preceramic coast lives on marine protein, sea lion itself rare). The book's own scope is c.3000–1000 BC, so it doesn't reach the Moche-era (300 BC–1000 AD) gap that prompted the search — that gap is still open; see Goepfert below. | Done. |
 | Cunnane & Crawford, "Survival of the fattest: fat babies were the key to the evolution of the large human brain" (*Comparative Biochemistry and Physiology A*, 2003) | The file you added is a different paper (`Survival of the Fittest or the Fattest? Exit and Financing in the Trucking Industry`, Zingales). It is not usable. | **GET** the right paper if you want a human-evolution entry on why fat matters. **ALT**: Speth and Lee & DeVore, already held, carry the "fat was needed" argument. |
 | Watson, *Agricultural Innovation in the Early Islamic World* (1983) | Not found in any format. | **ALT**: Decker (2009) and Squatriti (2014), both held, discuss Watson's thesis but say little about fats. **LIVE WITHOUT** unless a copy turns up; the 600–1000 overview already says Andalusian and Maghrebi oil are missing. |
 | Shurtleff & Aoyagi, *History of Soybeans and Soyfoods in South Asia* | The PDF gave me only 21 KB of text; it is probably an image scan. It is an annotated bibliography, so low value. | **ALT**: the same authors' volumes on China, Japan, Korea and Southeast Asia are free PDFs at the SoyInfo Center website. **GET** the China one if you want soy oil before 1900. |
@@ -27,8 +27,10 @@ Titles are ones I am confident exist. Where I am not sure a book covers the poin
 - **LIVE WITHOUT** a Swahili-coast fat entry unless a source turns up; I know of none.
 
 ### Americas, before 1500 and colonial
-- **GET** Sophie Coe, *America's First Cuisines* (University of Texas Press, 1994): Aztec, Maya and Inca food, including how little fat they had and what they used. It would fill the Mexico and Andes holes in `fats-1000-1500` and `fats-1500-1750`.
+- **GET** Sophie Coe, *America's First Cuisines* (University of Texas Press, 1994): Aztec, Maya and Inca food, including how little fat they had and what they used. It would fill the Mexico and Andes holes in `fats-1000-1500` and `fats-1500-1750`, and likely the Maya/Moche-era gap below too.
 - **ALT** Kiple's introduction (held) already gives the "few herds, tree fats" argument; it is now `fats-8000bc-1200bc::th6`.
+- **GET (Maya, Classic period, 300 BC–1000 AD)**: Christine White's isotope/dietary papers on the Maya (with Fred Longstaffe), or the Florida Museum's Maya lipid-residue project (floridamuseum.ufl.edu/envarch/research/maya) — only their project page was read, not their actual papers; a name that surfaced was Lisa Duffy.
+- **GET (Andes, Moche era, 300 BC–1000 AD)**: Nicolas Goepfert's own papers, especially the 2014 *Antiquity* piece on the Sechura Desert marine-processing site — only abstracts were found, not the papers. Daniel Sandweiss on Peruvian coastal archaeology is another name worth checking, not yet verified against anything read. Moseley himself (now read) stops around 1000 BC, so he doesn't reach this later window.
 
 ### Far East
 - **GET** Susan Hanley, *Everyday Things in Premodern Japan* (1997) for lamp oil and cooking oil in Edo Japan; and Kalland & Moeran, *Japanese Whaling: End of an Era?* (1992) for Japanese whaling after Taiji.

@@ -328,6 +328,14 @@
       "label": "Brassica and mustard seed",
       "full": "Crushed seed cakes at Jerf el Ahmar and wild crucifers collected for oil in Swiss lake villages.",
       "src": "Zohary (crucifers)"
+    },
+    {
+      "id": "ec28",
+      "lane": "economy",
+      "year": -3000,
+      "label": "Peru’s preceramic coast",
+      "full": "The sea is the main protein source; sea lion is rare, mollusks and fish are not.",
+      "src": "Moseley"
     }
   ],
   "edges": [
@@ -564,6 +572,12 @@
       "ec25",
       "loose",
       "The Swiss lake villages hold both the wild crucifers and Camelina that Zohary reads as oil seeds."
+    ],
+    [
+      "ec28",
+      "ec12",
+      "loose",
+      "Peru’s maritime protein economy and its peanuts are two strands of the same preceramic coast and highland world."
     ]
   ]
 }

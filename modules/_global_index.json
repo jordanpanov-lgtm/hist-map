@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 11096,
+    "total_entries": 11097,
     "folio_count": 234,
-    "xlink_pairs": 3264,
-    "keyword_terms": 16754,
+    "xlink_pairs": 3265,
+    "keyword_terms": 16761,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -413,7 +413,7 @@
       {
         "id": "fats-8000bc-1200bc",
         "title": "Fats & Oils",
-        "entries": 43
+        "entries": 44
       },
       {
         "id": "france-1494-1610",
@@ -5221,6 +5221,7 @@
     "fats-8000bc-1200bc::ec11": "Oil-palm nuts at West and Central African sites from about 3000 BC",
     "fats-8000bc-1200bc::ec19": "Egypt’s “butter” is butter fat: ox fat, goose fat, and cheese in a First Dynasty jar",
     "fats-8000bc-1200bc::ec25": "Gold of pleasure: Camelina, the weed of flax that became northern Europe’s oil crop",
+    "fats-8000bc-1200bc::ec28": "Peru’s preceramic coast lives on the sea, but sea lion is rare",
     "fats-8000bc-1200bc::ec14": "The soybean is domesticated in north-east China: 2700 BC or 1000 BC?",
     "fats-8000bc-1200bc::ec4": "Sesame is a crop of the Harappan Indus",
     "fats-8000bc-1200bc::ec5": "Mustard and linseed at the Harappan sites; animal fats by boiling",
@@ -16208,8 +16209,8 @@
     ],
     "sugar-600-1000::e2": [
       "caliphate-750-945::e3",
-      "sugar-1000-1500::e5",
-      "fats-600-1000::e1"
+      "fats-600-1000::e1",
+      "sugar-1000-1500::e5"
     ],
     "iraq-632-945::t1": [
       "caliphate-750-945::t1",
@@ -20852,7 +20853,8 @@
       "fats-1500-1750::x2"
     ],
     "fats-8000bc-1200bc::ec12": [
-      "fats-1500-1750::x2"
+      "fats-1500-1750::x2",
+      "fats-8000bc-1200bc::ec28"
     ],
     "fats-1500-1750::l1": [
       "sugar-1650-1800::x2"
@@ -21142,8 +21144,8 @@
       "fats-1200bc-300bc::te6",
       "fats-1000-1500::ec9"
     ],
-    "fats-8000bc-1200bc::ec9": [
-      "late-bronze-age-system-1550bc-1200bc::ec3"
+    "fats-8000bc-1200bc::ec28": [
+      "fats-8000bc-1200bc::ec12"
     ],
     "france-1610-1715::o3": [
       "sugar-1650-1800::o2"
@@ -23949,6 +23951,9 @@
       "lakhmid-268-602::lv2",
       "oman-gulf-1650-1820::lv5",
       "sassanid-484-651::lv2"
+    ],
+    "fats-8000bc-1200bc::ec9": [
+      "late-bronze-age-system-1550bc-1200bc::ec3"
     ],
     "late-roman-anatolia-330-632::p1": [
       "rome-300-400::p7"
@@ -50235,6 +50240,16 @@
       "Germany",
       "Italy",
       "Gold"
+    ],
+    "fats-8000bc-1200bc::ec28": [
+      "Peru",
+      "Ancón",
+      "Chillón",
+      "Preceramic",
+      "sea lion",
+      "Moseley",
+      "maritime",
+      "Andean"
     ],
     "fats-8000bc-1200bc::ec14": [
       "North-east China",
@@ -127315,6 +127330,7 @@
     "Peru": [
       "fats-130000bc-8000bc::ec10",
       "fats-1500-1750::x1",
+      "fats-8000bc-1200bc::ec28",
       "fats-8000bc-1200bc::ec12",
       "spain-1516-1700::o6",
       "spain-1516-1700::lv6",
@@ -129410,6 +129426,27 @@
     ],
     "Gold": [
       "fats-8000bc-1200bc::ec25"
+    ],
+    "Ancón": [
+      "fats-8000bc-1200bc::ec28"
+    ],
+    "Chillón": [
+      "fats-8000bc-1200bc::ec28"
+    ],
+    "Preceramic": [
+      "fats-8000bc-1200bc::ec28"
+    ],
+    "sea lion": [
+      "fats-8000bc-1200bc::ec28"
+    ],
+    "Moseley": [
+      "fats-8000bc-1200bc::ec28"
+    ],
+    "maritime": [
+      "fats-8000bc-1200bc::ec28"
+    ],
+    "Andean": [
+      "fats-8000bc-1200bc::ec28"
     ],
     "North-east China": [
       "fats-8000bc-1200bc::ec14"
