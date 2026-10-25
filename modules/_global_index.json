@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 11099,
+    "total_entries": 11102,
     "folio_count": 234,
-    "xlink_pairs": 3266,
-    "keyword_terms": 16775,
+    "xlink_pairs": 3268,
+    "keyword_terms": 16796,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -378,7 +378,7 @@
       {
         "id": "fats-1500-1750",
         "title": "Fats & Oils",
-        "entries": 35
+        "entries": 36
       },
       {
         "id": "fats-1750-1850",
@@ -398,7 +398,7 @@
       {
         "id": "fats-1960-today",
         "title": "Fats & Oils",
-        "entries": 39
+        "entries": 40
       },
       {
         "id": "fats-300bc-600ad",
@@ -413,7 +413,7 @@
       {
         "id": "fats-8000bc-1200bc",
         "title": "Fats & Oils",
-        "entries": 45
+        "entries": 46
       },
       {
         "id": "france-1494-1610",
@@ -4996,6 +4996,7 @@
     "fats-1500-1750::ec7": "Butter becomes a status symbol in Italy",
     "fats-1500-1750::ec13": "Southeast Asia lights its evenings with oil lamps: kemiri-nut oil and damar",
     "fats-1500-1750::ec15": "The king of Vijayanagara drinks sesame oil at dawn and sweats it out",
+    "fats-1500-1750::ec19": "‘It was not lard but cacao fat’: a colonist’s surprise in Central America",
     "fats-1500-1750::ec1": "Red Bay, Labrador: the Basques’ whale-oil station",
     "fats-1500-1750::ec5": "The Dutch ‘butterboxes’ of the Golden Age",
     "fats-1500-1750::ec10": "Palm oil in Guinea: seasoning, lamps and ointment (John Barbot)",
@@ -5117,6 +5118,7 @@
     "fats-1960-today::e2": "Newspaper advertisements against “tropical oils”",
     "fats-1960-today::th1": "Mensink and Katan, then Willett: trans fats named as a danger",
     "fats-1960-today::th2": "The Women’s Health Initiative finds no benefit from a low-fat diet",
+    "fats-1960-today::ec16": "Eulachon grease: the Nuxalk Nation’s fermenting and cooking-box tradition on the Bella Coola River",
     "fats-1960-today::ec1": "Soybean oil becomes the world’s most-used oil — and America’s hydrogenated one",
     "fats-1960-today::ec6": "Whale oil ends: the last whaling for profit",
     "fats-1960-today::ec7": "FELDA and Tenera: Malaysia replants rubber with oil palm",
@@ -5235,6 +5237,7 @@
     "fats-8000bc-1200bc::ec12": "Peanuts grown in Peru by 2000 BC",
     "fats-8000bc-1200bc::ec8": "Crete grows rich on exported oil",
     "fats-8000bc-1200bc::te1": "Rendering: the oldest way to extract fat",
+    "fats-8000bc-1200bc::te5": "No press, no quern: the New World can only boil its oil seeds, and rarely eats what it gets",
     "fats-8000bc-1200bc::te4": "Blubber lamps of the Late Mesolithic north",
     "fats-8000bc-1200bc::te3": "Soap from fat and ash: an early Mesopotamian claim",
     "fats-8000bc-1200bc::te2": "Cyprus and Crete press olives at scale",
@@ -20526,11 +20529,111 @@
       "levant-750-1099::b1",
       "levant-750-1099::b2"
     ],
+    "fats-1000-1500::o2": [
+      "fats-1500-1750::b1"
+    ],
+    "fats-1500-1750::b1": [
+      "fats-1000-1500::o2",
+      "fats-1000-1500::b1",
+      "fats-1750-1850::b1"
+    ],
+    "fats-1000-1500::b1": [
+      "fats-1500-1750::b1",
+      "fats-600-1000::b1"
+    ],
+    "fats-600-1000::b1": [
+      "fats-1000-1500::b1",
+      "fats-300bc-600ad::w1"
+    ],
+    "fats-1000-1500::e2": [
+      "fats-600-1000::e1"
+    ],
+    "fats-600-1000::e1": [
+      "fats-1000-1500::e2",
+      "fats-1200bc-300bc::th3",
+      "sugar-600-1000::e2"
+    ],
+    "fats-1000-1500::ec12": [
+      "fats-300bc-600ad::ec7"
+    ],
+    "fats-300bc-600ad::ec7": [
+      "fats-1000-1500::ec12",
+      "fats-1200bc-300bc::ec13"
+    ],
+    "fats-1000-1500::ec1": [
+      "fats-1500-1750::ec1",
+      "fats-1500-1750::ec17",
+      "fats-600-1000::ec5"
+    ],
+    "fats-1500-1750::ec1": [
+      "fats-1000-1500::ec1"
+    ],
+    "fats-1500-1750::ec17": [
+      "fats-1000-1500::ec1"
+    ],
+    "fats-600-1000::ec5": [
+      "fats-1000-1500::ec1"
+    ],
+    "fats-1000-1500::ec9": [
+      "fats-1200bc-300bc::te6",
+      "fats-1850-1900::l1",
+      "fats-1960-today::ec16",
+      "fats-600-1000::ec12"
+    ],
+    "fats-1200bc-300bc::te6": [
+      "fats-1000-1500::ec9",
+      "fats-600-1000::ec12"
+    ],
+    "fats-1850-1900::l1": [
+      "fats-1000-1500::ec9"
+    ],
     "fats-1000-1500::ec15": [
       "fats-8000bc-1200bc::ec29"
     ],
     "fats-8000bc-1200bc::ec29": [
       "fats-1000-1500::ec15"
+    ],
+    "fats-1000-1500::ec2": [
+      "sugar-1000-1500::l1"
+    ],
+    "fats-1000-1500::ec4": [
+      "sugar-1000-1500::e4"
+    ],
+    "sugar-1000-1500::e4": [
+      "fats-1000-1500::ec4"
+    ],
+    "fats-1000-1500::ec13": [
+      "fats-600-1000::ec11"
+    ],
+    "fats-600-1000::ec11": [
+      "fats-1000-1500::ec13"
+    ],
+    "fats-1000-1500::ec8": [
+      "fats-300bc-600ad::te4",
+      "fats-600-1000::ec9"
+    ],
+    "fats-300bc-600ad::te4": [
+      "fats-1000-1500::ec8",
+      "fats-600-1000::b3",
+      "fats-600-1000::ec9"
+    ],
+    "fats-600-1000::ec9": [
+      "fats-1000-1500::ec8",
+      "fats-300bc-600ad::te4"
+    ],
+    "fats-1000-1500::ec7": [
+      "fats-1200bc-300bc::ec11"
+    ],
+    "fats-1200bc-300bc::ec11": [
+      "fats-1000-1500::ec7",
+      "fats-8000bc-1200bc::ec11"
+    ],
+    "fats-1000-1500::te1": [
+      "fats-600-1000::te1"
+    ],
+    "fats-600-1000::te1": [
+      "fats-1000-1500::te1",
+      "fats-300bc-600ad::th4"
     ],
     "fats-1200bc-300bc::b6": [
       "fats-8000bc-1200bc::ec21"
@@ -20581,11 +20684,6 @@
     "fats-1200bc-300bc::th3": [
       "fats-600-1000::e1"
     ],
-    "fats-600-1000::e1": [
-      "fats-1200bc-300bc::th3",
-      "fats-1000-1500::e2",
-      "sugar-600-1000::e2"
-    ],
     "fats-1200bc-300bc::th2": [
       "fats-300bc-600ad::te2",
       "fats-8000bc-1200bc::ec22"
@@ -20597,19 +20695,8 @@
       "fats-300bc-600ad::ec7",
       "fats-8000bc-1200bc::ec18"
     ],
-    "fats-300bc-600ad::ec7": [
-      "fats-1200bc-300bc::ec13",
-      "fats-1000-1500::ec12"
-    ],
     "fats-8000bc-1200bc::ec18": [
       "fats-1200bc-300bc::ec13"
-    ],
-    "fats-1200bc-300bc::ec11": [
-      "fats-1000-1500::ec7",
-      "fats-8000bc-1200bc::ec11"
-    ],
-    "fats-1000-1500::ec7": [
-      "fats-1200bc-300bc::ec11"
     ],
     "fats-8000bc-1200bc::ec11": [
       "fats-1200bc-300bc::ec11"
@@ -20670,15 +20757,6 @@
     "fats-300bc-600ad::o1": [
       "fats-1200bc-300bc::ec12"
     ],
-    "fats-1200bc-300bc::te6": [
-      "fats-1000-1500::ec9",
-      "fats-600-1000::ec12"
-    ],
-    "fats-1000-1500::ec9": [
-      "fats-1200bc-300bc::te6",
-      "fats-1850-1900::l1",
-      "fats-600-1000::ec12"
-    ],
     "fats-1200bc-300bc::te5": [
       "fats-1500-1750::ec15"
     ],
@@ -20728,18 +20806,6 @@
     "fats-8000bc-1200bc::te1": [
       "fats-130000bc-8000bc::te1"
     ],
-    "fats-1500-1750::b1": [
-      "fats-1000-1500::b1",
-      "fats-1000-1500::o2",
-      "fats-1750-1850::b1"
-    ],
-    "fats-1000-1500::b1": [
-      "fats-1500-1750::b1",
-      "fats-600-1000::b1"
-    ],
-    "fats-1000-1500::o2": [
-      "fats-1500-1750::b1"
-    ],
     "fats-1750-1850::b1": [
       "fats-1500-1750::b1",
       "fats-1500-1750::th2"
@@ -20759,16 +20825,11 @@
     "sugar-1500-1650::t3": [
       "fats-1500-1750::th3"
     ],
-    "fats-1500-1750::ec1": [
-      "fats-1000-1500::ec1"
+    "fats-1500-1750::ec19": [
+      "fats-8000bc-1200bc::te5"
     ],
-    "fats-1000-1500::ec1": [
-      "fats-1500-1750::ec1",
-      "fats-1500-1750::ec17",
-      "fats-600-1000::ec5"
-    ],
-    "fats-1500-1750::ec17": [
-      "fats-1000-1500::ec1"
+    "fats-8000bc-1200bc::te5": [
+      "fats-1500-1750::ec19"
     ],
     "fats-1500-1750::ec2": [
       "fats-1750-1850::w1"
@@ -20916,9 +20977,6 @@
     "fats-300bc-600ad::th3": [
       "fats-1850-1900::ec12"
     ],
-    "fats-1850-1900::l1": [
-      "fats-1000-1500::ec9"
-    ],
     "fats-1900-1960::c1": [
       "sugar-1900-1970::c1"
     ],
@@ -21006,40 +21064,8 @@
     "fats-1960-today::o2": [
       "fats-1900-1960::te2"
     ],
-    "sugar-1970-today::t8": [
-      "fats-1960-today::o1",
-      "sugar-1900-1970::t4"
-    ],
-    "fats-1960-today::o4": [
-      "sugar-1970-today::o1"
-    ],
-    "sugar-1970-today::o1": [
-      "fats-1960-today::o4"
-    ],
-    "fats-1960-today::o3": [
-      "sugar-1970-today::o8"
-    ],
-    "sugar-1970-today::o8": [
-      "fats-1960-today::o3"
-    ],
-    "fats-1960-today::ec8": [
-      "fats-600-1000::e3",
-      "fats-600-1000::o2"
-    ],
-    "fats-600-1000::e3": [
-      "fats-1960-today::ec8"
-    ],
-    "fats-1960-today::ec12": [
-      "fats-600-1000::b2"
-    ],
-    "fats-600-1000::b2": [
-      "fats-1960-today::ec12"
-    ],
-    "fats-1960-today::ec11": [
-      "fats-8000bc-1200bc::ec10"
-    ],
-    "fats-8000bc-1200bc::ec10": [
-      "fats-1960-today::ec11"
+    "fats-1960-today::ec16": [
+      "fats-1000-1500::ec9"
     ],
     "fats-300bc-600ad::o3": [
       "rome-200-300::p1",
@@ -21072,15 +21098,8 @@
       "fats-600-1000::te1",
       "fats-8000bc-1200bc::ec24"
     ],
-    "fats-600-1000::te1": [
-      "fats-300bc-600ad::th4",
-      "fats-1000-1500::te1"
-    ],
     "fats-8000bc-1200bc::ec24": [
       "fats-300bc-600ad::th4"
-    ],
-    "fats-1000-1500::ec12": [
-      "fats-300bc-600ad::ec7"
     ],
     "fats-8000bc-1200bc::ec20": [
       "fats-300bc-600ad::ec8"
@@ -21097,19 +21116,6 @@
     "hispania-300bc-27bc::s2": [
       "fats-300bc-600ad::ec1"
     ],
-    "fats-300bc-600ad::te4": [
-      "fats-1000-1500::ec8",
-      "fats-600-1000::b3",
-      "fats-600-1000::ec9"
-    ],
-    "fats-1000-1500::ec8": [
-      "fats-300bc-600ad::te4",
-      "fats-600-1000::ec9"
-    ],
-    "fats-600-1000::ec9": [
-      "fats-300bc-600ad::te4",
-      "fats-1000-1500::ec8"
-    ],
     "fats-300bc-600ad::x3": [
       "nabataean-312bc-106ce::ex1",
       "sugar-300bc-600ad::x1"
@@ -21120,28 +21126,28 @@
     "fats-300bc-600ad::w1": [
       "fats-600-1000::b1"
     ],
-    "fats-600-1000::b1": [
-      "fats-300bc-600ad::w1",
-      "fats-1000-1500::b1"
+    "fats-1960-today::ec8": [
+      "fats-600-1000::o2",
+      "fats-600-1000::e3"
     ],
-    "fats-1000-1500::e2": [
-      "fats-600-1000::e1"
+    "fats-600-1000::b2": [
+      "fats-1960-today::ec12"
     ],
-    "fats-600-1000::ec11": [
-      "fats-1000-1500::ec13"
+    "fats-1960-today::ec12": [
+      "fats-600-1000::b2"
     ],
-    "fats-1000-1500::ec13": [
-      "fats-600-1000::ec11"
+    "fats-600-1000::e3": [
+      "fats-1960-today::ec8"
     ],
     "fats-600-1000::ec12": [
       "fats-1200bc-300bc::te6",
       "fats-1000-1500::ec9"
     ],
-    "fats-600-1000::ec5": [
-      "fats-1000-1500::ec1"
+    "fats-8000bc-1200bc::ec10": [
+      "fats-1960-today::ec11"
     ],
-    "fats-1000-1500::te1": [
-      "fats-600-1000::te1"
+    "fats-1960-today::ec11": [
+      "fats-8000bc-1200bc::ec10"
     ],
     "fats-8000bc-1200bc::ec28": [
       "fats-8000bc-1200bc::ec12"
@@ -26526,12 +26532,6 @@
     "sugar-1500-1650::e1": [
       "sugar-1000-1500::e2"
     ],
-    "sugar-1000-1500::e4": [
-      "fats-1000-1500::ec4"
-    ],
-    "fats-1000-1500::ec4": [
-      "sugar-1000-1500::e4"
-    ],
     "sugar-1000-1500::e5": [
       "sugar-600-1000::e2"
     ],
@@ -26598,9 +26598,6 @@
     ],
     "sugar-1000-1500::x10": [
       "sugar-1500-1650::ec4"
-    ],
-    "fats-1000-1500::ec2": [
-      "sugar-1000-1500::l1"
     ],
     "sugar-1000-1500::l7": [
       "sugar-1500-1650::ec2"
@@ -26832,6 +26829,10 @@
     "sugar-1970-today::t1": [
       "sugar-1900-1970::t3"
     ],
+    "sugar-1970-today::t8": [
+      "sugar-1900-1970::t4",
+      "fats-1960-today::o1"
+    ],
     "sugar-1970-today::ec1": [
       "sugar-1900-1970::ec7"
     ],
@@ -26876,6 +26877,18 @@
     ],
     "sugar-1970-today::l2": [
       "sugar-1900-1970::l1"
+    ],
+    "sugar-1970-today::o1": [
+      "fats-1960-today::o4"
+    ],
+    "fats-1960-today::o4": [
+      "sugar-1970-today::o1"
+    ],
+    "sugar-1970-today::o8": [
+      "fats-1960-today::o3"
+    ],
+    "fats-1960-today::o3": [
+      "sugar-1970-today::o8"
     ],
     "sugar-300bc-600ad::b5": [
       "sugar-600-1000::b1",
@@ -48981,6 +48994,15 @@
       "Deccan",
       "Domingo Paes"
     ],
+    "fats-1500-1750::ec19": [
+      "cacao",
+      "cacao fat",
+      "Oviedo",
+      "Nicaragua",
+      "Central America",
+      "lard",
+      "Coe"
+    ],
     "fats-1500-1750::ec1": [
       "Red Bay",
       "Labrador",
@@ -49677,6 +49699,16 @@
       "United States",
       "Women Health Initiative"
     ],
+    "fats-1960-today::ec16": [
+      "Nuxalk",
+      "eulachon",
+      "candlefish",
+      "Bella Coola",
+      "grease trail",
+      "stink box",
+      "Thaleichthys pacificus",
+      "Pacific Northwest"
+    ],
     "fats-1960-today::ec1": [
       "United States",
       "Brazil",
@@ -50343,6 +50375,18 @@
     "fats-8000bc-1200bc::te1": [
       "Near East",
       "Rendering"
+    ],
+    "fats-8000bc-1200bc::te5": [
+      "Coe",
+      "chia",
+      "Aztec",
+      "grinding",
+      "quern",
+      "rendering",
+      "skin salve",
+      "illumination",
+      "Mexico",
+      "Mesoamerica"
     ],
     "fats-8000bc-1200bc::te4": [
       "Denmark",
@@ -127401,6 +127445,7 @@
     "Mexico": [
       "fats-130000bc-8000bc::ec10",
       "fats-1500-1750::x1",
+      "fats-8000bc-1200bc::te5",
       "spain-1516-1700::lv3",
       "sugar-1500-1650::t1",
       "sugar-1970-today::x2"
@@ -127673,6 +127718,32 @@
     ],
     "Domingo Paes": [
       "fats-1500-1750::ec15"
+    ],
+    "cacao": [
+      "fats-1500-1750::ec19"
+    ],
+    "cacao fat": [
+      "fats-1500-1750::ec19"
+    ],
+    "Oviedo": [
+      "fats-1500-1750::ec19",
+      "spain-1900-1975::c7",
+      "spain-718-1230::k2",
+      "spain-718-1230::a1",
+      "visigoths-589-711::ex2"
+    ],
+    "Nicaragua": [
+      "fats-1500-1750::ec19"
+    ],
+    "Central America": [
+      "fats-1500-1750::ec19"
+    ],
+    "lard": [
+      "fats-1500-1750::ec19"
+    ],
+    "Coe": [
+      "fats-1500-1750::ec19",
+      "fats-8000bc-1200bc::te5"
     ],
     "Red Bay": [
       "fats-1500-1750::ec1"
@@ -128846,6 +128917,31 @@
     "Women Health Initiative": [
       "fats-1960-today::th2"
     ],
+    "Nuxalk": [
+      "fats-1960-today::ec16"
+    ],
+    "eulachon": [
+      "fats-1960-today::ec16"
+    ],
+    "candlefish": [
+      "fats-1960-today::ec16"
+    ],
+    "Bella Coola": [
+      "fats-1960-today::ec16"
+    ],
+    "grease trail": [
+      "fats-1960-today::ec16"
+    ],
+    "stink box": [
+      "fats-1960-today::ec16"
+    ],
+    "Thaleichthys pacificus": [
+      "fats-1960-today::ec16"
+    ],
+    "Pacific Northwest": [
+      "fats-1960-today::ec16",
+      "spain-1700-1808::w5"
+    ],
     "Soybean": [
       "fats-1960-today::ec1"
     ],
@@ -129585,6 +129681,30 @@
     ],
     "Rendering": [
       "fats-8000bc-1200bc::te1"
+    ],
+    "chia": [
+      "fats-8000bc-1200bc::te5"
+    ],
+    "Aztec": [
+      "fats-8000bc-1200bc::te5"
+    ],
+    "grinding": [
+      "fats-8000bc-1200bc::te5"
+    ],
+    "quern": [
+      "fats-8000bc-1200bc::te5"
+    ],
+    "rendering": [
+      "fats-8000bc-1200bc::te5"
+    ],
+    "skin salve": [
+      "fats-8000bc-1200bc::te5"
+    ],
+    "illumination": [
+      "fats-8000bc-1200bc::te5"
+    ],
+    "Mesoamerica": [
+      "fats-8000bc-1200bc::te5"
     ],
     "Blubber": [
       "fats-8000bc-1200bc::te4"
@@ -157517,9 +157637,6 @@
     "Nootka Convention": [
       "spain-1700-1808::w5"
     ],
-    "Pacific Northwest": [
-      "spain-1700-1808::w5"
-    ],
     "Coartacion": [
       "spain-1700-1808::lv7"
     ],
@@ -158062,12 +158179,6 @@
     "Disaster of Annual": [
       "spain-1900-1975::c9",
       "spain-1900-1975::w3"
-    ],
-    "Oviedo": [
-      "spain-1900-1975::c7",
-      "spain-718-1230::k2",
-      "spain-718-1230::a1",
-      "visigoths-589-711::ex2"
     ],
     "Melilla": [
       "spain-1900-1975::c1",
