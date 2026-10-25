@@ -192,6 +192,20 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .ov-theme{border-left:3px solid #c9bd9f;padding:6px 0 6px 14px;margin:0 0 16px}
 .ov-theme h4{font-size:16px;font-weight:normal;margin:0 0 3px;color:#1a1a1a}
 .ov-theme p{font-size:14px;margin:0 0 6px;color:#333}
+.ov-thesis{font-size:18px;line-height:1.5;margin:0 0 6px;color:#1a1a1a}
+.ov-ideas{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ov-idea{border:1px solid #e0d8cc;background:#fcfaf4;border-radius:4px;padding:11px 14px 9px;position:relative}
+.ov-idea:first-child:nth-last-child(odd){grid-column:1 / -1}
+.ov-idea .ov-no{font-family:'Courier New',monospace;font-size:11px;color:#a89a70;display:block;margin-bottom:2px}
+.ov-idea h4{font-size:16px;font-weight:normal;margin:0 0 4px;color:#1a1a1a}
+.ov-idea p{font-size:14px;margin:0 0 6px;color:#333}
+.ov-thread{border-left:4px solid var(--tc,#c9bd9f);padding:4px 0 4px 16px;margin:0 0 26px}
+.ov-thread h4{font-size:17px;font-weight:normal;margin:0 0 2px;color:#1a1a1a}
+.ov-thread .ov-claim{font-size:14px;font-style:italic;color:#555;margin:0 0 8px}
+.ov-beat{display:grid;grid-template-columns:104px 1fr;gap:12px;padding:4px 0;border-bottom:1px dotted #e6dfce;font-size:14px}
+.ov-beat .ov-date{font-family:'Courier New',monospace;font-size:11px;color:#8a7a5a;padding-top:3px}
+.ov-tdot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;background:var(--tc,#c9bd9f)}
+.ov-key{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:#555;margin:0 0 10px}
 .ov-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
 .ov-chip{display:inline-block;font-size:11px;font-family:'IM Fell English',serif;font-style:italic;padding:2px 8px;border:1px solid #d6cdb8;border-radius:11px;background:#faf7ef;color:#5a4a2a;cursor:pointer;line-height:1.35;vertical-align:baseline}
 .ov-chip:hover{background:#f0e9d6;border-color:#a89a70}
@@ -219,7 +233,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .ov-nav small{display:block;font-size:10px;font-family:'Courier New',monospace;letter-spacing:.1em;color:#999;text-transform:uppercase}
 .ov-nav .ov-next{text-align:right}
 .ov-foot{margin-top:26px;font-size:10px;color:#bbb;font-family:'Courier New',monospace;line-height:1.8}
-@media(max-width:640px){#ov-area{padding:16px 14px 50px}.ov-question{font-size:21px}.ov-turn{grid-template-columns:1fr;gap:2px}.ov-reg-grid{grid-template-columns:1fr}}
+@media(max-width:640px){#ov-area{padding:16px 14px 50px}.ov-question{font-size:21px}.ov-turn,.ov-beat{grid-template-columns:1fr;gap:2px}.ov-ideas{grid-template-columns:1fr}.ov-reg-grid{grid-template-columns:1fr}}
 
 /* ── NEXUS (causal web) ── */
 #nexus-view{display:none}
@@ -601,8 +615,30 @@ function buildOverview() {
   const paras = x => (Array.isArray(x) ? x : (x ? [x] : [])).map(p => `<p>${_ovText(p)}</p>`).join('');
   let h = `<div class="ov-kicker">Overview · ${_ovEsc(MOD.title)} ${_ovEsc(MOD.period.start < 0 ? Math.abs(MOD.period.start) + ' BC' : MOD.period.start)}–${_ovEsc(MOD.period.end < 0 ? Math.abs(MOD.period.end) + ' BC' : (MOD.period.end >= 2025 ? 'today' : MOD.period.end))}</div>`;
   h += `<h2 class="ov-question">${_ovText(o.question || MOD.subtitle)}</h2>`;
-  h += `<div class="ov-summary">${paras(o.summary)}</div>`;
-  if ((o.themes || []).length) {
+  const THREADCOL = ['#2E6F8E', '#B7770D', '#A0200A', '#1E8449', '#7B4FA6', '#148080', '#8a6d3b'];
+  const tcol = {};
+  (o.threads || []).forEach((t, i) => { tcol[t.key] = THREADCOL[i % THREADCOL.length]; });
+  if (o.thesis) { // structured overview: thesis, big ideas, threads with their own chronology
+    h += `<div class="ov-summary"><p class="ov-thesis">${_ovText(o.thesis)}</p></div>`;
+    if ((o.big_ideas || []).length) {
+      h += `<div class="ov-h">The big ideas</div><div class="ov-ideas">`;
+      o.big_ideas.forEach((b, i) => {
+        h += `<div class="ov-idea"><span class="ov-no">${i + 1}</span><h4>${_ovText(b.title)}</h4>${paras(b.text)}`;
+        if ((b.entries || []).length) h += `<div class="ov-chips">${b.entries.map(id => _ovChip(id)).join('')}</div>`;
+        h += `</div>`;
+      });
+      h += `</div>`;
+    }
+    if ((o.threads || []).length) {
+      h += `<div class="ov-h">The threads, each in date order</div>`;
+      o.threads.forEach(t => {
+        h += `<div class="ov-thread" style="--tc:${tcol[t.key]}"><h4>${_ovText(t.title)}</h4><div class="ov-claim">${_ovText(t.claim)}</div>`;
+        (t.beats || []).forEach(b => { h += `<div class="ov-beat"><div class="ov-date">${_ovEsc(b.date)}</div><div>${_ovText(b.text)}${b.entry ? ' ' + _ovChip(b.entry) : ''}</div></div>`; });
+        h += `</div>`;
+      });
+    }
+  } else h += `<div class="ov-summary">${paras(o.summary)}</div>`;
+  if (!o.thesis && (o.themes || []).length) {
     h += `<div class="ov-h">The main threads</div>`;
     o.themes.forEach(t => {
       h += `<div class="ov-theme"><h4>${_ovText(t.title)}</h4>${paras(t.text)}`;
@@ -623,8 +659,9 @@ function buildOverview() {
     h += `</div>`;
   }
   if ((o.turning_points || []).length) {
-    h += `<div class="ov-h">Turning points</div>`;
-    o.turning_points.forEach(t => { h += `<div class="ov-turn"><div class="ov-date">${_ovEsc(t.date)}</div><div>${_ovText(t.text)}${t.entry ? ' ' + _ovChip(t.entry) : ''}</div></div>`; });
+    h += `<div class="ov-h">${o.thesis ? 'The timeline' : 'Turning points'}</div>`;
+    if (o.thesis) h += `<div class="ov-key">${o.threads.map(t => `<span><span class="ov-tdot" style="--tc:${tcol[t.key]}"></span>${_ovText(t.title)}</span>`).join('')}</div>`;
+    o.turning_points.forEach(t => { h += `<div class="ov-turn"><div class="ov-date">${_ovEsc(t.date)}</div><div>${t.thread && tcol[t.thread] ? `<span class="ov-tdot" style="--tc:${tcol[t.thread]}"></span>` : ''}${_ovText(t.text)}${t.entry ? ' ' + _ovChip(t.entry) : ''}</div></div>`; });
   }
   if (o.how_to_read) h += `<div class="ov-h">How to read this folio</div><div class="ov-read">${paras(o.how_to_read)}</div>`;
   const src = o.sources;

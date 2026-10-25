@@ -180,7 +180,9 @@ for (const file of overviewFiles) {
   for (const cat of (folio.data.categories || [])) for (const e of (cat.entries || [])) ids.add(e.id);
   if (typeof ov.question !== 'string' || !ov.question.trim()) err(file, 'missing "question" (one sentence: what is this folio for?)');
   const textOf = x => (Array.isArray(x) ? x : (x == null ? [] : [x]));
-  if (!Array.isArray(ov.summary) || !ov.summary.length) err(file, '"summary" must be a non-empty array of paragraphs');
+  // v2 (structured) overviews carry "thesis" + "big_ideas" + "threads" instead of "summary" + "themes".
+  const v2 = ov.thesis !== undefined;
+  if (!v2 && (!Array.isArray(ov.summary) || !ov.summary.length)) err(file, '"summary" must be a non-empty array of paragraphs');
   const checkRefs = (where, text) => {
     for (const t of textOf(text)) {
       if (typeof t !== 'string') { err(file, `${where}: text must be a string`); continue; }
@@ -193,7 +195,29 @@ for (const file of overviewFiles) {
     for (const id of textOf(list)) if (!ids.has(id)) err(file, `${where}: entry "${id}" is not an entry of "${folioId}"`);
   };
   checkRefs('summary', ov.summary);
-  if (!Array.isArray(ov.themes) || ov.themes.length < 2) warn(file, 'fewer than 2 "themes" — an overview should name the main threads');
+  const threadKeys = new Set();
+  if (v2) {
+    if (typeof ov.thesis !== 'string' || !ov.thesis.trim()) err(file, '"thesis" must be a non-empty string (the shift, in two sentences)');
+    checkRefs('thesis', ov.thesis);
+    if (!Array.isArray(ov.big_ideas) || ov.big_ideas.length < 3 || ov.big_ideas.length > 6) err(file, '"big_ideas" must hold 3–6 items');
+    for (const [i, b] of (ov.big_ideas || []).entries()) {
+      if (!b.title || b.text === undefined) err(file, `big_ideas[${i}]: needs "title" and "text"`);
+      checkRefs(`big_ideas[${i}].text`, b.text);
+      checkIds(`big_ideas[${i}].entries`, b.entries);
+    }
+    if (!Array.isArray(ov.threads) || ov.threads.length < 3 || ov.threads.length > 7) err(file, '"threads" must hold 3–7 items');
+    for (const [i, t] of (ov.threads || []).entries()) {
+      if (!t.key || !t.title || !t.claim) err(file, `threads[${i}]: needs "key", "title" and "claim"`);
+      if (t.key) { if (threadKeys.has(t.key)) err(file, `threads[${i}]: duplicate key "${t.key}"`); threadKeys.add(t.key); }
+      checkRefs(`threads[${i}].claim`, t.claim);
+      if (!Array.isArray(t.beats) || t.beats.length < 3) err(file, `threads[${i}] (${t.key}): needs at least 3 "beats", in date order`);
+      for (const [j, b] of (t.beats || []).entries()) {
+        if (!b.date || !b.text) err(file, `threads[${i}].beats[${j}]: needs "date" and "text"`);
+        checkRefs(`threads[${i}].beats[${j}].text`, b.text);
+        if (b.entry) checkIds(`threads[${i}].beats[${j}].entry`, b.entry);
+      }
+    }
+  } else if (!Array.isArray(ov.themes) || ov.themes.length < 2) warn(file, 'fewer than 2 "themes" — an overview should name the main threads');
   for (const [i, t] of (ov.themes || []).entries()) {
     if (!t.title || t.text === undefined) err(file, `themes[${i}]: needs "title" and "text"`);
     checkRefs(`themes[${i}].text`, t.text);
@@ -203,7 +227,9 @@ for (const file of overviewFiles) {
     if (!t.date || !t.text) err(file, `turning_points[${i}]: needs "date" and "text"`);
     checkRefs(`turning_points[${i}].text`, t.text);
     if (t.entry) checkIds(`turning_points[${i}].entry`, t.entry);
+    if (v2 && t.thread && !threadKeys.has(t.thread)) err(file, `turning_points[${i}]: thread "${t.thread}" is not a thread key`);
   }
+  if (v2 && (ov.turning_points || []).length < 8) warn(file, 'fewer than 8 turning_points — the timeline should span the whole period');
   // Optional "regions": the picture by atlas region. Each entry may sit in one region only; entries left out are reported.
   if (ov.regions !== undefined) {
     const REGIONS = new Set(['Europe', 'Near East', 'Far East', 'Africa', 'Americas', 'Oceania', 'Worldwide']);

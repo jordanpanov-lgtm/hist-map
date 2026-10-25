@@ -1,149 +1,298 @@
 {
   "question": "When light goes to oil wells and butter goes to the factory, who makes the new fats — and who fights them?",
-  "summary": [
-    "Two old fat markets are broken in this half-century. Kerosene, refined in the late 1840s and made cheap by Drake's well of 1859, ends whale-oil lighting; the Civil War cripples the American whaling fleet; and Arctic whalers turn to baleen until the ice disaster of 1871 ([[te1]], [[c1]], [[ec4]]). At the same time Mège-Mouriès, working on Napoleon III's commission, makes a butter substitute from beef suet; Dutch butter houses buy the patent in 1871 ([[th1]], [[te2]], [[ec1]]). The bowhead fishery’s bonanza has a cost: in 1878–79 whole villages on St Lawrence Island starve, which traders and whalers blame on the whalers’ walrus slaughter ([[l1]]).",
-    "The new fats find raw materials, makers and enemies. Cottonseed turns from garbage to table oil ([[ec2]]), the Chicago and Cincinnati packers turn the pig into lard, candles, soap, stearin and oleomargarine ([[ec3]]), palm kernels and coconut oil feed Lever's soap and the margarine trade ([[ec5]], [[ec8]], [[ec7]]), and Procter & Gamble builds a brand on floating soap ([[e1]]). Dairy lobbies answer with laws: Missouri bans margarine in 1881, the federal government taxes it in 1886 and Germany passes its first Margarine Act in 1887 ([[o1]], [[o2]], [[o3]]).",
-    "European planters fail to grow oil palms in Africa ([[ec9]]); groundnuts grow on the Senegambian coast ([[ec6]]) and, from 1850, in India, where the area grows seventy-fold by 1895 ([[ec11]]); Italian emigrants take olive oil to the Americas ([[x1]]), where Twain's ‘beaters’ gloat over fake butter and bogus olive oil ([[e2]]). At the edges, Meiji Japan is urged to eat meat after the emperor’s meal of 1872 and meets frying fat in the Tokyo cutlet restaurants; American whaleships on the Japan Grounds help open Japan to Perry in 1853–54; and Lever’s Sydney office buys Pacific copra and Australian tallow before crushing copra at Balmain ([[e3]], [[e4]], [[w2]], [[ec10]]). In Syria, a grocers’ manual of about 1892 records how sesame oil is made by soaking, hammering, floating off the bran and broiling the kernels ([[ec12]])."
-  ],
-  "themes": [
+  "thesis": "Between 1850 and 1900 two of the oldest fat markets break at once: kerosene ends whale-oil lighting, and a factory fat made from beef suet starts to replace butter. The old animal fats are not abolished but outflanked by cheap, year-round supply from packing houses, cotton fields and tropical coasts, and the rest of the half-century is a fight over what the new fats may be called.",
+  "big_ideas": [
     {
-      "title": "The end of whale-oil light",
-      "text": [
-        "Kerosene, the Civil War and the Arctic: the American whaling fleet is already shrinking when it hunts the bowhead for baleen."
-      ],
+      "title": "Light leaves the whale",
+      "text": "Kerosene, refined in the late 1840s and made cheap by Drake’s well of 1859, takes the lamp; the Civil War cripples the American fleet; and Arctic whalers turn to baleen until the ice of 1871 traps their ships. The price of the change is paid on the Arctic coast, where hunters starve after the walrus kill.",
       "entries": [
         "te1",
         "c1",
-        "ec4"
+        "ec4",
+        "l1"
       ]
     },
     {
-      "title": "Margarine: an idea, a patent and a firm",
-      "text": [
-        "Mège's suet process, the Dutch purchase and the margarine factories."
-      ],
+      "title": "Butter gets a factory rival",
+      "text": "Mège-Mouriès finds that butterfat can be had from beef suet; Dutch butter houses buy the know-how within two years; and a protective tariff gives Germany’s new industry a market. Margarine is the first fat made by chemistry and a machine rather than by an animal’s milk.",
       "entries": [
         "th1",
-        "te2",
         "ec1",
         "w1"
       ]
     },
     {
-      "title": "The war against the new fat",
-      "text": [
-        "State bans, a federal tax and Germany's Act show dairy interests turning to law."
-      ],
+      "title": "The fight is over honesty",
+      "text": "Dairy interests answer with law: Missouri bans margarine in 1881, Washington taxes and licenses it in 1886, Germany passes its first Margarine Act in 1887. Cottonseed oil passes as Italian olive oil, packers sell cottonseed ‘lard’, and Twain turns the ‘beaters’ into a symbol of fake America.",
       "entries": [
         "o1",
         "o2",
-        "o3"
+        "o3",
+        "e2",
+        "ec2"
       ]
     },
     {
-      "title": "The fats that feed the new fats",
-      "text": [
-        "Cottonseed, the packers' by-products, palm kernels and coconut oil, with Lever and Procter & Gamble as the branded soapmakers."
-      ],
+      "title": "The supply moves to the edges",
+      "text": "The cheap fat that margarine and soap need comes from places that had been marginal: West African palm kernels and groundnuts, Pacific copra, Indian groundnuts, Southern cottonseed. Year-round colonial supply beats the soap-boilers’ seasonal animal fat, and European planters who try to grow the palm themselves fail.",
       "entries": [
-        "ec2",
-        "ec3",
         "ec5",
+        "ec6",
         "ec8",
-        "ec7",
-        "e1",
+        "ec11",
         "ec9"
       ]
     },
     {
-      "title": "The fats at the edges",
-      "text": [
-        "India takes up the groundnut, Syria presses its sesame, Japan takes up meat and frying fat, the whaling fleet pushes Japan open, and Lever’s Sydney works sit between the Pacific’s copra and Port Sunlight."
-      ],
+      "title": "Soap becomes a brand, and the packer becomes a chemist",
+      "text": "Procter & Gamble sells Ivory and William Lever sells Sunlight to a mass market, while Cincinnati and Chicago packers turn every part of the pig into lard, candles, soap, stearin and oleomargarine. The firms that win are the ones that control the supply of oil.",
       "entries": [
-        "w2",
-        "e3",
-        "e4",
-        "ec10",
-        "ec11",
-        "ec12"
+        "e1",
+        "ec7",
+        "ec3"
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "key": "whale",
+      "title": "The end of whale-oil light",
+      "claim": "Substitutes undercut sperm oil before kerosene finishes it, the war breaks the fleet, and the last whaling grounds are the Arctic ones.",
+      "beats": [
+        {
+          "date": "1845–1854",
+          "text": "The Pacific whaling fleet’s contacts with Japan help lead to Perry and the Treaty of Kanagawa.",
+          "entry": "w2"
+        },
+        {
+          "date": "1846–1859",
+          "text": "Gesner’s kerosene burns brighter and cheaper than any illuminant; thirty-three plants by 1859, then Drake’s well at Titusville.",
+          "entry": "te1"
+        },
+        {
+          "date": "1848",
+          "text": "Captain Roys takes the first whaleship through Bering Strait, as substitutes push down the price of sperm oil and whalebone overtakes it in value.",
+          "entry": "ec4"
+        },
+        {
+          "date": "1861–1865",
+          "text": "The Civil War idles, reflags or sinks the fleet; the South’s whale-oil trade is cut off.",
+          "entry": "c1"
+        },
+        {
+          "date": "1871",
+          "text": "The Arctic ships are trapped in ice off Point Belcher and abandoned; the insurance money goes into textile mills.",
+          "entry": "ec4"
+        },
+        {
+          "date": "1878–1879",
+          "text": "Villages on St Lawrence Island starve; traders and whalers blame the whalers’ walrus slaughter, though the cause is disputed.",
+          "entry": "l1"
+        }
+      ]
+    },
+    {
+      "key": "margarine",
+      "title": "Margarine: the invention, the firms, the laws",
+      "claim": "A French idea becomes a Dutch and German industry within a decade, and the dairy lobby answers it with bans and taxes.",
+      "beats": [
+        {
+          "date": "1869",
+          "text": "Mège-Mouriès concludes at Napoleon III’s farm that butterfat comes from the cow’s body fat, and presses it from beef suet.",
+          "entry": "th1"
+        },
+        {
+          "date": "1869–1872",
+          "text": "Oleo-margarine is made from suet, milk and a churn, and has to be sold under names that do not suggest butter.",
+          "entry": "te2"
+        },
+        {
+          "date": "1871–1872",
+          "text": "The Dutch butter house Jurgens buys Mège’s knowledge for 60,000 francs and goes into margarine.",
+          "entry": "ec1"
+        },
+        {
+          "date": "1879",
+          "text": "Germany turns protectionist, shielding its margarine industry from foreign competition.",
+          "entry": "w1"
+        },
+        {
+          "date": "1881",
+          "text": "Missouri outlaws margarine; other states ban yellow margarine or require it to be dyed pink.",
+          "entry": "o1"
+        },
+        {
+          "date": "1883",
+          "text": "Twain overhears two ‘beaters’ gloating about fake butter and bogus olive oil; fifteen American margarine plants are already running.",
+          "entry": "e2"
+        },
+        {
+          "date": "1886",
+          "text": "The federal oleomargarine law licenses makers and wholesalers and taxes the fat at 2 cents a pound.",
+          "entry": "o2"
+        },
+        {
+          "date": "1887",
+          "text": "Germany’s first Margarine Act forces shops to be marked and tubs to bear the word ‘margarine’.",
+          "entry": "o3"
+        }
+      ]
+    },
+    {
+      "key": "supply",
+      "title": "Vegetable oil from the colonial and Southern supply",
+      "claim": "Soap and margarine create demand for cheap oil, and it is met from West Africa, the Pacific, India and the American South.",
+      "beats": [
+        {
+          "date": "1834–1900",
+          "text": "A groundnut trade grows from the Gambia and, under French firms, from Senegal.",
+          "entry": "ec6"
+        },
+        {
+          "date": "c.1840–1880",
+          "text": "Coconut oil serves first as a textile-mill lubricant, then as soap fat; copra is shipped from the Pacific islands.",
+          "entry": "ec8"
+        },
+        {
+          "date": "1850–1895",
+          "text": "India takes up the groundnut: 1,000 hectares in 1850, seventy times that by 1895.",
+          "entry": "ec11"
+        },
+        {
+          "date": "1855–1895",
+          "text": "British imports of West African kernels rise from 592 to 34,186 tons, driven by margarine and Lever’s soap.",
+          "entry": "ec5"
+        },
+        {
+          "date": "1860–1890",
+          "text": "Cottonseed goes from garbage to fertiliser, cattle feed and table oil; much of it is sent to Italy to adulterate olive oil.",
+          "entry": "ec2"
+        },
+        {
+          "date": "1870–1890s",
+          "text": "European planters try oil-palm plantations in Africa, and mostly fail.",
+          "entry": "ec9"
+        }
+      ]
+    },
+    {
+      "key": "brands",
+      "title": "Soap, packers and brands",
+      "claim": "The fats that are left over from the pig, the whale and the palm are turned into branded soap by firms that secure their own oil.",
+      "beats": [
+        {
+          "date": "1840s–1890s",
+          "text": "Cincinnati and Chicago packers turn the pig into lard, glue, candles, soap, and later stearin and oleomargarine.",
+          "entry": "ec3"
+        },
+        {
+          "date": "1879",
+          "text": "Procter & Gamble trademarks Ivory with a wrapper designed for the grocer’s shelf.",
+          "entry": "e1"
+        },
+        {
+          "date": "1884–1894",
+          "text": "Lever registers Sunlight Soap in 1884 and builds Lever Brothers on secure supplies of vegetable oil.",
+          "entry": "ec7"
+        },
+        {
+          "date": "1888–1900",
+          "text": "Lever’s Sydney office buys Pacific copra and Australian tallow, and crushes copra at Balmain.",
+          "entry": "ec10"
+        }
+      ]
+    },
+    {
+      "key": "tastes",
+      "title": "New fats at new tables",
+      "claim": "Outside the margarine and soap quarrels, fat travels with people and changes what they cook.",
+      "beats": [
+        {
+          "date": "1872",
+          "text": "Japan’s emperor is said to have eaten meat; the public is urged to eat meat and milk.",
+          "entry": "e3"
+        },
+        {
+          "date": "1872–c.1900",
+          "text": "Tokyo’s Western restaurants fry cutlets in lard, beef fat or sesame oil, and a nation used to cooking without oil finds them ‘so oily’.",
+          "entry": "e4"
+        },
+        {
+          "date": "1890s",
+          "text": "Bertolli follows Italian emigrants with olive oil from New York to Brazil.",
+          "entry": "x1"
+        }
       ]
     }
   ],
   "turning_points": [
     {
       "date": "1848",
-      "text": "Captain Roys takes the first whaleship through Bering Strait.",
-      "entry": "ec4"
+      "text": "The first whaleship passes through Bering Strait, opening the Arctic grounds.",
+      "entry": "ec4",
+      "thread": "whale"
     },
     {
-      "date": "1853–1854",
-      "text": "Perry reaches Edo and the Treaty of Kanagawa opens ports to American ships.",
-      "entry": "w2"
+      "date": "1855",
+      "text": "Palm kernels join palm oil in Britain’s West African imports.",
+      "entry": "ec5",
+      "thread": "supply"
     },
     {
       "date": "1859",
-      "text": "Drake's well and kerosene finish whale-oil lighting.",
-      "entry": "te1"
+      "text": "Drake’s well at Titusville ends whale-oil lighting.",
+      "entry": "te1",
+      "thread": "whale"
     },
     {
-      "date": "1869–1871",
-      "text": "Mège's margarine process; Jurgens buys the patent.",
-      "entry": "ec1"
+      "date": "1861–1865",
+      "text": "The Civil War cripples the American whaling fleet.",
+      "entry": "c1",
+      "thread": "whale"
     },
     {
-      "date": "1872",
-      "text": "News spreads that the Japanese emperor has eaten meat.",
-      "entry": "e3"
+      "date": "1869",
+      "text": "Mège-Mouriès makes butterfat from suet.",
+      "entry": "th1",
+      "thread": "margarine"
+    },
+    {
+      "date": "1871",
+      "text": "The Dutch butter house Jurgens buys the margarine know-how.",
+      "entry": "ec1",
+      "thread": "margarine"
     },
     {
       "date": "1879",
-      "text": "Procter & Gamble trademarks Ivory.",
-      "entry": "e1"
+      "text": "Procter & Gamble trademarks Ivory, the model of the branded soap.",
+      "entry": "e1",
+      "thread": "brands"
     },
     {
       "date": "1881–1887",
-      "text": "Margarine is banned, taxed and regulated.",
-      "entry": "o2"
+      "text": "Missouri bans, Washington taxes and Germany regulates margarine.",
+      "entry": "o2",
+      "thread": "margarine"
     },
     {
       "date": "1884",
-      "text": "Lever registers the Sunlight Soap trademark.",
-      "entry": "ec7"
+      "text": "Lever registers Sunlight Soap.",
+      "entry": "ec7",
+      "thread": "brands"
+    },
+    {
+      "date": "1888",
+      "text": "Lever opens in Sydney to buy Pacific copra and Australian tallow.",
+      "entry": "ec10",
+      "thread": "brands"
+    },
+    {
+      "date": "1890s",
+      "text": "Italian emigrants’ demand takes olive oil across the Americas.",
+      "entry": "x1",
+      "thread": "tastes"
     }
   ],
-  "how_to_read": [
-    "*Order* is the margarine war; *Economy* the new fats; *Technology* and *Thought* the two inventions. The Nexus links the whale's decline with the margarine boom through the oil markets.",
-    "The decade of the folio's centre, 1879–1887, is when the branded soap, the margarine laws and the cottonseed trade all meet.",
-    "The *picture by region* counts the 27 entries: Europe 7, Near East 1, Far East 4, Africa 3, Americas 11, Oceania 1; none in Worldwide. The new fats are made in America and Europe, with Africa as a supplier; Japan, India, Syria and Australia enter at the edges."
-  ],
-  "sources": {
-    "intro": "Strong sources for margarine (van Stuyvenberg), whaling (Dolin and Bockstoce), the packers (Cronon) and brands (Dyer, Fieldhouse); thin ones for the African plantations and groundnuts.",
-    "main": [
-      "Van Stuyvenberg, *Margarine*, for the invention, the firms and the laws ([[th1]], [[te2]], [[ec1]], [[o2]], [[o3]], [[w1]]).",
-      "Dolin and Bockstoce for whaling ([[c1]], [[ec4]], [[te1]]); Cronon for the packers ([[ec3]]).",
-      "Mueller for cottonseed, fraud and Bertolli ([[ec2]], [[o1]], [[e2]], [[x1]]); Lynn and Law for palm kernels ([[ec5]]); Dyer and Fieldhouse for Ivory and Lever ([[e1]], [[ec7]]); Kiple for coconut oil ([[ec8]], [[ec9]]).",
-      "Bockstoce for the St Lawrence Island famine ([[l1]]).",
-      "Ishige for Meiji meat eating and the Western restaurants ([[e3]], [[e4]]); Dolin for the Japan Grounds and Perry ([[w2]]); Fieldhouse for Lever’s Sydney office and Balmain mill ([[ec10]]).",
-      "Achaya and Kiple for the groundnut in India and the Suez Canal market ([[ec11]]).",
-      "Kiple (Bedigian), quoting Law’s Grocer’s Manual, for Syrian sesame oil ([[ec12]])."
-    ],
-    "contested": [
-      "The two patent dates for Mège's grant (15 July or 2 October 1869) differ in the book ([[th1]]).",
-      "Mueller's cottonseed and Twain figures are not sourced ([[ec2]], [[e2]]).",
-      "The coconut-oil and fish-and-chip link is Harries's thesis ([[ec8]]).",
-      "The cause of the St Lawrence Island famine is disputed between alcohol and the walrus kill ([[l1]]).",
-      "Dolin judges that Melville overstated the whalers’ part in opening Japan ([[w2]]).",
-      "Achaya’s groundnut figures come from a scanned page read by OCR and should be rechecked against the printed book ([[ec11]]).",
-      "The Syrian sesame passage is a quotation of a quotation, dated by the manual and not by any observation ([[ec12]])."
-    ],
-    "gaps": [
-      "The groundnut chapter is thin ([[ec6]]); no source for the olive-oil trade of Marseille and Bari in the 1880s.",
-      "Port Sunlight and Lever's early supply chains, and the Russian sunflower after mid-century (the Lenten story is in the 1750–1850 folio), are missing.",
-      "The Ottoman soap and olive trade and China have no entry, the Near East appears only through one grocers’ manual ([[ec12]]), and India only through the groundnut ([[ec11]]); Japan is told through Ishige and American whaling accounts only, and the Pacific only through Britain’s coconut-oil mills ([[ec8]]) and Lever’s Sydney office ([[ec10]])."
-    ]
-  },
-  "reviewed": "2026-10-25",
   "regions": [
     {
       "region": "Europe",
@@ -227,5 +376,37 @@
       ],
       "entries": []
     }
-  ]
+  ],
+  "how_to_read": [
+    "Read the thesis and the big ideas first, then the threads: each runs in date order and points to the entries that carry it. Entries that no thread needs (the Syrian sesame manual, for one) are still reached through the regional picture and the lists.",
+    "The Nexus links the whale’s decline with the margarine boom through the oil markets.",
+    "The *picture by region* counts the 27 entries: Europe 7, Near East 1, Far East 4, Africa 3, Americas 11, Oceania 1; none in Worldwide. The new fats are made in America and Europe, with Africa as a supplier; Japan, India, Syria and Australia enter at the edges."
+  ],
+  "sources": {
+    "intro": "Strong sources for margarine (van Stuyvenberg), whaling (Dolin and Bockstoce), the packers (Cronon) and brands (Dyer, Fieldhouse); thin ones for the African plantations and groundnuts.",
+    "main": [
+      "Van Stuyvenberg, *Margarine*, for the invention, the firms and the laws ([[th1]], [[te2]], [[ec1]], [[o2]], [[o3]], [[w1]]).",
+      "Dolin and Bockstoce for whaling ([[c1]], [[ec4]], [[te1]]); Cronon for the packers ([[ec3]]).",
+      "Mueller for cottonseed, fraud and Bertolli ([[ec2]], [[o1]], [[e2]], [[x1]]); Lynn and Law for palm kernels ([[ec5]]); Dyer and Fieldhouse for Ivory and Lever ([[e1]], [[ec7]]); Kiple for coconut oil ([[ec8]], [[ec9]]).",
+      "Bockstoce for the St Lawrence Island famine ([[l1]]).",
+      "Ishige for Meiji meat eating and the Western restaurants ([[e3]], [[e4]]); Dolin for the Japan Grounds and Perry ([[w2]]); Fieldhouse for Lever’s Sydney office and Balmain mill ([[ec10]]).",
+      "Achaya and Kiple for the groundnut in India and the Suez Canal market ([[ec11]]).",
+      "Kiple (Bedigian), quoting Law’s Grocer’s Manual, for Syrian sesame oil ([[ec12]])."
+    ],
+    "contested": [
+      "The two patent dates for Mège's grant (15 July or 2 October 1869) differ in the book ([[th1]]).",
+      "Mueller's cottonseed and Twain figures are not sourced ([[ec2]], [[e2]]).",
+      "The coconut-oil and fish-and-chip link is Harries's thesis ([[ec8]]).",
+      "The cause of the St Lawrence Island famine is disputed between alcohol and the walrus kill ([[l1]]).",
+      "Dolin judges that Melville overstated the whalers’ part in opening Japan ([[w2]]).",
+      "Achaya’s groundnut figures come from a scanned page read by OCR and should be rechecked against the printed book ([[ec11]]).",
+      "The Syrian sesame passage is a quotation of a quotation, dated by the manual and not by any observation ([[ec12]])."
+    ],
+    "gaps": [
+      "The groundnut chapter is thin ([[ec6]]); no source for the olive-oil trade of Marseille and Bari in the 1880s.",
+      "Port Sunlight and Lever's early supply chains, and the Russian sunflower after mid-century (the Lenten story is in the 1750–1850 folio), are missing.",
+      "The Ottoman soap and olive trade and China have no entry, the Near East appears only through one grocers’ manual ([[ec12]]), and India only through the groundnut ([[ec11]]); Japan is told through Ishige and American whaling accounts only, and the Pacific only through Britain’s coconut-oil mills ([[ec8]]) and Lever’s Sydney office ([[ec10]])."
+    ]
+  },
+  "reviewed": "2026-10-25"
 }

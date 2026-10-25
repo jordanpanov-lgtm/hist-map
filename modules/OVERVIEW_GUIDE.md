@@ -58,6 +58,18 @@ Rendered as a coloured proportion bar plus one card per region.
 
 Markup in any text field: `[[id]]` → clickable chip that opens the entry; `*x*` → emphasis. No HTML.
 
+## Structured format (v2, Fats & Oils)
+
+A v2 Overview replaces `summary` and `themes` with a structure a reader can take in at a glance. `regions`,
+`how_to_read`, `sources` and `reviewed` are unchanged.
+
+- `thesis`: one string, two sentences: the shift from the start of the period to the end.
+- `big_ideas`: 3–6 of `{ title, text, entries }`. The intro. Each title is a claim, not a label; the text is two or three sentences that say what the entries add up to, which no single entry shows; 3–5 `entries` are the best to open.
+- `threads`: 3–7 of `{ key, title, claim, beats[] }`. A thread is a story within the story: one line of causation or one substance, not a category. `claim` is one sentence. `beats` (at least 3, usually 4–9) are `{ date, text, entry }` in date order, one sentence each, so that each thread is its own short chronology. A thread holds only the entries that carry it; the rest are reached through the regional picture and the lists. An entry should be the main beat of one thread only.
+- `turning_points`: 8–12 across the whole period, spread evenly, each with `thread` set to a thread `key`; rendered as a timeline with a colour dot per thread.
+
+`validate.js` checks the shape, the beat dates are for the author to keep in order, and every id must exist.
+
 ## Rules
 
 1. **Length:** about 400–700 words of prose in total (summary + themes + turning points). Dense, not long.
