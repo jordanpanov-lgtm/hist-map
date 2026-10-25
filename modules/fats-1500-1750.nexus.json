@@ -273,6 +273,14 @@
       "label": "Cacao fat, not lard",
       "full": "A Spanish colonist is fed fish and eggs cooked in cacao fat, and mistakes it for lard.",
       "src": "Coe, quoting Oviedo"
+    },
+    {
+      "id": "ec20",
+      "lane": "economy",
+      "year": 1500,
+      "label": "Guacamole, the Aztec original",
+      "full": "Mashed avocado with tomato and onion: the Aztec ahuaca-mulli, almost unchanged today.",
+      "src": "Coe"
     }
   ],
   "edges": [
@@ -455,6 +463,12 @@
       "x1",
       "loose",
       "Cacao fat in Central America and olive oil shipped to Spanish America are two fats meeting in the same colonial kitchens, one native and one imported."
+    ],
+    [
+      "ec20",
+      "ec19",
+      "strong",
+      "Avocado and cacao are the two distinctively Mesoamerican fats this folio can document, one a structural staple and one a surprising substitute for lard."
     ]
   ]
 }
