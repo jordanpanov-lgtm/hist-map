@@ -336,6 +336,14 @@
       "label": "Peru’s preceramic coast",
       "full": "The sea is the main protein source; sea lion is rare, mollusks and fish are not.",
       "src": "Moseley"
+    },
+    {
+      "id": "ec29",
+      "lane": "economy",
+      "year": -4000,
+      "label": "Lake Junín’s camelid hunters",
+      "full": "Deer give way to camelids; broken bone rises with it — marrow and grease extraction.",
+      "src": "Raymond (Rick; Rick & Moore; Wheeler)"
     }
   ],
   "edges": [
@@ -578,6 +586,18 @@
       "ec12",
       "loose",
       "Peru’s maritime protein economy and its peanuts are two strands of the same preceramic coast and highland world."
+    ],
+    [
+      "ec29",
+      "ec28",
+      "loose",
+      "The highland puna’s camelid marrow and grease and the coast’s rare sea lion are the two sides of the same period’s Peruvian fat economy."
+    ],
+    [
+      "ec29",
+      "ec12",
+      "loose",
+      "Camelid hunting on the Junín puna and Peru’s early peanuts are two strands of the same preceramic Andean world."
     ]
   ]
 }
