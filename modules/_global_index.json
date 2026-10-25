@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 11105,
+    "total_entries": 11106,
     "folio_count": 234,
-    "xlink_pairs": 3270,
-    "keyword_terms": 16813,
+    "xlink_pairs": 3271,
+    "keyword_terms": 16822,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -408,7 +408,7 @@
       {
         "id": "fats-600-1000",
         "title": "Fats & Oils",
-        "entries": 27
+        "entries": 28
       },
       {
         "id": "fats-8000bc-1200bc",
@@ -5188,6 +5188,7 @@
     "fats-600-1000::th1": "Spanish takes its oil words from Arabic: aceite and aceituna",
     "fats-600-1000::th2": "Butter ‘floats at the stomach’s mouth’: the Baghdad cookbook on fat and the body",
     "fats-600-1000::ec11": "Abu Mansur lists sesame as a crop of Iran",
+    "fats-600-1000::ec13": "Coyol, huiscoyol and cohune: the Maya’s own answer to a lean, fat-poor diet",
     "fats-600-1000::ec1": "Butter is a luxury in Anglo-Saxon England",
     "fats-600-1000::ec3": "The Tamil chekku: sesame oil pressed and exported",
     "fats-600-1000::ec7": "Shea butter at Kirikongo: a 1,400-year record from Burkina Faso",
@@ -16217,8 +16218,8 @@
     ],
     "sugar-600-1000::e2": [
       "caliphate-750-945::e3",
-      "fats-600-1000::e1",
-      "sugar-1000-1500::e5"
+      "sugar-1000-1500::e5",
+      "fats-600-1000::e1"
     ],
     "iraq-632-945::t1": [
       "caliphate-750-945::t1",
@@ -21169,6 +21170,12 @@
     "fats-300bc-600ad::w1": [
       "fats-600-1000::b1"
     ],
+    "fats-600-1000::ec13": [
+      "fats-1500-1750::ec18"
+    ],
+    "fats-1500-1750::ec18": [
+      "fats-600-1000::ec13"
+    ],
     "fats-600-1000::ec12": [
       "fats-1200bc-300bc::te6",
       "fats-1000-1500::ec9"
@@ -21178,6 +21185,9 @@
     ],
     "fats-8000bc-1200bc::ec30": [
       "fats-1960-today::ec16"
+    ],
+    "fats-8000bc-1200bc::ec9": [
+      "late-bronze-age-system-1550bc-1200bc::ec3"
     ],
     "france-1610-1715::o3": [
       "sugar-1650-1800::o2"
@@ -23983,9 +23993,6 @@
       "lakhmid-268-602::lv2",
       "oman-gulf-1650-1820::lv5",
       "sassanid-484-651::lv2"
-    ],
-    "fats-8000bc-1200bc::ec9": [
-      "late-bronze-age-system-1550bc-1200bc::ec3"
     ],
     "late-roman-anatolia-330-632::p1": [
       "rome-300-400::p7"
@@ -50096,6 +50103,19 @@
     "fats-600-1000::ec11": [
       "Iran",
       "Abu Mansur"
+    ],
+    "fats-600-1000::ec13": [
+      "Maya",
+      "coyol",
+      "Acrocomia",
+      "cohune",
+      "huiscoyol",
+      "palm oil",
+      "Copán",
+      "Cerén",
+      "Lentz",
+      "Honduras",
+      "El Salvador"
     ],
     "fats-600-1000::ec1": [
       "Anglo-Saxon England",
@@ -127482,6 +127502,7 @@
     "Honduras": [
       "fats-130000bc-8000bc::ec10",
       "fats-1960-today::l1",
+      "fats-600-1000::ec13",
       "fats-8000bc-1200bc::ec23"
     ],
     "Mexico": [
@@ -129402,6 +129423,37 @@
     "Andrew Watson Arab": [
       "fats-600-1000::th1"
     ],
+    "Maya": [
+      "fats-600-1000::ec13"
+    ],
+    "coyol": [
+      "fats-600-1000::ec13"
+    ],
+    "Acrocomia": [
+      "fats-600-1000::ec13"
+    ],
+    "cohune": [
+      "fats-600-1000::ec13"
+    ],
+    "huiscoyol": [
+      "fats-600-1000::ec13"
+    ],
+    "palm oil": [
+      "fats-600-1000::ec13"
+    ],
+    "Copán": [
+      "fats-600-1000::ec13"
+    ],
+    "Cerén": [
+      "fats-600-1000::ec13"
+    ],
+    "Lentz": [
+      "fats-600-1000::ec13",
+      "fats-8000bc-1200bc::ec31"
+    ],
+    "El Salvador": [
+      "fats-600-1000::ec13"
+    ],
     "Anglo-Saxon England": [
       "fats-600-1000::ec1"
     ],
@@ -129784,9 +129836,6 @@
       "fats-8000bc-1200bc::ec31"
     ],
     "domestication": [
-      "fats-8000bc-1200bc::ec31"
-    ],
-    "Lentz": [
       "fats-8000bc-1200bc::ec31"
     ],
     "Rendering": [
