@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 11108,
+    "total_entries": 11109,
     "folio_count": 234,
-    "xlink_pairs": 3271,
-    "keyword_terms": 16839,
+    "xlink_pairs": 3272,
+    "keyword_terms": 16844,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -408,7 +408,7 @@
       {
         "id": "fats-600-1000",
         "title": "Fats & Oils",
-        "entries": 28
+        "entries": 29
       },
       {
         "id": "fats-8000bc-1200bc",
@@ -5196,6 +5196,7 @@
     "fats-600-1000::ec7": "Shea butter at Kirikongo: a 1,400-year record from Burkina Faso",
     "fats-600-1000::ec10": "Pannage: pigs fed on the autumn mast of the forest",
     "fats-600-1000::ec12": "Birnirk hunters on the Bering Strait: seals, lamps and a disputed whale hunt",
+    "fats-600-1000::ec14": "A single sesame seed at Tumbe, Pemba: a trace of the Periplus’s old sesame-oil trade?",
     "fats-600-1000::ec8": "Dairy fats reach their peak in China under the part-Turkic Tang",
     "fats-600-1000::ec9": "Tang kaymak and ti-hu: the dairy fats of the banquet",
     "fats-600-1000::ec6": "Japan’s court makes so, a milk-skin dairy product, and takes it as tribute",
@@ -16220,8 +16221,8 @@
     ],
     "sugar-600-1000::e2": [
       "caliphate-750-945::e3",
-      "fats-600-1000::e1",
-      "sugar-1000-1500::e5"
+      "sugar-1000-1500::e5",
+      "fats-600-1000::e1"
     ],
     "iraq-632-945::t1": [
       "caliphate-750-945::t1",
@@ -16760,9 +16761,9 @@
     ],
     "fats-8000bc-1200bc::ec2": [
       "canaan-2000bc-1200bc::ec2",
+      "fats-1200bc-300bc::x1",
       "fats-130000bc-8000bc::ec3",
-      "fats-130000bc-8000bc::ec5",
-      "fats-1200bc-300bc::x1"
+      "fats-130000bc-8000bc::ec5"
     ],
     "canaan-2000bc-1200bc::ec1": [
       "egypt-1550bc-1200bc::xc5",
@@ -20641,6 +20642,143 @@
       "fats-1000-1500::te1",
       "fats-300bc-600ad::th4"
     ],
+    "fats-1200bc-300bc::b6": [
+      "fats-8000bc-1200bc::ec21"
+    ],
+    "fats-8000bc-1200bc::ec21": [
+      "fats-1200bc-300bc::b6"
+    ],
+    "fats-1200bc-300bc::b1": [
+      "fats-300bc-600ad::b1",
+      "fats-600-1000::b3"
+    ],
+    "fats-300bc-600ad::b1": [
+      "fats-1200bc-300bc::b1",
+      "sugar-1200bc-300bc::b3",
+      "sugar-300bc-600ad::b1"
+    ],
+    "fats-600-1000::b3": [
+      "fats-1200bc-300bc::b1",
+      "fats-300bc-600ad::te4"
+    ],
+    "fats-1200bc-300bc::b2": [
+      "fats-8000bc-1200bc::ec4"
+    ],
+    "fats-8000bc-1200bc::ec4": [
+      "fats-1200bc-300bc::b2"
+    ],
+    "fats-1200bc-300bc::b5": [
+      "fats-1960-today::c2"
+    ],
+    "fats-1960-today::c2": [
+      "fats-1200bc-300bc::b5"
+    ],
+    "fats-1200bc-300bc::e2": [
+      "fats-8000bc-1200bc::ec22"
+    ],
+    "fats-8000bc-1200bc::ec22": [
+      "fats-1200bc-300bc::e2",
+      "fats-1200bc-300bc::th2"
+    ],
+    "fats-1200bc-300bc::th1": [
+      "fats-8000bc-1200bc::x1"
+    ],
+    "fats-8000bc-1200bc::x1": [
+      "fats-1200bc-300bc::th1",
+      "fats-1200bc-300bc::ec4",
+      "fats-1200bc-300bc::ec15"
+    ],
+    "fats-1200bc-300bc::th3": [
+      "fats-600-1000::e1"
+    ],
+    "fats-1200bc-300bc::th2": [
+      "fats-300bc-600ad::te2",
+      "fats-8000bc-1200bc::ec22"
+    ],
+    "fats-300bc-600ad::te2": [
+      "fats-1200bc-300bc::th2"
+    ],
+    "fats-1200bc-300bc::ec13": [
+      "fats-300bc-600ad::ec7",
+      "fats-8000bc-1200bc::ec18"
+    ],
+    "fats-8000bc-1200bc::ec18": [
+      "fats-1200bc-300bc::ec13"
+    ],
+    "fats-8000bc-1200bc::ec11": [
+      "fats-1200bc-300bc::ec11"
+    ],
+    "fats-1200bc-300bc::ec14": [
+      "fats-1960-today::ec15",
+      "fats-300bc-600ad::x2",
+      "fats-8000bc-1200bc::th5"
+    ],
+    "fats-1960-today::ec15": [
+      "fats-1200bc-300bc::ec14"
+    ],
+    "fats-300bc-600ad::x2": [
+      "fats-1200bc-300bc::ec14"
+    ],
+    "fats-8000bc-1200bc::th5": [
+      "fats-1200bc-300bc::ec14",
+      "fats-1500-1750::x2"
+    ],
+    "fats-1200bc-300bc::ec1": [
+      "fats-300bc-600ad::ec2",
+      "philistia-1200bc-604bc::ec1"
+    ],
+    "fats-300bc-600ad::ec2": [
+      "fats-1200bc-300bc::ec1"
+    ],
+    "philistia-1200bc-604bc::ec1": [
+      "fats-1200bc-300bc::ec1"
+    ],
+    "fats-1200bc-300bc::ec4": [
+      "fats-8000bc-1200bc::x1",
+      "urartu-colchis-1200bc-585bc::ec1"
+    ],
+    "urartu-colchis-1200bc-585bc::ec1": [
+      "fats-1200bc-300bc::ec4"
+    ],
+    "fats-1200bc-300bc::ec10": [
+      "fats-8000bc-1200bc::th4"
+    ],
+    "fats-8000bc-1200bc::th4": [
+      "fats-1200bc-300bc::ec10"
+    ],
+    "fats-1200bc-300bc::ec15": [
+      "fats-1960-today::ec14",
+      "fats-8000bc-1200bc::x1"
+    ],
+    "fats-1960-today::ec14": [
+      "fats-1200bc-300bc::ec15"
+    ],
+    "fats-1200bc-300bc::ec12": [
+      "fats-300bc-600ad::ec8",
+      "fats-300bc-600ad::o1"
+    ],
+    "fats-300bc-600ad::ec8": [
+      "fats-1200bc-300bc::ec12",
+      "fats-8000bc-1200bc::ec20"
+    ],
+    "fats-300bc-600ad::o1": [
+      "fats-1200bc-300bc::ec12"
+    ],
+    "fats-1200bc-300bc::te5": [
+      "fats-1500-1750::ec15"
+    ],
+    "fats-1500-1750::ec15": [
+      "fats-1200bc-300bc::te5"
+    ],
+    "fats-1200bc-300bc::te1": [
+      "fats-8000bc-1200bc::te2"
+    ],
+    "fats-8000bc-1200bc::te2": [
+      "fats-1200bc-300bc::te1"
+    ],
+    "fats-1200bc-300bc::x1": [
+      "fats-8000bc-1200bc::ec2"
+    ],
     "fats-130000bc-8000bc::th3": [
       "fats-1500-1750::ec10",
       "fats-8000bc-1200bc::th6"
@@ -20698,12 +20836,6 @@
     "fats-1500-1750::ec20": [
       "fats-8000bc-1200bc::ec23"
     ],
-    "fats-1500-1750::ec15": [
-      "fats-1200bc-300bc::te5"
-    ],
-    "fats-1200bc-300bc::te5": [
-      "fats-1500-1750::ec15"
-    ],
     "fats-1500-1750::ec19": [
       "fats-8000bc-1200bc::te5"
     ],
@@ -20752,10 +20884,6 @@
     "fats-8000bc-1200bc::ec12": [
       "fats-1500-1750::x2",
       "fats-8000bc-1200bc::ec28"
-    ],
-    "fats-8000bc-1200bc::th5": [
-      "fats-1500-1750::x2",
-      "fats-1200bc-300bc::ec14"
     ],
     "fats-1500-1750::l1": [
       "sugar-1650-1800::x2"
@@ -20947,12 +21075,6 @@
     "fats-1960-today::o2": [
       "fats-1900-1960::te2"
     ],
-    "fats-1960-today::c2": [
-      "fats-1200bc-300bc::b5"
-    ],
-    "fats-1200bc-300bc::b5": [
-      "fats-1960-today::c2"
-    ],
     "sugar-1970-today::t8": [
       "fats-1960-today::o1",
       "sugar-1900-1970::t4"
@@ -20992,28 +21114,6 @@
     "fats-8000bc-1200bc::ec10": [
       "fats-1960-today::ec11"
     ],
-    "fats-1960-today::ec14": [
-      "fats-1200bc-300bc::ec15"
-    ],
-    "fats-1200bc-300bc::ec15": [
-      "fats-1960-today::ec14",
-      "fats-8000bc-1200bc::x1"
-    ],
-    "fats-1960-today::ec15": [
-      "fats-1200bc-300bc::ec14"
-    ],
-    "fats-1200bc-300bc::ec14": [
-      "fats-1960-today::ec15",
-      "fats-300bc-600ad::x2",
-      "fats-8000bc-1200bc::th5"
-    ],
-    "fats-300bc-600ad::o1": [
-      "fats-1200bc-300bc::ec12"
-    ],
-    "fats-1200bc-300bc::ec12": [
-      "fats-300bc-600ad::o1",
-      "fats-300bc-600ad::ec8"
-    ],
     "fats-300bc-600ad::o3": [
       "rome-200-300::p1",
       "rome-200-300::p5"
@@ -21023,15 +21123,6 @@
     ],
     "rome-200-300::p5": [
       "fats-300bc-600ad::o3"
-    ],
-    "fats-300bc-600ad::b1": [
-      "fats-1200bc-300bc::b1",
-      "sugar-1200bc-300bc::b3",
-      "sugar-300bc-600ad::b1"
-    ],
-    "fats-1200bc-300bc::b1": [
-      "fats-300bc-600ad::b1",
-      "fats-600-1000::b3"
     ],
     "sugar-1200bc-300bc::b3": [
       "fats-300bc-600ad::b1",
@@ -21057,14 +21148,6 @@
     "fats-8000bc-1200bc::ec24": [
       "fats-300bc-600ad::th4"
     ],
-    "fats-1200bc-300bc::ec13": [
-      "fats-300bc-600ad::ec7",
-      "fats-8000bc-1200bc::ec18"
-    ],
-    "fats-300bc-600ad::ec8": [
-      "fats-1200bc-300bc::ec12",
-      "fats-8000bc-1200bc::ec20"
-    ],
     "fats-8000bc-1200bc::ec20": [
       "fats-300bc-600ad::ec8"
     ],
@@ -21080,39 +21163,19 @@
     "hispania-300bc-27bc::s2": [
       "fats-300bc-600ad::ec1"
     ],
-    "fats-300bc-600ad::ec2": [
-      "fats-1200bc-300bc::ec1"
-    ],
-    "fats-1200bc-300bc::ec1": [
-      "fats-300bc-600ad::ec2",
-      "philistia-1200bc-604bc::ec1"
-    ],
-    "fats-300bc-600ad::te2": [
-      "fats-1200bc-300bc::th2"
-    ],
-    "fats-1200bc-300bc::th2": [
-      "fats-300bc-600ad::te2",
-      "fats-8000bc-1200bc::ec22"
-    ],
-    "fats-600-1000::b3": [
-      "fats-300bc-600ad::te4",
-      "fats-1200bc-300bc::b1"
-    ],
-    "fats-300bc-600ad::x2": [
-      "fats-1200bc-300bc::ec14"
-    ],
     "fats-300bc-600ad::x3": [
+      "fats-600-1000::ec14",
       "nabataean-312bc-106ce::ex1",
       "sugar-300bc-600ad::x1"
+    ],
+    "fats-600-1000::ec14": [
+      "fats-300bc-600ad::x3"
     ],
     "nabataean-312bc-106ce::ex1": [
       "fats-300bc-600ad::x3"
     ],
     "fats-300bc-600ad::w1": [
       "fats-600-1000::b1"
-    ],
-    "fats-1200bc-300bc::th3": [
-      "fats-600-1000::e1"
     ],
     "fats-600-1000::ec13": [
       "fats-1500-1750::ec18"
@@ -21124,66 +21187,14 @@
       "fats-1200bc-300bc::te6",
       "fats-1000-1500::ec9"
     ],
-    "fats-8000bc-1200bc::th4": [
-      "fats-1200bc-300bc::ec10"
-    ],
-    "fats-1200bc-300bc::ec10": [
-      "fats-8000bc-1200bc::th4"
-    ],
-    "fats-8000bc-1200bc::ec22": [
-      "fats-1200bc-300bc::e2",
-      "fats-1200bc-300bc::th2"
-    ],
-    "fats-1200bc-300bc::e2": [
-      "fats-8000bc-1200bc::ec22"
-    ],
-    "fats-1200bc-300bc::x1": [
-      "fats-8000bc-1200bc::ec2"
-    ],
-    "fats-8000bc-1200bc::ec18": [
-      "fats-1200bc-300bc::ec13"
-    ],
-    "fats-8000bc-1200bc::ec11": [
-      "fats-1200bc-300bc::ec11"
-    ],
     "fats-8000bc-1200bc::ec28": [
       "fats-8000bc-1200bc::ec12"
     ],
     "fats-8000bc-1200bc::ec30": [
       "fats-1960-today::ec16"
     ],
-    "fats-8000bc-1200bc::ec4": [
-      "fats-1200bc-300bc::b2"
-    ],
-    "fats-1200bc-300bc::b2": [
-      "fats-8000bc-1200bc::ec4"
-    ],
-    "fats-8000bc-1200bc::ec21": [
-      "fats-1200bc-300bc::b6"
-    ],
-    "fats-1200bc-300bc::b6": [
-      "fats-8000bc-1200bc::ec21"
-    ],
     "fats-8000bc-1200bc::ec9": [
       "late-bronze-age-system-1550bc-1200bc::ec3"
-    ],
-    "fats-8000bc-1200bc::te2": [
-      "fats-1200bc-300bc::te1"
-    ],
-    "fats-1200bc-300bc::te1": [
-      "fats-8000bc-1200bc::te2"
-    ],
-    "fats-8000bc-1200bc::x1": [
-      "fats-1200bc-300bc::ec15",
-      "fats-1200bc-300bc::ec4",
-      "fats-1200bc-300bc::th1"
-    ],
-    "fats-1200bc-300bc::ec4": [
-      "fats-8000bc-1200bc::x1",
-      "urartu-colchis-1200bc-585bc::ec1"
-    ],
-    "fats-1200bc-300bc::th1": [
-      "fats-8000bc-1200bc::x1"
     ],
     "france-1610-1715::o3": [
       "sugar-1650-1800::o2"
@@ -26119,9 +26130,6 @@
     "roman-parthian-world-63bc-224ad::l1": [
       "parthia-148bc-224::l1"
     ],
-    "philistia-1200bc-604bc::ec1": [
-      "fats-1200bc-300bc::ec1"
-    ],
     "phrygia-1200bc-675bc::p3": [
       "urartu-colchis-1200bc-585bc::x2"
     ],
@@ -27149,9 +27157,6 @@
     ],
     "turkey-1980-today::w3": [
       "turkey-1923-1980::w2"
-    ],
-    "urartu-colchis-1200bc-585bc::ec1": [
-      "fats-1200bc-300bc::ec4"
     ],
     "zagros-elam-8000bc-3200bc::p5": [
       "uruk-3800bc-2900bc::p1",
@@ -50175,6 +50180,16 @@
       "whaling",
       "Old Bering Sea",
       "Thule"
+    ],
+    "fats-600-1000::ec14": [
+      "Tumbe",
+      "Pemba",
+      "Swahili",
+      "sesame",
+      "Tana tradition",
+      "Walshaw",
+      "Zanzibar",
+      "Tanzania"
     ],
     "fats-600-1000::ec8": [
       "Tang China",
@@ -118503,6 +118518,7 @@
     ],
     "Zanzibar": [
       "eastern-arabia-750-1200::x3",
+      "fats-600-1000::ec14",
       "hormuz-1200-1507::x5",
       "oman-1970-today::x4",
       "oman-1970-today::w2",
@@ -118514,6 +118530,7 @@
     ],
     "Pemba": [
       "eastern-arabia-750-1200::x3",
+      "fats-600-1000::ec14",
       "hormuz-1200-1507::x5",
       "oman-gulf-1650-1820::x1",
       "oman-gulf-1650-1820::lv5"
@@ -129581,6 +129598,28 @@
     "Old Bering Sea": [
       "fats-600-1000::ec12"
     ],
+    "Tumbe": [
+      "fats-600-1000::ec14"
+    ],
+    "Swahili": [
+      "fats-600-1000::ec14",
+      "hormuz-1200-1507::x5",
+      "oman-gulf-1650-1820::k1",
+      "oman-gulf-1650-1820::x1",
+      "yemen-1517-1900::x4"
+    ],
+    "sesame": [
+      "fats-600-1000::ec14"
+    ],
+    "Tana tradition": [
+      "fats-600-1000::ec14"
+    ],
+    "Walshaw": [
+      "fats-600-1000::ec14"
+    ],
+    "Tanzania": [
+      "fats-600-1000::ec14"
+    ],
     "Dairy": [
       "fats-600-1000::ec8",
       "fats-8000bc-1200bc::ec10"
@@ -136745,12 +136784,6 @@
       "oman-gulf-1650-1820::c1",
       "oman-gulf-1650-1820::ec4",
       "oman-gulf-1650-1820::lv5"
-    ],
-    "Swahili": [
-      "hormuz-1200-1507::x5",
-      "oman-gulf-1650-1820::k1",
-      "oman-gulf-1650-1820::x1",
-      "yemen-1517-1900::x4"
     ],
     "Il-Khanid": [
       "hormuz-1200-1507::w1"
