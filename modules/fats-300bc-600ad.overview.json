@@ -1,54 +1,64 @@
 {
   "question": "When oil becomes an imperial commodity, who supplies it, who is barred from it — and where do pressing and churning begin elsewhere?",
-  "thesis": "From 300 BC to 600 AD olive oil becomes an imperial commodity: a hill of 50 million jars at Rome, a Tripolitanian boom and an oil annona show a state feeding its capital on oil. In India and China the move is from ghee and animal fat to pressed seed oils, and when the western empire falls the butter and animal fat of the north come back.",
+  "thesis": "Between 300 BC and 600 AD, fat moves by every channel there is. Within Rome’s own empire, provinces feed the capital; between empires, the Periplus carries Indian ghee and sesame oil to Rome and Africa; across continents, sesame reaches China by the Silk Road; and when the western empire falls, butter enters Europe by conquest, not trade. India and China also each begin building a market and a kitchen around oil in these same centuries — oil earning a place beside ghee in India, and the first pressing appearing in China — but in neither place does it yet replace the animal fat it sits beside.",
   "big_ideas": [
     {
-      "title": "Oil feeds an empire",
-      "text": "Monte Testaccio in Rome is a man-made hill of over 50 million amphorae, mostly oil jars; Tripolitania has hundreds of presses and its elite grows rich on exports; and a rule of thumb of 20 litres a head puts the Mediterranean’s need at hundreds of millions of litres a year, though that figure is contested.",
+      "title": "Within an empire: Rome feeds its capital",
+      "text": "Monte Testaccio’s fifty million jars, the Tripolitanian boom, an official for the oil annona, Caesar’s fine on Leptis, and a rule of thumb that puts the Mediterranean’s need at hundreds of millions of litres a year.",
       "entries": [
         "ec1",
         "ec2",
-        "ec3",
-        "x1"
+        "o3",
+        "o2",
+        "ec3"
       ]
     },
     {
-      "title": "The state treats oil as public business",
-      "text": "Ptolemy II taxes five oils, Caesar fines Leptis three million pounds of oil for backing the wrong side, Leptis gives Rome a gift of oil that leads to an official for the oil annona, and Delos’s rents rise and fall with the price of oil.",
+      "title": "Between empires, by administration: the Hellenistic world",
+      "text": "Ptolemy taxes five oils, Delos’s temple rents rise and fall with the oil price, the Fayum names seven different oils, and a legend turns one day’s lamp oil into eight — a ritual that travels with a people rather than a cargo.",
       "entries": [
         "o1",
-        "o2",
-        "o3",
-        "ec6"
+        "ec6",
+        "ec8",
+        "b2"
       ]
     },
     {
-      "title": "India and China turn to pressed seed oils",
-      "text": "Indian doctors already prefer sesame oil for frying and advise ghee only in the autumn, the Arthaśāstra prices oil in the meat shop, and the Periplus lists ghee and sesame oil as exports. In China pressing seeds begins only in the late Han and by 544 colza and hemp oil are trade goods.",
+      "title": "Across continents, by trade: Indian ghee and oil go west",
+      "text": "The Periplus carries ghee and sesame oil from Indian ports to Rome and the African coast, while at home the Arthaśāstra prices oil in the meat shop and Caraka and Suśruta give oil a place in medicine — a market and a medicine growing up beside ghee, not replacing it.",
       "entries": [
-        "th3",
-        "ec5",
         "x3",
+        "ec5",
+        "th3",
+        "b1"
+      ]
+    },
+    {
+      "title": "Across continents, by trade: sesame reaches China",
+      "text": "Sesame travels the Silk Road under the Han; pressing itself is first recorded only afterward, on an argument from silence; and by 544 AD a commercial oil trade exists, yet the same manual says lard and tallow are still preferred for roasting and frying.",
+      "entries": [
+        "x2",
         "te2",
+        "ec4",
         "th4"
       ]
     },
     {
-      "title": "Butter is the barbarian’s fat, until the north takes over",
-      "text": "Galen says butter is for cold regions without olive oil and Greek and Roman medicine uses it only in poultices. When the Germanic peoples overrun the western empire they bring meat, beer and animal fat, and a Gallo-Roman bishop complains of a Burgundian with rancid butter on his hair.",
+      "title": "By conquest: the barbarian’s fat takes Rome’s place",
+      "text": "Galen calls butter the fat of cold regions without olive oil; a Gallo-Roman bishop complains of a Burgundian with rancid butter in his hair; a Byzantine physician at a Gothic court prescribes it as medicine; and Mueller reads the Germanic conquest as animal fat’s revenge on imperial oil.",
       "entries": [
         "th1",
-        "w1",
         "e1",
-        "th2"
+        "th2",
+        "w1"
       ]
     }
   ],
   "threads": [
     {
       "key": "rome",
-      "title": "Rome and its oil provinces",
-      "claim": "The Roman oil economy grows from a Punic manual and a Greek press into a trade run by provincial elites for the capital.",
+      "title": "Within the empire: Rome feeds its capital",
+      "claim": "Oil moves from provincial press to imperial jar to a state office built to manage the flow.",
       "beats": [
         {
           "date": "c.250 BC",
@@ -94,8 +104,8 @@
     },
     {
       "key": "east",
-      "title": "The eastern Mediterranean: Delos, Egypt and the Menorah",
-      "claim": "East of the olive heartland the oils come from other plants, and oil is tax, rent and sacred ration.",
+      "title": "Between empires: the Hellenistic world administers its oil",
+      "claim": "East of Rome, oil is taxed, priced into rent, and kept sacred, by states that are themselves successors of Alexander’s conquest.",
       "beats": [
         {
           "date": "c.270 BC",
@@ -121,8 +131,8 @@
     },
     {
       "key": "india",
-      "title": "India: from ghee to oil",
-      "claim": "Indian sources of the early centuries AD already show oil on the market, in the kitchen and in the physician’s advice.",
+      "title": "Across continents, by trade: India’s ghee and oil go west",
+      "claim": "Indian oil reaches Rome and Africa as cargo, while at home it earns a documented place beside ghee.",
       "beats": [
         {
           "date": "c.300–100 BC",
@@ -148,8 +158,8 @@
     },
     {
       "key": "china",
-      "title": "China learns to press seeds",
-      "claim": "China’s cooking fats are animal fats until the Han, then seed oils become a commercial trade within about five centuries.",
+      "title": "Across continents, by trade: sesame reaches China",
+      "claim": "A crop moves west to east along the Silk Road, and pressing itself follows, centuries later, without displacing animal fat.",
       "beats": [
         {
           "date": "c.130 BC",
@@ -180,8 +190,8 @@
     },
     {
       "key": "north",
-      "title": "The north’s fats return",
-      "claim": "Butter and animal fat, scorned by the Mediterranean, come back with the new rulers.",
+      "title": "By conquest: the barbarian’s fat takes Rome’s place",
+      "claim": "The line the Mediterranean drew between civilised oil and barbarian butter is crossed when the barbarians conquer.",
       "beats": [
         {
           "date": "c.170 AD",
@@ -227,7 +237,7 @@
     },
     {
       "date": "c.130 BC",
-      "text": "Sesame is said to reach China.",
+      "text": "Sesame is said to reach China by the Silk Road.",
       "entry": "x2",
       "thread": "china"
     },
@@ -239,7 +249,7 @@
     },
     {
       "date": "c.40–70 AD",
-      "text": "The Periplus lists Indian ghee and sesame oil as exports.",
+      "text": "The Periplus carries Indian ghee and sesame oil to Rome and Africa.",
       "entry": "x3",
       "thread": "india"
     },
@@ -251,13 +261,13 @@
     },
     {
       "date": "c.100–220 AD",
-      "text": "China learns to press oil from seeds.",
+      "text": "China’s first pressing is dated, on an argument from silence.",
       "entry": "te2",
       "thread": "china"
     },
     {
       "date": "c.100–400 AD",
-      "text": "Indian medicine prefers sesame oil to ghee for frying.",
+      "text": "Indian medicine gives oil a season of its own, beside ghee.",
       "entry": "th3",
       "thread": "india"
     },
@@ -269,13 +279,13 @@
     },
     {
       "date": "c.400–550 AD",
-      "text": "The Germanic peoples bring animal fat to the western empire.",
+      "text": "The Germanic peoples bring animal fat into the western empire.",
       "entry": "w1",
       "thread": "north"
     },
     {
       "date": "544 AD",
-      "text": "The Chhi min yao shu records colza oil mills.",
+      "text": "China’s own manual still prefers lard and tallow even as its oil trade matures.",
       "entry": "th4",
       "thread": "china"
     }
@@ -382,7 +392,8 @@
     "gaps": [
       "Roman literary sources (Cato, Columella, Pliny) were not read directly; nor the Egyptian papyri.",
       "Soap in antiquity rests on two passing mentions ([[te3]]).",
-      "Sub-Saharan Africa has no entry in this folio; the shea sequence at Kirikongo starts about 100 AD and is filed in the next folio ([[ec7]] in fats-600-1000)."
+      "Sub-Saharan Africa has no entry in this folio; the shea sequence at Kirikongo starts about 100 AD and is filed in the next folio ([[ec7]] in fats-600-1000).",
+      "Buddhism’s and Jainism’s ahimsa really did reshape Indian diet over the centuries, and Buddhist vegetarianism really did reshape Chinese cooking — but neither belongs in this folio. India’s shift is a centuries-long drift with no single mechanism in the sources held (Achaya’s own chapter on meat and vegetarianism gives no economic cause, and warns that the pilgrims’ ‘almost universal vegetarianism’ is an exaggeration: about 25–30 per cent of Indians are vegetarian even today). China’s formal monastic vegetarianism is usually dated to Emperor Wu of Liang’s edicts of the 510s–520s, and the wheat-gluten and bean-curd meat-substitute cuisine Anderson describes is explicitly Tang dynasty, not yet known even in the 840s. Both stories belong in the next folio or two, sourced to Achaya and Anderson."
     ]
   },
   "reviewed": "2026-10-25",
@@ -391,5 +402,7 @@
     "The Roman entries sit in *Economy*, *Order* and *Technology*; the Indian and Chinese ones in *Thought*. Read the Nexus for the Tripolitanian chain from estates to jars to Rome.",
     "Note the numbers: they are Mattingly's and Foxhall's estimates, not Roman records, and their tier labels say so.",
     "The *picture by region* counts the 27 entries: Europe 9, Near East 3, Far East 9, Africa 5, Oceania 1; none in Americas or Worldwide. Africa here is the Roman oil province seen from Rome, not the home of African fats."
-  ]
+  ],
+  "before": "The last folio ended with fat as an institution in one place at a time: Greek law, Vedic ritual, a Near Eastern workshop. This folio is where fat starts crossing the boundaries that institution drew.",
+  "after": "The next folio carries Rome’s oil habits into the Islamic Mediterranean and the Geniza trade network, while China’s and India’s oil economies mature and Europe settles into the butter economy that conquest brought it."
 }
