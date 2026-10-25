@@ -1,136 +1,311 @@
 {
   "question": "When Church, kings and merchants start to write fats down, what do their rules and ledgers show about oil, butter and the whale?",
-  "summary": [
-    "The Middle Ages divide Europe by fat. For roughly half the year Christians fast, and in the north, where butter and lard are the cooking fats, a Lent without butter is a hardship; in the south oil carries on ([[b1]]). Councils forbid butter in Lent, a duchess lobbies Rome for the right to use it in 1491, and a cathedral tower is said to have been paid for out of butter dispensations ([[o1]], [[o2]], [[b2]]). Butter itself shifts from a sheep's luxury to an everyday cattle fat ([[ec5]]), and oil serves as money in the south ([[ec6]]).",
-    "Documents also make other fat economies countable. The Cairo Geniza shows Tunisian oil shipped to Egypt by the skin, Egypt's flax, linseed and sesame oils, and a trade in linseed oil east to Aden ([[ec2]], [[ec3]], [[x2]]); the Song capital counts oil among the seven necessities, with a dozen oils listed, tallow-tree candles, and the first Chinese description of an oil press ([[ec4]], [[th1]], [[te2]], [[te1]]); and the Basques hunt right whales from about AD 1000, selling the blubber as ‘Lenten fat’ until kings begin to tax the whale ([[ec1]], [[o3]]). On the other side of the world, Thule hunters take bowhead whales and burn their oil in lamps across the Arctic ([[ec9]]), and a Fustat shop holds linseed oil and soap among its stock ([[l2]]). Elsewhere a Palermo letter of about 1064 shows a Tunisian merchant trading five thousand dinars of olive oil with Muslim and Jewish partners, a Fustat synagogue accounts for its olive and linseed lamp oil, and a Borneo chronicle lists four Shanghai jars of coconut oil among island trade goods ([[x3]], [[ec11]], [[ec10]]).",
-    "Two quieter shifts close the folio: palm oil is on sale on the West African coast by the 1480s ([[ec7]]), and, in China, su drifts from butter toward animal-fat shortening ([[ec8]]). Marco Polo is reported to describe the sesame varieties of Persia and India ([[ec13]])."
-  ],
-  "themes": [
+  "thesis": "From 1000 to 1500 fat becomes documented, countable and rule-bound. In Latin Europe the Church’s fasting year splits the continent between butter and oil and turns butter into a matter of dispensations; the Geniza shows oil as an everyday long-distance trade of the Islamic Mediterranean; Song and Yuan China make oil one of the city’s necessities; and the Basques begin to hunt whales for fat.",
+  "big_ideas": [
     {
-      "title": "Lent, butter and the oil line",
-      "text": [
-        "The Church's fasting rules, their enforcement and their sale: a geography of fats written into law, built tower by tower."
-      ],
+      "title": "Lent divides Europe into butter and oil",
+      "text": "Christians fast for about half the year, and the rule bears very differently on a south that has olive oil and a north that has only butter. Councils forbid butter in Lent, a Breton queen lobbies Rome for a dispensation, and a cathedral tower is said to be paid for by butter sinners. Meanwhile butter becomes an everyday fat as English dairying shifts from sheep to cattle.",
       "entries": [
         "b1",
         "o1",
         "o2",
         "b2",
-        "ec5",
-        "ec6",
-        "x1"
+        "ec5"
       ]
     },
     {
-      "title": "The Mediterranean oil ledgers",
-      "text": [
-        "Geniza documents show the real flows: Tunisian oil to Alexandria, Egyptian linseed to Syria and Aden, sesame in the Delta."
-      ],
+      "title": "The Geniza makes oil a trade you can count",
+      "text": "A Tunisian merchant tells of five thousand dinars of oil in Palermo, Alexandria imports five thousand skins from Tunisia in a famine, linseed oil goes from Egypt to Syria and Aden, and a synagogue’s monthly lamp-oil accounts survive. Oil is food, light and money for ordinary people.",
       "entries": [
+        "x3",
         "ec2",
-        "ec3",
         "x2",
-        "l1",
+        "ec11",
         "l2"
       ]
     },
     {
-      "title": "Song China's oil economy",
-      "text": [
-        "A dozen oils, the first described press, candles from the tallow tree and a changing meaning for su."
-      ],
+      "title": "China makes oil a necessity and a technology",
+      "text": "A Song miscellany ranks a dozen oils with sesame the best, Hangzhou counts oil among its seven necessities, Wang Zhen gives the first description of the oil press, and su, once butter, drifts into animal-fat shortening under the Mongols, whose court physician uses sheep’s tail fat heavily.",
       "entries": [
-        "ec4",
         "th1",
+        "ec4",
         "te1",
-        "te2",
-        "ec8"
+        "ec8",
+        "e2"
       ]
     },
     {
-      "title": "The Basque whale and the beginning of whale-oil",
-      "text": [
-        "The first organised whaling, sold for fast-day fat and light and soap, quickly taxed by kings."
-      ],
+      "title": "The sea becomes a fat for fast days",
+      "text": "The Basques are the first known organised hunters of large whales, selling blubber as ‘Lenten lard’, and kings tax the catch. In the Arctic, Thule hunters burn whale and seal oil in soapstone lamps, though the date of their whaling is contested.",
       "entries": [
         "ec1",
-        "o3"
+        "o3",
+        "ec9"
       ]
     },
     {
-      "title": "Beyond Europe, Egypt and China",
-      "text": [
-        "A palm-oil market on the West African coast and the Arctic’s household whale-oil economy, the only entries from outside the folio’s three main worlds."
-      ],
+      "title": "Fat travels to the edges of the known world",
+      "text": "Baghdad-style dishes reach Latin cookbooks with bacon fat for tail fat, Marco Polo is reported to describe sesame in Persia and India, coconut oil arrives in Borneo in a chronicle, and Cadamosto and Pacheco Pereira are the first Europeans to write of West African palm oil.",
       "entries": [
-        "ec7",
-        "ec9",
-        "ec13"
+        "e1",
+        "ec13",
+        "ec10",
+        "ec7"
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "key": "lent",
+      "title": "Lent, butter and oil in Latin Christendom",
+      "claim": "The fasting rules make fat a religious question, and dispensations show butter winning the north.",
+      "beats": [
+        {
+          "date": "c.1000–1500",
+          "text": "Christians fast on Wednesdays, Fridays, Saturdays and through Lent, about half the year, and the rule bites hardest where there is no oil.",
+          "entry": "b1"
+        },
+        {
+          "date": "c.1100–1300",
+          "text": "English dairying shifts from sheep to cattle, and butter becomes an everyday fat.",
+          "entry": "ec5"
+        },
+        {
+          "date": "c.1100–1300",
+          "text": "In the south olive oil is so valuable that three to five litres buy a fat hog.",
+          "entry": "ec6"
+        },
+        {
+          "date": "c.1300–1400",
+          "text": "Spain sends olive oil north and takes wool and hides south, a microcosm of butter north and oil south.",
+          "entry": "x1"
+        },
+        {
+          "date": "c.1365",
+          "text": "The Council of Angers forbids butter in Lent.",
+          "entry": "o1"
+        },
+        {
+          "date": "1485–1507",
+          "text": "Rouen builds its Butter Tower, said to be paid for by those who bought the right to eat butter in Lent.",
+          "entry": "b2"
+        },
+        {
+          "date": "1491",
+          "text": "Anne of Brittany wins leave for butter in Lent, since Brittany has no oil.",
+          "entry": "o2"
+        }
+      ]
+    },
+    {
+      "key": "geniza",
+      "title": "Oil in the Mediterranean ledgers",
+      "claim": "The Cairo Geniza shows how oil moved: olive oil from Tunisia, linseed and sesame from Egypt, in small shops and in great partnerships.",
+      "beats": [
+        {
+          "date": "c.1000–1200",
+          "text": "Egypt’s flax makes linseed oil the common people’s lamp oil.",
+          "entry": "ec3"
+        },
+        {
+          "date": "c.1000–1200",
+          "text": "Linseed oil is exported from Egypt to olive-growing Syria and to Aden.",
+          "entry": "x2"
+        },
+        {
+          "date": "c.1064",
+          "text": "A Tunisian merchant in Palermo writes of five thousand dinars of oil in partnership with Muslims and Jews.",
+          "entry": "x3"
+        },
+        {
+          "date": "c.1065",
+          "text": "In a famine an Alexandria merchant counts five thousand skins of Tunisian oil imported in one season.",
+          "entry": "ec2"
+        },
+        {
+          "date": "c.1075–1080",
+          "text": "The Fustat synagogues’ monthly lamp-oil accounts record olive and linseed oil.",
+          "entry": "ec11"
+        },
+        {
+          "date": "1104",
+          "text": "A small Fustat shop’s stock includes two jars of linseed oil.",
+          "entry": "l2"
+        },
+        {
+          "date": "c.1300",
+          "text": "A Muslim scholar warns against sesame oil squirted from the mouths of Jewish cake makers.",
+          "entry": "l1"
+        }
+      ]
+    },
+    {
+      "key": "china",
+      "title": "Song and Yuan China",
+      "claim": "Oil goes from one of many fats to a daily necessity, with a described technology and a changing butter.",
+      "beats": [
+        {
+          "date": "c.1190",
+          "text": "The Chi le pien says oil is used everywhere for eating and burning, sesame the best, and lists a dozen others.",
+          "entry": "th1"
+        },
+        {
+          "date": "c.1190",
+          "text": "The hard oil of the Chinese tallow tree is poured into candles in Guangnan.",
+          "entry": "te2"
+        },
+        {
+          "date": "c.1250",
+          "text": "Hangzhou’s seven daily necessities include oil, and oil-pressing shops are seen in the city.",
+          "entry": "ec4"
+        },
+        {
+          "date": "c.1300",
+          "text": "Su, once butter, becomes a shortening based on sheep tallow or lard.",
+          "entry": "ec8"
+        },
+        {
+          "date": "1313",
+          "text": "Wang Zhen gives the first description of an oil press in Chinese literature.",
+          "entry": "te1"
+        },
+        {
+          "date": "1330",
+          "text": "The Mongol court physician’s dietetics make heavy use of the fat of the fat-tailed sheep.",
+          "entry": "e2"
+        }
+      ]
+    },
+    {
+      "key": "whale",
+      "title": "Whales and the Arctic lamp",
+      "claim": "The first organised hunting of large whales serves fast days, the Crown and the lamp.",
+      "beats": [
+        {
+          "date": "c.1000–1300",
+          "text": "The Basques hunt the right whale from watchtowers and sell its blubber as Lenten lard.",
+          "entry": "ec1"
+        },
+        {
+          "date": "c.1000–1500",
+          "text": "Thule hunters rely on bowhead whales and burn seal and whale oil in soapstone lamps, though the old story is contested.",
+          "entry": "ec9"
+        },
+        {
+          "date": "1197–1324",
+          "text": "Kings tax the whale: Biarritz in 1197, Bayonne in 1261, the royal fish in 1324.",
+          "entry": "o3"
+        }
+      ]
+    },
+    {
+      "key": "edges",
+      "title": "Fat at the edges of the known world",
+      "claim": "Travellers and chroniclers begin to report fats that Europe barely knew.",
+      "beats": [
+        {
+          "date": "c.940–1280",
+          "text": "Polynesians settle Hawai‘i and New Zealand with their tree crops.",
+          "entry": "ec12"
+        },
+        {
+          "date": "c.1271–1295",
+          "text": "Marco Polo is reported to describe sesame varieties in Persia and India.",
+          "entry": "ec13"
+        },
+        {
+          "date": "c.1280–1300",
+          "text": "Arab dishes reach Latin cookbooks, with bacon fat in place of sheep’s tail fat.",
+          "entry": "e1"
+        },
+        {
+          "date": "c.1300–1500",
+          "text": "A Banjarmasin chronicle has a hero bring four Shanghai jars of coconut oil from Surabaya.",
+          "entry": "ec10"
+        },
+        {
+          "date": "c.1460–1485",
+          "text": "Cadamosto and Pacheco Pereira write of palm oil in cooking and for sale on the West African coast.",
+          "entry": "ec7"
+        }
       ]
     }
   ],
   "turning_points": [
     {
-      "date": "c.1000–1300",
-      "text": "The Basques hunt the right whale and sell its fat on fast days.",
-      "entry": "ec1"
+      "date": "c.1000",
+      "text": "The Basques begin organised whaling.",
+      "entry": "ec1",
+      "thread": "whale"
     },
     {
       "date": "c.1065",
-      "text": "Five thousand skins of Tunisian oil reach Alexandria in one season.",
-      "entry": "ec2"
+      "text": "Alexandria imports five thousand skins of Tunisian oil.",
+      "entry": "ec2",
+      "thread": "geniza"
+    },
+    {
+      "date": "c.1100–1300",
+      "text": "Butter becomes an everyday cattle fat in England.",
+      "entry": "ec5",
+      "thread": "lent"
+    },
+    {
+      "date": "c.1190",
+      "text": "The Chi le pien ranks the oils of Song China.",
+      "entry": "th1",
+      "thread": "china"
+    },
+    {
+      "date": "1197",
+      "text": "King John taxes the first whales at Biarritz.",
+      "entry": "o3",
+      "thread": "whale"
+    },
+    {
+      "date": "c.1250",
+      "text": "Hangzhou counts oil among its necessities.",
+      "entry": "ec4",
+      "thread": "china"
+    },
+    {
+      "date": "c.1300",
+      "text": "China’s su becomes animal-fat shortening.",
+      "entry": "ec8",
+      "thread": "china"
     },
     {
       "date": "1313",
-      "text": "Wang Zhen describes the Chinese oil press.",
-      "entry": "te1"
+      "text": "Wang Zhen describes the oil press.",
+      "entry": "te1",
+      "thread": "china"
     },
     {
       "date": "c.1365",
-      "text": "The Council of Angers restricts butter in Lent.",
-      "entry": "o1"
+      "text": "The Council of Angers forbids butter in Lent.",
+      "entry": "o1",
+      "thread": "lent"
+    },
+    {
+      "date": "c.1460",
+      "text": "Cadamosto reports palm oil in West Africa.",
+      "entry": "ec7",
+      "thread": "edges"
     },
     {
       "date": "1485–1507",
-      "text": "The Butter Tower of Rouen is built.",
-      "entry": "b2"
+      "text": "Rouen builds its Butter Tower.",
+      "entry": "b2",
+      "thread": "lent"
     },
     {
-      "date": "1491–1495",
-      "text": "Brittany, then much of northern Europe, wins butter dispensations.",
-      "entry": "o2"
+      "date": "1491",
+      "text": "Anne of Brittany wins a butter dispensation.",
+      "entry": "o2",
+      "thread": "lent"
     }
   ],
-  "how_to_read": [
-    "*Order* and *Belief* carry the Lent story; *Economy* and *Exchange* carry the Geniza and the Song. The Nexus ties the fasting rules to the butter dispensations and the whale taxes.",
-    "The two halves of the folio (Latin Europe and the Islamic and Chinese worlds) barely touch, and the Overview reads them side by side.",
-    "The *picture by region* counts the 28 entries: Europe 11, Near East 7, Far East 7, Africa 1, Americas 1, Oceania 1; none in Worldwide. The Americas and Africa have one entry each, and the Thule date is itself contested."
-  ],
-  "sources": {
-    "intro": "Documents rule this period. The Geniza, the Song miscellany and the Lenten canons are all read through intermediaries — Goitein, Needham and Khosrova — and so inherit their selection.",
-    "main": [
-      "Khosrova, with Flandrin, for Lent and butter ([[b1]], [[o1]], [[o2]], [[b2]]); Mueller for oil as money ([[ec6]]).",
-      "Goitein, *A Mediterranean Society* vol. 1, read by OCR, for the Geniza ([[ec2]], [[ec3]], [[x2]], [[l1]]).",
-      "Needham, SCC 6.5, for Song and Yuan China ([[ec4]], [[th1]], [[te1]], [[te2]], [[ec8]]).",
-      "Ellis for whaling ([[ec1]], [[o3]]); Lynn for palm oil ([[ec7]]).",
-      "Goitein again for the shop of 1104 ([[l2]]); museum and encyclopedia pages found by search for the Thule ([[ec9]]).",
-      "Goitein vol. II for the Palermo letter and the synagogue accounts ([[x3]], [[ec11]]); Reid for the Borneo chronicle ([[ec10]]); Chang on the Ming reading of su yu ([[ec8]]).",
-      "Anderson for the 1330 dietetics ([[e2]]); Kirch for the Polynesian settlement dates ([[ec12]]).",
-      "Mortazavian, in Bedigian’s *Sesame* volume, for Marco Polo on sesame, at second hand ([[ec13]])."
-    ],
-    "contested": [
-      "The Rouen tower's financing is tradition without accounts ([[b2]]); the date of the Angers canon is not given ([[o1]]).",
-      "Mueller's oil-as-money contracts are unnamed ([[ec6]]); the Butter-to-cattle shift is unsourced ([[ec5]]).",
-      "The Muslim scholar's remark on Jewish cake makers is hostile testimony ([[l1]]).",
-      "The Thule expansion dates and whaling’s role are argued ([[ec9]])."
-    ],
-    "gaps": [
-      "Medieval Italian, Spanish and Provençal oil trade, and soap guilds, have no primary source here.",
-      "Vol. 3 of Goitein and Ibn Butlan, Seth and Ibn al-Baytar on fats were not read.",
-      "Africa has one entry (West African palm oil in the 1400s); nothing on shea after Kirikongo, Ethiopia, the Swahili coast or Mali. The Americas have the Thule only; Aztec, Maya and Andean fats, India, Central Asia, Southeast Asia and Oceania have no entry."
-    ]
-  },
-  "reviewed": "2026-10-25",
   "regions": [
     {
       "region": "Europe",
@@ -215,5 +390,36 @@
       ],
       "entries": []
     }
+  ],
+  "sources": {
+    "intro": "Documents rule this period. The Geniza, the Song miscellany and the Lenten canons are all read through intermediaries — Goitein, Needham and Khosrova — and so inherit their selection.",
+    "main": [
+      "Khosrova, with Flandrin, for Lent and butter ([[b1]], [[o1]], [[o2]], [[b2]]); Mueller for oil as money ([[ec6]]).",
+      "Goitein, *A Mediterranean Society* vol. 1, read by OCR, for the Geniza ([[ec2]], [[ec3]], [[x2]], [[l1]]).",
+      "Needham, SCC 6.5, for Song and Yuan China ([[ec4]], [[th1]], [[te1]], [[te2]], [[ec8]]).",
+      "Ellis for whaling ([[ec1]], [[o3]]); Lynn for palm oil ([[ec7]]).",
+      "Goitein again for the shop of 1104 ([[l2]]); museum and encyclopedia pages found by search for the Thule ([[ec9]]).",
+      "Goitein vol. II for the Palermo letter and the synagogue accounts ([[x3]], [[ec11]]); Reid for the Borneo chronicle ([[ec10]]); Chang on the Ming reading of su yu ([[ec8]]).",
+      "Anderson for the 1330 dietetics ([[e2]]); Kirch for the Polynesian settlement dates ([[ec12]]).",
+      "Mortazavian, in Bedigian’s *Sesame* volume, for Marco Polo on sesame, at second hand ([[ec13]])."
+    ],
+    "contested": [
+      "The Rouen tower's financing is tradition without accounts ([[b2]]); the date of the Angers canon is not given ([[o1]]).",
+      "Mueller's oil-as-money contracts are unnamed ([[ec6]]); the Butter-to-cattle shift is unsourced ([[ec5]]).",
+      "The Muslim scholar's remark on Jewish cake makers is hostile testimony ([[l1]]).",
+      "The Thule expansion dates and whaling’s role are argued ([[ec9]])."
+    ],
+    "gaps": [
+      "Medieval Italian, Spanish and Provençal oil trade, and soap guilds, have no primary source here.",
+      "Vol. 3 of Goitein and Ibn Butlan, Seth and Ibn al-Baytar on fats were not read.",
+      "Africa has one entry (West African palm oil in the 1400s); nothing on shea after Kirikongo, Ethiopia, the Swahili coast or Mali. The Americas have the Thule only; Aztec, Maya and Andean fats, India, Central Asia, Southeast Asia and Oceania have no entry."
+    ]
+  },
+  "reviewed": "2026-10-25",
+  "how_to_read": [
+    "Read the thesis and the big ideas first, then the threads: each runs in date order and points to the entries that carry it. Entries that no thread needs are still reached through the regional picture and the lists.",
+    "*Order* and *Belief* carry the Lent story; *Economy* and *Exchange* carry the Geniza and the Song. The Nexus ties the fasting rules to the butter dispensations and the whale taxes.",
+    "The two halves of the folio (Latin Europe and the Islamic and Chinese worlds) barely touch, and the Overview reads them side by side.",
+    "The *picture by region* counts the 28 entries: Europe 11, Near East 7, Far East 7, Africa 1, Americas 1, Oceania 1; none in Worldwide. The Americas and Africa have one entry each, and the Thule date is itself contested."
   ]
 }

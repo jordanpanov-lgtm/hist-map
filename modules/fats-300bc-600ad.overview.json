@@ -1,76 +1,208 @@
 {
   "question": "When oil becomes an imperial commodity, who supplies it, who is barred from it — and where do pressing and churning begin elsewhere?",
-  "summary": [
-    "Under Rome, olive oil becomes a state-scale commodity. Monte Testaccio, a hill of some fifty million discarded oil jars, is its monument ([[ec1]]); the Tripolitanian olive boom turns Lepcis Magna's landowners into senators and then into the first African emperor ([[ec2]]); Caesar fines Leptis three million pounds of oil, and Lepcis later gives Rome an oil gift that creates a procurator for the oil annona ([[o2]], [[o3]]); and the beam, lever and screw presses are the machines ([[te1]]). Mattingly's rule of thumb of 20 litres a head implies a Mediterranean demand in the hundreds of millions of litres a year ([[ec3]]).",
-    "Elsewhere other fats take their own paths. In India ghee and sesame oil are exported and prescribed by season, and the Arthaśāstra gives cooking proportions of oil for the meat shop ([[x3]], [[th3]], [[ec5]], [[b1]]). In China the pressing of seeds for oil begins only in the late Han, an oil trade appears by about 290, and by 544 colza mills sell oil while lard and tallow still lead in the kitchen; the same manual teaches churning su, China's butter ([[te2]], [[ec4]], [[th4]], [[te4]]). In Egypt the Ptolemies tax five oils ([[o1]]).",
-    "The north keeps animal fat and butter. Rome's writers treat butter as the barbarian's fat, fit for poultices or hair, and the Germanic peoples who overrun the western empire bring, in Mueller's phrase, the ‘revenge of animal fat on imperial oil’ ([[e1]], [[th1]], [[th2]], [[w1]]).",
-    "Beyond the imperial frame the folio adds four smaller lights. Carthage’s farming manual, lost in Punic, reaches us only because Rome had it translated ([[th5]]); the sanctuary of Delos pays rents that follow the price of oil ([[ec6]]); Hanukkah makes a day’s lamp oil last eight ([[b2]]); and the domesticated coconut travels across the Pacific with the Polynesians, a fat tradition with no Roman or Indian text at all ([[ec7]]). In Egypt the Greek papyri of the Fayum name castor, radish, safflower, linseed, sesame and olive oils ([[ec8]])."
-  ],
-  "themes": [
+  "thesis": "From 300 BC to 600 AD olive oil becomes an imperial commodity: a hill of 50 million jars at Rome, a Tripolitanian boom and an oil annona show a state feeding its capital on oil. In India and China the move is from ghee and animal fat to pressed seed oils, and when the western empire falls the butter and animal fat of the north come back.",
+  "big_ideas": [
     {
-      "title": "Rome's oil economy",
-      "text": [
-        "Jars, estates, taxes and presses: the best-quantified oil trade of antiquity, though the numbers are modern estimates."
-      ],
+      "title": "Oil feeds an empire",
+      "text": "Monte Testaccio in Rome is a man-made hill of over 50 million amphorae, mostly oil jars; Tripolitania has hundreds of presses and its elite grows rich on exports; and a rule of thumb of 20 litres a head puts the Mediterranean’s need at hundreds of millions of litres a year, though that figure is contested.",
       "entries": [
         "ec1",
         "ec2",
-        "x1",
+        "ec3",
+        "x1"
+      ]
+    },
+    {
+      "title": "The state treats oil as public business",
+      "text": "Ptolemy II taxes five oils, Caesar fines Leptis three million pounds of oil for backing the wrong side, Leptis gives Rome a gift of oil that leads to an official for the oil annona, and Delos’s rents rise and fall with the price of oil.",
+      "entries": [
+        "o1",
         "o2",
         "o3",
-        "ec3",
-        "te1",
-        "th5",
         "ec6"
       ]
     },
     {
-      "title": "Butter and the barbarian",
-      "text": [
-        "Roman medicine uses butter as a drug while Roman poets mock it as the northerners' hair-dressing; after 400, the northern fat culture advances."
-      ],
+      "title": "India and China turn to pressed seed oils",
+      "text": "Indian doctors already prefer sesame oil for frying and advise ghee only in the autumn, the Arthaśāstra prices oil in the meat shop, and the Periplus lists ghee and sesame oil as exports. In China pressing seeds begins only in the late Han and by 544 colza and hemp oil are trade goods.",
       "entries": [
-        "th1",
-        "th2",
-        "e1",
-        "w1"
-      ]
-    },
-    {
-      "title": "India: ghee, oil and medicine",
-      "text": [
-        "The Vinaya's five medicines, Caraka's seasonal rule for ghee, the Arthaśāstra shop, and the Periplus's exports show fats as medicine, trade and cooking at once."
-      ],
-      "entries": [
-        "b1",
         "th3",
         "ec5",
-        "x3"
-      ]
-    },
-    {
-      "title": "China begins to press, and to churn",
-      "text": [
-        "Needham reads the absence of pressed oil before the Han as an argument from silence; by 544 the Chhi min yao shu describes colza mills, perilla and sesame oils and a recipe for su."
-      ],
-      "entries": [
+        "x3",
         "te2",
-        "ec4",
-        "th4",
-        "te4",
-        "x2"
+        "th4"
       ]
     },
     {
-      "title": "Other lights: Carthage, Delos, Jerusalem and the Pacific",
-      "text": [
-        "Four entries that do not fit the imperial story: a lost Punic manual, an island sanctuary’s accounts, a lamp-oil legend and a coconut voyage whose date is only a placeholder."
-      ],
+      "title": "Butter is the barbarian’s fat, until the north takes over",
+      "text": "Galen says butter is for cold regions without olive oil and Greek and Roman medicine uses it only in poultices. When the Germanic peoples overrun the western empire they bring meat, beer and animal fat, and a Gallo-Roman bishop complains of a Burgundian with rancid butter on his hair.",
       "entries": [
-        "th5",
-        "ec6",
-        "b2",
-        "ec7"
+        "th1",
+        "w1",
+        "e1",
+        "th2"
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "key": "rome",
+      "title": "Rome and its oil provinces",
+      "claim": "The Roman oil economy grows from a Punic manual and a Greek press into a trade run by provincial elites for the capital.",
+      "beats": [
+        {
+          "date": "c.250 BC",
+          "text": "Mago of Carthage writes the farming manual in Punic that Rome later has translated.",
+          "entry": "th5"
+        },
+        {
+          "date": "c.160 BC–77 AD",
+          "text": "Cato describes the beam press, and Pliny lists the screw press and the roller mill.",
+          "entry": "te1"
+        },
+        {
+          "date": "46 BC",
+          "text": "Caesar fines Leptis three million pounds of oil after the civil war.",
+          "entry": "o2"
+        },
+        {
+          "date": "c.100–250 AD",
+          "text": "Monte Testaccio rises from over 50 million amphorae, mostly from southern Spain.",
+          "entry": "ec1"
+        },
+        {
+          "date": "c.100 AD",
+          "text": "About 20 litres a head would make the Mediterranean’s need 500 to 1,000 million litres a year.",
+          "entry": "ec3"
+        },
+        {
+          "date": "c.100–230 AD",
+          "text": "The territory of Lepcis holds perhaps 1,500 olive presses, and its elite grows rich on oil.",
+          "entry": "ec2"
+        },
+        {
+          "date": "c.150–250 AD",
+          "text": "Tripolitanian oil reaches Rome and Ostia in its own amphorae, stamped by elite estates.",
+          "entry": "x1"
+        },
+        {
+          "date": "c.200–235 AD",
+          "text": "Lepcis’s gift of oil to Rome leads to a procurator for the Tripolitanian oil annona.",
+          "entry": "o3"
+        }
+      ]
+    },
+    {
+      "key": "east",
+      "title": "The eastern Mediterranean: Delos, Egypt and the Menorah",
+      "claim": "East of the olive heartland the oils come from other plants, and oil is tax, rent and sacred ration.",
+      "beats": [
+        {
+          "date": "c.270 BC",
+          "text": "On Delos, farms with no olives pay rents that rise and fall with the price of oil.",
+          "entry": "ec6"
+        },
+        {
+          "date": "c.259 BC",
+          "text": "Ptolemy II’s Revenue Laws tax five oils, among them castor.",
+          "entry": "o1"
+        },
+        {
+          "date": "c.250 BC–200 AD",
+          "text": "The Fayum papyri name castor, linseed, radish, safflower, sesame and olive oil.",
+          "entry": "ec8"
+        },
+        {
+          "date": "168 BC",
+          "text": "In tradition, one day’s lamp oil lights the Temple Menorah for eight days.",
+          "entry": "b2"
+        }
+      ]
+    },
+    {
+      "key": "india",
+      "title": "India: from ghee to oil",
+      "claim": "Indian sources of the early centuries AD already show oil on the market, in the kitchen and in the physician’s advice.",
+      "beats": [
+        {
+          "date": "c.300–100 BC",
+          "text": "The Pali Vinaya lets sick monks take ghee, butter, oil, honey and syrup after midday.",
+          "entry": "b1"
+        },
+        {
+          "date": "c.40–70 AD",
+          "text": "The Periplus lists ghee and sesame oil among goods carried from Indian ports to the African coast.",
+          "entry": "x3"
+        },
+        {
+          "date": "c.100–400 AD",
+          "text": "Caraka advises ghee in autumn and sesame oil for frying; Suśruta counts sixty oilseeds.",
+          "entry": "th3"
+        },
+        {
+          "date": "c.300 AD",
+          "text": "The Arthaśāstra gives the oil, curds and spices for dressing 20 palas of meat in a shop.",
+          "entry": "ec5"
+        }
+      ]
+    },
+    {
+      "key": "china",
+      "title": "China learns to press seeds",
+      "claim": "China’s cooking fats are animal fats until the Han, then seed oils become a commercial trade within about five centuries.",
+      "beats": [
+        {
+          "date": "c.130 BC",
+          "text": "Tradition says Zhang Qian brings sesame from the west along the Silk Road.",
+          "entry": "x2"
+        },
+        {
+          "date": "c.100–220 AD",
+          "text": "Needham concludes that pressing seeds for oil was not accomplished until the late Han.",
+          "entry": "te2"
+        },
+        {
+          "date": "c.290 AD",
+          "text": "A warehouse holds ten thousand piculs of hemp oil, a record of oil as a trade commodity.",
+          "entry": "ec4"
+        },
+        {
+          "date": "544 AD",
+          "text": "The Chhi min yao shu has colza seed sold to the oil mills, worth as much as hulled grain.",
+          "entry": "th4"
+        },
+        {
+          "date": "544 AD",
+          "text": "The same manual teaches how to churn su, China’s butter-like fat, from soured milk.",
+          "entry": "te4"
+        }
+      ]
+    },
+    {
+      "key": "north",
+      "title": "The north’s fats return",
+      "claim": "Butter and animal fat, scorned by the Mediterranean, come back with the new rulers.",
+      "beats": [
+        {
+          "date": "c.170 AD",
+          "text": "Galen says people in cold regions without olive oil wash with butter, and that doctors use it in poultices.",
+          "entry": "th1"
+        },
+        {
+          "date": "c.400–550 AD",
+          "text": "The Germanic peoples bring a cuisine of meat, beer and animal fat in place of bread, wine and oil.",
+          "entry": "w1"
+        },
+        {
+          "date": "c.470 AD",
+          "text": "Sidonius Apollinaris complains of a Burgundian with his head ‘perfumed with rancid butter’.",
+          "entry": "e1"
+        },
+        {
+          "date": "c.511–534 AD",
+          "text": "The physician Anthimus prescribes fresh unsalted butter with honey for consumption.",
+          "entry": "th2"
+        }
       ]
     }
   ],
@@ -78,62 +210,76 @@
     {
       "date": "c.259 BC",
       "text": "Ptolemy II taxes five oils in Egypt.",
-      "entry": "o1"
+      "entry": "o1",
+      "thread": "east"
+    },
+    {
+      "date": "c.250 BC",
+      "text": "Mago’s Punic farming manual is written.",
+      "entry": "th5",
+      "thread": "rome"
+    },
+    {
+      "date": "c.160 BC",
+      "text": "Cato describes the beam press for olives.",
+      "entry": "te1",
+      "thread": "rome"
+    },
+    {
+      "date": "c.130 BC",
+      "text": "Sesame is said to reach China.",
+      "entry": "x2",
+      "thread": "china"
     },
     {
       "date": "46 BC",
       "text": "Caesar fines Leptis three million pounds of oil.",
-      "entry": "o2"
+      "entry": "o2",
+      "thread": "rome"
+    },
+    {
+      "date": "c.40–70 AD",
+      "text": "The Periplus lists Indian ghee and sesame oil as exports.",
+      "entry": "x3",
+      "thread": "india"
+    },
+    {
+      "date": "c.100–250 AD",
+      "text": "Monte Testaccio grows to over 50 million jars.",
+      "entry": "ec1",
+      "thread": "rome"
     },
     {
       "date": "c.100–220 AD",
       "text": "China learns to press oil from seeds.",
-      "entry": "te2"
+      "entry": "te2",
+      "thread": "china"
     },
     {
-      "date": "c.100–250 AD",
-      "text": "Monte Testaccio rises in Rome; Tripolitania booms.",
-      "entry": "ec1"
+      "date": "c.100–400 AD",
+      "text": "Indian medicine prefers sesame oil to ghee for frying.",
+      "entry": "th3",
+      "thread": "india"
+    },
+    {
+      "date": "c.200–235 AD",
+      "text": "Rome appoints an official for Tripolitania’s oil annona.",
+      "entry": "o3",
+      "thread": "rome"
     },
     {
       "date": "c.400–550 AD",
       "text": "The Germanic peoples bring animal fat to the western empire.",
-      "entry": "w1"
+      "entry": "w1",
+      "thread": "north"
     },
     {
-      "date": "544",
-      "text": "The Chhi min yao shu records colza oil mills and the churning of su.",
-      "entry": "th4"
+      "date": "544 AD",
+      "text": "The Chhi min yao shu records colza oil mills.",
+      "entry": "th4",
+      "thread": "china"
     }
   ],
-  "how_to_read": [
-    "The Roman entries sit in *Economy*, *Order* and *Technology*; the Indian and Chinese ones in *Thought*. Read the Nexus for the Tripolitanian chain from estates to jars to Rome.",
-    "Note the numbers: they are Mattingly's and Foxhall's estimates, not Roman records, and their tier labels say so.",
-    "The *picture by region* counts the 27 entries: Europe 9, Near East 3, Far East 9, Africa 5, Oceania 1; none in Americas or Worldwide. Africa here is the Roman oil province seen from Rome, not the home of African fats."
-  ],
-  "sources": {
-    "intro": "A scholarly archaeology of Roman oil in Mattingly, a scholarly translation of Chinese farm and oil texts in Needham, popular histories for butter, and Achaya for India.",
-    "main": [
-      "Mattingly, *Tripolitania* and ‘The Olive Boom’, for the Libyan estates, amphorae and annona ([[ec1]], [[ec2]], [[o2]], [[o3]], [[x1]], [[ec3]]).",
-      "Needham, SCC 6.5, for the Chinese presses, oils and su ([[te1]], [[te2]], [[ec4]], [[th4]], [[te4]]).",
-      "Achaya for India ([[th3]], [[ec5]], [[x3]]); Khosrova and Mueller for Rome's butter and the Germanic shift ([[th1]], [[th2]], [[e1]], [[w1]]); Dalby for Egypt ([[o1]]).",
-      "Foxhall for Delos ([[ec6]]); Mueller for Hanukkah ([[b2]]); encyclopedia and lecture notes found by search for Mago ([[th5]]); Kiple for the coconut ([[ec7]]).",
-      "Lucas, read from a scanned copy, for Egypt’s oils in the Greek papyri ([[ec8]])."
-    ],
-    "contested": [
-      "Whether Caesar's fine was annual and which Leptis it fell on ([[o2]]); the Arthaśāstra's date ([[ec5]]).",
-      "The first pressing of oil in China is an argument from absence ([[te2]]).",
-      "The Germanic ‘revenge of animal fat’ is Mueller's interpretation ([[w1]]).",
-      "Dating of the Monte Testaccio dump is the folio's, not a cited figure ([[ec1]]).",
-      "Mago’s date is unsettled ([[th5]]); Mueller dates the Hanukkah miracle to 168 BC, where 164 BC is the usual year ([[b2]]); the coconut entry’s date is a placeholder ([[ec7]])."
-    ],
-    "gaps": [
-      "Roman literary sources (Cato, Columella, Pliny) were not read directly; nor the Egyptian papyri.",
-      "Soap in antiquity rests on two passing mentions ([[te3]]).",
-      "Sub-Saharan Africa has no entry in this folio; the shea sequence at Kirikongo starts about 100 AD and is filed in the next folio ([[ec7]] in fats-600-1000)."
-    ]
-  },
-  "reviewed": "2026-10-25",
   "regions": [
     {
       "region": "Europe",
@@ -216,5 +362,34 @@
       ],
       "entries": []
     }
+  ],
+  "sources": {
+    "intro": "A scholarly archaeology of Roman oil in Mattingly, a scholarly translation of Chinese farm and oil texts in Needham, popular histories for butter, and Achaya for India.",
+    "main": [
+      "Mattingly, *Tripolitania* and ‘The Olive Boom’, for the Libyan estates, amphorae and annona ([[ec1]], [[ec2]], [[o2]], [[o3]], [[x1]], [[ec3]]).",
+      "Needham, SCC 6.5, for the Chinese presses, oils and su ([[te1]], [[te2]], [[ec4]], [[th4]], [[te4]]).",
+      "Achaya for India ([[th3]], [[ec5]], [[x3]]); Khosrova and Mueller for Rome's butter and the Germanic shift ([[th1]], [[th2]], [[e1]], [[w1]]); Dalby for Egypt ([[o1]]).",
+      "Foxhall for Delos ([[ec6]]); Mueller for Hanukkah ([[b2]]); encyclopedia and lecture notes found by search for Mago ([[th5]]); Kiple for the coconut ([[ec7]]).",
+      "Lucas, read from a scanned copy, for Egypt’s oils in the Greek papyri ([[ec8]])."
+    ],
+    "contested": [
+      "Whether Caesar's fine was annual and which Leptis it fell on ([[o2]]); the Arthaśāstra's date ([[ec5]]).",
+      "The first pressing of oil in China is an argument from absence ([[te2]]).",
+      "The Germanic ‘revenge of animal fat’ is Mueller's interpretation ([[w1]]).",
+      "Dating of the Monte Testaccio dump is the folio's, not a cited figure ([[ec1]]).",
+      "Mago’s date is unsettled ([[th5]]); Mueller dates the Hanukkah miracle to 168 BC, where 164 BC is the usual year ([[b2]]); the coconut entry’s date is a placeholder ([[ec7]])."
+    ],
+    "gaps": [
+      "Roman literary sources (Cato, Columella, Pliny) were not read directly; nor the Egyptian papyri.",
+      "Soap in antiquity rests on two passing mentions ([[te3]]).",
+      "Sub-Saharan Africa has no entry in this folio; the shea sequence at Kirikongo starts about 100 AD and is filed in the next folio ([[ec7]] in fats-600-1000)."
+    ]
+  },
+  "reviewed": "2026-10-25",
+  "how_to_read": [
+    "Read the thesis and the big ideas first, then the threads: each runs in date order and points to the entries that carry it. Entries that no thread needs are still reached through the regional picture and the lists.",
+    "The Roman entries sit in *Economy*, *Order* and *Technology*; the Indian and Chinese ones in *Thought*. Read the Nexus for the Tripolitanian chain from estates to jars to Rome.",
+    "Note the numbers: they are Mattingly's and Foxhall's estimates, not Roman records, and their tier labels say so.",
+    "The *picture by region* counts the 27 entries: Europe 9, Near East 3, Far East 9, Africa 5, Oceania 1; none in Americas or Worldwide. Africa here is the Roman oil province seen from Rome, not the home of African fats."
   ]
 }

@@ -1,142 +1,289 @@
 {
   "question": "How do candles, lamps and soap become industries — and what replaces slaves with palm oil on the African coast?",
-  "summary": [
-    "Light and soap drive this century. Spermaceti, the head matter of the sperm whale, makes the brightest candles, and in 1761 the largest chandlers form a trust to control it ([[ec1]]); American whaling grows into the largest fleet in history, 735 ships, between 1815 and the 1850s ([[ec2]]). Argand's smokeless lamp (1783) and gaslight (1810) make oil a technology of light, then challenge it ([[te1]], [[te2]]). Chevreul's chemistry, Leblanc soda and steam make soap industrial, and consumption doubles ([[th1]], [[te3]], [[ec6]]).",
-    "A second chain runs through Africa. When Britain abolishes the slave trade in 1807, British palm-oil imports rise from under 2,000 tons a year in 1815–20 to over 22,000 in 1846–50 ([[o1]], [[ec3]], [[x1]]); the oil is made from natural groves, shipped by Liverpool and Bristol houses that were slave traders, and used for lubricants, candles and soap ([[x3]], [[ec4]], [[ec8]], [[ec7]]). Law argues that this oil boom increased slavery inside West Africa ([[l1]]).",
-    "Soap-makers also turn to imported oilseeds as olive oil loses its dominance at Marseille ([[ec5]]), while the olive itself is planted in California ([[x2]]) and the Dutch whale fishery collapses in the revolutionary wars ([[w1]]). Whaling also spreads to the southern hemisphere: Tasmania’s bay whalers make it Australia’s first industry, New Zealand’s shore stations number perhaps a hundred, and by 1795 Yankee whaleships crowd Walvis Bay ([[ec9]], [[ec10]], [[ec11]]). The Pacific ports of Honolulu and Lahaina are the whalers’ base, with six hundred arrivals in 1846, and in Malaya a colonial superintendent plants coconuts and nutmeg ([[ec12]], [[ec13]]). Two smaller fats appear beside them: in Russia the sunflower seed slips past the Orthodox Lenten list of forbidden oils, and cod liver oil is a medicine before anyone knows about vitamins ([[b1]], [[th2]])."
-  ],
-  "themes": [
+  "thesis": "Between 1750 and 1850 fat becomes a chemical, industrial and imperial matter. Whale oil and spermaceti reach their peak and spread to every ocean; West African palm oil takes the place of the slave trade in Liverpool and Bristol and greases the machines; soap consumption doubles under the new chemistry of fats; and light moves from the oil lamp to gas.",
+  "big_ideas": [
     {
-      "title": "The whale's golden age",
-      "text": [
-        "Spermaceti candles, a cartel, and an American fleet at its peak; the Dutch have already gone."
-      ],
+      "title": "Whaling peaks and goes round the world",
+      "text": "Spermaceti gives the brightest candle, the American fleet reaches 735 ships, and as the Dutch fishery collapses the hunt spreads to Walvis Bay, the Derwent, Cook Strait and Honolulu. Whale oil is a global industry, and it runs on shore stations and ports as much as on ships.",
       "entries": [
         "ec1",
         "ec2",
         "w1",
+        "ec11",
         "ec9",
         "ec10",
-        "ec11"
+        "ec12"
       ]
     },
     {
-      "title": "Light before electricity",
-      "text": [
-        "From the Argand lamp to gas, light is made by chemistry as much as by fat."
-      ],
+      "title": "Palm oil replaces the slave trade, but not slavery",
+      "text": "After Britain abolishes the slave trade in 1807 the Bight of Biafra ports and Liverpool’s slave-trading houses turn to palm oil, and British imports rise tenfold in a generation. The oil is made from tended groves, not plantations, and Law argues that the demand for soap increases slavery inside West Africa.",
       "entries": [
+        "o1",
+        "ec4",
+        "x1",
+        "ec3",
+        "x3",
+        "l1"
+      ]
+    },
+    {
+      "title": "Chemistry and machines make soap and light industrial",
+      "text": "Chevreul shows what a fat is, Leblanc soda and steam power remake soap making, soap consumption more than doubles, and the Marseille kettles of olive oil face imported seed oils. At the same time the Argand lamp and gaslight change what a lamp burns.",
+      "entries": [
+        "th1",
+        "te3",
+        "ec6",
+        "ec5",
         "te1",
         "te2"
       ]
     },
     {
-      "title": "Soap becomes industrial",
-      "text": [
-        "Chevreul, Leblanc and steam; consumption doubles; the excise leaves a record; imported oilseeds challenge the olive."
-      ],
+      "title": "Small fats with large futures",
+      "text": "Cod liver oil is a medicine before vitamins, the Russian sunflower escapes the Lenten list of forbidden oils, Franciscans plant olives in California, and a Malayan superintendent plants coconuts: four fats on the margins that will matter later.",
       "entries": [
-        "th1",
-        "te3",
-        "ec6",
-        "o2",
-        "ec5"
-      ]
-    },
-    {
-      "title": "From slaves to palm oil",
-      "text": [
-        "Abolition, Biafra's ports, Liverpool and Bristol merchants, the groves, and slavery inside Africa."
-      ],
-      "entries": [
-        "o1",
-        "ec3",
-        "x1",
-        "x3",
-        "ec4",
-        "ec8",
-        "l1"
-      ]
-    },
-    {
-      "title": "Palm oil for machines and candles",
-      "text": [
-        "Lubricants for the railways, soap, candles, glycerine and tinplate."
-      ],
-      "entries": [
-        "ec7"
-      ]
-    },
-    {
-      "title": "Two small fats with large futures",
-      "text": [
-        "The sunflower escapes Russia’s Lenten ban on oils, and cod liver oil is prescribed for rickets and tuberculosis before vitamins are known."
-      ],
-      "entries": [
+        "th2",
         "b1",
-        "th2"
+        "x2",
+        "ec13"
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "key": "whale",
+      "title": "Whaling: peak and spread",
+      "claim": "American and other fleets take over from the Dutch, and shore stations and island ports carry the hunt to the southern oceans.",
+      "beats": [
+        {
+          "date": "c.1750–1761",
+          "text": "Colonists learn to make spermaceti candles, and a Trust of 1761 tries to control the oil.",
+          "entry": "ec1"
+        },
+        {
+          "date": "1795",
+          "text": "With the Revolution having cut Britain off from New England oil, twenty to thirty Yankee whaleships work Walvis Bay.",
+          "entry": "ec11"
+        },
+        {
+          "date": "1795–1804",
+          "text": "The revolutionary wars end the Dutch whale fishery, which had sent 178 ships to Spitsbergen in 1670.",
+          "entry": "w1"
+        },
+        {
+          "date": "c.1804–1838",
+          "text": "Whaling is Tasmania’s first industry, with right whales so thick in the Derwent that fifty or sixty can be seen at once.",
+          "entry": "ec9"
+        },
+        {
+          "date": "1815–1857",
+          "text": "American whaling grows from 25 ships at Nantucket in 1815 to a fleet of 735.",
+          "entry": "ec2"
+        },
+        {
+          "date": "1819–1846",
+          "text": "Honolulu and Lahaina become the whalers’ Pacific ports, with six hundred arrivals in 1846.",
+          "entry": "ec12"
+        },
+        {
+          "date": "c.1830–1840",
+          "text": "New Zealand has perhaps a hundred shore whaling stations, most on Cook Strait.",
+          "entry": "ec10"
+        }
+      ]
+    },
+    {
+      "key": "palm",
+      "title": "West African palm oil",
+      "claim": "A trade built by slave-trading ports and houses turns into the supply of Britain’s soap, candles and machine grease.",
+      "beats": [
+        {
+          "date": "1807",
+          "text": "Britain abolishes the slave trade, and the Bight of Biafra ports turn to palm oil, though Law warns ‘legitimate commerce’ is a Eurocentric label.",
+          "entry": "o1"
+        },
+        {
+          "date": "1807–1830",
+          "text": "Liverpool slave-trading houses become palm-oil importers, among them Horsfall, founder of the city’s largest palm-oil firm.",
+          "entry": "ec4"
+        },
+        {
+          "date": "1807–1855",
+          "text": "Old Calabar and then Bonny lead the oil export, and in 1855 the Bight’s ports ship 25,060 tons.",
+          "entry": "x1"
+        },
+        {
+          "date": "1815–1850",
+          "text": "British palm-oil imports rise from under 2,000 tons a year to over 22,000.",
+          "entry": "ec3"
+        },
+        {
+          "date": "1820–1850",
+          "text": "Law argues that Britain’s soap boom drives the use of slave labour inside West Africa.",
+          "entry": "l1"
+        },
+        {
+          "date": "c.1830–1850",
+          "text": "Palm oil lubricates railways and machinery and is a base for soap, candles and glycerine.",
+          "entry": "ec7"
+        },
+        {
+          "date": "1830–1850",
+          "text": "The oil is made from natural groves of 200 to 300 palms to the hectare, tended by local farmers.",
+          "entry": "x3"
+        },
+        {
+          "date": "1834–1850",
+          "text": "Bristol, a soap-making city, becomes a palm-oil port.",
+          "entry": "ec8"
+        }
+      ]
+    },
+    {
+      "key": "chemistry",
+      "title": "Soap and light become industrial",
+      "claim": "Taxed soap can be counted, and chemistry and machinery change how it and its light are made.",
+      "beats": [
+        {
+          "date": "c.1711–1853",
+          "text": "Britain’s soap excise leaves a record: consumption rises from 3.1 pounds a head in 1791 to 8 pounds in the 1860s.",
+          "entry": "o2"
+        },
+        {
+          "date": "1783",
+          "text": "Argand’s lamp with a tubular wick and glass chimney burns oil without smoke.",
+          "entry": "te1"
+        },
+        {
+          "date": "1791–1860",
+          "text": "British soap consumption more than doubles, from 3.1 to 8 pounds a head.",
+          "entry": "ec6"
+        },
+        {
+          "date": "1791–1823",
+          "text": "Steam power, Leblanc soda and Chevreul’s chemistry make soap making industrial.",
+          "entry": "te3"
+        },
+        {
+          "date": "c.1800–1850",
+          "text": "Marseille’s olive-oil soap meets imported oilseeds in its kettles.",
+          "entry": "ec5"
+        },
+        {
+          "date": "1810",
+          "text": "Gaslight, ‘a light without a wick’, is put before a Commons committee.",
+          "entry": "te2"
+        },
+        {
+          "date": "1813–1823",
+          "text": "Chevreul shows that fats are compounds of fatty acids and glycerine and explains saponification.",
+          "entry": "th1"
+        }
+      ]
+    },
+    {
+      "key": "margins",
+      "title": "Small fats with large futures",
+      "claim": "Four fats that stay marginal in this period become important in the next.",
+      "beats": [
+        {
+          "date": "1750–1836",
+          "text": "Cod liver oil is used as a medicine, and the hunt begins for its active principle.",
+          "entry": "th2"
+        },
+        {
+          "date": "1769–1788",
+          "text": "Serra plants olives at San Diego, and Jefferson admires the trees.",
+          "entry": "x2"
+        },
+        {
+          "date": "c.1800–1850",
+          "text": "In Russia the sunflower is not on the Lenten list of forbidden oils, and the seed is taken up eagerly.",
+          "entry": "b1"
+        },
+        {
+          "date": "c.1832",
+          "text": "James Low’s coconut and nutmeg estates at Province Wellesley, worked partly by convicts from India.",
+          "entry": "ec13"
+        }
       ]
     }
   ],
   "turning_points": [
     {
-      "date": "1761",
-      "text": "The Spermaceti Trust forms.",
-      "entry": "ec1"
+      "date": "c.1750",
+      "text": "Spermaceti candles become the foundation of colonial whaling.",
+      "entry": "ec1",
+      "thread": "whale"
+    },
+    {
+      "date": "1769",
+      "text": "Franciscans plant olives at San Diego.",
+      "entry": "x2",
+      "thread": "margins"
     },
     {
       "date": "1783",
-      "text": "Argand unveils his lamp in Paris.",
-      "entry": "te1"
+      "text": "Argand’s lamp burns oil without smoke.",
+      "entry": "te1",
+      "thread": "chemistry"
+    },
+    {
+      "date": "1795",
+      "text": "Yankee whalers reach Walvis Bay as Dutch whaling ends.",
+      "entry": "ec11",
+      "thread": "whale"
     },
     {
       "date": "1807",
-      "text": "Britain abolishes the slave trade; the oil trade fills its place.",
-      "entry": "o1"
+      "text": "Britain abolishes the slave trade and the oil trade fills its place.",
+      "entry": "o1",
+      "thread": "palm"
     },
     {
       "date": "1810",
-      "text": "Gaslight: a light without a wick.",
-      "entry": "te2"
+      "text": "Gaslight challenges the lamp.",
+      "entry": "te2",
+      "thread": "chemistry"
     },
     {
-      "date": "1813–1823",
-      "text": "Chevreul shows what a fat is.",
-      "entry": "th1"
+      "date": "1813",
+      "text": "Chevreul begins the chemistry of fats.",
+      "entry": "th1",
+      "thread": "chemistry"
     },
     {
-      "date": "1846",
-      "text": "American whaling peaks at 735 ships.",
-      "entry": "ec2"
+      "date": "1815",
+      "text": "American whaling enters its golden age.",
+      "entry": "ec2",
+      "thread": "whale"
+    },
+    {
+      "date": "1815–1850",
+      "text": "British palm-oil imports rise tenfold.",
+      "entry": "ec3",
+      "thread": "palm"
+    },
+    {
+      "date": "1819",
+      "text": "Honolulu becomes the Pacific whalers’ port.",
+      "entry": "ec12",
+      "thread": "whale"
+    },
+    {
+      "date": "1820–1850",
+      "text": "Soap demand drives slavery inside West Africa.",
+      "entry": "l1",
+      "thread": "palm"
+    },
+    {
+      "date": "1853",
+      "text": "Britain’s soap excise, which let consumption be counted, ends.",
+      "entry": "o2",
+      "thread": "chemistry"
     }
   ],
-  "how_to_read": [
-    "*Economy* has the quantities; *Technology* the lamp, gas and the soap chemistry; *Order* and *Lives* the abolition and its limits.",
-    "The Nexus connects the industrial soap chain to the palm-oil boom.",
-    "The *picture by region* counts the 26 entries: Europe 15, Far East 1, Africa 4, Americas 3, Oceania 3; none in Near East or Worldwide. It is a British-led story with two edges: African producers and southern-hemisphere whale coasts."
-  ],
-  "sources": {
-    "intro": "Dolin and Davis et al. for American whaling; Schivelbusch for light; Ward and Lowengard for soap and chemistry; Law, Lynn, Hopkins and Kiple for palm oil.",
-    "main": [
-      "Dolin and Davis, Gallman & Gleiter ([[ec1]], [[ec2]]); Ellis ([[w1]]).",
-      "Schivelbusch ([[te1]], [[te2]]); Ward and Lowengard ([[th1]], [[te3]], [[ec6]], [[o2]], [[ec5]]).",
-      "Law, Lynn, Hopkins and Kiple for palm oil ([[o1]], [[ec3]], [[x1]], [[x3]], [[ec4]], [[ec8]], [[ec7]], [[l1]]); Mueller and Kiple for the olive ([[x2]]).",
-      "Ellis for the Tasmanian, New Zealand and Namibian whale coasts ([[ec9]], [[ec10]], [[ec11]]).",
-      "Dolin for the Hawaiian ports ([[ec12]]); Lees for Penang’s estates ([[ec13]]).",
-      "Kiple (Heiser) for the Russian sunflower ([[b1]]); Kiple (O’Keefe) for cod liver oil ([[th2]])."
-    ],
-    "contested": [
-      "Dolin gives the fleet's peak as both 1846 and 1854 ([[ec2]]).",
-      "Law's argument that the oil boom increased slavery in Africa is a thesis ([[l1]]).",
-      "Ward does not name the imported oils that challenged the olive ([[ec5]]).",
-      "The Lenten sunflower story is Heiser’s, from Gilmore (1931), with ‘perhaps unknown to the church authorities’ his guess ([[b1]]); cod liver oil’s eighteenth-century medical use is ‘reportedly’ so ([[th2]])."
-    ],
-    "gaps": [
-      "Tallow imports from Russia, rapeseed and colza lamp oil, and Marseille’s own records were not read.",
-      "India, China and Japan are absent from this folio, and so is the Near East; Oceania appears only as a whale coast, with no Maori or Pacific Islander producer’s voice beyond Ellis’s mention of ‘toungers’."
-    ]
-  },
-  "reviewed": "2026-10-25",
   "regions": [
     {
       "region": "Europe",
@@ -218,5 +365,33 @@
       ],
       "entries": []
     }
+  ],
+  "sources": {
+    "intro": "Dolin and Davis et al. for American whaling; Schivelbusch for light; Ward and Lowengard for soap and chemistry; Law, Lynn, Hopkins and Kiple for palm oil.",
+    "main": [
+      "Dolin and Davis, Gallman & Gleiter ([[ec1]], [[ec2]]); Ellis ([[w1]]).",
+      "Schivelbusch ([[te1]], [[te2]]); Ward and Lowengard ([[th1]], [[te3]], [[ec6]], [[o2]], [[ec5]]).",
+      "Law, Lynn, Hopkins and Kiple for palm oil ([[o1]], [[ec3]], [[x1]], [[x3]], [[ec4]], [[ec8]], [[ec7]], [[l1]]); Mueller and Kiple for the olive ([[x2]]).",
+      "Ellis for the Tasmanian, New Zealand and Namibian whale coasts ([[ec9]], [[ec10]], [[ec11]]).",
+      "Dolin for the Hawaiian ports ([[ec12]]); Lees for Penang’s estates ([[ec13]]).",
+      "Kiple (Heiser) for the Russian sunflower ([[b1]]); Kiple (O’Keefe) for cod liver oil ([[th2]])."
+    ],
+    "contested": [
+      "Dolin gives the fleet's peak as both 1846 and 1854 ([[ec2]]).",
+      "Law's argument that the oil boom increased slavery in Africa is a thesis ([[l1]]).",
+      "Ward does not name the imported oils that challenged the olive ([[ec5]]).",
+      "The Lenten sunflower story is Heiser’s, from Gilmore (1931), with ‘perhaps unknown to the church authorities’ his guess ([[b1]]); cod liver oil’s eighteenth-century medical use is ‘reportedly’ so ([[th2]])."
+    ],
+    "gaps": [
+      "Tallow imports from Russia, rapeseed and colza lamp oil, and Marseille’s own records were not read.",
+      "India, China and Japan are absent from this folio, and so is the Near East; Oceania appears only as a whale coast, with no Maori or Pacific Islander producer’s voice beyond Ellis’s mention of ‘toungers’."
+    ]
+  },
+  "reviewed": "2026-10-25",
+  "how_to_read": [
+    "Read the thesis and the big ideas first, then the threads: each runs in date order and points to the entries that carry it. Entries that no thread needs are still reached through the regional picture and the lists.",
+    "*Economy* has the quantities; *Technology* the lamp, gas and the soap chemistry; *Order* and *Lives* the abolition and its limits.",
+    "The Nexus connects the industrial soap chain to the palm-oil boom.",
+    "The *picture by region* counts the 26 entries: Europe 15, Far East 1, Africa 4, Americas 3, Oceania 3; none in Near East or Worldwide. It is a British-led story with two edges: African producers and southern-hemisphere whale coasts."
   ]
 }

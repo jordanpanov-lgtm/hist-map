@@ -1,27 +1,20 @@
 {
   "question": "Before farming, how did people get, cook and burn fat — and what do the oldest traces of it show?",
-  "summary": [
-    "For most of human history fat was animal fat, and getting it took work. At Neumark-Nord in central Germany, Neanderthals about 125,000 years ago crushed the bones of at least 172 large mammals and heated them in water to render grease ([[te1]]). The same labour shows in the bones of Levantine gazelles, broken for marrow and grease through the Epipalaeolithic ([[ec4]]); the recorded practice of northern hunters, who crack bones for marrow, boil the fragments and make akutuk and pemmican, shows what such an economy looked like ([[ec2]]); and hunters chose the fattest animals ([[th1]]). Speth’s reading of explorers’ accounts — a Canadian expedition finding it nearly as hard to live on lean meat as to starve, East Africans craving fat like the Eskimo — supplies the reason: lean meat is not enough ([[th2]]).",
-    "The sea and the shore were fat sources from very early. Pinnacle Point in South Africa has shellfish about 164,000 years ago and a whale-barnacle fragment read as scavenged blubber ([[ec6]]); Nile fishers at Wadi Kubbaniya process fish on the dunes ([[ec7]]); and the earliest pots with lipid evidence cooked aquatic foods: in Japan 15,000 to 11,800 years ago, and on the lower Amur, where the pots held fish oils while middle-Amur pots held ruminant fat ([[ec1]], [[ec8]]). China’s Xianrendong pots are older still, but nothing says what they held ([[te3]]).",
-    "Fat was also light and part of cooking: stone lamps in Lascaux and other caves burned animal fat ([[te2]]). Plant fat is thin: gathered wild olives, almonds and pistachios at Ohalo II and heaps of wild olive stones, none shown to have been pressed ([[ec5]], [[ec3]]); the mongongo nut of the Kalahari San, a recorded rather than excavated fat, 58 per cent by weight ([[ec9]]); and avocado stones at four sites from Peru to Mexico by 9000 BC, the Americas’ tree fat ([[ec10]]). Where there were no large herds, the fat came from small prey: palm grubs, winged termites and the Bogong moth, in accounts from Africa, New Guinea and Australia ([[th3]]). The folio is mostly reached through abstracts and papers, and its point is that fat was a human need long before any crop was pressed."
-  ],
-  "themes": [
+  "thesis": "Before farming, fat is the prize of hunting and the evidence is of work: Neanderthals boil bones for grease, hunters choose the fattest animals, and the first pots on three coasts cook fish. Plant fat is gathered rather than pressed; the dairy herd and the oil crops belong to the next folio.",
+  "big_ideas": [
     {
-      "title": "Grease from bones",
-      "text": [
-        "Crushing and boiling bones for grease is a Neanderthal practice at Neumark-Nord, a mark on Levantine gazelle bones, and the recorded method of northern hunters."
-      ],
+      "title": "Fat was worth the labour",
+      "text": "The oldest clear sign of fat processing is rendering: Neanderthals crush the bones of at least 172 large animals and boil out the grease, and Levantine hunters break gazelle bones for marrow. Recorded hunters’ practice and explorers’ accounts of lean meat explain why: people choose the fattest animals and suffer without grease.",
       "entries": [
         "te1",
         "ec4",
-        "ec2"
+        "th1",
+        "th2"
       ]
     },
     {
-      "title": "The shore and the sea",
-      "text": [
-        "Shellfish and whale blubber in South Africa, Nile fish, and the Jōmon and Amur pots show aquatic food as an early fat source; the finds do not isolate the fat itself."
-      ],
+      "title": "Water gave fat early",
+      "text": "Shellfish and perhaps beached blubber at Pinnacle Point, Nile fish at Wadi Kubbaniya and the aquatic oils in the first pots of Japan and the Amur show that sea and river were fat sources from very early, long before any herd.",
       "entries": [
         "ec6",
         "ec7",
@@ -30,95 +23,186 @@
       ]
     },
     {
-      "title": "Fat for light and for the pot",
-      "text": [
-        "Lamps that burn animal fat, and the first pots, whose contents are known only where lipids survive."
-      ],
+      "title": "Fat becomes a technology: lamp and pot",
+      "text": "Animal fat burns in the stone lamps of Lascaux, and the first pots, from China, Japan and the Amur, are where lipids survive to show what was cooked. Light and cooking are the first uses of fat that go beyond eating it raw.",
       "entries": [
         "te2",
-        "ec1",
         "te3",
+        "ec1",
         "ec8"
       ]
     },
     {
-      "title": "Why fat mattered",
-      "text": [
-        "Speth’s explorers, Lee’s Kalahari, and the choice of the fattest animals: three views of why foragers sought fat. Kiple’s insect-eaters add the tropical answer: fat from grubs and termites."
-      ],
-      "entries": [
-        "th2",
-        "ec9",
-        "th1",
-        "ec2",
-        "th3"
-      ]
-    },
-    {
-      "title": "Fruit and nut fat",
-      "text": [
-        "Wild olives and nuts gathered at Ohalo II, the Mediterranean heaps of wild olive stones, the mongongo nut, and the avocado: plant fats that were gathered or tended, not pressed."
-      ],
+      "title": "Plant fat is gathered, not pressed",
+      "text": "Wild olives, almonds and pistachios at Ohalo II, heaps of oleaster stones, the mongongo nut of the Kalahari and the avocado of the Americas show tree and nut fats in use, but none is shown to have been pressed. Where there were few herds, small prey such as grubs and termites supplied fat.",
       "entries": [
         "ec5",
         "ec3",
         "ec9",
-        "ec10"
+        "ec10",
+        "th3"
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "key": "grease",
+      "title": "Grease and marrow: fat from large animals",
+      "claim": "The earliest evidence is of rendering and marrow-breaking, and later recorded practice shows what it served.",
+      "beats": [
+        {
+          "date": "c.125,000 BC",
+          "text": "Neanderthals at Neumark-Nord crush the bones of at least 172 large mammals and heat the fragments in water to render grease.",
+          "entry": "te1"
+        },
+        {
+          "date": "c.40,000–10,000 BC",
+          "text": "Stone lamps at Lascaux and elsewhere burn animal fat.",
+          "entry": "te2"
+        },
+        {
+          "date": "c.20,000–10,000 BC",
+          "text": "In the Levant the shape of gazelle assemblages is explained by intensive marrow and grease extraction.",
+          "entry": "ec4"
+        },
+        {
+          "date": "c.10,000 BC",
+          "text": "Northern hunters, in recorded practice, crack bones for marrow, boil out ‘bone juice’ and make akutuk and pemmican.",
+          "entry": "ec2"
+        },
+        {
+          "date": "c.10,000 BC",
+          "text": "Prehistoric Aleut hunters prefer the fattest sea lions, and bison remains show selection of the fattest individuals.",
+          "entry": "th1"
+        },
+        {
+          "date": "c.10,000 BC",
+          "text": "Explorers’ accounts say it is nearly as hard to live on lean meat without grease as to starve.",
+          "entry": "th2"
+        }
+      ]
+    },
+    {
+      "key": "water",
+      "title": "Fat from water, and the first pots",
+      "claim": "Shore and river provide fat from the Cape coast to the Nile, and the first pottery cooks aquatic food.",
+      "beats": [
+        {
+          "date": "c.162,000 BC",
+          "text": "At Pinnacle Point, South Africa, people eat shellfish, and a whale barnacle is read as a sign of scavenged blubber.",
+          "entry": "ec6"
+        },
+        {
+          "date": "c.18,000 BC",
+          "text": "The first pots in China are used for cooking, though what they held is unknown.",
+          "entry": "te3"
+        },
+        {
+          "date": "c.17,000–15,000 BC",
+          "text": "Nile fishers at Wadi Kubbaniya process fish on the dunes at the flood.",
+          "entry": "ec7"
+        },
+        {
+          "date": "c.14,000–8,000 BC",
+          "text": "Pots on the lower Amur cook fish oils, those on the middle Amur ruminant fat.",
+          "entry": "ec8"
+        },
+        {
+          "date": "c.13,000–9,800 BC",
+          "text": "Japan’s Incipient Jōmon pots boil freshwater and marine animals, in the earliest pots with lipid evidence.",
+          "entry": "ec1"
+        }
+      ]
+    },
+    {
+      "key": "plants",
+      "title": "Plant and small-prey fat, gathered",
+      "claim": "Trees, nuts and insects are fat sources too, though no pressing is shown before the next folio.",
+      "beats": [
+        {
+          "date": "c.40,000–6,000 BC",
+          "text": "Heaps of wild olive stones lie in Palaeolithic and Neolithic sites around the Mediterranean.",
+          "entry": "ec3"
+        },
+        {
+          "date": "c.21,000 BC",
+          "text": "Ohalo II on the Sea of Galilee holds wild olives, almonds and pistachios among 90,000 plant remains.",
+          "entry": "ec5"
+        },
+        {
+          "date": "c.10,000 BC",
+          "text": "The mongongo nut, 58 per cent fat, is a staple of the Kalahari San.",
+          "entry": "ec9"
+        },
+        {
+          "date": "c.10,000 BC",
+          "text": "Palm grubs, winged termites and the Bogong moth supply fat in accounts from Africa, New Guinea and Australia.",
+          "entry": "th3"
+        },
+        {
+          "date": "c.9000–7000 BC",
+          "text": "Avocado stones turn up in Peru, Colombia, Honduras and Mexico.",
+          "entry": "ec10"
+        }
       ]
     }
   ],
   "turning_points": [
     {
       "date": "c.162,000 BC",
-      "text": "People at Pinnacle Point eat shellfish and perhaps whale blubber.",
-      "entry": "ec6"
+      "text": "Shellfish and perhaps whale blubber at Pinnacle Point: the sea as a food source.",
+      "entry": "ec6",
+      "thread": "water"
     },
     {
       "date": "c.125,000 BC",
-      "text": "Neanderthals render bone grease at Neumark-Nord.",
-      "entry": "te1"
+      "text": "Neanderthals render bone grease at scale at Neumark-Nord.",
+      "entry": "te1",
+      "thread": "grease"
     },
     {
-      "date": "c.40,000–10,000 BC",
-      "text": "Stone lamps burn animal fat in the caves of the Upper Palaeolithic.",
-      "entry": "te2"
+      "date": "c.40,000 BC",
+      "text": "Stone lamps burn animal fat.",
+      "entry": "te2",
+      "thread": "grease"
+    },
+    {
+      "date": "c.21,000 BC",
+      "text": "Wild olives, almonds and pistachios are gathered at Ohalo II.",
+      "entry": "ec5",
+      "thread": "plants"
+    },
+    {
+      "date": "c.20,000 BC",
+      "text": "Levantine hunters break gazelle bones for marrow and grease.",
+      "entry": "ec4",
+      "thread": "grease"
     },
     {
       "date": "c.18,000 BC",
       "text": "The first pots appear in China.",
-      "entry": "te3"
+      "entry": "te3",
+      "thread": "water"
     },
     {
-      "date": "c.13,000–9,800 BC",
-      "text": "Jōmon pots cook fish and sea animals.",
-      "entry": "ec1"
+      "date": "c.14,000 BC",
+      "text": "Amur pots cook fish oils and ruminant fat.",
+      "entry": "ec8",
+      "thread": "water"
+    },
+    {
+      "date": "c.13,000 BC",
+      "text": "Japan’s Jōmon pots boil aquatic food.",
+      "entry": "ec1",
+      "thread": "water"
     },
     {
       "date": "c.9000 BC",
-      "text": "Avocado stones are found in Peru, Colombia, Honduras and Mexico.",
-      "entry": "ec10"
+      "text": "Avocado stones in four countries of the Americas.",
+      "entry": "ec10",
+      "thread": "plants"
     }
   ],
-  "how_to_read": [
-    "Sixteen entries, so read straight through. The *picture by region* counts the 16 entries: Europe 2, Near East 3, Far East 3, Africa 2, Americas 3, Worldwide 3; none in Oceania. Dates are very approximate: several are placeholders or brackets from a period name or a recorded practice. India is a blank because the search found nothing.",
-    "The next folio starts at 8000 BC with the first butter and the first crops pressed for oil."
-  ],
-  "sources": {
-    "intro": "This folio rests on recent archaeological papers read in full (Marean 2007, Wu 2012, Shoda 2020, VanDerwarker 2025), on books (Speth, Lee & DeVore, Bar-Yosef & Valla, Kiple), and on web summaries where the paper was not read (Neumark-Nord, Lascaux, the Jōmon pots, the gazelle studies, Ohalo II, Wadi Kubbaniya).",
-    "main": [
-      "Marean et al. 2007, Wu et al. 2012, Shoda et al. 2020 and VanDerwarker et al. 2025 ([[ec6]], [[te3]], [[ec8]], [[ec10]]); Bar-Yosef & Valla (eds.) for the el-Wad bone breakage ([[ec4]]).",
-      "Speth for the explorers’ accounts ([[th2]]); Lee & DeVore for the Kalahari San ([[ec9]]); Kiple for marrow, pemmican, the choice of fat animals, the avocado’s place and insects as a fat food ([[ec2]], [[th1]], [[ec10]], [[th3]]); Mueller for the wild olive ([[ec3]]).",
-      "Web summaries of Kindler et al. 2025, the Lascaux page, Craig et al. 2013 and Munro & Bar-Oz ([[te1]], [[te2]], [[ec1]], [[ec4]]); university and museum pages for Ohalo II and Wadi Kubbaniya ([[ec5]], [[ec7]])."
-    ],
-    "contested": [
-      "The Neumark-Nord ‘fat factory’ is the press’s framing of one paper ([[te1]]); the start of fat lamps at 40,000 years comes from a hobbyist page ([[te2]]); the Pinnacle Point blubber is the authors’ tentative suggestion from one barnacle fragment ([[ec6]]).",
-      "The marrow, fat-selection, Kalahari, explorers, Nile-fish and Xianrendong entries are CONTEXT: recorded practice, an argument, or a find with no fat evidence ([[ec2]], [[th1]], [[ec9]], [[th2]], [[ec7]], [[te3]], [[th3]]); the avocado finds are about domestication, not fat ([[ec10]])."
-    ],
-    "gaps": [
-      "India has no entry: the search for Palaeolithic or Mesolithic fat processing on the subcontinent found nothing, and Fuller’s South Asian synthesis (now read) starts only with Neolithic Mehrgarh; the Indian record before farming may simply be thin.",
-      "Africa has two entries, one of them recorded practice; nothing on Stone Age African marrow and grease sites. China has only the soot-marked pots, with no residue; Korea, the Arctic and the Pacific coasts, and plant fats such as nuts, which leave little trace, are not covered. Moseley’s book on Andean maritime foundations, added to the folder as a djvu file, has not yet been read."
-    ]
-  },
   "regions": [
     {
       "region": "Europe",
@@ -192,5 +276,26 @@
       ]
     }
   ],
-  "reviewed": "2026-10-25"
+  "sources": {
+    "intro": "This folio rests on recent archaeological papers read in full (Marean 2007, Wu 2012, Shoda 2020, VanDerwarker 2025), on books (Speth, Lee & DeVore, Bar-Yosef & Valla, Kiple), and on web summaries where the paper was not read (Neumark-Nord, Lascaux, the Jōmon pots, the gazelle studies, Ohalo II, Wadi Kubbaniya).",
+    "main": [
+      "Marean et al. 2007, Wu et al. 2012, Shoda et al. 2020 and VanDerwarker et al. 2025 ([[ec6]], [[te3]], [[ec8]], [[ec10]]); Bar-Yosef & Valla (eds.) for the el-Wad bone breakage ([[ec4]]).",
+      "Speth for the explorers’ accounts ([[th2]]); Lee & DeVore for the Kalahari San ([[ec9]]); Kiple for marrow, pemmican, the choice of fat animals, the avocado’s place and insects as a fat food ([[ec2]], [[th1]], [[ec10]], [[th3]]); Mueller for the wild olive ([[ec3]]).",
+      "Web summaries of Kindler et al. 2025, the Lascaux page, Craig et al. 2013 and Munro & Bar-Oz ([[te1]], [[te2]], [[ec1]], [[ec4]]); university and museum pages for Ohalo II and Wadi Kubbaniya ([[ec5]], [[ec7]])."
+    ],
+    "contested": [
+      "The Neumark-Nord ‘fat factory’ is the press’s framing of one paper ([[te1]]); the start of fat lamps at 40,000 years comes from a hobbyist page ([[te2]]); the Pinnacle Point blubber is the authors’ tentative suggestion from one barnacle fragment ([[ec6]]).",
+      "The marrow, fat-selection, Kalahari, explorers, Nile-fish and Xianrendong entries are CONTEXT: recorded practice, an argument, or a find with no fat evidence ([[ec2]], [[th1]], [[ec9]], [[th2]], [[ec7]], [[te3]], [[th3]]); the avocado finds are about domestication, not fat ([[ec10]])."
+    ],
+    "gaps": [
+      "India has no entry: the search for Palaeolithic or Mesolithic fat processing on the subcontinent found nothing, and Fuller’s South Asian synthesis (now read) starts only with Neolithic Mehrgarh; the Indian record before farming may simply be thin.",
+      "Africa has two entries, one of them recorded practice; nothing on Stone Age African marrow and grease sites. China has only the soot-marked pots, with no residue; Korea, the Arctic and the Pacific coasts, and plant fats such as nuts, which leave little trace, are not covered. Moseley’s book on Andean maritime foundations, added to the folder as a djvu file, has not yet been read."
+    ]
+  },
+  "reviewed": "2026-10-25",
+  "how_to_read": [
+    "Read the thesis and the big ideas first, then the threads: each runs in date order and points to the entries that carry it. Entries that no thread needs are still reached through the regional picture and the lists.",
+    "Sixteen entries, so read straight through. The *picture by region* counts the 16 entries: Europe 2, Near East 3, Far East 3, Africa 2, Americas 3, Worldwide 3; none in Oceania. Dates are very approximate: several are placeholders or brackets from a period name or a recorded practice. India is a blank because the search found nothing.",
+    "The next folio starts at 8000 BC with the first butter and the first crops pressed for oil."
+  ]
 }
