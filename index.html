@@ -193,6 +193,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .ov-theme h4{font-size:16px;font-weight:normal;margin:0 0 3px;color:#1a1a1a}
 .ov-theme p{font-size:14px;margin:0 0 6px;color:#333}
 .ov-thesis{font-size:18px;line-height:1.5;margin:0 0 6px;color:#1a1a1a}
+.ov-ba{font-size:13px;color:#555;border-top:1px solid #e0d8cc;border-bottom:1px solid #e0d8cc;padding:7px 0;margin:10px 0 0}.ov-ba div{margin:2px 0}.ov-ba b{font-family:'Courier New',monospace;font-size:11px;color:#8a7a5a;font-weight:normal;margin-right:6px}
 .ov-ideas{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .ov-idea{border:1px solid #e0d8cc;background:#fcfaf4;border-radius:4px;padding:11px 14px 9px;position:relative}
 .ov-idea:first-child:nth-last-child(odd){grid-column:1 / -1}
@@ -620,6 +621,7 @@ function buildOverview() {
   (o.threads || []).forEach((t, i) => { tcol[t.key] = THREADCOL[i % THREADCOL.length]; });
   if (o.thesis) { // structured overview: thesis, big ideas, threads with their own chronology
     h += `<div class="ov-summary"><p class="ov-thesis">${_ovText(o.thesis)}</p></div>`;
+    if (o.before || o.after) h += `<div class="ov-ba">${o.before ? `<div><b>← Before</b> ${_ovText(o.before)}</div>` : ''}${o.after ? `<div><b>After →</b> ${_ovText(o.after)}</div>` : ''}</div>`;
     if ((o.big_ideas || []).length) {
       h += `<div class="ov-h">The big ideas</div><div class="ov-ideas">`;
       o.big_ideas.forEach((b, i) => {

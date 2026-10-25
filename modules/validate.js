@@ -199,6 +199,7 @@ for (const file of overviewFiles) {
   if (v2) {
     if (typeof ov.thesis !== 'string' || !ov.thesis.trim()) err(file, '"thesis" must be a non-empty string (the shift, in two sentences)');
     checkRefs('thesis', ov.thesis);
+    for (const k of ['before', 'after']) if (ov[k] !== undefined) { if (typeof ov[k] !== 'string') err(file, `"${k}" must be a string`); checkRefs(k, ov[k]); }
     if (!Array.isArray(ov.big_ideas) || ov.big_ideas.length < 3 || ov.big_ideas.length > 6) err(file, '"big_ideas" must hold 3–6 items');
     for (const [i, b] of (ov.big_ideas || []).entries()) {
       if (!b.title || b.text === undefined) err(file, `big_ideas[${i}]: needs "title" and "text"`);
