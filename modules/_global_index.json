@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 11102,
+    "total_entries": 11103,
     "folio_count": 234,
     "xlink_pairs": 3268,
-    "keyword_terms": 16796,
+    "keyword_terms": 16802,
     "folios": [
       {
         "id": "achaemenid-550bc-330bc",
@@ -413,7 +413,7 @@
       {
         "id": "fats-8000bc-1200bc",
         "title": "Fats & Oils",
-        "entries": 46
+        "entries": 47
       },
       {
         "id": "france-1494-1610",
@@ -5226,6 +5226,7 @@
     "fats-8000bc-1200bc::ec19": "Egypt’s “butter” is butter fat: ox fat, goose fat, and cheese in a First Dynasty jar",
     "fats-8000bc-1200bc::ec25": "Gold of pleasure: Camelina, the weed of flax that became northern Europe’s oil crop",
     "fats-8000bc-1200bc::ec28": "Peru’s preceramic coast lives on the sea, but sea lion is rare",
+    "fats-8000bc-1200bc::ec30": "Eulachon fishing on the Nass: radiocarbon dates push the Tsimshian fishery back 2,500 to 5,000 years",
     "fats-8000bc-1200bc::ec14": "The soybean is domesticated in north-east China: 2700 BC or 1000 BC?",
     "fats-8000bc-1200bc::ec4": "Sesame is a crop of the Harappan Indus",
     "fats-8000bc-1200bc::ec5": "Mustard and linseed at the Harappan sites; animal fats by boiling",
@@ -21065,7 +21066,8 @@
       "fats-1900-1960::te2"
     ],
     "fats-1960-today::ec16": [
-      "fats-1000-1500::ec9"
+      "fats-1000-1500::ec9",
+      "fats-8000bc-1200bc::ec30"
     ],
     "fats-300bc-600ad::o3": [
       "rome-200-300::p1",
@@ -21143,17 +21145,11 @@
       "fats-1200bc-300bc::te6",
       "fats-1000-1500::ec9"
     ],
-    "fats-8000bc-1200bc::ec10": [
-      "fats-1960-today::ec11"
-    ],
-    "fats-1960-today::ec11": [
-      "fats-8000bc-1200bc::ec10"
-    ],
     "fats-8000bc-1200bc::ec28": [
       "fats-8000bc-1200bc::ec12"
     ],
-    "fats-8000bc-1200bc::ec9": [
-      "late-bronze-age-system-1550bc-1200bc::ec3"
+    "fats-8000bc-1200bc::ec30": [
+      "fats-1960-today::ec16"
     ],
     "france-1610-1715::o3": [
       "sugar-1650-1800::o2"
@@ -23959,6 +23955,9 @@
       "lakhmid-268-602::lv2",
       "oman-gulf-1650-1820::lv5",
       "sassanid-484-651::lv2"
+    ],
+    "fats-8000bc-1200bc::ec9": [
+      "late-bronze-age-system-1550bc-1200bc::ec3"
     ],
     "late-roman-anatolia-330-632::p1": [
       "rome-300-400::p7"
@@ -50312,6 +50311,16 @@
       "Moseley",
       "maritime",
       "Andean"
+    ],
+    "fats-8000bc-1200bc::ec30": [
+      "Tsimshian",
+      "Nass River",
+      "Prince Rupert Harbour",
+      "eulachon",
+      "Glenrose Cannery",
+      "Dundas Islands",
+      "radiocarbon",
+      "Thaleichthys pacificus"
     ],
     "fats-8000bc-1200bc::ec14": [
       "North-east China",
@@ -128921,7 +128930,8 @@
       "fats-1960-today::ec16"
     ],
     "eulachon": [
-      "fats-1960-today::ec16"
+      "fats-1960-today::ec16",
+      "fats-8000bc-1200bc::ec30"
     ],
     "candlefish": [
       "fats-1960-today::ec16"
@@ -128936,7 +128946,8 @@
       "fats-1960-today::ec16"
     ],
     "Thaleichthys pacificus": [
-      "fats-1960-today::ec16"
+      "fats-1960-today::ec16",
+      "fats-8000bc-1200bc::ec30"
     ],
     "Pacific Northwest": [
       "fats-1960-today::ec16",
@@ -129619,6 +129630,24 @@
     ],
     "Andean": [
       "fats-8000bc-1200bc::ec28"
+    ],
+    "Tsimshian": [
+      "fats-8000bc-1200bc::ec30"
+    ],
+    "Nass River": [
+      "fats-8000bc-1200bc::ec30"
+    ],
+    "Prince Rupert Harbour": [
+      "fats-8000bc-1200bc::ec30"
+    ],
+    "Glenrose Cannery": [
+      "fats-8000bc-1200bc::ec30"
+    ],
+    "Dundas Islands": [
+      "fats-8000bc-1200bc::ec30"
+    ],
+    "radiocarbon": [
+      "fats-8000bc-1200bc::ec30"
     ],
     "North-east China": [
       "fats-8000bc-1200bc::ec14"

@@ -352,6 +352,14 @@
       "label": "The New World can only boil its oil",
       "full": "No press or quern means seed oil is rare, laborious and used as medicine or light, not food.",
       "src": "Coe"
+    },
+    {
+      "id": "ec30",
+      "lane": "economy",
+      "year": -3000,
+      "label": "Tsimshian eulachon, radiocarbon-dated",
+      "full": "Fish bones push eulachon use back millennia; whether it was rendered into oil that early is unclear.",
+      "src": "Patton, Martindale, Orchard, Vanier & Coupland (2019)"
     }
   ],
   "edges": [
@@ -618,6 +626,12 @@
       "ec23",
       "loose",
       "The managed avocado and the chia-oil salve are the New World’s two main answers to a continent with little animal fat and no oil press."
+    ],
+    [
+      "ec30",
+      "ec29",
+      "loose",
+      "The Tsimshian’s eulachon fishery and the Junin puna’s camelid hunting are two Americas fat economies of roughly the same age, one coastal and one highland."
     ]
   ]
 }
